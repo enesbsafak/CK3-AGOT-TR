@@ -1,557 +1,557 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: agot_dragon_combat.will_engage [AGOT: You will engage [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName] in a dragon duel!]
- agot_dragon_combat.will_engage:0 "You will engage [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName] in a dragon duel!"
-### TODO NOT-IN-ST: agot_dragon_combat.will_engage_enemy [AGOT: You will engage [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName] in a dragon duel!]
- agot_dragon_combat.will_engage_enemy:0 "You will engage [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName] in a dragon duel!"
-### TODO NOT-IN-ST: agot_dragon_combat.will_attempt_engage [AGOT: You will attempt to engage [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName] in a dragon duel!]
- agot_dragon_combat.will_attempt_engage:0 "You will attempt to engage [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName] in a dragon duel!"
-### TODO NOT-IN-ST: agot_dragon_combat.will_attempt_engage_enemy [AGOT: You will attempt to engage [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName] in a dragon duel!]
- agot_dragon_combat.will_attempt_engage_enemy:0 "You will attempt to engage [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName] in a dragon duel!"
-### TODO NOT-IN-ST: agot_dragon_combat.will_not [AGOT: You will try to flee from [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName]!]
- agot_dragon_combat.will_not:0 "You will try to flee from [enemy_dragonrider.GetTitledFirstName] and [enemy_dragon.GetName]!"
-### TODO NOT-IN-ST: agot_dragon_combat.will_not_enemy [AGOT: You will try to flee from [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName]!]
- agot_dragon_combat.will_not_enemy:0 "You will try to flee from [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetName]!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.t [AGOT: Enemy Dragonrider Spotted]
- agot_dragon_combat.0001.t:0 "Enemy Dragonrider Spotted"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_opening [AGOT: [dragon_in_battle.GetName] and I fly over [battle_location.GetName],]
- agot_dragon_combat.0001.desc_opening:0 "[dragon_in_battle.GetName] and I fly over [battle_location.GetName],"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_opening_fly [AGOT: the landscape falling behind us as we race towards the forces of [enemy_commander_in_battle.GetTitledFirstName].]
- agot_dragon_combat.0001.desc_opening_fly:0 " the landscape falling behind us as we race towards the forces of [enemy_commander_in_battle.GetTitledFirstName]."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_opening_fight [AGOT: already having torched a dozen of [enemy_commander_in_battle.GetTitledFirstNamePossessive] men beneath our flames.]
- agot_dragon_combat.0001.desc_opening_fight:0 " already having torched a dozen of [enemy_commander_in_battle.GetTitledFirstNamePossessive] men beneath our flames."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_opening_end [AGOT: Against the sky though, I see a more dangerous foe.\n\nThe]
- agot_dragon_combat.0001.desc_opening_end:0 " Against the sky though, I see a more dangerous foe.\n\nThe "
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_younger [AGOT: older dragon [enemy_dragon.GetName], larger than mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')].]
- agot_dragon_combat.0001.desc_younger:0 "older dragon [enemy_dragon.GetName], larger than mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')]."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_older [AGOT: younger dragon [enemy_dragon.GetName], smaller than mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')].]
- agot_dragon_combat.0001.desc_older:0 "younger dragon [enemy_dragon.GetName], smaller than mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')]."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_same_age [AGOT: dragon [enemy_dragon.GetName], similar in size to mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')].]
- agot_dragon_combat.0001.desc_same_age:0 "dragon [enemy_dragon.GetName], similar in size to mine own [dragon_in_battle.GetNameNoTooltip], with [enemy_dragonrider.GetTitledFirstName] sitting astride [enemy_dragon.Custom('GetDragonHerHim')]."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_weaker_warrior [AGOT: Though I know [enemy_dragonrider.GetFirstName] to be a lesser fighter than I, up here that will not help me.\n\n]
- agot_dragon_combat.0001.desc_weaker_warrior:0 " Though I know [enemy_dragonrider.GetFirstName] to be a lesser fighter than I, up here that will not help me.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_stronger_warrior [AGOT: Though I know [enemy_dragonrider.GetFirstName] to be a greater fighter than I, up here that will help [enemy_dragonrider.GetHerHim] none.\n\n]
- agot_dragon_combat.0001.desc_stronger_warrior:0 " Though I know [enemy_dragonrider.GetFirstName] to be a greater fighter than I, up here that will help [enemy_dragonrider.GetHerHim] none.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_warrior [AGOT: Though I know [enemy_dragonrider.GetFirstName] to be a trained fighter whilst I am not, up here that will help [enemy_dragonrider.GetHerHim] none.\n\n]
- agot_dragon_combat.0001.desc_warrior:0 " Though I know [enemy_dragonrider.GetFirstName] to be a trained fighter whilst I am not, up here that will help [enemy_dragonrider.GetHerHim] none.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_weak [AGOT: Though I know [enemy_dragonrider.GetFirstName] to be a significantly worse fighter than I, up here that will not help me.\n\n]
- agot_dragon_combat.0001.desc_weak:0 " Though I know [enemy_dragonrider.GetFirstName] to be a significantly worse fighter than I, up here that will not help me.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_equally_weak [AGOT: Though neither of us are typical fighters, any conflict with such beasts will not be a test of our own arms.\n\n]
- agot_dragon_combat.0001.desc_equally_weak:0 " Though neither of us are typical fighters, any conflict with such beasts will not be a test of our own arms.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.desc_end [AGOT: No, this conflict will come down to the strength of our dragons, and how we can best use that to our advantage. I seem to have spotted [enemy_dragonrider.GetFirstNameNoTooltip] and [enemy_dragon.GetNameNoTooltip] first, and so now I must consider — do I begin this dance of dragons?]
- agot_dragon_combat.0001.desc_end:0 "No, this conflict will come down to the strength of our dragons, and how we can best use that to our advantage. I seem to have spotted [enemy_dragonrider.GetFirstNameNoTooltip] and [enemy_dragon.GetNameNoTooltip] first, and so now I must consider — do I begin this dance of dragons?"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a [AGOT: Let's get them [dragon_in_battle.GetNameNoTooltip]!]
- agot_dragon_combat.0001.a:0 "Let's get them [dragon_in_battle.GetNameNoTooltip]!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.brother [AGOT: So brother, let us end this!]
- agot_dragon_combat.0001.a.brother:0 "So brother, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.sister [AGOT: So sister, let us end this!]
- agot_dragon_combat.0001.a.sister:0 "So sister, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.father [AGOT: So father, let us end this!]
- agot_dragon_combat.0001.a.father:0 "So father, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.mother [AGOT: So mother, let us end this!]
- agot_dragon_combat.0001.a.mother:0 "So mother, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.son [AGOT: So my son, let us end this!]
- agot_dragon_combat.0001.a.son:0 "So my son, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.a.daughter [AGOT: So my daughter, let us end this!]
- agot_dragon_combat.0001.a.daughter:0 "So my daughter, let us end this!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b [AGOT: A battle? Up here? I think #EMP not#!!]
- agot_dragon_combat.0001.b:0 "A battle? Up here? I think #EMP not#!!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.weaker [AGOT: That seems unwise.]
- agot_dragon_combat.0001.b.weaker:0 "That seems unwise."
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.coward [AGOT: Fight another dragon? Hells no!]
- agot_dragon_combat.0001.b.coward:0 "Fight another dragon? Hells no!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.notice [AGOT: They notice you fleeing and may decide to give chase]
- agot_dragon_combat.0001.b.notice:0 "They notice you fleeing and may decide to give chase"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.no_notice [AGOT: They do not notice you feeling the battlefield]
- agot_dragon_combat.0001.b.no_notice:0 "They do not notice you feeling the battlefield"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.swift [AGOT: #P [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it easier to flee#!]
- agot_dragon_combat.0001.b.swift:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it easier to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0001.b.slow [AGOT: #N [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it harder to flee#!]
- agot_dragon_combat.0001.b.slow:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it harder to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.t [AGOT: Sky Ambush!]
- agot_dragon_combat.0002.t:0 "Sky Ambush!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.desc [AGOT: I am burning the forces of [dragon_commander_in_battle.GetTitledFirstName] to ashes as the battle of [battle_location.GetName] rages below me, when a second gout of flame bursts through the sky!\n\nI feel [enemy_dragon.GetName] dive from under me, hot wind rushing past my face, only narrowly avoiding the torrent of flame which soars above my head. Looking up, I see the dragon [dragon_in_battle.GetName] fly over me with surprising speed, [dragon_in_battle.Custom('GetDragonHerHis')] rider [dragonrider_in_battle.GetTitledFirstName] glaring down at me with murderous intent from over his saddle.\n\n[dragonrider_in_battle.GetSheHe|U] wants a fight!]
- agot_dragon_combat.0002.desc:0 "I am burning the forces of [dragon_commander_in_battle.GetTitledFirstName] to ashes as the battle of [battle_location.GetName] rages below me, when a second gout of flame bursts through the sky!\n\nI feel [enemy_dragon.GetName] dive from under me, hot wind rushing past my face, only narrowly avoiding the torrent of flame which soars above my head. Looking up, I see the dragon [dragon_in_battle.GetName] fly over me with surprising speed, [dragon_in_battle.Custom('GetDragonHerHis')] rider [dragonrider_in_battle.GetTitledFirstName] glaring down at me with murderous intent from over his saddle.\n\n[dragonrider_in_battle.GetSheHe|U] wants a fight!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.a [AGOT: Then [dragonrider_in_battle.GetSheHe] will have one!]
- agot_dragon_combat.0002.a:0 "Then [dragonrider_in_battle.GetSheHe] will have one!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b [AGOT: We've got to get out of here!]
- agot_dragon_combat.0002.b:0 "We've got to get out of here!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b.flee [AGOT: You successfully flee from [dragon_in_battle.GetName] and leave the battlefield]
- agot_dragon_combat.0002.b.flee:0 "You successfully flee from [dragon_in_battle.GetName] and leave the battlefield"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b.swift [AGOT: #P [enemy_dragon.GetNamePossessiveNoTooltip] swiftness will make it easier to flee#!]
- agot_dragon_combat.0002.b.swift:0 "#P [enemy_dragon.GetNamePossessiveNoTooltip] swiftness will make it easier to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b.slow [AGOT: #N [enemy_dragon.GetNamePossessiveNoTooltip] slowness will make it harder to flee#!]
- agot_dragon_combat.0002.b.slow:0 "#N [enemy_dragon.GetNamePossessiveNoTooltip] slowness will make it harder to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b.enemy_swift [AGOT: #N [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it harder to flee#!]
- agot_dragon_combat.0002.b.enemy_swift:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it harder to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.b.enemy_slow [AGOT: #P [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it easier to flee#!]
- agot_dragon_combat.0002.b.enemy_slow:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it easier to flee#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.escape.t [AGOT: [enemy_dragonrider.GetShortUIName] flees before you!]
- agot_dragon_combat.0002.escape.t:0 "[enemy_dragonrider.GetShortUIName] flees before you!"
-### TODO NOT-IN-ST: agot_dragon_combat.0002.escape.desc [AGOT: [enemy_dragonrider.GetShortUIName] has, rather than face you, flown away on [enemy_dragon.GetName]!]
- agot_dragon_combat.0002.escape.desc:0 "[enemy_dragonrider.GetShortUIName] has, rather than face you, flown away on [enemy_dragon.GetName]!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.t [AGOT: Flight Of Dragonfire]
- agot_dragon_combat.0003.t:0 "Flight Of Dragonfire"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.desc [AGOT: I am burning the forces of [dragon_commander_in_battle.GetTitledFirstName] to ashes as the battle of [battle_location.GetName] rages below me, when I see a cloud move #S unnaturally#!... That's a dragon!\n\nYes, on looking closer I can clearly see [dragon_in_battle.GetName] making full speed away from me! [dragonrider_in_battle.GetTitledFirstName] must be on them, but the coward has clearly decided not to fight [enemy_dragon.GetName] and I!]
- agot_dragon_combat.0003.desc:0 "I am burning the forces of [dragon_commander_in_battle.GetTitledFirstName] to ashes as the battle of [battle_location.GetName] rages below me, when I see a cloud move #S unnaturally#!... That's a dragon!\n\nYes, on looking closer I can clearly see [dragon_in_battle.GetName] making full speed away from me! [dragonrider_in_battle.GetTitledFirstName] must be on them, but the coward has clearly decided not to fight [enemy_dragon.GetName] and I!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.a [AGOT: [dragonrider_in_battle.GetSheHe|U] is not getting away!]
- agot_dragon_combat.0003.a:0 "[dragonrider_in_battle.GetSheHe|U] is not getting away!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.a.swift [AGOT: #P [enemy_dragon.GetNamePossessiveNoTooltip] swiftness will make it easier to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!]
- agot_dragon_combat.0003.a.swift:0 "#P [enemy_dragon.GetNamePossessiveNoTooltip] swiftness will make it easier to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.a.slow [AGOT: #N [enemy_dragon.GetNamePossessiveNoTooltip] slowness will make it harder to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!]
- agot_dragon_combat.0003.a.slow:0 "#N [enemy_dragon.GetNamePossessiveNoTooltip] slowness will make it harder to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.a.enemy_swift [AGOT: #N [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it harder to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!]
- agot_dragon_combat.0003.a.enemy_swift:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] swiftness will make it harder to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.a.enemy_slow [AGOT: #P [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it easier to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!]
- agot_dragon_combat.0003.a.enemy_slow:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] slowness will make it easier to catch [dragonrider_in_battle.GetTitledFirstNameNoTooltip]#!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.escape [AGOT: [dragon_in_battle.GetName] and [dragonrider_in_battle.GetFirstName] flee the battlefield.]
- agot_dragon_combat.0003.escape:0 "[dragon_in_battle.GetName] and [dragonrider_in_battle.GetFirstName] flee the battlefield."
-### TODO NOT-IN-ST: agot_dragon_combat.0003.b [AGOT: Let them run.]
- agot_dragon_combat.0003.b:0 "Let them run."
-### TODO NOT-IN-ST: agot_dragon_combat.0003.escape.t [AGOT: [dragonrider_in_battle.GetShortUIName] flies too fast!]
- agot_dragon_combat.0003.escape.t:0 "[dragonrider_in_battle.GetShortUIName] flies too fast!"
-### TODO NOT-IN-ST: agot_dragon_combat.0003.escape.desc [AGOT: [dragonrider_in_battle.GetShortUIName] manages to outrun your pursuit on [dragon_in_battle.GetName]!]
- agot_dragon_combat.0003.escape.desc:0 "[dragonrider_in_battle.GetShortUIName] manages to outrun your pursuit on [dragon_in_battle.GetName]!"
-### TODO NOT-IN-ST: CHANCE_OF_WINNING [AGOT: Chance of Winning]
- CHANCE_OF_WINNING:0 "Chance of Winning"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.t [AGOT: A Dance of Dragons]
- agot_dragon_combat.1001.t:0 "A Dance of Dragons"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.defender_first_round_battle [AGOT: [dsc_defender_dragon.GetName] and I dive lower, the battle of [battle_location.GetName] raging just meters beneath us before we bank around towards the sky, bathing another group of enemy troops in flame as we do so.\n\nAcross the now-smoking field I see [dsc_attacker.GetFirstName] astride [dsc_attacker_dragon.GetName], roaring loudly as they charge directly towards us. A kick of my heels spurs [dsc_defender_dragon.GetNameNoTooltip] wings, and the dance is afoot.\n\n]
- agot_dragon_combat.1001.defender_first_round_battle:0 "[dsc_defender_dragon.GetName] and I dive lower, the battle of [battle_location.GetName] raging just meters beneath us before we bank around towards the sky, bathing another group of enemy troops in flame as we do so.\n\nAcross the now-smoking field I see [dsc_attacker.GetFirstName] astride [dsc_attacker_dragon.GetName], roaring loudly as they charge directly towards us. A kick of my heels spurs [dsc_defender_dragon.GetNameNoTooltip] wings, and the dance is afoot.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.defender_first_round_siege [AGOT: [dsc_defender_dragon.GetName] and I race upwards from the ground, avoiding [dsc_attacker.GetFirstName] astride [dsc_attacker_dragon.GetName] as they try to dive onto us from above. Their momentum drives them too far, and the extra distance between us allows me to circle and prepare for the next pass.\n\nI see [dsc_attacker.GetTitledFirstNameNoTooltip] and [dsc_attacker_dragon.GetFirstNameNoTooltip] do the same, and know that the dance is afoot.\n\n]
- agot_dragon_combat.1001.defender_first_round_siege:0 "[dsc_defender_dragon.GetName] and I race upwards from the ground, avoiding [dsc_attacker.GetFirstName] astride [dsc_attacker_dragon.GetName] as they try to dive onto us from above. Their momentum drives them too far, and the extra distance between us allows me to circle and prepare for the next pass.\n\nI see [dsc_attacker.GetTitledFirstNameNoTooltip] and [dsc_attacker_dragon.GetFirstNameNoTooltip] do the same, and know that the dance is afoot.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.attacker_first_round_battle [AGOT: I see [dsc_defender_dragon.GetName] dive just below my strike, forcing [dsc_attacker_dragon.GetName] and I to turn hard. The sounds of the battle of [battle_location.GetName] raging are drowned in the wind as we bank around back towards our foe. I turn just in time to see [dsc_defender_dragon.GetNameNoTooltip] bathe another group of our troops in flame, and with a kick of my heels I order [dsc_attacker_dragon.GetNameNoTooltip] to close the distance.\n\nThe dance is afoot.\n\n]
- agot_dragon_combat.1001.attacker_first_round_battle:0 "I see [dsc_defender_dragon.GetName] dive just below my strike, forcing [dsc_attacker_dragon.GetName] and I to turn hard. The sounds of the battle of [battle_location.GetName] raging are drowned in the wind as we bank around back towards our foe. I turn just in time to see [dsc_defender_dragon.GetNameNoTooltip] bathe another group of our troops in flame, and with a kick of my heels I order [dsc_attacker_dragon.GetNameNoTooltip] to close the distance.\n\nThe dance is afoot.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.attacker_first_round_siege [AGOT: I see [dsc_defender_dragon.GetName] just barely take off from the [sieging_location.GetName] as I dive towards them, escaping [dsc_attacker_dragon.GetFirstName] by but a talon. Our chance for a swift victory dashed, [dsc_defender_dragon.GetNameNoTooltip] and [dsc_defender.GetNameNoTooltip] circle and prepare for the next pass.\n\nThe dance is afoot.\n\n]
- agot_dragon_combat.1001.attacker_first_round_siege:0 "I see [dsc_defender_dragon.GetName] just barely take off from the [sieging_location.GetName] as I dive towards them, escaping [dsc_attacker_dragon.GetFirstName] by but a talon. Our chance for a swift victory dashed, [dsc_defender_dragon.GetNameNoTooltip] and [dsc_defender.GetNameNoTooltip] circle and prepare for the next pass.\n\nThe dance is afoot.\n\n"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.wait_and_hope [AGOT: Let's, uhhhh, let's hope [my_foe.GetSheHe] messes up...]
- agot_dragon_combat.1001.wait_and_hope:0 "Let's, uhhhh, let's hope [my_foe.GetSheHe] messes up..."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.wait_and_hope [AGOT: You do nothing, hoping that [my_foe.GetTitledFirstName] makes a mistake first]
- agot_dragon_combat.1001.tt.wait_and_hope:0 "You do nothing, hoping that [my_foe.GetTitledFirstName] makes a mistake first"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.wait_and_hope [AGOT: My waiting did nothing but give [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] ample time to devise their own plan.]
- agot_dragon_combat.1001.desc.my_feedback.wait_and_hope:0 "My waiting did nothing but give [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] ample time to devise their own plan."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.wait_and_hope [AGOT: All this, while [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] did nothing at all.]
- agot_dragon_combat.1001.desc.opponent_response.wait_and_hope:0 "All this, while [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] did nothing at all."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.unsure_attack [AGOT: Uhhh, just #EMP burn#! why don't you!]
- agot_dragon_combat.1001.unsure_attack:0 "Uhhh, just #EMP burn#! why don't you!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.unsure_attack [AGOT: You're on a fire-breathing lizard... you use it]
- agot_dragon_combat.1001.tt.unsure_attack:0 "You're on a fire-breathing lizard... you use it"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.unsure_attack [AGOT: My dragon's breath scrapes over [my_foe_dragon.GetNamePossessive] hide, leaving dark patches of scales glowing hot from angry flames.]
- agot_dragon_combat.1001.desc.my_feedback.unsure_attack:0 "My dragon's breath scrapes over [my_foe_dragon.GetNamePossessive] hide, leaving dark patches of scales glowing hot from angry flames."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.unsure_attack [AGOT: [my_foe_dragon.GetNamePossessive] breath came in with a wild swing, singeing [my_dragon.GetName] across [my_dragon.Custom('GetDragonHerHis')] flank.]
- agot_dragon_combat.1001.desc.opponent_response.unsure_attack:0 "[my_foe_dragon.GetNamePossessive] breath came in with a wild swing, singeing [my_dragon.GetName] across [my_dragon.Custom('GetDragonHerHis')] flank."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.enthusiastic_onslaught [AGOT: [my_dragon.GetName] can do more damage than [my_foe_dragon.GetName] can!]
- agot_dragon_combat.1001.enthusiastic_onslaught:0 "[my_dragon.GetName] can do more damage than [my_foe_dragon.GetName] can!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.enthusiastic_onslaught [AGOT: With tooth and claw you trust [my_dragon.GetNameNoTooltip] can voraciously tear through [my_foe_dragon.GetNameNoTooltip]]
- agot_dragon_combat.1001.tt.enthusiastic_onslaught:0 "With tooth and claw you trust [my_dragon.GetNameNoTooltip] can voraciously tear through [my_foe_dragon.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.enthusiastic_onslaught [AGOT: [my_dragon.GetName] and I drove straight at [my_foe_dragon.GetName] and [my_foe.GetName], attempting whatever slashes, bites, and burns we could manage.]
- agot_dragon_combat.1001.desc.my_feedback.enthusiastic_onslaught:0 "[my_dragon.GetName] and I drove straight at [my_foe_dragon.GetName] and [my_foe.GetName], attempting whatever slashes, bites, and burns we could manage."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.enthusiastic_onslaught [AGOT: [my_foe_dragon.GetName] and [my_foe.GetName] drove straight at [my_dragon.GetName] and I, but their bites and flames lacked a focus and couldn't do more than surface wounds.]
- agot_dragon_combat.1001.desc.opponent_response.enthusiastic_onslaught:0 "[my_foe_dragon.GetName] and [my_foe.GetName] drove straight at [my_dragon.GetName] and I, but their bites and flames lacked a focus and couldn't do more than surface wounds."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.underbelly [AGOT: [my_foe_dragon.GetNamePossessive] underbelly looks exposed...]
- agot_dragon_combat.1001.underbelly:0 "[my_foe_dragon.GetNamePossessive] underbelly looks exposed..."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.underbelly [AGOT: You go for the most expected place to attack a dragon]
- agot_dragon_combat.1001.tt.underbelly:0 "You go for the most expected place to attack a dragon"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.underbelly [AGOT: [my_dragon.GetName] and I swooped down below [my_foe_dragon.GetName] before diving straight up, our dragons meeting in the sky with a thud. Unfortunately, we couldn't find purchase in [my_foe_dragon.Custom('GetDragonHerHis')] hide.]
- agot_dragon_combat.1001.desc.my_feedback.underbelly:0 "[my_dragon.GetName] and I swooped down below [my_foe_dragon.GetName] before diving straight up, our dragons meeting in the sky with a thud. Unfortunately, we couldn't find purchase in [my_foe_dragon.Custom('GetDragonHerHis')] hide."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.underbelly [AGOT: [my_foe_dragon.GetName] dove suddenly, and in an instant I knew they were going for [my_dragon.GetNamePossessive] underbelly! Anticipating the strike, I pulled [my_dragon.Custom('GetDragonHerHim')] up, moving with the strike as it hit before harmlessly flying back to prepare for the next crash.]
- agot_dragon_combat.1001.desc.opponent_response.underbelly:0 "[my_foe_dragon.GetName] dove suddenly, and in an instant I knew they were going for [my_dragon.GetNamePossessive] underbelly! Anticipating the strike, I pulled [my_dragon.Custom('GetDragonHerHim')] up, moving with the strike as it hit before harmlessly flying back to prepare for the next crash."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tail_smash [AGOT: Give 'em a smack with that tail!]
- agot_dragon_combat.1001.tail_smash:0 "Give 'em a smack with that tail!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.tail_smash [AGOT: You take a somewhat... unorthodox strategy]
- agot_dragon_combat.1001.tt.tail_smash:0 "You take a somewhat... unorthodox strategy"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.tail_smash [AGOT: [my_dragon.GetName] and I went as if to bite on [my_foe_dragon.GetNamePossessive] wing before feinting around, landing a solid tail hit on [my_foe_dragon.GetNamePossessiveNoTooltip] neck!]
- agot_dragon_combat.1001.desc.my_feedback.tail_smash:0 "[my_dragon.GetName] and I went as if to bite on [my_foe_dragon.GetNamePossessive] wing before feinting around, landing a solid tail hit on [my_foe_dragon.GetNamePossessiveNoTooltip] neck!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.tail_smash [AGOT: [my_foe_dragon.GetName] quickly rushed forward as if to bite on [my_dragon.GetNamePossessive] wing, but as I moved to avoid the strike, [my_foe_dragon.GetName] landed a solid tail hit on [my_dragon.GetNamePossessiveNoTooltip] neck, pushing us apart and leaving us both reeling.]
- agot_dragon_combat.1001.desc.opponent_response.tail_smash:0 "[my_foe_dragon.GetName] quickly rushed forward as if to bite on [my_dragon.GetNamePossessive] wing, but as I moved to avoid the strike, [my_foe_dragon.GetName] landed a solid tail hit on [my_dragon.GetNamePossessiveNoTooltip] neck, pushing us apart and leaving us both reeling."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.guard [AGOT: We'll wait and watch for the time to strike.]
- agot_dragon_combat.1001.guard:0 "We'll wait and watch for the time to strike."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.guard [AGOT: You and [my_dragon.GetName] wait for the perfect time to retaliate]
- agot_dragon_combat.1001.tt.guard:0 "You and [my_dragon.GetName] wait for the perfect time to retaliate"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.guard [AGOT: Our scales clashed and scraped as we deflected blows, sparks flying as [my_foe_dragon.GetNamePossessive] teeth met our most armored hide.]
- agot_dragon_combat.1001.desc.my_feedback.guard:0 "Our scales clashed and scraped as we deflected blows, sparks flying as [my_foe_dragon.GetNamePossessive] teeth met our most armored hide."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.guard [AGOT: [my_dragon.GetNamePossessive] fangs skidded off [my_foe.GetTitledFirstNamePossessive] guarded position, [my_dragon.Custom('GetDragonHerHis')] roar echoing my frustrated fury.]
- agot_dragon_combat.1001.desc.opponent_response.guard:0 "[my_dragon.GetNamePossessive] fangs skidded off [my_foe.GetTitledFirstNamePossessive] guarded position, [my_dragon.Custom('GetDragonHerHis')] roar echoing my frustrated fury."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.probing_attack [AGOT: Let's scratch the surface, test their mettle!]
- agot_dragon_combat.1001.probing_attack:0 "Let's scratch the surface, test their mettle!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.probing_attack [AGOT: You aim to gauge the enemy's reactions and weaknesses]
- agot_dragon_combat.1001.tt.probing_attack:0 "You aim to gauge the enemy's reactions and weaknesses"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.probing_attack [AGOT: Our claws grazed over [my_foe_dragon.GetNamePossessive] scales before we quickly spun in the air, dragons dancing and letting us gauge their speed. No deep cuts, but a revealing dance.]
- agot_dragon_combat.1001.desc.my_feedback.probing_attack:0 "Our claws grazed over [my_foe_dragon.GetNamePossessive] scales before we quickly spun in the air, dragons dancing and letting us gauge their speed. No deep cuts, but a revealing dance."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.probing_attack [AGOT: They tested our flanks, raking [my_dragon.GetNamePossessive] side and forcing us to spin in the sky to avoid exposing ourselves. A probing move, no doubt.]
- agot_dragon_combat.1001.desc.opponent_response.probing_attack:0 "They tested our flanks, raking [my_dragon.GetNamePossessive] side and forcing us to spin in the sky to avoid exposing ourselves. A probing move, no doubt."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.onslaught [AGOT: Full speed ahead, to victory or death!]
- agot_dragon_combat.1001.onslaught:0 "Full speed ahead, to victory or death!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.onslaught [AGOT: An all-out attack, sacrificing defense for offense]
- agot_dragon_combat.1001.tt.onslaught:0 "An all-out attack, sacrificing defense for offense"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.onslaught [AGOT: We barreled forward, [my_dragon.GetName] letting out a roar that turned into the hiss of fire. The air smelled of scorched scales before we met them with a crunch. Chaotic roars, rakes of talon, and I even scored a hit with my own weapon.]
- agot_dragon_combat.1001.desc.my_feedback.onslaught:0 "We barreled forward, [my_dragon.GetName] letting out a roar that turned into the hiss of fire. The air smelled of scorched scales before we met them with a crunch. Chaotic roars, rakes of talon, and I even scored a hit with my own weapon."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.onslaught [AGOT: Their own charge was reckless but effective; the weight of two dragons met with a cacophony of roars and clashing claws, both of us worse for wear as we separated.]
- agot_dragon_combat.1001.desc.opponent_response.onslaught:0 "Their own charge was reckless but effective; the weight of two dragons met with a cacophony of roars and clashing claws, both of us worse for wear as we separated."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.surprise_attack [AGOT: They won't see this coming!]
- agot_dragon_combat.1001.surprise_attack:0 "They won't see this coming!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.surprise_attack [AGOT: An unexpected move designed to catch the enemy off-guard]
- agot_dragon_combat.1001.tt.surprise_attack:0 "An unexpected move designed to catch the enemy off-guard"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.surprise_attack [AGOT: We swooped down into cloud cover, letting the light from the sky cascade through the clouds and obscure our form. Then like a bolt from a crossbow, we struck down. [my_dragon.GetNamePossessive] fangs sank into the tender flesh just below the wing, eliciting a pained roar.]
- agot_dragon_combat.1001.desc.my_feedback.surprise_attack:0 "We swooped down into cloud cover, letting the light from the sky cascade through the clouds and obscure our form. Then like a bolt from a crossbow, we struck down. [my_dragon.GetNamePossessive] fangs sank into the tender flesh just below the wing, eliciting a pained roar."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.surprise_attack [AGOT: [my_foe_dragon.GetName] retreated, flying into the clouds. For a few seconds I could not place them, which is when they struck, landing a bite on [my_dragon.GetNamePossessive] flank.]
- agot_dragon_combat.1001.desc.opponent_response.surprise_attack:0 "[my_foe_dragon.GetName] retreated, flying into the clouds. For a few seconds I could not place them, which is when they struck, landing a bite on [my_dragon.GetNamePossessive] flank."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.taunt [AGOT: Hey [my_foe.GetFirstNameNoTooltip], you call that flying?]
- agot_dragon_combat.1001.taunt:0 "Hey [my_foe.GetFirstNameNoTooltip], you call that flying?"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.taunt [AGOT: You hurl biting insults to enrage your opponent and throw off their focus]
- agot_dragon_combat.1001.tt.taunt:0 "You hurl biting insults to enrage your opponent and throw off their focus"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.taunt [AGOT: My taunt seems to have gotten under their scales. Their next attack will surely be a fumbled mess of wildly spraying flames.]
- agot_dragon_combat.1001.desc.my_feedback.taunt:0 "My taunt seems to have gotten under their scales. Their next attack will surely be a fumbled mess of wildly spraying flames."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.taunt [AGOT: ]
- agot_dragon_combat.1001.desc.opponent_response.taunt:0 ""Hey!" I hear from across the sky "You call that flying?" [my_foe.GetFirstName] shouts as we pass each other. The sheer arrogance [my_foe.GetSheHe] must have to waste time insulting me in a dragon duel!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.go_for_the_gonads [AGOT: Aim low, aim true!]
- agot_dragon_combat.1001.go_for_the_gonads:0 "Aim low, aim true!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.go_for_the_gonads [AGOT: You go for the kill, targeting a highly sensitive area]
- agot_dragon_combat.1001.tt.go_for_the_gonads:0 "You go for the kill, targeting a highly sensitive area"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.go_for_the_gonads [AGOT: Our fangs found the tender flesh of [my_foe_dragon.GetName] leg! [my_foe_dragon.Custom('GetDragonSheHe')|U] shrieked and tumbled momentarily, freeing [my_foe_dragon.Custom('GetDragonHerHis')] leg before righting themselves, blood dripping onto the ground.]
- agot_dragon_combat.1001.desc.my_feedback.go_for_the_gonads:0 "Our fangs found the tender flesh of [my_foe_dragon.GetName] leg! [my_foe_dragon.Custom('GetDragonSheHe')|U] shrieked and tumbled momentarily, freeing [my_foe_dragon.Custom('GetDragonHerHis')] leg before righting themselves, blood dripping onto the ground."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.go_for_the_gonads [AGOT: Our foes went for a cowardly strike below our hindquarters, taking a bite out of [my_dragon.GetNamePossessive] leg! [my_dragon.Custom('GetDragonSheHe')|U] howled in pain and spiraled, but when we were free and [my_dragon.Custom('GetDragonSheHe')] had recovered, I could feel [my_dragon.Custom('GetDragonHerHis')] rage building.]
- agot_dragon_combat.1001.desc.opponent_response.go_for_the_gonads:0 "Our foes went for a cowardly strike below our hindquarters, taking a bite out of [my_dragon.GetNamePossessive] leg! [my_dragon.Custom('GetDragonSheHe')|U] howled in pain and spiraled, but when we were free and [my_dragon.Custom('GetDragonSheHe')] had recovered, I could feel [my_dragon.Custom('GetDragonHerHis')] rage building."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.strict_guard [AGOT: We'll rip them to pieces if they approach us!]
- agot_dragon_combat.1001.strict_guard:0 "We'll rip them to pieces if they approach us!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.strict_guard [AGOT: You opt for a highly defensive posture, trying to minimize damage]
- agot_dragon_combat.1001.tt.strict_guard:0 "You opt for a highly defensive posture, trying to minimize damage"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.strict_guard [AGOT: Our wings tucked in, we repelled each bite and claw, the sound of snapping teeth reverberating in the air. [my_foe_dragon.GetName] let out a bout of flame in frustration.]
- agot_dragon_combat.1001.desc.my_feedback.strict_guard:0 "Our wings tucked in, we repelled each bite and claw, the sound of snapping teeth reverberating in the air. [my_foe_dragon.GetName] let out a bout of flame in frustration."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.strict_guard [AGOT: Our assault only met the hard exterior of their armored scales, each strike a fruitless endeavor. [my_dragon.GetName] let out a bout of flame in frustration.]
- agot_dragon_combat.1001.desc.opponent_response.strict_guard:0 "Our assault only met the hard exterior of their armored scales, each strike a fruitless endeavor. [my_dragon.GetName] let out a bout of flame in frustration."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.confident_attack [AGOT: Our flames will cook them alive!]
- agot_dragon_combat.1001.confident_attack:0 "Our flames will cook them alive!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.confident_attack [AGOT: You engage the enemy front-on with the full force of your fire]
- agot_dragon_combat.1001.tt.confident_attack:0 "You engage the enemy front-on with the full force of your fire"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.confident_attack [AGOT: Our flames intertwined in a deadly dance, but ours came out stronger, searing through [my_foe_dragon.GetNamePossessive] and scorching their wings.]
- agot_dragon_combat.1001.desc.my_feedback.confident_attack:0 "Our flames intertwined in a deadly dance, but ours came out stronger, searing through [my_foe_dragon.GetNamePossessive] and scorching their wings."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.confident_attack [AGOT: [my_foe.GetNamePossessive] dragon breathed a torrent of flame, forcing us to meet it with our own. To our shame, ours slowly lost, and [my_dragon.GetName] singed [my_dragon.Custom('GetDragonHerHis')] wings buffeting the flames back.]
- agot_dragon_combat.1001.desc.opponent_response.confident_attack:0 "[my_foe.GetNamePossessive] dragon breathed a torrent of flame, forcing us to meet it with our own. To our shame, ours slowly lost, and [my_dragon.GetName] singed [my_dragon.Custom('GetDragonHerHis')] wings buffeting the flames back."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.expert_onslaught [AGOT: Every move calculated, every strike precise!]
- agot_dragon_combat.1001.expert_onslaught:0 "Every move calculated, every strike precise!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.expert_onslaught [AGOT: A meticulous, well-practiced assault with no room for errors]
- agot_dragon_combat.1001.tt.expert_onslaught:0 "A meticulous, well-practiced assault with no room for errors"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.expert_onslaught [AGOT: We circled tightly, claws raking and teeth sinking with a surgeon's precision, leaving a torrent of flame just barely missing [my_foe.GetName] on [my_foe.GetHerHis] saddle.]
- agot_dragon_combat.1001.desc.my_feedback.expert_onslaught:0 "We circled tightly, claws raking and teeth sinking with a surgeon's precision, leaving a torrent of flame just barely missing [my_foe.GetName] on [my_foe.GetHerHis] saddle."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.expert_onslaught [AGOT: [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] came in close, executing a claw strike and quick bite on [my_dragon.GetName] before trying to burn me in dragonflame!]
- agot_dragon_combat.1001.desc.opponent_response.expert_onslaught:0 "[my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] came in close, executing a claw strike and quick bite on [my_dragon.GetName] before trying to burn me in dragonflame!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.lightning_assault [AGOT: Strike like a bolt from the blue!]
- agot_dragon_combat.1001.lightning_assault:0 "Strike like a bolt from the blue!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.lightning_assault [AGOT: A rapid ascent followed by a dive to both strike and evade]
- agot_dragon_combat.1001.tt.lightning_assault:0 "A rapid ascent followed by a dive to both strike and evade"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.lightning_assault [AGOT: We dove like a falcon, claws and teeth outstretched. A quick rake across [my_foe_dragon.GetName]'s back followed by a gout of flame left burning gashes.]
- agot_dragon_combat.1001.desc.my_feedback.lightning_assault:0 "We dove like a falcon, claws and teeth outstretched. A quick rake across [my_foe_dragon.GetName]'s back followed by a gout of flame left burning gashes."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.lightning_assault [AGOT: They were fast, too fast. [my_foe_dragon.GetName]'s claws drew molten lines across our hide as they zipped past us bellowing flames behind.]
- agot_dragon_combat.1001.desc.opponent_response.lightning_assault:0 "They were fast, too fast. [my_foe_dragon.GetName]'s claws drew molten lines across our hide as they zipped past us bellowing flames behind."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tire_opponent [AGOT: Let them wear themselves out!]
- agot_dragon_combat.1001.tire_opponent:0 "Let them wear themselves out!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.tire_opponent [AGOT: You aim to exhaust your opponent, dodging and weaving to waste their energy]
- agot_dragon_combat.1001.tt.tire_opponent:0 "You aim to exhaust your opponent, dodging and weaving to waste their energy"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.tire_opponent [AGOT: We dodged each fiery burst, each frenzied claw. [my_foe_dragon.GetNamePossessive] roars grew softer, and its flight is visibly more labored.]
- agot_dragon_combat.1001.desc.my_feedback.tire_opponent:0 "We dodged each fiery burst, each frenzied claw. [my_foe_dragon.GetNamePossessive] roars grew softer, and its flight is visibly more labored."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.tire_opponent [AGOT: [my_foe.GetName] and [my_foe_dragon.GetName] moved expertly through the sky, forcing us to never relax and constantly be on the move.]
- agot_dragon_combat.1001.desc.opponent_response.tire_opponent:0 "[my_foe.GetName] and [my_foe_dragon.GetName] moved expertly through the sky, forcing us to never relax and constantly be on the move."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.chomp [AGOT: #bold CHOMP#!]
- agot_dragon_combat.1001.chomp:0 "#bold CHOMP#!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.chomp [AGOT: You #bold CHOMP#!]
- agot_dragon_combat.1001.tt.chomp:0 "You #bold CHOMP#!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.generic [AGOT: Come on [my_dragon.GetNameNoTooltip]!]
- agot_dragon_combat.1001.motivate.generic:0 "Come on [my_dragon.GetNameNoTooltip]!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.bond [AGOT: Courage, my friend! We can do this!]
- agot_dragon_combat.1001.motivate.bond:0 "Courage, my friend! We can do this!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.rude [AGOT: Fucking fight you big lizard!]
- agot_dragon_combat.1001.motivate.rude:0 "Fucking fight you big lizard!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.authoritative [AGOT: We #EMP must #! win [my_dragon.GetNameNoTooltip]!]
- agot_dragon_combat.1001.motivate.authoritative:0 "We #EMP must #! win [my_dragon.GetNameNoTooltip]!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.sadistic [AGOT: Let's taste their blood on our tongues!]
- agot_dragon_combat.1001.motivate.sadistic:0 "Let's taste their blood on our tongues!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.motivate.eccentric [AGOT: Well look how nice it is up here!]
- agot_dragon_combat.1001.motivate.eccentric:0 "Well look how nice it is up here!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.motivate [AGOT: A call to reinvigorate your dragon against its wounds]
- agot_dragon_combat.1001.tt.motivate:0 "A call to reinvigorate your dragon against its wounds"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.motivate [AGOT: A newfound fire ignited in [my_dragon.GetNamePossessive] eyes; the next burst of flame was hotter, and [my_dragon.Custom('GetDragonHerHis')] strikes harder.]
- agot_dragon_combat.1001.desc.my_feedback.motivate:0 "A newfound fire ignited in [my_dragon.GetNamePossessive] eyes; the next burst of flame was hotter, and [my_dragon.Custom('GetDragonHerHis')] strikes harder."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.motivate [AGOT: I see [my_foe.GetFirstName] bending down to speak to [my_foe_dragon.GetName], though I cannot hear what was said.]
- agot_dragon_combat.1001.desc.opponent_response.motivate:0 "I see [my_foe.GetFirstName] bending down to speak to [my_foe_dragon.GetName], though I cannot hear what was said."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.technique_from_legend [AGOT: Let's try spinning, that's a good trick!]
- agot_dragon_combat.1001.technique_from_legend:0 "Let's try spinning, that's a good trick!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.technique_from_legend [AGOT: You attempt a mythical technique you've only heard in stories]
- agot_dragon_combat.1001.tt.technique_from_legend:0 "You attempt a mythical technique you've only heard in stories"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.technique_from_legend [AGOT: With a flourish straight out of legend, we spun as [my_dragon.GetName] breathed [my_dragon.Custom('GetDragonHerHis')] fire. It was executed perfectly — unable to follow our movements, [my_foe_dragon.GetName] was left disoriented and wounded.]
- agot_dragon_combat.1001.desc.my_feedback.technique_from_legend:0 "With a flourish straight out of legend, we spun as [my_dragon.GetName] breathed [my_dragon.Custom('GetDragonHerHis')] fire. It was executed perfectly — unable to follow our movements, [my_foe_dragon.GetName] was left disoriented and wounded."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.technique_from_legend [AGOT: Like a wheel on a runaway cart they flew at us, fire scorching us in targeted, yet unpredictable directions.]
- agot_dragon_combat.1001.desc.opponent_response.technique_from_legend:0 "Like a wheel on a runaway cart they flew at us, fire scorching us in targeted, yet unpredictable directions."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.like_a_viper [AGOT: Strike quick, retreat quicker!]
- agot_dragon_combat.1001.like_a_viper:0 "Strike quick, retreat quicker!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.like_a_viper [AGOT: Fast and deadly strikes aimed to weaken the opponent]
- agot_dragon_combat.1001.tt.like_a_viper:0 "Fast and deadly strikes aimed to weaken the opponent"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.like_a_viper [AGOT: We darted in and out, each quick strike of tail, talon or torrent leaving welts and gashes. [my_foe_dragon.GetNamePossessive] movements seem to have become sluggish.]
- agot_dragon_combat.1001.desc.my_feedback.like_a_viper:0 "We darted in and out, each quick strike of tail, talon or torrent leaving welts and gashes. [my_foe_dragon.GetNamePossessive] movements seem to have become sluggish."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.like_a_viper [AGOT: With seemingly impossible speed [my_foe_dragon.GetName] darted in and out of our effective range, landing small victories that added up to a painful exchange.]
- agot_dragon_combat.1001.desc.opponent_response.like_a_viper:0 "With seemingly impossible speed [my_foe_dragon.GetName] darted in and out of our effective range, landing small victories that added up to a painful exchange."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.martial_voice [AGOT: Come [my_dragon.GetNameNoTooltip]! Show no mercy!]
- agot_dragon_combat.1001.martial_voice:0 "Come [my_dragon.GetNameNoTooltip]! Show no mercy!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.martial_voice [AGOT: You call upon your years of combat experience to direct [my_dragon.GetNameNoTooltip] as you would a soldier]
- agot_dragon_combat.1001.tt.martial_voice:0 "You call upon your years of combat experience to direct [my_dragon.GetNameNoTooltip] as you would a soldier"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.martial_voice [AGOT: With a commanding cry, we coordinated each attack with precision. Our foe had no answer for our relentless assault.]
- agot_dragon_combat.1001.desc.my_feedback.martial_voice:0 "With a commanding cry, we coordinated each attack with precision. Our foe had no answer for our relentless assault."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.martial_voice [AGOT: I see [my_foe.GetFirstName] bark orders at [my_foe_dragon.GetName] and I recall their martial experience — an unnerving foe to face, even up here.]
- agot_dragon_combat.1001.desc.opponent_response.martial_voice:0 "I see [my_foe.GetFirstName] bark orders at [my_foe_dragon.GetName] and I recall their martial experience — an unnerving foe to face, even up here."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.mocking_boast [AGOT: Is that big lizard compensating for something!?]
- agot_dragon_combat.1001.mocking_boast:0 "Is that big lizard compensating for something!?"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.mocking_boast [AGOT: A verbal taunt aimed to distract and enrage your opponent]
- agot_dragon_combat.1001.tt.mocking_boast:0 "A verbal taunt aimed to distract and enrage your opponent"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.mocking_boast [AGOT: Our taunt seems to have hit the mark. [my_foe_dragon.GetName] is lashing about, picking up on [my_foe_dragon.Custom('GetDragonHerHis')] masters fury. Their lost focus may allow us an opening to strike!]
- agot_dragon_combat.1001.desc.my_feedback.mocking_boast:0 "Our taunt seems to have hit the mark. [my_foe_dragon.GetName] is lashing about, picking up on [my_foe_dragon.Custom('GetDragonHerHis')] masters fury. Their lost focus may allow us an opening to strike!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.mocking_boast [AGOT: [my_foe.GetFirstName] tried to shake our resolve with jeers and insults, and though their provocations are a futile effort up here, the incessant noise seems to have gotten to [my_dragon.GetName].]
- agot_dragon_combat.1001.desc.opponent_response.mocking_boast:0 "[my_foe.GetFirstName] tried to shake our resolve with jeers and insults, and though their provocations are a futile effort up here, the incessant noise seems to have gotten to [my_dragon.GetName]."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desert_warrior [AGOT: That sand... I wonder...]
- agot_dragon_combat.1001.desert_warrior:0 "That sand... I wonder..."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.desert_warrior [AGOT: You leverage your expertise in desert combat to your advantage]
- agot_dragon_combat.1001.tt.desert_warrior:0 "You leverage your expertise in desert combat to your advantage"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.desert_warrior [AGOT: We quickly dove towards the running sand, luring [my_foe.GetTitledFirstName] to follow behind. With a timed burst of wing over a dune, we sprayed a cloud of sand up towards [my_foe.GetTitledFirstNameNoTooltip]! Disoriented, [my_foe.GetHerHis] dragon slowed in the painful cloud, and as we turned back to bathe them in fire, I saw that the cloud of sand had turned to glass, further injuring them!]
- agot_dragon_combat.1001.desc.my_feedback.desert_warrior:0 "We quickly dove towards the running sand, luring [my_foe.GetTitledFirstName] to follow behind. With a timed burst of wing over a dune, we sprayed a cloud of sand up towards [my_foe.GetTitledFirstNameNoTooltip]! Disoriented, [my_foe.GetHerHis] dragon slowed in the painful cloud, and as we turned back to bathe them in fire, I saw that the cloud of sand had turned to glass, further injuring them!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.desert_warrior [AGOT: They dove quickly towards the sands beneath and [my_dragon.GetFirstNamePossessive] tucked [my_dragon.Custom('GetDragonHerHis')] wings to follow. Our gouts of flame turned the sands beneath to glass, but we could not land a decisive strike. Suddenly, a gust of [my_foe_dragon.GetNamePossessive] wings shower us with sand! Before we can escape the cloud, we're bathed in heat, and the sand grains around us turn to glass shards! They rake our bodies before we can escape.]
- agot_dragon_combat.1001.desc.opponent_response.desert_warrior:0 "They dove quickly towards the sands beneath and [my_dragon.GetFirstNamePossessive] tucked [my_dragon.Custom('GetDragonHerHis')] wings to follow. Our gouts of flame turned the sands beneath to glass, but we could not land a decisive strike. Suddenly, a gust of [my_foe_dragon.GetNamePossessive] wings shower us with sand! Before we can escape the cloud, we're bathed in heat, and the sand grains around us turn to glass shards! They rake our bodies before we can escape."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.jungle_stalker [AGOT: Let's use the jungle!]
- agot_dragon_combat.1001.jungle_stalker:0 "Let's use the jungle!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.jungle_stalker [AGOT: You adapt your tactics from jungle warfare to this aerial duel]
- agot_dragon_combat.1001.tt.jungle_stalker:0 "You adapt your tactics from jungle warfare to this aerial duel"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.jungle_stalker [AGOT: We mimicked the hit-and-run tactics of jungle predators, luring them into the trees where we had the advantage. They were constantly on the defensive, never able to predict our next move or strike, only escaping by burning our section of the jungle down.]
- agot_dragon_combat.1001.desc.my_feedback.jungle_stalker:0 "We mimicked the hit-and-run tactics of jungle predators, luring them into the trees where we had the advantage. They were constantly on the defensive, never able to predict our next move or strike, only escaping by burning our section of the jungle down."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.jungle_stalker [AGOT: For their part, we fell into their trap, getting lured into the jungles below where we suffered several strikes before burning the forestry down and escaping into the sky again.]
- agot_dragon_combat.1001.desc.opponent_response.jungle_stalker:0 "For their part, we fell into their trap, getting lured into the jungles below where we suffered several strikes before burning the forestry down and escaping into the sky again."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.open_terrain_expert [AGOT: The open sky is where we shine!]
- agot_dragon_combat.1001.open_terrain_expert:0 "The open sky is where we shine!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.open_terrain_expert [AGOT: You utilize your expertise in open terrain on the ground to gain an upper hand in the spacious sky]
- agot_dragon_combat.1001.tt.open_terrain_expert:0 "You utilize your expertise in open terrain on the ground to gain an upper hand in the spacious sky"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.open_terrain_expert [AGOT: In the sky, like on the ground, space is a tool to be used. With no obstacles to hinder us, we soared and dived, making each attack count.]
- agot_dragon_combat.1001.desc.my_feedback.open_terrain_expert:0 "In the sky, like on the ground, space is a tool to be used. With no obstacles to hinder us, we soared and dived, making each attack count."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.open_terrain_expert [AGOT: [my_foe.GetFirstName] is a known master of the open terrain, and they used that to great effect, landing solid blows we had no way to counter.]
- agot_dragon_combat.1001.desc.opponent_response.open_terrain_expert:0 "[my_foe.GetFirstName] is a known master of the open terrain, and they used that to great effect, landing solid blows we had no way to counter."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.rough_terrain_expert.rocky [AGOT: Those rocks look dangerous!]
- agot_dragon_combat.1001.rough_terrain_expert.rocky:0 "Those rocks look dangerous!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.rough_terrain_expert.rocky [AGOT: You will drive [my_foe_dragon.GetFirstName] into the rocks beneath]
- agot_dragon_combat.1001.tt.rough_terrain_expert.rocky:0 "You will drive [my_foe_dragon.GetFirstName] into the rocks beneath"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.rocky [AGOT: We dipped low, narrowly avoiding the jagged rocks before surging upwards just as [my_foe_dragon.GetName] followed. Using this ruse, we turned and brought [my_dragon.GetNamePossessive] full weight down upon [my_foe_dragon.GetName], pushing [my_foe_dragon.GetHerHis] body into the jagged rocks. Once. Twice. The noise of dragons roaring and crushing stone is immense. Only when [my_foe.GetFirstName] gets in a lucky strike from [my_foe.GetHerHis] saddle forcing [my_dragon.GetName] to relent do they take the chance to escape.]
- agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.rocky:0 "We dipped low, narrowly avoiding the jagged rocks before surging upwards just as [my_foe_dragon.GetName] followed. Using this ruse, we turned and brought [my_dragon.GetNamePossessive] full weight down upon [my_foe_dragon.GetName], pushing [my_foe_dragon.GetHerHis] body into the jagged rocks. Once. Twice. The noise of dragons roaring and crushing stone is immense. Only when [my_foe.GetFirstName] gets in a lucky strike from [my_foe.GetHerHis] saddle forcing [my_dragon.GetName] to relent do they take the chance to escape."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.rocky [AGOT: Afterwards though, we were driven into the rocks below, the full weight of [my_foe_dragon.GetName] driving us down onto the jagged rocks. Once, twice, nearly thrice were we crushed into the ground, but a lucky swipe from my own weapon at [my_foe_dragon.GetNamePossessive] snout gave [my_dragon.GetName] the chance to escape.]
- agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.rocky:0 "Afterwards though, we were driven into the rocks below, the full weight of [my_foe_dragon.GetName] driving us down onto the jagged rocks. Once, twice, nearly thrice were we crushed into the ground, but a lucky swipe from my own weapon at [my_foe_dragon.GetNamePossessive] snout gave [my_dragon.GetName] the chance to escape."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.rough_terrain_expert.boggy [AGOT: Into the bogs!]
- agot_dragon_combat.1001.rough_terrain_expert.boggy:0 "Into the bogs!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.rough_terrain_expert.boggy [AGOT: You attempt to use the bogs to trap your enemy]
- agot_dragon_combat.1001.tt.rough_terrain_expert.boggy:0 "You attempt to use the bogs to trap your enemy"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.boggy [AGOT: Utilizing a series of highly aggressive attacks, we pushed [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] down towards the bog, their heavy for sinking into the muck. A clambering match between our dragons ensued, with [my_dragon.GetName] repeatedly dunking [my_foe_dragon.GetNamePossessiveNoTooltip] head under the viscous mud. Eventually though we had to back off, lest we be pulled down ourselves.]
- agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.boggy:0 "Utilizing a series of highly aggressive attacks, we pushed [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] down towards the bog, their heavy for sinking into the muck. A clambering match between our dragons ensued, with [my_dragon.GetName] repeatedly dunking [my_foe_dragon.GetNamePossessiveNoTooltip] head under the viscous mud. Eventually though we had to back off, lest we be pulled down ourselves."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.boggy [AGOT: Utilizing a series of highly aggressive attacks, [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] pushed us down towards the bog, [my_dragon.GetNamePossessive] heavy form for sinking into the muck. A clambering match between the dragons ensued, with [my_dragon.GetNameNoTooltip] repeatedly being dunked under the viscous mud. Eventually, however, they backed off as [my_dragon.GetNameNoTooltip] got a good purchase and nearly pulled them down with us.]
- agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.boggy:0 "Utilizing a series of highly aggressive attacks, [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName] pushed us down towards the bog, [my_dragon.GetNamePossessive] heavy form for sinking into the muck. A clambering match between the dragons ensued, with [my_dragon.GetNameNoTooltip] repeatedly being dunked under the viscous mud. Eventually, however, they backed off as [my_dragon.GetNameNoTooltip] got a good purchase and nearly pulled them down with us."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.forest_fighter [AGOT: These trees are our allies, we'll use them!]
- agot_dragon_combat.1001.forest_fighter:0 "These trees are our allies, we'll use them!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.forest_fighter [AGOT: You're above your element, using the forest for complex aerial maneuvers they cannot replicate]
- agot_dragon_combat.1001.tt.forest_fighter:0 "You're above your element, using the forest for complex aerial maneuvers they cannot replicate"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.forest_fighter [AGOT: We dodged between the trees, popping out unexpectedly to land a biting blow on [my_foe_dragon.GetNamePossessive] wing, who only escaped by incinerating a section of forest.]
- agot_dragon_combat.1001.desc.my_feedback.forest_fighter:0 "We dodged between the trees, popping out unexpectedly to land a biting blow on [my_foe_dragon.GetNamePossessive] wing, who only escaped by incinerating a section of forest."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.forest_fighter [AGOT: We followed in pursuit of [my_foe_dragon.GetName] down into the forest, but [my_dragon.GetName] was unable to replicate their fast maneuvers. [my_dragon.Custom('GetDragonSheHe')|U] was hit by the larger branches before angrily incinerating a section of forest to escape.]
- agot_dragon_combat.1001.desc.opponent_response.forest_fighter:0 "We followed in pursuit of [my_foe_dragon.GetName] down into the forest, but [my_dragon.GetName] was unable to replicate their fast maneuvers. [my_dragon.Custom('GetDragonSheHe')|U] was hit by the larger branches before angrily incinerating a section of forest to escape."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.special_fallback [AGOT: Retreat, regroup!]
- agot_dragon_combat.1001.special_fallback:0 "Retreat, regroup!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.tt.special_fallback [AGOT: You tactically retreat to reassess the situation]
- agot_dragon_combat.1001.tt.special_fallback:0 "You tactically retreat to reassess the situation"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_feedback.special_fallback [AGOT: We pulled back just in time, narrowly evading a lunging bite that would've torn through [my_dragon.GetNamePossessive] wings.]
- agot_dragon_combat.1001.desc.my_feedback.special_fallback:0 "We pulled back just in time, narrowly evading a lunging bite that would've torn through [my_dragon.GetNamePossessive] wings."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.opponent_response.special_fallback [AGOT: We then followed up with a lunging bite that very nearly caught their wings! Seeing our ferocity, [my_foe.GetName] and [my_foe_dragon.GetName] fell back — a clear sign of weakness!]
- agot_dragon_combat.1001.desc.opponent_response.special_fallback:0 "We then followed up with a lunging bite that very nearly caught their wings! Seeing our ferocity, [my_foe.GetName] and [my_foe_dragon.GetName] fell back — a clear sign of weakness!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_injury.none [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I are completely unharmed,]
- agot_dragon_combat.1001.desc.my_injury.none:0 "\n\n[my_dragon.GetNameNoTooltip] and I are completely unharmed, "
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_injury.light [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I are only lightly wounded,]
- agot_dragon_combat.1001.desc.my_injury.light:0 "\n\n[my_dragon.GetNameNoTooltip] and I are only lightly wounded, "
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_injury.heavy [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I are wounded, blood dripping to the ground beneath,]
- agot_dragon_combat.1001.desc.my_injury.heavy:0 "\n\n[my_dragon.GetNameNoTooltip] and I are wounded, blood dripping to the ground beneath, "
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_injury.severe [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I are doing badly, steaming blood gushing in torrents,]
- agot_dragon_combat.1001.desc.my_injury.severe:0 "\n\n[my_dragon.GetNameNoTooltip] and I are doing badly, steaming blood gushing in torrents, "
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.my_injury.mortal [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I are a hair's breadth from death, our multiple wounds nearly causing us to fall from the sky,]
- agot_dragon_combat.1001.desc.my_injury.mortal:0 "\n\n[my_dragon.GetNameNoTooltip] and I are a hair's breadth from death, our multiple wounds nearly causing us to fall from the sky, "
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.foe_injury.none [AGOT: while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] seem no worse for wear.]
- agot_dragon_combat.1001.desc.foe_injury.none:0 "while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] seem no worse for wear."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.foe_injury.light [AGOT: while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are sporting only superficial wounds.]
- agot_dragon_combat.1001.desc.foe_injury.light:0 "while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are sporting only superficial wounds."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.foe_injury.heavy [AGOT: while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are bleeding noticeably.]
- agot_dragon_combat.1001.desc.foe_injury.heavy:0 "while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are bleeding noticeably."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.foe_injury.severe [AGOT: while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are badly wounded.]
- agot_dragon_combat.1001.desc.foe_injury.severe:0 "while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are badly wounded."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.foe_injury.mortal [AGOT: while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are themselves clearly doomed.]
- agot_dragon_combat.1001.desc.foe_injury.mortal:0 "while [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] are themselves clearly doomed."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.near_zero [AGOT: \n\nGiven how this has gone so far, I feel certain we are facing our doom.]
- agot_dragon_combat.1001.desc.chance_of_winning.near_zero:0 "\n\nGiven how this has gone so far, I feel certain we are facing our doom."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.minimal [AGOT: \n\nI am extremely pessimistic of our chances at the moment.]
- agot_dragon_combat.1001.desc.chance_of_winning.minimal:0 "\n\nI am extremely pessimistic of our chances at the moment."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.low [AGOT: \n\n[my_foe.GetTitledFirstNameNoTooltip] seems confident, and I fear we are far from victory.]
- agot_dragon_combat.1001.desc.chance_of_winning.low:0 "\n\n[my_foe.GetTitledFirstNameNoTooltip] seems confident, and I fear we are far from victory."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.fair [AGOT: \n\nI can feel the sweat of my brow, and fear we are losing this fight.]
- agot_dragon_combat.1001.desc.chance_of_winning.fair:0 "\n\nI can feel the sweat of my brow, and fear we are losing this fight."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.okay [AGOT: \n\nThis could certainly have gone better, but we're not done yet!]
- agot_dragon_combat.1001.desc.chance_of_winning.okay:0 "\n\nThis could certainly have gone better, but we're not done yet!"
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.good [AGOT: \n\nThings are going well, but it's still either of our sky to win.]
- agot_dragon_combat.1001.desc.chance_of_winning.good:0 "\n\nThings are going well, but it's still either of our sky to win."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.high [AGOT: \n\nI sense [my_foe.GetFirstNamePossessiveNoTooltip] failing confidence. [my_foe.GetSheHe|U] is surely feeling the pressure now.]
- agot_dragon_combat.1001.desc.chance_of_winning.high:0 "\n\nI sense [my_foe.GetFirstNamePossessiveNoTooltip] failing confidence. [my_foe.GetSheHe|U] is surely feeling the pressure now."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.very_high [AGOT: \n\nEvery movement of [my_dragon.GetNameNoTooltip] seems filled with the hunger of a predator about to finally pounce on their prey.]
- agot_dragon_combat.1001.desc.chance_of_winning.very_high:0 "\n\nEvery movement of [my_dragon.GetNameNoTooltip] seems filled with the hunger of a predator about to finally pounce on their prey."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.excellent [AGOT: \n\n[my_dragon.GetNameNoTooltip] and I feel in sync, with this almost certain to end in our victory.]
- agot_dragon_combat.1001.desc.chance_of_winning.excellent:0 "\n\n[my_dragon.GetNameNoTooltip] and I feel in sync, with this almost certain to end in our victory."
-### TODO NOT-IN-ST: agot_dragon_combat.1001.desc.chance_of_winning.near_certain [AGOT: \n\nThis is surely nearly over, with [my_foe.GetTitledFirstName] nearly falling from the sky.]
- agot_dragon_combat.1001.desc.chance_of_winning.near_certain:0 "\n\nThis is surely nearly over, with [my_foe.GetTitledFirstName] nearly falling from the sky."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.limit [AGOT: [wounded_dragon.GetName] cannot be wounded any further.]
- agot_dragon_combat.wound_dragon.limit:0 "[wounded_dragon.GetName] cannot be wounded any further."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.1 [AGOT: [wounded_dragon.GetName] is $trait_dragon_wounded_1$.]
- agot_dragon_combat.wound_dragon.1:0 "[wounded_dragon.GetName] is $trait_dragon_wounded_1$."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.2 [AGOT: [wounded_dragon.GetName] is $trait_dragon_wounded_2$.]
- agot_dragon_combat.wound_dragon.2:0 "[wounded_dragon.GetName] is $trait_dragon_wounded_2$."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.3 [AGOT: [wounded_dragon.GetName] is $trait_dragon_wounded_3$.]
- agot_dragon_combat.wound_dragon.3:0 "[wounded_dragon.GetName] is $trait_dragon_wounded_3$."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.4 [AGOT: [wounded_dragon.GetName] is $trait_dragon_wounded_4$.]
- agot_dragon_combat.wound_dragon.4:0 "[wounded_dragon.GetName] is $trait_dragon_wounded_4$."
-### TODO NOT-IN-ST: agot_dragon_combat.wound_dragon.5 [AGOT: [wounded_dragon.GetName] is $trait_dragon_wounded_5$.]
- agot_dragon_combat.wound_dragon.5:0 "[wounded_dragon.GetName] is $trait_dragon_wounded_5$."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.t [AGOT: A Dance of Doom!]
- agot_dragon_combat.1003.t:0 "A Dance of Doom!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.sudden_strike [AGOT: Our fates changed as suddenly as the wind. In one second, [my_foe.GetTitledFirstName] is looking vulnerable, merely moments from defeat. The next I see [my_foe_dragon.GetName] whip [my_foe_dragon.Custom('GetDragonHerHis')] neck around, a great maw opening up before my eyes.\n\nI just manage to look into the gaping jaws, feel the hot air of death rising to greet me before they close, and I think...]
- agot_dragon_combat.1003.desc.sudden_strike:0 "Our fates changed as suddenly as the wind. In one second, [my_foe.GetTitledFirstName] is looking vulnerable, merely moments from defeat. The next I see [my_foe_dragon.GetName] whip [my_foe_dragon.Custom('GetDragonHerHis')] neck around, a great maw opening up before my eyes.\n\nI just manage to look into the gaping jaws, feel the hot air of death rising to greet me before they close, and I think..."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.sudden_strike [AGOT: This is how it ends.]
- agot_dragon_combat.1003.a.sudden_strike:0 "This is how it ends."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.sudden_strike [AGOT: You are devoured by [my_foe_dragon.GetName]]
- agot_dragon_combat.1003.f.sudden_strike:0 "You are devoured by [my_foe_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.dragonfire [AGOT: I've ridden dragons to war. I know what it is to see men burn. Never did I think I'd be this side of it.\n\nWith a roar and a rush of heat I see [my_foe_dragon.GetName] open [my_foe_dragon.Custom('GetDragonHerHis')] gullet, the quick incendiary of dragonfire launching towards both [my_dragon.GetName] and I. Too large to avoid. Too close to block. I instinctively raise my arms, knowing it will do no good, and I scream.]
- agot_dragon_combat.1003.desc.dragonfire:0 "I've ridden dragons to war. I know what it is to see men burn. Never did I think I'd be this side of it.\n\nWith a roar and a rush of heat I see [my_foe_dragon.GetName] open [my_foe_dragon.Custom('GetDragonHerHis')] gullet, the quick incendiary of dragonfire launching towards both [my_dragon.GetName] and I. Too large to avoid. Too close to block. I instinctively raise my arms, knowing it will do no good, and I scream."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.dragonfire [AGOT: #EMP AGGGGHHHHHHHHHH!!!!#!]
+﻿﻿﻿﻿l_english:
+
+ agot_dragon_combat.will_engage:0 "Bir ejderha düellosunda [enemy_dragonrider.GetTitledFirstName] ve [enemy_dragon.GetName] ile çarpışacaksınız!"
+
+ agot_dragon_combat.will_engage_enemy:0 "Bir ejderha düellosunda [dragonrider_in_battle.GetTitledFirstName] ve [dragon_in_battle.GetName] ile çarpışacaksınız!"
+
+ agot_dragon_combat.will_attempt_engage:0 "Bir ejderha düellosunda [enemy_dragonrider.GetTitledFirstName] ve [enemy_dragon.GetName] ile çarpışmayı deneyeceksiniz!"
+
+ agot_dragon_combat.will_attempt_engage_enemy:0 "Bir ejderha düellosunda [dragonrider_in_battle.GetTitledFirstName] ve [dragon_in_battle.GetName] ile çarpışmayı deneyeceksiniz!"
+
+ agot_dragon_combat.will_not:0 "[enemy_dragonrider.GetTitledFirstName] ve [enemy_dragon.GetName]'den kaçmaya çalışacaksınız!"
+
+ agot_dragon_combat.will_not_enemy:0 "[dragonrider_in_battle.GetTitledFirstName] ve [dragon_in_battle.GetName]'den kaçmaya çalışacaksınız!"
+
+ agot_dragon_combat.0001.t:0 "Düşman Ejderha Binicisi Görüldü"
+
+ agot_dragon_combat.0001.desc_opening:0 "[dragon_in_battle.GetName] ve ben [battle_location.GetName] üzerinde uçuyoruz,"
+
+ agot_dragon_combat.0001.desc_opening_fly:0 " manzara arkamızda kalırken [enemy_commander_in_battle.GetTitledFirstName] kuvvetlerine doğru süzülüyoruz."
+
+ agot_dragon_combat.0001.desc_opening_fight:0 " alevlerimizin altında [enemy_commander_in_battle.GetTitledFirstNamePossessive] adamlarından bir düzinesini çoktan kül etmiş durumdayız."
+
+ agot_dragon_combat.0001.desc_opening_end:0 " Yine de gökyüzüne karşı daha tehlikeli bir düşman görüyorum.\n\n"
+
+ agot_dragon_combat.0001.desc_younger:0 "Yaşlı ejderha [enemy_dragon.GetName], benim kendi ejderham [dragon_in_battle.GetNameNoTooltip]'ten daha büyük; üzerinde [enemy_dragonrider.GetTitledFirstName] oturuyor."
+
+ agot_dragon_combat.0001.desc_older:0 "Genç ejderha [enemy_dragon.GetName], benim kendi ejderham [dragon_in_battle.GetNameNoTooltip]'ten daha küçük; üzerinde [enemy_dragonrider.GetTitledFirstName] oturuyor."
+
+ agot_dragon_combat.0001.desc_same_age:0 "Ejderha [enemy_dragon.GetName], boyut olarak benim kendi ejderham [dragon_in_battle.GetNameNoTooltip] ile benzer; üzerinde [enemy_dragonrider.GetTitledFirstName] oturuyor."
+
+ agot_dragon_combat.0001.desc_weaker_warrior:0 " [enemy_dragonrider.GetFirstName]'in benden daha az yetenekli bir savaşçı olduğunu bilsem de, burada bunun bana hiçbir faydası olmayacak.\n\n"
+
+ agot_dragon_combat.0001.desc_stronger_warrior:0 " [enemy_dragonrider.GetFirstName]'in benden daha yetenekli bir savaşçı olduğunu bilsem de, burada bunun ona hiçbir faydası olmayacak.\n\n"
+
+ agot_dragon_combat.0001.desc_warrior:0 " [enemy_dragonrider.GetFirstName] eğitimli bir savaşçı olsa da ben olmasam bile, burada bunun ona hiçbir faydası olmayacak.\n\n"
+
+ agot_dragon_combat.0001.desc_weak:0 " [enemy_dragonrider.GetFirstName]'in benden çok daha kötü bir savaşçı olduğunu bilsem de, burada bunun bana hiçbir faydası olmayacak.\n\n"
+
+ agot_dragon_combat.0001.desc_equally_weak:0 " İkimiz de alışılmış savaşçılar olmasak da, bu tür yaratıklarla her çatışma kendi silahlarımızın bir sınavı olmayacak.\n\n"
+
+ agot_dragon_combat.0001.desc_end:0 "Hayır, bu çatışma ejderhalarımızın gücüne ve bunu en iyi nasıl avantajımıza kullanacağımıza bağlı olacak. Görünüşe göre [enemy_dragonrider.GetFirstNameNoTooltip] ve [enemy_dragon.GetNameNoTooltip]'i ilk ben fark ettim; şimdi düşünmem gereken şey şu: bu ejderha dansını ben mi başlatayım?"
+
+ agot_dragon_combat.0001.a:0 "Hadi onları alalım [dragon_in_battle.GetNameNoTooltip]!"
+
+ agot_dragon_combat.0001.a.brother:0 "Öyleyse kardeşim, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.a.sister:0 "Öyleyse kızkardeşim, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.a.father:0 "Öyleyse baba, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.a.mother:0 "Öyleyse anne, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.a.son:0 "Öyleyse oğlum, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.a.daughter:0 "Öyleyse kızım, hadi bunu bitirelim!"
+
+ agot_dragon_combat.0001.b:0 "Bir savaş mı? Burada mı? Bence #EMP hayır#!!"
+
+ agot_dragon_combat.0001.b.weaker:0 "Bu akıllıca görünmüyor."
+
+ agot_dragon_combat.0001.b.coward:0 "Başka bir ejderhayla savaşmak mı? Hadi canım, olmaz!"
+
+ agot_dragon_combat.0001.b.notice:0 "Kaçtığınızı fark edip kovalamaya karar verebilirler"
+
+ agot_dragon_combat.0001.b.no_notice:0 "Savaş alanından kaçtığınızı fark etmiyorlar"
+
+ agot_dragon_combat.0001.b.swift:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] çevikliği kaçışınızı kolaylaştıracak#!"
+
+ agot_dragon_combat.0001.b.slow:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] yavaşlığı kaçışınızı zorlaştıracak#!"
+
+ agot_dragon_combat.0002.t:0 "Gökyüzü Pusu!"
+
+ agot_dragon_combat.0002.desc:0 "[battle_location.GetName] savaşı altımda sürerken [dragon_commander_in_battle.GetTitledFirstName] kuvvetlerini yakıp kül ediyorum; tam o sırada gökyüzünde ikinci bir alev şeridi patlak veriyor!\n\n[enemy_dragon.GetName]'in altımdan dalışa geçtiğini hissediyorum, yüzümün önünden sıcak rüzgâr geçip gidiyor; başımın üzerinden süzülen alev tufanından kıl payı kurtuluyorum. Başımı kaldırınca ejderha [dragon_in_battle.GetName]'in şaşırtıcı bir hızla üzerimden geçtiğini görüyorum; [dragon_in_battle.Custom('GetDragonHerHis')] binicisi [dragonrider_in_battle.GetTitledFirstName] eyerinin üstünden cinayet niyetiyle bana bakıyor.\n\n[dragonrider_in_battle.GetSheHe|U] savaş istiyor!"
+
+ agot_dragon_combat.0002.a:0 "O hâlde [dragonrider_in_battle.GetSheHe] aradığı düelloyu bulacak!"
+
+ agot_dragon_combat.0002.b:0 "Buradan çıkmalıyız!"
+
+ agot_dragon_combat.0002.b.flee:0 "[dragon_in_battle.GetName]'den başarıyla kaçıp savaş alanını terk ediyorsunuz"
+
+ agot_dragon_combat.0002.b.swift:0 "#P [enemy_dragon.GetNamePossessiveNoTooltip] çevikliği kaçışınızı kolaylaştıracak#!"
+
+ agot_dragon_combat.0002.b.slow:0 "#N [enemy_dragon.GetNamePossessiveNoTooltip] yavaşlığı kaçışınızı zorlaştıracak#!"
+
+ agot_dragon_combat.0002.b.enemy_swift:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] çevikliği kaçışınızı zorlaştıracak#!"
+
+ agot_dragon_combat.0002.b.enemy_slow:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] yavaşlığı kaçışınızı kolaylaştıracak#!"
+
+ agot_dragon_combat.0002.escape.t:0 "[enemy_dragonrider.GetShortUIName] önünüzden kaçıyor!"
+
+ agot_dragon_combat.0002.escape.desc:0 "[enemy_dragonrider.GetShortUIName], yüzünüze bakmak yerine [enemy_dragon.GetName]'e binip uçup gitti!"
+
+ agot_dragon_combat.0003.t:0 "Ejderha Ateşinin Uçuşu"
+
+ agot_dragon_combat.0003.desc:0 "[battle_location.GetName] savaşı altımda sürerken [dragon_commander_in_battle.GetTitledFirstName] kuvvetlerini yakıp kül ediyorum; tam o sırada bir bulutun #S doğal olmayan#! bir şekilde hareket ettiğini görüyorum... Bu bir ejderha!\n\nEvet, yakından bakınca [dragon_in_battle.GetName]'in benden uzaklaşmak için tam hız gittiğini açıkça görüyorum! [dragonrider_in_battle.GetTitledFirstName] üzerinde olmalı; ama bu korkak, [enemy_dragon.GetName] ve benimle savaşmamaya karar vermiş!"
+
+ agot_dragon_combat.0003.a:0 "[dragonrider_in_battle.GetSheHe|U] kaçamayacak!"
+
+ agot_dragon_combat.0003.a.swift:0 "#P [enemy_dragon.GetNamePossessiveNoTooltip] çevikliği [dragonrider_in_battle.GetTitledFirstNameNoTooltip]'e yetişmenizi kolaylaştıracak#!"
+
+ agot_dragon_combat.0003.a.slow:0 "#N [enemy_dragon.GetNamePossessiveNoTooltip] yavaşlığı [dragonrider_in_battle.GetTitledFirstNameNoTooltip]'e yetişmenizi zorlaştıracak#!"
+
+ agot_dragon_combat.0003.a.enemy_swift:0 "#N [dragon_in_battle.GetNamePossessiveNoTooltip] çevikliği [dragonrider_in_battle.GetTitledFirstNameNoTooltip]'e yetişmenizi zorlaştıracak#!"
+
+ agot_dragon_combat.0003.a.enemy_slow:0 "#P [dragon_in_battle.GetNamePossessiveNoTooltip] yavaşlığı [dragonrider_in_battle.GetTitledFirstNameNoTooltip]'e yetişmenizi kolaylaştıracak#!"
+
+ agot_dragon_combat.0003.escape:0 "[dragon_in_battle.GetName] ve [dragonrider_in_battle.GetFirstName] savaş alanından kaçıyor."
+
+ agot_dragon_combat.0003.b:0 "Bırak kaçsınlar."
+
+ agot_dragon_combat.0003.escape.t:0 "[dragonrider_in_battle.GetShortUIName] çok hızlı uçuyor!"
+
+ agot_dragon_combat.0003.escape.desc:0 "[dragonrider_in_battle.GetShortUIName] [dragon_in_battle.GetName]'e binerek takibinizden kaçmayı başarıyor!"
+
+ CHANCE_OF_WINNING:0 "Kazanma Şansı"
+
+ agot_dragon_combat.1001.t:0 "Ejderhaların Dansı"
+
+ agot_dragon_combat.1001.defender_first_round_battle:0 "[dsc_defender_dragon.GetName] ve ben daha alçaklara dalıyoruz; [battle_location.GetName] savaşı tam birkaç metre altımızda sürerken gökyüzüne doğru dönüşe geçip bir grup düşman askerini daha alevler içinde bırakıyoruz.\n\nŞimdi dumanlar tüten alanın karşısında [dsc_attacker.GetFirstName]'i [dsc_attacker_dragon.GetName] üzerinde görüyorum; doğrudan üstümüze hücum ederken yüksek sesle kükreyor. Topuklarımın bir darbesi [dsc_defender_dragon.GetNameNoTooltip]'in kanatlarını harekete geçiriyor ve dans başlıyor.\n\n"
+
+ agot_dragon_combat.1001.defender_first_round_siege:0 "[dsc_defender_dragon.GetName] ve ben yerden yukarıya fırlıyoruz; yukarıdan üstümüze dalışa geçmeye çalışan [dsc_attacker.GetFirstName]'i ve [dsc_attacker_dragon.GetName]'i atlatıyoruz. Hızlarının etkisiyle fazla ileri sürükleniyorlar ve aramızdaki mesafe bana dönüp bir sonraki geçişe hazırlanma fırsatı veriyor.\n\n[sc_attacker.GetTitledFirstNameNoTooltip] ve [dsc_attacker_dragon.GetFirstNameNoTooltip]'in de aynısını yaptığını görüyor ve dansın başladığını biliyorum.\n\n"
+
+ agot_dragon_combat.1001.attacker_first_round_battle:0 "[dsc_defender_dragon.GetName]'in vuruşumun hemen altına dalışa geçtiğini görüyorum ve [dsc_attacker_dragon.GetName] ile birlikte sert bir dönüş yapmak zorunda kalıyoruz. [battle_location.GetName] savaşının uğultusu, düşmanımıza doğru dönüşe geçtiğimizde rüzgârın sesinde boğuluyor. Tam zamanında dönüp [dsc_defender_dragon.GetNameNoTooltip]'in bir grup askerimizi daha alevler içinde bıraktığını görüyorum ve topuklarımın bir darbesiyle [dsc_attacker_dragon.GetNameNoTooltip]'e arayı kapatmasını emrediyorum.\n\nDans başlıyor.\n\n"
+
+ agot_dragon_combat.1001.attacker_first_round_siege:0 "[sieging_location.GetName] üzerine dalışa geçtiğimde [dsc_defender_dragon.GetName]'in havaya kıl payı kalktığını görüyorum; [dsc_attacker_dragon.GetFirstName]'den bir tırnak boyu farkla kurtuluyor. Hızlı bir zafer şansımız suya düşüyor; [dsc_defender_dragon.GetNameNoTooltip] ve [dsc_defender.GetNameNoTooltip] dönüşe geçip bir sonraki geçişe hazırlanıyor.\n\nDans başlıyor.\n\n"
+
+ agot_dragon_combat.1001.wait_and_hope:0 "Şeyy, uhhh, hadi [my_foe.GetSheHe]'nin işi berbat etmesini umalım..."
+
+ agot_dragon_combat.1001.tt.wait_and_hope:0 "Önce [my_foe.GetTitledFirstName]'in bir hata yapmasını umarak hiçbir şey yapmıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.wait_and_hope:0 "Bekleyişim, [my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName]'e kendi planlarını kurmaları için bolca zaman vermekten başka işe yaramadı."
+
+ agot_dragon_combat.1001.desc.opponent_response.wait_and_hope:0 "Tüm bunlar olurken, [my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName] hiçbir şey yapmıyordu."
+
+ agot_dragon_combat.1001.unsure_attack:0 "Uhhh, madem öyle #EMP yak#! hadi!"
+
+ agot_dragon_combat.1001.tt.unsure_attack:0 "Ateş püskürten bir kertenkelenin üzerindesin... onu kullan"
+
+ agot_dragon_combat.1001.desc.my_feedback.unsure_attack:0 "Ejderhamın nefesi [my_foe_dragon.GetNamePossessive] derisini sıyırıp geçiyor; öfkeli alevlerin korlaştırdığı koyu pul lekeleri bırakıyor."
+
+ agot_dragon_combat.1001.desc.opponent_response.unsure_attack:0 "[my_foe_dragon.GetNamePossessive] nefesi çılgın bir savruluşla geldi ve [my_dragon.GetName]'in [my_dragon.Custom('GetDragonHerHis')] böğrünü kavurup geçti."
+
+ agot_dragon_combat.1001.enthusiastic_onslaught:0 "[my_dragon.GetName], [my_foe_dragon.GetName]'in yapabileceğinden daha fazla hasar verebilir!"
+
+ agot_dragon_combat.1001.tt.enthusiastic_onslaught:0 "Diş ve pençeyle [my_dragon.GetNameNoTooltip]'in [my_foe_dragon.GetNameNoTooltip]'i açgözlülükle parçalayabileceğine güveniyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.enthusiastic_onslaught:0 "[my_dragon.GetName] ve ben, elimizden gelen her türlü kesik, ısırık ve yakmayı deneyerek dosdoğru [my_foe_dragon.GetName] ve [my_foe.GetName]'e hücum ettik."
+
+ agot_dragon_combat.1001.desc.opponent_response.enthusiastic_onslaught:0 "[my_foe_dragon.GetName] ve [my_foe.GetName] dosdoğru [my_dragon.GetName] ve bana hücum etti; ama ısırıkları ve alevleri odaktan yoksundu ve yüzeysel yaralardan fazlasını açamadı."
+
+ agot_dragon_combat.1001.underbelly:0 "[my_foe_dragon.GetNamePossessive] karnı korumasız görünüyor..."
+
+ agot_dragon_combat.1001.tt.underbelly:0 "Bir ejderhaya saldırmanın en bilindik yerini hedefliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.underbelly:0 "[my_dragon.GetName] ve ben [my_foe_dragon.GetName]'in altına süzüldük, ardından dik bir dalışla yukarı fırladık; ejderhalarımız gökyüzünde büyük bir gümürtüyle çarpıştı. Ne yazık ki [my_foe_dragon.Custom('GetDragonHerHis')] derisinde tutunacak yer bulamadık."
+
+ agot_dragon_combat.1001.desc.opponent_response.underbelly:0 "[my_foe_dragon.GetName] ansızın dalışa geçti ve bir anda [my_dragon.GetNamePossessive] karnına gideceğini anladım! Saldırıyı sezinleyerek [my_dragon.Custom('GetDragonHerHim')]'i yukarı çektim; darbe inerken onunla birlikte hareket ettim ve zarar görmeden geri süzülerek bir sonraki çarpışmaya hazırlandık."
+
+ agot_dragon_combat.1001.tail_smash:0 "Şunlara kuyruğunla bir şaplak indir!"
+
+ agot_dragon_combat.1001.tt.tail_smash:0 "Biraz... alışılmadık bir strateji izliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.tail_smash:0 "[my_dragon.GetName] ve ben [my_foe_dragon.GetNamePossessive] kanadını ısıracakmış gibi hamle yapıp yön değiştirdik ve [my_foe_dragon.GetNamePossessiveNoTooltip] boynuna sağlam bir kuyruk darbesi indirdik!"
+
+ agot_dragon_combat.1001.desc.opponent_response.tail_smash:0 "[my_foe_dragon.GetName] [my_dragon.GetNamePossessive] kanadını ısıracakmış gibi hızla ileri atıldı; ama ben darbeden kaçmak için hamle yaptığımda [my_foe_dragon.GetName] [my_dragon.GetNamePossessiveNoTooltip] boynuna sağlam bir kuyruk darbesi indirip bizi ayırdı ve ikimizi de sersemletti."
+
+ agot_dragon_combat.1001.guard:0 "Saldırı anını bekleyip gözleyeceğiz."
+
+ agot_dragon_combat.1001.tt.guard:0 "[my_dragon.GetName] ile birlikte karşı saldırı için mükemmel anı bekliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.guard:0 "Darbeleri savuştururken pullarımız çarpışıp sürtündü; [my_foe_dragon.GetNamePossessive] dişleri en zırhlı derimize değdikçe kıvılcımlar saçıldı."
+
+ agot_dragon_combat.1001.desc.opponent_response.guard:0 "[my_dragon.GetNamePossessive] dişleri [my_foe.GetTitledFirstNamePossessive] korumalı mevzisinden kayıp geçti; [my_dragon.Custom('GetDragonHerHis')] kükreyişi, hayal kırıklığıyla dolu öfkemi yankıladı."
+
+ agot_dragon_combat.1001.probing_attack:0 "Hadi yüzeyi tırmalayalım, ne mal olduklarını görelim!"
+
+ agot_dragon_combat.1001.tt.probing_attack:0 "Düşmanın tepkilerini ve zayıf noktalarını ölçmeyi hedefliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.probing_attack:0 "Tırnaklarımız [my_foe_dragon.GetNamePossessive] pullarını sıyırıp geçtikten sonra havada hızla döndük; ejderhalar dans ederken hızlarını ölçmemize imkân verdiler. Derin kesikler yok, ama aydınlatıcı bir danstı."
+
+ agot_dragon_combat.1001.desc.opponent_response.probing_attack:0 "Kanatlarımızı yokladılar; [my_dragon.GetNamePossessive] böğrünü tırmalayıp kendimizi açık etmemek için gökyüzünde dönmeye zorladılar. Şüphesiz bir yoklama hamlesiydi."
+
+ agot_dragon_combat.1001.onslaught:0 "Tam yol ileri, ya zafer ya ölüm!"
+
+ agot_dragon_combat.1001.tt.onslaught:0 "Savunmayı saldırıya feda eden tam kapsamlı bir hücum"
+
+ agot_dragon_combat.1001.desc.my_feedback.onslaught:0 "Kör kütük ileri atıldık; [my_dragon.GetName] ateşin tıslamasına dönüşen bir kükreme saldı. Onlarla gümürtüyle çarpışmadan önce hava yanık pul kokuyordu. Kargaşa içinde kükremeler, pençe darbeleri ve hatta ben bile kendi silahımla bir vuruş yaptım."
+
+ agot_dragon_combat.1001.desc.opponent_response.onslaught:0 "Kendi hücumları pervasız ama etkiliydi; iki ejderhanın ağırlığı kükreme ve çarpışan pençelerden oluşan bir kakofoniyle karşılaştı; ayrıldığımızda ikimiz de yara bere içindeydik."
+
+ agot_dragon_combat.1001.surprise_attack:0 "Bunun geleceğini göremeyecekler!"
+
+ agot_dragon_combat.1001.tt.surprise_attack:0 "Düşmanı hazırlıksız yakalamak için tasarlanmış beklenmedik bir hamle"
+
+ agot_dragon_combat.1001.desc.my_feedback.surprise_attack:0 "Bulut örtüsüne süzülerek indik; gökyüzünden gelen ışığın bulutların arasından süzülüp biçimimizi gizlemesine izin verdik. Sonra bir tatar yayından çıkan ok gibi aşağıya saldırdık. [my_dragon.GetNamePossessive] dişleri kanadın hemen altındaki yumuşak ete saplandı ve acı dolu bir kükreme koptu."
+
+ agot_dragon_combat.1001.desc.opponent_response.surprise_attack:0 "[my_foe_dragon.GetName] geri çekilip bulutların içine uçtu. Birkaç saniye onları göremedim ve tam o anda saldırdılar; [my_dragon.GetNamePossessive] böğrüne bir ısırık indirdiler."
+
+ agot_dragon_combat.1001.taunt:0 "Hey [my_foe.GetFirstNameNoTooltip], sen buna uçmak mı diyorsun?"
+
+ agot_dragon_combat.1001.tt.taunt:0 "Rakibinizi kızdırmak ve odaklarını bozmak için iğneleyici hakaretler savuruyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.taunt:0 "Alayım sanki pullarının altına işledi. Bir sonraki saldırıları kesinlikle gelişigüzel püskürtülen alevlerden ibaret beceriksiz bir karmaşa olacak."
+
+ agot_dragon_combat.1001.desc.opponent_response.taunt:0 ""Hey!" Gökyüzünün öbür yanından bir ses duyuyorum. "Sen buna uçmak mı diyorsun?" diye haykırıyor [my_foe.GetFirstName], birbirimizin yanından geçerken. Bir ejderha düellosunda beni aşağılamakla vakit harcayacak kadar kibirli olması da pes doğrusu!"
+
+ agot_dragon_combat.1001.go_for_the_gonads:0 "Alçaktan nişan al, isabetli nişan al!"
+
+ agot_dragon_combat.1001.tt.go_for_the_gonads:0 "Son darbeyi indirmek için son derece hassas bir bölgeyi hedefliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.go_for_the_gonads:0 "Dişlerimiz [my_foe_dragon.GetName]'in bacağının yumuşak etini buldu! [my_foe_dragon.Custom('GetDragonSheHe')|U] çığlık atıp bir an savruldu; kendini doğrultmadan önce [my_foe_dragon.Custom('GetDragonHerHis')] bacağını kurtardı, yere kan damlıyordu."
+
+ agot_dragon_combat.1001.desc.opponent_response.go_for_the_gonads:0 "Düşmanlarımız arkamızdan korkakça bir saldırıya kalkışıp [my_dragon.GetNamePossessive] bacağından bir ısırık aldı! [my_dragon.Custom('GetDragonSheHe')|U] acı içinde uluyup savruldu; ama kurtulduğumuzda ve [my_dragon.Custom('GetDragonSheHe')] toparlandığında, [my_dragon.Custom('GetDragonHerHis')] öfkesinin biriktiğini hissedebiliyordum."
+
+ agot_dragon_combat.1001.strict_guard:0 "Yanımıza yaklaşırlarsa onları parçalara ayıracağız!"
+
+ agot_dragon_combat.1001.tt.strict_guard:0 "Hasarı en aza indirmek için son derece savunmacı bir duruş benimsiyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.strict_guard:0 "Kanatlarımızı içeri toplayarak her ısırığı ve pençeyi püskürttük; çıtırdayan diş sesleri havada yankılandı. [my_foe_dragon.GetName] hayal kırıklığıyla bir ateş püskürttü."
+
+ agot_dragon_combat.1001.desc.opponent_response.strict_guard:0 "Saldırımız yalnızca zırhlı pullarının sert dış yüzeyine çarptı; her darbe boşa giden bir çabaydı. [my_dragon.GetName] hayal kırıklığıyla bir ateş püskürttü."
+
+ agot_dragon_combat.1001.confident_attack:0 "Alevlerimiz onları canlı canlı pişirecek!"
+
+ agot_dragon_combat.1001.tt.confident_attack:0 "Düşmanla ateşinizin tüm gücüyle cepheden çarpışıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.confident_attack:0 "Alevlerimiz ölümcül bir dansta iç içe geçti; ama bizimkiler daha güçlü çıktı, [my_foe_dragon.GetNamePossessive] içinden geçip kanatlarını kavurdu."
+
+ agot_dragon_combat.1001.desc.opponent_response.confident_attack:0 "[my_foe.GetNamePossessive] ejderhası bir alev tufanı püskürttü; biz de kendi alevimizle karşılık vermek zorunda kaldık. Utanç verici bir şekilde bizimkiler yavaş yavaş yenildi ve [my_dragon.GetName] alevleri geri savururken [my_dragon.Custom('GetDragonHerHis')] kanatlarını kavurdu."
+
+ agot_dragon_combat.1001.expert_onslaught:0 "Her hamle hesaplanmış, her darbe isabetli!"
+
+ agot_dragon_combat.1001.tt.expert_onslaught:0 "Hataya yer bırakmayan titiz ve ustalıkla idman edilmiş bir hücum"
+
+ agot_dragon_combat.1001.desc.my_feedback.expert_onslaught:0 "Sıkı bir döngüyle çevresini sardık; pençeler tırmalıyor, dişler bir cerrahın hassasiyetiyle saplanıyordu; püskürttüğümüz alev tufanı, eyerindeki [my_foe.GetName]'i kıl payı ıskaladı."
+
+ agot_dragon_combat.1001.desc.opponent_response.expert_onslaught:0 "[my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName] yaklaşıp [my_dragon.GetName]'e bir pençe darbesi ve hızlı bir ısırık indirdi, ardından beni ejderha ateşiyle yakmaya çalıştı!"
+
+ agot_dragon_combat.1001.lightning_assault:0 "Gökten inen şimşek gibi vur!"
+
+ agot_dragon_combat.1001.tt.lightning_assault:0 "Hem saldırmak hem kaçmak için hızlı bir yükselişin ardından gelen dalış"
+
+ agot_dragon_combat.1001.desc.my_feedback.lightning_assault:0 "Bir şahin gibi dalışa geçtik, pençeler ve dişler gerili. [my_foe_dragon.GetName]'in sırtında hızlı bir tırmalama ve ardından gelen bir alev püskürmesi yanık yaralar bıraktı."
+
+ agot_dragon_combat.1001.desc.opponent_response.lightning_assault:0 "Hızlıydılar, fazla hızlıydılar. [my_foe_dragon.GetName]'in pençeleri yanımızdan hızla geçerken derimizin üzerinde korlaşan çizgiler çizdi; arkalarında alevler savruluyordu."
+
+ agot_dragon_combat.1001.tire_opponent:0 "Bırak kendilerini yorsunlar!"
+
+ agot_dragon_combat.1001.tt.tire_opponent:0 "Rakibinizi yormayı hedefliyorsunuz; enerjilerini boşa harcamaları için kaçıp kıvırılıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.tire_opponent:0 "Her ateş püskürmesinden, her çılgın pençeden kaçındık. [my_foe_dragon.GetNamePossessive] kükremeleri giderek zayıfladı ve uçuşu gözle görülür şekilde ağırlaştı."
+
+ agot_dragon_combat.1001.desc.opponent_response.tire_opponent:0 "[my_foe.GetName] ve [my_foe_dragon.GetName] gökyüzünde ustaca manevra yapıyor; bizi asla gevşememeye ve sürekli hareket hâlinde olmaya zorluyordu."
+
+ agot_dragon_combat.1001.chomp:0 "#bold ÇAPURT#!"
+
+ agot_dragon_combat.1001.tt.chomp:0 "Sen de #bold ÇAPURT#!"
+
+ agot_dragon_combat.1001.motivate.generic:0 "Hadi [my_dragon.GetNameNoTooltip]!"
+
+ agot_dragon_combat.1001.motivate.bond:0 "Cesaret, dostum! Bunu başarabiliriz!"
+
+ agot_dragon_combat.1001.motivate.rude:0 "Savaşsana koca kertenkele, lanet olsun!"
+
+ agot_dragon_combat.1001.motivate.authoritative:0 "Kazanmak #EMP zorundayız #! [my_dragon.GetNameNoTooltip]!"
+
+ agot_dragon_combat.1001.motivate.sadistic:0 "Dillerimizde kanlarının tadını hisset!"
+
+ agot_dragon_combat.1001.motivate.eccentric:0 "Şuradaki güzelliğe bir bakın!"
+
+ agot_dragon_combat.1001.tt.motivate:0 "Yaralarına rağmen ejderhanızı yeniden canlandırmak için bir çağrı"
+
+ agot_dragon_combat.1001.desc.my_feedback.motivate:0 "[my_dragon.GetNamePossessive] gözlerinde yeni bir ateş parladı; bir sonraki alev püskürmesi daha sıcaktı, [my_dragon.Custom('GetDragonHerHis')] darbeleri daha sertti."
+
+ agot_dragon_combat.1001.desc.opponent_response.motivate:0 "[my_foe.GetFirstName]'in eğilip [my_foe_dragon.GetName] ile konuştuğunu görüyorum; ama söylenenleri duyamıyorum."
+
+ agot_dragon_combat.1001.technique_from_legend:0 "Hadi dönmeyi deneyelim, bu iyi bir numara!"
+
+ agot_dragon_combat.1001.tt.technique_from_legend:0 "Yalnızca masallarda duyduğunuz efsanevi bir teknik deniyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.technique_from_legend:0 "Tam bir efsaneden çıkma gösterişle, [my_dragon.GetName] [my_dragon.Custom('GetDragonHerHis')] ateşini püskürtürken döndük. Mükemmel uygulandı; hareketlerimize ayak uyduramayan [my_foe_dragon.GetName] şaşkın ve yaralı kaldı."
+
+ agot_dragon_combat.1001.desc.opponent_response.technique_from_legend:0 "Freni boşalmış bir arabanın tekerleği gibi üstümüze uçtular; ateşleri hedefli ama öngörülemez yönlerden bizi kavuruyordu."
+
+ agot_dragon_combat.1001.like_a_viper:0 "Çabuk vur, daha çabuk kaç!"
+
+ agot_dragon_combat.1001.tt.like_a_viper:0 "Rakibi zayıflatmayı amaçlayan hızlı ve ölümcül darbeler"
+
+ agot_dragon_combat.1001.desc.my_feedback.like_a_viper:0 "İçeri dışarı fırlayıp durduk; kuyruk, pençe ya da alevlerden her hızlı darbe şişlikler ve yaralar bıraktı. [my_foe_dragon.GetNamePossessive] hareketleri giderek ağırlaşmış görünüyor."
+
+ agot_dragon_combat.1001.desc.opponent_response.like_a_viper:0 "İmkânsız görünen bir hızla [my_foe_dragon.GetName] menzilimizin içine girip çıktı; acı dolu bir mübadele oluşturacak şekilde üst üste küçük zaferler kazandı."
+
+ agot_dragon_combat.1001.martial_voice:0 "Gel [my_dragon.GetNameNoTooltip]! Acıma gösterme!"
+
+ agot_dragon_combat.1001.tt.martial_voice:0 "Bir askeri yönetir gibi [my_dragon.GetNameNoTooltip]'i yönlendirmek için yılların savaş deneyiminizi devreye sokuyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.martial_voice:0 "Komuta eden bir haykırışla her saldırıyı hassasiyetle koordine ettik. Düşmanımızın amansız saldırımıza karşı bir cevabı yoktu."
+
+ agot_dragon_combat.1001.desc.opponent_response.martial_voice:0 "[my_foe.GetFirstName]'in [my_foe_dragon.GetName]'e emirler yağdırdığını görüyorum ve onların askeri deneyimini hatırlıyorum; burada, gökyüzünde bile yüzleşmesi ürkütücü bir düşman."
+
+ agot_dragon_combat.1001.mocking_boast:0 "O koca kertenkele bir şeylerin eksikliğini mi kapatıyor!?"
+
+ agot_dragon_combat.1001.tt.mocking_boast:0 "Rakibinizin dikkatini dağıtıp onu öfkelendirmeyi amaçlayan sözlü bir alay"
+
+ agot_dragon_combat.1001.desc.my_feedback.mocking_boast:0 "Alayımız amacına ulaşmış görünüyor. [my_foe_dragon.GetName], efendisinin öfkesini sezmişçesine şiddetle savruluyor. Odaklarını yitirmeleri bize saldırı için bir açık yaratabilir!"
+
+ agot_dragon_combat.1001.desc.opponent_response.mocking_boast:0 "[my_foe.GetFirstName] alay ve hakaretlerle kararlılığımızı sarsmaya çalıştı; kışkırtmaları burada boşa bir çaba olsa da, aralıksız gürültü [my_dragon.GetName]'i etkilemişe benziyor."
+
+ agot_dragon_combat.1001.desert_warrior:0 "Şu kum... acaba..."
+
+ agot_dragon_combat.1001.tt.desert_warrior:0 "Çöl savaşlarındaki uzmanlığınızı lehinize kullanıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.desert_warrior:0 "Hızla kayan kumların üzerine dalışa geçtik ve [my_foe.GetTitledFirstName]'i arkamızdan gelmeye kandırdık. Bir kumulun üzerinde zamanlamalı bir kanat çırpışıyla [my_foe.GetTitledFirstNameNoTooltip]'e doğru bir kum bulutu püskürttük! Şaşkına dönen [my_foe.GetHerHis] ejderhası, acı veren bulutun içinde yavaşladı; onları alevlerle yıkamak için geri döndüğümüzde, kum bulutunun cama dönüştüğünü ve onları daha da yaraladığını gördüm!"
+
+ agot_dragon_combat.1001.desc.opponent_response.desert_warrior:0 "Alttaki kumların üzerine hızla dalışa geçtiler; [my_dragon.GetFirstNamePossessive] de takip etmek için [my_dragon.Custom('GetDragonHerHis')] kanatlarını topladı. Alev püskürmelerimiz alttaki kumları cama çevirdi, ama kesin bir darbe indiremedik. Derken [my_foe_dragon.GetNamePossessive] kanatlarından gelen bir rüzgâr üstümüze kum savurdu! Bulutun içinden kaçamadan kızgın sıcağa boğuluyoruz ve çevremizdeki kum taneleri cam kıymıklarına dönüşüyor! Kaçmayı başarmadan önce bedenlerimizi tırmalıyorlar."
+
+ agot_dragon_combat.1001.jungle_stalker:0 "Ormanı kullanalım!"
+
+ agot_dragon_combat.1001.tt.jungle_stalker:0 "Orman savaşı taktiklerinizi bu hava düellosuna uyarlıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.jungle_stalker:0 "Orman yırtıcılarının vur-kaç taktiklerini taklit edip onları avantajlı olduğumuz ağaçların içine çektik. Sürekli savunmada kalıyorlar, bir sonraki hamlemizi ya da darbemizi asla öngöremiyorlardı; ancak ormanın o bölümünü yakarak kurtulabildiler."
+
+ agot_dragon_combat.1001.desc.opponent_response.jungle_stalker:0 "Biz ise tuzaklarına düştük; aşağıdaki ormanların içine çekilip birkaç darbe yedik, ardından ağaçlığı yakıp yeniden gökyüzüne kaçtık."
+
+ agot_dragon_combat.1001.open_terrain_expert:0 "Açık gökyüzü parladığımız yerdir!"
+
+ agot_dragon_combat.1001.tt.open_terrain_expert:0 "Geniş gökyüzünde üstünlük sağlamak için yerdeki açık arazi uzmanlığınızı kullanıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.open_terrain_expert:0 "Gökyüzünde de yerdeki gibi, alan kullanılacak bir araçtır. Bizi engelleyecek hiçbir engel olmadan yükselip dalışa geçtik, her saldırıyı işe yarar kıldık."
+
+ agot_dragon_combat.1001.desc.opponent_response.open_terrain_expert:0 "[my_foe.GetFirstName] açık arazinin bilinen bir ustasıdır ve bunu büyük bir ustalıkla kullandı; karşı koyamadığımız sağlam darbeler indirdi."
+
+ agot_dragon_combat.1001.rough_terrain_expert.rocky:0 "Şu kayalar tehlikeli görünüyor!"
+
+ agot_dragon_combat.1001.tt.rough_terrain_expert.rocky:0 "[my_foe_dragon.GetFirstName]'i alttaki kayalara süreceksiniz"
+
+ agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.rocky:0 "Alçaldık ve keskin kayaları kıl payı sıyırıp geçtik; [my_foe_dragon.GetName] bizi takip eder etmez yukarı fırladık. Bu oyunu kullanarak döndük ve [my_dragon.GetNamePossessive] tüm ağırlığını [my_foe_dragon.GetName]'in üzerine indirdik, [my_foe_dragon.GetHerHis] bedenini keskin kayalara bastırdık. Bir kez. İki kez. Ejderhaların kükremesi ve taşların ezilme sesi dehşet verici. Ancak [my_foe.GetFirstName] eyerinden şanslı bir darbe indirip [my_dragon.GetName]'i geri çekilmeye zorlayınca kaçma şansını yakaladılar."
+
+ agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.rocky:0 "Ne var ki sonrasında biz alttaki kayalara sürüklendik; [my_foe_dragon.GetName]'in tüm ağırlığı bizi keskin kayaların üzerine bastırdı. Bir kez, iki kez, neredeyse üç kez yere ezildik; ama kendi silahımla [my_foe_dragon.GetNamePossessive] burnuna indirdiğim şanslı bir darbe, [my_dragon.GetName]'e kaçma fırsatı verdi."
+
+ agot_dragon_combat.1001.rough_terrain_expert.boggy:0 "Bataklığın içine!"
+
+ agot_dragon_combat.1001.tt.rough_terrain_expert.boggy:0 "Düşmanınızı kıstırmak için bataklığı kullanmayı deniyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.rough_terrain_expert.boggy:0 "Bir dizi son derece saldırgan hamleyle [my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName]'i bataklığa doğru ittik; ağır yükleri çamura gömülüyordu. Ejderhalarımız arasında bir boğuşma başladı; [my_dragon.GetName], [my_foe_dragon.GetNamePossessiveNoTooltip] başını tekrar tekrar koyu çamurun altına daldırdı. Sonunda, biz de aşağı sürüklenmeyelim diye geri çekilmek zorunda kaldık."
+
+ agot_dragon_combat.1001.desc.opponent_response.rough_terrain_expert.boggy:0 "[my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName], bir dizi son derece saldırgan hamleyle bizi bataklığa doğru itti; [my_dragon.GetNamePossessive] ağır bedeni çamura gömülüyordu. Ejderhalar arasında bir boğuşma başladı; [my_dragon.GetNameNoTooltip] tekrar tekrar koyu çamurun altına daldırıldı. Ancak sonunda, [my_dragon.GetNameNoTooltip] sağlam bir tutuş yakalayıp onları neredeyse bizimle birlikte aşağı çekince geri çekildiler."
+
+ agot_dragon_combat.1001.forest_fighter:0 "Bu ağaçlar müttefikimiz, onları kullanacağız!"
+
+ agot_dragon_combat.1001.tt.forest_fighter:0 "Kendi alanınızın üstüne çıkmış durumdasınız; ormanı, düşmanınızın taklit edemeyeceği karmaşık hava manevraları için kullanıyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.forest_fighter:0 "Ağaçların arasında manevra yapıp beklenmedik anlarda ortaya çıkarak [my_foe_dragon.GetNamePossessive] kanadına ısırık darbeleri indirdik; o da ancak ormanın bir bölümünü yakıp kül ederek kaçabildi."
+
+ agot_dragon_combat.1001.desc.opponent_response.forest_fighter:0 "[my_foe_dragon.GetName]'in peşine düşüp ormanın içine indik, ama [my_dragon.GetName] onların hızlı manevralarını taklit edemedi. [my_dragon.Custom('GetDragonSheHe')|U] kalın dallara çarptı; sonra öfkeyle ormanın bir bölümünü yakıp kül ederek kaçtı."
+
+ agot_dragon_combat.1001.special_fallback:0 "Geri çekil, yeniden toparlan!"
+
+ agot_dragon_combat.1001.tt.special_fallback:0 "Durumu yeniden değerlendirmek için taktiksel olarak geri çekiliyorsunuz"
+
+ agot_dragon_combat.1001.desc.my_feedback.special_fallback:0 "Tam zamanında geri çekildik ve [my_dragon.GetNamePossessive] kanatlarını parçalayacak bir hamle ısırığından kıl payı kurtulduk."
+
+ agot_dragon_combat.1001.desc.opponent_response.special_fallback:0 "Ardından kanatlarını neredeyse yakalayan bir hamle ısırığıyla saldırdık! Vahşetimizi gören [my_foe.GetName] ve [my_foe_dragon.GetName] geri çekildi — bu, zayıflığın apaçık bir işareti!"
+
+ agot_dragon_combat.1001.desc.my_injury.none:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben hiç yara almadan kurtulduk, "
+
+ agot_dragon_combat.1001.desc.my_injury.light:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben yalnızca hafif yaralar aldık, "
+
+ agot_dragon_combat.1001.desc.my_injury.heavy:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben yaralıyız, kanımız alttaki toprağa damlıyor, "
+
+ agot_dragon_combat.1001.desc.my_injury.severe:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben kötü durumdayız, buhar çıkaran kan seller hâlinde fışkırıyor, "
+
+ agot_dragon_combat.1001.desc.my_injury.mortal:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben ölümden kıl payı uzaktayız; çok sayıda yaramız neredeyse bizi gökten düşürüyor, "
+
+ agot_dragon_combat.1001.desc.foe_injury.none:0 "[my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip] ise yara bere içinde görünmüyor."
+
+ agot_dragon_combat.1001.desc.foe_injury.light:0 "[my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip] ise yalnızca yüzeysel yaralar taşıyor."
+
+ agot_dragon_combat.1001.desc.foe_injury.heavy:0 "[my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip] ise gözle görülür şekilde kanıyor."
+
+ agot_dragon_combat.1001.desc.foe_injury.severe:0 "[my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip] ise ağır yaralı."
+
+ agot_dragon_combat.1001.desc.foe_injury.mortal:0 "[my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip] ise apaçık ölüme mahkûm."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.near_zero:0 "\n\nİşler buraya kadar böyle gittiğine göre, kesinlikle sonumuzun geldiğini hissediyorum."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.minimal:0 "\n\nŞu an şansımız konusunda son derece karamsarım."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.low:0 "\n\n[my_foe.GetTitledFirstNameNoTooltip] kendinden emin görünüyor ve zaferden çok uzak olduğumuzdan korkuyorum."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.fair:0 "\n\nAlnımdaki teri hissedebiliyorum ve bu çatışmayı kaybettiğimizden korkuyorum."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.okay:0 "\n\nİşler kesinlikle daha iyi gidebilirdi, ama henüz bitmedi!"
+
+ agot_dragon_combat.1001.desc.chance_of_winning.good:0 "\n\nİşler iyi gidiyor, ama gökyüzü hâlâ ikimizden birinin zaferine açık."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.high:0 "\n\n[my_foe.GetFirstNamePossessiveNoTooltip] güveninin sarsıldığını hissediyorum. [my_foe.GetSheHe|U] şimdi baskıyı mutlaka hissediyordur."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.very_high:0 "\n\n[my_dragon.GetNameNoTooltip]'in her hareketi, sonunda avına saldırmak üzere olan bir yırtıcının açlığıyla dolu görünüyor."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.excellent:0 "\n\n[my_dragon.GetNameNoTooltip] ve ben aynı ritimdeyiz; bu çatışma neredeyse kesin olarak bizim zaferimizle bitecek."
+
+ agot_dragon_combat.1001.desc.chance_of_winning.near_certain:0 "\n\nBu çatışma kesinlikle bitmek üzere; [my_foe.GetTitledFirstName] neredeyse gökten düşüyor."
+
+ agot_dragon_combat.wound_dragon.limit:0 "[wounded_dragon.GetName] daha fazla yaralanamaz."
+
+ agot_dragon_combat.wound_dragon.1:0 "[wounded_dragon.GetName] artık $trait_dragon_wounded_1$."
+
+ agot_dragon_combat.wound_dragon.2:0 "[wounded_dragon.GetName] artık $trait_dragon_wounded_2$."
+
+ agot_dragon_combat.wound_dragon.3:0 "[wounded_dragon.GetName] artık $trait_dragon_wounded_3$."
+
+ agot_dragon_combat.wound_dragon.4:0 "[wounded_dragon.GetName] artık $trait_dragon_wounded_4$."
+
+ agot_dragon_combat.wound_dragon.5:0 "[wounded_dragon.GetName] artık $trait_dragon_wounded_5$."
+
+ agot_dragon_combat.1003.t:0 "Kıyametin Dansı!"
+
+ agot_dragon_combat.1003.desc.sudden_strike:0 "Kaderlerimiz rüzgâr kadar ani değişti. Bir saniye [my_foe.GetTitledFirstName] savunmasız görünüyor, yenilgiden anlar uzakta. Sonraki saniye [my_foe_dragon.GetName]'in [my_foe_dragon.Custom('GetDragonHerHis')] boynunu savurduğunu ve gözlerimin önünde kocaman bir ağız açıldığını görüyorum.\n\nDaha yeni açılan çenelerin içine bakıp kapanmadan önce beni karşılamaya yükselen ölümün sıcak nefesini hissetmeye vakit buluyorum ve düşünüyorum..."
+
+ agot_dragon_combat.1003.a.sudden_strike:0 "İşte böyle sona eriyor."
+
+ agot_dragon_combat.1003.f.sudden_strike:0 "[my_foe_dragon.GetName] tarafından yutuluyorsunuz"
+
+ agot_dragon_combat.1003.desc.dragonfire:0 "Ejderhalara binip savaşa gittim. İnsanların yanmasının ne demek olduğunu bilirim. Ama bu ateşin bu tarafında olacağımı hiç düşünmezdim.\n\nBir kükreme ve sıcaklık dalgasıyla [my_foe_dragon.GetName]'in [my_foe_dragon.Custom('GetDragonHerHis')] boğazını açtığını görüyorum; ejderha ateşinin ani yangını hem [my_dragon.GetName] hem de bana doğru fırlıyor. Kaçınamayacak kadar büyük. Engelleyemeyecek kadar yakın. İşe yaramayacağını bile bile içgüdüsel olarak kollarımı kaldırıyor ve çığlık atıyorum."
+
  agot_dragon_combat.1003.a.dragonfire:0 "#EMP AGGGGHHHHHHHHHH!!!!#!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.dragonfire [AGOT: You and [my_dragon.GetName] are almost certainly going to be incinerated. If you live, it will be in agony after falling to the ground.]
- agot_dragon_combat.1003.f.dragonfire:0 "You and [my_dragon.GetName] are almost certainly going to be incinerated. If you live, it will be in agony after falling to the ground."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.driven_to_ground [AGOT: The great impact of [my_foe_dragon.GetNamePossessive] full weight on [my_dragon.GetName] jolts me in my saddle as though a house has fallen on me. [my_dragon.GetNameNoTooltip] lets out a futile scream in protest as we're shoved to the ground — hard.\n\nI hear the crunch of [my_dragon.Custom('GetDragonHerHis')] wing being broken from under the combined weight of two dragons. I look up at the massive form of [my_foe_dragon.GetNameNoTooltip], who looms like a god over the broken form of [my_dragon.GetNameNoTooltip], and begins to #italic devour #!!]
- agot_dragon_combat.1003.desc.driven_to_ground:0 "The great impact of [my_foe_dragon.GetNamePossessive] full weight on [my_dragon.GetName] jolts me in my saddle as though a house has fallen on me. [my_dragon.GetNameNoTooltip] lets out a futile scream in protest as we're shoved to the ground — hard.\n\nI hear the crunch of [my_dragon.Custom('GetDragonHerHis')] wing being broken from under the combined weight of two dragons. I look up at the massive form of [my_foe_dragon.GetNameNoTooltip], who looms like a god over the broken form of [my_dragon.GetNameNoTooltip], and begins to #italic devour #!!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.driven_to_ground [AGOT: I've got to get out of this saddle!]
- agot_dragon_combat.1003.a.driven_to_ground:0 "I've got to get out of this saddle!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.driven_to_ground [AGOT: You try your best to escape!]
- agot_dragon_combat.1003.f.driven_to_ground:0 "You try your best to escape!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.disemboweled [AGOT: Through the clouds I think I spy [my_foe_dragon.GetName], clearly preparing to... no, there!\n\nToo late.\n\n[my_foe_dragon.GetNameNoTooltip] streaks towards us like a bolt of lightning, and just as unstoppable. [my_foe_dragon.Custom('GetDragonSheHe')|U] makes for [my_dragon.GetNamePossessive] unprotected underbelly, and tears a great chunk of [my_dragon.Custom('GetDragonHerHis')] stomach out, disemboweling [my_dragon.Custom('GetDragonHerHim')] right in the sky! With a final roar we both fall, the wind rushing past as dragon blood and guts pour into the sky above.]
- agot_dragon_combat.1003.desc.disemboweled:0 "Through the clouds I think I spy [my_foe_dragon.GetName], clearly preparing to... no, there!\n\nToo late.\n\n[my_foe_dragon.GetNameNoTooltip] streaks towards us like a bolt of lightning, and just as unstoppable. [my_foe_dragon.Custom('GetDragonSheHe')|U] makes for [my_dragon.GetNamePossessive] unprotected underbelly, and tears a great chunk of [my_dragon.Custom('GetDragonHerHis')] stomach out, disemboweling [my_dragon.Custom('GetDragonHerHim')] right in the sky! With a final roar we both fall, the wind rushing past as dragon blood and guts pour into the sky above."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.disemboweled [AGOT: Fuckfuckfuckfuckfuck]
- agot_dragon_combat.1003.a.disemboweled:0 "Fuckfuckfuckfuckfuck"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.disemboweled [AGOT: That ground is approaching awfully fast...]
- agot_dragon_combat.1003.f.disemboweled:0 "That ground is approaching awfully fast..."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.eviscerated [AGOT: Eschewing any sense of grace and elegance, [my_foe.GetTitledFirstName] drives [my_foe_dragon.GetName] straight for us! Though [my_dragon.GetName] tries to evade, and then raise [my_dragon.Custom('GetDragonHerHis')] wings in defense, each is torn through by tooth and claw!\n\n[my_dragon.GetNameNoTooltip] roars in anguish as a wing is ripped off, but [my_foe_dragon.GetName] doesn't let go, continuing to rip and tear. With a whip of the neck [my_foe_dragon.Custom('GetDragonSheHe')] gets a ferocious bite on [my_dragon.GetNamePossessiveNoTooltip] neck, and after a final cry, [my_foe_dragon.Custom('GetDragonSheHe')] rips [my_dragon.Custom('GetDragonHerHis')] head off right before my eyes!]
- agot_dragon_combat.1003.desc.eviscerated:0 "Eschewing any sense of grace and elegance, [my_foe.GetTitledFirstName] drives [my_foe_dragon.GetName] straight for us! Though [my_dragon.GetName] tries to evade, and then raise [my_dragon.Custom('GetDragonHerHis')] wings in defense, each is torn through by tooth and claw!\n\n[my_dragon.GetNameNoTooltip] roars in anguish as a wing is ripped off, but [my_foe_dragon.GetName] doesn't let go, continuing to rip and tear. With a whip of the neck [my_foe_dragon.Custom('GetDragonSheHe')] gets a ferocious bite on [my_dragon.GetNamePossessiveNoTooltip] neck, and after a final cry, [my_foe_dragon.Custom('GetDragonSheHe')] rips [my_dragon.Custom('GetDragonHerHis')] head off right before my eyes!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.eviscerated [AGOT: No! You can't! Please!]
- agot_dragon_combat.1003.a.eviscerated:0 "No! You can't! Please!"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.eviscerated [AGOT: You and [my_dragon.GetName] are both devoured by [my_foe_dragon.GetName]]
- agot_dragon_combat.1003.f.eviscerated:0 "You and [my_dragon.GetName] are both devoured by [my_foe_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1003.desc.chomp [AGOT: ]
- agot_dragon_combat.1003.desc.chomp:0 ""Calm [my_dragon.GetName]! We may yet survive!" I shout down, the wind cracking over my voice as we dart between clouds. Several times I think I see the shadow of [my_foe_dragon.GetName], only for the apparition to clear as we get closer. But I can hear the beast's breathing. The flap of its wings. The deep guttural noise of a true dragon.\n\nA primal part of my body recognizes this for what it is. The deep visceral scream of instincts honed when men were no more than beasts. We are being hunted.\n\nAs if to punctuate the thought, another shadow forms in front of me. I briefly expect this to be as imagined as the others, when a titanic form appears in front of us, maw open enough to swallow [my_dragon.GetName] and I whole."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.a.chomp [AGOT: You don't even have time to scream.]
- agot_dragon_combat.1003.a.chomp:0 "You don't even have time to scream."
-### TODO NOT-IN-ST: agot_dragon_combat.1003.f.chomp [AGOT: You and [my_dragon.GetName] are both chomped up by [my_foe_dragon.GetName]]
- agot_dragon_combat.1003.f.chomp:0 "You and [my_dragon.GetName] are both chomped up by [my_foe_dragon.GetName]"
+
+ agot_dragon_combat.1003.f.dragonfire:0 "Siz ve [my_dragon.GetName] neredeyse kesinlikle yanıp kül olacaksınız. Yaşarsanız, yere düştükten sonra ıstırap içinde olacaksınız."
+
+ agot_dragon_combat.1003.desc.driven_to_ground:0 "[my_foe_dragon.GetNamePossessive] tüm ağırlığının [my_dragon.GetName]'in üzerine çarpması, üstüme bir ev yıkılmış gibi beni eyerimde sarsıyor. Yere — sertçe — itilirken [my_dragon.GetNameNoTooltip] boşuna bir çığlıkla itiraz ediyor.\n\nİki ejderhanın ortak ağırlığı altında [my_dragon.Custom('GetDragonHerHis')] kanadının kırıldığını duyuyorum. Başımı kaldırınca [my_foe_dragon.GetNameNoTooltip]'in devasa gövdesini görüyorum; [my_dragon.GetNameNoTooltip]'in kırılmış bedeninin üzerinde bir tanrı gibi yükseliyor ve #italic yutmaya #! başlıyor!"
+
+ agot_dragon_combat.1003.a.driven_to_ground:0 "Bu eyerden kurtulmalıyım!"
+
+ agot_dragon_combat.1003.f.driven_to_ground:0 "Elinizden gelenin en iyisini yaparak kaçmaya çalışıyorsunuz!"
+
+ agot_dragon_combat.1003.desc.disemboweled:0 "Bulutların arasında [my_foe_dragon.GetName]'i sezdiğimi sanıyorum, besbelli hazırlanıyor... hayır, orada!\n\nÇok geç.\n\n[my_foe_dragon.GetNameNoTooltip] bir şimşek gibi ve tıpkı onun gibi durdurulamaz şekilde üstümüze fırlıyor. [my_foe_dragon.Custom('GetDragonSheHe')|U] [my_dragon.GetNamePossessive] korumasız karnını hedefliyor ve [my_dragon.Custom('GetDragonHerHis')] midesinden koca bir parça koparıyor, [my_dragon.Custom('GetDragonHerHim')]'i gökyüzünün ortasında deşiyor! Son bir kükremeyle ikimiz de düşüyoruz; rüzgâr yanımızdan hızla geçerken ejderha kanı ve organları gökyüzüne savruluyor."
+
+ agot_dragon_combat.1003.a.disemboweled:0 "Kahretsin kahretsin kahretsin kahretsin kahretsin"
+
+ agot_dragon_combat.1003.f.disemboweled:0 "Şu zemin ürkütücü bir hızla yaklaşıyor..."
+
+ agot_dragon_combat.1003.desc.eviscerated:0 "Zarafet ve şıklıktan eser taşımadan, [my_foe.GetTitledFirstName] [my_foe_dragon.GetName]'i dosdoğru üstümüze sürüyor! [my_dragon.GetName] kaçmaya, ardından savunmak için [my_dragon.Custom('GetDragonHerHis')] kanatlarını kaldırmaya çalışsa da, her biri diş ve pençeyle parçalanıyor!\n\nBir kanat koparılırken [my_dragon.GetNameNoTooltip] ıstırap içinde kükriyor; ama [my_foe_dragon.GetName] bırakmıyor, parçalayıp didiklemeye devam ediyor. Boynunu savurarak [my_foe_dragon.Custom('GetDragonSheHe')] [my_dragon.GetNamePossessiveNoTooltip] boynuna vahşi bir ısırık geçiriyor ve son bir çığlığın ardından [my_foe_dragon.Custom('GetDragonSheHe')], [my_dragon.Custom('GetDragonHerHis')] kafasını gözlerimin önünde koparıyor!"
+
+ agot_dragon_combat.1003.a.eviscerated:0 "Hayır! Yapamazsın! Lütfen!"
+
+ agot_dragon_combat.1003.f.eviscerated:0 "Siz ve [my_dragon.GetName] ikiniz de [my_foe_dragon.GetName] tarafından yutuluyorsunuz"
+
+ agot_dragon_combat.1003.desc.chomp:0 ""Sakin ol [my_dragon.GetName]! Daha hayatta kalabiliriz!" diye bağırıyorum; bulutların arasında manevra yaparken rüzgâr sesimi yutuyor. Birkaç kez [my_foe_dragon.GetName]'in gölgesini gördüğümü sanıyorum, ama yaklaştıkça hayalet dağılıyor. Yine de canavarın soluk alıp verişini duyabiliyorum. Kanat çırpışlarını. Gerçek bir ejderhanın boğuk, gırtlaktan gelen sesini.\n\nBedenimdeki ilkel bir yan bunun ne olduğunu anlıyor. İnsanların henüz hayvandan farksız olduğu çağlarda bilenmiş içgüdülerin derin, içten gelen çığlığı. Avlanıyoruz.\n\nDüşünceyi noktalar gibi, önümde bir gölge daha beliriyor. Bir an bunun da diğerleri gibi hayal olmasını umuyorum; derken karşımızda devasa bir biçim beliriyor, ağzı [my_dragon.GetName] ile beni bütün olarak yutacak kadar açık."
+
+ agot_dragon_combat.1003.a.chomp:0 "Çığlık atacak vaktiniz bile olmuyor."
+
+ agot_dragon_combat.1003.f.chomp:0 "Siz ve [my_dragon.GetName] ikiniz de [my_foe_dragon.GetName] tarafından çiğnenip yutuluyorsunuz"
 
  agot_dragon_combat.1004.t:0 "Zafer!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.sudden_strike [AGOT: My plan works! [my_foe.GetName] never saw it coming. One second, [my_dragon.GetName] and I are looking vulnerable, and [my_foe_dragon.GetName] goes in for the kill. The next, [my_dragon.GetNameNoTooltip] has whipped over [my_foe_dragon.GetNamePossessiveNoTooltip] shoulder and around [my_foe_dragon.Custom('GetDragonHerHis')] neck towards the exposed rider behind.\n\n[my_dragon.GetNamePossessiveNoTooltip] great maw opens up and over [my_foe.GetNameNoTooltip], devouring [my_foe.GetHerHim]!]
- agot_dragon_combat.1004.desc.sudden_strike:0 "My plan works! [my_foe.GetName] never saw it coming. One second, [my_dragon.GetName] and I are looking vulnerable, and [my_foe_dragon.GetName] goes in for the kill. The next, [my_dragon.GetNameNoTooltip] has whipped over [my_foe_dragon.GetNamePossessiveNoTooltip] shoulder and around [my_foe_dragon.Custom('GetDragonHerHis')] neck towards the exposed rider behind.\n\n[my_dragon.GetNamePossessiveNoTooltip] great maw opens up and over [my_foe.GetNameNoTooltip], devouring [my_foe.GetHerHim]!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.sudden_strike [AGOT: The dragon should be easy now!]
- agot_dragon_combat.1004.a.sudden_strike:0 "The dragon should be easy now!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.sudden_strike_survived [AGOT: [my_foe_dragon.GetName] manages to escape]
- agot_dragon_combat.1004.f.sudden_strike_survived:0 "[my_foe_dragon.GetName] manages to escape"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.sudden_strike_died [AGOT: [my_foe_dragon.GetName] quickly falls to a second strike from [my_dragon.GetName]]
- agot_dragon_combat.1004.f.sudden_strike_died:0 "[my_foe_dragon.GetName] quickly falls to a second strike from [my_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.dragonfire [AGOT: With a roar and a rush of heat I feel [my_dragon.GetName] sweep away all opposition, [my_dragon.Custom('GetDragonHerHis')] open gullet spout a single giant plum of flame towards [my_foe_dragon.GetName] and [my_foe.GetTitledFirstName]. Too close to avoid. Too large to block. With a rush of satisfaction mirroring the rush of wind consumed by the conflagration, I see [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] incinerated by [my_dragon.GetNameNoTooltip].]
- agot_dragon_combat.1004.desc.dragonfire:0 "With a roar and a rush of heat I feel [my_dragon.GetName] sweep away all opposition, [my_dragon.Custom('GetDragonHerHis')] open gullet spout a single giant plum of flame towards [my_foe_dragon.GetName] and [my_foe.GetTitledFirstName]. Too close to avoid. Too large to block. With a rush of satisfaction mirroring the rush of wind consumed by the conflagration, I see [my_foe_dragon.GetNameNoTooltip] and [my_foe.GetTitledFirstNameNoTooltip] incinerated by [my_dragon.GetNameNoTooltip]."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.dragonfire [AGOT: I've got you!]
- agot_dragon_combat.1004.a.dragonfire:0 "I've got you!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.dragonfire_both [AGOT: [my_foe.GetName] and [my_foe_dragon.GetName] are both incinerated by [my_dragon.GetName]]
- agot_dragon_combat.1004.f.dragonfire_both:0 "[my_foe.GetName] and [my_foe_dragon.GetName] are both incinerated by [my_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.dragonfire_dragon [AGOT: [my_foe_dragon.GetName] is mortally wounded by [my_dragon.GetName], but [my_foe.GetName] manages to escape as they flee]
- agot_dragon_combat.1004.f.dragonfire_dragon:0 "[my_foe_dragon.GetName] is mortally wounded by [my_dragon.GetName], but [my_foe.GetName] manages to escape as they flee"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.dragonfire_rider [AGOT: [my_foe_dragon.GetName] is incinerated by [my_dragon.GetName], but [my_foe.GetName] manages to glide away]
- agot_dragon_combat.1004.f.dragonfire_rider:0 "[my_foe_dragon.GetName] is incinerated by [my_dragon.GetName], but [my_foe.GetName] manages to glide away"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.dragonfire_neither [AGOT: [my_foe.GetName] and [my_foe_dragon.GetName] are horribly burned, but manage to barely escape]
- agot_dragon_combat.1004.f.dragonfire_neither:0 "[my_foe.GetName] and [my_foe_dragon.GetName] are horribly burned, but manage to barely escape"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.driven_to_ground [AGOT: The great impact of [my_dragon.GetNamePossessive] full weight on [my_foe_dragon.GetName] jolts me in my saddle. [my_foe_dragon.GetName] lets out a futile scream in protest as we shove our enemies to the ground — hard.\n\nI hear the satisfying crunch of [my_foe_dragon.GetNamePossessiveNoTooltip] wing being broken from under the combined weight of two dragons. I look down at the shape of [my_foe_dragon.GetNameNoTooltip] as we loom like a god over the broken form of our foes, and I feel [my_dragon.GetNamePossessiveNoTooltip] hunger drive [my_dragon.Custom('GetDragonHerHis')] to kill.]
- agot_dragon_combat.1004.desc.driven_to_ground:0 "The great impact of [my_dragon.GetNamePossessive] full weight on [my_foe_dragon.GetName] jolts me in my saddle. [my_foe_dragon.GetName] lets out a futile scream in protest as we shove our enemies to the ground — hard.\n\nI hear the satisfying crunch of [my_foe_dragon.GetNamePossessiveNoTooltip] wing being broken from under the combined weight of two dragons. I look down at the shape of [my_foe_dragon.GetNameNoTooltip] as we loom like a god over the broken form of our foes, and I feel [my_dragon.GetNamePossessiveNoTooltip] hunger drive [my_dragon.Custom('GetDragonHerHis')] to kill."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.driven_to_ground [AGOT: That's it, [my_dragon.GetName]! Finish it!]
- agot_dragon_combat.1004.a.driven_to_ground:0 "That's it, [my_dragon.GetName]! Finish it!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.driven_to_ground_died [AGOT: [my_foe.GetFirstName] is devoured amidst the rampant bites of [my_dragon.GetNameNoTooltip]]
- agot_dragon_combat.1004.f.driven_to_ground_died:0 "[my_foe.GetFirstName] is devoured amidst the rampant bites of [my_dragon.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.driven_to_ground_escaped [AGOT: [my_foe.GetFirstName] scrambles to escape the devouring bites of [my_dragon.GetNameNoTooltip]]
- agot_dragon_combat.1004.f.driven_to_ground_escaped:0 "[my_foe.GetFirstName] scrambles to escape the devouring bites of [my_dragon.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.disemboweled [AGOT: Using the clouds as cover I spy [my_foe_dragon.GetName], clearly not expecting us. As we rush in at blinding speed, [my_foe.GetFirstName] turns to face us.\n\nToo late.\n\n[my_dragon.GetName] streaks like a bolt of lightning, and just as unstoppable. [my_foe_dragon.Custom('GetDragonSheHe')|U] makes to protect [my_foe_dragon.Custom('GetDragonHerHis')] exposed underbelly, but cannot react in time, suffering a great chunk to be torn away from [my_foe_dragon.Custom('GetDragonHerHis')] stomach. We've disemboweled [my_foe_dragon.Custom('GetDragonHerHim')] right in the sky! I hear an echoing roar as they both fall behind us, dragon blood and guts streaking beside us from [my_dragon.GetNamePossessive] mouth.]
- agot_dragon_combat.1004.desc.disemboweled:0 "Using the clouds as cover I spy [my_foe_dragon.GetName], clearly not expecting us. As we rush in at blinding speed, [my_foe.GetFirstName] turns to face us.\n\nToo late.\n\n[my_dragon.GetName] streaks like a bolt of lightning, and just as unstoppable. [my_foe_dragon.Custom('GetDragonSheHe')|U] makes to protect [my_foe_dragon.Custom('GetDragonHerHis')] exposed underbelly, but cannot react in time, suffering a great chunk to be torn away from [my_foe_dragon.Custom('GetDragonHerHis')] stomach. We've disemboweled [my_foe_dragon.Custom('GetDragonHerHim')] right in the sky! I hear an echoing roar as they both fall behind us, dragon blood and guts streaking beside us from [my_dragon.GetNamePossessive] mouth."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.disemboweled [AGOT: The ground take them both!]
- agot_dragon_combat.1004.a.disemboweled:0 "The ground take them both!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.disemboweled_died [AGOT: [my_foe_dragon.GetName] is dead, and [my_foe.GetName] is doomed to follow.]
- agot_dragon_combat.1004.f.disemboweled_died:0 "[my_foe_dragon.GetName] is dead, and [my_foe.GetName] is doomed to follow."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.disemboweled_escaped [AGOT: [my_foe_dragon.GetName] is dead, with [my_foe.GetName] barely surviving the fall]
- agot_dragon_combat.1004.f.disemboweled_escaped:0 "[my_foe_dragon.GetName] is dead, with [my_foe.GetName] barely surviving the fall"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.eviscerated [AGOT: Eschewing any sense of defense, [my_dragon.GetName] drives straight into [my_foe_dragon.GetName]! Though [my_foe_dragon.GetNameNoTooltip] tries to evade and then raise [my_foe_dragon.Custom('GetDragonHerHis')] wings in defense, each is torn through by our teeth and claws!\n\n[my_foe_dragon.GetNameNoTooltip] roars in anguish as a wing is ripped off, but [my_dragon.GetNameNoTooltip] doesn't let go, continuing to rip and tear. With a whip of the neck [my_dragon.Custom('GetDragonSheHe')] gets a ferocious bite on [my_foe_dragon.GetNamePossessiveNoTooltip] neck, and after a final cry from the creature, [my_dragon.Custom('GetDragonSheHe')] rips [my_foe_dragon.Custom('GetDragonHerHis')] head straight off!]
- agot_dragon_combat.1004.desc.eviscerated:0 "Eschewing any sense of defense, [my_dragon.GetName] drives straight into [my_foe_dragon.GetName]! Though [my_foe_dragon.GetNameNoTooltip] tries to evade and then raise [my_foe_dragon.Custom('GetDragonHerHis')] wings in defense, each is torn through by our teeth and claws!\n\n[my_foe_dragon.GetNameNoTooltip] roars in anguish as a wing is ripped off, but [my_dragon.GetNameNoTooltip] doesn't let go, continuing to rip and tear. With a whip of the neck [my_dragon.Custom('GetDragonSheHe')] gets a ferocious bite on [my_foe_dragon.GetNamePossessiveNoTooltip] neck, and after a final cry from the creature, [my_dragon.Custom('GetDragonSheHe')] rips [my_foe_dragon.Custom('GetDragonHerHis')] head straight off!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.eviscerated [AGOT: Rip! Tear! Devour!]
- agot_dragon_combat.1004.a.eviscerated:0 "Rip! Tear! Devour!"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.eviscerated [AGOT: [my_dragon.GetName] devours both [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName]]
- agot_dragon_combat.1004.f.eviscerated:0 "[my_dragon.GetName] devours both [my_foe.GetTitledFirstName] and [my_foe_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.desc.chomp [AGOT: There was really never any hope for [my_foe.GetFirstName]. [my_foe_dragon.GetName] is not half the size of mine own [my_dragon.GetName], and [my_foe.GetSheHe] knows that a full frontal assault would be suicide, preferring to stalk between the clouds.\n\nSeveral times I think I see the shadow of our prey, only for the apparition to clear as we get closer.\n\nAs we fly a primal part of my body recognizes this for what it is. The deep visceral scream of instincts honed when men were no more than beasts. We are the predator, and dragon is our prey.\n\nAs if to punctuate the thought, another shadow forms in front of me. I briefly expect this to be as imagined as the others, when the smaller form appears in right in front of us! I do not even need to instruct [my_dragon.GetNameNoTooltip]. [my_dragon.Custom('GetDragonHerHis')|U] maw opens and with a single bite, [my_foe_dragon.GetName] and [my_foe.GetName] are eaten whole.]
- agot_dragon_combat.1004.desc.chomp:0 "There was really never any hope for [my_foe.GetFirstName]. [my_foe_dragon.GetName] is not half the size of mine own [my_dragon.GetName], and [my_foe.GetSheHe] knows that a full frontal assault would be suicide, preferring to stalk between the clouds.\n\nSeveral times I think I see the shadow of our prey, only for the apparition to clear as we get closer.\n\nAs we fly a primal part of my body recognizes this for what it is. The deep visceral scream of instincts honed when men were no more than beasts. We are the predator, and dragon is our prey.\n\nAs if to punctuate the thought, another shadow forms in front of me. I briefly expect this to be as imagined as the others, when the smaller form appears in right in front of us! I do not even need to instruct [my_dragon.GetNameNoTooltip]. [my_dragon.Custom('GetDragonHerHis')|U] maw opens and with a single bite, [my_foe_dragon.GetName] and [my_foe.GetName] are eaten whole."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.a.chomp [AGOT: They didn't even have time to scream.]
- agot_dragon_combat.1004.a.chomp:0 "They didn't even have time to scream."
-### TODO NOT-IN-ST: agot_dragon_combat.1004.f.chomp [AGOT: [my_foe.GetName] and [my_foe_dragon.GetName] are both chomped up by [my_dragon.GetName]]
- agot_dragon_combat.1004.f.chomp:0 "[my_foe.GetName] and [my_foe_dragon.GetName] are both chomped up by [my_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_combat.1004.chomp.t [AGOT: [my_dragon.GetNameNoTooltip] Likes the Taste]
- agot_dragon_combat.1004.chomp.t:0 "[my_dragon.GetNameNoTooltip] Likes the Taste"
-### TODO NOT-IN-ST: agot_dragon_combat.1010.t [AGOT: Wings of Vengeance]
- agot_dragon_combat.1010.t:0 "Wings of Vengeance"
-### TODO NOT-IN-ST: agot_dragon_combat.1010.desc.commander [AGOT: The scouts ride in breathless, their news as sharp as a spearpoint. [enemy_dragonrider.GetTitledFirstName], scourge of the skies, has been sighted above [battle_location.GetName]. A chance such as this comes but seldom: Strike now, and my foe may be cast from the clouds, [enemy_dragonrider.GetHerHis] beast broken, [enemy_dragonrider.GetHerHis] men undone.\n\nYet every dragon duel is a dance with death. If I rise, the sky will blaze with fire and fury, and only one of us will descend alive.]
- agot_dragon_combat.1010.desc.commander:0 "The scouts ride in breathless, their news as sharp as a spearpoint. [enemy_dragonrider.GetTitledFirstName], scourge of the skies, has been sighted above [battle_location.GetName]. A chance such as this comes but seldom: Strike now, and my foe may be cast from the clouds, [enemy_dragonrider.GetHerHis] beast broken, [enemy_dragonrider.GetHerHis] men undone.\n\nYet every dragon duel is a dance with death. If I rise, the sky will blaze with fire and fury, and only one of us will descend alive."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.commander [AGOT: I will take to the skies — this ends now.]
- agot_dragon_combat.1010.a.commander:0 "I will take to the skies — this ends now."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.desc.knight [AGOT: The scouts' tidings are grave: [enemy_dragonrider.GetTitledFirstName] has been seen above [battle_location.GetName], [enemy_dragonrider.GetHerHis] dragon crouched in the hills like a storm gathering on the horizon. Such a foe cannot be matched by swords alone. All eyes turn to [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetTitledFirstName], the dragonrider in our host — only their fire can meet fire, only their wings can drive back the terror of the skies.\n\nIf they rise, the heavens themselves will burn.]
- agot_dragon_combat.1010.desc.knight:0 "The scouts' tidings are grave: [enemy_dragonrider.GetTitledFirstName] has been seen above [battle_location.GetName], [enemy_dragonrider.GetHerHis] dragon crouched in the hills like a storm gathering on the horizon. Such a foe cannot be matched by swords alone. All eyes turn to [dragonrider_in_battle.GetTitledFirstName] and [dragon_in_battle.GetTitledFirstName], the dragonrider in our host — only their fire can meet fire, only their wings can drive back the terror of the skies.\n\nIf they rise, the heavens themselves will burn."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.knight [AGOT: [dragonrider_in_battle.GetTitledFirstNameNoTooltip] must fly — only they can meet this threat.]
- agot_dragon_combat.1010.a.knight:0 "[dragonrider_in_battle.GetTitledFirstNameNoTooltip] must fly — only they can meet this threat."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.desc.lord [AGOT: A cry goes up from the walls of [home_location.GetNameNoTooltip]: [enemy_dragonrider.GetTitledFirstName] descends upon my lands, [enemy_dragon_in_battle.GetTitledFirstNamePossessive] shadow falling long and black across hearth and hall. My people scatter in terror, knowing no spear nor arrow can shield them from the wrath of dragonflame.\n\nOnly I may rise to meet [enemy_dragonrider.GetHerHim]. If I take wing, the sky above [home_location.GetNameNoTooltip] will roar with fire, and only one of us will live to see it again.]
- agot_dragon_combat.1010.desc.lord:0 "A cry goes up from the walls of [home_location.GetNameNoTooltip]: [enemy_dragonrider.GetTitledFirstName] descends upon my lands, [enemy_dragon_in_battle.GetTitledFirstNamePossessive] shadow falling long and black across hearth and hall. My people scatter in terror, knowing no spear nor arrow can shield them from the wrath of dragonflame.\n\nOnly I may rise to meet [enemy_dragonrider.GetHerHim]. If I take wing, the sky above [home_location.GetNameNoTooltip] will roar with fire, and only one of us will live to see it again."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.lord [AGOT: I will defend my home — to the skies!]
- agot_dragon_combat.1010.a.lord:0 "I will defend my home — to the skies!"
-### TODO NOT-IN-ST: agot_dragon_combat.1010.b.lord [AGOT: No... better the walls burn than I.]
- agot_dragon_combat.1010.b.lord:0 "No... better the walls burn than I."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.desc.courtier [AGOT: Panic ripples through the halls as the shadow of [enemy_dragonrider.GetTitledFirstName] falls upon us. [enemy_dragonrider.GetHerHis|U] dragon, [enemy_dragon_in_battle.GetTitledFirstName], circles [home_location.GetNameNoTooltip], fire licking at the rooftops, screams echoing in the courtyards. No knight, no host, no wall can stand against such a foe.\n\nYet not all hope is lost. One among my court, [dragonrider_in_battle.GetTitledFirstName], commands a dragon of [dragonrider_in_battle.GetHerHis] own. If [dragonrider_in_battle.GetSheHe] rises, the sky will be torn with thunder and flame, and only one of them shall survive the clash.]
- agot_dragon_combat.1010.desc.courtier:0 "Panic ripples through the halls as the shadow of [enemy_dragonrider.GetTitledFirstName] falls upon us. [enemy_dragonrider.GetHerHis|U] dragon, [enemy_dragon_in_battle.GetTitledFirstName], circles [home_location.GetNameNoTooltip], fire licking at the rooftops, screams echoing in the courtyards. No knight, no host, no wall can stand against such a foe.\n\nYet not all hope is lost. One among my court, [dragonrider_in_battle.GetTitledFirstName], commands a dragon of [dragonrider_in_battle.GetHerHis] own. If [dragonrider_in_battle.GetSheHe] rises, the sky will be torn with thunder and flame, and only one of them shall survive the clash."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.courtier [AGOT: Summon [dragonrider_in_battle.GetTitledFirstNameNoTooltip] — let them meet this fire with fire.]
- agot_dragon_combat.1010.a.courtier:0 "Summon [dragonrider_in_battle.GetTitledFirstNameNoTooltip] — let them meet this fire with fire."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.b.courtier [AGOT: We must endure — the skies are [enemy_dragonrider.GetHerHis] today.]
- agot_dragon_combat.1010.b.courtier:0 "We must endure — the skies are [enemy_dragonrider.GetHerHis] today."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.tt [AGOT: You will engage in a dragon duel against [enemy_dragonrider.GetTitledFirstNameNoTooltip].]
- agot_dragon_combat.1010.a.tt:0 "You will engage in a dragon duel against [enemy_dragonrider.GetTitledFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.a.tt.not_me [AGOT: [dragonrider_in_battle.GetTitledFirstNameNoTooltip] will engage in a dragon duel against [enemy_dragonrider.GetTitledFirstNameNoTooltip].]
- agot_dragon_combat.1010.a.tt.not_me:0 "[dragonrider_in_battle.GetTitledFirstNameNoTooltip] will engage in a dragon duel against [enemy_dragonrider.GetTitledFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_dragon_combat.1010.b [AGOT: Another time, perhaps.]
- agot_dragon_combat.1010.b:0 "Another time, perhaps."
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.none [AGOT: #difficulty_hard NO#! increase to your success chance]
- agot_dragon_combat.duel_success.none:0 "#difficulty_hard NO#! increase to your success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.low [AGOT: #difficulty_hard LOW#! increase to your success chance]
- agot_dragon_combat.duel_success.low:0 "#difficulty_hard LOW#! increase to your success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.medium [AGOT: #difficulty_medium MEDIUM#! increase to your success chance]
- agot_dragon_combat.duel_success.medium:0 "#difficulty_medium MEDIUM#! increase to your success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.high [AGOT: #difficulty_easy HIGH#! increase to your success chance]
- agot_dragon_combat.duel_success.high:0 "#difficulty_easy HIGH#! increase to your success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.very_high [AGOT: #difficulty_easy VERY HIGH#! increase to your success chance]
- agot_dragon_combat.duel_success.very_high:0 "#difficulty_easy VERY HIGH#! increase to your success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.guaranteed [AGOT: You are #difficulty_easy GUARANTEED#! to win!]
- agot_dragon_combat.duel_success.guaranteed:0 "You are #difficulty_easy GUARANTEED#! to win!"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.none.has_happened [AGOT: #difficulty_hard NO#! increase to [my_foe.GetHerHis] success chance]
- agot_dragon_combat.duel_success.none.has_happened:0 "#difficulty_hard NO#! increase to [my_foe.GetHerHis] success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.low.has_happened [AGOT: #difficulty_hard LOW#! increase to [my_foe.GetHerHis] success chance]
- agot_dragon_combat.duel_success.low.has_happened:0 "#difficulty_hard LOW#! increase to [my_foe.GetHerHis] success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.medium.has_happened [AGOT: #difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] success chance]
- agot_dragon_combat.duel_success.medium.has_happened:0 "#difficulty_medium MEDIUM#! increase to [my_foe.GetHerHis] success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.high.has_happened [AGOT: #difficulty_easy HIGH#! increase to [my_foe.GetHerHis] success chance]
- agot_dragon_combat.duel_success.high.has_happened:0 "#difficulty_easy HIGH#! increase to [my_foe.GetHerHis] success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.very_high.has_happened [AGOT: #difficulty_easy VERY HIGH#! increase to [my_foe.GetHerHis] success chance]
- agot_dragon_combat.duel_success.very_high.has_happened:0 "#difficulty_easy VERY HIGH#! increase to [my_foe.GetHerHis] success chance"
-### TODO NOT-IN-ST: agot_dragon_combat.duel_success.guaranteed.has_happened [AGOT: [my_foe.GetSheHe] is #difficulty_hard GUARANTEED#! to win!]
- agot_dragon_combat.duel_success.guaranteed.has_happened:0 "[my_foe.GetSheHe] is #difficulty_hard GUARANTEED#! to win!"
+
+ agot_dragon_combat.1004.desc.sudden_strike:0 "Planım işe yarıyor! [my_foe.GetName] bunun geleceğini hiç görmedi. Bir saniye [my_dragon.GetName] ve ben savunmasız görünüyoruz ve [my_foe_dragon.GetName] öldürücü darbeyi indirmek için üstümüze geliyor. Sonraki saniye [my_dragon.GetNameNoTooltip], [my_foe_dragon.GetNamePossessiveNoTooltip] omzunun üzerinden [my_foe_dragon.Custom('GetDragonHerHis')] boynunu dolaşıp arkadaki korumasız binicinin üzerine savruluyor.\n\n[my_dragon.GetNamePossessiveNoTooltip] kocaman ağzını açıp [my_foe.GetNameNoTooltip]'in üzerine kapanıyor ve [my_foe.GetHerHim]'i yutuyor!"
+
+ agot_dragon_combat.1004.a.sudden_strike:0 "Ejderha artık kolay lokma olmalı!"
+
+ agot_dragon_combat.1004.f.sudden_strike_survived:0 "[my_foe_dragon.GetName] kaçmayı başarıyor"
+
+ agot_dragon_combat.1004.f.sudden_strike_died:0 "[my_foe_dragon.GetName], [my_dragon.GetName]'in ikinci darbesiyle hızla yere seriliyor"
+
+ agot_dragon_combat.1004.desc.dragonfire:0 "Bir kükreme ve sıcaklık dalgasıyla [my_dragon.GetName]'in tüm muhalefeti süpürdüğünü hissediyorum; [my_dragon.Custom('GetDragonHerHis')] açık boğazı, [my_foe_dragon.GetName] ve [my_foe.GetTitledFirstName]'e tek bir dev alev yumağı püskürtüyor. Kaçınamayacak kadar yakın. Engelleyemeyecek kadar büyük. Yangınla yutulan rüzgârı yankılayan bir tatmin dalgasıyla, [my_foe_dragon.GetNameNoTooltip] ve [my_foe.GetTitledFirstNameNoTooltip]'in [my_dragon.GetNameNoTooltip] tarafından kül edildiğini görüyorum."
+
+ agot_dragon_combat.1004.a.dragonfire:0 "Seni yakaladım!"
+
+ agot_dragon_combat.1004.f.dragonfire_both:0 "[my_foe.GetName] ve [my_foe_dragon.GetName] ikisi de [my_dragon.GetName] tarafından yakılıp kül ediliyor"
+
+ agot_dragon_combat.1004.f.dragonfire_dragon:0 "[my_foe_dragon.GetName], [my_dragon.GetName] tarafından ölümcül şekilde yaralanıyor; ama [my_foe.GetName] kaçarken kurtulmayı başarıyor"
+
+ agot_dragon_combat.1004.f.dragonfire_rider:0 "[my_foe_dragon.GetName], [my_dragon.GetName] tarafından yakılıp kül ediliyor; ama [my_foe.GetName] süzülerek kurtulmayı başarıyor"
+
+ agot_dragon_combat.1004.f.dragonfire_neither:0 "[my_foe.GetName] ve [my_foe_dragon.GetName] korkunç şekilde yanıyor; ama kıl payı kaçmayı başarıyorlar"
+
+ agot_dragon_combat.1004.desc.driven_to_ground:0 "[my_dragon.GetNamePossessive] tüm ağırlığının [my_foe_dragon.GetName]'in üzerine çarpması beni eyerimde sarsıyor. Düşmanlarımızı yere — sertçe — ittiğimizde [my_foe_dragon.GetName] boşuna bir çığlıkla itiraz ediyor.\n\nİki ejderhanın ortak ağırlığı altında [my_foe_dragon.GetNamePossessiveNoTooltip] kanadının kırıldığını doyurucu bir çıtırtıyla duyuyorum. Düşmanlarımızın kırılmış bedeninin üzerinde bir tanrı gibi yükselirken [my_foe_dragon.GetNameNoTooltip]'in biçimine aşağıdan bakıyorum ve [my_dragon.GetNamePossessiveNoTooltip] açlığının [my_dragon.Custom('GetDragonHerHis')]'i öldürmeye ittiğini hissediyorum."
+
+ agot_dragon_combat.1004.a.driven_to_ground:0 "İşte böyle, [my_dragon.GetName]! Bitir işini!"
+
+ agot_dragon_combat.1004.f.driven_to_ground_died:0 "[my_foe.GetFirstName], [my_dragon.GetNameNoTooltip]'in şiddetli ısırıkları arasında yutuluyor"
+
+ agot_dragon_combat.1004.f.driven_to_ground_escaped:0 "[my_foe.GetFirstName], [my_dragon.GetNameNoTooltip]'in yutucu ısırıklarından kaçmak için debeleniyor"
+
+ agot_dragon_combat.1004.desc.disemboweled:0 "Bulutları siper alarak [my_foe_dragon.GetName]'i seziyorum, besbelli bizi beklemiyorlar. Göz kamaştırıcı bir hızla hücum ederken [my_foe.GetFirstName] yüzünü bize dönüyor.\n\nÇok geç.\n\n[my_dragon.GetName] bir şimşek gibi ve tıpkı onun gibi durdurulamaz şekilde fırlıyor. [my_foe_dragon.Custom('GetDragonSheHe')|U] [my_foe_dragon.Custom('GetDragonHerHis')] açıkta kalan karnını korumaya çalışıyor; ama zamanında tepki veremiyor ve [my_foe_dragon.Custom('GetDragonHerHis')] midesinden koca bir parça koparılıyor. [my_foe_dragon.Custom('GetDragonHerHim')]'i gökyüzünün ortasında deştik! İkisi de arkamızda yere düşerken yankılanan bir kükreme duyuyorum; [my_dragon.GetNamePossessive] ağzından yanımızdan ejderha kanı ve organlar savruluyor."
+
+ agot_dragon_combat.1004.a.disemboweled:0 "Yer onların ikisini de alsın!"
+
+ agot_dragon_combat.1004.f.disemboweled_died:0 "[my_foe_dragon.GetName] öldü ve [my_foe.GetName] de ardından gitmeye mahkûm."
+
+ agot_dragon_combat.1004.f.disemboweled_escaped:0 "[my_foe_dragon.GetName] öldü; [my_foe.GetName] düşüşten kıl payı kurtuluyor"
+
+ agot_dragon_combat.1004.desc.eviscerated:0 "Savunmadan eser taşımadan, [my_dragon.GetName] dosdoğru [my_foe_dragon.GetName]'in üzerine dalıyor! [my_foe_dragon.GetNameNoTooltip] kaçmaya, ardından savunmak için [my_foe_dragon.Custom('GetDragonHerHis')] kanatlarını kaldırmaya çalışsa da, her biri dişlerimiz ve pençelerimizle parçalanıyor!\n\nBir kanat koparılırken [my_foe_dragon.GetNameNoTooltip] ıstırap içinde kükriyor; ama [my_dragon.GetNameNoTooltip] bırakmıyor, parçalayıp didiklemeye devam ediyor. Boynunu savurarak [my_dragon.Custom('GetDragonSheHe')] [my_foe_dragon.GetNamePossessiveNoTooltip] boynuna vahşi bir ısırık geçiriyor ve yaratıktan son bir çığlık yükseldikten sonra [my_dragon.Custom('GetDragonSheHe')], [my_foe_dragon.Custom('GetDragonHerHis')] kafasını koparıveriyor!"
+
+ agot_dragon_combat.1004.a.eviscerated:0 "Parçala! Sök! Yut!"
+
+ agot_dragon_combat.1004.f.eviscerated:0 "[my_dragon.GetName], [my_foe.GetTitledFirstName] ve [my_foe_dragon.GetName]'i ikisini de yutuyor"
+
+ agot_dragon_combat.1004.desc.chomp:0 "[my_foe.GetFirstName] için gerçekten hiç umut yoktu. [my_foe_dragon.GetName], benim kendi ejderham [my_dragon.GetName]'in yarısı kadar bile değil ve [my_foe.GetSheHe], cepheden yapılacak tam bir saldırının intihar olacağını bilerek bulutların arasında sinsice dolaşmayı tercih ediyor.\n\nBirkaç kez avımızın gölgesini gördüğümü sanıyorum, ama yaklaştıkça hayalet dağılıyor.\n\nUçarken bedenimdeki ilkel bir yan bunun ne olduğunu anlıyor. İnsanların henüz hayvandan farksız olduğu çağlarda bilenmiş içgüdülerin derin, içten gelen çığlığı. Biz yırtıcıyız ve ejderha bizim avımız.\n\nDüşünceyi noktalar gibi, önümde bir gölge daha beliriyor. Bir an bunun da diğerleri gibi hayal olmasını umuyorum; derken küçük biçim tam karşımızda beliriyor! [my_dragon.GetNameNoTooltip]'e emir vermeme bile gerek kalmıyor. [my_dragon.Custom('GetDragonHerHis')|U] ağzını açıyor ve tek bir ısırıkla [my_foe_dragon.GetName] ile [my_foe.GetName] bütün olarak yutuluyor."
+
+ agot_dragon_combat.1004.a.chomp:0 "Çığlık atacak vakitleri bile olmadı."
+
+ agot_dragon_combat.1004.f.chomp:0 "[my_foe.GetName] ve [my_foe_dragon.GetName] ikisi de [my_dragon.GetName] tarafından çiğnenip yutuluyor"
+
+ agot_dragon_combat.1004.chomp.t:0 "[my_dragon.GetNameNoTooltip] Tadını Seviyor"
+
+ agot_dragon_combat.1010.t:0 "İntikam Kanatları"
+
+ agot_dragon_combat.1010.desc.commander:0 "İzciler soluk soluğa atlarını sürüyor; haberleri mızrak ucu kadar keskin. Gökyüzünün belası [enemy_dragonrider.GetTitledFirstName], [battle_location.GetName] üzerinde görülmüş. Böyle bir fırsat endi gelir: Şimdi vur, düşmanım bulutlardan aşağı yuvarlansın, [enemy_dragonrider.GetHerHis] canavarı kırılsın, [enemy_dragonrider.GetHerHis] adamları dağılsın.\n\nYine de her ejderha düellosu ölümle bir danstır. Gökyüzüne çıkarsam, gök ateş ve öfkeyle alevlenecek ve ikimizden yalnızca biri sağ inebilecek."
+
+ agot_dragon_combat.1010.a.commander:0 "Gökyüzüne çıkacağım — bu iş şimdi bitiyor."
+
+ agot_dragon_combat.1010.desc.knight:0 "İzcilerin haberi ağırdır: [enemy_dragonrider.GetTitledFirstName] [battle_location.GetName] üzerinde görülmüş; [enemy_dragonrider.GetHerHis] ejderhası, ufukta toplanan bir fırtına gibi tepelerde çömelmiş. Böyle bir düşman yalnızca kılıçlarla boy ölçüşemez. Tüm gözler ordumuzdaki ejderha binicisi [dragonrider_in_battle.GetTitledFirstName] ve [dragon_in_battle.GetTitledFirstName]'e çevriliyor — yalnızca onların ateşi ateşe karşılık verebilir, yalnızca onların kanatları gökyüzünün dehşetini geri püskürtebilir.\n\nOnlar havalanırsa, göklerin ta kendisi yanacak."
+
+ agot_dragon_combat.1010.a.knight:0 "[dragonrider_in_battle.GetTitledFirstNameNoTooltip] uçmak zorunda — bu tehditle yalnızca onlar yüzleşebilir."
+
+ agot_dragon_combat.1010.desc.lord:0 "[home_location.GetNameNoTooltip] surlarından bir çığlık yükseliyor: [enemy_dragonrider.GetTitledFirstName] topraklarıma iniyor; [enemy_dragon_in_battle.GetTitledFirstNamePossessive] gölgesi ocak ve salona uzun ve kara bir şekilde düşüyor. Halkım, hiçbir mızrağın ve okun onları ejderha ateşinin gazabından koruyamayacağını bilerek dehşet içinde dağılıyor.\n\n[enemy_dragonrider.GetHerHim] ile yüzleşmek için yalnızca ben havalanabilirim. Kanatlanırsam, [home_location.GetNameNoTooltip] üzerindeki gökyüzü ateşle kükreyecek ve ikimizden yalnızca biri onu yeniden görecek."
+
+ agot_dragon_combat.1010.a.lord:0 "Evimi savunacağım — gökyüzüne!"
+
+ agot_dragon_combat.1010.b.lord:0 "Hayır... yanacaksa duvarlar yansın, ben değil."
+
+ agot_dragon_combat.1010.desc.courtier:0 "Sarayda panik dalga dalga yayılıyor; [enemy_dragonrider.GetTitledFirstName]'in gölgesi üzerimize düşüyor. [enemy_dragonrider.GetHerHis|U] ejderhası [enemy_dragon_in_battle.GetTitledFirstName], [home_location.GetNameNoTooltip]'in çevresinde dönüyor; ateş çatıları yalıyor, avlularda çığlıklar yankılanıyor. Hiçbir şövalye, hiçbir ordu, hiçbir sur böyle bir düşmana karşı duramaz.\n\nYine de tüm umut kaybolmuş değil. Sarayımdakilerden biri, [dragonrider_in_battle.GetTitledFirstName], kendine ait bir ejderhaya biniyor. [dragonrider_in_battle.GetSheHe] havalanırsa, gökyüzü gök gürültüsü ve alevle yarılacak ve bu çatışmadan yalnızca biri sağ çıkacak."
+
+ agot_dragon_combat.1010.a.courtier:0 "[dragonrider_in_battle.GetTitledFirstNameNoTooltip]'i çağırın — ateşe ateşle karşılık versinler."
+
+ agot_dragon_combat.1010.b.courtier:0 "Dayanmalıyız — gökyüzü bugün [enemy_dragonrider.GetHerHis]."
+
+ agot_dragon_combat.1010.a.tt:0 "[enemy_dragonrider.GetTitledFirstNameNoTooltip]'e karşı bir ejderha düellosuna çıkacaksınız."
+
+ agot_dragon_combat.1010.a.tt.not_me:0 "[dragonrider_in_battle.GetTitledFirstNameNoTooltip], [enemy_dragonrider.GetTitledFirstNameNoTooltip]'e karşı bir ejderha düellosuna çıkacak."
+
+ agot_dragon_combat.1010.b:0 "Belki başka bir zaman."
+
+ agot_dragon_combat.duel_success.none:0 "#difficulty_hard YOK#! başarı şansınıza katkı"
+
+ agot_dragon_combat.duel_success.low:0 "#difficulty_hard DÜŞÜK#! başarı şansınıza katkı"
+
+ agot_dragon_combat.duel_success.medium:0 "#difficulty_medium ORTA#! başarı şansınıza katkı"
+
+ agot_dragon_combat.duel_success.high:0 "#difficulty_easy YÜKSEK#! başarı şansınıza katkı"
+
+ agot_dragon_combat.duel_success.very_high:0 "#difficulty_easy ÇOK YÜKSEK#! başarı şansınıza katkı"
+
+ agot_dragon_combat.duel_success.guaranteed:0 "Kazanacağınız #difficulty_easy GARANTİ#!"
+
+ agot_dragon_combat.duel_success.none.has_happened:0 "#difficulty_hard YOK#! [my_foe.GetHerHis] başarı şansına katkı"
+
+ agot_dragon_combat.duel_success.low.has_happened:0 "#difficulty_hard DÜŞÜK#! [my_foe.GetHerHis] başarı şansına katkı"
+
+ agot_dragon_combat.duel_success.medium.has_happened:0 "#difficulty_medium ORTA#! [my_foe.GetHerHis] başarı şansına katkı"
+
+ agot_dragon_combat.duel_success.high.has_happened:0 "#difficulty_easy YÜKSEK#! [my_foe.GetHerHis] başarı şansına katkı"
+
+ agot_dragon_combat.duel_success.very_high.has_happened:0 "#difficulty_easy ÇOK YÜKSEK#! [my_foe.GetHerHis] başarı şansına katkı"
+
+ agot_dragon_combat.duel_success.guaranteed.has_happened:0 "[my_foe.GetSheHe] kazanacak, #difficulty_hard GARANTİ#!!"
