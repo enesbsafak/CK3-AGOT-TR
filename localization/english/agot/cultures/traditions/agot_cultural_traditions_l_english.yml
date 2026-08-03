@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: ethos_festive_name [AGOT: Festive]
  ethos_festive_name:0 "Festive"
 ### TODO NOT-IN-ST: ethos_festive_desc [AGOT: In the face of the grim hardship of existence, this culture finds salvation in communal festivity and shared laughter.]
@@ -45,8 +45,8 @@
  culture_parameter_more_frequent_maritime_hunts:0 "Delay between [GetActivityType('activity_agot_sailing').GetName] [activities|E]: #P -50% #!"
 ### TODO NOT-IN-ST: culture_parameter_ironborn_raiding_sailing [AGOT: Gains [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )] [trait_level_track_xp|E] from raiding in coastal counties]
  culture_parameter_ironborn_raiding_sailing:0 "Gains [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )] [trait_level_track_xp|E] from raiding in coastal counties"
-### TODO NOT-IN-ST: culture_parameter_ironborn_sailing_requirements [AGOT: Can host a [GetActivityType('activity_agot_sailing').GetName] [activity|E] from any coastal province within their realm]
- culture_parameter_ironborn_sailing_requirements:0 "Can host a [GetActivityType('activity_agot_sailing').GetName] [activity|E] from any coastal province within their realm"
+
+ culture_parameter_ironborn_sailing_requirements:0 "Diyarı içindeki herhangi bir kıyı eyaletinden [GetActivityType('activity_agot_sailing').GetName] [activity|E] düzenleyebilir"
 ### TODO NOT-IN-ST: culture_parameter_cheaper_tour_activity [AGOT: The [GetActivityType( 'activity_tour' ).GetName] activity is #P 10%#! cheaper]
  culture_parameter_cheaper_tour_activity:0 "The [GetActivityType( 'activity_tour' ).GetName] activity is #P 10%#! cheaper"
 ### TODO NOT-IN-ST: cheaper_tour_activity_discount [AGOT: [GetPlayer.GetCulture.GetName] [culture|E]]

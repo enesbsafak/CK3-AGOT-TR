@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_banking.0001.t [AGOT: Envoys from the Bank]
  agot_banking.0001.t:0 "Envoys from the Bank"
 ### TODO NOT-IN-ST: agot_banking.0001.desc [AGOT: My servants bring word that the envoys from the [agot_bank|E] have finally arrived for my requested audience with them. Not wishing to insult these esteemed guests, I swiftly depart to attend to them.\n\nThe envoys look out of place in my hall, their robes a stark contrast to my guards' boiled leather. Their proposals, however, are plain enough.\n\nBefore me they lay a variety of loans, ranging in length and value. The question is, which one suits my needs best?]
@@ -473,22 +473,22 @@
  set_risk_level_decision:0 "Risk Seviyesini Değiştir"
 ### TODO NOT-IN-ST: set_risk_level_decision_desc [AGOT: As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may decide how much [Concept('agot_bank_risk_level','risk')|E] the bank is willing to take when granting loans or making investments.]
  set_risk_level_decision_desc:0 "As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may decide how much [Concept('agot_bank_risk_level','risk')|E] the bank is willing to take when granting loans or making investments."
-### TODO NOT-IN-ST: set_risk_level_decision_tooltip [AGOT: You will be able to choose between low, medium, and high risk levels for loans and investments.]
- set_risk_level_decision_tooltip:0 "You will be able to choose between low, medium, and high risk levels for loans and investments."
+
+ set_risk_level_decision_tooltip:0 "Krediler ve yatırımlar için düşük, orta ve yüksek risk seviyeleri arasında seçim yapabileceksin."
 
  set_risk_level_decision_tooltip_confirm_text_desc:0 "Bankanın politikalarını yeniden değerlendireceğim."
-### TODO NOT-IN-ST: set_risk_level_decision_effect [AGOT: You will be able to choose between low, medium, and high risk levels for loans and investments.]
- set_risk_level_decision_effect:0 "You will be able to choose between low, medium, and high risk levels for loans and investments."
+
+ set_risk_level_decision_effect:0 "Krediler ve yatırımlar için düşük, orta ve yüksek risk seviyeleri arasında seçim yapabileceksin."
 
  set_dividend_level_decision:0 "Temettü Oranlarını Ayarla"
 ### TODO NOT-IN-ST: set_dividend_level_decision_desc [AGOT: As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may adjust how much of the bank's [agot_bank_profits|E] will be paid out to its shareholders.]
  set_dividend_level_decision_desc:0 "As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may adjust how much of the bank's [agot_bank_profits|E] will be paid out to its shareholders."
-### TODO NOT-IN-ST: set_dividend_level_decision_tooltip [AGOT: You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E].]
- set_dividend_level_decision_tooltip:0 "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E]."
+
+ set_dividend_level_decision_tooltip:0 "Düşük, orta ve yüksek [agot_bank_dividends|E] oranları arasında seçim yapabileceksin."
 
  set_dividend_level_decision_tooltip_confirm_text_desc:0 "Bankanın politikalarını yeniden değerlendireceğim."
-### TODO NOT-IN-ST: set_dividend_level_decision_effect [AGOT: You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E].]
- set_dividend_level_decision_effect:0 "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|E]."
+
+ set_dividend_level_decision_effect:0 "Düşük, orta ve yüksek [agot_bank_dividends|E] oranları arasında seçim yapabileceksin."
 ### TODO NOT-IN-ST: show_bank_numbers_decision [AGOT: View Ledger]
  show_bank_numbers_decision:0 "View Ledger"
 ### TODO NOT-IN-ST: show_bank_numbers_decision_confirm [AGOT: Let's take a look]
@@ -545,12 +545,12 @@
  set_interest_level_decision:0 "Faiz Oranlarını Ayarla"
 ### TODO NOT-IN-ST: set_interest_level_decision_desc [AGOT: As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may adjust the general [agot_bank_interest_rate|E] level of newly issued loans.]
  set_interest_level_decision_desc:0 "As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], you may adjust the general [agot_bank_interest_rate|E] level of newly issued loans."
-### TODO NOT-IN-ST: set_interest_level_decision_tooltip [AGOT: You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa.]
- set_interest_level_decision_tooltip:0 "You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa."
+
+ set_interest_level_decision_tooltip:0 "Daha düşük, normal ve daha yüksek faiz oranları arasında seçim yapabileceksin. Faiz oranı ne kadar düşükse o kadar çok müşteri çekersin ve kredi başına [agot_bank_profits|E]'in o kadar düşük olur; ve tam tersi."
 
  set_interest_level_decision_tooltip_confirm_text_desc:0 "Bankanın politikalarını yeniden değerlendireceğim."
-### TODO NOT-IN-ST: set_interest_level_decision_effect [AGOT: You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa.]
- set_interest_level_decision_effect:0 "You will be able to choose between lower, normal, and higher interest rates. The lower the interest rate, the more customers you will attract, and the lower your [agot_bank_profits|E] per loan will be, and vice versa."
+
+ set_interest_level_decision_effect:0 "Daha düşük, normal ve daha yüksek faiz oranları arasında seçim yapabileceksin. Faiz oranı ne kadar düşükse o kadar çok müşteri çekersin ve kredi başına [agot_bank_profits|E]'in o kadar düşük olur; ve tam tersi."
 ### TODO NOT-IN-ST: agot_banking.0208.t [AGOT: Decide Interest Rate Level]
  agot_banking.0208.t:0 "Decide Interest Rate Level"
 ### TODO NOT-IN-ST: agot_banking.0208.desc [AGOT: As [agot_bank_director|E] of the [ROOT.Char.Custom('agot_bank_name')], it is up to me to decide on the general [agot_bank_interest_rate|E] level of newly issued loans. The lower the interest rate, the more customers I may attract, but the lower my [agot_bank_profits|E] per loan will be, and vice versa.]

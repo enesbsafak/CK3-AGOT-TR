@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿﻿l_english:
  rice_fields_modifier:0 "Pirinç Tarlaları"
  rice_fields_modifier_desc:1 "Bu kontluktaki köylüler pirinç ekip biçiyor, karınlarını doyurup yeni mutfaklar keşfediyor."
  fp2_flavor.0001.t:0 "Yeni Bereketli Fikirler"
@@ -89,10 +89,10 @@
  fp2_btw_struggle.0501.t:1 "The $btw_struggle$"
 ### TODO NOT-IN-ST: fp2_btw_struggle.0501.desc [AGOT: The disparate clans of free folk beyond the Wall are in turmoil, a conflict born of its storied past. The Night's Watch threatens these lands with its rangings while others flee south in hopes of warmth and peace. But those who live and die on its soil will ultimately determine its fate.\n\n]
  fp2_btw_struggle.0501.desc:1 "The disparate clans of free folk beyond the Wall are in turmoil, a conflict born of its storied past. The Night's Watch threatens these lands with its rangings while others flee south in hopes of warmth and peace. But those who live and die on its soil will ultimately determine its fate.\n\n"
-### TODO NOT-IN-ST: fp2_btw_struggle.0501.desc.involved [AGOT: The Wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \]
- fp2_btw_struggle.0501.desc.involved:0 "The Wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of Wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
-### TODO NOT-IN-ST: fp2_btw_struggle.0501.desc.interloper [AGOT: The Wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \]
- fp2_btw_struggle.0501.desc.interloper:0 "The Wildlings north of the Wall have languished in conflict amongst themselves for thousands of years. They call themselves the \"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of Wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
+
+ fp2_btw_struggle.0501.desc.involved:0 "Sur'un kuzeyindeki Yabanıllar binlerce yıldır kendi aralarındaki çatışmalarda tükeniyor. Kendilerine \ derler"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of Wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
+
+ fp2_btw_struggle.0501.desc.interloper:0 "Sur'un kuzeyindeki Yabanıllar binlerce yıldır kendi aralarındaki çatışmalarda tükeniyor. Kendilerine \ derler"free folk,\" but they are nothing more than savages.\n\nThe Night's Watch is the last hope against the hordes of Wildlings beyond the Wall. I am the sword in the darkness. I am the watcher on the Wall. I am the shield that guards the realms of men.\n\n"
 ### TODO NOT-IN-ST: fp2_btw_struggle.0501.desc.mottocall [AGOT: [ROOT.Char.GetHouse.GetMotto]!]
  fp2_btw_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
 ### TODO NOT-IN-ST: fp2_btw_struggle.0501.a [AGOT: Take hold of fate!]
@@ -384,20 +384,20 @@
  toledo_sword_desc:0 "Bu kılıç Toledo çeliğinden üretilmiş bir başyapıt, oldukça güçlü ve dayanıklı. Kılıcın tabaındaki bir yazıda #italic büyük demirci#! [great_swordsmith.GetName] tarafından [blacksmith_county.GetNameNoTierNoTooltip] topraklarında dövüldüğü yazıyor."
  fp2_struggle.1050.t:0 "Kıyamet Rüyaları"
  fp2_struggle.1050.desc_opening:1 "[visionary_spouse.GetTitledFirstName], gecenin köründe beti benzi atmış ve ateşli bir şekilde yanıma geliyor. "Çok kötü rüyalar gördüm" diyor, "Bir ölüm denizinin ortasındaydım."
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_christian [AGOT: Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness. | TR: Şehirlerimiz yakılmış, kilise kulelerimiz yıkılmış, halkımız kendi kanında boğulmuştu.]
- fp2_struggle.1050.desc_christian:0 "Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness."
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_islamic [AGOT: Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness. | TR: Kütüphanelerimiz yakılmış, minarelerimiz yıkılmış, kardeşlerimiz çarmıha gerilmiş, kargalara yem edilmişti.]
- fp2_struggle.1050.desc_islamic:0 "Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness."
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_rampaging_barbarian_heathen [AGOT: Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness. | TR: Evlerimiz yakılmış, run taşlarımız yıkılmış, savaşçılarımız onursuz bir şekilde öldürülmüştü.]
- fp2_struggle.1050.desc_rampaging_barbarian_heathen:0 "Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness."
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_non_barbarian_heathen [AGOT: Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness. | TR: Şehirlerimiz yakılmış, tapınaklarımız yıkılmış, halkımız katledilmiş ya da bilinmez bir kadere sürüklenmişti.]
- fp2_struggle.1050.desc_non_barbarian_heathen:0 "Our homes laid to waste, our dead risen, our men, women, and children alike devoured by darkness."
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_islamic_heritage [AGOT: I saw all that is known consumed by ice and the start of a night that never ends. | TR: Atalarımız bu topraklara geldiğinden beri inşa ettiğimiz her şeyin yıkıldığını gördüm.]
- fp2_struggle.1050.desc_islamic_heritage:0 "I saw all that is known consumed by ice and the start of a night that never ends."\n\n"
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_christian_bling_reference_drop [AGOT: I saw all that is known consumed by ice and the start of a night that never ends. | TR: Azizlerimizin kalıntıları ateşe atılmıştı.]
- fp2_struggle.1050.desc_christian_bling_reference_drop:0 "I saw all that is known consumed by ice and the start of a night that never ends."\n\n"
-### TODO AGOT-CHANGED: fp2_struggle.1050.desc_middle_neutral_version [AGOT: I saw all that is known consumed by ice and the start of a night that never ends. | TR: İnşa ettiğimiz her şey yıkılmış, ölüm ve ümitsizlik dünyayı sarmıştı.]
- fp2_struggle.1050.desc_middle_neutral_version:0 "I saw all that is known consumed by ice and the start of a night that never ends."\n\n"
+
+ fp2_struggle.1050.desc_christian:0 "Evlerimiz yıkıldı, ölülerimiz dirildi, erkeklerimiz, kadınlarımız ve çocuklarımız karanlıkça yutuldu."
+
+ fp2_struggle.1050.desc_islamic:0 "Evlerimiz yıkıldı, ölülerimiz dirildi, erkeklerimiz, kadınlarımız ve çocuklarımız karanlıkça yutuldu."
+
+ fp2_struggle.1050.desc_rampaging_barbarian_heathen:0 "Evlerimiz yıkıldı, ölülerimiz dirildi, erkeklerimiz, kadınlarımız ve çocuklarımız karanlıkça yutuldu."
+
+ fp2_struggle.1050.desc_non_barbarian_heathen:0 "Evlerimiz yıkıldı, ölülerimiz dirildi, erkeklerimiz, kadınlarımız ve çocuklarımız karanlıkça yutuldu."
+
+ fp2_struggle.1050.desc_islamic_heritage:0 "Bilinen her şeyin buzca yutulduğunu ve hiç bitmeyen bir gecenin başlangıcını gördüm."\n\n"
+
+ fp2_struggle.1050.desc_christian_bling_reference_drop:0 "Bilinen her şeyin buzca yutulduğunu ve hiç bitmeyen bir gecenin başlangıcını gördüm."\n\n"
+
+ fp2_struggle.1050.desc_middle_neutral_version:0 "Bilinen her şeyin buzca yutulduğunu ve hiç bitmeyen bir gecenin başlangıcını gördüm."\n\n"
 ### TODO AGOT-ONLY: fp2_struggle.1050.desc_love_and_warmth_ending [AGOT: ]
  fp2_struggle.1050.desc_love_and_warmth_ending:0 ""Please, my love, help me. I am so afraid that my dreams are true, that these things will come to pass. Hold me, I feel so cold.""
 ### TODO AGOT-ONLY: fp2_struggle.1050.desc_no_love_and_warmth_ending [AGOT: ]

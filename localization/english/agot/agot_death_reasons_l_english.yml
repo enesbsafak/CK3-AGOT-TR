@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: death_erased_for_script [AGOT: you shouldn't see this character, please file bug report if you do]
  death_erased_for_script:0 "you shouldn't see this character, please file bug report if you do"
 ### TODO NOT-IN-ST: death_broken_heart [AGOT: died of a broken heart]
@@ -37,12 +37,12 @@
  death_dragon_scorpion_siege_killer:0 "was killed by [TARGET_CHARACTER.GetUIName] with a scorpion bolt in a siege"
 
  death_dragon_water_wizard:0 "su büyücülerinin yarattığı su sütununda boğuldu"
-### TODO NOT-IN-ST: death_dragon_water_wizard_killer [AGOT: was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards]
- death_dragon_water_wizard_killer:0 "was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards"
+
+ death_dragon_water_wizard_killer:0 "[TARGET_CHARACTER.GetUINamePossessive] su büyücülerinin yarattığı su sütununda boğuldu"
 
  death_dragon_water_wizard_rider:0 "su büyücülerinin yarattığı su sütununda boğuldu"
-### TODO NOT-IN-ST: death_dragon_water_wizard_rider_killer [AGOT: was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards]
- death_dragon_water_wizard_rider_killer:0 "was drowned in a pillar of water created by [TARGET_CHARACTER.GetUINamePossessive] water wizards"
+
+ death_dragon_water_wizard_rider_killer:0 "[TARGET_CHARACTER.GetUINamePossessive] su büyücülerinin yarattığı su sütununda boğuldu"
 ### TODO NOT-IN-ST: death_fed_to_dragon [AGOT: was fed to a dragon]
  death_fed_to_dragon:0 "was fed to a dragon"
 ### TODO NOT-IN-ST: death_fed_to_dragon_killer [AGOT: was fed to [TARGET_CHARACTER.GetUIName]]

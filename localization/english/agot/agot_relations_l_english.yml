@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_squire [AGOT: [squire|E]]
  agot_squire:0 "[squire|E]"
 ### TODO NOT-IN-ST: agot_knight [AGOT: [agot_knight|E]]
@@ -39,18 +39,18 @@
  CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman_from_birthplace_location:0 "[ROOT.Char.GetFirstName], a nobleman from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
 ### TODO NOT-IN-ST: CharacterIntroductionSupportNoComma_firstname_a_commoner_from_birthplace_location [AGOT: [ROOT.Char.GetFirstName], a commoner from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]]
  CharacterIntroductionSupportNoComma_firstname_a_commoner_from_birthplace_location:0 "[ROOT.Char.GetFirstName], a commoner from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
-### TODO NOT-IN-ST: relation_maester_female [AGOT: maester]
- relation_maester_female:0 "maester"
-### TODO NOT-IN-ST: relation_maester_male [AGOT: maester]
- relation_maester_male:0 "maester"
+
+ relation_maester_female:0 "üstat"
+
+ relation_maester_male:0 "üstat"
 
  relation_maester_female_possessive:0 "üstatın"
 
  relation_maester_male_possessive:0 "üstatın"
-### TODO NOT-IN-ST: relation_captain_of_the_household_guard_female [AGOT: captain of the household guard]
- relation_captain_of_the_household_guard_female:0 "captain of the household guard"
-### TODO NOT-IN-ST: relation_captain_of_the_household_guard_male [AGOT: captain of the household guard]
- relation_captain_of_the_household_guard_male:0 "captain of the household guard"
+
+ relation_captain_of_the_household_guard_female:0 "hane muhafızları kaptanı"
+
+ relation_captain_of_the_household_guard_male:0 "hane muhafızları kaptanı"
 
  relation_captain_of_the_household_guard_female_possessive:0 "hane muhafızları kaptanının"
 
@@ -79,10 +79,10 @@
  relation_master_at_arms_female_possessive:0 "silah ustasının"
 
  relation_master_at_arms_male_possessive:0 "silah ustasının"
-### TODO NOT-IN-ST: relation_court_smith_female [AGOT: court smith]
- relation_court_smith_female:0 "court smith"
-### TODO NOT-IN-ST: relation_court_smith_male [AGOT: court smith]
- relation_court_smith_male:0 "court smith"
+
+ relation_court_smith_female:0 "saray demircisi"
+
+ relation_court_smith_male:0 "saray demircisi"
 
  relation_court_smith_female_possessive:0 "saray demircisinin"
 

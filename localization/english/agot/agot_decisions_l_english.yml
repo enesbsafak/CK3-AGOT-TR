@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE [AGOT: At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years.]
  I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years."
 ### TODO NOT-IN-ST: I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE [AGOT: Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years.]
@@ -133,12 +133,12 @@
  reforge_valyrian_steel_decision:0 "Reforge Valyrian Steel Blade"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_decision_desc [AGOT: I wish to forge a new blade of my own devising]
  reforge_valyrian_steel_decision_desc:0 "I wish to forge a new blade of my own devising"
-### TODO NOT-IN-ST: reforge_valyrian_steel_decision.tt [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
- reforge_valyrian_steel_decision.tt:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
+
+ reforge_valyrian_steel_decision.tt:0 "Elindeki Valyria çeliği kılıcı yeniden dövme sürecine başlayacaksın"
 
  reforge_valyrian_steel_decision_confirm:0 "Demirciyi çağır!"
-### TODO NOT-IN-ST: reforge_valyrian_steel_decision_tooltip [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
- reforge_valyrian_steel_decision_tooltip:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
+
+ reforge_valyrian_steel_decision_tooltip:0 "Elindeki Valyria çeliği kılıcı yeniden dövme sürecine başlayacaksın"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_excellent_aptitude [AGOT: Your $court_smith_court_position$ needs an aptitude of #V Excellent#!]
  reforge_valyrian_steel_excellent_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Excellent#!"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_additional_requirements [AGOT: Your $court_smith_court_position$ needs either the knowledge of reforging Valyrian steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet]
@@ -251,28 +251,28 @@
  control_realm_borders_decision_alert_tt:0 "Your realm must be free from [plague_apocalyptic|E] [epidemics|E]."
 ### TODO NOT-IN-ST: control_realm_borders_decision_confirm [AGOT: $control_realm_borders_decision$]
  control_realm_borders_decision_confirm:0 "$control_realm_borders_decision$"
-### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.dorne [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
- control_realm_borders_close_decision_opening_desc.dorne:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.vale [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
- control_realm_borders_close_decision_opening_desc.vale:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.north [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
- control_realm_borders_close_decision_opening_desc.north:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
+
+ control_realm_borders_close_decision_opening_desc.dorne:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına seyahati kısıtlayabilirim, böylece enfeksiyonun diyarıma yayılmasını önlerim. Bu genellikle çok etkilidir."
+
+ control_realm_borders_close_decision_opening_desc.vale:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına seyahati kısıtlayabilirim, böylece enfeksiyonun diyarıma yayılmasını önlerim. Bu genellikle çok etkilidir."
+
+ control_realm_borders_close_decision_opening_desc.north:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına seyahati kısıtlayabilirim, böylece enfeksiyonun diyarıma yayılmasını önlerim. Bu genellikle çok etkilidir."
 ### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.iron_islands [AGOT: I can restrict travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
  control_realm_borders_close_decision_opening_desc.iron_islands:0 "I can restrict travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.dorne [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_decision_tooltip.dorne:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.vale [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_decision_tooltip.vale:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.north [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_decision_tooltip.north:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.iron_islands [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_decision_tooltip.iron_islands:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.dorne [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_effect_tt.dorne:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.vale [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_effect_tt.vale:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.north [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_close_effect_tt.north:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
+
+ control_realm_borders_close_decision_tooltip.dorne:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahati kısıtla ve [plague_apocalyptic|E] [epidemic|E] yayılımını önle."
+
+ control_realm_borders_close_decision_tooltip.vale:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahati kısıtla ve [plague_apocalyptic|E] [epidemic|E] yayılımını önle."
+
+ control_realm_borders_close_decision_tooltip.north:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahati kısıtla ve [plague_apocalyptic|E] [epidemic|E] yayılımını önle."
+
+ control_realm_borders_close_decision_tooltip.iron_islands:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahati kısıtla ve [plague_apocalyptic|E] [epidemic|E] yayılımını önle."
+
+ control_realm_borders_close_effect_tt.dorne:0 "[title.GetName]'e seyahati kısıtlayacaksın ve [plague_apocalyptic|E] [epidemic|E] yayılımına karşı oldukça dirençli olacaksın."
+
+ control_realm_borders_close_effect_tt.vale:0 "[title.GetName]'e seyahati kısıtlayacaksın ve [plague_apocalyptic|E] [epidemic|E] yayılımına karşı oldukça dirençli olacaksın."
+
+ control_realm_borders_close_effect_tt.north:0 "[title.GetName]'e seyahati kısıtlayacaksın ve [plague_apocalyptic|E] [epidemic|E] yayılımına karşı oldukça dirençli olacaksın."
 ### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.iron_islands [AGOT: You will restrict travel into [title.GetName], and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
  control_realm_borders_close_effect_tt.iron_islands:0 "You will restrict travel into [title.GetName], and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
 ### TODO NOT-IN-ST: control_realm_borders_open_decision [AGOT: End Realm Isolation]
@@ -287,30 +287,30 @@
  uncontrol_realm_borders_decision_alert_tt:0 "Your realm must have previously been isolated from [plague_apocalyptic|E] [epidemics|E]."
 ### TODO NOT-IN-ST: uncontrol_realm_borders_decision_confirm [AGOT: $uncontrol_realm_borders_decision$]
  uncontrol_realm_borders_decision_confirm:0 "$uncontrol_realm_borders_decision$"
-### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.dorne [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
- control_realm_borders_open_decision_opening_desc.dorne:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.vale [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
- control_realm_borders_open_decision_opening_desc.vale:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.north [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
- control_realm_borders_open_decision_opening_desc.north:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
+
+ control_realm_borders_open_decision_opening_desc.dorne:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına yeniden seyahate izin verebilirim ama bulaşma riski daha yüksek olacak."
+
+ control_realm_borders_open_decision_opening_desc.vale:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına yeniden seyahate izin verebilirim ama bulaşma riski daha yüksek olacak."
+
+ control_realm_borders_open_decision_opening_desc.north:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]'in yollarına ve limanlarına yeniden seyahate izin verebilirim ama bulaşma riski daha yüksek olacak."
 ### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.iron_islands [AGOT: I can allow travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
  control_realm_borders_open_decision_opening_desc.iron_islands:0 "I can allow travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.dorne [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_decision_tooltip.dorne:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.vale [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_decision_tooltip.vale:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.north [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_decision_tooltip.north:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.iron_islands [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_decision_tooltip.iron_islands:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.dorne [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_effect_tt.dorne:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.vale [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_effect_tt.vale:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.north [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_effect_tt.north:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
-### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.iron_islands [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
- control_realm_borders_open_effect_tt.iron_islands:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+
+ control_realm_borders_open_decision_tooltip.dorne:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahate izin ver ve [plague_apocalyptic|E] [epidemic|E] yayılma riskini göze al."
+
+ control_realm_borders_open_decision_tooltip.vale:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahate izin ver ve [plague_apocalyptic|E] [epidemic|E] yayılma riskini göze al."
+
+ control_realm_borders_open_decision_tooltip.north:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahate izin ver ve [plague_apocalyptic|E] [epidemic|E] yayılma riskini göze al."
+
+ control_realm_borders_open_decision_tooltip.iron_islands:0 "[ROOT.Char.GetPrimaryTitle.GetName]'e seyahate izin ver ve [plague_apocalyptic|E] [epidemic|E] yayılma riskini göze al."
+
+ control_realm_borders_open_effect_tt.dorne:0 "[title.GetName]'e yeniden seyahate izin vereceksin ama [plague_apocalyptic|E] [epidemic|E] yayılımına açık olacaksın."
+
+ control_realm_borders_open_effect_tt.vale:0 "[title.GetName]'e yeniden seyahate izin vereceksin ama [plague_apocalyptic|E] [epidemic|E] yayılımına açık olacaksın."
+
+ control_realm_borders_open_effect_tt.north:0 "[title.GetName]'e yeniden seyahate izin vereceksin ama [plague_apocalyptic|E] [epidemic|E] yayılımına açık olacaksın."
+
+ control_realm_borders_open_effect_tt.iron_islands:0 "[title.GetName]'e yeniden seyahate izin vereceksin ama [plague_apocalyptic|E] [epidemic|E] yayılımına açık olacaksın."
 ### TODO NOT-IN-ST: abdicate_decision [AGOT: Abdicate to my Heir]
  abdicate_decision:0 "Abdicate to my Heir"
 ### TODO NOT-IN-ST: abdicate_decision_tooltip [AGOT: My rule must come to its end.]

@@ -1,4 +1,4 @@
-﻿﻿﻿l_english:
+﻿﻿﻿﻿l_english:
 
  kingsguard_lord_commander_male:0 "Lord Kumandan"
 
@@ -61,8 +61,8 @@
  kingsguard_oathbreaker_desc:0 "This character has sullied their sacred oath and forsaken the Kingsguard."
 ### TODO NOT-IN-ST: agot_former_kingsguard [AGOT: Former Kingsguard]
  agot_former_kingsguard:0 "Former Kingsguard"
-### TODO NOT-IN-ST: agot_former_kingsguard_desc [AGOT: This character was dismissed from what is meant to be a lifetime appointment to the Kingsguard.]
- agot_former_kingsguard_desc:0 "This character was dismissed from what is meant to be a lifetime appointment to the Kingsguard."
+
+ agot_former_kingsguard_desc:0 "Bu karakter, ömür boyu sürmesi gereken Kral Muhafızı görevinden azledildi."
 ### TODO NOT-IN-ST: kingsguard_protection [AGOT: [councillor.GetModifierDescForTask('kingsguard_default_1')]]
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
 ### TODO NOT-IN-ST: task_kingsguard_bodyguard_effect_desc [AGOT: [Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]]
@@ -105,7 +105,7 @@
  you_agot_kingsguard_can_fire:0 "Kingsguards may be fired or reassigned if certain requirements are met."
 ### TODO NOT-IN-ST: you_dont_agot_kingsguard_can_fire [AGOT: A kingsguard serves for life, unless you break with that tradition.]
  you_dont_agot_kingsguard_can_fire:0 "A kingsguard serves for life, unless you break with that tradition."
-### TODO NOT-IN-ST: you_agot_kingsguard_fire_requirements [AGOT: PLACEHOLDER]
- you_agot_kingsguard_fire_requirements:0 "PLACEHOLDER"
+
+ you_agot_kingsguard_fire_requirements:0 "YER TUTUCU"
 ### TODO NOT-IN-ST: you_dont_agot_kingsguard_fire_requirements [AGOT: PLACEHOLDER does not fit requirements]
  you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER does not fit requirements"

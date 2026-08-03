@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: DRAGON_IN_SIEGE [AGOT: Use Dragon]
  DRAGON_IN_SIEGE:0 "Use Dragon"
 ### TODO NOT-IN-ST: agot_dragon_siege.gui_tt_event_already_fired [AGOT: You are already considering this siege...]
@@ -249,8 +249,8 @@
  agot_dragon_siege.0103.desc:0 "The burning ashes of [sieging_location.GetName] blow around the sweeping wings of [sieging_dragon.GetName], like a demon of legend we ride, bringing death in our wake.\n\nBelow us is a courtyard where the defenders look to be mustering, a naive attempt to stop the destruction we bring. With a turn of my heels, I direct [sieging_dragon.GetFirstNameNoTooltip] to hover above the courtyard, and rain dragonflame down on the helpless sods below.\n\nBut as we burn men beneath our mighty presence, I feel a sudden heat in my side, and I shout as it radiates into pain. I look down to see the arrow embedded in my abdomen, and up to see the lucky archer who had managed to strike me from the walls. With a roar we burn him ash too, but I cannot stay here now, and I wheel [sieging_dragon.GetFirstNameNoTooltip] around to return to our lines."
 ### TODO NOT-IN-ST: agot_dragon_siege.0103.a [AGOT: At least we have done some damage!]
  agot_dragon_siege.0103.a:0 "At least we have done some damage!"
-### TODO NOT-IN-ST: agot_dragon_siege.0103.a.f [AGOT: You have been forced to retreat, but not before achieving the damage you set out to do.]
- agot_dragon_siege.0103.a.f:0 "You have been forced to retreat, but not before achieving the damage you set out to do."
+
+ agot_dragon_siege.0103.a.f:0 "Geri çekilmek zorunda kaldın ama yapmayı hedeflediğin hasarı vermeden önce değil."
 ### TODO NOT-IN-ST: agot_dragon_siege.0104.t [AGOT: $agot_dragon_siege.title$ Sacrificial Spear]
  agot_dragon_siege.0104.t:0 "$agot_dragon_siege.title$ Sacrificial Spear"
 ### TODO NOT-IN-ST: agot_dragon_siege.0104.desc.minor [AGOT: Our probing attacks on the [sieging_location.GetName] have been successful, and more accessible the defenders are either burning or in disarray. The final target is a tower, and I direct [sieging_dragon.GetName] to unleash [sieging_dragon.Custom('GetDragonHerHis')] flames upon it.\n\nYet just as [sieging_dragon.GetName] does so, heat bending the very stone, I see a lone man heft a spear from the top of the tower, leaving his hands just as the tower crumbles from beneath him.\n\nThough he is no doubt falling to his doom, his spear found its mark. Try as we might to avoid it, the spear strikes [sieging_dragon.GetNameNoTooltip] in the side, and I feel the force of [sieging_dragon.Custom('GetDragonHerHis')] pain as [sieging_dragon.Custom('GetDragonSheHe')] lurches back, roaring in a mix of anger and agony.]
@@ -259,8 +259,8 @@
  agot_dragon_siege.0104.desc:0 "The street of [sieging_location.GetName] is a river of fire, and the defenders scatter before our landed form. Another building goes up in flame, and as the defenders flee, I direct [sieging_dragon.GetName] to chase the archers before they can regroup.\n\n[sieging_dragon.Custom('GetDragonHerHis')|U] great form lumbers through the street with surprising speed after the fleeing bowmen, but as we pass a street [sieging_dragon.Custom('GetDragonSheHe')] roars in pain! I look down to see a spear embedded in [sieging_dragon.Custom('GetDragonHerHis')] side, the lone defender who must have been cowering in that street having drawn his courage to strike at us!\n\nWithout instruction [sieging_dragon.GetFirstNameNoTooltip] wheels around and incinerates the man, but I can feel [sieging_dragon.Custom('GetDragonHerHis')] pain, and I bid [sieging_dragon.Custom('GetDragonHerHim')] to rise."
 ### TODO NOT-IN-ST: agot_dragon_siege.0104.a [AGOT: Back [sieging_dragon.GetFirstNameNoTooltip]! We must tend to your wounds!]
  agot_dragon_siege.0104.a:0 "Back [sieging_dragon.GetFirstNameNoTooltip]! We must tend to your wounds!"
-### TODO NOT-IN-ST: agot_dragon_siege.0104.a.f [AGOT: You have been forced to retreat, but not before achieving the damage you set out to do.]
- agot_dragon_siege.0104.a.f:0 "You have been forced to retreat, but not before achieving the damage you set out to do."
+
+ agot_dragon_siege.0104.a.f:0 "Geri çekilmek zorunda kaldın ama yapmayı hedeflediğin hasarı vermeden önce değil."
 ### TODO NOT-IN-ST: agot_dragon_siege.0105.t [AGOT: $agot_dragon_siege.title$ Doomed Bravery]
  agot_dragon_siege.0105.t:0 "$agot_dragon_siege.title$ Doomed Bravery"
 ### TODO NOT-IN-ST: agot_dragon_siege.0105.desc [AGOT: The defenders of [sieging_location.GetName] have been harassing us with arrows and spears, the men diving into their stronger fortifications where they can to avoid our flames. Finally I see an opening, a group of archers who have been foolish enough to gather all together. Only kept in cover by a small archway, and I direct [sieging_dragon.GetName] to dive to strike!\n\nAs I do, I see the trap all too late. Above the archway a group of defenders have been waiting on an adjacent roof, and as we swoop down they #italic jump#! towards [sieging_dragon.GetFirstNameNoTooltip]!\n\nThough many miss and shatter on the stone beneath, some of the brave fools find purchase, their downward thrusts finding their mark and digging the men onto [sieging_dragon.GetFirstNameNoTooltip] held by their spears and swords. [sieging_dragon.GetFirstNameNoTooltip] roars in agony and arcs up, throwing many of the attackers off, and rises into the sky, the rest falling to their doom below.]

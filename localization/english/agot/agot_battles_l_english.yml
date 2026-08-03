@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: knight_wounded_no_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by an enemy soldier!]
  knight_wounded_no_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by an enemy soldier!"
 ### TODO NOT-IN-ST: knight_wounded_no_enemy_enemy_player [AGOT: One of our valiant soldiers has managed to wound the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!]
@@ -23,12 +23,12 @@
  knight_killed_by_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
 ### TODO NOT-IN-ST: knight_killed_by_enemy_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] killed [CHARACTER.GetShortUINameNoTooltip]!]
  knight_killed_by_enemy_enemy_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] killed [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] head ripped off by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_enemy_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] head ripped off by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+
+ berserker_rage_killed_enemy_enemy_player:0 "$knight_culture_player_no_tooltip_lowercasemiz [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafası, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından koparıldı!"
 ### TODO NOT-IN-ST: berserker_rage_killed_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip] and became a [GetTrait('berserker').GetName( GetNullCharacter )]!]
  berserker_rage_killed_enemy_friendly_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip] and became a [GetTrait('berserker').GetName( GetNullCharacter )]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] head ripped off by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_enemy_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] head ripped off by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+
+ berserker_rage_killed_enemy_no_trait_enemy_player:0 "$knight_culture_player_no_tooltip_lowercasemiz [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafası, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından koparıldı!"
 ### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
  berserker_rage_killed_enemy_no_trait_friendly_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
 ### TODO NOT-IN-ST: berserker_rage_no_enemy_enemy_player [AGOT: The enemy $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] rampaged through our soldiers and became a [GetTrait('berserker').GetName( GetNullCharacter )]!]

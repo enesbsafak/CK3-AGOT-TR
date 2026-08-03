@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: EASIER_MARRIAGE_GAME_RULE [AGOT: Easier Marriage game rule setting: $VALUE|=+0$]
  EASIER_MARRIAGE_GAME_RULE:0 "Easier Marriage game rule setting: $VALUE|=+0$"
 ### TODO NOT-IN-ST: MARRYING_HEIR_LINE_REASON [AGOT: Your Candidate is in [actor.GetShortUINamePossessiveNoTooltipNoFormat] line of succession: $VALUE|=+0$]
@@ -575,8 +575,8 @@
  trait_seclusion:0 "In Seclusion"
 ### TODO NOT-IN-ST: trait_seclusion_desc [AGOT: This character is currently in full seclusion, not seeing anyone other than their personal servants. Are they ill? Nobody appears to know.]
  trait_seclusion_desc:0 "This character is currently in full seclusion, not seeing anyone other than their personal servants. Are they ill? Nobody appears to know."
-### TODO NOT-IN-ST: trait_maiden [AGOT: Maiden]
- trait_maiden:0 "Maiden"
+
+ trait_maiden:0 "Bakire"
 ### TODO NOT-IN-ST: trait_maiden_desc [AGOT: This young woman is from a minor noble family and has been sent to court in the hopes of finding a husband. If she does not find one, eventually she will return home.]
  trait_maiden_desc:0 "This young woman is from a minor noble family and has been sent to court in the hopes of finding a husband. If she does not find one, eventually she will return home."
 ### TODO NOT-IN-ST: trait_broke_vows [AGOT: Broke Vows]
@@ -1023,10 +1023,10 @@
  agot_court_ongoing.court_start_song.intro.0503.relative.desc:0 "I have found a classic [target.GetCulture.GetNameNoTooltip] love ballad which suits [target.GetFirstName] perfectly! I practice it over and over — everything must be perfect!\n\nI find my [owner.Custom2('LMF_RelationToMeShort', SCOPE.sC('target'))] walking in the [target_location.GetNameNoTooltip] gardens, surrounded by [target.GetHerHis] friends. With my heart beating like a hammer, I kneel before [target.GetHerHim] and sing."
 ### TODO NOT-IN-ST: agot_court_ongoing.court_start_song.success.0503.relative.desc [AGOT: \n\n[target.GetFirstNamePossessiveNoTooltip] cheeks turn a deep pomegranate red, but [target.GetSheHe] does not interrupt me. [target.GetHerHis|U] companions all look pleased, or jealous — surely a good sign!\n\n]
  agot_court_ongoing.court_start_song.success.0503.relative.desc:0 "\n\n[target.GetFirstNamePossessiveNoTooltip] cheeks turn a deep pomegranate red, but [target.GetSheHe] does not interrupt me. [target.GetHerHis|U] companions all look pleased, or jealous — surely a good sign!\n\n"You have a beautiful voice, [target.Custom2('LMF_RelationToMeShort', SCOPE.sC('owner'))]," [target.GetFirstNameNoTooltip] says before [target.GetSheHe] hurries off. [target.GetHerHis|U] friends are quick to follow. I stand up on shaking legs, watching them disappear between the hedges, my heart beating harder than ever."
-### TODO NOT-IN-ST: agot_court_ongoing.court_start_sneaky_love_letter.success.spouse.0503.desc [AGOT: \n\nThe waiting is unbearable. The thought of rejection makes me sick to my stomach! When [target.GetHerHis] reply arrives, I tear the seal with shaking hands.\n\n]
- agot_court_ongoing.court_start_sneaky_love_letter.success.spouse.0503.desc:0 "\n\nThe waiting is unbearable. The thought of rejection makes me sick to my stomach! When [target.GetHerHis] reply arrives, I tear the seal with shaking hands.\n\n"Your words are pretty, [owner.Custom2('RelationToMeAddress', ROOT.Char)], and I am grateful for them. Perhaps the bonds of our matrimony will become bonds of love, in time? Perhaps we shall see. Yours in faith, [target.GetFirstNameNoTooltip].""
-### TODO NOT-IN-ST: agot_court_ongoing.court_start_sneaky_love_letter.success.relative.0503.desc [AGOT: \n\nThe waiting is unbearable. The thought of rejection makes me sick to my stomach! When [target.GetHerHis] reply arrives, I tear the seal with shaking hands.\n\n]
- agot_court_ongoing.court_start_sneaky_love_letter.success.relative.0503.desc:0 "\n\nThe waiting is unbearable. The thought of rejection makes me sick to my stomach! When [target.GetHerHis] reply arrives, I tear the seal with shaking hands.\n\n"Your words came as a shock, [owner.Custom2('RelationToMeAddress', ROOT.Char)], but I admit they were pretty nevertheless. I will keep your letter hidden away somewhere secret, to be read again whenever it pleases me. Your [owner.Custom2('LMF_RelationToMeShort', SCOPE.sC('target'))], [target.GetFirstNameNoTooltip].""
+
+ agot_court_ongoing.court_start_sneaky_love_letter.success.spouse.0503.desc:0 "\n\nBekleyiş dayanılmaz. Reddedilme düşüncesi midemi bulandırıyor! [target.GetHerHis] yanıtı geldiğinde mührü titreyen ellerimle yırtıyorum.\n\n"Your words are pretty, [owner.Custom2('RelationToMeAddress', ROOT.Char)], and I am grateful for them. Perhaps the bonds of our matrimony will become bonds of love, in time? Perhaps we shall see. Yours in faith, [target.GetFirstNameNoTooltip].""
+
+ agot_court_ongoing.court_start_sneaky_love_letter.success.relative.0503.desc:0 "\n\nBekleyiş dayanılmaz. Reddedilme düşüncesi midemi bulandırıyor! [target.GetHerHis] yanıtı geldiğinde mührü titreyen ellerimle yırtıyorum.\n\n"Your words came as a shock, [owner.Custom2('RelationToMeAddress', ROOT.Char)], but I admit they were pretty nevertheless. I will keep your letter hidden away somewhere secret, to be read again whenever it pleases me. Your [owner.Custom2('LMF_RelationToMeShort', SCOPE.sC('target'))], [target.GetFirstNameNoTooltip].""
 ### TODO NOT-IN-ST: agot_court_ongoing.public_regular_rejection.0503.desc [AGOT: [target.GetFirstNamePossessiveNoTooltip] reaction is not what I hoped for.]
  agot_court_ongoing.public_regular_rejection.0503.desc:0 "[target.GetFirstNamePossessiveNoTooltip] reaction is not what I hoped for. "Desist this ridiculous public display, [ROOT.Char.Custom2('RelationToMeAddress', target)], and do not embarrass yourself further. I have no interest in your attentions, nor shall I ever!""
 ### TODO NOT-IN-ST: agot_court_ongoing.written_regular_rejection.0503.desc [AGOT: \n\n[target.GetFirstNamePossessiveNoTooltip] reply is swift and unambiguous.]
@@ -1231,8 +1231,8 @@
  agot_court_outcome.2000.second.liege:0 "Since my liege [proposer_liege.GetTitledFirstName] has already assented, "
 ### TODO NOT-IN-ST: agot_court_outcome.2000.proposer.family.willnotwed [AGOT: As a loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))] who was promised the chance to follow [proposer.GetHerHis] heart,]
  agot_court_outcome.2000.proposer.family.willnotwed:0 "As a loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))] who was promised the chance to follow [proposer.GetHerHis] heart, "
-### TODO NOT-IN-ST: agot_court_outcome.2000.proposer.family [AGOT: As your loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))],]
- agot_court_outcome.2000.proposer.family:0 "As your loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))], "
+
+ agot_court_outcome.2000.proposer.family:0 "Sadık [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))]'in olarak, "
 
  agot_court_outcome.2000.proposer.dynasty:0 "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip] hanedanının sadık bir üyesi olarak "
 
@@ -1247,14 +1247,14 @@
  agot_court_outcome.2000.a:0 "İzin verildi!"
 
  agot_court_outcome.2000.b:0 "Kesinlikle hayır."
-### TODO NOT-IN-ST: agot_court_outcome.2000.a.seek.permission.tt [AGOT: [proposer.GetTitledFirstNameNoTooltip] will seek permission from [proposer_target_liege.GetTitledFirstName]]
- agot_court_outcome.2000.a.seek.permission.tt:0 "[proposer.GetTitledFirstNameNoTooltip] will seek permission from [proposer_target_liege.GetTitledFirstName]"
-### TODO NOT-IN-ST: agot_court_outcome.2000.a.permission.granted.tt [AGOT: [proposer_target_liege.GetTitledFirstNameNoTooltip] grants permission]
- agot_court_outcome.2000.a.permission.granted.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] grants permission"
-### TODO NOT-IN-ST: agot_court_outcome.2000.a.permission.refused.tt [AGOT: [proposer_target_liege.GetTitledFirstNameNoTooltip] refuses [proposer.GetHerHim]]
- agot_court_outcome.2000.a.permission.refused.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] refuses [proposer.GetHerHim]"
-### TODO NOT-IN-ST: agot_court_outcome.2000.b.tt [AGOT: [proposer.GetTitledFirstNameNoTooltip] and [proposer_target.GetTitledFirstNameNoTooltip] might continue their relationship or possibly even elope]
- agot_court_outcome.2000.b.tt:0 "[proposer.GetTitledFirstNameNoTooltip] and [proposer_target.GetTitledFirstNameNoTooltip] might continue their relationship or possibly even elope"
+
+ agot_court_outcome.2000.a.seek.permission.tt:0 "[proposer.GetTitledFirstNameNoTooltip], [proposer_target_liege.GetTitledFirstName]'den izin isteyecek"
+
+ agot_court_outcome.2000.a.permission.granted.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] izin veriyor"
+
+ agot_court_outcome.2000.a.permission.refused.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] [proposer.GetHerHim]'i reddediyor"
+
+ agot_court_outcome.2000.b.tt:0 "[proposer.GetTitledFirstNameNoTooltip] ve [proposer_target.GetTitledFirstNameNoTooltip] ilişkilerine devam edebilir, hatta belki kaçıp evlenebilirler"
 ### TODO NOT-IN-ST: agot_court_outcome.2001.opening [AGOT: [proposer_liege.Custom2('GreetingToFamilyPositive', ROOT.Char )]]
  agot_court_outcome.2001.opening:0 "[proposer_liege.Custom2('GreetingToFamilyPositive', ROOT.Char )]"
 ### TODO NOT-IN-ST: agot_court_outcome.2001.desc [AGOT: Very well. You have my leave to marry [proposer_target.GetTitledFirstNameNoTooltip], provided [proposer_target_liege.GetTitledFirstName] gives you [proposer_target_liege.GetHerHis] permission as well.]
@@ -1289,10 +1289,10 @@
  agot_court_outcome.2004.c.tt:0 "One last kiss, and then you part..."
 ### TODO NOT-IN-ST: agot_court_outcome.2005.elope [AGOT: [proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married! Undeterred, [proposer.GetFirstNameNoTooltip] took my hand and swore that [proposer.GetSheHe] wouldn't let that bar our path.]
  agot_court_outcome.2005.elope:0 "[proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married! Undeterred, [proposer.GetFirstNameNoTooltip] took my hand and swore that [proposer.GetSheHe] wouldn't let that bar our path. "I will come for you," [proposer.GetSheHe] swore. "If it takes a hundred years, I will come for you and we will be wed no matter what anyone says!""
-### TODO NOT-IN-ST: agot_court_outcome.2005.continue [AGOT: [proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married!]
- agot_court_outcome.2005.continue:0 "[proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married! "It does not matter," [proposer.GetFirstNameNoTooltip] avowed. [proposer.GetSheHe|U] took me in [proposer.GetHerHis] arms and kissed me sweetly on the lips. "Married or not, our love will flourish no matter what anyone tells us!""
-### TODO NOT-IN-ST: agot_court_outcome.2005.breakup [AGOT: [proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married!]
- agot_court_outcome.2005.breakup:0 "[proposer.GetTitledFirstNameNoTooltip] came to me, having just returned from meeting with [permission_refuser.GetTitledFirstNameNoTooltip]... and the news was not good. [permission_refuser.GetTitledFirstNameNoTooltip] did not grant us leave to be married! "What is the point of being together," [proposer.GetFirstNameNoTooltip] sighed, "if we must do so in secret? No, I cannot bear it." With that, [proposer.GetSheHe] kissed me one last time, ever so sweetly, and then left for good."
+
+ agot_court_outcome.2005.continue:0 "[proposer.GetTitledFirstNameNoTooltip] bana geldi, [permission_refuser.GetTitledFirstNameNoTooltip] ile görüşmeden yeni dönmüştü... ve haberler iyi değildi. [permission_refuser.GetTitledFirstNameNoTooltip] evlenmemize izin vermedi! "It does not matter," [proposer.GetFirstNameNoTooltip] avowed. [proposer.GetSheHe|U] took me in [proposer.GetHerHis] arms and kissed me sweetly on the lips. "Married or not, our love will flourish no matter what anyone tells us!""
+
+ agot_court_outcome.2005.breakup:0 "[proposer.GetTitledFirstNameNoTooltip] bana geldi, [permission_refuser.GetTitledFirstNameNoTooltip] ile görüşmeden yeni dönmüştü... ve haberler iyi değildi. [permission_refuser.GetTitledFirstNameNoTooltip] evlenmemize izin vermedi! "What is the point of being together," [proposer.GetFirstNameNoTooltip] sighed, "if we must do so in secret? No, I cannot bear it." With that, [proposer.GetSheHe] kissed me one last time, ever so sweetly, and then left for good."
 ### TODO NOT-IN-ST: agot_court_outcome.2005.a [AGOT: ]
  agot_court_outcome.2005.a:0 ""I will wait for you, my love!""
 ### TODO NOT-IN-ST: agot_court_outcome.2005.b [AGOT: ]
@@ -1323,8 +1323,8 @@
  agot_elope.1004.target:0 "it appears [owner.GetFullName] stole into the keep at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] and fled with my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('target'))], [target.GetTitledFirstNameNoTooltip], to elope. "
 ### TODO NOT-IN-ST: agot_elope.1004.mid [AGOT: The entire affair must have been planned for quite some time, since they managed to bypass the guards and escape all notice. Rather impressive, really.\n\n]
  agot_elope.1004.mid:0 "The entire affair must have been planned for quite some time, since they managed to bypass the guards and escape all notice. Rather impressive, really.\n\n"
-### TODO NOT-IN-ST: agot_elope.1004.refused [AGOT: I'd previously refused them permission to marry, but now it appears they've taken matters into their own hands and brought dishonor onto them both.]
- agot_elope.1004.refused:0 "I'd previously refused them permission to marry, but now it appears they've taken matters into their own hands and brought dishonor onto them both."
+
+ agot_elope.1004.refused:0 "Daha önce evlenmelerine izin vermemiştim ama görünüşe göre işleri kendi ellerine aldılar ve ikisine de onursuzluk getirdiler."
 ### TODO NOT-IN-ST: agot_elope.1004.owner.refused [AGOT: Apparently, [owner.GetLiege.GetTitledFirstNameNoTooltip] refused [owner.GetTitledFirstNamePossessiveNoTooltip] request to marry, so now [owner.GetSheHe] has taken matters into [owner.GetHerHis] own hands. Despite my sympathies for [owner.GetHerHis] predicament, the law is the law. Their actions have brought dishonor upon them both.]
  agot_elope.1004.owner.refused:0 "Apparently, [owner.GetLiege.GetTitledFirstNameNoTooltip] refused [owner.GetTitledFirstNamePossessiveNoTooltip] request to marry, so now [owner.GetSheHe] has taken matters into [owner.GetHerHis] own hands. Despite my sympathies for [owner.GetHerHis] predicament, the law is the law. Their actions have brought dishonor upon them both."
 ### TODO NOT-IN-ST: agot_elope.1004.target.refused [AGOT: Apparently, [target.GetLiege.GetTitledFirstNameNoTooltip] refused [target.GetTitledFirstNamePossessiveNoTooltip] request to marry, so now [owner.GetTitledFirstNameNoTooltip] has taken matters into [owner.GetHerHis] own hands. Despite my sympathies for their predicament, the law is the law. Their actions have brought dishonor upon them both.]
@@ -1343,8 +1343,8 @@
  agot_elope.1005.t:0 "A New Arrival"
 ### TODO NOT-IN-ST: agot_elope.1005.start [AGOT: I awake in the morning to be greeted with rather surprising news: during the night, [owner.GetTitledFirstNameNoTooltip] stole off into [target_liege.GetTitledFirstNamePossessive] [target_liege.Custom('FortifiedBuilding')] and escaped with [target.GetTitledFirstNameNoTooltip]. The two are out there somewhere, right now, getting married.\n\n]
  agot_elope.1005.start:0 "I awake in the morning to be greeted with rather surprising news: during the night, [owner.GetTitledFirstNameNoTooltip] stole off into [target_liege.GetTitledFirstNamePossessive] [target_liege.Custom('FortifiedBuilding')] and escaped with [target.GetTitledFirstNameNoTooltip]. The two are out there somewhere, right now, getting married.\n\n"
-### TODO NOT-IN-ST: agot_elope.1005.refused [AGOT: I'd previously refused them permission to marry, but now it appears they've taken matters into their own hands and brought dishonor onto them both.]
- agot_elope.1005.refused:0 "I'd previously refused them permission to marry, but now it appears they've taken matters into their own hands and brought dishonor onto them both."
+
+ agot_elope.1005.refused:0 "Daha önce evlenmelerine izin vermemiştim ama görünüşe göre işleri kendi ellerine aldılar ve ikisine de onursuzluk getirdiler."
 ### TODO NOT-IN-ST: agot_elope.1005.granted [AGOT: I'd previously granted them permission to marry, but that apparently wasn't enough to make it happen... and now they've taken matters into their own hands. An elopement that brings dishonor to them both.]
  agot_elope.1005.granted:0 "I'd previously granted them permission to marry, but that apparently wasn't enough to make it happen... and now they've taken matters into their own hands. An elopement that brings dishonor to them both."
 ### TODO NOT-IN-ST: agot_elope.1005.neither [AGOT: What possessed [owner.GetTitledFirstNameNoTooltip] to take such rash action, I can't even imagine. Regardless, getting married without their liege's permission brings dishonor to them both.]
@@ -2229,10 +2229,10 @@
  lmf_feast.1001.desc.notfriends:0 ". Now the two have become bitter rivals."
 ### TODO NOT-IN-ST: lmf_feast.1001.a [AGOT: That was enough excitement for one evening!]
  lmf_feast.1001.a:0 "That was enough excitement for one evening!"
-### TODO NOT-IN-ST: rival_family_dinner [AGOT: [CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast.]
- rival_family_dinner:0 "[CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast."
-### TODO NOT-IN-ST: rival_family_dinner_corresponding [AGOT: [CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast.]
- rival_family_dinner_corresponding:0 "[CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast."
+
+ rival_family_dinner:0 "[CHARACTER.GetShortUIName|U], bir ziyafet sırasındaki büyük bir kavganın ardından [TARGET_CHARACTER.GetShortUIName|U] ile rakip oldu."
+
+ rival_family_dinner_corresponding:0 "[CHARACTER.GetShortUIName|U], bir ziyafet sırasındaki büyük bir kavganın ardından [TARGET_CHARACTER.GetShortUIName|U] ile rakip oldu."
 ### TODO NOT-IN-ST: dinner_rival_root_reason_murderer [AGOT: [ROOT.Char.GetSheHe|U] wouldn't come out and call me]
  dinner_rival_root_reason_murderer:0 "[ROOT.Char.GetSheHe|U] wouldn't come out and call me "murderer", but that's what it was about."
 ### TODO NOT-IN-ST: dinner_rival_root_reason_att_murder [AGOT: I'd tried to have [ROOT.Char.GetHerHim] murdered, [ROOT.Char.GetSheHe] said. And kept saying it.]
@@ -2263,8 +2263,8 @@
  lmf_feast.1002.desc:0 "It started off so well.\n\nThe family gathered in [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'s great hall for a feast, and at first it was quite pleasant. [ROOT.Char.Custom2('my_relation_by_name', SCOPE.sC('dinner_pos_family'))|U] [dinner_pos_family.Custom('dinner_activity_pos_past')].\n\nThen [family_rival.GetFirstNameNoTooltip] and I began to argue.\n\n[family_rival.Custom2('dinner_rival_root_reason', ROOT.Char )] My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('family_rival'))] and I were both deep into our cups, and I remember [family_rival.GetHerHim] making one barbed comment after another... enough that I commanded [family_rival.GetHerHim] to stop.\n\nThen we were shouting, louder and louder, until finally others became alarmed and intervened. It was too late, however. Both of us said things we're likely to regret in the days to come."
 ### TODO NOT-IN-ST: lmf_feast.1002.a [AGOT: Well, that was unfortunate.]
  lmf_feast.1002.a:0 "Well, that was unfortunate."
-### TODO NOT-IN-ST: self_rival_family_dinner [AGOT: [CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast.]
- self_rival_family_dinner:0 "[CHARACTER.GetShortUIName|U] became rivals with [TARGET_CHARACTER.GetShortUIName|U] after a huge fight during a feast."
+
+ self_rival_family_dinner:0 "[CHARACTER.GetShortUIName|U], bir ziyafet sırasındaki büyük bir kavganın ardından [TARGET_CHARACTER.GetShortUIName|U] ile rakip oldu."
 ### TODO NOT-IN-ST: self_rival_family_dinner_corresponding [AGOT: [TARGET_CHARACTER.GetShortUIName|U] became rivals with [CHARACTER.GetShortUIName|U] after a huge fight during a feast.]
  self_rival_family_dinner_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] became rivals with [CHARACTER.GetShortUIName|U] after a huge fight during a feast."
 ### TODO NOT-IN-ST: lmf_feast.1003.t [AGOT: Family Feast: Reconciliation]
@@ -2903,8 +2903,8 @@
  lmf_heir.1501.c:0 "[new_educator.GetFirstNameNoTooltip] can help, but I'll train [focus_child.GetFirstNameNoTooltip] in swords myself."
 ### TODO NOT-IN-ST: lmf_heir.1501.d [AGOT: [new_educator.GetFirstNameNoTooltip] can help, but I'll remain as [focus_child.GetFirstNamePossessiveNoTooltip] tutor.]
  lmf_heir.1501.d:0 "[new_educator.GetFirstNameNoTooltip] can help, but I'll remain as [focus_child.GetFirstNamePossessiveNoTooltip] tutor."
-### TODO NOT-IN-ST: lmf_heir.1503.t [AGOT: My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Training]
- lmf_heir.1503.t:0 "My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Training"
+
+ lmf_heir.1503.t:0 "[ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Eğitimi"
 ### TODO NOT-IN-ST: lmf_heir.1503.start [AGOT: I've received word of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] martial training, and it's...not good.\n\n]
  lmf_heir.1503.start:0 "I've received word of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] martial training, and it's...not good.\n\n"[focus_child.GetTitledFirstNameNoTooltip] is still young, it's true," [focus_child.GetHerHis] latest instructor confides, "but it's clear [focus_child.GetHerHis] heart simply isn't in it, my [ROOT.Char.GetLadyLord]. [focus_child.GetSheHe|U] "
 ### TODO NOT-IN-ST: lmf_heir.1503.female [AGOT: knows [focus_child.GetSheHe] will never be allowed to take up arms in truth, and even if that weren't so,]
@@ -2947,8 +2947,8 @@
  lmf_heir.1503.d.tt_change:0 "[focus_child.GetFirstNamePossessiveNoTooltip] [education_focus|E] changes to [learning|E]"
 ### TODO NOT-IN-ST: lmf_heir.1503.d.tt_tutor [AGOT: [new_learning_educator.GetTitledFirstNameNoTooltip] personally trains [focus_child.GetFirstNameNoTooltip] to make up for any lost education]
  lmf_heir.1503.d.tt_tutor:0 "[new_learning_educator.GetTitledFirstNameNoTooltip] personally trains [focus_child.GetFirstNameNoTooltip] to make up for any lost education"
-### TODO NOT-IN-ST: lmf_heir.1505.t [AGOT: My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Training]
- lmf_heir.1505.t:0 "My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Training"
+
+ lmf_heir.1505.t:0 "[ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))|U] Eğitimi"
 ### TODO NOT-IN-ST: lmf_heir.1505.desc [AGOT: I've received word of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))] martial training.\n\n]
  lmf_heir.1505.desc:0 "I've received word of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('focus_child'))] martial training.\n\n"[focus_child.GetTitledFirstNameNoTooltip] is still young, it's true," [focus_child.GetHerHis] latest instructor confides, "but she shows such determination and natural talent. She keeps demanding to be allowed to take up training in proper swordsmanship, my [ROOT.Char.GetLadyLord], and I think if we do not let her she will go off and learn it in secret."\n\nIt is most improper for a girl to learn to fight... but then again, why should she be restricted to learning solely strategy and armycraft?"
 ### TODO NOT-IN-ST: lmf_heir.1505.a [AGOT: Let her learn to fight. We'll see how it goes.]
@@ -2993,10 +2993,10 @@
  lmf_heir.1516.t:0 "An Introduction?"
 ### TODO NOT-IN-ST: lmf_heir.1516.desc.start [AGOT: The good news is that, despite having been granted to leave to marry only if and when [secondary_actor.GetSheHe] wishes, [secondary_actor.GetFirstNameNoTooltip] appears to have some ideas of [secondary_actor.GetHerHis] own on the subject.\n\n[secondary_actor.GetSheHe|U] approached me today with]
  lmf_heir.1516.desc.start:0 "The good news is that, despite having been granted to leave to marry only if and when [secondary_actor.GetSheHe] wishes, [secondary_actor.GetFirstNameNoTooltip] appears to have some ideas of [secondary_actor.GetHerHis] own on the subject.\n\n[secondary_actor.GetSheHe|U] approached me today with "
-### TODO NOT-IN-ST: lmf_heir.1516.desc.one [AGOT: the name of a [suitor_1.Custom('WomanManGirlBoy')] [secondary_actor.GetSheHe] might be interested in]
- lmf_heir.1516.desc.one:0 "the name of a [suitor_1.Custom('WomanManGirlBoy')] [secondary_actor.GetSheHe] might be interested in "
-### TODO NOT-IN-ST: lmf_heir.1516.desc.two [AGOT: the name of two [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in]
- lmf_heir.1516.desc.two:0 "the name of two [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in "
+
+ lmf_heir.1516.desc.one:0 "[secondary_actor.GetSheHe]'in ilgilenebileceği bir [suitor_1.Custom('WomanManGirlBoy')] adı "
+
+ lmf_heir.1516.desc.two:0 "[secondary_actor.GetSheHe]'in ilgilenebileceği iki [suitor_1.Custom('WomenMenGirlsBoys')] adı "
 ### TODO NOT-IN-ST: lmf_heir.1516.desc.three [AGOT: a list of several [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in]
  lmf_heir.1516.desc.three:0 "a list of several [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in "
 
@@ -3017,10 +3017,10 @@
  lmf_heir.1517.t:0 "Time to Wed"
 ### TODO NOT-IN-ST: lmf_heir.1517.t.directed [AGOT: End of the Search]
  lmf_heir.1517.t.directed:0 "End of the Search"
-### TODO NOT-IN-ST: lmf_heir.1517.desc [AGOT: [focus_child.GetFirstNameNoTooltip] came to me this morning, looking rather sheepish.\n\n]
- lmf_heir.1517.desc:0 "[focus_child.GetFirstNameNoTooltip] came to me this morning, looking rather sheepish.\n\n"I know I've said that I want to marry on my own, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but the truth is that I haven't met a [focus_child.Custom('GetWomanManOpposite')] worth marrying."\n\n"Does this mean what I think it means?" I asked, smiling.\n\n[focus_child.GetSheHe|U] nodded, sighing. "Yes, I think it's time. If you could find a proper [focus_child.Custom('WifeHusbandOpp')] for me, I would appreciate it.""
-### TODO NOT-IN-ST: lmf_heir.1517.desc.directed [AGOT: [focus_child.GetFirstNameNoTooltip] came to me this morning, looking rather sheepish.\n\n]
- lmf_heir.1517.desc.directed:0 "[focus_child.GetFirstNameNoTooltip] came to me this morning, looking rather sheepish.\n\n"I know you directed me to find a [focus_child.Custom('WifeHusbandOpp')] on my own, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but the truth is that I haven't found a [focus_child.Custom('GetWomanManOpposite')] worth marrying."\n\n"Does this mean you intend to give up the search?" I asked.\n\n[focus_child.GetSheHe|U] nodded, sighing. "I appreciate your offer, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but it appears I need your assistance if you still wish to see me properly wed.""
+
+ lmf_heir.1517.desc:0 "[focus_child.GetFirstNameNoTooltip] bu sabah bana geldi, oldukça mahcup görünüyordu.\n\n"I know I've said that I want to marry on my own, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but the truth is that I haven't met a [focus_child.Custom('GetWomanManOpposite')] worth marrying."\n\n"Does this mean what I think it means?" I asked, smiling.\n\n[focus_child.GetSheHe|U] nodded, sighing. "Yes, I think it's time. If you could find a proper [focus_child.Custom('WifeHusbandOpp')] for me, I would appreciate it.""
+
+ lmf_heir.1517.desc.directed:0 "[focus_child.GetFirstNameNoTooltip] bu sabah bana geldi, oldukça mahcup görünüyordu.\n\n"I know you directed me to find a [focus_child.Custom('WifeHusbandOpp')] on my own, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but the truth is that I haven't found a [focus_child.Custom('GetWomanManOpposite')] worth marrying."\n\n"Does this mean you intend to give up the search?" I asked.\n\n[focus_child.GetSheHe|U] nodded, sighing. "I appreciate your offer, [focus_child.Custom2('spoken_address_by_familiarity', ROOT.Char )], but it appears I need your assistance if you still wish to see me properly wed.""
 ### TODO NOT-IN-ST: lmf_heir.1517.a [AGOT: Finally!]
  lmf_heir.1517.a:0 "Finally!"
 
@@ -3043,26 +3043,26 @@
  lmf_heir.1519.desc.samesex:0 "the object of [heir.GetHerHis] affections is also a [heir_lover.GetWomanMan]. A rather awkward situation, to be certain.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1519.desc.order [AGOT: the object of [heir.GetHerHis] affections happens to have sworn oaths to a holy order. [heir_lover.GetSheHe|U] cannot marry, not so long as [heir_lover.GetSheHe] remains true to [heir_lover.GetHerHis] vows.\n\n]
  lmf_heir.1519.desc.order:0 "the object of [heir.GetHerHis] affections happens to have sworn oaths to a holy order. [heir_lover.GetSheHe|U] cannot marry, not so long as [heir_lover.GetSheHe] remains true to [heir_lover.GetHerHis] vows.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.married [AGOT: the object of [heir.GetHerHis] affections happens to be already married. An old tale, if a shameful one.\n\n]
- lmf_heir.1519.desc.married:0 "the object of [heir.GetHerHis] affections happens to be already married. An old tale, if a shameful one.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.betrothed [AGOT: the object of [heir.GetHerHis] affections is already betrothed to another, if not yet wed. [heir_lover.GetSheHe|U] cannot marry [heir.GetHerHim], so long as that betrothal remains in place.\n\n]
- lmf_heir.1519.desc.betrothed:0 "the object of [heir.GetHerHis] affections is already betrothed to another, if not yet wed. [heir_lover.GetSheHe|U] cannot marry [heir.GetHerHim], so long as that betrothal remains in place.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.permission.lover.man [AGOT: since I previously denied [heir.GetHerHis] lover permission to marry, the man is now clearly reluctant to properly ask for my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] hand.\n\n]
- lmf_heir.1519.desc.permission.lover.man:0 "since I previously denied [heir.GetHerHis] lover permission to marry, the man is now clearly reluctant to properly ask for my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] hand.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.permission.lover.woman [AGOT: since I previously denied [heir.GetHerHis] lover permission to marry, my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] clearly thinks that refusal also applies to him.\n\n]
- lmf_heir.1519.desc.permission.lover.woman:0 "since I previously denied [heir.GetHerHis] lover permission to marry, my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] clearly thinks that refusal also applies to him.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.permission.both [AGOT: my previous refusal to allow them to marry means they now intend to carry on in secret. A rather awkward situation, if it's allowed to continue.\n\n]
- lmf_heir.1519.desc.permission.both:0 "my previous refusal to allow them to marry means they now intend to carry on in secret. A rather awkward situation, if it's allowed to continue.\n\n"
+
+ lmf_heir.1519.desc.married:0 "[heir.GetHerHis] gönlünün nesnesi zaten evli çıkıyor. Eski bir hikâye, utanç verici olsa da.\n\n"
+
+ lmf_heir.1519.desc.betrothed:0 "[heir.GetHerHis] gönlünün nesnesi, henüz evlenmemiş olsa da başkasıyla nişanlı. O nişan sürdüğü sürece [heir_lover.GetSheHe|U], [heir.GetHerHim] ile evlenemez.\n\n"
+
+ lmf_heir.1519.desc.permission.lover.man:0 "[heir.GetHerHis] sevgilisine evlenme iznini daha önce vermediğim için, adam artık [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'imin elini düzgünce istemeye açıkça isteksiz.\n\n"
+
+ lmf_heir.1519.desc.permission.lover.woman:0 "[heir.GetHerHis] sevgilisine evlenme iznini daha önce vermediğim için, [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'im bu reddin kendisi için de geçerli olduğunu açıkça düşünüyor.\n\n"
+
+ lmf_heir.1519.desc.permission.both:0 "evlenmelerine daha önceki izin vermeyişim, artık gizlice devam etmeyi planladıkları anlamına geliyor. Sürdürülürse oldukça tuhaf bir durum.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1519.desc.permission.heir.man [AGOT: my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is clearly reluctant to ask permission to wed [heir_lover.GetHerHim], considering my previous refusal.\n\n]
  lmf_heir.1519.desc.permission.heir.man:0 "my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is clearly reluctant to ask permission to wed [heir_lover.GetHerHim], considering my previous refusal.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1519.desc.permission.heir.woman [AGOT: it's clear the man is reluctant to ask permission to marry my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))], considering I have already refused a proposal for her hand.\n\n]
  lmf_heir.1519.desc.permission.heir.woman:0 "it's clear the man is reluctant to ask permission to marry my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))], considering I have already refused a proposal for her hand.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1519.desc.generic [AGOT: It's impossible for the two of them to wed. Thus, they carry on in secret, and my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is too smitten to consider that [heir.GetSheHe] has a greater duty than to this [heir_lover.GetWomanMan] [heir.GetSheHe] loves.\n\n]
- lmf_heir.1519.desc.generic:0 "It's impossible for the two of them to wed. Thus, they carry on in secret, and my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is too smitten to consider that [heir.GetSheHe] has a greater duty than to this [heir_lover.GetWomanMan] [heir.GetSheHe] loves.\n\n"
+
+ lmf_heir.1519.desc.generic:0 "İkisinin evlenmesi imkânsız. Bu yüzden gizlice devam ediyorlar ve [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))]'im, [heir.GetSheHe]'in sevdiği bu [heir_lover.GetWomanMan]'den daha büyük bir görevi olduğunu düşünebilecek kadar aklı başında değil.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1519.desc.end.canact [AGOT: Perhaps I should tell [heir.GetFirstNameNoTooltip] that I know, and see they get married anyhow. Or tell [heir.GetHerHim] to end this hopeless arrangement. Either way, something should likely be done.]
  lmf_heir.1519.desc.end.canact:0 "Perhaps I should tell [heir.GetFirstNameNoTooltip] that I know, and see they get married anyhow. Or tell [heir.GetHerHim] to end this hopeless arrangement. Either way, something should likely be done."
-### TODO NOT-IN-ST: lmf_heir.1519.desc.end [AGOT: I could interfere in my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] affair, though I doubt [heir.GetSheHe] will thank me for doing so.]
- lmf_heir.1519.desc.end:0 "I could interfere in my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] affair, though I doubt [heir.GetSheHe] will thank me for doing so."
+
+ lmf_heir.1519.desc.end:0 "[ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'imin gönül işine karışabilirim, ama [heir.GetSheHe]'in bunun için bana teşekkür edeceğinden şüpheliyim."
 ### TODO NOT-IN-ST: lmf_heir.1519.a [AGOT: [heir.GetFirstNameNoTooltip] needs to end this. It will go nowhere.]
  lmf_heir.1519.a:0 "[heir.GetFirstNameNoTooltip] needs to end this. It will go nowhere."
 
@@ -3535,8 +3535,8 @@
  lmf_heir.1651.desc:0 "that [heir_liege.GetTitledFirstNamePossessiveNoTooltip] [heir_liege.Custom2('LMF_RelationToMeShort', your_heir )] has proven most impressive during [your_heir.GetHerHis] first couple of weeks at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\nNot only has [your_heir.GetTitledFirstNameNoTooltip] been pleasant and well-mannered to the [ROOT.Char.Custom('FortifiedBuilding')] servants, [your_heir.GetSheHe]'s proven helpful at times and a welcome sight at court.\n\nObviously, [your_heir.GetSheHe]'s only been settling in and we'll see how [your_heir.GetHerHis] visit goes from here, but this is certainly an auspicious beginning."
 ### TODO NOT-IN-ST: lmf_heir.1651.a [AGOT: [your_heir.GetSheHe|U]'s a fine [your_heir.Custom('polite_gender_ref')].]
  lmf_heir.1651.a:0 "[your_heir.GetSheHe|U]'s a fine [your_heir.Custom('polite_gender_ref')]."
-### TODO NOT-IN-ST: lmf_heir.1651.tt [AGOT: #EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do well during [your_heir.GetHerHis] visit#!]
- lmf_heir.1651.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do well during [your_heir.GetHerHis] visit#!"
+
+ lmf_heir.1651.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] ziyareti sırasında başarılı olma olasılığı daha yüksek olacak#!"
 ### TODO NOT-IN-ST: lmf_heir.1652.t [AGOT: An Unpleasant Heir]
  lmf_heir.1652.t:0 "An Unpleasant Heir"
 
@@ -3549,8 +3549,8 @@
  lmf_heir.1652.desc:0 "that [heir_liege.GetTitledFirstNamePossessiveNoTooltip] [heir_liege.Custom2('LMF_RelationToMeShort', your_heir )] hasn't exactly been the picture of grace during [your_heir.GetHerHis] first couple of weeks at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\nThe [ROOT.Char.Custom('FortifiedBuilding')] servants report that [your_heir.GetTitledFirstNameNoTooltip] is often snappish and moody. [your_heir.GetSheHe|U] roams around the halls, criticizing most everything [your_heir.GetSheHe] sees, and when [your_heir.GetSheHe] makes an appearance at court it's primarily to make [your_heir.GetHerselfHimself] the center of attention.\n\nI tell myself that [your_heir.GetSheHe]'s only been settling in and we'll see how [your_heir.GetHerHis] visit goes from here, but this is certainly not an auspicious beginning."
 ### TODO NOT-IN-ST: lmf_heir.1652.a [AGOT: I wonder if [your_heir.GetSheHe]'s like this at [heir_visit_origin.GetTitle.GetNameNoTierNoTooltip]?]
  lmf_heir.1652.a:0 "I wonder if [your_heir.GetSheHe]'s like this at [heir_visit_origin.GetTitle.GetNameNoTierNoTooltip]?"
-### TODO NOT-IN-ST: lmf_heir.1652.tt [AGOT: #EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do poorly during [your_heir.GetHerHis] visit#!]
- lmf_heir.1652.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do poorly during [your_heir.GetHerHis] visit#!"
+
+ lmf_heir.1652.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] ziyareti sırasında başarısız olma olasılığı daha yüksek olacak#!"
 ### TODO NOT-IN-ST: lmf_heir.1653.t [AGOT: The Vanishing Heir]
  lmf_heir.1653.t:0 "The Vanishing Heir"
 
@@ -3577,8 +3577,8 @@
  lmf_heir.1654.desc:0 "that [heir_liege.GetTitledFirstNamePossessiveNoTooltip] [heir_liege.Custom2('LMF_RelationToMeShort', your_heir )] has spent [your_heir.GetHerHis] first couple of weeks at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] mostly longing to return to [heir_visit_origin.GetTitle.GetNameNoTierNoTooltip].\n\nPerhaps the [your_heir.Custom('polite_gender_ref')] wasn't ready to travel so far from home, I don't know, but the [ROOT.Char.Custom('FortifiedBuilding')] servants say that [your_heir.GetTitledFirstNameNoTooltip] spends most of [your_heir.GetHerHis] time in [your_heir.GetHerHis] chambers, either weeping or whinging. Even when [your_heir.GetSheHe] does show [your_heir.GetHerHis] face, any encounter with someone else will send [your_heir.GetHerHim] immediately fleeing.\n\nI tell myself that [your_heir.GetSheHe]'s only been settling in and we'll see how [your_heir.GetHerHis] visit goes from here, but this is certainly not an auspicious beginning."
 ### TODO NOT-IN-ST: lmf_heir.1654.a [AGOT: [your_heir.GetSheHe|U]'ll warm up to us, I'm sure of it.]
  lmf_heir.1654.a:0 "[your_heir.GetSheHe|U]'ll warm up to us, I'm sure of it."
-### TODO NOT-IN-ST: lmf_heir.1654.tt [AGOT: #EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do poorly during [your_heir.GetHerHis] visit#!]
- lmf_heir.1654.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do poorly during [your_heir.GetHerHis] visit#!"
+
+ lmf_heir.1654.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] ziyareti sırasında başarısız olma olasılığı daha yüksek olacak#!"
 ### TODO NOT-IN-ST: lmf_heir.1655.t [AGOT: The Quiet Heir]
  lmf_heir.1655.t:0 "The Quiet Heir"
 
@@ -3591,8 +3591,8 @@
  lmf_heir.1655.desc:0 "that [heir_liege.GetTitledFirstNamePossessiveNoTooltip] [heir_liege.Custom2('LMF_RelationToMeShort', your_heir )] has shown [your_heir.GetHerselfHimself] to be a quiet and dutiful sort of [your_heir.Custom('polite_gender_ref')] during [your_heir.GetHerHis] first couple of weeks at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip].\n\nThe [ROOT.Char.Custom('FortifiedBuilding')] servants say [your_heir.GetTitledFirstNameNoTooltip] is always polite, always responds when spoken to, and is very careful to follow all of the customs and practices expected of the [ROOT.Char.Custom('FortifiedBuilding')]'s guests.\n\nI wouldn't mind seeing [your_heir.GetHerHim] come out of [your_heir.GetHerHis] shell a bit more, but I remind myself that [your_heir.GetSheHe]'s only been settling in. We'll see how [your_heir.GetHerHis] visit goes from here, but this is at least an auspicious beginning."
 
  lmf_heir.1655.a:0 "Pek girişken biri değil, değil mi [your_heir.GetSheHe]?"
-### TODO NOT-IN-ST: lmf_heir.1655.tt [AGOT: #EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do well during [your_heir.GetHerHis] visit#!]
- lmf_heir.1655.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] will be more likely to do well during [your_heir.GetHerHis] visit#!"
+
+ lmf_heir.1655.tt:0 "#EMP [your_heir.GetTitledFirstNameNoTooltip] ziyareti sırasında başarılı olma olasılığı daha yüksek olacak#!"
 ### TODO NOT-IN-ST: lmf_heir.1656.t [AGOT: The Troublemaker Heir]
  lmf_heir.1656.t:0 "The Troublemaker Heir"
 
@@ -3627,8 +3627,8 @@
  lmf_heir.1660.desc.second.annoy.wasannoy:0 "and the [your_heir.Custom('polite_gender_ref')] has become no less annoying than [your_heir.GetSheHe] was previously.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.second.annoy.washelpful [AGOT: and I'll admit that the [your_heir.Custom('polite_gender_ref')]'s constant presence has begun to annoy me.\n\n]
  lmf_heir.1660.desc.second.annoy.washelpful:0 "and I'll admit that the [your_heir.Custom('polite_gender_ref')]'s constant presence has begun to annoy me.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1660.desc.second.helpful.wasannoy [AGOT: and thankfully things have improved. The [your_heir.Custom('polite_gender_ref')] has become almost bearable.\n\n]
- lmf_heir.1660.desc.second.helpful.wasannoy:0 "and thankfully things have improved. The [your_heir.Custom('polite_gender_ref')] has become almost bearable.\n\n"
+
+ lmf_heir.1660.desc.second.helpful.wasannoy:0 "ve neyse ki işler düzeldi. [your_heir.Custom('polite_gender_ref')] neredeyse katlanılabilir oldu.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.second.helpful.washelpful [AGOT: and the [your_heir.Custom('polite_gender_ref')] continues to be a delight to have around.\n\n]
  lmf_heir.1660.desc.second.helpful.washelpful:0 "and the [your_heir.Custom('polite_gender_ref')] continues to be a delight to have around.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.second.annoy [AGOT: I know [your_heir.GetSheHe] does [your_heir.GetHerHis] best to be helpful, but mostly [your_heir.GetSheHe] simply gets in the way. I have servants I see less!\n\nLuckily, the visit won't continue much longer.]
@@ -3641,8 +3641,8 @@
  lmf_heir.1660.desc.third.annoy.wasannoy:0 "and the [your_heir.Custom('polite_gender_ref')] continues to be a pain in my backside. Is there nothing else [your_heir.GetSheHe] could spend [your_heir.GetHerHis] time on?\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.third.annoy.washelpful [AGOT: and I'll say it now: I'll be glad when the [your_heir.Custom('polite_gender_ref')] finally takes [your_heir.GetHerHis] leave of us.\n\n]
  lmf_heir.1660.desc.third.annoy.washelpful:0 "and I'll say it now: I'll be glad when the [your_heir.Custom('polite_gender_ref')] finally takes [your_heir.GetHerHis] leave of us.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1660.desc.third.helpful.wasannoy [AGOT: and thankfully things have improved. The [your_heir.Custom('polite_gender_ref')] has become almost bearable.\n\n]
- lmf_heir.1660.desc.third.helpful.wasannoy:0 "and thankfully things have improved. The [your_heir.Custom('polite_gender_ref')] has become almost bearable.\n\n"
+
+ lmf_heir.1660.desc.third.helpful.wasannoy:0 "ve neyse ki işler düzeldi. [your_heir.Custom('polite_gender_ref')] neredeyse katlanılabilir oldu.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.third.helpful.washelpful [AGOT: and I suspect I'll almost miss the [your_heir.Custom('polite_gender_ref')] when [your_heir.GetSheHe] goes.\n\n]
  lmf_heir.1660.desc.third.helpful.washelpful:0 "and I suspect I'll almost miss the [your_heir.Custom('polite_gender_ref')] when [your_heir.GetSheHe] goes.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1660.desc.third.annoy [AGOT: I'm all but certain the [your_heir.Custom('GetLassLad')] is fully aware of how much [your_heir.GetSheHe] irritates me, and avoids me whenever I don't have a lesson planned.\n\n[heir_liege.GetTitledFirstNameNoTooltip] had best be thankful for all the time I've spent on [your_heir.GetHerHim].]
@@ -4189,8 +4189,8 @@
  lmf_heir.1700.bastard.alive.end:0 "Genç [visitor.GetWomanMan] şimdi ne istiyor dersin? "You are my blood," [bastard_child.GetSheHe] said, "and the only family I have left. I only hope I might earn a place in your service, if you'll have me.""
 ### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.start [AGOT: A young peasant [visitor.GetWomanMan] showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this young [visitor.GetWomanMan] is apparently claiming to be the child of my departed [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))], [bastard_child_father.GetFirstNameNoTooltip].\n\nI went to see for myself and, I'll admit, [bastard_child.GetSheHe] did have something of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('bastard_child_father'))] look. According to him, [bastard_child_father.GetFirstNameNoTooltip] met [bastard_child.GetHerHis] mother]
  lmf_heir.1700.bastard.dead.start:0 "A young peasant [visitor.GetWomanMan] showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this young [visitor.GetWomanMan] is apparently claiming to be the child of my departed [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))], [bastard_child_father.GetFirstNameNoTooltip].\n\nI went to see for myself and, I'll admit, [bastard_child.GetSheHe] did have something of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('bastard_child_father'))] look. According to him, [bastard_child_father.GetFirstNameNoTooltip] met [bastard_child.GetHerHis] mother "
-### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.heirvisit [AGOT: during a night of drunken tavern revelry back when he visited [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip] in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... which I vaguely recall, even if [bastard_child_father.GetFirstNameNoTooltip] spoke little of it.\n\n]
- lmf_heir.1700.bastard.dead.heirvisit:0 "during a night of drunken tavern revelry back when he visited [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip] in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... which I vaguely recall, even if [bastard_child_father.GetFirstNameNoTooltip] spoke little of it.\n\n"
+
+ lmf_heir.1700.bastard.dead.heirvisit:0 "kendisi [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip]'i [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]'de ziyaret ettiğinde, sarhoş bir meyhane eğlencesi gecesinde... ki bunu belli belirsiz anımsıyorum, [bastard_child_father.GetFirstNameNoTooltip] hakkında az konuşsa da.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.campfollower [AGOT: when she was a camp follower, on a night his army was camped in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... certainly plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
  lmf_heir.1700.bastard.dead.campfollower:0 "when she was a camp follower, on a night his army was camped in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... certainly plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.taverngirl [AGOT: at a tavern in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], where she served drinks to visiting [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')]... certainly plausible, considering [bastard_child_father.GetFirstNamePossessiveNoTooltip] army was indeed there at the time.\n\n]
@@ -4201,8 +4201,8 @@
  lmf_heir.1700.bastard.dead.campcaughteye:0 "when she was a soldier, and caught [bastard_child_father.GetFirstNamePossessiveNoTooltip] eye when they were camped together at [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... certainly plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.foundpool [AGOT: at a healing pool in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], near where his army was camped. Certain plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
  lmf_heir.1700.bastard.dead.foundpool:0 "at a healing pool in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], near where his army was camped. Certain plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1700.bastard.dead.default [AGOT: during a night of revelry many moons ago in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
- lmf_heir.1700.bastard.dead.default:0 "during a night of revelry many moons ago in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
+
+ lmf_heir.1700.bastard.dead.default:0 "aylar önce [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]'de bir eğlence gecesinde, ki bu oldukça mümkün çünkü [bastard_child_father.GetFirstNameNoTooltip] o sırada gerçekten oradaydı.\n\n"
 
  lmf_heir.1700.bastard.dead.end:0 "Genç [visitor.GetWomanMan] şimdi ne istiyor dersin? "You are my blood," [bastard_child.GetSheHe] said, "and the only family I have left. I only hope I might earn a place in your service, if you'll have me.""
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.me.start [AGOT: A peasant woman showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this woman was with a child that she apparently claims to be mine.\n\nI went to see for myself, and vaguely remembered her]
@@ -4225,8 +4225,8 @@
  lmf_heir.1700.mother.me.mid:0 "…e gelince, "
 
  lmf_heir.1700.mother.me.newborn:0 "kucağındaki bebek mi? "
-### TODO NOT-IN-ST: lmf_heir.1700.mother.me.child [AGOT: [bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast?]
- lmf_heir.1700.mother.me.child:0 "[bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast? "
+
+ lmf_heir.1700.mother.me.child:0 "[bastard_child.Custom('polite_gender_ref')] yanında, gözleri tedirgin biçimde yere bakıyor? "
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.me.end [AGOT: ]
  lmf_heir.1700.mother.me.end:0 ""[bastard_child.GetSheHe|U] is your blood," the woman said. "I only hope for a place in your court, if you'll have us, where [bastard_child.GetFirstNameNoTooltip] can have a future far better than any I could hope to provide.""
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.alive.start [AGOT: A peasant woman showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this woman was with a child that she apparently claims is [bastard_child_father.GetFirstNamePossessiveNoTooltip] [bastard_child.Custom('GetDaughterSon')]!\n\nI went to see for myself and, I'll admit, [bastard_child.GetSheHe] did have something of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('bastard_child_father'))] look. When I summoned [bastard_child_father.GetFirstNameNoTooltip], he sheepishly admitted to recognizing the woman,]
@@ -4249,14 +4249,14 @@
  lmf_heir.1700.mother.alive.mid:0 "…e gelince, "
 
  lmf_heir.1700.mother.alive.newborn:0 "kucağındaki bebek mi? "
-### TODO NOT-IN-ST: lmf_heir.1700.mother.alive.child [AGOT: [bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast?]
- lmf_heir.1700.mother.alive.child:0 "[bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast? "
+
+ lmf_heir.1700.mother.alive.child:0 "[bastard_child.Custom('polite_gender_ref')] yanında, gözleri tedirgin biçimde yere bakıyor? "
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.alive.end [AGOT: ]
  lmf_heir.1700.mother.alive.end:0 ""[bastard_child.GetSheHe|U] is your blood," the woman said. "I only hope for a place in your court, if you'll have us, where [bastard_child.GetFirstNameNoTooltip] can have a future far better than any I could hope to provide.""
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.start [AGOT: A peasant woman showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this woman was with a child that she apparently claims to be the [bastard_child.Custom('GetDaughterSon')] of my departed [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))], [bastard_child_father.GetFirstNameNoTooltip]!\n\nI went to see for myself and, I'll admit, [bastard_child.GetSheHe] did have something of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('bastard_child_father'))] look. According to the woman, she encountered my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))]]
  lmf_heir.1700.mother.dead.start:0 "A peasant woman showed up at the [ROOT.Char.Custom('FortifiedBuilding')] gates today, hardly unusual except that this woman was with a child that she apparently claims to be the [bastard_child.Custom('GetDaughterSon')] of my departed [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))], [bastard_child_father.GetFirstNameNoTooltip]!\n\nI went to see for myself and, I'll admit, [bastard_child.GetSheHe] did have something of my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('bastard_child_father'))] look. According to the woman, she encountered my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('bastard_child_father'))] "
-### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.heirvisit [AGOT: during a night of drunken tavern revelry back when he visited [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip] in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... which I vaguely recall, even if [bastard_child_father.GetFirstNameNoTooltip] spoke little of it.\n\n]
- lmf_heir.1700.mother.dead.heirvisit:0 "during a night of drunken tavern revelry back when he visited [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip] in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]... which I vaguely recall, even if [bastard_child_father.GetFirstNameNoTooltip] spoke little of it.\n\n"
+
+ lmf_heir.1700.mother.dead.heirvisit:0 "kendisi [story.MakeScope.Var('story_stray_seed_heir_visit_target').Char.GetTitledFirstNameNoTooltip]'i [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]'de ziyaret ettiğinde, sarhoş bir meyhane eğlencesi gecesinde... ki bunu belli belirsiz anımsıyorum, [bastard_child_father.GetFirstNameNoTooltip] hakkında az konuşsa da.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.campfollower [AGOT: back when she was a camp follower, on a night when his army was in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
  lmf_heir.1700.mother.dead.campfollower:0 "back when she was a camp follower, on a night when his army was in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.taverngirl [AGOT: at a tavern in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], where she served drinks and he along with several other [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] visited from their camp nearby. Entirely plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
@@ -4267,14 +4267,14 @@
  lmf_heir.1700.mother.dead.campcaughteye:0 "when the army was camped in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip] and she was a soldier who caught his eye. Entirely plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.foundpool [AGOT: when he'd visited a healing pool in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], not far from where his army had camped. Entirely plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
  lmf_heir.1700.mother.dead.foundpool:0 "when he'd visited a healing pool in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], not far from where his army had camped. Entirely plausible, considering [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
-### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.default [AGOT: during a night of revelry many moons ago in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n]
- lmf_heir.1700.mother.dead.default:0 "during a night of revelry many moons ago in [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip], which is entirely possible since [bastard_child_father.GetFirstNameNoTooltip] was indeed there at the time.\n\n"
+
+ lmf_heir.1700.mother.dead.default:0 "aylar önce [story.MakeScope.Var('story_stray_seed_location').Province.GetTitle.GetNameNoTierNoTooltip]'de bir eğlence gecesinde, ki bu oldukça mümkün çünkü [bastard_child_father.GetFirstNameNoTooltip] o sırada gerçekten oradaydı.\n\n"
 
  lmf_heir.1700.mother.dead.mid:0 "…e gelince, "
 
  lmf_heir.1700.mother.dead.newborn:0 "kucağındaki bebek mi? "
-### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.child [AGOT: [bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast?]
- lmf_heir.1700.mother.dead.child:0 "[bastard_child.Custom('polite_gender_ref')] at her side, eyes nervously downcast? "
+
+ lmf_heir.1700.mother.dead.child:0 "[bastard_child.Custom('polite_gender_ref')] yanında, gözleri tedirgin biçimde yere bakıyor? "
 ### TODO NOT-IN-ST: lmf_heir.1700.mother.dead.end [AGOT: ]
  lmf_heir.1700.mother.dead.end:0 ""[bastard_child.GetSheHe|U] is your blood," the woman said. "I only hope for a place in your court, if you'll have us, where [bastard_child.GetFirstNameNoTooltip] can have a future far better than any I could hope to provide.""
 ### TODO NOT-IN-ST: lmf_heir.1700.a [AGOT: You are welcome to stay, but this secret stays between us.]
@@ -4291,10 +4291,10 @@
  lmf_heir.2050.knows:0 "I sighed, well aware of who [heir.GetSheHe] meant. "You're referring to [ROOT.Char.Custom2('direct_address_by_familiarity', SCOPE.sC('heir_lover'))]."\n\n"
 ### TODO NOT-IN-ST: lmf_heir.2050.secret [AGOT: That took me by surprise.]
  lmf_heir.2050.secret:0 "That took me by surprise. "You... have a lover?"\n\n"
-### TODO NOT-IN-ST: lmf_heir.2050.soulmate [AGOT: [heir.GetFirstNameNoTooltip] nodded, trying not to look embarrassed.]
- lmf_heir.2050.soulmate:0 "[heir.GetFirstNameNoTooltip] nodded, trying not to look embarrassed. "[heir_lover.GetTitledFirstName] and I are soulmates. We're meant to be together, I know it. "
-### TODO NOT-IN-ST: lmf_heir.2050.lover [AGOT: [heir.GetFirstNameNoTooltip] nodded, trying not to look embarrassed.]
- lmf_heir.2050.lover:0 "[heir.GetFirstNameNoTooltip] nodded, trying not to look embarrassed. "What [heir_lover.GetTitledFirstName] and I have is real love, I know it is. "
+
+ lmf_heir.2050.soulmate:0 "[heir.GetFirstNameNoTooltip] utanmış görünmemeye çalışarak başını salladı. "[heir_lover.GetTitledFirstName] and I are soulmates. We're meant to be together, I know it. "
+
+ lmf_heir.2050.lover:0 "[heir.GetFirstNameNoTooltip] utanmış görünmemeye çalışarak başını salladı. "What [heir_lover.GetTitledFirstName] and I have is real love, I know it is. "
 ### TODO NOT-IN-ST: lmf_heir.2050.end [AGOT: If there's anyone I would choose for myself, if my choice means anything at all,]
  lmf_heir.2050.end:0 "If there's anyone I would choose for myself, if my choice means anything at all," here [heir.GetSheHe] looked up at me, perhaps wondering if I would take back my offer after all, "it would be [heir_lover.GetHerHim].""
 ### TODO NOT-IN-ST: lmf_heir.2050.a [AGOT: No, [heir_lover.GetSheHe] is unsuitable. You must end it at once.]
@@ -4325,26 +4325,26 @@
  lmf_heir.2051.desc.samesex:0 "the object of [heir.GetHerHis] affections is also a [heir_lover.GetWomanMan]. A rather awkward situation.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.2051.desc.order [AGOT: the object of [heir.GetHerHis] affections happens to have sworn oaths to a religious order. [heir_lover.GetSheHe|U] cannot marry, not so long as [heir_lover.GetSheHe] remains true to [heir_lover.GetHerHis] vows.\n\n]
  lmf_heir.2051.desc.order:0 "the object of [heir.GetHerHis] affections happens to have sworn oaths to a religious order. [heir_lover.GetSheHe|U] cannot marry, not so long as [heir_lover.GetSheHe] remains true to [heir_lover.GetHerHis] vows.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.married [AGOT: the object of [heir.GetHerHis] affections happens to be already married. An old tale, if a shameful one.\n\n]
- lmf_heir.2051.desc.married:0 "the object of [heir.GetHerHis] affections happens to be already married. An old tale, if a shameful one.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.betrothed [AGOT: the object of [heir.GetHerHis] affections is already betrothed to another, if not yet wed. [heir_lover.GetSheHe|U] cannot marry [heir.GetHerHim], so long as that betrothal remains in place.\n\n]
- lmf_heir.2051.desc.betrothed:0 "the object of [heir.GetHerHis] affections is already betrothed to another, if not yet wed. [heir_lover.GetSheHe|U] cannot marry [heir.GetHerHim], so long as that betrothal remains in place.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.permission.lover.man [AGOT: since I previously denied [heir.GetHerHis] lover permission to marry, the man is now clearly reluctant to properly ask for my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] hand.\n\n]
- lmf_heir.2051.desc.permission.lover.man:0 "since I previously denied [heir.GetHerHis] lover permission to marry, the man is now clearly reluctant to properly ask for my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] hand.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.permission.lover.woman [AGOT: since I previously denied [heir.GetHerHis] lover permission to marry, my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] clearly thinks that refusal also applies to him.\n\n]
- lmf_heir.2051.desc.permission.lover.woman:0 "since I previously denied [heir.GetHerHis] lover permission to marry, my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] clearly thinks that refusal also applies to him.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.permission.both [AGOT: my previous refusal to allow them to marry means they now intend to carry on in secret. A rather awkward situation, if it's allowed to continue.\n\n]
- lmf_heir.2051.desc.permission.both:0 "my previous refusal to allow them to marry means they now intend to carry on in secret. A rather awkward situation, if it's allowed to continue.\n\n"
+
+ lmf_heir.2051.desc.married:0 "[heir.GetHerHis] gönlünün nesnesi zaten evli çıkıyor. Eski bir hikâye, utanç verici olsa da.\n\n"
+
+ lmf_heir.2051.desc.betrothed:0 "[heir.GetHerHis] gönlünün nesnesi, henüz evlenmemiş olsa da başkasıyla nişanlı. O nişan sürdüğü sürece [heir_lover.GetSheHe|U], [heir.GetHerHim] ile evlenemez.\n\n"
+
+ lmf_heir.2051.desc.permission.lover.man:0 "[heir.GetHerHis] sevgilisine evlenme iznini daha önce vermediğim için, adam artık [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'imin elini düzgünce istemeye açıkça isteksiz.\n\n"
+
+ lmf_heir.2051.desc.permission.lover.woman:0 "[heir.GetHerHis] sevgilisine evlenme iznini daha önce vermediğim için, [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'im bu reddin kendisi için de geçerli olduğunu açıkça düşünüyor.\n\n"
+
+ lmf_heir.2051.desc.permission.both:0 "evlenmelerine daha önceki izin vermeyişim, artık gizlice devam etmeyi planladıkları anlamına geliyor. Sürdürülürse oldukça tuhaf bir durum.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.2051.desc.permission.heir.man [AGOT: my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] is clearly reluctant to ask permission to wed [heir_lover.GetHerHim], considering my previous refusal.\n\n]
  lmf_heir.2051.desc.permission.heir.man:0 "my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] is clearly reluctant to ask permission to wed [heir_lover.GetHerHim], considering my previous refusal.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.2051.desc.permission.heir.woman [AGOT: it's clear the man is reluctant to ask permission to marry my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))], considering I have already refused a proposal for her hand.\n\n]
  lmf_heir.2051.desc.permission.heir.woman:0 "it's clear the man is reluctant to ask permission to marry my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))], considering I have already refused a proposal for her hand.\n\n"
-### TODO NOT-IN-ST: lmf_heir.2051.desc.generic [AGOT: It's impossible for the two of them to wed. Thus, they carry on in secret, and my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is too smitten to consider that [heir.GetSheHe] has a greater duty than to this [heir_lover.GetWomanMan] [heir.GetSheHe] loves.\n\n]
- lmf_heir.2051.desc.generic:0 "It's impossible for the two of them to wed. Thus, they carry on in secret, and my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))] is too smitten to consider that [heir.GetSheHe] has a greater duty than to this [heir_lover.GetWomanMan] [heir.GetSheHe] loves.\n\n"
+
+ lmf_heir.2051.desc.generic:0 "İkisinin evlenmesi imkânsız. Bu yüzden gizlice devam ediyorlar ve [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('heir'))]'im, [heir.GetSheHe]'in sevdiği bu [heir_lover.GetWomanMan]'den daha büyük bir görevi olduğunu düşünebilecek kadar aklı başında değil.\n\n"
 ### TODO NOT-IN-ST: lmf_heir.2051.desc.end.canact [AGOT: Perhaps I should see that they get married anyhow. Or tell [heir.GetHerHim] to end this hopeless arrangement. Either way, something should likely be done.]
  lmf_heir.2051.desc.end.canact:0 "Perhaps I should see that they get married anyhow. Or tell [heir.GetHerHim] to end this hopeless arrangement. Either way, something should likely be done."
-### TODO NOT-IN-ST: lmf_heir.2051.desc.end [AGOT: I could interfere in my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] affair, though I doubt [heir.GetSheHe] will thank me for doing so.]
- lmf_heir.2051.desc.end:0 "I could interfere in my [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))] affair, though I doubt [heir.GetSheHe] will thank me for doing so."
+
+ lmf_heir.2051.desc.end:0 "[ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('heir'))]'imin gönül işine karışabilirim, ama [heir.GetSheHe]'in bunun için bana teşekkür edeceğinden şüpheliyim."
 ### TODO NOT-IN-ST: lmf_heir.2051.a [AGOT: [heir.GetFirstNameNoTooltip] needs to end this and find a proper [heir.Custom('WifeHusbandOpp')].]
  lmf_heir.2051.a:0 "[heir.GetFirstNameNoTooltip] needs to end this and find a proper [heir.Custom('WifeHusbandOpp')]."
 
@@ -4365,10 +4365,10 @@
  lmf_heir.2052.desc.start:0 "[ROOT.Char.Custom2('direct_address_by_familiarity', SCOPE.sC('heir'))] hesitated for a lengthy amount of time, perhaps not quite understanding — or believing — what I'd proposed. "You are allowing me," [heir.GetSheHe] repeated back carefully, "to marry... whomever I wish?"\n\n[heir.GetSheHe|U] seemed pleased with that, nodded, and left. I assumed that was the last I would hear of the topic until [heir.GetSheHe] was ready, but [heir.GetSheHe] returned later that evening with "
 ### TODO NOT-IN-ST: lmf_heir.2052.desc.start.notwant [AGOT: And what if I do not #EMP want #! to be married, [heir.Custom2('spoken_address_by_familiarity', ROOT.Char )|U]?]
  lmf_heir.2052.desc.start.notwant:0 "And what if I do not #EMP want #! to be married, [heir.Custom2('spoken_address_by_familiarity', ROOT.Char )|U]?" [ROOT.Char.Custom2('direct_address_by_familiarity', SCOPE.sC('heir'))] finally asked following my proposal.\n\n"You must be married eventually," I replied. "Whether by your choice or mine. I am allowing it to be yours... for now."\n\n[heir.GetSheHe|U] seemed content with that and left. I assumed it was the last I'd hear of the topic until I pressed the matter further, but [heir.GetSheHe] returned later that evening with "
-### TODO NOT-IN-ST: lmf_heir.2052.desc.one [AGOT: the name of a [suitor_1.Custom('WomanManGirlBoy')] [secondary_actor.GetSheHe] might be interested in]
- lmf_heir.2052.desc.one:0 "the name of a [suitor_1.Custom('WomanManGirlBoy')] [secondary_actor.GetSheHe] might be interested in "
-### TODO NOT-IN-ST: lmf_heir.2052.desc.two [AGOT: the name of two [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in]
- lmf_heir.2052.desc.two:0 "the name of two [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] might be interested in "
+
+ lmf_heir.2052.desc.one:0 "[secondary_actor.GetSheHe]'in ilgilenebileceği bir [suitor_1.Custom('WomanManGirlBoy')] adı "
+
+ lmf_heir.2052.desc.two:0 "[secondary_actor.GetSheHe]'in ilgilenebileceği iki [suitor_1.Custom('WomenMenGirlsBoys')] adı "
 ### TODO NOT-IN-ST: lmf_heir.2052.desc.three [AGOT: a list of several [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] was interested in]
  lmf_heir.2052.desc.three:0 "a list of several [suitor_1.Custom('WomenMenGirlsBoys')] [secondary_actor.GetSheHe] was interested in "
 
@@ -4417,9 +4417,9 @@
  lmf_interaction.0001.opening.dominant:0 "[recipient.GetTitledFirstNameNoTooltip] strode into my throne room this morning, demanding a private audience. Curious, I granted it. When [recipient.GetSheHe] stood before me and spoke, [recipient.GetHerHis] words were confident... but, even so, there was an underlying nervousness which betrayed [recipient.GetHerHis] bravado.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.0001.opening [AGOT: [recipient.GetTitledFirstNameNoTooltip] requested a private audience in the throne room this morning. Curious what [recipient.GetSheHe] might have to say, I granted it. As [recipient.GetSheHe] stood before me, [recipient.GetHerHis] demeanor held the seriousness of one who had considered their words for some time.\n\n]
  lmf_interaction.0001.opening:0 "[recipient.GetTitledFirstNameNoTooltip] requested a private audience in the throne room this morning. Curious what [recipient.GetSheHe] might have to say, I granted it. As [recipient.GetSheHe] stood before me, [recipient.GetHerHis] demeanor held the seriousness of one who had considered their words for some time.\n\n"
-### TODO NOT-IN-ST: lmf_interaction.0001.address.family [AGOT: \]
+
  lmf_interaction.0001.address.family:0 "\"[recipient.Custom2('LMF_RelationToMeShort', SCOPE.sC('actor'))|U], "
-### TODO NOT-IN-ST: lmf_interaction.0001.address [AGOT: \]
+
  lmf_interaction.0001.address:0 "\"My [actor.GetLadyLord], "
 ### TODO NOT-IN-ST: lmf_interaction.0001.disinheritor [AGOT: I cannot say for certain why you decided to strip me of my inheritance. Perhaps it's because you see me as]
  lmf_interaction.0001.disinheritor:0 "I cannot say for certain why you decided to strip me of my inheritance. Perhaps it's because you see me as "
@@ -4477,13 +4477,13 @@
  lmf_interaction.0001.best.proud:0 "a proud member of the [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] dynasty?\"\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.0001.main [AGOT: [recipient.Custom2('disinherit_worst_trait', SCOPE.sC('actor'))][recipient.Custom2('disinherit_best_trait', SCOPE.sC('actor'))]]
  lmf_interaction.0001.main:0 "[recipient.Custom2('disinherit_worst_trait', SCOPE.sC('actor'))][recipient.Custom2('disinherit_best_trait', SCOPE.sC('actor'))]"
-### TODO NOT-IN-ST: lmf_interaction.0001.ending.dynast [AGOT: \]
+
  lmf_interaction.0001.ending.dynast:0 "\"I know you were not the one who made this decision, and thus I now request"
-### TODO NOT-IN-ST: lmf_interaction.0001.ending.submissive [AGOT: \]
+
  lmf_interaction.0001.ending.submissive:0 "\"I kneel before you today to ask with all due respect and humility"
-### TODO NOT-IN-ST: lmf_interaction.0001.ending.dominant [AGOT: \]
+
  lmf_interaction.0001.ending.dominant:0 "\"I stand before you today to respectfully demand"
-### TODO NOT-IN-ST: lmf_interaction.0001.ending [AGOT: \]
+
  lmf_interaction.0001.ending:0 "\"I stand before you today to request"
 ### TODO NOT-IN-ST: lmf_interaction.0001.close.family [AGOT: , as your [actor.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))],]
  lmf_interaction.0001.close.family:0 ", as your [actor.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))],"
@@ -4559,8 +4559,8 @@
  lmf_interaction.1200.e:0 "[recipient.GetSheHe|U] must end both these affairs!"
 ### TODO NOT-IN-ST: lmf_interaction.1200.a.success.tt [AGOT: [recipient.GetFirstNameNoTooltip] agrees to end [recipient.GetHerHis] love affairs]
  lmf_interaction.1200.a.success.tt:0 "[recipient.GetFirstNameNoTooltip] agrees to end [recipient.GetHerHis] love affairs"
-### TODO NOT-IN-ST: lmf_interaction.1200.a.failure.tt [AGOT: [recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]...]
- lmf_interaction.1200.a.failure.tt:0 "[recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]..."
+
+ lmf_interaction.1200.a.failure.tt:0 "[recipient.GetFirstNameNoTooltip] reddediyor ama [recipient.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 ### TODO NOT-IN-ST: lmf_interaction.1201.t [AGOT: My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('recipient'))|U] Lover]
  lmf_interaction.1201.t:0 "My [ROOT.Char.Custom2('LMF_RelationToMePossessive', SCOPE.sC('recipient'))|U] Lover"
 ### TODO NOT-IN-ST: lmf_interaction.1201.desc.secret [AGOT: Much to my shame, my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))] has been conducting a secret affair with]
@@ -4581,14 +4581,14 @@
  lmf_interaction.1201.a:0 "[recipient.GetFirstNameNoTooltip] must end things at once."
 ### TODO NOT-IN-ST: lmf_interaction.1201.a.success.tt [AGOT: [recipient.GetFirstNameNoTooltip] agrees to end the relationship]
  lmf_interaction.1201.a.success.tt:0 "[recipient.GetFirstNameNoTooltip] agrees to end the relationship"
-### TODO NOT-IN-ST: lmf_interaction.1201.a.failure.tt [AGOT: [recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]...]
- lmf_interaction.1201.a.failure.tt:0 "[recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]..."
+
+ lmf_interaction.1201.a.failure.tt:0 "[recipient.GetFirstNameNoTooltip] reddediyor ama [recipient.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 ### TODO NOT-IN-ST: lmf_interaction.1201.b [AGOT: I will speak to [family_lover.GetTitledFirstNameNoTooltip], and demand [family_lover.GetSheHe] end it.]
  lmf_interaction.1201.b:0 "I will speak to [family_lover.GetTitledFirstNameNoTooltip], and demand [family_lover.GetSheHe] end it."
 ### TODO NOT-IN-ST: lmf_interaction.1201.b.success.tt [AGOT: [family_lover.GetTitledFirstNameNoTooltip] agrees to end the relationship]
  lmf_interaction.1201.b.success.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] agrees to end the relationship"
-### TODO NOT-IN-ST: lmf_interaction.1201.b.failure.tt [AGOT: [family_lover.GetTitledFirstNameNoTooltip] refuses, but there might be other ways to convince [family_lover.GetHerHim]...]
- lmf_interaction.1201.b.failure.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] refuses, but there might be other ways to convince [family_lover.GetHerHim]..."
+
+ lmf_interaction.1201.b.failure.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] reddediyor ama [family_lover.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 ### TODO NOT-IN-ST: lmf_interaction.1201.c [AGOT: The two of them will marry.]
  lmf_interaction.1201.c:0 "The two of them will marry."
 ### TODO NOT-IN-ST: lmf_interaction.1201.c.tt [AGOT: You will get to determine the conditions of their marriage]
@@ -4597,22 +4597,22 @@
  lmf_interaction.1201.d:0 "I will convince [family_lover.GetTitledFirstNameNoTooltip] to marry [recipient.GetHerHim]."
 ### TODO NOT-IN-ST: lmf_interaction.1201.d.success.tt [AGOT: [family_lover.GetTitledFirstNameNoTooltip] reluctantly agrees to the marriage]
  lmf_interaction.1201.d.success.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] reluctantly agrees to the marriage"
-### TODO NOT-IN-ST: lmf_interaction.1201.d.failure.tt [AGOT: [family_lover.GetTitledFirstNameNoTooltip] refuses, but there might be other ways to convince [family_lover.GetHerHim]...]
- lmf_interaction.1201.d.failure.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] refuses, but there might be other ways to convince [family_lover.GetHerHim]..."
+
+ lmf_interaction.1201.d.failure.tt:0 "[family_lover.GetTitledFirstNameNoTooltip] reddediyor ama [family_lover.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 ### TODO NOT-IN-ST: lmf_interaction.1201.e [AGOT: I will convince [recipient.GetFirstNameNoTooltip] to marry [family_lover.GetHerHim].]
  lmf_interaction.1201.e:0 "I will convince [recipient.GetFirstNameNoTooltip] to marry [family_lover.GetHerHim]."
 ### TODO NOT-IN-ST: lmf_interaction.1201.e.success.tt [AGOT: [recipient.GetFirstNameNoTooltip] reluctantly agrees to the marriage]
  lmf_interaction.1201.e.success.tt:0 "[recipient.GetFirstNameNoTooltip] reluctantly agrees to the marriage"
-### TODO NOT-IN-ST: lmf_interaction.1201.e.failure.tt [AGOT: [recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]...]
- lmf_interaction.1201.e.failure.tt:0 "[recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]..."
+
+ lmf_interaction.1201.e.failure.tt:0 "[recipient.GetFirstNameNoTooltip] reddediyor ama [recipient.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 ### TODO NOT-IN-ST: lmf_interaction.1201.f [AGOT: I will convince them both to make their relationship official.]
  lmf_interaction.1201.f:0 "I will convince them both to make their relationship official."
 ### TODO NOT-IN-ST: lmf_interaction.1201.f.tt [AGOT: You will first need to convince your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))]]
  lmf_interaction.1201.f.tt:0 "You will first need to convince your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))]"
 ### TODO NOT-IN-ST: lmf_interaction.1201.f.success.tt [AGOT: [recipient.GetFirstNameNoTooltip] reluctantly agrees to the marriage, but [family_lover.GetTitledFirstNameNoTooltip] must still be convinced]
  lmf_interaction.1201.f.success.tt:0 "[recipient.GetFirstNameNoTooltip] reluctantly agrees to the marriage, but [family_lover.GetTitledFirstNameNoTooltip] must still be convinced"
-### TODO NOT-IN-ST: lmf_interaction.1201.f.failure.tt [AGOT: [recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]...]
- lmf_interaction.1201.f.failure.tt:0 "[recipient.GetFirstNameNoTooltip] refuses, but there might be other ways to convince [recipient.GetHerHim]..."
+
+ lmf_interaction.1201.f.failure.tt:0 "[recipient.GetFirstNameNoTooltip] reddediyor ama [recipient.GetHerHim]'i ikna etmenin başka yolları olabilir..."
 
  lmf_interaction.1201.g:0 "Belki aşırı tepki veriyorum..."
 ### TODO NOT-IN-ST: lmfmod.demand.agree.hook.tt [AGOT: [check.GetTitledFirstNameNoTooltip] must agree to your demand because you have a hook on [check.GetHerHim]]
@@ -4633,8 +4633,8 @@
  lmf_interaction.1202.opening:0 "[recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U],"
 
  lmf_interaction.1202.start:0 "Talebini çok düşündüm ve karar verdim ki, "
-### TODO NOT-IN-ST: lmf_interaction.1202.adulterer [AGOT: the sheer irony that you, of all people, would lecture me on the subject of virtue,]
- lmf_interaction.1202.adulterer:0 "the sheer irony that you, of all people, would lecture me on the subject of virtue, "
+
+ lmf_interaction.1202.adulterer:0 "herkesten önce senin bana erdem konusunda ders vermenin koca bir ironi olması, "
 ### TODO NOT-IN-ST: lmf_interaction.1202.soulmate [AGOT: the fact that I truly believe [family_lover.GetHerHim] to be my soulmate,]
  lmf_interaction.1202.soulmate:0 "the fact that I truly believe [family_lover.GetHerHim] to be my soulmate, "
 
@@ -4651,8 +4651,8 @@
  lmf_interaction.1202.b:0 "Belki aşırı tepki veriyorum..."
 ### TODO NOT-IN-ST: lmf_interaction.1203.start [AGOT: I have given your demand a great deal of thought. In the end, however, I have decided not to end things with [family_lover.GetTitledFirstNameNoTooltip].\n\n]
  lmf_interaction.1203.start:0 "I have given your demand a great deal of thought. In the end, however, I have decided not to end things with [family_lover.GetTitledFirstNameNoTooltip].\n\n"
-### TODO NOT-IN-ST: lmf_interaction.1203.adulterer [AGOT: Honestly, the idea that you, of all people, would lecture me on the subject of virtue? It defies belief.\n\n]
- lmf_interaction.1203.adulterer:0 "Honestly, the idea that you, of all people, would lecture me on the subject of virtue? It defies belief.\n\n"
+
+ lmf_interaction.1203.adulterer:0 "Dürüst olmak gerekirse, herkesten önce senin bana erdem konusunda ders vermen? Bu inanılır gibi değil.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.1203.soulmate [AGOT: [family_lover.GetSheHe|U] is my soulmate and I love [family_lover.GetHerHim], and I could no sooner part ways with [family_lover.GetHerHim] than with my own heart.\n\n]
  lmf_interaction.1203.soulmate:0 "[family_lover.GetSheHe|U] is my soulmate and I love [family_lover.GetHerHim], and I could no sooner part ways with [family_lover.GetHerHim] than with my own heart.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.1203.open [AGOT: The matter of our affair is already out in the open, after all, so what further damage could it do to my reputation? In fact, I am relieved it is so.\n\n]
@@ -4661,14 +4661,14 @@
  lmf_interaction.1203.default:0 "The simply truth is that I love [family_lover.GetHerHim], and that is all that really matters.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.1203.end.rival [AGOT: Why you thought I would respond favorably to such interference from you boggles the mind.]
  lmf_interaction.1203.end.rival:0 "Why you thought I would respond favorably to such interference from you boggles the mind."
-### TODO NOT-IN-ST: lmf_interaction.1203.end.malicious [AGOT: If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then so be it. I truly do not care.]
- lmf_interaction.1203.end.malicious:0 "If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then so be it. I truly do not care."
+
+ lmf_interaction.1203.end.malicious:0 "Bu seni hayal kırıklığına uğratıyorsa, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], öyle olsun. Gerçekten umurumda değil."
 ### TODO NOT-IN-ST: lmf_interaction.1203.end.dominant [AGOT: If this disappoints you, then so be it. This is my decision and mine alone.]
  lmf_interaction.1203.end.dominant:0 "If this disappoints you, then so be it. This is my decision and mine alone."
 ### TODO NOT-IN-ST: lmf_interaction.1203.end.submissive [AGOT: I am truly, truly sorry if this disappoints you. You cannot know how I have agonized over this.]
  lmf_interaction.1203.end.submissive:0 "I am truly, truly sorry if this disappoints you. You cannot know how I have agonized over this."
-### TODO NOT-IN-ST: lmf_interaction.1203.end.default [AGOT: If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then I am sorry.]
- lmf_interaction.1203.end.default:0 "If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then I am sorry."
+
+ lmf_interaction.1203.end.default:0 "Bu seni hayal kırıklığına uğratıyorsa, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], üzgünüm."
 ### TODO NOT-IN-ST: lmf_interaction.1203.a [AGOT: Perhaps some presents will persuade you...?]
  lmf_interaction.1203.a:0 "Perhaps some presents will persuade you...?"
 ### TODO NOT-IN-ST: lmf_interaction.1203.a.lover.tt [AGOT: [family_lover.GetTitledFirstNameNoTooltip] will still need to be convinced to go along with the marriage...]
@@ -4709,8 +4709,8 @@
  lmf_interaction.1205.b:0 "Then I have no choice but to speak to my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))] directly."
 
  lmf_interaction.1206.start:0 "Talebini çok düşündüm ve karar verdim ki, "
-### TODO NOT-IN-ST: lmf_interaction.1206.adulterer [AGOT: the sheer irony that you, of all people, would lecture me on the subject of virtue,]
- lmf_interaction.1206.adulterer:0 "the sheer irony that you, of all people, would lecture me on the subject of virtue, "
+
+ lmf_interaction.1206.adulterer:0 "herkesten önce senin bana erdem konusunda ders vermenin koca bir ironi olması, "
 
  lmf_interaction.1206.angry:0 "böyle bir biçimde araya girmen beni ne kadar rahatsız ediyor, "
 ### TODO NOT-IN-ST: lmf_interaction.1206.default [AGOT: the sheer audacity that you would require me to end ALL my affairs,]
@@ -4719,20 +4719,20 @@
  lmf_interaction.1206.end:0 "I will do as you ask.\n\nIf you truly think it is in my best interest to part ways with my lovers, I'll trust that you have your reasons and end things at once."
 ### TODO NOT-IN-ST: lmf_interaction.1207.start [AGOT: I have given your demand a great deal of thought. In the end, however, I have decided not to discard my lovers simply because you think it best.\n\n]
  lmf_interaction.1207.start:0 "I have given your demand a great deal of thought. In the end, however, I have decided not to discard my lovers simply because you think it best.\n\n"
-### TODO NOT-IN-ST: lmf_interaction.1207.adulterer [AGOT: Honestly, the idea that you, of all people, would lecture me on the subject of virtue? It defies belief.\n\n]
- lmf_interaction.1207.adulterer:0 "Honestly, the idea that you, of all people, would lecture me on the subject of virtue? It defies belief.\n\n"
+
+ lmf_interaction.1207.adulterer:0 "Dürüst olmak gerekirse, herkesten önce senin bana erdem konusunda ders vermen? Bu inanılır gibi değil.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.1207.default [AGOT: Each of them holds a place in my heart, and in my bed, as is my right.\n\n]
  lmf_interaction.1207.default:0 "Each of them holds a place in my heart, and in my bed, as is my right.\n\n"
 ### TODO NOT-IN-ST: lmf_interaction.1207.end.rival [AGOT: Why you thought I would respond favorably to such interference boggles the mind.]
  lmf_interaction.1207.end.rival:0 "Why you thought I would respond favorably to such interference boggles the mind."
-### TODO NOT-IN-ST: lmf_interaction.1207.end.malicious [AGOT: If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then so be it. I truly do not care.]
- lmf_interaction.1207.end.malicious:0 "If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then so be it. I truly do not care."
+
+ lmf_interaction.1207.end.malicious:0 "Bu seni hayal kırıklığına uğratıyorsa, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], öyle olsun. Gerçekten umurumda değil."
 ### TODO NOT-IN-ST: lmf_interaction.1207.end.dominant [AGOT: If this disappoints you, then so be it. This is my life and my decision.]
  lmf_interaction.1207.end.dominant:0 "If this disappoints you, then so be it. This is my life and my decision."
 ### TODO NOT-IN-ST: lmf_interaction.1207.end.submissive [AGOT: I am truly, truly sorry if this disappoints you. I would rather anything else, but I must live my own life.]
  lmf_interaction.1207.end.submissive:0 "I am truly, truly sorry if this disappoints you. I would rather anything else, but I must live my own life."
-### TODO NOT-IN-ST: lmf_interaction.1207.end.default [AGOT: If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then I am sorry.]
- lmf_interaction.1207.end.default:0 "If this disappoints you, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], then I am sorry."
+
+ lmf_interaction.1207.end.default:0 "Bu seni hayal kırıklığına uğratıyorsa, [recipient.Custom2('LMF_RelationToMeShort', ROOT.Char )|U], üzgünüm."
 ### TODO NOT-IN-ST: lmf_interaction.1208.desc [AGOT: Very well.\n\n[family_lover.GetFirstNameNoTooltip] and I have talked things over, and if this is what you require of us... we are willing to marry and have our relationship blessed by [recipient.GetFaith.FertilityGodName].]
  lmf_interaction.1208.desc:0 "Very well.\n\n[family_lover.GetFirstNameNoTooltip] and I have talked things over, and if this is what you require of us... we are willing to marry and have our relationship blessed by [recipient.GetFaith.FertilityGodName]."
 ### TODO NOT-IN-ST: lmf_interaction.1208.a [AGOT: The marriage will favor my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('recipient'))].]
@@ -5283,8 +5283,8 @@
  lmf_interaction.1326.desc.start.actor.poor:0 "were outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary aim was for us to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.start.actor.tour [AGOT: toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. I proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for us to talk.]
  lmf_interaction.1326.desc.start.actor.tour:0 "toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. I proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for us to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1326.desc.start.actor.garden [AGOT: walked around the [actor.Custom('FortifiedBuilding')] gardens, a peaceful and beautiful setting for us to finally talk.]
- lmf_interaction.1326.desc.start.actor.garden:0 "walked around the [actor.Custom('FortifiedBuilding')] gardens, a peaceful and beautiful setting for us to finally talk. "
+
+ lmf_interaction.1326.desc.start.actor.garden:0 "[actor.Custom('FortifiedBuilding')] bahçelerinde dolaştık; sonunda konuşmamız için huzurlu ve güzel bir ortam. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.start.actor.hated [AGOT: And we did talk.\n\n[secondary_recipient.GetFirstNameNoTooltip] clearly found [secondary_actor.Custom('lmf_intro_activity_short')] incredibly boring, but even so]
  lmf_interaction.1326.desc.start.actor.hated:0 "And we did talk.\n\n[secondary_recipient.GetFirstNameNoTooltip] clearly found [secondary_actor.Custom('lmf_intro_activity_short')] incredibly boring, but even so "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.start.actor.loved [AGOT: And we did talk.\n\n[secondary_recipient.GetFirstNameNoTooltip] appeared to enjoy [secondary_recipient.GetHerselfHimself] immensely, and we]
@@ -5303,10 +5303,10 @@
  lmf_interaction.1326.desc.start:0 "The day that [secondary_actor.GetFirstNameNoTooltip] and [secondary_recipient.GetFirstNameNoTooltip] spent in each other's company turned out to be a successful one.\n\nThey "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.hunting [AGOT: engaged in a leisurely hunt not far from the [actor.Custom('FortifiedBuilding')]. The point, of course, was not the hunt but for the two to have a chance to talk.]
  lmf_interaction.1326.desc.hunting:0 "engaged in a leisurely hunt not far from the [actor.Custom('FortifiedBuilding')]. The point, of course, was not the hunt but for the two to have a chance to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1326.desc.hike [AGOT: roamed the lands immediately around [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], with [secondary_actor.GetFirstNameNoTooltip] pointing out various historical sights. The primary point, of course, was for the two to talk.]
- lmf_interaction.1326.desc.hike:0 "roamed the lands immediately around [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], with [secondary_actor.GetFirstNameNoTooltip] pointing out various historical sights. The primary point, of course, was for the two to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1326.desc.garrison [AGOT: went to the [actor.Custom('FortifiedBuilding')] garrison, [secondary_recipient.GetFirstNameNoTooltip] watching while [secondary_actor.GetFirstNameNoTooltip] sparred with the [actor.Custom('KnightCulturePluralNoTooltipLowercase')]. Whenever [secondary_actor.GetSheHe] took a break, they would talk.]
- lmf_interaction.1326.desc.garrison:0 "went to the [actor.Custom('FortifiedBuilding')] garrison, [secondary_recipient.GetFirstNameNoTooltip] watching while [secondary_actor.GetFirstNameNoTooltip] sparred with the [actor.Custom('KnightCulturePluralNoTooltipLowercase')]. Whenever [secondary_actor.GetSheHe] took a break, they would talk. "
+
+ lmf_interaction.1326.desc.hike:0 "[actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] çevresindeki topraklarda gezdiler; [secondary_actor.GetFirstNameNoTooltip] çeşitli tarihi yerleri gösteriyordu. Elbette asıl amaç ikisinin konuşmasıydı. "
+
+ lmf_interaction.1326.desc.garrison:0 "[actor.Custom('FortifiedBuilding')] garnizonuna gittiler; [secondary_actor.GetFirstNameNoTooltip] [actor.Custom('KnightCulturePluralNoTooltipLowercase')] ile idman yaparken [secondary_recipient.GetFirstNameNoTooltip] izliyordu. [secondary_actor.GetSheHe] mola verdiğinde konuşurlardı. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.seduction [AGOT: roamed the [actor.Custom('FortifiedBuilding')] grounds... a bit too closely, by all reports. It could even be said that [secondary_actor.GetFirstNamePossessiveNoTooltip] behavior was at times inappropriate, when the point was for the two to talk.]
  lmf_interaction.1326.desc.seduction:0 "roamed the [actor.Custom('FortifiedBuilding')] grounds... a bit too closely, by all reports. It could even be said that [secondary_actor.GetFirstNamePossessiveNoTooltip] behavior was at times inappropriate, when the point was for the two to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.poetry [AGOT: roamed the [actor.Custom('FortifiedBuilding')] gardens, [secondary_recipient.GetFirstNameNoTooltip] listening as [secondary_actor.GetFirstNameNoTooltip] recited [secondary_actor.GetCulture.GetNameNoTooltip] poems on love and valor... or so it's reported. Mostly, however, they talked.]
@@ -5317,8 +5317,8 @@
  lmf_interaction.1326.desc.church:0 "went to the [actor.GetFaith.HouseOfWorship|l], listening to sermons on piety, I'm told, when they weren't talking. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.tavern [AGOT: journeyed to a village near the [actor.Custom('FortifiedBuilding')], primarily in a tavern. [secondary_actor.GetFirstNameNoTooltip] was determined to make merry, I'm told, but even so they had many chances to talk.]
  lmf_interaction.1326.desc.tavern:0 "journeyed to a village near the [actor.Custom('FortifiedBuilding')], primarily in a tavern. [secondary_actor.GetFirstNameNoTooltip] was determined to make merry, I'm told, but even so they had many chances to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1326.desc.poor [AGOT: were outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary purpose was for them to talk.]
- lmf_interaction.1326.desc.poor:0 "were outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary purpose was for them to talk. "
+
+ lmf_interaction.1326.desc.poor:0 "[actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [actor.GetFaith.HouseOfWorship|l] dışındaydılar, yoksullara sadaka ve teselli dağıtıyorlardı. Değerli bir uğraş olsa da, elbette asıl amaç konuşmalarıydı. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.tour [AGOT: toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer... though the point, of course, was for the two of them to talk.]
  lmf_interaction.1326.desc.tour:0 "toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer... though the point, of course, was for the two of them to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1326.desc.garden [AGOT: walked around the [actor.Custom('FortifiedBuilding')] gardens, a peaceful and beautiful setting for them to finally talk.]
@@ -5395,8 +5395,8 @@
  lmf_interaction.1327.desc.poor.secrec:0 "were mostly outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary purpose was for us to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.tour.secrec [AGOT: toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. [secondary_recipient.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for us to talk.]
  lmf_interaction.1327.desc.tour.secrec:0 "toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. [secondary_recipient.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for us to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1327.desc.garden.secrec [AGOT: walked around the [actor.Custom('FortifiedBuilding')] gardens, a peaceful and beautiful setting for us to finally talk.]
- lmf_interaction.1327.desc.garden.secrec:0 "walked around the [actor.Custom('FortifiedBuilding')] gardens, a peaceful and beautiful setting for us to finally talk. "
+
+ lmf_interaction.1327.desc.garden.secrec:0 "[actor.Custom('FortifiedBuilding')] bahçelerinde dolaştık; sonunda konuşmamız için huzurlu ve güzel bir ortam. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.mid.secrec [AGOT: And we did talk. We spoke at length about the future and what we hoped to get out of it. Despite knowing that watchful eyes were everywhere, I think we both felt somehow at ease.\n\nAs the sun began to wane, it became clear to me: this is a [secondary_actor.Custom('WomanManGirlBoy')] I could marry, and I'm certain [secondary_actor.GetSheHe] felt the same.]
  lmf_interaction.1327.desc.mid.secrec:0 "And we did talk. We spoke at length about the future and what we hoped to get out of it. Despite knowing that watchful eyes were everywhere, I think we both felt somehow at ease.\n\nAs the sun began to wane, it became clear to me: this is a [secondary_actor.Custom('WomanManGirlBoy')] I could marry, and I'm certain [secondary_actor.GetSheHe] felt the same."
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.secrec.lover [AGOT: In fact, there was a sparkle in [secondary_actor.GetHerHis] eyes which said maybe [secondary_actor.GetSheHe] was interested in me as more than a [secondary_recipient.GetWifeHusband]. That we could be lovers, as well.]
@@ -5409,10 +5409,10 @@
  lmf_interaction.1327.desc.start:0 "I've heard back from [secondary_recipient.GetFirstNameNoTooltip], and [secondary_recipient.GetSheHe] writes that [secondary_recipient.GetHerHis] visit to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] was a success.\n\nApparently, the two of them "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.hunting [AGOT: engaged in a leisurely hunt not far from the [actor.Custom('FortifiedBuilding')]. The point, of course, was not the hunt but for the two to talk.]
  lmf_interaction.1327.desc.hunting:0 "engaged in a leisurely hunt not far from the [actor.Custom('FortifiedBuilding')]. The point, of course, was not the hunt but for the two to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1327.desc.hike [AGOT: roamed the lands immediately around [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], with [secondary_actor.GetFirstNameNoTooltip] pointing out various historical sights. The primary point, of course, was for the two to talk.]
- lmf_interaction.1327.desc.hike:0 "roamed the lands immediately around [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], with [secondary_actor.GetFirstNameNoTooltip] pointing out various historical sights. The primary point, of course, was for the two to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1327.desc.garrison [AGOT: went to the [actor.Custom('FortifiedBuilding')] garrison, [secondary_recipient.GetFirstNameNoTooltip] watching while [secondary_actor.GetFirstNameNoTooltip] sparred with the [actor.Custom('KnightCulturePluralNoTooltipLowercase')]. Whenever [secondary_actor.GetSheHe] took a break, they would talk.]
- lmf_interaction.1327.desc.garrison:0 "went to the [actor.Custom('FortifiedBuilding')] garrison, [secondary_recipient.GetFirstNameNoTooltip] watching while [secondary_actor.GetFirstNameNoTooltip] sparred with the [actor.Custom('KnightCulturePluralNoTooltipLowercase')]. Whenever [secondary_actor.GetSheHe] took a break, they would talk. "
+
+ lmf_interaction.1327.desc.hike:0 "[actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] çevresindeki topraklarda gezdiler; [secondary_actor.GetFirstNameNoTooltip] çeşitli tarihi yerleri gösteriyordu. Elbette asıl amaç ikisinin konuşmasıydı. "
+
+ lmf_interaction.1327.desc.garrison:0 "[actor.Custom('FortifiedBuilding')] garnizonuna gittiler; [secondary_actor.GetFirstNameNoTooltip] [actor.Custom('KnightCulturePluralNoTooltipLowercase')] ile idman yaparken [secondary_recipient.GetFirstNameNoTooltip] izliyordu. [secondary_actor.GetSheHe] mola verdiğinde konuşurlardı. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.seduction [AGOT: roamed the [actor.Custom('FortifiedBuilding')] grounds... a bit too closely, from the sounds of it. Reading between the lines, I'd judge that  [secondary_actor.GetFirstNamePossessiveNoTooltip] behavior was at times inappropriate. Even so, they had a chance to talk.]
  lmf_interaction.1327.desc.seduction:0 "roamed the [actor.Custom('FortifiedBuilding')] grounds... a bit too closely, from the sounds of it. Reading between the lines, I'd judge that  [secondary_actor.GetFirstNamePossessiveNoTooltip] behavior was at times inappropriate. Even so, they had a chance to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.poetry [AGOT: roamed the [actor.Custom('FortifiedBuilding')] gardens, [secondary_recipient.GetFirstNameNoTooltip] listening as [secondary_actor.GetFirstNameNoTooltip] recited [secondary_actor.GetCulture.GetNameNoTooltip] poems on love and valor. Mostly, however, they talked.]
@@ -5423,8 +5423,8 @@
  lmf_interaction.1327.desc.church:0 "went to the [actor.GetFaith.HouseOfWorship|l], listening to sermons on piety when they weren't talking. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.tavern [AGOT: journeyed to a village near the [actor.Custom('FortifiedBuilding')], primarily in a tavern. [secondary_actor.GetFirstNameNoTooltip] was determined to make merry, [secondary_recipient.GetSheHe] writes, but even so they had many chances to talk.]
  lmf_interaction.1327.desc.tavern:0 "journeyed to a village near the [actor.Custom('FortifiedBuilding')], primarily in a tavern. [secondary_actor.GetFirstNameNoTooltip] was determined to make merry, [secondary_recipient.GetSheHe] writes, but even so they had many chances to talk. "
-### TODO NOT-IN-ST: lmf_interaction.1327.desc.poor [AGOT: were outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary purpose was for them to talk.]
- lmf_interaction.1327.desc.poor:0 "were outside the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], providing alms and comfort to the poor. While a worthy endeavor, of course the primary purpose was for them to talk. "
+
+ lmf_interaction.1327.desc.poor:0 "[actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [actor.GetFaith.HouseOfWorship|l] dışındaydılar, yoksullara sadaka ve teselli dağıtıyorlardı. Değerli bir uğraş olsa da, elbette asıl amaç konuşmalarıydı. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.tour [AGOT: toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. [secondary_actor.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for the two of them to talk.]
  lmf_interaction.1327.desc.tour:0 "toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands. [secondary_actor.GetFirstNameNoTooltip] proudly showed off what [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] had to offer, though the point of course was for the two of them to talk. "
 ### TODO NOT-IN-ST: lmf_interaction.1327.desc.garden [AGOT: walked around the [actor.Custom('FortifiedBuilding')] gardens for much of the day, a peaceful enough setting where the two had the chance to talk.]
@@ -5537,12 +5537,12 @@
  lmf_interaction.1328.desc.secact.secrec.tour:0 "I brought [secondary_recipient.GetHerHim] everywhere around the [actor.Custom('FortifiedBuilding')] and the surrounding lands, explaining the history of everything in detail. [secondary_recipient.GetSheHe|U] made for pleasant if awkward company."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secact.secrec.garden [AGOT: We engaged in conversation while we roamed that, at least at first, felt pleasant enough. [secondary_recipient.GetSheHe] had a variety of interests [secondary_recipient.GetSheHe] was more than willing to discuss, even if I found them rather banal.]
  lmf_interaction.1328.desc.secact.secrec.garden:0 "We engaged in conversation while we roamed that, at least at first, felt pleasant enough. [secondary_recipient.GetSheHe] had a variety of interests [secondary_recipient.GetSheHe] was more than willing to discuss, even if I found them rather banal."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secact.secrec.mid [AGOT: \n\nSlowly, however, I found myself growing more and more annoyed. [secondary_recipient.GetHerHis|U] manner grated, [secondary_recipient.GetHerHis] made me roll my eyes, and the tension grew. If [secondary_recipient.GetSheHe] noticed, [secondary_recipient.GetSheHe] did not say. Indeed, [secondary_recipient.GetSheHe] seemed completely enthralled by me... but I? I did not feel the same.]
- lmf_interaction.1328.desc.secact.secrec.mid:0 "\n\nSlowly, however, I found myself growing more and more annoyed. [secondary_recipient.GetHerHis|U] manner grated, [secondary_recipient.GetHerHis] made me roll my eyes, and the tension grew. If [secondary_recipient.GetSheHe] noticed, [secondary_recipient.GetSheHe] did not say. Indeed, [secondary_recipient.GetSheHe] seemed completely enthralled by me... but I? I did not feel the same."
+
+ lmf_interaction.1328.desc.secact.secrec.mid:0 "\n\nYavaş yavaş, ancak, giderek daha çok rahatsız olduğumu fark ettim. [secondary_recipient.GetHerHis|U] tavırları sinirime dokundu, [secondary_recipient.GetHerHis] gözlerimi devirtti ve gerginlik büyüdü. [secondary_recipient.GetSheHe] fark ettiyse bile söylemedi. Gerçekten de [secondary_recipient.GetSheHe] benden tamamen büyülenmiş görünüyordu... ama ya ben? Ben aynı hissetmiyordum."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.rival.actor [AGOT: At one point, I tripped and [secondary_recipient.GetFirstNameNoTooltip] laughed -- laughed! I swear, I could have wrung [secondary_recipient.GetHerHis] neck right there and then.]
  lmf_interaction.1328.desc.rival.actor:0 " At one point, I tripped and [secondary_recipient.GetFirstNameNoTooltip] laughed -- laughed! I swear, I could have wrung [secondary_recipient.GetHerHis] neck right there and then."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.end.actor [AGOT: \n\nBy the time the sun set and we returned to the [actor.Custom('FortifiedBuilding')], it was clear this was no match.]
- lmf_interaction.1328.desc.end.actor:0 "\n\nBy the time the sun set and we returned to the [actor.Custom('FortifiedBuilding')], it was clear this was no match."
+
+ lmf_interaction.1328.desc.end.actor:0 "\n\nGüneş battığında ve [actor.Custom('FortifiedBuilding')]'e döndüğümüzde, bunun bir eşleşme olmadığı açıktı."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.start [AGOT: The day that [secondary_actor.GetFirstNameNoTooltip] and [secondary_recipient.GetFirstNameNoTooltip] spent in each other's company turned out to be a disaster.\n\nAccording to those who kept watch,]
  lmf_interaction.1328.desc.start:0 "The day that [secondary_actor.GetFirstNameNoTooltip] and [secondary_recipient.GetFirstNameNoTooltip] spent in each other's company turned out to be a disaster.\n\nAccording to those who kept watch, "
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.both.start [AGOT: neither seemed to care for the other right from the start.]
@@ -5577,20 +5577,20 @@
  lmf_interaction.1328.desc.secrec.hunting:0 "They rode out from [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetFirstNameNoTooltip] reportedly did [secondary_actor.GetHerHis] best to dazzle [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] conversational skills. Indeed, [secondary_actor.GetSheHe] seemed so besotted, little hunting actually occurred."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.hike [AGOT: They hiked along the trails near [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [secondary_actor.GetFirstNameNoTooltip] setting a gentle pace and reportedly being very considerate. [secondary_actor.GetSheHe] seemed enamored with [secondary_recipient.GetFirstNameNoTooltip] from the outset, trying hard to impress [secondary_recipient.GetHerHim] at every turn.]
  lmf_interaction.1328.desc.secrec.hike:0 "They hiked along the trails near [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [secondary_actor.GetFirstNameNoTooltip] setting a gentle pace and reportedly being very considerate. [secondary_actor.GetSheHe] seemed enamored with [secondary_recipient.GetFirstNameNoTooltip] from the outset, trying hard to impress [secondary_recipient.GetHerHim] at every turn."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.garrison [AGOT: [secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] down to the [actor.Custom('FortifiedBuilding')] garrison, where [secondary_actor.GetSheHe] fought bouts with [secondary_actor.GetHerHis] fellow [actor.Custom('KnightCulturePluralNoTooltipLowercase')], evidently trying extra hard to impress [secondary_recipient.GetHerHim]. [secondary_recipient.GetSheHe|U] appeared besotted, in fact.]
- lmf_interaction.1328.desc.secrec.garrison:0 "[secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] down to the [actor.Custom('FortifiedBuilding')] garrison, where [secondary_actor.GetSheHe] fought bouts with [secondary_actor.GetHerHis] fellow [actor.Custom('KnightCulturePluralNoTooltipLowercase')], evidently trying extra hard to impress [secondary_recipient.GetHerHim]. [secondary_recipient.GetSheHe|U] appeared besotted, in fact."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.seduction [AGOT: They roamed the [actor.Custom('FortifiedBuilding')] grounds, where [secondary_actor.GetFirstNameNoTooltip] tried to dazzle [secondary_recipient.GetFirstNameNoTooltip] with conversation. [secondary_actor.GetSheHe|U] evidently took [secondary_recipient.GetHerHis] silence as encouragement, for [secondary_recipient.GetSheHe] began to act... inappropriate. Standing too close and making suggestive comments, clearly convinced things were going swimmingly.]
- lmf_interaction.1328.desc.secrec.seduction:0 "They roamed the [actor.Custom('FortifiedBuilding')] grounds, where [secondary_actor.GetFirstNameNoTooltip] tried to dazzle [secondary_recipient.GetFirstNameNoTooltip] with conversation. [secondary_actor.GetSheHe|U] evidently took [secondary_recipient.GetHerHis] silence as encouragement, for [secondary_recipient.GetSheHe] began to act... inappropriate. Standing too close and making suggestive comments, clearly convinced things were going swimmingly."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.poetry [AGOT: They toured the [actor.Custom('FortifiedBuilding')] gardens while [secondary_actor.GetFirstNameNoTooltip] regaled [secondary_recipient.GetHerHim] with [secondary_actor.GetCulture.GetNameNoTooltip] poetry. [secondary_actor.GetSheHe|U] took [secondary_recipient.GetHerHis] relative silence as encouragement and kept trying harder with [secondary_actor.GetHerHis] recitations, clearly enamored.]
- lmf_interaction.1328.desc.secrec.poetry:0 "They toured the [actor.Custom('FortifiedBuilding')] gardens while [secondary_actor.GetFirstNameNoTooltip] regaled [secondary_recipient.GetHerHim] with [secondary_actor.GetCulture.GetNameNoTooltip] poetry. [secondary_actor.GetSheHe|U] took [secondary_recipient.GetHerHis] relative silence as encouragement and kept trying harder with [secondary_actor.GetHerHis] recitations, clearly enamored."
+
+ lmf_interaction.1328.desc.secrec.garrison:0 "[secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i [actor.Custom('FortifiedBuilding')] garnizonuna götürdü; orada [secondary_actor.GetSheHe], [secondary_actor.GetHerHis] [actor.Custom('KnightCulturePluralNoTooltipLowercase')] yoldaşlarıyla müsabakalar yaptı, görünüşe göre [secondary_recipient.GetHerHim]'i etkilemek için ekstra çabalıyordu. [secondary_recipient.GetSheHe|U] aslında âşık görünüyordu."
+
+ lmf_interaction.1328.desc.secrec.seduction:0 "[actor.Custom('FortifiedBuilding')] arazisinde gezdiler; [secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i sohbetiyle etkilemeye çalıştı. [secondary_actor.GetSheHe|U] görünüşe göre [secondary_recipient.GetHerHis] sessizliğini cesaret saydı, çünkü [secondary_recipient.GetSheHe]... uygunsuz davranmaya başladı. Fazla yakın durup imalı yorumlar yapıyor, her şeyin harika gittiğine kesin inanıyordu."
+
+ lmf_interaction.1328.desc.secrec.poetry:0 "[actor.Custom('FortifiedBuilding')] bahçelerini gezerken [secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetHerHim]'i [secondary_actor.GetCulture.GetNameNoTooltip] şiirleriyle eğlendirdi. [secondary_actor.GetSheHe|U], [secondary_recipient.GetHerHis] göreli sessizliğini cesaret sayıp okumalarıyla daha da çok denedi; açıkça âşık olmuştu."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.library [AGOT: They toured the [actor.Custom('FortifiedBuilding')] library, and [secondary_actor.GetFirstNameNoTooltip] showed [secondary_recipient.GetFirstNameNoTooltip] [secondary_actor.GetHerHis] very favorites among the many tomes. By all reports, [secondary_actor.GetSheHe] talked endlessly and took [secondary_recipient.GetHerHis] relative quiet as encouragement. [secondary_actor.GetSheHe|U] was clearly enamored.]
  lmf_interaction.1328.desc.secrec.library:0 "They toured the [actor.Custom('FortifiedBuilding')] library, and [secondary_actor.GetFirstNameNoTooltip] showed [secondary_recipient.GetFirstNameNoTooltip] [secondary_actor.GetHerHis] very favorites among the many tomes. By all reports, [secondary_actor.GetSheHe] talked endlessly and took [secondary_recipient.GetHerHis] relative quiet as encouragement. [secondary_actor.GetSheHe|U] was clearly enamored."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.church [AGOT: [secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] to the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where they listened to the sermons on piety. [secondary_actor.GetSheHe|U] appeared encouraged by [secondary_recipient.GetHerHis] quiet and tried to dazzle [secondary_recipient.GetHerHim] with [secondary_actor.GetHerHis] faith, clearly interested in [secondary_recipient.GetHerHis] approval.]
  lmf_interaction.1328.desc.secrec.church:0 "[secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] to the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where they listened to the sermons on piety. [secondary_actor.GetSheHe|U] appeared encouraged by [secondary_recipient.GetHerHis] quiet and tried to dazzle [secondary_recipient.GetHerHim] with [secondary_actor.GetHerHis] faith, clearly interested in [secondary_recipient.GetHerHis] approval."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.tavern [AGOT: [secondary_actor.GetFirstNameNoTooltip] made the odd choice of bringing [secondary_recipient.GetFirstNameNoTooltip] to a tavern in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetSheHe] tried to make merry with [secondary_recipient.GetHerHim]. Reportedly, [secondary_actor.GetSheHe] drank a great deal, and thought they were both having a wonderful time.]
- lmf_interaction.1328.desc.secrec.tavern:0 "[secondary_actor.GetFirstNameNoTooltip] made the odd choice of bringing [secondary_recipient.GetFirstNameNoTooltip] to a tavern in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetSheHe] tried to make merry with [secondary_recipient.GetHerHim]. Reportedly, [secondary_actor.GetSheHe] drank a great deal, and thought they were both having a wonderful time."
-### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.poor [AGOT: They spent the afternoon spreading alms to the poor in front of the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [secondary_actor.GetFirstNameNoTooltip] was clearly enamored, trying hard to impress [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] generosity.]
- lmf_interaction.1328.desc.secrec.poor:0 "They spent the afternoon spreading alms to the poor in front of the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [secondary_actor.GetFirstNameNoTooltip] was clearly enamored, trying hard to impress [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] generosity."
+
+ lmf_interaction.1328.desc.secrec.tavern:0 "[secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki bir meyhaneye götürmek gibi tuhaf bir seçim yaptı; orada [secondary_actor.GetSheHe], [secondary_recipient.GetHerHim] ile eğlenmeye çalıştı. Rivayete göre [secondary_actor.GetSheHe] çok içti ve ikisinin de harika vakit geçirdiğini sandı."
+
+ lmf_interaction.1328.desc.secrec.poor:0 "Öğleden sonrayı [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [actor.GetFaith.HouseOfWorship|l] önünde yoksullara sadaka dağıtarak geçirdiler. [secondary_actor.GetFirstNameNoTooltip] açıkça âşık olmuştu; [secondary_recipient.GetFirstNameNoTooltip]'i cömertliğiyle etkilemeye çok çalışıyordu."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.tour [AGOT: They toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] explaining the history of everything to [secondary_recipient.GetHerHim] with great interest and detail. Too much, perhaps, such was [secondary_actor.GetHerHis] eagerness.]
  lmf_interaction.1328.desc.secrec.tour:0 "They toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] explaining the history of everything to [secondary_recipient.GetHerHim] with great interest and detail. Too much, perhaps, such was [secondary_actor.GetHerHis] eagerness."
 ### TODO NOT-IN-ST: lmf_interaction.1328.desc.secrec.garden [AGOT: They roamed the [actor.Custom('FortifiedBuilding')] gardens, engaging in conversation that, by all reports, was quite one-sided. [secondary_actor.GetFirstNameNoTooltip] was eager to impress [secondary_recipient.GetFirstNameNoTooltip], and tried hard to dazzle [secondary_recipient.GetHerHim]... and clearly thought [secondary_actor.GetSheHe] was succeeding.]
@@ -5713,12 +5713,12 @@
  lmf_interaction.1329.desc.secrec.secrec.tour:0 "We toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] explaining the history of everything with great interest and detail. It was pleasant, even if I couldn't get a word in edgewise."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secrec.secrec.garden [AGOT: We roamed the [actor.Custom('FortifiedBuilding')] gardens, engaging in conversation that, at least at first, felt lively. [secondary_actor.GetFirstNameNoTooltip] had so many interests and there appeared to be no end to the number of opinions [secondary_actor.GetSheHe] could express on them.]
  lmf_interaction.1329.desc.secrec.secrec.garden:0 "We roamed the [actor.Custom('FortifiedBuilding')] gardens, engaging in conversation that, at least at first, felt lively. [secondary_actor.GetFirstNameNoTooltip] had so many interests and there appeared to be no end to the number of opinions [secondary_actor.GetSheHe] could express on them."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secrec.secrec.mid [AGOT: \n\nSlowly, however, I found myself growing more and more annoyed. [secondary_recipient.GetHerHis|U] manner grated, [secondary_recipient.GetHerHis] made me roll my eyes, and the tension grew. If [secondary_recipient.GetSheHe] noticed, [secondary_recipient.GetSheHe] did not say. Indeed, [secondary_recipient.GetSheHe] seemed completely enthralled by me... but I? I did not feel the same.]
- lmf_interaction.1329.desc.secrec.secrec.mid:0 "\n\nSlowly, however, I found myself growing more and more annoyed. [secondary_recipient.GetHerHis|U] manner grated, [secondary_recipient.GetHerHis] made me roll my eyes, and the tension grew. If [secondary_recipient.GetSheHe] noticed, [secondary_recipient.GetSheHe] did not say. Indeed, [secondary_recipient.GetSheHe] seemed completely enthralled by me... but I? I did not feel the same."
+
+ lmf_interaction.1329.desc.secrec.secrec.mid:0 "\n\nYavaş yavaş, ancak, giderek daha çok rahatsız olduğumu fark ettim. [secondary_recipient.GetHerHis|U] tavırları sinirime dokundu, [secondary_recipient.GetHerHis] gözlerimi devirtti ve gerginlik büyüdü. [secondary_recipient.GetSheHe] fark ettiyse bile söylemedi. Gerçekten de [secondary_recipient.GetSheHe] benden tamamen büyülenmiş görünüyordu... ama ya ben? Ben aynı hissetmiyordum."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.rival.secrec [AGOT: At one point, I tripped and [secondary_actor.GetSheHe] laughed at me -- laughed! I swear, I could have wrung [secondary_actor.GetHerHis] neck right there and then.]
  lmf_interaction.1329.desc.rival.secrec:0 " At one point, I tripped and [secondary_actor.GetSheHe] laughed at me -- laughed! I swear, I could have wrung [secondary_actor.GetHerHis] neck right there and then."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.end.secrec [AGOT: \n\nBy the time the sun set and we returned to the [actor.Custom('FortifiedBuilding')], it was clear this was no match.]
- lmf_interaction.1329.desc.end.secrec:0 "\n\nBy the time the sun set and we returned to the [actor.Custom('FortifiedBuilding')], it was clear this was no match."
+
+ lmf_interaction.1329.desc.end.secrec:0 "\n\nGüneş battığında ve [actor.Custom('FortifiedBuilding')]'e döndüğümüzde, bunun bir eşleşme olmadığı açıktı."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.end.secrec.nomarry [AGOT: [actor.GetTitledFirstNameNoTooltip] evidently agreed, and immediately called off the [secondary_actor.Custom2('BetrothalMarriage', SCOPE.sC('secondary_recipient'))|l] arrangements.]
  lmf_interaction.1329.desc.end.secrec.nomarry:0 " [actor.GetTitledFirstNameNoTooltip] evidently agreed, and immediately called off the [secondary_actor.Custom2('BetrothalMarriage', SCOPE.sC('secondary_recipient'))|l] arrangements."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.end.secrec.marry [AGOT: [actor.GetTitledFirstNameNoTooltip], however, disagreed and wants to proceed with the [secondary_actor.Custom2('BetrothalMarriage', SCOPE.sC('secondary_recipient'))|l] arrangements anyhow. The question is, then: do I?]
@@ -5761,20 +5761,20 @@
  lmf_interaction.1329.desc.secact.hunting:0 "They rode out from [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetFirstNameNoTooltip] did [secondary_actor.GetHerHis] best to dazzle [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] conversational skills. Indeed, [secondary_actor.GetSheHe] seemed so besotted, little hunting actually occurred."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.hike [AGOT: They hiked along the trails near [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [secondary_actor.GetFirstNameNoTooltip] setting a gentle pace and being very considerate. [secondary_actor.GetSheHe] seemed enamored with [secondary_recipient.GetFirstNameNoTooltip] from the outset, trying hard to impress [secondary_recipient.GetHerHim] at every turn.]
  lmf_interaction.1329.desc.secact.hike:0 "They hiked along the trails near [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], [secondary_actor.GetFirstNameNoTooltip] setting a gentle pace and being very considerate. [secondary_actor.GetSheHe] seemed enamored with [secondary_recipient.GetFirstNameNoTooltip] from the outset, trying hard to impress [secondary_recipient.GetHerHim] at every turn."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.garrison [AGOT: [secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] down to the [actor.Custom('FortifiedBuilding')] garrison, where [secondary_actor.GetSheHe] fought bouts with [secondary_actor.GetHerHis] fellow [actor.Custom('KnightCulturePluralNoTooltipLowercase')], evidently trying extra hard to impress [secondary_recipient.GetHerHim]. [secondary_recipient.GetSheHe|U] appeared besotted, in fact.]
- lmf_interaction.1329.desc.secact.garrison:0 "[secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] down to the [actor.Custom('FortifiedBuilding')] garrison, where [secondary_actor.GetSheHe] fought bouts with [secondary_actor.GetHerHis] fellow [actor.Custom('KnightCulturePluralNoTooltipLowercase')], evidently trying extra hard to impress [secondary_recipient.GetHerHim]. [secondary_recipient.GetSheHe|U] appeared besotted, in fact."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.seduction [AGOT: They roamed the [actor.Custom('FortifiedBuilding')] grounds, where [secondary_actor.GetFirstNameNoTooltip] tried to dazzle [secondary_recipient.GetFirstNameNoTooltip] with conversation. [secondary_actor.GetSheHe|U] evidently took [secondary_recipient.GetHerHis] silence as encouragement, for [secondary_recipient.GetSheHe] began to act... inappropriate. Standing too close and making suggestive comments, clearly convinced things were going swimmingly.]
- lmf_interaction.1329.desc.secact.seduction:0 "They roamed the [actor.Custom('FortifiedBuilding')] grounds, where [secondary_actor.GetFirstNameNoTooltip] tried to dazzle [secondary_recipient.GetFirstNameNoTooltip] with conversation. [secondary_actor.GetSheHe|U] evidently took [secondary_recipient.GetHerHis] silence as encouragement, for [secondary_recipient.GetSheHe] began to act... inappropriate. Standing too close and making suggestive comments, clearly convinced things were going swimmingly."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.poetry [AGOT: They toured the [actor.Custom('FortifiedBuilding')] gardens while [secondary_actor.GetFirstNameNoTooltip] regaled [secondary_recipient.GetHerHim] with [secondary_actor.GetCulture.GetNameNoTooltip] poetry. [secondary_actor.GetSheHe|U] took [secondary_recipient.GetHerHis] relative silence as encouragement and kept trying harder with [secondary_actor.GetHerHis] recitations, clearly enamored.]
- lmf_interaction.1329.desc.secact.poetry:0 "They toured the [actor.Custom('FortifiedBuilding')] gardens while [secondary_actor.GetFirstNameNoTooltip] regaled [secondary_recipient.GetHerHim] with [secondary_actor.GetCulture.GetNameNoTooltip] poetry. [secondary_actor.GetSheHe|U] took [secondary_recipient.GetHerHis] relative silence as encouragement and kept trying harder with [secondary_actor.GetHerHis] recitations, clearly enamored."
+
+ lmf_interaction.1329.desc.secact.garrison:0 "[secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i [actor.Custom('FortifiedBuilding')] garnizonuna götürdü; orada [secondary_actor.GetSheHe], [secondary_actor.GetHerHis] [actor.Custom('KnightCulturePluralNoTooltipLowercase')] yoldaşlarıyla müsabakalar yaptı, görünüşe göre [secondary_recipient.GetHerHim]'i etkilemek için ekstra çabalıyordu. [secondary_recipient.GetSheHe|U] aslında âşık görünüyordu."
+
+ lmf_interaction.1329.desc.secact.seduction:0 "[actor.Custom('FortifiedBuilding')] arazisinde gezdiler; [secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i sohbetiyle etkilemeye çalıştı. [secondary_actor.GetSheHe|U] görünüşe göre [secondary_recipient.GetHerHis] sessizliğini cesaret saydı, çünkü [secondary_recipient.GetSheHe]... uygunsuz davranmaya başladı. Fazla yakın durup imalı yorumlar yapıyor, her şeyin harika gittiğine kesin inanıyordu."
+
+ lmf_interaction.1329.desc.secact.poetry:0 "[actor.Custom('FortifiedBuilding')] bahçelerini gezerken [secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetHerHim]'i [secondary_actor.GetCulture.GetNameNoTooltip] şiirleriyle eğlendirdi. [secondary_actor.GetSheHe|U], [secondary_recipient.GetHerHis] göreli sessizliğini cesaret sayıp okumalarıyla daha da çok denedi; açıkça âşık olmuştu."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.library [AGOT: They toured the [actor.Custom('FortifiedBuilding')] library, and [secondary_actor.GetFirstNameNoTooltip] showed [secondary_recipient.GetFirstNameNoTooltip] [secondary_actor.GetHerHis] very favorites among the many tomes. [secondary_actor.GetSheHe|U] talked endlessly and took [secondary_recipient.GetHerHis] relative quiet as encouragement, as [secondary_actor.GetSheHe] was clearly enamored.]
  lmf_interaction.1329.desc.secact.library:0 "They toured the [actor.Custom('FortifiedBuilding')] library, and [secondary_actor.GetFirstNameNoTooltip] showed [secondary_recipient.GetFirstNameNoTooltip] [secondary_actor.GetHerHis] very favorites among the many tomes. [secondary_actor.GetSheHe|U] talked endlessly and took [secondary_recipient.GetHerHis] relative quiet as encouragement, as [secondary_actor.GetSheHe] was clearly enamored."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.church [AGOT: [secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] to the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where they listened to the sermons on piety. [secondary_actor.GetSheHe|U] tried to dazzle [secondary_recipient.GetHerHim] with [secondary_actor.GetHerHis] faith, clearly interested in [secondary_recipient.GetHerHis] approval.]
  lmf_interaction.1329.desc.secact.church:0 "[secondary_actor.GetFirstNameNoTooltip] brought [secondary_recipient.GetFirstNameNoTooltip] to the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where they listened to the sermons on piety. [secondary_actor.GetSheHe|U] tried to dazzle [secondary_recipient.GetHerHim] with [secondary_actor.GetHerHis] faith, clearly interested in [secondary_recipient.GetHerHis] approval."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.tavern [AGOT: [secondary_actor.GetFirstNameNoTooltip] made the odd choice of bringing [secondary_recipient.GetFirstNameNoTooltip] to a tavern in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetSheHe] tried to make merry with [secondary_recipient.GetHerHim]. Reportedly, [secondary_actor.GetSheHe] drank a great deal, and thought they were both having a wonderful time.]
- lmf_interaction.1329.desc.secact.tavern:0 "[secondary_actor.GetFirstNameNoTooltip] made the odd choice of bringing [secondary_recipient.GetFirstNameNoTooltip] to a tavern in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], where [secondary_actor.GetSheHe] tried to make merry with [secondary_recipient.GetHerHim]. Reportedly, [secondary_actor.GetSheHe] drank a great deal, and thought they were both having a wonderful time."
-### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.poor [AGOT: They spent the afternoon spreading alms to the poor in front of the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [secondary_actor.GetFirstNameNoTooltip] was clearly enamored, trying hard to impress [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] generosity.]
- lmf_interaction.1329.desc.secact.poor:0 "They spent the afternoon spreading alms to the poor in front of the [actor.GetFaith.HouseOfWorship|l] in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. [secondary_actor.GetFirstNameNoTooltip] was clearly enamored, trying hard to impress [secondary_recipient.GetFirstNameNoTooltip] with [secondary_actor.GetHerHis] generosity."
+
+ lmf_interaction.1329.desc.secact.tavern:0 "[secondary_actor.GetFirstNameNoTooltip], [secondary_recipient.GetFirstNameNoTooltip]'i [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki bir meyhaneye götürmek gibi tuhaf bir seçim yaptı; orada [secondary_actor.GetSheHe], [secondary_recipient.GetHerHim] ile eğlenmeye çalıştı. Rivayete göre [secondary_actor.GetSheHe] çok içti ve ikisinin de harika vakit geçirdiğini sandı."
+
+ lmf_interaction.1329.desc.secact.poor:0 "Öğleden sonrayı [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [actor.GetFaith.HouseOfWorship|l] önünde yoksullara sadaka dağıtarak geçirdiler. [secondary_actor.GetFirstNameNoTooltip] açıkça âşık olmuştu; [secondary_recipient.GetFirstNameNoTooltip]'i cömertliğiyle etkilemeye çok çalışıyordu."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.tour [AGOT: They toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] explaining the history of everything to [secondary_recipient.GetFirstNameNoTooltip] with great interest and detail. Too much, perhaps, such was [secondary_actor.GetHerHis] eagerness.]
  lmf_interaction.1329.desc.secact.tour:0 "They toured the [actor.Custom('FortifiedBuilding')] and the surrounding lands, [secondary_actor.GetFirstNameNoTooltip] explaining the history of everything to [secondary_recipient.GetFirstNameNoTooltip] with great interest and detail. Too much, perhaps, such was [secondary_actor.GetHerHis] eagerness."
 ### TODO NOT-IN-ST: lmf_interaction.1329.desc.secact.garden [AGOT: They roamed the [actor.Custom('FortifiedBuilding')] gardens, engaging in conversation that [secondary_recipient.GetSheHe] says was quite one-sided. [secondary_actor.GetFirstNameNoTooltip] was eager to impress [secondary_recipient.GetFirstNameNoTooltip], and tried hard to dazzle [secondary_recipient.GetHerHim]... and clearly thought [secondary_actor.GetSheHe] was succeeding.]
@@ -6109,10 +6109,10 @@
  lmf_lover.1005.desc.notopp:0 "and while [lover.GetFirstNameNoTooltip] has never tried to change me, still I feel [lover.GetHerHis] influence in the subtle looks and occasional frowns.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1005.desc.end [AGOT: I often find myself changing how I act whenever we're together. Such is our bond that I don't truly mind, as becoming more alike feels natural... but is this what I want? To become more [lover_trait.GetNameNoTooltip( ROOT.Char )|l], as [lover.GetSheHe] is?\n\nIf I stand my ground, it stands to reason that this]
  lmf_lover.1005.desc.end:0 "I often find myself changing how I act whenever we're together. Such is our bond that I don't truly mind, as becoming more alike feels natural... but is this what I want? To become more [lover_trait.GetNameNoTooltip( ROOT.Char )|l], as [lover.GetSheHe] is?\n\nIf I stand my ground, it stands to reason that this "
-### TODO NOT-IN-ST: lmf_lover.1005.desc.opposite2 [AGOT: point of contention could grow until it's an actual problem. Yet are our differences not what drew us together in the first place?]
- lmf_lover.1005.desc.opposite2:0 "point of contention could grow until it's an actual problem. Yet are our differences not what drew us together in the first place?"
-### TODO NOT-IN-ST: lmf_lover.1005.desc.notopp2 [AGOT: could grow until it's an actual point of contention in our relationship. Or am I perhaps over-analyzing what should not even be an issue in the first place?]
- lmf_lover.1005.desc.notopp2:0 "could grow until it's an actual point of contention in our relationship. Or am I perhaps over-analyzing what should not even be an issue in the first place?"
+
+ lmf_lover.1005.desc.opposite2:0 "anlaşmazlık noktası gerçek bir soruna dönüşene dek büyüyebilir. Oysa bizi ilk etapta bir araya getiren farklılıklarımız değil miydi?"
+
+ lmf_lover.1005.desc.notopp2:0 "ilişkimizde gerçek bir anlaşmazlık noktasına dönüşene dek büyüyebilir. Ya da belki de en başta sorun olmaması gereken şeyi fazla analiz ediyorum?"
 
  lmf_lover.1005.a:0 "Olsun."
 
@@ -6127,8 +6127,8 @@
  lmf_lover.1010.desc.good:0 "It's been suggested that, over our years together, I've been a good influence on [lover.GetFirstNameNoTooltip]"
 ### TODO NOT-IN-ST: lmf_lover.1010.desc.normal [AGOT: It's been suggested that, over our years together, I've had a strong influence on [lover.GetFirstNameNoTooltip]]
  lmf_lover.1010.desc.normal:0 "It's been suggested that, over our years together, I've had a strong influence on [lover.GetFirstNameNoTooltip]"
-### TODO NOT-IN-ST: lmf_lover.1010.desc.mid [AGOT: ... and there's some truth to that.\n\nI am often rather [lover_trait.GetNameNoTooltip( ROOT.Char )|l], for instance,]
- lmf_lover.1010.desc.mid:0 "... and there's some truth to that.\n\nI am often rather [lover_trait.GetNameNoTooltip( ROOT.Char )|l], for instance, "
+
+ lmf_lover.1010.desc.mid:0 "... ve bunda bazı gerçekler var.\n\nÖrneğin, ben sık sık [lover_trait.GetNameNoTooltip( ROOT.Char )|l] olurum, "
 ### TODO NOT-IN-ST: lmf_lover.1010.desc.opposite [AGOT: while [lover.GetSheHe], in contrast, is  [lover_opposite_trait.GetNameNoTooltip( ROOT.Char )|l]. It's a point of contention in our relationship which manifests itself in small ways, for while I've never made any effort to change [lover.GetHerHim], [lover.GetSheHe] can tell I disapprove.\n\n]
  lmf_lover.1010.desc.opposite:0 "while [lover.GetSheHe], in contrast, is  [lover_opposite_trait.GetNameNoTooltip( ROOT.Char )|l]. It's a point of contention in our relationship which manifests itself in small ways, for while I've never made any effort to change [lover.GetHerHim], [lover.GetSheHe] can tell I disapprove.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1010.desc.notopp [AGOT: and while I've never made any effort to change [lover.GetHerHim], it's clear [lover.GetSheHe] feels the influence of my subtle looks and occasional frowns.\n\n]
@@ -6289,28 +6289,28 @@
  lmf_lover.1045.t:0 "My [ROOT.Char.Custom2('GetYourConsortType', SCOPE.sC('lover'))|U]'s Advice"
 ### TODO NOT-IN-ST: lmf_lover.1045.desc.start [AGOT: Sometimes I find it easy to forget what a skilled and intelligent [lover.GetWomanMan] [lover.GetFirstNameNoTooltip] is.\n\nWe were walking around the gardens at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] today when [lover.GetSheHe]]
  lmf_lover.1045.desc.start:0 "Sometimes I find it easy to forget what a skilled and intelligent [lover.GetWomanMan] [lover.GetFirstNameNoTooltip] is.\n\nWe were walking around the gardens at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] today when [lover.GetSheHe] "
-### TODO NOT-IN-ST: lmf_lover.1045.desc.diplomacy [AGOT: started to talk about some recent troubles I was having with a vassal, and how I might resolve them peacefully.\n\n]
- lmf_lover.1045.desc.diplomacy:0 "started to talk about some recent troubles I was having with a vassal, and how I might resolve them peacefully.\n\n"
-### TODO NOT-IN-ST: lmf_lover.1045.desc.martial [AGOT: spoke about some supply issues I'd mentioned we were having with the men-at-arms, and provided several options as to how I might resolve them.\n\n]
- lmf_lover.1045.desc.martial:0 "spoke about some supply issues I'd mentioned we were having with the men-at-arms, and provided several options as to how I might resolve them.\n\n"
+
+ lmf_lover.1045.desc.diplomacy:0 "bir vassalla yaşadığım bazı güncel sorunlardan ve bunları barışçıl yollarla nasıl çözebileceğimden bahsetmeye başladı.\n\n"
+
+ lmf_lover.1045.desc.martial:0 "silahşorlarla yaşadığımızı söylediğim bazı iaşe sorunlarından bahsetti ve bunları nasıl çözebileceğime dair birkaç seçenek sundu.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1045.desc.stewardship [AGOT: spoke about a tax dispute I'd mentioned having with my vassals, reluctantly at first and then with greater conviction. In fact, [lover.GetSheHe] gave me a way around it completely.\n\n]
  lmf_lover.1045.desc.stewardship:0 "spoke about a tax dispute I'd mentioned having with my vassals, reluctantly at first and then with greater conviction. In fact, [lover.GetSheHe] gave me a way around it completely.\n\n"
-### TODO NOT-IN-ST: lmf_lover.1045.desc.intrigue [AGOT: talked about the [ROOT.Char.Custom('FortifiedBuilding')]'s security, or rather lack thereof. The ways it could be penetrated. Not as any kind of threat, but out of genuine concern for my well-being.\n\n]
- lmf_lover.1045.desc.intrigue:0 "talked about the [ROOT.Char.Custom('FortifiedBuilding')]'s security, or rather lack thereof. The ways it could be penetrated. Not as any kind of threat, but out of genuine concern for my well-being.\n\n"
-### TODO NOT-IN-ST: lmf_lover.1045.desc.learning [AGOT: spoke at length about how I could support the libraries in [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], and how this might support increased development throughout my realm.\n\n]
- lmf_lover.1045.desc.learning:0 "spoke at length about how I could support the libraries in [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], and how this might support increased development throughout my realm.\n\n"
+
+ lmf_lover.1045.desc.intrigue:0 "[ROOT.Char.Custom('FortifiedBuilding')]'in güvenliğinden, daha doğrusu güvensizliğinden bahsetti. İçine sızılabilecek yollar. Bir tehdit olarak değil, iyiliğime duyduğu içten kaygıyla.\n\n"
+
+ lmf_lover.1045.desc.learning:0 "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]'deki kütüphaneleri nasıl destekleyebileceğim ve bunun diyarım genelinde artan gelişmeyi nasıl destekleyebileceği hakkında uzun uzun konuştu.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1045.desc.end [AGOT: [lover.GetSheHe|U] continued on for much of the afternoon and I listened with fascination. [lover.GetHerHis|U] advice could prove useful indeed, if [lover.GetSheHe] was willing to keep on giving it.]
  lmf_lover.1045.desc.end:0 "[lover.GetSheHe|U] continued on for much of the afternoon and I listened with fascination. [lover.GetHerHis|U] advice could prove useful indeed, if [lover.GetSheHe] was willing to keep on giving it."
 
  lmf_lover.1045.a:0 "Çok minnettarım!"
 
  lmf_lover.1050.t:0 "İmdada"
-### TODO NOT-IN-ST: lmf_lover.1050.desc.start [AGOT: My illness has me bed-ridden and coughing, and so when I hear someone enter my chambers I blearily order them to depart at once.\n\n]
- lmf_lover.1050.desc.start:0 "My illness has me bed-ridden and coughing, and so when I hear someone enter my chambers I blearily order them to depart at once.\n\n"Nonsense, [lover.Custom2('spoken_address_by_familiarity', ROOT.Char)]. "
+
+ lmf_lover.1050.desc.start:0 "Hastalığım beni yatağa düşürdü ve öksürüyorum; odama birinin girdiğini duyunca gözlerim bulanık biçimde derhal gitmesini emrediyorum.\n\n"Nonsense, [lover.Custom2('spoken_address_by_familiarity', ROOT.Char)]. "
 ### TODO NOT-IN-ST: lmf_lover.1050.desc.ruler [AGOT: I came all the way from [lover.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill.]
  lmf_lover.1050.desc.ruler:0 "I came all the way from [lover.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill." "
-### TODO NOT-IN-ST: lmf_lover.1050.desc.location [AGOT: I'm not about to leave you here, wasting away, when I'm perfectly able to look after you.]
- lmf_lover.1050.desc.location:0 "I'm not about to leave you here, wasting away, when I'm perfectly able to look after you." "
+
+ lmf_lover.1050.desc.location:0 "Seninle ilgilenebilecek durumdayken seni burada eriyip bitmeye terk edecek değilim." "
 ### TODO NOT-IN-ST: lmf_lover.1050.desc.notlocation [AGOT: I came all the way from [lover.GetLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill.]
  lmf_lover.1050.desc.notlocation:0 "I came all the way from [lover.GetLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill." "
 ### TODO NOT-IN-ST: lmf_lover.1050.desc.mid [AGOT: [lover.GetFirstNameNoTooltip] barges in, giving me little choice in the matter as [lover.GetSheHe] immediately takes charge of my care.\n\n]
@@ -6439,8 +6439,8 @@
  lmf_lover.1085.t:0 "My Ambitious [ROOT.Char.Custom2('GetYourConsortType', SCOPE.sC('lover'))|U]"
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.start [AGOT: I could tell something was on [lover.GetFirstNamePossessiveNoTooltip] mind and, sure enough, just as we were undressing in my chambers, [lover.GetSheHe] stopped.\n\n]
  lmf_lover.1085.desc.start:0 "I could tell something was on [lover.GetFirstNamePossessiveNoTooltip] mind and, sure enough, just as we were undressing in my chambers, [lover.GetSheHe] stopped.\n\n"I want to be useful," [lover.GetSheHe] said. "I exist in your court," [lover.GetFirstNameNoTooltip] said pointedly, "but I have nothing to do. No purpose other than to serve you." "
-### TODO NOT-IN-ST: lmf_lover.1085.desc.target [AGOT: [lover.GetSheHe|U] took a deep breath.]
- lmf_lover.1085.desc.target:0 "[lover.GetSheHe|U] took a deep breath. "I want to be your [lover.Custom('GetTargetCourtPosition')]."\n\nI was surprised, admittedly. "Oh, is that all?"\n\n"I'm serious! "
+
+ lmf_lover.1085.desc.target:0 "[lover.GetSheHe|U] derin bir nefes aldı. "I want to be your [lover.Custom('GetTargetCourtPosition')]."\n\nI was surprised, admittedly. "Oh, is that all?"\n\n"I'm serious! "
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.bodyguard [AGOT: Who could guard you better than one who is with you day and night?]
  lmf_lover.1085.desc.bodyguard:0 "Who could guard you better than one who is with you day and night? "
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.lady [AGOT: Think of it! I would attend to you, day and night, and nobody could speak against it!]
@@ -6451,8 +6451,8 @@
  lmf_lover.1085.desc.noholder:0 "The position is still open, isn't it? "
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.backup [AGOT: Either that, or... or perhaps I could be your [lover.Custom('GetBackupCourtPosition')] instead?]
  lmf_lover.1085.desc.backup:0 "Either that, or... or perhaps I could be your [lover.Custom('GetBackupCourtPosition')] instead? "
-### TODO NOT-IN-ST: lmf_lover.1085.desc.onlybackup [AGOT: [lover.GetSheHe|U] took a deep breath.]
- lmf_lover.1085.desc.onlybackup:0 "[lover.GetSheHe|U] took a deep breath. "I want to be your [lover.Custom('GetBackupCourtPosition')]."\n\nI was surprised, admittedly. "Oh, is that all?"\n\n"I'm serious! "
+
+ lmf_lover.1085.desc.onlybackup:0 "[lover.GetSheHe|U] derin bir nefes aldı. "I want to be your [lover.Custom('GetBackupCourtPosition')]."\n\nI was surprised, admittedly. "Oh, is that all?"\n\n"I'm serious! "
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.nothing [AGOT: I asked #EMP how#! she might serve, but she was at a loss.]
  lmf_lover.1085.desc.nothing:0 "I asked #EMP how#! she might serve, but she was at a loss. ""
 ### TODO NOT-IN-ST: lmf_lover.1085.desc.end [AGOT: Please, [lover.Custom2('spoken_address_by_familiarity', ROOT.Char)], I want to do #EMP something#!!]
@@ -6543,8 +6543,8 @@
  lmf_lover.1100.desc.manuals:0 "en dikkat çekici kılavuz dizisi "
 
  lmf_lover.1100.desc.robe:0 "o kadar özenle işlenmiş inanılmaz bir cübbe "
-### TODO NOT-IN-ST: lmf_lover.1100.desc.end [AGOT: at the market today. I wanted it so badly, though of course it's #EMP very#! expensive...]
- lmf_lover.1100.desc.end:0 "at the market today. I wanted it so badly, though of course it's #EMP very#! expensive..."\n\nThe intention was clear: [lover.GetFirstNameNoTooltip] wanted me to get it for [lover.GetHerHim] as a gift. In fact, before the evening was even over, [lover.GetSheHe] was practically pleading for [lover.GetHerHis] coveted prize. "Surely it's not too much to ask for, [lover.Custom2('spoken_address_by_familiarity', ROOT.Char)]? You adore me, do you not?""
+
+ lmf_lover.1100.desc.end:0 "bugün çarşıda. Onu çok istedim, elbette #EMP çok#! pahalı olsa da..."\n\nThe intention was clear: [lover.GetFirstNameNoTooltip] wanted me to get it for [lover.GetHerHim] as a gift. In fact, before the evening was even over, [lover.GetSheHe] was practically pleading for [lover.GetHerHis] coveted prize. "Surely it's not too much to ask for, [lover.Custom2('spoken_address_by_familiarity', ROOT.Char)]? You adore me, do you not?""
 ### TODO NOT-IN-ST: lmf_lover.1100.a [AGOT: I'll surprise [lover.GetHerHim] with something even more #EMP expensive!#!]
  lmf_lover.1100.a:0 "I'll surprise [lover.GetHerHim] with something even more #EMP expensive!#!"
 ### TODO NOT-IN-ST: lmf_lover.1100.b [AGOT: Give in and give [lover.GetHerHim] the gift.]
@@ -6567,10 +6567,10 @@
  got_me_kicked_from_court:0 "[TARGET_CHARACTER.GetShortUIName|U] got [CHARACTER.GetShortUIName] ejected from court after [CHARACTER.GetSheHe] insulted [CharYouHerHim(TARGET_CHARACTER)]."
 ### TODO NOT-IN-ST: got_me_kicked_from_court_corresponding [AGOT: [CHARACTER.GetShortUIName|U] got [TARGET_CHARACTER.GetShortUIName] ejected from court after [TARGET_CHARACTER.GetSheHe] insulted [CharYouHerHim(CHARACTER)].]
  got_me_kicked_from_court_corresponding:0 "[CHARACTER.GetShortUIName|U] got [TARGET_CHARACTER.GetShortUIName] ejected from court after [TARGET_CHARACTER.GetSheHe] insulted [CharYouHerHim(CHARACTER)]."
-### TODO NOT-IN-ST: lmf_lover.1105.b [AGOT: [my_courtier.GetFirstNameNoTooltip] will be severely reprimanded for this insult.]
- lmf_lover.1105.b:0 "[my_courtier.GetFirstNameNoTooltip] will be severely reprimanded for this insult."
-### TODO NOT-IN-ST: lmf_lover.1105.b.success [AGOT: [my_courtier.GetFirstNameNoTooltip] is suitably regretful]
- lmf_lover.1105.b.success:0 "[my_courtier.GetFirstNameNoTooltip] is suitably regretful"
+
+ lmf_lover.1105.b:0 "[my_courtier.GetFirstNameNoTooltip] bu hakaret için ağır biçimde azarlanacak."
+
+ lmf_lover.1105.b.success:0 "[my_courtier.GetFirstNameNoTooltip] hakkıyla pişman"
 
  lmf_lover.1105.b.failure:0 "Şimdi [my_courtier.GetFirstNameNoTooltip] ikinize de kızgın"
 ### TODO NOT-IN-ST: got_me_reprimanded_unjustly [AGOT: [TARGET_CHARACTER.GetShortUIName|U] got [CHARACTER.GetShortUIName] unjustly reprimanded after [CHARACTER.GetFirstNameNoTooltip] insulted them.]
@@ -6735,18 +6735,18 @@
  lmf_lover.1155.desc:0 "Could it be true?\n\nI've received reports that [lover.GetFirstNameNoTooltip] was recently in contact with [my_rival.GetTitledFirstNameNoTooltip]. Why [lover.GetSheHe] would be writing letters to a rival of mine, I have no idea. [lover.GetSheHe|U] denies having done so, and while I've tried to have the matter looked into more closely it's very possible the entire thing was a rumor... one that [lover.GetFirstNameNoTooltip] suggests was undoubtedly spread by someone intending to smear [lover.GetHerHis] good name.\n\nWith no way to verify the truth, I have little choice but to take [lover.GetHerHis] word on the matter, but it eats away at me. I know something isn't right. Some manner of skullduggery is afoot."
 
  lmf_lover.1155.a:0 "Umarım bir şey çıkmaz."
-### TODO NOT-IN-ST: lmf_lover.1156.opening [AGOT: [lover.Custom2('GreetingToGenericPositive', ROOT.Char )],]
- lmf_lover.1156.opening:0 "[lover.Custom2('GreetingToGenericPositive', ROOT.Char )],"
+
+ lmf_lover.1156.opening:0 "Sevgilim [lover.Custom2('GreetingToGenericPositive', ROOT.Char )],"
 ### TODO NOT-IN-ST: lmf_lover.1156.stranger [AGOT: You don't know me, but]
  lmf_lover.1156.stranger:0 "You don't know me, but "
-### TODO NOT-IN-ST: lmf_lover.1156.start [AGOT: I have some information on [player_rival.GetTitledFirstName] you might be very interested in, considering it's common knowledge you and [player_rival.GetSheHe] are rivals.\n\nAll I ask in return is a paltry sum of gold for my troubles and that you never mention]
- lmf_lover.1156.start:0 "I have some information on [player_rival.GetTitledFirstName] you might be very interested in, considering it's common knowledge you and [player_rival.GetSheHe] are rivals.\n\nAll I ask in return is a paltry sum of gold for my troubles and that you never mention "
-### TODO NOT-IN-ST: lmf_lover.1156.know [AGOT: this came from your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l].]
- lmf_lover.1156.know:0 "this came from your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l]."
+
+ lmf_lover.1156.start:0 "Sende [player_rival.GetTitledFirstName] hakkında çok ilgini çekebilecek bazı bilgiler var, zira seninle [player_rival.GetSheHe]'in rakip olduğunuz herkesçe biliniyor.\n\nKarşılığında istediğim tek şey, zahmetim için küçük bir miktar altın ve beni asla anmaman: "
+
+ lmf_lover.1156.know:0 "bu, sevgilin [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l]'den geldi."
 
  lmf_lover.1156.stranger2:0 "bu bilgiyi aldığın kişi."
-### TODO NOT-IN-ST: lmf_lover.1156.a [AGOT: [player_rival.GetTitledFirstNameNoTooltip] has a secret? Yes, please!]
- lmf_lover.1156.a:0 "[player_rival.GetTitledFirstNameNoTooltip] has a secret? Yes, please!"
+
+ lmf_lover.1156.a:0 "[player_rival.GetTitledFirstNameNoTooltip]'in bir sırrı mı var? Evet, lütfen!"
 
  lmf_lover.1156.b:0 "Bununla ilgim yok. Defol."
 ### TODO NOT-IN-ST: lmf_lover.1160.t [AGOT: How to Fan the Flames?]
@@ -6873,8 +6873,8 @@
  spouse_wont_dump_lover_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|U] [TARGET_CHARACTER.Custom('WifeHusbandOpp')] refused to break things off with [TARGET_CHARACTER.Custom('GetHerHisOpposite')] lover, [CHARACTER.GetShortUIName]."
 
  lmf_lover.1180.t:0 "Gizliliğin Yükü"
-### TODO NOT-IN-ST: lmf_lover.1180.desc.start [AGOT: I can see the effect our relationship is having on [lover.GetFirstNameNoTooltip].\n\n]
- lmf_lover.1180.desc.start:0 "I can see the effect our relationship is having on [lover.GetFirstNameNoTooltip].\n\n"
+
+ lmf_lover.1180.desc.start:0 "İlişkimizin [lover.GetFirstNameNoTooltip] üzerindeki etkisini görebiliyorum.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1180.desc.honest [AGOT: [lover.GetSheHe|U]'s an honest [lover.GetWomanMan] at heart, so the strain of having to constantly lie time and again is]
  lmf_lover.1180.desc.honest:0 "[lover.GetSheHe|U]'s an honest [lover.GetWomanMan] at heart, so the strain of having to constantly lie time and again is "
 ### TODO NOT-IN-ST: lmf_lover.1180.desc.just [AGOT: [lover.GetSheHe|U] is a [lover.GetWomanMan] with a clear idea of right and wrong, and the straing of having to keep a secret, especially an immoral one, is]
@@ -6895,8 +6895,8 @@
  lmf_lover.1180.a:0 "Keşke bu [lover.GetHerHim] için daha kolay olsaydı."
 
  lmf_lover.1185.t:0 "Günahın Yükü"
-### TODO NOT-IN-ST: lmf_lover.1185.desc.start [AGOT: I can see the effect our relationship is having on [lover.GetFirstNameNoTooltip].\n\n]
- lmf_lover.1185.desc.start:0 "I can see the effect our relationship is having on [lover.GetFirstNameNoTooltip].\n\n"
+
+ lmf_lover.1185.desc.start:0 "İlişkimizin [lover.GetFirstNameNoTooltip] üzerindeki etkisini görebiliyorum.\n\n"
 ### TODO NOT-IN-ST: lmf_lover.1185.desc.incest [AGOT: Laying with [lover.GetHerHis] [lover.Custom2('LMF_RelationToMeShort', ROOT.Char )] is a sin by any standard of [lover.GetFaith.GetNameNoTooltip], it's true.]
  lmf_lover.1185.desc.incest:0 "Laying with [lover.GetHerHis] [lover.Custom2('LMF_RelationToMeShort', ROOT.Char )] is a sin by any standard of [lover.GetFaith.GetNameNoTooltip], it's true. "
 ### TODO NOT-IN-ST: lmf_lover.1185.desc.gay [AGOT: Laying with another [ROOT.Char.GetWomanMan] is a sin by any standard of [lover.GetFaith.GetNameNoTooltip], it's true.]
@@ -7451,8 +7451,8 @@
  lmf_request_normal:0 "I thus ask"
 ### TODO NOT-IN-ST: lmf_scheme.1031.proposer.family.willnotwed [AGOT: As a loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))] who was promised a chance to follow [proposer.GetHerHis] heart,]
  lmf_scheme.1031.proposer.family.willnotwed:0 "As a loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))] who was promised a chance to follow [proposer.GetHerHis] heart, "
-### TODO NOT-IN-ST: lmf_scheme.1031.proposer.family [AGOT: As your loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))],]
- lmf_scheme.1031.proposer.family:0 "As your loyal [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))], "
+
+ lmf_scheme.1031.proposer.family:0 "Sadık [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('proposer'))]'in olarak, "
 
  lmf_scheme.1031.proposer.dynasty:0 "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip] hanedanının sadık bir üyesi olarak "
 
@@ -7467,14 +7467,14 @@
  lmf_scheme.1031.a:0 "İzin verildi!"
 
  lmf_scheme.1031.b:0 "Kesinlikle hayır."
-### TODO NOT-IN-ST: lmf_scheme.1031.a.seek.permission.tt [AGOT: [proposer.GetTitledFirstNameNoTooltip] will seek permission from [proposer_target_liege.GetTitledFirstName]]
- lmf_scheme.1031.a.seek.permission.tt:0 "[proposer.GetTitledFirstNameNoTooltip] will seek permission from [proposer_target_liege.GetTitledFirstName]"
-### TODO NOT-IN-ST: lmf_scheme.1031.a.permission.granted.tt [AGOT: [proposer_target_liege.GetTitledFirstNameNoTooltip] grants permission]
- lmf_scheme.1031.a.permission.granted.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] grants permission"
-### TODO NOT-IN-ST: lmf_scheme.1031.a.permission.refused.tt [AGOT: [proposer_target_liege.GetTitledFirstNameNoTooltip] refuses [proposer.GetHerHim]]
- lmf_scheme.1031.a.permission.refused.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] refuses [proposer.GetHerHim]"
-### TODO NOT-IN-ST: lmf_scheme.1031.b.tt [AGOT: [proposer.GetTitledFirstNameNoTooltip] and [proposer_target.GetTitledFirstNameNoTooltip] might continue their relationship or possibly even elope]
- lmf_scheme.1031.b.tt:0 "[proposer.GetTitledFirstNameNoTooltip] and [proposer_target.GetTitledFirstNameNoTooltip] might continue their relationship or possibly even elope"
+
+ lmf_scheme.1031.a.seek.permission.tt:0 "[proposer.GetTitledFirstNameNoTooltip], [proposer_target_liege.GetTitledFirstName]'den izin isteyecek"
+
+ lmf_scheme.1031.a.permission.granted.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] izin veriyor"
+
+ lmf_scheme.1031.a.permission.refused.tt:0 "[proposer_target_liege.GetTitledFirstNameNoTooltip] [proposer.GetHerHim]'i reddediyor"
+
+ lmf_scheme.1031.b.tt:0 "[proposer.GetTitledFirstNameNoTooltip] ve [proposer_target.GetTitledFirstNameNoTooltip] ilişkilerine devam edebilir, hatta belki kaçıp evlenebilirler"
 ### TODO NOT-IN-ST: lmf_scheme.1031.c [AGOT: I don't want to be bothered by irrelevant courtiers!]
  lmf_scheme.1031.c:0 "I don't want to be bothered by irrelevant courtiers!"
 ### TODO NOT-IN-ST: lmf_scheme.1031.c.tt [AGOT: @warning_icon! #X Future marriage requests which don't involve relatives, [GetPlayer.Custom('KnightCulturePluralNoTooltipLowercase')], hostages, court position holders, or guests will automatically be approved without coming to your attention #!]
@@ -7745,10 +7745,10 @@
  lmf_spouse.1005.desc.notopp:0 "and while [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] has never tried to change me, still I feel [ROOT.Char.GetPrimarySpouse.GetHerHis] influence in the subtle looks and occasional frowns.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1005.desc.end [AGOT: I often find myself changing how I act whenever we're together. Such is our bond that I don't truly mind, as becoming more alike feels natural... but is this what I want? To become more [lover_trait.GetNameNoTooltip( ROOT.Char )|l], as [ROOT.Char.GetPrimarySpouse.GetSheHe] is?\n\nIf I stand my ground, it stands to reason this]
  lmf_spouse.1005.desc.end:0 "I often find myself changing how I act whenever we're together. Such is our bond that I don't truly mind, as becoming more alike feels natural... but is this what I want? To become more [lover_trait.GetNameNoTooltip( ROOT.Char )|l], as [ROOT.Char.GetPrimarySpouse.GetSheHe] is?\n\nIf I stand my ground, it stands to reason this "
-### TODO NOT-IN-ST: lmf_spouse.1005.desc.opposite2 [AGOT: point of contention could grow until it's an actual problem. Yet are our differences not what drew us together in the first place?]
- lmf_spouse.1005.desc.opposite2:0 "point of contention could grow until it's an actual problem. Yet are our differences not what drew us together in the first place?"
-### TODO NOT-IN-ST: lmf_spouse.1005.desc.notopp2 [AGOT: could grow until it's an actual point of contention in our relationship. Or am I perhaps over-analyzing what should not even be an issue in the first place?]
- lmf_spouse.1005.desc.notopp2:0 "could grow until it's an actual point of contention in our relationship. Or am I perhaps over-analyzing what should not even be an issue in the first place?"
+
+ lmf_spouse.1005.desc.opposite2:0 "anlaşmazlık noktası gerçek bir soruna dönüşene dek büyüyebilir. Oysa bizi ilk etapta bir araya getiren farklılıklarımız değil miydi?"
+
+ lmf_spouse.1005.desc.notopp2:0 "ilişkimizde gerçek bir anlaşmazlık noktasına dönüşene dek büyüyebilir. Ya da belki de en başta sorun olmaması gereken şeyi fazla analiz ediyorum?"
 
  lmf_spouse.1005.a:0 "Olsun."
 
@@ -7763,8 +7763,8 @@
  lmf_spouse.1010.desc.good:0 "It's been suggested that, over the course of our marriage, I've been a good influence on my [ROOT.Char.GetPrimarySpouse.GetWifeHusband]"
 ### TODO NOT-IN-ST: lmf_spouse.1010.desc.normal [AGOT: It's been suggested that, over the course of our marriage, I've had a strong influence on my [ROOT.Char.GetPrimarySpouse.GetWifeHusband]]
  lmf_spouse.1010.desc.normal:0 "It's been suggested that, over the course of our marriage, I've had a strong influence on my [ROOT.Char.GetPrimarySpouse.GetWifeHusband]"
-### TODO NOT-IN-ST: lmf_spouse.1010.desc.mid [AGOT: ... and there's some truth to that.\n\nI am often rather [lover_trait.GetNameNoTooltip( ROOT.Char )|l], for instance,]
- lmf_spouse.1010.desc.mid:0 "... and there's some truth to that.\n\nI am often rather [lover_trait.GetNameNoTooltip( ROOT.Char )|l], for instance, "
+
+ lmf_spouse.1010.desc.mid:0 "... ve bunda bazı gerçekler var.\n\nÖrneğin, ben sık sık [lover_trait.GetNameNoTooltip( ROOT.Char )|l] olurum, "
 ### TODO NOT-IN-ST: lmf_spouse.1010.desc.opposite [AGOT: while [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip], in contrast, is  [lover_opposite_trait.GetNameNoTooltip( ROOT.Char )|l]. It's a point of contention in our relationship which manifests itself in small ways, for while I've never made any effort to change [ROOT.Char.GetPrimarySpouse.GetHerHim], [ROOT.Char.GetPrimarySpouse.GetSheHe] can tell I disapprove.\n\n]
  lmf_spouse.1010.desc.opposite:0 "while [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip], in contrast, is  [lover_opposite_trait.GetNameNoTooltip( ROOT.Char )|l]. It's a point of contention in our relationship which manifests itself in small ways, for while I've never made any effort to change [ROOT.Char.GetPrimarySpouse.GetHerHim], [ROOT.Char.GetPrimarySpouse.GetSheHe] can tell I disapprove.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1010.desc.notopp [AGOT: and while I've never made any effort to change [ROOT.Char.GetPrimarySpouse.GetHerHim], it's clear [ROOT.Char.GetPrimarySpouse.GetSheHe] feels the influence of my subtle looks and occasional frowns.\n\n]
@@ -7871,28 +7871,28 @@
  lmf_spouse.1040.t:0 "My [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]'s Advice"
 ### TODO NOT-IN-ST: lmf_spouse.1040.desc.start [AGOT: Sometimes I find it easy to forget what a skilled and intelligent [ROOT.Char.GetPrimarySpouse.GetWomanMan] my [ROOT.Char.GetPrimarySpouse.GetWifeHusband] is.\n\nWe were walking around the gardens at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] today when [ROOT.Char.GetPrimarySpouse.GetSheHe]]
  lmf_spouse.1040.desc.start:0 "Sometimes I find it easy to forget what a skilled and intelligent [ROOT.Char.GetPrimarySpouse.GetWomanMan] my [ROOT.Char.GetPrimarySpouse.GetWifeHusband] is.\n\nWe were walking around the gardens at [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] today when [ROOT.Char.GetPrimarySpouse.GetSheHe] "
-### TODO NOT-IN-ST: lmf_spouse.1040.desc.diplomacy [AGOT: started to talk about some recent troubles I was having with a vassal, and how I might resolve them peacefully.\n\n]
- lmf_spouse.1040.desc.diplomacy:0 "started to talk about some recent troubles I was having with a vassal, and how I might resolve them peacefully.\n\n"
-### TODO NOT-IN-ST: lmf_spouse.1040.desc.martial [AGOT: spoke about some supply issues I'd mentioned we were having with the men-at-arms, and provided several options as to how I might resolve them.\n\n]
- lmf_spouse.1040.desc.martial:0 "spoke about some supply issues I'd mentioned we were having with the men-at-arms, and provided several options as to how I might resolve them.\n\n"
+
+ lmf_spouse.1040.desc.diplomacy:0 "bir vassalla yaşadığım bazı güncel sorunlardan ve bunları barışçıl yollarla nasıl çözebileceğimden bahsetmeye başladı.\n\n"
+
+ lmf_spouse.1040.desc.martial:0 "silahşorlarla yaşadığımızı söylediğim bazı iaşe sorunlarından bahsetti ve bunları nasıl çözebileceğime dair birkaç seçenek sundu.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1040.desc.stewardship [AGOT: spoke about a tax dispute I'd mentioned having with my vassals, reluctantly at first and then with greater conviction. In fact, [ROOT.Char.GetPrimarySpouse.GetSheHe] gave me a way around it completely.\n\n]
  lmf_spouse.1040.desc.stewardship:0 "spoke about a tax dispute I'd mentioned having with my vassals, reluctantly at first and then with greater conviction. In fact, [ROOT.Char.GetPrimarySpouse.GetSheHe] gave me a way around it completely.\n\n"
-### TODO NOT-IN-ST: lmf_spouse.1040.desc.intrigue [AGOT: talked about the [ROOT.Char.Custom('FortifiedBuilding')]'s security, or rather lack thereof. The ways it could be penetrated. Not as any kind of threat, but out of genuine concern for my well-being.\n\n]
- lmf_spouse.1040.desc.intrigue:0 "talked about the [ROOT.Char.Custom('FortifiedBuilding')]'s security, or rather lack thereof. The ways it could be penetrated. Not as any kind of threat, but out of genuine concern for my well-being.\n\n"
-### TODO NOT-IN-ST: lmf_spouse.1040.desc.learning [AGOT: spoke at length about how I could support the libraries in [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], and how this might support increased development throughout my realm.\n\n]
- lmf_spouse.1040.desc.learning:0 "spoke at length about how I could support the libraries in [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip], and how this might support increased development throughout my realm.\n\n"
+
+ lmf_spouse.1040.desc.intrigue:0 "[ROOT.Char.Custom('FortifiedBuilding')]'in güvenliğinden, daha doğrusu güvensizliğinden bahsetti. İçine sızılabilecek yollar. Bir tehdit olarak değil, iyiliğime duyduğu içten kaygıyla.\n\n"
+
+ lmf_spouse.1040.desc.learning:0 "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]'deki kütüphaneleri nasıl destekleyebileceğim ve bunun diyarım genelinde artan gelişmeyi nasıl destekleyebileceği hakkında uzun uzun konuştu.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1040.desc.end [AGOT: [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip|U] continued on for much of the afternoon and I listened with fascination. [ROOT.Char.GetPrimarySpouse.GetHerHis|U] advice could prove useful indeed, if [ROOT.Char.GetPrimarySpouse.GetSheHe] was willing to keep on giving it.]
  lmf_spouse.1040.desc.end:0 "[ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip|U] continued on for much of the afternoon and I listened with fascination. [ROOT.Char.GetPrimarySpouse.GetHerHis|U] advice could prove useful indeed, if [ROOT.Char.GetPrimarySpouse.GetSheHe] was willing to keep on giving it."
 
  lmf_spouse.1040.a:0 "Çok minnettarım!"
 
  lmf_spouse.1045.t:0 "İmdada"
-### TODO NOT-IN-ST: lmf_spouse.1045.desc.start [AGOT: My illness has me bed-ridden and coughing, and so when I hear someone enter my chambers I blearily order them to depart at once.\n\n]
- lmf_spouse.1045.desc.start:0 "My illness has me bed-ridden and coughing, and so when I hear someone enter my chambers I blearily order them to depart at once.\n\n"Nonsense, my love. "
+
+ lmf_spouse.1045.desc.start:0 "Hastalığım beni yatağa düşürdü ve öksürüyorum; odama birinin girdiğini duyunca gözlerim bulanık biçimde derhal gitmesini emrediyorum.\n\n"Nonsense, my love. "
 ### TODO NOT-IN-ST: lmf_spouse.1045.desc.ruler [AGOT: I came all the way from [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill.]
  lmf_spouse.1045.desc.ruler:0 "I came all the way from [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill." "
-### TODO NOT-IN-ST: lmf_spouse.1045.desc.location [AGOT: I'm not about to leave you here, wasting away, when I'm perfectly able to look after you.]
- lmf_spouse.1045.desc.location:0 "I'm not about to leave you here, wasting away, when I'm perfectly able to look after you." "
+
+ lmf_spouse.1045.desc.location:0 "Seninle ilgilenebilecek durumdayken seni burada eriyip bitmeye terk edecek değilim." "
 ### TODO NOT-IN-ST: lmf_spouse.1045.desc.notlocation [AGOT: I came all the way from [ROOT.Char.GetPrimarySpouse.GetLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill.]
  lmf_spouse.1045.desc.notlocation:0 "I came all the way from [ROOT.Char.GetPrimarySpouse.GetLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] the moment I heard you were ill." "
 ### TODO NOT-IN-ST: lmf_spouse.1045.desc.mid [AGOT: My [ROOT.Char.GetPrimarySpouse.GetWifeHusband] barges in, giving me little choice in the matter as [ROOT.Char.GetPrimarySpouse.GetSheHe] immediately takes charge of my care.\n\n]
@@ -7961,8 +7961,8 @@
  lmf_spouse.1070.desc.manuals:0 "en dikkat çekici kılavuz dizisi "
 
  lmf_spouse.1070.desc.robe:0 "o kadar özenle işlenmiş inanılmaz bir cübbe "
-### TODO NOT-IN-ST: lmf_spouse.1070.desc.end [AGOT: at the market today. I wanted it so badly, though of course it's #EMP very#! expensive...]
- lmf_spouse.1070.desc.end:0 "at the market today. I wanted it so badly, though of course it's #EMP very#! expensive..."\n\nThe intention was clear: [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] wanted me to get it for [ROOT.Char.GetPrimarySpouse.GetHerHim] as a gift. In fact, before the evening was even over, [ROOT.Char.GetPrimarySpouse.GetSheHe] was practically pleading for [ROOT.Char.GetPrimarySpouse.GetHerHis] coveted prize. "Surely it's not too much to ask for, "
+
+ lmf_spouse.1070.desc.end:0 "bugün çarşıda. Onu çok istedim, elbette #EMP çok#! pahalı olsa da..."\n\nThe intention was clear: [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] wanted me to get it for [ROOT.Char.GetPrimarySpouse.GetHerHim] as a gift. In fact, before the evening was even over, [ROOT.Char.GetPrimarySpouse.GetSheHe] was practically pleading for [ROOT.Char.GetPrimarySpouse.GetHerHis] coveted prize. "Surely it's not too much to ask for, "
 ### TODO NOT-IN-ST: lmf_spouse.1070.desc.end.lover [AGOT: my love? You adore me, do you not?]
  lmf_spouse.1070.desc.end.lover:0 "my love? You adore me, do you not?""
 ### TODO NOT-IN-ST: lmf_spouse.1070.desc.end.notlover [AGOT: dearest [ROOT.Char.GetWifeHusband]? We can afford such luxuries, can we not?]
@@ -7993,10 +7993,10 @@
  lmf_spouse.1075.desc.end2:0 "[ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] didn't ask me to do anything about it, precisely, but I can tell that [ROOT.Char.GetPrimarySpouse.GetSheHe] thinks I should."
 
  lmf_spouse.1075.a:0 "[my_courtier.GetFirstNameNoTooltip]'i göndereceğim. Derhal."
-### TODO NOT-IN-ST: lmf_spouse.1075.b [AGOT: [my_courtier.GetFirstNameNoTooltip] will be severely reprimanded for this insult.]
- lmf_spouse.1075.b:0 "[my_courtier.GetFirstNameNoTooltip] will be severely reprimanded for this insult."
-### TODO NOT-IN-ST: lmf_spouse.1075.b.success [AGOT: [my_courtier.GetFirstNameNoTooltip] is suitably regretful]
- lmf_spouse.1075.b.success:0 "[my_courtier.GetFirstNameNoTooltip] is suitably regretful"
+
+ lmf_spouse.1075.b:0 "[my_courtier.GetFirstNameNoTooltip] bu hakaret için ağır biçimde azarlanacak."
+
+ lmf_spouse.1075.b.success:0 "[my_courtier.GetFirstNameNoTooltip] hakkıyla pişman"
 
  lmf_spouse.1075.b.failure:0 "Şimdi [my_courtier.GetFirstNameNoTooltip] ikinize de kızgın"
 ### TODO NOT-IN-ST: reprimanded_me_unjustly_spouse [AGOT: [TARGET_CHARACTER.GetShortUIName|U] unjustly reprimanded [CHARACTER.GetShortUIName] for an insult paid to [TARGET_CHARACTER.GetHerHisMy] spouse.]
@@ -8057,18 +8057,18 @@
  lmf_spouse.1100.desc:0 "Could it be true?\n\nI've received reports that my [ROOT.Char.GetPrimarySpouse.GetWifeHusband] was recently in contact with [my_rival.GetTitledFirstNameNoTooltip]. Why [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] would be writing letters to a rival of mine, I have no idea. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] denies having done so, of course, and while I've tried to have the matter looked into more closely it's very possible the entire thing was a rumor... one that [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] suggests was undoubtedly spread by someone intending to smear [ROOT.Char.GetPrimarySpouse.GetHerHis] good name. With no way to verify the truth, I have little choice but to take [ROOT.Char.GetPrimarySpouse.GetHerHis] word on the matter, but it eats away at me.\n\nI #EMP know#! something isn't right. Some manner of skullduggery is afoot."
 
  lmf_spouse.1100.a:0 "Umarım bir şey çıkmaz."
-### TODO NOT-IN-ST: lmf_spouse.1101.opening [AGOT: [lover.Custom2('GreetingToGenericPositive', ROOT.Char )],]
- lmf_spouse.1101.opening:0 "[lover.Custom2('GreetingToGenericPositive', ROOT.Char )],"
+
+ lmf_spouse.1101.opening:0 "Sevgilim [lover.Custom2('GreetingToGenericPositive', ROOT.Char )],"
 ### TODO NOT-IN-ST: lmf_spouse.1101.stranger [AGOT: Who I am is unimportant, but]
  lmf_spouse.1101.stranger:0 "Who I am is unimportant, but "
-### TODO NOT-IN-ST: lmf_spouse.1101.start [AGOT: I have some information on [player_rival.GetTitledFirstName] you might be very interested in, considering it's common knowledge you and [player_rival.GetSheHe] are rivals.\n\nAll I ask in return is a paltry sum of gold for my troubles and that you never mention]
- lmf_spouse.1101.start:0 "I have some information on [player_rival.GetTitledFirstName] you might be very interested in, considering it's common knowledge you and [player_rival.GetSheHe] are rivals.\n\nAll I ask in return is a paltry sum of gold for my troubles and that you never mention "
-### TODO NOT-IN-ST: lmf_spouse.1101.know [AGOT: this came from your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l].]
- lmf_spouse.1101.know:0 "this came from your [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l]."
+
+ lmf_spouse.1101.start:0 "Sende [player_rival.GetTitledFirstName] hakkında çok ilgini çekebilecek bazı bilgiler var, zira seninle [player_rival.GetSheHe]'in rakip olduğunuz herkesçe biliniyor.\n\nKarşılığında istediğim tek şey, zahmetim için küçük bir miktar altın ve beni asla anmaman: "
+
+ lmf_spouse.1101.know:0 "bu, sevgilin [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('lover'))|l]'den geldi."
 
  lmf_spouse.1101.stranger2:0 "bu bilgiyi aldığın kişi."
-### TODO NOT-IN-ST: lmf_spouse.1101.a [AGOT: [player_rival.GetTitledFirstNameNoTooltip] has a secret? Yes, please!]
- lmf_spouse.1101.a:0 "[player_rival.GetTitledFirstNameNoTooltip] has a secret? Yes, please!"
+
+ lmf_spouse.1101.a:0 "[player_rival.GetTitledFirstNameNoTooltip]'in bir sırrı mı var? Evet, lütfen!"
 
  lmf_spouse.1101.b:0 "Bununla ilgim yok. Defol."
 
@@ -8609,24 +8609,24 @@
  came_for_a_long_visit:0 "[CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] relationship with [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] improved after a long solo visit."
 ### TODO NOT-IN-ST: came_for_a_long_visit_corresponding [AGOT: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] relationship with [CHARACTER.GetShortUINameNoTooltipNoFormat] improved after a long solo visit.]
  came_for_a_long_visit_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat|U] relationship with [CHARACTER.GetShortUINameNoTooltipNoFormat] improved after a long solo visit."
-### TODO NOT-IN-ST: lmf_spouse.1250.t [AGOT: My [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]]
- lmf_spouse.1250.t:0 "My [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]"
+
+ lmf_spouse.1250.t:0 "Eşim [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]"
 
  lmf_spouse.1250.desc.start:0 "Eşim [ROOT.Char.GetPrimarySpouse.GetWifeHusband]'in görevleri "
 
  lmf_spouse.1250.desc.courtier:0 "burada, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'de "
-### TODO NOT-IN-ST: lmf_spouse.1250.desc.ruler [AGOT: at [ROOT.Char.GetPrimarySpouse.GetHerHis] court in [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]]
- lmf_spouse.1250.desc.ruler:0 "at [ROOT.Char.GetPrimarySpouse.GetHerHis] court in [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] "
+
+ lmf_spouse.1250.desc.ruler:0 "[ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [ROOT.Char.GetPrimarySpouse.GetHerHis] sarayında "
 ### TODO NOT-IN-ST: lmf_spouse.1250.desc.mid [AGOT: are not easy, of that I have no doubt. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] complains often about the stress [ROOT.Char.GetPrimarySpouse.GetSheHe] endures. How [ROOT.Char.GetPrimarySpouse.GetSheHe] #EMP deals#! with that stress, however, sometimes leaves much to be desired.\n\n]
  lmf_spouse.1250.desc.mid:0 "are not easy, of that I have no doubt. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] complains often about the stress [ROOT.Char.GetPrimarySpouse.GetSheHe] endures. How [ROOT.Char.GetPrimarySpouse.GetSheHe] #EMP deals#! with that stress, however, sometimes leaves much to be desired.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1250.desc.drunkard [AGOT: Today it started with [ROOT.Char.GetPrimarySpouse.GetHerHim] drinking from the early morning. Wine, for the most part, a glass here and a glass there until suddenly [ROOT.Char.GetPrimarySpouse.GetHerHis] words were slurring and [ROOT.Char.GetPrimarySpouse.GetSheHe] swayed on [ROOT.Char.GetPrimarySpouse.GetHerHis] feet. By the evening, it progressed to drunken ranting and raving, shouting at the servants until several were able to round [ROOT.Char.GetPrimarySpouse.GetHerHim] up and put [ROOT.Char.GetPrimarySpouse.GetHerHim] to bed.\n\n]
  lmf_spouse.1250.desc.drunkard:0 "Today it started with [ROOT.Char.GetPrimarySpouse.GetHerHim] drinking from the early morning. Wine, for the most part, a glass here and a glass there until suddenly [ROOT.Char.GetPrimarySpouse.GetHerHis] words were slurring and [ROOT.Char.GetPrimarySpouse.GetSheHe] swayed on [ROOT.Char.GetPrimarySpouse.GetHerHis] feet. By the evening, it progressed to drunken ranting and raving, shouting at the servants until several were able to round [ROOT.Char.GetPrimarySpouse.GetHerHim] up and put [ROOT.Char.GetPrimarySpouse.GetHerHim] to bed.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1250.desc.hashishiyah [AGOT: [ROOT.Char.GetPrimarySpouse.GetSheHe|U]'s become quite fond of the leaf, imbibing enough milk of the poppy so regularly that [ROOT.Char.GetPrimarySpouse.GetSheHe]'s left insensate. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] lolls about on the cushions in [ROOT.Char.GetPrimarySpouse.GetHerHis] bedchambers, barely willing to rise some days... and incredibly sick at others. One of the servants tried to hide [ROOT.Char.GetPrimarySpouse.GetHerHis] stash out of pure desperation, and the tantrum my [ROOT.Char.GetPrimarySpouse.GetWifeHusband] threw as a result was quite something to behold.\n\n]
  lmf_spouse.1250.desc.hashishiyah:0 "[ROOT.Char.GetPrimarySpouse.GetSheHe|U]'s become quite fond of the leaf, imbibing enough milk of the poppy so regularly that [ROOT.Char.GetPrimarySpouse.GetSheHe]'s left insensate. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] lolls about on the cushions in [ROOT.Char.GetPrimarySpouse.GetHerHis] bedchambers, barely willing to rise some days... and incredibly sick at others. One of the servants tried to hide [ROOT.Char.GetPrimarySpouse.GetHerHis] stash out of pure desperation, and the tantrum my [ROOT.Char.GetPrimarySpouse.GetWifeHusband] threw as a result was quite something to behold.\n\n"
-### TODO NOT-IN-ST: lmf_spouse.1250.desc.rakish.nolover [AGOT: [ROOT.Char.GetPrimarySpouse.GetSheHe|U] paws at the servants, complaining about how [ROOT.Char.GetPrimarySpouse.GetSheHe] needs]
- lmf_spouse.1250.desc.rakish.nolover:0 "[ROOT.Char.GetPrimarySpouse.GetSheHe|U] paws at the servants, complaining about how [ROOT.Char.GetPrimarySpouse.GetSheHe] needs "release"... and, when even that's not enough, I've heard reports that [ROOT.Char.GetPrimarySpouse.GetSheHe]'ll head into a nearby village in disguise. Whether it's in search of fleeting encounters or [ROOT.Char.GetPrimarySpouse.GetSheHe] has a lover, I've yet to determine, but it's not hard to imagine when [ROOT.Char.GetPrimarySpouse.GetSheHe] gets like this.\n\n"
-### TODO NOT-IN-ST: lmf_spouse.1250.desc.rakish.lover [AGOT: [ROOT.Char.GetPrimarySpouse.GetSheHe|U] paws at the servants, complaining about how [ROOT.Char.GetPrimarySpouse.GetSheHe] needs]
- lmf_spouse.1250.desc.rakish.lover:0 "[ROOT.Char.GetPrimarySpouse.GetSheHe|U] paws at the servants, complaining about how [ROOT.Char.GetPrimarySpouse.GetSheHe] needs "release"... and, when even that's not enough, I've heard reports that [ROOT.Char.GetPrimarySpouse.GetSheHe]'ll leave the [ROOT.Char.Custom('FortifiedBuilding')] in disguise... to meet [ROOT.Char.GetPrimarySpouse.GetHerHis] lover, no doubt. Honestly, [ROOT.Char.GetPrimarySpouse.GetSheHe] doesn't even hide it particularly well. Nor does [ROOT.Char.GetPrimarySpouse.GetSheHe] hide the fact that [ROOT.Char.GetPrimarySpouse.GetHerHis] needs are more than I can fulfill.\n\n"
+
+ lmf_spouse.1250.desc.rakish.nolover:0 "Eşim [ROOT.Char.GetPrimarySpouse.GetSheHe|U] hizmetkârlara saldırıyor, [ROOT.Char.GetPrimarySpouse.GetSheHe]'in nasıl ihtiyacı olduğundan yakınıyor: "release"... and, when even that's not enough, I've heard reports that [ROOT.Char.GetPrimarySpouse.GetSheHe]'ll head into a nearby village in disguise. Whether it's in search of fleeting encounters or [ROOT.Char.GetPrimarySpouse.GetSheHe] has a lover, I've yet to determine, but it's not hard to imagine when [ROOT.Char.GetPrimarySpouse.GetSheHe] gets like this.\n\n"
+
+ lmf_spouse.1250.desc.rakish.lover:0 "Eşim [ROOT.Char.GetPrimarySpouse.GetSheHe|U] hizmetkârlara saldırıyor, [ROOT.Char.GetPrimarySpouse.GetSheHe]'in nasıl ihtiyacı olduğundan yakınıyor: "release"... and, when even that's not enough, I've heard reports that [ROOT.Char.GetPrimarySpouse.GetSheHe]'ll leave the [ROOT.Char.Custom('FortifiedBuilding')] in disguise... to meet [ROOT.Char.GetPrimarySpouse.GetHerHis] lover, no doubt. Honestly, [ROOT.Char.GetPrimarySpouse.GetSheHe] doesn't even hide it particularly well. Nor does [ROOT.Char.GetPrimarySpouse.GetSheHe] hide the fact that [ROOT.Char.GetPrimarySpouse.GetHerHis] needs are more than I can fulfill.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1250.desc.irritable [AGOT: [ROOT.Char.GetPrimarySpouse.GetSheHe|U] lashes out constantly - at me, at the courtiers, at the servants. If anyone makes the slightest error in [ROOT.Char.GetPrimarySpouse.GetHerHis] presence, they'll feel the full force of [ROOT.Char.GetPrimarySpouse.GetHerHis] temper. Which means that, whenever [ROOT.Char.GetPrimarySpouse.GetSheHe] gets stressed, everyone walks on eggshells around [ROOT.Char.GetPrimarySpouse.GetHerHim]. The [ROOT.Char.Custom('FortifiedBuilding')] is filled with a quiet tension those days that is almost maddening.\n\n]
  lmf_spouse.1250.desc.irritable:0 "[ROOT.Char.GetPrimarySpouse.GetSheHe|U] lashes out constantly - at me, at the courtiers, at the servants. If anyone makes the slightest error in [ROOT.Char.GetPrimarySpouse.GetHerHis] presence, they'll feel the full force of [ROOT.Char.GetPrimarySpouse.GetHerHis] temper. Which means that, whenever [ROOT.Char.GetPrimarySpouse.GetSheHe] gets stressed, everyone walks on eggshells around [ROOT.Char.GetPrimarySpouse.GetHerHim]. The [ROOT.Char.Custom('FortifiedBuilding')] is filled with a quiet tension those days that is almost maddening.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1250.desc.flagellant [AGOT: I can hear [ROOT.Char.GetPrimarySpouse.GetHerHim] at night, in [ROOT.Char.GetPrimarySpouse.GetHerHis] room fervently praying to [ROOT.Char.GetPrimarySpouse.GetFaith.HighGodName]. Then the sounds of the lashes begin, quickly followed by [ROOT.Char.GetPrimarySpouse.GetHerHis] exclamations of pain and suffering. There are times when a servant has found [ROOT.Char.GetPrimarySpouse.GetHerHim] unconscious on the floor, [ROOT.Char.GetPrimarySpouse.GetHerHis] back slashed to ribbons. The physician has treated [ROOT.Char.GetPrimarySpouse.GetHerHim] each time, but tells me that eventually [ROOT.Char.GetPrimarySpouse.GetSheHe] will harm [ROOT.Char.GetPrimarySpouse.GetHerselfHimself] beyond any ability to repair.\n\n]
@@ -8647,14 +8647,14 @@
  lmf_spouse.1250.desc.default:0 "I can't say I understand [ROOT.Char.GetPrimarySpouse.GetFirstNamePossessiveNoTooltip] impulses. I've tried talking to [ROOT.Char.GetPrimarySpouse.GetHerHim] about it, tried explaining how this can't continue, but it gets nowhere."
 ### TODO NOT-IN-ST: lmf_spouse.1250.a [AGOT: Sadly, this is how it is.]
  lmf_spouse.1250.a:0 "Sadly, this is how it is."
-### TODO NOT-IN-ST: lmf_spouse.1260.t [AGOT: My [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]]
- lmf_spouse.1260.t:0 "My [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]"
+
+ lmf_spouse.1260.t:0 "Eşim [spouse_stress.GetNameNoTooltip( ROOT.Char )|U] [ROOT.Char.GetPrimarySpouse.GetWifeHusband|U]"
 
  lmf_spouse.1260.desc.start:0 "Eşim [ROOT.Char.GetPrimarySpouse.GetWifeHusband]'in görevleri "
 
  lmf_spouse.1260.desc.courtier:0 "burada, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'de "
-### TODO NOT-IN-ST: lmf_spouse.1260.desc.ruler [AGOT: at [ROOT.Char.GetPrimarySpouse.GetHerHis] court in [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]]
- lmf_spouse.1260.desc.ruler:0 "at [ROOT.Char.GetPrimarySpouse.GetHerHis] court in [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] "
+
+ lmf_spouse.1260.desc.ruler:0 "[ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]'deki [ROOT.Char.GetPrimarySpouse.GetHerHis] sarayında "
 ### TODO NOT-IN-ST: lmf_spouse.1260.desc.mid [AGOT: often leave [ROOT.Char.GetPrimarySpouse.GetHerHim] exhausted and stressed, it's true. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] tells me this often. Lately, however, [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] has taken to channeling that stress into something productive.\n\n]
  lmf_spouse.1260.desc.mid:0 "often leave [ROOT.Char.GetPrimarySpouse.GetHerHim] exhausted and stressed, it's true. [ROOT.Char.GetPrimarySpouse.GetSheHe|U] tells me this often. Lately, however, [ROOT.Char.GetPrimarySpouse.GetFirstNameNoTooltip] has taken to channeling that stress into something productive.\n\n"
 ### TODO NOT-IN-ST: lmf_spouse.1260.desc.athletic [AGOT: Always having been the athletic sort, [ROOT.Char.GetPrimarySpouse.GetSheHe]'s taken to long walks around the [ROOT.Char.Custom('FortifiedBuilding')] - walking the battlements, checking the state of the gardens, even sometimes roaming well beyond the [ROOT.Char.Custom('FortifiedBuilding')] grounds. Instead of leaving it at that, [ROOT.Char.GetPrimarySpouse.GetSheHe]'s turned it into a time when [ROOT.Char.GetPrimarySpouse.GetSheHe] can connect with the servants and other commoners. [ROOT.Char.GetPrimarySpouse.GetSheHe] stops to meet each one, conversing over their progress and the state of things in [ROOT.Char.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], and in turn they've rather come to love [ROOT.Char.GetPrimarySpouse.GetHerHim] for it. They apparently look forward to each of [ROOT.Char.GetPrimarySpouse.GetHerHis] outings, saving up the latest news just for [ROOT.Char.GetPrimarySpouse.GetHerHis] ears... much to [ROOT.Char.GetPrimarySpouse.GetHerHis] delight!\n\n]

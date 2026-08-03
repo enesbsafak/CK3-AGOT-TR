@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: MEGA_WAR_SWITCH_SIDES [AGOT: Force to switch side]
  MEGA_WAR_SWITCH_SIDES:0 "Force to switch side"
 ### TODO NOT-IN-ST: SWITCH_SIDES_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$]
@@ -49,10 +49,10 @@
  RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$"
 ### TODO NOT-IN-ST: agot_send_to_nw [AGOT: Send to [nw_govt|E]]
  agot_send_to_nw:0 "Send to [nw_govt|E]"
-### TODO NOT-IN-ST: RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION [AGOT: You cannot banish characters and send them to the Night's Watch at the same time.]
- RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "You cannot banish characters and send them to the Night's Watch at the same time."
-### TODO NOT-IN-ST: RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION [AGOT: You cannot banish characters and send them to the Night's Watch at the same time.]
- RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "You cannot banish characters and send them to the Night's Watch at the same time."
+
+ RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "Karakterleri sürgün edip aynı zamanda Gece Nöbetçileri'ne gönderemezsin."
+
+ RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "Karakterleri sürgün edip aynı zamanda Gece Nöbetçileri'ne gönderemezsin."
 ### TODO NOT-IN-ST: NW_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$]
  NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$"
 ### TODO NOT-IN-ST: agot_ransom_artifact [AGOT: Ransom for Artifacts]

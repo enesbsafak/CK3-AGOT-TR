@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: coronation.0001.t [AGOT: The Final Preparations]
  coronation.0001.t:0 "The Final Preparations"
 ### TODO NOT-IN-ST: coronation.0001.desc_intro [AGOT: Servants scurry across the courtyard of [barony.GetNameNoTier], bringing the final decorations as members of the court take their places. Many of those attending this occasion are yet to arrive.]
@@ -49,10 +49,10 @@
  coronation.0001.after.tt:0 "Ravens shall be sent to all who have been invited."
 ### TODO NOT-IN-ST: coronation.0002.t [AGOT: A New Officiant]
  coronation.0002.t:0 "A New Officiant"
-### TODO NOT-IN-ST: coronation.0002.desc [AGOT: Unforeseen circumstances force me to find someone new to crown me. I look to the room full of attendees, hoping someone of note might be willing to take [old_coronation_officiant.GetTitledFirstNameNicknamed|U] place.]
- coronation.0002.desc:0 "Unforeseen circumstances force me to find someone new to crown me. I look to the room full of attendees, hoping someone of note might be willing to take [old_coronation_officiant.GetTitledFirstNameNicknamed|U] place."
-### TODO NOT-IN-ST: coronation.0002.desc_removed [AGOT: Unforeseen circumstances force me to find someone new to crown me. I look to the room full of attendees, hoping someone of note might be willing to take [old_coronation_officiant.GetTitledFirstNameNicknamed|U] place.]
- coronation.0002.desc_removed:0 "Unforeseen circumstances force me to find someone new to crown me. I look to the room full of attendees, hoping someone of note might be willing to take [old_coronation_officiant.GetTitledFirstNameNicknamed|U] place."
+
+ coronation.0002.desc:0 "Öngörülemeyen koşullar beni taçlandıracak yeni birini bulmaya zorluyor. Dolu salona bakıyorum, umarım kayda değer biri [old_coronation_officiant.GetTitledFirstNameNicknamed|U] yerini almaya razı olur."
+
+ coronation.0002.desc_removed:0 "Öngörülemeyen koşullar beni taçlandıracak yeni birini bulmaya zorluyor. Dolu salona bakıyorum, umarım kayda değer biri [old_coronation_officiant.GetTitledFirstNameNicknamed|U] yerini almaya razı olur."
 ### TODO NOT-IN-ST: coronation.0002.desc_no_officiant [AGOT: It occurs to me that I may need someone to crown me. I look to the room full of attendees, wondering if someone of note might be willing to take on this role.]
  coronation.0002.desc_no_officiant:0 "It occurs to me that I may need someone to crown me. I look to the room full of attendees, wondering if someone of note might be willing to take on this role."
 ### TODO NOT-IN-ST: coronation.0002.a [AGOT: Someone else shall crown me!]
@@ -191,12 +191,12 @@
  coronation.0150.desc_guests_no_crown_intro:1 "The ceremony has finally reached its climax. [officiant.GetTitledFirstNameNicknamed|U] has anointed [coronation_target.GetTitledFirstName|U] in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen. We share confused glances as [officiant.GetTitledFirstNameNicknamedNoTooltip|U] simply proclaims:"
 ### TODO NOT-IN-ST: coronation.0150.desc_guests_self_crowner_intro [AGOT: The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip] and [coronation_target.GetSheHe|l] places the crown upon [coronation_target.GetHerHis|l] head.\n\nTurning toward us, [coronation_target.GetSheHe|l] proclaims:]
  coronation.0150.desc_guests_self_crowner_intro:1 "The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip] and [coronation_target.GetSheHe|l] places the crown upon [coronation_target.GetHerHis|l] head.\n\nTurning toward us, [coronation_target.GetSheHe|l] proclaims:"
-### TODO NOT-IN-ST: coronation.0150.desc_guests_self_crowner_no_crown_intro [AGOT: The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen.\n\nTurning toward us, [coronation_target.GetSheHe|l] simply proclaims:]
- coronation.0150.desc_guests_self_crowner_no_crown_intro:1 "The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen.\n\nTurning toward us, [coronation_target.GetSheHe|l] simply proclaims:"
+
+ coronation.0150.desc_guests_self_crowner_no_crown_intro:0 "Tören nihayet doruğuna ulaştı. [coronation_target.GetTitledFirstName|U], [coronation_target.GetFaith.GetNameNoTooltip]'in geleneksel ayinleriyle meshedildi ama ortada taç yok.\n\nBize dönerek [coronation_target.GetSheHe|l] sadece şunu ilan ediyor:"
 ### TODO NOT-IN-ST: coronation.0150.desc_saboteur_no_crown_intro [AGOT: The ceremony has finally reached its climax. [officiant.GetTitledFirstNameNicknamed|U] has anointed [coronation_target.GetTitledFirstName|U] in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen. Those around me share confused glances as [officiant.GetTitledFirstNameNicknamedNoTooltip|U] simply proclaims:]
  coronation.0150.desc_saboteur_no_crown_intro:1 "The ceremony has finally reached its climax. [officiant.GetTitledFirstNameNicknamed|U] has anointed [coronation_target.GetTitledFirstName|U] in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen. Those around me share confused glances as [officiant.GetTitledFirstNameNicknamedNoTooltip|U] simply proclaims:"
-### TODO NOT-IN-ST: coronation.0150.desc_saboteur_self_crowner_no_crown_intro [AGOT: The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen.\n\nTurning toward us, [coronation_target.GetSheHe|l] simply proclaims:]
- coronation.0150.desc_saboteur_self_crowner_no_crown_intro:1 "The ceremony has finally reached its climax. [coronation_target.GetTitledFirstName|U] has been anointed in the traditional rites of the [coronation_target.GetFaith.GetNameNoTooltip], but there is no crown to be seen.\n\nTurning toward us, [coronation_target.GetSheHe|l] simply proclaims:"
+
+ coronation.0150.desc_saboteur_self_crowner_no_crown_intro:0 "Tören nihayet doruğuna ulaştı. [coronation_target.GetTitledFirstName|U], [coronation_target.GetFaith.GetNameNoTooltip]'in geleneksel ayinleriyle meshedildi ama ortada taç yok.\n\nBize dönerek [coronation_target.GetSheHe|l] sadece şunu ilan ediyor:"
 ### TODO NOT-IN-ST: coronation.0150.desc_proclamation_seven_kingdoms [AGOT: \n\n#italic]
  coronation.0150.desc_proclamation_seven_kingdoms:0 "\n\n#italic "Before Gods and Men, I proclaim [coronation_target.GetFirstNameNoTooltipRegnal|U] of House [coronation_target.GetHouse.GetNameNoTooltip|U], [coronation_target.GetTitleAsNameNoTooltip|U] of the Andals, the Rhoynar, and the First Men, [coronation_target.GetLadyLord|U] of the Seven Kingdoms, and Protector of the Realm! Long may [coronation_target.GetSheHe] reign!" #!"
 ### TODO NOT-IN-ST: coronation.0150.desc_proclamation_seven_kingdoms_self [AGOT: \n\n#italic]

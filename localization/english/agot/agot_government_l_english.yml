@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: government_is_free_city [AGOT: [government|E] type is [GetGovernment( 'administrative_government' ).GetName]]
  government_is_free_city:0 "[government|E] type is [GetGovernment( 'administrative_government' ).GetName]"
 ### TODO NOT-IN-ST: lp_feudal_government_with_icon [AGOT: @government_type_feudal! $lp_feudal_government$]
@@ -43,8 +43,8 @@
  magisterial_life_elective_candidates_tooltip:0 "Özgür Şehirler'in zengin ve güçlüleri magister olarak bilinir"
 
  magisterial_life_elective_electors:0 "Magisterler"
-### TODO NOT-IN-ST: magisterial_life_elective_electors_tooltip [AGOT: The votes of the greatest magisters decide the election. The rest will fall into line]
- magisterial_life_elective_electors_tooltip:0 "The votes of the greatest magisters decide the election. The rest will fall into line"
+
+ magisterial_life_elective_electors_tooltip:0 "Seçimi en büyük magisterlerin oyları belirler. Gerisi sıraya girer"
 
  magisterial_life_succession_attached_titles_law:0 "Arhonluk Seçimi"
 
@@ -61,8 +61,8 @@
  magisterial_limited_elective_candidates_tooltip:0 "Özgür Şehirler'in zengin ve güçlüleri magister olarak bilinir"
 
  magisterial_limited_elective_electors:0 "Magisterler"
-### TODO NOT-IN-ST: magisterial_limited_elective_electors_tooltip [AGOT: The votes of the greatest magisters decide the election. The rest will fall into line]
- magisterial_limited_elective_electors_tooltip:0 "The votes of the greatest magisters decide the election. The rest will fall into line"
+
+ magisterial_limited_elective_electors_tooltip:0 "Seçimi en büyük magisterlerin oyları belirler. Gerisi sıraya girer"
 
  magisterial_attached_titles_law:0 "Birinci Magisterlik Seçimi"
 
@@ -143,8 +143,8 @@
  pirate_government_vassals_label:0 ""
 ### TODO NOT-IN-ST: agot_pirate_gov_succ_block [AGOT: Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]]
  agot_pirate_gov_succ_block:0 "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]" #Realm does not collapse yet
-### TODO NOT-IN-ST: agot_pirate_sailing_requirements [AGOT: Can host a [GetActivityType('activity_agot_sailing').GetName] [activity|E] from any coastal province within their realm]
- agot_pirate_sailing_requirements:0 "Can host a [GetActivityType('activity_agot_sailing').GetName] [activity|E] from any coastal province within their realm"
+
+ agot_pirate_sailing_requirements:0 "Diyarı içindeki herhangi bir kıyı eyaletinden [GetActivityType('activity_agot_sailing').GetName] [activity|E] düzenleyebilir"
 ### TODO NOT-IN-ST: agot_unlocks_conquest_cb [AGOT: Unlocks Conquest [casus_belli|E]]
  agot_unlocks_conquest_cb:0 "Unlocks Conquest [casus_belli|E]"
 
