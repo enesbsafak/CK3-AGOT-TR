@@ -1,53 +1,53 @@
 ﻿l_english:
-### TODO NOT-IN-ST: message_filter_dragon_death [AGOT: @dragon_icon! Dragon Death]
- message_filter_dragon_death: "@dragon_icon! Dragon Death"
-### TODO NOT-IN-ST: message_filter_dragon_death_desc [AGOT: A [dragon|E] death has occurred]
- message_filter_dragon_death_desc: "A [dragon|E] death has occurred"
-### TODO NOT-IN-ST: message_filter_dragonrider_death [AGOT: @dragon_icon! Dragonrider Death]
- message_filter_dragonrider_death: "@dragon_icon! Dragonrider Death"
-### TODO NOT-IN-ST: message_filter_dragonrider_death_desc [AGOT: A [GetTrait('dragonrider').GetName( GetNullCharacter )|LV] death has occurred]
- message_filter_dragonrider_death_desc: "A [GetTrait('dragonrider').GetName( GetNullCharacter )|LV] death has occurred"
-### TODO NOT-IN-ST: message_filter_dragon_hatched [AGOT: @dragon_icon! Dragon Egg Hatches]
- message_filter_dragon_hatched: "@dragon_icon! Dragon Egg Hatches"
-### TODO NOT-IN-ST: message_filter_dragon_hatched_desc [AGOT: A [dragon|E] egg has hatched]
- message_filter_dragon_hatched_desc: "A [dragon|E] egg has hatched"
-### TODO NOT-IN-ST: message_filter_dragon_tamed [AGOT: @dragon_icon! Dragon Tamed]
- message_filter_dragon_tamed: "@dragon_icon! Dragon Tamed"
-### TODO NOT-IN-ST: message_filter_dragon_tamed_desc [AGOT: A [dragon|E] has been tamed]
- message_filter_dragon_tamed_desc: "A [dragon|E] has been tamed"
-### TODO NOT-IN-ST: message_filter_iron_throne_inheritance [AGOT: @titles_icon! Iron Throne Inheritance]
- message_filter_iron_throne_inheritance: "@titles_icon! Iron Throne Inheritance"
-### TODO NOT-IN-ST: message_filter_iron_throne_inheritance_desc [AGOT: A new character has inherited the [GetTitleByKey('h_the_iron_throne').GetName]]
- message_filter_iron_throne_inheritance_desc: "A new character has inherited the [GetTitleByKey('h_the_iron_throne').GetName]"
-### TODO NOT-IN-ST: message_filter_nightswatch_inheritance [AGOT: @titles_icon! Night's Watch Election]
- message_filter_nightswatch_inheritance: "@titles_icon! Night's Watch Election"
-### TODO NOT-IN-ST: message_filter_nightswatch_inheritance_desc [AGOT: A new character has become Lord Commander of the Night's Watch]
- message_filter_nightswatch_inheritance_desc: "A new character has become Lord Commander of the Night's Watch"
-### TODO NOT-IN-ST: message_filter_agot_squire_training [AGOT: @cs_knight_icon! Squire Training]
- message_filter_agot_squire_training: "@cs_knight_icon! Squire Training"
-### TODO NOT-IN-ST: message_filter_agot_squire_training_desc [AGOT: Squire training messages]
- message_filter_agot_squire_training_desc: "Squire training messages"
-### TODO NOT-IN-ST: message_filter_legitimate_house_inheritance [AGOT: @titles_icon! Legitimate House Inheritance]
- message_filter_legitimate_house_inheritance: "@titles_icon! Legitimate House Inheritance"
-### TODO NOT-IN-ST: message_filter_legitimate_house_inheritance_desc [AGOT: Succession results for [agot_legitimate_house|E] titles]
- message_filter_legitimate_house_inheritance_desc: "Succession results for [agot_legitimate_house|E] titles"
-### TODO NOT-IN-ST: message_filter_agot_bank_interactions [AGOT: @gold_icon! Bank Interactions]
- message_filter_agot_bank_interactions: "@gold_icon! Bank Interactions"
-### TODO NOT-IN-ST: message_filter_agot_bank_interactions_desc [AGOT: Bank interactions messages]
- message_filter_agot_bank_interactions_desc: "Bank interactions messages"
-### TODO NOT-IN-ST: message_filter_agot_pirate_tax_results [AGOT: @gold_icon! Pirate Port Rate News]
- message_filter_agot_pirate_tax_results: "@gold_icon! Pirate Port Rate News"
-### TODO NOT-IN-ST: message_filter_agot_pirate_tax_results_desc [AGOT: Pirate port rates have been paid]
- message_filter_agot_pirate_tax_results_desc: "Pirate port rates have been paid"
-### TODO NOT-IN-ST: message_filter_agot_pirate_port_changed_law [AGOT: @alert_icon! Pirate Port Rate Changed]
- message_filter_agot_pirate_port_changed_law: "@alert_icon! Pirate Port Rate Changed"
-### TODO NOT-IN-ST: message_filter_agot_pirate_port_changed_law_desc [AGOT: Pirate port rates have changed]
- message_filter_agot_pirate_port_changed_law_desc: "Pirate port rates have changed"
-### TODO NOT-IN-ST: message_filter_agot_pirate_domicile_arrived_in_port [AGOT: @pirate_government! Pirate Port Arrivals]
- message_filter_agot_pirate_domicile_arrived_in_port: "@pirate_government! Pirate Port Arrivals"
-### TODO NOT-IN-ST: message_filter_agot_pirate_domicile_arrived_in_port_desc [AGOT: A new [agot_landless_pirate_domicile|E] has arrived in port]
- message_filter_agot_pirate_domicile_arrived_in_port_desc: "A new [agot_landless_pirate_domicile|E] has arrived in port"
-### TODO NOT-IN-ST: message_filter_agot_pirate_domicile_departed_port [AGOT: @pirate_government! Pirate Port Departures]
- message_filter_agot_pirate_domicile_departed_port: "@pirate_government! Pirate Port Departures"
-### TODO NOT-IN-ST: message_filter_agot_pirate_domicile_departed_port_desc [AGOT: A [agot_landless_pirate_domicile|E] has departed port]
- message_filter_agot_pirate_domicile_departed_port_desc: "A [agot_landless_pirate_domicile|E] has departed port"
+
+ message_filter_dragon_death:0 "@dragon_icon! Ejderha Ölümü"
+
+ message_filter_dragon_death_desc:0 "Bir [dragon|E] ölümü gerçekleşti"
+
+ message_filter_dragonrider_death:0 "@dragon_icon! Ejderha Binicisi Ölümü"
+
+ message_filter_dragonrider_death_desc:0 "Bir [GetTrait('dragonrider').GetName( GetNullCharacter )|LV] ölümü gerçekleşti"
+
+ message_filter_dragon_hatched:0 "@dragon_icon! Ejderha Yumurtası Çatlar"
+
+ message_filter_dragon_hatched_desc:0 "Bir [dragon|E] yumurtası çatladı"
+
+ message_filter_dragon_tamed:0 "@dragon_icon! Ejderha Evcilleştirildi"
+
+ message_filter_dragon_tamed_desc:0 "Bir [dragon|E] evcilleştirildi"
+
+ message_filter_iron_throne_inheritance:0 "@titles_icon! Demir Taht Veraseti"
+
+ message_filter_iron_throne_inheritance_desc:0 "Yeni bir karakter [GetTitleByKey('h_the_iron_throne').GetName]'e mirasçı oldu"
+
+ message_filter_nightswatch_inheritance:0 "@titles_icon! Gece Nöbetçileri Seçimi"
+
+ message_filter_nightswatch_inheritance_desc:0 "Yeni bir karakter Gece Nöbetçileri Komutanı oldu"
+
+ message_filter_agot_squire_training:0 "@cs_knight_icon! Silahşör Çırağı Eğitimi"
+
+ message_filter_agot_squire_training_desc:0 "Silahşör çırağı eğitimi mesajları"
+
+ message_filter_legitimate_house_inheritance:0 "@titles_icon! Meşru Hanedan Veraseti"
+
+ message_filter_legitimate_house_inheritance_desc:0 "[agot_legitimate_house|E] unvanları için veraset sonuçları"
+
+ message_filter_agot_bank_interactions:0 "@gold_icon! Banka Etkileşimleri"
+
+ message_filter_agot_bank_interactions_desc:0 "Banka etkileşimleri mesajları"
+
+ message_filter_agot_pirate_tax_results:0 "@gold_icon! Korsan Liman Ücreti Haberleri"
+
+ message_filter_agot_pirate_tax_results_desc:0 "Korsan liman ücretleri ödendi"
+
+ message_filter_agot_pirate_port_changed_law:0 "@alert_icon! Korsan Liman Ücreti Değişti"
+
+ message_filter_agot_pirate_port_changed_law_desc:0 "Korsan liman ücretleri değişti"
+
+ message_filter_agot_pirate_domicile_arrived_in_port:0 "@pirate_government! Korsan Limanına Varışlar"
+
+ message_filter_agot_pirate_domicile_arrived_in_port_desc:0 "Limana yeni bir [agot_landless_pirate_domicile|E] ulaştı"
+
+ message_filter_agot_pirate_domicile_departed_port:0 "@pirate_government! Korsan Limanından Ayrılışlar"
+
+ message_filter_agot_pirate_domicile_departed_port_desc:0 "Bir [agot_landless_pirate_domicile|E] limandan ayrıldı"

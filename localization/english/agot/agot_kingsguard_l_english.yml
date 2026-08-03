@@ -1,18 +1,18 @@
-﻿﻿﻿﻿l_english:
+﻿l_english:
 
  kingsguard_lord_commander_male:0 "Lord Kumandan"
 
  kingsguard_lord_commander_flavor:0 "Lord Kumandan"
-### TODO NOT-IN-ST: kingsguard_lord_commander [AGOT: Lord Commander of the Kingsguard]
- kingsguard_lord_commander: "Lord Commander of the Kingsguard"
-### TODO NOT-IN-ST: kingsguard_lord_commander_name [AGOT: $kingsguard_lord_commander$]
- kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
-### TODO NOT-IN-ST: kingsguard_lord_commander_tooltip [AGOT: $kingsguard_lord_commander$]
- kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
-### TODO NOT-IN-ST: queensguard_lord_commander_name [AGOT: Lord Commander of the Queensguard]
- queensguard_lord_commander_name:0 "Lord Commander of the Queensguard"
-### TODO NOT-IN-ST: KINGSGUARD [AGOT: [CHARACTER.Custom('KingsguardName')]]
- KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
+
+ kingsguard_lord_commander:0 "Kral Muhafızı Komutanı"
+
+ kingsguard_lord_commander_name:0 "$kingsguard_lord_commander$"
+
+ kingsguard_lord_commander_tooltip:0 "$kingsguard_lord_commander$"
+
+ queensguard_lord_commander_name:0 "Kraliçe Muhafızı Komutanı"
+
+ KINGSGUARD:0 "[CHARACTER.Custom('KingsguardName')]"
 
  kingsguard_possessive:0 "Kral Muhafızının"
 
@@ -27,64 +27,64 @@
  kingsguard_5:0 "Kral Muhafızı"
 
  kingsguard_6:0 "Kral Muhafızı"
-### TODO NOT-IN-ST: kingsguard_1_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_1_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: kingsguard_2_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_2_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: kingsguard_3_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_3_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: kingsguard_4_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_4_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: kingsguard_5_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_5_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: kingsguard_6_possessive [AGOT: $kingsguard_possessive$]
- kingsguard_6_possessive: "$kingsguard_possessive$"
-### TODO NOT-IN-ST: KINGSGUARD_CLICK_TO_HIRE [AGOT: Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]]
- KINGSGUARD_CLICK_TO_HIRE:0 "Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]"
-### TODO NOT-IN-ST: KINGSGUARD_TAB_BUTTON_TEXT [AGOT: Your [GetPlayer.Custom('KingsguardName')]]
- KINGSGUARD_TAB_BUTTON_TEXT:0 "Your [GetPlayer.Custom('KingsguardName')]"
+
+ kingsguard_1_possessive:0 "$kingsguard_possessive$"
+
+ kingsguard_2_possessive:0 "$kingsguard_possessive$"
+
+ kingsguard_3_possessive:0 "$kingsguard_possessive$"
+
+ kingsguard_4_possessive:0 "$kingsguard_possessive$"
+
+ kingsguard_5_possessive:0 "$kingsguard_possessive$"
+
+ kingsguard_6_possessive:0 "$kingsguard_possessive$"
+
+ KINGSGUARD_CLICK_TO_HIRE:0 "Karakterlerle etkileşime geçerek \nbir [ActiveCouncilTask.GetPositionName|E] atayın"
+
+ KINGSGUARD_TAB_BUTTON_TEXT:0 "[GetPlayer.Custom('KingsguardName')]'niz"
 
  kingsguard_name:0 "Kral Muhafızı"
-### TODO NOT-IN-ST: queensguard_name [AGOT: Queensguard]
- queensguard_name:0 "Queensguard"
-### TODO NOT-IN-ST: kingsguard_lord_commander_modifier [AGOT: Liege's Lord Commander]
- kingsguard_lord_commander_modifier:0 "Liege's Lord Commander"
-### TODO NOT-IN-ST: kingsguard_modifier [AGOT: Liege's Kingsguard]
- kingsguard_modifier:0 "Liege's Kingsguard"
-### TODO NOT-IN-ST: training_for_kingsguard [AGOT: Training to Join the Kingsguard]
- training_for_kingsguard:0 "Training to Join the Kingsguard"
-### TODO NOT-IN-ST: training_for_kingsguard_desc [AGOT: This character is training to join the Kingsguard.]
- training_for_kingsguard_desc:0 "This character is training to join the Kingsguard."
-### TODO NOT-IN-ST: kingsguard_oathbreaker [AGOT: Kingsguard Oathbreaker]
- kingsguard_oathbreaker:0 "Kingsguard Oathbreaker"
-### TODO NOT-IN-ST: kingsguard_oathbreaker_desc [AGOT: This character has sullied their sacred oath and forsaken the Kingsguard.]
- kingsguard_oathbreaker_desc:0 "This character has sullied their sacred oath and forsaken the Kingsguard."
-### TODO NOT-IN-ST: agot_former_kingsguard [AGOT: Former Kingsguard]
- agot_former_kingsguard:0 "Former Kingsguard"
+
+ queensguard_name:0 "Kraliçe Muhafızı"
+
+ kingsguard_lord_commander_modifier:0 "Efendinin Kral Muhafızı Komutanı"
+
+ kingsguard_modifier:0 "Efendinin Kral Muhafızı"
+
+ training_for_kingsguard:0 "Kral Muhafızına Katılmak İçin Eğitim"
+
+ training_for_kingsguard_desc:0 "Bu karakter, Kral Muhafızına katılmak için eğitim görüyor."
+
+ kingsguard_oathbreaker:0 "Kral Muhafızı Yeminbozan"
+
+ kingsguard_oathbreaker_desc:0 "Bu karakter kutsal yeminini lekelemiş ve Kral Muhafızlığı'ndan vazgeçmiştir."
+
+ agot_former_kingsguard:0 "Eski Kral Muhafızı"
 
  agot_former_kingsguard_desc:0 "Bu karakter, ömür boyu sürmesi gereken Kral Muhafızı görevinden azledildi."
-### TODO NOT-IN-ST: kingsguard_protection [AGOT: [councillor.GetModifierDescForTask('kingsguard_default_1')]]
- kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
-### TODO NOT-IN-ST: task_kingsguard_bodyguard_effect_desc [AGOT: [Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]]
- task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]"
-### TODO NOT-IN-ST: valid_kingsguard_bodyguard_court [AGOT: There are no unguarded members of your dynasty in this court.]
- valid_kingsguard_bodyguard_court: "There are no unguarded members of your dynasty in this court."
+
+ kingsguard_protection:0 "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
+
+ task_kingsguard_bodyguard_effect_desc:0 "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Korunan hanedan üyesi')] [GetModifier('kingsguard_bodyguard').GetNameWithTooltip] kazanır"
+
+ valid_kingsguard_bodyguard_court:0 "Bu sarayda hanedanınızın korunmayan üyesi yok."
 
  kingsguard_bodyguard:0 "Koruma"
-### TODO NOT-IN-ST: kingsguard_bodyguard_desc [AGOT: This character is being guarded by a member of the Kingsguard]
- kingsguard_bodyguard_desc: "This character is being guarded by a member of the Kingsguard"
-### TODO NOT-IN-ST: kingsguard_bodyguard_1 [AGOT: Guard Dynasty Member]
- kingsguard_bodyguard_1: "Guard Dynasty Member"
-### TODO NOT-IN-ST: kingsguard_bodyguard_2 [AGOT: $kingsguard_bodyguard_1$]
- kingsguard_bodyguard_2: "$kingsguard_bodyguard_1$"
-### TODO NOT-IN-ST: kingsguard_bodyguard_3 [AGOT: $kingsguard_bodyguard_1$]
- kingsguard_bodyguard_3: "$kingsguard_bodyguard_1$"
-### TODO NOT-IN-ST: kingsguard_bodyguard_4 [AGOT: $kingsguard_bodyguard_1$]
- kingsguard_bodyguard_4: "$kingsguard_bodyguard_1$"
-### TODO NOT-IN-ST: kingsguard_bodyguard_5 [AGOT: $kingsguard_bodyguard_1$]
- kingsguard_bodyguard_5: "$kingsguard_bodyguard_1$"
-### TODO NOT-IN-ST: kingsguard_bodyguard_6 [AGOT: $kingsguard_bodyguard_1$]
- kingsguard_bodyguard_6: "$kingsguard_bodyguard_1$"
+
+ kingsguard_bodyguard_desc:0 "Bu karakter, Kral Muhafızı'nın bir üyesi tarafından korunuyor"
+
+ kingsguard_bodyguard_1:0 "Hanedan Üyesini Koru"
+
+ kingsguard_bodyguard_2:0 "$kingsguard_bodyguard_1$"
+
+ kingsguard_bodyguard_3:0 "$kingsguard_bodyguard_1$"
+
+ kingsguard_bodyguard_4:0 "$kingsguard_bodyguard_1$"
+
+ kingsguard_bodyguard_5:0 "$kingsguard_bodyguard_1$"
+
+ kingsguard_bodyguard_6:0 "$kingsguard_bodyguard_1$"
 
  kingsguard_lord_commander_default:0 "Koruma"
 
@@ -99,13 +99,13 @@
  kingsguard_default_5:0 "Koruma"
 
  kingsguard_default_6:0 "Koruma"
-### TODO NOT-IN-ST: task_protection_modifier [AGOT: Kingsguard Protection]
- task_protection_modifier:1 "Kingsguard Protection"
-### TODO NOT-IN-ST: you_agot_kingsguard_can_fire [AGOT: Kingsguards may be fired or reassigned if certain requirements are met.]
- you_agot_kingsguard_can_fire:0 "Kingsguards may be fired or reassigned if certain requirements are met."
-### TODO NOT-IN-ST: you_dont_agot_kingsguard_can_fire [AGOT: A kingsguard serves for life, unless you break with that tradition.]
- you_dont_agot_kingsguard_can_fire:0 "A kingsguard serves for life, unless you break with that tradition."
+
+ task_protection_modifier:0 "Kral Muhafızı Koruması"
+
+ you_agot_kingsguard_can_fire:0 "Belirli koşullar sağlanırsa Kral Muhafızları görevden alınabilir ya da yeniden atanabilir."
+
+ you_dont_agot_kingsguard_can_fire:0 "Bu geleneği bozmadığınız sürece bir Kral Muhafızı ömür boyu hizmet eder."
 
  you_agot_kingsguard_fire_requirements:0 "YER TUTUCU"
-### TODO NOT-IN-ST: you_dont_agot_kingsguard_fire_requirements [AGOT: PLACEHOLDER does not fit requirements]
- you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER does not fit requirements"
+
+ you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER koşulları karşılamıyor"

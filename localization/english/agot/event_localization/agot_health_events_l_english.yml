@@ -1,81 +1,81 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: health.3101.m [AGOT: Send for a Maester! Now!]
- health.3101.m:0 "Send for a Maester! Now!"
-### TODO NOT-IN-ST: health.3101.m.tt [AGOT: We will contact the Citadel to send us a [GetCourtPositionType('maester_court_position').GetName()]]
- health.3101.m.tt:1 "We will contact the Citadel to send us a [GetCourtPositionType('maester_court_position').GetName()]"
-### TODO NOT-IN-ST: health.3101.m_sick_physician [AGOT: I require a new maester!]
- health.3101.m_sick_physician:0 "I require a new maester!"
-### TODO NOT-IN-ST: maester_level_up_chance_effect.t [AGOT: Maester's Knowledge Increases]
- maester_level_up_chance_effect.t:0 "Maester's Knowledge Increases"
-### TODO NOT-IN-ST: health.6002.desc_dragon [AGOT: This idea is not new to me. I have been having darker thoughts of late and it must have been noticed. As I walk towards [helping_dragon.GetFirstName] something about my demeanor must send the wrong message.]
- health.6002.desc_dragon:0 "This idea is not new to me. I have been having darker thoughts of late and it must have been noticed. As I walk towards [helping_dragon.GetFirstName] something about my demeanor must send the wrong message."
-### TODO NOT-IN-ST: health.6001.dragon [AGOT: In my final act as rider, I shall use [helping_dragon.GetName].]
- health.6001.dragon:0 "In my final act as rider, I shall use [helping_dragon.GetName]."
-### TODO NOT-IN-ST: agot_health_events.1000.t [AGOT: Blurred Vision]
- agot_health_events.1000.t:0 "Blurred Vision"
-### TODO NOT-IN-ST: agot_health_events.1000.desc [AGOT: As I pore over the pages of the tome, the ink begins to blur and dance before my eyes. Panic grips me as the once clear words now twist themselves into illegible shapes. \n\nI blinked hard, hoping it was a momentary lapse. Yet panic grips me as the letters continue to evade me, slipping further into obscurity...]
- agot_health_events.1000.desc:0 "As I pore over the pages of the tome, the ink begins to blur and dance before my eyes. Panic grips me as the once clear words now twist themselves into illegible shapes. \n\nI blinked hard, hoping it was a momentary lapse. Yet panic grips me as the letters continue to evade me, slipping further into obscurity..."
-### TODO NOT-IN-ST: agot_health_events.1000.a [AGOT: What is happening to my sight?]
- agot_health_events.1000.a:0 "What is happening to my sight?"
-### TODO NOT-IN-ST: agot_health_events.1001.t [AGOT: Half-Blind]
- agot_health_events.1001.t:0 "Half-Blind"
-### TODO NOT-IN-ST: agot_health_events.1001.desc [AGOT: My heart races as darkness creeps into the periphery of my left eye, spreading like ink on wet paper as the days go on. While the sight in my right eye is weaker, yet no less still present, my left eye continues to succumb to a stubborn haze.\n\nI rub it frantically, but it's no use. The blurring intensifies, and soon, all vision from my left eye is gone.\n\nI am blind in one eye, half my world now veiled in darkness. Fear tightens its grip on me as I grapple with this sudden, terrifying change.]
- agot_health_events.1001.desc:0 "My heart races as darkness creeps into the periphery of my left eye, spreading like ink on wet paper as the days go on. While the sight in my right eye is weaker, yet no less still present, my left eye continues to succumb to a stubborn haze.\n\nI rub it frantically, but it's no use. The blurring intensifies, and soon, all vision from my left eye is gone.\n\nI am blind in one eye, half my world now veiled in darkness. Fear tightens its grip on me as I grapple with this sudden, terrifying change."
-### TODO NOT-IN-ST: agot_health_events.1001.a [AGOT: How will I navigate this new, fractured reality?]
- agot_health_events.1001.a:0 "How will I navigate this new, fractured reality?"
+﻿l_english:
+
+ health.3101.m:0 "Bir Üstat Çağırın! Hemen!"
+
+ health.3101.m.tt:0 "Kale ile iletişime geçip bize bir [GetCourtPositionType('maester_court_position').GetName()] göndermelerini isteyeceğiz"
+
+ health.3101.m_sick_physician:0 "Yeni bir üstada ihtiyacım var!"
+
+ maester_level_up_chance_effect.t:0 "Üstadın Bilgisi Artar"
+
+ health.6002.desc_dragon:0 "Bu fikir bana yabancı değil. Son zamanlarda karanlık düşünceler içindeyim ve bunun fark edilmiş olması gerek. [helping_dragon.GetFirstName]'e doğru yürürken, halimdeki bir şey yanlış mesaj veriyor olmalı."
+
+ health.6001.dragon:0 "Binici olarak son hamlemde [helping_dragon.GetName]'i kullanacağım."
+
+ agot_health_events.1000.t:0 "Bulanık Görüş"
+
+ agot_health_events.1000.desc:0 "Cildin sayfalarını incelerken mürekkep gözlerimin önünde bulanıklaşıp dans etmeye başlıyor. Bir zamanlar net olan sözcükler şimdi okunaksız şekillere bürünürken panik beni kavrıyor. \n\nGözlerimi sıkıca kırptım, geçici bir dalgınlık olduğunu umarak. Ama harfler benden kaçmaya devam edip belirsizliğin içinde kaybolurken panik beni yeniden sarıyor..."
+
+ agot_health_events.1000.a:0 "Görüşüme ne oluyor?"
+
+ agot_health_events.1001.t:0 "Tek Gözü Kör"
+
+ agot_health_events.1001.desc:0 "Sol gözümün kenarına karanlık sızarken kalbim hızla çarpıyor; günler geçtikçe ıslak kâğıda yayılan mürekkep gibi yayılıyor. Sağ gözümün görüşü daha zayıf olsa da hâlâ yerinde; sol gözüm ise inatçı bir buğuya yenik düşmeye devam ediyor.\n\nÇaresizce ovuşturuyorum ama faydası yok. Bulanıklık yoğunlaşıyor ve çok geçmeden sol gözümden gelen tüm görüntü kayboluyor.\n\nTek gözüm kördü, dünyamın yarısı artık karanlığa bürünmüş. Bu ani, dehşet verici değişimle boğuşurken korku pençesini üzerimde sıkılaştırıyor."
+
+ agot_health_events.1001.a:0 "Bu yeni, parçalanmış gerçeklikte nasıl yol bulacağım?"
 
  agot_health_events.1002.t:0 "Yaştan Kör"
-### TODO NOT-IN-ST: agot_health_events.1002.desc [AGOT: Since losing half of my sight, I have learned to rely more on my remaining sight, however weak it is, finding new ways to adapt. But the fear never leaves me as my remaining vision blurs more and more by the day. \n\nOne morning, I wake up to find that all remaining sight in my right eye is gone! Panic rises as I find my world has at last dimmed to complete darkness.\n\nI am blind.\n\nMy heart races, but now I must confront a new, more daunting challenge: navigating a world entirely without sight. Fear grips me, but I must find the strength to adapt once more.]
- agot_health_events.1002.desc:0 "Since losing half of my sight, I have learned to rely more on my remaining sight, however weak it is, finding new ways to adapt. But the fear never leaves me as my remaining vision blurs more and more by the day. \n\nOne morning, I wake up to find that all remaining sight in my right eye is gone! Panic rises as I find my world has at last dimmed to complete darkness.\n\nI am blind.\n\nMy heart races, but now I must confront a new, more daunting challenge: navigating a world entirely without sight. Fear grips me, but I must find the strength to adapt once more."
-### TODO NOT-IN-ST: agot_health_events.1002.a [AGOT: Age has taken more from me.]
- agot_health_events.1002.a:0 "Age has taken more from me."
+
+ agot_health_events.1002.desc:0 "Görüşümün yarısını kaybettiğimden beri, ne kadar zayıf olsa da kalan görüşüme daha çok güvenmeyi ve yeni uyum yolları bulmayı öğrendim. Ama kalan görüşüm gün geçtikçe bulanıklaşırken korku beni hiç terk etmiyor. \n\nBir sabah uyandığımda sağ gözümdeki kalan tüm görüşün de yok olduğunu görüyorum! Dünyamın nihayet tam bir karanlığa gömüldüğünü fark ettiğimde panik yükseliyor.\n\nKör oldum.\n\nKalbim hızla çarpıyor, ama şimdi daha yeni, daha ürkütücü bir meydan okumayla yüzleşmeliyim: görüşün hiç olmadığı bir dünyada yol bulmak. Korku beni kavrıyor, ama bir kez daha uyum sağlama gücünü bulmalıyım."
+
+ agot_health_events.1002.a:0 "Yaşlılık benden daha fazlasını aldı."
 
  agot_health_events.1003.t:0 "Yaştan Kör"
-### TODO NOT-IN-ST: agot_health_events.1003.desc [AGOT: My heart races, a cold sweat forming on my brow. Each attempt to focus only makes the world fuzzier. I rub my eyes, but it's no use. The vibrant colors of the room have begun to fade into a murky grey, and shadows creep into the edges of my vision.\n\nThe realization hits me like a blow — I am losing my sight.\n\nFear tightens its grip as I struggle to make sense of my surroundings. The truth is undeniable now; Age has begun to steal my sight, and darkness slowly closes in, enveloping me into an inescapable void.]
- agot_health_events.1003.desc:0 "My heart races, a cold sweat forming on my brow. Each attempt to focus only makes the world fuzzier. I rub my eyes, but it's no use. The vibrant colors of the room have begun to fade into a murky grey, and shadows creep into the edges of my vision.\n\nThe realization hits me like a blow — I am losing my sight.\n\nFear tightens its grip as I struggle to make sense of my surroundings. The truth is undeniable now; Age has begun to steal my sight, and darkness slowly closes in, enveloping me into an inescapable void."
-### TODO NOT-IN-ST: agot_health_events.1003.a [AGOT: It seems the enemy of Man is time.]
- agot_health_events.1003.a:0 "It seems the enemy of Man is time."
-### TODO NOT-IN-ST: agot_health_events.1004.t [AGOT: Eyesight Scare]
- agot_health_events.1004.t:0 "Eyesight Scare"
-### TODO NOT-IN-ST: agot_health_events.1004.desc [AGOT: I spend the next few days in a haze, my world reduced to shadows and vague outlines. Each day feels eternal, my senses heightened to compensate for my lost vision.\n\nThen, one morning, I wake up and blink into the sunlight streaming through the window. The room sharpens into focus, details crystallizing before my eyes. Relief floods over me as I take in the familiar surroundings.\n\nMy sight has returned, as suddenly as it had vanished, leaving me with a newfound appreciation for the gift of vision.]
- agot_health_events.1004.desc:0 "I spend the next few days in a haze, my world reduced to shadows and vague outlines. Each day feels eternal, my senses heightened to compensate for my lost vision.\n\nThen, one morning, I wake up and blink into the sunlight streaming through the window. The room sharpens into focus, details crystallizing before my eyes. Relief floods over me as I take in the familiar surroundings.\n\nMy sight has returned, as suddenly as it had vanished, leaving me with a newfound appreciation for the gift of vision."
-### TODO NOT-IN-ST: agot_health_events.1004.a [AGOT: The world is a wonderful carousel of color.]
- agot_health_events.1004.a:0 "The world is a wonderful carousel of color."
-### TODO NOT-IN-ST: agot_health_events.3001.t [AGOT: A Wound That Will Never Heal]
- agot_health_events.3001.t:0 "A Wound That Will Never Heal"
-### TODO NOT-IN-ST: agot_health_events.3001.desc_intro [AGOT: In my hand mirror, I gaze upon the bandages that have covered my face throughout my long recovery. During my healing, I was forbidden from seeing what lay beneath them, no matter how much I protested. I was told there would be plenty of time to see my new face once the healing process was complete. I finally peel off the wrappings, only to realize I don't recognize the person staring back at me in the mirror.]
- agot_health_events.3001.desc_intro:0 "In my hand mirror, I gaze upon the bandages that have covered my face throughout my long recovery. During my healing, I was forbidden from seeing what lay beneath them, no matter how much I protested. I was told there would be plenty of time to see my new face once the healing process was complete. I finally peel off the wrappings, only to realize I don't recognize the person staring back at me in the mirror."
-### TODO NOT-IN-ST: agot_health_events.3001.desc_disfigurement_1 [AGOT: \n\nThe injury has devastated the right side of my face... the damage to my jaw and features is catastrophic... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?]
- agot_health_events.3001.desc_disfigurement_1:0 "\n\nThe injury has devastated the right side of my face... the damage to my jaw and features is catastrophic... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?"
-### TODO NOT-IN-ST: agot_health_events.3001.desc_disfigurement_2 [AGOT: \n\nThe injury has ravaged my face... my nose is gone, and the right side of my mouth is grotesquely misshapen... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?]
- agot_health_events.3001.desc_disfigurement_2:0 "\n\nThe injury has ravaged my face... my nose is gone, and the right side of my mouth is grotesquely misshapen... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?"
-### TODO NOT-IN-ST: agot_health_events.3001.desc_disfigurement_3 [AGOT: \n\nThe injury has destroyed my mouth... the damage to my flesh is grievous... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?]
- agot_health_events.3001.desc_disfigurement_3:0 "\n\nThe injury has destroyed my mouth... the damage to my flesh is grievous... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?"
-### TODO NOT-IN-ST: agot_health_events.3001.desc_disfigurement_4 [AGOT: \n\nThe injury has devastated the left side of my face... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?]
- agot_health_events.3001.desc_disfigurement_4:0 "\n\nThe injury has devastated the left side of my face... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?"
-### TODO NOT-IN-ST: agot_health_events.3001.desc_disfigurement_5 [AGOT: \n\nThe injury has ravaged my face... my nose is gone... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?]
- agot_health_events.3001.desc_disfigurement_5:0 "\n\nThe injury has ravaged my face... my nose is gone... the reflection I remembered is gone.\n\nI now face a decision — should I wear a mask and hide my disfigurement from the realm, or should I allow my new visage to be witnessed by all?"
-### TODO NOT-IN-ST: agot_health_events.3001.a [AGOT: Let them bear witness to this horror.]
- agot_health_events.3001.a:0 "Let them bear witness to this horror."
-### TODO NOT-IN-ST: agot_health_events.3001.b [AGOT: I must wear a mask to help me rule.]
- agot_health_events.3001.b:0 "I must wear a mask to help me rule."
-### TODO NOT-IN-ST: agot_health_events.3001.c [AGOT: I will hide my entire face from the world.]
- agot_health_events.3001.c:0 "I will hide my entire face from the world."
-### TODO NOT-IN-ST: agot_health_events.4000.t [AGOT: An Irreplaceable Loss]
- agot_health_events.4000.t:0 "An Irreplaceable Loss"
-### TODO NOT-IN-ST: agot_health_events.4000.desc [AGOT: The bandages are finally removed, and the truth is plain. Where once there was pain, there is now only absence. The wound has healed, but my eye will not return.\n\nSeveral coverings are laid out before me. I must choose whether to take one up, or to face the realm as I am.]
- agot_health_events.4000.desc:0 "The bandages are finally removed, and the truth is plain. Where once there was pain, there is now only absence. The wound has healed, but my eye will not return.\n\nSeveral coverings are laid out before me. I must choose whether to take one up, or to face the realm as I am."
-### TODO NOT-IN-ST: agot_health_events.4000.a [AGOT: A simple cloth band will suffice.]
- agot_health_events.4000.a:0 "A simple cloth band will suffice."
-### TODO NOT-IN-ST: agot_health_events.4000.b [AGOT: A basic eye patch is the practical choice.]
- agot_health_events.4000.b:0 "A basic eye patch is the practical choice."
-### TODO NOT-IN-ST: agot_health_events.4000.c [AGOT: A triangular eye patch will set me apart.]
- agot_health_events.4000.c:0 "A triangular eye patch will set me apart."
-### TODO NOT-IN-ST: agot_health_events.4000.d [AGOT: A round eye patch will do.]
- agot_health_events.4000.d:0 "A round eye patch will do."
-### TODO NOT-IN-ST: agot_health_events.4000.e [AGOT: A decorated patch, worthy of my station.]
- agot_health_events.4000.e:0 "A decorated patch, worthy of my station."
-### TODO NOT-IN-ST: agot_health_events.4000.f [AGOT: A clean bandage would be enough.]
- agot_health_events.4000.f:0 "A clean bandage would be enough."
-### TODO NOT-IN-ST: agot_health_events.4000.g [AGOT: I will wear nothing and let the truth be seen.]
- agot_health_events.4000.g:0 "I will wear nothing and let the truth be seen."
+
+ agot_health_events.1003.desc:0 "Kalbim hızla çarpıyor, alnımda soğuk bir ter oluşuyor. Odaklanmaya yönelik her deneme dünyayı daha da bulanıklaştırıyor. Gözlerimi ovuşturuyorum ama faydası yok. Odanın canlı renkleri bulanık bir griye solmaya başladı ve gölgeler görüş alanımın kenarlarına süzülüyor.\n\nGerçek bana bir darbe gibi çarpıyor — görüşümü kaybediyorum.\n\nÇevremi anlamlandırmak için çabalarken korku pençesini sıkılaştırıyor. Gerçek artık yadsınamaz; yaşlılık görüşümü çalmaya başladı ve karanlık yavaşça yaklaşıp beni kaçışı olmayan bir boşluğun içine sarıyor."
+
+ agot_health_events.1003.a:0 "Görünüşe göre İnsanın düşmanı zamandır."
+
+ agot_health_events.1004.t:0 "Görme Korkusu"
+
+ agot_health_events.1004.desc:0 "Sonraki birkaç günü bir sisin içinde geçiriyorum; dünyam gölgelere ve belirsiz ana hatlara indirgenmiş durumda. Her gün sonsuz gibi geliyor; kaybettiğim görüşü telafi etmek için duyularım keskinleşmiş.\n\nSonra, bir sabah uyanıp pencereden süzülen güneş ışığına gözlerimi kırpıştırıyorum. Oda netleşiyor, ayrıntılar gözlerimin önünde billurlaşıyor. Bildik çevreyi algıladıkça içimi bir rahatlama kaplıyor.\n\nGörüşüm, kaybolduğu kadar aniden geri döndü ve bana görme armağanına karşı yeni bir minnet bıraktı."
+
+ agot_health_events.1004.a:0 "Dünya harika bir renk atlıkarıncası."
+
+ agot_health_events.3001.t:0 "Asla İyileşmeyecek Bir Yara"
+
+ agot_health_events.3001.desc_intro:0 "El aynamda, uzun iyileşme sürecim boyunca yüzümü kaplamış olan sargı bezlere bakıyorum. İyileşme sürecimde, ne kadar itiraz etsem de altlarında ne olduğunu görmem yasaklanmıştı. İyileşme tamamlandığında yeni yüzümü görmek için bolca zaman olacağı söylenmişti. Sonunda sargıları söküyorum, ama karşımdaki aynadaki kişiyi tanıyamadığımı fark ediyorum."
+
+ agot_health_events.3001.desc_disfigurement_1:0 "\n\nYara, yüzümün sağ tarafını harap etti... çenemdeki ve hatlarımdaki hasar felaket düzeyinde... hatırladığım yansıma gitmiş.\n\nŞimdi bir kararla karşı karşıyayım — diyarın gözünden saklamak için maske mi takmalıyım, yoksa yeni çehremi herkesin görmesine izin mi vermeliyim?"
+
+ agot_health_events.3001.desc_disfigurement_2:0 "\n\nYara yüzümü harap etti... burnum yok olmuş ve ağzımın sağ tarafı korkunç biçimde şekilsiz... hatırladığım yansıma gitmiş.\n\nŞimdi bir kararla karşı karşıyayım — diyarın gözünden saklamak için maske mi takmalıyım, yoksa yeni çehremi herkesin görmesine izin mi vermeliyim?"
+
+ agot_health_events.3001.desc_disfigurement_3:0 "\n\nYara ağzımı yok etti... etime verdiği hasar ağır... hatırladığım yansıma gitmiş.\n\nŞimdi bir kararla karşı karşıyayım — diyarın gözünden saklamak için maske mi takmalıyım, yoksa yeni çehremi herkesin görmesine izin mi vermeliyim?"
+
+ agot_health_events.3001.desc_disfigurement_4:0 "\n\nYara, yüzümün sol tarafını harap etti... hatırladığım yansıma gitmiş.\n\nŞimdi bir kararla karşı karşıyayım — diyarın gözünden saklamak için maske mi takmalıyım, yoksa yeni çehremi herkesin görmesine izin mi vermeliyim?"
+
+ agot_health_events.3001.desc_disfigurement_5:0 "\n\nYara yüzümü harap etti... burnum yok olmuş... hatırladığım yansıma gitmiş.\n\nŞimdi bir kararla karşı karşıyayım — diyarın gözünden saklamak için maske mi takmalıyım, yoksa yeni çehremi herkesin görmesine izin mi vermeliyim?"
+
+ agot_health_events.3001.a:0 "Bu dehşete tanık olsunlar."
+
+ agot_health_events.3001.b:0 "Hüküm sürmeme yardım etmesi için maske takmalıyım."
+
+ agot_health_events.3001.c:0 "Tüm yüzümü dünyadan gizleyeceğim."
+
+ agot_health_events.4000.t:0 "Yeri Doldurulamaz Bir Kayıp"
+
+ agot_health_events.4000.desc:0 "Sargılar nihayet çıkarıldı ve gerçek ortada. Bir zamanlar acının olduğu yerde artık yalnızca bir yokluk var. Yara iyileşti ama gözüm geri gelmeyecek.\n\nÖnüme birkaç örtü serildi. Birini alıp almamaya ya da diyarla olduğum gibi yüzleşmeye karar vermeliyim."
+
+ agot_health_events.4000.a:0 "Sade bir kumaş bant yeterli olur."
+
+ agot_health_events.4000.b:0 "Basit bir göz bandı pratik seçim."
+
+ agot_health_events.4000.c:0 "Üçgen bir göz bandı beni diğerlerinden ayıracak."
+
+ agot_health_events.4000.d:0 "Yuvarlak bir göz bandı olur."
+
+ agot_health_events.4000.e:0 "Mevkime yakışır, süslü bir bant."
+
+ agot_health_events.4000.f:0 "Temiz bir sargı yeterli olur."
+
+ agot_health_events.4000.g:0 "Hiçbir şey takmayacağım ve gerçeğin görülmesine izin vereceğim."

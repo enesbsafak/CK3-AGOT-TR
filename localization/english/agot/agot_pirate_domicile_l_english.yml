@@ -1,123 +1,123 @@
 ﻿l_english:
-### TODO NOT-IN-ST: agot_pirate_ship_domicile_type [AGOT: $game_concept_agot_landless_pirate_domicile$]
+
 agot_pirate_ship_domicile_type:0 "$game_concept_agot_landless_pirate_domicile$"
-### TODO NOT-IN-ST: agot_pirate_ship_domicile_title [AGOT: [CHARACTER.GetFirstNamePossessiveNoTooltip] $agot_pirate_ship_domicile_type$]
+
 agot_pirate_ship_domicile_title:0 "[CHARACTER.GetFirstNamePossessiveNoTooltip] $agot_pirate_ship_domicile_type$"
-### TODO NOT-IN-ST: agot_pirate_ship_domicile_type_tooltip [AGOT: $agot_pirate_ship_domicile_type$]
+
 agot_pirate_ship_domicile_type_tooltip:0 "$agot_pirate_ship_domicile_type$"
-### TODO NOT-IN-ST: agot_pirate_ship_move_desc [AGOT: Move your $agot_pirate_ship_domicile_type$ to a different location.]
-agot_pirate_ship_move_desc:0 "Move your $agot_pirate_ship_domicile_type$ to a different location."
-### TODO NOT-IN-ST: game_concept_agot_landless_pirate_domicile [AGOT: Pirate Ship]
-game_concept_agot_landless_pirate_domicile:0 "Pirate Ship"
-### TODO NOT-IN-ST: game_concept_agot_landless_pirate_domiciles [AGOT: Pirate Ships]
-game_concept_agot_landless_pirate_domiciles:0 "Pirate Ships"
-### TODO NOT-IN-ST: game_concept_agot_landless_pirate_domicile_desc [AGOT: $game_concept_agot_landless_pirate_domiciles$ are a [domicile|E] exclusive to the [pirate_govt|E] [government_form|E].\n\n$game_concept_agot_landless_pirate_domiciles$ are utilized by both landed and landless [characters|e]. Landed pirates cannot move their $game_concept_agot_landless_pirate_domicile$ outside of their capital, and landless pirates may move their $game_concept_agot_landless_pirate_domicile$ between [pirate_den_holdings|E], [settlement_holdings|E], and [wilderness_holdings|E] only.\n\nWhen landless pirates move their $game_concept_agot_landless_pirate_domiciles$ to a new $game_concept_pirate_den$, they must pay a one-time docking fee, a yearly fee, and will be bound to join the [county|e] holder in any defensive wars. Landed pirates can set the intensity of these port fees through [laws|E].]
-game_concept_agot_landless_pirate_domicile_desc:0 "$game_concept_agot_landless_pirate_domiciles$ are a [domicile|E] exclusive to the [pirate_govt|E] [government_form|E].\n\n$game_concept_agot_landless_pirate_domiciles$ are utilized by both landed and landless [characters|e]. Landed pirates cannot move their $game_concept_agot_landless_pirate_domicile$ outside of their capital, and landless pirates may move their $game_concept_agot_landless_pirate_domicile$ between [pirate_den_holdings|E], [settlement_holdings|E], and [wilderness_holdings|E] only.\n\nWhen landless pirates move their $game_concept_agot_landless_pirate_domiciles$ to a new $game_concept_pirate_den$, they must pay a one-time docking fee, a yearly fee, and will be bound to join the [county|e] holder in any defensive wars. Landed pirates can set the intensity of these port fees through [laws|E]."
-### TODO NOT-IN-ST: agot_cannot_become_adventurer_as_pirate_with_valid_relocation_target [AGOT: Must not have any valid travel destinations as a landless [agot_landless_pirate_domicile|e] holder]
-agot_cannot_become_adventurer_as_pirate_with_valid_relocation_target:0 "Must not have any valid travel destinations as a landless [agot_landless_pirate_domicile|e] holder"
-### TODO NOT-IN-ST: game_concept_pirate_dominate_title [AGOT: Dominate Title]
-game_concept_pirate_dominate_title:0 "Dominate Title"
-### TODO NOT-IN-ST: game_concept_pirate_domination_war [AGOT: Pirate Domination War]
-game_concept_pirate_domination_war:0 "Pirate Domination War"
-### TODO NOT-IN-ST: game_concept_pirate_dominate_title_desc [AGOT: Pirates who want to gain a [title|E] of a higher [title_tier|E] must fight the local inhabitants of an area over a title.\n\nIf there is someone holding the title in question, they will begin a war against that target to usurp the title from them. If there isn't anyone holding the title in question, they will instead fight every single non-[tributary|E], non-[ally|E] in the [de_jure|E] area of the title.\n\nOn a victory, the aggressor will gain the title in question, and all defenders will become their Tributaries. On a loss, the aggressor will pay [gold_i][gold|E] to the defender, and lose a significant amount of [dread_i][dread|E].\n\nIf the [decision|E] taker holds the whole De Jure area, they will simply gain the title immediately, as there are no defenders to be fought.]
-game_concept_pirate_dominate_title_desc:0 "Pirates who want to gain a [title|E] of a higher [title_tier|E] must fight the local inhabitants of an area over a title.\n\nIf there is someone holding the title in question, they will begin a war against that target to usurp the title from them. If there isn't anyone holding the title in question, they will instead fight every single non-[tributary|E], non-[ally|E] in the [de_jure|E] area of the title.\n\nOn a victory, the aggressor will gain the title in question, and all defenders will become their Tributaries. On a loss, the aggressor will pay [gold_i][gold|E] to the defender, and lose a significant amount of [dread_i][dread|E].\n\nIf the [decision|E] taker holds the whole De Jure area, they will simply gain the title immediately, as there are no defenders to be fought."
-### TODO NOT-IN-ST: pirate_domination_war_holder_custom_tooltip [AGOT: Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]#weak (@soldier_icon![main_defender.MakeScope.ScriptValue('dominate_title_current_ally_strength')|N0])#!]
-pirate_domination_war_holder_custom_tooltip:0 "Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]#weak (@soldier_icon![main_defender.MakeScope.ScriptValue('dominate_title_current_ally_strength')|N0])#!"
-### TODO NOT-IN-ST: pirate_domination_war_no_holder_custom_tooltip [AGOT: Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]\n\t$BULLET$Every non-[tributary|E] and non-[ally|E] [de_jure|E] [county|E] [holder|E] of [title_scope.GetName] will join [main_defender.GetShortUIName] as a defender #weak (@soldier_icon![root_scope.MakeScope.ScriptValue('dominate_title_current_enemy_strength')|N0])#!]
-pirate_domination_war_no_holder_custom_tooltip:0 "Start a [pirate_domination_war|E] against [main_defender.GetShortUIName] over [title_scope.GetName]\n\t$BULLET$Every non-[tributary|E] and non-[ally|E] [de_jure|E] [county|E] [holder|E] of [title_scope.GetName] will join [main_defender.GetShortUIName] as a defender #weak (@soldier_icon![root_scope.MakeScope.ScriptValue('dominate_title_current_enemy_strength')|N0])#!"
-### TODO NOT-IN-ST: agot_raid_pirate_domicile [AGOT: Raid $agot_pirate_ship_domicile_type$]
-agot_raid_pirate_domicile:0 "Raid $agot_pirate_ship_domicile_type$"
-### TODO NOT-IN-ST: agot_raid_pirate_domicile_desc [AGOT: [SCHEME.GetTargetCharacter.GetShortUIName] grows too bold — a raid will put [SCHEME.GetTargetCharacter.GetHerHim] in [SCHEME.GetTargetCharacter.GetHerHis] place.]
-agot_raid_pirate_domicile_desc:0 "[SCHEME.GetTargetCharacter.GetShortUIName] grows too bold — a raid will put [SCHEME.GetTargetCharacter.GetHerHim] in [SCHEME.GetTargetCharacter.GetHerHis] place."
-### TODO NOT-IN-ST: agot_raid_pirate_domicile_desc_general [AGOT: $agot_raid_pirate_domicile$ is a [hostile_scheme|E] that aims to raid the [agot_landless_pirate_domicile|E] of another pirate. It is based on [intrigue|E], and can recruit [agents|E].\n\nA successful $agot_raid_pirate_domicile$ can result in theft of the target's [gold|E] and [artifacts|E], as well as damage to their [agot_landless_pirate_domicile|E], and even the death of their courtiers.]
-agot_raid_pirate_domicile_desc_general:0 "$agot_raid_pirate_domicile$ is a [hostile_scheme|E] that aims to raid the [agot_landless_pirate_domicile|E] of another pirate. It is based on [intrigue|E], and can recruit [agents|E].\n\nA successful $agot_raid_pirate_domicile$ can result in theft of the target's [gold|E] and [artifacts|E], as well as damage to their [agot_landless_pirate_domicile|E], and even the death of their courtiers."
-### TODO NOT-IN-ST: agot_raid_pirate_domicile_action [AGOT: $raid_estate_action$]
+
+agot_pirate_ship_move_desc:0 "$agot_pirate_ship_domicile_type$'nizi farklı bir konuma taşıyın."
+
+game_concept_agot_landless_pirate_domicile:0 "Korsan Gemisi"
+
+game_concept_agot_landless_pirate_domiciles:0 "Korsan Gemileri"
+
+game_concept_agot_landless_pirate_domicile_desc:0 "$game_concept_agot_landless_pirate_domiciles$, [pirate_govt|E] [government_form|E]'ine özel bir [domicile|E]'dir.\n\n$game_concept_agot_landless_pirate_domiciles$ hem toprak sahibi hem de topraksız [characters|e] tarafından kullanılır. Toprak sahibi korsanlar $game_concept_agot_landless_pirate_domicile$'lerini başkentlerinin dışına taşıyamaz; topraksız korsanlar ise $game_concept_agot_landless_pirate_domicile$'lerini yalnızca [pirate_den_holdings|E], [settlement_holdings|E] ve [wilderness_holdings|E] arasında taşıyabilir.\n\nTopraksız korsanlar $game_concept_agot_landless_pirate_domiciles$'lerini yeni bir $game_concept_pirate_den$'e taşıdıklarında, tek seferlik bir yanaşma ücreti ve yıllık bir ücret ödemek zorundadırlar ve [county|e] sahibinin savunma savaşlarına katılmakla yükümlü olurlar. Toprak sahibi korsanlar bu liman ücretlerinin miktarını [laws|E] aracılığıyla belirleyebilir."
+
+agot_cannot_become_adventurer_as_pirate_with_valid_relocation_target:0 "Topraksız bir [agot_landless_pirate_domicile|e] sahibi olarak hiçbir geçerli seyahat hedefiniz olmamalıdır"
+
+game_concept_pirate_dominate_title:0 "Unvana Hükmet"
+
+game_concept_pirate_domination_war:0 "Korsan Hâkimiyet Savaşı"
+
+game_concept_pirate_dominate_title_desc:0 "Unvanlarını daha yüksek bir [title_tier|E]'e çıkarmak isteyen korsanlar, bir bölgenin yerel sakinleriyle bir unvan için savaşmak zorundadır.\n\nSöz konusu unvan birine aitse, unvanı ondan gasp etmek için o hedefe karşı savaş başlatırlar. Eğer unvan kimseye ait değilse, bunun yerine unvanın [de_jure|E] alanındaki [tributary|E] ve [ally|E] olmayan herkesle savaşırlar.\n\nZafer hâlinde saldırgan söz konusu unvanı kazanır ve tüm savunanlar onun Haraçgüzarları hâline gelir. Yenilgi hâlinde saldırgan savunana [gold_i][gold|E] öder ve önemli miktarda [dread_i][dread|E] kaybeder.\n\n[decision|E] alıcısı De Jure alanının tamamına sahipse, savaşılacak savunan olmadığı için unvanı hemen kazanır."
+
+pirate_domination_war_holder_custom_tooltip:0 "[title_scope.GetName] üzerinde [main_defender.GetShortUIName]'e karşı bir [pirate_domination_war|E] başlat#weak (@soldier_icon![main_defender.MakeScope.ScriptValue('dominate_title_current_ally_strength')|N0])#!"
+
+pirate_domination_war_no_holder_custom_tooltip:0 "[title_scope.GetName] üzerinde [main_defender.GetShortUIName]'e karşı bir [pirate_domination_war|E] başlat\n\t$BULLET$[title_scope.GetName]'in [de_jure|E] [county|E] alanındaki [tributary|E] ve [ally|E] olmayan her [holder|E], [main_defender.GetShortUIName]'e savunan olarak katılacak #weak (@soldier_icon![root_scope.MakeScope.ScriptValue('dominate_title_current_enemy_strength')|N0])#!"
+
+agot_raid_pirate_domicile:0 "$agot_pirate_ship_domicile_type$'ne Baskın"
+
+agot_raid_pirate_domicile_desc:0 "[SCHEME.GetTargetCharacter.GetShortUIName] fazla cüretkâr oluyor — bir baskın, [SCHEME.GetTargetCharacter.GetHerHim]'i [SCHEME.GetTargetCharacter.GetHerHis] yerine koyacaktır."
+
+agot_raid_pirate_domicile_desc_general:0 "$agot_raid_pirate_domicile$, başka bir korsanın [agot_landless_pirate_domicile|E]'ine baskın düzenlemeyi amaçlayan bir [hostile_scheme|E]'dir. [intrigue|E]'ye dayanır ve [agents|E] toplayabilir.\n\nBaşarılı bir $agot_raid_pirate_domicile$, hedefin [gold|E] ve [artifacts|E]'inin çalınmasına, [agot_landless_pirate_domicile|E]'inin hasar görmesine ve hatta saray mensuplarının ölümüne yol açabilir."
+
 agot_raid_pirate_domicile_action:0 "$raid_estate_action$"
-### TODO NOT-IN-ST: start_pirate_raid_domicile_interaction [AGOT: Start Pirate Ship Raid]
-start_pirate_raid_domicile_interaction:0 "Start Pirate Ship Raid"
-### TODO NOT-IN-ST: start_pirate_raid_domicile_interaction_desc [AGOT: Attempt to raid the [agot_landless_pirate_domicile|E] of [recipient.GetName]]
-start_pirate_raid_domicile_interaction_desc:0 "Attempt to raid the [agot_landless_pirate_domicile|E] of [recipient.GetName]"
-### TODO NOT-IN-ST: start_pirate_raid_domicile_notification [AGOT: $agot_raid_pirate_domicile$]
+
+start_pirate_raid_domicile_interaction:0 "Korsan Gemisi Baskını Başlat"
+
+start_pirate_raid_domicile_interaction_desc:0 "[recipient.GetName]'in [agot_landless_pirate_domicile|E]'ine baskın düzenlemeye çalış"
+
 start_pirate_raid_domicile_notification:0 "$agot_raid_pirate_domicile$"
-### TODO NOT-IN-ST: agot_raid_pirate_kill_courtiers_tt [AGOT: Members of [recipient.GetFirstNamePossessive] [recipient.Custom('GetCourt')] may be killed]
-agot_raid_pirate_kill_courtiers_tt:0 "Members of [recipient.GetFirstNamePossessive] [recipient.Custom('GetCourt')] may be killed"
-### TODO NOT-IN-ST: agot_raid_pirate_destroy_buildings_tt [AGOT: A building on [recipient.GetFirstNamePossessiveNoTooltip] [agot_landless_pirate_domicile|E] may be destroyed or damaged]
-agot_raid_pirate_destroy_buildings_tt:0 "A building on [recipient.GetFirstNamePossessiveNoTooltip] [agot_landless_pirate_domicile|E] may be destroyed or damaged"
-### TODO NOT-IN-ST: agot_raid_pirate_ship_gain_coin_tt [AGOT: You will gain @gold_icon![gold|E]]
-agot_raid_pirate_ship_gain_coin_tt:0 "You will gain @gold_icon![gold|E]"
-### TODO NOT-IN-ST: agot_raid_pirate_ship_gain_dread_tt [AGOT: You will gain @dread_icon![dread|E]]
-agot_raid_pirate_ship_gain_dread_tt:0 "You will gain @dread_icon![dread|E]"
-### TODO NOT-IN-ST: agot_raid_pirate_ship_gain_artifacts_tt [AGOT: You may plunder @artifact_icon![artifacts|E]]
-agot_raid_pirate_ship_gain_artifacts_tt:0 "You may plunder @artifact_icon![artifacts|E]"
-### TODO NOT-IN-ST: scheme_target_not_agot_pirate [AGOT: [target.GetShortUIName] does not own a [agot_landless_pirate_domicile|E]]
-scheme_target_not_agot_pirate:0 "[target.GetShortUIName] does not own a [agot_landless_pirate_domicile|E]"
-### TODO NOT-IN-ST: scheme_owner_not_agot_pirate [AGOT: You do not own a [agot_landless_pirate_domicile|E]]
-scheme_owner_not_agot_pirate:0 "You do not own a [agot_landless_pirate_domicile|E]"
-### TODO NOT-IN-ST: scheme_target_not_alive [AGOT: [target.GetShortUIName] is not alive!]
-scheme_target_not_alive:0 "[target.GetShortUIName] is not alive!"
-### TODO NOT-IN-ST: agot_raid_pirate_domicile_invalidated_title [AGOT: @scheme_icon! Raid Pirate Ship Scheme Ends]
-agot_raid_pirate_domicile_invalidated_title:0 "@scheme_icon! Raid Pirate Ship Scheme Ends"
-### TODO NOT-IN-ST: AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY [AGOT: [target.GetShortUINamePossessive] and [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] are located in the same county: $VALUE|+=0$]
-AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY:0 "[target.GetShortUINamePossessive] and [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] are located in the same county: $VALUE|+=0$"
-### TODO NOT-IN-ST: OWNER_DOMICILE_FORCASTLE_DESC [AGOT: [target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Level: $VALUE|+=0$]
-OWNER_DOMICILE_FORCASTLE_DESC:0 "[target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Level: $VALUE|+=0$"
-### TODO NOT-IN-ST: RAID_PIRATE_SHIP_IN_SUBREALM_DESC [AGOT: [target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is in your [realm|E]: $VALUE|+=0$]
-RAID_PIRATE_SHIP_IN_SUBREALM_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is in your [realm|E]: $VALUE|+=0$"
-### TODO NOT-IN-ST: RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC [AGOT: [target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is docked in a [realm|E] with an $pirate_tax_rate_04$ [pirate_port_rate|E]: $VALUE|+=0$]
-RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is docked in a [realm|E] with an $pirate_tax_rate_04$ [pirate_port_rate|E]: $VALUE|+=0$"
-### TODO NOT-IN-ST: RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC [AGOT: [target.GetShortUINamePossessive] has the [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$]
-RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC:0 "[target.GetShortUINamePossessive] has the [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$"
-### TODO NOT-IN-ST: game_concept_pirate_port_rates [AGOT: Pirate Port Rates]
-game_concept_pirate_port_rates:0 "Pirate Port Rates"
-### TODO NOT-IN-ST: game_concept_pirate_port_rate [AGOT: Pirate Port Rate]
-game_concept_pirate_port_rate:0 "Pirate Port Rate"
-### TODO NOT-IN-ST: game_concept_pirate_port_rates_desc [AGOT: $game_concept_pirate_port_rates$ consist of two types of @gold_icon! fees that [agot_landless_pirate_domiciles|E] must pay upon arriving at a location held by [pirate_govt|E] rulers.\n\nThe first fee is the #bold one-time docking fee#!, which a Landless Pirate must pay immediately upon entering a new [pirate_den_holding|E]. The second fee is the #bold yearly docking fee#! which must be paid annually so long as the pirate remains in that location.\n\nThe Landed Pirates ruling the county may change these fees through [laws|E].]
-game_concept_pirate_port_rates_desc:0 "$game_concept_pirate_port_rates$ consist of two types of @gold_icon! fees that [agot_landless_pirate_domiciles|E] must pay upon arriving at a location held by [pirate_govt|E] rulers.\n\nThe first fee is the #bold one-time docking fee#!, which a Landless Pirate must pay immediately upon entering a new [pirate_den_holding|E]. The second fee is the #bold yearly docking fee#! which must be paid annually so long as the pirate remains in that location.\n\nThe Landed Pirates ruling the county may change these fees through [laws|E]."
-### TODO NOT-IN-ST: game_concept_pirate_ship_designated_heir [AGOT: Designated $game_concept_agot_landless_pirate_domicile$ Heir]
-game_concept_pirate_ship_designated_heir:0 "Designated $game_concept_agot_landless_pirate_domicile$ Heir"
-### TODO NOT-IN-ST: game_concept_pirate_ship_designated_heirs [AGOT: Designated [agot_landless_pirate_domicile|E] Heirs]
-game_concept_pirate_ship_designated_heirs:0 "Designated [agot_landless_pirate_domicile|E] Heirs"
-### TODO NOT-IN-ST: game_concept_pirate_ship_designated_heir_desc [AGOT: A $game_concept_pirate_ship_designated_heir$ is a [character|E] that has been designated to inherit a [agot_landless_pirate_domicile|E].\n\nThey do not have to be related to the current $game_concept_agot_landless_pirate_domicile$ Captain, but they do have to be a courtier of that character. Only a landless [pirate_govt|E] [ruler|E] may designate a $game_concept_pirate_ship_designated_heir$.]
-game_concept_pirate_ship_designated_heir_desc:0 "A $game_concept_pirate_ship_designated_heir$ is a [character|E] that has been designated to inherit a [agot_landless_pirate_domicile|E].\n\nThey do not have to be related to the current $game_concept_agot_landless_pirate_domicile$ Captain, but they do have to be a courtier of that character. Only a landless [pirate_govt|E] [ruler|E] may designate a $game_concept_pirate_ship_designated_heir$."
-### TODO NOT-IN-ST: agot_pirate_events.8032.desc [AGOT: Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship anchored in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], and confirmation of our success!\n\nThe [target.Custom('InsultNounPlural')] were taken completely unawares]
-agot_pirate_events.8032.desc:0 "Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship anchored in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], and confirmation of our success!\n\nThe [target.Custom('InsultNounPlural')] were taken completely unawares"
-### TODO NOT-IN-ST: agot_pirate_events.8032.kill [AGOT: and several of [target.GetFirstNamePossessiveNoTooltip] lay dead — the survivors must live with this failure...]
-agot_pirate_events.8032.kill:0 "and several of [target.GetFirstNamePossessiveNoTooltip] lay dead — the survivors must live with this failure..."
-### TODO NOT-IN-ST: agot_pirate_events.8032.fallback [AGOT: and have been laid low, for all others to witness!]
-agot_pirate_events.8032.fallback:0 "and have been laid low, for all others to witness!"
-### TODO NOT-IN-ST: agot_pirate_events.8034.t [AGOT: Pirate Ship Raided]
-agot_pirate_events.8034.t:0 "Pirate Ship Raided"
-### TODO NOT-IN-ST: agot_pirate_events.8034.desc [AGOT: At dawn, panicked rumors of a raid on the pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip] reach me quickly,]
-agot_pirate_events.8034.desc:0 "At dawn, panicked rumors of a raid on the pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip] reach me quickly,"
-### TODO NOT-IN-ST: agot_pirate_events.8034.kill [AGOT: \n\nThey tell me that several of my courtiers were slain in the attack, slaughtered like animals by my enemies...]
-agot_pirate_events.8034.kill:0 "\n\nThey tell me that several of my courtiers were slain in the attack, slaughtered like animals by my enemies..."
-### TODO NOT-IN-ST: agot_pirate_events.8034.discovered [AGOT: \n\nIn the aftermath, all are agreed that this was clearly the work of [owner.GetName]...]
-agot_pirate_events.8034.discovered:0 "\n\nIn the aftermath, all are agreed that this was clearly the work of [owner.GetName]..."
-### TODO NOT-IN-ST: agot_pirate_events.8033.desc [AGOT: Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], though it is not what we would have liked to hear...\n\nThe [target.Custom('InsultNounPlural')] were somehow ready for the attack, and foiled our attackers before they had a chance to do any damage.]
-agot_pirate_events.8033.desc:0 "Dawn at last brings word from [target.GetFirstNamePossessive] pirate ship in [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], though it is not what we would have liked to hear...\n\nThe [target.Custom('InsultNounPlural')] were somehow ready for the attack, and foiled our attackers before they had a chance to do any damage."
-### TODO NOT-IN-ST: agot_pirate_events.8033.captured [AGOT: \n\nTo make matters worse, it seems my [owner.Custom2('RelationToMeShort', SCOPE.sC('captured'))], [captured.GetTitledFirstName], was captured in the raid...]
-agot_pirate_events.8033.captured:0 "\n\nTo make matters worse, it seems my [owner.Custom2('RelationToMeShort', SCOPE.sC('captured'))], [captured.GetTitledFirstName], was captured in the raid..."
-### TODO NOT-IN-ST: agot_pirate_events.8033.fallback [AGOT: \n\nAt least we can rest easy, for the only thing lost was my precious time...]
-agot_pirate_events.8033.fallback:0 "\n\nAt least we can rest easy, for the only thing lost was my precious time..."
-### TODO NOT-IN-ST: create_pirate_ruler_designer [AGOT: Create your own Landless Pirate]
-create_pirate_ruler_designer:0 "Create your own Landless Pirate"
-### TODO NOT-IN-ST: create_pirate_ruler_designer_tt [AGOT: Create a landless pirate in the selected character's capital province.]
-create_pirate_ruler_designer_tt:0 "Create a landless pirate in the selected character's capital province."
-### TODO NOT-IN-ST: create_pirate_ruler_designer_must_be_pirate_start_tt [AGOT: @warning_icon! #warning You can only create a landless pirate in an existing pirate character's territory#!]
-create_pirate_ruler_designer_must_be_pirate_start_tt:0 "@warning_icon! #warning You can only create a landless pirate in an existing pirate character's territory#!"
-### TODO NOT-IN-ST: move_pirate_domicile_rules_tt [AGOT: You can only move your [domicile|E] to coastal pirate dens, or wilderness and settlement counties in a traditional piracy region.]
-move_pirate_domicile_rules_tt:0 "You can only move your [domicile|E] to coastal pirate dens, or wilderness and settlement counties in a traditional piracy region."
-### TODO NOT-IN-ST: trait_viking_is_corsair [AGOT: Corsair]
-trait_viking_is_corsair:0 "Corsair"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1 [AGOT: Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1:0 "Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2 [AGOT: Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2:0 "Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3 [AGOT: Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3:0 "Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [agot_landless_pirate_domicile|E] as [prisoners|E]"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1 [AGOT: Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [estate|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1:0 "Hostile [raids|E] and [sieges|E] are slightly less likely to take characters located in the [estate|E] as [prisoners|E]"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2 [AGOT: Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [estate|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2:0 "Hostile [raids|E] and [sieges|E] are less likely to take characters located in the [estate|E] as [prisoners|E]"
-### TODO NOT-IN-ST: domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3 [AGOT: Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [estate|E] as [prisoners|E]]
-domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3:0 "Hostile [raids|E] and [sieges|E] are much less likely to take characters located in the [estate|E] as [prisoners|E]"
+
+agot_raid_pirate_kill_courtiers_tt:0 "[recipient.GetFirstNamePossessive] [recipient.Custom('GetCourt')] üyeleri öldürülebilir"
+
+agot_raid_pirate_destroy_buildings_tt:0 "[recipient.GetFirstNamePossessiveNoTooltip] [agot_landless_pirate_domicile|E]'indeki bir bina yok edilebilir ya da hasar görebilir"
+
+agot_raid_pirate_ship_gain_coin_tt:0 "@gold_icon![gold|E] kazanacaksınız"
+
+agot_raid_pirate_ship_gain_dread_tt:0 "@dread_icon![dread|E] kazanacaksınız"
+
+agot_raid_pirate_ship_gain_artifacts_tt:0 "@artifact_icon![artifacts|E] yağmalayabilirsiniz"
+
+scheme_target_not_agot_pirate:0 "[target.GetShortUIName] bir [agot_landless_pirate_domicile|E]'ine sahip değil"
+
+scheme_owner_not_agot_pirate:0 "Bir [agot_landless_pirate_domicile|E]'ine sahip değilsiniz"
+
+scheme_target_not_alive:0 "[target.GetShortUIName] hayatta değil!"
+
+agot_raid_pirate_domicile_invalidated_title:0 "@scheme_icon! Korsan Gemisi Baskını Entrikası Sona Erdi"
+
+AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY:0 "[target.GetShortUINamePossessive] ve [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E]'leri aynı kontlukta bulunuyor: $VALUE|+=0$"
+
+OWNER_DOMICILE_FORCASTLE_DESC:0 "[target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Seviyesi: $VALUE|+=0$"
+
+RAID_PIRATE_SHIP_IN_SUBREALM_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] sizin [realm|E]'inizde: $VALUE|+=0$"
+
+RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E], $pirate_tax_rate_04$ [pirate_port_rate|E] uygulanan bir [realm|E]'de demirli: $VALUE|+=0$"
+
+RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC:0 "[target.GetShortUINamePossessive] [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)] özelliğine sahip: $VALUE|+=0$"
+
+game_concept_pirate_port_rates:0 "Korsan Liman Ücretleri"
+
+game_concept_pirate_port_rate:0 "Korsan Liman Ücreti"
+
+game_concept_pirate_port_rates_desc:0 "$game_concept_pirate_port_rates$, [pirate_govt|E] hükümdarlarının elindeki bir yere varıldığında [agot_landless_pirate_domiciles|E]'lerin ödemesi gereken iki tür @gold_icon! ücretten oluşur.\n\nİlk ücret, #bold tek seferlik yanaşma ücreti#!dir; Topraksız Korsan, yeni bir [pirate_den_holding|E]'e girer girmez bunu ödemek zorundadır. İkinci ücret, korsan o konumda kaldığı sürece her yıl ödenmesi gereken #bold yıllık yanaşma ücreti#!dir.\n\nKontluğu yöneten Toprak Sahibi Korsanlar bu ücretleri [laws|E] aracılığıyla değiştirebilir."
+
+game_concept_pirate_ship_designated_heir:0 "Belirlenmiş $game_concept_agot_landless_pirate_domicile$ Varisi"
+
+game_concept_pirate_ship_designated_heirs:0 "Belirlenmiş [agot_landless_pirate_domicile|E] Varileri"
+
+game_concept_pirate_ship_designated_heir_desc:0 "$game_concept_pirate_ship_designated_heir$, bir [agot_landless_pirate_domicile|E]'ine mirasçı olmak üzere belirlenmiş bir [character|E]'dir.\n\nMevcut $game_concept_agot_landless_pirate_domicile$ Kaptanı ile akraba olmaları gerekmez, ancak o karakterin saray mensubu olmaları şarttır. Yalnızca topraksız bir [pirate_govt|E] [ruler|E]'i bir $game_concept_pirate_ship_designated_heir$ belirleyebilir."
+
+agot_pirate_events.8032.desc:0 "Şafak nihayet [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip]'e demirlemiş [target.GetFirstNamePossessive] korsan gemisinden haber getiriyor ve başarımızı doğruluyor!\n\n[target.Custom('InsultNounPlural')] tamamen habersiz yakalandı"
+
+agot_pirate_events.8032.kill:0 "ve [target.GetFirstNamePossessiveNoTooltip] adamlarından birkaçı ölü yatıyor — sağ kalanlar bu başarısızlıkla yaşamak zorunda..."
+
+agot_pirate_events.8032.fallback:0 "ve herkesin gözü önünde yere serildi!"
+
+agot_pirate_events.8034.t:0 "Korsan Gemisine Baskın Düzenlendi"
+
+agot_pirate_events.8034.desc:0 "Şafakta, [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip]'teki korsan gemisine yapılan baskına dair panik dolu söylentiler bana hızla ulaşıyor,"
+
+agot_pirate_events.8034.kill:0 "\n\nBana, saray mensuplarımdan birkaçının saldırıda, düşmanlarım tarafından hayvanlar gibi katledildiğini söylüyorlar..."
+
+agot_pirate_events.8034.discovered:0 "\n\nSonrasında herkes bunun açıkça [owner.GetName]'in işi olduğunda hemfikir..."
+
+agot_pirate_events.8033.desc:0 "Şafak nihayet [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip]'teki [target.GetFirstNamePossessive] korsan gemisinden haber getiriyor, her ne kadar duymak istediğimiz haber olmasa da...\n\n[target.Custom('InsultNounPlural')] bir şekilde saldırıya hazırdı ve herhangi bir hasar verme şansı bulamadan saldırganlarımızı boşa çıkardı."
+
+agot_pirate_events.8033.captured:0 "\n\nDaha da kötüsü, [owner.Custom2('RelationToMeShort', SCOPE.sC('captured'))]'im [captured.GetTitledFirstName] baskın sırasında esir düşmüş gibi görünüyor..."
+
+agot_pirate_events.8033.fallback:0 "\n\nEn azından içimiz rahat edebilir, çünkü kaybedilen tek şey benim kıymetli zamanımdı..."
+
+create_pirate_ruler_designer:0 "Kendi Topraksız Korsanınızı Yaratın"
+
+create_pirate_ruler_designer_tt:0 "Seçili karakterin başkent eyaletinde bir topraksız korsan yaratın."
+
+create_pirate_ruler_designer_must_be_pirate_start_tt:0 "@warning_icon! #warning Topraksız bir korsanı yalnızca mevcut bir korsan karakterin topraklarında yaratabilirsiniz#!"
+
+move_pirate_domicile_rules_tt:0 "[domicile|E]'inizi yalnızca kıyıdaki korsan inlerine ya da geleneksel bir korsanlık bölgesindeki vahşi doğa ve yerleşim kontluklarına taşıyabilirsiniz."
+
+trait_viking_is_corsair:0 "Korsan"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1:0 "Düşmanca [raids|E] ve [sieges|E], [agot_landless_pirate_domicile|E]'inde bulunan karakterleri [prisoners|E] olarak almayı biraz daha az olası kılar"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2:0 "Düşmanca [raids|E] ve [sieges|E], [agot_landless_pirate_domicile|E]'inde bulunan karakterleri [prisoners|E] olarak almayı daha az olası kılar"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3:0 "Düşmanca [raids|E] ve [sieges|E], [agot_landless_pirate_domicile|E]'inde bulunan karakterleri [prisoners|E] olarak almayı çok daha az olası kılar"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1:0 "Düşmanca [raids|E] ve [sieges|E], [estate|E]'inde bulunan karakterleri [prisoners|E] olarak almayı biraz daha az olası kılar"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2:0 "Düşmanca [raids|E] ve [sieges|E], [estate|E]'inde bulunan karakterleri [prisoners|E] olarak almayı daha az olası kılar"
+
+domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3:0 "Düşmanca [raids|E] ve [sieges|E], [estate|E]'inde bulunan karakterleri [prisoners|E] olarak almayı çok daha az olası kılar"

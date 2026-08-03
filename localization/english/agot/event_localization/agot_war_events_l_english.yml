@@ -1,67 +1,67 @@
 ﻿l_english:
-### TODO NOT-IN-ST: agot_war.0001.t [AGOT: To the Victors Belong the Spoils]
- agot_war.0001.t:0 "To the Victors Belong the Spoils"
-### TODO NOT-IN-ST: agot_war.0001.desc [AGOT: With the war over, my contribution to the victory cannot be doubted by anyone.\n\nI helped win this war. Without my forces, my actions, and my leadership, who knows what would have happened. Therefore, [attacker.GetName] may be receptive to granting me rewards and perks.]
- agot_war.0001.desc:0 "With the war over, my contribution to the victory cannot be doubted by anyone.\n\nI helped win this war. Without my forces, my actions, and my leadership, who knows what would have happened. Therefore, [attacker.GetName] may be receptive to granting me rewards and perks."
-### TODO NOT-IN-ST: agot_war.0001.a [AGOT: I must be rewarded!]
- agot_war.0001.a:0 "I must be rewarded!"
-### TODO NOT-IN-ST: agot_war.0001.b [AGOT: No, I will not ask this.]
- agot_war.0001.b:0 "No, I will not ask this."
-### TODO NOT-IN-ST: agot_war.0002.t [AGOT: $agot_war.0001.t$]
+
+ agot_war.0001.t:0 "Ganimetler Galiplerindir"
+
+ agot_war.0001.desc:0 "Savaş bitti; zafere katkım kimsenin kuşku duyamayacağı kadar büyük.\n\nBu savaşın kazanılmasına yardım ettim. Güçlerim, eylemlerim ve liderliğim olmasaydı, kim bilir neler olurdu. Dolayısıyla [attacker.GetName] bana ödül ve ayrıcalıklar tanımaya gönüllü olabilir."
+
+ agot_war.0001.a:0 "Ödüllendirilmeliyim!"
+
+ agot_war.0001.b:0 "Hayır, bunu istemeyeceğim."
+
  agot_war.0002.t:0 "$agot_war.0001.t$"
-### TODO NOT-IN-ST: agot_war.0002.desc [AGOT: Which royal boon should I ask for?]
- agot_war.0002.desc:0 "Which royal boon should I ask for?"
-### TODO NOT-IN-ST: agot_war.0002.a [AGOT: Gold. Plain and simple.]
- agot_war.0002.a:0 "Gold. Plain and simple."
-### TODO NOT-IN-ST: agot_war.0002.b [AGOT: [spoiler_kg_candidate.GetFirstName] should go to the [attacker.Custom('KingsguardName')].]
- agot_war.0002.b:0 "[spoiler_kg_candidate.GetFirstName] should go to the [attacker.Custom('KingsguardName')]."
-### TODO NOT-IN-ST: agot_war.0002.c [AGOT: A royal marriage for my relative.]
- agot_war.0002.c:0 "A royal marriage for my relative."
-### TODO NOT-IN-ST: agot_war.0002.d [AGOT: [title.GetNameNoTier] should be mine.]
- agot_war.0002.d:0 "[title.GetNameNoTier] should be mine."
-### TODO NOT-IN-ST: agot_war.0002.e [AGOT: I want a seat on the Small Council.]
- agot_war.0002.e:0 "I want a seat on the Small Council."
-### TODO NOT-IN-ST: agot_war.0003.t [AGOT: $agot_war.0001.t$]
+
+ agot_war.0002.desc:0 "Hangi kraliyet lütfunu istemeliyim?"
+
+ agot_war.0002.a:0 "Altın. Sade ve basit."
+
+ agot_war.0002.b:0 "[spoiler_kg_candidate.GetFirstName], [attacker.Custom('KingsguardName')]'ne girmeli."
+
+ agot_war.0002.c:0 "Akrabam için bir kraliyet evliliği."
+
+ agot_war.0002.d:0 "[title.GetNameNoTier] benim olmalı."
+
+ agot_war.0002.e:0 "Küçük Konseyde bir koltuk istiyorum."
+
  agot_war.0003.t:0 "$agot_war.0001.t$"
-### TODO NOT-IN-ST: agot_war.0003.desc [AGOT: It is no secret that [whiner.GetName] played a large role in my recent victory. Unsurprisingly, it seems that [whiner.GetSheHe] intends to use that to [whiner.GetHerHis] advantage, as [whiner.GetSheHe] is now requesting that I grant [whiner.GetHerHim] a royal boon.\n\n]
- agot_war.0003.desc:0 "It is no secret that [whiner.GetName] played a large role in my recent victory. Unsurprisingly, it seems that [whiner.GetSheHe] intends to use that to [whiner.GetHerHis] advantage, as [whiner.GetSheHe] is now requesting that I grant [whiner.GetHerHim] a royal boon.\n\n"
-### TODO NOT-IN-ST: agot_war.0003.requested_gold.desc [AGOT: [whiner.GetNameNoTooltip] has asked for a handsome amount of gold from my new treasuries.]
- agot_war.0003.requested_gold.desc:0 "[whiner.GetNameNoTooltip] has asked for a handsome amount of gold from my new treasuries."
-### TODO NOT-IN-ST: agot_war.0003.requested_kg.desc [AGOT: [whiner.GetNameNoTooltip] has requested that [whiner.GetHerHis] family member, [spoiler_kg_candidate.GetShortUIName], be admitted to my [ROOT.Char.Custom('KingsguardName')].]
- agot_war.0003.requested_kg.desc:0 "[whiner.GetNameNoTooltip] has requested that [whiner.GetHerHis] family member, [spoiler_kg_candidate.GetShortUIName], be admitted to my [ROOT.Char.Custom('KingsguardName')]."
-### TODO NOT-IN-ST: agot_war.0003.requested_marriage.desc [AGOT: [whiner.GetNameNoTooltip] has asked that [whiner.GetHerHis] family member, [spoiler_marriage_candidate.GetShortUIName], be granted the high prize of a royal marriage. Should I consent, [spoiler_marriage_candidate.GetNameNoTooltip] and I would be wed.]
- agot_war.0003.requested_marriage.desc:0 "[whiner.GetNameNoTooltip] has asked that [whiner.GetHerHis] family member, [spoiler_marriage_candidate.GetShortUIName], be granted the high prize of a royal marriage. Should I consent, [spoiler_marriage_candidate.GetNameNoTooltip] and I would be wed."
-### TODO NOT-IN-ST: agot_war.0003.requested_titles.desc [AGOT: [whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted the [title.GetNameNoTier].]
- agot_war.0003.requested_titles.desc:0 "[whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted the [title.GetNameNoTier]."
-### TODO NOT-IN-ST: agot_war.0003.requested_council.desc [AGOT: [whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted a seat on the Small Council.]
- agot_war.0003.requested_council.desc:0 "[whiner.GetNameNoTooltip] has requested that [whiner.GetSheHe] be granted a seat on the Small Council."
-### TODO NOT-IN-ST: agot_war.0003.a [AGOT: They shall have gold, then.]
- agot_war.0003.a:0 "They shall have gold, then."
-### TODO NOT-IN-ST: agot_war.0003.b [AGOT: [spoiler_kg_candidate.GetFirstName] will join the [attacker.Custom('KingsguardName')].]
- agot_war.0003.b:0 "[spoiler_kg_candidate.GetFirstName] will join the [attacker.Custom('KingsguardName')]."
-### TODO NOT-IN-ST: agot_war.0003.c [AGOT: [spoiler_marriage_candidate.GetName] will be married to me.]
- agot_war.0003.c:0 "[spoiler_marriage_candidate.GetName] will be married to me."
-### TODO NOT-IN-ST: agot_war.0003.c_betrothal [AGOT: [spoiler_marriage_candidate.GetName] will be betrothed to me.]
- agot_war.0003.c_betrothal:0 "[spoiler_marriage_candidate.GetName] will be betrothed to me."
-### TODO NOT-IN-ST: agot_war.0003.d [AGOT: They are too hasty.]
- agot_war.0003.d:0 "They are too hasty."
-### TODO NOT-IN-ST: agot_war.0003.e [AGOT: They shall have [title.GetName]!]
- agot_war.0003.e:0 "They shall have [title.GetName]!"
-### TODO NOT-IN-ST: agot_war.0003.f [AGOT: A seat on the Small Council, done.]
- agot_war.0003.f:0 "A seat on the Small Council, done."
-### TODO NOT-IN-ST: agot_war.0004.t [AGOT: $agot_war.0001.t$]
+
+ agot_war.0003.desc:0 "[whiner.GetName]'in son zaferimde büyük bir rol oynadığı herkesin malumu. Şaşırtıcı olmayan bir şekilde [whiner.GetSheHe], bunu [whiner.GetHerHis] lehine kullanmayı planlıyor; zira [whiner.GetSheHe] şimdi [whiner.GetHerHim]'e bir kraliyet lütfu bahşetmemi istiyor.\n\n"
+
+ agot_war.0003.requested_gold.desc:0 "[whiner.GetNameNoTooltip], yeni hazinelerimden hatırı sayılır miktarda altın istedi."
+
+ agot_war.0003.requested_kg.desc:0 "[whiner.GetNameNoTooltip], aile üyesi [spoiler_kg_candidate.GetShortUIName]'in [ROOT.Char.Custom('KingsguardName')]'me kabul edilmesini rica etti."
+
+ agot_war.0003.requested_marriage.desc:0 "[whiner.GetNameNoTooltip], aile üyesi [spoiler_marriage_candidate.GetShortUIName]'e kraliyet evliliği gibi yüce bir ödülün bahşedilmesini istedi. Rıza gösterirsem [spoiler_marriage_candidate.GetNameNoTooltip] ile evleneceğiz."
+
+ agot_war.0003.requested_titles.desc:0 "[whiner.GetNameNoTooltip], [whiner.GetSheHe]'e [title.GetNameNoTier] unvanının verilmesini rica etti."
+
+ agot_war.0003.requested_council.desc:0 "[whiner.GetNameNoTooltip], [whiner.GetSheHe]'e Küçük Konseyde bir koltuk verilmesini rica etti."
+
+ agot_war.0003.a:0 "Öyleyse altını alacaklar."
+
+ agot_war.0003.b:0 "[spoiler_kg_candidate.GetFirstName], [attacker.Custom('KingsguardName')]'ne katılacak."
+
+ agot_war.0003.c:0 "[spoiler_marriage_candidate.GetName] benimle evlenecek."
+
+ agot_war.0003.c_betrothal:0 "[spoiler_marriage_candidate.GetName] benimle nişanlanacak."
+
+ agot_war.0003.d:0 "Fazla aceleciler."
+
+ agot_war.0003.e:0 "[title.GetName]'i alacaklar!"
+
+ agot_war.0003.f:0 "Küçük Konseyde bir koltuk, tamam."
+
  agot_war.0004.t:0 "$agot_war.0001.t$"
-### TODO NOT-IN-ST: agot_war.0004.desc [AGOT: Which relative should I choose for a royal marriage?]
- agot_war.0004.desc:0 "Which relative should I choose for a royal marriage?"
-### TODO NOT-IN-ST: agot_war.0004.a [AGOT: This person, I think.]
- agot_war.0004.a:0 "This person, I think."
-### TODO NOT-IN-ST: agot_war.0004.a_tt [AGOT: [spoiler_marriage_candidate.GetUIName] will be proposed as a marriage option to [attacker.GetShortUIName]]
- agot_war.0004.a_tt:0 "[spoiler_marriage_candidate.GetUIName] will be proposed as a marriage option to [attacker.GetShortUIName]"
-### TODO NOT-IN-ST: agot_war.0003.rejection_msg [AGOT: Royal Boon Denied!]
- agot_war.0003.rejection_msg:0 "Royal Boon Denied!"
-### TODO NOT-IN-ST: agot_war.0003.rejection_msg_desc [AGOT: [attacker.GetName] has rejected your royal boon.]
- agot_war.0003.rejection_msg_desc:0 "[attacker.GetName] has rejected your royal boon."
-### TODO NOT-IN-ST: agot_war.0003.acceptance_msg [AGOT: Royal Boon Granted]
- agot_war.0003.acceptance_msg:0 "Royal Boon Granted"
-### TODO NOT-IN-ST: agot_war.0003.acceptance_msg_desc [AGOT: [attacker.GetName] has granted your desired royal boon.]
- agot_war.0003.acceptance_msg_desc:0 "[attacker.GetName] has granted your desired royal boon."
+
+ agot_war.0004.desc:0 "Kraliyet evliliği için hangi akrabamı seçmeliyim?"
+
+ agot_war.0004.a:0 "Bu kişi, sanırım."
+
+ agot_war.0004.a_tt:0 "[spoiler_marriage_candidate.GetUIName], [attacker.GetShortUIName]'e evlilik seçeneği olarak önerilecek"
+
+ agot_war.0003.rejection_msg:0 "Kraliyet Lütfu Reddedildi!"
+
+ agot_war.0003.rejection_msg_desc:0 "[attacker.GetName] kraliyet lütfunuzu reddetti."
+
+ agot_war.0003.acceptance_msg:0 "Kraliyet Lütfu Bahşedildi"
+
+ agot_war.0003.acceptance_msg_desc:0 "[attacker.GetName], dilediğiniz kraliyet lütfunu bahşetti."
