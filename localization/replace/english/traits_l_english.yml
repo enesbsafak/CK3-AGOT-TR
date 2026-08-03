@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "[TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E] gerekiyor\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
  TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
  TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
@@ -123,9 +123,6 @@
  trait_education_martial_prowess_5: "Dinç Bıçak"
  trait_education_martial_prowess_5_desc: "Dinç Bıçak'ın savaştaki yetkinliğinden bahsederken ortam sessizleşir, en kıdemli askerler bile onun adını duyduğunda duraksar."
  trait_education_martial_prowess_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ve onun savaştaki yetkinliğinden bahsedilirken ortam sessizleşir, en kıdemli askerler bile onun adını duyduğunda duraksar."
- trait_education_martial_5: "Yüce Savaş Beyi"
- trait_education_martial_5_desc: "Yüce Savaş Beyi savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir."
- trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir."
  trait_education_learning_1:0 "Tertipli Yazman"
  trait_education_learning_1_desc:0 "Tertipli Yazman öğrenim eğitimi görmesine rağmen herhangi bir konuya ilgi göstermez. En azından okuma yazmayı biliyor."
  trait_education_learning_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] öğrenim eğitimi görmesine rağmen herhangi bir konuya ilgi göstermez. En azından okuma yazmayı biliyor."

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  CHARACTER_IN_ACTIVITY_LOCATION:1 "Etkinlikte: [ACTIVITY.GetBaronyNameExplicitly|V]"
 ### TODO AGOT-CHANGED: CHARACTER_IN_LOCATION [AGOT: [Character.Custom('is_missing_location_loc')] | TR: Konumu: [PROVINCE.GetBaronyNameExplicitly|V]]
  CHARACTER_IN_LOCATION:1 "[Character.Custom('is_missing_location_loc')]"
@@ -95,11 +95,11 @@
  COA_REALM_TOOLTIP_PRIMARY_TITLE_CLICK_INFO:0 "#I [CHARACTER.GetPrimaryTitle.GetNameNoTooltip|V] Birincil Unvanını görüntülemek için tıklayın#!"
  COA_REALM_TOOLTIP_GUI_CLICK_INFO:0 "#I [Select_CString(Character.IsShownInCharacterWindow, 'Konuma gitmek için tıklayın', 'Görüntülemek için tıklayın')]\n[Select_CString( CHARACTER.IsLocalPlayer, 'Kendinizle', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ile' )] ile etkileşime girmek için sağ tıklayın#!"
 ### TODO AGOT-CHANGED: cooltip_spouse_listing [AGOT: [spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)] | TR: [spouse|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]]
- cooltip_spouse_listing: "[spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]
+ cooltip_spouse_listing: "[spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]"
 ### TODO AGOT-CHANGED: cooltip_betrothed_listing [AGOT: [betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)] | TR: [betrothed|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]]
- cooltip_betrothed_listing: "[betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]
+ cooltip_betrothed_listing: "[betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]"
 ### TODO AGOT-CHANGED: cooltip_concubine_listing [AGOT: [concubine|E] of: [AGOTGetName(ROOT.Char.GetConcubinist)] | TR: [Concept( 'concubine', 'Cariyesi' )|E]: [ROOT.Char.GetConcubinist.GetName]]
- cooltip_concubine_listing: "[concubine|E] of: [AGOTGetName(ROOT.Char.GetConcubinist)]
+ cooltip_concubine_listing: "[concubine|E] of: [AGOTGetName(ROOT.Char.GetConcubinist)]"
  cooltip_unmarried_listing: "Evli değil"
  GLOBAL_OBSERVER:0 "İzliyorsunuz"
  PLAYER_OBSERVER:0 "[GetPlayer.GetShortUINameNotMeNoTooltip] olarak izliyorsunuz ([SelectLocalization(GetPlayer.IsPlayer, 'OBSERVER_PLAYER_NAME', 'OBSERVER_AI')])"

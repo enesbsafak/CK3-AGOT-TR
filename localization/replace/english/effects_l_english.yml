@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  CHARACTER_DEATH_EFFECT:1 "@death_icon! Ölecek"
 ### TODO AGOT-CHANGED: CHARACTER_DEATH_EFFECT_THIRD [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] dies | TR: @death_icon! [CHARACTER.GetShortUIName|U] ölecek]
  CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] dies"
@@ -2318,8 +2318,6 @@
  custom.every_stewardship_palace_entrant: "En yüksek becerisi [stewardship|E] olan tüm katılımcı karakterler"
  custom.every_compassionate_entourage_character: "Seyahatteki tüm [GetTrait('compassionate').GetName( GetNullCharacter )] [characters|E]"
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "[character|E] ve onunla seyahat eden [family|E] üyeleri"
-### TODO AGOT-CHANGED: set_knight_status [AGOT: [THIS.GetCharacter.GetShortUINameNoTooltip] is forbidden from serving as a Knight | TR: [CHARACTER.GetShortUIName|U] $STATUS$ olacak]
- set_knight_status:0 "[THIS.GetCharacter.GetShortUINameNoTooltip] is forbidden from serving as a Knight"
  SPONSOR_INSPIRATION:0 "[INSPIRATION.GetOwner.Custom('InspirationTypeDescription')|U] için [INSPIRATION.GetOwner.GetShortUIName|U] adlı karaktere @gold_icon! [INSPIRATION.GetBaseGoldCost] destek verilecek"
  SPONSORED_INSPIRATION:1 "[INSPIRATION.GetOwner.GetShortUIName|U] adlı karaktere @gold_icon! [INSPIRATION.GetBaseGoldCost] destek verildi"
  STOP_SPONSORING_INSPIRATION:0 "[INSPIRATION.GetOwner.GetShortUIName|U] adlı karakterin [INSPIRATION.GetName]'na destek olunmayacak"
@@ -3016,10 +3014,6 @@
  CHANGE_SITUATION_PHASE_EFFECT_PAST: "[SITUATION.GetName] [Concept('situation', 'Vaziyeti')|E], $SITUATION_PHASE$ [Concept('situation_phase', 'Aşamasına')|E] geçti"
  TRIGGER_SUB_REGION_CATALYST: "[SituationSubRegion.GetName] içinde $CATALYST_NAME$ tetiklenecek ve [SituationPhaseType.GetNameWithIcon] yönünde $VALUE|V$ ilerleme eklenecek"
  TRIGGER_SUB_REGION_CATALYST_PAST: "[SituationSubRegion.GetName] içinde $CATALYST_NAME$ tetiklendi ve [SituationPhaseType.GetNameWithIcon] yönünde $VALUE|V$ ilerleme eklendi"
-### TODO AGOT-CHANGED: TRIGGER_SUB_REGION_CATALYST_THIRD [AGOT: [Situation.GetName] triggers $CATALYST_NAME$ in [SituationSubRegion.GetName], adding $VALUE|V$ progress towards [SituationPhaseType.GetNameWithIcon] | TR: $trigger_sub_region_catalyst_global$]
- TRIGGER_SUB_REGION_CATALYST_THIRD: "[Situation.GetName] triggers $CATALYST_NAME$ in [SituationSubRegion.GetName], adding $VALUE|V$ progress towards [SituationPhaseType.GetNameWithIcon]"
-### TODO AGOT-CHANGED: TRIGGER_SUB_REGION_CATALYST_FIRST [AGOT: You trigger $CATALYST_NAME$ in [SituationSubRegion.GetName], adding $VALUE|V$ progress towards [SituationPhaseType.GetNameWithIcon] | TR: $trigger_sub_region_catalyst_global$]
- TRIGGER_SUB_REGION_CATALYST_FIRST: "You trigger $CATALYST_NAME$ in [SituationSubRegion.GetName], adding $VALUE|V$ progress towards [SituationPhaseType.GetNameWithIcon]"
  ADD_TAKEOVER_PHASE_POINTS_EFFECT: "[SITUATION.GetName] [Concept('situation', 'Vaziyeti')|E], [SUB_REGION.GetName] [situation_sub_region|E] için $SITUATION_PHASE$ [Concept('situation_phase', 'Aşaması')|E] yönünde $VALUE|V$ ilerleyecek"
  ADD_TAKEOVER_PHASE_POINTS_EFFECT_PAST: "[SITUATION.GetName] [Concept('situation', 'Vaziyeti')|E], [SUB_REGION.GetName] [situation_sub_region|E] için $SITUATION_PHASE$ [Concept('situation_phase', 'Aşaması')|E] yönünde $VALUE|V$ ilerledi"
  set_special_guest_first: "[ACTIVITY.GetName] etkinliğine $SpecialGuestName$ olarak katılacaksınız"

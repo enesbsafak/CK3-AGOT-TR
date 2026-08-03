@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  ANSWER_YES:1 "#P Kabul edecek#!"
  ANSWER_NO:1 "#N Kabul #bold etmeyecek#!#!"
  ANSWER_BLOCK:1 "Cevabı Engelle"
@@ -513,8 +513,6 @@
  EDUCATE_RECIPIENT_PERSONALLY_REQUEST:0 "En iyi eğitimi almanız için, izin verirseniz, sizi kendim eğitmek istiyorum."
  EDUCATE_RECIPIENT_CHILD_REQUEST:0 "Eğer izin verirseniz, karakterinizin [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] yetişkinliğe erişene kadar onun, oldukça becerikli bir öğretmen ve vasi olan [secondary_actor.GetShortUIName] tarafından eğitilmesini istiyorum."
  EDUCATE_RECIPIENT_REQUEST:0 "En iyi eğitimi almanız için, izin verirseniz, oldukça becerikli bir öğretmen ve vasi olan [secondary_actor.GetShortUIName] tarafından eğitilmenizi istiyorum."
-### TODO AGOT-CHANGED: REMOVE_GUARDIAN_INTERACTION [AGOT: Unfortunately this tutoring arrangement no longer works for [actor.GetPrimaryTitle.GetNameNoTierNoTooltip]. As a result I must end it prematurely, for the good of all involved. | TR: Vasilikten Çıkar]
- REMOVE_GUARDIAN_INTERACTION:0 "Unfortunately this tutoring arrangement no longer works for [actor.GetPrimaryTitle.GetNameNoTierNoTooltip]. As a result I must end it prematurely, for the good of all involved."
  SECONDARY_ACTOR_CAN_MARRY:0 "[CHARACTER.GetShortUIName|U] ve [TARGET_CHARACTER.GetShortUIName] evlenebilir"
  NOT_SECONDARY_ACTOR_CAN_MARRY:0 "[CHARACTER.GetShortUIName|U] ve [TARGET_CHARACTER.GetShortUIName] #bold evlenemez#!"
  NOT_CHARACTER_IS_CLERGY_AND_CANNOT_MARRY:0 "[CHARACTER.GetShortUIName|U] ruhban sınıfından"

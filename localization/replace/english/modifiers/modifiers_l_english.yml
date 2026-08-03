@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  MOD_DIPLOMACY: "[diplomacy|E]"
  MOD_INTRIGUE: "[intrigue|E]"
  MOD_STEWARDSHIP: "[stewardship|E]"
@@ -946,8 +946,6 @@
  terraced_hills_development_growth_factor: "Teraslı Tepelerde $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  world_steppe_development_growth_factor:1 "[GetGeographicalRegion('world_steppe').GetName] [region|E]sinde $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  COUNTY_PROVINCE_MODIFIER: "[PROVINCE.GetHolding.GetName]"
-### TODO AGOT-CHANGED: COUNTY_CAPITAL_PROVINCE_MODIFIER [AGOT: $COUNTY_PROVINCE_MODIFIER$ ([county_capital|E]) | TR: Kontluk Başkenti]
- COUNTY_CAPITAL_PROVINCE_MODIFIER: "$COUNTY_PROVINCE_MODIFIER$ ([county_capital|E])"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH:0 "[control|E] Artışı"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH$"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR:1 "[control|E] Artışı"

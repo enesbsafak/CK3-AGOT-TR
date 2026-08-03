@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  relation_placeholder:0 "placeholder"
  relation_placeholder_my:0 "benim placeholder"
  relation_placeholder_your:0 "senin placeholder"
@@ -523,8 +523,6 @@
  YourCharacterIntroductionNoComma_the_relation_of_YourCharacterIntroductionNoComma_knight:0 "[AGOTGetTitledFirstName(ROOT.Char)], the [ROOT.Char.GetLiege.Custom('KnightCultureNoTooltip')] of [ROOT.Char.GetLiege.Custom2('YourCharacterIntroductionNoComma', second)]"
  HerHisCharacterIntroductionNoComma_herhis_counciltitle_firstname:0 "konseyindeki [ROOT.Char.GetCouncilTitle] [ROOT.Char.GetFirstName]"
  HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[second.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]"
-### TODO AGOT-CHANGED: HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname [AGOT: [second.GetHerHis] [second.Custom2('RelationToMe', ROOT.Char)] [AGOTGetTitledFirstName(ROOT.Char)] | TR: [second.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]]
- HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[second.GetHerHis] [second.Custom2('RelationToMe', ROOT.Char)] [AGOTGetTitledFirstName(ROOT.Char)]"
 ### TODO AGOT-CHANGED: HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_primaryspouse [AGOT: [AGOTGetTitledFirstName(ROOT.Char)], the [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] of [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)] | TR: [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)] adlı kişinin [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]]
  HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_primaryspouse:0 "[AGOTGetTitledFirstName(ROOT.Char)], the [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] of [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)]"
 ### TODO AGOT-CHANGED: HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_father [AGOT: [AGOTGetTitledFirstName(ROOT.Char)], the [ROOT.Char.GetFather.Custom2('RelationToMe', ROOT.Char)] of [ROOT.Char.GetFather.Custom2('HerHisCharacterIntroductionNoComma', second)] | TR: [ROOT.Char.GetFather.Custom2('HerHisCharacterIntroductionNoComma', second)] adlı kişinin [ROOT.Char.GetFather.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]]
