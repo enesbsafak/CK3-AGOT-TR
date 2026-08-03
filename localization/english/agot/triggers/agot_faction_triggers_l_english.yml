@@ -1,7 +1,7 @@
 ﻿l_english:
-### TODO NOT-IN-ST: WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER [AGOT: Was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]]
- WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:1 "Was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"
-### TODO NOT-IN-ST: I_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER [AGOT: You were forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]]
- I_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:2 "You were forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"
-### TODO NOT-IN-ST: THEY_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER [AGOT: [CHARACTER.GetShortUIName|U] was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]]
- THEY_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:1 "[CHARACTER.GetShortUIName|U] was forbidden to join loyalist factions until [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )]"
+
+ WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:0 "[GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )] tarihine dek sadıklar hizbine katılmaktan men edildi"
+
+ I_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:0 "[GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )] tarihine dek sadıklar hizbine katılmaktan men edildiniz"
+
+ THEY_WAS_BLOCKED_FROM_LOYALIST_JOINING_TRIGGER:0 "[CHARACTER.GetShortUIName|U], [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'recently_disbanded_loyalist_faction') )] tarihine dek sadıklar hizbine katılmaktan men edildi"

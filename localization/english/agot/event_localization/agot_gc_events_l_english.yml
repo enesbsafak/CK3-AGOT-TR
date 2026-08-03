@@ -1,25 +1,25 @@
 ﻿l_english:
 
  agot_gold_company_formation.0001.t:0 "Altın Şirket"
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc [AGOT: [disgruntled_merc.GetName] approaches me, [disgruntled_merc.GetHerHis] face painted with anger and [disgruntled_merc.GetHerHis] hand tight around [disgruntled_merc.GetHerHis] sword.\n\n]
- agot_gold_company_formation.0001.desc:0 "[disgruntled_merc.GetName] approaches me, [disgruntled_merc.GetHerHis] face painted with anger and [disgruntled_merc.GetHerHis] hand tight around [disgruntled_merc.GetHerHis] sword.\n\n"[ROOT.GetCharacter.GetName], you have failed this company for the last time. I am leaving your employ and forming a company of my own, one that men will learn to respect. "
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc_flavor_base [AGOT: Furthermore, now that I am free from the stupidity of your leadership, my focus turns to one day reclaiming]
- agot_gold_company_formation.0001.desc_flavor_base:0 "Furthermore, now that I am free from the stupidity of your leadership, my focus turns to one day reclaiming"
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc_self_claim [AGOT: $agot_gold_company_formation.0001.desc_flavor_base$ #Bold my lost titles#! — a feat that would have been impossible under [ROOT.Char.GetPrimaryTitle.GetName]]
- agot_gold_company_formation.0001.desc_self_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold my lost titles#! — a feat that would have been impossible under [ROOT.Char.GetPrimaryTitle.GetName]""
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc_family_claim [AGOT: $agot_gold_company_formation.0001.desc_flavor_base$ #Bold my family's lost titles#! — a feat that would have been impossible under [ROOT.GetCharacter.GetPrimaryTitle.GetName].]
- agot_gold_company_formation.0001.desc_family_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold my family's lost titles#! — a feat that would have been impossible under [ROOT.GetCharacter.GetPrimaryTitle.GetName].""
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc_blackfyre_loyalist [AGOT: $agot_gold_company_formation.0001.desc_flavor_base$ the #Bold Black Dragon's lost titles#! — a feat that would have been impossible under [ROOT.GetCharacter.GetPrimaryTitle.GetName].]
- agot_gold_company_formation.0001.desc_blackfyre_loyalist:0 "$agot_gold_company_formation.0001.desc_flavor_base$ the #Bold Black Dragon's lost titles#! — a feat that would have been impossible under [ROOT.GetCharacter.GetPrimaryTitle.GetName].""
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.a [AGOT: Traitor!]
- agot_gold_company_formation.0001.a:0 "Traitor!"
+
+ agot_gold_company_formation.0001.desc:0 "[disgruntled_merc.GetName] yanıma yaklaşıyor, [disgruntled_merc.GetHerHis] yüzünde öfke, [disgruntled_merc.GetHerHis] eli [disgruntled_merc.GetHerHis] kılıcının kabzasında sımsıkı.\n\n"[ROOT.GetCharacter.GetName], bu şirketi son kez hayal kırıklığına uğrattın. Hizmetinden ayrılıyor ve kendi şirketimi kuruyorum; erkeklerin saygı duymayı öğreneceği bir şirket. "
+
+ agot_gold_company_formation.0001.desc_flavor_base:0 "Ayrıca, artık senin budala yönetiminden kurtulduğuma göre, odağım günün birinde geri almaya dönüyor"
+
+ agot_gold_company_formation.0001.desc_self_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold kaybettiğim unvanlar#! — [ROOT.Char.GetPrimaryTitle.GetName] altında imkânsız olacak bir başarı""
+
+ agot_gold_company_formation.0001.desc_family_claim:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold ailemin kaybettiği unvanlar#! — [ROOT.GetCharacter.GetPrimaryTitle.GetName] altında imkânsız olacak bir başarı.""
+
+ agot_gold_company_formation.0001.desc_blackfyre_loyalist:0 "$agot_gold_company_formation.0001.desc_flavor_base$ #Bold Kara Ejderha'nın kaybettiği unvanlar#! — [ROOT.GetCharacter.GetPrimaryTitle.GetName] altında imkânsız olacak bir başarı.""
+
+ agot_gold_company_formation.0001.a:0 "Hain!"
 
  agot_gold_company_formation.0001.b:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 
  agot_gold_company_formation.0002.t:0 "Altın Şirket"
 
  agot_gold_company_formation.0002.desc:0 "#italic "Our word is good as gold."#!\n\nWith armored horsemen, ferocious crossbowmen, towering catapults, and more, a new sellsword company has emerged: the Golden Company.\n\nThe Golden Company has pledged its support to any who can afford them. But unlike other sellswords, their true allegiance is to the Black Dragon, House Blackfyre.\n\nThey will not stop until the Black Dragon is crowned."
-### TODO NOT-IN-ST: agot_gold_company_formation.0002.a [AGOT: What does this mean for Westeros?]
- agot_gold_company_formation.0002.a:0 "What does this mean for Westeros?"
-### TODO NOT-IN-ST: agot_gold_company_formation.0002.b [AGOT: I wonder what they will accomplish...]
- agot_gold_company_formation.0002.b:0 "I wonder what they will accomplish..."
+
+ agot_gold_company_formation.0002.a:0 "Bu Westeros için ne anlama geliyor?"
+
+ agot_gold_company_formation.0002.b:0 "Neler başaracaklarını merak ediyorum..."

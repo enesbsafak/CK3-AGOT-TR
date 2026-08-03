@@ -1,51 +1,51 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: nights_watch_succession_law [AGOT: Night's Watch Elective]
- nights_watch_succession_law:0 "Night's Watch Elective"
+﻿l_english:
+
+ nights_watch_succession_law:0 "Gece Nöbetçileri Seçimli Veraseti"
 
  nights_watch_succession_law_subname:0 "Gece Nöbetçileri"
 
  nights_watch_elective_candidates:0 "Kara Kardeşler"
-### TODO NOT-IN-ST: nights_watch_elective_candidates_tooltip [AGOT: All Night's Watch members can be the new Lord Commander]
- nights_watch_elective_candidates_tooltip:0 "All Night's Watch members can be the new Lord Commander"
+
+ nights_watch_elective_candidates_tooltip:0 "Gece Nöbetçileri'nin tüm üyeleri yeni Komutan Efendi olabilir"
 
  nights_watch_elective_electors:0 "Kara Kardeşler"
-### TODO NOT-IN-ST: nights_watch_elective_electors_tooltip [AGOT: All Night's Watch members can vote on the new Lord Commander]
- nights_watch_elective_electors_tooltip:0 "All Night's Watch members can vote on the new Lord Commander"
-### TODO NOT-IN-ST: silent_sisterhood_succession_law [AGOT: Silent Sisterhood Elective]
- silent_sisterhood_succession_law:0 "Silent Sisterhood Elective"
+
+ nights_watch_elective_electors_tooltip:0 "Gece Nöbetçileri'nin tüm üyeleri yeni Komutan Efendi için oy kullanabilir"
+
+ silent_sisterhood_succession_law:0 "Sessiz Kızkardeşlik Seçimli Veraseti"
 
  silent_sisterhood_succession_law_subname:0 "Sessiz Kız Kardeşlik"
 
  silent_sisterhood_elective_candidates:0 "Sessiz Kız Kardeşler"
-### TODO NOT-IN-ST: silent_sisterhood_elective_candidates_tooltip [AGOT: All Silent Sisters can be the new Silent Mother]
- silent_sisterhood_elective_candidates_tooltip:0 "All Silent Sisters can be the new Silent Mother"
+
+ silent_sisterhood_elective_candidates_tooltip:0 "Tüm Sessiz Kızkardeşler yeni Sessiz Anne olabilir"
 
  silent_sisterhood_elective_electors:0 "Sessiz Kız Kardeşler"
-### TODO NOT-IN-ST: silent_sisterhood_elective_electors_tooltip [AGOT: All Silent Sisterhood members can vote on the new Silent Mother]
- silent_sisterhood_elective_electors_tooltip:0 "All Silent Sisterhood members can vote on the new Silent Mother"
-### TODO NOT-IN-ST: pirate_succession_law [AGOT: Pirate Elective]
- pirate_succession_law:0 "Pirate Elective"
+
+ silent_sisterhood_elective_electors_tooltip:0 "Sessiz Kızkardeşlik'in tüm üyeleri yeni Sessiz Anne için oy kullanabilir"
+
+ pirate_succession_law:0 "Korsan Seçimli Veraseti"
 
  pirate_succession_law_subname:0 "Korsan"
-### TODO NOT-IN-ST: pirate_elective_candidates [AGOT: Close Family and Electors]
- pirate_elective_candidates:0 "Close Family and Electors"
-### TODO NOT-IN-ST: pirate_elective_candidates_tooltip [AGOT: In order to be a valid Candidate under Pirate Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a valid Feudal [elector|E] to the title]
- pirate_elective_candidates_tooltip:1 "In order to be a valid Candidate under Pirate Elective, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic. Children of a candidate cannot be nominated\n$EFFECT_LIST_BULLET$Be a valid Feudal [elector|E] to the title"
-### TODO NOT-IN-ST: pirate_elective_electors [AGOT: Ruler and Vassals]
- pirate_elective_electors:0 "Ruler and Vassals"
-### TODO NOT-IN-ST: pirate_elective_electors_tooltip [AGOT: In order to be a valid [elector|E] under Pirate Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Have a [GetGovernment( 'pirate_government' ).GetName] government\n$EFFECT_LIST_BULLET$Be a [de_jure|E] or direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title]
- pirate_elective_electors_tooltip:0 "In order to be a valid [elector|E] under Pirate Elective, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Have a [GetGovernment( 'pirate_government' ).GetName] government\n$EFFECT_LIST_BULLET$Be a [de_jure|E] or direct vassal of the title\n$EFFECT_LIST_BULLET$Be only one or two [ranks|E] below the title"
-### TODO NOT-IN-ST: tooltip_pirate_elector_vote_strong [AGOT: [candidate.GetSheHe|U] is a strong [candidate.GetWomanMan]: $VALUE|=+0$]
- tooltip_pirate_elector_vote_strong:0 "[candidate.GetSheHe|U] is a strong [candidate.GetWomanMan]: $VALUE|=+0$"
-### TODO NOT-IN-ST: tooltip_pirate_elector_vote_weak [AGOT: [candidate.GetSheHe|U] is a weak [candidate.GetWomanMan]: $VALUE|=+0$]
- tooltip_pirate_elector_vote_weak:0 "[candidate.GetSheHe|U] is a weak [candidate.GetWomanMan]: $VALUE|=+0$"
-### TODO NOT-IN-ST: tooltip_pirate_elector_vote_strong_warrior [AGOT: [candidate.GetSheHe|U] is a skillful warrior: $VALUE|=+0$]
- tooltip_pirate_elector_vote_strong_warrior:0 "[candidate.GetSheHe|U] is a skillful warrior: $VALUE|=+0$"
-### TODO NOT-IN-ST: tooltip_pirate_elector_vote_pathetic_warrior [AGOT: [candidate.GetSheHe|U] is a pathetic warrior: $VALUE|=+0$]
- tooltip_pirate_elector_vote_pathetic_warrior:0 "[candidate.GetSheHe|U] is a pathetic warrior: $VALUE|=+0$"
-### TODO NOT-IN-ST: tooltip_pirate_elector_at_war [AGOT: [candidate.GetSheHe|U] is at war with us: $VALUE|=+0$]
- tooltip_pirate_elector_at_war:0 "[candidate.GetSheHe|U] is at war with us: $VALUE|=+0$"
-### TODO NOT-IN-ST: tooltip_agot_vote_legitimate_house [AGOT: [candidate.GetSheHe|U] is a member of the [agot_legitimate_house|E]: $VALUE|=+0$]
- tooltip_agot_vote_legitimate_house:0 "[candidate.GetSheHe|U] is a member of the [agot_legitimate_house|E]: $VALUE|=+0$"
-### TODO NOT-IN-ST: agot_ineligible_to_rule [AGOT: Ineligible to Rule]
- agot_ineligible_to_rule: "Ineligible to Rule"
+
+ pirate_elective_candidates:0 "Yakın Aile ve Seçmenler"
+
+ pirate_elective_candidates_tooltip:0 "Korsan Seçimli Veraseti altında geçerli bir Aday olabilmek için, bir karakter şu koşullardan birini yerine getirmelidir:\n$EFFECT_LIST_BULLET$Teokrasi veya Cumhuriyet mirası hattında olmayan, mevcut hükümdarın meşru bir [close_family|E] üyesi olmak. Bir adayın çocukları aday gösterilemez\n$EFFECT_LIST_BULLET$Unvan için geçerli bir Feodal [elector|E] olmak"
+
+ pirate_elective_electors:0 "Hükümdar ve Vassaller"
+
+ pirate_elective_electors_tooltip:0 "Korsan Seçimli altında geçerli bir [elector|E] olabilmek için, bir vassal şu koşulların tümünü yerine getirmelidir:\n$EFFECT_LIST_BULLET$[GetGovernment( 'pirate_government' ).GetName] yönetimine sahip olmak\n$EFFECT_LIST_BULLET$Unvanın [de_jure|E] veya doğrudan vassali olmak\n$EFFECT_LIST_BULLET$Unvandan yalnızca bir veya iki [ranks|E] aşağıda olmak"
+
+ tooltip_pirate_elector_vote_strong:0 "[candidate.GetSheHe|U] güçlü bir [candidate.GetWomanMan]: $VALUE|=+0$"
+
+ tooltip_pirate_elector_vote_weak:0 "[candidate.GetSheHe|U] zayıf bir [candidate.GetWomanMan]: $VALUE|=+0$"
+
+ tooltip_pirate_elector_vote_strong_warrior:0 "[candidate.GetSheHe|U] hünerli bir savaşçı: $VALUE|=+0$"
+
+ tooltip_pirate_elector_vote_pathetic_warrior:0 "[candidate.GetSheHe|U] zavallı bir savaşçı: $VALUE|=+0$"
+
+ tooltip_pirate_elector_at_war:0 "[candidate.GetSheHe|U] bizimle savaş halinde: $VALUE|=+0$"
+
+ tooltip_agot_vote_legitimate_house:0 "[candidate.GetSheHe|U] bir [agot_legitimate_house|E] üyesi: $VALUE|=+0$"
+
+ agot_ineligible_to_rule:0 "Hükmetmeye Uygun Değil"

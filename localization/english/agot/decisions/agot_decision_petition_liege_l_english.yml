@@ -1,17 +1,17 @@
 ﻿l_english:
-### TODO NOT-IN-ST: petition_liege_decision_option_paramount [AGOT: Request Paramountcy\n#low Grant Lord Paramount [title|E]#!]
- petition_liege_decision_option_paramount:0 "Request Paramountcy\n#low Grant Lord Paramount [title|E]#!"
-### TODO NOT-IN-ST: petition_liege_paramount_desc [AGOT: Request [ROOT.Char.GetLiege.GetTitledFirstName] grant you the Lord Paramountcy [title|E]]
- petition_liege_paramount_desc:0 "Request [ROOT.Char.GetLiege.GetTitledFirstName] grant you the Lord Paramountcy [title|E]"
-### TODO NOT-IN-ST: petition_liege_paramount_tooltip [AGOT: $petition_liege_decision_second_tooltip$]
+
+ petition_liege_decision_option_paramount:0 "Üst Derece Efendilik Talep Et\n#low Lord Üst Derece Efendisi [title|E] ver#!"
+
+ petition_liege_paramount_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName]'den size Üst Derece Efendilik [title|E] vermesini iste"
+
  petition_liege_paramount_tooltip:0 "$petition_liege_decision_second_tooltip$"
-### TODO NOT-IN-ST: petition_liege_paramount_tt [AGOT: #X None of your [claims|E] are held by your [liege|E], or they cannot afford to part with the [title|E]#!]
- petition_liege_paramount_tt:0 "#X None of your [claims|E] are held by your [liege|E], or they cannot afford to part with the [title|E]#!"
-### TODO NOT-IN-ST: petition_liege_decision_option_legitimate_house_boost [AGOT: Support House Claim\n#low Endorse as the [agot_legitimate_house|E]#!]
- petition_liege_decision_option_legitimate_house_boost:0 "Support House Claim\n#low Endorse as the [agot_legitimate_house|E]#!"
-### TODO NOT-IN-ST: petition_liege_legitimate_house_boost_desc [AGOT: Request [ROOT.Char.GetLiege.GetTitledFirstName] to support your house's claim to be the [agot_legitimate_house|E] of [ROOT.Char.GetPrimaryTitle.GetName]]
- petition_liege_legitimate_house_boost_desc:0 "Request [ROOT.Char.GetLiege.GetTitledFirstName] to support your house's claim to be the [agot_legitimate_house|E] of [ROOT.Char.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: petition_liege_legitimate_house_boost_tooltip [AGOT: $petition_liege_decision_second_tooltip$]
+
+ petition_liege_paramount_tt:0 "#X [liege|E]'niz [claims|E]'inizin hiçbirine sahip değil ya da [title|E]'den vazgeçmeyi göze alamıyor#!"
+
+ petition_liege_decision_option_legitimate_house_boost:0 "Hane İddiasını Destekle\n#low [agot_legitimate_house|E] olarak onayla#!"
+
+ petition_liege_legitimate_house_boost_desc:0 "[ROOT.Char.GetLiege.GetTitledFirstName]'den, hanenizin [ROOT.Char.GetPrimaryTitle.GetName]'in [agot_legitimate_house|E] olma iddiasını desteklemesini iste"
+
  petition_liege_legitimate_house_boost_tooltip:0 "$petition_liege_decision_second_tooltip$"
-### TODO NOT-IN-ST: petition_liege_legitimate_house_boost_tt [AGOT: #X Your house is already legitimate, you have already been supported, or your liege is not the Legitimate House of their primary title#!]
- petition_liege_legitimate_house_boost_tt:0 "#X Your house is already legitimate, you have already been supported, or your liege is not the Legitimate House of their primary title#!"
+
+ petition_liege_legitimate_house_boost_tt:0 "#X Haneniz zaten meşru, daha önce desteklendiniz ya da hükümdarınız ana unvanının Meşru Hanesi değil#!"

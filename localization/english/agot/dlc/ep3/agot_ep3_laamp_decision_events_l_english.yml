@@ -1,25 +1,25 @@
 ﻿l_english:
-### TODO NOT-IN-ST: ep3_laamp_decision_event.1000.desc_intro_returned_from_monastery [AGOT: $ep3_laamp_decision_event.1000.desc_intro_returned_from_church$]
- ep3_laamp_decision_event.1000.desc_intro_returned_from_monastery: "$ep3_laamp_decision_event.1000.desc_intro_returned_from_church$"
-### TODO NOT-IN-ST: ep3_laamp_decision_event.1000.desc_intro_pirate_den_holding [AGOT: Few places are as infamous as the local pirate dens, and [visiting_location.GetTitle.GetNameNoTier] is no exception. [visiting_location.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U] outlaws, mercenaries, exiles, and rogue captains roam freely across these untamed lands.\n\nAs we make our way through the narrow alleyways, surrounded by roaring sounds of reverly and suffocating scent of spilled ale, we are greeted by crooked smiles, while wary eyes follow our steps from beneath tattered hoods in dim corners.]
- ep3_laamp_decision_event.1000.desc_intro_pirate_den_holding: "Few places are as infamous as the local pirate dens, and [visiting_location.GetTitle.GetNameNoTier] is no exception. [visiting_location.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U] outlaws, mercenaries, exiles, and rogue captains roam freely across these untamed lands.\n\nAs we make our way through the narrow alleyways, surrounded by roaring sounds of reverly and suffocating scent of spilled ale, we are greeted by crooked smiles, while wary eyes follow our steps from beneath tattered hoods in dim corners."
-### TODO NOT-IN-ST: ep3_laamp_decision_event.1000.desc_intro_monastery_holding [AGOT: $ep3_laamp_decision_event.1000.desc_intro_church_holding$]
- ep3_laamp_decision_event.1000.desc_intro_monastery_holding: "$ep3_laamp_decision_event.1000.desc_intro_church_holding$"
-### TODO NOT-IN-ST: local_holding_type_concept_pirate_den_holding [AGOT: [pirate_den_holding|E]]
- local_holding_type_concept_pirate_den_holding: "[pirate_den_holding|E]"
-### TODO NOT-IN-ST: local_holding_type_concept_monastery_holding [AGOT: [monastery_holding|E]]
- local_holding_type_concept_monastery_holding: "[monastery_holding|E]"
-### TODO NOT-IN-ST: local_holding_type_concept_ruin_holding [AGOT: [ruin_holding|E]]
- local_holding_type_concept_ruin_holding: "[ruin_holding|E]"
-### TODO NOT-IN-ST: local_holding_type_pirate_den_holding [AGOT: $game_concept_pirate_den$ holding]
- local_holding_type_pirate_den_holding: "$game_concept_pirate_den$ holding"
-### TODO NOT-IN-ST: local_holding_type_monastery_holding [AGOT: $game_concept_monastery$ holding]
- local_holding_type_monastery_holding: "$game_concept_monastery$ holding"
-### TODO NOT-IN-ST: local_holding_type_ruin_holding [AGOT: $game_concept_ruin$ holding]
- local_holding_type_ruin_holding: "$game_concept_ruin$ holding"
-### TODO NOT-IN-ST: local_holding_type_capitalized_pirate_den_holding [AGOT: $game_concept_pirate_den$ Holding]
- local_holding_type_capitalized_pirate_den_holding: "$game_concept_pirate_den$ Holding"
-### TODO NOT-IN-ST: local_holding_type_capitalized_monastery_holding [AGOT: $game_concept_monastery$ Holding]
- local_holding_type_capitalized_monastery_holding: "$game_concept_monastery$ Holding"
-### TODO NOT-IN-ST: local_holding_type_capitalized_ruin_holding [AGOT: $game_concept_ruin$ Holding]
- local_holding_type_capitalized_ruin_holding: "$game_concept_ruin$ Holding"
+
+ ep3_laamp_decision_event.1000.desc_intro_returned_from_monastery:0 "$ep3_laamp_decision_event.1000.desc_intro_returned_from_church$"
+
+ ep3_laamp_decision_event.1000.desc_intro_pirate_den_holding:0 "Yerel korsan inleri kadar meşhur az yer vardır; [visiting_location.GetTitle.GetNameNoTier] de bir istisna değil. [visiting_location.GetCounty.GetCulture.GetCollectiveNounNoTooltip|U] haydutlar, paralı askerler, sürgünler ve haydut kaptanlar bu evcilleşmemiş topraklarda serbestçe dolaşır.\n\nDar sokak aralarında, kükreyen eğlence sesleri ve dökülmüş biranın boğucu kokusu arasında ilerlerken, eğri gülümsemelerle karşılanıyoruz; loş köşelerdeki yırtık pırtık kapüşonların altından ihtiyatlı gözler adımlarımızı takip ediyor."
+
+ ep3_laamp_decision_event.1000.desc_intro_monastery_holding:0 "$ep3_laamp_decision_event.1000.desc_intro_church_holding$"
+
+ local_holding_type_concept_pirate_den_holding:0 "[pirate_den_holding|E]"
+
+ local_holding_type_concept_monastery_holding:0 "[monastery_holding|E]"
+
+ local_holding_type_concept_ruin_holding:0 "[ruin_holding|E]"
+
+ local_holding_type_pirate_den_holding:0 "$game_concept_pirate_den$ toprak"
+
+ local_holding_type_monastery_holding:0 "$game_concept_monastery$ toprak"
+
+ local_holding_type_ruin_holding:0 "$game_concept_ruin$ toprak"
+
+ local_holding_type_capitalized_pirate_den_holding:0 "$game_concept_pirate_den$ Toprak"
+
+ local_holding_type_capitalized_monastery_holding:0 "$game_concept_monastery$ Toprak"
+
+ local_holding_type_capitalized_ruin_holding:0 "$game_concept_ruin$ Toprak"

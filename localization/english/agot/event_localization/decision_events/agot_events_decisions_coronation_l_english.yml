@@ -1,37 +1,37 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: coronation_decision.0001.t [AGOT: The Officiant]
- coronation_decision.0001.t:0 "The Officiant"
-### TODO NOT-IN-ST: coronation_decision.0001.desc [AGOT: I must select someone to officiate my coronation.]
- coronation_decision.0001.desc:0 "I must select someone to officiate my coronation."
-### TODO NOT-IN-ST: coronation_decision.0001.a [AGOT: They shall crown me!]
- coronation_decision.0001.a:0 "They shall crown me!"
-### TODO NOT-IN-ST: coronation_decision.0001.a.tt [AGOT: [officiant.GetTitledFirstNameNicknamed|U] will serve as the Officiant of your coronation.]
- coronation_decision.0001.a.tt:0 "[officiant.GetTitledFirstNameNicknamed|U] will serve as the Officiant of your coronation."
-### TODO NOT-IN-ST: coronation_decision.0001.a.tt_hof [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is your [head_of_faith|E], thereby increasing your [piety_i] [piety|E] gain.]
- coronation_decision.0001.a.tt_hof:0 "[officiant.GetTitledFirstNameNicknamed|U] is your [head_of_faith|E], thereby increasing your [piety_i] [piety|E] gain."
-### TODO NOT-IN-ST: coronation_decision.0001.a.tt_pv [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is a [powerful_vassal|E], thereby increasing your [legitimacy_i] [legitimacy|E] gain.]
- coronation_decision.0001.a.tt_pv:0 "[officiant.GetTitledFirstNameNicknamed|U] is a [powerful_vassal|E], thereby increasing your [legitimacy_i] [legitimacy|E] gain."
-### TODO NOT-IN-ST: coronation_decision.0001.a.tt_dynn [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is a member of your [dynasty|E], thereby increasing your [dynasty_prestige_i] [dynasty_prestige|E] gain.]
- coronation_decision.0001.a.tt_dynn:0 "[officiant.GetTitledFirstNameNicknamed|U] is a member of your [dynasty|E], thereby increasing your [dynasty_prestige_i] [dynasty_prestige|E] gain."
-### TODO NOT-IN-ST: coronation_decision.0001.b [AGOT: Actually, I'll do it myself!]
- coronation_decision.0001.b:0 "Actually, I'll do it myself!"
+﻿l_english:
+
+ coronation_decision.0001.t:0 "Yönetici"
+
+ coronation_decision.0001.desc:0 "Taç giyme törenimi yönetecek birini seçmeliyim."
+
+ coronation_decision.0001.a:0 "Bana taç giydirecekler!"
+
+ coronation_decision.0001.a.tt:0 "[officiant.GetTitledFirstNameNicknamed|U], taç giyme töreninizin Yöneticisi olarak hizmet edecek."
+
+ coronation_decision.0001.a.tt_hof:0 "[officiant.GetTitledFirstNameNicknamed|U], [head_of_faith|E]'niz olduğundan, [piety_i] [piety|E] kazancınızı artırır."
+
+ coronation_decision.0001.a.tt_pv:0 "[officiant.GetTitledFirstNameNicknamed|U] bir [powerful_vassal|E] olduğundan, [legitimacy_i] [legitimacy|E] kazancınızı artırır."
+
+ coronation_decision.0001.a.tt_dynn:0 "[officiant.GetTitledFirstNameNicknamed|U], [dynasty|E] üyeniz olduğundan, [dynasty_prestige_i] [dynasty_prestige|E] kazancınızı artırır."
+
+ coronation_decision.0001.b:0 "Aslında, kendim yapacağım!"
 
  coronation_decision.0001.b.tt:0 "Kendini taçlandıracaksın."
 
  coronation_decision.0002.t:0 "Taç Seçimi"
-### TODO NOT-IN-ST: coronation_decision.0002.desc [AGOT: With the final preparations underway, [officiant.GetTitledFirstNameNoTooltip] approaches me.]
- coronation_decision.0002.desc:0 "With the final preparations underway, [officiant.GetTitledFirstNameNoTooltip] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
-### TODO NOT-IN-ST: coronation_decision.0002.desc_crowning_self [AGOT: With the final preparations underway, I must decide upon which crown I wish to be crowned with.]
- coronation_decision.0002.desc_crowning_self:0 "With the final preparations underway, I must decide upon which crown I wish to be crowned with."
-### TODO NOT-IN-ST: coronation_decision.0002.desc_high_septon [AGOT: With the final preparations underway, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me.]
- coronation_decision.0002.desc_high_septon:0 "With the final preparations underway, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
-### TODO NOT-IN-ST: coronation_decision.0002.desc_after_sabotage [AGOT: After someone stole my crown, I must now select from the others in my collection.]
- coronation_decision.0002.desc_after_sabotage:0 "After someone stole my crown, I must now select from the others in my collection."
+
+ coronation_decision.0002.desc:0 "Son hazırlıklar sürerken [officiant.GetTitledFirstNameNoTooltip] yanıma yaklaşıyor. "Majesteleri, hangi taçla taç giymek istediğinize karar vermeliyiz."\n\nKoleksiyonumdaki taçlardan hangisinin kullanılması gerektiğini düşünmek için bir an ayırıyorum."
+
+ coronation_decision.0002.desc_crowning_self:0 "Son hazırlıklar sürerken, hangi taçla taç giymek istediğime karar vermeliyim."
+
+ coronation_decision.0002.desc_high_septon:0 "Son hazırlıklar sürerken [officiant.GetTitledFirstNameNicknamedNoTooltip|U] yanıma yaklaşıyor. "Majesteleri, hangi taçla taç giymek istediğinize karar vermeliyiz."\n\nKoleksiyonumdaki taçlardan hangisinin kullanılması gerektiğini düşünmek için bir an ayırıyorum."
+
+ coronation_decision.0002.desc_after_sabotage:0 "Birisi tacımı çaldığı için, artık koleksiyonumdaki diğerlerinden birini seçmem gerekiyor."
 
  coronation_decision.0002.a:0 "Bu gayet işe yarar."
-### TODO NOT-IN-ST: coronation_decision.0002.a.tt [AGOT: [selected_crown_for_coronation.GetNameNoTooltip] shall be used to crown you.]
- coronation_decision.0002.a.tt:0 "[selected_crown_for_coronation.GetNameNoTooltip] shall be used to crown you."
+
+ coronation_decision.0002.a.tt:0 "Size taç giydirmek için [selected_crown_for_coronation.GetNameNoTooltip] kullanılacak."
 
  coronation_decision.0002.b:0 "Bunların hiçbiri uygun değil; yeni bir taç sipariş edeceğim."
-### TODO NOT-IN-ST: already_hosting_coronation [AGOT: You are already hosting a coronation.]
- already_hosting_coronation:0 "You are already hosting a coronation."
+
+ already_hosting_coronation:0 "Zaten bir taç giyme töreni düzenliyorsunuz."

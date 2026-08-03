@@ -1,41 +1,41 @@
 ﻿l_english:
-### TODO NOT-IN-ST: agot_hold_court.1001.t [AGOT: $hold_court_header$ A Paramount Proposal]
- agot_hold_court.1001.t:0 "$hold_court_header$ A Paramount Proposal"
-### TODO NOT-IN-ST: agot_hold_court.1001.desc [AGOT: My vassal [paramount_petitioner.GetTitledFirstName] approaches my throne and bows deeply.\n\n]
- agot_hold_court.1001.desc:0 "My vassal [paramount_petitioner.GetTitledFirstName] approaches my throne and bows deeply.\n\n"Greetings, your majesty. The [paramount_title.GetName] has no incumbent separate from the crown. I wish to put myself forward to rule this region in your name.""
-### TODO NOT-IN-ST: agot_hold_court.1001.a [AGOT: You shall oversee the [paramount_title.GetName] for me.]
- agot_hold_court.1001.a:0 "You shall oversee the [paramount_title.GetName] for me."
-### TODO NOT-IN-ST: agot_hold_court.1001.b [AGOT: You lose! You get nothing! Good day, ser!]
- agot_hold_court.1001.b:0 "You lose! You get nothing! Good day, ser! "
-### TODO NOT-IN-ST: agot_hold_court.1011.t [AGOT: $hold_court_header$ Gory Borders]
- agot_hold_court.1011.t:0 "$hold_court_header$ Gory Borders"
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_paramount [AGOT: [aggressor_vassal.GetName] accuses [defender_vassal.GetName] of unlawfully holding domain over lands and lords who should rightfully owe fealty to [aggressor_vassal.GetHerHim]. The [vassal_claim.GetName] is [aggressor_vassal.GetHerHis] primary ire, as he presents the case that [defender_vassal_vassal.GetName] bearing fealty to [defender_vassal.GetName] has caused an unbalance in the realm, and rather these lands and their incomes should be sworn to him.\n\n]
- agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] accuses [defender_vassal.GetName] of unlawfully holding domain over lands and lords who should rightfully owe fealty to [aggressor_vassal.GetHerHim]. The [vassal_claim.GetName] is [aggressor_vassal.GetHerHis] primary ire, as he presents the case that [defender_vassal_vassal.GetName] bearing fealty to [defender_vassal.GetName] has caused an unbalance in the realm, and rather these lands and their incomes should be sworn to him.\n\n"
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_direct [AGOT: [aggressor_vassal.GetName] claims that the [vassal_claim.GetName] held by [defender_vassal.GetName] and sworn directly to you is part of their De Jure territory, and it is in the best interest of the realm for you to return it to their fold.\n\n]
- agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] claims that the [vassal_claim.GetName] held by [defender_vassal.GetName] and sworn directly to you is part of their De Jure territory, and it is in the best interest of the realm for you to return it to their fold.\n\n"
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_historic_claimant [AGOT: He further states that [defender_vassal.GetTitledFirstName] is not even the rightful lord of [vassal_claim.GetName], and rather House [dynasty.GetName] held it for many years in good faith sworn to the [aggressor_vassal.GetPrimaryTitle.GetName]. As such he suggest that it could be reallocated to [historic_claimant.GetName], whose family have been dispossessed of their historic lands.]
- agot_hold_court.1011.desc_historic_claimant:0 "He further states that [defender_vassal.GetTitledFirstName] is not even the rightful lord of [vassal_claim.GetName], and rather House [dynasty.GetName] held it for many years in good faith sworn to the [aggressor_vassal.GetPrimaryTitle.GetName]. As such he suggest that it could be reallocated to [historic_claimant.GetName], whose family have been dispossessed of their historic lands."
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_historic_same [AGOT: House [dynasty.GetName] is the traditional holder of the [vassal_claim.GetName], so [defender_vassal.GetName] is in their rights in the possession of the land.]
- agot_hold_court.1011.desc_historic_same:0 "House [dynasty.GetName] is the traditional holder of the [vassal_claim.GetName], so [defender_vassal.GetName] is in their rights in the possession of the land."
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_default [AGOT: [vassal_claim.GetName] [dynasty.GetName].]
+
+ agot_hold_court.1001.t:0 "$hold_court_header$ Bir Üst Derece Teklifi"
+
+ agot_hold_court.1001.desc:0 "Vassalim [paramount_petitioner.GetTitledFirstName] tahtıma yaklaşıp derin bir eğiliyor.\n\n"Selamlar, majesteleri. [paramount_title.GetName]'in taçtan ayrı bir sahibi yok. Bu bölgeyi sizin adınıza yönetmek için kendimi öne sürmek istiyorum.""
+
+ agot_hold_court.1001.a:0 "[paramount_title.GetName]'i benim için yöneteceksiniz."
+
+ agot_hold_court.1001.b:0 "Kaybettin! Hiçbir şey alamıyorsun! İyi günler, ser! "
+
+ agot_hold_court.1011.t:0 "$hold_court_header$ Kanlı Sınırlar"
+
+ agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName], [defender_vassal.GetName]'i, haklı olarak [aggressor_vassal.GetHerHim]'e bağlılık borçlu olan topraklar ve lordlar üzerinde hukuka aykırı biçimde hüküm sürmekle suçluyor. [defender_vassal_vassal.GetName]'in [defender_vassal.GetName]'e bağlılık göstermesinin diyarda dengesizlik yarattığını, bu toprakların ve gelirlerinin kendisine bağlanması gerektiğini öne sürdüğünden, [vassal_claim.GetName] [aggressor_vassal.GetHerHis] başlıca öfke kaynağı.\n\n"
+
+ agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName], [defender_vassal.GetName] tarafından tutulan ve doğrudan size bağlı olan [vassal_claim.GetName]'in kendi De Jure topraklarının bir parçası olduğunu ve diyarın çıkarı için burayı kendilerine geri vermeniz gerektiğini iddia ediyor.\n\n"
+
+ agot_hold_court.1011.desc_historic_claimant:0 "Ayrıca [defender_vassal.GetTitledFirstName]'in [vassal_claim.GetName]'in meşru efendisi bile olmadığını; [dynasty.GetName] Hanesi'nin burayı uzun yıllar boyunca [aggressor_vassal.GetPrimaryTitle.GetName]'e bağlı kalarak iyi niyetle elinde tuttuğunu belirtiyor. Bu nedenle, ailesi tarihsel topraklarından edilmiş olan [historic_claimant.GetName]'e yeniden tahsis edilebileceğini öne sürüyor."
+
+ agot_hold_court.1011.desc_historic_same:0 "[dynasty.GetName] Hanesi, [vassal_claim.GetName]'in geleneksel sahibidir; bu yüzden [defender_vassal.GetName], toprağa sahip olma hakkına sahiptir."
+
  agot_hold_court.1011.desc_default:0 "[vassal_claim.GetName] [dynasty.GetName]."
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_paramount_titles [AGOT: To further complicate matters, [defender_vassal_vassal.GetTitledFirstName] holds titles across the realm]
- agot_hold_court.1011.desc_paramount_titles:0 "To further complicate matters, [defender_vassal_vassal.GetTitledFirstName] holds titles across the realm"
-### TODO NOT-IN-ST: agot_hold_court.1011.desc_titles [AGOT: To further complicate matters, [defender_vassal.GetTitledFirstName] holds titles across the realm.]
- agot_hold_court.1011.desc_titles:0 "To further complicate matters, [defender_vassal.GetTitledFirstName] holds titles across the realm."
-### TODO NOT-IN-ST: agot_hold_court.1011.a.direct [AGOT: The [defender_vassal.GetTitleAsNameNoTooltip] will swear fealty to you.]
- agot_hold_court.1011.a.direct:0 "The [defender_vassal.GetTitleAsNameNoTooltip] will swear fealty to you."
-### TODO NOT-IN-ST: agot_hold_court.1011.a.indirect [AGOT: The [defender_vassal_vassal.GetTitleAsNameNoTooltip] will swear fealty to you.]
- agot_hold_court.1011.a.indirect:0 "The [defender_vassal_vassal.GetTitleAsNameNoTooltip] will swear fealty to you."
-### TODO NOT-IN-ST: agot_hold_court.1011.b.direct [AGOT: [defender_vassal.GetFirstNamePossessive] realm has grown too large and must be split up.]
- agot_hold_court.1011.b.direct:0 "[defender_vassal.GetFirstNamePossessive] realm has grown too large and must be split up."
-### TODO NOT-IN-ST: agot_hold_court.1011.b.indirect [AGOT: [defender_vassal_vassal.GetFirstNamePossessive] realm has grown too large and must be split up.]
- agot_hold_court.1011.b.indirect:0 "[defender_vassal_vassal.GetFirstNamePossessive] realm has grown too large and must be split up."
-### TODO NOT-IN-ST: agot_hold_court.1011.c [AGOT: I shall take those excess titles for you!]
- agot_hold_court.1011.c:0 "I shall take those excess titles for you!"
-### TODO NOT-IN-ST: agot_hold_court.1011.d [AGOT: [vassal_claim.GetNameNoTier] is historically the seat of House [historic_claimant.GetHouse.GetName], it shall go to [historic_claimant.GetFirstName]!]
- agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] is historically the seat of House [historic_claimant.GetHouse.GetName], it shall go to [historic_claimant.GetFirstName]!"
-### TODO NOT-IN-ST: agot_hold_court.1021.t [AGOT: [historic_claimant.GetName]]
+
+ agot_hold_court.1011.desc_paramount_titles:0 "İşleri daha da karmaşıklaştırmak için, [defender_vassal_vassal.GetTitledFirstName] diyarın dört bir yanında unvanlara sahip"
+
+ agot_hold_court.1011.desc_titles:0 "İşleri daha da karmaşıklaştırmak için, [defender_vassal.GetTitledFirstName] diyarın dört bir yanında unvanlara sahip."
+
+ agot_hold_court.1011.a.direct:0 "[defender_vassal.GetTitleAsNameNoTooltip], size bağlılık yemini edecek."
+
+ agot_hold_court.1011.a.indirect:0 "[defender_vassal_vassal.GetTitleAsNameNoTooltip], size bağlılık yemini edecek."
+
+ agot_hold_court.1011.b.direct:0 "[defender_vassal.GetFirstNamePossessive] diyarı çok büyüdü ve bölünmesi gerekiyor."
+
+ agot_hold_court.1011.b.indirect:0 "[defender_vassal_vassal.GetFirstNamePossessive] diyarı çok büyüdü ve bölünmesi gerekiyor."
+
+ agot_hold_court.1011.c:0 "O fazla unvanları senin için alacağım!"
+
+ agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier], tarihsel olarak [historic_claimant.GetHouse.GetName] Hanesi'nin merkezidir; [historic_claimant.GetFirstName]'e verilecektir!"
+
  agot_hold_court.1021.t:0 "[historic_claimant.GetName]"
-### TODO NOT-IN-ST: agot_hold_court.1021.desc [AGOT: Hey buddy you have the [claim_title.GetName] but House [dynasty.GetName] held it for ages and we have no land maybe you can gib to me uwu]
- agot_hold_court.1021.desc:0 "Hey buddy you have the [claim_title.GetName] but House [dynasty.GetName] held it for ages and we have no land maybe you can gib to me uwu "
+
+ agot_hold_court.1021.desc:0 "Hey dostum [claim_title.GetName] senin ama [dynasty.GetName] Hanesi yüzyıllardır ona sahipti ve bizim hiç toprağımız yok, belki bana verirsin uwu "

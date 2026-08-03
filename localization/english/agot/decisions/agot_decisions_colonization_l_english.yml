@@ -1,33 +1,33 @@
 ﻿l_english:
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_decision [AGOT: Settle Region]
- settle_wilderness_county_or_duchy_decision:0 "Settle Region"
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_decision_desc [AGOT: Settle the local region, becoming a landed ruler and leaving behind your adventuring days.]
- settle_wilderness_county_or_duchy_decision_desc:0 "Settle the local region, becoming a landed ruler and leaving behind your adventuring days."
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_decision_tooltip [AGOT: Settle the local region, becoming a landed [ruler|E]]
- settle_wilderness_county_or_duchy_decision_tooltip:0 "Settle the local region, becoming a landed [ruler|E]"
-### TODO NOT-IN-ST: settle_one_county [AGOT: Settle the immediate [county|E]]
- settle_one_county:0 "Settle the immediate [county|E]"
-### TODO NOT-IN-ST: settle_one_county_tooltip [AGOT: $settle_one_county$]
+
+ settle_wilderness_county_or_duchy_decision:0 "Bölgeye Yerleş"
+
+ settle_wilderness_county_or_duchy_decision_desc:0 "Yerel bölgeye yerleşerek toprak sahibi bir hükümdar ol ve macera günlerini geride bırak."
+
+ settle_wilderness_county_or_duchy_decision_tooltip:0 "Yerel bölgeye yerleşerek toprak sahibi bir [ruler|E] ol"
+
+ settle_one_county:0 "Yakındaki [county|E]'ye yerleş"
+
  settle_one_county_tooltip:0 "$settle_one_county$"
 
  settle_one_county_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
-### TODO NOT-IN-ST: settle_duchy [AGOT: Attempt to settle the [duchy|E]]
- settle_duchy:0 "Attempt to settle the [duchy|E]"
-### TODO NOT-IN-ST: settle_duchy_tooltip [AGOT: $settle_duchy$]
+
+ settle_duchy:0 "[duchy|E]'yi yerleşime açmayı dene"
+
  settle_duchy_tooltip:0 "$settle_duchy$"
 
  settle_duchy_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_decision_confirm [AGOT: It is time to make a home...]
- settle_wilderness_county_or_duchy_decision_confirm:0 "It is time to make a home..."
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_basic_effect [AGOT: For every #V 100#! [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E], you will settle #P 1#! [county|E]]
- settle_wilderness_county_or_duchy_basic_effect:0 "For every #V 100#! [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E], you will settle #P 1#! [county|E]"
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_current_settle_limit_effect [AGOT: Current counties that can be settled: #V [GetPlayer.MakeScope.ScriptValue('agot_settle_wilderness_as_adventurer_county_limit')]#!]
- settle_wilderness_county_or_duchy_current_settle_limit_effect:0 "Current counties that can be settled: #V [GetPlayer.MakeScope.ScriptValue('agot_settle_wilderness_as_adventurer_county_limit')]#!"
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_destroy_maa_effect [AGOT: The [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] will be destroyed!]
- settle_wilderness_county_or_duchy_destroy_maa_effect:0 "The [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] will be destroyed!"
-### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_not_enough_maa_tt [AGOT: You do not have enough Men-at-Arms\n#low Need at least 300 [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E]#!]
- settle_wilderness_county_or_duchy_not_enough_maa_tt:0 "You do not have enough Men-at-Arms\n#low Need at least 300 [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E]#!"
-### TODO NOT-IN-ST: settle_wilderness_duchy_has_underground_counties [AGOT: There are underground counties in this [duchy|E] which will #N not#! be settled.]
- settle_wilderness_duchy_has_underground_counties:0 "There are underground counties in this [duchy|E] which will #N not#! be settled."
-### TODO NOT-IN-ST: settle_wilderness_county_as_pirate_basic_effect [AGOT: Landless Pirates are able to colonize up to one county for free in traditional pirate regions.]
- settle_wilderness_county_as_pirate_basic_effect:0 "Landless Pirates are able to colonize up to one county for free in traditional pirate regions."
+
+ settle_wilderness_county_or_duchy_decision_confirm:0 "Bir yuva kurmanın zamanı..."
+
+ settle_wilderness_county_or_duchy_basic_effect:0 "Her #V 100#! [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] için, #P 1#! [county|E] yerleşime açacaksınız"
+
+ settle_wilderness_county_or_duchy_current_settle_limit_effect:0 "Yerleşime açılabilecek mevcut eyaletler: #V [GetPlayer.MakeScope.ScriptValue('agot_settle_wilderness_as_adventurer_county_limit')]#!"
+
+ settle_wilderness_county_or_duchy_destroy_maa_effect:0 "[GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] yok edilecek!"
+
+ settle_wilderness_county_or_duchy_not_enough_maa_tt:0 "Yeterli Silahlı Adamınız yok\n#low En az 300 [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] gerekli#!"
+
+ settle_wilderness_duchy_has_underground_counties:0 "Bu [duchy|E]'de yerleşime açılmayacak #N yeraltı eyaletleri#! var."
+
+ settle_wilderness_county_as_pirate_basic_effect:0 "Topraksız Korsanlar, geleneksel korsan bölgelerinde ücretsiz olarak en fazla bir eyaleti kolonize edebilir."

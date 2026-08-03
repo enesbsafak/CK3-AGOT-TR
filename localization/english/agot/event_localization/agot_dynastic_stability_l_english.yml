@@ -1,23 +1,23 @@
 ﻿l_english:
-### TODO NOT-IN-ST: agot_dynastic_stability.0002.t [AGOT: A Surprise Inheritance]
- agot_dynastic_stability.0002.t:0 "A Surprise Inheritance"
-### TODO NOT-IN-ST: agot_dynastic_stability.0002.desc [AGOT: Every so often, someone dies. The majority of the time, this is of no consequence; however, on occasion, it can be a fortuitous event indeed. This is one of those occasions. One of my relatives, however distant, has died, and the hands of fate have made it so that I am their heir. There is, of course, one small hitch to this. I am not of their House, and some may view this as an issue with the legitimacy of my new holdings.\n\nThus, I am presented with a choice. With my new holdings, I could also take on the name of the House to whom the holdings traditionally belong, ensuring that the line of succession is viewed as legitimate and unbroken.]
- agot_dynastic_stability.0002.desc:0 "Every so often, someone dies. The majority of the time, this is of no consequence; however, on occasion, it can be a fortuitous event indeed. This is one of those occasions. One of my relatives, however distant, has died, and the hands of fate have made it so that I am their heir. There is, of course, one small hitch to this. I am not of their House, and some may view this as an issue with the legitimacy of my new holdings.\n\nThus, I am presented with a choice. With my new holdings, I could also take on the name of the House to whom the holdings traditionally belong, ensuring that the line of succession is viewed as legitimate and unbroken."
-### TODO NOT-IN-ST: agot_dynastic_stability.0002.a [AGOT: It would seem that taking on a new name is wisest]
- agot_dynastic_stability.0002.a:0 "It would seem that taking on a new name is wisest"
-### TODO NOT-IN-ST: agot_dynastic_stability.0002.b [AGOT: Never! I will always be a [GetPlayer.GetHouse.GetBaseName]!]
- agot_dynastic_stability.0002.b:0 "Never! I will always be a [GetPlayer.GetHouse.GetBaseName]!"
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.t [AGOT: Bastards Born Again]
- agot_dynastic_stability.2000.t:0 "Bastards Born Again"
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.desc [AGOT: A petition has arrived to my [ROOT.Char.Custom('GetCourtType')].\n\n[bastard.GetName] is requesting that I, the [ROOT.Char.Custom('GetQueenKing')] of [empire_title.GetName], grant [bastard.GetHerHim] a special dispensation to assume the arms and name of House [bastard.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], a House they are descended from.]
- agot_dynastic_stability.2000.desc:0 "A petition has arrived to my [ROOT.Char.Custom('GetCourtType')].\n\n[bastard.GetName] is requesting that I, the [ROOT.Char.Custom('GetQueenKing')] of [empire_title.GetName], grant [bastard.GetHerHim] a special dispensation to assume the arms and name of House [bastard.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], a House they are descended from."
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.a [AGOT: I shall grant this petition.]
- agot_dynastic_stability.2000.a:0 "I shall grant this petition."
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.b [AGOT: No, [bastard.GetSheHe] has no right to this.]
- agot_dynastic_stability.2000.b:0 "No, [bastard.GetSheHe] has no right to this."
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.legitimization_granted [AGOT: Request Granted]
- agot_dynastic_stability.2000.legitimization_granted:0 "Request Granted"
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.legitimization_rejected [AGOT: Request Denied]
- agot_dynastic_stability.2000.legitimization_rejected:0 "Request Denied"
-### TODO NOT-IN-ST: agot_dynastic_stability.2000.legitimization_rejected_desc [AGOT: [top_liege.GetName] rejected your petition to assume the arms of your ancestral House.]
- agot_dynastic_stability.2000.legitimization_rejected_desc:0 "[top_liege.GetName] rejected your petition to assume the arms of your ancestral House."
+
+ agot_dynastic_stability.0002.t:0 "Sürpriz Bir Miras"
+
+ agot_dynastic_stability.0002.desc:0 "Arada sırada birileri ölür. Çoğu zaman bunun bir önemi yoktur; ancak bazen, gerçekten de şanslı bir olay olabilir. Bu da o durumlardan biri. Ne kadar uzak olursa olsun akrabalarımdan biri öldü ve kaderin cilvesiyle onun varisi ben oldum. Elbette bunun küçük bir pürüzü var. Onların Hanesinden değilim ve bazıları bunu yeni topraklarımın meşruiyetiyle ilgili bir sorun olarak görebilir.\n\nBöylece önüme bir seçenek çıkıyor. Yeni topraklarımla birlikte, toprakların geleneksel olarak ait olduğu Hane'nin adını da alabilir; veraset çizgisinin meşru ve kesintisiz görülmesini sağlayabilirim."
+
+ agot_dynastic_stability.0002.a:0 "Yeni bir isim almanın en akıllıcası olduğu görülüyor"
+
+ agot_dynastic_stability.0002.b:0 "Asla! Ben her zaman bir [GetPlayer.GetHouse.GetBaseName] olacağım!"
+
+ agot_dynastic_stability.2000.t:0 "Yeniden Doğan Piçler"
+
+ agot_dynastic_stability.2000.desc:0 "[ROOT.Char.Custom('GetCourtType')]'ıma bir dilekçe ulaştı.\n\n[bastard.GetName], [empire_title.GetName]'in [ROOT.Char.Custom('GetQueenKing')]'i olan benden, soyundan geldiği [bastard.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] Hanesi'nin armasını ve adını taşımak için özel bir izin verilmesini talep ediyor."
+
+ agot_dynastic_stability.2000.a:0 "Bu dilekçeyi kabul edeceğim."
+
+ agot_dynastic_stability.2000.b:0 "Hayır, [bastard.GetSheHe]'in buna hakkı yok."
+
+ agot_dynastic_stability.2000.legitimization_granted:0 "Talebin Kabul Edildi"
+
+ agot_dynastic_stability.2000.legitimization_rejected:0 "Talebin Reddedildi"
+
+ agot_dynastic_stability.2000.legitimization_rejected_desc:0 "[top_liege.GetName], ata Hanenizin armasını üstlenme dilekçenizi reddetti."

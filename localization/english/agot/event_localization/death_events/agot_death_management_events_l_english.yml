@@ -1,21 +1,21 @@
 ﻿l_english:
-### TODO NOT-IN-ST: death_management.killer.witnessed.enemy_dragon [AGOT: None could stand against the force of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through the enemy lines, with [dead_character.GetFirstNameNoTooltip] as one of their many victims.]
- death_management.killer.witnessed.enemy_dragon:0 "None could stand against the force of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through the enemy lines, with [dead_character.GetFirstNameNoTooltip] as one of their many victims. "
-### TODO NOT-IN-ST: death_management.killer.witnessed.friendly_dragon [AGOT: None could stand against the terror of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through our lines, with [dead_character.GetFirstNameNoTooltip] one of the many who fell to fire and flame.]
- death_management.killer.witnessed.friendly_dragon:0 "None could stand against the terror of [battle_death_killer.GetFirstName]. Ridden by [battle_death_killer_rider.GetTitledFirstName], they tore through our lines, with [dead_character.GetFirstNameNoTooltip] one of the many who fell to fire and flame. "
-### TODO NOT-IN-ST: death_management.killer.witnessed.your_killer_dragon [AGOT: None could stand against the force of [battle_death_killer.GetFirstName] as I tore through the battlefield atop them. As I command [battle_death_killer.GetFirstName] to attack my eyes suddenly catch [dead_character.GetTitledFirstName] directly infront of us, directly in the line of fire.]
- death_management.killer.witnessed.your_killer_dragon:0 "None could stand against the force of [battle_death_killer.GetFirstName] as I tore through the battlefield atop them. As I command [battle_death_killer.GetFirstName] to attack my eyes suddenly catch [dead_character.GetTitledFirstName] directly infront of us, directly in the line of fire."
-### TODO NOT-IN-ST: death_management.killer_dragon [AGOT: [dead_character.GetSheHe|U] was one of the many who fell before [battle_death_killer.GetFirstName], dragon of [battle_death_killer_rider.GetTitledFirstName].'#!]
- death_management.killer_dragon:0 "[dead_character.GetSheHe|U] was one of the many who fell before [battle_death_killer.GetFirstName], dragon of [battle_death_killer_rider.GetTitledFirstName].'#!"
-### TODO NOT-IN-ST: death_management.1200.a_dragon [AGOT: [battle_death_killer_rider.GetFirstNameNoTooltip] is a dead [battle_death_killer_rider.GetWomanMan]! Dead!]
- death_management.1200.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] is a dead [battle_death_killer_rider.GetWomanMan]! Dead!"
-### TODO NOT-IN-ST: death_management.1201.a_dragon [AGOT: [battle_death_killer_rider.GetFirstNameNoTooltip] will not get away with this!]
- death_management.1201.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] will not get away with this!"
-### TODO NOT-IN-ST: death_management.1202.b_dragon [AGOT: [battle_death_killer_rider.GetFirstNameNoTooltip] will pay.]
- death_management.1202.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] will pay."
-### TODO NOT-IN-ST: death_management.1205.b_dragon [AGOT: [battle_death_killer_rider.GetFirstNameNoTooltip] will pay for this!]
- death_management.1205.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] will pay for this!"
-### TODO NOT-IN-ST: death_management.1206.c_dragon [AGOT: My #EMP hero!#! I shall send [battle_death_killer_rider.GetFirstNameNoTooltip] a [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]!]
- death_management.1206.c_dragon:2 "My #EMP hero!#! I shall send [battle_death_killer_rider.GetFirstNameNoTooltip] a [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]!"
-### TODO NOT-IN-ST: death_management.1207.b_dragon [AGOT: ...but neither is [battle_death_killer_rider.GetFirstNameNoTooltip]!]
- death_management.1207.b_dragon:0 "...but neither is [battle_death_killer_rider.GetFirstNameNoTooltip]!"
+
+ death_management.killer.witnessed.enemy_dragon:0 "Kimse [battle_death_killer.GetFirstName]'in gücüne karşı duramadı. [battle_death_killer_rider.GetTitledFirstName] tarafından sürülen ejderha, düşman hatlarını yara yara ilerledi; [dead_character.GetFirstNameNoTooltip] de sayısız kurbanından biri oldu. "
+
+ death_management.killer.witnessed.friendly_dragon:0 "Kimse [battle_death_killer.GetFirstName]'in dehşetine karşı duramadı. [battle_death_killer_rider.GetTitledFirstName] tarafından sürülen ejderha, saflarımızı yara yara ilerledi; [dead_character.GetFirstNameNoTooltip] de ateş ve alevlere kurban gidenlerden biriydi. "
+
+ death_management.killer.witnessed.your_killer_dragon:0 "[battle_death_killer.GetFirstName]'in üzerinde savaş alanını yara yara ilerlerken kimse onun gücüne karşı duramadı. [battle_death_killer.GetFirstName]'e saldırı emri verdiğimde gözlerim aniden tam önümüzde, doğrudan ateş hattında duran [dead_character.GetTitledFirstName]'i yakalıyor."
+
+ death_management.killer_dragon:0 "[dead_character.GetSheHe|U], [battle_death_killer_rider.GetTitledFirstName]'in ejderhası [battle_death_killer.GetFirstName] önünde can verenlerden biriydi.'#!"
+
+ death_management.1200.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] ölmüş bir [battle_death_killer_rider.GetWomanMan]! Ölmüş!"
+
+ death_management.1201.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] bunun cezasız kalmasına izin vermeyeceğim!"
+
+ death_management.1202.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] bedelini ödeyecek."
+
+ death_management.1205.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] bunun bedelini ödeyecek!"
+
+ death_management.1206.c_dragon:0 "#EMP Kahramanım!#! [battle_death_killer_rider.GetFirstNameNoTooltip]'e bir [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')] göndereceğim!"
+
+ death_management.1207.b_dragon:0 "...ama [battle_death_killer_rider.GetFirstNameNoTooltip] de yaşıyor!"
