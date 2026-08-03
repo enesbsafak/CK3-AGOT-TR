@@ -1,0 +1,12 @@
+﻿l_english:
+ FP2_BORDER_RAID_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [border_raid|E]"
+ FP2_BORDER_RAID_CB_SPECIFIC_NAME:0 "[TITLE.GetBaseNameNoTier] [Concept( 'border_raid', 'Sınırı Yağması' )|E]"
+### TODO AGOT-CHANGED: FP2_BORDER_RAID_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] of [TITLE.GetBaseNameNoTier] | TR: [TITLE.GetBaseNameNoTier] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E]]
+ FP2_BORDER_RAID_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [border_raid|E] of [TITLE.GetBaseNameNoTier]"
+ FP2_BORDER_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ FP2_EXPEL_INTERLOPER_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [iberian_reclamation|E]"
+ FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[TITLE.GetBaseNameNoTier] Topraklarında [iberian_reclamation|E]"
+### TODO AGOT-CHANGED: FP2_EXPEL_INTERLOPER_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] of [TITLE.GetBaseNameNoTier] | TR: [TITLE.GetBaseNameNoTier] Topraklarında [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] için [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][iberian_reclamation|E]]
+ FP2_EXPEL_INTERLOPER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] of [TITLE.GetBaseNameNoTier]"
+ FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ CB_COST_IBERIAN_RECLAMATION:0 "[county|E] başına maliyeti [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [Concept( 'prestige', 'Prestijdir' )|E]"

@@ -1,0 +1,115 @@
+﻿l_english:
+### TODO AGOT-CHANGED: BOOKMARK_SUBTITLE_NEW_NOBLE_FAMILY [AGOT: Create a new Dynasty | TR: Yeni bir Hanedan Oluştur]
+ BOOKMARK_SUBTITLE_NEW_NOBLE_FAMILY: "Create a new Dynasty"
+### TODO AGOT-CHANGED: BOOKMARK_SUBTITLE_NEW_LANDLESS_ADVENTURER [AGOT: Create an Adventurer | TR: Maceracı Oluştur]
+ BOOKMARK_SUBTITLE_NEW_LANDLESS_ADVENTURER: "Create an Adventurer"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_ANY_FAITH [AGOT: Any faith | TR: Herhangi bir mezhep]
+ BOOKMARK_CHARACTER_ANY_FAITH: "Any faith"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_ANY_CULTURE [AGOT: Any culture | TR: Herhangi bir kültür]
+ BOOKMARK_CHARACTER_ANY_CULTURE: "Any culture"
+ BOOKMARK_CHARACTER_TITLE_DATA:0 "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleName] Tahtında [BOOKMARK_CHARACTER.GetTitleTierName|U]#!"
+ ADVENTURER_BOOKMARK_CHARACTER_TITLE: "[BookmarkCharacter.GetTitleName]"
+ BOOKMARK_CHARACTER_CULTURE:1 "[culture|E]: #high;bold [BookmarkCharacter.GetCultureName]#!"
+ BOOKMARK_CHARACTER_CULTURE_DATA:0 "[culture|E]: [BOOKMARK_CHARACTER.GetCultureName]"
+ BOOKMARK_CHARACTER_AGE:0 "Yaş: [BookmarkCharacter.GetAge|V]"
+ BOOKMARK_CHARACTER_INFO:2 "#high [BookmarkCharacter.GetName]#!, #medium [BookmarkCharacter.GetAge]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_SUBHEADING_AND_GOVERNMENT [AGOT: [BookmarkCharacter.GetSubheading] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#! | TR: [BookmarkCharacter.GetSubheading] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!]
+ BOOKMARK_CHARACTER_SUBHEADING_AND_GOVERNMENT: "[BookmarkCharacter.GetSubheading] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_INFO_CREATE [AGOT: #high;bold [BookmarkCharacter.GetName]#! | TR: #high;bold [BookmarkCharacter.GetName]#!]
+ BOOKMARK_CHARACTER_INFO_CREATE: "#high;bold [BookmarkCharacter.GetName]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_AND_GOVERNMENT [AGOT: [SelectLocalization(BookmarkCharacter.StartDesignLandlessNobleFamily, 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_NOBLE_FAMILY', 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER')] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#! | TR: [SelectLocalization(BookmarkCharacter.StartDesignLandlessNobleFamily, 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_NOBLE_FAMILY', 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER')] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!]
+ BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_AND_GOVERNMENT: "[SelectLocalization(BookmarkCharacter.StartDesignLandlessNobleFamily, 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_NOBLE_FAMILY', 'BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER')] #low [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_NOBLE_FAMILY [AGOT: Landless Noble in [BookmarkCharacter.GetTargetTitleName] | TR: [BookmarkCharacter.GetTargetTitleName] Ülkesinde Topraksız Soylu]
+ BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_NOBLE_FAMILY: "Landless Noble in [BookmarkCharacter.GetTargetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER [AGOT: Landless Adventurer in [BookmarkCharacter.GetTargetTitleName] | TR: [BookmarkCharacter.GetTargetTitleName] Ülkesinde Topraksız Maceracı]
+ BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER: "Landless Adventurer in [BookmarkCharacter.GetTargetTitleName]"
+ BOOKMARK_CHARACTER_AGE_DATA:0 "Yaş: [BOOKMARK_CHARACTER.GetAge]"
+ BOOKMARK_CHARACTER_RELIGION:1 "[faith|E]: #high [BookmarkCharacter.GetReligionName]#!"
+ BOOKMARK_CHARACTER_RELIGION_DATA:0 "[faith|E]: [BOOKMARK_CHARACTER.GetReligionName]"
+ BOOKMAR_CHARACTER_TOOLTIP:0 "[BOOKMARK_CHARACTER.GetName|T]\n$BOOKMARK_CHARACTER_AGE_DATA$\n$BOOKMARK_CHARACTER_TITLE_DATA$\n$BOOKMARK_CHARACTER_CULTURE_DATA$\n$BOOKMARK_CHARACTER_RELIGION_DATA$\n[BOOKMARK_CHARACTER.GetDescription]"
+ BOOKMAR_CHARACTER_TOOLTIP_NO_TITLE:1 "[BOOKMARK_CHARACTER.GetName|T]\n$BOOKMARK_CHARACTER_AGE_DATA$\n$BOOKMARK_CHARACTER_CULTURE_DATA$\n$BOOKMARK_CHARACTER_RELIGION_DATA$" #krutygetarts
+ BOOKMARK_RELATION_SON:0 "(Oğlu)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_FATHER [AGOT: (Father) | TR: (Babası)]
+ BOOKMARK_RELATION_FATHER: "(Father)"
+ BOOKMARK_RELATION_GRANDSON:0 "(Torunu)"
+ BOOKMARK_RELATION_BROTHER:0 "(Erkek Kardeşi)"
+ BOOKMARK_RELATION_DAUGHTER:0 "(Kızı)"
+ BOOKMARK_RELATION_UNCLE:0 "(Amcası/Dayısı)"
+ BOOKMARK_RELATION_SISTER:0 "(Kız Kardeşi)"
+ BOOKMARK_RELATION_MOTHER:0 "(Annesi)"
+ BOOKMARK_RELATION_AUNT:0 "(Halası/Teyzesi)"
+ BOOKMARK_RELATION_COUSIN:0 "(Kuzeni)"
+ BOOKMARK_RELATION_COMMON_LAW_WIFE:0 "(Nikahsız Karısı)"
+ BOOKMARK_RELATION_SPOUSE_MALE:0 "(Kocası)"
+ BOOKMARK_RELATION_SPOUSE_FEMALE:0 "(Karısı)"
+ BOOKMARK_RELATION_BASTARD_SON:0 "(Gayrimeşru Oğlu)"
+ BOOKMARK_RELATION_BASTARD_DAUGHTER:0 "(Gayrimeşru Kızı)"
+ BOOKMARK_RELATION_WIFE:0 "(Karısı)"
+ BOOKMARK_RELATION_CONCUBINE:0 "(Cariyesi)"
+ BOOKMARK_RELATION_LOVER:0 "(Sevgilisi)"
+ BOOKMARK_RELATION_FRIEND:0 "(Arkadaşı)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_RIVAL [AGOT: (Rival) | TR: (Rakibi)]
+ BOOKMARK_RELATION_RIVAL: "(Rival)"
+ BOOKMARK_RELATION_LIEGE:0 "(Süzereni)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_EMPLOYER [AGOT: (Employer) | TR: (İşvereni)]
+ BOOKMARK_RELATION_EMPLOYER: "(Employer)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_LIEGE_AND_BROTHER [AGOT: (Liege and Brother) | TR: (Süzereni ve Kardeşi)]
+ BOOKMARK_RELATION_LIEGE_AND_BROTHER: "(Liege and Brother)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_NEPHEW [AGOT: (Nephew) | TR: (Yeğeni)]
+ BOOKMARK_RELATION_NEPHEW: "(Nephew)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_REBELLIOUS_COMMANDER [AGOT: (Rebellious Commander) | TR: (İsyankâr Komutanı)]
+ BOOKMARK_RELATION_REBELLIOUS_COMMANDER: "(Rebellious Commander)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_BEST_FRIEND [AGOT: (Best Friend) | TR: (En İyi Arkadaşı)]
+ BOOKMARK_RELATION_BEST_FRIEND: "(Best Friend)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_SISTER_AND_HEIR [AGOT: (Sister and Heir) | TR: (Kız Kardeşi ve Vârisi)]
+ BOOKMARK_RELATION_SISTER_AND_HEIR: "(Sister and Heir)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_COUSIN_AND_RIVAL [AGOT: (Cousin and Rival) | TR: (Kuzeni ve Rakibi)]
+ BOOKMARK_RELATION_COUSIN_AND_RIVAL: "(Cousin and Rival)"
+ BOOKMARK_CHARACTER_DIFFICULTY:0 "Zorluk: [BookmarkCharacter.GetDifficulty]"
+ BOOKMARK_CHARACTER_DIFFICULTY_EASY:2 "#difficulty_easy Kolay#!"
+ BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM:2 "#difficulty_medium Orta#!"
+ BOOKMARK_CHARACTER_DIFFICULTY_HARD:2 "#difficulty_hard Zor#!"
+ BOOKMARK_SELECT_BOOKMARK:0 "Başlangıç Tarihi ve Karakter Seç"
+ BOOKMARK_HOUSE_TOOLTIP:0 "#T [BookmarkCharacter.GetDynastyHouseTemplate.GetName] [Concept( 'house', 'Hanesi' )|E]#!\n#weak [BookmarkCharacter.GetDynastyHouseTemplate.GetMotto]#!"
+ BOOKMARK_DYNASTY_TOOLTIP:0 "#T [BookmarkCharacter.GetDynastyTemplate.GetName] [Concept( 'dynasty', 'Hanedanı' )|E]#!\n#weak [BookmarkCharacter.GetDynastyTemplate.GetMotto]#!"
+ BOOKMARK_DYNASTY_OR_HOUSE_TOOLTIP:0 "[SelectLocalization( BookmarkCharacter.HasDynastyHouse, 'BOOKMARK_HOUSE_TOOLTIP', 'BOOKMARK_DYNASTY_TOOLTIP' )]"
+### TODO AGOT-CHANGED: BOOKMARK_RELATED_CHARACTER [AGOT: [BookmarkCharacter.GetName] #weak [BookmarkCharacter.GetRelation]#! | TR: [BookmarkCharacter.GetName] #weak [BookmarkCharacter.GetRelation]#!]
+ BOOKMARK_RELATED_CHARACTER: "[BookmarkCharacter.GetName] #weak [BookmarkCharacter.GetRelation]#!"
+ BOOKMARK_IRONMAN_ENABLED:1 "Ironman Modu"
+ BOOKMARK_IRONMAN_DISABLED:1 "Ironman Modu"
+### TODO AGOT-CHANGED: CHALLENGE_CHARACTER_SUGGESTION [AGOT: #high;bold [Glossary( 'Hall of Faces', 'FACE_OF_THE_WEEK_GLOSS' )]#! | TR: #high;bold Haftanın Karakteri#!]
+ CHALLENGE_CHARACTER_SUGGESTION: "#high;bold [Glossary( 'Hall of Faces', 'FACE_OF_THE_WEEK_GLOSS' )]#!"
+### TODO AGOT-CHANGED: CHALLENGE_CHARACTER_INFO [AGOT: #high;bold [BookmarkCharacter.GetName]#!, #medium [ChallengeCharacter.GetAge]#! | TR: #high;bold [BookmarkCharacter.GetName]#!, #medium [ChallengeCharacter.GetAge]#!]
+ CHALLENGE_CHARACTER_INFO: "#high;bold [BookmarkCharacter.GetName]#!, #medium [ChallengeCharacter.GetAge]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_REALM [AGOT: [realm|E]: #high [BookmarkCharacter.GetTitleName]#! | TR: [realm|E]: #high [BookmarkCharacter.GetTitleName]#!]
+ BOOKMARK_CHARACTER_REALM: "[realm|E]: #high [BookmarkCharacter.GetTitleName]#!"
+### TODO AGOT-CHANGED: BOOKMARK_CHARACTER_GOVERNMENT [AGOT: #high [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#! | TR: #high [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!]
+ BOOKMARK_CHARACTER_GOVERNMENT: "#high [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
+### TODO AGOT-CHANGED: CHALLENGE_ACHIEVEMENT_TOOLTIP [AGOT: [SelectLocalization(GUIAchievement.GetAchievement.IsUnlocked, 'ACHIEVEMENT_UNLOCKED', 'ACHIEVEMENT_LOCKED')]\n#high;bold [GUIAchievement.GetName]#!\n[GUIAchievement.GetDescription] | TR: [SelectLocalization(GUIAchievement.GetAchievement.IsUnlocked, 'ACHIEVEMENT_UNLOCKED', 'ACHIEVEMENT_LOCKED')]\n#high;bold [GUIAchievement.GetName]#!\n[GUIAchievement.GetDescription]]
+ CHALLENGE_ACHIEVEMENT_TOOLTIP: "[SelectLocalization(GUIAchievement.GetAchievement.IsUnlocked, 'ACHIEVEMENT_UNLOCKED', 'ACHIEVEMENT_LOCKED')]\n#high;bold [GUIAchievement.GetName]#!\n[GUIAchievement.GetDescription]"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_HALF_BROTHER [AGOT: (Half-brother) | TR: (Üvey kardeşi)]
+ BOOKMARK_RELATION_HALF_BROTHER: "(Half-brother)"
+### TODO AGOT-CHANGED: BOOKMARK_RELATION_FATHER_IN_LAW [AGOT: (Father-in-law) | TR: (Kayınpederi)]
+ BOOKMARK_RELATION_FATHER_IN_LAW: "(Father-in-law)"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_DEFAULT [AGOT: [BookmarkCharacter.GetTitleTierName] of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Tahtında [BookmarkCharacter.GetTitleTierName]]
+ BOOKMARK_SUBHEADING_DEFAULT: "[BookmarkCharacter.GetTitleTierName] of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_DEFAULT_WITH_THE [AGOT: [BookmarkCharacter.GetTitleTierName] of the [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Tahtında [BookmarkCharacter.GetTitleTierName]]
+ BOOKMARK_SUBHEADING_DEFAULT_WITH_THE: "[BookmarkCharacter.GetTitleTierName] of the [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_ADVENTURER [AGOT: The [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName]]
+ BOOKMARK_SUBHEADING_ADVENTURER: "The [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_KHAN [AGOT: $king_feudal_male_altaic_group$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Hanı]
+ BOOKMARK_SUBHEADING_KHAN: "$king_feudal_male_altaic_group$ of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_KHAN_WITH_THE [AGOT: $king_feudal_male_altaic_group$ of the [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Hanı]
+ BOOKMARK_SUBHEADING_KHAN_WITH_THE: "$king_feudal_male_altaic_group$ of the [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_HIGH_CHIEFTAIN [AGOT: $duke_tribal_male$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Yüce Şefi]
+ BOOKMARK_SUBHEADING_HIGH_CHIEFTAIN: "$duke_tribal_male$ of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_GOVERNOR [AGOT: $game_concept_governor$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Valisi]
+ BOOKMARK_SUBHEADING_GOVERNOR: "$game_concept_governor$ of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_MILITARY_GOVERNOR [AGOT: Military $game_concept_governor$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Askerî Valisi]
+ BOOKMARK_SUBHEADING_MILITARY_GOVERNOR: "Military $game_concept_governor$ of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_CHIEFTAIN [AGOT: $count_tribal_male$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Şefi]
+ BOOKMARK_SUBHEADING_CHIEFTAIN: "$count_tribal_male$ of [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_LANDLESS_ADMIN [AGOT: Head of the [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName]nin Reisi]
+ BOOKMARK_SUBHEADING_LANDLESS_ADMIN: "Head of the [BookmarkCharacter.GetTitleName]"
+### TODO AGOT-CHANGED: BOOKMARK_SUBHEADING_RULING_REGENT [AGOT: $game_concept_ceremonial_regent$ of [BookmarkCharacter.GetTitleName] | TR: [BookmarkCharacter.GetTitleName] Yönetici Naibi]
+ BOOKMARK_SUBHEADING_RULING_REGENT: "$game_concept_ceremonial_regent$ of [BookmarkCharacter.GetTitleName]"

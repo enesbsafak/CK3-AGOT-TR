@@ -1,0 +1,405 @@
+﻿l_english:
+ MY_REALM_WINDOW_TITLE:0 "Ülkem"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BOOKMARK_DOMAIN_TT [AGOT: #T Domain#!\nYour [holdings|E] and [domiciles|E]\n\n$CLICK_TO_VIEW$ | TR: #T Mülk#!\n[Concept('holdings', 'Yerleşimleriniz')|E] ve [Concept('domiciles', 'Konutlarınız')|E]\n\n$CLICK_TO_VIEW$]
+ MY_REALM_WINDOW_BOOKMARK_DOMAIN_TT: "#T Domain#!\nYour [holdings|E] and [domiciles|E]\n\n$CLICK_TO_VIEW$"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BOOKMARK_SUBJECTS_TT [AGOT: #T Subjects#!\nYour [vassals|E] and [tributaries|E]\n\n$CLICK_TO_VIEW$ | TR: #T Tebaa#!\n[Concept('vassals', 'Vasallarınız')|E] ve [Concept('tributaries', 'Haraçgüzarlarınız')|E]\n\n$CLICK_TO_VIEW$]
+ MY_REALM_WINDOW_BOOKMARK_SUBJECTS_TT: "#T Subjects#!\nYour [vassals|E] and [tributaries|E]\n\n$CLICK_TO_VIEW$"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BOOKMARK_SUCCESSION_TT [AGOT: #T Succession#!\nWho will inherit your [titles|E]\n\n$CLICK_TO_VIEW$ | TR: #T Veraset#!\n[Concept('titles', 'Unvanlarınızın')|E] Veraseti\n\n$CLICK_TO_VIEW$]
+ MY_REALM_WINDOW_BOOKMARK_SUCCESSION_TT: "#T Succession#!\nWho will inherit your [titles|E]\n\n$CLICK_TO_VIEW$"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BOOKMARK_LAWS_TT [AGOT: #T Laws#!\nThe [laws|E] of your [realm|E]\n\n$CLICK_TO_VIEW$ | TR: #T Yasalar#!\n[Concept('realm', 'Ülkenizin')|E] [Concept('laws', 'Yasaları')|E]\n\n$CLICK_TO_VIEW$]
+ MY_REALM_WINDOW_BOOKMARK_LAWS_TT: "#T Laws#!\nThe [laws|E] of your [realm|E]\n\n$CLICK_TO_VIEW$"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROGRESS_BAR_DESC [AGOT: Changing Laws within your Realm requires approval from your powerful Vassals | TR: Ülkede Yasaları değiştirmek için Önemli Vasalların onayı gerekir]
+ MY_REALM_WINDOW_LAWS_PROGRESS_BAR_DESC: "Changing Laws within your Realm requires approval from your powerful Vassals"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROGRESS_BAR_TITLE [AGOT: [powerful_vassal|E] Approval | TR: [powerful_vassal|E] Onayı]
+ MY_REALM_WINDOW_LAWS_PROGRESS_BAR_TITLE: "[powerful_vassal|E] Approval"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROGRESS_BAR_APPROVES [AGOT: [MyRealmWindow.GetPowerfulVassalLawApproves] Approves | TR: [MyRealmWindow.GetPowerfulVassalLawApproves] Onaylıyor]
+ MY_REALM_WINDOW_LAWS_PROGRESS_BAR_APPROVES: "[MyRealmWindow.GetPowerfulVassalLawApproves] Approves"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROGRESS_BAR_OPPOSES [AGOT: [MyRealmWindow.GetPowerfulVassalLawOpposes] #X Opposes#! | TR: [MyRealmWindow.GetPowerfulVassalLawOpposes] #X Karşı Çıkıyor#!]
+ MY_REALM_WINDOW_LAWS_PROGRESS_BAR_OPPOSES: "[MyRealmWindow.GetPowerfulVassalLawOpposes] #X Opposes#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_REALM_LAWS [AGOT: Realm Laws | TR: Ülke Yasaları]
+ MY_REALM_WINDOW_LAWS_REALM_LAWS: "Realm Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS [AGOT: Provincial Laws | TR: Eyalet Yasaları]
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS: "Provincial Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC [AGOT: Only the [MyRealmWindow.GetCharacter.GetTopLiege.GetTitleAsName] of [MyRealmWindow.GetCharacter.GetTopLiege.GetPrimaryTitle.GetDefinitiveName] can change the Provincial Laws | TR: Sadece [MyRealmWindow.GetCharacter.GetTopLiege.GetTitleAsName] Eyalet Yasalarını değiştirebilir]
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC: "Only the [MyRealmWindow.GetCharacter.GetTopLiege.GetTitleAsName] of [MyRealmWindow.GetCharacter.GetTopLiege.GetPrimaryTitle.GetDefinitiveName] can change the Provincial Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROVINCIAL_NO_LAWS_DESC [AGOT: This [realm|E] has no $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS$ | TR: Bu [realm|E] $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS$na sahip değil]
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_NO_LAWS_DESC: "This [realm|E] has no $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS$"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC_DISABLED [AGOT: @warning_icon! #X $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC$#! | TR: @warning_icon! #X $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC$#!]
+ MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC_DISABLED: "@warning_icon! #X $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC$#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_SPECIFIC_SUCCESSION_LAWS [AGOT: Specific Succession Laws | TR: Spesifik Veraset Yasaları]
+ MY_REALM_WINDOW_LAWS_SPECIFIC_SUCCESSION_LAWS: "Specific Succession Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS [AGOT: Treasury Budget Laws | TR: Hazine Bütçe Yasaları]
+ MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS: "Treasury Budget Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS_DESC_DISABLED [AGOT: @warning_icon! #X $MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS_DESC$#! | TR: @warning_icon! #X $MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS_DESC$#!]
+ MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS_DESC_DISABLED: "@warning_icon! #X $MY_REALM_WINDOW_LAWS_TREASURY_BUDGET_LAWS_DESC$#!"
+ MY_REALM_WINDOW_OBEDIENT: "@obedience_icon! [obedient|E]"
+ MY_REALM_WINDOW_DISOBEDIENT: "@disobedience_icon! [disobedient|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_DOMICILE_LOCATION [AGOT: #low Current Location:#! [Character.GetDomicile.GetLocation.GetBaronyNameExplicitly] | TR: #low Mevcut Konum:#! [Character.GetDomicile.GetLocation.GetBaronyNameExplicitly]]
+ MY_REALM_WINDOW_DOMICILE_LOCATION: "#low Current Location:#! [Character.GetDomicile.GetLocation.GetBaronyNameExplicitly]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LAW_NAME_AND_LEVEL [AGOT: [Law.GetName] #low ([Add_int32( Law.GetIndexInLawGroup, '(int32)1' )])#! | TR: [Law.GetName] #low ([Add_int32( Law.GetIndexInLawGroup, '(int32)1' )])#!]
+ MY_REALM_WINDOW_LAW_NAME_AND_LEVEL: "[Law.GetName] #low ([Add_int32( Law.GetIndexInLawGroup, '(int32)1' )])#!"
+ MY_REALM_WINDOW_LAW_NAME: "[Law.GetName]"
+ MY_REALM_WINDOW_LAW_LEVEL: "[Add_int32( Law.GetIndexInLawGroup, '(int32)1' )]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_YOUR_INCOME [AGOT: Your Income: | TR: Geliriniz:]
+ MY_REALM_WINDOW_YOUR_INCOME: "Your Income:"
+ MY_REALM_WINDOW_TAX_JURISDICTION: "[tax_jurisdiction|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BODY_TITLE_SUBJECTS [AGOT: Subjects | TR: Tebaa]
+ MY_REALM_WINDOW_BODY_TITLE_SUBJECTS: "Subjects"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BODY_TITLE_SUCCESSION [AGOT: Succession | TR: Veraset]
+ MY_REALM_WINDOW_BODY_TITLE_SUCCESSION: "Succession"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_BODY_TITLE_LAWS [AGOT: Laws | TR: Yasalar]
+ MY_REALM_WINDOW_BODY_TITLE_LAWS: "Laws"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUBJECTS_NO_SUBJECTS [AGOT: You have no [subjects|E] | TR: [subject|E] sahibi değilsiniz]
+ MY_REALM_WINDOW_SUBJECTS_NO_SUBJECTS: "You have no [subjects|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUCCESSION_PREFERRED_BY [AGOT: Preferred by these [vassal_stances|E]: | TR: Şu [vassal_stances|E] tarafından tercih edilir:]
+ MY_REALM_WINDOW_SUCCESSION_PREFERRED_BY: "Preferred by these [vassal_stances|E]:"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUCCESSION_DESIGNATE_HEIR [AGOT: Designate Heir | TR: Vâris Belirle]
+ MY_REALM_WINDOW_SUCCESSION_DESIGNATE_HEIR: "Designate Heir"
+ MY_REALM_WINDOW_SUCCESSION_LAW_AND_DESC: "[Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUCCESSION_TITLES_INHERITED [AGOT: Titles inherited from [realm|E]'s [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName] | TR: [Concept('realm', 'Unvanın')|E] [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName] boyunca miras alınan Unvanlar]
+ MY_REALM_WINDOW_SUCCESSION_TITLES_INHERITED: "Titles inherited from [realm|E]'s [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUCCESSION_TITLE_LOST_TO [AGOT: Title lost to [Character.GetShortUIName] | TR: Unvan [Character.GetShortUIName] tarafından devralınacak]
+ MY_REALM_WINDOW_SUCCESSION_TITLE_LOST_TO: "Title lost to [Character.GetShortUIName]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUCCESSION_TITLES_LOST_TO [AGOT: $VALUE$ Titles lost to [Character.GetShortUIName] | TR: $VALUE$ Unvan [Character.GetShortUIName] tarafından devralınacak]
+ MY_REALM_WINDOW_SUCCESSION_TITLES_LOST_TO: "$VALUE$ Titles lost to [Character.GetShortUIName]"
+ MY_REALM_WINDOW_MY_LIEGE:1 "[Concept( 'liege', 'Süzerenim' )|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_MY_SUZERAIN [AGOT: My [suzerain|E] | TR: [Concept('suzerain', 'Efendim')|E]]
+ MY_REALM_WINDOW_MY_SUZERAIN: "My [suzerain|E]"
+ MY_REALM_WINDOW_MY_OBLIGATIONS:1 "$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
+ MY_REALM_WINDOW_MY_TAX_LEVEL:0 "$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
+ MY_REALM_WINDOW_MY_LEVIES_LEVEL:0 "$SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
+ MY_REALM_WINDOW_OBLIGATION_DEFAULT:0 "$NAME$"
+ MY_REALM_WINDOW_OBLIGATION_CHANGED:1 "$NAME|V$" 
+ MY_REALM_WINDOW_TAX_TO_LIEGE:0 "Vergi: [MyRealmWindow.GetCachedTaxToLiege|=1]/aylık"
+ MY_REALM_WINDOW_LEVIES_TO_LIEGE:0 "Milisler: [MyRealmWindow.GetCachedLeviesToLiege]"
+ MY_REALM_WINDOW_TYPE:1 "[GetPlayer.GetGovernment.GetName] [Character.GetPrimaryTitle.GetRankConcept]"
+ MY_REALM_WINDOW_VASSALS:0 "Vasallar"
+ MY_REALM_WINDOW_SUCCESSION:0 "Veraset"
+ MY_REALM_WINDOW_CURRENT_SUCCESSION:0 "Ülkenin [succession_law|E]"
+ MY_REALM_WINDOW_VASSAL_OBLIGATION:1 "$SUBJECT_CONTRACT_OBLIGATIONS_TITLE$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]\n$SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES$: [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]" 
+ MY_REALM_WINDOW_VASSAL_FEUDAL_TAX: "@gold_icon! [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_taxes' )]"
+ MY_REALM_WINDOW_VASSAL_FEUDAL_LEVIES: "@soldier_icon! [SubjectContract.GetShortObligationLevelNameWithHighlightFor( 'feudal_government_levies' )]"
+ MY_REALM_WINDOW_VASSALS_TT:0 "Ülkedeki vasalları göster"
+ MY_REALM_WINDOW_SUCCESSION_TT:0 "Ülkenin verasetini göster"
+ MY_REALM_WINDOW_CHANGE_SUCCESSION_TT:0 "Yeni bir veraset yasası seç"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_MANAGE_TREASURY_BUDGET [AGOT: Manage Treasury Budget | TR: Hazine Bütçesini Yönet]
+ MY_REALM_WINDOW_MANAGE_TREASURY_BUDGET: "Manage Treasury Budget"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_CONTRIBUTION_TO_THEOCRATIC_LIEGE [AGOT: In addition to this, the [realm_priest|E] gives [taxes|E] and [levies|E] from [church_property|E] depending on their [opinion|E] of their [liege|E] | TR: Bunun yanı sıra [realm_priest|E], [Concept( 'lieges', 'Süzerenlerine' )|E] olan [Concept( 'opinion', 'Görüşüne' )|E] bağlı olarak [church_property|E]ndan [taxes|E] ve [levies|E] sağlar]
+ MY_REALM_WINDOW_CONTRIBUTION_TO_THEOCRATIC_LIEGE: "In addition to this, the [realm_priest|E] gives [taxes|E] and [levies|E] from [church_property|E] depending on their [opinion|E] of their [liege|E]"
+### TODO AGOT-CHANGED: MRW_TT_TAXES_TO_MY_LIEGE [AGOT: #weak [taxes|E] you pay your [liege|E]#! | TR: #weak [Concept( 'liege', 'Süzereninize' )|E] ödediğiniz [taxes|E]#!]
+ MRW_TT_TAXES_TO_MY_LIEGE: "#weak [taxes|E] you pay your [liege|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_LEVIES_TO_MY_LIEGE [AGOT: #weak [levies|E] you provide your [liege|E]#! | TR: #weak [Concept( 'liege', 'Süzereninize' )|E] sağladığınız [levies|E]#!]
+ MRW_TT_LEVIES_TO_MY_LIEGE: "#weak [levies|E] you provide your [liege|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_HERD_TO_MY_LIEGE [AGOT: #weak [herd|E] you provide your [liege|E]#! | TR: #weak [Concept('liege', 'Süzereninize')|E] sağladığınız [herd|E]#!]
+ MRW_TT_HERD_TO_MY_LIEGE: "#weak [herd|E] you provide your [liege|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_TAXES_TO_MY_SUZERAIN [AGOT: #weak [taxes|E] you pay your [suzerain|E]#! | TR: #weak [Concept('suzerain', 'Efendinize')|E] ödediğiniz [taxes|E]#!]
+ MRW_TT_TAXES_TO_MY_SUZERAIN: "#weak [taxes|E] you pay your [suzerain|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_LEVIES_TO_MY_SUZERAIN [AGOT: #weak [levies|E] you provide your [suzerain|E]#! | TR: #weak [Concept('suzerain', 'Efendinize')|E] sağladığınız [levies|E]#!]
+ MRW_TT_LEVIES_TO_MY_SUZERAIN: "#weak [levies|E] you provide your [suzerain|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_HERD_TO_MY_SUZERAIN [AGOT: #weak [herd|E] you provide your [suzerain|E]#! | TR: #weak [Concept('suzerain', 'Efendinize')|E] sağladığınız [herd|E]#!]
+ MRW_TT_HERD_TO_MY_SUZERAIN: "#weak [herd|E] you provide your [suzerain|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_PRESTIGE_TO_MY_SUZERAIN [AGOT: #weak [prestige|E] conferred onto your [suzerain|E]#! | TR: #weak [Concept('suzerain', 'Efendinize')|E] aktardığınız [prestige|E]#!]
+ MRW_TT_PRESTIGE_TO_MY_SUZERAIN: "#weak [prestige|E] conferred onto your [suzerain|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_PRESTIGE_TO_MY_LIEGE [AGOT: #weak [prestige|E] conferred onto your [liege|E]#! | TR: #weak [Concept('liege', 'Süzereninize')|E] aktardığınız [liege|E]#!]
+ MRW_TT_PRESTIGE_TO_MY_LIEGE: "#weak [prestige|E] conferred onto your [liege|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_PIETY_TO_MY_OVERLORD [AGOT: #weak [piety|E] conferred onto your [overlord|E]#! | TR: #weak [Concept('overlord', 'Metbunuza')|E] aktardığınız [piety|E]#!]
+ MRW_TT_PIETY_TO_MY_OVERLORD: "#weak [piety|E] conferred onto your [overlord|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_TAXES_TO_ME [AGOT: #weak [taxes|E] paid to you by your [subject|E]#! | TR: #weak [Concept( 'subject', 'Tebaanız' )|E] tarafından ödenen [taxes|E]#!]
+ MRW_TT_TAXES_TO_ME: "#weak [taxes|E] paid to you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_LEVIES_TO_ME [AGOT: #weak [levies|E] given to you by your [subject|E]#! | TR: #weak [Concept( 'subject', 'Tebaanız' )|E] tarafından sağlanan [levies|E]#!]
+ MRW_TT_LEVIES_TO_ME: "#weak [levies|E] given to you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_HERD_TO_ME [AGOT: #weak [herd|E] given to you by your [subject|E]#! | TR: #weak [Concept( 'subject', 'Tebaanız' )|E] tarafından verilen [herd|E]#!]
+ MRW_TT_HERD_TO_ME: "#weak [herd|E] given to you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_PRESTIGE_TO_ME [AGOT: #weak [prestige|E] conferred onto you by your [subject|E]#! | TR: #weak [Concept( 'subject', 'Tebaanız' )|E] tarafından aktarılan [prestige|E]#!]
+ MRW_TT_PRESTIGE_TO_ME: "#weak [prestige|E] conferred onto you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_PIETY_TO_ME [AGOT: #weak [piety|E] conferred onto you by your [subject|E]#! | TR: #weak [Concept('subject', 'Tebaanız')|E] tarafından aktarılan [piety|E]#!]
+ MRW_TT_PIETY_TO_ME: "#weak [piety|E] conferred onto you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_BARTER_GOODS_TO_ME [AGOT: #weak [barter_goods|E] conferred onto you by your [subject|E]#! | TR: #weak [Concept('subject', 'Tebaanız')|E] tarafından aktarılan [barter_goods|E]#!]
+ MRW_TT_BARTER_GOODS_TO_ME: "#weak [barter_goods|E] conferred onto you by your [subject|E]#!"
+### TODO AGOT-CHANGED: MRW_TT_NOT_RIGHTFUL_LIEGE [AGOT: @warning_icon! #X [levies|E] and [tax|E] are reduced as [Select_CString(Character.GetOverlord.IsLocalPlayer, 'you', Character.GetOverlord.GetUIName)] [Select_CString(Character.GetOverlord.IsLocalPlayer, 'are', 'is')] not [Character.GetShortUINamePossessive] [rightful_liege|E]#!\n\n[Select_CString(Character.IsLocalPlayer, 'You', Character.GetUIName)] [Select_CString(Character.IsLocalPlayer, 'want', 'wants')] [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [liege|E] to hold the [Character.GetPrimaryTitle.GetDeJureLiege.GetName], since [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [primary_title|E] ([Character.GetPrimaryTitle.GetName]) is [de_jure|E] part of that [Character.GetPrimaryTitle.GetDeJureLiege.GetRankConcept]. | TR: @warning_icon! #X [Select_CString(Character.GetOverlord.IsLocalPlayer, 'Siz', Character.GetOverlord.GetUIName)] [Character.GetShortUINamePossessive] [Concept( 'rightful_liege', 'Meşru Süzereni' )|E] [Select_CString(Character.GetOverlord.IsLocalPlayer, 'olmadığınız', 'olmadığı')] için [levy|E] ve [tax|E] [Select_CString(Character.GetOverlord.IsLocalPlayer, 'kazanımınız', 'kazanımı')] normalin altında.#!\n\n[primary_title|E][Select_CString(Character.IsLocalPlayer, 'ınız', 'ı')] [Character.GetPrimaryTitle.GetName], [de_jure|E] olarak farklı bir [Character.GetPrimaryTitle.GetDeJureLiege.GetRankConcept] unvanına bağlı. Bu sebeple meşru sayılabilmesi için [liege|E][Select_CString(Character.IsLocalPlayer, 'inizin', 'inin' )] [Character.GetPrimaryTitle.GetDeJureLiege.GetName] unvanına sahip olması gerekir.]
+ MRW_TT_NOT_RIGHTFUL_LIEGE: "@warning_icon! #X [levies|E] and [tax|E] are reduced as [Select_CString(Character.GetOverlord.IsLocalPlayer, 'you', Character.GetOverlord.GetUIName)] [Select_CString(Character.GetOverlord.IsLocalPlayer, 'are', 'is')] not [Character.GetShortUINamePossessive] [rightful_liege|E]#!\n\n[Select_CString(Character.IsLocalPlayer, 'You', Character.GetUIName)] [Select_CString(Character.IsLocalPlayer, 'want', 'wants')] [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [liege|E] to hold the [Character.GetPrimaryTitle.GetDeJureLiege.GetName], since [Select_CString(Character.IsLocalPlayer, 'your', Character.GetHerHis)] [primary_title|E] ([Character.GetPrimaryTitle.GetName]) is [de_jure|E] part of that [Character.GetPrimaryTitle.GetDeJureLiege.GetRankConcept]."
+### TODO AGOT-CHANGED: MRW_TITLE_ALLEGIANCE [AGOT: #T [title_allegiance|E]#!\n[Character.GetShortUIName] has allegiance towards the [Title.GetName] rather than you! | TR: #T [title_allegiance|E]#!\n[Character.GetShortUIName] sizden çok [Title.GetName] unvanına bağlılık besliyor!]
+ MRW_TITLE_ALLEGIANCE: "#T [title_allegiance|E]#!\n[Character.GetShortUIName] has allegiance towards the [Title.GetName] rather than you!"
+ MRW_GOVERNMENT_FILTER_ALL:0 "Hepsi"
+ MRW_GOVERNMENT_FILTER_ENTRY:0 "[GovernmentTypeFilter.GetGovernmentType.GetNameNoTooltip] ([GovernmentTypeFilter.GetVassalsCount|V])"
+ MRW_GOVERNMENT_FILTER_ALL_TT:1 "#T Tüm [Concept( 'governments', 'Yönetimlerden' )|E] [Concept( 'vassals', 'Vasalları' )|E] Göster#!"
+ MRW_GOVERNMENT_FILTER_ENTRY_TT:1 "#T [GovernmentTypeFilter.GetGovernmentType.GetNameWithIcon] [Concept( 'vassals', 'Vasalları' )|E] Göster#!"
+ MRW_GOVERNMENT_FILTER:1 "[SelectLocalization( GovernmentTypeFilter.IsAllFilter, 'MRW_GOVERNMENT_FILTER_ALL', 'MRW_GOVERNMENT_FILTER_ENTRY' )]"
+ MRW_GOVERNMENT_FILTER_TT:1 "[SelectLocalization( GovernmentTypeFilter.IsAllFilter, 'MRW_GOVERNMENT_FILTER_ALL_TT', 'MRW_GOVERNMENT_FILTER_ENTRY_TT' )]"
+ MRW_GOVERNMENT_FILTER_DROPDOWN_TT:0 "#T [government|E] Filtresi#!"
+ MRW_VASSAL_STANCE_FILTER_ENTRY:0 "[VassalStanceFilter.GetVassalStance.GetTextIconNoFormat] [VassalStanceFilter.GetVassalStance.GetNameNoTooltip] ([VassalStanceFilter.GetVassalsCount|V])"
+ MRW_VASSAL_STANCE_FILTER_ALL_TT:0 "#T Tüm [Concept( 'vassal_stances', 'Vasal Tutumlarından' )|E] [Concept( 'vassals', 'Vasalları' )|E] Göster#!"
+ MRW_VASSAL_STANCE_FILTER_ENTRY_TT:0 "#T [VassalStanceFilter.GetVassalStance.GetName] [Concept( 'vassals', 'Vasalları' )|E] Göster#!"
+ MRW_VASSAL_STANCE_FILTER:0 "[SelectLocalization( VassalStanceFilter.IsAllFilter, 'MRW_GOVERNMENT_FILTER_ALL', 'MRW_VASSAL_STANCE_FILTER_ENTRY' )]"
+ MRW_VASSAL_STANCE_FILTER_TT:0 "[SelectLocalization( VassalStanceFilter.IsAllFilter, 'MRW_VASSAL_STANCE_FILTER_ALL_TT', 'MRW_VASSAL_STANCE_FILTER_ENTRY_TT' )]"
+ MRW_VASSAL_STANCE_FILTER_DROPDOWN_TT:0 "#T [vassal_stance|E] Filtresi#!"
+ MY_REALM_WINDOW_VASSAL_STANCE_COUNT: "[VassalStance.GetTextIconNoFormat] [MyRealmWindow.GetNumVassalsWithStance( VassalStance.Self )|V]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_VASSAL_STANCE_COUNT_TT [AGOT: #T [VassalStance.GetTextIcon][VassalStance.GetName] [opinion|E]: #color:{[ToTextFormatColor(GetOpinionTint(FixedPointToInt(VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter ))))]} [VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter )|=0]#!#!\n[vassals|E] with the [VassalStance.GetTextIcon][VassalStance.GetName] [vassal_stance|E]: [MyRealmWindow.GetNumVassalsWithStance( VassalStance.Self )|V]\n\n#S Sources#!:\n[VassalStance.GetModifierDescriptionFor( MyRealmWindow.GetCharacter )] | TR: #T [VassalStance.GetTextIcon][VassalStance.GetName] [Concept( 'opinion', 'Görüşü' )|E]: #color:{[ToTextFormatColor(GetOpinionTint(FixedPointToInt(VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter ))))]} [VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter )|=0]#!#!\n[VassalStance.GetTextIcon][VassalStance.GetName] [Concept( 'vassal_stances', 'Vasal Tutumuna' )|E] sahip [vassals|E]: [MyRealmWindow.GetNumVassalsWithStance( VassalStance.Self )|V]\n\n#S Kaynaklar#!:\n[VassalStance.GetModifierDescriptionFor( MyRealmWindow.GetCharacter )]]
+ MY_REALM_WINDOW_VASSAL_STANCE_COUNT_TT: "#T [VassalStance.GetTextIcon][VassalStance.GetName] [opinion|E]: #color:{[ToTextFormatColor(GetOpinionTint(FixedPointToInt(VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter ))))]} [VassalStance.GetModifierValueFor( MyRealmWindow.GetCharacter )|=0]#!#!\n[vassals|E] with the [VassalStance.GetTextIcon][VassalStance.GetName] [vassal_stance|E]: [MyRealmWindow.GetNumVassalsWithStance( VassalStance.Self )|V]\n\n#S Sources#!:\n[VassalStance.GetModifierDescriptionFor( MyRealmWindow.GetCharacter )]"
+### TODO AGOT-CHANGED: FEUDAL_CONTRACT [AGOT: Subject Contract | TR: Tebaa Sözleşmesi]
+ FEUDAL_CONTRACT: "Subject Contract"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE [AGOT: Tax Level | TR: Vergi Seviyesi]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE: "Tax Level"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE [AGOT: Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE$ | TR: Vergi Seviyeniz]
+ SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE: "Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES [AGOT: Levies Level | TR: Milis Seviyesi]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES: "Levies Level"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES [AGOT: Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES$ | TR: Milis Seviyeniz]
+ SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_LEVIES: "Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE_HERD [AGOT: Herd Level | TR: Sürü Seviyesi]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_HERD: "Herd Level"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_HERD [AGOT: Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE_HERD$ | TR: Sürü Seviyeniz]
+ SUBJECT_CONTRACT_MY_OBLIGATIONS_TITLE_HERD: "Your $SUBJECT_CONTRACT_OBLIGATIONS_TITLE_HERD$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OPINION_MODIFICATION [AGOT: [SubjectContract.GetSubject.GetShortUINamePossessiveNoTooltip] Opinion: [SubjectContract.GetSubjectOpinionModification|+=] | TR: [SubjectContract.GetSubject.GetShortUINamePossessiveNoTooltip] Görüşü: [SubjectContract.GetSubjectOpinionModification|+=]]
+ SUBJECT_CONTRACT_OPINION_MODIFICATION: "[SubjectContract.GetSubject.GetShortUINamePossessiveNoTooltip] Opinion: [SubjectContract.GetSubjectOpinionModification|+=]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_SUBJECT_OPINION [AGOT: Opinion with the Subject: $OPINION|=V$ ($OPINION_CHANGE|+=$) | TR: Tebaa ile olan Görüş: $OPINION|=V$ ($OPINION_CHANGE|+=$)]
+ SUBJECT_CONTRACT_OBLIGATION_SUBJECT_OPINION: "Opinion with the Subject: $OPINION|=V$ ($OPINION_CHANGE|+=$)"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_SUBJECT_OPINION_CURRENT [AGOT: Opinion with the Subject: $OPINION|=V$ | TR: Tebaa ile olan Görüş: $OPINION|=V$]
+ SUBJECT_CONTRACT_OBLIGATION_SUBJECT_OPINION_CURRENT: "Opinion with the Subject: $OPINION|=V$"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_EFFECT_TOOLTIP: "$NAME|T$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_LEVEL_TAX_EFFECT_TOOLTIP [AGOT: Tax: $TAX|%1V$ ($TAX_CHANGE|+=%1$) | TR: Vergi: $TAX|%1V$ ($TAX_CHANGE|+=%1$)]
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_TAX_EFFECT_TOOLTIP: "Tax: $TAX|%1V$ ($TAX_CHANGE|+=%1$)"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_LEVEL_TAX_EFFECT_TOOLTIP_CURRENT [AGOT: Tax: $TAX|%1V$ | TR: Vergi: $TAX|%1V$]
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_TAX_EFFECT_TOOLTIP_CURRENT: "Tax: $TAX|%1V$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP [AGOT: Levies: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$) | TR: Milis: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$)]
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP: "Levies: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$)"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP_CURRENT [AGOT: Levies: $LEVIES|%1V$ | TR: Milis: $LEVIES|%1V$]
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP_CURRENT: "Levies: $LEVIES|%1V$"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_HERD_EFFECT_TOOLTIP: "$game_concept_herd$: $HERD|%1V$ ($HERD_CHANGE|+=%1$)"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_HERD_EFFECT_TOOLTIP_CURRENT: "$game_concept_herd$: $HERD|%1V$"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_PIETY_EFFECT_TOOLTIP: "$game_concept_piety$: $PIETY|%1V$ ($PIETY_CHANGE|+=%1$)"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_PIETY_EFFECT_TOOLTIP_CURRENT: "$game_concept_piety$: $PIETY|%1V$"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_PRESTIGE_EFFECT_TOOLTIP: "$game_concept_prestige$: $PRESTIGE|%1V$ ($PRESTIGE_CHANGE|+=%1$)"
+ SUBJECT_CONTRACT_OBLIGATION_LEVEL_PRESTIGE_EFFECT_TOOLTIP_CURRENT: "$game_concept_prestige$: $PRESTIGE|%1V$"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT [AGOT: #weak Current Obligation Level#! | TR: #weak Mevcut Yükümlülük Seviyesi#!]
+ SUBJECT_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT: "#weak Current Obligation Level#!"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_LIEGE_IS_NOT_RIGHTFUL_LIEGE_NOTICE [AGOT: [SubjectContract.GetLiege.GetNameOrMe|U] [SelectLocalization( SubjectContract.GetLiege.IsPlayer, 'are', 'is' )] not [SelectLocalization( SubjectContract.GetSubject.IsPlayer, 'your', 'this subject\\'s' )] [rightful_liege|E] | TR: [SubjectContract.GetLiege.GetNameOrMe|U] [SelectLocalization( SubjectContract.GetSubject.IsPlayer, 'sizin', 'bu tebaanın' )] [Concept( 'rightful_liege', 'Meşru Süzereni' )|E][Select_CString( SubjectContract.GetSubject.IsLocalPlayer, 'niz', '' )] değil[Select_CString( SubjectContract.GetLiege.IsLocalPlayer, 'siniz', '' )]]
+ SUBJECT_CONTRACT_LIEGE_IS_NOT_RIGHTFUL_LIEGE_NOTICE: "[SubjectContract.GetLiege.GetNameOrMe|U] [SelectLocalization( SubjectContract.GetLiege.IsPlayer, 'are', 'is' )] not [SelectLocalization( SubjectContract.GetSubject.IsPlayer, 'your', 'this subject\\'s' )] [rightful_liege|E]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRIBUTION_NON_RIGHTFUL_LIEGE [AGOT: Not [rightful_liege|E] | TR: [rightful_liege|E] Değil]
+ SUBJECT_CONTRIBUTION_NON_RIGHTFUL_LIEGE: "Not [rightful_liege|E]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRIBUTION_AT_WAR_WITH_LIEGE [AGOT: At [war|E] with [liege|E] | TR: [Concept( 'liege', 'Süzereni' )|E] ile [Concept( 'war', 'Savaşta' )|E]]
+ SUBJECT_CONTRIBUTION_AT_WAR_WITH_LIEGE: "At [war|E] with [liege|E]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE_PRESTIGE [AGOT: Prestige Level | TR: Prestij Seviyesi]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_PRESTIGE: "Prestige Level"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE_PIETY [AGOT: Piety Level | TR: Dindarlık Seviyesi]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_PIETY: "Piety Level"
+ MRW_YOUR_PLAYER_HEIR:1 "Öldüğünüzde [Concept( 'player_heir', 'Oyuncu Vârisinizle' )|E] devam edeceksiniz"
+ MRW_HEIR_PREFERRED:1 "[Concept('vassal_stance','Destekçileri')|E]: [MyRealmWindow.GetCharacter.GetVassalStancesThatPrefer( Character.Self )]"
+ MRW_INHERITED_TITLES:0 "Devralınan [titles|E]" 
+ MY_REALM_WINDOW_NO_HEIR_FLAVOR:1 "@warning_icon! #X Vârisiniz yok. Öldüğünüzde oyun sona erecek.#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_EXCEPTIONS [AGOT: [titles|E] with their own [title_succession|E] | TR: Kendi [Concept('title_succession', 'Unvan Verasetine')|E] sahip [titles|E]]
+ MY_REALM_WINDOW_EXCEPTIONS: "[titles|E] with their own [title_succession|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_REQUIRED_GOVERNMENT_TITLES [AGOT: [county|E] [titles|E] lost on succession because of [holding|E] type | TR: [holding|E] türü sebebiyle kaybedilen [county|E] [Concept('titles', 'Unvanları')|E]]
+ MY_REALM_WINDOW_REQUIRED_GOVERNMENT_TITLES: "[county|E] [titles|E] lost on succession because of [holding|E] type"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_REQUIRED_GOVERNMENT_TITLES_WARNING [AGOT: @warning_icon! #X No successor is valid to hold these counties#! | TR: @warning_icon! #X Hiçbir vâris bu kontluklara sahip olmaya uygun değil#!]
+ MY_REALM_WINDOW_REQUIRED_GOVERNMENT_TITLES_WARNING: "@warning_icon! #X No successor is valid to hold these counties#!"
+ MY_REALM_WINDOW_ELECTIONS:1 "Seçimler"
+ MY_REALM_WINDOW_VOTE:2 "Seçimi Görüntüle"
+ MY_REALM_WINDOW_VOTE_TOOLTIP:0 "#T Vâris Aday Göster#!\n#I [Concept( 'nominate_heir', 'Vâris aday göstermek' )|E] için tıklayın#!"
+ MY_REALM_WINDOW_PARTITION_SHARE:2 "[Concept( 'realm', 'Ülkenizin' )|E] [Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName] Yasasından"
+ MY_REALM_WINDOW_TITLES_LOST_LABEL: "[TitleSuccessionItem.GetTitlesLostToText( Character.Self )]:"
+ MY_REALM_WINDOW_HEIR_NOT_MY_DYNASTY:0 "@warning_icon! #X [Concept( 'dynasty', 'Hanedanıma' )|E] mensup değil#!"
+ MY_REALM_WINDOW_LINE_OF_SUCCESSION:2 "Veraset Sırası ([Character.GetActiveLawInGroupWithFlag('succession_order_laws').GetName])"
+ MY_REALM_WINDOW_TITLE_LOST_ON_SUCCESSION:0 "@warning_icon! Veraset Esnasında [MyRealmWindow.GetNumTitlesLost] Unvan Kaybı"
+ MY_REALM_WINDOW_NOT_PRIMARY_HEIR:0 "@warning_icon! #X [MyRealmWindow.GetCharacter.GetPlayerHeir.GetShortUINameNoTooltip] [Concept( 'primary_heir', 'Birincil Vârisiniz' )|E] değil#!"
+ MY_REALM_WINDOW_SHOW:0 "Göster"
+ MY_REALM_WINDOW_HIDE:0 "Gizle"
+ MY_REALM_WINDOW_DESIGNATE_HEIR:1 "Değiştir"
+ MRW_CHANGE_LAW:0 "Değiştir"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME [AGOT: #bold [LineOfSuccessionItem.GetOrder|V]#!  [AGOTGetUINameNoTooltip(Character)|V], | TR: #bold [LineOfSuccessionItem.GetOrder|V]#!  [Character.GetShortUINameNoTooltip],]
+ MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  [AGOTGetUINameNoTooltip(Character)|V], "
+ MRW_DESIGNATED_HEIR:0 "[MyRealmWindow.GetCharacter.GetDesignatedHeir.GetUIName]"
+ MRW_NO_DESIGNATED_HEIR:0 "#weak Yok#!"
+ MRW_DESIGNATED_HEIR_LABEL:0 "[designated_heir|E]:"
+ MRW_DESIGNATE_HEIR_TT:0 "#T [Concept( 'designated_heir', 'Belirlenmiş Vârisi' )|E] Değişir#!\n[MyRealmWindow.GetDesignateTooltip]"
+ MRW_CHANGE_LAW_TT:0 "#T [GuiLawGroup.GetLawGroup.GetName]nı Değiştir#!"
+ MY_REALM_WINDOW_CAN_DESIGNATE:0 "Vâris belirle"
+ MY_REALM_WINDOW_CANT_DESIGNATE:1 "@warning_icon! #X [dynast|E] değilseniz veya [Concept( 'absolute_crown_authority', 'Mutlak Taht Otoritesine' )|E] sahip değilseniz vâris belirleyemezsiniz.#!"
+ MY_REALM_WINDOW_NO_CHILDREN:2 "@warning_icon! #X Vâris olarak belirlenebilecek bir çocuk sahibi değilsiniz#!"
+ MY_REALM_WINDOW_BUILDING_TT:1 "#T [building|E]: [Building.GetName]\n#![Building.GetEffectDescription( GetPlayer )]\n\n[Building.GetDescription]"
+ MY_REALM_WINDOW_BUILDING_CONSTRUCTION_TT:3 "#T [HoldingItem.GetConstructionBuilding.GetName] İnşa Ediliyor\n#![HoldingItem.GetConstructionBuilding.GetEffectDescription( GetPlayer )]\n\n[HoldingItem.GetHolding.GetConstructionTimeLeft]\n\n[HoldingItem.GetConstructionBuilding.GetDescription]" 
+ MY_REALM_WINDOW_HOLDING_NAME:2 "#high [HoldingItem.GetBarony.GetNameNoTierNoTooltip]#! - [Holding.GetType.GetName]" 
+ MY_REALM_WINDOW_HOLDING_TAX:0 "@gold_icon! [Holding.GetIncome|1V]"
+ MY_REALM_WINDOW_HOLDING_BARTER_GOODS: "@barter_goods_icon! [Holding.GetBarterGoodsIncome|1V]"
+ MY_REALM_WINDOW_HOLDING_LEVY:0 "@soldier_icon! [Holding.GetMaxLevySize|0]"
+ MY_REALM_WINDOW_COUNTY_CONTROL:0 "[control|E]: $VALUE|%/0$"
+ MY_REALM_WINDOW_COUNTY_CONTROL_COLORED:0 "[control|E]: #X $VALUE|%/0$#!"
+ MY_REALM_WINDOW_CURRENT_CONSTRUCTION:2 "Yeni $BULDING$ inşası [DATE.GetTimeDiffFromNow] sonra tamamlanıyor"
+ MY_REALM_WINDOW_CONSTRUCT_HOLDING:0 "Yeni Yerleşim kurulabilir"
+ MY_REALM_WINDOW_CONSTRUCT_BUILDING:0 "Bina inşa edilebilir"
+ MY_REALM_WINDOW_UNDER_OCCUPATION:0 "#X İşgal Altında#!"
+ MY_REALM_WINDOW_HOLDINGS:0 "Yerleşimler"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_HEADER [AGOT: Domain | TR: Mülk]
+ MY_REALM_WINDOW_HEADER: "Domain"
+ MY_REALM_WINDOW_DOMAIN_LIMIT:0 "Mülk:"
+ MY_REALM_WINDOW_DOMAIN_LIMIT_WARNING:0 "#X Mülk: #!"
+ MY_REALM_WINDOW_DOMAIN_LIMIT_VALUE:0 "[GetPlayer.GetDomainSize]/[GetPlayer.GetDomainLimit] Yerleşim"
+ MY_REALM_WINDOW_DOMAIN_LIMIT_VALUE_WARNING:0 "#X [GetPlayer.GetDomainSize]/[GetPlayer.GetDomainLimit]#! Yerleşim"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_FROM_HOLDINGS [AGOT: [domain|E] | TR: [Concept( 'domain', 'Mülk' )|E]]
+ MY_REALM_WINDOW_FROM_HOLDINGS: "[domain|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_FROM_VASSALS [AGOT: [vassals|E] | TR: [Concept( 'vassals', 'Vasallar' )|E]]
+ MY_REALM_WINDOW_FROM_VASSALS: "[vassals|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_FROM_TRIBUTARIES [AGOT: [tributaries|E] | TR: [Concept('tributaries', 'Haraçgüzarlar')|E]]
+ MY_REALM_WINDOW_FROM_TRIBUTARIES: "[tributaries|E]"
+ MY_REALM_WINDOW_FROM_TO_LIEGE:0 "[Concept( 'liege', 'Süzerene' )|E]:"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_FROM_TO_LIEGE_CLAN [AGOT: To [liege|E] #high #L ([TaxSlot.GetObligation.GetName])#!#!: | TR: [Concept( 'liege', 'Süzerene' )|E] #high #L ([TaxSlot.GetObligation.GetName])#!#!:]
+ MY_REALM_WINDOW_FROM_TO_LIEGE_CLAN: "To [liege|E] #high #L ([TaxSlot.GetObligation.GetName])#!#!:"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_FROM_TO_SUZERAIN [AGOT: To [suzerain|E]: | TR: [Concept('suzerain', 'Efendiye')|E]:]
+ MY_REALM_WINDOW_FROM_TO_SUZERAIN: "To [suzerain|E]:"
+ MY_REALM_WINDOW_TAXES:0 "@gold_icon! [taxes|E]"
+ MY_REALM_WINDOW_LEVIES:0 "@soldier_icon! [levies|E]"
+ MY_REALM_WINDOW_HERD: "@herd_icon! [herd|E]"
+ MY_REALM_WINDOW_MAP_ICON_LOW_CONTROL:0 "Düşük [control|E]"
+ MY_REALM_WINDOW_DOMAIN_LEVIES:0 "[domain|E] [levies|E]"
+ MY_REALM_WINDOW_VASSAL_LEVIES:0 "[vassal|E] [levies|E]"
+ MY_REALM_WINDOW_TRIBUTARY_LEVIES: "[tributary|E] [levies|E]"
+ MY_REALM_WINDOW_DOMAIN_HERD:0 "[domain|E] [herd|E]"
+ MY_REALM_WINDOW_VASSAL_HERD:0 "[vassal|E] [herd|E]"
+ MY_REALM_WINDOW_TRIBUTARY_HERD: "[tributary|E] [herd|E]"
+ MY_REALM_WINDOW_DOMAIN_BARTER_GOODS: "[domain|E] [barter_goods|E]"
+ MY_REALM_WINDOW_VASSAL_BARTER_GOODS: "[vassal|E] [barter_goods|E]"
+ MY_REALM_WINDOW_TRIBUTARY_BARTER_GOODS: "[tributary|E] [barter_goods|E]"
+ ME_REALM_WINDOW_EMPTY_HOLDINGS:2 "Boş Yerleşimler: #high [GetDataModelSize(CountyGroup.GetEmptyHoldings)]#!"
+ MY_REALM_WINDOW_POWERFUL_VASSAL:1 "[powerful_vassal|X]"
+ MY_REALM_WINDOW_TITLES_LOST_ON_SUCCESSION:0 "@warning_icon! Veraset esnasında kaybedilecek unvan sayısı: [MyRealmWindow.GetNumTitlesLost]"
+ MY_REALM_WINDOW_VASSAL_STANCES:0 "[vassal_stances|E]#V :#!"
+ MY_REALM_WINDOW_VASSAL_LIMIT:1 "[vassal_limit|E]#V :#! "
+ MY_REALM_WINDOW_VASSAL_LIMIT_VALUE:1 "#V [GetPlayer.GetNumVassalsTowardsLimit]/[GetPlayer.GetVassalLimit]#!"
+ VASSAL_LIMIT_TOOLTIP_START:0 "#T [baron|E] Olmayan [vassals|E]: [CHARACTER.GetNumVassalsTowardsLimit|V]/[CHARACTER.GetVassalLimit|V]#!"
+ VASSAL_LIMIT_TOOLTIP_END:0 "[CHARACTER.GetVassalLimitBreakdown]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATION_NO_EFFECT [AGOT: This is the current [SelectLocalization(SubjectContract.IsTributary,tributary_contract,vassal_contract)|E] and [obligations|E] | TR: Bu mevcut [SelectLocalization(SubjectContract.IsTributary,tributary_contract,vassal_contract)|E] ve [obligations|E]]
+ SUBJECT_CONTRACT_OBLIGATION_NO_EFFECT: "This is the current [SelectLocalization(SubjectContract.IsTributary,tributary_contract,vassal_contract)|E] and [obligations|E]"
+ VASSAL_CONTRACT_OBLIGATION_ONLY_ONCE:2 "#weak Her Karakter için sadece bir kez [vassal_contract|E] değişikliğinde bulunabilirsiniz#!"
+### TODO AGOT-CHANGED: PROVINCE_ADMINISTRATION_CHANGE_INFO [AGOT: Administration can only be changed once every [EmptyScope.ScriptValue('admin_contract_cooldown_value')|0] years | TR: İdare her [EmptyScope.ScriptValue('admin_contract_cooldown_value')|0] yılda bir değiştirilebilir]
+ PROVINCE_ADMINISTRATION_CHANGE_INFO: "Administration can only be changed once every [EmptyScope.ScriptValue('admin_contract_cooldown_value')|0] years"
+ MODIFY_SUBJECT_CONTRACT_NOT_ADJACENT_LEVEL:0 "@warning_icon! #X Mevcut seviye olan $CONTRACT_LEVEL_NAME$ ile önerilen seviye olan $PROPOSED_LEVEL_NAME$ yan yana değil#!"
+ OBLIGATION_LIEGE_MODIFIER:0 "#S [liege|E]:#!"
+ OBLIGATION_VASSAL_MODIFIER:0 "#S [vassal|E]:#!"
+ RESET_CONTRACT_CHANGES:0 "Sıfırla"
+### TODO AGOT-CHANGED: CONTRACT_NAME [AGOT: [SubjectContract.GetContractGroup.GetName] Contract | TR: [SubjectContract.GetContractGroup.GetName] Sözleşmesi]
+ CONTRACT_NAME: "[SubjectContract.GetContractGroup.GetName] Contract"
+ VASSAL_CONTRACT_NOT_DEFAULT:1 "Bu [vassal_contract|E] geçmişte standart olmayan [Concept( 'obligations', 'Yükümlülükleri' )|E] de içerecek şekilde değiştirilmiş."
+ VASSAL_CONTRACT_IS_BLOCKED:0 "Bu [vassal_contract|E] zaten değiştirilmiş, daha fazla değiştiremezsiniz.\n\nHâlâ mevcut [Concept( 'obligations', 'Yükümlülükleri' )|E] görebilirsiniz."
+ TAX_CONTRIBUTION_KNOWN_VALUE:0 "@gold_icon! [taxes|E]: $VALUE|+=%1$"
+ TAX_CONTRIBUTION_FACTOR_KNOWN_VALUE:0 "@gold_icon! [tax|E] Çarpanı: $VALUE|+=%1$ "
+ LEVY_CONTRIBUTION_KNOWN_VALUE:0 "@soldier_icon! [levy|E]: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: LEVY_CONTRIBUTION_FACTOR_KNOWN_VALUE [AGOT: @soldier_icon! [levies|E] Multiplier: $VALUE|+=%1$ | TR: @soldier_icon! [levy|E] Çarpanı: $VALUE|+=%1$]
+ LEVY_CONTRIBUTION_FACTOR_KNOWN_VALUE: "@soldier_icon! [levies|E] Multiplier: $VALUE|+=%1$"
+ HERD_CONTRIBUTION_KNOWN_VALUE: "@herd_icon! [herd|E]: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: HERD_CONTRIBUTION_MIN_KNOWN_VALUE [AGOT: @herd_icon! [herd|E] Minimum: $VALUE|+=%1$ | TR: @herd_icon! Minimum [herd|E]: $VALUE|+=%1$]
+ HERD_CONTRIBUTION_MIN_KNOWN_VALUE: "@herd_icon! [herd|E] Minimum: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: PRESTIGE_CONTRIBUTION_KNOWN_VALUE [AGOT: @prestige_icon! [prestige|E] transfer as share of all gains: $VALUE|+=%1$ | TR: @prestige_icon! Tüm kazançların payı olarak aktarılan [prestige|E]: $VALUE|+=%1$]
+ PRESTIGE_CONTRIBUTION_KNOWN_VALUE: "@prestige_icon! [prestige|E] transfer as share of all gains: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: PRESTIGE_CONTRIBUTION_MIN_KNOWN_VALUE [AGOT: @prestige_icon! [prestige|E] Minimum: $VALUE|+=%1$ | TR: @prestige_icon! Minimum [prestige|E]: $VALUE|+=%1$]
+ PRESTIGE_CONTRIBUTION_MIN_KNOWN_VALUE: "@prestige_icon! [prestige|E] Minimum: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: PIETY_CONTRIBUTION_KNOWN_VALUE [AGOT: @piety_icon! [piety|E] transfer as share of all gains: $VALUE|+=%1$ | TR: @piety_icon! Tüm kazançların payı olarak aktarılan [piety|E]: $VALUE|+=%1$]
+ PIETY_CONTRIBUTION_KNOWN_VALUE: "@piety_icon! [piety|E] transfer as share of all gains: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: PIETY_CONTRIBUTION_MIN_KNOWN_VALUE [AGOT: @piety_icon! [piety|E] Minimum: $VALUE|+=%1$ | TR: @piety_icon! Minimum [piety|E]: $VALUE|+=%1$]
+ PIETY_CONTRIBUTION_MIN_KNOWN_VALUE: "@piety_icon! [piety|E] Minimum: $VALUE|+=%1$"
+ BARTER_GOODS_CONTRIBUTION_KNOWN_VALUE: "[barter_goods|E]: $VALUE|+=%1$"
+### TODO AGOT-CHANGED: BARTER_GOODS_CONTRIBUTION_MIN_KNOWN_VALUE [AGOT: [barter_goods|E] Minimum: $VALUE|+=%1$ | TR: Minimum [barter_goods|E]: $VALUE|+=%1$]
+ BARTER_GOODS_CONTRIBUTION_MIN_KNOWN_VALUE: "[barter_goods|E] Minimum: $VALUE|+=%1$"
+ VASSAL_CONTRACT_VASSAL_TITLE:2 "Sözleşme Değişikliği\n#high [SubjectContract.GetSubject.GetFullNameNoTooltip]\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTierNoTooltip] Hükümdarı#!"
+ CONTRACT_EFFECTS_HEADER:0 "Etkiler:"
+ VASSAL_OPINION_DIPLOMACY:0 "Kişisel [diplomacy|E]"
+ VASSAL_OPINION_TYRANNY:0 "[tyrant|E]"
+ VASSAL_OPINION_DOMAIN_OVERRUN:0 "[Concept( 'domain_limit', 'Mülk Limitinin' )|E] Üstünde"
+ VASSAL_OPINION_DUCHIES_OVERRUN:0 "Fazla [duchy|E] Sahibi"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_VASSAL_OPINION [AGOT: Vassal Opinion: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#! | TR: #E Vasal Görüşü#!: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!]
+ MY_REALM_WINDOW_VASSAL_OPINION: "Vassal Opinion: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_VASSAL_OPINION_TT [AGOT: #T Vassal [opinion|E]: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!\n#!This is the sum of Opinions that will affect all your [vassals|E]. If this value is low, it is likely you have many [factions|E] opposing you!\n\n#S Sources#!\n[MyRealmWindow.GetVassalOpinionBreakdown] | TR: #T Vasal [Concept( 'opinion', 'Görüşü' )|E]: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!\n#!Bu tüm [Concept( 'vassals', 'Vasallarınızın' )|E] Görüşünü etkileyen değerlerin toplamıdır. Eğer bu değer düşükse, size karşı çeşitli [Concept( 'factions', 'Örgütleşmelerin' )|E] kurulmuş olması muhtemeldir!\n\n#S Kaynaklar#!\n[MyRealmWindow.GetVassalOpinionBreakdown]]
+ MY_REALM_WINDOW_VASSAL_OPINION_TT: "#T Vassal [opinion|E]: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!\n#!This is the sum of Opinions that will affect all your [vassals|E]. If this value is low, it is likely you have many [factions|E] opposing you!\n\n#S Sources#!\n[MyRealmWindow.GetVassalOpinionBreakdown]"
+### TODO AGOT-CHANGED: MY_REALM_MASS_DIRECTIVES [AGOT: #T Toggle [directives|e] view#! | TR: #T [directives|e] ekranını aç/kapa#!]
+ MY_REALM_MASS_DIRECTIVES: "#T Toggle [directives|e] view#!"
+### TODO AGOT-CHANGED: MY_REALM_COMPACT_SUBJECT_LIST [AGOT: #T Toggle compact list#! | TR: #T Liste görünümünü aç/kapa#!]
+ MY_REALM_COMPACT_SUBJECT_LIST: "#T Toggle compact list#!"
+### TODO AGOT-CHANGED: MASS_DIRECTIVES_TITLE [AGOT: Issue Directives | TR: Yönerge Ver]
+ MASS_DIRECTIVES_TITLE: "Issue Directives"
+### TODO AGOT-CHANGED: MASS_DIRECTIVES_TIP [AGOT: Issue [directives|e] to multiple [vassals|e] | TR: Birden fazla [Concept('vassals', 'Vasala')|e] [directive|e] Ver]
+ MASS_DIRECTIVES_TIP: "Issue [directives|e] to multiple [vassals|e]"
+### TODO AGOT-CHANGED: ISSUE_DIRECTIVES_HEADER [AGOT: Issue [directives|e] | TR: [directive|e] Ver]
+ ISSUE_DIRECTIVES_HEADER: "Issue [directives|e]"
+### TODO AGOT-CHANGED: ACTIVE_DIRECTIVES_HEADER [AGOT: Active [directives|e] | TR: Aktif [directives|e]]
+ ACTIVE_DIRECTIVES_HEADER: "Active [directives|e]"
+### TODO AGOT-CHANGED: VASSALS_AFFECTED_HEADER [AGOT: [vassals|e] affected: | TR: Etkilenen [vassals|e]:]
+ VASSALS_AFFECTED_HEADER: "[vassals|e] affected:"
+ MY_REALM_WINDOW_NO_FEUDAL_CONTRACT_TT:1 "#T Kişisel Yükümlülüğü Yok\n#!Sadece [landed|E] [feudal|E], [administrative|E], [nomad|E] and [clan|E] [vassals|E] ([barons|E] hariç) kişisel bazda [obligation|E] sahibi olabilir"
+ MY_REALM_WINDOW_ABSOLUTE_COUNTY_CONTROL: "[control|E]: [absolute_control_short|E]"
+ VASSAL_CONTRACT:0 "Vasal Sözleşmesi"
+ NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE:0 "Vergi Seviyesi"
+ NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES:0 "Milis Seviyesi"
+ NON_FEUDAL_VASSAL_CONTRACT_OBLIGATION_ONLY_ONCE:0 "#weak [Concept( 'vassal_contract', 'Vasal Sözleşmesini' )|E] her karakter için yalnızca bir kez değiştirebilirsiniz#!"
+ MY_REALM_WINDOW_FUTURE_DIARCH:3 "Muhtemel [CHARACTER.GetDiarchTitle]: [TARGET_CHARACTER.GetShortUINameNoTooltip|U], [TARGET_CHARACTER.GetDiarchLoyaltyLabel]"
+ MY_REALM_WINDOW_DESIGNATED_DIARCH:3 "Atanmış [CHARACTER.GetDiarchTitle]: [TARGET_CHARACTER.GetShortUINameNoTooltip|U], [TARGET_CHARACTER.GetDiarchLoyaltyLabel]"
+ MY_REALM_WINDOW_ACTIVE_DIARCH:2 "[CHARACTER.GetDiarchTitle]: [TARGET_CHARACTER.GetShortUINameNoTooltip|U], [TARGET_CHARACTER.GetDiarchLoyaltyLabel]"
+ MY_REALM_WINDOW_ACTIVE_DIARCHY:0 "[Character.GetDiarchyTypeNameNoTooltip] İçinde Güç Paylaşılıyor"
+ MY_REALM_WINDOW_STATUS_INACTIVE_DIARCHY:0 "Güç Paylaşılmıyor"
+### TODO AGOT-CHANGED: TRIBUTARY_CONTRACT [AGOT: Tributary Contract | TR: Haraçgüzar Sözleşmesi]
+ TRIBUTARY_CONTRACT: "Tributary Contract"
+### TODO AGOT-CHANGED: TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE [AGOT: Tax Level | TR: Vergi Seviyesi]
+ TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE: "Tax Level"
+### TODO AGOT-CHANGED: TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE_LEVIES [AGOT: Levies Level | TR: Milis Seviyesi]
+ TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE_LEVIES: "Levies Level"
+### TODO AGOT-CHANGED: TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE_HERD [AGOT: Herd Level | TR: Sürü Seviyesi]
+ TRIBUTARY_CONTRACT_OBLIGATIONS_TITLE_HERD: "Herd Level"
+### TODO AGOT-CHANGED: TRIBUTARY_CONTRACT_OBLIGATION_ONLY_ONCE [AGOT: #weak You can only change the [tributary_contract|E] once for each Character#! | TR: #weak Her bir Karakter için [tributary_contract|E] bir kere değiştirilebilir#!]
+ TRIBUTARY_CONTRACT_OBLIGATION_ONLY_ONCE: "#weak You can only change the [tributary_contract|E] once for each Character#!"
+### TODO AGOT-CHANGED: THEME_ADMINISTRATION_INFO [AGOT: The [Character.Custom('GetProvinceAdministrationConcept')] remains the same even if another [Character.Custom( 'GetGovernorConcept' )] were to take over. | TR: Bir başka [Character.Custom( 'GetGovernorConcept' )] yönetimi devralırsa, [Character.Custom('GetProvinceAdministrationConcept')] aynı kalmaya devam eder.]
+ THEME_ADMINISTRATION_INFO: "The [Character.Custom('GetProvinceAdministrationConcept')] remains the same even if another [Character.Custom( 'GetGovernorConcept' )] were to take over."
+### TODO AGOT-CHANGED: THEME_ADMINISTRATION_LABEL [AGOT: Available Administration types | TR: Seçilebilir İdari türler]
+ THEME_ADMINISTRATION_LABEL: "Available Administration types"
+### TODO AGOT-CHANGED: VASSAL_CONTRACT_VASSAL_TITLE_ADMIN [AGOT: Modifying the Administration of\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTooltip]\n#high Governed by [SubjectContract.GetSubject.GetTitledFirstNameNoTooltip]#! | TR: İdare değiştiriliyor:\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTooltip]\n#high [SubjectContract.GetSubject.GetTitledFirstNameNoTooltip] tarafından yönetiliyor#!]
+ VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "Modifying the Administration of\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTooltip]\n#high Governed by [SubjectContract.GetSubject.GetTitledFirstNameNoTooltip]#!"
+### TODO AGOT-CHANGED: MY_REALM_ADMIN_LAWS_HEADER [AGOT: Governance of [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] | TR: [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] İdaresi]
+ MY_REALM_ADMIN_LAWS_HEADER: "Governance of [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+### TODO AGOT-CHANGED: RELEASE_TRIBUTARY_CONFIRMATION_TITLE [AGOT: Release [Character.GetNameNoTooltip] | TR: [Character.GetNameNoTooltip] Serbest Bırakılsın]
+ RELEASE_TRIBUTARY_CONFIRMATION_TITLE: "Release [Character.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: RELEASE_TRIBUTARY_CONFIRMATION_TEXT [AGOT: End the [tributary|E] relationship between yourself and [Character.GetNameNoTooltip] | TR: [Character.GetNameNoTooltip] ile aranızda olan [tributary|E] ilişkisini sonlandıracaksınız]
+ RELEASE_TRIBUTARY_CONFIRMATION_TEXT: "End the [tributary|E] relationship between yourself and [Character.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: RELEASE_TRIBUTARY_CONFIRMATION_ACCEPT [AGOT: Release | TR: Serbest Bırak]
+ RELEASE_TRIBUTARY_CONFIRMATION_ACCEPT: "Release"
+### TODO AGOT-CHANGED: RELEASE_TRIBUTARY_TOOLTIP [AGOT: Release Tributary | TR: Haraçgüzarı Serbest Bırak]
+ RELEASE_TRIBUTARY_TOOLTIP: "Release Tributary"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_TRIBUTARY_BREAK_FREE [AGOT: Break free from your [suzerain|E] | TR: [Concept('suzerain', 'Efendiden')|E] Özgürlüğünü Kazan]
+ MY_REALM_WINDOW_TRIBUTARY_BREAK_FREE: "Break free from your [suzerain|E]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_CEASE_PAYING_TRIBUTE_CHANCE_TT [AGOT: Yearly chance of ceasing [tributary|E] payments: [SubjectContract.GetCeasePayingTributeChance|0%/]\n\n[SubjectContract.GetCeasePayingTributeChanceDesc] | TR: [Concept('tributary', 'Haraç')|E] ödemelerinin yıllık durma ihtimali: [SubjectContract.GetCeasePayingTributeChance|0%/]\n\n[SubjectContract.GetCeasePayingTributeChanceDesc]]
+ MY_REALM_WINDOW_CEASE_PAYING_TRIBUTE_CHANCE_TT: "Yearly chance of ceasing [tributary|E] payments: [SubjectContract.GetCeasePayingTributeChance|0%/]\n\n[SubjectContract.GetCeasePayingTributeChanceDesc]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_CEASE_PAYING_TRIBUTE_CHANCE [AGOT: Cease Tribute Chance: [SubjectContract.GetCeasePayingTributeChanceLabel] | TR: Haraç Durdurma İhtimali: [SubjectContract.GetCeasePayingTributeChanceLabel]]
+ MY_REALM_WINDOW_CEASE_PAYING_TRIBUTE_CHANCE: "Cease Tribute Chance: [SubjectContract.GetCeasePayingTributeChanceLabel]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUBJECT_STANDING [AGOT: Current [SubjectContract.GetSubject.Custom('SubjectStanding')]: [ConcatIfNeitherEmpty(SubjectContract.GetSubject.Custom('SubjectStandingIcon'),' ')][SubjectContract.GetSubjectStanding|V0] | TR: Mevcut [SubjectContract.GetSubject.Custom('SubjectStanding')]: [ConcatIfNeitherEmpty(SubjectContract.GetSubject.Custom('SubjectStandingIcon'),' ')][SubjectContract.GetSubjectStanding|V0]]
+ MY_REALM_WINDOW_SUBJECT_STANDING: "Current [SubjectContract.GetSubject.Custom('SubjectStanding')]: [ConcatIfNeitherEmpty(SubjectContract.GetSubject.Custom('SubjectStandingIcon'),' ')][SubjectContract.GetSubjectStanding|V0]"
+ MY_REALM_WINDOW_SUBJECT_STANDING_TT: "[SubjectContract.GetSubject.Custom('SubjectStandingLoss')]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_APPROVAL [AGOT: Kurultai Succession Approval | TR: Kurultay Veraset Onayı]
+ MY_REALM_WINDOW_KURULTAI_APPROVAL: "Kurultai Succession Approval"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_PREFERRED [AGOT: Your Preferred Successor | TR: Tercih Ettiğiniz Vâris]
+ MY_REALM_WINDOW_KURULTAI_PREFERRED: "Your Preferred Successor"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_CHAOS_WARNING [AGOT: @warning_icon! #X A random Consequence will happen!#! | TR: @warning_icon! #X Rastgele bir Sonuç gerçekleşecek!#!]
+ MY_REALM_WINDOW_KURULTAI_CHAOS_WARNING: "@warning_icon! #X A random Consequence will happen!#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_STABLE [AGOT: Stable Succession | TR: İstikrarlı Veraset]
+ MY_REALM_WINDOW_KURULTAI_STABLE: "Stable Succession"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_CHAOTIC [AGOT: Chaotic Succession | TR: Kaotik Veraset]
+ MY_REALM_WINDOW_KURULTAI_CHAOTIC: "Chaotic Succession"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_APPROVES [AGOT: [KurultaiSuccession.GetObedientCount] Approves | TR: [KurultaiSuccession.GetObedientCount] Onaylıyor]
+ MY_REALM_WINDOW_KURULTAI_APPROVES: "[KurultaiSuccession.GetObedientCount] Approves"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_OPPOSES [AGOT: [KurultaiSuccession.GetDisobedientCount] #X Opposes#! | TR: [KurultaiSuccession.GetDisobedientCount] #X Karşı Çıkıyor#!]
+ MY_REALM_WINDOW_KURULTAI_OPPOSES: "[KurultaiSuccession.GetDisobedientCount] #X Opposes#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_OBEDIENT [AGOT: #P Obedient characters will approve of your choice of successor#! | TR: #P İtaatkâr karakterler sizin vâris tercihinizi onaylarlar#!]
+ MY_REALM_WINDOW_KURULTAI_OBEDIENT: "#P Obedient characters will approve of your choice of successor#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_ELECTORS [AGOT: Kurultai and other people who have impact on this succession | TR: Bu verasette söz sahibi Kurultay üyeleri ve diğer kişiler]
+ MY_REALM_WINDOW_KURULTAI_ELECTORS: "Kurultai and other people who have impact on this succession"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_STABLE_TOOLTIP_HEADER [AGOT: All of the [kurultai_members|E] are [obedient|E], which will lead to a safe [succession|E] for the [heir|E] after the current [ruler|E] [character_death_dies|E]. | TR: [Concept('kurultai_members', 'Kurultay Üyelerinin')|E] tamamı [obedient|E], bu durum mevcut [ruler|E] [Concept('character_death_dies', 'öldüğünde')|E] [Concept('heir', 'Vârisin')|E] güvenli bir [succession|E] geçireceği anlamına geliyor.]
+ MY_REALM_WINDOW_KURULTAI_STABLE_TOOLTIP_HEADER: "All of the [kurultai_members|E] are [obedient|E], which will lead to a safe [succession|E] for the [heir|E] after the current [ruler|E] [character_death_dies|E]."
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_HEADER [AGOT: If the [kurultai|E] is not [obedient|E], the [realm|E] will experience a random Consequence when the current [ruler|E] [character_death_dies|E]. The more disobedient [kurultai_members|E] you have, the worse the Consequence can be:\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 1+#! disobedient: Minor troubles — [herd|E] losses, defecting [courtiers|E], lost [prestige_levels|E], or [tributaries|E] breaking free.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 2+#! disobedient: Significant disorder — large [herd|E] losses, land loss, lost [gold|E], or major [legitimacy|E] hits.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold Half or more#! disobedient: Greater turmoil — enormous [herd|E] loss, the [realm|E] splitting in half, or even the [realm|E] dissolving completely.#! | TR: [kurultai|E] [obedient|E] değilse, [realm|E] mevcut [ruler|E] [Concept('character_death_dies', 'öldüğünde')|E] rastgele bir Sonuçla karşılaşır. [Concept('kurultai_members', 'Kurultay Üyelerinizin')|E] ne kadar fazlası itaatsizse, bu Sonuç o kadar vahim olacaktır:\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 1+#! itaatsiz: Ufak problemler — [herd|E] kayıpları, firar eden [courtiers|E], kaybedilen [prestige_levels|E], serbest kalan [tributaries|E].#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 2+#! itaatsiz: Azımsanmayacak düzensizlik — kapsamlı [herd|E] kayıpları, toprak kaybı, [gold|E] kaybı, [legitimacy|E] düşüşü.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold Yarısı veya daha fazlası#! itaatsiz: Büyük kargaşa — devasa [herd|E] kaybı, [Concept('realm', 'Ülkenin')|E] ikiye bölünmesi veya tamamen dağılması.#!]
+ MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_HEADER: "If the [kurultai|E] is not [obedient|E], the [realm|E] will experience a random Consequence when the current [ruler|E] [character_death_dies|E]. The more disobedient [kurultai_members|E] you have, the worse the Consequence can be:\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 1+#! disobedient: Minor troubles — [herd|E] losses, defecting [courtiers|E], lost [prestige_levels|E], or [tributaries|E] breaking free.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 2+#! disobedient: Significant disorder — large [herd|E] losses, land loss, lost [gold|E], or major [legitimacy|E] hits.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold Half or more#! disobedient: Greater turmoil — enormous [herd|E] loss, the [realm|E] splitting in half, or even the [realm|E] dissolving completely.#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_STABLE_TOOLTIP_FOOTER [AGOT: #weak My rule will be remembered after my death, and my heir have my trust and will honor my legacy.#! | TR: #weak Hükümdarlığım ben bu diyarı terk ettikten sonra da hatırlanmaya devam edecek, vârisim benim güvenime sahip ve mirasımı layıkıyla onurlandıracağından şüphem yok.#!]
+ MY_REALM_WINDOW_KURULTAI_STABLE_TOOLTIP_FOOTER: "#weak My rule will be remembered after my death, and my heir have my trust and will honor my legacy.#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_FOOTER [AGOT: #weak The future of our realm is uncertain, as nobody can agree on who is to rule it. Despite my best attempts, I know that as soon as I die, my words will be whisked away like the winds across the steppe.#! | TR: #weak Ülkemizin geleceği belirsizliklerle dolu, ona kimin liderlik etmesi gerektiği konusunda herkes farklı düşüncelere sahip. Ne kadar uğraşsam da biliyorum ki öldüğüm anda sözlerim bozkırı aşan rüzgâr gibi savrulup gidecek.#!]
+ MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_FOOTER: "#weak The future of our realm is uncertain, as nobody can agree on who is to rule it. Despite my best attempts, I know that as soon as I die, my words will be whisked away like the winds across the steppe.#!"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUZERAIN_NAME [AGOT: [suzerain|E] : [Character.GetShortUIName] | TR: [suzerain|E] : [Character.GetSuzerain.GetShortUIName]]
+ MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetShortUIName]"
+### TODO AGOT-CHANGED: MY_REALM_WINDOW_LIEGE_NAME [AGOT: [liege|E] : [Character.GetShortUIName] | TR: [liege|E] : [Character.GetLiege.GetShortUIName]]
+ MY_REALM_WINDOW_LIEGE_NAME: "[liege|E] : [Character.GetShortUIName]"
+### TODO AGOT-CHANGED: SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS [AGOT: Barter Goods | TR: Takas Malları]
+ SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS: "Barter Goods"
+### TODO AGOT-CHANGED: CANT_CHANGE_LAW_TOOLTIP [AGOT: No additional [succession_laws|E] available | TR: Uygun farklı [succession_laws|E] yok]
+ CANT_CHANGE_LAW_TOOLTIP: "No additional [succession_laws|E] available"

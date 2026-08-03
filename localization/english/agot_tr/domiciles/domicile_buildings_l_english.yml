@@ -1,0 +1,43 @@
+﻿l_english:
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_INTERNAL_BUILDINGS_LIST [AGOT: #T Internal Buildings:\n#! | TR: #T İç Binalar:\n#!]
+ DOMICILE_BUILDING_INTERNAL_BUILDINGS_LIST: "#T Internal Buildings:\n#!"
+ DOMICILE_BUILDING_COOLTIP_NAME: "$EFFECT_LIST_BULLET$[GetDomicileBuilding('$KEY|q$').GetName]"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL [AGOT: #T [DOMICILE_BUILDING_TYPE.GetNameNoTooltip]#! #weak (Level $LEVEL$)#! | TR: #T [DOMICILE_BUILDING_TYPE.GetNameNoTooltip]#! #weak ($LEVEL$. Seviye)#!]
+ DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL: "#T [DOMICILE_BUILDING_TYPE.GetNameNoTooltip]#! #weak (Level $LEVEL$)#!"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING [AGOT: [DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Effect:#!\n[DOMICILE_BUILDING_TYPE.GetModifierDesc] | TR: [DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Etki:#!\n[DOMICILE_BUILDING_TYPE.GetModifierDesc]]
+ DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING: "[DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Effect:#!\n[DOMICILE_BUILDING_TYPE.GetModifierDesc]"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_SLOT_EXTERNAL [AGOT: [DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Effect:#!\n$EFFECTS$ | TR: [DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Etki:#!\n$EFFECTS$]
+ DOMICILE_BUILDING_COOLTIP_SLOT_EXTERNAL: "[DOMICILE_BUILDING_TYPE.GetDescAddNewline]#S Effect:#!\n$EFFECTS$"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_SLOT_INTERNAL [AGOT: $DOMICILE_BUILDING_COOLTIP_SLOT_EXTERNAL$\n\n#S Internal Buildings:#!\n$LIST_INTERNAL_BUILDINGS$ | TR: $DOMICILE_BUILDING_COOLTIP_SLOT_EXTERNAL$\n\n#S İç Binalar:#!\n$LIST_INTERNAL_BUILDINGS$]
+ DOMICILE_BUILDING_COOLTIP_SLOT_INTERNAL: "$DOMICILE_BUILDING_COOLTIP_SLOT_EXTERNAL$\n\n#S Internal Buildings:#!\n$LIST_INTERNAL_BUILDINGS$"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_COST [AGOT: #S Cost:\n#![GetCostString( DOMICILE_BUILDING_TYPE.GetBuildingCost( Character.Self ) )] | TR: #S Maliyet:\n#![GetCostString( DOMICILE_BUILDING_TYPE.GetBuildingCost( Character.Self ) )]]
+ DOMICILE_BUILDING_COOLTIP_COST: "#S Cost:\n#![GetCostString( DOMICILE_BUILDING_TYPE.GetBuildingCost( Character.Self ) )]"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_BUILD [AGOT: #T Build#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#! | TR: $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$ #T İnşa Et#!\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I İnşaata başlamak için tıklayın#!]
+ DOMICILE_BUILDING_COOLTIP_BUILD: "#T Build#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#!"
+### TODO AGOT-CHANGED: DOMICILE_BUILDING_COOLTIP_UPGRADE [AGOT: #T Upgrade to#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#! | TR: $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$ #T Geliştir#!\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I İnşaata başlamak için tıklayın#!]
+ DOMICILE_BUILDING_COOLTIP_UPGRADE: "#T Upgrade to#! $DOMICILE_BUILDING_COOLTIP_NAME_AND_LEVEL$\n\n$DOMICILE_BUILDING_COOLTIP_SINGLE_BUILDING$\n\n$DOMICILE_BUILDING_COOLTIP_COST$\n\n#I Click to start construction#!"
+ DOMICILE_TAX_VALUE: "@gold_icon! [OutlinerDomicileItem.GetGoldIncome|2]"
+### TODO AGOT-CHANGED: DOMICILE_ARTIFACT_COUNTER_TOOLTIP [AGOT: #T [artifact|E] Quality Score: [DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('cabinet_of_curiosities_artifact_score')|V0]#!\n\nCommon Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_common').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_common_score')|0]#!\nMasterwork Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_masterwork').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_masterwork_score')|0]#!\nFamed Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_famed').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_famed_score')|0]#!\nIllustrious Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_illustrious').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_illustrious_score')|0]#!\n | TR: #T [artifact|E] Kalite Puanı: [DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('cabinet_of_curiosities_artifact_score')|V0]#!\n\nSıradan Eserler ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_common').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_common_score')|0]#!\nGüzel Eserler ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_masterwork').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_masterwork_score')|0]#!\nMeşhur Eserler ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_famed').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_famed_score')|0]#!\nMuhteşem Eserler ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_illustrious').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_illustrious_score')|0]#!\n]
+ DOMICILE_ARTIFACT_COUNTER_TOOLTIP: "#T [artifact|E] Quality Score: [DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('cabinet_of_curiosities_artifact_score')|V0]#!\n\nCommon Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_common').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_common_score')|0]#!\nMasterwork Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_masterwork').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_masterwork_score')|0]#!\nFamed Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_famed').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_famed_score')|0]#!\nIllustrious Artifacts ([DomicileWindow.GetCharacter.GetHouse.MakeScope.Var('ep3_legacy_domicile_artifact_counter_illustrious').GetValue|V0]): #P +[DomicileWindow.GetCharacter.GetHouse.MakeScope.ScriptValue('ep3_legacy_domicile_artifact_counter_illustrious_score')|0]#!\n"
+ estate_has_kennels: "[GetDomicileBuilding('stable_kennel_04').GetName]"
+ estate_reduced_tutor_cost_desc: "[domicile|E]"
+ estate_cheaper_feast_cost_desc: "[domicile|E]"
+ estate_cheaper_hunt_cost_desc: "[domicile|E]"
+### TODO AGOT-CHANGED: feast_estate_reward_tt [AGOT: The $courtyard_01_domicile_building$ impressed the guests | TR: $courtyard_01_domicile_building$ misafirleri etkiledi]
+ feast_estate_reward_tt: "The $courtyard_01_domicile_building$ impressed the guests"
+### TODO AGOT-CHANGED: GetStumpName_Fallback [AGOT: stump | TR: kütük]
+ GetStumpName_Fallback: "stump"
+### TODO AGOT-CHANGED: GetStumpName_Desert [AGOT: bump | TR: kütük]
+ GetStumpName_Desert: "bump"
+### TODO AGOT-CHANGED: GetStumpName_Jungle [AGOT: stump | TR: kütük]
+ GetStumpName_Jungle: "stump"
+### TODO AGOT-CHANGED: GetStumpName_Forest [AGOT: stump | TR: kütük]
+ GetStumpName_Forest: "stump"
+### TODO AGOT-CHANGED: GetStumpName_Wetlands [AGOT: stump | TR: kütük]
+ GetStumpName_Wetlands: "stump"
+### TODO AGOT-CHANGED: GetStumpName_Steppe [AGOT: bump | TR: tümsek]
+ GetStumpName_Steppe: "bump"
+### TODO AGOT-CHANGED: GetStumpName_Farmlands [AGOT: hump | TR: kütük]
+ GetStumpName_Farmlands: "hump"
+### TODO AGOT-CHANGED: GetStumpName_Drylands [AGOT: hump | TR: kütük]
+ GetStumpName_Drylands: "hump"

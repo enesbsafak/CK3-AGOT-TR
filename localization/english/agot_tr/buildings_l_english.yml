@@ -1,0 +1,33 @@
+﻿l_english:
+### TODO AGOT-CHANGED: BUILDING_DEBUG_KEY [AGOT: #D DEBUG KEY:#! [BUILDING.GetKey] | TR: #D DEBUG KEY:#! [BUILDING.GetKey]]
+ BUILDING_DEBUG_KEY: "#D DEBUG KEY:#! [BUILDING.GetKey]"
+### TODO AGOT-CHANGED: BUILDING_DEBUG_FULL [AGOT: #D DEBUG KEY AND DESC:#!\n[Building.GetKey]\n[Building.GetDescKey] | TR: #D DEBUG KEY AND DESC:#!\n[Building.GetKey]\n[Building.GetDescKey]]
+ BUILDING_DEBUG_FULL: "#D DEBUG KEY AND DESC:#!\n[Building.GetKey]\n[Building.GetDescKey]"
+ BUILDING_TOOLTIP_TEXT:1 "[Building.GetDescription]\n\n[Building.GetEffectDescription( GetPlayer )]"
+ NOT_BUDDHAS_OF_BAMIAN_ENABLED:1 "[holder|E] $rf_eastern$ [Concept( 'religious_family', 'Din Ailesinden' )|E] olmalıdır."
+ HOLY_SITE_BUILDING_ENABLED:1 "Sahibinin [Concept( 'faith', 'mezhebi' )|E] burayı [holy_site|E] olarak görüyor"
+ NOT_HOLY_SITE_BUILDING_ENABLED:1 "Sahibinin [Concept( 'faith', 'mezhebi' )|E] burayı [holy_site|E] olarak görmeli"
+ stables_effect_desc:1 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'stables_toto_effect_desc', 'stables_no_toto_effect_desc' )]"
+ stables_toto_effect_desc:0 "$tournament_horse_cost_low_discount_effect_toto_desc$\n$fancy_mounts_option_effect_desc$"
+ stables_no_toto_effect_desc:0 "$unlocks_building_desc$$fancy_mounts_option_effect_desc$"
+ camel_farms_effect_desc:0 "$unlocks_building_desc$$fancy_mounts_option_effect_desc$"
+ orchards_effect_desc:1 "$feast_cost_discount_min_desc$"
+ longhouses_effect_desc:1 "$feast_cost_discount_medium_desc$"
+ farm_estates_effect_desc:0 "$feast_cost_discount_medium_desc$"
+ palace_of_aachen_effect_desc: "$feast_cost_discount_max_desc$"
+### TODO AGOT-CHANGED: pleasure_dome_effect_desc [AGOT: $feast_cost_discount_max_desc$\nThe [decision|E] to #EMP $summon_fair_courtiers_decision$#! becomes available | TR: $feast_cost_discount_max_desc$\n#EMP $summon_fair_courtiers_decision$#! [Concept('decision', 'Kararı')|E] açılır]
+ pleasure_dome_effect_desc: "$feast_cost_discount_max_desc$\nThe [decision|E] to #EMP $summon_fair_courtiers_decision$#! becomes available"
+ royal_garden_effect_desc:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'royal_garden_effect_toto_desc', 'blank_line' )]"
+ royal_garden_effect_toto_desc:1 "$unlocks_building_desc$Bu [Concept( 'holding', 'Yerleşimde' )|E] düzenlenen [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] [Concept( 'activities', 'Etkinlikleri' )|E] için daha fazla ödül"
+ royal_reserves_desc:1 "$unlocks_building_desc$Bu [Concept( 'holding', 'Yerleşimde' )|E] düzenlenen[GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] [Concept( 'activities', 'Etkinlikleri' )|E] için [hunt_success_chance|E] artar"
+ outposts_desc:1 "$unlocks_building_desc$Bu [Concept( 'holding', 'Yerleşimde' )|E] düzenlenen[GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] [Concept( 'activities', 'Etkinlikleri' )|E] için [hunt_sighting|E] şansı artar"
+ watchtowers_desc:0 "$outposts_desc$"
+ tournament_cost_effect_desc:1 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'tournament_activity_cost_discount_effect_desc', 'blank_line' )]"
+### TODO AGOT-CHANGED: marches_effect_desc [AGOT: Reduces the chances for special [raid_intents|E] | TR: Özel [Concept('raid_intents', 'Yağma Niyetlerinin')|E] ihtimalini azaltır]
+ marches_effect_desc: "Reduces the chances for special [raid_intents|E]"
+### TODO AGOT-CHANGED: marches_effect_2_desc [AGOT: Blocks special [raid_intents|E] | TR: Özel [Concept('raid_intents', 'Yağma Niyetlerini')|E] engeller]
+ marches_effect_2_desc: "Blocks special [raid_intents|E]"
+### TODO AGOT-CHANGED: TERRAIN_NOT_FARMLANDS [AGOT: Terrain is not $farmlands$ | TR: Arazi $farmlands$ değil]
+ TERRAIN_NOT_FARMLANDS: "Terrain is not $farmlands$"
+### TODO AGOT-CHANGED: brewery_effect_desc [AGOT: #low Unlocks:#!\n[court_position|E]: [GetCourtPositionType('court_brewmaster_court_position').GetName()] | TR: #low Açar:#!\n[court_position|E]: [GetCourtPositionType('court_brewmaster_court_position').GetName()]]
+ brewery_effect_desc: "#low Unlocks:#!\n[court_position|E]: [GetCourtPositionType('court_brewmaster_court_position').GetName()]"

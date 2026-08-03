@@ -1,0 +1,231 @@
+﻿l_english:
+ feudal_government:0 "Feodal"
+ feudal_government_realm:0 "Feodal Ülke"
+ feudal_government_vassals_label:1 "Feodal [obligations|E] her vasalın [Concept( 'vassal_contract', 'Vasal Sözleşmesine' )|E] göre belirlenir."
+ feudal_government_desc:1 "\n$game_concept_feudal_desc$\n\n#F Feodalizm 9. ila 15. yüzyıllar arasında Avrupa'da en yaygın yönetim biçimidir. Feodal sistem toprak sahibiyle orada yaşamak için hizmet ve işçilik sunanlar arasındaki ilişkiye dayanır. Bu sistemde toprak sahibi hükümdarlar vasallar atayarak onlara yönetme hakkı tanır, bunun karşılığında vasallar süzerenlerine [soldier|E] ve [tax|E] sağlarlar.#!"
+ can_wage_wars:0 "Savaş Açabilirliği"
+ wage_war_realm_law:0 "Ülke Yasasına Göre"
+ wage_war_realm_law_short:0 "Ülke"
+ wage_war_allowed_external:0 "Dışarıya Savaş Açabilir"
+ wage_war_allowed_external_short:0 "Dış"
+ scutage:0 "Asker Vergisi"
+ scutage_enabled_short:0 "Açık"
+ scutage_enabled:0 "$scutage$ $scutage_enabled_short$"
+ feudal_government_taxes:2 "[GetGovernment( 'feudal_government' ).GetNameNoTooltip] [Concept( 'taxes', 'Vergi Yükümlülüğü' )|E]"
+ feudal_tax_exempt:0 "[tax|E] Muafiyeti"
+ feudal_tax_exempt_short:0 "Muaf"
+ feudal_tax_low:0 "Düşük $game_concept_taxation$"
+ feudal_tax_low_short:0 "Düşük"
+ feudal_tax_normal:0 "Normal $game_concept_taxation$"
+ feudal_tax_normal_short:0 "Normal"
+### TODO AGOT-CHANGED: nomad_government_taxes [AGOT: [GetGovernment( 'nomad_government' ).GetNameNoTooltip] [taxes|U] | TR: [GetGovernment( 'nomad_government' ).GetNameNoTooltip] [Concept( 'taxes', 'Vergi Yükümlülüğü' )|E]]
+ nomad_government_taxes: "[GetGovernment( 'nomad_government' ).GetNameNoTooltip] [taxes|U]"
+### TODO AGOT-CHANGED: nomad_tax_exempt [AGOT: [tax|E] Exempt | TR: [tax|E] Muafiyeti]
+ nomad_tax_exempt: "[tax|E] Exempt"
+### TODO AGOT-CHANGED: nomad_tax_exempt_short [AGOT: Exempt | TR: Muaf]
+ nomad_tax_exempt_short: "Exempt"
+### TODO AGOT-CHANGED: nomad_tax_low [AGOT: Low $game_concept_taxes$ | TR: Düşük $game_concept_taxes$]
+ nomad_tax_low: "Low $game_concept_taxes$"
+### TODO AGOT-CHANGED: nomad_tax_low_short [AGOT: Low | TR: Düşük]
+ nomad_tax_low_short: "Low"
+### TODO AGOT-CHANGED: nomad_tax_normal [AGOT: Medium $game_concept_taxes$ | TR: Orta $game_concept_taxes$]
+ nomad_tax_normal: "Medium $game_concept_taxes$"
+### TODO AGOT-CHANGED: nomad_tax_normal_short [AGOT: Medium | TR: Orta]
+ nomad_tax_normal_short: "Medium"
+### TODO AGOT-CHANGED: feudal_vassal [AGOT: Feudal | TR: Feodal]
+ feudal_vassal: "Feudal"
+ feudal_vassal_desc: "$game_concept_feudal_desc$"
+ clan_government:0 "Aşiret"
+ clan_government_realm:0 "Aşiret"
+ clan_government_desc:0 "\n$game_concept_clan_desc$\n\n#F Aşiret kan yoluyla veya sembolik bir ortak ata üzerinden birbirine bağlanmış kişilerden oluşur. Aşiret reisinin aşiret desteğine ihtiyacı vardır. Birlik olmayı başaran aşiretler ciddi bir güce ulaşabileceği gibi karmaşa içerisindeki aşiretler de kendi kendilerine dağılabilirler.#!"
+ clan_government_vassals_label:1 "Aşiret [Concept( 'obligations', 'Yükümlülükleri' )|E] [Concept( 'opinion', 'Görüşe' )|E] bağlıdır"
+### TODO AGOT-CHANGED: clan_vassal [AGOT: Clan | TR: Aşiret]
+ clan_vassal: "Clan"
+ clan_vassal_desc: "$game_concept_clan_desc$"
+ theocracy_government:0 "Teokrasi"
+ theocracy_government_realm:0 "Teokrasi"
+ theocracy_government_desc:1 "\n$game_concept_theocracy_desc$\n\n#F Teokratik yönetimlerde tüm güç dinî kurumlardadır. İlahi iradeyi dünyaya yansıtmakla mükellef bir rahip veya rahibe tarafından yönetilirler.#!"
+ theocracy_government_vassals_label:1 "Teokratik [obligations|E] [Concept( 'liege', 'Süzerenin' )|E] [piety_level|E]ne bağlıdır"
+### TODO AGOT-CHANGED: theocracy_vassal [AGOT: Theocracy | TR: Teokrasi]
+ theocracy_vassal: "Theocracy"
+ theocracy_vassal_desc: "$game_concept_theocracy_desc$"
+ holy_order_government:0 "Kutsal Tarikat"
+ holy_order_government_desc:0 "\nKutsal tarikatların savaşçılarını hayatlarını inançlarına hizmet etmeye ve kâfirlerle savaşmaya adamıştır. Dindar toprak sahipleri tarafından onlara verilen kaleleri yönetebilirler. Tarikatın lideri tarikat kademeleri arasından seçilir."
+ holy_order_government_realm:0 "Kutsal Tarikat"
+ mercenary_government:0 "Paralı Asker Bölüğü"
+ mercenary_government_realm:0 "Paralı Asker Bölüğü"
+ mercenary_government_desc:1 "\nParalı Asker bölükleri kendilerini kiralayacak biri bulmak üzere sürekli hareket hâlindedir. Sadakatleri itibarları için elzemdir ancak bu sadakatleri sadece sözleşmelerinin sonuna kadar sürer. Paralı Asker bölüğünün lideri bölüğün kademeleri arasından seçilir."
+ create_cadet_branches_rule:0 "[cadet_branches|E] oluşturulabilir"
+### TODO AGOT-CHANGED: GOVERNMENT_TYPE_INCOMPATIBLE_WITH_PRIMARY_HOLDING [AGOT: [CHARACTER.GetName] primary [holding|E] [HOLDING.GetName] ([HOLDING.GetType.GetName]) in [PROVINCE.GetName] is incompatible with [GOVERNMENT_TYPE.GetName] [government|E] | TR: [CHARACTER.GetName] adlı kişinin [PROVINCE.GetName] kontluğundaki birincil [Concept('holding', 'Yerleşimi')|E] [HOLDING.GetName] ([HOLDING.GetType.GetName]) [GOVERNMENT_TYPE.GetName] [government|E] biçimiyle uyumsuz]
+ GOVERNMENT_TYPE_INCOMPATIBLE_WITH_PRIMARY_HOLDING: "[CHARACTER.GetName] primary [holding|E] [HOLDING.GetName] ([HOLDING.GetType.GetName]) in [PROVINCE.GetName] is incompatible with [GOVERNMENT_TYPE.GetName] [government|E]"
+ GOVERNMENT_RULE_INFO:1 "$EFFECT_LIST_BULLET$ $RULE|V$"
+ GOVERNMENT_HOLDING_INFO:1 "$EFFECT_LIST_BULLET$ [HOLDING_TYPE.GetName|V] [holdings|E]ı elinde tutabilir"
+ GOVERNMENT_CLAN_NOT_ALLIED:0 "[vassal|E] aşiret olmasına rağmen [Concept( 'alliance', 'Müttefik' )|E] değil"
+ GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL:0 "Önemli [vassal|E] aşiret olmasına rağmen [Concept( 'alliance', 'Müttefik' )|E] değil"
+### TODO AGOT-CHANGED: government_can_use_subject_men_at_arms [AGOT: Can recruit [men_at_arms|E] from [vassals|E] and [tributaries|E] | TR: [vassals|E] ve [Concept('tributaries', 'Haraçgüzarlardan')|E] [men_at_arms|E] alabilir]
+ government_can_use_subject_men_at_arms: "Can recruit [men_at_arms|E] from [vassals|E] and [tributaries|E]"
+### TODO AGOT-CHANGED: may_elevate_co_monarch [AGOT: #indent_newline:3 Allows [rulers|E] of at least [kingdom|E]-[title_tier|E] to elevate a [co_monarch|E] from amongst their adult [children|E]#! | TR: #indent_newline:3 [kingdom|E] [Concept('title_tier', 'Kademesi')|E] ve üzerindeki [Concept('rulers', 'Hükümdarlar')|E] yetişkin [Concept('children', 'Çocuklarını')|E] [co_monarch|E] yapabilir#!]
+ may_elevate_co_monarch: "#indent_newline:3 Allows [rulers|E] of at least [kingdom|E]-[title_tier|E] to elevate a [co_monarch|E] from amongst their adult [children|E]#!"
+### TODO AGOT-CHANGED: government_has_treasury [AGOT: Uses [treasury_i|E][treasury|E] | TR: [treasury_i|E][treasury|E] kullanır]
+ government_has_treasury: "Uses [treasury_i|E][treasury|E]"
+### TODO AGOT-CHANGED: block_same_government_type_vassal_courts [AGOT: Vassals with this rule cannot have Royal Courts if their top liege also has the rule | TR: Bu kurala sahip Vasallar, ana süzerenleri de bu kurala sahipse Kraliyet Saraylarına sahip olamazlar]
+ block_same_government_type_vassal_courts: "Vassals with this rule cannot have Royal Courts if their top liege also has the rule"
+ CHARACTER_WINDOW_MILITARY_STRENGTH_TOOLTIP: "[CharacterWindow.GetMilitaryStrengthTooltip][AddLocalizationIf(Not(StringIsEmpty(CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip)),'MAA_SUBJECT_ACCESS_POTENTIAL')]"
+### TODO AGOT-CHANGED: SUBJECT_MAA_HINT [AGOT: You could recruit @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] from the following [realms|E] if they were your [tributary|E] or [vassal|E]:#indent_newline:2 \n$BREAKDOWN$#! | TR: [tributary|E] veya [Concept('vassal', 'Vasalınız')|E] olsalardı aşağıdaki [Concept('realms', 'Ülkelerden')|E] @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] alabilirdiniz:#indent_newline:2 \n$BREAKDOWN$#!]
+ SUBJECT_MAA_HINT: "You could recruit @[MenAtArmsType.GetIconKey]_icon![Nbsp][MenAtArmsType.GetName] from the following [realms|E] if they were your [tributary|E] or [vassal|E]:#indent_newline:2 \n$BREAKDOWN$#!"
+ SUBJECT_MAA_HINT_ENTRY: "[CHARACTER.GetPrimaryTitle.GetBaseNameNoTier] ([CHARACTER.GetShortUIName])"
+### TODO AGOT-CHANGED: MAA_SUBJECT_ACCESS_POTENTIAL [AGOT: \n\n#EMP Would provide access to new [men_at_arms|E] if they were your [tributary|E] or [vassal|E]:#! #indent_newline:2 \n[CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip]#! | TR: \n\n#EMP [tributary|E] veya [Concept('vassal', 'Vasalınız')|E] olsalardı yeni bir tür [men_at_arms|E] üretmenizi sağlarlardı:#! #indent_newline:2 \n[CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip]#!]
+ MAA_SUBJECT_ACCESS_POTENTIAL: "\n\n#EMP Would provide access to new [men_at_arms|E] if they were your [tributary|E] or [vassal|E]:#! #indent_newline:2 \n[CharacterWindow.GetMenAtArmsSubjectRecruitmentPotentialTooltip]#!"
+ MAA_SUBJECT_ACCESS_POTENTIAL_ENTRY: "@[MEN_AT_ARMS_TYPE.GetIconKey]_icon![Nbsp][MEN_AT_ARMS_TYPE.GetName]"
+ SUPPLY_MULT_DIFERENT_GOVERNMENT:0 "[GOVERNMENT_TYPE.GetAdjective] Toprakları"
+ CONTRACT_LIEGE_SIGNATURE:0 "[SelectLocalization( SubjectContract.IsTributary, 'CONTRACT_LIEGE_SIGNATURE_SUZERAIN_TYPE', 'CONTRACT_LIEGE_SIGNATURE_LIEGE_TYPE' )],\n[SubjectContract.GetLiege.GetTitledFirstNameNoTooltip]\n[SubjectContract.GetLiege.GetHouse.GetBaseNameNoTooltip] Hanesi"
+### TODO AGOT-CHANGED: CONTRACT_LIEGE_SIGNATURE_LIEGE_TYPE [AGOT: Liege | TR: Süzeren]
+ CONTRACT_LIEGE_SIGNATURE_LIEGE_TYPE: "Liege"
+### TODO AGOT-CHANGED: CONTRACT_LIEGE_SIGNATURE_SUZERAIN_TYPE [AGOT: Suzerain | TR: Efendi]
+ CONTRACT_LIEGE_SIGNATURE_SUZERAIN_TYPE: "Suzerain"
+ CONTRACT_VASSAL_SIGNATURE:0 "[SelectLocalization( SubjectContract.IsTributary, 'CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE', 'CONTRACT_VASSAL_SIGNATURE_VASSAL_TYPE' )],\n[SubjectContract.GetSubject.GetTitledFirstNameNoTooltip]\n[SubjectContract.GetSubject.GetHouse.GetBaseNameNoTooltip] Hanesi"
+### TODO AGOT-CHANGED: CONTRACT_VASSAL_SIGNATURE_VASSAL_TYPE [AGOT: Vassal | TR: Vasal]
+ CONTRACT_VASSAL_SIGNATURE_VASSAL_TYPE: "Vassal"
+### TODO AGOT-CHANGED: CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE [AGOT: Tributary | TR: Haraçgüzar]
+ CONTRACT_VASSAL_SIGNATURE_TRIBUTARY_TYPE: "Tributary"
+### TODO AGOT-CHANGED: CB_UNITY_COST [AGOT: Your [house_unity|E] | TR: [Concept( 'house_unity', 'Hane Birliğiniz' )|E]]
+ CB_UNITY_COST: "Your [house_unity|E]"
+### TODO AGOT-CHANGED: HAS_HOUSE_UNITY_STAGE_GLOBAL [AGOT: [house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [house_unity|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]]
+ HAS_HOUSE_UNITY_STAGE_GLOBAL: "[house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: I_HAVE_HOUSE_UNITY_STAGE_GLOBAL [AGOT: My [house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [Concept( 'house_unity', 'Hane Birliğim' )|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]]
+ I_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "My [house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL [AGOT: [house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [DYNASTY_HOUSE.GetBaseName|V] [Concept( 'house', 'Hanesinin' )|E] [house_unity|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]]
+ THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "[house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] is @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: NOT_HAS_HOUSE_UNITY_STAGE_GLOBAL [AGOT: [house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [house_unity|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] #bold değil#!]
+ NOT_HAS_HOUSE_UNITY_STAGE_GLOBAL: "[house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: NOT_I_HAVE_HOUSE_UNITY_STAGE_GLOBAL [AGOT: My [house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [Concept( 'house_unity', 'Hane Birliğim' )|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] #bold değil#!]
+ NOT_I_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "My [house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: NOT_THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL [AGOT: [house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] | TR: [DYNASTY_HOUSE.GetBaseName|V] [Concept( 'house', 'Hanesinin' )|E] [house_unity|E] @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V] #bold değil#!]
+ NOT_THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "[house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] is #bold not#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]"
+### TODO AGOT-CHANGED: ADD_UNITY_VALUE_GLOBAL [AGOT: [house|E] [DynastyHouse.GetBaseName|V] [house_unity|E] changes by $VALUE|=+0$ @dynasty_house_unity! | TR: [DynastyHouse.GetBaseName|V] [Concept( 'house', 'Hanesinin' )|E] [house_unity|E] $VALUE|=+0$ @dynasty_house_unity! değişecek]
+ ADD_UNITY_VALUE_GLOBAL: "[house|E] [DynastyHouse.GetBaseName|V] [house_unity|E] changes by $VALUE|=+0$ @dynasty_house_unity!"
+### TODO AGOT-CHANGED: AI_HOUSE_UNITY [AGOT: Your [house_unity|E]: $VALUE|=+0$ | TR: [Concept( 'house_unity', 'Hane Birliğiniz' )|E]: $VALUE|=+0$]
+ AI_HOUSE_UNITY: "Your [house_unity|E]: $VALUE|=+0$"
+### TODO AGOT-CHANGED: CHOOSE_UNITY_DIRECTION [AGOT: Choose Direction | TR: Yön Seç]
+ CHOOSE_UNITY_DIRECTION: "Choose Direction"
+### TODO AGOT-CHANGED: STEER_HOUSE_UNITY_SELECT_DIRECTION_TITLE [AGOT: Choose [unity|E] Direction | TR: [unity|E] Yönü Seç]
+ STEER_HOUSE_UNITY_SELECT_DIRECTION_TITLE: "Choose [unity|E] Direction"
+### TODO AGOT-CHANGED: default_tax_collector [AGOT: Basic Taxes | TR: Temel Vergiler]
+ default_tax_collector: "Basic Taxes"
+### TODO AGOT-CHANGED: default_tax_collector_desc [AGOT: Base [obligations|E] apply, based on the [aptitude|E] of the assigned [tax_collector|E] | TR: Temel [obligations|E], [Concept( 'tax_collector', 'Tahsildarın' )|E] [Concept( 'aptitude', 'Yatkınlığı' )|E] doğrultusunda uygulanır]
+ default_tax_collector_desc: "Base [obligations|E] apply, based on the [aptitude|E] of the assigned [tax_collector|E]"
+### TODO AGOT-CHANGED: default_tax_collector_flavor_desc [AGOT: A standard tax. Taxpayers pay no more, and no less, than what they are expected to. | TR: Standart vergilendirme. Vergi mükellefleri mükellef olduklarından ne fazla vergi verirler ne de az.]
+ default_tax_collector_flavor_desc: "A standard tax. Taxpayers pay no more, and no less, than what they are expected to."
+### TODO AGOT-CHANGED: clan_tax_slot [AGOT: Tax Jurisdiction | TR: Vergi Grubu]
+ clan_tax_slot: "Tax Jurisdiction"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_CONTRACT [AGOT: [Character.Custom( 'GetProvinceConceptNoTooltip' )] Administration | TR: [Character.Custom( 'GetProvinceConceptNoTooltip' )] İdaresi]
+ ADMINISTRATIVE_CONTRACT: "[Character.Custom( 'GetProvinceConceptNoTooltip' )] Administration"
+### TODO AGOT-CHANGED: landless_adventurer_government [AGOT: Adventurer | TR: Maceracı]
+ landless_adventurer_government: "Adventurer"
+### TODO AGOT-CHANGED: landless_adventurer_government_realm [AGOT: Adventurer Camp | TR: Maceracı Kampı]
+ landless_adventurer_government_realm: "Adventurer Camp"
+ landless_adventurer_government_desc: "\n$game_concept_adventurer_desc$"
+### TODO AGOT-CHANGED: adventurer_rule [AGOT: only earn [gold|E] and [prestige|E] by undertaking [task_contracts|E] | TR: [task_contracts|E] ile [gold|E] ve [prestige|E] kazanabilir]
+ adventurer_rule: "only earn [gold|E] and [prestige|E] by undertaking [task_contracts|E]"
+### TODO AGOT-CHANGED: mercenary_rule [AGOT: be hired to serve as [mercenaries|E] by [landed|E] [rulers|E] | TR: [landed|E] [rulers|E] tarafından [mercenary|E] olarak kiralanabilir]
+ mercenary_rule: "be hired to serve as [mercenaries|E] by [landed|E] [rulers|E]"
+### TODO AGOT-CHANGED: adult_rulers_only [AGOT: #N May only be ruled by [adults|E]#! | TR: #N Sadece [adults|E] liderlik edebilir#!]
+ adult_rulers_only: "#N May only be ruled by [adults|E]#!"
+### TODO AGOT-CHANGED: nomad_government [AGOT: Nomadic | TR: Göçebe]
+ nomad_government: "Nomadic"
+### TODO AGOT-CHANGED: nomad_government_realm [AGOT: Nomadic Land | TR: Göçebe Ülke]
+ nomad_government_realm: "Nomadic Land"
+### TODO AGOT-CHANGED: nomad_government_desc [AGOT: \n$game_concept_nomadic_desc$\n\n#F For nomads, moving is their way of life. Ensuring that the herd can grow is their primary concern. Every ruler is only as strong as the strength of their people.#! | TR: \n$game_concept_nomadic_desc$\n\n#F Göçebeler için hareket etmek bir yaşam biçimidir. Sürülerinin büyümesini sağlamak birincil kaygılarını oluşturur. Her hükümdar, halkı kadar kuvvetlidir.#!]
+ nomad_government_desc: "\n$game_concept_nomadic_desc$\n\n#F For nomads, moving is their way of life. Ensuring that the herd can grow is their primary concern. Every ruler is only as strong as the strength of their people.#!"
+### TODO AGOT-CHANGED: NOMAD_CONTRACT [AGOT: Nomadic Contract | TR: Göçebe Sözleşmesi]
+ NOMAD_CONTRACT: "Nomadic Contract"
+### TODO AGOT-CHANGED: nomad_vassal [AGOT: Nomadic | TR: Göçebe]
+ nomad_vassal: "Nomadic"
+### TODO AGOT-CHANGED: nomad_vassal_desc [AGOT: Under the Nomadic [government_form|E], a [nomad|E] offers some [herd|E] to their [liege|E] in exchange for land and protection. The specifics are regulated by the [vassal_contract|E] between Vassal and Liege. | TR: Göçebe [Concept('government_form', 'Yönetim Biçiminde')|E] [Concept('nomad', 'Göçebeler')|E] toprak ve korunma karşılığında [Concept('liege', 'Süzerenlerine')|E] [Concept('herd', 'Sürülerinin')|E] bir kısmını verirler. Detaylar Vasal ile Süzeren arasındaki [vassal_contract|E] doğrultusunda belirlenir.]
+ nomad_vassal_desc: "Under the Nomadic [government_form|E], a [nomad|E] offers some [herd|E] to their [liege|E] in exchange for land and protection. The specifics are regulated by the [vassal_contract|E] between Vassal and Liege."
+### TODO AGOT-CHANGED: movement_speed_from_government [AGOT: $MOD_MOVEMENT_SPEED$: #P +10%#! | TR: $MOD_MOVEMENT_SPEED$: #P +10%#!]
+ movement_speed_from_government: "$MOD_MOVEMENT_SPEED$: #P +10%#!"
+### TODO AGOT-CHANGED: nomad_government_herd [AGOT: [herd|U] Tithes | TR: [herd|U] Vergileri]
+ nomad_government_herd: "[herd|U] Tithes"
+### TODO AGOT-CHANGED: herd_tax_exempt [AGOT: $game_concept_herd$ Exempt | TR: $game_concept_herd$ Muafiyeti]
+ herd_tax_exempt: "$game_concept_herd$ Exempt"
+### TODO AGOT-CHANGED: herd_tax_exempt_short [AGOT: Exempt | TR: Muaf]
+ herd_tax_exempt_short: "Exempt"
+### TODO AGOT-CHANGED: herd_tax_low [AGOT: Low $game_concept_herd$ | TR: Düşük $game_concept_herd$]
+ herd_tax_low: "Low $game_concept_herd$"
+### TODO AGOT-CHANGED: herd_tax_low_short [AGOT: Low | TR: Düşük]
+ herd_tax_low_short: "Low"
+ herd_tax_normal: "Normal $game_concept_herd$"
+ herd_tax_normal_short: "Normal"
+### TODO AGOT-CHANGED: mandala_government_taxes [AGOT: [mandala|U] Taxes | TR: [mandala|U] Vergi Yükümlülüğü]
+ mandala_government_taxes: "[mandala|U] Taxes"
+### TODO AGOT-CHANGED: mandala_tax_exempt [AGOT: Tax Exempt | TR: Vergi Muafiyeti]
+ mandala_tax_exempt: "Tax Exempt"
+### TODO AGOT-CHANGED: mandala_tax_exempt_short [AGOT: Exempt | TR: Muaf]
+ mandala_tax_exempt_short: "Exempt"
+### TODO AGOT-CHANGED: mandala_tax_low [AGOT: Low Taxes | TR: Düşük Vergi]
+ mandala_tax_low: "Low Taxes"
+### TODO AGOT-CHANGED: mandala_tax_low_short [AGOT: Low | TR: Düşük]
+ mandala_tax_low_short: "Low"
+### TODO AGOT-CHANGED: mandala_tax_normal [AGOT: Normal Taxes | TR: Normal Vergi]
+ mandala_tax_normal: "Normal Taxes"
+ mandala_tax_normal_short: "Normal"
+### TODO AGOT-CHANGED: CB_CONFEDERATION_VASSALS [AGOT: Attacking a fellow [confederation|E] member | TR: Aynı [Concept('confederation', 'Konfederasyondan')|E] birine saldırmak]
+ CB_CONFEDERATION_VASSALS: "Attacking a fellow [confederation|E] member"
+### TODO AGOT-CHANGED: herder_government [AGOT: Herder | TR: Çoban]
+ herder_government: "Herder"
+### TODO AGOT-CHANGED: herder_government_realm [AGOT: Pastureland | TR: Otlak]
+ herder_government_realm: "Pastureland"
+### TODO AGOT-CHANGED: herder_government_desc [AGOT: \n$game_concept_herder_desc$\n\n#F Herders do not concern themselves with any aspects of rulership. They tend to their flock, and just their flock.#! | TR: \n$game_concept_herder_desc$\n\n#F Çobanlar hükmetmeyle ilgilenmezler. Sürülerine ve sadece sürülerine bakarlar.#!]
+ herder_government_desc: "\n$game_concept_herder_desc$\n\n#F Herders do not concern themselves with any aspects of rulership. They tend to their flock, and just their flock.#!"
+### TODO AGOT-CHANGED: herder_vassal [AGOT: Herder | TR: Çoban]
+ herder_vassal: "Herder"
+ herder_vassal_desc: "$game_concept_herder_desc$"
+### TODO AGOT-CHANGED: herder_government_vassals_label [AGOT: Herder [obligations|E] cannot be adjusted | TR: Çoban [Concept('obligations', 'Yükümlülükleri')|E] değiştirilemez]
+ herder_government_vassals_label: "Herder [obligations|E] cannot be adjusted"
+### TODO AGOT-CHANGED: nomad_government_vassals_label [AGOT: Nomad [obligations|E] are based on each [vassal|E]'s [vassal_contract|E] | TR: Göçebe [Concept('obligations', 'Yükümlülükleri')|E] her bir [Concept('vassal', 'Vasalın')|E] [Concept('vassal_contract', 'Vasal Sözleşmesine')|E] bağlıdır]
+ nomad_government_vassals_label: "Nomad [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]"
+ mandala_government: "Mandala"
+### TODO AGOT-CHANGED: mandala_government_realm [AGOT: Mandala Realm | TR: Mandala Ülkesi]
+ mandala_government_realm: "Mandala Realm"
+### TODO AGOT-CHANGED: mandala_government_vassals_label [AGOT: Mandala [obligations|E] are based on each [vassal|E]'s [vassal_contract|E] | TR: Mandala [Concept('obligations', 'Yükümlülükleri')|E] her bir [Concept('vassal', 'Vasalın')|E] [Concept('vassal_contract', 'Vasal Sözleşmesine')|E] bağlıdır]
+ mandala_government_vassals_label: "Mandala [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]"
+### TODO AGOT-CHANGED: mandala_government_desc [AGOT: \n$game_concept_mandala_desc$\n\n#F The petals of the Mandala government may wither and die, but at the core stands the divine right, manifested in the Devaraja. An ambitious enough ruler can make the Mandala last, #EMP eternally#!. #! | TR: \n$game_concept_mandala_desc$\n\n#F Mandala yönetiminin yaprakları solup ölebilir fakat özünde Devaraja'da vücut bulan ilahi hak dimdik ayakta durur. Yeterince hırslı bir hükümdar Mandala'yı #EMP ebediyen#! sürdürebilir. #!]
+ mandala_government_desc: "\n$game_concept_mandala_desc$\n\n#F The petals of the Mandala government may wither and die, but at the core stands the divine right, manifested in the Devaraja. An ambitious enough ruler can make the Mandala last, #EMP eternally#!. #!"
+ mandala_vassal: "Mandala"
+ mandala_vassal_desc: "$game_concept_mandala_desc$"
+### TODO AGOT-CHANGED: uses_mandala_aspects [AGOT: Uses [mandala_aspects|E] | TR: [mandala_aspects|E] kullanır]
+ uses_mandala_aspects: "Uses [mandala_aspects|E]"
+### TODO AGOT-CHANGED: uses_mandala_decrees [AGOT: Uses [mandala_decrees|E] | TR: [mandala_decrees|E] kullanır]
+ uses_mandala_decrees: "Uses [mandala_decrees|E]"
+### TODO AGOT-CHANGED: wanua_government [AGOT: Wanua | TR: Vanua]
+ wanua_government: "Wanua"
+### TODO AGOT-CHANGED: wanua_government_realm [AGOT: Wanua Realm | TR: Vanua Ülkesi]
+ wanua_government_realm: "Wanua Realm"
+### TODO AGOT-CHANGED: wanua_government_desc [AGOT: \n$game_concept_wanua_desc$\n\n#F From their coastal settlements, [Glossary( 'Wanua', 'WANUA_GLOSS' )] rulers are able to cross the seas to barter and raid far more effectively than their continental $tribal_government_adjective$ counterparts.#! | TR: \n$game_concept_wanua_desc$\n\n#F Kıyı yerleşimlerindeki [Glossary( 'Vanua', 'WANUA_GLOSS' )] hükümdarları, ana kıtadaki $tribal_government_adjective$ muadillerine kıyasla denizleri aşıp takas yapmada ve yağma akınları düzenlemede çok daha etkilidirler.#!]
+ wanua_government_desc: "\n$game_concept_wanua_desc$\n\n#F From their coastal settlements, [Glossary( 'Wanua', 'WANUA_GLOSS' )] rulers are able to cross the seas to barter and raid far more effectively than their continental $tribal_government_adjective$ counterparts.#!"
+### TODO AGOT-CHANGED: WANUA_GLOSS [AGOT: A collection of small villages and rural communities in Maritime Southeast Asia is often called a #italic Wanua#!, #italic Banwa#!, #italic Manua#!, and many other linguistic variants of the Malayic root word. | TR: Denizci Güneydoğu Asya'daki küçük köyler ve kırsal topluluklar çoğu zaman #italic Vanua#!, #italic Banwa#!, #italic Manua#! başta olmak üzere Malay dilindeki kök sözcüğün farklı türleriyle isimlendirilir.]
+ WANUA_GLOSS: "A collection of small villages and rural communities in Maritime Southeast Asia is often called a #italic Wanua#!, #italic Banwa#!, #italic Manua#!, and many other linguistic variants of the Malayic root word."
+### TODO AGOT-CHANGED: wanua_government_vassals_label [AGOT: $wanua_government_adjective$ [obligations|E] are based on [prestige_level|E] of [liege|E] | TR: $wanua_government_adjective$ [Concept( 'obligations', 'Yükümlülükleri' )|E] [Concept( 'liege', 'Süzerenin' )|E] [Concept( 'prestige_level', 'Şöhret Seviyesine' )|E] bağlıdır]
+ wanua_government_vassals_label: "$wanua_government_adjective$ [obligations|E] are based on [prestige_level|E] of [liege|E]"
+ wanua_vassal: "$wanua_government_adjective$"
+ wanua_vassal_desc: "$game_concept_wanua_desc$"
+### TODO AGOT-CHANGED: government_enables_trade_ports [AGOT: #indent_newline:3 Allows the #V $building_type_common_tradeport_01$#! line of [buildings|E] to be constructed in coastal [wanua|E] [holdings|E]#! | TR: #indent_newline:3 Kıyı [wanua|E] [Concept('holdings', 'Yerleşimlerinde')|E] #V $building_type_common_tradeport_01$#! [building|E] zincirini inşa edilebilir#!]
+ government_enables_trade_ports: "#indent_newline:3 Allows the #V $building_type_common_tradeport_01$#! line of [buildings|E] to be constructed in coastal [wanua|E] [holdings|E]#!"
+ salary: "$celestial_salary$"
+ salary_very_low: "$celestial_salary_very_low$"
+ salary_very_low_short: "$celestial_salary_very_low$"
+ salary_low: "$celestial_salary_low$"
+ salary_low_short: "$celestial_salary_low_short$"
+ treasury_very_low: "$celestial_treasury_very_low$"
+ treasury_very_low_short: "$celestial_treasury_very_low_short$"
+ treasury_low: "$celestial_treasury_low$"
+ treasury_low_short: "$celestial_treasury_low_short$"
+### TODO AGOT-CHANGED: INCREASED_MARRIAGE_ACCEPTANCE_INVESTITURE_MARRIAGE_REASON [AGOT: [tributary|E] has $celestial_tributary_investiture_privilege_marriage$: $VALUE|=+0$ | TR: [tributary|E], $celestial_tributary_investiture_privilege_marriage$ ayrıcalığına sahip: $VALUE|=+0$]
+ INCREASED_MARRIAGE_ACCEPTANCE_INVESTITURE_MARRIAGE_REASON: "[tributary|E] has $celestial_tributary_investiture_privilege_marriage$: $VALUE|=+0$"
+### TODO AGOT-CHANGED: TRIBUTARY_GAIN_LEGITIMACY [AGOT: Tributary gains @legitimacy_icon! per [suzerain|E] [radiance|e] [CHARACTER.GetRadianceValueNoTooltip|V0]/[GetDefine( 'NMandala', 'MAX_RADIANCE' )|V0] | TR: Haraçgüzar, [Concept('suzerain', 'Efendisinin')|E] [Concept('radiance', 'Haşmeti')|e] başına @legitimacy_icon! kazanır: [CHARACTER.GetRadianceValueNoTooltip|V0]/[GetDefine( 'NMandala', 'MAX_RADIANCE' )|V0]]
+ TRIBUTARY_GAIN_LEGITIMACY: "Tributary gains @legitimacy_icon! per [suzerain|E] [radiance|e] [CHARACTER.GetRadianceValueNoTooltip|V0]/[GetDefine( 'NMandala', 'MAX_RADIANCE' )|V0]"
+### TODO AGOT-CHANGED: barter_goods_low [AGOT: Low [barter_goods|E] | TR: Düşük [barter_goods|E]]
+ barter_goods_low: "Low [barter_goods|E]"
+### TODO AGOT-CHANGED: barter_goods_low_short [AGOT: Low | TR: Düşük]
+ barter_goods_low_short: "Low"

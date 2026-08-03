@@ -1,0 +1,69 @@
+﻿l_english:
+### TODO AGOT-CHANGED: catalyst_advancement_movement_yearly [AGOT: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] is the [favored_movement|E] | TR: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]]
+ catalyst_advancement_movement_yearly: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] is the [favored_movement|E]"
+### TODO AGOT-CHANGED: catalyst_advancement_movement_yearly_desc [AGOT: Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] is the [favored_movement|E] | TR: Yıllık Kayma: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]]
+ catalyst_advancement_movement_yearly_desc: "Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] is the [favored_movement|E]"
+### TODO AGOT-CHANGED: catalyst_pro_hegemon_movement_yearly [AGOT: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E] | TR: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]]
+ catalyst_pro_hegemon_movement_yearly: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E]"
+### TODO AGOT-CHANGED: catalyst_pro_hegemon_movement_yearly_desc [AGOT: Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E] | TR: Yıllık Kayma: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]]
+ catalyst_pro_hegemon_movement_yearly_desc: "Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E]"
+### TODO AGOT-CHANGED: catalyst_pro_hegemon_movement_advancement_yearly [AGOT: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E] | TR: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName]]
+ catalyst_pro_hegemon_movement_advancement_yearly: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E]"
+### TODO AGOT-CHANGED: catalyst_pro_hegemon_movement_advancement_yearly_desc [AGOT: Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E] and [favored_era|E] is [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName] | TR: Yıllık Kayma: [favored_movement|E] [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] ve [favored_era|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]]
+ catalyst_pro_hegemon_movement_advancement_yearly_desc: "Yearly Drift: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] is the [favored_movement|E] and [favored_era|E] is [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]"
+### TODO AGOT-CHANGED: catalyst_movement_consulted_heaven_all [AGOT: [movement|E] consulted Heaven [dynastic_cycle_catalyst|E] | TR: [movement|E] Göklerle İstişare Etti [Concept('dynastic_cycle_catalyst', 'Hanedan Döngüsü Tetikleyicisi')|E]]
+ catalyst_movement_consulted_heaven_all: "[movement|E] consulted Heaven [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_house_head_consulted_heaven_all [AGOT: [house_head|E] consulted Heaven [dynastic_cycle_catalyst|E] | TR: [house_head|E] Göklerle İstişare Etti Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_house_head_consulted_heaven_all: "[house_head|E] consulted Heaven [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_outdated_maa_yearly [AGOT: Yearly Outdated [men_at_arms|E] [dynastic_cycle_catalyst|E] | TR: Yıllık Eskimiş [men_at_arms|E] Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_outdated_maa_yearly: "Yearly Outdated [men_at_arms|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_outdated_maa_yearly_desc [AGOT: Yearly Drift: [son_of_heaven|E] has outdated [men_at_arms|E] [regiments|E] | TR: Yıllık Kayma: [son_of_heaven|E] eskimiş [men_at_arms|E] [Concept('regiments', 'Birliklerine')|E] sahip]
+ catalyst_hegemon_outdated_maa_yearly_desc: "Yearly Drift: [son_of_heaven|E] has outdated [men_at_arms|E] [regiments|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_lost_war [AGOT: Lost [war|E] [dynastic_cycle_catalyst|E] | TR: [war|E] Kaybı Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_lost_war: "Lost [war|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_lost_war_desc [AGOT: [son_of_heaven|E] loses a [war|E] | TR: [son_of_heaven|E] bir [war|E] kaybetti]
+ catalyst_hegemon_lost_war_desc: "[son_of_heaven|E] loses a [war|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_won_war [AGOT: Won [war|E] [dynastic_cycle_catalyst|E] | TR: [war|E] Zaferi Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_won_war: "Won [war|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_won_war_desc [AGOT: [son_of_heaven|E] won a [war|E] | TR: [son_of_heaven|E] bir [war|E] kazandı]
+ catalyst_hegemon_won_war_desc: "[son_of_heaven|E] won a [war|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_murdered [AGOT: [son_of_heaven_possessive|E] Murder [dynastic_cycle_catalyst|E] | TR: [son_of_heaven_possessive|E] Cinayeti Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_murdered: "[son_of_heaven_possessive|E] Murder [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_murdered_desc [AGOT: [son_of_heaven|E] is murdered | TR: [son_of_heaven|E] öldürüldü]
+ catalyst_hegemon_murdered_desc: "[son_of_heaven|E] is murdered"
+### TODO AGOT-CHANGED: catalyst_governor_slander [AGOT: [governor|E] Slander [dynastic_cycle_catalyst|E] | TR: [governor|E] İftirası Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_governor_slander: "[governor|E] Slander [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_governor_slander_desc [AGOT: A [governor|E] slandered another [governor|E] | TR: Bir [governor|E], başka bir [Concept('governor|', 'Valiye')E] iftira attı]
+ catalyst_governor_slander_desc: "A [governor|E] slandered another [governor|E]"
+### TODO AGOT-CHANGED: catalyst_governor_challenged_status [AGOT: [governor|E] Challenged Status [dynastic_cycle_catalyst|E] | TR: [Concept('governor', 'Valinin')|E] Statüye Meydan Okuması Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_governor_challenged_status: "[governor|E] Challenged Status [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_governor_challenged_status_desc [AGOT: A [governor|E] challenged the status of another [governor|E] | TR: Bir [governor|E], başka bir [Concept('governor', 'Valinin')|E] statüsüne meydan okudu]
+ catalyst_governor_challenged_status_desc: "A [governor|E] challenged the status of another [governor|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_mandate_of_heaven_at_0 [AGOT: Yearly [mandate_of_heaven|E] at #V 0#! [dynastic_cycle_catalyst|E] | TR: Yıllık #V 0#! [mandate_of_heaven|E] Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_mandate_of_heaven_at_0: "Yearly [mandate_of_heaven|E] at #V 0#! [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_mandate_of_heaven_at_0_desc [AGOT: Yearly Drift: [son_of_heaven_possessive|E] [legitimacy_level|E] is #V 0#! | TR: Yıllık Kayma: [son_of_heaven_possessive|E] [legitimacy_level|E] seviyesi #V 0#!]
+ catalyst_hegemon_mandate_of_heaven_at_0_desc: "Yearly Drift: [son_of_heaven_possessive|E] [legitimacy_level|E] is #V 0#!"
+### TODO AGOT-CHANGED: catalyst_hegemon_lost_mandate_of_heaven [AGOT: Lost [mandate_of_heaven|E] [dynastic_cycle_catalyst|E] | TR: [mandate_of_heaven|E] Kaybı Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemon_lost_mandate_of_heaven: "Lost [mandate_of_heaven|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemon_lost_mandate_of_heaven_desc [AGOT: [son_of_heaven|E] loses the [mandate_of_heaven|E] | TR: [son_of_heaven|E], [Concept('mandate_of_heaven', 'Göklerin Buyruğunu')|E] kaybetti]
+ catalyst_hegemon_lost_mandate_of_heaven_desc: "[son_of_heaven|E] loses the [mandate_of_heaven|E]"
+### TODO AGOT-CHANGED: catalyst_hegemony_too_few_lands [AGOT: Yearly [son_of_heaven|E] has too few [de_jure|E] [titles|E] [dynastic_cycle_catalyst|E] | TR: Yıllık [Concept('son_of_heaven', 'Göklerin Oğlunun')|E] Yetersiz [de_jure|E] [title|E] Tutması Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemony_too_few_lands: "Yearly [son_of_heaven|E] has too few [de_jure|E] [titles|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemony_too_few_lands_desc [AGOT: Yearly Drift: [son_of_heaven|E] controls less than #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! of [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [counties|E] | TR: Yıllık Kayma: [son_of_heaven|E], [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [Concept('counties', 'Kontluklarının')|E] #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! oranından azını kontrol ediyor]
+ catalyst_hegemony_too_few_lands_desc: "Yearly Drift: [son_of_heaven|E] controls less than #V [EmptyScope.ScriptValue('catalyst_hegemony_too_few_lands_value')|0%]#! of [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [counties|E]"
+### TODO AGOT-CHANGED: catalyst_hegemony_far_too_few_lands [AGOT: [son_of_heaven|E] holds far too few [de_jure|E] [titles|E] [dynastic_cycle_catalyst|E] | TR: [son_of_heaven|E] Çok Az [de_jure|E] [title|E] Tutması Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_hegemony_far_too_few_lands: "[son_of_heaven|E] holds far too few [de_jure|E] [titles|E] [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_hegemony_far_too_few_lands_desc [AGOT: [son_of_heaven|E] controls less than #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! of [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [counties|E] | TR: [son_of_heaven|E], [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [Concept('counties', 'Kontluklarının')|E] #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! oranından azını kontrol ediyor]
+ catalyst_hegemony_far_too_few_lands_desc: "[son_of_heaven|E] controls less than #V [EmptyScope.ScriptValue('catalyst_hegemony_far_too_few_lands_value')|0%]#! of [GetTitleByKey('h_china').GetDefinitiveName] [de_jure|E] [counties|E]"
+### TODO AGOT-CHANGED: catalyst_governor_embezzlement [AGOT: Governor Embezzlement [dynastic_cycle_catalyst|E] | TR: [governor|E] Zimmeti Kaynaklı [dynastic_cycle_catalyst|E]]
+ catalyst_governor_embezzlement: "Governor Embezzlement [dynastic_cycle_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_governor_embezzlement_desc [AGOT: A [governor|E] [vassal|E] embezzled from [son_of_heaven|E] | TR: Bir [governor|E] [vassal|E], zimmetine para geçirdi]
+ catalyst_governor_embezzlement_desc: "A [governor|E] [vassal|E] embezzled from [son_of_heaven|E]"
+### TODO AGOT-CHANGED: catalyst_great_wall [AGOT: $building_the_great_wall_01$ Construction [situation_catalyst|E] | TR: $building_the_great_wall_01$ İnşaatı [situation_catalyst|E]]
+ catalyst_great_wall: "$building_the_great_wall_01$ Construction [situation_catalyst|E]"
+### TODO AGOT-CHANGED: catalyst_great_wall_desc [AGOT: $building_the_great_wall_01$ is upgraded or expanded | TR: $building_the_great_wall_01$ yükseltildi veya genişletildi]
+ catalyst_great_wall_desc: "$building_the_great_wall_01$ is upgraded or expanded"
+### TODO AGOT-CHANGED: catalyst_cleared_treasury_debt [AGOT: [minister|E] or [son_of_heaven|E] cleared [treasury_debt|E] | TR: [minister|E] veya [son_of_heaven|E], [treasury_debt|E] kapattı]
+ catalyst_cleared_treasury_debt: "[minister|E] or [son_of_heaven|E] cleared [treasury_debt|E]"
+### TODO AGOT-CHANGED: catalyst_cleared_treasury_debt_desc [AGOT: [minister_of_revenue|E], [minister_of_war|E] or [son_of_heaven|E] payed off [treasury_debt|E] of a [governor|E] | TR: [minister_of_revenue|E], [minister_of_war|E] veya [son_of_heaven|E], bir [Concept('governor', 'Valinin')|E] [Concept('treasury_debt', 'Hazine Borcunu')|E] ödedi]
+ catalyst_cleared_treasury_debt_desc: "[minister_of_revenue|E], [minister_of_war|E] or [son_of_heaven|E] payed off [treasury_debt|E] of a [governor|E]"

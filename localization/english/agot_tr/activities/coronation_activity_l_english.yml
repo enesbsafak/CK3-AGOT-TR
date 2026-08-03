@@ -1,0 +1,122 @@
+﻿l_english:
+### TODO AGOT-CHANGED: ceremony_feast_type [AGOT: Celebrations | TR: Kutlamalar]
+ ceremony_feast_type: "Celebrations"
+### TODO AGOT-CHANGED: ceremony_feast_type_austere [AGOT: Austere Observances | TR: Sade Merasim]
+ ceremony_feast_type_austere: "Austere Observances"
+### TODO AGOT-CHANGED: ceremony_feast_type_austere_desc [AGOT: $EFFECT_LIST_BULLET$Decreased [coronation_magnificence|E]\n$EFFECT_LIST_BULLET$If [coronation_magnificence|E] is below #high 50#! at the Conclusion, you will gain [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_coronation_low_feast', 'generic_coronation_low_feast' )] for #high 10 years#!\n\n#weak Is an invitation to this historic occasion not enough of a pleasure...?#! | TR: $EFFECT_LIST_BULLET$[Concept('coronation_magnificence', 'Şaşaa')|E] azalır\n$EFFECT_LIST_BULLET$ Eğer [Concept('coronation_magnificence', 'Şaşaa')|E] etkinlik sona erdiğinde #high 50#!'nin altındaysa, #high 10 yıl#! boyunca [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_coronation_low_feast', 'generic_coronation_low_feast' )] etkisini kazanırsınız\n\n#weak Bu tarihi ana tanıklık etmek başlı başına bir şeref değil mi? Daha ne istiyorlar?#!]
+ ceremony_feast_type_austere_desc: "$EFFECT_LIST_BULLET$Decreased [coronation_magnificence|E]\n$EFFECT_LIST_BULLET$If [coronation_magnificence|E] is below #high 50#! at the Conclusion, you will gain [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_coronation_low_feast', 'generic_coronation_low_feast' )] for #high 10 years#!\n\n#weak Is an invitation to this historic occasion not enough of a pleasure...?#!"
+### TODO AGOT-CHANGED: ceremony_feast_type_regular [AGOT: Suitable Revels | TR: Layık Şölen]
+ ceremony_feast_type_regular: "Suitable Revels"
+### TODO AGOT-CHANGED: ceremony_feast_type_regular_desc [AGOT: $EFFECT_LIST_BULLET$Increased [coronation_magnificence|E]\n\n#weak There will be little skimping on the great gathering of the nobility, and the fine fare of the post-ceremony feast.#! | TR: $EFFECT_LIST_BULLET$[Concept('coronation_magnificence', 'Şaşaa')|E] artar\n\n#weak Soylulara layık bu buluşmada ve tören sonrası ziyafetlerde cimriliğe yer yok.#!]
+ ceremony_feast_type_regular_desc: "$EFFECT_LIST_BULLET$Increased [coronation_magnificence|E]\n\n#weak There will be little skimping on the great gathering of the nobility, and the fine fare of the post-ceremony feast.#!"
+### TODO AGOT-CHANGED: CORONATION_BASE_COST [AGOT: [GetActivityType( 'activity_coronation' ).GetName] Base Cost | TR: [GetActivityType( 'activity_coronation' ).GetName] Temel Maliyeti]
+ CORONATION_BASE_COST: "[GetActivityType( 'activity_coronation' ).GetName] Base Cost"
+### TODO AGOT-CHANGED: crowned_laws [AGOT: Coronation Laws | TR: Taç Giyme Yasaları]
+ crowned_laws: "Coronation Laws"
+### TODO AGOT-CHANGED: uncrowned [AGOT: Uncrowned | TR: Taçsız]
+ uncrowned: "Uncrowned"
+### TODO AGOT-CHANGED: crowned_emperor [AGOT: Anointed Sovereign | TR: Kutsanmış Hükümdar]
+ crowned_emperor: "Anointed Sovereign"
+### TODO AGOT-CHANGED: SUPPORTER_WINDOW_OTHER_LABEL [AGOT: Other Supporters: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )] | TR: Diğer Destekçiler: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]]
+ SUPPORTER_WINDOW_OTHER_LABEL: "Other Supporters: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
+### TODO AGOT-CHANGED: SUPPORTER_WINDOW_OTHER_LABEL_NONE [AGOT: Other Supporters: 0 | TR: Diğer Destekçiler: 0]
+ SUPPORTER_WINDOW_OTHER_LABEL_NONE: "Other Supporters: 0"
+### TODO AGOT-CHANGED: SUPPORTER_WINDOW_OTHER_LABEL_HOVER [AGOT: #T Supporters#!\n$game_concept_coronation_supporter_desc$\n\n | TR: #T Destekçiler#!\n$game_concept_coronation_supporter_desc$\n\n]
+ SUPPORTER_WINDOW_OTHER_LABEL_HOVER: "#T Supporters#!\n$game_concept_coronation_supporter_desc$\n\n"
+### TODO AGOT-CHANGED: SUPPORTER_WINDOW_LABEL [AGOT: Major Supporters | TR: Ana Destekçiler]
+ SUPPORTER_WINDOW_LABEL: "Major Supporters"
+### TODO AGOT-CHANGED: SUPPORTER_WINDOW_LABEL_HOVER [AGOT: #T $SUPPORTER_WINDOW_LABEL$#!\nThese are the #V Coronation#! [coronation_supporters|E] that have the biggest impact on the [coronation_magnificence|E].\n\n$game_concept_coronation_supporter_desc$ | TR: #T $SUPPORTER_WINDOW_LABEL$#!\nBunlar, #V Taç Giyme Töreninin#! [Concept('coronation_magnificence', 'Şaşaası')|E] üzerinde en büyük etkiye sahip olan [Concept('coronation_supporters', 'Destekçilerdir')|E].\n\n$game_concept_coronation_supporter_desc$]
+ SUPPORTER_WINDOW_LABEL_HOVER: "#T $SUPPORTER_WINDOW_LABEL$#!\nThese are the #V Coronation#! [coronation_supporters|E] that have the biggest impact on the [coronation_magnificence|E].\n\n$game_concept_coronation_supporter_desc$"
+### TODO AGOT-CHANGED: DETRACTOR_WINDOW_OTHER_LABEL [AGOT: Other Detractors: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )] | TR: Diğer Muhalifler: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]]
+ DETRACTOR_WINDOW_OTHER_LABEL: "Other Detractors: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
+### TODO AGOT-CHANGED: DETRACTOR_WINDOW_OTHER_LABEL_NONE [AGOT: Other Detractors: 0 | TR: Diğer Muhalifler: 0]
+ DETRACTOR_WINDOW_OTHER_LABEL_NONE: "Other Detractors: 0"
+### TODO AGOT-CHANGED: DETRACTOR_WINDOW_OTHER_LABEL_HOVER [AGOT: #T Detractors#!\n$game_concept_coronation_detractor_desc$ | TR: #T Muhalifler#!\n$game_concept_coronation_detractor_desc$]
+ DETRACTOR_WINDOW_OTHER_LABEL_HOVER: "#T Detractors#!\n$game_concept_coronation_detractor_desc$"
+### TODO AGOT-CHANGED: DETRACTOR_WINDOW_LABEL [AGOT: Major Detractors | TR: Ana Muhalifler]
+ DETRACTOR_WINDOW_LABEL: "Major Detractors"
+### TODO AGOT-CHANGED: DETRACTOR_WINDOW_LABEL_HOVER [AGOT: #T $DETRACTOR_WINDOW_LABEL$#!\nThese are the #V Coronation#! [coronation_detractors|E] that have the biggest impact on the [coronation_magnificence|E].\n\n$game_concept_coronation_detractor_desc$ | TR: #T $DETRACTOR_WINDOW_LABEL$#!\nBunlar, #V Taç Giyme Töreninin#! [Concept('coronation_magnificence', 'Şaşaası')|E] üzerinde en büyük etkiye sahip olan [Concept('coronation_detractors', 'Muhaliflerdir')|E].\n\n$game_concept_coronation_detractor_desc$]
+ DETRACTOR_WINDOW_LABEL_HOVER: "#T $DETRACTOR_WINDOW_LABEL$#!\nThese are the #V Coronation#! [coronation_detractors|E] that have the biggest impact on the [coronation_magnificence|E].\n\n$game_concept_coronation_detractor_desc$"
+### TODO AGOT-CHANGED: OPINION_OF_HOST [AGOT: Opinion of [host|E]: [Character.GetOpinionOf( GetPlayer )|+=0] | TR: [Concept('host', 'Ev Sahibine')|E] Görüş: [Character.GetOpinionOf( GetPlayer )|+=0]]
+ OPINION_OF_HOST: "Opinion of [host|E]: [Character.GetOpinionOf( GetPlayer )|+=0]"
+### TODO AGOT-CHANGED: PERSONAL_INTERACTIONS_CORONATION_BUTTON_TOOLTIP [AGOT: #T Show [coronation|E] Interactions#! | TR: #T [Concept('coronation', 'Taç Giyme')|E] Etkileşimlerini Göster#!]
+ PERSONAL_INTERACTIONS_CORONATION_BUTTON_TOOLTIP: "#T Show [coronation|E] Interactions#!"
+### TODO AGOT-CHANGED: CORONATION_ACTIVITY_INTENT_TOOLTIP [AGOT: #T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription] | TR: #T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]]
+ CORONATION_ACTIVITY_INTENT_TOOLTIP: "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]"
+### TODO AGOT-CHANGED: CORONATION_ACTIVITY_INTENT_NAME [AGOT: #UND [ActivityIntent.GetName]#! | TR: #UND [ActivityIntent.GetName]#!]
+ CORONATION_ACTIVITY_INTENT_NAME: "#UND [ActivityIntent.GetName]#!"
+### TODO AGOT-CHANGED: CORONATION_WINDOW_SPECIAL_PROGRESS_TOOLTIP [AGOT: [coronation_magnificence|E]: [ActivityWindow.GetSpecialProgressValue|0^V] | TR: [Concept('coronation_magnificence', 'Şaşaa')|E]: [ActivityWindow.GetSpecialProgressValue|0^V]]
+ CORONATION_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "[coronation_magnificence|E]: [ActivityWindow.GetSpecialProgressValue|0^V]"
+### TODO AGOT-CHANGED: GetReconquerOathText [AGOT: Consolidate the [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip] | TR: Toprakları Geri Kazanma]
+ GetReconquerOathText: "Consolidate the [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip]"
+### TODO AGOT-CHANGED: GetConquestOathText [AGOT: Expand the Realm | TR: Ülkeyi Genişletme]
+ GetConquestOathText: "Expand the Realm"
+### TODO AGOT-CHANGED: GetPeaceOathText [AGOT: Ensure Peace | TR: Barışı Sağlama]
+ GetPeaceOathText: "Ensure Peace"
+### TODO AGOT-CHANGED: GetPurgePretendersOathText [AGOT: Purge Pretenders | TR: Talipleri Yok Etme]
+ GetPurgePretendersOathText: "Purge Pretenders"
+### TODO AGOT-CHANGED: GetEndTheStruggleOathText [AGOT: End the Struggle | TR: Mücadeleyi Bitirme]
+ GetEndTheStruggleOathText: "End the Struggle"
+### TODO AGOT-CHANGED: GetGreatestHunterOathText [AGOT: Greatest Hunter | TR: En Büyük Avcı]
+ GetGreatestHunterOathText: "Greatest Hunter"
+### TODO AGOT-CHANGED: GetMendTheFractureOathText [AGOT: Mend the Fracture | TR: Çatlağı Onarma]
+ GetMendTheFractureOathText: "Mend the Fracture"
+### TODO AGOT-CHANGED: GetRepentOathText [AGOT: Repent | TR: Tövbe Etme]
+ GetRepentOathText: "Repent"
+### TODO AGOT-CHANGED: GetNoOathText [AGOT: No Oath | TR: Yemin Yok]
+ GetNoOathText: "No Oath"
+### TODO AGOT-CHANGED: oath_of_reconquest [AGOT: Consolidated the Realm | TR: Topraklar Geri Kazanıldı]
+ oath_of_reconquest: "Consolidated the Realm"
+### TODO AGOT-CHANGED: oath_of_reconquest_county [AGOT: Upheld Oath | TR: Yemin Yerine Getirildi]
+ oath_of_reconquest_county: "Upheld Oath"
+### TODO AGOT-CHANGED: oath_of_conquest [AGOT: Expanded the Realm | TR: Ülke Genişletildi]
+ oath_of_conquest: "Expanded the Realm"
+ oath_of_conquest_county: "$oath_of_reconquest_county$"
+### TODO AGOT-CHANGED: oath_of_peace [AGOT: Ensured Peace | TR: Barış Sağlandı]
+ oath_of_peace: "Ensured Peace"
+### TODO AGOT-CHANGED: oath_of_purge_pretenders [AGOT: Pretenders Purged | TR: Taht İddiacıları Ortadan Kaldırıldı]
+ oath_of_purge_pretenders: "Pretenders Purged"
+### TODO AGOT-CHANGED: oath_of_purge_pretenders_house [AGOT: Pretenders Purged: Coronation Oath | TR: Taht İddiacıları Ortadan Kaldırıldı: Taç Giyme Yemini]
+ oath_of_purge_pretenders_house: "Pretenders Purged: Coronation Oath"
+### TODO AGOT-CHANGED: oath_of_purge_pretenders_house_desc [AGOT: Members of this [house|E] have #P +50#! [candidate_score|E]. This [modifier|E] is removed upon [house_head|E] death | TR: Bu [Concept('house', 'Hanenin')|E] üyeleri #P +50#! [Concept('candidate_score', 'Adaylık Skoru')|E] kazanır. Bu [Concept('modifier', 'Etki')|E], [Concept('house_head', 'Hane Reisi')|E] öldüğünde kaldırılır]
+ oath_of_purge_pretenders_house_desc: "Members of this [house|E] have #P +50#! [candidate_score|E]. This [modifier|E] is removed upon [house_head|E] death"
+### TODO AGOT-CHANGED: oath_of_end_the_struggle [AGOT: Ended the Struggle | TR: Mücadele Bitirildi]
+ oath_of_end_the_struggle: "Ended the Struggle"
+### TODO AGOT-CHANGED: oath_greatest_hunter [AGOT: Greatest Hunter | TR: En Büyük Avcı]
+ oath_greatest_hunter: "Greatest Hunter"
+### TODO AGOT-CHANGED: oath_greatest_hunter_desc [AGOT: #V Hunt#! [prestige|E] rewards: #P +10%#! | TR: #V Av#! [Concept('prestige', 'Prestij')|E] ödülleri: #P +10%#!]
+ oath_greatest_hunter_desc: "#V Hunt#! [prestige|E] rewards: #P +10%#!"
+### TODO AGOT-CHANGED: oath_mend_the_fracture [AGOT: Mended the Fracture | TR: Çatlak Onarıldı]
+ oath_mend_the_fracture: "Mended the Fracture"
+### TODO AGOT-CHANGED: oath_mend_the_fracture_county [AGOT: A Fracture Mended by the Oathsworn Sovereign | TR: Yeminli Hükümdar Tarafından Onarılan Çatlak]
+ oath_mend_the_fracture_county: "A Fracture Mended by the Oathsworn Sovereign"
+### TODO AGOT-CHANGED: oath_repent [AGOT: Repentance | TR: Tövbe]
+ oath_repent: "Repentance"
+### TODO AGOT-CHANGED: prowess_oath_reason [AGOT: This is a [prowess|E] [oath|E] | TR: Bu bir [Concept('prowess', 'Dövüş')|E] [Concept('oath', 'Yeminidir')|E]]
+ prowess_oath_reason: "This is a [prowess|E] [oath|E]"
+### TODO AGOT-CHANGED: purge_pretenders_oath_nomad [AGOT: Your [kurultai|E] and [children|E] [obedience|E] score: #P +100#! | TR: [kurultai|E] ve [children|E] için [obedience|E] puanı: #P +100#!]
+ purge_pretenders_oath_nomad: "Your [kurultai|E] and [children|E] [obedience|E] score: #P +100#!"
+### TODO AGOT-CHANGED: purge_pretenders_oath_default [AGOT: You get [GetLaw('single_heir_succession_law').GetName]. The [law|E] will reset to your current one upon death. | TR: [GetLaw('single_heir_succession_law').GetName] yasası elde edilir. Öldüğünüzde [law|E] mevcut yasaya geri döner.]
+ purge_pretenders_oath_default: "You get [GetLaw('single_heir_succession_law').GetName]. The [law|E] will reset to your current one upon death."
+### TODO AGOT-CHANGED: CORONATION_ACTIVITY_UNLOCK [AGOT: Unlocked by the [coronation|E] [activity|E] | TR: [coronation|E] [Concept('activity', 'Etkinliği')|E] ile açılır]
+ CORONATION_ACTIVITY_UNLOCK: "Unlocked by the [coronation|E] [activity|E]"
+### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_CHILDREN_OATH_SCALE [AGOT: \t#weak Increased per [legitimate|E] [child|E]#! | TR: \t#weak Her [legitimate|E] [child|E] başına artar#!]
+ MODIFIER_DEFINITION_VALUE_CHILDREN_OATH_SCALE: " \t#weak Increased per [legitimate|E] [child|E]#!"
+### TODO AGOT-CHANGED: oath_reconquest_custom_de_jure_county [AGOT: Every [de_jure|E] [county|E] of [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTier] | TR: [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTier] unvanındaki her [de_jure|E] [county|E]]
+ oath_reconquest_custom_de_jure_county: "Every [de_jure|E] [county|E] of [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTier]"
+### TODO AGOT-CHANGED: custom_every_realm_county [AGOT: Every [realm|E] [county|E] | TR: [Concept('realm', 'Ülkedeki')|E] her [county|E]]
+ custom_every_realm_county: "Every [realm|E] [county|E]"
+### TODO AGOT-CHANGED: days_at_peace_text [AGOT: More than #V 5 Years#! of peace | TR: #V 5 yıldan fazla#! barış]
+ days_at_peace_text: "More than #V 5 Years#! of peace"
+### TODO AGOT-CHANGED: days_at_peace_text_alt [AGOT: $days_at_peace_text$ #weak (Remaining #V [SCOPE.ScriptValue('peace_oath_value')]#! Days)#! | TR: $days_at_peace_text$ #weak (Kalan #V [SCOPE.ScriptValue('peace_oath_value')]#! Gün)#!]
+ days_at_peace_text_alt: "$days_at_peace_text$ #weak (Remaining #V [SCOPE.ScriptValue('peace_oath_value')]#! Days)#!"
+### TODO AGOT-CHANGED: ach_spawned_crown_name [AGOT: Crown of [crown_title.GetDefinitiveNameNoTooltip] | TR: [crown_title.GetDefinitiveNameNoTooltip] Tacı]
+ach_spawned_crown_name: "Crown of [crown_title.GetDefinitiveNameNoTooltip]"
+### TODO AGOT-CHANGED: ach_spawned_crown_desc [AGOT: [SCOPE.Custom('ArtifactArticleWealth')] crown of [SCOPE.Custom('ArtifactQuality')] craftsmanship. The crown is forged from [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]. [title_founder.GetTitledFirstName] was the first to wear it as a symbol of [title_founder.GetHerHis] [title_founder.Custom('trait_greedy_adjective')] rule. Every [title_founder.GetTitleAsNameNoTooltip] of [crown_title.GetNameNoTier] has worn it since. | TR: [SCOPE.Custom('ArtifactQuality')|U] kalitede [SCOPE.Custom('ArtifactArticleWealth')] bir taç. Taç, [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] ile dövülmüş. [title_founder.GetTitledFirstName], bunu [title_founder.Custom('trait_greedy_adjective')] hükümdarlığının bir simgesi olarak ilk takan kişiydi. O zamandan beri [crown_title.GetNameNoTier] tahtına çıkan her [title_founder.GetTitleAsNameNoTooltip] onu taktı.]
+ach_spawned_crown_desc: "[SCOPE.Custom('ArtifactArticleWealth')] crown of [SCOPE.Custom('ArtifactQuality')] craftsmanship. The crown is forged from [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]. [title_founder.GetTitledFirstName] was the first to wear it as a symbol of [title_founder.GetHerHis] [title_founder.Custom('trait_greedy_adjective')] rule. Every [title_founder.GetTitleAsNameNoTooltip] of [crown_title.GetNameNoTier] has worn it since."
+### TODO AGOT-CHANGED: TRADE_LAND_FOR_BETTER_AI_ACCEPTANCE [AGOT: Return [title_i][de_jure|E] [land|E] | TR: [title_i][de_jure|E] [land|E] iade et]
+TRADE_LAND_FOR_BETTER_AI_ACCEPTANCE: "Return [title_i][de_jure|E] [land|E]"
+### TODO AGOT-CHANGED: TRADE_LAND_ACCEPTANCE_SEND_OPTION [AGOT: Returning [de_jure] [land|E]: $VALUE|=+0$ | TR: [de_jure] [land|E] iade ediliyor: $VALUE|=+0$]
+TRADE_LAND_ACCEPTANCE_SEND_OPTION: "Returning [de_jure] [land|E]: $VALUE|=+0$"
+### TODO AGOT-CHANGED: CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION [AGOT: With utmost reverence, I seek your blessing and support for my rightful and auspicious ascension to the throne. | TR: En derin saygılarımla, haklı ve uğurlu tahta çıkışım için kutsamanızı ve desteğinizi talep ediyorum.]
+CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION: "With utmost reverence, I seek your blessing and support for my rightful and auspicious ascension to the throne."

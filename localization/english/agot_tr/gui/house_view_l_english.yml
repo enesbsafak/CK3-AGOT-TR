@@ -1,0 +1,175 @@
+﻿l_english:
+ HOUSE_VIEW_FOUNDED:0 "MS [DynastyHouse.GetFoundYear] yılında [DynastyHouse.GetFounder.GetName] tarafından kurulmuş"
+ DYNASTY_VIEW_CONCEPT:3 "[DynastyHouse.GetDynasty.GetBaseNameNoTooltip] [Concept( 'dynasty', 'Hanedanının' )|E] [Concept( 'house', 'Hanesi' )|E]"
+ HOUSE_VIEW_CONCEPT:3 "[SelectLocalization( DynastyHouse.IsPlayerMember, 'HOUSE_VIEW_PLAYER_IS_MEMBER', 'HOUSE_VIEW_NOT_YOUR_HOUSE')]"
+ HOUSE_VIEW_NOT_YOUR_HOUSE:0 "Soylu [house|E]"
+ HOUSE_VIEW_PART_OF:2 "Bir parçası:"
+ HOUSE_VIEW_PART_OF_DYNASTY:0 "[Dynasty.GetBaseNameNoTooltip] Hanedanı"
+ HOUSE_VIEW_DYNASTY_PRESTIGE:1 "Sonraki [dynasty_prestige_level|E]: #high [Dynasty.GetNextPrestigeLevelName] #!"
+ HOUSE_HEAD_HEIR:1 "Hane Reisi Vârisi: [Select_CString( Character.IsLocalPlayer, 'Siz', Character.GetUIName )]"
+ DYNASTY_VIEW_DYNASTY_PRESTIGE:1 "[dynasty_prestige|E]: [dynasty_prestige_i][Dynasty.GetPrestige|V0]"
+ DYNASTY_VIEW_DYNASTY_PRESTIGE_TOOLTIP:0 "#T İhtişam#!\n[dynast|E] tarafından çeşitli eylemleri gerçekletirmek için harcanabilir. İhtişam kazanmak zamanla [Concept( 'dynasty', 'Hanedanın' )|E] İhtişam Seviyesi'ni de arttırır." #krutygetarts
+ HOUSE_VIEW_HEAD_OF_THE_HOUSE:0 "[house_head|E]"
+ HOUSE_VIEW_HEIR_OF_THE_HOUSE:0 "Hane Vârisi"
+ HOUSE_VIEW_SHOW_DYNASTY_TT:0 "#T [Concept( 'dynasty_perks', 'Hanedan Miraslarını' )|E] Göster#!"
+ HOUSE_VIEW_NO_LEGACIES:0 "[Dynasty.GetBaseNameNoTooltip] Hanedanı herhangi bir miras açmadı"
+ HOUSE_VIEW_SHOW_LEGACIES:1 "Mirasları Göster"
+ HOUSE_VIEW_DOMICILE_NAME: "[Domicile.GetName|U]"
+### TODO AGOT-CHANGED: HOUSE_VIEW_DOMICILE_LOCATION [AGOT: Location: [Domicile.GetLocation.GetBaronyNameExplicitly] | TR: Konum: [Domicile.GetLocation.GetBaronyNameExplicitly]]
+ HOUSE_VIEW_DOMICILE_LOCATION: "Location: [Domicile.GetLocation.GetBaronyNameExplicitly]"
+ DYNASTY_VIEW_TITLE:0 "[Dynasty.GetBaseNameNoTooltip] Hanedanı"
+ DYNASTY_VIEW_DYNAST:0 "[dynast|E]"
+ DYNASTY_VIEW_DYNAST_AND_HOUSE_HEAD:0 "[dynast|E] ve [house_head|E]"
+ HOUSE_VIEW_DYNASTY_PRESTIGE_INCOME:0 "[Dynasty.GetPrestigeIncome|0=+]/aylık"
+ HOUSE_VIEW_DYNASTY_PRESTIGE_INCOME_TT_ALIVE_CAPPED:1 "$NUM|V$ yaşayan mensup #weak (100'den sonrası etki etmez)#!"
+ HOUSE_VIEW_DYNASTY_PRESTIGE_INCOME_TT_ALIVE:2 "$NUM|V$ hayatta olan mensup"
+ HOUSE_VIEW_DYNASTY_PRESTIGE_INCOME_TT_TIER:0 "$NUM|V$ $TIER|U$"
+ HOUSE_VIEW_DYNASTY_PRESTIGE_INCOME_TT_TIER_SPOUSE:0 "$NUM|V$ $TIER|U$ ile [marriage|E]"
+ DYNASTY_PRESTIGE_BALANCE_TOOLTIP:1 "#T [dynasty_prestige_i][dynasty_prestige]#!\n[Dynasty.GetPrestigeBreakdown|0=+]\n[Dynasty.GetPrestigeProgress]"
+ DYNASTY_PRESTIGE_PROGRESS:0 "[DYNASTY.GetNextPrestigeLevelName] için ilerleme: $CURRENT|0$/$NEXT|0$"
+ DYNASTY_PRESTIGE_AT_MAX_LEVEL:0 "[DYNASTY.GetBaseName] son İhtişam Seviyesi'nde"
+ HOUSE_VIEW_NAME_WITH_HOUSE:1 "[DynastyHouse.GetBaseNameNoTooltip] Hanesi"
+ HOUSE_TT_NAME:0 "[DynastyHouse.GetBaseNameNoTooltip] Hanesi"
+ HOUSE_VIEW_MOTTO:1 ""[DynastyHouse.GetMotto]""
+ HOUSE_VIEW_PLAYER_IS_MEMBER:1 "[house|E]niz"
+### TODO AGOT-CHANGED: HOUSE_VIEW_NON_PLAYER_MEMBER [AGOT: House of [Character.GetShortUIName|U] | TR: [Character.GetShortUIName|U] adlı Karakterin Hanesi]
+ HOUSE_VIEW_NON_PLAYER_MEMBER: "House of [Character.GetShortUIName|U]"
+ DYNASTY_HOUSE_TT_HEAD_OF_HOUSE:1 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetShortUIName|U]"
+ DYNASTY_HOUSE_TT_DYNASTY:0 "[dynasty|E]: [DynastyHouse.GetDynasty.GetBaseName]"
+ DYNASTY_HOUSE_TT_DYNASTY_LEVEL:0 "[dynasty_prestige_level|E]: [DynastyHouse.GetDynasty.GetPrestigeLevelName]"
+ DYNASTY_HOUSE_TT_LIVING_MEMBERS:1 "Hayattaki mensupları: [DynastyHouse.GetNumberOfMembers|V]"
+ DYNASTY_HOUSE_TT_HOUSE_RELATION: "[house_relation|E]: [DynastyHouse.GetHouseRelationWith( GetPlayer.GetHouse ).GetLevel.GetName]"
+ HOUSE_VIEW_FOUNDING_HOUSE:0 "Kurucu hane"
+ HOUSE_HEAD_PRESTIGE_GAIN_CAP:0 "Prestij kazanımı limiti"
+ DYNASTY_PRESTIGE_LEVEL_EFFECT:1 "• Çocuklar [prestige_i]$BIRTH|V0$ ile doğar\n• Bu hanedandan biriyle evlenmek [prestige_i]$MARRIAGE|0+=$ verir\n• Hükümdarlar maksimum $LONG_REIGN|V0=$ [long_reign|E] görüşüne sahip olurlar"
+ DYNASTY_PRESTIGE_NEXT_LEVEL:0 "\n\nDaha sonraki seviye: $NEXT$"
+ dynasty_level_0_c:1 "@dynasty_prestige_icon_0! [dynasty_prestige_level_0|L]"
+ dynasty_level_1_c:1 "@dynasty_prestige_icon_0! [dynasty_prestige_level_1|L]"
+ dynasty_level_2_c:1 "@dynasty_prestige_icon! [dynasty_prestige_level_2|L]"
+ dynasty_level_3_c:1 "@dynasty_prestige_icon! [dynasty_prestige_level_3|L]"
+ dynasty_level_4_c:1 "@dynasty_prestige_icon_2! [dynasty_prestige_level_4|L]"
+ dynasty_level_5_c:1 "@dynasty_prestige_icon_2! [dynasty_prestige_level_5|L]"
+ dynasty_level_6_c:1 "@dynasty_prestige_icon_3! [dynasty_prestige_level_6|L]"
+ dynasty_level_7_c:1 "@dynasty_prestige_icon_3! [dynasty_prestige_level_7|L]"
+ dynasty_level_8_c:1 "@dynasty_prestige_icon_4! [dynasty_prestige_level_8|L]"
+ dynasty_level_9_c:1 "@dynasty_prestige_icon_4! [dynasty_prestige_level_9|L]"
+ dynasty_level_10_c:1 "@dynasty_prestige_icon_5! [dynasty_prestige_level_10|L]"
+ dynasty_level_11_c:0 "#weak Son Seviyeye Ulaşıldı#!"
+ CUSTOMIZE_HOUSE_HEADER:0 "[DynastyHouse.GetBaseNameNoTooltip] Hanesini Özelleştir"
+ HOUSE_NAME_FIELD:0 "Ad"
+ HOUSE_MOTTO_FIELD:0 "Söz"
+ CUSTOMIZE_HOUSE:0 "#T Haneyi Özelleştir#!"
+ CUSTOMIZE_HOUSE_PLAYER_NOT_ALLOWED:0 "@warning_icon! #X [DYNASTY_HOUSE.GetBaseNameNoTooltip] Hanesini özelleştiremezsiniz#!"
+ HOUSE_MEMBERS_TITLE:0 "$NAME$ [house|E]sinin Mensupları"
+ DYNASTY_MEMBERS_TITLE:0 "$NAME$ [Concept( 'dynasty', 'Hanedanının' )|E] Mensupları"
+ HOUSE_SORT_FOUNDATION_DATE:0 "Kurulma Tarihi"
+ HOUSE_SORT_MEMBERS_COUNT:0 "Hayattaki Mensupları"
+ HOUSE_SORT_HEAD_POWER:0 "Hane Reisinin Askerî Gücü"
+ HOUSE_LIST_FOUNDING:0 "Kurucu Hane"
+ HOUSE_LIST_CADET:0 "[cadet_branch|E]"
+ HOUSE_LIST_MEMBERS:0 "Hayattaki Mensupları: [DynastyHouse.GetNumberOfMembers]"
+ HOUSE_LIST_FOUNDATION:0 "MS [DynastyHouse.GetFoundYear] yılında kuruldu"
+ HOUSE_LIST_HEAD:0 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetName]"
+ HOUSE_MODIFIERS:1 "Hane Etkileri:"
+ DYNASTY_MODIFIERS:1 "Hanedan Etkileri:"
+### TODO AGOT-CHANGED: HOUSE_UNITY_MODIFIERS [AGOT: Modifiers: | TR: Etkiler:]
+ HOUSE_UNITY_MODIFIERS: "Modifiers:"
+### TODO AGOT-CHANGED: HOUSE_UNITY_ACTIONS_INSTRUCTIONS [AGOT: Take [house_unity_unifying_actions|E] and [house_unity_devisive_actions|E] to affect [house_unity|E] | TR: [Concept( 'house_unity', 'Hane Birliğinizi' )|E] etkilemek için [Concept( 'house_unity_unifying_actions', 'Birleştirici' )|E] ve [Concept( 'house_unity_devisive_actions', 'Ayrıştırıcı' )|E] eylemlerde bulunun]
+ HOUSE_UNITY_ACTIONS_INSTRUCTIONS: "Take [house_unity_unifying_actions|E] and [house_unity_devisive_actions|E] to affect [house_unity|E]"
+ HOUSE_VIEW_LEGACY_TOOLTIP_HEADER:0 "#T $NAME$#!"
+ HOUSE_VIEW_LEGACY_TOOLTIP_ITEM:0 "#T $PERK$#!\n$EFFECT$\n\n"
+ HOUSE_VIEW_HOUSE_HEAD_OF:1 "[Character.GetDynastyHouseNameNoTooltip] Hanesinin [Concept( 'house_head', 'Reisi' )|E]:"
+ HOUSE_VIEW_MAX_MILITARY_STRENGTH:2 "Maksimum Askerî Gücü: @soldier_icon! #high [Character.GetMaxMilitaryStrengthWithoutHires|0]#!"
+ HOUSE_LIST_HEAD_MAX_MILITARY_STRENGTH:1 "@soldier_icon! [DynastyHouse.GetHeadOfHouse.GetMaxMilitaryStrengthWithoutHires|0]"
+ HOUSE_LIST_MILITARY_STRENGTH_TT:0 "[Concept( 'house_head', 'Hane reisinin' )|E] Maksimum Askerî Gücü"
+ HOUSE_UNITY_VALUE: "[DynastyHouse.GetHouseUnityValue|V]"
+ DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS: "[SelectLocalization(ObjectsEqual( DynastyHouse.Self, Confederation.GetLeadingHouse.Self ), 'DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS_LEADER', 'DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS_MEMBER')] "
+### TODO AGOT-CHANGED: DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS_LEADER [AGOT: [Confederation.GetName] Leader | TR: [Confederation.GetName] Lideri]
+ DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS_LEADER: "[Confederation.GetName] Leader"
+ DYNASTY_HOUSE_BLOC_MEMBERSHIP_STATUS_MEMBER: "[Confederation.GetName]"
+### TODO AGOT-CHANGED: HOUSE_DYNASTY_TAB_BUTTON [AGOT: Dynasty | TR: Hanedan]
+ HOUSE_DYNASTY_TAB_BUTTON: "Dynasty"
+### TODO AGOT-CHANGED: HOUSE_RELATIONS_TAB_BUTTON [AGOT: House Relations | TR: Hane İlişkileri]
+ HOUSE_RELATIONS_TAB_BUTTON: "House Relations"
+### TODO AGOT-CHANGED: HOUSE_UNITY_TAB_BUTTON [AGOT: House Unity | TR: Hane Birliği]
+ HOUSE_UNITY_TAB_BUTTON: "House Unity"
+### TODO AGOT-CHANGED: HOUSE_RELATION_ITEM_NAME [AGOT: [HouseRelation.GetLevel.GetName|V] with [DynastyHouse.GetName|V] | TR: [DynastyHouse.GetName|V] Hanesiyle [HouseRelation.GetLevel.GetName|V]]
+ HOUSE_RELATION_ITEM_NAME: "[HouseRelation.GetLevel.GetName|V] with [DynastyHouse.GetName|V]"
+### TODO AGOT-CHANGED: HOUSE_RELATION_ITEM_HISTORY [AGOT: History of [HouseRelation.GetName] | TR: [HouseRelation.GetName] Tarihi]
+ HOUSE_RELATION_ITEM_HISTORY: "History of [HouseRelation.GetName]"
+ HOUSE_RELATION_ITEM_LATEST_CHANGE:  "[HouseRelation.GetLatestChangeDescription] – [HouseRelation.GetLatestChangeDate.GetString]"
+ HOUSE_RELATION_ITEM_HISTORY_SIZE:  "([GetDataModelSize( HouseRelation.GetHistory )])"
+### TODO AGOT-CHANGED: HOUSE_RELATION_ITEM_SHOW_HISTORY_BUTTON_TOOLTIP [AGOT: #T Show Relation History#! | TR: #T İlişki Geçmişini Göster#!]
+ HOUSE_RELATION_ITEM_SHOW_HISTORY_BUTTON_TOOLTIP: "#T Show Relation History#!"
+### TODO AGOT-CHANGED: HOUSE_UNITY_LABEL [AGOT: House Unity | TR: Hane Birliği]
+ HOUSE_UNITY_LABEL: "House Unity"
+### TODO AGOT-CHANGED: HOUSE_VIEW_MEMBERS_TT [AGOT: #T View all members of the House [DynastyHouse.GetBaseNameNoTooltip] House#! | TR: #T [DynastyHouse.GetBaseNameNoTooltip] Hanesinin tüm mensuplarını görüntülemek için tıklayın#!]
+ HOUSE_VIEW_MEMBERS_TT: "#T View all members of the House [DynastyHouse.GetBaseNameNoTooltip] House#!"
+### TODO AGOT-CHANGED: HOUSE_VIEW_MEMBERS [AGOT: [DynastyHouse.GetNumberOfMembers|V] Living Members | TR: [DynastyHouse.GetNumberOfMembers|V] Yaşayan Mensup]
+ HOUSE_VIEW_MEMBERS: "[DynastyHouse.GetNumberOfMembers|V] Living Members"
+ HOUSE_UNITY_STAGE_TOOLTIP: "[GUIHouseUnityStage.GetModifierDesc]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_EFFECTS_TITLE [AGOT: Effects from [house_unity|E] | TR: [house_unity|E] Etkileri]
+ HOUSE_UNITY_EFFECTS_TITLE: "Effects from [house_unity|E]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_EFFECTS_NOT_APPLIED_TO_YOU [AGOT: @alert_icon! Not applied to you since you are not in a [clan|E] government | TR: @alert_icon! [clan|E] yönetiminde olmadığınız için size etki etmiyor]
+ HOUSE_UNITY_EFFECTS_NOT_APPLIED_TO_YOU: "@alert_icon! Not applied to you since you are not in a [clan|E] government"
+### TODO AGOT-CHANGED: HOUSE_UNITY_DECISIONS_TITLE [AGOT: [house_unity|E] Decisions | TR: [house_unity|E] Kararları]
+ HOUSE_UNITY_DECISIONS_TITLE: "[house_unity|E] Decisions"
+### TODO AGOT-CHANGED: HOUSE_UNITY_RECENT_CHANGES_LABEL [AGOT: Recent Unity Changes | TR: Birlik Değişimleri]
+ HOUSE_UNITY_RECENT_CHANGES_LABEL: "Recent Unity Changes"
+### TODO AGOT-CHANGED: HOUSE_UNITY_NO_RECENT_CHANGE_LABEL [AGOT: #weak There have not been any recent changes#! | TR: #weak Yakın zamanda herhangi bir değişim yaşanmadı#!]
+ HOUSE_UNITY_NO_RECENT_CHANGE_LABEL: "#weak There have not been any recent changes#!"
+### TODO AGOT-CHANGED: HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHARACTER [AGOT: #low [HouseUnityChangelogEntry.GetDate.GetString]:#! [HouseUnityChangelogEntry.GetCharacter.GetName] | TR: #low [HouseUnityChangelogEntry.GetDate.GetString]:#! [HouseUnityChangelogEntry.GetCharacter.GetName]]
+ HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHARACTER: "#low [HouseUnityChangelogEntry.GetDate.GetString]:#! [HouseUnityChangelogEntry.GetCharacter.GetName]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHANGE_STAGE [AGOT: #low [HouseUnityChangelogEntry.GetDate.GetString]:#! House Unity changed to [HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetName] | TR: #low [HouseUnityChangelogEntry.GetDate.GetString]:#! Hane Birliği [HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetName] olarak değişti]
+ HOUSE_UNITY_STAGE_CHANGE_VALUE_TRIGGER_CHANGE_STAGE: "#low [HouseUnityChangelogEntry.GetDate.GetString]:#! House Unity changed to [HouseUnityChangelogEntry.GetNextHouseUnityStageType.GetName]"
+ HOUSE_UNITY_VALUE_TT_TITLE: "[house_unity|E]:"
+### TODO AGOT-CHANGED: HOUSE_UNITY_AFFECT_UNITY_CURRENT_LEVEL [AGOT: This is your current [house_unity_level|E] | TR: Bu mevcut [Concept( 'house_unity_level', 'Hane Birlik Seviyeniz' )|E]]
+ HOUSE_UNITY_AFFECT_UNITY_CURRENT_LEVEL: "This is your current [house_unity_level|E]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_AFFECT_UNITY_INCREASE_LEVEL [AGOT: To reach this level, take [house_unity_unifying_actions|E] towards members of your [house|E] to increase [house_unity|E] | TR: Bu seviyeye ulaşmak için, [house|E] mensuplarınıza yönelik [house_unity_unifying_actions|E] alarak [Concept( 'house_unity_level', 'Hane Birlik Seviyenizi' )|E] yükseltin]
+ HOUSE_UNITY_AFFECT_UNITY_INCREASE_LEVEL: "To reach this level, take [house_unity_unifying_actions|E] towards members of your [house|E] to increase [house_unity|E]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_AFFECT_UNITY_DECREASE_LEVEL [AGOT: To reach this level, take [house_unity_devisive_actions|E] towards members of your [house|E] to decrease [house_unity|E] | TR: Bu seviyeye ulaşmak için, [house|E] mensuplarınıza yönelik [house_unity_devisive_actions|E] alarak [Concept( 'house_unity_level', 'Hane Birlik Seviyenizi' )|E] düşürün]
+ HOUSE_UNITY_AFFECT_UNITY_DECREASE_LEVEL: "To reach this level, take [house_unity_devisive_actions|E] towards members of your [house|E] to decrease [house_unity|E]"
+### TODO AGOT-CHANGED: HOUSE_UNITY_AFFECT_UNITY_CHANGE_GOVERNMENT [AGOT: To reach this level, you need to change your government | TR: Bu seviyeye ulaşmak için yönetim biçiminizi değiştirmeniz gerekir]
+ HOUSE_UNITY_AFFECT_UNITY_CHANGE_GOVERNMENT: "To reach this level, you need to change your government"
+### TODO AGOT-CHANGED: HOUSE_VIEW_POWERLESS_FAMILY [AGOT: #X @warning_icon! Not considered a [powerful_family|E]#! | TR: #X @warning_icon! [powerful_family|E] olarak sayılmıyor#!]
+ HOUSE_VIEW_POWERLESS_FAMILY: "#X @warning_icon! Not considered a [powerful_family|E]#!"
+ HOUSE_VIEW_POWER_BONUS: "[SelectLocalization( HouseAspiration.IsValid, HouseAspiration.GetName )]"
+### TODO AGOT-CHANGED: HOUSE_VIEW_HOUSE_POWER_LEVEL_TT [AGOT: #T [HouseAspiration.GetName]#!\n[HouseAspiration.GetLevelName( PdxGuiWidget.GetIndexInDataModel )]\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, PdxGuiWidget.GetIndexInDataModel )] | TR: #T [HouseAspiration.GetName]#!\n[HouseAspiration.GetLevelName( PdxGuiWidget.GetIndexInDataModel )]\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, PdxGuiWidget.GetIndexInDataModel )]]
+ HOUSE_VIEW_HOUSE_POWER_LEVEL_TT: "#T [HouseAspiration.GetName]#!\n[HouseAspiration.GetLevelName( PdxGuiWidget.GetIndexInDataModel )]\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, PdxGuiWidget.GetIndexInDataModel )]"
+### TODO AGOT-CHANGED: HOUSE_VIEW_POWERFUL_FAMILY_LIEGE [AGOT: #bold [top_liege|E] (if [DynastyHouse.GetName] is [powerful|e])#! | TR: #bold [top_liege|E] (eğer [DynastyHouse.GetName] [Concept('powerful', 'Önemliyse')|e])#!]
+ HOUSE_VIEW_POWERFUL_FAMILY_LIEGE: "#bold [top_liege|E] (if [DynastyHouse.GetName] is [powerful|e])#!"
+### TODO AGOT-CHANGED: HOUSE_VIEW_POWERFUL_FAMILY_MEMBER [AGOT: #bold All [house|e] Members (if [DynastyHouse.GetName] is [powerful|e])#! | TR: #bold Tüm [house|e] Üyeleri (eğer [DynastyHouse.GetName] [Concept('powerful', 'Önemliyse')|e])#!]
+ HOUSE_VIEW_POWERFUL_FAMILY_MEMBER: "#bold All [house|e] Members (if [DynastyHouse.GetName] is [powerful|e])#!"
+ HOUSE_VIEW_POWER_LEVEL_PARAMETERS: "" #intentionally empty for now
+### TODO AGOT-CHANGED: HOUSE_VIEW_ANY_HOUSE_MEMBER [AGOT: #bold All [house|e] Members#! | TR: #bold Tüm [house|E] Üyeleri#!]
+ HOUSE_VIEW_ANY_HOUSE_MEMBER: "#bold All [house|e] Members#!"
+### TODO AGOT-CHANGED: HOUSE_VIEW_HOUSE_HEAD [AGOT: #bold [house_head|E]#! | TR: #bold [house_head|E]#!]
+ HOUSE_VIEW_HOUSE_HEAD: "#bold [house_head|E]#!"
+### TODO AGOT-CHANGED: HOUSE_VIEW_CHANGE_HOUSE_POWER [AGOT: #T Change your [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'game_concept_house_possessive' )] [DynastyHouse.GetHouseAspirationFlavorName]#! | TR: #T [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'game_concept_house' )] [DynastyHouse.GetHouseAspirationFlavorName] Değiştir#!]
+ HOUSE_VIEW_CHANGE_HOUSE_POWER: "#T Change your [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'game_concept_house_possessive' )] [DynastyHouse.GetHouseAspirationFlavorName]#!"
+### TODO AGOT-CHANGED: HOUSE_VIEW_CHANGE_HOUSE_POWER_DISABLED [AGOT: $HOUSE_VIEW_CHANGE_HOUSE_POWER$\n@warning_icon! #X You are not the [house_head|E] of House [DynastyHouse.GetBaseNameNoTooltip]#! | TR: $HOUSE_VIEW_CHANGE_HOUSE_POWER$\n@warning_icon! #X [DynastyHouse.GetBaseNameNoTooltip] Hanesinin [house_head|E] değilsiniz#!]
+ HOUSE_VIEW_CHANGE_HOUSE_POWER_DISABLED: "$HOUSE_VIEW_CHANGE_HOUSE_POWER$\n@warning_icon! #X You are not the [house_head|E] of House [DynastyHouse.GetBaseNameNoTooltip]#!"
+### TODO AGOT-CHANGED: INFLUENCE_ALLIED_TO_TOP_LIEGE [AGOT: [allied|E] with [top_liege|E] | TR: [top_liege|E] ile [allied|E]]
+ INFLUENCE_ALLIED_TO_TOP_LIEGE: "[allied|E] with [top_liege|E]"
+### TODO AGOT-CHANGED: INFLUENCE_ALLIED_TO_HOUSE_HEAD [AGOT: [allied|E] with [house_head|E]: [CHARACTER.GetTitledFirstName] | TR: [house_head|E] ile [allied|E]: [CHARACTER.GetTitledFirstName]]
+ INFLUENCE_ALLIED_TO_HOUSE_HEAD: "[allied|E] with [house_head|E]: [CHARACTER.GetTitledFirstName]"
+### TODO AGOT-CHANGED: INFLUENCE_BEING_GOVERNOR [AGOT: You are a [governor|E] | TR: Siz bir [Concept( 'governor', 'Valisiniz' )|E]]
+ INFLUENCE_BEING_GOVERNOR: "You are a [governor|E]"
+### TODO AGOT-CHANGED: INFLUENCE_HAVING_GOVERNOR_HOUSE_MEMBER [AGOT: [landed|E] [house|E] Members #weak (positive [opinion|E])#! | TR: [landed|E] [house|E] Üyeleri #weak (pozitif [opinion|E] sahibi)#!]
+ INFLUENCE_HAVING_GOVERNOR_HOUSE_MEMBER: "[landed|E] [house|E] Members #weak (positive [opinion|E])#!"
+ INFLUENCE_HAVING_GOVERNOR_HOUSE_MEMBER_OPINION: "[Character.GetName]"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP [AGOT: #T $ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING$#!\n[powerful_family_rating|E]: [DynastyHouse.GetHousePower|V0] | TR: #T $ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING$#!\n[powerful_family_rating|E]: [DynastyHouse.GetHousePower|V0]]
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP: "#T $ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING$#!\n[powerful_family_rating|E]: [DynastyHouse.GetHousePower|V0]"
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING: "[SelectLocalization(DynastyHouse.GetHeadOfHouse.IsIndependentRuler,'ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_TOP_LIEGE',SelectLocalization(DynastyHouse.IsDominant, 'ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_DOMINANT', SelectLocalization(DynastyHouse.IsPowerful, 'ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_POWERFUL', 'ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_NOBLE')))]"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_TOP_LIEGE [AGOT: [DynastyHouse.GetBaseNameNoTooltip] is the [DynastyHouse.GetHeadOfHouse.Custom('GetImperialFamilyType')] | TR: [DynastyHouse.GetBaseNameNoTooltip] [DynastyHouse.GetHeadOfHouse.Custom('GetImperialFamilyType')]]
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_TOP_LIEGE: "[DynastyHouse.GetBaseNameNoTooltip] is the [DynastyHouse.GetHeadOfHouse.Custom('GetImperialFamilyType')]"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_DOMINANT [AGOT: [DynastyHouse.GetBaseNameNoTooltip] is a [dominant_family|E] | TR: [DynastyHouse.GetBaseNameNoTooltip] bir [dominant_family|E]]
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_DOMINANT: "[DynastyHouse.GetBaseNameNoTooltip] is a [dominant_family|E]"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_POWERFUL [AGOT: [DynastyHouse.GetBaseNameNoTooltip] is a [powerful_family|E] | TR: [DynastyHouse.GetBaseNameNoTooltip] bir [powerful_family|E]]
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_POWERFUL: "[DynastyHouse.GetBaseNameNoTooltip] is a [powerful_family|E]"
+### TODO AGOT-CHANGED: ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_NOBLE [AGOT: [DynastyHouse.GetBaseNameNoTooltip] is a [noble_family|E] | TR: [DynastyHouse.GetBaseNameNoTooltip] bir [noble_family|E]]
+ ADMINISTRATIVE_GOVERNMENT_HOUSE_POWERFULNESS_TOOLTIP_HEADING_NOBLE: "[DynastyHouse.GetBaseNameNoTooltip] is a [noble_family|E]"
+### TODO AGOT-CHANGED: HOUSE_RELATIONS_CURRENT_RELATION [AGOT: Current relation: | TR: Mevcut ilişki:]
+ HOUSE_RELATIONS_CURRENT_RELATION: "Current relation:"
+### TODO AGOT-CHANGED: HOUSE_VIEW_NO_RELATIONS [AGOT: House [DynastyHouse.GetBaseNameNoTooltip] has no [house_relations|E] with any other [house|E] | TR: [DynastyHouse.GetBaseNameNoTooltip] Hanesinin herhangi bir [house|E] ile [house_relations|E] yok]
+ HOUSE_VIEW_NO_RELATIONS: "House [DynastyHouse.GetBaseNameNoTooltip] has no [house_relations|E] with any other [house|E]"

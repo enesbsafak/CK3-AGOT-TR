@@ -1,0 +1,28 @@
+﻿l_english:
+### TODO AGOT-CHANGED: movement_debate_name [AGOT: $game_concept_movement_leader$ Debate | TR: $game_concept_movement_leader$ Münazarası]
+ movement_debate_name: "$game_concept_movement_leader$ Debate"
+ movement_debate_desc: "$movement_debate_tooltip$"
+### TODO AGOT-CHANGED: you_are_a_movement_leader_desc [AGOT: You are a [movement_leader|E] | TR: [Concept('movement_leader', 'Hareket Liderisiniz')|E]]
+ you_are_a_movement_leader_desc: "You are a [movement_leader|E]"
+ you_are_a_movement_leader_desc_value: "$you_are_a_movement_leader_desc$: $ai_will_do_debug$"
+### TODO AGOT-CHANGED: arrange_debate_desc [AGOT: Arrange a political debate | TR: Siyasi bir münazara düzenle]
+ arrange_debate_desc: "Arrange a political debate"
+ favor_advancement_desc: "1"
+ favor_advancement_name: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetNameNoTooltip]"
+### TODO AGOT-CHANGED: SELECT_FAVOR_ERA [AGOT: Choose Era | TR: Devir Seç]
+ SELECT_FAVOR_ERA: "Choose Era"
+ favor_advancement_tt: "$favor_advancement_tooltip$"
+### TODO AGOT-CHANGED: favor_advancement_movement_power_tt [AGOT: [movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power_i]#P +200#! | TR: [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power|E] [movement_power_i]#P +200#!]
+ favor_advancement_movement_power_tt: "[movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power_i]#P +200#!"
+### TODO AGOT-CHANGED: favor_advancement_movement_power_chaos_tt [AGOT: If [GetTitleByKey('h_china').GetName] is restored, [movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] will be increased by [movement_power_i]#P 200#! | TR: [GetTitleByKey('h_china').GetName] yeniden kurulursa, [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power|E] [movement_power_i]#P 200#! artacak]
+ favor_advancement_movement_power_chaos_tt: "If [GetTitleByKey('h_china').GetName] is restored, [movement_power|E] of [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] will be increased by [movement_power_i]#P 200#!"
+### TODO AGOT-CHANGED: SELECT_FAVOR_MOVEMENT [AGOT: Choose Movement | TR: Hareket Seç]
+ SELECT_FAVOR_MOVEMENT: "Choose Movement"
+ favor_advancement_movement_desc: ""
+ favor_advancement_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]"
+ favor_pro_hegemon_movement_desc: ""
+ favor_pro_hegemon_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]"
+### TODO AGOT-CHANGED: SELECT_CONSULT_HEAVEN [AGOT: Consult Heaven | TR: Göklerle İstişare Et]
+ SELECT_CONSULT_HEAVEN: "Consult Heaven"
+### TODO AGOT-CHANGED: can_consult_heaven_tt [AGOT: You have to be either the [movement_leader|E] of a [favored_movement|E], [son_of_heaven|E] or a [minister_grand_chancellor|E] | TR: Bir [Concept('favored_movement', 'Gözde Hareketin')|E] [Concept('movement_leader', 'Hareket Lideri')|E], [son_of_heaven|E] veya [minister_grand_chancellor|E] olmalısınız]
+ can_consult_heaven_tt: "You have to be either the [movement_leader|E] of a [favored_movement|E], [son_of_heaven|E] or a [minister_grand_chancellor|E]"

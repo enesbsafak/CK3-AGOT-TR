@@ -1,0 +1,139 @@
+﻿l_english:
+### TODO AGOT-CHANGED: MESSAGE_CLICK_TOOLTIP [AGOT: [SelectLocalization(FeedMessageItem.IsExpanded,'MESSAGE_CLICK_TO_HIDE','MESSAGE_CLICK_TO_SHOW')]\n$MESSAGE_CLICK_TO_DISMISS$ | TR: 1]
+ MESSAGE_CLICK_TOOLTIP: "[SelectLocalization(FeedMessageItem.IsExpanded,'MESSAGE_CLICK_TO_HIDE','MESSAGE_CLICK_TO_SHOW')]\n$MESSAGE_CLICK_TO_DISMISS$"
+### TODO AGOT-CHANGED: MESSAGE_CLICK_TO_HIDE [AGOT: #I Click to hide.#! | TR: 0]
+ MESSAGE_CLICK_TO_HIDE: "#I Click to hide.#!"
+### TODO AGOT-CHANGED: MESSAGE_CLICK_TO_SHOW [AGOT: #I Click to show.#! | TR: 0]
+ MESSAGE_CLICK_TO_SHOW: "#I Click to show.#!"
+### TODO AGOT-CHANGED: MESSAGE_CLICK_TO_DISMISS [AGOT: #I Right-click to dismiss.#! | TR: 0]
+ MESSAGE_CLICK_TO_DISMISS: "#I Right-click to dismiss.#!"
+### TODO AGOT-CHANGED: MESSAGES_IN_QUEUE [AGOT: [MessageFeedHandler.GetNumberOfQueuedMessages] more messages | TR: 0]
+ MESSAGES_IN_QUEUE: "[MessageFeedHandler.GetNumberOfQueuedMessages] more messages"
+### TODO AGOT-CHANGED: FEED_MESSAGE_GOTO_TOOLTIP [AGOT: #T Go to [PlayerMessageItem.GetGotoProvince.GetName].#! | TR: 0]
+ FEED_MESSAGE_GOTO_TOOLTIP: "#T Go to [PlayerMessageItem.GetGotoProvince.GetName].#!"
+### TODO AGOT-CHANGED: MESSAGE_CLEAR_ALL_TOOLTIP [AGOT: #I Click to dismiss. \nRight-click to dismiss all.#! | TR: 1]
+ MESSAGE_CLEAR_ALL_TOOLTIP: "#I Click to dismiss. \nRight-click to dismiss all.#!"
+ msg_realm_law_changed:0 "Ülke Yasası Değişti"
+ msg_realm_law_changed_desc:0 "[LEFT_CHARACTER.GetTitleTierName|V] olarak [Concept( 'realm', 'ülke' )|E] [Concept( 'laws', 'yasanız' )|E] artık $SUCCESSION_LAWS|V$"
+ msg_scheme_abandoned:0 "Plandan Vazgeçildi"
+ msg_scheme_abandoned_desc:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Sizin', CHARACTER.GetUINameNoTooltip)][Select_CString(CHARACTER.IsLocalPlayer,' üzerinizdeki',' üzerindeki')] $SCHEME_NAME|V$ planından vazgeçildi"
+ msg_agent_removed_my_scheme:0 "Yardakçı Plandan Çıktı"
+ msg_agent_removed_my_scheme_desc:1 "[LEFT_CHARACTER.GetUINameNoTooltip] artık [SCHEME.GetFullActionName] [Concept( 'scheme', 'planınızda' )|E] yardakçı değil"
+ msg_2_agents_removed_my_scheme:0 "Yardakçılar Plandan Çıktı"
+ msg_2_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] ve [RIGHT_CHARACTER.GetUINameNoTooltip] artık [SCHEME.GetFullActionName] [Concept( 'scheme', 'planınızda' )|E] yardakçı değil"
+### TODO AGOT-CHANGED: msg_scheme_pulse_effect [AGOT: Pulse Effect | TR: Nabız Etkisi]
+ msg_scheme_pulse_effect: "Pulse Effect"
+ msg_scheme_pulse_effect_desc: "$EFFECT$"
+ msg_scheme_froze_desc:0 "[SCHEME.GetFullActionName] [Concept( 'scheme', 'planınız' )|E] donduruldu. Çünkü $REASON$"
+ msg_war_ally_replaced:1 "Müttefik Savaşa Katıldı: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
+ msg_war_ally_replaced_desc:1 "[WAR.GetName|V] [Concept( 'war', 'savaşında' )|E] [LEFT_CHARACTER.GetUINameNoTooltip], [RIGHT_CHARACTER.GetUINameNoTooltip] adlı kişinin yerine geçti"
+ msg_war_enemy_replaced:1 "Düşman Müttefiki Savaşa Katıldı: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
+ msg_war_enemy_replaced_desc:1 "[WAR.GetName|V] [Concept( 'war', 'savaşında' )|E] [LEFT_CHARACTER.GetUINameNoTooltip], [RIGHT_CHARACTER.GetUINameNoTooltip] adlı kişinin yerine geçti"
+ msg_war_player_replaced:1 "Savaşa Katıldınız"
+ msg_war_player_replaced_desc:2 "[WAR.GetName|V] savaşında [RIGHT_CHARACTER.GetUINameNoTooltip] adlı kişinin yerine geçtiniz"
+ msg_war_enemy_transferred:1 "Yeni Savaş Hedefi: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
+ msg_war_enemy_transferred_desc:1 "[WAR.GetName|V] savaşının hedefi artık [LEFT_CHARACTER.GetUINameNoTooltip]"
+ msg_war_player_transferred:1 "Yeni Savaş: [WAR.GetActiveCB.GetAttacker.GetShortUINameNoTooltip]"
+ msg_war_player_transferred_desc:2 "[WAR.GetName|V] [Concept( 'war', 'savaşının' )|E] yeni hedefisiniz"
+ msg_war_ally_transferred:0 "$msg_war_enemy_transferred$"
+ msg_war_ally_transferred_desc:0 "$msg_war_enemy_transferred_desc$"
+ msg_war_ally_removed:1 "Müttefik Savaştan Ayrıldı: [LEFT_CHARACTER.GetShortUINameNoTooltip]"
+ msg_war_ally_removed_desc:1 "[LEFT_CHARACTER.GetUINameNoTooltip], [WAR.GetName|V] [Concept( 'war', 'savaşından' )|E] ayrıldı"
+ msg_war_enemy_removed:0 "Düşmanlar Savaştan Ayrıldı"
+ msg_war_enemy_removed_desc:1 "[LEFT_CHARACTER.GetUINameNoTooltip], [WAR.GetName|V] [Concept( 'war', 'savaşından' )|E] ayrıldı"
+ msg_war_player_removed:1 "Savaştan Ayrıldınız"
+ msg_war_player_removed_desc:1 "[WAR.GetName|V] [Concept( 'war', 'savaşından' )|E] ayrıldınız"
+ msg_war_declared_on_me:0 "Savaş İlan Edildi!" 
+ msg_war_declared_on_me_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] size karşı [war|E] ilan etti!"
+### TODO AGOT-CHANGED: msg_war_declared_on_vassal [AGOT: War Declared on Vassal! | TR: Vasala Savaş İlan Edildi]
+ msg_war_declared_on_vassal: "War Declared on Vassal!"
+### TODO AGOT-CHANGED: msg_war_declared_on_vassal_desc [AGOT: Your [vassal|E], [LEFT_CHARACTER.GetShortUIName|U], is being attacked by [RIGHT_CHARACTER.GetShortUIName] | TR: [Concept('vassal', 'Vasalınız')|E] [LEFT_CHARACTER.GetShortUIName|U], [RIGHT_CHARACTER.GetShortUIName] tarafından saldırıya uğruyor]
+ msg_war_declared_on_vassal_desc: "Your [vassal|E], [LEFT_CHARACTER.GetShortUIName|U], is being attacked by [RIGHT_CHARACTER.GetShortUIName]"
+ event_message_text:0 "$DESCRIPTION$"
+ event_message_text_and_effect:1 "$DESCRIPTION_AND_EFFECT$"
+ event_message_effect_and_text:0 "$EFFECT$\n\n$DESCRIPTION$"
+ event_message_effect:0 "$EFFECT$"
+ msg_break_betrothal:0 "Nişan Bozuldu"
+ msg_break_betrothal_desc:0 "[LEFT_CHARACTER.GetShortUIName] ile olan [Concept( 'betrothal', 'nişanınız' )|E] bozuldu"
+ msg_cadet_branch_created:0 "Alt Hane"
+ msg_cadet_branch_created_desc:1 "[GetPlayer.Custom2('RelationToMePossessive', LEFT_CHARACTER.Self )|U] [LEFT_CHARACTER.GetShortUIName], $NAME|V$ [Concept( 'cadet_branch', 'Alt Hanesini' )|E] kurdu"
+ msg_became_head_of_house:0 "Hane Reisi Değişti"
+ msg_became_head_of_house_desc:1 "[GetPlayer.Custom2('RelationToMePossessive', LEFT_CHARACTER.Self )|U] [LEFT_CHARACTER.GetShortUIName], $NAME|V$ [Concept( 'house', 'Hanesinin' )|E] yeni [house_head|E] oldu"
+ msg_became_dynast:1 "Hanedan Reisi Değişti"
+ msg_became_dynast_desc:0 "[LEFT_CHARACTER.GetShortUIName|U], $NAME|V$ Hanedanının yeni [dynast|E] oldu"
+ msg_no_longer_culture_head:0 "Kültür Önderi Değişti"
+ msg_no_longer_culture_head_desc:1 "[LEFT_CHARACTER.GetShortUIName|U] sizin yerinizi alarak [CULTURE.GetName] [Concept( 'culture', 'kültürünün' )|E] yeni [Concept( 'culture_head', 'önderi' )|E] oldu"
+ msg_become_culture_head:0 "Kültür Önderi Oldunuz"
+ msg_become_culture_head_desc:1 "[CULTURE.GetName] kültürünün yeni [culture_head|E] oldunuz!"
+ msg_new_theocracy_lesse:0 "Yeni $game_concept_realm_priest$"
+ msg_new_theocracy_lesee_approve_desc:1 "[Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] [LEFT_CHARACTER.GetShortUIName|U] sizi onaylıyor #weak ([church_property|E])#!"
+ msg_my_hook_replaced:0 "Koz Değişti"
+ msg_my_hook_replaced_desc:1 "[LEFT_CHARACTER.GetShortUIName] üzerindeki [Concept( 'hook', 'kozunuz' )|E], [HOOK.GetName] kozu ile değiştirildi"
+ msg_my_hook_added:0 "Koz Kazanıldı"
+ msg_my_hook_added_desc:1 "[LEFT_CHARACTER.GetShortUIName] üzerinde bir [HOOK.GetName] [Concept( 'hook', 'kozu' )|E] kazandınız"
+ msg_hook_on_me_replaced:1 "Üzerinizdeki Koz Değişti"
+ msg_hook_on_me_replaced_desc:1 "[LEFT_CHARACTER.GetShortUINamePossessive] sizin üzerinizdeki [HOOK.GetName] [Concept( 'hook', 'kozu' )|E], [HOOK.GetName] kozu ile değiştirildi"
+ msg_hook_on_me_added:1 "Üzerinizde Koz Kazanıldı"
+ msg_hook_on_me_added_replaced:1 "Üzerinizde Koz Kazanıldı"
+ msg_hook_on_me_added_desc:1 "[LEFT_CHARACTER.GetShortUIName|U] sizin üzerinizde bir [HOOK.GetName] [Concept( 'hook', 'kozu' )|E] kazandı"
+ msg_dynasty_perk_added:0 "Hanedan Mirası Açıldı"
+ msg_dynasty_perk_added_desc:1 "[DYNASTY_PERK.GetName] [Concept( 'dynasty_perk', 'hanedan mirası' )|E], [Concept( 'dynasty', 'hanedanınız' )|E] tarafından açıldı"
+ msg_dynasty_perk_removed:0 "Hanedan Mirası Kaybedildi"
+ msg_dynasty_perk_removed_desc:0 "[Concept( 'dynasty', 'Hanedanınız' )|E], [DYNASTY_PERK.GetName] [Concept( 'dynasty_perk', 'hanedan mirasını' )|E] kaybetti"
+ msg_holy_order_patronage_lost:0 "Kutsal Tarikat Hamiliği Kaybedildi"
+ msg_holy_order_patronage_lost_desc:0 "[LEFT_TITLE.GetName] [Concept( 'holy_order', 'kutsal tarikatının' )|E] hamiliğini kaybettiniz"
+ msg_murder_scheme_agent_leave_message:1 "[agent.GetTitledFirstName], [target.GetTitledFirstName] adlı kişiyi öldürme planınızdan ayrıldı."
+ msg_becomes_obese:1 "Obez Olundu"
+ msg_becomes_obese_desc:0 "[GetModifier( 'obese_modifier' ).GetNameWithTooltip] oldunuz"
+### TODO AGOT-CHANGED: msg_health_change [AGOT: Your Health Changes | TR: Sağlığınız Değişti]
+ msg_health_change: "Your Health Changes"
+### TODO AGOT-CHANGED: msg_health_change_desc [AGOT: Your health changed | TR: Sağlığınız değişti]
+ msg_health_change_desc: "Your health changed"
+ msg_player_character_changed:0 "$PLAYER_CHANGED_CHARACTER_TITLE_SWITCH$"
+ msg_player_character_changed_desc:0 "$PLAYER_CHANGED_CHARACTER_TEXT_SWITCH$"
+ msg_player_character_changed_tt:0 "$msg_player_character_changed_desc$"
+ msg_player_new_character:0 "$PLAYER_CHANGED_CHARACTER_TITLE_JOIN$"
+ msg_player_new_character_desc:0 "$PLAYER_CHANGED_CHARACTER_TEXT_JOIN$"
+ msg_player_new_character_tt:0 "$msg_player_new_character_desc$"
+ msg_player_new_observer:0 "$PLAYER_CHANGED_CHARACTER_TITLE_OBSERVER$"
+ msg_player_new_observer_desc:0 "$PLAYER_CHANGED_CHARACTER_TEXT_OBSERVER$"
+ msg_player_new_observer_tt:0 "$msg_player_new_observer_desc$"
+ msg_struggle_phase_end:1 "$STRUGGLE_PHASE$ Aşaması Değişiyor"
+ msg_struggle_phase_end_desc:0 "@$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$ aşaması değişerek @$STRUGGLE_PHASE_ICON_NEXT$! $STRUGGLE_PHASE_NEXT$ hâline geliyor.\n\n $STRUGGLE_PHASE_NEXT$ $DAYS_UNTIL_TRANSITION$ gün içinde başlayacak."
+ msg_struggle_phase_end_tt:2 "$msg_struggle_phase_transitioned_tt$"
+### TODO AGOT-CHANGED: msg_legend_promoter_leave [AGOT: Legend Promoter Leaves | TR: Destan Destekleyicisi Ayrıldı]
+ msg_legend_promoter_leave: "Legend Promoter Leaves"
+### TODO AGOT-CHANGED: msg_legend_promoter_leave_desc [AGOT: Your [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] has stopped [Concept( 'promoted_legend', 'Promoting' )|E] your [legend|E], [GetPlayer.GetPromotedLegend.GetName]. | TR: Karakterinizin [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip], [GetPlayer.GetPromotedLegend.GetName] [Concept( 'legend', 'Destanınızı' )|E] [Concept( 'promoted_legend', 'Desteklemeyi' )|E] bıraktı.]
+ msg_legend_promoter_leave_desc: "Your [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] has stopped [Concept( 'promoted_legend', 'Promoting' )|E] your [legend|E], [GetPlayer.GetPromotedLegend.GetName]."
+### TODO AGOT-CHANGED: msg_promoted_legend_unowned [AGOT: Promoted Legend Unowned | TR: Desteklenen Destan Sahipsiz Kaldı]
+ msg_promoted_legend_unowned: "Promoted Legend Unowned"
+### TODO AGOT-CHANGED: msg_promoted_legend_unowned_desc [AGOT: Your [promoted_legend|E] [Legend.GetName] is no longer owned by anyone | TR: [Concept( 'promoted_legend', 'Desteklediğiniz Destan' )|E] [Legend.GetName] artık kimsenin sahipliğinde değil]
+ msg_promoted_legend_unowned_desc: "Your [promoted_legend|E] [Legend.GetName] is no longer owned by anyone"
+### TODO AGOT-CHANGED: msg_promoted_legend_completed [AGOT: Promoted Legend Completed | TR: Desteklenen Destan Tamamlandı]
+ msg_promoted_legend_completed: "Promoted Legend Completed"
+### TODO AGOT-CHANGED: msg_promoted_legend_completed_desc [AGOT: Your [promoted_legend|E] [Legend.GetName] has been completed | TR: [Concept( 'promoted_legend', 'Desteklediğiniz Destan' )|E] [Legend.GetName] tamamlandı]
+ msg_promoted_legend_completed_desc: "Your [promoted_legend|E] [Legend.GetName] has been completed"
+### TODO AGOT-CHANGED: msg_barter_completed_barterer_desc [AGOT: You [bartered|E] with [county.GetHolder.GetShortUIName] | TR: [county.GetHolder.GetShortUIName] ile [bartered|E]]
+ msg_barter_completed_barterer_desc: "You [bartered|E] with [county.GetHolder.GetShortUIName]"
+### TODO AGOT-CHANGED: msg_barter_completed_holder_desc [AGOT: [barterer.GetShortUIName] [bartered|E] with you in [barony.GetName] | TR: [barterer.GetShortUIName], [barony.GetName] bölgesinde sizinle [Concept('bartered', 'Takas Yaptı')|E]]
+ msg_barter_completed_holder_desc: "[barterer.GetShortUIName] [bartered|E] with you in [barony.GetName]"
+### TODO AGOT-CHANGED: msg_barter_loot_lost_desc [AGOT: Your [bartering|E] [army|E] lost [loot_i][barter_loot.GetValue] | TR: [Concept('bartering', 'Takasçı')|E] [Concept('army', 'Ordunuz')|E] [loot_i][barter_loot.GetValue] kaybetti]
+ msg_barter_loot_lost_desc: "Your [bartering|E] [army|E] lost [loot_i][barter_loot.GetValue]"
+### TODO AGOT-CHANGED: msg_barter_loot_won_desc [AGOT: Your [army|E] claimed [loot_i][barter_loot.GetValue] from a [bartering|E] army | TR: [Concept('army', 'Ordunuz')|E] [Concept('bartering', 'Takasçı')|E] bir ordudan [loot_i][barter_loot.GetValue] ele geçirdi]
+ msg_barter_loot_won_desc: "Your [army|E] claimed [loot_i][barter_loot.GetValue] from a [bartering|E] army"
+### TODO AGOT-CHANGED: msg_barter_aborted_desc [AGOT: [barter|E] aborted in [barony.GetName] due to insufficient [barter_goods|E] | TR: [barony.GetName] bölgesindeki [barter|E], yetersiz [barter_goods|E] nedeniyle iptal edildi]
+ msg_barter_aborted_desc: "[barter|E] aborted in [barony.GetName] due to insufficient [barter_goods|E]"
+### TODO AGOT-CHANGED: msg_great_project_planned_desc [AGOT: [GreatProject.GetName] is being planned in [GreatProject.GetLocation.GetName].\nIt needs [GreatProject.GetRequiredContributionCount|V] [great_project_contributions|E] to start. | TR: [GreatProject.GetName], [GreatProject.GetLocation.GetName] bölgesinde planlanıyor.\nBaşlaması için [GreatProject.GetRequiredContributionCount|V] [great_project_contribution|E] gerekiyor.]
+ msg_great_project_planned_desc: "[GreatProject.GetName] is being planned in [GreatProject.GetLocation.GetName].\nIt needs [GreatProject.GetRequiredContributionCount|V] [great_project_contributions|E] to start."
+### TODO AGOT-CHANGED: msg_great_project_started_desc [AGOT: [GreatProject.GetName] got enough [great_project_contributions|E] to start progress.\nIt will be completed in [GreatProject.GetConstructionEndDate.GetTimeToDate|V]. | TR: [GreatProject.GetName] projesi, ilerlemeye başlamak için yeterli [great_project_contribution|E] aldı.\n[GreatProject.GetConstructionEndDate.GetTimeToDate|V] içinde tamamlanacak.]
+ msg_great_project_started_desc: "[GreatProject.GetName] got enough [great_project_contributions|E] to start progress.\nIt will be completed in [GreatProject.GetConstructionEndDate.GetTimeToDate|V]."
+### TODO AGOT-CHANGED: msg_great_project_aborted_desc [AGOT: The [GreatProject.GetType.GetName] [great_project|E] based in [GreatProject.GetLocation.GetName] is no longer available for contributions. | TR: [GreatProject.GetLocation.GetName] bölgesindeki [GreatProject.GetType.GetName] [Concept('great_project', 'Büyük Projesine')|E] artık katkı yapılamaz]
+ msg_great_project_aborted_desc: "The [GreatProject.GetType.GetName] [great_project|E] based in [GreatProject.GetLocation.GetName] is no longer available for contributions."
+### TODO AGOT-CHANGED: msg_great_project_completed_desc [AGOT: [GreatProject.GetName] has been successfully completed in [GreatProject.GetLocation.GetName] | TR: [GreatProject.GetName], [GreatProject.GetLocation.GetName] bölgesinde başarıyla tamamlandı]
+ msg_great_project_completed_desc: "[GreatProject.GetName] has been successfully completed in [GreatProject.GetLocation.GetName]"
+### TODO AGOT-CHANGED: msg_known_pregnancy [AGOT: [LEFT_CHARACTER.GetTitledFirstNameNoTooltip] Falls Pregnant | TR: [LEFT_CHARACTER.GetTitledFirstNameNoTooltip] Hamile]
+ msg_known_pregnancy: "[LEFT_CHARACTER.GetTitledFirstNameNoTooltip] Falls Pregnant"
+### TODO AGOT-CHANGED: msg_government_changed [AGOT: Government Changed | TR: Yönetim Değişti]
+ msg_government_changed: "Government Changed"
+### TODO AGOT-CHANGED: msg_poem_kept_message [AGOT: [double_moon_book.GetName] receives a random Modifier | TR: [double_moon_book.GetName] rastgele bir etki alacak]
+ msg_poem_kept_message: "[double_moon_book.GetName] receives a random Modifier"

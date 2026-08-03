@@ -1,0 +1,268 @@
+﻿l_english:
+### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_replace_character_header [AGOT: 2 | TR: [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] yerine yeni bir [AppointCourtPositionView.GetPositionName] bul]
+ APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Replace [AGOTGetUINameNoTooltip(AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee)|V] as [AppointCourtPositionView.GetCourtPositionType.GetName]"
+### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_select_character_header [AGOT: Appoint [AppointCourtPositionView.GetPositionName] | TR: [AppointCourtPositionView.GetPositionName] Ata]
+ APPOINT_COURT_POSITION_VIEW_select_character_header: "Appoint [AppointCourtPositionView.GetPositionName]"
+### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY [AGOT: Salary: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V] | TR: Maaş: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]]
+ APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY: "Salary: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]"
+### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_EMPLOYEE_SALARY [AGOT: Salary: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V] | TR: Maaş: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V]]
+ APPOINT_COURT_POSITION_VIEW_EMPLOYEE_SALARY: "Salary: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V]"
+ APPOINT_COURT_POSITION_VIEW_salary_per_travel:0 "Seyahat başladığında maaş: [Character.GetTravelLeaderCost|U]"
+ APPOINT_COURT_POSITION_VIEW_header:2 "Saray Pozisyonuna Ata"
+ APPOINT_COURT_POSITION_VIEW_back_button:1 "Geri"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCES_HEADER:0 "@warning_icon! Bu saray pozisyonunu almak aşağıdakilere sebep olacak:"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_COST:0 "• $COST$ prestije mal olacak."
+ APPOINT_COURT_POSITION_VIEW_COURTIER_SORT_APTITUDE:0 "Yatkınlık"
+ APPOINT_COURT_POSITION_VIEW_COURTIER_SORT_TRAVEL_SPEED:0 "Seyahat Hızı"
+ APPOINT_COURT_POSITION_VIEW_COURTIER_SORT_TRAVEL_SAFETY:0 "Seyahat Güvenliği"
+ APPOINT_COURT_POSITION_VIEW_NO_SELECTED_COURTIER:0 "Bu rol için bir karakter seçin"
+ APPOINT_COURT_POSITION_VIEW_CANNOT_AFFORD:1 "@warning_icon! #X Bu pozisyona birini getirmeniz giderlerinizin gelirinizi geçmesine sebep olacak ve her ay $RESOURCES$ zarara gireceksiniz.#!"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT:0 "#T Daha sonra bu pozisyonu feshetmenizin etkileri: #!"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT_TOOLTIP:0 "#X [AppointCourtPositionView.AppointingRevokeText] #!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENTLY_APPOINTED:0 "Mevcut [CourtPosition.GetNameNoTooltip]"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_FIRE_CURRENT_HOLDER:0 "Kov"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENT_SALARY:0 "Aylık Maaş: #L [CourtPosition.GetEmployerSalaryText]#!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE:0 "#T Bu pozisyonu almanızın etkileri: #!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE_TOOLTIP:0 "#X [AppointCourtPositionView.ReplaceRevokeText] #!"
+ APPOINT_COURT_POSITION_VIEW_APTITUDE: "[aptitude|e]: [AppointCourtPositionView.GetAptitudeTextFor(Character.Self)]"
+ APPOINT_COURT_POSITION_VIEW_OPINION_BONUS:0 "[AppointCourtPositionView.GetSelectedCharacter.GetShortUINameNoTooltip] ile [opinion|e]: [AppointCourtPositionView.GetOpinionBonusForSelectedEmployee|=+]"
+ COURT_POSITION_NAME: "[CourtPosition.GetNameNoTooltip]"
+ COURT_POSITION_FOR_EMPLOYER:1 "[CourtPosition.GetEmployer.GetUINameNoTooltip] için"
+ COURT_WINDOW_COURT_POSITIONS:0 "[CourtWindow.GetCourtOwner.Custom('GetCourtPositionPlural')|U]"
+ COURT_POSITION_REPLACE:0 "#T [Character.GetShortUINameNoTooltip] adlı kişiyi Değiştir#!"
+ COURT_POSITION_REVOKE:0 "#T [Character.GetShortUINameNoTooltip] adlı kişiyi Kov#!"
+### TODO AGOT-CHANGED: COURT_POSITION_POWERFUL_AGENT [AGOT: @alert_icon! #alert_trial Powerful [agent|E] in [hostile_schemes|E] against their $game_concept_liege$#! | TR: @alert_icon! #alert_trial $game_concept_liege$lerine karşı kurulan [Concept( 'hostile_schemes', 'Düşmancıl Planlarda' )|E] tehlikeli birer [agent|E] olurlar#!]
+ COURT_POSITION_POWERFUL_AGENT: "@alert_icon! #alert_trial Powerful [agent|E] in [hostile_schemes|E] against their $game_concept_liege$#!"
+ COURT_POSITION_OPINION_BONUS:0 "[opinion|e] Bonusu: [CourtPosition.GetOpinionBonus|=+]"
+### TODO AGOT-CHANGED: COURT_POSITION_TOGGLE_AUTOMATION [AGOT: #T Toggle Automation #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Click to toggle automation options#! | TR: #T Otomatik Atamayı Aç #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Otomatik atama ayarlarını görüntülemek için tıklayın#!]
+ COURT_POSITION_TOGGLE_AUTOMATION: "#T Toggle Automation #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Click to toggle automation options#!"
+### TODO AGOT-CHANGED: COURT_POSITION_AUTOMATION_DISABLE_TOOLTIP [AGOT: #T Current Automation #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Click to disable automation#! | TR: #T Mevcut Ayar #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Otomatik atamayı kapatmak için tıklayın#!]
+ COURT_POSITION_AUTOMATION_DISABLE_TOOLTIP: "#T Current Automation #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Click to disable automation#!"
+### TODO AGOT-CHANGED: COURT_POSITION_AUTOMATION_CURRENT [AGOT: When vacated:\n[Select_CString( CourtPositionType.HasAutomationNone( GetPlayer.Self ), '@check_icon!', '@small_dot!')] No automation\n[Select_CString( CourtPositionType.HasAutomationShowEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!' )] Suggest best candidates in event\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBest( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Auto-assign highest [aptitude|e] candidate, if available#!\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBestOrEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Auto-assign highest [aptitude|e] candidate, or notify with event#! | TR: Boştaysa:\n[Select_CString( CourtPositionType.HasAutomationNone( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Otomatik atama yok\n[Select_CString( CourtPositionType.HasAutomationShowEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!' )] Olay aracılığıyla en iyi adayları öner\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBest( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Mevcutsa, en yüksek [aptitude|e] sahibi adayı ata#!\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBestOrEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!')] En yüksek [aptitude|e] sahibi adayı ata veya olayla bilgilendir#!]
+ COURT_POSITION_AUTOMATION_CURRENT: "When vacated:\n[Select_CString( CourtPositionType.HasAutomationNone( GetPlayer.Self ), '@check_icon!', '@small_dot!')] No automation\n[Select_CString( CourtPositionType.HasAutomationShowEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!' )] Suggest best candidates in event\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBest( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Auto-assign highest [aptitude|e] candidate, if available#!\n#indent_newline:5 [Select_CString( CourtPositionType.HasAutomationAssignBestOrEvent( GetPlayer.Self ), '@check_icon!', '@small_dot!')] Auto-assign highest [aptitude|e] candidate, or notify with event#!"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ADD_TT:1 "[SelectLocalization( Not( CourtPositionType.CanHirePosition( Character.Self ) ), 'COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS', '' )]\n[SelectLocalization( Not( CourtPositionType.HasValidCourtiersForCharacter( Character.Self ) ), 'COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS', '' )]"
+ COURT_POSITIONS_WINDOW_GROUP_HEADER: "$NAME$"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_GROUP_DENIED [AGOT: Unavailable Potential Court Positions | TR: Geçersiz Potansiyel Saray Pozisyonları]
+ COURT_POSITIONS_WINDOW_GROUP_DENIED: "Unavailable Potential Court Positions"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_MONTHLY_SALARY [AGOT: Monthly Salaries: | TR: Aylık Maaşlar:]
+ COURT_POSITIONS_WINDOW_MONTHLY_SALARY: "Monthly Salaries:"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_MONTHLY_SALARY_YOUR [AGOT: Your Salary: | TR: Maaşınız:]
+ COURT_POSITIONS_WINDOW_MONTHLY_SALARY_YOUR: "Your Salary:"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_EMPLOYER_SALARY_SHORT [AGOT: #L [CourtPosition.GetEmployerSalaryTextShort]#! | TR: #L [CourtPosition.GetEmployerSalaryTextShort]#!]
+ COURT_POSITIONS_WINDOW_EMPLOYER_SALARY_SHORT: "#L [CourtPosition.GetEmployerSalaryTextShort]#!"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_EMPLOYEE_SALARY_SHORT [AGOT: #L [CourtPosition.GetEmployeeSalaryTextShort]#! | TR: #L [CourtPosition.GetEmployeeSalaryTextShort]#!]
+ COURT_POSITIONS_WINDOW_EMPLOYEE_SALARY_SHORT: "#L [CourtPosition.GetEmployeeSalaryTextShort]#!"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_POSITION_AI_SHORT [AGOT: Pos AI: [CourtPositionItem.GetPositionAiScore|0] | TR: Poz YZ: [CourtPositionItem.GetPositionAiScore|0]]
+ COURT_POSITIONS_WINDOW_POSITION_AI_SHORT: "Pos AI: [CourtPositionItem.GetPositionAiScore|0]"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_BEST_CANDIDATE_AI_SHORT [AGOT: Can AI: [CourtPositionItem.GetBestCandidateAiScore|0] | TR: Aday YZ: [CourtPositionItem.GetBestCandidateAiScore|0]]
+ COURT_POSITIONS_WINDOW_BEST_CANDIDATE_AI_SHORT: "Can AI: [CourtPositionItem.GetBestCandidateAiScore|0]"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_POSITION_DENIED [AGOT: @warning_icon! #X You do not fulfill all the requirements#!\n$REASONS$ | TR: @warning_icon! #X Tüm şartları karşılamıyorsunuz#!\n$REASONS$]
+ COURT_POSITIONS_WINDOW_POSITION_DENIED: "@warning_icon! #X You do not fulfill all the requirements#!\n$REASONS$"
+### TODO AGOT-CHANGED: COURT_POSITIONS_WINDOW_YOUR_POSITIONS [AGOT: Your Held Positions: | TR: Pozisyonlarınız:]
+ COURT_POSITIONS_WINDOW_YOUR_POSITIONS: "Your Held Positions:"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_HEADER:0 "[CourtPositionsWindow.CourtOwner.Custom('GetRealmOrDomicileConcept')] içindeki boş [CourtPositionsWindow.CourtOwner.Custom('GetCourtOrOfficerPositionConceptPlural')]"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_EFFECTS_VARY:0 "Etkiler karakterin [Concept( 'aptitude', 'Yatkınlığına' )|E] bağlı olarak değişir:"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS:0 "@warning_icon! #X Bu [Concept( 'court_position', 'Saray Pozisyonuna' )|E] birini almak için gerekli şartları sağlamıyorsunuz#!"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS_TT:0 "#T $COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT$#!\n[CourtPositionType.GetLiegeRequirementDescriptionText]"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS:0 "@warning_icon! #X Hiçbir Saray Mensubu [Concept( 'court_position', 'Saray Pozisyonunun' )|E] şartlarını karşılamıyor#!"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS_TT:0 "#T $COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT$#!\n[CourtPositionType.GetEmployeeRequirementDescriptionText]"
+ COURT_POSITIONS_WINDOW_FILTER_ALL:0 "Hepsi"
+ COURT_POSITIONS_WINDOW_FILTER_TAB_ALL_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredPositions]/[CourtPositionsWindow.MaxNumAvailablePositions]"
+ COURT_POSITIONS_WINDOW_FILTER_TAB_CATEGORY_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredInCategory(CourtPositionCategory.Self)]/[CourtPositionsWindow.MaxNumHirableInCategory(CourtPositionCategory.Self)]"
+ COURT_POSITIONS_SALARY_FOR:0 "$EMPLOYEE$ ($COURT_POSITION$)"
+ COURT_POSITIONS_INCOME:0 "[court_positions|E] Geliri"
+ COURT_POSITIONS_EXPENSES:0 "[court_positions|E] Gideri"
+ COURT_POSITIONS_SALARIES_PAID:0 "Ödenen maaşlar"
+ COURT_POSITIONS_SALARIES_GAINED:0 "Kazanılan maaşlar"
+ COURT_POSITION_TYPE_SCALING_MODIFIER_DESCRIPTION:1 "$MODIFIER$: $RANGED_MODIFIER$ ([Concept( 'aptitude', 'Yatkınlığa' )|E] bağlı olarak)"
+ COURT_POSITIONS_category_day_to_day:0 "Gündelik"
+ COURT_POSITIONS_category_honorary:0 "Onursal"
+ COURT_POSITIONS_category_personal_servants:0 "Kişisel Hizmetçiler"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_YOUR_LIEGE:0 "[Concept( 'liege', 'Süzereniniz' )|E] üzerindeki Etkileri:"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE [AGOT: Effect on [liege|e]: | TR: [liege|e] üzerindeki Etkileri:]
+ COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE: "Effect on [liege|e]:"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE_WITH_HEADING [AGOT: #S $COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE$#!#indent_newline:2 \n[CourtPositionType.GetEmployerModifierDescription]#! | TR: #S $COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE$#!#indent_newline:2 \n[CourtPositionType.GetEmployerModifierDescription]#!]
+ COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE_WITH_HEADING: "#S $COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE$#!#indent_newline:2 \n[CourtPositionType.GetEmployerModifierDescription]#!" 
+ COURT_POSITION_TOOLTIP_SCALED_EFFECT_ON_LIEGE:0 "[Concept( 'aptitude', 'Yatkınlığa' )|E] bağlı olarak [liege|e] üzerindeki Etkileri:"
+ COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT:0 "[liege|e] koşulları:"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED [AGOT: #TOOLTIP:COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED_TT #L Liege Requirements#!#! | TR: #TOOLTIP:COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED_TT #L Süzeren Koşulları#!#!]
+ COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED: "#TOOLTIP:COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED_TT #L Liege Requirements#!#!" 
+ COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT_NESTED_TT: "[CourtPositionType.GetLiegeRequirementDescriptionText]"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_YOU:0 "Sizin üzerinizdeki Etkisi:"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_EMPLOYEE:1 "[CourtPosition.GetNameNoTooltip] üzerindeki Etkisi:"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_EFFECT_ON_HOLDER [AGOT: Effect on holder: | TR: Sahibi üzerindeki Etkisi:]
+ COURT_POSITION_TOOLTIP_EFFECT_ON_HOLDER: "Effect on holder:"
+ COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT:1 "[CourtPositionType.GetNameNoTooltip] koşulları:"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED [AGOT: #TOOLTIP:COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED_TT #L [CourtPositionType.GetNameNoTooltip] Requirements#!#! | TR: #TOOLTIP:COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED_TT #L [CourtPositionType.GetNameNoTooltip] Koşulları#!#!]
+ COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED: "#TOOLTIP:COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED_TT #L [CourtPositionType.GetNameNoTooltip] Requirements#!#!" 
+ COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT_NESTED_TT: "[CourtPositionType.GetEmployeeRequirementDescriptionText]"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARY [AGOT: Salary: [CourtPosition.GetSalaryText] | TR: Maaş: [CourtPosition.GetSalaryText]]
+ COURT_POSITION_TOOLTIP_SALARY: "Salary: [CourtPosition.GetSalaryText]"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_GOLD_PAID [AGOT: [gold_i][gold|E] Salaries Paid | TR: [gold_i][gold|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_GOLD_PAID: "[gold_i][gold|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_GOLD_EARNED [AGOT: [gold_i][gold|E] Salaries Earned | TR: [gold_i][gold|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_GOLD_EARNED: "[gold_i][gold|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID [AGOT: [prestige_i][prestige|E] Salaries Paid | TR: [prestige_i][prestige|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID: "[prestige_i][prestige|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_EARNED [AGOT: [prestige_i][prestige|E] Salaries Earned | TR: [prestige_i][prestige|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_EARNED: "[prestige_i][prestige|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_PIETY_PAID [AGOT: [piety_i][piety|E] Salaries Paid | TR: [piety_i][piety|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_PIETY_PAID: "[piety_i][piety|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED [AGOT: [piety_i][piety|E] Salaries Earned | TR: [piety_i][piety|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED: "[piety_i][piety|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_DYNASTY_PRESTIGE_PAID [AGOT: [dynasty_prestige_i][dynasty_prestige|E] Salaries Paid | TR: [dynasty_prestige_i][dynasty_prestige|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_DYNASTY_PRESTIGE_PAID: "[dynasty_prestige_i][dynasty_prestige|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_DYNASTY_PRESTIGE_EARNED [AGOT: [dynasty_prestige_i][dynasty_prestige|E] Salaries Earned | TR: [dynasty_prestige_i][dynasty_prestige|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_DYNASTY_PRESTIGE_EARNED: "[dynasty_prestige_i][dynasty_prestige|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_INFLUENCE_PAID [AGOT: [influence_i][influence|E] Salaries Paid | TR: [influence_i][influence|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_INFLUENCE_PAID: "[influence_i][influence|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_INFLUENCE_EARNED [AGOT: [influence_i][influence|E] Salaries Earned | TR: [influence_i][influence|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_INFLUENCE_EARNED: "[influence_i][influence|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_HERD_PAID [AGOT: [herd_i][herd|E] Salaries Paid | TR: [herd_i][herd|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_HERD_PAID: "[herd_i][herd|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_HERD_EARNED [AGOT: [herd_i][herd|E] Salaries Earned | TR: [herd_i][herd|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_HERD_EARNED: "[herd_i][herd|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_TREASURY_PAID [AGOT: [treasury_i][treasury|E] Salaries Paid | TR: [treasury_i][treasury|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_TREASURY_PAID: "[treasury_i][treasury|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_TREASURY_EARNED [AGOT: [treasury_i][treasury|E] Salaries Earned | TR: [treasury_i][treasury|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_TREASURY_EARNED: "[treasury_i][treasury|E] Salaries Earned"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_MERIT_PAID [AGOT: [merit_i][merit|E] Salaries Paid | TR: [merit_i][merit|E] Bazında Ödenen Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_MERIT_PAID: "[merit_i][merit|E] Salaries Paid"
+### TODO AGOT-CHANGED: COURT_POSITION_TOOLTIP_SALARIES_MERIT_EARNED [AGOT: [merit_i][merit|E] Salaries Earned | TR: [merit_i][merit|E] Bazında Kazanılan Maaş]
+ COURT_POSITION_TOOLTIP_SALARIES_MERIT_EARNED: "[merit_i][merit|E] Salaries Earned"
+ COURT_POSITION_TOOLTIP_REVOKE_COST:1 "• Size olan maliyeti: [CourtPosition.GetRevokeCostText]"
+ COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER:0 "Bu [SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER.CAMP_OFFICER', 'COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER.COURT_POSITION' )] konumunun alınmasının etkileri:"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE [AGOT: Effect on [CourtPositionType.GetNameNoTooltip]: | TR: [CourtPositionType.GetNameNoTooltip] üzerindeki Etkileri:]
+ COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE: "Effect on [CourtPositionType.GetNameNoTooltip]:"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE_WITH_HEADING [AGOT: #S $COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE$#!#indent_newline:2 \n[CourtPositionType.GetEmployeeModifierDescription]#! | TR: #S $COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE$#!#indent_newline:2 \n[CourtPositionType.GetEmployeeModifierDescription]#!]
+ COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE_WITH_HEADING: "#S $COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE$#!#indent_newline:2 \n[CourtPositionType.GetEmployeeModifierDescription]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_TOOLTIP_EMPLOYER_SALARY [AGOT: Salary: [CourtPositionType.GetEmployerSalaryTextFor( GetPlayer )|V] | TR: Maaş: [CourtPositionType.GetEmployerSalaryTextFor( GetPlayer )|V]]
+ COURT_POSITION_TYPE_TOOLTIP_EMPLOYER_SALARY: "Salary: [CourtPositionType.GetEmployerSalaryTextFor( GetPlayer )|V]"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_TOOLTIP_EMPLOYEE_SALARY [AGOT: Salary: [CourtPositionType.GetEmployeeSalaryTextFor( GetPlayer )|V] | TR: Maaş: [CourtPositionType.GetEmployeeSalaryTextFor( GetPlayer )|V]]
+ COURT_POSITION_TYPE_TOOLTIP_EMPLOYEE_SALARY: "Salary: [CourtPositionType.GetEmployeeSalaryTextFor( GetPlayer )|V]"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST [AGOT: Revocation cost: [CourtPositionType.GetRevokeCostText|V] | TR: Feshetme maliyeti: [CourtPositionType.GetRevokeCostText|V]]
+ COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST: "Revocation cost: [CourtPositionType.GetRevokeCostText|V]"
+ COURT_POSITION_SALARY_BREAKDOWN_BASE:0 "Temel Maaş"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_COST_BREAKDOWN_BASE [AGOT: [court_position_task_short|E] Cost | TR: [court_position_task_short|E] Maliyeti]
+ COURT_POSITION_TASK_COST_BREAKDOWN_BASE: "[court_position_task_short|E] Cost"
+ COURT_POSITION_TASK: "[court_position_task_short|E]"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_HEADER [AGOT: #T [CourtPositionTaskType.GetName]#! | TR: #T [CourtPositionTaskType.GetName]#!]
+ COURT_POSITION_TASK_HEADER: "#T [CourtPositionTaskType.GetName]#!"
+ COURT_POSITION_TASK_CLICK_TT: "[SelectLocalization( CourtPosition.IsActiveTask( CourtPositionTaskType.Self ), 'ACTIVE_COURT_POSITION_TASK_CLICK_TT', 'POTENTIAL_COURT_POSITION_TASK_CLICK_TT' )]"
+### TODO AGOT-CHANGED: ACTIVE_COURT_POSITION_TASK_CLICK_TT [AGOT: Click to deactivate [CourtPositionTaskType.GetName] | TR: [CourtPositionTaskType.GetName] görevini kapatmak için tıklayın]
+ ACTIVE_COURT_POSITION_TASK_CLICK_TT: "Click to deactivate [CourtPositionTaskType.GetName]"
+### TODO AGOT-CHANGED: POTENTIAL_COURT_POSITION_TASK_CLICK_TT [AGOT: Click to activate [CourtPositionTaskType.GetName] | TR: [CourtPositionTaskType.GetName] görevini aktifleştirmek için tıklayın]
+ POTENTIAL_COURT_POSITION_TASK_CLICK_TT: "Click to activate [CourtPositionTaskType.GetName]"
+### TODO AGOT-CHANGED: ACTIVE_COURT_POSITION_TASK_TT [AGOT: My [CourtPosition.GetPositionType.GetNameNoTooltip] will stop performing the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]. | TR: Emrimdeki [CourtPosition.GetPositionType.GetNameNoTooltip], [CourtPositionTaskType.GetName|V] [Concept( 'court_position_task_short', 'görevini' )|e] yapmayı bırakacak.]
+ ACTIVE_COURT_POSITION_TASK_TT: "My [CourtPosition.GetPositionType.GetNameNoTooltip] will stop performing the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]."
+### TODO AGOT-CHANGED: POTENTIAL_COURT_POSITION_TASK_TT [AGOT: My [CourtPosition.GetPositionType.GetNameNoTooltip] will actively perform the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]. | TR: Emrimdeki [CourtPosition.GetPositionType.GetNameNoTooltip], [CourtPositionTaskType.GetName|V] [Concept( 'court_position_task_short', 'görevini' )|e] yapmaya başlayacak.]
+ POTENTIAL_COURT_POSITION_TASK_TT: "My [CourtPosition.GetPositionType.GetNameNoTooltip] will actively perform the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]."
+### TODO AGOT-CHANGED: COURT_POSITION_NO_ACTIVE_TASK [AGOT: #weak Regular duties #! | TR: #weak Normal görevler #!]
+ COURT_POSITION_NO_ACTIVE_TASK: "#weak Regular duties #!"
+### TODO AGOT-CHANGED: COURT_POSITION_NO_ACTIVE_TASK_DESCRIPTION [AGOT: #T Regular duties#!\nThe [CourtPosition.GetNameNoTooltip] will perform only their regular duties. | TR: #T Normal görevler#!\n[CourtPosition.GetNameNoTooltip] sadece normal görevlerini yapacak.]
+ COURT_POSITION_NO_ACTIVE_TASK_DESCRIPTION: "#T Regular duties#!\nThe [CourtPosition.GetNameNoTooltip] will perform only their regular duties."
+### TODO AGOT-CHANGED: COURT_POSITION_NO_ACTIVE_TASK_COST [AGOT: @gold_icon! #weak 0 #! | TR: @gold_icon! #weak 0 #!]
+ COURT_POSITION_NO_ACTIVE_TASK_COST: "@gold_icon! #weak 0 #!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EFFECTS_HEADER [AGOT: #S Effects#!\n | TR: #S Etkiler#!\n]
+ COURT_POSITION_TASK_EFFECTS_HEADER: "#S Effects#!\n"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EMPLOYER_EFFECTS [AGOT: #S Effect on [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierDescription( CourtPosition.Self )]#! | TR: #S [liege|E] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierDescription( CourtPosition.Self )]#!]
+ COURT_POSITION_TASK_EMPLOYER_EFFECTS: "#S Effect on [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierDescription( CourtPosition.Self )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EMPLOYER_COURT_EFFECTS [AGOT: #S Effect on [liege|E]'s [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierDescription( CourtPosition.Self )]#! | TR: #S [Concept( 'liege', 'Süzerenin' )|E] [SelectLocalization( IsLandlessAdventurer( Character ), 'Takipçileri', 'Saray Mensupları')] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierDescription( CourtPosition.Self )]#!]
+ COURT_POSITION_TASK_EMPLOYER_COURT_EFFECTS: "#S Effect on [liege|E]'s [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierDescription( CourtPosition.Self )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EMPLOYEE_EFFECTS [AGOT: #S Effect on [CourtPositionType.GetName]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployeeModifierDescription]#! | TR: #S [CourtPositionType.GetName] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployeeModifierDescription]#!]
+ COURT_POSITION_TASK_EMPLOYEE_EFFECTS: "#S Effect on [CourtPositionType.GetName]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployeeModifierDescription]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_START_EFFECTS [AGOT: #S When started:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectDesc( CourtPosition.Self )]#! | TR: #S Başlatıldığında:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectDesc( CourtPosition.Self )]#!]
+ COURT_POSITION_TASK_START_EFFECTS: "#S When started:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectDesc( CourtPosition.Self )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_END_EFFECTS [AGOT: #S When stopped:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectDesc( CourtPosition.Self )]#! | TR: #S Durdurulduğunda:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectDesc( CourtPosition.Self )]#!]
+ COURT_POSITION_TASK_END_EFFECTS: "#S When stopped:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectDesc( CourtPosition.Self )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_COST [AGOT: #S Cost (per month):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( CourtPosition.GetEmployer.Self )]#! | TR: #S Maliyet (aylık):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( CourtPosition.GetEmployer.Self )]#!]
+ COURT_POSITION_TASK_COST: "#S Cost (per month):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( CourtPosition.GetEmployer.Self )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_HINT [AGOT: Potential [court_position_tasks_short|E]: | TR: Olası [Concept( 'court_position_tasks_short', 'Görevler' )|E]:]
+ COURT_POSITION_TASK_HINT: "Potential [court_position_tasks_short|E]:"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_GENERIC_TT [AGOT: My [CourtPositionType.GetNameNoTooltip] will actively perform the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]. | TR: Emrimdeki [CourtPositionType.GetNameNoTooltip], [CourtPositionTaskType.GetName|V] [Concept( 'court_position_task_short', 'görevini' )|e] yapmaya başlayacak.]
+ COURT_POSITION_TASK_GENERIC_TT: "My [CourtPositionType.GetNameNoTooltip] will actively perform the [CourtPositionTaskType.GetName|V] [court_position_task_short|e]."
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EMPLOYER_GENERIC_EFFECTS [AGOT: #S Effect on [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierGenericDescription]#! | TR: #S [liege|E] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierGenericDescription]#!]
+ COURT_POSITION_TASK_EMPLOYER_GENERIC_EFFECTS: "#S Effect on [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierGenericDescription]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_EMPLOYER_COURT_GENERIC_EFFECTS [AGOT: #S Effect on [liege|E]'s [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierGenericDescription]#! | TR: #S [Concept( 'liege', 'Süzerenin' )|E] [SelectLocalization( IsLandlessAdventurer( Character ), 'Takipçileri', 'Saray Mensupları')] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierGenericDescription]#!]
+ COURT_POSITION_TASK_EMPLOYER_COURT_GENERIC_EFFECTS: "#S Effect on [liege|E]'s [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierGenericDescription]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_START_GENERIC_EFFECTS [AGOT: #S When started:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectGenericDesc]#! | TR: #S Başlatıldığında:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectGenericDesc]#!]
+ COURT_POSITION_TASK_START_GENERIC_EFFECTS: "#S When started:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectGenericDesc]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_END_GENERIC_EFFECTS [AGOT: #S When stopped:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectGenericDesc]#! | TR: #S Durdurulduğunda:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectGenericDesc]#!]
+ COURT_POSITION_TASK_END_GENERIC_EFFECTS: "#S When stopped:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectGenericDesc]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TASK_GENERIC_COST [AGOT: #S Cost (per month):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( GetPlayer )]#! | TR: #S Maliyet (aylık):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( GetPlayer )]#!]
+ COURT_POSITION_TASK_GENERIC_COST: "#S Cost (per month):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( GetPlayer )]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_TYPE_EMPLOYER_COURT_EFFECTS [AGOT: #S Effect on [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionType.GetEmployerCourtModifierDescription]#! | TR: #S [GetPlayer.Custom('GetCourtiersTypeConcept')|U] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPositionType.GetEmployerCourtModifierDescription]#!]
+ COURT_POSITION_TYPE_EMPLOYER_COURT_EFFECTS: "#S Effect on [GetPlayer.Custom('GetCourtiersTypeConcept')|U]:#!#indent_newline:2 \n[CourtPositionType.GetEmployerCourtModifierDescription]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_EMPLOYER_COURT_EFFECTS [AGOT: #S Effects on [Character.Custom('GetCourtOwnerConcept')]'s [Character.Custom('GetRealmOrDomicileConcept')]:#!#indent_newline:2 \n[CourtPosition.GetEmployerCourtBonuses]#! | TR: #S [Character.Custom('GetCourtOwnerConcept')] kontrolündeki [Character.Custom('GetRealmOrDomicileConcept')] üzerindeki etkisi:#!#indent_newline:2 \n[CourtPosition.GetEmployerCourtBonuses]#!]
+ COURT_POSITION_EMPLOYER_COURT_EFFECTS: "#S Effects on [Character.Custom('GetCourtOwnerConcept')]'s [Character.Custom('GetRealmOrDomicileConcept')]:#!#indent_newline:2 \n[CourtPosition.GetEmployerCourtBonuses]#!"
+### TODO AGOT-CHANGED: COURT_POSITION_APPOINT_EMPLOYER_COURT_EFFECTS [AGOT: #S Effects on [GetPlayer.Custom('GetCourtOwnerConcept')]'s [GetPlayer.Custom('GetRealmOrDomicileConcept')]:#!#indent_newline:2 \n[AppointCourtPositionView.GetLiegeCourtModifierForPositionType( AppointCourtPositionView.GetSelectedCharacter.Self )]#! | TR: #S [GetPlayer.Custom('GetCourtOwnerConcept')] kontrolündeki [GetPlayer.Custom('GetRealmOrDomicileConcept')] üzerindeki etkisi:#!#indent_newline:2 \n[AppointCourtPositionView.GetLiegeCourtModifierForPositionType( AppointCourtPositionView.GetSelectedCharacter.Self )]#!]
+ COURT_POSITION_APPOINT_EMPLOYER_COURT_EFFECTS: "#S Effects on [GetPlayer.Custom('GetCourtOwnerConcept')]'s [GetPlayer.Custom('GetRealmOrDomicileConcept')]:#!#indent_newline:2 \n[AppointCourtPositionView.GetLiegeCourtModifierForPositionType( AppointCourtPositionView.GetSelectedCharacter.Self )]#!"
+ nomad_salary_mod: "[nomad|E]"
+ small_realm_salary_mod:0 "Kayda Değer [realm_size|E] #low (30+)#!"
+ large_realm_salary_mod:0 "Çok Yüksek [realm_size|E] #low (90+)#!"
+ enormous_realm_salary_mod:0 "Aşırı [realm_size|E] #low (120+)#!"
+ COURT_POSITION_APTITUDE_TOOLTIP_HEADER:0 "Yatkınlık"
+### TODO AGOT-CHANGED: court_poet_skald [AGOT: Court Skald | TR: Skald]
+ court_poet_skald: "Court Skald"
+### TODO AGOT-CHANGED: court_poet_skald_desc [AGOT: The $court_poet_skald$ is a connoisseur of words and verse, providing their Liege and all at court with entertainment, intellectual stimulation, and emotional experiences. | TR: $court_poet_skald$, kelime ve kafiyelerde ustadır, süzerenine ve saraydaki herkese eğlence, zihinsel canlılık ve duygusal deneyimler sunar.]
+ court_poet_skald_desc: "The $court_poet_skald$ is a connoisseur of words and verse, providing their Liege and all at court with entertainment, intellectual stimulation, and emotional experiences."
+ COURT_POSITIONS_YOUR_SALARY:0 "$COURT_POSITION$"
+### TODO AGOT-CHANGED: IS_NOT_APPLICABLE_DIARCH_COURT_POSITION [AGOT: They are #bold not#! currently [sharing_power|E] or in a [line_of_succession|E] to [share_power|E] | TR: Hâlihazırda [Concept('sharing_power', 'Güç Paylaşımı')|E] içerisinde veya [Concept('share_power', 'Güç Paylaşmak')|E] için [Concept('line_of_succession', 'Veraset Sırasında')|E] #bold değiller#!]
+ IS_NOT_APPLICABLE_DIARCH_COURT_POSITION: "They are #bold not#! currently [sharing_power|E] or in a [line_of_succession|E] to [share_power|E]"
+### TODO AGOT-CHANGED: IS_NOT_GONE_ADVENTURING [AGOT: They have #bold not#! gone adventuring | TR: Maceraya #bold çıkmadılar#!]
+ IS_NOT_GONE_ADVENTURING: "They have #bold not#! gone adventuring"
+### TODO AGOT-CHANGED: caravan_master_prepare_travels [AGOT: Stock Up for Travels | TR: Seyahat İçin Hazırlık Yapma]
+ caravan_master_prepare_travels: "Stock Up for Travels"
+### TODO AGOT-CHANGED: caravan_master_prepare_travels_desc [AGOT: This character is tasked with preparing for their liege's next journey. | TR: Bu karakter süzereninin bir sonraki seyahati için hazırlıklar yapmakla görevlendirilmiştir.]
+ caravan_master_prepare_travels_desc: "This character is tasked with preparing for their liege's next journey."
+### TODO AGOT-CHANGED: caravan_master_prepare_travels_tt [AGOT: @travel_safety_icon![travel_safety|E] and @travel_speed_icon![travel_speed|E] will be increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value')]#! next time you [travel|E] #weak (This value is increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_change_value')]#! every month, up to #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_max_value')]#!)#! | TR: Bir sonraki [Concept('travel', 'Seyahatinizde')|E] @travel_safety_icon![travel_safety|E] ve @travel_speed_icon![travel_speed|E] #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value')]#! artacak #weak (Bu değer, en fazla #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_max_value')]#! olmak üzere her ay #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_change_value')]#! artış gösterir)#!]
+ caravan_master_prepare_travels_tt: "@travel_safety_icon![travel_safety|E] and @travel_speed_icon![travel_speed|E] will be increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value')]#! next time you [travel|E] #weak (This value is increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_change_value')]#! every month, up to #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_max_value')]#!)#!"
+### TODO AGOT-CHANGED: caravan_master_prepare_travels_fallback_tt [AGOT: @travel_safety_icon![travel_safety|E] and @travel_speed_icon![travel_speed|E] will be increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value_employer')]#! next time you [travel|E] #weak (The value is increased by #P +0.3/+2#! every month, up to #P +3/+20#!)#! | TR: Bir sonraki [Concept('travel', 'Seyahatinizde')|E] @travel_safety_icon![travel_safety|E] ve @travel_speed_icon![travel_speed|E] #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value_employer')]#! artacak #weak (Bu değer en fazla #P +3/+20#! olmak üzere her ay #P +0.3/+2#! artış gösterir)#!]
+ caravan_master_prepare_travels_fallback_tt: "@travel_safety_icon![travel_safety|E] and @travel_speed_icon![travel_speed|E] will be increased by #P +[SCOPE.ScriptValue('caravan_master_prepare_travels_current_value_employer')]#! next time you [travel|E] #weak (The value is increased by #P +0.3/+2#! every month, up to #P +3/+20#!)#!"
+### TODO AGOT-CHANGED: MODIFIER_DEFINITION_PREPARE_TRAVELS_VALUE [AGOT: \n#emp Multiplier:#! #bold $MULTIPLIER|0$#! | TR: \n#emp Çarpan:#! #bold $MULTIPLIER|0$#!]
+ MODIFIER_DEFINITION_PREPARE_TRAVELS_VALUE: "\n#emp Multiplier:#! #bold $MULTIPLIER|0$#!"
+### TODO AGOT-CHANGED: wet_nurse_age_tt [AGOT: They are under the age of #V 46#! | TR: #V 46#! yaşının altındalar]
+ wet_nurse_age_tt: "They are under the age of #V 46#!"
+### TODO AGOT-CHANGED: ALL_COURT_POSITIONS_FILTER [AGOT: All positions | TR: Tüm pozisyonlar]
+ ALL_COURT_POSITIONS_FILTER: "All positions"
+### TODO AGOT-CHANGED: COURT_POSITION_HAS_TASKS_FILTER [AGOT: Positions with tasks | TR: Görevli pozisyonlar]
+ COURT_POSITION_HAS_TASKS_FILTER: "Positions with tasks"
+### TODO AGOT-CHANGED: yearly_legend_seed_tt [AGOT: Every year you will have a random chance to gain a [legend_seed|E]. Higher levels of [aptitude|E] will increase the chances of this occurring. | TR: Her yıl rastgele bir [legend_seed|E] kazanma şansınız olacak. [aptitude|E] seviyesi yükseldikçe bu olasılık da artar.]
+ yearly_legend_seed_tt: "Every year you will have a random chance to gain a [legend_seed|E]. Higher levels of [aptitude|E] will increase the chances of this occurring."
+### TODO AGOT-CHANGED: yearly_legend_spread_tt [AGOT: Every year, one of your [vassals|E] or neighboring [rulers|E] may make your legend their [promoted_legend|E]. Higher levels of [aptitude|E] will increase the chances of this occurring. | TR: Her yıl [Concept( 'vassals', 'vasallarınızdan' )|E] veya komşu [Concept( 'rulers', 'hükümdarlardan' )|E] biri sizin destanınızı kendi [Concept( 'promoted_legend', 'desteklediği destan' )|E] yapabilir. [aptitude|E] seviyesi yükseldikçe bu olasılık da artar.]
+ yearly_legend_spread_tt: "Every year, one of your [vassals|E] or neighboring [rulers|E] may make your legend their [promoted_legend|E]. Higher levels of [aptitude|E] will increase the chances of this occurring."
+### TODO AGOT-CHANGED: bookmaker_cook_the_books [AGOT: Cook the Books | TR: Oranlarla Oyna]
+ bookmaker_cook_the_books: "Cook the Books"
+### TODO AGOT-CHANGED: bookmaker_cook_the_books_desc [AGOT: This character will ensure that betting outcomes at a [GetActivityType('activity_chariot_race').GetName] are always in your favor | TR: Bu karakter [GetActivityType('activity_chariot_race').GetName] sırasında bahis oranlarının her zaman sizin yararınıza olmasını sağlar]
+ bookmaker_cook_the_books_desc: "This character will ensure that betting outcomes at a [GetActivityType('activity_chariot_race').GetName] are always in your favor"
+### TODO AGOT-CHANGED: court_brewmaster_task_cooldown [AGOT: This task cannot be initiated until #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( liege.MakeScope, 'experimental_brew_cooldown') )]#! | TR: Bu görev #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( liege.MakeScope, 'experimental_brew_cooldown') )]#! tarihine kadar yapılamaz]
+ court_brewmaster_task_cooldown: "This task cannot be initiated until #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( liege.MakeScope, 'experimental_brew_cooldown') )]#!"
+### TODO AGOT-CHANGED: eparch_appease_populace [AGOT: Appease Populace | TR: Halkı Yatıştırma]
+ eparch_appease_populace: "Appease Populace"
+### TODO AGOT-CHANGED: eparch_appease_populace_desc [AGOT: The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will attend to the needs of the citizens of the capital. | TR: [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] başkent halkının ihtiyaçlarını karşılamakla görevlendirilecektir.]
+ eparch_appease_populace_desc: "The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will attend to the needs of the citizens of the capital."
+### TODO AGOT-CHANGED: eparch_support_troops [AGOT: Support Troops | TR: Garnizonu Destekleme]
+ eparch_support_troops: "Support Troops"
+### TODO AGOT-CHANGED: eparch_support_troops_desc [AGOT: The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will oversee the organization of the local garrisons and ensure an effective command. | TR: [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] yerel garnizonların organizasyonunu denetlemekle görevlendirilecektir.]
+ eparch_support_troops_desc: "The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will oversee the organization of the local garrisons and ensure an effective command."
+### TODO AGOT-CHANGED: eparch_development [AGOT: Develop Capital | TR: Başkenti Geliştirme]
+ eparch_development: "Develop Capital"
+### TODO AGOT-CHANGED: eparch_development_desc [AGOT: The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will put the city's administrators to good use to develop and improve the city. | TR: [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] başkent idarecilerinin başkenti geliştirmek için çalışmalarını sağlamakla görevlendirilecektir.]
+ eparch_development_desc: "The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will put the city's administrators to good use to develop and improve the city."
+ eparch_base_desc: "$EFFECT_LIST_BULLET$[governor_efficiency|E]"
+### TODO AGOT-CHANGED: eparch_poor_desc [AGOT: $eparch_base_desc$: #P +4%#!\n$eparch_base_family_desc$: #P +2%#! | TR: $eparch_base_desc$: #P +4%#!\n$eparch_base_family_desc$: #P +2%#!]
+ eparch_poor_desc: "$eparch_base_desc$: #P +4%#!\n$eparch_base_family_desc$: #P +2%#!"
+### TODO AGOT-CHANGED: eparch_average_desc [AGOT: $eparch_base_desc$: #P +6%#!\n$eparch_base_family_desc$: #P +3%#! | TR: $eparch_base_desc$: #P +6%#!\n$eparch_base_family_desc$: #P +3%#!]
+ eparch_average_desc: "$eparch_base_desc$: #P +6%#!\n$eparch_base_family_desc$: #P +3%#!"
+### TODO AGOT-CHANGED: eparch_good_desc [AGOT: $eparch_base_desc$: #P +8%#!\n$eparch_base_family_desc$: #P +4%#! | TR: $eparch_base_desc$: #P +8%#!\n$eparch_base_family_desc$: #P +4%#!]
+ eparch_good_desc: "$eparch_base_desc$: #P +8%#!\n$eparch_base_family_desc$: #P +4%#!"
+### TODO AGOT-CHANGED: eparch_excellent_desc [AGOT: $eparch_base_desc$: #P +10%#!\n$eparch_base_family_desc$: #P +5%#! | TR: $eparch_base_desc$: #P +10%#!\n$eparch_base_family_desc$: #P +5%#!]
+ eparch_excellent_desc: "$eparch_base_desc$: #P +10%#!\n$eparch_base_family_desc$: #P +5%#!"
+### TODO AGOT-CHANGED: eparch_range_desc [AGOT: $eparch_base_desc$: #P +2%#! to #P +10%#! (based on [aptitude|E])\n$eparch_base_family_desc$: #P +1%#! to #P +5%#! (based on [aptitude|E]) | TR: $eparch_base_desc$: #P +2%#! ila #P +10%#! ([Concept('aptitude', 'Yatkınlığa')|E] bağlı olarak)\n$eparch_base_family_desc$: #P +1%#! ila #P +5%#! ([Concept('aptitude', 'Yatkınlığa')|E] bağlı olarak)]
+ eparch_range_desc: "$eparch_base_desc$: #P +2%#! to #P +10%#! (based on [aptitude|E])\n$eparch_base_family_desc$: #P +1%#! to #P +5%#! (based on [aptitude|E])"
+### TODO AGOT-CHANGED: eparch_custom_effect_desc [AGOT: $EFFECT_LIST_BULLET$The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will oversee the capital's administration | TR: $EFFECT_LIST_BULLET$[GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] başkentin idaresini denetleyecek]
+ eparch_custom_effect_desc: "$EFFECT_LIST_BULLET$The [GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] will oversee the capital's administration"
+### TODO AGOT-CHANGED: landless_government_tt [AGOT: You are an [adventurer|E] | TR: [Concept('adventurer', 'Maceracısınız')|E]]
+ landless_government_tt: "You are an [adventurer|E]"
+### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_GRAND_GUARDIAN_APTITUDE [AGOT: \t#weak Increase per $grand_guardian_court_position$ [aptitude|E] level#! | TR: \t#weak $grand_guardian_court_position$ [Concept('aptitude', 'Yatkınlığı')|E] doğrultusunda artış#!]
+ MODIFIER_DEFINITION_VALUE_GRAND_GUARDIAN_APTITUDE: " \t#weak Increase per $grand_guardian_court_position$ [aptitude|E] level#!"

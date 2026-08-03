@@ -1,0 +1,53 @@
+﻿l_english:
+ TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "[TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E] gerekiyor\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
+ TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+ TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
+ TRAIT_LEVEL_TRACK_TT:2 "#T [TraitLevelTrack.GetName]#!\nMevcut Seviye: [Character.GetTraitTrackLevel( Trait.Self, TraitLevelTrack.Self )|V] #weak ([ComplexBar.GetCurrentValue] [trait_level_track_xp|E])#!\n#flavor [TraitLevelTrack.GetDescription]#![AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)0' ), 'TRAIT_LEVEL_TRACK_ENTRY_DESC_TT' )]"
+ TRAIT_LEVEL_TRACK_SHORT_TT:0 "#T [TraitLevelTrack.GetName] [Trait.GetName( Character.Self )]#!\n#flavor [TraitLevelTrack.GetDescription]#!"
+ TRAIT_LEVEL_TRACK_PROGRESS_TOOTLIP:0 "#T [TraitLevelTrack.GetName]#!\nMevcut [trait_level_track_xp|E]: [ComplexBar.GetNextValue|0V]\n#flavor [TraitLevelTrack.GetDescription]#!"
+ TRAIT_LEVEL_TRACKS_HEADER:0 "[Trait.GetNameNoTooltipWithDefault( Character.Self )] [trait_level_track|E]"
+ TRAIT_LEVEL_TRACK_HEADER:0 "#V #bold [TraitLevelTrack.GetName]#!#!\n#flavor [TraitLevelTrack.GetDescription]#!\n"
+ ALREADY_CONTAINTS_TRAIT:2 "@warning_icon! #X $CHARACTER_NAME$ zaten [TRAIT.GetName( CHARACTER.Self )] özelliğine sahip.#!"
+ CONTAINTS_OPPOSITE_TRAIT:2 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ onun karşıtı olan [TRAIT_2.GetName( CHARACTER.Self )] özelliğine sahip.#!"
+ IS_POTENTIAL_TRAIT_FALSE:2 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ adlı karakterin ona sahip olması engellenmiş.#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG:0 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ daha $TRAIT_AGE|V$ yaşına girmemiş #weak ($CHARACTER_AGE|V$ yaşında)#!#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_OLD:0 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ $TRAIT_AGE|V$ yaşından daha yaşlı #weak ($CHARACTER_AGE|V$ yaşında)#!#!"
+ TRAIT_SEX_NOT_MATCHING:0 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ $TRAIT_SEX$ değil#!"
+ ALREADY_HAS_TRAIT_IN_GROUP:0 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ zaten [TRAIT_GROUP.GetName] grubunda bir özelliğe sahip #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
+ SEX_MALE:0 "Erkek"
+ SEX_FEMALE:0 "Kadın"
+### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_death_on_max_level [AGOT: #indent_newline:7 @alert_icon! #alert_trial If the [trait_level_track|E] reaches level #V 4#!, they will [character_death_die|E]#!#! | TR: #indent_newline:7 @alert_icon! #alert_trial Bu [trait_level_track|E] #V 4#!. seviyeye ulaşırsa karakter [Concept('character_death_die', 'Ölür')|E]#!#!]
+ TRAIT_FLAG_DESC_death_on_max_level: "#indent_newline:7 @alert_icon! #alert_trial If the [trait_level_track|E] reaches level #V 4#!, they will [character_death_die|E]#!#!"
+ TRAIT_ENTRY_INHERITANCE_INFO:1 "[MatchmakerTraitInfo.GetInheritanceInfo]"
+ TRAIT_INHERITANCE_GUARANTEED_ONE:0 "#weak En az bir ebeveyn bu özelliğe sahip olduğundan kalıtımsal olarak aktarılacak.#!"
+ TRAIT_INHERITANCE_GUARANTEED_BOTH:0 "#weak İki ebeveyn de bu özelliğe sahip olduğundan kalıtımsal olarak aktarılacak.#!"
+ TRAIT_INHERITANCE_GUARANTEED_CONGENITAL:0 "#weak İki ebeveyn de bu özelliğe sahip olduğundan kalıtımsal olarak aktarılacak.#!"
+ TRAIT_INHERITANCE_POSSIBLE_CONGENITAL:0 "#weak Bir ebeveyn bu özelliğe sahip olduğundan kalıtımsal olarak aktarılabilir.#!"
+ TRAIT_INHERITANCE_POSSIBLE_ONE:0 "#weak En az bir ebeveyn bu özelliğe sahip olduğundan kalıtımsal olarak aktarılabilir.#!"
+ TRAIT_INHERITANCE_POSSIBLE_BOTH:0 "#weak İki ebeveyn de bu özelliğe sahip olduğundan kalıtımsal olarak aktarılabilir.#!"
+ TRAIT_INHERITANCE_UPGRADE_POSSIBLE:0 "#weak Bu özellik daha da şiddetlenip [TRAIT.GetName( CHARACTER.Self )] hâline gelebilir.#!"
+### TODO AGOT-CHANGED: the_wake [AGOT: The Wake | TR: Uyanık]
+ the_wake: "The Wake"
+### TODO AGOT-CHANGED: the_wake_1 [AGOT: Exiled | TR: Sürgün]
+ the_wake_1: "Exiled"
+### TODO AGOT-CHANGED: the_wake_2 [AGOT: The Outlaw | TR: Kanunsuz]
+ the_wake_2: "The Outlaw"
+### TODO AGOT-CHANGED: the_wake_3 [AGOT: The Butcher | TR: Kasap]
+ the_wake_3: "The Butcher"
+### TODO AGOT-CHANGED: the_wake_4 [AGOT: The Ankou | TR: Ankou]
+ the_wake_4: "The Ankou"
+ the_wake_5: "$the_wake$"
+### TODO AGOT-CHANGED: the_wake_1_desc [AGOT: Pity young Hereweard, the exiled noble. A man without a purpose, a listless drifter. So much potential, left so unfulfilled. | TR: Zavallı genç Hereweard, sürgündeki soylu. Amacı olmayan bir adam, kaygısız bir serseri. O kadar çok şey yapabilir ki.]
+ the_wake_1_desc: "Pity young Hereweard, the exiled noble. A man without a purpose, a listless drifter. So much potential, left so unfulfilled."
+### TODO AGOT-CHANGED: the_wake_2_desc [AGOT: A purpose found, but much work has to be done. Bloody work, until the muddy Fens run red with outsiders' blood. | TR: Bir amaç bulundu ama yapılması gereken çok iş var. Çamurlu Fens yabancıların kanıyla kıpkırmızı olana kadar devam edecek bir iş.]
+ the_wake_2_desc: "A purpose found, but much work has to be done. Bloody work, until the muddy Fens run red with outsiders' blood."
+### TODO AGOT-CHANGED: the_wake_3_desc [AGOT: Lesser men wallow and drown in the sticky, stinking bogs this one hails from. Some even whisper that he can walk on the surface of any marsh, such is his mastery of the meres. | TR: Daha önemsiz kişiler bu adamın geldiği pis kokulu bataklıklarda debelenir ve boğulur. Bazıları onun bataklıkların üzerinde yürüyebildiğini bile iddia ediyor.]
+ the_wake_3_desc: "Lesser men wallow and drown in the sticky, stinking bogs this one hails from. Some even whisper that he can walk on the surface of any marsh, such is his mastery of the meres."
+### TODO AGOT-CHANGED: the_wake_4_desc [AGOT: Terrified young children are spun tales of the prowling beast in the Fens, that they might not wander too far from safety. | TR: Küçük çocuklara, evlerinden fazla uzaklaşmamaları için Fens'te sinsice dolaşan bir canavarın masalları anlatılır.]
+ the_wake_4_desc: "Terrified young children are spun tales of the prowling beast in the Fens, that they might not wander too far from safety."
+### TODO AGOT-CHANGED: the_wake_5_desc [AGOT: The dark shadow in the gloaming stalks the land, always watchful, always alert. Hereweard the Bloody, Hereweard the Feared. Hereweard the Wake. | TR: Karanlığın içindeki gölge, her zaman uyanık, her zaman tetikte etrafta dolaşır. Kanlı Hereweard, Korkulan Hereweard. Uyanık Hereweard.]
+ the_wake_5_desc: "The dark shadow in the gloaming stalks the land, always watchful, always alert. Hereweard the Bloody, Hereweard the Feared. Hereweard the Wake."
+### TODO AGOT-CHANGED: unlock_maa_heavy_horse_archers [AGOT: Can recruit [GetMaA('heavy_horse_archers').GetName] as [men_at_arms|E] | TR: [men_at_arms|E] olarak [GetMaA('heavy_horse_archers').GetName] birimini üretebilir]
+ unlock_maa_heavy_horse_archers: "Can recruit [GetMaA('heavy_horse_archers').GetName] as [men_at_arms|E]"
+### TODO AGOT-CHANGED: unlock_maa_nomad_lancers [AGOT: Can recruit [GetMaA('nomad_lancers').GetName] as [men_at_arms|E] | TR: [men_at_arms|E] olarak [GetMaA('nomad_lancers').GetName] birimini üretebilir]
+ unlock_maa_nomad_lancers: "Can recruit [GetMaA('nomad_lancers').GetName] as [men_at_arms|E]"

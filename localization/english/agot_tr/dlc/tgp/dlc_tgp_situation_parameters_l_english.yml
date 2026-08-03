@@ -1,0 +1,34 @@
+﻿l_english:
+### TODO AGOT-CHANGED: SITUATION_DYNASTIC_CYCLE_FROM_UNSTABLE_ERA [AGOT: China enters this $game_concept_dynastic_cycle_era_short$ from either [dynastic_cycle_era_type_unstable|E] if enough [situation_catalyst_catalysts|E] trigger. | TR: Yeterince [situation_catalyst_catalyst|E] tetiklenirse, Çin bu devre [Concept('dynastic_cycle_era_type_unstable', 'Çalkantılı Devirlerden')|E] sonra girer.]
+ SITUATION_DYNASTIC_CYCLE_FROM_UNSTABLE_ERA: "China enters this $game_concept_dynastic_cycle_era_short$ from either [dynastic_cycle_era_type_unstable|E] if enough [situation_catalyst_catalysts|E] trigger."
+### TODO AGOT-CHANGED: unlockables_advancement [AGOT: $BULLET_WITH_TAB$Gains access to #V $boost_efficiency_interaction$#! [interaction|E]\n$BULLET_WITH_TAB$$scholarly_inspiration_frequency_desc$\n$BULLET_WITH_TAB$Increased [aptitude|E] of [GetCourtPositionType('court_poet_court_position').GetName] [court_position|E]\n$BULLET_WITH_TAB$Gains access to [GetDecisionWithKey('tgp_japan_become_a_poet_decision').GetName] [decision|E]\n$BULLET_WITH_TAB$Gains access to [GetDecisionWithKey('diligent_development_focus_decision').GetName] [decision|E] | TR: $BULLET_WITH_TAB$#V $boost_efficiency_interaction$#! [Concept('interaction', 'Etkileşimi')|E] açılır\n$BULLET_WITH_TAB$$scholarly_inspiration_frequency_desc$\n$BULLET_WITH_TAB$[GetCourtPositionType('court_poet_court_position').GetName] [court_position|E] için [aptitude|E] artar\n$BULLET_WITH_TAB$[GetDecisionWithKey('tgp_japan_become_a_poet_decision').GetName] [Concept('decision', 'Kararı')|E] açılır\n$BULLET_WITH_TAB$[GetDecisionWithKey('diligent_development_focus_decision').GetName] [Concept('decision', 'Kararı')|E] açılır]
+ unlockables_advancement: "$BULLET_WITH_TAB$Gains access to #V $boost_efficiency_interaction$#! [interaction|E]\n$BULLET_WITH_TAB$$scholarly_inspiration_frequency_desc$\n$BULLET_WITH_TAB$Increased [aptitude|E] of [GetCourtPositionType('court_poet_court_position').GetName] [court_position|E]\n$BULLET_WITH_TAB$Gains access to [GetDecisionWithKey('tgp_japan_become_a_poet_decision').GetName] [decision|E]\n$BULLET_WITH_TAB$Gains access to [GetDecisionWithKey('diligent_development_focus_decision').GetName] [decision|E]"
+### TODO AGOT-CHANGED: hegemon_effects [AGOT: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler').GetNameNoTooltip] Effects#! | TR: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler').GetNameNoTooltip] Etkileri#!]
+ hegemon_effects: "#bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler').GetNameNoTooltip] Effects#!"
+ hegemon_effects_concept: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler').GetName]"
+### TODO AGOT-CHANGED: pro_hegemon_movement_effects [AGOT: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('pro_hegemon_movement').GetNameNoTooltip] Effects#! | TR: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('pro_hegemon_movement').GetNameNoTooltip] Etkileri#!]
+ pro_hegemon_movement_effects: "#bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('pro_hegemon_movement').GetNameNoTooltip] Effects#!"
+### TODO AGOT-CHANGED: advancement_movement_effects [AGOT: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetNameNoTooltip] Effects#! | TR: #bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetNameNoTooltip] Etkileri#!]
+ advancement_movement_effects: "#bold [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetNameNoTooltip] Effects#!"
+ pro_hegemon_movement_effects_concept: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('pro_hegemon_movement').GetName]"
+ advancement_movement_effects_concept: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetName]"
+### TODO AGOT-CHANGED: hegemon_vassals_effects [AGOT: #bold Vassals Effects#! | TR: #bold Vasal Etkileri#!]
+ hegemon_vassals_effects: "#bold Vassals Effects#!"
+ hegemon_vassals_effects_concept: "[vassals|E]"
+### TODO AGOT-CHANGED: other_rulers_effects [AGOT: #bold Other Rulers Effects#! | TR: #bold Diğer Hükümdar Etkileri#!]
+ other_rulers_effects: "#bold Other Rulers Effects#!"
+ other_rulers_effects_concept: "[ruler|E]"
+### TODO AGOT-CHANGED: culture_effects [AGOT: #bold Culture Effects#! | TR: #bold Kültür Etkileri#!]
+ culture_effects: "#bold Culture Effects#!"
+ culture_effects_concept: "[culture|E]"
+### TODO AGOT-CHANGED: other_effects [AGOT: #bold Other Effects#! | TR: #bold Diğer Etkenler#!]
+ other_effects: "#bold Other Effects#!"
+### TODO AGOT-CHANGED: other_effects_concept [AGOT: #bold Other Effects#! | TR: #bold Diğer Etkileri#!]
+ other_effects_concept: "#bold Other Effects#!"
+ new_movement_becomes_favored_power_decrease: "[movement_to_be_unfavored.GetName] [movement_power_i][movement_power_short|E]: [EmptyScope.ScriptValue('high_movement_power_loss')|=+0]"
+ new_movement_becomes_favored_desc_global: "$new_movement_becomes_favored_desc_third$"
+ new_movement_becomes_favored_desc_global_past: "$new_movement_becomes_favored_desc_third_past$"
+### TODO AGOT-CHANGED: make_movement_leader_effect_desc_global [AGOT: [CHARACTER.GetShortUIName|U] becomes the [movement_leader|E] of the [SITUATION_PARTICIPANT_GROUP.GetName] | TR: [CHARACTER.GetShortUIName|U], [SITUATION_PARTICIPANT_GROUP.GetName] için [movement_leader|E] olur]
+ make_movement_leader_effect_desc_global: "[CHARACTER.GetShortUIName|U] becomes the [movement_leader|E] of the [SITUATION_PARTICIPANT_GROUP.GetName]"
+### TODO AGOT-CHANGED: make_movement_leader_effect_desc_global_past [AGOT: [CHARACTER.GetShortUIName|U] became the [movement_leader|E] of the [SITUATION_PARTICIPANT_GROUP.GetName] | TR: [CHARACTER.GetShortUIName|U], [SITUATION_PARTICIPANT_GROUP.GetName] için [movement_leader|E] oldu]
+ make_movement_leader_effect_desc_global_past: "[CHARACTER.GetShortUIName|U] became the [movement_leader|E] of the [SITUATION_PARTICIPANT_GROUP.GetName]"

@@ -1,0 +1,325 @@
+﻿l_english:
+### TODO AGOT-CHANGED: SCHEME_MODIFIERS [AGOT: Scheme Modifiers | TR: Plan Etkileri]
+ SCHEME_MODIFIERS: "Scheme Modifiers"
+ SCHEME_AGENT_GOLD:0 "[gold_i] Rüşvet"
+ SCHEME_AGENT_TREASURY:0 "[treasury_i] [treasury|E] Aktarımı"
+### TODO AGOT-CHANGED: SCHEME_AGENT_TREASURY_BRIBE [AGOT: [treasury_i] Bribe | TR: [treasury_i] Rüşvet]
+ SCHEME_AGENT_TREASURY_BRIBE: "[treasury_i] Bribe"
+ SCHEME_HOOK:1 "[hook_i][hook|e] kullan"
+### TODO AGOT-CHANGED: SCHEME_HOOK_EXPLICIT [AGOT: [hook_i] Use your [hook|E] on #EMP them#! | TR: [hook_i] #EMP Onun#! üzerinde [Concept( 'hook', 'kozunuzu' )|E] kullanın]
+ SCHEME_HOOK_EXPLICIT: "[hook_i] Use your [hook|E] on #EMP them#!"
+### TODO AGOT-CHANGED: SCHEME_AGENT_GOLD_SIGNIFICANT [AGOT: [gold_i] #EMP Hefty#! Bribe | TR: [gold_i] #EMP Bol#! Rüşvet]
+ SCHEME_AGENT_GOLD_SIGNIFICANT: "[gold_i] #EMP Hefty#! Bribe"
+### TODO AGOT-CHANGED: SCHEME_AGENT_TREASURY_SIGNIFICANT_BRIBE [AGOT: [treasury_i] #EMP Hefty#! Bribe | TR: [treasury_i] #EMP Bol#! Rüşvet]
+ SCHEME_AGENT_TREASURY_SIGNIFICANT_BRIBE: "[treasury_i] #EMP Hefty#! Bribe"
+### TODO AGOT-CHANGED: SCHEME_AGENT_HOOK [AGOT: [hook_i] Offer a [hook|E] on yourself | TR: [hook_i] Kendinizin üzerinde [hook|E] teklif edin]
+ SCHEME_AGENT_HOOK: "[hook_i] Offer a [hook|E] on yourself"
+### TODO AGOT-CHANGED: SCHEME_AGENT_HOOK_STRONG [AGOT: [strong_hook_i] Offer a [strong_hook|E] on yourself | TR: [strong_hook_i] Kendinizin üzerinde [strong_hook|E] teklif edin]
+ SCHEME_AGENT_HOOK_STRONG: "[strong_hook_i] Offer a [strong_hook|E] on yourself"
+### TODO AGOT-CHANGED: SCHEME_AGENT_OPPORTUNITIES_T1 [AGOT: [intrigue_i] Leverage your [scheme_opportunities|E] #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t1_value')])#! | TR: [intrigue_i] [Concept( 'scheme_opportunities', 'Plan İlerlemenizi' )|E] kullanın #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t1_value')])#!]
+ SCHEME_AGENT_OPPORTUNITIES_T1: "[intrigue_i] Leverage your [scheme_opportunities|E] #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t1_value')])#!"
+### TODO AGOT-CHANGED: SCHEME_AGENT_OPPORTUNITIES_T2 [AGOT: [intrigue_i] Leverage your [scheme_opportunities|E] #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t2_value')])#! | TR: [intrigue_i] [Concept( 'scheme_opportunities', 'Plan İlerlemenizi' )|E] kullanın #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t2_value')])#!]
+ SCHEME_AGENT_OPPORTUNITIES_T2: "[intrigue_i] Leverage your [scheme_opportunities|E] #WEAK (x[EmptyScope.ScriptValue('invite_agent_opportunities_t2_value')])#!"
+### TODO AGOT-CHANGED: SCHEME_AGENT_PRESTIGE [AGOT: [prestige_i] Offer your [prestigious|E] good word | TR: [prestige_i] [prestigious|E] övgüler teklif edin]
+ SCHEME_AGENT_PRESTIGE: "[prestige_i] Offer your [prestigious|E] good word"
+### TODO AGOT-CHANGED: SCHEME_AGENT_INFLUENCE [AGOT: [influence_i] Offer your [influential|E] connections | TR: [influence_i] [influential|E] bağlantılarınızı teklif edin]
+ SCHEME_AGENT_INFLUENCE: "[influence_i] Offer your [influential|E] connections"
+### TODO AGOT-CHANGED: SCHEME_AGENT_COUNCIL_RIGHTS [AGOT: [council_i] Offer a guaranteed seat on your [council|E] | TR: [council_i] [Concept( 'council', 'Konseyinizde' )|E] konum teklif edin]
+ SCHEME_AGENT_COUNCIL_RIGHTS: "[council_i] Offer a guaranteed seat on your [council|E]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_DE_JURE_TITLE [AGOT: @titles_icon! Grant them a [county|E] you hold that's [de_jure|E] theirs | TR: @titles_icon! Ona [de_jure|E] onun olan bir [county|E] verin]
+ SCHEME_AGENT_DE_JURE_TITLE: "@titles_icon! Grant them a [county|E] you hold that's [de_jure|E] theirs"
+### TODO AGOT-CHANGED: SCHEME_AGENT_CLAIMED_TITLE [AGOT: [pressed_claim_i] Grant them a [county|E] you hold that they [claim|E] | TR: [pressed_claim_i] [Concept( 'claim', 'Hak' )|E] iddia ettiği ve sahip olduğunuz bir [county|E] verin]
+ SCHEME_AGENT_CLAIMED_TITLE: "[pressed_claim_i] Grant them a [county|E] you hold that they [claim|E]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_PIETY [AGOT: [piety_i] Leverage your [pious|E] reputation | TR: [piety_i] [pious|E] itibarınızı kullanın]
+ SCHEME_AGENT_PIETY: "[piety_i] Leverage your [pious|E] reputation"
+### TODO AGOT-CHANGED: SCHEME_AGENT_HERD [AGOT: [herd_i] Offer a part of your [herd|E] | TR: [herd_i] [Concept('herd', 'Sürünüzün')|E] bir kısmını önerin]
+ SCHEME_AGENT_HERD: "[herd_i] Offer a part of your [herd|E]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_MANDALA_TRICKSTER [AGOT: Leverage your [aspect_of_trickery|E] | TR: [Concept('aspect_of_trickery', 'Hile Esasından')|E] faydalan]
+ SCHEME_AGENT_MANDALA_TRICKSTER: "Leverage your [aspect_of_trickery|E]"
+### TODO AGOT-CHANGED: scheme_change_herd_value [AGOT: Loses [herd_i][SCOPE.ScriptValue('herd_bribe_value')|0N] [herd|E] | TR: [herd_i][SCOPE.ScriptValue('herd_bribe_value')|0N] [herd|E] kaybedilecek]
+ scheme_change_herd_value: "Loses [herd_i][SCOPE.ScriptValue('herd_bribe_value')|0N] [herd|E]"
+ SCHEME_TT_HEADER:0 "#T [SCHEME.GetFullActionName]#!"
+### TODO AGOT-CHANGED: SCHEME_TT_BODY [AGOT: Target: [SCHEME.GetTarget.GetName]\nCurrent [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\nCurrent [scheme_opportunity_opportunities|E]: [SCHEME.GetAgentCharges|V]\n[scheme_phase|E] Duration: [SCHEME.GetProgressGoal|V] #V days#! | TR: Hedef: [SCHEME.GetTarget.GetName]\nMevcut [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\nMevcut [scheme_opportunity_opportunity|E]: [SCHEME.GetAgentCharges|V]\n[scheme_phase|E] Süresi: [SCHEME.GetProgressGoal|V] #V gün#!]
+ SCHEME_TT_BODY: "Target: [SCHEME.GetTarget.GetName]\nCurrent [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\nCurrent [scheme_opportunity_opportunities|E]: [SCHEME.GetAgentCharges|V]\n[scheme_phase|E] Duration: [SCHEME.GetProgressGoal|V] #V days#!"
+### TODO AGOT-CHANGED: SCHEME_TT_BODY_BASIC [AGOT: Target: [SCHEME.GetTarget.GetName]\nCurrent [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\n[scheme_phase|E] Duration: [SCHEME.GetProgressGoal|V] #V days#! | TR: Hedef: [SCHEME.GetTarget.GetName]\nMevcut [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\n[scheme_phase|E] Süresi: [SCHEME.GetProgressGoal|V] #V gün#!]
+ SCHEME_TT_BODY_BASIC: "Target: [SCHEME.GetTarget.GetName]\nCurrent [success_chance|E]: $SUCCESS_CHANCE|%/0V$\n[scheme_potential|E]: [SCHEME.GetMaxSuccessChance|%/0V]\n[scheme_phase|E] Duration: [SCHEME.GetProgressGoal|V] #V days#!"
+ SCHEME_TT_SECRECY:0 "[secrecy|E]: #V %$SECRECY$#!"
+ SCHEME_TT_EXPOSED:0 "#X Plan Açığa Çıkarıldı#!"
+ SCHEME_OWNER_NOT_EXPOSED:0 "Plan Sahibi henüz açığa çıkarılmadı"
+ SCHEME_SOME_AGENTS_NOT_EXPOSED:0 "Bazı Plan Yardakçıları henüz açığa çıkarılmadı"
+ SCHEME_UNKNOWN:0 "Bilinmeyen Plan"
+ SCHEME_INFLUENCE_NUMBER:0 "$VALUE|2$"
+ SCHEME_PROGRESS_DESCRIPTION:0 "Plan İlerlemesi: [SCHEME.GetProgress|0V]/#V 10#!"
+ SCHEME_PROGRESS_FROZEN:1 "İlerleme beklemede"
+ SCHEME_PROGRESS_FROZEN_DATE:0 "İlerleme [DATE.GetString|V] tarihine kadar beklemede"
+ SCHEME_PROGRESS_FROZEN_REASON:0 "İlerleme beklemede çünkü $REASON$"
+ SCHEME_PROGRESS_FROZEN_DATE_REASON:0 "İlerleme [DATE.GetString|V] tarihine kadar beklemede çünkü $REASON$"
+ scheme_setup_heads_up:0 "Planımı tamamlamaya çalışacağım."
+ SCHEME_FULL_ACTION_NAME:1 "[SCHEME.GetTarget.GetNameNoTooltip] Hedefli [SCHEME.GetActionName] Planı"
+### TODO AGOT-CHANGED: SCHEME_MY_DIPLOMACY [AGOT: My [diplomacy|E]: $VALUE|+=0$ | TR: [diplomacy|E] becerim: $VALUE|+=0$]
+ SCHEME_MY_DIPLOMACY: "My [diplomacy|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_MY_MARTIAL [AGOT: My [martial|E]: $VALUE|+=0$ | TR: [martial|E] becerim: $VALUE|+=0$]
+ SCHEME_MY_MARTIAL: "My [martial|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_MY_STEWARDSHIP [AGOT: My [stewardship|E]: $VALUE|+=0$ | TR: [stewardship|E] becerim: $VALUE|+=0$]
+ SCHEME_MY_STEWARDSHIP: "My [stewardship|E]: $VALUE|+=0$"
+ SCHEME_MY_INTRIGUE:0 "[intrigue|E] becerim: $VALUE|+=0$"
+ SCHEME_MY_LEARNING:0 "[learning|E] becerim: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_MY_PROWESS [AGOT: My [prowess|E]: $VALUE|+=0$ | TR: [prowess|E] becerim: $VALUE|+=0$]
+ SCHEME_MY_PROWESS: "My [prowess|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_DIPLOMACY [AGOT: Your [diplomacy|E]: $VALUE|+=0$ | TR: [diplomacy|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_DIPLOMACY: "Your [diplomacy|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_MARTIAL [AGOT: Your [martial|E]: $VALUE|+=0$ | TR: [martial|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_MARTIAL: "Your [martial|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_STEWARDSHIP [AGOT: Your [stewardship|E]: $VALUE|+=0$ | TR: [stewardship|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_STEWARDSHIP: "Your [stewardship|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_INTRIGUE [AGOT: Your [intrigue|E]: $VALUE|+=0$ | TR: [intrigue|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_INTRIGUE: "Your [intrigue|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_LEARNING [AGOT: Your [learning|E]: $VALUE|+=0$ | TR: [learning|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_LEARNING: "Your [learning|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_PROWESS [AGOT: Your [prowess|E]: $VALUE|+=0$ | TR: [prowess|E] beceriniz: $VALUE|+=0$]
+ SCHEME_YOUR_PROWESS: "Your [prowess|E]: $VALUE|+=0$"
+ SCHEME_AGENT_LEARNING:0 "Yardakçı [learning|E]i: $VALUE|+=0$"
+### TODO AGOT-CHANGED: scheme_cancelled [AGOT: [owner.GetShortUIName|U] abandoned the Scheme | TR: [owner.GetShortUIName|U] Planı terk etti]
+ scheme_cancelled: "[owner.GetShortUIName|U] abandoned the Scheme"
+ restart_scheme_tt:0 "Plan 0 İlerlemeyle baştan başlar"
+### TODO AGOT-CHANGED: SCHEME_AGENT_GOLD_VALID [AGOT: Pay [gold_i][SCOPE.ScriptValue('bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [gold_i][SCOPE.ScriptValue('bribe_value')|V0] öde]
+ SCHEME_AGENT_GOLD_VALID: "Pay [gold_i][SCOPE.ScriptValue('bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_TREASURY_BRIBE_VALID [AGOT: Use [treasury_i][SCOPE.ScriptValue('bribe_value')|V0] to pay [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('bribe_value')|V0] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [gold_i][SCOPE.ScriptValue('bribe_value')|V0] ödemek için [treasury_i][SCOPE.ScriptValue('bribe_value')|V0] kullan]
+ SCHEME_AGENT_TREASURY_BRIBE_VALID: "Use [treasury_i][SCOPE.ScriptValue('bribe_value')|V0] to pay [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('bribe_value')|V0]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_TREASURY_VALID [AGOT: Transfer [treasury_i][SCOPE.ScriptValue('treasury_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [treasury_i][SCOPE.ScriptValue('treasury_bribe_value')|V0] aktar]
+ SCHEME_AGENT_TREASURY_VALID: "Transfer [treasury_i][SCOPE.ScriptValue('treasury_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_GOLD_SIGNIFICANT_VALID [AGOT: Pay [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0]]
+ SCHEME_AGENT_GOLD_SIGNIFICANT_VALID: "Pay [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_TREASURY_SIGNIFICANT_VALID [AGOT: Use [treasury_i][SCOPE.ScriptValue('greater_bribe_value')|V0] to pay [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0] ödemek için [treasury_i][SCOPE.ScriptValue('greater_bribe_value')|V0] kullan]
+ SCHEME_AGENT_TREASURY_SIGNIFICANT_VALID: "Use [treasury_i][SCOPE.ScriptValue('greater_bribe_value')|V0] to pay [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_OPPORTUNITIES_VALID [AGOT: Gain [EmptyScope.ScriptValue('agent_acceptance_per_burnt_opportunity_value')|=+P0] acceptance per [scheme_opportunity_opportunity|E] spent | TR: Harcanılan her [scheme_opportunity_opportunity|E] için [EmptyScope.ScriptValue('agent_acceptance_per_burnt_opportunity_value')|=+P0] kabullenme kazanın]
+ SCHEME_AGENT_OPPORTUNITIES_VALID: "Gain [EmptyScope.ScriptValue('agent_acceptance_per_burnt_opportunity_value')|=+P0] acceptance per [scheme_opportunity_opportunity|E] spent"
+### TODO AGOT-CHANGED: SCHEME_AGENT_PRESTIGE_VALID [AGOT: Transfer [prestige_i][SCOPE.ScriptValue('prestige_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [prestige_i][SCOPE.ScriptValue('prestige_bribe_value')|V0] ver]
+ SCHEME_AGENT_PRESTIGE_VALID: "Transfer [prestige_i][SCOPE.ScriptValue('prestige_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_INFLUENCE_VALID [AGOT: Transfer [influence_i][SCOPE.ScriptValue('influence_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [influence_i][SCOPE.ScriptValue('influence_bribe_value')|V0] ver]
+ SCHEME_AGENT_INFLUENCE_VALID: "Transfer [influence_i][SCOPE.ScriptValue('influence_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_PIETY_VALID [AGOT: Spend [piety_i][SCOPE.ScriptValue('piety_bribe_value')|V0] to convince [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiyi ikna etmek için [piety_i][SCOPE.ScriptValue('piety_bribe_value')|V0] harca]
+ SCHEME_AGENT_PIETY_VALID: "Spend [piety_i][SCOPE.ScriptValue('piety_bribe_value')|V0] to convince [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_HERD_VALID [AGOT: Transfer [herd_i][SCOPE.ScriptValue('herd_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiye [herd_i][SCOPE.ScriptValue('herd_bribe_value')|V0] ver]
+ SCHEME_AGENT_HERD_VALID: "Transfer [herd_i][SCOPE.ScriptValue('herd_bribe_value')|V0] to [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_AGENT_MANDALA_TRICKSTER_VALID [AGOT: Spend [piety_i][SCOPE.ScriptValue('trickster_mandala_force_agent_bribe_value')|V0] to convince [recipient.GetShortUINameNoTooltip] | TR: [recipient.GetShortUINameNoTooltip] adlı kişiyi ikna etmek için [piety_i][SCOPE.ScriptValue('trickster_mandala_force_agent_bribe_value')|V0] harca]
+ SCHEME_AGENT_MANDALA_TRICKSTER_VALID: "Spend [piety_i][SCOPE.ScriptValue('trickster_mandala_force_agent_bribe_value')|V0] to convince [recipient.GetShortUINameNoTooltip]"
+### TODO AGOT-CHANGED: SCHEME_LIEGE_DIPLOMACY [AGOT: Your [liege|E]'s [diplomacy|E]: $VALUE|+=0$ | TR: [Concept( 'liege', 'Süzereninizin' )|E] [Concept( 'diplomacy', 'Diplomasisi' )|E]: $VALUE|+=0$]
+ SCHEME_LIEGE_DIPLOMACY: "Your [liege|E]'s [diplomacy|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_SUCCESSFUL_HEADER [AGOT: Scheme Successful | TR: Plan Başarılı]
+ SCHEME_SUCCESSFUL_HEADER: "Scheme Successful"
+### TODO AGOT-CHANGED: SCHEME_FAILED_HEADER [AGOT: Scheme Failed | TR: Plan Başarısız]
+ SCHEME_FAILED_HEADER: "Scheme Failed"
+ murder:1 "Cinayet"
+ murder_desc:0 "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] adlı kişinin [SCHEME.GetOwner.GetFaith.HighGodName] tarafından yargılanmasının vakti geldi!"
+ murder_desc_general:1 "Hedefi öldürmeyi amaçlayan [Concept( 'hostile_schemes', 'düşmancıl planlara' )|E] cinayet denir. [Concept( 'intrigue', 'Entrikaya' )|E] dayalı [secret_scheme_single|E] bir plandır ve [Concept( 'agents', 'yardakçılardan' )|E] yararlanılabilir.\n\nCinayetin başarılı olması durumunda [scheme_target|E] [character_death_dies|E]. Açığa çıkmamış Cinayetler [Concept( 'scheme_owner', 'Plan Sahibinin' )|E] [Concept( 'secret', 'Sırrı' )|E] hâline gelir.\n\nCinayetin veya cinayet girişiminin açığa çıkması ciddi bir [crime|E] unsurudur."
+ murder_successful_roll_tt:0 "[target.GetShortUIName] öldürüldü!"
+ murder_entourage_successful_roll_tt:0 "[target.GetShortUINameNoTooltip] adlı karakterin maiyetinin bazı mensupları da öldürüldü!"
+ MURDER_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] öldürülecek"
+ MURDER_DISCOVERY_DESC:1 "Cinayet [Concept( 'crime', 'Suçu' )|E] işlediğiniz açığa çıkmayacak"
+ ABDUCT_SUCCESS_DESC:2 "[TARGET_CHARACTER.GetShortUIName|U] [Concept( 'prisoner', 'Tutsağınız' )|E] hâline gelecek. Bununla birlikte Kaçırma [Concept( 'crime', 'Suçu' )|E] işlediğiniz açığa çıkacak."
+ ABDUCT_DISCOVERY_DESC:1 "Kaçırma [Concept( 'crime', 'Suçu' )|E] işlediğiniz açığa çıkmayacak"
+ BEFRIEND_SUCCESS_DESC:1 "[TARGET_CHARACTER.GetShortUIName|U] [Concept( 'friend', 'arkadaşınız' )|E] hâline gelebilir"
+ COURT_SUCCESS_DESC:0 "[prestige|E] elde edersiniz ve [TARGET_CHARACTER.GetShortUIName] Ruh Eşiniz hâline gelebilir"
+ CONVERT_TO_WITCHCRAFT_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] Cadı olacak"
+ SEDUCE_SUCCESS_DESC:1 "[TARGET_CHARACTER.GetShortUIName|U] [Concept( 'lover', 'Sevgiliniz' )|E] olacak"
+ SWAY_SUCCESS_DESC:2 "[TARGET_CHARACTER.GetShortUINamePossessive] size karşı olan [Concept( 'opinion', 'Görüşü' )|E] #P [CHARACTER.MakeScope.ScriptValue('sway_opinion_increase_per_success')|V0]#! artacak"
+ CLAIM_THRONE_SUCCESS_DESC:1 "[TARGET_CHARACTER.GetPrimaryTitle.GetName] unvanında [pressed_claim|E] elde edeceksiniz"
+ CLAIM_THRONE_DISCOVERY_DESC:2 "Yüksek miktarda [prestige|E] kaybetmekten kurtulacaksınız" #krutygetarts
+ SCHEME_I_AM_COUNCILLOR_OF_TARGET:1 "[target.GetShortUINamePossessive] [Concept( 'council', 'Konseyindesiniz' )|E]: $VALUE|+=0$"
+ CLAIM_THRONE_SCHEME_AGENT_COUNCILLOR:0 "[target.GetShortUINamePossessive] Konsey Üyesi"
+ CLAIM_THRONE_SCHEME_AGENT_COURT_CHAPLAIN:0 "[target.GetShortUINamePossessive] [target.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName]"
+ CLAIM_THRONE_SCHEME_AGENT_VASSAL:0 "[target.GetShortUINamePossessive] Vasalı"
+ learn_language:1 "Dil Öğrenme"
+ learn_language_desc:1 "[SCHEME.GetTargetCharacter.GetShortUINamePossessiveNoTooltip|U] [SCHEME.GetTargetCharacter.GetCulture.GetLanguage.GetName] [Concept( 'language', 'dilini' )|E] öğrenmeye çalışacağım."
+ learn_language_desc_general:2 "Dil öğrenme [Concept( 'scheme', 'planı' )|E], [Concept( 'scheme_target', 'hedefin' )|E] dilini öğrenmeye çalıştığınız bir [Concept( 'personal_scheme', 'kişisel plandır' )|E]. $learn_language_desc_general_shared$"
+ learn_language_learn_language_success_message:0 "Dil Öğrenildi"
+ learn_language_complete:1 "[target.GetShortUINamePossessiveNoTooltip] [target.GetCulture.GetLanguage.GetName] [Concept( 'language', 'dilini' )|E] öğrendiniz"
+ LEARN_LANGUAGE_SUCCESS_DESC:2 "[TARGET_CHARACTER.GetCulture.GetLanguage.GetName] [Concept( 'language', 'dilini' )|E] öğrendiniz\n#weak Mevcut [language_limit|E]: [CHARACTER.MakeScope.ScriptValue('current_extra_languages')|V0] / [CHARACTER.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
+ abduct:1 "Kaçırma"
+ abduct_desc:0 "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] adlı kişiyi kaçırıp [Concept( 'imprison', 'Hapsetmeye' )|E] çalışacağım!"
+ abduct_desc_general:2 "Hedefi [Concept( 'imprison', 'Hapsetmeyi' )|E] amaçlayan [Concept( 'hostile_schemes', 'düşmancıl planlara' )|E] $abduct$ denir. [Concept( 'intrigue', 'Entrikaya' )|E] dayalı [secret_scheme_single|E] bir Plandır ve [Concept( 'agents', 'Yardakçılardan' )|E] yararlanılabilir.\n\n$abduct$nın başarılı olması durumunda [scheme_target|E] [scheme_owner|E] tarafından hapsedilir."
+ abduct_successful_roll_tt:0 "[target.GetShortUINameNoTooltip] tutsağım oldu!"
+ seduce:1 "Baştan Çıkarma"
+ seduce_desc:0 "Güzel sözler ve jestlerle [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] adlı kişinin kalbini çalacağım - O benim olacak!"
+ seduce_desc_general:1 "[Concept( 'scheme_target', 'Plan Hedefini' )|E] [lover|E] yapmayı amaçlayan [Concept( 'personal_schemes', 'kişisel planlara' )|E] $seduce$ denir.\n\nKarakter [Concept( 'opinion', 'görüşü' )|E], kişilik [Concept( 'trait', 'özelliklerinin' )|E] uyumu ve [marriage|E] durumu başta olmak üzere [Concept( 'success_chance', 'Başarı İhtimalini' )|E] etkileyen çok sayıda faktör vardır.\n\nBaştan Çıkarma Planları hedefin kim olduğuna bağlı olmak üzere [secret_scheme_single|E] olabilirler."
+ sway:1 "Etkileme"
+ sway_desc:0 "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] adlı kişiye kendimi anlatmaya ve benden hoşlanmasını sağlamaya çalışacağım."
+ sway_desc_general:1 "Etkileme planı, bir başka karakterin size karşı olan [Concept( 'opinion', 'Görüşünü' )|E] yükseltmeyi amaçlayan [Concept( 'personal_schemes', 'kişisel planlara' )|E] denir. Bu Planlar büyük oranda karakterinizin [Concept( 'diplomacy', 'Diplomasisine' )|E] bağlıdır. [hostile_scheme|E] olmadığı için [secret_scheme_single|E] değildir ve [agent|E] kullanılmaz.\n\nBirçok Plandan farklı olarak Etkileme Planları tamamlandıktan sonra tekrar başlarlar. Bu şekilde elde ettiğiniz Görüş artışı birbirinin üstüne eklendiği için, bu Planı aktif tutmak [Concept( 'scheme_target', 'plan hedefinin' )|E] sizi gittikçe daha çok sevmesini sağlar."
+ sway_sway_success_message:0 "[target.GetShortUINameNoTooltip] Etkilendi"
+ sway_complete:2 "[target.GetShortUIName] etkilenebileceği kadar etkilendi"
+ YOU_SPEAK_THE_LANGUAGE:0 "[target.GetCulture.GetLanguage.GetName] dilini biliyorsunuz: $VALUE|=+0$"
+ FABRICATE_HOOK_RULER_TARGET:0 "Hükümdar: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGETING_SPYMASTER:0 "[target.GetShortUIName|U] [spymaster|E]: $VALUE|=+0$"
+ FABRICATE_HOOK_DECEITFUL:0 "[GetTrait('deceitful').GetName( GetPlayer )]: $VALUE|=+0$"
+ FABRICATE_HOOK_HONEST:0 "[GetTrait('honest').GetName( GetPlayer )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_TRUSTING:1 "[target.GetShortUIName|U] [GetTrait('trusting').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_BAD_1:1 "[target.GetShortUIName|U] [GetTrait('intellect_bad_1').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_BAD_2:1 "[target.GetShortUIName|U] [GetTrait('intellect_bad_2').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_BAD_3:1 "[target.GetShortUIName|U] [GetTrait('intellect_bad_3').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_GOOD_1:1 "[target.GetShortUIName|U] [GetTrait('intellect_good_1').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_GOOD_2:1 "[target.GetShortUIName|U] [GetTrait('intellect_good_2').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_INTELLECT_GOOD_3:1 "[target.GetShortUIName|U] [GetTrait('intellect_good_3').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_SCHEMER:1 "[target.GetShortUIName|U] [GetTrait('schemer').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_PARANOID:1 "[target.GetShortUIName|U] [GetTrait('paranoid').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_FICKLE:1 "[target.GetShortUIName|U] [GetTrait('fickle').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_ARROGANT:1 "[target.GetShortUIName|U] [GetTrait('arrogant').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_GREEDY:1 "[target.GetShortUIName|U] [GetTrait('greedy').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_TARGET_CRAVEN:1 "[target.GetShortUIName|U] [GetTrait('craven').GetName( target )]: $VALUE|=+0$"
+ FABRICATE_HOOK_SPYMASTER_INTRIGUE:0 "Casusbaşı [Concept( 'intrigue', 'Entrikası' )|E]: $VALUE|=+0$"
+ FABRICATE_HOOK_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName] adlı kişiye karşı [hook|E] elde edeceksiniz"
+ FABRICATE_HOOK_DISCOVERY_DESC:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [Concept( 'court', 'Sarayında' )|E] Koz üretmeye devam edebilirsiniz"
+ SCEHEME_ON_COOLDOWN:0 "#X [DATE.GetStringLong] tarihine kadar [TARGET_CHARACTER.GetShortUIName] hedefli bir $SCHEME_NAME$ [Concept( 'scheme', 'planı' )|E] kuramazsınız#!"
+ elope:1 "$elope_verb$"
+ elope_verb:0 "Birlikte Kaçma"
+ elope_desc:1 "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] ile [Concept( 'court', 'Sarayınıza' )|E] kaçın ve [Concept( 'marry', 'Evlenin' )|E]"
+ elope_desc_general:2 "[personal_scheme|E] olan kaçma planında [Concept( 'scheme_target', 'plan hedefi' )|E] [Concept( 'scheme_owner', 'plan sahibinin' )|E] sarayına giderek evlenir.\n\n[rank|E] ve görüş gibi [Concept( 'success_chance', 'başarı ihtimalini' )|E] etkileyen birçok şey vardır.\n\nSadece [lovers|E] kaçabilir."
+ ELOPE_SUCCESS_OWNER_INTRIGUE:0 "[Select_CString( owner.IsLocalPlayer, '', owner.GetShortUIName )][Select_CString( owner.IsLocalPlayer, '', ' adlı kişinin' )][Select_CString( owner.IsLocalPlayer, 'Entrikanız', ' Entrikası' )]: $VALUE|=+0$"
+ ELOPE_SUCCESS_TARGET_INTRIGUE:0 "[Select_CString( target.IsLocalPlayer, '', target.GetShortUIName )][Select_CString( target.IsLocalPlayer, '', ' adlı kişinin' )][Select_CString( target.IsLocalPlayer, 'Entrikanız', ' Entrikası' )]: $VALUE|=+0$"
+ ELOPE_SUCCESS_TARGETS_LIEGE_INTRIGUE:0 "[target.GetLiege.GetShortUINamePossessive|U] Entrikası: $VALUE|=+0$"
+ ELOPE_SUCCESS_TARGETS_LIEGES_SPYMASTER_INTRIGUE:0 "[target.GetLiege.GetShortUINamePossessive|U] Casusbaşısının Entrikası: $VALUE|=+0$"
+ ELOPE_SUCCESS_UNIMPORTANT:0 "[target.GetShortUIName|U] önemli değil: $VALUE|=+0$"
+ ELOPE_SUCCESS_IMPRISONED:0 "[target.GetShortUIName|U] [imprisoned|E]: $VALUE|=+0$"
+ ELOPE_SUCCESS_DESC:0 "[TARGET_CHARACTER.GetShortUIName|U] Sarayınıza gelir ve evlenirsiniz."
+ ELOPE_SUCCESS_TARGETS_LIEGE_KNOWS_ABOUT_RELATIONSHIP:0 "[target.GetLiege.GetShortUIName] ilişkiden haberdar: $VALUE|=+0$"
+ scheme_target_no_longer_lover:0 "[TARGET_CHARACTER.GetShortUIName|U] ile artık sevgili değilsiniz"
+ STEAL_BACK_ARTIFACT_SUCCESS_DESC:1 "[TARGET_CHARACTER.GetShortUIName] adlı kişiden [Concept( 'artifact_claim', 'hak' )|E] iddia ettiğiniz bir [Concept( 'artifact', 'eseri' )|E] çalacaksınız"
+ learn_own_court_language:0 "Saray Dilini Öğrenme"
+ learn_own_court_language_desc:1 "Benim [Concept( 'court_language', 'saray dilim' )|E] olan [SCHEME.GetOwner.GetCourtLanguage.GetName] dilini [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] adlı kişiden öğrenmeye çalışacağım."
+ learn_own_court_language_desc_general:0 "Saray Dilimi Öğren [Concept( 'scheme', 'planı' )|E], [Concept( 'royal_court', 'kraliyet sarayınızın' )|E] [Concept( 'court_language', 'saray dilini' )|E] öğrenmeye çalıştığınız bir [Concept( 'personal_scheme', 'kişisel plandır' )|E]. $learn_language_desc_general_shared$"
+ learn_language_desc_general_shared:0 "Bu plan genel olarak sizin kendi [Concept( 'learning', 'öğreniminize' )|E] dayanır.\n\n[success_chance|E] birçok şeye bağlıdır ama ağırlıklı olarak sizin [Concept( 'learning_skill', 'öğrenme beceriniz' )|E], [Concept( 'court_chaplain', 'saray rahibinizin' )|E] öğrenme becerisi, aynı [Concept( 'heritage', 'mirası' )|E] paylaşıp paylaşmadığınız ve hâlihazırda kaç dil bildiğinize göre değişir. Ayrıca daha genç olan [characters|E] yeni dilleri de daha kolay öğrenebilecektir.."
+ CAN_NOT_FABRICATE_HOOKS_ON_WANDERERS:0 "Seyyah karakterler üzerinde koz üretemezsiniz"
+ DIARCH_REALM_INFLUENCE:0 "[Concept( 'diarchs', 'Diarkın' )|E] [Concept( 'scheme', 'planı' )|E] [Concept( 'liege', 'Süzereninin' )|E] [Concept( 'realm', 'Ülkesinde' )|E] daha iyi: $VALUE|=+%/0$"
+ FREEZE_REASON_TRAVELING:0 "seyahat ediyorsunuz."
+ FREEZE_REASON_TARGET_TRAVELING:0 "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] seyahat ediyor."
+ BEFRIENDING_AT_FEAST:0 "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] sizinle aynı ziyafete katılıyor."
+### TODO AGOT-CHANGED: ALLOWING_TO_MOURN [AGOT: we are letting [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] mourn. | TR: [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] yas tutsun diye müsaade ediyoruz.]
+ ALLOWING_TO_MOURN: "we are letting [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] mourn."
+ overthrow_regent:0 "Naibi Devirme"
+ overthrow_regent_desc:0 "[SCHEME.GetTargetCharacter.GetShortUINameNotMeNoTooltip] adlı kişiyi kaçırıp [Concept( 'imprison', 'Hapse' )|E] atacağım, böylece yeni [SCHEME.GetTargetCharacter.GetDiarchTitle] ben olacağım!"
+ overthrow_regent_desc_general:0 "$overthrow_regent$ [Concept( 'scheme', 'Planı' )|E], mevcut [Concept( 'regent', 'Naibi' )|E] [Concept( 'imprisoning', 'hapsederek' )|E] yerine planı başlatan kişinin geçmeye çalıştığı [Concept( 'hostile_scheme', 'Düşmancıl Plandır' )|E]. Bu [Concept( 'secret_scheme', 'Gizli Plan' )|E] [Concept( 'intrigue', 'Entrikaya' )|E] bağlıdır, [Concept( 'agents', 'Yardakçılar' )|E] katılabilir.\n\nBaşarılı bir şekilde devrilen [scheme_target|E], [scheme_owner|E] [landed|E] ise onun tarafından, değilse [liege|E] tarafından hapsedilecektir."
+ overthrow_regent_scheme_cannot_become_regent:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] tarafından hapsedildi"
+ OVERTHROW_REGENT_SUCCESS_DESC:0 "$ABDUCT_SUCCESS_DESC$"
+ OVERTHROW_REGENT_DISCOVERY_DESC:0 "$ABDUCT_DISCOVERY_DESC$"
+### TODO AGOT-CHANGED: scheme_starter_neutral_prowess [AGOT: [prowess_i] Take an even approach #WEAK (no extra cost, bonus, or penalty)#! | TR: [prowess_i] Normal bir yaklaşım sergileyin #WEAK (fazladan maliyet, bonus veya ceza yok)#!]
+ scheme_starter_neutral_prowess: "[prowess_i] Take an even approach #WEAK (no extra cost, bonus, or penalty)#!"
+### TODO AGOT-CHANGED: scheme_starter_personal_success_chance [AGOT: [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_success_chance_cost_value')] to start with @scheme_success_icon! [GetModifier('scheme_starter_bonus_personal_success_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#! | TR: @scheme_success_icon! [GetModifier('scheme_starter_bonus_personal_success_modifier').GetNameWithTooltip] ile başlamak için [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_success_chance_cost_value')] #WEAK ([EmptyScope.ScriptValue('scheme_starter_duration_value')] yıl boyunca)#!]
+ scheme_starter_personal_success_chance: "[gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_success_chance_cost_value')] to start with @scheme_success_icon! [GetModifier('scheme_starter_bonus_personal_success_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#!"
+### TODO AGOT-CHANGED: scheme_starter_personal_speed [AGOT: [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_speed_cost_value')] to start with @scheme_phase_duration_icon! [GetModifier('scheme_starter_bonus_personal_speed_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#! | TR: @scheme_phase_duration_icon! [GetModifier('scheme_starter_bonus_personal_speed_modifier').GetNameWithTooltip] ile başlamak için [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_speed_cost_value')] #WEAK ([EmptyScope.ScriptValue('scheme_starter_duration_value')] yıl boyunca)#!]
+ scheme_starter_personal_speed: "[gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_speed_cost_value')] to start with @scheme_phase_duration_icon! [GetModifier('scheme_starter_bonus_personal_speed_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#!"
+### TODO AGOT-CHANGED: scheme_starter_personal_secrecy [AGOT: [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_secrecy_cost_value')] to start with @scheme_secrecy_icon! [GetModifier('scheme_starter_bonus_personal_secrecy_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#! | TR: @scheme_secrecy_icon! [GetModifier('scheme_starter_bonus_personal_secrecy_modifier').GetNameWithTooltip] ile başlamak için [gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_secrecy_cost_value')] #WEAK ([EmptyScope.ScriptValue('scheme_starter_duration_value')] yıl boyunca)#!]
+ scheme_starter_personal_secrecy: "[gold_i] [GetPlayer.MakeScope.ScriptValue('scheme_starter_secrecy_cost_value')] to start with @scheme_secrecy_icon! [GetModifier('scheme_starter_bonus_personal_secrecy_modifier').GetNameWithTooltip] #WEAK for [EmptyScope.ScriptValue('scheme_starter_duration_value')] years#!"
+### TODO AGOT-CHANGED: agent_focus_balance [AGOT: @balance_scale! Balanced [agent|E] arrangement | TR: @balance_scale! Dengeli [agent|E] dizilimi]
+ agent_focus_balance: "@balance_scale! Balanced [agent|E] arrangement"
+### TODO AGOT-CHANGED: agent_focus_success [AGOT: [success_chance_max_i] Focus on [agents|E] increasing [scheme_potential|E] | TR: [success_chance_max_i] [Concept( 'scheme_potential', 'Plan Potansiyelini' )|E] arttıran [Concept( 'agents', 'Yardakçılara' )|E] odaklan]
+ agent_focus_success: "[success_chance_max_i] Focus on [agents|E] increasing [scheme_potential|E]"
+### TODO AGOT-CHANGED: agent_focus_speed [AGOT: [scheme_speed_i] Focus on [agents|E] decreasing [scheme_speed|E] | TR: [scheme_speed_i] [Concept( 'scheme_speed', 'Plan Aşama Süresini' )|E] azaltan [Concept( 'agents', 'Yardakçılara' )|E] odaklan]
+ agent_focus_speed: "[scheme_speed_i] Focus on [agents|E] decreasing [scheme_speed|E]"
+### TODO AGOT-CHANGED: agent_focus_secrecy [AGOT: [secrecy_i] Focus on [agents|E] increasing [secrecy|E] | TR: [secrecy_i] [Concept( 'secrecy', 'Gizliliği' )|E] arttıran [Concept( 'agents', 'Yardakçılara' )|E] odaklan]
+ agent_focus_secrecy: "[secrecy_i] Focus on [agents|E] increasing [secrecy|E]"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_01 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 1)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (1. seviye)#!]
+scheme_prep_mod_base_success_chance_level_01: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 1)#!"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_01_desc [AGOT: Any opening, no matter how small, can be exploited. | TR: Ne kadar küçük olursa olsun her açıklıktan faydalanılabilir.]
+scheme_prep_mod_base_success_chance_level_01_desc: "Any opening, no matter how small, can be exploited."
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_02 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 2)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (2. seviye)#!]
+scheme_prep_mod_base_success_chance_level_02: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 2)#!"
+scheme_prep_mod_base_success_chance_level_02_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_03 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 3)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (3. seviye)#!]
+scheme_prep_mod_base_success_chance_level_03: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 3)#!"
+scheme_prep_mod_base_success_chance_level_03_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_04 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 4)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (4. seviye)#!]
+scheme_prep_mod_base_success_chance_level_04: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 4)#!"
+scheme_prep_mod_base_success_chance_level_04_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_05 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 5)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (5. seviye)#!]
+scheme_prep_mod_base_success_chance_level_05: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 5)#!"
+scheme_prep_mod_base_success_chance_level_05_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_06 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 6)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (6. seviye)#!]
+scheme_prep_mod_base_success_chance_level_06: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 6)#!"
+scheme_prep_mod_base_success_chance_level_06_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_07 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 7)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (7. seviye)#!]
+scheme_prep_mod_base_success_chance_level_07: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 7)#!"
+scheme_prep_mod_base_success_chance_level_07_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_08 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 8)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (8. seviye)#!]
+scheme_prep_mod_base_success_chance_level_08: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 8)#!"
+scheme_prep_mod_base_success_chance_level_08_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_09 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 9)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (9. seviye)#!]
+scheme_prep_mod_base_success_chance_level_09: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 9)#!"
+scheme_prep_mod_base_success_chance_level_09_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_base_success_chance_level_10 [AGOT: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 10)#! | TR: $scheme_prep_mod_base_success_chance_level.t$ #WEAK (10. seviye)#!]
+scheme_prep_mod_base_success_chance_level_10: "$scheme_prep_mod_base_success_chance_level.t$ #WEAK (tier 10)#!"
+scheme_prep_mod_base_success_chance_level_10_desc: "$scheme_prep_mod_base_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_01 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 1)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (1. seviye)#!]
+scheme_prep_mod_max_success_chance_level_01: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 1)#!"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_01_desc [AGOT: When one door closes, another opens. | TR: Bir kapı kapandığında başkası açılır.]
+scheme_prep_mod_max_success_chance_level_01_desc: "When one door closes, another opens."
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_02 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 2)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (2. seviye)#!]
+scheme_prep_mod_max_success_chance_level_02: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 2)#!"
+scheme_prep_mod_max_success_chance_level_02_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_03 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 3)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (3. seviye)#!]
+scheme_prep_mod_max_success_chance_level_03: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 3)#!"
+scheme_prep_mod_max_success_chance_level_03_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_04 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 4)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (4. seviye)#!]
+scheme_prep_mod_max_success_chance_level_04: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 4)#!"
+scheme_prep_mod_max_success_chance_level_04_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_05 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 5)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (5. seviye)#!]
+scheme_prep_mod_max_success_chance_level_05: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 5)#!"
+scheme_prep_mod_max_success_chance_level_05_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_06 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 6)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (6. seviye)#!]
+scheme_prep_mod_max_success_chance_level_06: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 6)#!"
+scheme_prep_mod_max_success_chance_level_06_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_07 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 7)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (7. seviye)#!]
+scheme_prep_mod_max_success_chance_level_07: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 7)#!"
+scheme_prep_mod_max_success_chance_level_07_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_08 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 8)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (8. seviye)#!]
+scheme_prep_mod_max_success_chance_level_08: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 8)#!"
+scheme_prep_mod_max_success_chance_level_08_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_09 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 9)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (9. seviye)#!]
+scheme_prep_mod_max_success_chance_level_09: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 9)#!"
+scheme_prep_mod_max_success_chance_level_09_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+### TODO AGOT-CHANGED: scheme_prep_mod_max_success_chance_level_10 [AGOT: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 10)#! | TR: $scheme_prep_mod_max_success_chance_level.t$ #WEAK (10. seviye)#!]
+scheme_prep_mod_max_success_chance_level_10: "$scheme_prep_mod_max_success_chance_level.t$ #WEAK (tier 10)#!"
+scheme_prep_mod_max_success_chance_level_10_desc: "$scheme_prep_mod_max_success_chance_level_01_desc$"
+ SCHEME_APA_POSITIVE_SUCCESS_CHANCE_ADD: "@scheme_success_icon! @change_up_good_1!"
+### TODO AGOT-CHANGED: reset_scheme_progress_global [AGOT: Resets [SCHEME.GetName]'s accumulated [scheme_success_chance|E], [scheme_opportunities|E], and [scheme_phase|E] progress | TR: [SCHEME.GetName] planının elde edilmiş [Concept( 'scheme_success_chance', 'Başarı İhtimalini' )|E], [Concept( 'scheme_opportunities', 'İlerlemelerini' )|E] ve [Concept( 'scheme_phase', 'Aşamasını' )|E] sıfırlar]
+ reset_scheme_progress_global: "Resets [SCHEME.GetName]'s accumulated [scheme_success_chance|E], [scheme_opportunities|E], and [scheme_phase|E] progress"
+### TODO AGOT-CHANGED: SCHEME_TARGET_MARTIAL [AGOT: [target.GetShortUINamePossessive|U] [martial|E]: $VALUE|+=0$ | TR: [target.GetShortUINamePossessive|U] [martial|E] becerisi: $VALUE|+=0$]
+ SCHEME_TARGET_MARTIAL: "[target.GetShortUINamePossessive|U] [martial|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_IMPATIENT [AGOT: [target.GetShortUIName|U] is [GetTrait('lazy').GetName( target )]: $VALUE|+0=$ | TR: [target.GetShortUIName|U] [GetTrait('lazy').GetName( target )]: $VALUE|+0=$]
+ SCHEME_TARGET_IMPATIENT: "[target.GetShortUIName|U] is [GetTrait('lazy').GetName( target )]: $VALUE|+0=$"
+### TODO AGOT-CHANGED: SCHEME_OWNER_STUBBORN [AGOT: You are [GetTrait('stubborn').GetName( owner )]: $VALUE|+0=$ | TR: [GetTrait('stubborn').GetName( owner )]sınız: $VALUE|+0=$]
+ SCHEME_OWNER_STUBBORN: "You are [GetTrait('stubborn').GetName( owner )]: $VALUE|+0=$"
+### TODO AGOT-CHANGED: SCHEME_OWNER_AMBITIOUS [AGOT: You are [GetTrait('ambitious').GetName( owner )]: $VALUE|+0=$ | TR: [GetTrait('ambitious').GetName( owner )]sınız: $VALUE|+0=$]
+ SCHEME_OWNER_AMBITIOUS: "You are [GetTrait('ambitious').GetName( owner )]: $VALUE|+0=$"
+### TODO AGOT-CHANGED: SCHEME_OWNER_IMPATIENT [AGOT: You are [GetTrait('impatient').GetName( owner )]: $VALUE|+0=$ | TR: [GetTrait('impatient').GetName( owner )]sınız: $VALUE|+0=$]
+ SCHEME_OWNER_IMPATIENT: "You are [GetTrait('impatient').GetName( owner )]: $VALUE|+0=$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_ASPECT_SKILL_CREATION [AGOT: Your [aspect|E] [skill|E] #weak ([stewardship|E])#!: $VALUE|+=0$ | TR: Sahip olduğunuz [aspect|E] [Concept('skill', 'Beceriniz')|E] #weak ([stewardship|E])#!: $VALUE|+=0$]
+ SCHEME_YOUR_ASPECT_SKILL_CREATION: "Your [aspect|E] [skill|E] #weak ([stewardship|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_ASPECT_SKILL_SERENITY [AGOT: Your [aspect|E] [skill|E] #weak ([diplomacy|E])#!: $VALUE|+=0$ | TR: Sahip olduğunuz [aspect|E] [Concept('skill', 'Beceriniz')|E] #weak ([diplomacy|E])#!: $VALUE|+=0$]
+ SCHEME_YOUR_ASPECT_SKILL_SERENITY: "Your [aspect|E] [skill|E] #weak ([diplomacy|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_ASPECT_SKILL_DESTRUCTION [AGOT: Your [aspect|E] [skill|E] #weak ([martial|E])#!: $VALUE|+=0$ | TR: Sahip olduğunuz [aspect|E] [Concept('skill', 'Beceriniz')|E] #weak ([martial|E])#!: $VALUE|+=0$]
+ SCHEME_YOUR_ASPECT_SKILL_DESTRUCTION: "Your [aspect|E] [skill|E] #weak ([martial|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_YOUR_ASPECT_SKILL_TRICKERY [AGOT: Your [aspect|E] [skill|E] #weak ([intrigue|E])#!: $VALUE|+=0$ | TR: Sahip olduğunuz [aspect|E] [Concept('skill', 'Beceriniz')|E] #weak ([intrigue|E])#!: $VALUE|+=0$]
+ SCHEME_YOUR_ASPECT_SKILL_TRICKERY: "Your [aspect|E] [skill|E] #weak ([intrigue|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_ASPECT_SKILL_CREATION [AGOT: [target.GetFirstName|U] and you share [aspect|E] #weak (based on your [stewardship|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U] ile aynı [Concept('aspect', 'Esasa')|E] sahipsiniz #weak ([stewardship|E] beceriniz temel alınır)#!: $VALUE|+=0$]
+ SCHEME_TARGET_ASPECT_SKILL_CREATION: "[target.GetFirstName|U] and you share [aspect|E] #weak (based on your [stewardship|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_ASPECT_SKILL_SERENITY [AGOT: [target.GetFirstName|U] and you share [aspect|E] #weak (based on your [diplomacy|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U] ile aynı [Concept('aspect', 'Esasa')|E] sahipsiniz #weak ([diplomacy|E] beceriniz temel alınır)#!: $VALUE|+=0$]
+ SCHEME_TARGET_ASPECT_SKILL_SERENITY: "[target.GetFirstName|U] and you share [aspect|E] #weak (based on your [diplomacy|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_ASPECT_SKILL_DESTRUCTION [AGOT: [target.GetFirstName|U] and you share [aspect|E] #weak (based on your [martial|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U] ile aynı [Concept('aspect', 'Esasa')|E] sahipsiniz #weak ([martial|E] beceriniz temel alınır)#!: $VALUE|+=0$]
+ SCHEME_TARGET_ASPECT_SKILL_DESTRUCTION: "[target.GetFirstName|U] and you share [aspect|E] #weak (based on your [martial|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_ASPECT_SKILL_TRICKERY [AGOT: [target.GetFirstName|U] and you share [aspect|E] #weak (based on your [intrigue|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U] ile aynı [Concept('aspect', 'Esasa')|E] sahipsiniz #weak ([intrigue|E] beceriniz temel alınır)#!: $VALUE|+=0$]
+ SCHEME_TARGET_ASPECT_SKILL_TRICKERY: "[target.GetFirstName|U] and you share [aspect|E] #weak (based on your [intrigue|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_HAS_NO_SUZERAIN [AGOT: [target.GetFirstName|U] has no [suzerain|E]: $VALUE|+=0$ | TR: [target.GetFirstName|U] adlı kişinin [Concept('suzerain', 'Efendisi')|E] yok: $VALUE|+=0$]
+ SCHEME_TARGET_HAS_NO_SUZERAIN: "[target.GetFirstName|U] has no [suzerain|E]: $VALUE|+=0$"
+ SCHEME_TARGET_REALM_SIZE: "[target.GetShortUINamePossessive|U] [realm_size|E]: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_TARGET_NOT_SAME_ASPECT [AGOT: [target.GetFirstName|U] does not have the same [aspect|E] as you: $VALUE|+=0$ | TR: [target.GetFirstName|U] sizinle aynı [Concept('aspect', 'Esasa')|E] sahip değil: $VALUE|+=0$]
+ SCHEME_TARGET_NOT_SAME_ASPECT: "[target.GetFirstName|U] does not have the same [aspect|E] as you: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_SUZERAIN_ASPECT_SKILL_CREATION [AGOT: [target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [stewardship|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U], [Concept('suzerain', 'Efendisiyle')|E] aynı [Concept('aspect', 'Esasa')|E] sahip #weak ([target.GetSuzerain.GetShortUINamePossessive|U] [stewardship|E] becerisi alınır)#!: $VALUE|+=0$]
+ SCHEME_SUZERAIN_ASPECT_SKILL_CREATION: "[target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [stewardship|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_SUZERAIN_ASPECT_SKILL_SERENITY [AGOT: [target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [diplomacy|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U], [Concept('suzerain', 'Efendisiyle')|E] aynı [Concept('aspect', 'Esasa')|E] sahip #weak ([target.GetSuzerain.GetShortUINamePossessive|U] [diplomacy|E] becerisi temel alınır)#!: $VALUE|+=0$]
+ SCHEME_SUZERAIN_ASPECT_SKILL_SERENITY: "[target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [diplomacy|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_SUZERAIN_ASPECT_SKILL_DESTRUCTION [AGOT: [target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [martial|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U], [Concept('suzerain', 'Efendisiyle')|E] aynı [Concept('aspect', 'Esasa')|E] sahip #weak ([target.GetSuzerain.GetShortUINamePossessive|U] [martial|E] becerisi temel alınır)#!: $VALUE|+=0$]
+ SCHEME_SUZERAIN_ASPECT_SKILL_DESTRUCTION: "[target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [martial|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SCHEME_SUZERAIN_ASPECT_SKILL_TRICKERY [AGOT: [target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [intrigue|E])#!: $VALUE|+=0$ | TR: [target.GetFirstName|U], [Concept('suzerain', 'Efendisiyle')|E] aynı [Concept('aspect', 'Esasa')|E] sahip #weak ([target.GetSuzerain.GetShortUINamePossessive|U] [intrigue|E] becerisi temel alınır)#!: $VALUE|+=0$]
+ SCHEME_SUZERAIN_ASPECT_SKILL_TRICKERY: "[target.GetFirstName|U] has same [aspect|E] as [target.GetHerHis] [suzerain|E] #weak (based on [target.GetSuzerain.GetShortUINamePossessive|U] [intrigue|E])#!: $VALUE|+=0$"
+### TODO AGOT-CHANGED: SUZERAIN_HAS_GREATER_RADIANCE [AGOT: [suzerain|E] [target.GetSuzerain.GetShortUIName] has greater [radiance|E]: $VALUE|+=0$ | TR: [suzerain|E] [target.GetSuzerain.GetShortUIName] daha yüksek [Concept('radiance', 'Haşmete')|E] sahip: $VALUE|+=0$]
+ SUZERAIN_HAS_GREATER_RADIANCE: "[suzerain|E] [target.GetSuzerain.GetShortUIName] has greater [radiance|E]: $VALUE|+=0$"
