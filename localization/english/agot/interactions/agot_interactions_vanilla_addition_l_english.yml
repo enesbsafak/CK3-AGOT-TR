@@ -1,0 +1,41 @@
+﻿l_english:
+### TODO NOT-IN-ST: MEGA_WAR_SWITCH_SIDES [AGOT: Force to switch side]
+ MEGA_WAR_SWITCH_SIDES:0 "Force to switch side"
+### TODO NOT-IN-ST: SWITCH_SIDES_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$]
+ SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$"
+### TODO NOT-IN-ST: SWITCH_SIDES_HEIR_IMPRISONED [AGOT: [recipient.GetHerHis|U] heir is taken prisoner: $VALUE|=+0$]
+ SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] heir is taken prisoner: $VALUE|=+0$"
+### TODO NOT-IN-ST: SWITCH_SIDES_LOYAL [AGOT: [recipient.GetSheHe|U] is loyal: $VALUE|=+0$]
+ SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] is loyal: $VALUE|=+0$"
+### TODO NOT-IN-ST: SWITCH_SIDES_DISLOYAL [AGOT: [recipient.GetSheHe|U] is disloyal: $VALUE|=+0$]
+ SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] is disloyal: $VALUE|=+0$"
+### TODO NOT-IN-ST: SWITCH_SIDES_CONTROLS_CAPITAL [AGOT: [recipient.GetSheHe|U] does not control [recipient.GetHerHis] capital: $VALUE|=+0$]
+ SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] does not control [recipient.GetHerHis] capital: $VALUE|=+0$"
+### TODO NOT-IN-ST: SWITCH_SIDES_LOSING_WAR [AGOT: [recipient.GetHerHis|U] side is losing the war: $VALUE|=+0$]
+ SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] side is losing the war: $VALUE|=+0$"
+### TODO NOT-IN-ST: AGOT_REALM_MEGAWAR_REASON [AGOT: Realm at war: $VALUE|=+0$]
+ AGOT_REALM_MEGAWAR_REASON:0 "Realm at war: $VALUE|=+0$"
+### TODO NOT-IN-ST: DESIGNATE_HEIR_HAS_CHILD [AGOT: You already have an heir!]
+ DESIGNATE_HEIR_HAS_CHILD:0 "You already have an heir!"
+### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV [AGOT: Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]).]
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV [AGOT: Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]).]
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV [AGOT: Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]).]
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV [AGOT: Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]).]
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+### TODO NOT-IN-ST: NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON [AGOT: [recipient.GetSheHe|U] is not religiously attached to [recipient.GetHerHis] knighthood: $VALUE|=+0$]
+ NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] is not religiously attached to [recipient.GetHerHis] knighthood: $VALUE|=+0$"
+### TODO NOT-IN-ST: RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON [AGOT: [recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$]
+ RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$"
+### TODO NOT-IN-ST: agot_send_to_nw [AGOT: Send to [nw_govt|E]]
+ agot_send_to_nw:0 "Send to [nw_govt|E]"
+### TODO NOT-IN-ST: RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION [AGOT: You cannot banish characters and send them to the Night's Watch at the same time.]
+ RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "You cannot banish characters and send them to the Night's Watch at the same time."
+### TODO NOT-IN-ST: RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION [AGOT: You cannot banish characters and send them to the Night's Watch at the same time.]
+ RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "You cannot banish characters and send them to the Night's Watch at the same time."
+### TODO NOT-IN-ST: NW_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$]
+ NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$"
+### TODO NOT-IN-ST: ARTIFACT_RANSOM_REASON [AGOT: [recipient.GetSheHe|U] will lose Artifacts: $VALUE|=+0$]
+ ARTIFACT_RANSOM_REASON:0 "[recipient.GetSheHe|U] will lose Artifacts: $VALUE|=+0$"

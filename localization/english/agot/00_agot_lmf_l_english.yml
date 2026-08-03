@@ -1,0 +1,385 @@
+﻿l_english:
+### TODO NOT-IN-ST: EASIER_MARRIAGE_GAME_RULE [AGOT: Easier Marriage game rule setting: $VALUE|=+0$]
+ EASIER_MARRIAGE_GAME_RULE:0 "Easier Marriage game rule setting: $VALUE|=+0$"
+### TODO NOT-IN-ST: MARRYING_HEIR_LINE_REASON [AGOT: Your Candidate is in [actor.GetShortUINamePossessiveNoTooltipNoFormat] line of succession: $VALUE|=+0$]
+ MARRYING_HEIR_LINE_REASON:0 "Your Candidate is in [actor.GetShortUINamePossessiveNoTooltipNoFormat] line of succession: $VALUE|=+0$"
+### TODO NOT-IN-ST: MARRY_LOVER_COURTIER_REASON [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] dear to [recipient.GetShortUINameNoTooltipNoFormat]: $VALUE|=+0$]
+ MARRY_LOVER_COURTIER_REASON:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] dear to [recipient.GetShortUINameNoTooltipNoFormat]: $VALUE|=+0$"
+### TODO NOT-IN-ST: MOTHER_OF_RECIPIENT [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] [recipient.GetShortUINamePossessiveNoTooltipNoFormat] mother: $VALUE|=+0$]
+ MOTHER_OF_RECIPIENT:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] [recipient.GetShortUINamePossessiveNoTooltipNoFormat] mother: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_NOBODY_FOREIGN_COURT [AGOT: Reluctant to send [secondary_recipient.GetShortUINameNoTooltipNoFormat] off to a foreign court for no reason: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_NOBODY_FOREIGN_COURT:0 "Reluctant to send [secondary_recipient.GetShortUINameNoTooltipNoFormat] off to a foreign court for no reason: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_NOBODY_FOREIGN_COURT [AGOT: Reluctant to send [secondary_actor.GetShortUINameNoTooltipNoFormat] off to a foreign court for no reason: $VALUE|=+0$]
+ SECONDARY_ACTOR_NOBODY_FOREIGN_COURT:0 "Reluctant to send [secondary_actor.GetShortUINameNoTooltipNoFormat] off to a foreign court for no reason: $VALUE|=+0$"
+### TODO NOT-IN-ST: WONT_BETROTHE_WITHOUT_REASON [AGOT: Reluctant to agree to betrothal for [secondary_recipient.GetShortUINameNoTooltipNoFormat] unless it creates (or reinforces) an alliance: $VALUE|=+0$]
+ WONT_BETROTHE_WITHOUT_REASON:0 "Reluctant to agree to betrothal for [secondary_recipient.GetShortUINameNoTooltipNoFormat] unless it creates (or reinforces) an alliance: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_WITCH [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a known witch: $VALUE|+=0$]
+ SECONDARY_ACTOR_WITCH:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a known witch: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_WITCH [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a known witch: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_WITCH:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a known witch: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_CANNIBAL [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a known cannibal: $VALUE|+=0$]
+ SECONDARY_ACTOR_CANNIBAL:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a known cannibal: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_CANNIBAL [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a known cannibal: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_CANNIBAL:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a known cannibal: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_SODOMITE [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a sodomite: $VALUE|+=0$]
+ SECONDARY_ACTOR_SODOMITE:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] a sodomite: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_SODOMITE [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a sodomite: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_SODOMITE:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] a sodomite: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_FORNICATOR [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] a scandalous reputation: $VALUE|+=0$]
+ SECONDARY_ACTOR_FORNICATOR:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] a scandalous reputation: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_FORNICATOR [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] a scandalous reputation: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_FORNICATOR:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] a scandalous reputation: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_BASTARD_CHILD [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] a bastard child present: $VALUE|+=0$]
+ SECONDARY_ACTOR_BASTARD_CHILD:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] a bastard child present: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_BASTARD_CHILD [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] a bastard child present: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_BASTARD_CHILD:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] a bastard child present: $VALUE|+=0$"
+### TODO NOT-IN-ST: CRUSADER_KING_ACTOR_MARRIAGE [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] a crusader king: $VALUE|+=0$]
+ CRUSADER_KING_ACTOR_MARRIAGE:0 "[actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] a crusader king: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_MARRY_AGE [AGOT: [secondary_actor.GetShortUINamePossessiveNoTooltipNoFormat|U] age considerations: $VALUE|+0$]
+ SECONDARY_ACTOR_MARRY_AGE:0 "[secondary_actor.GetShortUINamePossessiveNoTooltipNoFormat|U] age considerations: $VALUE|+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_BETROTHAL_AGE [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] too old for a betrothal: $VALUE|+0$]
+ SECONDARY_ACTOR_BETROTHAL_AGE:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] too old for a betrothal: $VALUE|+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_BETROTHAL_OLD [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] far too old to betrothe to [secondary_recipient.GetShortUINameNoTooltipNoFormat]: $VALUE|+0$]
+ SECONDARY_ACTOR_BETROTHAL_OLD:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] far too old to betrothe to [secondary_recipient.GetShortUINameNoTooltipNoFormat]: $VALUE|+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_DOES_NOT_NEED_CHILDREN [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] does not need more children: $VALUE|=+0$]
+ SECONDARY_ACTOR_DOES_NOT_NEED_CHILDREN:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] does not need more children: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_DOES_NOT_NEED_CHILDREN [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(secondary_recipient)] not need more children: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_DOES_NOT_NEED_CHILDREN:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(secondary_recipient)] not need more children: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_MALFORMED [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] visibly malformed: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_MALFORMED:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] visibly malformed: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_MALFORMED [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] visibly malformed: $VALUE|=+0$]
+ SECONDARY_ACTOR_MALFORMED:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_actor)] visibly malformed: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_BAD_CONGENITAL [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] poor congenital traits: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_BAD_CONGENITAL:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] poor congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_BAD_CONGENITAL [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] poor congenital traits: $VALUE|=+0$]
+ SECONDARY_ACTOR_BAD_CONGENITAL:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] poor congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_TERRIBLE_CONGENITAL [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] terrible congenital traits: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_TERRIBLE_CONGENITAL:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] terrible congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_TERRIBLE_CONGENITAL [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] terrible congenital traits: $VALUE|=+0$]
+ SECONDARY_ACTOR_TERRIBLE_CONGENITAL:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] terrible congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_GOOD_CONGENITAL [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] good congenital traits: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_GOOD_CONGENITAL:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_recipient)] good congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_GOOD_CONGENITAL [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] good congenital traits: $VALUE|=+0$]
+ SECONDARY_ACTOR_GOOD_CONGENITAL:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] good congenital traits: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_HIGH_SKILL [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] excellent skills: $VALUE|=+0$]
+ SECONDARY_ACTOR_HIGH_SKILL:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(secondary_actor)] excellent skills: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_TOO_CLOSE_RELATION [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_actor.GetShortUINameNoTooltipNoFormat|U] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$]
+ SECONDARY_ACTOR_TOO_CLOSE_RELATION:0 "[actor.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_actor.GetShortUINameNoTooltipNoFormat|U] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$"
+### TODO NOT-IN-ST: ACTOR_TOO_CLOSE_RELATION [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_actor.GetSheHe] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$]
+ ACTOR_TOO_CLOSE_RELATION:0 "[actor.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_actor.GetSheHe] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_TOO_CLOSE_RELATION [AGOT: [recipient.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] and [secondary_actor.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$]
+ SECONDARY_RECIPIENT_TOO_CLOSE_RELATION:0 "[recipient.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] and [secondary_actor.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$"
+### TODO NOT-IN-ST: RECIPIENT_TOO_CLOSE_RELATION [AGOT: [recipient.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_recipient.GetSheHe] and [secondary_actor.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$]
+ RECIPIENT_TOO_CLOSE_RELATION:0 "[recipient.GetShortUINameNoTooltipNoFormat|U] believes that [secondary_recipient.GetSheHe] and [secondary_actor.GetShortUINameNoTooltipNoFormat] are too closely related: $VALUE|+=0$"
+### TODO NOT-IN-ST: SECONDARY_RECIPIENT_MAIDEN [AGOT: [secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] an eligible maiden: $VALUE|=+0$]
+ SECONDARY_RECIPIENT_MAIDEN:0 "[secondary_recipient.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] an eligible maiden: $VALUE|=+0$"
+### TODO NOT-IN-ST: SECONDARY_ACTOR_MAIDEN [AGOT: [secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] an eligible maiden: $VALUE|=+0$]
+ SECONDARY_ACTOR_MAIDEN:0 "[secondary_actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(secondary_recipient)] an eligible maiden: $VALUE|=+0$"
+### TODO NOT-IN-ST: PREVIOUS_PROPOSAL_REFUSED [AGOT: A previous marriage proposal was refused: $VALUE|=+0$]
+ PREVIOUS_PROPOSAL_REFUSED:0 "A previous marriage proposal was refused: $VALUE|=+0$"
+### TODO NOT-IN-ST: PREVIOUS_INTRODUCTION_FAILED [AGOT: A previous introduction of [secondary_actor.GetShortUINameNoTooltipNoFormat] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] ended in failure: $VALUE|=+0$]
+ PREVIOUS_INTRODUCTION_FAILED:0 "A previous introduction of [secondary_actor.GetShortUINameNoTooltipNoFormat] and [secondary_recipient.GetShortUINameNoTooltipNoFormat] ended in failure: $VALUE|=+0$"
+### TODO NOT-IN-ST: THEY_CHILD_HEIR_NEEDED [AGOT: [recipient.GetShortUINameNoTooltipNoFormat|U] [Select_CString( recipient.IsLocalPlayer, 'need', 'needs' )] an heir: $VALUE|=+0$]
+ THEY_CHILD_HEIR_NEEDED:0 "[recipient.GetShortUINameNoTooltipNoFormat|U] [Select_CString( recipient.IsLocalPlayer, 'need', 'needs' )] an heir: $VALUE|=+0$"
+### TODO NOT-IN-ST: YOU_CHILD_HEIR_NEEDED [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] [Select_CString( actor.IsLocalPlayer, 'need', 'needs' )] an heir: $VALUE|=+0$]
+ YOU_CHILD_HEIR_NEEDED:0 "[actor.GetShortUINameNoTooltipNoFormat|U] [Select_CString( actor.IsLocalPlayer, 'need', 'needs' )] an heir: $VALUE|=+0$"
+### TODO NOT-IN-ST: NEED_MORE_CHILDREN [AGOT: [recipient.GetShortUINameNoTooltipNoFormat|U] wants to have more children: $VALUE|=+0$]
+ NEED_MORE_CHILDREN:0 "[recipient.GetShortUINameNoTooltipNoFormat|U] wants to have more children: $VALUE|=+0$"
+### TODO NOT-IN-ST: WANTS_CHILD_WITH_YOU [AGOT: [recipient.GetSheHe|U] wants to have a child with you: $VALUE|=+0$]
+ WANTS_CHILD_WITH_YOU:0 "[recipient.GetSheHe|U] wants to have a child with you: $VALUE|=+0$"
+### TODO NOT-IN-ST: CANT_HAVE_MORE_CHILDREN [AGOT: We can't have any more children: $VALUE|=+0$]
+ CANT_HAVE_MORE_CHILDREN:0 "We can't have any more children: $VALUE|=+0$"
+### TODO NOT-IN-ST: AI_YOUR_SOULMATE [AGOT: [recipient.GetSheHe|U] is your Soulmate: $VALUE|=+0$]
+ AI_YOUR_SOULMATE:0 "[recipient.GetSheHe|U] is your Soulmate: $VALUE|=+0$"
+### TODO NOT-IN-ST: YOU_BETRAYED_ME [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] betrayed [recipient.GetHerHim]: $VALUE|=+0$]
+ YOU_BETRAYED_ME:0 "[actor.GetShortUINameNoTooltipNoFormat|U] betrayed [recipient.GetHerHim]: $VALUE|=+0$"
+### TODO NOT-IN-ST: SCHEME_THEIR_INTRIGUE [AGOT: Their [intrigue|E]: $VALUE|+=0$]
+ SCHEME_THEIR_INTRIGUE: "Their [intrigue|E]: $VALUE|+=0$"
+### TODO NOT-IN-ST: NOT_SPEAK_SAME_LANGUAGE_REASON [AGOT: You cannot speak the [recipient.GetCulture.GetLanguage.GetName] [language|E]: $VALUE|=+0$]
+ NOT_SPEAK_SAME_LANGUAGE_REASON:0 "You cannot speak the [recipient.GetCulture.GetLanguage.GetName] [language|E]: $VALUE|=+0$"
+### TODO NOT-IN-ST: YOU_DONT_SPEAK_THE_LANGUAGE [AGOT: You cannot speak [target.GetCulture.GetLanguage.GetName]: $VALUE|=+0$]
+ YOU_DONT_SPEAK_THE_LANGUAGE:0 "You cannot speak [target.GetCulture.GetLanguage.GetName]: $VALUE|=+0$"
+### TODO NOT-IN-ST: THEY_DONT_SPEAK_THE_LANGUAGE [AGOT: [target.GetShortUINameNoTooltipNoFormat|U] cannot speak [owner.GetCulture.GetLanguage.GetName]: $VALUE|=+0$]
+ THEY_DONT_SPEAK_THE_LANGUAGE:0 "[target.GetShortUINameNoTooltipNoFormat|U] cannot speak [owner.GetCulture.GetLanguage.GetName]: $VALUE|=+0$"
+### TODO NOT-IN-ST: THEY_ARE_CELIBATE_CLERGY [AGOT: [target.GetShortUINameNoTooltipNoFormat] is part of the [target.GetFaith.GetNameNoTooltip] clergy: $VALUE|=+0$]
+ THEY_ARE_CELIBATE_CLERGY:0 "[target.GetShortUINameNoTooltipNoFormat] is part of the [target.GetFaith.GetNameNoTooltip] clergy: $VALUE|=+0$"
+### TODO NOT-IN-ST: SCHEME_HONEST_TRAIT [AGOT: [GetTrait('honest').GetName( owner.Self )]: $VALUE|+0=$]
+ SCHEME_HONEST_TRAIT:1 "[GetTrait('honest').GetName( owner.Self )]: $VALUE|+0=$"
+### TODO NOT-IN-ST: SCHEME_EAGER_TO_BE_SEDUCED [AGOT: [target.GetShortUINameNoTooltipNoFormat] is eager to be seduced: $VALUE|+0=-+$]
+ SCHEME_EAGER_TO_BE_SEDUCED:0 "[target.GetShortUINameNoTooltipNoFormat] is eager to be seduced: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_TO_FORNICATE [AGOT: [target.GetShortUINameNoTooltipNoFormat] does not want to become a [GetTrait('fornicator').GetName( target.Self )]: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_TO_FORNICATE:0 "[target.GetShortUINameNoTooltipNoFormat] does not want to become a [GetTrait('fornicator').GetName( target.Self )]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_TO_SODOMITE [AGOT: [target.GetShortUINameNoTooltipNoFormat] does not want to become a [GetTrait('sodomite').GetName( target.Self )]: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_TO_SODOMITE:0 "[target.GetShortUINameNoTooltipNoFormat] does not want to become a [GetTrait('sodomite').GetName( target.Self )]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_LESBIAN [AGOT: [target.GetShortUINameNoTooltipNoFormat] is unwilling to romance a member of her own sex: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_LESBIAN:0 "[target.GetShortUINameNoTooltipNoFormat] is unwilling to romance a member of her own sex: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_CHEAT_SPOUSE [AGOT: [target.GetShortUINameNoTooltipNoFormat] is unwilling to cheat on [target.GetHerHis] spouse: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_CHEAT_SPOUSE:0 "[target.GetShortUINameNoTooltipNoFormat] is unwilling to cheat on [target.GetHerHis] spouse: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_CHEAT_BETROTHED [AGOT: [target.GetShortUINameNoTooltipNoFormat] is unwilling to betray [target.GetHerHis] betrothed: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_CHEAT_BETROTHED:0 "[target.GetShortUINameNoTooltipNoFormat] is unwilling to betray [target.GetHerHis] betrothed: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_UNWILLING_CHEAT_LOVER [AGOT: [target.GetShortUINamePossessiveNoTooltipNoFormat] affections are clearly reserved for somebody else: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_UNWILLING_CHEAT_LOVER:0 "[target.GetShortUINamePossessiveNoTooltipNoFormat] affections are clearly reserved for somebody else: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_BETROTHED_OPINION_PENALTY [AGOT: [target.GetShortUINameNoTooltipNoFormat] loves [target.GetHerHis] betrothed, [target.GetPrimarySpouseOrBetrothed.GetShortUIName]: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_BETROTHED_OPINION_PENALTY:0 "[target.GetShortUINameNoTooltipNoFormat] loves [target.GetHerHis] betrothed, [target.GetPrimarySpouseOrBetrothed.GetShortUIName]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_TOO_COWARDLY [AGOT: [target.GetShortUINameNoTooltipNoFormat] is too timid to take a lover: $VALUE|+0=-+$]
+ SCHEME_SEDUCE_TOO_COWARDLY:0 "[target.GetShortUINameNoTooltipNoFormat] is too timid to take a lover: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_DRUNKARD_TRAIT [AGOT: [GetTrait('drunkard').GetName( owner.Self )]: $VALUE|+0=$]
+ SCHEME_DRUNKARD_TRAIT:0 "[GetTrait('drunkard').GetName( owner.Self )]: $VALUE|+0=$"
+### TODO NOT-IN-ST: SCHEME_RECLUSIVE_TRAIT [AGOT: [GetTrait('reclusive').GetName( owner.Self )]: $VALUE|+0=$]
+ SCHEME_RECLUSIVE_TRAIT:0 "[GetTrait('reclusive').GetName( owner.Self )]: $VALUE|+0=$"
+### TODO NOT-IN-ST: SCHEME_CELIBATE_TRAIT [AGOT: [GetTrait('celibate').GetName( owner.Self )]: $VALUE|+0=$]
+ SCHEME_CELIBATE_TRAIT:0 "[GetTrait('celibate').GetName( owner.Self )]: $VALUE|+0=$"
+### TODO NOT-IN-ST: SCHEME_DEPRESSED_TRAIT [AGOT: [GetTrait('depressed').GetName( owner.Self )]: $VALUE|+0=$]
+ SCHEME_DEPRESSED_TRAIT:0 "[GetTrait('depressed').GetName( owner.Self )]: $VALUE|+0=$"
+### TODO NOT-IN-ST: SCHEME_SEDUCE_MUST_MARRY [AGOT: [target.GetShortUINameNoTooltipNoFormat] is saving [target.GetHerselfHimself] for marriage: $VALUE|+0=$]
+ SCHEME_SEDUCE_MUST_MARRY:0 "[target.GetShortUINameNoTooltipNoFormat] is saving [target.GetHerselfHimself] for marriage: $VALUE|+0=$"
+### TODO NOT-IN-ST: ELOPE_SUCCESS_IMPORTANT [AGOT: [target.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(target)] important to [target.GetLiege.GetShortUIName]: $VALUE|=+0$]
+ ELOPE_SUCCESS_IMPORTANT:0 "[target.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(target)] important to [target.GetLiege.GetShortUIName]: $VALUE|=+0$"
+### TODO NOT-IN-ST: ELOPE_HEIR_TO_TITLES [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] heir to a [title|E]: $VALUE|=+0$]
+ ELOPE_HEIR_TO_TITLES:0 "[actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] heir to a [title|E]: $VALUE|=+0$"
+### TODO NOT-IN-ST: ELOPE_HEIR_SUCCESSION_TO_TITLES [AGOT: [actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] in the line of succession for a [title|E]: $VALUE|=+0$]
+ ELOPE_HEIR_SUCCESSION_TO_TITLES:0 "[actor.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(actor)] in the line of succession for a [title|E]: $VALUE|=+0$"
+### TODO NOT-IN-ST: NOT_WANTS_TO_BE_MARRIED [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] does not want to marry you]
+ NOT_WANTS_TO_BE_MARRIED:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] does not want to marry you"
+### TODO NOT-IN-ST: NOT_MARRY_BY_ELOPEMENT [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] cannot elope with [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U]]
+ NOT_MARRY_BY_ELOPEMENT:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] cannot elope with [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U]"
+### TODO NOT-IN-ST: NOT_NEED_ELOPEMENT_TO_MARRY [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(CHARACTER)] not need to elope in order to marry [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat]]
+ NOT_NEED_ELOPEMENT_TO_MARRY:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(CHARACTER)] not need to elope in order to marry [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat]"
+### TODO NOT-IN-ST: OT_WANTS_TO_ELOPE [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(TARGET_CHARACTER)] not want to elope]
+ OT_WANTS_TO_ELOPE:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharDoDoes(TARGET_CHARACTER)] not want to elope"
+### TODO NOT-IN-ST: NOT_BETRAY_SPOUSE [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] will not betray [CharYourHerHis(TARGET_CHARACTER)] spouse]
+ NOT_BETRAY_SPOUSE:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] will not betray [CharYourHerHis(TARGET_CHARACTER)] spouse"
+### TODO NOT-IN-ST: NOT_BETRAY_BETROTHED [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] will not betray [CharYourHerHis(TARGET_CHARACTER)] betrothed]
+ NOT_BETRAY_BETROTHED:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] will not betray [CharYourHerHis(TARGET_CHARACTER)] betrothed"
+### TODO NOT-IN-ST: NOT_WANTS_LOVER [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(TARGET_CHARACTER)] not willing to take a lover]
+ NOT_WANTS_LOVER:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(TARGET_CHARACTER)] not willing to take a lover"
+### TODO NOT-IN-ST: NOT_PART_OF_REALM_OR_GUEST [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(TARGET_CHARACTER)] neither part of [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] realm nor a guest]
+ NOT_PART_OF_REALM_OR_GUEST:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(TARGET_CHARACTER)] neither part of [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] realm nor a guest"
+### TODO NOT-IN-ST: NOT_GREEDY_ENOUGH_ACCEPT_DEMAND [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] is not greedy enough to accept a bribe]
+ NOT_GREEDY_ENOUGH_ACCEPT_DEMAND:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] is not greedy enough to accept a bribe"
+### TODO NOT-IN-ST: AI_BREAK_VOW_CONSEQUENCES [AGOT: [recipient.GetShortUINameNoTooltipNoFormat|U] would be breaking [recipient.GetHerHis] religious vows: $VALUE|=+0$]
+ AI_BREAK_VOW_CONSEQUENCES:0 "[recipient.GetShortUINameNoTooltipNoFormat|U] would be breaking [recipient.GetHerHis] religious vows: $VALUE|=+0$"
+### TODO NOT-IN-ST: IS_NOT_PRIMARY_HEIR_AND_TRAINED [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] is not [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] primary heir or does not have the [GetTrait('education_heir_training_1').GetName( GetNullCharacter )] Trait]
+ IS_NOT_PRIMARY_HEIR_AND_TRAINED:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] is not [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] primary heir or does not have the [GetTrait('education_heir_training_1').GetName( GetNullCharacter )] Trait"
+### TODO NOT-IN-ST: NOT_HAVE_SUPERIOR_SKILLS [AGOT: [CHARACTER.GetShortUIName|U] [CharDoDoes(CHARACTER)] not have any skills superior to both [TARGET_CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetHerHis] liege]
+ NOT_HAVE_SUPERIOR_SKILLS:0 "[CHARACTER.GetShortUIName|U] [CharDoDoes(CHARACTER)] not have any skills superior to both [TARGET_CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetHerHis] liege"
+### TODO NOT-IN-ST: NOT_HAVE_AVAILABLE_INTRODUCTION [AGOT: There is no-one in [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] family who is a potential match for [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] or who [TARGET_CHARACTER.GetSheHe] is interested in meeting with]
+ NOT_HAVE_AVAILABLE_INTRODUCTION:0 "There is no-one in [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] family who is a potential match for [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] or who [TARGET_CHARACTER.GetSheHe] is interested in meeting with"
+### TODO NOT-IN-ST: ALREADY_IN_INTRODUCTION [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] already involved in a marriage introduction]
+ ALREADY_IN_INTRODUCTION:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] already involved in a marriage introduction"
+### TODO NOT-IN-ST: HAS_DEBILITATING_ILLNESS [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] a debilitating illness]
+ HAS_DEBILITATING_ILLNESS:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] a debilitating illness"
+### TODO NOT-IN-ST: HAD_RECENT_INTRODUCTION [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat] was part of a marriage introduction within the last year]
+ HAD_RECENT_INTRODUCTION:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat] was part of a marriage introduction within the last year"
+### TODO NOT-IN-ST: TOO_FAR_FOR_INTRODUCTION [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat}U] [CharAreIs(TARGET_CHARACTER)] too far from [CHARACTER.GetShortUINamePossessiveNoTooltip] court to travel for an introduction]
+ TOO_FAR_FOR_INTRODUCTION:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat}U] [CharAreIs(TARGET_CHARACTER)] too far from [CHARACTER.GetShortUINamePossessiveNoTooltip] court to travel for an introduction"
+### TODO NOT-IN-ST: AWAITING_INVITED_GUEST [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] busy preparing for an invited guest's arrival]
+ AWAITING_INVITED_GUEST:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] busy preparing for an invited guest's arrival"
+### TODO NOT-IN-ST: HAD_RECENT_VISIT_THREE_YEARS [AGOT: You and [CHARACTER.GetShortUINameNoTooltipNoFormat] have had a successful or refused visit within the last three years]
+ HAD_RECENT_VISIT_THREE_YEARS:0 "You and [CHARACTER.GetShortUINameNoTooltipNoFormat] have had a successful or refused visit within the last three years"
+### TODO NOT-IN-ST: I_CANNOT_BLACKMAIL_OVER_MY_OWN_INCESTUOUS_RELATIONSHIP [AGOT: You cannot blackmail over your own incestuous relationship]
+ I_CANNOT_BLACKMAIL_OVER_MY_OWN_INCESTUOUS_RELATIONSHIP:0 "You cannot blackmail over your own incestuous relationship"
+### TODO NOT-IN-ST: I_CANNOT_BLACKMAIL_OVER_MY_OWN_HOMOSEXUAL_RELATIONSHIP [AGOT: You cannot blackmail over your own homosexual relationship]
+ I_CANNOT_BLACKMAIL_OVER_MY_OWN_HOMOSEXUAL_RELATIONSHIP:0 "You cannot blackmail over your own homosexual relationship"
+### TODO NOT-IN-ST: HIRE_A_TRAVEL_GUIDE [AGOT: Pay their expenses and hire a guide for safety]
+ HIRE_A_TRAVEL_GUIDE:0 "Pay their expenses and hire a guide for safety"
+### TODO NOT-IN-ST: AI_HIRE_VISIT_GUIDE [AGOT: Paid for expenses and hired guide: $VALUE|=+0$]
+ AI_HIRE_VISIT_GUIDE:0 "Paid for expenses and hired guide: $VALUE|=+0$"
+### TODO NOT-IN-ST: lmf_boy [AGOT: boy]
+ lmf_boy:0 "boy"
+### TODO NOT-IN-ST: lmf_lad [AGOT: lad]
+ lmf_lad:0 "lad"
+### TODO NOT-IN-ST: lmf_young_man [AGOT: young man]
+ lmf_young_man:0 "young man"
+### TODO NOT-IN-ST: lmf_man [AGOT: man]
+ lmf_man:0 "man"
+### TODO NOT-IN-ST: lmf_lass [AGOT: lass]
+ lmf_lass:0 "lass"
+### TODO NOT-IN-ST: lmf_young_woman [AGOT: young woman]
+ lmf_young_woman:0 "young woman"
+### TODO NOT-IN-ST: lmf_woman [AGOT: woman]
+ lmf_woman:0 "woman"
+### TODO NOT-IN-ST: lmf_address_parent [AGOT: [second.GetMotherFather|U]]
+ lmf_address_parent:0 "[second.GetMotherFather|U]"
+### TODO NOT-IN-ST: lmf_address_auntuncle [AGOT: [second.Custom('GetAuntUncle')|U] [second.GetFirstNameNoTooltip]]
+ lmf_address_auntuncle:0 "[second.Custom('GetAuntUncle')|U] [second.GetFirstNameNoTooltip]"
+### TODO NOT-IN-ST: lmf_address_my_love [AGOT: my love]
+ lmf_address_my_love:0 "my love"
+### TODO NOT-IN-ST: lmf_address_my_lord [AGOT: my [second.GetLadyLord]]
+ lmf_address_my_lord:0 "my [second.GetLadyLord]"
+### TODO NOT-IN-ST: game_concept_good_mother [AGOT: Good-Mother]
+ game_concept_good_mother:0 "Good-Mother"
+### TODO NOT-IN-ST: game_concept_good_father [AGOT: Good-Father]
+ game_concept_good_father:0 "Good-Father"
+### TODO NOT-IN-ST: game_concept_good_brother [AGOT: Good-Brother]
+ game_concept_good_brother:0 "Good-Brother"
+### TODO NOT-IN-ST: game_concept_good_son [AGOT: Good-Son]
+ game_concept_good_son:0 "Good-Son"
+### TODO NOT-IN-ST: game_concept_good_daughter [AGOT: Good-Daughter]
+ game_concept_good_daughter:0 "Good-Daughter"
+### TODO NOT-IN-ST: tutor_teach_languages [AGOT: Direct Language Teaching]
+ tutor_teach_languages:0 "Direct Language Teaching"
+### TODO NOT-IN-ST: tutor_teach_languages_desc [AGOT: This character is tasked with deciding which languages your family members will be tutored, without your direct intervention required.]
+ tutor_teach_languages_desc:0 "This character is tasked with deciding which languages your family members will be tutored, without your direct intervention required."
+### TODO NOT-IN-ST: tutor_teach_languages_tt [AGOT: The teaching of languages to your family members at court will be automatically handled.\n\nAt higher levels of [aptitude|E], courtiers with important languages you don't have present at court might be introduced from time to time.]
+ tutor_teach_languages_tt:0 "The teaching of languages to your family members at court will be automatically handled.\n\nAt higher levels of [aptitude|E], courtiers with important languages you don't have present at court might be introduced from time to time."
+### TODO NOT-IN-ST: THEY_RECENTLY_RECEIVED_DEMAND [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltip] recently received an inheritance demand]
+ THEY_RECENTLY_RECEIVED_DEMAND:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] recently received an inheritance demand"
+### TODO NOT-IN-ST: I_RECENTLY_MADE_LOVER_DEMAND [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltip] recently refused [CHARACTER.GetShortUINamePossessiveNoTooltip] demand]
+ I_RECENTLY_MADE_LOVER_DEMAND:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] recently refused [CHARACTER.GetShortUINamePossessiveNoTooltip] demand"
+### TODO NOT-IN-ST: RECENTLY_RECEIVED_LOVER_DEMAND [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltip] received a demand within the last year]
+ RECENTLY_RECEIVED_LOVER_DEMAND:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] received a demand within the last year"
+### TODO NOT-IN-ST: confront_about_lover_one_tt [AGOT: You will address the matter of your [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('recipient'))] lover.]
+ confront_about_lover_one_tt:0 "You will address the matter of your [actor.Custom2('LMF_RelationToMePossessive', SCOPE.sC('recipient'))] lover."
+### TODO NOT-IN-ST: INVITE_SOULMATE_TO_VISIT [AGOT: It drives me mad that you are not here with me every day in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Please, come for a visit. I need to remind myself what it feels like to be held in your arms, to gaze into your eyes.]
+ INVITE_SOULMATE_TO_VISIT:0 "It drives me mad that you are not here with me every day in [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Please, come for a visit. I need to remind myself what it feels like to be held in your arms, to gaze into your eyes."
+### TODO NOT-IN-ST: INVITE_LOVER_TO_VISIT [AGOT: It has been too long since I have seen you. Come to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I beg you, so I can hold you in my arms once more.]
+ INVITE_LOVER_TO_VISIT:0 "It has been too long since I have seen you. Come to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], I beg you, so I can hold you in my arms once more."
+### TODO NOT-IN-ST: INVITE_SPOUSE_TO_VISIT [AGOT: I extend my invitation to you: come to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], so we may spend time together as husband and wife and strengthen our marital bonds.]
+ INVITE_SPOUSE_TO_VISIT:0 "I extend my invitation to you: come to [actor.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], so we may spend time together as husband and wife and strengthen our marital bonds."
+### TODO NOT-IN-ST: game_rule_category_lmf [AGOT: @lmf_icon! Love Marriage Family]
+ game_rule_category_lmf:0 "@lmf_icon! Love Marriage Family"
+### TODO NOT-IN-ST: rule_lmf_army_events [AGOT: @lmf_icon! Army Events]
+ rule_lmf_army_events:0 "@lmf_icon! Army Events"
+### TODO NOT-IN-ST: rule_lmf_lover_event_frequency [AGOT: @lmf_icon! Lover Event Frequency]
+ rule_lmf_lover_event_frequency:0 "@lmf_icon! Lover Event Frequency"
+### TODO NOT-IN-ST: rule_lmf_spouse_event_frequency [AGOT: @lmf_icon! Spouse Event Frequency]
+ rule_lmf_spouse_event_frequency:0 "@lmf_icon! Spouse Event Frequency"
+### TODO NOT-IN-ST: army_camp_rendezvous [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] and [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] became lovers while serving in the army camped at [PROVINCE.GetNameNoTooltip].]
+ army_camp_rendezvous:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] and [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] became lovers while serving in the army camped at [PROVINCE.GetNameNoTooltip]."
+### TODO NOT-IN-ST: saved_by_army_stranger [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] befriended [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] after [CharYouSheHe(TARGET_CHARACTER)] saved [CharYouSheHe(CHARACTER)] during a bandit ambush.]
+ saved_by_army_stranger:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] befriended [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] after [CharYouSheHe(TARGET_CHARACTER)] saved [CharYouSheHe(CHARACTER)] during a bandit ambush."
+### TODO NOT-IN-ST: searched_for_me_after_lost [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] grateful when [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] searched for [CharYouHerHim(CHARACTER)] after [CharYouSheHe(CHARACTER)] became lost during a patrol.]
+ searched_for_me_after_lost:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] grateful when [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] searched for [CharYouHerHim(CHARACTER)] after [CharYouSheHe(CHARACTER)] became lost during a patrol."
+### TODO NOT-IN-ST: army_camp_caught_eye [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a soldier who caught [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] your eye when [CharYouThey(TARGET_CHARACTER)] were both in the army camp at [PROVINCE.GetNameNoTooltip].]
+ army_camp_caught_eye:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] a soldier who caught [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat] your eye when [CharYouThey(TARGET_CHARACTER)] were both in the army camp at [PROVINCE.GetNameNoTooltip]."
+### TODO NOT-IN-ST: demanded_I_marry_lover [AGOT: [TARGET_CHARACTER.GetShortUIName|U] demanded that [CHARACTER.GetShortUIName] marry [CHARACTER.GetHerHis] lover.]
+ demanded_I_marry_lover:0 "[TARGET_CHARACTER.GetShortUIName|U] demanded that [CHARACTER.GetShortUIName] marry [CHARACTER.GetHerHis] lover."
+### TODO NOT-IN-ST: lmf_secondary_actor_may_rebel_tt [AGOT: @warning_icon! #X [secondary_actor.GetTitledFirstNameNoTooltip] may rebel against being forced to marry against [secondary_actor.GetHerHis] wishes!#!]
+ lmf_secondary_actor_may_rebel_tt:0 "@warning_icon! #X [secondary_actor.GetTitledFirstNameNoTooltip] may rebel against being forced to marry against [secondary_actor.GetHerHis] wishes!#!"
+### TODO NOT-IN-ST: lover_jealousy [AGOT: [CHARACTER.GetShortUIName|U] has become incredibly jealous of [TARGET_CHARACTER.GetShortUIName|U].]
+ lover_jealousy:0 "[CHARACTER.GetShortUIName|U] has become incredibly jealous of [TARGET_CHARACTER.GetShortUIName|U]."
+### TODO NOT-IN-ST: spouse_made_lover_break_up [AGOT: [TARGET_CHARACTER.GetShortUIName|U] forced [TARGET_CHARACTER.GetHerHis] spouse to break up with [CHARACTER.GetShortUIName].]
+ spouse_made_lover_break_up:0 "[TARGET_CHARACTER.GetShortUIName|U] forced [TARGET_CHARACTER.GetHerHis] spouse to break up with [CHARACTER.GetShortUIName]."
+### TODO NOT-IN-ST: refused_to_dump_lover [AGOT: [TARGET_CHARACTER.GetShortUIName|U] refused to break off things with [TARGET_CHARACTER.GetHerHisMy] lover.]
+ refused_to_dump_lover:0 "[TARGET_CHARACTER.GetShortUIName|U] refused to break off things with [TARGET_CHARACTER.GetHerHisMy] lover."
+### TODO NOT-IN-ST: spouse_wont_dump_lover [AGOT: [CHARACTER.GetShortUINamePossessiveNoTooltip|U] [CHARACTER.Custom('WifeHusbandOpp')] refused to break things off with [CHARACTER.Custom('GetHerHisOpposite')] lover, [TARGET_CHARACTER.GetShortUIName].]
+ spouse_wont_dump_lover:0 "[CHARACTER.GetShortUINamePossessiveNoTooltip|U] [CHARACTER.Custom('WifeHusbandOpp')] refused to break things off with [CHARACTER.Custom('GetHerHisOpposite')] lover, [TARGET_CHARACTER.GetShortUIName]."
+### TODO NOT-IN-ST: lmf_extoll_court_tutor [AGOT: a learned [ROOT.GetCharacter.GetWomanMan] who could perhaps serve as your [GetCourtPositionType('court_tutor_court_position').GetNameNoTooltip()|l]?]
+ lmf_extoll_court_tutor:0 "a learned [ROOT.GetCharacter.GetWomanMan] who could perhaps serve as your [GetCourtPositionType('court_tutor_court_position').GetNameNoTooltip()|l]?"
+### TODO NOT-IN-ST: lmf_extoll_seneschal [AGOT: a skilled [ROOT.GetCharacter.GetWomanMan] who could perhaps serve as your [GetCourtPositionType('seneschal_court_position').GetNameNoTooltip()|l]?]
+ lmf_extoll_seneschal:0 "a skilled [ROOT.GetCharacter.GetWomanMan] who could perhaps serve as your [GetCourtPositionType('seneschal_court_position').GetNameNoTooltip()|l]?"
+### TODO NOT-IN-ST: lmf_extoll_poet [AGOT: a talented writer who could perhaps serve as your [GetCourtPositionType('court_poet_court_position').GetNameNoTooltip()|l]?]
+ lmf_extoll_poet:0 "a talented writer who could perhaps serve as your [GetCourtPositionType('court_poet_court_position').GetNameNoTooltip()|l]?"
+### TODO NOT-IN-ST: lmf_extoll_spymaster [AGOT: quite adept at the art of intrigue and could perhaps serve as your [second.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionName|l]?]
+ lmf_extoll_spymaster:0 "quite adept at the art of intrigue and could perhaps serve as your [second.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionName|l]?"
+### TODO NOT-IN-ST: lmf_extoll_marshal [AGOT: a highly skilled warrior and could perhaps serve as your [second.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName|l]?]
+ lmf_extoll_marshal:0 "a highly skilled warrior and could perhaps serve as your [second.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName|l]?"
+### TODO NOT-IN-ST: lmf_extoll_honor [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]an honorable [ROOT.GetCharacter.GetWomanMan].]
+ lmf_extoll_honor:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]an honorable [ROOT.GetCharacter.GetWomanMan]."
+### TODO NOT-IN-ST: lmf_extoll_zeal [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] of great zeal and piety.]
+ lmf_extoll_zeal:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] of great zeal and piety."
+### TODO NOT-IN-ST: lmf_extoll_loyal [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] who is loyal and will never let you down.]
+ lmf_extoll_loyal:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] who is loyal and will never let you down."
+### TODO NOT-IN-ST: lmf_extoll_generous [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] with a generous nature.]
+ lmf_extoll_generous:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] with a generous nature."
+### TODO NOT-IN-ST: lmf_extoll_just [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] of principle.]
+ lmf_extoll_just:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]a [ROOT.GetCharacter.GetWomanMan] of principle."
+### TODO NOT-IN-ST: lmf_extoll_honest [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]an honest [ROOT.GetCharacter.GetWomanMan].]
+ lmf_extoll_honest:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]an honest [ROOT.GetCharacter.GetWomanMan]."
+### TODO NOT-IN-ST: lmf_extoll_brave [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]without fear, and would serve you admirably.]
+ lmf_extoll_brave:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]without fear, and would serve you admirably."
+### TODO NOT-IN-ST: lmf_extoll_my_soulmate [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]my one, true love and soulmate.]
+ lmf_extoll_my_soulmate:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]my one, true love and soulmate."
+### TODO NOT-IN-ST: lmf_extoll_my_lover [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]my true love.]
+ lmf_extoll_my_lover:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]my true love."
+### TODO NOT-IN-ST: lmf_extoll_fallback [AGOT: [ROOT.GetCharacter.Custom('lmf_extoll_trait')]worthy.]
+ lmf_extoll_fallback:0 "[ROOT.GetCharacter.Custom('lmf_extoll_trait')]worthy."
+### TODO NOT-IN-ST: lmf_extoll_beauty_good_3 [AGOT: [GetTrait('beauty_good_3').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as]
+ lmf_extoll_beauty_good_3:0 "[GetTrait('beauty_good_3').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as "
+### TODO NOT-IN-ST: lmf_extoll_beauty_good_2 [AGOT: [GetTrait('beauty_good_2').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as]
+ lmf_extoll_beauty_good_2:0 "[GetTrait('beauty_good_2').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as "
+### TODO NOT-IN-ST: lmf_extoll_beauty_good_1 [AGOT: [GetTrait('beauty_good_1').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as]
+ lmf_extoll_beauty_good_1:0 "[GetTrait('beauty_good_1').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as "
+### TODO NOT-IN-ST: lmf_extoll_shrewd [AGOT: [GetTrait('shrewd').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as]
+ lmf_extoll_shrewd:0 "[GetTrait('shrewd').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as "
+### TODO NOT-IN-ST: lmf_extoll_strong [AGOT: [GetTrait('strong').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as]
+ lmf_extoll_strong:0 "[GetTrait('strong').GetNameNoTooltip( ROOT.GetCharacter )|l] as well as "
+### TODO NOT-IN-ST: lmf_request_benevolent [AGOT: I sincerely hope]
+ lmf_request_benevolent:0 "I sincerely hope"
+### TODO NOT-IN-ST: lmf_request_normal [AGOT: I thus ask]
+ lmf_request_normal:0 "I thus ask"
+### TODO NOT-IN-ST: lmf_spouse_rep_murderer [AGOT: the lurid tales of [ROOT.GetCharacter.GetHerHis] supposed many murders]
+ lmf_spouse_rep_murderer:0 "the lurid tales of [ROOT.GetCharacter.GetHerHis] supposed many murders"
+### TODO NOT-IN-ST: lmf_spouse_rep_adulterer [AGOT: the stories of [ROOT.GetCharacter.GetHerHis] loose moral character]
+ lmf_spouse_rep_adulterer:0 "the stories of [ROOT.GetCharacter.GetHerHis] loose moral character"
+### TODO NOT-IN-ST: lmf_spouse_rep_culture [AGOT: the fact [ROOT.GetCharacter.GetSheHe] was of [ROOT.GetCharacter.GetCulture.GetHeritage.GetNameNoTooltip] blood]
+ lmf_spouse_rep_culture:0 "the fact [ROOT.GetCharacter.GetSheHe] was of [ROOT.GetCharacter.GetCulture.GetHeritage.GetNameNoTooltip] blood"
+### TODO NOT-IN-ST: lmf_spouse_rep_fallback1 [AGOT: baseless rumors conjured from nothing]
+ lmf_spouse_rep_fallback1:0 "baseless rumors conjured from nothing"
+### TODO NOT-IN-ST: lmf_spouse_rep_fallback2 [AGOT: imaginary tales from who-knows-where]
+ lmf_spouse_rep_fallback2:0 "imaginary tales from who-knows-where"
+### TODO NOT-IN-ST: lmf_spouse_rem_pregnant [AGOT: the obvious (and rather advanced) state of her pregnancy]
+ lmf_spouse_rem_pregnant:0 "the obvious (and rather advanced) state of her pregnancy"
+### TODO NOT-IN-ST: lmf_spouse_rem_leper [AGOT: how shocking it was that I should marry a leper]
+ lmf_spouse_rem_leper:0 "how shocking it was that I should marry a leper"
+### TODO NOT-IN-ST: lmf_spouse_rem_dwarf [AGOT: how incredibly short [ROOT.GetCharacter.GetSheHe] was]
+ lmf_spouse_rem_dwarf:0 "how incredibly short [ROOT.GetCharacter.GetSheHe] was"
+### TODO NOT-IN-ST: lmf_spouse_rem_old [AGOT: how much older [ROOT.GetCharacter.GetSheHe] was than they expected]
+ lmf_spouse_rem_old:0 "how much older [ROOT.GetCharacter.GetSheHe] was than they expected"
+### TODO NOT-IN-ST: lmf_spouse_rem_ugly_female [AGOT: how unattractive they thought she was]
+ lmf_spouse_rem_ugly_female:0 "how unattractive they thought she was"
+### TODO NOT-IN-ST: lmf_spouse_rem_ugly_male [AGOT: how ugly they considered him]
+ lmf_spouse_rem_ugly_male:0 "how ugly they considered him"
+### TODO NOT-IN-ST: lmf_spouse_rem_fat [AGOT: how much fatter [ROOT.GetCharacter.GetSheHe] was than they heard]
+ lmf_spouse_rem_fat:0 "how much fatter [ROOT.GetCharacter.GetSheHe] was than they heard"
+### TODO NOT-IN-ST: lmf_spouse_rem_pretty_female [AGOT: how very pretty they considered her]
+ lmf_spouse_rem_pretty_female:0 "how very pretty they considered her"
+### TODO NOT-IN-ST: lmf_spouse_rem_pretty_male [AGOT: how attractive they considered him]
+ lmf_spouse_rem_pretty_male:0 "how attractive they considered him"
+### TODO NOT-IN-ST: lmf_spouse_rem_weak [AGOT: how puny and weak he appeared to be]
+ lmf_spouse_rem_weak:0 "how puny and weak he appeared to be"
+### TODO NOT-IN-ST: lmf_spouse_rem_strong [AGOT: his obvious power and strength]
+ lmf_spouse_rem_strong:0 "his obvious power and strength"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback1 [AGOT: the choice of [ROOT.GetCharacter.GetHerHis] outfit that day]
+ lmf_spouse_rem_fallback1:0 "the choice of [ROOT.GetCharacter.GetHerHis] outfit that day"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback2 [AGOT: [ROOT.GetCharacter.GetHerHis] hair or whether or not [ROOT.GetCharacter.GetSheHe] smiled enough]
+ lmf_spouse_rem_fallback2:0 "[ROOT.GetCharacter.GetHerHis] hair or whether or not [ROOT.GetCharacter.GetSheHe] smiled enough"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback3 [AGOT: how much shorter [ROOT.GetCharacter.GetSheHe] was than they'd heard]
+ lmf_spouse_rem_fallback3:0 "how much shorter [ROOT.GetCharacter.GetSheHe] was than they'd heard"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback4 [AGOT: how this [ROOT.GetCharacter.GetWifeHusband] compared to my last]
+ lmf_spouse_rem_fallback4:0 "how this [ROOT.GetCharacter.GetWifeHusband] compared to my last"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback5 [AGOT: how [ROOT.GetCharacter.GetSheHe] didn't look anything like they'd imagined]
+ lmf_spouse_rem_fallback5:0 "how [ROOT.GetCharacter.GetSheHe] didn't look anything like they'd imagined"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback6 [AGOT: how it seemed like [ROOT.GetCharacter.GetSheHe] wasn't ready to rule at my side]
+ lmf_spouse_rem_fallback6:0 "how it seemed like [ROOT.GetCharacter.GetSheHe] wasn't ready to rule at my side"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback7 [AGOT: how dashing [ROOT.GetCharacter.GetSheHe] looked in [ROOT.GetCharacter.GetHerHis] armor]
+ lmf_spouse_rem_fallback7:0 "how dashing [ROOT.GetCharacter.GetSheHe] looked in [ROOT.GetCharacter.GetHerHis] armor"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback8 [AGOT: how [ROOT.GetCharacter.GetSheHe] seemed remarkably healthy and spry]
+ lmf_spouse_rem_fallback8:0 "how [ROOT.GetCharacter.GetSheHe] seemed remarkably healthy and spry"
+### TODO NOT-IN-ST: lmf_spouse_rem_fallback9 [AGOT: whether [ROOT.GetCharacter.GetSheHe]'d ever prove [ROOT.GetCharacter.GetHerselfHimself] worthy of being my [ROOT.GetCharacter.GetTitleAsNameNoTooltip|l]]
+ lmf_spouse_rem_fallback9:0 "whether [ROOT.GetCharacter.GetSheHe]'d ever prove [ROOT.GetCharacter.GetHerselfHimself] worthy of being my [ROOT.GetCharacter.GetTitleAsNameNoTooltip|l]"
+### TODO NOT-IN-ST: lmf_spouse_court_benevolent [AGOT: was hesitant at first. Yet the sheer gentleness of [ROOT.GetCharacter.GetHerHis] nature was obvious for all to see, and it wasn't long before half the court adored [ROOT.GetCharacter.GetHerHim] and [ROOT.GetCharacter.GetSheHe] moved among them with a kind and familiar smile as if [ROOT.GetCharacter.GetSheHe]'d been here for ages]
+ lmf_spouse_court_benevolent:0 "was hesitant at first. Yet the sheer gentleness of [ROOT.GetCharacter.GetHerHis] nature was obvious for all to see, and it wasn't long before half the court adored [ROOT.GetCharacter.GetHerHim] and [ROOT.GetCharacter.GetSheHe] moved among them with a kind and familiar smile as if [ROOT.GetCharacter.GetSheHe]'d been here for ages"
+### TODO NOT-IN-ST: lmf_spouse_court_levelheaded [AGOT: approached the matter with a level head. [ROOT.GetCharacter.GetSheHe|U] clearly appreciated the duty that lay before [ROOT.GetCharacter.GetHerHim], and [ROOT.GetCharacter.GetHerHis] practical nature was evident to all]
+ lmf_spouse_court_levelheaded:0 "approached the matter with a level head. [ROOT.GetCharacter.GetSheHe|U] clearly appreciated the duty that lay before [ROOT.GetCharacter.GetHerHim], and [ROOT.GetCharacter.GetHerHis] practical nature was evident to all"
+### TODO NOT-IN-ST: lmf_spouse_court_smart [AGOT: cleverly spoke to all the right people about all the right things, from the most important members of the court to those servants [ROOT.GetCharacter.GetSheHe] could tell actually ran the [second.Custom('FortifiedBuilding')]. It was a wonder to behold how quickly [ROOT.GetCharacter.GetSheHe] had them eating out of [ROOT.GetCharacter.GetHerHis] hands]
+ lmf_spouse_court_smart:0 "cleverly spoke to all the right people about all the right things, from the most important members of the court to those servants [ROOT.GetCharacter.GetSheHe] could tell actually ran the [second.Custom('FortifiedBuilding')]. It was a wonder to behold how quickly [ROOT.GetCharacter.GetSheHe] had them eating out of [ROOT.GetCharacter.GetHerHis] hands"
+### TODO NOT-IN-ST: lmf_spouse_court_temper [AGOT: was furious. [ROOT.GetCharacter.GetSheHe|U] hated all the gossip and assumed everyone in the [second.Custom('FortifiedBuilding')] felt the same way. [ROOT.GetCharacter.GetHerHis|U] temper has already become notorious among the servants as well as the talk of the court]
+ lmf_spouse_court_temper:0 "was furious. [ROOT.GetCharacter.GetSheHe|U] hated all the gossip and assumed everyone in the [second.Custom('FortifiedBuilding')] felt the same way. [ROOT.GetCharacter.GetHerHis|U] temper has already become notorious among the servants as well as the talk of the court"
+### TODO NOT-IN-ST: lmf_spouse_court_arrogant [AGOT: somehow saw [ROOT.GetCharacter.GetHerselfHimself] as above it all. Especially now that [ROOT.GetCharacter.GetSheHe] was my [ROOT.GetCharacter.GetWifeHusband] and their new [ROOT.GetCharacter.GetLadyLord]. [ROOT.GetCharacter.GetHerHis|U] sudden airs certainly earned [ROOT.GetCharacter.GetHerHim] no fans at my court]
+ lmf_spouse_court_arrogant:0 "somehow saw [ROOT.GetCharacter.GetHerselfHimself] as above it all. Especially now that [ROOT.GetCharacter.GetSheHe] was my [ROOT.GetCharacter.GetWifeHusband] and their new [ROOT.GetCharacter.GetLadyLord]. [ROOT.GetCharacter.GetHerHis|U] sudden airs certainly earned [ROOT.GetCharacter.GetHerHim] no fans at my court"
+### TODO NOT-IN-ST: lmf_spouse_court_drunkard [AGOT: was... mostly drunk. [ROOT.GetCharacter.GetSheHe|U] overindulged at the welcome dinner, during [ROOT.GetCharacter.GetHerHis] first court, and honestly at almost every other occasion. No-one wanted to say anything, but I was all too aware of [ROOT.GetCharacter.GetHerHis] grand display]
+ lmf_spouse_court_drunkard:0 "was... mostly drunk. [ROOT.GetCharacter.GetSheHe|U] overindulged at the welcome dinner, during [ROOT.GetCharacter.GetHerHis] first court, and honestly at almost every other occasion. No-one wanted to say anything, but I was all too aware of [ROOT.GetCharacter.GetHerHis] grand display"
+### TODO NOT-IN-ST: lmf_spouse_court_dumb [AGOT: was not really up to the task. [ROOT.GetCharacter.GetSheHe|U] blinked vapidly when I tried to explain the duties before [ROOT.GetCharacter.GetHerHim], and mostly stumbled about the [second.Custom('FortifiedBuilding')]... constantly forgetting where [ROOT.GetCharacter.GetSheHe] was going and what [ROOT.GetCharacter.GetSheHe] was supposed to be doing]
+ lmf_spouse_court_dumb:0 "was not really up to the task. [ROOT.GetCharacter.GetSheHe|U] blinked vapidly when I tried to explain the duties before [ROOT.GetCharacter.GetHerHim], and mostly stumbled about the [second.Custom('FortifiedBuilding')]... constantly forgetting where [ROOT.GetCharacter.GetSheHe] was going and what [ROOT.GetCharacter.GetSheHe] was supposed to be doing"
+### TODO NOT-IN-ST: lmf_spouse_court_dull [AGOT: was not really up to the task. At [ROOT.GetCharacter.GetHerHis] first court, everyone who spoke to [ROOT.GetCharacter.GetHerHim] quickly absented themself from [ROOT.GetCharacter.GetHerHis] dull conversation until, finally, [ROOT.GetCharacter.GetSheHe] stood there awkward and all alone. It has not improved since]
+ lmf_spouse_court_dull:0 "was not really up to the task. At [ROOT.GetCharacter.GetHerHis] first court, everyone who spoke to [ROOT.GetCharacter.GetHerHim] quickly absented themself from [ROOT.GetCharacter.GetHerHis] dull conversation until, finally, [ROOT.GetCharacter.GetSheHe] stood there awkward and all alone. It has not improved since"
+### TODO NOT-IN-ST: lmf_spouse_court_depressed [AGOT: appeared to be mostly numb to it all. [ROOT.GetCharacter.GetHerHis|U] melancholy clung to [ROOT.GetCharacter.GetHerHim] like a shroud, a sadness that everyone remarked upon... shouldn't a newlywed [new_spouse.GetWomanMan] be joyous? Alas, it was not so]
+ lmf_spouse_court_depressed:0 "appeared to be mostly numb to it all. [ROOT.GetCharacter.GetHerHis|U] melancholy clung to [ROOT.GetCharacter.GetHerHim] like a shroud, a sadness that everyone remarked upon... shouldn't a newlywed [new_spouse.GetWomanMan] be joyous? Alas, it was not so"
+### TODO NOT-IN-ST: lmf_spouse_court_fallthrough [AGOT: did [ROOT.GetCharacter.GetHerHis] best. Thankfully, while [ROOT.GetCharacter.GetSheHe] impressed no-one, neither did [ROOT.GetCharacter.GetSheHe] offend or make any notable mistakes. My courtiers mostly ignored [ROOT.GetCharacter.GetHerHim], truth be told, and perhaps that was for the best]
+ lmf_spouse_court_fallthrough:0 "did [ROOT.GetCharacter.GetHerHis] best. Thankfully, while [ROOT.GetCharacter.GetSheHe] impressed no-one, neither did [ROOT.GetCharacter.GetSheHe] offend or make any notable mistakes. My courtiers mostly ignored [ROOT.GetCharacter.GetHerHim], truth be told, and perhaps that was for the best"
+### TODO NOT-IN-ST: had_me_sent_away_from_court [AGOT: [TARGET_CHARACTER.GetShortUIName|U] forced [CHARACTER.GetShortUINamePossessiveNoFormat] [TARGET_CHARACTER.Custom('GetMotherFatherOpposite')|l] to eject [CharYouHerHim(CHARACTER)] from court.]
+ had_me_sent_away_from_court:0 "[TARGET_CHARACTER.GetShortUIName|U] forced [CHARACTER.GetShortUINamePossessiveNoFormat] [TARGET_CHARACTER.Custom('GetMotherFatherOpposite')|l] to eject [CharYouHerHim(CHARACTER)] from court."
+### TODO NOT-IN-ST: demanded_I_be_ejected_from_court [AGOT: [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] demanded that [CHARACTER.GetShortUINamePossessiveNoFormat] [TARGET_CHARACTER.Custom('GetMotherFatherOpposite')|l] eject [CharYouHerHim(CHARACTER)] from court.]
+ demanded_I_be_ejected_from_court:0 "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] demanded that [CHARACTER.GetShortUINamePossessiveNoFormat] [TARGET_CHARACTER.Custom('GetMotherFatherOpposite')|l] eject [CharYouHerHim(CHARACTER)] from court."

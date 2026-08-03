@@ -1,0 +1,17 @@
+﻿l_english:
+### TODO NOT-IN-ST: AGOT_VERSION_BUILD [AGOT: \nAGOT Build: #color_yellow;bold $AGOT_BUILD$#!\nAGOT Version: #color_yellow;bold $AGOT_VERSION$#!]
+ AGOT_VERSION_BUILD:0 "\nAGOT Build: #color_yellow;bold $AGOT_BUILD$#!\nAGOT Version: #color_yellow;bold $AGOT_VERSION$#!"
+### TODO NOT-IN-ST: AGOT_BUILD [AGOT: Release Build]
+ AGOT_BUILD:0 "Release Build"
+### TODO NOT-IN-ST: AGOT_VERSION [AGOT: Open Beta 0.4.40]
+ AGOT_VERSION:0 "Open Beta 0.4.40"
+### TODO NOT-IN-ST: AGOT_REQUIRED_VERSION [AGOT: Scribe (1.19.0.6)]
+ AGOT_REQUIRED_VERSION:0 "Scribe (1.19.0.6)"
+### TODO NOT-IN-ST: VERSION_MISMATCH_DESCRIPTION [AGOT: Dear #clickable [SelectLocalization(Or(Not(StatusIsLoggedIn), StatusIsUserNameEmpty), 'NULL_USERNAME', 'FULL_USERNAME')]#!,\n\nYour version of CK3 is #negative_value [GetGameVersionInfoShort]#! while CK3AGOT requires #positive_value $AGOT_REQUIRED_VERSION$#!. If you choose to continue from here, this can result in your previous saves breaking or new saves behaving unexpectedly.\n\nClicking #high Confirm#! means that you understand this warning and won't attempt to report any bugs that result from this.\n\nOtherwise, we suggest exiting the game in order to get back to version #positive_value $AGOT_REQUIRED_VERSION$#!.]
+ VERSION_MISMATCH_DESCRIPTION:0 "Dear #clickable [SelectLocalization(Or(Not(StatusIsLoggedIn), StatusIsUserNameEmpty), 'NULL_USERNAME', 'FULL_USERNAME')]#!,\n\nYour version of CK3 is #negative_value [GetGameVersionInfoShort]#! while CK3AGOT requires #positive_value $AGOT_REQUIRED_VERSION$#!. If you choose to continue from here, this can result in your previous saves breaking or new saves behaving unexpectedly.\n\nClicking #high Confirm#! means that you understand this warning and won't attempt to report any bugs that result from this.\n\nOtherwise, we suggest exiting the game in order to get back to version #positive_value $AGOT_REQUIRED_VERSION$#!."
+### TODO NOT-IN-ST: VERSION_MISMATCH_CONFIRM [AGOT: Confirm]
+ VERSION_MISMATCH_CONFIRM:0 "Confirm"
+### TODO NOT-IN-ST: VERSION_MISMATCH_CONFIRM_TOOLTIP [AGOT: #high;bold You are confirming that you understand the risk associated with using an unsupported game version#!]
+ VERSION_MISMATCH_CONFIRM_TOOLTIP:0 "#high;bold You are confirming that you understand the risk associated with using an unsupported game version#!"
+### TODO NOT-IN-ST: VERSION_MISMATCH_EXIT_TOOLTIP [AGOT: @warning_icon! #warning You will exit the game#!]
+ VERSION_MISMATCH_EXIT_TOOLTIP:0 "@warning_icon! #warning You will exit the game#!"

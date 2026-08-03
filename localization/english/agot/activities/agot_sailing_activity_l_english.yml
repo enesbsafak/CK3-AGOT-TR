@@ -1,0 +1,27 @@
+﻿l_english:
+### TODO NOT-IN-ST: TRAVELING_TO_VALYRIA [AGOT: You are traveling to Valyria]
+ TRAVELING_TO_VALYRIA:0 "You are traveling to Valyria"
+### TODO NOT-IN-ST: NEED_A_SHIP_FOR_RAID [AGOT: You must own a ship to undertake a raid]
+ NEED_A_SHIP_FOR_RAID:0 "You must own a ship to undertake a raid"
+### TODO NOT-IN-ST: SAILING_VALYRIA_HEALTHY [AGOT: You are not fit enough for such a perilous voyage]
+ SAILING_VALYRIA_HEALTHY:0 "You are not fit enough for such a perilous voyage"
+### TODO NOT-IN-ST: SAILING_VALYRIA_EXPERIENCED [AGOT: You must have at least 50 [trait_level_track_xp|E] in the [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]]
+ SAILING_VALYRIA_EXPERIENCED:0 "You must have at least 50 [trait_level_track_xp|E] in the [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]"
+### TODO NOT-IN-ST: ATTEMPTED_VALYRIA [AGOT: You can voyage to Valyria again on #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'attempted_valyria') )]#!]
+ ATTEMPTED_VALYRIA:0 "You can voyage to Valyria again on #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'attempted_valyria') )]#!"
+### TODO NOT-IN-ST: NEED_A_SHIP_FOR_VALYRIA [AGOT: You must own a ship to voyage to Valyria]
+ NEED_A_SHIP_FOR_VALYRIA:0 "You must own a ship to voyage to Valyria"
+### TODO NOT-IN-ST: LANDED_COOLDOWN [AGOT: You can sail again on #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'sailed_recently') )]#!]
+ LANDED_COOLDOWN:0 "You can sail again on #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'sailed_recently') )]#!"
+### TODO NOT-IN-ST: HAS_TRADEPORT [AGOT: You must have a tradeport or special port building in your domain]
+ HAS_TRADEPORT:0 "You must have a tradeport or special port building in your domain"
+### TODO NOT-IN-ST: OWNING_SMALL_PIRATE_SHIP [AGOT: You must have a [GetDomicileBuilding('agot_pirate_ship_main_05').GetName]]
+ OWNING_SMALL_PIRATE_SHIP:0 "You must have a [GetDomicileBuilding('agot_pirate_ship_main_05').GetName]"
+### TODO NOT-IN-ST: OWNING_BIG_SHIP [AGOT: You own a ship, use $agot_sailing_big_ship$]
+ OWNING_BIG_SHIP:0 "You own a ship, use $agot_sailing_big_ship$"
+### TODO NOT-IN-ST: OWNING_SMALL_SHIP [AGOT: You own a ship, use $agot_sailing_small_ship$]
+ OWNING_SMALL_SHIP:0 "You own a ship, use $agot_sailing_small_ship$"
+### TODO NOT-IN-ST: ACTIVITY_GUEST_OPTION_VALYRIA [AGOT: [ROOT.Char.GetSheHe|U] views Valyria as dangerous: $VALUE|=+0$]
+ ACTIVITY_GUEST_OPTION_VALYRIA:0 "[ROOT.Char.GetSheHe|U] views Valyria as dangerous: $VALUE|=+0$"
+### TODO NOT-IN-ST: ACTIVITY_GUEST_OPTION_SAILOR_REASON [AGOT: [ROOT.Char.GetSheHe|U] is a [GetTrait('lifestyle_mariner').GetName( ROOT.Char.Self )]: $VALUE|=+0$]
+ ACTIVITY_GUEST_OPTION_SAILOR_REASON:0 "[ROOT.Char.GetSheHe|U] is a [GetTrait('lifestyle_mariner').GetName( ROOT.Char.Self )]: $VALUE|=+0$"

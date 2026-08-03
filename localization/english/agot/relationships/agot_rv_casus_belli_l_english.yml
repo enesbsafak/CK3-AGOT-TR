@@ -1,0 +1,61 @@
+﻿l_english:
+### TODO NOT-IN-ST: RESCUE_WAR_NAME [AGOT: War to Free Captives]
+ RESCUE_WAR_NAME:0 "War to Free Captives"
+### TODO NOT-IN-ST: rv_rescue_war [AGOT: War to Free Captives]
+ rv_rescue_war:0 "War to Free Captives"
+### TODO NOT-IN-ST: rv_duskendale_rescue_war [AGOT: War to Free Captives]
+ rv_duskendale_rescue_war:0 "War to Free Captives"
+### TODO NOT-IN-ST: CB_RESCUE_COST [AGOT: Number of Targeted Captives]
+ CB_RESCUE_COST:0 "Number of Targeted Captives"
+### TODO NOT-IN-ST: CB_RESCUE_CRIMINAL_COST [AGOT: Number of Targeted Criminals]
+ CB_RESCUE_CRIMINAL_COST:0 "Number of Targeted Criminals"
+### TODO NOT-IN-ST: rv_release_effect [AGOT: • [Scope.GetCharacter.GetShortUIName|U] will be set free]
+ rv_release_effect:0 "• [Scope.GetCharacter.GetShortUIName|U] will be set free"
+### TODO NOT-IN-ST: rv_transfer_effect [AGOT: • [Scope.GetCharacter.GetShortUIName|U] will be imprisoned by you]
+ rv_transfer_effect:0 "• [Scope.GetCharacter.GetShortUIName|U] will be imprisoned by you"
+### TODO NOT-IN-ST: rv_other_effect [AGOT: • Your allies share [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] based on their contribution \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n  • Allies shared [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] based on their contribution\n  • Increases [Scope.GetCharacter.GetImprisonedBy.GetHerHis] opinion of [Scope.GetCharacter.GetImprisonedBy.GetHerHis] allies based on their contribution]
+ rv_other_effect:0 "• Your allies share [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] based on their contribution \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n  • Allies shared [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] based on their contribution\n  • Increases [Scope.GetCharacter.GetImprisonedBy.GetHerHis] opinion of [Scope.GetCharacter.GetImprisonedBy.GetHerHis] allies based on their contribution"
+### TODO NOT-IN-ST: rv_house_effect [AGOT: • [house|E] [Scope.GetCharacter.GetDynastyHouseName|V] [house_unity|E] changes by [EmptyScope.ScriptValue('medium_unity_gain')|+0] @dynasty_house_unity!]
+ rv_house_effect:0 "• [house|E] [Scope.GetCharacter.GetDynastyHouseName|V] [house_unity|E] changes by [EmptyScope.ScriptValue('medium_unity_gain')|+0] @dynasty_house_unity!"
+### TODO NOT-IN-ST: rv_rescue_war_defeat_desc [AGOT: $rv_rescue_war_white_peace_desc$]
+ rv_rescue_war_defeat_desc:0 "$rv_rescue_war_white_peace_desc$"
+### TODO NOT-IN-ST: RV_IS_CRIMINAL [AGOT: This character is [imprisoned|E] for their [crime|E]. Rescuing them will incur additional [prestige|E] costs and push you and their imprisoner toward becoming [rivals|E].]
+ RV_IS_CRIMINAL:0 "This character is [imprisoned|E] for their [crime|E]. Rescuing them will incur additional [prestige|E] costs and push you and their imprisoner toward becoming [rivals|E]."
+### TODO NOT-IN-ST: rv_rescued_me [AGOT: Rescued me]
+ rv_rescued_me:0 "Rescued me"
+### TODO NOT-IN-ST: rv_rescued_former_spouse [AGOT: Rescued me from [concubinage|E] as former [spouse|E]]
+ rv_rescued_former_spouse:0 "Rescued me from [concubinage|E] as former [spouse|E]"
+### TODO NOT-IN-ST: rv_rescued_very_close [AGOT: Rescued [best_friend|E] or [soulmate|E]]
+ rv_rescued_very_close:0 "Rescued [best_friend|E] or [soulmate|E]"
+### TODO NOT-IN-ST: rv_avenged_very_close [AGOT: Avenged [best_friend|E] or [soulmate|E]]
+ rv_avenged_very_close:0 "Avenged [best_friend|E] or [soulmate|E]"
+### TODO NOT-IN-ST: REVENGE_WAR_NAME [AGOT: War of Revenge]
+ REVENGE_WAR_NAME:0 "War of Revenge"
+### TODO NOT-IN-ST: rv_revenge_war [AGOT: War of Revenge]
+ rv_revenge_war:0 "War of Revenge"
+### TODO NOT-IN-ST: CB_REVENGE_COST [AGOT: Victims to be Avenged]
+ CB_REVENGE_COST:0 "Victims to be Avenged"
+### TODO NOT-IN-ST: REVENGE_LABEL [AGOT: Victims to be Avenged]
+ REVENGE_LABEL:0 "Victims to be Avenged"
+### TODO NOT-IN-ST: rv_no_revenge_target [AGOT: There is no one to be avenged]
+ rv_no_revenge_target:0 "There is no one to be avenged"
+### TODO NOT-IN-ST: rv_revenge_war_defeat_desc [AGOT: $rv_revenge_war_white_peace_desc$]
+ rv_revenge_war_defeat_desc:0 "$rv_revenge_war_white_peace_desc$"
+### TODO NOT-IN-ST: rv_successful_revenged_lover [AGOT: Successful Revenge]
+ rv_successful_revenged_lover:0 "Successful Revenge"
+### TODO NOT-IN-ST: rv_revenged_lover_desc_1 [AGOT: I exacted revenge for my lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
+ rv_revenged_lover_desc_1:0 "I exacted revenge for my lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
+### TODO NOT-IN-ST: rv_successful_revenged_soulmate [AGOT: Successful Revenge]
+ rv_successful_revenged_soulmate:0 "Successful Revenge"
+### TODO NOT-IN-ST: rv_revenged_soulmate_desc_1 [AGOT: I exacted revenge for my soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
+ rv_revenged_soulmate_desc_1:0 "I exacted revenge for my soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
+### TODO NOT-IN-ST: rv_successful_revenged_spouse [AGOT: Successful Revenge]
+ rv_successful_revenged_spouse:0 "Successful Revenge"
+### TODO NOT-IN-ST: rv_revenged_spouse_desc_1 [AGOT: I exacted revenge for my spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
+ rv_revenged_spouse_desc_1:0 "I exacted revenge for my spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
+### TODO NOT-IN-ST: rv_was_revenged [AGOT: Was Avenged]
+ rv_was_revenged:0 "Was Avenged"
+### TODO NOT-IN-ST: rv_was_revenged_desc_1 [AGOT: My death caused by [target_killer.GetName] was avenged by [target_revenger.GetName] (Postmortem)]
+ rv_was_revenged_desc_1:0 "My death caused by [target_killer.GetName] was avenged by [target_revenger.GetName] (Postmortem)"
+### TODO NOT-IN-ST: rv_lover_header [AGOT: Lover]
+ rv_lover_header:0 "Lover"

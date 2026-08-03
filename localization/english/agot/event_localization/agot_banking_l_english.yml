@@ -1,0 +1,19 @@
+﻿l_english:
+### TODO NOT-IN-ST: take_loan_bank_cash_reserve [AGOT: No bank currently holds enough cash to issue further loans.]
+ take_loan_bank_cash_reserve:0 "No bank currently holds enough cash to issue further loans."
+### TODO NOT-IN-ST: bank_needs_no_cash [AGOT: The bank has sufficient cash reserves and is not accepting new investments at this time]
+ bank_needs_no_cash:0 "The bank has sufficient cash reserves and is not accepting new investments at this time"
+### TODO NOT-IN-ST: bank_name_default [AGOT: Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]]
+ bank_name_default:0 "Bank of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: bank_name_default_IB [AGOT: Iron Bank of Braavos]
+ bank_name_default_IB:0 "Iron Bank of Braavos"
+### TODO NOT-IN-ST: bank_name_default_Rogare [AGOT: Rogare Bank]
+ bank_name_default_Rogare:0 "Rogare Bank"
+### TODO NOT-IN-ST: bank_name_default_blank [AGOT: ]
+ bank_name_default_blank:0 ""
+### TODO NOT-IN-ST: bank_name_fallback [AGOT: [ROOT.Char.GetCulture.GetNameNoTooltip] Bank]
+ bank_name_fallback:0 "[ROOT.Char.GetCulture.GetNameNoTooltip] Bank"
+### TODO NOT-IN-ST: bank_name_normal [AGOT: [ROOT.Var('BankName').Char.GetLocalizedText( 'bank_name' )]]
+ bank_name_normal:0 "[ROOT.Var('BankName').Char.GetLocalizedText( 'bank_name' )]"
+### TODO NOT-IN-ST: take_share [AGOT: Gimme your shares]
+ take_share:0 "Gimme your shares"

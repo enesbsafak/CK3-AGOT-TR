@@ -1,0 +1,175 @@
+﻿l_english:
+### TODO NOT-IN-ST: AGOT_RANGER_CAMP [AGOT: [agot_ranger_camp|E]]
+ AGOT_RANGER_CAMP:0 "[agot_ranger_camp|E]"
+### TODO NOT-IN-ST: game_concept_agot_ranger_camp [AGOT: Ranger Camp]
+ game_concept_agot_ranger_camp:0 "Ranger Camp"
+### TODO NOT-IN-ST: game_concept_agot_ranger_camps [AGOT: Ranger Camps]
+ game_concept_agot_ranger_camps:0 "Ranger Camps"
+### TODO NOT-IN-ST: game_concept_agot_ranger_camp_desc [AGOT: $game_concept_agot_ranger_camps$ are the sword in the darkness, the shield that guards the realms of men. These $game_concept_camps$ host a small group of [GetGovernment( 'nights_watch_government' ).GetName] Rangers venturing beyond the Wall.\n\nIn the $game_concept_agot_ranger_camp$ [domicile|E], which moves across the map, Rangers can construct and improve [camp_buildings|E] to aid in their mission. #weak You cannot move your $game_concept_agot_ranger_camp$ to the south of the Wall.#!]
+ game_concept_agot_ranger_camp_desc:0 "$game_concept_agot_ranger_camps$ are the sword in the darkness, the shield that guards the realms of men. These $game_concept_camps$ host a small group of [GetGovernment( 'nights_watch_government' ).GetName] Rangers venturing beyond the Wall.\n\nIn the $game_concept_agot_ranger_camp$ [domicile|E], which moves across the map, Rangers can construct and improve [camp_buildings|E] to aid in their mission. #weak You cannot move your $game_concept_agot_ranger_camp$ to the south of the Wall.#!"
+### TODO NOT-IN-ST: agot_ranger_camp_move_desc [AGOT: Move your $game_concept_agot_ranger_camp$ to a different location.]
+ agot_ranger_camp_move_desc:0 "Move your $game_concept_agot_ranger_camp$ to a different location."
+### TODO NOT-IN-ST: RANGER_PATHFINDER_CLICK_TO_HIRE [AGOT: Click to appoint a [ActiveCouncilTask.GetPositionName|E].\nThe [ActiveCouncilTask.GetPositionName|E] will find [agot_ranger_mission_plural|E]\nwhen your [agot_ranger_camp|E] is beyond the Wall]
+ RANGER_PATHFINDER_CLICK_TO_HIRE:0 "Click to appoint a [ActiveCouncilTask.GetPositionName|E].\nThe [ActiveCouncilTask.GetPositionName|E] will find [agot_ranger_mission_plural|E]\nwhen your [agot_ranger_camp|E] is beyond the Wall"
+### TODO NOT-IN-ST: ranger_name [AGOT: Ranger]
+ ranger_name:0 "Ranger"
+### TODO NOT-IN-ST: ranger_default_1_desc [AGOT: [councillor.GetModifierDescForTask('ranger_default_1')]]
+ ranger_default_1_desc:0 "[councillor.GetModifierDescForTask('ranger_default_1')]"
+### TODO NOT-IN-ST: ranger_other_1_desc [AGOT: [councillor.GetModifierDescForTask('ranger_other_1')]]
+ ranger_other_1_desc:0 "[councillor.GetModifierDescForTask('ranger_other_1')]"
+### TODO NOT-IN-ST: ranger_default_2_desc [AGOT: [councillor.GetModifierDescForTask('ranger_default_2')]]
+ ranger_default_2_desc:0 "[councillor.GetModifierDescForTask('ranger_default_2')]"
+### TODO NOT-IN-ST: ranger_other_2_desc [AGOT: [councillor.GetModifierDescForTask('ranger_other_2')]]
+ ranger_other_2_desc:0 "[councillor.GetModifierDescForTask('ranger_other_2')]"
+### TODO NOT-IN-ST: ranger_default_3_desc [AGOT: [councillor.GetModifierDescForTask('ranger_default_3')]]
+ ranger_default_3_desc:0 "[councillor.GetModifierDescForTask('ranger_default_3')]"
+### TODO NOT-IN-ST: ranger_other_3_desc [AGOT: [councillor.GetModifierDescForTask('ranger_other_3')]]
+ ranger_other_3_desc:0 "[councillor.GetModifierDescForTask('ranger_other_3')]"
+### TODO NOT-IN-ST: ranger_default_4_desc [AGOT: [councillor.GetModifierDescForTask('ranger_default_4')]]
+ ranger_default_4_desc:0 "[councillor.GetModifierDescForTask('ranger_default_4')]"
+### TODO NOT-IN-ST: ranger_other_4_desc [AGOT: [councillor.GetModifierDescForTask('ranger_other_4')]]
+ ranger_other_4_desc:0 "[councillor.GetModifierDescForTask('ranger_other_4')]"
+### TODO NOT-IN-ST: ranger_default_1 [AGOT: Envoy]
+ ranger_default_1:0 "Envoy"
+### TODO NOT-IN-ST: ranger_default_2 [AGOT: Provisioner]
+ ranger_default_2:0 "Provisioner"
+### TODO NOT-IN-ST: ranger_default_3 [AGOT: Warbrand]
+ ranger_default_3:0 "Warbrand"
+### TODO NOT-IN-ST: ranger_default_4 [AGOT: Shadow]
+ ranger_default_4:0 "Shadow"
+### TODO NOT-IN-ST: ranger_other_1 [AGOT: Wayfinder]
+ ranger_other_1:0 "Wayfinder"
+### TODO NOT-IN-ST: ranger_other_2 [AGOT: Forager]
+ ranger_other_2:0 "Forager"
+### TODO NOT-IN-ST: ranger_other_3 [AGOT: Ambusher]
+ ranger_other_3:0 "Ambusher"
+### TODO NOT-IN-ST: ranger_other_4 [AGOT: Watcher]
+ ranger_other_4:0 "Watcher"
+### TODO NOT-IN-ST: RANGER_COUNCILWINDOW_TITLE [AGOT: Ranger Command]
+ RANGER_COUNCILWINDOW_TITLE:0 "Ranger Command"
+### TODO NOT-IN-ST: game_concept_ranger_1_desc [AGOT: $councillor_ranger_1_desc$]
+ game_concept_ranger_1_desc:0 "$councillor_ranger_1_desc$"
+### TODO NOT-IN-ST: game_concept_ranger_2_desc [AGOT: $councillor_ranger_2_desc$]
+ game_concept_ranger_2_desc:0 "$councillor_ranger_2_desc$"
+### TODO NOT-IN-ST: game_concept_ranger_3_desc [AGOT: $councillor_ranger_3_desc$]
+ game_concept_ranger_3_desc:0 "$councillor_ranger_3_desc$"
+### TODO NOT-IN-ST: game_concept_ranger_4_desc [AGOT: $councillor_ranger_4_desc$]
+ game_concept_ranger_4_desc:0 "$councillor_ranger_4_desc$"
+### TODO NOT-IN-ST: AGOT_LAAMP_CAMP_NAME_CUSLOC [AGOT: [Character.Custom('LaampCampName')]]
+ AGOT_LAAMP_CAMP_NAME_CUSLOC:0 "[Character.Custom('LaampCampName')]"
+### TODO NOT-IN-ST: agot_laamp_camp_name_fallback [AGOT: [Character.GetDomicile.GetName]]
+ agot_laamp_camp_name_fallback:0 "[Character.GetDomicile.GetName]"
+### TODO NOT-IN-ST: AGOT_COUNCIL_TITLE_CUSLOC [AGOT: [GetPlayer.Custom('AGOTCouncilWindowTitle')]]
+ AGOT_COUNCIL_TITLE_CUSLOC:0 "[GetPlayer.Custom('AGOTCouncilWindowTitle')]"
+### TODO NOT-IN-ST: NW_COUNCILWINDOW_TITLE [AGOT: Officers]
+ NW_COUNCILWINDOW_TITLE:0 "Officers"
+### TODO NOT-IN-ST: game_concept_agot_desert_nw [AGOT: Desert the Night's Watch]
+ game_concept_agot_desert_nw:0 "Desert the Night's Watch"
+### TODO NOT-IN-ST: game_concept_agot_desert_nw_desc [AGOT: A [decision|E] that allows the $first_ranger_landless_male$ to desert the [nw_govt|E] and become an [adventurer|E].]
+ game_concept_agot_desert_nw_desc:0 "A [decision|E] that allows the $first_ranger_landless_male$ to desert the [nw_govt|E] and become an [adventurer|E]."
+### TODO NOT-IN-ST: game_concept_nwfr_govt [AGOT: Ranger]
+ game_concept_nwfr_govt:0 "Ranger"
+### TODO NOT-IN-ST: game_concept_nwfr_govt_desc [AGOT: Under the $game_concept_nwfr_govt$ [government_form|E], the $first_ranger_landless_male$ may venture beyond the Wall with a small group of Rangers. Only sworn brothers of the [GetGovernment( 'nights_watch_government' ).GetName] may become Rangers, and only the $first_ranger_landless_male$ can lead a [agot_ranger_camp|E].]
+ game_concept_nwfr_govt_desc:0 "Under the $game_concept_nwfr_govt$ [government_form|E], the $first_ranger_landless_male$ may venture beyond the Wall with a small group of Rangers. Only sworn brothers of the [GetGovernment( 'nights_watch_government' ).GetName] may become Rangers, and only the $first_ranger_landless_male$ can lead a [agot_ranger_camp|E]."
+### TODO NOT-IN-ST: ranger_laamp_contract_1101_contract [AGOT: Hunting Grounds]
+ ranger_laamp_contract_1101_contract:0 "Hunting Grounds"
+### TODO NOT-IN-ST: ranger_laamp_contract_1101_request [AGOT: This [agot_ranger_mission|E] requires you to visit a hunting site]
+ ranger_laamp_contract_1101_request:0 "This [agot_ranger_mission|E] requires you to visit a hunting site"
+### TODO NOT-IN-ST: ranger_laamp_contract_1101_desc [AGOT: I have found a promising spot not far from here.\n\nThe game trails are fresh, and signs of wild animals are everywhere. If we head out soon, we should be able to gather enough food to fill our camp's stores. This could be a good chance to hunt and provide for us before the cold bites even harder.]
+ ranger_laamp_contract_1101_desc:0 "I have found a promising spot not far from here.\n\nThe game trails are fresh, and signs of wild animals are everywhere. If we head out soon, we should be able to gather enough food to fill our camp's stores. This could be a good chance to hunt and provide for us before the cold bites even harder."
+### TODO NOT-IN-ST: agot_nw_ranger_event_success [AGOT: My attempt is successful]
+ agot_nw_ranger_event_success:0 "My attempt is successful"
+### TODO NOT-IN-ST: ranger_laamp_contract_1201_contract [AGOT: Enemy in Sight]
+ ranger_laamp_contract_1201_contract:0 "Enemy in Sight"
+### TODO NOT-IN-ST: ranger_laamp_contract_1201_request [AGOT: This [agot_ranger_mission|E] requires you to fight and win against [TaskContract.GetEmployer.GetName]]
+ ranger_laamp_contract_1201_request:0 "This [agot_ranger_mission|E] requires you to fight and win against [TaskContract.GetEmployer.GetName]"
+### TODO NOT-IN-ST: ranger_laamp_contract_1201_desc [AGOT: I have spotted a wildling chief not far from our camp.\n\n[TaskContract.GetEmployer.GetName|U] is known to be an enemy of us, and it seems [TaskContract.GetEmployer.GetSheHe] is vulnerable right now, with few of [TaskContract.GetEmployer.GetHerHis] men around. If we act quickly, we might be able to ambush [TaskContract.GetEmployer.GetHerHim] and weaken [TaskContract.GetEmployer.GetHerHis] influence. This could be a good opportunity to take [TaskContract.GetEmployer.GetHerHim] down before [TaskContract.GetEmployer.GetSheHe] causes further trouble..]
+ ranger_laamp_contract_1201_desc:0 "I have spotted a wildling chief not far from our camp.\n\n[TaskContract.GetEmployer.GetName|U] is known to be an enemy of us, and it seems [TaskContract.GetEmployer.GetSheHe] is vulnerable right now, with few of [TaskContract.GetEmployer.GetHerHis] men around. If we act quickly, we might be able to ambush [TaskContract.GetEmployer.GetHerHim] and weaken [TaskContract.GetEmployer.GetHerHis] influence. This could be a good opportunity to take [TaskContract.GetEmployer.GetHerHim] down before [TaskContract.GetEmployer.GetSheHe] causes further trouble.."
+### TODO NOT-IN-ST: ranger_laamp_contract_1301_contract [AGOT: Rising Threat]
+ ranger_laamp_contract_1301_contract:0 "Rising Threat"
+### TODO NOT-IN-ST: ranger_laamp_contract_1301_request [AGOT: This [agot_ranger_mission|E] requires you to fight and win against [TaskContract.GetEmployer.GetName]]
+ ranger_laamp_contract_1301_request:0 "This [agot_ranger_mission|E] requires you to fight and win against [TaskContract.GetEmployer.GetName]"
+### TODO NOT-IN-ST: ranger_laamp_contract_1301_desc [AGOT: The wildling chief we have been watching is gaining strength.\n\n[TaskContract.GetEmployer.GetHerHis] influence is spreading, and more clans are rallying to [TaskContract.GetEmployer.GetHerHis] side. If we do not act soon, [TaskContract.GetEmployer.GetSheHe] could become unstoppable. We should move now, while [TaskContract.GetEmployer.GetSheHe] is still vulnerable, before [TaskContract.GetEmployer.GetHerHis] power grows beyond our reach.]
+ ranger_laamp_contract_1301_desc:0 "The wildling chief we have been watching is gaining strength.\n\n[TaskContract.GetEmployer.GetHerHis] influence is spreading, and more clans are rallying to [TaskContract.GetEmployer.GetHerHis] side. If we do not act soon, [TaskContract.GetEmployer.GetSheHe] could become unstoppable. We should move now, while [TaskContract.GetEmployer.GetSheHe] is still vulnerable, before [TaskContract.GetEmployer.GetHerHis] power grows beyond our reach."
+### TODO NOT-IN-ST: ranger_laamp_contract_1401_contract [AGOT: Summoned by the Chief]
+ ranger_laamp_contract_1401_contract:0 "Summoned by the Chief"
+### TODO NOT-IN-ST: ranger_laamp_contract_1401_request [AGOT: This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to see what is [TaskContract.GetEmployer.GetHerHis] intention]
+ ranger_laamp_contract_1401_request:0 "This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to see what is [TaskContract.GetEmployer.GetHerHis] intention"
+### TODO NOT-IN-ST: ranger_laamp_contract_1401_desc [AGOT: I have made contact with a wildling chief who seems interested in meeting you.\n\n[TaskContract.GetEmployer.GetSheHe|U] has heard of your name and wants to speak in person. There is no guarantee this will be safe, but [TaskContract.GetEmployer.GetSheHe] did not seem hostile. It might be worth meeting [TaskContract.GetEmployer.GetHerHim] and seeing what [TaskContract.GetEmployer.GetSheHe] wants.]
+ ranger_laamp_contract_1401_desc:0 "I have made contact with a wildling chief who seems interested in meeting you.\n\n[TaskContract.GetEmployer.GetSheHe|U] has heard of your name and wants to speak in person. There is no guarantee this will be safe, but [TaskContract.GetEmployer.GetSheHe] did not seem hostile. It might be worth meeting [TaskContract.GetEmployer.GetHerHim] and seeing what [TaskContract.GetEmployer.GetSheHe] wants."
+### TODO NOT-IN-ST: ranger_laamp_contract_1501_contract [AGOT: Child in Peril]
+ ranger_laamp_contract_1501_contract:0 "Child in Peril"
+### TODO NOT-IN-ST: ranger_laamp_contract_1501_request [AGOT: This [agot_ranger_mission|E] requires you to save a wildling child's life]
+ ranger_laamp_contract_1501_request:0 "This [agot_ranger_mission|E] requires you to save a wildling child's life"
+### TODO NOT-IN-ST: ranger_laamp_contract_1501_desc [AGOT: While scouting the area, I found something unexpected, a child trapped on a thin branch above a deep ravine.\n\nThe branch looks ready to snap at any moment, and the drop below is treacherous. It is a dangerous situation, and we need to act quickly if we want to save them.]
+ ranger_laamp_contract_1501_desc:0 "While scouting the area, I found something unexpected, a child trapped on a thin branch above a deep ravine.\n\nThe branch looks ready to snap at any moment, and the drop below is treacherous. It is a dangerous situation, and we need to act quickly if we want to save them."
+### TODO NOT-IN-ST: ranger_laamp_contract_1601_contract [AGOT: The Chief's Treasure]
+ ranger_laamp_contract_1601_contract:0 "The Chief's Treasure"
+### TODO NOT-IN-ST: ranger_laamp_contract_1601_request [AGOT: This [agot_ranger_mission|E] requires you to take [TaskContract.GetEmployer.GetNamePossessive] artifact]
+ ranger_laamp_contract_1601_request:0 "This [agot_ranger_mission|E] requires you to take [TaskContract.GetEmployer.GetNamePossessive] artifact"
+### TODO NOT-IN-ST: ranger_laamp_contract_1601_desc [AGOT: I have heard from one of the wildling camps that a nearby chief is holding onto something valuable, a relic.\n\nIt is said to be well-guarded, but if we act quickly, we might be able to seize it before [TaskContract.GetEmployer.GetSheHe] knows we are coming. This could be a real opportunity for us.]
+ ranger_laamp_contract_1601_desc:0 "I have heard from one of the wildling camps that a nearby chief is holding onto something valuable, a relic.\n\nIt is said to be well-guarded, but if we act quickly, we might be able to seize it before [TaskContract.GetEmployer.GetSheHe] knows we are coming. This could be a real opportunity for us."
+### TODO NOT-IN-ST: ranger_laamp_contract_1701_contract [AGOT: The Freed Crow]
+ ranger_laamp_contract_1701_contract:0 "The Freed Crow"
+### TODO NOT-IN-ST: ranger_laamp_contract_1701_request [AGOT: This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to see what is [TaskContract.GetEmployer.GetHerHis] intention]
+ ranger_laamp_contract_1701_request:0 "This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to see what is [TaskContract.GetEmployer.GetHerHis] intention"
+### TODO NOT-IN-ST: ranger_laamp_contract_1701_desc [AGOT: The wildling chief has sent a curious message, [TaskContract.GetEmployer.GetSheHe] wants to meet with you, saying [TaskContract.GetEmployer.GetSheHe] intends to 'set the crow free.'\n\nWhat [TaskContract.GetEmployer.GetSheHe] means is a mystery, and there is no telling what [TaskContract.GetEmployer.GetHerHis] true motives are. It could be a trap, or something far more unexpected. We need to tread carefully and find out what [TaskContract.GetEmployer.GetSheHe] really wants.]
+ ranger_laamp_contract_1701_desc:0 "The wildling chief has sent a curious message, [TaskContract.GetEmployer.GetSheHe] wants to meet with you, saying [TaskContract.GetEmployer.GetSheHe] intends to 'set the crow free.'\n\nWhat [TaskContract.GetEmployer.GetSheHe] means is a mystery, and there is no telling what [TaskContract.GetEmployer.GetHerHis] true motives are. It could be a trap, or something far more unexpected. We need to tread carefully and find out what [TaskContract.GetEmployer.GetSheHe] really wants."
+### TODO NOT-IN-ST: desert_and_war [AGOT: You desert the Night's Watch and declare war against [an_enemy.GetTitledFirstNameNoTooltip].]
+ desert_and_war:0 "You desert the Night's Watch and declare war against [an_enemy.GetTitledFirstNameNoTooltip]."
+### TODO NOT-IN-ST: ranger_laamp_contract_1801_contract [AGOT: Abandoned Fires]
+ ranger_laamp_contract_1801_contract:0 "Abandoned Fires"
+### TODO NOT-IN-ST: ranger_laamp_contract_1801_request [AGOT: This [agot_ranger_mission|E] requires you to investigate an abandoned wildling camp]
+ ranger_laamp_contract_1801_request:0 "This [agot_ranger_mission|E] requires you to investigate an abandoned wildling camp"
+### TODO NOT-IN-ST: ranger_laamp_contract_1801_desc [AGOT: While scouting the area, I came across an abandoned wildling camp.\n\nIt looks like the wildlings left in a hurry, fires still smoldering, supplies scattered. We should check it out. There might be something of interest there, or at least some answers as to why they left so suddenly.]
+ ranger_laamp_contract_1801_desc:0 "While scouting the area, I came across an abandoned wildling camp.\n\nIt looks like the wildlings left in a hurry, fires still smoldering, supplies scattered. We should check it out. There might be something of interest there, or at least some answers as to why they left so suddenly."
+### TODO NOT-IN-ST: ranger_laamp_contract_1901_contract [AGOT: The Traitor]
+ ranger_laamp_contract_1901_contract:0 "The Traitor"
+### TODO NOT-IN-ST: ranger_laamp_contract_1901_request [AGOT: This [agot_ranger_mission|E] requires you to fight and win against the turncloak]
+ ranger_laamp_contract_1901_request:0 "This [agot_ranger_mission|E] requires you to fight and win against the turncloak"
+### TODO NOT-IN-ST: ranger_laamp_contract_1901_desc [AGOT: I have received word about a deserter from the Night's Watch.\n\nHe is nearby, hiding out in the wilderness. We cannot let this betrayal go unpunished. If we act quickly, we should be able to track him down and bring him to justice before the turncloak escapes any further.]
+ ranger_laamp_contract_1901_desc:0 "I have received word about a deserter from the Night's Watch.\n\nHe is nearby, hiding out in the wilderness. We cannot let this betrayal go unpunished. If we act quickly, we should be able to track him down and bring him to justice before the turncloak escapes any further."
+### TODO NOT-IN-ST: ranger_laamp_contract_2001_contract [AGOT: Chased by Wildlings]
+ ranger_laamp_contract_2001_contract:0 "Chased by Wildlings"
+### TODO NOT-IN-ST: ranger_laamp_contract_2001_request [AGOT: This [agot_ranger_mission|E] requires you to save a blackbrother from [TaskContract.GetEmployer.GetNamePossessive] wrath]
+ ranger_laamp_contract_2001_request:0 "This [agot_ranger_mission|E] requires you to save a blackbrother from [TaskContract.GetEmployer.GetNamePossessive] wrath"
+### TODO NOT-IN-ST: ranger_laamp_contract_2001_desc [AGOT: I have just received word that one of our blackbrothers is being hunted by a wildling chief.\n\nHe is on the run, and his life hangs in the balance. We need to move quickly if we are to help him. The wildlings will not give him much time before they close in.]
+ ranger_laamp_contract_2001_desc:0 "I have just received word that one of our blackbrothers is being hunted by a wildling chief.\n\nHe is on the run, and his life hangs in the balance. We need to move quickly if we are to help him. The wildlings will not give him much time before they close in."
+### TODO NOT-IN-ST: ranger_laamp_contract_2101_contract [AGOT: Signs in the Snow]
+ ranger_laamp_contract_2101_contract:0 "Signs in the Snow"
+### TODO NOT-IN-ST: ranger_laamp_contract_2101_request [AGOT: This [agot_ranger_mission|E] calls for a careful investigation of strange trails and hidden clues in the area]
+ ranger_laamp_contract_2101_request:0 "This [agot_ranger_mission|E] calls for a careful investigation of strange trails and hidden clues in the area"
+### TODO NOT-IN-ST: ranger_laamp_contract_2101_desc [AGOT: I have found something strange out there: a trail, markings in the snow.\n\nI cannot make out what left them, but there is something to it, First Ranger. If we investigate further, we might uncover what is behind all this.]
+ ranger_laamp_contract_2101_desc:0 "I have found something strange out there: a trail, markings in the snow.\n\nI cannot make out what left them, but there is something to it, First Ranger. If we investigate further, we might uncover what is behind all this."
+### TODO NOT-IN-ST: ranger_laamp_contract_2101_reward_lose [AGOT: You may suffer minor penalties, such as losing [prestige_i|E][prestige|E] or [piety_i|E][piety|E]]
+ ranger_laamp_contract_2101_reward_lose:0 "You may suffer minor penalties, such as losing [prestige_i|E][prestige|E] or [piety_i|E][piety|E]"
+### TODO NOT-IN-ST: ranger_laamp_contract_2201_contract [AGOT: Assess the Wildling Chief]
+ ranger_laamp_contract_2201_contract:0 "Assess the Wildling Chief"
+### TODO NOT-IN-ST: ranger_laamp_contract_2201_request [AGOT: This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to assess [TaskContract.GetEmployer.GetHerHim]]
+ ranger_laamp_contract_2201_request:0 "This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to assess [TaskContract.GetEmployer.GetHerHim]"
+### TODO NOT-IN-ST: ranger_laamp_contract_2201_desc [AGOT: The Lord Commander has ordered us to investigate [TaskContract.GetEmployer.GetName] who has been making waves beyond the Wall. [TaskContract.GetEmployer.GetHerHis] people grow in number, and rumors speak of [TaskContract.GetEmployer.GetHerHis] unpredictable nature. Some say [TaskContract.GetEmployer.GetSheHe] is a danger to us, others claim [TaskContract.GetEmployer.GetSheHe] is merely another warband struggling to survive. I have located [TaskContract.GetEmployer.GetHerHis] camp. If we move quickly, we can assess the threat before it grows too large to handle.]
+ ranger_laamp_contract_2201_desc:0 "The Lord Commander has ordered us to investigate [TaskContract.GetEmployer.GetName] who has been making waves beyond the Wall. [TaskContract.GetEmployer.GetHerHis] people grow in number, and rumors speak of [TaskContract.GetEmployer.GetHerHis] unpredictable nature. Some say [TaskContract.GetEmployer.GetSheHe] is a danger to us, others claim [TaskContract.GetEmployer.GetSheHe] is merely another warband struggling to survive. I have located [TaskContract.GetEmployer.GetHerHis] camp. If we move quickly, we can assess the threat before it grows too large to handle."
+### TODO NOT-IN-ST: ranger_report_danger [AGOT: The Lord Commander might declare war against [main_figure.GetTitledFirstNameNoTooltip]]
+ ranger_report_danger:0 "The Lord Commander might declare war against [main_figure.GetTitledFirstNameNoTooltip]"
+### TODO NOT-IN-ST: ranger_laamp_contract_2301_contract [AGOT: The Fallen Ranger]
+ ranger_laamp_contract_2301_contract:0 "The Fallen Ranger"
+### TODO NOT-IN-ST: ranger_laamp_contract_2301_request [AGOT: This [agot_ranger_mission|E] requires you to investigate the death of a fallen ranger]
+ ranger_laamp_contract_2301_request:0 "This [agot_ranger_mission|E] requires you to investigate the death of a fallen ranger"
+### TODO NOT-IN-ST: ranger_laamp_contract_2301_desc [AGOT: The Lord Commander has ordered us to investigate the death of one of our own. A ranger was found beyond the Wall, lifeless and alone, his body marked by wounds that tell no clear story. Was it wildlings, beasts, or something worse? We must uncover the truth before more lives are lost.]
+ ranger_laamp_contract_2301_desc:0 "The Lord Commander has ordered us to investigate the death of one of our own. A ranger was found beyond the Wall, lifeless and alone, his body marked by wounds that tell no clear story. Was it wildlings, beasts, or something worse? We must uncover the truth before more lives are lost."
+### TODO NOT-IN-ST: ranger_reward_sword [AGOT: Winter Sword]
+ ranger_reward_sword:0 "Winter Sword"
+### TODO NOT-IN-ST: ranger_reward_sword_desc [AGOT: A sharp sword, found beyond the Wall. Its effectiveness is as undeniable as its roughness.]
+ ranger_reward_sword_desc:0 "A sharp sword, found beyond the Wall. Its effectiveness is as undeniable as its roughness."
+### TODO NOT-IN-ST: ranger_reward_spear [AGOT: Winter Spear]
+ ranger_reward_spear:0 "Winter Spear"
+### TODO NOT-IN-ST: ranger_reward_spear_desc [AGOT: A rugged spear, found beyond the Wall. Its reach is deadly, matched only by its unrefined, weathered shaft.]
+ ranger_reward_spear_desc:0 "A rugged spear, found beyond the Wall. Its reach is deadly, matched only by its unrefined, weathered shaft."
+### TODO NOT-IN-ST: ranger_reward_axe [AGOT: Winter Axe]
+ ranger_reward_axe:0 "Winter Axe"
+### TODO NOT-IN-ST: ranger_reward_axe_desc [AGOT: A brutal axe, found beyond the Wall. Its weight and edge are as fierce as its coarse, worn handle.]
+ ranger_reward_axe_desc:0 "A brutal axe, found beyond the Wall. Its weight and edge are as fierce as its coarse, worn handle."
+### TODO NOT-IN-ST: ranger_reward_bow [AGOT: Winter Bow]
+ ranger_reward_bow:0 "Winter Bow"
+### TODO NOT-IN-ST: ranger_reward_bow_desc [AGOT: A deadly bow, found beyond the Wall. Its pull is as lethal as its rough, timeworn frame.]
+ ranger_reward_bow_desc:0 "A deadly bow, found beyond the Wall. Its pull is as lethal as its rough, timeworn frame."

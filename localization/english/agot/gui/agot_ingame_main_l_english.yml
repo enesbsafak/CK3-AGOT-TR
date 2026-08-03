@@ -1,0 +1,23 @@
+﻿l_english:
+### TODO NOT-IN-ST: GAME_OVER_CANNOT_PLAY_RUINS [AGOT: Cannot play [ruins|E].]
+ GAME_OVER_CANNOT_PLAY_RUINS:0 "Cannot play [ruins|E]."
+### TODO NOT-IN-ST: NOT_GAME_OVER_CANNOT_PLAY_RUINS [AGOT: $GAME_OVER_CANNOT_PLAY_RUINS$]
+ NOT_GAME_OVER_CANNOT_PLAY_RUINS:0 "$GAME_OVER_CANNOT_PLAY_RUINS$"
+### TODO NOT-IN-ST: GAME_OVER_CANNOT_PLAY_REMOVED_REALM [AGOT: Cannot play removed realms.]
+ GAME_OVER_CANNOT_PLAY_REMOVED_REALM:0 "Cannot play removed realms."
+### TODO NOT-IN-ST: NOT_GAME_OVER_CANNOT_PLAY_REMOVED_REALM [AGOT: $GAME_OVER_CANNOT_PLAY_REMOVED_REALM$]
+ NOT_GAME_OVER_CANNOT_PLAY_REMOVED_REALM:0 "$GAME_OVER_CANNOT_PLAY_REMOVED_REALM$"
+### TODO NOT-IN-ST: GAME_OVER_CANNOT_PLAY_NW_VASSAL [AGOT: Cannot play a vassal of the Night's Watch.]
+ GAME_OVER_CANNOT_PLAY_NW_VASSAL:0 "Cannot play a vassal of the Night's Watch."
+### TODO NOT-IN-ST: NOT_GAME_OVER_CANNOT_PLAY_NW_VASSAL [AGOT: $GAME_OVER_CANNOT_PLAY_NW_VASSAL$]
+ NOT_GAME_OVER_CANNOT_PLAY_NW_VASSAL:0 "$GAME_OVER_CANNOT_PLAY_NW_VASSAL$"
+### TODO NOT-IN-ST: GAME_OVER_CANNOT_PLAY_WILDERNESS [AGOT: Cannot play [wilderness|E].]
+ GAME_OVER_CANNOT_PLAY_WILDERNESS:0 "Cannot play [wilderness|E]."
+### TODO NOT-IN-ST: NOT_GAME_OVER_CANNOT_PLAY_WILDERNESS [AGOT: $GAME_OVER_CANNOT_PLAY_WILDERNESS$]
+ NOT_GAME_OVER_CANNOT_PLAY_WILDERNESS:0 "$GAME_OVER_CANNOT_PLAY_WILDERNESS$"
+### TODO NOT-IN-ST: GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK [AGOT: Cannot play this character due to bookmark content]
+ GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK: "Cannot play this character due to bookmark content"
+### TODO NOT-IN-ST: NOT_GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK [AGOT: $GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK$]
+ NOT_GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK: "$GAME_OVER_CANNOT_PLAY_GOLDFUROR_DURING_NPK$"
+### TODO NOT-IN-ST: AGOT_AI_STRESS_TOOLTIP [AGOT: #T [stress_level|E]: [Character.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Effects:#!\n', Character.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(Character.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][Character.GetStress|V]/[GetMaxStress|V]#!\n[Character.StressProgressDesc]]
+ AGOT_AI_STRESS_TOOLTIP:2 "#T [stress_level|E]: [Character.GetStressLevel|V]/[GetDefine('NCharacter', 'MAX_STRESS_LEVEL')|V]\n#![ConcatIfNeitherEmpty('#S Effects:#!\n', Character.StressLevelEffect )]\n[AddTextIf(Not(StringIsEmpty(Character.StressLevelEffect)), '\n')]#S [stress|E]: [stress_i][Character.GetStress|V]/[GetMaxStress|V]#!\n[Character.StressProgressDesc]"

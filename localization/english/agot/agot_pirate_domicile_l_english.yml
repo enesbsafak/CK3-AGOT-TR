@@ -1,0 +1,11 @@
+﻿l_english:
+### TODO NOT-IN-ST: AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY [AGOT: [target.GetShortUINamePossessive] and [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] are located in the same county: $VALUE|+=0$]
+AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY:0 "[target.GetShortUINamePossessive] and [owner.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] are located in the same county: $VALUE|+=0$"
+### TODO NOT-IN-ST: OWNER_DOMICILE_FORCASTLE_DESC [AGOT: [target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Level: $VALUE|+=0$]
+OWNER_DOMICILE_FORCASTLE_DESC:0 "[target.GetDomicile.GetName] [GetDomicileBuilding('agot_forecastle_01').GetName] Level: $VALUE|+=0$"
+### TODO NOT-IN-ST: RAID_PIRATE_SHIP_IN_SUBREALM_DESC [AGOT: [target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is in your [realm|E]: $VALUE|+=0$]
+RAID_PIRATE_SHIP_IN_SUBREALM_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is in your [realm|E]: $VALUE|+=0$"
+### TODO NOT-IN-ST: RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC [AGOT: [target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is docked in a [realm|E] with an $pirate_tax_rate_04$ [pirate_port_rate|E]: $VALUE|+=0$]
+RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC:0 "[target.GetShortUINamePossessive] [agot_landless_pirate_domicile|E] is docked in a [realm|E] with an $pirate_tax_rate_04$ [pirate_port_rate|E]: $VALUE|+=0$"
+### TODO NOT-IN-ST: RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC [AGOT: [target.GetShortUINamePossessive] has the [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$]
+RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC:0 "[target.GetShortUINamePossessive] has the [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$"

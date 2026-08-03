@@ -1,0 +1,107 @@
+﻿l_english:
+### TODO NOT-IN-ST: OFFER_KNIGHTHOOD_NOTIFICATION [AGOT: It is said that any knight can make another man a knight. I have noticed that you are not yet a knight. I would be happy to right this wrong and grant you knighthood.]
+ OFFER_KNIGHTHOOD_NOTIFICATION:0 "It is said that any knight can make another man a knight. I have noticed that you are not yet a knight. I would be happy to right this wrong and grant you knighthood."
+### TODO NOT-IN-ST: EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT [AGOT: #I Choose a [squire|E] or [agot_knight|E] from your [court|E]#!]
+ EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT:0 "#I Choose a [squire|E] or [agot_knight|E] from your [court|E]#!"
+### TODO NOT-IN-ST: EDUCATE_SELECT_THEIR_KNIGHT [AGOT: #I Choose a [agot_knight|E] from their [court|E]#!]
+ EDUCATE_SELECT_THEIR_KNIGHT:0 "#I Choose a [agot_knight|E] from their [court|E]#!"
+### TODO NOT-IN-ST: EDUCATE_SELECT_THEIR_SQUIRE [AGOT: #I Choose a [squire|E] from their [court|E]#!]
+ EDUCATE_SELECT_THEIR_SQUIRE:0 "#I Choose a [squire|E] from their [court|E]#!"
+### TODO NOT-IN-ST: EDUCATE_SELECT_YOUR_KNIGHT [AGOT: #I Choose a [agot_knight|E] from your [court|E]#!]
+ EDUCATE_SELECT_YOUR_KNIGHT:0 "#I Choose a [agot_knight|E] from your [court|E]#!"
+### TODO NOT-IN-ST: EDUCATE_SELECT_YOUR_SQUIRE [AGOT: #I Choose a [squire|E] from your [court|E]#!]
+ EDUCATE_SELECT_YOUR_SQUIRE:0 "#I Choose a [squire|E] from your [court|E]#!"
+### TODO NOT-IN-ST: SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST [AGOT: It would please me greatly if you could personally take [secondary_actor.GetShortUIName] as your squire.]
+ SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "It would please me greatly if you could personally take [secondary_actor.GetShortUIName] as your squire."
+### TODO NOT-IN-ST: SQUIRE_ACTOR_PERSONALLY_REQUEST [AGOT: It would be an honor if you could personally take me on as your squire.]
+ SQUIRE_ACTOR_PERSONALLY_REQUEST:0 "It would be an honor if you could personally take me on as your squire."
+### TODO NOT-IN-ST: SQUIRE_ACTOR_CHILD_REQUEST [AGOT: It would please me greatly if you would allow [secondary_actor.GetShortUIName] to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] squire.]
+ SQUIRE_ACTOR_CHILD_REQUEST:0 "It would please me greatly if you would allow [secondary_actor.GetShortUIName] to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] squire."
+### TODO NOT-IN-ST: SQUIRE_ACTOR_REQUEST [AGOT: It would please me greatly if you would allow your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] to take me on as [secondary_recipient.GetHerHis] squire.]
+ SQUIRE_ACTOR_REQUEST:0 "It would please me greatly if you would allow your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] to take me on as [secondary_recipient.GetHerHis] squire."
+### TODO NOT-IN-ST: EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST [AGOT: I would like to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] knight personally, if that sounds reasonable to you.]
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST:0 "I would like to become your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive] knight personally, if that sounds reasonable to you."
+### TODO NOT-IN-ST: EDUCATE_SQUIRE_PERSONALLY_REQUEST [AGOT: In order to ensure that you receive the best squire training as possible possible, I would see to your training personally — if you will let me.]
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST:0 "In order to ensure that you receive the best squire training as possible possible, I would see to your training personally — if you will let me."
+### TODO NOT-IN-ST: EDUCATE_RECIPIENT_SQUIRE_REQUEST [AGOT: I would like for your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] to become the squire of [secondary_actor.GetShortUIName] — a most skillful knight!]
+ EDUCATE_RECIPIENT_SQUIRE_REQUEST:0 "I would like for your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] to become the squire of [secondary_actor.GetShortUIName] — a most skillful knight!"
+### TODO NOT-IN-ST: EDUCATE_SQUIRE_REQUEST [AGOT: In order to ensure that you become a knight one day, I would like for you to become a squire to [secondary_actor.GetShortUIName] — a most skillful knight!]
+ EDUCATE_SQUIRE_REQUEST:0 "In order to ensure that you become a knight one day, I would like for you to become a squire to [secondary_actor.GetShortUIName] — a most skillful knight!"
+### TODO NOT-IN-ST: OFFER_SQUIREHOOD_NOTIFICATION [AGOT: The road to knighthood begins with squirehood. Become my squire and I will ensure that, should you be a worthy student, you will one day become a knight by my hand!]
+ OFFER_SQUIREHOOD_NOTIFICATION:0 "The road to knighthood begins with squirehood. Become my squire and I will ensure that, should you be a worthy student, you will one day become a knight by my hand!" #AGOT TODO  please rewrite this
+### TODO NOT-IN-ST: REMOVAL_OF_SQUIREHOOD_NOTIFICATION [AGOT: In my eyes, you are no longer worthy of being a squire! You will need to find a different knight to continue your knightly training!]
+ REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "In my eyes, you are no longer worthy of being a squire! You will need to find a different knight to continue your knightly training!"
+### TODO NOT-IN-ST: REMOVE_CHILDS_KNIGHT_INTERACTION [AGOT: Unfortunately, this knightly tutelage arrangement no longer works. As a result I must end it prematurely, for the good of all involved.]
+ REMOVE_CHILDS_KNIGHT_INTERACTION:0 "Unfortunately, this knightly tutelage arrangement no longer works. As a result I must end it prematurely, for the good of all involved."
+### TODO NOT-IN-ST: KNIGHT_TRAINS_SQUIRE_NOTIFICATION [AGOT: Squire! Once again, it is time we train in the ways of knighthood. Prepare yourself, for on the morrow we shall train like never before.]
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION:0 "Squire! Once again, it is time we train in the ways of knighthood. Prepare yourself, for on the morrow we shall train like never before." #AGOT TODO  please rewrite this
+### TODO NOT-IN-ST: OFFER_SQUIRE [AGOT: Offer Squire]
+ OFFER_SQUIRE:0 "Offer Squire"
+### TODO NOT-IN-ST: OFFER_KNIGHT_TUTELAGE [AGOT: Offer Knight Tutelage]
+ OFFER_KNIGHT_TUTELAGE:0 "Offer Knight Tutelage"
+### TODO NOT-IN-ST: OFFER_EDUCATE_SQUIRE [AGOT: Educate Squire]
+ OFFER_EDUCATE_SQUIRE:0 "Educate Squire"
+### TODO NOT-IN-ST: ACTOR_IS_MY_AGOT_KNIGHT_REASON [AGOT: [recipient.GetShortUIName|U] is [actor.GetShortUINamePossessive] squire: $VALUE|=+0$]
+ ACTOR_IS_MY_AGOT_KNIGHT_REASON:0 "[recipient.GetShortUIName|U] is [actor.GetShortUINamePossessive] squire: $VALUE|=+0$"
+### TODO NOT-IN-ST: LOWBORN_DESIRES_KNIGHTHOOD_REASON [AGOT: As a [lowborn|E], I am more inclined to accept an increase in social status: $VALUE|=+0$]
+ LOWBORN_DESIRES_KNIGHTHOOD_REASON:0 "As a [lowborn|E], I am more inclined to accept an increase in social status: $VALUE|=+0$"
+### TODO NOT-IN-ST: HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER [AGOT: A [lowborn|E] knighting me would be inappropriate: $VALUE|=+0$]
+ HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER:0 "A [lowborn|E] knighting me would be inappropriate: $VALUE|=+0$"
+### TODO NOT-IN-ST: HIGHBORN_IS_HUMBLE [AGOT: [actor.GetShortUIName|U] is a [lowborn|E], but I don't mind as I'm humble: $VALUE|=+0$]
+ HIGHBORN_IS_HUMBLE:0 "[actor.GetShortUIName|U] is a [lowborn|E], but I don't mind as I'm humble: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_LOW_BOLDNESS_REASON [AGOT: [personality|E] — #italic Knighthood sounds scary:#! $VALUE|=+0$]
+ KNIGHTHOOD_LOW_BOLDNESS_REASON:0 "[personality|E] — #italic Knighthood sounds scary:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_HIGH_BOLDNESS_REASON [AGOT: [personality|E] — #italic I relish the chance to prove my worth by being a knight!:#! $VALUE|=+0$]
+ KNIGHTHOOD_HIGH_BOLDNESS_REASON:0 "[personality|E] — #italic I relish the chance to prove my worth by being a knight!:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_FAITH_ZEALOUT_REASON [AGOT: [personality|E] — #italic Knighthood is a sign of my greater devotion:#! $VALUE|=+0$]
+ KNIGHTHOOD_FAITH_ZEALOUT_REASON:0 "[personality|E] — #italic Knighthood is a sign of my greater devotion:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_GREED_REASON [AGOT: [personality|E] — #italic Becoming a knight will personally improve my social status:#! $VALUE|=+0$]
+ KNIGHTHOOD_GREED_REASON:0 "[personality|E] — #italic Becoming a knight will personally improve my social status:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_ENERGY_REASON [AGOT: [personality|E] — #italic Knighthood sounds like a lot of work:#! $VALUE|=+0$]
+ KNIGHTHOOD_ENERGY_REASON:0 "[personality|E] — #italic Knighthood sounds like a lot of work:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_HONOR_REASON [AGOT: [personality|E] — #italic Becoming a knight is a great honor:#! $VALUE|=+0$]
+ KNIGHTHOOD_HONOR_REASON:0 "[personality|E] — #italic Becoming a knight is a great honor:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_LOW_SOCIABILITY [AGOT: [personality|E] — #italic I am weary of others:#! $VALUE|=+0$]
+ KNIGHTHOOD_LOW_SOCIABILITY:0 "[personality|E] — #italic I am weary of others:#! $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_EDUCATION_MARTIAL_REASON [AGOT: [education|E]: I have a martial education: $VALUE|=+0$]
+ KNIGHTHOOD_EDUCATION_MARTIAL_REASON:0 "[education|E]: I have a martial education: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_EDUCATION_LEARNING_REASON [AGOT: [education|E]: I am a learned man, not a warrior!: $VALUE|=+0$]
+ KNIGHTHOOD_EDUCATION_LEARNING_REASON:0 "[education|E]: I am a learned man, not a warrior!: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON [AGOT: [education|E]: I am educated in a skill other than martial: $VALUE|+=0$]
+ KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON:0 "[education|E]: I am educated in a skill other than martial: $VALUE|+=0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_I_AM_A_WARRIOR_REASON [AGOT: [education|E]: I am a trained warrior, but I am not yet a knight: $VALUE|+=0$]
+ KNIGHTHOOD_I_AM_A_WARRIOR_REASON:0 "[education|E]: I am a trained warrior, but I am not yet a knight: $VALUE|+=0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE [AGOT: [faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] faith does not value knighthood: $VALUE|+=0$]
+ KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE:0 "[faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] faith does not value knighthood: $VALUE|+=0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON [AGOT: [faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] faith values knighthood: $VALUE|=+0$]
+ KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON:0 "[faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] faith values knighthood: $VALUE|=+0$"
+### TODO NOT-IN-ST: OUR_HOUSES_ARE_FEUDING_REASON [AGOT: Our houses are feuding: $VALUE|=+0$]
+ OUR_HOUSES_ARE_FEUDING_REASON:0 "Our houses are feuding: $VALUE|=+0$"
+### TODO NOT-IN-ST: WE_COME_FROM_NEIGHBORING_COUNTIES [AGOT: [recipient.GetShortUINameNoTooltip|U] and [actor.GetShortUINameNoTooltip] come from neighboring lands: $VALUE|=+0$]
+ WE_COME_FROM_NEIGHBORING_COUNTIES:0 "[recipient.GetShortUINameNoTooltip|U] and [actor.GetShortUINameNoTooltip] come from neighboring lands: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON [AGOT: [actor.GetShortUINameNoTooltip|U] are more powerful than [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$]
+ KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON:0 "[actor.GetShortUINameNoTooltip|U] are more powerful than [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION [AGOT: [actor.GetShortUINamePossessive|U] [prestige_level|E] is disgraced, or [actor.GetSheHe] has negative prestige: $VALUE|=+0$]
+ KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] is disgraced, or [actor.GetSheHe] has negative prestige: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE [AGOT: [actor.GetShortUINamePossessive|U] [prestige_level|E] is inconsequential: $VALUE|=+0$]
+ KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] is inconsequential: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU [AGOT: [actor.GetShortUINamePossessive|U] [prestige_level|E] is less than mine: $VALUE|=+0$]
+ KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU:0 "[actor.GetShortUINamePossessive|U] [prestige_level|E] is less than mine: $VALUE|=+0$"
+### TODO NOT-IN-ST: FAVORS_BEING_A_SQUIRE_REASON [AGOT: I prefer being a squire: $VALUE|=+0$]
+ FAVORS_BEING_A_SQUIRE_REASON:0 "I prefer being a squire: $VALUE|=+0$"
+### TODO NOT-IN-ST: SQUIREHOOD_I_AM_A_RULER_ALREADY [AGOT: [secondary_actor.GetShortUIName|U] is a legal-aged ruler: $VALUE|=+0$]
+ SQUIREHOOD_I_AM_A_RULER_ALREADY:0 "[secondary_actor.GetShortUIName|U] is a legal-aged ruler: $VALUE|=+0$"
+### TODO NOT-IN-ST: SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN [AGOT: The proposed squire is a [lowborn|E]: $VALUE|=+0$]
+ SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN:0 "The proposed squire is a [lowborn|E]: $VALUE|=+0$"
+### TODO NOT-IN-ST: SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET [AGOT: [faith|E]: The proposed squire's faith does not value squirehood and knighthood: $VALUE|=+0$]
+ SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET:0 "[faith|E]: The proposed squire's faith does not value squirehood and knighthood: $VALUE|=+0$"
+### TODO NOT-IN-ST: SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT [AGOT: The proposed squire is old enough to be knighted: $VALUE|=+0$]
+ SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT:0 "The proposed squire is old enough to be knighted: $VALUE|=+0$"
+### TODO NOT-IN-ST: SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD [AGOT: The proposed squire is not right in the mind: $VALUE|=+0$]
+ SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD:0 "The proposed squire is not right in the mind: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL [AGOT: Knight's [martial|E] Skill: $VALUE|=+0$]
+ KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL:0 "Knight's [martial|E] Skill: $VALUE|=+0$"
+### TODO NOT-IN-ST: KNIGHTING_AI_GUARDIAN_SKILL_PROWESS [AGOT: Knight's [prowess|E] Skill: $VALUE|=+0$]
+ KNIGHTING_AI_GUARDIAN_SKILL_PROWESS:0 "Knight's [prowess|E] Skill: $VALUE|=+0$"
+### TODO NOT-IN-ST: THEY_ARE_MY_SQUIRE [AGOT: They are my squire, and they are ready for knighthood!]
+ THEY_ARE_MY_SQUIRE:0 "They are my squire, and they are ready for knighthood!"

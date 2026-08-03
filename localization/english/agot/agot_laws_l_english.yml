@@ -1,0 +1,29 @@
+﻿l_english:
+### TODO NOT-IN-ST: slavery_laws [AGOT: Slavery]
+ slavery_laws:0 "Slavery"
+### TODO NOT-IN-ST: slavery_allowed_law [AGOT: Slavery Allowed]
+ slavery_allowed_law:0 "Slavery Allowed"
+### TODO NOT-IN-ST: slavery_allowed_law_effect [AGOT: Rulers can build and use the $building_type_agot_slave_camps_01$ lines of [buildings|E], and sell prisoners into slavery. Rulers may use the #V Raid for Slaves#! [casus_bellis|E] to fill their slave camps.]
+ slavery_allowed_law_effect:0 "Rulers can build and use the $building_type_agot_slave_camps_01$ lines of [buildings|E], and sell prisoners into slavery. Rulers may use the #V Raid for Slaves#! [casus_bellis|E] to fill their slave camps."
+### TODO NOT-IN-ST: SLAVERY_LAW_IS_ON_COOLDOWN [AGOT: You recently changed Slavery Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]]
+ SLAVERY_LAW_IS_ON_COOLDOWN:0 "You recently changed Slavery Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]"
+### TODO NOT-IN-ST: SLAVERY_CRIMINAL_UNDER_FAITH [AGOT: Your faith considers slavery criminal]
+ SLAVERY_CRIMINAL_UNDER_FAITH:0 "Your faith considers slavery criminal"
+### TODO NOT-IN-ST: DRAGONPIT_LAW_IS_ON_COOLDOWN [AGOT: You recently changed Dragonpit Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]]
+ DRAGONPIT_LAW_IS_ON_COOLDOWN:0 "You recently changed Dragonpit Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]"
+### TODO NOT-IN-ST: PIRATE_PORT_TAX_RATE_IS_ON_COOLDOWN [AGOT: You recently changed Pirate Port Tax Rates. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'pirate_port_law_cooldown') )]]
+ PIRATE_PORT_TAX_RATE_IS_ON_COOLDOWN:0 "You recently changed Pirate Port Tax Rates. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'pirate_port_law_cooldown') )]"
+### TODO NOT-IN-ST: YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT [AGOT: You are banned from the [dragonpit|e] this dragon is located in]
+ YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT:0 "You are banned from the [dragonpit|e] this dragon is located in"
+### TODO NOT-IN-ST: PIRATE_TAX_RATE_LAW_SELECTED [AGOT: [Law.GetNameNoTooltip]]
+ PIRATE_TAX_RATE_LAW_SELECTED: "[Law.GetNameNoTooltip]"
+### TODO NOT-IN-ST: term_length_laws [AGOT: Term Length]
+ term_length_laws: "Term Length"
+### TODO NOT-IN-ST: term_length_short [AGOT: Short Terms]
+ term_length_short: "Short Terms"
+### TODO NOT-IN-ST: term_length_short_effects [AGOT: Election Terms are 5 years long]
+ term_length_short_effects: "Election Terms are 5 years long"
+### TODO NOT-IN-ST: term_length_long [AGOT: Long Terms]
+ term_length_long: "Long Terms"
+### TODO NOT-IN-ST: term_length_long_effects [AGOT: Election Terms are 10 years long]
+ term_length_long_effects: "Election Terms are 10 years long"

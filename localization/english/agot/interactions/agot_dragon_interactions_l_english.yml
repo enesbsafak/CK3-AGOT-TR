@@ -1,0 +1,61 @@
+﻿l_english:
+### TODO NOT-IN-ST: dragon_beyond_the_wall [AGOT: Dragons will not stray beyond the Wall]
+ dragon_beyond_the_wall:0 "Dragons will not stray beyond the Wall"
+### TODO NOT-IN-ST: ds_cooldown_desc [AGOT: You have recently fought a dragon or attempted to slay a dragon]
+ ds_cooldown_desc:0 "You have recently fought a dragon or attempted to slay a dragon"
+### TODO NOT-IN-ST: SCHEME_DRAGON_BASE [AGOT: Base: #V $VALUE|0=$#!]
+ SCHEME_DRAGON_BASE:0 "Base: #V $VALUE|0=$#!"
+### TODO NOT-IN-ST: SCHEME_DRAGON_BONDED_BASE [AGOT: Bonded Dragon Base: #V $VALUE|0=$#!]
+ SCHEME_DRAGON_BONDED_BASE:0 "Bonded Dragon Base: #V $VALUE|0=$#!"
+### TODO NOT-IN-ST: SCHEME_DRAGON_UNBONDED_BASE [AGOT: Unbonded Dragon Base: #V $VALUE|0=$#!]
+ SCHEME_DRAGON_UNBONDED_BASE:0 "Unbonded Dragon Base: #V $VALUE|0=$#!"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_THEIR_OPINION [AGOT: [target.GetTitledFirstNamePossessive] opinion of you: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_THEIR_OPINION:0 "[target.GetTitledFirstNamePossessive] opinion of you: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_BOTH_TRAIT [AGOT: You have a similar personality: $VALUE|+0=-+$]
+ SCHEME_BOND_BOTH_TRAIT:0 "You have a similar personality: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_OWNER_DILIGENT [AGOT: You are [GetTrait('diligent').GetName(GetNullCharacter)]: $VALUE|+0=-+$]
+ SCHEME_BOND_OWNER_DILIGENT:0 "You are [GetTrait('diligent').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_OWNER_LAZY [AGOT: You are [GetTrait('lazy').GetName(GetNullCharacter)]: $VALUE|+0=-+$]
+ SCHEME_BOND_OWNER_LAZY:0 "You are [GetTrait('lazy').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: DRAGON_AGE [AGOT: [target.GetTitledFirstNamePossessive] age: #N -[target.GetAge]#!]
+ DRAGON_AGE:0 "[target.GetTitledFirstNamePossessive] age: #N -[target.GetAge]#!"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_DREAD [AGOT: Your intimidating presence: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_DREAD:0 "Your intimidating presence: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_GRAVITAS [AGOT: Your personal gravitas: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_GRAVITAS:0 "Your personal gravitas: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_DRACONIC_DREAD [AGOT: [target.GetFirstNamePossessive] [draconic_dread|E]: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_DRACONIC_DREAD:0 "[target.GetFirstNamePossessive] [draconic_dread|E]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_TEMPERAMENT [AGOT: [target.GetFirstNamePossessive] [temperament|E]: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_TEMPERAMENT:0 "[target.GetFirstNamePossessive] [temperament|E]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DRAGON_TAMING_CHANCE [AGOT: [target.GetFirstNamePossessive] [taming_chance|E]: $VALUE|+0=-+$]
+ SCHEME_BOND_DRAGON_TAMING_CHANCE:0 "[target.GetFirstNamePossessive] [taming_chance|E]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: BOND_DRAGON_SUCCESS_DESC [AGOT: You will bond with this [dragon|E]]
+ BOND_DRAGON_SUCCESS_DESC:0 "You will bond with this [dragon|E]"
+### TODO NOT-IN-ST: DEEPEN_BOND_DRAGON_SUCCESS_DESC [AGOT: You will #P increase#! the experience of your [GetTrait('dragonrider').GetName(GetNullCharacter)] bond]
+ DEEPEN_BOND_DRAGON_SUCCESS_DESC:0 "You will #P increase#! the experience of your [GetTrait('dragonrider').GetName(GetNullCharacter)] bond"
+### TODO NOT-IN-ST: SCHEME_BOND_VALYRIAN_BLOOD [AGOT: You have Dragonblood: $VALUE|+0=-+$]
+ SCHEME_BOND_VALYRIAN_BLOOD:0 "You have Dragonblood: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DYNASTY_LEGACY [AGOT: [GetDynastyPerk( 'dragonrider_dynasty_legacy_2' ).GetName]: $VALUE|+0=-+$]
+ SCHEME_BOND_DYNASTY_LEGACY:0 "[GetDynastyPerk( 'dragonrider_dynasty_legacy_2' ).GetName]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_EX_DRAGONRIDER [AGOT: You already bonded one [dragon|E]: $VALUE|+0=-+$]
+ SCHEME_EX_DRAGONRIDER:0 "You already bonded one [dragon|E]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: SCHEME_BOND_DESTINED_RIDER [AGOT: You feel a destined bond: $VALUE|+0=-+$]
+ SCHEME_BOND_DESTINED_RIDER:0 "You feel a destined bond: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: scheme_depressed_dragon [AGOT: [target.GetFirstName] is [GetTrait('dragon_depressed').GetName(GetNullCharacter)]: $VALUE|+0=-+$]
+ scheme_depressed_dragon:0 "[target.GetFirstName] is [GetTrait('dragon_depressed').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: cradle_egg [AGOT: Cradle Dragon Egg]
+ cradle_egg:0 "Cradle Dragon Egg"
+### TODO NOT-IN-ST: cradle_egg_desc [AGOT: Cradle your dragon egg]
+ cradle_egg_desc:0 "Cradle your dragon egg"
+### TODO NOT-IN-ST: taught_dragonlore_desc [AGOT: You taught dragonlore to [recipient.GetName].]
+ taught_dragonlore_desc:0 "You taught dragonlore to [recipient.GetName]."
+### TODO NOT-IN-ST: has_a_dragon [AGOT: [actor.GetFirstName] already has a tamed or bonded dragon]
+ has_a_dragon:0 "[actor.GetFirstName] already has a tamed or bonded dragon"
+### TODO NOT-IN-ST: agot_teach_dragonlore [AGOT: Teach Dragonlore]
+ agot_teach_dragonlore:0 "Teach Dragonlore"
+### TODO NOT-IN-ST: agot_teach_dragonlore_desc [AGOT: With the aid of your [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], you will teach [recipient.GetName] dragonlore vital to dragon taming]
+ agot_teach_dragonlore_desc:0 "With the aid of your [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], you will teach [recipient.GetName] dragonlore vital to dragon taming"
+### TODO NOT-IN-ST: scheme_taught_dragonlore [AGOT: Taught Dragonlore: $VALUE|+0=-+$]
+ scheme_taught_dragonlore:0 "Taught Dragonlore: $VALUE|+0=-+$"
+### TODO NOT-IN-ST: scheme_dragonkeeper [AGOT: Head Dragonkeeper: $VALUE|+0=-+$]
+ scheme_dragonkeeper:0 "Head Dragonkeeper: $VALUE|+0=-+$"

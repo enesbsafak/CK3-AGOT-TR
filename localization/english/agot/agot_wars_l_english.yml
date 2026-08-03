@@ -1,0 +1,179 @@
+﻿l_english:
+### TODO NOT-IN-ST: AGOT_VASSALIZATION_CB_NAME [AGOT: Iron Throne [vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]]
+ AGOT_VASSALIZATION_CB_NAME:2 "Iron Throne [vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]"
+### TODO NOT-IN-ST: AGOT_VASSALIZATION_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War]
+ AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War"
+### TODO NOT-IN-ST: AGOT_VASSALIZATION_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: agot_reconquest_war [AGOT: Reconquest]
+ agot_reconquest_war:0 "Reconquest"
+### TODO NOT-IN-ST: agot_reconquest_war_name [AGOT: Reconquest]
+ agot_reconquest_war_name:0 "Reconquest"
+### TODO NOT-IN-ST: agot_revolt_war [AGOT: Revolt]
+ agot_revolt_war:0 "Revolt"
+### TODO NOT-IN-ST: agot_revolt_war_name [AGOT: Revolt against [DEFENDER.GetShortUINameNotMe]]
+ agot_revolt_war_name:0 "Revolt against [DEFENDER.GetShortUINameNotMe]"
+### TODO NOT-IN-ST: agot_revolt_war_defeat_desc_defender [AGOT: [attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass.]
+ agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
+### TODO NOT-IN-ST: agot_revolt_war_defeat_desc [AGOT: [attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass.]
+ agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
+### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME [AGOT: Wildling Raid]
+ WILDLING_RAID_WAR_NAME:0 "Wildling Raid"
+### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: WILDLINGS [AGOT: Wildlings]
+ WILDLINGS:0 "Wildlings"
+### TODO NOT-IN-ST: WILDLING_DIMINISH_CB_NAME [AGOT: Diminishment War]
+ WILDLING_DIMINISH_CB_NAME:0 "Diminishment War"
+### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME [AGOT: $WILDLING_DIMINISH_CB_NAME$]
+ WILDLING_DIMINISH_WAR_NAME:0 "$WILDLING_DIMINISH_CB_NAME$"
+### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME_BASE [AGOT: $WILDLING_DIMINISH_CB_NAME$]
+ WILDLING_DIMINISH_WAR_NAME_BASE:0 "$WILDLING_DIMINISH_CB_NAME$"
+### TODO NOT-IN-ST: RECLAIM_CB_NAME [AGOT: Reclaim the Night's Watch [de_jure|E] Lands]
+ RECLAIM_CB_NAME:0 "Reclaim the Night's Watch [de_jure|E] Lands"
+### TODO NOT-IN-ST: RECLAIM_CB_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Night's Watch Reclamation War]
+ RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Night's Watch Reclamation War"
+### TODO NOT-IN-ST: RECLAIM_CB_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ RECLAIM_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: DISPUTED_LANDS_CONQUEST_CB_NAME [AGOT: Disputed Lands Conquest for [county|E]]
+ DISPUTED_LANDS_CONQUEST_CB_NAME:0 "Disputed Lands Conquest for [county|E]"
+### TODO NOT-IN-ST: PIRATE_ARMY_NEUTRAL_NAME [AGOT: Pirate Crew]
+ PIRATE_ARMY_NEUTRAL_NAME:0 "Pirate Crew"
+### TODO NOT-IN-ST: RECLAIM_CAPTIVES_NAME [AGOT: Free Captives]
+ RECLAIM_CAPTIVES_NAME:0 "Free Captives"
+### TODO NOT-IN-ST: RECLAIM_CAPTIVES_WAR_NAME [AGOT: Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
+ RECLAIM_CAPTIVES_WAR_NAME:1 "Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+### TODO NOT-IN-ST: BLACKFYRE_WAR_NAME [AGOT: [ATTACKER.Custom('BlackfyreRebellions')]]
+ BLACKFYRE_WAR_NAME:0 "[ATTACKER.Custom('BlackfyreRebellions')]"
+### TODO NOT-IN-ST: NINEPENNY_WAR_NAME [AGOT: $ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]]
+ NINEPENNY_WAR_NAME:2 "$ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]"
+### TODO NOT-IN-ST: NINEPENNY_TRUCE [AGOT: \nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine]
+ NINEPENNY_TRUCE:0 "\nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine"
+### TODO NOT-IN-ST: REYNE_REBELLION_NAME [AGOT: The Reyne Rebellion]
+ REYNE_REBELLION_NAME:0 "The Reyne Rebellion"
+### TODO NOT-IN-ST: AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME [AGOT: [ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence]
+ AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME:0 "[ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence"
+### TODO NOT-IN-ST: agot_bastard_enforcement_war [AGOT: Royal Decree Enforcement]
+ agot_bastard_enforcement_war:0 "Royal Decree Enforcement"
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_name [AGOT: [ATTACKER.GetTitledFirstNamePossessive] Enforcement on [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
+ agot_bastard_enforcement_war_name:0 "[ATTACKER.GetTitledFirstNamePossessive] Enforcement on [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_defeat [AGOT: [defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree.]
+ agot_bastard_enforcement_war_defeat:0 "[defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree."
+### TODO NOT-IN-ST: DISRUPT_PIRACY_WAR_NAME [AGOT: Disrupt Piracy]
+ DISRUPT_PIRACY_WAR_NAME:0 "Disrupt Piracy"
+### TODO NOT-IN-ST: DISRUPT_PIRACY_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ DISRUPT_PIRACY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: DISRUPT_PIRACY_CB [AGOT: Disrupt Piracy]
+ DISRUPT_PIRACY_CB:0 "Disrupt Piracy"
+### TODO NOT-IN-ST: DISRUPT_PIRACY_CB_SHATTER [AGOT: The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state.]
+ DISRUPT_PIRACY_CB_SHATTER:0 "The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state."
+### TODO NOT-IN-ST: DISRUPT_PIRACY_COASTAL_GOOD [AGOT: With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years.]
+ DISRUPT_PIRACY_COASTAL_GOOD:0 "With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years."
+### TODO NOT-IN-ST: DISRUPT_PIRACY_COASTAL_BAD [AGOT: With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years.]
+ DISRUPT_PIRACY_COASTAL_BAD:0 "With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years."
+### TODO NOT-IN-ST: INVADE_PIRATE_HAVEN_WAR_NAME [AGOT: Invade Pirate Haven]
+ INVADE_PIRATE_HAVEN_WAR_NAME:0 "Invade Pirate Haven"
+### TODO NOT-IN-ST: INVADE_PIRATE_HAVEN_CB [AGOT: $INVADE_PIRATE_HAVEN_WAR_NAME$]
+ INVADE_PIRATE_HAVEN_CB:0 "$INVADE_PIRATE_HAVEN_WAR_NAME$"
+### TODO NOT-IN-ST: ESTABLISH_PIRATE_HAVEN_WAR_NAME [AGOT: Establish Pirate Haven]
+ ESTABLISH_PIRATE_HAVEN_WAR_NAME:0 "Establish Pirate Haven"
+### TODO NOT-IN-ST: PIRATE_CB_TARGET_IS_KINGDOM [AGOT: Defender's primary title is kingdom-tier or higher]
+ PIRATE_CB_TARGET_IS_KINGDOM:0 "Defender's primary title is kingdom-tier or higher"
+### TODO NOT-IN-ST: PIRATE_CB_TARGET_IS_DUCHY [AGOT: Defender's primary title is duchy-tier]
+ PIRATE_CB_TARGET_IS_DUCHY:0 "Defender's primary title is duchy-tier"
+### TODO NOT-IN-ST: SHATTERED_CONQUEST_DUCHY_CB_NAME [AGOT: Conquer [duchy|E]]
+ SHATTERED_CONQUEST_DUCHY_CB_NAME:1 "Conquer [duchy|E]"
+### TODO NOT-IN-ST: SHATTERED_CONQUEST_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]]
+ SHATTERED_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
+### TODO NOT-IN-ST: SHATTERED_CONQUEST_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ SHATTERED_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB_NAME [AGOT: Ambush in the Bog]
+ CRANNOGMAN_AMBUSH_CB_NAME:0 "Ambush in the Bog"
+### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB_NAME_BASE [AGOT: Bog Ambush]
+ CRANNOGMAN_AMBUSH_CB_NAME_BASE:0 "Bog Ambush"
+### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB [AGOT: Bog Ambush]
+ CRANNOGMAN_AMBUSH_CB:0 "Bog Ambush"
+### TODO NOT-IN-ST: crannogman_ambush_cb [AGOT: Ambush in the Bog]
+ crannogman_ambush_cb:0 "Ambush in the Bog"
+### TODO NOT-IN-ST: dragon_county_conquest_cb [AGOT: Draconically Conquer [county|E]]
+ dragon_county_conquest_cb:1 "Draconically Conquer [county|E]"
+### TODO NOT-IN-ST: dragon_duchy_conquest_cb [AGOT: Draconically Conquer [duchy|E]]
+ dragon_duchy_conquest_cb:1 "Draconically Conquer [duchy|E]"
+### TODO NOT-IN-ST: dragon_ducal_conquest_cb [AGOT: Draconically Unite [duchy|E]]
+ dragon_ducal_conquest_cb:1 "Draconically Unite [duchy|E]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_COUNTY_CB_NAME [AGOT: Draconically Conquer [county|E]]
+ DRAGON_CONQUEST_COUNTY_CB_NAME:1 "Draconically Conquer [county|E]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_DUCHY_CB_NAME [AGOT: Draconically Conquer [duchy|E]]
+ DRAGON_CONQUEST_DUCHY_CB_NAME:1 "Draconically Conquer [duchy|E]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_KINGDOM_CB_NAME [AGOT: Draconically Conquer [kingdom|E]]
+ DRAGON_CONQUEST_KINGDOM_CB_NAME:1 "Draconically Conquer [kingdom|E]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_CB_NAME [AGOT: Draconically Conquer the [TITLE.GetBaseName]]
+ DRAGON_CONQUEST_CB_NAME:0 "Draconically Conquer the [TITLE.GetBaseName]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Draconic Conquest of the [TITLE.GetBaseName]]
+ DRAGON_CONQUEST_WAR_NAME:0 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Draconic Conquest of the [TITLE.GetBaseName]"
+### TODO NOT-IN-ST: DRAGON_CONQUEST_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ DRAGON_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: DRAGON_DUCAL_CONQUEST_CB_NAME [AGOT: Draconic [ducal_conquest|E] of [county|E]]
+ DRAGON_DUCAL_CONQUEST_CB_NAME:1 "Draconic [ducal_conquest|E] of [county|E]"
+### TODO NOT-IN-ST: DRAGON_DUCAL_CONQUEST_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Draconic Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]]
+ DRAGON_DUCAL_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Draconic Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
+### TODO NOT-IN-ST: DRAGON_DUCAL_CONQUEST_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ DRAGON_DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: DRAGON_SUBJUGATION_CB_NAME [AGOT: Draconically Subjugate [DEFENDER.GetShortUIName]]
+ DRAGON_SUBJUGATION_CB_NAME:0 "Draconically Subjugate [DEFENDER.GetShortUIName]"
+### TODO NOT-IN-ST: DRAGON_SUBJUGATION_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Dragon Subjugation War]
+ DRAGON_SUBJUGATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Dragon Subjugation War"
+### TODO NOT-IN-ST: DRAGON_SUBJUGATION_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+ DRAGON_SUBJUGATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: truce_stepstones_holders_trp [AGOT: Events in the Stepstones have yet to be resolved.]
+ truce_stepstones_holders_trp:0 " Events in the Stepstones have yet to be resolved."
+### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
+ DAEMON_FIRST_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
+### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
+ DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE:0 "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
+### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_CB_NAME [AGOT: Landing on the Stepstones]
+ DAEMON_FIRST_STEPSTONE_WAR_CB_NAME:0 "Landing on the Stepstones" # Should never be seen
+### TODO NOT-IN-ST: daemon_stepstones_second_war [AGOT: War for the Stepstones]
+ daemon_stepstones_second_war:0 "War for the Stepstones"
+### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] War for the Stepstones]
+ DAEMON_SECOND_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] War for the Stepstones"
+### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] War for the Stepstones]
+ DAEMON_SECOND_STEPSTONE_WAR_NAME_BASE:0 "[ATTACKER.GetFirstNamePossessive] War for the Stepstones"
+### TODO NOT-IN-ST: DAEMON_TRIARCHY_CONQUEST_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] War for the Three Daughters]
+ DAEMON_TRIARCHY_CONQUEST_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] War for the Three Daughters"
+### TODO NOT-IN-ST: DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] War for Three Daughters]
+ DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for Three Daughters"
+### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_CB_NAME [AGOT: War for the Stepstones]
+ DAEMON_SECOND_STEPSTONE_WAR_CB_NAME:0 "War for the Stepstones" # Should never be seen\
+### TODO NOT-IN-ST: AGOT_CB_RECLAIMING_DYNASTY_TITLES [AGOT: Reclaiming Your Dynasty's Titles]
+ AGOT_CB_RECLAIMING_DYNASTY_TITLES:0 "Reclaiming Your Dynasty's Titles"
+### TODO NOT-IN-ST: agot_usurper_standard [AGOT: Usurper]
+ agot_usurper_standard:0 "Usurper"
+### TODO NOT-IN-ST: agot_usurper_pretender [AGOT: Pretender]
+ agot_usurper_pretender:0 "Pretender"
+### TODO NOT-IN-ST: agot_usurper_mummer_queen [AGOT: Mummer Queen]
+ agot_usurper_mummer_queen:0 "Mummer Queen"
+### TODO NOT-IN-ST: agot_usurper_coward_queen [AGOT: Craven Queen]
+ agot_usurper_coward_queen:0 "Craven Queen"
+### TODO NOT-IN-ST: agot_usurper_mummers_dragon [AGOT: Mummer's Dragon]
+ agot_usurper_mummers_dragon:0 "Mummer's Dragon"
+### TODO NOT-IN-ST: agot_usurper_mummers_wolf [AGOT: Mummer's Wolf]
+ agot_usurper_mummers_wolf:0 "Mummer's Wolf"
+### TODO NOT-IN-ST: agot_usurper_mummers_bear [AGOT: Mummer's Bear]
+ agot_usurper_mummers_bear:0 "Mummer's Bear"
+### TODO NOT-IN-ST: agot_usurper_mummers_fox [AGOT: Mummer's Fox]
+ agot_usurper_mummers_fox:0 "Mummer's Fox"
+### TODO NOT-IN-ST: agot_usurper_false_star [AGOT: False Star]
+ agot_usurper_false_star:0 "False Star"
+### TODO NOT-IN-ST: agot_usurper_false_queen [AGOT: False Queen]
+ agot_usurper_false_queen:0 "False Queen"
+### TODO NOT-IN-ST: agot_usurper_bastard_queen [AGOT: Bastard Queen]
+ agot_usurper_bastard_queen:0 "Bastard Queen"
+### TODO NOT-IN-ST: agot_usurper_b_word [AGOT: Bitch Queen]
+ agot_usurper_b_word:0 "Bitch Queen"
+### TODO NOT-IN-ST: agot_usurper_mummers_stag [AGOT: Mummer's Stag]
+ agot_usurper_mummers_stag:0 "Mummer's Stag"
+### TODO NOT-IN-ST: AGOT_ADVENTURER_CONQUEST_CB_WAR_NAME [AGOT: Adventurer Conquest]
+ AGOT_ADVENTURER_CONQUEST_CB_WAR_NAME:0 "Adventurer Conquest"
+### TODO NOT-IN-ST: AGOT_ADV_CONQUEST_TITLE_NAME [AGOT: [target_duchy.GetNameNoTierNoTooltip]]
+ AGOT_ADV_CONQUEST_TITLE_NAME:0 "[target_duchy.GetNameNoTierNoTooltip]"

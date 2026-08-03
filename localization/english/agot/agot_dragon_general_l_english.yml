@@ -1,0 +1,105 @@
+﻿l_english:
+### TODO NOT-IN-ST: MATES_LABEL [AGOT: Mate]
+ MATES_LABEL:0 "Mate"
+### TODO NOT-IN-ST: CURRENT_HOST_LABEL [AGOT: Host]
+ CURRENT_HOST_LABEL:0 "Host"
+### TODO NOT-IN-ST: CURRENT_RIDER_LABEL [AGOT: Rider]
+ CURRENT_RIDER_LABEL:0 "Rider"
+### TODO NOT-IN-ST: CURRENT_BONDED_HUMAN_LABEL [AGOT: Bonded]
+ CURRENT_BONDED_HUMAN_LABEL:0 "Bonded"
+### TODO NOT-IN-ST: PAST_RIDERS_LABEL [AGOT: Past Riders #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!]
+ PAST_RIDERS_LABEL:0 "Past Riders #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!"
+### TODO NOT-IN-ST: UNKNOWN_DRAGON_TOOLTIP [AGOT: Sex: Male ([Concept('dragon_gender','Assumed')|E])]
+ UNKNOWN_DRAGON_TOOLTIP:0 "Sex: Male ([Concept('dragon_gender','Assumed')|E])"
+### TODO NOT-IN-ST: MALE_DRAGON_TOOLTIP [AGOT: Sex: Male]
+ MALE_DRAGON_TOOLTIP:0 "Sex: Male"
+### TODO NOT-IN-ST: FEMALE_DRAGON_TOOLTIP [AGOT: Sex: Female]
+ FEMALE_DRAGON_TOOLTIP:0 "Sex: Female"
+### TODO NOT-IN-ST: DRAGON_TYPE_TOOLTIP [AGOT: [dragon_type|E]]
+ DRAGON_TYPE_TOOLTIP:0 "[dragon_type|E]"
+### TODO NOT-IN-ST: WILD_DRAGON_TOOLTIP [AGOT: [wild_dragon|E]]
+ WILD_DRAGON_TOOLTIP:0 "[wild_dragon|E]"
+### TODO NOT-IN-ST: OWNED_DRAGON_TOOLTIP [AGOT: [owned_dragon|E]]
+ OWNED_DRAGON_TOOLTIP:0 "[owned_dragon|E]"
+### TODO NOT-IN-ST: TAMED_DRAGON_TOOLTIP [AGOT: [tamed_dragon|E]]
+ TAMED_DRAGON_TOOLTIP:0 "[tamed_dragon|E]"
+### TODO NOT-IN-ST: WILD_DRAGON_GUI_TOOLTIP [AGOT: [wild_dragon|E]]
+ WILD_DRAGON_GUI_TOOLTIP:0 "[wild_dragon|E]"
+### TODO NOT-IN-ST: OWNED_DRAGON_GUI_TOOLTIP [AGOT: [owned_dragon|E]]
+ OWNED_DRAGON_GUI_TOOLTIP:0 "[owned_dragon|E]"
+### TODO NOT-IN-ST: TAMED_DRAGON_GUI_TOOLTIP [AGOT: [tamed_dragon|E]]
+ TAMED_DRAGON_GUI_TOOLTIP:0 "[tamed_dragon|E]"
+### TODO NOT-IN-ST: dragon_owner_unlanded [AGOT: [ROOT.Char.GetFullNamePossessive]]
+ dragon_owner_unlanded:0 "[ROOT.Char.GetFullNamePossessive]"
+### TODO NOT-IN-ST: dragon_owner_landed [AGOT: [ROOT.Char.GetTitledFirstNamePossessive]]
+ dragon_owner_landed:0 "[ROOT.Char.GetTitledFirstNamePossessive]"
+### TODO NOT-IN-ST: agot_reveal_dragon_gender_effect_tt_male [AGOT: [dragon.GetNamePossessive] gender is revealed to be male]
+ agot_reveal_dragon_gender_effect_tt_male:0 "[dragon.GetNamePossessive] gender is revealed to be male"
+### TODO NOT-IN-ST: agot_reveal_dragon_gender_effect_tt_female [AGOT: [dragon.GetNamePossessive] gender is revealed to be female]
+ agot_reveal_dragon_gender_effect_tt_female:0 "[dragon.GetNamePossessive] gender is revealed to be female"
+### TODO NOT-IN-ST: free_dragon_tt [AGOT: [free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]]
+ free_dragon_tt:0 "[free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]"
+### TODO NOT-IN-ST: agot_dragon_hatched_from_egg_effect_tt [AGOT: A [dragon|E] hatched from [egg.GetName]!]
+ agot_dragon_hatched_from_egg_effect_tt:0 "A [dragon|E] hatched from [egg.GetName]!"
+### TODO NOT-IN-ST: realm_dragons_faux_tt [AGOT: Realm [dragons_plural|E]:]
+ realm_dragons_faux_tt:0 "Realm [dragons_plural|E]:"
+### TODO NOT-IN-ST: GET_DRAGON [AGOT: Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ GET_DRAGON:0 "Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: GOT_DRAGON [AGOT: Became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ GOT_DRAGON:0 "Became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: I_GET_DRAGON [AGOT: You become [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ I_GET_DRAGON:1 "You become [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: THEY_GET_DRAGON [AGOT: [CHARACTER.GetShortUIName] becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ THEY_GET_DRAGON:0 "[CHARACTER.GetShortUIName] becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: I_GOT_DRAGON [AGOT: You became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ I_GOT_DRAGON:1 "You became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: THEY_GOT_DRAGON [AGOT: [CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
+ THEY_GOT_DRAGON:1 "[CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: dragon_black_key [AGOT: black]
+ dragon_black_key:0 "black"
+### TODO NOT-IN-ST: dragon_grey_key [AGOT: grey]
+ dragon_grey_key:0 "grey"
+### TODO NOT-IN-ST: dragon_red_key [AGOT: red]
+ dragon_red_key:0 "red"
+### TODO NOT-IN-ST: dragon_orange_key [AGOT: orange]
+ dragon_orange_key:0 "orange"
+### TODO NOT-IN-ST: dragon_yellow_key [AGOT: yellow]
+ dragon_yellow_key:0 "yellow"
+### TODO NOT-IN-ST: dragon_green_key [AGOT: green]
+ dragon_green_key:0 "green"
+### TODO NOT-IN-ST: dragon_teal_key [AGOT: teal]
+ dragon_teal_key:0 "teal"
+### TODO NOT-IN-ST: dragon_blue_key [AGOT: blue]
+ dragon_blue_key:0 "blue"
+### TODO NOT-IN-ST: dragon_purple_key [AGOT: purple]
+ dragon_purple_key:0 "purple"
+### TODO NOT-IN-ST: dragon_darker_key [AGOT: deep]
+ dragon_darker_key:0 "deep"
+### TODO NOT-IN-ST: dragon_darkest_key [AGOT: dark]
+ dragon_darkest_key:0 "dark"
+### TODO NOT-IN-ST: dragon_color_full [AGOT: [ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]]
+ dragon_color_full:0 "[ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]"
+### TODO NOT-IN-ST: dragon_black_key_F [AGOT: black]
+ dragon_black_key_F:0 "black"
+### TODO NOT-IN-ST: dragon_grey_key_F [AGOT: grey]
+ dragon_grey_key_F:0 "grey"
+### TODO NOT-IN-ST: dragon_red_key_F [AGOT: red]
+ dragon_red_key_F:0 "red"
+### TODO NOT-IN-ST: dragon_orange_key_F [AGOT: orange]
+ dragon_orange_key_F:0 "orange"
+### TODO NOT-IN-ST: dragon_yellow_key_F [AGOT: yellow]
+ dragon_yellow_key_F:0 "yellow"
+### TODO NOT-IN-ST: dragon_green_key_F [AGOT: green]
+ dragon_green_key_F:0 "green"
+### TODO NOT-IN-ST: dragon_teal_key_F [AGOT: teal]
+ dragon_teal_key_F:0 "teal"
+### TODO NOT-IN-ST: dragon_blue_key_F [AGOT: blue]
+ dragon_blue_key_F:0 "blue"
+### TODO NOT-IN-ST: dragon_purple_key_F [AGOT: purple]
+ dragon_purple_key_F:0 "purple"
+### TODO NOT-IN-ST: dragon_darker_key_F [AGOT: deep]
+ dragon_darker_key_F:0 "deep"
+### TODO NOT-IN-ST: dragon_darkest_key_F [AGOT: dark]
+ dragon_darkest_key_F:0 "dark"
+### TODO NOT-IN-ST: tame_unbonded_dragon_scheme_scheme_power_mult [AGOT: [GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]]
+ tame_unbonded_dragon_scheme_scheme_power_mult:1 "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
