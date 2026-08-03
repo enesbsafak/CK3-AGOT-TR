@@ -1,215 +1,215 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.t [AGOT: The Faceless Man]
- agot_faceless_interaction.0001.t:0 "The Faceless Man"
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc [AGOT: So concentrated was I on [ROOT.Char.Custom('IdleActivity')] that I did not notice this stranger enter my chamber. With a voice as soft and cutting as wind, [faceless_man.GetSheHe] introduces [faceless_man.GetHerselfHimself] as one of the Faceless Men of Braavos. My inquiry has been received;]
- agot_faceless_interaction.0001.desc:0 "So concentrated was I on [ROOT.Char.Custom('IdleActivity')] that I did not notice this stranger enter my chamber. With a voice as soft and cutting as wind, [faceless_man.GetSheHe] introduces [faceless_man.GetHerselfHimself] as one of the Faceless Men of Braavos. My inquiry has been received; "
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc_no [AGOT: yet there is no price that they will take.]
- agot_faceless_interaction.0001.desc_no:0 "yet there is no price that they will take."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc_extreme [AGOT: the price is outrageous.]
- agot_faceless_interaction.0001.desc_extreme:0 "the price is outrageous."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc_high [AGOT: the cost of their service is quite high.]
- agot_faceless_interaction.0001.desc_high:0 "the cost of their service is quite high."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc_low [AGOT: the cost matching the task at hand.]
- agot_faceless_interaction.0001.desc_low:0 "the cost matching the task at hand."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.desc_minimal [AGOT: the cost is a mere [gold_i] 300.]
- agot_faceless_interaction.0001.desc_minimal:0 "the cost is a mere [gold_i] 300."
+﻿l_english:
+
+ agot_faceless_interaction.0001.t:0 "Yüzsüz Adam"
+
+ agot_faceless_interaction.0001.desc:0 "O kadar [ROOT.Char.Custom('IdleActivity')] ile meşguldüm ki bu yabancının odama girişini fark etmedim. Rüzgâr kadar yumuşak ve keskin bir sesle [faceless_man.GetSheHe], [faceless_man.GetHerselfHimself]'i Braavos'un Yüzsüz Adamları'ndan biri olarak tanıtıyor. Sorgum alındı; "
+
+ agot_faceless_interaction.0001.desc_no:0 "yine de kabul edecekleri bir bedel yok."
+
+ agot_faceless_interaction.0001.desc_extreme:0 "bedel akıl almaz."
+
+ agot_faceless_interaction.0001.desc_high:0 "hizmetlerinin bedeli epey yüksek."
+
+ agot_faceless_interaction.0001.desc_low:0 "bedel, eldeki göreve uygun."
+
+ agot_faceless_interaction.0001.desc_minimal:0 "bedel, yalnızca [gold_i] 300."
 
  agot_faceless_interaction.0001.desc_blood:0 "\n\n"There is another option, however," [faceless_man.GetSheHe] whispers, the words rustling in the air like leaves. "A life for a life; your life will make us square.""
 
  agot_faceless_interaction.0001.desc_child:0 "\n\n"There is another option, however," [faceless_man.GetSheHe] sighs, like a calming breeze. "A life for a life; [child_price.GetFirstNamePossessive] blood may pay your debt.""
 
  agot_faceless_interaction.0001.desc_artifact:0 "\n\n"There is another option, however," [faceless_man.GetSheHe] hisses like a gust through reeds. "An artifact, of roughly equal value, would suit our needs handsomely.""
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.gold_price [AGOT: Here is your money.]
- agot_faceless_interaction.0001.gold_price:0 "Here is your money."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.child_price [AGOT: You... can have the child.]
- agot_faceless_interaction.0001.child_price:0 "You... can have the child."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.blood_price [AGOT: A life for a life is a fair deal.]
- agot_faceless_interaction.0001.blood_price:0 "A life for a life is a fair deal."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.artifact_price [AGOT: I will pay with the [artifact_price.GetName]]
- agot_faceless_interaction.0001.artifact_price:0 "I will pay with the [artifact_price.GetName]"
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.no [AGOT: How unfortunate.]
- agot_faceless_interaction.0001.no:0 "How unfortunate."
-### TODO NOT-IN-ST: agot_faceless_interaction.0001.cancel [AGOT: On second thought, I change my mind.]
- agot_faceless_interaction.0001.cancel:0 "On second thought, I change my mind."
-### TODO NOT-IN-ST: agot_faceless_blood_price.tt [AGOT: #warning The Faceless Men will expect full repayment.#!]
- agot_faceless_blood_price.tt:0 "#warning The Faceless Men will expect full repayment.#!"
+
+ agot_faceless_interaction.0001.gold_price:0 "İşte paran."
+
+ agot_faceless_interaction.0001.child_price:0 "Sen... çocuğu alabilirsin."
+
+ agot_faceless_interaction.0001.blood_price:0 "Can cana adil bir takastır."
+
+ agot_faceless_interaction.0001.artifact_price:0 "[artifact_price.GetName] ile ödeyeceğim"
+
+ agot_faceless_interaction.0001.no:0 "Ne talihsizlik."
+
+ agot_faceless_interaction.0001.cancel:0 "Biraz düşününce, fikrimi değiştiriyorum."
+
+ agot_faceless_blood_price.tt:0 "#warning Yüzsüz Adamlar tam geri ödeme bekleyecek.#!"
 
  agot_faceless_interaction.0002.t:0 "Valar Morghulis"
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_intro [AGOT: My peaceful afternoon is interrupted by a [faceless_man.GetWomanMan] I had mistaken for one of the servants. [faceless_man.GetHerHis|U] presence subtly fills the air with heaviness; as though a humid tempest had settled itself in my chambers.\n\nThough no formal introductions are made, [faceless_man.GetSheHe] feels familiar in an eerie way; I ask [faceless_man.GetHerHis] name, and [faceless_man.GetSheHe] says tersely:]
- agot_faceless_interaction.0002.desc_intro:0 "My peaceful afternoon is interrupted by a [faceless_man.GetWomanMan] I had mistaken for one of the servants. [faceless_man.GetHerHis|U] presence subtly fills the air with heaviness; as though a humid tempest had settled itself in my chambers.\n\nThough no formal introductions are made, [faceless_man.GetSheHe] feels familiar in an eerie way; I ask [faceless_man.GetHerHis] name, and [faceless_man.GetSheHe] says tersely: "A [faceless_man.GetWomanMan] has no name."\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_oyster [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, has digested a foul oyster, and [victim.GetSheHe] succumbed to a quick — if painful — bout of illness.]
- agot_faceless_interaction.0002.desc_oyster:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, has digested a foul oyster, and [victim.GetSheHe] succumbed to a quick — if painful — bout of illness."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_furniture [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, has fallen victim to chance; a pulley hoisting a heavy musical instrument snapped over [victim.GetHerHis] head, crushing the poor victim.]
- agot_faceless_interaction.0002.desc_furniture:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, has fallen victim to chance; a pulley hoisting a heavy musical instrument snapped over [victim.GetHerHis] head, crushing the poor victim."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_horse [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had a horse riding accident.]
- agot_faceless_interaction.0002.desc_horse:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had a horse riding accident. "[victim.GetHerHis|U] life is ... extinguished.""
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_slip [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, had a bit of misfortune attempting to grab something from atop a high shelf. [victim.GetSheHe|U] broke [victim.GetHerHis] neck after slipping.]
- agot_faceless_interaction.0002.desc_slip:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] shares, had a bit of misfortune attempting to grab something from atop a high shelf. [victim.GetSheHe|U] broke [victim.GetHerHis] neck after slipping."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_fall [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, had a grave fall from the wallwalk of [victim.GetHerHis] castle.]
- agot_faceless_interaction.0002.desc_fall:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] explains, had a grave fall from the wallwalk of [victim.GetHerHis] castle."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_dog [AGOT: [victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had [victim.GetHerHis] throat ripped out by a vicious dog while meandering the market.]
- agot_faceless_interaction.0002.desc_dog:0 "[victim.GetTitledFirstName], [faceless_man.GetSheHe] tells me, choosing each word with exacting care, had [victim.GetHerHis] throat ripped out by a vicious dog while meandering the market. "Such a pity...""
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_fallback [AGOT: Though [faceless_man.GetSheHe] confirms the death of [victim.GetTitledFirstName], [faceless_man.GetSheHe] stays silent on the method and manner of [victim.GetHerHis] demise.]
- agot_faceless_interaction.0002.desc_fallback:0 "Though [faceless_man.GetSheHe] confirms the death of [victim.GetTitledFirstName], [faceless_man.GetSheHe] stays silent on the method and manner of [victim.GetHerHis] demise."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.desc_blood_price [AGOT: \n\nBut the [faceless_man.GetWomanMan] is not done. With the briefest flicker of what seems a grin, [faceless_man.GetSheHe] reminds me: A life is owed...]
- agot_faceless_interaction.0002.desc_blood_price:0 "\n\nBut the [faceless_man.GetWomanMan] is not done. With the briefest flicker of what seems a grin, [faceless_man.GetSheHe] reminds me: A life is owed..."
-### TODO NOT-IN-ST: agot_faceless_interaction.0002.a [AGOT: $VALAR_DOHAERIS$]
+
+ agot_faceless_interaction.0002.desc_intro:0 "Huzurlu öğleden sonram, hizmetkârlardan biri sanarak yanıldığım bir [faceless_man.GetWomanMan] tarafından bölünüyor. [faceless_man.GetHerHis|U] varlığı, havayı incelikle ağırlıkla dolduruyor; sanki odalarıma nemli bir fırtına çökmüş gibi.\n\nResmî bir tanıştırma yapılmasa da, [faceless_man.GetSheHe] ürkütücü bir biçimde tanıdık hissettiriyor; [faceless_man.GetHerHis] adını soruyorum ve [faceless_man.GetSheHe] kısa kısa cevap veriyor: "Bir [faceless_man.GetWomanMan]'ın adı olmaz."\n\n"
+
+ agot_faceless_interaction.0002.desc_oyster:0 "[faceless_man.GetSheHe]'in açıkladığına göre, [victim.GetTitledFirstName] bozuk bir istiridye yemiş ve [victim.GetSheHe], hızlı — ama acılı — bir hastalık nöbetine yenik düşmüş."
+
+ agot_faceless_interaction.0002.desc_furniture:0 "[faceless_man.GetSheHe]'in paylaştığına göre, [victim.GetTitledFirstName] talihinin kurbanı olmuş; ağır bir müzik aletini kaldıran bir makara, [victim.GetHerHis] başının üzerinde kopmuş ve zavallı kurbanı ezmiş."
+
+ agot_faceless_interaction.0002.desc_horse:0 "Her sözcüğü titizlikle seçerek konuşan [faceless_man.GetSheHe], bana [victim.GetTitledFirstName]'in bir at binme kazası geçirdiğini söylüyor. "[victim.GetHerHis|U] hayatı... söndürüldü.""
+
+ agot_faceless_interaction.0002.desc_slip:0 "[faceless_man.GetSheHe]'in paylaştığına göre, [victim.GetTitledFirstName], yüksek bir rafın tepesinden bir şey almaya çalışırken küçük bir talihsizlik yaşamış. [victim.GetSheHe|U], kayıp düştükten sonra [victim.GetHerHis] boynunu kırmış."
+
+ agot_faceless_interaction.0002.desc_fall:0 "[faceless_man.GetSheHe]'in açıkladığına göre, [victim.GetTitledFirstName], [victim.GetHerHis] kalesinin sur yolundan ölümcül bir düşüş yaşadı."
+
+ agot_faceless_interaction.0002.desc_dog:0 "Her sözcüğü titizlikle seçerek konuşan [faceless_man.GetSheHe], bana [victim.GetTitledFirstName]'in, çarşıda gezinirken azılı bir köpek tarafından [victim.GetHerHis] boğazının parçalandığını söylüyor. "Ne acı...""
+
+ agot_faceless_interaction.0002.desc_fallback:0 "[faceless_man.GetSheHe], [victim.GetTitledFirstName]'in ölümünü doğrulasa da, [victim.GetHerHis] ölümünün yöntemi ve biçimi hakkında sessiz kalıyor."
+
+ agot_faceless_interaction.0002.desc_blood_price:0 "\n\nAma [faceless_man.GetWomanMan] henüz bitmedi. Bir sırıtış gibi görünen kısacık bir kıpırtıyla [faceless_man.GetSheHe] bana şunu hatırlatıyor: Bir hayat borçlu..."
+
  agot_faceless_interaction.0002.a:0 "$VALAR_DOHAERIS$"
-### TODO NOT-IN-ST: VALAR_DOHAERIS [AGOT: [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]]
+
  VALAR_DOHAERIS:0 "[Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]"
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.t [AGOT: Oysters, Clams, and Cockles!]
- agot_faceless_interaction.0004.t:0 "Oysters, Clams, and Cockles!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.desc [AGOT: The salty breeze! The cawing of gulls! The bustle of dockworkers! It's a fine day to take it all in.\n\nFor a trip like this, I keep my entourage small. No need to cause a scene as an interested [ROOT.Char.GetTitleAsNameNoTooltip] wandering about the docks, inspecting the wares of various tradesfolk. I'm eyeing a particularly marvelous trinket when I hear a most wonderful melody:]
- agot_faceless_interaction.0004.desc:0 "The salty breeze! The cawing of gulls! The bustle of dockworkers! It's a fine day to take it all in.\n\nFor a trip like this, I keep my entourage small. No need to cause a scene as an interested [ROOT.Char.GetTitleAsNameNoTooltip] wandering about the docks, inspecting the wares of various tradesfolk. I'm eyeing a particularly marvelous trinket when I hear a most wonderful melody: "Oysters, clams, and cockles," rings out like a song, and I can't help but to rush to the fishmonger's stand.\n\nI buy a dozen, tapping earnestly to ensure the worker provides me the best ones. And yet, as I am dining on my fifth, my head begins to swim."
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.desc_faceless [AGOT: Suddenly, I am losing control of my bowels, and I fall upon a brass merchant's stall on my way the ground. I retch, expelling vile fluid from my mouth and nose. A burning pain fills my throat, and my eyes bulge as though to escape from my own skull.\n\nA woman cries out, yet all I see is a dingy old cat with a stub tail padding its way toward the alley as my vision blurs to black.]
- agot_faceless_interaction.0004.desc_faceless:0 "Suddenly, I am losing control of my bowels, and I fall upon a brass merchant's stall on my way the ground. I retch, expelling vile fluid from my mouth and nose. A burning pain fills my throat, and my eyes bulge as though to escape from my own skull.\n\nA woman cries out, yet all I see is a dingy old cat with a stub tail padding its way toward the alley as my vision blurs to black."
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.desc_fakeout [AGOT: ]
- agot_faceless_interaction.0004.desc_fakeout:0 ""Breathe, my [ROOT.Char.GetTitleAsNameNoTooltip]," urges [colleague.GetFirstName], "you are eating these too fast, slow down."\n\nI take a deep breath, glancing around the dock to steady myself. A bedraggled grey cat slinks away into the alley, and the bloodrush seems to dissipate."
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.a [AGOT: I don't even like seafood!]
- agot_faceless_interaction.0004.a:0 "I don't even like seafood!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0004.a_fakeout [AGOT: I just... really like seafood...]
- agot_faceless_interaction.0004.a_fakeout:0 "I just... really like seafood..."
-### TODO NOT-IN-ST: agot_faceless_interaction.0005.t [AGOT: Furniture Fatale]
- agot_faceless_interaction.0005.t:0 "Furniture Fatale"
-### TODO NOT-IN-ST: agot_faceless_interaction.0005.desc [AGOT: It oft amuses me how like my townsfolk are to a colony of bees, bumbling about in their business, traveling to and fro with urgency that must seem so significant to their slight status. Even today, the streets are bustling with workers; brewers and bakers, beggars and butchers.\n\nEven the town itself seems alive; new buildings being built, furnishings in transit to their new homes. Just ahead of my entourage, I see a large harp being hoisted by pulley to the third story of a house — surely that of some wealthy merchant. The street itself is nearly blocked by the workers, but no one would dare stop a ruler from passing by.\n\n]
- agot_faceless_interaction.0005.desc:0 "It oft amuses me how like my townsfolk are to a colony of bees, bumbling about in their business, traveling to and fro with urgency that must seem so significant to their slight status. Even today, the streets are bustling with workers; brewers and bakers, beggars and butchers.\n\nEven the town itself seems alive; new buildings being built, furnishings in transit to their new homes. Just ahead of my entourage, I see a large harp being hoisted by pulley to the third story of a house — surely that of some wealthy merchant. The street itself is nearly blocked by the workers, but no one would dare stop a ruler from passing by.\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0005.desc_faceless [AGOT: I step briskly below the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. I look up just in time to see my fate: a falling household piece, come to deliver [ROOT.Char.GetFaith.DeathDeityNamePossessive] greeting.]
- agot_faceless_interaction.0005.desc_faceless:0 "I step briskly below the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. I look up just in time to see my fate: a falling household piece, come to deliver [ROOT.Char.GetFaith.DeathDeityNamePossessive] greeting."
-### TODO NOT-IN-ST: agot_faceless_interaction.0005.desc_fakeout [AGOT: I step briskly past the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. The falling household piece shatters against the ground, crushing a poor worker in its wake. I can only say to [ROOT.Char.GetFaith.DeathDeityName]: #italic not today#!.]
- agot_faceless_interaction.0005.desc_fakeout:0 "I step briskly past the taut ropes lifting the instrument when I hear a sudden snap, followed by shouts and a scream in quick succession. The falling household piece shatters against the ground, crushing a poor worker in its wake. I can only say to [ROOT.Char.GetFaith.DeathDeityName]: #italic not today#!."
+
+ agot_faceless_interaction.0004.t:0 "İstiridyeler, Deniz Tarağı ve Kabuklu!"
+
+ agot_faceless_interaction.0004.desc:0 "Tuzlu meltem! Martıların çığlıkları! Liman işçilerinin koşuşturması! Hepsini içine çekmek için güzel bir gün.\n\nBöyle bir gezi için maiyetimi küçük tutarım. Rıhtımlarda gezinen, çeşitli esnafın mallarını inceleyen meraklı bir [ROOT.Char.GetTitleAsNameNoTooltip] olarak sahne yaratmaya gerek yok. Özellikle muhteşem bir süs eşyasına göz dikmiştim ki en harika melodiyi duyuyorum: "İstiridyeler, deniz tarağı ve kabuklular," bir şarkı gibi yankılanıyor ve balıkçının tezgâhına koşmaktan kendimi alamıyorum.\n\nBir düzine satın alıyorum; işçinin bana en iyilerini vermesini sağlamak için tıklayıp duruyorum. Yine de, beşincisini yerken başım dönmeye başlıyor."
+
+ agot_faceless_interaction.0004.desc_faceless:0 "Ansızın bağırsaklarımın kontrolünü kaybediyorum ve yere düşerken bir pirinç tüccarının tezgâhına kapaklanıyorum. Kusuyorum; ağzımdan ve burnumdan iğrenç bir sıvı boşalıyor. Boğazımı yakıcı bir acı dolduruyor ve gözlerim, kendi kafatasımdan kaçacakmışçasına dışarı fırlıyor.\n\nBir kadın çığlık atıyor; ama benim gördüğüm tek şey, küt kuyruklu kirli bir kedi; görüşüm kararırken ara sokağa doğru süzülüp gidiyor."
+
+ agot_faceless_interaction.0004.desc_fakeout:0 ""Nefes al, Efen[ROOT.Char.GetTitleAsNameNoTooltip]'im," diye dürtüyor [colleague.GetFirstName], "bunları çok hızlı yiyorsun, yavaşla."\n\nDerin bir nefes alıyorum; kendimi toparlamak için rıhtımın çevresine göz atıyorum. Perişan bir gri kedi ara sokağa süzülüp gidiyor ve kanın coşkusu sönüyor."
+
+ agot_faceless_interaction.0004.a:0 "Deniz ürünlerini sevmem bile!"
+
+ agot_faceless_interaction.0004.a_fakeout:0 "Ben sadece... deniz ürünlerini gerçekten seviyorum..."
+
+ agot_faceless_interaction.0005.t:0 "Ölümcül Mobilya"
+
+ agot_faceless_interaction.0005.desc:0 "Şehir halkımın bir arı kolonisiyle ne kadar benzer olduğu beni sık sık eğlendirir; kendi işlerinde acemice debelenirler, önemsiz mevkilerine öyle önemli görünmesi gereken bir telaşla bir oraya bir buraya gidip gelirler. Bugün bile sokaklar işçilerle kaynıyor; biracılar ve fırıncılar, dilenciler ve kasaplar.\n\nŞehrin kendisi bile canlı görünüyor; yeni binalar inşa ediliyor, eşyalar yeni evlerine taşınıyor. Maiyetimin hemen önünde, bir evin üçüncü katına makarayla kaldırılan büyük bir arp görüyorum — elbette zengin bir tüccarınki olsa gerek. Sokak neredeyse işçiler tarafından tıkanmış durumda; ama kimse bir hükümdarın geçişini durdurmaya cüret edemez.\n\n"
+
+ agot_faceless_interaction.0005.desc_faceless:0 "Aleti kaldıran gergin halatların altından hızlı adımlarla geçiyorum; ansızın bir kopma sesi duyuyorum, ardından peş peşe bağırışlar ve bir çığlık. Tam zamanında yukarı bakıp kaderimi görüyorum: düşen bir ev eşyası, [ROOT.Char.GetFaith.DeathDeityNamePossessive] selamını iletmeye geliyor."
+
+ agot_faceless_interaction.0005.desc_fakeout:0 "Aleti kaldıran gergin halatların yanından hızlı adımlarla geçiyorum; ansızın bir kopma sesi duyuyorum, ardından peş peşe bağırışlar ve bir çığlık. Düşen ev eşyası yere çarpıp paramparça oluyor ve peşinden zavallı bir işçiyi eziyor. [ROOT.Char.GetFaith.DeathDeityName]'e yalnızca şunu diyebiliyorum: #italic bugün değil#!."
 
  agot_faceless_interaction.0005.a:0 "Ah!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0005.a_fakeout [AGOT: That was a close one.]
- agot_faceless_interaction.0005.a_fakeout:0 "That was a close one."
-### TODO NOT-IN-ST: agot_faceless_interaction.0006.t [AGOT: Foal Play]
- agot_faceless_interaction.0006.t:0 "Foal Play"
-### TODO NOT-IN-ST: agot_faceless_interaction.0006.desc [AGOT: An escape from my duties, however brief, has done wonders for my stress. Out here on horseback one can feel a sense of purpose and pride that is often lost in the humdrum of ruling. My small entourage and I have opted to take a short break from the saddle to let our horses rest.\n\n]
- agot_faceless_interaction.0006.desc:0 "An escape from my duties, however brief, has done wonders for my stress. Out here on horseback one can feel a sense of purpose and pride that is often lost in the humdrum of ruling. My small entourage and I have opted to take a short break from the saddle to let our horses rest.\n\n"Quite the remarkable destrier," a servant remarks, taking a horse by the lead. I'm quite familiar with most in my entourage, yet something indiscernible seems amiss. I take a second glance at the servant, while the warhorse sips some water.\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0006.desc_faceless [AGOT: My focus on the servant's face proves all-consuming... I take a step closer, ready to grab hold of this possible intruder, when the horse before me makes a sudden jerking motion, kicking its leg with full force toward my face. My suspicions evaporate as my head whips bloodily backward, pain replacing skepticism as my world goes black.]
- agot_faceless_interaction.0006.desc_faceless:0 "My focus on the servant's face proves all-consuming... I take a step closer, ready to grab hold of this possible intruder, when the horse before me makes a sudden jerking motion, kicking its leg with full force toward my face. My suspicions evaporate as my head whips bloodily backward, pain replacing skepticism as my world goes black."
-### TODO NOT-IN-ST: agot_faceless_interaction.0006.desc_fakeout [AGOT: Aha, it's [servant.GetFirstName], I realize on closer inspection! But as I take a step forward, the horse jolts to the side, and in an instant all suspicion is for naught. With a powerful kick, [servant.GetFirstNamePossessiveNoTooltip] face is reduced to a bright red pulp, and scream of shock and horror flood my senses.]
- agot_faceless_interaction.0006.desc_fakeout:0 "Aha, it's [servant.GetFirstName], I realize on closer inspection! But as I take a step forward, the horse jolts to the side, and in an instant all suspicion is for naught. With a powerful kick, [servant.GetFirstNamePossessiveNoTooltip] face is reduced to a bright red pulp, and scream of shock and horror flood my senses."
-### TODO NOT-IN-ST: agot_faceless_interaction.0006.a [AGOT: H...oof!]
- agot_faceless_interaction.0006.a:0 "H...oof!"
+
+ agot_faceless_interaction.0005.a_fakeout:0 "Bu kıl payıymış."
+
+ agot_faceless_interaction.0006.t:0 "Tay Oyunu"
+
+ agot_faceless_interaction.0006.desc:0 "Görevlerimden bir kaçış, ne kadar kısa olursa olsun, stresime iyi geldi. Burada, at sırtında; hükümdarlığın tekdüzeliğinde çoğu zaman kaybolan bir amaç ve gurur duygusu hissedebiliyorsun. Küçük maiyetim ve ben, atlarımızı dinlendirmek için eyerden kısa bir mola vermeyi seçtik.\n\n"Epey dikkat çekici bir savaş atı," diyor bir hizmetkâr, bir atı dizgininden tutarak. Maiyetimdekilerin çoğunu iyi tanıyorum; yine de seçemediğim bir şeyler ters görünüyor. Savaş atı bir yudum su içerken hizmetkâra ikinci kez bakıyorum.\n\n"
+
+ agot_faceless_interaction.0006.desc_faceless:0 "Hizmetkârın yüzüne odaklanmam her şeyi tüketiyor... Bir adım daha yaklaşıyorum; bu olası davetsiz misafiri yakalamaya hazırken, önümdeki at ansızın sarsılıyor ve bacağını tüm gücüyle yüzüme doğru savuruyor. Başım kanlı bir biçimde geriye savrulurken şüphelerim buharlaşıyor; şüpheciliğin yerini acı alıyor ve dünyam kararıyor."
+
+ agot_faceless_interaction.0006.desc_fakeout:0 "Aha, bu [servant.GetFirstName]! Yakından bakınca fark ediyorum! Ama öne bir adım attığımda, at yana sıçrıyor ve bir anda tüm şüpheler boşa çıkıyor. Güçlü bir tekme ile [servant.GetFirstNamePossessiveNoTooltip] yüzü parlak kırmızı bir ezik yığınına dönüşüyor ve şokla dehşetin çığlığı duyularımı dolduruyor."
+
+ agot_faceless_interaction.0006.a:0 "H...öf!"
 
  agot_faceless_interaction.0006.a_fakeout:0 "İnanılmaz!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.t [AGOT: Just Out of Reach]
- agot_faceless_interaction.0007.t:0 "Just Out of Reach"
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.desc [AGOT: Time alone is hard to come by for a ruler, which is why I relish even the briefest moment after my councilors' departure to myself. Today, after much tedious discussion, I find myself basking in solitude in the council chamber — allowing my mind to wander where it will.\n\nAs I sit, enraptured in idle thought, I notice a glint from atop a nearby bookshelf. I take a second glance, and this time I can see clearly there is something gilded atop the bookshelf; some rare treasure, tucked away from sight and out of mind.\n\nI pick up my chair and move it to the edge of the bookshelf, hopping up and reaching for the top... but alas, whatever it is remains just out of reach. If only I could stretch #italic slightly#! further...\n\n]
- agot_faceless_interaction.0007.desc:0 "Time alone is hard to come by for a ruler, which is why I relish even the briefest moment after my councilors' departure to myself. Today, after much tedious discussion, I find myself basking in solitude in the council chamber — allowing my mind to wander where it will.\n\nAs I sit, enraptured in idle thought, I notice a glint from atop a nearby bookshelf. I take a second glance, and this time I can see clearly there is something gilded atop the bookshelf; some rare treasure, tucked away from sight and out of mind.\n\nI pick up my chair and move it to the edge of the bookshelf, hopping up and reaching for the top... but alas, whatever it is remains just out of reach. If only I could stretch #italic slightly#! further...\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.desc_faceless [AGOT: As my fingertips graze the top of the bookshelf, I hear a shuffling behind me, but before I can react the chair is pulled from beneath me and the world is toppling... I hear a gruesome crack, a faint cry that sounds much like my own voice, then it all goes black.]
- agot_faceless_interaction.0007.desc_faceless:0 "As my fingertips graze the top of the bookshelf, I hear a shuffling behind me, but before I can react the chair is pulled from beneath me and the world is toppling... I hear a gruesome crack, a faint cry that sounds much like my own voice, then it all goes black."
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.desc_fakeout [AGOT: The chair wobbles slightly beneath me, but I steady myself against the shelves. I look around, struck by a sudden discomfort, as though someone is watching me... I hop down, resigning myself to a missed opportunity.]
- agot_faceless_interaction.0007.desc_fakeout:0 "The chair wobbles slightly beneath me, but I steady myself against the shelves. I look around, struck by a sudden discomfort, as though someone is watching me... I hop down, resigning myself to a missed opportunity."
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.a [AGOT: Is this truly my end?]
- agot_faceless_interaction.0007.a:0 "Is this truly my end?"
-### TODO NOT-IN-ST: agot_faceless_interaction.0007.a_fakeout [AGOT: No treasure is worth a broken neck!]
- agot_faceless_interaction.0007.a_fakeout:0 "No treasure is worth a broken neck!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.t [AGOT: All Along the Wallwalk]
- agot_faceless_interaction.0008.t:0 "All Along the Wallwalk"
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.desc [AGOT: A walk at dusk is a rare pleasure, especially at the end of a tense day, and the castle's wallwalk provides an enviable seclusion from the apple polishers and lickspittles of my court. I take every caution to ensure that I am alone with my thoughts for these walks, leaving behind even my personal guards while I take in the view from up high.\n\nFrom atop the wallwalk, my duties shrink away — and I feel just a bit lighter. As I lean myself between two merlons, I can feel the wind rushing up the castle wall to meet me... It feels almost like flying.\n\n]
- agot_faceless_interaction.0008.desc:0 "A walk at dusk is a rare pleasure, especially at the end of a tense day, and the castle's wallwalk provides an enviable seclusion from the apple polishers and lickspittles of my court. I take every caution to ensure that I am alone with my thoughts for these walks, leaving behind even my personal guards while I take in the view from up high.\n\nFrom atop the wallwalk, my duties shrink away — and I feel just a bit lighter. As I lean myself between two merlons, I can feel the wind rushing up the castle wall to meet me... It feels almost like flying.\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.desc_faceless [AGOT: For a moment, I'm lost in the feeling; the rush of air against my face, flooding my senses. I can almost swear I hear movement behind me, when suddenly my body feels weightless. I no longer feel almost like flying... I #bold am#! flying — or rather falling toward the rough-hewn courtyard below. I gasp, but the air gives me no respite from my demise.]
- agot_faceless_interaction.0008.desc_faceless:0 "For a moment, I'm lost in the feeling; the rush of air against my face, flooding my senses. I can almost swear I hear movement behind me, when suddenly my body feels weightless. I no longer feel almost like flying... I #bold am#! flying — or rather falling toward the rough-hewn courtyard below. I gasp, but the air gives me no respite from my demise."
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.desc_fakeout [AGOT: Though I'm momentarily lost in the feeling, my eyes begin to tear up at the rush of air, and I pull myself back. As I take a step back, an eerie feeling floods my senses... As though someone was watching me.]
- agot_faceless_interaction.0008.desc_fakeout:0 "Though I'm momentarily lost in the feeling, my eyes begin to tear up at the rush of air, and I pull myself back. As I take a step back, an eerie feeling floods my senses... As though someone was watching me."
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.a [AGOT: And I'm free, free falling.]
- agot_faceless_interaction.0008.a:0 "And I'm free, free falling."
-### TODO NOT-IN-ST: agot_faceless_interaction.0008.a_fakeout [AGOT: Perhaps I should take my walks at ground level.]
- agot_faceless_interaction.0008.a_fakeout:0 "Perhaps I should take my walks at ground level."
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.t [AGOT: The Pauper's Pup]
- agot_faceless_interaction.0009.t:0 "The Pauper's Pup"
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.desc [AGOT: A visit to the market is always a sure way to lift my spirits — the hustle of porters, the bustle of merchants; all of the commotion thrills me! To think, such livelihood is owed to my own good stewardship.\n\nBut among the tradesfolk are those less fortunate souls; those wretches who survive merely off scraps and the small kindnesses of others. This afternoon, I come across one such soul, who would otherwise be easy to ignore, if not for his large #bold mastiff#!.\n\nSuch a rare breed — and, judging by its looks, well-fed! In fact, though its owner is all skin and bones, the dog looks to be all muscle. I approach the pauper, figuring I may offer a bit of coin and take his pup to a better life in my kennels.\n\n]
- agot_faceless_interaction.0009.desc:0 "A visit to the market is always a sure way to lift my spirits — the hustle of porters, the bustle of merchants; all of the commotion thrills me! To think, such livelihood is owed to my own good stewardship.\n\nBut among the tradesfolk are those less fortunate souls; those wretches who survive merely off scraps and the small kindnesses of others. This afternoon, I come across one such soul, who would otherwise be easy to ignore, if not for his large #bold mastiff#!.\n\nSuch a rare breed — and, judging by its looks, well-fed! In fact, though its owner is all skin and bones, the dog looks to be all muscle. I approach the pauper, figuring I may offer a bit of coin and take his pup to a better life in my kennels.\n\n"
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.desc_faceless [AGOT: I lean close to the dog, its eyes welcoming me, lulling me to lower my defenses. #italic Such a good boy,#! I think, when suddenly... The beggar looks at me with a wide grin, and the fierce beast of a dog lunges toward my neck. With a single bite, my throat is ripped clean from my neck.]
- agot_faceless_interaction.0009.desc_faceless:0 "I lean close to the dog, its eyes welcoming me, lulling me to lower my defenses. #italic Such a good boy,#! I think, when suddenly... The beggar looks at me with a wide grin, and the fierce beast of a dog lunges toward my neck. With a single bite, my throat is ripped clean from my neck."
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.desc_fakeout [AGOT: I lean close to the dog, cautiously allowing him to sniff my hand. The beggar looks at me in despair, knowing I could take his companion whether he acquiesces or not.]
- agot_faceless_interaction.0009.desc_fakeout:0 "I lean close to the dog, cautiously allowing him to sniff my hand. The beggar looks at me in despair, knowing I could take his companion whether he acquiesces or not."
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.a [AGOT: #X *gurgle*#!]
- agot_faceless_interaction.0009.a:0 "#X *gurgle*#!"
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.a_fakeout [AGOT: How could I take his only joy in life?]
- agot_faceless_interaction.0009.a_fakeout:0 "How could I take his only joy in life?"
-### TODO NOT-IN-ST: agot_faceless_interaction.0009.b [AGOT: This should be enough...]
- agot_faceless_interaction.0009.b:0 "This should be enough..."
-### TODO NOT-IN-ST: agot_faceless_decision.0001.t [AGOT: Choosing a New Face]
- agot_faceless_decision.0001.t:0 "Choosing a New Face"
-### TODO NOT-IN-ST: agot_faceless_decision.0001.desc [AGOT: It is time to choose a new face, to take on a new life. Whomever it is I choose to wear will undoubtedly serve the Many-Faced God well.]
- agot_faceless_decision.0001.desc:0 "It is time to choose a new face, to take on a new life. Whomever it is I choose to wear will undoubtedly serve the Many-Faced God well."
-### TODO NOT-IN-ST: agot_faceless_decision.0001.desc_face [AGOT: It is time to choose a new face. Whomever it is I choose to wear will undoubtedly serve the Many-Faced God well.]
- agot_faceless_decision.0001.desc_face:0 "It is time to choose a new face. Whomever it is I choose to wear will undoubtedly serve the Many-Faced God well."
-### TODO NOT-IN-ST: agot_faceless_decision.0001.victims [AGOT: I'll find a new face in my past.]
- agot_faceless_decision.0001.victims:0 "I'll find a new face in my past."
-### TODO NOT-IN-ST: agot_faceless_decision.0001.hall [AGOT: The Hall of Faces has what I need.]
- agot_faceless_decision.0001.hall:0 "The Hall of Faces has what I need."
-### TODO NOT-IN-ST: agot_faceless_decision.0001.cancel [AGOT: Perhaps another time...]
- agot_faceless_decision.0001.cancel:0 "Perhaps another time..."
+
+ agot_faceless_interaction.0007.t:0 "Tam Ulaşamadığı Yerde"
+
+ agot_faceless_interaction.0007.desc:0 "Bir hükümdar için yalnız geçirilen zaman bulunmaz bir nimettir; bu yüzden, danışmanlarımın ayrılmasının ardından geçen en kısa anın bile keyfini çıkarırım. Bugün, uzun ve sıkıcı bir tartışmanın ardından kendimi danışma odasında yalnızlığın tadını çıkarırken buluyorum — zihnimi istediği yere dalıp gitmeye bırakarak.\n\nÖylece oturup boş hayallere dalmışken, yakındaki bir kitaplığın tepesinden bir parıltı fark ediyorum. İkinci kez bakıyorum ve bu kez kitaplığın tepesinde yaldızlı bir şey olduğunu net biçimde görebiliyorum; gözlerden ve akıllardan uzakta saklanmış nadir bir hazine.\n\nSandalyemi alıp kitaplığın kenarına taşıyorum; üzerine çıkıp tepeye uzanıyorum... ama ne yazık ki, ne ise o, ulaşamayacağım bir yerde kalıyor. Keşke #italic birazcık#! daha uzanabilseydim...\n\n"
+
+ agot_faceless_interaction.0007.desc_faceless:0 "Parmak uçlarım kitaplığın tepesini sıyırırken arkamda bir hışırtı duyuyorum, ama daha tepki veremeden altımdaki sandalye çekiliyor ve dünya tepetaklak oluyor... Dehşet verici bir çatırtı, kendi sesime çok benzeyen cılız bir çığlık duyuyorum, sonra her şey kararıyor."
+
+ agot_faceless_interaction.0007.desc_fakeout:0 "Altımdaki sandalye hafifçe sallanıyor; ama raflara tutunarak kendimi dengelemeyi başarıyorum. Etrafıma bakınıyorum; birinin beni izliyormuş gibi ani bir huzursuzluk çarpıyor bana... Kaçırılmış bir fırsata razı olarak aşağı atlıyorum."
+
+ agot_faceless_interaction.0007.a:0 "Bu gerçekten benim sonum mu?"
+
+ agot_faceless_interaction.0007.a_fakeout:0 "Hiçbir hazine kırık bir boyuna değmez!"
+
+ agot_faceless_interaction.0008.t:0 "Sur Yolu Boyunca"
+
+ agot_faceless_interaction.0008.desc:0 "Alacakaranlıkta yürüyüş ender bir zevktir; hele de gergin bir günün sonunda. Kaledeki sur yolu da, sarayımdaki yağdanlıklardan ve dalkavuklardan kıskanılacak bir uzaklaşma sunar. Bu yürüyüşlerde düşüncelerimle baş başa kalmak için her türlü önlemi alırım; yukarıdan manzarayı izlerken kişisel muhafızlarımı bile geride bırakırım.\n\nSur yolunun tepesinde görevlerim küçülüp uzaklaşır — ve kendimi birazcık daha hafif hissederim. İki mazgal arasına yaslandığımda, kale duvarından yükselen rüzgârın beni karşılamak için geldiğini hissedebiliyorum... Neredeyse uçmak gibi hissettiriyor.\n\n"
+
+ agot_faceless_interaction.0008.desc_faceless:0 "Bir an için duyguya kapılıyorum; yüzüme çarpan hava akımı, duyularımı dolduruyor. Neredeyse arkamda bir hareket duyduğuma yemin edebilirim; derken bedenim ansızın ağırlıksızlaşıyor. Artık neredeyse uçuyormuş gibi hissetmiyorum... Gerçekten #bold uçuyorum#! — daha doğrusu, aşağıdaki kaba yontulmuş avluya doğru düşüyorum. Nefesimi içime çekiyorum ama hava, ölümüme karşı bana hiçbir mühlet vermiyor."
+
+ agot_faceless_interaction.0008.desc_fakeout:0 "Bir an için duyguya kapılsam da, hava akımı karşısında gözlerim yaşarmaya başlıyor ve kendimi geri çekiyorum. Bir adım geri attığımda, duyularımı ürkütücü bir his dolduruyor... Sanki biri beni izliyormuş gibi."
+
+ agot_faceless_interaction.0008.a:0 "Ve ben özgürüm; serbest düşüşteyim."
+
+ agot_faceless_interaction.0008.a_fakeout:0 "Belki yürüyüşlerimi yer seviyesinde yapmalıyım."
+
+ agot_faceless_interaction.0009.t:0 "Yoksulun Köpeği"
+
+ agot_faceless_interaction.0009.desc:0 "Çarşıya bir ziyaret, moralimi düzeltmenin her zaman kesin bir yoludur — hamalların telaşı, tüccarların koşuşturması; tüm bu curcuna beni heyecanlandırıyor! Düşününce, böylesi bir geçim düzeni benim iyi idareciliğimin sayesindedir.\n\nAma esnafın arasında daha az şanslı ruhlar da var; yalnızca kırıntılarla ve başkalarının küçük iyilikleriyle hayatta kalan zavallılar. Bu öğleden sonra, tam da böyle bir ruha rastlıyorum; kocaman #bold mastifi#! olmasa, görmezden gelmek kolay olurdu zaten.\n\nÖyle nadir bir tür ki — ve görünüşüne bakılırsa, iyi beslenmiş! Aslında sahibi bir deri bir kemikken, köpek tamamen kastan ibaret görünüyor. Yoksula yaklaşıyorum; bir parça bozukluk teklif edip onun yavrusunu köpek kulübelerimde daha iyi bir yaşama götürmeyi düşünüyorum.\n\n"
+
+ agot_faceless_interaction.0009.desc_faceless:0 "Köpeğe yaklaşıyorum; gözleri beni karşılıyor, savunmamı düşürmem için beni uyutuyor. #italic Ne iyi bir çocuk,#! diye düşünüyorum; derken birden... Dilenci bana kocaman bir sırıtışla bakıyor ve azgın köpek, boynuma doğru hamle yapıyor. Tek bir ısırıkla boğazım boynumdan koparılıyor."
+
+ agot_faceless_interaction.0009.desc_fakeout:0 "Köpeğe yaklaşıyorum; ihtiyatla elimi koklamasına izin veriyorum. Dilenci, razı olsun ya da olmasın arkadaşını alabileceğimi bilerek bana umutsuzca bakıyor."
+
+ agot_faceless_interaction.0009.a:0 "#X *gurulda*#!"
+
+ agot_faceless_interaction.0009.a_fakeout:0 "Hayatındaki tek neşesini nasıl alabilirim?"
+
+ agot_faceless_interaction.0009.b:0 "Bu yeterli olmalı..."
+
+ agot_faceless_decision.0001.t:0 "Yeni Bir Yüz Seçmek"
+
+ agot_faceless_decision.0001.desc:0 "Yeni bir yüz seçip yeni bir hayata başlama zamanı. Kimin yüzünü takmayı seçersem seçeyim, kuşkusuz Çok Yüzlü Tanrı'ya iyi hizmet edecektir."
+
+ agot_faceless_decision.0001.desc_face:0 "Yeni bir yüz seçme zamanı. Kimin yüzünü takmayı seçersem seçeyim, kuşkusuz Çok Yüzlü Tanrı'ya iyi hizmet edecektir."
+
+ agot_faceless_decision.0001.victims:0 "Geçmişimde yeni bir yüz bulacağım."
+
+ agot_faceless_decision.0001.hall:0 "Yüzler Salonu'nda ihtiyacım olan var."
+
+ agot_faceless_decision.0001.cancel:0 "Belki başka bir zaman..."
 
  agot_faceless_decision.0001.cancel.tt:0 "Karar iptal edilecek."
-### TODO NOT-IN-ST: agot_faceless_decision.0002.t [AGOT: Familiar Faces]
- agot_faceless_decision.0002.t:0 "Familiar Faces"
-### TODO NOT-IN-ST: agot_faceless_decision.0002.desc [AGOT: As I consider the many lives I have ended in service to the Many-Faced God, I wonder if any might be a worthy visage for further devotion.]
- agot_faceless_decision.0002.desc:0 "As I consider the many lives I have ended in service to the Many-Faced God, I wonder if any might be a worthy visage for further devotion."
-### TODO NOT-IN-ST: agot_faceless_decision.0002.desc_face [AGOT: As I consider the many lives I have ended in service to the Many-Faced God, I wonder if any might be worthy of a new life of devotion.]
- agot_faceless_decision.0002.desc_face:0 "As I consider the many lives I have ended in service to the Many-Faced God, I wonder if any might be worthy of a new life of devotion."
-### TODO NOT-IN-ST: agot_faceless_decision.0002.select [AGOT: This one.]
- agot_faceless_decision.0002.select:0 "This one."
-### TODO NOT-IN-ST: agot_faceless_decision.0002.select.tt [AGOT: You will be prompted to confirm selection of [THIS.Var('si_selected_character').Char.GetName].]
- agot_faceless_decision.0002.select.tt:0 "You will be prompted to confirm selection of [THIS.Var('si_selected_character').Char.GetName]."
+
+ agot_faceless_decision.0002.t:0 "Tanıdık Yüzler"
+
+ agot_faceless_decision.0002.desc:0 "Çok Yüzlü Tanrı'nın hizmetinde sona erdirdiğim nice hayatı düşünürken, daha fazla adanmışlık için bunlardan birinin layık bir yüz olup olmayacağını merak ediyorum."
+
+ agot_faceless_decision.0002.desc_face:0 "Çok Yüzlü Tanrı'nın hizmetinde sona erdirdiğim nice hayatı düşünürken, bunlardan birinin yeni bir adanmışlık yaşamına layık olup olmayacağını merak ediyorum."
+
+ agot_faceless_decision.0002.select:0 "Bu."
+
+ agot_faceless_decision.0002.select.tt:0 "[THIS.Var('si_selected_character').Char.GetName] seçimini onaylaman istenecek."
 
  agot_faceless_decision.0002.back:0 "Belki başka bir yüz..."
-### TODO NOT-IN-ST: agot_faceless_decision.0002.cancel [AGOT: On second thought.]
- agot_faceless_decision.0002.cancel:0 "On second thought."
+
+ agot_faceless_decision.0002.cancel:0 "Biraz düşününce."
 
  agot_faceless_decision.0002.cancel.tt:0 "Karar iptal edilecek."
-### TODO NOT-IN-ST: agot_faceless_decision.0003.t [AGOT: The Hall of Faces]
- agot_faceless_decision.0003.t:0 "The Hall of Faces"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.desc [AGOT: Rows of faces stare back at me like morbid paintings. Each face was once a life; now in death, each serves the Many-Faced God.]
- agot_faceless_decision.0003.desc:0 "Rows of faces stare back at me like morbid paintings. Each face was once a life; now in death, each serves the Many-Faced God."
-### TODO NOT-IN-ST: agot_faceless_decision.0003.face_1 [AGOT: [face_1.GetName]]
+
+ agot_faceless_decision.0003.t:0 "Yüzler Salonu"
+
+ agot_faceless_decision.0003.desc:0 "Korkunç tablolar gibi yüz sıraları bana bakıyor. Her yüz bir zamanlar bir hayattı; şimdi ölümde, her biri Çok Yüzlü Tanrı'ya hizmet ediyor."
+
  agot_faceless_decision.0003.face_1:0 "[face_1.GetName]"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.face_2 [AGOT: [face_2.GetName]]
+
  agot_faceless_decision.0003.face_2:0 "[face_2.GetName]"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.face_3 [AGOT: [face_3.GetName]]
+
  agot_faceless_decision.0003.face_3:0 "[face_3.GetName]"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.face_4 [AGOT: [face_4.GetName]]
+
  agot_faceless_decision.0003.face_4:0 "[face_4.GetName]"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.face_5 [AGOT: [face_5.GetName]]
+
  agot_faceless_decision.0003.face_5:0 "[face_5.GetName]"
-### TODO NOT-IN-ST: agot_faceless_decision.0003.random [AGOT: Any face will do.]
- agot_faceless_decision.0003.random:0 "Any face will do."
-### TODO NOT-IN-ST: agot_faceless_decision.0003.random.tt [AGOT: A random character will be generated.]
- agot_faceless_decision.0003.random.tt:0 "A random character will be generated."
+
+ agot_faceless_decision.0003.random:0 "Herhangi bir yüz olur."
+
+ agot_faceless_decision.0003.random.tt:0 "Rastgele bir karakter oluşturulacak."
 
  agot_faceless_decision.0003.back:0 "Belki başka bir yüz..."
-### TODO NOT-IN-ST: agot_faceless_decision.0003.cancel [AGOT: Enough of this.]
- agot_faceless_decision.0003.cancel:0 "Enough of this."
+
+ agot_faceless_decision.0003.cancel:0 "Bu kadarı yeter."
 
  agot_faceless_decision.0003.cancel.tt:0 "Karar iptal edilecek."
-### TODO NOT-IN-ST: agot_faceless_decision.0004.t [AGOT: The Hall of Faces: [selected_face.GetNameNoTooltip]]
- agot_faceless_decision.0004.t:0 "The Hall of Faces: [selected_face.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_faceless_decision.0004.desc [AGOT: As I hold the face in my hand, I wonder over the life lived — and the life yet to be lived.]
- agot_faceless_decision.0004.desc:0 "As I hold the face in my hand, I wonder over the life lived — and the life yet to be lived."
-### TODO NOT-IN-ST: agot_faceless_decision.0004.confirm [AGOT: $VALAR_DOHAERIS$]
+
+ agot_faceless_decision.0004.t:0 "Yüzler Salonu: [selected_face.GetNameNoTooltip]"
+
+ agot_faceless_decision.0004.desc:0 "Yüzü elimde tutarken, yaşanmış hayatı — ve henüz yaşanacak hayatı — düşünüyorum."
+
  agot_faceless_decision.0004.confirm:0 "$VALAR_DOHAERIS$"
-### TODO NOT-IN-ST: agot_faceless_decision.0004.take_new_face.tt [AGOT: You will take on a new appearance, yet remain yourself.]
- agot_faceless_decision.0004.take_new_face.tt:0 "You will take on a new appearance, yet remain yourself."
-### TODO NOT-IN-ST: agot_faceless_decision.0004.take_new_character.tt [AGOT: You will take on a new identity and start a life as an adventurer.]
- agot_faceless_decision.0004.take_new_character.tt:0 "You will take on a new identity and start a life as an adventurer."
+
+ agot_faceless_decision.0004.take_new_face.tt:0 "Yeni bir görünüme bürüneceksin, ama yine kendin kalacaksın."
+
+ agot_faceless_decision.0004.take_new_character.tt:0 "Yeni bir kimliğe bürünüp bir maceracı olarak hayata başlayacaksın."
 
  agot_faceless_decision.0004.back:0 "Belki başka bir yüz..."
-### TODO NOT-IN-ST: agot_faceless_decision.0004.cancel [AGOT: All told, my own life is not done yet.]
- agot_faceless_decision.0004.cancel:0 "All told, my own life is not done yet."
+
+ agot_faceless_decision.0004.cancel:0 "Her şeye rağmen, benim hayatım henüz bitmedi."
 
  agot_faceless_decision.0004.cancel.tt:0 "Karar iptal edilecek."
-### TODO NOT-IN-ST: agot_faceless_decision.0005.t [AGOT: $agot_faceless_interaction.0002.t$]
+
  agot_faceless_decision.0005.t:0 "$agot_faceless_interaction.0002.t$"
-### TODO NOT-IN-ST: agot_faceless_decision.0005.desc [AGOT: As a servant to the Many-Faced God, it is sometimes hard to remember that death comes for us #S all#!. A fellow worshipper has come to remind me of this fact.]
- agot_faceless_decision.0005.desc:0 "As a servant to the Many-Faced God, it is sometimes hard to remember that death comes for us #S all#!. A fellow worshipper has come to remind me of this fact."
-### TODO NOT-IN-ST: agot_faceless_decision.0005.a [AGOT: $VALAR_DOHAERIS$]
+
+ agot_faceless_decision.0005.desc:0 "Çok Yüzlü Tanrı'nın hizmetkârı olarak, ölümün hepimize #S geldiğini#! hatırlamak bazen zordur. Bir ibadet arkadaşı, bana bu gerçeği hatırlatmaya geldi."
+
  agot_faceless_decision.0005.a:0 "$VALAR_DOHAERIS$"
-### TODO NOT-IN-ST: agot_faceless_decision.0005.b [AGOT: Not today!]
- agot_faceless_decision.0005.b:0 "Not today!"
-### TODO NOT-IN-ST: faceless_will_become_landless_run.tt [AGOT: You will give up all current titles and become a landless adventurer.]
- faceless_will_become_landless_run.tt:0 "You will give up all current titles and become a landless adventurer."
-### TODO NOT-IN-ST: faceless_lose_hall_access.tt [AGOT: You will no longer have access to the Hall of Faces.]
- faceless_lose_hall_access.tt:0 "You will no longer have access to the Hall of Faces."
+
+ agot_faceless_decision.0005.b:0 "Bugün değil!"
+
+ faceless_will_become_landless_run.tt:0 "Mevcut tüm unvanlarından vazgeçip topraksız bir maceracı olacaksın."
+
+ faceless_lose_hall_access.tt:0 "Artık Yüzler Salonu'na erişimin olmayacak."

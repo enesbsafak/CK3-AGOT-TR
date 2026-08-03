@@ -1,349 +1,349 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_intrigue [AGOT: $TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$]
+﻿l_english:
+
  TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_intrigue:0 "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_martial [AGOT: [PROVINCE.Custom('CastleName')]]
+
  TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_martial:0 "[PROVINCE.Custom('CastleName')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_intrigue [AGOT: [PROVINCE.Custom('CastleName')]]
+
  TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_intrigue:0 "[PROVINCE.Custom('CastleName')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_learning [AGOT: [PROVINCE.Custom('CastleName')]]
+
  TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_learning:0 "[PROVINCE.Custom('CastleName')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_stewardship [AGOT: [PROVINCE.Custom('CastleName')]]
+
  TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_stewardship:0 "[PROVINCE.Custom('CastleName')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_diplo [AGOT: [PROVINCE.Custom('CastleName')]]
+
  TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_diplo:0 "[PROVINCE.Custom('CastleName')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle [AGOT: Site of the [PROVINCE.Custom('HistoricalBattle')]]
- TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle:0 "Site of the [PROVINCE.Custom('HistoricalBattle')]"
-### TODO NOT-IN-ST: agot_poi_historical_battle.visit [AGOT: Visited the location of the [province.Custom('HistoricalBattle')]]
- agot_poi_historical_battle.visit:0 "Visited the location of the [province.Custom('HistoricalBattle')]"
-### TODO NOT-IN-ST: agot_poi_historical_battle.visit.tt [AGOT: [province.Custom('HistoricalBattleDesc')]]
+
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle:0 "[PROVINCE.Custom('HistoricalBattle')] Savaş Alanı"
+
+ agot_poi_historical_battle.visit:0 "[province.Custom('HistoricalBattle')] savaşının yaşandığı yeri ziyaret etti"
+
  agot_poi_historical_battle.visit.tt:0 "[province.Custom('HistoricalBattleDesc')]"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_myr_scholastic_guilds [AGOT: Scholastic Guilds]
- TRAVEL_POINT_OF_INTEREST_TT_poi_myr_scholastic_guilds:0 "Scholastic Guilds"
-### TODO NOT-IN-ST: poi_myr_scholastic_guilds_event_tt [AGOT: Will trigger a Sight-Seeing Event]
- poi_myr_scholastic_guilds_event_tt:0 "Will trigger a Sight-Seeing Event"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target [AGOT: Interesting Area]
- TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target:0 "Interesting Area"
-### TODO NOT-IN-ST: poi_exploration_event_tt [AGOT: Will trigger an Exploration Event]
- poi_exploration_event_tt:0 "Will trigger an Exploration Event"
-### TODO NOT-IN-ST: historical_battle_rape_of_the_sisters [AGOT: Rape of the Sisters]
- historical_battle_rape_of_the_sisters:0 "Rape of the Sisters"
-### TODO NOT-IN-ST: historical_battle_rape_of_the_sisters_desc [AGOT: The Rape of the Three Sisters, the devastating occupation of the islands by the Northmen, was a period in the War across the Water between the kings of Houses Stark and Arryn that led to the integration of the Sisters into the Vale.]
- historical_battle_rape_of_the_sisters_desc:0 "The Rape of the Three Sisters, the devastating occupation of the islands by the Northmen, was a period in the War across the Water between the kings of Houses Stark and Arryn that led to the integration of the Sisters into the Vale."
-### TODO NOT-IN-ST: historical_battle_end_of_the_mudds [AGOT: End of the Mudds]
- historical_battle_end_of_the_mudds:0 "End of the Mudds"
-### TODO NOT-IN-ST: historical_battle_end_of_the_mudds_desc [AGOT: The second great kingdom of First Men to fall to the Andals was that of Rivers and Hills. The kings of House Mudd fought valiantly and heroically, but even the famed Hammer of Justice, Tristifer IV Mudd, would fall in his hundredth battle, with the house not long surviving him.]
- historical_battle_end_of_the_mudds_desc:0 "The second great kingdom of First Men to fall to the Andals was that of Rivers and Hills. The kings of House Mudd fought valiantly and heroically, but even the famed Hammer of Justice, Tristifer IV Mudd, would fall in his hundredth battle, with the house not long surviving him."
+
+ TRAVEL_POINT_OF_INTEREST_TT_poi_myr_scholastic_guilds:0 "Bilgin Loncaları"
+
+ poi_myr_scholastic_guilds_event_tt:0 "Bir Gezi Etkinliği tetikleyecek"
+
+ TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target:0 "İlginç Bölge"
+
+ poi_exploration_event_tt:0 "Bir Keşif Etkinliği tetikleyecek"
+
+ historical_battle_rape_of_the_sisters:0 "Kız Kardeşlerin Tecavüzü"
+
+ historical_battle_rape_of_the_sisters_desc:0 "Üç Kız Kardeş'e Tecavüz, Kuzeylilerin adaları yıkıcı işgali, Stark ve Arryn Hanedanlarının kralları arasındaki Su Üstü Savaşı'nda, Kız Kardeşler'in Vadi'ye dahil edilmesine yol açan bir dönemdi."
+
+ historical_battle_end_of_the_mudds:0 "Mudd'ların Sonu"
+
+ historical_battle_end_of_the_mudds_desc:0 "Andallara düşen İlk İnsanların ikinci büyük krallığı, Nehirler ve Tepeler Krallığı'ydı. Mudd Hanedanı'nın kralları yiğitçe ve kahramanca savaştı; ama ünlü Adalet Çekici Tristifer IV Mudd bile yüzüncü savaşında düştü ve hanedan da ondan uzun yaşamadı."
 
  historical_battle_battle_of_seven_stars:0 "Yedi Yıldız Savaşı"
-### TODO NOT-IN-ST: historical_battle_battle_of_seven_stars_desc [AGOT: The great victory of the Andals over that of the First Men, the Battle of Seven Stars secured the Vale for House Arryn and established the Kingdom of Mountain and Vale.]
- historical_battle_battle_of_seven_stars_desc:0 "The great victory of the Andals over that of the First Men, the Battle of Seven Stars secured the Vale for House Arryn and established the Kingdom of Mountain and Vale."
-### TODO NOT-IN-ST: historical_battle_feast_of_skane [AGOT: Feast of Skane]
- historical_battle_feast_of_skane:0 "Feast of Skane"
-### TODO NOT-IN-ST: historical_battle_feast_of_skane_desc [AGOT: The Feast of Skane, the infamous sacking of Skane by the Skagosi, is remembered for the cannibalization of the entire island population by the Skagosi, leaving the island uninhabited to this day.]
- historical_battle_feast_of_skane_desc:0 "The Feast of Skane, the infamous sacking of Skane by the Skagosi, is remembered for the cannibalization of the entire island population by the Skagosi, leaving the island uninhabited to this day."
-### TODO NOT-IN-ST: historical_battle_of_the_weeping_water [AGOT: Battle of the Weeping Water]
- historical_battle_of_the_weeping_water:0 "Battle of the Weeping Water"
-### TODO NOT-IN-ST: historical_battle_of_the_weeping_water_desc [AGOT: During the Andal invasion, a rare alliance between Stark and Bolton forces led by King Theon Stark defeated Argos Sevenstar's Andal forces near the Weeping Water river.]
- historical_battle_of_the_weeping_water_desc:0 "During the Andal invasion, a rare alliance between Stark and Bolton forces led by King Theon Stark defeated Argos Sevenstar's Andal forces near the Weeping Water river."
-### TODO NOT-IN-ST: historical_teague_crowning [AGOT: The Crowning of the Teagues]
- historical_teague_crowning:0 "The Crowning of the Teagues"
-### TODO NOT-IN-ST: historical_teague_crowning_desc [AGOT: The last great Rivermen kings were of House Teague — infamous both inside and outside their realm, they secured their crown through raiding the Westerlands, and then were crowned at Maidenpool.]
- historical_teague_crowning_desc:0 "The last great Rivermen kings were of House Teague — infamous both inside and outside their realm, they secured their crown through raiding the Westerlands, and then were crowned at Maidenpool."
-### TODO NOT-IN-ST: historical_burning_of_lannisport [AGOT: Burning of Lannisport]
- historical_burning_of_lannisport:0 "Burning of Lannisport"
-### TODO NOT-IN-ST: historical_burning_of_lannisport_desc [AGOT: The Greyjoy Rebellion began not with a declaration, but rather with the Burning of Lannisport, which housed the Lannister fleet.]
- historical_burning_of_lannisport_desc:0 "The Greyjoy Rebellion began not with a declaration, but rather with the Burning of Lannisport, which housed the Lannister fleet."
-### TODO NOT-IN-ST: historical_battle_of_ruby_ford [AGOT: The Battle of Ruby Ford]
- historical_battle_of_ruby_ford:0 "The Battle of Ruby Ford"
-### TODO NOT-IN-ST: historical_battle_of_ruby_ford_desc [AGOT: House Targaryen's centuries of rule began to fall apart on the Trident with the death of Prince Rhaegar Targaryen. When Lord Robert Baratheon's hammer shattered Rhaegar's chestplate, the Dragons died.]
- historical_battle_of_ruby_ford_desc:0 "House Targaryen's centuries of rule began to fall apart on the Trident with the death of Prince Rhaegar Targaryen. When Lord Robert Baratheon's hammer shattered Rhaegar's chestplate, the Dragons died."
-### TODO NOT-IN-ST: historical_battle_redgrass_field [AGOT: Battle of the Redgrass Field]
- historical_battle_redgrass_field:0 "Battle of the Redgrass Field"
-### TODO NOT-IN-ST: historical_battle_redgrass_field_desc [AGOT: After nearly a year of war, the First Blackfyre Rebellion came to an end with the Battle of the Redgrass Field. The forces of Daemon Blackfyre clashed with the loyalist Targaryen forces, resulting in the death of Daemon, his twin sons, and the rebellion.]
- historical_battle_redgrass_field_desc:0 "After nearly a year of war, the First Blackfyre Rebellion came to an end with the Battle of the Redgrass Field. The forces of Daemon Blackfyre clashed with the loyalist Targaryen forces, resulting in the death of Daemon, his twin sons, and the rebellion."
-### TODO NOT-IN-ST: historical_sack_of_high_tide [AGOT: The Sack of High Tide]
- historical_sack_of_high_tide:0 "The Sack of High Tide"
-### TODO NOT-IN-ST: historical_sack_of_high_tide_desc [AGOT: The castle of High Tide, a symbol of the wealth and power of House Velaryon, was sacked following the Battle of the Gullet during the Dance of Dragons. The famed treasure hoard of Lord Corlys 'The Sea Snake' burned with the castle.]
- historical_sack_of_high_tide_desc:0 "The castle of High Tide, a symbol of the wealth and power of House Velaryon, was sacked following the Battle of the Gullet during the Dance of Dragons. The famed treasure hoard of Lord Corlys 'The Sea Snake' burned with the castle."
-### TODO NOT-IN-ST: historical_battle_vulture_hunts [AGOT: The Vulture Hunt]
- historical_battle_vulture_hunts:0 "The Vulture Hunt"
-### TODO NOT-IN-ST: historical_battle_vulture_hunts_desc [AGOT: The first Vulture King's rebellion sought vengeance for Dorne's suffering in the First Dornish War. After initial victories, he was defeated. The fleeing rebels were hunted down and killed in what became known as the Vulture Hunt.]
- historical_battle_vulture_hunts_desc:0 "The first Vulture King's rebellion sought vengeance for Dorne's suffering in the First Dornish War. After initial victories, he was defeated. The fleeing rebels were hunted down and killed in what became known as the Vulture Hunt."
-### TODO NOT-IN-ST: historical_battle_last_storm [AGOT: The Last Storm]
- historical_battle_last_storm:0 "The Last Storm"
-### TODO NOT-IN-ST: historical_battle_last_storm_desc [AGOT: The Last Storm was a battle fought during Aegon's Conquest. The forces of King Argilac Durrandon were ultimately defeated after Orys Baratheon, a close friend of Aegon 'the Conqueror,' slew King Argilac in single combat. Orys would take Argilac's kingdom, keep, and daughter in the aftermath.]
- historical_battle_last_storm_desc:0 "The Last Storm was a battle fought during Aegon's Conquest. The forces of King Argilac Durrandon were ultimately defeated after Orys Baratheon, a close friend of Aegon 'the Conqueror,' slew King Argilac in single combat. Orys would take Argilac's kingdom, keep, and daughter in the aftermath."
-### TODO NOT-IN-ST: historical_burning_of_harrenhall [AGOT: The Burning of Harrenhal]
- historical_burning_of_harrenhall:0 "The Burning of Harrenhal"
-### TODO NOT-IN-ST: historical_burning_of_harrenhall_desc [AGOT: House Hoare and the Ironborn dominion over the Riverlands were both extinguished with the Burning of Harrenhal. Aegon 'the Conqueror' unleashed dragonfire upon the castle, melting the towers and all those inside.]
- historical_burning_of_harrenhall_desc:0 "House Hoare and the Ironborn dominion over the Riverlands were both extinguished with the Burning of Harrenhal. Aegon 'the Conqueror' unleashed dragonfire upon the castle, melting the towers and all those inside."
-### TODO NOT-IN-ST: historical_battle_field_of_fire [AGOT: The Field of Fire]
- historical_battle_field_of_fire:0 "The Field of Fire"
-### TODO NOT-IN-ST: historical_battle_field_of_fire_desc [AGOT: The only battle during Aegon's Conquest where all three Targaryen dragons fought, the Field of Fire resulted in the end of House Gardener, the surrender of Highgarden, and the subjugation of the Rock.]
- historical_battle_field_of_fire_desc:0 "The only battle during Aegon's Conquest where all three Targaryen dragons fought, the Field of Fire resulted in the end of House Gardener, the surrender of Highgarden, and the subjugation of the Rock."
-### TODO NOT-IN-ST: historical_battle_wendwater [AGOT: The Battle of Wendwater Bridge]
- historical_battle_wendwater:0 "The Battle of Wendwater Bridge"
-### TODO NOT-IN-ST: historical_battle_wendwater_desc [AGOT: The Fourth Blackfyre Rebellion ended when the Blackfyre host was smashed at the Battle of Wendwater Bridge and Daemon III Blackfyre was killed by Ser Duncan the Tall of the Kingsguard.]
- historical_battle_wendwater_desc:0 "The Fourth Blackfyre Rebellion ended when the Blackfyre host was smashed at the Battle of Wendwater Bridge and Daemon III Blackfyre was killed by Ser Duncan the Tall of the Kingsguard."
-### TODO NOT-IN-ST: historical_kingswood_brotherhood [AGOT: The Kingswood Brotherhood]
- historical_kingswood_brotherhood:0 "The Kingswood Brotherhood"
-### TODO NOT-IN-ST: historical_kingswood_brotherhood_desc [AGOT: The Brotherhood was a band of outlaws, led by Simon Toyne, that prowled the Kingswood during the reign of King Aerys II Targaryen. They were defeated by forces led by Kingsguard Ser Arthur Dayne 'the Sword of the Morning,' who killed the infamous Smiling Knight in a duel.]
- historical_kingswood_brotherhood_desc:0 "The Brotherhood was a band of outlaws, led by Simon Toyne, that prowled the Kingswood during the reign of King Aerys II Targaryen. They were defeated by forces led by Kingsguard Ser Arthur Dayne 'the Sword of the Morning,' who killed the infamous Smiling Knight in a duel."
-### TODO NOT-IN-ST: historical_battle_of_the_bells [AGOT: Battle of the Bells]
- historical_battle_of_the_bells:0 "Battle of the Bells"
-### TODO NOT-IN-ST: historical_battle_of_the_bells_desc [AGOT: Following a defeat, Lord Robert Baratheon retreated to Stoney Sept with the aim of rejoining Lord Eddard Stark's forces. Targaryen forces led by the Hand of the King, Lord Jon Connington, followed him there, resulting in the Battle of the Bells and a rebel victory.]
- historical_battle_of_the_bells_desc:0 "Following a defeat, Lord Robert Baratheon retreated to Stoney Sept with the aim of rejoining Lord Eddard Stark's forces. Targaryen forces led by the Hand of the King, Lord Jon Connington, followed him there, resulting in the Battle of the Bells and a rebel victory."
-### TODO NOT-IN-ST: poi_notable_castle_visit [AGOT: Visited [province.Custom('CastleName')]]
- poi_notable_castle_visit:0 "Visited [province.Custom('CastleName')]"
-### TODO NOT-IN-ST: poi_notable_castle_visit.tt [AGOT: [province.Custom('CastleDesc')]]
+
+ historical_battle_battle_of_seven_stars_desc:0 "Andalların İlk İnsanlara karşı büyük zaferi, Yedi Yıldız Savaşı, Vadi'yi Arryn Hanedanı için güvence altına aldı ve Dağ ve Vadi Krallığı'nı kurdu."
+
+ historical_battle_feast_of_skane:0 "Skane Ziyafeti"
+
+ historical_battle_feast_of_skane_desc:0 "Skane Ziyafeti, Skagosluların Skane'i kötü şöhretli yağmalaması, Skagosluların ada nüfusunun tamamını yamyamlığa kurban etmesiyle hatırlanır; ada bu güne dek ıssız kalmıştır."
+
+ historical_battle_of_the_weeping_water:0 "Ağlayan Su Savaşı"
+
+ historical_battle_of_the_weeping_water_desc:0 "Andal istilası sırasında, Kral Theon Stark önderliğindeki Stark ve Bolton güçleri arasındaki nadir bir ittifak, Argos Yedi Yıldız'ın Andal güçlerini Ağlayan Su nehri yakınında yendi."
+
+ historical_teague_crowning:0 "Teague'lerin Taç Giyme Töreni"
+
+ historical_teague_crowning_desc:0 "Son büyük Nehirli krallar Teague Hanedanı'ndandı — diyarlarının içinde ve dışında kötü nam salmışlardı; taçlarını Batı Toprakları'na akınlar düzenleyerek kazandılar ve ardından Bakire Limanı'nda taç giydiler."
+
+ historical_burning_of_lannisport:0 "Lannisport'un Yakılması"
+
+ historical_burning_of_lannisport_desc:0 "Greyjoy İsyanı bir bildiriyle değil, Lannister filosuna ev sahipliği yapan Lannisport'un Yakılması'yla başladı."
+
+ historical_battle_of_ruby_ford:0 "Yakut Geçit Savaşı"
+
+ historical_battle_of_ruby_ford_desc:0 "Targaryen Hanedanı'nın yüzyıllar süren hükümdarlığı, Prens Rhaegar Targaryen'in ölümüyle Kızıl Üçgünde parçalanmaya başladı. Lord Robert Baratheon'un çekici Rhaegar'ın göğüs zırhını parçaladığında, Ejderhalar öldü."
+
+ historical_battle_redgrass_field:0 "Kırmızı Ot Tarlası Savaşı"
+
+ historical_battle_redgrass_field_desc:0 "Neredeyse bir yıl süren savaşın ardından, İlk Blackfyre İsyanı Kırmızı Ot Tarlası Savaşı ile sona erdi. Daemon Blackfyre'nin güçleri, sadık Targaryen güçleriyle çarpıştı; bu, Daemon'un ve ikiz oğullarının ölümüne ve isyanın çökmesine yol açtı."
+
+ historical_sack_of_high_tide:0 "Yüksek Gelgit'in Yağmalanması"
+
+ historical_sack_of_high_tide_desc:0 "Velaryon Hanedanı'nın zenginliğinin ve gücünün simgesi olan Yüksek Gelgit kalesi, Ejderhaların Dansı sırasında Boğaz Savaşı'nın ardından yağmalandı. Lord Corlys 'Deniz Yılanı'nın meşhur hazine sandığı, kaleyle birlikte yandı."
+
+ historical_battle_vulture_hunts:0 "Akbaba Avı"
+
+ historical_battle_vulture_hunts_desc:0 "İlk Akbaba Kral'ın isyanı, Dorne'un İlk Dorne Savaşı'nda çektiği acıların intikamını arıyordu. İlk zaferlerin ardından yenilgiye uğratıldı. Kaçan isyancılar, Akbaba Avı olarak bilinen olayda avlanıp öldürüldü."
+
+ historical_battle_last_storm:0 "Son Fırtına"
+
+ historical_battle_last_storm_desc:0 "Son Fırtına, Aegon'un Fethi sırasında yapılan bir savaştı. Kral Argilac Durrandon'un güçleri, Aegon 'Fatih'in yakın dostu Orys Baratheon'un Kral Argilac'ı tek dövüşte öldürmesinin ardından nihayet yenildi. Orys, savaşın ardından Argilac'ın krallığını, kalesini ve kızını aldı."
+
+ historical_burning_of_harrenhall:0 "Harrenhal'ın Yakılması"
+
+ historical_burning_of_harrenhall_desc:0 "Hoare Hanedanı ve Demirdoğumluların Nehir Toprakları üzerindeki hâkimiyeti, Harrenhal'ın Yakılması ile sona erdi. Aegon 'Fatih' kaleye ejderha ateşini saldı; kuleleri ve içindekilerin hepsini eritti."
+
+ historical_battle_field_of_fire:0 "Ateş Tarlası"
+
+ historical_battle_field_of_fire_desc:0 "Aegon'un Fethi sırasında üç Targaryen ejderhasının da savaştığı tek savaş olan Ateş Tarlası, Gardener Hanedanı'nın sonunu, Highgarden'ın teslimini ve Kaya'nın boyun eğmesini getirdi."
+
+ historical_battle_wendwater:0 "Wendwater Köprüsü Savaşı"
+
+ historical_battle_wendwater_desc:0 "Dördüncü Blackfyre İsyanı, Blackfyre ordusunun Wendwater Köprüsü Savaşı'nda ezilmesi ve Daemon III Blackfyre'nin Kral Muhafızı Uzun Duncan tarafından öldürülmesiyle sona erdi."
+
+ historical_kingswood_brotherhood:0 "Kral Ormanı Kardeşliği"
+
+ historical_kingswood_brotherhood_desc:0 "Kardeşlik, Kral II. Aerys Targaryen'in hükümdarlığı sırasında Kral Ormanı'nda kol gezen, Simon Toyne önderliğindeki bir haydut çetesiydi. Kral Muhafızı Ser Arthur Dayne 'Sabahın Kılıcı' önderliğindeki güçler tarafından yenildiler; Dayne, kötü şöhretli Gülümseyen Şövalye'yi bir düelloda öldürdü."
+
+ historical_battle_of_the_bells:0 "Çanlar Savaşı"
+
+ historical_battle_of_the_bells_desc:0 "Bir yenilginin ardından Lord Robert Baratheon, Lord Eddard Stark'ın güçlerine katılmak amacıyla Stoney Sept'e çekildi. El Kralı Lord Jon Connington önderliğindeki Targaryen güçleri onu oraya kadar takip etti; bu da Çanlar Savaşı'na ve bir isyancı zaferine yol açtı."
+
+ poi_notable_castle_visit:0 "[province.Custom('CastleName')]'i ziyaret etti"
+
  poi_notable_castle_visit.tt:0 "[province.Custom('CastleDesc')]"
 
  runestone_name:0 "Rün Taşı"
-### TODO NOT-IN-ST: runestone_desc [AGOT: The ancient castle of Runestone has been the high seat of House Royce since the Dawn Age when they ruled as the Bronze Kings.]
- runestone_desc:0 "The ancient castle of Runestone has been the high seat of House Royce since the Dawn Age when they ruled as the Bronze Kings."
+
+ runestone_desc:0 "Kadim Runestone kalesi, Bronz Krallar olarak hüküm sürdükleri Şafak Çağı'ndan bu yana Royce Hanedanı'nın yüksek makamıdır."
 
  nightfort_name:0 "Gece Kalesi"
-### TODO NOT-IN-ST: nightfort_desc [AGOT: The largest and oldest castle on the Wall, the Nightfort is a shadow of its former self, now lying in ruins. What remains is a maze of tunnels, towers, and stone.]
- nightfort_desc:0 "The largest and oldest castle on the Wall, the Nightfort is a shadow of its former self, now lying in ruins. What remains is a maze of tunnels, towers, and stone."
+
+ nightfort_desc:0 "Duvar'daki en büyük ve en eski kale olan Gece Kalesi, eski halinin bir gölgesidir; şimdi harabe halindedir. Geriye kalan, tüneller, kuleler ve taştan oluşan bir labirenttir."
 
  shadowtower_name:0 "Gölge Kulesi"
-### TODO NOT-IN-ST: shadowtower_desc [AGOT: Located at the western end of the Wall, the Shadow Tower sits between Sentinel Stand and Westwatch-by-the-Bridge and remains occupied by the Night's Watch to this day.]
- shadowtower_desc:0 "Located at the western end of the Wall, the Shadow Tower sits between Sentinel Stand and Westwatch-by-the-Bridge and remains occupied by the Night's Watch to this day."
+
+ shadowtower_desc:0 "Duvar'ın batı ucunda yer alan Gölge Kulesi, Nöbetçi Duruşu ile Köprü Kıyısı Batı Nöbeti arasında durur ve bu güne dek Gece Nöbeti'nin elinde kalır."
 
  castleblack_name:0 "Kara Kale"
-### TODO NOT-IN-ST: castleblack_desc [AGOT: An ancient stronghold, Castle Black houses the Lord Commander and is the base of operations for the Night's Watch.]
- castleblack_desc:0 "An ancient stronghold, Castle Black houses the Lord Commander and is the base of operations for the Night's Watch."
+
+ castleblack_desc:0 "Kadim bir kale olan Kara Kale, Yüce Komutan'a ev sahipliği yapar ve Gece Nöbeti'nin harekât üssüdür."
 
  eastwatch_name:0 "Deniz'deki Doğu Nöbeti"
-### TODO NOT-IN-ST: eastwatch_desc [AGOT: The easternmost castle occupied by the Night's Watch, Eastwatch is host to a garrison of Watchmen, a small number of ships, and the occasional wildling traders.]
- eastwatch_desc:0 "The easternmost castle occupied by the Night's Watch, Eastwatch is host to a garrison of Watchmen, a small number of ships, and the occasional wildling traders."
-### TODO NOT-IN-ST: starpike_name [AGOT: Starpike]
+
+ eastwatch_desc:0 "Gece Nöbeti'nin elindeki en doğudaki kale olan Doğu Nöbeti, bir muhafız garnizonuna, az sayıda gemiye ve ara sıra uğrayan yabanıl tüccarlara ev sahipliği yapar."
+
  starpike_name:0 "Starpike"
-### TODO NOT-IN-ST: starpike_desc [AGOT: The ancient home of House Peake, Starpike lies within the Dornish Marches. Home to one of the great powers in the Kingdom of the Reach, it has seen battles since time immemorial.]
- starpike_desc:0 "The ancient home of House Peake, Starpike lies within the Dornish Marches. Home to one of the great powers in the Kingdom of the Reach, it has seen battles since time immemorial."
+
+ starpike_desc:0 "Peake Hanedanı'nın kadim yurdu Starpike, Dorne Sınırları içinde yer alır. Menzil Krallığı'nın büyük güçlerinden birine ev sahipliği yapan kale, çok eski zamanlardan beri savaşlar görmüştür."
 
  bitterbridge_name:0 "Acı Köprü"
-### TODO NOT-IN-ST: bitterbridge_desc [AGOT: The Stonebridge has long been a crossing of the Mander, and yet it was during the Faith Militant uprising that it earned its new name, Bitterbridge.]
- bitterbridge_desc:0 "The Stonebridge has long been a crossing of the Mander, and yet it was during the Faith Militant uprising that it earned its new name, Bitterbridge."
+
+ bitterbridge_desc:0 "Taş Köprü uzun zamandır Mander'ın bir geçiş noktasıydı; ama yeni adını, İnanç Ordusu ayaklanması sırasında kazandı: Acı Köprü."
 
  shield_islands_name:0 "Kalkan Adaları"
-### TODO NOT-IN-ST: shield_islands_desc [AGOT: Once known as the Misty Islands and home to the dreaded Ironmen, the Shield Islands have since become a bastion against their once masters.]
- shield_islands_desc:0 "Once known as the Misty Islands and home to the dreaded Ironmen, the Shield Islands have since become a bastion against their once masters."
+
+ shield_islands_desc:0 "Bir zamanlar Sisli Adalar olarak bilinen ve korkulan Demircilere ev sahipliği yapan Kalkan Adaları, o günden beri eski efendilerine karşı bir siper haline geldi."
 
  ashford_name:0 "Ashford"
-### TODO NOT-IN-ST: ashford_desc [AGOT: Ashford, a small triangular castle surrounded by a market town, is the seat of House Ashford.]
- ashford_desc:0 "Ashford, a small triangular castle surrounded by a market town, is the seat of House Ashford."
-### TODO NOT-IN-ST: ashford_tourney_desc [AGOT: The tourney that brought the end of Prince Baelor 'Breakspear' Targaryen and began the friendship between the future King and his Lord Commander. Ashford will forever be tied to it.]
- ashford_tourney_desc:0 "The tourney that brought the end of Prince Baelor 'Breakspear' Targaryen and began the friendship between the future King and his Lord Commander. Ashford will forever be tied to it."
+
+ ashford_desc:0 "Bir pazar kasabasıyla çevrili küçük, üçgen bir kale olan Ashford, Ashford Hanedanı'nın makamıdır."
+
+ ashford_tourney_desc:0 "Prens Baelor 'Kargı Kıran' Targaryen'in sonunu getiren ve geleceğin Kralı ile Yüce Komutanı arasındaki dostluğu başlatan mızrak dövüşü. Ashford, bununla sonsuza dek anılacak."
 
  horn_hill_name:0 "Boynuz Tepesi"
-### TODO NOT-IN-ST: horn_hill_desc [AGOT: Home to House Tarly, Horn Hill has long been an arrow in the quiver of the Reach, and one that is regularly notched against would-be enemies.]
- horn_hill_desc:0 "Home to House Tarly, Horn Hill has long been an arrow in the quiver of the Reach, and one that is regularly notched against would-be enemies."
-### TODO NOT-IN-ST: golden_tooth_name [AGOT: Golden Tooth]
+
+ horn_hill_desc:0 "Tarly Hanedanı'na ev sahipliği yapan Boynuz Tepesi, uzun zamandır Menzil'in sadakındaki bir oktur ve düzenli olarak olası düşmanlara karşı yaya yerleştirilen bir ok."
+
  golden_tooth_name:0 "Golden Tooth"
-### TODO NOT-IN-ST: golden_tooth_desc [AGOT: The fortress of the Golden Tooth, home of House Lefford, has long been a bastion to protect the Westerlands from would-be threats to the east.]
- golden_tooth_desc:0 "The fortress of the Golden Tooth, home of House Lefford, has long been a bastion to protect the Westerlands from would-be threats to the east."
+
+ golden_tooth_desc:0 "Lefford Hanedanı'nın yurdu Altın Diş kalesi, uzun zamandır Batı Toprakları'nı doğudan gelebilecek tehditlerden koruyan bir siperdir."
 
  pyke_name:0 "Pyke"
-### TODO NOT-IN-ST: pyke_desc [AGOT: The great fortress of the Ironmen, Pyke is the seat of the Seastone Chair and of House Greyjoy.]
- pyke_desc:0 "The great fortress of the Ironmen, Pyke is the seat of the Seastone Chair and of House Greyjoy."
+
+ pyke_desc:0 "Demircilerin büyük kalesi Pyke, Deniztaşı Tahtı'nın ve Greyjoy Hanedanı'nın makamıdır."
 
  moat_cailin_name:0 "Cailin Hendeği"
-### TODO NOT-IN-ST: moat_cailin_desc [AGOT: Moat Cailin, the gateway of the North, famed for turning back all would-be conquerors from the south, has fallen from its previous greatness, and yet remains a dreaded adversary still.]
- moat_cailin_desc:0 "Moat Cailin, the gateway of the North, famed for turning back all would-be conquerors from the south, has fallen from its previous greatness, and yet remains a dreaded adversary still."
+
+ moat_cailin_desc:0 "Kuzey'in kapısı olan ve güneyden gelen tüm olası fatihleri geri çevirmesiyle ünlü Cailin Kalesi, eski büyüklüğünden düştü; ama hâlâ korkulan bir düşmandır."
 
  fist_name:0 "İlk İnsanların Yumruğu"
-### TODO NOT-IN-ST: fist_desc [AGOT: The Fist of the First Men is a solitary hill that lies north of the Wall, so named by the free folk because it resembles a fist punching up through the earth. Atop the hill are the ruins of an ancient ringfort built by the First Men.]
- fist_desc:0 "The Fist of the First Men is a solitary hill that lies north of the Wall, so named by the free folk because it resembles a fist punching up through the earth. Atop the hill are the ruins of an ancient ringfort built by the First Men."
+
+ fist_desc:0 "İlk İnsanların Yumruğu, Duvar'ın kuzeyinde uzanan tek başına bir tepedir; özgür halk, toprağı yarıp çıkmış bir yumruğa benzediği için bu adı vermiştir. Tepenin zirvesinde, İlk İnsanlar tarafından inşa edilmiş kadim bir halka kalenin kalıntıları vardır."
 
  bloody_gate_name:0 "Kanlı Kapı"
-### TODO NOT-IN-ST: bloody_gate_desc [AGOT: The Bloody Gate is a series of fortifications along the narrow high road that leads into The Vale of Arryn.]
- bloody_gate_desc:0 "The Bloody Gate is a series of fortifications along the narrow high road that leads into The Vale of Arryn."
+
+ bloody_gate_desc:0 "Kanlı Kapı, Arryn Vadi'sine giden dar yüksek yol boyunca uzanan bir dizi tahkimattır."
 
  dragonstone_name:0 "Dragonstone"
-### TODO NOT-IN-ST: dragonstone_desc [AGOT: The ancient seat of House Targaryen, the castle takes inspiration from dragons with its architecture. It has played host to conquerors, kings, and many a prince. The island is home to a volcano, the Dragonmont, where dragons would nest.]
- dragonstone_desc:0 "The ancient seat of House Targaryen, the castle takes inspiration from dragons with its architecture. It has played host to conquerors, kings, and many a prince. The island is home to a volcano, the Dragonmont, where dragons would nest."
+
+ dragonstone_desc:0 "Targaryen Hanedanı'nın kadim makamı olan kale, mimarisiyle ejderhalardan ilham alır. Fatihlere, krallara ve nice prense ev sahipliği yapmıştır. Adada, ejderhaların yuva yaptığı Ejderha Dağı adlı bir yanardağ vardır."
 
  storms_end_name:0 "Fırtına Ucu"
-### TODO NOT-IN-ST: storms_end_desc [AGOT: Storm's End is home to House Baratheon. It is one of the most formidable castles in the realm, rumored to be protected by spells woven into its walls. It has stood for centuries, formerly home to House Durrandon. Many storms have blown through, and yet Storm's End stands strong.]
- storms_end_desc:0 "Storm's End is home to House Baratheon. It is one of the most formidable castles in the realm, rumored to be protected by spells woven into its walls. It has stood for centuries, formerly home to House Durrandon. Many storms have blown through, and yet Storm's End stands strong."
+
+ storms_end_desc:0 "Storm's End, Baratheon Hanedanı'na ev sahipliği yapar. Diyarın en zorlu kalelerinden biridir; duvarlarına işlenmiş büyülerle korunduğu söylenir. Yüzyıllardır ayaktadır; eskiden Durrandon Hanedanı'na ev sahipliği yapardı. Nice fırtına esti geçti; yine de Storm's End güçlü durur."
 
  wyl_name:0 "Wyl"
-### TODO NOT-IN-ST: wyl_desc [AGOT: Seat of the house of the same name, Wyl is one of the fortresses of the Dornish Marches. As such, it has tunnels carved beneath it to enhance its defenses. House Wyl sheltered in these tunnels and caverns when King Aegon I Targaryen attacked astride Balerion the Black Dread.]
- wyl_desc:0 "Seat of the house of the same name, Wyl is one of the fortresses of the Dornish Marches. As such, it has tunnels carved beneath it to enhance its defenses. House Wyl sheltered in these tunnels and caverns when King Aegon I Targaryen attacked astride Balerion the Black Dread."
+
+ wyl_desc:0 "Aynı adlı evin makamı olan Wyl, Dorne Sınırları'nın kalelerinden biridir. Bu yüzden savunmasını güçlendirmek için altına tüneller oyulmuştur. Kral I. Aegon Targaryen, Kara Dehşet Balerion'un sırtında saldırdığında, Wyl Hanedanı bu tünellerde ve mağaralarda barındı."
 
  yronwood_name:0 "Yronwood"
-### TODO NOT-IN-ST: yronwood_desc [AGOT: The castle of Yronwood sits at the southern end of the Boneway and primarily serves as the seat of House Yronwood.]
- yronwood_desc:0 "The castle of Yronwood sits at the southern end of the Boneway and primarily serves as the seat of House Yronwood."
+
+ yronwood_desc:0 "Yronwood kalesi, Kemik Yolu'nun güney ucunda durur ve başlıca Yronwood Hanedanı'nın makamı olarak hizmet eder."
 
  brimstone_hall_name:0 "Cehennem Kapısı Salonu"
-### TODO NOT-IN-ST: brimstone_hall_desc [AGOT: Hellgate Hall along the Brimstone was the seat of House Dryland, the last Kings of the Brimstone. King Lucifer Dryland, the Last of His Ilk, was sent to the Wall after his defeat during Nymeria's War.]
- brimstone_hall_desc:0 "Hellgate Hall along the Brimstone was the seat of House Dryland, the last Kings of the Brimstone. King Lucifer Dryland, the Last of His Ilk, was sent to the Wall after his defeat during Nymeria's War."
-### TODO NOT-IN-ST: second_blackfyre_name [AGOT: Second Blackfyre Rebellion]
- second_blackfyre_name:0 "Second Blackfyre Rebellion"
-### TODO NOT-IN-ST: second_blackfyre_desc [AGOT: When Bittersteel led the remnants of House Blackfyre to Essos, the Iron Throne knew the pretenders would return; that they would do so at a wedding in Whitewalls would be surprising, though due to Ser Duncan the Tall and his squire's efforts, this second rebellion would end before it began.]
- second_blackfyre_desc:0 "When Bittersteel led the remnants of House Blackfyre to Essos, the Iron Throne knew the pretenders would return; that they would do so at a wedding in Whitewalls would be surprising, though due to Ser Duncan the Tall and his squire's efforts, this second rebellion would end before it began."
-### TODO NOT-IN-ST: dunstonbury_name [AGOT: Dunstonbury]
+
+ brimstone_hall_desc:0 "Kükürt nehri boyunca uzanan Cehennem Kapısı Konağı, Kükürt'ün son kralları Dryland Hanedanı'nın makamıydı. Soyunun Sonuncusu Kral Lucifer Dryland, Nymeria Savaşı'ndaki yenilgisinin ardından Duvar'a gönderildi."
+
+ second_blackfyre_name:0 "İkinci Blackfyre İsyanı"
+
+ second_blackfyre_desc:0 "Bittersteel, Blackfyre Hanedanı'nın kalıntılarını Essos'a götürdüğünde, Demir Taht sahtekârların geri döneceğini biliyordu; bir düğünde, Whitewalls'de dönmeleri şaşırtıcı olacaktı; ancak Uzun Duncan ve yaverinin çabaları sayesinde bu ikinci isyan başlamadan sona erdi."
+
  dunstonbury_name:0 "Dunstonbury"
-### TODO NOT-IN-ST: dunstonbury_desc [AGOT: The ancestral home of House Manderly, it was lost to them when they were driven from the Reach by House Peake who claimed it for themselves.]
- dunstonbury_desc:0 "The ancestral home of House Manderly, it was lost to them when they were driven from the Reach by House Peake who claimed it for themselves."
-### TODO NOT-IN-ST: meraxes_death_name [AGOT: The Death of Meraxes]
- meraxes_death_name:0 "The Death of Meraxes"
-### TODO NOT-IN-ST: meraxes_death_desc [AGOT: Meraxes was a she-dragon ridden by Queen Rhaenys Targaryen, sister-wife of Aegon 'the Conqueror.' During the First Dornish War Meraxes was shot through the eye with an iron bolt killing her instantly, Queen Rhaenys was killed when the dragon fell from the sky.]
- meraxes_death_desc:0 "Meraxes was a she-dragon ridden by Queen Rhaenys Targaryen, sister-wife of Aegon 'the Conqueror.' During the First Dornish War Meraxes was shot through the eye with an iron bolt killing her instantly, Queen Rhaenys was killed when the dragon fell from the sky."
-### TODO NOT-IN-ST: defiance_duskendale_name [AGOT: The Defiance of Duskendale]
- defiance_duskendale_name:0 "The Defiance of Duskendale"
-### TODO NOT-IN-ST: defiance_duskendale_desc [AGOT: When Lord Denys Darklyn stopped paying taxes in protest, he invited King Aerys II Targaryen to hear his grievances but instead imprisoned him upon arrival. After a six-month standoff, the King was rescued by Kingguard Ser Barristan Selmy in a daring solo rescue mission.]
- defiance_duskendale_desc:0 "When Lord Denys Darklyn stopped paying taxes in protest, he invited King Aerys II Targaryen to hear his grievances but instead imprisoned him upon arrival. After a six-month standoff, the King was rescued by Kingguard Ser Barristan Selmy in a daring solo rescue mission."
+
+ dunstonbury_desc:0 "Manderly Hanedanı'nın atalarının yurdu olan kale, onları Menzil'den kovup kendileri için sahiplenen Peake Hanedanı yüzünden onlara kaybedildi."
+
+ meraxes_death_name:0 "Meraxes'in Ölümü"
+
+ meraxes_death_desc:0 "Meraxes, Aegon 'Fatih'in kız kardeşi-eşi Kraliçe Rhaenys Targaryen'in bindiği dişi bir ejderhaydı. İlk Dorne Savaşı sırasında Meraxes'in gözüne demir bir cıvata isabet etti ve onu anında öldürdü; Kraliçe Rhaenys, ejderha gökten düşünce hayatını kaybetti."
+
+ defiance_duskendale_name:0 "Duskendale'in İsyanı"
+
+ defiance_duskendale_desc:0 "Lord Denys Darklyn, protesto amacıyla vergi ödemeyi bıraktığında Kral II. Aerys Targaryen'i şikâyetlerini dinlemesi için davet etti; ama kral gelir gelmez onu hapsetti. Altı aylık bir çıkmazın ardından kral, Kral Muhafızı Ser Barristan Selmy tarafından cüretkâr bir solo kurtarma göreviyle kurtarıldı."
 
  red_keep_name:0 "Kızıl Kale"
-### TODO NOT-IN-ST: red_keep_desc [AGOT: The Red Keep is a fortress in King's Landing built from pale red stone. Within its huge curtain walls stands Maegor's Holdfast, the Tower of the Hand, the White Sword Tower, and the Great Hall which contains the Iron Throne.]
- red_keep_desc:0 "The Red Keep is a fortress in King's Landing built from pale red stone. Within its huge curtain walls stands Maegor's Holdfast, the Tower of the Hand, the White Sword Tower, and the Great Hall which contains the Iron Throne."
+
+ red_keep_desc:0 "Kızıl Kale, Kralın Şehri'nde soluk kırmızı taştan inşa edilmiş bir kaledir. Devasa surlarının içinde Maegor'un Kalesi, El'in Kulesi, Beyaz Kılıç Kulesi ve içinde Demir Taht bulunan Büyük Salon yer alır."
 
  whispers_name:0 "Fısıltılar"
-### TODO NOT-IN-ST: whispers_desc [AGOT: The Whispers is a ruined castle of House Crabb on Crackclaw Point. Legends say the wife of the fabled knight Ser Clarence Crabb would reanimate the severed heads of his slain enemies. The heads would then talk to each other creating a whispering sound, giving the castle its name.]
- whispers_desc:0 "The Whispers is a ruined castle of House Crabb on Crackclaw Point. Legends say the wife of the fabled knight Ser Clarence Crabb would reanimate the severed heads of his slain enemies. The heads would then talk to each other creating a whispering sound, giving the castle its name."
+
+ whispers_desc:0 "Fısıltılar, Çatlak Pençe Burnu'ndaki Crabb Hanedanı'nın harabe bir kalesidir. Efsanelere göre, efsanevi şövalye Ser Clarence Crabb'in eşi, öldürdüğü düşmanlarının kesik başlarını diriltirdi. Başlar daha sonra birbirleriyle konuşarak fısıltıya benzer bir ses çıkarırdı; kale adını bundan alır."
 
  sunspear_name:0 "Sunspear"
-### TODO NOT-IN-ST: sunspear_desc [AGOT: The palace of Sunspear has been the seat of House Nymeros Martell since Princess Nymeria of the Rhoynar married Lord Mors Martell and united Dorne under their rule.]
- sunspear_desc:0 "The palace of Sunspear has been the seat of House Nymeros Martell since Princess Nymeria of the Rhoynar married Lord Mors Martell and united Dorne under their rule."
-### TODO NOT-IN-ST: starry_sept_name [AGOT: Starry Sept]
- starry_sept_name:0 "Starry Sept"
-### TODO NOT-IN-ST: starry_sept_desc [AGOT: The original home of the High Septon, the Starry Sept is the beating heart of the Faith. Made of black marble, it evokes the night sky from which the Father pulled the seven stars to anoint Hugor.]
- starry_sept_desc:0 "The original home of the High Septon, the Starry Sept is the beating heart of the Faith. Made of black marble, it evokes the night sky from which the Father pulled the seven stars to anoint Hugor."
-### TODO NOT-IN-ST: citadel_name [AGOT: Citadel]
- citadel_name:0 "Citadel"
-### TODO NOT-IN-ST: citadel_desc [AGOT: The Citadel is the ancient home of the maesters. According to legend, it dates back to the first days of the rule of the Hightowers, and today it is one of the beacons of knowledge and learning in the world.]
- citadel_desc:0 "The Citadel is the ancient home of the maesters. According to legend, it dates back to the first days of the rule of the Hightowers, and today it is one of the beacons of knowledge and learning in the world."
-### TODO NOT-IN-ST: seven_shrines_name [AGOT: Seven Shrines]
- seven_shrines_name:0 "Seven Shrines"
-### TODO NOT-IN-ST: seven_shrines_desc [AGOT: The Seven Shrines are seven septs raised to honor the gods, famed for their gardens.]
- seven_shrines_desc:0 "The Seven Shrines are seven septs raised to honor the gods, famed for their gardens."
-### TODO NOT-IN-ST: nagga_name [AGOT: Nagga's Hill]
- nagga_name:0 "Nagga's Hill"
-### TODO NOT-IN-ST: nagga_desc [AGOT: The remains of Nagga, the Sea Dragon, still adorn the hill which once housed the hall of the Grey King.]
- nagga_desc:0 "The remains of Nagga, the Sea Dragon, still adorn the hill which once housed the hall of the Grey King."
-### TODO NOT-IN-ST: jonquil_name [AGOT: Jonquil's Pool]
- jonquil_name:0 "Jonquil's Pool"
-### TODO NOT-IN-ST: jonquil_desc [AGOT: Across the Seven Kingdoms, and beyond, the love story of Florian and Jonquil is told. And here lies the pool from which Florian first laid eyes upon his love.]
- jonquil_desc:0 "Across the Seven Kingdoms, and beyond, the love story of Florian and Jonquil is told. And here lies the pool from which Florian first laid eyes upon his love."
-### TODO NOT-IN-ST: snowy_sept_name [AGOT: Snowy Sept]
- snowy_sept_name:0 "Snowy Sept"
-### TODO NOT-IN-ST: snowy_sept_desc [AGOT: The only great sept found in the North, the Snowy Sept relies on the patronage of House Manderly and welcomes all of the faithful in the realm of winter and snow.]
- snowy_sept_desc:0 "The only great sept found in the North, the Snowy Sept relies on the patronage of House Manderly and welcomes all of the faithful in the realm of winter and snow."
-### TODO NOT-IN-ST: arrival_andals_name [AGOT: Coming of the Andals]
- arrival_andals_name:0 "Coming of the Andals"
-### TODO NOT-IN-ST: arrival_andals_desc [AGOT: The coming of the Andals refers to their migration from Essos to Westeros. The Andals introduced writing, steel weapons, and the Faith of the Seven religion to Westeros. The fighting between the Andals and the First Men lasted hundreds of years.]
- arrival_andals_desc:0 "The coming of the Andals refers to their migration from Essos to Westeros. The Andals introduced writing, steel weapons, and the Faith of the Seven religion to Westeros. The fighting between the Andals and the First Men lasted hundreds of years."
+
+ sunspear_desc:0 "Güneşmızrağı sarayı, Rhoynar'lı Prenses Nymeria'nın Lord Mors Martell ile evlenip Dorne'u hükümdarlıkları altında birleştirmesinden bu yana Nymeros Martell Hanedanı'nın makamıdır."
+
+ starry_sept_name:0 "Yıldızlı Ayin Evi"
+
+ starry_sept_desc:0 "Yüce Aydınlatıcı'nın asıl yurdu olan Yıldızlı Ayin Evi, İnanç'ın atan kalbidir. Siyah mermerden yapılmıştır; Baba'nın Hugor'u kutsamak için yedi yıldızı çektiği gece göğünü çağrıştırır."
+
+ citadel_name:0 "Üstad Kalesi"
+
+ citadel_desc:0 "Üstad Kalesi, üstatların kadim yurdudur. Efsaneye göre, Hightower'ların hükümdarlığının ilk günlerine dayanır ve bugün dünyadaki bilgi ve öğrenimin işaret fenerlerinden biridir."
+
+ seven_shrines_name:0 "Yedi Mabed"
+
+ seven_shrines_desc:0 "Yedi Mabed, tanrıları onurlandırmak için yükseltilmiş, bahçeleriyle ünlü yedi ayin evidir."
+
+ nagga_name:0 "Nagga'nın Tepesi"
+
+ nagga_desc:0 "Deniz Ejderhası Nagga'nın kalıntıları, bir zamanlar Gri Kral'ın salonuna ev sahipliği yapan tepede hâlâ duruyor."
+
+ jonquil_name:0 "Jonquil'in Havuzu"
+
+ jonquil_desc:0 "Yedi Krallık'ın dört bir yanında ve ötesinde, Florian ile Jonquil'in aşk hikâyesi anlatılır. Florian'ın aşkını ilk kez gördüğü havuz işte burasıdır."
+
+ snowy_sept_name:0 "Karlı Ayin Evi"
+
+ snowy_sept_desc:0 "Kuzey'de bulunan tek büyük ayin evi olan Karlı Ayin Evi, Manderly Hanedanı'nın himayesine dayanır ve kış ile kar diyarındaki tüm inananları kabul eder."
+
+ arrival_andals_name:0 "Andalların Gelişi"
+
+ arrival_andals_desc:0 "Andalların gelişi, onların Essos'tan Westeros'a göçünü ifade eder. Andallar, Westeros'a yazıyı, çelik silahları ve Yediler İnancı dinini getirdi. Andallar ile İlk İnsanlar arasındaki savaş yüzlerce yıl sürdü."
 
  gate_of_gods_name:0 "Tanrıların Kapısı"
-### TODO NOT-IN-ST: gate_of_gods_desc [AGOT: The Gate of the Gods is one of the seven massive gates in the colossal walls of King's Landing. Adorned with intricate carvings, the gatehouse and portcullis feature eyes that appear to track the movements of anyone entering. The Kingsroad enters King's Landing from the North at the Gate of the Gods.]
- gate_of_gods_desc:0 "The Gate of the Gods is one of the seven massive gates in the colossal walls of King's Landing. Adorned with intricate carvings, the gatehouse and portcullis feature eyes that appear to track the movements of anyone entering. The Kingsroad enters King's Landing from the North at the Gate of the Gods."
-### TODO NOT-IN-ST: hammer_waters_name [AGOT: Hammer of the Waters]
- hammer_waters_name:0 "Hammer of the Waters"
-### TODO NOT-IN-ST: hammer_waters_desc [AGOT: According to legend, the greenseers of the children of the forest used dark magic to halt the migration of the First Men to Westeros by causing a cataclysmic event known as the Breaking. This event shattered the Arm of Dorne into the Stepstones and the Broken Arm, separating Westeros from Essos.]
- hammer_waters_desc:0 "According to legend, the greenseers of the children of the forest used dark magic to halt the migration of the First Men to Westeros by causing a cataclysmic event known as the Breaking. This event shattered the Arm of Dorne into the Stepstones and the Broken Arm, separating Westeros from Essos."
+
+ gate_of_gods_desc:0 "Tanrılar Kapısı, Kralın Şehri'nin devasa surlarındaki yedi büyük kapıdan biridir. Karmaşık oymalarla süslenmiş kapı binası ve düşey kapı, içeri giren herkesin hareketlerini izliyor gibi görünen gözler taşır. Kral Yolu, Kralın Şehri'ne kuzeyden Tanrılar Kapısı'ndan girer."
+
+ hammer_waters_name:0 "Suların Çekici"
+
+ hammer_waters_desc:0 "Efsaneye göre, orman çocuklarının yeşilgörenleri, İlk İnsanların Westeros'a göçünü durdurmak için karanlık büyü kullandı ve Kırılma olarak bilinen felaket benzeri bir olaya yol açtı. Bu olay, Dorne'un Kolu'nu parçalayıp Basamak Taşları'nı ve Kırık Kol'u oluşturdu; Westeros'u Essos'tan ayırdı."
 
  sept_remembrance_name:0 "Anma Tapınağı"
-### TODO NOT-IN-ST: sept_remembrance_desc [AGOT: The Sept of Remembrance, among the first septs in King's Landing, was constructed on the Hill of Rhaenys to honor Aegon the conqueror's sister-wife, Rhaenys Targaryen. Used as the headquarters of the Warrior's Sons during the Faith Militant uprising, the sept was destroyed by King Maegor I Targaryen atop Balerion the Black Dread.]
- sept_remembrance_desc:0 "The Sept of Remembrance, among the first septs in King's Landing, was constructed on the Hill of Rhaenys to honor Aegon the conqueror's sister-wife, Rhaenys Targaryen. Used as the headquarters of the Warrior's Sons during the Faith Militant uprising, the sept was destroyed by King Maegor I Targaryen atop Balerion the Black Dread."
-### TODO NOT-IN-ST: sept_baelor_name [AGOT: Great Sept of Baelor]
- sept_baelor_name:0 "Great Sept of Baelor"
-### TODO NOT-IN-ST: sept_baelor_desc [AGOT: The Great Sept of Baelor stands as the focal point of the Faith of the Seven's worship. Located in King's Landing it serves as the residence of the High Septon. The sept is named in honor of the revered septon-king, Baelor the Blessed.]
- sept_baelor_desc:0 "The Great Sept of Baelor stands as the focal point of the Faith of the Seven's worship. Located in King's Landing it serves as the residence of the High Septon. The sept is named in honor of the revered septon-king, Baelor the Blessed."
+
+ sept_remembrance_desc:0 "Kralın Şehri'nin ilk ayin evlerinden biri olan Hatıra Ayin Evi, Fatih Aegon'un kız kardeşi-eşi Rhaenys Targaryen'i onurlandırmak için Rhaenys Tepesi'nde inşa edildi. İnanç Ordusu ayaklanması sırasında Savaşçı Oğulları'nın karargâhı olarak kullanılan ayin evi, Kara Dehşet Balerion'un sırtındaki Kral I. Maegor Targaryen tarafından yok edildi."
+
+ sept_baelor_name:0 "Baelor'un Büyük Ayin Evi"
+
+ sept_baelor_desc:0 "Baelor'un Büyük Ayin Evi, Yediler İnancı'nın ibadetinin odak noktası olarak durur. Kralın Şehri'nde bulunur ve Yüce Aydınlatıcı'nın ikametgâhı olarak hizmet eder. Ayin evi, saygıdeğer aydınlatıcı-kral Kutsal Baelor'un onuruna adlandırılmıştır."
 
  highgarden_name:0 "Highgarden"
-### TODO NOT-IN-ST: highgarden_desc [AGOT: Highgarden was the seat of the Gardener Kings, raised by Garth the Gardener. It is commonly stated to be the most beautiful castle in all the realm, maybe even the world.]
- highgarden_desc:0 "Highgarden was the seat of the Gardener Kings, raised by Garth the Gardener. It is commonly stated to be the most beautiful castle in all the realm, maybe even the world."
+
+ highgarden_desc:0 "Highgarden, Bahçıvan Kral'ların makamıydı; Bahçıvan Garth tarafından yükseltildi. Yaygın olarak tüm diyarın, belki de dünyanın en güzel kalesi olduğu söylenir."
 
  fair_isle_name:0 "Adil Ada"
-### TODO NOT-IN-ST: fair_isle_desc [AGOT: Fair Isle, home of House Farman, is a paradise in the Sunset Sea. Home to prosperous waters and plentiful lands, it has more than earned its name.]
- fair_isle_desc:0 "Fair Isle, home of House Farman, is a paradise in the Sunset Sea. Home to prosperous waters and plentiful lands, it has more than earned its name."
+
+ fair_isle_desc:0 "Farman Hanedanı'na ev sahipliği yapan Güzel Ada, Gün Batımı Denizi'nde bir cennettir. Bereketli suları ve bol topraklarıyla adını fazlasıyla hak etmiştir."
 
  lonely_light_name:0 "Yalnız Işık"
-### TODO NOT-IN-ST: lonely_light_desc [AGOT: The furthest western outpost of not only the Ironmen, but rather the known world, Lonely Light is a small port of House Farwynd.]
- lonely_light_desc:0 "The furthest western outpost of not only the Ironmen, but rather the known world, Lonely Light is a small port of House Farwynd."
+
+ lonely_light_desc:0 "Yalnızca Demircilerin değil, bilinen dünyanın en batıdaki karakolu olan Yalnız Işık, Farwynd Hanedanı'nın küçük bir limanıdır."
 
  riverrun_name:0 "Riverrun"
-### TODO NOT-IN-ST: riverrun_desc [AGOT: The ancestral home of House Tully, Riverrun is famed for its moat, which is made by connecting the Tumblestone and Red Fork.]
- riverrun_desc:0 "The ancestral home of House Tully, Riverrun is famed for its moat, which is made by connecting the Tumblestone and Red Fork."
-### TODO NOT-IN-ST: wrestling_bears_island_name [AGOT: Bear Island]
- wrestling_bears_island_name:0 "Bear Island"
-### TODO NOT-IN-ST: wrestling_bears_island_desc [AGOT: Bear Island is the home of House Mormont, it lies in the Bay of Ice off the northwest coast of Westeros. It is picturesque and secluded, characterized by ancient oaks, towering pines, and rugged hills.]
- wrestling_bears_island_desc:0 "Bear Island is the home of House Mormont, it lies in the Bay of Ice off the northwest coast of Westeros. It is picturesque and secluded, characterized by ancient oaks, towering pines, and rugged hills."
+
+ riverrun_desc:0 "Tully Hanedanı'nın atalarının yurdu Riverrun, Tumblestone ile Kızıl Çatal'ı birleştirerek oluşturulan hendeğiyle ünlüdür."
+
+ wrestling_bears_island_name:0 "Ayı Adası"
+
+ wrestling_bears_island_desc:0 "Ayı Adası, Mormont Hanedanı'nın yurdudur; Westeros'un kuzeybatı kıyısındaki Buz Körfezi'nde yer alır. Kadim meşeler, yükselen çamlar ve engebeli tepelerle karakterize, pitoresk ve izole bir yerdir."
 
  eyrie_name:0 "Kartal Yuvası"
-### TODO NOT-IN-ST: eyrie_desc [AGOT: The Eyrie is the ancient stronghold and seat of House Arryn. Perched in the Mountains of the Moon thousands of feet above the valley below. Because of its location, it is considered by most to be all but impregnable to attack.]
- eyrie_desc:0 "The Eyrie is the ancient stronghold and seat of House Arryn. Perched in the Mountains of the Moon thousands of feet above the valley below. Because of its location, it is considered by most to be all but impregnable to attack."
+
+ eyrie_desc:0 "Kartal Yuvası, Arryn Hanedanı'nın kadim kalesi ve makamıdır. Alttaki vadiden binlerce fit yüksekte, Ay Dağları'na tünemiştir. Konumu nedeniyle çoğu kişi tarafından saldırıya karşı neredeyse geçilmez kabul edilir."
 
  moon_mountain_name:0 "Ay Dağları"
-### TODO NOT-IN-ST: moon_mountain_desc [AGOT: The Mountains of the Moon are a series of mountains in the Vale of Arryn. Bleak and inhospitable, they are inhabited by mountain clansmen who reject the authority of both House Arryn and the Iron Throne.]
- moon_mountain_desc:0 "The Mountains of the Moon are a series of mountains in the Vale of Arryn. Bleak and inhospitable, they are inhabited by mountain clansmen who reject the authority of both House Arryn and the Iron Throne."
-### TODO NOT-IN-ST: kingswood_name [AGOT: Kingswood]
- kingswood_name:0 "Kingswood"
-### TODO NOT-IN-ST: kingswood_desc [AGOT: The Kingswood is a vast forest situated across the Blackwater Rush from King's Landing, spanning the southern crownlands and the northern Stormlands and intersected by the Kingsroad. The forest features a private hunting area reserved for the king.]
- kingswood_desc:0 "The Kingswood is a vast forest situated across the Blackwater Rush from King's Landing, spanning the southern crownlands and the northern Stormlands and intersected by the Kingsroad. The forest features a private hunting area reserved for the king."
+
+ moon_mountain_desc:0 "Ay Dağları, Arryn Vadi'sindeki bir dizi dağdır. Çorak ve yaşanmaz olan bu dağlarda, hem Arryn Hanedanı'nın hem de Demir Taht'ın otoritesini reddeden dağlı boyları yaşar."
+
+ kingswood_name:0 "Kral Ormanı"
+
+ kingswood_desc:0 "Kral Ormanı, Kralın Şehri'nin karşısında Kara Su Akıntısı'nın ötesine uzanan, güney kral topraklarını ve kuzey Fırtına Toprakları'nı kapsayan ve Kral Yolu tarafından kesilen uçsuz bucaksız bir ormandır. Ormanda krala ayrılmış özel bir av alanı bulunur."
 
  tarth_name:0 "Tarth"
-### TODO NOT-IN-ST: tarth_desc [AGOT: Known as the Sapphire Isle, the island of Tarth lies in the narrow sea off the eastern coast of Westeros. Part of the Stormlands, Tarth is ruled by House Tarth from their seat at Evenfall Hall.]
- tarth_desc:0 "Known as the Sapphire Isle, the island of Tarth lies in the narrow sea off the eastern coast of Westeros. Part of the Stormlands, Tarth is ruled by House Tarth from their seat at Evenfall Hall."
-### TODO NOT-IN-ST: rainwood_name [AGOT: Rainwood]
- rainwood_name:0 "Rainwood"
-### TODO NOT-IN-ST: rainwood_desc [AGOT: The Rainwood, situated on Cape Wrath in the Stormlands, is a vast forest renowned for its misty and fertile environment. Valued for its fur, timber, and amber, it hosts a diverse range of flora.]
- rainwood_desc:0 "The Rainwood, situated on Cape Wrath in the Stormlands, is a vast forest renowned for its misty and fertile environment. Valued for its fur, timber, and amber, it hosts a diverse range of flora."
-### TODO NOT-IN-ST: dragon_mummer_name [AGOT: Lord Toland's Mad Fool]
- dragon_mummer_name:0 "Lord Toland's Mad Fool"
-### TODO NOT-IN-ST: dragon_mummer_desc [AGOT: During the First Dornish War, House Toland resisted the dragons through trickery. When King Aegon I Targaryen faced Lord Toland's champion, slaying him easily, he discovered the champion was in fact the lord's mad fool — and that Lord Toland himself had escaped.]
- dragon_mummer_desc:0 "During the First Dornish War, House Toland resisted the dragons through trickery. When King Aegon I Targaryen faced Lord Toland's champion, slaying him easily, he discovered the champion was in fact the lord's mad fool — and that Lord Toland himself had escaped."
-### TODO NOT-IN-ST: nymeria_ships_name [AGOT: Nymeria's Ten Thousand Ships]
- nymeria_ships_name:0 "Nymeria's Ten Thousand Ships"
-### TODO NOT-IN-ST: nymeria_ships_desc [AGOT: After the Rhoynar was conquered by the Valyrian Freehold, Princess Nymeria led the Rhoynar people to Dorne. Legend has it they set out with a fleet of ten thousand ships, facing many hardships on their voyage, only a small number of ships reached Westeros.]
- nymeria_ships_desc:0 "After the Rhoynar was conquered by the Valyrian Freehold, Princess Nymeria led the Rhoynar people to Dorne. Legend has it they set out with a fleet of ten thousand ships, facing many hardships on their voyage, only a small number of ships reached Westeros."
+
+ tarth_desc:0 "Safir Ada olarak bilinen Tarth adası, Westeros'un doğu kıyısı açıklarındaki dar denizde yer alır. Fırtına Toprakları'nın bir parçası olan Tarth, Evenfall Konağı'ndaki makamlarından Tarth Hanedanı tarafından yönetilir."
+
+ rainwood_name:0 "Yağmur Ormanı"
+
+ rainwood_desc:0 "Fırtına Toprakları'ndaki Wrath Burnu üzerinde yer alan Yağmur Ormanı, sisli ve verimli ortamıyla ünlü uçsuz bucaksız bir ormandır. Kürkü, kerestesi ve kehribarıyla değerli olan orman, çeşitli bir bitki örtüsüne ev sahipliği yapar."
+
+ dragon_mummer_name:0 "Lord Toland'ın Deli Soytarısı"
+
+ dragon_mummer_desc:0 "İlk Dorne Savaşı sırasında Toland Hanedanı, hileyle ejderhalara direndi. Kral I. Aegon Targaryen, Lord Toland'ın şampiyonuyla karşılaşıp onu kolayca öldürdüğünde, şampiyonun aslında lordun deli soytarısı olduğunu — ve Lord Toland'ın kendisinin kaçtığını keşfetti."
+
+ nymeria_ships_name:0 "Nymeria'nın On Bin Gemisi"
+
+ nymeria_ships_desc:0 "Rhoynar, Valyria Serbest Diyarı tarafından fethedildikten sonra, Prenses Nymeria Rhoynar halkını Dorne'a götürdü. Efsaneye göre, on bin gemilik bir filoyla yola çıktılar; yolculuklarında birçok zorlukla karşılaştılar ve yalnızca az sayıda gemi Westeros'a ulaştı."
 
  aegonfort_name:0 "Aegon Kalesi"
-### TODO NOT-IN-ST: aegonfort_desc [AGOT: The Aegonfort, a small motte-and-bailey fort erected by Aegon 'the Conqueror,' marked his initial foothold in Westeros, situated at the site of the present-day Red Keep in King's Landing. The swords of Aegon's defeated enemies were sent to the Aegonfort and the Iron Throne was created.]
- aegonfort_desc:0 "The Aegonfort, a small motte-and-bailey fort erected by Aegon 'the Conqueror,' marked his initial foothold in Westeros, situated at the site of the present-day Red Keep in King's Landing. The swords of Aegon's defeated enemies were sent to the Aegonfort and the Iron Throne was created."
+
+ aegonfort_desc:0 "Aegon 'Fatih' tarafından dikilen küçük bir tepe-kale olan Aegon Kalesi, onun Westeros'taki ilk tutunma noktasını işaret etti; bugünkü Kızıl Kale'nin bulunduğu yerde, Kralın Şehri'nde yer alıyordu. Aegon'un yendiği düşmanlarının kılıçları Aegon Kalesi'ne gönderildi ve Demir Taht yaratıldı."
 
  hightower_name:0 "Hightower"
-### TODO NOT-IN-ST: hightower_desc [AGOT: The Hightower, one of the wonders made by man, stands high above the city of Oldtown. Built on the remains of an ancient black stone fortress, it stands as a beacon for all.]
- hightower_desc:0 "The Hightower, one of the wonders made by man, stands high above the city of Oldtown. Built on the remains of an ancient black stone fortress, it stands as a beacon for all."
+
+ hightower_desc:0 "İnsan eliyle yapılmış harikalardan biri olan Hightower, Eski Kent şehrinin yükseklerinde durur. Kadim bir siyah taş kalenin kalıntıları üzerine inşa edilmiş olan kule, herkes için bir işaret feneri olarak durur."
 
  oldtown_name:0 "Eski Şehir"
-### TODO NOT-IN-ST: oldtown_desc [AGOT: Oldtown is the oldest and arguably greatest city in Westeros — home to the Citadel, the Starry Sept, and the Hightower.]
- oldtown_desc:0 "Oldtown is the oldest and arguably greatest city in Westeros — home to the Citadel, the Starry Sept, and the Hightower."
+
+ oldtown_desc:0 "Eski Kent, Westeros'un en eski ve tartışmasız en büyük şehridir — Üstad Kalesi'ne, Yıldızlı Ayin Evi'ne ve Hightower'a ev sahipliği yapar."
 
  hornvale_name:0 "Boynuz Vadisi"
-### TODO NOT-IN-ST: hornvale_desc [AGOT: Home of House Brax, it is from Hornvale that the Red Fork originates. The greater vale is abundant with iron, which gives the land a reddish hue.]
- hornvale_desc:0 "Home of House Brax, it is from Hornvale that the Red Fork originates. The greater vale is abundant with iron, which gives the land a reddish hue."
-### TODO NOT-IN-ST: lordsport_name [AGOT: Lordsport]
+
+ hornvale_desc:0 "Brax Hanedanı'nın yurdu olan Boynuz Vadisi, Kızıl Çatal'ın doğduğu yerdir. Büyük vadi demir açısından zengindir; bu da topraklara kırmızımsı bir renk verir."
+
  lordsport_name:0 "Lordsport"
-### TODO NOT-IN-ST: lordsport_desc [AGOT: The greatest town in the Iron Islands, Lordsport has long been the chief port of the Ironmen.]
- lordsport_desc:0 "The greatest town in the Iron Islands, Lordsport has long been the chief port of the Ironmen."
+
+ lordsport_desc:0 "Demir Adalar'ın en büyük kasabası olan Lordsport, uzun zamandır Demircilerin başlıca limanıdır."
 
  fairmarket_name:0 "Adil Çarşı"
-### TODO NOT-IN-ST: fairmarket_desc [AGOT: The town of the Blue Fork, once home to Ironmen kings, has a long history of serving as a key financial center in the Riverlands.]
- fairmarket_desc:0 "The town of the Blue Fork, once home to Ironmen kings, has a long history of serving as a key financial center in the Riverlands."
+
+ fairmarket_desc:0 "Mavi Çatal'ın kasabası olan bu yer, bir zamanlar Demirci krallarına ev sahipliği yaptı; Nehir Toprakları'nda kilit bir mali merkez olarak hizmet etme konusunda uzun bir geçmişe sahiptir."
 
  winterfell_name:0 "Winterfell"
-### TODO NOT-IN-ST: winterfell_desc [AGOT: The heart of the North and home of House Stark, Winterfell is easily one of the greatest castles in all of Westeros, and is famed for its hot springs and glass gardens.]
- winterfell_desc:0 "The heart of the North and home of House Stark, Winterfell is easily one of the greatest castles in all of Westeros, and is famed for its hot springs and glass gardens."
+
+ winterfell_desc:0 "Kuzey'in kalbi ve Stark Hanedanı'nın yurdu olan Winterfell, Westeros'un en büyük kalelerinden biridir ve kaplıcaları ile cam bahçeleriyle ünlüdür."
 
  gulltown_name:0 "Martı Şehri"
-### TODO NOT-IN-ST: gulltown_desc [AGOT: The largest settlement in the Vale, Gulltown is also a primary port of call for ships traveling between the Free Cities, King's Landing, and the North.]
- gulltown_desc:0 "The largest settlement in the Vale, Gulltown is also a primary port of call for ships traveling between the Free Cities, King's Landing, and the North."
-### TODO NOT-IN-ST: morne_name [AGOT: Morne]
+
+ gulltown_desc:0 "Vadi'nin en büyük yerleşimi olan Martı Kenti, aynı zamanda Özgür Şehirler, Kralın Şehri ve Kuzey arasında seyreden gemiler için başlıca uğrak limanıdır."
+
  morne_name:0 "Morne"
-### TODO NOT-IN-ST: morne_desc [AGOT: An ancient Andal ruin on the island of Tarth, Morne is shrouded in mystery. Little is known about it besides being the homeland of the famed hero, Ser Galladon of Morne.]
- morne_desc:0 "An ancient Andal ruin on the island of Tarth, Morne is shrouded in mystery. Little is known about it besides being the homeland of the famed hero, Ser Galladon of Morne."
+
+ morne_desc:0 "Tarth adasındaki kadim bir Andal harabesi olan Morne, gizemle örtülüdür. Ünlü kahraman Morne'lu Ser Galladon'un memleketi olması dışında hakkında çok az şey bilinir."
 
  plankytown_name:0 "Planky Kasabası"
-### TODO NOT-IN-ST: plankytown_desc [AGOT: Said to be the closest thing to a city the Dornish have, Planky Town is a bustling trading town at the mouth of the Greenblood. Constructed out of roped together barges, it floats on the river.]
- plankytown_desc:0 "Said to be the closest thing to a city the Dornish have, Planky Town is a bustling trading town at the mouth of the Greenblood. Constructed out of roped together barges, it floats on the river."
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_dragonlore [AGOT: Site of Draconic Significance]
- TRAVEL_POINT_OF_INTEREST_TT_agot_poi_dragonlore:0 "Site of Draconic Significance"
-### TODO NOT-IN-ST: agot_poi_dragonlore_tt [AGOT: Will trigger a Dragonlore Event]
- agot_poi_dragonlore_tt:0 "Will trigger a Dragonlore Event"
-### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_wild_dragon [AGOT: #X Wild Dragon#!]
- TRAVEL_POINT_OF_INTEREST_TT_agot_poi_wild_dragon:0 "#X Wild Dragon#! "
-### TODO NOT-IN-ST: agot_poi_wild_dragon_tt [AGOT: A wild, full grown dragon resides in this region.]
- agot_poi_wild_dragon_tt:0 "A wild, full grown dragon resides in this region."
+
+ plankytown_desc:0 "Dornelilerin bir şehre en yakın sahip oldukları şey olduğu söylenen Planky Kasabası, Yeşilkan'ın ağzında hareketli bir ticaret kasabasıdır. Birbirine halatlarla bağlanmış mavnalardan inşa edilen kasaba, nehrin üzerinde yüzer."
+
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_dragonlore:0 "Ejderha Açısından Önemli Alan"
+
+ agot_poi_dragonlore_tt:0 "Bir Ejderha Bilgisi Etkinliği tetikleyecek"
+
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_wild_dragon:0 "#X Vahşi Ejderha#! "
+
+ agot_poi_wild_dragon_tt:0 "Bu bölgede vahşi, tam yetişkin bir ejderha yaşıyor."
