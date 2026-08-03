@@ -13,8 +13,8 @@
  CHARACTER_UI_NAME:0 "[CHARACTER.GetUIName]"
  CREATE_MARRIAGE:2 "[CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [marriage|E] yapılmasını öner."
  BETROTHAL_ONE_CHARACTER:2 "İkisinden biri [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner."
-### TODO AGOT-CHANGED: BETROTHAL_BOTH_CHARACTERS [AGOT: Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E] | TR: İkisi de [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner.]
- BETROTHAL_BOTH_CHARACTERS:3 "Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]"
+
+ BETROTHAL_BOTH_CHARACTERS:0 "İkisi de [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner."
  CREATE_GRAND_WEDDING_PROMISE:2 "[CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında, söz verilen [GetActivityType( 'activity_wedding' ).GetName] düzenlenene kadar [betrothal|E] yapılmasını öner."
  CREATE_GRAND_WEDDING_PROMISE_ONE_CHILD:2 "$BETROTHAL_ONE_CHARACTER$ [GetActivityType( 'activity_wedding' ).GetName] düzenleme sözü de verilecek."
  CREATE_GRAND_WEDDING_PROMISE_BOTH_CHILD:2 "$BETROTHAL_BOTH_CHARACTERS$ [GetActivityType( 'activity_wedding' ).GetName] düzenleme sözü de verilecek."
@@ -41,8 +41,8 @@
  ACTOR_RIVAL_TO_ME_REASON:0 "[recipient.GetShortUIName|U], [actor.GetShortUIName] adlı kişinin Rakibi: $VALUE|+0$"
  NEMESIS_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U], [recipient.GetShortUIName] adlı kişinin Can Düşmanı: $VALUE|+0$"
  ACTOR_NEMESIS_TO_ME_REASON:0 "[recipient.GetShortUIName|U], [actor.GetShortUIName] adlı kişinin Can Düşmanı: $VALUE|+0$"
-### TODO AGOT-CHANGED: MARRIAGE_DESPERATION [AGOT: [secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'are', 'is' )] desperate to marry: $VALUE|+=0$ | TR: [secondary_recipient.GetShortUIName] adlı kişinin yaşı: $VALUE|+=0$]
- MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'are', 'is' )] desperate to marry: $VALUE|+=0$"
+
+ MARRIAGE_DESPERATION:0 "[secondary_recipient.GetShortUIName] adlı kişinin yaşı: $VALUE|+=0$"
  MARRY_CONSANGUINITY_REASON:0 "Evlilik [incestuous|E] olur: $VALUE|+=0$"
  MATRILINEAL_WARNING:0 "@warning_icon! #X Bu evlilikten doğan çocuklar [CHARACTER.GetShortUIName] adlı kişinin [Concept( 'dynasty', 'Hanedanına' )|E] mensup olur #! #weak ([CHARACTER.GetDynastyName|V])#!"
  MATRILINEAL_REASON:0 "Anasoylu Evlilik: $VALUE|=+0$"
@@ -102,8 +102,8 @@
  low_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_low' )] ile başlar"
  normal_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_normal' )] ile başlar"
  high_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_high' )] ile başlar"
-### TODO AGOT-CHANGED: expected_to_pay_tribute [AGOT: [SCOPE.sC('tributary_loc').GetShortUIName|U] will be expected to [travel|E] to [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] to pay to tribute to [SCOPE.sC('suzerain_loc').GetPrimaryTitle.GetBaseNameNoTierNoTooltip] on a regular basis | TR: [SCOPE.sC('tributary_loc').GetShortUIName|U] adlı kişiden belli aralıklarla $tribute_mission_decision_china$mak için [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] şehrine [travel|E] etmesi beklenecek]
- expected_to_pay_tribute: "[SCOPE.sC('tributary_loc').GetShortUIName|U] will be expected to [travel|E] to [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] to pay to tribute to [SCOPE.sC('suzerain_loc').GetPrimaryTitle.GetBaseNameNoTierNoTooltip] on a regular basis"
+
+ expected_to_pay_tribute:0 "[SCOPE.sC('tributary_loc').GetShortUIName|U] adlı kişiden belli aralıklarla $tribute_mission_decision_china$mak için [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] şehrine [travel|E] etmesi beklenecek"
  low_nomad_tribute_herd: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'nomad_government_herd' ).GetObligationName( 'herd_tax_low' )] ile başlar"
  normal_nomad_tribute_herd: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'nomad_government_herd' ).GetObligationName( 'herd_tax_normal' )] ile başlar"
  high_nomad_tribute_herd: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'nomad_government_herd' ).GetObligationName( 'herd_tax_high' )] ile başlar"
@@ -245,10 +245,10 @@
  MARRIAGE_PRESTIGE_DESC_THEIR:4 "[Character.GetShortUINameNotMe] elde edecek: @prestige_icon! [MatchOffer.GetRecipientPrestige|+0]"
  MARRIAGE_PRESTIGE_TOOLTIP_OUR:4 "[Character.GetShortUINameNotMe], [prestige_i] [MatchOffer.GetActorPrestige|+0] elde edecek:\n[MatchOffer.GetActorPrestigeDesc]"
  MARRIAGE_PRESTIGE_TOOLTIP_THEIR:3 "[Character.GetShortUINameNotMe], [prestige_i] [MatchOffer.GetRecipientPrestige|+0] elde edecek:\n[MatchOffer.GetRecipientPrestigeDesc]"
-### TODO AGOT-CHANGED: MARRIAGE_INBREEDING_RISK_WE [AGOT: We are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E] | TR: Akrabayız ve çocuklarımızın [inbred|E] olmaları için [MatchOffer.GetInbreedingChance|V%^1] risk var]
- MARRIAGE_INBREEDING_RISK_WE: "We are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of our children being [inbred|E]"
-### TODO AGOT-CHANGED: MARRIAGE_INBREEDING_THEY [AGOT: They are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E] | TR: Akrabalar ve çocuklarının [inbred|E] olmaları için [MatchOffer.GetInbreedingChance|V%^1] risk var]
- MARRIAGE_INBREEDING_THEY: "They are related and there is a\n[MatchOffer.GetInbreedingChance|V%^1] risk of their children being [inbred|E]"
+
+ MARRIAGE_INBREEDING_RISK_WE:0 "Akrabayız ve çocuklarımızın [inbred|E] olmaları için [MatchOffer.GetInbreedingChance|V%^1] risk var"
+
+ MARRIAGE_INBREEDING_THEY:0 "Akrabalar ve çocuklarının [inbred|E] olmaları için [MatchOffer.GetInbreedingChance|V%^1] risk var"
  NO_INBREEDING_RISK_WE:0 "Akraba değiliz ve bu nedenle çocuklarımızın [inbred|E] olma riski yok"
  NO_INBREEDING_THEY:0 "Akraba değiller ve bu nedenle çocuklarının [inbred|E] olma riski yok"
  MARRYING_INTO_HOUSE:0 "Evlenerek $HOUSE$ Hanesine dâhil oluyor: $PRESTIGE|0+$"

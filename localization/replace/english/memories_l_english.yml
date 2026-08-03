@@ -1186,8 +1186,8 @@
  accolade_ranked_up_desc_second_perspective: "Dövüş becerileriniz [liege.GetTitledFirstName] tarafından fark edildi ve tanınmış [liege.Custom('KnightCulturePluralNoTooltip')|l] arasında yerinizi aldınız"
  accolade_ranked_up_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] dövüş becerileri [liege.GetTitledFirstName] tarafından fark edildi ve tanınmış [liege.Custom('KnightCulturePluralNoTooltip')|l] arasında yerini aldı"
  ward_returned_home_title: "Eğitim Tamamlandı"
-### TODO AGOT-CHANGED: ward_returned_home_desc_guardian [AGOT: [ward.GetTitledFirstName] returned from [ward.GetHerHis] education under [guardian.GetTitledFirstName] in [realm.GetNameNoTier] | TR: [ward.GetTitledFirstName], [realm.GetNameNoTier] topraklarında [guardian.GetTitledFirstName] tarafından aldığı eğitimi tamamladı]
- ward_returned_home_desc_guardian: "[ward.GetTitledFirstName] returned from [ward.GetHerHis] education under [guardian.GetTitledFirstName] in [realm.GetNameNoTier]"
+
+ ward_returned_home_desc_guardian:0 "[ward.GetTitledFirstName], [realm.GetNameNoTier] topraklarında [guardian.GetTitledFirstName] tarafından aldığı eğitimi tamamladı"
  ward_returned_home_desc: "[ward.GetTitledFirstName] yurtdışındaki eğitimini tamamlayarak geri döndü"
  guardian_returned_home_title: "$ward_returned_home_title$"
  guardian_returned_home_desc_ward: "[guardian.GetTitledFirstName], [realm.GetNameNoTier] topraklarında [ward.GetTitledFirstName] adlı kişiyi eğitmeyi tamamladı"
@@ -1218,8 +1218,8 @@
  ce1_contracted_epidemic_desc: "[ROOT.Var('epidemic_infected').Trait.GetName( GetNullCharacter )] hastalığına yakalandım"
  ce1_contracted_epidemic_desc_second_perspective: "[ROOT.Var('epidemic_infected').Trait.GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandınız"
  ce1_contracted_epidemic_desc_third_perspective: "[owner.GetTitledFirstName], [ROOT.Var('epidemic_infected').Trait.GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandı"
-### TODO AGOT-CHANGED: ce1_contracted_black_death [AGOT: Contracted the Great Spring Sickness | TR: Kara Vebaya Yakalandı]
- ce1_contracted_black_death: "Contracted the Great Spring Sickness"
+
+ ce1_contracted_black_death:0 "Kara Vebaya Yakalandı"
  ce1_contracted_black_death_desc: "[GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandım"
  ce1_contracted_black_death_desc_second_perspective: "[GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandınız"
  ce1_contracted_black_death_desc_third_perspective: "[owner.GetTitledFirstName], [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandı"
@@ -1464,8 +1464,8 @@
  offered_realm_to_confederation_memory: "ülkesini konfederasyona adadı"
  offered_realm_to_confederation_memory_desc: "[liege.GetName] adlı kişiye, topraklarımı ebediyen konfederasyona adadığıma yemin ettim"
  offered_realm_to_confederation_memory_desc_second_perspective: "[liege.GetName] adlı kişiye, topraklarınızı ebediyen konfederasyona adadığınıza yemin ettiniz"
-### TODO AGOT-ONLY: offered_realm_to_confederation_memory_desc_third_perspective [AGOT: ]
- offered_realm_to_confederation_memory_desc_third_perspective: ""in a pledge to [liege.GetName], [owner.GetName] promised [owner.GetHerHis] lands to the confederation for all eternity""
+
+ offered_realm_to_confederation_memory_desc_third_perspective:0 ""bir [liege.GetName]'e verilen sözde, [owner.GetName] topraklarını sonsuza dek konfederasyona vaat etti""
  held_a_coronation_memory: "taç giyme töreni düzenlendi"
  held_a_coronation_memory_desc: "[owner.GetPrimaryTitle.GetName] topraklarındaki meşru [owner.GetTitleAsNameNoTooltip] olarak [coronator.GetTitledFirstName] tarafından taç giydirildim"
  held_a_coronation_memory_desc_second_perspective: "[owner.GetPrimaryTitle.GetName] topraklarındaki meşru [owner.GetTitleAsNameNoTooltip] olarak [coronator.GetTitledFirstName] tarafından taç giydirildiniz"

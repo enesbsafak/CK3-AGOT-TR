@@ -92,18 +92,18 @@
  bp2_character_interaction.1001.desc_vengeful: "$bp2_character_interaction.desc_vengeful$"İntikam," diye kıkırdıyor [recipient.GetFirstName], "Birkaç fikrim var...""
  bp2_character_interaction.desc_forgiving: "Kaybettiği bir [ROOT.Char.Custom('BG_GameType_Generic')] oyunun hüznünü yaşarken.\n\n"O pislik hile yaptı!" diye ısrar ediyor. "Gözündeki o parçayı hak etti! Ama... artık arkadaş olmak istemiyor..."\n\nBu anı fırsata çeviriyor ve şöyle diyorum: "Bağışlama üzerine düşün. Bırak her zaman kalbinde var olsun. Hile yapana merhamet etseydin, şimdi bir arkadaşın daha olmaz mıydı?"\n\n"
  bp2_character_interaction.1001.desc_forgiving: "$bp2_character_interaction.desc_forgiving$"Evet," diye iç geçiriyor. "Bunu hatırlayacağım.""
-### TODO NOT-IN-ST: bp2_character_interaction.desc_authoritative [AGOT: and a servant boy, who seems to be lounging while [recipient.GetFirstName] is sweeping!]
- bp2_character_interaction.desc_authoritative: "and a servant boy, who seems to be lounging while [recipient.GetFirstName] is sweeping! "Is that not your job, boy?" I say harshly, the boy turning quickly, clearly not having heard me approach. "Y-yes...sorry [ROOT.Char.GetTitledFirstName]!" he stammers out an apology, but I have already turned to [recipient.GetFirstNameNoTooltip] "You let this servant tell you what to do? Drop that immediately. Command him to sweep." I say, crossing my arms in expectation.\n\n"
-### TODO NOT-IN-ST: bp2_character_interaction.1001.desc_authoritative [AGOT: $bp2_character_interaction.desc_authoritative$With a hard look [recipient.GetSheHe] does exactly that, standing taller and echoing my instruction in a commanding voice]
- bp2_character_interaction.1001.desc_authoritative: "$bp2_character_interaction.desc_authoritative$With a hard look [recipient.GetSheHe] does exactly that, standing taller and echoing my instruction in a commanding voice "#EMP Sweep#!, boy. That is your lot in life.""
-### TODO NOT-IN-ST: bp2_character_interaction.desc_rude [AGOT: who is reciting a speech that [recipient.GetHerHis] tutors asked [recipient.GetHerHim] to write. I sit and listen for a bit, but before long realize that it's the most boring thing I've ever heard.]
- bp2_character_interaction.desc_rude: "who is reciting a speech that [recipient.GetHerHis] tutors asked [recipient.GetHerHim] to write. I sit and listen for a bit, but before long realize that it's the most boring thing I've ever heard. "That's a fucking disgrace [recipient.GetFirstNameNoTooltip]! Put some #EMP passion #! in it! At least don't sound like such a pious lout!"\n\n"
-### TODO NOT-IN-ST: bp2_character_interaction.1001.desc_rude [AGOT: $bp2_character_interaction.desc_rude$]
- bp2_character_interaction.1001.desc_rude: "$bp2_character_interaction.desc_rude$"Well they won't fucking like it if I curse at them will they?" [recipient.GetFirstNameNoTooltip] says back, and I can't help but burst into laughter at the contrast!"
-### TODO NOT-IN-ST: bp2_character_interaction.desc_inquisitive [AGOT: who has a troubled look on [recipient.GetHerHis] face.]
- bp2_character_interaction.desc_inquisitive: "who has a troubled look on [recipient.GetHerHis] face. "What bothers you?" I inquire, assessing each wrinkle in [recipient.GetHerHis] little forehead.\n\n"It was a dream," [recipient.GetSheHe] says. "I dreamed of being chased by shadows in a dark forest."\n\n"Then ask yourself, my child, what the shadows might be — fears, regrets, or something unknown? Why a forest and not an open plain?" I share. "Dreams are puzzles your mind sets for itself. To question them is to learn what stirs within you."\n\n"
-### TODO NOT-IN-ST: bp2_character_interaction.1001.desc_inquisitive [AGOT: $bp2_character_interaction.desc_inquisitive$]
- bp2_character_interaction.1001.desc_inquisitive: "$bp2_character_interaction.desc_inquisitive$"It really makes you think..." [recipient.GetSheHe] mutters with a slight lilt in [recipient.GetHerHis] voice."
+
+ bp2_character_interaction.desc_authoritative:0 "ve süpürürken [recipient.GetFirstName] ortalıkta pinekliyor gibi görünen bir hizmetkâr oğlan! "Süpürmek senin işin değil mi, oğlum?" diye sertçe söylerim; oğlan hızla dönüyor, belli ki yaklaştığımı duymamış. "E-evvet... kusura bakmayın [ROOT.Char.GetTitledFirstName]!" diye kekeme bir özür döker, ama ben çoktan [recipient.GetFirstNameNoTooltip]'e dönmüşümdür "Bu hizmetkârın sana ne yapacağını söylemesine izin mi veriyorsun? Derhal bırak şunu. Ona süpürmesini emret." derim, beklentiyle kollarımı kavuşturarak.\n\n"
+
+ bp2_character_interaction.1001.desc_authoritative:0 "$bp2_character_interaction.desc_authoritative$Sert bir bakışla [recipient.GetSheHe] aynen öyle yapıyor, dikleşiyor ve emrimi emredici bir sesle tekrarlıyor "#EMP Süpür#!, oğlum. Hayattaki kaderin bu.""
+
+ bp2_character_interaction.desc_rude:0 "kendisinden öğretmenlerinin [recipient.GetHerHim]den yazmasını istediği bir konuşmayı ezberden okuyan. Biraz oturup dinliyorum, ama çok geçmeden hayatımda duyduğum en sıkıcı şey olduğunu fark ediyorum. "Bu kahrolası bir rezalet [recipient.GetFirstNameNoTooltip]! Biraz #EMP tutku#! kat! En azından bu kadar dindar bir serseri gibi konuşma!"\n\n"
+
+ bp2_character_interaction.1001.desc_rude:0 "$bp2_character_interaction.desc_rude$"Ee onlara küfredersem bundan hoşlanmayacaklar, değil mi?" diye karşılık verir [recipient.GetFirstNameNoTooltip] ve karşıtlığa kahkaha atmadan edemiyorum!""
+
+ bp2_character_interaction.desc_inquisitive:0 "yüzünde tedirgin bir ifade olan. "Seni rahatsız eden ne?" diye soruyorum, [recipient.GetHerHis] minik alnındaki her kırışıklığı değerlendirerek.\n\n"Bir rüyaydı," diyor. "Karanlık bir ormanda gölgeler tarafından kovalandığımı gördüm."\n\n"O halde kendine sor, evladım, gölgeler ne olabilir — korkular mı, pişmanlıklar mı, yoksa bilinmeyen bir şey mi? Neden açık bir ova değil de bir orman?" diye paylaşırım. "Rüyalar, zihninin kendine kurduğu bulmacalardır. Onları sorgulamak, içinde neyin kıpırdandığını öğrenmektir."\n\n"
+
+ bp2_character_interaction.1001.desc_inquisitive:0 "$bp2_character_interaction.desc_inquisitive$"Gerçekten insanı düşündürüyor..." [recipient.GetSheHe] sesinde hafif bir nağmeyle mırıldanıyor.""
  bp2_character_interaction.1001.a: "Aferin sana!"
  bp2_character_interaction.1001.a.tt: "[target_trait.GetNameNoTooltip(GetPlayer)|l] özelliği aktarıldı"
  bp2_character_interaction.1001.a.flavor: "Birbirinizi anlamaya başlıyorsunuz ve size daha çok benzemeye başlıyor."
@@ -145,12 +145,12 @@
  bp2_character_interaction.1002.desc_eccentric: "$bp2_character_interaction.desc_eccentric$"Sanırım," diyor, "Uyum sağlamayı tercih ederim...""
  bp2_character_interaction.1002.desc_vengeful: "$bp2_character_interaction.desc_vengeful$"Ama... o zaman bir daha asla benimle oynamaz..."
  bp2_character_interaction.1002.desc_forgiving: "$bp2_character_interaction.desc_forgiving$"Bir #EMP arkadaş#! mı?!" diye haykırıyor. "Hayır! Hâlâ bir #EMP üçkâğıtçı#! ile arkadaş olmuş olurum!""
-### TODO NOT-IN-ST: bp2_character_interaction.1002.desc_authoritative [AGOT: $bp2_character_interaction.desc_authoritative$I can see [recipient.GetSheHe] is about to cry, eyes flitting between me and the serving boy, before dropping the broom and running away. I let out a disappointed sigh.]
- bp2_character_interaction.1002.desc_authoritative: "$bp2_character_interaction.desc_authoritative$I can see [recipient.GetSheHe] is about to cry, eyes flitting between me and the serving boy, before dropping the broom and running away. I let out a disappointed sigh."
-### TODO NOT-IN-ST: bp2_character_interaction.1002.desc_rude [AGOT: $bp2_character_interaction.desc_rude$]
- bp2_character_interaction.1002.desc_rude: "$bp2_character_interaction.desc_rude$"There is no need to be so vulgar!" [recipient.GetFirstNameNoTooltip] says back, aghast, and I let out a sigh of fucking disappointment."
-### TODO NOT-IN-ST: bp2_character_interaction.1002.desc_inquisitive [AGOT: $bp2_character_interaction.desc_inquisitive$]
- bp2_character_interaction.1002.desc_inquisitive: "$bp2_character_interaction.desc_inquisitive$"I've no time for useless questions," [recipient.GetSheHe] retorts. "A dream's a dream. Worth no more than grumpkins or snarks.""
+
+ bp2_character_interaction.1002.desc_authoritative:0 "$bp2_character_interaction.desc_authoritative$[recipient.GetSheHe]'in ağlamak üzere olduğunu görüyorum, gözleri benimle hizmetkâr oğlan arasında gidip geliyor, sonra süpürgeyi bırakıp kaçıyor. Hayal kırıklığıyla iç çekiyorum.""
+
+ bp2_character_interaction.1002.desc_rude:0 "$bp2_character_interaction.desc_rude$"Bu kadar kaba olmaya gerek yok!" diye karşılık verir [recipient.GetFirstNameNoTooltip] dehşet içinde ve ben lanet olası bir hayal kırıklığıyla iç çekiyorum.""
+
+ bp2_character_interaction.1002.desc_inquisitive:0 "$bp2_character_interaction.desc_inquisitive$"Faydasız sorulara vaktim yok," diye tersler [recipient.GetSheHe]. "Rüya rüyadır. Grumkinden ya da snarktan daha değerli değildir.""
  bp2_character_interaction.1002.a: "Bu çocuğa herhangi bir şey katabilecek miyim...?"
  bp2_character_interaction.1002.a.tt: "[target_trait.GetNameNoTooltip(GetPlayer)|l] özelliği aktarılamadı"
  bp2_character_interaction.1002.a.flavor: "Öğretileriniz isteksiz kulaklara giriyor."

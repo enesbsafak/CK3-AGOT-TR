@@ -675,10 +675,10 @@
  rival_took_title_corresponding:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin sahip olduğu bir unvanı aldı."
  rival_had_relative_freed:0 "[CHARACTER.GetShortUINameNotMe|U] kendi hapishanesinden [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin bir akrabasını zorla serbest bırakmak zorunda kaldı."
  rival_had_relative_freed_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U] kendi hapishanesinden [CHARACTER.GetShortUINameNotMe] adlı karakterin bir akrabasını zorla serbest bırakmak zorunda kaldı."
-### TODO AGOT-CHANGED: rival_executed_relative [AGOT: [CHARACTER.GetShortUIName|U] executed [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] imprisoned relative. | TR: [CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin tutsak olan akrabasını infaz etti.]
- rival_executed_relative:0 "[CHARACTER.GetShortUIName|U] executed [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] imprisoned relative."
-### TODO AGOT-CHANGED: rival_executed_relative_corresponding [AGOT: [TARGET_CHARACTER.GetShortUIName|U] executed [CHARACTER.GetShortUINamePossessiveNoTooltip] imprisoned relative. | TR: [TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin tutsak olan akrabasını infaz etti.]
- rival_executed_relative_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] executed [CHARACTER.GetShortUINamePossessiveNoTooltip] imprisoned relative."
+
+ rival_executed_relative:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin tutsak olan akrabasını infaz etti."
+
+ rival_executed_relative_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin tutsak olan akrabasını infaz etti."
  rival_exhumed_relative:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin akrabasını mezarından çıkararak üzerinde tıbbi deneyler yapmaya karar verdi."
  rival_exhumed_relative_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMeNoTooltip] adlı karakterin akrabasını mezarından çıkararak üzerinde tıbbi deneyler yapmaya karar verdi."
  rival_frontier_confiscation:0 "[CHARACTER.GetShortUINameNotMeNoTooltip|U] adlı karakterin unvanı [TARGET_CHARACTER.GetShortUINameNotMe] tarafından kahramanca savunulduğu için ona verildi."
@@ -1084,10 +1084,10 @@
  rival_linguistic_mishap_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karaktere yanlışlıkla başka bir dilde hakaret etti."
  rival_linguistic_request:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterden kendi ana dilini öğrenmesini talep etti."
  rival_linguistic_request_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakterden kendi ana dilini öğrenmesini talep etti."
-### TODO AGOT-CHANGED: rival_lost_duel [AGOT: [TARGET_CHARACTER.GetShortUIName|U] bested [CHARACTER.GetShortUIName] in a duel. | TR: [CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakteri bir düelloda mağlup etti.]
- rival_lost_duel:0 "[TARGET_CHARACTER.GetShortUIName|U] bested [CHARACTER.GetShortUIName] in a duel."
-### TODO AGOT-CHANGED: rival_lost_duel_corresponding [AGOT: [CHARACTER.GetShortUIName|U] bested [TARGET_CHARACTER.GetShortUIName] in a duel. | TR: [TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakteri bir düelloda mağlup etti.]
- rival_lost_duel_corresponding:1 "[CHARACTER.GetShortUIName|U] bested [TARGET_CHARACTER.GetShortUIName] in a duel."
+
+ rival_lost_duel:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakteri bir düelloda mağlup etti."
+
+ rival_lost_duel_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakteri bir düelloda mağlup etti."
  rival_love_triangle_allowed:1 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin eşi olan [TARGET_CHARACTER_2.GetShortUINameX] adlı karakterin gönlünü çaldı."
  rival_love_triangle_allowed_corresponding:1 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe|U] adlı karakterin eşi olan [TARGET_CHARACTER_2.GetShortUINameX] adlı karakterin gönlünü çaldı."
  rival_love_triangle:1 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin eşini ayartmaya çalışırken yakalandı."
@@ -1280,8 +1280,8 @@
  rival_poisoned_against_by_regent: "[CHARACTER.GetShortUINameNotMe|U], naibi tarafından [TARGET_CHARACTER.GetShortUINameNotMe] adlı karaktere karşı dolduruldu"
  rival_poisoned_against_by_regent_corresponding: "[TARGET_CHARACTER.GetShortUINameNotMe|U], naibi tarafından [CHARACTER.GetShortUINameNotMe] adlı karaktere karşı dolduruldu"
  rival_regent_denied_access_to_family: "[TARGET_CHARACTER.GetShortUINameNotMe|E], naiplik yetkilerini kullanarak [CHARACTER.GetShortUINAMENotMe] adlı karakterin ailesini görmesini engelledi"
-### TODO AGOT-ONLY: rival_regent_denied_access_to_family_corresponding [AGOT: ]
- rival_regent_denied_access_to_family_corresponding: ""
+
+ rival_regent_denied_access_to_family_corresponding:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  rival_embezzled_and_refused_to_reimburse:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin altınlarını zimmetine geçirdi ve geri ödemeyi reddetti."
  rival_embezzled_and_refused_to_reimburse_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakterin altınlarını zimmetine geçirdi ve geri ödemeyi reddetti."
  rival_tried_to_embezzle:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin altınlarını zimmetine geçirmeye çalışırken yakalandı."
@@ -1350,10 +1350,10 @@
  lover_witch_poem_corresponding:1 "[CHARACTER.GetShortUINameNotMe], [TARGET_CHARACTER.GetShortUINameNotMe|U] adlı karaktere bir şiir yazdı. Şiirin içeriği oldukça ilginçti..."
  lover_adventurer_thirst:0 "[TARGET_CHARACTER.GetShortUINameNotMe] mektuplarında [CHARACTER.GetShortUINameNotMe] adlı karakteri ne kadar özlediğini yazdı, o da karşılık verdi."
  lover_adventurer_thirst_corresponding:0 "[CHARACTER.GetShortUINameNotMe] mektuplarında [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakteri ne kadar özlediğini yazdı, o da karşılık verdi."
-### TODO AGOT-CHANGED: lover_court_godiva [AGOT: [TARGET_CHARACTER.GetShortUIName|U] compared [CHARACTER.GetShortUINamePossessive] beauty to that of the famous Jonquil the Maid. | TR: [TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakterin güzelliğini ünlü Leydi Godiva'nın güzelliğiyle karşılaştırdı.]
- lover_court_godiva:0 "[TARGET_CHARACTER.GetShortUIName|U] compared [CHARACTER.GetShortUINamePossessive] beauty to that of the famous Jonquil the Maid."
-### TODO AGOT-CHANGED: lover_court_godiva_corresponding [AGOT: [CHARACTER.GetShortUIName|U] compared [TARGET_CHARACTER.GetShortUINamePossessive] beauty to that of the famous Jonquil the Maid. | TR: [CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin güzelliğini ünlü Leydi Godiva'nın güzelliğiyle karşılaştırdı.]
- lover_court_godiva_corresponding:0 "[CHARACTER.GetShortUIName|U] compared [TARGET_CHARACTER.GetShortUINamePossessive] beauty to that of the famous Jonquil the Maid."
+
+ lover_court_godiva:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakterin güzelliğini ünlü Leydi Godiva'nın güzelliğiyle karşılaştırdı."
+
+ lover_court_godiva_corresponding:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin güzelliğini ünlü Leydi Godiva'nın güzelliğiyle karşılaştırdı."
  lover_mystic_lust:0 "[CHARACTER.GetShortUINameNotMe|U], bir hac yolculuğunun sonunda gizemli ve mistik [TARGET_CHARACTER.GetShortUINameNotMe] ile yakınlaştı."
  lover_mystic_lust_corresponding:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U] bir hac yolculuğunun sonunda gizemli ve mistik [CHARACTER.GetShortUINameNotMe] ile yakınlaştı."
  lover_feast_crush:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], bir ziyafet sırasında [CHARACTER.GetShortUINameNotMe] adlı karaktere çapkın bir mesaj gönderdi."

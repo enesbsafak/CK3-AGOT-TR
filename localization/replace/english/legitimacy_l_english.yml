@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  default_legitimacy_level_0: "[Concept( 'legitimacy', 'Gayrimeşru' )|E] Hüküm"
  default_legitimacy_level_1: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_2: "[legitimacy|E] $LEVEL|V:roman$"
@@ -11,10 +11,10 @@
  default_legitimacy_level_0_flavor: "Gayrimeşru Hükümdar"
  default_legitimacy_level_1_flavor: "Sorgulanmış Hükümdar"
  default_legitimacy_level_2_flavor: "Kabul Görmüş Hükümdar"
-### TODO AGOT-CHANGED: default_legitimacy_level_3_flavor [AGOT: Lawful | TR: Haklı Hükümdar]
- default_legitimacy_level_3_flavor: "Lawful"
-### TODO AGOT-CHANGED: default_legitimacy_level_4_flavor [AGOT: Rightful | TR: Gerçek Hükümdar]
- default_legitimacy_level_4_flavor: "Rightful"
+
+ default_legitimacy_level_3_flavor:0 "Haklı Hükümdar"
+
+ default_legitimacy_level_4_flavor:0 "Gerçek Hükümdar"
 
  default_legitimacy_level_5_flavor:0 "Gerçek"
  default_legitimacy_level_6_flavor: "Yazgılı Hükümdar"
@@ -46,5 +46,5 @@
  legitimacy_high_modifier_tt: "Yüksek [legitimacy|E]"
  legitimacy_low_modifier_tt: "Düşük [legitimacy|E]"
  legitimacy_on_level_entered: "#S Değişen Seviyede:#!\n"
-### TODO AGOT-CHANGED: legitimacy_on_entered_lost_mandate [AGOT:  | TR: $legitimacy_on_level_entered$@warning_icon! #X]
- legitimacy_on_entered_lost_mandate: ""
+
+ legitimacy_on_entered_lost_mandate:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"

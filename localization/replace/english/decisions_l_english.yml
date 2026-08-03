@@ -96,8 +96,8 @@
  commit_suicide_decision_desc_stressed:0 "Her geçen gün daha büyük bir baskı hissediyorum. Nereye gidersem gideyim, ne yaparsam yapayım, hayat dayanılmaz hâle gelmiş durumda. Her şey kontrolden çıkıyor. Bir an önce bu baskıya bir son vermeliyim!"
  commit_suicide_decision_tooltip:2 "Bu dünyadan göçme vaktim geldi."
  commit_suicide_decision_effect_tooltip:0 "@warning_icon! Hayatınıza son vermeye çalışacaksınız, bunu istediğinizden emin misiniz?"
-### TODO AGOT-CHANGED: commit_suicide_decision_confirm [AGOT: [ROOT.Char.Custom('AGOTConfirmSuicide')] | TR: Ölüm vaktim geldi]
- commit_suicide_decision_confirm:0 "[ROOT.Char.Custom('AGOTConfirmSuicide')]"
+
+ commit_suicide_decision_confirm:0 "Ölüm vaktim geldi"
  pet_dog_decision:0 "Köpeğini Sev ([ROOT.Char.Custom('DogStoryName')])"
  pet_dog_decision_desc:0 "Biraz zaman ayırıp dört ayaklı dostum [ROOT.Char.Custom('DogStoryName')] ile vakit geçireceğim. Bazıları köpeklerin basit hayvanlar olduğunu söylüyor ama hayat ne kadar zorlaşırsa zorlaşsın onun benim yanımda olacağını biliyorum."
  pet_dog_decision_tooltip:0 "Köpeğini sev"
@@ -125,10 +125,10 @@
  create_cadet_branch_decision_tooltip:1 "Bir Alt Hane oluşturacaksınız"
  create_cadet_branch_decision_desc:0 "Belki de artık ailemle beraber [ROOT.Char.GetHouse.GetNameNoTooltip] Hanesinin mirasını terk edip, yüce hanedanımızda başında benim olduğum yeni bir haneyle tarihte kendi yolumuzu çizmemizin vakti gelmiştir."
  create_cadet_branch_decision_confirm:0 "Alt Hane Oluştur"
-### TODO AGOT-CHANGED: I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE [AGOT: You are fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E] | TR: [Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha öndesiniz]
- I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
-### TODO AGOT-CHANGED: I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE [AGOT: You are #bold not#! fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E] | TR: [Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha önde #bold değilsiniz#!]
- I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are #bold not#! fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
+
+ I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:0 "[Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha öndesiniz"
+
+ I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:0 "[Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha önde #bold değilsiniz#!"
  I_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:1 "Atalarınızdan birisi mevcut [Concept( 'house', 'Hanenize' )|E] mensup"
  I_NOT_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:2 "Hayattaki atalarınızdan hiçbiri mevcut [Concept( 'house', 'Hanenize' )|E] mensup değil"
  created_cadet_branch_toast_new_house_desc:2 "Yeni bir Hane"
@@ -218,8 +218,8 @@
  commission_artifact_decision_tooltip:0 "Bir [artifact|E] yaratması için yerel bir zanaatkârla anlaşın"
  commission_artifact_decision_desc:0 "İnsanlara sergileyeceğim güzel eşyalara sahip değilsem, [ROOT.Char.GetTitleAsNameNoTooltip] olmanın ne anlamı var? Yeni bir kılıç hiç de fena olmazdı, belki bir broş..."
  commission_artifact_decision_confirm:0 "Yerel bir Zanaatkârla Anlaş"
-### TODO AGOT-ONLY: commission_artifact_decision_effect_message [AGOT: ]
- commission_artifact_decision_effect_message:0 ""
+
+ commission_artifact_decision_effect_message:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON:0 "Eser Seç"
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "[artifact|E] türü seç"
  commission_artifact_decision.nomad_requirements: "Eser oluşturma malzmemelerine erişimi olmayan bir [Concept('nomad', 'Göçebesiniz')|E]"
@@ -446,8 +446,8 @@
  convert_whole_realm_to_feudalism_decision_desc:0 "Eğer [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], genişlemeye devam etmek ve gelişmek istiyorsa, birlikte eski yöntemleri geride bırakıp yeni bir yönetim metodunu benimsemeliyiz."
  convert_whole_realm_to_feudalism_decision_confirm:0 "[ROOT.Char.Custom('GetTribalReformGovernment')|U] Yöntemleri Benimse"
  convert_whole_realm_to_feudalism_decision_tooltip:0 "[government|E] şeklini [feudalism|E] benimsemek kaydıyla değiştir"
-### TODO AGOT-CHANGED: islamic_vassals_will_convert [AGOT: My [tribal|E] vassals will change to [clan|E] government | TR: Müslüman olduğum için tüm [tribal|E] vasallarım [clan|E] yönetimine geçecek]
- islamic_vassals_will_convert:1 "My [tribal|E] vassals will change to [clan|E] government"
+
+ islamic_vassals_will_convert:0 "Müslüman olduğum için tüm [tribal|E] vasallarım [clan|E] yönetimine geçecek"
  other_vassals_will_convert:1 "[tribal|E] vasallarım [feudalism|E] yönetimine geçecek"
  clan_liege_vassals_will_convert:0 "[liege|E]im [clan_government|E]ne sahip olduğu için benim [tribal|E] vasallarım $game_concept_clan$ olacak"
  feudal_liege_vassals_will_convert:0 "[liege|E]im [feudal_government|E]e sahip olduğu için benim [tribal|E] vasallarım $game_concept_feudal$ olacak"
@@ -851,13 +851,13 @@
  stress_loss_drunkard_decision_tooltip:0 "Rahatla ve biraz stres kaybet"
  stress_loss_drunkard_decision_effect_tooltip:1 "Biraz [stress|E] kaybedeceksiniz"
  stress_loss_drunkard_decision_confirm:0 "Şerefe!"
-### TODO AGOT-CHANGED: stress_loss_hashishiyah_decision [AGOT: Drink Milk of the Poppy | TR: Haşişli Keklere Yumul]
- stress_loss_hashishiyah_decision:1 "Drink Milk of the Poppy"
-### TODO AGOT-CHANGED: stress_loss_hashishiyah_decision_desc [AGOT: Just a few sips, and the stress seems to flow from my body. My mind begins to fog, and a sense of peace and restfulness overcomes me. There is nothing that is quite as relaxing... | TR: Birkaç lokmadan sonra stres bedenimden akıp gidiyor gibi. Zihnim bulanmaya başlıyor, bir huzur ve rahatlık hissiyle doluyor. Bence haşiş kadar rahatlatıcı bir şey yok!]
- stress_loss_hashishiyah_decision_desc:1 "Just a few sips, and the stress seems to flow from my body. My mind begins to fog, and a sense of peace and restfulness overcomes me. There is nothing that is quite as relaxing..."
+
+ stress_loss_hashishiyah_decision:0 "Haşişli Keklere Yumul"
+
+ stress_loss_hashishiyah_decision_desc:0 "Birkaç lokmadan sonra stres bedenimden akıp gidiyor gibi. Zihnim bulanmaya başlıyor, bir huzur ve rahatlık hissiyle doluyor. Bence haşiş kadar rahatlatıcı bir şey yok!"
  stress_loss_hashishiyah_decision_tooltip:1 "Uyuşturucunun getirdiği bulanıklıkta stresinizi azaltın"
-### TODO AGOT-CHANGED: stress_loss_hashishiyah_decision_confirm [AGOT: Bring me a cup! | TR: Bir tabak getirin!]
- stress_loss_hashishiyah_decision_confirm:1 "Bring me a cup!"
+
+ stress_loss_hashishiyah_decision_confirm:0 "Bir tabak getirin!"
  stress_loss_rakish_decision:0 "Genelevi Ziyaret Et"
  stress_loss_rakish_decision_desc:0 "Kucağımda [ROOT.Char.Custom('AttractionWomanManIndef')], genelevdeki diğer her şey ve diğer herkes emrime amade..."
  stress_loss_rakish_decision_desc_woman_ending:0 "Cinsel rahatlama kadar hiçbir şey aklı da aynı şekilde rahatlamıyor."
@@ -1000,10 +1000,10 @@
  court_amenities_interactions.0010.desc.flag_sleeveless:0 "Anlaşılan giysilerinin kol kısmını kestirmiş ve"
  court_amenities_interactions.0010.desc.flag_commoner_clothes:0 "Köylü giysilerini andıran paçavralar giyiyor"
  court_amenities_interactions.0010.desc_outro:0 "bu giysinin ülkenin yeni modası olacağını ilan ediyor! Yetmezmiş gibi saraydaki budalalar da ondan etkilenmiş gibi görünüyor. Elimi kaldırıp bu çılgınlığa müdahale etmeli miyim?"
-### TODO AGOT-ONLY: court_amenities_interactions.0010.a_flag_big_collar [AGOT: ]
- court_amenities_interactions.0010.a_flag_big_collar:0 ""You look like a bird who swallowed a plate!""
-### TODO AGOT-ONLY: court_amenities_interactions.0010.a [AGOT: ]
- court_amenities_interactions.0010.a:0 ""What #EMP are#! you wearing?""
+
+ court_amenities_interactions.0010.a_flag_big_collar:0 ""Bir tabağı yutmuş bir kuşa benziyorsun!""
+
+ court_amenities_interactions.0010.a:0 ""Ne #EMP giyiyorsun#! sen öyle?""
  court_amenities_interactions.0010.b:0 "Dişimi sıkıp gülmemeye çalışmalıyım."
  court_amenities_interactions.0010.a.tt_success:0 "İnsanları giysinin aptalca olduğuna ikna ediyorum"
  court_amenities_interactions.0010.a.tt_failure:0 "İnsanlar bana katılmıyor ve bu giysinin yeni moda olduğunu düşünüyor"
@@ -1019,8 +1019,8 @@
  court_amenities_interactions.0011.desc_lost:0 "Diğer soylular da çok geçmeden [recipient.GetNameNoTooltip] ile birlikte giysimle alay etmeye başlıyor. Anlaşılan insanlar benim tarzıma henüz hazır değiller."
  court_amenities_interactions.0011.a_won:0 "En iyisini ben bilirim!"
  court_amenities_interactions.0011.a_lost:0 "Beni #EMP anlayamıyorlar#!!"
-### TODO AGOT-ONLY: court_amenities_interactions.0012.desc_intro [AGOT: ]
- court_amenities_interactions.0012.desc_intro:0 ""Well, some of us are followers, and others leaders." [actor.GetNameNoTooltip] stands firm in [actor.GetHerHis] commitment to that ridiculous outfit.\n\nWe spend the next few hours debating the nature of high-fashion, with a small crowd of courtiers watching as I fling insult after insult at this fool."
+
+ court_amenities_interactions.0012.desc_intro:0 ""Eee, bazılarımız takipçi, bazılarımız liderdir." [actor.GetNameNoTooltip] o gülünç kıyafete olan bağlılığında kararlı duruyor.\n\nSonraki birkaç saati yüksek modanın doğası üzerine tartışarak geçiriyoruz; küçük bir saraylı kalabalığı, bu aptala hakaret üstüne hakaret savururken beni izliyor.""
  court_amenities_interactions.0012.desc_won:0 "Çok geçmeden saray mensuplarının büyük bir kısmı benim safıma katılarak [actor.GetNameNoTooltip] ile alay etmeye başlıyor, nihayet başardım."
  court_amenities_interactions.0012.desc_lost:0 "Ne yazık ki saray mensupları argümanlarıma ikna olmamış gibi görünüyorlar. Birkaç gün içerisinde [actor.GetNameNoTooltip] gibi giyinmeyen #EMP tek#! kişi ben olacağım."
  court_amenities_interactions.0012.desc_lost.kof:1 "Bu da yetmezmiş gibi, birçoğu ona artık "Modanın Hükümdarı" olarak sesleniyor."
@@ -1170,8 +1170,8 @@
  clear_ground_for_legendary_building_desc: "Destanım tamamlandı ve halkıma ilham verdi. Topraklarım destanım anısına yeni bir anıt için hazır bekliyor ama tam olarak ne inşa etmeli?"
  clear_ground_for_legendary_building_confirm: "Baronluk Seç"
  clear_ground_for_legendary_building_no_barony_tt: "[Concept( 'county', 'Kontluğunun' )|E] başkenti olan, [leased|E] olmayan ve hâlihazırda [special_building|E] bölmesine sahip olmayan bir [Concept( 'barony', 'Baronluğa' )|E] sahip olmalısınız#!"
-### TODO AGOT-CHANGED: clear_ground_legendary_hunting_lodge_tt [AGOT: You must have completed a Mythical or Illustrious [legend|E] about a beast, or have #V 50#! #EMP Arghurys#! [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait_level_track_xp|E], or the [GetCultureTradition('tradition_hunters').GetName] or [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E] | TR: Bir canavar hakkında Efsanevi veya Şanlı bir [legend|E] tamamlamış olmalısınız veya [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliğinde' )|E] #V 50#! [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [Concept( 'trait_level_track_xp', 'Özellik Tecrübesine' )|E] ya da [GetCultureTradition('tradition_hunters').GetName] ve [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [Concept( 'tradition', 'Geleneklerinden' )|E] birine sahip olmalısınız]
- clear_ground_legendary_hunting_lodge_tt: "You must have completed a Mythical or Illustrious [legend|E] about a beast, or have #V 50#! #EMP Arghurys#! [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait_level_track_xp|E], or the [GetCultureTradition('tradition_hunters').GetName] or [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E]"
+
+ clear_ground_legendary_hunting_lodge_tt:0 "Bir canavar hakkında Efsanevi veya Şanlı bir [legend|E] tamamlamış olmalısınız veya [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliğinde' )|E] #V 50#! [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [Concept( 'trait_level_track_xp', 'Özellik Tecrübesine' )|E] ya da [GetCultureTradition('tradition_hunters').GetName] ve [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [Concept( 'tradition', 'Geleneklerinden' )|E] birine sahip olmalısınız"
  clear_ground_legendary_watchtower_tt: "[GetDynastyPerk('ce1_heroic_legacy_5').GetName] [Concept( 'dynasty_perk', 'Hanedan Mirasına' )|E] sahipken bir Efsanevi veya Şanlı [legend|E] tamamlamış olmalısınız"
  clear_ground_legendary_shrine_tt: "Efsanevi veya Şanlı bir İlahilik [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız"
  clear_ground_legendary_statue_tt: "Efsanevi veya Şanlı bir Yiğitlik [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız"
@@ -1445,14 +1445,14 @@
  set_de_jure_capital_kingdom: "Krallık"
  set_de_jure_capital_empire: "İmparatorluk"
  set_de_jure_capital_hegemony: "Hegemonya"
-### TODO AGOT-ONLY: set_duchy_capital_tooltip [AGOT: ]
- set_duchy_capital_tooltip: ""
-### TODO AGOT-ONLY: set_kingdom_capital_tooltip [AGOT: ]
- set_kingdom_capital_tooltip: ""
-### TODO AGOT-ONLY: set_empire_capital_tooltip [AGOT: ]
- set_empire_capital_tooltip: ""
-### TODO AGOT-ONLY: set_hegemony_capital_tooltip [AGOT: ]
- set_hegemony_capital_tooltip: ""
+
+ set_duchy_capital_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ set_kingdom_capital_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ set_empire_capital_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ set_hegemony_capital_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  SET_DE_JURE_CAPITAL_CHOOSE_TYPE: "Unvan Kademesi Seç"
  set_de_jure_not_de_jure_tooltip: "[current_capital.GetName], [current_de_jure.GetName] unvanının [de_jure|E] [Concept('county', 'Kontluğu')|E]"
  set_de_jure_capital_already_done_tooltip: "[current_capital.GetName], [current_de_jure.GetName] unvanının [Concept('de_jure_capital', 'De Jure Başkenti')|E] değil" 
@@ -1531,11 +1531,11 @@
  tgp_divine_reincarnation_decision_primary_heir_valid_tt: "[Concept('primary_heir', 'Birincil Vârisiniz')|E]"
  tgp_divine_reincarnation_decision_valid_child_tt: "Şu şartları taşıyan bir [Concept('child', 'Çocuğa')|E] sahip olmalısınız:\n$BULLET_WITH_TAB$Sizinle aynı [Concept('faith', 'Mezhepten')|E]\n$BULLET_WITH_TAB$[GetTrait('reincarnation').GetName( GetNullCharacter )] [Concept('trait', 'Özelliğine')|E] sahip değil\n$BULLET_WITH_TAB$Ya [Concept('primary_heir', 'Birincil Vârisiniz')|E] ya da [Concept('favorite_child', 'Favori Çocuğunuz')|E]\n$BULLET_WITH_TAB$Aynı cinsiyetten ölü bir büyükanne/büyükbabası veya büyük-büyükanne/büyük-büyükbabası olmalı"
  tgp_decision_events.0200.t: "[house.GetNameNoTooltip] Ruhu"
-### TODO AGOT-ONLY: tgp_decision_events.0200.desc [AGOT: ]
- tgp_decision_events.0200.desc: ""[ROOT.Char.GetMotherFather|U]." My [ROOT.Char.Custom2( 'RelationToMeShort', target_child )] [target_child.GetFirstName] tugs at my shirt with a somber expression.\n\n"I have had another dream. The [target_child.GetFaith.DevoteeNeuterPlural] say it's because my body is young, but my mind is old. I dream and dream and I wake up screaming. I'm scared, [ROOT.Char.GetMotherFather]. Do you know who I am?""
+
+ tgp_decision_events.0200.desc:0 ""[ROOT.Char.GetMotherFather|U]." [ROOT.Char.Custom2( 'RelationToMeShort', target_child )] [target_child.GetFirstName] ciddi bir ifadeyle gömleğimi çekiştiriyor.\n\n"Yine bir rüya gördüm. [target_child.GetFaith.DevoteeNeuterPlural] bedenimin genç ama zihnimin yaşlı olduğu için olduğunu söylüyor. Rüya üstüne rüya görüyorum ve çığlık atarak uyanıyorum. Korkuyorum, [ROOT.Char.GetMotherFather]. Kim olduğumu biliyor musun?""
  tgp_decision_events.0200.a: "O geri döndü!"
-### TODO AGOT-ONLY: tgp_decision_events.0200.b [AGOT: ]
- tgp_decision_events.0200.b: ""You are your own person.""
+
+ tgp_decision_events.0200.b:0 ""Sen kendine aitsin.""
  form_majapahit_empire_decision: "Majapahit İmparatorluğunu Kur"
  form_majapahit_empire_decision_desc: "Cava adasından filizlenen halkım, kalplerinde farklı sırlar taşısa da birlik içinde çeşitlilik şiirleri söyleyecek."
  form_majapahit_empire_decision_tooltip: "Majapahit İmparatorluğu bir [de_jure|E] [empire|E] olur"

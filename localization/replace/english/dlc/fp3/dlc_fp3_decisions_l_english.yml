@@ -152,13 +152,13 @@
  invite_former_slave_soldiers_decision_tooltip: "Kabile savaşçılarını sadık $knight_culture_player_plural_no_tooltip$ olarak hizmet etmeye davet edin"
  invite_former_slave_soldiers_decision_effect_desc: "İki ay içinde, [Concept( 'marshal', 'Mareşalinizin' )|E] [stewardship|E] becerisine bağlı olarak #P bir veya daha fazla#! yüksek [prowess|E] becerili kişi [Concept( 'court', 'Sarayınıza' )|E] katılacaktır."
  invite_former_slave_soldiers_decision_outcome_notif_t: "Mareşaliniz tarafından kabile savaşçıları $knight_culture_player_no_tooltip$ olarak alındı"
-### TODO AGOT-CHANGED: fp3_sponsor_persian_scholars_decision [AGOT: Sponsor Scholars | TR: Fars Bilgelere Destek Ol]
- fp3_sponsor_persian_scholars_decision: "Sponsor Scholars"
-### TODO AGOT-CHANGED: fp3_sponsor_persian_scholars_decision_desc [AGOT: Let us call the world's finest scholars to court in hopes of bolstering our own scientific advancement. | TR: Bağdat'taki Beytü'l-Hikme tarafından gölgede bırakılamayız! O hâlde kendi bilimsel ilerlememizi desteklemek umuduyla en iyi Fars bilginleri saraya çağıralım.]
- fp3_sponsor_persian_scholars_decision_desc: "Let us call the world's finest scholars to court in hopes of bolstering our own scientific advancement."
+
+ fp3_sponsor_persian_scholars_decision:0 "Fars Bilgelere Destek Ol"
+
+ fp3_sponsor_persian_scholars_decision_desc:0 "Bağdat'taki Beytü'l-Hikme tarafından gölgede bırakılamayız! O hâlde kendi bilimsel ilerlememizi desteklemek umuduyla en iyi Fars bilginleri saraya çağıralım."
  fp3_sponsor_persian_scholars_decision_confirm: "Ulakları gönderin"
-### TODO AGOT-CHANGED: fp3_sponsor_persian_scholars_decision_tooltip [AGOT: Bring competent scholars to your court with the intention of recruiting them as court scholars. | TR: Yetkin Fars bilginlerini saray bilgini olarak istihdam etmek amacıyla sarayınıza getirin.]
- fp3_sponsor_persian_scholars_decision_tooltip: "Bring competent scholars to your court with the intention of recruiting them as court scholars."
+
+ fp3_sponsor_persian_scholars_decision_tooltip:0 "Yetkin Fars bilginlerini saray bilgini olarak istihdam etmek amacıyla sarayınıza getirin."
  fp3_sponsor_persian_scholars_decision.tt: "Önümüzdeki aylarda #V 10#! veya daha fazla [learning|E] becerisine sahip en az #P 3#! bilgin Saraya [guests|E] olarak gelecek"
  fp3_sponsor_research_project_decision: "$game_concept_research_project$ Desteği"
  fp3_sponsor_research_project_decision_desc: "[ROOT.Char.GetCapitalLocation.GetNameNoTooltip] şu anda dünyanın en büyük bilginlerinden bazılarına ev sahipliği yapıyor. Onların yeteneklerini bir araya getirerek bilim alanında küresel bir atılım gerçekleştirebiliriz."
@@ -172,15 +172,15 @@
  fp3_sponsor_research_project_decision.trigger.learning: "$court_scholar_court_position$, #V İyi#! veya #V Mükemmel#! bir yeteneğe sahip olmalı"
  CHOOSE_RESEARCH_PATH: "Araştırma Yolunu Seçin"
  sponsor_military_research_name: "Askerî"
-### TODO AGOT-ONLY: sponsor_military_research_desc [AGOT: ]
- sponsor_military_research_desc: ""
-### TODO AGOT-ONLY: sponsor_military_research_tooltip [AGOT: ]
- sponsor_military_research_tooltip: ""
+
+ sponsor_military_research_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ sponsor_military_research_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  sponsor_civil_research_name: "Sivil"
-### TODO AGOT-ONLY: sponsor_civil_research_desc [AGOT: ]
- sponsor_civil_research_desc: ""
-### TODO AGOT-ONLY: sponsor_civil_research_tooltip [AGOT: ]
- sponsor_civil_research_tooltip: ""
+
+ sponsor_civil_research_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ sponsor_civil_research_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  fp3_name_read_in_friday_prayer_decision.supporter_turns_detractor.t: "Halifeliğe Karşı Olduğunu Duyur"
  fp3_name_read_in_friday_prayer_decision.detractor.turns_supporter.t: "Halife Destekçisi Olduğunu Duyur"
  fp3_name_read_in_friday_prayer_decision.neutral.t: "$game_concept_persian_struggle$ İçindeki Duruşunuzu Bildir"

@@ -1,131 +1,131 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: hatch_dragon_egg_decision [AGOT: Hatch Dragon Egg]
- hatch_dragon_egg_decision:0 "Hatch Dragon Egg"
-### TODO NOT-IN-ST: hatch_dragon_egg_decision_desc [AGOT: I will attempt to hatch my dragon egg.]
- hatch_dragon_egg_decision_desc:0 "I will attempt to hatch my dragon egg."
-### TODO NOT-IN-ST: hatch_dragon_egg_decision_tooltip [AGOT: There's absolutely no way this can go wrong]
- hatch_dragon_egg_decision_tooltip:0 "There's absolutely no way this can go wrong"
-### TODO NOT-IN-ST: hatch_dragon_egg_decision_confirm [AGOT: This is a bad idea...]
- hatch_dragon_egg_decision_confirm:0 "This is a bad idea..."
-### TODO NOT-IN-ST: spend_time_with_dragon_egg_decision [AGOT: Spend Time With Dragon Egg]
- spend_time_with_dragon_egg_decision:0 "Spend Time With Dragon Egg"
-### TODO NOT-IN-ST: spend_time_with_dragon_egg_decision_desc [AGOT: It is not enough to own a dragon egg, one must bond with it to ensure a strong connection with the dragon beneath.]
- spend_time_with_dragon_egg_decision_desc:0 "It is not enough to own a dragon egg, one must bond with it to ensure a strong connection with the dragon beneath."
-### TODO NOT-IN-ST: spend_time_with_dragon_egg_decision_tooltip [AGOT: Decide to spend time with your dragon egg]
- spend_time_with_dragon_egg_decision_tooltip:0 "Decide to spend time with your dragon egg"
-### TODO NOT-IN-ST: spend_time_with_dragon_egg_decision_confirm [AGOT: Spend Time With Your Egg]
- spend_time_with_dragon_egg_decision_confirm:0 "Spend Time With Your Egg"
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head [AGOT: Appoint Head Dragonkeeper]
- agot_appoint_dragonkeeper_head:0 "Appoint Head Dragonkeeper"
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_desc [AGOT: The position of Head Dragonkeeper has gone vacant. In order to preserve to maintain our [dragonpit|e], we should appoint a new one.]
- agot_appoint_dragonkeeper_head_desc:0 "The position of Head Dragonkeeper has gone vacant. In order to preserve to maintain our [dragonpit|e], we should appoint a new one."
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_dragonmount_desc [AGOT: The position of Head Dragonkeeper has gone vacant. In order to keep the Dragonmont guarded and maintained, we should appoint a new one.]
- agot_appoint_dragonkeeper_head_dragonmount_desc:0 "The position of Head Dragonkeeper has gone vacant. In order to keep the Dragonmont guarded and maintained, we should appoint a new one."
+﻿l_english:
+
+ hatch_dragon_egg_decision:0 "Ejderha Yumurtasını Çatlat"
+
+ hatch_dragon_egg_decision_desc:0 "Ejderha yumurtamı çatlatmayı deneyeceğim."
+
+ hatch_dragon_egg_decision_tooltip:0 "Bunun ters gitmesinin imkânı yok"
+
+ hatch_dragon_egg_decision_confirm:0 "Bu kötü bir fikir..."
+
+ spend_time_with_dragon_egg_decision:0 "Ejderha Yumurtasıyla Vakit Geçir"
+
+ spend_time_with_dragon_egg_decision_desc:0 "Ejderha yumurtasına sahip olmak yetmez; içindeki ejderhayla güçlü bir bağ kurmak için onunla yakınlık kurmak gerekir."
+
+ spend_time_with_dragon_egg_decision_tooltip:0 "Ejderha yumurtanla vakit geçirmeye karar ver"
+
+ spend_time_with_dragon_egg_decision_confirm:0 "Yumurtanla Vakit Geçir"
+
+ agot_appoint_dragonkeeper_head:0 "Baş Ejderha Bakıcısı Ata"
+
+ agot_appoint_dragonkeeper_head_desc:0 "Baş Ejderha Bakıcısı makamı boşaldı. [dragonpit|e]'imizi koruyup sürdürmek için yeni birini atamalıyız."
+
+ agot_appoint_dragonkeeper_head_dragonmount_desc:0 "Baş Ejderha Bakıcısı makamı boşaldı. Dragonmont'u korunaklı ve bakımlı tutmak için yeni birini atamalıyız."
 
  agot_appoint_dragonkeeper_head_tooltip:0 "Yeni Baş Ejderha Bakıcısı Atama"
 
  agot_appoint_dragonkeeper_head_confirm:0 "Yeni Baş Ejderha Bakıcısı Atama"
-### TODO NOT-IN-ST: tooltip_employ_dragonkeeper [AGOT: Must not currently employ a Head Dragonkeeper.]
- tooltip_employ_dragonkeeper:0 "Must not currently employ a Head Dragonkeeper."
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_effect_tooltip [AGOT: A new Head Dragonkeeper will be generated based on your dragonpit amenity funding.]
- agot_appoint_dragonkeeper_head_effect_tooltip:0 "A new Head Dragonkeeper will be generated based on your dragonpit amenity funding."
-### TODO NOT-IN-ST: agot_restore_dragonstone_dragonkeepers [AGOT: Restore the Dragonmont Dragonkeepers]
- agot_restore_dragonstone_dragonkeepers:0 "Restore the Dragonmont Dragonkeepers"
-### TODO NOT-IN-ST: agot_restore_dragonstone_dragonkeepers_desc [AGOT: After many years of inactivity, the [GetBuilding('agot_dragonmont_01').GetName] once again requires an order of [dragonkeepers|e] to guard it.]
- agot_restore_dragonstone_dragonkeepers_desc:0 "After many years of inactivity, the [GetBuilding('agot_dragonmont_01').GetName] once again requires an order of [dragonkeepers|e] to guard it."
-### TODO NOT-IN-ST: agot_restore_dragonmont_dragonkeepers_effect_tooltip [AGOT: A new [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] and order of dragonkeepers will be established in [GetTitleByKey('c_dragonstone').GetNameNoTier].]
- agot_restore_dragonmont_dragonkeepers_effect_tooltip:0 "A new [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] and order of dragonkeepers will be established in [GetTitleByKey('c_dragonstone').GetNameNoTier]."
+
+ tooltip_employ_dragonkeeper:0 "Şu anda bir Baş Ejderha Bakıcısı istihdam edilmemeli."
+
+ agot_appoint_dragonkeeper_head_effect_tooltip:0 "Ejderha ini olanağı finansmanına göre yeni bir Baş Ejderha Bakıcısı belirlenecek."
+
+ agot_restore_dragonstone_dragonkeepers:0 "Dragonmont Ejderha Bakıcılarını Yeniden Kur"
+
+ agot_restore_dragonstone_dragonkeepers_desc:0 "Yıllarca boş kaldıktan sonra [GetBuilding('agot_dragonmont_01').GetName], onu korumak için yeniden bir [dragonkeepers|e] tarikatı gerektiriyor."
+
+ agot_restore_dragonmont_dragonkeepers_effect_tooltip:0 "[GetTitleByKey('c_dragonstone').GetNameNoTier]'te yeni bir [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] ve ejderha bakıcıları tarikatı kurulacak."
 
  conduct_terror_campaign:0 "Terör Kampanyası Yürüt"
-### TODO NOT-IN-ST: conduct_terror_campaign_desc [AGOT: As a rider of a great dragon, it is for me to decide how it is to be used in warfare. Though often their use has historically been restricted to enemy armies, there is nothing stopping me from using it to lay waste to my enemies civilian population.]
- conduct_terror_campaign_desc:0 "As a rider of a great dragon, it is for me to decide how it is to be used in warfare. Though often their use has historically been restricted to enemy armies, there is nothing stopping me from using it to lay waste to my enemies civilian population."
-### TODO NOT-IN-ST: conduct_terror_campaign_effect [AGOT: You will begin a draconic terror campaign, damaging all provinces around you when you are at war.\n\n#X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!]
- conduct_terror_campaign_effect:0 "You will begin a draconic terror campaign, damaging all provinces around you when you are at war.\n\n#X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!"
-### TODO NOT-IN-ST: conduct_terror_campaign_tooltip [AGOT: #X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!]
- conduct_terror_campaign_tooltip:0 "#X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!"
-### TODO NOT-IN-ST: conduct_terror_campaign_dragon_condition [AGOT: Your dragon has at least 100 [dragon_combat_effectiveness|E]]
- conduct_terror_campaign_dragon_condition:0 "Your dragon has at least 100 [dragon_combat_effectiveness|E]"
+
+ conduct_terror_campaign_desc:0 "Büyük bir ejderhanın binicisi olarak, onun savaşta nasıl kullanılacağına karar vermek bana düşer. Tarih boyunca kullanımları çoğunlukla düşman ordularıyla sınırlı kalmış olsa da, onu düşmanlarımın sivil halkını yerle bir etmek için kullanmamı engelleyen hiçbir şey yok."
+
+ conduct_terror_campaign_effect:0 "Savaştayken çevrendeki tüm eyaletlere zarar veren bir ejderha terörü harekâtı başlatacaksın.\n\n#X @warning_icon! Bu tür bir yıkım hem düşmanlarının hem de daha vicdanlı müttefiklerinin aşırı öfkesine yol açacak.#!"
+
+ conduct_terror_campaign_tooltip:0 "#X @warning_icon! Bu tür bir yıkım hem düşmanlarının hem de daha vicdanlı müttefiklerinin aşırı öfkesine yol açacak.#!"
+
+ conduct_terror_campaign_dragon_condition:0 "Ejderhanın en az 100 [dragon_combat_effectiveness|E] var"
 
  conduct_terror_campaign_confirm:0 "Hepsini yakın!"
 
  stop_terror_campaign:0 "Terör Kampanyasını Bitir"
-### TODO NOT-IN-ST: stop_terror_campaign_show_condition [AGOT: You are conducting a terror campaign]
- stop_terror_campaign_show_condition:0 "You are conducting a terror campaign"
-### TODO NOT-IN-ST: stop_terror_campaign_desc [AGOT: I am currently conducting a draconic terror campaign. Any armies that myself of my dragon are in will be used as a staging base for devastation to rain upon the surrounding lands. Though doubtlessly effective, such tactics are against all convention of the honorable rules of war.]
- stop_terror_campaign_desc:0 "I am currently conducting a draconic terror campaign. Any armies that myself of my dragon are in will be used as a staging base for devastation to rain upon the surrounding lands. Though doubtlessly effective, such tactics are against all convention of the honorable rules of war."
-### TODO NOT-IN-ST: stop_terror_campaign_tooltip [AGOT: You will end your terror campaign]
- stop_terror_campaign_tooltip:0 "You will end your terror campaign"
-### TODO NOT-IN-ST: stop_terror_campaign_confirm [AGOT: Cease the destruction]
- stop_terror_campaign_confirm:0 "Cease the destruction"
-### TODO NOT-IN-ST: ride_dragon_decision [AGOT: Ride [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]]
- ride_dragon_decision:0 "Ride [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]"
-### TODO NOT-IN-ST: ride_dragon_decision_desc [AGOT: It has been too long since [ROOT.Var('current_dragon').Char.GetFirstName] and I simply rode together. I long to feel the wind rush over me and the freedom of the open sky.]
- ride_dragon_decision_desc:0 "It has been too long since [ROOT.Var('current_dragon').Char.GetFirstName] and I simply rode together. I long to feel the wind rush over me and the freedom of the open sky."
+
+ stop_terror_campaign_show_condition:0 "Bir terör harekâtı yürütüyorsun"
+
+ stop_terror_campaign_desc:0 "Şu anda bir ejderha terörü harekâtı yürütüyorum. Benim ya da ejderhamın içinde bulunduğu ordular, çevredeki topraklara yıkım yağdırmak için bir üs olarak kullanılacak. Kuşkusuz etkili olsa da, bu tür taktikler onurlu savaş kurallarının tüm teamüllerine aykırıdır."
+
+ stop_terror_campaign_tooltip:0 "Terör harekâtını sona erdireceksin"
+
+ stop_terror_campaign_confirm:0 "Yıkıma son ver"
+
+ ride_dragon_decision:0 "[ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]'e Bin"
+
+ ride_dragon_decision_desc:0 "[ROOT.Var('current_dragon').Char.GetFirstName] ile birlikte sadece binmenin üzerinden çok uzun zaman geçti. Rüzgârın üzerimden geçişini ve açık gökyüzünün özgürlüğünü hissetmeyi özlüyorum."
 
  ride_dragon_decision_tooltip:0 "Ejderhana bin"
 
  ride_dragon_decision_confirm:0 "Ejderhana bin"
-### TODO NOT-IN-ST: ride_dragon_effect_tooltip [AGOT: You will lose some [stress|E] and may increase your bond with your dragon.]
- ride_dragon_effect_tooltip:0 "You will lose some [stress|E] and may increase your bond with your dragon."
-### TODO NOT-IN-ST: use_dragon_decision [AGOT: Use [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in War]
- use_dragon_decision:0 "Use [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in War"
-### TODO NOT-IN-ST: use_dragon_decision_desc [AGOT: I have a dragon, a weapon of mass destruction. I do not have to tread in the mud with my soldiers, I can simply fly over the battlefield and rain fire down upon my enemies.]
- use_dragon_decision_desc:0 "I have a dragon, a weapon of mass destruction. I do not have to tread in the mud with my soldiers, I can simply fly over the battlefield and rain fire down upon my enemies."
-### TODO NOT-IN-ST: use_dragon_decision_tooltip [AGOT: You may choose to once again use your dragon when at war]
- use_dragon_decision_tooltip:0 "You may choose to once again use your dragon when at war"
-### TODO NOT-IN-ST: use_dragon_decision_confirm [AGOT: Use your dragon]
- use_dragon_decision_confirm:0 "Use your dragon"
-### TODO NOT-IN-ST: use_dragon_decision_effect [AGOT: Your [dragon|E] will be able to join armies and you will fight with it]
- use_dragon_decision_effect:0 "Your [dragon|E] will be able to join armies and you will fight with it"
-### TODO NOT-IN-ST: dont_use_dragon_decision [AGOT: Don't Use [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in War]
- dont_use_dragon_decision:0 "Don't Use [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in War"
-### TODO NOT-IN-ST: dont_use_dragon_decision_desc [AGOT: Though powerful, it is not always wise to use every asset at your disposal. Whether for safety, pride, or some other reason, I can choose not to use my dragon in war.]
- dont_use_dragon_decision_desc:0 "Though powerful, it is not always wise to use every asset at your disposal. Whether for safety, pride, or some other reason, I can choose not to use my dragon in war."
-### TODO NOT-IN-ST: dont_use_dragon_decision_tooltip [AGOT: While a powerful asset, you may choose not to use your dragon in battle]
- dont_use_dragon_decision_tooltip:0 "While a powerful asset, you may choose not to use your dragon in battle"
-### TODO NOT-IN-ST: dont_use_dragon_decision_confirm [AGOT: Don't use your dragon]
- dont_use_dragon_decision_confirm:0 "Don't use your dragon"
-### TODO NOT-IN-ST: dont_use_dragon_decision_effect [AGOT: Your [dragon|E] will not join armies and you will fight without it]
- dont_use_dragon_decision_effect:0 "Your [dragon|E] will not join armies and you will fight without it"
+
+ ride_dragon_effect_tooltip:0 "Biraz [stress|E] kaybedecek ve ejderhanla arandaki bağı güçlendirebilirsin."
+
+ use_dragon_decision:0 "[ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]'i Savaşta Kullan"
+
+ use_dragon_decision_desc:0 "Bir ejderham var; kitle imha silahı. Askerlerimle çamurda yürümek zorunda değilim; savaş alanının üzerinde uçup düşmanlarımın üzerine ateş yağdırabilirim."
+
+ use_dragon_decision_tooltip:0 "Savaştayken ejderhanı bir kez daha kullanmayı seçebilirsin"
+
+ use_dragon_decision_confirm:0 "Ejderhanı kullan"
+
+ use_dragon_decision_effect:0 "[dragon|E] ordulara katılabilecek ve onunla birlikte savaşacaksın"
+
+ dont_use_dragon_decision:0 "[ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]'i Savaşta Kullanma"
+
+ dont_use_dragon_decision_desc:0 "Güçlü olsa da, emrindeki her kaynağı kullanmak her zaman akıllıca değildir. Güvenlik, gurur ya da başka bir nedenle, ejderhamı savaşta kullanmamayı seçebilirim."
+
+ dont_use_dragon_decision_tooltip:0 "Güçlü bir varlık olsa da, ejderhanı savaşta kullanmamayı seçebilirsin"
+
+ dont_use_dragon_decision_confirm:0 "Ejderhanı kullanma"
+
+ dont_use_dragon_decision_effect:0 "[dragon|E] ordulara katılmayacak ve onsuz savaşacaksın"
 
  show_me_dragons_decision:0 "Ejderhaları Göster"
-### TODO NOT-IN-ST: show_me_dragons_decision_desc [AGOT: Bring to me the list of all known dragons.]
- show_me_dragons_decision_desc:0 "Bring to me the list of all known dragons."
-### TODO NOT-IN-ST: show_me_dragons_decision_tooltip [AGOT: You will be presented with a list of all living dragons]
- show_me_dragons_decision_tooltip:0 "You will be presented with a list of all living dragons"
-### TODO NOT-IN-ST: show_me_dragons_decision_confirm [AGOT: Show me!]
- show_me_dragons_decision_confirm:0 "Show me!"
-### TODO NOT-IN-ST: show_me_dragons_decision_effect_tooltip [AGOT: You will be brought a list of all living dragons]
- show_me_dragons_decision_effect_tooltip:0 "You will be brought a list of all living dragons"
-### TODO NOT-IN-ST: become_dragonrider_house_decision [AGOT: Become Dragonrider House]
- become_dragonrider_house_decision:0 "Become Dragonrider House"
-### TODO NOT-IN-ST: become_dragonrider_house_decision_desc [AGOT: There are few things in this world more prestigious than being a dragonrider. Oft the threat of my beast is enough to bring my foes to their knees.\n\nA dragon has accepted me, the fiery blood runs through my veins. There is just one final step to take, to make sure that my heirs will soar and dominate, as I have.]
- become_dragonrider_house_decision_desc:0 "There are few things in this world more prestigious than being a dragonrider. Oft the threat of my beast is enough to bring my foes to their knees.\n\nA dragon has accepted me, the fiery blood runs through my veins. There is just one final step to take, to make sure that my heirs will soar and dominate, as I have."
-### TODO NOT-IN-ST: become_dragonrider_house_decision_living_house_member_count_tt [AGOT: 5 or more living members of your [house|E] are dragonriders]
- become_dragonrider_house_decision_living_house_member_count_tt:0 "5 or more living members of your [house|E] are dragonriders"
-### TODO NOT-IN-ST: become_dragonrider_house_decision_confirm [AGOT: To the skies!]
- become_dragonrider_house_decision_confirm:0 "To the skies!"
-### TODO NOT-IN-ST: become_dragonrider_house_decision_tooltip [AGOT: Affirm your house's bond to dragons]
- become_dragonrider_house_decision_tooltip:0 "Affirm your house's bond to dragons"
-### TODO NOT-IN-ST: call_for_dragonseeds_decision [AGOT: Invite Dragonseeds]
- call_for_dragonseeds_decision:0 "Invite Dragonseeds"
-### TODO NOT-IN-ST: call_for_dragonseeds_decision_desc [AGOT: The ability to claim a dragon is found in the blood, not in a name. There may be those who carry the blood of the dragon, but who do not carry the name of a great house at all. If I call, some may answer. The risks would be great, but the reward could be the strengthening of my house, so long as they all swear their allegiance.]
- call_for_dragonseeds_decision_desc:0 "The ability to claim a dragon is found in the blood, not in a name. There may be those who carry the blood of the dragon, but who do not carry the name of a great house at all. If I call, some may answer. The risks would be great, but the reward could be the strengthening of my house, so long as they all swear their allegiance."
-### TODO NOT-IN-ST: call_for_dragonseeds_decision_unclaimed_dragons_tt [AGOT: At least one [owned_dragon|E] is in your dragonpits that can be tamed]
- call_for_dragonseeds_decision_unclaimed_dragons_tt:0 "At least one [owned_dragon|E] is in your dragonpits that can be tamed"
-### TODO NOT-IN-ST: call_for_dragonseeds_decision_local_wild_dragons_tt [AGOT: At least one [wild_dragon|E] has its lair in your [domain|E] that can be tamed]
- call_for_dragonseeds_decision_local_wild_dragons_tt:0 "At least one [wild_dragon|E] has its lair in your [domain|E] that can be tamed"
-### TODO NOT-IN-ST: call_for_dragonseeds_decision_confirm [AGOT: Send the herald]
- call_for_dragonseeds_decision_confirm:0 "Send the herald"
-### TODO NOT-IN-ST: call_for_dragonseeds_decision_tooltip [AGOT: Dragonseeds are summoned to join your court]
- call_for_dragonseeds_decision_tooltip:0 "Dragonseeds are summoned to join your court"
-### TODO NOT-IN-ST: drink_wildfire_decision [AGOT: Drink Wildfire]
- drink_wildfire_decision:0 "Drink Wildfire"
-### TODO NOT-IN-ST: drink_wildfire_decision_desc [AGOT: Since the Alchemist's Guild first crafted the substance, it has been rumored to possess the power to turn man into dragon.]
- drink_wildfire_decision_desc:0 "Since the Alchemist's Guild first crafted the substance, it has been rumored to possess the power to turn man into dragon."
-### TODO NOT-IN-ST: drink_wildfire_decision_confirm [AGOT: Bring me my cup!]
- drink_wildfire_decision_confirm:0 "Bring me my cup!"
-### TODO NOT-IN-ST: drink_wildfire_decision_tooltip [AGOT: Become a dragon]
- drink_wildfire_decision_tooltip:0 "Become a dragon"
-### TODO NOT-IN-ST: drink_wildfire_decision_effect [AGOT: No man has ever survived such an attempt, but perhaps they did not possess the blood of the dragon]
- drink_wildfire_decision_effect:0 "No man has ever survived such an attempt, but perhaps they did not possess the blood of the dragon"
+
+ show_me_dragons_decision_desc:0 "Bana bilinen tüm ejderhaların listesini getir."
+
+ show_me_dragons_decision_tooltip:0 "Sana yaşayan tüm ejderhaların bir listesi sunulacak"
+
+ show_me_dragons_decision_confirm:0 "Göster!"
+
+ show_me_dragons_decision_effect_tooltip:0 "Sana yaşayan tüm ejderhaların bir listesi getirilecek"
+
+ become_dragonrider_house_decision:0 "Ejderha Binicisi Hanesi Ol"
+
+ become_dragonrider_house_decision_desc:0 "Bu dünyada ejderha binicisi olmaktan daha itibarlı çok az şey vardır. Canavarımın tehdidi çoğu zaman düşmanlarımı diz çöktürmeye yeter.\n\nBir ejderha beni kabul etti, ateşli kan damarlarımda akıyor. Varislarımın benim gibi göklere yükselip hükmetmesini sağlamak için atılacak yalnızca son bir adım kaldı."
+
+ become_dragonrider_house_decision_living_house_member_count_tt:0 "[house|E]'nüzün yaşayan en az 5 üyesi ejderha binicisi"
+
+ become_dragonrider_house_decision_confirm:0 "Göklere!"
+
+ become_dragonrider_house_decision_tooltip:0 "Hanedanının ejderhalarla bağını teyit et"
+
+ call_for_dragonseeds_decision:0 "Ejderha Tohumlarını Davet Et"
+
+ call_for_dragonseeds_decision_desc:0 "Bir ejderhaya sahip çıkma yeteneği kanda bulunur, isimde değil. Ejderhanın kanını taşıyan ama hiçbir büyük hanedanın adını taşımayan kişiler olabilir. Çağırırsam bazıları yanıt verebilir. Riskler büyük olurdu; ama hepsi bağlılık yemini ettiği sürece ödül, hanedanımın güçlenmesi olabilir."
+
+ call_for_dragonseeds_decision_unclaimed_dragons_tt:0 "Ejderha inlerinde ehlileştirilebilecek en az bir [owned_dragon|E] var"
+
+ call_for_dragonseeds_decision_local_wild_dragons_tt:0 "[domain|E]'nde ehlileştirilebilecek inine sahip en az bir [wild_dragon|E] var"
+
+ call_for_dragonseeds_decision_confirm:0 "Müjdeciyi gönder"
+
+ call_for_dragonseeds_decision_tooltip:0 "Ejderha tohumları sarayına katılmak üzere çağrılır"
+
+ drink_wildfire_decision:0 "Yaban Ateşi İç"
+
+ drink_wildfire_decision_desc:0 "Simyagerler Loncası maddeyi ilk ürettiğinden beri, insanı ejderhaya dönüştürme gücüne sahip olduğu söylenir."
+
+ drink_wildfire_decision_confirm:0 "Kadehim getirin!"
+
+ drink_wildfire_decision_tooltip:0 "Ejderha ol"
+
+ drink_wildfire_decision_effect:0 "Hiçbir insan böyle bir denemeden sağ çıkmadı; ama belki de onlar ejderhanın kanına sahip değildi"

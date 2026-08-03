@@ -61,10 +61,10 @@
  innovation_barracks_desc:0 "Askerlerimizin kalabileceği özel binalar inşa ederek büyüyen ordumuzu barındıracak bir alan yaratabiliriz."
  innovation_mustering_grounds:0 "Talim Alanları"
  innovation_mustering_grounds_desc:0 "Savaşmak isteyen askerlere sahip olmak savaşları kazanmak için yeterli değil. Askerlerin bir araya gelip talim yapabileceği alanlar sayesinde daha tecrübeli askerler yetiştirebiliriz."
-### TODO AGOT-CHANGED: innovation_bannus [AGOT: Marcher Lords | TR: Bannus]
- innovation_bannus:0 "Marcher Lords"
-### TODO AGOT-CHANGED: innovation_bannus_desc [AGOT: It is a kingdom's marches that breed the hardiest fighters. The borderlands are the first to face raids, battles, and invasions, and their people are well acquainted with adversity. | TR: Muharebede asker komuta etme yetkisi anlamına gelen 'bann', hükümdarlarımıza askerlerin onlar için savaşmasını teşvik eden bir güç veriyor. Böylece büyük ordular kurmak için yasal bir dayanağımız da olur.]
- innovation_bannus_desc:0 "It is a kingdom's marches that breed the hardiest fighters. The borderlands are the first to face raids, battles, and invasions, and their people are well acquainted with adversity."
+
+ innovation_bannus:0 "Bannus"
+
+ innovation_bannus_desc:0 "Muharebede asker komuta etme yetkisi anlamına gelen 'bann', hükümdarlarımıza askerlerin onlar için savaşmasını teşvik eden bir güç veriyor. Böylece büyük ordular kurmak için yasal bir dayanağımız da olur."
  eligible_accolade_vanguard_attribute_ACCOLADES_DLC:0 "Bu [Concept( 'culture', 'kültüre' )|E] mensup [knights|E] [GetAccoladeType('vanguard_attribute').GetName] [Concept( 'accolade', 'mükâfatıyla' )|E] mükâfatlandırılabilir."
  eligible_accolade_vanguard_attribute:1 "[AddLocalizationIf( HasDlcFeature( 'accolades' ), 'eligible_accolade_vanguard_attribute_ACCOLADES_DLC')]"
  unlock_maa_armored_footmen: "[Concept( 'men_at_arms', 'Düzenli Asker' )|E] olarak [GetMaA('armored_footmen').GetName] üretilebilir"
@@ -183,10 +183,10 @@
  innovation_heraldry_desc:0 "Soylu ailelerimizle özleştireceğimiz armalar tasarlayarak aile üyeleri kendileri daha büyük bir şeyin parçası olarak görebilir. Böylece şahsi çıkarları yerine hanedanın itibarını da geliştirmeye çalışırlar."
  innovation_windmills:0 "Yel Değirmenleri"
  innovation_windmills_desc:0 "Dikey yel değirmenlerinin icadı sayesinde rüzgârın gücünü daha iyi kullanabilir, tahılları öğütmek ve hammaddeleri işlemek için daha az işgücü ayırabiliriz."
-### TODO AGOT-CHANGED: innovation_divine_right [AGOT: Ancestral Claims | TR: Kutsal Hak]
- innovation_divine_right:0 "Ancestral Claims"
-### TODO AGOT-CHANGED: innovation_divine_right_desc [AGOT: Our family has held these lands since before the coming of the Andals, since before the Freehold, since the Long Night. We will not suffer any but us to rule there. | TR: Hükümdarlarımızı tahta getiren şeyin kutsal irade olduğunu kabul etmeliyiz, onlara karşı çıkanlar kutsallığın kendisine de karşı çıkar.]
- innovation_divine_right_desc:0 "Our family has held these lands since before the coming of the Andals, since before the Freehold, since the Long Night. We will not suffer any but us to rule there."
+
+ innovation_divine_right:0 "Kutsal Hak"
+
+ innovation_divine_right_desc:0 "Hükümdarlarımızı tahta getiren şeyin kutsal irade olduğunu kabul etmeliyiz, onlara karşı çıkanlar kutsallığın kendisine de karşı çıkar."
  innovation_land_grants:0 "Toprak İzinleri"
  innovation_land_grants_desc:0 "Toprak bize bağlı olanlara verebileceğimiz en değerli varlıktır fakat doğrudan sahip olduğumuz toprak miktarı o kadar da fazla değil. Şu ilerideki işlenmemiş topraklar üzerinde tarla kurma izni verirsek kim karşı çıkabilir ki? Herhangi bir çatışma çıksa bile vasallarımızı koruduğumuz için haklı tarafta oluruz!" #krutygetarts
  innovation_scutage:0 "Asker Vergisi"
@@ -194,8 +194,8 @@
  innovation_guilds:0 "Loncalar"
  innovation_guilds_desc:0 "Topraklarımızın genişledikçe gerçekleşen ticareti de doğrudan kontrol etmek verimsiz bir hâl alıyor. Tüccar ve zanaatkâr topluluklarına lonca kurma izni vererek onların kendi işleri üzerindeki özerkliğini arttırabilir, kârımızı da yükseltebiliriz."
  innovation_development_03:0 "Şehirleşme"
-### TODO AGOT-CHANGED: innovation_development_03_desc [AGOT: The great cities of Essos have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers. | TR: Büyük Roma, Byzantium ve Delhi şehirleri mükemmel ve emsalsiz bir mirasın anıtları olarak ayakta duruyor. Altyapımız geliştikçe ve nüfusumuz arttıkça artık bu antik şehirlere rakip olacak yeni yerleşimler kurmaya başlayabiliriz.]
- innovation_development_03_desc:0 "The great cities of Essos have long stood out as relics of a great, unmatchable legacy. As our infrastructure and population grow, we finally have the means to develop new settlements which rival these ancient urban centers."
+
+ innovation_development_03_desc:0 "Büyük Roma, Byzantium ve Delhi şehirleri mükemmel ve emsalsiz bir mirasın anıtları olarak ayakta duruyor. Altyapımız geliştikçe ve nüfusumuz arttıkça artık bu antik şehirlere rakip olacak yeni yerleşimler kurmaya başlayabiliriz."
  innovation_currency_03:0 "Bankacılık"
  innovation_currency_03_desc:0 "Büyük ve pahalı alım satımlar için çok miktarda ağır madenî para gerekiyor. Paraları güvenli hazinelerde saklayıp bunları fiziksel olarak hareket ettirmeden sadece sahipliğini değiştirmek büyük miktarlardaki malların daha kolay alınıp satılmasını sağlar."
  innovation_east_settling:0 "Ostsiedlung"
@@ -221,8 +221,8 @@
  innovation_primogeniture:0 "İlk Doğan Hakkı"
  innovation_primogeniture_desc:0 "Bir krallık, bir vâris. Hükümdarımızın küçük çocukları, miras alamadıkları için terk edilmiş hissedebilir ama veraset krizleriyle bölünmeyen istikrarlı bir ülke kurmanın en iyi yolu bu."
  innovation_cranes:0 "Vinçler"
-### TODO AGOT-CHANGED: innovation_cranes_desc [AGOT: A forgotten marvel of engineering, the Valyrians used tread-wheel cranes to great effect when building their empire, and so too shall we. | TR: Unutulmuş bir mühendislik harikası olan ayak değirmenli vinçler, Romalılar tarafından imparatorluklarını inşa ederken kullanılmıştı. Şimdi biz de aynısını yapacağız.]
- innovation_cranes_desc:0 "A forgotten marvel of engineering, the Valyrians used tread-wheel cranes to great effect when building their empire, and so too shall we."
+
+ innovation_cranes_desc:0 "Unutulmuş bir mühendislik harikası olan ayak değirmenli vinçler, Romalılar tarafından imparatorluklarını inşa ederken kullanılmıştı. Şimdi biz de aynısını yapacağız."
  innovation_noblesse_oblige:0 "Asalet Bunu Gerektirir"
  innovation_noblesse_oblige_desc:0 "Soyluluk sadece sahip olunan imtiyazlar ve haklar değildir. Soyluların ayrıca ülkeye karşı bir görevi, düzgün ve adaletli davranma yükümlülüğü vardır. Soylularımızdan ne beklediğimizi açık bir şekilde belirterek hep birlikte erdemli bir yol izlemeye çalışabiliriz."
  innovation_rightful_ownership:0 "Haklı Mülkiyet"
@@ -233,10 +233,10 @@
  innovation_ermine_cloaks_ermine_desc: "Herkes bir unvan üzerinde hak sahibi olduğunu iddia edebilir ancak gerçek bir hükümdar olmak için vasallar üzerinde büyüleyici ve ihtişamlı bir etki kurulmalı. Yeni kakım kürklü pelerinler de dâhil olmak üzere kraliyet elbiseleri sayesinde bunu başarabiliriz."
  innovation_court_officials:0 "Saray Görevlileri"
  innovation_court_officials_desc:0 "Ülkemiz o kadar büyüdü ki artık küçük soylular bile her şeyi etkili bir şekilde idare edemiyor. Basit saray görevlerinden sorumlu olan daha fazla yetkili atayarak yönetimin pürüzsüz bir şekilde işlemeye devam etmesini sağlayabiliriz. "
-### TODO AGOT-CHANGED: innovation_development_04 [AGOT: Urban Sprawl | TR: Rönesans Fikirleri]
- innovation_development_04:0 "Urban Sprawl"
-### TODO AGOT-CHANGED: innovation_development_04_desc [AGOT: This culture has recognized the importance of strong economic centres to the prosperity of the realm and people. | TR: Bilim, felsefe ve mantıktaki ilerlemeler ile şehirlerimiz eğitimin ve keşfin merkezi hâline geldi. Teknoloji ve kültür alanlarında gerçekleştirdiğimiz büyük atılımlar sayesinde daha önce hayal bile edemediğimiz şeyleri başarabiliriz.]
- innovation_development_04_desc:0 "This culture has recognized the importance of strong economic centres to the prosperity of the realm and people."
+
+ innovation_development_04:0 "Rönesans Fikirleri"
+
+ innovation_development_04_desc:0 "Bilim, felsefe ve mantıktaki ilerlemeler ile şehirlerimiz eğitimin ve keşfin merkezi hâline geldi. Teknoloji ve kültür alanlarında gerçekleştirdiğimiz büyük atılımlar sayesinde daha önce hayal bile edemediğimiz şeyleri başarabiliriz."
  innovation_currency_04:0 "Adi Senet"
  innovation_currency_04_desc:0 "Daha önceki bankacılık sistemlerinin bir gelişimi olan kâğıt adi senetler ile vatandaşlarımız ticaret mallarını ve hizmetlerini büyük mesafeler üzerinden sorunsuzca alıp satabilir."
  innovation_wierdijks:0 "Wierdijkler"
@@ -253,18 +253,18 @@
  fp3_innovation_fritware_tooltip: "[send_gift|E] etkileşiminin [opinion|E] etkisi: #P +20%#!"
  innovation_fire_medicine: "Ateş İlacı" # 'Huoyao,' 火藥
  innovation_fire_medicine_desc: "Hayatın gizemlerini araştırmak bazen ölüm saçan şeyleri de ortaya çıkarabilir. Kükürt, güherçile ve yanıcı bir maddeden oluşan güçlü bir karışım olan ateş ilacı, patlayıcı bir şiddetle yanan ölümcül bir alev yaratır."
-### TODO AGOT-CHANGED: innovation_champa_rice [AGOT: Golden Rice | TR: Çampa Pirinci]
- innovation_champa_rice: "Golden Rice"
-### TODO AGOT-CHANGED: innovation_champa_rice_desc [AGOT: Rice requires an abundance of time and water — except for golden rice. This variety grows faster, survives droughts better, and gives a more bountiful yield than practically any other sort of rice known. In some cases, it can even be harvested twice in one year. Properly managed, this rice can boost farms and fuel a population boom. | TR: Pirinç genellikle bolca zaman ve su gerektirir, Çampa pirinci bunun en büyük istisnasıdır. Bu tür daha hızlı büyür, kuraklığa daha iyi dayanır ve bilinen hemen her pirinç çeşidinden daha bol ürün verir. Hatta kimi zaman yılda iki kez bile hasat edilebilir. Doğru bakıldığında bu pirinç tarlaları güçlendirebilir ve nüfus patlamasına sebep olabilir.]
- innovation_champa_rice_desc: "Rice requires an abundance of time and water — except for golden rice. This variety grows faster, survives droughts better, and gives a more bountiful yield than practically any other sort of rice known. In some cases, it can even be harvested twice in one year. Properly managed, this rice can boost farms and fuel a population boom."
+
+ innovation_champa_rice:0 "Çampa Pirinci"
+
+ innovation_champa_rice_desc:0 "Pirinç genellikle bolca zaman ve su gerektirir, Çampa pirinci bunun en büyük istisnasıdır. Bu tür daha hızlı büyür, kuraklığa daha iyi dayanır ve bilinen hemen her pirinç çeşidinden daha bol ürün verir. Hatta kimi zaman yılda iki kez bile hasat edilebilir. Doğru bakıldığında bu pirinç tarlaları güçlendirebilir ve nüfus patlamasına sebep olabilir."
  culture_parameter_champa_rice_wet_land_paddies: "[GetBuilding('paddy_fields_01').GetTypeName|V] ve [GetBuilding('farm_estates_01').GetTypeName|V] zincirlerindeki [buildings|E] [GetTerrain( 'wetlands' ).GetName] [terrain|E] türünde inşa edilebilir"
  culture_parameter_champa_rice_building_bonuses: "[GetBuilding('paddy_fields_01').GetTypeName|V] zincirindeki [buildings|E] ek faydalar sağlar"
  building_paddy_fields_requirement_terrain_tt: "Şunlardan biri geçerli olmalı:\n$EFFECT_LIST_BULLET$[province|E], [GetTerrain( 'terraced_hills' ).GetName] araziye sahip\n$EFFECT_LIST_BULLET$[province|E], [GetTerrain( 'floodplains' ).GetName] araziye sahip ve [GetGeographicalRegion('paddy_fields_region').GetName] [Concept('region', 'Bölgesi')|E] içinde\n$EFFECT_LIST_BULLET$[province|E], [GetTerrain( 'wetlands' ).GetName] araziye sahip ve [Concept('culture', 'Kültürü')|E] #V $innovation_champa_rice$#! [Concept('innovation', 'Buluşuna')|E] sahip\n$EFFECT_LIST_BULLET$[province|E], [GetTerrain( 'hills' ).GetName] veya [GetTerrain( 'jungle' ).GetName] araziye sahip ve [Concept('culture', 'Kültürü')|E] [GetCultureTradition('tradition_tgp_rice_cultivators').GetName|V] [Concept('tradition', 'Geleneğine')|E] sahip"
  innovation_sericulture: "İpekçilik"
  innovation_sericulture_desc: "İpek üretme sanatı karmaşık ama son derece kazançlı bir süreçtir. İpekçilikteki ustalıklarından kâr edenler bu bilginin başkalarına geçmesini engellemeye çalışırlar."
  culture_parameter_unlocks_silk_buildings_parameter: "[GetDomicileBuilding('silk_01').GetNameNoTooltip|V] [Concept('domicile_building_upgrade', 'İç Geliştirmesini')|E] açar"
-### TODO AGOT-CHANGED: innovation_dragon_kiln [AGOT: Porcelain Kilns | TR: Ejderha Fırınları]
- innovation_dragon_kiln: "Porcelain Kilns"
+
+ innovation_dragon_kiln:0 "Ejderha Fırınları"
  innovation_dragon_kiln_desc: "En iyi porselenler ancak değerli maden yataklarının yakınında bulunan son derece sofistike fırınlarda üretilebilir. Bu fırınlar mümkün olan en sert seramikleri pişirmek için bir ısı girdabı oluşturmaya yardımcı olan dik yamaçlara inşa edilir. İnşa edilmeleri zor olsa da ürettikleri ürünler saraylar için en gözde ve en kârlı seramikler arasındadır."
  innovation_rocket_cart: "Roket Arabaları"
  innovation_rocket_cart_chinese: "Huochē" # 火車 (Huǒchē)
@@ -304,8 +304,8 @@
  culture_parameter_coking_smith_bonuses: "[GetBuilding('smiths_01').GetTypeName|V] ve [GetBuilding('blacksmiths_01').GetTypeName|V] zincirindeki [buildings|E] ek faydalar sağlar"
  innovation_composite_crossbow: "Kompozit Tatar Yayları"
  innovation_composite_crossbow_desc: "Basit yaylarda olduğu gibi, bir yayın kolunun gücü çekişinin muhtemel kuvvetini belirler. Yayın kolunu boynuzla hatta çelikle güçlendirerek, bir tatar yayının çekiş ağırlığı ve dolayısıyla menzili ile gücü herhangi bir ahşap muadilinden katbekat yüksek hâle getirilebilir, ayrıca daha dayanıklı ve daha uzun ömürlü olur."
-### TODO AGOT-CHANGED: innovation_pharmacopoeia [AGOT: Trained Healers | TR: Farmakope]
- innovation_pharmacopoeia: "Trained Healers"
+
+ innovation_pharmacopoeia:0 "Farmakope"
  innovation_pharmacopoeia_desc: "İyi bir hekim doğru ilaçları doğru zamanda, doğru malzemeleri doğru şekilde ve doğru miktarlarda hazırlayarak üretmeyi bilmelidir. Bu bilgi çoğu zaman ustadan çırağa bireysel olarak aktarılsa da, belirli ilaçların nasıl hazırlanacağını #italic yazıya dökmek#! farklı tedavilerin hazırlanışını standartlaştırıp yaygınlaştırmada son derece yardımcı olabilir."
  culture_parameter_physician_pharmacopoeia_bonus: "[GetCourtPositionType('court_physician_court_position').GetName()] [court_position|E] Tedavi Etkinliği: #P +20%#!"
  unlock_siege_maa_first_level: "[GetPlayer.Custom('GetRegionalSiegeLevel1MAA')]"

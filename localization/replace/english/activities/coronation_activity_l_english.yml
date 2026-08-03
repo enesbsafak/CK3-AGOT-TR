@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  activity_coronation: "Taç Giyme Töreni"
  activity_coronation_host_desc: "$BULLET_WITH_TAB$@law_icon![GetLaw('crowned_king').GetName] veya [GetLaw('crowned_emperor').GetName] [Concept('law', 'Yasası')|E]\n$BULLET_WITH_TAB$@faction_icon![factions|E] Taç Giyme Töreni esnasında Talepte bulunamazlar\n$BULLET_WITH_TAB$[opinion_i][opinion|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$Güçlü bir [oath|E] [Concept('decision', 'Kararı')|E]\n\n@warning_icon! #X @faction_icon![factions|E] ve diğer düşmanlar Taç Giyme Töreninin [Concept('coronation_magnificence', 'Şaşaasına')|E] zarar verecek#!"
  activity_coronation_guest_desc: "$BULLET_WITH_TAB$Katılımcılar diğer katılımcılara karşı [opinion_i][opinion|E] kazanabilir\n$BULLET_WITH_TAB$Katılımcılar [Concept('intent', 'Niyetlerine')|E] göre benzersiz fırsatlar elde edebilir"
@@ -21,14 +21,14 @@
  coronation_location_holy_site_host: "[THIS.Province.GetName], [Concept('realm', 'Ülkenizdeki')|E] bir [holy_site|E] #bol değil#! ([Concept('head_of_faith', 'Mezhep Liderinizin')|E] herhangi bir [Concept('holy_site', 'Kutsal Bölgesi')|E] yok)"
  coronation_location_neither_capital_nor_holy_site: "[THIS.Province.GetName] bir [county_capital|E] ya da bir [holy_site|E] #bol değil#!"
  coronation_phase_preparations: "Hazırlık"
-### TODO AGOT-ONLY: coronation_phase_preparations_desc [AGOT: ]
- coronation_phase_preparations_desc: ""
+
+ coronation_phase_preparations_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  coronation_phase_coronation: "Tören"
-### TODO AGOT-ONLY: coronation_phase_coronation_desc [AGOT: ]
- coronation_phase_coronation_desc: ""
+
+ coronation_phase_coronation_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  coronation_phase_feast: "Ziyafet"
-### TODO AGOT-ONLY: coronation_phase_feast_desc [AGOT: ]
- coronation_phase_feast_desc: ""
+
+ coronation_phase_feast_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  coronation_type_normal: "Taç Giyme Töreni"
  coronation_type_normal_desc: "$BULLET_WITH_TAB$[Concept('legitimacy', 'Meşruiyetinizi')|E] kanıtlayın\n$BULLET_WITH_TAB$Bir [oath|E] ederek hükümdarlığınızın seyrini yönlendirin\n$BULLET_WITH_TAB$[Concept('vassals', 'Vasallarınızla')|E] [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'coronation_type_tributaries' )] aranızdaki [Concept('opinion', 'Görüş')|E] artabilir\n$BULLET_WITH_TAB$[Concept('vassals', 'Vasallarınız')|E] @faction_icon![Concept('factions', 'Örgütleşmelerden')|E] ayrılabilir\n$BULLET_WITH_TAB$Fazladan [Concept('prestige', 'Prestij')|E] kazanmak için kendinizi taçlandırabilirsiniz\n\n#weak $coronation_type_normal_flavor$#!"
  coronation_type_normal_flavor: "Görkemli bir merasim, hükmünüzün meşruiyetini ispatlayacak ve krallığınızın azameti, egemenliğinizin sembolü olacaktır."
@@ -139,8 +139,8 @@
  activity_coronation_special_type_desc: "#T Şaşaa#!\n$game_concept_coronation_magnificence_desc$"
  CORONATION_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "[Concept('coronation_magnificence', 'Şaşaa')|E]: [ActivityWindow.GetSpecialProgressValue|0^V]"
  activity_coronation_special_type_bar_segment_tt_0: "#T Sıradan Tören#!\n$activity_coronation_special_type_bar_segment_tt_0_effects$\n$activity_coronation_special_type_bar_segment_tt_0_flavor$"
-### TODO AGOT-ONLY: activity_coronation_special_type_bar_segment_tt_0_effects [AGOT: ]
- activity_coronation_special_type_bar_segment_tt_0_effects: ""
+
+ activity_coronation_special_type_bar_segment_tt_0_effects:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  activity_coronation_special_type_bar_segment_tt_0_flavor: "#weak Sıradan bir taç giyme töreni, acınası bir etkileme çabası... pek az kişi bunu tatmin edici bulur.#!"
  activity_coronation_special_type_bar_segment_tt_1: "#T Mütevazı Tören#!\n$activity_coronation_special_type_bar_segment_tt_1_effects$\n$activity_coronation_special_type_bar_segment_tt_1_flavor$"
  activity_coronation_special_type_bar_segment_tt_1_effects: "[CoronationRewardProgress('(CFixedPoint)25', 'activity_coronation_special_type_bar_segment_tt_1_progress')]$BULLET$[legitimacy_i][Concept('legitimacy', 'Meşruiyet')|E] ve [prestige_i][Concept('prestige', 'Prestij')|E] [oath|E] Ödülü: #P +25%#!\n$BULLET$Niyet [Concept('vassal', 'Vasal')|E] [Concept('guest', 'Konuk')|E] [Concept('opinion', 'Görüş')|E] kazanımı: #P +5#!\n"
@@ -299,8 +299,8 @@
  coronation_events.0110.desc.fallback: "#emp "Hükmüm üzerine, [activity.GetHost.GetPrimaryTitle.GetNameNoTier] için talih, halklarının törelerine hürmet ve ülkeye şan getireceğime yemin ederim."#!"
  coronation_events.0110.regular: "Bakalım beklentileri karşılayabilecek mi..."
  coronation_events.0110.no_oath: "Sıradan tören konuşması..."
-### TODO AGOT-ONLY: coronation_events.0110.desc.outro [AGOT: ]
- coronation_events.0110.desc.outro: ""
+
+ coronation_events.0110.desc.outro:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  coronation_events.0150.t: "Bozulan Yemin: [SCOPE.Custom('GetOathSpecific')|V]"
  coronation_events.0150.desc: "Kapalı kapılar ardında fısıldaşmalarını duyuyorum. Gözlerine kazınmış hayal kırıklığını görüyorum ve üzerime çöken utancın ağırlığını hissediyorum.\n\nHepsi biliyor... Başaramadım. Tüm tebaama verdiğim bir sözü, yerine getireceğime yemin ettiğim yemini bozdum.\n\nŞimdi onlarla nasıl yüzleşirim? Bu yüz karasını nasıl taşırım?"
  coronation_events.0150.desc_honest: "Güç, verilen sözle birlikte geldi. Diyarın önünde durup onların inandığı bir yemini, #emp benim#! de inandığım bir yemini ettim.\n\nŞimdi taht, oturaktan ziyade bir mezar gibi. Her nefeste benimle alay eden soğuk, yaldızlı bir kafes. Ve en kötüsü de, tüm bunların benim kendi hatam olduğunu bilmek."
@@ -407,8 +407,8 @@
  coronation_events_0300_d_tooltip_effect_hof: "@prestige_icon![prestige|E] kazanırsınız, ancak [coronation|E] [coronation_magnificence|E] düzeyine bağlı olarak [head_of_faith|E] ve [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName|U] [vassals|E] ile @opinion_icon![opinion|E] kaybedersiniz"
  coronation_events.0301.t: "Tören Yürütücüsünün Ölümü"
  coronation_events.0301.desc: "Taç giyme törenimin yürütücüsü, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('dead_officiator'))] [dead_officiator.GetFirstName] [dead_officiator.GetDeathReason]. Koltuğu boş, kutsal ayin ise tamamlanmamış duruyor.\n\nSaygın bir [first_candidate.GetFaith.GetAdherentName] [first_candidate.GetFaith.PriestNeuter] olan [first_candidate.GetFirstName] öne çıkıyor. "[first_candidate.GetFaith.HighGodName] tek bir canın göçüyle sarsılmaz," diye ciddi bir sesle söylüyor. "Uygun görürseniz ayini ben tamamlayacağım.""
-### TODO AGOT-CHANGED: coronation_events.0301.a [AGOT: May [dead_officiator.GetHerHis] soul find peace. | TR: Aziz [ROOT.Char.Custom('GetCatholicSaint')], ruhunu [ROOT.Char.GetFaith.PositiveAfterLife] kapısından içeri al.]
- coronation_events.0301.a: "May [dead_officiator.GetHerHis] soul find peace."
+
+ coronation_events.0301.a:0 "Aziz [ROOT.Char.Custom('GetCatholicSaint')], ruhunu [ROOT.Char.GetFaith.PositiveAfterLife] kapısından içeri al."
  coronation_events.0301.a.tooltip: "[first_candidate.GetFirstNameNoTooltip] törenin yeni yürütücüsü olacak"
  coronation_events.0301.a.c: "Onun ölümünün töreni durdurmasına izin vermeyeceğim."
  coronation_events.0301.b: "[second_candidate.GetTitledFirstNameNoTooltip], [first_candidate.GetFaith.HighGodName] ile daha yakındır."

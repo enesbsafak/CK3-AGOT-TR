@@ -12,8 +12,8 @@
  tournament_events.0100.desc:0 "Turnuva geldi çattı!\n\n"
  tournament_events.0100.host:0 "Birçokları [activity.GetCurrentPhase.GetLocation.GetName] topraklarındaki sahalarıma akın etti, kimi rüşdünü ispatlama kimiyse gösteriyi izleme peşinde."
  tournament_events.0100.contestant:0 "[activity.GetCurrentPhase.GetLocation.GetName] topraklarına akın edip müsabakaların başlamasını hevesle bekleyen birçokları gibi ben de sosyalleşip ekipmanımı hazırlamakla meşgulüm."
-### TODO AGOT-ONLY: tournament_events.0100.spectator [AGOT: ]
- tournament_events.0100.spectator:0 ""Many have flocked to [host.GetTitledFirstNamePossessive] grounds in [activity.GetCurrentPhase.GetLocation.GetName], both to compete and, like me, be entertained."
+
+ tournament_events.0100.spectator:0 ""Pek çok kişi hem yarışmak hem de benim gibi eğlenmek için [activity.GetCurrentPhase.GetLocation.GetName]'deki [host.GetTitledFirstNamePossessive] arazilerine akın etti.""
  tournament_events.0100.closing:1 "\n\nGüneş gökyüzünde yükseldikçe gölgeler kısalıyor. [activity.GetCurrentPhase.GetPhase.GetName] müsabakasında yer alacaksam buna hak kazanmalıyım. Yakında başlayacak."
  tournament_events.0100.a:0 "Kaybedecek zaman yok!"
  tournament_events.0150.t:1 "$tournament_header$ Kapanış"
@@ -82,10 +82,10 @@
  tournament_events.0801.a:0 "Yazık oldu."
  tournament_events.1000.t:1 "$tournament_contest_header$ Bahislerinizi Oynayın"
  tournament_events.1000.desc:0 "Tavernanın loş ışığında bahis defteri tutan kişiye dikkatle bakıp, kendinden emin bahisçilerin bağırarak söylediği oranlar üzerine kafa yoruyorum.\n\n"
-### TODO AGOT-ONLY: tournament_events.1000.horse_race [AGOT: ]
- tournament_events.1000.horse_race:0 ""[wager_top_contestant.GetTitledFirstNamePossessive] [wager_top_contestant.Custom('ContestHorseRaceGender')], #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#!, is the favorite! Four-to-one on for #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#!!""
-### TODO AGOT-ONLY: tournament_events.1000.fallback [AGOT: ]
- tournament_events.1000.fallback:0 ""[wager_top_contestant.GetTitledFirstName] is the [activity.GetCurrentPhase.GetPhase.GetName] favorite! Four-to-one on for [wager_top_contestant.GetNameNoTooltip]!""
+
+ tournament_events.1000.horse_race:0 ""[wager_top_contestant.GetTitledFirstNamePossessive] [wager_top_contestant.Custom('ContestHorseRaceGender')] #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#! favori! #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#! için dörde bir!""
+
+ tournament_events.1000.fallback:0 ""[wager_top_contestant.GetTitledFirstName], [activity.GetCurrentPhase.GetPhase.GetName]'in favorisi! [wager_top_contestant.GetNameNoTooltip] için dörde bir!""
  tournament_events.1000.a:0 "Peh, kendi üzerime bahse gireceğim!"
  tournament_events.1000.a.horse:0 "En iyi atım olan #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! kazanabilir."
  tournament_events.1000.a.best_horse:0 "Evet, #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! kazanacak!"
@@ -133,8 +133,8 @@
  tournament_events.1140.desc:0 "Atımın üstünde hava alıp [activity.GetCurrentPhase.GetLocation.GetName] topraklarındaki keşmekeşi izlerken yere göğe sığdıralamayan bir savaşçı olan '[pas_darmes_instigator.GetFullName]' 'pas d'arms' kampını savunurken onu gördüm.\n\n"
  tournament_events.1140.skilled:0 "[pas_darmes_instigator.Custom('MountedWarriorTerm')] kendinden memnun bir şekilde oturduğu yere geri dönüp biraz önce topladığı mahmuzlarla övünürken, önemsiz bir meydan okuyucu yol boyunca topallıyordu.\n\n"
  tournament_events.1140.unskilled:0 "Gayet memnun gözüken bir [pas_darmes_instigator.Custom('MountedWarriorTerm')] yanımdan geçerek saygıyla eğildi, [pas_darmes_instigator.GetFirstNameNoTooltip] ise görülür bir şekilde yenilginin ızdırabıyla bizi oturduğu yerden izliyordu.\n\n"
-### TODO AGOT-CHANGED: tournament_events.1140.wounded [AGOT: Battered and bruised, [pas_darmes_instigator.GetSheHe] grimaces through [pas_darmes_instigator.GetHerHis] pain as I approach. | TR: Her tarafı ezilmiş ve morarmış durumdayken acıdan yüzünü ekşitti.]
- tournament_events.1140.wounded:0 "Battered and bruised, [pas_darmes_instigator.GetSheHe] grimaces through [pas_darmes_instigator.GetHerHis] pain as I approach. "You cannot win them all," [pas_darmes_instigator.GetSheHe] chuckles, squinting up at me."
+
+ tournament_events.1140.wounded:0 "Her tarafı ezilmiş ve morarmış durumdayken acıdan yüzünü ekşitti."
  tournament_events.1140.fallback:0 "Beni fark ettiğinde başka bir dövüş için şevkle ayağa kalktı fakat kim olduğumun çabucak farkına vardı. Yüzünde gülümsemeyle gözlerini kısarak bana bakan [pas_darmes_instigator.GetFirstNameNoTooltip] eğildi, "Sizi gördüğüme sevindim, [ROOT.Char.Custom('FormOfAddressForLiege')|l].""
  tournament_events.1140.a:0 "Bir #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#! nasıl dövüşür sana göstereyim."
  tournament_events.1140.a.wounded:0 "Bunu da kazanamayacaksınız."
@@ -236,14 +236,14 @@
  tournament_events.1255.t:0 "$tournament_events.1252.t$"
  tournament_events.1255.desc:0 "[favor_giver.GetTitledFirstName], [favor_recipient.GetTitledFirstName] ile ilişkisi olduğunu reddetti ve bu suçlama karşısında çileden çıktı. "O [Select_CString(favor_recipient.IsFemale, 'kadını', 'adamı' )] tanımıyorum bile!"\n\nNe derse desin şüphe tohumları çoktan ekildi bile..."
  tournament_events.1255.a:0 "Daha ne yapabilirim?"
-### TODO AGOT-ONLY: tournament_events.1255.a.tt [AGOT: ]
- tournament_events.1255.a.tt:0 ""Only time will tell...""
+
+ tournament_events.1255.a.tt:0 ""Zaman gösterecek...""
  tournament_events.1260.t:2 "Huzuru Korumak"
  tournament_events.1260.desc:0 "Sayısız lord ve [ROOT.Char.Custom('MountedWarriorTerm')] bir yerde toplandığında eski anlaşmazlıkların gün yüzüne çıkması ve kibrin sürtüşmeleri ateşlemesiyle devamlı münakaşa yaşanması işten değil.\n\n"
-### TODO AGOT-ONLY: tournament_events.1260.rival [AGOT: ]
- tournament_events.1260.rival:0 ""Listen here, you slippery [duelist_2.Custom2('InsultNoun', SCOPE.sC('duelist_1'))]!" [duelist_1.GetFirstName] snarls, as [duelist_2.GetTitledFirstName] fingers [duelist_2.GetHerHis] [duelist_2.Custom('SignatureWeaponNameOrType')] grip menacingly. No one is sure what started it.\n\nUsually these petty shows of bravado end with a black-eye at worst, but [duelist_1.GetTitledFirstNamePossessive] fearsome quarrel with [duelist_2.GetTitledFirstName] threatens to tar the whole event."
-### TODO AGOT-ONLY: tournament_events.1260.fallback [AGOT: ]
- tournament_events.1260.fallback:0 ""Listen here, you slippery [duelist_2.Custom2('InsultNoun', SCOPE.sC('duelist_1'))]!" [duelist_1.GetFirstName] snarls, as [duelist_2.GetFirstNameNoTooltip] fingers [duelist_2.GetHerHis] sword-grip menacingly.\n\nUsually these petty shows of bravado end with a black-eye at worst, but this fearsome quarrel threatens to tar the whole event. No one can say what started it."
+
+ tournament_events.1260.rival:0 ""Dinle bak, seni sinsi [duelist_2.Custom2('InsultNoun', SCOPE.sC('duelist_1'))]!" diye hırlar [duelist_1.GetFirstName], [duelist_2.GetTitledFirstName] tehditkâr bir şekilde [duelist_2.GetHerHis] [duelist_2.Custom('SignatureWeaponNameOrType')] sapını kavrarken. Kimse nasıl başladığından emin değil.\n\nGenelde bu tür küçük gösteriş patlamaları en kötü ihtimalle morarmış bir gözle biter, ama [duelist_1.GetTitledFirstNamePossessive] [duelist_2.GetTitledFirstName] ile olan korkunç kavgası tüm etkinliği lekelemekle tehdit ediyor.""
+
+ tournament_events.1260.fallback:0 ""Dinle bak, seni sinsi [duelist_2.Custom2('InsultNoun', SCOPE.sC('duelist_1'))]!" diye hırlar [duelist_1.GetFirstName], [duelist_2.GetFirstNameNoTooltip] tehditkâr bir şekilde [duelist_2.GetHerHis] kılıç sapını kavrarken.\n\nGenelde bu tür küçük gösteriş patlamaları en kötü ihtimalle morarmış bir gözle biter, ama bu korkunç kavga tüm etkinliği lekelemekle tehdit ediyor. Kimse neyin başlattığını söyleyemez.""
  tournament_events.1260.a:0 "Yeter artık! Haydut kampı mı burası?"
  tournament_events.1260.b:0 "Hadi, ev sahibinizi küçük düşürmeyin."
  tournament_events.1260.c:0 "Dışarı! Sorun çıkaranları götürün buradan!"
@@ -271,8 +271,8 @@
  tournament_events.1290.b:0 "Onarımların masrafını ben karşılayacağım."
  tournament_events.1290.c:0 "Korkarım kısmet böyleymiş..." 
  tournament_events.1300.t:1 "$tournament_header$ Kanadı Altında"
-### TODO AGOT-ONLY: tournament_events.1300.desc [AGOT: ]
- tournament_events.1300.desc:1 ""No, not quite. Move your foot back a bit to balance and swing #EMP through#! the target and... yes! Perfect! Well done [young_knight.Custom('GetLassLad')]!"\n\nIn front of me, the grizzled old veteran [old_knight.GetFirstName] is training [young_knight.GetFirstName], clearly passing on knowledge gained from one [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] to another. [old_knight.GetFirstNameNoTooltip] spots me as I approach.\n\n"Good morning, my [ROOT.Char.GetTitleAsNameNoTooltip]! I'm helping [young_knight.GetFirstNameNoTooltip] here perfect [young_knight.GetHerHis] stances. You have a talented young warrior on your hands already!" [young_knight.GetFirstNameNoTooltip] tries and fails to hide an embarrassed but pleased grin at the praise from [young_knight.GetHerHis] mentor."
+
+ tournament_events.1300.desc:0 ""Hayır, tam olarak öyle değil. Denge için ayağını biraz geri al ve hedefe #EMP doğru#! savur ve... evet! Mükemmel! Aferin sana [young_knight.Custom('GetLassLad')]!"\n\nÖnümde, kır saçlı emektar [old_knight.GetFirstName], [young_knight.GetFirstName]'i çalıştırıyor; belli ki [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]'ten diğerine aktarılan bilgiyi öğretiyor. [old_knight.GetFirstNameNoTooltip] yaklaştığımı fark ediyor.\n\n"Günaydın, [ROOT.Char.GetTitleAsNameNoTooltip]'im! Buradaki [young_knight.GetFirstNameNoTooltip]'in duruşlarını mükemmelleştirmesine yardım ediyorum. Elinizde şimdiden yetenekli genç bir savaşçı var!" [young_knight.GetFirstNameNoTooltip], [young_knight.GetHerHis] akıl hocasının övgüsü karşısında mahcup ama memnun bir sırıtışı gizlemeye çalışıyor ama başaramıyor.""
  tournament_events.1300.a:0 "Müthiş! Devam edin!"
  tournament_events.1300.b:0 "Belki #EMP ben#! devralmalıyım."
  tournament_events.1300.b.success:0 "[young_knight.GetFirstNameNoTooltip] rastgele bir $game_concept_trait_level_track$ için #color_white 10#! [GetTrait('tourney_participant').GetName( GetNullCharacter )] $game_concept_trait_level_track_xp$ kazandı"
@@ -287,8 +287,8 @@
  tournament_events.1310.b.failure:0 "[famous_knight.GetFirstNamePossessiveNoTooltip] öğrettiklerini anlamadınız"
  tournament_events.1310.c:0 "Affedersiniz, kim demiştiniz?" 
  tournament_events.1311.t:2 "Yüzüne Gözüne Bulaştırmak"
-### TODO AGOT-ONLY: tournament_events.1311.desc [AGOT: ]
- tournament_events.1311.desc:0 ""Attention all ye who wander here!" A herald's voice cuts through the crowds milling about the tournament, and more than a few turn to face the noise.\n\n"Let it be known that entering the field right now is... is..." The herald gasps slightly, scanning the crowd for a name that had clearly been forgotten.\n\n"Is... my good lady- er, my good #EMP lord#!- er..." The herald's hands clench and unclench spasmodically, the panic at forgetting the name of the [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')] that was being introduced as clear as day. Said [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')], [forgotten_knight.GetTitledFirstName], approaches the quailing crier with a face of thunder."
+
+ tournament_events.1311.desc:0 ""Buraya uğrayan herkes dikkat!" Bir müjdecinin sesi turnuvada dolaşan kalabalığı deler ve pek çok kişi sese doğru döner.\n\n"Biliniz ki, şu an alana giren... giren..." Müjdeci hafifçe nefesini tutar, belli ki unutulmuş bir isim için kalabalığı tarar.\n\n"...benim iyi hanımefendim- yani, iyi #EMP lordum#!- yani..." Müjdecinin elleri istemsizce açılıp kapanıyor, tanıtılan [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')]'in adını unutmanın paniği gün gibi ortada. Söz konusu [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')], [forgotten_knight.GetTitledFirstName], kasvetli bir yüzle tir tir titreyen tellâla yaklaşıyor.""
  tournament_events.1311.a:0 "[forgotten_knight.GetFirstNameNoTooltip]! Size başka bir haberci önerebilir miyim?"
  tournament_events.1311.b:0 "O habercinin muhtemelen yeni bir işe ihtiyacı olacak..."
  tournament_events.1311.b.tt:0 "Tüm [GetTrait('compassionate').GetName( GetNullCharacter )] katılımcılar size karşı #color_green +25#! görüş kazandı"
@@ -314,15 +314,15 @@
  tournament_events.1322.desc:0 "Yabancının yüzünde beliren saf öfke beni geriletti ve muhafızlarım bir adım öne çıkarak silahlarını çekti. Kapüşonunu indirdiğinde suretin dudakları iğrenmiş ve alaycı bir şekilde büküldü.\n\n"Yüzümü görebiliyorsunuz." dedi. "Size adımı da söyleyeyim. En içten dileğim [unusual_stranger.GetFirstName] tarafından sizden adil bir intikamın nasıl alınacağını düşünmekten geceleri uykusuz kalmanız. Yıllar geçse de asla unutmayacağım ve umarım siz de unutmazsınız."\n\n"Şunu unutmayın: #EMP Hesaplaşacağız.#!" kapüşonunu kapattı, cübbesini sıkılaştırdı ve kalabalığın içinde kayboldu."
  tournament_events.1322.a:0 "Sıkıntı... sıkıntı olmayacağına eminim."
  tournament_events.1330.t:0 "Gelecek Nesil"
-### TODO AGOT-ONLY: tournament_events.1330.desc [AGOT: ]
- tournament_events.1330.desc:0 ""Good luck, [ROOT.Char.Custom('FormOfAddressForLiege')]!" I acknowledge the shout from a member of the gathering crowd with a grateful wave. "And good luck to you too, [heir.GetFirstName]!"\n\n"What did they mean by that?" I ask [heir.GetFirstNameNoTooltip], striding along beside me. "Why would they need to wish you luck?" [heir.GetHerHis|U] nervous look quickly gave the answer to that question.\n\n"I... I want to compete!" [heir.GetSheHe|U] insists. "You're participating, why can't I?" I stop dead, [heir.GetFirstNameNoTooltip] stumbling to halt alongside me uncertainly, [heir.GetHerHis] bravado crumbling somewhat in the face of my reaction."
+
+ tournament_events.1330.desc:0 ""İyi şanslar, [ROOT.Char.Custom('FormOfAddressForLiege')]!" Toplanan kalabalıktan birinin bu bağırışını minnettar bir el sallayışla karşılıyorum. "Sana da iyi şanslar, [heir.GetFirstName]!"\n\n"Bununla ne demek istediler?" diye sorarım yanımda adımlayan [heir.GetFirstNameNoTooltip]'e. "Sana neden şans dilemeleri gereksin ki?" [heir.GetHerHis|U] tedirgin bakışı sorunun cevabını hemen verdi.\n\n"Ben... ben yarışmak istiyorum!" diye ısrar eder [heir.GetSheHe|U]. "Sen katılıyorsun, neden ben katılmayayım?" Öylece dururum, [heir.GetFirstNameNoTooltip] tereddütle yanımda durmak için tökezler, [heir.GetHerHis] gözü pekliği tepkim karşısında biraz söner.""
  tournament_events.1330.a:0 "Anlaman lazım. Tehlikeye atamayacağım kadar değerlisin"
  tournament_events.1330.b:0 "Böyle bir [heir.Custom('GetDaughterSon')] sahibi olmak ne büyük ayrıcalık!"
  tournament_events.1330.c:0 "Bunu yasaklıyorum! Git hemen turnuvadan çekil!"
  tournament_events.1330.d:0 "...[Select_CString(spouse.IsFemale, 'annene', 'babana' )] söyleme."
  tournament_events.1331.t:0 "Aile İçin mi?"
-### TODO AGOT-ONLY: tournament_events.1331.desc [AGOT: ]
- tournament_events.1331.desc:0 ""[ROOT.Char.GetFirstName]! Just the [ROOT.Char.GetWomanMan] I've been wanting to run into!" [dynast.GetFirstName] hurries up to me. "We need to talk. You see, I had heard you were signed up for the upcoming contest and, well..."\n\nMy impassive look clearly hardens [dynast.GetFirstNamePossessiveNoTooltip] stance towards the situation. [dynast.GetSheHe|U] draws [dynast.GetHerselfHimself] up to [dynast.GetHerHis] full height.\n\n"You need to withdraw. I am the head of [dynast.GetDynastyName] and I demand it! For the good of our lineage!" As [dynast.GetSheHe] berates me, I look back across at where the colors of the participating contestants were hoisted. Including, predictably, [dynast.GetFirstNamePossessiveNoTooltip]."
+
+ tournament_events.1331.desc:0 ""[ROOT.Char.GetFirstName]! Tam da karşılaşmak istediğim [ROOT.Char.GetWomanMan]!" [dynast.GetFirstName] telaşla yanıma gelir. "Konuşmamız lazım. Bak, yaklaşan yarışmaya yazıldığını duymuştum ve, yani..."\n\nİfadesiz bakışım, [dynast.GetFirstNamePossessiveNoTooltip] durum karşısındaki tavrını belirgin şekilde sertleştirir. [dynast.GetSheHe|U] [dynast.GetHerHis] boyunun tamamına dikilir.\n\n"Çekilmek zorundasın. Ben [dynast.GetDynastyName]'in reisiyim ve bunu emrediyorum! Soyumuzun iyiliği için!" [dynast.GetSheHe] beni azarlarken, karşı tarafa, yarışanların renklerinin göndere çekildiği yere bakarım. Tahmin edilebileceği gibi, [dynast.GetFirstNamePossessiveNoTooltip] renkleri de orada.""
  tournament_events.1331.a:0 "Beni yıldıramazsın, [dynast.GetFirstNameNoTooltip]."
  tournament_events.1331.b:0 "Elbette. Her şey #EMP 'aile'#! için."
  tournament_events.1331.c:0 "Sözlerini bir daha düşünmek ister misin, [dynast.GetFirstNameNoTooltip]?"
@@ -364,16 +364,16 @@
  tournament_events.1403.c:0 "Bunu kendi hâline bırakmak iyi olabilir."
  tournament_events.1404.t:1 "$tournament_header$ Potansiyel Talipler"
  tournament_events.1404.desc:0 "Kalabalığın ön taraflarında [ROOT.Char.Custom2('RelationToMePossessive', gossip_friend)] [gossip_friend.GetFirstName] ile yerleşirken müsabakacılar sahanın bize yakın kısmında tırıs gidiyordu. [gossip_friend.GetFirstNameNoTooltip] birkaç kez beni dürttü ve pek nükteli olmayan bir şekilde başıyla iki müsabakacıyı ima etti.\n\n"Bu ikisi hakkında ne düşünüyorsun?" dedi keyifli gülüşünü bastırarak. "#EMP Senin#! seçimin hangisi?" Kıpırdayıp duran kaşlarına bakılırsa kimin kazanacağını düşündüğümü sormadığı belliydi.\n\n"Bak, bak, bize yaklaşıyorlar! Bir şey söyle! Bağır ki duysunlar!""
-### TODO AGOT-ONLY: tournament_events.1404.a [AGOT: ]
- tournament_events.1404.a:0 ""Neither can quite compare to #EMP your#! beauty.""
-### TODO AGOT-ONLY: tournament_events.1404.b [AGOT: ]
- tournament_events.1404.b:0 ""Hah! You'd do better than either on the battlefield of love!""
-### TODO AGOT-ONLY: tournament_events.1404.c [AGOT: ]
- tournament_events.1404.c:0 ""#BOL Oh my, is that fine specimen [knight_1.GetFirstNameNoTooltip]?!#!""
-### TODO AGOT-ONLY: tournament_events.1404.d [AGOT: ]
- tournament_events.1404.d:0 ""#BOL Wow, just #EMP look#! at [knight_2.GetFirstNameNoTooltip]!#!""
-### TODO AGOT-ONLY: tournament_events.1404.e [AGOT: ]
- tournament_events.1404.e:0 ""#EMP Shh, shh!#! #DIE1 That's #EMP enough #!, [gossip_friend.GetFirstNameNoTooltip]!#!""
+
+ tournament_events.1404.a:0 ""İkisi de #EMP senin#! güzelliğinle kıyaslanamaz.""
+
+ tournament_events.1404.b:0 ""Hah! Aşk savaş alanında ikisinden de daha iyi olursun!""
+
+ tournament_events.1404.c:0 ""#BOL Aman Tanrım, şu muhteşem örnek [knight_1.GetFirstNameNoTooltip] mi?! #!""
+
+ tournament_events.1404.d:0 ""#BOL Vay, şu [knight_2.GetFirstNameNoTooltip]'e bir #EMP bak#! #!""
+
+ tournament_events.1404.e:0 ""#EMP Şşş, şşş!#! #DIE1 Bu #EMP kadarı#! yeter, [gossip_friend.GetFirstNameNoTooltip]!#!""
  tournament_events.1405.t:1 "$tournament_header$ Şanslı Bir [flirty_onlooker.Custom('GetLassLad')|U]"
  tournament_events.1405.desc:0 "Gözlerimle kalabalığı süzdüm. Tüm izleyiciler ya sohbet ediyordu ya da müsabakacıları teşvik ediyordu. Biri dışında.\n\n[flirty_onlooker.GetFirstName] doğrudan bana bakıyordu. Gözlerimizin buluşmasıyla bakışlarını kaçırması bir oldu. Normalde şüphelenirdim fakat dudaklarını ısırması ve hâlâ ona bakıp bakmadığımı görmek için attığı kaçamak bakışlardan, bunun farklı bir durum olabileceğinin farkına vardım."
  tournament_events.1405.a:0 "Bu bilgi ileride işime yarayabilir!"
@@ -382,12 +382,12 @@
  tournament_events.1405.c:0 "Müsabakayı izlemeye geldim, flört etmeye değil!"
  tournament_events.1406.t:1 "$tournament_header$ Yeni Deneyimler"
  tournament_events.1406.desc:0 "Kalabalığın arasında yol alırken [root_child.GetFirstName], ha bire başını çevirip tüm manzaraların ve seslerin tadını çıkarıyordu. Heyecandan titreyerek elimi çekiyor ve yanımızdan hızla geçen müsabakacıları işaret ediyordu.\n\nOnu nazikçe dizginlediysem de beni çekmeye devam etti, bu durum karşısında içindeki heyecanı zapt edemiyordu."
-### TODO AGOT-ONLY: tournament_events.1406.a [AGOT: ]
- tournament_events.1406.a:0 ""Focus on your studies, child.""
-### TODO AGOT-ONLY: tournament_events.1406.b [AGOT: ]
- tournament_events.1406.b:0 ""Come on, get up on my shoulders!""
-### TODO AGOT-ONLY: tournament_events.1406.c [AGOT: ]
- tournament_events.1406.c:0 ""I'm excited too, [root_child.GetFirstNameNoTooltip]!""
+
+ tournament_events.1406.a:0 ""Derslerine odaklan, evlat.""
+
+ tournament_events.1406.b:0 ""Hadi, omuzlarıma çık!""
+
+ tournament_events.1406.c:0 ""Ben de heyecanlıyım, [root_child.GetFirstNameNoTooltip]!""
  tournament_events.1407.t:1 "$tournament_header$ Onurunu Korumak"
  tournament_events.1407.desc:0 "İşte burada! [ROOT.Char.Custom2('RelationToMePossessive', competing_family)|U] [competing_family.GetFirstName] müsabakada yer alıyor, nihayet onu müsabakacılar kalabalığında bulabildim. Biraz destek istemek için ağzımı açmıştım ki başka bir ses duydum.\n\n"Hey, [competing_family.GetFirstNameNoTooltip]! Git de başımıza iş açma!"\n\nKıkırdayan [shouting_fan.GetFirstName], izleyicilerin arasında dururken bir hakaret daha hazırlıyordu."
  tournament_events.1407.a:0 "Ne dedin sen?!"
@@ -399,8 +399,8 @@
  tournament_events.1407.c:0 "Umarım [competing_family.GetFirstNameNoTooltip], üstüne alınmaz..."
  tournament_events.1408.t:0 "$tournament_header$ Kurumuş Ağız"
  tournament_events.1408.desc:0 "Ben kalabalığın önündeki yerimden müsabakayı izlerken güneş var gücüyle parlıyordu. Bugün fazla mı sıcak yoksa ben mi kalın giyinmişim?\n\nBu konuda düşünüyordum ki omzunda ne olduğunu bilmediğim bir tür sıvıyla dolu bir varil taşıyan genç bir tüccar gördüm, görünüşe göre oradakilere bu sıvıdan satıyordu. Birden ağzımın kuruduğunu hissettim. Bir de yerimi kaybetmeden oraya gidebilsem...\n\nÇaresizce etrafa bakındım fakat sadece elinde içeceğiyle kalabalığın arasından sıyrılarak yerine dönen [drinking_fan.GetFirstName] gözüme çarptı."
-### TODO AGOT-ONLY: tournament_events.1408.a [AGOT: ]
- tournament_events.1408.a:0 ""Could I buy that off you?""
+
+ tournament_events.1408.a:0 ""Onu senden satın alabilir miyim?""
  tournament_events.1408.a.tt:0 "Biraz ikna gerekebilir..."
  tournament_events.1408.b:0 "Eğer çabuk davranırsam..."
  tournament_events.1408.b.success:0 "İçecek için ileri atıldınız ve kolaylıkla geri döndünüz"
@@ -409,20 +409,20 @@
  tournament_events.1408.c:0 "Yapacak bir şey yok."
  tournament_events.1409.t:0 "$tournament_header$ Destekleyecek Biri"
  tournament_events.1409.desc:0 "Birine yol vermek için kenara çekilmiştim ki birden konuşmaya başladı.\n\n"Ah, [ROOT.Char.GetTitledFirstName]! Seni burada görmek ne güzel!" Cevap vermek için ağzımı açtım ama [friendly_fan.GetFirstName] benden hızlıydı. "Gözdeniz olan biri var mı? Kazanacağını düşündüğünüz biri? Bana kalırsa [fan_favourite.GetFirstName] kazanacak!"\n\nBir anlığına seçenekleri gözden geçirdim. Belki de en iyisi ona katıldığımı söylemektir?"
-### TODO AGOT-ONLY: tournament_events.1409.a [AGOT: ]
- tournament_events.1409.a:0 ""Of course! It has to be [fan_favourite.GetFirstNameNoTooltip]!""
-### TODO AGOT-ONLY: tournament_events.1409.b [AGOT: ]
- tournament_events.1409.b:0 ""Obviously it's going to be [other_favourite.GetFirstNameNoTooltip], you [friendly_fan.Custom2('InsultNoun', ROOT.Char)]!""
+
+ tournament_events.1409.a:0 ""Elbette! [fan_favourite.GetFirstNameNoTooltip] olmalı!""
+
+ tournament_events.1409.b:0 ""Açıkçası [other_favourite.GetFirstNameNoTooltip] olacak, seni [friendly_fan.Custom2('InsultNoun', ROOT.Char)]!""
  tournament_events.1409.c:0 "Eğer yalnızca gülümseyip kafa sallarsam..."
  tournament_events.1410.t:0 "$tournament_header$ Mutsuz Hayranlar"
  tournament_events.1410.desc:0 "Kalabalığın üstündeki bölümde bir kavganın çıktığını açıkça duyabiliyorum. Başımı çevirdiğimde iki suret seçebiliyorum, ikiside aynı giysileri giyiyor. Bu anlaşmazlığın tam olarak neden çıktığı belirsiz fakat izleyicilerden oluşan bir halka çoktan etraflarını sarmış.\n\n"Seni [fan_2.Custom2('InsultAdjective', SCOPE.sC('fan_1'))] [fan_2.Custom2('InsultNoun', SCOPE.sC('fan_1'))]!" [fan_1.GetFirstName] tükürdü ve dikelirken küfürler savurdu. [fan_2.GetFirstName] ona layıkıyla cevap verdi.\n\n"Hödüğün tekisin seni [fan_1.Custom2('InsultNoun', SCOPE.sC('fan_2'))]! Karnını deşeceğim!" İkisi de meydan okuma faslını geçmiş gibi duruyor."
-### TODO AGOT-ONLY: tournament_events.1410.a [AGOT: ]
- tournament_events.1410.a:0 ""That's enough!""
+
+ tournament_events.1410.a:0 ""Yeter artık!""
  tournament_events.1410.a.tt:0 "Aralarına girmek riskli olabilir fakat #EMP bir şeyler#! yapmalıyım..."
  tournament_events.1410.a.success:0 "Kavgayı ayırmakta başarılı oldunuz"
  tournament_events.1410.a.failure:0 "Çıkan dövüşte yaralandınız"
-### TODO AGOT-ONLY: tournament_events.1410.b [AGOT: ]
- tournament_events.1410.b:0 ""Come now! This is no time or place for a fight!""
+
+ tournament_events.1410.b:0 ""Hadi ama! Burası kavga edilecek yer ve zaman değil!""
  tournament_events.1410.b.success:0 "Sakinleştirici sözleriniz işe yaradı"
  tournament_events.1410.b.failure:0 "İkili dövüşmeye devam etti"
  tournament_events.1410.c:0 "Evet! Vur ona!"
@@ -556,31 +556,31 @@
  tournament_events.6052.t:0 "$tournament_events.6050.t$"
  tournament_events.6052.host:1 "Önümüzdeki [activity.GetCurrentPhase.GetPhase.GetName] müsabakasına katılanlardan biri olan [sabotage_actor.GetTitledFirstName], refakatçilerim tarafından yakalanmış. Beni sabote etmeye çalıştığını söylüyorlar!\n\n"
  tournament_events.6052.guest:0 "[sabotage_actor.GetTitledFirstName], önümüzdeki [activity.GetCurrentPhase.GetPhase.GetName|l] müsabakasına katılanlardan biri olan [sabotage_target.GetTitledFirstName] tarafından hile yaptığına dair suçlanmış. Daha müsabaka günü bile gelmemişken hem de!\n\n"
-### TODO AGOT-ONLY: tournament_events.6052.foot [AGOT: ]
- tournament_events.6052.foot:1 ""[sabotage_actor.GetSheHe|U] was tampering with [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] armor, weakening the leather points that secure the components in the hope they would wear through mid-bout!""
-### TODO AGOT-ONLY: tournament_events.6052.archery [AGOT: ]
- tournament_events.6052.archery:2 ""[sabotage_actor.GetSheHe|U] was tampering with [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] bow, subtly altering the pull of the string.""
-### TODO AGOT-ONLY: tournament_events.6052.pugilism [AGOT: ]
- tournament_events.6052.pugilism:1 ""[sabotage_actor.GetSheHe|U] was tampering with [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] wrappings, coating them with an irritating unguent.""
-### TODO AGOT-ONLY: tournament_events.6052.horse [AGOT: ]
- tournament_events.6052.horse:1 ""[sabotage_actor.GetSheHe|U] was trying to poison [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] horse, swapping stable feed for tainted batches while the squires slept.""
-### TODO AGOT-ONLY: tournament_events.6052.horse_race [AGOT: ]
- tournament_events.6052.horse_race:1 ""[sabotage_actor.GetSheHe|U] was trying to poison [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] race horse, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!, swapping stable feed for tainted batches while the squires slept.""
+
+ tournament_events.6052.foot:0 ""[sabotage_actor.GetSheHe|U], [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] zırhına müdahale etmiş, parçaları tutan deri bağcıkları müsabakanın ortasında kopmaları umuduyla zayıflatmış!""
+
+ tournament_events.6052.archery:0 ""[sabotage_actor.GetSheHe|U], [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] yayına müdahale etmiş, kirişin çekiş gücünü fark edilmeyecek şekilde değiştirmiş.""
+
+ tournament_events.6052.pugilism:0 ""[sabotage_actor.GetSheHe|U], [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] sargılarına müdahale etmiş, üzerlerini tahriş edici bir merhemle kaplamış.""
+
+ tournament_events.6052.horse:0 ""[sabotage_actor.GetSheHe|U], [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] atını zehirlemeye çalışmış, yaverler uyurken ahır yemini bozuk partilerle değiştirmiş.""
+
+ tournament_events.6052.horse_race:0 ""[sabotage_actor.GetSheHe|U], [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] yarış atını, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!i zehirlemeye çalışmış, yaverler uyurken ahır yemini bozuk partilerle değiştirmiş.""
  tournament_events.6052.a:0 "Hile yapanlara müsamaha göstermeyeceğim."
  tournament_events.6052.a.host:0 "Hile yapanları diskalifiye etmek gerekli!"
  tournament_events.6052.b:0 "Hadi ama, hiçbir zararı olmadı."
  tournament_events.6053.t:0 "$tournament_events.6050.t$"
  tournament_events.6053.desc:0 "[activity.GetCurrentPhase.GetPhase.GetName|l] müsabakası daha başlamadan biri sabotaj yapmaya çalışırken yakalandı!"
-### TODO AGOT-ONLY: tournament_events.6053.foot [AGOT: ]
- tournament_events.6053.foot:1 ""[sabotage_actor.GetTitledFirstName] was tampering with [sabotage_target.GetTitledFirstNamePossessive] armor, weakening the leather points that secure the components in the hope they would wear through mid-bout!""
-### TODO AGOT-ONLY: tournament_events.6053.archery [AGOT: ]
- tournament_events.6053.archery:2 ""[sabotage_actor.GetTitledFirstName] was tampering with [sabotage_target.GetTitledFirstNamePossessive] bow, subtly altering the pull of the string to throw me off.""
-### TODO AGOT-ONLY: tournament_events.6053.pugilism [AGOT: ]
- tournament_events.6053.pugilism:1 ""[sabotage_actor.GetTitledFirstName] was tampering with [sabotage_target.GetTitledFirstNamePossessive] wrappings, coating them with an irritating unguent to throw me off.""
-### TODO AGOT-ONLY: tournament_events.6053.horse [AGOT: ]
- tournament_events.6053.horse:1 ""[sabotage_actor.GetTitledFirstName] was trying to poison [sabotage_target.GetTitledFirstNamePossessive] horse, swapping stable feed for tainted batches while the squires slept.""
-### TODO AGOT-ONLY: tournament_events.6053.horse_race [AGOT: ]
- tournament_events.6053.horse_race:1 ""[sabotage_actor.GetTitledFirstName] was trying to poison [sabotage_target.GetTitledFirstNamePossessive] race horse, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!, swapping stable feed for tainted batches while the squires slept.""
+
+ tournament_events.6053.foot:0 ""[sabotage_actor.GetTitledFirstName], [sabotage_target.GetTitledFirstNamePossessive] zırhına müdahale etmiş, parçaları tutan deri bağcıkları müsabakanın ortasında kopmaları umuduyla zayıflatmış!""
+
+ tournament_events.6053.archery:0 ""[sabotage_actor.GetTitledFirstName], [sabotage_target.GetTitledFirstNamePossessive] yayına müdahale etmiş, beni şaşırtmak için kirişin çekiş gücünü fark edilmeyecek şekilde değiştirmiş.""
+
+ tournament_events.6053.pugilism:0 ""[sabotage_actor.GetTitledFirstName], [sabotage_target.GetTitledFirstNamePossessive] sargılarına müdahale etmiş, beni şaşırtmak için üzerlerini tahriş edici bir merhemle kaplamış.""
+
+ tournament_events.6053.horse:0 ""[sabotage_actor.GetTitledFirstName], [sabotage_target.GetTitledFirstNamePossessive] atını zehirlemeye çalışmış, yaverler uyurken ahır yemini bozuk partilerle değiştirmiş.""
+
+ tournament_events.6053.horse_race:0 ""[sabotage_actor.GetTitledFirstName], [sabotage_target.GetTitledFirstNamePossessive] yarış atını, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!i zehirlemeye çalışmış, yaverler uyurken ahır yemini bozuk partilerle değiştirmiş.""
  tournament_events.6053.disqualified_target:0 "\n\n[host.GetTitledFirstName] o acınası iti adaleti yerine getirerek müsabakadan diskalifiye etti. Bu ne küstahlık!"
  tournament_events.6053.disqualified:0 "\n\n[host.GetTitledFirstName] anlaşılır biçimde müsabakadan diskalifiye edildi. Hedefi buna sevinmiş olsa gerek."
  tournament_events.6053.forgiven_target:0 "\n\n[host.GetTitledFirstName] o acınası iti nasıl olduysa bağışladı, yani hâlâ müsabakada yer alabilecek! Bu ne yüzsüzlük!"

@@ -1,8 +1,8 @@
 ﻿l_english:
  ep3_administrative_legacy_track_name: "Bürokrasi"
  ep3_administrative_legacy_track_desc: "[GetPlayer.GetDynasty.GetBaseNameNoTooltip] Hanedanının nüfuzu diğerlerini gölgede bırakmalı"
-### TODO AGOT-CHANGED: ep3_administrative_legacy_1_name [AGOT: Stewards of the City | TR: İmparatorluğun İdarecileri]
- ep3_administrative_legacy_1_name: "Stewards of the City"
+
+ ep3_administrative_legacy_1_name:0 "İmparatorluğun İdarecileri"
  ep3_administrative_legacy_1_effect_global: "[governor_efficiency|E]: #P +%5#!"
  ep3_administrative_legacy_2_name: "Güç Bir Merdivendir"
  ep3_administrative_legacy_2_effect_schemes_global: "[political_schemes|E]: #P +10#! [success_chance_max_i] Maksimum [scheme_success_chance|E]"
@@ -15,7 +15,7 @@
  ep3_dynasty_legacy_add_legitimacy_effect_desc: "[host.GetShortUINamePossessive] [activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly] topraklarında düzenlediği [activity.GetActivityType.GetNameNoTooltip] etkinliği [reception_hall_owner.GetShortUINamePossessive] [GetDomicileBuilding('reception_hall_01').GetName] binasına [legitimacy|E] ekledi"
  ep3_administrative_legacy_4_name: "Ebedi Şehir"
  ep3_administrative_legacy_4_effect_cabinet_of_curiosities_global: "[GetDomicileBuilding('cabinet_of_curiosities_01').GetName] [Concept('estate', 'Malikâne')|E] Binasını açar"
-### TODO AGOT-CHANGED: ep3_administrative_legacy_5_name [AGOT: With Quills and Ravens | TR: Diaírei kaì Basíleue]
- ep3_administrative_legacy_5_name: "With Quills and Ravens"
+
+ ep3_administrative_legacy_5_name:0 "Diaírei kaì Basíleue"
  ep3_administrative_legacy_track_effect_claimant_factions_global: "[vassals|E] ve [noble_families|E], [Concept('claimant_factions', 'Hak Sahibi Örgütleşmelerine')|E] katılmaya veya [GetScheme('depose').GetTypeName] [Concept('scheme', 'Planları')|E] kurmaya daha az meyillidir"
  ep3_administrative_legacy_track_effect_mass_arrests_decision_global: "#high [GetPlayer.GetPlayerInteractionName('ep3_mass_arrests_interaction')]#! [Concept('interaction', 'Etkileşimini')|E] açar"

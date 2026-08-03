@@ -19,14 +19,14 @@
  elope.1002.desc_naked:0 "Yataktan kalkıp daha kapıya ulaşmadan emirler vermeye başlıyorum."
  elope.1002.desc_not_naked:0 "Yataktan kalkıp bir yandan giyinirken bir yandan emirler veriyorum."
  elope.1002.desc:0 "\n\nSaatlerce süren aramanın ardından öğle saatlerinde [target.GetTitledFirstName] imzalı bir mektup bulunuyor. El yazısı mektubun onun tarafından yazıldığını doğruluyor.\n\n"
-### TODO AGOT-ONLY: elope.1002.apologetic_relationship.desc [AGOT: ]
- elope.1002.apologetic_relationship.desc:0 ""My dearest [target.GetFirstNameNoTooltip], I am so very sorry, but I have to follow my heart. I have left you to marry the love of my life — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)].""
-### TODO AGOT-ONLY: elope.1002.unapologetic_relationship.desc [AGOT: ]
- elope.1002.unapologetic_relationship.desc:0 ""I have left to marry [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Do not come after me — I would rather die than be yours again!""
-### TODO AGOT-ONLY: elope.1002.apologetic_family.desc [AGOT: ]
- elope.1002.apologetic_family.desc:0 ""[target.Custom2('RelationToMeShort', ROOT.Char)|U], I have left to marry the love of my life — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. All I want is to be happy. I hope you can find it in your heart to forgive me.""
-### TODO AGOT-ONLY: elope.1002.unapologetic_family.desc [AGOT: ]
- elope.1002.unapologetic_family.desc:0 ""If you truly loved your own [ROOT.Char.Custom2('RelationToMeShort' , target)], you would have wanted me to be happy. But as you care so little for me, I have left to follow my heart. I will marry [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] and there is nothing you can do to stop me!""
+
+ elope.1002.apologetic_relationship.desc:0 ""En sevgili [target.GetFirstNameNoTooltip], çok üzgünüm, ama kalbimi takip etmek zorundayım. Hayatımın aşkıyla evlenmek için seni terk ettim — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)].""
+
+ elope.1002.unapologetic_relationship.desc:0 ""[owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)] ile evlenmek için gittim. Peşimden gelme — yeniden senin olmaktansa ölmeyi tercih ederim!""
+
+ elope.1002.apologetic_family.desc:0 ""[target.Custom2('RelationToMeShort', ROOT.Char)|U], hayatımın aşkıyla evlenmek için gittim — [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Tek istediğim mutlu olmak. Beni affetmeyi kalbinde bulabileceğini umuyorum.""
+
+ elope.1002.unapologetic_family.desc:0 ""[ROOT.Char.Custom2('RelationToMeShort' , target)]'ini gerçekten sevseydin, mutlu olmamı isterdin. Ama bana bu kadar az değer verdiğine göre, kalbimi takip etmek için gittim. [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] ile evleneceğim ve beni durdurmak için yapabileceğin hiçbir şey yok!""
  elope.1002.a.fallback:0 "Nasıl yapar?"
  elope.1002.a.vengeful:0 "Sadakatsiz [target.Custom2('InsultNounSexual', ROOT.Char)] hak ettiğini bulacak!"
  elope.1002.a.compassionate:0 "Umarım mutlu olur..."

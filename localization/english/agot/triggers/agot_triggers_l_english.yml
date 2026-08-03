@@ -1,117 +1,117 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: is_human_first [AGOT: I'm a human]
- is_human_first:0 "I'm a human"
-### TODO NOT-IN-ST: is_not_human_first [AGOT: I'm not a human]
- is_not_human_first:0 "I'm not a human"
-### TODO NOT-IN-ST: is_human_third [AGOT: Is a human]
- is_human_third:0 "Is a human"
-### TODO NOT-IN-ST: is_not_human_third [AGOT: Is not a human]
- is_not_human_third:0 "Is not a human"
-### TODO NOT-IN-ST: is_human_global [AGOT: A human]
- is_human_global:0 "A human"
-### TODO NOT-IN-ST: is_not_human_global [AGOT: Not a human]
- is_not_human_global:0 "Not a human"
-### TODO NOT-IN-ST: ANY_HELD_COUNTY_TRIGGER [AGOT: Any held [county|E]:]
- ANY_HELD_COUNTY_TRIGGER:0 "Any held [county|E]:"
-### TODO NOT-IN-ST: ANY_COUNTY_PROVINCE_TRIGGER [AGOT: Any county province:]
- ANY_COUNTY_PROVINCE_TRIGGER:0 "Any county province:"
-### TODO NOT-IN-ST: HAS_HOLDING_TYPE_TRIGGER [AGOT: Has $HOLDING$ [holding_type|E]]
- HAS_HOLDING_TYPE_TRIGGER:0 "Has $HOLDING$ [holding_type|E]"
+﻿l_english:
+
+ is_human_first:0 "Ben bir insanım"
+
+ is_not_human_first:0 "Ben bir insan değilim"
+
+ is_human_third:0 "Bir insan"
+
+ is_not_human_third:0 "Bir insan değil"
+
+ is_human_global:0 "Bir insan"
+
+ is_not_human_global:0 "Bir insan değil"
+
+ ANY_HELD_COUNTY_TRIGGER:0 "Tutulan herhangi bir [county|E]:"
+
+ ANY_COUNTY_PROVINCE_TRIGGER:0 "Herhangi bir kontluk eyaleti:"
+
+ HAS_HOLDING_TYPE_TRIGGER:0 "$HOLDING$ [holding_type|E]'ne sahip"
 
  ANY_HAS_BUILDING_TRIGGER:0 "$BUILDING|V$ [building|E] var"
-### TODO NOT-IN-ST: agot_can_create_duchy [AGOT: Title has same or higher tier than the primary title of your pre-war [liege|E]]
- agot_can_create_duchy:0 "Title has same or higher tier than the primary title of your pre-war [liege|E]"
-### TODO NOT-IN-ST: NOT_PRIMARY_TITLE_KINGDOM_TRIGGER [AGOT: Your [primary_title|E] cannot be a [kingdom|E]]
- NOT_PRIMARY_TITLE_KINGDOM_TRIGGER:0 "Your [primary_title|E] cannot be a [kingdom|E]"
-### TODO NOT-IN-ST: NOT_AT_LEAST_TWO_KINGDOM_TITLES_TRIGGER [AGOT: You must have at least two or more [kingdom|E] titles]
- NOT_AT_LEAST_TWO_KINGDOM_TITLES_TRIGGER: "You must have at least two or more [kingdom|E] titles"
-### TODO NOT-IN-ST: agot_title_create_via_decision [AGOT: This title can only be created by [decision|E]]
- agot_title_create_via_decision:0 "This title can only be created by [decision|E]"
-### TODO NOT-IN-ST: agot_cannot_create [AGOT: This title cannot be created]
- agot_cannot_create:0 "This title cannot be created"
-### TODO NOT-IN-ST: agot_can_create_lp [AGOT: You cannot create this title while you or your pre-war [liege|E] are participating in a Mega War]
- agot_can_create_lp:0 "You cannot create this title while you or your pre-war [liege|E] are participating in a Mega War"
-### TODO NOT-IN-ST: agot_cannot_create_equivalent [AGOT: You cannot create a Kingdom title if the equivalent Empire title already exists]
- agot_cannot_create_equivalent:0 "You cannot create a Kingdom title if the equivalent Empire title already exists"
-### TODO NOT-IN-ST: any_liege_or_above_trigger [AGOT: Any liege or above:]
- any_liege_or_above_trigger:0 "Any liege or above:"
-### TODO NOT-IN-ST: control_morne [AGOT: You or a vassal need to hold [GetTitleByKey('b_morne').GetName]]
- control_morne:0 "You or a vassal need to hold [GetTitleByKey('b_morne').GetName]"
-### TODO NOT-IN-ST: agot_can_create_moat_cailin [AGOT: The Bastion of the Neck must be restored in order to create this title.]
- agot_can_create_moat_cailin:0 "The Bastion of the Neck must be restored in order to create this title."
-### TODO NOT-IN-ST: IS_CURRENT_DRAGONRIDER_TRIGGER_FIRST [AGOT: You are a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]]
- IS_CURRENT_DRAGONRIDER_TRIGGER_FIRST:0 "You are a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]"
-### TODO NOT-IN-ST: IS_CURRENT_DRAGONRIDER_TRIGGER_THIRD [AGOT: [CHARACTER.GetShortUIName|U] is a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]]
- IS_CURRENT_DRAGONRIDER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] is a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]"
-### TODO NOT-IN-ST: IS_CURRENT_DRAGONRIDER_TRIGGER [AGOT: Is a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]]
- IS_CURRENT_DRAGONRIDER_TRIGGER:0 "Is a [GetTrait('dragonrider').GetName(GetNullCharacter)] with access to a living [dragon|El]"
-### TODO NOT-IN-ST: NOT_IS_REJECTING_TERROR_CAMPAIGN_FIRST [AGOT: I'm refusing to conduct a terror campaign]
- NOT_IS_REJECTING_TERROR_CAMPAIGN_FIRST:0 "I'm refusing to conduct a terror campaign"
-### TODO NOT-IN-ST: NOT_IS_REJECTING_TERROR_CAMPAIGN_THIRD [AGOT: [CHARACTER.GetShortUIName|U] has refused to conduct a terror campaign]
- NOT_IS_REJECTING_TERROR_CAMPAIGN_THIRD:0 "[CHARACTER.GetShortUIName|U] has refused to conduct a terror campaign"
-### TODO NOT-IN-ST: HAS_DRAGON_RELATION [AGOT: Has bond with a [dragon|El]]
- HAS_DRAGON_RELATION:0 "Has bond with a [dragon|El]"
-### TODO NOT-IN-ST: HAS_NO_DRAGON_RELATION [AGOT: Has no bond with a [dragon|El]]
- HAS_NO_DRAGON_RELATION:0 "Has no bond with a [dragon|El]"
-### TODO NOT-IN-ST: I_HAVE_DRAGON_RELATION [AGOT: I have bond with a [dragon|El]]
- I_HAVE_DRAGON_RELATION:0 "I have bond with a [dragon|El]"
-### TODO NOT-IN-ST: I_DONT_HAVE_DRAGON_RELATION [AGOT: I don't have bond with a [dragon|El]]
- I_DONT_HAVE_DRAGON_RELATION:0 "I don't have bond with a [dragon|El]"
-### TODO NOT-IN-ST: has_an_active_dragonpit [AGOT: Has an active [dragonpit|El]]
- has_an_active_dragonpit:0 "Has an active [dragonpit|El]"
-### TODO NOT-IN-ST: not_has_an_active_dragonpit [AGOT: Does not have an active [dragonpit|El]]
- not_has_an_active_dragonpit:0 "Does not have an active [dragonpit|El]"
-### TODO NOT-IN-ST: dragon_population_extinct [AGOT: There are no living [dragons_plural|El]]
- dragon_population_extinct:0 "There are no living [dragons_plural|El]"
-### TODO NOT-IN-ST: not_dragon_population_extinct [AGOT: There is a living [dragon|El] in the world]
- not_dragon_population_extinct:0 "There is a living [dragon|El] in the world"
-### TODO NOT-IN-ST: has_dragonblood_heritage [AGOT: Has [dragonblood|E] heritage]
- has_dragonblood_heritage:0 "Has [dragonblood|E] heritage"
-### TODO NOT-IN-ST: not_has_dragonblood_heritage [AGOT: Has #bold no#! [dragonblood|E] heritage]
- not_has_dragonblood_heritage:0 "Has #bold no#! [dragonblood|E] heritage"
-### TODO NOT-IN-ST: agot_has_legitimate_house_trigger_global [AGOT: Has a [agot_legitimate_house|E]]
- agot_has_legitimate_house_trigger_global:0 "Has a [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_has_no_legitimate_house_trigger_global [AGOT: Has no [agot_legitimate_house|E]]
- agot_has_no_legitimate_house_trigger_global:0 "Has no [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_has_legitimate_house_trigger_third [AGOT: [TITLE.GetName] has a [agot_legitimate_house|E]]
- agot_has_legitimate_house_trigger_third:0 "[TITLE.GetName] has a [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_has_no_legitimate_house_trigger_third [AGOT: [TITLE.GetName] has no [agot_legitimate_house|E]]
- agot_has_no_legitimate_house_trigger_third:0 "[TITLE.GetName] has no [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_is_held_by_legitimate_house_trigger_global [AGOT: Is held by the [agot_legitimate_house|E]]
- agot_is_held_by_legitimate_house_trigger_global:0 "Is held by the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_is_not_held_by_legitimate_house_trigger_global [AGOT: Is not held by the [agot_legitimate_house|E]]
- agot_is_not_held_by_legitimate_house_trigger_global:0 "Is not held by the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_is_held_by_legitimate_house_trigger_third [AGOT: [TITLE.GetName] is held by the [agot_legitimate_house|E]]
- agot_is_held_by_legitimate_house_trigger_third:0 "[TITLE.GetName] is held by the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_is_not_held_by_legitimate_house_trigger_third [AGOT: [TITLE.GetName] is not held by the [agot_legitimate_house|E]]
- agot_is_not_held_by_legitimate_house_trigger_third:0 "[TITLE.GetName] is not held by the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_current_house_can_become_legitimate_trigger_global [AGOT: The current house has 100% progress towards becoming the [agot_legitimate_house|E]]
- agot_current_house_can_become_legitimate_trigger_global:0 "The current house has 100% progress towards becoming the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_current_house_cannot_become_legitimate_trigger_global [AGOT: The current house has less than 100% progress towards becoming the [agot_legitimate_house|E]]
- agot_current_house_cannot_become_legitimate_trigger_global:0 "The current house has less than 100% progress towards becoming the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_current_house_can_become_legitimate_trigger_third [AGOT: [TITLE.GetNamePossessive] current house has 100% progress towards becoming the [agot_legitimate_house|E]]
- agot_current_house_can_become_legitimate_trigger_third:0 "[TITLE.GetNamePossessive] current house has 100% progress towards becoming the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_current_house_cannot_become_legitimate_trigger_third [AGOT: [TITLE.GetNamePossessive] current house has less than 100% progress towards becoming the [agot_legitimate_house|E]]
- agot_current_house_cannot_become_legitimate_trigger_third:0 "[TITLE.GetNamePossessive] current house has less than 100% progress towards becoming the [agot_legitimate_house|E]"
-### TODO NOT-IN-ST: agot_is_legitimate_house_of_primary_title_trigger_global [AGOT: Is the [agot_legitimate_house|E] of their [primary_title|E]]
- agot_is_legitimate_house_of_primary_title_trigger_global:0 "Is the [agot_legitimate_house|E] of their [primary_title|E]"
-### TODO NOT-IN-ST: agot_is_not_legitimate_house_of_primary_title_trigger_global [AGOT: Is not the [agot_legitimate_house|E] of their [primary_title|E]]
- agot_is_not_legitimate_house_of_primary_title_trigger_global:0 "Is not the [agot_legitimate_house|E] of their [primary_title|E]"
-### TODO NOT-IN-ST: agot_is_legitimate_house_of_primary_title_trigger_first [AGOT: You are the [agot_legitimate_house|E] of your [primary_title|E]]
- agot_is_legitimate_house_of_primary_title_trigger_first:0 "You are the [agot_legitimate_house|E] of your [primary_title|E]"
-### TODO NOT-IN-ST: agot_is_not_legitimate_house_of_primary_title_trigger_first [AGOT: You are not the [agot_legitimate_house|E] of your [primary_title|E]]
- agot_is_not_legitimate_house_of_primary_title_trigger_first:0 "You are not the [agot_legitimate_house|E] of your [primary_title|E]"
-### TODO NOT-IN-ST: faceless_can_afford_gold_trigger_third [AGOT: Your [gold|E] reserve is greater than 300]
- faceless_can_afford_gold_trigger_third:0 "Your [gold|E] reserve is greater than 300"
-### TODO NOT-IN-ST: faceless_will_accept_gold_trigger_third [AGOT: The Faceless Men will accept gold]
- faceless_will_accept_gold_trigger_third:0 "The Faceless Men will accept gold"
-### TODO NOT-IN-ST: agot_can_afford_faceless_child_price_trigger_third [AGOT: Your child is fit for servitude to the Many-Faced God]
- agot_can_afford_faceless_child_price_trigger_third:0 "Your child is fit for servitude to the Many-Faced God"
-### TODO NOT-IN-ST: agot_can_afford_faceless_artifact_price_trigger_third [AGOT: The Faceless Men will accept an artifact in your possession]
- agot_can_afford_faceless_artifact_price_trigger_third:0 "The Faceless Men will accept an artifact in your possession"
-### TODO NOT-IN-ST: agot_can_afford_faceless_blood_price_trigger_third [AGOT: The Faceless Men will accept your life as payment]
- agot_can_afford_faceless_blood_price_trigger_third:0 "The Faceless Men will accept your life as payment"
-### TODO NOT-IN-ST: agot_landed_knight_no_executions_tt [AGOT: [agot_landed_knights|E] do not have the right to execute prisoners!]
- agot_landed_knight_no_executions_tt:0 "[agot_landed_knights|E] do not have the right to execute prisoners!"
-### TODO NOT-IN-ST: agot_landed_knight_no_negotiation_tt [AGOT: Lordship must be granted or stripped through [interactions|E]!]
- agot_landed_knight_no_negotiation_tt:0 "Lordship must be granted or stripped through [interactions|E]!"
+
+ agot_can_create_duchy:0 "Unvan, savaş öncesi [liege|E]'nizin ana unvanıyla aynı veya daha yüksek rütbede"
+
+ NOT_PRIMARY_TITLE_KINGDOM_TRIGGER:0 "[primary_title|E]'niz bir [kingdom|E] olamaz"
+
+ NOT_AT_LEAST_TWO_KINGDOM_TITLES_TRIGGER:0 "En az iki veya daha fazla [kingdom|E] unvanına sahip olmalısın"
+
+ agot_title_create_via_decision:0 "Bu unvan yalnızca [decision|E] ile oluşturulabilir"
+
+ agot_cannot_create:0 "Bu unvan oluşturulamaz"
+
+ agot_can_create_lp:0 "Sen veya savaş öncesi [liege|E]'niz bir Mega Savaşa katılırken bu unvanı oluşturamazsın"
+
+ agot_cannot_create_equivalent:0 "Eşdeğer İmparatorluk unvanı zaten mevcutsa bir Krallık unvanı oluşturamazsın"
+
+ any_liege_or_above_trigger:0 "Herhangi bir lord veya üstü:"
+
+ control_morne:0 "Senin veya bir vasalının [GetTitleByKey('b_morne').GetName]'e sahip olması gerekir"
+
+ agot_can_create_moat_cailin:0 "Bu unvanı oluşturmak için Boyun Kalesi'nin onarılması gerekir."
+
+ IS_CURRENT_DRAGONRIDER_TRIGGER_FIRST:0 "Yaşayan bir [dragon|El]'e erişimi olan bir [GetTrait('dragonrider').GetName(GetNullCharacter)]'sin"
+
+ IS_CURRENT_DRAGONRIDER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U], yaşayan bir [dragon|El]'e erişimi olan bir [GetTrait('dragonrider').GetName(GetNullCharacter)]"
+
+ IS_CURRENT_DRAGONRIDER_TRIGGER:0 "Yaşayan bir [dragon|El]'e erişimi olan bir [GetTrait('dragonrider').GetName(GetNullCharacter)]"
+
+ NOT_IS_REJECTING_TERROR_CAMPAIGN_FIRST:0 "Bir terör harekâtı yürütmeyi reddediyorum"
+
+ NOT_IS_REJECTING_TERROR_CAMPAIGN_THIRD:0 "[CHARACTER.GetShortUIName|U] bir terör harekâtı yürütmeyi reddetti"
+
+ HAS_DRAGON_RELATION:0 "Bir [dragon|El] ile bağı var"
+
+ HAS_NO_DRAGON_RELATION:0 "Bir [dragon|El] ile bağı yok"
+
+ I_HAVE_DRAGON_RELATION:0 "Bir [dragon|El] ile bağım var"
+
+ I_DONT_HAVE_DRAGON_RELATION:0 "Bir [dragon|El] ile bağım yok"
+
+ has_an_active_dragonpit:0 "Aktif bir [dragonpit|El] var"
+
+ not_has_an_active_dragonpit:0 "Aktif bir [dragonpit|El] yok"
+
+ dragon_population_extinct:0 "Yaşayan [dragons_plural|El] yok"
+
+ not_dragon_population_extinct:0 "Dünyada yaşayan bir [dragon|El] var"
+
+ has_dragonblood_heritage:0 "[dragonblood|E] soyuna sahip"
+
+ not_has_dragonblood_heritage:0 "#bold hiçbir#! [dragonblood|E] soyuna sahip değil"
+
+ agot_has_legitimate_house_trigger_global:0 "Bir [agot_legitimate_house|E] var"
+
+ agot_has_no_legitimate_house_trigger_global:0 "[agot_legitimate_house|E] yok"
+
+ agot_has_legitimate_house_trigger_third:0 "[TITLE.GetName]'in bir [agot_legitimate_house|E] var"
+
+ agot_has_no_legitimate_house_trigger_third:0 "[TITLE.GetName]'in [agot_legitimate_house|E] yok"
+
+ agot_is_held_by_legitimate_house_trigger_global:0 "[agot_legitimate_house|E] tarafından elinde tutuluyor"
+
+ agot_is_not_held_by_legitimate_house_trigger_global:0 "[agot_legitimate_house|E] tarafından elinde tutulmuyor"
+
+ agot_is_held_by_legitimate_house_trigger_third:0 "[TITLE.GetName], [agot_legitimate_house|E] tarafından elinde tutuluyor"
+
+ agot_is_not_held_by_legitimate_house_trigger_third:0 "[TITLE.GetName], [agot_legitimate_house|E] tarafından elinde tutulmuyor"
+
+ agot_current_house_can_become_legitimate_trigger_global:0 "Mevcut hanenin [agot_legitimate_house|E] olma yolundaki ilerlemesi %100"
+
+ agot_current_house_cannot_become_legitimate_trigger_global:0 "Mevcut hanenin [agot_legitimate_house|E] olma yolundaki ilerlemesi %100'den az"
+
+ agot_current_house_can_become_legitimate_trigger_third:0 "[TITLE.GetNamePossessive] mevcut hanesinin [agot_legitimate_house|E] olma yolundaki ilerlemesi %100"
+
+ agot_current_house_cannot_become_legitimate_trigger_third:0 "[TITLE.GetNamePossessive] mevcut hanesinin [agot_legitimate_house|E] olma yolundaki ilerlemesi %100'den az"
+
+ agot_is_legitimate_house_of_primary_title_trigger_global:0 "[primary_title|E]'lerinin [agot_legitimate_house|E]"
+
+ agot_is_not_legitimate_house_of_primary_title_trigger_global:0 "[primary_title|E]'lerinin [agot_legitimate_house|E] değil"
+
+ agot_is_legitimate_house_of_primary_title_trigger_first:0 "[primary_title|E]'nizin [agot_legitimate_house|E]'siniz"
+
+ agot_is_not_legitimate_house_of_primary_title_trigger_first:0 "[primary_title|E]'nizin [agot_legitimate_house|E] değilsiniz"
+
+ faceless_can_afford_gold_trigger_third:0 "[gold|E] rezervin 300'den fazla"
+
+ faceless_will_accept_gold_trigger_third:0 "Yüzsüz Adamlar altını kabul edecek"
+
+ agot_can_afford_faceless_child_price_trigger_third:0 "Çocuğun Çok Yüzlü Tanrı'ya hizmet etmeye uygun"
+
+ agot_can_afford_faceless_artifact_price_trigger_third:0 "Yüzsüz Adamlar elindeki bir eseri kabul edecek"
+
+ agot_can_afford_faceless_blood_price_trigger_third:0 "Yüzsüz Adamlar ödeme olarak canını kabul edecek"
+
+ agot_landed_knight_no_executions_tt:0 "[agot_landed_knights|E] mahkumları idam etme hakkına sahip değil!"
+
+ agot_landed_knight_no_negotiation_tt:0 "Beylik unvanı [interactions|E] yoluyla verilmeli veya elinden alınmalı!"

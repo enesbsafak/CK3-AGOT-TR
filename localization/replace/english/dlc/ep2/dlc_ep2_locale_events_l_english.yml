@@ -68,8 +68,8 @@
  ep2_locale_events.1050.d:0 "Ne kadar utanç verici bir teklif!"
  ep2_locale_events.1500.t:0 "$tournament_locale_religious_building$: [ROOT.Char.GetFaith.HighGodNamePossessive] Lütfu"
  ep2_locale_events.1500.host_faith:0 "[tournament_priest.GetFirstName] yaklaşmam için kenara doğru çekiliyor. Turnuva alanının yakınlarında olan [ROOT.Char.GetFaith.HouseOfWorship] içinde tek başıma kutsal bir an yaşıyorum."
-### TODO AGOT-CHANGED: ep2_locale_events.1500.other_faith [AGOT: I take a moment to myself in the small temporary [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] shrine near the [activity.GetCurrentPhase.GetLocation.GetCounty.GetFaith.HouseOfWorship] of [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] standing a respectful distance away. | TR: [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] topraklarındaki [activity.GetCurrentPhase.GetCurrentLocation.GetFaith.HouseOfWorship] yanına kurulan geçici [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] türbesinde bir süre duruyorum, [tournament_priest.GetFirstName] biraz uzakta saygıyla bekliyor.]
- ep2_locale_events.1500.other_faith:0 "I take a moment to myself in the small temporary [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] shrine near the [activity.GetCurrentPhase.GetLocation.GetCounty.GetFaith.HouseOfWorship] of [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] standing a respectful distance away."
+
+ ep2_locale_events.1500.other_faith:0 "[activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] topraklarındaki [activity.GetCurrentPhase.GetCurrentLocation.GetFaith.HouseOfWorship] yanına kurulan geçici [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] türbesinde bir süre duruyorum, [tournament_priest.GetFirstName] biraz uzakta saygıyla bekliyor."
  ep2_locale_events.1500.desc:0 "\n\n[ROOT.Char.GetFaith.PantheonTerm] huzurunda düşünürken kalbimin derinliklerinde ne istediğim konusunda düşünüyorum."
  ep2_locale_events.1500.a:0 "Yüce [ROOT.Char.GetFaith.WarGodName|U], bana şan getir."
  ep2_locale_events.1500.b:0 "[ROOT.Char.Custom2('RelationToMePossessive', bad_prayer_target)|U] [bad_prayer_target.GetFirstNamePossessiveNoTooltip] zor zamanlar geçirsin."
@@ -133,21 +133,21 @@
  ep2_locale_events.2011.success_tournament:0 "$ep2_locale_events.4511.reply_tournament$Zekice üretilmiş bir set. Savaş alanı için değil müsabakalar için üretilmiş olduğu açık."
  ep2_locale_events.2011.tournament:0 "$ep2_locale_events.4511.reply_tournament$Dürüst olmak gerekirse, kim bu küçük müsabakaları böyle hile yapacak kadar ciddiye alıyor?"
  ep2_locale_events.2011.a:0 "Bu kadar iyi seçilmiş bir hediyeyi reddetmem mümkün değil."
-### TODO AGOT-ONLY: ep2_locale_events.2011.b [AGOT: ]
- ep2_locale_events.2011.b:0 ""Oh... a most... interesting object.""
+
+ ep2_locale_events.2011.b:0 ""Ah... son derece... ilginç bir nesne.""
  ep2_locale_events.2012.opening:0 "[befriend_target.GetTitledFirstName] paketi yüzünde bir gülümsemeyle alıyor. Bu beklenmedik hediye karşısında heyecanlandığı açıkca belli oluyor.\n\n"
  ep2_locale_events.2012.success_reply:0 "[befriend_target.GetTitledFirstName] hediyeyi detaylıca incelerken ne kadar beğendiğini gizleyemiyor."
  ep2_locale_events.2012.reply:0 "Bakışlarından bu hediyenin onu çok mutlu etmediği anlaşılabiliyor."
  ep2_locale_events.2012.success_armor:0 "\n\n"Gayet güzel parçalar, Bunlar üzerimdeyken savaşta hiçbir şeyden korkmama gerek yok!""
-### TODO AGOT-ONLY: ep2_locale_events.2012.armor [AGOT: ]
- ep2_locale_events.2012.armor:0 ""Oh... armor... I guess it's useful at least.""
+
+ ep2_locale_events.2012.armor:0 ""Ah... zırh... en azından işe yarar, sanırım.""
  ep2_locale_events.2012.success_shield:0 "\n\n"Oh, Şuna bak! Bunu hemen çadırımda sergileyeceğim!""
-### TODO AGOT-ONLY: ep2_locale_events.2012.shield [AGOT: ]
- ep2_locale_events.2012.shield:0 ""A shield... very good... thank you.""
-### TODO AGOT-ONLY: ep2_locale_events.2012.success_tournament [AGOT: ]
- ep2_locale_events.2012.success_tournament:0 ""What a clever design! I'll be sure to wear this in the contests!""
-### TODO AGOT-ONLY: ep2_locale_events.2012.tournament [AGOT: ]
- ep2_locale_events.2012.tournament:0 ""Oh, for contests you say? Right...""
+
+ ep2_locale_events.2012.shield:0 ""Bir kalkan... çok güzel... teşekkürler.""
+
+ ep2_locale_events.2012.success_tournament:0 ""Ne akıllıca bir tasarım! Bu müsabakalarda giymeyi kesinlikle düşüneceğim!""
+
+ ep2_locale_events.2012.tournament:0 ""Ah, müsabakalar için mi diyorsun? Peki...""
  ep2_locale_events.2012.success:0 "\n\n[befriend_target.GetTitledFirstName] duygularını gizleyemez bir hâlde teşekkür ediyor. Bence doğru bir seçim yaptım!"
  ep2_locale_events.2012.failure:0 "\n\n[befriend_target.GetTitledFirstName] isteksiz bir şekilde teşekkür ediyor. Sanırım hatalı bir seçim yaptım..."
  ep2_locale_events.2012.a:0 "Biliyordum!"
@@ -209,45 +209,45 @@
  ep2_locale_events.2511.success_glove:0 "$ep2_locale_events.4511.reply_glove$Kadife kadar pürüssüz olmalarına rağmen garip bir şekilde ellerime oturdular."
  ep2_locale_events.2511.glove:0 "$ep2_locale_events.4511.reply_glove$Ne kadar da... zarif..."
  ep2_locale_events.2511.a:0 "İstesem de gülümsememi durduramıyorum, bu mükemmel bir hediye!"
-### TODO AGOT-ONLY: ep2_locale_events.2511.b [AGOT: ]
- ep2_locale_events.2511.b:0 ""I... thank you...""
+
+ ep2_locale_events.2511.b:0 ""Ben... teşekkür ederim...""
  ep2_locale_events.2512.opening:0 "[befriend_target.GetTitledFirstName] candan bir şekilde hediyemi kabul ediyor. Heyecanının izin verebildiği ölçüde dikkatli bir biçimde paketi açıyor.\n\n"
  ep2_locale_events.2512.success_reply:0 "Paketi açar açmaz gözleri gülümsedi. Bu iyiye işaret."
  ep2_locale_events.2512.reply:0 "Tepkisini ölçemiyorum. Sanki hiçbir şey hissetmemiş gibi."
  ep2_locale_events.2512.success_banner:0 "\n\n"Bu harika! Ne kadar da usta bir işleme!""
-### TODO AGOT-ONLY: ep2_locale_events.2512.banner [AGOT: ]
- ep2_locale_events.2512.banner:0 ""Oh, a banner. I'll... hang it immediately.""
+
+ ep2_locale_events.2512.banner:0 ""Ah, bir sancak. Hemen... asarım.""
  ep2_locale_events.2512.success_gambeson:0 "\n\n"Ne kadar da ince bir iş. Bu çok ağır darbeler dışında her şeyi durdurabilir.""
-### TODO AGOT-ONLY: ep2_locale_events.2512.gambeson [AGOT: ]
- ep2_locale_events.2512.gambeson:0 ""I'll... put it with my others...""
-### TODO AGOT-ONLY: ep2_locale_events.2512.success_glove [AGOT: ]
- ep2_locale_events.2512.success_glove:0 ""My goodness, these are perfect! How did you do it?!""
-### TODO AGOT-ONLY: ep2_locale_events.2512.glove [AGOT: ]
- ep2_locale_events.2512.glove:0 ""Oh, gloves... very good...""
+
+ ep2_locale_events.2512.gambeson:0 ""Onu... diğerlerinin yanına koyarım...""
+
+ ep2_locale_events.2512.success_glove:0 ""Aman Tanrım, bunlar kusursuz! Bunu nasıl yaptın?!""
+
+ ep2_locale_events.2512.glove:0 ""Ah, eldivenler... çok güzel...""
  ep2_locale_events.2512.success:0 "\n\nAyrılmadan önce hediye için bana sürekli teşekkür ediyor."
  ep2_locale_events.2512.failure:0 "\n\nAyrılmadan önce kısa bir şekilde teşekkür ediyor..."
  ep2_locale_events.2512.a:0 "Bu iyi oldu."
  ep2_locale_events.2512.b:0 "Olmadı gibi..."
  ep2_locale_events.2560.t:0 "$tournament_locale_tailor$: Yeni Satın Alım"
  ep2_locale_events.2560.desc.intro:0 "Dükkâna girdiğimde [tailor.GetTitledFirstName] kumaş kesmekle meşguldü. Çevresinde bulunan masalarda zanaatının ortaya çıkardığı ürünleri sergileniyordu. Çoraplardan şapkalara, kapüşonlardan kolluklara kadar her türlü ürün vardı. Karşı tarafında ise hafifçe yanmakta olan bir ocak.\n\n"
-### TODO AGOT-ONLY: ep2_locale_events.2560.desc.previous_artifact [AGOT: ]
- ep2_locale_events.2560.desc.previous_artifact:0 ""Are you looking for something to adorn your attire, [ROOT.Char.Custom('FormOfAddressForLiege')]? I can see that you've also brought certain artifacts from the capital... If I may, I've always wanted to examine the [capital_barony.GetAdjectiveNoTooltip] masters' work.""
-### TODO AGOT-ONLY: ep2_locale_events.2560.desc.new_artifact [AGOT: ]
- ep2_locale_events.2560.desc.new_artifact:0 ""Careful there!" [tailor.GetSheHe] warns me, almost dropping the tool. "You were about to trip over the linen, [ROOT.Char.Custom('FormOfAddressForLiege')]," [tailor.GetSheHe] apologetically mumbles, quickly picking up the clothes. "I'm sure I can guess the motive of your visit," [tailor.GetHerHis] face is barely poking out of the mess."
-### TODO AGOT-ONLY: ep2_locale_events.2560.desc.new_artifact_2 [AGOT: ]
- ep2_locale_events.2560.desc.new_artifact_2:0 ""Anything in particular the [ROOT.Char.GetLadyLord] is seeking?" [tailor.Custom('quirk_pos_standalone')|l]. The collection next to [tailor.GetHerHim] is truly more impressive than what I was expected."
-### TODO AGOT-ONLY: ep2_locale_events.2560.a [AGOT: ]
- ep2_locale_events.2560.a:0 ""Actually, my [previous_artifact.GetNameNoTooltip] could use some decoration...""
-### TODO AGOT-ONLY: ep2_locale_events.2560.b [AGOT: ]
- ep2_locale_events.2560.b:0 ""Could I buy that [purchasable_trinket.GetNameNoTooltip]?""
-### TODO AGOT-ONLY: ep2_locale_events.2560.c [AGOT: ]
- ep2_locale_events.2560.c:0 ""Are you asking me to #EMP pay#! for it?""
+
+ ep2_locale_events.2560.desc.previous_artifact:0 ""Kıyafetinizi süsleyecek bir şey mi arıyorsunuz, [ROOT.Char.Custom('FormOfAddressForLiege')]? Başkentten bazı eserler de getirdiğinizi görüyorum... İzin verirseniz, [capital_barony.GetAdjectiveNoTooltip] ustalarının işlerini incelemeyi hep istemişimdir.""
+
+ ep2_locale_events.2560.desc.new_artifact:0 ""Dikkat et!" diye uyarır beni [tailor.GetSheHe], neredeyse aleti düşürecekken. "Ketenlerin üstüne basacaktınız, [ROOT.Char.Custom('FormOfAddressForLiege')]," diye özür dilercesine mırıldanır [tailor.GetSheHe], çabucak giysileri toplayarak. "Ziyaretinizin sebebini tahmin edebiliyorum sanırım," [tailor.GetHerHis] yüzü karman çorman yığının arasından zar zor görünüyor."
+
+ ep2_locale_events.2560.desc.new_artifact_2:0 ""[ROOT.Char.GetLadyLord]'in aradığı belirli bir şey var mı?" diye sorar [tailor.Custom('quirk_pos_standalone')|l]. [tailor.GetHerHim]in yanındaki koleksiyon gerçekten beklediğimden çok daha etkileyici."
+
+ ep2_locale_events.2560.a:0 ""Aslında [previous_artifact.GetNameNoTooltip]'im bir süslemeye ihtiyaç duyuyor...""
+
+ ep2_locale_events.2560.b:0 ""Şu [purchasable_trinket.GetNameNoTooltip]'i satın alabilir miyim?""
+
+ ep2_locale_events.2560.c:0 ""Benden bunun için #EMP para#! ödememi mi istiyorsun?""
  ep2_locale_events.2560.c.success:0 "[tailor.GetShortUIName] karşısında göz korkutma çaban işe yaradı"
  ep2_locale_events.2560.c.failure:0 "[tailor.GetShortUIName] karşısında göz korkutma çaban işe yaramadı"
-### TODO AGOT-ONLY: ep2_locale_events.2560.d [AGOT: ]
- ep2_locale_events.2560.d:0 ""Some banners will encourage the audience cheer for me!""
-### TODO AGOT-ONLY: ep2_locale_events.2560.e [AGOT: ]
- ep2_locale_events.2560.e:0 ""Here, keep up the good work.""
+
+ ep2_locale_events.2560.d:0 ""Birkaç sancak, seyircinin beni alkışlamasını sağlar!""
+
+ ep2_locale_events.2560.e:0 ""Al, iyi iş çıkarmaya devam et.""
  feather_trinket:0 "Işıltılı Tüy"
  feather_trinket.desc:0 "Tavus kuşuna ait olduğu söylenen rengarenk bir tüy. Egzotik bir koleksiyon."
  chess_trinket:0 "Satranç Taşı"
@@ -289,8 +289,8 @@
  ep2_locale_events.4000.a:0 "Tüylü olsun."
  ep2_locale_events.4000.b:0 "Tüysüz olsun."
  ep2_locale_events.4001.t:0 "$tournament_locale_bowyer$: Gerilmedi..."
-### TODO AGOT-ONLY: ep2_locale_events.4001.desc [AGOT: ]
- ep2_locale_events.4001.desc:1 ""Looks all right to me!" [tournament_bowyer.GetFirstName] is testing the bow I brought in for [tournament_bowyer.GetHerHim] to check over. I rifle through the stacked sheaves on the table beside me as [tournament_bowyer.GetSheHe] continues to check it over.\n\n"The leading edge looks a bit off." The bowyer's eyes narrow as [tournament_bowyer.GetSheHe] grips the bow's limbs tightly, bending them further and further. "There, see, there's some warping in the—"\n\n#EMP Crrrrack!#! [tournament_bowyer.GetFirstNamePossessiveNoTooltip] mouth gapes in shock as the bow splits. [tournament_bowyer.GetHerHis] protestations that the check was necessary and the bow would have broken anyway ring about the room, but it is I who have been left bereft."
+
+ ep2_locale_events.4001.desc:0 ""Bana gayet sağlam görünüyor!" [tournament_bowyer.GetFirstName] kontrol etmesi için getirdiğim yayı test ediyor. [tournament_bowyer.GetSheHe] kontrol etmeye devam ederken ben de yanımdaki masada dizili okları karıştırıyorum.\n\n"Uç kısmı biraz bozuk gibi." Okçunun gözleri kısılır, [tournament_bowyer.GetSheHe] yayın kollarını sıkıca kavrayıp giderek daha fazla büker. "İşte, bak, şurasında bir eğilme var—"\n\n#EMP Çıtırt!#! Yay ikiye ayrılınca [tournament_bowyer.GetFirstNamePossessiveNoTooltip] ağzı şaşkınlıkla açık kalır. [tournament_bowyer.GetHerHis] kontrolün gerekli olduğu ve yayın zaten kırılacağı yönündeki itirazları odada yankılanır, ama geride kalan benim."
  ep2_locale_events.4001.a:0 "Yeni bir yay vereceğini umuyorum. Bedava olarak!"
  ep2_locale_events.4001.a.success:1 "[tournament_bowyer.GetFirstNameNoTooltip] yeni bir yay veriyor"
  ep2_locale_events.4001.a.failure:1 "[tournament_bowyer.GetFirstNameNoTooltip] ödemeyi reddediyor"
@@ -316,21 +316,21 @@
  ep2_locale_events.4011.success_hunt:0 "$ep2_locale_events.4011.reply_hunt$Benzersiz bir şekilde dayanıklı olmalarının yanında küçük oyunlar için de oldukça ideal görünüyorlar."
  ep2_locale_events.4011.hunt:0 "$ep2_locale_events.4011.reply_hunt$Av okları? Sen #EMP gerçekten#! yapmak zorunda d..."
  ep2_locale_events.4011.a:0 "Gülümsememi gizleyemiyorum, Gerçekten güzel bir hediye seçmiş!"
-### TODO AGOT-ONLY: ep2_locale_events.4011.b [AGOT: ]
- ep2_locale_events.4011.b:0 ""What a... thoughtful gift...""
+
+ ep2_locale_events.4011.b:0 ""Ne kadar... düşünceli bir hediye...""
  ep2_locale_events.4012.opening:0 "[befriend_target.GetTitledFirstName] mutlu bir şekilde hediyeyi alıyor. Paketi bir çocuk gibi heyecanla açıyor.\n\n"
  ep2_locale_events.4012.success_reply:0 "Hediyeyi gördüğünde gözleri bir anda büyüyor. İçimde iyi bir his var."
  ep2_locale_events.4012.reply:0 "Gördüğünde kalbi kırılmış gibi bir hissiyatı vardı."
  ep2_locale_events.4012.success_bow:0 "\n\n"Ne kadar da ustaca yapılmış bir [newly_created_artifact.GetType]! Ona gereken değeri vermeliyim!""
-### TODO AGOT-ONLY: ep2_locale_events.4012.bow [AGOT: ]
- ep2_locale_events.4012.bow:0 ""A [newly_created_artifact.GetType]! Good. Good.""
+
+ ep2_locale_events.4012.bow:0 ""Bir [newly_created_artifact.GetType]! Güzel. Güzel.""
  ep2_locale_events.4012.success_quiver:0 "\n\n"Bu görmeye değer bir şey. Nereden buldun bunu?""
-### TODO AGOT-ONLY: ep2_locale_events.4012.quiver [AGOT: ]
- ep2_locale_events.4012.quiver:0 ""An arrow holder? I see.""
-### TODO AGOT-ONLY: ep2_locale_events.4012.success_hunt [AGOT: ]
- ep2_locale_events.4012.success_hunt:0 ""Oh I've been looking for something like this for ages!""
-### TODO AGOT-ONLY: ep2_locale_events.4012.hunt [AGOT: ]
- ep2_locale_events.4012.hunt:0 ""For hunting you say? Right. Right.""
+
+ ep2_locale_events.4012.quiver:0 ""Bir ok kılıfı mı? Anlıyorum.""
+
+ ep2_locale_events.4012.success_hunt:0 ""Ah, yıllardır böyle bir şey arıyordum!""
+
+ ep2_locale_events.4012.hunt:0 ""Avcılık için mi diyorsun? Peki. Peki.""
  ep2_locale_events.4012.success:0 "\n\nBana teşekkür edip elini omzuma koyuyor. Bence turnayı gözünden vurdum!"
  ep2_locale_events.4012.failure:0 "\n\nÜstünkörü bir şekilde teşekkür edip ayrılıyor, ne düşünüyordum ki..."
  ep2_locale_events.4012.a:0 "Tam isabet!"
@@ -373,8 +373,8 @@
  ep2_locale_events.4505.b:0 "Bu kadar muhteşem bir kılıç iyi bir ödemeyi hak ediyor."
  ep2_locale_events.4505.c:0 "Senin dandik kılıçlarına kalmadım!"
  ep2_locale_events.4506.t:0 "$tournament_locale_weaponsmith$: İsmin önemi ne?"
-### TODO AGOT-ONLY: ep2_locale_events.4506.desc [AGOT: ]
- ep2_locale_events.4506.desc:0 ""It needs a name."\n\n[tournament_weaponsmith.GetFirstNamePossessive] interruption as I give my new sword a few testing swings causes me to raise an eyebrow at the weaponsmith.\n\n"All weapons carried by those of legend have a name. It's the done thing! A mighty warrior's blade needs a mighty name for enemies to quail before!" [tournament_weaponsmith.GetFirstNameNoTooltip] insists."
+
+ ep2_locale_events.4506.desc:0 ""Bir isme ihtiyacı var."\n\n[tournament_weaponsmith.GetFirstNamePossessive] sözü, yeni kılıcıma birkaç deneme savuruşu yaparken kesilir ve silah ustasına şaşkınca bakarım.\n\n"Efsanelerdeki kişilerin taşıdığı tüm silahların bir ismi vardır. Adettendir! Kudretli bir savaşçının kılıcı, düşmanların önünde titremesi için kudretli bir isme ihtiyaç duyar!" diye ısrar eder [tournament_weaponsmith.GetFirstNameNoTooltip]."
  ep2_locale_events.4506.a:0 "Aslında aklımda bir isim var."
  ep2_locale_events.4506.a.tt:0 "[rename_artifact.GetName] yeni bir isim alıyor"
  ep2_locale_events.4506.b:0 "Kılıç bir araçtır başka bir şey değil."
@@ -398,28 +398,28 @@
  ep2_locale_events.4511.success_dagger:0 "$ep2_locale_events.4511.reply_dagger$Ustaca dizayn edilmiş, beni tut diye haykırıyor. Ellerime o kadar güzel oturuyor ki sanki kendi uzvum gibi hissettiriyor."
  ep2_locale_events.4511.dagger:0 "$ep2_locale_events.4511.reply_dagger$Neden böyle bir şey aldı ki? Bunu ancak serseriler kullanır."
  ep2_locale_events.4511.a:0 "Beni bile etkilemeyi başardı..."
-### TODO AGOT-ONLY: ep2_locale_events.4511.b [AGOT: ]
- ep2_locale_events.4511.b:0 ""T-thank you. Very nice.""
+
+ ep2_locale_events.4511.b:0 ""T-teşekkürler. Çok güzel.""
  ep2_locale_events.4512.opening:0 "[befriend_target.GetTitledFirstName] özenli bir şekilde sarılmış paketi elimden aldı. Açarken yüzünde geniş bir sırıtış vardı.\n\n"
  ep2_locale_events.4512.success_reply:0 "Paketi açtığında yüzündeki sırıtma ifadesi çok daha geniş bir hâl aldı."
  ep2_locale_events.4512.reply:0 "Paketi açtığında ruh hâli biraz değişmiş gibi, merak mı hayal kırıklığı mı?"
  ep2_locale_events.4512.success_weapon:0 "\n\n"Ah, ustaca dövülmüş bir [newly_created_artifact.GetType]. Gerçekten... işe yarar bir şey.""
-### TODO AGOT-ONLY: ep2_locale_events.4512.weapon [AGOT: ]
- ep2_locale_events.4512.weapon:0 ""Oh... a [newly_created_artifact.GetType]. Just what I need.""
+
+ ep2_locale_events.4512.weapon:0 ""Ah... bir [newly_created_artifact.GetType]. Tam da ihtiyacım olan şey.""
  ep2_locale_events.4512.success_ornament:0 "\n\n"Ne kadar da hoş bir sergi parçası. Bir soylunun koleksiyonunda olabilecek kadar değerli.""
-### TODO AGOT-ONLY: ep2_locale_events.4512.ornament [AGOT: ]
- ep2_locale_events.4512.ornament:0 ""Oh, a display piece? Very... nice.""
-### TODO AGOT-ONLY: ep2_locale_events.4512.success_dagger [AGOT: ]
- ep2_locale_events.4512.success_dagger:0 ""Oh, this is fine, very fine... Such balance.""
-### TODO AGOT-ONLY: ep2_locale_events.4512.dagger [AGOT: ]
- ep2_locale_events.4512.dagger:0 ""Good for chopping... vegetables, I suppose?""
+
+ ep2_locale_events.4512.ornament:0 ""Ah, sergilenecek bir parça mı? Çok... güzel.""
+
+ ep2_locale_events.4512.success_dagger:0 ""Ah, bu harika, çok harika... Ne denge.""
+
+ ep2_locale_events.4512.dagger:0 ""Doğramak için iyi... sebze, sanırım?""
  ep2_locale_events.4512.success:0 "\n\nSamimi bir şekilde bana teşekkür ediyor. Daha iyi gidemezdi!"
  ep2_locale_events.4512.failure:0 "\n\nKibarca teşekkür ediyor. Sanki beklediğim gibi gitmedi..."
  ep2_locale_events.4512.a:0 "Ben bu işten anlıyorum."
  ep2_locale_events.4512.b:0 "Çok yazık..."
  ep2_locale_events.4520.t:0 "$tournament_locale_weaponsmith$: Asil Kanı"
-### TODO AGOT-ONLY: ep2_locale_events.4520.desc [AGOT: ]
- ep2_locale_events.4520.desc:0 ""A noble's blood!" [tournament_weaponsmith.GetFirstNamePossessive] voice rings out, startling me. I blink through the gloom to where [tournament_weaponsmith.GetSheHe] stands hungrily, brandishing a glinting dagger.\n\n"All I need is just the smallest #EMP splash#! of noble blood to quench a blade! The sword will be the finest weapon ever made! Songs will be sung of me!" [tournament_weaponsmith.GetSheHe|U] edges closer, a mad glint flickering in [tournament_weaponsmith.GetHerHis] eyes.\n\n"It'll be all yours, [ROOT.Char.GetLadyLord], all yours. I just need to be the one to forge it. Permit me that, that both our names will be remembered forever!"\n\nI look down at my arm."
+
+ ep2_locale_events.4520.desc:0 ""Bir soylunun kanı!" [tournament_weaponsmith.GetFirstNamePossessive] sesi yankılanır, beni irkiltir. Karanlığın içinden açlıkla bakan, parıldayan bir hançer sallayan [tournament_weaponsmith.GetSheHe]'in olduğu yere doğru gözlerimi kırpıştırırım.\n\n"Tek ihtiyacım, bir kılıcı doyurmak için en küçük bir #EMP damla#! soylu kanı! Kılıç, yapılmış en iyi silah olacak! Adıma türküler yakılacak!" [tournament_weaponsmith.GetSheHe|U] yaklaşır, [tournament_weaponsmith.GetHerHis] gözlerinde çılgın bir parıltı titreşir.\n\n"Hepsi senin olacak, [ROOT.Char.GetLadyLord], hepsi senin. Sadece onu döven ben olmalıyım. İzin ver, ikimizin adı da sonsuza dek hatırlansın!"\n\nKoluma bakarım."
  ep2_locale_events.4520.a:0 "Zafer için. Ebediyen sürecek şanımız için!"
  ep2_locale_events.4520.a.success:0 "Demircilik işlemi iyi gidiyor"
  ep2_locale_events.4520.a.failure:0 "Demircilik işlemi kötü gidiyor"
@@ -430,8 +430,8 @@
  ep2_locale_events.4521.start:1 "[tournament_weaponsmith.GetFirstName] heyecanlı bir şekilde çekiç darbelerini vururken kolumdaki kanamayı durdurmak için bir bez parçası aldım. Bez bölgeye dokundurduğum gibi sırılsıklam oldu. Yavaş yavaş durulan kan bir süre sonra dondu.\n\nTamamlanmış kılıç yavaş ve dikkatli bir şekilde masanın üzerine bırakıldı."
  ep2_locale_events.4521.success:0 "Merak uyandıran bir görünüşü var: kurumuş kan kılıcın yüzeyinden ince ince dökülerek ölümcül desenlerini ortaya çıkartıyor. Esnekliğini test ettiğimde kulağıma gelen gıcırtı sesleri endişe verici.\n\n"
  ep2_locale_events.4521.failure:0 "Tek kelimeyle çirkin. Kurumuş kan kılıcın her yanını kaplamış. Ağırlığında da bir gariplik var. Kırılgan duran çeliğin üzerinde yamalı gibi duran garip garip izler var.\n\n"
-### TODO AGOT-ONLY: ep2_locale_events.4521.ending [AGOT: ]
- ep2_locale_events.4521.ending:0 ""It's #EMP perfect#!!" [tournament_weaponsmith.GetFirstNameNoTooltip] doesn't appear to be deterred by my skepticism, [tournament_weaponsmith.GetHerHis] hands shaking as [tournament_weaponsmith.GetSheHe] holds the blade in wonderment."
+
+ ep2_locale_events.4521.ending:0 ""#EMP Kusursuz#!!" [tournament_weaponsmith.GetFirstNameNoTooltip] şüpheciliğimden caymış görünmüyor; [tournament_weaponsmith.GetSheHe] kılıcı hayranlıkla tutarken [tournament_weaponsmith.GetHerHis] elleri titriyor."
  ep2_locale_events.4521.a:0 "Bunu alıyorum!"
  ep2_locale_events.4521.b:0 "Sende kalsın."
  ep2_locale_events.5020.t:0 "$tournament_locale_tourney_grounds$: Etkilendin mi?"
@@ -446,8 +446,8 @@
  tournament_ground_flexing:0 "Etkileyici Antrenman"
  ep2_locale_events.5020.a.success.tt:0 "[impressed_lover.GetShortUIName] ile olan ilişkin yükseldi [fertility|E]"
  ep2_locale_events.1520.t:0 "İki Tane Ay"
-### TODO AGOT-ONLY: ep2_locale_events.1520.desc [AGOT: ]
- ep2_locale_events.1520.desc:0 ""A portent! A sign!" I hear yelling coming from the [ROOT.Char.GetFaith.HouseOfWorship] as I approach the door. [tournament_priest.GetTitledFirstName] stumbles upon me, pointing at the sky. Following [tournament_priest.GetHerHis] frantic eyes I see it: The moon. Another moon.\n\n"I've read about it in archives of old," [tournament_priest.GetSheHe] continues, "it announces something — but what?""
+
+ ep2_locale_events.1520.desc:0 ""Bir alamet! Bir işaret!" Kapıya yaklaşırken [ROOT.Char.GetFaith.HouseOfWorship]'ten gelen bağırışları duyuyorum. [tournament_priest.GetTitledFirstName] gökyüzünü işaret ederek bana doğru sendeler. [tournament_priest.GetHerHis] çılgın bakışlarını takip edince onu görüyorum: Ay. Bir ay daha.\n\n"Bunu eski arşivlerde okumuştum," diye devam eder [tournament_priest.GetSheHe], "bir şeyin habercisi — ama neyin?""
  ep2_locale_events.1520.a:0 "Bu bir alamet! Benim zaferime işaret ediyor!"
  ep2_locale_events.1520.b:0 "Ay madeni para gibi yuvarlak. Tabii ki de zenginliğe işaret."
  ep2_locale_events.1520.c:0 "İki tane kellesinden olmuş silüete işaret ediyor..."
@@ -476,14 +476,14 @@
  ep2_locale_events.3011.b:0 "Neden onlara söyleyeyim ki?"
  ep2_locale_events.3510.t:0 "İyi Kuşanmış"
  ep2_locale_events.3510.desc:0 "Ocağın sıcaklığı çoğu insanı uzak tutmak için yeterli oluyor. Kapıyı açtığımda nalbantı çalışma masasının üzerinde esnerken buluyorum. Görünüşe göre buranın pek ziyaretçisi olmuyor gibi. Nalbant hızlıca doğrularak söze giriyor.\n\n"Size nasıl yardımcı olabilirim? Size görüp görebileceğiniz en iyi at nallarını sunabilirim. Turnuvaya kadar hazır olur." Söylediğine göre eserleri etkileyici seviyesinin çok daha üstünde."
-### TODO AGOT-ONLY: ep2_locale_events.3510.a [AGOT: ]
- ep2_locale_events.3510.a:0 ""Give me the only the best!""
-### TODO AGOT-ONLY: ep2_locale_events.3510.b [AGOT: ]
- ep2_locale_events.3510.b:0 ""I should really buy some for my knights...""
-### TODO AGOT-ONLY: ep2_locale_events.3510.c [AGOT: ]
- ep2_locale_events.3510.c:0 ""A good luck amulet!""
-### TODO AGOT-ONLY: ep2_locale_events.3510.d [AGOT: ]
- ep2_locale_events.3510.d:0 ""I'm fine, thanks.""
+
+ ep2_locale_events.3510.a:0 ""Bana sadece en iyisini ver!""
+
+ ep2_locale_events.3510.b:0 ""Şövalyelerim için gerçekten birkaç tane almalıyım...""
+
+ ep2_locale_events.3510.c:0 ""Bir uğur muskası!""
+
+ ep2_locale_events.3510.d:0 ""İyiyim, teşekkürler.""
  ep2_locale_events.3510.a.prowess:0 "[prowess|E] becerin arttı"
  ep2_locale_events.3510.a.martial:0 "[martial|E] becerin arttı"
  ep2_locale_events.3510.a.prestige:0 "Yeni ekipmanın etkileyici"
@@ -503,23 +503,23 @@
  ep2_locale_events.1530.a.success:0 "Mezarlıkta atalarından birisini buluyorsun"
  ep2_locale_events.1530.a.failure:0 "Burada tanıdığın hiçkimse yok"
  ep2_locale_events.4540.t:0 "Kılıcın Üzerinde"
-### TODO AGOT-ONLY: ep2_locale_events.4540.desc.intro [AGOT: ]
- ep2_locale_events.4540.desc.intro:0 ""What a magnificent work [weaponsmith.GetSheHe]'s done!" I hear a knight proudly say, leaving the workshop. The shimmering blade reflects the sun like a crystalline lake.\n\nI push the door open and I'm greeted by a bursting flame."
-### TODO AGOT-ONLY: ep2_locale_events.4540.desc.contestant [AGOT: ]
- ep2_locale_events.4540.desc.contestant:0 ""Are you gon' compete like that?" the weaponsmith asks, pointing at the [my_weapon.GetNameNoTooltip|l] that hangs from my belt."
+
+ ep2_locale_events.4540.desc.intro:0 ""[weaponsmith.GetSheHe] ne muhteşem bir iş çıkarmış!" diye gururla söylediğini duyuyorum bir şövalyenin, atölyeden çıkarken. Parıldayan kılıç, kristal bir göl gibi güneşi yansıtıyor.\n\nKapıyı iterek açıyorum ve beni bir alev seli karşılıyor."
+
+ ep2_locale_events.4540.desc.contestant:0 ""Bu halinle mi yarışacaksın?" diye sorar silah ustası, belimde asılı [my_weapon.GetNameNoTooltip|l]i işaret ederek."
  ep2_locale_events.4540.desc.fallback:0 "Müsabakalara katılmıyor olsam bile bu seviyede bir zanaatkarın yeteneklerini görmezden gelmemeliyim."
  ep2_locale_events.4540.desc.outro:0 "\n\n"Ne kadar paran varsa o kadar çeliğim var.""
-### TODO AGOT-ONLY: ep2_locale_events.4540.a [AGOT: ]
- ep2_locale_events.4540.a:0 ""Make it deadlier.""
+
+ ep2_locale_events.4540.a:0 ""Daha ölümcül yap.""
  ep2_locale_events.4540.a.tt:0 "Keskinleştirilmiş kenarları yanlızca turnuva süresince işe yarayacak"
-### TODO AGOT-ONLY: ep2_locale_events.4540.b.christian [AGOT: ]
- ep2_locale_events.4540.b.christian:0 ""Carve #EMP In Nomine Domini#! along the blade.""
-### TODO AGOT-ONLY: ep2_locale_events.4540.b.fallback [AGOT: ]
- ep2_locale_events.4540.b.fallback:0 ""Inscribe a prayer.""
-### TODO AGOT-ONLY: ep2_locale_events.4540.c [AGOT: ]
- ep2_locale_events.4540.c:0 ""I want it to say [my_weapon.GetOwner.GetHouse.GetMotto].""
-### TODO AGOT-ONLY: ep2_locale_events.4540.d [AGOT: ]
- ep2_locale_events.4540.d:0 ""I'll keep my gold.""
+
+ ep2_locale_events.4540.b.christian:0 ""Kılıcın üzerine #EMP In Nomine Domini#! kazı.""
+
+ ep2_locale_events.4540.b.fallback:0 ""Bir dua kazı.""
+
+ ep2_locale_events.4540.c:0 ""Üzerinde [my_weapon.GetOwner.GetHouse.GetMotto] yazmasını istiyorum.""
+
+ ep2_locale_events.4540.d:0 ""Altınımı kendime saklarım.""
  ep2_locale_events_artifact_sharp_desc:0 "[my_weapon.GetDesc]\n\nKılıç turnuva süresince keskinleştirildi."
  ep2_locale_events_artifact_prayer_desc:0 "[my_weapon.GetDesc]\n\nKılıcın üzerine bir dua işlenmiş."
  ep2_locale_events_artifact_motto_desc:0 "[my_weapon.GetDesc] Kılıcın üzerinde [my_weapon.GetOwner.GetHouse.GetMotto] yazıyor."
@@ -527,46 +527,46 @@
  artifact_monthly_piety_7_modifier:0 "Dua İşlenmiş"
  artifact_monthly_prestige_7_modifier:0 "Aile Sözü İşlenmiş"
  ep2_locale_events.1060.t:0 "Aptallar ve Düzenbazlar"
-### TODO AGOT-ONLY: ep2_locale_events.1060.desc [AGOT: ]
- ep2_locale_events.1060.desc:0 ""Hah! Knave!" I hear someone shout as I open the door. A [tournament_gambler.GetWomanMan] grins, pleased, while [tournament_gambler.GetSheHe] takes the gold laid on the table. "Bah!" [tournament_gambler.GetHerHis] opponent complains, slapping the wood as [tournament_gambler.GetSheHe] gets up.\n\nThe stranger locks eyes with me, bowing slightly. "Would the [ROOT.Char.GetTitleAsNameNoTooltip] wish to engage in a game of cards? I lay mine down and you bet whether yours shall be higher or lower. Winner takes it all. As simple as it sounds."\n\n"Five," [tournament_gambler.GetSheHe] says, putting down [tournament_gambler.GetHerHis] card."
-### TODO AGOT-ONLY: ep2_locale_events.1060.a [AGOT: ]
- ep2_locale_events.1060.a:0 ""My card is higher!""
-### TODO AGOT-ONLY: ep2_locale_events.1060.b [AGOT: ]
- ep2_locale_events.1060.b:0 ""My card is lower!""
-### TODO AGOT-ONLY: ep2_locale_events.1060.c [AGOT: ]
- ep2_locale_events.1060.c:0 ""I do not wish to engage in gambling.""
+
+ ep2_locale_events.1060.desc:0 ""Hah! Haydut!" Kapıyı açtığımda birinin bağırdığını duyuyorum. Bir [tournament_gambler.GetWomanMan] masadaki altınları alırken hoşnut bir sırıtışla gülümsüyor. "Pöh!" [tournament_gambler.GetHerHis] rakibi, ayağa kalkarken ahşaba vurarak söylenir.\n\nYabancı gözlerini benimkiyle buluşturur, hafifçe eğilir. "[ROOT.Char.GetTitleAsNameNoTooltip] bir kart oyununa katılmak ister mi? Ben kartımı koyarım, sen de seninkinin daha yüksek mi yoksa daha düşük mü olacağına bahse girersin. Kazanan hepsini alır. Kulağa geldiği kadar basit."\n\n"Beş," der [tournament_gambler.GetSheHe], [tournament_gambler.GetHerHis] kartını masaya koyarken."
+
+ ep2_locale_events.1060.a:0 ""Kartım daha yüksek!""
+
+ ep2_locale_events.1060.b:0 ""Kartım daha düşük!""
+
+ ep2_locale_events.1060.c:0 ""Kumara bulaşmak istemiyorum.""
  ep2_locale_events.1060.a.success:0 "İki katı kazandın"
  ep2_locale_events.1060.a.failure:0 "Kaybettin"
  ep2_locale_events.4530.t:0 "$tournament_locale_weaponsmith$: Bilgelik Çekici "
  ep2_locale_events.4530.desc:0 "Yolun diğer tarafından gelen asil kıvılcımlar gözümü alıyor. Bu tanıdık sıcaklık ben daha kapıyı açmadan tüm vücudumu sarıyor. İçeride demirci birkaç çiviyi çakmakla meşgul.\n\n"Size nasıl yardımcı olabilirim, [ROOT.Char.Custom('FormOfAddressForLiege')|l]?" Demirci kömürle kaplanmış hâlde soruyor."
-### TODO AGOT-ONLY: ep2_locale_events.4530.a [AGOT: ]
- ep2_locale_events.4530.a:0 ""I've heard that smiths can break spells. Please, calm my soul.""
+
+ ep2_locale_events.4530.a:0 ""Demircilerin büyüleri bozabildiğini duydum. Lütfen, ruhumu sakinleştirin.""
  ep2_locale_events.4530.a.tt:0 "Batıl inançlı oldun"
-### TODO AGOT-ONLY: ep2_locale_events.4530.b [AGOT: ]
- ep2_locale_events.4530.b:0 ""Can you show me an expert technique?""
+
+ ep2_locale_events.4530.b:0 ""Bana ustalara özgü bir teknik gösterir misin?""
  ep2_locale_events.4530.b.success:0 "Becerilerin arttı"
  ep2_locale_events.4530.b.crit_success:0 "Becerilerin büyük oranda arttı"
  ep2_locale_events.4530.b.failure:0 "Yaralandın"
-### TODO AGOT-ONLY: ep2_locale_events.4530.c [AGOT: ]
- ep2_locale_events.4530.c:0 ""Can you improve my [improved_weapon.GetNameNoTooltip]?""
+
+ ep2_locale_events.4530.c:0 ""[improved_weapon.GetNameNoTooltip]'imi geliştirebilir misin?""
  ep2_locale_events.4530.c.tt:0 "#positive_value +2#! [prowess|E] kazandı"
  ep2_locale_events.4530.d.success:0 "Tedavi işe yarıyor!"
  ep2_locale_events.4530.d.nothing:0 "Tedavi işe yaramıyor"
-### TODO AGOT-ONLY: ep2_locale_events.4530.d [AGOT: ]
- ep2_locale_events.4530.d:0 ""My body! It hurts! Help me!""
+
+ ep2_locale_events.4530.d:0 ""Vücudum! Acıyor! Yardım et!""
  improved_artifact_desc:0 "[improved_weapon.GetDesc]\n\nÖnemli bir turnuva öncesinde yetenekli bir demirci tarafından güçlendirilmiş."
-### TODO AGOT-ONLY: ep2_locale_events.4530.e [AGOT: ]
- ep2_locale_events.4530.e:0 ""I was just looking around.""
+
+ ep2_locale_events.4530.e:0 ""Sadece etrafa bakıyordum.""
  ep2_locale_events.5000.t:0 "Çeliğin Çağrısı"
  ep2_locale_events.5000.desc.intro:1 "[my_child.GetFirstName] ile birlikte turnuva alanını ziyaret ettiğimizde sonraki müsabakalar için antrenman yapan şövelyelerle karşılaşıyoruz. Miğferden dolayı zar zor tanıyabildiğim [my_knight.GetTitledFirstName] ona doğru el sallamama cevap vermek için yanımıza yaklaştı.\n\n"Hanemize büyük bir onur getirecek olan..." sözlerime devam edecekken gözlerini şövalyelerin kılıçlarından alamayan [my_child.GetFirstName] dikkatimi çekiyor."
  ep2_locale_events.5000.desc.martial:0 "Savaşa olan ilgisi göz önüne alındığında çokta beklenmedik bir durum değil"
  ep2_locale_events.5000.desc.non_martial:0 "Bu tür şeylere ilgisi olduğunu fark etmemişim."
-### TODO AGOT-ONLY: ep2_locale_events.5000.a [AGOT: ]
- ep2_locale_events.5000.a:0 ""What a wonderful idea!""
-### TODO AGOT-ONLY: ep2_locale_events.5000.b [AGOT: ]
- ep2_locale_events.5000.b:0 ""Good. [my_knight.GetFirstNameNoTooltip] shall train you, then.""
-### TODO AGOT-ONLY: ep2_locale_events.5000.c [AGOT: ]
- ep2_locale_events.5000.c:0 ""Do you think you can neglect your duties like that?""
+
+ ep2_locale_events.5000.a:0 ""Ne harika bir fikir!""
+
+ ep2_locale_events.5000.b:0 ""Güzel. O halde [my_knight.GetFirstNameNoTooltip] sana eğitim verecek.""
+
+ ep2_locale_events.5000.c:0 ""Görevlerini böyle ihmal edebileceğini mi sanıyorsun?""
  ep2_locale_events.5010.t:0 "$tournament_locale_tournament_grounds$: Bitti bitecek"
  ep2_locale_events.5010.desc.intro:1 "Turnuva alanına girerken bir grup"
  ep2_locale_events.5010.desc.prowess:1 "şövalye gözlemliyorum. Yaverleri zırhlarını kuşanmalarına yardım ederken miğferlerinden dolayı takındıkları kendini beğenmiş ifade zor fark ediliyor."
@@ -579,8 +579,8 @@
  ep2_locale_events.5010.b.good:0 "Geçmiş zamanlar aklıma geliyor. Güzel günlerdi."
  ep2_locale_events.5010.b.bad:0 "Bu sefer... Bu sefer başaracağım"
  ep2_locale_events.5010.b.flavor:0 "Hatıraların aklından çıkmıyor..."
-### TODO AGOT-ONLY: ep2_locale_events.5010.c [AGOT: ]
- ep2_locale_events.5010.c:0 ""What are you looking at!?""
+
+ ep2_locale_events.5010.c:0 ""Neye bakıyorsun sen?!""
  ep2_locale_events.5010.c.success:0 "Kalabalık sizden korkuyor"
  ep2_locale_events.5010.c.failure:0 "Kalabalık size gülüyor"
  ep2_locale_events.5010.d:0 "Gitmem gerekli"
@@ -590,14 +590,14 @@
  ep2_locale_events.5030.desc.fallback:0 "Hanesi için yaptıkları etkileyici olmanın çok daha ötesinde."
  ep2_locale_events.5030.desc.outro:0 "\n\nOnu benim konseyime katılması için ikna edebilirim."
  ep2_locale_events.5030.a:0 "Onu altınla cezbedemezsem hiçbir şeyle cezbedemem."
-### TODO AGOT-ONLY: ep2_locale_events.5030.b [AGOT: ]
- ep2_locale_events.5030.b:0 ""A skillful [poached_councillor.GetWomanMan] deserves a skillful liege. Or no liege at all.""
+
+ ep2_locale_events.5030.b:0 ""Yetenekli bir [poached_councillor.GetWomanMan] yetenekli bir hükümdarı hak eder. Ya da hiç hükümdarı olmamalı.""
  ep2_locale_events.5030.b.success:0 "[poached_councillor.GetShortUIName] karşısında tehditiniz işe yaradı"
  ep2_locale_events.5030.b.failure:0 "[poached_councillor.GetShortUIName] kabalığınız karşısında alındı"
-### TODO AGOT-ONLY: ep2_locale_events.5030.c [AGOT: ]
- ep2_locale_events.5030.c:0 ""A more prestigious life awaits you in my court.""
-### TODO AGOT-ONLY: ep2_locale_events.5030.d [AGOT: ]
- ep2_locale_events.5030.d:0 ""Aren't we good friends, my dear [poached_councillor.GetFirstNameNoTooltip]? Join me.""
+
+ ep2_locale_events.5030.c:0 ""Sarayımda seni daha prestijli bir hayat bekliyor.""
+
+ ep2_locale_events.5030.d:0 ""İyi dost değil miyiz, sevgili [poached_councillor.GetFirstNameNoTooltip]? Katıl bana.""
  ep2_locale_events.5030.e:0 "[councillor_employer.GetTitledFirstNameNoTooltip] alınsın istemem."
  ep2_locale_events.5500.t:0 "Taş Kadar Eski"
  ep2_locale_events.5500.desc:0 "Müsabakalardan önce [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] havası almak rahatlamam için tam olarak gerekli şeymiş. Sokaklarda dolaşırken yerli çocukların tahta sopalar eşliğinde "hanemin onuru için" bağırışlarıyla savaş taklidi yaptığını gözlemliyorum.\n\nMeydanın ortasında bulunan gösterişli bir binayı incelemek için durduğumda bazı antik yazıtları fark ediyorum..."
@@ -609,14 +609,14 @@
  ancient_stone_artifact_desc:0 "Antik yazılar bulunduran bir tabela. Köy duvarı olarak yeniden kullanılmış olduğu anlaşılıyor."
  ep2_locale_events.5510.t:0 "$tournament_locale_settlement$: Ara Sokak"
  ep2_locale_events.5510.desc:0 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] halkı turnuvaya soylular kadar ilgi duyuyor gibi gözüküyor. Bazıları evlerinin zemin katlarına geçici dükkânlar kurmuş, [ROOT.Char.Custom('GetLocalStreetFoodPlural')] sokakları nefis kokularla sarmış durumda.\n\nGürültülü konuşmalar ve alem seslerinin dışında başka bir ses daha kulağıma çalınıyor... Ara sokakların birisinden şiddetli sesler geliyor. Oraya yaklaştığım gibi köylü kavgasını andıran bir kavgayı gözlemliyorum. İçlerinden birisi diğerlerine göre daha yetenekli gözüküyor."
-### TODO AGOT-ONLY: ep2_locale_events.5510.a [AGOT: ]
- ep2_locale_events.5510.a:0 ""Hey you! You! You're my knight now.""
+
+ ep2_locale_events.5510.a:0 ""Hey sen! Sen! Artık benim şövalyemsin.""
  ep2_locale_events.5510.a.success:0 "[village_thug.GetShortUIName] ikna oluyor"
  ep2_locale_events.5510.a.failure:0 "[village_thug.GetShortUIName] etkilenmemiş görünüyor"
-### TODO AGOT-ONLY: ep2_locale_events.5510.b [AGOT: ]
- ep2_locale_events.5510.b:0 ""Those are some impressive moves, let me study them...""
-### TODO AGOT-ONLY: ep2_locale_events.5510.c [AGOT: ]
- ep2_locale_events.5510.c:0 ""Stop right now, you barbarians!""
+
+ ep2_locale_events.5510.b:0 ""Etkileyici hamleler bunlar, bir inceleyeyim...""
+
+ ep2_locale_events.5510.c:0 ""Derhal durun, barbarlar!""
  tournament_stopped_peasant_fight:0 "Durgun Sokaklar"
  ep2_locale_events.5520.t:0 "$tournament_locale_settlement$: İpleri Çekmek"
  ep2_locale_events.5520.desc:0 "Dokuma atölyesine çevrilmiş evlerden birinde bir grup [village_woman.GetWomenMen] hararetli bir konuşma içerisinde. Konuşma içeriğinin turnuva ile alakalı olduğuna adım gibi eminim.\n\nFark edilmemeye özen göstererek dikkatli bir biçimde pencereye doğru uzandım.\n\n"... ve şuradaki, [gossip_knight.GetFirstName] değil mi? Dün onu iş üstünde basmışlar! İnanabiliyor musun?" İçlerinden birisinin söylediğini duyuyorum."
@@ -650,14 +650,14 @@
  ep2_locale_events.1070.b:0 "#EMP Kendimi#! iyi anlattığımdan emin olmalıyım."
  ep2_locale_events.1070.c:0 "Sadece içmeye devam etmek istiyorum."
  ep2_locale_events.3020.t:0 "Tatlı Dil"
-### TODO AGOT-ONLY: ep2_locale_events.3020.desc [AGOT: ]
- ep2_locale_events.3020.desc:0 ""I'll be surprised if [enemy_knight.GetFirstName] doesn't sweep the floor with the other contestants!" I hear as I walk around the camp. A group of visitors are eating around a pot, and I spot the very [enemy_knight.GetTitledFirstNameNoTooltip] sitting with them.\n\n"You exaggerate, my friend," [enemy_knight.GetSheHe] says, as [enemy_knight.Custom('quirk_pos_standalone')|l]. I lock eyes with [enemy_knight.GetHerHim], and give [enemy_knight.GetHerHim] a subtle nod.\n\n"If you'll excuse me," [enemy_knight.GetSheHe] mutters, getting up. "Is there something the [ROOT.Char.GetLadyLord] wants to discuss?""
-### TODO AGOT-ONLY: ep2_locale_events.3020.a [AGOT: ]
- ep2_locale_events.3020.a:0 ""Winning won't make you any friends.""
+
+ ep2_locale_events.3020.desc:0 ""[enemy_knight.GetFirstName] diğer rakipleri döve döve süpürmezse şaşarım!" diye duyuyorum kampta dolaşırken. Bir grup ziyaretçi bir tencerenin etrafında yemek yiyor ve tam [enemy_knight.GetTitledFirstNameNoTooltip]'i aralarında otururken görüyorum.\n\n"Abartıyorsun, dostum," der [enemy_knight.GetSheHe], [enemy_knight.Custom('quirk_pos_standalone')|l] bir tavırla. [enemy_knight.GetHerHim]le göz göze gelirim ve [enemy_knight.GetHerHim]e belli belirsiz başımı sallarım.\n\n"İzin verirseniz," diye mırıldanır [enemy_knight.GetSheHe], ayağa kalkarak. "[ROOT.Char.GetLadyLord]'in konuşmak istediği bir şey mi var?""
+
+ ep2_locale_events.3020.a:0 ""Kazanmak sana dost kazandırmaz.""
  ep2_locale_events.3020.a.success:0 "[enemy_knight.GetShortUIName] seni dinliyor"
  ep2_locale_events.3020.a.failure:0 "[enemy_knight.GetShortUIName] teklifin karşısında aşağılanmış hissetti"
-### TODO AGOT-ONLY: ep2_locale_events.3020.b [AGOT: ]
- ep2_locale_events.3020.b:0 ""I am your liege. I command you to drop it.""
+
+ ep2_locale_events.3020.b:0 ""Ben senin hükümdarınım. Bırakmanı emrediyorum.""
  ep2_locale_events.3020.c:0 "Adil bir savaş olsun istiyorum."
  tournament_cut_off_round_opinion:0 "Kesti"
  tournament_banished_farrier_opinion:0 "Sürgün Edilmiş Nalbant Çırağı"

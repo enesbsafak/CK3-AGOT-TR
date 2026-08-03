@@ -264,26 +264,26 @@
  message_filter_accolade_activity_desc: "Sahip olunan bir [accolade|E] aktifleştirildi veya kapatıldı"
  message_filter_accolade_rank: "@accolade_icon! Yeni Kademe"
  message_filter_accolade_rank_desc: "Sahip olunan [accolade|E] Kademe değiştirdi"
-### TODO AGOT-CHANGED: message_filter_accolade_succession [AGOT: @accolade_icon! Captain Succession | TR: @accolade_icon! Şövalye Veraseti]
- message_filter_accolade_succession: "@accolade_icon! Captain Succession"
+
+ message_filter_accolade_succession:0 "@accolade_icon! Şövalye Veraseti"
  message_filter_accolade_succession_desc: "[Concept('acclaimed_knight', 'Tanınmış Şövalyeniz')|E] değişti"
-### TODO AGOT-CHANGED: message_filter_accolade_eligibility [AGOT: @accolade_icon! Captain eligible for [accolade_type|E] | TR: @accolade_icon! Şövalye [accolade_type|E] için uygun]
- message_filter_accolade_eligibility: "@accolade_icon! Captain eligible for [accolade_type|E]"
+
+ message_filter_accolade_eligibility:0 "@accolade_icon! Şövalye [accolade_type|E] için uygun"
  message_filter_accolade_eligibility_desc: "Bir [Concept('knight', 'Şövalyeye')|E], yeni bir [Concept('accolade_type', 'Mükâfat Niteliğine')|E] sahip bir [accolade|E] verilebilir"
-### TODO AGOT-CHANGED: message_filter_squire_training [AGOT: @accolade_icon! [acclaimed_knight|E] has trained a Recruit | TR: @accolade_icon! [acclaimed_knight|E] bir Yaver yetiştirdi]
- message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E] has trained a Recruit"
+
+ message_filter_squire_training:0 "@accolade_icon! [acclaimed_knight|E] bir Yaver yetiştirdi"
  message_filter_squire_training_desc: "[Concept('courtier', 'Saray Mensubunun')|E] becerileri, [Concept('accolade', 'Mükâfatın')|E] [Concept('accolade_squires', 'Yaverinin')|E] Yatkınlığı sayesinde gelişti"
  message_filter_tournament_arrival: "@tournament_icon! Hükümdar Geldi"
  message_filter_tournament_arrival_desc: "Kayda değer bir [ruler|E], [activity_guest|E] olarak [GetActivityType( 'activity_tournament' ).GetName] için topraklarınıza geldi"
-### TODO AGOT-CHANGED: message_filter_tournament_knight_arrives [AGOT: @tournament_icon! New Captains | TR: @tournament_icon! Yeni Şövalyeler]
- message_filter_tournament_knight_arrives: "@tournament_icon! New Captains"
+
+ message_filter_tournament_knight_arrives:0 "@tournament_icon! Yeni Şövalyeler"
  message_filter_tournament_knight_arrives_desc: "Kayda değer bir [knight|E] [activity_guest|E] olarak [GetActivityType( 'activity_tournament' ).GetName] için topraklarınıza geldi"
  message_filter_tournament_qualification: "@tournament_icon! Hak Kazanma"
  message_filter_tournament_qualification_desc: "[GetActivityType( 'activity_tournament' ).GetName] [Concept('contest', 'Müsabakasında')|E] [contest_qualification|E] durumunuz değişti"
  message_filter_tournament_qualification_champion: "@tournament_icon! Şampiyon Hak Kazanımı"
  message_filter_tournament_qualification_champion_desc: "Şampiyonunuzun [GetActivityType( 'activity_tournament' ).GetName] [Concept('contest', 'Müsabakasında')|E] [contest_qualification|E] durumu değişti"
-### TODO AGOT-CHANGED: message_filter_tournament_qualification_knight [AGOT: @tournament_icon! Captain Qualification | TR: @tournament_icon! Şövalye Hak Kazanımı]
- message_filter_tournament_qualification_knight: "@tournament_icon! Captain Qualification"
+
+ message_filter_tournament_qualification_knight:0 "@tournament_icon! Şövalye Hak Kazanımı"
  message_filter_tournament_qualification_knight_desc: "[Concept('knights_possessive', 'Şövalyenizin')|E] [GetActivityType( 'activity_tournament' ).GetName] [Concept('contest', 'Müsabakasında')|E] [contest_qualification|E] durumu değişti"
  message_filter_holy_order_founded: "@holy_order_icon! Kutsal Tarikat Kuruldu"
  message_filter_holy_order_founded_desc: "[Concept('faith', 'Mezhebinizde')|E] bir [holy_order|E] kuruldu"

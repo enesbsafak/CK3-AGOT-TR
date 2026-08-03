@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  stress_threshold_cooldown_message:1 "[SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] yıl sonra hâlâ [stressed|E] iseniz tekrar [Concept( 'mental_break', 'Sinir Krizine' )|E] girebilirsiniz."
  stress_threshold.0010.toast:2 "Stresle Başa Çıkılamıyor"
  stress_threshold.0010.text:0 "[stress_level|E] kazandınız"
@@ -13,10 +13,10 @@
  stress_threshold.1001.improvident.effect:0 "Altına benden daha çok ihtiyacı olanlar var."
  stress_threshold.1001.drunkard.gain:0 "Birkaç kadeh içki beni kendime getirir..."
  stress_threshold.1001.drunkard.effect:0 "Zihnimi rahatlatana kadar içeceğim."
-### TODO AGOT-CHANGED: stress_threshold.1001.hashishiyah.gain [AGOT: Some milk of the poppy will put my mind at ease... | TR: Biraz haşiş zihnimi rahatlatır...]
- stress_threshold.1001.hashishiyah.gain:0 "Some milk of the poppy will put my mind at ease..."
-### TODO AGOT-CHANGED: stress_threshold.1001.hashishiyah.effect [AGOT: A relaxing night with a cup of milk of the poppy will help. | TR: Bir kâse dolusu haşiş keki beni kendime getirir.]
- stress_threshold.1001.hashishiyah.effect:1 "A relaxing night with a cup of milk of the poppy will help."
+
+ stress_threshold.1001.hashishiyah.gain:0 "Biraz haşiş zihnimi rahatlatır..."
+
+ stress_threshold.1001.hashishiyah.effect:0 "Bir kâse dolusu haşiş keki beni kendime getirir."
  stress_threshold.1001.journaller.gain:0 "Endişelerimi kâğıda dökmek odaklanabilmemi sağlar."
  stress_threshold.1001.journaller.effect:0 "Odamda bir süre yalnız kalacağım."
  stress_threshold.1001.endure:0 "Güçlü olup bu düşüncelere teslim olmayacağım!"
@@ -46,25 +46,25 @@
  stress_threshold.1501.d:0 "Hiçbir şeyin tadı yokken neden yemek yiyeyim ki?"
  stress_threshold.1501.e:0 "Bu karanlık düşüncelerin beni esir almasına izin veremem."
  stress_threshold.1501.f:0 "[scoped_ruler.GetFaith.GetAdherentName] olmanın bir anlamı kalmadı."
-### TODO NOT-IN-ST: stress_threshold.1501.g [AGOT: Why must I keep up my appearances?]
- stress_threshold.1501.g:0 "Why must I keep up my appearances?"
-### TODO NOT-IN-ST: stress_threshold.1501.h [AGOT: I cannot be bothered to act #italic properly#! anymore.]
- stress_threshold.1501.h:0 "I cannot be bothered to act #italic properly#! anymore."
+
+ stress_threshold.1501.g:0 "Neden görünüşümü korumak zorundayım?"
+
+ stress_threshold.1501.h:0 "Artık #italic düzgün#! davranmaya zahmet edemem."
  stress_threshold.1502.t:0 "Sinir Krizi: Bıkkınlık"
  stress_threshold.1502.intro.desc:0 "Niye her şeyi kendim yapmak zorundayım? [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Kampımın', 'Sarayımın')] yarısı onlara emredileni yerine getirmekten âciz, diğer yarısı ise dediklerimi dahi anlamıyorken nasıl [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] için iyi bir lider olabilirim ki?"
  stress_threshold.1502.courtier.desc:0 "\n\nÖzellikle [scoped_courtier.GetFirstName], son zamanlarda iyice canımı sıkmaya başladı. Ne zaman görsem bir kenarda sızlanıyor, sürekli bir şeylerden şikâyet ediyor! Bir de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_courtier'))] olacak!"
-### TODO AGOT-ONLY: stress_threshold.1502.nocourtier.desc [AGOT: ]
- stress_threshold.1502.nocourtier.desc:0 ""
+
+ stress_threshold.1502.nocourtier.desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  stress_threshold.1502.a:0 "Tam bir [scoped_courtier.Custom2('InsultAdjective', ROOT.Char)] [scoped_courtier.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.1502.b:0 "Gardiyan! Bana başka bir mahkûm getir!"
-### TODO AGOT-ONLY: stress_threshold.1502.c [AGOT: ]
- stress_threshold.1502.c:0 ""Why must you all be incompetent #EMP idiots#!!?""
+
+ stress_threshold.1502.c:0 ""Neden hepiniz beceriksiz #EMP aptallar#!sınız?!""
  stress_threshold.1502.d:0 "[ROOT.Char.Custom('GetDungeon')] ziyaretiyle kafamı dağıtmalıyım..."
  stress_threshold.1502.e:0 "Bu günler de geçecek."
  stress_threshold.1502.f:0 "Belki de talihsizliklerimi kâğıda dökmeliyim."
  stress_threshold.1502.g:0 "[scoped_ruler.GetFaith.HighGodName] aşkına, bir şeyler içmem lazım!"
-### TODO NOT-IN-ST: stress_threshold.1502.h [AGOT: Perhaps I shall become unbearable to be around!]
- stress_threshold.1502.h:0 "Perhaps I shall become unbearable to be around!"
+
+ stress_threshold.1502.h:0 "Belki de etrafında bulunulmaz biri olurum!"
  stress_threshold.1503.t:0 "Sinir Krizi: Boşluk"
  stress_threshold.1503.desc:0 "Artık hiçbir şey beni tatmin etmiyor. Ne kadar uğraşırsam uğraşayım ne mutlu olabiliyorum ne de huzurlu. Hayatımda bir şeyler eksik.\n\nRuhumu emen bu boşluğu neyle doldurabilirim ki?"
  stress_threshold.1503.a.a:0 "Belki birkaç yeni mücevherle?"
@@ -83,8 +83,8 @@
  stress_threshold.1504.g:0 "Düşüncelerimi kâğıda dökerek kendimi toplamaya çalışacağım."
  stress_threshold.1504.h:0 "Atımı hazırlayın, biraz dolaşmam gerek!"
  stress_threshold.1504.i: "Düşünmek için sessizliğe ihtiyacım var."
-### TODO NOT-IN-ST: stress_threshold.1504.j [AGOT: I just need to let loose... #EMP *fart*#!]
- stress_threshold.1504.j:0 "I just need to let loose... #EMP *fart*#!"
+
+ stress_threshold.1504.j:0 "Sadece rahatlamam lazım... #EMP *osuruk*#!"
  stress_threshold.1601.t:0 "Sinir Krizi: Allak Bullak"
  stress_threshold.1601.desc:0 "Bir türlü odaklanamıyorum, kafam allak bullak! Önce [ROOT.Char.Custom('GetCourt')|l] ile ilgilenmem lazım, ondan sonra birliklerle ilgilenmem lazım, iş üstüne iş!\n\nKendi zihnim dahi bana ihanet ederken nasıl dinlenebilirim ki?!"
  stress_threshold.1601.profligate.gain:0 "Belki şık bir şey satın almam yeniden odaklanabilmemi sağlar..."
@@ -97,16 +97,16 @@
  stress_threshold.1601.rakish.effect:0 "Geneleve uğramak kafamı toplamamı sağlar."
  stress_threshold.1601.reclusive.gain:0 "Belki tek başıma kalırsam konsantre olabilirim..."
  stress_threshold.1601.reclusive.effect:0 "Yalnız kaldığımda daha iyi odaklanıyorum..."
-### TODO NOT-IN-ST: stress_threshold.1601.uncouth.gain [AGOT: Perhaps I could think better if I spent less time on appearances...]
- stress_threshold.1601.uncouth.gain:0 "Perhaps I could think better if I spent less time on appearances..."
-### TODO NOT-IN-ST: stress_threshold.1601.uncouth.effect [AGOT: I can focus much better when I don't worry about what others think of me.]
- stress_threshold.1601.uncouth.effect:0 "I can focus much better when I don't worry about what others think of me."
+
+ stress_threshold.1601.uncouth.gain:0 "Belki görünüşe daha az zaman ayırırsam daha iyi düşünebilirim..."
+
+ stress_threshold.1601.uncouth.effect:0 "Başkalarının benim hakkımda ne düşündüğünü umursamadığımda çok daha iyi odaklanabiliyorum."
  stress_threshold.1601.irritable.gain:0 "Belki etrafımdaki herkes bir #EMP sussa#! odaklanabilirim!"
  stress_threshold.1601.irritable.effect:0 "Herkese #EMP sessiz olmalarını#! söyleyeceğim!"
-### TODO AGOT-ONLY: stress_threshold.1601.confider.gain [AGOT: ]
- stress_threshold.1601.confider.gain:0 ""[friend.GetFirstNameNoTooltip], my friend, help me sort my thoughts out!""
-### TODO AGOT-ONLY: stress_threshold.1601.confider.effect [AGOT: ]
- stress_threshold.1601.confider.effect:0 ""[friend.GetFirstNameNoTooltip], please listen to me like you always do!""
+
+ stress_threshold.1601.confider.gain:0 ""[friend.GetFirstNameNoTooltip], dostum, düşüncelerimi toplamama yardım et!""
+
+ stress_threshold.1601.confider.effect:0 ""[friend.GetFirstNameNoTooltip], lütfen her zamanki gibi beni dinle!""
  stress_threshold.1601.athletic.gain:0 "Sağlam kafa sağlam vücutta olur demişler..."
  stress_threshold.1601.athletic.effect:0 "Hiçbir şey beni egzersiz kadar sakinleştirmiyor!"
  stress_threshold.1601.contrite.gain:0 "Günahlarımı itiraf ederek zihnimi yatıştıracağım."
@@ -117,10 +117,10 @@
  stress_threshold.1601.improvident.effect:0 "Hayırseverlik her zaman sakinleşmemi sağlar."
  stress_threshold.1601.drunkard.gain:0 "Belki birkaç kadeh içkiden sonra kendime gelirim..."
  stress_threshold.1601.drunkard.effect:0 "Ayık değilken daha iyi odaklandığım bir gerçek."
-### TODO AGOT-CHANGED: stress_threshold.1601.hashishiyah.gain [AGOT: Some milk of the poppy will hopefully calm my mind... | TR: Biraz haşişle zihnimi yatıştırabilirim....]
- stress_threshold.1601.hashishiyah.gain:0 "Some milk of the poppy will hopefully calm my mind..."
-### TODO AGOT-CHANGED: stress_threshold.1601.hashishiyah.effect [AGOT: I am never calmer than after an evening with a cup of milk of the poppy. | TR: Hiçbir şey haşiş kekleri gibi zihnimi yatıştıramıyor.]
- stress_threshold.1601.hashishiyah.effect:1 "I am never calmer than after an evening with a cup of milk of the poppy."
+
+ stress_threshold.1601.hashishiyah.gain:0 "Biraz haşişle zihnimi yatıştırabilirim...."
+
+ stress_threshold.1601.hashishiyah.effect:0 "Hiçbir şey haşiş kekleri gibi zihnimi yatıştıramıyor."
  stress_threshold.1601.journaller.gain:0 "Düşüncelerimi kâğıda dökmek kafamı toplamamı sağlayacaktır."
  stress_threshold.1601.journaller.effect:0 "Yazmak her zaman daha iyi odaklanabilmemi sağlıyor!"
  stress_threshold.1601.burdened.gain: "Daha iyi bir yerde olduğumun hayalini kuracağım."
@@ -138,10 +138,10 @@
  stress_threshold.1602.rakish.effect:0 "Tutku ve şehvet gibi beni kendime getiren bir şey yok!"
  stress_threshold.1602.reclusive.gain:0 "Belki yalnız kalarak sakinleşebilirim..."
  stress_threshold.1602.reclusive.effect:0 "Kafamı toplamamın tek yolu bir süreliğine yalnız kalmak."
-### TODO NOT-IN-ST: stress_threshold.1602.uncouth.gain [AGOT: Maybe this would be easier if I let myself go...]
- stress_threshold.1602.uncouth.gain:0 "Maybe this would be easier if I let myself go..."
-### TODO NOT-IN-ST: stress_threshold.1602.uncouth.effect [AGOT: I feel much better when I let myself go.]
-stress_threshold.1602.uncouth.effect:0 "I feel much better when I let myself go."
+
+ stress_threshold.1602.uncouth.gain:0 "Belki kendimi bırakırsam bu daha kolay olur..."
+
+stress_threshold.1602.uncouth.effect:0 "Kendimi bıraktığımda çok daha iyi hissediyorum."
  stress_threshold.1602.irritable.gain:0 "İnsanlar beni #EMP rahat bıraksalar#! her şey daha kolay olurdu!"
  stress_threshold.1602.irritable.effect:0 "Onlara benim #EMP peşimi bırakmalarını#! söyleyeceğim!"
  stress_threshold.1602.confider.gain:0 "[friend.GetFirstNameNoTooltip] ile konuşarak kendime gelebilirim."
@@ -158,10 +158,10 @@ stress_threshold.1602.uncouth.effect:0 "I feel much better when I let myself go.
  stress_threshold.1602.journaller.effect:0 "Yazmak beni sakinleştiriyor."
  stress_threshold.1602.drunkard.gain:0 "Yeteri kadar içkiyle bastırılamayacak duygu yoktur..."
  stress_threshold.1602.drunkard.effect:0 "Duygularımı bastırmak için tek ihtiyacım olan şey içki."
-### TODO AGOT-CHANGED: stress_threshold.1602.hashishiyah.gain [AGOT: Perhaps some milk of the poppy will bring calm. | TR: Belki biraz haşiş zihnimi sakinleştirir...]
- stress_threshold.1602.hashishiyah.gain:0 "Perhaps some milk of the poppy will bring calm."
-### TODO AGOT-CHANGED: stress_threshold.1602.hashishiyah.effect [AGOT: Milk of the poppy always centers me. | TR: Haşiş her zaman beni rahatlatıyor.]
- stress_threshold.1602.hashishiyah.effect:0 "Milk of the poppy always centers me."
+
+ stress_threshold.1602.hashishiyah.gain:0 "Belki biraz haşiş zihnimi sakinleştirir..."
+
+ stress_threshold.1602.hashishiyah.effect:0 "Haşiş her zaman beni rahatlatıyor."
  stress_threshold.1602.burdened.gain: "Başka bir şey üzerine düşünebilsem, #EMP herhangi#! bir şey."
  stress_threshold.1602.burdened.effect: "Başka şeyler üzerine düşünürsem sakinleşebilirim."
  stress_threshold.2001.t:0 "Sinir Krizi: Nankörlük"
@@ -175,21 +175,21 @@ stress_threshold.1602.uncouth.effect:0 "I feel much better when I let myself go.
  stress_threshold.2101.witch.gain:0 "Tıpkı [ROOT.Char.GetFaith.WitchGodName] gibi, kimsesizin tekiyim."
  stress_threshold.2101.witch.effect:0 "En azından [ROOT.Char.GetFaith.WitchGodName] beni anlayacaktır."
  stress_threshold.2101.drunkard.effect:0 "Tek gerçek dostum [ROOT.Char.Custom('RegionalAlcoholicDrink')]."
-### TODO AGOT-CHANGED: stress_threshold.2101.hashishiyah.effect [AGOT: At least a sip of milk of the poppy will relax me. | TR: En azından haşiş keklerim beni yargılamıyor.]
- stress_threshold.2101.hashishiyah.effect:1 "At least a sip of milk of the poppy will relax me."
+
+ stress_threshold.2101.hashishiyah.effect:0 "En azından haşiş keklerim beni yargılamıyor."
  stress_threshold.2101.endure:0 "Belki de tüm bunlar benim kafamda kurduğum şeylerdir..."
  stress_threshold.2201.t:0 "Sinir Krizi: Kızgınlık"
-### TODO AGOT-ONLY: stress_threshold.2201.desc.insult_adventurer [AGOT: ]
- stress_threshold.2201.desc.insult_adventurer: ""You might be my [ROOT.Char.Custom('GetCourtier')], [character_to_yell_at.GetFirstName], but you are also [character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!"\n\n"
-### TODO AGOT-ONLY: stress_threshold.2201.desc.insult [AGOT: ]
- stress_threshold.2201.desc.insult:0 ""You might be a [character_to_yell_at.GetTitleAsName], [character_to_yell_at.GetFirstName], but you are also [character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!"\n\n"
+
+ stress_threshold.2201.desc.insult_adventurer:0 ""Saraylım olabilirsin, [character_to_yell_at.GetFirstName], ama aynı zamanda [character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]'sin!"\n\n"
+
+ stress_threshold.2201.desc.insult:0 ""[character_to_yell_at.GetTitleAsName] olabilirsin, [character_to_yell_at.GetFirstName], ama aynı zamanda [character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]'sin!"\n\n"
  stress_threshold.2201.desc:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))|U] şaşkın bir yüz ifadesiyle bana bakıyor... Son zamanlarda çok #EMP sinirli#! hissediyorum ve herkes benim sinirimi daha da arttırıyor.\n\n"
-### TODO AGOT-ONLY: stress_threshold.2201.desc_liege [AGOT: ]
- stress_threshold.2201.desc_liege:0 ""What has gotten into you, [ROOT.Char.GetTitledFirstNameNoTooltip]?! This behavior is unacceptable."
-### TODO AGOT-ONLY: stress_threshold.2201.desc_vassal [AGOT: ]
- stress_threshold.2201.desc_vassal:0 ""My liege, what is the meaning of this behavior?!"
+
+ stress_threshold.2201.desc_liege:0 ""Ne oldu sana, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Bu davranış kabul edilemez.""
+
+ stress_threshold.2201.desc_vassal:0 ""Hükümdarım, bu davranışın anlamı ne?!""
  stress_threshold.2201.desc.calm:0 " Normalde çok da sakin birisiniz...""
-### TODO AGOT-ONLY: stress_threshold.2201.desc.ending [AGOT: ]
+
  stress_threshold.2201.desc.ending:0 """
  stress_threshold.2201.a:0 "Ne dediğimi duydun!"
  stress_threshold.2201.save:0 "Diyelim ki biri böyle dedi, nasıl bir yanıt verirdin?"
@@ -221,12 +221,12 @@ stress_threshold.1602.uncouth.effect:0 "I feel much better when I let myself go.
  stress_threshold.3201.desc:0 "Artık her şey çok fazla geliyor, niye uğraşıyorum ki?\n\nAkşam yemeğinde bile rahat yok. [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Kampın', 'Sarayın')] mali durumuyla ilgilenmem gerek, bir düzine anlaşmazlığı gidermem gerek, gerek de gerek!\n\n"İyi misiniz?" diye seslendi [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName], kaygılı bir ses tonuyla."
  stress_threshold.3201.depressed.gain:0 "Ne fark eder ki? Vazgeçtim..."
  stress_threshold.3201.depressed.effect:0 "Hayatta hiçbir şeyin anlamı yok..."
-### TODO AGOT-ONLY: stress_threshold.3201.help [AGOT: ]
- stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Please help me.""
-### TODO AGOT-ONLY: stress_threshold.3201.wrathful.gain [AGOT: ]
- stress_threshold.3201.wrathful.gain:0 ""No you [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], I am #EMP not#! alright!""
-### TODO AGOT-ONLY: stress_threshold.3201.wrathful.effect [AGOT: ]
- stress_threshold.3201.wrathful.effect:0 ""I'll show you who is #EMP alright#!, you [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]!""
+
+ stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Lütfen bana yardım et.""
+
+ stress_threshold.3201.wrathful.gain:0 ""Hayır, seni [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], ben #EMP iyi#! değilim!""
+
+ stress_threshold.3201.wrathful.effect:0 ""Sana kimin #EMP iyi#! olduğunu göstereceğim, seni [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]!""
  stress_threshold.3201.wrathful.effect.success:0 "[vassal.GetTitledFirstName] güzel bir dayak yedi"
  stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] sizi defetmeyi başardı"
  stress_threshold.3301.t:0 "Sinir Krizi: Kalp Acısı"

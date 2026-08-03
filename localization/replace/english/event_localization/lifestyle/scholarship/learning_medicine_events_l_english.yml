@@ -25,25 +25,25 @@
  learning_medicine.2002.b.inconclusive.desc:0 "Cadılıkla ilgili hiçbir ize rastlamadım"
  learning_medicine.2002.b.failure.t:0 "[herbalist.GetFirstNameNoTooltip] beni kendisini gözetlerken yakaladı"
  learning_medicine.2002.c:0 "Efsaneler ve kulaktan dolma bilgiler ile dikkatimin dağılmasına izin vermeyeceğim."
-### TODO AGOT-ONLY: learning_medicine.2003.desc [AGOT: ]
- learning_medicine.2003.desc:0 ""This is what I wish to learn," I say as I hand [herbalist.GetFirstName] the tome. "Will you teach me?"\n\n[herbalist.GetSheHe|U] takes a long, hard look at me. "Are you truly ready, [ROOT.Char.GetFirstNameNoTooltip]? Will you devote yourself to [herbalist.GetFaith.WitchGodName] in return for [herbalist.GetFaith.WitchGodHerHis|U] blessings?""
+
+ learning_medicine.2003.desc:0 ""Öğrenmek istediğim şey bu," diyorum [herbalist.GetFirstName]'e cildi uzatırken. "Bana öğretir misin?"\n\n[herbalist.GetSheHe|U] bana uzun ve sert bir bakış atıyor. "Gerçekten hazır mısın, [ROOT.Char.GetFirstNameNoTooltip]? [herbalist.GetFaith.WitchGodName]'in kutsaması karşılığında [herbalist.GetFaith.WitchGodHerHis|U] kendini [herbalist.GetFaith.WitchGodName]'e adayacak mısın?""
  learning_medicine.2003.a:0 "Daha çok arzuladığım hiçbir şey yok."
  learning_medicine.2010.t:0 "Sıkıntılı Çeviri"
  learning_medicine.2010.start.desc:0 "Kapının eşiğine doğru ilerlerken [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('court_physician'))] [court_physician.GetFirstName] ile karşılaştım. Kendisi odasında okuduğu kitaba gömülmüş bir hâldeydi.\n\n"Şu"
-### TODO AGOT-CHANGED: learning_medicine.2010.galen.desc [AGOT: Adaros of Volantis | TR: Galen'in]
- learning_medicine.2010.galen.desc:0 "Adaros of Volantis"
-### TODO AGOT-CHANGED: learning_medicine.2010.hippocrates.desc [AGOT: Harmon | TR: Hipokrat'ın]
- learning_medicine.2010.hippocrates.desc:0 "Harmon"
-### TODO AGOT-CHANGED: learning_medicine.2010.herophilus.desc [AGOT: Malea the Blue Grace | TR: Herofil'in]
- learning_medicine.2010.herophilus.desc:0 "Malea the Blue Grace"
-### TODO AGOT-CHANGED: learning_medicine.2010.hildegard.desc [AGOT: Maester Wallen | TR: Bingenli Hildegard'ın]
- learning_medicine.2010.hildegard.desc:0 "Maester Wallen"
-### TODO AGOT-CHANGED: learning_medicine.2010.mundinus.desc [AGOT: Gadros of the Red Hands | TR: Mundinus'un]
- learning_medicine.2010.mundinus.desc:0 "Gadros of the Red Hands"
-### TODO AGOT-CHANGED: learning_medicine.2010.avicenna.desc [AGOT: Thrasos of Myr | TR: İbn-i Sina'nın]
- learning_medicine.2010.avicenna.desc:0 "Thrasos of Myr"
-### TODO AGOT-CHANGED: learning_medicine.2010.trota.desc [AGOT: Prendros of Lys | TR: Salernolu Trota'nın]
- learning_medicine.2010.trota.desc:0 "Prendros of Lys"
+
+ learning_medicine.2010.galen.desc:0 "Galen'in"
+
+ learning_medicine.2010.hippocrates.desc:0 "Hipokrat'ın"
+
+ learning_medicine.2010.herophilus.desc:0 "Herofil'in"
+
+ learning_medicine.2010.hildegard.desc:0 "Bingenli Hildegard'ın"
+
+ learning_medicine.2010.mundinus.desc:0 "Mundinus'un"
+
+ learning_medicine.2010.avicenna.desc:0 "İbn-i Sina'nın"
+
+ learning_medicine.2010.trota.desc:0 "Salernolu Trota'nın"
  learning_medicine.2010.sun_simiao.desc: "Sun Simiao'nın"
  learning_medicine.2010.zhan_zhongjing.desc: "Zhang Zhongjing'in"
  learning_medicine.2010.hua_tuo.desc: "Hua Tuo'nun"
@@ -75,32 +75,32 @@
  learning_medicine.2022.a.failure:0 "Tedavinin bazı kötü yan etkileri olacak."
  learning_medicine.2022.c:0 "Aslında sadece birkaç tavsiye istemiştim."
  learning_medicine.2022.a.unexpected.tt:0 "Beklenmedik bir şeyler olabilir."
-### TODO AGOT-ONLY: learning_medicine.2023.urine.desc [AGOT: ]
- learning_medicine.2023.urine.desc:0 ""Your bodies are not synchronized, [ROOT.Char.Custom('FormOfAddressForLiege')], but I have a remedy for that. You must drink your [spouse.Custom('WifeHusbandPossessive')] urine, and [spouse.GetSheHe] yours. Every night before bed, for a week. Then your energies are sure to align!"\n\nIt was a long week."
+
+ learning_medicine.2023.urine.desc:0 ""Bedenleriniz senkronize değil, [ROOT.Char.Custom('FormOfAddressForLiege')], ama bunun bir çaresi var. [spouse.Custom('WifeHusbandPossessive')]'inizin idrarını içmelisiniz, [spouse.GetSheHe] de sizinkini. Bir hafta boyunca her gece, yatmadan önce. O zaman enerjileriniz kesinlikle hizalanacak!"\n\nUzun bir haftaydı.""
  learning_medicine.2023.unpleasant_end.desc:0 "\n\nTedavi pek hoş olmasa da,"
-### TODO AGOT-ONLY: learning_medicine.2023.pig_testicles.desc [AGOT: ]
- learning_medicine.2023.pig_testicles.desc:0 ""I have acquired the most virile hog in all of [location.GetNameNoTooltip] and had his testicles dried and powdered. Drink it in wine for a fortnight, and your fertility shall increase tenfold!""
+
+ learning_medicine.2023.pig_testicles.desc:0 ""[location.GetNameNoTooltip]'deki en güçlü domuzu edindim ve testislerini kurutup toz haline getirttim. İki hafta boyunca şaraba karıştırıp için, doğurganlığınız on kat artacak!""
  learning_medicine.2023.pig_testicles_end.desc:0 "\n\nBu testis tozu şaraba küflü bir renk katsa da bu hafta genel olarak şaşırtıcı bir şekilde hoş geçti."
-### TODO AGOT-ONLY: learning_medicine.2023.udder.desc [AGOT: ]
- learning_medicine.2023.udder.desc:0 ""Milk gives life, and so we must go to its source. The cooks will make stewed cow's udder for the both of you. Eat nothing else for a week, and you are sure to be rewarded."\n\nIt was a long week."
-### TODO AGOT-ONLY: learning_medicine.2023.female_orgasm.start.desc [AGOT: ]
- learning_medicine.2023.female_orgasm.start.desc:0 ""As you might know, the woman's pleasure is just as important as the man's."
+
+ learning_medicine.2023.udder.desc:0 ""Süt hayat verir, bu yüzden kaynağına gitmeliyiz. Aşçılar ikiniz için haşlanmış inek memesi yapacak. Bir hafta başka hiçbir şey yemeyin, ödüllendirileceğinizden emin olabilirsiniz."\n\nUzun bir haftaydı.""
+
+ learning_medicine.2023.female_orgasm.start.desc:0 ""Bildiğiniz gibi, kadının hazzı erkeğinki kadar önemlidir.""
  learning_medicine.2023.female_orgasm.female.desc:1 "Tohumlarınızı yaymalı ve eşinizinkiler ile birleştirmelisiniz. Eşiniz bu kitapları okuyup, yatak tekniklerine çalışmalı."\n\nDaha iyi bir tedavi olamazdı.\n\n"
  learning_medicine.2023.female_orgasm.male.desc:0 "Eşinizin tohumlarını yaymasını ve sizinkiler ile birleşmesini sağlamanız gerek. Bu kitapları okuyup yatak tekniklerine çalışın."\n\nBu alışılmadık teknikleri uygulamak için çok ter dökmek gerekiyor ama ben başardım. Tabii eğer eşimin verdiği tepkileri doğru anlıyorsam!\n\n"
-### TODO AGOT-ONLY: learning_medicine.2023.milk_bath.desc [AGOT: ]
- learning_medicine.2023.milk_bath.desc:0 ""All milk gives life, and goat's milk is especially potent. Whenever you and your [spouse.Custom('WifeHusband')] try to conceive, you should bathe in goat's milk first. You might even have a go in the tub!""
+
+ learning_medicine.2023.milk_bath.desc:0 ""Bütün süt hayat verir ve keçi sütü özellikle güçlüdür. [spouse.Custom('WifeHusband')] ile ne zaman çocuk yapmayı denerseniz, önce keçi sütünde yıkanmalısınız. Hatta küvette eğlenmeyi bile deneyebilirsiniz!""
  learning_medicine.2023.milk_bath_end.desc:0 "\n\nSütün çok ağır bir #EMP kokusu#! var ama"
  learning_medicine.2023.end.desc:0 "[physician.GetFirstNameNoTooltip] sonuçlar hakkında oldukça umutlu ve ben de kendimi çok iyi hissediyorum! Hekim bana sabırlı olmamı söylemişti ama ben inanıyorum ki yakında ailemizin yeni ufak bir üyesi daha olacak."
  learning_medicine.2023.a:0 "Haydi [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'çadırımıza', 'odamıza')] gidelim sevgili [spouse.GetFirstNameNoTooltip]..."
  learning_medicine.2024.end.desc:0 "\n\n[physician.GetFirstName] bana sabırlı olmamı söylemesine rağmen ve şüphelerim artıyor. Midem bulanıyor, yorgun hissediyorum ve eşim üç gündür yataktan kalkamıyor."
  learning_medicine.2024.a:0 "Sadece dinlenmek istiyorum..."
  learning_medicine.2024.b:0 "Muhafızlar! Yakalayın şu şarlatanı!"
-### TODO AGOT-ONLY: learning_medicine.2025.start.desc [AGOT: ]
- learning_medicine.2025.start.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], I have great news! It is early yet, but your [spouse.Custom('WifeHusband')] shows all the signs of being with child!"\n\nFirst, happiness and relief wash over me, but confusion follows quickly in its wake. "But you have not administered your treatment yet, [physician.GetFirstName]," I say pointedly.\n\n"
-### TODO AGOT-ONLY: learning_medicine.2025.fertilitygod.desc [AGOT: ]
- learning_medicine.2025.fertilitygod.desc:0 ""[physician.GetFaith.FertilityGodName]"
-### TODO AGOT-ONLY: learning_medicine.2025.the_universe.desc [AGOT: ]
- learning_medicine.2025.the_universe.desc:0 ""The universe"
+
+ learning_medicine.2025.start.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], harika haberlerim var! Daha erken ama, [spouse.Custom('WifeHusband')]'iniz hamilelik belirtilerinin hepsini gösteriyor!"\n\nÖnce mutluluk ve rahatlama dalgası kaplıyor içimi, ama ardından hızla kafa karışıklığı geliyor. "Ama tedavinizi henüz uygulamadınız, [physician.GetFirstName]," diyorum imalı bir şekilde.\n\n"
+
+ learning_medicine.2025.fertilitygod.desc:0 ""[physician.GetFaith.FertilityGodName]""
+
+ learning_medicine.2025.the_universe.desc:0 ""Evren""
  learning_medicine.2025.end.desc:0 "aklımızın almadığı bir şekilde çalışır [ROOT.Char.Custom('FormOfAddressForLiege')|l]. Bazen bu lütufları açıklamaya çalışmak yerine kucaklamalıyız.""
  learning_medicine.2025.b:0 "Bilgece laflar!"
  learning_medicine.2025.a:0 "[spouse.GetFirstNameNoTooltip]. Derhâl konuşmalıyız. Özel olarak."
@@ -143,7 +143,7 @@
  learning_medicine.2051.start_our.desc:0 ""
  learning_medicine.2051.start.desc:0 "Hastanın çığlıkları yeri göğü inletiyordu. Üç tane asker onu tutmaya çalışıyordu ama her adım bir savaş gibiydi."
  learning_medicine.2051.middle.desc:0 "Ama [helper.GetTitledFirstName] sakin kaldı ve nihayet biraz odaklanıp işimizi yapmaya başladık.\n\nNasıl becerdik bilmiyoruz ama askerin hayatını kurtarmayı başardık. "Bu kimsenin beklemediği bir başarıydı,"
-### TODO AGOT-ONLY: learning_medicine.2051.my_ladylord.desc [AGOT: ]
+
  learning_medicine.2051.my_ladylord.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U],""
  learning_medicine.2051.firstname.desc:1 "[ROOT.Char.GetFirstNameNoTooltip],""
  learning_medicine.2051.end.desc:0 ""Lordum" diyor [helper.GetFirstNameNoTooltip] yorgun bir gülümsemeyle, "Sizinle çalışmak benim için bir onurdu.""
@@ -159,31 +159,31 @@
  learning_medicine.2054.disgust.desc:0 "gizlemeye tenezzül etmediği bir tiksintiyle gözlerimin içine baktı ve"
  learning_medicine.2054.pity.desc:0 "acıyarak bana baktı ve "
  learning_medicine.2054.a:0 ""keşke ben bir baksaydım..." dedi."
-### TODO AGOT-CHANGED: learning_medicine.2110.t [AGOT: Wine of the Warlocks | TR: Kekler Üzerine Bir Tartışma]
- learning_medicine.2110.t:0 "Wine of the Warlocks"
+
+ learning_medicine.2110.t:0 "Kekler Üzerine Bir Tartışma"
  learning_medicine.2110.desc:0 "Dostlarım ve ben kısa bir baskından [capital.GetNameNoTooltip] bölgesine dönüyorken, ansızın başkentimde ne aradığı bilinmeyen [hashish_vassal_or_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] ve askerleri ile karşılaşıyoruz.\n\n"
-### TODO AGOT-ONLY: learning_medicine.2110.desc_good_terms [AGOT: ]
- learning_medicine.2110.desc_good_terms:0 ""Ah, [ROOT.Char.GetFirstNameNoTooltip]! I was hoping I'd run into you. Come, I've found the most delightful little taverna just a short ways from here. Would you care to join me for a taste of #italic shade-of-the-evening#!?""
+
+ learning_medicine.2110.desc_good_terms:0 ""Ah, [ROOT.Char.GetFirstNameNoTooltip]! Sana denk gelmeyi umuyordum. Gel, buradan biraz ileride en keyifli küçük meyhaneyi buldum. Bana #italic akşam gölgesi#! tadı eşlik etmek ister misin?""
  learning_medicine.2110.desc_bad_terms:0 "Havadaki gerginlik aşikârdı, iki tarafın muhafızları da silahlarına sarılmak için işaret bekliyorlardı. "[ROOT.Char.Custom('FormOfAddressForLiege')|U]", diye fısıldadı arkamdan genç bir asker, "Belki biraz sakinleşmek için şuradaki ufak tavernada haşhaşlı kek yiyebiliriz?"\n\nİki grup da derin sessizliğe gömüldü ve [hashish_vassal_or_liege.GetFirstNameNoTooltip] cevabımı beklemeye başladı."
  learning_medicine.2110.desc_neutral_terms:0 "Bu ani karşılaşmanın etkisiyle kısa süren bir sessizlik ortama hâkimken [hashish_vassal_or_liege.GetFirstNameNoTooltip] dikkatli gözlerle arkamdaki bir şeye bakıyordu.\n\n"Ah efendim, belki de bu tatsız karşılaşmayı unutmak adına [ROOT.Char.Custom('GetExpensiveDrink')] içip haşhaşlı kek yemeye bana katılmak istersiniz?""
  learning_medicine.2110.a.good_terms:0 "Üzgünüm gitmeliyim."
  learning_medicine.2110.a.bad_terms:0 "Bu [Select_CString(hashish_vassal_or_liege.IsFemale, 'kadınla', 'adamla')] mı? Asla!"
  learning_medicine.2110.a.neutral_terms:0 "Üzgünüm bir yere geç kaldım gitmeliyim."
  learning_medicine.2110.b.good_terms:0 "Belki de ufak bir kaçamağa ikna edilebilirim..."
-### TODO AGOT-CHANGED: learning_medicine.2110.b.bad_terms [AGOT: Fine. But #EMP just sip or two#!. | TR: Peki. Ama #EMP sadece bir#! parça kek.]
- learning_medicine.2110.b.bad_terms:0 "Fine. But #EMP just sip or two#!."
-### TODO AGOT-CHANGED: learning_medicine.2110.b.neutral_terms [AGOT: Perhaps we could take a few sips... | TR: Belki birkaç kek yiyebiliriz...]
- learning_medicine.2110.b.neutral_terms:0 "Perhaps we could take a few sips..."
-### TODO AGOT-CHANGED: learning_medicine.2110.b.flavour [AGOT: One sip becomes two, then three, then five... | TR: Bir kek bakarsın iki olur, sonra üç olur, sonra dört olur...]
- learning_medicine.2110.b.flavour:0 "One sip becomes two, then three, then five..."
+
+ learning_medicine.2110.b.bad_terms:0 "Peki. Ama #EMP sadece bir#! parça kek."
+
+ learning_medicine.2110.b.neutral_terms:0 "Belki birkaç kek yiyebiliriz..."
+
+ learning_medicine.2110.b.flavour:0 "Bir kek bakarsın iki olur, sonra üç olur, sonra dört olur..."
  cosmic_insights_modifier:0 "Kozmik Sezgiler"
-### TODO AGOT-CHANGED: cosmic_insights_modifier_desc [AGOT: A long night of shade-of-the-evening consumption has truly given this character insight into the nature of reality. | TR: Uzun bir gece haşiş yedikten sonra bu karakter doğayı hissedip evrenin gerçeklerini sezebilmeye başladı.]
- cosmic_insights_modifier_desc:0 "A long night of shade-of-the-evening consumption has truly given this character insight into the nature of reality."
+
+ cosmic_insights_modifier_desc:0 "Uzun bir gece haşiş yedikten sonra bu karakter doğayı hissedip evrenin gerçeklerini sezebilmeye başladı."
  learning_medicine.2110.c.good_terms:0 "Yetişmeye çalış dostum!"
  learning_medicine.2110.c.bad_terms:0 "Bende peygamber sabrı var!"
  learning_medicine.2110.c.neutral_terms:0 "Sabahlar olmasın!"
-### TODO AGOT-CHANGED: learning_medicine.2110.c.tt_success [AGOT: The evening shade causes [hashish_vassal_or_liege.GetHerHim] to talk too freely | TR: Haşiş anlaşılan onun çenesini düşürmüş.]
- learning_medicine.2110.c.tt_success:0 "The evening shade causes [hashish_vassal_or_liege.GetHerHim] to talk too freely"
+
+ learning_medicine.2110.c.tt_success:0 "Haşiş anlaşılan onun çenesini düşürmüş."
  learning_medicine.2110.c.tt_fail:0 "İpleri salınca ben boşboğaz biri oluyorum..."
  learning_medicine_special.1001.t:0 "Vücudun Sırları"
  learning_medicine_special.1001.desc:0 "Bazen uzun uzun üzerine kafa yorup kendimi insan vücuduna ve bizim bilmediğimiz bütün sırlara hayran kalmış buluyorum. Kafamın içinde daima yaşam ve ölüm hakkında sorular dolaşıyor.\n\nBu konuyla ilgili metinleri okumak oldukça güzel fakat fiziksel bir araştırma yaparsam çok daha fazla şey öğrenebileceğim düşüncesi sürekli aklımda."

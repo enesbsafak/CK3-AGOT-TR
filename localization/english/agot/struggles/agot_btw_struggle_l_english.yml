@@ -1,57 +1,57 @@
-﻿﻿l_english:
+﻿l_english:
 
  btw_struggle:0 "Sur'un Ötesi Mücadelesi"
-### TODO NOT-IN-ST: btw_struggle_desc [AGOT: $game_concept_btw_struggle$]
- btw_struggle_desc:1 "$game_concept_btw_struggle$"
+
+ btw_struggle_desc:0 "$game_concept_btw_struggle$"
 
  game_concept_btw_struggle:0 "Sur'un Ötesi Mücadelesi"
-### TODO NOT-IN-ST: game_concept_btw_struggle_desc [AGOT: The $game_concept_btw_struggle$ depicts the millennia of fractious relationships beyond the wall. Though born of the construction of the Wall eight thousand of years ago at the end of the Long Night, the [struggle|E] shifts between [struggle_phase_phases|E] of hate-fueled violence, wary truces, and pragmatic cooperation. There are few permanent allies in such a situation, and [rulers|E] should be wary of relying purely on a shared [faith|E] or [culture|E].]
- game_concept_btw_struggle_desc:2 "The $game_concept_btw_struggle$ depicts the millennia of fractious relationships beyond the wall. Though born of the construction of the Wall eight thousand of years ago at the end of the Long Night, the [struggle|E] shifts between [struggle_phase_phases|E] of hate-fueled violence, wary truces, and pragmatic cooperation. There are few permanent allies in such a situation, and [rulers|E] should be wary of relying purely on a shared [faith|E] or [culture|E]."
-### TODO NOT-IN-ST: struggle_btw_phase_opportunity [AGOT: Opportunity]
- struggle_btw_phase_opportunity:0 "Opportunity"
-### TODO NOT-IN-ST: struggle_btw_phase_opportunity_desc [AGOT: $game_concept_struggle_phase_btw_opportunity_desc$]
+
+ game_concept_btw_struggle_desc:0 "The $game_concept_btw_struggle$, duvarın ötesindeki asırlık ihtilaflı ilişkileri tasvir eder. Uzun Gece'nin sonunda, sekiz bin yıl önce Duvar'ın inşasıyla doğmuş olsa da, [struggle|E], nefret dolu şiddet, temkinli ateşkesler ve pragmatik iş birliği [struggle_phase_phases|E] arasında değişir. Böyle bir durumda kalıcı müttefikler azdır ve [rulers|E], yalnızca ortak bir [faith|E] ya da [culture|E]'ye güvenmek konusunda temkinli olmalıdır."
+
+ struggle_btw_phase_opportunity:0 "Fırsat"
+
  struggle_btw_phase_opportunity_desc:0 "$game_concept_struggle_phase_btw_opportunity_desc$"
-### TODO NOT-IN-ST: struggle_btw_phase_hostility [AGOT: Hostility]
- struggle_btw_phase_hostility:0 "Hostility"
-### TODO NOT-IN-ST: struggle_btw_phase_hostility_desc [AGOT: $game_concept_struggle_phase_btw_hostility_desc$]
+
+ struggle_btw_phase_hostility:0 "Düşmanlık"
+
  struggle_btw_phase_hostility_desc:0 "$game_concept_struggle_phase_btw_hostility_desc$"
-### TODO NOT-IN-ST: struggle_btw_phase_compromise [AGOT: Compromise]
- struggle_btw_phase_compromise:0 "Compromise"
-### TODO NOT-IN-ST: struggle_btw_phase_compromise_desc [AGOT: $game_concept_struggle_phase_btw_compromise_desc$]
+
+ struggle_btw_phase_compromise:0 "Uzlaşma"
+
  struggle_btw_phase_compromise_desc:0 "$game_concept_struggle_phase_btw_compromise_desc$"
-### TODO NOT-IN-ST: struggle_btw_phase_conciliation [AGOT: Conciliation]
- struggle_btw_phase_conciliation:0 "Conciliation"
-### TODO NOT-IN-ST: struggle_btw_phase_conciliation_desc [AGOT: $game_concept_struggle_phase_btw_conciliation_desc$]
+
+ struggle_btw_phase_conciliation:0 "Yatışma"
+
  struggle_btw_phase_conciliation_desc:0 "$game_concept_struggle_phase_btw_conciliation_desc$"
-### TODO NOT-IN-ST: found_empire_decision_not_part_of_btw_struggle [AGOT: You are [struggle_uninvolved|E] in the $btw_struggle$]
- found_empire_decision_not_part_of_btw_struggle:0 "You are [struggle_uninvolved|E] in the $btw_struggle$"
-### TODO NOT-IN-ST: FORM_BTW_MUST_END_STRUGGLE_TRIGGER [AGOT: $e_beyond_the_wall$ cannot be formed till the [btw_struggle|E] has been resolved]
- FORM_BTW_MUST_END_STRUGGLE_TRIGGER:0 "$e_beyond_the_wall$ cannot be formed till the [btw_struggle|E] has been resolved"
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_opportunity [AGOT: Opportunity Phase]
- game_concept_struggle_phase_btw_opportunity:1 "Opportunity Phase"
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_opportunity_desc [AGOT: After a long period of relatively peaceful coexistence during the [struggle_phase_btw_conciliation|E], complacency begins to set in. Everyone is comfortable that things just #EMP work#!, allowing more shrewd [characters|E] to take advantage of their naivety.\n\nEventually, fresh abuses will either cause an escalation into the [struggle_phase_btw_hostility|E], or else savvy politicking reaches an uneasy equilibrium through the [struggle_phase_btw_conciliation|E].]
- game_concept_struggle_phase_btw_opportunity_desc:2 "After a long period of relatively peaceful coexistence during the [struggle_phase_btw_conciliation|E], complacency begins to set in. Everyone is comfortable that things just #EMP work#!, allowing more shrewd [characters|E] to take advantage of their naivety.\n\nEventually, fresh abuses will either cause an escalation into the [struggle_phase_btw_hostility|E], or else savvy politicking reaches an uneasy equilibrium through the [struggle_phase_btw_conciliation|E]."
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_hostility [AGOT: Hostility Phase]
- game_concept_struggle_phase_btw_hostility:1 "Hostility Phase"
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_hostility_desc [AGOT: Tensions flare and tempers fray in this $game_concept_struggle_phase_phase$. Repeated acts of malice and escalated misunderstandings during  the [struggle_phase_btw_opportunity|E] have lead to rising hatred of [characters|E] with differing [cultures|E].\n\nSuch bloodshed cannot persist forever, though. Eventually, either cooler heads or simple exhaustion bring the lands beyond the wall to the [struggle_phase_btw_compromise|E].]
- game_concept_struggle_phase_btw_hostility_desc:2 "Tensions flare and tempers fray in this $game_concept_struggle_phase_phase$. Repeated acts of malice and escalated misunderstandings during  the [struggle_phase_btw_opportunity|E] have lead to rising hatred of [characters|E] with differing [cultures|E].\n\nSuch bloodshed cannot persist forever, though. Eventually, either cooler heads or simple exhaustion bring the lands beyond the wall to the [struggle_phase_btw_compromise|E]."
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_compromise [AGOT: Compromise Phase]
- game_concept_struggle_phase_btw_compromise:1 "Compromise Phase"
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_compromise_desc [AGOT: Whether through sickness with the strife of the [struggle_phase_btw_hostility|E] or deft escalation during the [struggle_phase_btw_conciliation|E], the $game_concept_struggle_phase_btw_compromise$ represents a growing accommodation between the Wildlings. Differences fall by the wayside and shared history and heritage binds former foes together.\n\nThe lands beyond the wall stand at a cross-roads: if conflicts reappear, then the [struggle_phase_btw_opportunity|E] awaits.]
- game_concept_struggle_phase_btw_compromise_desc:2 "Whether through sickness with the strife of the [struggle_phase_btw_hostility|E] or deft escalation during the [struggle_phase_btw_conciliation|E], the $game_concept_struggle_phase_btw_compromise$ represents a growing accommodation between the Wildlings. Differences fall by the wayside and shared history and heritage binds former foes together.\n\nThe lands beyond the wall stand at a cross-roads: if conflicts reappear, then the [struggle_phase_btw_opportunity|E] awaits."
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_conciliation [AGOT: Conciliation Phase]
- game_concept_struggle_phase_btw_conciliation: "Conciliation Phase"
-### TODO NOT-IN-ST: game_concept_struggle_phase_btw_conciliation_desc [AGOT: The product of a notable [struggle_phase_btw_compromise|E], during this $game_concept_struggle_phase_phase$, relations between the Wildlings grow so cordial that outsiders find their permissiveness difficult to parse.\n\nThis can't last forever, though, and abuses of trust will eventually bring the [btw_struggle|E] back around to the [struggle_phase_btw_compromise|E].]
- game_concept_struggle_phase_btw_conciliation_desc: "The product of a notable [struggle_phase_btw_compromise|E], during this $game_concept_struggle_phase_phase$, relations between the Wildlings grow so cordial that outsiders find their permissiveness difficult to parse.\n\nThis can't last forever, though, and abuses of trust will eventually bring the [btw_struggle|E] back around to the [struggle_phase_btw_compromise|E]."
-### TODO NOT-IN-ST: game_concept_btw_reclamation [AGOT: Beyond the Wall Reclamation]
- game_concept_btw_reclamation:0 "Beyond the Wall Reclamation"
-### TODO NOT-IN-ST: game_concept_btw_reclaiming [AGOT: Beyond the Wall Reclaiming]
- game_concept_btw_reclaiming: "Beyond the Wall Reclaiming"
-### TODO NOT-IN-ST: game_concept_btw_reclamations [AGOT: Beyond the Wall Reclamations]
- game_concept_btw_reclamations: "Beyond the Wall Reclamations"
-### TODO NOT-IN-ST: game_concept_btw_reclamation_desc [AGOT: This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [btw_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy.]
- game_concept_btw_reclamation_desc: "This is a special type of [war|E] available to [struggle_involved|E] [rulers|E] of the [btw_struggle|E].\n\nThe attacker aims to conquer a [duchy|E] which contains any [struggle_involved|E] [counties|E] held by an [struggle_interloper|E] or [struggle_uninvolved|E] [ruler|E], or [vassalize|E] them if they hold no land outside that Duchy."
-### TODO NOT-IN-ST: game_concept_secure_btw_foothold_decision [AGOT: $secure_btw_foothold_decision_title$]
- game_concept_secure_btw_foothold_decision: "$secure_btw_foothold_decision_title$"
-### TODO NOT-IN-ST: game_concept_secure_btw_foothold_decision_desc [AGOT: A [decision|E] that allows a non-[struggle_involved|E] [ruler|E] to end the [btw_struggle|E].]
- game_concept_secure_btw_foothold_decision_desc: "A [decision|E] that allows a non-[struggle_involved|E] [ruler|E] to end the [btw_struggle|E]."
+
+ found_empire_decision_not_part_of_btw_struggle:0 "$btw_struggle$ içinde [struggle_uninvolved|E]'sin"
+
+ FORM_BTW_MUST_END_STRUGGLE_TRIGGER:0 "[btw_struggle|E] çözülmeden $e_beyond_the_wall$ kurulamaz"
+
+ game_concept_struggle_phase_btw_opportunity:0 "Fırsat Evresi"
+
+ game_concept_struggle_phase_btw_opportunity_desc:0 "[struggle_phase_btw_conciliation|E] sırasındaki görece huzurlu bir arada yaşama döneminin ardından, rehavet baş gösterir. Herkes işlerin sadece #EMP yürüyeceğini#! rahatça varsar ve bu da daha kurnaz [characters|E]'in saflıklarından faydalanmasına olanak tanır.\n\nNihayetinde, taze suistimaller ya [struggle_phase_btw_hostility|E]'e tırmanmaya yol açar ya da kurnaz siyaset [struggle_phase_btw_conciliation|E] yoluyla tedirgin bir dengeye ulaşır."
+
+ game_concept_struggle_phase_btw_hostility:0 "Düşmanlık Evresi"
+
+ game_concept_struggle_phase_btw_hostility_desc:0 "Bu $game_concept_struggle_phase_phase$'de gerilim yükselir ve sinirler gerilir. [struggle_phase_btw_opportunity|E] sırasındaki tekrarlanan kötülük eylemleri ve büyüyen yanlış anlamalar, farklı [cultures|E]'e sahip [characters|E]'e karşı yükselen bir nefrete yol açmıştır.\n\nAncak böylesi bir kan dökücülük sonsuza dek süremez. Nihayetinde, ister daha sakin kafalar ister basit bir yorgunluk, duvarın ötesindeki toprakları [struggle_phase_btw_compromise|E]'e getirir."
+
+ game_concept_struggle_phase_btw_compromise:0 "Uzlaşma Evresi"
+
+ game_concept_struggle_phase_btw_compromise_desc:0 "[struggle_phase_btw_hostility|E] mücadelesinden duyulan bıkkınlık ya da [struggle_phase_btw_conciliation|E] sırasındaki hünerli tırmanış sayesinde, $game_concept_struggle_phase_btw_compromise$, Yabanıllar arasında büyüyen bir uyumu temsil eder. Farklılıklar bir kenara bırakılır ve ortak tarih ile miras, eski hasımları birbirine bağlar.\n\nDuvarın ötesindeki topraklar bir yol ayrımında durur: çatışmalar yeniden baş gösterirse, [struggle_phase_btw_opportunity|E] onları bekliyor."
+
+ game_concept_struggle_phase_btw_conciliation:0 "Yatışma Evresi"
+
+ game_concept_struggle_phase_btw_conciliation_desc:0 "Kayda değer bir [struggle_phase_btw_compromise|E]'in ürünü olarak, bu $game_concept_struggle_phase_phase$ sırasında Yabanıllar arasındaki ilişkiler o kadar samimi bir hal alır ki dışarıdakiler bu hoşgörüyü anlamakta güçlük çeker.\n\nAncak bu sonsuza dek süremez ve güven suistimalleri nihayetinde [btw_struggle|E]'i yeniden [struggle_phase_btw_compromise|E]'e geri getirir."
+
+ game_concept_btw_reclamation:0 "Duvar Ötesi Geri Kazanım"
+
+ game_concept_btw_reclaiming:0 "Duvar Ötesi Geri Kazanma"
+
+ game_concept_btw_reclamations:0 "Duvar Ötesi Geri Kazanımlar"
+
+ game_concept_btw_reclamation_desc:0 "Bu, [btw_struggle|E]'in [struggle_involved|E] [rulers|E]'ine sunulan özel bir [war|E] türüdür.\n\nSaldırgan, bir [struggle_interloper|E] ya da [struggle_uninvolved|E] [ruler|E] tarafından tutulan herhangi bir [struggle_involved|E] [counties|E] içeren bir [duchy|E] fethetmeyi amaçlar; eğer o Dükalık dışında toprakları yoksa onları [vassalize|E] eder."
+
+ game_concept_secure_btw_foothold_decision:0 "$secure_btw_foothold_decision_title$"
+
+ game_concept_secure_btw_foothold_decision_desc:0 "[btw_struggle|E]'i sona erdirmesine olanak tanıyan, [struggle_involved|E] olmayan bir [ruler|E] için bir [decision|E]."

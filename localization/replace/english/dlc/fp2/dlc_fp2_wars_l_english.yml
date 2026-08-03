@@ -14,12 +14,12 @@
  border_raid_building_tt:0 "Bir [building|E] da yok edilebilir."
  border_raid_warning_tt:0 "@warning_icon! #X Herhangi bir [title|E] el değiştirmeyecek.#!"
  border_raid_message_title:0 "Sınır Kontluğu Yağmalandı"
-### TODO AGOT-CHANGED: FP2_EXPEL_INTERLOPER_CB_NAME [AGOT: [btw_reclamation|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier] | TR: [DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [iberian_reclamation|E]]
- FP2_EXPEL_INTERLOPER_CB_NAME:0 "[btw_reclamation|E] against [DEFENDER.GetPrimaryTitle.GetNameNoTier] "
-### TODO AGOT-CHANGED: FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME [AGOT: [btw_reclamation|E] of [TITLE.GetBaseNameNoTier] | TR: [TITLE.GetBaseNameNoTier] Topraklarında [iberian_reclamation|E]]
- FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[btw_reclamation|E] of [TITLE.GetBaseNameNoTier]"
-### TODO AGOT-CHANGED: FP2_EXPEL_INTERLOPER_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] of [TITLE.GetBaseNameNoTier] | TR: [TITLE.GetBaseNameNoTier] Topraklarında [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] için [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][iberian_reclamation|E]]
- FP2_EXPEL_INTERLOPER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] [btw_reclamation|E] of [TITLE.GetBaseNameNoTier]"
+
+ FP2_EXPEL_INTERLOPER_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [iberian_reclamation|E]"
+
+ FP2_EXPEL_INTERLOPER_CB_SPECIFIC_NAME:0 "[TITLE.GetBaseNameNoTier] Topraklarında [iberian_reclamation|E]"
+
+ FP2_EXPEL_INTERLOPER_WAR_NAME:0 "[TITLE.GetBaseNameNoTier] Topraklarında [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] için [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][iberian_reclamation|E]"
  FP2_EXPEL_INTERLOPER_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  iberian_reclamation_cb_victory_desc_attacker_vassalize:0 "[defender.GetShortUIName|U] vasallaştırılacak"
  iberian_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] sizi vasallaştıracak"
@@ -27,8 +27,8 @@
  iberian_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Üzerinde savaşılan, [struggle_uninvolved|E] karakterlerin ve [duchy|E] dışarısında toprağı olanların [Concept( 'holders', 'sahip' )|E] olduğu üzerinde savaşılan [Concept( 'counties', 'Kontlukları' )|E] alacaksınız.\n"
  iberian_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U], hedef [Concept( 'duchy', 'düklükteki' )|E] [Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' adlı kişinin ' )][struggle_involved|E] düşük [Concept( 'rank', 'kademeli' )|E] [Concept( 'vassals', 'vasallarını' )|E]#E [Select_CString( defender.IsLocalPlayer, 'zın', 'n' )]#! [Concept( 'liege', 'Süzereni' )|E] olacak."
  iberian_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] [struggle_uninvolved|E] karakterlerin ve [duchy|E] dışarısında toprağı olanların [Concept( 'holders', 'sahip' )|E] olduğu üzerinde savaşılan [Concept( 'counties', 'Kontlukları' )|E] alacak\n"
-### TODO AGOT-CHANGED: fp2_expel_interloper [AGOT: [btw_reclamation|E] | TR: [iberian_reclamation|E]]
- fp2_expel_interloper:0 "[btw_reclamation|E]"
+
+ fp2_expel_interloper:0 "[iberian_reclamation|E]"
  iberian_reclamation_cb_white_peace_desc_vassalize:0 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' ' )][independent|E] kalmaya devam edecek[Select_CString( defender.IsLocalPlayer, 'siniz', '' )]"
  iberian_reclamation_cb_white_peace_desc_conquer:0 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, 'Üzerinde', ' üzerinde' )] savaşılan [Concept( 'titles', 'Unvanlara' )|E] sahip olmaya devam edecek[Select_CString( defender.IsLocalPlayer, 'siniz', '' )]"
  iberian_reclamation_cb_defeat_desc_vassalize:0 "$iberian_reclamation_cb_white_peace_desc_vassalize$"

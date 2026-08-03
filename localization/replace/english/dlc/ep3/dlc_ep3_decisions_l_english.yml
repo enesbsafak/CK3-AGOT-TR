@@ -67,8 +67,8 @@
  ep3_decisions_event.0002.e: "[sacked_artifact.GetNameNoTooltip] yakılsın ve ganimetler paylaşılsın."
  ep3_decisions_event.0002.e.tt: "Herkes zaferin parçası olduğunu ve düşmanın rezil rüsva oluşunu hissetmeli!"
  ep3_decisions_event.0003.t: "$ep3_decisions_event_triumph$ [ROOT.Char.Custom('TriumphReligiousLocationCapitalized')]"
-### TODO AGOT-ONLY: ep3_decisions_event.0003.desc [AGOT: ]
- ep3_decisions_event.0003.desc: ""Humans are fragile beings, and even the greatest of victories disappears in front of the greatness of [ROOT.Char.GetFaith.HighGodName]," I think to myself somberly as I step through the doors. I am immediately struck by the majesty and grandeur of the building.\n\nThe people will assuredly appreciate a humble and devoted gesture from me as a corollary to my shining victory over [triumph_enemy_defeated.GetTitledFirstName]."
+
+ ep3_decisions_event.0003.desc:0 ""İnsanlar kırılgan varlıklardır ve en büyük zaferler bile [ROOT.Char.GetFaith.HighGodName]'in yüceliği karşısında yok olur," diye düşünüyorum kendi kendime, kapılardan içeri adım atarken. Binanın ihtişamı ve görkemi anında gözlerimi kamaştırıyor.\n\nİnsanlar, [triumph_enemy_defeated.GetTitledFirstName]'e karşı kazandığım parlak zaferin bir uzantısı olarak benden alçakgönüllü ve bağlılık dolu bir jesti kesinlikle takdir edeceklerdir.""
  ep3_decisions_event.0003.desc_no_war: "Kibir kudretlinin ve ihtişamlının en büyük düşmanıdır.\n\nAncak daha da kötü olan tebaanda #EMP kibirli olduğun izlenimi#! uyandırmaktır! Neticede [ROOT.Char.GetTitleAsNameNoTooltip|U] [ROOT.Char.GetFaith.HighGodNamePossessive] yeryüzündeki temsilcisinden başkası değil. Kudret, zenginlik ve ihtişam İlah'ın görkeminin bir yansımasısıdr, bu nedenle hiyerarşiye saygı gösterilmesi önemlidir."
  ep3_decisions_event.0003.desc_hostage: "Tam da bu yüzden [enemy_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] burada bana katılsın istedim."
  ep3_decisions_event.0003.a: "[ROOT.Char.GetFaith.HighGodNameAlternate] lütfunu bağrıma basıyorum."
@@ -121,10 +121,10 @@
  ep3_decisions_event.0007.desc: "Böylece [Glossary('hoi polloi', 'HOI_POLLOI_GLOSS' )] bir kez daha yatıştırılmış oldu. Kudretim ve gücümün meşruiyetiyse sağlamlaştırıldı.\n\n"
  ep3_decisions_event.0007.hippodrome: "Hipodrom'dan ayrılmak üzere hareket ettiğimde halkımın tezahüratları ortalığı inletip geçmiş imparatorların zaferlerine tanıklık etmiş antik taşlardan yankılanıyordu. Tarihin yükünü omuzlarımda hissettim, bütün Konstantinopolis'in gözleri imparatorlarının üzerindeydi.\n\nBugün batmakta olan güneşin parıltısı altındaki zafer törenim yalnızca bir kutlama değil, aynı zamanda imparatorluğun ebedî ruhunun ve kudretinin delili.\n\n"[Glossary( 'Aien aristeuein', 'TRIUMPH_HIPPODROME_CONC_GLOSS')]." diye fısıldadım."
  ep3_decisions_event.0007.hagia_sophia: "Ayasofya'nın kutsal duvarlarının içerisinde vakur bir görkemle çevriliyim. Halkımın şarkıları ahenk içinde, bu engin ve kutsal mekânda yankılanıyor. Bu mimarlık harikasının ilahi bağrında kendimden çok daha yüce bir şeyle bağlantılı olduğumu hissediyorum. \n\nBu kutsal mekândaki zafer törenim dünyevi gücü aşıyor. Hükmümün kutsanışını, inancın ve liderliğin bir araya gelişini temsil ediyor.\n\nHeybetli kubbenin altında durduğum esnada yalnızca Konstantinopolis'in imparatoru değilim, ayrıca onun ruhani kalbinin de emanetçisiyim.\n\n"[Glossary( 'Hyper tes basileias soterias', 'TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS')]," diye fısıldadım."
-### TODO AGOT-ONLY: TRIUMPH_HIPPODROME_CONC_GLOSS [AGOT: ]
- TRIUMPH_HIPPODROME_CONC_GLOSS: ""#bold Aien aristeuein#!" is an ancient Greek phrase from Homer's #EMP Iliad#! meaning "Ever to excel.""
-### TODO AGOT-ONLY: TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS [AGOT: ]
- TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS: ""#bold Hyper tes basileias soterias#!" is a common formulation in Ancient Greek meaning "For the salvation of the empire.""
+
+ TRIUMPH_HIPPODROME_CONC_GLOSS:0 ""#bold Aien aristeuein#!" Homeros'un #EMP İlyada#! eserinden, "Her zaman en iyisi olmak" anlamına gelen eski bir Yunan deyimidir.""
+
+ TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS:0 ""#bold Hyper tes basileias soterias#!" Antik Yunancada "İmparatorluğun kurtuluşu için" anlamına gelen yaygın bir ifadedir.""
  ep3_decisions_event.0007.a: "Çok yaşa [ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]."
  ep3_decisions_event.0007.a.tt: "Zafer töreniniz sona erdi"
  ep3_decisions_event.1000.t: "[GetCourtPositionType('charioteer_court_position').GetNameNoTooltip|U] Ara"
@@ -190,8 +190,8 @@
  ep3_decisions_event.2010.desc_skilled: "\n\n[Select_CString(confirmation_vassal.IsFemale, 'Kadın', 'Adam' )] [confirmation_vassal.Custom('ComplimentAdjective')] bir şekilde ayinleri gerçekleştirdi. Her ne politikayı benimserse benimsesin, kalbinde her ne yatarsa yatsın: [confirmation_vassal.GetTitledFirstNameNoTooltip], [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] için kıymetli birisi."
  ep3_decisions_event.2010.desc_incompetent: "\n\nDuyumlarıma göre şu an [second.Custom('quirk_neg_adverb')] ve beceriksiz birinin atanmasını onaylıyorum. Fakat [confirmation_vassal.GetTitledFirstNameNoTooltip], veremeyeceği kusursuz hizmet için yemin ederken onu reddedip kötü olduğunu söylemek pek işe yaramayacaktır..."
  ep3_decisions_event.2010.desc_generic_outro: "\n\n[confirmation_vassal.GetTitledFirstNameNoTooltip] içtenlikle eğildi, sembolik otorite asasını aldı ve [ROOT.Char.GetTitleAsNameNoTooltip] için sadakatle hizmet edeceğine yemin etti." 
-### TODO AGOT-ONLY: ep3_decisions_event.2010.a [AGOT: ]
- ep3_decisions_event.2010.a: ""Govern well, [confirmation_vassal.GetTitleAsNameNoTooltip].""
+
+ ep3_decisions_event.2010.a:0 ""İyi yönet, [confirmation_vassal.GetTitleAsNameNoTooltip].""
  ep3_decisions_event.2011.desc: "[confirmation_liege.GetCapitalLocation.GetTitle.GetNameNoTier] ana sarayındaki [confirmation_liege.Custom('GetThroneRoom')] içinde [confirmation_liege.GetTitledFirstNameRegnal], [confirmation_liege.GetFaith.HighGodNamePossessive] Dünya'daki temsilcisi olarak ihtişam içinde oturuyor.\n\n"
  ep3_decisions_event.2011.desc_child: "Diğer üst düzey görevlilerin arasında suratı sivilceli bir gencin tahtında mızmızlanıp kıpırdandığını görmek... epey tuhaftı."
  ep3_decisions_event.2011.desc_heretic: "[confirmation_liege.GetCapitalLocation.GetCounty.GetFaith.GetAdherentName] topraklarındaki [confirmation_liege.GetPrimaryTitle.GetTierAsName] kâfirler tarafından yönetiliyor. Saraydaki [confirmation_liege.GetFaith.PriestNeuterPlural] ve ileri gelen papazlar arasındaki gergin bir hava var."
@@ -203,22 +203,22 @@
  ep3_decisions_event.2011.desc_hate: "[confirmation_liege.GetTitleAsNameNoTooltip] bana [second.Custom('quirk_neg_adverb')] bir şekilde hitap ediyor, küçümseyici gözlerle bakıyor.\n\n"
  ep3_decisions_event.2011.desc_love: "[confirmation_liege.GetTitleAsNameNoTooltip] sıcak sesiyle bana seslendi ve tören kıyafetlerimi sundu.\n\n"
  ep3_decisions_event.2011.desc_meh: "[confirmation_liege.GetTitleAsNameNoTooltip] yeni atananlara birer birer tören kıyafetlerini sunup yeminlerini dinliyordu ki sıra bana geldi.\n\n"
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_civilian [AGOT: ]
- ep3_decisions_event.2011.desc_theme_civilian: ""The peace of [confirmation_liege.GetFaith.PositiveAfterLife] may yet live in [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]," says [confirmation_liege.GetSheHe], "it is a garden, to be kindly tended.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_military [AGOT: ]
- ep3_decisions_event.2011.desc_theme_military: ""You are to sharpen the sword of [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]," says [confirmation_liege.GetSheHe], "and have it be wielded only by the righteous.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_frontier [AGOT: ]
- ep3_decisions_event.2011.desc_theme_frontier: ""Sleep little," commands [confirmation_liege.GetSheHe], "Stand your ground. [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] is where all that is [confirmation_liege.GetPrimaryTitle.GetAdjective] lives or dies.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_imperial [AGOT: ]
- ep3_decisions_event.2011.desc_theme_imperial: ""In [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]," says [confirmation_liege.GetSheHe]," you are to be the image of the [confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip] itself. Few, save the wicked, may know such liberties.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_naval [AGOT: ]
- ep3_decisions_event.2011.desc_theme_naval: ""In the salt of [confirmation_vassal.GetPrimaryTitle.GetNameNoTierPossessive] shores," says [confirmation_liege.GetSheHe], "smell the blood of this [confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]; see the tears of her widows.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_small [AGOT: ]
- ep3_decisions_event.2011.desc_theme_small: ""A modest jurisdiction, [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]" says [confirmation_liege.GetSheHe], "but a worthy one.""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_big [AGOT: ]
- ep3_decisions_event.2011.desc_theme_big: ""A vast domain like [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]," says [confirmation_liege.GetSheHe], between formalities, "a mighty beast, to be tamed only by the right master...""
-### TODO AGOT-ONLY: ep3_decisions_event.2011.desc_theme_balanced [AGOT: ]
- ep3_decisions_event.2011.desc_theme_balanced: ""Your office is granted by [confirmation_liege.GetFaith.HighGodName] and your [confirmation_liege.GetTitleAsNameNoTooltip]," says [confirmation_liege.GetSheHe], "Remember this, and govern [confirmation_vassal.GetPrimaryTitle.GetNameNoTier] well.""
+
+ ep3_decisions_event.2011.desc_theme_civilian:0 ""[confirmation_liege.GetFaith.PositiveAfterLife] huzuru [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]'de yaşayabilir," der [confirmation_liege.GetSheHe], "o bir bahçe, şefkatle bakılmalı.""
+
+ ep3_decisions_event.2011.desc_theme_military:0 ""[confirmation_vassal.GetPrimaryTitle.GetNameNoTier]'in kılıcını bileyeceksin," der [confirmation_liege.GetSheHe], "ve o kılıcı yalnızca doğru olanlar kuşanacak.""
+
+ ep3_decisions_event.2011.desc_theme_frontier:0 ""Az uyu," diye emreder [confirmation_liege.GetSheHe], "Mevzini koru. [confirmation_vassal.GetPrimaryTitle.GetNameNoTier], [confirmation_liege.GetPrimaryTitle.GetAdjective] olan her şeyin yaşadığı ya da öldüğü yerdir.""
+
+ ep3_decisions_event.2011.desc_theme_imperial:0 ""[confirmation_vassal.GetPrimaryTitle.GetNameNoTier]'de," der [confirmation_liege.GetSheHe], "[confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]'in ta kendisinin bir yansıması olacaksın. Kötüler dışında çok az kişi bu tür ayrıcalıklar bilir.""
+
+ ep3_decisions_event.2011.desc_theme_naval:0 ""[confirmation_vassal.GetPrimaryTitle.GetNameNoTierPossessive] kıyılarının tuzunda," der [confirmation_liege.GetSheHe], "bu [confirmation_liege.GetPrimaryTitle.GetTierAsNameNoTooltip]'in kanını kokla; dullarının gözyaşlarını gör.""
+
+ ep3_decisions_event.2011.desc_theme_small:0 ""Mütevazı bir yetki alanı, [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]" der [confirmation_liege.GetSheHe], "ama saygıdeğer bir tane.""
+
+ ep3_decisions_event.2011.desc_theme_big:0 ""[confirmation_vassal.GetPrimaryTitle.GetNameNoTier] gibi uçsuz bucaksız bir diyar," der [confirmation_liege.GetSheHe], formalitelerin arasında, "kudretli bir canavar; yalnızca doğru ustanın ehlileştirebileceği...""
+
+ ep3_decisions_event.2011.desc_theme_balanced:0 ""Makamın [confirmation_liege.GetFaith.HighGodName] ve [confirmation_liege.GetTitleAsNameNoTooltip] tarafından verilmiştir," der [confirmation_liege.GetSheHe], "Bunu unutma ve [confirmation_vassal.GetPrimaryTitle.GetNameNoTier]'i iyi yönet.""
  ep3_decisions_event.2011.desc_outro: "\n\nGerekli cevapları verdim. Süzerenimin önünde içtenlikle eğilip eyalet otoritesi asasını elime aldım."
  ep3_decisions_event.2011.a: "Selam olsun size [confirmation_liege.GetTitleAsNameNoTooltip]." 
  ep3_decisions_event.2080.t: "$admin_confirmation_event_header$ Geçersiz"
@@ -435,12 +435,12 @@
  valid_for_conversion_tt: "\n$EFFECT_LIST_BULLET$[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] [Concept('faith', 'Mezhebine')|E] mensup\n$EFFECT_LIST_BULLET$[Concept('war', 'Savaşta')|E] değil\n$EFFECT_LIST_BULLET$Daha önce bir din değiştirme teşebbüsünü şiddete başvurarak reddetmedi"
  negotiated_alliance_delay_tt: "[evangelizer.GetNameNoTooltip] süzerenine döner dönmez ittifak yürürlüğe girecek."
  ep3_decisions_event.4025.a.tt: "Yeni din değiştirmiş [pagan.GetTitledFirstName] ile [alliance|E] kuracaksınız."
-### TODO AGOT-ONLY: ep3_decisions_event.4023.t [AGOT: ]
- ep3_decisions_event.4023.t: "" #AI event, leave empty
-### TODO AGOT-ONLY: ep3_decisions_event.4023.desc [AGOT: ]
- ep3_decisions_event.4023.desc: "" #AI event, leave empty
-### TODO AGOT-ONLY: ep3_decisions_event.4023.a [AGOT: ]
- ep3_decisions_event.4023.a: "" #AI event, leave empty
+
+ ep3_decisions_event.4023.t:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ep3_decisions_event.4023.desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ep3_decisions_event.4023.a:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  recreate_byzantine_empire_decision: "Bizans İmparatorluğu'nu Yeniden Kur"
  recreate_byzantine_empire_decision_desc: "[GetTitleByKey('e_byzantium').GetName] trajik bir şekilde parçalansa da mücadeleye devam ettik. Ne de olsa dünya üzerinde tek bir [Glossary( 'Romaios', 'ROMAIOS_GLOSS' )] kalsa dahi Roma da var olmaya devam edecektir.\n\nBir gün meşru bir hükümdar yeniden Konstantinopolis'in tahtında oturacak ve İmparatorluk yeniden yükselecek."
  recreate_byzantine_empire_decision_tooltip: "[GetTitleByKey('e_byzantium').GetName] unvanını oluşturun ve antik geleneklerini canlandırın"
@@ -679,8 +679,8 @@
  ep3_laamp_decision_event.1100.a: "Hatıralarım yalnızca bana ait."
  ep3_laamp_decision_event.1100.a.flavor: "Ben istediğim kadar konuşayım, dinleyici neyi isterse onu aklında tutar."
  ep3_laamp_decision_event.1100.a.desc: "[THIS.Var('poi_visited').GetValue] $game_concept_point_of_interest$ sizin tarafınızdan ziyaret edilmiş olduğundan:"
-### TODO AGOT-ONLY: ep3_laamp_decision_event.1100.b [AGOT: ]
- ep3_laamp_decision_event.1100.b: ""I have not told half of what I saw...""
+
+ ep3_laamp_decision_event.1100.b:0 ""Gördüklerimin yarısını bile anlatmadım...""
  ep3_laamp_decision_event.1100.b.flavor: "...çünkü biliyorum ki kimse bana inanmayacak."
  ep3_laamp_decision_event.1100.b.desc: "#weak Bu eser #color_yellow gelecek sahiplerine#! [lifestyle_experience|E] verecek, niteliği ziyaret edilen her 12 $game_concept_point_of_interest$ için artar.#!"
  ep3_laamp_decision_event.1100.c: "Kalemim şimdilik kuru kalsın."
@@ -863,8 +863,8 @@
  admin_desire_throne_house_desc: "[GetPlayer.GetHouse.GetName] [Concept( 'house', 'Hanesindeki' )|E] herkesin taht için rekabet etmeye izni vardır."
  admin_desire_throne_house_tooltip: "$admin_desire_throne_house_desc$"
  knight_errant_decision: "[ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')|U] Armalı $knight_culture_player_no_tooltip$"
-### TODO AGOT-CHANGED: knight_errant_decision_desc [AGOT: It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes mounted on a gilded [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] to rescue those in danger.\n\nA noble steed of radiant sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ sat astride. | TR: Anlatılana göre gizemli bir $knight_culture_player_no_tooltip_lowercase$ bir sürü [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] tarafından çekilen bir tekneye binip başı dertte olanları kurtarırmış.\n\nÜzerinde heybetli bir $knight_culture_player_no_tooltip_lowercase$ oturan inci gibi bir tekne.]
- knight_errant_decision_desc: "It is said that a mysterious $knight_culture_player_no_tooltip_lowercase$ comes mounted on a gilded [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] to rescue those in danger.\n\nA noble steed of radiant sheen, and a stately $knight_culture_player_no_tooltip_lowercase$ sat astride."
+
+ knight_errant_decision_desc:0 "Anlatılana göre gizemli bir $knight_culture_player_no_tooltip_lowercase$ bir sürü [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] tarafından çekilen bir tekneye binip başı dertte olanları kurtarırmış.\n\nÜzerinde heybetli bir $knight_culture_player_no_tooltip_lowercase$ oturan inci gibi bir tekne."
  knight_errant_decision_tooltip: "[GetTrait('knight_errant').GetName( GetNullCharacter )] olun"
  knight_errant_decision_confirm: "Alanının en iyisi."
  knight_errant_decision_effect_tt: "$knight_errant_decision_tooltip$"
@@ -879,16 +879,16 @@
  task_contract_justicar_contract_tracker_effect.tt: "[GetPlayer.CustomFixedRandom('GetKnightErrantAnimal')|U] Armalı $knight_culture_player_no_tooltip$ [Concept('decision', 'Kararında')|E] ilerleme kaydedeceksiniz"
  knight_errant_decision_armor_tt: ""Altın [GetPlayer.CustomFixedRandom('GetKnightErrantAnimal')|U] Arması" Zırhı türünde [artifact|E] kazanacaksınız"
  ep3_decisions_event.5001.t: "[ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')|U]$knight_culture_player_no_tooltip$"
-### TODO AGOT-ONLY: ep3_decisions_event.5001.desc.spouse [AGOT: ]
- ep3_decisions_event.5001.desc.spouse: ""The most noble of [ROOT.Char.GetHerHis] kind," my dear [adoring_fan.GetFirstNamePossessiveNoTooltip] voice is followed by a gentle kiss on my shoulder. "I have been looking everywhere for you."\n\n"They are telling senseless stories about you in the camp," [adoring_fan.GetSheHe] leans over to whisper,"
-### TODO AGOT-ONLY: ep3_decisions_event.5001.desc.intro [AGOT: ]
- ep3_decisions_event.5001.desc.intro: ""The most noble of [ROOT.Char.GetHerHis] kind," [adoring_fan.GetFirstNamePossessiveNoTooltip] voice startles me. "I have been looking everywhere for you."\n\n"They are telling senseless stories about you in the camp," [adoring_fan.GetSheHe] lets out a chuckle,"
-### TODO AGOT-ONLY: ep3_decisions_event.5001.desc [AGOT: ]
- ep3_decisions_event.5001.desc: ""they say that you once crossed a bridge made of swords, that you entered an enchanted forest where you rescued a fair [dummy_opposite_gender.GetWomanMan]... that a marvelous [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] gave you its miraculous coat."\n\n[adoring_fan.GetSheHe|U] signals a servant to bring over a pearled armor.\n\n"A gift, from all those that you have helped.""
-### TODO AGOT-ONLY: ep3_decisions_event.5001.a [AGOT: ]
- ep3_decisions_event.5001.a: ""And still I have not helped enough.""
-### TODO AGOT-ONLY: ep3_decisions_event.5001.b [AGOT: ]
- ep3_decisions_event.5001.b: ""I can offer #EMP numerous#! kinds of help.""
+
+ ep3_decisions_event.5001.desc.spouse:0 ""Türünün en asili," sevgili [adoring_fan.GetFirstNamePossessiveNoTooltip] sesini omzuma nazik bir öpücük izliyor. "Seni her yerde aradım."\n\n"Kampta senin hakkında saçma sapan hikâyeler anlatıyorlar," [adoring_fan.GetSheHe] eğilip fısıldıyor,""
+
+ ep3_decisions_event.5001.desc.intro:0 ""Türünün en asili," [adoring_fan.GetFirstNamePossessiveNoTooltip] sesi beni irkiltiyor. "Seni her yerde aradım."\n\n"Kampta senin hakkında saçma sapan hikâyeler anlatıyorlar," [adoring_fan.GetSheHe] bir kahkaha atıyor,""
+
+ ep3_decisions_event.5001.desc:0 ""kılıçlardan yapılmış bir köprüyü geçtiğini, güzel bir [dummy_opposite_gender.GetWomanMan]'i kurtardığın büyülü bir ormana girdiğini... harika bir [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')]'in sana mucizevi kürkünü verdiğini söylüyorlar."\n\n[adoring_fan.GetSheHe|U] bir hizmetkâra inci işlemeli bir zırh getirmesi için işaret eder.\n\n"Bir hediye, yardım ettiğin herkesten.""
+
+ ep3_decisions_event.5001.a:0 ""Ve yine de yeterince yardım etmedim.""
+
+ ep3_decisions_event.5001.b:0 ""Sayısız türde yardım sunabilirim.""
  ep3_courteous_knight_modifier: "Nazik Şövalye"
  ep3_courteous_knight_modifier_desc: "Bu karakter aşkın hayattaki en büyük neşe kaynağı olduğunu biliyor."
  ep3_valiant_knight_modifier: "Yürekli Şövalye"
@@ -905,12 +905,12 @@
  legend_chapter_famous_deed_swan_knight: "Alımlı bir kız pis bir şövalye tarafından tehdit ediliyordu ancak [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] onu tek bir darbede yere serdi ve yerdeki kan birikintisinden bir [ROOT.Legend.GetProperty( 'friendly_animal' ).GetFlagName] doğdu."
  legend_chapter_conclusion_swan_knight: "Kıza şöyle dedi: 'bana adımı sorma, çünkü o bana ait değil'."
  ep3_decisions_event.5002.t: "Ailenin Yüz Karası"
-### TODO AGOT-ONLY: ep3_decisions_event.5002.desc [AGOT: ]
- ep3_decisions_event.5002.desc: ""I would not have imagined you to suffer such disgrace meekly." A horse stops right by our camp. I recognize its rider as my #EMP dear#! [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('my_rival'))], [my_rival.GetTitledFirstName].\n\n"What has gotten into you? Playing $knight_culture_player_plural_no_tooltip_lowercase$, pretending to be living in a crib tale," [my_rival.GetSheHe] dismounts, spitting on the ground.\n\n"When are you going to come to your senses? Get yourself some land, before you continue to dishonor the good name of our family.""
-### TODO AGOT-ONLY: ep3_decisions_event.5002.a [AGOT: ]
- ep3_decisions_event.5002.a: ""Maybe it is time to settle down...""
-### TODO AGOT-ONLY: ep3_decisions_event.5002.b [AGOT: ]
- ep3_decisions_event.5002.b: ""I have no time for dishonorable [my_rival.GetWomenMen].""
+
+ ep3_decisions_event.5002.desc:0 ""Bu rezilliği bu kadar uysalca kabul edeceğini hayal edemezdim." Kampımızın hemen yanında bir at duruyor. Binicisini, sevgili #EMP düşmanım#! [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('my_rival'))], [my_rival.GetTitledFirstName] olarak tanıyorum.\n\n"Ne oldu sana? $knight_culture_player_plural_no_tooltip_lowercase$ oynayıp bir beşik masalında yaşıyormuş gibi davranıyorsun," [my_rival.GetSheHe] attan iner, yere tükürür.\n\n"Ne zaman aklını başına toplayacaksın? Ailemizin iyi adını lekelemeye devam etmeden önce kendine bir toprak parçası edin.""
+
+ ep3_decisions_event.5002.a:0 ""Belki de yerleşme zamanı gelmiştir...""
+
+ ep3_decisions_event.5002.b:0 ""Onursuz [my_rival.GetWomenMen]'ler için vaktim yok.""
  rival_called_me_a_disgrace: "[Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' ' )][TARGET_CHARACTER.GetShortUIName|U] tarafından ailenin yüz karası olmakla suçlandı[Select_CString(CHARACTER.IsLocalPlayer, 'nız', '' )]"
  rival_called_me_a_disgrace_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' ' )][CHARACTER.GetShortUIName|U] tarafından ailenin yüz karası olmakla suçlandı[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'nız', '' )]"
  ep3_black_sheep: "Yüz Karası"
@@ -925,14 +925,14 @@
  commission_artifact_decision_option_court_icon_small_desc:0 "[AddTextIf( ROOT.Char.GetInventory.HasEquippedArtifactsInSlotType( 'wall_small' ), Concatenate( 'Şu anda sergilenmiş:\n', ROOT.Char.GetInventory.GetEquippedArtifactsInSlotTypeString( 'wall_small', 'NEWLINE', 'NEWLINE', 'NEWLINE' ) ) )]"
  commission_artifact_decision_option_court_icon_small: "Küçük Duvar Halısı\n#low Sahip Olunan: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString( 'wall_small' )]#!"
  artifact_wall_court_icon_large_name: "Büyük İkon"
-### TODO AGOT-CHANGED: artifact_wall_court_icon_large_description [AGOT: An imposing icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting a solemn religious scene. | TR: Ortodoks kilisesinin geleneksel tarzında boyanmış bu azametli ikon önemli bir dinî sahneyi tasvir ediyor: [owner.Custom('RandomIconTopic')].]
- artifact_wall_court_icon_large_description: "An imposing icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting a solemn religious scene."
+
+ artifact_wall_court_icon_large_description:0 "Ortodoks kilisesinin geleneksel tarzında boyanmış bu azametli ikon önemli bir dinî sahneyi tasvir ediyor: [owner.Custom('RandomIconTopic')]."
  artifact_wall_court_icon_small_name: "Küçük İkon"
-### TODO AGOT-CHANGED: artifact_wall_court_icon_small_description [AGOT: A small but evocative icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting in vivid colors a religious scene. | TR: Ortodoks kilisesinin geleneksel tarzında boyamış küçük ama anımsatıcı olan bu ikon, dinî bir sahneyi capcanlı renklerle tasvir ediyor: [owner.Custom('RandomIconTopic')]]
- artifact_wall_court_icon_small_description: "A small but evocative icon, painted in the traditional [ROOT.Char.GetFaith.GetName] style, depicting in vivid colors a religious scene."
+
+ artifact_wall_court_icon_small_description:0 "Ortodoks kilisesinin geleneksel tarzında boyamış küçük ama anımsatıcı olan bu ikon, dinî bir sahneyi capcanlı renklerle tasvir ediyor: [owner.Custom('RandomIconTopic')]"
  artifact_trinket_icon_name: "Taşınabilir İkon"
-### TODO AGOT-CHANGED: artifact_trinket_icon_description [AGOT: A portable icon, painted in the [ROOT.Char.GetFaith.GetName] style, depicting a traditional religious scene. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn. | TR: Ortodoks kilisesinin geleneksel tarzında boyanmış bu taşınabilir ikon, dinî bir sahneyi tasvir ediyor: [owner.Custom('RandomIconTopic')]. Ufak tefek olmasına rağmen resimleri zarif, renkleri canlı ve ciddi bir tona sahip.]
- artifact_trinket_icon_description: "A portable icon, painted in the [ROOT.Char.GetFaith.GetName] style, depicting a traditional religious scene. Despite its diminutive size, the pictorial traits are neat, the colors are vivid, and the tone is solemn."
+
+ artifact_trinket_icon_description:0 "Ortodoks kilisesinin geleneksel tarzında boyanmış bu taşınabilir ikon, dinî bir sahneyi tasvir ediyor: [owner.Custom('RandomIconTopic')]. Ufak tefek olmasına rağmen resimleri zarif, renkleri canlı ve ciddi bir tona sahip."
  commission_icon_decision_effect: "İkon [Concept('artifact', 'Eseri')|E] üretmek için yerel bir ressam tutuldu"
  ep3_decisions_event.5000.t: "İkon Üretildi"
  ep3_decisions_event.5000.desc: "İkon siparişi verdiğim ressam olan [local_artisan.GetFirstName], emeğinin meyvesini bana sunmak üzere saraya döndü.\n\n"[ROOT.Char.GetFaith.HighGodName] tarafından kutsanan [ROOT.Char.GetTitleAsNameNoTooltip], [ROOT.Char.GetFaith.HighGodNameAlternate] tarafından bana bahşedilen yeteneklerle boyadığım bu dinî ikonu tevazuyla sunarım. Adanmışlık ve meşruluk yolunda size daima ilham olsun.""
@@ -953,8 +953,8 @@
  commission_icon_decision_tooltip: "Yerel bir ressama dinî ikon [Concept('artifact', 'Eseri')|E] siparişi verin"
  commission_icon_decision_confirm: "Ressam çağır"
  THEOTOKOS_GLOSS: ""Tanrının Annesi" Meryem. İkonografide bu tanım Bizans sanatının çok sevdiği bir sahneyi belirtir: Bebek İsa'yı emziren ve genelde kollarında tutan Meryem."
-### TODO AGOT-ONLY: PANTOKRATOR_GLOSS [AGOT: ]
- PANTOKRATOR_GLOSS: ""Christ Omnipotent" or "Ruler of All". Very common in byzantine iconography, it's a depiction of Jesus holding a New Testament in one hand, and blessing the on-lookers with the other."
+
+ PANTOKRATOR_GLOSS:0 ""Her Şeye Gücü Yeten" ya da "Hepsini Yöneten". Bizans ikonografisinde çok yaygın olan bu betimleme, bir elinde Yeni Ahit tutan, diğer eliyle izleyenleri kutsayan İsa'yı gösterir."
  hire_eunuch_decision: "$chief_eunuch_court_position$ Ara"
  hire_eunuch_decision_desc: "[GetCourtPositionType('chief_eunuch_court_position').GetDescription|U]"
  hire_eunuch_decision_tooltip: "Hizmetkârlarınız [GetCourtPositionType('chief_eunuch_court_position').GetName()] pozisyonu için uygun adaylar önerecek"
@@ -983,36 +983,36 @@
  push_heresy_as_state_faith_desc: "Rehberi olduğum mezhep [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip] üzerinde gittikçe yayılıyor. Artık [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] gücümüzü tanımalı ve [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip] için resmî mezhep olarak yegâne makul seçeneğin [ROOT.Char.GetFaith.GetName] olduğunun farkına varmalı!"
  push_heresy_as_state_faith_tooltip: "Süzereninize, mezhebinizi devlet mezhebi yapması için baskı uygulayın"
  try_to_push_faith_with_emperor_tt: "Süzereniniz talebinizi gözden geçirecek. Siyasi ve dinî konumunuz ne kadar güçlüyse talebinizin kabul edilme ihtimali o kadar yüksektir. Başarı ihtimalinizi arttırmak için [Concept('influence', 'Nüfuzunuzu')|E] ve [Concept('top_liege', 'Ana Süzereninizin')|E] [Concept('realm', 'Ülkesinde')|E] sizinle aynı sapkın [Concept('faith', 'Mezhebe')|E] mensup olan [Concept('vassals', 'Vasalların')|E] ve [Concept('counties', 'Kontlukların')|E] sayısını arttırın."
-### TODO AGOT-ONLY: ep3_decisions_event.5021.t [AGOT: ]
- ep3_decisions_event.5021.t: "" #This is an AI-only event
-### TODO AGOT-ONLY: ep3_decisions_event.5021.desc [AGOT: ]
- ep3_decisions_event.5021.desc: "" #This is an AI-only event
-### TODO AGOT-ONLY: ep3_decisions_event.5021.a [AGOT: ]
- ep3_decisions_event.5021.a: "" #This is an AI-only event
+
+ ep3_decisions_event.5021.t:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ep3_decisions_event.5021.desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ep3_decisions_event.5021.a:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  ep3_decisions_event.5021.a.tt: "Devlet Mezhebi Değiştirildi"
-### TODO AGOT-ONLY: ep3_decisions_event.5021.b [AGOT: ]
- ep3_decisions_event.5021.b: "" #This is an AI-only event
-### TODO AGOT-ONLY: ep3_decisions_event.5021.c [AGOT: ]
- ep3_decisions_event.5021.c: "" #This is an AI-only event
+
+ ep3_decisions_event.5021.b:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ep3_decisions_event.5021.c:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  ep3_decisions_event.5021.c.tt: "Devlet Mezhebi Değiştirilmedi"
  embrace_heresy_decision_confirm: "Sapkınlığı benimse"
  push_heresy_as_state_faith_confirm: "Baskı uygula"
  establish_silk_production_decision: "İpek İmalatı Yap"
-### TODO AGOT-CHANGED: establish_silk_production_decision_desc.boilerplate [AGOT: It would be an expensive venture, but with the proper resources and careful planning, we could establish our own silk production in our family Estate. | TR: Atalarımız çok uzak diyarlardan ilk ipek böceklerini kaçırıp Konstantinopolis'e getirdiğinden beri ipek imalatı ve ticareti her zaman imparatorluğun tekelinde olmuştur.]
- establish_silk_production_decision_desc.boilerplate: "It would be an expensive venture, but with the proper resources and careful planning, we could establish our own silk production in our family Estate."
-### TODO AGOT-CHANGED: establish_silk_production_decision_desc [AGOT: $establish_silk_production_decision_desc.boilerplate$ | TR: $establish_silk_production_decision_desc.boilerplate$\n\nPahalı bir serüven olacaktır ancak aile Malikânemizde kendi ipek imalatımızı yapmak için imparatorluktan özel izin satın alabiliriz.]
- establish_silk_production_decision_desc: "$establish_silk_production_decision_desc.boilerplate$"
-### TODO AGOT-CHANGED: establish_silk_production_decision_desc.emperor [AGOT: $establish_silk_production_decision_desc.boilerplate$ | TR: $establish_silk_production_decision_desc.boilerplate$\n\nİmparatorluk ailesinin reisi olarak kendime ve haleflerime imalat izni vermem bir el hareketime bakar.]
- establish_silk_production_decision_desc.emperor: "$establish_silk_production_decision_desc.boilerplate$"
-### TODO AGOT-CHANGED: establish_silk_production_decision_tooltip [AGOT: Unlock silk production buildings in your [estate|E] | TR: [Concept('estate', 'Malikânenizde')|E] ipek imalatı binalarının kilidini açmak için imparatorluk izni satın alın]
- establish_silk_production_decision_tooltip: "Unlock silk production buildings in your [estate|E]"
+
+ establish_silk_production_decision_desc.boilerplate:0 "Atalarımız çok uzak diyarlardan ilk ipek böceklerini kaçırıp Konstantinopolis'e getirdiğinden beri ipek imalatı ve ticareti her zaman imparatorluğun tekelinde olmuştur."
+
+ establish_silk_production_decision_desc:0 "$establish_silk_production_decision_desc.boilerplate$\n\nPahalı bir serüven olacaktır ancak aile Malikânemizde kendi ipek imalatımızı yapmak için imparatorluktan özel izin satın alabiliriz."
+
+ establish_silk_production_decision_desc.emperor:0 "$establish_silk_production_decision_desc.boilerplate$\n\nPahalı bir serüven olacaktır ancak aile Malikânemizde kendi ipek imalatımızı yapmak için imparatorluktan özel izin satın alabiliriz."
+
+ establish_silk_production_decision_tooltip:0 "[Concept('estate', 'Malikânenizde')|E] ipek imalatı binalarının kilidini açmak için imparatorluk izni satın alın"
  establish_silk_production_decision_confirm: "Ödemeyi gönder"
  unlocked_estate_silk_buildings: "[GetDomicileBuilding('silk_01').GetName] [estate|E] [Concept('building', 'Binasının')|E] kilidini açar"
  unlocked_estate_silk_buildings_t: "[GetDomicileBuilding('silk_01').GetName] Açıldı"
  has_unlocked_estate_silk: "Ya [GetDecisionWithKey('establish_silk_production_decision').GetName] [Concept('decision', 'Kararıyla')|E] [GetModifier('ep3_unlocked_silk').GetNameWithTooltip] etkisini açtınız ya da [Concept('culture', 'Kültürünüz')|E] #V $innovation_sericulture$#! [Concept('innovation', 'Buluşuna')|E] sahip"
  commission_silk_regalia_decision: "İpek Kıyafet Sipariş Et"
-### TODO AGOT-CHANGED: commission_silk_regalia_decision_desc [AGOT: Our family is among the finest silk producers. Our activity brings us gold and influence — and some more #EMP advantages#! — but we rarely enjoy the benefits directly. I think I deserve something #EMP extra nice#! for myself, for once! | TR: Ailemiz en güzel Bizans ipeğini üretme ve satma yetkisine sahip olan az sayıda aileden biri. Bu aktivitemiz bize altın ve nüfuz iel birlikte daha bir sürü #EMP avantaj#! sağlıyor. Ancak bunun faydalarını nadiren doğrudan deneyimliyoruz. Bence bir kez olsun kendim için #EMP ekstra güzel#! bir şey hak ediyorum!]
- commission_silk_regalia_decision_desc: "Our family is among the finest silk producers. Our activity brings us gold and influence — and some more #EMP advantages#! — but we rarely enjoy the benefits directly. I think I deserve something #EMP extra nice#! for myself, for once!"
+
+ commission_silk_regalia_decision_desc:0 "Ailemiz en güzel Bizans ipeğini üretme ve satma yetkisine sahip olan az sayıda aileden biri. Bu aktivitemiz bize altın ve nüfuz iel birlikte daha bir sürü #EMP avantaj#! sağlıyor. Ancak bunun faydalarını nadiren doğrudan deneyimliyoruz. Bence bir kez olsun kendim için #EMP ekstra güzel#! bir şey hak ediyorum!"
  commission_silk_regalia_decision_tooltip: "Kendiniz için ipekten bir [artifact|E] sipariş edin"
  commission_silk_regalia_decision_confirm: "Zanaatkâr çağır"
  commission_silk_regalia_decision_effect: "Malikânenizden bir zanaatkâr sizin için ipek Kıyafet [Concept('artifact', 'Eseri')|E] üretecek"
@@ -1020,8 +1020,8 @@
  ep3_decisions_event.5030.desc: "Ailemin Magnanerisindeki usta zanaatkâr [local_artisan.GetFirstName] bana ipekten yapılmış bir dizi en üst kalite kaftan sundu.\n\n"Siparişiniz hazır [ROOT.Char.Custom('FormOfAddressForLiege')|l]. Umarım standardınıza uygun bulursunuz."\n\nİpek parmaklarımın arasından su gibi aktı, üstündeki işlemenin ince detaylarının hepsini yakalamakta zorlandım."
  ep3_decisions_event.5030.a: "Tek kelimeyle muhteşem!"
  silk_regalia_name: "Güzel İpek Kıyafet"
-### TODO AGOT-CHANGED: silk_regalia_description [AGOT: A set of silk robes worthy of an archon, made by some of the best artisans of the Free Cities style in the family estate of House [owner.GetHouse.GetName].\n\nThe colors are brilliant, and a gold thread is elegantly interwoven throughout to make the intricate designs stand out. | TR: [owner.GetHouse.GetName] Hanesinin aile malikânesindeki en iyi zanaatkârlar tarafından yapılmış, İmparatorlara yaraşır bir dizi ipek kaftan.\n\nRenkleri göz kamaştırıcı ve ince tasarımların göze çarpması için üzerine altın bir iplik işlenmiş.]
- silk_regalia_description: "A set of silk robes worthy of an archon, made by some of the best artisans of the Free Cities style in the family estate of House [owner.GetHouse.GetName].\n\nThe colors are brilliant, and a gold thread is elegantly interwoven throughout to make the intricate designs stand out."
+
+ silk_regalia_description:0 "[owner.GetHouse.GetName] Hanesinin aile malikânesindeki en iyi zanaatkârlar tarafından yapılmış, İmparatorlara yaraşır bir dizi ipek kaftan.\n\nRenkleri göz kamaştırıcı ve ince tasarımların göze çarpması için üzerine altın bir iplik işlenmiş."
  foster_integration_decision: "Bütünlüğü Teşvik Et" 
  foster_integration_decision_desc: "Aile malikânem çalkantılı bir bölgede yer alıyor. Bu bir dezavantaj olmak zorunda değil zira süzerenimin yerli halkı [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip] altında daha sıkı bir egemenlik altına almasına yardım ederken kendi siyasi ve mali konumumu da güçlendirebilirim."
  foster_integration_decision_tooltip: "[Concept('estate', 'Malikânenizin')|E] [Concept('county', 'Kontluğunun')|E] de jure ve kültürel bütünlüğünü teşvik edin"
@@ -1054,11 +1054,11 @@
  culture_separatists: "[ROOT.Char.GetCulture.GetNameNoTooltip] Ayrılıkçılar"
  ep3_decisions_event.6001.t: "[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] Kültürünün Savunucusu"
  ep3_decisions_event.6001.desc.intro: "Kamptaki görüntüye serin bir esinti eşlik ediyordu. [county.Custom('TerrainTypeCountyScope')] uçsuz bucaksızdı. Ben buraya aidim, halkım buraya ait. Derin bir nefes aldım.\n\n"
-### TODO AGOT-ONLY: ep3_decisions_event.6001.desc.spouse_common [AGOT: ]
- ep3_decisions_event.6001.desc.spouse_common: ""It could be all yours, you know?" the sweet voice of [spouse.GetFirstName] interrupts my thoughts."
+
+ ep3_decisions_event.6001.desc.spouse_common:0 ""Hepsi senin olabilir, biliyor musun?" [spouse.GetFirstName]'in tatlı sesi düşüncelerimi böler.""
  ep3_decisions_event.6001.desc.spouse_same_culture: "$ep3_decisions_event.6001.desc.spouse_common$ "Sana hayranlar, seni dünyanın sonuna kadar takip ederler.""
-### TODO AGOT-ONLY: ep3_decisions_event.6001.desc.spouse_diff_culture [AGOT: ]
- ep3_decisions_event.6001.desc.spouse_diff_culture: ""Even as a [spouse.GetCulture.GetName] myself I know that these people admire you. They see you as their hero. Do not let them down.""
+
+ ep3_decisions_event.6001.desc.spouse_diff_culture:0 ""Ben de bir [spouse.GetCulture.GetName] olarak biliyorum ki bu insanlar sana hayranlık duyuyor. Seni kahramanları olarak görüyorlar. Onları yüzüstü bırakma.""
  ep3_decisions_event.6001.desc.no_spouse: "[liege.GetCulture.GetName]? [ROOT.Char.GetCulture.GetName] halkının hükümdarı mı? Düşüncesi bile beni tiksindiriyor. Ve böyle düşünenin sadece ben olmadığımı biliyorum.\n\n"
  ep3_decisions_event.6001.desc.outro: "Nereye bakarsam bakayım biliyorum ki [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] sessiz kalmayacak. Bizim olanı geri almanın vakti gelmiştir."
  ep3_decisions_event.6001.a: "Savaşa. #EMP Derhâl.#!"
@@ -1068,8 +1068,8 @@
  champion_culture_costs_refunded: "$separatist_uprising_decision$ma Maliyetleri İade Edildi"
  separatist_uprising_decision_top_liege_capital_trigger: "Konum [realm_possessive|E] [Concept('top_liege', 'Ana Süzereninin')|E] ([THIS.Char.GetCurrentLocation.GetTitle.GetHolder.GetTopLiege.GetShortUIName]) [Concept('capital', 'Başkenti')|E] olmamalı"
  ep3_decisions_event.6002.t: "Popüler bir Lider"
-### TODO AGOT-ONLY: ep3_decisions_event.6002.desc [AGOT: ]
- ep3_decisions_event.6002.desc: ""For the [ROOT.Char.GetCulture.GetCollectiveNoun]! For the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]! For the #EMP [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], arghhh#!!"\n\nI take a moment to breathe, my chest is shaken with emotion, my voice still trembles. The [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], the [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]. I must not forget who I am fighting for.\n\n"[loser.GetTitledFirstName] is down, [ROOT.Char.Custom('FormOfAddressForLiege')]!" The announcement comes from a young boy, covered in dirt. "We've won!""
+
+ ep3_decisions_event.6002.desc:0 ""[ROOT.Char.GetCulture.GetCollectiveNoun] için! [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] için! #EMP [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], arghhh#! için!"\n\nNefes almak için bir an duraklıyorum, göğsüm duygudan sarsılıyor, sesim hâlâ titriyor. [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip], [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]. Kimin için savaştığımı unutmamalıyım.\n\n"[loser.GetTitledFirstName] yerde, [ROOT.Char.Custom('FormOfAddressForLiege')]!" Bu duyuru kir içindeki genç bir oğlan çocuğundan geliyor. "Kazandık!""
  ep3_decisions_event.6002.a: "Özgürüz."
  trait_populist_leader: "Popülist Lider"
  trait_populist_leader_desc: "Bu karakter halkının bağımsızlığı için savaştıktan sonra iktidara gelmiş."

@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  martial_strategy.1051.t:0 "Söylentiler"
  martial_strategy.1051.desc:0 "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Kampta', 'Sarayda')] konuşulan şeyler sürekli değişiklik gösterse de, son zamanlarda askerî meziyetlerim iyice gündem maddesi hâline gelmiş durumda. Herkes başarılarımın sırrını merak ediyor.\n\nBu ilgiyi itibarımı güçlendirmek için kullanabilirim... Bunun için önce başarımın sırrını belirlemem gerek."
  martial_strategy.1051.a:0 "Doğal yeteneklerim beni diğerlerinden üstün kılıyor."
@@ -13,8 +13,8 @@
  martial_strategy.1051.e.patient:0 "Asla tedbiri elden bırakmam, saldırmak için en doğru zamanı beklerim."
  martial_strategy.1051.f.ambitious:0 "Kazanmak için #EMP ne gerekiyorsa#! yaparım!"
  martial_strategy.2000.t:0 "Geçmişten Alınan Dersler"
-### TODO AGOT-CHANGED: martial_strategy.2000.start.desc [AGOT: Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the | TR: Her ne kadar gözlerimi hayata yummadan evvel sayısız muharebeye girecek olsam da, kütüphanem yüzlerce ömürlük muharebenin hikâyesini barındırıyor.\n\nYakın bir zamanda elime]
- martial_strategy.2000.start.desc:0 "Though I will surely see many battlefields before I meet my maker, my library holds tales of war from a hundred lifetimes.\n\nI have recently acquired a tome on the "
+
+ martial_strategy.2000.start.desc:0 "Her ne kadar gözlerimi hayata yummadan evvel sayısız muharebeye girecek olsam da, kütüphanem yüzlerce ömürlük muharebenin hikâyesini barındırıyor.\n\nYakın bir zamanda elime"
  martial_strategy.2000.hastings.desc:1 "Hasting Muharebesi "
  martial_strategy.2000.tours.desc:1 "Puvatya Muharebesi "
  martial_strategy.2000.palaceofthemartyrs.desc:1 "Şehitler Sarayı Muharebesi "
@@ -106,8 +106,8 @@
  martial_strategy.3014.a.disapprove:0 "Arada hatalar yapsa da, [Select_CString(my_liege.IsFemale, 'kadın', 'adam' )] askeriyeden anlıyor."
  martial_strategy.3014.a:0 "Bu stratejiye hayran kaldım."
  martial_strategy_special.1301.t:0 "Kuşatma Altında"
-### TODO AGOT-ONLY: martial_strategy_special.1301.desc [AGOT: ]
- martial_strategy_special.1301.desc:1 ""The true enemy of every soldier is complacency," [siege_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] says before [siege_proposer.Custom('quirk_pos_pp')]. We are standing side by side up on my [ROOT.Char.Custom('FortifiedBuilding')]'s walls, looking down on the soldiers conducting drills below.\n\n"We could exchange the [ROOT.Char.Custom('FortifiedBuilding')]'s gate for planks of wood, and dull the arrows in the troops' quivers," [siege_proposer.GetSheHe] continues. "Lead the soldiers in a mock-charge against the [ROOT.Char.Custom('FortifiedBuilding')], and see how well they do in action!""
+
+ martial_strategy_special.1301.desc:0 ""Her askerin gerçek düşmanı rehavettir," der [siege_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)], [siege_proposer.Custom('quirk_pos_pp')] öncesinde. [ROOT.Char.Custom('FortifiedBuilding')]'imin surlarında yan yana duruyor, aşağıda talim yapan askerlere bakıyoruz.\n\n"[ROOT.Char.Custom('FortifiedBuilding')]'in kapısını tahta levhalarla değiştirebilir, askerlerin sadaklarındaki okları köreltebiliriz," diye devam eder [siege_proposer.GetSheHe]. "Askerleri [ROOT.Char.Custom('FortifiedBuilding')]'e karşı sahte bir hücuma yönlendirin ve gerçekte ne kadar iyi olduklarını görün!""
  martial_strategy_special.1301.a:0 "Oyunlar oynayacağımıza savunmamızı güçlendirmeye odaklanmalıyız."
  martial_strategy_special.1301.b:0 "İyi fikir. Sen de savunanları yönetirsin!"
  martial_strategy_special.1301.b.tt:0 "#F Oyun başlasın!#!"
@@ -207,8 +207,8 @@
  martial_strategy_special.1404.d.tt:0 "[soldier_friend.GetTitledFirstName] birliklerin şehre sağ salim ulaşmasını sağlayacak."
  martial_strategy_special.1405.t:0 "Kayıp Askerler"
  martial_strategy_special.1405.desc:1 "Küçük bir köyden geçerken yerel muhafızların her ne kadar basit giysiler giyseler de, benim sembolümü taşıyan silahlarla kuşandığını fark ediyorum!\n\nÇamurlu bir yolda [zealot.GetTitledFirstName] kendisini kasabanın "ilahi koruyucusu" olarak tanıtıyor. Görünen o ki askerlerim [zealot.GetFaith.HighGodName] yolunda ona yardım etmek adına zırhlarını çıkartmışlar."
-### TODO AGOT-CHANGED: martial_strategy_special.1405.a [AGOT: I already rule through my ancestral right! | TR: Buraların yegâne ilahi koruyucusu benim!]
- martial_strategy_special.1405.a:1 "I already rule through my ancestral right!"
+
+ martial_strategy_special.1405.a:0 "Buraların yegâne ilahi koruyucusu benim!"
 
  martial_strategy_special.1405.a.tt:0 "#F "These soldiers better remember that #EMP I#! was chosen by [zealot.GetFaith.HighGodName] according to a divine plan."#!"
  martial_strategy_special.1405.b:0 "Bu kasabayı terk etmek için bir günün var, yobaz."

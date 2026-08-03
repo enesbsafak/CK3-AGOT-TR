@@ -77,10 +77,10 @@
  SCOPE_DEBUG_VALUE: "Değer $VALUE$"
  CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nTarihsel ID: [CHARACTER.GetHistoryId|V]\nHanedan: [CHARACTER.GetDynastyName|V]\nKültür: [CHARACTER.GetCulture.GetName|V]\nDoğurganlık: [CHARACTER.GetFertility|%0V]\nSağlık: [CHARACTER.GetHealth|1V]\n"
  CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Gerçek Baba: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
-### TODO NOT-IN-ST: CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP [AGOT: [Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]]
- CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
-### TODO AGOT-CHANGED: CHARACTER_DEBUG_TOOLTIP [AGOT: #D DEBUG:#!\nID: [CHARACTER.GetID|V], Historical ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$$CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP$Fertility: [CHARACTER.GetFertility|%0V], Health: [CHARACTER.GetHealth|1V], Stress: [CHARACTER.GetStress|0V]\nBase Weight: [CHARACTER.GetBaseWeight], Target Weight: [CHARACTER.GetTargetWeight], Current Weight: [CHARACTER.GetCurrentWeight]\n | TR: #D DEBUG:#!\nID: [CHARACTER.GetID|V], Tarihsel ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Doğurganlık: [CHARACTER.GetFertility|%0V], Sağlık: [CHARACTER.GetHealth|1V], Stres: [CHARACTER.GetStress|0V]\nEtnik Köken: [CHARACTER.GetEthnicity.GetName]\nTemel Ağırlık: [CHARACTER.GetBaseWeight], Hedef Ağırlığı: [CHARACTER.GetTargetWeight], Mevcut Ağırlık: [CHARACTER.GetCurrentWeight]]
- CHARACTER_DEBUG_TOOLTIP:2 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], Historical ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$$CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP$Fertility: [CHARACTER.GetFertility|%0V], Health: [CHARACTER.GetHealth|1V], Stress: [CHARACTER.GetStress|0V]\nBase Weight: [CHARACTER.GetBaseWeight], Target Weight: [CHARACTER.GetTargetWeight], Current Weight: [CHARACTER.GetCurrentWeight]\n"
+
+ CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Gerçek Anne: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]"
+
+ CHARACTER_DEBUG_TOOLTIP:0 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], Tarihsel ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Doğurganlık: [CHARACTER.GetFertility|%0V], Sağlık: [CHARACTER.GetHealth|1V], Stres: [CHARACTER.GetStress|0V]\nEtnik Köken: [CHARACTER.GetEthnicity.GetName]\nTemel Ağırlık: [CHARACTER.GetBaseWeight], Hedef Ağırlığı: [CHARACTER.GetTargetWeight], Mevcut Ağırlık: [CHARACTER.GetCurrentWeight]"
  DEBUG_RULER_OBJECTIVE_INFO: "#D Hükümdar Hedefi: [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#!"
  CHARACTER_AI_VALUES_DEBUG_TOOLTIP:2 "#D DEBUG#! YZ Değerleri:\nOnur: [Character.GetAIHonor|V]\nAçgözlülük: [Character.GetAIGreed|V]\nAkılcılık: [Character.GetAIRationality|V]\nEnerji: [Character.GetAIEnergy|V]\nCesaret: [Character.GetAIBoldness|V]\nKorku Etkili Cesaret: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nDindarlık: [Character.GetAIZeal|V]\nİntikamcılık: [Character.GetAIVengefulness|V]\nŞefkat: [Character.GetAICompassion|V]\nSosyallik:[Character.GetAISociability|V]\n\n[Character.Custom( 'AIEconomicPersonality' )]\n[Character.GetAiBudgetDescription]\n[Character.GetVariablesDescription]\n#I YZ izlemeyi açmak için tıklayın#!" #orya
  test_difficulty: "[Character.Custom('CharacterDifficulty')]: [Character.CalcScriptedValue('character_difficulty_value')|0]#!"
@@ -465,8 +465,8 @@
  WAITING_SERVER_REPLY:0 "Sunucudan yanıt bekleniyor"
  GENERATING_BOOKMARK_PROGRESS:0 "Dünya oluşturuluyor: $PROGRESS|0%$"
  LOADING_SAVEGAME_PROGRESS:1 "Yükleniyor: $PROGRESS|0%$"
-### TODO AGOT-CHANGED: LOADSCREEN_INITIALIZING_GAME [AGOT: Unmasking the Secret City... | TR: Oyun Başlatılıyor...]
- LOADSCREEN_INITIALIZING_GAME:0 "Unmasking the Secret City..."
+
+ LOADSCREEN_INITIALIZING_GAME:0 "Oyun Başlatılıyor..."
  SERVER_NAME:0 "$NAME$ Tarafından Kurulan Oyun"
  PLAYERS_ON_SERVER:0 "Sunucudaki oyuncular: İSİM - UNVAN - PİNG"
  PLAYER_ON_SERVER:0 "$NAME$ - $TITLE$ - $PING$"
@@ -488,14 +488,14 @@
  CHARACTER_VALUE_F1:0 "[CHARACTER.GetUIName]: $VALUE|V1$"
  CHARACTER_VALUE_F2:0 "[CHARACTER.GetUIName]: $VALUE|V2$"
  ERROR_ACTION:0 "\n#I Click me and I'll show them to you. Right-click me to clear the error log.#!"
-### TODO AGOT-CHANGED: ERROR_HOOF [AGOT: I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$ | TR: I am Errorhoof. I'm here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
- ERROR_HOOF:1 "I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$"
-### TODO AGOT-CHANGED: ERROR_HOOF_1 [AGOT: I am Jimhaerys. Sometimes I'm here instead of Pugarion. I'm also here because there are $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$ | TR: I am Babby Jesus. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
- ERROR_HOOF_1:1 "I am Jimhaerys. Sometimes I'm here instead of Pugarion. I'm also here because there are $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$"
-### TODO AGOT-CHANGED: ERROR_HOOF_2 [AGOT: I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$ | TR: I am Errobert. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
- ERROR_HOOF_2:1 "I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$"
-### TODO AGOT-CHANGED: ERROR_HOOF_3 [AGOT: I am Jimhaerys. Sometimes I'm here instead of Pugarion. Feed me. There are also $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$ | TR: I am the Bazcat. Sometimes I'm here instead of Errorhoof. Feed me. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$]
- ERROR_HOOF_3:1 "I am Jimhaerys. Sometimes I'm here instead of Pugarion. Feed me. There are also $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$"
+
+ ERROR_HOOF:0 "I am Errorhoof. I'm here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
+
+ ERROR_HOOF_1:0 "I am Babby Jesus. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
+
+ ERROR_HOOF_2:0 "I am Errorhoof. I'm here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
+
+ ERROR_HOOF_3:0 "I am the Bazcat. Sometimes I'm here instead of Errorhoof. Feed me. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
  ERROR_HOOF_4:0 "I am Reconqat. Sometimes I'm here instead of Errorhoof. Don't call it a Reconquista otherwise I'll get sad. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
  ERROR_HOOF_5: "I am Smug Kid. Sometimes I'm here instead of Errorhoof. I'm looking at your error and looking smug about it. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
  ERROR_HOOF_6: "I am Cool Guy. Sometimes I'm here instead of Errorhoof. I'm very cool, but the $ERRORS$ error(s) in your game are not. $ERROR_ACTION$"
@@ -530,12 +530,12 @@
  DAYS_WITH_SPACE:0 " Gün"
  VALUE_DAYS:0 "#V $VALUE$ gün#! "
  MAINTENANCE:0 "Bakım Masrafı"
-### TODO AGOT-CHANGED: BANNER [AGOT: Rally Point | TR: Afişi]
- BANNER:0 "Rally Point"
-### TODO AGOT-CHANGED: SCOPE_CHARACTER [AGOT: [AGOTGetLongUIName(ROOT.GetCharacter)|V]: | TR: [ROOT.GetCharacter.GetUIName]:]
- SCOPE_CHARACTER:0 "[AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
-### TODO AGOT-CHANGED: SCOPE_CHARACTER_ME [AGOT: I, [AGOTGetLongUIName(ROOT.GetCharacter)|V]: | TR: Ben, [ROOT.GetCharacter.GetUIName]:]
- SCOPE_CHARACTER_ME:0 "I, [AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
+
+ BANNER:0 "Afişi"
+
+ SCOPE_CHARACTER:0 "[ROOT.GetCharacter.GetUIName]:"
+
+ SCOPE_CHARACTER_ME:0 "Ben, [ROOT.GetCharacter.GetUIName]:"
  SCOPE_LANDED_TITLE:0 "[ROOT.GetLandedTitle.GetName|U]:"
  SCOPE_PROVINCE:0 "[ROOT.GetProvince.GetName]:"
  SCOPE_ACTIVITY:1 "[ROOT.Activity.GetName]:"
@@ -597,8 +597,8 @@
  flag_desc:0 "Flags are simple markers that you can use to trace that something has happened in the game. They have a specific type depending on what kind of scope it was set in (character flag, scheme flag, sC.). The particular scope (for example a particular character) will have the flag set until it is removed by an effect, or until its timer runs out, if a timer was defined for it."
  TODO:0 "TODO: $WHAT$"
  EVENT_SIGNED:0 "İmza,"
-### TODO AGOT-CHANGED: EVENT_SIGNATURE [AGOT: [AGOTGetFullNameNoTooltip(CHARACTER)] | TR: [CHARACTER.GetNameNoTooltip]]
- EVENT_SIGNATURE:1 "[AGOTGetFullNameNoTooltip(CHARACTER)]"
+
+ EVENT_SIGNATURE:0 "[CHARACTER.GetNameNoTooltip]"
  EVENT_REASON_SEPARATOR:0 ", "
  EVENT_REASON_SKILL:0 "$SKILL$ Becerisi"
  EVENT_REASON_TRAIT:0 "[TRAIT.GetName( CHARACTER.Self )|L] Özelliği"
@@ -626,10 +626,10 @@
  HALF_SISTER:0 "Üvey Kız Kardeşi"
  BROTHER_HUSBAND:0 "Erkek Kardeş-Kocası"
  SISTER_WIFE:0 "Kız Kardeş-Karısı"
-### TODO AGOT-CHANGED: BROTHER_IN_LAW [AGOT: [good_brother|E] | TR: Eniştesi/Kayınbiraderi]
- BROTHER_IN_LAW:0 "[good_brother|E]"
-### TODO AGOT-CHANGED: SISTER_IN_LAW [AGOT: [good_sister|E] | TR: Görümcesi/Baldızı]
- SISTER_IN_LAW:0 "[good_sister|E]"
+
+ BROTHER_IN_LAW:0 "Eniştesi/Kayınbiraderi"
+
+ SISTER_IN_LAW:0 "Görümcesi/Baldızı"
  RELATION_CONCUBINE_MAN:0 "$game_concept_concubine_male$si"
  RELATION_CONCUBINE_WOMAN:0 "$game_concept_concubine_female$si"
  PLAYER_HEIR_RELATION:2 "[player_heir|E]"
@@ -707,8 +707,8 @@
  TRAIT_BLOCK_INHERITANCE:0 "@warning_icon! #X Miras yoluyla [title|E] elde edilemez#!"
  TRAIT_FLAVOR_DESC:0 "$DESC|F$"
  FERTILITY_COLON:0 "[fertility|E]: $VALUE|V$"
-### TODO AGOT-CHANGED: BIRTH_DATE [AGOT: Born on [Character.GetBirthDate.GetString|V] | TR: [DATE.GetStringShort|V] tarihinde doğdu]
- BIRTH_DATE:0 "Born on [Character.GetBirthDate.GetString|V]"
+
+ BIRTH_DATE:0 "[DATE.GetStringShort|V] tarihinde doğdu"
  YEARS_COUNT_SINGULAR:0 "#V 1 yıl#!"
  YEARS_COUNT_PLURAL:0 "#V $VALUE$ yıl#!"
  YEARS_COUNT_SINGULAR_NO_FORMAT:0 "1 yıl"
@@ -728,8 +728,8 @@
  SKILL_GOOD:0 "İyi"
  SKILL_EXCELLENT:0 "Mükemmel"
  SKILL_NICE:0 ";)"
-### TODO NOT-IN-ST: SKILL_GODLIKE [AGOT: Godlike]
- SKILL_GODLIKE:0 "Godlike"
+
+ SKILL_GODLIKE:0 "Tanrı Gibi"
  skill_level_terrible:0 "berbat"
  skill_level_poor:0 "kötü"
  skill_level_average:0 "ortalama"
@@ -740,8 +740,8 @@
  CHARACTER_PORTRAIT_TOOLTIP:0 "[Character.GetFullNameNicknamedNoTooltip]\n[Character.GetDebugTooltip]"
  TOOLTIP_HEADER:0 "#T $NAME$#!"
  ATTACKERS:1 "#attacker_color Saldıranlar#!"
-### TODO AGOT-CHANGED: DEFENDERS [AGOT: #defender_color Defenders#! | TR: Savunucuları]
- DEFENDERS:1 "#defender_color Defenders#!"
+
+ DEFENDERS:0 "Savunucuları"
  ATTACKERS_FRIENDLY:1 "#defender_color Saldıranlar#!"
  DEFENDERS_HOSTILE:1 "#attacker_color Savunanlar#!"
  OWNER:0 "Sahip"
@@ -799,12 +799,12 @@
  BULLET_WITH_TAB:0 "    • "
  BULLET:0 "$EFFECT_LIST_BULLET$"
  MODIFIER_BULLET:0 "$EFFECT_LIST_BULLET$"
-### TODO AGOT-ONLY: TAB [AGOT: ]
+
  TAB:0 "    "
-### TODO AGOT-ONLY: SHORT_TAB [AGOT: ]
+
  SHORT_TAB:0 "   "
-### TODO AGOT-CHANGED: HOUSE_CADET_BRANCH_NAME_FORMAT [AGOT: $DYNASTY$ | TR: $DYNASTY$-$TITLE$]
- HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$"
+
+ HOUSE_CADET_BRANCH_NAME_FORMAT:0 "$DYNASTY$-$TITLE$"
  EVENT_OPTION_FLAVOR:0 "#F $TEXT$#!\n"
  CHARACTER_POSS_CHECK:0 ""
  CHARACTER_POSS:0 " adlı kişinin"
@@ -845,14 +845,14 @@
  character_modifiers_law_cost_tooltip:0 "Karakter Etkileri"
  SCRIPTED_COST_HEADER:0 "#S $TEXT$#!"
  SCRIPTED_COST_NO_DYNAST:1 "Sadece [dynast|E] [dynasty_prestige|E] harcayabilir"
-### TODO AGOT-CHANGED: GAME_DATE_STRING [AGOT: $DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $DAY$ $MONTH$ $YEAR$]
- GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
-### TODO AGOT-CHANGED: GAME_DATE_STRING_SHORT [AGOT: $DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $DAY$ $MONTH_SHORT$ $ERA_BCE$$YEAR$]
- GAME_DATE_STRING_SHORT: "$DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
-### TODO AGOT-CHANGED: GAME_DATE_STRING_SHORT_NO_YEAR [AGOT: $DAY|O$ $MONTH$ | TR: $DAY$ $MONTH_SHORT$]
- GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
-### TODO AGOT-CHANGED: GAME_DATE_STRING_LONG [AGOT: $DAY|O$ of $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $MONTH$ Ayının $DAY|O$ Günü, $ERA$$YEAR$]
- GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
+
+ GAME_DATE_STRING:0 "$DAY$ $MONTH$ $YEAR$"
+
+ GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $ERA_BCE$$YEAR$"
+
+ GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$"
+
+ GAME_DATE_STRING_LONG:0 "$MONTH$ Ayının $DAY|O$ Günü, $ERA$$YEAR$"
  GAME_DATE_STRING_ERA_CE: "MS "
  GAME_DATE_STRING_ERA_BCE: "MÖ "
  CONCEPT_TEXT:0 "[ConceptByKey('$KEY|q$')|E]"
@@ -999,8 +999,8 @@
  GAIN_FROM_ALL_TRIBUTARIES: "[tributaries|E]"
  GAIN_FROM_TRIBUTARY: "[CHARACTER.GetShortUIName]"
  LOSS_TO_SUZERAIN: "[Concept('suzerain', 'Efendiye')|E] Verilen"
-### TODO AGOT-CHANGED: YURT [AGOT: [yurt|E] | TR: Yurdu]
- YURT: "[yurt|E]"
+
+ YURT:0 "Yurdu"
  YURT_BUILDINGS: "[yurt_buildings|E]"
  BASE_HERD_CAPACITY: "[title_tier|E]"
  domicile_header_faith_culture: "[Domicile.GetFaith.GetAdjective] [Domicile.GetCulture.GetCollectiveNoun]"

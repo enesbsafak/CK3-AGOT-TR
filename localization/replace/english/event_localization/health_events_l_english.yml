@@ -34,8 +34,8 @@
  health.1001.t:1 "[SCOPE.Custom('EventTitleDisease')]: Fâni Vücudum"
  health.1001.desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip] ya da köylü, soylu ya da soysuz fark etmiyor. Hepimiz fâniyiz.\n\nSabah boğaz ve baş ağrısı ile öksürerek kalktığımda bunu tekrar hatırladım. Vücudum tir tir titriyor, hiç uyumamış gibi yorgunum. Başımdaki her delikten de bir şeyler akıyor.\n\n"
  health.1001.nophysician.desc: "Bu lanetli durumu tedavi etmek için bulabileceğim birileri olmalı..."
-### TODO AGOT-ONLY: health.1001.court_physician.desc [AGOT: ]
- health.1001.court_physician.desc:0 ""I heard that wheezing from across the [ROOT.Char.Custom('GetCourt')], [ROOT.Char.Custom('FormOfAddressForLiege')]!" [physician.GetFirstName], my physician, pokes [physician.GetHerHis] head into my [ROOT.Char.Custom('GetChamber')]. "Should you require it, I know a fair number of suitable remedies.""
+
+ health.1001.court_physician.desc:0 ""O hırıltıyı [ROOT.Char.Custom('GetCourt')]'ün öbür ucundan duydum, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [physician.GetFirstName], hekimim, başını [ROOT.Char.Custom('GetChamber')]'ime uzatıyor. "İhtiyacınız olursa, epey uygun çare biliyorum.""
  health.1001.a:0 "Sadece biraz daha yatmak istiyorum..."
  health.1001.b:0 "#EMP Hemen!#! evime dönmeliyim."
  health.1002.t:1 "[SCOPE.Custom('EventTitleDisease')]: Kılıç Kadar Keskin"
@@ -51,10 +51,10 @@
  health.1004.desc:0 "İlk şikâyetlerim hafifti, pek düşünmedim. Belki de gerçeği görmeye korkuyordum. Yine de yüzümdeki berbat izleri ve yaraları artık göz ardı edemem.\n\nTebaam hâlâ emirlerimi yerine getiriyor ama bakışları değişti. Gözlerinde korku mu var acaba? Yoksa acıma mı? İğrenme?"
  health.1004.court_physician.desc:0 "\n\n"Üzgünüm [ROOT.Char.Custom('FormOfAddressForLiege')|l], cüzzam kalıcı bir şey. Yine de sizi rahatlatmak için bazı şeyler deneyebilirim"
  health.1004.a:0 "Bu laneti hak edecek ne yaptım?"
-### TODO AGOT-CHANGED: health.1005.t [AGOT: [SCOPE.Custom('EventTitleDisease')]: Green Fever | TR: [SCOPE.Custom('EventTitleDisease')]: Lekeli Humma]
- health.1005.t:1 "[SCOPE.Custom('EventTitleDisease')]: Green Fever"
-### TODO AGOT-CHANGED: health.1005.desc [AGOT: I have heard stories about brave soldiers dying like flies before they even set foot on the battlefield. But me, a [ROOT.Char.GetTitleTierName]? This aching, feverish nightmare is not a fate meant for me.\n\nAs yet another meal forces its way up my throat, I pray for redemption, my nostrils stinging with the sharp stench of bile. | TR: Mert askerlerin daha savaş alanına ayak bile basmadan nasıl öldükleriyle ilgili hikâyeler duymuştum. Fakat bir [ROOT.Char.GetTitleAsNameNoTooltip]? Bu ağrılı ve ateşli kâbus benim kaderim olmamalı.\n\nYediğim bir başka yemek daha boğazımdan çıkmaya çalışıyor. Burnum keskin safra kokusu ile yanıyor. Kurtulmak için dua ediyorum.]
- health.1005.desc:0 "I have heard stories about brave soldiers dying like flies before they even set foot on the battlefield. But me, a [ROOT.Char.GetTitleTierName]? This aching, feverish nightmare is not a fate meant for me.\n\nAs yet another meal forces its way up my throat, I pray for redemption, my nostrils stinging with the sharp stench of bile."
+
+ health.1005.t:0 "[SCOPE.Custom('EventTitleDisease')]: Lekeli Humma"
+
+ health.1005.desc:0 "Mert askerlerin daha savaş alanına ayak bile basmadan nasıl öldükleriyle ilgili hikâyeler duymuştum. Fakat bir [ROOT.Char.GetTitleAsNameNoTooltip]? Bu ağrılı ve ateşli kâbus benim kaderim olmamalı.\n\nYediğim bir başka yemek daha boğazımdan çıkmaya çalışıyor. Burnum keskin safra kokusu ile yanıyor. Kurtulmak için dua ediyorum."
  health.1005.court_physician.desc:0 "\n\n"Merak etmeyin [ROOT.Char.Custom('FormOfAddressForLiege')|l]! Tifüs tedavi edilebilir bir şey, korkmayın.""
  health.1005.a:0 "Yalvarıyorum lütfen kurtar beni!"
  health.1006.t:1 "[SCOPE.Custom('EventTitleDisease')]: Yavaş Yavaş"
@@ -100,8 +100,8 @@
  health.1103.desc:0 "Kendimi kısıtlayıp hayatın zevklerine karşı koymaya çalıştım. Hiç de pişman değilim. Hayatta yiyecek ve içecekten başka mutluluklar da var!\n\nAcı tamamen gittiği için bunları tekrar tadabilirim."
  health.1103.a:0 "Ölçülü olmak işe yaradı!"
  health.1105.t:1 "[SCOPE.Custom('EventTitleDisease')]: Savaşı Kazandım"
-### TODO AGOT-CHANGED: health.1105.desc [AGOT: Unlike many before me, I was strong enough to survive the ravages of the dreaded green fever. It was a brutal challenge, I will not deny it, but I persevered! | TR: Çoğu kişinin yapamadığını yapıp lekeli hummadan kurtuldum. Zordu, evet. Yine de dayanabildim ve galip geldim!]
- health.1105.desc:0 "Unlike many before me, I was strong enough to survive the ravages of the dreaded green fever. It was a brutal challenge, I will not deny it, but I persevered!"
+
+ health.1105.desc:0 "Çoğu kişinin yapamadığını yapıp lekeli hummadan kurtuldum. Zordu, evet. Yine de dayanabildim ve galip geldim!"
  health.1105.a:0 "Pes etmedim!"
  health.1106.t:1 "[SCOPE.Custom('EventTitleDisease')]: İkinci Bir Şans"
  health.1106.desc:0 "Zayıfladım, öksürdüm ve kanadım. Ölene kadar tükeneceğimi düşündüm. Yataktan zar zor kalkarken neredeyse hiç umudum yoktu.\n\nYine de sağlığım ve kuvvetim yavaş yavaş olsa da yerine geldi. Tekrar dünyanın zorluklarıyla başa çıkmaya hazırım."
@@ -150,25 +150,25 @@
  health.2101.t:1 "[SCOPE.Custom('EventTitleDisease')]: Aramızdaki Katil"
  health.2101.smallpox_outbreak.desc:0 "Ölümün laneti evime kadar girmiş. Çiçek hastalığına yakalanmış biri var!"
  health.2101.smallpox_spreads.desc:0 "Başka biri daha çiçek hastalığına yakalandı."
-### TODO AGOT-CHANGED: health.2101.bubonic_plague_outbreak.desc [AGOT: [ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded sunset plague has been discovered! | TR: [ROOT.Char.GetFaith.DeathDeityName] ülkeme geldi. Yanında da veba getirdi.]
- health.2101.bubonic_plague_outbreak.desc:2 "[ROOT.Char.GetFaith.DeathDeityName|U] has raised [ROOT.Char.GetFaith.DeathDeityHerHis] scythe over my realm — a case of the dreaded sunset plague has been discovered!"
+
+ health.2101.bubonic_plague_outbreak.desc:0 "[ROOT.Char.GetFaith.DeathDeityName] ülkeme geldi. Yanında da veba getirdi."
  health.2101.bubonic_plague_spreads.desc:0 "Başka biri daha ölüm döşeğinde, vücudu bubonlarla kaplı."
-### TODO AGOT-CHANGED: health.2101.typhus_outbreak.desc [AGOT: A dangerous case of green fever has crept in to court. Rashes, coughing and fever beset the afflicted. | TR: Sarayda tehlikeli bir lekeli humma vakası görülüyor. Yakalanan herkes öksürük ve ateşle bitap düşmüş.]
- health.2101.typhus_outbreak.desc: "A dangerous case of green fever has crept in to court. Rashes, coughing and fever beset the afflicted."
-### TODO AGOT-CHANGED: health.2101.typhus_spreads.desc [AGOT: Another case of green fever has reared its head. | TR: Bir başka tifüs vakası daha ortaya çıktı.]
- health.2101.typhus_spreads.desc: "Another case of green fever has reared its head."
+
+ health.2101.typhus_outbreak.desc:0 "Sarayda tehlikeli bir lekeli humma vakası görülüyor. Yakalanan herkes öksürük ve ateşle bitap düşmüş."
+
+ health.2101.typhus_spreads.desc:0 "Bir başka tifüs vakası daha ortaya çıktı."
  health.2101.consumption_outbreak.desc: "Kesik kesik öksürükler sarayın içinde yankılanıyor. Verem ilk kurbanını almak için koridorlarda dolaşıyor."
  health.2101.consumption_spreads.desc: "Daha fazla kişi veremin pençesine düştü."
-### TODO AGOT-CHANGED: health.2101.measles_outbreak.desc [AGOT: The rash that developed on the skin of the afflicted was plain to see: spotted fever has been discovered at court. | TR: Hastalığa yakalananların cildinde oluşan kızarıklık açıkça görülüyordu. Kızamık hastalığı sarayın içinde artık.]
- health.2101.measles_outbreak.desc: "The rash that developed on the skin of the afflicted was plain to see: spotted fever has been discovered at court."
-### TODO AGOT-CHANGED: health.2101.measles_spreads.desc [AGOT: More and more are falling ill and developing the livid rashes on their skin that belie the presence of spotted fever. | TR: Her geçen gün daha fazla sayıda kişi hastalıyor, ciltlerinde kızamığın varlığına işaret eden döküntüler oluşuyor.]
- health.2101.measles_spreads.desc: "More and more are falling ill and developing the livid rashes on their skin that belie the presence of spotted fever."
+
+ health.2101.measles_outbreak.desc:0 "Hastalığa yakalananların cildinde oluşan kızarıklık açıkça görülüyordu. Kızamık hastalığı sarayın içinde artık."
+
+ health.2101.measles_spreads.desc:0 "Her geçen gün daha fazla sayıda kişi hastalıyor, ciltlerinde kızamığın varlığına işaret eden döküntüler oluşuyor."
  health.2101.dysentery_outbreak.desc: "Etraftaki pis koku her şeyi anlatıyor. Sarayda dizanteri tespit edildi."
  health.2101.dysentery_spreads.desc: "Başka dizanteri vakaları da ortaya çıkmaya devam ediyor, tuvaletler gece gündüz dolu."
-### TODO AGOT-CHANGED: health.2101.ergotism_outbreak.desc [AGOT: Dancing plague has reared its head in court, the jerking motions of the victim making it obvious to all present. | TR: Çavdar mahmuzu hastalığı sarayda baş gösterdi, kurbanın sarsılma hareketini gören herkes bunu anlıyor.]
- health.2101.ergotism_outbreak.desc: "Dancing plague has reared its head in court, the jerking motions of the victim making it obvious to all present."
-### TODO AGOT-CHANGED: health.2101.ergotism_spreads.desc [AGOT: Further cases of dancing plague continue to strike down victims, setting their limbs afire beneath their skin. | TR: Başka çavdar mahmuzu hastalığı vakaları ortaya çıkmaya devam ediyor, kurbanlarının uzuvlarını derinin altından yakıyor.]
- health.2101.ergotism_spreads.desc: "Further cases of dancing plague continue to strike down victims, setting their limbs afire beneath their skin."
+
+ health.2101.ergotism_outbreak.desc:0 "Çavdar mahmuzu hastalığı sarayda baş gösterdi, kurbanın sarsılma hareketini gören herkes bunu anlıyor."
+
+ health.2101.ergotism_spreads.desc:0 "Başka çavdar mahmuzu hastalığı vakaları ortaya çıkmaya devam ediyor, kurbanlarının uzuvlarını derinin altından yakıyor."
  health.2101.imporant.desc:1 "Zavallı [ROOT.GetCharacter.Custom2('RelationToMePossessive', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] hayata tutunmaya çalışıyor."
  health.2101.prisoner.desc:1 "Şanssız kişi tutsaklarımdan biri, [sick_character.GetTitledFirstName]."
  health.2101.courtier_or_guest.desc:1 "Şanssız kurban [ROOT.GetCharacter.Custom2('RelationToMePossessive', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]."
@@ -185,20 +185,20 @@
  disease_pneumonic:0 ""
  disease_gout_ridden:0 ""
  disease_leper:0 ""
-### TODO AGOT-CHANGED: disease_typhus [AGOT: green fever. | TR: ]
- disease_typhus:0 "green fever."
+
+ disease_typhus:0 ""
  disease_consumption:0 ""
  disease_cancer:0 ""
  disease_lovers_pox:0 ""
  disease_early_great_pox:0 ""
  disease_great_pox:0 ""
  disease_smallpox:0 ""
-### TODO AGOT-CHANGED: disease_bubonic_plague [AGOT: sunset plague. | TR: ]
- disease_bubonic_plague:0 "sunset plague."
-### TODO AGOT-CHANGED: disease_measles [AGOT: spotted fever. | TR: ]
- disease_measles: "spotted fever."
-### TODO AGOT-CHANGED: disease_ergotism [AGOT: dancing plague. | TR: ]
- disease_ergotism: "dancing plague."
+
+ disease_bubonic_plague:0 ""
+
+ disease_measles:0 ""
+
+ disease_ergotism:0 ""
  disease_dysentery: ""
  missing_illness:0 "#D Geçersiz hastalık #!"
  health.2201.minor_disease.desc:0 "[SCOPE.Custom('EventTitleDisease')] diyorlar.\n\nNormalde böyle küçük bir hastalık için pek endişe etmezdim ama [sick_character.GetFirstName] zaten sağlıklı değil, bu hastalık ona fazla gelebilir."
@@ -237,8 +237,8 @@
  health.2202.a.neutral:0 "Şanslıymış."
  health.3001.disease.t:0 "[SCOPE.Custom('EventTitleDisease')]:"
  health.3001.t:1 "[ROOT.Char.Custom('GetCourt')|U] Hekimi"
-### TODO AGOT-CHANGED: health.3001.fallback_reason.desc [AGOT: This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l].\n\nI have asked around for recommendations, and have assembled a few options to chose from. | TR: Bu dünya bir [ROOT.Char.GetTitleTierName] ve [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'kampı', 'sarayı')] için bile tehlikelerle dolu.\n\nİyi birinin bulunması için emirler verdim ve önüme birkaç seçenek getirdiler.]
- health.3001.fallback_reason.desc:0 "This world is full of dangers, even to a [ROOT.Char.GetTitleTierName] and [ROOT.Char.GetHerHis] [ROOT.Char.Custom('GetCourt')|l].\n\nI have asked around for recommendations, and have assembled a few options to chose from."
+
+ health.3001.fallback_reason.desc:0 "Bu dünya bir [ROOT.Char.GetTitleTierName] ve [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'kampı', 'sarayı')] için bile tehlikelerle dolu.\n\nİyi birinin bulunması için emirler verdim ve önüme birkaç seçenek getirdiler."
  health.3001.decision.desc:0 "Bu dünya bir [ROOT.Char.GetTitleTierName] ve [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'kampı', 'sarayı')] için bile tehlikelerle dolu. Emrim sonucu hizmetkârlarım uygun birilerini soruşturmaya başladı. Şimdi önüme birkaç seçenek getirdiler."
  health.3001.already_sick.desc:0 "Hizmetkârlarım sonunda hekim olabilecek birkaç kişi bulmuş. Seçici davranma lüksüm yok."
  health.3001.a:0 "Dediklerine göre [high_skill_option.GetFirstNameNoTooltip] oldukça tecrübeliymiş."
@@ -296,8 +296,8 @@
  health.safe_treatment.2.desc:0 "[physician.GetTitledFirstName] hastalığımı kötü beslenmeye bağladı. Bedenimi güçlendirmek için bir hafta boyunca sadece çiğ sebze yiyip bitki çayları içmemi istedi. Kenara köşeye sakladığım yiyeceklere de el koydu. Geri vermeyeceğini söyledi.\n\nNeler yediğimi değiştirmek"
  health.safe_treatment.3.desc:0 "[physician.GetTitledFirstName] yatağa yatıp ellerimi ona vermemi istedi. Ellerim kızarana kadar sert bir şekilde avuçlarıma masaj yapıp vurmaya başladı. Daha sonra aynısını ayak tabanlarıma da yaptı. Son olarak da bacaklarımı ve kollarımı baştan aşağıya cimcikledi.\n\nBu garip tedavi"
  health.safe_treatment.4.desc:0 "[physician.GetTitledFirstName] yaldızlı bir şişede açık renkli bir ilaç verdi. Onun daha önceki ilaçlarını da tattığımdan ilk başta biraz endişeliydim ama içtiğimde ne bir tat ne de koku aldım. İçerisinde ne var diye sordum ama gizli bir tarif olduğunu söyledi.\n\nGizemli ilaç"
-### TODO AGOT-ONLY: health.safe_treatment.5.desc [AGOT: ]
- health.safe_treatment.5.desc:1 ""Relax your breathing," [physician.GetTitledFirstName] instructed me. The feather in [physician.GetHerHis] hand looked almost ethereal as [physician.GetSheHe] began to gently brush me under my nose. "Evil, begone!" [physician.GetSheHe] urged as I sneezed loudly.\n\nThe strange tickling"
+
+ health.safe_treatment.5.desc:0 ""Nefesini rahatlat," diye talimat verdi [physician.GetTitledFirstName] bana. [physician.GetHerHis] elindeki tüy, [physician.GetSheHe] burnumun altını nazikçe okşamaya başladığında neredeyse uhrevi görünüyordu. "Kötü ruh, defol!" diye dürtükledi [physician.GetSheHe] ben yüksek sesle hapşırırken.\n\nO tuhaf gıdıklanma"
  health.safe_treatment.6.desc:1 "[physician.GetTitledFirstName] benim adıma bir tören düzenledi. Ailem ve yakından tanıdığım kişiler ana salonda bir araya geldiğinde [ROOT.Char.Custom('DefaultPriestTitle')] benim erdemliliğimi ve iyiliğimi anlatan bir vaaz verdi. Tören bir saat süren sessiz dua ile sona erdi.\n\n[ROOT.Char.GetFaith.HealthGodName] huzurunda dua etmek"
  health.safe_treatment.7.desc:1 "[physician.GetTitledFirstName] birçok gece yatağımın yanına oturup [ROOT.Char.GetFaith.ReligiousText] okumaya başladı.\n\n[ROOT.Char.GetFaith.HealthGodNamePossessive] sözleri"
  health.safe_treatment.8.desc:0 "[physician.GetTitledFirstName] saraydaki en iyi şarkıcıyı bulma emrini verdikten sonra [ROOT.Char.Custom('DefaultPriestTitlePlural')] açık tiz sesli bir çocuk getirdi. Birkaç gün boyunca uyumadan önce çocuk yatağımın yanında şarkılar söyledi.\n\nRahatlatıcı ses"
@@ -350,8 +350,8 @@
  health.3107.e:0 "Bu hain ölmeyi hak ediyor!"
  health.3107.f:0 "Ah [physician.GetFirstNameNoTooltip], ne yaptın kendine?"
  health.3108.t:1 "[SCOPE.Custom('EventTitleDisease')]: Daha Büyük Bir Güç"
-### TODO AGOT-ONLY: health.mystic_treatment_occult.cannibal.desc [AGOT: ]
- health.mystic_treatment_occult.cannibal.desc:0 ""Drink this," [physician.GetTitledFirstName] whispered. Barely had the liquid passed my lips before the strange sensations started. My limbs became numb, but within, a fire awoke...\n\n"Now, eat this." The chunks were warm, wet, and chewy. The fire liked that. It wanted more. When [physician.GetSheHe] passed me the rest of the pale arm, I gorged myself until I retched."
+
+ health.mystic_treatment_occult.cannibal.desc:0 ""Bunu iç," diye fısıldadı [physician.GetTitledFirstName]. Sıvı dudaklarımdan geçer geçmez garip hisler başladı. Uzuvlarım uyuştu, ama içimde bir ateş uyandı...\n\n"Şimdi, bunu ye." Parçalar sıcak, ıslak ve çiğnenebilirdi. Ateş bundan hoşlandı. Daha fazlasını istedi. [physician.GetSheHe] bana solgun kolun geri kalanını uzattığında, kusana dek tıka basa yedim.""
  health.mystic_treatment_occult.deviant.desc:0 "[physician.GetTitledFirstName] beni soydu ve bir yağ sürmeye başladı. Elini özel bölgeme doğru götürdüğünde gözlerimiz birbirini buldu. İstediğimi fark ettim. Başımla onayladım.\n\nBir süre sonra başka eller de hissetmeye başladım. Pürüzsüz, kırışık, ince, güçlü. Dizlerim çözüldüğünde beni yakaladılar, ben de dokunuşlarına teslim oldum."
  health.mystic_treatment_occult.1.desc:0 "Yatağıma hapsolmuşken hizmetkârlarım odun ateşinin her yerden görülebildiğini söyledi. Büyük bir kurban ateşi yakılmış, birkaç düzine hayvan kurban edilmişti. [physician.GetTitledFirstName] tarafından verilen emirlere göre iki hafta boyunca külleri vücuduma sürecektim."
  health.mystic_treatment_occult.2.desc:0 "[physician.GetTitledFirstName], soyunup boş bir küvete girmemi söyledi. Geri geldiğinde yanında bir hizmetkâr ve yarım düzine keçi getirmişti. Ustalıkla keçilerden birini tutup boğazını küvetin içinde kesti. Diğerlerine de teker teker aynısını yaptı.\n\nYerdeki izlerin silineceğini sanmıyorum."
@@ -360,8 +360,8 @@
  health.mystic_treatment_occult.5.desc:0 "Hizmetkârlar mumları yakarken [physician.GetTitledFirstName] yatağımın ucunda durdu. Elime kapalı bir çanak verdi. Çıkan seslere göre içinde küçük, korkulu bir hayvan vardı. "Hayvan, yüklerinizi sizin yerinize taşıyacak." diye açıkladı. Daha sonra hep bir ağızdan bir şeyler söylemeye başladılar."
  health.mystic_treatment_questionable.1.desc:0 "[physician.GetFirstName] beni uzun bir aynanın önüne oturttu ve yaktığı mumları etrafımda çember olacak şekilde yerleştirdi. "Sizin diğer kişiliğinizle temasa geçmeliyiz." diye rahatça açıklamaya başladı. Şaşkın şaşkın baktığımı gördüğünde omzuma elini koyup "Bu sizi değiştirebilir..." dedi"
  health.mystic_treatment_questionable.2.desc:1 "Oda sadece yanan bir mumum ışığıyla aydınlanıyordu. [physician.GetTitledFirstName] batıya bakan pencerenin önünde tırnaklarımı yağ damlalarıyla boyamaya başladı. Sonra elimi muma yaklaştırdığında sıcaklığını hissetmeye başladım. "Korkmayın [ROOT.Char.Custom('FormOfAddressForLiege')|l]. [ROOT.Char.GetFaith.HealthGodNamePossessive] bilgeliği ile temizleneceksiniz.""
-### TODO AGOT-ONLY: health.mystic_treatment_questionable.3.desc [AGOT: ]
- health.mystic_treatment_questionable.3.desc:1 ""The moon demands your devotion," [physician.GetTitledFirstName] said, before handing me a cake topped with something with a spicy scent. A few minutes after eating, I looked up at the night sky and improvised the greatest poem in the world. Later, the words elude me..."
+
+ health.mystic_treatment_questionable.3.desc:0 ""Ay, bağlılığını talep ediyor," dedi [physician.GetTitledFirstName], bana üstü baharat kokulu bir şeyle kaplı bir kek uzatmadan önce. Yedikten birkaç dakika sonra gece gökyüzüne baktım ve dünyanın en büyük şiirini doğaçladım. Sonra, kelimeler benden kaçıyor...""
  health.mystic_treatment_questionable.4.desc:0 "[physician.GetTitledFirstName] her gece yatmadan önce ağır bir şey içirdi. "Varlığınızın kumaşını hafifleştirip ruhların vücudunuza girebilmesini sağlıyor." diye açıkladı. "Ayrıca çok iyi rahatlatıyor." dedi gülerken."
  health.mystic_treatment_questionable.5.desc:0 "[physician.GetFirstName], [ROOT.Char.GetFaith.ReligiousText] yorumlamanın zor olduğunu ama ateşle temizlenmenin dünya kadar eski bir sanat olduğunu söyledi. Daha sonra beni yanan kömürler üzerinde yürüttü."
  health.mystic_treatment_questionable.6.desc:2 "[physician.GetTitledFirstName], [ROOT.Char.GetFaith.HealthGodNamePossessive] aklımın test edilmesini istediğini söyledi. Birlikte küçük bir göle ulaşana kadar seyahat ettik. El ele suyun içine girdik. Beni omuzlarımdan tutup suya gömdüğünde şaşkın bir şekilde karşı koymaya çalıştım. Kendimden geçmiş olmalıyım, uyandığımda daha sonra ne olduğunu hatırlamıyorum..."
@@ -400,16 +400,16 @@
  health.4000.very_wounded.desc:0 "kesik çok derinmiş. Vücudunun buna dayanamayacak kadar zayıf olmasından korkuyorum. Sanki ölüm yatağının başında bekliyor."
  health.4000.wounded.desc:0 "acı içinde. Çok önemli gözükmüyor ama yine de yaralar göz ardı edilemez."
  health.4000.a:0 "Yapabileceğim bir şey yok."
-### TODO AGOT-ONLY: health.4001.start.desc [AGOT: ]
- health.4001.start.desc:0 ""The time has come to treat your wounds."
+
+ health.4001.start.desc:0 ""Yaralarınızı tedavi etme zamanı geldi.""
  health.4001.safe_recommendation.desc:0 "Basit bir tedavinin yeterli olacağından eminim ama"
  health.4001.gangrene.desc:0 "Ölüm şimdiden vücudunda yayılmaya başladığığı için daha riskli yöntemler gerekli olabilir ama"
  health.4001.infection.desc:0 "Yara iltihaplandığı için daha riskli yöntemler öneriyorum ama"
  health.4001.risky_recommendation.desc:0 "Riskli yöntemler gerekli olabilir"
-### TODO AGOT-ONLY: health.4002.start.desc [AGOT: ]
- health.4002.start.desc:0 ""The time has come to treat your [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]."
-### TODO AGOT-ONLY: health.4002.start.desc_sick_physician [AGOT: ]
- health.4002.start.desc_sick_physician:0 ""The time has come to treat me."
+
+ health.4002.start.desc:0 ""[ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]'inizi tedavi etme zamanı geldi.""
+
+ health.4002.start.desc_sick_physician:0 ""Beni tedavi etme zamanı geldi.""
  health.4101.t:1 "$health_wounded_title$ İyileşme"
  health.4101.desc_infection:0 "[physician.GetFirstName] şifali bitkileri balla karıştırmaya başladığında şaka yapıyor zannettim. Birkaç bitki nasıl yardım edebilirdi ki. Lapayı açık yarama sürdüğünde"
  health.4101.desc_1:0 "[physician.GetFirstName] bir şişe şarabı yaramın üzerine boşalttığında daha da kötü acımaya başladı.\n\n"Lütfen dayanın efendim. İçerideki kötülüğü kırmak gerekiyor."\n\nGerçekten de sıkıca sardıktan sonra yaram"
@@ -459,22 +459,22 @@
  health.6004.desc:0 "Sadece bir adım. Bu kadar. Rüzgârın uğultusu içinde ayağımı kaldırıp öne atıyorum.\n\nBir anlığına sanki havada asılı kalıyorum, dünya etrafımda dönüyor. Sonra hızlanıyor. Kulağımdaki rüzgâr sesi, içimdeki düşüş hissi. Yeryüzü beni karşılamak için yükselmeye başlıyor..."
  health.6004.a:0 "Sonunda. Özgürlük."
  health.6005.desc:0 "Sadece bir adım. Bu kadar. Rüzgârın uğultusu içinde ayağımı kaldırıp öne atar-\n\nBirden bire arkama yuvarlanıyorum. Muhafızlardan biri beni tutuyor."
-### TODO AGOT-ONLY: health.6005.desc_ending [AGOT: ]
- health.6005.desc_ending:0 ""I am sorry, [ROOT.Char.Custom('FormOfAddressForLiege')], but you are not in your right mind!""
+
+ health.6005.desc_ending:0 ""Üzgünüm, [ROOT.Char.Custom('FormOfAddressForLiege')], ama aklınız başınızda değil!""
  health.6005.a:0 "O kadar da plan yapmıştım..."
  health.6007.desc:0 "Çayın buharını içime çekerken gözlerimi kapatıyorum. Büyük bir yudum alıyorum. Yutuyorum.\n\nBir süre sonra dünya grileşmeye başlıyor. Etrafım kararıyor ve kafamı masaya yaslıyorum. Nefesimin azaldığını hissediyorum. Gözlerimi kapatıyorum."
  health.6008.desc:0 "Çayın buharını içime çekerken gözlerimi kapatıyorum. Ağzımı açıp–\n\nBiri kadehi elimden alıp yere atıyor. Başımda bir muhafız duruyor, gözlerinde panik var."
  health.6010.desc:0 "Buhar etrafımı sarıyor ve bıçağı alıyorum. Nazikçe bir kolumun üstüne koyuyorum ve bastırıyorum. Bastırabildiğim kadar bastırıyorum.\n\nİki kolumda da eşit kesikler oluştuğunda hızla kızıllaşan suyun içine koyuyorum. Başımı arkama yasladığımda dünya etrafımda dönmeye başlıyor. Bu kadarmış..."
  health.6011.desc:0 "Buhar etrafımı sarıyor ve tam kolumu kesecekken içeriye muhafızlar girip bıçağı zorla alıyorlar.\n\n"
-### TODO AGOT-ONLY: health.6100.desc [AGOT: ]
- health.6100.desc:0 ""Hello [ROOT.Char.GetTitledFirstNameNoTooltip]. I just wanted to pay you a visit, to ask how you are doing since... the incident a while ago."\n\n[friendly_person.GetTitledFirstName] asks me with genuine warmth, and not even the mention of my attempted suicide can quell it completely."
+
+ health.6100.desc:0 ""Merhaba [ROOT.Char.GetTitledFirstNameNoTooltip]. Sadece seni ziyaret etmek istedim, bir süre önceki... olaydan bu yana nasıl olduğunu sormak için."\n\n[friendly_person.GetTitledFirstName] içten bir sıcaklıkla soruyor ve intihar girişimimin sözü bile bu sıcaklığı tamamen söndüremiyor.""
  health.6100.a:0 "Daha iyiyim, teşekkürler."
  health.6100.b:0 "Seni ilgilenmdirmiyor."
  health.6200.desc_opening:0 "Kendime geldiğim nadir anlardan birinde yanımda birinin olduğunu hissediyorum."
  health.6200.desc_close_person:0 "\n\n[ROOT.Char.Custom2('RelationToMe',SCOPE.sC('close_person'))|U] [close_person.GetTitledFirstName] olmalı. Bu günlerde yanıma gelen birkaç kişiden biri. Elimi uzatmaya çalışıyorum ama hareket etmiyorlar bile..."
  health.6200.desc:0 "Bu günlerde yanıma sadece hizmetkârlar geliyor. Yine de beni kurtaracak #EMP birine#! ihtiyacım var..."
-### TODO AGOT-ONLY: health.6200.a [AGOT: ]
- health.6200.a:0 ""[close_person.GetFirstNameNoTooltip]... Please... End this...""
+
+ health.6200.a:0 ""[close_person.GetFirstNameNoTooltip]... Lütfen... Buna bir son ver...""
  health.6200.a_success:0 "Kabul edecek"
  health.6200.a_failure:0 "Reddedecek"
  health.6200.a_failure_tt:0 "Ölmeyeceksiniz"
@@ -493,17 +493,17 @@
  health.6205.desc_1:0 "Bir süre sonra ayağa kalktığını hissediyorum. Yüzümde bir baskı var. Önce yumuşak başlıyor ama baskı gittikçe artıyor. Nefes alamıyorum ama minnettarım. Tam uykuya dalacakken ciğerlerime tekrar hava giriyor. Ağlama sesi duyuyorum. Sonra da uzaklaşan ayak sesleri."
  health.6205.desc_2:0 "Bir süre sonra ayağa kalktığını hissediyorum. Boğazımda soğuk ve keskin bir baskı. Baskı yavaş yavaş artıyor ve- ve bıçağın yere düştüğünü duyuyorum. Ağlama sesi geliyor. Sonra da uzaklaşan ayak sesleri."
  health.6205.a:0 "Hayır. Lütfen... Geri gel..."
-### TODO AGOT-ONLY: health.6206.desc [AGOT: ]
- health.6206.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip]..."\n\nI hear [close_person.GetFirstNamePossessive] voice as if from across a great void. "[ROOT.Char.GetFirstNameNoTooltip], I... I can't."\n\nDespair fills me, and only the sound of crying, of footsteps leaving, breaks through the fog in my mind."
+
+ health.6206.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip]..."\n\n[close_person.GetFirstNamePossessive] sesini sanki uçsuz bucaksız bir boşluktan duyuyorum. "[ROOT.Char.GetFirstNameNoTooltip], ben... yapamam."\n\nUmutsuzluk dolduruyor içimi ve zihnimdeki sisi yalnızca ağlama sesi, uzaklaşan ayak sesleri deliyor.""
  health.6207.desc:0 "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Çadırıma', 'Odama')] hizmetkârlardan biri girdiğinde zihnimdeki bulanıklığı, vücudumdaki uyuşukluğu atmak için uğraşıyorum. Sonunda konuşabiliyorum.\n\n"Sen... Kimsin...?"\n\n"Ben mi [ROOT.Char.Custom('FormOfAddressForLiege')|l]?" Hemen yanıma geliyor. "Adım [servant.GetFirstName]. Sizin için ne yapabilirim efendim?""
-### TODO AGOT-ONLY: health.6207.a [AGOT: ]
- health.6207.a:0 ""[servant.GetFirstNameNoTooltip]... Please... End this...""
+
+ health.6207.a:0 ""[servant.GetFirstNameNoTooltip]... Lütfen... Buna bir son ver...""
  health.6207.a_success:0 "Kabul edecek"
  health.6207.a_failure:0 "Reddedecek"
-### TODO AGOT-ONLY: health.6209.desc_refusal [AGOT: ]
- health.6209.desc_refusal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! I..."\n\n"
-### TODO AGOT-ONLY: health.6209.desc [AGOT: ]
- health.6209.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! I could never...! How can you even ask such a..."\n\nDespair fills me, and only the sound of crying, of footsteps leaving, breaks through the fog in my mind."
+
+ health.6209.desc_refusal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Ben..."\n\n"
+
+ health.6209.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Asla yapamam...! Böyle bir şeyi nasıl isteyebilirsin..."\n\nUmutsuzluk dolduruyor içimi ve zihnimdeki sisi yalnızca ağlama sesi, uzaklaşan ayak sesleri deliyor.""
  health.6210.desc:0 "Bekliyorum. [close_person.GetTitledFirstName] beni kurtaracaktı ama gelmiyor. Neden? Neden gelmiyor?"
  health.6210.a:0 "O da mı beni terk etti...?"
  health.7000.t:0 "Kendi Bedenimde Tutsak"

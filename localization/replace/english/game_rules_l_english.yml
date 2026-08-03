@@ -404,15 +404,15 @@
  setting_launch_off_desc:0 "Yapay Zekâ Macar Göçü'nü başlatmaya çalışmayacak."
  rule_matrilineal_marriages:0 "Anasoylu Evlilikler"
  setting_default_matrilineal_marriages:0 "Varsayılan"
-### TODO AGOT-CHANGED: setting_default_matrilineal_marriages_desc [AGOT: AI rulers will arrange [matrilineal|E] marriages for the first three [heirs|E] in line for their titles, eldest grandchildren, and any courtier in line to inherit a title. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal. | TR: YZ karakterler oyuncunun yakın ailesindense veya [dynasty_prestige_level_4|L] bir [Concept( 'dynasty', 'Hanedandansa' )|E] veya [GetLaw('equal_law').GetName] bir ülkedense veya güçlü bir [Concept( 'ruler', 'Hükümdarsa' )|E] [matrilineal|E] evlilikler yapacak. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] ülkelerde varsayılan evlilik türü anasoyludur.]
- setting_default_matrilineal_marriages_desc:0 "AI rulers will arrange [matrilineal|E] marriages for the first three [heirs|E] in line for their titles, eldest grandchildren, and any courtier in line to inherit a title. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] realms default to Matrilineal."
-### TODO AGOT-CHANGED: setting_matrilineal_marriages_no_player_exception [AGOT: #high Restricted#! | TR: #high Varsayılan (Oyuncuya Ayrıcalıksız)#!]
- setting_matrilineal_marriages_no_player_exception:0 "#high Restricted#!"
-### TODO AGOT-CHANGED: setting_matrilineal_marriages_no_player_exception_desc [AGOT: AI characters will arrange [matrilineal|E] marriages if they are of [duke|E] [title_tier|E] or greater, belong to a [dynasty_prestige_level_4|L] [dynasty|E], or to an [GetLaw('equal_law').GetName] realm, following the #high $setting_default_matrilineal_marriages$#! preferences. | TR: Yapay Zekâ karakterler [dynasty_prestige_level_4|L] bir [Concept( 'dynasty', 'Hanedandansa' )|E], veya [GetLaw('equal_law').GetName] bir ülkedense, veya güçlü bir [Concept( 'ruler', 'Hükümdarsa' )|E] [matrilineal|E] evlilikler yapacak. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] ülkelerde varsayılan evlilik türü anasoyludur.]
- setting_matrilineal_marriages_no_player_exception_desc:0 "AI characters will arrange [matrilineal|E] marriages if they are of [duke|E] [title_tier|E] or greater, belong to a [dynasty_prestige_level_4|L] [dynasty|E], or to an [GetLaw('equal_law').GetName] realm, following the #high $setting_default_matrilineal_marriages$#! preferences." 
+
+ setting_default_matrilineal_marriages_desc:0 "YZ karakterler oyuncunun yakın ailesindense veya [dynasty_prestige_level_4|L] bir [Concept( 'dynasty', 'Hanedandansa' )|E] veya [GetLaw('equal_law').GetName] bir ülkedense veya güçlü bir [Concept( 'ruler', 'Hükümdarsa' )|E] [matrilineal|E] evlilikler yapacak. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] ülkelerde varsayılan evlilik türü anasoyludur."
+
+ setting_matrilineal_marriages_no_player_exception:0 "#high Varsayılan (Oyuncuya Ayrıcalıksız)#!"
+
+ setting_matrilineal_marriages_no_player_exception_desc:0 "Yapay Zekâ karakterler [dynasty_prestige_level_4|L] bir [Concept( 'dynasty', 'Hanedandansa' )|E], veya [GetLaw('equal_law').GetName] bir ülkedense, veya güçlü bir [Concept( 'ruler', 'Hükümdarsa' )|E] [matrilineal|E] evlilikler yapacak. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] ülkelerde varsayılan evlilik türü anasoyludur."
  setting_matrilineal_marriages_always:0 "#high Her Zaman#!"
-### TODO AGOT-CHANGED: setting_matrilineal_marriages_always_desc [AGOT: AI characters will want to arrange [matrilineal|E] marriages for all female [dynasty|E] members and courtiers set to inherit a title. As with #high $setting_default_matrilineal_marriages$#! rules, [patrilineal|E] marriages still happen if deemed favorable enough. | TR: Yapay Zekâ karakterler tüm kadın [dynasty|E] mensupları için [matrilineal|E] evlilik yapmak isteyecek. #high $setting_default_matrilineal_marriages$#! kurallarda olduğu gibi [patrilineal|E] evlilikler yeteri kadar avantajlıysa hâlâ gerçekleşebilir.]
- setting_matrilineal_marriages_always_desc:0 "AI characters will want to arrange [matrilineal|E] marriages for all female [dynasty|E] members and courtiers set to inherit a title. As with #high $setting_default_matrilineal_marriages$#! rules, [patrilineal|E] marriages still happen if deemed favorable enough."
+
+ setting_matrilineal_marriages_always_desc:0 "Yapay Zekâ karakterler tüm kadın [dynasty|E] mensupları için [matrilineal|E] evlilik yapmak isteyecek. #high $setting_default_matrilineal_marriages$#! kurallarda olduğu gibi [patrilineal|E] evlilikler yeteri kadar avantajlıysa hâlâ gerçekleşebilir."
  setting_matrilineal_marriages_female_and_equal:0 "#high Anaerkil & Eşit#!"
  setting_matrilineal_marriages_female_and_equal_desc:0 "Yapay Zekâ karakterler sadece [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] ve [GetLaw('equal_law').GetName] bir ülkedense [matrilineal|E] evlilikler yapacak. #high $setting_default_matrilineal_marriages$#! kurallarda olduğu gibi [patrilineal|E] evlilikler yeteri kadar avantajlıysa hâlâ gerçekleşebilir."
  setting_matrilineal_marriages_never:0 "#high Asla#!"
@@ -474,28 +474,28 @@
  setting_never_seljuk_invasion_desc: "Selçuklular istila başlatmazlar."
  setting_random_seljuk_invasion: "#high Rastgele#!"
  setting_random_seljuk_invasion_desc: "Selçuklular rastgele bir tarihte istila başlatırlar."
-### TODO AGOT-CHANGED: rule_black_death_occurrence [AGOT: Great Spring Sickness Circumstance | TR: Kara Veba Durumu]
- rule_black_death_occurrence: "Great Spring Sickness Circumstance"
+
+ rule_black_death_occurrence:0 "Kara Veba Durumu"
  setting_bd_occurrence_organic: "#high Organik#!"
-### TODO AGOT-CHANGED: setting_bd_occurrence_organic_desc [AGOT: The Great Spring Sickness will occur in a historically plausible scenario that is reactive to the current state of the game. | TR: Kara Veba, oyunun mevcut durumuna tepki vererek tarihsel olarak mantıklı olabilen bir senaryoda gerçekleşecek.]
- setting_bd_occurrence_organic_desc: "The Great Spring Sickness will occur in a historically plausible scenario that is reactive to the current state of the game."
+
+ setting_bd_occurrence_organic_desc:0 "Kara Veba, oyunun mevcut durumuna tepki vererek tarihsel olarak mantıklı olabilen bir senaryoda gerçekleşecek."
  setting_bd_occurrence_historical: "Tarihsel"
-### TODO AGOT-CHANGED: setting_bd_occurrence_historical_desc [AGOT: The Great Spring Sickness will begin in a Westerosi city around 209 AC and spread organically. | TR: Kara Veba 14. yüzyılda Orta Asya'da başlayacak ve tarihsel olarak popüler ticaret yolları üzerinden organik olarak yayılacaktır. Milano, Pireneler, Polonya ve diğer tarihî bölgeler daha az etkilenecektir.]
- setting_bd_occurrence_historical_desc: "The Great Spring Sickness will begin in a Westerosi city around 209 AC and spread organically."
+
+ setting_bd_occurrence_historical_desc:0 "Kara Veba 14. yüzyılda Orta Asya'da başlayacak ve tarihsel olarak popüler ticaret yolları üzerinden organik olarak yayılacaktır. Milano, Pireneler, Polonya ve diğer tarihî bölgeler daha az etkilenecektir."
  setting_bd_occurrence_random: "#high Rastgele#!"
-### TODO AGOT-CHANGED: setting_bd_occurrence_random_desc [AGOT: The Great Spring Sickness will originate in a completely random province on the map. | TR: Kara Veba, haritada tamamen rastgele bir toprakta ortaya çıkacaktır.]
- setting_bd_occurrence_random_desc: "The Great Spring Sickness will originate in a completely random province on the map."
-### TODO AGOT-CHANGED: rule_black_death_frequency [AGOT: Great Spring Sickness Frequency | TR: Kara Veba Sıklığı]
- rule_black_death_frequency: "Great Spring Sickness Frequency"
+
+ setting_bd_occurrence_random_desc:0 "Kara Veba, haritada tamamen rastgele bir toprakta ortaya çıkacaktır."
+
+ rule_black_death_frequency:0 "Kara Veba Sıklığı"
  setting_bd_frequency_once: "Bir Kere"
-### TODO AGOT-CHANGED: setting_bd_frequency_once_desc [AGOT: The Great Spring Sickness can only occur once during your playthrough. | TR: Kara Veba, oyun sırasında yalnızca bir kez ortaya çıkabilir.]
- setting_bd_frequency_once_desc: "The Great Spring Sickness can only occur once during your playthrough."
+
+ setting_bd_frequency_once_desc:0 "Kara Veba, oyun sırasında yalnızca bir kez ortaya çıkabilir."
  setting_bd_frequency_unlimited: "[game_rule_extreme_i|e] #high Sınırsız#!"
-### TODO AGOT-CHANGED: setting_bd_frequency_unlimited_desc [AGOT: The Great Spring Sickness can appear an unlimited number of times in a campaign. | TR: Kara Veba, oyun sırasında birçok kez ortaya çıkabilir.]
- setting_bd_frequency_unlimited_desc: "The Great Spring Sickness can appear an unlimited number of times in a campaign."
+
+ setting_bd_frequency_unlimited_desc:0 "Kara Veba, oyun sırasında birçok kez ortaya çıkabilir."
  setting_bd_frequency_never: "#high Asla#!"
-### TODO AGOT-CHANGED: setting_bd_frequency_never_desc [AGOT: The Great Spring Sickness will never occur. | TR: Kara Veba asla ortaya çıkmaz.]
- setting_bd_frequency_never_desc: "The Great Spring Sickness will never occur."
+
+ setting_bd_frequency_never_desc:0 "Kara Veba asla ortaya çıkmaz."
  rule_other_epidemic_frequency: "Salgın Sıklığı"
  setting_epidemic_frequency_normal: "Normal"
  setting_epidemic_frequency_normal_desc: "Salgınlar normal bir hızda ortaya çıkacak ve yayılacaktır."

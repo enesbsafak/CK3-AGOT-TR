@@ -1,4 +1,4 @@
-﻿﻿﻿﻿l_english:
+﻿l_english:
  TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "[TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E] gerekiyor\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
  TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
  TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
@@ -29,10 +29,10 @@
  trait_education_intrigue_4_desc:0 "Gölge Ustası entrikanın ustası olmuştur ve kendisini her zaman bir gizlilik örtüsü sarar."
  trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] entrikanın ustası olmuştur ve kendisini her zaman bir gizlilik örtüsü sarar."
  trait_education_intrigue_5: "Sinsi Kuklacı"
-### TODO AGOT-CHANGED: trait_education_intrigue_5_desc [AGOT: The Conniving Puppetmaster is beyond the shadow lurking behind a wall, or the little bird listening outside a window, they are guile personified, and no plot is beyond their grasp. | TR: Sinsi Kuklacı rüzgârda bir fısıltı, duvarda bir gölge. Kelimelerin yetersiz kaldığı yerde bıçağı iş yapar.]
- trait_education_intrigue_5_desc:0 "The Conniving Puppetmaster is beyond the shadow lurking behind a wall, or the little bird listening outside a window, they are guile personified, and no plot is beyond their grasp. "
-### TODO AGOT-CHANGED: trait_education_intrigue_5_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is beyond the shadow lurking behind a wall, or the little bird listening outside a window, [ROOT.GetCharacter.GetSheHe] is guile personified and no plot is beyond [ROOT.GetCharacter.GetHerHis] grasp. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] rüzgârda bir fısıltı, duvarda bir gölge. Kelimelerin yetersiz kaldığı yerde bıçağı iş yapar.]
- trait_education_intrigue_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is beyond the shadow lurking behind a wall, or the little bird listening outside a window, [ROOT.GetCharacter.GetSheHe] is guile personified and no plot is beyond [ROOT.GetCharacter.GetHerHis] grasp."
+
+ trait_education_intrigue_5_desc:0 "Sinsi Kuklacı rüzgârda bir fısıltı, duvarda bir gölge. Kelimelerin yetersiz kaldığı yerde bıçağı iş yapar."
+
+ trait_education_intrigue_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] rüzgârda bir fısıltı, duvarda bir gölge. Kelimelerin yetersiz kaldığı yerde bıçağı iş yapar."
  trait_education_diplomacy_1:0 "Saf Tavizci"
  trait_education_diplomacy_1_desc:0 "Saf Tavizci diplomasi sanatı hakkında eğitim almasına rağmen çoğu zaman dedikleriyle kendini ve etrafındakileri utandırır."
  trait_education_diplomacy_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] diplomasi sanatı hakkında eğitim almasına rağmen çoğu zaman dedikleriyle kendini ve etrafındakileri utandırır."
@@ -42,17 +42,17 @@
  trait_education_diplomacy_3:0 "Karizmatik Müzakereci"
  trait_education_diplomacy_3_desc:0 "Güzel sözlerle ikna etmenin ve diplomasinin ince ayrıntılarının ehli olan Karizmatik Müzakereci, oldukça iyi bir diplomattır."
  trait_education_diplomacy_3_character_desc:0 "Güzel sözlerle ikna etmenin ve diplomasinin ince ayrıntılarının ehli olan [ROOT.GetCharacter.GetFirstNameNoTooltip], oldukça iyi bir diplomattır."
-### TODO AGOT-CHANGED: trait_education_diplomacy_4 [AGOT: Gracious Envoy | TR: Usta Diplomat]
- trait_education_diplomacy_4:0 "Gracious Envoy"
-### TODO AGOT-CHANGED: trait_education_diplomacy_4_desc [AGOT: As familiar with the nuances of diplomacy as the back of their hand, the Gracious Envoy is a master of the art. | TR: Diplomasiyi avucunun içi gibi bilen Usta Diplomat, sanatının üstadıdır.]
- trait_education_diplomacy_4_desc:0 "As familiar with the nuances of diplomacy as the back of their hand, the Gracious Envoy is a master of the art."
+
+ trait_education_diplomacy_4:0 "Usta Diplomat"
+
+ trait_education_diplomacy_4_desc:0 "Diplomasiyi avucunun içi gibi bilen Usta Diplomat, sanatının üstadıdır."
  trait_education_diplomacy_4_character_desc:0 "Diplomasiyi avucunun içi gibi bilen [ROOT.GetCharacter.GetFirstNameNoTooltip], sanatının üstadıdır."
-### TODO AGOT-CHANGED: trait_education_diplomacy_5 [AGOT: Wise Conciliator | TR: Hünerli Arabulucu]
- trait_education_diplomacy_5: "Wise Conciliator"
-### TODO AGOT-CHANGED: trait_education_diplomacy_5_desc [AGOT: The Wise Conciliator is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by their silver tongue the Envoy plays all to their whims. | TR: Hünerli Arabulucu'nun tatlı dili en katı kalpleri bile etkiler ve en barikatlı kapıları bile açabilir.]
- trait_education_diplomacy_5_desc: "The Wise Conciliator is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by their silver tongue the Envoy plays all to their whims."
-### TODO AGOT-CHANGED: trait_education_diplomacy_5_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by [ROOT.GetCharacter.GetHerHis] silver tongue [ROOT.GetCharacter.GetFirstNameNoTooltip] plays all to their whims. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] tatlı diliyle en katı kalpleri bile etkiler ve en barikatlı kapıları bile açabilir.]
- trait_education_diplomacy_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a virtuoso of statecraft and all its symphonies. Be it kin, distant dignataries, or hated foes, by [ROOT.GetCharacter.GetHerHis] silver tongue [ROOT.GetCharacter.GetFirstNameNoTooltip] plays all to their whims."
+
+ trait_education_diplomacy_5:0 "Hünerli Arabulucu"
+
+ trait_education_diplomacy_5_desc:0 "Hünerli Arabulucu'nun tatlı dili en katı kalpleri bile etkiler ve en barikatlı kapıları bile açabilir."
+
+ trait_education_diplomacy_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tatlı diliyle en katı kalpleri bile etkiler ve en barikatlı kapıları bile açabilir."
  trait_education_stewardship_1:0 "Hoşgörülü Savurgan"
  trait_education_stewardship_1_desc:0 "Hoşgörülü Savurgan para akışını öğrenmek için idare etme eğitimi almıştır fakat maalesef akış sadece tek yönde gidiyor."
  trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] para akışını öğrenmek için idare etme eğitimi almıştır fakat maalesef akış sadece tek yönde gidiyor."
@@ -62,64 +62,64 @@
  trait_education_stewardship_3:0 "Servet Mimarı"
  trait_education_stewardship_3_desc:0 "Servet Mimarı idareyle ilgili tüm işler için keskin bir zekâya sahiptir."
  trait_education_stewardship_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] idareyle ilgili tüm işler için keskin bir zekâya sahiptir."
-### TODO AGOT-CHANGED: trait_education_stewardship_4 [AGOT: Prosperous Seneschal | TR: Midas Dokunuşlu]
- trait_education_stewardship_4:0 "Prosperous Seneschal"
-### TODO AGOT-CHANGED: trait_education_stewardship_4_desc [AGOT: The Prosperous Seneschal is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art. | TR: Midas Dokunuşlu olan idare ve para konusunda başarıdan başarıya koşup üstatlığını gösterir.]
- trait_education_stewardship_4_desc:0 "The Prosperous Seneschal is followed by success after success in the art of stewardship, displaying an indisputable mastery of the art."
+
+ trait_education_stewardship_4:0 "Midas Dokunuşlu"
+
+ trait_education_stewardship_4_desc:0 "Midas Dokunuşlu olan idare ve para konusunda başarıdan başarıya koşup üstatlığını gösterir."
  trait_education_stewardship_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] idare ve para konusunda başarıdan başarıya koşup üstatlığını gösterir."
  trait_education_stewardship_5: "Altın Lider"
  trait_education_stewardship_5_desc: "Altın Lider başarısız bir işletmeyi en ufak ilgiyle refaha ulaştırabilir, iflasın eşiğinde olan yerden zenginlik fışkırabilir."
  trait_education_stewardship_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] başarısız bir işletmeyi en ufak ilgiyle refaha ulaştırabilir, iflasın eşiğinde olan yerden zenginlik fışkırabilir"
-### TODO AGOT-CHANGED: trait_education_martial_1 [AGOT: Incompetent Commander | TR: Rehbersiz Savaşçı]
- trait_education_martial_1:0 "Incompetent Commander"
-### TODO AGOT-CHANGED: trait_education_martial_1_desc [AGOT: Despite being groomed for command, this character shows little aptitude, with nary a grasp of elemental strategy. | TR: Rehbersiz Savaşçı savaş sanatında eğitim almıştır ama düşmanları yerine kendisine zarar vermeye daha yatkındır.]
- trait_education_martial_1_desc:0 "Despite being groomed for command, this character shows little aptitude, with nary a grasp of elemental strategy."
-### TODO AGOT-CHANGED: trait_education_martial_1_character_desc [AGOT: Despite being groomed for command, [ROOT.GetCharacter.GetFirstNameNoTooltip] shows little aptitude, with nary a grasp of elemental strategy. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] savaş sanatında eğitim almıştır ama düşmanları yerine kendisine zarar vermeye daha yatkındır.]
- trait_education_martial_1_character_desc:0 "Despite being groomed for command, [ROOT.GetCharacter.GetFirstNameNoTooltip] shows little aptitude, with nary a grasp of elemental strategy."
-### TODO AGOT-CHANGED: trait_education_martial_2 [AGOT: Dutiful Captain | TR: Kuvvetli Asker]
- trait_education_martial_2:0 "Dutiful Captain"
-### TODO AGOT-CHANGED: trait_education_martial_2_desc [AGOT: The Dutiful Captain is a reliable commander, capable of leading vanguards or skirmishes. | TR: Kuvvetli Asker askerî konularda biraz ustalık gösterse de öğreneceği çok şey var.]
- trait_education_martial_2_desc:0 "The Dutiful Captain is a reliable commander, capable of leading vanguards or skirmishes."
-### TODO AGOT-CHANGED: trait_education_martial_2_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is a reliable commander, capable of leading vanguards or skirmishes. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] askerî konularda biraz ustalık gösterse de öğreneceği çok şey var.]
- trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a reliable commander, capable of leading vanguards or skirmishes."
+
+ trait_education_martial_1:0 "Rehbersiz Savaşçı"
+
+ trait_education_martial_1_desc:0 "Rehbersiz Savaşçı savaş sanatında eğitim almıştır ama düşmanları yerine kendisine zarar vermeye daha yatkındır."
+
+ trait_education_martial_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] savaş sanatında eğitim almıştır ama düşmanları yerine kendisine zarar vermeye daha yatkındır."
+
+ trait_education_martial_2:0 "Kuvvetli Asker"
+
+ trait_education_martial_2_desc:0 "Kuvvetli Asker askerî konularda biraz ustalık gösterse de öğreneceği çok şey var."
+
+ trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] askerî konularda biraz ustalık gösterse de öğreneceği çok şey var."
  trait_education_martial_3:0 "Yetenekli Taktikçi"
  trait_education_martial_3_desc:0 "Yetenekli Taktikçi, askerî becerisiyle bilinen güvenilir bir komutan ve korkulan bir savaşçıdır."
  trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip], askerî becerisiyle bilinen güvenilir bir komutan ve korkulan bir savaşçıdır."
  trait_education_martial_4:0 "Dâhi Stratejist"
-### TODO AGOT-CHANGED: trait_education_martial_4_desc [AGOT: The Brilliant Strategist is an expert in the stratagem of both classical and modern commanders, and can execute them as easily as they draw blood. | TR: Dâhi Stratejist savaş alanının üstadıdır ve askerî meseleler ile ilgili her şeyi bilir.]
- trait_education_martial_4_desc:0 "The Brilliant Strategist is an expert in the stratagem of both classical and modern commanders, and can execute them as easily as they draw blood."
-### TODO AGOT-CHANGED: trait_education_martial_4_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is an expert in the stratagem of both classical and modern commanders, and can execute them as easily as they draw blood. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] savaş alanının üstadıdır ve askerî meseleler ile ilgili her şeyi bilir.]
- trait_education_martial_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is an expert in the stratagem of both classical and modern commanders, and can execute them as easily as they draw blood."
-### TODO AGOT-CHANGED: trait_education_martial_5 [AGOT: Ingenious General | TR: Yüce Savaş Beyi]
- trait_education_martial_5:0 "Ingenious General"
-### TODO AGOT-CHANGED: trait_education_martial_5_desc [AGOT: The Ingenious General's opponents shake with fear to learn who awaits them across the field. They overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver. | TR: Yüce Savaş Beyi savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir.]
- trait_education_martial_5_desc:0 "The Ingenious General's opponents shake with fear to learn who awaits them across the field. They overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver."
-### TODO AGOT-CHANGED: trait_education_martial_5_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] opponents shake with fear to learn who awaits them across the field. [ROOT.GetCharacter.GetSheHe] overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir.]
- trait_education_martial_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] opponents shake with fear to learn who awaits them across the field. [ROOT.GetCharacter.GetSheHe] overcomes seemingly insurmountable odds with consummate ease, turning whole campaigns with a single deft maneuver."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_1 [AGOT: Neophyte Fighter | TR: Beceriksiz Yaver]
- trait_education_martial_prowess_1:0 "Neophyte Fighter"
-### TODO AGOT-CHANGED: trait_education_martial_prowess_1_desc [AGOT: The Neophyte Fighter is more than capable of whomping on peasants, but their form is wild and callow. | TR: Beceriksiz Yaver sadece formalite açısından bir şövalyedir, aldığı eğitimden aklında pek bir şey kalmamıştır.]
- trait_education_martial_prowess_1_desc:0 "The Neophyte Fighter is more than capable of whomping on peasants, but their form is wild and callow."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_1_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is more than capable of whomping on peasants, but [ROOT.GetCharacter.GetHerHis] form is wild and callow. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] sadece formalite açısından bir şövalyedir, aldığı eğitimden aklında pek bir şey kalmamıştır.]
- trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is more than capable of whomping on peasants, but [ROOT.GetCharacter.GetHerHis] form is wild and callow."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_2 [AGOT: Trained Fighter | TR: Cüretkâr Şövalye]
- trait_education_martial_prowess_2:0 "Trained Fighter"
-### TODO AGOT-CHANGED: trait_education_martial_prowess_2_desc [AGOT: The Trained Fighter is competent in the arts of sword, mace and lance. Confident offensively and on the retreat, they are not to be overlooked. | TR: Cüretkâr Şövalye kendi kültürünün dövüş sanatıyla ilgilidir ve gençken ayaklanan köylülere karşı savaşmış bile olabilir.]
- trait_education_martial_prowess_2_desc:0 "The Trained Fighter is competent in the arts of sword, mace and lance. Confident offensively and on the retreat, they are not to be overlooked."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_2_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is competent in the arts of sword, mace and lance. Confident offensively and on the retreat, [ROOT.GetCharacter.GetSheHe] is not to be overlooked. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] kendi kültürünün dövüş sanatıyla ilgilidir ve gençken ayaklanan köylülere karşı savaşmış bile olabilir.]
- trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is competent in the arts of sword, mace and lance. Confident offensively and on the retreat, [ROOT.GetCharacter.GetSheHe] is not to be overlooked."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_3 [AGOT: Skilled Fighter | TR: Güçlü Savaşçı]
- trait_education_martial_prowess_3:0 "Skilled Fighter"
-### TODO AGOT-CHANGED: trait_education_martial_prowess_3_desc [AGOT: The Skilled Fighter is a hardened battler and doughty opponent for any who might pick up steel against them. | TR: Güçlü Kahraman daha gençken haydutlara karşı savaşmayı ve asker komuta etmeyi öğrenmiş, tecrübeli ve kararlı bir savaşçı hâline gelmiştir.]
- trait_education_martial_prowess_3_desc:0 "The Skilled Fighter is a hardened battler and doughty opponent for any who might pick up steel against them."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_3_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is a hardened battler and doughty opponent for any who might pick up steel against [ROOT.GetCharacter.GetHerHim]. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] daha gençken haydutlara karşı savaşmayı ve asker komuta etmeyi öğrenmiş, tecrübeli ve kararlı bir dövüşçü hâline gelmiştir]
- trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a hardened battler and doughty opponent for any who might pick up steel against [ROOT.GetCharacter.GetHerHim]."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_4 [AGOT: Formidable Fighter | TR: Ünlü Kahraman]
- trait_education_martial_prowess_4:0 "Formidable Fighter"
-### TODO AGOT-CHANGED: trait_education_martial_prowess_4_desc [AGOT: To see the Formidable Fighter on the battlefield is to see dread. They enjoy a deadly reputation; loved, respected and feared throughout the realm as a paragon of martial might. | TR: Ünlü Kahraman kendi kültürünün dövüş taktikleri üzerinde tamamen uzmanlaşmıştır ve ülkesinde hem saygı görür hem de korkulur.]
- trait_education_martial_prowess_4_desc:0 "To see the Formidable Fighter on the battlefield is to see dread. They enjoy a deadly reputation; loved, respected and feared throughout the realm as a paragon of martial might."
-### TODO AGOT-CHANGED: trait_education_martial_prowess_4_character_desc [AGOT: To see [ROOT.GetCharacter.GetFirstNameNoTooltip] on the battlefield is to meet [ROOT.Char.GetFaith.DeathDeityName]. [ROOT.Char.GetSheHe|U] enjoys a deadly reputation; loved, respected, and feared throughout the realm as a paragon of [ROOT.Char.GetCulture.GetName] martial might. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] kendi kültürünün dövüş taktikleri üzerinde tamamen uzmanlaşmıştır ve ülkesinde hem saygı görür hem de korkulur.]
- trait_education_martial_prowess_4_character_desc:0 "To see [ROOT.GetCharacter.GetFirstNameNoTooltip] on the battlefield is to meet [ROOT.Char.GetFaith.DeathDeityName]. [ROOT.Char.GetSheHe|U] enjoys a deadly reputation; loved, respected, and feared throughout the realm as a paragon of [ROOT.Char.GetCulture.GetName] martial might."
+
+ trait_education_martial_4_desc:0 "Dâhi Stratejist savaş alanının üstadıdır ve askerî meseleler ile ilgili her şeyi bilir."
+
+ trait_education_martial_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] savaş alanının üstadıdır ve askerî meseleler ile ilgili her şeyi bilir."
+
+ trait_education_martial_5:0 "Yüce Savaş Beyi"
+
+ trait_education_martial_5_desc:0 "Yüce Savaş Beyi savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir."
+
+ trait_education_martial_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] savaş alanında aşılmaz gibi görünen zorlukların üstesinden mükemmel bir kolaylıkla gelir, tek bir ustaca manevrayla tüm sefere yön verebilir."
+
+ trait_education_martial_prowess_1:0 "Beceriksiz Yaver"
+
+ trait_education_martial_prowess_1_desc:0 "Beceriksiz Yaver sadece formalite açısından bir şövalyedir, aldığı eğitimden aklında pek bir şey kalmamıştır."
+
+ trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sadece formalite açısından bir şövalyedir, aldığı eğitimden aklında pek bir şey kalmamıştır."
+
+ trait_education_martial_prowess_2:0 "Cüretkâr Şövalye"
+
+ trait_education_martial_prowess_2_desc:0 "Cüretkâr Şövalye kendi kültürünün dövüş sanatıyla ilgilidir ve gençken ayaklanan köylülere karşı savaşmış bile olabilir."
+
+ trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kendi kültürünün dövüş sanatıyla ilgilidir ve gençken ayaklanan köylülere karşı savaşmış bile olabilir."
+
+ trait_education_martial_prowess_3:0 "Güçlü Savaşçı"
+
+ trait_education_martial_prowess_3_desc:0 "Güçlü Kahraman daha gençken haydutlara karşı savaşmayı ve asker komuta etmeyi öğrenmiş, tecrübeli ve kararlı bir savaşçı hâline gelmiştir."
+
+ trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] daha gençken haydutlara karşı savaşmayı ve asker komuta etmeyi öğrenmiş, tecrübeli ve kararlı bir dövüşçü hâline gelmiştir"
+
+ trait_education_martial_prowess_4:0 "Ünlü Kahraman"
+
+ trait_education_martial_prowess_4_desc:0 "Ünlü Kahraman kendi kültürünün dövüş taktikleri üzerinde tamamen uzmanlaşmıştır ve ülkesinde hem saygı görür hem de korkulur."
+
+ trait_education_martial_prowess_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kendi kültürünün dövüş taktikleri üzerinde tamamen uzmanlaşmıştır ve ülkesinde hem saygı görür hem de korkulur."
  trait_education_martial_prowess_5: "Dinç Bıçak"
  trait_education_martial_prowess_5_desc: "Dinç Bıçak'ın savaştaki yetkinliğinden bahsederken ortam sessizleşir, en kıdemli askerler bile onun adını duyduğunda duraksar."
  trait_education_martial_prowess_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ve onun savaştaki yetkinliğinden bahsedilirken ortam sessizleşir, en kıdemli askerler bile onun adını duyduğunda duraksar."
@@ -135,12 +135,12 @@
  trait_education_learning_4:0 "Dâhi Filozof"
  trait_education_learning_4_desc:0 "Dâhi Filozof öğrenilebilecek ve üzerinde uzmanlaşılabilecek tüm konularda olağanüstü bir bilgiye ve anlayışa sahiptir."
  trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] öğrenilebilecek ve üzerinde uzmanlaşılabilecek tüm konularda olağanüstü bir bilgiye ve anlayışa sahiptir."
-### TODO AGOT-CHANGED: trait_education_learning_5 [AGOT: Erudite Scholar | TR: Bilge Kâhin]
- trait_education_learning_5: "Erudite Scholar"
-### TODO AGOT-CHANGED: trait_education_learning_5_desc [AGOT: The Erudite Scholar's knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles. | TR: Bilge Kâhin'in i̇lahi ve dünyevi konulardaki bilgisi eşsizdir. İlim çevrelerindeki herkes onun tavsiyelerinin peşinde koşar.]
- trait_education_learning_5_desc: "The Erudite Scholar's knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
-### TODO AGOT-CHANGED: trait_education_learning_5_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] i̇lahi ve dünyevi konularda eşsiz bilgilere sahiptir. İlim çevrelerindeki herkes onun tavsiyelerinin peşinde koşar.]
- trait_education_learning_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] knowledge of the higher mysteries and the mundane is unparalleled, their counsel sought by the great and the good of scholarly circles."
+
+ trait_education_learning_5:0 "Bilge Kâhin"
+
+ trait_education_learning_5_desc:0 "Bilge Kâhin'in i̇lahi ve dünyevi konulardaki bilgisi eşsizdir. İlim çevrelerindeki herkes onun tavsiyelerinin peşinde koşar."
+
+ trait_education_learning_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] i̇lahi ve dünyevi konularda eşsiz bilgilere sahiptir. İlim çevrelerindeki herkes onun tavsiyelerinin peşinde koşar."
  trait_diplomat:0 "Diplomat"
  trait_diplomat_desc:0 "Diplomat ustalıkla güzel ilişkiler kurabilir, en önemli hükümdarlar arasında ara buluculuk yaparken göz kamaştırıcı karizmasını ve kendine olan inancını kullanarak hedeflerine ulaşır."
  trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ustalıkla güzel ilişkiler kurabilir, en önemli hükümdarlar arasında ara buluculuk yaparken göz kamaştırıcı karizmasını ve kendine olan inancını kullanarak hedeflerine ulaşır."
@@ -362,10 +362,10 @@
  trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kendisini içkiye vermiş, sık sık şişenin dibini görüyor."
 
  trait_hashishiyah:0 "Haşhaş Sütü Bağımlısı"
-### TODO AGOT-CHANGED: trait_hashishiyah_desc [AGOT: This character is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life. | TR: Bu karakter gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş.]
- trait_hashishiyah_desc:0 "This character is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life."
-### TODO AGOT-CHANGED: trait_hashishiyah_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş.]
- trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life."
+
+ trait_hashishiyah_desc:0 "Bu karakter gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş."
+
+ trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş."
  trait_rakish:0 "Hovarda"
  trait_rakish_desc:0 "Bu karakter genelevde o kadar fazla vakit geçiriyor ki genelev ikinci evi hâline gelmiş."
  trait_rakish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] genelevde o kadar fazla vakit geçiriyor ki genelev ikinci evi hâline gelmiş."
@@ -407,8 +407,8 @@
  trait_burdened_character_desc: "Akademik başarı [ROOT.GetCharacter.GetFirstNameNoTooltip] adlı kişiden kaçıyor, yolu dikenlerle dolu. Sürekli yetersizlik duygusundan kaçmak için zihnini yukarıdaki yumuşak bulutlara doğru sürüklenmeye bırakıyor."
  trait_pregnant:0 "Hamile"
  trait_pregnant_desc:0 "Bu karakter gebe."
-### TODO AGOT-CHANGED: trait_pregnant_character_desc [AGOT: [ROOT.Char.Custom('AGOTGetPregnancyMonths')] | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] [SCOPE.ScriptValue('pregnancy_month')] aydır gebe.]
- trait_pregnant_character_desc:1 "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]"
+
+ trait_pregnant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [SCOPE.ScriptValue('pregnancy_month')] aydır gebe."
  trait_depressed_1:1 "Hüzünlü"
  trait_depressed_1_desc:0 "Bu karakter hayattaki iyi şeyleri görmekte zorlanıyor."
  trait_depressed_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hayattaki iyi şeyleri görmekte zorlanıyor."
@@ -539,8 +539,8 @@
  trait_bubonic_plague:0 "Gün Batımı Vebası"
  trait_bubonic_plague_desc:0 "Bu karakter derisinde siyah lekelere ve bubonlara sahip, bu dünyada sayılı günü kalmış."
  trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] derisinde siyah lekelere ve bubonlara sahip, bu dünyada sayılı günü kalmış."
-### TODO AGOT-CHANGED: trait_smallpox [AGOT: Pox | TR: Çiçek Hastalığı]
- trait_smallpox:0 "Pox"
+
+ trait_smallpox:0 "Çiçek Hastalığı"
  trait_smallpox_desc:0 "Derisi izler, kızarıklıklar ve kabarıklar ile kaplanmış olan bu karakter hastalığını atlatsa bile hiçbir zaman aynı olmayacak."
  trait_smallpox_character_desc:0 "Derisi izler, kızarıklıklar ve kabarıklar ile kaplanmış olan [ROOT.GetCharacter.GetFirstNameNoTooltip] hastalığını atlatsa bile hiçbir zaman aynı olmayacak."
  trait_sickly:0 "Hastalıklı"
@@ -706,12 +706,12 @@
  trait_devoted_female:0 "Adanmış"
  trait_devoted_desc:0 "Bu karakter ömrünü ulu bir gücün hizmetinde geçirmeye adamış."
  trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ömrünü ulu bir gücün hizmetinde geçirmeye adamış."
-### TODO AGOT-CHANGED: trait_devoted_child [AGOT: Promised to the Gods | TR: Ruhban Sınıfı için Söz Verilen]
- trait_devoted_child:0 "Promised to the Gods"
-### TODO AGOT-CHANGED: trait_devoted_child_desc [AGOT: This child is promised to the gods, and will eventually dedicate their life to the service of a higher power. | TR: Bu çocuğun ruhban sınıfına dâhil olması için söz verilmiş, büyüdüğünde ömrünü ulu bir gücün hizmetinde geçirmeye adayacak.]
- trait_devoted_child_desc:0 "This child is promised to the gods, and will eventually dedicate their life to the service of a higher power."
-### TODO AGOT-CHANGED: trait_devoted_child_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is promised to the gods, and will eventually dedicate [ROOT.GetCharacter.GetHerHis] life to the service of a higher power. | TR: [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ruhban sınıfına dâhil olması için söz verilmiş, büyüdüğünde ömrünü ulu bir gücün hizmetinde geçirmeye adayacak.]
- trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is promised to the gods, and will eventually dedicate [ROOT.GetCharacter.GetHerHis] life to the service of a higher power."
+
+ trait_devoted_child:0 "Ruhban Sınıfı için Söz Verilen"
+
+ trait_devoted_child_desc:0 "Bu çocuğun ruhban sınıfına dâhil olması için söz verilmiş, büyüdüğünde ömrünü ulu bir gücün hizmetinde geçirmeye adayacak."
+
+ trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ruhban sınıfına dâhil olması için söz verilmiş, büyüdüğünde ömrünü ulu bir gücün hizmetinde geçirmeye adayacak."
  trait_devoted_buddhism_male:0 "Bhikkhu"
  trait_devoted_buddhism_female:0 "Bhikkhuni"
  trait_devoted_hinduism_male:0 "Sanyasi"
@@ -770,36 +770,36 @@
  trait_legend: "Yaşayan Efsane"
  trait_legend_character_desc: "Kahramanca yaşamıyla tanınan [ROOT.GetCharacter.GetFirstNameNoTooltip], herkes tarafından yaşayan bir efsane olarak bilinir." 
  trait_legend_desc: "Kahramanca yaşamıyla tanınan bu karakter, herkes tarafından yaşayan bir efsane olarak bilinir."
-### TODO AGOT-CHANGED: trait_historical_character [AGOT: Canon Character | TR: Tarihî Karakter]
- trait_historical_character: "Canon Character"
-### TODO AGOT-CHANGED: trait_historical_character_character_desc [AGOT: [ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of canonical importance. | TR: [ROOT.GetCharacter.GetFullNameNicknamed] dinamik olarak ortaya çıkan ve gerçek hayatta önemli olan biri.]
- trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] has dynamically emerged and is of canonical importance."
-### TODO AGOT-CHANGED: trait_historical_character_desc [AGOT: This character has dynamically emerged and is of canonical importance. | TR: Bu karakter, dinamik olarak ortaya çıkan ve gerçek hayatta önemli olan biri.]
- trait_historical_character_desc: "This character has dynamically emerged and is of canonical importance."
+
+ trait_historical_character:0 "Tarihî Karakter"
+
+ trait_historical_character_character_desc:0 "[ROOT.GetCharacter.GetFullNameNicknamed] dinamik olarak ortaya çıkan ve gerçek hayatta önemli olan biri."
+
+ trait_historical_character_desc:0 "Bu karakter, dinamik olarak ortaya çıkan ve gerçek hayatta önemli olan biri."
  trait_order_member:0 "Kutsal Tarikat Mensubu"
  trait_order_member_desc:0 "Bu karakter silahlanmış bir Kutsal Tarikat'a mensup."
  trait_order_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] silahlanmış bir Kutsal Tarikat'a mensup."
  trait_bastard:0 "Piç"
  trait_bastard_desc:1 "Bu karakter meşru bir aileden doğmamış veya bir cariyeden doğmuş. Tüm yaşamları boyunca gayrimeşru damgasıyla yaşamak zorunda kalacak."
  trait_bastard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] meşru bir aileden doğmamış veya bir cariyeden doğmuş. Tüm yaşamları boyunca gayrimeşru damgasıyla yaşamak zorunda kalacak."
-### TODO NOT-IN-ST: trait_bastard_flowers_desc [AGOT: Born or raised a [bastard|E] in the Reach, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Flowers#!.]
- trait_bastard_flowers_desc:0 "Born or raised a [bastard|E] in the Reach, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Flowers#!."
-### TODO NOT-IN-ST: trait_bastard_hill_desc [AGOT: Born or raised a [bastard|E] in the Westerlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Hill#!.]
- trait_bastard_hill_desc:0 "Born or raised a [bastard|E] in the Westerlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Hill#!."
-### TODO NOT-IN-ST: trait_bastard_pyke_desc [AGOT: Born or raised a [bastard|E] in the Iron Islands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Pyke#!.]
- trait_bastard_pyke_desc:0 "Born or raised a [bastard|E] in the Iron Islands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Pyke#!."
-### TODO NOT-IN-ST: trait_bastard_rivers_desc [AGOT: Born or raised a [bastard|E] in the Riverlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Rivers#!.]
- trait_bastard_rivers_desc:0 "Born or raised a [bastard|E] in the Riverlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Rivers#!."
-### TODO NOT-IN-ST: trait_bastard_sand_desc [AGOT: Born or raised a [bastard|E] in Dorne, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Sand#!.]
- trait_bastard_sand_desc:0 "Born or raised a [bastard|E] in Dorne, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Sand#!."
-### TODO NOT-IN-ST: trait_bastard_snow_desc [AGOT: Born or raised a [bastard|E] in the North, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Snow#!.]
- trait_bastard_snow_desc:0 "Born or raised a [bastard|E] in the North, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Snow#!."
-### TODO NOT-IN-ST: trait_bastard_stone_desc [AGOT: Born or raised a [bastard|E] in the Vale, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Stone#!.]
- trait_bastard_stone_desc:0 "Born or raised a [bastard|E] in the Vale, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Stone#!."
-### TODO NOT-IN-ST: trait_bastard_storm_desc [AGOT: Born or raised a [bastard|E] in the Stormlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Storm#!.]
- trait_bastard_storm_desc:0 "Born or raised a [bastard|E] in the Stormlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Storm#!."
-### TODO NOT-IN-ST: trait_bastard_waters_desc [AGOT: Born or raised a [bastard|E] in the Crownlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Waters#!.]
- trait_bastard_waters_desc:0 "Born or raised a [bastard|E] in the Crownlands, [ROOT.GetCharacter.GetFirstNameNoTooltip] is forced to live with the stain of illegitimacy [ROOT.GetCharacter.GetHerHis] whole life by bearing the [agot_surname|E] #high Waters#!."
+
+ trait_bastard_flowers_desc:0 "Menzilde bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Flowers#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_hill_desc:0 "Batı Toprakları'nda bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Hill#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_pyke_desc:0 "Demir Adalar'da bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Pyke#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_rivers_desc:0 "Nehir Toprakları'nda bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Rivers#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_sand_desc:0 "Dorne'da bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Sand#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_snow_desc:0 "Kuzey'de bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Snow#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_stone_desc:0 "Vadi'de bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Stone#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_storm_desc:0 "Fırtına Toprakları'nda bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Storm#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
+
+ trait_bastard_waters_desc:0 "Kral Toprakları'nda bir [bastard|E] olarak doğup büyüyen [ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.GetCharacter.GetHerHis] hayatı boyunca [agot_surname|E] #high Waters#! soyadını taşıyarak gayrimeşruluğun lekesiyle yaşamak zorunda."
  trait_twin:0 "İkiz"
  trait_twin_desc:0 "Bu karakter ikizi ile doğmuş."
  trait_twin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ikizi ile doğmuş."
@@ -813,16 +813,16 @@
  trait_wild_oat_desc:0 "Bu karakter evlilik dışı doğmuş."
  trait_wild_oat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] evlilik dışı doğmuş."
  trait_bastard_founder:0 "Kurucu Piç"
-### TODO AGOT-CHANGED: trait_bastard_founder_desc [AGOT: A bastard who has founded their own [bastard_house|E]. | TR: Kendi [Concept( 'dynasty', 'Hanedanını' )|E] kurmuş eski bir piç.]
- trait_bastard_founder_desc:0 "A bastard who has founded their own [bastard_house|E]."
-### TODO AGOT-CHANGED: trait_bastard_founder_character_desc [AGOT: A bastard who has founded [ROOT.GetCharacter.GetHerHis] own [bastard_house|E]. | TR: Kendi [Concept( 'dynasty', 'Hanedanını' )|E] kurmuş eski bir piç.]
- trait_bastard_founder_character_desc:0 "A bastard who has founded [ROOT.GetCharacter.GetHerHis] own [bastard_house|E]."
-### TODO AGOT-CHANGED: trait_kinslayer_1 [AGOT: House Kinslayer | TR: Hanedan Katili]
- trait_kinslayer_1:0 "House Kinslayer"
-### TODO AGOT-CHANGED: trait_kinslayer_1_desc [AGOT: This character has committed the sin of murdering a house member. | TR: Bu karakter kendi hanedanının bir mensubunu öldürmüş.]
- trait_kinslayer_1_desc:0 "This character has committed the sin of murdering a house member."
-### TODO AGOT-CHANGED: trait_kinslayer_1_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] has committed the sin of murdering a house member. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] kendi hanedanının bir mensubunu öldürmüş.]
- trait_kinslayer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has committed the sin of murdering a house member."
+
+ trait_bastard_founder_desc:0 "Kendi [Concept( 'dynasty', 'Hanedanını' )|E] kurmuş eski bir piç."
+
+ trait_bastard_founder_character_desc:0 "Kendi [Concept( 'dynasty', 'Hanedanını' )|E] kurmuş eski bir piç."
+
+ trait_kinslayer_1:0 "Hanedan Katili"
+
+ trait_kinslayer_1_desc:0 "Bu karakter kendi hanedanının bir mensubunu öldürmüş."
+
+ trait_kinslayer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kendi hanedanının bir mensubunu öldürmüş."
  trait_kinslayer_2:0 "Aile Katili"
  trait_kinslayer_2_desc:0 "Bu karakter geniş ailesinden birini öldürmüş."
  trait_kinslayer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] geniş ailesinden birini öldürmüş."
@@ -856,20 +856,20 @@
  trait_berserker:0 "Cinnetkâr"
  trait_berserker_desc:0 "Bu karakter köpürmeye bir kez başlayınca anca düşmanlarının ölümüne tanık olduğunda sakinleşir."
  trait_berserker_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] köpürmeye bir kez başlayınca anca düşmanlarının ölümüne tanık olduğunda sakinleşir."
-### TODO AGOT-CHANGED: trait_shieldmaiden_female [AGOT: Axe Wife | TR: Kalkan Bakiresi]
- trait_shieldmaiden_female:0 "Axe Wife"
-### TODO AGOT-CHANGED: trait_shieldmaidens_female [AGOT: Axe Wives | TR: Kalkan Bakireleri]
- trait_shieldmaidens_female:0 "Axe Wives"
-### TODO AGOT-CHANGED: trait_shieldmaiden_male [AGOT: Axe Husband | TR: Kalkan Taşıyıcı]
- trait_shieldmaiden_male:0 "Axe Husband"
-### TODO AGOT-CHANGED: trait_shieldmaidens_male [AGOT: Axe Husbands | TR: Kalkan Taşıyıcılar]
- trait_shieldmaidens_male:0 "Axe Husbands"
-### TODO AGOT-CHANGED: trait_shieldmaiden_desc [AGOT: This character has taken an axe as a lover, fighting on the battlefield as any other warrior. | TR: Bu karakter toplum düzenine karşı gelerek her normal savaşçı gibi kalkan duvarında yerini alıyor.]
- trait_shieldmaiden_desc:0 "This character has taken an axe as a lover, fighting on the battlefield as any other warrior."
-### TODO AGOT-CHANGED: trait_shieldmaiden_female_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] has taken an axe as a lover, defying the structure of [ROOT.GetCharacter.GetHerHis] society, and fighting on the battlefield as though [ROOT.GetCharacter.GetSheHe] were a man. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] toplum düzenine karşı gelerek erkekmiş gibi kalkan duvarında yerini alıyor.]
- trait_shieldmaiden_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken an axe as a lover, defying the structure of [ROOT.GetCharacter.GetHerHis] society, and fighting on the battlefield as though [ROOT.GetCharacter.GetSheHe] were a man."
-### TODO AGOT-CHANGED: trait_shieldmaiden_male_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] has taken an axe as a lover, defying the structure of [ROOT.GetCharacter.GetHerHis] society, and fighting on the battlefield as though [ROOT.GetCharacter.GetSheHe] were a woman. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] toplum düzenine karşı gelerek kadınmış gibi kalkan duvarında yerini alıyor.]
- trait_shieldmaiden_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has taken an axe as a lover, defying the structure of [ROOT.GetCharacter.GetHerHis] society, and fighting on the battlefield as though [ROOT.GetCharacter.GetSheHe] were a woman."
+
+ trait_shieldmaiden_female:0 "Kalkan Bakiresi"
+
+ trait_shieldmaidens_female:0 "Kalkan Bakireleri"
+
+ trait_shieldmaiden_male:0 "Kalkan Taşıyıcı"
+
+ trait_shieldmaidens_male:0 "Kalkan Taşıyıcılar"
+
+ trait_shieldmaiden_desc:0 "Bu karakter toplum düzenine karşı gelerek her normal savaşçı gibi kalkan duvarında yerini alıyor."
+
+ trait_shieldmaiden_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] toplum düzenine karşı gelerek erkekmiş gibi kalkan duvarında yerini alıyor."
+
+ trait_shieldmaiden_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] toplum düzenine karşı gelerek kadınmış gibi kalkan duvarında yerini alıyor."
  trait_varangian:0 "Vareg"
  trait_varangian_desc:0 "Bu karakter Vareg Muhafızlarının bir parçası olarak Bizans Ordusu'nda hizmet etti."
  trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] Vareg Muhafızlarının bir parçası olarak Bizans Ordusu'nda hizmet etti."
@@ -889,40 +889,40 @@
  trait_adventurer_follower_remembers_leader_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip], [ROOT.Var('former_camp_leader').Char.GetTitledFirstName] adlı kişinin kampında yaşamış ve o maceracı toprak sahibi olduğunda tebaası olmuş."
  trait_adventurer_follower_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] bir [GetTrait('adventurer').GetName( GetNullCharacter )]nın kampında yaşamış ve o maceracı toprak sahibi olduğunda tebaası olmuş."
  trait_education_republican_knowledge:0 "Cumhuriyet Bilgisi"
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_1 [AGOT: Errand Runner | TR: Kasaba Sakini]
- trait_education_republican_knowledge_1:0 "Errand Runner"
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_1_desc [AGOT: The Errand Runner was educated in city management but retained little of it, being fit only to carry out minute tasks for their betters. | TR: Bu karakter şehir yönetimiyle ilgili bir şeyler biliyor.]
- trait_education_republican_knowledge_1_desc:1 "The Errand Runner was educated in city management but retained little of it, being fit only to carry out minute tasks for their betters."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_1_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] was educated in city management but retained little of it, being fit only to carry out minute tasks for [ROOT.GetCharacter.GetHerHis] betters. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimiyle ilgili bir şeyler biliyor.]
- trait_education_republican_knowledge_1_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was educated in city management but retained little of it, being fit only to carry out minute tasks for [ROOT.GetCharacter.GetHerHis] betters."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_2 [AGOT: Guild Patron | TR: Acemi Vali]
- trait_education_republican_knowledge_2:0 "Guild Patron"
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_2_desc [AGOT: The Guild Patron took their education in the study of mercantilism and can safely run an enterprise without going destitute. | TR: Bu karakter şehir yönetimi sanatı üzerine eğitim almış.]
- trait_education_republican_knowledge_2_desc:1 "The Guild Patron took their education in the study of mercantilism and can safely run an enterprise without going destitute."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_2_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] took [ROOT.GetCharacter.GetHerHis] education in the ways of the Free Cities and can safely run an enterprise without going destitute. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimi sanatı üzerine eğitim almış.]
- trait_education_republican_knowledge_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took [ROOT.GetCharacter.GetHerHis] education in the ways of the Free Cities and can safely run an enterprise without going destitute."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_3 [AGOT: Shrewd Banker | TR: Kasaba Ustası]
- trait_education_republican_knowledge_3:0 "Shrewd Banker"
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_3_desc [AGOT: The Shrewd Banker took swiftly to their education, emulating the Free Cities, having become beyond proficient with numbers and coins. | TR: Bu karakter şehir yönetmeyi iyi biliyor.]
- trait_education_republican_knowledge_3_desc:1 "The Shrewd Banker took swiftly to their education, emulating the Free Cities, having become beyond proficient with numbers and coins."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_3_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] took swiftly to [ROOT.GetCharacter.GetHerHis] education, emulating the Free Cities, having become beyond proficient with numbers and coins. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetmeyi iyi biliyor.]
- trait_education_republican_knowledge_3_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took swiftly to [ROOT.GetCharacter.GetHerHis] education, emulating the Free Cities, having become beyond proficient with numbers and coins."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_4 [AGOT: Honeyed Broker | TR: Cumhuriyet Vârisi]
- trait_education_republican_knowledge_4:0 "Honeyed Broker"
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_4_desc [AGOT: The Honeyed Broker excels in the cut-throat world of politics and commerce that dominates the Free Cities. Mastering management and subterfuge, the Honeyed Broker is a true lord of the city. | TR: Bu karakter şehir yönetimi sanatının ustası olmuş.]
- trait_education_republican_knowledge_4_desc:1 "The Honeyed Broker excels in the cut-throat world of politics and commerce that dominates the Free Cities. Mastering management and subterfuge, the Honeyed Broker is a true lord of the city."
-### TODO AGOT-CHANGED: trait_education_republican_knowledge_4_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] excels in the cut-throat world of politics and commerce that dominates the Free Cities. Mastering management and subterfuge, [ROOT.GetCharacter.GetFirstNameNoTooltip] is a true lord of the city. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimi sanatının ustası olmuş.]
- trait_education_republican_knowledge_4_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] excels in the cut-throat world of politics and commerce that dominates the Free Cities. Mastering management and subterfuge, [ROOT.GetCharacter.GetFirstNameNoTooltip] is a true lord of the city."
-### TODO NOT-IN-ST: trait_education_republican_knowledge_5_neutral [AGOT: Ruler of Trade]
- trait_education_republican_knowledge_5_neutral:0 "Ruler of Trade"
-### TODO NOT-IN-ST: trait_education_republican_knowledge_5_male [AGOT: Prince of Trade]
- trait_education_republican_knowledge_5_male:0 "Prince of Trade"
-### TODO NOT-IN-ST: trait_education_republican_knowledge_5_female [AGOT: Princess of Trade]
- trait_education_republican_knowledge_5_female:0 "Princess of Trade"
-### TODO NOT-IN-ST: trait_education_republican_knowledge_5_desc [AGOT: The Ruler of Trade not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. They are near untouchable, their reach spreading across realms, across nations, all bringing them wealth.]
- trait_education_republican_knowledge_5_desc:0 "The Ruler of Trade not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. They are near untouchable, their reach spreading across realms, across nations, all bringing them wealth."
-### TODO NOT-IN-ST: trait_education_republican_knowledge_5_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. [ROOT.GetCharacter.GetSheHe|U] is near untouchable, [ROOT.GetCharacter.GetHerHis] reach spreading across realms, across nations, all bringing [ROOT.GetCharacter.GetHerHim] wealth.]
- trait_education_republican_knowledge_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] not only excelled, but mastered, the complex, convoluted world of the Free Cities finances. [ROOT.GetCharacter.GetSheHe|U] is near untouchable, [ROOT.GetCharacter.GetHerHis] reach spreading across realms, across nations, all bringing [ROOT.GetCharacter.GetHerHim] wealth."
+
+ trait_education_republican_knowledge_1:0 "Kasaba Sakini"
+
+ trait_education_republican_knowledge_1_desc:0 "Bu karakter şehir yönetimiyle ilgili bir şeyler biliyor."
+
+ trait_education_republican_knowledge_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimiyle ilgili bir şeyler biliyor."
+
+ trait_education_republican_knowledge_2:0 "Acemi Vali"
+
+ trait_education_republican_knowledge_2_desc:0 "Bu karakter şehir yönetimi sanatı üzerine eğitim almış."
+
+ trait_education_republican_knowledge_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimi sanatı üzerine eğitim almış."
+
+ trait_education_republican_knowledge_3:0 "Kasaba Ustası"
+
+ trait_education_republican_knowledge_3_desc:0 "Bu karakter şehir yönetmeyi iyi biliyor."
+
+ trait_education_republican_knowledge_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetmeyi iyi biliyor."
+
+ trait_education_republican_knowledge_4:0 "Cumhuriyet Vârisi"
+
+ trait_education_republican_knowledge_4_desc:0 "Bu karakter şehir yönetimi sanatının ustası olmuş."
+
+ trait_education_republican_knowledge_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] şehir yönetimi sanatının ustası olmuş."
+
+ trait_education_republican_knowledge_5_neutral:0 "Ticaret Hükümdarı"
+
+ trait_education_republican_knowledge_5_male:0 "Ticaret Prensi"
+
+ trait_education_republican_knowledge_5_female:0 "Ticaret Prensesi"
+
+ trait_education_republican_knowledge_5_desc:0 "Ticaret Hükümdarı, Özgür Şehirler'in karmaşık ve çapraşık mali dünyasında sadece başarılı olmakla kalmadı, ona hükmetmeyi de öğrendi. Neredeyse dokunulmazdır; nüfuzu diyarlara, uluslara yayılır ve hepsi ona servet getirir."
+
+ trait_education_republican_knowledge_5_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sadece başarılı olmakla kalmadı, Özgür Şehirler'in karmaşık ve çapraşık mali dünyasına hükmetmeyi de öğrendi. [ROOT.GetCharacter.GetSheHe|U] neredeyse dokunulmaz; [ROOT.GetCharacter.GetHerHis] nüfuzu diyarlara, uluslara yayılır ve hepsi [ROOT.GetCharacter.GetHerHim]e servet getirir."
  trait_child_of_concubine:1 "Cariye Çocuğu"
  trait_child_of_concubine_desc:0 "Bu karakter bir cariyeden doğdu."
  trait_child_of_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] bir cariyeden doğdu."
@@ -1207,8 +1207,8 @@
  trait_education_stewardship:0 "İdare Öğrencileri"
  trait_education_martial:0 "Savaş Öğrencileri"
  trait_education_learning:0 "Bilgi Öğrencileri"
-### TODO AGOT-CHANGED: trait_education_martial_prowess [AGOT: Students of Swordplay | TR: Şövalyelik Öğrencileri]
- trait_education_martial_prowess:0 "Students of Swordplay"
+
+ trait_education_martial_prowess:0 "Şövalyelik Öğrencileri"
  trait_lifestyle_reveler:1 "Âlemci"
  trait_lifestyle_blademaster:1 "Kılıç Ustası"
  trait_lifestyle_hunter:1 "Avcı"
@@ -1236,8 +1236,8 @@
  trait_track_wit_desc:0 "Güç ve güzellik solar ama zekâ sizi en karanlık anlardan bile kurtarır."
  trait_lifestyle_hunter_desc:0 "Bu karakter yabanın çağrısına cevap vermiş."
  trait_lifestyle_hunter_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] yabanın çağrısına cevap vermiş."
-### TODO AGOT-CHANGED: trait_track_hunter [AGOT: Arghurys | TR: Avcı]
- trait_track_hunter:0 "Arghurys"
+
+ trait_track_hunter:0 "Avcı"
  trait_track_hunter_desc:0 "Boruların sesi, köpekler ve av! İster mızrakla ister yayla, vahşi bir canavarı alt etmenin verdiği hazzı hiçbir yerde bulamazsınız!"
  trait_track_falconer:0 "Kuşçu"
  trait_track_falconer_desc:0 "Doğan ve şahinle avlanmaktan daha soylu bir avlanma türü olamaz."

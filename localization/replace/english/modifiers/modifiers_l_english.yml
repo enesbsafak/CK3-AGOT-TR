@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  MOD_DIPLOMACY: "[diplomacy|E]"
  MOD_INTRIGUE: "[intrigue|E]"
  MOD_STEWARDSHIP: "[stewardship|E]"
@@ -150,16 +150,16 @@
  drylands_cancel_negative_supply:1 "[command_modifier_i|E]Kurak Arazide [supply_limit|E] Cezasını Yoksay"
  drylands_max_combat_roll:1 "[command_modifier_i|E]Kurak Arazide Maksimum [combat_roll|E]"
  drylands_min_combat_roll:1 "[command_modifier_i|E]Kurak Arazide Minimum [combat_roll|E]"
-### TODO AGOT-CHANGED: farmlands_advantage [AGOT: [command_modifier_i|E][advantage|E] in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde [advantage|E]]
- farmlands_advantage:1 "[command_modifier_i|E][advantage|E] in Meadows"
-### TODO AGOT-CHANGED: farmlands_attrition_mult [AGOT: [command_modifier_i|E][attrition|E] Taken in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde Alınan [attrition|E]]
- farmlands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Taken in Meadows"
-### TODO AGOT-CHANGED: farmlands_cancel_negative_supply [AGOT: [command_modifier_i|E]Negate [supply_limit|E] Penalty in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde [supply_limit|E] Cezasını Yoksay]
- farmlands_cancel_negative_supply:1 "[command_modifier_i|E]Negate [supply_limit|E] Penalty in Meadows"
-### TODO AGOT-CHANGED: farmlands_max_combat_roll [AGOT: [command_modifier_i|E]Maximum [combat_roll|E] in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde Maksimum [combat_roll|E]]
- farmlands_max_combat_roll:1 "[command_modifier_i|E]Maximum [combat_roll|E] in Meadows"
-### TODO AGOT-CHANGED: farmlands_min_combat_roll [AGOT: [command_modifier_i|E]Minimum [combat_roll|E] in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde Minimum [combat_roll|E]]
- farmlands_min_combat_roll:1 "[command_modifier_i|E]Minimum [combat_roll|E] in Meadows"
+
+ farmlands_advantage:0 "[command_modifier_i|E]Tarım Alanları Arazisinde [advantage|E]"
+
+ farmlands_attrition_mult:0 "[command_modifier_i|E]Tarım Alanları Arazisinde Alınan [attrition|E]"
+
+ farmlands_cancel_negative_supply:0 "[command_modifier_i|E]Tarım Alanları Arazisinde [supply_limit|E] Cezasını Yoksay"
+
+ farmlands_max_combat_roll:0 "[command_modifier_i|E]Tarım Alanları Arazisinde Maksimum [combat_roll|E]"
+
+ farmlands_min_combat_roll:0 "[command_modifier_i|E]Tarım Alanları Arazisinde Minimum [combat_roll|E]"
  forest_advantage:1 "[command_modifier_i|E]Ormanlık Arazide [advantage|E]"
  forest_attrition_mult:1 "[command_modifier_i|E]Ormanlık Arazide Alınan [attrition|E]"
  forest_cancel_negative_supply:1 "[command_modifier_i|E]Ormanlık Arazideki [supply_limit|E] Cezasını Yoksay"
@@ -875,8 +875,8 @@
  game_concept_great_project_build_speed: "[great_project|E] İnşa Süresi"
  MOD_CONSTRUCTION_GOLD_COST:1 "[building|E] İnşa Etme Maliyeti"
  plains_construction_gold_cost:0 "Ovada $MOD_CONSTRUCTION_GOLD_COST$"
-### TODO AGOT-CHANGED: farmlands_construction_gold_cost [AGOT: $MOD_CONSTRUCTION_GOLD_COST$ in Meadows | TR: Tarım Alanlarında $MOD_CONSTRUCTION_GOLD_COST$]
- farmlands_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ in Meadows"
+
+ farmlands_construction_gold_cost:0 "Tarım Alanlarında $MOD_CONSTRUCTION_GOLD_COST$"
  hills_construction_gold_cost:0 "Tepelerde $MOD_CONSTRUCTION_GOLD_COST$"
  mountains_construction_gold_cost:0 "Dağlarda $MOD_CONSTRUCTION_GOLD_COST$"
  desert_construction_gold_cost:0 "Çölde $MOD_CONSTRUCTION_GOLD_COST$"
@@ -914,8 +914,8 @@
  MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR:1 "[development|E] Artışı"
  MOD_MONTHLY_DEVELOPMENT_DECLINE_FACTOR: "[development|E] Azalması"
  plains_development_growth: "Ovada $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
-### TODO AGOT-CHANGED: farmlands_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Meadows | TR: Tarım Alanlında $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- farmlands_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Meadows"
+
+ farmlands_development_growth:0 "Tarım Alanlında $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
  hills_development_growth: "Tepede $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
  mountains_development_growth: "Dağda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
  desert_development_growth: "Çölde $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
@@ -929,8 +929,8 @@
  floodplains_development_growth: "Taşkın Yatağında $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
  drylands_development_growth: "Kurak Alanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
  plains_development_growth_factor:1 "Ovada $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
-### TODO AGOT-CHANGED: farmlands_development_growth_factor [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows | TR: Tarım Alanlarında $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$]
- farmlands_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows"
+
+ farmlands_development_growth_factor:0 "Tarım Alanlarında $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  hills_development_growth_factor:1 "Tepelerde $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  mountains_development_growth_factor:1 "Dağlarda $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  desert_development_growth_factor:1 "Çölde $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
@@ -1065,8 +1065,8 @@
  MOD_HOLDING_CONSTRUCTION_SPEED:0 "[holding|E] İnşa Etme Süresi"
  MOD_HOLDING_CONSTRUCTION_GOLD_COST:1 "[holding|E] İnşa Etme Maliyeti"
  plains_holding_construction_gold_cost:0 "Ovada $MOD_HOLDING_CONSTRUCTION_GOLD_COST$"
-### TODO AGOT-CHANGED: farmlands_holding_construction_gold_cost [AGOT: $MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Meadows | TR: Tarım Alanlarında $MOD_HOLDING_CONSTRUCTION_GOLD_COST$]
- farmlands_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ in Meadows"
+
+ farmlands_holding_construction_gold_cost:0 "Tarım Alanlarında $MOD_HOLDING_CONSTRUCTION_GOLD_COST$"
  hills_holding_construction_gold_cost:0 "Tepelerde $MOD_HOLDING_CONSTRUCTION_GOLD_COST$"
  mountains_holding_construction_gold_cost:0 "Dağlarda $MOD_HOLDING_CONSTRUCTION_GOLD_COST$"
  desert_holding_construction_gold_cost:0 "Çölde $MOD_HOLDING_CONSTRUCTION_GOLD_COST$"
@@ -1223,8 +1223,8 @@
  temple_citadel_holding_build_piety_cost: "Tapınak Kalesi [Concept( 'buildings', 'Binaları' )|E] İnşa Maliyeti" 
  temple_citadel_holding_holding_build_gold_cost: "Tapınak Kalesi [Concept( 'holding', 'Yerleşimi' )|E] İnşa Maliyeti"
  plains_tax_mult:0 "Ovada $MOD_TAX_MULT$"
-### TODO AGOT-CHANGED: farmlands_tax_mult [AGOT: $MOD_TAX_MULT$ in Meadows | TR: Tarım Alanlarında $MOD_TAX_MULT$]
- farmlands_tax_mult:0 "$MOD_TAX_MULT$ in Meadows"
+
+ farmlands_tax_mult:0 "Tarım Alanlarında $MOD_TAX_MULT$"
  hills_tax_mult:0 "Tepelerde $MOD_TAX_MULT$"
  terraced_hills_tax_mult:0 "Teraslı Tepelerde $MOD_TAX_MULT$"
  mountains_tax_mult:0 "Dağlarda $MOD_TAX_MULT$"
@@ -1239,8 +1239,8 @@
  floodplains_tax_mult:0 "Taşkın Yatağında $MOD_TAX_MULT$"
  drylands_tax_mult:0 "Kurak Arazide $MOD_TAX_MULT$"
  plains_levy_size:0 "Ovada $MOD_LEVY_SIZE$"
-### TODO AGOT-CHANGED: farmlands_levy_size [AGOT: $MOD_LEVY_SIZE$ in Meadows | TR: Tarım Alanlarında $MOD_LEVY_SIZE$]
- farmlands_levy_size:0 "$MOD_LEVY_SIZE$ in Meadows"
+
+ farmlands_levy_size:0 "Tarım Alanlarında $MOD_LEVY_SIZE$"
  hills_levy_size:0 "Tepelerde $MOD_LEVY_SIZE$"
  mountains_levy_size:0 "Dağlarda $MOD_LEVY_SIZE$"
  desert_levy_size:0 "Çölde $MOD_LEVY_SIZE$"
@@ -1255,8 +1255,8 @@
  drylands_levy_size:0 "Kurak Arazide $MOD_LEVY_SIZE$"
  terraced_hills_levy_size: "Teraslı Tepelerde $MOD_LEVY_SIZE$"
  plains_supply_limit_mult:0 "Ovada $MOD_SUPPLY_LIMIT_MULT$"
-### TODO AGOT-CHANGED: farmlands_supply_limit_mult [AGOT: $MOD_SUPPLY_LIMIT_MULT$ in Meadows | TR: Tarım Alanlarında $MOD_SUPPLY_LIMIT_MULT$]
- farmlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Meadows"
+
+ farmlands_supply_limit_mult:0 "Tarım Alanlarında $MOD_SUPPLY_LIMIT_MULT$"
  hills_supply_limit_mult:0 "Tepelerde $MOD_SUPPLY_LIMIT_MULT$"
  mountains_supply_limit_mult:0 "Dağlarda $MOD_SUPPLY_LIMIT_MULT$"
  desert_supply_limit_mult:0 "Çölde $MOD_SUPPLY_LIMIT_MULT$"
@@ -1483,8 +1483,8 @@
  lifestyle_traveler_xp_gain_mult:0 "[GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] [trait_level_track_xp|E] Kazancı"
  lifestyle_reveler_xp_gain_mult:0 "[GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait_level_track_xp|E] Kazancı"
  lifestyle_hunter_xp_gain_mult:0 "[GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait_level_track_xp|E] Kazancı"
-### TODO AGOT-CHANGED: trait_track_hunter_xp_gain_mult [AGOT: Arghurys #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Gain | TR: Av Hayranı #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Kazancı]
- trait_track_hunter_xp_gain_mult:0 "Arghurys #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Gain"
+
+ trait_track_hunter_xp_gain_mult:0 "Av Hayranı #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Kazancı"
  trait_track_falconer_xp_gain_mult:0 "Kuşçu #weak ([GetTrait('lifestyle_hunter').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Kazancı"
  trait_track_lifestyle_poet_xp_gain_mult:0 "Poetry #weak ([GetTrait('lifestyle_poet').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Kazancı"
  trait_track_peasant_leader_xp_gain_mult: "Notoriety #weak ([GetTrait('peasant_leader').GetName( GetNullCharacter )])#! [trait_level_track_xp|E] Kazancı"
@@ -1630,11 +1630,11 @@
  plains_fertility_growth_mult: "$plains_fertility_growth_add$"
  plains_fertility_decline_add: "Ova [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Düşüşü"
  plains_fertility_decline_mult: "$plains_fertility_decline_add$"
-### TODO AGOT-CHANGED: farmlands_fertility_growth_add [AGOT: [county_fertility|E] Growth in Meadows [terrain|E] | TR: Tarım Alanı [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Artışı]
- farmlands_fertility_growth_add: "[county_fertility|E] Growth in Meadows [terrain|E]"
+
+ farmlands_fertility_growth_add:0 "Tarım Alanı [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Artışı"
  farmlands_fertility_growth_mult: "$farmlands_fertility_growth_add$"
-### TODO AGOT-CHANGED: farmlands_fertility_decline_add [AGOT: [county_fertility|E] Decline in Meadows [terrain|E] | TR: Tarım Alanı [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Düşüşü]
- farmlands_fertility_decline_add: "[county_fertility|E] Decline in Meadows [terrain|E]"
+
+ farmlands_fertility_decline_add:0 "Tarım Alanı [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Düşüşü"
  farmlands_fertility_decline_mult: "$farmlands_fertility_decline_add$"
  hills_fertility_growth_add: "Tepelik [Concept('terrain', 'Arazilerde')|E] [county_fertility|E] Artışı"
  hills_fertility_growth_mult: "$hills_fertility_growth_add$"

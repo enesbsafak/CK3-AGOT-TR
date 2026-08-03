@@ -83,8 +83,8 @@
  other_rulers_effects_concept: "[ruler|E]"
  casus_belli_effects: "#bold Savaş Sebebi Etkileri#!"
  casus_belli_effects_concept: "[casus_belli|E]"
-### TODO AGOT-CHANGED: legitimacy_effects [AGOT: #bold Legitimacy Effects#! | TR: $LEGITIMACY_CHANGED_EFFECTS$#S Etkileri:#!\n[LegitimacyLevel.GetModifierDesc]]
- legitimacy_effects: "#bold Legitimacy Effects#!"
+
+ legitimacy_effects:0 "$LEGITIMACY_CHANGED_EFFECTS$#S Etkileri:#!\n[LegitimacyLevel.GetModifierDesc]"
  legitimacy_effects_concept: "[legitimacy|E]"
  culture_effects: "#bold Kültür Etkileri#!"
  culture_effects_concept: "[culture|E]"

@@ -9,14 +9,14 @@
  settle_one_county:0 "Settle the immediate [county|E]"
 ### TODO NOT-IN-ST: settle_one_county_tooltip [AGOT: $settle_one_county$]
  settle_one_county_tooltip:0 "$settle_one_county$"
-### TODO NOT-IN-ST: settle_one_county_desc [AGOT: ]
- settle_one_county_desc:0 ""
+
+ settle_one_county_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 ### TODO NOT-IN-ST: settle_duchy [AGOT: Attempt to settle the [duchy|E]]
  settle_duchy:0 "Attempt to settle the [duchy|E]"
 ### TODO NOT-IN-ST: settle_duchy_tooltip [AGOT: $settle_duchy$]
  settle_duchy_tooltip:0 "$settle_duchy$"
-### TODO NOT-IN-ST: settle_duchy_desc [AGOT: ]
- settle_duchy_desc:0 ""
+
+ settle_duchy_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 ### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_decision_confirm [AGOT: It is time to make a home...]
  settle_wilderness_county_or_duchy_decision_confirm:0 "It is time to make a home..."
 ### TODO NOT-IN-ST: settle_wilderness_county_or_duchy_basic_effect [AGOT: For every #V 100#! [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E], you will settle #P 1#! [county|E]]

@@ -928,16 +928,16 @@
  doctrine_parameter_adultery_female_shunned:1 "[GetTrait('adulterer').GetName( GetNullCharacter )] veya [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E]lerine sahip olan kadınlar [Concept( 'shunned', 'Ayıplanmıştır' )|E]."
  doctrine_parameter_adultery_female_accepted:1 "[GetTrait('adulterer').GetName( GetNullCharacter )] veya [GetTrait('fornicator').GetName( GetNullCharacter )] [trait|E]lerine sahip olan kadınlar tamamen kabul görür."
  doctrine_kinslaying_name:0 "Akraba Öldürme"
-### TODO AGOT-CHANGED: doctrine_kinslaying_any_dynasty_member_crime_name [AGOT: House is Criminal | TR: Hanedandan ise Suç]
- doctrine_kinslaying_any_dynasty_member_crime_name:0 "House is Criminal"
-### TODO AGOT-CHANGED: doctrine_kinslaying_any_dynasty_member_crime_desc [AGOT: All kin are bound by blood, and to kill even a distant relative is a grievous crime against the entire house. Such transgressions will not be forgotten. | TR: Tüm akrabalar kan ile bağlıdır ve uzak bir akrabayı öldürmek bile tüm hanedanlığa karşı işlenen büyük bir suçtur. Bu tür suçlar unutulmaz.]
- doctrine_kinslaying_any_dynasty_member_crime_desc:0 "All kin are bound by blood, and to kill even a distant relative is a grievous crime against the entire house. Such transgressions will not be forgotten."
-### TODO AGOT-CHANGED: doctrine_parameter_kinslaying_any_dynasty_member_crime [AGOT: [kinslayers|E] with the [GetTrait('kinslayer_1').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [house|E] | TR: [GetTrait('kinslayer_1').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] veya daha kötüsüne sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E].]
- doctrine_parameter_kinslaying_any_dynasty_member_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_1').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [house|E]"
-### TODO AGOT-CHANGED: doctrine_parameter_kinslaying_extended_family_crime [AGOT: [kinslayers|E] with the [GetTrait('kinslayer_2').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [house|E] | TR: [GetTrait('kinslayer_2').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] veya daha kötüsüne sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E].]
- doctrine_parameter_kinslaying_extended_family_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_2').GetName( GetPlayer )] [trait|E] or worse are [criminals|E] in the eyes of their [house|E]"
-### TODO AGOT-CHANGED: doctrine_parameter_kinslaying_close_kin_crime [AGOT: [kinslayers|E] with the [GetTrait('kinslayer_3').GetName( GetPlayer )] [trait|E] are [criminals|E] in the eyes of their [house|E] | TR: [GetTrait('kinslayer_3').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E].]
- doctrine_parameter_kinslaying_close_kin_crime:0 "[kinslayers|E] with the [GetTrait('kinslayer_3').GetName( GetPlayer )] [trait|E] are [criminals|E] in the eyes of their [house|E]"
+
+ doctrine_kinslaying_any_dynasty_member_crime_name:0 "Hanedandan ise Suç"
+
+ doctrine_kinslaying_any_dynasty_member_crime_desc:0 "Tüm akrabalar kan ile bağlıdır ve uzak bir akrabayı öldürmek bile tüm hanedanlığa karşı işlenen büyük bir suçtur. Bu tür suçlar unutulmaz."
+
+ doctrine_parameter_kinslaying_any_dynasty_member_crime:0 "[GetTrait('kinslayer_1').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] veya daha kötüsüne sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E]."
+
+ doctrine_parameter_kinslaying_extended_family_crime:0 "[GetTrait('kinslayer_2').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] veya daha kötüsüne sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E]."
+
+ doctrine_parameter_kinslaying_close_kin_crime:0 "[GetTrait('kinslayer_3').GetName( GetPlayer )] [Concept( 'trait', 'Özelliğine' )|E] sahip [kinslayers|E] [Concept( 'dynasty', 'Hanedanın' )|E] gözünde [Concept( 'criminal', 'Suçludur' )|E]."
  doctrine_parameter_kinslaying_shunned:0 "[kinslayers|E] [Concept( 'shunned', 'Ayıplanmıştır' )|E]."
  doctrine_parameter_kinslaying_accepted:0 "Akrabasını öldüren karakterler [kinslayer|E] olarak görülmez."
  doctrine_kinslaying_extended_family_crime_name:0 "Haneden ise Suç"
@@ -969,12 +969,12 @@
  doctrine_parameter_consanguinity_unrestricted_marriage:0 "Aile üyeleri aralarında evlenebilir."
  doctrine_parameter_consanguinity_unrestricted_incest:0 "Aile üyeleri arasındaki cinsel ilişkiler ensest [Concept( 'secret', 'Sırrını' )|E] vermez."
  doctrine_parameter_consanguinity_restricted_dynastic_marriage: "Aynı [Concept('dynasty', 'Hanedana')|E] mensup kişiler arası evlilikler yasaktır"
-### TODO AGOT-ONLY: doctrine_parameter_allows_cousin_marriage [AGOT: ]
- doctrine_parameter_allows_cousin_marriage:0 ""
-### TODO AGOT-ONLY: doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage [AGOT: ]
- doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage:0 ""
-### TODO AGOT-ONLY: doctrine_parameter_allows_unrestricted_marriage [AGOT: ]
- doctrine_parameter_allows_unrestricted_marriage:0 ""
+
+ doctrine_parameter_allows_cousin_marriage:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_allows_unrestricted_marriage:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_pluralism_name:0 "Dinî Tavır"
  doctrine_parameter_hostility_towards_us_mult:0 "Farklı [faiths|E]e inananların görüş eksisi $VALUE|%V0$ seviyesindedir."
  doctrine_pluralism_fundamentalist_name:0 "Tutucu"
@@ -999,10 +999,10 @@
  doctrine_theocracy_lay_clergy_name:0 "Lâikat"
  doctrine_theocracy_lay_clergy_desc:0 "Kendini adamış her inanan, mezhebimizin ilkelerini anlayabilir, takip edebilir ve yayabilir."
  doctrine_parameter_theocracy_temple_ownership:0 "Seküler [rulers|E] kendi tapınak [holdings|E]ini doğrudan kontrol ederler ve onlara bağlı tüm faydalardan yararlanırlar."
-### TODO AGOT-ONLY: doctrine_parameter_lay_clergy [AGOT: ]
- doctrine_parameter_lay_clergy:0 ""
-### TODO AGOT-ONLY: doctrine_parameter_allowed_holding_type_church_holding [AGOT: ]
- doctrine_parameter_allowed_holding_type_church_holding:0 ""
+
+ doctrine_parameter_lay_clergy:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_allowed_holding_type_church_holding:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_clerical_function_name:0 "Ruhban Sınıfının Görevi"
  doctrine_clerical_function_taxation_name:1 "Kontrol"
  doctrine_clerical_function_taxation_desc:1 "[ROOT.Faith.HighGodName] tarafından verilen yetkilerini kullanan [ROOT.Faith.AltPriestTermPlural], bu yetki yaşadığımız dünyada da geçerlidir."
@@ -1208,8 +1208,8 @@
  doctrine_parameter_mandatory_pilgrimage:1 "[GetTrait('pilgrim').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] ek bonuslara sahiptir ve [pilgrimage|E] [Concept( 'activity', 'Etkinliği' )|E] tamamlandığında daha fazla [piety|E] verir"
  mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
  doctrine_parameter_mandatory_hajj:1 "[GetTrait('hajjaj').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] ek bonuslara sahiptir ve [hajj|E] [Concept( 'activity', 'Etkinliği' )|E] tamamlandığında daha fazla [piety|E] verir"
-### TODO AGOT-ONLY: doctrine_parameter_basic_pilgrimage_rewards [AGOT: ]
- doctrine_parameter_basic_pilgrimage_rewards:0 ""
+
+ doctrine_parameter_basic_pilgrimage_rewards:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  mandala_pilgrimage_warning: "\n@alert_icon! #alert_trial $forbidden_from_pilgrimage_name$ bir [Concept('faith', 'Mezhebe')|E] geçmek bir [Concept('mandala_government', 'Mandala')|E] [Concept('ruler', 'Hükümdarı')|E] olarak ilerleyişinizi imkânsız hâle getirir#!\n"
  special_doctrine_has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
  special_doctrine_jizya_name: "$tenet_tax_nonbelievers_jizya_name$"
@@ -1229,8 +1229,8 @@
  doctrine_funeral_mummification_desc: "Bedenin işlevi sona ermiştir ama ruhun öbür dünyaya gideceği araç olmaya devam etmektedir. Bu nedenle fiziksel form da ruh kadar değişmez olmalıdır ve [ROOT.Faith.FateGodNamePossessive] yargısını beklemelidir."
  doctrine_family_rites_name: "Aile Ritüelleri"
  doctrine_family_rites_desc: "Ölüm, yaşayanlar için bir yas ve ritüel dönemidir. Hiyerarşi ve kıdem, ölümde de yaşamda olduğu kadar önemlidir. Vefatlarından sonra bile yaşlıları saygıyla yâd etmek ve bunu doğru biçimlerle yaptığınızı göstermek mühimdir."
-### TODO AGOT-ONLY: doctrine_parameter_burial_funeral [AGOT: ]
- doctrine_parameter_burial_funeral: ""
+
+ doctrine_parameter_burial_funeral:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_stoic_funeral: "[funeral|E] [Concept( 'activity', 'Etkinliği' )|E], [piety|E] kazanmak için daha çok fırsat sunacaktır"
  doctrine_parameter_bewailment_funeral: "[funeral|E] [Concept( 'activity', 'Etkinliği' )|E], [stress|E] azaltmak için daha çok fırsat sunacaktır"
  doctrine_parameter_cremation_funeral: "[funeral|E] [Concept( 'activity', 'Etkinliğinin' )|E] [gold|E] maliyeti büyük oranda azalır"

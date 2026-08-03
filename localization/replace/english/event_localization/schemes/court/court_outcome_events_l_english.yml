@@ -7,8 +7,8 @@
  court_outcome.0003.success.desc:0 "[owner.GetFirstName] bana olan duygularını ilan etmeden önce hayat nasıl hatırlayamıyorum bile. O günler çok karanlık, çok hüzünlü görünüyor... Yanımda o varken her şeyi yapabilirim gibi hissediyorum, imkânsız diye bir şey yok.\n\nKeşke sonsuza kadar böyle devam edebilseydik ama seçim yapmam gerektiğini biliyorum. Duygularımı takip edecek kadar cesur muyum yoksa yüreğimi ona kapatmalı mıyım?"
  court_outcome.0003.failure.desc:0 "[owner.GetFirstName] bana olan duygularını ilan etmeden önce hayat nasıl hatırlayamıyorum bile. Gururum okşanıyor tabii ama ilgisinden de biraz sıkılıyorum. Keşke huzur içinde yaşayabilsem.\n\nYine de endişeliyim. Ya tek gerçek aşkım oysa? Reddedersem başka birini bulabilir miyim? Hiç emin değilim..."
  court_outcome.0003.a:0 "Sonsuza kadar birlikte olalım [owner.GetFirstNameNoTooltip]."
-### TODO AGOT-CHANGED: court_outcome.0003.a.tt [AGOT: I will lay with [owner.GetShortUIName|U] and [owner.GetSheHe] might become my Soulmate | TR: [owner.GetShortUIName|U] ruh eşim olabilir]
- court_outcome.0003.a.tt:0 "I will lay with [owner.GetShortUIName|U] and [owner.GetSheHe] might become my Soulmate"
+
+ court_outcome.0003.a.tt:0 "[owner.GetShortUIName|U] ruh eşim olabilir"
  court_outcome.0003.b.success:0 "Gerçek aşkının öpücüğü yeter."
  court_outcome.0003.b.failure:0 "Bağlılığı için en azından bir kere öpsem olur herhâlde."
  court_outcome.0003.b.tt:0 "[owner.GetShortUIName|U] ruh eşim #bold olmayacak#!"
@@ -20,8 +20,8 @@
  court_outcome.1000.own_invite.desc:0 "[target.GetFirstName] beni düzenlediği ava davet ettiğinde hiç düşünmeden kabul ettim. Atın üzerindeki görkemli, kararlı duruşunu kim görmek istemez ki?"
  court_outcome.1000.liege_invite.desc:1 "[target_host.Custom2('NamePossessiveCharacterIntroduction', target)|U] beni düzenlediği ava davet ettiğinde hiç düşünmeden kabul ettim. [target.Custom('LoverPetName')|U] ile bir dakikalığına bile görüşmek için her şeyi yaparım."
  court_outcome.1000.end.desc:0 "\n\nÇalıların arasından gizlice hareket ediyorum. Arkamda yaverim, önümde köpeğim var. Avın kokusunu aldı sanırım sonunda! Bir [Select_CString(target.IsFemale, 'kadının', 'adamın' )] çığlığını duyunca ne yapsam diye düşünüyorum."
-### TODO AGOT-ONLY: court_outcome.1000.a [AGOT: ]
- court_outcome.1000.a:0 ""I am coming for you, my love!""
+
+ court_outcome.1000.a:0 ""Geliyorum sana, aşkım!""
  court_outcome.1000.b:0 "Yaveri göndersem daha iyi..."
  court_outcome.1000.c:0 "Kuş sesidir, kuş."
  court_outcome.1000.b.failure:0 "[target.GetFirstNameNoTooltip] vahşi bir canavar tarafından saldırıya uğrayacak"
@@ -29,8 +29,8 @@
  court_outcome.1001.desc:1 "Hemen koşmaya başlıyorum ve kısa süre içerisinde bir açıklığa ulaşıyorum. O kadar korkuyorum ki saatlerdir koşuyorum sanki. Sonunda görüyorum. [target.GetFirstName] yerde yatıyor, silahı yok. Karşısında saldırmaya hazırlanan devasa bir [ROOT.Char.Custom('GetAnimalType')] var.\n\nOkum canavarın iki kaşının ortasına saplanıyor, yavaş yavaş yere devriliyor. [target.GetFirstNameNoTooltip] bir süre etrafına ve yerde yatan hayvana bakıyor. Sonra ayağa kalkıp bana sarılıyor."
  court_outcome.1001.a:0 "Sana ihtiyacım var aşkım. Hemen, burada."
  court_outcome.1001.b:0 "Tek isteğim bir öpücüğün."
-### TODO AGOT-ONLY: court_outcome.1002.desc [AGOT: ]
- court_outcome.1002.desc:1 ""[target.GetFirstName]! I am coming!" I burst through the foliage into the clearing, my heart beating wildly, sweat streaming down my face.\n\nBut the scene before me is not what I expected. There is a [ROOT.Char.Custom('GetAnimalType')], yes — but it is on the ground, an arrow stuck between its eyes. [target.GetFirstNameNoTooltip] lowers [target.GetHerHis] bow as [target.GetSheHe] turns to face me.\n\n"What is this about, [owner.GetTitledFirstNameNoTooltip]? Did you think me incapable of defending myself?""
+
+ court_outcome.1002.desc:0 ""[target.GetFirstName]! Geliyorum!" Yaprakların arasından açıklığa dalıyorum, kalbim çılgınca atıyor, yüzümden terler akıyor.\n\nAma karşımdaki manzara beklediğim gibi değil. Bir [ROOT.Char.Custom('GetAnimalType')] var, evet — ama yerde, gözlerinin arasına saplanmış bir okla. [target.GetFirstNameNoTooltip] bana dönmek için yayını indiriyor.\n\n"Bu da neyin nesi, [owner.GetTitledFirstNameNoTooltip]? Beni kendimi savunamaz mı sandın?""
  court_outcome.1002.a:0 "Ha... Yok, kayboldum sadece."
  court_outcome.1005.desc:0 "Yaklaştıkça çığlıklar da artıyor. [target.Custom('RomanticComplimentAdjective')|U] [target.GetFirstName] olmalı, sesini nerede olsa tanırım.\n\nFakat çığlıklarında garip bir şey var. Pek korku dolu değil gibi... Acı çığlığı da değil...\n\nSonunda ne olduğunu gördüğümde içim eriyor sanki. [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] ile çırılçıplak çimlerin üzerinde yatıyorlar."
  court_outcome.1005.a:0 "Kalbinde bana yer yok belli."
@@ -52,19 +52,19 @@
  court_outcome.1100.targets_host_residence.desc:0 "kaldığı yere gidiyorum."
  court_outcome.1100.end.desc:0 "\n\nSonunda ulaşıyorum. Odasının penceresini görmek bile heyecanlandırıyor. Çok yakın ama çok uzak...\n\nBi' dakika!? Biri kuleye mi tırmanıyor ne? [target.GetFirstNameNoTooltip] tehlikede olabilir mi? Evet! Penceresinin yanında durup dışarıdan açmaya çalışıyor..."
  court_outcome.1100.a:0 "[target.Custom('LoverPetName')|U]! Kurtaracağım seni bekle!"
-### TODO AGOT-ONLY: court_outcome.1100.b [AGOT: ]
- court_outcome.1100.b:0 ""Guards! #EMP Guards!#! There is an intruder in the tower!"
+
+ court_outcome.1100.b:0 ""Muhafızlar! #EMP Muhafızlar!#! Kulede bir davetsiz misafir var!"
  court_outcome.1100.b.failure:0 "[target.GetShortUIName|U] yaralanacak"
  court_outcome.1100.b.success:0 "[target.GetShortUIName|U] yaralanmadan kurtulacak"
  court_outcome.1100.c:0 "Hırsızlarla uğraşmak için gelmedim."
  court_outcome.1101.start.desc:0 "Yukarıdan gelen boğuşma seslerini duyunca hiç hissetmediğim bir güç geliyor. Düşünmeden tırmanıp pencereden içeri atlıyorum.\n\n"
  court_outcome.1101.owner_fights.desc:0 "Donmuş bir göle atladım sanki, buz kesiliyorum. [target.GetFirstNameNoTooltip] yerde yatıyor ve üzerinde bıçağını saplamaya çalışan biri var. Kükreyerek koşuyorum, suçluyu yakalayıp duvara fırlatıyorum. Gerisi hafızamda yok...\n\nTehlike bittiğinde etrafı kontrol edip güvenli olduğundan emin oluyorum."
  court_outcome.1101.target_fights.desc:0 "Gördüğüm şeyi beklemiyordum. Tepetaklak olmuş mobilyalar, yırtılmış perdeler. [target.GetFirstName] elinde kanlı bıçakla birinin üzerinde duruyor.\n\n"
-### TODO AGOT-ONLY: court_outcome.1101.end.desc [AGOT: ]
- court_outcome.1101.end.desc:0 ""[target.GetFirstNameNoTooltip], are you alright?" I ask cautiously. As if my words were a spell, [target.GetSheHe] finally unfreezes, and throws [target.GetHerselfHimself] into my arms. "Thank [target.GetFaith.HighGodName] you are here, [ROOT.Char.GetFirstNameNoTooltip]!""
+
+ court_outcome.1101.end.desc:0 ""[target.GetFirstNameNoTooltip], iyi misin?" diye soruyorum temkinle. Sanki sözlerim bir büyüymüş gibi, [target.GetSheHe] sonunda donukluğundan kurtuluyor ve kendini kollarıma atıyor. "[target.GetFaith.HighGodName]'e şükür buradasın, [ROOT.Char.GetFirstNameNoTooltip]!""
  court_outcome.1101.a:0 "Sana asla zarar gelmesine izin vermeyeceğim."
-### TODO AGOT-ONLY: court_outcome.1102.end.desc [AGOT: ]
- court_outcome.1102.end.desc:0 ""What are you doing here?!" [target.GetSheHe] asks, [target.GetHerHis] voice trembling. I raise my hands, a gesture of peace, but [target.GetSheHe] draws [target.GetHerHis] dagger. "Do not come any closer! Leave at once, or I #EMP will#! hurt you!""
+
+ court_outcome.1102.end.desc:0 ""Burada ne yapıyorsun?!" diye sorar [target.GetSheHe], [target.GetHerHis] sesi titreyerek. Ellerimi kaldırıyorum, bir barış jesti, ama [target.GetSheHe] hançerini çekiyor. "Yaklaşma! Derhal git, yoksa sana #EMP zarar#! veririm!""
  court_outcome.1102.a:0 "Yardım etmek istemiştim sadece!"
  court_outcome.1103.desc:0 "Yukarıdan gelen boğuşma seslerini duyunca hiç hissetmediğim bir güç geliyor. Tırmanıyorum ve tam pencereden atlayacakken içeriye bakıp kendimi durduruyorum.\n\n[target.GetTitledFirstName] pek de #EMP boğuşmuyor#!... [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] ile birlikte çok mutlu gözüküyor hatta..."
  court_outcome.1105.t:0 "Mütecaviz"

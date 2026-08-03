@@ -15,8 +15,8 @@
  court.4100.b:0 "Hanımlar bu taytları görmeye dayanamazlar bence."
  court.4100.c:0 "Aklımı çeldiniz, performansınızı izlemek için sabırsızlanıyorum!"
  court.4250.t:0 "Benim Kulem Seninkinden Daha Büyük!"
-### TODO AGOT-ONLY: court.4250.desc [AGOT: ]
- court.4250.desc:1 ""Mewling courtiers of [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]," [tower_challenger_rival.GetTitledFirstName] storms to the front of my throne room.\n\n"While [ROOT.Char.GetTitledFirstNameNoTooltip] wallows on the ground like a swine in mud, I have erected the tallest tower this blighted earth has ever seen in [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier]. From my [tower_challenger_rival.Custom('FortifiedBuilding')], I may now almost pluck the planets from the sky. Where are your stars, [ROOT.Char.GetTitledFirstNameNoTooltip]?"\n\nMy [concerned_steward.GetCouncilTitle|l] [concerned_steward.GetTitledFirstName] places a cautious hand on my shoulder. "[ROOT.Char.Custom('FormOfAddressForLiege')|U], [tower_challenger_rival.GetTitledFirstNamePossessiveNoTooltip] tower is four hundred feet of structurally unsound clay and paste. Ignore [tower_challenger_rival.GetHerHis] taunt and await its crumbling!""
+
+ court.4250.desc:0 ""Mızmız saraylılar, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]," [tower_challenger_rival.GetTitledFirstName] taht salonumun önüne öfkeyle yürür.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip] çamurda yuvarlanan bir domuz gibi debelenirken, ben [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier]'de bu lanetli dünyanın gördüğü en yüksek kuleyi diktim. [tower_challenger_rival.Custom('FortifiedBuilding')]'imden artık neredeyse gökten yıldızları toplayabilirim. Senin yıldızların nerede, [ROOT.Char.GetTitledFirstNameNoTooltip]?"\n\n[concerned_steward.GetCouncilTitle|l] [concerned_steward.GetTitledFirstName] temkinli bir eli omzuma koyar. "[ROOT.Char.Custom('FormOfAddressForLiege')|U], [tower_challenger_rival.GetTitledFirstNamePossessiveNoTooltip] kulesi dört yüz ayaklık, yapısal olarak çürük kil ve macun. [tower_challenger_rival.GetHerHis] kışkırtmasını görmezden gelin ve çöküşünü bekleyin!""
  court.4250.a:0 "Çok beğendiysen kuleni, müsait bir yerine sokabilirsin!"
  court.4250.b:0 "Kulemizi sizinkinden bir metre daha uzun olacak şekilde uzatacağız!"
  court.4250.c:0 "#EMP Yüz elli metrelik#! bir kule yapılmasını emrediyorum!"
@@ -35,23 +35,23 @@
  court.4251.c:0 "Peki ya şimdi kim çamurda yuvarlanıyor [tower_challenger_rival.GetTitledFirstNameNoTooltip]?"
  court.4300.t:0 "Quantum Praedecessores"
  court.4300.preaching_tour_bernard_of_clairvaux_intro:0 "Clairvaux'lu Bernard, dağları denizleri aşarak ilerlediği vaaz turnesi sırasında devam etmekte olan kutsal savaşın ateşini körüklemek için burada mola veriyor. Sarayımda görevli [bishop.GetCouncilTitle], ona Tapınak Şövalyeleri'nin Kutsal Tarikatı için doktrinlerin hazırlanmasında merkezî bir rol oynadığımı söyledi.\n\n" ### CQC
-### TODO AGOT-ONLY: court.4300.preaching_tour_bernard_of_clairvaux_theology [AGOT: ]
- court.4300.preaching_tour_bernard_of_clairvaux_theology:0 ""I am thrilled to be around another renowned for [ROOT.Char.GetHerHis] theistic comprehension. I am working on a new treatise on our military orders: 'In Praise of the New Knighthood'. If you pass a glance over it, I'll be sure to send word to [ghw_sponsor.GetTitledFirstName] that [ghw_sponsor.GetSheHe] should issue a bull in support of your own order.""
-### TODO AGOT-ONLY: court.4300.preaching_tour_bernard_of_clairvaux_flea_excommunication [AGOT: ]
- court.4300.preaching_tour_bernard_of_clairvaux_flea_excommunication:0 ""My gratitude for your hospitality. As a means of repaying your kindness, I notice several of your courtiers are scratching a litany of bites. I once excommunicated a thousands-strong fly infestation, causing their instantaneous death. It appears you have some rotten fleas in need of ecclesiastical censure!""
-### TODO AGOT-ONLY: court.4300.preaching_tour_bernard_of_clairvaux_standard [AGOT: ]
- court.4300.preaching_tour_bernard_of_clairvaux_standard:0 ""I have a grave favor to ask. While [ROOT.GetCharacter.GetFaith.HighGodName] has blessed my mind, [ROOT.GetCharacter.GetFaith.HighGodNameSheHe] has not blessed my bowels. As my continence stands, I cannot give a sermon without a latrine dug underneath me. Is there anyone who would follow my tour as a Christly pit-digger?""
+
+ court.4300.preaching_tour_bernard_of_clairvaux_theology:0 ""Teolojik kavrayışıyla ün kazanmış biriyle birlikte olmaktan heyecan duyuyorum. Yeni tarikatlarımız üzerine bir inceleme yazıyorum: 'Yeni Şövalyeliğin Övgüsü'. Bir göz atarsanız, [ghw_sponsor.GetTitledFirstName]'e kendi tarikatınızın desteklenmesi için bir ferman çıkarması gerektiğini bildireceğimden emin olabilirsiniz.""
+
+ court.4300.preaching_tour_bernard_of_clairvaux_flea_excommunication:0 ""Misafirperverliğiniz için minnettarım. İyiliğinizin karşılığını vermek adına, saraylılarınızdan birkaçının bir dizi ısırık kaşıdığını fark ettim. Bir keresinde binlerce sinekten oluşan bir istilayı aforoz etmiştim ve anında ölmüşlerdi. Görünüşe göre kilise cezasına ihtiyaç duyan birkaç çürük pireniz var!""
+
+ court.4300.preaching_tour_bernard_of_clairvaux_standard:0 ""Sormam gereken ağır bir iyilik var. [ROOT.GetCharacter.GetFaith.HighGodName] zihnimi kutsadı ama [ROOT.GetCharacter.GetFaith.HighGodNameSheHe] bağırsaklarımı kutsamadı. Dizginlerim böyleyken, altıma kazılmış bir hela olmadan vaaz veremem. Turuma İsa'nın çukur kazıcısı gibi eşlik edecek kimse var mı?""
  court.4300.preaching_tour_default:0 "Bir rahip taht odanızın girişini kapatıyor, içeri girenlerin kıyafetlerine yapıştırmaları için haç şeklinde kırmızı rozetler dağıtıyor.\n\n"[ROOT.GetCharacter.GetFaith.HighGodName], sana şükürler olsun! Kutsal savaşta vadedilen müttefiklerimizin ülkelerinde, askerlerini ve hazinelerini desteklemek için vaaz veriyorum."" ### CQC
-### TODO AGOT-ONLY: court.4300.a [AGOT: ]
- court.4300.a:0 ""You have my pen and my sword!""
-### TODO AGOT-ONLY: court.4300.b [AGOT: ]
- court.4300.b:0 ""Let us excommunicate these renegade insects!""
-### TODO AGOT-ONLY: court.4300.c [AGOT: ]
- court.4300.c:0 ""I am certain [possible_latrine_digger.GetTitledFirstNameNoTooltip] is desperate to help!""
-### TODO AGOT-ONLY: court.4300.d [AGOT: ]
- court.4300.d:0 ""My coffers are as open as the sky!""
-### TODO AGOT-ONLY: court.4300.e [AGOT: ]
- court.4300.e:0 ""You shall have an escort of my personal guard on your mission.""
+
+ court.4300.a:0 ""Kalemim de kılıcım da senin!""
+
+ court.4300.b:0 ""Bu dönek böcekleri aforoz edelim!""
+
+ court.4300.c:0 ""[possible_latrine_digger.GetTitledFirstNameNoTooltip]'in yardım etmek için can attığından eminim!""
+
+ court.4300.d:0 ""Hazinem gökyüzü kadar açık!""
+
+ court.4300.e:0 ""Görevinde sana özel muhafızlarımdan bir refakatçi eşlik edecek.""
  court.4300.e.tt:0 "[bernard_guard_1.GetTitledFirstName] ve [bernard_guard_2.GetTitledFirstName], [right_portrait_character.GetTitledFirstName] için korumalık yapacak."
  court.4300.f:0 "Böyle yüce bir [Select_CString(right_portrait_character.IsFemale, 'kadınla', 'adamla' )] konuşmaya layık olmadığım için sessizce diz çöktüm."
  court.4300.g:0 "Haç rozeti oldukça kötü gözüküyor değil mi?"
@@ -63,8 +63,8 @@
  court.4350.c:0 "Şeker ticaretini durdurduğumuzda bu şebeklerin nasıl zırlayacaklarını göreceksiniz!"
  court.4350.c.tt:0 "#F [caravan_attacker_liege.GetNameNoTooltip] ile olan ticareti durduracaksınız#!"
  court.4355.t:0 "Sarazen ile Savaşmaya Kim Cesaret Eder?"
-### TODO AGOT-ONLY: court.4355.desc [AGOT: ]
- court.4355.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," my [reporting_marshal.GetCouncilTitle] calls, "I overheard [caravan_attacker.GetTitledFirstName] bragging that [caravan_attacker.GetSheHe] and a gaggle of nobles have been going out like common brigands and raiding caravans bearing sugar from [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]. These dogs drool for holy war, and are trying to provoke [attacked_liege.GetTitledFirstName]. However, I suggest we need the trade far more than any battle—"\n\n"We need no food, only to drink the blood of the infidel!" bellows [caravan_attacker.GetTitledFirstNameNoTooltip] from across the throne room."
+
+ court.4355.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," diye seslenir [reporting_marshal.GetCouncilTitle], "[caravan_attacker.GetTitledFirstName]'in, [caravan_attacker.GetSheHe] ve bir grup soylunun sıradan haydutlar gibi [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]'den şeker taşıyan kervanlara baskın düzenlediğiyle övündüğünü duydum. Bu köpekler kutsal savaşın salyasını akıtıyor ve [attacked_liege.GetTitledFirstName]'i kışkırtmaya çalışıyor. Ancak, bence ticaretin herhangi bir savaştan çok daha fazla işimize yaradığını öneriyorum—"\n\n"Yiyeceğe ihtiyacımız yok, sadece kâfirin kanını içmemiz gerek!" diye böğürür [caravan_attacker.GetTitledFirstNameNoTooltip] taht salonunun öteki ucundan."
  court.4355.a:0 "İyi iş! Kâfirleri yağmalamak da bir ibadet şeklidir!" ### CQC
  court.4355.a.tt:0 "Kervanlara daha çok baskın düzenlenmesini teşvik edeceksiniz"
  court.4355.b:0 "Muhafızlar! Şunu tövbe edene kadar şeker kasesiyle dövün."
@@ -87,8 +87,8 @@
  court.4401.desc_head:0 "\n\nİğrenç bir kokunun peşinden giderek, yer mantarı arayan bir domuz gibi döküntülerin arasından bir insan kafası çıkarıyor.\n\nAncak bodrumun ve zindanımın birbirine yakınlığını hesaba kattığımda bunun, zindanda unutulmuş bir mahkûma ait olduğunu düşünüyorum." ### CQC
  court.4401.a:0 "Aha, evet! Öhöm... İşte bu [the_headless.GetTitledFirstNameNoTooltip]! [ROOT.GetCharacter.GetFaith.HighGodName], sana şükürler olsun..." ### CQC
  court.4401.b:0 "Kesik ne kadar da temiz ve ustaca! Bu belli ki benim işim."
-### TODO AGOT-ONLY: court.4401.c [AGOT: ]
- court.4401.c:0 ""Would you enjoy rooting through my rubbish for a living?""
+
+ court.4401.c:0 ""Geçimini çöplerimi karıştırarak kazanmak hoşuna gider mi?""
  court.4401.d:0 "Burası bakımsız ve pis bir yer. Temizlenmesini emretmeliyim."
  court.4402.desc:0 "Bir gece gözlerimi kırpıştırarak uyandığımda birden şok oldum. Bu gördüğüm hedonik bir rüya değildi. Taht odama giren cübbeli tarikat manyaklarından biri boğazıma neşter dayıyordu!\n\n"Kafayı aramamıza engel olmaya devam edersen, seninkini alabiliriz. O kadar yuvarlak ve parlak ki, güzelce yuvarlanacağına bahse girerim!"" ### CQC
  court.4402.a:0 "İstersen hemen şimdi aramaya başlayabiliriz."
@@ -100,32 +100,32 @@
  court.4402.c:0 "O meyve bıçağıyla mı kafamı kesebileceksin?"
  court.4402.c2.tt:0 "Kafanızın bir kısmı kesildi"
  court.4402.c3.tt:0 "Kafanız tamamen kesildi"
-### TODO AGOT-CHANGED: court.4500.t [AGOT: A Gift Worthy of a [ROOT.Char.GetTitleAsNameNoTooltip] | TR: Seyyar Satıcı]
- court.4500.t:0 "A Gift Worthy of a [ROOT.Char.GetTitleAsNameNoTooltip]"
+
+ court.4500.t:0 "Seyyar Satıcı"
  court.4500.desc:0 "Pelerinli, üzerinde düzinelerce süs ve biblo taşıyan bir seyyar satıcı gözüme çarptı.\n\n"
-### TODO AGOT-ONLY: court.4500.bleeder [AGOT: ]
- court.4500.bleeder:0 ""I construct artifacts to dupe wealthy fools out of their gold. A whisper has passed onto me that you have an excess of blood. I'm certain you have some admirers who would be delighted to buy a brooch featuring a glass orb filled with a drop of your blood."\n\n[artifact_peddler.GetSheHe|U] stares at the veins in my neck. "I'll pay handsomely, and some sod will feel they have a touch of regal majesty."
-### TODO AGOT-ONLY: court.4500.psalter [AGOT: ]
- court.4500.psalter:0 ""I have a magnificent Psalter - an illuminated manuscript with a sculpted ivory cover adorned with turquoise beads. It contains tales of [ROOT.GetCharacter.GetWomanMan] and [cheating_character.GetWomanMan] in love. The carving is certain to impress [cheating_character.GetTitledFirstNameNoTooltip] so, [cheating_character.GetSheHe] would never again think to lie with another!""
-### TODO AGOT-ONLY: court.4500.chastity_belt [AGOT: ]
- court.4500.chastity_belt:0 ""All in the realm know you are addled with ravenous desires which bear the force of a trebuchet-launched cataphract. I have an artifact which shall lighten your burden."\n\n[artifact_peddler.GetSheHe|U] reveals a chastity belt adorned with rusty spikes."
-### TODO AGOT-ONLY: court.4500.holy_needle [AGOT: ]
- court.4500.holy_needle:0 ""I have with me a precious weapon only worthy of your hands. The Mighty Lance of Andalos, the Spear of the Smith himself! You shall utterly annihilate all foes on the battlefield with this!"\n\n[artifact_peddler.GetSheHe|U] pulls out a tiny shard of metal which looks rather like a sewing needle."
-### TODO AGOT-ONLY: court.4500.finger_bones [AGOT: ]
- court.4500.finger_bones:0 ""You strike me as a seasoned collector." [artifact_peddler.GetSheHe|U] pulls out and opens a battered chest brimming with bones from every limb imaginable.\n\n"I have some of the rarest septon finger-bones, even some foiled in gold. They are sold as singles, but I will grant a special price for a full set of ten.""
-### TODO AGOT-ONLY: court.4500.dead_chicken [AGOT: ]
- court.4500.dead_chicken:0 ""I have here a wondrous trinket! Bear this, and any enemy on the field will at once think you are already dead! One whiff, and your safety is guaranteed!"\n\nFrom the depths of [artifact_peddler.GetHerHis] cloak, [artifact_peddler.GetSheHe] pulls out the entire corpse of a dead chicken."
-### TODO AGOT-ONLY: court.4500.worm [AGOT: ]
- court.4500.worm:0 ""My [ROOT.GetCharacter.GetLadyLord], I have an artifact of grand illusion, with which you may convince all you possess magical power.\n\n[artifact_peddler.GetSheHe|U] brandishes a colorful fabric worm on a very thin string. "It appears dormant at first, but by manipulating the thread one can effect the illusion the worm has come to life! Think of how this will impress the [dummy_gender.Custom('LadiesLords')] at court!""
+
+ court.4500.bleeder:0 ""Zengin aptalları altınlarından etmek için eserler üretiyorum. Kulağıma fazla kanınız olduğu fısıltısı geldi. İçinde kanınızdan bir damla bulunan cam küreli bir broş almak isteyecek hayranlarınız olduğundan eminim."\n\n[artifact_peddler.GetSheHe|U] boynumdaki damarlara bakıyor. "İyi para öderim ve bir zavallı da kraliyet ihtişamından bir parça taşıdığını hisseder.""
+
+ court.4500.psalter:0 ""Muhteşem bir Mezmurlar kitabım var - turkuaz boncuklarla süslenmiş oymalı fildişi kapaklı, tezhipli bir el yazması. İçinde aşık bir [ROOT.GetCharacter.GetWomanMan] ile bir [cheating_character.GetWomanMan]'in hikâyeleri var. Oyma işçiliği [cheating_character.GetTitledFirstNameNoTooltip]'i kesinlikle etkileyecektir, böylece [cheating_character.GetSheHe] bir daha başka biriyle yatmayı asla düşünmeyecek!""
+
+ court.4500.chastity_belt:0 ""Diyardaki herkes, mancınıkla fırlatılmış bir katafraktın gücüne sahip, önlenemez arzularla boğuştuğunuzu biliyor. Yükünüzü hafifletecek bir eserim var."\n\n[artifact_peddler.GetSheHe|U] paslı dikenlerle süslenmiş bir iffet kemeri çıkarır."
+
+ court.4500.holy_needle:0 ""Yanımda yalnızca sizin ellerinize layık değerli bir silah var. Andalos'un Kudretli Mızrağı, Demirci'nin bizzat Mızrağı! Bununla savaş alanında tüm düşmanlarınızı yerle bir edeceksiniz!"\n\n[artifact_peddler.GetSheHe|U] dikiş iğnesine benzeyen minicik bir metal parçası çıkarır."
+
+ court.4500.finger_bones:0 ""Bana tecrübeli bir koleksiyoncu gibi görünüyorsun." [artifact_peddler.GetSheHe|U] akla gelebilecek her uzuvdan kemiklerle dolu, yıpranmış bir sandık çıkarıp açar.\n\n"En nadir sept on parmak kemiklerinden bazıları elimde, hatta bazıları altın kaplama. Tek tek satılırlar, ama on parçalık komple bir set için size özel fiyat uygularım.""
+
+ court.4500.dead_chicken:0 ""Burada harikulade bir süs eşyam var! Bunu taşırsan, alandaki her düşman seni çoktan ölmüş sanacak! Bir koklasın, güvenliğiniz garantidir!"\n\n[artifact_peddler.GetHerHis] pelerininin derinliklerinden [artifact_peddler.GetSheHe] ölü bir tavuğun bütün cesedini çıkarır."
+
+ court.4500.worm:0 ""[ROOT.GetCharacter.GetLadyLord]'im, büyük bir illüzyon eserim var; onunla herkesi büyülü güçlere sahip olduğunuza ikna edebilirsiniz.\n\n[artifact_peddler.GetSheHe|U] çok ince bir ipe bağlı rengârenk kumaştan bir solucan sallıyor. "İlk başta hareketsiz görünür, ama ipi oynatarak solucanın canlandığı illüzyonunu yaratabilirsiniz! Bunun saraydaki [dummy_gender.Custom('LadiesLords')]'i nasıl etkileyeceğini bir düşünün!""
  court.4500.a:0 "Kanım zaten zar zor vücudumda duruyor. Huzurumdan çekil!"
  court.4500.b:0 "Her şeyi denemeye hazırım."
  court.4500.c:0 "$court.4500.b$"
  court.4500.d:0 "Bunun canımı yakmaktan başka bir işe yarayabileceğini mi sanıyorsun..." ### CQC
-### TODO AGOT-CHANGED: court.4500.e [AGOT: The call of the Smith is sounding! | TR: Bu Kaderin çağrısı olmalı!]
- court.4500.e:0 "The call of the Smith is sounding!"
+
+ court.4500.e:0 "Bu Kaderin çağrısı olmalı!"
  court.4500.f:0 "Yalanlarını başka yerde sat!"
-### TODO AGOT-CHANGED: court.4500.g [AGOT: There is charm in using a relic of the Age of Heroes to mend my socks... | TR: Çoraplarımı tekrar örmek için İsa'nın bir kalıntısını kullanabilirim.]
- court.4500.g:0 "There is charm in using a relic of the Age of Heroes to mend my socks..."
+
+ court.4500.g:0 "Çoraplarımı tekrar örmek için İsa'nın bir kalıntısını kullanabilirim."
  court.4500.h:0 "Demek #EMP bu#! yüzden günümüzde pek çok köylünün dokuz parmağı var."
  court.4500.i:0 "Tüm bir butu sar bana oradan!"
  court.4500.j:0 "Ah, devam et o zaman."
@@ -141,8 +141,8 @@
  court.4600.a:0 "Mahzenlerim uzunca süredir kapalıydı. Saraydaki herkese benden bir şişe!"
  court.4600.b:0 "Zavallı kıymetlilerim! Seni aşağılık hizmetkâr!" ### CQC
  court.4600.b.tt:0 "Hizmetkârlar içmeyi bırakırsa, bir sonraki ziyafetiniz daha ucuz olacak."
-### TODO AGOT-ONLY: court.4600.c [AGOT: ]
- court.4600.c:0 ""The stores are closed as I keep poisoned [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')]!""
+
+ court.4600.c:0 ""Depolar kapalı, zehirli [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')] saklıyorum!""
  court.4600.c.tt:0 "İkili, saygısızlıklarından ders alacaklar ancak dünya zehirlerinize karşı dikkatli olacak."
  court.4600.c.t:0 "Saki Zehirlendi!"
  court.4600.d:0 "Panzehirin olduğu şişeyi getirin hemen!"
@@ -177,14 +177,14 @@
  court.4700.physical_faculties:0 "Trepanasyon bedeninize zarar verdi"
  court.4701.physician_study:0 "[trepanner.GetTitledFirstName], yetenekli saray hekimim [court_physician.GetTitledFirstName] ve onun maharetli elleriyle bu işi daha iyi yapabileceğimizi söyledi. [trepanner.GetTitledFirstName] beni sandalyeye bağlarken, [court_physician.GetTitledFirstNameNoTooltip] arkamda beliriyor." ### CQC
  court.4701.no_physician:0 "[ROOT.Char.Custom('FortifiedBuilding')|U] derinliklerinde bizi kimselerin göremeyeceği arka odalardan birine geçtik. [trepanner.GetTitledFirstNameNoTooltip], saray mensuplarımın beni bir sandalyeye bağlı hâlde çığlık atarken görmesinin yalnızca sıkıntı doğuracağını söylüyor.\n\n"
-### TODO AGOT-ONLY: court.4701.physician_excited [AGOT: ]
- court.4701.physician_excited:0 ""Oh how I love a good trepanning!"\n\n"
-### TODO AGOT-ONLY: court.4701.physician_excited_2 [AGOT: ]
- court.4701.physician_excited_2:0 ""How exciting! A new procedure!"\n\n"
-### TODO AGOT-ONLY: court.4701.physician_concerned [AGOT: ]
- court.4701.physician_concerned:0 ""Be careful with [ROOT.GetCharacter.GetHerHim]!"\n\n"
-### TODO AGOT-ONLY: court.4701.physician_concerned_2 [AGOT: ]
- court.4701.physician_concerned_2:0 ""I shall assist if this vulgar practice fails."\n\n"
+
+ court.4701.physician_excited:0 ""Ah, güzel bir kafatası delme ameliyatını ne kadar severim!"\n\n"
+
+ court.4701.physician_excited_2:0 ""Ne heyecanlı! Yeni bir prosedür!"\n\n"
+
+ court.4701.physician_concerned:0 ""[ROOT.GetCharacter.GetHerHim]e dikkat et!"\n\n"
+
+ court.4701.physician_concerned_2:0 ""Bu kaba yöntem başarısız olursa ben yardım ederim."\n\n"
  court.4701.mental_health_cannot_be_trepanned_away:0 "$court.4701.trepanning_vices_operation$ \n\nHer ne kadar içten içe bu tedavinin ağrılarımı dindirmesini istesem de zihnimin bir iblise değil, bana ait olduğunu kabul etmek beni daha sağlıklı biri yapar." ### CQC
  court.4701.trepanning_success:0 "Çekiç, keskiyi kafamın içine gönderiyor. Bir anda bedenimin kapıları açılıyor. Çarpıntı başlıyor; ürperiyorum, titriyorum ve ıstırap veren bir ateşin yükseldiğini hissediyorum. Acı kıvılcımlarından oluşan bir yağmurun ortasından, daha önce hiç olmadığı kadar sakin yeni bir dünyaya çıkıyorum." ### CQC
  court.4701.trepanning_witch_power:0 "Keski yavaşça kafamın içine çakılırken korkmuyorum. Beynimdeki bu ürpertici acının ortasında hissedebiliyorum ki [ROOT.Char.GetFaith.WitchGodName|U] kahkaha atıyor ve bu aptal tedaviyle dalga geçiyor.\n\nKendime geliyorum. $court.4701.trepanning_no_result$" ### CQC
@@ -209,57 +209,57 @@
  court.4701.h:0 "Sana bir borcum var... kafamdaki deliğe bir tıpa bulduğunda..."
  court.4701.i:0 "Dertli düşüncelerim, tek başıma yüzleşebileceğim bir düşman."
  court.4750.t:0 "Bir Kahraman Gerek"
-### TODO AGOT-CHANGED: court.4750.desc [AGOT: I notice my poet pacing up and down my throne room. [poet.GetSheHe|U] has been yelling at anyone who crosses the line [poet.GetSheHe] treads.\n\nAs I approach, I am met with literary fury: | TR: Sarayıma yakın zamanda yeni bir misafir geldi: biraz üne sahip, tatlı dilli bir şair.\n\n]
- court.4750.desc:0 "I notice my poet pacing up and down my throne room. [poet.GetSheHe|U] has been yelling at anyone who crosses the line [poet.GetSheHe] treads.\n\nAs I approach, I am met with literary fury: "Cross not my path unless you are a descending muse! Oh-" the poet's face lights up in elation. "You may have the inspiration I crave. My [ROOT.GetCharacter.GetLadyLord], I am seeking a theme for my next work."\n\n"Could you tell me who your favorite hero is?""
-### TODO AGOT-CHANGED: court.4750.a [AGOT: The Story of Zhea, the fearsome warleader from beyond the Bone Mountains! | TR: Papa Joan'ın dönemini anlatan bir hikâye uydurun!]
- court.4750.a:0 "The Story of Zhea, the fearsome warleader from beyond the Bone Mountains!"
-### TODO AGOT-CHANGED: court.4750.b [AGOT: Jonquil the Maid! A ballad of her fateful bath! | TR: Leydi Godiva! Onun ata binişi hakkında bir balad!]
- court.4750.b:0 "Jonquil the Maid! A ballad of her fateful bath!"
-### TODO AGOT-CHANGED: court.4750.c [AGOT: Lomas Longstrider is such a marvel! | TR: Sinbad çok cesur bir figür!]
- court.4750.c:0 "Lomas Longstrider is such a marvel!"
-### TODO AGOT-CHANGED: court.4750.d [AGOT: Tyrion II Lannister was a man after my own heart. | TR: Caligula... az takdir edilen ama ilgi çekici bir figürdü.]
- court.4750.d:0 "Tyrion II Lannister was a man after my own heart."
-### TODO AGOT-CHANGED: court.4750.e [AGOT: Mushroom, the fool of testimonies! | TR: Nasreddin Hoca fıkraları her zaman yüzümü güldürmüştür.]
- court.4750.e:0 "Mushroom, the fool of testimonies!"
-### TODO AGOT-CHANGED: court.4750.f [AGOT: Tell me of Bael the Bard, King-Beyond-the-Wall! | TR: Bana müjdeci şair Valmiki'den bahset!]
- court.4750.f:0 "Tell me of Bael the Bard, King-Beyond-the-Wall!"
+
+ court.4750.desc:0 "Sarayıma yakın zamanda yeni bir misafir geldi: biraz üne sahip, tatlı dilli bir şair.\n\n"
+
+ court.4750.a:0 "Papa Joan'ın dönemini anlatan bir hikâye uydurun!"
+
+ court.4750.b:0 "Leydi Godiva! Onun ata binişi hakkında bir balad!"
+
+ court.4750.c:0 "Sinbad çok cesur bir figür!"
+
+ court.4750.d:0 "Caligula... az takdir edilen ama ilgi çekici bir figürdü."
+
+ court.4750.e:0 "Nasreddin Hoca fıkraları her zaman yüzümü güldürmüştür."
+
+ court.4750.f:0 "Bana müjdeci şair Valmiki'den bahset!"
  court.4750.g:0 "Neden ki? En sevdiğim kahraman benim!"
-### TODO AGOT-CHANGED: court.4750.h [AGOT: Why do we pay you if you cannot compose on demand? | TR: İsraf edecek ne altınım ne de zamanım var.]
- court.4750.h:0 "Why do we pay you if you cannot compose on demand?"
-### TODO AGOT-CHANGED: court.4751.intro [AGOT: As per my request, my poet brings me a work inspired by | TR: İsteğim üzerine yeni şair [poet.GetFirstName] bana]
- court.4751.intro:0 "As per my request, my poet brings me a work inspired by"
-### TODO AGOT-CHANGED: court.4751.topic.pope_joan [AGOT: #italic Jhattar#! Zhea, | TR: Papa Joan'dan ilham aldığı bir eser getiriyor.]
- court.4751.topic.pope_joan:0 "#italic Jhattar#! Zhea,"
-### TODO AGOT-CHANGED: court.4751.topic.lady_godiva [AGOT: Fair Jonquil, | TR: Lady Godiva'dan ilham aldığı bir eser getiriyor.]
- court.4751.topic.lady_godiva:0 "Fair Jonquil,"
-### TODO AGOT-CHANGED: court.4751.topic.sinbad [AGOT: Lomas Longstrider, | TR: Sinbad'dan ilham aldığı bir eser getiriyor.]
- court.4751.topic.sinbad:0 "Lomas Longstrider,"
-### TODO AGOT-CHANGED: court.4751.topic.caligula [AGOT: Tyrion II, | TR: Caligula'dan ilham aldığı bir eser getiriyor.]
- court.4751.topic.caligula:0 "Tyrion II,"
-### TODO AGOT-CHANGED: court.4751.topic.nasreddin [AGOT: the fool Mushroom, | TR: Nasreddin Hoca'dan ilham aldığı bir eser getiriyor.]
- court.4751.topic.nasreddin:0 "the fool Mushroom,"
-### TODO AGOT-CHANGED: court.4751.topic.valmiki [AGOT: Bael the Bard, | TR: Valmiki'den ilham aldığı bir eser getiriyor.]
- court.4751.topic.valmiki:0 "Bael the Bard,"
+
+ court.4750.h:0 "İsraf edecek ne altınım ne de zamanım var."
+
+ court.4751.intro:0 "İsteğim üzerine yeni şair [poet.GetFirstName] bana"
+
+ court.4751.topic.pope_joan:0 "Papa Joan'dan ilham aldığı bir eser getiriyor."
+
+ court.4751.topic.lady_godiva:0 "Lady Godiva'dan ilham aldığı bir eser getiriyor."
+
+ court.4751.topic.sinbad:0 "Sinbad'dan ilham aldığı bir eser getiriyor."
+
+ court.4751.topic.caligula:0 "Caligula'dan ilham aldığı bir eser getiriyor."
+
+ court.4751.topic.nasreddin:0 "Nasreddin Hoca'dan ilham aldığı bir eser getiriyor."
+
+ court.4751.topic.valmiki:0 "Valmiki'den ilham aldığı bir eser getiriyor."
  court.4751.topic.ruler_hero:0 "benim kahramanca hayatımdan ilham aldığı bir eser getiriyor."
  court.4751.topic.unexpected:0 "Ama hiç de beklediğim gibi bir şey değil."
  court.4751.ruler_character:0 "\n\nTezhipli el yazmalarına kısa bir bakış attıktan sonra anlıyorum ki, beni bir kahramanın yanında yan karakter olarak gösteriyor!\n\n" ### CQC
-### TODO AGOT-CHANGED: court.4701.pope_joan_desc [AGOT: \n\nAs I glance at the illustrations, I realize the illuminations of Zhea use my features for her face, as if it were my own! \n\n [poet.GetTitledFirstNameNoTooltip|U] leans towards me. | TR: \n\nÇizimlere baktığımda Joan'ın yüzü için benim yüzümden ilham alındığını fark ediyorum!\n\n[poet.GetTitledFirstNameNoTooltip|U] üzerime doğru eğiliyor.]
- court.4701.pope_joan_desc:0 "\n\nAs I glance at the illustrations, I realize the illuminations of Zhea use my features for her face, as if it were my own! \n\n [poet.GetTitledFirstNameNoTooltip|U] leans towards me. "Your charms far exceed that of the Scourge of Yi Ti. As Zhea's lover gave Zhea the emperor's head, so too do I give you this text wishing the figure I am #EMP supposed#! to worship were you.""
-### TODO AGOT-CHANGED: court.4701.ruler_hero_desc [AGOT: \n\nThe poem is about how glorious I am while I sit in my throne and do absolutely nothing.\n\n'#EMP After all, if the Royal rear moves too far afield, where shall we direct all those wishing to kiss it?#!' | TR: \n\nŞiir, bazıları diğerlerinden daha az gerçek olan ama hepsi de son derece etkileyici görkemli başarılarım ile ilgili.]
- court.4701.ruler_hero_desc:0 "\n\nThe poem is about how glorious I am while I sit in my throne and do absolutely nothing.\n\n'#EMP After all, if the Royal rear moves too far afield, where shall we direct all those wishing to kiss it?#!'"
-### TODO AGOT-CHANGED: court.4751.topic.lady_godiva_desc [AGOT: I am bathing alongside Jonquil and her sisters in this poem. Just as beautiful — but just as naked! | TR: Bu şiirde güzel Leydi Godiva'nın yanında at sürüyorum. Kendisi güzel ve aynı zamanda çırılçıplak!]
- court.4751.topic.lady_godiva_desc:0 "I am bathing alongside Jonquil and her sisters in this poem. Just as beautiful — but just as naked!"
-### TODO AGOT-CHANGED: court.4751.topic.sinbad_desc [AGOT: I am a mysterious character Lomas Longstrider encounters time again in his travels. I am a Bearded Priest in Norvos. I am the guard upon the Triple Walls of Qarth. I am the old Summer Island sage who he interviews. | TR: Ben Sinbad'ın maceralarında tekrar karşılaştığı gizemli bir karakterim. Ben devasa kuş Roc'un yumurtasından çıkan yaratığım. Ben yıllardır Sinbad'ın omuzlarına yapışan Denizin Yaşlı Adamıyım. Ben insan yiyen devin tutsağıyım.]
- court.4751.topic.sinbad_desc:0 "I am a mysterious character Lomas Longstrider encounters time again in his travels. I am a Bearded Priest in Norvos. I am the guard upon the Triple Walls of Qarth. I am the old Summer Island sage who he interviews."
-### TODO AGOT-CHANGED: court.4751.topic.caligula_desc [AGOT: I am a character in the text, but I am Tyrion's weary advisor, not a friend and equal! The Emperor torments me with a whip, or forces me to dress up like the Maiden and dance for him.\n\nAs I read further, there seem to be rather a lot of scenes where he whips me, indeed. | TR: Ben metindeki bir karakterim, bilgelikle dolu ama tavsiyelerine kulak verilmeyen Caligula'nın yorgun danışmanıyım.]
- court.4751.topic.caligula_desc:0 "I am a character in the text, but I am Tyrion's weary advisor, not a friend and equal! The Emperor torments me with a whip, or forces me to dress up like the Maiden and dance for him.\n\nAs I read further, there seem to be rather a lot of scenes where he whips me, indeed."
-### TODO AGOT-CHANGED: court.4751.topic.nasreddin_desc [AGOT: The tales show Mushroom wadling behind me as I go about my courtly duties, making snide remarks at my every action.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food. | TR: Fıkralar, Nasreddin Hoca'nın ben saray görevlerimi hallederken benim peşimden geldiğini ve eşeğinin üzerinden her hareketime küçümseyici sözler söylediğini anlatıyor.]
- court.4751.topic.nasreddin_desc:0 "The tales show Mushroom wadling behind me as I go about my courtly duties, making snide remarks at my every action.\n\nI made a speech full of platitudes at a feast, and he yells 'the interlocutor is but breaking wind as he states the obvious!', then jokes at the futility of gorging oneself on food."
-### TODO AGOT-CHANGED: court.4751.topic.valmiki_desc [AGOT: \n\nLike the stories, a hunter shoots a beautiful bird and I cannot help but spout out a couplet. I trip over a rock and exclaim a rhyme before hitting the ground.\n\nAs the Bard-King composed the first poem by accident, it shows me composing spontaneous verses whenever I am caught off-guard. | TR: \n\nEfsanedeki gibi, bir avcı güzel bir kuş vuruyor ve elimde olmadan bir beyit söylemeye başlıyorum.\n\nMüjdeci şairin tesadüfen yazdığı ilk şiir gibi ben de gelişi güzel dizeler söylemeye başlıyorum.]
- court.4751.topic.valmiki_desc:0 "\n\nLike the stories, a hunter shoots a beautiful bird and I cannot help but spout out a couplet. I trip over a rock and exclaim a rhyme before hitting the ground.\n\nAs the Bard-King composed the first poem by accident, it shows me composing spontaneous verses whenever I am caught off-guard."
+
+ court.4701.pope_joan_desc:0 "\n\nÇizimlere baktığımda Joan'ın yüzü için benim yüzümden ilham alındığını fark ediyorum!\n\n[poet.GetTitledFirstNameNoTooltip|U] üzerime doğru eğiliyor."
+
+ court.4701.ruler_hero_desc:0 "\n\nŞiir, bazıları diğerlerinden daha az gerçek olan ama hepsi de son derece etkileyici görkemli başarılarım ile ilgili."
+
+ court.4751.topic.lady_godiva_desc:0 "Bu şiirde güzel Leydi Godiva'nın yanında at sürüyorum. Kendisi güzel ve aynı zamanda çırılçıplak!"
+
+ court.4751.topic.sinbad_desc:0 "Ben Sinbad'ın maceralarında tekrar karşılaştığı gizemli bir karakterim. Ben devasa kuş Roc'un yumurtasından çıkan yaratığım. Ben yıllardır Sinbad'ın omuzlarına yapışan Denizin Yaşlı Adamıyım. Ben insan yiyen devin tutsağıyım."
+
+ court.4751.topic.caligula_desc:0 "Ben metindeki bir karakterim, bilgelikle dolu ama tavsiyelerine kulak verilmeyen Caligula'nın yorgun danışmanıyım."
+
+ court.4751.topic.nasreddin_desc:0 "Fıkralar, Nasreddin Hoca'nın ben saray görevlerimi hallederken benim peşimden geldiğini ve eşeğinin üzerinden her hareketime küçümseyici sözler söylediğini anlatıyor."
+
+ court.4751.topic.valmiki_desc:0 "\n\nEfsanedeki gibi, bir avcı güzel bir kuş vuruyor ve elimde olmadan bir beyit söylemeye başlıyorum.\n\nMüjdeci şairin tesadüfen yazdığı ilk şiir gibi ben de gelişi güzel dizeler söylemeye başlıyorum."
  court.4751.a:0 "Enteresan bir şekilde eserinizin saygısızlığı onu daha çekici kılıyor..." ### CQC
-### TODO AGOT-CHANGED: court.4751.b [AGOT: Perhaps I should set my sights on the east... | TR: Belki de gözlerimi Papalığa dikmeliyim...]
- court.4751.b:0 "Perhaps I should set my sights on the east..."
+
+ court.4751.b:0 "Belki de gözlerimi Papalığa dikmeliyim..."
  court.4751.c:0 "Normalde kızardım ama bunun bana hayranlar kazandıracağı kesin..."
  court.4751.c.tt:0 "İlgisini çektikleriniz mutlaka fark edeceklerdir..."
  court.4751.d:0 "Bu aklıma bazı saf olmayan düşünceler sokuyor."
@@ -268,8 +268,8 @@
  court.4751.g:0 "Olması gerektiği gibi!"
  court.4751.h:0 "Bu bir sonraki yangınım için en iyi çıra olacaktır."
  court.4800.t:0 "Uçuş Denemesi"
-### TODO AGOT-ONLY: court.4800.desc [AGOT: ]
- court.4800.desc:0 ""Make the noise one more time, buffoon, and you get the drop!" As I happen upon my Bodyguard, [defenestrating_bodyguard.GetTitledFirstName], I notice [defenestrating_bodyguard.GetSheHe] is accompanied by the rear-end of [defenestrated_character.GetTitledFirstName], whom [defenestrating_bodyguard.GetSheHe] is suspending out the window.\n\n[defenestrating_bodyguard.GetTitledFirstNameNoTooltip] grits [defenestrating_bodyguard.GetHerHis] teeth. "[defenestrated_character.GetSheHe|U] was mocking the straight face I keep while on duty. [defenestrated_character.GetSheHe|U] kept making goose noises to try and get me to lose my composure. I say this is a threat to your security."\n\nDespite the danger, amidst vain attempts to wriggle free, [defenestrated_character.GetTitledFirstNameNoTooltip] lets out a giggle. "#EMP Honk#!.""
+
+ court.4800.desc:0 ""Bir kez daha ses çıkar, soytarı, seni pencereden atarım!" Koruma görevlim [defenestrating_bodyguard.GetTitledFirstName]'in yanına geldiğimde, [defenestrating_bodyguard.GetSheHe]'in [defenestrated_character.GetTitledFirstName]'in arka tarafına eşlik ettiğini fark ediyorum; onu pencereden dışarı sarkıtıyor.\n\n[defenestrating_bodyguard.GetTitledFirstNameNoTooltip] dişlerini sıkar. "[defenestrated_character.GetSheHe|U] görev sırasında takındığım ciddi yüzle dalga geçiyordu. [defenestrated_character.GetSheHe|U] kompozisyonumu bozmak için kaz sesleri çıkarıp duruyordu. Bunun güvenliğinize bir tehdit olduğunu söylüyorum."\n\nTehlikeye rağmen, kurtulmak için boşuna çırpınışlar arasında [defenestrated_character.GetTitledFirstNameNoTooltip] bir kıkırtı salıveriyor. "#EMP Honk#!.""
  court.4800.a:0 "Bakalım soytarılar uçabiliyor mu?"
  court.4800.maimed_toast:0 "Kanatsız [defenestrated_character.GetTitledFirstName]"
  court.4800.death_toast:0 "[defenestrated_character.GetTitledFirstName] uçarken öldü"
@@ -277,8 +277,8 @@
  court.4800.c:0 "[defenestrated_character.GetTitledFirstNameNoTooltip] haklı. İyi bir koruma asla kışkırtmalara gelmez."
  court.4801.t:0 "Patlamaya Hazır"
  court.4801.desc:0 "Küçük [poopy_child.GetTitledFirstName] taht odamda oyun oynuyor ancak ben bunu görmeden çok önce, ne olduğu belli olan bir koku alıyorum.\n\n"Aaa, [ROOT.GetCharacter.Custom('GetMamaPapa')]! Seni gördüğüme çok sevindim!" derken sarılmak için bacağıma doğru atılıyor. Dolu bezinin ağırlığını diğer bacağımda hissediyorum.\n\nİki bacağım arasında sıkıştıkça bezinden sızmaya başlıyor. Kendi kendime soruyorum: Hizmetçi sayımız çok mu az da bez değiştirme gibi bir ayak işi bile bana kaldı?" ### CQC
-### TODO AGOT-ONLY: court.4801.a [AGOT: ]
- court.4801.a:0 ""Come into my arms, we'll get you cleaned up.""
+
+ court.4801.a:0 ""Gel kollarıma, seni temizleyelim.""
  court.4801.b:0 "Bu pisliğe dokunmaktansa savaş meydanında mağlup olmayı tercih ederim."
  court.4802.t:0 "Zorla Eğitim"
  court.4802.desc:0 "Saray Öğretmenim [court_tutor.GetTitledFirstName], bir grup öğrencisini etrafına toplamış.\n\n"Öğretmenim, paralelkenar nedir?"\n\n"Öğretmenim 'sevişmek' ne demek?"\n\n"Öğretmenim, flütümün sesi iyi mi yoksa #EMP daha da yüksek#! sesle mi çalmalıyım?"\n\n[court_tutor.GetTitledFirstNameNoTooltip], bana yılmış bir şekilde bakıyor. "[Select_CString(ROOT.Char.IsFemale, 'Leydim', 'Lordum' )], daha fazla dayanamıyorum. Lütfen beni bu görevden azat edin."" ### CQC

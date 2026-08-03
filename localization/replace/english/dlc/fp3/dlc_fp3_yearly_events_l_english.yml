@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  fp3_yearly.2000.t: "Gün Işığına Kadar Saklanmak"
  fp3_yearly.2000.desc_drinking: "Bütün gece boyunca vasallarım ve lütufkar yoldaşlarımla içtim. Sabahın son kadehinin tadını çıkarırken,"
  fp3_yearly.2000.desc_hashish: "Bütün gece, güneş doğana kadar vasallarım ve nimet yoldaşlarımla haşiş paylaştım. Ben son haşiş keklerini çalarken,"
@@ -40,17 +40,17 @@
  fp3_yearly.2020.b.desc: "Bu, vasalınız [denouncing_taxpayer.GetShortUIName], [sinful_tax_collector.GetShortUIName] adlı kişinin günahkârlığını ihbar ettiği için oldu."
  fp3_yearly.2020.c: "Onun için dua edeceğim."
  fp3_yearly.2021.desc_intro: "Tahsildarım [sinful_tax_collector.GetTitledFirstName] yeterince yetenekli biri olmasına rağmen, [denouncing_taxpayer.GetName] bana aksi yönde güçlü çekincelerle geldi.\n\n"
-### TODO AGOT-ONLY: fp3_yearly.2021.desc_greedy [AGOT: ]
- fp3_yearly.2021.desc_greedy: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is entirely self-interested, driven by love of money rather than justice. [sinful_tax_collector.GetSheHe|U] commonly collects more than what is due and gives nothing to the alms-tax.""
-### TODO AGOT-ONLY: fp3_yearly.2021.desc_arbitrary [AGOT: ]
- fp3_yearly.2021.desc_arbitrary: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] rarely heeds any laws or regulations, instead collecting taxes based on [sinful_tax_collector.GetHerHis] whims. The peasants are often troubled by [sinful_tax_collector.GetHerHis] inconsistent collections.""
-### TODO AGOT-ONLY: fp3_yearly.2021.desc_cynical [AGOT: ]
- fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] is not fearful of [ROOT.Char.GetFaith.HighGodName], frequently sleeping through morning prayers and stealing morsels during fasting. All of us fear [ROOT.Char.GetFaith.HighGodNamePossessive] justice on [sinful_tax_collector.GetHerHis] account.""
-### TODO AGOT-ONLY: fp3_yearly.2021.desc_contrite [AGOT: ]
- fp3_yearly.2021.desc_contrite: ""[sinful_tax_collector.GetTitledFirstNameNoTooltip] cannot be trusted with discretion; [sinful_tax_collector.GetSheHe] will share the realm's finances with anyone who will only listen. It is only a matter of time until this information lands in the hands of the enemy.""
+
+ fp3_yearly.2021.desc_greedy:0 "[sinful_tax_collector.GetTitledFirstNameNoTooltip] tamamen çıkarcıdır, adaletten çok para sevgisiyle hareket eder. [sinful_tax_collector.GetSheHe|U] genellikle gerekenden fazlasını toplar ve sadaka vergisine hiçbir şey vermez."
+
+ fp3_yearly.2021.desc_arbitrary:0 "[sinful_tax_collector.GetTitledFirstNameNoTooltip] nadiren herhangi bir yasa ya da kurala uyar; bunun yerine vergileri [sinful_tax_collector.GetHerHis] keyfine göre toplar. Köylüler [sinful_tax_collector.GetHerHis] tutarsız tahsilatlarından çoğu zaman rahatsız olur."
+
+ fp3_yearly.2021.desc_cynical:0 "[sinful_tax_collector.GetTitledFirstNameNoTooltip] [ROOT.Char.GetFaith.HighGodName]'den korkmuyor; sabah dualarında sık sık uyuyakalıyor ve oruç sırasında lokmalar aşırıyor. Hepimiz [sinful_tax_collector.GetHerHis] yüzünden [ROOT.Char.GetFaith.HighGodNamePossessive] adaletinden korkuyoruz."
+
+ fp3_yearly.2021.desc_contrite:0 "[sinful_tax_collector.GetTitledFirstNameNoTooltip]'e sır konusunda güvenilmez; [sinful_tax_collector.GetSheHe] dinlemeye razı herkese diyarın mali durumunu anlatacaktır. Bu bilginin düşmanın eline geçmesi an meselesi."
  fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.GetTitledFirstNameNoTooltip] [denouncing_taxpayer.Custom('quirk_pos_present')], açıkça bu ihlalleri için [sinful_tax_collector.GetTitledFirstNameNoTooltip] adlı kişiyi kovmamı bekliyor."
-### TODO AGOT-CHANGED: fp3_yearly.2021.a [AGOT: [sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, gods willing. | TR: [sinful_tax_collector.GetTitledFirstNameNoTooltip|U] görevden alınacak inşallah.]
- fp3_yearly.2021.a: "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] will be dismissed, gods willing."
+
+ fp3_yearly.2021.a:0 "[sinful_tax_collector.GetTitledFirstNameNoTooltip|U] görevden alınacak inşallah."
  fp3_yearly.2021.b: "Sözlerinizi aklımda tutacağım."
  fp3_yearly.2030.t: "Güzel Bir Kural"
  fp3_yearly.2030.desc_intro: "Aynadaki görüntüme bakıyor ve üzerinde beliren"
@@ -81,10 +81,10 @@
  fp3_yearly.2041.desc_cynical: "[caliph.GetTitledFirstName|U], [caliph.GetFaith.GetReligion.GetAdjectiveNoTooltip] askerlerimin, kendisinin Peygamber'in gerçek halefi olduğu doğrultusunda geri çekilmesini emretti ve bu aptallar ona itaat ettiler!\n\nKıçımın halefi, senin ne olduğu kimin umurunda ki? Tekmeyi oturttuktan sonra neyin halefi olduğunu göreceğiz."
  fp3_yearly.2041.desc_fallback: "Ben de [caliph.GetName] karşısındaki savaşımın [ROOT.Char.GetFaith.HighGodName] tarafından onaylandığını biliyorum. Yine de [caliph.Custom2('InsultNoun', ROOT.Char)] [caliph.GetFaith.GetReligion.GetAdjectiveNoTooltip] askerlerimi, Peygamber'in halefi olduğu için geri çekilmeleri ve evlerine dönmeleri gerektiğine ikna etmeyi başardı.\n\nAskerlerimin çoğu buna uydu ve şimdi sadık ama daha küçük bir ordunun sonuçlarıyla uğraşmak zorundayım..."
  fp3_yearly.2041.a: "Lanet olsun [caliph.Custom2('InsultNoun', ROOT.Char)]!"
-### TODO AGOT-CHANGED: fp3_yearly.2050.t [AGOT: Religious Schools | TR: Fütüvvet Locaları]
- fp3_yearly.2050.t: "Religious Schools"
-### TODO AGOT-CHANGED: fp3_yearly.2060.t_madrasas [AGOT: Temple Schools | TR: Medreseler]
- fp3_yearly.2060.t_madrasas: "Temple Schools"
+
+ fp3_yearly.2050.t:0 "Fütüvvet Locaları"
+
+ fp3_yearly.2060.t_madrasas:0 "Medreseler"
  fp3_yearly.2060.t_houses_of_worship: "[ROOT.Char.GetFaith.HouseOfWorship|U] Okulları"
  fp3_yearly.8000.t: "Yoldan Sapmış Gazi"
  fp3_yearly_non_islamic.t: "Sınır İçin Bir Savaşçı mı?"
@@ -93,8 +93,8 @@
  fp3_yearly.8000_dancing_girl.desc: "[murder_barony.GetNameNoTier] kasabasında içki alemine gittiğinde. Orada, çok sarhoş bir hâlde, bir kavgaya karıştı ve bir hancıyı, dans eden bir kızı ve evcil maymununu öldüresiye dövdü.\n\n"
  fp3_yearly.8000_bath_inspector.desc: "[murder_barony.GetNameNoTier] kasabasında fahişeler ve alçaklarla eğlenmeye gittiğinde. Bu itibarsız toplulukta, bir muhafız ve bir hamam müfettişi ile tartışmaya girdi ve ikisini de bıçaklayarak öldürdü.\n\n"
  fp3_yearly.8000_townsfolk.desc: "[murder_barony.GetNameNoTier] kasabasında bazı boğucu şarlatanlar tarafından kandırılıp soyulduğunda. Öfkesini yerel pazarda çıkardı, bir çay satıcısını ve bir eşeği yastıklı bir tabure ile öldüresiye dövdü.\n\n"
-### TODO AGOT-ONLY: fp3_yearly.8000.desc [AGOT: ]
- fp3_yearly.8000.desc: ""This [raging_ghazi.GetWomanMan] must be punished severely", my upstanding [righteous_marshal.GetCouncilTitle] [righteous_marshal.GetFirstName] says, "to appease the good townsfolk of [murder_barony.GetNameNoTierNoTooltip]."\n\n"No", [raging_ghazi.GetFirstNameNoTooltip] begs, hanging from chains in my dungeon, "you must allow me to go to the frontier, for that is [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] purpose.""
+
+ fp3_yearly.8000.desc:0 ""Bu [raging_ghazi.GetWomanMan] ağır şekilde cezalandırılmalı," der dürüst [righteous_marshal.GetCouncilTitle] [righteous_marshal.GetFirstName], "[murder_barony.GetNameNoTierNoTooltip]'in namuslu halkını yatıştırmak için."\n\n"Hayır," diye yalvarır [raging_ghazi.GetFirstNameNoTooltip], zindanımda zincirlere asılı halde, "beni sınıra göndermelisiniz, çünkü [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] amacı budur.""
  fp3_yearly.8000.a: "Ben de kutsal yolda yürüdüm - huzur içinde git."
  fp3_yearly.8000.b: "Sadece senin için yeni ve güzel bir hücrem var!"
  fp3_yearly.8000.c: "Senin gibi yetenekli bir adamı kullanabilirim..."
@@ -137,8 +137,8 @@
  fp3_espand_unfound.tt: "[quest_chaplain.GetFirstNameNoTooltip] görevinde başarısız oldu"
  fp3_closer_to_love.tt: "Siz ve [superstitious_consort.GetFirstNameNoTooltip] yakınlaşıyorsunuz"
  fp3_yearly.8004.t: "Sınır Çağırıyor"
-### TODO AGOT-CHANGED: fp3_yearly.8004.desc [AGOT: To some who dwell in the splendid cities of this land, the wailing winds of the Dothraki Sea still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n | TR: Bu toprakların görkemli şehirlerinde yaşayan bazıları için kuzey bozkırlarının feryat eden rüzgarları hâlâ kalplerinde yankılanıyor. İyi mi kötü mü tarışılır ama, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] bu çağrıyı hissetmeye başladı.\n\n]
- fp3_yearly.8004.desc: "To some who dwell in the splendid cities of this land, the wailing winds of the Dothraki Sea still echo in their hearts. For good or ill, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] has begun to feel this call.\n\n"[parent.GetMotherFather|U], you must let me leave. I want to hone my mind and my sword on the wild frontier, travel with caravans and traders, and perhaps even see the #italic Mother of Mountains#! of legend."\n\nBut [worried_relation.GetFirstName] loves [fp3_child_to_leave.GetFirstNameNoTooltip] dearly, and is begging me to refuse [fp3_child_to_leave.GetHerHis] request."
+
+ fp3_yearly.8004.desc:0 "Bu toprakların görkemli şehirlerinde yaşayan bazıları için kuzey bozkırlarının feryat eden rüzgarları hâlâ kalplerinde yankılanıyor. İyi mi kötü mü tarışılır ama, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] bu çağrıyı hissetmeye başladı.\n\n"
  fp3_yearly.8004.a: "Silahına davran, seni yaramaz!"
  fp3_yearly.8004.b: "[worried_relation.GetFirstNameNoTooltip] gitmene çok üzülür ama?"
  fp3_yearly.8004.c: "Eğer gidersen, senin gibi çocuğum yok."
@@ -148,14 +148,14 @@
  fp3_yearly.8004.b.success: "[fp3_child_to_leave.GetFirstNameNoTooltip], macera hayallerinden vazgeçiyor"
  fp3_yearly.8004.b.failure: "[fp3_child_to_leave.GetFirstNameNoTooltip], ayrılmaya kararlı"
  fp3_yearly.8007.t: "[ROOT.Char.GetCulture.GetName] Ebeveynlik"
-### TODO AGOT-ONLY: fp3_yearly.8007.desc [AGOT: ]
- fp3_yearly.8007.desc: ""I yield! I yield, [parent.GetMotherFather]! No more!" My [fp3_child_to_leave.Custom('GetDaughterSon')] pulls back.\n\n"If this is how much you want me to stay, I will do so. I shall be the obedient [fp3_child_to_leave.Custom('GetDaughterSon')] you want me to be. [ROOT.Char.GetFaith.HighGodNameAlternate] will judge you in the end.""
+
+ fp3_yearly.8007.desc:0 ""Pes ediyorum! Pes ediyorum, [parent.GetMotherFather]! Yeter!" [fp3_child_to_leave.Custom('GetDaughterSon')]'im geri çekilir.\n\n"Kalmanı bu kadar istiyorsan, kalacağım. Olmamı istediğin itaatkâr [fp3_child_to_leave.Custom('GetDaughterSon')] olacağım. [ROOT.Char.GetFaith.HighGodNameAlternate] eninde sonunda seni yargılayacak.""
  fp3_yearly.8007.a: "Noksan kalmayacağım."
  fp3_yearly.8007.b: "Güzel. Senin için #italic gerçek#! sorumluluklarım var."
  fp3_yearly.8007.c: "Ve şimdi evlenmelisin!"
  fp3_yearly.8008.t: "Rezil Bir Yenilgi"
-### TODO AGOT-CHANGED: fp3_yearly.8008.desc [AGOT: I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\nI told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away in the Dothraki Sea, and #italic you#! will pay for it. | TR: [fp3_child_to_leave.GetFirstNameNoTooltip] elinde silahla bana yaklaşırken kanlar içinde ve bitkin bir hâlde geriye doğru sendeliyorum.\n\n]
- fp3_yearly.8008.desc: "I stumble backwards, bloodied and exhausted, as [fp3_child_to_leave.GetFirstNameNoTooltip] approaches me with weapon in hand.\n\nI told you already, [parent.GetMotherFather], I #italic will#! leave. I will travel to the frontier, as my heart desired, far away in the Dothraki Sea, and #italic you#! will pay for it."\n\nI can do nothing but watch as my [fp3_child_to_leave.Custom('GetDaughterSon')] leaves, head held high, with a bag of gold and silver from my treasury."
+
+ fp3_yearly.8008.desc:0 "[fp3_child_to_leave.GetFirstNameNoTooltip] elinde silahla bana yaklaşırken kanlar içinde ve bitkin bir hâlde geriye doğru sendeliyorum.\n\n"
  fp3_yearly.8008.a: "Çocuğumu kaybedebilirim ama altınımı da mı kaybedecektim?"
  fp3_yearly.8008.b: "Hadım olsam daha iyiydi..."
  fp3_yearly.8008.c: "Kader seni bana geri getirecek, göreceksin..."
@@ -190,13 +190,13 @@
  fp3_caliph_dead.title: "Sözünüz Geçerliliğini Yitirdi"
  fp3_caliph_dead.desc: "Önceki mezhep lideriniz artık hayatta değil ve verdiğiniz fetih sözü geçersiz hâle geldi."
  fp3_yearly.8012.t: "Yerine Getirilen Bir Söz"
-### TODO AGOT-ONLY: fp3_yearly.8012.desc [AGOT: ]
- fp3_yearly.8012.desc: ""It seems", the [righteous_caliph.GetTitleTierName] [righteous_caliph.GetFirstName] declares, "that you did not delay in fulfilling your pledge to conquer [pagan_county.GetNameNoTier] in the name of our faith. You have proven yourself to be a trustworthy ruler and a devout [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip], and we shall not soon forget it."" 
+
+ fp3_yearly.8012.desc:0 ""Görünüşe göre," diye ilan eder [righteous_caliph.GetTitleTierName] [righteous_caliph.GetFirstName], "[pagan_county.GetNameNoTier]'i inancımız adına fethetme sözünü yerine getirmekte gecikmediniz. Kendinizi güvenilir bir hükümdar ve sadık bir [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] olarak kanıtladınız, bunu unutmayacağız.""
  fp3_yearly.8012.a: "Her [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] ne yaparsa onu yaptım."
  become_faith_warrior.toast: "Sen [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip] şampiyonu oldun."
  fp3_yearly.8013.t: "[ROOT.Char.GetFaith.GetReligiousHeadTitle.GetAdjectiveNoTooltip] Hayal Kırıklığı"
-### TODO AGOT-ONLY: fp3_yearly.8013.desc [AGOT: ]
- fp3_yearly.8013.desc: ""Five years ago", the [righteous_caliph.GetTitleTierName] [righteous_caliph.GetFirstName] declares, "you promised before us to deliver [pagan_county.GetNameNoTier] from the heathens. How can it then be, that this has not come to pass?"" 
+
+ fp3_yearly.8013.desc:0 ""Beş yıl önce," diye ilan eder [righteous_caliph.GetTitleTierName] [righteous_caliph.GetFirstName], "[pagan_county.GetNameNoTier]'i kâfirlerden kurtaracağınıza dair önümüzde söz verdiniz. Nasıl olur da bu gerçekleşmedi?""
  fp3_yearly.8013.a: "Üzgünüm, şartlar asla istediğim gibi olmadı."
  fp3_yearly.8013.b: "Ne sizi tanıyorum ne de verilen sözü."
  fp3_yearly.8014.t: "Çaydanlığın Sırları"
@@ -206,8 +206,8 @@
  fp3_yearly.8014.c: "Bunu yapmayacağım ve #italic sen de yapmayacaksın#!!"
  f3_yearly.8014_forbidding_teapot_alcohol_flavor: "[smart_courtier.GetNameNoTooltip], günahlarını saklamayı bırakmaya tarafınızca zorlanıyor."
  fp3_yearly.8016.t: "Unutulmuş Taşlar"
-### TODO AGOT-CHANGED: fp3_yearly.8016.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the woods on his domain.\n\nThey must have been erected by a lost expedition of the #italic Hairy Men#! | TR: [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName], beni kendi alanındaki Hyrkani ormanının derinliklerinde bulunan üç adet garip oyma taşa bakmaya davet etti. \n\n]
- fp3_yearly.8016.desc: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName] has invited me to take a look at a triad of strange carved stones, deep in the woods on his domain.\n\nThey must have been erected by a lost expedition of the #italic Hairy Men#!", [hyrcanian_vassal.GetSheHe] tells me. "Now, the local forest-dwellers have taken a liking to these stones, and believe that their unknown makers will descend upon them from the Shivering Sea with swift and bloody vengeance should the stones be destroyed. But I do not believe such tales. Though I cannot read the letters on these stones, they for sure are foriegn idols, and must be smashed to pieces. Is it not so, my liege?""
+
+ fp3_yearly.8016.desc:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('hyrcanian_vassal'))] [hyrcanian_vassal.GetFirstName], beni kendi alanındaki Hyrkani ormanının derinliklerinde bulunan üç adet garip oyma taşa bakmaya davet etti. \n\n"
  fp3_yearly.8016.a: "Bana bir balyoz verin!"
  fp3_yearly.8016.b: "Hayır, orman sakinlerini dinleyeceğiz."
  fp3_yearly.8016.c: "Onları kaldırtacağım ve [ROOT.Char.Custom('ResidenceBuilding')] dışında yeniden dikeceğim..."
@@ -244,12 +244,12 @@
  fp3_yearly.8889.c: "Ne yazık ki böyle bir anlaşma olamaz."
  fp3_yearly.8890.t: "Bir Şefin Kaderi"
  fp3_yearly.8890.desc_beginning: "Önümde sürüklenen göçebe reisi [turkic_leader.GetName] oldukça çaresiz görünüyor. Burada çok az müttefiki var, eğer hiç varsa tabii."\n\n"[turkic_leader.GetCulture.GetName], pusuya düştü," diye açıklıyor [possibly_capable_marshal.GetFirstName], "bu şahsı ve bazı savaşçılarını ele geçirdik."\n\n"
-### TODO AGOT-ONLY: fp3_yearly.8890_brutal_demands [AGOT: ]
- fp3_yearly.8890_brutal_demands: ""Take their heads", [upset_vassal.GetName] insists, "for these savages have killed many of my subjects."\n\n"
-### TODO AGOT-ONLY: fp3_yearly.8890_nonbrutal_demands [AGOT: ]
- fp3_yearly.8890_nonbrutal_demands: ""Have them promise to leave my lands forever", [upset_vassal.GetTitledFirstName] suggests, "keep [turkic_leader.GetFirstNameNoTooltip] hostage to guarantee their compliance."\n\n"
-### TODO AGOT-ONLY: fp3_yearly.8890.desc_ending [AGOT: ]
- fp3_yearly.8890.desc_ending: ""Indeed", [turkic_leader.GetNameNoTooltip] says, "I am not afraid of killing those who come with spears against me. But my sword and bow, and those of my warriors, could be in your service, great [ROOT.Char.GetTitleTierName], if you let me go.""
+
+ fp3_yearly.8890_brutal_demands:0 ""Kafalarını alın," diye ısrar eder [upset_vassal.GetName], "çünkü bu vahşiler tebaamın çoğunu öldürdü."\n\n"
+
+ fp3_yearly.8890_nonbrutal_demands:0 ""Topraklarımdan sonsuza dek ayrılacaklarına dair söz versinler," diye önerir [upset_vassal.GetTitledFirstName], "uyumlarını garanti etmek için [turkic_leader.GetFirstNameNoTooltip]'i rehin tut."\n\n"
+
+ fp3_yearly.8890.desc_ending:0 ""Gerçekten," der [turkic_leader.GetNameNoTooltip], "bana mızrakla gelenleri öldürmekten korkmam. Ama benim kılıcım ve yayım, savaşçılarımınkilerle birlikte, sizin hizmetinizde olabilir, yüce [ROOT.Char.GetTitleTierName], beni salıverirseniz.""
  fp3_yearly.8890.a: "Pekâlâ, halkını [nomads_new_county.GetNameNoTierNoTooltip] topraklarına yerleştir ve bana hizmet et."
  fp3_yearly.8890.b: "Hayır, hayatını kaybedeceksin."
  fp3_yearly.8890.c: "Kabileni yatıştırmak için seni rehin tutacağım."
@@ -260,19 +260,19 @@
  fp3_frontier_story_cycle.0001.a: "Bu da ne..."
  children_arriving_shortly.tt: "Çocuklar kısa süre içinde gelecekler"
  fp3_frontier_story_cycle.0002_opening: "Büyük [ROOT.Char.GetTitleTierName]"
-### TODO AGOT-CHANGED: fp3_frontier_story_cycle.0002_letter [AGOT: I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Lengii Empire long ago, as a token of my respect. | TR: Göçebelerle olan ilişkim sırasındaki davranışlarımdan dolayı pişmanım. Gerçekten de [nomads_county.GetNameNoTier] bölgesini terk ettiler ve çiftçilerle aralarındaki çatışmaların azaldığını duydum. Göçebe tehdidini ciddiye almanız gerektiği konusunda hâlâ ısrar etsem de, size saygımın bir göstergesi olarak uzun zaman önce Kuşan İmparatorluğu'nda basılmış bu güzel altın sikkeleri sunmak istiyorum.]
- fp3_frontier_story_cycle.0002_letter: "I regret my behavior during the affair with the nomads. They have indeed left [nomads_county.GetNameNoTier], and I hear the conflicts between them and the farmers have abated. While I still insist that you should take the nomad threat seriously, I would like to offer you these beautiful gold coins, minted in the Lengii Empire long ago, as a token of my respect." 
+
+ fp3_frontier_story_cycle.0002_letter:0 "Göçebelerle olan ilişkim sırasındaki davranışlarımdan dolayı pişmanım. Gerçekten de [nomads_county.GetNameNoTier] bölgesini terk ettiler ve çiftçilerle aralarındaki çatışmaların azaldığını duydum. Göçebe tehdidini ciddiye almanız gerektiği konusunda hâlâ ısrar etsem de, size saygımın bir göstergesi olarak uzun zaman önce Kuşan İmparatorluğu'nda basılmış bu güzel altın sikkeleri sunmak istiyorum."
  fp3_frontier_story_cycle.0002.a: "Güzel bir hediye. Her şey affedildi."
  fp3_frontier_story_cycle.0002.b: "Senin ıvır zıvırına ihtiyacım yok, mazeretini de kabul etmiyorum."
  fp3_frontier_story_cycle.0003.t: "Paylarına Düşeni Ödüyorlar"
-### TODO AGOT-CHANGED: fp3_frontier_story_cycle.0003_beginning [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\nIndeed, [ROOT.Char.Custom('FormOfAddressForLiege')] | TR: [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName], görünüşe göre, [turkic_leader.GetName] ve göçebe kabilesi hakkında uzun uzadıya düşünmüş.\n\n]
- fp3_frontier_story_cycle.0003_beginning: "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName] has, apparently, spent much time thinking about [turkic_leader.GetName] and [turkic_leader.GetHerHis] nomad tribe.\n\nIndeed, [ROOT.Char.Custom('FormOfAddressForLiege')]", [greedy_chaplain.GetFirstNameNoTooltip] says, "they have been in my prayers. For I have learnt that some of them still follow their heathen faith.""
-### TODO AGOT-CHANGED: fp3_frontier_story_cycle.0003_jizya [AGOT: We should have them pay a tax for the privilege of keeping their idolatrous ways.\n\n | TR: Putperest yollarını sürdürme ayrıcalığı için onlara #italic cizye#! vergisi ödetmeliyiz.]
- fp3_frontier_story_cycle.0003_jizya: "We should have them pay a tax for the privilege of keeping their idolatrous ways.\n\n"
-### TODO AGOT-CHANGED: fp3_frontier_story_cycle.0003_not_jizya [AGOT: We should do as the Freehold was wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?\n\n | TR: Müslümanların yaptığı gibi yapalım ve onlara fazladan vergi ödetelim, çünkü siz onlara karşı yeterince cömert davrandınız.]
- fp3_frontier_story_cycle.0003_not_jizya: "We should do as the Freehold was wont to do, and have them pay an extra tax, for surely, you have been generous enough towards them?\n\n""
-### TODO AGOT-ONLY: fp3_frontier_story_cycle.0003_ending [AGOT: ]
- fp3_frontier_story_cycle.0003_ending: ""This is not fair", protests [turkic_leader.GetFirstNameNoTooltip]. "I dedicated one hundred horse archers to your service, as well as myself. If you refrain from taxing us in this way, I promise not to forget the favor.""  
+
+ fp3_frontier_story_cycle.0003_beginning:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('greedy_chaplain'))] [greedy_chaplain.GetFirstName], görünüşe göre, [turkic_leader.GetName] ve göçebe kabilesi hakkında uzun uzadıya düşünmüş.\n\n"
+
+ fp3_frontier_story_cycle.0003_jizya:0 "Putperest yollarını sürdürme ayrıcalığı için onlara #italic cizye#! vergisi ödetmeliyiz."
+
+ fp3_frontier_story_cycle.0003_not_jizya:0 "Müslümanların yaptığı gibi yapalım ve onlara fazladan vergi ödetelim, çünkü siz onlara karşı yeterince cömert davrandınız."
+
+ fp3_frontier_story_cycle.0003_ending:0 ""Bu adil değil," diye itiraz eder [turkic_leader.GetFirstNameNoTooltip]. "Hizmetinize yüz atlı okçu adadım, kendim de dâhil. Bizden bu şekilde vergi almayı bırakırsanız, bu iyiliği unutmayacağıma söz veririm.""
  fp3_frontier_story_cycle.0003.a: "Kabilenizin sakladığı tüm paraları bulacağız."
  fp3_frontier_story_cycle.0003.b: "Hayır, [greedy_chaplain.GetFirstNameNoTooltip] haklı, vergilendirilmelisiniz."
  fp3_frontier_story_cycle.0003.c: "Pekâlâ, [turkic_leader.GetFirstNameNoTooltip], bu kulağa adil geliyor."
@@ -281,8 +281,8 @@
  fp3_frontier_story_cycle.0004.desc: "[orphan_girl.GetName] gerçekten de perişan görünüyor, tıpkı her türlü talihsizlikten muzdarip görünen küçük erkek kardeşi [orphan_boy.GetName] gibi.\n\n"Lütfen, [ROOT.Char.GetTitleTierName]" diyor titrek bir sesle, "bir haftadır yemek yemedik. Biraz ekmek isteyebilir miyim? Küflü olması önemli değil, verseniz yeter..."\n\nDaha fazla sorgulandığında, ailesinin talihsizliği için kimin suçlanacağını tam olarak bilmiyor gibi görünüyor. "Atlılar gelip ekinlerimizi biçtiler ve koyunlarımızı çaldılar... sonra da ortadan kayboldular. Şimdi bize ne olacak bilmiyorum ama [upset_vassal.GetTitledFirstName] bu önemsiz meseleyle sizi rahatsız ettiği için çok üzgünüm."
  fp3_frontier_story_cycle.0004.a: "Üzülmeyin, sizi alacağım."
  fp3_frontier_story_cycle.0004.b: "[turkic_leader.GetFirstNameNoTooltip], sizi kabilesine kabul etmeli gibi görünüyor."
-### TODO AGOT-CHANGED: fp3_frontier_story_cycle.0004.c [AGOT: I will send you to a temple. | TR: Seni bir manastıra göndereceğim.]
- fp3_frontier_story_cycle.0004.c: "I will send you to a temple."
+
+ fp3_frontier_story_cycle.0004.c:0 "Seni bir manastıra göndereceğim."
  fp3_frontier_story_cycle.0004.d: "[upset_vassal.GetFirstNameNoTooltip], benden ne bekliyor hiçbir fikrim yok. Git bir yetimhane bul."
  fp3_pay_for_upkeep_flavor: "Onların bakım masraflarını ödemeniz gerekecek."
  fp3_frontier_story_cycle.0005.t: "İki Yüz Atlı"
@@ -292,17 +292,17 @@
  fp3_frontier_story_cycle.0005.c: "Hayır, teşekkür ederim, onlarsız da idare edebilirim."
  fp3_frontier_story_cycle.0006.t: "Yoldan Çıkmış Bir Ok"
  fp3_frontier_story_cycle.0006_beginning: "[one_eyed_child.GetName], her zaman yaptığı gibi [ROOT.Char.Custom('ResidenceBuilding')] içerisinde etrafta koşturuyordu ki felaket çıkageldi. [turkic_leader.GetName] bazı savaşçılarıyla okçuluk talimi yapıyordu ve hedefinden sapan bir ok yüzünden [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('one_eyed_child'))] gözünden vuruldu."
-### TODO AGOT-ONLY: fp3_frontier_story_cycle.0006_has_court_physician [AGOT: ]
- fp3_frontier_story_cycle.0006_has_court_physician: ""[one_eyed_child.GetSheHe|U] will be fine, I believe", my physician [scoped_physician.GetFirstName] says, "but alas, will walk through life with one eye less. May I humbly caution you to have less arrows flying over the courtyard in the future?"\n\n"
+
+ fp3_frontier_story_cycle.0006_has_court_physician:0 ""[one_eyed_child.GetSheHe|U] iyileşecektir, sanırım," der hekimim [scoped_physician.GetFirstName], "ama ne yazık ki hayatı boyunca bir gözü eksik yürüyecek. Gelecekte avluda daha az ok uçurmanızı saygıyla tavsiye edebilir miyim?"\n\n"
  fp3_frontier_story_cycle.0006_no_court_physician: "Aceleyle çağrılan yerel bir hekim onun iyileşeceğini doğruladı, ancak gözü sonsuza dek sakat kalacak.\n\n"
-### TODO AGOT-ONLY: fp3_frontier_story_cycle.0006_ending [AGOT: ]
- fp3_frontier_story_cycle.0006_ending: ""It was an accident", [turkic_leader.GetFirstName] pleads. "Do not be too eager to punish me, [ROOT.Char.Custom('FormOfAddressForLiege')]. If we don't practice, how are we to defend your lands?""
+
+ fp3_frontier_story_cycle.0006_ending:0 ""Bir kazaydı," diye yalvarır [turkic_leader.GetFirstName]. "Beni cezalandırmak için fazla hevesli olmayın, [ROOT.Char.Custom('FormOfAddressForLiege')]. Antrenman yapmazsak topraklarınızı nasıl savunacağız?""
  fp3_frontier_story_cycle.0006.a: "Zindanda okçuluk becerileriniz üzerine düşünebilirsiniz."
  fp3_frontier_story_cycle.0006.b: "Bundan böyle [ROOT.Char.Custom('ResidenceBuilding')] çevresinde okçuluk yasaklanmıştır."
  fp3_frontier_story_cycle.0006.c: "Sanırım bu [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] isteğiydi."
  fp3_frontier_story_cycle.0007.t: "Kervan Felaketi"
-### TODO AGOT-ONLY: fp3_frontier_story_cycle.0007.desc [AGOT: ]
- fp3_frontier_story_cycle.0007.desc: ""Oh [ROOT.Char.GetTitleTierName]", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName] says, "merchants in the [bandits_county.GetName] speak of raids by bandits on horseback. Now the caravans make detours from that land, hurting our trade on the roads. I pray you send me to investigate this matter."\n\n"No", [turkic_leader.GetName] interjects fiercely, "I can send my warriors to safeguard the caravan ways permanently - if we may graze our horses in [bandits_county.GetNameNoTierNoTooltip] henceforth. Surely that would be a better course of action?"\n\nBut [warmonger_councillor.GetFirstNameNoTooltip] protests. "Beware, [ROOT.Char.Custom('FormOfAddressForLiege')] - the farmers loathe when you let nomads roam freely.""
+
+ fp3_frontier_story_cycle.0007.desc:0 ""Ah [ROOT.Char.GetTitleTierName]," der [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))] [warmonger_councillor.GetFirstName], "[bandits_county.GetName]'deki tüccarlar atlı haydutların baskınlarından bahsediyor. Kervanlar artık o topraklardan geçmemek için dolambaçlı yol alıyor, yollardaki ticaretimiz zarar görüyor. Bu meseleyi araştırmam için beni göndermeniz için dua ediyorum."\n\n"Hayır," diye sertçe araya girer [turkic_leader.GetName], "kervan yollarını kalıcı olarak korumaları için savaşçılarımı gönderebilirim - bundan böyle [bandits_county.GetNameNoTierNoTooltip]'de atlarımızı otlatabilirsek. Elbette bu daha iyi bir yol olmaz mı?"\n\nAma [warmonger_councillor.GetFirstNameNoTooltip] itiraz eder. "Dikkatli olun, [ROOT.Char.Custom('FormOfAddressForLiege')] - göçebelerin serbestçe dolaşmasına izin verdiğinizde çiftçiler sizden nefret eder.""
  fp3_frontier_story_cycle.0007.a: "Yine de [turkic_leader.GetFirstNameNoTooltip] ve planı kulağa daha iyi geliyor."
  fp3_frontier_story_cycle.0007.b: "Yeterince adil, size bu şansı vereceğim."
  fp3_frontier_story_cycle.0007.c: "Eğer beklersek, tüccarlar eninde sonunda geri dönecektir."
@@ -312,8 +312,8 @@
  fp3_investigating_attacks_toast_dismal_failure: "Haydutlar [bandits_county.GetNameNoTierNoTooltip] topraklarında hüküm sürüyor"
  attacks_abated.toast: "Haydut saldırıları azaldı"
  fp3_frontier_story_cycle.0099.t: "[turkic_leader.GetFirstNameNoTooltip] Tımarı"
-### TODO AGOT-ONLY: fp3_frontier_story_cycle.0099.desc [AGOT: ]
- fp3_frontier_story_cycle.0099.desc: ""Long have I served you loyally, my liege, and given much support to your cause, at great personal expense." [turkic_leader.GetName] looks like [turkic_leader.GetSheHe] has been biding [turkic_leader.GetHerHis] time for this moment, and one does not have to be a [Select_CString(turkic_leader.IsFemale,'seeress','seer')] to realize what is coming next.\n\n"It is long overdue that you give me the reward, and the responsibility, that is my due. Grant me the [title_to_grant.GetName], to hold in perpetuity, and my tribe will serve the [ROOT.Char.GetDynastyHouseName] house for ages to come. It is far from your richest land, but in dire need of more direct governance. Honor me in this way, or I might take my warriors elsewhere.""
+
+ fp3_frontier_story_cycle.0099.desc:0 ""Uzun zamandır size sadakatle hizmet ettim, hükümdarım, ve büyük kişisel fedakârlıklarla davasına çok destek verdim." [turkic_leader.GetName] [turkic_leader.GetSheHe]'in bu an için [turkic_leader.GetHerHis] zamanını beklediği bir ifadeye sahip ve sırada ne olduğunu anlamak için bir [Select_CString(turkic_leader.IsFemale,'kâhin kadın','kâhin')] olmak gerekmiyor.\n\n"Bana hakkım olan ödülü ve sorumluluğu vermeniz çoktan gecikti. Bana [title_to_grant.GetName]'i verin, ebediyen elimde kalsın, kabilem çağlar boyunca [ROOT.Char.GetDynastyHouseName] hanesine hizmet etsin. Sizin en zengin toprağınızdan uzak, ama daha doğrudan bir yönetime şiddetle ihtiyaç duyan bir yer. Beni bu şekilde onurlandırın, ya da savaşçılarımı başka yere götürebilirim.""
  fp3_frontier_story_cycle.0099.a: "Senin say."
  fp3_frontier_story_cycle.0099.b: "Bunun yerine [extra_title_to_grant.GetNameNoTooltip] topraklarına ne dersiniz?"
  fp3_frontier_story_cycle.0099.c: "Size [extra_extra_title_to_grant.GetNameNoTierNoTooltip] topraklarını verebilirim ama hepsi bu."
@@ -339,8 +339,8 @@
  fp3_yearly.8021.c: "Zindanımda bu cılız simyacı için yerim var..."
  fp3_yearly.8021.d: "Burada kimsenin suçu yok, birbirinizi affetmelisiniz."
  fp3_yearly.8022.t: "Vitriolik Vizyonlar"
-### TODO AGOT-ONLY: fp3_yearly.8022.desc [AGOT: ]
- fp3_yearly.8022.desc: ""What I have invented is derived from a glassy mineral the Qaathi and Ghiscari of old called #italic vitriol#!", [enthusiastic_alchemist.GetName] explains. "By meticulously roasting green vitriol in an iron retort, I created this corrosive substance. I could see both scholarly and medicinal uses for it, but beware my [ROOT.Char.GetLadyLord], it is not to be trifled with, as [alchemy_enthusiast.GetTitledFirstName] has learnt. Perhaps you might sponsor my further research?""
+
+ fp3_yearly.8022.desc:0 ""İcat ettiğim şey, eski Qaathilerin ve Ghiscarilerin #italic vitriol#! dedikleri camsı bir mineralden türetildi!" diye açıklar [enthusiastic_alchemist.GetName]. "Yeşil vitriolü demir bir imbikte titizlikle kavurarak bu aşındırıcı maddeyi yarattım. Onun için hem bilimsel hem de tıbbi kullanımlar görebiliyorum, ama dikkat edin [ROOT.Char.GetLadyLord]'im, hafife alınacak bir şey değil, [alchemy_enthusiast.GetTitledFirstName]'in öğrendiği gibi. Belki daha fazla araştırmama sponsor olursunuz?""
  fp3_yearly.8022.a: "Maddeyi bizzat inceleyeceğim!"
  fp3_yearly.8022.b: "Herhangi bir...#italic askerî#! kullanımı olabilir mi?"
  fp3_yearly.8022.c: "Aferin ama bu işime yaramaz."
@@ -375,8 +375,8 @@
  fp3_yearly.8026.a: "Umarım kimse bunu fark etmez..."
  fp3_yearly.8026.b: "Emin olmak için [helpful_courtier.GetFirstNameNoTooltip] sonsuza dek susmalı..."
  fp3_yearly.8027.t: "Dokuz Yüz Doksan Bölüm Altın"
-### TODO AGOT-CHANGED: fp3_yearly.8027.desc [AGOT: The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n[former_employer.GetSheHe|U] promised me nine hundred and ninety pounds of gold | TR: Ünlü yazar [snubbed_poet.GetName], uzun süredir destekçisi olan [former_employer.GetName] ile bir sıkıntı yaşamış.\n\n]
- fp3_yearly.8027.desc: "The celebrated writer [snubbed_poet.GetName] has had a falling out with his long-time patron, [former_employer.GetName].\n\n[former_employer.GetSheHe|U] promised me nine hundred and ninety pounds of gold", [snubbed_poet.GetFirstNameNoTooltip] tells me, "one for every chapter in the epic poem I have long prepared on [former_employer.GetHerHis] behalf. I had planned to use it to restore the collapsed aqueducts in my home village. But when I was in the bathhouse, a courier came with my promised reward - but the coins were of #italic silver#!! Upset by this betrayal, I gave it all to the courier, the bathhouse host, and a juice peddler. Now I need a new employer, while I finish the last chapters, and I hear you have enough gold to match the previous offer...""
+
+ fp3_yearly.8027.desc:0 "Ünlü yazar [snubbed_poet.GetName], uzun süredir destekçisi olan [former_employer.GetName] ile bir sıkıntı yaşamış.\n\n"
  fp3_yearly.8027.a: "Kitabın bittiğini gördüğümde size bu miktarın #italic yarısını#! vereceğim."
  fp3_yearly.8027.b: "Bu [former_employer.GetTitledFirstNameNoTooltip] ile ilgili bir yanlış anlaşılma olmalı..."
  fp3_yearly.8027.c: "Beni müsrif mi sanıyorsun? Başka bir yere git."
@@ -387,29 +387,29 @@
  fp3_mediate_between_them.flavor: "[snubbed_poet.GetNameNoTooltip] ve [former_employer.GetFirstNameNoTooltip] arasındaki durumu düzeltmeye çalışıyorsunuz."
 
  fp3_yearly.8028.t:0 "Oktarkların Kitabı"
-### TODO AGOT-CHANGED: fp3_yearly.8028.desc [AGOT: It is completed, [snubbed_poet.GetName] declares, | TR: Tamamlandı]
- fp3_yearly.8028.desc: "It is completed, [snubbed_poet.GetName] declares, "as I promised, all 990 chapters, epic tales of Ghiscari heroism and wonders in ages long ago. I poured my soul into this work, and never again shall I make its like. I am but a humble mortal poet. Yet, thanks to your patronage, perhaps my book can last through the ages, and become beacon of resurgent pride for Ghis."\n\n"Now...you had promised me 495 pounds of gold?""
+
+ fp3_yearly.8028.desc:0 "Tamamlandı"
  fp3_yearly.8028.a: "Onlar senin ve kalıp bana hizmet etmelisin."
  fp3_yearly.8028.b: "Evet, al onları ve git köyüne yardım et."
-### TODO AGOT-CHANGED: fp3_yearly.8028.c [AGOT: Is #italic #! what I paid for? What a disappointment. | TR: Parasını ödediğim şey #italic bu#! mu? Ne büyük bir hayal kırıklığı.]
- fp3_yearly.8028.c: "Is #italic #! what I paid for? What a disappointment."
+
+ fp3_yearly.8028.c:0 "Parasını ödediğim şey #italic bu#! mu? Ne büyük bir hayal kırıklığı."
 
  shahnameh_name:0 "Oktarkların Kitabı"
-### TODO AGOT-CHANGED: shahnameh_desc [AGOT: This massive tome tells, in exquisite verse and detail, the mythical history of the Old Ghiscari Empire from the creation of the empire until the Valryiran conquest. It seems to stir the heart of every Ghiscari who reads it. | TR: Bu devasa eser, dünyanın yaratılışından Müslümanların fethine kadar Pers İmparatorluğu'nun efsanevi tarihini enfes dizeler ve ayrıntılarla anlatır. Onu okuyan her Pers'in kalbini heyecanlandırıyor gibi görünüyor.]
- shahnameh_desc: "This massive tome tells, in exquisite verse and detail, the mythical history of the Old Ghiscari Empire from the creation of the empire until the Valryiran conquest. It seems to stir the heart of every Ghiscari who reads it." 
-### TODO AGOT-CHANGED: persian_epic_name [AGOT: Ghiscari Epic | TR: Pers Destanı]
- persian_epic_name: "Ghiscari Epic"
-### TODO AGOT-CHANGED: persian_epic_desc [AGOT: This book is crammed full of epic poetry celebrating the deeds and destinies of Ghiscari heroes in days of old. | TR: Bu kitap, Pers kahramanlarının eski günlerdeki eylemlerini ve kaderlerini kutlayan epik şiirlerle doludur.]
- persian_epic_desc: "This book is crammed full of epic poetry celebrating the deeds and destinies of Ghiscari heroes in days of old."
+
+ shahnameh_desc:0 "Bu devasa eser, dünyanın yaratılışından Müslümanların fethine kadar Pers İmparatorluğu'nun efsanevi tarihini enfes dizeler ve ayrıntılarla anlatır. Onu okuyan her Pers'in kalbini heyecanlandırıyor gibi görünüyor."
+
+ persian_epic_name:0 "Pers Destanı"
+
+ persian_epic_desc:0 "Bu kitap, Pers kahramanlarının eski günlerdeki eylemlerini ve kaderlerini kutlayan epik şiirlerle doludur."
  fp3_yearly.8029.t: "Eski Zaferin Öyküsü"
-### TODO AGOT-CHANGED: fp3_yearly.8029.desc [AGOT: [snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. Here is the book that I promised you | TR: [snubbed_poet.GetName] bana senaryosunu ve yetenekli bir elle çizilmiş ince minyatürlerle süslenmiş birçok sayfayı uzatıyor.]
- fp3_yearly.8029.desc: "[snubbed_poet.GetName] hands me his script, and many pages already decorated with fine miniatures drawn with a skilled hand. Here is the book that I promised you", [snubbed_poet.GetSheHe] declares triumphantly. "And with what humble skill I may possess, I promise you will not find it lacking. It tells of heroes like Hizdahr the Archer, Krazdak the Dragon-Slayer, beautiful princesses and Ghis' ancient glory. I even made a couplet tying your great dynasty to it all..."\n\n"Now, we said something about 495 pounds of gold?""
+
+ fp3_yearly.8029.desc:0 "[snubbed_poet.GetName] bana senaryosunu ve yetenekli bir elle çizilmiş ince minyatürlerle süslenmiş birçok sayfayı uzatıyor."
  fp3_yearly.8029.a: "Onlar senin ve burada kalıp bana hizmet etmelisin."
  fp3_yearly.8029.b: "Evet, al onları ve git köyüne yardım et."
  fp3_yearly.8029.c: "#italic Bunun#! için bu kadar altın mı?!"
  fp3_yearly.8030.opening: "[former_employer.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
-### TODO AGOT-CHANGED: fp3_yearly.8030.desc [AGOT: Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate bath house hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise! | TR: Beni aptal mı sanıyorsun? [snubbed_poet.GetName] servetimi sefil sokak satıcılarına ve yozlaşmış #italic hamam#! ev sahiplerine harcadı ve şimdi gümüş aldığını iddia etse de, senden daha güvenilir insanlar tarafından aslında altın olduğu söylendi. Yine de bana vadedilen kitabı #italic sana#! çaldı. Umarım [former_employer.GetFaith.HighGodNameAlternatePossessive] cennet bahçesine giremezsin!]
- fp3_yearly.8030.desc: "Do you take me for a fool?  [snubbed_poet.GetName] spent my riches on wretched street peddlers and degenerate bath house hosts, and though he now claims that he received silver, I have been told by people more trustworthy than you that indeed, it was gold. Yet he stole away with the book I was promised, to #italic you#!. May [former_employer.GetFaith.HighGodNameAlternate] remove you form the garden of paradise!"
+
+ fp3_yearly.8030.desc:0 "Beni aptal mı sanıyorsun? [snubbed_poet.GetName] servetimi sefil sokak satıcılarına ve yozlaşmış #italic hamam#! ev sahiplerine harcadı ve şimdi gümüş aldığını iddia etse de, senden daha güvenilir insanlar tarafından aslında altın olduğu söylendi. Yine de bana vadedilen kitabı #italic sana#! çaldı. Umarım [former_employer.GetFaith.HighGodNameAlternatePossessive] cennet bahçesine giremezsin!"
  fp3_yearly.8030.a: "Mantıklı düşünememeniz ne yazık..."
  fp3_yearly.8031.opening: "[former_employer.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
  fp3_yearly.8031.desc: "Gerçekten de, kindar bir saray mensubumun bana ihanet ettiği ve [snubbed_poet.GetName] için söz verdiğimden daha azını verdiği ortaya çıktı. Benimle şair arasındaki bu yanlış anlaşılmayı giderdiğiniz için teşekkür ederim, kendisi artık hizmetime geri dönecek. Bu dünyanın diğer yöneticilerine sizin hakkınızda iyi şeyler söyleyeceğim."
@@ -427,8 +427,8 @@
  fp3_yearly.8033.c: "Haklısın. Buz evleri restore etmek için altın göndereceğim." 
  fp3_yearly.8033.d: "Bir dahaki sefere beni #italic gerçek#! bir sorunla rahatsız et." 
  fp3_yearly.8034.t: "Heftalit Hazinesi"
-### TODO AGOT-ONLY: fp3_yearly.8034.desc [AGOT: ]
- fp3_yearly.8034.desc: ""Listen, my [ROOT.Char.GetTitleTierName]", [wronged_vassal.GetName] begs before me. "A month ago, I was surveying lands next to a river in [hephthalite_hoard_province.GetNameNoTier], when I came upon a magnificent golden treasure. I could see from the elongated skull shapes of the kings depicted on the coins, that the treasure must have been hidden by a Hunnic people, perhaps the Imperial Hephthalites, who ruled my lands not too long ago. Now, being descended from their stock, I think it is within my right to claim this treasure. But my liege [greedy_vassal.GetTitledFirstName] is contesting this. [greedy_vassal.GetSheHe|U] is trying to take the treasure from me, claiming it [greedy_vassal.GetHerHis] right as the successor to the Hephthalite overlordship of those lands. Please support me.""
+
+ fp3_yearly.8034.desc:0 ""Dinleyin, [ROOT.Char.GetTitleTierName]," diye yalvarır önümde [wronged_vassal.GetName]. "Bir ay önce, [hephthalite_hoard_province.GetNameNoTier]'de bir nehrin yanındaki toprakları inceliyordum ki muhteşem bir altın hazineye rastladım. Sikkelerde tasvir edilen kralların uzun kafatası şekillerinden, hazinenin bir Hun halkı tarafından, belki de çok uzun zaman önce topraklarımı yöneten İmparatorluk Heftalitleri tarafından saklanmış olması gerektiğini anlayabilirdim. Şimdi, onların soyundan geldiğim için, bu hazineyi talep etme hakkım olduğunu düşünüyorum. Ama hükümdarım [greedy_vassal.GetTitledFirstName] buna itiraz ediyor. [greedy_vassal.GetSheHe|U] bu topraklar üzerindeki Heftalit egemenliğinin varisi olarak [greedy_vassal.GetHerHis] hakkı olduğunu iddia ederek hazineyi benden almaya çalışıyor. Lütfen bana destek olun.""
  fp3_yearly.8034.a: "Bunu kolaylaştıracağız - altını #italic ben#! alacağım." 
  fp3_yearly.8034.b: "Hepsini [greedy_vassal.GetFirstNameNoTooltip] alacak." 
  fp3_yearly.8034.c: "Bir uzlaşmaya ihtiyaç var - [hephthalite_hoard_province.GetNameNoTierNoTooltip] halkına verin." 
@@ -462,21 +462,21 @@
  fp3_yearly.8039.b: "Diyetime olan inancımı korumayı tercih ederim, bunu biraz daha sürdürelim."
  fp3_yearly.8039.c: "Etkisiz çarelerinizden bıktım. Bırakın beni."
  fp3_yearly.8040.t: "Psişik Güç"
-### TODO AGOT-ONLY: fp3_yearly.8040.desc [AGOT: ]
- fp3_yearly.8040.desc: ""Alas, [ROOT.Char.Custom('FormOfAddressForLiege')]", [persian_polymath.GetFirstName] says. "While I do think we have seen some improvement in your mood and your bodily condition, I have not yet cured your melancholia. Diseases of the mind are stubborn foes. Yet, there are still remedies to attempt. In my book, I stipulated that the human psyche is an independent system, that influences [persian_polymath.GetHerHis] physical aspect. We must improve your psychic potency, by proving to your subconscious that the spirit is eternal, unmarred by death. Simply put - you must reaffirm your faith in [ROOT.GetCharacter.GetFaith.HighGodNameAlternate].""
+
+ fp3_yearly.8040.desc:0 ""Ne yazık ki, [ROOT.Char.Custom('FormOfAddressForLiege')]," der [persian_polymath.GetFirstName]. "Ruh halinizde ve bedensel durumunuzda biraz iyileşme gördüğümüzü düşünsem de, melankolinizi henüz tedavi edemedim. Zihnin hastalıkları inatçı düşmanlardır. Yine de denenecek çareler var. Kitabımda, insan ruhunun, [persian_polymath.GetHerHis] fiziksel yönünü etkileyen bağımsız bir sistem olduğunu öne sürdüm. Bilinçaltınıza ruhun ebedî olduğunu, ölümden zarar görmediğini kanıtlayarak psişik gücünüzü artırmalıyız. Basitçe söylemek gerekirse - [ROOT.GetCharacter.GetFaith.HighGodNameAlternate]'e olan inancınızı yeniden teyit etmelisiniz.""
  fp3_yearly.8040.a: "Sufi öğretilerini araştıracağım."
  fp3_yearly.8040.b: "[court_chaplain.GetTitledFirstName] ile bir konuşacağım."
  fp3_yearly.8040.c: "Benim inancım hiç sarsılmadı. Beni kim sanıyorsunuz?"
  fp3_yearly.8040.d: "Bu anlamsız, git ve "çarelerini" başka yerde sat."
  fp3_refusing_faith_treatment_flavor: "Bu tedaviyi reddediyorsunuz ama [persian_polymath.GetFirstNameNoTooltip] çabalarına devam edebilir."
  fp3_yearly.8041.t: "Sessizliğin Tesellisi"
-### TODO AGOT-ONLY: fp3_yearly.8041.desc [AGOT: ]
- fp3_yearly.8041.desc: ""This would be a difficult path", [sufi_mystic.GetName] declares after having been told about my troubles.\n\n"The ways of the #italic tariqa#! Sufi orders can bring great understanding about the self and the universe, but it takes tremendous discipline to attain it. I am but an initiate on the path, myself. Nevertheless, my [ROOT.Char.GetTitleTierName], we could try to achieve #italic fana#!, that state of meditation when you, being just a small drop of water in [ROOT.GetCharacter.GetFaith.HighGodNameAlternatePossessive] dream, become aware of the ocean around you. I think it could bring you a new perspective on this brief life.""
+
+ fp3_yearly.8041.desc:0 ""Bu zorlu bir yol olurdu," der [sufi_mystic.GetName], sorunlarımı duyduktan sonra.\n\n"#italic Tarikat#! yolları Sufi tarikatları, benlik ve evren hakkında büyük anlayış getirebilir, ama buna ulaşmak muazzam bir disiplin gerektirir. Ben de yolun yalnızca bir acemisiyim. Yine de, [ROOT.Char.GetTitleTierName]'im, #italic fena#!ya ulaşmayı deneyebiliriz; [ROOT.GetCharacter.GetFaith.HighGodNameAlternatePossessive] rüyasında küçük bir su damlası olan senin, etrafındaki okyanusun farkına vardığın o meditasyon hâline. Sanırım bu kısa hayata yeni bir bakış açısı kazandırabilir.""
  fp3_yearly.8041.a: "Ben hazırım."
  fp3_yearly.8041.b: "Başka bir çarenin peşinden gitmeyi tercih ederim..."
  fp3_yearly.8042.t: "Ölmeyen Ruh"
-### TODO AGOT-ONLY: fp3_yearly.8042.desc [AGOT: ]
- fp3_yearly.8042.desc: ""Indeed", my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))] [court_chaplain.GetFirstName] says, "our travails and vexations in this earthly life are but fleeting things, but your spirit will endure. Though I understand, [ROOT.Char.Custom('FormOfAddressForLiege')], if that statement alone is not enough to console you."\n\n[court_chaplain.GetSheHe|U] rolls out a scroll. "This is a part of the [ROOT.Char.GetFaith.ReligiousText2], transcribed by holy [ROOT.Char.Custom('LevyMenWomen')] much wiser than us. It contains vivid descriptions of the hereafter, and verses that may contain some clues as to the meaning of it all. I suggest you study it, many times if necessary, until your soul is at peace. But if reading is not to your liking, you might visit the [ROOT.Char.GetFaith.HouseOfWorship], for an inner dialogue with [ROOT.GetCharacter.GetFaith.HighGodName].""
+
+ fp3_yearly.8042.desc:0 ""Gerçekten," der [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))] [court_chaplain.GetFirstName], "bu dünyevi hayattaki çilelerimiz ve dertlerimiz gelip geçici şeylerdir, ama ruhunuz kalıcıdır. Yine de anlıyorum, [ROOT.Char.Custom('FormOfAddressForLiege')], eğer bu söz tek başına sizi teselli etmeye yetmiyorsa."\n\n[court_chaplain.GetSheHe|U] bir parşömen açar. "Bu, bizden çok daha bilge kutsal [ROOT.Char.Custom('LevyMenWomen')] tarafından kopya edilmiş [ROOT.Char.GetFaith.ReligiousText2]'in bir parçası. Ahiretin canlı tasvirlerini ve her şeyin anlamına dair ipuçları içerebilecek ayetler barındırıyor. Ruhunuz huzura kavuşana dek, gerekirse birçok kez incelemenizi öneririm. Ama okumak hoşunuza gitmiyorsa, [ROOT.GetCharacter.GetFaith.HighGodName] ile içsel bir diyalog için [ROOT.Char.GetFaith.HouseOfWorship]'i ziyaret edebilirsiniz.""
  fp3_yearly.8042.a: "Metinler yeterli olacaktır."
  fp3_yearly.8042.b: "Belki de [ROOT.Char.GetFaith.HouseOfWorship] benim için daha uygundur."
  fp3_yearly.8042.c: "Görünüşe göre bana yardım edemeyeceksiniz."
@@ -489,8 +489,8 @@
  fp3_yearly.8044.desc: "Uzun zamandır dünya bana sıkıcı ve kederli geliyordu. Eskiden zevk aldığım şeyler, anlam ve içerikten yoksun, geçici oyalanmalar gibi görünüyordu. Düşüncelerim karanlık ve kasvetli bölgelerde dolaşırdı ve rüyalarım korku doluydu. Ancak uzun süredir devam eden bu umutsuzluk kaybolmaya başladı.\n\nÇevremdeki topraklara baktığımda, bulutları delen ışığı görüyorum. Dünyanın güzelliğini ve tüm gizemlerini görüyorum. Belki asıl çözüm[persian_polymath.GetFirstName] ve bana reçete ettiği tüm tedavilerdi, belki de başka bir şey. Asla bilemeyebilirim. Ama içimde bir şeyler değişti. Kendimi yeniden bütün hissediyorum." 
  fp3_yearly.8044.a: "Bu hissin kıymetini bilmeliyim, uzun sürmeyebilir."
  fp3_yearly.8045.t: "Gizemli Paket"
-### TODO AGOT-CHANGED: fp3_yearly.8045.desc [AGOT: During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\nThis is not a child, [ROOT.Char.Custom('FormOfAddressForLiege')], but a monkey, | TR: Mehtaplı bir gezinti sırasında, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName] ile elinde bebek büyüklüğünde bir kundakla gezerken karşılaşıyorum. Ancak görünüş aldatıcı olabilir - sargılardan tuhaf sesler çıkıyor ve [buzina_enthusiast.GetNamePossessiveNoTooltip] yüzünde sayısız çizikle kalıyor.\n\n]
- fp3_yearly.8045.desc: "During a moonlit stroll, I encounter my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], cradling a bundle the size of an infant. But looks can be deceiving — odd sounds emanate from the wrappings and [buzina_enthusiast.GetNamePossessiveNoTooltip] face bears myriad scratches.\n\nThis is not a child, [ROOT.Char.Custom('FormOfAddressForLiege')], but a monkey," [buzina_enthusiast.GetSheHe] whispers. "While collecting taxes for the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], I accepted her as payment in lieu of gold. It is said that she previously belonged to a great Essosi king who taught her to play cyvasse. But alas, she has fallen ill and become somewhat... aggressive."\n\n[buzina_enthusiast.GetSheHe|U] hands me the bundle and continues. "Yet assuredly, under your care, she shall soon regain her health.""
+
+ fp3_yearly.8045.desc:0 "Mehtaplı bir gezinti sırasında, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName] ile elinde bebek büyüklüğünde bir kundakla gezerken karşılaşıyorum. Ancak görünüş aldatıcı olabilir - sargılardan tuhaf sesler çıkıyor ve [buzina_enthusiast.GetNamePossessiveNoTooltip] yüzünde sayısız çizikle kalıyor.\n\n"
  fp3_yearly.8045.a: "Hekimimin muhtemelen bir çaresi vardır..."
  fp3_yearly.8045.b: "Size altın toplamanız için para ödüyorum, #EMP maymunlar#! için değil!"
  fp3_yearly.8045.c: "Bunu bilmiyorum..."
@@ -498,8 +498,8 @@
  playing_with_monkey.tt: "Maymunla Oyna [Concept( 'decision', 'Kararını' )|E], maymuna sahip olduğunuz sürece açar"
  fp3_inspired_tax_collector: "[buzina_enthusiast.GetShortUIName] vergi toplamada daha iyi olmak için çabalıyor"
  fp3_yearly.8046.t: "Maymun Tıbbı"
-### TODO AGOT-ONLY: fp3_yearly.8046.desc [AGOT: ]
- fp3_yearly.8046.desc: ""As far as I know", [court_physician.GetName] says, "monkeys are the spawn of Rizdak, the first man. Their bodily condition is similar to our own, and perhaps their spiritual condition too. Some, I've heard, can even talk!"\n\n"I should be able to cure this little one of her ailment, but the best method would be a concoction of herbs that is expensive to procure. The alternative would be a diet of salted fish and frankincense..."\n\n[court_physician.GetSheHe|U] eyes the monkey's razor-like claws with great concern."
+
+ fp3_yearly.8046.desc:0 ""Bildiğim kadarıyla," der [court_physician.GetName], "maymunlar ilk insan Rizdak'ın soyundan gelir. Bedensel durumları bizimkine benzer, belki ruhsal durumları da. Bazılarının konuşabildiğini bile duydum!"\n\n"Bu küçüğü hastalığından iyileştirebilmeliyim, ama en iyi yöntem, temini pahalı olan bitkisel bir karışım olurdu. Alternatif ise tuzlu balık ve günlük reçinesi diyeti olurdu..."\n\n[court_physician.GetSheHe|U] maymunun jilet gibi pençelerine büyük bir endişeyle bakıyor."
  fp3_yearly.8046.a: "Hiçbir masraftan kaçınmayın."
  fp3_yearly.8046.b: "O güçlü, sağlıklı bir diyet yeterli olacaktır."
  fp3_wait_and_see.tt: "Tedavinin etkili olup olmadığını sadece zaman gösterecek"
@@ -530,36 +530,36 @@
  fp3_yearly.8051_earthquake: "tapınağı etkileyen ve binayı neredeyse ikiye bölen bir depremle söndürüldü."
  fp3_yearly.8051_sandstorm: "tapınağın kapılarını kıracak kadar şiddetli bir kum fırtınası tarafından söndürüldü."
  fp3_yearly.8051_gust_of_wind: "muhtemelen tapınak duvarlarındaki gizli bir çatlaktan gelmiş olan buz gibi soğuk bir rüzgar tarafından söndürüldü."
-### TODO AGOT-CHANGED: fp3_yearly.8051_islamic_zealots [AGOT: extinguished by foriegn zealots, who broke into the temple and desecrated it in very creative ways. | TR: tapınağa giren ve çok yaratıcı yollarla tapınağa saygısızlık eden Müslüman fanatikler tarafından söndürüldü.]
- fp3_yearly.8051_islamic_zealots: "extinguished by foriegn zealots, who broke into the temple and desecrated it in very creative ways."
+
+ fp3_yearly.8051_islamic_zealots:0 "tapınağa giren ve çok yaratıcı yollarla tapınağa saygısızlık eden Müslüman fanatikler tarafından söndürüldü."
  fp3_yearly.8051_invisible_hand: "görünmez bir el tarafından oldukça gizemli bir şekilde söndürüldü."
  fp3_yearly.8051_ending.desc: "Bu kötü alamete rağmen [magi.GetName] umutsuzluğa kapılmış görünmüyor.\n\n"Ateşi yeniden alevlendirmeliyiz," diyor. "Tüm alevlerin en safı ve en büyüğü #italic Ateş-i Behram#! olurdu, bulutların arasında şimşekten doğan Zafer Ateşi. Ama burası daha küçük bir tapınak olduğu için, belki de bir kuyumcu ocağının bize verebileceği #italic Atash Adaran#!, Ateşlerin Ateşi ile yetinmeliyiz. Ya da en düşük dereceli, herhangi bir alevden kutsanabilen #italic Atash Dadgah#!""
-### TODO AGOT-CHANGED: fp3_yearly.8051.a [AGOT: Only a sacrifice will do. I will find someone for you. | TR: Sadece yıldırım işe yarar. Onu senin için bulacağım.]
- fp3_yearly.8051.a: "Only a sacrifice will do. I will find someone for you."
-### TODO AGOT-CHANGED: fp3_yearly.8051.b [AGOT: Let us get you a weaponsmith's flame. | TR: Size bir kuyumcu ateşi getirelim.]
- fp3_yearly.8051.b: "Let us get you a weaponsmith's flame."
+
+ fp3_yearly.8051.a:0 "Sadece yıldırım işe yarar. Onu senin için bulacağım."
+
+ fp3_yearly.8051.b:0 "Size bir kuyumcu ateşi getirelim."
  fp3_yearly.8051.c: "Kehanetler konusunda pek endişelenmiyorum. Bir hane alevi yeterli olacaktır."
-### TODO AGOT-CHANGED: fp3_yearly.8051_chasing_lightning.tt [AGOT: You consider who to sacrifice... | TR: Bir sonraki fırtınayı bekleyeceksin...]
- fp3_yearly.8051_chasing_lightning.tt: "You consider who to sacrifice..."
-### TODO AGOT-CHANGED: fp3_yearly.8052.t [AGOT: Choosing the Heart | TR: Bulutların Peşinde]
- fp3_yearly.8052.t: "Choosing the Heart"
-### TODO AGOT-CHANGED: fp3_yearly.8052.desc [AGOT: The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Sacrfice for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I ponder who to sacrifice, but can not bring myself to plunge any I care for into the flame. | TR: [ROOT.Char.GetFaith.AltPriestTermPlural] bana [sacred_fire_province.GetName] topraklarındaki tapınak için bir Zafer Ateşi bulma sözümü sürekli hatırlatıyor. Unuttuğumdan değil... Fırtına aramak için her yöne gözcüler gönderdim, [ROOT.GetCharacter.GetFaith.HighGodNamePossessive] işaretlerini bulmaları için. Ama yıldırım pek ortaya çıkmak istemiyor gibi.\n\nŞimdi uzaklarda gök gürlerken ve kara bulutlar arasında şimşekler çakarken [ROOT.Char.Custom('ResidenceBuilding')] eteklerinin hemen dışında duruyorum. Hizmetkârlarım etrafta koşuşturup yıldırımları uzun direklerle yakalamaya çalışırken, ben de araziye bakıp alevlere dair bir ipucu arıyorum. Çabalarımız boşuna - bulutlar kısa sürede dağılıyor ve şimşek yüksek göklerde kayboluyor.\n\n[ROOT.GetCharacter.GetFaith.HighGodNamePossessive] istediği gerçekten bu mu? Aradığım ateşi asla bulamayacak mıyım?]
- fp3_yearly.8052.desc: "The [ROOT.Char.GetFaith.AltPriestTermPlural] have been constantly reminding me of my pledge to find a Fire of Sacrfice for the temple in [sacred_fire_province.GetName]. Not that I have forgotten... I ponder who to sacrifice, but can not bring myself to plunge any I care for into the flame."
-### TODO AGOT-CHANGED: fp3_yearly.8052.a [AGOT: I should just bring the temple a weaponsmith's fire instead... | TR: Bunun yerine tapınağa bir kuyumcu ateşi getirmeliyim...]
- fp3_yearly.8052.a: "I should just bring the temple a weaponsmith's fire instead..."
+
+ fp3_yearly.8051_chasing_lightning.tt:0 "Bir sonraki fırtınayı bekleyeceksin..."
+
+ fp3_yearly.8052.t:0 "Bulutların Peşinde"
+
+ fp3_yearly.8052.desc:0 "[ROOT.Char.GetFaith.AltPriestTermPlural] bana [sacred_fire_province.GetName] topraklarındaki tapınak için bir Zafer Ateşi bulma sözümü sürekli hatırlatıyor. Unuttuğumdan değil... Fırtına aramak için her yöne gözcüler gönderdim, [ROOT.GetCharacter.GetFaith.HighGodNamePossessive] işaretlerini bulmaları için. Ama yıldırım pek ortaya çıkmak istemiyor gibi.\n\nŞimdi uzaklarda gök gürlerken ve kara bulutlar arasında şimşekler çakarken [ROOT.Char.Custom('ResidenceBuilding')] eteklerinin hemen dışında duruyorum. Hizmetkârlarım etrafta koşuşturup yıldırımları uzun direklerle yakalamaya çalışırken, ben de araziye bakıp alevlere dair bir ipucu arıyorum. Çabalarımız boşuna - bulutlar kısa sürede dağılıyor ve şimşek yüksek göklerde kayboluyor.\n\n[ROOT.GetCharacter.GetFaith.HighGodNamePossessive] istediği gerçekten bu mu? Aradığım ateşi asla bulamayacak mıyım?"
+
+ fp3_yearly.8052.a:0 "Bunun yerine tapınağa bir kuyumcu ateşi getirmeliyim..."
  fp3_yearly.8052.b: "Daha küçük bir alevle de yetinebilirim."
-### TODO AGOT-CHANGED: fp3_give_up_the_quest.flavor [AGOT: You give up the quest to find a Fire of Sacrifice...for now. | TR: Zafer Ateşi bulma görevinden vazgeçiyorsun... şimdilik.]
- fp3_give_up_the_quest.flavor: "You give up the quest to find a Fire of Sacrifice...for now."
-### TODO AGOT-CHANGED: fp3_yearly.8053.t [AGOT: The Fire of Sacrifice | TR: Zafer Ateşi]
- fp3_yearly.8053.t: "The Fire of Sacrifice"
-### TODO AGOT-CHANGED: fp3_yearly.8053.desc [AGOT: Days and weeks have passed, and my heart aches to think of what I must do, my cherished [SPOUSE.GetName], will be given to the flame! I must do R'hllor's biding! | TR: Günler ve haftalar geçti, gözcülerim şimşekten çıkan ateş için diyarı taradı ama boşuna. Yine de umutsuzluğa kapılmaya başlamışken, aniden uzaklarda kara bulutlar belirdi ve uzaklardan gelen gök gürültüsü sesi yankılandı. [ROOT.Char.Custom('ResidenceBuilding')] dışına aceleyle çıkıyorum, hizmetkârlar da yanımda ve gerçekten de sanki görünmez bir el tarafından işaret edilmiş gibi yaklaşıyor.\n\nSonra, tam önümde, parlak ışık bulutları deliyor ve [ROOT.Char.GetFaith.DivineRealm] diyarından bir mızrak gibi fırlayarak yalnız bir ağaca çarpıyor. Kuru odun bir anda tutuşuyor, beyaz bir alevle yanıyor, #italic fravaşi#! ruhları kadar saf. Onu buldum, Zafer Ateşi'ni. O bana geldi!]
- fp3_yearly.8053.desc: "Days and weeks have passed, and my heart aches to think of what I must do, my cherished [SPOUSE.GetName], will be given to the flame! I must do R'hllor's biding!" 
+
+ fp3_give_up_the_quest.flavor:0 "Zafer Ateşi bulma görevinden vazgeçiyorsun... şimdilik."
+
+ fp3_yearly.8053.t:0 "Zafer Ateşi"
+
+ fp3_yearly.8053.desc:0 "Günler ve haftalar geçti, gözcülerim şimşekten çıkan ateş için diyarı taradı ama boşuna. Yine de umutsuzluğa kapılmaya başlamışken, aniden uzaklarda kara bulutlar belirdi ve uzaklardan gelen gök gürültüsü sesi yankılandı. [ROOT.Char.Custom('ResidenceBuilding')] dışına aceleyle çıkıyorum, hizmetkârlar da yanımda ve gerçekten de sanki görünmez bir el tarafından işaret edilmiş gibi yaklaşıyor.\n\nSonra, tam önümde, parlak ışık bulutları deliyor ve [ROOT.Char.GetFaith.DivineRealm] diyarından bir mızrak gibi fırlayarak yalnız bir ağaca çarpıyor. Kuru odun bir anda tutuşuyor, beyaz bir alevle yanıyor, #italic fravaşi#! ruhları kadar saf. Onu buldum, Zafer Ateşi'ni. O bana geldi!"
  fp3_yearly.8053.a: "Buna inanamıyorum..."
  fp3_scholarship.0001.t: "Alim Geldi"
  fp3_scholarship.0001.desc: "[scholar.GetTitledFirstName] bilimsel araştırmalarına destek alma umuduyla geldi"
  fp3_scholarship.1000.t: "İkinci Bir Aryabhata"
-### TODO AGOT-CHANGED: fp3_scholarship.1000.desc [AGOT: The prestige of Qartheen mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal? | TR: Hint matematiğinin saygınlığı kulaklarıma ulaştı, en düşük seviyedeki aritmetik öğrencileri tarafından bile dile getirildi. Saray salonlarımı [nearby_indian_ruler.GetCulture.GetName] bilginleriyle doldurursam, belki [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] kendi başına bir matematik merkezi hâline gelebilir.\n\n[nearby_indian_ruler.GetTitledFirstName], bana böyle birkaç bilgin göndermesin diye istekte bulunabilirim ama böyle bir teklifi kabul eder mi?]
- fp3_scholarship.1000.desc: "The prestige of Qartheen mathematics have reached my ears, uttered by even the lowliest students of arithmetic. Were I to fill my court halls with [nearby_indian_ruler.GetCulture.GetName] scholars, then perhaps [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] could become a center of mathematics in its own right.\n\nI might ask [nearby_indian_ruler.GetTitledFirstName] to send me several such scholars, but would [nearby_indian_ruler.GetSheHe] accept such a proposal?"
+
+ fp3_scholarship.1000.desc:0 "Hint matematiğinin saygınlığı kulaklarıma ulaştı, en düşük seviyedeki aritmetik öğrencileri tarafından bile dile getirildi. Saray salonlarımı [nearby_indian_ruler.GetCulture.GetName] bilginleriyle doldurursam, belki [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] kendi başına bir matematik merkezi hâline gelebilir.\n\n[nearby_indian_ruler.GetTitledFirstName], bana böyle birkaç bilgin göndermesin diye istekte bulunabilirim ama böyle bir teklifi kabul eder mi?"
  fp3_scholarship.1000.a: "İsteğimi kesinlikle reddetmeyecektir."
  fp3_scholarship.1000.b: "Cömert bir hediye teklifi tatlandıracaktır."
  fp3_scholarship.1000.c: "[ROOT.Char.GetCulture.GetNameNoTooltip|U] âlimlerinin [nearby_indian_ruler.GetCulture.GetNameNoTooltip] yardımına ihtiyacı yoktur!"
@@ -573,10 +573,10 @@
  fp3_scholarship.1001.native.desc: "[mathematician.GetTitledFirstName] sarayıma katıldı."
  fp3_scholarship.1000.d: "Bunun için ne zamanım ne de isteğim var."
  fp3_scholarship.1010.t: "Yalnız Büyücü"
-### TODO AGOT-ONLY: fp3_scholarship.1010.desc_dying_faith [AGOT: ]
- fp3_scholarship.1010.desc_dying_faith: ""We merely wish to practice our faith in peace to the last of our days. Should you promise us this, I personally will serve you until my heart beats no more."\n\nThough the [magus_faith.GetName] faith is surely dying, still the errant worshipers seem to persist in the abandoned fire temples of [magus_county.GetProvince.GetCounty.GetName]. This priest has now thrown himself before my [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')], begging for my mercy.\n\n"
-### TODO AGOT-ONLY: fp3_scholarship.1010.desc_living_faith [AGOT: ]
- fp3_scholarship.1010.desc_living_faith: ""Have mercy! We merely wish to honor our ancestors. Should you grant us protection, then I promise to personally serve you until my dying day."\n\nThe [magus_faith.GetName] faith remains a thorn in my side, it seems the fire temples of [magus_county.GetProvince.GetCounty.GetName] grow hot once more under the cover of night. My [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] and I seem to have caught a renegade magus in his inscrutable rituals, but rather than flee he bravely throws himself before me."
+
+ fp3_scholarship.1010.desc_dying_faith:0 ""Yalnızca ömrümüzün sonuna dek inancımızı huzur içinde yaşamak istiyoruz. Bize bunu söz verirseniz, kalbim durana dek size şahsen hizmet edeceğim."\n\n[magus_faith.GetName] inancı kesinlikle ölüyor olsa da, yoldan çıkmış ibadetçiler [magus_county.GetProvince.GetCounty.GetName]'in terk edilmiş ateş tapınaklarında direniyor gibi. Bu rahip şimdi kendini [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]'in önüne atmış, merhametim için yalvarıyor.\n\n"
+
+ fp3_scholarship.1010.desc_living_faith:0 ""Merhamet edin! Biz yalnızca atalarımızı onurlandırmak istiyoruz. Bize koruma sağlarsanız, ölümüme dek size şahsen hizmet edeceğime söz veriyorum."\n\n[magus_faith.GetName] inancı başıma bela olmaya devam ediyor; [magus_county.GetProvince.GetCounty.GetName]'in ateş tapınakları gecenin karanlığında yeniden ısınıyor gibi. [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]'im ve ben, gizemli ritüellerinin ortasında yoldan çıkmış bir magusu yakalamış görünüyoruz, ama kaçmak yerine cesurca kendini önüme atıyor."
  fp3_scholarship.1010.a: "Asla, [ROOT.Char.GetFaith.HighGodName] senin düşüşünü emrediyor!"
  fp3_scholarship.1010.b: "[magus_county.GetNameNoTooltip] için koruma sağlayacağım."
  fp3_scholarship.1010.b.tt: "[magus_county.GetNameNoTooltip] toprağının 20 yıl boyunca mezhebi değiştirilemez\n[magus.GetShortUINameNoTooltip] adlı kişinin mezhebi asla değiştirilemez"
@@ -591,13 +591,13 @@
  fp3_scholarship.2010.a: "[ROOT.Char.GetFaith.HighGodNamePossessive] karşısındaki sorumluluklarımız her şeyden önce gelir."
  fp3_scholarship.2010.b: "Belki de sadece çay içiyorlardır?"
  fp3_scholarship.2020.t: "Dehşet Verici Bulgular"
-### TODO AGOT-ONLY: fp3_scholarship.2020.desc [AGOT: ]
- fp3_scholarship.2020.desc: ""My studies have hit an impasse," my Court Scholar [court_scholar.GetTitledFirstNameNoTooltip] tells me [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', court_scholar)]. "There is only so much to be gleaned from books. But if you only lend me [specimen.GetTitledFirstName] for a short while, then I'm sure that we can reach a breakthrough together."\n\n[court_scholar.GetSheHe|U] cannot guarantee [specimen.GetTitledFirstNamePossessiveNoTooltip] safety."
+
+ fp3_scholarship.2020.desc:0 ""Çalışmalarım bir çıkmaza girdi," der bana Saray Bilginim [court_scholar.GetTitledFirstNameNoTooltip], [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', court_scholar)] bir tavırla. "Kitaplardan çıkarılabilecek şeyin bir sınırı var. Ama bana [specimen.GetTitledFirstName]'i kısa bir süreliğine ödünç verirseniz, birlikte bir atılım yapabileceğimize eminim."\n\n[court_scholar.GetSheHe|U] [specimen.GetTitledFirstNamePossessiveNoTooltip] güvenliğini garanti edemez."
  fp3_scholarship.2020.a: "Tam iznimi aldınız."
  fp3_scholarship.2020.b: "Çarpık deneylerinizi notlarınızın içinde saklayın."
  fp3_scholarship.2030.t: "Bulgular Yayınlandı"
-### TODO AGOT-ONLY: fp3_scholarship.2030.desc [AGOT: ]
- fp3_scholarship.2030.desc: ""...and so it is with great pleasure that I can report on my steady progress in understanding [ROOT.Char.Custom('education_conversation_subject')]."\n\nSometimes it can be hard to justify keeping scholars on our payroll. Their work so rarely directly benefits the realm.\nNo doubt this is something my Court Scholar [court_scholar.GetName] is quite aware of [court_scholar.GetHerselfHimself]. Today's detailed progress report is delivered with such enthusiasm that it borders on the insincere."
+
+ fp3_scholarship.2030.desc:0 ""...ve böylece, [ROOT.Char.Custom('education_conversation_subject')] konusundaki anlayışımdaki istikrarlı ilerlememi bildirmekten büyük bir zevk duyuyorum."\n\nBazen bilginleri maaş defterimizde tutmayı haklı çıkarmak zor olabiliyor. Çalışmaları diyara nadiren doğrudan fayda sağlıyor.\nHiç şüphe yok ki Saray Bilginim [court_scholar.GetName] bunun [court_scholar.GetHerselfHimself] oldukça farkında. Bugünkü ayrıntılı ilerleme raporu öyle bir hevesle sunuluyor ki samimiyetsizliğin sınırında."
  fp3_scholarship.2030.a: "İlerleme sadece iyi bir şey olabilir"
  fp3_scholarship.2030.tt: "[court_scholar.GetNameNoTooltip] sizin bölgenizdeki yüksek öğrenim merkezlerinden yararlandı."
  fp3_research_project_title: "Araştırma:"
@@ -606,18 +606,18 @@
  fp3_scholarship_research_success_gain_effect: "[inspiration_owner.GetShortUINamePossessive|U] [research_project|E] #P daha yüksek#! başarı ihtimaline sahip olacak"
  fp3_scholarship_research_success_slight_gain_effect: "[inspiration_owner.GetShortUINamePossessive|U] [research_project|E] #P biraz daha yüksek#! başarı ihtimaline sahip olacak"
  fp3_scholarship.8000.t: "Yeni Bir $game_concept_research_project$"
-### TODO AGOT-CHANGED: fp3_scholarship.8000.desc [AGOT: My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\nI believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Rhoyne black. | TR: Saray Alimim [court_scholar.GetName] yanında birkaç hizmetkârla bana doğru koşuyor, hepsinin elinde kitaplar, tomarlar veya eski parşömenler var.\n\n]
- fp3_scholarship.8000.desc: "My Court Scholar [court_scholar.GetName] rushes to me with several servants in tow, all of them carrying books, scrolls, or ancient parchments.\n\nI believe I can reach a breakthrough, if only given enough time, ample funds, and enough ink to color the Rhoyne black."
+
+ fp3_scholarship.8000.desc:0 "Saray Alimim [court_scholar.GetName] yanında birkaç hizmetkârla bana doğru koşuyor, hepsinin elinde kitaplar, tomarlar veya eski parşömenler var.\n\n"
  fp3_scholarship.8000.a: "Dizginleri eline al, [court_scholar.GetFirstNameNoTooltip]."
  fp3_scholarship.8000.b: "Belki başka bir zaman?"
  fp3_scholarship.8000.a.tt: "[court_scholar.GetFirstNameNoTooltip] bir [research_project|E] üstlenmeye başlayacak."
  fp3_scholarship.8500.t: "Altının Cazibesi"
-### TODO AGOT-ONLY: fp3_scholarship.8500.desc [AGOT: ]
- fp3_scholarship.8500.desc: ""I am certain that I can uncover the secrets of creation itself, if you will only supply me with the right tools and assistants!"\n\n[court_scholar.GetName], my Court Scholar, has been talking for some time now. [court_scholar.GetSheHe|U] is imploring me to let [court_scholar.GetHerHim] spend #EMP my gold and silver#!, on trying to uncover the secrets of how elements, such as #EMP gold#! and #EMP silver#!, are made.\n\n[court_scholar.GetFirstNameNoTooltip] is clearly very excited, and it is very impressive that [court_scholar.GetSheHe] has managed to make any sense of such cryptic notes as the ones [court_scholar.GetSheHe] has deciphered on this subject, but it is not clear if this will be a profitable endeavor"
+
+ fp3_scholarship.8500.desc:0 ""Bana doğru aletleri ve yardımcıları sağlarsanız, yaratılışın sırlarını ortaya çıkarabileceğimden eminim!"\n\n[court_scholar.GetName], Saray Bilginim, bir süredir konuşuyor. [court_scholar.GetSheHe|U] #EMP altın#! ve #EMP gümüş#! gibi elementlerin nasıl yapıldığının sırlarını çözmek için #EMP altın ve gümüşümü#! harcamasına izin vermem için bana yalvarıyor.\n\n[court_scholar.GetFirstNameNoTooltip] belli ki çok heyecanlı ve [court_scholar.GetSheHe]'in bu konudaki şifreli notlardan bir anlam çıkarabilmesi çok etkileyici, ama bunun kârlı bir girişim olup olmayacağı belirsiz"
  fp3_scholarship.8500.a.tt: "[court_scholar.GetFirstNameNoTooltip] bir Simya [Concept( 'inspiration', 'İlhamına' )|E] başlayacak"
  fp3_scholarship.8600.t: "Yazılı Sözün Gücü"
-### TODO AGOT-ONLY: fp3_scholarship.8600.desc [AGOT: ]
- fp3_scholarship.8600.desc: ""Your continued support is very noble and selfless as it is, but brilliant observations that are not written down risk being forgotten! Who will know of my thoughts when I am dead and can no longer speak of them? The world would be a poor place if they were not preserved."\n\n[court_scholar.GetName], my Court Scholar has a new project. [court_scholar.GetSheHe|U] wants to convince me to fund the creation of a new book. A lavish manuscript which [court_scholar.GetSheHe] claims will make my rivals pale with envy.\nPerhaps this idea is as much for [court_scholar.GetHerHis] prestige as it is for mine, but that does not mean it is necessarily a bad idea..."
+
+ fp3_scholarship.8600.desc:0 ""Süregelen desteğiniz oldukça asil ve fedakârca, ama yazıya dökülmeyen parlak gözlemler unutulma riski taşır! Öldüğümde ve artık onlardan bahsedemediğimde düşüncelerimi kim bilecek? Korunmazlarsa dünya fakir bir yer olurdu."\n\n[court_scholar.GetName], Saray Bilginim yeni bir proje peşinde. [court_scholar.GetSheHe|U] beni yeni bir kitabın oluşturulmasını finanse etmeye ikna etmek istiyor. [court_scholar.GetSheHe]'in rakiplerimi kıskançlıktan soldurup sarartacağını iddia ettiği gösterişli bir el yazması.\nBelki bu fikir [court_scholar.GetHerHis] itibarı için benimki kadar önemli, ama bu mutlaka kötü bir fikir olduğu anlamına gelmez..."
  fp3_scholarship.8600.a.tt: "[court_scholar.GetFirstNameNoTooltip] bir Kitap yazmak için [inspiration|E] elde edecek"
  fp3_scholarship.8999.tt_failure: "[court_scholar.GetShortUINameNoTooltip] ve yaptığı araştırma yararlı bir şey üretemiyor"
  fp3_scholarship.8999.tt_success: "[court_scholar.GetShortUINameNoTooltip], [THIS.Char.GetHouse.GetNameNoTooltip] hanesi için küçük bir bilimsel atılım yapıyor"
@@ -627,17 +627,17 @@
  fp3_scholarship.8100.a: "Kraliyet kütüphanesi gönlünüzce donatılacaktır."
  fp3_scholarship.8100.b: "Kraliyet kütüphanesi hâlihazırda mükemmeldir."
  fp3_scholarship.9000.t: "$fp3_research_project_title$ Başarısızlık"
-### TODO AGOT-ONLY: fp3_scholarship.9000.desc [AGOT: ]
- fp3_scholarship.9000.desc: ""It's no use!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] cries out to me. [inspiration_owner.GetHerHis|U] eyes are dark from countless sleepless nights.\n\n"I can't see beyond the seas of numbers. I'll have to abandon this project, at least for the time being.""
+
+ fp3_scholarship.9000.desc:0 ""İşe yaramıyor!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)] bana haykırıyor. [inspiration_owner.GetHerHis|U] gözleri sayısız uykusuz gecenin verdiği karanlıkla çevrili.\n\n"Sayılar denizinin ötesini göremiyorum. Bu projeyi, en azından bir süreliğine, bırakmak zorunda kalacağım.""
  fp3_scholarship.9000.a: "Pekâlâ o zaman."
  fp3_scholarship.9000.b: "Sana araştırma yapman için para ödüyorum, bahane uydurman için değil!"
  fp3_scholarship.9100.t: "$fp3_araştırma_proje_başlığı$ Yeni Bir Keşif"
-### TODO AGOT-ONLY: fp3_scholarship.9100.desc [AGOT: ]
- fp3_scholarship.9100.desc: ""[ROOT.Char.Custom2('RelationToMeAddress', inspiration_owner)|U]! My work is done."\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] goes at length about their discoveries, and how it might affect our realm. I try to get a word in edge-wise, but to no avail.\n\nWhen [inspiration_owner.GetSheHe] finally sits down, I can see my own confusion reflected in the eyes of my courtiers, but I still give the only answer I can think of."
+
+ fp3_scholarship.9100.desc:0 ""[ROOT.Char.Custom2('RelationToMeAddress', inspiration_owner)|U]! İşim bitti."\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] keşiflerini ve bunların diyarımızı nasıl etkileyebileceğini uzun uzun anlatıyor. Araya bir söz sıkıştırmaya çalışıyorum, ama nafile.\n\n[inspiration_owner.GetSheHe] sonunda oturduğunda, kendi şaşkınlığımı saraylılarımın gözlerinde görüyorum, ama yine de aklıma gelen tek cevabı veriyorum."
  fp3_scholarship.9100.a: "Aferin, [inspiration_owner.GetShortUINameNoTooltip]."
  fp3_scholarship.9200.t: "$fp3_research_project_title$ Yeni Bir Buluş"
-### TODO AGOT-ONLY: fp3_scholarship.9200.desc [AGOT: ]
- fp3_scholarship.9200.desc: ""[ROOT.Char.Custom2('RelationToMeAddress', inspiration_owner)|U]!" cries out to me. I turn and find [inspiration_owner.GetHerHis] eyes weary with joy and arms full with scrawlings; [inspiration_owner.GetHerHis] work is done.\n\nI will only understand later the significance of [inspiration_owner.GetHerHis] discovery, and I will not live long enough to see them change all of history. But for now, it suffices for me to say:"
+
+ fp3_scholarship.9200.desc:0 ""[ROOT.Char.Custom2('RelationToMeAddress', inspiration_owner)|U]!" diye bana sesleniyor. Dönüyorum ve [inspiration_owner.GetHerHis] gözlerini sevinçten yorgun, kollarını karalamalarla dolu buluyorum; [inspiration_owner.GetHerHis] işi bitmiş.\n\n[inspiration_owner.GetHerHis] keşfinin önemini ancak sonra anlayacağım ve onların tüm tarihi değiştirdiğini görecek kadar yaşamayacağım. Ama şimdilik bana şunu söylemek yeterli:"
  fp3_scholarship.9200.a: "Çok iyi iş çıkardınız." 
  fp3_scholarship.9900.t: "$fp3_research_project_title$ Çöpe Gitti"
  fp3_scholarship.9900.tt: "[court_scholar.GetShortUIName|U] vefat etti ve araştırmasına devam edemiyor."
@@ -684,8 +684,8 @@ fp3_story_cycle_zanj_rebellion_events.0004.b: "Bu aptalı görmezden geleceğim.
 fp3_story_cycle_zanj_rebellion_events.0006.t: "Bir Zenc İleri Adım Atıyor"
 fp3_story_cycle_zanj_rebellion_events.0006.desc.a: "[zanj_representative.GetName], Basra'nın tuzlu bataklıklarını kurutmakla görevli Zenc işçilerinin lideri, daha iyi çalışma koşulları için yalvararak bana geliyor. Nesillerdir bölgede bulunuyorlar ve Basra'da önemli bir azınlık oluşturuyorlar.\n\n"
 fp3_story_cycle_zanj_rebellion_events.0006.desc.b: "[zanj_leader.GetName] ve asi söylemlerinin artan hoşnutsuzluklarıyla bir ilgisi olabileceğinden şüpheleniyorum.\n\n"
-### TODO AGOT-ONLY: fp3_story_cycle_zanj_rebellion_events.0006.desc.c [AGOT: ]
-fp3_story_cycle_zanj_rebellion_events.0006.desc.c: ""My [ROOT.Char.GetTitleAsName], please, does [ROOT.Char.GetFaith.HighGodName] not value the dignified treatment of workers, regardless of their origin?""
+
+fp3_story_cycle_zanj_rebellion_events.0006.desc.c:0 ""[ROOT.Char.GetTitleAsName]'im, lütfen, [ROOT.Char.GetFaith.HighGodName] işçilere kökenlerinden bağımsız olarak saygın bir muamele edilmesine değer vermiyor mu?""
 fp3_story_cycle_zanj_rebellion_events.0006.a: "Sıkı çalışmanızın karşılığını alacaksınız."
 fp3_rival_gave_title_away: "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] adlı kişiye ait araziyi verdi."
 fp3_landed_zanj_reason: "Barış için toprak takası"

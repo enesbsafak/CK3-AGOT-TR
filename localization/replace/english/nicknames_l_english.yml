@@ -1,6 +1,6 @@
-﻿﻿l_english:
-### TODO AGOT-CHANGED: DEFAULT_NICKNAME_DESC [AGOT: Friends and foes across the land know [AGOTGetNameNoTooltip(CHARACTER)] as '[CHARACTER.GetNicknameNoTooltip].' | TR: Ülkenin dört bir yanındaki dostlar ve düşmanlar [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] adlı kişiyi '[CHARACTER.GetNicknameNoTooltip]' olarak tanır.]
- DEFAULT_NICKNAME_DESC:2 "Friends and foes across the land know [AGOTGetNameNoTooltip(CHARACTER)] as '[CHARACTER.GetNicknameNoTooltip].'"
+﻿l_english:
+
+ DEFAULT_NICKNAME_DESC:0 "Ülkenin dört bir yanındaki dostlar ve düşmanlar [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] adlı kişiyi '[CHARACTER.GetNicknameNoTooltip]' olarak tanır."
  nick_tiny:0 "Ufak"
  nick_tiny_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] uzun boylu azmiyle bilinir..."
  nick_bluetooth:0 "Mavi Diş"
@@ -122,8 +122,8 @@
  nick_the_lisp_and_lame:0 "Peltek Topal" #krutygetarts
  nick_the_lisp_and_lame_desc:1 "Onu topal yapmakla yetinmeyen [CHARACTER.GetFaith.HealthGodName] bir de peltek konuşma lanetini bahşetmiş."
  nick_the_magnificent:0 "Muhteşem"
-### TODO AGOT-CHANGED: nick_the_magnificent_desc [AGOT: Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from the Wall to Asshai. | TR: Zaferlerinin ve başarılarının hikâyelerini dünya üzerinde duymayan yok.]
- nick_the_magnificent_desc:1 "Tales of [CharYourHerHis(CHARACTER)] splendid deeds are told from the Wall to Asshai."
+
+ nick_the_magnificent_desc:0 "Zaferlerinin ve başarılarının hikâyelerini dünya üzerinde duymayan yok."
  nick_the_martyr:0 "Şehit"
  nick_the_martyr_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U], [CHARACTER.GetFaith.HighGodName] için onun yolunda savaşırken öldü. Dünya onun fedakârlığını unutmayacak."
  nick_the_merry:0 "Neşeli"
@@ -212,8 +212,8 @@
  nick_the_fox:0 "Tilki"
  nick_the_fox_desc:1 "Kurnaz, açıkgöz, azimli — erdemleri iyi olmasa da etkili olduğu kesin."
  nick_the_shrewd:0 "Kurnaz"
-### TODO AGOT-CHANGED: nick_the_shrewd_desc [AGOT: It's wise never to play [CharYouSheHe(CHARACTER)] at cyvasse — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] behind the mountains. | TR: Onunla asla kart oyunları oynamamak gerekir zira çok az kişi bileğinde neler sakladığını bilebilir.]
- nick_the_shrewd_desc:1 "It's wise never to play [CharYouSheHe(CHARACTER)] at cyvasse — few folk can be sure what [CharYouSheHe(CHARACTER)] [CharHaveHas(CHARACTER)] up [CharYourHerHis(CHARACTER)] behind the mountains."
+
+ nick_the_shrewd_desc:0 "Onunla asla kart oyunları oynamamak gerekir zira çok az kişi bileğinde neler sakladığını bilebilir."
  nick_the_gracious:0 "Zarif"
  nick_the_gracious_desc:1 "İyi davranışlar, asil duruş ve görkemli hoşgörü. [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat], bunlar sayesinde çoğu ortamda popüler biri olmuştur."
  nick_the_magnanimous:0 "Yüce Gönüllü"
@@ -632,8 +632,8 @@
  nick_beth_nahrain: "İki Nehrin Koruyucusu"
  nick_beth_nahrain_desc: "Bu karakterin varlığı insanlar üzerinde bir gelgit etkisi yaratır, başarıları hayret ve hayranlık duygusu uyandırır."
  nick_the_child_killer:0 "Çocuk Katili"
-### TODO AGOT-CHANGED: nick_the_child_killer_desc [AGOT: Parents are right to hide their babes from [CharYouHerHim(CHARACTER)]. | TR: Kutsal Kitap bilginleri genellikle Süleyman'ın hükmünün amacını kaçırdığını düşünmektedir.]
- nick_the_child_killer_desc:1 "Parents are right to hide their babes from [CharYouHerHim(CHARACTER)]."
+
+ nick_the_child_killer_desc:0 "Kutsal Kitap bilginleri genellikle Süleyman'ın hükmünün amacını kaçırdığını düşünmektedir."
  nick_the_anathema:0 "Aforoz"
  nick_the_anathema_desc:1 "Ölümlü dünyanın kaosu [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat] üzerinden geri tepiyor."
  nick_the_angel_of_death:1 "[CHARACTER.GetFaith.DeathDeityNamePossessive|U] Meleği"
@@ -765,8 +765,8 @@
  nick_the_dunged_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U], anı üzerinde durmamayı tercih ederken diğer herkes kokudan bahsetmeye çalışır."
  nick_the_smelly:0 "Kokan"
  nick_the_smelly_desc:0 "Her nasılsa, bir şekilde, #EMP hâlâ#! varlığını sürdürüyor."
-### TODO AGOT-CHANGED: nick_the_venator [AGOT: the Arghurys | TR: Avcı]
- nick_the_venator:0 "the Arghurys"
+
+ nick_the_venator:0 "Avcı"
  nick_the_venator_desc:1 "Hiçbir hayvan keskin avcılık içgüdülerinden kaçamaz."
  nick_the_dirty:0 "Kirli"
  nick_the_dirty_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U], göründüğü kadar pis dövüşür."
@@ -860,10 +860,10 @@
  nick_the_undying_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] her şeye rağmen hasta olmalı, ancak son derece sağlıklı."
  nick_of_the_empty_pockets:0 "Boş Cepli"
  nick_of_the_empty_pockets_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] ceplerinde delikler var ve her zaman hazineyi içine soktuğu borçla hatırlanacak."
-### TODO AGOT-CHANGED: nick_the_goliath [AGOT: the Jhogwin | TR: Dev]
- nick_the_goliath:0 "the Jhogwin"
-### TODO AGOT-CHANGED: nick_the_goliath_desc [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] as enormous as [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] deadly, likened to the ancient beasts slain by the Jogos Nhai. | TR: [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] İncil'deki Dev gibi devasa bir savaşçı.]
- nick_the_goliath_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] as enormous as [CharYouSheHe(CHARACTER)] [CharAreIs(CHARACTER)] deadly, likened to the ancient beasts slain by the Jogos Nhai."
+
+ nick_the_goliath:0 "Dev"
+
+ nick_the_goliath_desc:0 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] İncil'deki Dev gibi devasa bir savaşçı."
  nick_the_shield_of_capital:0 "[CHARACTER.GetCapitalLocation.GetTitle.GetBaseNameNoTierNoTooltip] Kalkanı"
  nick_the_shield_of_capital_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] başkent halkı tarafından sevilen yiğit bir savaşçı."
  nick_the_ladder_legs:0 "Merdiven Bacaklı"
@@ -881,8 +881,8 @@
  nick_the_righteous:0 "Dürüst"
  nick_the_righteous_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] güçlü bir adalet ve hakkaniyet duygusuna sahip olmasıyla bilinir."
  nick_the_venerable:0 "Saygıdeğer"
-### TODO AGOT-CHANGED: nick_the_venerable_desc [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] life in a pious way, earning [CharYouHerHim(CHARACTER)] trust. | TR: [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] mal varlığını cömert bir şekilde harcayarak insanların güvenini kazandı.]
- nick_the_venerable_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharHaveHas(CHARACTER)] spent [CharYourHerHis(CHARACTER)] life in a pious way, earning [CharYouHerHim(CHARACTER)] trust."
+
+ nick_the_venerable_desc:0 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] mal varlığını cömert bir şekilde harcayarak insanların güvenini kazandı."
  nick_the_miracle_worker:0 "Mucize Yaratan"
  nick_the_miracle_worker_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] mistik konularla uğraşır ama öğrendiklerini iyi işler yapmak için kullanır."
  nick_the_merciful:0 "Merhametli"
@@ -946,8 +946,8 @@
  nick_the_indolent:0 "Tembel"
  nick_the_indolent_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] huysuzca tembel olmasıyla bilinir."
  nick_the_sluggard:0 "Üşengeç"
-### TODO AGOT-CHANGED: nick_the_sluggard_desc [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] takes [CharYourHerHis(CHARACTER)] sweet time doing #EMP anything#!... | TR: [CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] #EMP her hangi#! bir şey yapmak için tatlı zamanını harcıyor...]
- nick_the_sluggard_desc:1 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] takes [CharYourHerHis(CHARACTER)] sweet time doing #EMP anything#!..."
+
+ nick_the_sluggard_desc:0 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U] #EMP her hangi#! bir şey yapmak için tatlı zamanını harcıyor..."
  nick_the_idle:0 "Avare"
  nick_the_idle_desc:1 "[CHARACTER.GetShortUINameNotMeNoTooltipNoFormat|U]... hiçbir şey yapmamasıyla bilinir."
  nick_the_short:0 "Kısa"

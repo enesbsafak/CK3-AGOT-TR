@@ -1,25 +1,25 @@
-﻿﻿l_english:
+﻿l_english:
  CHARACTER_DEATH_EFFECT:1 "@death_icon! Ölecek"
-### TODO AGOT-CHANGED: CHARACTER_DEATH_EFFECT_THIRD [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] dies | TR: @death_icon! [CHARACTER.GetShortUIName|U] ölecek]
- CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] dies"
+
+ CHARACTER_DEATH_EFFECT_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U] ölecek"
  CHARACTER_DEATH_EFFECT_FIRST:1 "@death_icon! Öleceksiniz"
-### TODO AGOT-CHANGED: CHARACTER_DIED_EFFECT [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] died | TR: @death_icon! [CHARACTER.GetShortUIName|U] öldü]
- CHARACTER_DIED_EFFECT:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] died"
-### TODO AGOT-CHANGED: CHARACTER_DIED_EFFECT_THIRD [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] died | TR: @death_icon! [CHARACTER.GetShortUIName|U] öldü]
- CHARACTER_DIED_EFFECT_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] died"
+
+ CHARACTER_DIED_EFFECT:0 "@death_icon! [CHARACTER.GetShortUIName|U] öldü"
+
+ CHARACTER_DIED_EFFECT_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U] öldü"
  CHARACTER_DIED_EFFECT_FIRST:2 "@death_icon! Öldünüz"
-### TODO AGOT-CHANGED: CHARACTER_DEATH_EFFECT_KILLER [AGOT: @death_icon! Is killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: @death_icon! [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürülecek]
- CHARACTER_DEATH_EFFECT_KILLER:1 "@death_icon! Is killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
-### TODO AGOT-CHANGED: CHARACTER_DEATH_EFFECT_KILLER_THIRD [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] is killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: @death_icon! [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürülecek]
- CHARACTER_DEATH_EFFECT_KILLER_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] is killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
-### TODO AGOT-CHANGED: CHARACTER_DEATH_EFFECT_KILLER_FIRST [AGOT: @death_icon! You are killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: @death_icon! [TARGET_CHARACTER.GetShortUIName] tarafından öldürüleceksiniz]
- CHARACTER_DEATH_EFFECT_KILLER_FIRST:2 "@death_icon! You are killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
-### TODO AGOT-CHANGED: CHARACTER_DIED_EFFECT_KILLER [AGOT: [AGOTGetUINameNoTooltip(CHARACTER)|V] was killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürüldü]
- CHARACTER_DIED_EFFECT_KILLER:0 "[AGOTGetUINameNoTooltip(CHARACTER)|V] was killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
-### TODO AGOT-CHANGED: CHARACTER_DIED_EFFECT_KILLER_THIRD [AGOT: @death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] was killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: @death_icon! [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürüldü]
- CHARACTER_DIED_EFFECT_KILLER_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] was killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
-### TODO AGOT-CHANGED: CHARACTER_DIED_EFFECT_KILLER_FIRST [AGOT: @death_icon! You were killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] | TR: @death_icon! [TARGET_CHARACTER.GetShortUIName|U] tarafından öldürüldünüz]
- CHARACTER_DIED_EFFECT_KILLER_FIRST:2 "@death_icon! You were killed by [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V]"
+
+ CHARACTER_DEATH_EFFECT_KILLER:0 "@death_icon! [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürülecek"
+
+ CHARACTER_DEATH_EFFECT_KILLER_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürülecek"
+
+ CHARACTER_DEATH_EFFECT_KILLER_FIRST:0 "@death_icon! [TARGET_CHARACTER.GetShortUIName] tarafından öldürüleceksiniz"
+
+ CHARACTER_DIED_EFFECT_KILLER:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürüldü"
+
+ CHARACTER_DIED_EFFECT_KILLER_THIRD:0 "@death_icon! [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] öldürüldü"
+
+ CHARACTER_DIED_EFFECT_KILLER_FIRST:0 "@death_icon! [TARGET_CHARACTER.GetShortUIName|U] tarafından öldürüldünüz"
  RANDOM_LIST_EFFECT:0 "1 $SIZE$ büyüklüğünde şeyler gerçekleşecek: \n" #Ayro
  RANDOM_EFFECT:0 "%$CHANCE$ ihtimal ile gerçekleşecek: "
  NO_EFFECT:0 "#weak Hiçbir şey olmayacak#!"
@@ -47,74 +47,74 @@
  SET_EMPLOYER_EFFECT:1 "$COURTIER$, $EMPLOYER$ adlı karakterin sarayında [courtier|E] olacak" #Ayro
  REMOVE_COURT_CHARACTER_EFFECT:1 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kamp', 'saray')][Select_CString(CHARACTER.IsLocalPlayer, 'ınızdan', 'ından' )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' ayrılacaksınız', ' ayrılacak' )]"
  REMOVED_COURT_CHARACTER_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )] [Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kamp', 'saray')][Select_CString(CHARACTER.IsLocalPlayer, 'ınızdan', 'ından' )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' ayrıldınız', ' ayrıldı' )]"
-### TODO AGOT-CHANGED: GAIN_HOOK_EFFECT [AGOT: Gets a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde edecek[Select_CString(CHARACTER.IsLocalPlayer, 'siniz', '' )]]
- GAIN_HOOK_EFFECT:0 "Gets a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: GAINED_HOOK_EFFECT [AGOT: Got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde etti[Select_CString(CHARACTER.IsLocalPlayer, 'niz', '' )]]
- GAINED_HOOK_EFFECT:0 "Got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAIN_HOOK_EFFECT [AGOT: You get a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [weak_hook|E] #weak ($TYPE$)#! elde edeceksiniz]
- I_GAIN_HOOK_EFFECT:1 "You get a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAINED_HOOK_EFFECT [AGOT: You got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [weak_hook|E] #weak ($TYPE$)#! elde ettiniz]
- I_GAINED_HOOK_EFFECT:1 "You got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAIN_HOOK_EFFECT [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde edecek]
- THEY_GAIN_HOOK_EFFECT:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAINED_HOOK_EFFECT [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde etti]
- THEY_GAINED_HOOK_EFFECT:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [weak_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: GAIN_HOOK_EFFECT_STRONG [AGOT: Gets a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde edecek]
- GAIN_HOOK_EFFECT_STRONG:0 "Gets a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: GAINED_HOOK_EFFECT_STRONG [AGOT: Got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde etti]
- GAINED_HOOK_EFFECT_STRONG:0 "Got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAIN_HOOK_EFFECT_STRONG [AGOT: You get a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [strong_hook|E] #weak ($TYPE$)#! elde edeceksiniz]
- I_GAIN_HOOK_EFFECT_STRONG:1 "You get a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAINED_HOOK_EFFECT_STRONG [AGOT: You got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [strong_hook|E] #weak ($TYPE$)#! elde ettiniz]
- I_GAINED_HOOK_EFFECT_STRONG:1 "You got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAIN_HOOK_EFFECT_STRONG [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde edecek]
- THEY_GAIN_HOOK_EFFECT_STRONG:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAINED_HOOK_EFFECT_STRONG [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde etti]
- THEY_GAINED_HOOK_EFFECT_STRONG:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [strong_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: GAIN_HOOK_EFFECT_PERPETUAL [AGOT: Gets a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde edecek]
- GAIN_HOOK_EFFECT_PERPETUAL: "Gets a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: GAINED_HOOK_EFFECT_PERPETUAL [AGOT: Got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde etti]
- GAINED_HOOK_EFFECT_PERPETUAL: "Got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAIN_HOOK_EFFECT_PERPETUAL [AGOT: You get a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [perpetual_hook|E] #weak ($TYPE$)#! elde edeceksiniz]
- I_GAIN_HOOK_EFFECT_PERPETUAL: "You get a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: I_GAINED_HOOK_EFFECT_PERPETUAL [AGOT: You got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde [perpetual_hook|E] #weak ($TYPE$)#! elde ettiniz]
- I_GAINED_HOOK_EFFECT_PERPETUAL: "You got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAIN_HOOK_EFFECT_PERPETUAL [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde edecek]
- THEY_GAIN_HOOK_EFFECT_PERPETUAL: "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! gets a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: THEY_GAINED_HOOK_EFFECT_PERPETUAL [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde etti]
- THEY_GAINED_HOOK_EFFECT_PERPETUAL: "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! got a [perpetual_hook|E] #weak ($TYPE$)#! on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: REMOVE_HOOK_EFFECT [AGOT: Loses a $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] $TYPE$ [Concept( 'hook', 'Kozu' )|E] kaybedecek]
- REMOVE_HOOK_EFFECT:0 "Loses a $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: REMOVE_HOOK_EFFECT_THIRD [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! loses a $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybedecek]
- REMOVE_HOOK_EFFECT_THIRD:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! loses a $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: REMOVE_HOOK_EFFECT_FIRST [AGOT: You lose your $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerindeki $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybedeceksiniz]
- REMOVE_HOOK_EFFECT_FIRST:2 "You lose your $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: REMOVED_HOOK_EFFECT_FIRST [AGOT: You lost your $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerindeki $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybettiniz]
- REMOVED_HOOK_EFFECT_FIRST:0 "You lost your $TYPE$ [hook|E] on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT [AGOT: Uses Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullanacak]
- USE_HOOK_EFFECT:1 "Uses Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT_THIRD [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! uses [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullanacak]
- USE_HOOK_EFFECT_THIRD:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! uses [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT_FIRST [AGOT: You use your Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde Zayıf [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullanacaksınız]
- USE_HOOK_EFFECT_FIRST:1 "You use your Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT_PAST [AGOT: Used [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullandı]
- USE_HOOK_EFFECT_PAST:0 "Used [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT_THIRD_PAST [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! used [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullandı]
- USE_HOOK_EFFECT_THIRD_PAST:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! used [CHARACTER.GetHerHis] Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_HOOK_EFFECT_FIRST_PAST [AGOT: You used up your Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde Zayıf [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullandınız]
- USE_HOOK_EFFECT_FIRST_PAST:1 "You used up your Weak [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT [AGOT: Uses a Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [hook|E] ($TYPE$) kullanacak #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT:1 "Uses a Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT_THIRD [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! uses [CHARACTER.GetHerHis] Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullanacak #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT_THIRD:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! uses [CHARACTER.GetHerHis] Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT_FIRST [AGOT: You use your Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde Güçlü [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullanacaksınız #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT_FIRST:1 "You use your Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT_PAST [AGOT: Used a Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [hook|E] ($TYPE$) kullandı #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT_PAST:1 "Used a Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT_THIRD_PAST [AGOT: #high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! used [CHARACTER.GetHerHis] Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullandı #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT_THIRD_PAST:0 "#high [CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! used [CHARACTER.GetHerHis] Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
-### TODO AGOT-CHANGED: USE_STRONG_HOOK_EFFECT_FIRST_PAST [AGOT: You used your Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#! | TR: [TARGET_CHARACTER.GetShortUIName] üzerinde Güçlü [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullandınız #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!]
- USE_STRONG_HOOK_EFFECT_FIRST_PAST:1 "You used your Strong [hook|E] ($TYPE$) on #high [TARGET_CHARACTER.Custom('AGOTCustomGetShortUINameOrMe')]#! #weak (cannot be used again for [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] years)#!"
+
+ GAIN_HOOK_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde edecek[Select_CString(CHARACTER.IsLocalPlayer, 'siniz', '' )]"
+
+ GAINED_HOOK_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde etti[Select_CString(CHARACTER.IsLocalPlayer, 'niz', '' )]"
+
+ I_GAIN_HOOK_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [weak_hook|E] #weak ($TYPE$)#! elde edeceksiniz"
+
+ I_GAINED_HOOK_EFFECT:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [weak_hook|E] #weak ($TYPE$)#! elde ettiniz"
+
+ THEY_GAIN_HOOK_EFFECT:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde edecek"
+
+ THEY_GAINED_HOOK_EFFECT:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [weak_hook|E] #weak ($TYPE$)#! elde etti"
+
+ GAIN_HOOK_EFFECT_STRONG:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde edecek"
+
+ GAINED_HOOK_EFFECT_STRONG:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde etti"
+
+ I_GAIN_HOOK_EFFECT_STRONG:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [strong_hook|E] #weak ($TYPE$)#! elde edeceksiniz"
+
+ I_GAINED_HOOK_EFFECT_STRONG:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [strong_hook|E] #weak ($TYPE$)#! elde ettiniz"
+
+ THEY_GAIN_HOOK_EFFECT_STRONG:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde edecek"
+
+ THEY_GAINED_HOOK_EFFECT_STRONG:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [strong_hook|E] #weak ($TYPE$)#! elde etti"
+
+ GAIN_HOOK_EFFECT_PERPETUAL:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde edecek"
+
+ GAINED_HOOK_EFFECT_PERPETUAL:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde etti"
+
+ I_GAIN_HOOK_EFFECT_PERPETUAL:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [perpetual_hook|E] #weak ($TYPE$)#! elde edeceksiniz"
+
+ I_GAINED_HOOK_EFFECT_PERPETUAL:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde [perpetual_hook|E] #weak ($TYPE$)#! elde ettiniz"
+
+ THEY_GAIN_HOOK_EFFECT_PERPETUAL:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde edecek"
+
+ THEY_GAINED_HOOK_EFFECT_PERPETUAL:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] [perpetual_hook|E] #weak ($TYPE$)#! elde etti"
+
+ REMOVE_HOOK_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] $TYPE$ [Concept( 'hook', 'Kozu' )|E] kaybedecek"
+
+ REMOVE_HOOK_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybedecek"
+
+ REMOVE_HOOK_EFFECT_FIRST:0 "[TARGET_CHARACTER.GetShortUIName] üzerindeki $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybedeceksiniz"
+
+ REMOVED_HOOK_EFFECT_FIRST:0 "[TARGET_CHARACTER.GetShortUIName] üzerindeki $TYPE$ [Concept( 'hook', 'Kozunu' )|E] kaybettiniz"
+
+ USE_HOOK_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullanacak"
+
+ USE_HOOK_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullanacak"
+
+ USE_HOOK_EFFECT_FIRST:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde Zayıf [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullanacaksınız"
+
+ USE_HOOK_EFFECT_PAST:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [hook|E] ($TYPE$) kullandı"
+
+ USE_HOOK_EFFECT_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Zayıf [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullandı"
+
+ USE_HOOK_EFFECT_FIRST_PAST:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde Zayıf [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullandınız"
+
+ USE_STRONG_HOOK_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [hook|E] ($TYPE$) kullanacak #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
+
+ USE_STRONG_HOOK_EFFECT_THIRD:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullanacak #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
+
+ USE_STRONG_HOOK_EFFECT_FIRST:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde Güçlü [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullanacaksınız #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
+
+ USE_STRONG_HOOK_EFFECT_PAST:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [hook|E] ($TYPE$) kullandı #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
+
+ USE_STRONG_HOOK_EFFECT_THIRD_PAST:0 "[CHARACTER.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, ' üzerinizde', ' üzerinde' )] Güçlü [Concept( 'hook', 'Kozunu' )|E] ($TYPE$) kullandı #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
+
+ USE_STRONG_HOOK_EFFECT_FIRST_PAST:0 "[TARGET_CHARACTER.GetShortUIName] üzerinde Güçlü [Concept( 'hook', 'Kozunuzu' )|E] ($TYPE$) kullandınız #weak ([GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] yıl boyunca tekrar kullanılamaz)#!"
  EVERY_COURTIER_EFFECT:1 "Her [courtier|E]"
  RANDOM_COURTIER_EFFECT:1 "Rastgele bir [courtier|E]"
  ADD_SECRET_EFFECT:0 "Bir $TYPE|V$ sırrı edinecek"
@@ -216,8 +216,8 @@
  ALLOW_IN_SCHEME_EFFECT:0 "[SCHEME.GetName] Planında Yardakçı olarak katılınmasına izin ver"
  EVERY_PARENT_EFFECT:0 "Her Ebeveyn"
  RANDOM_PARENT_EFFECT:0 "Rastgele bir Ebeveyn"
-### TODO AGOT-ONLY: SCOPE_EMPTY [AGOT: ]
- SCOPE_EMPTY:0 ""
+
+ SCOPE_EMPTY:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  I_CONVERT_TO:1 "[FAITH.GetTextIcon][FAITH.GetName|V] mezhebine geçeceksiniz"
  THEY_CONVERTS_TO:0 "[CHARACTER.GetShortUIName|U] [FAITH.GetTextIcon][FAITH.GetName|V] mezhebine geçecek"
  COVERTS_TO:0 "[FAITH.GetTextIcon][FAITH.GetName|V] mezhebine geçecek[Select_CString(CHARACTER.IsLocalPlayer, 'siniz', '' )]"
@@ -447,8 +447,8 @@
  SET_SECRET_OWNER_EFFECT:1 "[SECRET.GetName] sırrının sahibi olacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]"
  MY_SET_SECRET_OWNER_EFFECT:2 "[SECRET.GetName] sırrının sahibi olacaksınız"
  THEIR_SET_SECRET_OWNER_EFFECT:1 "[CHARACTER.GetUIName], [SECRET.GetName] sırrının sahibi olacak"
-### TODO AGOT-CHANGED: EFFECT_CHARACTER_HEADER [AGOT: [AGOTGetUINameNoTooltip(CHARACTER)|V]:\n | TR: [CHARACTER.GetShortUINameNoTooltip]:\n]
- EFFECT_CHARACTER_HEADER:0 "[AGOTGetUINameNoTooltip(CHARACTER)|V]:\n"
+
+ EFFECT_CHARACTER_HEADER:0 "[CHARACTER.GetShortUINameNoTooltip]:\n"
  MAKE_CONCUBINE_EFFECT:4 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizi', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakteri ' )][concubine|E] olarak alacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]"
  MADE_CONCUBINE_EFFECT:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Sizi', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakteri ' )] [concubine|E] olarak aldı[Select_CString(CHARACTER.IsLocalPlayer, 'nız', '' )]"
  I_MAKE_CONCUBINE_EFFECT: "[TARGET_CHARACTER.GetShortUIName] adlı karakteri [TARGET_CHARACTER.Custom('ConcubineWomanManGameConcept')] olarak alacaksınız"
@@ -599,18 +599,18 @@
  REMOVED_TRAIT:1 "[TRAIT.GetName( GetNullCharacter )|LV] [Concept( 'trait', 'Özelliğini' )|E] kaybetti[Select_CString(CHARACTER.IsLocalPlayer, 'niz', '' )]"
  REMOVED_MY_TRAIT:2 "[TRAIT.GetName( CHARACTER.Self )|LV] [Concept( 'trait', 'Özelliğini' )|E] kaybettiniz"
  REMOVED_THEIR_TRAIT:1 "[CHARACTER.GetShortUIName|U], [TRAIT.GetName( CHARACTER.Self )|LV] [Concept( 'trait', 'Özelliğini' )|E] kaybetti"
-### TODO AGOT-CHANGED: ADD_COURTIER_TO_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U], [Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][CHARACTER.Custom('GetCourtConcept')][Select_CString(CHARACTER.IsLocalPlayer, 'ınıza', 'ına' )] katılacak]
- ADD_COURTIER_TO_COURT:1 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]"
-### TODO AGOT-CHANGED: ADD_COURTIER_TO_MY_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join your [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]ınıza katılacak]
- ADD_COURTIER_TO_MY_COURT:2 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join your [CHARACTER.Custom('GetCourtConcept')]"
-### TODO AGOT-CHANGED: ADD_COURTIER_TO_THEIR_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUIName] adlı karakterin [CHARACTER.Custom('GetCourtConcept')]ına katılacak]
- ADD_COURTIER_TO_THEIR_COURT:1 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] will join [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]"
-### TODO AGOT-CHANGED: ADDED_COURTIER_TO_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]a katıldı]
- ADDED_COURTIER_TO_COURT:1 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]"
-### TODO AGOT-CHANGED: ADDED_COURTIER_TO_MY_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined your [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]ınıza katıldı]
- ADDED_COURTIER_TO_MY_COURT:2 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined your [CHARACTER.Custom('GetCourtConcept')]"
-### TODO AGOT-CHANGED: ADDED_COURTIER_TO_THEIR_COURT [AGOT: [AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')] | TR: [TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUIName] adlı karakterin [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]ına katıldı[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'nız', '' )]]
- ADDED_COURTIER_TO_THEIR_COURT:1 "[AGOTGetUINameNoTooltip(TARGET_CHARACTER)|V] joined [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourtConcept')]"
+
+ ADD_COURTIER_TO_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U], [Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][CHARACTER.Custom('GetCourtConcept')][Select_CString(CHARACTER.IsLocalPlayer, 'ınıza', 'ına' )] katılacak"
+
+ ADD_COURTIER_TO_MY_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]ınıza katılacak"
+
+ ADD_COURTIER_TO_THEIR_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U], [Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][CHARACTER.Custom('GetCourtConcept')][Select_CString(CHARACTER.IsLocalPlayer, 'ınıza', 'ına' )] katılacak"
+
+ ADDED_COURTIER_TO_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]a katıldı"
+
+ ADDED_COURTIER_TO_MY_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]ınıza katıldı"
+
+ ADDED_COURTIER_TO_THEIR_COURT:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.Custom('GetCourtConcept')]a katıldı"
  SET_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U] $STATUS$ olacak"
  SET_MY_KNIGHT_STATUS:0 "$STATUS$ olacağım"
  SET_THEIR_KNIGHT_STATUS:0 "[CHARACTER.GetShortUIName|U] $STATUS$ olacak"
@@ -657,8 +657,8 @@
  ADD_GUEST_COURTIER_EFFECT:0 "[Select_CString(EMPLOYER.IsLocalPlayer, 'Sarayınızda', EMPLOYER.GetShortUIName )][Select_CString(EMPLOYER.IsLocalPlayer, '', ' adlı karakterin sarayında' )] bulunan [COURTIER.GetUIName], [Select_CString(HOST.IsLocalPlayer, 'sarayınızda', HOST.GetShortUIName )][Select_CString(HOST.IsLocalPlayer, '', ' adlı karakterin sarayında' )] misafir olacak"
  STRESS_IMPACT_TRAIT_LIST:3 "çünkü $TRAITS$ özelliğine [Select_CString( CHARACTER.IsLocalPlayer, 'sahipsiniz', 'sahip' )]"
  STRESS_IMPACT_ONLY:0 "Sadece"
-### TODO AGOT-ONLY: STRESS_IMPACT_INCREASED [AGOT: ]
- STRESS_IMPACT_INCREASED:0 ""
+
+ STRESS_IMPACT_INCREASED:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  RETURN_TO_COURT_EFFECT:2 "[Concept( 'liege', 'Süzerenin' )|E] [Concept( 'court', 'Sarayına' )|E] geri dönecek"
  I_RETURN_TO_COURT_EFFECT:2 "[Concept( 'liege', 'Süzereninizin' )|E] [Concept( 'court', 'Sarayına' )|E] geri döneceksiniz"
  THEY_RETURN_TO_COURT_EFFECT:1 "[CHARACTER.GetUIName], süzereninin [Concept( 'court', 'Sarayına' )|E] geri dönecek"
@@ -675,14 +675,14 @@
  GLOBAL_LOST_A_GUARDIAN:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Artık', ' artık' )] [guardian|E]si değil[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  I_LOSE_A_GUARDIAN:0 "[TARGET_CHARACTER.GetShortUIName] adlı karakter [Concept( 'guardian', 'vasiniz' )|E] olmayacak"
  I_LOST_A_GUARDIAN:0 "[TARGET_CHARACTER.GetShortUIName] adlı karakter artık [Concept( 'guardian', 'vasiniz' )|E] olmayacak"
-### TODO AGOT-CHANGED: GLOBAL_BECOME_WARD [AGOT: Becomes #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E] | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][Concept( 'ward', 'Öğrenci' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]]
- GLOBAL_BECOME_WARD:0 "Becomes #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E]"
-### TODO AGOT-CHANGED: GLOBAL_BECAME_WARD [AGOT: Became #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E] | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][Concept( 'ward', 'Öğrenci' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] oldu[Select_CString(CHARACTER.IsLocalPlayer, 'nuz', '' )]]
- GLOBAL_BECAME_WARD:0 "Became #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E]"
-### TODO AGOT-CHANGED: THEY_GET_A_WARD [AGOT: #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFullName')]#! becomes #high [CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E] | TR: [TARGET_CHARACTER.GetShortUIName|U], [Select_CString(CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'ward', 'Öğrenci' )|E][Select_CString(CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak]
- THEY_GET_A_WARD:0 "#high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFullName')]#! becomes #high [CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [ward|E]"
-### TODO AGOT-CHANGED: GLOBAL_BECOME_GUARDIAN [AGOT: Becomes #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [guardian|E] | TR: [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'guardian', 'Vasi' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak]
- GLOBAL_BECOME_GUARDIAN:0 "Becomes #high [TARGET_CHARACTER.Custom('AGOTCustomGetTitledFirstNamePossessive')]#! [guardian|E]"
+
+ GLOBAL_BECOME_WARD:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][Concept( 'ward', 'Öğrenci' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]"
+
+ GLOBAL_BECAME_WARD:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][Concept( 'ward', 'Öğrenci' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] oldu[Select_CString(CHARACTER.IsLocalPlayer, 'nuz', '' )]"
+
+ THEY_GET_A_WARD:0 "[TARGET_CHARACTER.GetShortUIName|U], [Select_CString(CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'ward', 'Öğrenci' )|E][Select_CString(CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak"
+
+ GLOBAL_BECOME_GUARDIAN:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'guardian', 'Vasi' )|E][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] olacak"
  THEY_LOSE_A_WARD:1 "[TARGET_CHARACTER.GetShortUIName|U] artık[Select_CString(CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'ward', 'Öğrenci' )|E][Select_CString(CHARACTER.IsLocalPlayer, 'niz', 'si' )] değil[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  THEY_LOST_A_WARD:1 "[TARGET_CHARACTER.GetShortUIName|U] artık[Select_CString(CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString(CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString(CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] [Concept( 'ward', 'Öğrenci' )|E][Select_CString(CHARACTER.IsLocalPlayer, 'niz', 'si' )] değil[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  LOSE_A_WARD:0 "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', ' adlı karakterin ' )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Artık', 'artık' )] [Concept( 'ward', 'Öğrencisi' )|E] olmayacak"
@@ -932,8 +932,8 @@
  BREAKING_TRUCE:1 "\n#S [truce|E] bozuluyor#!"
  ATTACKING_ALLY:1 "\n#S [Concept( 'ally', 'Müttefike' )|E] saldırılıyor#!" #Ayro
  ATTACKING_SUZERAIN: "\n#S [Concept('suzerain', 'Efendinize')|E] saldırmak [Concept('tributary_contract', 'Haraçgüzarlık Sözleşmesini')|E] bozacak#!"
-### TODO NOT-IN-ST: ATTACKING_TRIBUTARY [AGOT: \n#S Attacking a [tributary|E] will break the [tributary_contract|E]#!]
- ATTACKING_TRIBUTARY: "\n#S Attacking a [tributary|E] will break the [tributary_contract|E]#!"
+
+ ATTACKING_TRIBUTARY:0 "\n#S Bir [tributary|E]'e saldırmak [tributary_contract|E]'i bozar#!"
  WAR_BREAKING_BETROTHAL: "\n#S Büyük Düğün Nişanı Bozuluyor#!"
  SET_CULTURE_GLOBAL:1 "[TARGET_CULTURE.GetName|V] kültürünü benimseyecek[Select_CString(CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  SET_CULTURE_FIRST:2 "[TARGET_CULTURE.GetName|V] kültürünü benimseyeceksiniz"
@@ -1718,12 +1718,12 @@
  ADD_TITLE_LAW:2 "[LAW.GetName|V] [succession|E] [Concept('law', 'Yasasını')|E] elde edecek"
  ADD_TITLE_LAW_THIRD:0 "[TITLE.GetName|U] unvanı [LAW.GetName|V] [succession|E] [Concept('law', 'Yasasını')|E] elde edecek"
  ADDED_TITLE_LAW:0 "[TITLE.GetName|U] unvanı [LAW.GetName|V] [succession|E] [Concept('law', 'Yasasını')|E] elde etti"
-### TODO AGOT-CHANGED: leave_faction_with_cooldown_effect_third.tt [AGOT: [CHARACTER.GetShortUIName] cannot join another hostile [faction|E] for #V $VALUE|0$ years#! | TR: [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ' )]#V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]]
- leave_faction_with_cooldown_effect_third.tt:2 "[CHARACTER.GetShortUIName] cannot join another hostile [faction|E] for #V $VALUE|0$ years#!"
-### TODO AGOT-CHANGED: leave_faction_with_cooldown_effect_first.tt [AGOT: You cannot join another hostile [faction|E] for #V $VALUE|0$ years#! | TR: #V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacaksınız]
- leave_faction_with_cooldown_effect_first.tt:2 "You cannot join another hostile [faction|E] for #V $VALUE|0$ years#!"
-### TODO AGOT-CHANGED: leave_faction_with_cooldown_effect_global.tt [AGOT: Cannot join another hostile [faction|E] for #V $VALUE|0$ years#! | TR: #V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]]
- leave_faction_with_cooldown_effect_global.tt:0 "Cannot join another hostile [faction|E] for #V $VALUE|0$ years#!"
+
+ leave_faction_with_cooldown_effect_third.tt:0 "[Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ' )]#V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]"
+
+ leave_faction_with_cooldown_effect_first.tt:0 "#V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacaksınız"
+
+ leave_faction_with_cooldown_effect_global.tt:0 "#V $VALUE|0$ yıl#! boyunca başka bir [Concept( 'faction', 'Örgütleşmeye' )|E] katılamayacak[Select_CString(CHARACTER.IsLocalPlayer, 'sınız', '' )]"
  CHARACTER_LEAVES_COURT:1 "[CHARACTER.GetShortUIName|U],[Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', ' ' )][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', CHARACTER.GetLiege.GetShortUIName )][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', ' adlı karakterin' )] [CHARACTER.GetLiege.Custom('GetCourtConcept')][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, 'ınızı', 'ını' )] terk edecek"
  LEFT_COURT:0 "[Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', CHARACTER.GetLiege.GetShortUIName )][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', ' adlı karakterin ' )][CHARACTER.GetLiege.Custom('GetCourtConcept')][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, 'ınızı', 'ını' )] terk etti"
  LEAVES_COURT:1 "[Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', CHARACTER.GetLiege.GetShortUIName )][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, '', ' adlı karakterin ' )][CHARACTER.GetLiege.Custom('GetCourtConcept')][Select_CString(CHARACTER.GetLiege.IsLocalPlayer, 'ınızı', 'ını' )] terk edecek"
@@ -1938,8 +1938,8 @@
  open_minded_perk_effect:1 "Herhangi bir cezaya tabi olmadan fazladan #V 2#! [language|E] öğrenebilir"
  my_open_minded_perk_effect:1 "Herhangi bir cezaya tabi olmadan fazladan #V 2#! [language|E] öğrenebilir"
  their_open_minded_perk_effect:1 "Herhangi bir cezaya tabi olmadan fazladan #V 2#! [language|E] öğrenebilir"
-### TODO AGOT-CHANGED: CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES [AGOT: [GetCourtPositionType('court_physician_court_position').GetName()] and [GetCourtPositionType('maester_court_position').GetName()] positions cost less to hire\n[GetCourtPositionType('court_physician_court_position').GetName()] and [GetCourtPositionType('maester_court_position').GetName()] treatments have better outcomes | TR: [GetCourtPositionType('court_physician_court_position').GetName()] daha ucuza işe alınabilir\n[GetCourtPositionType('court_physician_court_position').GetName()] tedavileri daha iyi sonuç verir]
- CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:2 "[GetCourtPositionType('court_physician_court_position').GetName()] and [GetCourtPositionType('maester_court_position').GetName()] positions cost less to hire\n[GetCourtPositionType('court_physician_court_position').GetName()] and [GetCourtPositionType('maester_court_position').GetName()] treatments have better outcomes"
+
+ CHEAPER_COURT_PHYSICIAN_AND_BETTER_OUTCOMES:0 "[GetCourtPositionType('court_physician_court_position').GetName()] daha ucuza işe alınabilir\n[GetCourtPositionType('court_physician_court_position').GetName()] tedavileri daha iyi sonuç verir"
  MENTAL_BREAK_SPACING:0 "[mental_breaks|E] arasındaki zaman: #P +3#! yıl"
  UNLOCKS_CELIBACY_DECISIONS:0 "[embrace_celibacy|E] ve [abandon_celibacy|E] [Concept( 'decisions', 'Kararlarını' )|E] Açacak"
  I_CAN_USE_CELIBACY_DECISIONS:1 "[embrace_celibacy|E] ve [abandon_celibacy|E] [Concept( 'decisions', 'Kararlarını' )|E] alabilirsiniz"
@@ -1991,8 +1991,8 @@
  all_family_members_at_court_converison:1 "Tüm [Concept( 'family_members', 'Aile Üyeleriniz' )|E]"
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "[men_at_arms|E] olarak [GetMaA('house_guard').GetName] üretebilir"
  HOUSE_GUARD_DESCRIPTION:1 "#weak Sadece bir Saray Muhafız Alayına sahip olunabilir#!"
-### TODO AGOT-CHANGED: CHEAPER_HUNTS_AND_FEASTS [AGOT: [GetActivityType('activity_hunt').GetName], [GetActivityType('activity_feast').GetName] and [GetActivityType('activity_agot_sailing').GetName] Cost: [gold_i]#P -30%#! | TR: [GetActivityType('activity_hunt').GetName] ve [GetActivityType('activity_feast').GetName] Maliyeti: [gold_i]#P -%30#!]
- CHEAPER_HUNTS_AND_FEASTS:1 "[GetActivityType('activity_hunt').GetName], [GetActivityType('activity_feast').GetName] and [GetActivityType('activity_agot_sailing').GetName] Cost: [gold_i]#P -30%#!"
+
+ CHEAPER_HUNTS_AND_FEASTS:0 "[GetActivityType('activity_hunt').GetName] ve [GetActivityType('activity_feast').GetName] Maliyeti: [gold_i]#P -%30#!"
  MARRIAGE_ACCEPTANCE_LEGACY_FOR_SELF:0 "[marriage|E] Kabulü: #P +[EmptyScope.ScriptValue('glory_legacy_1_marriage_acceptance')|0]#!"
  FEWER_FACTIONS_LEGACY:0 "[Concept( 'vassals', 'Vasalların' )|E] [claimant|E] ve [Concept( 'liberty_factions', 'özgürlükçü örgütleşmelere' )|E] katılma ihtimali azalır#!"
  BETTER_GUESTS_LEGACY:1 "Daha iyi [Concept( 'guests', 'Misafirlerin' )|E] ilgisi çekilir\n[Concept('guest', 'Misafirleri')|E] Saraya Alma Maliyeti: [gold_i]#P -30%#!"
@@ -2332,8 +2332,8 @@
  BEGIN_CREATE_HOLDING_EFFECT_GLOBAL:0 "$HOLDING_NAME$ inşasına başla$BEGIN_CREATE_HOLDING_REFUND$"
  BEGIN_CREATE_HOLDING_EFFECT:0 "[PROVINCE.GetName] toprağında $HOLDING_NAME$ inşasına başlanacak$BEGIN_CREATE_HOLDING_REFUND$"
  BEGIN_CREATE_HOLDING_EFFECT_PAST:0 "[PROVINCE.GetName] toprağında $HOLDING_NAME$ inşasına başlandı$BEGIN_CREATE_HOLDING_REFUND$"
-### TODO AGOT-CHANGED: DESTROY_ARTIFACT [AGOT: [ARTIFACT.GetName] is destroyed | TR: Yok Et]
- DESTROY_ARTIFACT:0 "[ARTIFACT.GetName] is destroyed"
+
+ DESTROY_ARTIFACT:0 "Yok Et"
  DESTROY_ARTIFACT_PAST:0 "[ARTIFACT.GetName] yok edildi"
  CHANGE_ARTIFACT_DURABILITY:1 "[ARTIFACT.GetName] [Concept( 'durability', 'Dayanıklılığı' )|E]: #P +#!$VALUE|0P$ #weak ([ARTIFACT.GetDurability]/[ARTIFACT.GetMaxDurability])#!"
  CHANGE_ARTIFACT_DURABILITY_THIRD:0 "[ARTIFACT.GetName] [Concept( 'durability', 'Dayanıklılığı' )|E]: #P +#!$VALUE|0P$ #weak ([ARTIFACT.GetDurability]/[ARTIFACT.GetMaxDurability])#!"

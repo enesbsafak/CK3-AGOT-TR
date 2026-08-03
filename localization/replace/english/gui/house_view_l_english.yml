@@ -1,6 +1,6 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: HOUSE_VIEW_FOUNDED [AGOT: Founded in $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ by [AGOTGetFullName(DynastyHouse.GetFounder)] | TR: MS [DynastyHouse.GetFoundYear] yılında [DynastyHouse.GetFounder.GetName] tarafından kurulmuş]
- HOUSE_VIEW_FOUNDED:0 "Founded in $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ by [AGOTGetFullName(DynastyHouse.GetFounder)]"
+
+ HOUSE_VIEW_FOUNDED:0 "MS [DynastyHouse.GetFoundYear] yılında [DynastyHouse.GetFounder.GetName] tarafından kurulmuş"
  DYNASTY_VIEW_CONCEPT:3 "[DynastyHouse.GetDynasty.GetBaseNameNoTooltip] [Concept( 'dynasty', 'Hanedanının' )|E] [Concept( 'house', 'Hanesi' )|E]"
  HOUSE_VIEW_CONCEPT:3 "[SelectLocalization( DynastyHouse.IsPlayerMember, 'HOUSE_VIEW_PLAYER_IS_MEMBER', 'HOUSE_VIEW_NOT_YOUR_HOUSE')]"
  HOUSE_VIEW_NOT_YOUR_HOUSE:0 "Soylu [house|E]"
@@ -30,12 +30,12 @@
  DYNASTY_PRESTIGE_AT_MAX_LEVEL:0 "[DYNASTY.GetBaseName] son İhtişam Seviyesi'nde"
  HOUSE_VIEW_NAME_WITH_HOUSE:1 "[DynastyHouse.GetBaseNameNoTooltip] Hanesi"
  HOUSE_TT_NAME:0 "[DynastyHouse.GetBaseNameNoTooltip] Hanesi"
-### TODO AGOT-ONLY: HOUSE_VIEW_MOTTO [AGOT: ]
- HOUSE_VIEW_MOTTO:1 ""[DynastyHouse.GetMotto]""
+
+ HOUSE_VIEW_MOTTO:0 ""[DynastyHouse.GetMotto]""
  HOUSE_VIEW_PLAYER_IS_MEMBER:1 "[house|E]niz"
  HOUSE_VIEW_NON_PLAYER_MEMBER: "[Character.GetShortUIName|U] adlı Karakterin Hanesi"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_TT_HEAD_OF_HOUSE [AGOT: [house_head|E]: [AGOTGetName(DynastyHouse.GetHeadOfHouse)|V] | TR: [house_head|E]: [DynastyHouse.GetHeadOfHouse.GetShortUIName|U]]
- DYNASTY_HOUSE_TT_HEAD_OF_HOUSE:1 "[house_head|E]: [AGOTGetName(DynastyHouse.GetHeadOfHouse)|V]"
+
+ DYNASTY_HOUSE_TT_HEAD_OF_HOUSE:0 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetShortUIName|U]"
  DYNASTY_HOUSE_TT_DYNASTY:0 "[dynasty|E]: [DynastyHouse.GetDynasty.GetBaseName]"
  DYNASTY_HOUSE_TT_DYNASTY_LEVEL:0 "[dynasty_prestige_level|E]: [DynastyHouse.GetDynasty.GetPrestigeLevelName]"
  DYNASTY_HOUSE_TT_LIVING_MEMBERS:1 "Hayattaki mensupları: [DynastyHouse.GetNumberOfMembers|V]"
@@ -69,10 +69,10 @@
  HOUSE_LIST_FOUNDING:0 "Kurucu Hane"
  HOUSE_LIST_CADET:0 "[cadet_branch|E]"
  HOUSE_LIST_MEMBERS:0 "Hayattaki Mensupları: [DynastyHouse.GetNumberOfMembers]"
-### TODO AGOT-CHANGED: HOUSE_LIST_FOUNDATION [AGOT: Founded in $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ | TR: MS [DynastyHouse.GetFoundYear] yılında kuruldu]
- HOUSE_LIST_FOUNDATION:0 "Founded in $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
-### TODO AGOT-CHANGED: HOUSE_LIST_HEAD [AGOT: [house_head|E]: [AGOTGetLongUIName(DynastyHouse.GetHeadOfHouse)] | TR: [house_head|E]: [DynastyHouse.GetHeadOfHouse.GetName]]
- HOUSE_LIST_HEAD:0 "[house_head|E]: [AGOTGetLongUIName(DynastyHouse.GetHeadOfHouse)]"
+
+ HOUSE_LIST_FOUNDATION:0 "MS [DynastyHouse.GetFoundYear] yılında kuruldu"
+
+ HOUSE_LIST_HEAD:0 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetName]"
  HOUSE_MODIFIERS:1 "Hane Etkileri:"
  DYNASTY_MODIFIERS:1 "Hanedan Etkileri:"
  HOUSE_UNITY_MODIFIERS: "Etkiler:"
@@ -116,8 +116,8 @@
  HOUSE_VIEW_HOUSE_POWER_LEVEL_TT: "#T [HouseAspiration.GetName]#!\n[HouseAspiration.GetLevelName( PdxGuiWidget.GetIndexInDataModel )]\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, PdxGuiWidget.GetIndexInDataModel )]"
  HOUSE_VIEW_POWERFUL_FAMILY_LIEGE: "#bold [top_liege|E] (eğer [DynastyHouse.GetName] [Concept('powerful', 'Önemliyse')|e])#!"
  HOUSE_VIEW_POWERFUL_FAMILY_MEMBER: "#bold Tüm [house|e] Üyeleri (eğer [DynastyHouse.GetName] [Concept('powerful', 'Önemliyse')|e])#!"
-### TODO AGOT-ONLY: HOUSE_VIEW_POWER_LEVEL_PARAMETERS [AGOT: ]
- HOUSE_VIEW_POWER_LEVEL_PARAMETERS: "" #intentionally empty for now
+
+ HOUSE_VIEW_POWER_LEVEL_PARAMETERS:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  HOUSE_VIEW_ANY_HOUSE_MEMBER: "#bold Tüm [house|E] Üyeleri#!"
  HOUSE_VIEW_HOUSE_HEAD: "#bold [house_head|E]#!"
  HOUSE_VIEW_CHANGE_HOUSE_POWER: "#T [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'game_concept_house' )] [DynastyHouse.GetHouseAspirationFlavorName] Değiştir#!"

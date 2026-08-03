@@ -1,33 +1,33 @@
 ﻿l_english:
-### TODO NOT-IN-ST: HEADER_CREDITS [AGOT: ]
- HEADER_CREDITS:1 ""
-### TODO NOT-IN-ST: HEADER_CRUSADER_KINGS_3_A_GAME_OF_THRONES [AGOT: #credits_title CRUSADER KINGS III: A GAME OF THRONES (CK3AGOT)#!]
- HEADER_CRUSADER_KINGS_3_A_GAME_OF_THRONES:1 "#credits_title CRUSADER KINGS III: A GAME OF THRONES (CK3AGOT)#!"
-### TODO NOT-IN-ST: TITLE_LEAD_DEVELOPERS [AGOT: #credits_header Lead Developers#!]
- TITLE_LEAD_DEVELOPERS:1 "#credits_header Lead Developers#!"
-### TODO NOT-IN-ST: TITLE_DEPARTMENT_HEADS [AGOT: #credits_header Department Heads#!]
- TITLE_DEPARTMENT_HEADS:1 "#credits_header Department Heads#!"
-### TODO NOT-IN-ST: TITLE_DEVELOPERS [AGOT: #credits_header Developers#!]
- TITLE_DEVELOPERS:1 "#credits_header Developers#!"
-### TODO NOT-IN-ST: TITLE_ADVANCED_SCRIPT_DEVELOPERS [AGOT: #credits_subheader Script & Mechanics#!]
- TITLE_ADVANCED_SCRIPT_DEVELOPERS:1 "#credits_subheader Script & Mechanics#!"
-### TODO NOT-IN-ST: TITLE_EVENTS [AGOT: #credits_subheader Events and Gameplay#!]
- TITLE_EVENTS:1 "#credits_subheader Events and Gameplay#!"
-### TODO NOT-IN-ST: TITLE_TOOLS [AGOT: #credits_subheader Tools#!]
- TITLE_TOOLS:1 "#credits_subheader Tools#!"
-### TODO NOT-IN-ST: TITLE_3D [AGOT: #credits_subheader 3D Team#!]
- TITLE_3D:1 "#credits_subheader 3D Team#!"
-### TODO NOT-IN-ST: TITLE_2D [AGOT: #credits_subheader 2D Team#!]
- TITLE_2D:1 "#credits_subheader 2D Team#!"
-### TODO NOT-IN-ST: TITLE_PORTRAITS [AGOT: #credits_subheader Portrait Team#!]
- TITLE_PORTRAITS:1 "#credits_subheader Portrait Team#!"
-### TODO NOT-IN-ST: TITLE_WRITING [AGOT: #credits_subheader Writing and Localization#!]
- TITLE_WRITING:1 "#credits_subheader Writing and Localization#!"
-### TODO NOT-IN-ST: TITLE_WORLDBUILDING [AGOT: #credits_subheader Worldbuilding#!]
- TITLE_WORLDBUILDING:1 "#credits_subheader Worldbuilding#!"
-### TODO NOT-IN-ST: TITLE_MUSIC [AGOT: #credits_subheader Music and OST#!]
- TITLE_MUSIC:1 "#credits_subheader Music and OST#!"
-### TODO NOT-IN-ST: TITLE_CONTRIBUTORS [AGOT: #credits_subheader Former Contributors#!]
- TITLE_CONTRIBUTORS:1 "#credits_subheader Former Contributors#!"
-### TODO NOT-IN-ST: TITLE_CONTENT_CONTRIBUTORS [AGOT: #credits_subheader Content Contributors#!]
- TITLE_CONTENT_CONTRIBUTORS:1 "#credits_subheader Content Contributors#!"
+
+ HEADER_CREDITS:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ HEADER_CRUSADER_KINGS_3_A_GAME_OF_THRONES:0 "#credits_title CRUSADER KINGS III: A GAME OF THRONES (CK3AGOT)#!"
+
+ TITLE_LEAD_DEVELOPERS:0 "#credits_header Baş Geliştiriciler#!"
+
+ TITLE_DEPARTMENT_HEADS:0 "#credits_header Departman Başkanları#!"
+
+ TITLE_DEVELOPERS:0 "#credits_header Geliştiriciler#!"
+
+ TITLE_ADVANCED_SCRIPT_DEVELOPERS:0 "#credits_subheader Betik ve Mekanikler#!"
+
+ TITLE_EVENTS:0 "#credits_subheader Olaylar ve Oynanış#!"
+
+ TITLE_TOOLS:0 "#credits_subheader Araçlar#!"
+
+ TITLE_3D:0 "#credits_subheader 3D Ekibi#!"
+
+ TITLE_2D:0 "#credits_subheader 2D Ekibi#!"
+
+ TITLE_PORTRAITS:0 "#credits_subheader Portre Ekibi#!"
+
+ TITLE_WRITING:0 "#credits_subheader Yazım ve Yerelleştirme#!"
+
+ TITLE_WORLDBUILDING:0 "#credits_subheader Dünya İnşası#!"
+
+ TITLE_MUSIC:0 "#credits_subheader Müzik ve OST#!"
+
+ TITLE_CONTRIBUTORS:0 "#credits_subheader Eski Katkıda Bulunanlar#!"
+
+ TITLE_CONTENT_CONTRIBUTORS:0 "#credits_subheader İçerik Katkıda Bulunanları#!"

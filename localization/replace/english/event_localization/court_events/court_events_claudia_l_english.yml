@@ -33,8 +33,8 @@
  court.6003.d:0 "Elinden geleni yaptığını biliyorum..."
  court.6003.e:0 "Öyleyse onun yerine seni cezalandırmam gerekecek!"
  court.6010.t:0 "Koridorlardaki Peygamber" ### CQC
-### TODO AGOT-ONLY: court.6010.desc [AGOT: ]
- court.6010.desc:1 ""#EMP REPENT TODAY!#! LEARN THE TRUEST TRUTH! STEP INTO THE LIGHT!" \n\nSince [preacher.GetTitledFirstName] joined my court, [preacher.GetHerHis] persistent attempts to convert everyone to [preacher.GetHerHis] foreign cult have become the background noise to my everyday life.\n\nDay and night, [preacher.GetSheHe] stalks the courtyards, patrols the hallways, and hides in wait for unsuspecting by-passers in dark corners, ready to #EMP persuade#! them with [preacher.GetHerHis] insistent screeching. \n\nMy courtiers are exhausted and, after [preacher.GetFirstNameNoTooltip] ambushes me on my way to the chamber pot, I'm inclined to agree with their discontent."
+
+ court.6010.desc:0 ""#EMP BUGÜN TÖVBE ET!#! EN DOĞRU GERÇEĞİ ÖĞREN! IŞIĞA ADIM AT!" \n\n[preacher.GetTitledFirstName] sarayıma katıldığından beri, [preacher.GetHerHis] herkesi [preacher.GetHerHis] yabancı tarikatına çevirme çabaları günlük hayatımın arka plan gürültüsü hâline geldi.\n\nGece gündüz [preacher.GetSheHe] avlularda sinsice dolaşıyor, koridorlarda devriye geziyor ve karanlık köşelerde şüphelenmeyen geçenleri bekliyor, onları [preacher.GetHerHis] ısrarlı ciyaklamalarıyla #EMP ikna etmeye#! hazır.\n\nSaraylılarım bitkin ve [preacher.GetFirstNameNoTooltip] beni hela yolunda pusuya düşürdükten sonra, onların hoşnutsuzluğuna katılma eğilimindeyim.""
  court.6010.a:0 "Hoşgörü gösterelim. Neticede [preacher.GetFirstNameNoTooltip] zararsız birisi."
  court.6010.b:1 "Bu budalayı sarayımdan gönderin!"
  court.6010.c:1 "Gitsin sıçanlara vaaz versin, beni ilgilendirmez."
@@ -53,8 +53,8 @@
  court.6011.b:0 "Sarayımda sizin din adamlarınıza yer yoktur."
  court.6020.t:0 "Saraydaki Şeytan"
  court.6020.desc_opening:1 "[possessed_char.GetTitledFirstName] gizemli ve bir o kadar da dehşet verici bir hâlde." ### CQC
-### TODO AGOT-CHANGED: court.6020.desc_chaplain [AGOT: \n\nAccording to [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], | TR: \n\nSaray Rahibimin söylediğine göre]
- court.6020.desc_chaplain:0 "\n\nAccording to [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)],"
+
+ court.6020.desc_chaplain:0 "\n\nSaray Rahibimin söylediğine göre"
  court.6020.desc_no_chaplain:0 "\n\nSöylentilere göre"
  court.6020.desc_middle:1 "şeytani bir varlık onun vücudunu ele geçirmiş ve kendisini bastırılamaz bir güçle açığa çıkarıyor. Bu olayların yoğunluğu ve sıklığı son zamanlarda benim dindar saray halkım arasında artan bir telaşa yol açıyor. Saraydaki dindarlar kötücül varlıkların bize musallat olacağına, etrafa korku ve ölüm yayacağına inanıyorlar." ### CQC
  court.6020.desc_physician:0 "\n\nSaray hekimine göre" ### CQC
@@ -77,8 +77,8 @@
  court_6020_all_courtiers_and_guests_christian:1 "Aynı dine sahip tüm [Concept('courtiers','Saray Mensuplarınız')|E] ve [Concept('guests','Misafirleriniz')|E]"
  court_6020_all_courtiers_or_guests_polith:1 "Diğer tüm (kuşkucu olmayan) [Concept('courtiers','Saray Mensuplarınız')|E] ve [Concept('guests','Misafirleriniz')|E]"
  court.6030.t:0 "Sarımsak [Select_CString(ROOT.Char.IsFemale, 'Kraliçenin', 'Kralın' )] Şarkısı" ### CQC
-### TODO AGOT-ONLY: court.6030.desc [AGOT: ]
- court.6030.desc:1 ""#EMP There's a story in our little town,\nof a [ROOT.Char.Custom('GetQueenKing')] with a Garlic Crown,\nto battle the [ROOT.Char.Custom('GetUnbelieverNamePlural')] [ROOT.Char.GetSheHe] rode on a donkey,\nbut [ROOT.Char.GetHerHis] only success was against a small monkey...#!"\n\nThis cursed ballad has become very popular among wandering minstrels and the plebes alike - #EMP way too popular#! for my taste since I found out a disturbing amount of similarities between myself and its protagonist... But hearing it, shamelessly sung in my own face by [6030_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], is going too far!"
+
+ court.6030.desc:0 ""#EMP Küçük kasabamızda bir hikâye var,\nSarımsak Tacı giyen bir [ROOT.Char.Custom('GetQueenKing')] hakkında,\n[ROOT.Char.Custom('GetUnbelieverNamePlural')] ile savaşmak için bir eşekle yola çıktı,\nama tek başarısı küçük bir maymuna karşıydı...#!"\n\nBu lanetli balad, gezgin ozanlar ve halk arasında çok popüler oldu - bana göre #EMP fazla popüler#!, çünkü kendimle onun kahramanı arasında rahatsız edici derecede çok benzerlik buldum... Ama [6030_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] tarafından yüzüme karşı utanmadan söylenmesini duymak fazla ileri gitmek!""
  court.6030.a:0 "Ama #EMP gerçekten#! komik bir hikâye!"
  court.6030.b:0 "Bu #EMP çok#! çok utanç verici..."
  court.6030.c:0 "#EMP Bunu komik mi buldun?!#!"
@@ -102,17 +102,17 @@
  court.6041.c:0 "Sana yeterince zamanımı heba ettim."
  court.6050.t:0 "Müstehcen Hikâyeler" ### CQC
  court.6050.desc_opening:0 "Son zamanlarda genç kızların ve genellikle sert bir mizaca sahip askerlerin bir kitaptan mest olmuş bir şekilde kıkırdaşmaları dikkatimi çekiyor.\n\nGünün sonlarına doğru elinde mevzubahis kitapla [courtier.GetTitledFirstName] gözüme çarpıyor."
-### TODO AGOT-CHANGED: court.6050.desc_byz [AGOT: Despite its cover suggesting a pious book of prayers, it is a licentious novel, drawn from centuries-old First Men tales! There's a beautiful lady, Ironborn reavers, temptations, and lustful pages upon pages filled with unholy desires... | TR: Kitabın kapağı dualarla ilgili dinî bir kitap intibası bırakmasına rağmen biraz incelendiğinde kitabın yüzyıllar önce pagan atalarımızca yazılmış şehvet dolu bir roman olduğu anlaşılıyor. Başrolde güzel bir bakire, korsanlar, baştan çıkarma ve sapkın arzularla dolu şehvet dolu sayfalar...]
- court.6050.desc_byz:0 "Despite its cover suggesting a pious book of prayers, it is a licentious novel, drawn from centuries-old First Men tales! There's a beautiful lady, Ironborn reavers, temptations, and lustful pages upon pages filled with unholy desires..."
-### TODO AGOT-CHANGED: court.6050.desc_islam [AGOT: Quickly scanning through the text, I find corsairs of the Stepstones, scantily-clothed Lysene noblewomen, luxury-driven archons, lascivious and devious magisters, and even an enriched street-rat who marries a Westerosi princess through the help of a sphinx... | TR: Kitaba hızlıca bir göz attıktan sonra içeriğinin korsanlar, yarı çıplak kadınlar, lüks düşkünü krallar, şehvetli ve sinsi kraliçeler ile dolu olduğunu, bir cinin yardımıyla zengin olup prenses ile evlenen bir sokak çocuğuna dair bir hikâye barındırdığını görüyorum.]
- court.6050.desc_islam:0 "Quickly scanning through the text, I find corsairs of the Stepstones, scantily-clothed Lysene noblewomen, luxury-driven archons, lascivious and devious magisters, and even an enriched street-rat who marries a Westerosi princess through the help of a sphinx..."
-### TODO AGOT-CHANGED: court.6050.desc_sonetti [AGOT: There are pages upon pages of poetry, graceful in form, but lascivious in nature. The inhuman beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire... | TR: Şiirlerle dolu bazı sayfalar, dışarıdan masum görünmelerine rağmen oldukça şehvetli bir yapıya sahiptiler. Her türden kadının meleksi güzelliğine atıfta bulunan sözcükler, şairin dünyevi arzularını gizlemede yetersiz kalıyordu...]
- court.6050.desc_sonetti:0 "There are pages upon pages of poetry, graceful in form, but lascivious in nature. The inhuman beauty of all sort of women is exalted by gentle words, which can barely cover the poet's very earthly desire..."
-### TODO AGOT-CHANGED: court.6050.desc_chaucer [AGOT: All are tales from pilgrims on the road; however, they don't deal with the beauty of the Seven, but with gory murders and unfaithful ladies... | TR: Tüm hikâyeler kutsal bir yolculuğa çıkanlara odaklansa da; hikâyelerde ruhlarının irfana erişmesi değil, vahşi cinayetler ve yoldan çıkmış kadınlar ön plandaydı.]
- court.6050.desc_chaucer:0 "All are tales from pilgrims on the road; however, they don't deal with the beauty of the Seven, but with gory murders and unfaithful ladies..."
+
+ court.6050.desc_byz:0 "Kitabın kapağı dualarla ilgili dinî bir kitap intibası bırakmasına rağmen biraz incelendiğinde kitabın yüzyıllar önce pagan atalarımızca yazılmış şehvet dolu bir roman olduğu anlaşılıyor. Başrolde güzel bir bakire, korsanlar, baştan çıkarma ve sapkın arzularla dolu şehvet dolu sayfalar..."
+
+ court.6050.desc_islam:0 "Kitaba hızlıca bir göz attıktan sonra içeriğinin korsanlar, yarı çıplak kadınlar, lüks düşkünü krallar, şehvetli ve sinsi kraliçeler ile dolu olduğunu, bir cinin yardımıyla zengin olup prenses ile evlenen bir sokak çocuğuna dair bir hikâye barındırdığını görüyorum."
+
+ court.6050.desc_sonetti:0 "Şiirlerle dolu bazı sayfalar, dışarıdan masum görünmelerine rağmen oldukça şehvetli bir yapıya sahiptiler. Her türden kadının meleksi güzelliğine atıfta bulunan sözcükler, şairin dünyevi arzularını gizlemede yetersiz kalıyordu..."
+
+ court.6050.desc_chaucer:0 "Tüm hikâyeler kutsal bir yolculuğa çıkanlara odaklansa da; hikâyelerde ruhlarının irfana erişmesi değil, vahşi cinayetler ve yoldan çıkmış kadınlar ön plandaydı."
  court.6050.desc_generic:0 "Bu kitap açıkça şehvetle, dünyevi ihtiraslar ve çapkınlıklarla dolu..."
-### TODO AGOT-CHANGED: court.6050.desc_ending [AGOT: \n\nI am silent while I ponder the probable reaction of [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension. | TR: \n\n[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName], endişe dolu gözlerle vereceğim tepkiyi bekliyor.]
- court.6050.desc_ending:0 "\n\nI am silent while I ponder the probable reaction of [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], and [courtier.GetFirstNameNoTooltip] stares at me in apprehension."
+
+ court.6050.desc_ending:0 "\n\n[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName], endişe dolu gözlerle vereceğim tepkiyi bekliyor."
  court.6050.a:0 "Ah gözlerim!"
  court.6050.b:0 "Bunu ancak ateşle temizleriz!"
  court.6050.b.tt:1 "Bu skandal kitabın tüm kopyalarını yakacaksınız ve sarayınızdan yasaklayacaksınız"
@@ -126,8 +126,8 @@
  court.6050.f:0 "Kitabı yok et, ben de hiç görmemişim gibi davranayım."
  court_6050_courtiers_or_guests:0 "Tüm iffet yoksunu [Concept('courtiers','Saray Mensuplarınız')|E] ve [Concept('guests','Misafirleriniz')|E]"
  court.6060.t:0 "Şarabın Zevkleri"
-### TODO AGOT-CHANGED: court.6060.desc_opening [AGOT: All of a sudden, [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n | TR: Birdenbire, [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] ve [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] münakaşa hâlinde taht odama daldılar.\n\n]
- court.6060.desc_opening:1 "All of a sudden, [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] and [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] barge into the throne room, bickering.\n\n"Wine offends [ROOT.Char.GetFaith.HighGodName]! It #EMP must#! be avoided!" screeches [court_chaplain.GetFirstNameNicknamedNoTooltip].\n\n"A bit of wine is healthy for the body!" replies [court_physician.GetFirstNameNoTooltip]."
+
+ court.6060.desc_opening:0 "Birdenbire, [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] ve [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] münakaşa hâlinde taht odama daldılar.\n\n"
  court.6060.desc_drunkard_courtier:1 "\n\n[courtier_drunkard.GetTitledFirstName] odanın bir köşesinden aniden fırlayarak tartışmaya farklı bir bakış açısı katıyor: "Şarabın faydalı olacağı miktar #EMP ELİNDEKİ MİKTARIN TAMAMIDIR!#!""
  court.6060.desc_ending:0 "\n\nPeki ya ben şaraba nasıl yaklaşıyorum?"
  court.6060.a:0 "Şarap bütün kötülüklerin anasıdır."
@@ -177,8 +177,8 @@
  court.6080.c:0 "[6080_visitor.GetFirstNameNoTooltip] artık misafirlik sınırlarını aşmaya başladı..."
  court.6080.d:0 "Harcamaları onun yapması benim yapmamdan iyidir."
  court.6090.t:0 "Retorik"
-### TODO AGOT-ONLY: court.6090.desc [AGOT: ]
- court.6090.desc:0 ""#EMP BUT I AM BOOOOORED!#!" I immediately recognize the plaintive voice of [6090_child_a.Custom2('MyCharacterIntroduction', ROOT.Char)] even before the rascal is in my sight.\n\nThe scene that I find before my eyes then is quite pitiful:"
+
+ court.6090.desc:0 ""#EMP AMA ÇOK SIKILDIM!#!" [6090_child_a.Custom2('MyCharacterIntroduction', ROOT.Char)]'in yakınmacı sesini, yaramaz gözüme görünmeden hemen tanıyorum.\n\nSonra gözlerimin önünde bulduğum manzara oldukça acınası:"
  court.6090.desc.cp: "[6090_poet.Custom2('MyCharacterIntroduction', ROOT.Char)] ağlamanın eşiğine gelmiş gibi gözüküyordu."
  court.6090.desc.teacher: "Sarayımızı ziyaret eden, bölgede ünlü bir öğretmen olan [6090_poet.GetFirstName], bıkmış usanmış gibi gözüküyordu."
  court.6090.desc.middle: "[6090_child_a.GetFirstNameNoTooltip] ve [6090_child_b.GetFirstName] ise o genç yüzlerinde şimdiye kadar hiç görmediğim bir umursamazlıkla ona bakıyorlardı."

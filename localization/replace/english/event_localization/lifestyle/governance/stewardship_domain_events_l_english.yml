@@ -32,12 +32,12 @@
  stewardship_domain.1053.c:0 "[target_county.GetNameNoTierNoTooltip] bölgesindeki vergilendirmeyi üstlen."
  stewardship_domain.1053.d:0 "Çoğunu idam et ve yeni tahsildarlar bul."
  stewardship_domain.1073.t:0 "Kültür Çatışması"
-### TODO AGOT-CHANGED: stewardship_domain.1073.desc [AGOT: Most of the commoners living in [target_county.GetName] are of [new_culture.GetName] descent. Proud of their traditions, it does not sit well with them that they must serve a foreigner like myself when my neighbor [target_ruler.GetTitledFirstName] shares their culture and history. | TR: [target_county.GetNameNoTier] bölgesinde yaşayan halkın önemli bir kısmı [target_ruler.GetCulture.GetName]. Gelenekleriyle gurur duydukları için ve komşum [target_ruler.GetTitledFirstName] ile aynı kültürü ve tarihi paylaştıklarından dolayı benim gibi bir yabancıya hizmet etmek pek hoşlarına gitmiyor gibi gözüküyor.]
- stewardship_domain.1073.desc:0 "Most of the commoners living in [target_county.GetName] are of [new_culture.GetName] descent. Proud of their traditions, it does not sit well with them that they must serve a foreigner like myself when my neighbor [target_ruler.GetTitledFirstName] shares their culture and history."
-### TODO AGOT-CHANGED: stewardship_domain.1073.a [AGOT: Teach them the superiority of the [new_culture.GetNameNoTooltip] culture! | TR: Onlara [me.GetCulture.GetNameNoTooltip] kültürünün üstünlüğünü öğret!]
- stewardship_domain.1073.a:0 "Teach them the superiority of the [new_culture.GetNameNoTooltip] culture!"
-### TODO AGOT-CHANGED: stewardship_domain.1073.a.success [AGOT: The commoners adopt [new_culture.GetNameNoTooltip] customs | TR: Halk [me.GetCulture.GetNameNoTooltip] geleneklerini benimsiyor]
- stewardship_domain.1073.a.success:0 "The commoners adopt [new_culture.GetNameNoTooltip] customs"
+
+ stewardship_domain.1073.desc:0 "[target_county.GetNameNoTier] bölgesinde yaşayan halkın önemli bir kısmı [target_ruler.GetCulture.GetName]. Gelenekleriyle gurur duydukları için ve komşum [target_ruler.GetTitledFirstName] ile aynı kültürü ve tarihi paylaştıklarından dolayı benim gibi bir yabancıya hizmet etmek pek hoşlarına gitmiyor gibi gözüküyor."
+
+ stewardship_domain.1073.a:0 "Onlara [me.GetCulture.GetNameNoTooltip] kültürünün üstünlüğünü öğret!"
+
+ stewardship_domain.1073.a.success:0 "Halk [me.GetCulture.GetNameNoTooltip] geleneklerini benimsiyor"
  stewardship_domain.1073.a.failure:0 "Halk medeni olmayı reddediyor."
  stewardship_domain.1073.c:0 "Tuhaf gelenekleriyle ne yaptıkları hiç umurumda değil."
  stewardship_domain.1073.c.warning:0 "Kültür Değiştirme Hızı: #N -75%#!"
@@ -65,21 +65,21 @@
  stewardship_domain.6012.desc:0 "Taş ustalarının şefi, lonca adına herhangi bir anlaşmaya varma konusunda isteksiz gözüküyordu, ta ki benim ona ikimiz için de bunun ne kadar fayda sağlayacağını anlatana dek."
  stewardship_domain.6012.a:0 "Kendisini tehdit etmem bile gerekmedi!"
  stewardship_domain.6013.desc:0 "Bitmek bilmez bir toplantıdan sonra, taş ustalarının şefinin daha fazla taviz vermeye niyetinin olmadığı anlaşılıyor.\n\n"Fiyatı daha fazla indirmem mümkün değil.""
-### TODO AGOT-ONLY: stewardship_domain.6013.a [AGOT: ]
- stewardship_domain.6013.a:0 ""Then we have an agreement.""
+
+ stewardship_domain.6013.a:0 ""O halde anlaşmış olduk.""
  stewardship_domain.6013.b:0 "Şüphesiz başka bir yerden daha ucuz taş ustaları bulabilirim."
-### TODO AGOT-ONLY: stewardship_domain.6014.desc [AGOT: ]
- stewardship_domain.6014.desc:0 ""You insult me and my entire profession, [ROOT.Char.Custom('FormOfAddressForLiege')]!" The chief mason is not at all pleased with the offers I am willing to make. "In fact, prices are on the rise. Simply the cost of labor, of course. I am sure the [ROOT.Char.GetTitleTierName] understands.""
-### TODO AGOT-ONLY: stewardship_domain.6014.a [AGOT: ]
- stewardship_domain.6014.a:0 ""I understand perfectly.""
+
+ stewardship_domain.6014.desc:0 ""Beni ve tüm mesleğimi aşağılıyorsunuz, [ROOT.Char.Custom('FormOfAddressForLiege')]!" Baş duvarcı yapmaya istekli olduğum tekliflerden hiç de memnun değil. "Hatta, fiyatlar yükseliyor. Sadece işçilik maliyeti, elbette. Eminim [ROOT.Char.GetTitleTierName] anlıyordur.""
+
+ stewardship_domain.6014.a:0 ""Mükemmel anlıyorum.""
  stewardship_domain.6014.b:1 "Toprak benimse, oradaki loncalar da benim demektir!"
  stewardship_domain.6015.desc:1 "Taş ustalarının şefi [steward.GetCouncilTitle] [steward.GetTitledFirstName] ile bir hayli iyi anlaşıyor olmalı keza ona sunduğum taleplerden de iyisini kabul etmiş gibi gözüküyor."
  stewardship_domain.6015.a:0 "[steward.GetTitledFirstName] işini bilir."
  stewardship_domain.6016.desc:0 "[steward.GetTitledFirstName] taş ustası loncasından bir teklifle bana döndü.\n\n"Kayıtlarını inceledim lordum. Daha iyi bir anlaşmaya varabileceğimize inanmıyorum.""
  stewardship_domain.6016.a:0 "Elimizdekiyle yetineceğiz."
  stewardship_domain.6016.b:0 "Seni göndermekle hata etmişim, [steward.GetFirstNameNoTooltip]!"
-### TODO AGOT-ONLY: stewardship_domain.6017.desc [AGOT: ]
- stewardship_domain.6017.desc:0 ""Negotiations did not go... entirely as planned, my liege." My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))] sounds apologetic. "However, I do have an offer, even if the mason's guild refuses to speak to me further.""
+
+ stewardship_domain.6017.desc:0 ""Müzakereler... tam da planlandığı gibi gitmedi, hükümdarım." [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))]'im özür diler görünüyor. "Yine de bir teklifim var, duvarcı loncası benimle daha fazla konuşmayı reddetse bile.""
  stewardship_domain.6017.a:0 "Elinden geleni yaptın, teklif benim için uygundur."
  stewardship_domain.6017.b:0 "Onlarla konuşacağım, laftan anlamazlarsa onlara emredeceğim!"
  stewardship_domain_special.1001.t:0 "[development_county.GetNameNoTier|U] Bölgesinde Hasat"
@@ -100,8 +100,8 @@
  stewardship_domain_special.1002.b.failure:0 "[development_county.GetNameNoTier] bölgesindeki sorunları çözemiyorum"
  stewardship_domain_special.1002.c:0 "[development_county.GetNameNoTierNoTooltip] üzerinde olan hakkını kaybettin!"
  stewardship_domain_special.1002.c.tt:0 "[development_county.GetNameNoTier] kontluğunu [county_holder.GetTitledFirstName] hâkimiyetinden çıkaracağım"
-### TODO AGOT-ONLY: stewardship_domain_special.1003.desc [AGOT: ]
- stewardship_domain_special.1003.desc:1 ""Thank you for believing in me, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has managed to solve the crisis [county_holder.GetSheHe] found [county_holder.GetHerselfHimself] in. Sometimes the best course of action is to trust in the skills of others, and then learn from them!"
+
+ stewardship_domain_special.1003.desc:0 ""Bana inandığınız için teşekkürler, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] içinde bulduğu krizi çözmeyi başardı. Bazen en iyi yol, başkalarının becerilerine güvenmek ve sonra onlardan ders almaktır!""
  stewardship_domain_special.1003.a:0 "Bana bunu nasıl yaptığını anlat!"
  stewardship_domain_special.1004.desc:0 "[development_county.GetNameNoTier] bölgesinden gelen raporlar iyice kötüleşiyor ve gün geçtikçe asıl sorumlunun [county_holder.GetTitledFirstName] daha iyi anlaşılıyor."
  stewardship_domain_special.1004.a:0 "Böyle [county_holder.GetTitleTierName] düşman başına!"
@@ -126,12 +126,12 @@
  stewardship_domain_special.1103.desc_crops:0 "Köylüleri pazara çekmek için bol miktarda mahsul ve tohum piyasaya sürüldü, tezgâhlardaki birinci sınıf mallar onların geri gelmelerini sağladı. — kutlama ve ticaret dolu bir hafta geçirdiler!"
  stewardship_domain_special.1103.desc_technology:0 "İnsanları kendisine hayran bırakan teknolojik harikalar ve tüm tezgâhlardaki birinci sınıf ürünler... — kutlama ve ticaret dolu bir hafta geçirdiler!"
  stewardship_domain_special.1103.a:0 "Bundan sonra bunu yıllık olarak yapman için iznin var."
-### TODO AGOT-ONLY: stewardship_domain_special.1104.desc_silk [AGOT: ]
- stewardship_domain_special.1104.desc_silk:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], what are we supposed to do with all this silk?"\n\nApparently, the demand for silk was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of the expensive cloth unsold."
-### TODO AGOT-ONLY: stewardship_domain_special.1104.desc_crops [AGOT: ]
- stewardship_domain_special.1104.desc_crops:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], the crops are growing stale and moldy, what are we supposed to do with it all?"\n\nApparently, the demand for local crops was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of it unsold."
-### TODO AGOT-ONLY: stewardship_domain_special.1104.desc_technology [AGOT: ]
- stewardship_domain_special.1104.desc_technology:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], what are we supposed to do with these trinkets?"\n\nApparently, the demand for marvelous technology was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of it unsold."
+
+ stewardship_domain_special.1104.desc_silk:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], tüm bu ipekle ne yapacağız?"\n\nGörünüşe göre bölgede ipeğe talep yüksek değildi ve [second_local_baron.GetTitledFirstName] elinde çok miktarda satılmamış pahalı kumaşla kaldı.""
+
+ stewardship_domain_special.1104.desc_crops:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], ekinler bayatlayıp küfleniyor, hepsiyle ne yapacağız?"\n\nGörünüşe göre bölgede yerel ekinlere talep yüksek değildi ve [second_local_baron.GetTitledFirstName] elinde çok miktarda satılmamış mal ile kaldı.""
+
+ stewardship_domain_special.1104.desc_technology:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], bu ıvır zıvırlarla ne yapacağız?"\n\nGörünüşe göre bölgede harika teknolojilere talep yüksek değildi ve [second_local_baron.GetTitledFirstName] elinde çok miktarda satılmamış mal ile kaldı.""
  stewardship_domain_special.1104.a:0 "Çalkantılı bir başlangıç ama eminim ki yerel halk bunu halledebilir!"
  stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] bana dünyanın dört bir köşesinden ürünler sunuyor; kutsal şehirlerden dinî eşyalar, [local_baron.GetFaith.DevoteeFemalePlural] tarafından yetiştirilmiş yiyecekler, yabancı inançlardan harika şeyler...\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|l], önümüzdeki panayır için hangi ürünleri tanıtmalıyız?""
  stewardship_domain_special.1105.a:0 "Dinî nesnelere odaklanarak yerel azizleri onurlandıracağız!"
@@ -144,12 +144,12 @@
  stewardship_domain_special.1106.desc_religious_food:0 "[local_baron.GetFaith.DevoteeMalePlural] tarafından sağlanan yiyecekler ve [local_baron.GetFaith.DevoteeFemalePlural] fuarda neredeyse her şeyden daha iyi sattırdı. — dinî bir kutlama ve ticaret dolu bir hafta oldu!"
  stewardship_domain_special.1106.desc_religious_other:0 "[county.GetNameNoTier] halkı, yabancı dinlerle karşılaştı ve kendi toplumlarına her zamankinden daha fazla dua etme fırsatı buldular — dinî bir kutlama ve ticaret dolu bir hafta oldu!"
  stewardship_domain_special.1106.a:0 "Bundan sonra bunu yıllık olarak yapman için iznin var."
-### TODO AGOT-ONLY: stewardship_domain_special.1107.desc_religious_objects [AGOT: ]
- stewardship_domain_special.1107.desc_religious_objects:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], what are we supposed to do with these holy trinkets?"\n\nApparently, the holy objects did not attract the pious to the degree I hoped, and [local_baron.GetTitledFirstName] is left with a lot unsold."
-### TODO AGOT-ONLY: stewardship_domain_special.1107.desc_religious_food [AGOT: ]
- stewardship_domain_special.1107.desc_religious_food:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], what are we supposed to do with all this food?"\n\nApparently, the meals prepared by the [local_baron.GetFaith.DevoteeMalePlural] and [local_baron.GetFaith.DevoteeFemalePlural] of the area would have benefited from some divine intervention — almost nothing got sold."
-### TODO AGOT-ONLY: stewardship_domain_special.1107.desc_religious_other [AGOT: ]
- stewardship_domain_special.1107.desc_religious_other:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], what are we supposed to do with these blasphemous trinkets?"\n\nThe foreign items only repulsed the people — discouraging them from visiting the market. [local_baron.GetTitledFirstName] is soon instructed to burn them, but the damage is already done."
+
+ stewardship_domain_special.1107.desc_religious_objects:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], bu kutsal ıvır zıvırlarla ne yapacağız?"\n\nGörünüşe göre kutsal nesneler, umduğum ölçüde dindarları cezbetmedi ve [local_baron.GetTitledFirstName] elinde çok miktarda satılmamış mal ile kaldı.""
+
+ stewardship_domain_special.1107.desc_religious_food:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], tüm bu yiyecekle ne yapacağız?"\n\nGörünüşe göre bölgedeki [local_baron.GetFaith.DevoteeMalePlural] ve [local_baron.GetFaith.DevoteeFemalePlural] tarafından hazırlanan yemekler ilahi bir müdahaleden fayda görebilirdi — neredeyse hiçbir şey satılmadı.""
+
+ stewardship_domain_special.1107.desc_religious_other:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], bu küfürlü ıvır zıvırlarla ne yapacağız?"\n\nYabancı eşyalar insanları sadece tiksindirdi — pazara uğramaktan vazgeçirdi. [local_baron.GetTitledFirstName] kısa süre sonra onları yakması talimatını aldı, ama zarar çoktan verilmişti.""
  stewardship_domain_special.1107.a:0 "Çalkantılı bir başlangıç ama eminim ki yerel halk bunu halledebilir!"
  stewardship_domain_special.1301.increase_road_progress_1:0 "#V Yolun İlerlemesi#! #P 1#! artacak"
  stewardship_domain_special.1301.increase_road_progress_2:0 "#V Yolun İlerlemesi#! #P 2#! artacak"
@@ -210,8 +210,8 @@
  stewardship_domain_special.1320.a:0 "Senin kararına güveniyorum."
  stewardship_domain_special.1320.b:0 "Çok uzak ve çok pahalı. Planladığım gibi yapacağız."
  stewardship_domain_special.1321.t:0 "Yol: Uzmanlık Eksikliği"
-### TODO AGOT-ONLY: stewardship_domain_special.1321.desc [AGOT: ]
- stewardship_domain_special.1321.desc:0 ""I keep telling them to go straight through the field, but [peasant_leader.GetTitledFirstName] insists on rerouting them through the nearby woods!" [steward.GetTitledFirstName] is visibly upset with the road work in [project_county.GetNameNoTier].\n\nHowever, [peasant_leader.GetTitledFirstName] keeps insisting on [peasant_leader.GetHerHis] approach. "The soil in the field is uneven and not dense enough, my liege! The forest is a much better path.""
+
+ stewardship_domain_special.1321.desc:0 ""Onlara tarlanın ortasından düz geçmelerini söyleyip duruyorum, ama [peasant_leader.GetTitledFirstName] onları yakındaki ormana yönlendirmekte ısrar ediyor!" [steward.GetTitledFirstName] [project_county.GetNameNoTier]'deki yol çalışmasından belli ki rahatsız.\n\nYine de, [peasant_leader.GetTitledFirstName] [peasant_leader.GetHerHis] yönteminde ısrar ediyor. "Tarladaki toprak engebeli ve yeterince yoğun değil, hükümdarım! Orman çok daha iyi bir yol.""
  stewardship_domain_special.1321.a:0 "Haddini bil, köylü!"
  stewardship_domain_special.1321.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip] en iyisini biliyor gibi görünüyor..."
  stewardship_domain_special.1391.t:0 "Yol: Eksik Liderlik"
@@ -284,8 +284,8 @@
  stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip], seninle bir görüşmemiz gerek..."
  stewardship_domain_special.1431.a.tt:0 "[collector.GetFirstName] ile yüzleşeceğim"
  stewardship_domain_special.1431.b:0 "Köylüleri toplayın. Tekrar vergi ödeyecekler."
-### TODO AGOT-ONLY: stewardship_domain_special.1432.desc [AGOT: ]
- stewardship_domain_special.1432.desc:0 ""Those funds were vital to, uh, the defense of [county.GetNameNoTier]!" [collector.GetTitledFirstName], the tax collector in [barony.GetNameNoTier], is terrified, not least because of the hulking soldiers I have brought to [collector.GetHerHis] manor.\n\n"Oh please, I will do anything to earn your forgiveness!""
+
+ stewardship_domain_special.1432.desc:0 ""O fonlar, ee, [county.GetNameNoTier]'in savunması için hayati önem taşıyordu!" [barony.GetNameNoTier]'deki vergi tahsildarı [collector.GetTitledFirstName] dehşet içinde, özellikle de [collector.GetHerHis] malikânesine getirdiğim iri yarı askerler yüzünden.\n\n"Ah lütfen, affınızı kazanmak için her şeyi yaparım!""
  stewardship_domain_special.1432.a:0 "Bir daha gün ışığı görmeyeceksin."
  stewardship_domain_special.1432.b:0 "Bana hayatını borçlu olan birisini kullanabilirim."
  stewardship_domain_special.1432.b.collector_loyal:0 "Şükran ve Sadakat"
@@ -467,8 +467,8 @@
  stewardship_domain_special.8022.c:0 "Ah... İşçi değişiklikeri gerekebilir."
  stewardship_domain_special.8022.c.tt:0 "#F Onlara ne için ihtiyaç olduğunu söyleme.#!"
  stewardship_domain_special.8023.t:1 "$stewardship_domain_special.8001.t$: Yavaş İlerleme"
-### TODO AGOT-ONLY: stewardship_domain_special.8023.desc [AGOT: ]
- stewardship_domain_special.8023.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], the irrigation project in [county.GetNameNoTier] is running behind schedule," [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] reports. "Far behind. Having inspected the work, I worry whether it will be complete in my lifetime."\n\nI cannot tell whether [steward.GetSheHe] is serious or not."
+
+ stewardship_domain_special.8023.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], [county.GetNameNoTier]'deki sulama projesi programın gerisinde," diye rapor verir [steward.Custom2('MyCharacterIntroduction', ROOT.Char)]. "Çok gerisinde. İşi denetledikten sonra, ben hayattayken bitip bitmeyeceğinden endişeleniyorum."\n\n[steward.GetSheHe] ciddi mi, değil mi anlayamıyorum.""
  stewardship_domain_special.8023.a:0 "Şefleri değiştirin ve onlara yeni kırbaçlar verin."
  stewardship_domain_special.8023.b:0 "Ne kadar işçi lazımsa işe alın!"
  stewardship_domain_special.8023.c:0 "Belki de beklentileri düşürmemiz gerekiyordur..."

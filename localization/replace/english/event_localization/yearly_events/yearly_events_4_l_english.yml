@@ -27,13 +27,13 @@
  yearly.4021.c_failure:0 "[child.GetTitledFirstNameNoTooltip] dediklerinizi ciddiye almadı"
  yearly.4021.d:0 "Onu affetmelisin! Ne olur... Her şeyi yaparım..."
  yearly.4022.t:0 "Geri Dönüş"
-### TODO AGOT-ONLY: yearly.4022.desc [AGOT: ]
- yearly.4022.desc:0 ""Hello [child.Custom2('RelationToMeShort', ROOT.Char)]." [ROOT.Char.Custom2('MyCharacterIntroduction', SCOPE.sC('child'))] looks a bit gaunt after [child.GetHerHis] time in [actor.GetTitledFirstNamePossessive] prison, but the [child.Custom('quirk_neg_adjective')] smile that splits [child.GetHerHis] face makes [child.GetHerHim] seem more alive than ever.\n\n"I cannot wait to thank you for the lesson you taught me about paying my dues.""
+
+ yearly.4022.desc:0 ""Merhaba [child.Custom2('RelationToMeShort', ROOT.Char)]." [ROOT.Char.Custom2('MyCharacterIntroduction', SCOPE.sC('child'))] [actor.GetTitledFirstNamePossessive] zindanında geçirdiği zamandan sonra biraz bitkin görünüyor, ama [child.Custom('quirk_neg_adjective')] yüzünü bölen gülümseme [child.GetHerHim]i her zamankinden daha canlı gösteriyor.\n\n"Bana borçlarımı ödeme dersini verdiğin için sana teşekkür etmek için sabırsızlanıyorum.""
  yearly.4022.a:0 "Evine hoş geldin, [child.GetFirstNameNoTooltip]."
  yearly.4031.t:0 "Aramızdaki Katil"
  yearly.4031.desc_opening:0 "Etrafa yayılan ağır bir kan kokusu daha kapı açılmadan burnuma geliyor. Şüphe yok, bu koku taze bir ceset kokusu.\n\n"
-### TODO AGOT-ONLY: yearly.4031.desc_physician [AGOT: ]
- yearly.4031.desc_physician:0 ""Another murder, [ROOT.Char.Custom('FormOfAddressForLiege')]." [physician.GetTitledFirstName] wipes [physician.GetHerHis] bloody hands on an apron as [physician.GetSheHe] stands up after looking over the body. "We must stop this senseless killer!""
+
+ yearly.4031.desc_physician:0 ""Bir cinayet daha, [ROOT.Char.Custom('FormOfAddressForLiege')]." [physician.GetTitledFirstName] cesedi inceledikten sonra ayağa kalkarken [physician.GetHerHis] kanlı ellerini bir önlüğe siliyor. "Bu akılsız katili durdurmalıyız!""
  yearly.4031.desc:0 "Bir ceset daha bulundu... Neyse ki hepsi fazla öneme sahip olmayan insanlardı, yine de ahalide gergin bir hava hakim."
  yearly.4031.a:0 "Gerekirse tüm kalenin altını üstüne getirin!"
  yearly.4031.tt:0 "Soruşturma başlatıldı"
@@ -41,12 +41,12 @@
  yearly.4031.b_every_courtier:0 "Her saray mensubu"
  yearly.4031.c:0 "Hekim olarak cesetleri incelemelisin."
  yearly.4061.t:0 "Budala Hoca"
-### TODO AGOT-ONLY: yearly.4061.desc_opening [AGOT: ]
- yearly.4061.desc_opening:0 ""My name is [hodja.GetTitledFirstName], [ROOT.Char.Custom('FormOfAddressForLiege')]. I have come before you to offer my wisdom."\n\n"
+
+ yearly.4061.desc_opening:0 ""Adım [hodja.GetTitledFirstName], [ROOT.Char.Custom('FormOfAddressForLiege')]. Bilgeliğimi sunmak için huzurunuza geldim."\n\n"
  yearly.4061.desc_guard:0 "Adamı karşıma getiren kişi olan [guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], bir hayli kuşkulu görünüyor."
  yearly.4061.desc:0 "Benim karşıma adamı getiren muhafız bir hayli kuşkulu görünüyor."
-### TODO AGOT-ONLY: yearly.4061.desc_ending [AGOT: ]
- yearly.4061.desc_ending:0 ""He approached the [ROOT.Char.Custom('ResidenceBuilding')] riding a donkey, [ROOT.Char.Custom('FormOfAddressForLiege')]. Backwards.""
+
+ yearly.4061.desc_ending:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')], [ROOT.Char.Custom('ResidenceBuilding')]'e bir eşeğe binerek yaklaştı. Ters olarak.""
  yearly.4061.a:0 "Lütfen benimle bilgeliğinizi paylaşın."
  yearly.4061.a_success:0 "Bazı şeyleri kavradınız."
  yearly.4061.a_failure:0 "Hikâyeleri sadece aklınızı karıştırıyor."
@@ -63,10 +63,10 @@
  yearly.4071.a:0 "[ROOT.Char.GetFaith.ReligiousText|U] adına, tümünü çalışacağım!"
  yearly.4071.b:0 "Kitapları [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'takipçilere', 'saray ahalisine')] dağıtalım."
  yearly.4081.t:0 "Çeviri"
-### TODO AGOT-ONLY: yearly.4081.desc [AGOT: ]
- yearly.4081.desc:0 ""Local scholars require sponsorships in their efforts to translate books from Valyrian into Common, [ROOT.Char.Custom('FormOfAddressForLiege')] – efforts that benefit the whole of the Seven Kingdoms!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has brought me a list of scholars that I could sponsor, and the books they are currently working on."
-### TODO AGOT-CHANGED: yearly.4081.a [AGOT: #EMP The materia Medica#!... Sounds interesting! | TR: #EMP De Materia Medica#!... Kulağa ilgi çekici geliyor!]
- yearly.4081.a:0 "#EMP The materia Medica#!... Sounds interesting!"
+
+ yearly.4081.desc:0 ""Yerel bilginler, kitapları Valyria'dan Ortak Dil'e çevirme çabalarında sponsorluk talep ediyor, [ROOT.Char.Custom('FormOfAddressForLiege')] – Yedi Krallık'ın tamamına fayda sağlayan çabalar!"\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bana sponsor olabileceğim bilginlerin ve üzerinde çalıştıkları kitapların bir listesini getirdi.""
+
+ yearly.4081.a:0 "#EMP De Materia Medica#!... Kulağa ilgi çekici geliyor!"
  yearly.4081.a.tt:0 "Sağlık alanındaki bir kitabın çevirisine maddi destekte bulunacaksınız"
  yearly.4081.b:0 "Ah, işte bu! #EMP Gökcisimlerinin Yükselişi Üzerine#!."
  yearly.4081.b.tt:0 "Astronomi alanındaki bir kitabın çevirisine maddi destekte bulunacaksınız"
@@ -77,19 +77,19 @@
  yearly.4081.toast:0 "Kitap Çevrildi"
  yearly.4081.e:0 "#EMP Ruh Üzerine#!? mi? İlginç..."
  yearly.4081.e.tt:0 "Motivasyonlar üzerine bir kitabın çevirisine destek olacaksınız"
-### TODO AGOT-CHANGED: yearly.4081.f [AGOT: What's this... #EMP Fire Upon the Grass#!? | TR: #EMP Tukidides#! mi? O da kim?]
- yearly.4081.f:0 "What's this... #EMP Fire Upon the Grass#!?"
+
+ yearly.4081.f:0 "#EMP Tukidides#! mi? O da kim?"
  yearly.4081.f.tt:0 "Askerî tarih üzerine bir kitabın çevirisine destek olacaksınız"
-### TODO AGOT-CHANGED: yearly.4081.g [AGOT: #EMP The Life of the Triarch Belicho#! intrigues me. | TR: Şu #EMP Plutarhos#! ilgimi çekiyor.]
- yearly.4081.g:0 "#EMP The Life of the Triarch Belicho#! intrigues me."
+
+ yearly.4081.g:0 "Şu #EMP Plutarhos#! ilgimi çekiyor."
  yearly.4081.g.tt:0 "Bir biyografi kitabının çevirisine destek olacaksınız"
  yearly.4081.tt:0 "Kitabı edineceksiniz"
-### TODO AGOT-CHANGED: yearly.4091.t [AGOT: The Scholars of [capital.GetNameNoTooltip] | TR: Bağdat'ın Âlimleri]
- yearly.4091.t:0 "The Scholars of [capital.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: yearly.4091.desc_opening [AGOT: [ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are out walking in [capital.GetNameNoTooltip] when we come across | TR: [ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ile birlikte Bağdat sokaklarında yürürken kendimizi bir anda]
- yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] and I are out walking in [capital.GetNameNoTooltip] when we come across"
-### TODO AGOT-CHANGED: yearly.4091.desc_house [AGOT: novices from the Citadel. | TR: Beyt-ül Hikmet binasının önünde bulduk.]
- yearly.4091.desc_house:0 "novices from the Citadel."
+
+ yearly.4091.t:0 "Bağdat'ın Âlimleri"
+
+ yearly.4091.desc_opening:0 "[ward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ile birlikte Bağdat sokaklarında yürürken kendimizi bir anda"
+
+ yearly.4091.desc_house:0 "Beyt-ül Hikmet binasının önünde bulduk."
  yearly.4091.desc_no_house:0 "bazı yerel âlimlerin önünde bulduk."
  yearly.4091.desc:0 "\n\n"Selamlar, [ROOT.Char.GetTitledFirstNameNoTooltip]. Selamlar, genç [Select_CString(ward.IsFemale, 'leydi', 'lord' )]. Devam etmekte olan müzakeremizde boş bir yer var, bize katılmak ister misiniz?""
  yearly.4091.a:0 "Katıl bakalım, [ward.GetFirstNameNoTooltip]."

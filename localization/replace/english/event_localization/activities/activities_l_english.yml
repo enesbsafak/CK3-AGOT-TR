@@ -2,8 +2,8 @@
  ACTIVITY_WAITING_TOOLTIP:0 "[CHARACTER.GetName] tarafından organize edildi.\nTüm davetiyelerin cevaplanması bekleniyor.\n$DESC|F$\n\n#I Detayları görmek için tıklayın#! "
  ACTIVITY_TIME_LEFT:0 "$TIME|V$ gün içinde başlayacak"
  ACTIVITY_OWNED_BY:0 "Sahibi: $NAME$"
-### TODO AGOT-CHANGED: ACTIVITY_FULL_NAME [AGOT: [SelectLocalization(Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').IsSet, Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstNamePossessive, Character.GetShortUINamePossessiveNoTooltip)] [ActivityType.GetNameNoTooltip|U] | TR: [Character.GetShortUINameNotMeNoTooltip] tarafından düzenlenen [ActivityType.GetNameNoTooltip]]
- ACTIVITY_FULL_NAME:0 "[SelectLocalization(Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').IsSet, Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstNamePossessive, Character.GetShortUINamePossessiveNoTooltip)] [ActivityType.GetNameNoTooltip|U]"
+
+ ACTIVITY_FULL_NAME:0 "[Character.GetShortUINameNotMeNoTooltip] tarafından düzenlenen [ActivityType.GetNameNoTooltip]"
  ACTIVITY_SHORT_NAME:0 "[ActivityType.GetNameNoTooltip]"
  ACTIVITY_TYPE_DESC:0 "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
  ACTIVITY_OPTION_TOOLTIP:2 "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
@@ -224,8 +224,8 @@
  activity_pilgrimage.is_location_valid.capital_is_mecca:0 "Başkentiniz Mekke olduğu için Hac yapamıyorsunuz"
  activity_pilgrimage.is_valid.islam.mandatory_or_impatient:0 "Bunlardan en az biri:\n$EFFECT_LIST_BULLET$ [Concept( 'faith', 'Mezhebiniz' )|E] [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] [Concept( 'doctrine', 'İlkesine' )|E] sahip\n$EFFECT_LIST_BULLET$ [GetTrait('impatient').GetName(GetNullCharacter)]sınız"
  activity_pilgrimage.is_valid.other.mandatory_or_impatient:0 "Bunlardan en az biri:\n$EFFECT_LIST_BULLET$ [Concept( 'faith', 'Mezhebiniz' )|E] [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName] [Concept( 'doctrine', 'İlkesine' )|E] sahip\n$EFFECT_LIST_BULLET$ [GetTrait('impatient').GetName(GetNullCharacter)]sınız"
-### TODO AGOT-CHANGED: activity_pilgrimage.is_valid.pilgrim_or_patient [AGOT: At least one of these:\n$EFFECT_LIST_BULLET$ You are [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ You have the [GetTrait('pilgrim').GetName(GetNullCharacter)] | TR: Bunlardan en az biri:\n$EFFECT_LIST_BULLET$ [GetTrait('patient').GetName(GetNullCharacter)]sınız\n$EFFECT_LIST_BULLET$ [GetTrait('pilgrim').GetName(GetNullCharacter)] [Concept( 'trait', 'Özelliğine' )|E] sahipsiniz\n$EFFECT_LIST_BULLET$ [GetTrait('hajjaj').GetName(GetNullCharacter)] [Concept( 'trait', 'Özelliğine' )|E] sahipsiniz]
- activity_pilgrimage.is_valid.pilgrim_or_patient:0 "At least one of these:\n$EFFECT_LIST_BULLET$ You are [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ You have the [GetTrait('pilgrim').GetName(GetNullCharacter)]"
+
+ activity_pilgrimage.is_valid.pilgrim_or_patient:0 "Bunlardan en az biri:\n$EFFECT_LIST_BULLET$ [GetTrait('patient').GetName(GetNullCharacter)]sınız\n$EFFECT_LIST_BULLET$ [GetTrait('pilgrim').GetName(GetNullCharacter)] [Concept( 'trait', 'Özelliğine' )|E] sahipsiniz\n$EFFECT_LIST_BULLET$ [GetTrait('hajjaj').GetName(GetNullCharacter)] [Concept( 'trait', 'Özelliğine' )|E] sahipsiniz"
  activity_pilgrimage.is_valid.hajjed_recently:0 "Hacca her [EmptyScope.ScriptValue('hajj_cooldown_value')|0] yılda bir gidebilirsiniz"
  ACTIVITY_TYPE_ON_COOLDOWN:0 "@warning_icon! #X Bu etkinlik [DATE.GetTimeToDate()] boyunca düzenlenemez#!"
  is_activity_type_on_cooldown: "Bu etkinlik [DATE.GetTimeToDate()] boyunca düzenlenemez"

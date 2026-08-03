@@ -42,8 +42,8 @@
  CANNOT_CREATE_FAITH_IN_OBSERVE_MODE:0 "@warning_icon! #X Bir karakter olarak oynamak gerekiyor#!"
  FAITH_CREATION_BUTTON_TOOLTIP:1 "#T Mezhep Kur#!\n[Select_CString( FaithCreationWindow.CanCreateFaith, '#I Mezhep Kurmak için tıklayın#!', FaithCreationWindow.GetCreationBlockers )]"
  FAITH_REFORM_BUTTON_TOOLTIP:0 "#T Mezhebi Reform Et#!\n[FaithCreationWindow.GetCreationBlockers]\n\n#I Mezhebi Reform Etmek için tıklayın#!"
-### TODO AGOT-CHANGED: FAITH_CONVERSION_BUTTON_TOOLTIP [AGOT: #T Convert Faith#!\n[FaithConversionWindow.GetConversionBlockers]#I Click to Convert Faith#![AddLocalizationIf(And(Not(GetScriptedGui('faith_has_polytheism').IsShown(GuiScope.SetRoot(FaithConversionWindow.GetFaith.MakeScope).End)), GetPlayer.GetGovernment.HasGovernmentFlag('government_is_mandala')), 'mandala_monotheist_warning')] | TR: #T Mezhebi Değiştir#!\n[FaithConversionWindow.GetConversionBlockers]#I Mezhebi Değiştirmek için tıklayın#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]]
- FAITH_CONVERSION_BUTTON_TOOLTIP:0 "#T Convert Faith#!\n[FaithConversionWindow.GetConversionBlockers]#I Click to Convert Faith#![AddLocalizationIf(And(Not(GetScriptedGui('faith_has_polytheism').IsShown(GuiScope.SetRoot(FaithConversionWindow.GetFaith.MakeScope).End)), GetPlayer.GetGovernment.HasGovernmentFlag('government_is_mandala')), 'mandala_monotheist_warning')]"
+
+ FAITH_CONVERSION_BUTTON_TOOLTIP:0 "#T Mezhebi Değiştir#!\n[FaithConversionWindow.GetConversionBlockers]#I Mezhebi Değiştirmek için tıklayın#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]"
  FAITH_CONVERSION_SAME_FAITH:0 "Zaten [FAITH.GetName] mensubuyum"
  CREATE_REFORM_FAITH_TEXT:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE', 'CREATE_FAITH_WINDOW_TITLE' )]"
  CREATE_REFORM_FAITH_TOOLTIP:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"
@@ -139,8 +139,8 @@
  RELIGION_SHOW_ALL_FAITHS_TT:0 "Tüm [Concept( 'faiths', 'Mezhepleri' )|E] Göster"
  RELIGION_SHOW_RELIGION_FAITH_TT:0 "Sadece [RELIGION.GetAdjectiveNoTooltip] [Concept( 'faiths', 'Mezhepleri' )|E] Göster"
  FAITH_WINDOW_COUNTIES:0 "[Faith.GetNumberOfCountiesOfFaith] [county|E] bu mezhebe inanıyor"
-### TODO AGOT-CHANGED: FAITH_RELIGION [AGOT: Faith of [Faith.GetReligion.GetAdjectiveNoTooltip] | TR: [Faith.GetReligion.GetAdjectiveNoTooltip] Mezhebi]
- FAITH_RELIGION:0 "Faith of [Faith.GetReligion.GetAdjectiveNoTooltip]"
+
+ FAITH_RELIGION:0 "[Faith.GetReligion.GetAdjectiveNoTooltip] Mezhebi"
  ORDER_FAITH_BY_COUNTIES:0 "Kontluk Sayısı"
  ORDER_FAITH_BY_FERVOR:0 "Şevk"
  ORDER_FAITH_BY_RELIGION:0 "Din"

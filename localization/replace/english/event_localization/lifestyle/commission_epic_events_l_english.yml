@@ -35,8 +35,8 @@
  writer_writes_epic:0 "[writer.GetTitledFirstName] kitabı yazmaya başlayacak"
  commission_epic.0001.b:0 "En yetenekli [ROOT.Char.Custom('CommissionEpicScribes')]ıma yaptıracağım."
  scribes_write_epic:0 "Kitabı yazmanlarım yazacak"
-### TODO AGOT-CHANGED: bards_write_epic [AGOT: My bards compose the epic | TR: Kitabı ozanlarım yazacak]
- bards_write_epic:0 "My bards compose the epic"
+
+ bards_write_epic:0 "Kitabı ozanlarım yazacak"
  commission_epic.0001.c:0 "Basit bir [servant.Custom('GenderedLowlyServantType')] bile yazabilir."
  servant_writes_epic:0 "Hizmetkâr [servant.GetTitledFirstName] kitabı yazacak"
  commission_epic.0001.d:0 "Tekrar düşündüm de..."
@@ -142,8 +142,8 @@
  commission_epic.2005.b:0 "Hayır, olabildiğince doğru ve gerçek olmalı."
  commission_epic.2005.b.tt:0 "Tamamlandığında [artifact|E] olarak [personal_scheme|E] [Concept( 'success_chance', 'Başarı İhtimalini' )|E] yükselten bir Aile Kitabı kitabı elde edeceksiniz"
  commission_epic.2006.t:0 "Aile Kitabı: İnançla Bağlı"
-### TODO AGOT-CHANGED: commission_epic.2006.desc [AGOT: I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetFirstNameNicknamed], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n | TR: [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('court_chaplain'))|U] [court_chaplain.GetTitledFirstName] aile kitabımın tamamlanmış kısımlarından birazını okuyunca çok heyecanlanıyor. İyi mi kötü mü bilmiyorum.\n\n]
- commission_epic.2006.desc:0 "I do not know whether to be relieved or disconcerted about the enthusiasm my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetFirstNameNicknamed], shows after [ROOT.Char.Custom('CompositionTypeActionPP')] the completed parts of my family epic.\n\n"This is a telling of a wonderful moral!" [court_chaplain.GetSheHe] claims. "The [ROOT.Char.GetDynasty.GetBaseName] dynasty has always seen greatness when advised by [ROOT.Char.GetFaith.AltPriestTermPlural], and dark times when it has failed to heed that advice! I hope it is a lesson you will heed equally well.""
+
+ commission_epic.2006.desc:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('court_chaplain'))|U] [court_chaplain.GetTitledFirstName] aile kitabımın tamamlanmış kısımlarından birazını okuyunca çok heyecanlanıyor. İyi mi kötü mü bilmiyorum.\n\n"
  commission_epic.2006.a:0 "Evet, çok iyi biliyorum."
  commission_epic.2006.a.tt:0 "Tamamlandığında [artifact|E] olarak [piety|E] ve sizinle aynı [Concept( 'faith', 'Mezhebe' )|E] mensup vasalların sağladığı vergiyi arttıran bir Aile Kitabı kitabı elde edeceksiniz"
  commission_epic.2006.b:0 "Tam tersi olmasın?"
@@ -173,16 +173,16 @@
  commission_epic.6004.b:0 "[neighboring_county_1.GetNameNoTierNoTooltip] kesinlikle benim soyuma ait olmalı."
  commission_epic.6004.c:0 "[neighboring_county_2.GetNameNoTierNoTooltip] zaten hep bana aitmiş gibi hissediyordum!"
  commission_epic.6005.t:0 "Bitmemiş Efsane"
-### TODO AGOT-ONLY: commission_epic.6005.writerservant [AGOT: ]
- commission_epic.6005.writerservant:0 ""I have long suspected that something is amiss with my chronicle, and indeed, [composer.GetName] now seeks me out with a worried demeanor.\n\n"Alas, [ROOT.Char.Custom('FormOfAddressForLiege')]", [composer.GetSheHe] says, "try as I might, I could not find any history of claims good enough to substantiate. I cannot continue this work. Yet, I have produced a chronicle that extol the virtues of your dynasty. Please be content with this, and do not punish me for my failure...""
+
+ commission_epic.6005.writerservant:0 ""Kroniklerimde bir yanlışlık olduğundan uzun zamandır şüpheleniyordum ve gerçekten de, [composer.GetName] şimdi endişeli bir tavırla beni arıyor.\n\n"Ne yazık ki, [ROOT.Char.Custom('FormOfAddressForLiege')]," der [composer.GetSheHe], "elimden geleni yaptım ama doğrulayacak yeterli iddia tarihi bulamadım. Bu işe devam edemem. Yine de, hanedanınızın erdemlerini öven bir kronik ürettim. Lütfen bununla yetinin ve başarısızlığım için beni cezalandırmayın...""
  commission_epic.6005.scribes:0 "Katiplerim hane kroniğimi yazıyor gibi değil de boğuşuyor gibi görünüyordu ve şimdi gerçekten de endişeli bir tavırla beni arıyorlar.\n\n"Ne yazık ki Hak iddialarınızı doğrulayacak kadar iyi bir belge bulamadık. denedik ama yapabileceğimiz bir şey yoktu. Yine de hanedanınızın faziletlerini öven bir vakayiname hazırladık. Lütfen başarısızlığımızdan dolayı bizi cezalandırmayın..." dediler"
  commission_epic.6005.a:0 "Zindana atın!"
  commission_epic.6005.b:0 "Sizi beceriksiz aptallar..."
  commission_epic.6005.c:0 "[ROOT.GetCharacter.GetFaith.HighGodName] beni kibrim için cezalandırıyor mu?"
  commission_epic.6005.d:0 "En azından bir vakayiname hazırladınız..."
  commission_epic.6006.t:0 "Güçlü Propaganda"
-### TODO AGOT-ONLY: commission_epic.6006.writerservant [AGOT: ]
- commission_epic.6006.writerservant:0 ""It is finished my [ROOT.Char.GetLadyLord]", [composer.GetName] says with some relief, handing me a large tome.\n\n"This is the chronicle of house [ROOT.Char.GetDynastyHouseNameNoTooltip], describing in great detail its history of ruling the various lands that you desired. Surely none can now contest your righteous claims!""
+
+ commission_epic.6006.writerservant:0 ""Bitti [ROOT.Char.GetLadyLord]'im," der [composer.GetName] biraz rahatlamış bir halde, bana kocaman bir cilt uzatarak.\n\n"Bu, [ROOT.Char.GetDynastyHouseNameNoTooltip] hanesinin kronikleridir; arzuladığınız çeşitli toprakları yönetme geçmişini büyük bir ayrıntıyla anlatır. Elbette artık kimse haklı iddialarınıza itiraz edemez!""
  commission_epic.6006.scribes:0 "Sonunda katiplerim propaganda vakayinamelerini tamamladılar. Bana son derece büyük bir kitap verdiklerinde oldukça rahatlamış görünüyorlardı.\n\n"İşte [Select_CString(ROOT.Char.IsFemale,'leydim','lordum')], [ROOT.Char. GetDynastyHouseNameNoTooltip] hanesinin büyük kroniği. Tüm hak iddialarınızın temelleri ayrıntılı olarak anlatılıyor. Dilerim bu kitap size büyük bir servet getirir.""
  commission_epic.6006.a:0 "Mükemmel!"
  propaganda_chronicle_name:0 "[ROOT.Char.GetDynastyHouseNameNoTooltip] Propaganda Vakayinameleri"

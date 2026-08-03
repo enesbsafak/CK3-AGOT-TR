@@ -32,38 +32,38 @@
  bp2_yearly.7001.c: "Korkularını gidereceğim."
  bp2_yearly.7001.tt: "Yalancı olduğunuz biliniyor"
  bp2_yearly.7002.t: "Süt Kardeşi Eş"
-### TODO AGOT-CHANGED: bp2_yearly.7002.desc [AGOT: [court_chaplain.GetFirstNameNicknamed] barges into my chambers, a look of concern on [court_chaplain.GetHerHis] face.\n\n | TR: [court_chaplain.GetFirstName] yüzünde endişeli bir ifadeyle [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'çadırıma', 'odama')] dalıverdi.\n\n]
- bp2_yearly.7002.desc: "[court_chaplain.GetFirstNameNicknamed] barges into my chambers, a look of concern on [court_chaplain.GetHerHis] face.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], excuse the intrusion, but I have something urgent! I've learned that you and [spouse.GetFirstName] had the same wet nurse as children. This makes your marriage highly inappropriate; you're suckling siblings — in [ROOT.Char.GetFaith.HighGodNamePossessive] eyes, you are the closest of family!"\n\nA shocking revelation! [court_chaplain.GetFirstNameNicknamedNoTooltip] continues before I can retort. \n\n"I advise you to divorce immediately. Otherwise, I'll be forced to pronounce your marriage as incestuous.""
+
+ bp2_yearly.7002.desc:0 "[court_chaplain.GetFirstName] yüzünde endişeli bir ifadeyle [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'çadırıma', 'odama')] dalıverdi.\n\n"
  bp2_yearly.7002.a: "Ensest mi dedin? Ben buna aşk derim!"
  bp2_yearly.7002.b: "Derhâl boşanacağız."
  bp2_yearly.7002.c: "Bunu unutsak olmaz mı...?"
  bp2_yearly.parental_neglect_effect: "[nursed_child.GetFirstNameNoTooltip] küplere bindi"
  bp2_yearly.7003.title: "[nursed_child.GetFirstNameNoTooltip] ve Onun İlk"
  bp2_yearly.7003.t: "$bp2_yearly.7003.title$ Sözleri"
-### TODO AGOT-ONLY: bp2_yearly.7003.desc [AGOT: ]
- bp2_yearly.7003.desc: ""Hurry, my liege, you have to hear this!"\n\nThe wet nurse, [wet_nurse.GetFirstName], rushes me into my [ROOT.Char.Custom2('RelationToMePossessive', nursed_child)] [ROOT.Char.Custom('GetChamber')]. [wet_nurse.GetFirstNameNoTooltip] points at [nursed_child.GetFirstName] in excitement, so I lean towards [nursed_child.GetHerHim] and listen.\n\n"
+
+ bp2_yearly.7003.desc:0 ""Çabuk, hükümdarım, bunu duymalısınız!"\n\nSütnine [wet_nurse.GetFirstName], beni [ROOT.Char.Custom2('RelationToMePossessive', nursed_child)] [ROOT.Char.Custom('GetChamber')]'e sürükler. [wet_nurse.GetFirstNameNoTooltip] heyecanla [nursed_child.GetFirstName]'i işaret ediyor, ben de [nursed_child.GetHerHim]e doğru eğilip dinliyorum.\n\n"
  bp2_yearly.7003.desc_gold: "[nursed_child.GetFirstNameNoTooltip] bana salyalı bir sikke uzatıp şöyle dedi:\n\n"A-a, a-a-altın...""
  bp2_yearly.7003.desc_secret: "Parmağını ufacık dudaklarına bastırırken [nursed_child.GetFirstNameNoTooltip] bana fısıldadı:\n\n"Sır.""
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_motto [AGOT: ]
- bp2_yearly.7003.desc_motto: ""[nursed_child.GetHouse.GetMotto]."\n\nUnbelievable: our house [nursed_child.GetHouse.GetName] motto! [nursed_child.GetSheHe|U] gurgled it without a stutter!"
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_house [AGOT: ]
- bp2_yearly.7003.desc_house: ""[nursed_child.GetHouse.GetNameNoTooltip]."\n\nIncredible! [nursed_child.GetFirstNameNoTooltip] has learned to say our House name."
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_military [AGOT: ]
- bp2_yearly.7003.desc_military: ""Guh-bah-nuh... [nursed_child.Custom( 'KnightCultureNoTooltipLowercase' )]!"\n\nLooks like [nursed_child.GetFirstNameNoTooltip] already has a martial spirit!"
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_faith [AGOT: ]
- bp2_yearly.7003.desc_faith: ""[nursed_child.GetFaith.random_GoodGodNames]."\n\nLooks like [nursed_child.GetFirstNameNoTooltip] is already a devotee!"
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_father [AGOT: ]
- bp2_yearly.7003.desc_father: ""Pa-, pa-...""
-### TODO AGOT-ONLY: bp2_yearly.7003.desc_mother [AGOT: ]
- bp2_yearly.7003.desc_mother: ""Ma-, ma-...""
+
+ bp2_yearly.7003.desc_motto:0 ""[nursed_child.GetHouse.GetMotto]."\n\nİnanılmaz: hanemiz [nursed_child.GetHouse.GetName]'in sloganı! [nursed_child.GetSheHe|U] hiç kekelemden, gıgıldayarak söyledi!""
+
+ bp2_yearly.7003.desc_house:0 ""[nursed_child.GetHouse.GetNameNoTooltip]."\n\nİnanılmaz! [nursed_child.GetFirstNameNoTooltip] hanemizin adını söylemeyi öğrenmiş.""
+
+ bp2_yearly.7003.desc_military:0 ""Gu-ba-nı... [nursed_child.Custom( 'KnightCultureNoTooltipLowercase' )]!"\n\nGörünüşe göre [nursed_child.GetFirstNameNoTooltip] şimdiden bir savaşçı ruhuna sahip!""
+
+ bp2_yearly.7003.desc_faith:0 ""[nursed_child.GetFaith.random_GoodGodNames]."\n\nGörünüşe göre [nursed_child.GetFirstNameNoTooltip] şimdiden bir inançlı!""
+
+ bp2_yearly.7003.desc_father:0 ""Ba-, ba-...""
+
+ bp2_yearly.7003.desc_mother:0 ""An-, an-...""
  bp2_yearly.7003.a: "Ne kadar güzel!"
  bp2_yearly.7003.b: "Başka ne söyleyebilir?"
  bp2_yearly.7003.b.tt: "Çocuğa konuşmaya devam etmesi için baskı yaptınız."
  bp2_yearly.7003.c: "Buna zamanım yok."
  bp2_yearly.7004.t: "$bp2_yearly.7003.title$ Adımları"
  bp2_yearly.7004.desc: "[ROOT.Char.Custom2('RelationToMePossessive', nursed_child)|U] [nursed_child.GetFirstName] için ayrılan odada bir keşmekeş olduğunu fark ettim. Aceleyle odaya girdiğimde sütanne [wet_nurse.GetFirstName], [nursed_child.GetFirstName] ile oynuyordu. \n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], zamanlamanız mükemmel! [nursed_child.GetFirstNameNoTooltip] biraz önce ilk adımını attı!" diyerek heyecanla bağırdı.\n\nÇocuğumun ellerinden tutarak onu odanın etrafında yürütmeye çalışıyordu."
-### TODO AGOT-ONLY: bp2_yearly.7004.a [AGOT: ]
- bp2_yearly.7004.a: ""A giant step for a child. A small step for a ruler.""
+
+ bp2_yearly.7004.a:0 ""Bir çocuk için dev bir adım. Bir hükümdar için küçük bir adım.""
  bp2_yearly.7004.b: "Başka ne yapabilir?"
  bp2_yearly.7004.b.tt: "Çocuğa yürümeye devam etmesi için baskı yaptınız."
  bp2_yearly.7004.c: "$bp2_yearly.7003.c$"
@@ -81,8 +81,8 @@
  bp2_yearly.7006.b: "Demek bir Moda [Select_CString(nursed_child.IsFemale, 'Prensesi', 'Prensi' )], ha?"
  bp2_yearly.7006.c: "$bp2_yearly.7003.c$"
  bp2_yearly.7008.t: "$bp2_yearly.7003.title$ İçerlemesi"
-### TODO AGOT-ONLY: bp2_yearly.7008.desc_start [AGOT: ]
- bp2_yearly.7008.desc_start: ""Oh, back when you were but a little child! I'll always cherish those days," says my [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [reflecting_parent.GetFirstName], quite unprompted.\n\nEverything comes rushing back. I #EMP know#! that"
+
+ bp2_yearly.7008.desc_start:0 ""Ah, sen daha küçücük bir çocukken! O günleri hep bağrımda taşıyacağım," der [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [reflecting_parent.GetFirstName]'im, hiçbir sebep yokken.\n\nHer şey hücum edip geri geliyor. #EMP Biliyorum#! ki"
  bp2_yearly.7008.desc: "$bp2_yearly.7008.desc_start$ bana asla ilgi göstermedi. Keyifle hatırladığı anların benim için çileden ibaret olduğunu #EMP biliyorum#!."
  bp2_yearly.7008.desc_dead_parent: "$bp2_yearly.7008.desc_start$ [ROOT.Char.Custom2('RelationToMePossessive', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] yaşadığı sürece benim düşmanımdı."
  bp2_yearly.7008.desc_word: "İlk sözlerimi bile görmezden gelmişti!"
@@ -90,16 +90,16 @@
  bp2_yearly.7008.desc_tooth: "Düşen ilk dişim karşısında irkilip iğrenmişti!"
  bp2_yearly.7008.desc_dress: "Çocukluğumda giysi oyunlarına düşkünlüğümle alay etmişti!"
  bp2_yearly.7008.desc_end: "\n\nHak ettiğimi almalıyım! Ya da... geçmişe takılıp kalmayı bırakmak daha mı iyi olur?"
-### TODO AGOT-ONLY: bp2_yearly.7008.a [AGOT: ]
- bp2_yearly.7008.a: ""Give me your land, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]!""
+
+ bp2_yearly.7008.a:0 ""Toprağını bana ver, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]!""
  bp2_yearly.7008.a.tt_good: "[reflecting_parent.GetFirstNameNoTooltip] size katılıyor"
  bp2_yearly.7008.a.tt_bad: "[reflecting_parent.GetFirstNameNoTooltip] başka bir şey teklif etti"
-### TODO AGOT-ONLY: bp2_yearly.7008.b [AGOT: ]
- bp2_yearly.7008.b: ""You owe me your wealth!""
-### TODO AGOT-ONLY: bp2_yearly.7008.c [AGOT: ]
- bp2_yearly.7008.c: ""I despise you, and hope never to see you again!""
-### TODO AGOT-ONLY: bp2_yearly.7008.c_dead_parent [AGOT: ]
- bp2_yearly.7008.c_dead_parent: ""Why did you neglect me so!?""
+
+ bp2_yearly.7008.b:0 ""Bana servetini borçlusun!""
+
+ bp2_yearly.7008.c:0 ""Senden nefret ediyorum ve bir daha seni görmemeyi umuyorum!""
+
+ bp2_yearly.7008.c_dead_parent:0 ""Beni neden böyle ihmal ettin!?""
  bp2_yearly.7008.d: "Kendi çocuklarıma odaklanmayı tercih ederim."
  bp2_yearly.7008.e: "Bu muamele... gayet yerinde."
  bp2_yearly.7008.tt: "[reflecting_parent.GetFirstNameNoTooltip] cevap vermek zorunda kalacak"
@@ -112,8 +112,8 @@
  bp2_yearly.7009.desc_dress: "Giysi oyunu haylazlığımda beni desteklemişti."
  bp2_yearly.7009.desc_end: "\n\nBelki de ona sevgisinin karşılığını vermeliyimdir?"
  bp2_yearly.7009.desc_end_dead_parent: "\n\nFakat ona teşekkür etmek için artık çok geç. Artık yalnızca [ROOT.Char.Custom2('RelationToMePossessive', reflecting_parent)] için minnet duyuyorum."
-### TODO AGOT-ONLY: bp2_yearly.7009.a [AGOT: ]
- bp2_yearly.7009.a: ""I love you so, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)].""
+
+ bp2_yearly.7009.a:0 ""Seni çok seviyorum, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)].""
  bp2_yearly.7009.a.tt_good: "$bp2_yearly.7008.a.tt_good$"
  bp2_yearly.7009.a.tt_bad: "[reflecting_parent.GetFirstNameNoTooltip] karşılığında bir şey istiyor"
  bp2_yearly.7009.b: "Ben de çocuklarıma aynı şekilde sevgiyle bakacağım!"
@@ -133,11 +133,11 @@
  bp2_yearly.7010.desc_hate_dead_parent: "$bp2_yearly.7008.c_dead_parent$"
  bp2_yearly.7010.a: "Pişman olduğumu göstermeye hazırım." 
  bp2_yearly.7010.a.tt: "$bp2_yearly.7008.a.tt_good$"
-### TODO AGOT-ONLY: bp2_yearly.7010.b [AGOT: ]
- bp2_yearly.7010.b: ""From now on, you'll have what you need from me!""
+
+ bp2_yearly.7010.b:0 ""Bundan böyle, ihtiyacın olan her şeyi benden alacaksın!""
  bp2_yearly.7010.b.tt: "$bp2_yearly.7008.a.tt_bad$"
-### TODO AGOT-ONLY: bp2_yearly.7010.c [AGOT: ]
- bp2_yearly.7010.c: ""Grow up.""
+
+ bp2_yearly.7010.c:0 ""Büyü artık.""
  bp2_yearly.7010.c.tt: "[reflecting_parent.GetFirstNameNoTooltip] pek umursamıyor"
  bp2_yearly.7011.t: "$bp2_yearly.7009.t$"
  bp2_yearly.7011.desc: "$bp2_yearly.7010.desc_start$"Sevgili [nursed_child.Custom2('RelationToMePossessive', ROOT.Char)], benimle bir köpeğin yavrularına baktığı gibi ilgilendin. Hatta daha iyi şekilde. İlk güzel anılarım seninleydi."
@@ -148,16 +148,16 @@
  bp2_yearly.7011.desc_dress: "Haylazlık yaptığımda!"
  bp2_yearly.7011.desc_end: "Beni çok yakın tuttun.\n\nSevinçle yüzü kızardı.\n\n"
  bp2_yearly.7011.desc_receive_love: "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.a$"
-### TODO AGOT-ONLY: bp2_yearly.7011.desc_forwarded_love [AGOT: ]
- bp2_yearly.7011.desc_forwarded_love: ""$bp2_yearly.7011.desc_end$"$bp2_yearly.7009.b$""
-### TODO AGOT-ONLY: bp2_yearly.7011.a [AGOT: ]
- bp2_yearly.7011.a: ""And I love you, [ROOT.Char.Custom2('RelationToMeShort', nursed_child)]!""
+
+ bp2_yearly.7011.desc_forwarded_love:0 ""$bp2_yearly.7011.desc_end$"$bp2_yearly.7009.b$"""
+
+ bp2_yearly.7011.a:0 ""Ben de seni seviyorum, [ROOT.Char.Custom2('RelationToMeShort', nursed_child)]!""
  bp2_yearly.7011.a.tt: "$bp2_yearly.7009.a.tt_good$"
-### TODO AGOT-ONLY: bp2_yearly.7011.b [AGOT: ]
- bp2_yearly.7011.b: ""Such devotion!""
+
+ bp2_yearly.7011.b:0 ""Ne bağlılık!""
  bp2_yearly.7011.b.tt: "$bp2_yearly.7009.a.tt_bad$"
-### TODO AGOT-ONLY: bp2_yearly.7011.c [AGOT: ]
- bp2_yearly.7011.c: ""Dwell not on the past.""
+
+ bp2_yearly.7011.c:0 ""Geçmişe takılma.""
  bp2_yearly.7011.c.tt: "$bp2_yearly.7010.c.tt$"
  bp2_yearly.7012.t: "Sütanne Aşkı"
  bp2_yearly.7012.desc: "[nursed_child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sendeleyerek içeri girip konsey toplantımı böldü ve beni kenara çekmeye çalıştı.\n\n"[nursed_child.GetFirstNameNoTooltip]! Burada olmamalısın," diye karşı çıktım fakat çocuğun yüzü kırmızıya döndü ve bağırmaya başladı.\n\n"Senden #EMP nefret ediyorum#!! Neden bunu yapıyorsun?!" Tüm gözler üzerindeyken kurnazca duraksadı. "Sevgili [former_wet_nurse.GetFirstName] senin emrinle buradan gönderilmiş! O bir sütanneden ibaret değil, ben onu annemmiş gibi seviyorum! Hatta annemi sevdiğimden #EMP daha çok#! seviyorum!""
@@ -168,19 +168,19 @@
  bp2_yearly.7012.c: "Sessiz ol çocuk!"
  bp2_yearly.7013.t: "Bir Çocuğun Kederi"
  bp2_yearly.7013.desc: "Son zamanlarda [nursed_child.GetFirstName] düşünceleri içinde kaybolmuş vaziyette oradan oraya dolanıyor. Odasında başını yastığına bastırarak ağladığını gördüm. \n\n"Sorun ne, [ROOT.Char.Custom2('RelationToMePossessive', nursed_child)]?" sakinleşmeye başladığında böyle sordum.\n\n"Öldüğünde ne oluyor? Merak ediyorum da.... sütannem [former_wet_nurse.GetFirstName] iyi mi acaba?" gözyaşlarına hâkim olmaya çalışarak burun çekti. "Belki artık [ROOT.Char.GetFaith.DevilName] için bakıcılık yapması gerekiyordur?"\n\n[nursed_child.GetFirstNameNoTooltip] çatlayan bir sesle bunları söylerken gördüğüm en büyük ve en nemli gözyaşları gözlerinden süzüldü."
-### TODO AGOT-ONLY: bp2_yearly.7013.a [AGOT: ]
- bp2_yearly.7013.a: ""Your new wet nurse will make everything better!""
+
+ bp2_yearly.7013.a:0 ""Yeni sütninen her şeyi daha iyi yapacak!""
  bp2_yearly.7013.a.tt: "$bp2_decision.0001.t$ tetiklenecek"
-### TODO AGOT-ONLY: bp2_yearly.7013.b [AGOT: ]
- bp2_yearly.7013.b: ""She's surely in [nursed_child.GetFaith.PositiveAfterLife] now.""
+
+ bp2_yearly.7013.b:0 ""Şimdi kesinlikle [nursed_child.GetFaith.PositiveAfterLife]'te.""
  bp2_yearly.7013.c: "Öldü gitti."
  bp2_yearly.7014.t: "Tanıdık Bir Varlık"
  bp2_yearly.7014.desc: "Sütannem [wet_nurse.GetFirstName] üstümü örtüp mumları söndürmek için harekete geçti.\n\n"Bekle! Bir şey söylemek istiyorum!" diye ricada bulundum. "Burada olmandan hoşlanıyorum... [ROOT.Char.GetCurrentLocation.GetName] üzerinde sensiz çok yalnız hissediyorum."\n\n[wet_nurse.GetFirstNameNoTooltip] biraz rahatsız olmuş gibi görünse de etkilenmişti.\n\n"Ben"
  bp2_yearly.7014.desc_faith: "[wet_nurse.GetFaith.HighGodNamePossessive] sadık bir hizmetkârıyım, sen de bir gün öyle olacaksın. İnancın yeterince sağlam olduğunda [wet_nurse.GetFaith.HighGodName] sana rehberlik edip içini ferah tutacağı için bana ihtiyacın kalmayacak.""
  bp2_yearly.7014.desc_culture: "de senin gibi bir [wet_nurse.GetCulture.GetName] olarak doğdum. [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] yüreklerimizi paylaşıyoruz. [tradition.GetNameNoTooltip], [tradition_2.GetNameNoTooltip]... bunlar bizim geleneklerimiz! Önemli ya da önemsiz olmamız fark etmeksizin hepimiz iyi insanlarız.""
  bp2_yearly.7014.desc_culture_no_trad: "senin gibi bir [wet_nurse.GetCulture.GetName] olarak doğdum. [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] yüreklerimizi ve antik geleneklerimizi paylaşıyoruz! Önemli ya da önemsiz olmamız fark etmeksizin hepimiz iyi insanlarız.""
-### TODO AGOT-ONLY: bp2_yearly.7014.a [AGOT: ]
- bp2_yearly.7014.a: ""I wish you were my mum!""
+
+ bp2_yearly.7014.a:0 ""Keşke annem olsaydın!""
  bp2_yearly.7014.b: "Bu anı unutmayacağım."
  parenting_by_example: "Ebeveynlik Örneği"
  parenting_by_example_desc: "Bu karakterlerin ebeveynleri ona sevgi ve ilgiyle çocuk yetiştirmeyi öğretmiş."
@@ -239,8 +239,8 @@
  bp2_decision.0002.e.partially: "Ayin yarım yamalak yapıldıysa"
  bp2_decision.0002.e_flip: "[sinful|E] bir [Concept( 'trait', 'Özelliği' )|E] [virtuous|E] bir [Concept( 'trait', 'Özelliğe' )|E] dönüşecek"
  bp2_decision.0002.f: "$bp2_decision.0002.backout$."
-### TODO NOT-IN-ST: bp2_decision.0002.tt [AGOT: @alert_icon! #alert_trial You will not be refunded the cost of this [decision|E]#!\n@alert_icon! #alert_trial $bp2_decision.0002.t$ [decision|E] will become unavailable for #V 1 year#!]
- bp2_decision.0002.tt: "@alert_icon! #alert_trial You will not be refunded the cost of this [decision|E]#!\n@alert_icon! #alert_trial $bp2_decision.0002.t$ [decision|E] will become unavailable for #V 1 year#!"
+
+ bp2_decision.0002.tt:0 "@alert_icon! #alert_trial Bu [decision|E]nün maliyeti size geri ödenmeyecek#!\n@alert_icon! #alert_trial $bp2_decision.0002.t$ [decision|E] #V 1 yıl#! boyunca kullanılamaz olacak"
  bp2_decision.0002.backout: "[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'Ben',teentribal.GetFirstNameNoTooltip)] [SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'',' ')]henüz hazır değil[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'im','')]"
  bp2_decision.0002.cooldown: "@alert_icon! #alert_trial $bp2_decision.0002.t$ [Concept( 'decision', 'Kararı' )|E] #V 1 yıllığına#! alınamayacak"
  bp2_yearly.7021.t: "$bp2_decision.0002.t$: $rites_of_passage_duel$"
@@ -260,8 +260,8 @@
  bp2_yearly.7022.t: "$bp2_decision.0002.t$: $rites_of_passage_duel$ Gerçekleştirildi"
  bp2_yearly.7022.desc_child_win: "[ROOT.Char.GetFaith.PriestNeuter] tarafından yapılan kutsama faslı bitince meydan okuyanların silahları tokuştu. [sc_loser.GetFirstName] deneyimi sayesinde çabucak avantajlı konuma geçti fakat yine de [sc_victor.GetFirstNamePossessive] tarafından yapılan zekice hamleleri fazla savuşturamadı.\n\n[sc_loser.GetFirstNameNoTooltip], [ROOT.Char.Custom2('RelationToMePossessive',teentribal)] tarafından indirilen darbe karşısında tökezleyerek yere düştü.\n\n"Pes ediyorum!" diye inledi [sc_loser.GetWomanMan]. "[sc_victor.GetFirstNameNoTooltip] parmak eklemlerimi parçaladı ve beni kanımla kör etti, o da büsbütün bir savaşçı hâline geldi artık. Bunu sonuna kadar hak ediyor!"\n\nAyin böylece tamamlanmış oldu." 
  bp2_yearly.7022.desc_child_lost: "Yere doğru düzgün şarap dökülememişti ki [sc_loser.GetFirstName] sertçe saldırdı! Yağmur gibi yağan hamlelerin arasında [sc_victor.GetFirstName] deneyimi sayesinde bu yağmuru dindirdi. Genç [ROOT.Char.Custom2('RelationToMePossessive',teentribal)] bu dövüşte elinden gelenin en iyisini yaptı... fakat boğazına demirin dayanmasıyla ayin son buldu.\n\nRakibinin gözlerinde yanmakta olan ateşi gören [sc_victor.GetFirstNameNoTooltip] iyi niyetli davrandı.\n\n"Önümde bir [sc_loser.GetWomanMan] duruyor! Aramızda olmasını sağlayacak şey zafer değil, mücadelenin kendisidir. [sc_loser.GetFirstNameNoTooltip] bir savaşçı kadar cesaretliydi ve bir [ROOT.Char.GetCulture.GetName] ne kadar maharetli olur gösterdi.""
-### TODO AGOT-ONLY: bp2_yearly.7022.desc_root_win [AGOT: ]
- bp2_yearly.7022.desc_root_win: ""Enough!" gasps [sc_loser.GetFirstName], slinging [sc_loser.GetHerHis] [sc_loser.Custom('SignatureWeaponNameOrType')] to the dirt. "Deliver the killing blow as a [ROOT.Char.GetWomanMan] full-honored! I'd be ashamed to die to a [teentribal.Custom('GirlBoy')]."\n\n"But — #EMP what am I saying?#! You fight already like a proper [ROOT.Char.GetWomanMan]. Like a [ROOT.Char.GetTitleAsName]: one who will know power, know victory! I will speak for you, and see that your privileges grow."\n\nIt is done. By my [ROOT.Char.Custom('SignatureWeaponNameOrType')]'s virtue, I am proven."
+
+ bp2_yearly.7022.desc_root_win:0 ""Yeter!" diye nefesiyle inler [sc_loser.GetFirstName], [sc_loser.GetHerHis] [sc_loser.Custom('SignatureWeaponNameOrType')]'ini toprağa savurarak. "Son darbeyi onuru tam bir [ROOT.Char.GetWomanMan] gibi vur! Bir [teentribal.Custom('GirlBoy')]'e ölmekten utanırdım."\n\n"Ama — #EMP ne diyorum ben?#! Sen zaten gerçek bir [ROOT.Char.GetWomanMan] gibi savaşıyorsun. [ROOT.Char.GetTitleAsName] gibi: gücü tadacak, zaferi tadacak biri! Senin için konuşacağım ve ayrıcalıklarının artmasını sağlayacağım."\n\nİş tamam. [ROOT.Char.Custom('SignatureWeaponNameOrType')]'imin erdemiyle kendimi kanıtladım.""
  bp2_yearly.7022.desc_root_lost: "Deneyimli [sc_victor.GetFirstName] karşısında varlık gösteremesem de... ayin böyle bitmemeli! Güçlükle ayağa kalkmaya çalışıp kendimi hazırladım, silahım yoktu. Silahıma uzanmaya çalışsam da rakibim beni engelledi. #EMP Böyle bitmemeli!#! \n\n[sc_victor.GetFirstNameNoTooltip] bana eğlenmiş bir şekilde baktı.\n\n"Dur bakalım, genç [ROOT.Char.Custom('RegionalFerociousAnimal')]! [ROOT.Char.GetTitleAsName], bir [ROOT.Char.GetCulture.GetName] [ROOT.Char.Custom( 'KnightCultureNoTooltipLowercase' )] kadar vahşisin! Cesurca savaştın; yenilip yenilmemen fark etmez, sana bu kabilenin bir üyesi olma onurunu bahşediyorum."\n\n"Bu böyle bilinecek.""
  bp2_yearly.7022.toast: "[teentribal.GetFirstNameNoTooltip] düello sayesinde gelişti"
  bp2_yearly.7022.a: "[teentribal.GetHouse.GetBaseNameNoTooltip] [Select_CString(teentribal.IsFemale, 'kadınları', 'erkekleri' )] böyle azimlidir işte!"
@@ -285,10 +285,10 @@
  bp2_yearly.7023.c: "$bp2_decision.0002.f$"
  bp2_yearly.7023.c.tt: "$bp2_decision.0002.cooldown$"
  bp2_yearly.7024.t: "$bp2_decision.0002.t$: $rites_of_passage_seclusion$"
-### TODO AGOT-ONLY: bp2_yearly.7024.desc [AGOT: ]
- bp2_yearly.7024.desc: ""Seclusion enriches the body, the spirit," insists my [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName]. "In tranquility, sagacity! In survival, cunning. Choose a place of harmony... but somewhere wild, harsh."\n\n[priest.GetSheHe|U] thrusts forth some scant provisions.\n\n"
-### TODO AGOT-ONLY: bp2_yearly.7024.desc_capital [AGOT: ]
- bp2_yearly.7024.desc_capital: ""A [teentribal.Custom('GirlBoy')] is safe at home, in [rite_location.GetName]'s [rite_location.GetTerrain.GetNameNoTooltip|l]."
+
+ bp2_yearly.7024.desc:0 ""İnziva bedeni ve ruhu zenginleştirir," diye ısrar eder [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName]. "Dinginlikte bilgelik! Hayatta kalmakta kurnazlık. Uyumlu bir yer seç... ama vahşi, sert bir yer."\n\n[priest.GetSheHe|U] bir avuç azıcık erzak uzatır.\n\n"
+
+ bp2_yearly.7024.desc_capital:0 ""Bir [teentribal.Custom('GirlBoy')] [rite_location.GetName]'in [rite_location.GetTerrain.GetNameNoTooltip|l]inde, evinde güvendedir.""
  bp2_yearly.7024.desc_abroad: "Gerçek bir sınanma için garip ve buradan fazlasıyla uzakta olan [abroad_location.GetName] topraklarındaki [abroad_location.GetTerrain.GetNameNoTooltip|l] arazisini düşün!"
  bp2_yearly.7024.desc_realm: "Ya da belki daha kısa bir yolculuk için [realm_location.GetName] topraklarına gidebilirsin?"
  bp2_yearly.7024.desc_end: "Hadi çocuğum, git. [priest.GetFaith.KnowledgeGodName] sana bilgeliğini bahşetsin.""

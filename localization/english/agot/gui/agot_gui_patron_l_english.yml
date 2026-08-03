@@ -1,15 +1,15 @@
 ﻿l_english:
-### TODO NOT-IN-ST: PATRON_SELECTION_TOOLTIP [AGOT: [GetPlayer.Custom('PATRON_SELECTION_TOOLTIP')]]
+
  PATRON_SELECTION_TOOLTIP:0 "[GetPlayer.Custom('PATRON_SELECTION_TOOLTIP')]"
-### TODO NOT-IN-ST: PATRON_SELECTION_TOOLTIP_TRUE [AGOT: Select a new patron in exchange for 50 [piety|E]]
- PATRON_SELECTION_TOOLTIP_TRUE:0 "Select a new patron in exchange for 50 [piety|E]"
-### TODO NOT-IN-ST: PATRON_SELECTION_TOOLTIP_ZP_TRUE [AGOT: Select a new patron in exchange for 25 [piety|E]]
- PATRON_SELECTION_TOOLTIP_ZP_TRUE: "Select a new patron in exchange for 25 [piety|E]"
-### TODO NOT-IN-ST: PATRON_SELECTION_TOOLTIP_ZP_FALSE [AGOT: @warning_icon! #X You require 25 [piety|E] to select a new patron.#!]
- PATRON_SELECTION_TOOLTIP_ZP_FALSE: "@warning_icon! #X You require 25 [piety|E] to select a new patron.#!"
-### TODO NOT-IN-ST: PATRON_SELECTION_TOOLTIP_FALSE [AGOT: @warning_icon! #X You require 50 [piety|E] to select a new patron.#!]
- PATRON_SELECTION_TOOLTIP_FALSE:0 "@warning_icon! #X You require 50 [piety|E] to select a new patron.#!"
-### TODO NOT-IN-ST: PATRON_SELECTION_MODIFIERS [AGOT: Modifiers]
- PATRON_SELECTION_MODIFIERS:0 "Modifiers"
-### TODO NOT-IN-ST: PATRON_CHARACTER_ICON [AGOT: @[Character.MakeScope.Var('patron_god').GetFlagName]_patron_icon!]
+
+ PATRON_SELECTION_TOOLTIP_TRUE:0 "50 [piety|E] karşılığında yeni bir hami seç"
+
+ PATRON_SELECTION_TOOLTIP_ZP_TRUE:0 "25 [piety|E] karşılığında yeni bir hami seç"
+
+ PATRON_SELECTION_TOOLTIP_ZP_FALSE:0 "@warning_icon! #X Yeni bir hami seçmek için 25 [piety|E] gereklidir.#!"
+
+ PATRON_SELECTION_TOOLTIP_FALSE:0 "@warning_icon! #X Yeni bir hami seçmek için 50 [piety|E] gereklidir.#!"
+
+ PATRON_SELECTION_MODIFIERS:0 "Modifiye Ediciler"
+
  PATRON_CHARACTER_ICON:0 "@[Character.MakeScope.Var('patron_god').GetFlagName]_patron_icon!"

@@ -50,8 +50,8 @@
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Başarım Sınırı: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "Yaş"
  RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#!"
-### TODO AGOT-CHANGED: RULER_DESIGNER_BIRTH_YEAR [AGOT: Born: $YEAR_SEL_RULDESBIRTH$ $ERA_SEL_RULDESBIRTH$ | TR: Doğum Tarihi: MS [RulerDesignerWindow.GetBirthYear]]
- RULER_DESIGNER_BIRTH_YEAR:0 "Born: $YEAR_SEL_RULDESBIRTH$ $ERA_SEL_RULDESBIRTH$"
+
+ RULER_DESIGNER_BIRTH_YEAR:0 "Doğum Tarihi: MS [RulerDesignerWindow.GetBirthYear]"
  RULER_DESIGNER_WEIGHT_LABEL:0 "Kilo"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
  RULER_DESIGNER_SKILLS_LABEL:1 "[skills|E]"
@@ -200,8 +200,8 @@
  body_fat_head_fat_low:0 "Az"
  body_fat_head_fat_medium:0 "Orta"
  body_fat_head_fat_full:0 "Çok"
-### TODO AGOT-CHANGED: gene_bs_body_shape [AGOT: Body Shape | TR: Kas]
- gene_bs_body_shape:1 "Body Shape"
+
+ gene_bs_body_shape:0 "Kas"
  gene_bs_bust:0 "Göğüs Büyüklüğü"
  gene_chin_height:0 "Dudak Altı Çene Uzunluğu"
  gene_chin_width:0 "Dudak Altı Çene Genişliği"
@@ -274,10 +274,10 @@
  gene_bs_nose_nostril_height:0 "Burun Deliği Yüksekliği"
  gene_bs_nose_nostril_width:0 "Burun Deliği Genişliği"
  gene_bs_nose_profile:0 "Burun Profili"
-### TODO AGOT-CHANGED: nose_profile_neg [AGOT: Straight 01 | TR: Düz]
- nose_profile_neg:0 "Straight 01"
-### TODO AGOT-CHANGED: nose_profile_hawk [AGOT: Hawk 01 | TR: Kemerli]
- nose_profile_hawk:0 "Hawk 01"
+
+ nose_profile_neg:0 "Düz"
+
+ nose_profile_hawk:0 "Kemerli"
  gene_bs_nose_ridge_angle:0 "Burun Sırtı Açısı"
  gene_bs_nose_ridge_width:0 "Burun Sırtı Genişliği"
  gene_bs_nose_size:0 "Burun Büyüklüğü"
@@ -304,12 +304,12 @@
  eye_socket_01:0 "Yuva Türü 1"
  eye_socket_02:0 "Yuva Türü 2"
  eye_socket_03:0 "Yuva Türü 3"
-### TODO AGOT-CHANGED: eye_socket_color_01 [AGOT: Socket Darker Type 1 | TR: Kara Yuva Türü 1]
- eye_socket_color_01:0 "Socket Darker Type 1"
-### TODO AGOT-CHANGED: eye_socket_color_02 [AGOT: Socket Darker Type 2 | TR: Kara Yuva Türü 2]
- eye_socket_color_02:0 "Socket Darker Type 2"
-### TODO AGOT-CHANGED: eye_socket_color_03 [AGOT: Socket Darker Type 3 | TR: Kara Yuva Türü 3]
- eye_socket_color_03:0 "Socket Darker Type 3"
+
+ eye_socket_color_01:0 "Kara Yuva Türü 1"
+
+ eye_socket_color_02:0 "Kara Yuva Türü 2"
+
+ eye_socket_color_03:0 "Kara Yuva Türü 3"
  face_detail_nasolabial:0 "Yanak Çizgisi Detayı"
  nasolabial_01:0 "Yanak Çizgisi Türü 1"
  nasolabial_02:0 "Yanak Çizgisi Türü 2"

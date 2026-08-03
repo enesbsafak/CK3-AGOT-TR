@@ -1,93 +1,93 @@
 ﻿l_english:
-### TODO NOT-IN-ST: send_to_nightswatch_interaction [AGOT: Send to the Night's Watch #weak (Dynasty)#!]
- send_to_nightswatch_interaction:0 "Send to the Night's Watch #weak (Dynasty)#!"
-### TODO NOT-IN-ST: send_to_nightswatch_interaction_extra_icon [AGOT: $hook_extra_icon$]
+
+ send_to_nightswatch_interaction:0 "Gece Nöbetçileri'ne Gönder #weak (Hanedan)#!"
+
  send_to_nightswatch_interaction_extra_icon:0 "$hook_extra_icon$"
-### TODO NOT-IN-ST: send_to_nightswatch_interaction_desc [AGOT: $dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to serve as the shield of men in the Night's Watch. They will father no children and hold no lands, but it is a sacred and honorable duty.]
- send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$Send [recipient.GetShortUINameNoTooltip] away to serve as the shield of men in the Night's Watch. They will father no children and hold no lands, but it is a sacred and honorable duty."
-### TODO NOT-IN-ST: send_to_nightswatch_interaction_toast [AGOT: [recipient.GetShortUIName] has left for the Night's Watch]
- send_to_nightswatch_interaction_toast:1 "[recipient.GetShortUIName] has left for the Night's Watch"
-### TODO NOT-IN-ST: send_to_nightswatch_interaction_toast_desc [AGOT: Now his watch begins.]
- send_to_nightswatch_interaction_toast_desc:0 "Now his watch begins."
-### TODO NOT-IN-ST: CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH [AGOT: [recipient.GetSheHe] is not allowed to serve as a [knight|E] in the target [court|E]]
- CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[recipient.GetSheHe] is not allowed to serve as a [knight|E] in the target [court|E]"
-### TODO NOT-IN-ST: send_to_nightswatch_interaction_effect_desc [AGOT: #weak [CHARACTER.GetShortUIName] will leave your court to serve in the Night's Watch. [CHARACTER.GetSheHe|U] will forgo all inheritance and rights to serve in the defense of the realm.#!]
- send_to_nightswatch_interaction_effect_desc:1 "#weak [CHARACTER.GetShortUIName] will leave your court to serve in the Night's Watch. [CHARACTER.GetSheHe|U] will forgo all inheritance and rights to serve in the defense of the realm.#!"
-### TODO NOT-IN-ST: agot_send_to_citadel_interaction [AGOT: Send to the Citadel]
- agot_send_to_citadel_interaction:0 "Send to the Citadel"
-### TODO NOT-IN-ST: agot_send_to_citadel_interaction_desc [AGOT: Send [recipient.GetFirstNameNoTooltip] to the Citadel]
- agot_send_to_citadel_interaction_desc:0 "Send [recipient.GetFirstNameNoTooltip] to the Citadel"
-### TODO NOT-IN-ST: agot_send_to_citadel_interaction_extra_icon [AGOT: $hook_extra_icon$]
+
+ send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$[recipient.GetShortUINameNoTooltip]'i Gece Nöbetçileri'nde insanlığın kalkanı olarak hizmet etmesi için gönder. Ne çocuk sahibi olacak ne de toprak tutacak; ama bu kutsal ve onurlu bir görev."
+
+ send_to_nightswatch_interaction_toast:0 "[recipient.GetShortUIName] Gece Nöbetçileri'ne gitti"
+
+ send_to_nightswatch_interaction_toast_desc:0 "Şimdi onun nöbeti başlıyor."
+
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[recipient.GetSheHe]'nin hedef [court|E]'te bir [knight|E] olarak hizmet etmesine izin verilmiyor"
+
+ send_to_nightswatch_interaction_effect_desc:0 "#weak [CHARACTER.GetShortUIName], krallığın savunmasında hizmet etmek üzere Gece Nöbetçileri'nde görev almak için sarayından ayrılacak. [CHARACTER.GetSheHe|U] tüm miras ve haklarından feragat edecek.#!"
+
+ agot_send_to_citadel_interaction:0 "Kale'ye Gönder"
+
+ agot_send_to_citadel_interaction_desc:0 "[recipient.GetFirstNameNoTooltip]'i Kale'ye gönder"
+
  agot_send_to_citadel_interaction_extra_icon:0 "$hook_extra_icon$"
-### TODO NOT-IN-ST: agot_send_to_citadel_effect_desc [AGOT: #weak [CHARACTER.GetShortUIName] will leave your court to study at the Citadel. After taking his vows, he will put aside his house name and forgo all inheritance to serve the realm.#!]
- agot_send_to_citadel_effect_desc:0 "#weak [CHARACTER.GetShortUIName] will leave your court to study at the Citadel. After taking his vows, he will put aside his house name and forgo all inheritance to serve the realm.#!"
-### TODO NOT-IN-ST: citadel_decline_summary [AGOT: If [recipient.GetShortUINameNoTooltip] declines he will remain in your [court|E]]
- citadel_decline_summary:0 "If [recipient.GetShortUINameNoTooltip] declines he will remain in your [court|E]"
-### TODO NOT-IN-ST: tried_to_send_me_to_citadel_opinion [AGOT: Tried to send me to the Citadel]
- tried_to_send_me_to_citadel_opinion:0 "Tried to send me to the Citadel"
-### TODO NOT-IN-ST: REQUEST_CITADEL_NOTIFICATION_TEXT [AGOT: You are requested to leave your position in court and go to the Citadel to begin training as a maester.]
- REQUEST_CITADEL_NOTIFICATION_TEXT:0 "You are requested to leave your position in court and go to the Citadel to begin training as a maester."
-### TODO NOT-IN-ST: CITADEL_PATIENT [AGOT: [GetTrait('patient').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_PATIENT:1 "[GetTrait('patient').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_CALM [AGOT: [GetTrait('calm').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_CALM:1 "[GetTrait('calm').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_DILIGENT [AGOT: [GetTrait('diligent').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_DILIGENT:1 "[GetTrait('diligent').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_HERBALIST [AGOT: [GetTrait('lifestyle_herbalist').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_HERBALIST:1 "[GetTrait('lifestyle_herbalist').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_SCHOLAR [AGOT: [GetTrait('scholar').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_SCHOLAR:1 "[GetTrait('scholar').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_PENSIVE [AGOT: [GetTrait('pensive').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_PENSIVE:1 "[GetTrait('pensive').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_ROWDY [AGOT: [GetTrait('rowdy').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_ROWDY:1 "[GetTrait('rowdy').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_CURIOUS [AGOT: [GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_CURIOUS:1 "[GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_WRATHFUL [AGOT: [GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_WRATHFUL:1 "[GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_LAZY [AGOT: [GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_LAZY:1 "[GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_INTELLECT_BAD [AGOT: [personality|E] — #italic He is feeble-minded:#! $VALUE|=+0$]
- CITADEL_INTELLECT_BAD:1 "[personality|E] — #italic He is feeble-minded:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_SQUIRE [AGOT: [GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_SQUIRE:1 "[GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_KNIGHT [AGOT: [GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_KNIGHT:1 "[GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_FIGHTER [AGOT: [personality|E] — #italic He would prefer life on the battlefield:#! $VALUE|=+0$]
- CITADEL_FIGHTER:1 "[personality|E] — #italic He would prefer life on the battlefield:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_WANTS_TO_LEARN [AGOT: [personality|E] — #italic He wants to learn:#! $VALUE|=+0$]
- CITADEL_WANTS_TO_LEARN:1 "[personality|E] — #italic He wants to learn:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_LUSTFUL [AGOT: [GetTrait('lustful').GetName( recipient.Self )]: $VALUE|=+0$]
- CITADEL_LUSTFUL:1 "[GetTrait('lustful').GetName( recipient.Self )]: $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_PHYSICIAN [AGOT: [personality|E] — #italic He has studied the human condition:#! $VALUE|=+0$]
- CITADEL_PHYSICIAN:1 "[personality|E] — #italic He has studied the human condition:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_ZEALOUS [AGOT: [personality|E] — #italic He would prefer serving the faith:#! $VALUE|=+0$]
- CITADEL_ZEALOUS:1 "[personality|E] — #italic He would prefer serving the faith:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_GREED [AGOT: [personality|E] — #italic He has no desire to relinquish earthly pleasures:#! $VALUE|=+0$]
- CITADEL_GREED:1 "[personality|E] — #italic He has no desire to relinquish earthly pleasures:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: CITADEL_WEAK [AGOT: [personality|E] — #italic His weakness would make it difficult to earn glory in battle:#! $VALUE|=+0$]
- CITADEL_WEAK:1 "[personality|E] — #italic His weakness would make it difficult to earn glory in battle:#! $VALUE|=+0$"
-### TODO NOT-IN-ST: agot_the_citadel.1000.desc [AGOT: I can think of no greater joy than spending my life dedicated to scholarly pursuits. I will begin journeying to the Citadel immediately.]
- agot_the_citadel.1000.desc:0 "I can think of no greater joy than spending my life dedicated to scholarly pursuits. I will begin journeying to the Citadel immediately."
-### TODO NOT-IN-ST: agot_the_citadel.1000.positive [AGOT: I am glad [recipient.GetFirstNameNoTooltip] saw the wisdom in this action.]
- agot_the_citadel.1000.positive:0 "I am glad [recipient.GetFirstNameNoTooltip] saw the wisdom in this action."
-### TODO NOT-IN-ST: agot_the_citadel.1001.desc [AGOT: Your suggestion that I uproot my entire life and scurry off to the Citadel is ludicrous. I am happy where I am, and I have no plans to change that.]
- agot_the_citadel.1001.desc:0 "Your suggestion that I uproot my entire life and scurry off to the Citadel is ludicrous. I am happy where I am, and I have no plans to change that."
-### TODO NOT-IN-ST: agot_the_citadel.1001.negative [AGOT: Most unfortunate...]
- agot_the_citadel.1001.negative:0 "Most unfortunate..."
-### TODO NOT-IN-ST: send_to_silent_sisterhood_interaction [AGOT: Send to the Silent Sisterhood]
- send_to_silent_sisterhood_interaction:0 "Send to the Silent Sisterhood"
-### TODO NOT-IN-ST: send_to_silent_sisterhood_interaction_desc [AGOT: Send [recipient.GetShortUINameNoTooltip] to take the vows of silence and join the sisterhood.]
- send_to_silent_sisterhood_interaction_desc:0 "Send [recipient.GetShortUINameNoTooltip] to take the vows of silence and join the sisterhood."
-### TODO NOT-IN-ST: send_to_silent_sisterhood_interaction_extra_icon [AGOT: $hook_extra_icon$]
+
+ agot_send_to_citadel_effect_desc:0 "#weak [CHARACTER.GetShortUIName], Kale'de okumak için sarayından ayrılacak. Yeminlerini ettikten sonra hane adını bir kenara bırakacak ve krallığa hizmet için tüm mirasından feragat edecek.#!"
+
+ citadel_decline_summary:0 "[recipient.GetShortUINameNoTooltip] reddederse [court|E]'inde kalmaya devam edecek"
+
+ tried_to_send_me_to_citadel_opinion:0 "Beni Kale'ye göndermeye çalıştı"
+
+ REQUEST_CITADEL_NOTIFICATION_TEXT:0 "Saraydaki görevinden ayrılıp üstat olarak eğitime başlamak üzere Kale'ye gitmen isteniyor."
+
+ CITADEL_PATIENT:0 "[GetTrait('patient').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_CALM:0 "[GetTrait('calm').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_DILIGENT:0 "[GetTrait('diligent').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_HERBALIST:0 "[GetTrait('lifestyle_herbalist').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_SCHOLAR:0 "[GetTrait('scholar').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_PENSIVE:0 "[GetTrait('pensive').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_ROWDY:0 "[GetTrait('rowdy').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_CURIOUS:0 "[GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_WRATHFUL:0 "[GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_LAZY:0 "[GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_INTELLECT_BAD:0 "[personality|E] — #italic Zekâ yönünden kıt:#! $VALUE|=+0$"
+
+ CITADEL_SQUIRE:0 "[GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_KNIGHT:0 "[GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_FIGHTER:0 "[personality|E] — #italic Savaş meydanındaki hayatı tercih eder:#! $VALUE|=+0$"
+
+ CITADEL_WANTS_TO_LEARN:0 "[personality|E] — #italic Öğrenmek istiyor:#! $VALUE|=+0$"
+
+ CITADEL_LUSTFUL:0 "[GetTrait('lustful').GetName( recipient.Self )]: $VALUE|=+0$"
+
+ CITADEL_PHYSICIAN:0 "[personality|E] — #italic İnsan doğasını incelemiş:#! $VALUE|=+0$"
+
+ CITADEL_ZEALOUS:0 "[personality|E] — #italic İnanca hizmet etmeyi tercih eder:#! $VALUE|=+0$"
+
+ CITADEL_GREED:0 "[personality|E] — #italic Dünyevi zevklerden vazgeçmeye niyeti yok:#! $VALUE|=+0$"
+
+ CITADEL_WEAK:0 "[personality|E] — #italic Zayıflığı, savaşta şan kazanmasını zorlaştırır:#! $VALUE|=+0$"
+
+ agot_the_citadel.1000.desc:0 "Hayatımı ilimle uğraşarak geçirmekten daha büyük bir sevinç düşünemiyorum. Derhal Kale'ye yolculuğuma başlayacağım."
+
+ agot_the_citadel.1000.positive:0 "[recipient.GetFirstNameNoTooltip]'in bu davranıştaki hikmeti görmesine sevindim."
+
+ agot_the_citadel.1001.desc:0 "Tüm hayatımı kökünden söküp Kale'ye koşturmam yönündeki önerin saçmalık. Olduğum yerde mutluyum ve bunu değiştirmek gibi bir niyetim yok."
+
+ agot_the_citadel.1001.negative:0 "Çok talihsiz..."
+
+ send_to_silent_sisterhood_interaction:0 "Sessiz Rahibelere Gönder"
+
+ send_to_silent_sisterhood_interaction_desc:0 "[recipient.GetShortUINameNoTooltip]'i sessizlik yeminini edip rahibeler tarikatına katılması için gönder."
+
  send_to_silent_sisterhood_interaction_extra_icon:0 "$hook_extra_icon$"
-### TODO NOT-IN-ST: take_vows_septon_interaction [AGOT: Ask to Take Vows]
- take_vows_septon_interaction:0 "Ask to Take Vows"
-### TODO NOT-IN-ST: take_vows_septon_interaction_desc [AGOT: Ask [recipient.GetShortUINameNoTooltip] to take the vows and join the clergy]
- take_vows_septon_interaction_desc:0 "Ask [recipient.GetShortUINameNoTooltip] to take the vows and join the clergy"
-### TODO NOT-IN-ST: take_vows_septon_decline_summary [AGOT: If [recipient.GetShortUINameNoTooltip] declines [recipient.GetSheHe] will remain in your [court|E]]
- take_vows_septon_decline_summary:0 "If [recipient.GetShortUINameNoTooltip] declines [recipient.GetSheHe] will remain in your [court|E]"
-### TODO NOT-IN-ST: take_vows_septon_interaction_extra_icon [AGOT: $hook_extra_icon$]
+
+ take_vows_septon_interaction:0 "Yemin Etmeyi İste"
+
+ take_vows_septon_interaction_desc:0 "[recipient.GetShortUINameNoTooltip]'den yemin edip din adamlarına katılmasını iste"
+
+ take_vows_septon_decline_summary:0 "[recipient.GetShortUINameNoTooltip] reddederse [recipient.GetSheHe] [court|E]'inde kalmaya devam edecek"
+
  take_vows_septon_interaction_extra_icon:0 "$hook_extra_icon$"
-### TODO NOT-IN-ST: REQUEST_SEPTON_VOWS_NOTIFICATION_TEXT [AGOT: You are requested to leave your position in court and take the vows.]
- REQUEST_SEPTON_VOWS_NOTIFICATION_TEXT:0 "You are requested to leave your position in court and take the vows."
+
+ REQUEST_SEPTON_VOWS_NOTIFICATION_TEXT:0 "Saraydaki görevinden ayrılıp yemin etmen isteniyor."

@@ -161,11 +161,11 @@
  iberia_north_africa.2105.t:0 "Akdeniz'in Hükümdarları"
  iberia_north_africa.2105.desc:0 " [mallorca.GetNameNoTier], [sardinas.GetNameNoTier] ve [sicily.GetNameNoTier] ele geçirildikten sonra kendimizi Akdeniz'in gerçek hükümdarları olarak ilan ettik. Elçilerimiz bu görkemli başarımızı duyurmak için dünyanın dört bir yanına yelken açtı.\n\nBu deniz ve dokunduğu her şey bize ait!"
  iberia_north_africa.2105.a:0 "Kimse karşımızda duramaz!"
-### TODO AGOT-CHANGED: iberia_north_africa.fp2_golden_age_generic_title_intro [AGOT: Traveling Scholar: | TR: Bilimin Altın Çağı:]
- iberia_north_africa.fp2_golden_age_generic_title_intro:0 "Traveling Scholar:"
+
+ iberia_north_africa.fp2_golden_age_generic_title_intro:0 "Bilimin Altın Çağı:"
  iberia_north_africa.2001.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Kayıp İlim"
-### TODO AGOT-CHANGED: iberia_north_africa.2001.desc [AGOT: A traveling maester, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the research. | TR: Ünlü bir tercüman, [generated_actor.GetFullName], ilme ve ilim adamlarına verdiğim önemi duyup sarayıma teşrif etmiş.]
- iberia_north_africa.2001.desc:0 "A traveling maester, [generated_actor.GetFullName], has arrived at my court after hearing that I was sponsoring the research. "If it is knowledge you seek, the best can be found in books of old. For while it may be forgotten, it does not hold any less true." states the translator.\n\n"I have with me many books that remain untranslated, if you sponsor me, you will surely benefit from it too!""
+
+ iberia_north_africa.2001.desc:0 "Ünlü bir tercüman, [generated_actor.GetFullName], ilme ve ilim adamlarına verdiğim önemi duyup sarayıma teşrif etmiş."
  iberia_north_africa.2001.a:0 "Güzel bir"
  iberia_north_africa.2001.a.learning:0 "felsefe kitabı"
  iberia_north_africa.2001.a.martial:0 "askeri kitap"
@@ -175,12 +175,12 @@
  iberia_north_africa.2001.a.a:0 "En düşük özelliğini geliştirmek için bir kitap istiyorsunuz."
  iberia_north_africa.2001.b:0 "Seni destekleyeceğim işe yarar bir şeyler yap."
  iberia_north_africa.2001.b.a:0 "[generated_actor.GetFirstNameNoTooltip] size rastgele bir [Concept( 'skill', 'becerinizi' )|E] geliştirecek bir kitap verecek"
-### TODO AGOT-CHANGED: iberia_north_africa.2001.c [AGOT: Why would I want old books? History has no place in the world of the future! | TR: Neden eski kitapları isteyeyim? Tarihin bilimde yeri yok!]
- iberia_north_africa.2001.c:0 "Why would I want old books? History has no place in the world of the future!"
-### TODO AGOT-CHANGED: iberia_north_africa.2002.t [AGOT: $iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Red Hand | TR: $iberia_north_africa.fp2_golden_age_generic_title_intro$ Gözü Yıldızlarda Hekim]
- iberia_north_africa.2002.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Starry-eyed Red Hand"
-### TODO AGOT-ONLY: iberia_north_africa.2002.desc [AGOT: ]
- iberia_north_africa.2002.desc:0 ""My liege, please make this fool listen! This Red Hand healer performed a cataract operation on my right eye but now refuses to fix my left!" exclaims [patientzero.GetTitledFirstName]. "The operation was only successful because the conjunction of the stars was perfect. You #italic must#! wait twelve more years to ensure another successful operation!" replies the frustrated doctor, [generated_actor.GetFirstName].\n\nAs ruler, it is my duty to settle such matters. Should I interfere with astrology and risk a botched surgery?"
+
+ iberia_north_africa.2001.c:0 "Neden eski kitapları isteyeyim? Tarihin bilimde yeri yok!"
+
+ iberia_north_africa.2002.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Gözü Yıldızlarda Hekim"
+
+ iberia_north_africa.2002.desc:0 ""Hükümdarım, lütfen bu aptalı dinlesin! Bu Kızıl El şifacısı sağ gözüme katarakt ameliyatı yaptı ama şimdi sol gözümü düzeltmeyi reddediyor!" diye haykırır [patientzero.GetTitledFirstName]. "Ameliyat yalnızca yıldızların dizilimi kusursuz olduğu için başarılı oldu. Bir başka başarılı ameliyatı garantilemek için on iki yıl daha beklemelisiniz!" diye cevap verir öfkeli doktor, [generated_actor.GetFirstName].\n\nBir hükümdar olarak bu tür meseleleri çözmek benim görevim. Astrolojiye karışıp acemice bir ameliyat riskini almalı mıyım?"
  iberia_north_africa.2002.a:0 "Bu [child_offering.GetFirstNameNoTooltip] için mükemmel bir fırsat, kendini tıp alanında geliştirmek için daha iyi bir şans bulamazdı!"
  iberia_north_africa.2002.a.flavor:0 "Çocuğunuz [child_offering.GetFirstName], [patientzero.GetFirstName] adlı kişinin katarakt operasyonunda yardımcı olacak."
  iberia_north_africa.2002.a.a:0 "[child_offering.GetFirstName] operasyonda yardımcı oluyor"
@@ -190,50 +190,50 @@
  iberia_north_africa.2002.c:0 "Evet, şartların uygun olmasını beklemek en iyisi olacak."
  iberia_north_africa.2002.d:0 "#italic Aslında#!, #italic bu#! yönden bakarsan yıldızlar mükemmel konumda!"
  iberia_north_africa.2003.t:0 "$iberia_north_africa.fp2_golden_age_generic_title_intro$ Çatışan Doğalar"
-### TODO AGOT-CHANGED: iberia_north_africa.2003.desc [AGOT: Many scholars have come and passed through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic won't shut up#! and stop arguing about minute differences of belief in middle of my court.\n\n | TR: İlim yapanların hamisi olduğum için [playerprovince.GetNameNoTooltip] pek çok alim ağırladı ama iki tanesi dikkatimi çok çekiyor. Belki ikisi de büyük dehalar olduğundan, belki ikisi de bir türlü #italic çenelerini kapatıp#! bir dakika olsun tartışmayı kesemediğinden.]
- iberia_north_africa.2003.desc:0 "Many scholars have come and passed through [playerprovince.GetNameNoTooltip] since granting my sponsor, but two of them have stuck out to me. Perhaps it is because they are both individuals of vast intellect, perhaps it is because they #italic won't shut up#! and stop arguing about minute differences of belief in middle of my court.\n\n"I #italic refuse#! to work with a fool such as [generated_actor_r.GetFirstName]!" exclaims [generated_actor_k.GetFirstName] before [generated_actor_r.GetFirstName] replies with "Fine by me, I'd never work with someone as stubborn as #italic you!#!"\n\n"[ROOT.Char.GetTitledFirstName], what do you believe? Is it the role of the maester to explain the natural world or does it fall under the authority of the septon?""
+
+ iberia_north_africa.2003.desc:0 "İlim yapanların hamisi olduğum için [playerprovince.GetNameNoTooltip] pek çok alim ağırladı ama iki tanesi dikkatimi çok çekiyor. Belki ikisi de büyük dehalar olduğundan, belki ikisi de bir türlü #italic çenelerini kapatıp#! bir dakika olsun tartışmayı kesemediğinden."
  iberia_north_africa.2003.a:0 "Benim otoriteme girer. Şimdi işe koyul."
  iberia_north_africa.2003.a.flavor:0 "İki alimi de gücendirip birbirlerini değil de sizi küçümsemelerini sağlıyorsunuz."
-### TODO AGOT-CHANGED: iberia_north_africa.2003.b [AGOT: Maesters of course, that is why Peremore gathered them. | TR: Filozoflar tabii ki, Aristutalis gibi bilge adamların işi bu.]
- iberia_north_africa.2003.b:0 "Maesters of course, that is why Peremore gathered them."
-### TODO AGOT-CHANGED: iberia_north_africa.2003.c [AGOT: How can you believe maesters if you cannot trust Robeson? | TR: Ezekiel'e güvenemeyeceksen filozoflara nasıl inanabilirsin?]
- iberia_north_africa.2003.c:0 "How can you believe maesters if you cannot trust Robeson?"
+
+ iberia_north_africa.2003.b:0 "Filozoflar tabii ki, Aristutalis gibi bilge adamların işi bu."
+
+ iberia_north_africa.2003.c:0 "Ezekiel'e güvenemeyeceksen filozoflara nasıl inanabilirsin?"
  iberia_north_africa.fp2_pilgrim_roads_generic_title_intro:0 "Hacı Yolları:"
  iberia_north_africa.2011.t:0 "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Gezgin Savaşçı"
-### TODO AGOT-CHANGED: iberia_north_africa.2011.desc [AGOT: As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come upon an old oak whose cool shade tempts me to rest beneath its branches. I leave my retainers to sit there alone for a moment when I notice the legs of a [generated_actor.GetWomanMan] lying in the grass on the other side. With a light step, I round the trunk to ask softly, | TR: [chosen_location_for_pilgrim_roads.GetName] civarında dolaşırken altında dinlenmem için âdeta bana yalvaran büyük bir ağaç görüyorum ve usulca [Select_CString(generated_actor.IsFemale, 'kadının', 'adamın' )] yanındaki serin gölgelik yere oturuyorum.]
- iberia_north_africa.2011.desc:0 "As I wander through the [chosen_location_for_pilgrim_roads.GetName], I come upon an old oak whose cool shade tempts me to rest beneath its branches. I leave my retainers to sit there alone for a moment when I notice the legs of a [generated_actor.GetWomanMan] lying in the grass on the other side. With a light step, I round the trunk to ask softly, "Are you a pilgrim as well?""
-### TODO AGOT-CHANGED: iberia_north_africa.2011.desc_merge_into [AGOT: The resting warrior sits up at my voice then rises as they recognize my station before offering a quick bow, | TR: Dinlenen kişi cevaplıyor,]
- iberia_north_africa.2011.desc_merge_into:0 "The resting warrior sits up at my voice then rises as they recognize my station before offering a quick bow,"
+
+ iberia_north_africa.2011.desc:0 "[chosen_location_for_pilgrim_roads.GetName] civarında dolaşırken altında dinlenmem için âdeta bana yalvaran büyük bir ağaç görüyorum ve usulca [Select_CString(generated_actor.IsFemale, 'kadının', 'adamın' )] yanındaki serin gölgelik yere oturuyorum."
+
+ iberia_north_africa.2011.desc_merge_into:0 "Dinlenen kişi cevaplıyor,"
  iberia_north_africa.2011.desc_soldier:0 "$iberia_north_africa.2011.desc_merge_into$ "Ben [generated_actor.GetName] adında yolunu kaybetmiş bir savaşçıyım. [generated_actor.GetFaith.HighGodName] beni neden terk etti öğrenmek ve kılıcımı bundan sonra kime karşı sallamam gerektiğini öğrenmek için [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] yollarına düştüm.""
  iberia_north_africa.2011.desc_captain:0 "$iberia_north_africa.2011.desc_merge_into$ "Belki öyleyim. Ama ben kendimi daha çok kayıp bir ruh olarak tanımlıyorum. Adım [generated_actor.GetName], kutsal bir tarikatın lideriydim, şimdi ise [generated_actor.GetFaith.HighGodName] ve uğrunda savaşacak daha büyük bir amaç arayan basit bir gezginim.""
-### TODO AGOT-CHANGED: iberia_north_africa.2011.a [AGOT: Surely [generated_actor.GetFaith.HighGodName] sent me to you just as it sent you to me, [generated_actor.GetFirstNameNoTooltip]. | TR: [generated_actor.GetFaith.HighGodName] benim güçlerime katılmanı isterdi, [generated_actor.GetFirstNameNoTooltip].]
- iberia_north_africa.2011.a:0 "Surely [generated_actor.GetFaith.HighGodName] sent me to you just as it sent you to me, [generated_actor.GetFirstNameNoTooltip]."
-### TODO AGOT-CHANGED: iberia_north_africa.2011.b [AGOT: I have no doubt [generated_actor.GetFaith.HighGodName] would charge you to protect the roseroad. | TR: Eminim [generated_actor.GetFaith.HighGodName] düşmanlarını aramaya devam etmeni istiyordur.]
- iberia_north_africa.2011.b:0 "I have no doubt [generated_actor.GetFaith.HighGodName] would charge you to protect the roseroad."
+
+ iberia_north_africa.2011.a:0 "[generated_actor.GetFaith.HighGodName] benim güçlerime katılmanı isterdi, [generated_actor.GetFirstNameNoTooltip]."
+
+ iberia_north_africa.2011.b:0 "Eminim [generated_actor.GetFaith.HighGodName] düşmanlarını aramaya devam etmeni istiyordur."
  iberia_north_africa.2011.b.flavor:0 "Savaşçıyı [generated_actor.GetFaith.HighGodName] adına savaşmaya devam etmesi ve sizin iyi huyluluğunuzu yayması için cesaretlendiriyorsunuz."
-### TODO AGOT-CHANGED: iberia_north_africa.2011.c [AGOT: [generated_actor.GetFaith.HighGodName] will answer you in the midst of your pilgrimage. | TR: Eminim yolculuğun seni [generated_actor.GetFaith.HighGodName] ile yakınlaştıracak.]
- iberia_north_africa.2011.c:0 "[generated_actor.GetFaith.HighGodName] will answer you in the midst of your pilgrimage."
+
+ iberia_north_africa.2011.c:0 "Eminim yolculuğun seni [generated_actor.GetFaith.HighGodName] ile yakınlaştıracak."
  iberia_north_africa.2011.c.flavor:0 "Savaşçının [generated_actor.GetFaith.HighGodName] uğruna çıktığı göreve karışmadan devam etmesine izin veriyorsunuz."
  iberia_north_africa.2012.t:0 "$iberia_north_africa.fp2_pilgrim_roads_generic_title_intro$ Fakir Öğrenci"
-### TODO AGOT-CHANGED: iberia_north_africa.2012.desc [AGOT: Meandering down the newly constructed road leading to [chosen_location_for_pilgrim_roads.GetName], I encounter a gloomy young [generated_actor.GetWomanMan] sitting on a low stone wall overlooking the gorgeous view of the Reach's vineyards in bloom. As I approach the [generated_actor.GetWomanMan] turns to me extending a small leather pouch, | TR: [chosen_location_for_pilgrim_roads.GetName] bölgesinde yeni yaptırdığım yolları turlarken, bir kayanın üzerine oturmuş asık suratlı bir gence rastlıyorum. [Select_CString(generated_actor.IsFemale, 'Kadın', 'Adam' )] dönüp bana soruyor,]
- iberia_north_africa.2012.desc:0 "Meandering down the newly constructed road leading to [chosen_location_for_pilgrim_roads.GetName], I encounter a gloomy young [generated_actor.GetWomanMan] sitting on a low stone wall overlooking the gorgeous view of the Reach's vineyards in bloom. As I approach the [generated_actor.GetWomanMan] turns to me extending a small leather pouch, "Could you spare some coin for a student on pilgrimage, [ROOT.Char.Custom2('RelationToMeAddress', generated_actor)]?"
-### TODO AGOT-CHANGED: iberia_north_africa.2012.desc_student [AGOT: I am a student seeking the knowledge of the gods and... higher mysteries at the Citadel and Starry Sept. Don't we all wish to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]? I would even be willing to trade you my travelling notes as you are a fellow [generated_actor.GetFaith.GetAdjective]! | TR: Ben [generated_actor.GetFaith.HighGodName] tarafından bize bahşedilmiş bu dünyayı daha iyi anlamaya çalışan bir teoloji öğrencisiyim. Hatta [generated_actor.GetFaith.GetAdjective] kardeşime duyduğum minneti göstermek için isterseniz seyahat notlarımı size verebilirim!]
- iberia_north_africa.2012.desc_student:0 "I am a student seeking the knowledge of the gods and... higher mysteries at the Citadel and Starry Sept. Don't we all wish to better understand the world granted to us by [generated_actor.GetFaith.HighGodName]? I would even be willing to trade you my travelling notes as you are a fellow [generated_actor.GetFaith.GetAdjective]!""
-### TODO AGOT-CHANGED: iberia_north_africa.2012.desc_architect [AGOT: I study the architect's trade and I have come to see the wonders that lay at the end of the roseroad... and perhaps learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. If you have the coin I would even be willing to part with my notes on architecture! | TR: Ben bir mimarlık öğrencisiyim, bu kadar yolu [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] bölgesinin ünlü yapılarını görmek ve bir şeyler öğrenmek için geldim. Tüm hayatımı bu işe adadım. Eğer bana birkaç bozukluk verirseniz çizimlerimi size verebilirim!]
- iberia_north_africa.2012.desc_architect:0 "I study the architect's trade and I have come to see the wonders that lay at the end of the roseroad... and perhaps learn from the well-kept works at [chosen_holy_site_for_pilgrim_roads.GetNameNoTier]. If you have the coin I would even be willing to part with my notes on architecture!""
+
+ iberia_north_africa.2012.desc:0 "[chosen_location_for_pilgrim_roads.GetName] bölgesinde yeni yaptırdığım yolları turlarken, bir kayanın üzerine oturmuş asık suratlı bir gence rastlıyorum. [Select_CString(generated_actor.IsFemale, 'Kadın', 'Adam' )] dönüp bana soruyor,"
+
+ iberia_north_africa.2012.desc_student:0 "Ben [generated_actor.GetFaith.HighGodName] tarafından bize bahşedilmiş bu dünyayı daha iyi anlamaya çalışan bir teoloji öğrencisiyim. Hatta [generated_actor.GetFaith.GetAdjective] kardeşime duyduğum minneti göstermek için isterseniz seyahat notlarımı size verebilirim!"
+
+ iberia_north_africa.2012.desc_architect:0 "Ben bir mimarlık öğrencisiyim, bu kadar yolu [chosen_holy_site_for_pilgrim_roads.GetNameNoTier] bölgesinin ünlü yapılarını görmek ve bir şeyler öğrenmek için geldim. Tüm hayatımı bu işe adadım. Eğer bana birkaç bozukluk verirseniz çizimlerimi size verebilirim!"
  iberia_north_africa.2012.a:0 "Bu bilgi işime yarayabilir. Pekâlâ, bu anlaşmaya onay veriyorum."
-### TODO AGOT-CHANGED: iberia_north_africa.2012.b [AGOT: Why trade for your notes when I could have you? | TR: Belki de bir işe girmelisin.]
- iberia_north_africa.2012.b:0 "Why trade for your notes when I could have you?"
+
+ iberia_north_africa.2012.b:0 "Belki de bir işe girmelisin."
  iberia_north_africa.2012.b.flavor:0 "Öğrenciye sarayınızda iyi bir iş teklif edip onu şaşırtıyorsunuz."
  iberia_north_africa.2012.c:0 "Pazarlık yok. Bir [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] olarak sana yardım etmek benim görevim."
  iberia_north_africa.2013.t:0 "Hacılar için bu yolu açan kişinin şerefine."
  iberia_north_africa.2013.desc:0 "[chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] kutsal bölgesine erişim için yaptığın iş muazzam. Bunun için seni ödüllendirmekle yükümlüyüm.\n\nSöyle, istediğin bir şey var mı?"
  iberia_north_africa.2013.a:0 "Övgünüze mazhar olmuş olmak bana yeter, [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName]."
  iberia_north_africa.2013.b:0 "[ROOT.Char.GetFaith.HighGodName] adına başardıklarımı herkes duysun."
-### TODO AGOT-CHANGED: iberia_north_africa.2013.d [AGOT: Grant me a relic to show the pilgrims who seek [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] my devotion. | TR: Bana [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] sarayında sergilemeye değer bir eser hediye edin.]
- iberia_north_africa.2013.d:0 "Grant me a relic to show the pilgrims who seek [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] my devotion."
-### TODO AGOT-CHANGED: iberia_north_africa.2013.d.tooltip [AGOT: The [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName] will bestow upon you an anointed [artifact|E] | TR: [fp2_iberia_north_africa_2013_head_of_faith.GetTitledFirstName] size kutsanmış bir [artifact|E] hediye edecek]
- iberia_north_africa.2013.d.tooltip:0 "The [fp2_iberia_north_africa_2013_head_of_faith.GetFaith.ReligiousHeadName] will bestow upon you an anointed [artifact|E]"
+
+ iberia_north_africa.2013.d:0 "Bana [chosen_holy_site_for_pilgrim_roads.GetNameNoTierNoTooltip] sarayında sergilemeye değer bir eser hediye edin."
+
+ iberia_north_africa.2013.d.tooltip:0 "[fp2_iberia_north_africa_2013_head_of_faith.GetTitledFirstName] size kutsanmış bir [artifact|E] hediye edecek"
  iberia_north_africa.2013.notif.t:0 "Dindarlık Yolları"
  struggle_iberia_form_portugal_decision_correct_phase_tt:0 "Şu anki [struggle_phase|E] [struggle_phase_iberia_opportunity|E]"
  iberia_north_africa.2100.t: "Eski Vaskonya Yeniden Kuruldu"

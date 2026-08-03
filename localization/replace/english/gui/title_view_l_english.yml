@@ -28,8 +28,8 @@
  TITLE_VIEW_CLAIMANTS:1 "Hak Sahipleri: [TitleViewWindow.GetNumberOfClaimants]"
  TITLE_VIEW_NO_CLAIMANTS:0 "Hak sahibi olamaz"
  TITLE_VIEW_NO_CLAIMANTS_TOOLTIP:0 "#T $TITLE_VIEW_NO_CLAIMANTS$\n#!Bazı [Concept( 'titles', 'unvanlarda' )|E] [claimant|E] olamaz: \n$BULLET_WITH_TAB$Tüm [baronies|E]\n$BULLET_WITH_TAB$[mercenary_company|E] Unvanları\n$BULLET_WITH_TAB$[holy_order|E] Unvanları\n$BULLET_WITH_TAB$[head_of_faith|E] Unvanları"
-### TODO AGOT-CHANGED: TITLE_VIEW_TITLE_HISTORY_LABEL [AGOT: [SelectLocalization( Title.MakeScope.Var('is_pirate_domicile').IsSet, 'TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP', 'TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP' )] | TR: [Title.GetBaseName] Tarihi]
- TITLE_VIEW_TITLE_HISTORY_LABEL:2 "[SelectLocalization( Title.MakeScope.Var('is_pirate_domicile').IsSet, 'TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP', 'TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP' )]"
+
+ TITLE_VIEW_TITLE_HISTORY_LABEL:0 "[Title.GetBaseName] Tarihi"
  TITLE_VIEW_SHOW_ELECTION_TT:2 "#T Seçimi Göster#!"
  TITLE_VIEW_CLEAR_LAWS:0 "Yasayı Kaldır"
  TITLE_VIEW_CLEAR_LAWS_TOOTLIP_TITLE:0 "#T [title_succession|E] Yasasını Temizle#!"
@@ -187,8 +187,8 @@
  FIND_VASSAL_RELEVANCE:0 "Alaka"
  FIND_VASSAL_BUTTON_TOOLTIP: "#T $FIND_VASSAL_HEADER$#!\n[Title.GetNameNoTooltip|V] unvanını vermek için birini seçin.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT:0 "[Concept( 'vassals', 'Vasallarınıza' )|E], [Concept( 'realm', 'Ülkenizdeki' )|E] [guests|E]e veya [Concept( 'courtiers', 'Saray Mensuplarınıza' )|E] [title|E] verebilirsiniz"
-### TODO AGOT-CHANGED: GRANT_TO_SAME_CULTURE_NOBLE_HEADER [AGOT: A Noble of the [GetPlayer.Custom('same_culture_noble_header')] Culture | TR: [GetPlayer.GetCulture.GetNameNoTooltip] Kültüründen bir Soylu]
- GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "A Noble of the [GetPlayer.Custom('same_culture_noble_header')] Culture"
+
+ GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "[GetPlayer.GetCulture.GetNameNoTooltip] Kültüründen bir Soylu"
  GRANT_TO_SAME_CULTURE_NOBLE_INFO:0 "Bu unvanı #V Kültürünüzden#! [Select_CString( GetPlayer.GetTopLiege.GetGovernment.HasRule( 'state_faith' ), GetPlayer.GetTopLiege.GetPrimaryTitle.GetStateFaith.GetAdjectiveNoTooltip, GetPlayer.GetFaith.GetAdjectiveNoTooltip )] bir Soyluya verin"
  GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T [GetPlayer.GetCulture.GetName] Kültüründen bir Soyluya verin#!\nYerel [culture|E]den olmayan bir [Concept( 'ruler', 'Hükümdara' )|E] sahip [county|E]lar düşük [county_opinion|E]ne sahip olur.\n\nAynı [culture|E]deki [Concept( 'vassals', 'Vasalların' )|E] [liege|E]lerine karşı [Concept( 'opinion', 'Görüşü' )|E] daha fazla olur.\n\n#I Vermek için tıklayın#!"
  GRANT_TO_LOCAL_CULTURE_NOBLE_HEADER:0 "Yerel [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetNameNoTooltip] bir Soylu"

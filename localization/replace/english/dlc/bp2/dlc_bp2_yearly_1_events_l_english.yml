@@ -1,11 +1,11 @@
 ﻿l_english:
  bp2_yearly.1000.t: "Ne Ekersen..."
-### TODO AGOT-ONLY: bp2_yearly.1000.desc_drunkard [AGOT: ]
- bp2_yearly.1000.desc_drunkard: ""One... one more round, schervant, if you pleashe... #EMP *hic*!#!"\n\nThe [ROOT.Char.Custom('RegionalAlcoholicDrink')] is ruining my speech, but I'm too snuggled up in its comfort to care at this point. To care about most things, actually.\n\nIn a great wet rush, the alcohol chooses to flee my body — all over my supper! The surrounding guests snort in disgust."
-### TODO AGOT-CHANGED: bp2_yearly.1000.desc_hashishiyah [AGOT: The milk of the poppy is of excellent quality this time around — so strong, my skin starts itching and my clothes just feel #EMP too tight!#!\n\nI strip bare and, following a whim, chase some bird song outside. A moment later, I turn back... | TR: Bu defaki haşiş mükemmel kalitede, o kadar kuvvetli ki tenim kaşınmaya başlıyor ve kıyafetlerim #EMP sımsıkı!#! hissettiriyor!\n\nKıyafetlerimi çıkarıp birden bir kuşu dışarı çıkana kadar kovalamaya başladım. Hemen sonra geri döndüm...]
- bp2_yearly.1000.desc_hashishiyah: "The milk of the poppy is of excellent quality this time around — so strong, my skin starts itching and my clothes just feel #EMP too tight!#!\n\nI strip bare and, following a whim, chase some bird song outside. A moment later, I turn back..."
-### TODO AGOT-ONLY: bp2_yearly.1000.desc_reclusive [AGOT: ]
- bp2_yearly.1000.desc_reclusive: ""Cursed fools and rancid curs, all of them!" I mutter, as I finally take solitude in silence. I massage my temples and close my eyes.\n\nAn unexpected noise returns me to reality. My eyes snap open. #EMP Am I not alone, as I crave to be?!#! I mumble a curse."
+
+ bp2_yearly.1000.desc_drunkard:0 ""Bir... bir tur daha, hizmetçi, lütfen... #EMP *hıçkırık*#!"\n\n[ROOT.Char.Custom('RegionalAlcoholicDrink')] konuşmamı mahvediyor, ama bu noktada rahatlığına o kadar gömülmüşüm ki umursamıyorum. Çoğu şeyi umursamıyorum, aslına bakılırsa.\n\nBüyük, ıslak bir hücumla alkol bedenimden kaçmayı seçiyor — akşam yemeğimin üzerine! Etraftaki misafirler tiksintiyle homurdanıyor.""
+
+ bp2_yearly.1000.desc_hashishiyah:0 "Bu defaki haşiş mükemmel kalitede, o kadar kuvvetli ki tenim kaşınmaya başlıyor ve kıyafetlerim #EMP sımsıkı!#! hissettiriyor!\n\nKıyafetlerimi çıkarıp birden bir kuşu dışarı çıkana kadar kovalamaya başladım. Hemen sonra geri döndüm..."
+
+ bp2_yearly.1000.desc_reclusive:0 ""Lanetli aptallar ve kokmuş itler, hepsi!" diye mırıldanıyorum, nihayet sessizlikte yalnızlığı bulurken. Şakaklarımı ovuyor ve gözlerimi kapatıyorum.\n\nBeklenmedik bir ses beni gerçekliğe döndürüyor. Gözlerim aniden açılıyor. #EMP Can attığım gibi yalnız değil miyim?#! Bir küfür mırıldanıyorum.""
  bp2_yearly.1000.desc_irritable: "Gece geç oldu. Lordlar ve leydiler benim hakkımda gevezelik edip duruyor. Ağrıyan başım düşüncelerime çiviler geçiriyor.\n\nDüşen bir sürahi yanı başımda kırıldı.\n\nHiç çekinmeden buna sebep olan hizmetkâra bağırdım: "Seni küstah #EMP [dummy_gender.Custom2('InsultNounClumsy', ROOT.Char)]!#! [dummy_gender.Custom2('InsultAdjectiveClumsy', ROOT.Char)] bir dev mi doğurdu seni?!""
  bp2_yearly.1000.desc_flagellant: "#EMP *ÇAT!*#! Kırbacım öfkeyle üstüme indi, #EMP tekrar#! ve #EMP tekrar.#! Yoğun ve yakıcı bir acı çullandı üzerime.\n\nVücudumu birkaç kez daha kamçıladım. Her bir darbe beni bağışlanmaya biraz daha yaklaştırdı."
  bp2_yearly.1000.desc_profligate: "#EMP Hmm#! bu güzel görünüyor. Evet, o da. Seçtiklerimi satın aldıktan sonra aldıklarımı hizmetkârlarıma uzattım.\n\nArkamı döndüğümde topladığım manasız eşyalardan oluşan yığınla karşı karşıya kaldım. Sanki biraz... aşırı olmaya başladı. Kesem de... bomboş kaldı."
@@ -122,10 +122,10 @@
  bp2_yearly.1015.b.tt_matching: "[golden_child.GetFirstNamePossessiveNoTooltip] [stewardship|E] [education_focus|E] fazlasıyla ilerleme kaydedecek"
  bp2_yearly.1020.t: "Sırlarla Dolu"
  bp2_yearly.1020.intro: "Bir metni incelemek için elime aldığımda [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('secrety_child'))] [secrety_child.GetFirstName] [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'çadırın', 'odanın')] içine dalarak sakin yalnızlığımı yarıda kesti.\n\n"
-### TODO AGOT-ONLY: bp2_yearly.1020.desc_guardian [AGOT: ]
- bp2_yearly.1020.desc_guardian: ""[ROOT.Char.Custom('MistressMaster')|U] [ROOT.Char.GetFirstNameNoTooltip]!"
-### TODO AGOT-ONLY: bp2_yearly.1020.desc_parent [AGOT: ]
- bp2_yearly.1020.desc_parent: ""[secrety_child.Custom2('RelationToMeShort', ROOT.Char)|U]!"
+
+ bp2_yearly.1020.desc_guardian:0 ""[ROOT.Char.Custom('MistressMaster')|U] [ROOT.Char.GetFirstNameNoTooltip]!""
+
+ bp2_yearly.1020.desc_parent:0 ""[secrety_child.Custom2('RelationToMeShort', ROOT.Char)|U]!""
  bp2_yearly.1020.desc: "Dramatik bir etki vermek için durup soluklandı."
  bp2_yearly.1020.a: "Çıkar ağzından baklayı!"
  bp2_yearly.1020.a.secret.t: "Sır Öğrenildi"
@@ -158,16 +158,16 @@
  bp2_yearly.1040.t: "Kılıçtan Keskin Kalem"
  bp2_yearly.1040.desc: "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('sparring_child'))|U] [sparring_child.GetFirstName] ile idman yapmak için keçeli kılıçlara uzandığımda kenarda yırtık pırtık bir günlüğün durduğunu fark ettim.\n\nKapağına bakılırsa dövüş sanatlarıyla ilgili egzersizleri ve en iyi numaraları içeriyor.\n\n[sparring_child.GetFirstNameNoTooltip] bana baktı: "Oh. O şeyi daha çok çizimleri için okuyorum. Ödünç alabilirsin.""
  bp2_yearly.1040.a: "İlginç."
-### TODO AGOT-ONLY: bp2_yearly.1040.a.flavor [AGOT: ]
- bp2_yearly.1040.a.flavor: ""Grasp the hilt, not the pointy end." Hm."
+
+ bp2_yearly.1040.a.flavor:0 ""Kabzayı kavra, sivri ucunu değil." Hm.""
  bp2_yearly.1040.b: "Deneyelim bakalım!"
  bp2_yearly.1040.b.tt: "[sparring_child.GetFirstNamePossessiveNoTooltip] [martial|E] [education_focus|E] ilerleme kaydedecek"
  bp2_yearly.1040.b.tt_matching: "[sparring_child.GetFirstNamePossessiveNoTooltip] [martial|E] [education_focus|E] fazlasıyla ilerleme kaydedecek"
  bp2_yearly.1045.t: "Müzakereci"
  bp2_yearly.1045.intro: "Öğleden sonra [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] sokaklarında dolaşırken [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('diplomacy_child'))] [diplomacy_child.GetFirstName] koşarak yanıma geldi:"
  bp2_yearly.1045.desc_guardian: "$bp2_yearly.1020.desc_guardian$"
-### TODO AGOT-ONLY: bp2_yearly.1045.desc_parent [AGOT: ]
- bp2_yearly.1045.desc_parent: ""[diplomacy_child.Custom2('RelationToMeShort', ROOT.Char)|U]!"
+
+ bp2_yearly.1045.desc_parent:0 ""[diplomacy_child.Custom2('RelationToMeShort', ROOT.Char)|U]!""
  bp2_yearly.1045.desc: "Birbirlerine yumruk sallamaya başladılar..."\n\nTiz bir çığlıkla lafı bölündü, bunun üzerine sokağın aşağısındaki kavgaya dikkat kesildik.\n\nKavga edenler #EMP benim#! [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'kampımdaki', 'sarayımdaki')] birkaç delikanlı gibi görünüyor ve birbirlerinin etrafında daireler çiziyorlardı."
  bp2_yearly.1045.a: "#EMP Kesin şunu, ikinize de diyorum.#!"
  bp2_yearly.1045.a.perk.t: "Yetenek Kazanıldı"
@@ -234,8 +234,8 @@
  economical_architecture_book_desc: "Ticaret limanlarının tarihini ve yerlerini konu alan bir vakayiname."
  martial_architecture_book: "Kale ve Hizmetkârları"
  martial_architecture_book_desc: "Kale inşa etme sanatını konu alan bir vakayiname."
-### TODO AGOT-CHANGED: religious_architecture_book [AGOT: Pasabaralion | TR: Dei Gratia]
- religious_architecture_book: "Pasabaralion"
+
+ religious_architecture_book:0 "Dei Gratia"
  religious_architecture_book_desc: "[ROOT.Char.GetCurrentLocation.GetCounty.GetName] ve çevresinde ibadet edilebilecek dikkate değer mekânların yer aldığı bir kitap."
  bp2_yearly.1060.a: "[steward_character.GetTitledFirstNameNoTooltip] bilgili biri gibi duruyor."
  bp2_yearly.1060.a.flavor: "İyi bir ticaret merkezinin özellikleri neler?"
@@ -294,8 +294,8 @@
  bp2_yearly.1071.desc_temple: "[ROOT.Char.GetFaith.HighGodNameAlternate] uğruna inşa edilmiş. Aynı inancımız gibi sağlam temellere sahip duvarları var ve kemerleri ruhani bir hava yayıyor."
  bp2_yearly.1071.outro: "\n\n[constructed_holding.GetName] gerçekten de muhteşem bir bina; tarihe bir mimari dehasının, yani benim, filizlenişi olarak geçecek."
  bp2_yearly.1071.a: "Bu oldu işte."
-### TODO AGOT-ONLY: bp2_yearly.1071.a.flavor [AGOT: ]
- bp2_yearly.1071.a.flavor: ""
+
+ bp2_yearly.1071.a.flavor:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  bp2_yearly.1072.t: "$bp2_yearly.1050.t_builder$: Hayal Kırıklıklarının İnşaatçısı"
  bp2_yearly.1072.desc: "Ben... ben... ne olduğundan emin değilim. [cancelled_holding.GetName] üzerinde inşa edilmesi planlanan yerleşim yitip gitti."
  bp2_yearly.1072.a: "Üzücü oldu."

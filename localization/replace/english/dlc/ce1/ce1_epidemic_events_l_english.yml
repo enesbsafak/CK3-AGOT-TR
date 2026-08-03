@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  health.1015.t: "[SCOPE.Custom('EventTitleDisease')]: Kaşıntı"
  health.1015.desc: "#EMP Sürekli bir kaşıntı!#! Gecenin bir yarısı uyandığımda parmaklarımdaki kan dikkatimi çekiyor. Bir süre sonra kanın az önce kaşıdığım bacağımdan geldiğini görüyorum. Öyle şiddetli kaşınıyor ki, kendime hâkim olamıyorum.\n\nYüzümü soğuk suya batırarak kaşınma duygusunun geçmesini umuyorum. Aynaya baktığımda gözlerimin kan çanağına döndüğünü görüyorum."
  health.1015.court_physician.desc: "\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], siz kızamık olmuşsunuz.""
@@ -40,8 +40,8 @@
  disease_desc_short_measles: "kırmızı lekelerle kaplı"
  disease_desc_short_dysentery: "kanlı ishalin etkisinde"
  disease_desc_short_ergotism: "istemsiz kasılmalardan muzdarip"
-### TODO AGOT-CHANGED: disease_desc_short_typhus [AGOT: tormented by green fever | TR: lekeli hummadan muzdarip]
- disease_desc_short_typhus: "tormented by green fever"
+
+ disease_desc_short_typhus:0 "lekeli hummadan muzdarip"
  disease_desc_short_consumption: "kanlı öksürüklerin etkisinde"
  disease_desc_short_smallpox: "yaralar ve döküntülerle kaplı"
  disease_desc_short_cancer: "gücünü yitirmiş vaziyette"
@@ -60,8 +60,8 @@
  epidemic_events.1000.c: "Nihayet, işte [charismatic_priest.GetFaith.HighGodName|U]!"
  epidemic_events.1010.t: "Hayalet Sevgilim"
  epidemic_events.1010.desc: "[epidemic_scope.GetName|U] topraklarımı kasıp kavuruyor, şimdi de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('superstitious_courtier'))] [superstitious_courtier.GetFirstName] kötü haberlerle geliyor.\n\n"[ROOT.Char.GetTitleAsNameNoTooltip|U]," diye yalvarıyor: "[dead_lover.GetFirstName] için duyduğunuz aşk biliniyor. Ama veba ölülerle yayılır. Onun tabutunu mühürlemeli, kapağını çivileyip kapatmalıyız. Yoksa geri dönebilir ve vebayı yayabilir.""
-### TODO AGOT-ONLY: epidemic_events.1010.a [AGOT: ]
- epidemic_events.1010.a: ""How dare you!""
+
+ epidemic_events.1010.a:0 ""Buna nasıl cüret edersin!""
  epidemic_events.1010.b: "Ya haklıysa..."
  epidemic_events.1010.c: "Tüm tabutlara çivi çakın!"
  all_realm_county_epidemic_scope: "[epidemic_scope.GetName] bulunan tüm [realm|E] [Concept( 'county', 'Kontlukları' )|E]"
@@ -115,10 +115,10 @@
  epidemic_events.1061.c: "Hayvanlara zarar vermek suç sayılmalı."
  epidemic_events.1062.t: "$story_plague_trials_title$ Yakalayıcılar"
  epidemic_events.1062.desc.intro: "Ter ve duman kokan bir grup kaçak avcı, [ROOT.Char.Custom('GetCourt')] salonuna giriş yapıyor.\n\n"
-### TODO AGOT-ONLY: epidemic_events.1062.desc.mid.cats [AGOT: ]
- epidemic_events.1062.desc.mid.cats: ""My liege, it's the cats. Slippery beasts — too many eyes, never sleep. Folk say they bring the plague with their purring.""
-### TODO AGOT-ONLY: epidemic_events.1062.desc.mid.dogs [AGOT: ]
- epidemic_events.1062.desc.mid.dogs: ""My [ROOT.Char.GetTitleAsNameNoTooltip|U], the dogs are cursed. Everyone knows it. Let us finish the purge — every beast, every mutt, until the plague ends.""
+
+ epidemic_events.1062.desc.mid.cats:0 ""Hükümdarım, kediler. Sinsi yaratıklar — çok fazla gözleri var, hiç uyumazlar. Halk, mırıltılarıyla vebayı getirdiklerini söylüyor.""
+
+ epidemic_events.1062.desc.mid.dogs:0 ""[ROOT.Char.GetTitleAsNameNoTooltip|U]'im, köpekler lanetli. Herkes biliyor. Temizliği bitirelim — her hayvanı, her iti, veba bitene dek.""
  epidemic_events.1062.desc.outro: "\n\nKan çoktan çizmelerine bulaşmış halde, sırıtarak sizin onayınızı bekliyorlar."
  epidemic_events.1062.a: "Hepsini öldürün."
  epidemic_events.1062.a.no_effect: "Hayvanları öldürmenin bir faydası olmadı"
@@ -279,8 +279,8 @@
  epidemic_events.2002.desc: "[vassal_war.GetName|U] uzadıkça uzuyor. Adamlar toprak uğruna ölüyor ve toprak da onları yığınlar hâlinde geri veriyor.\n\nŞimdi [epidemic_scope.GetName] daha da hızlı yayılıyor, çürüyen cesetlerden, boşalmış köylerden ve kuşatmanın deliliğinden besleniyor. Bu savaşın kazananı yok. Herkes ölüyor."
  epidemic_events.2002.a: "Yazık."
  epidemic_events.2003.t: "Görünmez Düşman"
-### TODO AGOT-ONLY: epidemic_events.2003.desc [AGOT: ]
- epidemic_events.2003.desc: ""Our soldiers fall without a fight. [epidemic_scope.GetName|U] has taken more than any blade."\n\n[marshal.GetName] speaks harshly, but he's right. From [first_epidemic_province.GetName] to [second_epidemic_province.GetName], the barracks lie empty. There are no warriors left — only peasants and plague."
+
+ epidemic_events.2003.desc:0 ""Askerlerimiz savaşmadan düşüyor. [epidemic_scope.GetName|U] herhangi bir kılıçtan daha fazlasını aldı."\n\n[marshal.GetName] sert konuşuyor, ama haklı. [first_epidemic_province.GetName]'den [second_epidemic_province.GetName]'e kadar kışlalar bomboş. Geriye savaşçı kalmadı — sadece köylüler ve veba.""
  epidemic_events.2003.a: "Yapılacak bir şey yok, bırakın ölsünler."
  epidemic_events.2003.a.flavor: "İyi askerler her zaman altın bulsa da, altın iyi askeri nadiren bulur."
  epidemic_events.2003.b: "Gerekirse tarlalardaki köylüleri orduya çağırın."
@@ -304,12 +304,12 @@
  epidemic_events.2006.d: "[ROOT.Char.GetFaith.HighGodName] aşkına yerinde dur be [Select_CString(dance_victim.IsFemale, 'kadın', 'adam' )]!"
  epidemic_events.3000.t: "$travel_danger_prefix$ Kapıdaki Kan"
  epidemic_events.3000.desc: "[epidemic_location.GetName] boydan boya kırmızıya boyanmış. Öksürükten başka bir şeyin sesi duyulmuyor. Atlarımızla ilerliyoruz fakat [companion.GetTitledFirstName] özellikle düne nazaran daha solgun görünüyor, dudaklarında hiç kan kalmamış gibi.\n\n"Yardım edin..." Ceset zannettiğimiz bedenlerden birisi hareket ediyor, vücudu tamamen [sick_peasant.Custom('disease_desc_short')]."
-### TODO AGOT-ONLY: epidemic_events.3000.a [AGOT: ]
- epidemic_events.3000.a: ""I cannot turn a blind eye to this.""
-### TODO AGOT-ONLY: epidemic_events.3000.b [AGOT: ]
- epidemic_events.3000.b: ""[companion.GetFirstNameNoTooltip], you may assist them.""
-### TODO AGOT-ONLY: epidemic_events.3000.c [AGOT: ]
- epidemic_events.3000.c: ""We have no time for this.""
+
+ epidemic_events.3000.a:0 ""Buna göz yumamam.""
+
+ epidemic_events.3000.b:0 ""[companion.GetFirstNameNoTooltip], onlara yardım edebilirsin.""
+
+ epidemic_events.3000.c:0 ""Bunun için vaktimiz yok.""
  epidemic_events.3000.b.sick: "[companion.GetShortUIName] hasta oluyor"
  epidemic_events.3010.t: "$travel_danger_prefix$ Leş"
  epidemic_events.3010.desc: "[epidemic_location.GetName] dolaylarına vardığımızda su kaynaklarımızın azaldığını fark ediyoruz. Terk edilmiş gibi görünen bu köyün merkezinde bir su kuyusu var gibi görünüyor. Bineklerimizle birlikte kuyuya doğru ilerliyoruz.\n\nÇok geçmeden köyün neden terk edildiği anlaşılıyor.\n\nSokaklarda hastaların vücutları tamamen [sick_peasant.Custom('disease_desc_short')], leş yiyen kuşlar üzerlerinde tur atıyor. Ürkütücü bir görüntü."
@@ -342,19 +342,19 @@
  epidemic_events.5000.e: ""Gerek yok.""
  epidemic_events.5001.t: "Kapıları Kapatın!"
  epidemic_events.5001.desc: "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U], gözleri fal taşı gibi açılmış, kucak dolusu [ROOT.Char.Custom('GetWritingMaterial')] ile içeri dalıyor.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')], [epidemic_county.GetNameNoTier] cesetlere boğulmuş durumda! Sokaklar ceset dolu!" Mektupları hışımla önüme bırakıyor. Telaşla hazırlanmış yığının içinde göz gezdiriyorum.\n\nEn son duyduğumda [epidemic_scope.GetName] kontrol altındaydı..."
-### TODO AGOT-ONLY: epidemic_events.5001.a [AGOT: ]
- epidemic_events.5001.a: ""Shut it down! Shut down #EMP everything!#!""
+
+ epidemic_events.5001.a:0 ""Kapatın! #EMP Her şeyi#! kapatın!""
  epidemic_events.5001.b: "[epidemic_county.GetName] topraklarının yöneticileri gereğini yapacaktır."
-### TODO AGOT-ONLY: epidemic_events.5001.c [AGOT: ]
- epidemic_events.5001.c: ""Don't you think I have enough to worry about, [courtier.Custom2('InsultNoun', ROOT.Char)]?!""
+
+ epidemic_events.5001.c:0 ""Endişelenecek yeterince şeyim olmadığını mı sanıyorsun, [courtier.Custom2('InsultNoun', ROOT.Char)]?!""
  epidemic_events.5001.d: "Biraz yardım göndersek iyi olur."
  epidemic_events.5001.e: "Yapacak bir şey yok."
  epidemic_events.5002.t: "Kıyıların Sessizliği"
  epidemic_events.5002.desc: "Birlikte yürürken [steward.GetFirstName], [coastal_province.GetName] topraklarındaki salgına dair bazı bilgiler veriyor. Uzaktan baktığımızda kıyıya dizilmiş bedenleri görebiliyoruz. Yanında ise terk edilmiş bir bot kıyıya vurmuş bir şekilde bekliyor. Bir anda ona dönmemle beraber, meraklı bir yüz ifadesiyle bana baktığını görüyorum.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')], isterseniz şu bedenlerden kolaylıkla kurtulabiliriz."\n\nTekrardan yüzünü bota çevirmesiyle neyi kastettiğini anlıyorum. Nihayetinde bot terk edilmiş ve bir şekilde bu bedenleri ortadan kaldırmak gerekiyor..."
  epidemic_events.5002.a: "Bu su hangi yöne akıyordur acaba?"
  epidemic_events.5002.a.tt: "Belki de bu botu #EMP başkasının#! problemi hâline getirebiliriz..."
-### TODO AGOT-ONLY: epidemic_events.5002.b [AGOT: ]
- epidemic_events.5002.b: ""Load it up and set it adrift.""
+
+ epidemic_events.5002.b:0 ""Yükleyin ve akıntıya bırakın.""
  epidemic_events.5002.b.success: "Bot bir daha görülmüyor"
  epidemic_events.5002.b.failure: "Bot birkaç gün sonra tekrardan kıyıya vuruyor"
  epidemic_events.5002.b.criticalfailure: "Bot batıyor, cansız bedenler kıyıya vuruyor"
@@ -362,8 +362,8 @@
  epidemic_events.5002.d: "En azından bot yüzebilir gibi duruyor..."
  epidemic_events.5003.t: "İyileştirici Eller"
  epidemic_events.5003.desc: "[location.GetName] sokaklarına çamur ve sefalet sinmiş durumda. Bir anda köylünün teki bana doğru hareket ediyor, yanında küçük bir çocuk var.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')], lütfen," diye yalvarıyor. "Çocuğum çok hasta. Sizin asil dokunuşunuz onu iyileştirebilir..."\n\nÇocuk sendeleyip duruyor." 
-### TODO AGOT-ONLY: epidemic_events.5003.a [AGOT: ]
- epidemic_events.5003.a: ""Guards, get that #EMP thing#! away from me!""
+
+ epidemic_events.5003.a:0 ""Muhafızlar, o #EMP şeyi#! benden uzaklaştırın!""
  epidemic_events.5003.b: "Pek faydası olacağını sanmıyorum ama..."
  epidemic_events.5003.b.tt: "Köylüler kraliyet dokunuşunun faydaları ve bazı yan etkileri olabileceğine inanıyor..."
  epidemic_events.5003.b.criticalsuccess: "Bebek mucizevi bir şekilde iyileşiyor"
@@ -372,8 +372,8 @@
  epidemic_events.5003.c: "İlerlemeye devam edelim."
  epidemic_events.5004.t: "Akın Akın"
  epidemic_events.5004.desc: "Bir kükreme, bir gürültü, taht odasının kapıları ardına kadar açılıyor ve içeri bir köylü seli doluşuyor. Yaşlısı, genci, hastası, tüm gözler bana çevrilmiş durumda.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]," diye yalvarıyor içlerinden biri, "Bizi [epidemic_scope.GetName] felaketinden koruyun. Korumanız gerek."\n\nMuhafızlarım hazır bekliyor, emrimi gözlüyor."
-### TODO AGOT-ONLY: epidemic_events.5004.a [AGOT: ]
- epidemic_events.5004.a: ""Come on in, everyone!""
+
+ epidemic_events.5004.a:0 ""İçeri gelin, millet!""
  epidemic_events.5004.a.new_courtiers: "Tüm yeni saray mensupları, #color_white size#! karşı #positive_value 40#! görüş kazanacak"
  epidemic_events.5004.a.old_courtiers: "Tüm eski saray mensupları, #color_white size#! karşı #negative_value 10#! görüş kaybedecek"
  epidemic_events.5004.b: "Onları dışarı çıkarın."
@@ -399,14 +399,14 @@
  epidemic_events.5006.d: "İnanılmaz."
  epidemic_events.5007.t: "Cadılık Suçlamaları"
  epidemic_events.5007.desc: "Bir kargaşa kopuyor, [accuser.Custom2('MyCharacterIntroduction', ROOT.Char)] öfkeli bir kalabalığa önderlik ederek [herbalist.Custom2('MyCharacterIntroduction', ROOT.Char)] adlı kişiyi köşeye sıkıştırıyor.\n\n"Ot toplayan cadı!" diye kükreyip bağırıyor. "[herbalist.GetFirstNameNoTooltip] dışarı adımını atar atmaz [epidemic_scope.GetName] peşinden geldi!"\n\n[herbalist.GetFirstNameNoTooltip], sesler yükselirken dimdik duruyor."
-### TODO AGOT-ONLY: epidemic_events.5007.a [AGOT: ]
- epidemic_events.5007.a: ""Enough! Herbalism is a noble art.""
+
+ epidemic_events.5007.a:0 ""Yeter! Bitkibilim asil bir sanattır.""
  epidemic_events.5007.b: "Cadıyı zindana atın!"
  epidemic_events.5007.c: "Saçmalık."
  epidemic_events.5007.c.success: "Kalabalık ikna oluyor"
  epidemic_events.5007.c.failure: "Kalabalık argümanlarınızı duymazdan geliyor"
-### TODO AGOT-ONLY: epidemic_events.5007.d [AGOT: ]
- epidemic_events.5007.d: ""Enough! Cease your baseless accusations, [accuser.GetFirstNameNoTooltip].""
+
+ epidemic_events.5007.d:0 ""Yeter! Asılsız suçlamalarını kes, [accuser.GetFirstNameNoTooltip].""
  epidemic_events.5007.e: "Belki de [herbalist.GetFirstNameNoTooltip] bir daha yapmamaya söz verebilir?"
  epidemic_events.5008.t: "Gözden Irak"
  epidemic_events.5008.desc: "Tam anlamıyla #EMP iyi#! bir şey olduğu söylenemez fakat [epidemic_scope.GetName] başladığından beri birtakım faydalarını fark etmeye başlıyorum. Ne ziyaretçi var ne de doğru dürüst hizmetkâr. Sessiz. Huzurlu.\n\nBelki de bu tecrit hastalıktan kaçınmama yardım ediyordur... ya da belki ben sadece saklanmayı seviyorum.\n\nYine de yeniden yüz göstermeli miyim?"
@@ -415,8 +415,8 @@
  epidemic_events.5008.c: "[epidemic_scope.GetNameNoTooltip] iyi denk geldi!"
  epidemic_events.5009.t: "Şifalı Koku"
  epidemic_events.5009.desc: "Pazar yeri genel olarak pis kokuyor ama tezgâhlardan birinden tuhaf derecede hoş bir koku geliyor.\n\n"Taze kokulu kesecikler! En iyi otlar!" diye sesleniyor tüccar. "[epidemic_scope.GetName] yokmuş gibi davranın!"\n\nDoğrusu umut verici kokuyor... gerçi fiyatı da bir hayli yüksek."
-### TODO AGOT-ONLY: epidemic_events.5009.a [AGOT: ]
- epidemic_events.5009.a: ""How many do you have for sale?""
+
+ epidemic_events.5009.a:0 ""Kaç tane satıyorsun?""
  epidemic_events.5009.b: ""[newly_created_artifact.GetNameNoTooltip] alayım.""
  epidemic_events.5009.b.success: "Tezgâhtar indirim yapmaya razı oluyor"
  epidemic_events.5009.b.failure: "Tezgâhtar indirim yapmaya razı olmuyor"
@@ -443,16 +443,16 @@
  epidemic_events.5010.b.lose: "Dehşete kapılıyorsunuz"
 
  epidemic_events.5900.t:0 "Büyük Bahar Hastalığı"
-### TODO AGOT-CHANGED: epidemic_events.5900.desc [AGOT: Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the richest lords, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all. | TR: Salgın tüm ülkeye musallat olmuş durumda.\n\nKurbanların derilerinde ürkütücü hıyarcıklar büyüyor, boğazlarındaki irin yardım çığlığı atmalarına mani oluyor.\n\nEn alt tabakadaki köylüden şımarık imparatorlara kadar herkes bu acımasız vebanın tırpanından korkuyor. Hayatta kalmayı başarabilenler, etraflarındaki her şeyin ölümünü çaresizce izliyor.\n\nDindar olanlar rablerine, zenginler servetlerine sığınırken kimse gerçek anlamda güvende değil. Salgının kolları toprağı sarıyor ve nefes alamayacak hâle getirene kadar onu boğuyor.\n\nKara Veba kapımızda. [ROOT.Char.GetFaith.HighGodName] yardımcımız olsun...]
- epidemic_events.5900.desc: "Pestilence stalks the land.\n\nGrisly, bubbling buboes grow upon the victims, whose pitiful calls for help are slowly stifled as they gutter and drown in their own pus-filled throats.\n\nFrom the lowliest urchin to the richest lords, all dread the indiscriminate scythe of the merciless plague. Those that survive must watch helplessly as all around them perish.\n\nThe devoted look to the divine for a savior, and the powerful their riches, but none can truly be safe. Dreadful tendrils spread across the land, constricting it until it no longer breathes.\n\nThe Great Spring Sickness is upon us. [ROOT.Char.GetFaith.HighGodName] save us all."
+
+ epidemic_events.5900.desc:0 "Salgın tüm ülkeye musallat olmuş durumda.\n\nKurbanların derilerinde ürkütücü hıyarcıklar büyüyor, boğazlarındaki irin yardım çığlığı atmalarına mani oluyor.\n\nEn alt tabakadaki köylüden şımarık imparatorlara kadar herkes bu acımasız vebanın tırpanından korkuyor. Hayatta kalmayı başarabilenler, etraflarındaki her şeyin ölümünü çaresizce izliyor.\n\nDindar olanlar rablerine, zenginler servetlerine sığınırken kimse gerçek anlamda güvende değil. Salgının kolları toprağı sarıyor ve nefes alamayacak hâle getirene kadar onu boğuyor.\n\nKara Veba kapımızda. [ROOT.Char.GetFaith.HighGodName] yardımcımız olsun..."
  epidemic_events.5900.desc_asia: "Salgın aramızda dolaşıyor.\n\nKurbanlar yaralarla şişiyor, boğazlarındaki irin feryatları hırıltıya çeviriyor. Ölümde, en gür sesliler bile sessiz.\n\nKimse bağışlanmıyor. Yalınayak köylülerden sarayında saklanan prenslere kadar, ıstırap çarkı herkes için dönüyor. Hayatta kalmayı başarabilenler, kül süpürmek ve boş hasırları saymakla ilgileniyor.\n\nKimi sutra okuyor, kimi ritüele ve rütbeye tutunuyor ama hiçbir ferman çürümeyi durduramaz ve hiçbir sevap bu bedeli dengeleyemez. Vadideki sis gibi, veba görünmeden yayılıyor ve her durgun sabah hissedilmeye devam ediyor.\n\nKara Veba kapımızda. Gökler bizi terk etti."
-### TODO AGOT-ONLY: epidemic_events.5900.christian [AGOT: ]
- epidemic_events.5900.christian: ""Our Father, who art in heaven, hallowed be thy name...""
+
+ epidemic_events.5900.christian:0 ""Göklerdeki Babamız, adın kutsal olsun...""
  epidemic_events.5900.fallback: "Bu zorlu günleri de atlatacağız."
  epidemic_events.5901.t: "Dirsek Derinliği"
  epidemic_events.5901.desc: "Kadavra bir masanın üzerine yerleştirilmiş, masanın etrafında ürkütücü ekipmanlar, ben ve hekimim [physician.GetFirstName] duruyor.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], emin değilim..." diyor [physician.GetFirstNameNoTooltip] gözleri ayaklarına sabitlenmiş bir şekilde, gerginliğini gizleyemiyor. "Bu kadavradan ne öğrenebileceğimizi bilmiyorum..."\n\nNe öğrenebileceğimizi o çok iyi biliyor, sadece bunu ondan sormamı istemiyor. Hastalık taşıyan birinin kadavrasını incelemek hastalıkla başetmede çok önemli bilgiler verebilir. Tek mesele, bu incelemeyi yaparken hastalığı kapma ihtimalinin olup olmadığı..."
-### TODO AGOT-ONLY: epidemic_events.5901.a [AGOT: ]
- epidemic_events.5901.a: ""Why don't we do it together?""
+
+ epidemic_events.5901.a:0 ""Neden birlikte yapmıyoruz?""
  epidemic_events.5901.a.tt: "Bilgi Kazanıldı"
  epidemic_events.5901.a.tt.plague: "Hastalık Kapıldı"
  epidemic_events.5901.b: "İncelemeye başlayın."
@@ -464,41 +464,41 @@
  epidemic_events.5902.c: "Geri gönderin."
  epidemic_events.5902.d: "Bırakın kalsınlar."
  epidemic_events.5903.t: "Basit Zevkler Bir Kenara"
-### TODO AGOT-ONLY: epidemic_events.5903.desc [AGOT: ]
- epidemic_events.5903.desc: ""[ROOT.Char.GetFirstName]! No!" The voice of [family.GetFirstName] rings out over the sound of my horse as it walks along the path. [family.GetSheHe|U] runs up beside me, glaring up reproachfully.\n\n"You've heard what's on the way. All that death and disease..." [family.GetSheHe] wrings [family.GetHerHis] hands unhappily. "You must stay here, safe and sound within the [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'camp', 'walls')]. Please."\n\nI can only sigh. If I'd just been a little quicker out of the gate I'd be riding in the countryside now, happily taking in nature." 
+
+ epidemic_events.5903.desc:0 ""[ROOT.Char.GetFirstName]! Hayır!" [family.GetFirstName]'in sesi, yolda yürüyen atımın ayak seslerinin üzerinde yankılanıyor. [family.GetSheHe|U] yanıma koşarak gelir, sitemkâr bir bakışla bana bakıyor.\n\n"Yolda olanları duydun. Bütün o ölüm ve hastalıkları..." [family.GetSheHe] [family.GetHerHis] ellerini üzüntüyle ovuşturuyor. "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'camp', 'walls')] içinde güvenle kalmalısın. Lütfen."\n\nSadece iç çekebiliyorum. Kapıdan biraz daha çabuk çıkmış olsaydım şimdi kırlarda at sürüyor, doğanın tadını çıkarıyor olurdum.""
  epidemic_events.5903.a: "Büyük ihtimalle haklı."
-### TODO AGOT-ONLY: epidemic_events.5903.b [AGOT: ]
- epidemic_events.5903.b: ""Bah, I'll be fine!""
+
+ epidemic_events.5903.b:0 ""Pöh, ben iyi olurum!""
  epidemic_events.5904.t: "Kıyamet Tellalı"
  epidemic_events.5904.desc: "Pazarlar her zaman gürültü ve koşuşturmacayla doludur fakat bugün etrafın normalden daha da kargaşa içerisinde olduğunu fark ediyorum. Çok geçmeden suçlu kendini belli ediyor, uzaklarda bir yerde avazı çıktığı kadar bağırıyor.\n\n"Kıyamet vakti geldi! Hepimiz helak olacağız! Her şey nasıl yazdıysa öyle gerçekleşiyor!"\n\nVaizin ağzından uçuşan tükürükler oldukça rahatsız edici olsa da, etrafında toplanan insan sayısı sürekli artıyor."
  epidemic_events.5904.a: "Haklı! Kıyamete hazırlanmalıyız!"
  epidemic_events.5904.b: "Muhafızlar, tutuklayın bu gafili."
-### TODO AGOT-ONLY: epidemic_events.5904.c [AGOT: ]
- epidemic_events.5904.c: ""Show me where it is written. Prove your words.""
+
+ epidemic_events.5904.c:0 ""Bana nerede yazdığını göster. Sözlerini kanıtla.""
  epidemic_events.5904.c.tt.success: "Haklı çıkıyorsunuz"
  epidemic_events.5904.c.tt.failure: "Tartışmayı kaybediyorsunuz"
-### TODO AGOT-ONLY: epidemic_events.5904.d [AGOT: ]
- epidemic_events.5904.d: ""Don't listen to [doomsday_preacher.GetHerHim]!""
+
+ epidemic_events.5904.d:0 ""[doomsday_preacher.GetHerHim]i dinlemeyin!""
  epidemic_events.5904.d.tt: "[doomsday_province.GetName] ile komşu tüm baronluklar #color_white 15%#! ihtimalle aynı etkiye sahip olur"
  epidemic_events.5905.t: "Sinirleri Yatıştırma"
  epidemic_events.5905.desc: "Beni görmelerinin yarattığı şok insanlar üzerindeki etkisini yitirdikten sonra, bu meyhane dinlenmek için oldukça güzel bir yer hâline geldi. Her şeye rağmen hancı biraz gergin görünüyor.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], büyük salgını duydunuz değil mi? İnsanlara neler yaptığını duydunuz mu? Söylenene göre hastalığa kapılanlar #EMP [ROOT.GetCharacter.Custom('GetPlagueEffect')]!#!" Hancının içerisinde olduğu panik hâli yüzünden okunuyor. "Yani dediklerine göre öyleymiş! Eğer doğruysa, nasıl hayatta kalacağız?!"\n\nHancı tüm bu konuşmasıyla meyhanedekilerin dikkatini çekmeyi başarmış, herkes benim ne diyeceğimi bekliyor..."
-### TODO AGOT-ONLY: epidemic_events.5905.a [AGOT: ]
- epidemic_events.5905.a: ""There is no need to panic. Trust me, I am a physician.""
+
+ epidemic_events.5905.a:0 ""Panik yapmaya gerek yok. Güven bana, ben bir hekimim.""
  epidemic_events.5905.a.tt: "[province.GetName] ile komşu tüm baronluklar #color_white 50%#! ihtimalle aynı etkiye sahip olacak"
-### TODO AGOT-ONLY: epidemic_events.5905.b [AGOT: ]
- epidemic_events.5905.b: ""Does that sound particularly likely to you?""
+
+ epidemic_events.5905.b:0 ""Sence bu kulağa pek olası geliyor mu?""
  epidemic_events.5905.b.tt.success: "Onları başarıyla ikna ediyorsunuz"
  epidemic_events.5905.b.tt.failure: "İkna olmuyorlar"
  epidemic_events.5905.c: "Onunla tartışmamın bir faydası olacağını sanmıyorum."
  epidemic_events.5906.t: "Kamçıcılar"
  epidemic_events.5906.desc: "Muhafızlar konsey odasına girmeden evvel genelde birkaç kere düşünürler fakat bugün önlerinde mareşalim [marshal.GetFirstName] ile birlikte bir anda rahatlıkla içeriye dalıyorlar. Arkalarında elinde kamçı taşıyan çekik gözlü tuhaf biri dikkatimi çekiyor.\n\n"Onu [doomsday_province.GetName] dolaylarında bulduk, elindeki şeyle kendini dövüyordu." [marshal.GetFirstNameNoTooltip|U] gözleriyle kırbacı işaret ediyordu. "Bölge halkında ciddi bir rahatsızlığa sebep olmuş, herkese büyük bir salgının geldiğini ve herkesin tövbe edip günahlarından arınması gerektiğini söylüyormuş.""
-### TODO AGOT-ONLY: epidemic_events.5906.a [AGOT: ]
- epidemic_events.5906.a: ""You and your type are destroying the [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] faith!""
+
+ epidemic_events.5906.a:0 ""Sen ve senin gibileriniz [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] inancını mahvediyorsunuz!""
  epidemic_events.5906.a.tt.success: "İddianızı başarıyla savunuyorsunuz"
  epidemic_events.5906.a.tt.failure: "Kamçıcı fikrinden caymıyor"
  epidemic_events.5906.b: "Belki de haklılık payı vardır..."
-### TODO AGOT-ONLY: epidemic_events.5906.c [AGOT: ]
- epidemic_events.5906.c: ""Lock [flagellant.GetHerHim] up, [marshal.GetFirstNameNoTooltip].""
+
+ epidemic_events.5906.c:0 ""[flagellant.GetHerHim]i hapset, [marshal.GetFirstNameNoTooltip].""
  epidemic_events.5906.d: "Bırakın gitsin, kendisinden başkasına zararı yok."
  epidemic_events.5906.d.tt: "[doomsday_province.GetName] etrafındaki tüm baronlukların aynı etkiye sahip olması için #color_white %25'lik#! bir olasılık var"
  fervor_loss_flagellants: "Kamçıcılar serbest bırakıldı"
@@ -511,19 +511,19 @@
  epidemic_events.5907.b.criticalfailure: "Gerçekten hastalanıyorsunuz"
  epidemic_events.5908.t: "Mezarcılar"
  epidemic_events.5908.desc: "Arzuhâlcilerden ilki öne doğru bir adım atıyor. Hâlinden çok da üst tabakadan biri olmadığı anlaşılıyor. Özellikle tırnaklarının kirliliği, görünümüne ne kadar az özen gösterdiğini kanıtlar nitelikte.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], bendeniz [province.GetName] bölgesindeki mezarcıları temsilen burada bulunuyorum. Mezarcılar olarak sizden bir talebimiz vardır. Biliyorsunuz, korkunç bir veba sınırımıza kadar geldi. Salgının yayılması durumunda bize büyük bir iş düşeceği ortadadır."\n\n"Salgın durumunda hastalıklı cesetlerle biz muhatap olacağız, bu da canımızı tehlikeye atacağımız anlamına gelir. Sizden talebimiz, ücretlerimizde bu durumu gözönünde bulundurarak artış yapmanızdır. Anlayış göstereceğinizi umuyoruz.""
-### TODO AGOT-ONLY: epidemic_events.5908.a [AGOT: ]
- epidemic_events.5908.a: ""You'll dig your own grave if you ask again.""
+
+ epidemic_events.5908.a:0 ""Bir daha sorarsan kendi mezarını kazarsın.""
  epidemic_events.5908.b: "Haklılar, gerekli artışı yapalım."
-### TODO AGOT-ONLY: epidemic_events.5908.c [AGOT: ]
- epidemic_events.5908.c: ""Bah! There are plenty more where you came from.""
+
+ epidemic_events.5908.c:0 ""Pöh! Senin gibi daha çok var.""
  epidemic_events.5999.t: "Kararan Ufuk"
  epidemic_events.5999.desc: "Masamın üzerinde biriken parşömenlerin her biri aynı konudan bahsediyor. Cümlelere panik hâkim, anlatılanlar midemin kalkmasına sebep oluyor.\n\nHastalığın önce bir üşümeyle kendisini gösterdiğini, ardından kurbanların koltuk altlarında hıyarcıklar oluştuğunu, nefes alırken kan kustuklarını, dudakların ve parmakların karardığını ve en sonunda zengin veya fakir ayırt etmeksizin işin ölümle sonuçlandığını bildiriyorlar. Yazan kim olursa olsun, anlatılanlar değişmiyor.\n\nBu raporlar şimdilik uzak topraklardan gelse de, raporların tarihlerine baktıkça ürperiyorum.\n\nSalgın topraklarıma doğru yaklaşıyor."
  epidemic_events.5999.a: "Hah! Ölüyorlarsa ölsünler."
  epidemic_events.5999.a.tt: "Raporlar çok uzaktan geliyor, oralarda olanlar bizim için iyi haber bile sayılabilir."
  epidemic_events.5999.b: "Bir şeyler yapmalıyız."
  epidemic_events.5999.b.tt: "Kapıları kapatalım, güller dikelim!"
-### TODO AGOT-ONLY: epidemic_events.5999.c.christian [AGOT: #EMP]
- epidemic_events.5999.c.christian: "#EMP "I looked, and behold, a green horse..."#!"
+
+ epidemic_events.5999.c.christian:0 ""#EMP "Baktım, işte yeşil bir at gördüm..."#!""
  epidemic_events.5999.c.notchristian: "Bizleri karanlık günler bekliyor..."
  epidemic_events.0110.t: "Küllerimiz"
  epidemic_events.0110.desc: "Nihayet salgın ülkeyi terk etti ve bunu ardında bıraktığı kaosun ardından küllerimizden doğmak için bir fırsat olarak değerlendirebiliriz.\n\nEski dünyanın enkazını ardımızda bırakıp, geleceğe odaklanmanın vakti geldi."

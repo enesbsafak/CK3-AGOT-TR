@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  epidemic_level_minor: "[plague_minor|E]"
  epidemic_level_major: "[plague_major|E]"
  epidemic_level_apocalyptic: "[plague_apocalyptic|E]"
@@ -70,8 +70,8 @@
  epidemic_province_fever: "$epidemic_province_loc$ Humması"
  epidemic_province_sweats: "$epidemic_province_loc$ Terlemesi"
  epidemic_realm_fever: "$epidemic_realm_loc$ Humması"
-### TODO AGOT-CHANGED: epidemic_terrain_fever [AGOT: [ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Fever | TR: [ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Humması]
- epidemic_terrain_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Fever"
+
+ epidemic_terrain_fever:0 "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] Humması"
  epidemic_culture_sweats: "$epidemic_culture_loc$ Terlemesi"
  epidemic_devils_fever: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFaith.random_EvilGodNames|U] Humması"
  epidemic_camp_fever: "Ordugâh Humması"
@@ -97,8 +97,8 @@
  epidemic_evil_god_pestilence: "$epidemic_devils_loc$ Taunu"
  epidemic_bloody_flux: "Kanlı İshal"
  epidemic_realm_flux: "$epidemic_realm_loc$ İshali"
-### TODO AGOT-CHANGED: epidemic_terrain_flux [AGOT: [ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Flux | TR: [ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] İshali]
- epidemic_terrain_flux: "[ROOT.Epidemic.GetStartingOutbreakProvince.Custom('TerrainTypeProvince')|U] Flux"
+
+ epidemic_terrain_flux:0 "[ROOT.Epidemic.GetStartingOutbreakProvince.GetTerrain.GetNameNoTooltip|U] İshali"
  epidemic_ruler_flux: "$epidemic_ruler_possessive_loc$ İshali"
  epidemic_titled_ruler_flux: "$epidemic_titled_ruler_possessive_loc$ İshali"
  epidemic_culture_flux: "$epidemic_culture_loc$ İshali"

@@ -1,28 +1,28 @@
-﻿﻿﻿﻿l_english:
+﻿l_english:
 
  nw_castle:0 "Castle of The Night's Watch"
-### TODO NOT-IN-ST: nw_castle_desc [AGOT: ]
- nw_castle_desc:0 ""
+
+ nw_castle_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 
  nw_warden:0 "Watcher on the Wall"
-### TODO NOT-IN-ST: nw_warden_desc [AGOT: ]
- nw_warden_desc:0 ""
+
+ nw_warden_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 
  full_maintenance_level:0 "Tamamen Bakımlı Duvar"
-### TODO NOT-IN-ST: full_maintenance_level_desc [AGOT: Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is fully maintained and near impenetrable.]
- full_maintenance_level_desc:0 "Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is fully maintained and near impenetrable."
+
+ full_maintenance_level_desc:0 "Gece Nöbeti Örgütü'nün seviyesi, komutanın emirleri ve el değiştirenin sözleşmesi sayesinde bu duvar tamamen bakımlı ve neredeyse geçilmez durumda."
 
  high_maintenance_level:0 "İyi Bakımlı Duvar"
-### TODO NOT-IN-ST: high_maintenance_level_desc [AGOT: Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is highly maintained and slightly penetrable.]
- high_maintenance_level_desc:0 "Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is highly maintained and slightly penetrable."
+
+ high_maintenance_level_desc:0 "Gece Nöbeti Örgütü'nün seviyesi, komutanın emirleri ve el değiştirenin sözleşmesi sayesinde bu duvar yüksek düzeyde bakımlı ve kısmen geçilebilir durumda."
 
  low_maintenance_level:0 "Kısmen Bakımlı Duvar"
-### TODO NOT-IN-ST: low_maintenance_level_desc [AGOT: Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is partially maintained and might be penetrated.]
- low_maintenance_level_desc:0 "Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is partially maintained and might be penetrated."
+
+ low_maintenance_level_desc:0 "Gece Nöbeti Örgütü'nün seviyesi, komutanın emirleri ve el değiştirenin sözleşmesi sayesinde bu duvar kısmen bakımlı ve geçilme ihtimali var."
 
  no_maintenance_level:0 "Unmaintained Wall"
-### TODO NOT-IN-ST: no_maintenance_level_desc [AGOT: Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is unmaintained and easily penetrated.]
- no_maintenance_level_desc:0 "Due to the level of Night's Watch Organization, the commander's order, and the holder's contract this wall is unmaintained and easily penetrated."
+
+ no_maintenance_level_desc:0 "Gece Nöbeti Örgütü'nün seviyesi, komutanın emirleri ve el değiştirenin sözleşmesi sayesinde bu duvar bakımsız ve kolayca geçilebilir durumda."
 
  nw_castle_raided:0 "Castle Raided"
 
@@ -33,11 +33,11 @@
  nw_city_raided_desc:0 "Bu toprak yakın zamanda Yabanıllarca yağmalandı"
 
  nw_successful_great_ranging_1:0 "Wildling Tribe Disrupted"
-### TODO NOT-IN-ST: nw_successful_great_ranging_1_desc [AGOT: News of our Great Ranging beyond the wall has inspired the smallfolk to seek glory in the Night's Watch.]
- nw_successful_great_ranging_1_desc:0 "News of our Great Ranging beyond the wall has inspired the smallfolk to seek glory in the Night's Watch."
+
+ nw_successful_great_ranging_1_desc:0 "Duvar ötesindeki Büyük Keşif seferimizin haberi, sıradan halka Gece Nöbeti'nde şan arama ilhamı verdi."
 
  nw_successful_ranging:0 "Wildling Camp Disrupted"
 
  btw_wildlings_resistance:0 "Wildling Resistance"
-### TODO NOT-IN-ST: btw_wildlings_resistance_desc [AGOT: The inhabitants of this county are actively resisting their occupation by a southron lord.]
- btw_wildlings_resistance_desc:0 "The inhabitants of this county are actively resisting their occupation by a southron lord."
+
+ btw_wildlings_resistance_desc:0 "Bu kontluğun sakinleri, güneyli bir lord tarafından işgal edilmelerine etkin biçimde direniyor."

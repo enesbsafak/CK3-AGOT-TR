@@ -5,8 +5,8 @@
  MULTIPLAYER_LOBBY_PLAY_OBSERVER:0 "İzleyici olarak oyna" #observerkarşılığınıunuttumvebulamadım
  MULTIPLAYER_LOBBY_NOT_READY:0 "#N Karakter seçilmedi#!"
  MULTIPLAYER_LOBBY_RULER_DESIGNING:0 "#N Hükümdar Yaratmada#!"
-### TODO AGOT-CHANGED: MULTIPLAYER_LOBBY_READY [AGOT: [AGOTGetLongUIName(LobbyPlayer.GetPlayable.GetCharacter)|V] | TR: [LobbyPlayer.GetPlayable.GetCharacter.GetUINameNotMe]]
- MULTIPLAYER_LOBBY_READY:0 "[AGOTGetLongUIName(LobbyPlayer.GetPlayable.GetCharacter)|V]"
+
+ MULTIPLAYER_LOBBY_READY:0 "[LobbyPlayer.GetPlayable.GetCharacter.GetUINameNotMe]"
  MULTIPLAYER_LOBBY_JOIN_PROGRESS:0 "Katılıyor... [LobbyPlayer.GetTransferProgress|0%]"
  MULTIPLAYER_LOBBY_PLAYED_BY:0 "[Character.GetHumanNameIfNotLocalPlayer] tarafından oynanıyor" #krutygetarts
  MULTIPLAYER_LOBBY_PLAYED_BY_YOU:0 "Sizin Karakteriniz"
@@ -14,8 +14,8 @@
  CULTURE_LOBBY_WINDOW:0 "[Culture.GetNameNoTooltip]"
  lobby_tab_character: "Karakter"
  lobby_tab_landless_rulers: "Topraksız Hükümdarlar"
-### TODO AGOT-CHANGED: lobby_landless_ruler_name [AGOT: [Character.GetTitledFirstNameNoTooltip|U] | [Character.GetAge] [Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)4' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)3' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)2' ) ), '@health_icon_excellent!', '@health_icon!' ), '@health_icon_poor!' ), '@health_icon_dying!' )] | TR: [Character.GetNameNoTooltip|U] | [Character.GetAge] [Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)4' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)3' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)2' ) ), '@health_icon_excellent!', '@health_icon!' ), '@health_icon_poor!' ), '@health_icon_dying!' )]]
- lobby_landless_ruler_name: "[Character.GetTitledFirstNameNoTooltip|U] | [Character.GetAge] [Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)4' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)3' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)2' ) ), '@health_icon_excellent!', '@health_icon!' ), '@health_icon_poor!' ), '@health_icon_dying!' )]"
+
+ lobby_landless_ruler_name:0 "[Character.GetNameNoTooltip|U] | [Character.GetAge] [Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)4' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)3' ) ), Select_CString( Not( EqualTo_int32( Character.GetHealthIconFrame, '(int32)2' ) ), '@health_icon_excellent!', '@health_icon!' ), '@health_icon_poor!' ), '@health_icon_dying!' )]"
  lobby_landless_domicile_location: "[Character.GetDomicile.GetType.GetNameNoTooltip] Konumu: [Character.GetDomicile.GetLocation.GetName]"
  lobby_landless_domicile_followers: "Takipçi Sayısı: [GetDataModelSize( Character.GetCourt )]"
  lobby_landless_government_filter_tt: "Listeyi filtrelemek için oynanabilir bir [unlanded|e] [government|e] seçin."

@@ -1,87 +1,87 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: GREAT_RANGING_WAR_NAME [AGOT: The Great Ranging]
- GREAT_RANGING_WAR_NAME:0 "The Great Ranging"
-### TODO NOT-IN-ST: GREAT_RANGING_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+﻿l_english:
+
+ GREAT_RANGING_WAR_NAME:0 "Büyük Keşif Seferi"
+
  GREAT_RANGING_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: GREAT_RANGING_CB [AGOT: Great Ranging]
- GREAT_RANGING_CB:0 "Great Ranging"
-### TODO NOT-IN-ST: great_ranging_defeat_desc [AGOT: The Wildlings now know that the Night's Watch is a shadow of its former self.]
- great_ranging_defeat_desc:0 "The Wildlings now know that the Night's Watch is a shadow of its former self."
-### TODO NOT-IN-ST: great_ranging_victory_desc [AGOT: The Wildlings will continue to bicker amongst themselves, ensuring safety for the realms of man.]
- great_ranging_victory_desc:0 "The Wildlings will continue to bicker amongst themselves, ensuring safety for the realms of man."
-### TODO NOT-IN-ST: shatter_wildling_realm [AGOT: The realm of [defender_realm.GetName] will shatter into independent county tribes]
- shatter_wildling_realm:0 "The realm of [defender_realm.GetName] will shatter into independent county tribes"
+
+ GREAT_RANGING_CB:0 "Büyük Keşif Seferi"
+
+ great_ranging_defeat_desc:0 "Yabanıllar artık Gece Nöbeti'nin eski gölgesinden ibaret olduğunu biliyor."
+
+ great_ranging_victory_desc:0 "Yabanıllar kendi aralarında kavga etmeye devam edecek ve bu da insan diyarlarının güvenliğini sağlayacak."
+
+ shatter_wildling_realm:0 "[defender_realm.GetName] diyarı bağımsız kontluk boylarına bölünecek"
 
  great_ranging_white_peace_desc:0 "Yer Tutucu Beyaz Barış Metni"
-### TODO NOT-IN-ST: great_ranging_invalidated_desc [AGOT: Placeholder Invalidated Text]
- great_ranging_invalidated_desc:0 "Placeholder Invalidated Text"
+
+ great_ranging_invalidated_desc:0 "Geçersiz Metin Yer Tutucusu"
 
  GENERIC_RANGING_WAR_NAME:0 "Sur'un Ötesi Devriyesi"
-### TODO NOT-IN-ST: GENERIC_RANGING_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
+
  GENERIC_RANGING_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 
  GENERIC_RANGING_CB:0 "Sur'un Ötesi Devriyesi"
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb [AGOT: $GENERIC_RANGING_CB$]
+
  nw_multi_county_ranging_cb:0 "$GENERIC_RANGING_CB$"
-### TODO NOT-IN-ST: nw_single_county_ranging_cb [AGOT: $GENERIC_RANGING_CB$]
+
  nw_single_county_ranging_cb:0 "$GENERIC_RANGING_CB$"
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_victory_attacker [AGOT: You gain [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$]
- nw_single_county_ranging_cb_desc_victory_attacker:0 "You gain [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_victory_defender [AGOT: [attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$]
- nw_single_county_ranging_cb_desc_victory_defender:0 "[attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+
+ nw_single_county_ranging_cb_desc_victory_attacker:0 "Hedef [county|E]nün [development|E]siyle orantılı [gold|E] kazanırsın; [development|E] azalacaktır.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+
+ nw_single_county_ranging_cb_desc_victory_defender:0 "[attacker.GetName] hedef [county|E]nün [development|E]siyle orantılı [gold|E] kazanır; [development|E] azalacaktır.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
 
  nw_single_county_ranging_cb_desc_white_peace_attacker:0 "Denediğin seferi bırakmayı seçiyorsun."
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_white_peace_defender [AGOT: [attacker.GetName] abandons [attacker.GetHerHis] ranging expedition.]
- nw_single_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition."
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_defeat_attacker [AGOT: Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E].]
- nw_single_county_ranging_cb_desc_defeat_attacker:0 "Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E]."
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_defeat_defender [AGOT: [attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition.]
- nw_single_county_ranging_cb_desc_defeat_defender:1 "[attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition."
-### TODO NOT-IN-ST: nw_generic_ranging_message_title [AGOT: Night's Watch Ranging]
- nw_generic_ranging_message_title:0 "Night's Watch Ranging"
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_victory_attacker [AGOT: You drive the wildlings deeper in the wilderness.]
- nw_multi_county_ranging_cb_desc_victory_attacker:0 "You drive the wildlings deeper in the wilderness."
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_victory_defender [AGOT: One of your holdings is lost to the wilderness.]
- nw_multi_county_ranging_cb_desc_victory_defender:0 "One of your holdings is lost to the wilderness."
+
+ nw_single_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] keşif seferini terk eder."
+
+ nw_single_county_ranging_cb_desc_defeat_attacker:0 "Keşif seferin feci şekilde başarısız olur, arkasında [gold|E] değerinde silah ve erzak bırakır."
+
+ nw_single_county_ranging_cb_desc_defeat_defender:0 "[attacker.GetName] feci keşif seferinde arkasında [gold|E] değerinde silah ve erzak bırakır."
+
+ nw_generic_ranging_message_title:0 "Gece Nöbeti Keşif Seferi"
+
+ nw_multi_county_ranging_cb_desc_victory_attacker:0 "Yabanılları vahşi doğanın daha derinlerine sürersin."
+
+ nw_multi_county_ranging_cb_desc_victory_defender:0 "Topraklarından biri vahşi doğaya terk edilir."
 
  nw_multi_county_ranging_cb_desc_white_peace_attacker:0 "Denediğin seferi bırakmayı seçiyorsun."
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_white_peace_defender [AGOT: [attacker.GetName] abandons [attacker.GetHerHis] ranging expedition.]
- nw_multi_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition."
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_defeat_attacker [AGOT: Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E].]
- nw_multi_county_ranging_cb_desc_defeat_attacker:0 "Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E]."
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_defeat_defender [AGOT: [attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition.]
- nw_multi_county_ranging_cb_desc_defeat_defender:1 "[attacker.GetName] leaves behind arms and supplies [gold|E] in their disastrous ranging expedition."
-### TODO NOT-IN-ST: nw_generic_ranging_county_becomes_wilderness [AGOT: [target_county.GetName] will be abandoned to the wilderness]
- nw_generic_ranging_county_becomes_wilderness:0 "[target_county.GetName] will be abandoned to the wilderness"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_attacker_vassalize [AGOT: You vassalize [defender.GetShortUIName|U]]
- btw_reclamation_cb_victory_desc_attacker_vassalize:0 "You vassalize [defender.GetShortUIName|U]"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_defender_vassalize [AGOT: [attacker.GetShortUIName|U] vassalizes you]
- btw_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] vassalizes you"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_attacker_conquer_1 [AGOT: $EFFECT_LIST_BULLET$You become [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]]
- btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$You become [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_attacker_conquer_2 [AGOT: $EFFECT_LIST_BULLET$You gain contested [struggle_uninvolved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n]
- btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$You gain contested [struggle_uninvolved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_defender_conquer_1 [AGOT: $EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] becomes [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]]
- btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] becomes [liege|E] of [defender.GetShortUINamePossessive|U] [struggle_involved|E] lower [rank|E] [vassals|E] in the target [duchy|E]"
-### TODO NOT-IN-ST: btw_reclamation_cb_victory_desc_defender_conquer_2 [AGOT: $EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n]
- btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] gains contested un-[struggle_involved|E] held [counties|E], and those of [holders|E] with lands outside the [duchy|E]\n"
-### TODO NOT-IN-ST: btw_reclamation_cb_white_peace_desc_vassalize [AGOT: [defender.GetShortUIName|U] will remain [independent|E]]
- btw_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] will remain [independent|E]"
-### TODO NOT-IN-ST: btw_reclamation_cb_white_peace_desc_conquer [AGOT: [defender.GetShortUIName|U] will keep the contested [titles|E]]
- btw_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName|U] will keep the contested [titles|E]"
-### TODO NOT-IN-ST: btw_reclamation_cb_defeat_desc_vassalize [AGOT: $btw_reclamation_cb_white_peace_desc_vassalize$]
+
+ nw_multi_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] keşif seferini terk eder."
+
+ nw_multi_county_ranging_cb_desc_defeat_attacker:0 "Keşif seferin feci şekilde başarısız olur, arkasında [gold|E] değerinde silah ve erzak bırakır."
+
+ nw_multi_county_ranging_cb_desc_defeat_defender:0 "[attacker.GetName] feci keşif seferinde arkasında [gold|E] değerinde silah ve erzak bırakır."
+
+ nw_generic_ranging_county_becomes_wilderness:0 "[target_county.GetName] vahşi doğaya terk edilecek"
+
+ btw_reclamation_cb_victory_desc_attacker_vassalize:0 "[defender.GetShortUIName|U]'i vasal yaparsın"
+
+ btw_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] seni vasal yapar"
+
+ btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Hedef [duchy|E]'deki [defender.GetShortUINamePossessive|U] düşük [rank|E]li [struggle_involved|E] [vassals|E]nın [liege|E]si olursun"
+
+ btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$İhtilaflı [struggle_uninvolved|E] tarafından tutulan [counties|E]yi ve toprakları [duchy|E] dışında olan [holders|E]'in kontluklarını kazanırsın\n"
+
+ btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U], hedef [duchy|E]'deki [defender.GetShortUINamePossessive|U] düşük [rank|E]li [struggle_involved|E] [vassals|E]nın [liege|E]si olur"
+
+ btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U], ihtilaflı [struggle_involved|E] olmayanların tuttuğu [counties|E]yi ve toprakları [duchy|E] dışında olan [holders|E]'in kontluklarını kazanır\n"
+
+ btw_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] [independent|E] kalacak"
+
+ btw_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName|U] ihtilaflı [titles|E]yi elinde tutacak"
+
  btw_reclamation_cb_defeat_desc_vassalize:0 "$btw_reclamation_cb_white_peace_desc_vassalize$"
-### TODO NOT-IN-ST: btw_reclamation_cb_defeat_desc_conquer [AGOT: $btw_reclamation_cb_white_peace_desc_conquer$]
+
  btw_reclamation_cb_defeat_desc_conquer:0 "$btw_reclamation_cb_white_peace_desc_conquer$"
-### TODO NOT-IN-ST: btw_reclamation_cb_defeat_desc [AGOT: $btw_reclamation_cb_white_peace_desc$]
+
  btw_reclamation_cb_defeat_desc:0 "$btw_reclamation_cb_white_peace_desc$"
-### TODO NOT-IN-ST: CB_COST_BTW_RECLAMATION [AGOT: Costs [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per-[county|E]]
- CB_COST_BTW_RECLAMATION:0 "Costs [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per-[county|E]"
-### TODO AGOT-CHANGED: CB_COST_STRUGGLE_PHASE_OPPORTUNITY [AGOT: [struggle_phase_btw_opportunity|E] | TR: [struggle_phase_iberia_opportunity|E]]
- CB_COST_STRUGGLE_PHASE_OPPORTUNITY:0 "[struggle_phase_btw_opportunity|E]"
-### TODO AGOT-CHANGED: CB_COST_STRUGGLE_PHASE_HOSTILITY [AGOT: [struggle_phase_btw_hostility|E] | TR: [struggle_phase_iberia_hostility|E]]
- CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_btw_hostility|E]"
-### TODO AGOT-CHANGED: CB_COST_STRUGGLE_PHASE_COMPROMISE [AGOT: [struggle_phase_btw_compromise|E] | TR: [struggle_phase_iberia_compromise|E]]
- CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_btw_compromise|E]"
-### TODO AGOT-CHANGED: CB_COST_STRUGGLE_PHASE_CONCILIATION [AGOT: [struggle_phase_btw_conciliation|E] | TR: [struggle_phase_iberia_conciliation|E]]
- CB_COST_STRUGGLE_PHASE_CONCILIATION:0 "[struggle_phase_btw_conciliation|E]"
+
+ CB_COST_BTW_RECLAMATION:0 "Kontluk başına [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] maliyeti"
+
+ CB_COST_STRUGGLE_PHASE_OPPORTUNITY:0 "[struggle_phase_iberia_opportunity|E]"
+
+ CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_iberia_hostility|E]"
+
+ CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_iberia_compromise|E]"
+
+ CB_COST_STRUGGLE_PHASE_CONCILIATION:0 "[struggle_phase_iberia_conciliation|E]"

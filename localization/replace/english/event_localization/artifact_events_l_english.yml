@@ -3,10 +3,10 @@
  test_artifact_desc:0 "Bu eser [ROOT.Char.GetDynasty.GetName] hanedan arması ile tescillendi."
  debug_test_artifact_cloth_option:0 "Çok Düzgün ve Yumuşak!"
  artifact_lost_toast:0 "Eser Kaybı"
-### TODO AGOT-CHANGED: artifact_lost_in_siege [AGOT: [this_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in the siege of [SAISE_location.GetNameNoTooltip] | TR: [SAISE_location.GetNameNoTooltip] kuşatmasında [SAISE_artifact.GetName] [SAISE_attacker.GetShortUINameNoTooltip] tarafından çalındı]
- artifact_lost_in_siege:0 "[this_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in the siege of [SAISE_location.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: artifact_lost_in_raid [AGOT: [this_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in [SAISE_attacker.GetHerHis] raid on [SAISE_location.GetNameNoTooltip] | TR: [SAISE_location.GetNameNoTooltip] yağmasında [SAISE_artifact.GetName] [SAISE_attacker.GetShortUINameNoTooltip] tarafından çalındı]
- artifact_lost_in_raid:0 "[this_artifact.GetName] was stolen by [SAISE_attacker.GetShortUINameNoTooltip] in [SAISE_attacker.GetHerHis] raid on [SAISE_location.GetNameNoTooltip]"
+
+ artifact_lost_in_siege:0 "[SAISE_location.GetNameNoTooltip] kuşatmasında [SAISE_artifact.GetName] [SAISE_attacker.GetShortUINameNoTooltip] tarafından çalındı"
+
+ artifact_lost_in_raid:0 "[SAISE_location.GetNameNoTooltip] yağmasında [SAISE_artifact.GetName] [SAISE_attacker.GetShortUINameNoTooltip] tarafından çalındı"
  artifact_seized_toast:0 "Eser Ele Geçirildi"
  artifact_seized_in_siege:0 "[SAISE_location.GetNameNoTooltip] kuşatmasından sonra [SAISE_artifact.GetName] benim tarafımdan ele geçirildi"
  artifact_seized_in_raid:0 "[SAISE_location.GetNameNoTooltip] yağmasından sonra [SAISE_artifact.GetName] benim tarafımdan ele geçirildi "
@@ -34,10 +34,12 @@
  artifact.1001.a.tt.free:0 "#instruction Bu [artifact|E] bedavaya dönüştürülebilir!#!"
  artifact.1001.a.tt:1 "[this_artifact.GetName] sadece [grandeur|E] ve [prestige|E] sağlayan [court_artifact|E] hâline gelir"
  artifact.1001.b:0 "Hayır, çok pahalı."
-### TODO AGOT-ONLY: manhunter [AGOT: #EMP]
- manhunter:0 "#EMP "Manhunter"#!"
-### TODO AGOT-ONLY: heartseeker [AGOT: #EMP]
- heartseeker:0 "#EMP "Heartseeker"#!"
+
+
+ manhunter:0 ""#EMP "Manhunter"#!""
+
+
+ heartseeker:0 ""#EMP "Heartseeker"#!""
  artifact.1001.desc.kills_none:0 "[this_artifact.GetDesc]\n\nBu silah hiçbir zaman savaşta kullanılmadı, sadece küçük bir asilzadenin duvarında dekorasyon olarak hizmet ediyor."
  artifact.1001.desc.kills_one:0 "[this_artifact.GetDesc]\n\nBir kere düşmanını öldürmek için savaşta kullanılmış bir silah, süzerenin salonun gösterilmeye değer olduğunu kanıtladı."
  artifact.1001.desc.kills_some:0 "[this_artifact.GetDesc]\n\n[ROOT.Var('num_kills').GetValue|V0] düşmanı canından edip büyük bir savaşçının veya süzerenin salonunda yerini kazandı."
@@ -48,8 +50,9 @@
  artifact.3000.desc.antiquarian_intro:0 "$antiquarian_court_position$ [antiquarian.GetTitledFirstName] yüzünde endişeli bir ifadeyle yanıma geldi.\n\n"[Select_CString(ROOT.GetCharacter.IsFemale, 'Leydim', 'Lordum' )], giderek [this_artifact.GetName] ve içinde bulunduğu durumdan dolayı daha çok endişelenmeye başladım. Kelimenin tam manasıyla dökülüyor!"
  artifact.3000.desc.antiquarian:0 "\n\n"Onarmak için çok geç olabilir ama bu tamamen bir kayıp değil. Bana izin verirseniz, kırıp kullanışlı parçaları gelecek eserler için saklayabilirsiniz!""
  artifact.3000.desc.servant_intro:1 "Hizmetkârım yüzünde suçlu bir ifade ve arkasında sakladığı bir şeyle yanıma geldi.\n\n"[Select_CString(ROOT.GetCharacter.IsFemale, 'Leydim', 'Lordum' )], eser koleksiyonunuzu her zamanki gibi temizlerken fark ettim ki [this_artifact.GetName] onarılmanın mümkün olmadığı bir hâle gelmiş."
-### TODO AGOT-ONLY: artifact.3000.desc.servant [AGOT: ]
- artifact.3000.desc.servant:0 ""Without an expert at court, it might not be possible to restore it to its former glory, but we might as well keep the scraps to be reused in a new artifact...""
+
+
+ artifact.3000.desc.servant:0 ""Sarayda bir uzman olmadan eski ihtişamına kavuşturmak mümkün olmayabilir, ama parçaları yeni bir eserde kullanılmak üzere saklasak iyi olur...""
  artifact.3000.a:0 "Bunu yapmak canımı acıtıyor ama parçalayın."
  artifact.3000.b:0 "Hâlâ kurtarılabilir!"
  artifact.3000.c:0 "İddiaya varım #EMP sen#! bu hâle getirdin!"
@@ -81,8 +84,9 @@
  artifact.3030.a.bigfailure:0 "Eser yok edildi"
  artifact.3030.a.bigfailure.t:0 "Eser yok edildi!"
  artifact.3040.t:0 "Parçalanmış Eser: Bir Teklif"
-### TODO AGOT-ONLY: artifact.3040.desc.antiquarian [AGOT: ]
- artifact.3040.desc.antiquarian:0 ""My $antiquarian_court_position$ [antiquarian.GetTitledFirstName] approaches me accompanied by [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"My [ROOT.GetCharacter.GetLadyLord], it has been brought to my attention that your [this_artifact.GetName] is in terrible conditions... Despite my best efforts, I can't do anything more to preserve it without adequate funding!\n\nNevertheless, I've found a possible solution to spare your coffers. [vassal.GetTitledFirstNameNoTooltip|U] has offered to shoulder the expenses in exchange for a mere token of your gratitude.""
+
+
+ artifact.3040.desc.antiquarian:0 ""$antiquarian_court_position$'ım [antiquarian.GetTitledFirstName], [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] eşliğinde yanıma yaklaşıyor.\n\n"[ROOT.GetCharacter.GetLadyLord], dikkatime [this_artifact.GetName]'inizin berbat durumda olduğu getirildi... Tüm çabalarıma rağmen, yeterli finansman olmadan onu korumak için yapabileceğim hiçbir şey yok!\n\nYine de, hazinenizi koruyacak olası bir çözüm buldum. [vassal.GetTitledFirstNameNoTooltip|U] minnettarlığınızın küçük bir nişanesi karşılığında masrafları üstlenmeyi teklif etti.""
  artifact.3040.desc.no_antiquarian:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] yüzünde sahte bir pişmanlık ifadesi ile yanıma geldi.\n\n""[Select_CString(ROOT.GetCharacter.IsFemale, 'Leydim', 'Lordum' )], Bu tam bir #EMP utanç#!. Harika hazineniz [this_artifact.GetName] toz tutmaya terk edilmiş! Lütfen onarım masraflarını üstlenmeme izin verin – küçük bir iyilik karşılığında.""
  artifact.3040.a:0 "Bu işin içinde bir iş var... Ama tamam!"
  artifact.3040.b:0 "Ödeşmiş olduk."
@@ -102,12 +106,15 @@
  artifact.4000.a:0 "Hemen böyle bir kişiyi bulun!"
  artifact.4000.b:0 "Bırakalım herkes önünde korkudan dehşete düşsün!"
  artifact.4001.t:0 "Parçalanmış Eser: Kutsal Davet"
-### TODO AGOT-ONLY: artifact.4001.desc.antiquarian_intro [AGOT: ]
- artifact.4001.desc.antiquarian_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," my [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] requires my attention,"
-### TODO AGOT-ONLY: artifact.4001.desc.servant_intro [AGOT: ]
- artifact.4001.desc.servant_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," a hurried servant approaches me, accompanied by a solemn-looking character,"
-### TODO AGOT-ONLY: artifact.4001.desc [AGOT: ]
- artifact.4001.desc:0 ""as you requested, a holy [holy_man.GetWomanMan] has been found to bless your [this_artifact.GetName]. \n\n"Let me introduce you to [holy_man.GetFirstName]. I am sure that [holy_man.GetHerHis] intervention will lift the curse and put everyone's mind at ease.""
+
+
+ artifact.4001.desc.antiquarian_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] ilgimi talep ediyor,""
+
+
+ artifact.4001.desc.servant_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," telaşlı bir hizmetkâr, ciddi görünümlü bir karakter eşliğinde yanıma yaklaşıyor,""
+
+
+ artifact.4001.desc:0 ""istediğiniz gibi, [this_artifact.GetName]'inizi kutsaması için kutsal bir [holy_man.GetWomanMan] bulundu. \n\n"Size [holy_man.GetFirstName]'i tanıtayım. Eminim [holy_man.GetHerHis] müdahalesi laneti kaldıracak ve herkesin gönlünü ferahlatacaktır.""
  artifact.4001.a:0 "[holy_man.GetFirstNameNoTooltip|U], elinden gelen en iyisini yap..."
  artifact.4001.a.success:0 "Lanet Kaldırıldı"
  artifact.4001.a.failure:0 "Lanet Devam Ediyor"
@@ -118,8 +125,9 @@
  artifact.4002.desc.servant_intro:0 "Bir grup korkmuş hizmetkâr odama doğru giderken beni durdurdu ve onlardan biri dedi ki:"
  artifact.4002.desc:0 "\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], eseriniz [this_artifact.GetName] için oluşan kötü itibar yıllar geçtikçe artıyor bunun hakkında uyanık olmalısınız... Sizin maiyetiniz, hizmetkârlarınız ve hatta misafirler onun tarafından dehşete düşüyor!\n\nBir aziz veya azize çağırıp bu dehşete düşmüş hizmetkârlarınızın sonunda biraz rahat etmesini kabul edebilir misiniz?"
  artifact.4010.t:0 "Ölümcül Bir Silah Şöhret"
-### TODO AGOT-ONLY: artifact.4010.desc.antiquarian_intro [AGOT: ]
- artifact.4010.desc.antiquarian_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], did you hear the news?" My [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] approaches me."
+
+
+ artifact.4010.desc.antiquarian_intro:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], haberi duydunuz mu?" [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] yanıma yaklaşıyor.""
  artifact.4010.desc.servant_intro:0 "Salondaki hizmetkârlarınız arasındaki küçük bir gruptan heyecanlı bir ses duydum."
  artifact.4010.desc:1 "\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip|U] ve elindeki [this_artifact.GetName] için oluşmuş şöhret giderek daha uzaklara yayılıyor ve gittikçe büyüyor! Düşmanlarını çiçekmiş gibi kesen yenilmez [SCOPE.Custom('ThisArtifactType')] ve onun şanlı sahibi herkesin dillerinde!""
  artifact.4010.a:0 "Harika bir haber!"
@@ -143,8 +151,9 @@
  artifact_armor_3_desc:0 "[this_artifact.GetDesc]\n\nSavaşlarda sahibini 50'den fazla kez korumuş olan bu zırh hem dostları hem de düşmanları korkutuyor."
  artifact_armor_4_desc:0 "[this_artifact.GetDesc]\n\nSavaşlarda sahibini 100'den fazla kez korumuş olan bu zırh efsanevi eşyalarla karşılaştırılabilir."
  artifact.4030.t:0 "Halkımızın Tacı"
-### TODO AGOT-ONLY: artifact.4030.desc.antiquarian_intro [AGOT: ]
- artifact.4030.desc.antiquarian_intro:0 ""My [ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName] approaches me with a big smile on [antiquarian.GetHerHis] face and my [this_artifact.GetName] in [antiquarian.GetHerHis] hands."
+
+
+ artifact.4030.desc.antiquarian_intro:0 ""[ROOT.Char.Custom('GetAntiquarianOrArmorer')] [antiquarian.GetTitledFirstName], yüzünde kocaman bir gülümseme ve elinde [this_artifact.GetName]'imle yanıma yaklaşıyor.""
  artifact.4030.desc.servant_intro:0 "Benim en değerli varlıklarımı temizlemekle görevli olan hizmetkârım elinde [this_artifact.GetName] ile birlikte yanıma geldi."
  artifact.4030.desc_emperor:1 "\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.GetTitleTierName] içinde çok sayıda nesil geçtikten sonra bu tacın artık imparatorluğun gücünün bir sembolü olarak görüldüğünü biliyor muydunuz?""
  artifact.4030.desc_kingdom:1 "\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.GetTitleAsNameNoTooltip] içinde çok sayıda nesil geçtikten sonra bu tacın artık [primary_title_scope.GetBaseNameNoTierNoTooltip] ile özdeşleşmiş bir parça olarak görüldüğünü biliyor muydunuz?""
@@ -161,8 +170,9 @@
  artifact.4050.desc:0 "Bir süredir stres sanki üstüme bir dağ oturmuş gibi beni eziyor. Kaynama noktasına ulaşmışım gibi hissediyorum sadece patlamak için bir mazeret arıyorum.\n\nBugün büyük salona girdiğimde ahalinin dedikoduları, saray mensuplarının gevezelikleri ve danışmanların dikkatimi çekmek için rekabet etmesi... Bunların hepsi üst üste biniyor ve artık dayanamıyorum.\n\n"Elime aldığım ilk şeyi duvara çıldırmış gibi fırlatırken #EMP YETER!#!" diyerek bağırıyorum.\n\nSessizlik odayı kaplarken yerde paramparça bir hâle gelmiş olan [this_artifact.GetName] dikkatimi çekiyor. Aniden öfkemin yerini dehşetin aldığını hissediyorum..."
  artifact.4050.a:0 "Kahretsin!"
  artifact.4060.t:0 "[ROOT.Char.GetFaith.HighGodName|U] Adına Kutsanmış [SCOPE.Custom('ThisArtifactType')|U]"
-### TODO AGOT-ONLY: artifact.4060.desc [AGOT: ]
- artifact.4060.desc:0 ""let me introduce you to [holy_man.GetFirstName], a [holy_man.GetWomanMan] of great sanctity renowned throughout your lands.\n\n"[holy_man.GetSheHe|U] was profoundly moved by your fame as a pious and just ruler, and would like to extend divine protection to one of your treasures."\n\n"Will you allow it?""
+
+
+ artifact.4060.desc:0 ""size [holy_man.GetFirstName]'i tanıtayım; topraklarınızda nam salmış, büyük bir takva sahibi [holy_man.GetWomanMan].\n\n"[holy_man.GetSheHe|U] dindar ve adil bir hükümdar olarak ününüzden derinden etkilendi ve hazinelerinizden birine ilahi koruma sağlamak istiyor."\n\n"İzin verir misiniz?""
  artifact.4060.a:0 "Teklifinizi alçakgönüllülükle kabul ediyorum."
  artifact.4060.b:0 "Gerekli değil."
  artifact_4060_blessed_artifact_name:1 "Kutsanmış [this_artifact.GetNameNoTooltip]"
@@ -184,10 +194,10 @@
  artifact.6001.t:0 "Düşman Bayrağı"
  artifact.6001.desc.commander:1 "Bu savaşın nasıl hatırlanacağını düşünürken savaş alanını inceliyorum ve yerde yatan cansız cesetlere bakıyorum. Bu sırada bir grup asker yanıma geliyor ve beni kibarca selamlıyorlar.\n\n"
  artifact.6001.desc:0 "[combat_location.GetName|U] savaşı hayret verici bir zaferle sonuçlandı! Hevesle komutan [friendly_commander.GetTitledFirstName] tarafından yazılan raporu ulak aracılığı ile dinlerken aniden askerler bana döndü.\n\n"
-### TODO AGOT-ONLY: artifact.6001.desc.looting [AGOT: ]
- artifact.6001.desc.looting:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! We came upon the enemy banner while we were... 'cleaning' the battlefield! We thought it would be a shame to leave it behind, perhaps you wish to keep it as a trophy?""
-### TODO AGOT-ONLY: artifact.6001.desc.killed_defender [AGOT: ]
- artifact.6001.desc.killed_defender:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! We cornered the remaining enemies as they made a valiant stand. They gave their lives protecting this banner.""
+
+ artifact.6001.desc.looting:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Savaş alanını... 'temizlerken' düşman sancağına rastladık! Onu geride bırakmak yazık olurdu diye düşündük, belki onu bir zafer anısı olarak saklamak istersiniz?""
+
+ artifact.6001.desc.killed_defender:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Kalan düşmanları yiğitçe direnirken köşeye sıkıştırdık. Bu sancağı korurken canlarını verdiler.""
  artifact.6001.a:0 "Koleksiyonumda güzel bir parça olacak!"
  artifact.6001.b:0 "Kutlama ateşine atın, böyle işe yaramaz bir şeye ihtiyacım yok."
  artifact.6001.toast:0 "[combat_location.GetNameNoTooltip] topraklarında Sancak Kaybedildi"

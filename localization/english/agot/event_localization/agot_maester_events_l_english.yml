@@ -1,145 +1,145 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: maester_title_localization [AGOT: $trait_maester$]
+﻿l_english:
+
  maester_title_localization:0 "$trait_maester$"
-### TODO NOT-IN-ST: maester_title_holder [AGOT: [CHARACTER.Custom('MaesterCheck')]]
+
  maester_title_holder:0 "[CHARACTER.Custom('MaesterCheck')]"
-### TODO NOT-IN-ST: ArchaesterTitle [AGOT: $archmaester$]
+
  ArchaesterTitle:0 "$archmaester$"
-### TODO NOT-IN-ST: MaesterTitle [AGOT: $trait_maester$]
+
  MaesterTitle:0 "$trait_maester$"
-### TODO NOT-IN-ST: AcolyteTitle [AGOT: $trait_acolyte$]
+
  AcolyteTitle:0 "$trait_acolyte$"
-### TODO NOT-IN-ST: NoviceTitle [AGOT: $trait_novice$]
+
  NoviceTitle:0 "$trait_novice$"
-### TODO NOT-IN-ST: decision_employ_maester [AGOT: Send for a Maester]
- decision_employ_maester:0 "Send for a Maester"
-### TODO NOT-IN-ST: decision_employ_maester_tooltip [AGOT: You will call for a [maester|E]]
- decision_employ_maester_tooltip:0 "You will call for a [maester|E]"
-### TODO NOT-IN-ST: decision_employ_maester_desc [AGOT: Renowned throughout the known world as the center of Westerosi knowledge, the Citadel of [GetTitleByKey('c_oldtown').GetNameNoTier] provides every keep in Westeros with a trained man of learning. Perhaps I should send for one.]
- decision_employ_maester_desc:0 "Renowned throughout the known world as the center of Westerosi knowledge, the Citadel of [GetTitleByKey('c_oldtown').GetNameNoTier] provides every keep in Westeros with a trained man of learning. Perhaps I should send for one."
-### TODO NOT-IN-ST: decision_employ_maester_effect [AGOT: A capable maester will be selected to attend you and arrive at your court shortly.]
- decision_employ_maester_effect:0 "A capable maester will be selected to attend you and arrive at your court shortly."
-### TODO NOT-IN-ST: decision_employ_maester_confirm [AGOT: Send a raven to Oldtown]
- decision_employ_maester_confirm:0 "Send a raven to Oldtown"
-### TODO NOT-IN-ST: tooltip_employ_maester [AGOT: Must not have any capable maesters at court.]
- tooltip_employ_maester:0 "Must not have any capable maesters at court."
-### TODO NOT-IN-ST: tooltip_recently_employed_maester [AGOT: Must not have recently tried to employ a maester.]
- tooltip_recently_employed_maester:0 "Must not have recently tried to employ a maester."
-### TODO NOT-IN-ST: essos_decision_employ_maester [AGOT: Search for a Maester]
- essos_decision_employ_maester:0 "Search for a Maester"
-### TODO NOT-IN-ST: essos_decision_employ_maester_tooltip [AGOT: You will begin the search for a [maester|E]]
- essos_decision_employ_maester_tooltip:0 "You will begin the search for a [maester|E]"
-### TODO NOT-IN-ST: essos_decision_employ_maester_desc [AGOT: Where is it written that only the lords of Westeros can employ a maester? I should begin the search for a maester, and with any luck, I shall find someone with competence.]
- essos_decision_employ_maester_desc:0 "Where is it written that only the lords of Westeros can employ a maester? I should begin the search for a maester, and with any luck, I shall find someone with competence."
-### TODO NOT-IN-ST: essos_decision_employ_maester_effect [AGOT: A search for a maester will begin.]
- essos_decision_employ_maester_effect:0 "A search for a maester will begin."
+
+ decision_employ_maester:0 "Bir Üstat İçin Haber Sal"
+
+ decision_employ_maester_tooltip:0 "Bir [maester|E] çağıracaksın"
+
+ decision_employ_maester_desc:0 "Bilinen dünyada Westeros bilgisinin merkezi olarak ün salmış olan [GetTitleByKey('c_oldtown').GetNameNoTier] Kalesi, Westeros'taki her kaleye eğitimli bir bilge adam sağlar. Belki bir tanesine haber salmalıyım."
+
+ decision_employ_maester_effect:0 "Sana hizmet etmek üzere yetkin bir üstat seçilecek ve kısa süre içinde sarayına varacak."
+
+ decision_employ_maester_confirm:0 "Oldtown'a kuzgun gönder"
+
+ tooltip_employ_maester:0 "Sarayda hiçbir yetkin üstat bulunmamalı."
+
+ tooltip_recently_employed_maester:0 "Son zamanlarda bir üstat tutmayı denememiş olmalı."
+
+ essos_decision_employ_maester:0 "Üstat Ara"
+
+ essos_decision_employ_maester_tooltip:0 "Bir [maester|E] arayışına başlayacaksın"
+
+ essos_decision_employ_maester_desc:0 "Üstat tutabilenlerin yalnızca Westeros lordları olduğu nerede yazıyor? Bir üstat arayışına başlamalıyım; şansım yaver giderse, yetkin bir kimse bulurum."
+
+ essos_decision_employ_maester_effect:0 "Bir üstat arayışı başlayacak."
 
  essos_decision_employ_maester_confirm:0 "Aramayı başlat"
-### TODO NOT-IN-ST: agot_maester.0001.t [AGOT: The New Maester of [capital.GetNameNoTooltip]]
- agot_maester.0001.t:0 "The New Maester of [capital.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_maester.0001.t_alt [AGOT: A New Maester]
- agot_maester.0001.t_alt:0 "A New Maester"
-### TODO NOT-IN-ST: agot_maester.0001.desc [AGOT: The maester I sent for from the Citadel has arrived in [capital.GetNameNoTooltip], a [new_maester.GetCulture.GetName] by the name of [new_maester.GetFirstName]. Let us hope [new_maester.GetSheHe] will be loyal and wise.]
- agot_maester.0001.desc:0 "The maester I sent for from the Citadel has arrived in [capital.GetNameNoTooltip], a [new_maester.GetCulture.GetName] by the name of [new_maester.GetFirstName]. Let us hope [new_maester.GetSheHe] will be loyal and wise."
+
+ agot_maester.0001.t:0 "[capital.GetNameNoTooltip]'in Yeni Üstadı"
+
+ agot_maester.0001.t_alt:0 "Yeni Bir Üstat"
+
+ agot_maester.0001.desc:0 "Kaleden çağırttığım üstat, [new_maester.GetCulture.GetName] olan [new_maester.GetFirstName] adlı biri, [capital.GetNameNoTooltip]'e ulaştı. Umuyoruz ki [new_maester.GetSheHe] sadık ve bilge olur."
 
  agot_maester.0001.a:0 "Güzel."
 
  agot_maester.0001.a.tt:0 "Üstat hem danışman hem saray hekimi olarak hizmet edecek."
-### TODO NOT-IN-ST: agot_maester.0001.b [AGOT: I'm afraid we no longer have space in the accounts for your service.]
- agot_maester.0001.b:0 "I'm afraid we no longer have space in the accounts for your service."
-### TODO NOT-IN-ST: agot_maester.0002.t [AGOT: Grand Maester of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]]
- agot_maester.0002.t:0 "Grand Maester of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-### TODO NOT-IN-ST: agot_maester.0002.desc [AGOT: In your capacity as [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTier], you will now be assisted by the Grand Maester.]
- agot_maester.0002.desc:0 "In your capacity as [ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTier], you will now be assisted by the Grand Maester."
+
+ agot_maester.0001.b:0 "Korkarım hesaplarımızda artık hizmetin için yer yok."
+
+ agot_maester.0002.t:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]'in Büyük Üstadı"
+
+ agot_maester.0002.desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTier]'in [ROOT.Char.GetTitleAsNameNoTooltip] olarak, artık Büyük Üstat tarafından destekleneceksin."
 
  agot_maester.0002.a:0 "Güzel."
 
  agot_maester.0002.a.tt:0 "Üstat hem danışman hem saray hekimi olarak hizmet edecek."
-### TODO NOT-IN-ST: agot_maester.0005.t [AGOT: The New]
- agot_maester.0005.t:0 "The New "Maester" of [capital.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_maester.0005.desc [AGOT: [new_maester.GetFirstName] is a dubious physician at best. [new_maester.GetSheHe|U] claims to have been a former maester until the Conclave stripped [new_maester.GetHerHim] of [new_maester.GetHersHis] chain. It's not too late to send [new_maester.GetHerHim] away.]
- agot_maester.0005.desc:0 "[new_maester.GetFirstName] is a dubious physician at best. [new_maester.GetSheHe|U] claims to have been a former maester until the Conclave stripped [new_maester.GetHerHim] of [new_maester.GetHersHis] chain. It's not too late to send [new_maester.GetHerHim] away."
-### TODO NOT-IN-ST: agot_maester.0005.a [AGOT: I have no qualms with this.]
- agot_maester.0005.a:0 "I have no qualms with this."
-### TODO NOT-IN-ST: agot_maester.0005.b [AGOT: I will not stoop this low.]
- agot_maester.0005.b:0 "I will not stoop this low."
-### TODO NOT-IN-ST: agot_maester.0006.desc [AGOT: Supposedly, Maester [new_maester.GetFirstName] happened to be in the area when [new_maester.GetSheHe] heard of my call for a new maester. Let us hope [new_maester.GetSheHe] will be loyal and wise.]
- agot_maester.0006.desc:0 "Supposedly, Maester [new_maester.GetFirstName] happened to be in the area when [new_maester.GetSheHe] heard of my call for a new maester. Let us hope [new_maester.GetSheHe] will be loyal and wise."
-### TODO NOT-IN-ST: agot_maester.0007.t [AGOT: Maesterless]
- agot_maester.0007.t:0 "Maesterless"
-### TODO NOT-IN-ST: agot_maester.0007.desc [AGOT: My search for a new maester hasn't borne any fruit. It seems [capital.GetNameNoTooltip] will go without a maester for the foreseeable future.]
- agot_maester.0007.desc:0 "My search for a new maester hasn't borne any fruit. It seems [capital.GetNameNoTooltip] will go without a maester for the foreseeable future."
-### TODO NOT-IN-ST: agot_maester.0007.a [AGOT: How disappointing.]
- agot_maester.0007.a:0 "How disappointing."
-### TODO NOT-IN-ST: agot_maester.0008.t [AGOT: The Wandering Acolyte]
- agot_maester.0008.t:0 "The Wandering Acolyte"
-### TODO NOT-IN-ST: agot_maester.0008.desc [AGOT: [acolyte.GetFirstName] claims to have spent time studying at the Citadel, but without a maester's chain, it's impossible to be certain. [acolyte.GetSheHe|U] apparently did not progress far in [acolyte.GetHerHis] studies. Although [acolyte.GetFirstNameNoTooltip] is not exactly who I had in mind, [acolyte.GetSheHe] is better than nothing.]
- agot_maester.0008.desc:0 "[acolyte.GetFirstName] claims to have spent time studying at the Citadel, but without a maester's chain, it's impossible to be certain. [acolyte.GetSheHe|U] apparently did not progress far in [acolyte.GetHerHis] studies. Although [acolyte.GetFirstNameNoTooltip] is not exactly who I had in mind, [acolyte.GetSheHe] is better than nothing."
-### TODO NOT-IN-ST: agot_maester.0008.a [AGOT: [acolyte.GetSheHe|U] will have to do.]
- agot_maester.0008.a:0 "[acolyte.GetSheHe|U] will have to do."
-### TODO NOT-IN-ST: agot_maester.0008.b [AGOT: I demand better.]
- agot_maester.0008.b:0 "I demand better."
-### TODO NOT-IN-ST: agot_maester.1000.t [AGOT: Links in a Chain]
- agot_maester.1000.t:0 "Links in a Chain"
-### TODO NOT-IN-ST: agot_maester.1000.desc [AGOT: [child.GetFirstName] is a quiet child. [child.GetSheHe|U] prefers the company of bookkeepers and the maester to that of squires and knights. [child.GetSheHe|U] would rather spend the evenings in [child.GetHerHis] room, surrounded by books and scrolls, than in the yard practicing [child.GetHerHis] swordplay.\n\nThe day finally comes when [child.GetSheHe] approaches me, [child.Custom('quirk_pos_present')], and speaks of [child.GetHerHis] wish to leave [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] and journey to the Citadel. There, [child.GetSheHe] may begin [child.GetHerHis] studies and work towards forging a chain, that [child.GetSheHe] may one day serve the realm as a maester.]
- agot_maester.1000.desc:0 "[child.GetFirstName] is a quiet child. [child.GetSheHe|U] prefers the company of bookkeepers and the maester to that of squires and knights. [child.GetSheHe|U] would rather spend the evenings in [child.GetHerHis] room, surrounded by books and scrolls, than in the yard practicing [child.GetHerHis] swordplay.\n\nThe day finally comes when [child.GetSheHe] approaches me, [child.Custom('quirk_pos_present')], and speaks of [child.GetHerHis] wish to leave [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] and journey to the Citadel. There, [child.GetSheHe] may begin [child.GetHerHis] studies and work towards forging a chain, that [child.GetSheHe] may one day serve the realm as a maester."
-### TODO NOT-IN-ST: agot_maester.1000.a [AGOT: You may take your leave to the Citadel on the morrow.]
- agot_maester.1000.a:0 "You may take your leave to the Citadel on the morrow."
-### TODO NOT-IN-ST: agot_maester.1000.b [AGOT: You are a [ROOT.Char.GetDynastyNameNoTooltip], not a Grey Rat!]
- agot_maester.1000.b:0 "You are a [ROOT.Char.GetDynastyNameNoTooltip], not a Grey Rat!"
-### TODO NOT-IN-ST: agot_maester.1001.t [AGOT: A New Archmaester]
- agot_maester.1001.t:0 "A New Archmaester"
-### TODO NOT-IN-ST: agot_maester.1001.desc [AGOT: Maester [archmaester_candidate.GetFirstName] has come to me with great excitement. He claims that since the passing of Archmaester [dead_archmaester.GetFirstName], there has been a vote at the Citadel for his replacement. The members of the Conclave have determined Maester [archmaester_candidate.GetFirstNameNoTooltip] shall be raised to the office of Archmaester and has been summoned back to the Citadel.]
- agot_maester.1001.desc:0 "Maester [archmaester_candidate.GetFirstName] has come to me with great excitement. He claims that since the passing of Archmaester [dead_archmaester.GetFirstName], there has been a vote at the Citadel for his replacement. The members of the Conclave have determined Maester [archmaester_candidate.GetFirstNameNoTooltip] shall be raised to the office of Archmaester and has been summoned back to the Citadel."
-### TODO NOT-IN-ST: agot_maester.1001.a [AGOT: This is great news!]
- agot_maester.1001.a:0 "This is great news!"
-### TODO NOT-IN-ST: agot_maester.1001.a.tt [AGOT: Maester [archmaester_candidate.GetFirstNameNoTooltip] will be raised to the title of Archmaester and will depart for the Citadel.]
- agot_maester.1001.a.tt:0 "Maester [archmaester_candidate.GetFirstNameNoTooltip] will be raised to the title of Archmaester and will depart for the Citadel."
-### TODO NOT-IN-ST: agot_maester.1002.t [AGOT: A New Grand Maester]
- agot_maester.1002.t:0 "A New Grand Maester"
-### TODO NOT-IN-ST: agot_maester.1002.desc_death [AGOT: With the passing of Grand Maester [old_grandmaester.GetFirstName],]
- agot_maester.1002.desc_death:0 "With the passing of Grand Maester [old_grandmaester.GetFirstName], "
-### TODO NOT-IN-ST: agot_maester.1002.desc_disgraced [AGOT: With the dismissal of former Grand Maester [disgraced_maester.GetFirstName],]
- agot_maester.1002.desc_disgraced:0 "With the dismissal of former Grand Maester [disgraced_maester.GetFirstName], "
-### TODO NOT-IN-ST: agot_maester.1002.desc [AGOT: the Conclave at the Citadel has chosen Grand Maester [grandmaester_candidate.GetFirstName] to be their new voice at the Royal Court. It seems he is on his way.]
- agot_maester.1002.desc:0 "the Conclave at the Citadel has chosen Grand Maester [grandmaester_candidate.GetFirstName] to be their new voice at the Royal Court. It seems he is on his way."
-### TODO NOT-IN-ST: agot_maester.1002.a [AGOT: I can't wait.]
- agot_maester.1002.a:0 "I can't wait."
-### TODO NOT-IN-ST: agot_maester.1002.b [AGOT: He better be competent.]
- agot_maester.1002.b:0 "He better be competent."
-### TODO NOT-IN-ST: agot_maester.1003.t [AGOT: New Grand Maester Arrives]
- agot_maester.1003.t:0 "New Grand Maester Arrives"
-### TODO NOT-IN-ST: agot_maester.1003.desc [AGOT: Grand Maester [grandmaester_candidate.GetFirstName] has arrived at court at last. Let us hope he serves the realm faithfully.]
- agot_maester.1003.desc:0 "Grand Maester [grandmaester_candidate.GetFirstName] has arrived at court at last. Let us hope he serves the realm faithfully."
-### TODO NOT-IN-ST: agot_maester.1003.a [AGOT: Watch your step.]
- agot_maester.1003.a:0 "Watch your step."
-### TODO NOT-IN-ST: agot_maester.1004.t [AGOT: A Grand Disappointment]
- agot_maester.1004.t:0 "A Grand Disappointment"
-### TODO NOT-IN-ST: agot_maester.1004.desc [AGOT: Grand Maester [old_grandmaester.GetFirstName] has reportedly died en route to accepting his position. The Conclave has begun deliberations for selecting a new Grand Maester.]
- agot_maester.1004.desc:0 "Grand Maester [old_grandmaester.GetFirstName] has reportedly died en route to accepting his position. The Conclave has begun deliberations for selecting a new Grand Maester."
-### TODO NOT-IN-ST: agot_maester.1004.a [AGOT: I hope this next one lasts.]
- agot_maester.1004.a:0 "I hope this next one lasts."
-### TODO NOT-IN-ST: agot_maester.1005.t [AGOT: A Questioning Mind]
- agot_maester.1005.t:0 "A Questioning Mind"
-### TODO NOT-IN-ST: agot_maester.1005.desc [AGOT: Maester [maester.GetFirstName] has come to me about one of my children. [maester.GetSheHe|U] claims [child.GetFirstName] shows great promise in [child.GetHerHis] studies and may make a fine candidate for the Citadel. There, [maester.GetSheHe] says, [child.GetFirstNameNoTooltip] could find [child.GetHerHis] own path and work towards forging a chain, that [child.GetSheHe] may one day serve the realm as a maester.]
- agot_maester.1005.desc:0 "Maester [maester.GetFirstName] has come to me about one of my children. [maester.GetSheHe|U] claims [child.GetFirstName] shows great promise in [child.GetHerHis] studies and may make a fine candidate for the Citadel. There, [maester.GetSheHe] says, [child.GetFirstNameNoTooltip] could find [child.GetHerHis] own path and work towards forging a chain, that [child.GetSheHe] may one day serve the realm as a maester."
-### TODO NOT-IN-ST: agot_maester.1005.a [AGOT: [child.GetFirstName] leaves for the Citadel on the morrow.]
- agot_maester.1005.a:0 "[child.GetFirstName] leaves for the Citadel on the morrow."
-### TODO NOT-IN-ST: agot_maester.1005.b [AGOT: My child is a [ROOT.Char.GetDynastyNameNoTooltip], not a Grey Rat!]
- agot_maester.1005.b:0 "My child is a [ROOT.Char.GetDynastyNameNoTooltip], not a Grey Rat!"
-### TODO NOT-IN-ST: agot_maester.1006.t [AGOT: Your Maester, Disgraced]
- agot_maester.1006.t:0 "Your Maester, Disgraced"
-### TODO NOT-IN-ST: agot_maester.1006.desc [AGOT: Word has come from the Citadel; in light of [disgraced_maester.GetFirstNamePossessive] [secret.GetName] secret, the Conclave has revoked [disgraced_maester.GetHerHis] title as maester. As [disgraced_maester.GetHerHis] liege and [ROOT.Char.GetLadyLord], the Conclave has bid me to send [disgraced_maester.GetHerHim] into exile. In exchange, they have offered to send a new maester to my court.]
- agot_maester.1006.desc:0 "Word has come from the Citadel; in light of [disgraced_maester.GetFirstNamePossessive] [secret.GetName] secret, the Conclave has revoked [disgraced_maester.GetHerHis] title as maester. As [disgraced_maester.GetHerHis] liege and [ROOT.Char.GetLadyLord], the Conclave has bid me to send [disgraced_maester.GetHerHim] into exile. In exchange, they have offered to send a new maester to my court."
-### TODO NOT-IN-ST: agot_maester.1006.a [AGOT: I want nothing to do with you, grey rat.]
- agot_maester.1006.a:0 "I want nothing to do with you, grey rat."
-### TODO NOT-IN-ST: agot_maester.1006.a.tt [AGOT: [disgraced_maester.GetName] will be exiled from Westeros]
- agot_maester.1006.a.tt:0 "[disgraced_maester.GetName] will be exiled from Westeros"
-### TODO NOT-IN-ST: agot_maester.1006.b [AGOT: A cold cell is where you belong.]
- agot_maester.1006.b:0 "A cold cell is where you belong."
-### TODO NOT-IN-ST: agot_maester.1006.b.tt [AGOT: [disgraced_maester.GetName] will be imprisoned by you]
- agot_maester.1006.b.tt:0 "[disgraced_maester.GetName] will be imprisoned by you"
-### TODO NOT-IN-ST: agot_maester.1006.c [AGOT: This has changed nothing.]
- agot_maester.1006.c:0 "This has changed nothing."
-### TODO NOT-IN-ST: agot_maester.1006.c.tt [AGOT: [disgraced_maester.GetName] will stay on as your maester]
- agot_maester.1006.c.tt:0 "[disgraced_maester.GetName] will stay on as your maester"
+
+ agot_maester.0005.t:0 "[capital.GetNameNoTooltip]'in Yeni "Üstadı""
+
+ agot_maester.0005.desc:0 "[new_maester.GetFirstName] en iyi ihtimalle şüpheli bir hekimdir. [new_maester.GetSheHe|U], Kurul [new_maester.GetHerHim]'i zincirinden etmeden önce eski bir üstat olduğunu iddia ediyor. [new_maester.GetHerHim]'i göndermek için hâlâ geç değil."
+
+ agot_maester.0005.a:0 "Bunda bir sakınca görmüyorum."
+
+ agot_maester.0005.b:0 "Bu kadar alçalmayacağım."
+
+ agot_maester.0006.desc:0 "Görünüşe göre Üstat [new_maester.GetFirstName], yeni bir üstat çağrımı duyduğunda buralardaymış. Umuyoruz ki [new_maester.GetSheHe] sadık ve bilge olur."
+
+ agot_maester.0007.t:0 "Üstatsız"
+
+ agot_maester.0007.desc:0 "Yeni bir üstat arayışım meyve vermedi. Görünüşe göre [capital.GetNameNoTooltip] yakın gelecekte üstatsız kalacak."
+
+ agot_maester.0007.a:0 "Ne kadar hayal kırıklığı."
+
+ agot_maester.0008.t:0 "Gezgin Acemi"
+
+ agot_maester.0008.desc:0 "[acolyte.GetFirstName], bir süre Kale'de eğitim gördüğünü iddia ediyor, ama üstat zinciri olmadan bundan emin olmak imkânsız. [acolyte.GetSheHe|U], görünüşe göre [acolyte.GetHerHis] eğitiminde pek ilerleyememiş. [acolyte.GetFirstNameNoTooltip] aklımdaki kişi olmasa da, [acolyte.GetSheHe] hiç yoktan iyidir."
+
+ agot_maester.0008.a:0 "[acolyte.GetSheHe|U] idare edecek."
+
+ agot_maester.0008.b:0 "Daha iyisini talep ediyorum."
+
+ agot_maester.1000.t:0 "Zincirdeki Halkalar"
+
+ agot_maester.1000.desc:0 "[child.GetFirstName] sessiz bir çocuktur. [child.GetSheHe|U], muhasebecilerin ve üstadın meclisini, yaverlerin ve şövalyelerin meclisine tercih eder. [child.GetSheHe|U] akşamlarını avluda [child.GetHerHis] kılıç talimi yaparak geçirmek yerine, kitaplar ve parşömenlerle çevrili odasında geçirmeyi yeğler.\n\n[child.GetSheHe]'nin bana yaklaşıp, [child.Custom('quirk_pos_present')], [child.GetHerHis] [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]'ten ayrılıp Kale'ye gitme arzusundan söz ettiği gün nihayet gelir. [child.GetSheHe] orada eğitimine başlayıp bir zincir dövmeye çabalayabilir ve bir gün krallığa bir üstat olarak hizmet edebilir."
+
+ agot_maester.1000.a:0 "Yarın Kale'ye gitmek üzere yola çıkabilirsin."
+
+ agot_maester.1000.b:0 "Sen bir [ROOT.Char.GetDynastyNameNoTooltip]'sin, Gri Sıçan değil!"
+
+ agot_maester.1001.t:0 "Yeni Bir Başüstat"
+
+ agot_maester.1001.desc:0 "Üstat [archmaester_candidate.GetFirstName] büyük bir heyecanla yanıma geldi. Başüstat [dead_archmaester.GetFirstName]'in vefatından beri Kale'de yerine birinin seçilmesi için oylama yapıldığını iddia ediyor. Kurul üyeleri, Üstat [archmaester_candidate.GetFirstNameNoTooltip]'in Başüstat makamına yükseltilmesine karar vermiş ve kendisi Kale'ye geri çağrılmış."
+
+ agot_maester.1001.a:0 "Bu harika bir haber!"
+
+ agot_maester.1001.a.tt:0 "Üstat [archmaester_candidate.GetFirstNameNoTooltip], Başüstat unvanına yükseltilecek ve Kale'ye gitmek üzere yola çıkacak."
+
+ agot_maester.1002.t:0 "Yeni Bir Büyük Üstat"
+
+ agot_maester.1002.desc_death:0 "Büyük Üstat [old_grandmaester.GetFirstName]'in vefatıyla, "
+
+ agot_maester.1002.desc_disgraced:0 "Eski Büyük Üstat [disgraced_maester.GetFirstName]'in azledilmesiyle, "
+
+ agot_maester.1002.desc:0 "Kale'deki Kurul, Kraliyet Sarayı'ndaki yeni sözcüleri olarak Büyük Üstat [grandmaester_candidate.GetFirstName]'i seçti. Görünüşe göre yola çıkmış."
+
+ agot_maester.1002.a:0 "Sabırsızlanıyorum."
+
+ agot_maester.1002.b:0 "Umarım yetkindir."
+
+ agot_maester.1003.t:0 "Yeni Büyük Üstat Geliyor"
+
+ agot_maester.1003.desc:0 "Büyük Üstat [grandmaester_candidate.GetFirstName] nihayet saraya ulaştı. Umuyoruz ki krallığa sadakatle hizmet eder."
+
+ agot_maester.1003.a:0 "Dikkatli adım at."
+
+ agot_maester.1004.t:0 "Büyük Bir Hayal Kırıklığı"
+
+ agot_maester.1004.desc:0 "Büyük Üstat [old_grandmaester.GetFirstName]'in görevini kabul etmek üzere yola çıkarken öldüğü bildirildi. Kurul, yeni bir Büyük Üstat seçmek için görüşmelere başladı."
+
+ agot_maester.1004.a:0 "Umarım bu seferki uzun süre dayanır."
+
+ agot_maester.1005.t:0 "Sorgulayan Bir Zihin"
+
+ agot_maester.1005.desc:0 "Üstat [maester.GetFirstName], çocuklarımdan biri hakkında yanıma geldi. [maester.GetSheHe|U], [child.GetFirstName]'in [child.GetHerHis] eğitiminde büyük vaat gösterdiğini ve Kale için iyi bir aday olabileceğini iddia ediyor. [maester.GetSheHe]'ye göre [child.GetFirstNameNoTooltip] orada [child.GetHerHis] kendi yolunu bulabilir ve bir zincir dövmeye çalışarak bir gün krallığa üstat olarak hizmet edebilir."
+
+ agot_maester.1005.a:0 "[child.GetFirstName] yarın Kale'ye gitmek üzere yola çıkıyor."
+
+ agot_maester.1005.b:0 "Çocuğum bir [ROOT.Char.GetDynastyNameNoTooltip], Gri Sıçan değil!"
+
+ agot_maester.1006.t:0 "Üstadın, Rezil Edilmiş"
+
+ agot_maester.1006.desc:0 "Kale'den haber geldi; [disgraced_maester.GetFirstNamePossessive] [secret.GetName] sırrının ortaya çıkması üzerine Kurul, [disgraced_maester.GetHerHis] üstat unvanını geri aldı. [disgraced_maester.GetHerHis] lordu ve [ROOT.Char.GetLadyLord] olarak, Kurul benden [disgraced_maester.GetHerHim]'i sürgüne göndermemi istedi. Karşılığında sarayıma yeni bir üstat göndermeyi teklif ettiler."
+
+ agot_maester.1006.a:0 "Seninle işim olmaz, gri sıçan."
+
+ agot_maester.1006.a.tt:0 "[disgraced_maester.GetName] Westeros'tan sürgün edilecek"
+
+ agot_maester.1006.b:0 "Senin yerin soğuk bir zindan."
+
+ agot_maester.1006.b.tt:0 "[disgraced_maester.GetName] senin tarafından hapsedilecek"
+
+ agot_maester.1006.c:0 "Bu hiçbir şeyi değiştirmedi."
+
+ agot_maester.1006.c.tt:0 "[disgraced_maester.GetName] üstadın olarak görevine devam edecek"

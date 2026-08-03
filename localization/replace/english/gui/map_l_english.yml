@@ -14,57 +14,57 @@
  DESTINATION_LAKE:0 "Göl"
  DESTINATION_RIVER:0 "Nehir"
  SIEGE_TOOLTIP_TITLE:1 "#T $PROVINCE$ toprağındaki istihkâm#!"
-### TODO AGOT-CHANGED: SIEGE_TOOLTIP_OCUPIED [AGOT: Occupied by [AGOTGetLongUIName(CHARACTER)]. | TR: [Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetShortUIName )] [Select_CString( CHARACTER.IsLocalPlayer, 'tarafınızdan', 'tarafından' )] işgal ediliyor.]
- SIEGE_TOOLTIP_OCUPIED:0 "Occupied by [AGOTGetLongUIName(CHARACTER)]."
+
+ SIEGE_TOOLTIP_OCUPIED:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetShortUIName )] [Select_CString( CHARACTER.IsLocalPlayer, 'tarafınızdan', 'tarafından' )] işgal ediliyor."
  SIEGE_TOOTLTIP_IMPACT:0 "Kale seviyesi etkisi:"
-### TODO AGOT-CHANGED: CHARACTER_ACTIVITY_TOOLTIP [AGOT: [AGOTGetLongUIName(CHARACTER)] attends this activity | TR: [CHARACTER.GetUIName] bu etkinliğe katılıyor]
- CHARACTER_ACTIVITY_TOOLTIP:0 "[AGOTGetLongUIName(CHARACTER)] attends this activity"
+
+ CHARACTER_ACTIVITY_TOOLTIP:0 "[CHARACTER.GetUIName] bu etkinliğe katılıyor"
  CHARACTER_AT_LOCATION:0 "Konum: [PROVINCE.GetName|V]"
-### TODO AGOT-CHANGED: CHARACTER_AT_ACTIVITY [AGOT: [Character.Custom('is_missing_location_activity_loc')] | TR: [PROVINCE.GetName|V] toprağında [ACTIVITY.GetName|V] yapıyor]
- CHARACTER_AT_ACTIVITY:0 "[Character.Custom('is_missing_location_activity_loc')]"
+
+ CHARACTER_AT_ACTIVITY:0 "[PROVINCE.GetName|V] toprağında [ACTIVITY.GetName|V] yapıyor"
  CHARACTER_AT_ARMY:0 "[PROVINCE.GetName|V] toprağında [army|E] komuta ediyor"
  CHARACTER_TRAVEL_TO_LOCATION:0 "[PROVINCE.GetName|V] toprağına seyahat ediyor"
-### TODO AGOT-CHANGED: CHARACTER_IMPRISONED_AT [AGOT: Imprisoned by [AGOTGetLongUIName(CHARACTER)|V] in [PROVINCE.GetName|V] | TR: [Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetUIName )] tarafın[Select_CString( CHARACTER.IsLocalPlayer, 'ız', '' )]dan [PROVINCE.GetName|V] toprağında tutsak tutuluyor]
- CHARACTER_IMPRISONED_AT:0 "Imprisoned by [AGOTGetLongUIName(CHARACTER)|V] in [PROVINCE.GetName|V]"
-### TODO AGOT-CHANGED: CHARACTER_AT_COURT_VISITING [AGOT: Visiting [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V] | TR: [PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ını ziyaret ediyor]
- CHARACTER_AT_COURT_VISITING:1 "Visiting [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V]"
-### TODO AGOT-CHANGED: CHARACTER_AT_COURT [AGOT: At [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V] | TR: [PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ında]
- CHARACTER_AT_COURT:1 "At [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V]"
-### TODO AGOT-CHANGED: CHARACTER_TRAVELING_OWNER [AGOT: In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')] | TR: [PROVINCE.GetName|V] topraklarında seyahat hâlinde]
- CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')]"
+
+ CHARACTER_IMPRISONED_AT:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetUIName )] tarafın[Select_CString( CHARACTER.IsLocalPlayer, 'ız', '' )]dan [PROVINCE.GetName|V] toprağında tutsak tutuluyor"
+
+ CHARACTER_AT_COURT_VISITING:0 "[PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ını ziyaret ediyor"
+
+ CHARACTER_AT_COURT:0 "[PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ında"
+
+ CHARACTER_TRAVELING_OWNER:0 "[PROVINCE.GetName|V] topraklarında seyahat hâlinde"
  CHARACTER_TRAVELING_ENTOURAGE:0 "[PROVINCE.GetName|V] topraklarında [Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, 'sizin', TRAVEL_PLAN.GetData.GetOwner.GetShortUIName )][Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, '', ' adlı kişinin' )] [entourage|E][Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, 'inizde', 'inde' )]"
  FORD_TOOLTIP:1 "$FROM$ ile $TO$ arasındaki geçit"
  STRAIT_TOOLTIP:1 "$FROM$ ile $TO$ arasındaki boğaz"
-### TODO AGOT-CHANGED: MAP_REALM_TT_HEADER [AGOT: #T [TITLE.GetNameNoTierNoTooltip|U]#! | TR: #T [TITLE.GetNameNoTooltip|U]#!]
- MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTierNoTooltip|U]#!"
-### TODO AGOT-CHANGED: MAP_REALM_TT_BOTTOM [AGOT: Ruler: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Hükümdar: [CHARACTER.GetUINameNoTooltip|UV]]
- MAP_REALM_TT_BOTTOM:0 "Ruler: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
+
+ MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTooltip|U]#!"
+
+ MAP_REALM_TT_BOTTOM:0 "Hükümdar: [CHARACTER.GetUINameNoTooltip|UV]"
  MAP_REALM_LOBBY_TT_HEADER:0 "#T [CHARACTER.GetShortUINameNotMeNoTooltip]#!\n[TITLE.GetNameNoTooltip]"
  MAP_REALM_LOBBY_TT_BOTTOM:0 "\n#I Seçmek için tıklayın#!"
-### TODO AGOT-ONLY: MAP_REALM_TT_RELATION_ME [AGOT: ]
- MAP_REALM_TT_RELATION_ME:0 ""
-### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_VASSAL [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Vassal | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Vasalı]
- MAP_REALM_TT_RELATION_VASSAL:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Vassal"
-### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_PEER [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] fellow Vassal | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereninin Vasalı]
- MAP_REALM_TT_RELATION_PEER:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] fellow Vassal"
-### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_LIEGE [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Liege | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereni]
- MAP_REALM_TT_RELATION_LIEGE:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Liege"
-### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_TOP_LIEGE [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Top Liege | TR: [TARGET_CHARACTER.GetShortUINamePossessive|UV] Ana Süzereni]
- MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Top Liege"
+
+ MAP_REALM_TT_RELATION_ME:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ MAP_REALM_TT_RELATION_VASSAL:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Vasalı"
+
+ MAP_REALM_TT_RELATION_PEER:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereninin Vasalı"
+
+ MAP_REALM_TT_RELATION_LIEGE:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereni"
+
+ MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[TARGET_CHARACTER.GetShortUINamePossessive|UV] Ana Süzereni"
  MAP_REALM_TT_RELATION_OTHER:0 "Bağımsız Ülke"
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Geçilemez Arazi#!"
-### TODO AGOT-CHANGED: IMPASSPABLE_SEA_PROVINCE_TOOLTIP [AGOT: #T Embrar Dogīmissiarzor#! | TR: #T Bilinmeyen Deniz#!]
- IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Embrar Dogīmissiarzor#!"
+
+ IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Bilinmeyen Deniz#!"
  SEA_PROVINCE_TOOLTIP:2 "#T [PROVINCE.GetName]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  LAKE_PROVINCE_TOOLTIP:0 "#T Göl#!"
  RIVER_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nBüyük Nehir"
  PROVINCE_TOOLTIP_HEADER: "#T [PROVINCE.GetTitle.GetNameNoTooltip]#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_HOLDER [AGOT: Holder: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Sahibi: [CHARACTER.GetUINameNoTooltip|UV]]
- PROVINCE_TOOLTIP_HOLDER:0 "Holder: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_LESSEE [AGOT: Lessee: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Kiracı: [CHARACTER.GetUINameNoTooltip|UV]]
- PROVINCE_TOOLTIP_LESSEE:0 "Lessee: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_OCCUPIED [AGOT: Occupied by: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: İşgal eden: [CHARACTER.GetUINameNoTooltip|UV]]
- PROVINCE_TOOLTIP_OCCUPIED:0 "Occupied by: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
+
+ PROVINCE_TOOLTIP_HOLDER:0 "Sahibi: [CHARACTER.GetUINameNoTooltip|UV]"
+
+ PROVINCE_TOOLTIP_LESSEE:0 "Kiracı: [CHARACTER.GetUINameNoTooltip|UV]"
+
+ PROVINCE_TOOLTIP_OCCUPIED:0 "İşgal eden: [CHARACTER.GetUINameNoTooltip|UV]"
  PROVINCE_TOOLTIP_CULTURE:0 "Kültür: [COUNTY.GetCulture.GetNameNoTooltip|V]"
  PROVINCE_TOOLTIP_FAITH:0 "Mezhep: [COUNTY.GetFaith.GetNameNoTooltip|V]"
  PROVINCE_TOOLTIP_TERRAIN: "#size:6 \n #!@[PROVINCE.GetTerrainKey]_big! #size:17 [PROVINCE.GetTerrain.GetNameNoTooltip|V] #!"

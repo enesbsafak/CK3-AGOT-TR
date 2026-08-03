@@ -1,282 +1,282 @@
-﻿﻿l_english:
+﻿l_english:
  board_games.0000.t:0 "Güzel Oyun: [SCOPE.Custom('BG_GameType')|U]"
  board_games.0001.t:0 "$board_games.0000.t$"
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.diplomacy.low [AGOT: ]
- board_games.0001.desc.opponent_winning.diplomacy.low:0 ""You know," muses my opponent, "I may not be much of a talker, but I'm alarmingly good at [SCOPE.Custom('BG_GameType')].""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.diplomacy.medium [AGOT: ]
- board_games.0001.desc.opponent_winning.diplomacy.medium:0 ""Ahhhh, if only public speaking was as easy as beating you at [SCOPE.Custom('BG_GameType')]," remarks my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.diplomacy.high [AGOT: ]
- board_games.0001.desc.opponent_winning.diplomacy.high:0 ""I genuinely don't know which is easier," laments my opponent, "beating you at [SCOPE.Custom('BG_GameType')] or telling the tale of your embarrassing loss.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.martial.low [AGOT: ]
- board_games.0001.desc.opponent_winning.martial.low:0 ""If war was as easy as [SCOPE.Custom('BG_GameType')], I'd rule the world by now," laughs my opponent. "But then, that's just me.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.martial.medium [AGOT: ]
- board_games.0001.desc.opponent_winning.martial.medium:0 ""Mmmm, you're not much of a strategist, are you?" chortles my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.martial.high [AGOT: ]
- board_games.0001.desc.opponent_winning.martial.high:0 ""The battlefield, the board, it's all just a case of that most important thing," warbles my opponent. [bg_opponent.GetSheHe|U] taps [bg_opponent.GetHerHis] forehead with a knuckle for emphasis."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.stewardship.low [AGOT: ]
- board_games.0001.desc.opponent_winning.stewardship.low:0 ""I wish matters of coin were as easy as playing [SCOPE.Custom('BG_GameType')]," remarks my opponent. "I'd be swimming in silver.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.stewardship.medium [AGOT: ]
- board_games.0001.desc.opponent_winning.stewardship.medium:0 ""Do you think [SCOPE.Custom('BG_GameType')] is good practice for real administration?" questions my opponent idly. "I've always rather thought so. Not that I'm... implying anything by it.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.stewardship.high [AGOT: ]
- board_games.0001.desc.opponent_winning.stewardship.high:0 ""I've always said that [SCOPE.Custom('BG_GameType')] can teach a [bg_opponent.GetWomanMan] much about running a realm," pontificates my opponent. "And vice versa, naturally.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.intrigue.low [AGOT: ]
- board_games.0001.desc.opponent_winning.intrigue.low:0 ""See, this is why I like [SCOPE.Custom('BG_GameType')]," opines my opponent. "No skulking around, no lying, just a fair game of wits. One where, well...""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.intrigue.medium [AGOT: ]
- board_games.0001.desc.opponent_winning.intrigue.medium:0 ""Did you know you can learn #EMP exactly#! how someone lies by watching their [bg_myself.Custom('MaskFace')] during [SCOPE.Custom('BG_GameType')]?" queries my opponent. "Oh, I didn't mean... just a note...""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.intrigue.high [AGOT: ]
- board_games.0001.desc.opponent_winning.intrigue.high:0 ""Careful," smirks my opponent, "one more move like that and you'll activate my trap [SCOPE.Custom('BG_GamePiece')].""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.learning.low [AGOT: ]
- board_games.0001.desc.opponent_winning.learning.low:0 ""You know, they tell me I need #EMP books#! to prove my smartness," pontificates my opponent, "but I think it's pretty clear right now that I'm not such a lout.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.learning.medium [AGOT: ]
- board_games.0001.desc.opponent_winning.learning.medium:0 ""Honestly," waxes my opponent, "I'm impressed you're playing as well as you are, considering who you're up against.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.learning.high [AGOT: ]
- board_games.0001.desc.opponent_winning.learning.high:0 ""I've studied [SCOPE.Custom('BG_GameType')] extensively," explains my opponent, "and I'm sorry to say that by this point I simply don't think there's any way for you to win.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.lustful [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.lustful:0 ""As both the world's greatest lover #EMP and#! [SCOPE.Custom('BG_GameType')]-player, I don't blame you for losing to me," chortles my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.chaste [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.chaste:0 ""Discipline in the home begets discipline on the board, you know," pontificates my opponent. "A little restraint goes a long way.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.gluttonous [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.gluttonous:0 ""I think I might celebrate my win with a feast," muses my opponent. "I feel like something sweet, to go with the victory.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.temperate [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.temperate:0 ""I may even allow myself a cup of rose-scented water after this game," muses my opponent. "I don't treat myself often, but I think I've earned it.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.greedy [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.greedy:0 ""The only thing sweeter than clinking gold is the soft pitter-patter of a [bg_myself.GetWomanMan]'s tears against a [SCOPE.Custom('BG_GameType')] board," smiles my opponent. "Don't you agree?""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.generous [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.generous:0 ""Look, I may be winning, but if you ask nicely, I'm willing to just... let you have this," explains my opponent, voice dripping with kindness and pity. "There's more to life than winning at [SCOPE.Custom('BG_GameType')].""
+
+ board_games.0001.desc.opponent_winning.diplomacy.low:0 ""Biliyor musun," diye düşünür rakibim, "pek konuşkan biri olmayabilirim, ama [SCOPE.Custom('BG_GameType')] oyununda ürkütücü derecede iyiyim.""
+
+ board_games.0001.desc.opponent_winning.diplomacy.medium:0 ""Ahhhh, keşke topluluk önünde konuşmak da [SCOPE.Custom('BG_GameType')] oyununda seni yenmek kadar kolay olsaydı," diye söyler rakibim."
+
+ board_games.0001.desc.opponent_winning.diplomacy.high:0 ""Hangisinin daha kolay olduğunu gerçekten bilmiyorum," diye yakınır rakibim, "seni [SCOPE.Custom('BG_GameType')] oyununda yenmek mi, yoksa senin utanç verici kaybının hikâyesini anlatmak mı.""
+
+ board_games.0001.desc.opponent_winning.martial.low:0 ""Savaş [SCOPE.Custom('BG_GameType')] kadar kolay olsaydı, şimdiye kadar dünyayı yönetirdim," diye güler rakibim. "Ama sonra, bu sadece benim.""
+
+ board_games.0001.desc.opponent_winning.martial.medium:0 ""Mmmm, pek stratejist sayılmazsın, değil mi?" diye kıkırdar rakibim."
+
+ board_games.0001.desc.opponent_winning.martial.high:0 ""Savaş meydanı, oyun tahtası... hepsi en önemli şeyin bir parçası," diye cıvıldar rakibim. [bg_opponent.GetSheHe|U] vurgulamak için parmak eklemiyle [bg_opponent.GetHerHis] alnına vurur."
+
+ board_games.0001.desc.opponent_winning.stewardship.low:0 ""Keşke para işleri de [SCOPE.Custom('BG_GameType')] oynamak kadar kolay olsaydı," diye söyler rakibim. "Gümüşlerin içinde yüzerdim.""
+
+ board_games.0001.desc.opponent_winning.stewardship.medium:0 ""Sence [SCOPE.Custom('BG_GameType')] gerçek yönetim için iyi bir alıştırma mı?" diye sorar rakibim kayıtsızca. "Ben hep öyle düşünmüşümdür. Bununla... bir şey ima etmiyorum ama.""
+
+ board_games.0001.desc.opponent_winning.stewardship.high:0 ""Her zaman [SCOPE.Custom('BG_GameType')]'in bir [bg_opponent.GetWomanMan]'e krallık yönetimi hakkında çok şey öğretebileceğini söylemişimdir," diye nutuk çeker rakibim. "Ve doğal olarak, tersi de geçerli.""
+
+ board_games.0001.desc.opponent_winning.intrigue.low:0 ""İşte bu yüzden [SCOPE.Custom('BG_GameType')] seviyorum," diye fikir beyan eder rakibim. "Gizlice dolaşmak yok, yalan yok, sadece dürüst bir zekâ oyunu. Öyle bir oyun ki, yani...""
+
+ board_games.0001.desc.opponent_winning.intrigue.medium:0 ""Birinin nasıl yalan söylediğini, [SCOPE.Custom('BG_GameType')] sırasında [bg_myself.Custom('MaskFace')]ni izleyerek #EMP birebir#! öğrenebileceğini biliyor muydun?" diye sorar rakibim. "Ah, demek istemedim... sadece bir not...""
+
+ board_games.0001.desc.opponent_winning.intrigue.high:0 ""Dikkat et," diye sırıtır rakibim, "böyle bir hamle daha yaparsan tuzak [SCOPE.Custom('BG_GamePiece')]m devreye girecek.""
+
+ board_games.0001.desc.opponent_winning.learning.low:0 ""Biliyor musun, zekamı kanıtlamam için #EMP kitap#! okumam gerektiğini söylüyorlar," diye nutuk çeker rakibim, "ama şu an o kadar da serseri olmadığım gayet açık.""
+
+ board_games.0001.desc.opponent_winning.learning.medium:0 ""Açıkçası," diye söze başlar rakibim, "kime karşı oynadığını düşününce bu kadar iyi oynaman etkileyici.""
+
+ board_games.0001.desc.opponent_winning.learning.high:0 ""[SCOPE.Custom('BG_GameType')] oyununu kapsamlıca inceledim," diye açıklar rakibim, "ve üzgünüm ama bu noktada kazanman için hiçbir yol olmadığını düşünüyorum.""
+
+ board_games.0001.desc.opponent_winning.trait.lustful:0 ""Dünyanın hem en büyük aşığı #EMP hem de#! en iyi [SCOPE.Custom('BG_GameType')] oyuncusu olarak, bana kaybetmeni yadırgamıyorum," diye kıkırdar rakibim."
+
+ board_games.0001.desc.opponent_winning.trait.chaste:0 ""Evdeki disiplin tahtada disiplin doğurur, bilirsin," diye nutuk çeker rakibim. "Biraz itidal uzun yol kat eder.""
+
+ board_games.0001.desc.opponent_winning.trait.gluttonous:0 ""Sanırım zaferimi bir ziyafetle kutlayabilirim," diye düşünür rakibim. "Zafere eşlik etmesi için tatlı bir şeyler canım çekiyor.""
+
+ board_games.0001.desc.opponent_winning.trait.temperate:0 ""Bu oyundan sonra kendime bir kupa gül kokulu su bile ikram edebilirim," diye düşünür rakibim. "Kendime sık sık ödül vermem, ama sanırım bunu hak ettim.""
+
+ board_games.0001.desc.opponent_winning.trait.greedy:0 ""Şıngırdayan altından daha tatlı tek şey, bir [bg_myself.GetWomanMan]'in gözyaşlarının [SCOPE.Custom('BG_GameType')] tahtasına düşen yumuşak damlalarıdır," diye gülümser rakibim. "Katılmıyor musun?""
+
+ board_games.0001.desc.opponent_winning.trait.generous:0 ""Bak, kazanıyor olabilirim, ama güzelce istersen... bu zaferi sana bırakmaya razıyım," diye açıklar rakibim, sesi nezaket ve acıma akıyor. "Hayatta [SCOPE.Custom('BG_GameType')] kazanmaktan daha önemli şeyler var.""
  board_games.0001.desc.opponent_winning.trait.lazy:0 "Rakibim sesli bir şekilde esniyor. "Beni biraz daha zorlamanı beklerdim, [bg_myself.GetFirstNameNoTooltip]. Kendimi uyumamak için zor tutuyorum.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.diligent [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.diligent:0 ""This is why you need to put the work in," consoles my opponent, tone #EMP utterly#! insufferable. "There's no substitute for hard-work, in life or in [SCOPE.Custom('BG_GameType')].""
+
+ board_games.0001.desc.opponent_winning.trait.diligent:0 ""İşte bu yüzden emek vermelisin," diye teselli eder rakibim, ses tonu #EMP tamamen#! katlanılmaz. "Hayatta da [SCOPE.Custom('BG_GameType')] oyununda da çok çalışmanın yerini hiçbir şey tutmaz.""
  board_games.0001.desc.opponent_winning.trait.wrathful:0 "Rakibim tuhaf ve beklenmedik bir şekilde sakin. "Ah, kızacağım pek bir şey yok," diyor ona baktığımı fark ettiğinde, "özellikle de işler bu kadar #EMP iyi#! giderken.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.calm [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.calm:0 ""I have always found that the key to [SCOPE.Custom('BG_GameType')] is a clear mind and a cool head," muses my opponent."You'll get that some day.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.patient [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.patient:0 ""Most people," lectures my opponent, "don't fully appreciate quite how tricky it is to pull off [bg_opponent.Custom('BG_RandomArticleDirection')] [bg_opponent.Custom('BG_RandomRankPossessive')] [bg_opponent.Custom('BG_RandomMoveType')]. Let alone defend against it.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.impatient [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.impatient:0 ""You're really rather slow when you play [SCOPE.Custom('BG_GameType')], [bg_myself.Custom2('GetYoungMiddleAgedOld',bg_opponent)] [bg_myself.GetWomanMan]," mutters my opponent, drumming [bg_opponent.GetHerHis] fingers on the board."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.arrogant [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.arrogant:0 ""Don't feel bad [bg_myself.GetFirstNameNoTooltip]," smarms my opponent, reclining where [bg_opponent.GetSheHe] sits leisurely. "We can't all be this naturally #EMP talented#!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.humble [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.humble:0 ""Honestly, you're doing great," chirps my opponent. "I don't usually do this well, so I think you're just having bad luck.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.deceitful [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.deceitful:1 ""Don't feel too bad," soothes my opponent, voice honey-sweet. "Even [bg_opponent.GetFaith.TricksterGodName] couldn't follow my moves.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.honest [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.honest:0 ""My, this is all going #EMP much#! better than I expected!" exclaims my opponent. "You're not a difficult foe at all... oh, sorry, didn't mean to be rude. Just being honest.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.craven [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.craven:0 ""I... I'm winning? I'm winning!" cries my opponent. [bg_opponent.GetSheHe|U] seems genuinely surprised, but then, [bg_opponent.GetSheHe] #EMP has#! spent half the match watching through [bg_opponent.GetHerHis] fingers."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.brave [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.brave:0 ""You'll permit me a little chuckle," remarks my opponent. "but you're going to have to play bolder than #EMP that#! to beat #EMP me#!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.shy [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.shy:0 ""All that practice is paying off!" squeaks my opponent, beaming in timid pride at the state of the board."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.gregarious [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.gregarious:0 ""Don't feel too bad," drawls my opponent, cracking [bg_opponent.GetHerHis] knuckles. "I win at [SCOPE.Custom('BG_GameType')] like I make friends. Alarmingly easily.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.ambitious [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.ambitious:0 ""Do you think they appoint some kind of... #EMP King#! of Games?" queries my opponent, scratching [bg_opponent.GetHerHis] chin. "I feel like I'm working towards that title already, you see.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.content [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.content:0 ""What a lovely game," chortles my opponent. "We couldn't ask for anything better, could we? Besides your luck, I mean.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.arbitrary [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.arbitrary:0 ""I'm not generally much of a one for rules," opines my opponent, "but [SCOPE.Custom('BG_GameType')] makes me see the appeal, just a little. They let you #EMP force#! other people admit you're better than them sometimes.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.just [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.just:0 ""Look," explains my opponent, waving a sheaf of papers at me. "I'm sorry you keep trying to make illegal moves, but if you'd #EMP read the rules#!, you'd be doing better.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.cynical [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.cynical:0 ""Naturally, I'm not taking it easy on you," leers my opponent. "You #EMP definitely#! wouldn't on me, so why bother?""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.zealous [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.zealous:0 ""I wish I could take credit for this sure-victory," lazes my opponent, "but it's all the work of [bg_opponent.GetFaith.KnowledgeGodName] #EMP through#! me.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.paranoid [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.paranoid:0 ""I know you've still got some trick up your sleeve," scowls my opponent. "No one can possibly be #EMP this#! easy to beat.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.trusting [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.trusting:0 ""I might just nip to the privy whilst it's your move," smiles my opponent. "Don't go fiddling with my [SCOPE.Custom('BG_GamePiecePlural')]!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.compassionate [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.compassionate:0 ""I'm sorry if I'm putting you in a bad move, [bg_myself.GetFirstNameNoTooltip]," says my opponent, [bg_opponent.GetHerHis] voice genuinely remorseful. "I play [SCOPE.Custom('BG_GameType')] for fun, but I think it's fun when we're #EMP both#! enjoying it.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.callous [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.callous:0 ""By [bg_opponent.GetFaith.HouseholdGodName], you don't put up much of a fight, do you?" exclaims my opponent bluntly."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.sadistic [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.sadistic:0 ""It's #EMP so#! much more fun to toy with a wounded foe," drawls my opponent with no small amount of delighted venom, "don't you agree, [bg_myself.GetFirstNameNoTooltip]?""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.stubborn [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.stubborn:0 ""Quite nice to have such an easy win for a change," scoffs my opponent. "Usually I have to argue for a few hours before the other player admits I won.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.fickle [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.fickle:0 ""I really love that, no matter what strategy I settle on, you always lose just as hard," quips my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.vengeful [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.vengeful:0 ""Of course, this is all just payback," hisses my opponent. "And you know #EMP damned#! well what for.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.forgiving [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.forgiving:0 ""To be frank, I was expecting a bit more of a challenge," whines my opponent. "It's alright, though. At least you're good practice.""
+
+ board_games.0001.desc.opponent_winning.trait.calm:0 ""Her zaman [SCOPE.Custom('BG_GameType')]'in anahtarının berrak bir zihin ve soğukkanlı bir kafa olduğunu bulmuşumdur," diye düşünür rakibim. "Bir gün sen de ona sahip olacaksın.""
+
+ board_games.0001.desc.opponent_winning.trait.patient:0 ""Çoğu insan," diye ders verir rakibim, "[bg_opponent.Custom('BG_RandomArticleDirection')] [bg_opponent.Custom('BG_RandomRankPossessive')] [bg_opponent.Custom('BG_RandomMoveType')] yapmanın ne kadar zor olduğunu tam olarak anlamaz. Ona karşı savunmak bir yana.""
+
+ board_games.0001.desc.opponent_winning.trait.impatient:0 ""[SCOPE.Custom('BG_GameType')] oynarken gerçekten oldukça yavaşsın, [bg_myself.Custom2('GetYoungMiddleAgedOld',bg_opponent)] [bg_myself.GetWomanMan]," diye mırıldanır rakibim, [bg_opponent.GetHerHis] parmaklarını tahtaya vurarak."
+
+ board_games.0001.desc.opponent_winning.trait.arrogant:0 ""Üzülme [bg_myself.GetFirstNameNoTooltip]," diye yaltaklanır rakibim, [bg_opponent.GetSheHe] oturduğu yerde keyifle uzanırken. "Hepimiz bu kadar doğal #EMP yetenekli#! olamayız!""
+
+ board_games.0001.desc.opponent_winning.trait.humble:0 ""Açıkçası harika gidiyorsun," diye cıvıldar rakibim. "Genelde bu kadar iyi oynamam, o yüzden sanırım sadece şanssızsın.""
+
+ board_games.0001.desc.opponent_winning.trait.deceitful:0 ""Kendini çok üzme," diye yatıştırır rakibim, sesi bal gibi tatlı. "Hamlelerimi [bg_opponent.GetFaith.TricksterGodName] bile takip edemez.""
+
+ board_games.0001.desc.opponent_winning.trait.honest:0 ""Vay, her şey beklediğimden #EMP çok#! daha iyi gidiyor!" diye haykırır rakibim. "Hiç de zor bir rakip değilsin... ah, kusura bakma, kaba olmak istemedim. Sadece dürüstüm.""
+
+ board_games.0001.desc.opponent_winning.trait.craven:0 ""Ben... kazanıyor muyum? Kazanıyorum!" diye haykırır rakibim. [bg_opponent.GetSheHe|U] gerçekten şaşırmış görünüyor, ama sonra, maçın yarısını [bg_opponent.GetHerHis] parmaklarının arasından izlemekle #EMP geçirmişti#!."
+
+ board_games.0001.desc.opponent_winning.trait.brave:0 ""Ufak bir kıkırdama kusuruma bakma," diye söyler rakibim. "ama beni yenmek için #EMP bundan#! daha cesur oynaman gerekecek.""
+
+ board_games.0001.desc.opponent_winning.trait.shy:0 ""Bütün o alıştırmalar meyvesini veriyor!" diye cıyaklar rakibim, tahtanın haline ürkek bir gururla gülümseyerek."
+
+ board_games.0001.desc.opponent_winning.trait.gregarious:0 ""Kendini çok kötü hissetme," diye uzatır rakibim, [bg_opponent.GetHerHis] parmaklarını çıtlatırken. "[SCOPE.Custom('BG_GameType')] oyununda dost edindiğim gibi kazanıyorum. Ürkütücü bir kolaylıkla.""
+
+ board_games.0001.desc.opponent_winning.trait.ambitious:0 ""Sence oyunların bir tür... #EMP Kralı#! mı atarlar?" diye sorar rakibim, [bg_opponent.GetHerHis] çenesini kaşıyarak. "Ben zaten o unvana doğru ilerlediğimi hissediyorum, anlıyor musun.""
+
+ board_games.0001.desc.opponent_winning.trait.content:0 ""Ne hoş bir oyun," diye kıkırdar rakibim. "Daha iyisini isteyemezdik, değil mi? Yani senin şansından başka.""
+
+ board_games.0001.desc.opponent_winning.trait.arbitrary:0 ""Genelde kurallara pek meraklı biri değilimdir," diye fikir beyan eder rakibim, "ama [SCOPE.Custom('BG_GameType')] cazibesini az da olsa görmemi sağlıyor. Bazen başkalarına senden daha iyi olduğunu #EMP kabul ettirmeni#! sağlıyorlar.""
+
+ board_games.0001.desc.opponent_winning.trait.just:0 ""Bak," diye açıklar rakibim, bana bir tomar kâğıt sallayarak. "Kurallara aykırı hamleler yapmaya devam etmene üzülüyorum, ama #EMP kuralları okusaydın#!, daha iyi oynardın.""
+
+ board_games.0001.desc.opponent_winning.trait.cynical:0 ""Doğal olarak, sana karşı kolay davranmıyorum," diye sırıtır rakibim. "Sen bana #EMP kesinlikle#! kolay davranmazdın, o yüzden ne diye uğraşayım?""
+
+ board_games.0001.desc.opponent_winning.trait.zealous:0 ""Bu kesin zaferin payını alabilmeyi isterdim," diye tembelce söyler rakibim, "ama hepsi [bg_opponent.GetFaith.KnowledgeGodName]'in işi, #EMP benim aracılığımla#!.""
+
+ board_games.0001.desc.opponent_winning.trait.paranoid:0 ""Hâlâ aklında bir hile olduğunu biliyorum," diye kaşlarını çatar rakibim. "Hiç kimse bu kadar kolay yenilecek biri olamaz.""
+
+ board_games.0001.desc.opponent_winning.trait.trusting:0 ""Sıra sende olduğu sırada ben helaya uğrayabilirim," diye gülümser rakibim. "Sakın [SCOPE.Custom('BG_GamePiecePlural')]le oynama!""
+
+ board_games.0001.desc.opponent_winning.trait.compassionate:0 ""Seni zor bir duruma soktuğum için üzgünüm, [bg_myself.GetFirstNameNoTooltip]," der rakibim, [bg_opponent.GetHerHis] sesi gerçekten pişmanlık dolu. "[SCOPE.Custom('BG_GameType')] eğlenmek için oynuyorum, ama bence asıl eğlence #EMP ikimiz de#! keyif aldığımız zaman.""
+
+ board_games.0001.desc.opponent_winning.trait.callous:0 ""[bg_opponent.GetFaith.HouseholdGodName] aşkına, pek direniş gösteremiyorsun, değil mi?" diye haykırır rakibim açık sözlülükle."
+
+ board_games.0001.desc.opponent_winning.trait.sadistic:0 ""Yaralı bir düşmanla oynamak #EMP çok#! daha eğlenceli," diye uzatır rakibim azımsanmayacak kadar keyifli bir zehirle, "katılmıyor musun, [bg_myself.GetFirstNameNoTooltip]?""
+
+ board_games.0001.desc.opponent_winning.trait.stubborn:0 ""Değişiklik olsun diye bu kadar kolay bir zafer kazanmak ne güzel," diye alay eder rakibim. "Genelde diğer oyuncu kazandığımı kabul etmeden önce birkaç saat tartışmam gerekir.""
+
+ board_games.0001.desc.opponent_winning.trait.fickle:0 ""Hangi stratejiyi seçersem seçeyim, senin hep aynı şekilde kaybetmeni gerçekten çok seviyorum," diye espriler yapar rakibim."
+
+ board_games.0001.desc.opponent_winning.trait.vengeful:0 ""Elbette, bunların hepsi bir öç alma," diye tıslar rakibim. "Ve #EMP gayet#! iyi biliyorsun nedenini.""
+
+ board_games.0001.desc.opponent_winning.trait.forgiving:0 ""Açıkçası biraz daha zorlu bir rakip bekliyordum," diye sızlanır rakibim. "Ama sorun değil. En azından iyi bir antrenman oluyorsun.""
  board_games.0001.desc.opponent_winning.trait.rowdy:0 "Ufak rakibim bana karşı tehditler savuruyor ve bu sırada oyun masasını bir köşeye fırlatıyor."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.charming [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.charming:0 ""We should play [SCOPE.Custom('BG_GameType')] every day [bg_myself.GetFirstNameNoTooltip]," chirrups my little opponent. "It's always such fun!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.curious [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.curious:0 ""You know," ponders my little opponent, "I'm really learning a lot from beating you.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.pensive [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.pensive:0 ""I've read so much about how to play [SCOPE.Custom('BG_GameType')]," beams my little opponent, "but I didn't know how easy it'd be to #EMP apply#! it!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.trait.bossy [AGOT: ]
- board_games.0001.desc.opponent_winning.trait.bossy:0 ""After I beat you," pronounces my little opponent, "I want a sweet roll. As tribute.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.relation.friend [AGOT: ]
- board_games.0001.desc.opponent_winning.relation.friend:0 ""Cheer up, sour-[bg_myself.Custom('MaskFace')]," laughs my opponent. "It's just a little game between friends, right?""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.relation.best_friend [AGOT: ]
- board_games.0001.desc.opponent_winning.relation.best_friend:0 ""For what it's worth, win or lose," says my best friend, "there's no one in the world I'd rather play [SCOPE.Custom('BG_GameType')] with.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.relation.rival [AGOT: ]
- board_games.0001.desc.opponent_winning.relation.rival:0 ""By [bg_opponent.GetFaith.FateGodName], you're as bad at [SCOPE.Custom('BG_GameType')] as you are at ruling!" cackles my rival."
+
+ board_games.0001.desc.opponent_winning.trait.charming:0 ""[SCOPE.Custom('BG_GameType')] her gün oynamalıyız [bg_myself.GetFirstNameNoTooltip]," diye cıvıldar minik rakibim. "Hep çok eğlenceli!""
+
+ board_games.0001.desc.opponent_winning.trait.curious:0 ""Biliyor musun," diye düşünür minik rakibim, "seni yenmekten gerçekten çok şey öğreniyorum.""
+
+ board_games.0001.desc.opponent_winning.trait.pensive:0 ""[SCOPE.Custom('BG_GameType')] oynamayla ilgili çok şey okudum," diye parlar minik rakibim, "ama bunu #EMP uygulamanın#! bu kadar kolay olacağını bilmiyordum!""
+
+ board_games.0001.desc.opponent_winning.trait.bossy:0 ""Seni yendikten sonra," diye ilan eder minik rakibim, "tatlı çörek istiyorum. Haraç olarak.""
+
+ board_games.0001.desc.opponent_winning.relation.friend:0 ""Güler yüzlü ol, suratsız [bg_myself.Custom('MaskFace')]," diye güler rakibim. "Bu sadece dostlar arasında küçük bir oyun, değil mi?""
+
+ board_games.0001.desc.opponent_winning.relation.best_friend:0 ""Ne kadar önemi varsa, kazan ya da kaybet," der en iyi dostum, "dünyada [SCOPE.Custom('BG_GameType')] oynamayı senden daha çok isteyeceğim kimse yok.""
+
+ board_games.0001.desc.opponent_winning.relation.rival:0 ""[bg_opponent.GetFaith.FateGodName] aşkına, [SCOPE.Custom('BG_GameType')] oynamakta da hükmetmekte olduğun kadar kötüsün!" diye kahkaha atar rakibim."
  board_games.0001.desc.opponent_winning.relation.nemesis:0 "Can düşmanım hiçbir şey demiyor. Sadece bana bakıyor, [bg_opponent.Custom('EyeEyes')] saf #EMP nefret#! ile parlıyor."
  board_games.0001.desc.opponent_winning.relation.lover:0 "Benimle göz temasını kesmeden, sevgilim nazik bir şekilde parmaklarıyla [SCOPE.Custom('BG_GamePiecePlural')]ı okşamaya başlıyor ve... Aman. #EMP Aman aman#!"
  board_games.0001.desc.opponent_winning.relation.soulmate:0 "Ruh eşim [SCOPE.Custom('BG_GameType')] oyunumuza yarım yamalak dikkat ediyor. Genellikle, [bg_myself.Custom('EyeEyes')] bana derin bakışlar atmakla meşgul."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.relation.bully [AGOT: ]
- board_games.0001.desc.opponent_winning.relation.bully:0 ""See?" giggles my opponent, "this is why I hit you. You're just #EMP such#! a loser.""
+
+ board_games.0001.desc.opponent_winning.relation.bully:0 ""Gördün mü?" diye kıkırdar rakibim, "sana bu yüzden vuruyorum. Sen #EMP tam bir#! kaybedensin.""
  board_games.0001.desc.opponent_winning.relation.victim:0 "Kurbanımın gözleri haklı bir öfke ile parlıyor, sonunda bir şey #EMP kendi#! lehine gittiği için mutlu."
  board_games.0001.desc.opponent_winning.relation.crush:0 "Bir dakika, bir şey mi dedi? Sanırım bir şey dedi! Lanet olsun, bazen ona bakarken öyle bir dalıyorum ki şimdi her şeyi mahvettim."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.relation.guardian [AGOT: ]
- board_games.0001.desc.opponent_winning.relation.guardian:0 ""Watch me closely [bg_myself.GetFirstName]," says my guardian. "Study how I play and you might just learn something.""
+
+ board_games.0001.desc.opponent_winning.relation.guardian:0 ""Beni dikkatle izle [bg_myself.GetFirstName]," der vasim. "Nasıl oynadığımı incele, belki bir şeyler öğrenirsin.""
  board_games.0001.desc.opponent_winning.relation.ward:0 "Öğrencim bana geniş bir gülümseme ile bakıyor. "Daha sık [SCOPE.Custom('BG_GameType')] oynayabilir miyiz? #EMP lütfen#!!""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.hook_on.weak [AGOT: ]
- board_games.0001.desc.opponent_winning.hook_on.weak:0 ""$board_games.0001.desc.opponent_winning.hook_on.strong$""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.hook_on.strong [AGOT: ]
- board_games.0001.desc.opponent_winning.hook_on.strong:0 ""It feels good to turn the tables on you, you know," says my opponent. "Always seems like you've got me under your thumb. Unless we're playing [SCOPE.Custom('BG_GameType')], of course.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.hooked_by.weak [AGOT: ]
- board_games.0001.desc.opponent_winning.hooked_by.weak:0 ""$board_games.0001.desc.opponent_winning.hooked_by.strong$""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.hooked_by.strong [AGOT: ]
- board_games.0001.desc.opponent_winning.hooked_by.strong:0 ""You're not throwing this deliberately because of our #EMP agreement#! are you?" queries my opponent, scratching [bg_opponent.GetHerHis] chin thoughtfully. "Because you play like you're trying to lose.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_won_against.default [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_won_against.default:0 ""Ahhh, how many times have I beaten you, now?" chuckles my opponent. "I #EMP honestly#! lose count.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_won_against.county [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_won_against.county:0 ""[bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] is doing well you know," drawls my opponent, "#EMP much#! better since I took over the place.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_won_against.gamble [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_won_against.gamble:0 ""Another match," notes my opponent, "another win for my tally. You're going to bankrupt yourself, you know.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_lost_against.default [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_lost_against.default:0 ""Now this," titters my opponent, "is #EMP much#! better than that #EMP other#! match we played.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_lost_against.county [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_lost_against.county:0 ""After [bg_opponent.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier], I can't beat you enough," grumbles my opponent, still sore after our old bet."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.match_history.recently_lost_against.gamble [AGOT: ]
- board_games.0001.desc.opponent_winning.match_history.recently_lost_against.gamble:0 ""Looks like the bet's going my way this time, doesn't it?" chortles my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.other.pro_gamer [AGOT: ]
- board_games.0001.desc.opponent_winning.other.pro_gamer:0 ""You should really pay close attention to my techniques," smarms my opponent. "I'm about to do what's called a pro-board gamer move.""
-### TODO AGOT-ONLY: board_games.0001.desc.opponent_winning.other.avlf [AGOT: ]
- board_games.0001.desc.opponent_winning.other.avlf:0 ""#EMP You're#! a game master? Don't flatter yourself, [bg_myself.GetFirstNameNoTooltip]. You're not even a player.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.diplomacy.low [AGOT: ]
- board_games.0001.desc.i_am_winning.diplomacy.low:0 ""I don't... I can't... Just ease up on me!" all-but-screams my opponent, clearly frustrated and unable to find the right words."
+
+ board_games.0001.desc.opponent_winning.hook_on.weak:0 "$board_games.0001.desc.opponent_winning.hook_on.strong$"
+
+ board_games.0001.desc.opponent_winning.hook_on.strong:0 ""Oyunun kaderini tersine çevirmek iyi hissettiriyor, biliyor musun," der rakibim. "Her zaman beni parmağında oynattığın izlenimi veriyorsun. Tabii [SCOPE.Custom('BG_GameType')] oynamıyorsak.""
+
+ board_games.0001.desc.opponent_winning.hooked_by.weak:0 "$board_games.0001.desc.opponent_winning.hooked_by.strong$"
+
+ board_games.0001.desc.opponent_winning.hooked_by.strong:0 ""Aramızdaki #EMP anlaşma#! yüzünden bilerek kaybetmiyorsun, değil mi?" diye sorar rakibim, [bg_opponent.GetHerHis] çenesini düşünceli bir şekilde kaşıyarak. "Çünkü kaybetmeye çalışıyormuş gibi oynuyorsun.""
+
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.default:0 ""Ahhh, seni kaç kez yendim şimdiye kadar?" diye kıkırdar rakibim. "#EMP Dürüst olmak#! gerekirse sayısını kaybettim.""
+
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.county:0 ""[bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] iyi gidiyor biliyor musun," diye uzatır rakibim, "ben yönetimi devraldığımdan beri #EMP çok#! daha iyi.""
+
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.gamble:0 ""Bir maç daha," diye not düşer rakibim, "skor tabloma bir galibiyet daha. Kendini iflas ettireceksin, biliyorsun.""
+
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.default:0 ""İşte bu," diye kıkırdar rakibim, "oynadığımız o #EMP diğer#! maçtan #EMP çok#! daha iyi.""
+
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.county:0 ""[bg_opponent.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] yüzünden, seni ne kadar yensem az," diye homurdanır rakibim, eski bahsimizden hâlâ yaralı."
+
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.gamble:0 ""Görünüşe bakılırsa bahis bu sefer benim lehime sonuçlanıyor, değil mi?" diye kıkırdar rakibim."
+
+ board_games.0001.desc.opponent_winning.other.pro_gamer:0 ""Tekniklerime gerçekten çok dikkat etmelisin," diye yaltaklanır rakibim. "Şimdi profesyonel masa oyuncusu hamlesi denen bir şey yapacağım.""
+
+ board_games.0001.desc.opponent_winning.other.avlf:0 ""#EMP Sen mi#! oyun üstadısın? Kendini pohpohlama, [bg_myself.GetFirstNameNoTooltip]. Oyuncu bile değilsin.""
+
+ board_games.0001.desc.i_am_winning.diplomacy.low:0 ""Ben... yapamam... Bana biraz insaf et!" diye neredeyse bağırır rakibim, belli ki öfkeli ve doğru kelimeleri bulamıyor."
  board_games.0001.desc.i_am_winning.diplomacy.medium:0 "Rakibim hiçbir şey demiyor, sadece parmaklarını masanın üstünde tıkırdatarak bir cevap bulmaya çalışıyor."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.diplomacy.high [AGOT: ]
- board_games.0001.desc.i_am_winning.diplomacy.high:0 ""It would seem," snarks my opponent, "that you have me at a slight disadvantage. For now.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.martial.low [AGOT: ]
- board_games.0001.desc.i_am_winning.martial.low:0 ""Can't lead soldiers," moans my opponent, "can't play [SCOPE.Custom('BG_GameType')]. What good am I?""
+
+ board_games.0001.desc.i_am_winning.diplomacy.high:0 ""Görünüşe göre," diye alay eder rakibim, "beni ufak bir dezavantajda bıraktın. Şimdilik.""
+
+ board_games.0001.desc.i_am_winning.martial.low:0 ""Asker yönetemiyorum," diye inler rakibim, "[SCOPE.Custom('BG_GameType')] oynayamıyorum. Ben ne işe yararım?""
  board_games.0001.desc.i_am_winning.martial.medium:0 "Rakibim düşünceli bir şekilde çenesini sıvazlıyor. "Taktiklerimin işe yarayacağından #EMP emindim#!...""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.martial.high [AGOT: ]
- board_games.0001.desc.i_am_winning.martial.high:0 ""If this were a real battlefield," declares my opponent, "things #EMP would#! be going differently.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.stewardship.low [AGOT: ]
- board_games.0001.desc.i_am_winning.stewardship.low:0 ""Why are numbers #EMP always#! this hard?" pouts my opponent. "[SCOPE.Custom('BG_GameType')|U] needs you to think so far ahead and I just #EMP can't#!""
+
+ board_games.0001.desc.i_am_winning.martial.high:0 ""Bu gerçek bir savaş meydanı olsaydı," diye ilan eder rakibim, "işler #EMP kesinlikle#! farklı olurdu.""
+
+ board_games.0001.desc.i_am_winning.stewardship.low:0 ""Rakamlar neden #EMP hep#! bu kadar zor?" diye somurtur rakibim. "[SCOPE.Custom('BG_GameType')|U] çok ileriyi düşünmeni gerektiriyor ve ben #EMP yapamıyorum#! işte!""
  board_games.0001.desc.i_am_winning.stewardship.medium:0 "Rakibim pürdikkat tahtaya bakıyor. "Ben... Ben bir yerde hata yapmış olmalıyım...""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.stewardship.high [AGOT: ]
- board_games.0001.desc.i_am_winning.stewardship.high:0 ""It pains me to say it," grumbles my opponent, "but the odds just aren't looking good for me.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.intrigue.low [AGOT: ]
- board_games.0001.desc.i_am_winning.intrigue.low:0 ""Could you ease up on the #EMP blatant#! cheating for a moment?" snarls my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.intrigue.medium [AGOT: ]
- board_games.0001.desc.i_am_winning.intrigue.medium:0 ""I suspect my strategy my need more... cunning..." murmurs my opponent, eyeing the board frustratedly."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.intrigue.high [AGOT: ]
- board_games.0001.desc.i_am_winning.intrigue.high:0 ""You may think you're winning," chortles my opponent, "but you only think that because I want you to think that. And I know that you know that I know you know that.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.learning.low [AGOT: ]
- board_games.0001.desc.i_am_winning.learning.low:0 ""This is completely unfair, I don't even #EMP understand#! half these rules," snorts my opponent. "You're clearly making them up as we play.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.learning.medium [AGOT: ]
- board_games.0001.desc.i_am_winning.learning.medium:0 ""Are you using the [bg_myself.Custom('BG_RandomRankPossessive')] [bg_myself.Custom('BG_RandomMoveType')] #EMP again#!?" moans my opponent. "You are #EMP so#! cheap.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.learning.high [AGOT: ]
- board_games.0001.desc.i_am_winning.learning.high:0 ""I knew I shouldn't have opened with the Fool's [bg_opponent.Custom('BG_RandomMoveType')]," whines my opponent. "I've essentially lost already.""
+
+ board_games.0001.desc.i_am_winning.stewardship.high:0 ""Söylemesi acı," diye homurdanır rakibim, "ama şans benden yana görünmüyor.""
+
+ board_games.0001.desc.i_am_winning.intrigue.low:0 ""Bir anlığına bu #EMP aşikâr#! hile yapmayı bırakır mısın?" diye hırlar rakibim."
+
+ board_games.0001.desc.i_am_winning.intrigue.medium:0 ""Stratejimin biraz daha... kurnazlığa ihtiyacı olduğundan şüpheleniyorum..." diye mırıldanır rakibim, hayal kırıklığıyla tahtaya bakarken."
+
+ board_games.0001.desc.i_am_winning.intrigue.high:0 ""Kazandığını düşünüyor olabilirsin," diye kıkırdar rakibim, "ama bunu sadece öyle düşünmeni istediğim için düşünüyorsun. Ve ben, senin, benim bildiğimi bildiğini biliyorum.""
+
+ board_games.0001.desc.i_am_winning.learning.low:0 ""Bu tamamen haksızlık, bu kuralların yarısını bile #EMP anlamıyorum#!," diye homurdanır rakibim. "Bunları oyun sırasında açıkça uyduruyorsun.""
+
+ board_games.0001.desc.i_am_winning.learning.medium:0 ""[bg_myself.Custom('BG_RandomRankPossessive')] [bg_myself.Custom('BG_RandomMoveType')] hamlesini #EMP yine mi#! kullanıyorsun?" diye inler rakibim. "#EMP Çok#! kolaycısın.""
+
+ board_games.0001.desc.i_am_winning.learning.high:0 ""Aptalın [bg_opponent.Custom('BG_RandomMoveType')] ile açılmamalıydım biliyordum," diye sızlanır rakibim. "Esasen çoktan kaybettim.""
  board_games.0001.desc.i_am_winning.trait.lustful:0 "Rakibim maça hiç dikkat etmiyor gibi gözüküyor, onun yerine bazı [SCOPE.Custom('BG_GamePiecePlural')]ın... şekline takılmış gibi."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.chaste [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.chaste:0 ""This is the issue with [SCOPE.Custom('BG_GameType')]," cries my opponent, gesticulating wildly. "It inflames the passions! Arouses the senses! It's raw, carnal excess in its basest form.""
+
+ board_games.0001.desc.i_am_winning.trait.chaste:0 ""[SCOPE.Custom('BG_GameType')]'in sorunu da bu işte," diye haykırır rakibim, kollarını çılgınca sallayarak. "Tutkuları alevlendiriyor! Duyuları uyandırıyor! En ilkel haliyle çiğ, cinsel bir taşkınlık.""
  board_games.0001.desc.i_am_winning.trait.gluttonous:0 "Rakibim yavaşça ekmeğini ısırıyor, kırıntılar ve dikkatsizlik içerisinde kaybolmuş."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.temperate [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.temperate:0 ""Hrmph," grumbles my opponent. "Taking risks like this is going to do you a mischief some day.""
+
+ board_games.0001.desc.i_am_winning.trait.temperate:0 ""Hrmph," diye homurdanır rakibim. "Böyle riskler almak bir gün başına iş açacak.""
  board_games.0001.desc.i_am_winning.trait.greedy:0 "Rakibim elindeki altını havaya atıp tutuyor, soğuk metal muhtemelen yaklaşan mağlubiyetine teselli oluyordur."
  board_games.0001.desc.i_am_winning.trait.generous:0 "Rakibim bana nazik bir gülümseme ile "#EMP Çok#! iyi gidiyorsun, böyle devam et!" diyor"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.lazy [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.lazy:0 ""Oh, is it my go?" yawns my opponent. "Sorry, I've not been paying a #EMP huge#! amount of attention.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.diligent [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.diligent:0 ""Yes, you're leading now," lectures my opponent, "but with a little work, I can catch up!""
+
+ board_games.0001.desc.i_am_winning.trait.lazy:0 ""Ah, sıra bende mi?" diye esner rakibim. "Kusura bakma, #EMP pek fazla#! dikkat etmiyordum.""
+
+ board_games.0001.desc.i_am_winning.trait.diligent:0 ""Evet, şu an öndesin," diye ders verir rakibim, "ama biraz çabayla sana yetişebilirim!""
  board_games.0001.desc.i_am_winning.trait.wrathful:0 "Rakibimin atardamarı her an patlayacakmış gibi. "Kazanmaya devam edersen, tüm tahtaya #EMP kan#! kusacağım seni [bg_myself.Custom2('InsultNoun', SCOPE.sC('bg_opponent'))]!""
  board_games.0001.desc.i_am_winning.trait.calm:0 "Rakibimin genelde durgun ifadesi... bozulmuş gibi. Mutsuz gözüküyor."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.patient [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.patient:0 ""You may have the upper hand for now," observes my opponent, "but you'll slip up eventually. They always do.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.impatient [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.impatient:0 ""By [bg_opponent.GetFaith.HighGodName], you've already won, #EMP ok#!?" scowls my opponent. "Just #EMP finish#! it already.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.arrogant [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.arrogant:0 ""You're not actually beating me, you know," crows my opponent. "You may #EMP think#! you are, but that's impossible.""
+
+ board_games.0001.desc.i_am_winning.trait.patient:0 ""Şimdilik üstünlük sende olabilir," diye gözlemler rakibim, "ama sonunda tökezleyeceksin. Herkes tökezler.""
+
+ board_games.0001.desc.i_am_winning.trait.impatient:0 ""[bg_opponent.GetFaith.HighGodName] aşkına, zaten kazandın, #EMP tamam mı#!?" diye kaşlarını çatar rakibim. "#EMP Bitir#! şunu artık.""
+
+ board_games.0001.desc.i_am_winning.trait.arrogant:0 ""Aslında beni yenmiyorsun, biliyorsun," diye öter rakibim. "Sen öyle #EMP sanıyor#! olabilirsin ama bu imkânsız.""
  board_games.0001.desc.i_am_winning.trait.humble:0 "Rakibimin kulakları hayal kırıklığından ötürü #EMP açıkça#! kızarmış. "Reddetmek mümkün değil, taktiklerin...," yutkunuyor, "kusursuz.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.deceitful [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.deceitful:0 ""You look like you need the privy," suggests my opponent, sympathetically. "Feel free; I'll guard the board.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.honest [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.honest:0 ""I didn't expect you to be so..." my opponent pauses for a moment, "#EMP difficult#! to play.""
+
+ board_games.0001.desc.i_am_winning.trait.deceitful:0 ""Helaya gitmen gerekiyormuş gibi görünüyorsun," diye önerir rakibim, anlayışla. "Çekinme; ben tahtayı korurum.""
+
+ board_games.0001.desc.i_am_winning.trait.honest:0 ""Bu kadar..." diye bir an duraksar rakibim, "#EMP zorlu#! bir rakip olacağını beklemiyordum.""
  board_games.0001.desc.i_am_winning.trait.craven:0 "Rakibim durmak bilmeden ileri geri sallanıyor, sanki bıraksan fırlayıp gidecekmiş gibi."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.brave [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.brave:0 ""I've got a plan," boasts my opponent, "and it's going to turn this whole game around!""
+
+ board_games.0001.desc.i_am_winning.trait.brave:0 ""Bir planım var," diye övünür rakibim, "ve bu plan bütün oyunu tersine çevirecek!""
  board_games.0001.desc.i_am_winning.trait.shy:0 "Rakibim sessiz bir şekilde olduğu yerde duruyor, asık bir suratla oyunu kendi lehine nasıl çevireceğini düşünüyor."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.gregarious [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.gregarious:0 ""You're much better than my usual partners," admires my opponent, "and I play a #EMP lot#! of [SCOPE.Custom('BG_GameType')].""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.ambitious [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.ambitious:0 ""I had..." my opponent stalls, at a loss for words, "...#EMP higher#! hopes for this match.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.content [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.content:0 ""Ah well," sighs my opponent, "I may not win this, but I gave it my best.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.arbitrary [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.arbitrary:0 ""I don't see why we can't use my rules," laments my opponent. "I'm telling you, this is how everyone plays it in [bg_opponent.GetCurrentLocation.GetNameNoTooltip].""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.just [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.just:0 ""I can't prove it," murmurs my opponent, "but I'm #EMP certain#! you must be cheating.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.cynical [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.cynical:0 ""Of #EMP course#! you're winning," moans my opponent, glumly. "No one #EMP ever#! lets me win a game of [SCOPE.Custom('BG_GameType')]"."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.zealous [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.zealous:0 ""By [bg_opponent.GetFaith.KnowledgeGodName]! Rid me of this menace," mutters my opponent under [bg_opponent.GetHerHis] breath."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.paranoid [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.paranoid:0 ""You planned this, didn't you?" all-but-snarls my opponent. "Planned to #EMP humiliate#! me with a rigged game!""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.trusting [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.trusting:0 ""By [bg_opponent.GetFaith.KnowledgeGodName]," laments my opponent. "Do you think I gave you too many openings? I wasn't expecting to lose so badly so soon.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.compassionate [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.compassionate:0 ""You know," ponder my opponent pointedly, "[SCOPE.Custom('BG_GameType')] is supposed to be about having #EMP fun#!, not just winning at any cost.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.callous [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.callous:0 ""Hmm, so this is what it feels like to lose?" wonders my opponent. "Not something I especially like.""
+
+ board_games.0001.desc.i_am_winning.trait.gregarious:0 ""Her zamanki rakiplerimden çok daha iyisin," diye hayranlıkla söyler rakibim, "ve ben #EMP bir sürü#! [SCOPE.Custom('BG_GameType')] oyunu oynarım.""
+
+ board_games.0001.desc.i_am_winning.trait.ambitious:0 ""Bu maçtan..." diye duraksar rakibim, kelimeleri tükenmiş, "#EMP daha büyük#! beklentilerim vardı.""
+
+ board_games.0001.desc.i_am_winning.trait.content:0 ""Ah neyse," diye iç çeker rakibim, "bunu kazanamayabilirim, ama elimden gelenin en iyisini yaptım.""
+
+ board_games.0001.desc.i_am_winning.trait.arbitrary:0 ""Neden benim kurallarımı kullanamıyoruz anlamıyorum," diye yakınır rakibim. "Sana söylüyorum, [bg_opponent.GetCurrentLocation.GetNameNoTooltip]'de herkes böyle oynuyor.""
+
+ board_games.0001.desc.i_am_winning.trait.just:0 ""Kanıtlayamam," diye mırıldanır rakibim, "ama #EMP eminim#! ki hile yapıyorsun.""
+
+ board_games.0001.desc.i_am_winning.trait.cynical:0 ""#EMP Elbette#! kazanıyorsun," diye inler rakibim, asık suratla. "[SCOPE.Custom('BG_GameType')] oyununda kazanmama #EMP hiç kimse#! izin vermiyor.""
+
+ board_games.0001.desc.i_am_winning.trait.zealous:0 ""[bg_opponent.GetFaith.KnowledgeGodName] aşkına! Kurtar beni bu beladan," diye mırıldanır rakibim [bg_opponent.GetHerHis] nefesinin altında."
+
+ board_games.0001.desc.i_am_winning.trait.paranoid:0 ""Bunu sen planladın, değil mi?" diye neredeyse hırlar rakibim. "Hileli bir oyunla beni #EMP küçük düşürmeyi#! planladın!""
+
+ board_games.0001.desc.i_am_winning.trait.trusting:0 ""[bg_opponent.GetFaith.KnowledgeGodName] aşkına," diye yakınır rakibim. "Sence sana çok mu açık verdim? Bu kadar erken ve bu kadar kötü kaybedeceğimi beklemiyordum.""
+
+ board_games.0001.desc.i_am_winning.trait.compassionate:0 ""Biliyor musun," der rakibim anlamlı bir şekilde, "[SCOPE.Custom('BG_GameType')] #EMP eğlenmekle#! ilgili olmalı, sadece ne pahasına olursa olsun kazanmakla değil.""
+
+ board_games.0001.desc.i_am_winning.trait.callous:0 ""Hmm, kaybetmek böyle bir şeymiş demek?" diye merak eder rakibim. "Pek hoşlanacağım bir şey değil.""
  board_games.0001.desc.i_am_winning.trait.sadistic:0 "Rakibim sessiz bir şekilde duruyor, [bg_opponent.Custom('EyeEyes')]nden karşısındaki yeteneğe duyduğu saygı ve kabullenmeye hazır olduğu mağlubiyet anlaşılıyor."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.stubborn [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.stubborn:0 ""You're not going to beat me," spits my opponent from between clenched teeth. "No one #EMP ever#! beats me.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.fickle [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.fickle:0 ""I'm growing quite bored of [SCOPE.Custom('BG_GameType')]," whines my opponent. "Can't we play something else?""
+
+ board_games.0001.desc.i_am_winning.trait.stubborn:0 ""Beni yenemeyeceksin," diye tükürür rakibim dişlerinin arasından. "Beni #EMP hiç kimse#! yenemez.""
+
+ board_games.0001.desc.i_am_winning.trait.fickle:0 ""[SCOPE.Custom('BG_GameType')] oynamaktan epey sıkılmaya başlıyorum," diye sızlanır rakibim. "Başka bir şey oynayamaz mıyız?""
  board_games.0001.desc.i_am_winning.trait.vengeful:0 "Rakibimin yüzünde hiçbir ifade yok. Parmaklarıyla oyun tahtasını sıkı sıkı tutuyor, sanki kendini engelliyormuş gibi."
  board_games.0001.desc.i_am_winning.trait.forgiving:0 "Rakibim ilginç bir şekilde oldukça sakin gözüküyor, ona baktığımda en ufak öfke sezemiyorum."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.rowdy [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.rowdy:0 ""Just so you know," whispers my opponent, "if I lose, I'm throwing this whole game at your stupid head.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.charming [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.charming:0 ""Don't you want to take it a #EMP little#! easier on me?" asks my opponent, [bg_opponent.GetHerHis] voice sickly-sweet."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.curious [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.curious:0 ""Wait... how are you #EMP winning#!?". my opponent seems positively incredulous."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.pensive [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.pensive:0 ""Oh, no, I knew I shouldn't have played... now I've wasted your time..." mumbles my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.trait.bossy [AGOT: ]
- board_games.0001.desc.i_am_winning.trait.bossy:0 ""Hrmf, if we'd played with #EMP my#! rules #EMP then#! I'd be showing you!" moans my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.friend [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.friend:0 ""Damnation," chuckles my friend, "you don't ease up at [SCOPE.Custom('BG_GameType')] for anyone, do you?""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.best_friend [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.best_friend:0 ""Nothing finer, I always say," crows my best friend, "than resoundingly beating someone at [SCOPE.Custom('BG_GameType')]. I envy you!""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.rival [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.rival:0 ""You just #EMP love#! humiliating me, don't you?" spits my rival, ever the sore loser."
+
+ board_games.0001.desc.i_am_winning.trait.rowdy:0 ""Bilmiş ol," diye fısıldar rakibim, "kaybedersem, bu oyunun tamamını senin aptal kafana fırlatacağım.""
+
+ board_games.0001.desc.i_am_winning.trait.charming:0 ""Bana #EMP biraz#! daha kolay davranmak istemez misin?" diye sorar rakibim, [bg_opponent.GetHerHis] sesi yapmacık tatlılıkta."
+
+ board_games.0001.desc.i_am_winning.trait.curious:0 ""Bir dakika... nasıl #EMP kazanıyor#! olabilirsin?" diye sorar rakibim, gerçekten inanamıyor."
+
+ board_games.0001.desc.i_am_winning.trait.pensive:0 ""Ah, hayır, oynamamalıydım... şimdi de senin vaktini boşa harcadım..." diye mırıldanır rakibim."
+
+ board_games.0001.desc.i_am_winning.trait.bossy:0 ""Hrmf, #EMP benim#! kurallarımla oynasaydık, #EMP o zaman#! sana gösterirdim!" diye inler rakibim."
+
+ board_games.0001.desc.i_am_winning.relation.friend:0 ""Kahretsin," diye kıkırdar dostum, "[SCOPE.Custom('BG_GameType')] oyununda hiç kimseden kolay lokma olmuyorsun, değil mi?""
+
+ board_games.0001.desc.i_am_winning.relation.best_friend:0 ""Her zaman derim ki," diye öter en iyi dostum, "birini [SCOPE.Custom('BG_GameType')] oyununda ezici bir şekilde yenmekten daha güzel bir şey yok. Seni kıskanıyorum!""
+
+ board_games.0001.desc.i_am_winning.relation.rival:0 ""Beni küçük düşürmeye #EMP bayılıyorsun#!, değil mi?" diye tükürür rakibim, her zamanki gibi kaybedenin öfkesiyle."
  board_games.0001.desc.i_am_winning.relation.nemesis:0 "$board_games.0001.desc.opponent_winning.relation.nemesis$"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.lover [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.lover:0 ""We don't #EMP have#! to be playing [SCOPE.Custom('BG_GameType')], [bg_myself.GetFirstNameNoTooltip]," whispers my lover. "I'm sure there are other ways to entertain ourselves...""
+
+ board_games.0001.desc.i_am_winning.relation.lover:0 ""[SCOPE.Custom('BG_GameType')] oynamak #EMP zorunda#! değiliz, [bg_myself.GetFirstNameNoTooltip]," diye fısıldar sevgilim. "Eminim kendimizi eğlendirmenin başka yolları da vardır...""
  board_games.0001.desc.i_am_winning.relation.soulmate:0 "$board_games.0001.desc.opponent_winning.relation.soulmate$"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.bully [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.bully:0 ""If you beat me, I'll beat you. It's that simple," scowls my bully."
+
+ board_games.0001.desc.i_am_winning.relation.bully:0 ""Sen beni yenersen, ben de seni yenerim. Bu kadar basit," diye kaşlarını çatar zorbam."
  board_games.0001.desc.i_am_winning.relation.victim:0 "Kurbanım sessiz duruyor ama gözlerinden yaşlar akmak üzere."
  board_games.0001.desc.i_am_winning.relation.crush:0 "Çocukluk aşkım... Olamaz! Bana sinirlenmiş, biliyorum, [bg_opponent.Custom('MaskFace')]nden anlıyorum!"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.relation.guardian [AGOT: ]
- board_games.0001.desc.i_am_winning.relation.guardian:0 ""It seems you're learning," notes my guardian querulously. "Or at least imitating me more efficiently.""
+
+ board_games.0001.desc.i_am_winning.relation.guardian:0 ""Görünüşe göre öğreniyorsun," diye not düşer vasim huysuzca. "Ya da en azından beni daha verimli taklit ediyorsun.""
  board_games.0001.desc.i_am_winning.relation.ward:0 "Öğrencim ezici bir şekilde kaybetmesine kırılmış gibi, [bg_opponent.Custom('MaskFace')]nden anlaşılıyor."
  board_games.0001.desc.i_am_winning.hook_on.weak:0 "$board_games.0001.desc.i_am_winning.hook_on.strong$"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.hook_on.strong [AGOT: ]
- board_games.0001.desc.i_am_winning.hook_on.strong:0 ""[bg_opponent.GetFaith.random_GoodGodNames]! You can't let me have an iota of control, can you?" Laments my opponent."
+
+ board_games.0001.desc.i_am_winning.hook_on.strong:0 ""[bg_opponent.GetFaith.random_GoodGodNames]! Bana zerre kadar kontrol bırakmayacaksın, değil mi?" diye yakınır rakibim."
  board_games.0001.desc.i_am_winning.hooked_by.weak:0 "$board_games.0001.desc.i_am_winning.hooked_by.strong$"
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.hooked_by.strong [AGOT: ]
- board_games.0001.desc.i_am_winning.hooked_by.strong:0 ""If it weren't a waste to call in what you #EMP owe#! in here," scowls my opponent, "I'd be tempted to #EMP force#! you to lose.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.match_history.recently_won_against.default [AGOT: ]
- board_games.0001.desc.i_am_winning.match_history.recently_won_against.default:0 ""Well," groans my opponent, "it seems #EMP this#! game isn't going my way.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.match_history.recently_won_against.county [AGOT: ]
- board_games.0001.desc.i_am_winning.match_history.recently_won_against.county:0 ""If only you'd played this well when [bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] was on the line," smirks my opponent."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.match_history.recently_won_against.gamble [AGOT: ]
- board_games.0001.desc.i_am_winning.match_history.recently_won_against.gamble:0 ""Ahhh," sighs my opponent. "You win some, you lose some. This time it's your turn to win, I think.""
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.match_history.recently_lost_against.default [AGOT: ]
- board_games.0001.desc.i_am_winning.match_history.recently_lost_against.default:0 ""No, no, no!" whines my opponent. "Not #EMP again#!, not to #EMP you#!!""
+
+ board_games.0001.desc.i_am_winning.hooked_by.strong:0 ""Burada borcunu #EMP tahsil etmek#! israf olmasaydı," diye kaşlarını çatar rakibim, "#EMP zorla#! kaybetmeni sağlamayı düşünebilirdim.""
+
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.default:0 ""Eee," diye inler rakibim, "görünüşe göre #EMP bu#! oyun benim lehime gitmiyor.""
+
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.county:0 ""Keşke [bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] ortadayken de bu kadar iyi oynasaydın," diye sırıtır rakibim."
+
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.gamble:0 ""Ahhh," diye iç çeker rakibim. "Bazen kazanırsın, bazen kaybedersin. Sanırım bu sefer kazanma sırası sende.""
+
+ board_games.0001.desc.i_am_winning.match_history.recently_lost_against.default:0 ""Hayır, hayır, hayır!" diye sızlanır rakibim. "#EMP Yine mi#!, #EMP sana#! mı yenileceğim!""
  board_games.0001.desc.i_am_winning.match_history.recently_lost_against.county:0 "Rakibim [bg_opponent.Custom('MaskFace')]ndeki teri siliyor, [bg_opponent.Custom('EyeEyes')]ndeki şaşkınlık oldukça belli bir şekilde. Şüphe yok ki ona [bg_myself.MakeScope.Var('bg_recent_land_less_stake').Title.GetNameNoTier] toprağına mal olan oyunu düşünüyor."
-### TODO AGOT-ONLY: board_games.0001.desc.i_am_winning.match_history.recently_lost_against.gamble [AGOT: ]
- board_games.0001.desc.i_am_winning.match_history.recently_lost_against.gamble:0 ""I just need one win, I just need one win, I just need-" mumbles my opponent, over and over again, under [bg_opponent.GetHerHis] breath."
+
+ board_games.0001.desc.i_am_winning.match_history.recently_lost_against.gamble:0 ""Sadece bir galibiyete ihtiyacım var, sadece bir galibiyete ihtiyacım var, sadece-" diye mırıldanır rakibim, tekrar tekrar, [bg_opponent.GetHerHis] nefesinin altından."
  board_games.0001.desc.intro.opening.defender:0 "[bg_opponent.GetTitledFirstName], çoktan yerine geçmiş [SCOPE.Custom('BG_GameType')] oyunumuzun başlamasını bekliyor, yüzünde ilginç bir #color_blue_gray [bg_myself.Custom('BG_RandomFacialExpression')]#! var."
  board_games.0001.desc.intro.opening.attacker:0 "[bg_opponent.GetTitledFirstName], karşıma oturuyor. Ufak [SCOPE.Custom('BG_GameType')] oyunumuz başlamak üzere ve yüzündeki #color_blue_gray [SCOPE.Custom('BG_RandomFacialExpression')]#!, kendisine ne kadar güvendiğini belli ediyor.\n\nÖnce başlıyor ve açılış olarak"
  board_games.0001.desc.intro.subsequent:0 "Maçımız devam ediyor. [bg_opponent.GetFirstName],"

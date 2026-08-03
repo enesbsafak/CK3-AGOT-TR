@@ -44,20 +44,20 @@
  fp1_yearly.0021.d.tt_success:0 "$fp1_yearly.0021.a.tt_failure$"
  fp1_yearly.0031.t:0 "Uzun Masallar"
  fp1_yearly.0031.desc.intro:1 "[lying_warrior.GetFirstName] ile birlikte güzel bir akşam geçiriyoruz. Gezgin, geceyi geçirmek için [capital_barony.GetBaseNameNoTierNoTooltip] topraklarında durmuş. Anlattığı kahramanlık hikâyeleri #EMP saatler#! sürüyor.\n\n"
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.sunk_longboat [AGOT: ]
- fp1_yearly.0031.desc.sunk_longboat:0 ""... so there I was, in the middle of the Sunset Sea, longboat sinking from too much bloody plunder. Well, I couldn't take it with me, so I jumped into the water and swam to Pyke!""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.wrestled_whale [AGOT: ]
- fp1_yearly.0031.desc.wrestled_whale:0 ""... knew that I either had to abandon my crew, or fight the whale myself. Grabbed my knife, plunged into the ocean, and wrestled the beast to shore single-handed!""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.charged_city_fruit_knife [AGOT: ]
- fp1_yearly.0031.desc.charged_city_fruit_knife:0 ""... ten thousand of the enemy in there, armed with scimitars, and me armed only with a small knife for peeling fruit. #EMP I made it#!, thanks to my trusty fruit knife!""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.charged_city [AGOT: ]
- fp1_yearly.0031.desc.charged_city:0 ""... charged right up to the city walls, free-climbed inside, and hacked my way into the royal palace. Melted the king's crown down to pay for a new pair of boots.""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.kept_iceland_afloat [AGOT: ]
- fp1_yearly.0031.desc.kept_iceland_afloat:1 ""... and if the two giants actually #EMP had#! gone ahead with their duel, Skagos would surely have sunk back into the sea. Lucky I talked them down, really.""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.wooed_heir [AGOT: ]
- fp1_yearly.0031.desc.wooed_heir:1 ""... [disparaged_king.GetTitledFirstNamePossessive] [invented_heir.Custom('GetDaughterSon')], now #EMP that#! is the best I've ever had. [disparaged_king.GetTitledFirstNameNoTooltip] wasn't such a fan of me after that, though, and I fled [disparaged_king.GetHerHis] court sharpish, I'll tell you that!""
-### TODO AGOT-ONLY: fp1_yearly.0031.desc.hunted_troll [AGOT: ]
- fp1_yearly.0031.desc.hunted_troll:1 ""... 'course, this most recent wound is from the snark itself. Big as a house, quiet as a mouse, claws like the bastard spawn of [lying_warrior.GetFaith.DevilName]. Still, stab anything long enough, and it dies.""
+
+ fp1_yearly.0031.desc.sunk_longboat:0 ""...işte o zaman, Gün Batımı Denizi'nin ortasındaydım, uzun tekne fazla ganimetten batıyordu. Neyse, onu yanıma alamazdım, bu yüzden suya atladım ve Pyke'a kadar yüzdüm!""
+
+ fp1_yearly.0031.desc.wrestled_whale:0 ""...mürettebatımı terk etmek ya da balinayla kendim dövüşmek zorunda olduğumu biliyordum. Bıçağımı kaptım, okyanusa daldım ve canavarı tek başıma kıyıya kadar boğuştum!""
+
+ fp1_yearly.0031.desc.charged_city_fruit_knife:0 ""...içeride on bin düşman vardı, kılıçlarla silahlanmış, ben ise sadece meyve soymak için küçük bir bıçakla. #EMP Başardım#!, güvenilir meyve bıçağım sayesinde!""
+
+ fp1_yearly.0031.desc.charged_city:0 ""...şehir surlarına kadar hücum ettim, içeri tırmandım ve kraliyet sarayına doğru yol açtım. Kralın tacını eritip yeni bir çift çizme parası yaptım.""
+
+ fp1_yearly.0031.desc.kept_iceland_afloat:0 ""...ve iki dev #EMP gerçekten#! düellolarına devam etseydi, Skagos kesinlikle denize gömülürdü. Şanslıyım ki onları sakinleştirdim, gerçekten.""
+
+ fp1_yearly.0031.desc.wooed_heir:0 ""... [disparaged_king.GetTitledFirstNamePossessive] [invented_heir.Custom('GetDaughterSon')], işte #EMP bu#! benim yaptığım en iyisiydi. [disparaged_king.GetTitledFirstNameNoTooltip] bundan sonra benden pek hoşlanmadı ama ve ben [disparaged_king.GetHerHis] sarayından apar topar kaçtım, sana söyleyeyim!""
+
+ fp1_yearly.0031.desc.hunted_troll:0 ""...elbette, bu son yara bizzat snark'tan. Ev kadar büyük, fare kadar sessiz, [lying_warrior.GetFaith.DevilName]'in piç soyundan pençeleri var. Yine de, bir şeyi yeterince uzun süre bıçaklarsan ölür.""
  fp1_yearly.0031.desc.outro:1 "\n\nHikâye üstüne hikâye. Destanlar durmak bilmeksizin devam ediyor ve her biri bir öncekinden daha uzun."
  fp1_yearly.0031.a:0 "#EMP Kesinlikle#! sarayımda kalmalısın [lying_warrior.GetFirstNameNoTooltip]!"
  fp1_yearly.0031.b:0 "Biraz... sallıyorsun sanki."
@@ -72,10 +72,10 @@
  fp1_yearly.0041.b:0 "[explorer.GetFaith.HighGodName]... Kimmiş bu [explorer.GetFaith.HighGodName] dediğin anlat bakalım."
  fp1_yearly.0041.c:0 "Züppe yabancılara #EMP sarayımda#! yer yok."
  fp1_yearly.0051.t:0 "Huzursuz Ölü"
-### TODO AGOT-CHANGED: fp1_yearly.0051.desc [AGOT: Strange rumors have begun to circulate about the ancient barrows of [capital_county.GetNameNoTier]. Whispers speak of the long-dead stirring in their graves, their restless forms haunting the surrounding lands. Whether truth or superstition, it has become the norm for every ill in the land to be blamed on walking corpses.\n\nNot a week seems to go by any more without every farmer, forester, and dung-shoveller within spitting distance of the capital complaining about the haunted barrows.\n\n#EMP Something#! must be done. | TR: [draugr.GetTitledFirstName] bir süre önce hayatını kaybetti ve [capital_county.GetNameNoTier] ahalisi bu durumdan ziyadesiyle haberdar. Kendisi yerel halk tarafından pek sevilen biri değildi fakat son zamanlarda her türlü olumsuzluğun onun 'yürüyen cesedine' bağlanması dayanılmaz bir hâl almaya başladı.\n\nBaşkente yürüme mesafesinde yaşayan her çiftçi, ormancı ve gübre kürekçisi saraya uğrayıp [draugr.GetFirstNameNoTooltip] hakkında şikâyetlerde bulunuyor.\n\n#EMP Bir şeyler#! yapmanın vakti geldi.]
- fp1_yearly.0051.desc:1 "Strange rumors have begun to circulate about the ancient barrows of [capital_county.GetNameNoTier]. Whispers speak of the long-dead stirring in their graves, their restless forms haunting the surrounding lands. Whether truth or superstition, it has become the norm for every ill in the land to be blamed on walking corpses.\n\nNot a week seems to go by any more without every farmer, forester, and dung-shoveller within spitting distance of the capital complaining about the haunted barrows.\n\n#EMP Something#! must be done."
-### TODO AGOT-CHANGED: fp1_yearly.0051.a [AGOT: I'll visit the barrow in person. | TR: Onun mezarını bizzat ziyaret edeceğim.]
- fp1_yearly.0051.a:0 "I'll visit the barrow in person."
+
+ fp1_yearly.0051.desc:0 "[draugr.GetTitledFirstName] bir süre önce hayatını kaybetti ve [capital_county.GetNameNoTier] ahalisi bu durumdan ziyadesiyle haberdar. Kendisi yerel halk tarafından pek sevilen biri değildi fakat son zamanlarda her türlü olumsuzluğun onun 'yürüyen cesedine' bağlanması dayanılmaz bir hâl almaya başladı.\n\nBaşkente yürüme mesafesinde yaşayan her çiftçi, ormancı ve gübre kürekçisi saraya uğrayıp [draugr.GetFirstNameNoTooltip] hakkında şikâyetlerde bulunuyor.\n\n#EMP Bir şeyler#! yapmanın vakti geldi."
+
+ fp1_yearly.0051.a:0 "Onun mezarını bizzat ziyaret edeceğim."
  fp1_yearly.0051.a.tt:0 "Cesedi araştırmaya karar veriyorsunuz..."
  fp1_yearly.0051.b:0 "Cesedini kazıp çıkartın, sonra da yakın."
  fp1_yearly.0051.b.body_destroyed:0 "Mutlu Köylüler"
@@ -84,38 +84,38 @@
  fp1_yearly.0051.c.tt_success:0 "İksirleriniz ve büyüleriniz köylülere güven verdi"
  fp1_yearly.0051.c.tt_failure:0 "Ayinleriniz yetersiz kaldı"
  fp1_yearly.0061.t:0 "$fp1_yearly.0051.t$: Kurtlar"
-### TODO AGOT-CHANGED: fp1_yearly.0061.desc [AGOT: My retinue and I have barely arrived at the barrow when the first snarl echoes out from inside.\n\nAs the largest wolf I've ever seen squeezes out through the darkened entrance, the rest of its pack seems to spring from the ground itself. There must be a dozen or more, each as large as a man, and already at a dead-run from every direction.\n\nThe peasants were wrong about the hauntings, but not about the curse! | TR: Adamlarımla birlikte [draugr.GetFirstNameNoTooltip] için hazırlanan mezarın bulunduğu höyüğe henüz gelmiştik ki içeriden hırıltılar gelmeye başladı.\n\nHayatımda gördüğüm en büyük kurt karanlık girişte duvarlara sürtünerek çıkıyor, sürünün geri kalanı ise topraktan çıkıyor gibi görünüyor. Her biri bir insan büyüklüğünde, en az bir düzine kurt üzerimize atlamak için hazır bir şekilde bekliyor.\n\nKöylüler draugr konusunda yanılıyordu ama toprağın lanetli olduğu konusunda haklıymış!]
- fp1_yearly.0061.desc:0 "My retinue and I have barely arrived at the barrow when the first snarl echoes out from inside.\n\nAs the largest wolf I've ever seen squeezes out through the darkened entrance, the rest of its pack seems to spring from the ground itself. There must be a dozen or more, each as large as a man, and already at a dead-run from every direction.\n\nThe peasants were wrong about the hauntings, but not about the curse!"
+
+ fp1_yearly.0061.desc:0 "Adamlarımla birlikte [draugr.GetFirstNameNoTooltip] için hazırlanan mezarın bulunduğu höyüğe henüz gelmiştik ki içeriden hırıltılar gelmeye başladı.\n\nHayatımda gördüğüm en büyük kurt karanlık girişte duvarlara sürtünerek çıkıyor, sürünün geri kalanı ise topraktan çıkıyor gibi görünüyor. Her biri bir insan büyüklüğünde, en az bir düzine kurt üzerimize atlamak için hazır bir şekilde bekliyor.\n\nKöylüler draugr konusunda yanılıyordu ama toprağın lanetli olduğu konusunda haklıymış!"
  fp1_yearly.0061.a:0 "Askerler! Bana doğru gelin!"
  fp1_yearly.0061.a.tt_success:0 "Adamlarınızı topluyorsunuz ve kurtları katlediyorsunuz!"
  fp1_yearly.0061.a.tt_failure:0 "Güç bela kaçtınız"
  fp1_yearly.0061.b:0 "KAÇ!"
  fp1_yearly.0062.t:0 "$fp1_yearly.0051.t$: Ayı"
-### TODO AGOT-CHANGED: fp1_yearly.0062.desc [AGOT: The barrow is cold and gloomy. Though neither my retinue nor I see any walking corpse, there are long, deep scratches on some of the walls, and the bones of livestock litter the floor.\n\nA sudden rustling from the corner catches my eye, and what I'd take to be a pile of leaves begins to stand up, unveiling the largest bear I've ever seen, easily nine or ten ells tall. It blinks sleepily at us, seeming almost-friendly.\n\nThen it roars. | TR: [draugr.GetFirstNameNoTooltip] için hazırlanan höyük soğuk ve kasvetli. Ne adamlarım ne de ben etrafta yürüyen bir ceset görmüyoruz fakat bir şey dikkatimizi çekiyor. Duvarlarda uzun ve dein çizikler var, yerlerde çiftlik hayvanlarına ait gibi görünen kemikler...\n\nKöşeden gelen ani hışırtı sesine dönüp baktığımda bir yaprak yığını olarak düşündüğüm şey ayağa kalkmaya başlıyor, nereden baksan dokuz ya da on arşın boyunda, hayatımda gördüğüm en büyük ayı karşıma duruyor. Neredeyse arkadaş canlısı gibi gözüken uykulu gözlerle bize bakıyor.\n\nArdından kükrüyor.]
- fp1_yearly.0062.desc:0 "The barrow is cold and gloomy. Though neither my retinue nor I see any walking corpse, there are long, deep scratches on some of the walls, and the bones of livestock litter the floor.\n\nA sudden rustling from the corner catches my eye, and what I'd take to be a pile of leaves begins to stand up, unveiling the largest bear I've ever seen, easily nine or ten ells tall. It blinks sleepily at us, seeming almost-friendly.\n\nThen it roars."
+
+ fp1_yearly.0062.desc:0 "[draugr.GetFirstNameNoTooltip] için hazırlanan höyük soğuk ve kasvetli. Ne adamlarım ne de ben etrafta yürüyen bir ceset görmüyoruz fakat bir şey dikkatimizi çekiyor. Duvarlarda uzun ve dein çizikler var, yerlerde çiftlik hayvanlarına ait gibi görünen kemikler...\n\nKöşeden gelen ani hışırtı sesine dönüp baktığımda bir yaprak yığını olarak düşündüğüm şey ayağa kalkmaya başlıyor, nereden baksan dokuz ya da on arşın boyunda, hayatımda gördüğüm en büyük ayı karşıma duruyor. Neredeyse arkadaş canlısı gibi gözüken uykulu gözlerle bize bakıyor.\n\nArdından kükrüyor."
  fp1_yearly.0062.a:0 "Postundan da güzel halı olur!"
  fp1_yearly.0062.a.tt_success:0 "Canavarı alt ediyorsunuz"
  fp1_yearly.0062.a.tt_failure:0 "Adamlarınız sizi kesin bir ölümden kurtarıyor"
  fp1_yearly.0062.b:0 "$fp1_yearly.0061.b$"
  fp1_yearly.0063.t:0 "$fp1_yearly.0051.t$: Nithing"
-### TODO AGOT-CHANGED: fp1_yearly.0063.desc [AGOT: The barrow contains no monster, no grave goods, nor even a corpse.\n\nInstead, the grave seems to have been converted into a crude dwelling, one which some dastardly outlaw has taken from the cold hands of the dead.\n\nAs I discuss what to do with my retinue, a cheery whistling becomes audible in the distance, getting closer. The rogue approaches! | TR: [draugr.GetFirstNameNoTooltip] için hazırlanan mezarın bulunduğu höyükte ne canavar, ne mezar süslemeleri ne de bir ceset var. Bölgede yapılan kısa bir araştırmadan sonra [draugr.GetFirstNameNoTooltip], sadece biraz uzaklıktaki bir hendekte, üzerine biraz çalı çırpı örtülmüş hâlde bulundu.\n\nMezar ise alçak bir haydut tarafından, ölülerin soğuk ellerinden çalınıp kabaca bir eve dönüştürülmüş.\n\nAdamlarımla ne yapacağımızı tartışırken, uzaktan gittikçe yaklaşan neşeli bir ıslık sesi duyuluyor. Haydut yaklaşıyor!]
- fp1_yearly.0063.desc:0 "The barrow contains no monster, no grave goods, nor even a corpse.\n\nInstead, the grave seems to have been converted into a crude dwelling, one which some dastardly outlaw has taken from the cold hands of the dead.\n\nAs I discuss what to do with my retinue, a cheery whistling becomes audible in the distance, getting closer. The rogue approaches!"
+
+ fp1_yearly.0063.desc:0 "[draugr.GetFirstNameNoTooltip] için hazırlanan mezarın bulunduğu höyükte ne canavar, ne mezar süslemeleri ne de bir ceset var. Bölgede yapılan kısa bir araştırmadan sonra [draugr.GetFirstNameNoTooltip], sadece biraz uzaklıktaki bir hendekte, üzerine biraz çalı çırpı örtülmüş hâlde bulundu.\n\nMezar ise alçak bir haydut tarafından, ölülerin soğuk ellerinden çalınıp kabaca bir eve dönüştürülmüş.\n\nAdamlarımla ne yapacağımızı tartışırken, uzaktan gittikçe yaklaşan neşeli bir ıslık sesi duyuluyor. Haydut yaklaşıyor!"
  fp1_yearly.0063.a:0 "Herkes sessiz olsun, duvarlara yaslanın!"
  fp1_yearly.0063.a.tt_success:0 "Tuzağınız işe yaradı"
  fp1_yearly.0063.a.tt_failure:0 "[draugr_nithing.GetFirstNameNoTooltip], bir şeylerin ters gittiğini fark ediyor ve kaçıyor"
  fp1_yearly.0063.a.tt_failure.draugr_nithing_escapes:0 "[draugr_nithing.GetFirstNameNoTooltip], dışarıda serbestçe dolanmaya ve sorun çıkarmaya devam ediyor"
  fp1_yearly.0063.b:0 "Tam bir vakit kaybı!"
  fp1_yearly.0064.t:0 "$fp1_yearly.0051.t$: Yetim"
-### TODO AGOT-CHANGED: fp1_yearly.0064.desc [AGOT: The peasants may have insisted that a walking corpse was stealing their food, hexing their livestock, and pawing at their windows at night, but when I get to the barrow, I find a very different beast.\n\nAmidst a nest of stolen furs and half-eaten food sits an orphaned child, staring at me, eyes wide with utter terror. | TR: Köylüler, yürüyen bir ceset olan [draugr.GetFirstNameNoTooltip] tarafından yemeklerinin çalındığı, hayvanlarının lanetlendiği ve geceleri pencerelerinin pençelendiği konusunda ısrar etmişlerdi ancak höyüğe gittiğimde çok farklı bir yaratık ile karşılaştım.\n\nÇalıntı kürkler ve yarısı yenmiş yiyeceklerden oluşan bir yuvanın ortasında yetim bir çocuk oturuyor, dehşet dolu gözleri fal taşı gibi açılmış, bana bakıyor.]
- fp1_yearly.0064.desc:0 "The peasants may have insisted that a walking corpse was stealing their food, hexing their livestock, and pawing at their windows at night, but when I get to the barrow, I find a very different beast.\n\nAmidst a nest of stolen furs and half-eaten food sits an orphaned child, staring at me, eyes wide with utter terror."
+
+ fp1_yearly.0064.desc:0 "Köylüler, yürüyen bir ceset olan [draugr.GetFirstNameNoTooltip] tarafından yemeklerinin çalındığı, hayvanlarının lanetlendiği ve geceleri pencerelerinin pençelendiği konusunda ısrar etmişlerdi ancak höyüğe gittiğimde çok farklı bir yaratık ile karşılaştım.\n\nÇalıntı kürkler ve yarısı yenmiş yiyeceklerden oluşan bir yuvanın ortasında yetim bir çocuk oturuyor, dehşet dolu gözleri fal taşı gibi açılmış, bana bakıyor."
  fp1_yearly.0064.a:0 "Burayı terk et çocuk, burada kalamazsın."
  fp1_yearly.0064.a.tt:0 "[draugr_orphan.GetFirstNameNoTooltip], vahşi doğaya doğru yol alıyor..."
  fp1_yearly.0064.b:0 "Çocuk ya da değil, hırsızlar zindana ait!"
  fp1_yearly.0064.c:0 "Saraya gel, [Select_CString(draugr_orphan.IsFemale,'kızım','oğlum')]. Mezarlar yaşamak için uygun yerler değil."
  fp1_yearly.0064.d:0 "Her çocuk bir [Select_CString(ROOT.Char.IsFemale,'anneyi','babayı')] hak eder."
  fp1_yearly.0065.t:0 "$fp1_yearly.0051.t$: Nihai Sessizlik"
-### TODO AGOT-CHANGED: fp1_yearly.0065.desc [AGOT: The barrow is much as it has been for centuries. As is every other grave the peasants have me check.\n\nNor do I find anything in any supposedly-cursed cave, troll-haunted grove, or giant's grotto: after a few weeks, I'm beginning to question quite how sure we are that such monsters truly even #EMP exist#!?\n\nAt least the exercise does me good. | TR: [draugr.GetFirstNameNoTooltip] için hazırlanan höyük, tıpkı o ilk gömüldüğündeki gibi. Diğer mezarlarda olduğu gibi köylüler bu mezarın çevresini de kontrol etmem için ısrar ediyor.\n\nNe lanetli olduğu iddia edilen mağaralarda, ne içinde trollerin gezdiği iddia edilen ormanlarda, ne de devlerin yaşadığı söylenen bayırlarda hiçbir şey bulamıyorum. Birkaç hafta sonra, bu tür canavarların gerçekten #EMP var olduğundan#! bile ne kadar emin olduğumuzu sorgulamaya başlıyorum.\n\nNeyse, en azından biraz egzersiz yapmış oldum.]
- fp1_yearly.0065.desc:0 "The barrow is much as it has been for centuries. As is every other grave the peasants have me check.\n\nNor do I find anything in any supposedly-cursed cave, troll-haunted grove, or giant's grotto: after a few weeks, I'm beginning to question quite how sure we are that such monsters truly even #EMP exist#!?\n\nAt least the exercise does me good."
+
+ fp1_yearly.0065.desc:0 "[draugr.GetFirstNameNoTooltip] için hazırlanan höyük, tıpkı o ilk gömüldüğündeki gibi. Diğer mezarlarda olduğu gibi köylüler bu mezarın çevresini de kontrol etmem için ısrar ediyor.\n\nNe lanetli olduğu iddia edilen mağaralarda, ne içinde trollerin gezdiği iddia edilen ormanlarda, ne de devlerin yaşadığı söylenen bayırlarda hiçbir şey bulamıyorum. Birkaç hafta sonra, bu tür canavarların gerçekten #EMP var olduğundan#! bile ne kadar emin olduğumuzu sorgulamaya başlıyorum.\n\nNeyse, en azından biraz egzersiz yapmış oldum."
  fp1_yearly.0065.a:0 "Belki de, kedidir?"
  fp1_yearly.0065.a.locals_grumble:0 "Köylüler Hoşnutsuz"
  fp1_yearly.0071.t:0 "Dünyanın Derinliklerinde"
@@ -288,23 +288,23 @@
  fp1_yearly.0521.e.tt:0 "Yediğiniz kar topu cinnetkâr öfkenizi tetikliyor"
  fp1_yearly.0521.f:0 "Meşgulüm [child.GetFirstNameNoTooltip]. Git başkasını rahatsız et."
  fp1_yearly.0531.t:0 "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip] Ailesi Buz Üstünde"
-### TODO AGOT-ONLY: fp1_yearly.0531.desc [AGOT: ]
- fp1_yearly.0531.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" cries [child.GetFirstName], tugging at my sleeve almost as soon as we step reach the pond. "It's no good, I'm useless. I can't skate, the ice hates me."\n\nA speedy glance suggests that [child.GetSheHe] might be right: the place looks like an army's marched through it, with the amount of shattered ice my [child.Custom('GetDaughterSon')] has left in [child.GetHerHis] wake."
+
+ fp1_yearly.0531.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" diye bağırır [child.GetFirstName], gölete adım attığımız anda neredeyse kolumu çekiştirerek. "İşe yaramıyor, ben beceriksizim. Paten yapamıyorum, buz benden nefret ediyor."\n\nHızlı bir bakış [child.GetSheHe]'in haklı olabileceğini düşündürüyor: [child.Custom('GetDaughterSon')]'imin ardında bıraktığı kırık buz miktarıyla burası bir ordunun geçtiği yere benziyor.""
  fp1_yearly.0531.a:0 "Aslında çok kolay! Beni iyi izle, önce şöyle yapacaksın..."
  fp1_yearly.0531.a.tt_success:0 "[child.GetFirstNameNoTooltip] özgüven kazanıyor"
  fp1_yearly.0531.a.tt_failure:0 "Onu daha da sinirlendiriyorsunuz"
  fp1_yearly.0531.b:0 "Sürekli beni rahatsız edeceksen niye hizmetkârlarımız var?"
  fp1_yearly.0531.c:0 "Git içeride oyna, üşüteceksin."
  fp1_yearly.0541.t:0 "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] Yaratığı"
-### TODO AGOT-ONLY: fp1_yearly.0541.desc [AGOT: ]
- fp1_yearly.0541.desc:0 ""My [ROOT.Char.GetTitleAsNameNoTooltip]", huffs [courtier.GetTitledFirstName] as [courtier.GetSheHe] marches up to me, hauling my [child.Custom('GetDaughterSon')] [child.GetFirstName] by [child.GetHerHis] ear.\n\n"This dratted child has been lying in wait around corners, wearing a [ROOT.Char.Custom('GetAnimalType')] skin for a costume, only to jump out screaming and scaring the living daylights out of people!""
+
+ fp1_yearly.0541.desc:0 ""[ROOT.Char.GetTitleAsNameNoTooltip]'im," diye nefeslenir [courtier.GetTitledFirstName], [child.Custom('GetDaughterSon')] [child.GetFirstName]'i kulağından sürükleyerek bana doğru yürürken.\n\n"Bu lanet çocuk köşelerde pusuya yatıp kostüm olarak [ROOT.Char.Custom('GetAnimalType')] postu giyiyor, sonra da bağırarak fırlayıp insanları ödünü patlatıyor!""
  fp1_yearly.0541.a:0 "Bu, dürüst olmak gerekirse, çok komik."
  fp1_yearly.0541.b:0 "[child.GetFirstNameNoTooltip], cezalandırılman gerek."
  fp1_yearly.0541.c:0 "Sen #EMP benim#! [Select_CString(child.IsFemale, 'kızımı', 'oğlumu')] rahatsız mı ediyorsun? Sürgün edildin!"
  fp1_yearly.0541.d:0 "#EMP Zerre#! umurumda değil."
  fp1_yearly.0551.t:0 "Bayat Balık"
-### TODO AGOT-CHANGED: fp1_yearly.0551.desc [AGOT: It began as an occasional treat. An unusual habit, but I'm a good [ROOT.Char.GetCulture.GetNameNoTooltip], and what [ROOT.Char.GetCulture.GetNameNoTooltip] hasn't eaten some dodgy herring in [ROOT.Char.GetHerHis] time?\n\nOver the last few weeks, though, [antisocialite.GetTitledFirstNamePossessive] predilection for utterly #EMP rotten#! fish has gone from tolerable idiosyncrasy to a pungent omnipresence.\n\nThis morning, when I discovered what [antisocialite.GetSheHe]'d done to the latrine, I decided I'd had enough. I found [antisocialite.GetHerHim] in the hall, face soaked in foetid brine, half a fish eye lazily dripping down [antisocialite.GetHerHis] chin. | TR: Her şey ara sıra kendisini şımartmak istemesiyle başladı. Evet sıradışı bir alışkanlık fakat kendimi iyi bir [ROOT.Char.GetCulture.GetNameNoTooltip] olarak görüyorum ve her [ROOT.Char.GetCulture.GetNameNoTooltip] hayatında en az bir kere bayat ringa balığı yemiştir.\n\n[antisocialite.GetTitledFirstName] son zamanlarda iyice zıvanadan çıkmış vaziyette, görünüşe göre kendisi özellikle #EMP kokmuş#! balıklara ilgi duyuyor. Resmen bağımlısı olmuş!\n\nBu sabah tuvaletin hâlini gördükten sonra artık bir şeyler yapmanın vakti geldiğini anladım. Kendisini sarayda bulduğumda ağzının kenarından balık kılçıkları sarkıyordu.]
- fp1_yearly.0551.desc:0 "It began as an occasional treat. An unusual habit, but I'm a good [ROOT.Char.GetCulture.GetNameNoTooltip], and what [ROOT.Char.GetCulture.GetNameNoTooltip] hasn't eaten some dodgy herring in [ROOT.Char.GetHerHis] time?\n\nOver the last few weeks, though, [antisocialite.GetTitledFirstNamePossessive] predilection for utterly #EMP rotten#! fish has gone from tolerable idiosyncrasy to a pungent omnipresence.\n\nThis morning, when I discovered what [antisocialite.GetSheHe]'d done to the latrine, I decided I'd had enough. I found [antisocialite.GetHerHim] in the hall, face soaked in foetid brine, half a fish eye lazily dripping down [antisocialite.GetHerHis] chin."
+
+ fp1_yearly.0551.desc:0 "Her şey ara sıra kendisini şımartmak istemesiyle başladı. Evet sıradışı bir alışkanlık fakat kendimi iyi bir [ROOT.Char.GetCulture.GetNameNoTooltip] olarak görüyorum ve her [ROOT.Char.GetCulture.GetNameNoTooltip] hayatında en az bir kere bayat ringa balığı yemiştir.\n\n[antisocialite.GetTitledFirstName] son zamanlarda iyice zıvanadan çıkmış vaziyette, görünüşe göre kendisi özellikle #EMP kokmuş#! balıklara ilgi duyuyor. Resmen bağımlısı olmuş!\n\nBu sabah tuvaletin hâlini gördükten sonra artık bir şeyler yapmanın vakti geldiğini anladım. Kendisini sarayda bulduğumda ağzının kenarından balık kılçıkları sarkıyordu."
  fp1_yearly.0551.a:0 "Geç karşıma [antisocialite.GetFirstNameNoTooltip]. Seninle konuşacaklarım var."
  fp1_yearly.0551.a.tt_success:0 "Ne demek istediğinizi açık bir şekilde anlatıyorsunuz"
  fp1_yearly.0551.a.tt_failure:0 "[antisocialite.GetFirstNameNoTooltip] söylediklerinizi hakaret kabul ediyor"
@@ -315,8 +315,8 @@
  fp1_yearly.0551.c:0 "Zindana gitme vaktin geldi. #EMP Şimdi#!."
  fp1_yearly.0551.d:0 "Ne yazık ki #EMP uzaklarda#! ilgilenmem gereken başka işler var!"
  fp1_yearly.0561.t:0 "Bilekler Karşı Karşıya"
-### TODO AGOT-ONLY: fp1_yearly.0561.desc [AGOT: ]
- fp1_yearly.0561.desc:1 ""What do you say, [ROOT.Char.GetFirstNameNoTooltip]?" burps [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] between draughts from [knight.GetHerHis] tankard. The [knight.Custom('GetYoungMiddleAgedOld')] [knight.GetWomanMan] flexes [knight.GetHerHis] muscles proudly.\n\n"Think you can take me at arm-wrestling? Go on, first to three."\n\nMy spoon pauses on the way to my mouth, but the tavern erupts in brash cheers and whoops, lesser members of my entourage keen to witness the showdown."
+
+ fp1_yearly.0561.desc:0 ""Ne dersin, [ROOT.Char.GetFirstNameNoTooltip]?" [knight.Custom2('MyCharacterIntroduction', ROOT.Char)] [knight.GetHerHis] kadehini yudumlayarak geğirir. [knight.Custom('GetYoungMiddleAgedOld')] [knight.GetWomanMan] kaslarını gururla esnetir.\n\n"Sence bilek güreşinde beni yenebilir misin? Hadi, üç kazanan."\n\nKaşığım ağzıma giderken duraksıyor, ama meyhane küstah tezahürat ve bağrışlarla inliyor; maiyetimin alt kademeleri gösteriyi izlemek için hevesli."
  fp1_yearly.0561.a:0 "Bana meydan mı okuyorsun?"
  fp1_yearly.0561.a.tt_success:0 "[knight.GetFirstNameNoTooltip] kaybediyor"
  fp1_yearly.0561.a.tt_failure:0 "[knight.GetFirstNameNoTooltip] kazanıyor"
@@ -327,8 +327,8 @@
  fp1_yearly.0561.c.tt_failure:0 "[knight.GetFirstNameNoTooltip], hilenizi fark ediyor"
  fp1_yearly.0561.d:0 "Yemek yiyorum [knight.GetFirstNameNoTooltip]. Git başkalarını rahatsız et."
  fp1_yearly.0571.t:0 "Küçük Bir Vandalizm"
-### TODO AGOT-ONLY: fp1_yearly.0571.desc [AGOT: ]
- fp1_yearly.0571.desc:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]!"" cries [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]. Behind [courtier.GetHerHim], the [courtier.GetWomanMan] tugs my [child.Custom('GetDaughterSon')] [child.GetFirstName], the two of them so busy scowling at each other that they barely make eye contact with me.\n\n"This child was caught defacing your runestone in [vandal_site.GetNameNoTier], painting genitals on the wyrms and scratching foulness in place of the words.""
+
+ fp1_yearly.0571.desc:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]!" diye bağırır [courtier.Custom2('MyCharacterIntroduction', ROOT.Char)]. [courtier.GetHerHim]in arkasında, [courtier.GetWomanMan] [child.Custom('GetDaughterSon')] [child.GetFirstName]'i çekiştiriyor; ikisi birbirine öyle öfkeli bakıyorlar ki bana zar zor göz atıyorlar.\n\n"Bu çocuk [vandal_site.GetNameNoTier]'deki rune taşınızı tahrip ederken yakalandı; ejderhalara cinsel organ resimleri çiziyor ve kelimelerin yerine iğrençlikler kazıyordu.""
  fp1_yearly.0571.a:0 "Çocuğu benimle bırak, onunla biraz konuşacağım."
  fp1_yearly.0571.tt_success:0 "[child.GetFirstNameNoTooltip], yaptıklarının yanlış olduğunu anlıyor"
  fp1_yearly.0571.tt_failure:0 "[child.GetFirstNameNoTooltip], hatasını kabullenmiyor"
@@ -376,8 +376,8 @@
  fp1_yearly.0601.g:0 "Bu anlamsız, biraz kestiriyorum."
  fp1_yearly.0601.g.nickname:0 "Garipliklerinize yeni bir satır ekleniyor"
  fp1_yearly.0611.t:0 "Yol Gösterme"
-### TODO AGOT-ONLY: fp1_yearly.0611.desc [AGOT: ]
- fp1_yearly.0611.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" shrieks [child_b.GetFirstNameNoTooltip], running up to me, crying, with a guilty-looking [child_a.GetFirstNameNoTooltip] in tow. A huge gash mars my [child_b.Custom('GetDaughterSon')]'s face, shallow, but still welling blood. "[child_a.GetSheHe|U] hit me with a #EMP real#! sword! Said [child_a.GetSheHe] was gonna be a warrior like you!".\n\n[child_a.GetFirstNameNoTooltip] can't bring [child_a.GetHerselfHimself] to look me in the eye.\n\n"It was an accident. We were only playing...""
+
+ fp1_yearly.0611.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" diye ciyaklar [child_b.GetFirstNameNoTooltip], suçlu görünümlü bir [child_a.GetFirstNameNoTooltip]'i peşine takıp ağlayarak yanıma koşarak gelirken. [child_b.Custom('GetDaughterSon')]'imin yüzünü kocaman bir kesik çirkinleştiriyor; sığ ama kanıyor. "[child_a.GetSheHe|U] bana #EMP gerçek#! bir kılıçla vurdu! Senin gibi bir savaşçı olacağını söyledi!".\n\n[child_a.GetFirstNameNoTooltip] gözlerimin içine bakamıyor.\n\n"Kazaydı. Sadece oynuyorduk...""
  fp1_yearly.0611.a:0 "Şimdi beni iyi dinle. #EMP Savaş#! bir #EMP oyun#! değildir!"
  fp1_yearly.0611.a.tt_success:0 "[child_a.GetFirstNameNoTooltip], hatasını anlıyor ve özür diliyor"
  fp1_yearly.0611.a.tt_failure:0 "Konuşmanız yalnızca daha da öfkeye neden oluyor"
@@ -418,8 +418,8 @@
  fp1_yearly.0651.d:0 "Ne heybetli bir yaratık ama... zarar vermeyelim."
  fp1_yearly.0651.d.tt:0 "Balina özgürce gidiyor"
  fp1_yearly.0661.t:0 "Acayip Bir Fikir"
-### TODO AGOT-ONLY: fp1_yearly.0661.desc [AGOT: ]
- fp1_yearly.0661.desc:0 ""All I'm saying, [ROOT.Char.GetTitledFirstNameNoTooltip], is that skis are fun even without hunting. It shouldn't be so unusual to ski for the joy of it, not just the utility", drones [knight.GetTitledFirstName] at dinner.\n\nI feel like I've been in this conversation for my entire life. The [knight.Custom('WomanManPossessive')] obsessed.\n\n"We should give it a try, now, while the snow is thick and fresh! There's a steep hill not too far from here. I'll bet I can reach the bottom before you, and we'll both have a great time!""
+
+ fp1_yearly.0661.desc:0 ""Sadece diyorum ki, [ROOT.Char.GetTitledFirstNameNoTooltip], kayak avcılık olmasa bile eğlenceli. Sırf faydası için değil, zevki için kayak yapmak bu kadar sıradışı olmamalı," diye söylenir [knight.GetTitledFirstName] akşam yemeğinde.\n\nHayatım boyunca bu sohbetteymişim gibi hissediyorum. [knight.Custom('WomanManPossessive')] takıntılı.\n\n"Bir denemeliyiz, şimdi, kar kalın ve taze! Çok uzakta olmayan dik bir tepe var. Bahse girerim dibine senden önce ulaşırım ve ikimiz de harika vakit geçiririz!""
  fp1_yearly.0661.a:0 "Ne kadar da sıradışı bir şey! Kabul ediyorum."
  fp1_yearly.0661.a.tt_success:0 "Az farkla kazanıyorsunuz!"
  fp1_yearly.0661.a.tt_failure:0 "[knight.GetFirstNameNoTooltip] sizi yeniyor"
@@ -430,8 +430,8 @@
  fp1_yearly.0661.b.tt_failure:0 "[knight.GetFirstNamePossessiveNoTooltip] kayaklarına zarar verirken fark edildiniz"
  fp1_yearly.0661.c:0 "Kayak #EMP yarışı mı#!? Avlanmadan? Ne gerek var?"
  fp1_yearly.0671.t:0 "Karlı Bir Sabah"
-### TODO AGOT-ONLY: fp1_yearly.0671.desc [AGOT: ]
- fp1_yearly.0671.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" shouts [child.GetFirstNameNoTooltip], directly into my ear. My eyes open reluctantly, one at a time. That's one way to wake up, I suppose.\n\nThe small child next to my bed is positively vibrating with excitement, clutching mittens and an expensive wooden platter.\n\n"It's snowing outside and I want to go #EMP sledding#!! Will you take me?""
+
+ fp1_yearly.0671.desc:0 ""[ROOT.Char.Custom('GetMaPa')|U]!" diye bağırır [child.GetFirstNameNoTooltip], tam kulağıma. Gözlerim isteksizce, teker teker açılıyor. Uyanmanın bir yolu da buymuş, sanırım.\n\nYatağımın yanındaki küçük çocuk eldivenler ve pahalı bir tahta tepsi sıkıştırmış, heyecandan titriyor.\n\n"Dışarıda kar yağıyor ve #EMP kızak#! kaymak istiyorum! Beni götürür müsün?""
  fp1_yearly.0671.a:0 "Heh, bekle biraz masayı çıkartayım!"
  fp1_yearly.0671.b:0 "Hadi aşçılardan bir tepsi alalım!"
  fp1_yearly.0671.c:0 "Kardeşine söyle o götürsün."
@@ -560,45 +560,45 @@
  fp1_yearly.1071.a:0 "Temizlik, uzun bir yaşamın anahtarıdır!"
  fp1_yearly.1071.b:0 "Sanırım biraz daha dikkatli olabilirim..."
  fp1_yearly.1071.c:0 "Her zamanki gibi yapsam idare eder."
-### TODO AGOT-CHANGED: fp1_yearly.1081.t [AGOT: Explorer from across the Narrow Sea | TR: Batıdan Gelen Kâşif]
- fp1_yearly.1081.t:0 "Explorer from across the Narrow Sea"
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.intro [AGOT: My evening has been consumed by an aged explorer, [norse_explorer.GetFirstName], wishing to tell me the exotic stories of their exploits and adventurers in the Essos.\n\nDespite [norse_explorer.GetHerHis] age, [norse_explorer.GetFirstNamePossessiveNoTooltip] eyes remain sharp as [norse_explorer.GetSheHe] tells me of | TR: Tüm akşamımı bana Atlas Okyanusu'ndaki maceralarını ve başarılarını anlatmak isteyen yaşlı bir kâşif olan [norse_explorer.GetFirstName] ile geçirdim.\n\nYaşlı kâşif keskin gözlerle]
- fp1_yearly.1081.desc.intro:0 "My evening has been consumed by an aged explorer, [norse_explorer.GetFirstName], wishing to tell me the exotic stories of their exploits and adventurers in the Essos.\n\nDespite [norse_explorer.GetHerHis] age, [norse_explorer.GetFirstNamePossessiveNoTooltip] eyes remain sharp as [norse_explorer.GetSheHe] tells me of"
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.greenland [AGOT: a land of cunning, hairy men who live on mountainous islands in the grasp of shivering waters. Their snow-covered home gives them much in the way of gold and iron, yet their heart is at sea. They settle and trade in every port, seeking boons for their missing king. | TR: verimsiz topraklarda, dünyanın zirvesine yakın karlı yerlerde mücadele eden Norsların hikâyesini anlatıyor. Arazi o kadar donmuş ve soğuk ki tüm ihtiyaçları olan keresteyi dışarıdan getirtmeleri ve neredeyse tamamen et ve balık yemeleri gerekmiş.]
- fp1_yearly.1081.desc.greenland:1 "a land of cunning, hairy men who live on mountainous islands in the grasp of shivering waters. Their snow-covered home gives them much in the way of gold and iron, yet their heart is at sea. They settle and trade in every port, seeking boons for their missing king."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.vinland [AGOT: a land as far west as Yi Ti is east, where foreign fruits and nuts grow so freely that they seem to sow themselves, and great grey lizards bask. Their bite rots a man’s insides, if you’re fool enough to wake them from their sloth. | TR: Hitay'ın doğuda olduğu kadar uzakta, batıdaki bir diyarda, üzümlerin ve buğdayın sanki kendi kendilerini ekip büyütüyorlar gibi göründükleri, benzersiz bağlara sahip bir yerden bahsediyor. Korkunç savaşçılara sahip yerel halk, topraklarına izinsiz girenlere en ufak bir müsamaha göstermiyormuş.]
- fp1_yearly.1081.desc.vinland:0 "a land as far west as Yi Ti is east, where foreign fruits and nuts grow so freely that they seem to sow themselves, and great grey lizards bask. Their bite rots a man’s insides, if you’re fool enough to wake them from their sloth."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.antilia [AGOT: an island settled by Rhoynar exiles. Sturdy, proud worshipers of Mother Rhoyne, living at peace with neighbors, they descend from refugees who fled with the ten thousand ships of Nymeria but did not continue to Dorne. | TR: [antilia_culture.GetNameNoTooltip] sürgünlerinin yerleştiği bir adadan bahsediyor. Soyları Mağribi İstilası sırasında İberya'dan kaçan mültecilere dayanan bu halk iyi korunan kalelerde yaşıyormuş.]
- fp1_yearly.1081.desc.antilia:0 "an island settled by Rhoynar exiles. Sturdy, proud worshipers of Mother Rhoyne, living at peace with neighbors, they descend from refugees who fled with the ten thousand ships of Nymeria but did not continue to Dorne."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.fortunate_isles.hellenist [AGOT: one of the last surviving exclaves of the Flames of Valyria, a tiny island in the east populated by men who share more with the ancient Freehold than they do with their daughters. The malformed locals spend all day discussing lingering magics and toasting the glory of the Fourteen Flames. | TR: yaşayan son Helen topraklarından bahsediyor. Soyları $b_constantinople$ yerine daha çok antik $b_athens$ topraklarına dayanan bu Yunan yerleşimciler minik bir adada yaşıyormuş. Bütün günlerini felsefe tartışarak ve Olimposluların şerefine kadeh tokuşturarak geçiriyorlarmış.]
- fp1_yearly.1081.desc.fortunate_isles.hellenist:0 "one of the last surviving exclaves of the Flames of Valyria, a tiny island in the east populated by men who share more with the ancient Freehold than they do with their daughters. The malformed locals spend all day discussing lingering magics and toasting the glory of the Fourteen Flames."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.fortunate_isles.other [AGOT: the refuge of the last few heathen Flames of Valyria, crudely imitating their distant ancestors in the Freehold of old. The malformed locals spend their days in sloth, discussing morbid blood magics and performing rituals to their crude faith. | TR: geriye bir avuç kalmış, $b_athens$ ve $b_thebes$ topraklarında yaşayan uzak atalarını taklit eden Yunan mültecilerin hikâyesini anlatıyor. Yerliler günlerini tembellik içinde, tuhaf felsefi konuları tartışarak ve kaba inançlarını uygulayarak geçiriyorlarmış.]
- fp1_yearly.1081.desc.fortunate_isles.other:0 "the refuge of the last few heathen Flames of Valyria, crudely imitating their distant ancestors in the Freehold of old. The malformed locals spend their days in sloth, discussing morbid blood magics and performing rituals to their crude faith."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.st_brendans_island [AGOT: a city concealed in everlasting shadow, where the bounds of reality seem to stretch to their very edges. Of the city's further mysteries, [norse_explorer.GetFirstNameNoTooltip] remains tight-lipped, though tears cloud [norse_explorer.GetHerHis] eyes at times. | TR: sislerin ardında, içindeyken zamanın dışarıya göre daha yavaş aktığı bir adadan bahsediyor. Adanın diğer gizemlerini anlatmak konusunda ağzı sıkı davransa da, [norse_explorer.GetFirstNameNoTooltip] bazen gözyaşlarına hâkim olmakta zorlanıyor.]
- fp1_yearly.1081.desc.st_brendans_island:0 "a city concealed in everlasting shadow, where the bounds of reality seem to stretch to their very edges. Of the city's further mysteries, [norse_explorer.GetFirstNameNoTooltip] remains tight-lipped, though tears cloud [norse_explorer.GetHerHis] eyes at times."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.isle_of_the_blessed.christian [AGOT: an isle filled with devout worshippers of an oily, black toad, praying and living lives of devotion to a malignant divinity. Descended from a mysterious fallen civilization on the island, they’ve been granted piscine features for their loyalty. | TR: dua ve tefekkür ederek hayatlarını yaşayan dindar $breton_collective_noun$ ile dolu bir adadan bahsediyor. İnançları o kadar güçlüymüş ki, her biri ölümlü silahlarına karşı bağışıklıymış. Hepsi [norse_explorer.GetFaith.HighGodName] tarafından korunuyor olmalı.]
- fp1_yearly.1081.desc.isle_of_the_blessed.christian:0 "an isle filled with devout worshippers of an oily, black toad, praying and living lives of devotion to a malignant divinity. Descended from a mysterious fallen civilization on the island, they’ve been granted piscine features for their loyalty."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.isle_of_the_blessed.other [AGOT: an archipelago filled with green, shark-toothed people, who worship strange fish-headed gods lurking beneath their shores. So strong was their faith, they refused to set foot in water even after [norse_explorer.GetFirstNamePossessiveNoTooltip] crew put a few to the sword. | TR: altın hazineleri olan dindar $breton_collective_noun$ ile dolu bir adadan bahsediyor. İnançları o kadar güçlüymüş ki, [norse_explorer.GetFirstNameNoTooltip] ve mürettebatı onları kılıçtan geçirirken bile ilahiler mırıldanıyorlarmış.]
- fp1_yearly.1081.desc.isle_of_the_blessed.other:0 "an archipelago filled with green, shark-toothed people, who worship strange fish-headed gods lurking beneath their shores. So strong was their faith, they refused to set foot in water even after [norse_explorer.GetFirstNamePossessiveNoTooltip] crew put a few to the sword."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.ard_majhulah [AGOT: a strange land, only mentioned on farflung charts. The locals live amongst blue and black trees, whose sap is said to cause visions and feed the mania of sorcerers and warlocks. | TR: yalnızca eski İslami metinlerde ismi geçen, uzun süredir unutulmuş garip bir adadan bahsediyor. Adada yaşayanlar o kadar zenginmiş ki altından kürdan yapıp ve kıyafetlerini gümüşten dokuyorlarmış.]
- fp1_yearly.1081.desc.ard_majhulah:1 "a strange land, only mentioned on farflung charts. The locals live amongst blue and black trees, whose sap is said to cause visions and feed the mania of sorcerers and warlocks."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.the_sticky_sea [AGOT: a boiling sea amidst the Doom, a sulfurous, smoking mess of waters, where darkness and demons conspire to drag sailors to their deaths. Only the very strongest of crews stand even a chance of pulling themselves free. | TR: Atlas Okyanusu'nda yılanların ve deniz yosunlarının denizcileri ölümlerine sürüklemek için kurduğu tuzakları anlatıyor. Sadece en güçlü mürettebatlar bu kederli denizin tuzağından kurtulabilirmiş.]
- fp1_yearly.1081.desc.the_sticky_sea:0 "a boiling sea amidst the Doom, a sulfurous, smoking mess of waters, where darkness and demons conspire to drag sailors to their deaths. Only the very strongest of crews stand even a chance of pulling themselves free."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.purple_islands [AGOT: a crooked island far to the south, filled with vibrant butterflies, of countless exotic shades and shapes, and a catlike race that reveres them as messengers of the gods. The eerie beauty of the place entices even hardened sailors to stay, but the fever kills those who do by morning. | TR: güneyde, çoğu egzotik mor tonlarında çiçeklerle dolu, insan hayatından hiçbir iz içermeyen bir grup adadan bahsediyor. Bu yerin tüyler ürpertici güzelliği, en tecrübeli denizcilerin bile deniz hayatını geride bırakıp buraya yerleşmeyi düşünmelerine sebep oluyormuş.]
- fp1_yearly.1081.desc.purple_islands:0 "a crooked island far to the south, filled with vibrant butterflies, of countless exotic shades and shapes, and a catlike race that reveres them as messengers of the gods. The eerie beauty of the place entices even hardened sailors to stay, but the fever kills those who do by morning."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.hy_brasil [AGOT: an island that remains cursed and tainted from its origin, ruins locked behind impenetrable bogs save for the unluckiest travelers of all. The only things the damned find there are blood magic, mutilation, and a red death. | TR: geçilmez sislerin ardında çoğu zaman görünmeyen, her yedi yılda bir beliren bir adadan bahsediyor. Sislerin seyahate izin verdiği o gün bile, hiçbir denizci karaya çıkmayı başaramamış.]
- fp1_yearly.1081.desc.hy_brasil:0 "an island that remains cursed and tainted from its origin, ruins locked behind impenetrable bogs save for the unluckiest travelers of all. The only things the damned find there are blood magic, mutilation, and a red death."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.thule [AGOT: a vast ice sheet to the far, far north, enclosing a bay where hunger whittles sense to dust. Men tear each other’s flesh as easily as breathe, freshly stranded and lifelong residents alike, all clinging to trapped ships for the memory of warmth. | TR: kuzeyde tüm maddelerin parçalandığı uçsuz bucaksız diyardan bahsediyor. İnsanlar suyu ve toprağı hava kadar kolay soluyormuş, yerde ve gökyüzünde devasa balinalar yüzüyormuş. Dünyaya dair bildiğin her şeyi unutturacak cinsten bir yer...]
- fp1_yearly.1081.desc.thule:0 "a vast ice sheet to the far, far north, enclosing a bay where hunger whittles sense to dust. Men tear each other’s flesh as easily as breathe, freshly stranded and lifelong residents alike, all clinging to trapped ships for the memory of warmth."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.great_ireland.abrahamic [AGOT: a land far to the east, where the inhabitants wear iron mail, carry star-carved axes, and fight viciously against each other and even the noblest of visitors. The locals worship a heretical perversion of the Seven Who Are One, far from the Father of the Faithful’s light. | TR: batıda, çok uzak bir adadan bahsediyor. Bu adanın sakinleri sadece beyaz giyiyormuş ve kaba görünümlü mızraklar taşıyorlarmış. Soylu veya avam ayırt etmeksizin, misafirleriyle dahi acımasızca dövüşüyorlarmış. Yerel halk [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip] tarafından uzun süre önce unutulmuş pagan tanrılara tapıyormuş.]
- fp1_yearly.1081.desc.great_ireland.abrahamic:0 "a land far to the east, where the inhabitants wear iron mail, carry star-carved axes, and fight viciously against each other and even the noblest of visitors. The locals worship a heretical perversion of the Seven Who Are One, far from the Father of the Faithful’s light."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.great_ireland.other [AGOT: a land far to the east, where the inhabitants are tall and fair, carrying star-carved axes, and fighting with zealous strength and ferocity. So legendary is their prowess, that no conquering nation dares attempt to drive them out again. | TR: batıda, sakinlerinin yalnızca beyaz giydiği, kaba görünümlü mızraklar kullandığı ve insanüstü bir güç ve vahşetle savaştığı topraklardan bahsediyor. Yiğitlikleri o kadar efsanevi ki, bu toprakların hiçbir savaşçısı, yabancı bir savaşçıya yenik düşmemiş.]
- fp1_yearly.1081.desc.great_ireland.other:0 "a land far to the east, where the inhabitants are tall and fair, carrying star-carved axes, and fighting with zealous strength and ferocity. So legendary is their prowess, that no conquering nation dares attempt to drive them out again."
-### TODO AGOT-CHANGED: fp1_yearly.1081.desc.sunset_empire [AGOT: an empire the width of a continent away, a land of ten thousand tigers and ten million monkeys, lurking just beneath the eastern horizon. Its cruel God-Empress waits for sign from the Old Ones beneath the ground, when they intend to rip the beating hearts from all good [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip]. | TR: batı ufkunun hemen altında gizlenen, Atlas Okyanusu'nun en uzak noktasında bir kan, kafatasları ve hırslı fatihlerin imparatorluğundan bahsediyor. Oranın zalim efendileri sabırlı bir şekilde tüm iyi [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip] ile yüzleşecekleri Ragnarok'u bekliyormuş.]
- fp1_yearly.1081.desc.sunset_empire:0 "an empire the width of a continent away, a land of ten thousand tigers and ten million monkeys, lurking just beneath the eastern horizon. Its cruel God-Empress waits for sign from the Old Ones beneath the ground, when they intend to rip the beating hearts from all good [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip]."
+
+ fp1_yearly.1081.t:0 "Batıdan Gelen Kâşif"
+
+ fp1_yearly.1081.desc.intro:0 "Tüm akşamımı bana Atlas Okyanusu'ndaki maceralarını ve başarılarını anlatmak isteyen yaşlı bir kâşif olan [norse_explorer.GetFirstName] ile geçirdim.\n\nYaşlı kâşif keskin gözlerle"
+
+ fp1_yearly.1081.desc.greenland:0 "verimsiz topraklarda, dünyanın zirvesine yakın karlı yerlerde mücadele eden Norsların hikâyesini anlatıyor. Arazi o kadar donmuş ve soğuk ki tüm ihtiyaçları olan keresteyi dışarıdan getirtmeleri ve neredeyse tamamen et ve balık yemeleri gerekmiş."
+
+ fp1_yearly.1081.desc.vinland:0 "Hitay'ın doğuda olduğu kadar uzakta, batıdaki bir diyarda, üzümlerin ve buğdayın sanki kendi kendilerini ekip büyütüyorlar gibi göründükleri, benzersiz bağlara sahip bir yerden bahsediyor. Korkunç savaşçılara sahip yerel halk, topraklarına izinsiz girenlere en ufak bir müsamaha göstermiyormuş."
+
+ fp1_yearly.1081.desc.antilia:0 "[antilia_culture.GetNameNoTooltip] sürgünlerinin yerleştiği bir adadan bahsediyor. Soyları Mağribi İstilası sırasında İberya'dan kaçan mültecilere dayanan bu halk iyi korunan kalelerde yaşıyormuş."
+
+ fp1_yearly.1081.desc.fortunate_isles.hellenist:0 "yaşayan son Helen topraklarından bahsediyor. Soyları $b_constantinople$ yerine daha çok antik $b_athens$ topraklarına dayanan bu Yunan yerleşimciler minik bir adada yaşıyormuş. Bütün günlerini felsefe tartışarak ve Olimposluların şerefine kadeh tokuşturarak geçiriyorlarmış."
+
+ fp1_yearly.1081.desc.fortunate_isles.other:0 "geriye bir avuç kalmış, $b_athens$ ve $b_thebes$ topraklarında yaşayan uzak atalarını taklit eden Yunan mültecilerin hikâyesini anlatıyor. Yerliler günlerini tembellik içinde, tuhaf felsefi konuları tartışarak ve kaba inançlarını uygulayarak geçiriyorlarmış."
+
+ fp1_yearly.1081.desc.st_brendans_island:0 "sislerin ardında, içindeyken zamanın dışarıya göre daha yavaş aktığı bir adadan bahsediyor. Adanın diğer gizemlerini anlatmak konusunda ağzı sıkı davransa da, [norse_explorer.GetFirstNameNoTooltip] bazen gözyaşlarına hâkim olmakta zorlanıyor."
+
+ fp1_yearly.1081.desc.isle_of_the_blessed.christian:0 "dua ve tefekkür ederek hayatlarını yaşayan dindar $breton_collective_noun$ ile dolu bir adadan bahsediyor. İnançları o kadar güçlüymüş ki, her biri ölümlü silahlarına karşı bağışıklıymış. Hepsi [norse_explorer.GetFaith.HighGodName] tarafından korunuyor olmalı."
+
+ fp1_yearly.1081.desc.isle_of_the_blessed.other:0 "altın hazineleri olan dindar $breton_collective_noun$ ile dolu bir adadan bahsediyor. İnançları o kadar güçlüymüş ki, [norse_explorer.GetFirstNameNoTooltip] ve mürettebatı onları kılıçtan geçirirken bile ilahiler mırıldanıyorlarmış."
+
+ fp1_yearly.1081.desc.ard_majhulah:0 "yalnızca eski İslami metinlerde ismi geçen, uzun süredir unutulmuş garip bir adadan bahsediyor. Adada yaşayanlar o kadar zenginmiş ki altından kürdan yapıp ve kıyafetlerini gümüşten dokuyorlarmış."
+
+ fp1_yearly.1081.desc.the_sticky_sea:0 "Atlas Okyanusu'nda yılanların ve deniz yosunlarının denizcileri ölümlerine sürüklemek için kurduğu tuzakları anlatıyor. Sadece en güçlü mürettebatlar bu kederli denizin tuzağından kurtulabilirmiş."
+
+ fp1_yearly.1081.desc.purple_islands:0 "güneyde, çoğu egzotik mor tonlarında çiçeklerle dolu, insan hayatından hiçbir iz içermeyen bir grup adadan bahsediyor. Bu yerin tüyler ürpertici güzelliği, en tecrübeli denizcilerin bile deniz hayatını geride bırakıp buraya yerleşmeyi düşünmelerine sebep oluyormuş."
+
+ fp1_yearly.1081.desc.hy_brasil:0 "geçilmez sislerin ardında çoğu zaman görünmeyen, her yedi yılda bir beliren bir adadan bahsediyor. Sislerin seyahate izin verdiği o gün bile, hiçbir denizci karaya çıkmayı başaramamış."
+
+ fp1_yearly.1081.desc.thule:0 "kuzeyde tüm maddelerin parçalandığı uçsuz bucaksız diyardan bahsediyor. İnsanlar suyu ve toprağı hava kadar kolay soluyormuş, yerde ve gökyüzünde devasa balinalar yüzüyormuş. Dünyaya dair bildiğin her şeyi unutturacak cinsten bir yer..."
+
+ fp1_yearly.1081.desc.great_ireland.abrahamic:0 "batıda, çok uzak bir adadan bahsediyor. Bu adanın sakinleri sadece beyaz giyiyormuş ve kaba görünümlü mızraklar taşıyorlarmış. Soylu veya avam ayırt etmeksizin, misafirleriyle dahi acımasızca dövüşüyorlarmış. Yerel halk [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip] tarafından uzun süre önce unutulmuş pagan tanrılara tapıyormuş."
+
+ fp1_yearly.1081.desc.great_ireland.other:0 "batıda, sakinlerinin yalnızca beyaz giydiği, kaba görünümlü mızraklar kullandığı ve insanüstü bir güç ve vahşetle savaştığı topraklardan bahsediyor. Yiğitlikleri o kadar efsanevi ki, bu toprakların hiçbir savaşçısı, yabancı bir savaşçıya yenik düşmemiş."
+
+ fp1_yearly.1081.desc.sunset_empire:0 "batı ufkunun hemen altında gizlenen, Atlas Okyanusu'nun en uzak noktasında bir kan, kafatasları ve hırslı fatihlerin imparatorluğundan bahsediyor. Oranın zalim efendileri sabırlı bir şekilde tüm iyi [norse_explorer.GetFaith.GetAdherentNamePluralNoTooltip] ile yüzleşecekleri Ragnarok'u bekliyormuş."
  fp1_yearly.1081.desc.outro:0 "\n\nHava iyice kararmaya başlasa da, [norse_explorer.GetFirstNameNoTooltip] rica edersem daha fazla anlatmaya istekli gibi görünüyor."
  fp1_yearly.1081.a:0 "Büyüleyici! Lütfen tekrar anlatır mısınız?"
  fp1_yearly.1081.b:0 "Söylediklerin #EMP muhtemelen#! doğru değil, yaşlı [Select_CString(norse_explorer.IsFemale, 'kadın', 'adam')]."
  fp1_yearly.1081.c:0 "Uzak diyarların hikâyeleri her zaman huzur verir..."
-### TODO AGOT-CHANGED: fp1_yearly.1081.c.sunset_empire [AGOT: Perhaps we should stop ships sailing east... | TR: Belki de batıya giden seferleri durdurmalıyız...]
- fp1_yearly.1081.c.sunset_empire:0 "Perhaps we should stop ships sailing east..."
+
+ fp1_yearly.1081.c.sunset_empire:0 "Belki de batıya giden seferleri durdurmalıyız..."

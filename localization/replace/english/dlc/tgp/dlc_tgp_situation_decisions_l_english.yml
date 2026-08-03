@@ -83,23 +83,23 @@
  favor_advancement_movement_power_chaos_tt: "[GetTitleByKey('h_china').GetName] yeniden kurulursa, [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] [movement_power|E] [movement_power_i]#P 200#! artacak"
  favor_movement_decision: "Bir Hareketi Destekle"
  favor_movement_decision_desc: "Her [movement|E] [dynastic_cycle|E] üzerinde etkili olabilir ancak bazıları diğerlerinden daha büyük etkiye sahiptir. [ROOT.Char.GetTitleAsNameNoTooltip] olarak, [movements|E] içinden birine göksel lütfumu bahşedip onları Göklerin [Concept('favored_movement', 'Gözde Hareketi')|E] ilan edebilirim."
-### TODO AGOT-CHANGED: favor_movement_decision_tooltip [AGOT: [son_of_heaven|E] can set any [movement|E] as a [favored_movement|E]. | TR: [son_of_heaven|E], herhangi bir [Concept('movement', 'Hareketi')|E] [favored_movement|E] olarak belirleyebilir. Diğer [characters|E], kendi [Concept('movement', 'Hareketlerinin')|E] desteklenmesi için [GetActivityType('activity_debate').GetName] düzenleyip rekabet edebilir.]
- favor_movement_decision_tooltip: "[son_of_heaven|E] can set any [movement|E] as a [favored_movement|E]."
+
+ favor_movement_decision_tooltip:0 "[son_of_heaven|E], herhangi bir [Concept('movement', 'Hareketi')|E] [favored_movement|E] olarak belirleyebilir. Diğer [characters|E], kendi [Concept('movement', 'Hareketlerinin')|E] desteklenmesi için [GetActivityType('activity_debate').GetName] düzenleyip rekabet edebilir."
  SELECT_FAVOR_MOVEMENT: "Hareket Seç"
-### TODO AGOT-ONLY: favor_advancement_movement_desc [AGOT: ]
- favor_advancement_movement_desc: ""
+
+ favor_advancement_movement_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  favor_advancement_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]"
  favor_advancement_movement_tooltip: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] hareketini [favored_movement|E] olarak belirler"
-### TODO AGOT-ONLY: favor_expansion_movement_desc [AGOT: ]
- favor_expansion_movement_desc: ""
+
+ favor_expansion_movement_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  favor_expansion_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetNameNoTooltip]"
  favor_expansion_movement_tooltip: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] hareketini [favored_movement|E] olarak belirler"
-### TODO AGOT-ONLY: favor_conservative_movement_desc [AGOT: ]
- favor_conservative_movement_desc: ""
+
+ favor_conservative_movement_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  favor_conservative_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetNameNoTooltip]"
  favor_conservative_movement_tooltip: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName] hareketini [favored_movement|E] olarak belirler"
-### TODO AGOT-ONLY: favor_pro_hegemon_movement_desc [AGOT: ]
- favor_pro_hegemon_movement_desc: ""
+
+ favor_pro_hegemon_movement_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  favor_pro_hegemon_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetNameNoTooltip]"
  favor_pro_hegemon_movement_tooltip: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'pro_hegemon_movement' ).GetName] hareketini [favored_movement|E] olarak belirler"
  favor_movement_decision_confirm: "Gözde Hareket Olarak Seç"

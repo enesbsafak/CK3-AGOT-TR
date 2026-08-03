@@ -286,7 +286,7 @@
  meritocratic_government_filter_option_desc: "Sadece [meritocratic|E] [Concept( 'government', 'Yönetime' )|E] sahip karakterleri göster"
  japan_administrative_government_filter_option_desc: "Sadece [japan_administrative|E] [Concept( 'government', 'Yönetimine' )|E] sahip karakterleri göster"
  japan_feudal_government_filter_option_desc: "Sadece [japan_feudal|E] [Concept( 'government', 'Yönetimine' )|E] sahip karakterleri göster"
-### TODO AGOT-CHANGED: CHARACTER_FINDER_NAME [AGOT: [AGOTGetLongUINameNoTooltip(Character)|UV] | TR: [Character.GetUINameNoTooltip|U]]
- CHARACTER_FINDER_NAME: "[AGOTGetLongUINameNoTooltip(Character)|UV]"
-### TODO AGOT-CHANGED: CHARACTER_FINDER_NAME_RELATION [AGOT: [AGOTGetUINameNoTooltip(Character)|UV] • [Character.GetRelationToString( GetPlayer )] | TR: [Character.GetShortUINameNoTooltip|U] • [Character.GetRelationToString( GetPlayer )]]
- CHARACTER_FINDER_NAME_RELATION: "[AGOTGetUINameNoTooltip(Character)|UV] • [Character.GetRelationToString( GetPlayer )]"
+
+ CHARACTER_FINDER_NAME:0 "[Character.GetUINameNoTooltip|U]"
+
+ CHARACTER_FINDER_NAME_RELATION:0 "[Character.GetShortUINameNoTooltip|U] • [Character.GetRelationToString( GetPlayer )]"

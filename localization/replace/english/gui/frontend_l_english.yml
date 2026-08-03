@@ -20,8 +20,8 @@
  discord_tooltip: "#T Discord kanalımıza katılın!#!\nDiğer oyuncularla sohbet edin ve stratejilerinizi paylaşın.\n\n#P #I Katılmak için tıklayın#!#!"
  FRONTEND_NO_CONTINUE_TT:0 "Kayıtlı Oyun bulunmadı"
  FRONTEND_CONTINUE_TT:1 "#T Kayıtlı Oyundan Devam Et\n#!"[SaveGameItem.GetName]"\n[SaveGameItem.GetPlayerName|V]\n[SaveGameItem.GetTitleName|VU]\n[SaveGameItem.GetDate.GetString|V]\n[Select_CString( SaveGameItem.IsCloudSave, 'Bulut Kaydı', '' )]"
-### TODO AGOT-CHANGED: LOAD_SAVE_ITEM_DATE [AGOT: Date: [SaveGameItem.GetDate.GetStringShortNoYear], $YEAR_SEL_SGI$ $ERA_SEL_SGI$ | TR: Tarih: [SaveGameItem.GetDate.GetString]]
- LOAD_SAVE_ITEM_DATE:0 "Date: [SaveGameItem.GetDate.GetStringShortNoYear], $YEAR_SEL_SGI$ $ERA_SEL_SGI$"
+
+ LOAD_SAVE_ITEM_DATE:0 "Tarih: [SaveGameItem.GetDate.GetString]"
  LOAD_SAVE_ITEM_FILENAME:0 "Dosya adı: [SaveGameItem.GetName]"
  LOAD_SAVE_ITEM_SAVE_TIME:0 "Son Oynama: [SaveGameItem.GetLastPlayed]"
  FRONTEND_GOTO_LOBBY:0 "Çok Oyunculu Lobisi"
@@ -38,8 +38,8 @@
  FRONTEND_SELECT_GAME_TO_LOAD:0 "Yüklemek için bir kayıtlı oyun seçin"
  FRONTEND_END_GAME:0 "Oyunu Bitir"
  FRONTEND_LEAVE_GAME:0 "Oyundan Ayrıl"
-### TODO AGOT-ONLY: FRONTEND_SAVE_EXIT_TEXT [AGOT: ]
- FRONTEND_SAVE_EXIT_TEXT:0 ""
+
+ FRONTEND_SAVE_EXIT_TEXT:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  FRONTEND_END_GAME_TEXT:0 "Oyun Kurucusu olarak oyundan ayrılmanız durumunda Çok Oyunculu Oyun sona erer ve diğer oyuncular birlikte oynamaya devam edemez." #krutygetarts
  FRONTEND_LEAVE_GAME_TEXT:0 "Eğer ayrılırsanız Çok Oyunculu oyun siz olmadan devam edecek"
  FRONTEND_AUTO_SAVE:1 "Oyunu #high [GetAutosaveName]#! olarak kaydet"

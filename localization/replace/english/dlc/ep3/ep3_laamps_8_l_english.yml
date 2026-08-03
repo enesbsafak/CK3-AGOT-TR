@@ -10,22 +10,22 @@
  ep3_laamps.8010.a: "Gel bakalım."
  ep3_laamps.8020.t: "Hayatının Yolculuğu"
  ep3_laamps.8020.desc: "Gece için çekilirken, muhafızlarımın etrafından gelen bir kargaşa duyuyorum. Bu kargaşanın kaynağının [holder.GetFirstName] sarayının mensubu [wouldbe_companion.GetName] olduğunu görünce gözlerime inanamıyorum.\n\nKampın uzak ucundan bana sesleniyor.\n\n"Lütfen, beni dinleyin, [Select_CString(ROOT.Char.IsFemale, 'Leydim', 'Lordum' )]! Saray hayatı öyle sıkıcı ki bir gün daha buna katlanamam! Eğer beni kabul ederseniz, önünüzdeki sonsuz yolda size katılmak istiyorum.""
-### TODO AGOT-ONLY: ep3_laamps.8020.a [AGOT: ]
- ep3_laamps.8020.a: ""Come with me.""
-### TODO AGOT-ONLY: ep3_laamps.8020.a.2 [AGOT: ]
- ep3_laamps.8020.a.2: ""I'll take you on, but you'll have to work to impress.""
-### TODO AGOT-ONLY: ep3_laamps.8020.b [AGOT: ]
- ep3_laamps.8020.b: ""Run home to your master.""
+
+ ep3_laamps.8020.a:0 ""Benimle gel.""
+
+ ep3_laamps.8020.a.2:0 ""Seninle çalışırım, ama beni etkilemek için çaba göstermen gerekecek.""
+
+ ep3_laamps.8020.b:0 ""Koşup efendine git.""
  ep3_laamps.8030.t: "Nadir Bir Fırsat"
  ep3_laamps.8030.desc: "[armorer.Custom2('MyCharacterIntroduction', ROOT.Char)|U], elinde [artifact.GetName] ile kampta bana yaklaşıyor.\n\n"[Select_CString(ROOT.Char.IsFemale, 'Leydim', 'Lordum' )], [location.GetName] bu zamana kadar hiç görmediğim derecede zengin maden yataklarına ev sahipliği yapıyor. İzninizle, oraya giderek [artifact.GetNameNoTooltip] üzerinde çalışma yapmaktan memnuniyet duyarım.""
-### TODO AGOT-ONLY: ep3_laamps.8030.a [AGOT: ]
- ep3_laamps.8030.a: ""A great idea!""
+
+ ep3_laamps.8030.a:0 ""Harika bir fikir!""
  ep3_laamps.8030.a.win: "Eseriniz geliştirildi"
  ep3_laamps.8030.a.lose: "[armorer.GetFirstNameNoTooltip] başarısız oluyor"
-### TODO AGOT-ONLY: ep3_laamps.8030.b [AGOT: ]
- ep3_laamps.8030.b: ""Simply repair my gear.""
-### TODO AGOT-ONLY: ep3_laamps.8030.c [AGOT: ]
- ep3_laamps.8030.c: ""These minerals should be sold!""
+
+ ep3_laamps.8030.b:0 ""Sadece teçhizatımı tamir et.""
+
+ ep3_laamps.8030.c:0 ""Bu madenler satılmalı!""
  ep3_laamps.8040.t: "Uyuyan Köpekleri Rahatsız Etme"
  ep3_laamps.8040.desc: "Keskin bir çığlık beni uykumdan alıp gecenin karanlığına geri getiriyor. Sesin kaynağına gidiyorum ve ne göreyim, [frightened_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], çadırının önünde korku içinde titreyerek duruyor.\n\n"[ROOT.Char.GetFirstName|U]! İçeri girmeyin, yatağımda bir kurt var!\n"\n\nÇadırı açıyorum ve karnı yavru dolu bir kurt buluyorum. Bana hırlıyor ve homurdanıyor, şüphesiz ki doğmamış yavrularına ne yapabileceğimden korkuyor."
  ep3_laamps.8040.a: "Canavarı öldüreceğim."
@@ -49,8 +49,8 @@
  ep3_laamps.8060.a.win: "Bir kaynak buluyorsunuz"
  ep3_laamps.8060.a.lose: "Hiçbir şey bulamıyorsunuz"
  ep3_laamps.8060.b: "Eh, geri dönüşüme başlamanın zamanı geldi..."
-### TODO AGOT-ONLY: ep3_laamps.8060.c [AGOT: ]
- ep3_laamps.8060.c: ""[idiot.GetFirstNameNoTooltip|U]! You fix this!""
+
+ ep3_laamps.8060.c:0 ""[idiot.GetFirstNameNoTooltip|U]! Bunu sen düzelt!""
  ep3_laamps.8060.c.win: "[idiot.GetFirstNameNoTooltip|U] biraz su buluyor"
  ep3_laamps.8060.c.lose: "[idiot.GetFirstNameNoTooltip|U] başarısız oluyor"
  ep3_laamps.8060.d: "Yerel kervanları yağmalama zamanı."
@@ -67,18 +67,18 @@
  ep3_laamps.8080.t: "Garip Bir Denizci"
  ep3_laamps.8080.desc.intro_sea: "Gece için demirlemişken, yerel bir meyhaneye gittim. İçeride, [sailor.GetFirstNameNicknamed] isminde yaşlı bir denizci yüksek sesle hikâye üzerine hikâye anlatıyor.\n\n"
  ep3_laamps.8080.desc.intro: "Kendimi bir akşam yerel bir meyhanede buluyorum ve kısa süre sonra [sailor.GetFirstNameNicknamed] isminde yaşlı bir denizci ile sohbete dalıyorum, yüksek sesle hikâye üzerine hikâye anlatıyor.\n\n"
-### TODO AGOT-ONLY: ep3_laamps.8080.desc.outro [AGOT: ]
- ep3_laamps.8080.desc.outro: ""You tell a [ROOT.Char.Custom('WomanManOpposite')]'s tale, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [sailor.GetSheHe] laughs, cutting off another one of my stories. "Look at me ol' [sailor.Custom('GetInjuredBodyPart')]! Why, my ship once had a leak to plug, it did, and I'd naught else to plug it with but that!"\n\n"Those were the glory days, [ROOT.Char.Custom('FormOfAddressForLiege')], oh yes..." [sailor.GetSheHe] pines. "And I long to live 'em again...""
-### TODO AGOT-ONLY: ep3_laamps.8080.a [AGOT: ]
- ep3_laamps.8080.a: ""Ahhha! You are a genius!""
-### TODO AGOT-ONLY: ep3_laamps.8080.b [AGOT: ]
- ep3_laamps.8080.b: ""We have need of an old sailor around camp.""
-### TODO AGOT-ONLY: ep3_laamps.8080.c [AGOT: ]
- ep3_laamps.8080.c: ""You think #EMP that#! was a good story?""
+
+ ep3_laamps.8080.desc.outro:0 ""Bir [ROOT.Char.Custom('WomanManOpposite')] hikâyesi anlatıyorsun, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [sailor.GetSheHe] hikâyelerimden birini daha yarıda kesip gülüyor. "Şu yaşlı [sailor.Custom('GetInjuredBodyPart')]me bak! Gemimde bir sızıntıyı tıkamam gerekmişti ve onu tıkamak için o gün başka hiçbir şeyim yoktu, o organımdan başka!"\n\n"Onlar şanlı günlerdi, [ROOT.Char.Custom('FormOfAddressForLiege')], ah evet..." diye hasret çeker [sailor.GetSheHe]. "Ve onları yeniden yaşamayı öyle istiyorum ki...""
+
+ ep3_laamps.8080.a:0 ""Ahhha! Sen bir dahisin!""
+
+ ep3_laamps.8080.b:0 ""Kampta yaşlı bir denizciye ihtiyacımız var.""
+
+ ep3_laamps.8080.c:0 ""#EMP O#! mu iyi bir hikâyeydi sence?""
  ep3_laamps.8080.c.win: "Hikâyeleriniz etkileyici"
  ep3_laamps.8080.c.lose: "Hikâyeleriniz etkileyicilikten uzak"
-### TODO AGOT-ONLY: ep3_laamps.8080.d [AGOT: ]
- ep3_laamps.8080.d: ""Get away from me.""
+
+ ep3_laamps.8080.d:0 ""Uzaklaş benden.""
  ep3_laamps.8090.t: "Uzak Kıyılar"
  ep3_laamps.8090.desc.intro: "Bu garip diyarın pazarında dolaşıyorum. Satıcılar yabancı bir dilde sesleniyor ve kendimi yabancı kokuların denizinde kaybolmuş hissediyorum ama tuhaf bir şekilde tüm bunlar evimde gibi hissettiriyor.\n\n"
  ep3_laamps.8090.desc.world_europe: "Yalnız Avrupa'da taze lavantanın kokusunu alabilir, eski Roma'nın kalıntıları üzerinde güneşin batışını izleyebilir, bir kilise korosunun coşkulu seslerini dinleyebilir veya dost bir yabancının şöminesinde ısınarak kışı geçirebiliriz."
@@ -123,18 +123,18 @@
  laamp_legitimist_support_contract_desc: "Haklı iddianız hakkındaki haberler her yerde yayıldı ve desteğimizi tartışmak için bir fırsat yarattı."
  laamp_legitimist_support_contract_request: "Sizi karşımıza çıkmanız için davet ediyoruz. Size haklı görevinizde nasıl yardımcı olabileceğimizi konuşacağız. Size sağlayabileceğimiz muazzam destek konusunda bir anlayışa varacağımızdan eminiz. Gelecekte tahsil edeceğimiz küçük bir ödemeden de konuşacağız."
  ep3_laamps.8101.t: "$laamp_legitimist_support_contract$ — Çok Fazla İddia"
-### TODO AGOT-ONLY: ep3_laamps.8101.desc [AGOT: ]
- ep3_laamps.8101.desc: ""Welcome, ah welcome. So glad you came," says [petitioned_ruler.GetName], as I am ushered in secret in front of [petitioned_ruler.GetHerHim].\n\n"We have much to discuss. But first, let us settle the matter of selection of your efforts. You seem to have multiple claims on various titles, and while we wish to see you take them all eventually, one must start with a clear goal, lest their efforts go to waste chasing too many tails on the proverbial birds.\n\nI hear that [title_2.GetName] is quite nice this time of year, but truly, the choice is yours. Which one will it be, hm?""
+
+ ep3_laamps.8101.desc:0 ""Hoş geldin, ah hoş geldin. Geldiğine çok sevindim," der [petitioned_ruler.GetName], gizlice [petitioned_ruler.GetHerHim]in önüne çıkarıldığımda.\n\n"Konuşacak çok şeyimiz var. Ama önce, çabalarınızın yönünü seçme meselesini çözelim. Görünüşe göre çeşitli unvanlar üzerinde birden fazla iddianız var ve hepsini eninde sonunda almanızı umsak da, kişi net bir hedefle başlamalı; yoksa çabaları, deyim yerindeyse, bir sürü kuşun peşinde koşarak heba olur.\n\n[title_2.GetName]'in bu mevsimde oldukça güzel olduğunu duyuyorum, ama gerçekten, seçim sizin. Hangisi olacak, hm?""
  ep3_laamps.8101.a: "[title_1.GetName]"
  ep3_laamps.8101.a.desc: "Bu seçim daha sonra değiştirilemez. Diğer destekçilerle yapılan müzakereler de bu unvanı hedefleyecektir."
  ep3_laamps.8101.b: "[title_2.GetName]"
  ep3_laamps.8101.c: "[title_3.GetName]"
  ep3_laamps.8101.d: "[title_4.GetName]"
  ep3_laamps.8102.t: "$laamp_legitimist_support_contract$ — Ön Söz"
-### TODO AGOT-ONLY: ep3_laamps.8102.desc [AGOT: ]
- ep3_laamps.8102.desc: ""We can offer you gold and our finest warriors, in exchange for, let us say, half the yearly income of [claimed_title.GetName]." [petitioned_ruler.GetName] clearly does not want to waste time.\n\n"We cannot wait to see the head of [claimed_title.GetHolder.GetName] on the spear. Oh, and please do not bore us too much while you inevitably ask for more, there is a limit to our leniency."\n\n#italic You will have [ROOT.Var('legitimist_turns').GetValue] turns to negotiate the details of the deal."
-### TODO AGOT-ONLY: ep3_laamps.8102.a [AGOT: ]
- ep3_laamps.8102.a: ""The most important thing, Your Grace...""
+
+ ep3_laamps.8102.desc:0 ""Size altın ve en iyi savaşçılarımızı teklif edebiliriz; karşılığında da, diyelim ki [claimed_title.GetName]'in yıllık gelirinin yarısı." [petitioned_ruler.GetName] belli ki vakit kaybetmek istemiyor.\n\n"[claimed_title.GetHolder.GetName]'in kafasını mızrağın ucunda görmek için sabırsızlanıyoruz. Ah, ve kaçınılmaz olarak daha fazlasını istediğinizde bizi fazla sıkmayın; hoşgörümüzün bir sınırı var."\n\n#italic Anlaşmanın ayrıntılarını müzakere etmek için [ROOT.Var('legitimist_turns').GetValue] hakkınız olacak."
+
+ ep3_laamps.8102.a:0 ""En önemli şey, Majesteleri...""
  ep3_laamps.8102.a.desc: "Müzakerelere daha fazlasını istemeden başlayacaksınız"
  ep3_laamps.8102.b: "Onu parlaklığınızla büyüleyin."
  ep3_laamps.8102.b.desc: "Müzakerelere artan destek seviyesiyle başlayacaksınız"
@@ -142,8 +142,8 @@
  ep3_laamps.8102.c.desc: "[petitioned_ruler.GetName] ile müzakere etmek için daha fazla tur alacaksınız"
  ep3_laamps.8102.d: "Arkadaşlar arasında zaman asla boşa gitmez!"
  ep3_laamps.8102.d.desc: "$ep3_laamps.8102.c.desc$"
-### TODO AGOT-ONLY: ep3_laamps.8102.e [AGOT: ]
- ep3_laamps.8102.e: ""Let us settle an old debt first.""
+
+ ep3_laamps.8102.e:0 ""Önce eski bir borcu ödeyelim.""
  ep3_laamps.8102.e.desc: "$ep3_laamps.8102.b.desc$"
  ep3_laamps.8102.b.success: "Siz [petitioned_ruler.GetShortUIName] adlı kişiyi ikna ediyorsunuz"
  ep3_laamps.8102.b.failure: "Bir tur müzakere kaybediyorsunuz"
@@ -151,14 +151,14 @@
  ep3_laamps.8103.intro_1: "[petitioned_ruler.GetName], sandalyesinde kıpırdanıyor, bakışı sizi delip geçiyor.\n\n"
  ep3_laamps.8103.intro_2: "Hava gergin, zira mesele ciddi. [petitioned_ruler.GetName] duruşuyla bu meselenin onun için ne kadar önemli olduğunu gösteriyor.\n\n"
  ep3_laamps.8103.intro_3: "Mumlar değiştirildi, içecekler tazelendi. [petitioned_ruler.GetName] için hizmet edenler, üstlerinin konuşması için gereksiz bir söz söylemeden ayrıldı.\n\n"
-### TODO AGOT-ONLY: ep3_laamps.8103.no_more_turns_flavor [AGOT: ]
- ep3_laamps.8103.no_more_turns_flavor: ""We have talked enough" — [petitioned_ruler.GetSheHe] says sternly. — "This is our final offer. You can show your wisdom by accepting it.""
-### TODO AGOT-ONLY: ep3_laamps.8103.mid_1 [AGOT: ]
- ep3_laamps.8103.mid_1: ""We see this is as a foundation for the bright future ahead of us. We reckon you have the capacity to deliver, not disappoint. And we do not make mistakes in such judgement.""
-### TODO AGOT-ONLY: ep3_laamps.8103.mid_2 [AGOT: ]
- ep3_laamps.8103.mid_2: ""Yes, yes, this could work. With [petitioned_ruler.GetFaith.HighGodNamePossessive] grace, it will work! How come you did not come to us sooner? Surely you must work on your timing, if you are to succeed.""
-### TODO AGOT-ONLY: ep3_laamps.8103.mid_3 [AGOT: ]
- ep3_laamps.8103.mid_3: ""Ha! I wish we could see the look on [claimed_title.GetHolder.GetName] face when you stroll into [capital_barony.GetNameNoTier] with our troops. Please be so kind to have someone write down every detail.""
+
+ ep3_laamps.8103.no_more_turns_flavor:0 ""Yeterince konuştuk" — der [petitioned_ruler.GetSheHe] sertçe. — "Bu son teklifimiz. Kabul ederek bilgeliğinizi gösterebilirsiniz.""
+
+ ep3_laamps.8103.mid_1:0 ""Bunu önümüzdeki parlak gelecek için bir temel olarak görüyoruz. Teslim edebilecek kapasitede olduğunuzu düşünüyoruz, hayal kırıklığına uğratmayacaksınız. Biz de böyle yargılarda hata yapmayız.""
+
+ ep3_laamps.8103.mid_2:0 ""Evet, evet, bu işe yarayabilir. [petitioned_ruler.GetFaith.HighGodNamePossessive] lütfuyla işe yarayacak! Neden bize daha önce gelmediniz? Başarılı olacaksanız, zamanlamanız üzerinde çalışmalısınız kesin.""
+
+ ep3_laamps.8103.mid_3:0 ""Ha! Askerlerimizle [capital_barony.GetNameNoTier]'e yürüdüğünüzde [claimed_title.GetHolder.GetName]'in yüzünün ifadesini görmeyi çok isterdim. Lütfen biri her ayrıntıyı yazsın.""
  ep3_laamp.8103.turns_left: "\n\n#italic Müzakerelerde #color_yellow [ROOT.Var('legitimist_turns').GetValue] #!turunuz kaldı"
  ep3_laamps.8103.support_6: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip], #EMP #color_yellow Devasa #!destek sözü verdi - #color_yellow 1800 altın ve 3000 elit asker.#!"
  ep3_laamps.8103.support_5: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip], #EMP #color_yellow Müthiş #!destek sözü verdi - #color_yellow 1500 altın ve 2500 elit asker.#!"
@@ -207,10 +207,10 @@
  ep3_laamps.8107.a.desc: "[claimed_title.GetName] üzerindeki iddianızı güvence altına alamadınız"
  ep3_laamps.8108.t: "$laamp_legitimist_support_contract$ — Bedel"
  ep3_laamps.8108.desc: "[claimed_title.GetName] topraklarına zaferle varışım ne kadar sevinçliydi! Düşmanca yolları aşarak, her zaman yabancı topraklarda misafir olarak, evsiz, haklı iddiam olmadan, tahtım olmadan uzun zaman geçirdikten sonra. Sonunda, her şey başından beri olması gerektiği gibi. Güçlü bir [ROOT.Char.GetTitleAsNameNoTooltip] olacağım.\n\nAncak, her gülün dikeni vardır. [petitioned_ruler.GetName], bunu başarmama büyük ölçüde yardımcı olduğundan yıllar önce anlaştığımız gibi ödeme yapmamı talep ediyor. Şüphesiz, bir [ROOT.Char.GetHouse.GetNameNoTooltip], borçlarını her zaman öder?"
-### TODO AGOT-CHANGED: ep3_laamps.8108.a [AGOT: [Glossary( 'Rāelakson kīvȳti bēvilis', 'PACTA_SUNT_SERVANTA_GLOSS' )] | TR: [Glossary('Pacta Sunt Servanda', 'PACTA_SUNT_SERVANTA_GLOSS')]]
-ep3_laamps.8108.a: "[Glossary( 'Rāelakson kīvȳti bēvilis', 'PACTA_SUNT_SERVANTA_GLOSS' )]"
-### TODO AGOT-CHANGED: PACTA_SUNT_SERVANTA_GLOSS [AGOT: Valyrian for | TR: ]
-PACTA_SUNT_SERVANTA_GLOSS: "Valyrian for "Agreements must be kept""
+
+ep3_laamps.8108.a:0 "[Glossary('Pacta Sunt Servanda', 'PACTA_SUNT_SERVANTA_GLOSS')]"
+
+PACTA_SUNT_SERVANTA_GLOSS:0 ""
  ep3_laamps.8108.payments_left: "#color_yellow [petitioned_ruler.MakeScope.Var('legitimist_obligations_left').GetValue] Ödeme #!kaldı"
  ep3_laamps.8108.no_payments_left: "Bu, [petitioned_ruler.GetName] için yapacağımız son ödemeniz."
  ep3_laamps.8108.b: "Ödeyeceğim ama şimdi değil."
@@ -244,14 +244,14 @@ PACTA_SUNT_SERVANTA_GLOSS: "Valyrian for "Agreements must be kept""
  request_laamp_legitimist_have_claim_on_target: "Bu karakterin [Concept( 'realm', 'Ülkesinde' )|E] bir [Concept( 'claim', 'Hak İddianız' )|E] var"
  YOU_HAVE_HOOK_REASON: "[recipient.GetShortUIName|U] üzerinde bir kozunuz var: $VALUE|=+0$"
  ep3_laamps.8200.t: "Kampta Yeni Bir Yüz"
-### TODO AGOT-CHANGED: ep3_laamps.8200.desc_1 [AGOT: We are always on the move laden with our baggage, hastily unpacking when we stop, and stuffing it away moments later. Tents, pots, pans, spare weapons, a few precious items, and the food that sustains us on our endless travails.\n\nAs I try to take measure of the logistics of our next move, a towering passerby effortlessly raises one of our carts. One of my followers, clearly amused by this feat of strength, runs to me and pleads:\n\n | TR: Bir sonraki hareketimizin lojistiğini ölçmeye çalışırken, yoldan geçen devasa biri arabalarımızdan birini zahmetsizce kaldırıyor. Takipçilerimden biri, bu güç gösterisiyle açıkça eğlenmiş, bana koşuyor ve yalvarıyor:\n\n]
-ep3_laamps.8200.desc_1: "We are always on the move laden with our baggage, hastily unpacking when we stop, and stuffing it away moments later. Tents, pots, pans, spare weapons, a few precious items, and the food that sustains us on our endless travails.\n\nAs I try to take measure of the logistics of our next move, a towering passerby effortlessly raises one of our carts. One of my followers, clearly amused by this feat of strength, runs to me and pleads:\n\n"[ROOT.Char.GetTitleAsName], [new_person.GetSheHe] raised the whole cart over [new_person.GetHerHis] head, have you seen this! Can we keep [new_person.GetHerHim]? [new_person.GetSheHe|U] does not even need a weapon, [new_person.GetSheHe] can simply grab and throw our enemies! And [new_person.GetSheHe] already promised to carry my pack."\n\nSuch a [new_person.GetWomanMan] could prove [new_person.GetHerselfHimself] useful, carrying my pack as well. [new_person.GetSheHe|U] will eat a lot of provisions though."
-### TODO AGOT-CHANGED: ep3_laamps.8200.desc_2 [AGOT: The night sky fills my camp with dread, lightened only by the flickering campfire. In glimpses, I see my followers' somber, tired faces. The lust of adventuring meets the grim reality tonight, the reality of waterlogged boots, eating last week's leftovers, and sleep interrupted by animals constantly rustling in groves.\n\nA single laugh breaks the gloom. Then another, and I see my stern followers turned into a gaggle of laughing children. Mirth in such darkness is a rare thing. I seek the source of the commotion, and soon [new_person.GetSheHe] appears in front of me, bowing deeply while still dancing, and speaks:\n\n | TR: Gece gökyüzü kampımı korkuyla dolduruyor, sadece titreyen kamp ateşiyle aydınlanıyor. Gözümü açtığım anlarda takipçilerimin kasvetli, yorgun yüzlerini görüyorum. Macera arzusu bu gece acı gerçekle buluşuyor, suyla dolu pabuçların, geçen haftanın artıklarını yemenin ve ormanda sürekli hışırtı yapan hayvanlar yüzünden uykumuz bölünüyor.\n\nTek bir kahkaha karanlığı kırıyor. Sonra bir tane daha ve ciddi takipçilerimi kahkaha atan çocuklara dönmüş görüyorum. Böyle bir karanlıkta neşe nadir bir şeydir. Kargaşanın kaynağını arıyorum ve biri önümde saygısını göstermek için eğiliyor ve dansına devam ederek konuşuyor:\n\n]
-ep3_laamps.8200.desc_2: "The night sky fills my camp with dread, lightened only by the flickering campfire. In glimpses, I see my followers' somber, tired faces. The lust of adventuring meets the grim reality tonight, the reality of waterlogged boots, eating last week's leftovers, and sleep interrupted by animals constantly rustling in groves.\n\nA single laugh breaks the gloom. Then another, and I see my stern followers turned into a gaggle of laughing children. Mirth in such darkness is a rare thing. I seek the source of the commotion, and soon [new_person.GetSheHe] appears in front of me, bowing deeply while still dancing, and speaks:\n\n"[ROOT.Char.GetNameNoTooltip], we finally meet! Allow me to introduce myself, I am [new_person.GetName], a jester extraordinaire. I once performed for the great [location.GetCounty.GetTitle.GetHolder.GetTopLiege.GetShortUIName]! And I made [location.GetCounty.GetTitle.GetHolder.GetTopLiege.GetHerHim] laugh, right when they poured buckets of water on me! Alas, the strands of fate have torn me away from my troupe. Now, I offer myself to you and your humor."
-### TODO AGOT-CHANGED: ep3_laamps.8200.desc_3 [AGOT: We have been staying in the [location.GetCounty.GetCulture.GetName] [location.GetTerrain.GetNameNoTooltip|l] of [location.GetCounty.GetTitle.GetNameNoTier] for a while now. The locals have been frequently visiting our camp, to trade, or simply to hang around. Recently I saw a [new_person.GetWomanMan] lingering around for longer than the rest. Almost as if looking for an excuse to not go back to [new_person.GetHerHis] village, to stay with us and travel to new lands.\n\nThere is always work for an able bodied soul in my camp, but should we invite every stray puppy? Today, [new_person.GetSheHe] mustered enough courage to make a proposition, standing in front of me with these prepared words:\n\n | TR: Bir süredir [location.county.GetNameNoTier] topraklarının [location.county.GetCulture.GetName] kısımlarında kalıyoruz. Yerel halk kampımızı sık sık ticaret yapmak ya da sadece takılmak için ziyaret ediyor. Son zamanlarda, diğerlerinden daha uzun süre oyalanan birini gördüm. Sanki köyüne geri dönmemek için bir bahane arıyor, bizimle kalıp yeni topraklara seyahat etmek istiyor gibiydi.\n\nKampımda çalışabilecek kuvvete sahip biri için her zaman iş vardır ama her başıboş köpeği davet etmeli miyiz? Bugün, yeterli cesareti topladı ve hazırladığı bu sözlerle önümde durdu:\n\n]
-ep3_laamps.8200.desc_3: "We have been staying in the [location.GetCounty.GetCulture.GetName] [location.GetTerrain.GetNameNoTooltip|l] of [location.GetCounty.GetTitle.GetNameNoTier] for a while now. The locals have been frequently visiting our camp, to trade, or simply to hang around. Recently I saw a [new_person.GetWomanMan] lingering around for longer than the rest. Almost as if looking for an excuse to not go back to [new_person.GetHerHis] village, to stay with us and travel to new lands.\n\nThere is always work for an able bodied soul in my camp, but should we invite every stray puppy? Today, [new_person.GetSheHe] mustered enough courage to make a proposition, standing in front of me with these prepared words:\n\n"There have been lean years and fat years here in [location.GetCounty.GetTitle.GetNameNoTier]. And I reckon, the lean years are coming back. The signs are there for those who can see. Please, I do not wish to die where I was born, to stay here, any longer. I humbly ask, allow me to join your band, my [ROOT.Char.GetLadyLord|U].""
-### TODO AGOT-CHANGED: ep3_laamps.8200.a [AGOT: Welcome, [new_person.GetFirstName]! | TR: Hoş geldin, [new_person.GetFirstNameNoTooltip]!]
-ep3_laamps.8200.a: "Welcome, [new_person.GetFirstName]!"
+
+ep3_laamps.8200.desc_1:0 "Bir sonraki hareketimizin lojistiğini ölçmeye çalışırken, yoldan geçen devasa biri arabalarımızdan birini zahmetsizce kaldırıyor. Takipçilerimden biri, bu güç gösterisiyle açıkça eğlenmiş, bana koşuyor ve yalvarıyor:\n\n"
+
+ep3_laamps.8200.desc_2:0 "Gece gökyüzü kampımı korkuyla dolduruyor, sadece titreyen kamp ateşiyle aydınlanıyor. Gözümü açtığım anlarda takipçilerimin kasvetli, yorgun yüzlerini görüyorum. Macera arzusu bu gece acı gerçekle buluşuyor, suyla dolu pabuçların, geçen haftanın artıklarını yemenin ve ormanda sürekli hışırtı yapan hayvanlar yüzünden uykumuz bölünüyor.\n\nTek bir kahkaha karanlığı kırıyor. Sonra bir tane daha ve ciddi takipçilerimi kahkaha atan çocuklara dönmüş görüyorum. Böyle bir karanlıkta neşe nadir bir şeydir. Kargaşanın kaynağını arıyorum ve biri önümde saygısını göstermek için eğiliyor ve dansına devam ederek konuşuyor:\n\n"
+
+ep3_laamps.8200.desc_3:0 "Bir süredir [location.county.GetNameNoTier] topraklarının [location.county.GetCulture.GetName] kısımlarında kalıyoruz. Yerel halk kampımızı sık sık ticaret yapmak ya da sadece takılmak için ziyaret ediyor. Son zamanlarda, diğerlerinden daha uzun süre oyalanan birini gördüm. Sanki köyüne geri dönmemek için bir bahane arıyor, bizimle kalıp yeni topraklara seyahat etmek istiyor gibiydi.\n\nKampımda çalışabilecek kuvvete sahip biri için her zaman iş vardır ama her başıboş köpeği davet etmeli miyiz? Bugün, yeterli cesareti topladı ve hazırladığı bu sözlerle önümde durdu:\n\n"
+
+ep3_laamps.8200.a:0 "Hoş geldin, [new_person.GetFirstNameNoTooltip]!"
  ep3_laamps.8200.b: "Lütfen uzaklaş."
  ep3_laamps.8200.c: "Git ve herkese söyle: Uzak durun!"
  ep3_laamps.8200.c.tt: "Önümüzdeki 20 yıl boyunca kimse kampınıza rastgele katılmaya çalışmayacak"

@@ -3,8 +3,8 @@
  stress_trait_coping_decisions.1001.desc:0 "Bir kadeh daha! Omuzlarım biraz daha gevşiyor. Hayatımı tam olarak #EMP böyle#! geçirmeliyim. Ayıklık acıdan başka bir şey değil."
  stress_trait_coping_decisions.1001.a:0 "Ben #EMP *hıçk*#! şimdiden daha iyi hissetmeye başladım!"
  stress_trait_coping_decisions.1002.t:0 "Stresle Mücadele: Kadeh Arkadaşı!"
-### TODO AGOT-ONLY: stress_trait_coping_decisions.1002.desc [AGOT: ]
- stress_trait_coping_decisions.1002.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip]! Hello!"\n\nSuddenly my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fellow_drunkard'))], [fellow_drunkard.GetTitledFirstName], sits down beside me, cup in hand. Apparently [fellow_drunkard.GetSheHe] has also taken to the tavern to relax, and we spend the rest of the night drinking together.\n\nI haven't felt so relaxed in #EMP months!#!"
+
+ stress_trait_coping_decisions.1002.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip]! Merhaba!"\n\nAniden [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fellow_drunkard'))], [fellow_drunkard.GetTitledFirstName], elinde kadehle yanıma oturuyor. Görünüşe göre [fellow_drunkard.GetSheHe] de meyhaneye dinlenmeye gelmiş ve gecenin geri kalanını birlikte içerek geçiriyoruz.\n\n#EMP Aylardır#! bu kadar rahatlamamıştım!""
  stress_trait_coping_decisions.1002.a:0 "Şerefe!"
  stress_trait_coping_decisions.1003.t:0 "Kadeh Arkadaşı!"
  stress_trait_coping_decisions.1003.desc:0 "Meyhanede tek başına içerken bir de ne göreyim, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('original_drunkard'))] [original_drunkard.GetTitledFirstName] karşı masada efkârlı bir şekilde oturuyor.\n\nHemen yanına gittim ve gecenin geri kalanını birlikte içerek geçirdik. Güzel vakit geçirmesini bilen biriymiş!"
@@ -12,8 +12,8 @@
  stress_trait_coping_decisions.1004.desc:0 "Uyandım, başım yumuşak bir yastığın üstünde. Yanımda sıcak bedenler. Müthiş bir gece geçirmiş olmalıyım ki neredeyse hiçbir şey hatırla–\n\n#EMP Mee!#!\n\n... Hmm. Gözlerimi açtığımda kısık gözler ve #EMP beyaz#!, #EMP tüylü#! bir kafa görüyorum. Bir anda yastığım ayağa kalkıp yürümeye başlıyor, diğer yatak arkadaşlarım da onu takip ediyor. Samanlıkta yalnız başıma kalıyorum."
  stress_trait_coping_decisions.1004.a:0 "İyi uyudum ama!"
  stress_trait_coping_decisions.1501.t:0 "Stresle Mücadele: Yatıştırıcı Atıştırma"
-### TODO AGOT-CHANGED: stress_trait_coping_decisions.1501.desc [AGOT: I recline in my seat as I casually reach for another sip, the taste of the poppy to my tongue, a pleasing fog slowly washing my troubles away.\n\nI have not been this calm in #EMP weeks#!. Just... being here. That's enough. | TR: Koltuğuma kurulmuş hâlde bir kek daha almak için uzanıyorum, dilime güzel bir tat geliyor, tüm endişelerim âdeta bir sisin içinde kayboluyor.\n\n#EMP Haftalardır#! bu kadar rahatlamamıştım. Sadece... bir koltuk ve haşişli keklerle dolu bir kâse. Başka hiçbir şeye gerek yok.]
- stress_trait_coping_decisions.1501.desc:1 "I recline in my seat as I casually reach for another sip, the taste of the poppy to my tongue, a pleasing fog slowly washing my troubles away.\n\nI have not been this calm in #EMP weeks#!. Just... being here. That's enough."
+
+ stress_trait_coping_decisions.1501.desc:0 "Koltuğuma kurulmuş hâlde bir kek daha almak için uzanıyorum, dilime güzel bir tat geliyor, tüm endişelerim âdeta bir sisin içinde kayboluyor.\n\n#EMP Haftalardır#! bu kadar rahatlamamıştım. Sadece... bir koltuk ve haşişli keklerle dolu bir kâse. Başka hiçbir şeye gerek yok."
  stress_trait_coping_decisions.1501.a:0 "Tek ihtiyacım olan bu."
  stress_trait_coping_decisions.2001.t:0 "Stresle Mücadele: Sefahat"
  stress_trait_coping_decisions.2001.desc_woman:0 "Kollar ve bacaklar arasında uzanıyorum, üstümde [ROOT.Char.Custom('AttractionWomanManIndef')], tüm stresimi alıp götürüyor ve büyük bir rahatlama yaşıyorum."
@@ -38,8 +38,8 @@
  stress_trait_coping_decisions.2501.desc: "Yavaşça sessiz [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'çadırıma', 'odama')] geçtiğimde, sonunda kendimi tamamen yalnız buluyorum. Derin bir nefes alıyorum ve veriyorum.\n\nHizmetçilere ne olursa olsun beni rahatsız etmemeleri emredildi. Omuzlarım gevşemeye başladıkça biliyorum ki ihtiyacım olan şey tam olarak bu."
  stress_trait_coping_decisions.2501.a:0 "İşte gerçek huzur!"
  stress_trait_coping_decisions.3001.t:0 "Stresle Mücadele: At Gitsin"
-### TODO AGOT-ONLY: stress_trait_coping_decisions.3001.desc_vassal [AGOT: ]
- stress_trait_coping_decisions.3001.desc_vassal:1 ""[vassal.GetTitledFirstName], my dear [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))]!" I smile [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"Were you born such [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], or did that develop later in life?""
+
+ stress_trait_coping_decisions.3001.desc_vassal:0 ""[vassal.GetTitledFirstName], sevgili [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))]!" [ROOT.Char.Custom('quirk_neg_adverb')] gülümsüyorum.\n\n"[vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)] olarak mı doğdun, yoksa bu sonradan mı gelişti?""
  stress_trait_coping_decisions.3001.desc_has_vassals:0 "Vasallar yerini aldıktan sonra [vassal.GetTitledFirstName] söze giriyor. [ROOT.Char.Custom('quirk_neg_adverb')|U] bir şekilde gülümsüyorum.\n\n"[vassal.GetTitledFirstNameNoTooltip], cümleni böldüğüm için kusura bakma, bir şey merak ediyorum. Acaba [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] bir [vassal.Custom2('InsultNoun', ROOT.Char)] olarak mı dünyaya geldin? Ve sen [vassal_2.GetTitledFirstName], [vassal_2.Custom2('InsultNoun', ROOT.Char)] olarak mı doğdunuz yoksa bu özelliği hayatta sonradan mı edindiniz?""
  stress_trait_coping_decisions.3001.desc_has_target_character: "Herkes yerini aldıktan sonra [target_character.GetTitledFirstName] söze giriyor. [ROOT.Char.Custom('quirk_neg_adverb')|U] bir şekilde gülümsüyorum.\n\n"[target_character.GetTitledFirstNameNoTooltip], cümleni böldüğüm için kusura bakma, bir şey merak ediyorum. Neden sürekli [target_character.Custom2('InsultAdjectiveArticle', ROOT.Char)] bir [target_character.Custom2('InsultNoun', ROOT.Char)] gibi davranıyorsun?""
  stress_trait_coping_decisions.3001.desc:0 "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Kampın', 'Sarayın')] toplanmasıyla birlikte [ROOT.Char.Custom('quirk_neg_adverb')] bir şekilde gülümsüyorum.\n\n"Şşş sen, oradaki! Bir hödük olarak mı doğdun yoksa sonradan mı hödükleştin?""
@@ -55,12 +55,12 @@
  stress_trait_coping_decisions.4501.desc:0 "[ROOT.Char.GetFaith.HouseOfWorship|U] binasından hafiflemiş cüzdanım ve daha da hafiflemiş kalbimle çıkıyorum.\n\nEttiğim yardımların ihtiyaç sahiplerine ulaştığı düşüncesi zihnimi rahatlatmamın güzel bir yolu."
  stress_trait_coping_decisions.4501.a:0 "[ROOT.Char.GetFaith.HighGodName|U] büyüktür!"
  stress_trait_coping_decisions.5001.t:0 "Stresle Mücadele: İtiraf"
-### TODO AGOT-ONLY: stress_trait_coping_decisions.5001.desc_opening [AGOT: ]
- stress_trait_coping_decisions.5001.desc_opening:0 ""I have gathered the [ROOT.Char.Custom('GetCourt')|l] today because I have something to confess."
+
+ stress_trait_coping_decisions.5001.desc_opening:0 ""[ROOT.Char.Custom('GetCourt')|l]'ü bugün topladım çünkü itiraf edeceğim bir şey var.""
  stress_trait_coping_decisions.5001.desc_secret:0 "Ben... ben [secret.Custom('SecretDescriptionFirstPerson')].""
  stress_trait_coping_decisions.5001.desc_sin:0 "Ben... ben ne yaparsam yapayım [ROOT.Char.Custom('SinfulTrait')|l] yanıma söz geçiremiyorum.""
-### TODO AGOT-ONLY: stress_trait_coping_decisions.5001.desc [AGOT: ]
- stress_trait_coping_decisions.5001.desc:0 ""I... I have been plagued by sinful thoughts lately. Hear me out...""
+
+ stress_trait_coping_decisions.5001.desc:0 ""Ben... son zamanlarda günahkâr düşüncelerle boğuşuyorum. Beni dinleyin...""
  stress_trait_coping_decisions.5001.desc_ending:0 "\n\nKalabalıktan çıkan hayret uğultusu rahatlamamın önüne geçmiyor."
  stress_trait_coping_decisions.5001.a:0 "Söyledim de rahatladım!"
  stress_trait_coping_decisions.5002.desc:0 ""Ben... ben [secret.Custom('SecretDescriptionFirstPerson')]. Yok, bir dakika hata oldu. Ben değil, [secret_character.GetTitledFirstName] öyle!"\n\nSalonda uğultular yükselirken odanın köşesinde [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('secret_character'))] öfkeli gözlerle bana bakıyor."
@@ -74,8 +74,8 @@
  stress_trait_coping_decisions.5502.a:0 "Üst kattakileri de tatlı niyetine yerim!"
  stress_trait_coping_decisions.5502.a_landless: "İşte rahatlık #EMP budur#!."
  stress_trait_coping_decisions.6001.t:0 "Stresle Mücadele: İştahsızlık"
-### TODO AGOT-ONLY: stress_trait_coping_decisions.6001.desc [AGOT: ]
- stress_trait_coping_decisions.6001.desc:0 ""Inform the cook that I will not, for the foreseeable future, partake in the meals."\n\nAs soon as the words have left my mouth I feel lighter – no more distractions, no more needing choke down food I can barely stand! Now I can focus on what is important."
+
+ stress_trait_coping_decisions.6001.desc:0 ""Aşçıya bildirin ki öngörülebilir gelecekte yemeklere katılmayacağım."\n\nBu sözler ağzımdan çıkar çıkmaz kendimi daha hafif hissediyorum – daha fazla dikkat dağıtıcı şey yok, zor bela yutmak zorunda kaldığım yiyecekler yok! Artık önemli olana odaklanabilirim.""
  stress_trait_coping_decisions.6001.a:0 "Her şey yoluna giriyor."
  stress_trait_coping_decisions.6501.t:0 "Stresle Mücadele: Akıcı Mürekkep"
  stress_trait_coping_decisions.6501.desc:0 "Kalemimi alıp günlüğümü açıyorum.\n\nKâğıda döktüğüm her cümle omuzlarımdaki yükü hafifletiyor. Beni bu kadar rahatlatabilen başka bir şey yok!"
@@ -104,8 +104,8 @@
  stress_trait_coping_decisions.7503.a.tt:0 "Kaba kuvvetle onu yenebileceğinizi düşünüyorsunuz"
  stress_trait_coping_decisions.7503.b:0 "Onunla talim düellosu yapmalıyım."
  stress_trait_coping_decisions.7503.b.tt:0 "Dövüş becerisi ve askeriye bilgisiyle onu yenebileceğinizi düşünüyorsunuz"
-### TODO AGOT-ONLY: stress_trait_coping_decisions.7503.c [AGOT: ]
- stress_trait_coping_decisions.7503.c:0 ""How about a foot race?""
+
+ stress_trait_coping_decisions.7503.c:0 ""Bir koşu yarışına ne dersin?""
  stress_trait_coping_decisions.7503.c.tt:0 "Dövüş becerisi ve sağlıkla onu yenebileceğinizi düşünüyorsunuz"
  stress_trait_coping_decisions.7503.d:0 "Kendi talimime odaklanmalıyım."
  stress_trait_coping_decisions.7503.success:0 "Kazandınız!"

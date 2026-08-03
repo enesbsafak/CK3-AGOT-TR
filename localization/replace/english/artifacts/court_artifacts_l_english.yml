@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  artifact_wall_tapestry_name:0 "$artifact_name_prefix$ Duvar Halısı"
  artifact_wall_tapestry_description:1 "[SCOPE.Custom('ArtifactQuality')|U] kalitede büyük bir [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] duvar halısı. [newly_created_artifact.GetFeatureText( 'tapestry_scene' )]"
  feature_tapestry_scene_religious:0 "Duvar halısı üzerine, [Artifact.GetOwner.GetFaith.GetAdjectiveNoTooltip] ilkeleri işlenmiş."
@@ -426,26 +426,26 @@
  feature_book_title_diplomacy_dynasty:1 "[Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] Vakayinamesi"
  feature_book_topic_diplomacy_dynasty:1 "İlk defa [Artifact.GetOwner.GetTitledFirstNameNoTooltipRegnal] için sunulan bu [Artifact.GetOwner.Custom('ArtifactArticleWealth')] vakayiname, [Artifact.GetOwner.Custom('DynastyPrestigeLevel')] [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] hanedanının tüm geçmişini detaylıca anlatıyor."
  feature_book_topic_diplomacy_dynasty_big:1 "Bu devasa boyuttaki vakayiname, [Artifact.GetOwner.Custom('DynastyPrestigeLevel')] [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip] hanedanının tüm geçmişini detayları ile anlatıyor ve ayrıca [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş ve resimlendirilmiş."
-### TODO AGOT-CHANGED: feature_book_title_diplomacy_cicero [AGOT: $artifact_name_prefix_artifact_scope$ A Triarch's Orations | TR: $artifact_name_prefix_artifact_scope$ Cicero]
- feature_book_title_diplomacy_cicero:0 "$artifact_name_prefix_artifact_scope$ A Triarch's Orations"
-### TODO AGOT-CHANGED: feature_book_topic_diplomacy_cicero [AGOT: A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated collection of the orations of a Triarch of Volantis who was an ancient master of Valyrian eloquence. | TR: Latince konuşma sanatının eski ustası Cicero'nun hitabetlerinin [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] şekilde süslenmiş bir koleksiyonu.]
- feature_book_topic_diplomacy_cicero:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated collection of the orations of a Triarch of Volantis who was an ancient master of Valyrian eloquence."
-### TODO AGOT-CHANGED: feature_book_title_diplomacy_hitopadesa [AGOT: $artifact_name_prefix_artifact_scope$ Anthology of Fables | TR: $artifact_name_prefix_artifact_scope$ Hitopadeşa]
- feature_book_title_diplomacy_hitopadesa:0 "$artifact_name_prefix_artifact_scope$ Anthology of Fables"
-### TODO AGOT-CHANGED: feature_book_topic_diplomacy_hitopadesa [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated manuscript containing a new collection of ancient traditional fables. | TR: Hitopadeşa olarak bilinen, eski geleneksel fabllardan oluşan bir koleksiyon olan bu [Artifact.GetOwner.Custom('ArtifactArticleWealth')] kitap, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş.]
- feature_book_topic_diplomacy_hitopadesa:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illuminated manuscript containing a new collection of ancient traditional fables."
-### TODO AGOT-CHANGED: feature_book_title_diplomacy_kalila [AGOT: $artifact_name_prefix_artifact_scope$ Animal Fables | TR: $artifact_name_prefix_artifact_scope$ Kelile ve Dimne]
- feature_book_title_diplomacy_kalila:0 "$artifact_name_prefix_artifact_scope$ Animal Fables"
-### TODO AGOT-CHANGED: feature_book_topic_diplomacy_kalila [AGOT: A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated manuscript containing a collection of animal fables. | TR: Kelile ve Dimne olarak bilinen fablları içeren, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş bir kitap.]
- feature_book_topic_diplomacy_kalila:0 "A [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated manuscript containing a collection of animal fables."
-### TODO AGOT-CHANGED: feature_book_title_diplomacy_edda [AGOT: $artifact_name_prefix_artifact_scope$ Jade Compendium | TR: $artifact_name_prefix_artifact_scope$ Edda]
- feature_book_title_diplomacy_edda:0 "$artifact_name_prefix_artifact_scope$ Jade Compendium"
-### TODO AGOT-CHANGED: feature_book_topic_diplomacy_edda [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] work collecting the poetry and traditional knowledge of Essosi mythology. | TR: İskandinav mitolojisinin şiirlerini ve geleneksel bilgilerini bünyesinde toplayan [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir çalışma.]
- feature_book_topic_diplomacy_edda:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] work collecting the poetry and traditional knowledge of Essosi mythology."
-### TODO AGOT-CHANGED: feature_book_title_diplomacy_orkneyinga [AGOT: $artifact_name_prefix_artifact_scope$ The Nine Voyages | TR: $artifact_name_prefix_artifact_scope$ Orkneyinga]
- feature_book_title_diplomacy_orkneyinga:0 "$artifact_name_prefix_artifact_scope$ The Nine Voyages"
-### TODO AGOT-CHANGED: feature_book_topic_diplomacy_orkneyinga [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript detailing the story of Corlys Velaryon's voyages. | TR: Batıya yelken açmış İskandinav maceracıların hikâyesini anlatan [Artifact.GetOwner.Custom('ArtifactArticleWealth')] el yazması.]
- feature_book_topic_diplomacy_orkneyinga:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript detailing the story of Corlys Velaryon's voyages."
+
+ feature_book_title_diplomacy_cicero:0 "$artifact_name_prefix_artifact_scope$ Cicero"
+
+ feature_book_topic_diplomacy_cicero:0 "Latince konuşma sanatının eski ustası Cicero'nun hitabetlerinin [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] şekilde süslenmiş bir koleksiyonu."
+
+ feature_book_title_diplomacy_hitopadesa:0 "$artifact_name_prefix_artifact_scope$ Hitopadeşa"
+
+ feature_book_topic_diplomacy_hitopadesa:0 "Hitopadeşa olarak bilinen, eski geleneksel fabllardan oluşan bir koleksiyon olan bu [Artifact.GetOwner.Custom('ArtifactArticleWealth')] kitap, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş."
+
+ feature_book_title_diplomacy_kalila:0 "$artifact_name_prefix_artifact_scope$ Kelile ve Dimne"
+
+ feature_book_topic_diplomacy_kalila:0 "Kelile ve Dimne olarak bilinen fablları içeren, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş bir kitap."
+
+ feature_book_title_diplomacy_edda:0 "$artifact_name_prefix_artifact_scope$ Edda"
+
+ feature_book_topic_diplomacy_edda:0 "İskandinav mitolojisinin şiirlerini ve geleneksel bilgilerini bünyesinde toplayan [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir çalışma."
+
+ feature_book_title_diplomacy_orkneyinga:0 "$artifact_name_prefix_artifact_scope$ Orkneyinga"
+
+ feature_book_topic_diplomacy_orkneyinga:0 "Batıya yelken açmış İskandinav maceracıların hikâyesini anlatan [Artifact.GetOwner.Custom('ArtifactArticleWealth')] el yazması."
  feature_book_title_diplomacy_poetry:0 "$artifact_name_prefix_artifact_scope$ Şiirleri"
  feature_book_topic_diplomacy_poetry:1 "Ünlü şair [author.GetTitledFirstNameNoTooltip] tarafından [Artifact.GetOwner.GetTitledFirstNameNoTooltip] için yazılmış zarif ve ilham verici şiirlerin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir koleksiyonu."
  feature_book_title_diplomacy_jokes:0 "$artifact_name_prefix_artifact_scope$ Filogelos"
@@ -456,10 +456,10 @@
  feature_book_topic_stewardship_admin:0 "Bir ülkeyi kârlı bir şekilde yönetmeye ve muhtemelen batırmamaya yönelik [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] tavsiyeler ve deneyimlerle dolu [Artifact.GetOwner.Custom('ArtifactArticleWealth')] bir el kitabı."
  feature_book_title_stewardship_architect:0 "[Artifact.GetOwner.GetCulture.GetNameNoTooltip] Mimarlık"
  feature_book_topic_stewardship_architect:0 "Hem güncel hem de tarihî [Artifact.GetOwner.GetCulture.GetName] mimarisinin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] derlemesi. [Artifact.GetOwner.Custom('ArtifactWealth')|U] kenar süslemeleri ve bilgilendirici çizimleri de içerir."
-### TODO AGOT-CHANGED: feature_book_title_stewardship_digest [AGOT: $artifact_name_prefix_artifact_scope$ Books of Law | TR: $artifact_name_prefix_artifact_scope$ Digest]
- feature_book_title_stewardship_digest:0 "$artifact_name_prefix_artifact_scope$ Books of Law"
-### TODO AGOT-CHANGED: feature_book_topic_stewardship_digest [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the compendium of Westerosi law ordered by King Jaehaerys. | TR: İmparator Jüstinyen tarafından hazırlanan Roma hukukunun özetinin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası.]
- feature_book_topic_stewardship_digest:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the compendium of Westerosi law ordered by King Jaehaerys."
+
+ feature_book_title_stewardship_digest:0 "$artifact_name_prefix_artifact_scope$ Digest"
+
+ feature_book_topic_stewardship_digest:0 "İmparator Jüstinyen tarafından hazırlanan Roma hukukunun özetinin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası."
  feature_book_title_intrigue_poisons:0 "$artifact_name_prefix_artifact_scope$ Zehirlerin İncelemeleri"
  feature_book_topic_intrigue_poisons:0 "Bitkilerin ayrıntılı çizimlerini ve çok çeşitli zehirleri hazırlamak için [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] çizilmiş resimli adım adım talimatlar içeren, siyah deri kaplı küçük, uğursuz bir kitap."
  feature_book_title_intrigue_seduction:0 "$artifact_name_prefix_artifact_scope$ Aşk Sanatı"
@@ -472,45 +472,45 @@
  feature_book_title_learning_religious:1 "$artifact_name_prefix_artifact_scope$ [Artifact.GetOwner.GetFaith.ReligiousText|U]"
  feature_book_topic_learning_religious:0 "[Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] bir [Artifact.GetOwner.GetFaith.ReligiousText] kopyası. Zarif bir el tarafından süslenmiş ve yazılmış."
  feature_book_topic_learning_religious_big:0 "Devasa bir [Artifact.GetOwner.GetFaith.ReligiousText] kopyası. [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] bir şekilde süslenmiş ve yazılmış."
-### TODO AGOT-CHANGED: feature_book_title_learning_aristotle [AGOT: $artifact_name_prefix_artifact_scope$ An History of the Andals | TR: $artifact_name_prefix_artifact_scope$ Organon Kitabı]
- feature_book_title_learning_aristotle:0 "$artifact_name_prefix_artifact_scope$ An History of the Andals"
-### TODO AGOT-CHANGED: feature_book_topic_learning_aristotle [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] copy of Doro Golathis' works about the history of Andalos, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] replicated and commented. | TR: Aristo'nun Organon'unun [Artifact.GetOwner.Custom('ArtifactArticleWealth')] bir kopyası. [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] kopyalanmış ve yorumlanmış.]
- feature_book_topic_learning_aristotle:1 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] copy of Doro Golathis' works about the history of Andalos, [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] replicated and commented."
-### TODO AGOT-CHANGED: feature_book_title_learning_iliad [AGOT: $artifact_name_prefix_artifact_scope$ Ten-Thousand Ships | TR: $artifact_name_prefix_artifact_scope$ İlyada]
- feature_book_title_learning_iliad:0 "$artifact_name_prefix_artifact_scope$ Ten-Thousand Ships"
-### TODO AGOT-CHANGED: feature_book_topic_learning_iliad [AGOT: [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] commented copy of the Ten-Thousand Ships, showing great understanding of the source material and the events of the Nymeria's travels to Westeros. | TR: [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] yorumlanmış Yunan İlyada'sının kopyası, kaynak materyalin ve Truva Savaşı'nın çok iyi anlaşıldığı gözüküyor.]
- feature_book_topic_learning_iliad:1 "[Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] commented copy of the Ten-Thousand Ships, showing great understanding of the source material and the events of the Nymeria's travels to Westeros."
-### TODO AGOT-CHANGED: feature_book_title_learning_mahabharata [AGOT: $artifact_name_prefix_artifact_scope$ The Princess and the Queen | TR: $artifact_name_prefix_artifact_scope$ Mahabharata Kitabı]
- feature_book_title_learning_mahabharata:0 "$artifact_name_prefix_artifact_scope$ The Princess and the Queen"
-### TODO AGOT-CHANGED: feature_book_topic_learning_mahabharata [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated, copy of The Princess and the Queen. The story details the struggle between two groups of cousins, the Greens and the Blacks, as they battle for the Iron Throne. | TR: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş, eski epik şiir Mahabharata'nın bir kopyası. Hikâye, Hastinapura tahtı için savaşan iki kuzen grup, Pandavalar ve Kauravalar arasındaki mücadeleyi anlatıyor.]
- feature_book_topic_learning_mahabharata:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')]-illuminated, copy of The Princess and the Queen. The story details the struggle between two groups of cousins, the Greens and the Blacks, as they battle for the Iron Throne."
-### TODO AGOT-CHANGED: feature_book_title_learning_mufaddaliyat [AGOT: $artifact_name_prefix_artifact_scope$ Anthology of Poetry | TR: $artifact_name_prefix_artifact_scope$ Mufaddaliyat Kitabı]
- feature_book_title_learning_mufaddaliyat:0 "$artifact_name_prefix_artifact_scope$ Anthology of Poetry"
-### TODO AGOT-CHANGED: feature_book_topic_learning_mufaddaliyat [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] commented recension of the poetic anthology by the famous scholar [author.GetTitledFirstNameNoTooltip]. | TR: Ünlü alim [author.GetTitledFirstNameNoTooltip] tarafından Mufaddaliyat olarak bilinen şiirsel antolojinin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] yorumu.]
- feature_book_topic_learning_mufaddaliyat:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] commented recension of the poetic anthology by the famous scholar [author.GetTitledFirstNameNoTooltip]."
+
+ feature_book_title_learning_aristotle:0 "$artifact_name_prefix_artifact_scope$ Organon Kitabı"
+
+ feature_book_topic_learning_aristotle:0 "Aristo'nun Organon'unun [Artifact.GetOwner.Custom('ArtifactArticleWealth')] bir kopyası. [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] kopyalanmış ve yorumlanmış."
+
+ feature_book_title_learning_iliad:0 "$artifact_name_prefix_artifact_scope$ İlyada"
+
+ feature_book_topic_learning_iliad:0 "[Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')|U] yorumlanmış Yunan İlyada'sının kopyası, kaynak materyalin ve Truva Savaşı'nın çok iyi anlaşıldığı gözüküyor."
+
+ feature_book_title_learning_mahabharata:0 "$artifact_name_prefix_artifact_scope$ Mahabharata Kitabı"
+
+ feature_book_topic_learning_mahabharata:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş, eski epik şiir Mahabharata'nın bir kopyası. Hikâye, Hastinapura tahtı için savaşan iki kuzen grup, Pandavalar ve Kauravalar arasındaki mücadeleyi anlatıyor."
+
+ feature_book_title_learning_mufaddaliyat:0 "$artifact_name_prefix_artifact_scope$ Mufaddaliyat Kitabı"
+
+ feature_book_topic_learning_mufaddaliyat:0 "Ünlü alim [author.GetTitledFirstNameNoTooltip] tarafından Mufaddaliyat olarak bilinen şiirsel antolojinin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] yorumu."
  feature_book_title_learning_prayers:1 "[Artifact.GetOwner.GetFaith.GetAdjective|U] İçin Dualar"
  feature_book_topic_learning_prayers:1 "[Artifact.GetOwner.GetFaith.GetAdjective|U] müminleri için etkileyici bir dua kitabı. [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] bir şekilde resimlendirilmiş."
  feature_book_title_learning_hours:0 "$artifact_name_prefix_artifact_scope$ Vakitler Kitabı"
  feature_book_topic_learning_hours:0 "Vakitler Kitabı'nın büyük, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] bir şekilde süslenmiş kopyası. Mümin biri tarafından kullanılmaktan ziyade bir kitapseverin koleksiyonu için daha uygun."
  feature_book_title_learning_golden_legend:0 "$artifact_name_prefix_artifact_scope$ Altın Efsaneler Kitabı"
-### TODO AGOT-CHANGED: feature_book_topic_learning_golden_legend [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] collection of hagiographies written in simple Valyrian, sure to be appreciated by everyone. | TR: Basit Latince ile yazılmış [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] menkıbeler koleksiyonu, kesinlikle herkes tarafından takdir edilecektir.]
- feature_book_topic_learning_golden_legend:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] collection of hagiographies written in simple Valyrian, sure to be appreciated by everyone."
+
+ feature_book_topic_learning_golden_legend:0 "Basit Latince ile yazılmış [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] menkıbeler koleksiyonu, kesinlikle herkes tarafından takdir edilecektir."
  feature_book_title_learning_anatomy:0 "İnsan Vücudunun Haritası"
  feature_book_topic_learning_anatomy:0 "Bu kitap, insan vücudunun anatomisini detaylandıran [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] gözlemler ve [Artifact.GetOwner.Custom('ArtifactWealth')] çizimler içermektedir."
  feature_book_title_medicine_medicine:0 "$artifact_name_prefix_artifact_scope$ Tıbbi El Yazması"
  feature_book_title_medicine_science:0 "$artifact_name_prefix_artifact_scope$ Herbaryum"
  feature_book_topic_medicine_science:0 "Bu [Artifact.GetOwner.Custom('ArtifactArticleWealth')] kitap, şifalı otlar ve tıbbi özellikleri hakkında dünyanın tüm bilgilerinin toplandığı el yazması."
  feature_book_topic_medicine_science_big:0 "Her bitkinin ayrıntılı çizimleri ve tıbbi özelliklerinin açıklamaları ile dev bir kitap."
-### TODO AGOT-CHANGED: feature_book_title_medicine_galen [AGOT: $artifact_name_prefix_artifact_scope$ Writings of a Valyrian Physician | TR: $artifact_name_prefix_artifact_scope$ Galen Kitabı]
- feature_book_title_medicine_galen:0 "$artifact_name_prefix_artifact_scope$ Writings of a Valyrian Physician"
-### TODO AGOT-CHANGED: feature_book_topic_medicine_galen [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript containing all the medical wisdom of an ancient Valyrian philosopher and physician. | TR: Antik filozof ve hekim Galen'in tüm tıbbi bilgeliğini içeren [Artifact.GetOwner.Custom('ArtifactArticleWealth')] el yazması.]
- feature_book_topic_medicine_galen:0 "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U] manuscript containing all the medical wisdom of an ancient Valyrian philosopher and physician."
+
+ feature_book_title_medicine_galen:0 "$artifact_name_prefix_artifact_scope$ Galen Kitabı"
+
+ feature_book_topic_medicine_galen:0 "Antik filozof ve hekim Galen'in tüm tıbbi bilgeliğini içeren [Artifact.GetOwner.Custom('ArtifactArticleWealth')] el yazması."
  feature_book_title_alchemy_the_great_book_of_mercy:0 "Kitâb-ur-Rahme"
-### TODO AGOT-CHANGED: feature_book_topic_alchemy_the_great_book_of_mercy [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the King's Landing Alchemist Guild's work, The Great Book of Mercy, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated and illuminated. | TR: Câbir bin Hayyan'ın simya eseri Kitâb-ur-Rahme'nin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası. [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] bir şekilde süslenmiş ve resimlendirilmiş.]
- feature_book_topic_alchemy_the_great_book_of_mercy:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of the King's Landing Alchemist Guild's work, The Great Book of Mercy, [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrated and illuminated."
+
+ feature_book_topic_alchemy_the_great_book_of_mercy:0 "Câbir bin Hayyan'ın simya eseri Kitâb-ur-Rahme'nin [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası. [Artifact.GetOwner.Custom('ArtifactAdverbWealth')|U] bir şekilde süslenmiş ve resimlendirilmiş."
  feature_book_title_alchemy_the_book_of_seventy:0 "Kitāb al-Sab'īn"
-### TODO AGOT-CHANGED: feature_book_topic_alchemy_the_book_of_seventy [AGOT: [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of a woods-witch's comprehensive manual describing the creation of elixirs, theories about the four elements, and the use of animal substances in rituals. | TR: Câbir bin Hayyan'ın, iksirlerin yaratılması, dört element hakkındaki teorileri ve simyada hayvansal maddelerin kullanımını anlatan kapsamlı el kitabının [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası.]
- feature_book_topic_alchemy_the_book_of_seventy:0 "[Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')|U] copy of a woods-witch's comprehensive manual describing the creation of elixirs, theories about the four elements, and the use of animal substances in rituals."
+
+ feature_book_topic_alchemy_the_book_of_seventy:0 "Câbir bin Hayyan'ın, iksirlerin yaratılması, dört element hakkındaki teorileri ve simyada hayvansal maddelerin kullanımını anlatan kapsamlı el kitabının [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] bir kopyası."
  feature_book_title_alchemy_mercury:0 "$artifact_name_prefix_artifact_scope$ Civa Rehberi"
  feature_book_topic_alchemy_mercury:1 "Kükürt ve cıvayı birleştirerek, çizimlerde kullanılmak üzere imrenilen kırmızı boya vermilyonu yapmak için [Artifact.GetOwner.Custom('ArtifactArticleBookContentQuality')] talimatlar içeren [Artifact.GetOwner.Custom('ArtifactArticleWealth')] kitap."
  feature_book_title_alchemy_arsenic:0 "$artifact_name_prefix_artifact_scope$ Zehir Kitabı"

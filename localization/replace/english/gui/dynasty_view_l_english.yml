@@ -3,8 +3,8 @@
  DYNASTY_VIEW_CHILDREN_SHOW:0 "#T Çocukları Göster#!"
  DYNASTY_VIEW_INFO_TITLE:0 "#T [Dynasty.GetBaseNameNoTooltip|U] Hanedanı#!"
  DYNASTY_VIEW_PRESTIGE:0 "[Dynasty.GetPrestige|V0] [dynasty_prestige|E]"
-### TODO AGOT-CHANGED: DYNASTY_VIEW_HOUSES_AMOUNT [AGOT: View all Houses | TR: [Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'Hane', 'Hane' )]]
- DYNASTY_VIEW_HOUSES_AMOUNT:1 "View all Houses"
+
+ DYNASTY_VIEW_HOUSES_AMOUNT:0 "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'Hane', 'Hane' )]"
  DYNASTY_VIEW_HOUSES_TT:0 "#T [Dynasty.GetNameNoTooltip] Hanedanındaki tüm Haneleri gör#!"
  DYNASTY_VIEW_MEMBERS:1 "[Dynasty.GetNumberOfLivingMembers|V] Yaşayan Mensup"
  DYNASTY_VIEW_MEMBERS_TT:0 "#T [Dynasty.GetNameNoTooltip] Hanedanına mensup olan herkesi göster#!"

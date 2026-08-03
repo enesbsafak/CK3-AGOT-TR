@@ -43,16 +43,16 @@
  tour_travel.1006.c:0 "Bu haşaratları kovun!"
  tour_travel.1007.title:0 "[wise_woman_barony_scope.GetNameNoTierNoTooltip|U] Bilgini"
  tour_travel.1007.desc.intro:0 "Maiyetim ile krallığımdaki yolculuğuma devam ederken, [wise_woman_barony_scope.GetNameNoTier] topraklarının en ücra köşelerinden geçiyoruz. Böyle bir şey olacağını tahmin bile edemezken [superstituous_courtier_scope.GetName] beni bir kenara çekerek ""[wise_woman_barony_scope.GetNameNoTierNoTooltip] Bilgini"" hakkında heyecanlı bir konuşma yaptı.\n\n" ### CQC
-### TODO AGOT-ONLY: tour_travel.1007.desc.mid.ill [AGOT: ]
- tour_travel.1007.desc.mid.ill:0 ""Excuse me my [ROOT.Char.GetLadyLord], but I can see you are suffering tremendously from ailment and affliction. The Wise [wise_woman_scope.GetWomanMan|U] of [wise_woman_barony_scope.GetNameNoTierNoTooltip] is just a small detour away, and I know [wise_woman_scope.GetSheHe] has exactly what you need to be your healthy self again!""
-### TODO AGOT-ONLY: tour_travel.1007.desc.mid.pregnant [AGOT: ]
- tour_travel.1007.desc.mid.pregnant:0 ""My [ROOT.Char.GetTitleAsNameNoTooltip|U], I can see that you are positively glowing and radiant as always, as one should be when with child. However, I can tell that the hard work of carrying a babe is causing you great discomfort, and the Wise [wise_woman_scope.GetWomanMan] nearby will have just the remedy needed to ease that which burdens you.""
-### TODO AGOT-ONLY: tour_travel.1007.desc.mid.psychological [AGOT: ]
- tour_travel.1007.desc.mid.psychological:0 ""I know you have a tortured mind, [ROOT.Char.Custom('FormOfAddressForLiege')], and it causes you great anguish. Strong as your spirit is, that which ails your mind may be remedied perhaps by some incense or medicine from the famous Wise [wise_woman_scope.GetWomanMan|U] of [wise_woman_barony_scope.GetNameNoTierNoTooltip]!""
-### TODO AGOT-ONLY: tour_travel.1007.desc.mid.weakened [AGOT: ]
- tour_travel.1007.desc.mid.weakened:0 ""With your injuries, [ROOT.Char.Custom('FormOfAddressForLiege')], I fear for your continued safety and health on this tour. However, I know of a skilled physician nearby who may be able to treat your wounds. The Wise [wise_woman_scope.GetWomanMan|U] of [wise_woman_barony_scope.GetNameNoTierNoTooltip] can cure anything!""
-### TODO AGOT-ONLY: tour_travel.1007.desc.mid.ugly [AGOT: ]
- tour_travel.1007.desc.mid.ugly:0 ""If I may be so bold, [ROOT.Char.Custom('FormOfAddressForLiege')], some other members of your procession have been making remarks about your... appearance. However, fret not! There is a Wise [wise_woman_scope.GetWomanMan] nearby who can cure any affliction, so they say.""
+
+ tour_travel.1007.desc.mid.ill:0 ""Affınıza sığınırım [ROOT.Char.GetLadyLord], ama hastalık ve acıdan çok çektiğinizi görebiliyorum. [wise_woman_barony_scope.GetNameNoTierNoTooltip]'in Bilge [wise_woman_scope.GetWomanMan|U] buraya sadece küçük bir sapma mesafesinde ve [wise_woman_scope.GetSheHe] sağlığınıza yeniden kavuşmanız için tam ihtiyacınız olan şeye sahip olduğunu biliyorum!""
+
+ tour_travel.1007.desc.mid.pregnant:0 ""[ROOT.Char.GetTitleAsNameNoTooltip|U]'im, her zamanki gibi ışıl ışıl ve pırıl pırıl olduğunuzu görüyorum, bir bebek bekleyen kişiye yakışır şekilde. Yine de, bir bebeği taşımanın zorluğunun size büyük rahatsızlık verdiğini anlayabiliyorum ve yakındaki Bilge [wise_woman_scope.GetWomanMan] sizi yoran şeyi hafifletecek tam bir ilaca sahip olacaktır.""
+
+ tour_travel.1007.desc.mid.psychological:0 ""Azap çeken bir zihniniz olduğunu biliyorum, [ROOT.Char.Custom('FormOfAddressForLiege')] ve bu size büyük ıstırap veriyor. Ruhunuz ne kadar güçlü olursa olsun, zihninizi rahatsız eden şey belki [wise_woman_barony_scope.GetNameNoTierNoTooltip]'in ünlü Bilge [wise_woman_scope.GetWomanMan|U]'inden gelecek bir tütsü ya da ilaçla iyileştirilebilir!""
+
+ tour_travel.1007.desc.mid.weakened:0 ""Yaralarınızla, [ROOT.Char.Custom('FormOfAddressForLiege')], bu yolculukta güvenliğiniz ve sağlığınız için endişeleniyorum. Ancak yakınlarda yaralarınızı tedavi edebilecek yetenekli bir hekim olduğunu biliyorum. [wise_woman_barony_scope.GetNameNoTierNoTooltip]'in Bilge [wise_woman_scope.GetWomanMan|U] her şeyi iyileştirebilir!""
+
+ tour_travel.1007.desc.mid.ugly:0 ""Bu kadar cüretkâr olacağım için affola, [ROOT.Char.Custom('FormOfAddressForLiege')], kafilenizdeki bazı kişiler sizin... görünüşünüz hakkında laflar ediyorlar. Ama merak etmeyin! Yakınlarda her derde deva olabilecek bir Bilge [wise_woman_scope.GetWomanMan] var, öyle derler.""
  tour_travel.1007.desc.outro:0 "\n\nŞüphelerim var ancak [superstituous_courtier_scope.GetNameNoTooltip] bu mistik şifacının erdemine o kadar inanmış görünüyor ki, ziyaret etmek için can atıyorum."
  tour_travel.1007.a:0 "Ufak bir dolambaçtan zarar gelmez."
  tour_travel.1007.b:0 "Tamamen saçmalık!"
@@ -523,14 +523,14 @@
  tour_grounds_events.3040.b:0 "[stop_host_scope.GetTitleAsNameNoTooltip|U] hakkında kötü konuşamazsınız!"
  tour_grounds_events.3040.c:0 "Bu köylüler doğru konuşuyor."
  tour_grounds_events.3050.title:0 "Kabalaşmak"
-### TODO AGOT-ONLY: tour_grounds_events.3050.desc [AGOT: ]
- tour_grounds_events.3050.desc:0 ""Give me my bloody money!"\n\nThe sound of splattering blood and cracking bones calls my attention to a lowly gutter, where I see an impoverished [beaten_peasant.GetWomanMan] being held up by the scruff of [beaten_peasant.GetHerHis] collar by some local ruffian.\n\nUsually, this type of thing would be below my head, but can I really allow such blatant crimes to happen right in front of my face?"
+
+ tour_grounds_events.3050.desc:0 ""Lanet paramı ver!"\n\nKan sıçramalarının ve kırılan kemiklerin sesi dikkatimi alçak bir oluğa çeviriyor; burada, yerel bir serseri tarafından [beaten_peasant.GetHerHis] yakasından tutulmuş, yoksul bir [beaten_peasant.GetWomanMan] görüyorum.\n\nNormalde bu tür şeyler benim itibarımın altında kalır, ama bu kadar göz göre göre işlenen suçların tam gözümün önünde olmasına izin verebilir miyim?"
  tour_grounds_events.3050.a:0 "Muhafızlar! Tutuklayın şu aptalı!"
  tour_grounds_events.3050.b:0 "İyi bir [ROOT.Char.GetTitleAsNameNoTooltip|U], tebaasını korur!"
  tour_grounds_events.3050.b.success:0 "Dövüşü kazandınız"
  tour_grounds_events.3050.b.failure:0 "Dövüşü kaybettiniz"
-### TODO AGOT-ONLY: tour_grounds_events.3050.c [AGOT: ]
- tour_grounds_events.3050.c:0 ""Hey, let me rough [beaten_peasant.GetHerHim] up a bit!""
+
+ tour_grounds_events.3050.c:0 ""Hey, bırak da [beaten_peasant.GetHerHim]i biraz hırpalayayım!""
  tour_grounds_events.3060.title:0 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip|U] En İyi Zamanlarında"
  tour_grounds_events.3060.desc.intro:0 "[stop_host_scope.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bugün bana kışlalarını göstermeye karar verdi.\n\n"
  tour_grounds_events.3060.desc.light_infantry:0 "Sıra sıra dizilmiş hafif piyadeler zırhlarının içinde hazır olda durmuş, teftişime hazır bekliyorlar."
@@ -574,8 +574,8 @@
  tour_grounds_events.3090.desc.livestock:0 "tombul ve sağlıklı hayvanlarını otlatıyor, o kadar güzel gözüküyorlar ki çiğ çiğ bile yenirler!"
  tour_grounds_events.3090.desc.outro:0 "Köylüler zaman zaman ürünlerini kıyaslamak, büyüklüklerini ve sağlıklarını analiz etmek için toplanıyorlar. Bir tür festival düzenliyor gibi görünüyorlar ve beni fark eder etmez bana emeklerinin meyvelerini göstermeye hevesleniyorlar."
  tour_grounds_events.3090.a:0 "Bu toprakları incelemeliyiz."
-### TODO AGOT-ONLY: tour_grounds_events.3090.b [AGOT: ]
- tour_grounds_events.3090.b:0 ""This is a waste of time! Get back to your fields!""
+
+ tour_grounds_events.3090.b:0 ""Bu vakit kaybı! Tarlalarınıza geri dönün!""
  tour_grounds_events.3090.c:0 "Çok güzel, jüri ben olacağım."
  tour_grounds_events.3100.title:0 "Sessiz Bir Gün"
  tour_grounds_events.3100.desc.intro:0 "[ROOT.Char.GetCurrentLocation.GetName] gezim sırasında, ev sahibim tarafından gezdirilmediğim veya herhangi bir yerde görünmemin beklenmediği nadir bir an buldum.\n\nİbadet yerlerinin gün için dolduğunu görüyorum,"
@@ -595,8 +595,8 @@
  rival_insulted_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetShortUIName] adlı karaktere hakaret etti"
  host_dinner_events.1001.title:0 "Kuru Bir Akşam Yemeği"
  host_dinner_events.1001.desc:0 "[visiting_liege.GetName] ile eğleniyorduk, gecemiz şimdiye kadar sarhoş eğlenceleri ve şakalarla doluydu. Gerçi belki de alkol stoğumu kullanırken fazla cömert davranmışımdır, çünkü bir hizmetçi bana "[ROOT.Char.Custom('RegionalAlcoholicDrink')|U] son damlasına kadar tükendi" dedi!\n\nEfendim sabırsızlıkla masanın diğer ucunda oturmuş, yeni doğmuş bir bebek gibi yanakları kıpkırmızı, kadehini masaya vuruyor.\n\n"Gelin! Gece daha yeni başladı! İçkiler nerede?""
-### TODO AGOT-ONLY: host_dinner_events.1001.a [AGOT: ]
- host_dinner_events.1001.a:0 ""Refill the stores!""
+
+ host_dinner_events.1001.a:0 ""Ambarları yeniden doldurun!""
  host_dinner_events.1001.replenished_stores:0 "[stop_host_scope.GetName] içki depolarını doldurdu"
  host_dinner_events.1001.b:0 "Yeterince içtin!"
  host_dinner_events.1001.didnt_replenish_stores:0 "[stop_host_scope.GetName] içki içmenizi azarladı"
@@ -699,22 +699,22 @@
  host_dinner_events.3005.desc:0 "Yemek salonuna girdiğim sırada [visiting_liege.GetName] ve [stop_host_heir.Custom2('MyCharacterIntroduction', ROOT.Char)] devlet meseleleri ve yükümlülükler hakkında konuşuyorlar\n\n[visiting_liege.GetName] onu yokluğumda kraliyete sadakat yemini etmesi için manipüle ediyor gibi görünüyor! Böyle bir yemin hayatı boyunca onun yakasını bırakmaz ancak [visiting_liege.GetName] bize astları olarak davranacağı için geleceğimizi sağlamlaştıracak!"
  host_dinner_events.3005.a:0 "Kendi iyiliğim için buna izin vereceğim."
  host_dinner_events.3005.hook_for_hook:1 "[stop_host_scope.GetName] bir bedel talep ediyor"
-### TODO AGOT-ONLY: host_dinner_events.3005.b [AGOT: ]
- host_dinner_events.3005.b:0 ""Stop this madness at once!""
+
+ host_dinner_events.3005.b:0 ""Bu çılgınlığı derhal durdurun!""
  host_dinner_events.3005.disallowed_hook:0 "Yakalandınız"
  host_dinner_events.3006.title:0 "Daha İyi Bir Yaşam Hayalleri"
  host_dinner_events.3006.desc.intro:0 "Bu akşam [runaway_courtier.Custom2('NamePossessiveCharacterIntroduction', stop_host_scope)] ile yan yana oturuyorum. Özlemle tabağına doğru iç çekişini izliyorum.\n\n"
-### TODO AGOT-ONLY: host_dinner_events.3006.desc.mid.concubine [AGOT: ]
- host_dinner_events.3006.desc.mid.concubine:0 ""Ah, I apologize for my melancholy, my [ROOT.Char.GetTitleAsNameNoTooltip|U]. [stop_host_scope.GetNameNoTooltip] probably seated me next to you to please you. [stop_host_scope.GetSheHe|U]'s like that, [stop_host_scope.GetSheHe] only sees me as some object to be ogled and played with. To tell the truth, I have been dreaming of coming back with you to [ROOT.Char.GetCapitalLocation.GetName].""
-### TODO AGOT-ONLY: host_dinner_events.3006.desc.mid.neutral [AGOT: ]
- host_dinner_events.3006.desc.mid.neutral:0 ""Truly, I grow tired of life here in [stop_host_scope.GetCapitalLocation.GetName] and long to elevate my station in life. My talents are wasted here, and lately I've been thinking of slipping off with you back to [ROOT.Char.GetCapitalLocation.GetName] where I can really show what I'm worth!""
+
+ host_dinner_events.3006.desc.mid.concubine:0 ""Ah, melankolim için özür dilerim, [ROOT.Char.GetTitleAsNameNoTooltip|U]'im. [stop_host_scope.GetNameNoTooltip] muhtemelen seni memnun etmek için beni yanına oturttu. [stop_host_scope.GetSheHe|U] öyledir, [stop_host_scope.GetSheHe] beni sadece bakılacak ve oynanacak bir nesne olarak görüyor. Doğrusu, [ROOT.Char.GetCapitalLocation.GetName]'e seninle birlikte dönmeyi hayal ediyorum.""
+
+ host_dinner_events.3006.desc.mid.neutral:0 ""Doğrusu, [stop_host_scope.GetCapitalLocation.GetName]'deki hayattan yoruldum ve hayattaki konumumu yükseltmeyi arzuluyorum. Yeteneklerim burada heba oluyor ve son zamanlarda değerimi gerçekten gösterebileceğim [ROOT.Char.GetCapitalLocation.GetName]'e seninle birlikte sıvışmayı düşünüyorum!""
  host_dinner_events.3006.desc.outro:0 "\n\nYakınmaları samimi gözüküyor ancak [stop_host_scope.GetNameNoTooltip] sarayından birisini almama ne der?"
  host_dinner_events.3006.a:0 "Tabii ki, benimle gel!"
-### TODO AGOT-ONLY: host_dinner_events.3006.b [AGOT: ]
- host_dinner_events.3006.b:0 ""I will appreciate more than your beauty.""
+
+ host_dinner_events.3006.b:0 ""Güzelliğinden daha fazlasına değer vereceğim.""
  host_dinner_events.3006.c:0 "En azından ağlaman için bir omuz olabilirim."
-### TODO AGOT-ONLY: host_dinner_events.3006.d [AGOT: ]
- host_dinner_events.3006.d:0 ""Know your place, [runaway_courtier.Custom2('InsultNoun', ROOT.Char)]!""
+
+ host_dinner_events.3006.d:0 ""Yerini bil, [runaway_courtier.Custom2('InsultNoun', ROOT.Char)]!""
  host_dinner_events.3007.title:0 "Çalınan Saray Mensubu"
  host_dinner_events.3007.desc.intro:0 "[visiting_liege.GetName] ve [runaway_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] planladığım gibi yan yana oturdu, iyi bir fikir olduğunu düşünmüştüm ve beklediğimden de iyi çıktı."
  host_dinner_events.3007.desc.mid.concubine:0 "\n\n[runaway_courtier.GetNameNoTooltip] beni görünce yüzünü buruşturdu ve bakışlarını kaçırdı."
@@ -725,14 +725,14 @@
  host_dinner_events.3007.b:0 "Gitmesine izin ver."
  host_dinner_events.3008.title:0 "Biraz Merak"
  host_dinner_events.3008.desc:0 "Sabah oldu ve sabah güneşi aniden göz kapaklarımı delip geçerken isteksizce gözlerimi dünyaya açıyorum. Bir hizmetçinin odamda beceriksizce dolaştığını görüyorum, kahvaltımı yanıma koyarken sallanıyor. Derdinin ne olduğunu soruyorum ve bu kadar küçük bir kışkırtmayla bile kelimeler kusmaya başlıyor.\n\n"Ah benim bilge ve nazik [Select_CString(ROOT.Char.IsFemale, 'leydim', 'lordum' )], bu duvarların dili olsa da konuşsa. Neler biliyorlar neler. Ben de öyle. Size söylersem [stop_host_scope.GetName] beni asla affetmez ama artık bu sırları kafamda tutamıyorum!""
-### TODO AGOT-ONLY: host_dinner_events.3008.a [AGOT: ]
- host_dinner_events.3008.a:0 ""You must tell me at once!""
+
+ host_dinner_events.3008.a:0 ""Hemen anlatmalısın!""
  host_dinner_events.3008.secret_discovered:0 "Bir sırrı ortaya çıkarıyor"
-### TODO AGOT-ONLY: host_dinner_events.3008.b [AGOT: ]
- host_dinner_events.3008.b:0 ""Would some coin loosen those lips?""
+
+ host_dinner_events.3008.b:0 ""Birkaç altın şu dudakları çözer mi?""
  host_dinner_events.3008.acting_sussy:0 "[stop_host_scope.GetName] sizden şüpheleniyor"
-### TODO AGOT-ONLY: host_dinner_events.3008.c [AGOT: ]
- host_dinner_events.3008.c:0 ""You should just keep your mouth shut.""
+
+ host_dinner_events.3008.c:0 ""Susmakla yetinmelisin.""
  host_dinner_events.1009.title:0 "Ekselansları"
  host_dinner_events.1009.desc:0 "Ana yemeklerimizi bitirdiğimizde, övgü ve onay için [visiting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] ile göz göze geliyorum ancak onun gözlerinde de beklenti dolu bir bakış olduğunu fark ediyorum. Belli ki sağladıklarım saygıdeğer konuğum için yeterli değil ama aşçılar zaten onlardan istediğim her şeyi yapmışlar ve servis edecek başka bir şeyimiz olduğundan bile emin olamıyorum.\n\nSonra aklıma kilerde hâlâ yenmeye hazır bir yığın haşhaş keki olduğu geliyor! Tek soru şu: Bu lezzeti [visiting_liege.GetTitleAsNameNoTooltip|U] ile paylaşmak istiyor muyum?"
  host_dinner_events.1009.a:0 "Kekleri getirin!"
@@ -762,8 +762,8 @@
  host_dinner_events.1021.desc.mid.lewd_woman:0 "Kendimi daha fazla tutamıyorum ve iki meyve konularak yapılmış 'meme ucuyla' süslenmiş, sallanan iki tatlı küresi önüme bırakıldığında kontrol edilemez bir kahkaha patlatıyorum. pastanın üzerindeki müstehcen detaylara [ROOT.Char.GetFaith.DevilName] bile utanır!"
  host_dinner_events.1021.desc.outro:0 "\n\nElbette hoşuma gidiyor ama tek soru şu: Minnettarlığımı en iyi nasıl gösterebilirim?"
  host_dinner_events.1021.a:0 "Bunu unutmayacağım!"
-### TODO AGOT-ONLY: host_dinner_events.1021.b [AGOT: ]
- host_dinner_events.1021.b:0 ""I owe you one!""
+
+ host_dinner_events.1021.b:0 ""Sana bir borcum var!""
  host_dinner_events.1022.title:0 "$host_dinner_events.1020.title$"
  host_dinner_events.1022.desc.intro:0 "Yemek masasında oturup tatlımı bekliyorum ve nihayet geldiğinde öfkemi zor zapt ediyorum!\n\n"
  host_dinner_events.1022.desc.mid.castle:0 "Önüme sanırım bir [ROOT.Char.GetCulture.GetName] kalesi şeklinde olması gereken ancak kendi ağırlığı altında ezilip büzülüp dağılmış bir pasta görünce dehşete düşüyorum. Bu benim hünerlerime karşı bir çeşit hakaret mi?"
@@ -772,13 +772,13 @@
  host_dinner_events.1022.desc.outro:0 "\n\nBu şeye bakınca sadece hakarete uğramış hissediyorum ama belli ki [stop_host_scope.GetFirstNameNoTooltip] bunu samimi bir iltifat girişimi olarak planlamış."
  host_dinner_events.1022.a:0 "Oh, bayıldım!"
  host_dinner_events.1020.likes_it:0 "[visiting_liege.GetFirstName] beğendi"
-### TODO AGOT-ONLY: host_dinner_events.1022.b [AGOT: ]
- host_dinner_events.1022.b:0 ""How dare you!""
+
+ host_dinner_events.1022.b:0 ""Buna nasıl cüret edersin!""
  host_dinner_events.1020.hates_it:0 "[visiting_liege.GetFirstName] nefret etti"
  host_dinner_events.1030.title:0 "İstenmeyen Misafir"
  host_dinner_events.1030.desc:0 "Efendimin burada geçirdiği süre akşamlar boyunca yemeği hep hazırdı ve bu akşamki yemeği sanırım en iyisi! [visiting_liege.GetName], tabağını gördüğünde ağzı sulanıyor. Tam ilk lokmayı almak üzereyken [rival_scope.Custom2('NamePossessiveCharacterIntroduction', visiting_liege)] salona dalıyor ve düşmanının tabağına doğru koşuyor.\n\n"Bu akşamki yemek de ne güzelmiş! Böylesine alçak bir [visiting_liege.GetTitleAsNameNoTooltip], böylesine güzel bir yemeği kokuşmuş ağzına atarak ziyan edecek, çok yazık!"\n\n[visiting_liege.GetNameNoTooltip] hemen yüzünü ekşitti ve eğer bir şey yapmazsam yumruk yumruğa bir kavganın başlaması çok uzun sürmeyecek gibi gözüküyor."
-### TODO AGOT-ONLY: host_dinner_events.1030.a [AGOT: ]
- host_dinner_events.1030.a:0 ""Guards! Remove this fool at once!""
+
+ host_dinner_events.1030.a:0 ""Muhafızlar! Bu aptalı derhal dışarı atın!""
  host_dinner_events.1030.b:0 "Belki de ikisini de kontrol altına alabilirim."
  host_dinner_events.1030.c:0 "[rival_scope.GetFirstNameNoTooltip] çok komik! Bırakın konuşalım!"
  host_dinner_events.1031.title:0 "$host_dinner_events.1030.title$"
@@ -837,8 +837,8 @@
  host_dinner_events.3041.f:0 "Hadi paylaşalım!"
  host_dinner_events.3050.title:0 "İştahsızlık"
  host_dinner_events.3050.desc:0 "Bu akşamki yemeğin tadına doyum olmadı ancak şefler yemekleri üst üste yığmaya devam ederken fark ettim ki [non_eater_scope.Custom2('MyCharacterIntroduction', ROOT.Char)] tabağına koyduğu az miktardaki yemeğe neredeyse hiç dokunmamış.\n\nİştahsızlık başka zaman olsa sorun olmazdı ama [stop_host_scope.GetName], maiyetimden birinin yemeklerini karıştırıp didiklemesinden dolayı hakarete uğramış gibi görünüyor."
-### TODO AGOT-ONLY: host_dinner_events.3050.a [AGOT: ]
- host_dinner_events.3050.a:0 ""Eat something for [ROOT.Char.GetFaith.HighGodNamePossessive] sake!""
+
+ host_dinner_events.3050.a:0 ""[ROOT.Char.GetFaith.HighGodNamePossessive] hatırı için bir şeyler ye!""
  host_dinner_events.3050.convinced_to_eat:0 "Yemesi için ikna ettiniz"
  host_dinner_events.3050.annoyed_courtier:0 "Onu kızdırdınız"
  host_dinner_events.3050.b:0 "Onun için bahaneler uyduracağım."
@@ -865,10 +865,10 @@
  host_dinner_events.3080.b:0 "Bu gerçekten benim sorunum değil."
  host_dinner_events.3081.title:0 "Hayat Kurtarıldı"
  host_dinner_events.3081.desc:0 "Hemen arkasına geçtim ve [choking_character_scope.GetName], ben sırtına vurdukça yüzü morarmaya başladı. Bir zamanlar gurmelerin ağzına layık bir yemek olan boğazına sıkışmış lokma birden ağzından fırlayarak pahalı bir sosun içine düştü.\n\n"Ah çok teşekkür ederim [Select_CString(visiting_liege.IsFemale, 'leydim', 'lordum' )]! Sonsuza dek size borçlu kalacağım..""
-### TODO AGOT-ONLY: host_dinner_events.3081.a [AGOT: ]
- host_dinner_events.3081.a:0 ""You owe me nothing but your company.""
-### TODO AGOT-ONLY: host_dinner_events.3081.b [AGOT: ]
- host_dinner_events.3081.b:0 ""Yes, you do owe me your life.""
+
+ host_dinner_events.3081.a:0 ""Bana bana eşlik etmekten başka bir şey borçlu değilsin.""
+
+ host_dinner_events.3081.b:0 ""Evet, bana hayatını borçlusun.""
  host_dinner_events.1040.title:0 "Sıkılmamak İçin Satranç"
  host_dinner_events.1040.desc:0 "[visiting_liege.GetName] geldiğinden beri her gece ziyafetler düzenleniyor ve her akşam karnını doyurduktan sonra gecenin geri kalanında odasına çekiliyor ve beni düşüncelerimle baş başa bırakıyor.\n\nAncak son günlerde satranç tahtamı çıkarıp [visiting_liege.GetTitleAsNameNoTooltip] ile bahse girme dürtüsü hissediyorum. Ödülün tam olarak ne olacağına henüz karar vermedim ama eminim bir şeyler düşünebiliriz."
  host_dinner_events.1040.a:0 "Hadi oynayalım!"
@@ -908,14 +908,14 @@
  host_dinner_events.3102.b:0 "[ROOT.Char.GetFaith.NegativeAfterLife] senin için var!"
  host_dinner_events.3110.title:0 "Yetenekli Bir Gezgin"
  host_dinner_events.3110.desc.intro:0 "Görünüşe göre [stop_host_scope.GetName] onur konuğu olarak sadece beni ağırlamıyor! Bu akşam [talented_pool_character.GetName] ile beraber oturduk ve çok büyüleyici birisi. Sohbetimiz beni çok mutlu etti.\n\n"
-### TODO AGOT-ONLY: host_dinner_events.3110.desc.mid.claim [AGOT: ]
- host_dinner_events.3110.desc.mid.claim:0 ""Alas, I too should be among the landed class, fair [visiting_liege.GetTitleAsNameNoTooltip|U]. If the world were a just place, my righteous claim would be recognized and I too would have a great dining hall to serve you in.""
-### TODO AGOT-ONLY: host_dinner_events.3110.desc.mid.martial [AGOT: ]
- host_dinner_events.3110.desc.mid.martial:0 ""My skills in the matter of war are legend, [visiting_liege.GetTitleAsNameNoTooltip|U]. If you'd have me, I'd gladly lend those skills to you!""
-### TODO AGOT-ONLY: host_dinner_events.3110.desc.mid.learning [AGOT: ]
- host_dinner_events.3110.desc.mid.learning:0 ""None understand the world and the [talented_pool_character.GetFaith.ReligiousText] like I do, magnanimous [visiting_liege.GetTitleAsNameNoTooltip|U]. If you'd have me, I'd be honored to lend my skills to your court.""
-### TODO AGOT-ONLY: host_dinner_events.3110.desc.mid.statecraft [AGOT: ]
- host_dinner_events.3110.desc.mid.statecraft:0 ""I am well versed in statecraft, but my skills are being wasted as I wander around from place to place. If you'd have me at your court, I'd be honored to call you my [visiting_liege.GetTitleAsNameNoTooltip|U].""
+
+ host_dinner_events.3110.desc.mid.claim:0 ""Ne yazık ki, ben de toprak sahibi sınıfın arasında olmalıyım, asil [visiting_liege.GetTitleAsNameNoTooltip|U]. Dünya adil bir yer olsaydı, haklı iddiam tanınırdı ve benim de size hizmet edeceğim büyük bir ziyafet salonum olurdu.""
+
+ host_dinner_events.3110.desc.mid.martial:0 ""Savaş konusundaki becerilerim efsanedir, [visiting_liege.GetTitleAsNameNoTooltip|U]. Beni kabul ederseniz, bu becerileri size memnuniyetle sunarım!""
+
+ host_dinner_events.3110.desc.mid.learning:0 ""Dünyayı ve [talented_pool_character.GetFaith.ReligiousText]'i benim kadar kimse anlamaz, cömert [visiting_liege.GetTitleAsNameNoTooltip|U]. Beni kabul ederseniz, becerilerimi sarayınıza sunmakla onur duyarım.""
+
+ host_dinner_events.3110.desc.mid.statecraft:0 ""Devlet yönetiminde iyi yetişmişimdir, ama oradan oraya sürüklenirken becerilerim heba oluyor. Beni sarayınıza kabul ederseniz, sizi [visiting_liege.GetTitleAsNameNoTooltip|U]'im olarak anmaktan onur duyarım.""
  host_dinner_events.3110.desc.outro:0 "\n\nBöylesine yetenekli bir insana himayesiz bir şekilde rastlamak nadir bir durumdur ama sarayımda onun için yer var mı?"
  host_dinner_events.3110.a:0 "Tabii ki var!"
  host_dinner_events.3110.b:0 "Defol."
@@ -949,17 +949,17 @@
  host_dinner_events.1061.liege_refused_heart:0 "[visiting_liege.GetName] reddetti"
  host_dinner_events.1070.title:0 "Boşa Harcanan Potansiyel"
  host_dinner_events.1070.desc:0 "Bu akşam yemeğinde ayarlamaları [runaway_courtier.GetName] yanıma gelecek şekilde yaptığımda sonucunun böyle olacağını düşünememiştim ancak tabaklar gelip gittikçe bu iyi [Select_CString(runaway_courtier.IsFemale, 'kadının', 'adamın' )] giderek daha fazla ilgimi çektiğini fark ediyorum.\n\n"Ah, keşke başkentte de hayat bu kadar ilginç olsaydı. Çoğu gün sarayın etrafında yorgun ve tembel bir şekilde uzanıyorum. Burada sohbete doyuyorum. Beni saray mensubunuz olarak kabul eder misiniz?""
-### TODO AGOT-ONLY: host_dinner_events.1070.a [AGOT: ]
- host_dinner_events.1070.a:0 ""Of course, join me!""
-### TODO AGOT-ONLY: host_dinner_events.1070.b [AGOT: ]
- host_dinner_events.1070.b:0 ""No.""
+
+ host_dinner_events.1070.a:0 ""Elbette, katıl bana!""
+
+ host_dinner_events.1070.b:0 ""Hayır.""
  host_dinner_events.1071.title:0 "Saraylar Arası Değişim"
  host_dinner_events.1071.desc:1 "[runaway_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U], bana gelerek [stop_host_scope.GetName] izin verdiği için artık onun sarayında hizmet edeceğini söyledi.\n\nBuna izin verirsem [stop_host_scope.GetTitleAsNameNoTooltip|U] bunu takdir edecektir ancak sarayımdan maiyetimi çalma hakareti gerçekten göz yumabileceğim bir şey mi?"
-### TODO AGOT-ONLY: host_dinner_events.1071.a [AGOT: ]
- host_dinner_events.1071.a:0 ""[runaway_courtier.GetNameNoTooltip] is mine!""
+
+ host_dinner_events.1071.a:0 ""[runaway_courtier.GetNameNoTooltip] benim!""
  host_dinner_events.1071.refused_to_let_them_go:0 "[runaway_courtier.GetName] gidemez çünkü [visiting_liege.GetName] gitmesine izin vermedi"
-### TODO AGOT-ONLY: host_dinner_events.1071.b [AGOT: ]
- host_dinner_events.1071.b:0 ""Go where your heart pleases.""
+
+ host_dinner_events.1071.b:0 ""Gönlünün istediği yere git.""
  host_dinner_events.1080.title:0 "Alçakça Bir Gösteri"
  host_dinner_events.1080.desc:0 "Herkes [visiting_liege.GetName] hakkında ne düşündüğümü bilir, o [visiting_liege.Custom2('InsultAdjective', ROOT.Char)] [visiting_liege.Custom2('InsultNoun', ROOT.Char)] yine de salonuma geldi. Yemeklerimi midesine indirmesini görürken nefretten kendimden geçiyorum ancak sonra aklıma bir fikir geliyor.\n\nEğer onun kötülüğünü gösterirsem ziyaretini unutulmaz kılabilirim!"
  host_dinner_events.1080.a:0 "Daha azını hak etmiyor."
@@ -983,12 +983,12 @@
  host_dinner_events.3121.desc.gold_gift:0 "Büyük servetimin yükünü taşıyorum ve bu servetin bir kısmını en sadık vasalıma aktarmak istiyorum."
  host_dinner_events.3121.desc.best_friend:0 "Bir süredir arkadaşız ve belki de bunu bir sonraki seviyeye taşımanın zamanı gelmiştir. Benimle #EMP gerçek#! bir dostluk yemini etmek ister misiniz?"
  host_dinner_events.3121.desc.outro:0 "Bu benim size hediyem, karşılık beklemeden.""
-### TODO AGOT-ONLY: host_dinner_events.3121.a [AGOT: ]
- host_dinner_events.3121.a:0 ""Thank you!""
+
+ host_dinner_events.3121.a:0 ""Teşekkürler!""
  host_dinner_3120_gift_taken:0 "[stop_host_scope.GetFirstName] hediyeyi alıyor"
  host_dinner_3120_gift_refused:0 "[stop_host_scope.GetFirstName] hediyeyi reddediyor"
-### TODO AGOT-ONLY: host_dinner_events.3121.b [AGOT: ]
- host_dinner_events.3121.b:0 ""We are friends, eternal.""
+
+ host_dinner_events.3121.b:0 ""Biz ebedî dostuz.""
  host_dinner_events.3121.c:0 "Kabul etmeyeceğim."
  host_dinner_events.3130.title:0 "Göründüğü Gibi Değil"
  host_dinner_events.3130.desc:0 "Açlıktan kıvranarak uyanıyorum, öyle ki karnımın gurultusundan tekrar uyuyamıyorum.\n\nKaranlıkta mutfağa doğru yürüyorum ve odanın lambamın ışığı dışında bir şeyle biraz aydınlatıldığını görüyorum. Kiler rafları doğaüstü ama davetkâr bir altın rengiyle parlıyor.\n\nParıltının kaynağını bulamadığım için merakla dolup taşıyorum. Işığımın alevi söndüğünde, kilerin kenarlarını kontrol etmeye başlıyorum."
@@ -1044,8 +1044,8 @@
  host_dinner_1091_murder_failed:0 "Cinayet girişiminiz başarısız oldu"
  host_dinner_events.1093.title:0 "$host_dinner_events.1092.title$"
  host_dinner_events.1093.desc:0 "Sadık çeşnicibaşım [food_taster_scope.GetName] görevine devam ediyor. Önündeki [stop_host_scope.Custom('GetExpensiveDessert')] ile bakıştıktan sonra tadına bakıyor ve bana bir onaylama işareti yaparak görevini tamamlıyor.\n\nAncak çok geçmeden zavallı [Select_CString(food_taster_scope.IsFemale, 'kadın', 'adam' )] boğulmaya, nefes almak için çırpınmaya ve yumruğunu masaya vurmaya başlıyor. Saniyeler içinde solarak maviye dönen dudaklarının arasından son nefesini veriyor ve ben tedirgin [stop_host_scope.GetName] ile baş başa kalıyorum."
-### TODO AGOT-ONLY: host_dinner_events.1093.a [AGOT: ]
- host_dinner_events.1093.a:0 ""Murderer!""
+
+ host_dinner_events.1093.a:0 ""Katil!""
  host_dinner_events.3150.title:0 "Bir Onur Meselesi"
  host_dinner_events.3150.desc:0 "Bütün akşam [stop_host_scope.GetName] ve onun sadık şövalyesi [joker_knight.GetName] ile oturdum ve belirtmeliyim ki bu şövalye ağzına gelen her espriyi söylemekten çekinmiyor. Keyifli bir aşkamdı.\n\n"Size söylüyorum, pek çok [ROOT.Char.Custom2('InsultNoun', ROOT.Char)] tanıdım ama [ROOT.Char.GetName] aralarındaki en [ROOT.Char.Custom2('InsultAdjective', ROOT.Char)] olanı! Hah!"\n\n"[Select_CString(ROOT.Char.IsFemale, 'Leydim', 'Lordum' )] hakkında ne söylemeye cüret ettin?" [humorless_knight.GetName] oturduğu yerden ayağa kalkar. "Sana meydan okuyorum, kötü adam!""
  host_dinner_events.3150.a:0 "Ne kadar eğlenceli!"
@@ -1394,14 +1394,14 @@
  more_mysteries_inside_tt:0 "Günlüğün içeriğini keşfediyorsunuz"
  tour_general.5010.title:0 "$journal_events_prefix$ Deşifre Etmek"
  tour_general.5010.desc.intro:0 "En sonunda günlüğün sayfaları bana kendilerini gösterdi ve deşifre etmeye başlayabilirim! Başlangıç şifresi "Nereye gidersem gideyim, gerçek iki adım geride kalır" diyor ve bununla ilk bulmacayı çözebilirim.\n\n"
-### TODO AGOT-ONLY: tour_general.5010.desc.puzzle.a [AGOT: ]
- tour_general.5010.desc.puzzle.a:0 ""Uvtcpigvjkpiueqwnfdg.""
-### TODO AGOT-ONLY: tour_general.5010.desc.puzzle.b [AGOT: ]
- tour_general.5010.desc.puzzle.b:0 ""Vjgurktkvuycvejwucnn.""
-### TODO AGOT-ONLY: tour_general.5010.desc.puzzle.c [AGOT: ]
- tour_general.5010.desc.puzzle.c:0 ""Qwtjkuvqtakuqpnacnkg.""
-### TODO AGOT-ONLY: tour_general.5010.desc.puzzle.d [AGOT: ]
- tour_general.5010.desc.puzzle.d:0 ""Hcnnudavjgktqypjcpfu.""
+
+ tour_general.5010.desc.puzzle.a:0 "Uvtcpigvjkpiueqwnfdg."
+
+ tour_general.5010.desc.puzzle.b:0 "Vjgurktkvuycvejwucnn."
+
+ tour_general.5010.desc.puzzle.c:0 "Qwtjkuvqtakuqpnacnkg."
+
+ tour_general.5010.desc.puzzle.d:0 "Hcnnudavjgktqypjcpfu."
  tour_general.5010.desc.outro:0 "\n\nBunlar düpedüz saçmalık ama bir anlama geliyor olmalılar."
  tour_general.5010.a:0 "Garip şeyler olabilir."
  tour_general.5010.b:0 "Ruhlar hepimizi izliyor."
@@ -1453,29 +1453,29 @@
  cultural_festival.9010.title:0 "Aşırı Hevesli"
  cultural_festival.9010.desc:0 "Bugün [ROOT.Char.GetCurrentLocation.GetName] topraklarında festival var. Festivalin tadını çıkarıyorum ancak [weeb_child.Custom2('MyCharacterIntroduction', ROOT.Char)] kadar değil.\n\nDaha önce kendisinde hiç görmediğim bir coşku ve canlılıkla yerlilerle birlikte dans ediyor ve dönüyor. [festival_culture_scope.GetName|U] kültürünün yabancı geleneklerine tamamen kendini kaptırmış, tamamen evinde gibi görünüyor ve yerel halk da ona bayılıyor gibi görünüyor!"
  cultural_festival.9010.a:0 "Ne kadar hoş."
-### TODO AGOT-ONLY: cultural_festival.9010.b [AGOT: ]
- cultural_festival.9010.b:0 ""Be with them, [weeb_child.GetFirstNameNoTooltip]!""
+
+ cultural_festival.9010.b:0 ""Onlarla ol, [weeb_child.GetFirstNameNoTooltip]!""
  cultural_festival.9020.title:0 "Büyük Doruk Noktası"
  cultural_festival.9020.desc:0 "[ROOT.Char.GetCurrentLocation.GetName] bir başka gün batımına daha şahitlik yapıyor. Yerel halk son bir gösteri hazırlıyor gibi görünüyor. Harika bir ahşap direk kuruldu ve bundan sonra ne olacağını görmek için heyecanlıyım!\n\nBir süre sonra, zayıf bir [Select_CString(human_sacrifice.IsFemale, 'kadın', 'adam' )] tekmelenerek ve çığlıklar eşliğinde sürükleniyor ve direğe bağlanıyor. Karnına bir bıçak dayanıyor ve gözlerini kapattığında ölümle yüzleşmeye hazırlanıyor."
-### TODO AGOT-ONLY: cultural_festival.9020.b [AGOT: ]
- cultural_festival.9020.b:0 ""Stop this madness in the name of your [ROOT.Char.GetTitleAsNameNoTooltip|U]!""
+
+ cultural_festival.9020.b:0 ""[ROOT.Char.GetTitleAsNameNoTooltip|U]'iniz adına bu çılgınlığı durdurun!""
  cultural_festival.9030.title:0 "[ROOT.Char.GetFaith.GetAdherentNameNoTooltip|U] Gelenekleri"
  cultural_festival.9030.desc:0 "[visiting_liege.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bugünkü şenliklerden son derece etkilenmiş görünüyor. Dansçılar, sanatçılar ve komedyenler efendimi memnun etmeye çalışıyor ve bu süreç gayet mükemmel bir şekilde ilerliyor gibi görünüyor.\n\nBöylesine güzel bir ruh hâli içinde ve geleneklerimizle çevrili olan [visiting_liege.GetFirstName], belki de bu gelenekleri canlı tutmakla ilgilenmeye başlayabilir. [ROOT.Char.GetFaith.GetAdherentName|U] gelenekleri, din değiştirmeye karşı uygun yasal korumalar olmadan kesinlikle yok olacaktır."
-### TODO AGOT-ONLY: cultural_festival.9030.a [AGOT: ]
- cultural_festival.9030.a:0 ""It would be a shame for these traditions to die, eh?""
+
+ cultural_festival.9030.a:0 ""Bu geleneklerin ölmesi yazık olur, değil mi?""
  cultural_festival.9030.success:0 "[visiting_liege.GetFirstName] ikna oluyor"
  cultural_festival.9030.failure:0 "[visiting_liege.GetFirstName] ikna olmuyor"
  cultural_festival.9030.b:0 "Sessiz kalmalıyım."
  cultural_festival.9040.t:0 "Bir Servet İçin Bir Sikke"
  cultural_festival.9040.desc:0 "Festivalin uzak bir köşesinde, özenle dekore edilmiş bir çadır buluyorum. Malzemeler ve desenler bana yabancı, memlekette gördüklerimden çok farklı. Sahibi bir yabancı, birleştirdiği ellerinin üzerinden beni tanıyormuş gibi gülümsüyor.\n\n"Ah, bir [ROOT.Char.GetTitleAsNameNoTooltip|U]! Geleceğinde çok şey görüyorum, gel bana bir sikke ver ve her şeyi anlatayım.""
-### TODO AGOT-ONLY: cultural_festival.9040.a [AGOT: ]
- cultural_festival.9040.a:0 ""A coin you shall have.""
+
+ cultural_festival.9040.a:0 ""Bir altın alacaksın.""
  cultural_festival.9040.good_reading:0 "Hakkınızda olumlu okumalar yapıldı"
  cultural_festival.9040.bad_reading:0 "Hakkınızda yapılan okumalar kıyametinizin habercisi"
-### TODO AGOT-ONLY: cultural_festival.9040.b [AGOT: ]
- cultural_festival.9040.b:0 ""I have no interest in common charlatans.""
-### TODO AGOT-ONLY: cultural_festival.9040.c [AGOT: ]
- cultural_festival.9040.c:0 ""Teach me your ways, wise one!""
+
+ cultural_festival.9040.b:0 ""Sıradan şarlatanlara ilgim yok.""
+
+ cultural_festival.9040.c:0 ""Öğret bana yolunu, bilge!""
  cultural_festival.9050.t:0 "Erotik Dans"
  cultural_festival.9050.desc:0 "Bir diğer büyüleyici eğlence için yerime geçtim. Beklenen sessizliğin içinde birden perküsyon çalmaya başlıyor, davullar kalp atışı gibi çarpıyor.\n\nPerdelerin arkasında, vücudunu hem müstehcen hem de heyecan verici bir şekilde sergileyen muhteşem bir [sexy_dancer.GetWomanMan] beliriyor. Vücudunu şaşırtıcı bir biçimde benimkine yaklaştırıyor ve sonra göz kırpmaktan başka bir şey yapmadan beni bırakıp hayran kitlesine geri dönüyor."
  cultural_festival.9050.a:1 "O benim olmalı!"

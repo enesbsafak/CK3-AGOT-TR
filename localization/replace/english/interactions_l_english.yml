@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  ANSWER_YES:1 "#P Kabul edecek#!"
  ANSWER_NO:1 "#N Kabul #bold etmeyecek#!#!"
  ANSWER_BLOCK:1 "Cevabı Engelle"
@@ -476,8 +476,8 @@
  EXECUTION_KENNEL:0 "Köpeklere Ver"
  EXECUTION_PROVISIONS: "Gizemli Ete Dönüştür"
  MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "[Concept( 'faith', 'Mezhebim' )|E] #weak ([CHARACTER.GetFaith.GetName])#! ataması değiştirilemeyen ruhban sınıfı veraset [Concept( 'doctrine', 'İlkesine' )|E] sahip"
-### TODO AGOT-CHANGED: vassal_contract_forbids_revocation [AGOT: You cannot revoke [titles|E] from a [vassal|E] who has a [vassal_contract|E] with #high $title_revocation_rights_protected$#! | TR: #high $title_revocation_rights_protected$#! maddeli bir [Concept( 'vassal_contract', 'Vasal Sözleşmesine' )|E] sahip veya #high $jizya_special_rights_tax_collector$#! [Concept( 'tax_collector', 'Vergi Kararnamesine' )|E] sahip bir [Concept( 'tax_jurisdiction', 'Vergi Grubuna' )|E] bağlı [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'titles', 'Unvanlarını' )|E] feshedemezsiniz]
- vassal_contract_forbids_revocation:2 "You cannot revoke [titles|E] from a [vassal|E] who has a [vassal_contract|E] with #high $title_revocation_rights_protected$#!"
+
+ vassal_contract_forbids_revocation:0 "#high $title_revocation_rights_protected$#! maddeli bir [Concept( 'vassal_contract', 'Vasal Sözleşmesine' )|E] sahip veya #high $jizya_special_rights_tax_collector$#! [Concept( 'tax_collector', 'Vergi Kararnamesine' )|E] sahip bir [Concept( 'tax_jurisdiction', 'Vergi Grubuna' )|E] bağlı [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'titles', 'Unvanlarını' )|E] feshedemezsiniz"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON:1 "Herhangi bir sebep olmadan [ally|E]inizi hapsedemezsiniz"
  TARGET_WAS_RECENTLY_RANSOMED:0 "[TARGET_CHARACTER.GetShortUIName|U] yakın zamanda fiyde karşılığı serbest kalmıştı"
  I_CANNOT_REVOKE_TITLE_FROM_ALLY_WITHOUT_REASON:2 "Herhangi bir [revoke_title_reason|E] olmadan [ally|E]inizin unvanını feshedemezsiniz"
@@ -570,8 +570,8 @@
  is_married_patrilineally_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] [patrilineal|E] evli ve eşi süzereni tarafından işe alınmış"
  is_escaped_prisoner:0 "Yakın zamanda [CHARACTER.GetShortUIName|U] adlı kişiyi [Concept( 'imprison', 'hapsetmeye' )|E] çalıştınız"
  DECISION_COST:0 "Maliyet:"
-### TODO AGOT-CHANGED: EFFECTS_ON_ME [AGOT: Effects on [AGOTGetLongUINameNoTooltip(Character)|V] | TR: #high [Select_CString( Character.IsLocalPlayer, 'Benim', Character.GetUINameNoTooltip )]#! [Select_CString( Character.IsLocalPlayer, 'üzerimdeki', 'üzerindeki' )] etkileri]
- EFFECTS_ON_ME:1 "Effects on [AGOTGetLongUINameNoTooltip(Character)|V]"
+
+ EFFECTS_ON_ME:0 "#high [Select_CString( Character.IsLocalPlayer, 'Benim', Character.GetUINameNoTooltip )]#! [Select_CString( Character.IsLocalPlayer, 'üzerimdeki', 'üzerindeki' )] etkileri"
  RELEASE_GAIN_HOOK:1 "[weak_hook|E] Karşılığında"
  GAIN_HOOK_NEGATIVE_REASON:0 "[hook|E] vermek istemiyor: $VALUE|=+0$"
  demanded_hook:0 "Koz Talep Etti"
@@ -1150,8 +1150,8 @@
  I_AM_BLOCKED_FROM_SWAYING_THIS_CHARACTER:1 "[TARGET_CHARACTER.GetShortUIName] hâlâ size kızgınken onu etkileyemezsiniz"
  MODIFY_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL:2 "Yeni [vassal_contract|E] için bir değişiklik yapmalısınız"
  VASSAL_MODIFY_VASSAL_CONTRACT_CANNOT_INCREASE_OBLIGATION_LEVEL:2 "Yükümlülüklerde ve [hooks|E]da eşit bir değiş tokuş olmalı, şu anda [SelectLocalization( GreaterThan_CFixedPoint( '(CFixedPoint)$VALUE|q$', '(CFixedPoint)0.0' ), CHARACTER.GetShortUIName, TARGET_CHARACTER.GetShortUIName )] kârlı çıkıyor[SelectLocalization( GreaterThan_CFixedPoint( '(CFixedPoint)$VALUE|q$', '(CFixedPoint)0.0' ), 'sunuz', '' )]: [Abs_CFixedPoint( '(CFixedPoint)$VALUE|q$' )|V0]"
-### TODO AGOT-CHANGED: vassal_modify_vassal_contract_obligation_change_limit [AGOT: You cannot propose more than #V [GetPlayer.MakeScope.ScriptValue('max_contract_changes')|0]#! changes at once | TR: Aynı anda en fazla #V [EmptyScope.ScriptValue('max_contract_changes')|0]#! değişiklik önerebilirsiniz]
- vassal_modify_vassal_contract_obligation_change_limit:0 "You cannot propose more than #V [GetPlayer.MakeScope.ScriptValue('max_contract_changes')|0]#! changes at once"
+
+ vassal_modify_vassal_contract_obligation_change_limit:0 "Aynı anda en fazla #V [EmptyScope.ScriptValue('max_contract_changes')|0]#! değişiklik önerebilirsiniz"
  vassal_modify_vassal_contract_unnecessary_hook_usage_vassal_favor:0 "Hâlihazırda [Concept( 'vassal', 'vasalın' )|E] lehinde olan bir sözleşmede [hook|E] kullanamazsınız, şu anki değişiklikler [TARGET_CHARACTER.GetShortUIName] lehinde: $VALUE|V0$"
  vassal_modify_vassal_contract_unnecessary_hook_usage_equal:0 "Hâlihazırda [Concept( 'vassal', 'vasal' )|E] için adil olan bir sözleşmede [hook|E] kullanamazsınız"
  LIEGE_MODIFY_VASSAL_CONTRACT_CANNOT_EXCEED_TYRANNY_CAP:0 "En fazla bir [tyrannical|E] veren değişim yapabilirsiniz"
@@ -1316,8 +1316,8 @@
  AI_DYNASTY_PRESTIGE_REASON_SECONDARY_THEIRS: "[secondary_recipient.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$"
  is_not_wandering_child:1 "Akraba olmayan bir çocuk"
  can_recruit_character_to_court_trigger.tt.laamps_invitation_restrictions: "[adventurers|E] [Concept( 'camp', 'Kamplarına' )|E] sadece [player_heir|E], [soulmate|E], [best_friend|E] veya [Concept( 'spouses', 'Eşlerini' )|E] çağırabilir"
-### TODO AGOT-ONLY: AI_WANDERLUST [AGOT: ]
- AI_WANDERLUST:0 ""You can't tell me what to do, #EMP [actor.GetMotherFather].": $VALUE|=+0$ "
+
+ AI_WANDERLUST:0 ""Bana ne yapacağımı söyleyemezsin, #EMP [actor.GetMotherFather].": $VALUE|=+0$ "
  AI_COURT_LODGING_STANDARDS_QUALITY:1 "$court_lodging_standards$nız: $VALUE|=+0$ "
  AI_LIEGE_COURT_LODGING_STANDARDS_QUALITY:0 "[liege|E]inizin $court_lodging_standards$: $VALUE|=+0$"
  INVITE_TO_COURT_COOLDOWN: "Yakın zamanda mevcut sarayı için bir davet kabul etti ve bir süre daha başka bir yere çağrılamaz"
@@ -1652,15 +1652,15 @@
  court_amenities_interactions.0001.t:0 "Kıyafet Kanununu İhlal Etmekten Suçlanma!"
  court_amenities_interactions.0001.desc_intro:1 "[debate_locale.GetNameNoTierNoTooltip] koridorlarında her zamanki kıyafetlerim ile dolaşırken taht odasının ortasında bir anda [actor.GetTitledFirstName] tarafından durduruldum!\n\n[actor.GetTitledFirstName] parmağını göğüsüme sertçe bastırarak konuşmaya başladı."
  court_amenities_interactions.0001.desc_byzantine:0 ""Sen kendini ne sanıyorsun da mor kıyafetler giyiyorsun? Sadece ben ve #EMP ailem#! mor giyme onuruna sahiptir! Derhâl çıkar üstündekileri!""
-### TODO AGOT-ONLY: court_amenities_interactions.0001.desc_court_position [AGOT: ]
- court_amenities_interactions.0001.desc_court_position:0 ""You call #EMP that#! garb befitting a [recipient.GetTitleAsNameNoTooltip]? You look a fool! Undress this instant, or I shall call the guards!""
-### TODO AGOT-ONLY: court_amenities_interactions.0001.desc.nakey [AGOT: ]
- court_amenities_interactions.0001.desc.nakey:0 ""Though the body is to be celebrated, in all its forms, the least you can do is tend to yourself! How long since you last bathed?""
-### TODO AGOT-ONLY: court_amenities_interactions.0001.desc [AGOT: ]
- court_amenities_interactions.0001.desc:0 ""Just who do you presume to be, strutting around in that ridiculous outfit? This is a royal court, not a brothel! Go and find something more humble!""
+
+ court_amenities_interactions.0001.desc_court_position:0 ""O #EMP kıyafete#! bir [recipient.GetTitleAsNameNoTooltip]'e yakışır kıyafet mi diyorsun? Aptal gibi görünüyorsun! Derhal soyun, yoksa muhafızları çağırırım!""
+
+ court_amenities_interactions.0001.desc.nakey:0 ""Beden, tüm biçimleriyle kutlanmalı, ama yapabileceğin en az şey kendine bakmak! En son ne zaman yıkandın?""
+
+ court_amenities_interactions.0001.desc:0 ""O gülünç kıyafetle ortalıkta kasılarak dolaşan sen de kimsin? Burası kraliyet sarayı, genelev değil! Git ve daha mütevazı bir şey bul!""
  court_amenities_interactions.0001.desc_outro:0 "\n\n[actor.GetNameNoTooltip] beni [actor.GetPrimaryTitle.GetAdjective] kıyafet kanunlarını ihlal etmekle suçladı ve cezalandırılmamı talep etti. Böyle bir ceza üstümde asla kurtulamayacağım bir leke bırakacatır. Bu suçlamaların uydurma olduğu açıkça ortada ve kendimi düzgün bir şekilde savunursam bu suçlamalardan kurtulabilir hatta ona karşı saldırıya bile geçebilirim."
-### TODO AGOT-ONLY: court_amenities_interactions.0001.a [AGOT: ]
- court_amenities_interactions.0001.a:0 ""And what exactly are YOU wearing?""
+
+ court_amenities_interactions.0001.a:0 ""Peki sen tam olarak NE giyiyorsun?""
  court_amenities_interactions.0001.a.tt_success: "#positive_value Giyim tercihlerinizi başarıyla savundunuz#!"
  court_amenities_interactions.0001.a.tt_failure: "#negative_value Giyim tercihlerinize dair argümanlarınız başarısız oldu#!"
  court_amenities_interactions.0001.b:0 "Bedelini onurumla ödeyeceğim"
@@ -1720,8 +1720,8 @@
  artifact_gift_very_low_durability_tt:0 "@warning_icon! #X [target.GetName] çok #N düşük#! [Concept( 'durability', 'Dayanıklılığa' )|E] sahip#!"
  artifact_gift_useless_banner_tt:0 "@warning_icon! #X Alakasız [house|E] veya [dynasty|E] sancağı#!"
  artifact_gift_claimed_tt:0 "#positive_value [recipient.GetTitledFirstName], [target.GetName] üzerinde [artifact_claim|E] sahibi#!"
-### TODO AGOT-CHANGED: can_be_granted_titles_interaction_tt [AGOT: [recipient.GetWomenMen|U] must either be a Dominant, Equal, or Clerical Gender within your [faith|E] ([actor.GetFaith.GetName]) or they must both be your [primary_heir|E] and have the [GetTrait('education_heir_training_1').GetName( GetNullCharacter )] [trait|E] | TR: [recipient.GetWomenMen|U], [Concept( 'faith', 'Mezhebiniz' )|E] ([actor.GetFaith.GetName]) içinde Egemen, Eşit veya Ruhban Sınıfı Cinsiyeti olmalı]
- can_be_granted_titles_interaction_tt:0 "[recipient.GetWomenMen|U] must either be a Dominant, Equal, or Clerical Gender within your [faith|E] ([actor.GetFaith.GetName]) or they must both be your [primary_heir|E] and have the [GetTrait('education_heir_training_1').GetName( GetNullCharacter )] [trait|E]"
+
+ can_be_granted_titles_interaction_tt:0 "[recipient.GetWomenMen|U], [Concept( 'faith', 'Mezhebiniz' )|E] ([actor.GetFaith.GetName]) içinde Egemen, Eşit veya Ruhban Sınıfı Cinsiyeti olmalı"
  diarch_imprison_reason_for_player.tt:1 "@portrait_punishment_icon! #weak Suç — Eğer fırsat yakalarsanız [recipient.GetShortUIName] adlı kişiyi haklı olarak hapsedebilirsiniz#!"
  char_interaction.0261.desc:0 "[intermediary.GetTitledFirstName] tarafından verilen yetki ile [landed_title.GetName] üzerindeki sahte hükmüne son veriyorum. Unvan kraliyet vesayeti ile benim tarafımdan yönetilecek."
  char_interaction.0261.a:0 "Kabul edilemez!"

@@ -5,8 +5,8 @@
  learning_lifestyle_rank_up_indication:0 "[learning_lifestyle|E] [Concept( 'perk', 'Yeteneği' )|E] kazanabilirsiniz."
  learning_lifestyle_experience_gain_indication:0 "[learning_lifestyle|E] [Concept( 'lifestyle_experience', 'tecrübesi' )|E] kazanabilirsiniz."
  learning_scholarship.1101.t:0 "Okuyup Yazamamak"
-### TODO AGOT-ONLY: learning_scholarship.1101.desc [AGOT: ]
- learning_scholarship.1101.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], it has come to my attention that you might require some tutelage in the art of... deciphering written communication," [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)] says, presenting me with a scroll.\n\n"If it would please my [ROOT.Char.GetLadyLord] I would be willing to instruct you; I have the perfect text right here.""
+
+ learning_scholarship.1101.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], dikkatime yazılı iletişimi... çözme sanatında biraz eğitime ihtiyaç duyabileceğiniz getirildi," der [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)], bana bir parşömen sunarak.\n\n"[ROOT.Char.GetLadyLord]'imi memnun edecekse size öğretmeye razıyım; tam aradığım metin burada.""
  learning_scholarship.1101.a:0 "K-kralın büyük bi-bir tacı vardı..."
  learning_scholarship.1101.b:0 "Ben okumayı zaten biliyorum!"
  learning_scholarship.1201.t:0 "Ötücü Kuş"
@@ -42,51 +42,51 @@
  ZEALOTRY: "Dindarlık"
  learning_scholarship_special.2001.t:0 "Yeni Bir Çeviri"
  learning_scholarship_special.2001.desc:0 "Bir şeyleri öğrenme isteğim ve öğrenmek için verdiğim çabalar bana hiçbir şey bilmediğimi fark ettiriyor. Çağlar boyunca, kitaplar eskiyip diller unutuldukça ne bilgiler kaybolmuştur kim bilir...\n\nBelki de klasik eserlerden birinin çevirisini yaparsam bilim dünyasına bir katkım dokunur?\n\nGerçi neyi çevirebilirim ki...?"
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.regula_pastoralis [AGOT: The Book of Holy Prayer, on how to lead a faithful life. | TR: Pastoral Rehberlik, iyi bir yaşantının nasıl olacağı hakkındaki bir eser.]
- learning_scholarship_special.2001.regula_pastoralis:0 "The Book of Holy Prayer, on how to lead a faithful life."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.physica_elementa [AGOT: Lies of the Ancients — Archmaester Fomas' look beyond myth and legend! | TR: Bilimin klasik eserlerinden — Aristoteles'in fizik derlemesi!]
- learning_scholarship_special.2001.physica_elementa:0 "Lies of the Ancients — Archmaester Fomas' look beyond myth and legend!"
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.almagest [AGOT: Studying the stars with Archmaester Lyman's Kingdoms of the Sky. | TR: Batlamyus'un Almagest eseri ile cenneti incelemek!.]
- learning_scholarship_special.2001.almagest:0 "Studying the stars with Archmaester Lyman's Kingdoms of the Sky."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.elements [AGOT: Triumphs and Defeats, Archmaester Vyron's treatise on Storm's End. | TR: Elementler Üzerine, Öklid'in matematik tezi!]
- learning_scholarship_special.2001.elements:0 "Triumphs and Defeats, Archmaester Vyron's treatise on Storm's End."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.corpus_hermeticus [AGOT: The lost knowledge of Marwyn's Book of Lost Books! | TR: Hermetik Öğreti'nin mistik bilgileri!]
- learning_scholarship_special.2001.corpus_hermeticus:0 "The lost knowledge of Marwyn's Book of Lost Books!"
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.treatises_of_hippocrates [AGOT: The medical knowledge of Harmon in On Miasmas. | TR: Hipokrat'ın tıbbi incelemeleri!]
- learning_scholarship_special.2001.treatises_of_hippocrates:0 "The medical knowledge of Harmon in On Miasmas."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.peri_psyches [AGOT: Archmaester Rigney's famous Wheel of History! | TR: Aristoteles'in ünlü Peri Psişeleri!]
- learning_scholarship_special.2001.peri_psyches:0 "Archmaester Rigney's famous Wheel of History!"
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.kategoriai [AGOT: Inventories, Archmaester Thurgood's great work. | TR: 'Kategoriler' bütün konuları ve tahminleri inceleyen kitap!]
- learning_scholarship_special.2001.kategoriai:0 "Inventories, Archmaester Thurgood's great work."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.avesta [AGOT: Maester Illister's work on the Dothraki hordes, Horse Tribes. | TR: Antik Pers kutsal yazıtları, Avesta!.]
- learning_scholarship_special.2001.avesta:0 "Maester Illister's work on the Dothraki hordes, Horse Tribes."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.de_oratore [AGOT: The ballads of the North in Maester Childer's Winter's Kings. | TR: Cicero'nun De Oratore'den retorik dersleri!]
- learning_scholarship_special.2001.de_oratore:0 "The ballads of the North in Maester Childer's Winter's Kings."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.book_of_arda_viraf [AGOT: The dark ashaii'i Prophecies of Azor Ahai. | TR: Ardâvîrâfnâme'den rüya yolculuğu!.]
- learning_scholarship_special.2001.book_of_arda_viraf:0 "The dark ashaii'i Prophecies of Azor Ahai."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.upanishads [AGOT: The records of the Qaathi, the Tears of the Pure. | TR: Vedaların en ünlüsü Upanişadlar!]
- learning_scholarship_special.2001.upanishads:0 "The records of the Qaathi, the Tears of the Pure."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.rigveda [AGOT: The riddles of the warlocks of Qarth, the Ramblings of the Undying. | TR: Rigveda'nın dinî ilahileri.]
- learning_scholarship_special.2001.rigveda:0 "The riddles of the warlocks of Qarth, the Ramblings of the Undying."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.book_of_balances [AGOT: Thrombo's Grand Book of Figuring. | TR: Harezmi'nin Cebir kitabı!]
- learning_scholarship_special.2001.book_of_balances:0 "Thrombo's Grand Book of Figuring."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.secret_of_secrets [AGOT: Grazdan's Rule of Rules. | TR: İskender'e yazılmış Sırların Sırrı.]
- learning_scholarship_special.2001.secret_of_secrets:0 "Grazdan's Rule of Rules."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.court_of_agriculture [AGOT: The Hold of Farming. | TR: Tarım üzerine.]
- learning_scholarship_special.2001.court_of_agriculture:0 "The Hold of Farming."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.lanterns_of_wisdom [AGOT: Instructions on alchemy in The Brazier of Wisdom. | TR: Simya'ya giriş, Bilgeliğin Fenerleri.]
- learning_scholarship_special.2001.lanterns_of_wisdom:0 "Instructions on alchemy in The Brazier of Wisdom."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.shahnameh [AGOT: The tales of the east, the Jade Compendium. | TR: İran'ın tarihi ile ilgili bir şiir kitabı, Şehname!.]
- learning_scholarship_special.2001.shahnameh:0 "The tales of the east, the Jade Compendium."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.arithmetica [AGOT: Maester Michael's The Logistics of Numbers and Figures. | TR: Diophantus'un aritmetik yorumları.]
- learning_scholarship_special.2001.arithmetica:0 "Maester Michael's The Logistics of Numbers and Figures."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.pali_canon [AGOT: A piece of the ancient Hyrkooni Script of the Hero. | TR: Pali Derlemesinden bir metin.]
- learning_scholarship_special.2001.pali_canon:0 "A piece of the ancient Hyrkooni Script of the Hero."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.the_norse_sagas [AGOT: Maester Kirth's Songs the Drowned Men Sing! | TR: İskandinav sagalarından biri!]
- learning_scholarship_special.2001.the_norse_sagas:0 "Maester Kirth's Songs the Drowned Men Sing!"
+
+ learning_scholarship_special.2001.regula_pastoralis:0 "Pastoral Rehberlik, iyi bir yaşantının nasıl olacağı hakkındaki bir eser."
+
+ learning_scholarship_special.2001.physica_elementa:0 "Bilimin klasik eserlerinden — Aristoteles'in fizik derlemesi!"
+
+ learning_scholarship_special.2001.almagest:0 "Batlamyus'un Almagest eseri ile cenneti incelemek!."
+
+ learning_scholarship_special.2001.elements:0 "Elementler Üzerine, Öklid'in matematik tezi!"
+
+ learning_scholarship_special.2001.corpus_hermeticus:0 "Hermetik Öğreti'nin mistik bilgileri!"
+
+ learning_scholarship_special.2001.treatises_of_hippocrates:0 "Hipokrat'ın tıbbi incelemeleri!"
+
+ learning_scholarship_special.2001.peri_psyches:0 "Aristoteles'in ünlü Peri Psişeleri!"
+
+ learning_scholarship_special.2001.kategoriai:0 "'Kategoriler' bütün konuları ve tahminleri inceleyen kitap!"
+
+ learning_scholarship_special.2001.avesta:0 "Antik Pers kutsal yazıtları, Avesta!."
+
+ learning_scholarship_special.2001.de_oratore:0 "Cicero'nun De Oratore'den retorik dersleri!"
+
+ learning_scholarship_special.2001.book_of_arda_viraf:0 "Ardâvîrâfnâme'den rüya yolculuğu!."
+
+ learning_scholarship_special.2001.upanishads:0 "Vedaların en ünlüsü Upanişadlar!"
+
+ learning_scholarship_special.2001.rigveda:0 "Rigveda'nın dinî ilahileri."
+
+ learning_scholarship_special.2001.book_of_balances:0 "Harezmi'nin Cebir kitabı!"
+
+ learning_scholarship_special.2001.secret_of_secrets:0 "İskender'e yazılmış Sırların Sırrı."
+
+ learning_scholarship_special.2001.court_of_agriculture:0 "Tarım üzerine."
+
+ learning_scholarship_special.2001.lanterns_of_wisdom:0 "Simya'ya giriş, Bilgeliğin Fenerleri."
+
+ learning_scholarship_special.2001.shahnameh:0 "İran'ın tarihi ile ilgili bir şiir kitabı, Şehname!."
+
+ learning_scholarship_special.2001.arithmetica:0 "Diophantus'un aritmetik yorumları."
+
+ learning_scholarship_special.2001.pali_canon:0 "Pali Derlemesinden bir metin."
+
+ learning_scholarship_special.2001.the_norse_sagas:0 "İskandinav sagalarından biri!"
  learning_scholarship_special.2001.family_history:0 "Kişisel bir şey — aile tarihim."
-### TODO AGOT-CHANGED: learning_scholarship_special.2001.ancient_myths [AGOT: Something grand — one of the legends of the old heroes! | TR: Büyük bir şey — antik mitlerden biri!]
- learning_scholarship_special.2001.ancient_myths:0 "Something grand — one of the legends of the old heroes!"
+
+ learning_scholarship_special.2001.ancient_myths:0 "Büyük bir şey — antik mitlerden biri!"
  learning_scholarship_special.2001.decline:0 "Bu kulağa çok zor geliyor."
  book_translation_tooltip.unchanged:0 "#V Çeviri Kalitesi#! değişmeyecek"
  book_translation_tooltip.more_good:0 "#V Çeviri Kalitesi#! önemli ölçüde gelişecek"
@@ -110,26 +110,26 @@
  learning_scholarship_special.2012.c:0 "Göstermek ister misin, eski dostum?"
  learning_scholarship_special.2012.c.friendship_tooltip:0 "[realm_priest.GetFirstNameNoTooltip] ile olan arkadaşlığınız sayesinde bu seçeneği seçebiliyorsunuz"
  learning_scholarship_special.2013.desc:0 "[ROOT.Char.Custom('TranslationBook')|U] çevirim ile ilgili notlar alırken aklıma aniden bir şey geldi. "Kâtipler! Hemen yazın şunu...""
-### TODO AGOT-ONLY: learning_scholarship_special.2013.a [AGOT: ]
- learning_scholarship_special.2013.a:0 ""Unlike [ROOT.Char.GetFaith.ReligiousText], this work posits that...""
-### TODO AGOT-ONLY: learning_scholarship_special.2013.b [AGOT: ]
- learning_scholarship_special.2013.b:0 ""As evident from the will of [ROOT.Char.GetFaith.HighGodName]...""
+
+ learning_scholarship_special.2013.a:0 ""[ROOT.Char.GetFaith.ReligiousText]'in aksine, bu eser şunu ileri sürüyor...""
+
+ learning_scholarship_special.2013.b:0 ""[ROOT.Char.GetFaith.HighGodName]'in vasiyetinden açıkça anlaşıldığı üzere...""
  learning_scholarship_special.2014.desc:0 "[ROOT.Char.Custom('TranslationBook')|U] çevirim ile ilgili notlar alırken...\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]? Lütfen beni bağışlayın, ama... uyuya mı kaldınız?!"\n\nBıktım bu işlerden artık, klasik eserler tam bir işkence!"
  learning_scholarship_special.2014.a:0 "Yine de, zorla da olsa bitireceğim!"
  learning_scholarship_special.2014.b:0 "Katiplerimin biraz sorumluluk alma zamanı geldi..."
  learning_scholarship_special.2014.c:0 "Bütün bunlara biraz ara verip dinlenmem gerek."
  learning_scholarship_special.2015.desc:0 "Kendimi mumun çelimsiz ışığı eşliğinde [ROOT.Char.Custom('TranslationBook')|U] çevirisi ile saatler boyunca uğraşırken buluyorum. Çeviri yaparken zamanın nasıl geçtiğini anlamak mümkün değil! Kâtibim bana hatırlatıyor;\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], neredeyse sabah olmak üzere, artık biraz dinlenseniz?""
-### TODO AGOT-ONLY: learning_scholarship_special.2015.a [AGOT: ]
- learning_scholarship_special.2015.a:0 ""No, we have to keep going until I feel done!""
-### TODO AGOT-ONLY: learning_scholarship_special.2015.b [AGOT: ]
- learning_scholarship_special.2015.b:0 ""Yes, some sleep will do us all good.""
-### TODO AGOT-ONLY: learning_scholarship_special.2015.c [AGOT: ]
- learning_scholarship_special.2015.c:0 ""You can all keep working while I rest.""
+
+ learning_scholarship_special.2015.a:0 ""Hayır, ben bitirdim hissetmeden devam etmeliyiz!""
+
+ learning_scholarship_special.2015.b:0 ""Evet, biraz uyku hepimize iyi gelecek.""
+
+ learning_scholarship_special.2015.c:0 ""Ben dinlenirken siz çalışmaya devam edebilirsiniz.""
  learning_scholarship_special.2016.desc:0 "Kâtiplerimden biri [ROOT.Char.Custom('TranslationBook')|U] çevirimde bana sormadan birtakım düzenlemeler yapmış!\n\n"Sadece çevirinin olabildiğince iyi olmasını istedim! Yaptıklarımı kendi işiniz sanarken gayet mutluydunuz!""
  learning_scholarship_special.2016.a:0 "Bir daha asla katiplik yapmayacaksın, ne benim ne de başkasının yanında!"
  learning_scholarship_special.2016.b:0 "Asıl sana yapacaklarımdan sonraki mutluluğumu gör!"
-### TODO AGOT-ONLY: learning_scholarship_special.2016.b.flavor [AGOT: ]
- learning_scholarship_special.2016.b.flavor:0 ""The rest of you scribes better take a lesson from this!""
+
+ learning_scholarship_special.2016.b.flavor:0 ""Geri kalanınız, yazmanlar, bundan ders almalısınız!""
  learning_scholarship_special.2016.c:0 "Aslında... hiç de fena olmamış."
  learning_scholarship_special.2017.desc:0 "Sürekli [ROOT.Char.Custom('TranslationBook')|U] çevirisi ile uğraşmak gerçekten çok yorucu. Sürekli odaklanmak, metinleri anlamak ve yaratıcılık kullanarak kendi dilimize aktarmaya çalışmak beni tüketiyor."
  learning_scholarship_special.2017.a:0 "Şimdi bu gece birkaç sayfa yapsam sabah da birazcık çevirsem..."
@@ -233,15 +233,15 @@
  learning_scholarship.5003.b.failure:0 "Vasalınızı mutlu etmede başarısız olacaksınız"
  learning_scholarship.5004.t:0 "$bibliomancy_chain_header$ Anlam Karmaşası"
  learning_scholarship.5004.desc:0 "Ne yaparsam yapayım, bir türlü [sacred_text.GetName] sayfalarındaki denk geldiğim o cümleyi kavrayamıyorum.\n\nAsıl ölüm korkunun kendisidir... Neyi kastediyor olabilir? Neyden korkmalıyım? #EMP Fark etmediğim bir şey mi var#!?\n\nBelki de bu konuda başkasına danışmalıyım."
-### TODO AGOT-CHANGED: learning_scholarship.5004.a [AGOT: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] will know the answer. | TR: [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] yardımcı olacaktır.]
- learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] will know the answer."
-### TODO AGOT-CHANGED: learning_scholarship.5004.b [AGOT: My courtier [target_courtier.GetTitledFirstNameNoTooltip] will help me. | TR: [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Takipçim', 'Saray mensubum')] [target_courtier.GetTitledFirstNameNoTooltip] işini bilir.]
- learning_scholarship.5004.b:0 "My courtier [target_courtier.GetTitledFirstNameNoTooltip] will help me."
+
+ learning_scholarship.5004.a:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstNameNoTooltip] yardımcı olacaktır."
+
+ learning_scholarship.5004.b:0 "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Takipçim', 'Saray mensubum')] [target_courtier.GetTitledFirstNameNoTooltip] işini bilir."
  learning_scholarship.5004.c:0 "Vazgeçme vakti geldi."
-### TODO AGOT-CHANGED: learning_scholarship.5004.a.success [AGOT: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] clarifies the passage | TR: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] cümleyi açıklıyor]
- learning_scholarship.5004.a.success:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] clarifies the passage"
-### TODO AGOT-CHANGED: learning_scholarship.5004.a.failure [AGOT: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] fails to understand the passage | TR: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] cümleyi anlamıyor]
- learning_scholarship.5004.a.failure:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNicknamedNoTooltip] fails to understand the passage"
+
+ learning_scholarship.5004.a.success:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] cümleyi açıklıyor"
+
+ learning_scholarship.5004.a.failure:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] cümleyi anlamıyor"
  learning_scholarship.5004.b.success:0 "[target_courtier.GetFirstNameNoTooltip] cümleyi açıklıyor"
  learning_scholarship.5004.b.failure:0 "[target_courtier.GetFirstNameNoTooltip] cümleyi anlamıyor"
  learning_scholarship.5005.t:0 "$bibliomancy_chain_header$ Korkusuz"

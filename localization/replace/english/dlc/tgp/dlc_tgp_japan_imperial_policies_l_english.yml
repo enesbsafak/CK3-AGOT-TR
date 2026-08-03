@@ -3,8 +3,8 @@
  imperial_policy_laws_singular: "[imperial_policy|E]"
  defense_mobilization_law: "Savunma Seferberliği"
  defense_mobilization_law_subname: "Dış tehditlere ülke birlik olmalı"
-### TODO AGOT-CHANGED: defense_mobilization_law_effects [AGOT: $EFFECT_LIST_BULLET$Armory and Stable [domicile_buildings|E] Cost: #P -25%#! | TR: $EFFECT_LIST_BULLET$Zırhlık ve Ahır [domicile_building|E] Maliyeti: #P -25%#!\n$EFFECT_LIST_BULLET$[GetCasusBelliType('japan_imperial_reconquest_cb').GetName] [Concept('casus_belli', 'Savaş Sebebini')|E] açar]
- defense_mobilization_law_effects: "$EFFECT_LIST_BULLET$Armory and Stable [domicile_buildings|E] Cost: #P -25%#!"
+
+ defense_mobilization_law_effects:0 "$EFFECT_LIST_BULLET$Zırhlık ve Ahır [domicile_building|E] Maliyeti: #P -25%#!\n$EFFECT_LIST_BULLET$[GetCasusBelliType('japan_imperial_reconquest_cb').GetName] [Concept('casus_belli', 'Savaş Sebebini')|E] açar"
  disarmament_law: "Silahsızlanma"
  disarmament_law_subname: "Barışın sağlanması için silahlara el konulmalı"
  disarmament_law_effects: "$EFFECT_LIST_BULLET$Dahili [casus_belli|E] Prestij Maliyeti: #N +[EmptyScope.ScriptValue('tgp_disarmament_law_increased_cb_cost_value')|0%]#!\n$EFFECT_LIST_BULLET$[GetGovernment('japan_administrative_government').GetName] [government|E] [castle|E] [holdings|E] inşa edebilir ve yükseltebilir"
@@ -14,8 +14,8 @@
  isolation_law_effects: "$EFFECT_LIST_BULLET$[Concept('epidemics', 'Salgınların')|E] ülkenize yayılma ihtimali azalır\n$EFFECT_LIST_BULLET$[GetCourtPositionType('court_physician_court_position').GetName()] tarafından uygulanan tedaviler daha iyi sonuç verir"
  imperial_expansion_law: "İmparatorluk Asayişi"
  imperial_expansion_law_subname: "Ülke sınırları güvence altına alınmalı"
-### TODO AGOT-CHANGED: imperial_expansion_law_effects [AGOT: $EFFECT_LIST_BULLET$Armory and Stable [domicile_buildings|E] Cost: #P -25%#!\n$EFFECT_LIST_BULLET$Allows declaration of external [wars|E] | TR: $EFFECT_LIST_BULLET$Zırhlık ve Ahır [domicile_building|E] Maliyeti: #P -25%#!\n$EFFECT_LIST_BULLET$[GetCasusBelliType('japan_imperial_expansion_cb').GetName] [Concept('casus_belli', 'Savaş Sebebini')|E] açar\n$EFFECT_LIST_BULLET$Dışarıya savaş ilan edilebilir]
- imperial_expansion_law_effects: "$EFFECT_LIST_BULLET$Armory and Stable [domicile_buildings|E] Cost: #P -25%#!\n$EFFECT_LIST_BULLET$Allows declaration of external [wars|E]"
+
+ imperial_expansion_law_effects:0 "$EFFECT_LIST_BULLET$Zırhlık ve Ahır [domicile_building|E] Maliyeti: #P -25%#!\n$EFFECT_LIST_BULLET$[GetCasusBelliType('japan_imperial_expansion_cb').GetName] [Concept('casus_belli', 'Savaş Sebebini')|E] açar\n$EFFECT_LIST_BULLET$Dışarıya savaş ilan edilebilir"
  manor_reform_law: "Malikâne Reformu"
  manor_reform_law_subname: "Yolsuzluğu önlemek için toprak yeniden dağıtılmalı"
  manor_reform_law_effects: "$EFFECT_LIST_BULLET$[governorship|E] geri alınırken harcanan [influence|E] maliyeti yarıya iner"

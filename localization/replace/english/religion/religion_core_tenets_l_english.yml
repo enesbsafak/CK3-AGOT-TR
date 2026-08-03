@@ -24,8 +24,8 @@
  tenet_pacifism_name:0 "Barışçılık"
  tenet_pacifism_desc:0 "Şiddet ızdıraba, acıya ve pişmanlığa sürükleyen iğrenç bir davranıştır. Mümkün olduğunca şiddetten kaçınarak inananların güven içinde yaşayacağı daha güçlü toplumlar inşa edebiliriz."
  doctrine_parameter_holy_wars_forbidden:0 "[holy_wars|E] ilan edemez veya [raid|E] yapamaz."
-### TODO AGOT-ONLY: doctrine_parameter_pacifist_opinion_active [AGOT: ]
- doctrine_parameter_pacifist_opinion_active:0 ""
+
+ doctrine_parameter_pacifist_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  pacifist_opinion_active_opinion_name:0 "Ortak Barışçıl"
  pacifist_opinion_active_county_opinion_name:0 "Ortak Barışçıl Ülke"
  doctrine_parameter_opinion_of_pacifist_opinion_active:0 "Diğer Barışçıllara karşı [opinion|E]: $VALUE|+=0$"
@@ -57,8 +57,8 @@
  tenet_gnosticism_name:0 "Gnostisizm"
  tenet_gnosticism_desc:0 "Bilgi yoluyla her insanın içinde saklı olan kutsal kıvılcım özgür kalıp manevi dünyadaki cennetsel kaynağına dönebilir."
  doctrine_parameter_hostility_override_tenet_gnosticism:3 "Diğer Gnostik ve İkici [Concept( 'faiths', 'Mezhepleri' )|E] $hostility_hostile_tooltippable$ veya $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayar."
-### TODO AGOT-ONLY: doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith [AGOT: ]
- doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 ""
+
+ doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_granting_titles_gives_stress:0 "[title|E] vermek göreceli olarak [stress|E]i azaltır."
  tenet_mendicant_preachers_name:0 "Dilenci Vaizler"
  tenet_mendicant_preachers_desc:0 "Misyonerlerimiz sırtlarında sadece kıyafetleriyle dünyanın her köşesine giderler. Ziyaret ettikleri yerlerinin cömertliğiyle yaşarlar ve karşılığında gerçek dinin öğretilerini paylaşırlar."
@@ -101,8 +101,8 @@
  doctrine_parameter_maintains_head_of_faith_on_creation:0 "Yeni [faiths|E] oluşturulduklarında eski [Concept( 'head_of_faith', 'Mezhep Liderine' )|E] sahip olmaya devam eder"
  doctrine_parameter_ecumenical_christians_keep_ecumenism:0 "[GetPlayer.Custom('GetRiteEcumenismFullOrEmpty')]"
  GetRiteEcumenismFullOrEmpty_full:0 "[GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] ilkesine sahip olan Hristiyan [faiths|E] oluşturuldukların da sahip olmaya devam eder"
-### TODO AGOT-ONLY: GetRiteEcumenismFullOrEmpty_empty [AGOT: ]
- GetRiteEcumenismFullOrEmpty_empty:0 ""
+
+ GetRiteEcumenismFullOrEmpty_empty:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_struggle_submission_name:0 "Çaba ve Boyun Eğme"
  tenet_struggle_submission_desc:0 "Kutsal, tüm iyinin kaynağıdır. Onun hükmüne boyun eğmek ise iyi bir yaşam sürmektir. Biz de bunu gerçekleştirme çabamız ile inancımızı ifade ederiz."
  doctrine_parameter_bonus_holy_war_piety_active:0 "[holy_war|E] kazanmaktan gelen [piety|E] ve [piety_experience|E] #P %50#! artar."
@@ -196,8 +196,8 @@
  piety_from_childbirth_toast:0 "Kutsal Doğum"
  tenet_sanctity_of_nature_name:0 "Doğanın Kutsallığı"
  tenet_sanctity_of_nature_desc:1 "Doğal dünyayı kutsal olan yaratmıştır, biz sadece onun misafiriyiz. Her ağaca, her hayvana ve hatta yere bile saygılı olmalıyız."
-### TODO AGOT-ONLY: doctrine_parameter_believes_in_harmony_with_nature_invisible [AGOT: ]
- doctrine_parameter_believes_in_harmony_with_nature_invisible:0 ""
+
+ doctrine_parameter_believes_in_harmony_with_nature_invisible:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_mystical_birthright_name:0 "Uğurlu Doğum Hakkı"
  tenet_mystical_birthright_alternate:0 "Táltos Születés"
  tenet_mystical_birthright_desc:0 "Hepimiz bir kaderle doğarız. En önemlisi ise Táltos'unki ile doğanlardır. Bu kişiler doğduklarında büyülü güçlere sahip olmak ve büyük manevi liderler olarak hükmetmek için seçilmişlerdir."
@@ -243,50 +243,50 @@
  doctrine_parameter_is_eastern_faith_bilateral_loc_override: "[GetReligionFamily('rf_eastern').GetName] [Concept( 'faiths', 'Mezheplerini' )|E] $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görür ve karşılığında onlar tarafından [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayılır"
  doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith: "[GetReligionFamily('rf_eastern').GetName] [Concept( 'faiths', 'Mezheplerini' )|E] $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görür ve karşılığında onlar tarafından [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayılır"
  doctrine_parameter_eastern_syncretic_actor_opinion_active: "[GetReligionFamily('rf_eastern').GetName] [Concept( 'faiths', 'Mezhepleri' )|E] ile ortak [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonusu"
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active: ""
+
+ doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_eastern_syncretic_recipient_opinion_active: "$tenet_eastern_syncretism_name$ [Concept( 'core_tenet', 'Öğretisine' )|E] sahip [Concept( 'faiths', 'Mezhepler' )|E] ile ortak [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonusu"
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active: ""
+
+ doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_sinitic_syncretism_name:0 "Sinitik Senkretizm"
  tenet_sinitic_syncretism_desc:0 "Çin'in kadim dinlerinden öğreneceğimiz çok şey var. Yüzyıllar boyunca onlar doğru yaşamaya ve erdeme önem verdiler."
  doctrine_parameter_hostility_override_sinitic_hostility_doctrine:1 "Sinitik [faiths|E] [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görülür"
  doctrine_parameter_is_sinitic_faith_bilateral_loc_override:0 "Sinitik [Concept('faiths', 'Mezheplerini')|E] $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] görür ve karşılığında onlar tarafından [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayılır"
  doctrine_parameter_hostility_override_special_doctrine_is_sinitic_faith:0 "Sinitik [Concept('faiths', 'Mezheplerini')|E] $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] görür ve karşılığında onlar tarafından [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayılır"
  doctrine_parameter_sinitic_syncretic_actor_opinion_active:0 "Sinitik [faiths|E] ile ortak [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonusu"
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_sinitic_syncretic_recipient_opinion_active:0 "$tenet_sinitic_syncretism_name$ [Concept('core_tenet', 'Öğretisine')|E] sahip [faiths|E] ile ortak [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonusu"
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_unreformed_syncretism_name:0 "Senkretik Halk Geleneği"
  tenet_unreformed_syncretism_desc:0 "Başkalarının geleneklerinin yanlış olduğunu söyleme yetkisini bize kim veriyor? Yüzyıllarca uydukları görenekler hakkında onlara ders vermek bize düşmez, bunun yerine onlardan öğrenmeliyiz."
  doctrine_parameter_hostility_override_unreformed_faith_doctrine:2 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E] ile birbirlerini $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görürler." #krutygetarts
  doctrine_parameter_hostility_override_west_african_unreformed_faith_doctrine:0 "Afrikalı [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName] [Concept( 'faiths', 'Mezhepler' )|E] ile birbirlerini $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görürler."
  doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "$tenet_unreformed_syncretism_name$ [Concept( 'core_tenet', 'Öğretisine' )|E] sahip [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "Senkretik mezhepten olan toprakların dinini değiştirme hızı [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%] azalır."
  tenet_christian_syncretism_name:0 "Hristiyan Senkretizmi"
  tenet_christian_syncretism_desc:0 "Nasıralı İsa gerçek kutsal olmasa da saygıdeğer ve erdemli birisiydi. Onun öğretilerine saygı duymalıyız."
-### TODO AGOT-ONLY: doctrine_parameter_hostility_override_special_doctrine_is_christian_faith [AGOT: ]
- doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 ""
+
+ doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_is_christian_faith_bilateral_loc_override:2 "Hristiyan [faiths|E] ile birbirlerini $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görürler."
  doctrine_parameter_is_christian_faith_pastoral_isolation_loc_override:1 "İlke farklılıkları gözetmeden tüm diğer Hristiyan [Concept( 'faiths', 'Mezhepleri' )|E] [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] sayar."
  doctrine_parameter_can_use_christian_artefacts:0 "Hristiyan [Concept( 'artifacts', 'eserlerinden' )|E] tamamen yararlanabilir"
  doctrine_parameter_christian_syncretic_actor_opinion_active:1 "Hristiyan [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_christian_syncretic_recipient_opinion_active:1 "$tenet_christian_syncretism_name$ [Concept( 'core_tenet', 'Öğretisine' )|E] sahip [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 ""
-### TODO AGOT-ONLY: doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine [AGOT: ]
- doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 ""
-### TODO AGOT-ONLY: doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine [AGOT: ]
- doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 ""
+
+ doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_adoptionists_like_ecumenism:0 "[GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] ilkesine sahip $christianity_religion_adj$ [Concept( 'faiths', 'Mezhepleri' )|E] $hostility_astray_tooltippable$ yerine $hostility_hostile_tooltippable$ olarak görürler."
  doctrine_parameter_adoptionists_are_unilateral_hostile:0 "Diğer yontulmamış $adoptionist_adherent_plural$ $christianity_religion_adj$ [faiths|E] tarafından $hostility_evil_tooltippable$ sayılırken, bunlar sadece $hostility_hostile_tooltippable$ olarak görülür"
  doctrine_parameter_adoptionists_are_unilateral_evil:0 "Diğer $christianity_religion_adj$ [faiths|E] tarafından $hostility_evil_tooltippable$ sayılır"
@@ -298,21 +298,21 @@
  doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:2 "Müslüman [faiths|E] ile birbirlerini $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görürler."
  doctrine_parameter_can_use_islamic_artefacts:0 "Müslüman [Concept( 'artifacts', 'eserlerinden' )|E] tamamen yararlanabilir"
  doctrine_parameter_islamic_syncretic_actor_opinion_active:1 "Müslüman [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_islamic_syncretic_recipient_opinion_active:1 "$tenet_islamic_syncretism_name$ [Concept( 'core_tenet', 'Öğretisine' )|E] sahip [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_jewish_syncretism_name:0 "Yahudi Senkretizmi"
  tenet_jewish_syncretism_desc:0 "Tanrı'nın seçilmiş insanları oldukları hakkındaki iddialarına katılmasak da Yahudi Tevrat'ının bilgeliği inkâr edilemez. Bu kitaptan öğrenilecek çok şey var."
  doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "Yahudi [faiths|E] ile birbirlerini $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak görürler."
  doctrine_parameter_can_use_jewish_artefacts:0 "Yahudi [Concept( 'artifacts', 'eserlerinden' )|E] tamamen yararlanabilir"
  doctrine_parameter_jewish_syncretic_actor_opinion_active:1 "Yahudi [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  doctrine_parameter_jewish_syncretic_recipient_opinion_active:1 "$tenet_jewish_syncretism_name$ [Concept( 'core_tenet', 'Öğretisine' )|E] sahip [faiths|E] ile [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] ortak [opinion|E] bonusu."
-### TODO AGOT-ONLY: doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active [AGOT: ]
- doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 ""
+
+ doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  tenet_ritual_cannibalism_name:0 "Yamyam Ayini"
  tenet_ritual_cannibalism_desc:0 "İnsanoğluna kutsalın kıvılcımı verilmiştir. İnsan eti bu bakımdan kutsaldır ve gömülecek veya yakılacak bir şey değil, tadılacak bir şeydir."
  doctrine_parameter_cannibalism_legal:0 "[GetTrait('cannibal').GetName( GetNullCharacter )] özelliği [crime|E] sayılmaz."
@@ -338,8 +338,8 @@
  tenet_natural_primitivism_desc:0 "Medeniyet doğal değildir, insanın doğuştan düzensiz olan yaratılışı kâfirce ve beyhude bir şekilde kontrol etmeye çalışmasıdır. Biz doğallığı benimsiyor; [ROOT.Faith.PantheonTerm] nasıl istediyse, vahşi ve özgür bir biçimde yaşıyoruz."
  doctrine_parameter_naked_adherents_active:0 "İnananlar kıyafet giymez."
  doctrine_parameter_natural_primitivism_law_cost_increase:0 "Yasa maliyeti: #N +%50#!"
-### TODO AGOT-CHANGED: doctrine_parameter_unlock_jizya_contract [AGOT: Unlocks the Irūdir [vassal_contract|E] and [tax_decree|E] | TR: Cizye [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] ve [Concept( 'tax_decree', 'vergi kararnamesini' )|E] açar]
- doctrine_parameter_unlock_jizya_contract:1 "Unlocks the Irūdir [vassal_contract|E] and [tax_decree|E]"
+
+ doctrine_parameter_unlock_jizya_contract:0 "Cizye [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] ve [Concept( 'tax_decree', 'vergi kararnamesini' )|E] açar"
  tenet_communal_possessions_name: "Ortak Mülkler"
  tenet_communal_possessions_desc: "[ROOT.Faith.HighGodName] dünyanın kaynaklarından hep birlikte eşit bir şekilde faydalanmamızı ister. Her şey ortakça kullanılmalı, zenginlerin çaldıkları servetlerini yeniden bölüştürmeliyiz." 
  doctrine_parameter_piety_from_gifts_active: "İnananlar [gift|E] göndermek ve [artifact|E] vermekten [piety|E] kazanırlar" 
@@ -374,8 +374,8 @@
  tenet_filial_piety_name: "Ebeveyne Hürmet"
  tenet_filial_piety_desc: "Ebeveyne hürmet ve büyüklere itaat, insan iyiliğinin vücut bulmasının temelidir. Anne babamız hayattayken onlara edep ile hizmet etmeli, öldüklerinde onları edep ile defnetmeli, ardından da edep ile onları yâd etmeliyiz."
  tenet_harmonious_society_name: "Uyumlu Toplum"
-### TODO AGOT-CHANGED: tenet_harmonious_society_desc [AGOT: Everything must be balanced: individuals, nature, society. The heavens set the tempo and we follow its song. | TR: Bireyler, tabiat, toplum, her şey dengede olmalı. Göklerin Oğlu istikameti belirler, biz de onun yürüyüşüne uyum sağlarız.]
- tenet_harmonious_society_desc: "Everything must be balanced: individuals, nature, society. The heavens set the tempo and we follow its song."
+
+ tenet_harmonious_society_desc:0 "Bireyler, tabiat, toplum, her şey dengede olmalı. Göklerin Oğlu istikameti belirler, biz de onun yürüyüşüne uyum sağlarız."
  doctrine_parameter_sway_scheme_better: "[GetScheme('sway').GetTypeName] [scheme_success_chance|E]: [success_chance_i]#P +15%#!"
  doctrine_parameter_sway_scheme_piety: "[Concept('liege', 'Süzereninizi')|E] veya [Concept('vassals', 'Vasallarınızı')|E] hedef alan başarılı [GetScheme('sway').GetTypeName] [Concept('schemes', 'Planları')|E], [piety_i][piety|E] kazandırır"
  doctrine_parameter_more_often_zealots: "[Concept( 'vassals', 'Vasalların' )|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] [vassal_stance|E] edinme ihtimali artar"

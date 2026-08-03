@@ -56,10 +56,10 @@
  tradition_adaptive_skirmishing_desc:0 "Bu kültür avcı erlerini her koşulda nasıl etkili bir şekilde kullanabileceğini bilir."
  tradition_formation_fighting_name:0 "Savaş Düzeni Ustaları"
  tradition_formation_fighting_desc:0 "Bu kültür farklı türdeki birlikler arasında nasıl sinerji kuracağını ve farklı savaş düzenlerinden nasıl yararlanacağını bilir."
-### TODO AGOT-CHANGED: tradition_republican_legacy_name [AGOT: Freehold Legacy | TR: Cumhuriyet Mirası]
- tradition_republican_legacy_name:0 "Freehold Legacy"
-### TODO AGOT-CHANGED: tradition_republican_legacy_desc [AGOT: This culture has a long history of being part of the Freehold, where the urban classes are just as important as the rural landholders. | TR: Bu kültür cumhuriyetçi değerlere sahiptir, toprak sahipleri kadar sıradan vatandaşlara da değer verilir.]
- tradition_republican_legacy_desc:1 "This culture has a long history of being part of the Freehold, where the urban classes are just as important as the rural landholders."
+
+ tradition_republican_legacy_name:0 "Cumhuriyet Mirası"
+
+ tradition_republican_legacy_desc:0 "Bu kültür cumhuriyetçi değerlere sahiptir, toprak sahipleri kadar sıradan vatandaşlara da değer verilir."
  tradition_hereditary_hierarchy_name:0 "Saltanat Hiyerarşisi"
  tradition_hereditary_hierarchy_desc:0 "Bu kültür liderliğin kandan, soyluluğun ise taş kalelerden geldiğine inanır. Feodal düzen mutlaktır ve bu düzeni bozmaya kalkışanlara sıcak bakılmaz."
  tradition_theocratic_autonomy_name:0 "Teokratik Otonomi"
@@ -159,8 +159,8 @@
  tradition_warrior_monks_name:0 "Savaşçı Rahipler"
  tradition_warrior_monks_desc:0 "Bu kültür kendisini dine adayan kişilerin, aynı zamanda dinini savunabilmesi gerektiğine inanır."
  tradition_talent_acquisition_name:0 "Yetenek Avı"
-### TODO AGOT-ONLY: tradition_talent_acquisition_desc [AGOT: ]
- tradition_talent_acquisition_desc:0 ""Kill me if you wish, but if you let me live, I shall serve you loyally.""
+
+ tradition_talent_acquisition_desc:0 ""İstersen öldür, ama yaşamama izin verirsen sana sadakatle hizmet edeceğim.""
  tradition_strength_in_numbers_name:0 "Sayı Avantajı"
  tradition_strength_in_numbers_desc:0 "Bu kültür seçkin birlikler kurmak yerine, ordusu ne kadar kalabalıksa o kadar güçlü olacağına inanıyor."
  tradition_frugal_armorsmiths_name:0 "Eli Sıkı Zırhçılar"
@@ -351,8 +351,8 @@
  culture_parameter_blademaster_trait_bonuses:1 "[GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] fazladan faydalar sağlar"
  culture_parameter_prowess_from_martial_education:0 "[martial|E] [education|E] [Concept( 'trait', 'Özellikleri' )|E] ayrıca [Concept( 'prowess', 'Dövüş Becerisi' )|E] sağlar"
  culture_parameter_martial_education_more_valued:0 "[martial|E] [education|E] [Concept( 'trait', 'Özellikleri' )|E] daha çok değer görür"
-### TODO AGOT-CHANGED: culture_parameter_high_prowess_ignores_knight_restrictions [AGOT: Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 12#! or more [prowess|E] | TR: [prowess_i]#V 10#! ya da daha fazla [Concept( 'prowess', 'Dövüş Becerisine' )|E] sahip karakterler için [knight|E] olma kısıtlamalarının çoğu kaldırılır]
- culture_parameter_high_prowess_ignores_knight_restrictions:0 "Most restrictions on who can be a [knight|E] are lifted for characters with [prowess_i]#V 12#! or more [prowess|E]"
+
+ culture_parameter_high_prowess_ignores_knight_restrictions:0 "[prowess_i]#V 10#! ya da daha fazla [Concept( 'prowess', 'Dövüş Becerisine' )|E] sahip karakterler için [knight|E] olma kısıtlamalarının çoğu kaldırılır"
  culture_parameter_blademaster_traits_more_common:1 "[knights|E] muharebelerde [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliğini' )|E] daha sık edinir"
  culture_parameter_prowess_from_religious_traits:0 "[GetTrait('education_learning_3').GetName( GetNullCharacter )], [GetTrait('devoted').GetName( GetNullCharacter )] ve [GetTrait('theologian').GetName( GetNullCharacter )] gibi [Concept( 'trait', 'Özellikler' )|E] [prowess|E] kazandırır"
  culture_parameter_prowess_traits_more_valued:0 "[GetTrait('education_martial_prowess_1').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_2').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_3').GetName( GetNullCharacter )] ve [GetTrait('education_martial_prowess_4').GetName( GetNullCharacter )] [Concept( 'trait', 'Özellikleri' )|E] daha çok değer görür"
@@ -511,22 +511,22 @@
  culture_parameter_characters_are_better_court_musicians:1 "Bu [Concept( 'culture', 'Kültürden' )|E] [characters|E] #high [GetCourtPositionType('court_musician_court_position').GetName]#! [Concept( 'court_position', 'Saray Pozisyonunda' )|E] daha başarılı olur"
  culture_parameter_better_court_musicians: "[SelectLocalization( HasDlcFeature( 'royal_court' ), 'culture_parameter_better_court_musicians_has_dlc', 'culture_parameter_better_court_musicians_no_dlc' )]"
  culture_parameter_better_court_musicians_has_dlc: "#V [GetCourtPositionType('court_musician_court_position').GetName]#! [court_position|E] bir [title_tier|E] daha erken açılır\n$EFFECT_LIST_BULLET$#V [GetCourtPositionType('court_musician_court_position').GetName]#! [court_position|E] aylık [prestige_i][prestige|E] artışı sağlar"
-### TODO AGOT-ONLY: culture_parameter_better_court_musicians_no_dlc [AGOT: ]
- culture_parameter_better_court_musicians_no_dlc: "" # Intentionally empty
+
+ culture_parameter_better_court_musicians_no_dlc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  court_position_musicians_free: "Geliştirilmiş #V [GetCourtPositionType('court_musician_court_position').GetName]#!"
  culture_parameter_characters_are_better_food_tasters:0 "Bu [Concept( 'culture', 'Kültürden' )|E] [characters|E] #high [GetCourtPositionType('food_taster_court_position').GetName]#! [Concept( 'court_position', 'Saray Pozisyonunda' )|E] daha başarılı olur"
  culture_parameter_better_food_tasters: "[SelectLocalization( HasDlcFeature( 'royal_court' ), 'culture_parameter_better_food_tasters_has_dlc', 'culture_parameter_better_food_tasters_no_dlc' )]"
  culture_parameter_better_food_tasters_has_dlc: "#V [GetCourtPositionType('food_taster_court_position').GetName]#! [court_position|E] bir [title_tier|E] daha erken açılır\n$EFFECT_LIST_BULLET$#V [GetCourtPositionType('food_taster_court_position').GetName]#! [court_position|E] aylık [prestige_i][prestige|E] artışı sağlar"
-### TODO AGOT-ONLY: culture_parameter_better_food_tasters_no_dlc [AGOT: ]
- culture_parameter_better_food_tasters_no_dlc: "" # Intentionally empty
+
+ culture_parameter_better_food_tasters_no_dlc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  court_position_food_tasters_free: "Geliştirilmiş #V [GetCourtPositionType('food_taster_court_position').GetName]#!"
  culture_parameter_characters_are_better_court_poets:0 "Bu [Concept( 'culture', 'Kültürden' )|E] [characters|E] #high [GetCourtPositionType('court_poet_court_position').GetName]#! [Concept( 'court_position', 'Saray Pozisyonunda' )|E] daha başarılı olur"
  culture_parameter_naked_culture_active: "Bu [Concept( 'culture', 'Kültürden' )|E] [characters|E] çıplak olur"
  culture_parameter_characters_are_better_court_gardeners: "Bu [Concept( 'culture', 'Kültürden' )|E] [characters|E] #high $court_gardener_court_position$#! [Concept( 'court_position', 'Saray Pozisyonunda' )|E] daha başarılı olur"
  culture_parameter_better_court_poets: "[SelectLocalization(HasDlcFeature('royal_court'), 'culture_parameter_better_court_poets_has_dlc', 'culture_parameter_better_court_poets_no_dlc')]"
  culture_parameter_better_court_poets_has_dlc: "#V [GetCourtPositionType('court_poet_court_position').GetName]#! [court_position|E] bir [title_tier|E] daha erken açılır\n$EFFECT_LIST_BULLET$#V [GetCourtPositionType('court_poet_court_position').GetName]#! [court_position|E] aylık [prestige_i][prestige|E] artışı sağlar"
-### TODO AGOT-ONLY: culture_parameter_better_court_poets_no_dlc [AGOT: ]
- culture_parameter_better_court_poets_no_dlc: "" # Intentionally empty
+
+ culture_parameter_better_court_poets_no_dlc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  court_position_poets_free: "Geliştirilmiş #V [GetCourtPositionType('court_poet_court_position').GetName]#!"
  culture_parameter_frugal_blacksmith_invite_knight_decision_cooldown: "[GetDecisionWithKey('invite_knights_decision').GetName] [Concept('decision', 'Kararının')|E] bekleme süresi #V 2#! yıldır"
  culture_parameter_frugal_blacksmith_better_invite_knight_decision: "[GetDecisionWithKey('invite_knights_decision').GetName] [Concept('decision', 'Kararı')|E] fazladan #V 2#! $knight_culture_player_no_tooltip$ daha davet eder"
@@ -682,8 +682,8 @@
  culture_parameter_cb_lower_piety_level_requirement:0 "Belirli bir [piety_level|E] gerektiren bütün [casus_bellis|E] bir seviye daha düşük [piety_level|E] gerektirir"
  culture_parameter_can_host_joust_contests:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'can_host_joust_contests_custom_effect_description_TOTO_DLC', 'can_host_joust_contests_custom_effect_description_NO_TOTO_DLC' )]"
  can_host_joust_contests_custom_effect_description_TOTO_DLC:0 "[GetActivityType( 'activity_tournament' ).GetName] Etkinliğinde Mızrak Dövüşü [Concept( 'contest', 'Müsabakası' )|E] organize edebilir"
-### TODO AGOT-ONLY: can_host_joust_contests_custom_effect_description_NO_TOTO_DLC [AGOT: ]
- can_host_joust_contests_custom_effect_description_NO_TOTO_DLC:0 ""
+
+ can_host_joust_contests_custom_effect_description_NO_TOTO_DLC:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  culture_parameter_just_trait_gives_bonuses:0 "[GetTrait('just').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] ekstra faydalar sağlar"
  culture_parameter_trade_port_building_bonuses:1 "#V $building_type_common_tradeport_01$#! tipi [buildings|E] bu kültüre sahip [Concept( 'counties', 'Kontluklarda' )|E] fazladan gelir sağlar"
  culture_parameter_peat_quarries_building_bonuses:0 "#V $building_type_peat_quarries_01$#! tipi [buildings|E] bu kültüre sahip [Concept( 'counties', 'Kontluklarda' )|E] ekstra faydalar sağlar"
@@ -707,8 +707,8 @@
  culture_parameter_number_of_consorts_hegemony: "[hegemony|E] seviyesindeki hükümdarlar, [gender_law|E] izin veriyorsa $VALUE|V0$ [Concept('concubines', 'Cariyeye')|E] kadar alabilir"
  culture_parameter_poet_trait_gives_bonuses:0 "[GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] ekstra faydalar sağlar"
  culture_parameter_poet_trait_more_common:0 "[GetTrait('lifestyle_poet').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliği' )|E] daha yaygındır"
-### TODO AGOT-CHANGED: culture_parameter_piety_gain_on_building_complete_in_forest_taiga [AGOT: Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Forest#!, #V Jungle#!, #V $cloudforest$#!, #V Taiga#!, or #V $taiga_bog$#!  [terrain|E] | TR: #V Orman#!, #V Vahşi Orman#! ya da #V Tayga#! bölgelerde inşa edilen [buildings|E] [piety_i][piety|E] kazandırır]
- culture_parameter_piety_gain_on_building_complete_in_forest_taiga:2 "Gain [piety_i][piety|E] when completing [buildings|E] in [holdings|E] with either #V Forest#!, #V Jungle#!, #V $cloudforest$#!, #V Taiga#!, or #V $taiga_bog$#!  [terrain|E]"
+
+ culture_parameter_piety_gain_on_building_complete_in_forest_taiga:0 "#V Orman#!, #V Vahşi Orman#! ya da #V Tayga#! bölgelerde inşa edilen [buildings|E] [piety_i][piety|E] kazandırır"
  culture_parameter_piety_gain_on_building_complete_in_mountains:1 "#V Dağ#! ya da #V Dağlık Çöl#! bölgelerde inşa edilen [buildings|E] [piety_i][piety|E] kazandırır"
  culture_parameter_can_duel_rivals:0 "$UNLOCKS_ABILITY_TO_DUEL_RIVALS$"
  culture_parameter_cannot_fire_court_chaplain:0 "[court_chaplain|E] görevinden alınamaz"
@@ -823,8 +823,8 @@
  no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$, $tradition_warrior_culture_name$ ile birlikte seçilemez"
  no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$, $tradition_philosopher_culture_name$ ile birlikte seçilemez"
  culture_in_winter_geographical_region_trigger_desc:0 "Bu [culture|E] kış geçiren bir [Concept( 'region', 'Bölgede' )|E] mevcut değil"
-### TODO AGOT-CHANGED: culture_in_non_sedentary_geographical_region_trigger_desc [AGOT: The [culture|E] is not present in the [GetGeographicalRegion('world_essos_great_grass_sea').GetName] | TR: Bu [culture|E] [GetGeographicalRegion('world_steppe').GetName] bölgesinde mevcut değil]
- culture_in_non_sedentary_geographical_region_trigger_desc:0 "The [culture|E] is not present in the [GetGeographicalRegion('world_essos_great_grass_sea').GetName]"
+
+ culture_in_non_sedentary_geographical_region_trigger_desc:0 "Bu [culture|E] [GetGeographicalRegion('world_steppe').GetName] bölgesinde mevcut değil"
  culture_in_india_region_trigger_desc:0 "Bu [culture|E] [GetGeographicalRegion('world_india').GetName] bölgesinde mevcut değil"
  culture_in_roman_empire_desc:0 "[GetGeographicalRegion('custom_eastern_roman_empire').GetName] bölgesinde bu [Concept( 'culture', 'Kültürden' )|E] #V 50#! [Concept( 'counties', 'Kontluk' )|E] yok"
  culture_in_camel_region_desc:0 "Bu [culture|E] [GetGeographicalRegion('world_innovation_camels').GetName] bölgesinde mevcut değil"
@@ -839,11 +839,11 @@
  culture_in_plains_or_steppe_terrain_desc:0 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların #V %40#! kadarı Ova veya Bozkır [region|E] [Concept( 'terrain', 'Arazisine' )|E] sahip [Concept( 'county', 'Kontluklarda' )|E] ya da [GetGeographicalRegion('world_steppe').GetName] [Concept( 'region', 'Bölgesinde' )|E] mevcut değil."
  culture_in_wetlands_desc:0 "Bu [culture|E] Sulak Alan [Concept( 'terrain', 'Arazisine' )|E] sahip [Concept( 'county', 'Kontluklarda' )|E] mevcut değil"
  culture_in_wetlands_count_desc:0 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların #V 3#!'ten azı Sulak Alan"
-### TODO AGOT-CHANGED: culture_in_farmlands_or_floodplains_terrain_desc [AGOT: The [culture|E] is not present in any [county|E] with Meadow or Floodplain [terrain|E] | TR: Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların hiçbiri Tarım Alanı ya da Taşkın Yatağı değil]
- culture_in_farmlands_or_floodplains_terrain_desc:0 "The [culture|E] is not present in any [county|E] with Meadow or Floodplain [terrain|E]"
+
+ culture_in_farmlands_or_floodplains_terrain_desc:0 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların hiçbiri Tarım Alanı ya da Taşkın Yatağı değil"
  culture_in_terraced_hills_terrain_desc: "Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların hiçbiri Teraslı Tepe [Concept('terrain', 'Arazisine')|E] sahip değil"
-### TODO AGOT-CHANGED: culture_in_farmlands_or_floodplains_terrain_count_desc [AGOT: The [culture|E] is not present in at least #V 5#! [counties|E] with Meadow or Floodplain [terrain|E] | TR: Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların en az 5 tanesi Tarım Alanı ya da Taşkın Yatağı değil]
- culture_in_farmlands_or_floodplains_terrain_count_desc:0 "The [culture|E] is not present in at least #V 5#! [counties|E] with Meadow or Floodplain [terrain|E]"
+
+ culture_in_farmlands_or_floodplains_terrain_count_desc:0 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip toprakların en az 5 tanesi Tarım Alanı ya da Taşkın Yatağı değil"
  culture_in_terraced_hills_terrain_count_desc: "Bu [Concept( 'culture', 'Kültüre' )|E] sahip en az #V 3#! [Concept( 'counties', 'Kontluk' )|E] Teraslı Tepe [Concept('terrain', 'Arazisine')|E] sahip değil"
  culture_in_plains_or_steppe_terrain_percentage_desc:0 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip [Concept( 'counties', 'Kontlukların' )|E] #V %60'dan#! azı Ova veya Bozkır [region|E] [Concept( 'terrain', 'Arazisine' )|E] sahip [Concept( 'county', 'Kontluklarda' )|E] ya da [GetGeographicalRegion('world_steppe').GetName] [Concept( 'region', 'Bölgesinde' )|E]"
  culture_in_steppe_desc:1 "Bu [Concept( 'culture', 'Kültüre' )|E] sahip [Concept( 'counties', 'Kontlukların' )|E] #V %40'dan#! azı [GetGeographicalRegion('world_steppe').GetName] [Concept( 'region', 'Bölgesinde' )|E]"
@@ -904,15 +904,15 @@
  not_courtly_or_spiritual_desc:1 "Bu [culture|E] $ethos_courtly_name$ ya da $ethos_spiritual_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  not_egalitarian_stoic_or_bureaucratic_desc:1 "Bu [culture|E] $ethos_egalitarian_name$, $ethos_stoic_name$ ya da $ethos_bureaucratic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  not_egalitarian_or_courtly_desc:0 "Bu [culture|E] $ethos_egalitarian_name$ ya da $ethos_courtly_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
-### TODO AGOT-CHANGED: not_communal_or_spiritual_desc [AGOT: The [culture|E] does not have the $ethos_communal_name$ or $ethos_spiritual_name$ [ethos|E] | TR: Bu [culture|E] $ethos_communal_name$ ya da $ethos_spiritual_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil]
- not_communal_or_spiritual_desc:0 "The [culture|E] does not have the $ethos_communal_name$ or $ethos_spiritual_name$ [ethos|E]"
+
+ not_communal_or_spiritual_desc:0 "Bu [culture|E] $ethos_communal_name$ ya da $ethos_spiritual_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  not_communal_bureaucratic_or_stoic_desc:1 "Bu [culture|E] $ethos_communal_name$, $ethos_bureaucratic_name$ ya da $ethos_stoic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
-### TODO AGOT-CHANGED: not_communal_egalitarian_or_stoic_desc [AGOT: The [culture|E] does not have the $ethos_communal_name$, $ethos_egalitarian_name$ or $ethos_stoic_name$ [ethos|E] | TR: Bu [culture|E] $ethos_communal_name$, $ethos_egalitarian_name$ ya da $ethos_stoic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil]
- not_communal_egalitarian_or_stoic_desc:0 "The [culture|E] does not have the $ethos_communal_name$, $ethos_egalitarian_name$ or $ethos_stoic_name$ [ethos|E]"
-### TODO AGOT-CHANGED: not_communal_or_egalitarian_desc [AGOT: The [culture|E] does not have the $ethos_communal_name$ or $ethos_egalitarian_name$ [ethos|E] | TR: Bu [culture|E] $ethos_communal_name$ ya da $ethos_egalitarian_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil]
- not_communal_or_egalitarian_desc:0 "The [culture|E] does not have the $ethos_communal_name$ or $ethos_egalitarian_name$ [ethos|E]"
-### TODO AGOT-CHANGED: not_communal_spiritual_or_stoic_desc [AGOT: The [culture|E] does not have the $ethos_communal_name$, $ethos_spiritual_name$ or $ethos_stoic_name$ [ethos|E] | TR: Bu [culture|E] $ethos_communal_name$, $ethos_spiritual_name$ ya da $ethos_stoic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil]
- not_communal_spiritual_or_stoic_desc:0 "The [culture|E] does not have the $ethos_communal_name$, $ethos_spiritual_name$ or $ethos_stoic_name$ [ethos|E]"
+
+ not_communal_egalitarian_or_stoic_desc:0 "Bu [culture|E] $ethos_communal_name$, $ethos_egalitarian_name$ ya da $ethos_stoic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
+
+ not_communal_or_egalitarian_desc:0 "Bu [culture|E] $ethos_communal_name$ ya da $ethos_egalitarian_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
+
+ not_communal_spiritual_or_stoic_desc:0 "Bu [culture|E] $ethos_communal_name$, $ethos_spiritual_name$ ya da $ethos_stoic_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  not_communal_egalitarian_or_courtly_desc:0 "Bu [culture|E] $ethos_communal_name$, $ethos_egalitarian_name$ ya da $ethos_courtly_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  not_communal_or_courtly_desc:0 "Bu [culture|E] $ethos_communal_name$ ya da $ethos_courtly_name$ [Concept( 'ethos', 'Değerlerine' )|E] sahip değil"
  winter_soldier_affinity_desc:0 "Bu [Concept( 'culture_head', 'Kültürün Önderi' )|E] [GetTrait('winter_soldier').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliğine' )|E] sahip değil"
@@ -1040,12 +1040,12 @@
  realm_culture_size_diff:0 "[realm|E] içinde büyüklük farkı" # TODO AO This string should ideally print the names, but it errors like crazy
  hybrid_cost_from_acceptance:0 "[cultural_acceptance|E] kaynaklı"
  culture_size_in_realm:0 "Kontrol edilen [culture|E] [counties|E]"
-### TODO AGOT-ONLY: ai_cultural_hybridization_decision_tooltip [AGOT: ]
- ai_cultural_hybridization_decision_tooltip:0 ""
-### TODO AGOT-ONLY: ai_cultural_hybridization_decision_desc [AGOT: ]
- ai_cultural_hybridization_decision_desc:0 ""
-### TODO AGOT-ONLY: ai_cultural_hybridization_decision_confirm [AGOT: ]
- ai_cultural_hybridization_decision_confirm:0 ""
+
+ ai_cultural_hybridization_decision_tooltip:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ai_cultural_hybridization_decision_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ ai_cultural_hybridization_decision_confirm:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  culture_not_female_only_tt: "Kültürünüz [GetLaw('female_only_law').GetName] [Concept( 'succession', 'Veraseti' )|E] mümkün kılan bir [Concept( 'tradition', 'Geleneğe' )|E] sahip ve [Concept( 'faith', 'Mezhebiniz' )|E] [GetFaithDoctrine('doctrine_gender_male_dominated').GetBaseName] [Concept( 'doctrine', 'İlkesine' )|E] sahip olmalı"
  culture_not_male_only_tt: "Kültürünüz [GetLaw('male_only_law').GetName] [Concept( 'succession', 'Veraseti' )|E] mümkün kılan bir [Concept( 'tradition', 'Geleneğe' )|E] sahip ve [Concept( 'faith', 'Mezhebiniz' )|E] [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [Concept( 'doctrine', 'İlkesine' )|E] sahip olmalı"
  female_only_law_faith_or_culture_trigger:0 "[Concept( 'faith', 'Mezhebiniz' )|E] [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] [Concept( 'doctrine', 'İlkesine' )|E] sahip değil ve [Concept( 'culture', 'Kültürünüz' )|E] [GetLaw('female_only_law').GetName] kanununu geçirmenize izin veren bir [Concept( 'culture_tradition', 'geleneğe' )|E] sahip değil"
@@ -1089,14 +1089,14 @@
  sparring_sprained_ankle_modifier:0 "Talim: Bilek Burkulması"
  culture_tradition_events.0002.t:0 "[GetPlayer.Custom( 'KnightCultureNoTooltip' )] ile antrenman yap: Sonuç"
  culture_tradition_events.0002.desc:0 "Silahımı indirip [recipient.GetTitledFirstName] ile göz göze geldikten sonra ona geleneksel selamı veriyorum. O da aynısını yapıyor.\n\n"
-### TODO AGOT-ONLY: culture_tradition_events.0002.desc_actor_victor_good [AGOT: ]
- culture_tradition_events.0002.desc_actor_victor_good:0 ""Well fought, my [actor.GetTitleTierName|U]! You bested me fair-and-square." [recipient.GetFirstNameNoTooltip] says.\n"This practice will surely serve us well, should there be war in the future of [actor.GetPrimaryTitle.GetNameNoTierNoTooltip]."\n\nThis was invigorating, I feel fit and ready!"
-### TODO AGOT-ONLY: culture_tradition_events.0002.desc_actor_victor_bad [AGOT: ]
- culture_tradition_events.0002.desc_actor_victor_bad:0 ""Well fought, my [actor.GetTitleTierName|U], I am throughly defeated." [recipient.GetFirstNameNoTooltip] whimpers.\n"Though remember, do not let this victory go to your head. I am not your enemy, they are still out there."\n\nBah! I feel just fine!"
-### TODO AGOT-ONLY: culture_tradition_events.0002.desc_recipient_victor_good [AGOT: ]
- culture_tradition_events.0002.desc_recipient_victor_good:0 ""Well fought, my [actor.GetTitleTierName|U], I win this round!" [recipient.GetFirstNameNoTooltip] says with a sporting tone. "Now we are ready to face anything!"\n\nIndeed we are, perhaps I should consider my next conquest?"
-### TODO AGOT-ONLY: culture_tradition_events.0002.desc_recipient_victor_bad [AGOT: ]
- culture_tradition_events.0002.desc_recipient_victor_bad:0 ""Well fought, my [actor.GetTitleTierName|U]. I am sorry if I caused you harm. For a brief moment I was in a trance — me and my weapon were as one..." [recipient.GetFirstNameNoTooltip] says apologetically.\n"Perhaps you need a bit of rest?"\n\nNonsense, I am fit as a butcher's dog!"
+
+ culture_tradition_events.0002.desc_actor_victor_good:0 ""İyi dövüştün, [actor.GetTitleTierName|U]'im! Beni hakkaniyetle yendin." der [recipient.GetFirstNameNoTooltip].\n"Bu gelenek, [actor.GetPrimaryTitle.GetNameNoTierNoTooltip]'in geleceğinde savaş olursa bize kesinlikle iyi hizmet edecek."\n\nBu canlandırıcıydı, kendimi dinç ve hazır hissediyorum!""
+
+ culture_tradition_events.0002.desc_actor_victor_bad:0 ""İyi dövüştün, [actor.GetTitleTierName|U]'im, tamamen yenildim." diye sızlanır [recipient.GetFirstNameNoTooltip].\n"Yine de hatırla, bu zaferin başını döndürmesine izin verme. Ben senin düşmanın değilim, onlar hâlâ orada."\n\nPöh! Kendimi gayet iyi hissediyorum!""
+
+ culture_tradition_events.0002.desc_recipient_victor_good:0 ""İyi dövüştün, [actor.GetTitleTierName|U]'im, bu turu ben kazandım!" der [recipient.GetFirstNameNoTooltip] sportmen bir tonda. "Artık her şeyle yüzleşmeye hazırız!"\n\nGerçekten de öyleyiz, belki bir sonraki fetihimi düşünmeliyim?""
+
+ culture_tradition_events.0002.desc_recipient_victor_bad:0 ""İyi dövüştün, [actor.GetTitleTierName|U]'im. Sana zarar verdiysem üzgünüm. Kısa bir an için kendimden geçmiştim — ben ve silahım bir olmuştuk..." der [recipient.GetFirstNameNoTooltip] özür dilercesine.\n"Belki biraz dinlenmeye ihtiyacın vardır?"\n\nSaçmalık, kasap köpeği gibi dinçim!""
  culture_tradition_events.0002.a:0 "İyi maçtı!"
  culture_tradition_events.0002.b:0 "Kaybetmiş olabilirim ama iyi antrenman oldu!"
  FROM_CULTURE_TRADITIONS:0 "[culture_traditions|E] Kaynaklı: $VALUE|=+0$"
@@ -1129,12 +1129,12 @@
  remove_marriage_traditions:0 "[culture_scope.GetName] [Concept( 'culture', 'kültüründe' )|E] [Concept( 'marriage', 'Evlilikleri' )|E] etkileyen ve [faith_scope.GetName] [Concept( 'doctrines', 'İlkeleri' )|E] ile çatışan [traditions|E] kaldırılacak"
  culture_tradition_events.0100.t:0 "Kültür ve İnancın Çatışması"
  culture_tradition_events.0100.desc:0 "[head_of_faith.GetTitledFirstName] bir mektup yollamış. Mektup nazik hasbihal sözleriyle başlıyor ve [culture_scope.GetName] insanının gözündeki değerimin altını çiziyor.\n\n"
-### TODO AGOT-ONLY: culture_tradition_events.0100.tradition_monogamous [AGOT: ]
- culture_tradition_events.0100.tradition_monogamous:0 ""You must understand that for as long as your people practice monogamy, you are in violation of [faith_scope.GetAdjective] doctrine! I only wish for your salvation. The duty of every good [faith_scope.GetAdjectiveNoTooltip] cannot be fulfilled with but one spouse." the missive reads."
-### TODO AGOT-ONLY: culture_tradition_events.0100.tradition_polygamous [AGOT: ]
- culture_tradition_events.0100.tradition_polygamous:0 ""Your practice of polygamy is in strict opposition of [faith_scope.GetAdjective] doctrine, and a sin in the eyes of [faith_scope.HighGodName]! I only wish for your salvation. Please, lead your people into the light and shed yourselves of excess spouses!" the missive reads."
-### TODO AGOT-ONLY: culture_tradition_events.0100.tradition_concubines [AGOT: ]
- culture_tradition_events.0100.tradition_concubines:0 ""Your practice of concubinage is not supported by [faith_scope.GetAdjective] doctrine, only through proper marriage will [faith_scope.HighGodName] smile upon your people! I only wish for your salvation. Set aside your concubines, for the good of us all." the missive reads."
+
+ culture_tradition_events.0100.tradition_monogamous:0 ""Anlamalısınız ki, halkınız tek eşliliği sürdürdüğü sürece [faith_scope.GetAdjective] doktrinini ihlal ediyorsunuz! Ben yalnızca kurtuluşunuzu istiyorum. Her iyi [faith_scope.GetAdjectiveNoTooltip]'in görevi tek bir eşle yerine getirilemez." diye okunur mektupta.""
+
+ culture_tradition_events.0100.tradition_polygamous:0 ""Çok eşlilik uygulamanız [faith_scope.GetAdjective] doktrinine kesin bir karşıtlık içinde ve [faith_scope.HighGodName]'in gözünde bir günahtır! Ben yalnızca kurtuluşunuzu istiyorum. Lütfen, halkınızı ışığa yönlendirin ve fazladan eşlerinizden kurtulun!" diye okunur mektupta.""
+
+ culture_tradition_events.0100.tradition_concubines:0 ""Cariyelik uygulamanız [faith_scope.GetAdjective] doktrini tarafından desteklenmiyor; yalnızca uygun evlilik yoluyla [faith_scope.HighGodName] halkınıza gülümseyecek! Ben yalnızca kurtuluşunuzu istiyorum. Hepimizin iyiliği için cariyelerinizi bir kenara bırakın." diye okunur mektupta.""
  culture_tradition_events.0100.end:0 "\n\nKesinlikle bir ikilem... hangisine daha çok değer veriyorum? Halkımın örf ve âdetlerine mi yoksa dinimizin ilkelerine mi?"
  culture_tradition_events.0100.a:0 "[faith_scope.GetAdjectiveNoTooltip] ilkesini her şeyin önüne koymalıyız."
  culture_tradition_events.0100.b:0 "Halkımın örf ve âdetleri daha önemli!"
@@ -1147,8 +1147,8 @@
  culture_tradition_events.0101.b.tt.failure:0 "Mistik tiksintiyle sarayınızdan ayrılıyor"
  culture_tradition_events.0101.c:0 "Uzaklaş dilenci, burada yemek yemeye çalışıyorum!"
  culture_tradition_events.0111.t:0 "Mistiğin Konuşması"
-### TODO AGOT-ONLY: culture_tradition_events.0111.desc [AGOT: ]
- culture_tradition_events.0111.desc:0 ""...is why we must submit ourselves to the beneficence of [mendicant_mystic.GetFaith.HighGodName] every moment of every day of our lives. Do you see? Shall I continue?"\n\nTwo. Straight. Hours.\n\nI don't even know how [mendicant_mystic.GetName] found [mendicant_mystic.GetHerHis] way into my chambers, but the [mendicant_mystic.GetFaith.PriestNeuter] has been lecturing me on the finer points of [mendicant_mystic.GetFaith.GetName] theology for #EMP two. Straight. Hours.#!\n\nAt long last, the [mendicant_mystic.GetWomanMan] falls silent, looking at me for a response. I feel my eye begin to twitch."
+
+ culture_tradition_events.0111.desc:0 ""...işte bu yüzden hayatımızın her anında kendimizi [mendicant_mystic.GetFaith.HighGodName]'in iyiliğine teslim etmeliyiz. Anladınız mı? Devam edeyim mi?"\n\nİki. Saat. Boyunca.\n\n[mendicant_mystic.GetName]'in [mendicant_mystic.GetHerHis] yolunu odalarıma nasıl bulduğunu bile bilmiyorum, ama [mendicant_mystic.GetFaith.PriestNeuter] bana [mendicant_mystic.GetFaith.GetName] teolojisinin incelikleri hakkında #EMP tam iki saat boyunca#! ders verdi.\n\nNihayet, [mendicant_mystic.GetWomanMan] susuyor ve benden bir cevap bekliyor. Gözümün seğirmeye başladığını hissediyorum.""
  culture_tradition_events.0111.a:0 "İlham verici sözler!"
  culture_tradition_events.0111.b:0 "Söyleyeceğini söyledin, sıra bende..."
  culture_tradition_events.0111.a.tt.success:0 "Mistiğin argümanlarını çökertiyorsunuz"
@@ -1160,8 +1160,8 @@
  culture_tradition_events.0121.b:0 "Sadık bir [mendicant_mystic.GetFaith.PriestNeuter] diyorsun..."
  culture_tradition_events.0121.c:0 "Böyle görünüp, böyle #EMP kokup#! burada yaşayabileceğini mi sanıyorsun?"
  culture_tradition_events.0131.t:0 "Mistiğin Gazabı"
-### TODO AGOT-ONLY: culture_tradition_events.0131.desc [AGOT: ]
- culture_tradition_events.0131.desc:0 ""[ROOT.Char.GetTitleAsNameNoTooltip]? You're barely a worm, #EMP writhing in the filth#! of your own corruption! Repent your sins beneath [mendicant_mystic.GetFaith.HighGodName]! [mendicant_mystic.GetFaith.HighGodName] the Mighty! [mendicant_mystic.GetFaith.HighGodName] the Unerring! [mendicant_mystic.GetFaith.HighGodName] the Unassailable!"\n\nDamn and blast this irritating [mendicant_mystic.GetFaith.PriestNeuter]. It was bad enough when [mendicant_mystic.GetSheHe] was on the street corner! If I #EMP ever#! figure out who let [mendicant_mystic.GetFirstName] into my #EMP home#!, I'll have their eyes; [mendicant_mystic.GetSheHe]'s been here less than ten minutes and I've already got a cluster headache coming on.\n\nI can't take much more of the mendicant's tirade, I've got to act swiftly while there's a natural break in [mendicant_mystic.GetHerHis] rant."
+
+ culture_tradition_events.0131.desc:0 ""[ROOT.Char.GetTitleAsNameNoTooltip]? Sen kendi çürümüşlüğünün #EMP pisliğinde kıvranan#! bir solucansın! Günahlarından [mendicant_mystic.GetFaith.HighGodName] önünde tövbe et! Kudretli [mendicant_mystic.GetFaith.HighGodName]! Yanılmayan [mendicant_mystic.GetFaith.HighGodName]! Saldırılamaz [mendicant_mystic.GetFaith.HighGodName]!"\n\nKahretsin bu sinir bozucu [mendicant_mystic.GetFaith.PriestNeuter]'i. [mendicant_mystic.GetSheHe] sokak köşesindeyken yeterince kötüydü! [mendicant_mystic.GetFirstName]'i #EMP evime#! kimin aldığını #EMP bir#! öğrenirsem gözlerini isterim; [mendicant_mystic.GetSheHe] burada on dakikadan azdır ve şimdiden başım ağrımaya başladı.\n\nBu dilencinin nutkunun daha fazlasına dayanamam, [mendicant_mystic.GetHerHis] atıp tutmasında doğal bir duraksama olurken hızlıca harekete geçmeliyim.""
  culture_tradition_events.0131.a:0 "#EMP Benim#! günahlarım? Biraz #EMP seninkiler#! hakkında konuşalım."
  culture_tradition_events.0131.a.tt.success:0 "Mistiğin ikiyüzlü olduğunu kanıtlıyorsunuz"
  culture_tradition_events.0131.a.tt.failure:0 "Mistik sizi aptal gibi gösteriyor"
@@ -1170,8 +1170,8 @@
  culture_tradition_events.0131.b.tt.failure:0 "Manevi ıstırap sizi ele geçiriyor"
  culture_tradition_events.0131.c:0 "#EMP Pislikte kıvranmak?#! Bu deliyi en yakın lağım çukuruna atın!"
  culture_tradition_events.0141.t:0 "Mistikle Pazarlık"
-### TODO AGOT-ONLY: culture_tradition_events.0141.desc [AGOT: ]
- culture_tradition_events.0141.desc:0 ""Don't you see, [ROOT.Char.Custom('FormOfAddressForLiege')], how you risk your soul with this... [ROOT.Char.GetFaith.GetName] idea? Allow me to bring you into the light of true [mendicant_mystic.GetFaith.GetAdjective] belief and rescue you from eternal misery!"\n\nAs a mendicant [mendicant_mystic.GetFaith.PriestNeuter], [mendicant_mystic.GetFirstName] is used to preaching to unbelieving [ROOT.Char.GetCulture.GetName] folk, but techniques that work on the peasantry do not necessarily hold water with the noblesse.\n\nSilence falls between us, and I find myself gazing deeply into the [mendicant_mystic.GetWomanMan]'s eyes, watching the lights of hope and hunger dance and flicker behind them."
+
+ culture_tradition_events.0141.desc:0 ""Görmüyor musun, [ROOT.Char.Custom('FormOfAddressForLiege')], bu... [ROOT.Char.GetFaith.GetName] fikriyle ruhunu nasıl riske attığını? Gerçek [mendicant_mystic.GetFaith.GetAdjective] inancının ışığına girmene ve seni ebedî sefaletten kurtarmama izin ver!"\n\nBir dilenci [mendicant_mystic.GetFaith.PriestNeuter] olarak [mendicant_mystic.GetFirstName], inanmayan [ROOT.Char.GetCulture.GetName] halkına vaaz vermeye alışkın, ama köylüler üzerinde işe yarayan teknikler soylular üzerinde işe yaramayabilir.\n\nAramıza sessizlik çöküyor ve kendimi [mendicant_mystic.GetWomanMan]'in gözlerinin derinliklerine bakarken buluyorum, arkalarında umut ve açlık ışıklarının dans edip titrediğini izliyorum.""
  culture_tradition_events.0141.a:0 "Sözlerini ikna edici buldum, [mendicant_mystic.GetFaith.PriestNeuter]."
  culture_tradition_events.0141.b:0 "[ROOT.Char.GetFaith.GetNameNoTooltip] inançları hakkında seni aydınlatmama izin ver..."
  culture_tradition_events.0141.b.tt.success:0 "[mendicant_mystic.GetFirstNameNoTooltip] sözlerinizden etkileniyor"
@@ -1196,8 +1196,8 @@
  cheaper_tradition_physician_or_whole_of_body: "[GetTrait('lifestyle_physician').GetName( GetNullCharacter )] ve [GetTrait('whole_of_body').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliğine' )|E] sahipsiniz"
  cheaper_tradition_norse_washing: "$heritage_north_germanic_name$ [heritage|E]"
  culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
-### TODO AGOT-ONLY: culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC [AGOT: ]
- culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
+
+ culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "Bu [Concept( 'culture', 'Kültürden' )|E] [rulers|E] [legend|E] tamamladıktan sonra her zaman $building_type_legendary_hunting_lodge$ inşa edebilirler"
  culture_parameter_less_plague_spread_culture: "Bu [Concept( 'culture', 'Kültürden' )|E] [Concept( 'characters', 'Karakterlerin' )|E] topraklarına [Concept( 'epidemics', 'Salgınların' )|E] yayılma olasılığı daha azdır"
  tradition_noble_adoption_name: "Soylu Evlat Edinme"
@@ -1313,8 +1313,8 @@
  culture_parameter_hosts_chariot_races: "[GetActivityType('activity_chariot_race').GetName] [Concept( 'activity', 'Etkinliğine' )|E] ev sahipliği yapabilir ve hem [GetCourtPositionType('charioteer_court_position').GetName] hem de [GetCourtPositionType('bookmaker_court_position').GetName] kiralayabilir"
  culture_parameter_unlock_voluntary_laampdom: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_unlock_voluntary_laampdom_DLC', 'culture_parameter_unlock_voluntary_laampdom_NO_DLC' )]"
  culture_parameter_unlock_voluntary_laampdom_DLC: "[GetDecisionWithKey('become_landless_adventurer_decision').GetName] [Concept( 'decision', 'Kararına' )|E] izin verir"
-### TODO AGOT-ONLY: culture_parameter_unlock_voluntary_laampdom_NO_DLC [AGOT: ]
- culture_parameter_unlock_voluntary_laampdom_NO_DLC: ""
+
+ culture_parameter_unlock_voluntary_laampdom_NO_DLC:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  unlock_voluntary_laampdom_name: "[GetCultureTradition('tradition_swords_for_hire').GetName], [GetCultureTradition('tradition_horse_lords').GetName], [GetCultureTradition('tradition_futuwaa').GetName], [GetCultureTradition('tradition_ep3_audacious_cadets').GetName], [GetCultureTradition('tradition_hird').GetName], [GetCultureTradition('tradition_caravaneers').GetName], [GetCultureTradition('tradition_diasporic').GetName] veya [GetCultureTradition('tradition_fp1_coastal_warriors').GetName]"
  unlock_junior_emperors_name: "[nominal_duumvirates|E]"
  culture_parameter_unlock_junior_emperors: "[administrative|E] [emperors|E], [Concept( 'children', 'çocuklarından' )|E] birini [junior_emperor|E] olarak atayabilir, çocuk yetişkinliğe erişene kadar [nominal_duumvirate|E] yönetimine girilir"
@@ -1333,29 +1333,29 @@
  culture_parameter_allows_noble_family_adoption: "[noble_family|E] [house_heads|E], #V $noble_family_adoption_interaction$#! [Concept( 'interaction', 'Etkileşimi' )|E] kullanılabilir"
  culture_parameter_much_more_likely_to_be_laamps: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_much_more_likely_to_be_laamps_DLC', 'culture_parameter_much_more_likely_to_be_laamps_NO_DLC' )]"
  culture_parameter_much_more_likely_to_be_laamps_DLC: "[Concept( 'characters', 'Karakterlerin' )|E] [adventurer|E] olma ihtimali daha yüksektir"
-### TODO AGOT-ONLY: culture_parameter_much_more_likely_to_be_laamps_NO_DLC [AGOT: ]
- culture_parameter_much_more_likely_to_be_laamps_NO_DLC: ""
+
+ culture_parameter_much_more_likely_to_be_laamps_NO_DLC:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  culture_parameter_more_likely_to_be_laamps: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_more_likely_to_be_laamps_DLC', 'culture_parameter_more_likely_to_be_laamps_NO_DLC' )]"
  culture_parameter_more_likely_to_be_laamps_DLC: "[Concept( 'characters', 'Karakterlerin' )|E] [adventurer|E] olma ihtimali daha yüksektir"
-### TODO AGOT-ONLY: culture_parameter_more_likely_to_be_laamps_NO_DLC [AGOT: ]
- culture_parameter_more_likely_to_be_laamps_NO_DLC: ""
+
+ culture_parameter_more_likely_to_be_laamps_NO_DLC:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  culture_parameter_frontier_themes_borrow_neighbor_troops: "Sınırdaki İdari [governorships|E], sınırda olmayan komşularından [title_men_at_arms|E] ödünç alabilir"
  culture_parameter_less_likely_to_culture_convert: "#high Yerel Kültüre Geç#! [Concept( 'decision', 'Kararı' )|E] [Concept( 'stress', 'Strese' )|E] yol açar ve bu nedenle [rulers|E] bu kararı kullanmaktan kaçınır"
  culture_parameter_less_likely_to_promote_culture: "[rulers|E], #V $task_promote_culture$#! [Concept( 'councillor_task', 'Konsey Üyesi Görevini' )|E] nadiren kullanır"
-### TODO AGOT-ONLY: culture_parameter_resistant_to_desert_privation [AGOT: ]
- culture_parameter_resistant_to_desert_privation: ""
-### TODO AGOT-ONLY: culture_parameter_resistant_to_mountain_privation [AGOT: ]
- culture_parameter_resistant_to_mountain_privation: ""
-### TODO AGOT-ONLY: culture_parameter_resistant_to_winter_privation [AGOT: ]
- culture_parameter_resistant_to_winter_privation: ""
+
+ culture_parameter_resistant_to_desert_privation:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ culture_parameter_resistant_to_mountain_privation:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ culture_parameter_resistant_to_winter_privation:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  allows_brewery: "#color_white $building_type_breweries_01$#! [Concept( 'buildings', 'Binalarını' )|E] açar"
  culture_parameter_allows_brewery: "[city_holdings|E] için $allows_brewery$"
  culture_parameter_brewery_farming_bonus: "#color_white $building_type_cereal_fields_01$#! ve #color_white $building_type_farm_estates_01$#! [Concept( 'buildings', 'Binaları' )|E] [county_opinion|E] bonusları verir"
  tradition_brewery_name: "Bira Kültürü"
  tradition_brewery_desc: "Bu kültürde, bira üretmek ve içmek hem şenliklerde hem de günlük hayatta önemli bir rol oynar."
  culture_in_farm_or_mansion_count_desc: "[culture|E], #color_white $building_type_cereal_fields_01$#! veya #color_white $building_type_farm_estates_01$#! [Concept( 'buildings', 'Binalarına' )|E] sahip en az #V 5#! [Concept( 'counties', 'Kontlukta' )|E] yok"
-### TODO AGOT-CHANGED: can_appoint_chief_eunuch_name_tt [AGOT: [THIS.GetCharacter.GetCulture.GetName] [culture|E] has one of the following [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t | TR: [THIS.GetCharacter.GetCulture.GetName] [Concept('culture', 'Kültürü')|E] aşağıdaki [Concept('traditions', 'Geleneklerden')|E] birine sahip:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_byzantine_succession').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_tgp_court_machinations').GetName]]
- can_appoint_chief_eunuch_name_tt: "[THIS.GetCharacter.GetCulture.GetName] [culture|E] has one of the following [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t"
+
+ can_appoint_chief_eunuch_name_tt:0 "[THIS.GetCharacter.GetCulture.GetName] [Concept('culture', 'Kültürü')|E] aşağıdaki [Concept('traditions', 'Geleneklerden')|E] birine sahip:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_byzantine_succession').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_tgp_court_machinations').GetName]"
  tradition_mpo_iron_cavalry_name: "Demir Süvari"
  tradition_mpo_iron_cavalry_desc: "Atlı okçular dahi baştan ayağa pullu zırhlı süvarilerin karşısında boyun eğer. Bu kültür yalnızca bu pahalı teçhizatı benimsemekle kalmamış, aynı zamanda doğuştan eyerle büyüyen, elinde yayla yetişen savaşçılarını ağır zırhlı süvariler olarak görevlendirmiştir."
  culture_parameter_unlock_maa_cataphract_archers: "[men_at_arms|E] olarak [GetMaA('cataphract_archers').GetName] birliği üretilebilir"
@@ -1415,15 +1415,15 @@
  culture_parameter_permafrost_unlock_tribal_building: "Bu [Concept('culture', 'Kültüre')|E] ait #V $mpo_siberian_permafrost_modifier$#! [modifier|E] etkisindeki [Concept('counties', 'Kontluklar')|E] [tribal|E] [building|E] geliştirmeleri için [Concept('innovations', 'Buluşlara')|E] ihtiyaç duymaz."
  culture_parameter_permafrost_cannot_become_feudal: "#V Feodalizmi Benimse#! ve #V Süzeren Vasıtasıyla Feodalizmi Benimse#! [decisions|E] alınamaz."
  culture_parameter_permafrost_modifier_mechanic: "Bu [Concept('culture', 'Kültürdeki')|E] [Concept('counties', 'kontluklar')|E], [development|E] ve [control|E] değerlerini azaltan #V $mpo_siberian_permafrost_modifier$#! [Concept('modifier', 'Etkisi')|E] ile başlar. Eğer [holder|E] ve [county|E], bu [Concept('culture_tradition', 'Kültür Geleneğine')|E] sahipse, #V $mpo_siberian_permafrost_modifier$#! [control|E] değerini düşürmez ve ek bonuslar sağlar."
-### TODO AGOT-CHANGED: culture_parameter_permafrost_modifier_removal_condition [AGOT: #V $mpo_siberian_permafrost_modifier$#! [modifier|E] can be removed by the #V $feudalize_holding_interaction$#! [interaction|E] or #V $demand_admin_interaction$#! [interaction|E] | TR: #V $mpo_siberian_permafrost_modifier$#! [Concept('modifier', 'Etkisi')|E], #V $expand_the_steppe_decision_generic$#! [Concept('decision', 'Kararı')|E] ya da #V $feudalize_holding_interaction$#! [Concept('interaction', 'Etkileşimiyle')|E] veya #V $demand_admin_interaction$#! [Concept('interaction', 'Etkileşimiyle')|E] kaldırılabilir.]
- culture_parameter_permafrost_modifier_removal_condition: "#V $mpo_siberian_permafrost_modifier$#! [modifier|E] can be removed by the #V $feudalize_holding_interaction$#! [interaction|E] or #V $demand_admin_interaction$#! [interaction|E]"
+
+ culture_parameter_permafrost_modifier_removal_condition:0 "#V $mpo_siberian_permafrost_modifier$#! [Concept('modifier', 'Etkisi')|E], #V $expand_the_steppe_decision_generic$#! [Concept('decision', 'Kararı')|E] ya da #V $feudalize_holding_interaction$#! [Concept('interaction', 'Etkileşimiyle')|E] veya #V $demand_admin_interaction$#! [Concept('interaction', 'Etkileşimiyle')|E] kaldırılabilir."
  permafrost_modifier_removal_desc: "#V $mpo_siberian_permafrost_modifier$#! etkisini tüm [Concept('county', 'Kontluklardan')|E] kaldırır."
  culture_parameter_martial_traits_give_out_hcav_bonus: "[GetTrait('gallant').GetName( GetNullCharacter )], [GetTrait('overseer').GetName( GetNullCharacter )] ve [GetTrait('strategist').GetName( GetNullCharacter )] [Concept('traits', 'Özellikleri')|E], [heavy_cavalry|E] [Concept('men_at_arms', 'Düzenli Askerlere')|E] bonus sağlar."
  culture_parameter_stewardship_traits_give_out_cav_bonus: "[GetTrait('avaricious').GetName( GetNullCharacter )], [GetTrait('architect').GetName( GetNullCharacter )] ve [GetTrait('administrator').GetName( GetNullCharacter )] [traits|E] özellikleri, [light_cavalry|E], [heavy_cavalry|E] ve [archer_cavalry|E] [Concept('men_at_arms', 'Düzenli Askerlere')|E] bonus sağlar."
-### TODO AGOT-CHANGED: mpo_siberian_permafrost_modifier [AGOT: Hyperborean Permafrost | TR: Sibirya Donu]
- mpo_siberian_permafrost_modifier: "Hyperborean Permafrost"
-### TODO AGOT-CHANGED: mpo_siberian_permafrost_modifier_desc [AGOT: Soil frozen for millennia, no groundwater access, sparse vegetation. Terrain shifts every year due to repeated melting and refreezing. To make these lands their own, those who live here need centuries to adapt. Everybody, everything else will perish and join the ancient dead beneath the ice.\n\n#weak This modifier can be removed by the #V $feudalize_holding_interaction$#! [interaction|E]#! or #V $demand_admin_interaction$#! [interaction|E] \n\n | TR: Toprak binlerce yıldır donmuş halde; yer altı suyuna erişim yok ve bitki örtüsü seyrek. Sürekli çözülüp tekrar donması sebebiyle zemin her yıl değişiyor. Bu toprakları sahiplenebilmek için, yerli halkın yüzyıllarca süren adaptasyonu gerekiyor. Diğer herkes ve her şey ise yok olup, buzun altındaki kadim ölülerle buluşuyor.\n\n#weak Bu etki, #V $feudalize_holding_interaction$#! veya #V $demand_admin_interaction$#! [Concept('interaction', 'Etkileşimleriyle')|E] veya tüm Kuzeyi fethettikten sonra #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#! için #V $expand_the_steppe_decision_generic$#! [Concept('decision', 'Kararı')|E] ile kaldırılabilir.#!\n\n]
- mpo_siberian_permafrost_modifier_desc: "Soil frozen for millennia, no groundwater access, sparse vegetation. Terrain shifts every year due to repeated melting and refreezing. To make these lands their own, those who live here need centuries to adapt. Everybody, everything else will perish and join the ancient dead beneath the ice.\n\n#weak This modifier can be removed by the #V $feudalize_holding_interaction$#! [interaction|E]#! or #V $demand_admin_interaction$#! [interaction|E] \n\n"
+
+ mpo_siberian_permafrost_modifier:0 "Sibirya Donu"
+
+ mpo_siberian_permafrost_modifier_desc:0 "Toprak binlerce yıldır donmuş halde; yer altı suyuna erişim yok ve bitki örtüsü seyrek. Sürekli çözülüp tekrar donması sebebiyle zemin her yıl değişiyor. Bu toprakları sahiplenebilmek için, yerli halkın yüzyıllarca süren adaptasyonu gerekiyor. Diğer herkes ve her şey ise yok olup, buzun altındaki kadim ölülerle buluşuyor.\n\n#weak Bu etki, #V $feudalize_holding_interaction$#! veya #V $demand_admin_interaction$#! [Concept('interaction', 'Etkileşimleriyle')|E] veya tüm Kuzeyi fethettikten sonra #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#! için #V $expand_the_steppe_decision_generic$#! [Concept('decision', 'Kararı')|E] ile kaldırılabilir.#!\n\n"
  mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
  mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier_desc$"
  cannot_hybridize_northern_tribes: "#high $tradition_mpo_northern_tribes_name$#! [Concept('tradition', 'Geleneği')|E] bir [hybrid_culture|E] tarafından seçilemez"

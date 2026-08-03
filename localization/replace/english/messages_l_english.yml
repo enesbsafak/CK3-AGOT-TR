@@ -144,8 +144,8 @@
  event_message_text_and_effect:1 "$DESCRIPTION_AND_EFFECT$"
  event_message_effect_and_text:0 "$EFFECT$\n\n$DESCRIPTION$"
  event_message_effect:0 "$EFFECT$"
-### TODO AGOT-ONLY: blank_line [AGOT: ]
- blank_line:0 ""
+
+ blank_line:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  send_interface_message_tooltip:0 "#T Bir Olaydan#!"
  msg_gain_trait:0 "Özellik Kazanıldı"
  msg_gain_trait_desc:1 "[TRAIT.GetName( CHARACTER.Self )|L] [Concept( 'trait', 'özelliğini' )|E] kazandınız"
@@ -257,10 +257,10 @@
  msg_become_culture_head:0 "Kültür Önderi Oldunuz"
  msg_become_culture_head_desc:1 "[CULTURE.GetName] kültürünün yeni [culture_head|E] oldunuz!"
  msg_new_theocracy_lesse:0 "Yeni $game_concept_realm_priest$"
-### TODO AGOT-CHANGED: msg_new_theocracy_lesee_approve_desc [AGOT: [LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] endorses you #weak ([church_property|E])#! | TR: [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] [LEFT_CHARACTER.GetShortUIName|U] sizi onaylıyor #weak ([church_property|E])#!]
- msg_new_theocracy_lesee_approve_desc:1 "[LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] endorses you #weak ([church_property|E])#!"
-### TODO AGOT-CHANGED: msg_new_theocracy_lesee_disapprove_desc [AGOT: [LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] does not endorse you #weak ([church_property|E])#! | TR: [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] [LEFT_CHARACTER.GetShortUIName|U] sizi onaylamıyor #weak ([church_property|E])#!]
- msg_new_theocracy_lesee_disapprove_desc:1 "[LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] does not endorse you #weak ([church_property|E])#!"
+
+ msg_new_theocracy_lesee_approve_desc:0 "[Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] [LEFT_CHARACTER.GetShortUIName|U] sizi onaylıyor #weak ([church_property|E])#!"
+
+ msg_new_theocracy_lesee_disapprove_desc:0 "[Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] [LEFT_CHARACTER.GetShortUIName|U] sizi onaylamıyor #weak ([church_property|E])#!"
  msg_mercenary_company_dismissed:0 "Paralı Askerler Terhis Edildi"
  msg_mercenary_company_dismissed_desc:0 "[LEFT_TITLE.GetNameNoTooltip] [mercenary_company|E] ile olan sözleşmeniz sona erdi ve askerler terhis edildi"
  msg_holy_order_dismissed:0 "Kutsal Tarikat Terhis Edildi"
@@ -317,8 +317,8 @@
  death_notification_title:1 "[GetPlayer.Custom2('RelationToMePossessive', LEFT_CHARACTER.Self )|U] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
  lover_death_notification_title:0 "Sevgiliniz #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
  friend_death_notification_title:0 "Arkadaşınız #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
-### TODO AGOT-CHANGED: councillor_death_notification_title [AGOT: Your Councillor Died | TR: Konsey Üyeniz #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti]
- councillor_death_notification_title:0 "Your Councillor Died"
+
+ councillor_death_notification_title:0 "Konsey Üyeniz #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
  elder_death_notification_title: "Bilgeniz #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
  prisoner_death_notification_title: "Tutsağınız #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"
  notable_death_notification_title: "#high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Hayatını Kaybetti"

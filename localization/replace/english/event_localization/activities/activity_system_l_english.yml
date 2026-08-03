@@ -4,11 +4,11 @@
  activity_feast_guest_desc:0 "$BULLET_WITH_TAB$Katılımcılar diğer katılanlar ile [opinion|E] kazanabilir\n$BULLET_WITH_TAB$Katılımcılar [stress_loss_i][stress|E] kaybedebilir\n$BULLET_WITH_TAB$Katılımcılar [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [Concept( 'trait', 'Özelliğini' )|E] kazanabilir"
  activity_tournament_guest_desc:1 "#weak Eğer katılabiliyorsunuz, turnuvalar müsabaka kazanma ve böylece ödüller alma fırsatı sunar. Bunun yanında rahatlamanızı ve askerî yeteneklerinizi geliştirmenizi de sağlayabilir.#!"
  guest_friendship_title:0 "$activity_pulse_action_guest_friendship$"
-### TODO AGOT-CHANGED: activity_pulse_action_guest_friendship [AGOT: [second.GetShortUINameNoTooltip|U] Compliment[_s(second)] [first.GetShortUINameNoTooltip|U] | TR: [second.GetShortUINameNoTooltip|U], [Select_CString( first.IsLocalPlayer, 'Size', first.GetShortUINameNoTooltip )][Select_CString( first.IsLocalPlayer, '', ' adlı kişiye' )] Övgülerde Bulundu[Select_CString( second.IsLocalPlayer, 'nuz', '' )]]
- activity_pulse_action_guest_friendship:0 "[second.GetShortUINameNoTooltip|U] Compliment[_s(second)] [first.GetShortUINameNoTooltip|U]"
+
+ activity_pulse_action_guest_friendship:0 "[second.GetShortUINameNoTooltip|U], [Select_CString( first.IsLocalPlayer, 'Size', first.GetShortUINameNoTooltip )][Select_CString( first.IsLocalPlayer, '', ' adlı kişiye' )] Övgülerde Bulundu[Select_CString( second.IsLocalPlayer, 'nuz', '' )]"
  guest_insulted_title:0 "$activity_pulse_action_guest_insulted$"
-### TODO AGOT-CHANGED: activity_pulse_action_guest_insulted [AGOT: [second.GetShortUINameNoTooltip|U] Insult[_s(second)] [first.GetShortUINameNoTooltip|U] | TR: [second.GetShortUINameNoTooltip|U], [Select_CString( first.IsLocalPlayer, 'Size', first.GetShortUINameNoTooltip )][Select_CString( first.IsLocalPlayer, '', ' adlı kişiye' )] Hakaret Etti[Select_CString( second.IsLocalPlayer, 'niz', '' )]]
- activity_pulse_action_guest_insulted:0 "[second.GetShortUINameNoTooltip|U] Insult[_s(second)] [first.GetShortUINameNoTooltip|U]"
+
+ activity_pulse_action_guest_insulted:0 "[second.GetShortUINameNoTooltip|U], [Select_CString( first.IsLocalPlayer, 'Size', first.GetShortUINameNoTooltip )][Select_CString( first.IsLocalPlayer, '', ' adlı kişiye' )] Hakaret Etti[Select_CString( second.IsLocalPlayer, 'niz', '' )]"
  activity_system.0040.t:1 "Turnuva Sona Erdi"
  activity_system.0040.desc:1 "Tüh! Turnuvayla ilgili yeni durum nedeniyle iptal edilmek zorunda kalınmış.\n\nÖnümden sıra sıra morali bozuk insanlar geçiyor, ağlayan çocuklar anne babalarının ellerini tutuyor. Umarım yakın bir zamanda şenlik tekrar başlayabilir."
  activity_system.0040.a:1 "Yazık oldu."
@@ -45,8 +45,8 @@
  activity_system.1010.desc.entourage:0 "[ROOT.Char.Custom2('RelationToMePossessive',SCOPE.sC('host'))|U] [host.GetFirstNameNoTooltip] maiyeti tarafından evine getirilecek."
  activity_system.1010.desc.ruler:0 "[host.GetTitleAsName] evinden bu kadar uzakta ölmeyi hak etmedi."
  activity_system.1010.a:0 "Huzurlar içinde yat [host.GetFirstName]."
-### TODO AGOT-CHANGED: activity_system.1010.tt [AGOT: [host.GetShortUINamePossessiveNoTooltip] [activity|E] has been cancelled | TR: [host.GetShortUINameNoTooltip] adlı kişinin [Concept( 'activity', 'etkinliği' )|E] iptal oldu]
- activity_system.1010.tt:0 "[host.GetShortUINamePossessiveNoTooltip] [activity|E] has been cancelled"
+
+ activity_system.1010.tt:0 "[host.GetShortUINameNoTooltip] adlı kişinin [Concept( 'activity', 'etkinliği' )|E] iptal oldu"
  activity_system.1011.desc:0 "Süzerenim [host.GetNameRegnal] ülkeyi gezerken vefat etti. Trajik bir şekilde [host.GetDeathReason].\n\nGezinin geri kalanı iptal oldu ve maiyeti cenazesini evine getirmek için yola çıktı."
  activity_system.0300.t:0 "Savaş Kimseyi Beklemez"
  activity_system.0300.desc.intro.traveling:0 "[target_activity_location.GetName] topraklarındaki [target_activity_type.GetNameNoTooltip] için yoldayken dinlenmek için durduğum [target_activity_location.GetName] halkı bile savaş borularının sesini duyabiliyor. "
@@ -60,8 +60,8 @@
  activity_system.0300.b.tt:0 "[target_activity_type.GetNameNoTooltip] iptal edilecek ve katılımcılar evlerine dönecek"
  activity_system.0300.b.tt.cost:0 "Bazı masraflar telafi edilebilir"
  activity_system.0301.t:0 "[target_activity_type.GetNameNoTooltip] İptal Edildi"
-### TODO AGOT-ONLY: activity_system.0301.desc [AGOT: #EMP]
- activity_system.0301.desc:0 "#EMP "To war! To war!"#! call [target_activity_host.GetTitledFirstNamePossessive] [knights|l] as they thunder past, their horns bellowing and banners flashing brilliant against the sky.\n\nThat [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal] has no regard for our [target_activity_type.GetNameNoTooltip], it seems! The event is to be canceled, as the [target_activity_host.GetTitleAsNameNoTooltip] sends for his levies and prays to [target_activity_host.GetFaith.WarGodName] for victory.\n\nA [target_activity_type.GetNameNoTooltip] is a noble and worthy amusement, but the call to arms rings louder than any other."
+
+ activity_system.0301.desc:0 "#EMP "Savaşa! Savaşa!"#! [target_activity_host.GetTitledFirstNamePossessive] [knights|l] gürleyerek geçerken haykırıyor, boruları ötüyor ve sancakları gökyüzüne karşı parıldıyor.\n\nO [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal] bizim [target_activity_type.GetNameNoTooltip]'imize hiç saygı duymuyor, görünüşe göre! [target_activity_host.GetTitleAsNameNoTooltip] ordusunu çağırıp [target_activity_host.GetFaith.WarGodName]'den zafer dilediğinden, etkinlik iptal edilecek.\n\nBir [target_activity_type.GetNameNoTooltip] asil ve değerli bir eğlencedir, ama silahlara çağrı her şeyden daha gür yankılanır."
  activity_system.0301.a:0 "Üzdü..."
  activity_system.0310.desc.intro:0 "[target_activity_host.GetName|U] tarafından düzenlenen [target_activity_type.GetNameNoTooltip] için [target_activity_location.GetName] topraklarındayken savaş çanları çalmaya başladı.\n\n"
  activity_system.0310.desc.primary_defender: "Alçak [attacker.GetTitledFirstName|U] bana savaş ilan etmiş!"

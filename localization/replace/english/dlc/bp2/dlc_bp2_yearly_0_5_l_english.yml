@@ -38,8 +38,8 @@
  next_free_ho_hire_modifier: "Bedava Kutsal Düzen Kirası"
  next_free_ho_hire_modifier_desc: "Bu karakterin bir sonraki kutsal düzen kiralaması ücretsiz olacak."
  bp2_yearly_0641_mercenary_cost_reduction_modifier: "Tüccar Merkantilizmi"
-### TODO AGOT-ONLY: bp2_yearly_0641_mercenary_cost_reduction_modifier_desc [AGOT: ]
- bp2_yearly_0641_mercenary_cost_reduction_modifier_desc: ""
+
+ bp2_yearly_0641_mercenary_cost_reduction_modifier_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  bp2_yearly_0641_raid_speed_modifier: "Yağma Beyleri"
  bp2_yearly_0641_raid_speed_modifier_desc: "Bu karakterin ordusu dünyanın en pis savaş hırsızları tarafından soyuldu."
  bp2_yearly.0601.t: "Doğru Yönetim"
@@ -110,8 +110,8 @@
  bp2_yearly.0621.t.fallback: "[regent.Custom('GetAuntUncle')|U] [regent.GetFirstNamePossessiveNoTooltip] Hediyeleri"
  bp2_yearly.0621.desc.intro.bad_history: "Geçmişte [regent.Custom2('MyCharacterIntroduction', ROOT.Char)] bana çok haksızlık yaptı, şimdi de çeşitli hediyelerle bu durumu telafi etmeye kararlı görünüyor.\n\n"
  bp2_yearly.0621.desc.intro.fallback: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)|U] son zamanlarda özellikle düşünceli görünüyor. Her zaman bana en iyi hediyeleri getiriyor gibi görünüyor, bu onu tanıdığım en iyi [ROOT.Char.GetDiarchTitle] yapıyor.\n\n"
-### TODO AGOT-ONLY: bp2_yearly.0621.desc.midtro [AGOT: ]
- bp2_yearly.0621.desc.midtro: ""Ah, there you are young [ROOT.Char.Custom('MistressMaster')]," [regent.GetSheHe] laughs as I bound into the courtyard, where the [regent.GetWomanMan] awaits with something covered in cloth. "Today, I've got something very special for you", [regent.GetSheHe] whispers, conspiratorially.\n\nWith that, the cloth falls away to reveal"
+
+ bp2_yearly.0621.desc.midtro:0 ""Ah, işte buradasın genç [ROOT.Char.Custom('MistressMaster')]," der [regent.GetSheHe] gülerek, avluya daldığımda; [regent.GetWomanMan] orada, üstü bezle örtülü bir şeyle beni bekliyor. "Bugün, senin için çok özel bir şeyim var," diye fısıldar [regent.GetSheHe], sır verircesine.\n\nVe bez yere düşer, ortaya çıkan şey"
  bp2_yearly.0621.desc.gift.gold: "bir taç şeklinde şekillendirilmiş gümüş ve altın sikke yığınları."
  bp2_yearly.0621.desc.gift.prestige: "ileri geri atlayarak etrafımda dönen ve benim hakkımda bestelenmiş bir şarkıyı seslendiren şarkıcılar ve dansçılardan oluşan bir grup."
  bp2_yearly.0621.desc.gift.piety: "karmaşık bir [ROOT.Char.GetFaith.HouseOfWorship] modeli ve bağışımla inşa edilecek yeni bir levha."
@@ -133,26 +133,26 @@
  bp2_yearly.0631.desc.intro.positive: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)|U], sadık bir [ROOT.Char.GetDiarchTitle] olduğunu kanıtlamıştır, onun önerileri her zaman benim için en iyisini sağlamaya yönelik olmuştur.\n\nBu yüzden, bana [rival_successor.Custom2('MyCharacterIntroduction', ROOT.Char)] hakkında anlattığı tüm kötü küçük günahlar ve suçlamalar oldukça ciddi ve endişe verici bir durum oluyor.\n\n"
  bp2_yearly.0631.desc.intro.negative: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bir [ROOT.Char.GetDiarchTitle] olarak karışık bir sicile sahip... O, benim kalkanım ve koruyucum olmalıydı ancak daha çok kendi zenginleşmesiyle ilgilenmiş gibi görünüyor.\n\nBu yüzden bana [rival_successor.Custom2('MyCharacterIntroduction', ROOT.Char)] hakkında anlattığı tüm kötü küçük günahlar ve suçlamaları duyunca şaşırtıcı olmayan bir şekilde kuşkuyla karşılıyorum.\n\n"
  bp2_yearly.0631.desc.intro.vague: "[regent.Custom2('MyCharacterIntroductionPossessive', ROOT.Char)|U], söz verdiği gibi bir [ROOT.Char.GetDiarchTitle] olamadı; bazen bana yardım ediyor ama çoğu zaman da sadece kendini düşünüyor gibi görünüyor.\n\nBu yüzden, bana [rival_successor.Custom2('MyCharacterIntroduction', ROOT.Char)] hakkında anlattığı tüm kötü küçük günahlar ve suçlamalar karşısında çok emin olamıyorum, arada kalıyorum.\n\n"
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.nemesis [AGOT: ]
- bp2_yearly.0631.desc.rationale.nemesis: ""...that odious little worm is surely plotting your downfall, [ROOT.Char.GetFirstNameNoTooltip], just as [rival_successor.GetSheHe]'s plotting mine, and the sundering of all [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]!""
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.warmonger [AGOT: ]
- bp2_yearly.0631.desc.rationale.warmonger: ""... [rival_successor.GetSheHe]'s a fiend and a warmonger, [ROOT.Char.GetFirstNameNoTooltip], one whose appetite for unjust destruction knows no bounds. [rival_successor.GetSheHe|U]'ll plunge all [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] into civil war if given the slightest chance!""
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.rival [AGOT: ]
- bp2_yearly.0631.desc.rationale.rival: ""... the [rival_successor.GetWomanMan]'s a cad of the highest order, [ROOT.Char.GetFirstNameNoTooltip] — a liar, a thief, and a scoundrel intent on sowing strife and discord in your realm"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.revenge [AGOT: ]
- bp2_yearly.0631.desc.rationale.revenge: ""... that screeching agent of [regent.GetFaith.DevilName] has committed unspeakable crimes against me and mine, [ROOT.Char.GetFirstNameNoTooltip], and will surely turn [rival_successor.GetHerHis] wrathful spirit against all [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] given the chance"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.criminality [AGOT: ]
- bp2_yearly.0631.desc.rationale.criminality: ""... [rival_successor.GetSheHe]'s a known criminal, [ROOT.Char.GetFirstNameNoTooltip], a criminal doubtless looking for more opportunities for sin and vice. The power afforded [rival_successor.GetHerHim] were [rival_successor.GetSheHe] to become [ROOT.Char.GetDiarchTitle]...""
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.opposing_traits [AGOT: ]
- bp2_yearly.0631.desc.rationale.opposing_traits: ""... even speaking to [rival_successor.GetHerHim] for more than a moment could drive a [regent.GetWomanMan] to madness, [ROOT.Char.GetFirstNameNoTooltip] — it's astounding how one [rival_successor.GetWomanMan] can be so very, incredibly wrong about #EMP everything#!"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.sins [AGOT: ]
- bp2_yearly.0631.desc.rationale.sins: ""... I cannot countenance sharing a table with the [rival_successor.GetWomanMan], no good [regent.GetFaith.GetAdherentName] could — and you shouldn't either [ROOT.Char.GetFirstNameNoTooltip], not unless you want [rival_successor.GetHerHis] sins imprinting on your frail young heart"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.petty_opinions [AGOT: ]
- bp2_yearly.0631.desc.rationale.petty_opinions: ""... it's not even any particular incident, [ROOT.Char.GetFirstNameNoTooltip], it's simply everything about the way the [rival_successor.GetWomanMan] comports [rival_successor.GetHerselfHimself] — given time, [rival_successor.GetSheHe] will turn all [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] against you from sheer irritation alone"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.hideousness [AGOT: ]
- bp2_yearly.0631.desc.rationale.hideousness: ""... I mean just #EMP look#! at the [rival_successor.GetWomanMan]! If '[rival_successor.GetWomanMan]' [rival_successor.GetSheHe] can be said to be — I've seen better looking frogs half-squashed by the wheels of carts. Such ugliness doubtless indicates all manner of base sinful urges, bubbling up through [rival_successor.GetHerHis] wretched skin"."
-### TODO AGOT-ONLY: bp2_yearly.0631.desc.rationale.generic [AGOT: ]
- bp2_yearly.0631.desc.rationale.generic: ""... wherever [rival_successor.GetSheHe] goes, [rival_successor.GetSheHe] makes enemies, [ROOT.Char.GetFirstNameNoTooltip], myself amongst them. Treat the [rival_successor.GetWomanMan] too kindly, and [rival_successor.GetSheHe]'ll surely take advantage of your generosity and betray you in short order"."
+
+ bp2_yearly.0631.desc.rationale.nemesis:0 ""...o iğrenç küçük solucan kesinlikle çöküşünü planlıyordur, [ROOT.Char.GetFirstNameNoTooltip], tıpkı [rival_successor.GetSheHe]'in benimkini ve tüm [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]'in parçalanışını planladığı gibi!""
+
+ bp2_yearly.0631.desc.rationale.warmonger:0 ""... [rival_successor.GetSheHe] bir canavar ve bir savaş kışkırtıcısı, [ROOT.Char.GetFirstNameNoTooltip], adaletsiz yıkıma iştahının sınırı yok. [rival_successor.GetSheHe|U] en ufak bir fırsat verilirse tüm [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]'i iç savaşa sürükler!""
+
+ bp2_yearly.0631.desc.rationale.rival:0 ""... [rival_successor.GetWomanMan] en aşağılık türden bir alçak, [ROOT.Char.GetFirstNameNoTooltip] — bir yalancı, bir hırsız ve diyarına fitne ve anlaşmazlık tohumları ekmeye kararlı bir serseri.""
+
+ bp2_yearly.0631.desc.rationale.revenge:0 ""... [regent.GetFaith.DevilName]'in o ciyaklayan ajanı bana ve yakınlarıma karşı anlatılamaz suçlar işledi, [ROOT.Char.GetFirstNameNoTooltip], ve fırsat verilirse [rival_successor.GetHerHis] öfkeli ruhunu kesinlikle tüm [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]'e çevirecek.""
+
+ bp2_yearly.0631.desc.rationale.criminality:0 ""... [rival_successor.GetSheHe] bilinen bir suçlu, [ROOT.Char.GetFirstNameNoTooltip], günah ve sefahat için elbette yeni fırsatlar arayan bir suçlu. [rival_successor.GetSheHe] [ROOT.Char.GetDiarchTitle] olursa [rival_successor.GetHerHim]e bahşedilecek güç...""
+
+ bp2_yearly.0631.desc.rationale.opposing_traits:0 ""... [rival_successor.GetHerHim]le bir an bile konuşmak bir [regent.GetWomanMan]'i deliliğe sürükleyebilir, [ROOT.Char.GetFirstNameNoTooltip] — bir [rival_successor.GetWomanMan]'in #EMP her şey#! hakkında bu kadar, inanılmaz derecede yanılıyor olabilmesi hayret verici.""
+
+ bp2_yearly.0631.desc.rationale.sins:0 ""... o [rival_successor.GetWomanMan] ile aynı sofrayı paylaşmaya tahammül edemem, hiçbir iyi [regent.GetFaith.GetAdherentName] edemez — ve sen de etmemelisin [ROOT.Char.GetFirstNameNoTooltip], [rival_successor.GetHerHis] günahlarının senin narin genç kalbine işlemesini istemiyorsan.""
+
+ bp2_yearly.0631.desc.rationale.petty_opinions:0 ""... belirli bir olay bile değil, [ROOT.Char.GetFirstNameNoTooltip], sadece [rival_successor.GetWomanMan]'in [rival_successor.GetHerselfHimself]i taşıma biçimiyle ilgili her şey — zamanla, [rival_successor.GetSheHe] salt tahriş yüzünden tüm [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]'i sana karşı döndürecek.""
+
+ bp2_yearly.0631.desc.rationale.hideousness:0 ""... demek istediğim, şu [rival_successor.GetWomanMan]'e bir #EMP bak#!! Eğer ona '[rival_successor.GetWomanMan]' denebilirse — araba tekerlekleriyle ezilip yarılan kurbağalardan daha iyi görünümlüler gördüm. Böyle bir çirkinlik, [rival_successor.GetHerHis] sefil derisinden kabarcıklar hâlinde yükselen her türden aşağılık günahkâr dürtüye işarettir.""
+
+ bp2_yearly.0631.desc.rationale.generic:0 ""... [rival_successor.GetSheHe] nereye giderse gitsin düşman ediniyor, [ROOT.Char.GetFirstNameNoTooltip], ben de onlardan biriyim. [rival_successor.GetWomanMan]'e fazla iyi davranırsan, [rival_successor.GetSheHe] kesinlikle cömertliğinden faydalanıp seni çok geçmeden ihanete uğratacaktır.""
  bp2_yearly.0631.desc.outro: "\n\n"Şimdi ona karşı durmazsanız, benim yerime geçmenin ve size #EMP kalıcı#! zarar vermenin bir yolunu bulabilir.""
  bp2_yearly.0631.a: "Eğer en iyisinin bu olduğunu düşünüyorsan..."
  bp2_yearly.0631.b: "Asla! Bunlar söylediğin çarpık yalanlardan başka bir şey değil!"
@@ -163,12 +163,12 @@
  bp2_yearly.0631.c.pensive: "Benim... Benim bunu düşünmem gerekecek."
  bp2_yearly.0631.c.bossy: "Kişisel sorunlarınızı #EMP bana#! getirmeyin."
  bp2_yearly.0641.t: "Taviz"
-### TODO AGOT-ONLY: bp2_yearly.0641.desc.intro.request_boilerplate [AGOT: ]
- bp2_yearly.0641.desc.intro.request_boilerplate: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], as your [ROOT.Char.GetDiarchTitle], I need a little extra authority to take care of a matter of some import."
+
+ bp2_yearly.0641.desc.intro.request_boilerplate:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.GetDiarchTitle]'in olarak, önemli bir meseleyi halletmek için biraz daha fazla yetkiye ihtiyacım var.""
  bp2_yearly.0641.desc.intro.tribal: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)], küçük çalışma odasına girerken peşinden yaşlı bir kanun sözcüsü de girer.\n\n$bp2_yearly.0641.desc.intro.request_boilerplate$ Bu tanık sizin yemininizi doğrulayacaktır."\n\n"
  bp2_yearly.0641.desc.intro.fallback: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kendinden emin adımlarla küçük çalışma odasına girdi, elinde bir tomar parşömen tutuyordu.\n\n$bp2_yearly.0641.desc.intro.request_boilerplate$ Rica etsem, bu belgeleri imzalayıp mühürleyebilir misiniz?"\n\n"
-### TODO AGOT-ONLY: bp2_yearly.0641.desc.midtro [AGOT: ]
- bp2_yearly.0641.desc.midtro: ""Of course, I'd never approach you empty handed! For this small favor, I'll"
+
+ bp2_yearly.0641.desc.midtro:0 ""Elbette, sana asla eli boş gelmem! Bu küçük iyilik karşılığında,""
  bp2_yearly.0641.desc.vs_courtly: "en sofistike vasallarınızla konuşacağım ve onların gözüne girmenizi sağlayacağım.""
  bp2_yearly.0641.desc.vs_glory_hound: "en kana susamış vasallarınızla konuşacağım ve onları şanlı kaderinizden emin tutacağım.""
  bp2_yearly.0641.desc.vs_parochial: "en dar görüşlü vasallarınızla konuşacağım ve başkentin onların endişelerinden haberi olduğunu bildireceğim.""
@@ -223,8 +223,8 @@
  bp2_yearly.0651.c: "Bu güzel ama ben bir hikâye anlatıyordum."
  bp2_yearly.0651.d: "Hadi, gidip saraya günümün nasıl geçtiğini anlatalım!"
  bp2_yearly.0661.t: "Kullanmak için Bir Araç"
-### TODO AGOT-ONLY: bp2_yearly.0661.desc [AGOT: ]
- bp2_yearly.0661.desc: ""#EMP The [offended_family.Custom2('GetWomanManGirlBoy', ROOT.Char)] is my [offended_family.Custom2('RelationToMeShort', ROOT.Char)]!#!" shouts [offended_family.GetFirstName], confronting my [ROOT.Char.GetDiarchTitle] [regent.GetFirstName] in one of the many empty halls of [ROOT.Char.GetCapitalLocation.GetName], "you cannot keep me from [ROOT.Char.GetHerHim] like this".\n\nI had not meant to eavesdrop, stumbling across the conversation accidentally whilst chasing a servant, but now I linger just out of sight as the two argue.\n\n"[ROOT.Char.GetSheHe|U] may be your [offended_family.Custom2('RelationToMeShort', ROOT.Char)], but [ROOT.Char.GetSheHe] is #EMP my#! charge, until I deem [ROOT.Char.GetHerHim] ready to manage [ROOT.Char.GetHerHis] own affairs. Till then, I speak for [ROOT.Char.GetTitledFirstName], and in my opinion, your sort is the worst kind of influence on a young mind"."
+
+ bp2_yearly.0661.desc:0 ""#EMP O [offended_family.Custom2('GetWomanManGirlBoy', ROOT.Char)] benim [offended_family.Custom2('RelationToMeShort', ROOT.Char)]'im!#!" diye bağırır [offended_family.GetFirstName], [ROOT.Char.GetCapitalLocation.GetName]'deki sayısız boş salondan birinde [ROOT.Char.GetDiarchTitle] [regent.GetFirstName]'imle yüzleşerek, "beni ondan bu şekilde alıkoyamazsın".\n\nKulak misafiri olmayı planlamamıştım; bir hizmetkârı kovalarken konuşmaya tesadüfen rastladım, ama şimdi ikisi tartışırken gözden uzakta oyalanıyorum.\n\n"[ROOT.Char.GetSheHe|U] senin [offended_family.Custom2('RelationToMeShort', ROOT.Char)]'in olabilir, ama [ROOT.Char.GetSheHe] #EMP benim#! sorumluluğum, [ROOT.Char.GetSheHe]'i kendi işlerini yönetmeye hazır görene dek. O zamana dek, [ROOT.Char.GetTitledFirstName] adına konuşurum ve bence, senin türün genç bir zihin üzerindeki en kötü etkidir.""
  bp2_yearly.0661.a: "[regent.GetFirstNameNoTooltip] haklı, kendinden utan [offended_family.GetFirstNameNoTooltip]!"
  bp2_yearly.0661.b: "[offended_family.GetFirstNameNoTooltip] benim [ROOT.Char.Custom2('RelationToMePossessive', offended_family)] ve ona saygı duyacaksın."
  bp2_yearly.0661.c.rowdy: "Bırakayım onlar halletsin, gitmem gereken yerler var."

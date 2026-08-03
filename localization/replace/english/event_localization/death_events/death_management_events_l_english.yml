@@ -14,8 +14,8 @@
  death_management.1000.tt:1 "Eşiniz [dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
  death_management.1001.t:0 "[Select_CString(GetPlayer.IsFemale, 'Anneler', 'Babalar' )] [Select_CString(dead_character.IsFemale, 'Kızlarını', 'Oğullarını' )] Gömmemeli"
  death_management.1001.murder:0 "[dead_character.GetTitledFirstName] öldürüldü!\n\n"
-### TODO AGOT-CHANGED: death_management.1001.tt [AGOT: Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstNameNicknamed], has [THIS.Char.Custom('DiedHouse_arrest')]. | TR: Karakterinizin [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))] [dead_character.GetTitledFirstName] [dead_character.GetDeathReasonHideKiller].]
- death_management.1001.tt:1 "Your [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstNameNicknamed], has [THIS.Char.Custom('DiedHouse_arrest')]."
+
+ death_management.1001.tt:0 "Karakterinizin [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))] [dead_character.GetTitledFirstName] [dead_character.GetDeathReasonHideKiller]."
  death_management.1001.plaguechild: "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('dead_character'))|U] [dead_character.GetFirstName] yanımdan götürülürken içim sessiz bir acıyla kıvrılıyor. Hekimler ve şifacılar sabahtan akşama kadar çalıştılar ama onu kurtaramadılar.\n\nÇok da gençti, kim bilir gelecekte neler yapacaktı. Onun gibi ölen daha niceleri var.\n\nYüce [ROOT.Char.GetFaith.HighGodName] kurtar bizi."
  death_management.1001.child:0 "Senden çok fazla beklentim vardı benim sevimli çocuğum. Öğreneceğin, deneyimleyeceğin her şey. Hayatta yapabileceğin çok fazla şey vardı. Belki de bir gün kendi çocuğuna sahip olacaktın. Ama şimdi, bunların hiçbiri gerçekleşemeyecek..."
  death_management.1001.like:0 "[dead_character.GetFirstName] bunu hak ediyor muydu? Eğer günah işlediysem neden onun yerine beni cezalandırmadın yüce [ROOT.Char.GetFaith.HighGodName]? O masumdu, benim mükemmel çocuğum. Hayatta yapacağı daha çok şeyi vardı..."
@@ -50,8 +50,8 @@
  death_management.parent.desc:2 "[Select_CString(dead_character.IsFemale, 'Anneniz', 'Babanız' )] [dead_character.GetFullName] [dead_character.GetDeathReason]."
  death_management.sibling.desc:2 "[Select_CString(dead_character.IsFemale, 'Kız kardeşiniz', 'Erkek kardeşiniz' )] [dead_character.GetFullName] [dead_character.GetDeathReason]."
  death_management.betrothed.desc:2 "[Concept( 'betrothed', 'Nişanlınız' )|E] [dead_character.GetFullName], [dead_character.GetDeathReason]."
-### TODO AGOT-CHANGED: death_management.liege_councillor.desc [AGOT: [dead_character.GetTitledFirstNameNicknamedNoTooltip] [dead_character.GetDeathReason]. | TR: [councillor|E] [dead_character.GetFullName], [dead_character.GetDeathReason].]
- death_management.liege_councillor.desc:2 "[dead_character.GetTitledFirstNameNicknamedNoTooltip] [dead_character.GetDeathReason]."
+
+ death_management.liege_councillor.desc:0 "[councillor|E] [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.liege.desc:2 "[Concept( 'vassal', 'Vasalınız' )|E] [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.pinned.desc:2 "İlgilendiğiniz isimlerden [dead_character.GetFullName], [dead_character.GetDeathReason]."
  death_management.elder.desc: "[Concept('elder', 'Bilgeniz')|E] [deceased_elder.GetFullName], [deceased_elder.GetDeathReason]."

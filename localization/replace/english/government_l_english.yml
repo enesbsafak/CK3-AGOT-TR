@@ -1,11 +1,11 @@
-﻿﻿l_english:
+﻿l_english:
  feudal_government:0 "Feodal"
  feudal_government_with_icon: "@government_type_feudal! $feudal_government$"
  feudal_government_adjective:0 "Feodal"
  feudal_government_realm:0 "Feodal Ülke"
  feudal_government_vassals_label:1 "Feodal [obligations|E] her vasalın [Concept( 'vassal_contract', 'Vasal Sözleşmesine' )|E] göre belirlenir."
-### TODO AGOT-CHANGED: feudal_government_desc [AGOT: \n$game_concept_feudal_desc$\n\n#F The feudal system is based on the relationship between the landholder and those who provide services and labor in order to live there. The rulers who hold the land appoint vassals which are given fiefs to govern. In return, the vassals provide their liege with [soldiers|E] and [taxes|E].#! | TR: \n$game_concept_feudal_desc$\n\n#F Feodalizm 9. ila 15. yüzyıllar arasında Avrupa'da en yaygın yönetim biçimidir. Feodal sistem toprak sahibiyle orada yaşamak için hizmet ve işçilik sunanlar arasındaki ilişkiye dayanır. Bu sistemde toprak sahibi hükümdarlar vasallar atayarak onlara yönetme hakkı tanır, bunun karşılığında vasallar süzerenlerine [soldier|E] ve [tax|E] sağlarlar.#!]
- feudal_government_desc:1 "\n$game_concept_feudal_desc$\n\n#F The feudal system is based on the relationship between the landholder and those who provide services and labor in order to live there. The rulers who hold the land appoint vassals which are given fiefs to govern. In return, the vassals provide their liege with [soldiers|E] and [taxes|E].#!"
+
+ feudal_government_desc:0 "\n$game_concept_feudal_desc$\n\n#F Feodalizm 9. ila 15. yüzyıllar arasında Avrupa'da en yaygın yönetim biçimidir. Feodal sistem toprak sahibiyle orada yaşamak için hizmet ve işçilik sunanlar arasındaki ilişkiye dayanır. Bu sistemde toprak sahibi hükümdarlar vasallar atayarak onlara yönetme hakkı tanır, bunun karşılığında vasallar süzerenlerine [soldier|E] ve [tax|E] sağlarlar.#!"
  feudal_government_obligations:0 "[GetGovernment( 'feudal_government' ).GetName] [Concept( 'obligations', 'Yükümlülükleri' )|E]"
  feudal_obligation_low:3 "Düşük $feudal_government_obligations$"
  feudal_obligation_low_short:0 "Düşük"
@@ -426,11 +426,11 @@
  default_tax_collector: "Temel Vergiler"
  default_tax_collector_desc: "Temel [obligations|E], [Concept( 'tax_collector', 'Tahsildarın' )|E] [Concept( 'aptitude', 'Yatkınlığı' )|E] doğrultusunda uygulanır"
  default_tax_collector_flavor_desc: "Standart vergilendirme. Vergi mükellefleri mükellef olduklarından ne fazla vergi verirler ne de az."
-### TODO AGOT-CHANGED: jizya_special_rights_tax_collector [AGOT: Irūdir Status | TR: Cizye Statüsü]
- jizya_special_rights_tax_collector: "Irūdir Status"
+
+ jizya_special_rights_tax_collector:0 "Cizye Statüsü"
  jizya_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Ayrıcalıkları:#!#!\n$EFFECT_LIST_BULLET$ [liege|E], [Concept( 'vassal', 'Vasaldan' )|E] [Concept( 'demand_conversion', 'din değiştirmesini' )|E] talep edemez\n$EFFECT_LIST_BULLET$[liege|E], [Concept( 'vassal', 'Vasalın' )|E] topraklarındaki [Concept( 'convert_county', 'kontluklarda din değiştiremez' )|E]\n[liege|E], unvan feshederken [Concept( 'tyranny', 'tiranlıktan' )|E] kaçınmak için [Concept( 'faith', 'mezhebi' )|E] gerekçe gösteremez\n$EFFECT_LIST_BULLET$ [liege|E] [vassals_possessive|E] [Concept('titles', 'Unvanlarını')|E] feshedemez\n\n#flavor [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'titles', 'unvanları' )|E] üzerindeki sahipliği garantiye alınır; [liege|E], [Concept( 'revoke_title_reason', 'unvan fesih sebebine' )|E] sahip olsa bile unvanları feshedemez.\n\nVasal ayrıca korunan, özel bir statüdedir. Ülke onların kendi [Concept( 'faith', 'mezheplerine' )|E] inanma hakkını tanır.#!"
-### TODO AGOT-CHANGED: jizya_special_rights_tax_collector_flavor_desc [AGOT: Irūdir is a special tax assigned to #italic dhimmis#!, religious minorities, in return for the privilege to practice their errant faith in peace. | TR: Cizye, dinî azınlıklar olan #italic zimmiler#! için, inançlarını yaşama özgürlüğü karşısında ödedikleri özel bir vergi türüdür.]
- jizya_special_rights_tax_collector_flavor_desc: "Irūdir is a special tax assigned to #italic dhimmis#!, religious minorities, in return for the privilege to practice their errant faith in peace."
+
+ jizya_special_rights_tax_collector_flavor_desc:0 "Cizye, dinî azınlıklar olan #italic zimmiler#! için, inançlarını yaşama özgürlüğü karşısında ödedikleri özel bir vergi türüdür."
  unlock_jizya_contract_name: "[GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName] [core_tenet|E]"
  jizya_special_rights:0 "$jizya_special_rights_tax_collector$" 
  jizya_special_rights_default:0 "Varsayılan $jizya_special_rights$" 
@@ -457,16 +457,16 @@
  not_has_house_unity_parameter: "$PARAMETER_NAME$ erişilebilir değil"
 
  administrative_government:0 "Özgür Şehir"
-### TODO AGOT-CHANGED: administrative_government_with_icon [AGOT: @civilian_administration! $administrative_government$ | TR: @government_type_administrative! $administrative_government$]
- administrative_government_with_icon:0 "@civilian_administration! $administrative_government$"
+
+ administrative_government_with_icon:0 "@government_type_administrative! $administrative_government$"
 
  administrative_government_adjective:0 "Özgür Şehir"
-### TODO AGOT-CHANGED: administrative_government_realm [AGOT: City Holdings | TR: İdari Ülke]
- administrative_government_realm:0 "City Holdings"
-### TODO AGOT-CHANGED: administrative_government_desc [AGOT: The Free Cities of Essos are independent city states that have existed since the Valyrian Empire ruled the continent. | TR: \n$game_concept_administrative_desc$\n\n#F İdari, gücün esas olarak başkentte bulunduğu oldukça merkezi bir yönetimdir. Doğuştan gelen haklar hâlâ önemli olmakla birlikte, feodal bir krallıktaki kadar ön planda değildir. Yeteri beceri ve hırsla en mütevazı aileden gelen herhangi biri bile etkili bir vali olacak kadar yükselebilir, tahtı almaya çalışıp imparator olabilir.#!]
- administrative_government_desc:0 "The Free Cities of Essos are independent city states that have existed since the Valyrian Empire ruled the continent."
-### TODO AGOT-CHANGED: administrative_government_vassals_label [AGOT: Free City [obligations|E] are based on each [vassal|E]'s [vassal_contract|E] | TR: [administrative|E] [obligations|E], [GetPlayer.Custom('GetProvinceAdministrationConcept')]ne bağlıdır]
- administrative_government_vassals_label:0 "Free City [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]"
+
+ administrative_government_realm:0 "İdari Ülke"
+
+ administrative_government_desc:0 "\n$game_concept_administrative_desc$\n\n#F İdari, gücün esas olarak başkentte bulunduğu oldukça merkezi bir yönetimdir. Doğuştan gelen haklar hâlâ önemli olmakla birlikte, feodal bir krallıktaki kadar ön planda değildir. Yeteri beceri ve hırsla en mütevazı aileden gelen herhangi biri bile etkili bir vali olacak kadar yükselebilir, tahtı almaya çalışıp imparator olabilir.#!"
+
+ administrative_government_vassals_label:0 "[administrative|E] [obligations|E], [GetPlayer.Custom('GetProvinceAdministrationConcept')]ne bağlıdır"
  administrative_obligations: "İdari Yükümlülükler"
  administrative_themes: "Seçilebilir İdare Türleri"
  admin_theme_balanced: "@balanced_administration! Dengeli İdare"

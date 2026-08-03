@@ -17,14 +17,14 @@
  bp1_yearly.4001.a:0 "Huzur içinde yat."
  bp1_yearly.4001.b:0 "Hatırana saygısızlık ettim!"
  bp1_yearly.4010.t:0 "Daha İyi Vasi"
-### TODO AGOT-ONLY: bp1_yearly.4010.desc [AGOT: ]
- bp1_yearly.4010.desc:0 ""My dear [ROOT.Char.GetWifeHusband], I am worried for our [child_to_change_guardian.Custom('GetDaughterSon')] [child_to_change_guardian.GetFirstNamePossessive] education." My [parent_that_want_guardian_change.GetWifeHusband] [parent_that_want_guardian_change.GetFirstName] says, with concern in [parent_that_want_guardian_change.GetHerHis] voice.\n\n"
-### TODO AGOT-ONLY: bp1_yearly.4010.desc.root [AGOT: ]
- bp1_yearly.4010.desc.root:0 ""The truth is... you're simply #EMP too busy#! to raise [child_to_change_guardian.GetHerHim]. "
-### TODO AGOT-ONLY: bp1_yearly.4010.desc.other [AGOT: ]
- bp1_yearly.4010.desc.other:0 ""That [current_guardian.Custom2('InsultNoun', SCOPE.sC('parent_that_want_guardian_change'))] [current_guardian.GetFirstName] is not a good guardian. [current_guardian.GetSheHe|U] is simply too... #EMP [current_guardian.Custom2('InsultAdjective', SCOPE.sC('parent_that_want_guardian_change'))]!#! "
-### TODO AGOT-CHANGED: bp1_yearly.4010.desc_end [AGOT: Our [child_to_change_guardian.Custom('GetDaughterSon')] needs a good, dedicated guardian, someone like my [proposed_guardian.Custom('ComplimentAdjective')] [parent_that_want_guardian_change.Custom2('RelationToMeShort', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]! | TR: [Select_CString(child_to_change_guardian.IsFemale, 'Kızımız', 'Oğlumuz' )] daha iyi, kendini ona adayan bir vasiyi hak ediyor. Mesela [proposed_guardian.Custom('ComplimentAdjective')] [child_to_change_guardian.Custom2('RelationToMePossessive', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]!]
- bp1_yearly.4010.desc_end:0 "Our [child_to_change_guardian.Custom('GetDaughterSon')] needs a good, dedicated guardian, someone like my [proposed_guardian.Custom('ComplimentAdjective')] [parent_that_want_guardian_change.Custom2('RelationToMeShort', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]!" [parent_that_want_guardian_change.GetSheHe|U] continues.\n\n"Should I make the arrangements?" [parent_that_want_guardian_change.GetSheHe|U] says, looking at me hopefully."
+
+ bp1_yearly.4010.desc:0 ""Sevgili [ROOT.Char.GetWifeHusband]'im, [child_to_change_guardian.Custom('GetDaughterSon')] [child_to_change_guardian.GetFirstNamePossessive] eğitimi için endişeleniyorum." [parent_that_want_guardian_change.GetWifeHusband] [parent_that_want_guardian_change.GetFirstName] sesinde endişeyle söylüyor.\n\n"
+
+ bp1_yearly.4010.desc.root:0 ""Gerçek şu ki... [child_to_change_guardian.GetHerHim]i yetiştirmek için #EMP çok meşgulsün#!.""
+
+ bp1_yearly.4010.desc.other:0 ""O [current_guardian.Custom2('InsultNoun', SCOPE.sC('parent_that_want_guardian_change'))] [current_guardian.GetFirstName] iyi bir vasî değil. [current_guardian.GetSheHe|U] sadece fazla... #EMP [current_guardian.Custom2('InsultAdjective', SCOPE.sC('parent_that_want_guardian_change'))]!#! ""
+
+ bp1_yearly.4010.desc_end:0 "[Select_CString(child_to_change_guardian.IsFemale, 'Kızımız', 'Oğlumuz' )] daha iyi, kendini ona adayan bir vasiyi hak ediyor. Mesela [proposed_guardian.Custom('ComplimentAdjective')] [child_to_change_guardian.Custom2('RelationToMePossessive', SCOPE.sC('proposed_guardian'))] [proposed_guardian.GetFirstName]!"
  bp1_yearly.4010.a:0 "Elbette canım, [proposed_guardian.GetFirstNameNoTooltip] bu iş için uygun."
  bp1_yearly.4010.a_effect:0 "[child_to_change_guardian.GetFirstName] [Concept( 'education', 'eğitiminde' )|E] ilerliyor"
  bp1_yearly.4010.b:0 "[current_guardian.GetFirstNameNoTooltip] seçildiyse bir sebebi var!"
@@ -32,8 +32,8 @@
  bp1_yearly.4010.c:0 "Benim tercihim daha iyi, emin ol."
  bp1_yearly.4010.c_effect:0 "[child_to_change_guardian.GetFirstName] [Concept( 'education', 'eğitiminde' )|E] ciddi bir şekilde ilerliyor"
  bp1_yearly.4020.t:0 "Şairane Bir Dostluk"
-### TODO AGOT-ONLY: bp1_yearly.4020.desc [AGOT: ]
- bp1_yearly.4020.desc:1 ""[ROOT.Char.GetFirstNameNoTooltip], my dear friend, I was once again reminded of your victory against [war_memory_participant.GetTitledFirstName] — so I decided to write a poem about your triumph!" [poetry_friend.GetFirstName] says, clearing [poetry_friend.GetHerHis] throat:\n\n[poetry_artifact.GetName]\n[poetry_artifact.GetDesc]"
+
+ bp1_yearly.4020.desc:0 ""[ROOT.Char.GetFirstNameNoTooltip], sevgili dostum, [war_memory_participant.GetTitledFirstName]'e karşı kazandığın zafer bir kez daha hatırlatıldı bana — bu yüzden zaferin hakkında bir şiir yazmaya karar verdim!" der [poetry_friend.GetFirstName], [poetry_friend.GetHerHis] boğazını temizleyerek:\n\n[poetry_artifact.GetName]\n[poetry_artifact.GetDesc]"
  bp1_yearly.4020.a:0 "Bu şiiri [ROOT.Char.Custom('GetCourt')]a dinleteceğim!"
  bp1_yearly.4020.b:0 "Teşekkürler, bu şiiri yanımda taşıyacağım."
  bp1_yearly.4020.c:0 "Hah! [war_memory_participant.GetFirstNameNoTooltip] dâhil herkese bu şiiri gönderin!"
@@ -46,8 +46,8 @@
  bp1_yearly.4020.a_effect:0 "[newly_created_artifact.GetName] bir [court_artifact|E] hâline getirilecek ve [grandeur|E] etkisi kazanacak"
  bp1_yearly.4020.b_effect:0 "[newly_created_artifact.GetName] adlı bir [artifact|E] elde edeceksiniz"
  bp1_yearly.4030.t:0 "Etkileyici Rakip"
-### TODO AGOT-ONLY: bp1_yearly.4030.desc [AGOT: ]
- bp1_yearly.4030.desc:0 ""[ROOT.Char.Custom('CulturalCurse')|U]!" I shout as I read the letter.\n\nThat [marriage_rival.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marriage_rival'))] of mine, [marriage_rival.GetFirstName] — I spit on your name!"
+
+ bp1_yearly.4030.desc:0 ""[ROOT.Char.Custom('CulturalCurse')|U]!" diye bağırıyorum mektubu okurken.\n\nO [marriage_rival.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marriage_rival'))]'im, [marriage_rival.GetFirstName] — adına tükürüyorum!""
  bp1_yearly.4030.desc_bond_broken:0 "\n\nBinbir çeşit hile ve hurdayla vasalım [marriage_vassal.GetTitledFirstName] ile evlenerek onun [spurned_partner.GetFirstName] ile olan bağını koparmakla kalmadın, aynı zamanda onu bana karşı kışkırttın!"
  bp1_yearly.4030.desc_no_broken_bonds:0 "\n\nBinbir çeşit hile ve hurdayla vasalım [marriage_vassal.GetTitledFirstName] ile evlenmekle kalmadın, aynı zamanda onu bana karşı kışkırttın!"
  bp1_yearly.4030.desc_end:0 "\n\nSenin yılan dilinden yalandan başka bir şey çıkmıyor... [marriage_vassal.GetFirstNameNoTooltip] senin umurunda değil, senin tek derdin bana #EMP acı çektirmek!#!"
@@ -61,18 +61,18 @@
  bp1_yearly.4030.b.success:0 "[marriage_vassal.GetTitledFirstName] yaptığı hatayı anladı"
  bp1_yearly.4030.b.failure:0 "[marriage_vassal.GetTitledFirstName] [ROOT.Char.GetFaith.PriestNeuterPlural] ile olan münakaşasında haklı çıkmayı başardı"
  bp1_yearly.4040.t:0 "Sevgili [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('kindly_grandmother'))|U]"
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.intro.1 [AGOT: ]
- bp1_yearly.4040.desc.intro.1:0 ""Oh, my dear, dear [ROOT.Char.GetFirstNameNoTooltip] — I love you so!" My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName] says to me, carrying a plate of delectable treats. "I've made you some [ROOT.Char.Custom('FavoriteTreatDemand')], I know it's your favorite!"\n\nOh, [kindly_grandmother.GetSheHe] knows me so well! Of course, it's below [kindly_grandmother.GetHerHis] stature to make such things by hand, but... who am I to say no?"
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.intro.2 [AGOT: ]
- bp1_yearly.4040.desc.intro.2:0 ""More [ROOT.Char.Custom('FavoriteTreatDemand')] for my big [ROOT.Char.Custom('GirlBoy')]!" My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName] bellows from the kitchen. "Come now, eat up!"\n\nMmm, it smells wonderful... just another bite couldn't hurt?"
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.feeding.1 [AGOT: ]
- bp1_yearly.4040.desc.feeding.1:0 ""[ROOT.Char.GetFirstNameNoTooltip], you enjoying my [ROOT.Char.Custom('FavoriteTreatDemand')] makes me the happiest [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] in the world!" [kindly_grandmother.GetFirstName] happily yells from the kitchen. "I've made an #EMP extra#! large batch today! Eat it all up now!"\n\n#flatulence Uurp..!#! Oh, it never stops... But I can't say no and hurt my dear [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))], can I?"
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.feeding.2 [AGOT: ]
- bp1_yearly.4040.desc.feeding.2:0 ""I've shaped this one like [ROOT.Char.Custom('GetLivestockFowlIndef')]!" My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName] sings, carrying yet another plate of [ROOT.Char.Custom('FavoriteTreatDemand')]. "Look, it's flying right for your mouth!"\n\nOh dear [ROOT.Char.GetFaith.HighGodName], this is too much! But... [kindly_grandmother.GetHerHis] feelings, I must think of them..."
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.feeding.3 [AGOT: ]
- bp1_yearly.4040.desc.feeding.3:0 ""[ROOT.Char.GetFirstNameNoTooltip], where are you? I've boiled this batch of [ROOT.Char.Custom('FavoriteTreatDemand')] in butter!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))|U] [kindly_grandmother.GetFirstName] whispers, [kindly_grandmother.GetHerHis] gaze searching the kitchen for me.\n\nThis is getting well out of hand... #EMP What should I do!?#!"
-### TODO AGOT-ONLY: bp1_yearly.4040.desc.feeding.4 [AGOT: ]
- bp1_yearly.4040.desc.feeding.4:0 ""Who knew that [ROOT.Char.Custom('FavoriteTreatDemand')] went so well with [ROOT.Char.Custom('GetExpensiveMeal')] — your favorite #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))]#! did, of course!" [kindly_grandmother.GetFirstName] shouts, carrying a plate with the most vile dish I've seen in my life. "Supper's ready, [ROOT.Char.GetFirstNameNoTooltip]!"\n\nNo matter how well I hide, [kindly_grandmother.GetSheHe] always finds me! Oh, my poor, bloated, body!"
+
+ bp1_yearly.4040.desc.intro.1:0 ""Ah, sevgili, sevgili [ROOT.Char.GetFirstNameNoTooltip]'im — seni çok seviyorum!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName]'im bana, lezzetli ikramlarla dolu bir tabak taşıyarak söylüyor. "Sana biraz [ROOT.Char.Custom('FavoriteTreatDemand')] yaptım, favorin olduğunu biliyorum!"\n\nAh, [kindly_grandmother.GetSheHe] beni ne kadar iyi tanıyor! Elbette, bu tür şeyleri elle yapmak [kindly_grandmother.GetHerHis] mevkiinin altında, ama... hayır demek bana mı düşer?""
+
+ bp1_yearly.4040.desc.intro.2:0 ""İri [ROOT.Char.Custom('GirlBoy')]'im için daha fazla [ROOT.Char.Custom('FavoriteTreatDemand')]!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName]'im mutfaktan böğürüyor. "Hadi, afiyetle ye!"\n\nMmm, muhteşem kokuyor... bir lokma daha zarar vermez?""
+
+ bp1_yearly.4040.desc.feeding.1:0 ""[ROOT.Char.GetFirstNameNoTooltip], benim [ROOT.Char.Custom('FavoriteTreatDemand')]'ımı beğenmen beni dünyanın en mutlu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] yapıyor!" [kindly_grandmother.GetFirstName] mutfaktan mutlulukla bağırıyor. "Bugün #EMP ekstra#! büyük bir parti yaptım! Hepsini ye bakalım!"\n\n#flatulence Uurp..!#! Ah, hiç bitmiyor... Ama hayır deyip sevgili [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))]'imi üzemem, değil mi?""
+
+ bp1_yearly.4040.desc.feeding.2:0 ""Bunu [ROOT.Char.Custom('GetLivestockFowlIndef')] şeklinde yaptım!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))] [kindly_grandmother.GetFirstName]'im, bir tabak daha [ROOT.Char.Custom('FavoriteTreatDemand')] taşıyarak şarkı söylüyor. "Bak, tam ağzına uçuyor!"\n\nAh Tanrım, bu fazla! Ama... [kindly_grandmother.GetHerHis] hisleri, onları düşünmeliyim...""
+
+ bp1_yearly.4040.desc.feeding.3:0 ""[ROOT.Char.GetFirstNameNoTooltip], neredesin? Bu [ROOT.Char.Custom('FavoriteTreatDemand')] partisini tereyağında haşladım!" [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))|U] [kindly_grandmother.GetFirstName] fısıldıyor, [kindly_grandmother.GetHerHis] bakışları beni mutfakta arıyor.\n\nBu iş iyice çığırından çıkıyor... #EMP Ne yapmalıyım!?#!""
+
+ bp1_yearly.4040.desc.feeding.4:0 ""Kim bilirdi ki [ROOT.Char.Custom('FavoriteTreatDemand')] [ROOT.Char.Custom('GetExpensiveMeal')] ile bu kadar iyi gider — sevgili #EMP [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('kindly_grandmother'))]#!'in bildiği gibi, elbette!" [kindly_grandmother.GetFirstName] hayatımda gördüğüm en iğrenç yemeği taşıyan bir tabakla bağırıyor. "Akşam yemeği hazır, [ROOT.Char.GetFirstNameNoTooltip]!"\n\nNereye saklansam [kindly_grandmother.GetSheHe] beni her zaman buluyor! Ah, zavallı, şişmiş bedenim!""
  bp1_yearly.4040.a:0 "Tabii ki yerim!"
  bp1_yearly.4040.b:0 "Almayayım, teşekkürler."
  bp1_yearly.4040.c:0 "Bir ısırıktan zarar gelmez!"

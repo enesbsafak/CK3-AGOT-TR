@@ -1,4 +1,4 @@
-﻿﻿﻿l_english:
+﻿l_english:
  artifact_type_helmet:0 "taç"
  artifact_type_primary_armament:0 "silah"
  artifact_type_armor:0 "zırh"
@@ -84,10 +84,10 @@
  metal_niello:0 "savat"
  metal_gilt_bronze:0 "yaldızlı bronz"
  metal_silver_gilt:0 "yaldızlı gümüş"
-### TODO AGOT-CHANGED: metal_corinthian_bronze [AGOT: runic bronze | TR: Korint bronzu]
- metal_corinthian_bronze:0 "runic bronze"
-### TODO AGOT-CHANGED: metal_panchaloha [AGOT: Qaathi metal | TR: pançaloha]
- metal_panchaloha:0 "Qaathi metal"
+
+ metal_corinthian_bronze:0 "Korint bronzu"
+
+ metal_panchaloha:0 "pançaloha"
  metal_meteoric_iron:0 "göktaşı demiri"
  metal_shakudo: "şakudo"
  metal_shibuichi: "şibuiçi"
@@ -123,8 +123,8 @@
  wood_fir:0 "köknar"
  wood_fleroya:0 "fleroya"
  wood_sycomore:0 "çınar"
-### TODO AGOT-CHANGED: wood_padauk [AGOT: goldenheart | TR: paduk]
- wood_padauk:0 "goldenheart"
+
+ wood_padauk:0 "paduk"
  wood_sal:0 "akasya"
  wood_teak:0 "tik"
  wood_rosewood:0 "gül"
@@ -366,8 +366,8 @@
  feature_decoration_pattern_shield:0 "[Artifact.GetOwner.GetHouse.GetBaseName] armasıyla"
  feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$ deseniyle"
  feature_decoration_pattern_dynasty_motifs:0 "[Artifact.GetOwner.GetHouse.GetBaseName] sözü ve armasıyla"
-### TODO AGOT-CHANGED: feature_decoration_pattern_beasts [AGOT: ancient beasts | TR: mitolojik canavar çizimleriyle]
- feature_decoration_pattern_beasts:0 "ancient beasts"
+
+ feature_decoration_pattern_beasts:0 "mitolojik canavar çizimleriyle"
  feature_decoration_pattern_religion:0 "dinî sembollerle"
  feature_decoration_pattern_quotes:0 "ilham verici sözlerle"
  feature_decoration_pattern_eschatology:0 "eskatolojik çizimlerle"
@@ -524,13 +524,13 @@
  feature_armor_helmet_great_helmet:0 "Takım bir büyük miğfer ve içi [Artifact.GetFeatureText( 'generic_material_cloth' )] dolu baş örgüsü içerir"
  feature_armor_helmet_great_helmet_bascinet:0 "Takım bir büyük miğfer ve altına giyilmesi için vizörlü miğfer içerir"
  feature_armor_helmet_great_helmet_cervelliere:0 "Takım bir büyük miğfer ve altına giyilmesi için yarım daire miğfer içerir"
-### TODO AGOT-CHANGED: feature_armor_helmet_turban_helmet [AGOT: The set includes a Qaathi helmet and an aventail | TR: Takım bir peçelikli miğfer ve bir aventail içerir]
- feature_armor_helmet_turban_helmet:0 "The set includes a Qaathi helmet and an aventail"
+
+ feature_armor_helmet_turban_helmet:0 "Takım bir peçelikli miğfer ve bir aventail içerir"
  feature_armor_helmet_lamellar:0 "Takım, üzerinde dekoratif tüyü olan bir lamellar miğfer ve bir aventail içerir"
  feature_armor_helmet_kettle:0 "Takım bir siperlikli miğfer içerir"
  feature_armor_helmet_cervelliere:0 "Takım bir yarım daire miğfer ve içi [Artifact.GetFeatureText( 'generic_material_cloth' )] dolu baş örgüsü içerir"
-### TODO AGOT-CHANGED: feature_armor_helmet_kulah_khud [AGOT: The set includes a Rhoynar helmet and an aventail | TR: Takım bir Khula Khud miğferi ve bir aventail içerir]
- feature_armor_helmet_kulah_khud:0 "The set includes a Rhoynar helmet and an aventail"
+
+ feature_armor_helmet_kulah_khud:0 "Takım bir Khula Khud miğferi ve bir aventail içerir"
  feature_armor_decoration_etched_pattern:0 "Zırhın tamamına kendini tekrar eden [Artifact.GetFeatureText( 'decoration_pattern' )] oyulmuş"
  feature_armor_decoration_inlay_pattern:0 "Zırhın tamamına [Artifact.GetFeatureText( 'decoration_material_inlay' )] kakılmış ve kendini tekrar eden [Artifact.GetFeatureText( 'decoration_pattern' )] oyulmuş"
  feature_armor_decoration_painted_pattern:0 "Zırhın tamamı [Artifact.GetFeatureText( 'decoration_pattern' )] boyanmış"
@@ -603,34 +603,34 @@
  feature_ring_adornment_religious:0 "etrafında [Artifact.GetOwner.GetFaith.GetAdjective] dini metinler işlenmiş"
  feature_ring_adornment_gems:0 "$feature_brooch_adornment_gems$"
  feature_ring_adornment_runes:0 "$feature_brooch_adornment_runes$"
-### TODO AGOT-CHANGED: morin_khuur_ornament_name [AGOT: Khalasar Horse Ornament | TR: Morin Huur At Süsü]
- morin_khuur_ornament_name:0 "Khalasar Horse Ornament"
-### TODO AGOT-CHANGED: morin_khuur_ornament_description [AGOT: A horse head carved from horse bone, usually a decoration on a saddle. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures. | TR: At kemiğinden oyulmuş bir at başı, genellikle bir Morin Huur kemanının tepesine koyulan bir süstür. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi.]
- morin_khuur_ornament_description:1 "A horse head carved from horse bone, usually a decoration on a saddle. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ morin_khuur_ornament_name:0 "Morin Huur At Süsü"
+
+ morin_khuur_ornament_description:0 "At kemiğinden oyulmuş bir at başı, genellikle bir Morin Huur kemanının tepesine koyulan bir süstür. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
  animal_ring_name:0 "Parlak Kaplan Yüzük"
  animal_ring_description:1 "Mücevher kaplı, parlak ve rengarek bir yüzük. Saray mensuplarınızı etkilemek yerine kör edebilirsiniz. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
  ostrich_shell_necklace_name:0 "Devekuşu Yumurtası Kabuğundan Kolye"
  ostrich_shell_necklace_description:1 "Parlak beyaz renk tonunda zarif bir mücevher parçası. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
-### TODO AGOT-CHANGED: pilgrimage_figurine_name [AGOT: Cuttle-bone Figure | TR: Mürekkep Balığı Kemiğinden Aziz Vardan Heykelciği]
- pilgrimage_figurine_name:0 "Cuttle-bone Figure"
-### TODO AGOT-CHANGED: pilgrimage_figurine_description [AGOT: A figurine of an ancient Ghiscari warrior. His helmet is filled with bronze detail. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures. | TR: 451'de Avarayr Savaşı'yla Ermenilerin Hristiyanlığı uygulama hakkını güvence altına alan bir Ermeni general olan Vardan Mamikonian'ın bir heykelciği. Miğferi bronz detaylar ile işlenmiş. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi.]
- pilgrimage_figurine_description:1 "A figurine of an ancient Ghiscari warrior. His helmet is filled with bronze detail. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
-### TODO AGOT-CHANGED: saint_margaret_fingernails_name [AGOT: Fingernails of the Patternmaker | TR: Azize Margaret'ın Tırnakları]
- saint_margaret_fingernails_name:0 "Fingernails of the Patternmaker"
-### TODO AGOT-CHANGED: saint_margaret_fingernails_description [AGOT: The Patternmaker's Maze is a labyrinth in Braavos that must be walked to gain wisdom. Supposedly, these old disgusting fingernail cutings belonged to the brilliant mind behind it. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures. | TR: Antakyalı Margaret, yalnızca ayakkabılarının topuklarını kullanarak bir ejderhayı öldürmesiyle ünlüydü. Güya, bu eski iğrenç tırnaklar ona ait. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi.]
- saint_margaret_fingernails_description:1 "The Patternmaker's Maze is a labyrinth in Braavos that must be walked to gain wisdom. Supposedly, these old disgusting fingernail cutings belonged to the brilliant mind behind it. Sent to [owner.GetTitledFirstNameNoTooltip] by [inspiration_owner.GetTitledFirstNameNoTooltip] during [inspiration_owner.GetHerHis] adventures."
+
+ pilgrimage_figurine_name:0 "Mürekkep Balığı Kemiğinden Aziz Vardan Heykelciği"
+
+ pilgrimage_figurine_description:0 "451'de Avarayr Savaşı'yla Ermenilerin Hristiyanlığı uygulama hakkını güvence altına alan bir Ermeni general olan Vardan Mamikonian'ın bir heykelciği. Miğferi bronz detaylar ile işlenmiş. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
+
+ saint_margaret_fingernails_name:0 "Azize Margaret'ın Tırnakları"
+
+ saint_margaret_fingernails_description:0 "Antakyalı Margaret, yalnızca ayakkabılarının topuklarını kullanarak bir ejderhayı öldürmesiyle ünlüydü. Güya, bu eski iğrenç tırnaklar ona ait. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
  seahorse_brooch_name:0 "Altın Denizatı Broş"
  seahorse_brooch_description:1 "Üzerinde hem kanatları hem de yüzgeç kuyruğu olan bir at bulunan narin zincirli püsküllü bir broş. Maceraları sırasında [inspiration_owner.GetTitledFirstNameNoTooltip] tarafından [owner.GetTitledFirstNameNoTooltip] için gönderildi."
  leopard_hat_name:0 "Leopar Şapka"
  leopard_hat_description:0 "[inspiration_owner.GetTitledFirstName] tarafından öldürülmüş bir leoparın kafasından yapılmış şapka."
-### TODO AGOT-CHANGED: kurgan_ornament_name [AGOT: Horse Figurine | TR: İskit Panter Heykelciği]
- kurgan_ornament_name:0 "Horse Figurine"
-### TODO AGOT-CHANGED: kurgan_ornament_description [AGOT: A stone figurine looted by [inspiration_owner.GetTitledFirstName] from an old burial mound. | TR: [inspiration_owner.GetTitledFirstName] tarafından eski bir İskit Kurgan mezarından yağmalanan taş bir heykelcik.]
- kurgan_ornament_description:0 "A stone figurine looted by [inspiration_owner.GetTitledFirstName] from an old burial mound."
-### TODO AGOT-CHANGED: kurgan_saddle_name [AGOT: Saddle from a Burial Mound | TR: Kurganda Bulunan Eyer]
- kurgan_saddle_name:0 "Saddle from a Burial Mound"
-### TODO AGOT-CHANGED: kurgan_saddle_description [AGOT: A saddle swiped by [inspiration_owner.GetTitledFirstName] from an ancient burial mound. Over a thousand years old, it has been preserved in the trapped air of the tomb, amidst the bodies of dozens of embalmed horses. Perhaps we can learn something from the ways of the ancient saddle-warriors. | TR: [inspiration_owner.GetTitledFirstName] tarafından bir İskit Kurgan mezarından bulunan eyer. Bin yıldan fazla bir süredir, düzinelerce mumyalanmış atın cesetleri arasında korunmuş. Belki de antik atlı savaşçılardan bir şeyler öğrenebiliriz.]
- kurgan_saddle_description:1 "A saddle swiped by [inspiration_owner.GetTitledFirstName] from an ancient burial mound. Over a thousand years old, it has been preserved in the trapped air of the tomb, amidst the bodies of dozens of embalmed horses. Perhaps we can learn something from the ways of the ancient saddle-warriors."
+
+ kurgan_ornament_name:0 "İskit Panter Heykelciği"
+
+ kurgan_ornament_description:0 "[inspiration_owner.GetTitledFirstName] tarafından eski bir İskit Kurgan mezarından yağmalanan taş bir heykelcik."
+
+ kurgan_saddle_name:0 "Kurganda Bulunan Eyer"
+
+ kurgan_saddle_description:0 "[inspiration_owner.GetTitledFirstName] tarafından bir İskit Kurgan mezarından bulunan eyer. Bin yıldan fazla bir süredir, düzinelerce mumyalanmış atın cesetleri arasında korunmuş. Belki de antik atlı savaşçılardan bir şeyler öğrenebiliriz."
  naked_tapestry_name:0 "Erotik Duvar Örtüsü"
  naked_tapestry_description:0 "Bu tasvir, [inspiration_owner.GetTitledFirstName] bir vaha kenarında iken çizilmiş. Üzerinde kristal gibi parlayan su damlacıkları varken kendini bir yelpaze ile serinletiyor."
  frogspawn_jar_name:0 "Kurbağa Yumurtası Kavanozu"
@@ -769,27 +769,27 @@
  bone_type_tibia:0 "Kaval Kemiği"
  bone_type_ankle:0 "Ayak Bileği Kemiği"
  translated_arabic_book_de_materia_medica_name:0 "#italic Tıbbi Malzeme Üzerine#!"
-### TODO AGOT-CHANGED: translated_arabic_book_de_materia_medica_desc [AGOT: An illustrated copy of Maegor Nogarys' five-volume pharmacopoeia on the medicinal uses of various plants, written in ancient Valyria and $translated_arabic_book_shared_desc$ | TR: Dioscorides tarafından antik İskenderiye'de yazılmış, çeşitli bitkilerin tıbbi olarak kullanımlarını içeren beş ciltlik farmakopesinin resimli bir kopyası $translated_arabic_book_shared_desc$]
- translated_arabic_book_de_materia_medica_desc:0 "An illustrated copy of Maegor Nogarys' five-volume pharmacopoeia on the medicinal uses of various plants, written in ancient Valyria and $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_de_materia_medica_desc:0 "Dioscorides tarafından antik İskenderiye'de yazılmış, çeşitli bitkilerin tıbbi olarak kullanımlarını içeren beş ciltlik farmakopesinin resimli bir kopyası $translated_arabic_book_shared_desc$"
  translated_arabic_book_on_ascensions_name:0 "#italic Yükseliş Üzerine#!"
-### TODO AGOT-CHANGED: translated_arabic_book_on_ascensions_desc [AGOT: A copy of Gaemon Belaerys' celestial treatise on the movements of the stars through the sky, written in ancient Valyria and $translated_arabic_book_shared_desc$ | TR: Hypsicles tarafından antik İskenderiye'de zodyak işaretlerinin gökyüzündeki hareketleri üzerine yazılmış astronomik bir çalışmanın kopyası $translated_arabic_book_shared_desc$]
- translated_arabic_book_on_ascensions_desc:0 "A copy of Gaemon Belaerys' celestial treatise on the movements of the stars through the sky, written in ancient Valyria and $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_on_ascensions_desc:0 "Hypsicles tarafından antik İskenderiye'de zodyak işaretlerinin gökyüzündeki hareketleri üzerine yazılmış astronomik bir çalışmanın kopyası $translated_arabic_book_shared_desc$"
  translated_arabic_book_elements_name:0 "#italic Elementler#!"
-### TODO AGOT-CHANGED: translated_arabic_book_elements_desc [AGOT: A copy of Naerys Togaryen's thirteen-volume mathematical treatise on geometry, logic, and their proofs, written in ancient Valyria and $translated_arabic_book_shared_desc$ | TR: Öklid tarafından antik İskenderiye'de geometri, mantık ve ispatlar üzerine yazılmış on üç ciltlik matematiksel incelemesinin bir kopyası $translated_arabic_book_shared_desc$]
- translated_arabic_book_elements_desc:0 "A copy of Naerys Togaryen's thirteen-volume mathematical treatise on geometry, logic, and their proofs, written in ancient Valyria and $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_elements_desc:0 "Öklid tarafından antik İskenderiye'de geometri, mantık ve ispatlar üzerine yazılmış on üç ciltlik matematiksel incelemesinin bir kopyası $translated_arabic_book_shared_desc$"
  translated_arabic_book_on_the_soul_name:0 "#italic Ruh Üzerine#!"
-### TODO AGOT-CHANGED: translated_arabic_book_on_the_soul_desc [AGOT: A copy of Taemion Araelys' ancient three-book psychological treatise on the nature of the soul and its inclinations, $translated_arabic_book_shared_desc$ | TR: Aristoptales tarafından, ruhun doğası ve eğilimleri üzerine yazılmış üç kitaplık psikolojik incelemesi $translated_arabic_book_shared_desc$]
- translated_arabic_book_on_the_soul_desc:0 "A copy of Taemion Araelys' ancient three-book psychological treatise on the nature of the soul and its inclinations, $translated_arabic_book_shared_desc$"
-### TODO AGOT-CHANGED: translated_arabic_book_thucydides_name [AGOT: #italic Fire Upon the Grass#! | TR: #italic Thukididis'in Tarihçesi#!]
- translated_arabic_book_thucydides_name:0 "#italic Fire Upon the Grass#!"
-### TODO AGOT-CHANGED: translated_arabic_book_thucydides_desc [AGOT: A copy of Terrio Erastes' ancient account of the life of Khal Dhako, the Dragon of the North, $translated_arabic_book_shared_desc$ | TR: Thukididis tarafından Atine ve Sparta arasında geçen Pelonponez savaşı üzerine yazılmış eski tarihçenin bir kopyası $translated_arabic_book_shared_desc$]
- translated_arabic_book_thucydides_desc:0 "A copy of Terrio Erastes' ancient account of the life of Khal Dhako, the Dragon of the North, $translated_arabic_book_shared_desc$"
-### TODO AGOT-CHANGED: translated_arabic_book_plutarch_name [AGOT: #italic The Life of the Triarch Belicho#! | TR: #italic Plutarkhos'un Hayatları#!]
- translated_arabic_book_plutarch_name:0 "#italic The Life of the Triarch Belicho#!"
-### TODO AGOT-CHANGED: translated_arabic_book_plutarch_desc [AGOT: A copy of one of the tomes of the Life of the Triarch Belicho, from Volantis, $translated_arabic_book_shared_desc$ | TR: Plutarch'ın önde gelen antik liderlerin ve ahlaki değerlerinin karşılaştırmalı biyografilerinin bir kopyası $translated_arabic_book_shared_desc$]
- translated_arabic_book_plutarch_desc:0 "A copy of one of the tomes of the Life of the Triarch Belicho, from Volantis, $translated_arabic_book_shared_desc$"
-### TODO AGOT-CHANGED: translated_arabic_book_shared_desc [AGOT: translated into the Common Tongue for [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetHouse.GetNameNoTooltip]. | TR: [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] için Yunanca'dan Arapça'ya çevrilmiştir.]
- translated_arabic_book_shared_desc:0 "translated into the Common Tongue for [ROOT.Char.GetLadyLord|U] [ROOT.Char.GetHouse.GetNameNoTooltip]."
+
+ translated_arabic_book_on_the_soul_desc:0 "Aristoptales tarafından, ruhun doğası ve eğilimleri üzerine yazılmış üç kitaplık psikolojik incelemesi $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_thucydides_name:0 "#italic Thukididis'in Tarihçesi#!"
+
+ translated_arabic_book_thucydides_desc:0 "Thukididis tarafından Atine ve Sparta arasında geçen Pelonponez savaşı üzerine yazılmış eski tarihçenin bir kopyası $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_plutarch_name:0 "#italic Plutarkhos'un Hayatları#!"
+
+ translated_arabic_book_plutarch_desc:0 "Plutarch'ın önde gelen antik liderlerin ve ahlaki değerlerinin karşılaştırmalı biyografilerinin bir kopyası $translated_arabic_book_shared_desc$"
+
+ translated_arabic_book_shared_desc:0 "[ROOT.Char.GetTitledFirstNameNoTooltipRegnal] için Yunanca'dan Arapça'ya çevrilmiştir."
  dress_me_artifact_desc:0 "Tüm görkemiyle sarayı etkilemek için [ROOT.Char.GetTitledFirstNameNoTooltipRegnal] tarafından en yetenekli terzilere sipariş edilen ihtişamlı bir kıyafet."
  improvised_halberd_desc:0 "Bu baltalı kargının ucunda bir keski var, her durumda işe yarayabilecek bir silah."
  improvised_dagger_desc:0 "Bu hançer, tarlada kullanılan bir aleti değiştirerek yapılmış. Kavraması kolay ve hâlâ keskin."
@@ -959,11 +959,11 @@
  artifact_dragvandil_description:0 "Egill Saga'dan bilinen çiftçi, şair ve savaşçı Egil Skallagrimsson'a ait olduğu söylenen kılıç."
  artifact_szczerbiec_name:0 "Szczerbiec"
  artifact_szczerbiec_description:1 "Kiev'in altın kapılarına saldırmak için bir melek tarafından Kral Cesur Boleslaw'a verildiği söylenen kılıç. Sembolik anlamı çok büyüktür."
-### TODO AGOT-CHANGED: artifact_chinese_caligraphy_name [AGOT: YiTish Calligraphy | TR: Çin Kaligrafisi]
- artifact_chinese_caligraphy_name:1 "YiTish Calligraphy"
+
+ artifact_chinese_caligraphy_name:0 "Çin Kaligrafisi"
  artifact_chinese_caligraphy_description: "Bu narin kâğıt parçası güzel ve son derece muntazam yazılarla kaplıdır. Kâğıttan berraklık ve zarafet yayılır. Bunu kimin kaleme aldığı bilinmese de mükemmel bir işçiliğe sahiptir."
-### TODO AGOT-CHANGED: artifact_ruyi_name [AGOT: Jade Scepter | TR: Ruyi]
- artifact_ruyi_name:0 "Jade Scepter"
+
+ artifact_ruyi_name:0 "Ruyi"
  artifact_ruyi_description:0 "Üzeri sembollerle ile dekore edilmiş küçük bir yeşim asa. Mükemmel bir işçiliğe sahiptir."
  turquoise_throne_name:0 "Turkuaz Taht"
  turquoise_throne_description:0 "Bu mücevherler ile kaplı kraliyet tahtı, Şahname'nin Pers krallarına ait olan efsanevi tahta benzetilerek yapılmıştır. Abanozdan yapılma iskeleti, turkuazın dışında saf altından yapılma plakalarla dekore edilmiştir. Bakanın nefesini kesen bu güzellik ancak alanında ustalaşmış zanaatkârların elinden çıkabilirdi."
@@ -993,8 +993,8 @@
  stained_glass_shard.desc:0 "Üzerinde ilginç bir şekilde kan rengine benzeyen lekeler var..."
  xylospongium:0 "Süngerli Çubuk"
  xylospongium.desc:1 "Nereden geldiği ve ne işe yaradığı belirsizdir. Ancak güzel bir koku yayar."
-### TODO AGOT-CHANGED: st_davids_morsel [AGOT: Morsel of Hugor of the Hill | TR: Aziz David'den Bir Parça]
- st_davids_morsel:1 "Morsel of Hugor of the Hill"
+
+ st_davids_morsel:0 "Aziz David'den Bir Parça"
  st_davids_morsel.desc:0 "Kurutulmuş et parçası olarak görünüyor. Yaşı ve kökeni belirsizdir."
  platypus_figurine:0 "Hayvan Heykelciği"
  platypus_figurine.desc:0 "Bu minik hayvanın geniş bir gagası, parlak bir kürkü ve yüzgeçleri var gibi görünüyor. Ne kadar tuhaf."
@@ -1004,23 +1004,23 @@
  stewardship_general.2001.artifact.potsherd_holy.desc:0 "Eski bir çömlek parçası. Söylentilere [trinket_holy_site.GetNameNoTierNoTooltip] kutsal bölgesinden geliyor."
  small_bell_beaker:0 "Küçük Çan Biçimli Çömlek"
  small_bell_beaker.desc:0 "Karmaşık desenlere sahip çan biçimli bir çömlek."
-### TODO AGOT-CHANGED: serpentine_budai [AGOT: Jade Lion | TR: Yılantaşı Budası]
- serpentine_budai:0 "Jade Lion"
-### TODO AGOT-CHANGED: serpentine_budai.desc [AGOT: The tiny gestalt of a fierce, growling, eastern lion. | TR: Tombul, gülen ve kel bir adamı tasvir eden şekil.]
- serpentine_budai.desc:0 "The tiny gestalt of a fierce, growling, eastern lion."
+
+ serpentine_budai:0 "Yılantaşı Budası"
+
+ serpentine_budai.desc:0 "Tombul, gülen ve kel bir adamı tasvir eden şekil."
  mythical_creature_horn:0 "[ROOT.Char.Custom('HornedMythicalCreature')|U] Boynuzu"
  mythical_creature_horn.desc:0 "Mitolojik [ROOT.Char.Custom('HornedMythicalCreature')] yaratığına ait olduğu iddia edilen boynuz."
  mythical_creature_figurine:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] [ROOT.Char.Custom('RegionalMythicalCreature')] Heykeli"
  mythical_creature_figurine.desc:1 "[new_trinket.Custom('ArtifactAnimalAdjective')|U] bir [SCOPE.Custom('RegionalMythicalCreatureLower')] tasvir eden bu heykel, [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] topraklarından toplanan küçük mücevher taşlarıyla [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')]."
-### TODO AGOT-CHANGED: st_davids_taper [AGOT: Candle of the Crone | TR: Aziz David'in Mumluğu]
- st_davids_taper:1 "Candle of the Crone"
+
+ st_davids_taper:0 "Aziz David'in Mumluğu"
  st_davids_taper.desc:1 "Görünüşe göre birisi her iki ucunu da yakmaya çalışmış."
-### TODO AGOT-CHANGED: jira_stick [AGOT: Marble Scepter of Lyber | TR: J'İra'nın Mermer Asası]
- jira_stick:0 "Marble Scepter of Lyber"
-### TODO AGOT-CHANGED: jira_stick.desc [AGOT: An ancient scepter depecting a spider and serpent at war. | TR: Çok fazla kullanılmış olsa da sivri ucu hâlâ keskin.]
- jira_stick.desc:0 "An ancient scepter depecting a spider and serpent at war."
-### TODO AGOT-CHANGED: lucky_coin [AGOT: Lucky [ROOT.Char.GetCulture.GetNameNoTooltip] Coin | TR: Şanslı [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] Sikkesi]
- lucky_coin:0 "Lucky [ROOT.Char.GetCulture.GetNameNoTooltip] Coin"
+
+ jira_stick:0 "J'İra'nın Mermer Asası"
+
+ jira_stick.desc:0 "Çok fazla kullanılmış olsa da sivri ucu hâlâ keskin."
+
+ lucky_coin:0 "Şanslı [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] Sikkesi"
  lucky_coin.desc:1 "[ROOT.Char.GetCurrentLocation.GetNameNoTooltip] bölgesine özgü bir [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] sikkesi.\n\nÇok kullanıldığı için yüzeyi pürüzsüz hâle gelmiş."
  lavender_jade_pendant:0 "Eflatun Renginde Yeşim Kolye"
  lavender_jade_pendant.desc:0 "Zengin mor rengiyle bezenmiş şeritler çarpıcı görünüyor."
@@ -1032,15 +1032,15 @@
  easteregg_artifact_elisabeth_plush_description:0 "Elisabeth'in doldurulmuş tilkisi en sevdiği oyuncaktı ve hayatı boyunca arkadaş olmuşlardı. İşverenleri için karmaşık sözler yazarken sık sık tilkisiyle konuşurdu. Huzur verir ve sahibine tilki gibi kurnaz olmayı hatırlatır."
  easteregg_artifact_nicks_redolence: "Son Koku"
  easteregg_artifact_nicks_redolence_description: "İçinde [ROOT.Char.Custom('GetComplexColor')] renkte bir sıvı bulunan küçük bir şişe. Şişenin kapağı açıldığında o kadar keskin bir koku yayılıyor ki kadınlar kadar erkeklerin de dikkatini çekiyor. Şişenin üzerinde #EMP "Ve şimdi, sonunuz yakın..."#! yazıyor."
-### TODO AGOT-CHANGED: easteregg_artifact_chad_book [AGOT: The Annotated Edge of the World | TR: Açıklamalı Aeneis]
- easteregg_artifact_chad_book:0 "The Annotated Edge of the World"
-### TODO AGOT-CHANGED: easteregg_artifact_chad_book_description [AGOT: A well-loved and illuminated copy of Maester Balder's The Edge of the World clouded by many scribblings — some inane, some insightful. | TR: Vergilius'un yazdığı Aeneis'in üstüne bazıları saçma bazıları aydınlatıcı notlar karalanmış bir kopyası.]
- easteregg_artifact_chad_book_description:0 "A well-loved and illuminated copy of Maester Balder's The Edge of the World clouded by many scribblings — some inane, some insightful."
+
+ easteregg_artifact_chad_book:0 "Açıklamalı Aeneis"
+
+ easteregg_artifact_chad_book_description:0 "Vergilius'un yazdığı Aeneis'in üstüne bazıları saçma bazıları aydınlatıcı notlar karalanmış bir kopyası."
  easteregg_artifact_chad_dagger:0 "Hançer"
  easteregg_artifact_chad_dagger_description:0 "Kurumuş kan izleriyle ışıltısını kaybetmiş. Yine de daha fazlasına aç."
  easteregg_artifact_veronica_book:0 "Efendinin Yüzükleri"
-### TODO AGOT-CHANGED: easteregg_artifact_veronica_book_description [AGOT: A thinly-veiled reference, in book form. Written in a language long lost beyond the sea. | TR: Kitap hâlindeki açık bir gönderme. Güzel bir Portekizce ile yazılmış.]
- easteregg_artifact_veronica_book_description:0 "A thinly-veiled reference, in book form. Written in a language long lost beyond the sea."
+
+ easteregg_artifact_veronica_book_description:0 "Kitap hâlindeki açık bir gönderme. Güzel bir Portekizce ile yazılmış."
  easteregg_artifact_map_lohmander: "Eski Seyahatname"
  easteregg_artifact_map_lohmander_description: "Bu deri ciltli küçük kitapta, İskandinav bir kâtibin Batı'dan Hindistan'a yaptığı yolculuğun hikâyeleri yer alıyor. Tehlikeleri, yolları, yolculuğu yapan kişilerin hangi aletlere ihtiyaç duyucağını, nereden su getireceğini ve nerede hangi çizmelerin giyilmesi gerektiğine dair ayrıntılarıyla anlatıyor. Ayrıca yerel yemekler veya danslar hakkında da birçok bilgi içeriyor.\n\nİçinde ayrıca Hindistan'ın yanı sıra diğer birçok yeri tasvir eden, uzak yerler ve geçmiş çağlardaki isimleri hakkında notlar içeren bir dizi katlanmış harita bulunuyor."
  easteregg_artifact_jason_sword:0 "Aziz Martin'in Kılıcı"
@@ -1125,21 +1125,21 @@
  feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
  feature_generic_material_earthware_stone:0 "$earthware_stone$"
  feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"
-### TODO AGOT-CHANGED: artifact_oxus_bracelet_name [AGOT: Hyrkooni Bracelet | TR: Ceyhun Bileziği]
- artifact_oxus_bracelet_name: "Hyrkooni Bracelet"
-### TODO AGOT-CHANGED: artifact_oxus_bracelet_description [AGOT: This bracelet of wonderful craftmanship is said to hail from the land of Hyrkoon. Though its inlay of enamel and semi-precious stones is long lost, the gold retain its luster. Bracelets like this were gifts of honor at the courts of the kings of Sarnor in ages past, so perhaps it was once worn by a great lord. | TR: Kusursuz bir işçilik eseri olan bu bileziğin $k_transoxiana$ topraklarından geldiği söylenir. Değerli taşlardan oluşan kakması çoktan kaybolmuş olsa da, altın kısımları parlaklığını ilk günkü gibi korumaktadır. Bu tarz bilezikler antik çağda Kralların Kralının sarayındaki soylular tarafından giyilirdi, belki bu bilezik de bir zamanlar Babil'de yüce bir lord tarafından giyilmiştir.]
- artifact_oxus_bracelet_description: "This bracelet of wonderful craftmanship is said to hail from the land of Hyrkoon. Though its inlay of enamel and semi-precious stones is long lost, the gold retain its luster. Bracelets like this were gifts of honor at the courts of the kings of Sarnor in ages past, so perhaps it was once worn by a great lord."
+
+ artifact_oxus_bracelet_name:0 "Ceyhun Bileziği"
+
+ artifact_oxus_bracelet_description:0 "Kusursuz bir işçilik eseri olan bu bileziğin $k_transoxiana$ topraklarından geldiği söylenir. Değerli taşlardan oluşan kakması çoktan kaybolmuş olsa da, altın kısımları parlaklığını ilk günkü gibi korumaktadır. Bu tarz bilezikler antik çağda Kralların Kralının sarayındaki soylular tarafından giyilirdi, belki bu bilezik de bir zamanlar Babil'de yüce bir lord tarafından giyilmiştir."
  fp3_incense_burner_sculpture: "Tütsü Yakıcı"
  fp3_incense_burner_sculpture_desc: "Kedi şeklindeki bu tütsü yakıcı, sahip olduğu deliklerden hoş kokulu dumanlar çıkarır. Mücevher işlemeli gözlere sahip kafa kısmında, içine yanan tütsü yerleştirilebilmesi için özel bir bölme yer almaktadır."
-### TODO AGOT-CHANGED: fp3_ancient_drinking_vessel [AGOT: Qohorik Drinking Vessel | TR: Ahameniş Kadehi]
- fp3_ancient_drinking_vessel: "Qohorik Drinking Vessel"
+
+ fp3_ancient_drinking_vessel:0 "Ahameniş Kadehi"
  fp3_ancient_drinking_vessel_desc: "Keçi şeklinde süslemelere sahip bir kadeh. Çoktan unutulmuş zamanlarda yapılmış olsa da, güzelliğini kaybetmemiş."
-### TODO AGOT-CHANGED: artifact_sassanian_sword_name [AGOT: Sarnori Sword | TR: Sasani Kılıcı]
- artifact_sassanian_sword_name: "Sarnori Sword"
-### TODO AGOT-CHANGED: artifact_sassanian_sword_description [AGOT: Said to be from the time of the Sarnori, this sword $sassanian_sword_description_base$, making it a magnificent sight to behold. Though nowadays it is too fragile to be taken into battle, perhaps this sword was once held by a hero now lost to time? | TR: Eski Sasani döneminin bir kalıntısı olduğu söylenen bu kılıç $sassanian_sword_description_base$ kusursuz bir görüntüye sahiptir. Günümüzde muharebede kullanmak için fazla kırılgan olsa da, bu kılıcın bir zamanlar önemli biri tarafından kuşanıldığını söylemek mümkün.]
- artifact_sassanian_sword_description: "Said to be from the time of the Sarnori, this sword $sassanian_sword_description_base$, making it a magnificent sight to behold. Though nowadays it is too fragile to be taken into battle, perhaps this sword was once held by a hero now lost to time?"
-### TODO AGOT-CHANGED: artifact_sassanian_replica_sword_name [AGOT: Sarnori Style Sword | TR: Sasani Tarzındaki Kılıç]
- artifact_sassanian_replica_sword_name: "Sarnori Style Sword"
+
+ artifact_sassanian_sword_name:0 "Sasani Kılıcı"
+
+ artifact_sassanian_sword_description:0 "Eski Sasani döneminin bir kalıntısı olduğu söylenen bu kılıç $sassanian_sword_description_base$ kusursuz bir görüntüye sahiptir. Günümüzde muharebede kullanmak için fazla kırılgan olsa da, bu kılıcın bir zamanlar önemli biri tarafından kuşanıldığını söylemek mümkün."
+
+ artifact_sassanian_replica_sword_name:0 "Sasani Tarzındaki Kılıç"
  sassanian_sword_description_base: "titizlikle işlenmiş süslemeleriyle"
  famed_replica_sassanian_sword_description: "Geçmişin görkemli dönemlerinden alınan ilhamla ortaya çıkarılan bu kılıç, yaratıcısının atalarının kahramanlık dolu hikâyelerini anımsatır. Kılıç $sassanian_sword_description_base$ kusursuz bir görüntüye sahiptir. Eski çağın efsanevi kralları tarafından kuşanılacak güzelliktedir."
  masterwork_replica_sassanian_sword_description: "Antik çağdaki silahlardan esinlenerek ortaya çıkarılan bu kılıç, yaratıcısının atalarının tarihî kahramanlıklarına atıfta bulunur. Kılıç $sassanian_sword_description_base$ kusursuz bir görüntüye sahiptir. Kuşananı unutulmuş bir dönemin önemli bir hükümdarı gibi hissettirebilir."

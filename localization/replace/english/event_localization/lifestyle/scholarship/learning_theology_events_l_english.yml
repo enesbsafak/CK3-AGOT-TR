@@ -1,18 +1,18 @@
 ﻿l_english:
  learning_theology.1301.t:0 "Önemli Bir Kitap"
-### TODO AGOT-ONLY: learning_theology.1301.desc_opening [AGOT: ]
- learning_theology.1301.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with urgency.\n\n"
-### TODO AGOT-ONLY: learning_theology.1301.desc_regula_pastoralis [AGOT: ]
- learning_theology.1301.desc_regula_pastoralis:0 ""A local merchant has a copy of the influential Regula Pastoralis but refuses to sell it to me."
-### TODO AGOT-ONLY: learning_theology.1301.desc [AGOT: ]
- learning_theology.1301.desc:0 ""A local merchant has a copy of The Compendious Book on Calculation by Completion and Balancing but refuses to sell it to me."
+
+ learning_theology.1301.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [bishop.Custom2('MyCharacterIntroduction', ROOT.Char)|U] aciliyetle yanıma yaklaşıyor.\n\n"
+
+ learning_theology.1301.desc_regula_pastoralis:0 ""Yerel bir tüccar, etkili Regula Pastoralis'in bir kopyasına sahip ama onu bana satmayı reddediyor.""
+
+ learning_theology.1301.desc:0 ""Yerel bir tüccar, Tamamlama ve Denkleştirme Yoluyla Hesap Üzerine Özet Kitap'ın bir kopyasına sahip ama onu bana satmayı reddediyor.""
  learning_theology.1301.desc_ending:0 "Yaptığının yanlış olduğunu anlamasını sağlarsanız size minnettar kalırım!""
  learning_theology.1301.a:0 "Kitabın sana ulaşmasını sağlayacağım."
  learning_theology.1301.b:0 "Hmm, ilginç bir kitap gibi gözüküyor..."
  learning_theology.1301.c:0 "Bu daha çok #EMP senin#! problemin gibi."
  learning_theology.2020.t:0 "[ROOT.Char.GetFaith.ReligiousText|U]"
-### TODO AGOT-CHANGED: learning_theology.2020.desc [AGOT: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamed] often quotes passages from the [ROOT.Char.GetFaith.ReligiousText] about the holy virtues. I should prove I have paid attention by quoting a passage of my own — preferably one which compliments [court_chaplain.GetHerHis] personality.\n\nI will memorize and recite a section on... | TR: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstName] sıklıkla söylediklerini desteklemek adına kutsal metinlerden pasajlar alıntılıyor. Gözüne girmek için belki ben de doğru zamanı kollayıp bir alıntı yapabilirim — tercihen onu pohpohlayan bir alıntı.\n\nYapmam gereken tek şey ne hakkında bir pasaj olması gerektiğine karar vermek...]
- learning_theology.2020.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamed] often quotes passages from the [ROOT.Char.GetFaith.ReligiousText] about the holy virtues. I should prove I have paid attention by quoting a passage of my own — preferably one which compliments [court_chaplain.GetHerHis] personality.\n\nI will memorize and recite a section on..."
+
+ learning_theology.2020.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstName] sıklıkla söylediklerini desteklemek adına kutsal metinlerden pasajlar alıntılıyor. Gözüne girmek için belki ben de doğru zamanı kollayıp bir alıntı yapabilirim — tercihen onu pohpohlayan bir alıntı.\n\nYapmam gereken tek şey ne hakkında bir pasaj olması gerektiğine karar vermek..."
  learning_theology.2020.brave:0 "Cesaret hakkında."
  learning_theology.2020.just:0 "Adalet hakkında."
  learning_theology.2020.temperate:0 "Ilımlılık hakkında."
@@ -32,18 +32,18 @@
  learning_theology.2020.lustful:0 "Şehvet hakkında."
  learning_theology.2020.ambitious:0 "Hırs hakkında."
  learning_theology.2020.gluttonous:0 "İştah hakkında."
-### TODO AGOT-CHANGED: learning_theology.2020.success.desc [AGOT: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] is flattered | TR: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] bu hareketinizden etkilendi]
- learning_theology.2020.success.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] is flattered"
-### TODO AGOT-CHANGED: learning_theology.2020.neutral.desc [AGOT: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] is pleased | TR: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] bu hareketinden memnun kaldı]
- learning_theology.2020.neutral.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] is pleased"
-### TODO AGOT-CHANGED: learning_theology.2020.failure.desc [AGOT: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] thinks I am mocking [court_chaplain.GetHerHim] | TR: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] onunla alay ettiğimi düşündü]
- learning_theology.2020.failure.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamedNoTooltip] thinks I am mocking [court_chaplain.GetHerHim]"
-### TODO AGOT-CHANGED: learning_theology.2021.desc [AGOT: I am sure [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamed] has said something about the virtues of being [SCOPE.Custom('virtue_choice')]. I cannot recall his exact words, so I allow myself some creativity.\n\nUnfortunately, the [court_chaplain.GetCouncilTitle|U] is rather conservative. | TR: [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstName] yakın bir zamanda [SCOPE.Custom('virtue_choice')] olmanın erdemliliğine dair kutsal metinlerden bir alıntı yapmıştı. Tam olarak ne dediğini hatırlayamıyorum, bu sebeple cümleyi doğaçlama yaparak tamamlıyorum. Görünen o ki [court_chaplain.GetCouncilTitle|U] yaratıcılığımdan pek hazzetmiyor.]
- learning_theology.2021.desc:0 "I am sure [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNicknamed] has said something about the virtues of being [SCOPE.Custom('virtue_choice')]. I cannot recall his exact words, so I allow myself some creativity.\n\nUnfortunately, the [court_chaplain.GetCouncilTitle|U] is rather conservative. "What are you talking about?" [court_chaplain.GetSheHe] sneers. "Those are not the words of [ROOT.Char.GetFaith.HighGodName]!""
+
+ learning_theology.2020.success.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] bu hareketinizden etkilendi"
+
+ learning_theology.2020.neutral.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] bu hareketinden memnun kaldı"
+
+ learning_theology.2020.failure.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstNameNoTooltip] onunla alay ettiğimi düşündü"
+
+ learning_theology.2021.desc:0 "[court_chaplain.GetCouncilTitle|U] [court_chaplain.GetFirstName] yakın bir zamanda [SCOPE.Custom('virtue_choice')] olmanın erdemliliğine dair kutsal metinlerden bir alıntı yapmıştı. Tam olarak ne dediğini hatırlayamıyorum, bu sebeple cümleyi doğaçlama yaparak tamamlıyorum. Görünen o ki [court_chaplain.GetCouncilTitle|U] yaratıcılığımdan pek hazzetmiyor."
  learning_theology.2021.a:0 "Belki de [ROOT.Char.GetFaith.ReligiousText] okumalarına daha fazla zaman ayırmalıyım..."
  learning_theology.3002.t:0 "Kıyamet Vakti"
-### TODO AGOT-CHANGED: learning_theology.3002.desc [AGOT: I have been studying the ancient religious texts and the writings of scholars, and they all seem to agree that [ROOT.Char.Custom('WorldDeadline')]. By my calculations we are less than a century away.\n\nHowever, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.GetFirstNameNicknamedNoTooltip], urges me to keep it to myself. | TR: Bir süredir antik dinî metinleri ve âlimlerin yazılarını inceliyorum... Neredeyse hepsi [ROOT.Char.Custom('WorldDeadline')] konusunda hemfikir. Yaptığım hesaplamalara göre kıyamet tarihine yüz yıldan az bir süre kalmış durumda.\n\n[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('chaplain'))|U] [chaplain.GetTitledFirstName] ise bu bilgiyi kendime saklamam gerektiğini düşünüyor.]
- learning_theology.3002.desc:0 "I have been studying the ancient religious texts and the writings of scholars, and they all seem to agree that [ROOT.Char.Custom('WorldDeadline')]. By my calculations we are less than a century away.\n\nHowever, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chaplain'))], [chaplain.GetFirstNameNicknamedNoTooltip], urges me to keep it to myself. "Leave it to the [ROOT.Char.GetFaith.AltPriestTermPlural] and avoid panic. What if your calculations are wrong?""
+
+ learning_theology.3002.desc:0 "Bir süredir antik dinî metinleri ve âlimlerin yazılarını inceliyorum... Neredeyse hepsi [ROOT.Char.Custom('WorldDeadline')] konusunda hemfikir. Yaptığım hesaplamalara göre kıyamet tarihine yüz yıldan az bir süre kalmış durumda.\n\n[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('chaplain'))|U] [chaplain.GetTitledFirstName] ise bu bilgiyi kendime saklamam gerektiğini düşünüyor."
  learning_theology.3002.a:0 "Herkes gerçeği öğrenmeyi hak ediyor!"
  learning_theology.3002.b:0 "Haklısın, [chaplain.GetFirstNameNoTooltip]."
  learning_theology.3002.c:0 "Bu meseleyi [ROOT.Char.GetFaith.PriestNeuterPlural] ile konuşmalıyım."
@@ -86,12 +86,12 @@
  learning_theology.3031.b_confucian: "Yolu takip edecekler!"
  learning_theology.3031.b_tt:1 "$task_conversion$ konsey görevi ilerleme kazanacak"
  learning_theology.3031.b_tt2:0 "30 yıl boyunca [county.GetNameNoTooltip] Kontluğunda Din Değiştirmek daha kolay olacak"
-### TODO AGOT-CHANGED: learning_theology.3041.t [AGOT: Higher Mysteries | TR: Kadim Bilgiler]
- learning_theology.3041.t:0 "Higher Mysteries"
+
+ learning_theology.3041.t:0 "Kadim Bilgiler"
  learning_theology.3041.desc:0 "[ROOT.Char.GetFaith.HighGodName|U] ile iletişime geçmek adına transa geçen [ROOT.Char.GetFaith.DevoteeNeuterPlural] hakkında bilgilere rastlıyorum.\n\nBen de benzer bir ilahi bağ kurabilir miyim?"
  learning_theology.3041.a:0 "Ayinlerini uygularsam ne olur acaba?"
-### TODO AGOT-CHANGED: learning_theology.3041.a.tt [AGOT: You test the higher mysteries | TR: Kadim ayinleri deneyeceksiniz]
- learning_theology.3041.a.tt:0 "You test the higher mysteries"
+
+ learning_theology.3041.a.tt:0 "Kadim ayinleri deneyeceksiniz"
  learning_theology.3041.b:0 "Diğer metinler ne diyor?"
  learning_theology.3041.b.tt:0 "Mevzubahis ayinler hakkında daha fazla bilgi toplamaya çalışacaksınız"
  learning_theology.3042.desc:0 "Tuhaf tütsülerle dolu bir odaya kendimi kilitledim. Tamamen dumanaltı bir ortamda tüm benliğimle dünyevi gerçekliğin ötesine geçmeye odaklanmış durumdayım.\n\nNe kadar süre geçtiğini bilmiyorum fakat birdenbire anlaşılamayan ışık hüzmeleri gözümü alıyor ve titrek bir ses duyuyorum. Tüm bunlar bir hayalden mi ibaretti, yoksa ilahın bir tezahürü müydü? İkisini birbirinden ayırt etmek mümkün mü?"
@@ -104,12 +104,12 @@
  learning_theology.3044.desc:0 "Kadim metinleri karıştırmaya devam ettikçe daha fazla bilgiye erişiyorum. Antik [ROOT.Char.GetFaith.DevoteeNeuterPlural] ve onların bu uygulamaları [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip] dininin dahi öncesine dayanıyor olabilir mi?\n\nBu olağanüstü bir bilgi..."
  learning_theology.3044.a:0 "İşte şimdi taşlar yerine oturuyor!"
  learning_theology.3044.b:0 "Biraz deney yapmaktan zarar gelmez..."
-### TODO AGOT-CHANGED: learning_theology.3045.desc [AGOT: This is so frustrating! Whatever I do, I cannot capture the feeling I got from my first experiments into the higher mysteries.\n\nThat sense that #EMP something#! is there, just out of reach, is simply gone, no matter what I do! | TR: Artık bıktım! Ne yaparsam yapayım yaptığım ilk deneyde yaşadığım hisleri tekrar yaşayamıyorum.\n\nAradığım şey, görülebilenin ötesinde #EMP bir şeyler#! varmış duygusu... Beni tamamen terk etti!]
- learning_theology.3045.desc:0 "This is so frustrating! Whatever I do, I cannot capture the feeling I got from my first experiments into the higher mysteries.\n\nThat sense that #EMP something#! is there, just out of reach, is simply gone, no matter what I do!"
+
+ learning_theology.3045.desc:0 "Artık bıktım! Ne yaparsam yapayım yaptığım ilk deneyde yaşadığım hisleri tekrar yaşayamıyorum.\n\nAradığım şey, görülebilenin ötesinde #EMP bir şeyler#! varmış duygusu... Beni tamamen terk etti!"
  learning_theology.3045.a:0 "O hissi tekrar yaşamalıyım!"
  learning_theology.3045.b:0 "[ROOT.Char.GetFaith.HighGodNameAlternate] ile iletişime geçmek için duadan fazlasına ihtiyaç yok."
-### TODO AGOT-CHANGED: learning_theology.3046.desc [AGOT: I have been seeking knowledge in the higher mysteries and experience for so long now, and yet... nothing! The only answer I have left is to go back to the very beginning, and perfectly recreate the conditions of my experiment.\n\nI need to commune with the divine. Am I being intentionally ignored?! | TR: Kadim bilgilere vakıf olmak adına kendimi harap etsem de elime hiçbir şey geçmedi! Tüm uğraşlarımın ardından başladığım yere dönmüş durumdayım. Belki de olmam gereken yer burasıdır, en başa dönüp ilk deneyimin şartlarını yeniden sağlamak...\n\nİlahilerle iletişime geçmenin bir yolunu bulmalıyım. Yoksa beni kasten görmezden mi geliyorlar?!]
- learning_theology.3046.desc:0 "I have been seeking knowledge in the higher mysteries and experience for so long now, and yet... nothing! The only answer I have left is to go back to the very beginning, and perfectly recreate the conditions of my experiment.\n\nI need to commune with the divine. Am I being intentionally ignored?!"
+
+ learning_theology.3046.desc:0 "Kadim bilgilere vakıf olmak adına kendimi harap etsem de elime hiçbir şey geçmedi! Tüm uğraşlarımın ardından başladığım yere dönmüş durumdayım. Belki de olmam gereken yer burasıdır, en başa dönüp ilk deneyimin şartlarını yeniden sağlamak...\n\nİlahilerle iletişime geçmenin bir yolunu bulmalıyım. Yoksa beni kasten görmezden mi geliyorlar?!"
  learning_theology.3046.a:0 "Cevaplara ihtiyacım var!"
  learning_theology.3046.a.success:0 "Başarılı bir deney"
  learning_theology.3046.a.success.tt:1 "[GetTrait('lifestyle_mystic').GetName( GetPlayer )] özelliği kazanabilirsiniz"
@@ -124,13 +124,13 @@
  learning_theology.3051.arabian_nights:0 "İki Bin [SelectLocalization( IsLandlessAdventurer( ROOT.Char ), ROOT.Char.GetCulture.GetNameNoTooltip, ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip ) ] Gecesi"
  learning_theology.3051.inferno:0 "[ROOT.Char.GetFaith.random_EvilGodNames] Cehennemi"
  learning_theology.3051.my_immortal:0 "[passion_playwright.GetRandomPositiveTrait]"
-### TODO AGOT-ONLY: learning_theology.3051.desc.passion [AGOT: ]
+
  learning_theology.3051.desc.passion:0 ""$learning_theology.3051.passion$.""
-### TODO AGOT-ONLY: learning_theology.3051.desc.arabian_nights [AGOT: ]
+
  learning_theology.3051.desc.arabian_nights:0 ""$learning_theology.3051.arabian_nights$.""
-### TODO AGOT-ONLY: learning_theology.3051.desc.inferno [AGOT: ]
+
  learning_theology.3051.desc.inferno:0 ""$learning_theology.3051.inferno$.""
-### TODO AGOT-ONLY: learning_theology.3051.desc.my_immortal [AGOT: ]
+
  learning_theology.3051.desc.my_immortal:0 ""$learning_theology.3051.my_immortal$.""
  learning_theology.3051.desc.outro:0 "\n\nGiriş ücreti epey pahalı ama [passion_playwright.GetNameNoTooltip] tarafından yazılan bir oyuna tanıklık etme fırsatı hayatta ayağına bir kez gelir!"
  learning_theology.3051.a:0 "Bu akşam tiyatroya gidelim o zaman!"
@@ -191,10 +191,10 @@
  learning_theology_special.1003.b.desc:0 "Saatlerce süren yorucu bir araştırmanın ardından [pope_liege.GetTitledFirstName], [ROOT.Char.GetFaith.GetAdjective] öğretilerinin baştan yorumlanmasını gerektirecek antik bir metin keşfetti.\n\nBulgularını [vassal_pope.GetTitledFirstName] ile paylaştıktan sonra, kitabın içeriğini mezhebin resmî öğretilerine dâhil etmeye karar verdi."
  learning_theology_special.1003.a:0 "Peki bu bizim için ne anlama geliyor?"
  learning_theology_special.1101.t:0 "Tefsirler"
-### TODO AGOT-ONLY: learning_theology_special.1101.desc [AGOT: ]
- learning_theology_special.1101.desc:0 ""Blessings upon you, [ROOT.Char.Custom('FormOfAddressForLiege')]. My name is [scholar.GetTitledFirstName]." The rabbi before me gives a respectful bow.\n\n"I have dedicated my life to studying and writing commentaries on the Tanakh and the Talmud. Perhaps my writings and my guidance would be of use to you in your own studies of the [ROOT.Char.GetFaith.ReligiousText].""
-### TODO AGOT-ONLY: learning_theology_special.1101.desc.fallback [AGOT: ]
- learning_theology_special.1101.desc.fallback:0 ""Greetings, [ROOT.Char.Custom('FormOfAddressForLiege')]. My name is [scholar.GetTitledFirstName]." The priest before me gives a respectful bow.\n\n"I have dedicated my life to studying and writing the [ROOT.Char.GetFaith.ReligiousText]. Perhaps my writings and my guidance would be of use to you in your own studies.""
+
+ learning_theology_special.1101.desc:0 ""Üzerinize bereket, [ROOT.Char.Custom('FormOfAddressForLiege')]. Adım [scholar.GetTitledFirstName]." Önümdeki haham saygıyla eğiliyor.\n\n"Hayatımı Tanah ve Talmud üzerine incelemeler yazmaya ve çalışmaya adadım. Belki yazılarım ve rehberliğim, [ROOT.Char.GetFaith.ReligiousText] çalışmalarınızda işinize yarar.""
+
+ learning_theology_special.1101.desc.fallback:0 ""Selamlar, [ROOT.Char.Custom('FormOfAddressForLiege')]. Adım [scholar.GetTitledFirstName]." Önümdeki rahip saygıyla eğiliyor.\n\n"Hayatımı [ROOT.Char.GetFaith.ReligiousText] üzerine çalışmaya ve yazmaya adadım. Belki yazılarım ve rehberliğim, kendi çalışmalarınızda işinize yarar.""
  learning_theology_special.1101.a:0 "[ROOT.Char.GetFaith.ReligiousText|U] için bir tefsir yazalım!"
  learning_theology_special.1101.b:0 "#emp Gerçek#! dünyada daha önemli işlerim var."
  learning_theology_special.1101.c:0 "Kâfirlere evimi açmayacağım!"

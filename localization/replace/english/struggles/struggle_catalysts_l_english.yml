@@ -57,10 +57,10 @@
  catalyst_toledo_council_tension_desc:0 "$catalyst_toledo_council_hostility_desc$"
  catalyst_imprison_important:0 "[duke|E] veya daha yüksek [title_tier|E] tutsak [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
  catalyst_imprison_important_desc:1 "[head_of_faith|E] ve [cultural_head|E] de dâhil olmak üzere bir [Concept( 'duke', 'Dükü' )|E] veya daha yüksek kademeden bir [Concept( 'character', 'karakteri' )|E] hapse atmak"
-### TODO AGOT-CHANGED: catalyst_successfully_expelled_interloper [AGOT: Win [btw_reclamation|E] [struggle_catalyst_catalyst|E] | TR: [iberian_reclamation|E] Zaferi [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_successfully_expelled_interloper:0 "Win [btw_reclamation|E] [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_successfully_expelled_interloper_desc [AGOT: Win an [btw_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$ | TR: [struggle_uninvolved|E] bir karaktere karşı [iberian_reclamation|E] savaşı kazanmak]
- catalyst_successfully_expelled_interloper_desc:0 "Win an [btw_reclamation|E] against an [struggle_uninvolved|E] $game_concept_character$"
+
+ catalyst_successfully_expelled_interloper:0 "[iberian_reclamation|E] Zaferi [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+
+ catalyst_successfully_expelled_interloper_desc:0 "[struggle_uninvolved|E] bir karaktere karşı [iberian_reclamation|E] savaşı kazanmak"
  catalyst_truce_was_enforced:0 "[Concept( 'enforced_truce', 'Zorla Ateşkes' )|E] [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
  catalyst_truce_was_enforced_desc:0 "[struggle_involved|E] [Concept( 'ruler', 'Hükümdarlar' )|E] arasında [Concept( 'enforced_truce', 'Zorla Ateşkes' )|E] yaptırmak"
  catalyst_execute_important:0 "[duke|E] veya daha yüksek [title_tier|E] İdam [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
@@ -75,8 +75,8 @@
  catalyst_ransom_important_desc:0 "[struggle_involved|E] bir [Concept( 'ruler', 'Hükümdarı' )|E] fidye karşılığında serbest bırakmak"
  catalyst_gift_independent_ruler:0 "Hediye Gönderme [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
  catalyst_gift_independent_ruler_desc:3 "[struggle_involved|E] bir [Concept( 'ruler', 'hükümdara' )|E] [gift|E] veya [artifact|E] göndermek"
-### TODO AGOT-ONLY: catalyst_very_important_child_change_culture_or_faith [AGOT: ]
- catalyst_very_important_child_change_culture_or_faith:0 ""
+
+ catalyst_very_important_child_change_culture_or_faith:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  catalyst_very_important_child_change_culture_or_faith_desc:1 "[Concept( 'children', 'Çocuklarınızdan' )|E] birini, bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'faith', 'mezhebine' )|E] veya [Concept( 'culture', 'kültürüne' )|E] geçirmek"
  catalyst_vassalize_independent_ruler:0 "[independent_ruler] Vasallaştırma [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
  catalyst_vassalize_independent_ruler_desc:0 "[Concept( 'independent_ruler', 'Bağımsız' )|E] bir hükümdarı vasal hâline getirmek"

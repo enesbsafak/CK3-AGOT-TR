@@ -272,8 +272,8 @@
  make_tributary_temp_protection_tooltip: "[Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, '', ' adlı karakterin ' )][Concept('tributaries', 'Haraçgüzarları')|E][Select_CString( attacker.IsLocalPlayer, 'nız', '' )] #V [SCOPE.ScriptValue('temp_tributary_protection_value')|0]#! yıllığına Haraç durdurmaya daha az meyilli olacak"
  temp_tributary_protection_reason: "Sindirilmiş [tributaries|E] [recipient.Custom('GetCowedVassalVarLoc')]: $VALUE|0+=$"
  temp_tributary_protection_reason_var: "#weak ([GetCurrentDateWithDiff( GetVarTimeRemaining( ROOT.Char.MakeScope, 'temp_tributary_protection') )] tarihine kadar)#!"
-### TODO AGOT-ONLY: temp_tributary_protection_reason_no_var [AGOT: ]
- temp_tributary_protection_reason_no_var: "" # Intentionally empty
+
+ temp_tributary_protection_reason_no_var:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  cease_tribute_disconnected_suzerain: "[suzerain_possessive|E] [Concept('realm', 'Ülkesinden')|E] Kopuk: $VALUE|0+=$"
  cease_tribute_landless_suzerain: "[suzerain|E] [unlanded|E]: $VALUE|0+=$"
  must_neighbor_or_neighbor_tributary_tt: "[Concept('realm', 'Ülkenizin')|E] veya [Concept('tributaries', 'Haraçgüzarlarınızın')|E] sınırında #bold değiller#!"
@@ -372,8 +372,8 @@
  hungarian_invasion_war_victory_desc:0 "[defender.GetShortUIName] adlı karakterin Panunya Havzasındaki tüm unvanları elde edilecek. Geri kalan tüm topraklar terk edilecek."
  hungarian_invasion_war_warning_desc:0 "\n\n#X Göç oyun boyunca herhangi biri tarafından sadece bir kereliğine başlatılabilir.#!"
  HUNGARIAN_INVASION_WAR_NAME:1 "[TITLE.GetBaseNameNoTier] Topraklarına $mogyer$ Göçü"
-### TODO AGOT-ONLY: HUNGARIAN_INVASION_WAR_NAME_BASE [AGOT: ]
- HUNGARIAN_INVASION_WAR_NAME_BASE:0 ""
+
+ HUNGARIAN_INVASION_WAR_NAME_BASE:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  HUNGARIAN_INVASION_CB_NAME:0 "Panunya'ya Göç"
  launch_hungarian_migration_scripted_effect.tt.pannonia_renamed:0 "$KINGDOM_PANNONIA$ $k_hungary$ unvanına dönüşür"
  launch_hungarian_migration_scripted_effect.tt.pannonia_renamed_and_usurped:0 "$KINGDOM_PANNONIA$ oluşturuldu ve $k_hungary$ unvanına dönüştü"

@@ -6,8 +6,8 @@
  CULTURE_RELATION_FOREIGN_CULTURE:1 "Yabancı [culture|E]"
  CULTURE_WINDOW_ERA_JOINED:0 "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT:0 "$JOINED$–$LEFT$"
-### TODO AGOT-ONLY: CULTURE_WINDOW_ERA_LEFT [AGOT: ]
- CULTURE_WINDOW_ERA_LEFT:0 "" #intentionally empty
+
+ CULTURE_WINDOW_ERA_LEFT:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  CULTURE_WINDOW_ERA_DISCOVERED_BY:0 "[CULTURE.GetName] tarafından keşfedildi"
  CULTURE_WINDOW_CULTURE_HEAD_TITLE:0 "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_NOT_CULTURE_HEAD_INFO:0 "#weak [fascination|E] sadece [culture_head|E] tarafından değiştirilebilir"
@@ -40,8 +40,8 @@
  INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_REALM: "[spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [realm|E] içinde olmak)#!"
  INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_RELIGION: "[spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [religion|E] mensubu olmak)#!"
  INNOVATION_CHANCE_BREAKDOWN_FASCINATION:0 "[fascination|E]"
-### TODO AGOT-CHANGED: INNOVATION_ERA_NOT_IN_YEAR [AGOT: #N This Era is not available#! | TR: #N Bu dönem $YEAR$ yılına kadar açılamaz#!]
- INNOVATION_ERA_NOT_IN_YEAR: "#N This Era is not available#!"
+
+ INNOVATION_ERA_NOT_IN_YEAR:0 "#N Bu dönem $YEAR$ yılına kadar açılamaz#!"
  INNOVATION_ERA_NOT_IN_PREVIOUS_ERA: "#N Önce [ERA.GetName] [Concept( 'era', 'Dönemine' )|E] ulaşmanız gerekiyor#!"
  INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA: "#tut Sonraki dönem buluşları için [ERA.GetName|V] [Concept('era', 'Döneminden')|E] [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|V] buluş açmanız gerek ($NUM_MISSING|V$ buluş eksik)"
  INNOVATION_ERA_PROGRESS_STATE:0 "İlerleme: $PROGRESS|V0$/100"
@@ -90,10 +90,10 @@
  CULTURE_VIEW_PILLARS:0 "Özellikler"
  CULTURE_VIEW_TRADITIONS:0 "Gelenekler"
  CULTURE_VIEW_AESTHETICS:0 "Estetik"
-### TODO AGOT-CHANGED: CULTURE_VIEW_HERITAGE_TEXT [AGOT: [CulturePillar.GetNameNoTooltip] Blood | TR: [CulturePillar.GetNameNoTooltip] Mirası]
- CULTURE_VIEW_HERITAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] Blood"
-### TODO AGOT-CHANGED: CULTURE_VIEW_LANGUAGE_TEXT [AGOT: [CulturePillar.GetNameNoTooltip] Tongue | TR: [CulturePillar.GetNameNoTooltip]]
- CULTURE_VIEW_LANGUAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] Tongue"
+
+ CULTURE_VIEW_HERITAGE_TEXT:0 "[CulturePillar.GetNameNoTooltip] Mirası"
+
+ CULTURE_VIEW_LANGUAGE_TEXT:0 "[CulturePillar.GetNameNoTooltip]"
  CULTURE_VIEW_MARTIAL_CUSTOM_TEXT:2 "Askeriye: [CulturePillar.GetNameNoTooltip]"
  CULTURAL_ACCEPTANCE_FROM_BORDER:0 "Benim Kültürüme Sınır"
  CULTURAL_ACCEPTANCE_FROM_SHARED_REALM:0 "Ülkede [culture_intermingling|E]"
@@ -109,18 +109,18 @@
  CULTURAL_ACCEPTANCE_LOSSES:0 "Yıllık Kayıp"
  CULTURAL_ACCEPTANCE_BASELINE:0 "[Concept( 'cultural_acceptance_baseline', 'Kültürel Kabullenme Temel Değeri' )|E]"
  CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT [AGOT: #P +20#! [cultural_acceptance_baseline|E] with Cultures sharing this Blood | TR: Bu mirası paylaşan kültürler ile #P +20#! [cultural_acceptance_baseline|E]]
- CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT:1 "#P +20#! [cultural_acceptance_baseline|E] with Cultures sharing this Blood"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME [AGOT: Your Blood | TR: Mirasınız]
- CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME:0 "Your Blood"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF [AGOT: Different Blood from your [culture|E] | TR: [Concept( 'culture', 'Kültürünüzden' )|E] farklı miras]
- CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF:0 "Different Blood from your [culture|E]"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT [AGOT: #P +10#! [cultural_acceptance_baseline|E] with Cultures sharing this Tongue | TR: Bu dili paylaşan kültürler ile #P +10#! [cultural_acceptance_baseline|E]]
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT:1 "#P +10#! [cultural_acceptance_baseline|E] with Cultures sharing this Tongue"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME [AGOT: Your Native Tongue | TR: Ana Diliniz]
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME:1 "Your Native Tongue"
-### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF [AGOT: Different Tongue from your [culture|E] | TR: [Concept( 'culture', 'Kültürünüzden' )|E] farklı dil]
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF:0 "Different Tongue from your [culture|E]"
+
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT:0 "Bu mirası paylaşan kültürler ile #P +20#! [cultural_acceptance_baseline|E]"
+
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME:0 "Mirasınız"
+
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF:0 "[Concept( 'culture', 'Kültürünüzden' )|E] farklı miras"
+
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT:0 "Bu dili paylaşan kültürler ile #P +10#! [cultural_acceptance_baseline|E]"
+
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME:0 "Ana Diliniz"
+
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF:0 "[Concept( 'culture', 'Kültürünüzden' )|E] farklı dil"
  CULTURE_PILLAR_TOOLTIP_COURT_LANGUAGE:0 "[Concept( 'court_language', 'Saray Diliniz' )|E]"
  CULTURE_TRADITION_GENERAL_TOOLTIP:0 "[CultureTradition.GetEffectDescription( Culture.Self )]\n\n[CultureTradition.GetDescription( Culture.Self )|F]"
  CULTURE_TRADITION_TOOLTIP_CLICKINFO:0 "[Select_CString( GetVariableSystem.HasValue( 'culture_view_reform_open', 'true' ), '#I Değiştirmek için tıklayın#!', '' )]"
@@ -153,12 +153,12 @@
  HYBRIDIZE_CULTURE_TOOLTIP:0 "#T $HYBRIDIZE_CULTURE_LABEL$#!\n[GetPlayer.GetCulture.GetNameNoTooltip] ve [Culture.GetNameNoTooltip] Kültürlerinin birleştiği yeni bir [hybrid_culture|E] oluşturun\n\n[GetPlayer.GetCulture.GetHybridizationBlockers( Culture.Self )]"
  DIVERGE_CULTURE_LABEL:0 "Kültürel Ayrışma"
  DIVERGE_CULTURE_TOOLTIP:0 "#T Kültürel Ayrışma#!\n[Culture.GetName] Kültüründen ayrışarak yeni bir [divergent_culture|E] oluşturun.\n\n[GetPlayer.GetCulture.GetDivergenceBlockers]"
-### TODO AGOT-CHANGED: CULTURE_CREATION_DATE [AGOT: Formed in $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] Yılında Oluşturuldu]
- CULTURE_CREATION_DATE:0 "Formed in $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
-### TODO AGOT-CHANGED: CULTURE_CREATION_DATE_DIVERGED [AGOT: Diverged from [CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] yılında [CULTURE.GetName] Kültüründen ayrıştı]
- CULTURE_CREATION_DATE_DIVERGED:0 "Diverged from [CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
-### TODO AGOT-CHANGED: CULTURE_CREATION_DATE_HYBRID [AGOT: Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] yılında [CULTURE.GetName] ve [TARGET_CULTURE.GetName] Kültürlerinden oluşturuldu]
- CULTURE_CREATION_DATE_HYBRID:0 "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
+
+ CULTURE_CREATION_DATE:0 "[DATE.GetYear] Yılında Oluşturuldu"
+
+ CULTURE_CREATION_DATE_DIVERGED:0 "[DATE.GetYear] yılında [CULTURE.GetName] Kültüründen ayrıştı"
+
+ CULTURE_CREATION_DATE_HYBRID:0 "[DATE.GetYear] yılında [CULTURE.GetName] ve [TARGET_CULTURE.GetName] Kültürlerinden oluşturuldu"
  ADD_TRADITION_WINDOW_TITLE:0 "Gelenek Oluşturun"
  REPLACE_TRADITION_WINDOW_TITLE:0 "Gelenekleri Değiştir"
  ADD_TRADITION_LABEL:0 "Gelenek Oluştur"

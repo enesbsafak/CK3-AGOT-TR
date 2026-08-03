@@ -135,8 +135,8 @@
  MY_REALM_WINDOW_HIDE:0 "Gizle"
  MY_REALM_WINDOW_DESIGNATE_HEIR:1 "Değiştir"
  MRW_CHANGE_LAW:0 "Değiştir"
-### TODO AGOT-CHANGED: MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME [AGOT: #bold [LineOfSuccessionItem.GetOrder|V]#!  [AGOTGetUINameNoTooltip(Character)|V], | TR: #bold [LineOfSuccessionItem.GetOrder|V]#!  [Character.GetShortUINameNoTooltip],]
- MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  [AGOTGetUINameNoTooltip(Character)|V], "
+
+ MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME:0 "#bold [LineOfSuccessionItem.GetOrder|V]#!  [Character.GetShortUINameNoTooltip],"
  MRW_DESIGNATED_HEIR:0 "[MyRealmWindow.GetCharacter.GetDesignatedHeir.GetUIName]"
  MRW_NO_DESIGNATED_HEIR:0 "#weak Yok#!"
  MRW_DESIGNATED_HEIR_LABEL:0 "[designated_heir|E]:"
@@ -246,8 +246,8 @@
  THEME_ADMINISTRATION_INFO: "Bir başka [Character.Custom( 'GetGovernorConcept' )] yönetimi devralırsa, [Character.Custom('GetProvinceAdministrationConcept')] aynı kalmaya devam eder."
  THEME_ADMINISTRATION_LABEL: "Seçilebilir İdari türler"
  VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "İdare değiştiriliyor:\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTooltip]\n#high [SubjectContract.GetSubject.GetTitledFirstNameNoTooltip] tarafından yönetiliyor#!"
-### TODO AGOT-CHANGED: MY_REALM_ADMIN_LAWS_HEADER [AGOT: Governance of [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] | TR: [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] İdaresi]
- MY_REALM_ADMIN_LAWS_HEADER: "Governance of [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+
+ MY_REALM_ADMIN_LAWS_HEADER:0 "[GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] İdaresi"
  RELEASE_TRIBUTARY_CONFIRMATION_TITLE: "[Character.GetNameNoTooltip] Serbest Bırakılsın"
  RELEASE_TRIBUTARY_CONFIRMATION_TEXT: "[Character.GetNameNoTooltip] ile aranızda olan [tributary|E] ilişkisini sonlandıracaksınız"
  RELEASE_TRIBUTARY_CONFIRMATION_ACCEPT: "Serbest Bırak"
@@ -275,9 +275,9 @@
  chaotic_succession_disobedient_kurultai_none: "İtaatsiz [Concept('kurultais', 'Kurultay Üyeleri')|E]"
  is_kurultai_succession_chaotic_empty_kurultai: "$is_kurultai_succession_chaotic_empty_kurultai_none$ #weak ([root_scope.MakeScope.ScriptValue('mpo_missing_kurultai_value')|V0])#!"
  is_kurultai_succession_chaotic_empty_kurultai_none: "[Concept('kurultai', 'Kurultayınızda')|E] boş pozisyonlar bulunuyor"
-### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUZERAIN_NAME [AGOT: [suzerain|E] : [Character.GetShortUIName] | TR: [suzerain|E] : [Character.GetSuzerain.GetShortUIName]]
- MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetShortUIName]"
-### TODO AGOT-CHANGED: MY_REALM_WINDOW_LIEGE_NAME [AGOT: [liege|E] : [Character.GetShortUIName] | TR: [liege|E] : [Character.GetLiege.GetShortUIName]]
- MY_REALM_WINDOW_LIEGE_NAME: "[liege|E] : [Character.GetShortUIName]"
+
+ MY_REALM_WINDOW_SUZERAIN_NAME:0 "[suzerain|E] : [Character.GetSuzerain.GetShortUIName]"
+
+ MY_REALM_WINDOW_LIEGE_NAME:0 "[liege|E] : [Character.GetLiege.GetShortUIName]"
  SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS: "Takas Malları"
  CANT_CHANGE_LAW_TOOLTIP: "Uygun farklı [succession_laws|E] yok"

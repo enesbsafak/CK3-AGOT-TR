@@ -45,8 +45,8 @@
  playdate.3001.desc:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bir köylü [peasant_child.Custom('GirlBoy')] ile dövüşme taklidi yapıyor sanıyorduk ama birdenbire kan akmaya başladı.\n\n[guest.GetFirstNameNoTooltip] homurdanarak yere çarpıyor ve başında duran köylü tekrar saldırmak için harekete geçiyor." ### CQC
  playdate.3001.a:0 "Kurtaracağım onu!"
  playdate.3001.a_injured:0 "Yaralandınız"
-### TODO AGOT-ONLY: playdate.3001.b [AGOT: ]
- playdate.3001.b:0 ""Someone, please help!""
+
+ playdate.3001.b:0 ""Birisi, lütfen yardım etsin!""
  playdate.3001.c:0 "Zevkli görünüyor, sıra bende!"
  playdate.3002.t:1 "Sırlar"
  playdate.3002.desc:0 "[secret_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bir şeyler saklıyor.\n\nFakat tam bana söyleyecekken [close_participant.Custom2('MyCharacterIntroduction', ROOT.Char)] gelip satranç oynamak istediğini söylüyor."
@@ -54,11 +54,11 @@
  playdate.3002.b:0 "Şşş sus, ne saklıyor bilmek istiyorum!"
  playdate.3003.t:1 "[ROOT.Char.Custom('CatStoryName')]"
  playdate.3003.desc_opening:0 "Kedim [ROOT.Char.Custom('CatStoryName')] çok sevimli olduğu için herkesin görmesini istiyorum, o yüzden yanımda getirmeye karar veriyorum.\n\n"
-### TODO AGOT-ONLY: playdate.3003.desc_bonding_cat_opening [AGOT: ]
- playdate.3003.desc_bonding_cat_opening:0 ""What a cute cat you have! Do you want to see mine?""
+
+ playdate.3003.desc_bonding_cat_opening:0 ""Ne tatlı bir kedin var! Benimkini görmek ister misin?""
  playdate.3003.desc_bonding_cat:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [guest.Custom('CatFurColor')] bir kediyi bana doğru uzatıyor. "Adı [guest.Custom('CatStoryName')]!"" ### CQC
-### TODO AGOT-ONLY: playdate.3003.desc_bonding_dog_opening [AGOT: ]
- playdate.3003.desc_bonding_dog_opening:0 ""What a cute cat you have! Do you want to see my dog?""
+
+ playdate.3003.desc_bonding_dog_opening:0 ""Ne tatlı bir kedin var! Köpeğimi görmek ister misin?""
  playdate.3003.desc_bonding_dog:0 "[guest.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [guest.Custom('DogFurColor')] bir köpeği bana doğru uzatıyor. "Adı [guest.Custom('DogStoryName')]!"" ### CQC
  playdate.3003.a_cat:0 "Kedin çok tatlıymış!"
  playdate.3003.a_dog:0 "Köpeğin çok tatlıymış!"
@@ -66,10 +66,10 @@
  playdate.3003.c:0 "Öğğk, çok pis. Hiç benim kedim gibi değil!"
  playdate.3004.t:1 "[ROOT.Char.Custom('DogStoryName')]"
  playdate.3004.desc_opening:0 "Köpeğim [ROOT.Char.Custom('DogStoryName')] çok sevimli olduğu için herkesin görmesini istiyorum, o yüzden yanımda getirmeye karar veriyorum.\n\n"
-### TODO AGOT-ONLY: playdate.3004.desc_bonding_cat_opening [AGOT: ]
- playdate.3004.desc_bonding_cat_opening:0 ""What a cute dog you have! Do you want to see my cat?""
-### TODO AGOT-ONLY: playdate.3004.desc_bonding_dog_opening [AGOT: ]
- playdate.3004.desc_bonding_dog_opening:0 ""What a cute dog you have! Do you want to see mine?""
+
+ playdate.3004.desc_bonding_cat_opening:0 ""Ne tatlı bir köpeğin var! Kedimi görmek ister misin?""
+
+ playdate.3004.desc_bonding_dog_opening:0 ""Ne tatlı bir köpeğin var! Benimkini görmek ister misin?""
  playdate.3004.b:0 "Ah, teşekkürler! Gel bakalım, [guest.Custom('CatStoryName')]!"
  playdate.3004.c:0 "Öğğk, çok pis. Hiç benim köpeğim gibi değil!"
  playdate.3005.t:1 "Sır"
@@ -140,8 +140,8 @@
  playdate.3013.a:0 "Sadece elindeki bitkinin ne olduğunu merak ediyorum."
  playdate.3013.a.success:0 "Otlar ve bitkiler hakkında çok şey öğrendiniz"
  playdate.3013.a.failure:0 "Ne dediği hakkında hiçbir fikriniz yok"
-### TODO AGOT-CHANGED: playdate.3013.b [AGOT: They say you see the future...? | TR: Evet, bildiğin her şeyi öğret bana!]
- playdate.3013.b:0 "They say you see the future...?"
+
+ playdate.3013.b:0 "Evet, bildiğin her şeyi öğret bana!"
  playdate.3013.c:0 "Cadısın sen! Kötü birisisin."
  playdate.3014.t:1 "[priest.GetCouncilTitle|U]"
  playdate.3014.desc_participant:0 "Yerel [ROOT.Char.GetFaith.HouseOfWorship] içinde [participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ile geziyoruz. Bir süre sonra parşömenlerle çevrili olan [priest.Custom2('MyCharacterIntroduction', ROOT.Char)] ile karşılaşıyoruz.\n\n"Çok uzun zaman önce yazılmış günlükler bunlar, ilginizi çekiyor mu?""
@@ -159,10 +159,10 @@
  playdate.4000.b:0 "Masumiyet ölümcül bir zehir gibi."
  playdate.4000.c:0 "[host.GetTitledFirstNameNoTooltip] aynı kaderi paylaşmalı."
  playdate.4001.t:1 "Dil Engeli"
-### TODO AGOT-ONLY: playdate.4001.desc.rowdy [AGOT: ]
- playdate.4001.desc.rowdy:0 ""I said #EMP "doll"#! not #EMP "dull!"#! Gosh!" [participant.GetTitledFirstName] is obviously agitated by our language barrier. The throwing of hands up in the air paints the picture of a tantrum wanting to start."
-### TODO AGOT-ONLY: playdate.4001.desc.pensive [AGOT: ]
- playdate.4001.desc.pensive:0 ""Sorry... #EMP Abode#!. She returns to her humble abode, not her bundle abroad." Despite [participant.GetHerHis] well manners, [participant.GetTitledFirstNamePossessive] eyebrows are knitted together in frustration."
+
+ playdate.4001.desc.rowdy:0 ""Ben #EMP "oyuncak bebek"#! dedim, #EMP "bebek"#! değil! Tanrım!" [participant.GetTitledFirstName] dil bariyerimiz yüzünden belli ki sinirleniyor. Havaya kaldırılan eller, başlamak üzere olan bir öfke nöbetinin resmini çiziyor.""
+
+ playdate.4001.desc.pensive:0 ""Üzgünüm... #EMP Konut#!. O, mütevazı konutuna dönüyor, yurt dışındaki bohçasına değil." [participant.GetHerHis] nezaketine rağmen, [participant.GetTitledFirstNamePossessive] kaşları hayal kırıklığıyla çatılmış.""
  playdate.4001.desc:0 "\n\n[ROOT.Char.GetCulture.GetLanguage.GetName] ve [participant.GetCulture.GetLanguage.GetName] dilleri gerçekten de birbirinden çok farklı, bu sebeple anlaşmakta sorunlar yaşıyoruz.\n\nBelki de konuşmadan oynayabileceğimiz bir şeyler bulmalıyım veya sorunun kendi kendine çözülmesini beklemeliyim?"
  playdate.4001.a:0 "Bağırarak yavaşça konuşursam beni anlayacağından eminim!"
  playdate.4001.b:0 "Belki de [participant.GetFirstNameNoTooltip] bana biraz [participant.GetCulture.GetLanguage.GetNameNoTooltip] öğretebilir?"
@@ -174,16 +174,16 @@
  playdate.5001.b: "Pek canım istemiyor aslında..."
  playdate.5002.t: "Kötü Vuruş"
  playdate.5002.desc: "Top yanımdan tuhaf bir şekilde geçiyor, duvardan sekiyor... ve bahçeye giriyor! Hemen ardından ise bir kırılma sesi ve çığlık duyuluyor.\n\n[neighbour.GetFirstName] kapıdan çıkıyor elinde ise hasar gören [broken_artifact.GetName] var. Kalabalığa baktıktan sonra beni suçlu olarak görüyor.\n\n"Kendini nasıl savunacaksın seni sümüklü şımarık velet?" diyor. Destek için etrafımdakilere bakıyorum. Kimse yardım etmiyor." ### CQC
-### TODO AGOT-ONLY: playdate.5002.a [AGOT: ]
- playdate.5002.a: ""My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('parent'))] will pay for repairs!""
+
+ playdate.5002.a:0 ""[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('parent'))] onarım masraflarını ödeyecek!""
  playdate.5002.a.tt: "Ya da açıkçası #EMP ben#! ödeyeceğim ama şimdilik bunu düşünmeme gerek yok..." ### CQC
-### TODO AGOT-ONLY: playdate.5002.b [AGOT: ]
- playdate.5002.b: ""I order you to return the ball, [neighbour.Custom2('InsultNoun', ROOT.Char)].""
+
+ playdate.5002.b:0 ""Topu geri vermeni emrediyorum, [neighbour.Custom2('InsultNoun', ROOT.Char)].""
  playdate.5002.b.tt: "Benim bir [ROOT.Char.GetTitleAsNameNoTooltip] olduğumu unutmuş mu?"
  playdate.5002.b.success: "İtaatkâr bir şekilde topu geri veriyor"
  playdate.5002.b.failure: "Topu geri verirken yüzünü asıyor"
-### TODO AGOT-ONLY: playdate.5002.c [AGOT: ]
- playdate.5002.c: ""I'm sorry. May we have the ball back?""
+
+ playdate.5002.c:0 ""Üzgünüm. Topu geri alabilir miyiz?""
  playdate.5002.c.success: "Topu gülümseyerek geri veriyor"
  playdate.5002.c.failure: "Derin bir şekilde iç çektikten sonra topu geri veriyor"
  playdate.5003.t: "Yetenekli Çocuk"
@@ -195,11 +195,11 @@
  playdate.5003.c: "Belki de izlemeye devam edersem bir şeyler öğrenebilirim."
  playdate.5004.t: "Farklı Perspektif"
  playdate.5004.desc: "Topun peşinde güle oynaya koşuştururken yalnız biri gözüme çarpıyor.\n\n[other_child.GetFirstName], bir köşede yalnız başına oturmuş olan biteni utangaç bir şekilde izliyor. Benimle göz göze gelir gelmez bakışlarını kaçırıyor, sanki çiçeklere bakıyormuş gibi yapıyor.\n\nArkadaşlığıma ihtiyacı olabilir."
-### TODO AGOT-ONLY: playdate.5004.a [AGOT: ]
- playdate.5004.a: ""Do you mind if I join you?""
+
+ playdate.5004.a:0 ""Size katılmamın bir sakıncası var mı?""
  playdate_5004_sports_removal: "Artık devam eden futbol maçının parçası olmayacaksınız"
-### TODO AGOT-ONLY: playdate.5004.b [AGOT: ]
- playdate.5004.b: ""Come on, join in!""
+
+ playdate.5004.b:0 ""Hadi, katılın!""
  playdate.5004.b.success: "Çekingen bir şekilde katılıyor"
  playdate.5004.b.failure: "Çabalarınızdan etkilenmiyor"
  playdate.5004.c: "Kendi hâline bıraksam iyi olur."
@@ -218,37 +218,37 @@
  playdate.5005.more_balls: "Başka bir top alacağım!"
  playdate.5006.t: "Eve Dönüyorum!"
  playdate.5006.desc: "Futbol maçı biraz fazla rekabetçi olmaya başlıyor. Düşünce kafamda belirmeye başladığında bir olay daha oluyor: [ball_kid.GetFirstName], [bully_kid.GetFirstName] tarafından aldığı darbe sonucu yakındaki bir çalıya yuvarlanıyor. [bully_kid.GetFirstNameNoTooltip], gülmeye başlıyor.\n\n"Y- yeter be!" diyor [ball_kid.GetFirstNameNoTooltip] öfkeli bir şekilde kendini çalıdan kurtarırken. Kendini kurtardığı gibi topu eline alıyor. "Eve dönüyorum ve topumu da yanımda götürüyorum!"\n\nBir anda sessizlik çöküyor." ### CQC
-### TODO AGOT-ONLY: playdate.5006.a [AGOT: ]
- playdate.5006.a: ""I'm sorry, [ball_kid.GetFirstNameNoTooltip].""
+
+ playdate.5006.a:0 ""Üzgünüm, [ball_kid.GetFirstNameNoTooltip].""
  playdate.5006.a.tt: "Suç sizin değildi fakat [bully_kid.GetFirstNameNoTooltip] özür dileyecek gibi görünmüyor..." ### CQC
-### TODO AGOT-ONLY: playdate.5006.b [AGOT: ]
- playdate.5006.b: ""Wait, [ball_kid.GetFirstNameNoTooltip]! Please stay.""
+
+ playdate.5006.b:0 ""Bekle, [ball_kid.GetFirstNameNoTooltip]! Lütfen kal.""
  playdate.5006.b.success: "Onu kalmaya ikna ediyorsunuz"
  playdate.5006.b.failure: "Yine de gidiyor"
  playdate.5006.c: "Sessiz kalsam iyi olur."
-### TODO AGOT-ONLY: playdate.5006.d [AGOT: ]
- playdate.5006.d: ""You're leaving the ball. It's ours now.""
+
+ playdate.5006.d:0 ""Topu bırakıyorsun. Artık o bizim.""
  playdate.5007.t: "Zorbalığa Uğramak"
  playdate.5007.desc: "Gürültülü bir kahkaha yayılıyor. Avlunun benim için diğer ucunda [sad_kid.GetFirstName], [bully_kid.GetFirstName] tarafından zorbalığa uğruyor.\n\n"Bir futbol topuna bile vuramıyor! Kim bu [sad_kid.Custom2('InsultNoun', SCOPE.sC('bully_kid'))] ile arkadaş olmak ister ki!"\n\n[sad_kid.GetFirstNameNoTooltip], ağlamak üzere bir şekilde etrafına destek için bakıyor fakat pek bir destek bulamıyor gibi." ### CQC
-### TODO AGOT-ONLY: playdate.5007.a [AGOT: ]
- playdate.5007.a: ""You leave [sad_kid.GetHerHim] alone!""
+
+ playdate.5007.a:0 ""[sad_kid.GetHerHim]i rahat bırak!""
  playdate.5007.a.tt: "Zorbanın karşısına çıkıyorsunuz..."
  playdate.5007.a.success: "Onu geri çekilmeye itiyorsunuz"
  playdate.5007.a.failure: "[bully_kid.GetFirstNameNoTooltip] blöfünüzü anlıyor ve sizi dövüyor"
-### TODO AGOT-ONLY: playdate.5007.b [AGOT: ]
- playdate.5007.b: ""#EMP I#! would.""
+
+ playdate.5007.b:0 ""#EMP Ben#! yapardım.""
  playdate.5007.c: "Buna bulaşmasam iyi olur."
  playdate.5008.t: "Ah Şu Yetişkinler"
-### TODO AGOT-ONLY: playdate.5008.desc [AGOT: ]
- playdate.5008.desc: ""Will you be #EMP quiet#!, for the love of [old_timer.GetFaith.HighGodName]?" [old_timer.GetFirstName] is leaning out of a mullioned window above us, apoplectic, shaking a fist. "You blasted kids are making such a racket! I can barely hear myself #EMP think!#!"\n\nI pick up the ball as it approaches me, regarding the old [old_timer.GetWomanMan] as [old_timer.GetSheHe] chunters down at us. [old_timer.GetSheHe|U] is truly #EMP ancient:#! maybe even thirty or forty years old!\n\nNo wonder [old_timer.GetSheHe] is angry."
-### TODO AGOT-ONLY: playdate.5008.a [AGOT: ]
- playdate.5008.a: ""Be quiet, you mad old fool!""
-### TODO AGOT-ONLY: playdate.5008.b [AGOT: ]
- playdate.5008.b: ""We're sorry. We'll be more quiet.""
+
+ playdate.5008.desc:0 ""Sessiz olur musunuz, [old_timer.GetFaith.HighGodName] aşkına?" [old_timer.GetFirstName] üstümüzdeki çapraz çerçeveli pencereden sarkıyor, öfkeden köpürmüş, yumruğunu sallıyor. "Siz kahrolası veletler öyle bir gürültü çıkarıyorsunuz ki kendi #EMP düşüncemi#! bile duyamıyorum!"\n\nTop bana doğru gelirken onu yerden alıyor ve yaşlı [old_timer.GetWomanMan]'i aşağı bize doğru homurdanırken süzüyorum. [old_timer.GetSheHe|U] gerçekten #EMP antika:#! belki otuz hatta kırk yaşında!\n\n[old_timer.GetSheHe]'in öfkeli olmasına şaşmamalı.""
+
+ playdate.5008.a:0 ""Kes sesini, seni deli ihtiyar aptal!""
+
+ playdate.5008.b:0 ""Üzgünüz. Daha sessiz olacağız.""
  playdate.5009.t: "Şiddetli Ayaklar"
  playdate.5009.desc: "Çocuk olsak da futbol bazen gerçekten de sert bir oyun olabiliyor. Eğlenceli bir maç olarak başlayan şey şimdi bildiğin kavgaya döndü, kendime gelmem birkaç saniye sürüyor.\n\nKendime geldiğimde kavga eden çocukların arasından keskin, acı ve korku dolu bir çığlık duyuyorum. En altta kalan [small_kid.GetFirstName] gözüme çarpıyor, herkesin ayağının altında eziliyor. Acınacak bir şekilde ağlıyor fakat tüm gürültü çok fazla ve diğer herkes maça fazla kendini vermiş durumda." ### CQC
-### TODO AGOT-ONLY: playdate.5009.a [AGOT: ]
- playdate.5009.a: ""[small_kid.GetFirstNameNoTooltip]! Hold on, I'm coming!""
+
+ playdate.5009.a:0 ""[small_kid.GetFirstNameNoTooltip]! Dur, geliyorum!""
  playdate.5009.a.critical_success: "Onu kahramanca kurtarıyorsunuz"
  playdate.5009.a.success: "Onu kurtarıyorsunuz"
  playdate.5009.a.failure: "Onu kendinizi riske atarak koruyorsunuz"
@@ -256,21 +256,21 @@
  playdate.5009.b.critfailure: "[small_kid.GetFirstNameNoTooltip] çok ağır yaralar alıyor"
  playdate_5009_every_child: "Duygusuz veya Sadist olmayan tüm katılımcılar #negative_value stres kazanacak#!" ### CQC
  playdate.5009.b: "Daha fazla bakamayacağım..."
-### TODO AGOT-ONLY: playdate.5009.c [AGOT: ]
- playdate.5009.c: ""Everyone, #EMP STOP!#!""
+
+ playdate.5009.c:0 ""Herkes, #EMP DURUN!#!""
  playdate.5009.c.success: "Kavga eden futbolcular dikkatini size veriyor"
  playdate.5009.c.failure: "Sözlerinizi kimse umursamıyor"
  playdate.5010.t: "Aslanım Benim!"
-### TODO AGOT-ONLY: playdate.5010.desc [AGOT: ]
- playdate.5010.desc: ""Get him! Push her into the wall! That's it!" [obnoxious_parent.GetFirstNamePossessive] voice booms out across the courtyard. [obnoxious_parent.GetSheHe|U] has posted up in the corner to watch [embarrassed_child.GetFirstName] play in the game of football, their bias towards the [embarrassed_child.Custom('GirlBoy')] clear to see.\n\nSuffice to say, [obnoxious_parent.GetFirstNameNoTooltip] is taking it a #EMP tad#! too seriously.\n\n"Hey! No pushing [embarrassed_child.Custom('HerHim')], that's cheating!" [obnoxious_parent.GetFirstNamePossessiveNoTooltip] histrionics are really beginning to grate."
+
+ playdate.5010.desc:0 ""Yakala onu! Onu duvara it! Aynen böyle!" [obnoxious_parent.GetFirstNamePossessive] sesi avluda yankılanıyor. [obnoxious_parent.GetSheHe|U] köşeye kurulmuş, [embarrassed_child.GetFirstName]'in ayak topu oyununu izliyor; [embarrassed_child.Custom('GirlBoy')]e olan tarafgirliği apaçık ortada.\n\nSöylemeye gerek yok, [obnoxious_parent.GetFirstNameNoTooltip] bu işi #EMP birazcık#! fazla ciddiye alıyor.\n\n"Hey! [embarrassed_child.Custom('HerHim')]i itmek yok, bu hile!" [obnoxious_parent.GetFirstNamePossessiveNoTooltip] abartılı tavırları gerçekten sinir bozmaya başlıyor.""
  playdate.5010.a: "Kolları biraz fazla savruluyor gibi..."
  playdate.5010.a_flavor: "[obnoxious_parent.GetFirstNameNoTooltip] bana vurmuş gibi davranacağım!"
  playdate.5010.a.tt: "Belki de dikkatsiz bir kol hareketi bana vurmuş gibi davranırsam saçma hareketlerini keser?"
  playdate.5010.a.tt.success: "Numaranız oldukça başarılı oluyor..."
  playdate.5010.a.success: "Herkes şaşırmış bir şekilde etrafınıza toplanıyor"
  playdate.5010.a.failure: "Kimse size inanmıyor"
-### TODO AGOT-ONLY: playdate.5010.b [AGOT: ]
- playdate.5010.b: ""Will you please just shut up?!""
+
+ playdate.5010.b:0 ""Sadece kapa çeneni lütfen?!""
  playdate.5010.c: "Buna katlanacağım."
  scratched_and_bruised: "Yara Bere"
  scratched_and_bruised_desc: "Bu çocuk muhtemelen biraz sert bir oyun sonu yara bere içinde kalmış."
@@ -278,8 +278,8 @@
  other_perspective_increase_wounds_children_no_death_effect: "[wound_target.GetShortUIName], [GetModifier('scratched_and_bruised').GetNameWithTooltip] ya da [GetTrait('wounded_1').GetName( GetNullCharacter )] kazanacak"
  playdate.5011.t: "Biraz Kandırmaca"
  playdate.5011.desc: "Etrafımda endişeli çocuklar toplanmışken elimden geldiğince numarayı sürdürmeye çalışıyorum. Bu sırada [obnoxious_parent.GetFirstName], gözleri yuvasından fırlayacakmış gibi bana bakıyor.\n\n"Seni minik... #EMP şarlatan!#!" diye gürlüyor, parmağıyla beni işaret ederken. "Senin—"\n\n"[obnoxious_parent.GetFirstNameNoTooltip]!" diye öfkeli bir çığlık duyuyorsunuz. [responsible_adult.GetFirstName] avluya girerken [obnoxious_parent.GetFirstNameNoTooltip] adlı kişinin beti benzi atıyor. "Neler oluyor burada?"\n\nBu durumu avantajıma kullanıyorum ve böylelikle yüzümdeki aşağılayıcı gülümsemeyi sadece [obnoxious_parent.GetFirstNameNoTooltip] görebiliyor." ### CQC
-### TODO AGOT-ONLY: playdate.5011.a [AGOT: ]
- playdate.5011.a: ""Oww, it hurts so much! Owwwww!""
+
+ playdate.5011.a:0 ""Ovvv, çok acıyor! Ovvvvv!""
  playdate.5011.b: "Muhtemelen doğruyu söylesem iyi olur..."
  playdate.9001.t:1 "Eğlencenin Sonu"
  playdate.9001.desc:0 "Bir süreliğine de olsa sorumluluklarımı unutup diğer çocuklarla vakit geçirmek zevkliydi. Fakat eğlencenin sona erdiğini, artık görevlerime geri dönmem gerektiğini söylediler...\n\nGerçekten de çok iyi vakit geçirdik. Umarım yakın zamanda tekrar toplanabiliriz."
@@ -320,8 +320,8 @@
  playdate_studied_ancient_tomes_log_title: "Antik Tomarlar Üzerine Çalıştı"
  playdate_studied_ancient_tomes_log: "[CHARACTER.GetTitledFirstName], yerel bir ibadethaneyi ziyaretinde tarih hakkında bilgiler edindi"
  playdate_studied_ancient_tomes_together_log_title: "Tarih Öğrencileri"
-### TODO AGOT-CHANGED: playdate_studied_ancient_tomes_together_log [AGOT: [CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by a local scholar | TR: [CHARACTER.GetTitledFirstName] ve [TARGET_CHARACTER.GetTitledFirstName], bir din insanından antik meseleler hakkında ders aldı]
-playdate_studied_ancient_tomes_together_log: "[CHARACTER.GetTitledFirstName] and [TARGET_CHARACTER.GetTitledFirstName] were taught ancient wisdoms by a local scholar"
+
+playdate_studied_ancient_tomes_together_log:0 "[CHARACTER.GetTitledFirstName] ve [TARGET_CHARACTER.GetTitledFirstName], bir din insanından antik meseleler hakkında ders aldı"
  playdate_kicked_in_shins_log_title: "Bacağa Tekme"
  playdate_kicked_in_shins_log: "[CHARACTER.GetTitledFirstName], dostane bir maç sırasında [TARGET_CHARACTER.GetTitledFirstName] tarafından tekmelendi"
  playdate_outdid_skilled_player_log_title: "Yetenekli Oyuncuyu Yendi"

@@ -1,6 +1,6 @@
-﻿﻿l_english:
-### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_replace_character_header [AGOT: Replace [AGOTGetUINameNoTooltip(AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee)|V] as [AppointCourtPositionView.GetCourtPositionType.GetName] | TR: [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] yerine yeni bir [AppointCourtPositionView.GetPositionName] bul]
- APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Replace [AGOTGetUINameNoTooltip(AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee)|V] as [AppointCourtPositionView.GetCourtPositionType.GetName]"
+﻿l_english:
+
+ APPOINT_COURT_POSITION_VIEW_replace_character_header:0 "[AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] yerine yeni bir [AppointCourtPositionView.GetPositionName] bul"
  APPOINT_COURT_POSITION_VIEW_select_character_header: "[AppointCourtPositionView.GetPositionName] Ata"
  APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY: "Maaş: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]"
  APPOINT_COURT_POSITION_VIEW_EMPLOYEE_SALARY: "Maaş: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V]"
@@ -31,10 +31,10 @@
  COURT_POSITION_NAME: "[CourtPosition.GetNameNoTooltip]"
  COURT_POSITION_FOR_EMPLOYER:1 "[CourtPosition.GetEmployer.GetUINameNoTooltip] için"
  COURT_WINDOW_COURT_POSITIONS:0 "[CourtWindow.GetCourtOwner.Custom('GetCourtPositionPlural')|U]"
-### TODO AGOT-CHANGED: COURT_POSITION_REPLACE [AGOT: #T Replace [AGOTGetUINameNoTooltip(Character)|V]#! | TR: #T [Character.GetShortUINameNoTooltip] adlı kişiyi Değiştir#!]
- COURT_POSITION_REPLACE:0 "#T Replace [AGOTGetUINameNoTooltip(Character)|V]#!"
-### TODO AGOT-CHANGED: COURT_POSITION_REVOKE [AGOT: #T Fire [AGOTGetUINameNoTooltip(Character)|V]#! | TR: #T [Character.GetShortUINameNoTooltip] adlı kişiyi Kov#!]
- COURT_POSITION_REVOKE:0 "#T Fire [AGOTGetUINameNoTooltip(Character)|V]#!"
+
+ COURT_POSITION_REPLACE:0 "#T [Character.GetShortUINameNoTooltip] adlı kişiyi Değiştir#!"
+
+ COURT_POSITION_REVOKE:0 "#T [Character.GetShortUINameNoTooltip] adlı kişiyi Kov#!"
  COURT_POSITION_POWERFUL_AGENT: "@alert_icon! #alert_trial $game_concept_liege$lerine karşı kurulan [Concept( 'hostile_schemes', 'Düşmancıl Planlarda' )|E] tehlikeli birer [agent|E] olurlar#!"
  COURT_POSITION_OPINION_BONUS:0 "[opinion|e] Bonusu: [CourtPosition.GetOpinionBonus|=+]"
  COURT_POSITION_TOGGLE_AUTOMATION: "#T Otomatik Atamayı Aç #!\n$COURT_POSITION_AUTOMATION_CURRENT$\n#I Otomatik atama ayarlarını görüntülemek için tıklayın#!"
@@ -371,8 +371,8 @@
 
  court_jester_court_position:0 "Soytarı"
  court_jester_employer_custom_effect_description:1 "$BULLET$#V $jester_entertainment_decision$#! [Concept('decision', 'Kararını')|E] açar"
-### TODO AGOT-CHANGED: court_jester_court_position_desc [AGOT: A $court_jester_court_position$ is there to entertain both their Liege and any guests visiting the court. While a clever turn of phrase can be appreciated from time to time a nasty fall always wins laughter. | TR: $court_jester_court_position$, Süzerenini ve saraydaki misafirleri eğlendirir. Zekice kelime oyunları kimi zaman takdir edilse de, kötü bir düşüş her zaman kahkaha atılmasını sağlar.]
- court_jester_court_position_desc:1 "A $court_jester_court_position$ is there to entertain both their Liege and any guests visiting the court. While a clever turn of phrase can be appreciated from time to time a nasty fall always wins laughter."
+
+ court_jester_court_position_desc:0 "$court_jester_court_position$, Süzerenini ve saraydaki misafirleri eğlendirir. Zekice kelime oyunları kimi zaman takdir edilse de, kötü bir düşüş her zaman kahkaha atılmasını sağlar."
  master_of_hunt_court_position:0 "Avcıbaşı"
  master_of_hunt_court_position_nomadic: "İz Ustası"
  master_of_hunt_employer_custom_effect_description:4 "$BULLET$[GetActivityType('activity_hunt').GetName] [hunt_success_chance_no_prefix|E] [aptitude|E] doğrultusunda artış gösterir"
@@ -455,13 +455,13 @@
  food_taster_employer_custom_effect_description:3 "$BULLET$Zehir içeren [GetScheme('murder').GetTypeName] [Concept( 'schemes', 'Planlarına' )|E] mani olabilir#!"
  food_taster_court_position_desc:1 "$food_taster_court_position$, Süzereninin tabağına zehir değmemesinden sorumludur. Olur da zehirli bir toz veya sıvı yiyecekle temas ederse... İşte tam olarak bu yüzden Çeşnicibaşı yemekten önce her yemeği tadar."
  lady_in_waiting_court_position:0 "Nedime"
-### TODO AGOT-CHANGED: lady_in_waiting_court_position_desc [AGOT: A $lady_in_waiting_court_position$ is an assistant and companion to the lady of the court, attending to her every need and fulfilling every whim. | TR: $lady_in_waiting_court_position$, Kraliçe veya İmparatoriçenin yardımcısı ve yoldaşıdır, onun ihtiyaçlarını ve taleplerini karşılar.]
- lady_in_waiting_court_position_desc:1 "A $lady_in_waiting_court_position$ is an assistant and companion to the lady of the court, attending to her every need and fulfilling every whim."
-### TODO AGOT-CHANGED: executioner_court_position [AGOT: Headsman | TR: Cellat]
- executioner_court_position:0 "Headsman"
+
+ lady_in_waiting_court_position_desc:0 "$lady_in_waiting_court_position$, Kraliçe veya İmparatoriçenin yardımcısı ve yoldaşıdır, onun ihtiyaçlarını ve taleplerini karşılar."
+
+ executioner_court_position:0 "Cellat"
  executioner_employer_custom_effect_description:2 "$BULLET$[control|E] ve [county_opinion|E] artışı için [Concept( 'prisoners', 'Tutsakları' )|E] halka açık bir şekilde [Concept( 'execute', 'İdam Edebilir' )|E]\n@warning_icon! #X Bu karakterin suçları affedilir#!"
-### TODO AGOT-CHANGED: executioner_court_position_desc [AGOT: Executioners are responsible for the public executions any and all enemies to the throne. Some would call it an honor, some a burden. | TR: Cellatlar, özgürlükleri karşılığında tahtın düşmanlarını idam etmeyi kabul etmiş suçlulardır. Kimileri bunu bir onur olarak görürken, kimileri için çok büyük bir yüktür.]
- executioner_court_position_desc:1 "Executioners are responsible for the public executions any and all enemies to the throne. Some would call it an honor, some a burden."
+
+ executioner_court_position_desc:0 "Cellatlar, özgürlükleri karşılığında tahtın düşmanlarını idam etmeyi kabul etmiş suçlulardır. Kimileri bunu bir onur olarak görürken, kimileri için çok büyük bir yüktür."
  executioner_terrify_court: "Sarayı Korkutma"
  executioner_terrify_court_desc: "Bu karakter saray ahalisinin gözünü korkutarak onlara idam sehpasından bir adım ötede olduklarını hatırlatmakla görevlendirilmiştir."
  garuda_court_position:0 "Garuda"
@@ -501,14 +501,14 @@
  cave_hermit_court_position_desc:0 "$cave_hermit_court_position$ sarayınızın etrafındaki yeşilliklerde yaşar ve ziyaretçilerinizi kehanetler ve bilmecelerle eğlendirir. Kimileri kehanetlerinin gerçek çıktığına inanır."
  cave_hermit_court_position_tt:0 "[Concept('travels', 'Seyahatleriniz')|E] esnasında bir #V [GetCourtPositionType( 'cave_hermit_court_position' ).GetName()]#! buldunuz"
  travel_leader_court_position:0 "Kervanbaşı"
-### TODO AGOT-CHANGED: travel_leader_court_position_desc [AGOT: The [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] assists you when traveling and takes charge of all itineraries. They aim to ensure you arrive at your destination safely and on-time. | TR: $travel_leader_court_position$ seyahatleriniz esnasında size yoldaşlık eder ve izlenecek rotayı belirler. Varacağınız noktaya vaktinde ve güvenli bir şekilde varmanızdan sorumludur.]
- travel_leader_court_position_desc:0 "The [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] assists you when traveling and takes charge of all itineraries. They aim to ensure you arrive at your destination safely and on-time."
-### TODO AGOT-CHANGED: hire_travel_leader_decision [AGOT: Search for [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] | TR: $travel_leader_court_position$ Ara]
- hire_travel_leader_decision:0 "Search for [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )]"
+
+ travel_leader_court_position_desc:0 "$travel_leader_court_position$ seyahatleriniz esnasında size yoldaşlık eder ve izlenecek rotayı belirler. Varacağınız noktaya vaktinde ve güvenli bir şekilde varmanızdan sorumludur."
+
+ hire_travel_leader_decision:0 "$travel_leader_court_position$ Ara"
  hire_travel_leader_decision_tooltip:0 "Hizmetkârlarınız [GetCourtPositionType('travel_leader_court_position').GetName()] pozisyonu için uygun adaylar önerecekler."
  travel_leader_court_position_custom_desc: " $EFFECT_LIST_BULLET$[travels|E] esnasında @travel_safety_icon![travel_safety|E] ve @travel_speed_icon![travel_speed|E] sağlar"
-### TODO AGOT-CHANGED: hire_travel_leader_decision_desc [AGOT: A good [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] is the key to a successful journey. I will request for a number of suitable candidates to be suggested. | TR: Tecrübeli bir $travel_leader_court_position$, seyahatin başarılı olması için elzemdir. Uygun adayların huzuruma getirilmesini talep edeceğim.]
- hire_travel_leader_decision_desc:0 "A good [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] is the key to a successful journey. I will request for a number of suitable candidates to be suggested."
+
+ hire_travel_leader_decision_desc:0 "Tecrübeli bir $travel_leader_court_position$, seyahatin başarılı olması için elzemdir. Uygun adayların huzuruma getirilmesini talep edeceğim."
  hire_travel_leader_decision_confirm:0 "Aramayı Başlat"
  caravan_master_prepare_travels: "Seyahat İçin Hazırlık Yapma"
  caravan_master_prepare_travels_desc: "Bu karakter süzereninin bir sonraki seyahati için hazırlıklar yapmakla görevlendirilmiştir."
@@ -576,8 +576,8 @@
  court_position_hird: "[Concept('culture', 'Kültürlerinde')|E] [GetCultureTradition('tradition_hird').GetName] [Concept( 'tradition', 'Geleneği' )|E] mevcut"
  court_position_fp1_performative_honour: "[Concept('culture', 'Kültürlerinde')|E] [GetCultureTradition('tradition_fp1_performative_honour').GetName] [Concept( 'tradition', 'Geleneği' )|E] mevcut"
  akolouthos_court_position:0 "Akolouthos"
-### TODO AGOT-CHANGED: akolouthos_employer_custom_effect_description [AGOT:  | TR: $BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!]
- akolouthos_employer_custom_effect_description: ""
+
+ akolouthos_employer_custom_effect_description:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  akolouthos_court_position_desc: "$akolouthos_court_position$, efendileri için onurlu bir şekilde ölmeye hazır olan ünlü Vareg Muhafızları da dâhil olmak üzere Bizans imparatorluk muhafızlarının çoğuna komuta eder."
  akolouthos_founded_varangians_trigger_tt: "Varegleri kurdunuz"
  court_position_akolouthos_bonus: "[GetCourtPositionType('akolouthos_court_position').GetName()]"
@@ -599,10 +599,10 @@
  court_position_west_germanic: "Kültürleri $heritage_west_germanic_name$ [Concept( 'heritage', 'Mirasına' )|E] sahip"
  court_position_not_same_culture_heritage: "[Concept( 'liege', 'Süzerenin' )|E] [Concept( 'culture', 'Kültüründen' )|E] farklı [heritage|E]"
  court_position_not_same_culture_language: "[Concept( 'liege', 'Süzerenin' )|E] [Concept( 'culture', 'Kültüründen' )|E] farklı [language|E]"
-### TODO AGOT-CHANGED: eparch_court_position [AGOT: Jovēnnio | TR: Epark]
- eparch_court_position: "Jovēnnio"
-### TODO AGOT-CHANGED: eparch_court_position_desc [AGOT: The Jovēnnio is the main administrator and ultimate authority of the capital, second only to the reigning monarch. | TR: Epark, başkentin ana yöneticisi ve otoritesidir, onun üzerinde sadece hükümdarın kendisi yer alır.]
- eparch_court_position_desc: "The Jovēnnio is the main administrator and ultimate authority of the capital, second only to the reigning monarch."
+
+ eparch_court_position:0 "Epark"
+
+ eparch_court_position_desc:0 "Epark, başkentin ana yöneticisi ve otoritesidir, onun üzerinde sadece hükümdarın kendisi yer alır."
  eparch_appease_populace: "Halkı Yatıştırma"
  eparch_appease_populace_desc: "[GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] başkent halkının ihtiyaçlarını karşılamakla görevlendirilecektir."
  eparch_support_troops: "Garnizonu Destekleme"

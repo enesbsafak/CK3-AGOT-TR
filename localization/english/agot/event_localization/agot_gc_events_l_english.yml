@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
 
  agot_gold_company_formation.0001.t:0 "Altın Şirket"
 ### TODO NOT-IN-ST: agot_gold_company_formation.0001.desc [AGOT: [disgruntled_merc.GetName] approaches me, [disgruntled_merc.GetHerHis] face painted with anger and [disgruntled_merc.GetHerHis] hand tight around [disgruntled_merc.GetHerHis] sword.\n\n]
@@ -13,8 +13,8 @@
  agot_gold_company_formation.0001.desc_blackfyre_loyalist:0 "$agot_gold_company_formation.0001.desc_flavor_base$ the #Bold Black Dragon's lost titles#! — a feat that would have been impossible under [ROOT.GetCharacter.GetPrimaryTitle.GetName].""
 ### TODO NOT-IN-ST: agot_gold_company_formation.0001.a [AGOT: Traitor!]
  agot_gold_company_formation.0001.a:0 "Traitor!"
-### TODO NOT-IN-ST: agot_gold_company_formation.0001.b [AGOT: ]
- agot_gold_company_formation.0001.b:0 ""
+
+ agot_gold_company_formation.0001.b:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
 
  agot_gold_company_formation.0002.t:0 "Altın Şirket"
 

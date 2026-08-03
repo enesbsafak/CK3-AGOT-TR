@@ -209,8 +209,8 @@
  camel_rider_flavor:0 "#F Sıradan süvarilere nazaran çöl muharebelerine daha hazırlıklı olan bu biniciler kumlara hükmederler.#!"
  huscarl_flavor:1 "#F Cermen Huskarllar kalkanlarıyla duvar örerek yaklaşmakta olan ok yağmurunu durdurmalarıyla bilinirler.#!"
  landsknecht_flavor:1 "#F Alman Landsknechtler Zweihander adı verilen devasa kılıçlarıyla düşman mızraklılarını perişan ederler.#!"
-### TODO AGOT-CHANGED: longbowmen_flavor [AGOT: #F Though they require a lifetime to properly master, Longbows are powerful enough to pierce plate and can loose volleys at an almost-unequaled rate.#! | TR: #F Ustalaşması bir ömür sürse de İngiltere ve Galler'in uzun yaylı okçuları rakipsiz bir dolum süresiyle zırhları delebilecek güçte ok yağdırırlar.#!]
- longbowmen_flavor:2 "#F Though they require a lifetime to properly master, Longbows are powerful enough to pierce plate and can loose volleys at an almost-unequaled rate.#!"
+
+ longbowmen_flavor:0 "#F Ustalaşması bir ömür sürse de İngiltere ve Galler'in uzun yaylı okçuları rakipsiz bir dolum süresiyle zırhları delebilecek güçte ok yağdırırlar.#!"
  goedendag_flavor:0 "#F Felemenk Goedendag birlikleri süvari taarruzlarına karşı kullanılabilecek sivri uçlu sopalar taşırlar.#!"
  gendarme_flavor:0 "#F Fransız Gendarme birlikleri ağır süvarilerin zirvesi, tüm dünya için gıpta sebebidir.#!"
  chasseur_flavor:0 "#F Haçlı şövalyeleri Avrupa at biniciliğiyle Levanten çöl taktiklerini harmanlamalarıyla bilinirler.#!"
@@ -293,16 +293,16 @@
  accolade_maa_handgunners_flavor: "[retinue_maa|E]\n#F Barut dumanının içinden ağır ağır ilerleyen bu iyi talim görmüş tüfekçiler, usta işi silahlarıyla düşman saflarını paramparça edebilir.#!"
  nomadic_riders: "Atlılar"
  nomadic_riders_flavor: "#F Eyer üzerinde doğan $nomadic_riders$, doğduklarından beri savaş eğitimi alır.#!"
-### TODO AGOT-CHANGED: kheshig [AGOT: Great Guard | TR: Keşig]
- kheshig: "Great Guard"
-### TODO AGOT-CHANGED: kheshig_flavor [AGOT: #F The elite guard of a nomadic ruler, the $kheshig$ guarantee the safety of their liege, day and night. They should be feared by all on the field of battle.#! | TR: #F Göçebe hükümdarların seçkin muhafızları olan $kheshig$, efendilerinin gece gündüz güvenliğini sağlar. Savaş bölüğü olan #EMP korçin#!, bu korumayı savaş meydanına taşır.#!]
- kheshig_flavor: "#F The elite guard of a nomadic ruler, the $kheshig$ guarantee the safety of their liege, day and night. They should be feared by all on the field of battle.#!"
+
+ kheshig:0 "Keşig"
+
+ kheshig_flavor:0 "#F Göçebe hükümdarların seçkin muhafızları olan $kheshig$, efendilerinin gece gündüz güvenliğini sağlar. Savaş bölüğü olan #EMP korçin#!, bu korumayı savaş meydanına taşır.#!"
  nomadic_horde: "[horde|E]"
  steppe_raiders: "Bozkır Akıncıları"
  steppe_raiders_flavor: "#F Gözcülük için donatılmış olsalar da, bu öncü süvariler izole düşmanlara saldırmakta ve hazırlıksız olanlara karşı ani taarruzlar düzenlemekte asla tereddüt etmez.#!"
  torch_bearers: "Meşale Taşıyıcıları"
-### TODO AGOT-CHANGED: torch_bearers_flavor [AGOT: #F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every tent aflame.#! | TR: #F Sınırsız bozkırda mancınıklara ya da kuşatma kulelerine ihtiyaç yoktur, alevli bir meşale ve hızlı bir at, her çadırı tutuşturmaya yeter.#!]
- torch_bearers_flavor: "#F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every tent aflame.#!"
+
+ torch_bearers_flavor:0 "#F Sınırsız bozkırda mancınıklara ya da kuşatma kulelerine ihtiyaç yoktur, alevli bir meşale ve hızlı bir at, her çadırı tutuşturmaya yeter.#!"
  heavy_horse_archers: "Zırhlı Atlı Okçular"
  heavy_horse_archers_flavor: "#F Zırhlı atlılar güçlü yaylar taşır. Her biri bir dizi seçkin atı peşinde sürüklediğinden, bu göçebeler açık arazide durmaksızın savaşabilir.#!"
  nomad_lancers: "Göçebe Mızrakçılar"

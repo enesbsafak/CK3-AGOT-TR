@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿l_english:
  IMPORTANT_ACTION_CLICK_TO_HIDE:0 "#I Hepsini gizlemek için tıklayın#!"
  IMPORTANT_ACTION_CLICK_TO_EXPAND:0 "#I Hepsini Görmek için tıklayın#!"
  IMPORTANT_ACTION_CLICK_TO_DISMISS:0 "#I Hepsini kapatmak için sağ tıklayın#!"
@@ -313,13 +313,13 @@
  action_mega_duke_penalty: "@titles_icon! Çok Fazla [county|E]"
  action_mega_duke_penalty_label: "@titles_icon! Çok Fazla [county|E]"
  action_mega_duke_penalty_desc: "[Concept( 'realm_size', 'Ülke Büyüklüğünüz' )|E] bir [duke|E] için çok yüksek, [megaduke_penalty|E] cezası alıyorsunuz.\n\n#help Düklükler [Concept( 'realm', 'Ülkelerinde' )|E] çok fazla [county|E] sahibi olamazlar. [county|E] sınırını geçmeniz durumunda [income|E] kaybı yaşamaya başlarsınız. Bu durumu çözmek için bir [kingdom|E] Unvanı oluşturmayı değerlendirebilirsiniz.#!"
-### TODO AGOT-ONLY: action_mega_duke_penalty_click [AGOT: ]
- action_mega_duke_penalty_click: ""
+
+ action_mega_duke_penalty_click:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  action_in_debt: "Borçta"
  action_in_debt_label: "@debt_icon! Borçtasınız"
  action_in_debt_desc: "Sahip olduğunuz [Concept( 'gold', 'altın' )|E] miktarı şu anda [gold_i|E]#V 0'ın#! altında, bu nedenle [Concept( 'debt', 'borçtasınız' )|E]!\n\nBorçta olmak aşağıdaki etkilere sahiptir:\n$BULLET_WITH_TAB$[war|E] açamazsınız.\n$BULLET_WITH_TAB$[gold_i|E][gold|E] gereken [Concept( 'men_at_arms', 'Düzenli Askerler' )|E] takviye almaz.\n$BULLET_WITH_TAB$[domain|E] topraklarınızda [county_corruption|E] yayılır.\n$BULLET_WITH_TAB$[vassals|E] [Concept( 'factions', 'örgütleşmelere' )|E] katılmaya daha meyillidir\n\nNe kadar fazla borçtaysanız o kadar fazla ceza alırsınız. Mevcut borç seviyenizin fazladan etkileri aşağıdaki gibidir:\n\n[GetPlayer.GetDebtModifierDescription]\n\n#help Her ay altın kazanmıyorsanız giderinizi azaltmaya çalışın. Örneğin aşağıdakileri yapmayı deneyebilirsiniz:\n$BULLET_WITH_TAB$[Concept( 'armies', 'Ordularınızı' )|E] terhis edin.\n$BULLET_WITH_TAB$[Concept( 'men_at_arms', 'Düzenli askerlerinizin' )|E] sayısını azaltın veya tamamını yok edin\n$BULLET_WITH_TAB$[Concept( 'marshal', 'Mareşalinizi' )|E] kullanarak [Concept( 'control', 'kontrolü' )|E] arttırın\n$BULLET_WITH_TAB$[Concept( 'court_positions', 'Saray Pozisyonuna' )|E] sahip kişileri kovun#!"
-### TODO AGOT-ONLY: action_in_debt_click [AGOT: ]
- action_in_debt_click: ""
+
+ action_in_debt_click:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  action_in_treasury_debt: "$action_in_debt$"
  action_in_treasury_debt_label: "$action_in_debt_label$"
  action_in_treasury_debt_desc: "Sahip olduğunuz [treasury_i|E][treasury|E] miktarı şu anda #V 0'ın#! altında, bu nedenle [Concept('treasury_debt', 'hazineniz borçta')|E]!\n\nBorçta olmak aşağıdaki etkilere sahiptir:\n$BULLET_WITH_TAB$[war|E] açamazsınız.\n$BULLET_WITH_TAB$[treasury_i|E][treasury|E] gerektiren [Concept( 'men_at_arms', 'Düzenli Askerler' )|E] takviye alamaz.\n$BULLET_WITH_TAB$[domain|E] topraklarınızda [county_corruption|E] yayılır.\n$BULLET_WITH_TAB$[vassals|E] [Concept( 'factions', 'örgütleşmelere' )|E] katılmaya daha meyillidir.\n\nNe kadar fazla borçta olursanız, maruz kalacağınız cezalar o kadar ağır olur. Mevcut borç seviyenizin fazladan etkileri aşağıdaki gibidir:\n\n[GetPlayer.GetTreasuryDebtModifierDescription]\n\n#help Her ay [treasury|E] kazanmıyorsanız giderlerinizi azaltmayı düşünün. Örneğin aşağıdakileri yapmayı deneyebilirsiniz:\n$BULLET_WITH_TAB$[Concept( 'armies', 'Ordularınızı' )|E] terhis edin.\n$BULLET_WITH_TAB$[Concept( 'men_at_arms', 'Düzenli askerlerinizin' )|E] sayısını azaltın veya tamamını yok edin.\n$BULLET_WITH_TAB$[Concept( 'marshal', 'Mareşalinizi' )|E] kullanarak [Concept( 'control', 'kontrolü' )|E] arttırın.\n$BULLET_WITH_TAB$[Concept( 'court_positions', 'Saray Pozisyonuna' )|E] sahip kişileri kovun#!"
@@ -327,14 +327,14 @@
  action_send_child_to_university:1 "@child_icon! Üniversiteye Çocuk Gönder"
  action_send_child_to_university_label:1 "@child_icon! Üniversiteye Çocuk Gönder"
  action_send_child_to_university_click:1 "#I Çocuğunuzu üniversiteye göndermek için tıklayın#!"
-### TODO AGOT-CHANGED: action_send_child_to_university_desc [AGOT: You can send your child to University\n\n#help A [holy_site|E] [building|E], like [GetBuilding('holy_site_cathedral_01').GetName], or [GetBuilding('generic_university').GetName] [building|E] exists in your [realm|E]! Sending a child there for education is beneficial as it will improve their [education_trait|E] when becoming [adult|E].\n\nHowever, you may have a specific [guardian|E] in mind already.#! | TR: Çocuğunuzu Üniversiteye gönderebilirsiniz\n\n#help [Concept('realm', 'Ülkenizde')|E] [GetBuilding('holy_site_cathedral_01').GetName] gibi bir [holy_site|E] [Concept('building', 'Binası')|E], [GetBuilding('generic_university').GetName] [Concept('building', 'Binası')|E] veya [GetTitleByKey('h_china').GetName] [Concept('realm_capital', 'Başkenti')|E] var. Çocuğunuzu eğitim alması için bu yerlere göndermek, [adult|E] olduğunda daha iyi bir [education_trait|E] edinmesini sağlar.\n\nYa da dilerseniz onun bir [guardian|E] tarafından eğitilmesini tercih edebilirsiniz.#!]
- action_send_child_to_university_desc:1 "You can send your child to University\n\n#help A [holy_site|E] [building|E], like [GetBuilding('holy_site_cathedral_01').GetName], or [GetBuilding('generic_university').GetName] [building|E] exists in your [realm|E]! Sending a child there for education is beneficial as it will improve their [education_trait|E] when becoming [adult|E].\n\nHowever, you may have a specific [guardian|E] in mind already.#!"
+
+ action_send_child_to_university_desc:0 "Çocuğunuzu Üniversiteye gönderebilirsiniz\n\n#help [Concept('realm', 'Ülkenizde')|E] [GetBuilding('holy_site_cathedral_01').GetName] gibi bir [holy_site|E] [Concept('building', 'Binası')|E], [GetBuilding('generic_university').GetName] [Concept('building', 'Binası')|E] veya [GetTitleByKey('h_china').GetName] [Concept('realm_capital', 'Başkenti')|E] var. Çocuğunuzu eğitim alması için bu yerlere göndermek, [adult|E] olduğunda daha iyi bir [education_trait|E] edinmesini sağlar.\n\nYa da dilerseniz onun bir [guardian|E] tarafından eğitilmesini tercih edebilirsiniz.#!"
  action_send_child_to_university_unimportant:1 "@warning_icon! #X Eğitimini ödeyecek kadar [Concept( 'gold', 'altınınız' )|E] yok#!"
  action_send_guardian_to_university:0 "$action_send_child_to_university$"
  action_send_guardian_to_university_label:0 "$action_send_child_to_university_label$"
  action_send_guardian_to_university_click:1 "$action_send_child_to_university_click$"
-### TODO AGOT-CHANGED: action_send_guardian_to_university_desc [AGOT: You can send your child to University\n\n#help A [holy_site|E] [building|E], like [GetBuilding('holy_site_cathedral_01').GetName], or [GetBuilding('generic_university').GetName] [building|E] exists in child's [realm|E]! Sending a child there for education is beneficial as it will improve their [education_trait|E] when becoming [adult|E].\n\nHowever, they need a [guardian|E] to guide them.#! | TR: Çocuğunuzu Üniversiteye gönderebilirsiniz\n\n#help Çocunuzun [Concept('realm', 'Ülkesinde')|E] [GetBuilding('holy_site_cathedral_01').GetName] gibi bir [holy_site|E] [Concept('building', 'Binası')|E], [GetBuilding('generic_university').GetName] [Concept('building', 'Binası')|E] veya [GetTitleByKey('h_china').GetName] [Concept('realm_capital', 'Başkenti')|E] var. Çocuğunuzu eğitim alması için bu yerlere göndermek, [adult|E] olduğunda daha iyi bir [education_trait|E] edinmesini sağlar.\n\nOna rehberlik etmesi için bir [guardian|E] gerekir.#!]
- action_send_guardian_to_university_desc:0 "You can send your child to University\n\n#help A [holy_site|E] [building|E], like [GetBuilding('holy_site_cathedral_01').GetName], or [GetBuilding('generic_university').GetName] [building|E] exists in child's [realm|E]! Sending a child there for education is beneficial as it will improve their [education_trait|E] when becoming [adult|E].\n\nHowever, they need a [guardian|E] to guide them.#!"
+
+ action_send_guardian_to_university_desc:0 "Çocuğunuzu Üniversiteye gönderebilirsiniz\n\n#help Çocunuzun [Concept('realm', 'Ülkesinde')|E] [GetBuilding('holy_site_cathedral_01').GetName] gibi bir [holy_site|E] [Concept('building', 'Binası')|E], [GetBuilding('generic_university').GetName] [Concept('building', 'Binası')|E] veya [GetTitleByKey('h_china').GetName] [Concept('realm_capital', 'Başkenti')|E] var. Çocuğunuzu eğitim alması için bu yerlere göndermek, [adult|E] olduğunda daha iyi bir [education_trait|E] edinmesini sağlar.\n\nOna rehberlik etmesi için bir [guardian|E] gerekir.#!"
  action_send_guardian_to_university_unimportant:0 "$action_send_child_to_university_unimportant$"
  action_send_child_to_your_university:0 "$action_send_child_to_university$"
  action_send_child_to_your_university_label:0 "$action_send_child_to_university_label$"
@@ -639,16 +639,16 @@
  action_empty_accolade_slot_label:1 "@acclaimed_knight_icon! Mükâfat Oluşturabilirsiniz"
  action_empty_accolade_slot_desc:1 "Maksimum [accolade|E] sayısının altındasınız ve [Concept( 'knights', 'Şövalyelerinizden' )|E] birini [acclaimed_knight|e] yapabilirsiniz.$action_empty_accolade_slot_HELP$"
  action_empty_accolade_slot_HELP:1 "\n\n#help [prestige|E] maliyetini ödeyip yeni bir mükâfat oluşturmayı düşünebilirsiniz.#!"
-### TODO AGOT-CHANGED: action_empty_accolade_slot_unimportant [AGOT: @warning_icon! #X The Captain may also be a valid Successor for an existing Accolade | TR: @warning_icon! #X Şövalye mevcut bir mükâfatın mirasçısı da olabilir]
- action_empty_accolade_slot_unimportant:1 "@warning_icon! #X The Captain may also be a valid Successor for an existing Accolade"
-### TODO AGOT-CHANGED: action_empty_accolade_slot_click [AGOT: #I Click to view your Captains#! | TR: #I Şövalyelerinizi görmek için tıklayın#!]
- action_empty_accolade_slot_click:0 "#I Click to view your Captains#!"
+
+ action_empty_accolade_slot_unimportant:0 "@warning_icon! #X Şövalye mevcut bir mükâfatın mirasçısı da olabilir"
+
+ action_empty_accolade_slot_click:0 "#I Şövalyelerinizi görmek için tıklayın#!"
  action_accolade_can_spend_attribute: "@acclaimed_knight_icon! [accolade|e] Yükseltilebilir"
  action_accolade_can_spend_attribute_label: "@acclaimed_knight_icon! [recipient.GetNameNoTooltip] yükseltilebilir"
  action_accolade_can_spend_attribute_desc: "[recipient.GetName] için uygun en az bir [accolade_type|e] mevcut.$action_accolade_can_spend_attribute_HELP$"
  action_accolade_can_spend_attribute_HELP: "\n\n#help [recipient.GetNameNoTooltip] [Concept('accolade_rank', 'Mükâfat Kademesini')|e] yükseltmeye yetecek kadar [glory|e] kazandı, böylelikle fazladan [accolade_type|e] açabilir."
-### TODO AGOT-CHANGED: action_accolade_can_spend_attribute_click [AGOT: #I Click to view Captains#! | TR: #I Şövalyeleri görüntülemek için tıklayın#!]
- action_accolade_can_spend_attribute_click: "#I Click to view Captains#!"
+
+ action_accolade_can_spend_attribute_click:0 "#I Şövalyeleri görüntülemek için tıklayın#!"
  action_accolade_can_spend_attribute_combined_label:0 "@acclaimed_knight_icon! [recipient.GetNameNoTooltip] yükseltilebilir"
  action_accolade_can_spend_attribute_combined_group_label:0 "@acclaimed_knight_icon! Mükâfatları yükseltebilirsiniz"
  action_accolade_can_spend_attribute_combined_group_name:0 "@acclaimed_knight_icon! [accolades|e] yükseltilebilir"
@@ -802,8 +802,8 @@
  action_can_start_join_war_contract_click: "#I Bir savaşa katılmak için tıklayın#!"
  action_can_start_join_war_contract_combined_group_label: "Görev Sözleşmeleri Tamamlamak İçin Savaşlara Katılabilirsiniz"
  action_can_start_join_war_contract_combined_label: "$action_can_start_join_war_contract_label$"
-### TODO AGOT-CHANGED: action_can_train_knights_contract [AGOT: You can train Captains to complete Contract | TR: Sözleşmeyi tamamlamak için şövalye eğitebilirsiniz]
- action_can_train_knights_contract: "You can train Captains to complete Contract"
+
+ action_can_train_knights_contract:0 "Sözleşmeyi tamamlamak için şövalye eğitebilirsiniz"
  action_can_train_knights_contract_label: "[recipient.GetShortUIName] için [recipient.Custom('KnightCulturePlural')] eğitebilirsiniz"
  action_can_train_knights_contract_desc: "$task_contract_train_knight_interaction_desc$"
  action_can_train_knights_contract_click: "#I Karakter etkileşimini açmak için tıklayın#!"

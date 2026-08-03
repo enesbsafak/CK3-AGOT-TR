@@ -131,8 +131,8 @@
  bp1_house_feud.0300.a:0 "[ROOT.Char.GetHouse.GetBaseNameNoTooltip] hanesi düşmanlarını unutmaz."
  bp1_house_feud.0300.b:0 "Bu iş yeterince uzadı."
  bp1_house_feud.0410.t:0 "$story_cycle_house_feud_title$: Riskler"
-### TODO AGOT-ONLY: bp1_house_feud.0410.desc [AGOT: ]
- bp1_house_feud.0410.desc:1 ""Please!" [house_feud_victim.GetTitledFirstName] mewls, "This insane grudge has got to stop! I am scared to go #EMP anywhere#!, and I jump at the merest mention of a [house_feud_rival.GetHouse.GetBaseName]!"\n\nMy [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))] is clearly shaken... I am torn between the risks posed to my family and the need to teach [house_feud_rival.GetTitledFirstName] a lesson. "
+
+ bp1_house_feud.0410.desc:0 ""Lütfen!" diye sızlanır [house_feud_victim.GetTitledFirstName], "Bu çılgın kan davası bitmeli! #EMP Hiçbir yere#! gitmeye korkuyorum ve bir [house_feud_rival.GetHouse.GetBaseName]'in adı geçince yerimden sıçrıyorum!"\n\n[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))]'im belli ki sarsılmış... Aileme yönelik riskler ile [house_feud_rival.GetTitledFirstName]'e ders verme ihtiyacı arasında kalmış durumdayım. "
  bp1_house_feud.0410.a:0 "Haklısın... Bu işe bir son vermenin vakti geldi."
  bp1_house_feud.0410.b:0 "Başladığımız işi bitireceğiz."
  bp1_house_feud.0420.t:1 "$story_cycle_house_feud_title$: Hükümdarın Talebi"
@@ -141,8 +141,8 @@
  bp1_house_feud.0420.b:0 "Pekâlâ..."
  bp1_house_feud.0500.t:0 "$story_cycle_house_feud_title$: Hedef"
  bp1_house_feud.0500.desc:0 "İlk zamanlar ihtimal vermesem de, [ROOT.Char.Custom('GetCourt')] içinde dolaşan fısıltıları dinledikçe [relation.Custom('GetFamilyFeudShort')] sebebiyle [house_feud_rival.GetTitledFirstName] tarafından hedef alındığım konusunda ikna olmaya başladım.\n\n[ROOT.Char.GetHouse.GetName] hanesinin tüm üyelerini kendisi için bir av olarak belirlemiş ve bu kin [house_feud_rival.Custom2('InsultAdjective', ROOT.Char)] hanesinin tüm bireyleri tarafından benimsenmiş."
-### TODO AGOT-CHANGED: bp1_house_feud.0500.a [AGOT: House [house_feud_rival.GetHouse.GetBaseNameNoTooltip] will regret this. | TR: [house_feud_rival.GetFirstNameNoTooltip] buna pişman olacak.]
- bp1_house_feud.0500.a:0 "House [house_feud_rival.GetHouse.GetBaseNameNoTooltip] will regret this."
+
+ bp1_house_feud.0500.a:0 "[house_feud_rival.GetFirstNameNoTooltip] buna pişman olacak."
  bp1_house_feud.0500.b:0 "Daha büyük kaygılarım var."
  bp1_house_feud.0501.t:1 "$story_cycle_house_feud_title$: [house_feud_attacker.GetHouse.GetBaseNameNoTooltip] Rekabeti"
  bp1_house_feud.0501.reciprocating:1 "[house_feud_attacker.Custom2('InsultAdjective', ROOT.Char)] [house_feud_attacker.GetFirstName], hanemizin onun ailesiyle olan husumetine aynı şekilde karşılık vermiş. Meşru şikayetlerimizi ve mağduriyetimizi acıklı iftiralarla yanıtlamış."
@@ -174,8 +174,8 @@
  bp1_house_feud.0700.a:0 "Defol karşımdan [house_feud_rival.GetHouse.GetBaseNameNoTooltip] köpeği!"
  bp1_house_feud.0700.b:0 "Gül mis gibi koktuktan sonra isminin ne önemi var?"
  bp1_house_feud.0701.t:0 "Beklenmeyen Yanıt"
-### TODO AGOT-ONLY: bp1_house_feud.0701.desc [AGOT: ]
- bp1_house_feud.0701.desc:0 ""What they say about the sanity of a [owner.GetHouse.GetBaseName] must be true, if you think I would ever dream of courting you. Try your ridiculous attempt at trickery on someone else."\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] as [target.GetSheHe] viciously pours scorn on me."
+
+ bp1_house_feud.0701.desc:0 ""[owner.GetHouse.GetBaseName]'in akıl sağlığı hakkında söylenenler doğru olmalı, seninle kur yapmayı hayal bile edeceğimi düşünüyorsan. Gülünç hile denemelerini başkasına yap."\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')], [target.GetSheHe] bana acımasızca aşağılama yağdırırken.""
  bp1_house_feud.0701.a:0 "Ama ben... Sanmıştım ki..."
  bp1_house_feud.0810.t:0 "$story_cycle_house_feud_title$: Bayrağı Devralmak"
  bp1_house_feud.0810.child:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('old_house_head'))|U] [old_house_head.GetTitledFirstName] ve [house_feud_rival.GetHouse.GetBaseName] hanesi arasındaki husumete dair sayısız hikâye dinledim."

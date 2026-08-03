@@ -24,13 +24,13 @@
  ACCOLADE_SHOW:1 "[Concept( 'accolade', 'Mükâfatları' )|E] Göster"
  ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Bu karakter hâlihazırda $TYPE$ niteliğinde etkin bir [Concept( 'accolade', 'Mükâfata' )|E] sahip."
  ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip], [accolade_type|E] koşullarını karşılamıyor"
-### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_ACCLAIMED [AGOT: [Character.GetNameNoTooltip] is already an Acclaimed Captain | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye]
- ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] is already an Acclaimed Captain"
+
+ ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye"
  ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] hâlihazırda bir [Concept( 'accolade', 'Mükâfatın' )|E] mirasçısı"
-### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR [AGOT: [Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of an Accolade | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bir Mükâfatın Mirasçısı]
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of an Accolade"
-### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS [AGOT: [Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of this Accolade | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bu Mükâfatın Mirasçısı]
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of this Accolade"
+
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bir Mükâfatın Mirasçısı"
+
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bu Mükâfatın Mirasçısı"
  ACCOLADE_SUCCESSOR:0 "Mirasçı"
  ACCOLADE_SUCCESSOR_NAME:0 "Mirasçı: [Accolade.GetSuccessor.GetUIName]"
  ACCOLADE_OBTAINED_TYPES_NAME: "Elde Edilen [accolade_types|E]:"
@@ -66,8 +66,8 @@
  ACCOLADE_CHANGE_INITIAL_TYPE:0 "$ACCOLADE_TYPE$ Değiştir"
  CREATE_ACCOLADE_CANNOT_CHANGE_TYPES:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip], seçilen hariç diğer hiçbir [Concept( 'accolade_type', 'Mükâfat Niteliğinin' )|E] gereksinimlerini karşılamıyor #!"
  ACCOLADE_LIEGE_MODIFIERS:0 "#S Süzeren Etkileri:#!"
-### TODO AGOT-CHANGED: ACCOLADE_KNIGHT_MODIFIERS [AGOT: #S Captain Modifiers:#! | TR: #S Şövalye Etkileri:#!]
- ACCOLADE_KNIGHT_MODIFIERS:0 "#S Captain Modifiers:#!"
+
+ ACCOLADE_KNIGHT_MODIFIERS:0 "#S Şövalye Etkileri:#!"
  ACCOLADE_KNIGHT_ARMY_MODIFIERS:1 "#S [knight_army_modifiers|e]:#!"
  ACCOLADE_UNLOCKS:0 "#S Açar:#!"
  CREATE_ACCOLADE_NO_ACCLAIMED_KNIGHTS:0 "@warning_icon! #X [acclaimed_knight|E] hâline getirilebilecek bir $knight_culture_player_no_tooltip$ sahibi değilsiniz #!"
@@ -107,8 +107,8 @@
  ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TEXT: "[ACCOLADE.GetName], [AccoladeType.GetName] niteliğini kazanacak"
  ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_ACCEPT: "Onayla"
  RENAME_ACCOLADE: "#T Mükâfat Adını Özelleştir#!\n#I Mükâfatı yeniden adlandırmak için tıklayın#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME [AGOT: #T Recruits' Aptitude:#! | TR: #T Yaver Yatkınlığı:#!]
- ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME: "#T Recruits' Aptitude:#!"
+
+ ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME:0 "#T Yaver Yatkınlığı:#!"
  ACCOLADE_SQUIRE_QUALITY_0: "#N @aptitude:1:inherit_color!Acınası#!"
  ACCOLADE_SQUIRE_QUALITY_1: "#N @aptitude:2:inherit_color!Beceriksiz#!"
  ACCOLADE_SQUIRE_QUALITY_2: "#color_yellow @aptitude:3:inherit_color!Tecrübesiz#!"
@@ -183,12 +183,12 @@
  acclaimed_knight_piety_from_battle_high:1 "$EFFECT_LIST_BULLET$[Concept( 'holy_wars', 'Kutsal Savaşların' )|E] [piety_i][piety|e] maliyeti oldukça azaltılır\n$EFFECT_LIST_BULLET$[Concept( 'holy_wars', 'Kutsal Savaşlara' )|E] katılmak büyük miktarda [piety_i][piety|E] verir"
  accolade_party_fertility:0 "$EFFECT_LIST_BULLET$[GetActivityType('activity_feast').GetName] veya [GetActivityType( 'activity_wedding' ).GetName] düzenlerken fazladan [fertility|E] ve [attraction|E] [Concept( 'opinion', 'Görüşü' )|E]"
  accolade_charmer_party_modifier:0 "Cilveli Kutlamalar"
-### TODO AGOT-CHANGED: accolade_charmer_party_modifier_desc [AGOT: This character's most salacious captain is steering the high table towards licentious merriment. | TR: Bu karakterin çapkın şövalyesi ziyafet masasına şuh bir hava katıyor.]
- accolade_charmer_party_modifier_desc:0 "This character's most salacious captain is steering the high table towards licentious merriment."
+
+ accolade_charmer_party_modifier_desc:0 "Bu karakterin çapkın şövalyesi ziyafet masasına şuh bir hava katıyor."
  accolade_party_fertility_high:0 "$EFFECT_LIST_BULLET$[GetActivityType('activity_feast').GetName] veya [GetActivityType( 'activity_wedding' ).GetName] düzenlerken büyük miktarda [fertility|E] ve [attraction|E] [Concept( 'opinion', 'Görüşü' )|E]"
  accolade_charmer_party_high_modifier:0 "Fazlasıyla Cilveli Kutlamalar"
-### TODO AGOT-CHANGED: accolade_charmer_party_high_modifier_desc [AGOT: This character's lothario of a captain is leading the high table in ardent antics. | TR: Bu karakterin çapkın şövalyesi ziyafet masasına şehvet dolu bir hava katıyor.]
- accolade_charmer_party_high_modifier_desc:0 "This character's lothario of a captain is leading the high table in ardent antics."
+
+ accolade_charmer_party_high_modifier_desc:0 "Bu karakterin çapkın şövalyesi ziyafet masasına şehvet dolu bir hava katıyor."
  politicker_attribute:0 "Siyasetçi"
  tactician_attribute:0 "Taktisyen"
  reeve_attribute:0 "İdareci"
@@ -654,12 +654,12 @@
  outrider_attribute.unlock_tt: "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('open_terrain_expert').GetName( GetNullCharacter )] özelliğine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Sürücülük [trait_level_track_xp|E] değeri #V 30#! veya üzeri\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], herhangi bir [light_cavalry|E] [Concept('men_at_arms', 'Düzenli Asker Birliğiyle')|E] birlikte aynı [Concept('battle', 'Muharebede')|E] yer aldığında kullanılabilir"
  outrider_attribute.battle_message_tt: "[acclaimed_knight.GetName], savaşta hafif süvarilere önderlik ederken kendini gösterdi ve bir [GetAccoladeType('outrider_attribute').GetName] olarak [Concept('acclaimed', 'Tanınabilir')|E]"
  vanguard_attribute.unlock_tt: "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('strong').GetName( GetNullCharacter )] özelliğine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('athletic').GetName( GetNullCharacter )] özelliğine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('physique_good_1').GetName( GetNullCharacter )], [GetTrait('physique_good_2').GetName( GetNullCharacter )] veya [GetTrait('physique_good_3').GetName( GetNullCharacter )] özelliklerinden birine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Yayan [trait_level_track_xp|E] değeri #V 30#! veya üzeri\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], herhangi bir [heavy_infantry|E] [Concept('men_at_arms', 'Düzenli Asker Birliğiyle')|E] birlikte aynı [Concept('battle', 'Muharebede')|E] yer aldığında kullanılabilir"
-### TODO AGOT-CHANGED: vanguard_attribute.unlock_tt_2 [AGOT: Any of these:\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either the #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! or #V $innovation_legionnaires$#! [innovation|E]\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either [GetCultureTradition('tradition_fp1_coastal_warriors').GetName] or [GetCultureTradition('tradition_hird').GetName] or [culture_tradition|E] | TR: Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! veya #V $innovation_legionnaires$#! [Concept('innovation', 'Buluşlarından')|E] birine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], [GetCultureTradition('tradition_fp1_coastal_warriors').GetName], [GetCultureTradition('tradition_hird').GetName], [GetCultureTradition('tradition_futuwaa').GetName], [GetCultureTradition('tradition_druzhina').GetName], [GetCultureTradition('tradition_khadga_puja').GetName], [GetCultureTradition('tradition_garuda_warriors').GetName], [GetCultureTradition('tradition_himalayan_settlers').GetName], [GetCultureTradition('tradition_mubarizuns').GetName], [GetCultureTradition('tradition_burman_royal_army').GetName] veya [GetCultureTradition('tradition_mountaineer_ruralism').GetName] [Concept('culture_tradition', 'Geleneklerinden')|E] birine sahip]
- vanguard_attribute.unlock_tt_2: "Any of these:\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either the #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! or #V $innovation_legionnaires$#! [innovation|E]\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either [GetCultureTradition('tradition_fp1_coastal_warriors').GetName] or [GetCultureTradition('tradition_hird').GetName] or [culture_tradition|E]"
+
+ vanguard_attribute.unlock_tt_2:0 "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! veya #V $innovation_legionnaires$#! [Concept('innovation', 'Buluşlarından')|E] birine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], [GetCultureTradition('tradition_fp1_coastal_warriors').GetName], [GetCultureTradition('tradition_hird').GetName], [GetCultureTradition('tradition_futuwaa').GetName], [GetCultureTradition('tradition_druzhina').GetName], [GetCultureTradition('tradition_khadga_puja').GetName], [GetCultureTradition('tradition_garuda_warriors').GetName], [GetCultureTradition('tradition_himalayan_settlers').GetName], [GetCultureTradition('tradition_mubarizuns').GetName], [GetCultureTradition('tradition_burman_royal_army').GetName] veya [GetCultureTradition('tradition_mountaineer_ruralism').GetName] [Concept('culture_tradition', 'Geleneklerinden')|E] birine sahip"
  vanguard_attribute.battle_message_tt: "[acclaimed_knight.GetName], savaşta ağır piyadelere önderlik ederken kendini gösterdi ve bir [GetAccoladeType('vanguard_attribute').GetName] olarak [Concept('acclaimed', 'Tanınabilir')|E]"
  lancer_attribute.unlock_tt: "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] özelliğine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Sürücülük [trait_level_track_xp|E] değeri #V 30#! veya üzeri\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], herhangi bir [heavy_cavalry|E] [Concept('men_at_arms', 'Düzenli Asker Birliğiyle')|E] birlikte aynı [Concept('battle', 'Muharebede')|E] yer aldığında kullanılabilir"
-### TODO AGOT-CHANGED: lancer_attribute.unlock_tt_2 [AGOT: Any of these:\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either the #V $innovation_arched_saddle$#! or #V $innovation_valets$#! [innovation|E]\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] or [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName] [culture_tradition|E] | TR: Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_arched_saddle$#! veya #V $innovation_valets$#! [Concept('innovation', 'Buluşlarından')|E] birine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], [GetCultureTradition('tradition_caucasian_wolves').GetName], [GetCultureTradition('tradition_roman_legacy').GetName], [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] veya [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName] [Concept('culture_tradition', 'Geleneklerinden')|E] birine sahip]
- lancer_attribute.unlock_tt_2: "Any of these:\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either the #V $innovation_arched_saddle$#! or #V $innovation_valets$#! [innovation|E]\n$EFFECT_LIST_BULLET$The [acclaimed_knight_possessive|E] [culture|E] has either [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] or [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName] [culture_tradition|E]"
+
+ lancer_attribute.unlock_tt_2:0 "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_arched_saddle$#! veya #V $innovation_valets$#! [Concept('innovation', 'Buluşlarından')|E] birine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], [GetCultureTradition('tradition_caucasian_wolves').GetName], [GetCultureTradition('tradition_roman_legacy').GetName], [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] veya [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName] [Concept('culture_tradition', 'Geleneklerinden')|E] birine sahip"
  lancer_attribute.battle_message_tt: "[acclaimed_knight.GetName], savaşta ağır süvarilere önderlik ederken kendini gösterdi ve bir [GetAccoladeType('lancer_attribute').GetName] olarak [Concept('acclaimed', 'Tanınabilir')|E]"
  crossbowmen_attribute.unlock_tt: "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], [GetTrait('cautious_leader').GetName( GetNullCharacter )] özelliğine sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Okçuluk [trait_level_track_xp|E] değeri #V 30#! veya üzeri\n$EFFECT_LIST_BULLET$[acclaimed_knight|E], herhangi bir [GetMaA('crossbowmen').GetName] [Concept('men_at_arms', 'Düzenli Asker Birliğiyle')|E] birlikte aynı [Concept('battle', 'Muharebede')|E] yer aldığında kullanılabilir"
  crossbowmen_attribute.unlock_tt_2: "Şunlardan herhangi biri:\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_advanced_bowmaking$#! [Concept('innovation', 'Buluşuna')|E] sahip\n$EFFECT_LIST_BULLET$[acclaimed_knight_possessive|E] [Concept('culture', 'Kültürü')|E], #V $innovation_repeating_crossbow$#! [Concept('innovation', 'Buluşuna')|E] sahip"
@@ -694,13 +694,13 @@ single_maa_attribute_allowance: "[accolade|E], bir [men_at_arms|E] türü [accol
  SQUIRES_HASTILUDES_VALUE_BOW: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Okçuluk [trait_level_track_xp|E]"
  SQUIRES_OWN_CHILD: "[acclaimed_knight_possessive|E] çocuğu [accolade_squire|E] veya [knight|E]"
  SQUIRES_RESPECTED_ELDER: "[acclaimed_knight_possessive|E] kıdemi"
-### TODO AGOT-CHANGED: accolade_squire_training.t [AGOT: [accolade.GetNameNoTooltip] Trains a Recruit | TR: [accolade.GetNameNoTooltip] Bir Yaver Eğitiyor]
-accolade_squire_training.t: "[accolade.GetNameNoTooltip] Trains a Recruit"
+
+accolade_squire_training.t:0 "[accolade.GetNameNoTooltip] Bir Yaver Eğitiyor"
  accolade_squire_training.desc: "[squire.GetFirstName], bir [type.GetName] olarak eğitim aldı"
  accolade_knight_training.t: "[accolade.GetNameNoTooltip] Gelişiyor"
  accolade_knight_training.desc: "[acclaimed_knight|E], bir [type.GetName] olarak tecrübe kazandı"
-### TODO AGOT-CHANGED: message_filter_accolade_squire_training [AGOT: Acclaimed Captain Trains a Recruit | TR: Tanınmış Şövalye Bir Yaver Eğitiyor]
-message_filter_accolade_squire_training: "Acclaimed Captain Trains a Recruit"
-### TODO AGOT-CHANGED: message_filter_accolade_knight_training [AGOT: Acclaimed Captain Improves Skills | TR: Tanınmış Şövalye Becerilerini Geliştiriyor]
-message_filter_accolade_knight_training: "Acclaimed Captain Improves Skills"
+
+message_filter_accolade_squire_training:0 "Tanınmış Şövalye Bir Yaver Eğitiyor"
+
+message_filter_accolade_knight_training:0 "Tanınmış Şövalye Becerilerini Geliştiriyor"
  accolade_education_tt: "[guardian.GetShortUINamePossessive] sahip olduğu [guardian.GetAcclaimedAccolade.GetName] [Concept('accolade', 'Mükâfatı')|E] ile ilişkili @skill_prowess_icon![Concept('prowess', 'Dövüş Becerisi')|E] ve diğer [skills|E] ya da [traits|E] kazanma olasılığı artar"

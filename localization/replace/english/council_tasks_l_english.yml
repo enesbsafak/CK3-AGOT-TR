@@ -166,8 +166,8 @@ task_martial_good_acclaimed_knight_notification_tooltip:0 "Bu olay yetenekli bir
  task_increase_control_worsen_contract:1 "\n$EFFECT_LIST_BULLET$#N [vassal_contract|E] Kötüleşmesi#!"
  task_increase_control_loss_of_crown_authority:0 "\n$EFFECT_LIST_BULLET$#N Taht Otorite Kaybı#!"
  task_domestic_affairs_notification_tooltip:0 "$task_domestic_affairs$ Görevinden"
-### TODO AGOT-CHANGED: task_manage_guards [AGOT: Manage Household Guards | TR: Kraliyet Muhafızlarını Yönetme]
- task_manage_guards:0 "Manage Household Guards"
+
+ task_manage_guards:0 "Kraliyet Muhafızlarını Yönetme"
  task_manage_guards_knights_desc:1 "[knight_effectiveness|E]: #P +%[SCOPE.ScriptValue('marshal_overtime_boost_scale')|1]#!\nEn fazla #P +%[SCOPE.ScriptValue('marshal_overtime_boost_max')]#! olmak üzere her ay #P +%[SCOPE.ScriptValue('marshal_overtime_boost_monthly_increase')]#! artış gösterir\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_skill|E]: #P +[SCOPE.ScriptValue('marshal_overtime_boost_base')|2]#!"
  task_manage_guards_erudition_bonus_knights: "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +%[SCOPE.ScriptValue('marshal_manage_guards_max_erudition_bonus')|P]#!"
  task_manage_guards_family_business_bonus_knights: "\n$TAB$$tradition_family_entrepreneurship_name$: #P +%[SCOPE.ScriptValue('marshal_manage_guards_max_family_business_bonus')|P]#!"
@@ -176,17 +176,17 @@ task_martial_good_acclaimed_knight_notification_tooltip:0 "Bu olay yetenekli bir
  task_manage_guards_erudition_bonus_scheme: "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P -%[SCOPE.ScriptValue('marshal_manage_guards_max_erudition_bonus')|P]#!"
  task_manage_guards_family_business_bonus_scheme: "\n$TAB$$tradition_family_entrepreneurship_name$: #P -%[SCOPE.ScriptValue('marshal_manage_guards_max_family_business_bonus')|P]#!"
  task_manage_guards_consulted_house_bonus_scheme: "\n$TAB$$unity_consulted_house_member_desc$: #P -%[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]#!"
-### TODO AGOT-CHANGED: task_manage_guards_knight_modifier [AGOT: Manage Household Guards: Captain Effectiveness | TR: Kraliyet Muhafızlarını Yönetme: Şövalye Verimliliği]
- task_manage_guards_knight_modifier:0 "Manage Household Guards: Captain Effectiveness"
-### TODO AGOT-CHANGED: task_manage_guards_scheme_modifier [AGOT: Manage Household Guards: Enemy Hostile Scheme Success Chance | TR: Kraliyet Muhafızlarını Yönetme: Düşman Düşmancıl Plan Başarı İhtimali]
- task_manage_guards_scheme_modifier:0 "Manage Household Guards: Enemy Hostile Scheme Success Chance"
-### TODO AGOT-CHANGED: task_manage_guards_knight_improved [AGOT: \n$EFFECT_LIST_BULLET$#P Captain Improved#! | TR: \n$EFFECT_LIST_BULLET$#P Şövalye Geliştirildi#!]
- task_manage_guards_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P Captain Improved#!"
+
+ task_manage_guards_knight_modifier:0 "Kraliyet Muhafızlarını Yönetme: Şövalye Verimliliği"
+
+ task_manage_guards_scheme_modifier:0 "Kraliyet Muhafızlarını Yönetme: Düşman Düşmancıl Plan Başarı İhtimali"
+
+ task_manage_guards_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P Şövalye Geliştirildi#!"
  task_manage_guards_scheme_disrupted:0 "\n$EFFECT_LIST_BULLET$#P Düşmancıl Plan Engellendi#!"
-### TODO AGOT-CHANGED: task_manage_guards_knight_wounded [AGOT: \n$EFFECT_LIST_BULLET$#N Captain Wounded#! | TR: \n$EFFECT_LIST_BULLET$#N Şövalye Yaralandı#!]
- task_manage_guards_knight_wounded:0 "\n$EFFECT_LIST_BULLET$#N Captain Wounded#!"
-### TODO AGOT-CHANGED: task_manage_guards_disorganized [AGOT: \n$EFFECT_LIST_BULLET$#N Disorganized Household Guards#! | TR: \n$EFFECT_LIST_BULLET$#N Dağınık Kraliyet Muhafızları#!]
- task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Disorganized Household Guards#!"
+
+ task_manage_guards_knight_wounded:0 "\n$EFFECT_LIST_BULLET$#N Şövalye Yaralandı#!"
+
+ task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Dağınık Kraliyet Muhafızları#!"
  task_manage_guards_notification_tooltip:0 "$task_manage_guards$ Görevinden"
  SCALED_COUNCILLOR_MARTIAL_VALUE:2 "[councillor.GetCouncilTitle] [councillor.GetShortUIName] adlı kişinin [martial_skill|E]"
  INCREASE_CONTROL_BASE:0 "Temel"

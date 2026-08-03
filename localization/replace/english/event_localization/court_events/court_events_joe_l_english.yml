@@ -1,19 +1,19 @@
 ﻿l_english:
  court.8001.t:0 "Ayaklar Altında Ezilmiş"
-### TODO AGOT-ONLY: court.8001.desc.intro [AGOT: ]
- court.8001.desc.intro:1 ""How many times have I told you to stay #EMP away#! from the #EMP newly planted [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]?!#!"\n\n[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] appears, covered in petals and dirt, pursued by my gardener, [gardener.GetTitledFirstName].\n\n[child_1.GetFirstNameNoTooltip] cries,"
-### TODO AGOT-ONLY: court.8001.desc.diplomacy [AGOT: ]
- court.8001.desc.diplomacy:0 ""They were chasing me! I've never lost a game of #EMP it#!!"
-### TODO AGOT-ONLY: court.8001.desc.martial [AGOT: ]
- court.8001.desc.martial:0 ""I was only hiding from the soldiers... we had to ambush them to win the battle!""
-### TODO AGOT-ONLY: court.8001.desc.stewardship [AGOT: ]
- court.8001.desc.stewardship:0 ""It's not my fault! [gardener.GetSheHe|U] put them over our little castle!""
-### TODO AGOT-ONLY: court.8001.desc.intrigue [AGOT: ]
- court.8001.desc.intrigue:0 ""We were playing hide and seek, no one would have found me, if it wasn't for #EMP [gardener.GetHerHim]#!!""
-### TODO AGOT-ONLY: court.8001.desc.learning [AGOT: ]
- court.8001.desc.learning:0 ""I was only looking! They are a different color this time!""
-### TODO AGOT-ONLY: court.8001.desc.fallback [AGOT: ]
- court.8001.desc.fallback:0 ""I didn't do anything! I was only playing!""
+
+ court.8001.desc.intro:0 ""Kaç kez söyledim sana #EMP yeni dikilen [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]#!'den uzak dur diye?!"\n\n[child_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ortaya çıkar, yapraklara ve toprağa bulanmış, peşinde bahçıvanım [gardener.GetTitledFirstName].\n\n[child_1.GetFirstNameNoTooltip] ağlar,""
+
+ court.8001.desc.diplomacy:0 ""Peşimdeydiler! #EMP o#! oyununu hiç kaybetmedim!""
+
+ court.8001.desc.martial:0 ""Sadece askerlerden saklanıyordum... savaşı kazanmak için pusu kurmamız gerekiyordu!""
+
+ court.8001.desc.stewardship:0 ""Benim suçum değil! [gardener.GetSheHe|U] onları minik kalemizin üstüne dikti!""
+
+ court.8001.desc.intrigue:0 ""Saklambaç oynuyorduk, #EMP [gardener.GetHerHim]#! olmasa kimse beni bulamazdı!""
+
+ court.8001.desc.learning:0 ""Sadece bakıyordum! Bu sefer farklı renkteler!""
+
+ court.8001.desc.fallback:0 ""Hiçbir şey yapmadım! Sadece oynuyordum!""
  court.8001.desc.closing:0 "\n\n[gardener.GetFirstNameNoTooltip] somurtkan bir şekilde, "Çocuk #EMP tüm#! çalışmamı yerle yeksan etmiş [ROOT.Char.Custom('FormOfAddressForLiege')|l], verdiği hasarı gidermem #EMP haftaları#! bulacak...""
  court.8001.a.diplomacy:0 "Bazen yakalanmak senin yararına olur, [Select_CString(child_1.IsFemale, 'kızım', 'oğlum' )]."
  court.8001.a.martial:0 "Ah, muharebelerini daha iyi seçmelisin [Select_CString(child_1.IsFemale, 'kızım', 'oğlum' )]!"
@@ -31,10 +31,10 @@
  court.8001.a.failure: "Faydalı olamıyorsunuz"
  court.8010.t:0 "Kötü Silahlanmış"
  court.8010.desc.intro:0 "Konseyde yaşanan nadir sessiz anlardan birinin tadını çıkarıyordum. Ta ki [underequipped.GetTitledFirstName] beni kenara çekene kadar.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]..." diyerek söze başlıyor,"
-### TODO AGOT-ONLY: court.8010.desc.champion [AGOT: ]
- court.8010.desc.champion:0 ""As your champion, I am proud to represent you,"
-### TODO AGOT-ONLY: court.8010.desc.bodyguard [AGOT: ]
- court.8010.desc.bodyguard:0 ""As your bodyguard, I am honored to protect you,"
+
+ court.8010.desc.champion:0 ""Şampiyonun olarak seni temsil etmekten gurur duyuyorum,""
+
+ court.8010.desc.bodyguard:0 ""Korumalığın olarak seni korumaktan onur duyuyorum,""
  court.8010.desc.knight: "[ROOT.Char.Custom('KnightCultureNoTooltipLowercase')|U] olarak sizin savaşlarınızı savaşmak benim kutsal görevimdir,"
  court.8010.desc.bold:0 "fakat çok saçma bir şey var!" \n\nKılıcını kınından biraz çıkarıp dikkatimi sayısız çentiğe ve çukura çekiyor. "İşimi bu biçimsiz sopayla yapmamı bekleyemezsiniz!""
  court.8010.desc.meek:0 "ama..." \n\nŞüpheli bir bakış attıktan sonra kınıyla hafif ama bıkkınlığını belli eden bir hareket yapıyor. "İşimi bu eski şeyle nasıl yapabilirim?""
@@ -85,8 +85,8 @@
  court.8040.b:0 "Bu oyun son bulsun [courtier_2.GetFirstNameNoTooltip]. [worst_title.GetNameNoTier] senindir!"
  court.8040.c:0 "Sen! Adın [courtier_3.GetTitledFirstNameNoTooltip] değil mi? Bu unvan senindir!"
  court.8040.d:0 "Neyin peşinde olduğunuzu biliyorum! Rüşdünüzü ispatlama vaktiniz geldi!"
-### TODO AGOT-ONLY: court.8040.d.flavor_tt [AGOT: ]
- court.8040.d.flavor_tt:0 ""To the strongest""
+
+ court.8040.d.flavor_tt:0 ""En güçlüye""
  court.8040.d.courtier_1_tt:0 "[courtier_1.GetFirstNameNoTooltip] bunu daha çok istiyor"
  court.8040.d.courtier_2_tt:0 "[courtier_2.GetFirstNameNoTooltip] sona kaldı"
  court.8040.d.courtier_3_tt:0 "[courtier_3.GetFirstNameNoTooltip] galip geldi"
@@ -112,12 +112,12 @@
  servant_informants_modifier_desc:0 "Bu karakterin sarayındaki dedikodular casusluk yapan bir hizmetkâr ağı tarafından rapor ediliyor."
  court.8060.t:0 "Alaycı Dalkavuklar"
  court.8060.desc.intro:0 "Koridorun eşiğinde bir anlığına durup gün ışığının tadını çıkarıyordum ki hemen köşeden gelen alaycı kahkahalar duydum.\n\n"#EMP Biliyorum!#!", [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('snooty_1'))] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('snooty_1'))] [snooty_1.GetFirstName] kıkırdarken duydum,"
-### TODO AGOT-ONLY: court.8060.desc.fashion [AGOT: ]
- court.8060.desc.fashion:0 ""Walking around I swear it sometimes feels like I'm in the [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] grand[snooty_1.GetMotherFather]'s court; the trends are so tired and trad!" \n\n"
-### TODO AGOT-ONLY: court.8060.desc.servants_1 [AGOT: ]
- court.8060.desc.servants_1:0 ""You wait #EMP all day#! for a servant and then two come along at once — without what you asked for!" \n\n"
-### TODO AGOT-ONLY: court.8060.desc.food_1 [AGOT: ]
- court.8060.desc.food_1:0 ""Did you #EMP see#! the state of last night's banquet? I would rather just chew on my trencher than eat that pigswill!" \n\n"
+
+ court.8060.desc.fashion:0 ""Ortalıkta dolaşırken yemin ederim bazen [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] büyük[snooty_1.GetMotherFather]'inin sarayındaymışım gibi hissediyorum; moda o kadar bayat ve köhne!" \n\n"
+
+ court.8060.desc.servants_1:0 ""Bir hizmetkâr için #EMP bütün gün#! beklersin, sonra ikisi birden gelir — istediğin şey olmadan!" \n\n"
+
+ court.8060.desc.food_1:0 ""Dün geceki ziyafetin halini #EMP gördün#! mü? O domuz yemini yiyeceğime tahta tabağımı çiğnemeyi tercih ederim!" \n\n"
  court.8060.desc.body:0 "Başka bir ses araya girdi: "Hele şükür, bunu fark eden bir ben varım sanıyordum!"
  court.8060.desc.lodgings:1 "Odalarımızın #EMP boyutundan#! bahsetmeye gerek bile yok! Bir hizmetkârın döşeğine anca yeter!""
  court.8060.desc.food_2:0 "Buradaki yemeklerin berbat olduğundan bahsetmeye gerek bile yok, porsiyonlar da #EMP ufacık#!!"
@@ -216,10 +216,10 @@
  court.8110.e:0 "Acelesi yok."
  court.8120.t:0 "Yeni Bakış Açıları"
  court.8120.desc.intro:0 "Sessizce oturup [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('accuser') )] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('accuser'))] [accuser.GetTitledFirstName] konuşurken dinliyordum, [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('refuter'))] [refuter.GetTitledFirstName] ile şiddetli bir teolojik tartışmanın ortasındaydı. \n\n[refuter.Custom('quirk_pos_adverb')] üsteledi,"
-### TODO AGOT-ONLY: court.8120.desc.same_religion [AGOT: ]
- court.8120.desc.same_religion:0 ""...but [refuter.GetFaith.GetNameNoTooltip] #EMP is#! closer to the true word of [refuter.GetFaith.HighGodName]; it is the purest distillation of the [refuter.GetFaith.GetReligion.GetAdjectiveNoTooltip] revelations."\n\n[accuser.GetTitledFirstNameNoTooltip] scoffs, [accuser.Custom('quirk_neg_pp')]. "Read the [accuser.GetFaith.ReligiousText] and you will see that"
-### TODO AGOT-ONLY: court.8120.desc.other_religion [AGOT: ]
- court.8120.desc.other_religion:1 ""...but the backwards [accuser.GetFaith.GetReligion.GetAdjectiveNoTooltip] teachings cannot earnestly be compared to those of our [refuter.GetFaith.GetReligion.GetNameNoTooltip]; [accuser.GetFaith.HighGodNamePossessive] truth is a mere distortion of [refuter.GetFaith.HighGodNamePossessive]."\n\n[accuser.GetTitledFirstNameNoTooltip] scoffs, [accuser.Custom('quirk_neg_pp')]. "Think about it deeply and you will see that"
+
+ court.8120.desc.same_religion:0 ""...ama [refuter.GetFaith.GetNameNoTooltip] #EMP gerçekten#! [refuter.GetFaith.HighGodName]'in hakikatine daha yakın; [refuter.GetFaith.GetReligion.GetAdjectiveNoTooltip] vahiylerinin en saf damıtılmış hali."\n\n[accuser.GetTitledFirstNameNoTooltip] alaycı bir sesle, [accuser.Custom('quirk_neg_pp')] "[accuser.GetFaith.ReligiousText]'i oku ve göreceksin ki""
+
+ court.8120.desc.other_religion:0 ""...ama geri kafalı [accuser.GetFaith.GetReligion.GetAdjectiveNoTooltip] öğretileri bizim [refuter.GetFaith.GetReligion.GetNameNoTooltip] öğretilerimizle ciddiye alınacak şekilde kıyaslanamaz; [accuser.GetFaith.HighGodNamePossessive] hakikat, [refuter.GetFaith.HighGodNamePossessive]'in yalnızca çarpıtılmış bir halidir."\n\n[accuser.GetTitledFirstNameNoTooltip] alaycı bir sesle, [accuser.Custom('quirk_neg_pp')] "Derinlemesine düşün ve göreceksin ki""
  court.8120.desc.marriage:0 "evliliğin kutsal bağı yalnızca biriyle paylaşılmalı, [accuser.GetFaith.PositiveAfterLife] yoluna ancak böyle yaklaşabiliriz.""
  court.8120.desc.divorce:0 "boşanma, kendini bir başkasına şartsız biçimde adamak istemeyenler ve [accuser.GetFaith.PositiveAfterLife] yolunu takip edenler için vardır.\n\n"
  court.8120.desc.adultery:0 "[accuser.GetFaith.CreatorName] evlilik dışı ilişkiye girmemizi ve tutkularımızın peşinden gitmemizi istemedi, işte #EMP bu#! yüzden böyle bağlara sahibiz!"
@@ -232,19 +232,19 @@
  court.8120.c:0 "Gelin dostlar, yaratıcıyı onurlandırmanın birçok yolu var."
  court.8120.d:0 "Bakın, bunlar [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] gerçekler!"
  court.8120.d.tt:0 "Her Dindar [THIS.Char.GetFaith.GetAdjectiveNoTooltip] [vassal|E], [courtier|E] ve [guest|E]"
-### TODO AGOT-CHANGED: court.8120.e [AGOT: I don't want to hear this kind of talk again, [insulted_character.GetFirstNameNoTooltip]. | TR: Bir daha böyle konuştuğunu duymak istemiyorum, [accuser.GetFirstNameNoTooltip].]
- court.8120.e:0 "I don't want to hear this kind of talk again, [insulted_character.GetFirstNameNoTooltip]."
+
+ court.8120.e:0 "Bir daha böyle konuştuğunu duymak istemiyorum, [accuser.GetFirstNameNoTooltip]."
  court.8120.f:0 "İlahiyattan konuşmak bize düşmez."
  my_holy_book:0 "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] sahip olduğu [ROOT.Char.GetFaith.ReligiousText|U]"
  my_holy_book_description:0 "[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] unvanına sahip olan [ROOT.Char.GetTitledFirstNameNoTooltip] tarafından ciltlenmiş [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] öğretilerinden oluşturulmuş kişisel bir koleksiyon, altından bir [ROOT.Char.GetFaith.ReligiousSymbol] ile kaplanmış."
  court.8130.t:0 "Danışıklı Dövüş"
  court.8130.desc.intro:0 "Tahtımda oturup onun bunun üzerine kafa yorarken bir öfke patlaması yaşandı. \n\nSarayımdaki $champion_court_position$ [champion.GetFirstName] kükredi: "Neyi kastettiğini biliyorum, seni [vassal.Custom2('InsultNoun', SCOPE.sC('champion'))]! Ne #EMP cüretle#! [ROOT.Char.GetTitleAsNameNoTooltip]?!", dedi [vassal.GetTitledFirstName] için. [mediator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] onları ayırmak için çabucak araya girse de artık çok geçti.\n\n"
-### TODO AGOT-ONLY: court.8130.desc.bold [AGOT: ]
- court.8130.desc.bold:0 ""Such stirring is beneath this court, I will not be cowed by your games." [vassal.GetTitledFirstNameNoTooltip] retorts [vassal.Custom('quirk_pos_adverb')]. $court.8130.desc.body$ The [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] and replies, "Very well, I will gladly put this [champion.Custom2('InsultAdjective', SCOPE.sC('vassal'))] brute in [champion.GetHerHis] place.""
-### TODO AGOT-ONLY: court.8130.desc.craven [AGOT: ]
- court.8130.desc.craven:0 ""B-b-but I didn't say a-anything of the sort!" [vassal.GetTitledFirstNameNoTooltip] blurts incredulously. $court.8130.desc.body$ The [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] and stammers, "W-what?! Come on, surely that w-won't be necessary?!""
-### TODO AGOT-ONLY: court.8130.desc.body [AGOT: ]
- court.8130.desc.body:0 ""I heard you with my own ears!" [champion.GetFirstNameNoTooltip] lowers back, "I demand satisfaction for this slight against my [ROOT.Char.GetLadyLord]!""
+
+ court.8130.desc.bold:0 ""Böyle kışkırtmalar bu sarayın seviyesinin altındadır, oyunlarınızla gözümü korkutamazsınız." diye karşılık verir [vassal.GetTitledFirstNameNoTooltip], [vassal.Custom('quirk_pos_adverb')] bir tavırla. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] ve cevap verir, "Pekâlâ, bu [champion.Custom2('InsultAdjective', SCOPE.sC('vassal'))] kaba gücü memnuniyetle yerine oturturum.""
+
+ court.8130.desc.craven:0 ""A-a-ama ben öyle b-bir şey söylemedim!" diye inanamayarak patlar [vassal.GetTitledFirstNameNoTooltip]. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] ve kekeleyerek, "N-ne?! Hadi ama, eminim b-buna gerek yoktur?!""
+
+ court.8130.desc.body:0 ""Kendi kulaklarımla duydum!" [champion.GetFirstNameNoTooltip] geri çekilir, "[ROOT.Char.GetLadyLord]'ime yapılan bu hakaret için tatmin istiyorum!""
  court.8130.desc.outro:0 "\n\nHerkes bu hususta ne diyeceğimi öğrenmek için bana baktı, bu esnada [mediator.GetFirstNameNoTooltip] ikisini ayrı tutuyordu."
  court.8130.a:0 "[champion.GetFirstNameNoTooltip] onurumu koruyacak."
  court.8130.a.tt_champion:0 "[champion.GetTitledFirstNameNoTooltip] düelloyu kazandı"

@@ -1,17 +1,17 @@
 ﻿l_english:
  fp1_yearly.2000.t:0 "Seyahat Tutkusu"
-### TODO AGOT-ONLY: fp1_yearly.2000.desc [AGOT: ]
- fp1_yearly.2000.desc:0 ""I am leaving, [parent.GetMotherFather]. Me and [lover_of_child.GetFirstNameNoTooltip] are #EMP in love#!!"\n\nI roll my [ROOT.Char.Custom('EyeEyes')] at [child_to_leave.GetFirstNameNoTooltip]. What is my fool of a [child_to_leave.Custom('GetDaughterSon')] up to #EMP now?#!\n\n"[lover_of_child.GetFirstNameNoTooltip] and I will seek adventure! The world is vast, and there is glory to be found! I wish to shout #EMP '[child_to_leave.GetHouse.GetMotto]'#! at the world, until it remembers my name!"\n\nIt is evident that my #EMP beloved#! [child_to_leave.Custom('GetDaughterSon')] is being serious. I am going to have to do something."
-### TODO AGOT-ONLY: fp1_yearly.2000.a [AGOT: ]
- fp1_yearly.2000.a:0 ""Come here, dear [child_to_leave.Custom('GetDaughterSon')], I believe it is time for some #EMP tough love#!.""
-### TODO AGOT-ONLY: fp1_yearly.2000.b [AGOT: ]
- fp1_yearly.2000.b:0 ""Listen here, there is #EMP glory#! to be had at home.""
-### TODO AGOT-ONLY: fp1_yearly.2000.c [AGOT: ]
- fp1_yearly.2000.c:0 ""Perhaps #EMP this#! would make you forget about leaving?""
-### TODO AGOT-ONLY: fp1_yearly.2000.d [AGOT: ]
- fp1_yearly.2000.d:0 ""You'll be back, soon you'll see...""
-### TODO AGOT-ONLY: fp1_yearly.2000.d.tt [AGOT: #weak]
- fp1_yearly.2000.d.tt:0 "#weak "...you'll remember you belong to me."#!"
+
+ fp1_yearly.2000.desc:0 ""Gidiyorum, [parent.GetMotherFather]. [lover_of_child.GetFirstNameNoTooltip] ile #EMP aşık#! olduk!"\n\n[child_to_leave.GetFirstNameNoTooltip]'e göz deviriyorum. Bu aptal [child_to_leave.Custom('GetDaughterSon')] şimdi #EMP neyin#! peşinde?\n\n"[lover_of_child.GetFirstNameNoTooltip] ile macera arayacağız! Dünya kocaman ve kazanılacak şan var! İsmini hatırlayana dek dünyaya #EMP '[child_to_leave.GetHouse.GetMotto]'#! diye bağırmak istiyorum!"\n\n#EMP Sevgili#! [child_to_leave.Custom('GetDaughterSon')]'imin ciddi olduğu apaçık. Bir şeyler yapmam gerekecek.""
+
+ fp1_yearly.2000.a:0 ""Buraya gel, sevgili [child_to_leave.Custom('GetDaughterSon')], sanırım biraz #EMP sevgi dolu sertlik#! zamanı.""
+
+ fp1_yearly.2000.b:0 ""Dinle bak, evde de kazanılacak #EMP şan#! var.""
+
+ fp1_yearly.2000.c:0 ""Belki #EMP bu#! ayrılmayı unutturur sana?""
+
+ fp1_yearly.2000.d:0 ""Geri döneceksin, yakında görürsün...""
+
+ fp1_yearly.2000.d.tt:0 "#weak "...bana ait olduğunu hatırlayacaksın."#!"
  fp1_yearly.2000.a.tt:0 "[child_to_leave.GetFirstName] ile kalması için #V Düello#! yapacaksınız!\n#weak Bu düello ölümüne DEĞİL.#!\nDüelloyu kazanırsanız [prestige_i] [prestige|E] elde edeceksiniz.\n\n[prowess|E] beceriniz: [prowess_i]#V [parent.GetProwess]#!\n[child_to_leave.GetFirstNamePossessive] [prowess|E] becerisi: [prowess_i]#V [child_to_leave.GetProwess]#!"
  fp1_yearly.2000.c.tt:0 "[child_to_leave.GetFirstName], [Concept('court', 'Sarayınızda')|E] kalacak"
  fp1_yearly.2000.b.tt:0 "[Concept('court', 'Sarayınızda')|E] kalacak"
@@ -20,12 +20,12 @@
  mellowed_spirit:0 "Dizginlenmiş Ruh"
  mellowed_spirit_desc:0 "Bu karakter, ebeveyni tarafından maceranın kendileri için uygun olmadığına ve olmaları gerektikleri yerin evleri olduğuna ikna edildi."
  fp1_yearly.2003.t:0 "Seyahat Tutkusu: İyiliği İçin"
-### TODO AGOT-ONLY: fp1_yearly.2003.desc [AGOT: ]
- fp1_yearly.2003.desc:0 ""I yield! I yield, [parent.GetMotherFather]! No more!" My [child_to_leave.Custom('GetDaughterSon')] exclaims.\n\n"I will stay here at court. [lover_of_child.GetFirstNameNoTooltip] is not more important to me than my life!" [child_to_leave.GetFirstNameNoTooltip] says, with [lover_of_child.GetFirstNameNoTooltip] looking disapproving.\n\nFinally, it seems as if [child_to_leave.GetFirstNameNoTooltip] is seeing reason!"
-### TODO AGOT-ONLY: fp1_yearly.2003.a [AGOT: ]
- fp1_yearly.2003.a:0 ""[parent.GetMotherFather|U] knows best, dear [child_to_leave.Custom('GirlBoy')].""
-### TODO AGOT-ONLY: fp1_yearly.2003.b [AGOT: ]
- fp1_yearly.2003.b:0 ""And break if off with that '[lover_of_child.GetFirstNameNoTooltip]', too!""
+
+ fp1_yearly.2003.desc:0 ""Pes ediyorum! Pes ediyorum, [parent.GetMotherFather]! Yeter!" diye haykırır [child_to_leave.Custom('GetDaughterSon')]'im.\n\n"Sarayda kalacağım. [lover_of_child.GetFirstNameNoTooltip] benim için hayatımdan daha önemli değil!" der [child_to_leave.GetFirstNameNoTooltip], [lover_of_child.GetFirstNameNoTooltip] onaylamayan bir ifadeyle bakarken.\n\nNihayet, [child_to_leave.GetFirstNameNoTooltip] akıl yoluna girmiş görünüyor!""
+
+ fp1_yearly.2003.a:0 ""[parent.GetMotherFather|U] en iyisini bilir, sevgili [child_to_leave.Custom('GirlBoy')].""
+
+ fp1_yearly.2003.b:0 ""Ve o '[lover_of_child.GetFirstNameNoTooltip]' ile de işi bitir!""
  fp1_yearly.2000.trigger_failure:0 "[child_to_leave.GetFirstNameNoTooltip] ile olan düellomuz iptal oldu"
  fp1_yearly.2004.t:0 "Seyahat Tutkusu: Bayılana Kadar"
  fp1_yearly.2004.desc:0 "[child_to_leave.GetFirstNameNoTooltip] elinde silahıyla bana doğru yaklaşırken ben yere serilmiş hâldeyim.\n\n"Gideceğim dediysem #EMP gideceğim#!. Maceralarım esnasında başıma gelebilecek talihsizliklere karşı hazinenden bir miktar altın alacağım. Anlayışla karşılayacağına eminim."\n\n[Select_CString(child_to_leave.IsFemale, 'Kızım', 'Oğlum')] bir kolunda [lover_of_child.GetFirstNameNoTooltip], diğer kolunda #EMP altınlarımla#! dolu bir çuval ile ayrılırken izlemekten başka bir yapamıyorum."
@@ -33,16 +33,16 @@
  fp1_yearly.2000.b.success:0 "[child_to_leave.GetFirstNameNoTooltip], umutlarından ve hayallerinden vazgeçiyor"
  fp1_yearly.2000.b.failure:0 "[child_to_leave.GetFirstNameNoTooltip], argümanlarınız karşısında ikna olmadı"
  fp1_yearly.2100.t:0 "Aşk Üçgeni"
-### TODO AGOT-ONLY: fp1_yearly.2100.desc [AGOT: ]
- fp1_yearly.2100.desc:0 ""You [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]! You [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNoun', SCOPE.sC('lover_1'))]! [lover_2.Custom2('InsultSentence', SCOPE.sC('lover_1'))|U], you [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]!" [lover_1.GetFirstName] screams at the top of [lover_1.GetHerHis] lungs.\n\nIt seems your lovers are at each other's throats.\n\n"Your [lover_1.Custom2('PointOfRidicule', SCOPE.sC('lover_2'))] makes [lover_quarrel_target.GetHerHim] retch in disgust, you [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]. [lover_quarrel_target.GetFirstNameNoTooltip] couldn't love a [lover_1.Custom2('InsultAdjective', SCOPE.sC('lover_2'))] [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))] like you! #EMP [lover_quarrel_target.GetSheHe|U] will be only mine!#!" [lover_2.GetFirstName] shouts, pulling [lover_2.Custom('SignatureWeaponArticle')] [lover_2.Custom('signature_weapon')] from [lover_2.GetHerHis] belt...\n\nThis is about to get bloody."
+
+ fp1_yearly.2100.desc:0 ""Seni [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]! Seni [lover_2.Custom2('InsultAdjective', SCOPE.sC('lover_1'))] [lover_2.Custom2('InsultNoun', SCOPE.sC('lover_1'))]! [lover_2.Custom2('InsultSentence', SCOPE.sC('lover_1'))|U], seni [lover_2.Custom2('InsultNounSexual', SCOPE.sC('lover_1'))]!" [lover_1.GetFirstName] avazı çıktığı kadar bağırıyor.\n\nGörünüşe göre sevgilileriniz birbirinin boğazına sarılmış.\n\n"Senin [lover_1.Custom2('PointOfRidicule', SCOPE.sC('lover_2'))] [lover_quarrel_target.GetHerHim]i tiksintiyle kusturuyor, seni [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]. [lover_quarrel_target.GetFirstNameNoTooltip] senin gibi bir [lover_1.Custom2('InsultAdjective', SCOPE.sC('lover_2'))] [lover_1.Custom2('InsultNounSexual', SCOPE.sC('lover_2'))]i sevemez! #EMP [lover_quarrel_target.GetSheHe|U] yalnızca benim olacak!#!" diye bağırır [lover_2.GetFirstName], [lover_2.Custom('SignatureWeaponArticle')] [lover_2.Custom('signature_weapon')]i [lover_2.GetHerHis] kemerinden çekerken...\n\nBu iş kanlı bitmek üzere.""
  fp1_yearly.2100.a:0 "Ooo #EMP çok heyecanlı!#! Evet! Benim için dövüşün!"
  fp1_yearly.2100.b:0 "Yahu siz #EMP deli misiniz!#! Durun, ne yapıyorsunuz!"
  fp1_yearly.2100.c:0 "Ben sizi durdurmasını bilirim!"
  fp1_yearly.2100.a.tt:0 "[lover_1.GetFirstName] ve [lover_2.GetFirstName], ölümüne #V Düello#! yapacaklar."
  fp1_yearly.2100.b.tt:0 "[lover_1.GetFirstName] ve [lover_2.GetFirstName] sakinleştiler."
  fp1_yearly.2101.t:0 "Aşk Üçgeni: Kırık Kalp"
-### TODO AGOT-ONLY: fp1_yearly.2101.desc [AGOT: ]
- fp1_yearly.2101.desc:0 ""Now you're all mine, my [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.GetFirstNameNoTooltip]! That [lover_2.Custom2('InsultNounSexual', SCOPE.sC('winning_lover'))] [losing_lover.GetFirstName] will never come between us again!" [winning_lover.GetFirstName] whispers in a sweet voice as [winning_lover.GetSheHe] puts [winning_lover.GetHerHis] [winning_lover.Custom('signature_weapon')] down onto the ground.\n\n"Come, my [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.Custom('RomanticComplimentNoun')]. This farce has been tiring, why don't we retreat to your [ROOT.Char.Custom('GetChamber')]?" [winning_lover.GetFirstNameNoTooltip] suggests, seductively."
+
+ fp1_yearly.2101.desc:0 ""Artık tamamen benimsin, [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.GetFirstNameNoTooltip]'im! O [lover_2.Custom2('InsultNounSexual', SCOPE.sC('winning_lover'))] [losing_lover.GetFirstName] bir daha asla aramıza giremeyecek!" diye fısıldar [winning_lover.GetFirstName] tatlı bir sesle, [winning_lover.GetHerHis] [winning_lover.Custom('signature_weapon')]i yere bırakırken.\n\n"Gel, [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.Custom('RomanticComplimentNoun')]'üm. Bu komedi yorucuydu, neden [ROOT.Char.Custom('GetChamber')]'ine çekilmiyoruz?" diye önerir [winning_lover.GetFirstNameNoTooltip], baştan çıkarıcı bir tavırla.""
  fp1_yearly.2101.a:0 "Ah [winning_lover.Custom('RomanticComplimentNoun')] sevgilim! Bir [Select_CString(lover_quarrel_target.IsFemale, 'kadına', 'erkeğe')] nasıl kur yapılır biliyorsun!"
  fp1_yearly.2101.b:0 "[losing_lover.GetFirstNameNoTooltip], olamaz! #EMP Bunun bedelini ödeyeceksin [winning_lover.GetFirstNameNoTooltip]!#!"
  fp1_yearly.2101.c:0 "Samanlıkta mı? Neden olmasın."
@@ -53,8 +53,8 @@
  fp1_yearly.2100.c.failure:0 "Geç kaldınız"
  fp1_yearly.2100.c.tt:0 "[lover_1.GetFirstName] ve [lover_2.GetFirstName] arasındaki kavgayı durduruyorsunuz."
  fp1_yearly.2200.t:0 "Canı Sıkılmış Cinnetkâr"
-### TODO AGOT-ONLY: fp1_yearly.2200.desc [AGOT: ]
- fp1_yearly.2200.desc:0 ""Behold! I am [new_berserker.GetFirstNameNoTooltip] the [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))|U] — bring me tankards of ale, [new_berserker.Custom('AttractionWomanManMultiple')], and [new_berserker.Custom('FavoriteTreatDemand')]! Lest you dare tempt my wrath!?" the [new_berserker.GetWomanMan] screams at the gathered crowd.\n\nEvidently this massive warrior is bored, and looking to start trouble. Perhaps [new_berserker.GetHerHis] rage would be put to better use in my ranks?\n\n"Is there no-one that dares to face me? Cowards! What I wouldn't give for a good brawl...""
+
+ fp1_yearly.2200.desc:0 ""İşte! Ben [new_berserker.GetFirstNameNoTooltip] [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))|U] — bana bira kadehleri, [new_berserker.Custom('AttractionWomanManMultiple')] ve [new_berserker.Custom('FavoriteTreatDemand')] getirin! Yoksa öfkemi çekmeye cüret mi ediyorsunuz?" diye bağırır [new_berserker.GetWomanMan] toplanan kalabalığa.\n\nBelli ki bu iri savaşçı sıkılmış ve bela aramaya bakıyor. Belki de [new_berserker.GetHerHis] öfkesi benim saflarımda daha iyi değerlendirilir?\n\n"Karşıma çıkmaya cesaret eden yok mu? Korkaklar! İyi bir kavgaya neler vermezdim...""
  fp1_yearly.2200.a:0 "Kimse bana korkak diyemez seni [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))] [new_berserker.Custom2('InsultNoun', ROOT.Char)]!"
  fp1_yearly.2200.b:0 "Eğer saflarıma katılırsan sana bolca [new_berserker.Custom('FavoriteTreatDemand')] vereceğim."
  fp1_yearly.2200.c:0 "Yakında bir yağmaya gideceğiz, neden bir [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] olarak bana katılmıyorsun?"
@@ -67,33 +67,33 @@
  fp1_yearly.2200.d.success:0 "[new_berserker.GetFirstNameNoTooltip] öldü"
  fp1_yearly.2200.trigger_failure:0 "[new_berserker.GetFirstNameNoTooltip] ile olan düellomuz iptal oldu"
  fp1_yearly.2203.t:0 "Canı Sıkılmış Cinnetkâr: Doyurulmuş Öfke"
-### TODO AGOT-ONLY: fp1_yearly.2203.desc [AGOT: ]
- fp1_yearly.2203.desc:0 ""You're stronger than you look!" [new_berserker.GetFirstNameNoTooltip] sputters.\n\nThe [new_berserker.GetWomanMan] lies bloody on the ground, [new_berserker.GetHerHis] rage sated... for now.\n\n"I'd be happy to fight by your side, together we'd be #EMP unstoppable!#!" he shouts."
-### TODO AGOT-ONLY: fp1_yearly.2203.a [AGOT: ]
- fp1_yearly.2203.a:0 ""I am sorry, but your path ends here.""
-### TODO AGOT-ONLY: fp1_yearly.2203.b [AGOT: ]
- fp1_yearly.2203.b:0 ""I'd be honored to fight alongside you!""
-### TODO AGOT-ONLY: fp1_yearly.2203.c [AGOT: ]
- fp1_yearly.2203.c:0 ""You've caused enough damage. Leave, now.""
+
+ fp1_yearly.2203.desc:0 ""Göründüğünden daha güçlüsün!" diye kekeler [new_berserker.GetFirstNameNoTooltip].\n\n[new_berserker.GetWomanMan] yerde kanlar içinde yatıyor, [new_berserker.GetHerHis] öfkesi... şimdilik, dindi.\n\n"Senin yanında savaşmaktan memnuniyet duyarım, birlikte #EMP durdurulamaz#! oluruz!" diye bağırır.""
+
+ fp1_yearly.2203.a:0 ""Üzgünüm, ama yolun burada bitiyor.""
+
+ fp1_yearly.2203.b:0 ""Seninle yan yana savaşmak benim için onur olur!""
+
+ fp1_yearly.2203.c:0 ""Yeterince zarar verdin. Defol, hemen.""
  fp1_yearly.2204.t:0 "Canı Sıkılmış Cinnetkâr: Nazik Dev"
-### TODO AGOT-ONLY: fp1_yearly.2204.desc [AGOT: ]
- fp1_yearly.2204.desc:0 ""I am sorry." [new_berserker.GetFirstNameNoTooltip] says, in an emotional tone. "I get angry when I'm hungry."\n\nThe massive [new_berserker.GetWomanMan] offers me [new_berserker.GetHerHis] hand to help me up. [new_berserker.GetHerHis|U] rage seems to be sated... for now.\n\n"I enjoyed our fight. I'd gladly join you, friend." he says."
-### TODO AGOT-ONLY: fp1_yearly.2204.a [AGOT: ]
- fp1_yearly.2204.a:0 ""And I'd gladly have you, friend!""
-### TODO AGOT-ONLY: fp1_yearly.2204.b [AGOT: ]
- fp1_yearly.2204.b:0 ""Please, just leave...""
+
+ fp1_yearly.2204.desc:0 ""Üzgünüm." der [new_berserker.GetFirstNameNoTooltip], duygusal bir tonda. "Acıkınca sinirleniyorum."\n\nİri [new_berserker.GetWomanMan] ayağa kalkmama yardım etmek için bana [new_berserker.GetHerHis] elini uzatıyor. [new_berserker.GetHerHis|U] öfkesi... şimdilik, dinmiş görünüyor.\n\n"Kavgamızdan keyif aldım. Sana memnuniyetle katılırım, dostum." der.""
+
+ fp1_yearly.2204.a:0 ""Ben de seni memnuniyetle kabul ederim, dostum!""
+
+ fp1_yearly.2204.b:0 ""Lütfen, sadece git...""
  grizzled_veterans:0 "Ak Düşmüş Gaziler"
  glory_seekers:0 "Şan Arayanlar"
  fp1_yearly.2300.t:0 "Şan Arayanlar"
-### TODO AGOT-CHANGED: fp1_yearly.2300.desc [AGOT: The taverns of [tavern_location.GetNameNoTier] have seen an influx of glory-seeking warriors as of late.\n\nAmong them — a group of old and battle-hardened veterans, reavers looking for a new [recruiting_character.Custom('MistressMaster')].\n\nThere is also a whole host of enthusiastic young men that talk non-stop about finding glory on foreign shores.\n\nPerhaps I should seek to employ some of them? | TR: [tavern_location.GetNameNoTier] tavernası, son zamanlarda şan peşinde koşan savaşçıların akınına uğradı.\n\nAralarında bir grup yaşlı ve savaş görmüş gaziler var, kendilerine Huskarl diyen bu gaziler yeni bir efendi arayışı içerisindeler.\n\nOnların yanı sıra yabancı kıyılarda zafer kazanma peşinde olan gençler de var.\n\nBelki de bazılarını işe almalıyım?]
- fp1_yearly.2300.desc:0 "The taverns of [tavern_location.GetNameNoTier] have seen an influx of glory-seeking warriors as of late.\n\nAmong them — a group of old and battle-hardened veterans, reavers looking for a new [recruiting_character.Custom('MistressMaster')].\n\nThere is also a whole host of enthusiastic young men that talk non-stop about finding glory on foreign shores.\n\nPerhaps I should seek to employ some of them?"
-### TODO AGOT-CHANGED: fp1_yearly.2300.a [AGOT: I'll bring the reavers into my household. | TR: Huskarlları işe alacağım.]
- fp1_yearly.2300.a:0 "I'll bring the reavers into my household."
+
+ fp1_yearly.2300.desc:0 "[tavern_location.GetNameNoTier] tavernası, son zamanlarda şan peşinde koşan savaşçıların akınına uğradı.\n\nAralarında bir grup yaşlı ve savaş görmüş gaziler var, kendilerine Huskarl diyen bu gaziler yeni bir efendi arayışı içerisindeler.\n\nOnların yanı sıra yabancı kıyılarda zafer kazanma peşinde olan gençler de var.\n\nBelki de bazılarını işe almalıyım?"
+
+ fp1_yearly.2300.a:0 "Huskarlları işe alacağım."
  fp1_yearly.2300.b:0 "Gençler deneyimsiz olabilirler ama sayıca fazlalar!"
  fp1_yearly.2300.c:0 "Biranın fiyatını ikiye katlama vakti geldi!"
  fp1_yearly.2300.d:0 "Bana katılın cesur savaşçılar! Sizleri zafere götüreceğim!"
-### TODO AGOT-CHANGED: huscarls_tt [AGOT: #F Reavers are tough frontline fighters capable of inflicing a lot of damage to weaker troops#! | TR: #F Huskarllar, daha zayıf birliklere çok fazla hasar verebilecek güçlü ön cephe savaşçılarıdır#!]
- huscarls_tt:0 "#F Reavers are tough frontline fighters capable of inflicing a lot of damage to weaker troops#!"
+
+ huscarls_tt:0 "#F Huskarllar, daha zayıf birliklere çok fazla hasar verebilecek güçlü ön cephe savaşçılarıdır#!"
  bondi_tt:0 "#F Bondíler dirençlidir ve yabancı kıyıların ovalarında savaşmak için mükemmeldirler#!"
  fp1_yearly.2400.t:0 "Av İçin Hazırlık"
  fp1_yearly.2400.desc:0 "Vahşi doğa bana sesleniyor. Son avlanışımın üstünden uzun zaman geçti. [hunting_province.GetName] civarındaki [ROOT.Char.Custom('TerrainType')] çok sayıda [ROOT.Char.Custom('GetAnimalAdjective')] [ROOT.Char.Custom('GetAnimalType')] için ev sahipliği yapıyor. Bunlardan biri bu akşam yemek masamda iyi giderdi!\n\nYine de bir şeyler eksik. Av mızraklarım çok eski ve körelmişler mi? Yoksa eksikliğini hissettiğim bir av arkadaşı mı?\n\nİyi hazırlandığımdan emin olmalıyım."
@@ -106,10 +106,10 @@
  brand_new_hunting_tools_desc:0 "Bu karakter, yeni av ekipmanlarına büyük miktarda altın harcadı."
  fp1_yearly.2500.t:0 "Müstehcen Run Taşı"
  fp1_yearly.2500.desc:0 "[runestone_location.GetNameNoTier] civarında bir süre yürüyüş yaptıktan sonra, ailemin run taşının bulunduğu konuma varıyorum. Görünüşe göre yalnız da değilim, [deviant_guest.GetTitledFirstName], saray misafirim de burada. Burayı nasıl bulmuş ki diye düşünürken konuşmaya başlıyor.\n\n"[Select_CString(ROOT.Char.IsFemale, 'Leydim', 'Lordum')]!, kesinlikle göründüğü gibi değil! Açıklayabilirim!" diye bağırıyor.\n\nYarı çıplak olması ve #EMP ailemin run taşına#! kuvvetlice sürtünüyor oluşu, bana bunun aslında tam olarak göründüğü gibi olduğunu anlatıyor."
-### TODO AGOT-CHANGED: fp1_yearly.2600.t [AGOT: Fury of the Old Gods | TR: Kuzeylilerin Öfkesi]
- fp1_yearly.2600.t:0 "Fury of the Old Gods"
-### TODO AGOT-ONLY: fp1_yearly.2600.desc [AGOT: ]
- fp1_yearly.2600.desc:0 ""[ROOT.GetCharacter.GetFirstNameNoTooltip], you are a great warrior, but do your enemies #EMP truly#! fear you?" [berserker_teacher.GetFirstName] says.\n\nI have seen [berserker_teacher.GetFirstNameNoTooltip] work [berserker_teacher.GetHerselfHimself] into an inhuman fury on the field of battle, and I have seen countless foes flee before [berserker_teacher.GetHerHis] howling form. Witnessing [berserker_teacher.GetFirstNamePossessiveNoTooltip] raging in battle is like witnessing the fury of the Old Gods themselves.\n\n"Join me in front of the fire. Let us evoke your fury." [berserker_teacher.GetSheHe|U] beckons."
+
+ fp1_yearly.2600.t:0 "Kuzeylilerin Öfkesi"
+
+ fp1_yearly.2600.desc:0 ""[ROOT.GetCharacter.GetFirstNameNoTooltip], sen büyük bir savaşçısın, ama düşmanların #EMP gerçekten#! senden korkuyor mu?" der [berserker_teacher.GetFirstName].\n\n[berserker_teacher.GetFirstNameNoTooltip]'in savaş alanında [berserker_teacher.GetHerselfHimself] insanüstü bir öfkeye büründüğünü gördüm ve sayısız düşmanın [berserker_teacher.GetHerHis] uluyan hali önünde kaçıştığını gördüm. [berserker_teacher.GetFirstNamePossessiveNoTooltip] savaşta öfkeyle saldırışına tanık olmak, Eski Tanrıların öfkesine tanık olmak gibi.\n\n"Ateşin önünde bana katıl. Öfkeni uyandıralım." diye işaret eder [berserker_teacher.GetSheHe|U].""
  fp1_yearly.2600.a:0 "Ayı postumu getireyim!"
  fp1_yearly.2600.b:0 "Hayır, tam kontrole sahip olmayı tercih ederim."
  fp1_yearly.2600.a.tt:0 "[GetTrait('berserker').GetName( GetNullCharacter )] olma girişiminde bulunacaksınız\n#weak Çeşitli riskleri olabilir...#!"

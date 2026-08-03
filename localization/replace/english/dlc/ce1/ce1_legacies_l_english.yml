@@ -19,10 +19,10 @@
  ce1_legitimacy_legacy_1_name: "Gerçek Hükümdarlar"
  ce1_legitimacy_legacy_2_name: "Tükenmeyen Soy"
  ce1_legitimacy_legacy_3_name: "Babalarımızın Çocukları"
-### TODO AGOT-CHANGED: ce1_legitimacy_legacy_4_name [AGOT: Mine by Rights | TR: Kutsal Yönetim]
- ce1_legitimacy_legacy_4_name: "Mine by Rights"
-### TODO AGOT-CHANGED: ce1_legitimacy_legacy_5_name [AGOT: Our Knees Do Not Bend | TR: Dieu et Mon Droit]
- ce1_legitimacy_legacy_5_name: "Our Knees Do Not Bend"
+
+ ce1_legitimacy_legacy_4_name:0 "Kutsal Yönetim"
+
+ ce1_legitimacy_legacy_5_name:0 "Dieu et Mon Droit"
  LEGACY_DYNASTY_LASTING_LINE_DESCRIPTION: "Her bir [heir|E] tahta çıktıkları ilk 10 yıl için [Concept( 'legitimacy', 'Meşruiyet' )|E] kazanımlarını #positive_value 10%#! arttıran [GetModifier('ce1_lasting_line').GetNameWithTooltip] [Concept( 'modifier', 'Etkisi' )|E] ile başlar"
  LEGACY_DYNASTY_DIVINE_MANDATE_DESCRIPTION: "[Concept( 'vassals', 'Vasalların' )|E] [Concept( 'dissolution_factions', 'Dağılma' )|E] ve [Concept( 'claimant_factions', 'Hak Sahibi' )|E] [Concept( 'faction', 'Örgütleşmelerine' )|E] katılma ihtimali azalır"
  ce1_legitimacy_legacy_3_effect: "[GetActivityType( 'activity_funeral' ).GetName], [GetActivityType( 'activity_feast' ).GetName] ve [GetActivityType( 'activity_wedding' ).GetName] gibi bazı [Concept( 'activities', 'Etkinlikler' )|E] sırasında [legitimacy|E] kazanmanızı sağlayan $legitimacy_intent$ [Concept( 'intent', 'Niyetini' )|E] açar"

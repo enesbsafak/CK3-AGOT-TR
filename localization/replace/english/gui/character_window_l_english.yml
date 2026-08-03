@@ -4,10 +4,10 @@
  SPOUSE_DIARCH:0 "$SPOUSE$-[Character.GetDiarchTitle]"
  BETROTHED:0 "[betrothed|E]"
  SPOUSES:0 "Eşler"
-### TODO AGOT-CHANGED: CONCUBINES [AGOT: [concubines|E] | TR: cariyeler]
- CONCUBINES:0 "[concubines|E]"
-### TODO AGOT-CHANGED: GAME_CONCEPT_CONCUBINE [AGOT: [concubine|EU] | TR: Cariye]
- GAME_CONCEPT_CONCUBINE:0 "[concubine|EU]"
+
+ CONCUBINES:0 "cariyeler"
+
+ GAME_CONCEPT_CONCUBINE:0 "Cariye"
  CONCUBINE_IS_VISIBLE_INFERTILE:0 "@warning_icon! #X Kısır#!"
  CONCUBINE_MAN:1 "[concubine_male|E]"
  CONCUBINE_WOMAN:1 "[concubine_female|E]"
@@ -175,10 +175,10 @@
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T [spouse|E] Bul\n#!Kendinize bir [marriage|E] düzenleyin\n\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T [spouse|E] Bul\n#!Bir [marriage|E] düzenleyin"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T İleri: [spouse|E] Bul#!"
-### TODO AGOT-CHANGED: CHARACTER_WINDOW_GOTO_NEXT_SPOUSE [AGOT: #T Next: [AGOTGetLongUIName(CHARACTER)|V]#! | TR: #T İleri: [CHARACTER.GetUIName]#!]
- CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Next: [AGOTGetLongUIName(CHARACTER)|V]#!"
-### TODO AGOT-CHANGED: CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE [AGOT: #T Previous: [AGOTGetLongUIName(CHARACTER)|V]#! | TR: #T Geri: [CHARACTER.GetUIName]#!]
- CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Previous: [AGOTGetLongUIName(CHARACTER)|V]#!"
+
+ CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T İleri: [CHARACTER.GetUIName]#!"
+
+ CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Geri: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T Geri: [spouse|E] Bul#!"
  CHARACTER_WINDOW_GOTO_DIARCH:0 "#T İleri: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
  CV_CUSTOMIZE_PORTRAIT:0 "#I Berberi açmak için tıklayın#!"

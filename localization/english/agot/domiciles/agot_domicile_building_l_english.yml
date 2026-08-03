@@ -1,14 +1,14 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: domicile_building_parameter_camp_unlocks_wilderness_settlers_maa [AGOT: Creates a [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment with a size of #P 2#!.]
- domicile_building_parameter_camp_unlocks_wilderness_settlers_maa:0 "Creates a [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment with a size of #P 2#!."
-### TODO NOT-IN-ST: domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_upgrade [AGOT: Upgrades the [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment to a size of #P 2#!.]
- domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_upgrade:0 "Upgrades the [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] regiment to a size of #P 2#!."
-### TODO NOT-IN-ST: domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_how_to_recruit [AGOT: To recruit more settlers, visit a barony with an existing holding.]
- domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_how_to_recruit:0 "To recruit more settlers, visit a barony with an existing holding."
-### TODO NOT-IN-ST: domicile_building_parameter_camp_unlocks_settle_counties [AGOT: #I Enables the option to settle counties#!]
- domicile_building_parameter_camp_unlocks_settle_counties:0 "#I Enables the option to settle counties#!"
-### TODO NOT-IN-ST: domicile_building_parameter_camp_unlocks_settle_duchies [AGOT: #I Enables the option to settle entire duchies#!]
- domicile_building_parameter_camp_unlocks_settle_duchies:0 "#I Enables the option to settle entire duchies#!"
+﻿l_english:
+
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa:0 "[GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] birliğini #P 2#! boyutunda oluşturur."
+
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_upgrade:0 "[GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] birliğini #P 2#! boyutuna yükseltir."
+
+ domicile_building_parameter_camp_unlocks_wilderness_settlers_maa_how_to_recruit:0 "Daha fazla yerleşimci toplamak için mevcut bir toprak parçası olan bir baronluğu ziyaret et."
+
+ domicile_building_parameter_camp_unlocks_settle_counties:0 "#I Kontlukları yerleştirme seçeneğini etkinleştirir#!"
+
+ domicile_building_parameter_camp_unlocks_settle_duchies:0 "#I Tüm dükalıkları yerleştirme seçeneğini etkinleştirir#!"
 
  settlement_supplies_01_domicile_building:0 "Yerleşimci Kervanı"
 
@@ -21,5 +21,5 @@
  settlement_supplies_05_domicile_building:0 "Yerleşimci Kervanı"
 
  settlement_supplies_06_domicile_building:0 "Yerleşimci Kervanı"
-### TODO NOT-IN-ST: domicile_building_parameter_reduce_success_of_raid_pirate_ship [AGOT: Each level of this building increasingly reduces the Success Chance of hostile [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]]
- domicile_building_parameter_reduce_success_of_raid_pirate_ship:0 "Each level of this building increasingly reduces the Success Chance of hostile [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]"
+
+ domicile_building_parameter_reduce_success_of_raid_pirate_ship:0 "Bu binanın her seviyesi, düşmanca [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]'in Başarı Şansını giderek azaltır"

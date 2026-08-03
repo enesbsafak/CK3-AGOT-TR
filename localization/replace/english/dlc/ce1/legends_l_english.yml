@@ -50,8 +50,8 @@
  game_concept_legends: "Destanlar"
  game_concept_legends_desc: "$game_concept_legend_desc$"
  game_concept_legend_seed: "Destan Tohumu"
-### TODO AGOT-CHANGED: game_concept_legend_seed_desc [AGOT: A [legend|E] in the making. $game_concept_legend_seeds$ are the basis of a $game_concept_legend$ and, by founding them, a [ruler|E] may start a $game_concept_legend$.\n\n$game_concept_legend_seeds$ can be earned by fulfilling some criteria or by performing legendary deeds: Major [decisions|E], becoming a [king|E] or [emperor|E], organizing a Grand [activity|E], hunting a legendary animal, et cetera.\n\nInactive $game_concept_legend_seeds$ have no cost, but bear no effects. Founding a $game_concept_legend_seed$ for the first time has a [gold|E] cost to it. | TR: Oluşmakta olan bir [legend|E]. $game_concept_legend_seeds$ bir [Concept( 'legend', 'Destanın' )|E] temelini oluşturur ve bir [ruler|E] bunları kullanarak bir $game_concept_legend$ başlatabilir.\n\n$game_concept_legend_seeds$, Şarlman'ın vârisi olmak gibi bazı kriterleri yerine getirerek veya destansı eylemler gerçekleştirerek kazanılabilir: Büyük [decisions|E], [great_holy_war|E] kazanmak, bir [king|E] ya da [emperor|E] olmak, Büyük [activity|E] düzenlemek, efsanevi bir hayvan avlamak gibi.\n\nAktif olmayan $game_concept_legend_seeds$ maliyetsizdir ancak hiçbir etkisi de yoktur. İlk kez bir $game_concept_legend_seed$ oluşturmak için [gold|E] harcanır.]
- game_concept_legend_seed_desc: "A [legend|E] in the making. $game_concept_legend_seeds$ are the basis of a $game_concept_legend$ and, by founding them, a [ruler|E] may start a $game_concept_legend$.\n\n$game_concept_legend_seeds$ can be earned by fulfilling some criteria or by performing legendary deeds: Major [decisions|E], becoming a [king|E] or [emperor|E], organizing a Grand [activity|E], hunting a legendary animal, et cetera.\n\nInactive $game_concept_legend_seeds$ have no cost, but bear no effects. Founding a $game_concept_legend_seed$ for the first time has a [gold|E] cost to it."
+
+ game_concept_legend_seed_desc:0 "Oluşmakta olan bir [legend|E]. $game_concept_legend_seeds$ bir [Concept( 'legend', 'Destanın' )|E] temelini oluşturur ve bir [ruler|E] bunları kullanarak bir $game_concept_legend$ başlatabilir.\n\n$game_concept_legend_seeds$, Şarlman'ın vârisi olmak gibi bazı kriterleri yerine getirerek veya destansı eylemler gerçekleştirerek kazanılabilir: Büyük [decisions|E], [great_holy_war|E] kazanmak, bir [king|E] ya da [emperor|E] olmak, Büyük [activity|E] düzenlemek, efsanevi bir hayvan avlamak gibi.\n\nAktif olmayan $game_concept_legend_seeds$ maliyetsizdir ancak hiçbir etkisi de yoktur. İlk kez bir $game_concept_legend_seed$ oluşturmak için [gold|E] harcanır."
  game_concept_legend_seeds: "Destan Tohumları"
  game_concept_legend_seeds_desc: "$game_concept_legend_seed_desc$"
  game_concept_legend_quality: "Destan Kalitesi"
@@ -249,8 +249,8 @@
  legend_chronicle_debug_legend: "#D Kalite Kontrol Destanı#!"
  legend_chronicle_debug_legend_desc: "#D Kalite Kontrol atalardan kalma ve asil bir meslektir#!"
  legend_chronicle_beast_slayer: "[Localize( beast )|U] Katili"
-### TODO AGOT-CHANGED: legend_chronicle_beast_slayer_desc [AGOT: In [location.GetName] a [Localize( beast )] was slain | TR: [location.GetName] topraklarında bir [Localize( beast )] öldürüldü]
- legend_chronicle_beast_slayer_desc: "In [location.GetName] a [Localize( beast )] was slain"
+
+ legend_chronicle_beast_slayer_desc:0 "[location.GetName] topraklarında bir [Localize( beast )] öldürüldü"
  legend_chronicle_holy_war: "Kutsal [location.GetName] Savaşı"
  legend_chronicle_holy_war_desc: "[location.GetName] topraklarında [Localize( antagonist )] mağlup oldu"
  legend_chronicle_generic_opening: "$legend_chapter_opening_generic$"
@@ -314,8 +314,8 @@
  legend_chapter_motivation_peasant: "Çaresiz bir köylü gözyaşları içerisinde kapısına dayandığında, dindar [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] yardım çığlıklarını yanıtsız bırakamayacağını biliyordu."
  legend_chapter_motivation_spouse: "Bir gün eşi dehşete düşürücü söylentilerle yanına geldiğinde, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] sonsuz aşklarını onurlandıracak bir yolculuğa çıktı."
  legend_chapter_motivation_honor_lady: "Sevgilisinin gözlerine baktığında [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] için karar çoktan verilmişti. Yardım çığlıklarını dindirmek ve gerçek anlamda cesaretini kanıtlamak adına büyük bir maceraya atıldı."
-### TODO AGOT-CHANGED: legend_chapter_discovery_generic [AGOT: [ROOT.Legend.GetProtagonist.GetNameNoTooltip] surveilled [Localize( .GetString )] with [ROOT.Legend.GetProtagonist.GetHerHis] entourage, and it did not take long for [ROOT.Legend.GetProtagonist.GetHerHim] to find the exact place. | TR: [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] maiyetindekilerle birlikte [Localize( location )] dolaylarında dolaşırken, aradığı yeri bulması çok da uzun sürmedi.]
- legend_chapter_discovery_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] surveilled [Localize( .GetString )] with [ROOT.Legend.GetProtagonist.GetHerHis] entourage, and it did not take long for [ROOT.Legend.GetProtagonist.GetHerHim] to find the exact place."
+
+ legend_chapter_discovery_generic:0 "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] maiyetindekilerle birlikte [Localize( location )] dolaylarında dolaşırken, aradığı yeri bulması çok da uzun sürmedi."
  legend_chapter_hunt_generic: "[Localize( beast )|U] zaten orada, nehirden su içiyordu. Başını kaldırmasıyla birlikte aç bir şekilde harekete geçti. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] açlıktan yorgun düşen bu canavardan çok daha hızlıydı ve ustaca bir vuruşla canavarı katletti."
  legend_chapter_battle_generic: "Muharebe oldukça sert geçiyordu. [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] [loser.GetTitledFirstNameNoTooltip] ile savaş alanının tam ortasında karşı karşıya geldi. Gözlerinden kendinden eminliği görülüyordu. Silahını kaldırarak düşmanının göğsüne sert bir darbe indirdi ve zafer alındı."
  legend_chapter_conclusion_generic: "Eve dönüş yolculuğu kolay olmadı fakat [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] şehre girdiğinde şehrin tüm sakinleri onu çiçeklerle ve çığlıklarla karşıladılar. Şimdi ise herkes mutlu bir şekilde onun destanını kutluyor!"
@@ -485,27 +485,27 @@
  ancestor_firstnamepossessivenotooltip: "[ROOT.Legend.GetProperty('ancestor').Char.GetFirstNameNoTooltip]"
  legend_events.0001.t: "Vakanüvis: Yeni Bir Destan"
  legend_events.0001.desc.intro: "[chronicler.Custom2('MyCharacterIntroduction', ROOT.Char)|U] saraya girerken heyecanlı bir şekilde beni karşılıyor.\n\n"
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.slew_dragon [AGOT: ]
- legend_events.0001.desc.mid.slew_dragon: ""I bring excellent news, my [ROOT.Char.GetTitleAsNameNoTooltip|U]! I have been seeking out tomes and legends about [legend_character.GetName], and I have reason to believe that [legend_character.GetSheHe] fought and slew a dragon!"
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.ancestral_saint [AGOT: ]
- legend_events.0001.desc.mid.ancestral_saint: ""[ROOT.Char.GetFaith.HighGodName|U] is smiling on your house today, my [ROOT.Char.GetTitleAsNameNoTooltip|U]. I have been seeking information about your auspicious ancestor [legend_character.GetName], and I have found information that would potentially make [legend_character.GetHerHim] worthy of being deemed a [GetTrait('saint').GetNameNoTooltip( ROOT.Char )]!"
+
+ legend_events.0001.desc.mid.slew_dragon:0 ""Mükemmel haberler getiriyorum, [ROOT.Char.GetTitleAsNameNoTooltip|U]'im! [legend_character.GetName] hakkında ciltler ve efsaneler aradım ve [legend_character.GetSheHe]'in bir ejderhayla savaşıp öldürdüğüne inanmak için nedenlerim var!""
+
+ legend_events.0001.desc.mid.ancestral_saint:0 ""[ROOT.Char.GetFaith.HighGodName|U] bugün hanenize gülümsüyor, [ROOT.Char.GetTitleAsNameNoTooltip|U]'im. Uğurlu atanız [legend_character.GetName] hakkında bilgi aradım ve [legend_character.GetHerHim]i bir [GetTrait('saint').GetNameNoTooltip( ROOT.Char )] olarak kabul edilmeye layık gösterebilecek bilgiler buldum!""
  legend_events.0001.desc.mid.godly_descent: "Bir anda ayaklarıma kapanarak gözyaşlarına kapılıyor. "Ey yüce [ROOT.Char.GetTitleAsNameNoTooltip|U]! [ROOT.Char.GetFaith.HighGodNamePossessive|U] soyundan geldiğinize dair büyük deliller buldum!"
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.old_godly_descent [AGOT: ]
- legend_events.0001.desc.mid.old_godly_descent: ""Good day to you, my [ROOT.Char.GetTitleAsNameNoTooltip|U], or should I call you '[ROOT.Char.Custom('GetDaughterSon')|U] of [legend_character.GetFaith.HighGodName|U]'? Indeed, I have searched the records and I believe that the 'god' of your ancestors was actually a heroic mortal who committed a great deal of heroic deeds."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.raised_by_animals [AGOT: ]
- legend_events.0001.desc.mid.raised_by_animals: ""Good day, my [ROOT.Char.GetTitleAsNameNoTooltip|U]. How much do you remember of your early childhood? Some tomes in the archive would indicate that you were actually raised in the wilderness by [ROOT.Char.Custom('GetAnimalPlural')]."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.auspicious_stars [AGOT: ]
- legend_events.0001.desc.mid.auspicious_stars: ""[ROOT.Char.GetFaith.HighGodName|U] smiles upon us today, my [ROOT.Char.GetTitleAsNameNoTooltip], just as [ROOT.Char.GetFaith.HighGodNameSheHe] did on the day you were born. Indeed, you were born under auspicious stars, a sign of the great deeds you were to commit in life."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.virgin_birth [AGOT: ]
- legend_events.0001.desc.mid.virgin_birth: ""[ROOT.Char.GetFaith.HighGodName|U] smiles upon us today, my [ROOT.Char.GetTitleAsNameNoTooltip], just as [ROOT.Char.GetFaith.HighGodNameSheHe] did to your mother when you were conceived. Indeed, you were no bastard, your mother was fortunate enough to be blessed with an immaculate conception!"
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.spoke_to_angels [AGOT: ]
- legend_events.0001.desc.mid.spoke_to_angels: ""I remember many nights ago when you told me you had been visited by angels. My [ROOT.Char.GetTitleAsNameNoTooltip|U], I have reason to believe this was no mere dream, but a vision from [ROOT.Char.GetFaith.PositiveAfterLife]."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.fought_the_devil [AGOT: ]
- legend_events.0001.desc.mid.fought_the_devil: ""I am aware you have been wracked by nightmares as late. I have reason to believe that these visions are flashes of your battle with [ROOT.Char.GetFaith.DevilName] in [ROOT.Char.GetFaith.NegativeAfterLife]."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.exotic_backstory [AGOT: ]
- legend_events.0001.desc.mid.exotic_backstory: ""My [ROOT.Char.GetTitleAsNameNoTooltip|U], you have never quite felt like a full [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetWomanMan], have you? I believe that many years ago, you hailed from a mystical land far from here."
-### TODO AGOT-ONLY: legend_events.0001.desc.mid.ancient_people [AGOT: ]
- legend_events.0001.desc.mid.ancient_people: ""My [ROOT.Char.GetTitleAsNameNoTooltip|U], I have searched the records and found some information that would indicate that your line can be traced all the way back to the great [ancient_culture.GetName] dynasties!"
+
+ legend_events.0001.desc.mid.old_godly_descent:0 ""İyi günler, [ROOT.Char.GetTitleAsNameNoTooltip|U]'im, yoksa size '[ROOT.Char.Custom('GetDaughterSon')|U] of [legend_character.GetFaith.HighGodName|U]' mi demeliyim? Gerçekten de, kayıtları araştırdım ve atalarınızın 'tanrısı'nın aslında birçok kahramanlık eylemi gerçekleştirmiş kahraman bir ölümlü olduğuna inanıyorum.""
+
+ legend_events.0001.desc.mid.raised_by_animals:0 ""İyi günler, [ROOT.Char.GetTitleAsNameNoTooltip|U]'im. Erken çocukluğunuzdan ne kadar hatırlıyorsunuz? Arşivdeki bazı ciltler, aslında [ROOT.Char.Custom('GetAnimalPlural')] tarafından vahşi doğada büyütüldüğünüze işaret ediyor.""
+
+ legend_events.0001.desc.mid.auspicious_stars:0 ""[ROOT.Char.GetFaith.HighGodName|U] bugün bize gülümsüyor, [ROOT.Char.GetTitleAsNameNoTooltip]'im, tıpkı doğduğunuz gün gülümsediği gibi. Gerçekten de, uğurlu yıldızların altında doğdunuz; hayatta gerçekleştireceğiniz büyük işlerin bir işareti.""
+
+ legend_events.0001.desc.mid.virgin_birth:0 ""[ROOT.Char.GetFaith.HighGodName|U] bugün bize gülümsüyor, [ROOT.Char.GetTitleAsNameNoTooltip]'im, tıpkı size hamile kalındığında annenize gülümsediği gibi. Gerçekten de, bir piç değildiniz; anneniz kusursuz bir gebelikle kutsanacak kadar şanslıydı!""
+
+ legend_events.0001.desc.mid.spoke_to_angels:0 ""Yıllar önce bana melekler tarafından ziyaret edildiğini söylediğin o geceyi hatırlıyorum. [ROOT.Char.GetTitleAsNameNoTooltip|U]'im, bunun sıradan bir rüya değil, [ROOT.Char.GetFaith.PositiveAfterLife]'ten bir görü olduğuna inanmak için nedenlerim var.""
+
+ legend_events.0001.desc.mid.fought_the_devil:0 ""Son zamanlarda kabuslarla boğuştuğunuzun farkındayım. Bu görülerin, [ROOT.Char.GetFaith.NegativeAfterLife]'te [ROOT.Char.GetFaith.DevilName] ile savaşınızın kıvılcımları olduğuna inanmak için nedenlerim var.""
+
+ legend_events.0001.desc.mid.exotic_backstory:0 ""[ROOT.Char.GetTitleAsNameNoTooltip|U]'im, hiçbir zaman tam anlamıyla bir [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetWomanMan] gibi hissetmediniz, değil mi? İnanıyorum ki yıllar önce, buradan çok uzakta, mistik bir diyardan geliyordunuz.""
+
+ legend_events.0001.desc.mid.ancient_people:0 ""[ROOT.Char.GetTitleAsNameNoTooltip|U]'im, kayıtları araştırdım ve soyunuzun ta büyük [ancient_culture.GetName] hanedanlarına kadar uzandığına işaret eden bilgiler buldum!""
  legend_events.0001.desc.outro: "Bazıları buna inanmakta güçlük çekebilir fakat biraz gayret göstererek bu iddiayı kanıtlayabiliriz, gerçek bir efsaneye dönüşmeniz için yeterli delillere sahibiz!""
  legend_events.0001.a: "Mükemmel bir çalışma!"
  legend_events.0001.b: "Yok artık daha neler."

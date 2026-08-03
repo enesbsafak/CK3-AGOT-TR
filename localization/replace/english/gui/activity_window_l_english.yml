@@ -3,8 +3,8 @@
  ACTIVITY_CURRENT_LOCATION:0 "[Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]"
  TT_ACTIVITY_WIDGET:2 "[Activity.GetInvolvementText( Character.Self, 'hud' )]\n\n#I Görmek için tıklayın#!"
  activity_intent_event_widget:0 "Niyet: [Character.GetInvolvedActivityIntent.GetName]"
-### TODO AGOT-CHANGED: activity_intent_target_event_widget [AGOT: Target: [AGOTGetUINameNoTooltip(Character)|V] | TR: Hedef: [Character.GetIntentTarget.GetShortUIName]]
- activity_intent_target_event_widget:0 "Target: [AGOTGetUINameNoTooltip(Character)|V]"
+
+ activity_intent_target_event_widget:0 "Hedef: [Character.GetIntentTarget.GetShortUIName]"
  ACTIVITY_WINDOW_HEADER:1 "[Activity.GetNameNoTooltip|U]"
  ACTIVITY_WINDOW_EVENT_HEADER:0 "[Activity.GetShortNameNoTooltip]: [EventWindowData.GetTitle]"
  ACTIVITY_LOG_HEADER:0 "[Activity.GetShortNameNoTooltip] Günlüğü"

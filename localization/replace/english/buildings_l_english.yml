@@ -2,58 +2,58 @@
  BUILDING_DEBUG_KEY: "#D DEBUG KEY:#! [BUILDING.GetKey]"
  BUILDING_DEBUG_FULL: "#D DEBUG KEY AND DESC:#!\n[Building.GetKey]\n[Building.GetDescKey]"
  BUILDING_TOOLTIP_TEXT:1 "[Building.GetDescription]\n\n[Building.GetEffectDescription( GetPlayer )]"
-### TODO AGOT-CHANGED: building_type_castle_01 [AGOT: Castle Holding | TR: Kale]
- building_type_castle_01:0 "Castle Holding"
+
+ building_type_castle_01:0 "Kale"
  building_type_castle_01_desc:1 "Soylu bir aileye ev sahipliği yapmak ve etraftaki kasabayı ve tarım alanlarını korumak için inşa edilmiş istihkâmlar."
-### TODO AGOT-CHANGED: building_castle_01 [AGOT: Small Keep | TR: İstihkâm]
- building_castle_01:1 "Small Keep"
-### TODO AGOT-CHANGED: building_castle_01_desc [AGOT: A small keep, with strong fortifications, built upon raised earthworks. | TR: Bu küçük ama savunaklı istihkâm yükseltilmiş toprak üzerine kurulmuş.]
- building_castle_01_desc:1 "A small keep, with strong fortifications, built upon raised earthworks."
-### TODO AGOT-CHANGED: building_castle_02 [AGOT: Large Keep | TR: İç Kale]
- building_castle_02:1 "Large Keep"
-### TODO AGOT-CHANGED: building_castle_02_desc [AGOT: A large keep with a commanding presence over its territory, serving as the local lord's last bastion. | TR: İç kale #weak (veya Donjon)#! korunaklı bir ev ve savunmanın son hattı olan büyük bir kuledir.]
- building_castle_02_desc:1 "A large keep with a commanding presence over its territory, serving as the local lord's last bastion."
-### TODO AGOT-CHANGED: building_castle_03 [AGOT: Small Castle | TR: Çok Surlu Kale]
- building_castle_03:1 "Small Castle"
-### TODO AGOT-CHANGED: building_castle_03_desc [AGOT: A small castle with fortifications, able to hold against any rival who would seek to harm the local lord. | TR: Çok surlu kalelerde birden fazla sur vardır, içerideki surlar dışarıdakilerden daha yüksektir.]
- building_castle_03_desc:1 "A small castle with fortifications, able to hold against any rival who would seek to harm the local lord."
-### TODO AGOT-CHANGED: building_castle_04 [AGOT: Common Castle | TR: Hisar]
- building_castle_04:1 "Common Castle"
-### TODO AGOT-CHANGED: building_castle_04_desc [AGOT: A castle with extensive fortifications, able to repel enemy forces and house formidable house guards. | TR: Hisarlar tahkimatların en iyi örneğidir, hem düşmanı püskürtebilir hem de büyük bir orduyu ağırlayabilir.]
- building_castle_04_desc:1 "A castle with extensive fortifications, able to repel enemy forces and house formidable house guards."
-### TODO AGOT-CHANGED: building_type_temple_01 [AGOT: Temple Holding | TR: Tapınak]
- building_type_temple_01:0 "Temple Holding"
+
+ building_castle_01:0 "İstihkâm"
+
+ building_castle_01_desc:0 "Bu küçük ama savunaklı istihkâm yükseltilmiş toprak üzerine kurulmuş."
+
+ building_castle_02:0 "İç Kale"
+
+ building_castle_02_desc:0 "İç kale #weak (veya Donjon)#! korunaklı bir ev ve savunmanın son hattı olan büyük bir kuledir."
+
+ building_castle_03:0 "Çok Surlu Kale"
+
+ building_castle_03_desc:0 "Çok surlu kalelerde birden fazla sur vardır, içerideki surlar dışarıdakilerden daha yüksektir."
+
+ building_castle_04:0 "Hisar"
+
+ building_castle_04_desc:0 "Hisarlar tahkimatların en iyi örneğidir, hem düşmanı püskürtebilir hem de büyük bir orduyu ağırlayabilir."
+
+ building_type_temple_01:0 "Tapınak"
  building_type_temple_01_desc:1 "Etrafı bir kasaba ve inançlı köylüler tarafından çevrelenmiş, ruhban sınıfı tarafından yönetilen bir ibadethane."
  building_temple_01:1 "Türbe"
-### TODO AGOT-CHANGED: building_temple_01_desc [AGOT: A small village has grown up around the local shrine which is directly run bypriests sworn to the diety of the shrine. | TR: $building_type_temple_01_desc$]
- building_temple_01_desc:0 "A small village has grown up around the local shrine which is directly run bypriests sworn to the diety of the shrine."
+
+ building_temple_01_desc:0 "$building_type_temple_01_desc$"
  building_temple_02:1 "Mabet"
-### TODO AGOT-CHANGED: building_temple_02_desc [AGOT: A temple sits at the centre of the village, carefully constructed by local craftsmen to show their dedication to the faith. | TR: Köyün merkezinde bulunan tapınak, inşa edenlerin inancını gösterircesine mükemmel bir özenle inşa edilmiş.]
- building_temple_02_desc:0 "A temple sits at the centre of the village, carefully constructed by local craftsmen to show their dedication to the faith."
+
+ building_temple_02_desc:0 "Köyün merkezinde bulunan tapınak, inşa edenlerin inancını gösterircesine mükemmel bir özenle inşa edilmiş."
  building_temple_03:1 "İbadethane"
-### TODO AGOT-CHANGED: building_temple_03_desc [AGOT: While the temple can take in a lot of worshipers, that is not its only purpose - it also has to house the clergy, support a large library and protect relics. With the addition of the house of worship there's always plenty of room for the faithful to pray. | TR: Tapınağın tek görevi inananların toplanacağı bir yer olmak değildir. Bunun yanında ruhban sınıfının evi olmalı, kütüphanesi olmalı ve kutsal emanetleri korumalıdır. İbadethanenin de inşa edilmesi sayesinde inananlar artık dua edebilecekleri bir yer bulmada hiç zorluk çekmez.]
- building_temple_03_desc:0 "While the temple can take in a lot of worshipers, that is not its only purpose - it also has to house the clergy, support a large library and protect relics. With the addition of the house of worship there's always plenty of room for the faithful to pray."
+
+ building_temple_03_desc:0 "Tapınağın tek görevi inananların toplanacağı bir yer olmak değildir. Bunun yanında ruhban sınıfının evi olmalı, kütüphanesi olmalı ve kutsal emanetleri korumalıdır. İbadethanenin de inşa edilmesi sayesinde inananlar artık dua edebilecekleri bir yer bulmada hiç zorluk çekmez."
  building_temple_04:1 "Büyük Tapınak"
  building_temple_04_desc:1 "Küçük ve mütevazı tapınaktan tatmin olmayan yerel zanaatkârlar ve mimarlar bir araya gelip bir sanat eseri yaratmak için çalıştı. Bu büyük tapınak sanki içine girenlere cennetin gücünü hissettiriyor."
-### TODO AGOT-CHANGED: building_type_city_01 [AGOT: City Holding | TR: Şehir]
- building_type_city_01:0 "City Holding"
+
+ building_type_city_01:0 "Şehir"
  building_type_city_01_desc:1 "Çok sayıda tüccara ev sahipliği yapan kalabalık bir şehir."
-### TODO AGOT-CHANGED: building_city_01 [AGOT: Small Village | TR: Köy Merkezi]
- building_city_01:0 "Small Village"
-### TODO AGOT-CHANGED: building_city_01_desc [AGOT: A small village which houses a good portion of small-folk that brings a good deal of taxes to the local lord. | TR: $building_type_city_01_desc$]
- building_city_01_desc:0 "A small village which houses a good portion of small-folk that brings a good deal of taxes to the local lord."
-### TODO AGOT-CHANGED: building_city_02 [AGOT: Village | TR: Büyük Kasaba]
- building_city_02:0 "Village"
-### TODO AGOT-CHANGED: building_city_02_desc [AGOT: A village not of unconsiderable size, this village houses small-folk who work the land as well as merchants and other specialized workers. | TR: Bu şehir tüccarların ve esnafların merkezi hâline gelmeye başlamış, her gün yeni evler inşa ediliyor ve yeni tezgâhlar kuruluyor.]
- building_city_02_desc:0 "A village not of unconsiderable size, this village houses small-folk who work the land as well as merchants and other specialized workers."
-### TODO AGOT-CHANGED: building_city_03 [AGOT: Small Town | TR: Şehir Merkezi]
- building_city_03:0 "Small Town"
-### TODO AGOT-CHANGED: building_city_03_desc [AGOT: No longer content with just occupying its original area, the town now subsumes nearby farmland into its prosperous center. The town is truly a centre of wealth and opportunity. | TR: Eski sınırları artık az gelen şehir yakındaki tarım alanlarını da şehir merkezine dâhil etmeye başladı. Şehir oldukça büyük, servet ve fırsatlar ile dolu.]
- building_city_03_desc:0 "No longer content with just occupying its original area, the town now subsumes nearby farmland into its prosperous center. The town is truly a centre of wealth and opportunity."
-### TODO AGOT-CHANGED: building_city_04 [AGOT: Large Town | TR: Metropol]
- building_city_04:0 "Large Town"
-### TODO AGOT-CHANGED: building_city_04_desc [AGOT: This large town is known far and wide for the bountiful opportunities that lie within â€” it is said that even the lowliest peasant can find fortune here. Houses line the streets for as far as the eye can see, with carts and animals busy transporting goods wherever you look. | TR: Bu şehir her yerde insana sunduğu fırsatlarla biliniyor. En düşük seviyedeki köylünün bile burada zengin olabileceği söyleniyor. Sokaklardaki evler göz alabildiğince uzanıp gidiyor ve nereye bakarsanız bakın ürünler taşıyan yük arabaları ve hayvanlar görüyorsunuz.]
- building_city_04_desc:0 "This large town is known far and wide for the bountiful opportunities that lie within â€” it is said that even the lowliest peasant can find fortune here. Houses line the streets for as far as the eye can see, with carts and animals busy transporting goods wherever you look."
+
+ building_city_01:0 "Köy Merkezi"
+
+ building_city_01_desc:0 "$building_type_city_01_desc$"
+
+ building_city_02:0 "Büyük Kasaba"
+
+ building_city_02_desc:0 "Bu şehir tüccarların ve esnafların merkezi hâline gelmeye başlamış, her gün yeni evler inşa ediliyor ve yeni tezgâhlar kuruluyor."
+
+ building_city_03:0 "Şehir Merkezi"
+
+ building_city_03_desc:0 "Eski sınırları artık az gelen şehir yakındaki tarım alanlarını da şehir merkezine dâhil etmeye başladı. Şehir oldukça büyük, servet ve fırsatlar ile dolu."
+
+ building_city_04:0 "Metropol"
+
+ building_city_04_desc:0 "Bu şehir her yerde insana sunduğu fırsatlarla biliniyor. En düşük seviyedeki köylünün bile burada zengin olabileceği söyleniyor. Sokaklardaki evler göz alabildiğince uzanıp gidiyor ve nereye bakarsanız bakın ürünler taşıyan yük arabaları ve hayvanlar görüyorsunuz."
  building_type_temple_citadel_01: "Tapınak Kalesi"
  building_type_temple_citadel_01_desc: "Hem ibadet hem koruma yeri olan bu kutsal alanın çevresini devasa surlar kuşatır."
  building_temple_citadel_01: "Tapınak İçkalesi"
@@ -147,8 +147,8 @@
  building_orchards_05:1 "Yemiş Ağacı"
  building_orchards_05_desc:1 "Meyve ağaçlarına ek olarak kuru yemiş ağaçları da ufuğa doğru uzanıyor."
  building_orchards_06:1 "Karışık Bahçeler"
-### TODO AGOT-CHANGED: building_orchards_06_desc [AGOT: All kinds of trees, both local and imported, are distributed within the orchard â€” guaranteeing a fruitful yield regardless of circumstance. | TR: Hem yerel hem de ithal edilmiş her türlü ağaç bahçelere dağıtılmış, böylelikle ne olursa olsun iyi bir hasat alabiliyoruz.]
- building_orchards_06_desc:1 "All kinds of trees, both local and imported, are distributed within the orchard â€” guaranteeing a fruitful yield regardless of circumstance."
+
+ building_orchards_06_desc:0 "Hem yerel hem de ithal edilmiş her türlü ağaç bahçelere dağıtılmış, böylelikle ne olursa olsun iyi bir hasat alabiliyoruz."
  building_orchards_07:1 "Büyük Bağlar"
  building_orchards_07_desc:1 "Meyve ağaçları göz alabildiğine uzanıyor."
  building_orchards_08:1 "Aşılı Ağaçlar"
@@ -163,14 +163,14 @@
  building_farm_estates_03_desc:1 "Tarla konakları etrafındaki tarlalardan, ormanlardan ve diğer binalardan sorumludur."
  building_farm_estates_04:1 "Bin Dönümlük Tarlalar"
  building_farm_estates_04_desc:1 "Devasa bin dönümlük tarlalarda büyük miktarda köylü çalıştırılabilir, toprak sahibi aile de zenginleşir."
-### TODO AGOT-CHANGED: building_farm_estates_05 [AGOT: Landed Estates | TR: Mülkler]
- building_farm_estates_05:1 "Landed Estates"
-### TODO AGOT-CHANGED: building_farm_estates_05_desc [AGOT: The massive, vast lands that are given as landed estates to minor landowners on their first steps to nobility, are optimized to produce greater yeilds. | TR: Mülkler devasadır ve etrafını uçsuz bucaksız araziler çevreler. Miras yoluyla geçtiği için mülklere sahip olan aileler istedikleri gibi tarlalarını düzenleyebilir ve en iyi şekle getirmek için uğraşabilir.]
- building_farm_estates_05_desc:1 "The massive, vast lands that are given as landed estates to minor landowners on their first steps to nobility, are optimized to produce greater yeilds."
-### TODO AGOT-CHANGED: building_farm_estates_06 [AGOT: Large Manors | TR: Yel Değirmenleri]
- building_farm_estates_06:1 "Large Manors"
-### TODO AGOT-CHANGED: building_farm_estates_06_desc [AGOT: To meet greater production greater larger manors have been constructed to better support the smallfolk there. | TR: Yer değirmenleri tahıl öğütmek için gereken iş gücünü azaltıp verimliliği inanılmaz derecede arttırır.]
- building_farm_estates_06_desc:1 "To meet greater production greater larger manors have been constructed to better support the smallfolk there."
+
+ building_farm_estates_05:0 "Mülkler"
+
+ building_farm_estates_05_desc:0 "Mülkler devasadır ve etrafını uçsuz bucaksız araziler çevreler. Miras yoluyla geçtiği için mülklere sahip olan aileler istedikleri gibi tarlalarını düzenleyebilir ve en iyi şekle getirmek için uğraşabilir."
+
+ building_farm_estates_06:0 "Yel Değirmenleri"
+
+ building_farm_estates_06_desc:0 "Yer değirmenleri tahıl öğütmek için gereken iş gücünü azaltıp verimliliği inanılmaz derecede arttırır."
  building_farm_estates_07:1 "Birleşmiş Konaklar"
  building_farm_estates_07_desc:2 "Zengin aileler daha yoksul ailelerin konaklarını satın alarak malikâneler kurabilir, bu malikânelerde herkes aynı talimatla çalıştığı gibi, vergisini de birlikte öder."
  building_farm_estates_08:1 "Büyük Malikâneler"
@@ -183,8 +183,8 @@
  building_regimental_grounds_02:1 "Çavuş Evleri"
  building_regimental_grounds_02_desc:1 "Her askerin kalacak bir yeri olduğundan ve silahını nasıl kullanmasını bildiğinden emin olan çavuşlar kendilerine özel evlerde kalır."
  building_regimental_grounds_03:1 "Yarı Kalıcı Konutlar"
-### TODO AGOT-CHANGED: building_regimental_grounds_03_desc [AGOT: Wooden barracks are not very resistant but keep the local levies dry and warm â€” mostly. | TR: Tahta kulübeler çok dayanıklı olmasalar da yerel milisleri - büyük oranda - kuru ve sıcak tutmayı başarır.]
- building_regimental_grounds_03_desc: "Wooden barracks are not very resistant but keep the local levies dry and warm â€” mostly."
+
+ building_regimental_grounds_03_desc:0 "Tahta kulübeler çok dayanıklı olmasalar da yerel milisleri - büyük oranda - kuru ve sıcak tutmayı başarır."
  building_regimental_grounds_04:1 "Kışlalar"
  building_regimental_grounds_04_desc:2 "Talim alanlarını çevreleyen sağlam taş kışlalar sayesinde çok büyük miktarda milis kuvveti savaşa hazırlanabilir."
  building_regimental_grounds_05:1 "Askerî Ambarlar"
@@ -204,27 +204,27 @@
  building_curtain_walls_03:1 "Sur Burçları"
  building_curtain_walls_03_desc:1 "Sur burçları mükemmel bakış açıları sağlar ve askerler düşmanı önceden görüp ok atabilirler. Savaşta değilken de köylülere yukarıdan bakmaya yarar."
  building_curtain_walls_04:1 "İkinci Cephe Duvarı"
-### TODO AGOT-CHANGED: building_curtain_walls_04_desc [AGOT: The addition of a second curtain wall makes for an unsurpassed defensive position. If an enemy army manages to break through the first wall, they will be greeted by yet another â€” enough to demoralize any assailant! | TR: İkinci cephe duvarlarının eklenmesi ile savunabilirlik iyice artar. Düşman ordusu ilk suru aştığında bir başkasıyla daha karşılaşınca morali bozulur.]
- building_curtain_walls_04_desc:1 "The addition of a second curtain wall makes for an unsurpassed defensive position. If an enemy army manages to break through the first wall, they will be greeted by yet another â€” enough to demoralize any assailant!"
-### TODO AGOT-CHANGED: building_curtain_walls_05 [AGOT: Killing Fields | TR: Zwinger]
- building_curtain_walls_05:1 "Killing Fields"
-### TODO AGOT-CHANGED: building_curtain_walls_05_desc [AGOT: When an enemy army manages to break through the outer walls, they will unwittingly be funneled into the #emphasis killing fields#!. Devilishly clever! | TR: Düşman ordusu dış duvarları aşınca farkında olmadan 'Zwinger' denilen ölüm alanlarına çekilir. Bu alanlarda düşmanlara ağır hasar verilebilir. Oldukça kurnazca bir hareket.]
- building_curtain_walls_05_desc:1 "When an enemy army manages to break through the outer walls, they will unwittingly be funneled into the #emphasis killing fields#!. Devilishly clever!"
+
+ building_curtain_walls_04_desc:0 "İkinci cephe duvarlarının eklenmesi ile savunabilirlik iyice artar. Düşman ordusu ilk suru aştığında bir başkasıyla daha karşılaşınca morali bozulur."
+
+ building_curtain_walls_05:0 "Zwinger"
+
+ building_curtain_walls_05_desc:0 "Düşman ordusu dış duvarları aşınca farkında olmadan 'Zwinger' denilen ölüm alanlarına çekilir. Bu alanlarda düşmanlara ağır hasar verilebilir. Oldukça kurnazca bir hareket."
  building_curtain_walls_06:1 "Dış Kale Avluları"
-### TODO AGOT-CHANGED: building_curtain_walls_06_desc [AGOT: More walls mean more baileys, and by extension, more safe storage for supplies. With baileys this many, we can even store an entire stable's worth of knightly mounts within the walls â€” an excellent thing, should we run out of pickled boar's heads... | TR: Daha fazla sur daha fazla avlu ve daha fazla depolama alanı anlamına gelir. Bu kadar fazla avlu sayesinde büyük bir ahırı dolduracak kadar atı bile surların arasında barındırabiliriz. Hem yiyeceğimiz biterse farklı amaçlar için kullanılabilirler...]
- building_curtain_walls_06_desc:1 "More walls mean more baileys, and by extension, more safe storage for supplies. With baileys this many, we can even store an entire stable's worth of knightly mounts within the walls â€” an excellent thing, should we run out of pickled boar's heads..."
-### TODO AGOT-CHANGED: building_curtain_walls_07 [AGOT: Bastion Fort | TR: Trace Italienne]
- building_curtain_walls_07:1 "Bastion Fort"
-### TODO AGOT-CHANGED: building_curtain_walls_07_desc [AGOT: The bastion fort is a type of defensive structure that can resist even the relentless pounding of cannons. Well, not for very long, but at least for long enough to allow safe escape through the secret tunnels... | TR: Trace Italienne denilen hisar kaleleri en büyük toplara bile dayanabilir, kısa bir süreliğine bile olsa da. En azından gizli tünellerden kaçmak için zaman kazandırır.]
- building_curtain_walls_07_desc:1 "The bastion fort is a type of defensive structure that can resist even the relentless pounding of cannons. Well, not for very long, but at least for long enough to allow safe escape through the secret tunnels..."
+
+ building_curtain_walls_06_desc:0 "Daha fazla sur daha fazla avlu ve daha fazla depolama alanı anlamına gelir. Bu kadar fazla avlu sayesinde büyük bir ahırı dolduracak kadar atı bile surların arasında barındırabiliriz. Hem yiyeceğimiz biterse farklı amaçlar için kullanılabilirler..."
+
+ building_curtain_walls_07:0 "Trace Italienne"
+
+ building_curtain_walls_07_desc:0 "Trace Italienne denilen hisar kaleleri en büyük toplara bile dayanabilir, kısa bir süreliğine bile olsa da. En azından gizli tünellerden kaçmak için zaman kazandırır."
  building_curtain_walls_08:1 "Ravelin & Cavalier"
  building_curtain_walls_08_desc:1 "Cavalier, askerlerimizin duvardaki ana siperler üzerinden ok yağdırabilmesini sağlayan yükseltilmiş platformlardır. Tek sorun düşmanlar da böylece nereye ok atacaklarını bilir. Ravelin denilen, kuşatan düşman ordusunu bölmek için inşa edilen üçgensel surlardaki askerlerimiz bunu engellemeye çalışacaktır."
  building_type_cereal_fields_01:1 "Tarlalar"
-### TODO AGOT-CHANGED: building_type_cereal_fields_01_desc [AGOT: Farms and fields are the backbones of any economy. Fueling man, beast, army, and feast â€“ there is no understating the power of simple grain. | TR: Tarlalar ve otlaklar her ekonominin belkemiğidir. İnsanı, hayvanı, orduları ve ziyafetleri besler. Tahılın gücü azımsanamaz.]
- building_type_cereal_fields_01_desc:1 "Farms and fields are the backbones of any economy. Fueling man, beast, army, and feast â€“ there is no understating the power of simple grain."
+
+ building_type_cereal_fields_01_desc:0 "Tarlalar ve otlaklar her ekonominin belkemiğidir. İnsanı, hayvanı, orduları ve ziyafetleri besler. Tahılın gücü azımsanamaz."
  building_cereal_fields_01:1 "Ekin Alanları"
-### TODO AGOT-CHANGED: building_cereal_fields_01_desc [AGOT: Crop fields, the backbone of the feudal economy, each manned by a small but generous family of peasants â€“ all but willing to surrender most of what they produce in tithe to the crown! | TR: Ekin alanları feodal ekonominin belkemiğidir. Her bir tarla, ürettiklerinin neredeyse hepsini hükümdarlarına vermeye razı cömert köylüler tarafından işlenir.]
- building_cereal_fields_01_desc:1 "Crop fields, the backbone of the feudal economy, each manned by a small but generous family of peasants â€“ all but willing to surrender most of what they produce in tithe to the crown!"
+
+ building_cereal_fields_01_desc:0 "Ekin alanları feodal ekonominin belkemiğidir. Her bir tarla, ürettiklerinin neredeyse hepsini hükümdarlarına vermeye razı cömert köylüler tarafından işlenir."
  building_cereal_fields_02:1 "Mezralar"
  building_cereal_fields_02_desc:2 "Daha fazla mezra inşa ederek daha fazla köylü çalıştırabilir, yerel üretimi ve vergilendirmeyi arttırabiliriz."
  building_cereal_fields_03:1 "Ahırlar"
@@ -234,8 +234,8 @@
  building_cereal_fields_05:1 "Ambarlar"
  building_cereal_fields_05_desc:2 "Ambarlar kış mevsimi boyunca tahılların, etlerin ve meyvelerin saklanmasını sağlar. Fare ve böceklerin istilasına karşı dayanıksız olsalar da, en azından stoklanan ürünün kuru kalmasını sağlarlar."
  building_cereal_fields_06:1 "Büyük Ahırlar"
-### TODO AGOT-CHANGED: building_cereal_fields_06_desc [AGOT: Farmers safely collect the portion of their produce due to the clergy in tithe barns â€“ of course, this also makes it easier for us to tax them. | TR: Köylüler büyük ahırlarda hasatlarının ruhban sınıfına düşen payını saklayabilirler, bu da onların vergilendirilmesini daha kolay hâle getirir.]
- building_cereal_fields_06_desc:2 "Farmers safely collect the portion of their produce due to the clergy in tithe barns â€“ of course, this also makes it easier for us to tax them."
+
+ building_cereal_fields_06_desc:0 "Köylüler büyük ahırlarda hasatlarının ruhban sınıfına düşen payını saklayabilirler, bu da onların vergilendirilmesini daha kolay hâle getirir."
  building_cereal_fields_07:1 "Uçsuz Bucaksız Tarlalar"
  building_cereal_fields_07_desc:2 "Köylüleri daha fazla toprak sürmeye ve komşularının tarlalarına olabildiğince yaklaşmaya teşvik ederek üretkenliği arttırabiliriz, öte yandan tarlaların birbirine çok yaklaşması köylüler arasındaki münakaşaları da beraberinde getirebilir."
  building_cereal_fields_08:1 "Tahıl Siloları"
@@ -243,8 +243,8 @@
  building_type_paddy_fields_01: "Pirinç Tarlaları"
  building_type_paddy_fields_01_desc: "Dünya karnıyla yürür. Mütevazı pirinç tanesi tek başına önemsiz görünebilir ama zamanın başlangıcından beri ulusları doyurmuştur."
  building_paddy_fields_01: "Sulak Tarlalar"
-### TODO AGOT-CHANGED: building_paddy_fields_01_desc [AGOT: Rice farming is widespread across the world's wetter regions. Usually seeds are planted in the ground and watered and tended after, but they're not fully submerged in the water â€” but that is exactly how to cultivate rice. | TR: Pirinç tarımı, dünyanın daha yağışlı bölgelerinde yaygındır. Genellikle tohumlar toprağa ekilir, ardından sulanıp bakımı yapılır ancak tam anlamıyla suya gömülü olmazlar, pirinç yetiştirmenin püf noktası tam da budur.]
- building_paddy_fields_01_desc: "Rice farming is widespread across the world's wetter regions. Usually seeds are planted in the ground and watered and tended after, but they're not fully submerged in the water â€” but that is exactly how to cultivate rice."
+
+ building_paddy_fields_01_desc:0 "Pirinç tarımı, dünyanın daha yağışlı bölgelerinde yaygındır. Genellikle tohumlar toprağa ekilir, ardından sulanıp bakımı yapılır ancak tam anlamıyla suya gömülü olmazlar, pirinç yetiştirmenin püf noktası tam da budur."
  building_paddy_fields_02: "Çeltik Sürümü"
  building_paddy_fields_02_desc: "Pirinçi verimli biçimde yetiştirmek için yalnızca su ve toprak yetmez. Toprağın, suyun altında bile hazırlanması gerekir, sabanlarla sürülür, tırmıklarla işlenir."
  building_paddy_fields_03: "Sulamalı Teraslar"
@@ -272,8 +272,8 @@
  building_barracks_05:1 "Demirciler"
  building_barracks_05_desc:2 "Kamp demircileri getirerek milislerin eskiyen silahlarını tamir ettirebilir ve böylece ordumuzun durumunu iyileştirebiliriz."
  building_barracks_06:1 "Talim Alanları"
-### TODO AGOT-CHANGED: building_barracks_06_desc [AGOT: By putting up training dummies and obstacle courses, we can sift the chaff from the wheat â€“ and that way we know which men to put at the front of the formations. | TR: Talim mankenleri ve engel parkurları koyarak askerlerimizi elemelerden geçirebiliriz. Böylece hangilerini ön saflara koyacağımızı da bilmiş oluruz.]
- building_barracks_06_desc:1 "By putting up training dummies and obstacle courses, we can sift the chaff from the wheat â€“ and that way we know which men to put at the front of the formations."
+
+ building_barracks_06_desc:0 "Talim mankenleri ve engel parkurları koyarak askerlerimizi elemelerden geçirebiliriz. Böylece hangilerini ön saflara koyacağımızı da bilmiş oluruz."
  building_barracks_07:1 "Asker Toplama Merkezleri"
  building_barracks_07_desc:1 "Etraftaki köylerde asker toplama merkezleri inşa ederek kolaylıkla ordumuza her türlü iti kopuğu alabiliriz."
  building_barracks_08:1 "Kalıcı Kışlalar"
@@ -367,8 +367,8 @@
  building_hill_forts_07:1 "Büyük Tepe Kalesi"
  building_hill_forts_07_desc:1 "Merkezî kale önemli bir şekilde genişletildi ve geliştirildi, artık görkemli bir şekilde göğe doğru uzanıyor."
  building_hill_forts_08:1 "Karmaşık Tahkimatlar"
-### TODO AGOT-CHANGED: building_hill_forts_08_desc [AGOT: The earthwork surrounding the hill fort is so complex and confusing that enemy armies barely know which entrance they should storm, something which works to our advantage â€“ especially seeing as half of them lead to deadly traps... | TR: Tepe kalesini çevreleyen toprak tahkimatlar o kadar karmaşık ve anlaşılmaz ki düşman orduları hangi kapıya saldıracaklarını bilmiyor. Ayrıca tahkimatların yarısı da askerleri ölümcül tuzaklara doğru götürüyor.]
- building_hill_forts_08_desc:1 "The earthwork surrounding the hill fort is so complex and confusing that enemy armies barely know which entrance they should storm, something which works to our advantage â€“ especially seeing as half of them lead to deadly traps..."
+
+ building_hill_forts_08_desc:0 "Tepe kalesini çevreleyen toprak tahkimatlar o kadar karmaşık ve anlaşılmaz ki düşman orduları hangi kapıya saldıracaklarını bilmiyor. Ayrıca tahkimatların yarısı da askerleri ölümcül tuzaklara doğru götürüyor."
  building_type_plantations_01:1 "Çöl Tarımı"
  building_type_plantations_01_desc:1 "Buradaki tarlalar ve bahçeler acımasız iklime dayanabilen meyveleri ve sebzeleri yetiştirmeye odaklanır."
  building_plantations_01:1 "Küçük Tarlalar"
@@ -379,16 +379,16 @@
  building_plantations_03_desc:1 "Dokumacılar atölyelerinde dokudukları eşyaları çöl göçebelerine satar."
  building_plantations_04:1 "Kaynak Suları"
  building_plantations_04_desc:1 "Sınırlı suya sahip olan bölgeyi yeni bir kuyu ile zenginleştirebiliriz. Çeşitli su kaynakları keşfedildi ve hepsi için de düzgün kuyular inşa edildi."
-### TODO AGOT-CHANGED: building_plantations_05 [AGOT: Fertigation | TR: Kervansaraylar]
- building_plantations_05:1 "Fertigation"
-### TODO AGOT-CHANGED: building_plantations_05_desc [AGOT: By directing fertilizers specifically into the where the crops will grow, we are not only are we cutting down the use of fertilizers, but increasing our yields! | TR: Büyük ticaret kervanlarındaki hayvanların dinlenmesi için kalacak bir yer gerekir. Kervansaraylar gereken alanı sağlar ve bunun yanında vergilendirmeyi de arttırır.]
- building_plantations_05_desc:1 "By directing fertilizers specifically into the where the crops will grow, we are not only are we cutting down the use of fertilizers, but increasing our yields!"
+
+ building_plantations_05:0 "Kervansaraylar"
+
+ building_plantations_05_desc:0 "Büyük ticaret kervanlarındaki hayvanların dinlenmesi için kalacak bir yer gerekir. Kervansaraylar gereken alanı sağlar ve bunun yanında vergilendirmeyi de arttırır."
  building_plantations_06:1 "Hurma Bahçeleri"
  building_plantations_06_desc:1 "Toprağın bahçeler için daha uygun hâle gelmesiyle hurma bahçeleri kurulmaya başlandı. Tatlı hurmalar uzun süre dayanır ve tüccarlar için değerlidir."
-### TODO AGOT-CHANGED: building_plantations_07 [AGOT: Drip Irrigation | TR: Sulama]
- building_plantations_07:1 "Drip Irrigation"
-### TODO AGOT-CHANGED: building_plantations_07_desc [AGOT: By directing water directly to the roots of plants, not only are we cutting down the use of water, almost to a fifth, we are increasing our yields by nearly double. | TR: Tarlaları kuyulardan gelen sularla sulayarak sadece tamamen kendi kendine yeten tarlalardan yavaş yavaş kurtulmaya başlarız. Bu zorlu bir iştir, çölü yeşillendirmek kolay değildir.]
- building_plantations_07_desc:1 "By directing water directly to the roots of plants, not only are we cutting down the use of water, almost to a fifth, we are increasing our yields by nearly double."
+
+ building_plantations_07:0 "Sulama"
+
+ building_plantations_07_desc:0 "Tarlaları kuyulardan gelen sularla sulayarak sadece tamamen kendi kendine yeten tarlalardan yavaş yavaş kurtulmaya başlarız. Bu zorlu bir iştir, çölü yeşillendirmek kolay değildir."
  building_plantations_08:1 "Büyük Tarlalar"
  building_plantations_08_desc:1 "Bu tarlalar artık kendine gerekenden daha fazlasını üretir, böylece ürünler artık kâr amacıyla satılabilir."
  building_type_outposts_01:0 "Karakollar"
@@ -438,8 +438,8 @@
  building_quarries_04:1 "Büyük Taş Madenleri"
  building_quarries_04_desc:1 "İnşaat malzemeleri için olan talep arttıkça madenler de daha fazla işçi çekmeye başlar. Madenler her yıl daha da genişleyip derinleşiyor."
  building_quarries_05:1 "Büyük Madenler"
-### TODO AGOT-CHANGED: building_quarries_05_desc [AGOT: The need for metals keeps growing, and new techniques aren't everything. Production must be scaled up, and more mines are opened! | TR: Metal ihtiyacı büyüyor ve yeni yöntemler yetersiz kalıyor. Üretim arttırılmalı ve daha fazla maden açılmalı.]
- building_quarries_05_desc:1 "The need for metals keeps growing, and new techniques aren't everything. Production must be scaled up, and more mines are opened!"
+
+ building_quarries_05_desc:0 "Metal ihtiyacı büyüyor ve yeni yöntemler yetersiz kalıyor. Üretim arttırılmalı ve daha fazla maden açılmalı."
  building_quarries_06:1 "Devasa Taş Madenleri"
  building_quarries_06_desc:1 "Devasa açık ocaklı madenlerde işçiler neredeyse endüstriyel seviyede taş oyabiliyor. Sık sık ağzı açıkmış gibi duran tükenmiş madenler görülebiliyor. Bu madenlerin içerisindeki taşlar artık kalelerin ve surlarında duvarlarını oluşturuyor."
  building_quarries_07:1 "Maden Kuyuları"
@@ -451,8 +451,8 @@
  building_military_camps_01:1 "Hayvan Postlu Çadırlar"
  building_military_camps_01_desc:1 "Milisler çağrıldığında ilkel kamplarda basit çadırlarda uyurlar. Çok rahat olmasalar bile ucuzdur ve taşınabilir."
  building_military_camps_02:1 "Kamp Aşçıları"
-### TODO AGOT-CHANGED: building_military_camps_02_desc [AGOT: By assigning a portion of the levies to collect and prepare food for the rest, more men are lured in from the countryside â€“ drawn in by the smell of food. | TR: Milislerin bir kısmını diğerleri için yiyecek toplayıp hazırlamayla görevlendirerek yemek kokularını takip eden köylüler sayesinde asker sayımızı arttırırız.]
- building_military_camps_02_desc:1 "By assigning a portion of the levies to collect and prepare food for the rest, more men are lured in from the countryside â€“ drawn in by the smell of food."
+
+ building_military_camps_02_desc:0 "Milislerin bir kısmını diğerleri için yiyecek toplayıp hazırlamayla görevlendirerek yemek kokularını takip eden köylüler sayesinde asker sayımızı arttırırız."
  building_military_camps_03:1 "Talim Bölgeleri"
  building_military_camps_03_desc:1 "Okçu hedefleri ve mankenleri savaştan önce milislere hem oyalanacakları bir şey verir hem de onları savaşa hazırlar."
  building_military_camps_04:1 "Gözcü Kuleler"
@@ -674,8 +674,8 @@
  building_horse_pastures_07:0 "Ek Atlar"
  building_horse_pastures_07_desc:0 "Savaş atı yorulduğunda, binici attan iner ve başka bir ata geçer. Kullanılan binek, binicinin ağırlığı olmadan da olsa, binici ve diğer yedek atlarla birlikte seyahat etmeye devam eder. Böyle bir yaklaşım ordularımızın muazzam mesafeler kat etmesini ve ana kuvvetin önünde sürekli keşif yapabilmesini sağlar."
  building_horse_pastures_08:0 "Atlı Muharebenin Kanunları"
-### TODO AGOT-ONLY: building_horse_pastures_08_desc [AGOT: ]
- building_horse_pastures_08_desc:0 ""See to it that your men keep their crupper hanging loose on their mounts and the bit of their bridle out of the mouth, except when you allow them to hunt. That way, they won't be able to gallop off at their whim. Having established these rules, see to it you seize and beat any man who breaks them. Any man who ignores this decree, cut off his head where he stands.""
+
+ building_horse_pastures_08_desc:0 ""Adamlarınızın atlarında sağrı kayışının gevşek sarkmasını ve gemin kayışının ağızlarının dışında kalmasını sağlayın, avlanmalarına izin verdiğiniz zamanlar hariç. Böylece istedikleri an dörtnala kaçamazlar. Bu kuralları belirledikten sonra, onları çiğneyen herkesi yakalayıp dövmenizi sağlayın. Bu fermanı görmezden gelen her kimse, olduğu yerde kafasını kesin.""
  building_type_warrior_lodges_01:0 "Savaşçı Locaları"
  building_type_warrior_lodges_01_desc:0 "Savaş meydanlarında kurulan kişisel bağlar, eski savaşçıların harikulade ama inandırıcı hikâyelerini hayalperest gençlerle paylaşabilecekleri anma salonlarını hak ediyor."
  building_warrior_lodges_01:0 "Ödül Salonları"
@@ -757,8 +757,8 @@
  building_caravanserai_03:0 "Muhafız Karargahı"
  building_caravanserai_03_desc:0 "Daimi muhafız bölmelerinin ve uyanık nöbetçiler tarafından yönetilen bir dizi gözetleme kulesinin eklenmesi, gecenin enginliğinde gizlenen tehlikelere karşı aktif olarak koruma sağlar."
  building_caravanserai_04:0 "Tüccar Salonları"
-### TODO AGOT-CHANGED: building_caravanserai_04_desc [AGOT: In these halls, merchants from all ends of the world are exchanging trade goods and sharing stories from the lands they traveled through. | TR: Bu salonlarda, Dünya'nın dört bir yanından gelen tüccarlar ticaret mallarını değiş tokuş ediyor ve seyahat ettikleri topraklardan hikâyeler paylaşıyorlar.]
- building_caravanserai_04_desc:0 "In these halls, merchants from all ends of the world are exchanging trade goods and sharing stories from the lands they traveled through."
+
+ building_caravanserai_04_desc:0 "Bu salonlarda, Dünya'nın dört bir yanından gelen tüccarlar ticaret mallarını değiş tokuş ediyor ve seyahat ettikleri topraklardan hikâyeler paylaşıyorlar."
  building_caravanserai_05:0 "Gümrük Ofisi"
  building_caravanserai_05_desc: "Güneşin sert sıcağında, sert yüzlü memurlar bu kervansaraydan geçen tüm ticari malları tartar, kaydeder ve uygun şekilde vergilendirir. Gölgelerde, nazik yüzlü kişiler, malları daha... #EMP uygun#! bir ücret karşılığı taşımayı teklif eder."
  building_caravanserai_06:0 "Zanaatkâr Atölyeleri"
@@ -779,15 +779,15 @@
  building_workshops_04_desc:0 "Aldatıcı bir şekilde basit görünse de, kuşatmalar sırasında tünel açmak çok fazla özveri ve uzmanlık gerektiren bir iştir. İlk kuşatmalarından sağ çıkanlar, bilgi ve pratik becerilerini istekli gönüllülerle paylaşabilirler."
  building_workshops_05:0 "Yaycı Loncası"
  building_workshops_05_desc:0 "Hem silahlara hem de cephaneye olan talebin artması nedeniyle artık okçu loncasının bir parçası olmayan ayrı bir yaycı loncası, sahadaki birlikleri ayakta tutmak için gereken tüm okları yorulmadan sağlar."
-### TODO AGOT-CHANGED: building_workshops_06 [AGOT: Engineers' Halls | TR: Matematikçi Salonları]
- building_workshops_06:0 "Engineers' Halls"
+
+ building_workshops_06:0 "Matematikçi Salonları"
  building_workshops_06_desc:0 "Daha iyi isabet ve menzil elde etmek için burulma motoru parametrelerinde yapılan tekrarlanan deneme yanılma ayarlamaları, bazı kuşatma mühendislerimizin başarılı yöntemlerini yazmaya başlamasına neden oldu. Onların kayıtları şimdi tüm salonları dolduruyor, hem de kargaşa ve tartışmalarla."
  building_workshops_07:0 "Standartlaştırılmış Silah Büyüklüğündeları"
  building_workshops_07_desc:0 "Çeşitli ahşap kirişlerin istenilen uzunluklarda doldurulduğu defterlerle, 90 kilogram ağırlığındaki bir merminin tam 300 metre fırlatılmasını sağlayabiliriz. İdeal hava koşulları altında. Çoğu zaman."
-### TODO AGOT-CHANGED: building_workshops_08 [AGOT: Pitch Warehouse | TR: Barut Depoları]
- building_workshops_08:0 "Pitch Warehouse"
-### TODO AGOT-CHANGED: building_workshops_08_desc [AGOT: A detached, sturdy building with a strict entry policy serves as a storage for terrifying amounts of pitch, tar, and other combustibles, to be used either in tunnel warfare, coating for projectiles, or siege defense. | TR: Sıkı bir giriş politikası olan müstakil, sağlam bir bina, tünel savaşında güçlü patlayıcılar için ya da bombardımanlarda itici güç olarak kullanılmak üzere korkunç miktarda barut için bir depo görevi görür.]
- building_workshops_08_desc:0 "A detached, sturdy building with a strict entry policy serves as a storage for terrifying amounts of pitch, tar, and other combustibles, to be used either in tunnel warfare, coating for projectiles, or siege defense."
+
+ building_workshops_08:0 "Barut Depoları"
+
+ building_workshops_08_desc:0 "Sıkı bir giriş politikası olan müstakil, sağlam bir bina, tünel savaşında güçlü patlayıcılar için ya da bombardımanlarda itici güç olarak kullanılmak üzere korkunç miktarda barut için bir depo görevi görür."
  building_type_wind_furnace_01:0 "Rüzgâr Fırınları"
  building_type_wind_furnace_01_desc:0 "Muson rüzgârlarının karayı ilk etkilediği okyanus kıyısındaki tepelik araziye yerleştirilen rüzgâr fırınları, kusursuz kalitede dünyaca ünlü çeliği eritir."
  building_wind_furnace_01:0 "Küçük Rüzgâr Fırınları"
@@ -836,8 +836,8 @@
  building_petra_01:0 "$building_type_petra_01$"
  building_petra_01_desc:0 "$building_type_petra_01_desc$"
  building_type_house_of_wisdom_01:0 "Beyt'ül Hikmet"
-### TODO AGOT-CHANGED: building_type_house_of_wisdom_01_desc [AGOT: The House of Wisdom contains a vast collection of books, and the scribes therein work tirelessly both day and night to translate even more great works of literature. The sources vary from Greek, Persian, Indian and many more â€” truly, it contains the entire world's knowledge! A shining beacon of human knowledge! And comfortably far from the illiterate horsemen of the steppe... | TR: Beyt'ül Hikmet, birçok cilt kitap barındırır ve içerisindeki yazmanlar her gün ve her gece daha fazla edebi eser çevirmek için uğraşır. Kitaplar Yunancadan, Farsçadan, Hintçeden ve diğer birçok dillerden çevrilir, kütüphaneyi gerçekten de dünyanın bilgi hazinesi yapar. İnsan bilgisinin parıldayan bir ışığıdır ve bozkırlardaki okuma yazma bilmeyen atlılardan da uzaktır...]
- building_type_house_of_wisdom_01_desc:0 "The House of Wisdom contains a vast collection of books, and the scribes therein work tirelessly both day and night to translate even more great works of literature. The sources vary from Greek, Persian, Indian and many more â€” truly, it contains the entire world's knowledge! A shining beacon of human knowledge! And comfortably far from the illiterate horsemen of the steppe..."
+
+ building_type_house_of_wisdom_01_desc:0 "Beyt'ül Hikmet, birçok cilt kitap barındırır ve içerisindeki yazmanlar her gün ve her gece daha fazla edebi eser çevirmek için uğraşır. Kitaplar Yunancadan, Farsçadan, Hintçeden ve diğer birçok dillerden çevrilir, kütüphaneyi gerçekten de dünyanın bilgi hazinesi yapar. İnsan bilgisinin parıldayan bir ışığıdır ve bozkırlardaki okuma yazma bilmeyen atlılardan da uzaktır..."
  building_house_of_wisdom_01:0 "$building_type_house_of_wisdom_01$"
  building_house_of_wisdom_01_desc:0 "$building_type_house_of_wisdom_01_desc$"
  building_type_palace_of_aachen_01:1 "$building_palace_of_aachen_01$"
@@ -869,8 +869,8 @@
  building_iron_pillar_of_dhar_01:0 "$building_type_iron_pillar_of_dhar_01$"
  building_iron_pillar_of_dhar_01_desc:0 "$building_type_iron_pillar_of_dhar_01_desc$"
  building_type_iron_pillar_of_delhi_01:0 "Delhi'nin Demir Sütunu"
-### TODO AGOT-CHANGED: building_type_iron_pillar_of_delhi_01_desc [AGOT: The mighty Iron Pillar of Delhi stands as a symbol to the glory of King Chandragupta II, though subsequent rulers have also etched their names into it. Despite having stood for a long time, there's no trace of rust â€“ a testament to the skill of Indian ironsmiths! | TR: Delhi'nin Demir Sütunu, Kral II. Çandragupta için inşa edilmiş olsa da ondan sonra gelen hükümdarlar da adlarını kazımıştır. Uzun süredir ayakta olmasına rağmen hiç pas yoktur, bu da Hint demircilerin hünerini gösterir.]
- building_type_iron_pillar_of_delhi_01_desc:0 "The mighty Iron Pillar of Delhi stands as a symbol to the glory of King Chandragupta II, though subsequent rulers have also etched their names into it. Despite having stood for a long time, there's no trace of rust â€“ a testament to the skill of Indian ironsmiths!"
+
+ building_type_iron_pillar_of_delhi_01_desc:0 "Delhi'nin Demir Sütunu, Kral II. Çandragupta için inşa edilmiş olsa da ondan sonra gelen hükümdarlar da adlarını kazımıştır. Uzun süredir ayakta olmasına rağmen hiç pas yoktur, bu da Hint demircilerin hünerini gösterir."
  building_iron_pillar_of_delhi_01:0 "$building_type_iron_pillar_of_delhi_01$"
  building_iron_pillar_of_delhi_01_desc:0 "$building_type_iron_pillar_of_delhi_01_desc$"
  building_type_the_pyramids_01:0 "Piramitler"
@@ -884,8 +884,8 @@
  building_alhambra_02:0 "$building_type_alhambra_01$ Kraliyet Sarayı"
  building_alhambra_02_desc:1 "Eskiden Roma harabeleri olan yerde artık imparatorlara layık bir saray var. Yerel mimarinin en güzel örneklerinden biri olan El Hamra'nın rengi ile etrafındaki ormanların zıtlığı nedeniyle şairler onu 'zümrütlerin arasındaki inci' olarak tanımlıyor."
  building_type_shwedagon_pagoda_01:0 "Shwedagon Pagoda"
-### TODO AGOT-CHANGED: building_type_shwedagon_pagoda_01_desc [AGOT: The Shwedagon Pagoda is a sacred Buddhist stupa built by the Mon people around the year 500. It houses many famous relics, such as the staff of Kakusandha, the water filter of Koá¹‡Ägamana, a piece of the robe of Kassapa, and eight strands of hair from the head of Gautama. | TR: Shwedagon Pagodası, Mon halkı tarafından 500 yıllarında inşa edilmiş kutsal bir Budist stupadır. Kakusandha'nın asası, Koṇāgamana'nın su filtresi, Kassapa'nın elbisesinin bir parçası ve Gautama'nın sekiz saç teli gibi kutsal emanetleri barındırır.]
- building_type_shwedagon_pagoda_01_desc:0 "The Shwedagon Pagoda is a sacred Buddhist stupa built by the Mon people around the year 500. It houses many famous relics, such as the staff of Kakusandha, the water filter of Koá¹‡Ägamana, a piece of the robe of Kassapa, and eight strands of hair from the head of Gautama."
+
+ building_type_shwedagon_pagoda_01_desc:0 "Shwedagon Pagodası, Mon halkı tarafından 500 yıllarında inşa edilmiş kutsal bir Budist stupadır. Kakusandha'nın asası, Koṇāgamana'nın su filtresi, Kassapa'nın elbisesinin bir parçası ve Gautama'nın sekiz saç teli gibi kutsal emanetleri barındırır."
  building_shwedagon_pagoda_01:0 "Shwedagon Pagoda"
  building_shwedagon_pagoda_01_desc:0 "$building_type_shwedagon_pagoda_01_desc$"
  building_type_khajuraho_01:0 "Tapınak Şehir"
@@ -897,8 +897,8 @@
  building_the_tower_of_london_01:0 "Londra Kulesi"
  building_the_tower_of_london_01_desc:0 "$building_type_the_tower_of_london_01_desc$"
  building_type_london_bridge_01: "Londra Köprüsü"
-### TODO AGOT-CHANGED: building_type_london_bridge_01_desc [AGOT: There have been bridges over the River Thames since time immemorial, but this one â€” made of mighty stone â€” stands grander than all prior. The churning currents below have led to the common acceptance that the bridge is for wise men to pass over, and for fools to pass under. | TR: Thames Nehri üzerinde her zaman çeşitli köprüler olmuştu. Ancak taştan yapılmış olan bu muazzam köprü hepsini gölgede bırakıyor. Nehrin sert ve çalkantılı akıntısı nedeniyle, akıllı adamların köprünün üzerinden, aptalların ise altından geçtiği söylenir.]
- building_type_london_bridge_01_desc: "There have been bridges over the River Thames since time immemorial, but this one â€” made of mighty stone â€” stands grander than all prior. The churning currents below have led to the common acceptance that the bridge is for wise men to pass over, and for fools to pass under."
+
+ building_type_london_bridge_01_desc:0 "Thames Nehri üzerinde her zaman çeşitli köprüler olmuştu. Ancak taştan yapılmış olan bu muazzam köprü hepsini gölgede bırakıyor. Nehrin sert ve çalkantılı akıntısı nedeniyle, akıllı adamların köprünün üzerinden, aptalların ise altından geçtiği söylenir."
  building_london_bridge_01: "Londra Köprüsü"
  building_london_bridge_01_desc: "Genişletilmiş $building_type_london_bridge_01_desc$"
  building_type_citadel_of_aleppo_01:1 "$building_citadel_of_aleppo_01$"
@@ -1084,10 +1084,10 @@
  building_type_al_azhar_university_desc:0 "$building_type_generic_university_desc$\n\nEl-Ezher Üniversitesi'nin adı, Hz. Muhammed'in kızı olan Fatıma'dan gelir. Fatıma'ya çoğu zaman El Zehra (parlak olan) denilmiştir."
  building_al_azhar_university:0 "$building_type_al_azhar_university$"
  building_al_azhar_university_desc:0 "$building_type_al_azhar_university_desc$"
-### TODO AGOT-CHANGED: building_type_sankore_university [AGOT: The University of SankorÃ© | TR: Sankore Üniversitesi]
- building_type_sankore_university:0 "The University of SankorÃ©"
-### TODO AGOT-CHANGED: building_type_sankore_university_desc [AGOT: $building_type_generic_university_desc$\n\nThe University of SankorÃ©, which started out as a Mosque, transformed into a center of learning after acquiring a wealth of books from traveling merchants. | TR: $building_type_generic_university_desc$\n\nCami olarak başlayan Sankore Üniversitesi, tüccarlardan elde ettiği kitap hazinelerinden sonra bir öğrenim merkezi hâline gelmiştir.]
- building_type_sankore_university_desc:0 "$building_type_generic_university_desc$\n\nThe University of SankorÃ©, which started out as a Mosque, transformed into a center of learning after acquiring a wealth of books from traveling merchants."
+
+ building_type_sankore_university:0 "Sankore Üniversitesi"
+
+ building_type_sankore_university_desc:0 "$building_type_generic_university_desc$\n\nCami olarak başlayan Sankore Üniversitesi, tüccarlardan elde ettiği kitap hazinelerinden sonra bir öğrenim merkezi hâline gelmiştir."
  building_sankore_university:0 "$building_type_sankore_university$"
  building_sankore_university_desc:0 "$building_type_sankore_university_desc$"
  building_type_siena_university:0 "Siena Üniversitesi"
@@ -1109,8 +1109,8 @@
  building_rammelsberg_mines_04:1 "Rammelsberg Maden Tesisi"
  building_rammelsberg_mines_04_desc:1 "Cevher üretimi arttıkça yerleşke etrafında çeşitli dökümhaneler ve ocaklar da kuruluyor. Burada yaşayanlar madeni işlemede uzman hâline gelmiş, becerileri de tüm dünyada biliniyor."
  building_type_falun_mines_01:0 "Falun Madenleri"
-### TODO AGOT-CHANGED: building_type_falun_mines_01_desc [AGOT: Also known as â€œStora Kopparbergetâ€ #italic (the Great Copper Mountain)#! this mine produces vast quantities of copper. | TR: 'Stora Kopparberget' #italic (Büyük Bakır Dağ)#! olarak da bilinen bu maden çok sayıda bakır üretiyor.]
- building_type_falun_mines_01_desc:1 "Also known as â€œStora Kopparbergetâ€ #italic (the Great Copper Mountain)#! this mine produces vast quantities of copper."
+
+ building_type_falun_mines_01_desc:0 "'Stora Kopparberget' #italic (Büyük Bakır Dağ)#! olarak da bilinen bu maden çok sayıda bakır üretiyor."
  building_falun_mines_01:1 "Falun Maden Yerleşkesi"
  building_falun_mines_01_desc:1 "$building_rammelsberg_mines_01_desc$"
  building_falun_mines_02:1 "Falun Madeni"
@@ -1119,21 +1119,21 @@
  building_falun_mines_03_desc:1 "$building_rammelsberg_mines_03_desc$"
  building_falun_mines_04:1 "Falun Maden Tesisi"
  building_falun_mines_04_desc:1 "$building_rammelsberg_mines_04_desc$"
-### TODO AGOT-CHANGED: building_type_kutna_hora_mines_01 [AGOT: KutnÃ¡ Hora Mine | TR: Kutná Hora Madeni]
- building_type_kutna_hora_mines_01:0 "KutnÃ¡ Hora Mine"
-### TODO AGOT-CHANGED: building_type_kutna_hora_mines_01_desc [AGOT: The KutnÃ¡ Hora mine is a large silver mine located on the lands of the Sedlec Monastery. With the support of local Abbots #italic (and German miners)#! industry in the area is prospering. | TR: Kutná Hora madeni Sedlec Manastırı topraklarındaki büyük bir gümüş madenidir. Rahiplerin de desteğiyle #italic (ve Alman madenciler)#! bölgedeki sanayi gelişiyor.]
- building_type_kutna_hora_mines_01_desc:1 "The KutnÃ¡ Hora mine is a large silver mine located on the lands of the Sedlec Monastery. With the support of local Abbots #italic (and German miners)#! industry in the area is prospering."
-### TODO AGOT-CHANGED: building_kutna_hora_mines_01 [AGOT: KutnÃ¡ Hora Mining Settlement | TR: Kutná Hora Maden Yerleşkesi]
- building_kutna_hora_mines_01:1 "KutnÃ¡ Hora Mining Settlement"
+
+ building_type_kutna_hora_mines_01:0 "Kutná Hora Madeni"
+
+ building_type_kutna_hora_mines_01_desc:0 "Kutná Hora madeni Sedlec Manastırı topraklarındaki büyük bir gümüş madenidir. Rahiplerin de desteğiyle #italic (ve Alman madenciler)#! bölgedeki sanayi gelişiyor."
+
+ building_kutna_hora_mines_01:0 "Kutná Hora Maden Yerleşkesi"
  building_kutna_hora_mines_01_desc:1 "$building_rammelsberg_mines_01_desc$"
-### TODO AGOT-CHANGED: building_kutna_hora_mines_02 [AGOT: KutnÃ¡ Hora Mine | TR: Kutná Hora Madeni]
- building_kutna_hora_mines_02:1 "KutnÃ¡ Hora Mine"
+
+ building_kutna_hora_mines_02:0 "Kutná Hora Madeni"
  building_kutna_hora_mines_02_desc:1 "$building_rammelsberg_mines_02_desc$"
-### TODO AGOT-CHANGED: building_kutna_hora_mines_03 [AGOT: Large KutnÃ¡ Hora Mine | TR: Büyük Kutná Hora Madeni]
- building_kutna_hora_mines_03:1 "Large KutnÃ¡ Hora Mine"
+
+ building_kutna_hora_mines_03:0 "Büyük Kutná Hora Madeni"
  building_kutna_hora_mines_03_desc:1 "$building_rammelsberg_mines_03_desc$"
-### TODO AGOT-CHANGED: building_kutna_hora_mines_04 [AGOT: KutnÃ¡ Hora Mining Complex | TR: Kutná Hora Maden Tesisi]
- building_kutna_hora_mines_04:1 "KutnÃ¡ Hora Mining Complex"
+
+ building_kutna_hora_mines_04:0 "Kutná Hora Maden Tesisi"
  building_kutna_hora_mines_04_desc:1 "$building_rammelsberg_mines_04_desc$"
  building_type_schwaz_mines_01:0 "Schwaz Madeni"
  building_type_schwaz_mines_01_desc:0 "Schwaz gümüş madeni Kellerjoch ve Eiblschrofen dağları arasındaki bir vadinin ortasında yer alır. Maden sayesinde bölgeye birçok kişi akın ediyor."
@@ -1295,21 +1295,21 @@
  building_suvarnadvipa_mines_03_desc: "$building_rammelsberg_mines_03_desc$"
  building_suvarnadvipa_mines_04: "Suvarnadvipa Madencilik Kompleksi"
  building_suvarnadvipa_mines_04_desc: "$building_rammelsberg_mines_04_desc$"
-### TODO AGOT-CHANGED: building_type_trepca_mines_01 [AGOT: The TrepÄa Mines | TR: Trepča Madenleri]
- building_type_trepca_mines_01:0 "The TrepÄa Mines"
-### TODO AGOT-CHANGED: building_type_trepca_mines_01_desc [AGOT: Situated on the slopes of Kopaonik, TrepÄa is an area that has been mined for silver since Roman times. While it was closed down in the early middle ages it still holds very rich deposits of precious metals. | TR: Kopaonik'in yamaçlarında yer alan Trepča, Roma döneminden beri gümüş madenciliği yapılan bir bölgedir. Ortaçağın başlarında kapatılmış olsa da hâlâ çok zengin değerli metal yataklarına sahiptir.]
- building_type_trepca_mines_01_desc:0 "Situated on the slopes of Kopaonik, TrepÄa is an area that has been mined for silver since Roman times. While it was closed down in the early middle ages it still holds very rich deposits of precious metals."
-### TODO AGOT-CHANGED: building_trepca_mines_01 [AGOT: TrepÄa Mining Settlement | TR: Trepča Madencilik Yerleşimi]
- building_trepca_mines_01:0 "TrepÄa Mining Settlement"
+
+ building_type_trepca_mines_01:0 "Trepča Madenleri"
+
+ building_type_trepca_mines_01_desc:0 "Kopaonik'in yamaçlarında yer alan Trepča, Roma döneminden beri gümüş madenciliği yapılan bir bölgedir. Ortaçağın başlarında kapatılmış olsa da hâlâ çok zengin değerli metal yataklarına sahiptir."
+
+ building_trepca_mines_01:0 "Trepča Madencilik Yerleşimi"
  building_trepca_mines_01_desc:0 "$building_type_trepca_mines_01_desc$"
-### TODO AGOT-CHANGED: building_trepca_mines_02 [AGOT: TrepÄa Mine | TR: Trepča Madeni]
- building_trepca_mines_02:0 "TrepÄa Mine"
+
+ building_trepca_mines_02:0 "Trepča Madeni"
  building_trepca_mines_02_desc:1 "$building_rammelsberg_mines_02_desc$"
-### TODO AGOT-CHANGED: building_trepca_mines_03 [AGOT: Large TrepÄa Mine | TR: Büyük Trepča Madeni]
- building_trepca_mines_03:0 "Large TrepÄa Mine"
+
+ building_trepca_mines_03:0 "Büyük Trepča Madeni"
  building_trepca_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
-### TODO AGOT-CHANGED: building_trepca_mines_04 [AGOT: TrepÄa Mining Complex | TR: Trepča Maden Kompleksi]
- building_trepca_mines_04:0 "TrepÄa Mining Complex"
+
+ building_trepca_mines_04:0 "Trepča Maden Kompleksi"
  building_trepca_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
  building_type_rudnik_mines_01:0 "Rudnik Madenleri"
  building_type_rudnik_mines_01_desc:0 "Madenlerin dağı Rudnik, gümüş, kurşun ve bakır açısından zengindir ve yüzlerce yıldır sürekli madencilik yapılmıştır."
@@ -1381,21 +1381,21 @@
  building_khetri_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
  building_khetri_mines_04:0 "Khetri Madencilik Kompleksi"
  building_khetri_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
-### TODO AGOT-CHANGED: building_type_cevennes_mines_01 [AGOT: The CÃ©vennes Mines | TR: Cévennes Madenleri]
- building_type_cevennes_mines_01:0 "The CÃ©vennes Mines"
-### TODO AGOT-CHANGED: building_type_cevennes_mines_01_desc [AGOT: The deep mines of the CÃ©vennes mountains have been built to extract the copper based silver deposits of the region. | TR: Cévennes dağlarının derin madenleri, bölgenin bakır bazlı gümüş yataklarını çıkarmak için inşa edilmiştir.]
- building_type_cevennes_mines_01_desc:0 "The deep mines of the CÃ©vennes mountains have been built to extract the copper based silver deposits of the region."
-### TODO AGOT-CHANGED: building_cevennes_mines_01 [AGOT: CÃ©vennes Mining Settlement | TR: Cévennes Madencilik Yerleşimi]
- building_cevennes_mines_01:0 "CÃ©vennes Mining Settlement"
+
+ building_type_cevennes_mines_01:0 "Cévennes Madenleri"
+
+ building_type_cevennes_mines_01_desc:0 "Cévennes dağlarının derin madenleri, bölgenin bakır bazlı gümüş yataklarını çıkarmak için inşa edilmiştir."
+
+ building_cevennes_mines_01:0 "Cévennes Madencilik Yerleşimi"
  building_cevennes_mines_01_desc:0 "$building_type_cevennes_mines_01_desc$"
-### TODO AGOT-CHANGED: building_cevennes_mines_02 [AGOT: CÃ©vennes Mine | TR: Cévennes Madeni]
- building_cevennes_mines_02:0 "CÃ©vennes Mine"
+
+ building_cevennes_mines_02:0 "Cévennes Madeni"
  building_cevennes_mines_02_desc:1 "$building_rammelsberg_mines_02_desc$"
-### TODO AGOT-CHANGED: building_cevennes_mines_03 [AGOT: Large CÃ©vennes Mine | TR: Büyük Cévennes Madeni]
- building_cevennes_mines_03:0 "Large CÃ©vennes Mine"
+
+ building_cevennes_mines_03:0 "Büyük Cévennes Madeni"
  building_cevennes_mines_03_desc:0 "$building_rammelsberg_mines_03_desc$"
-### TODO AGOT-CHANGED: building_cevennes_mines_04 [AGOT: CÃ©vennes Mining Complex | TR: Cévennes Madencilik Kompleksi]
- building_cevennes_mines_04:0 "CÃ©vennes Mining Complex"
+
+ building_cevennes_mines_04:0 "Cévennes Madencilik Kompleksi"
  building_cevennes_mines_04_desc:0 "$building_rammelsberg_mines_04_desc$"
  building_type_guiyang_mines_01:0 "Guiyang Madenleri"
  building_type_guiyang_mines_01_desc:0 "Guiyang, bin yılı aşkın süredir İmparatorluk darphanelerinin bulunduğu yer olmuştur. Hanedanlar boyunca yerel gümüş madenleri korunmuş ve ürettikleri gümüş para standardı kabul edilerek sikke basılmıştır."
@@ -1516,8 +1516,8 @@
  building_taghaza_mines_04:0 "Taghaza Madencilik Kompleksi"
  building_taghaza_mines_04_desc:0 "Tuz üretimi arttıkça, dünyanın her yerinden tüccar ve zanaatkârları kendine çekmeye başladı."
  building_type_ijil_mines_01:0 "İjil Tuz Madenleri"
-### TODO AGOT-CHANGED: building_type_ijil_mines_01_desc [AGOT: Ijil is one of the oldest salt mines in Africa and in many ways one of the first entrepÃ´ts of the trans-Saharan trade network. | TR: Ijil, Afrika'daki en eski tuz madenlerinden biridir ve birçok yönden Sahra ötesi ticaret ağının ilk antrepolarından biridir.]
- building_type_ijil_mines_01_desc:0 "Ijil is one of the oldest salt mines in Africa and in many ways one of the first entrepÃ´ts of the trans-Saharan trade network."
+
+ building_type_ijil_mines_01_desc:0 "Ijil, Afrika'daki en eski tuz madenlerinden biridir ve birçok yönden Sahra ötesi ticaret ağının ilk antrepolarından biridir."
  building_ijil_mines_01:0 "İjil Madencilik Mağaraları"
  building_ijil_mines_01_desc:0 "$building_type_ijil_mines_01_desc$"
  building_ijil_mines_02:0 "Ijil Madeni"
@@ -1778,10 +1778,10 @@
  building_type_danevirke_01_desc:1 "Danevirke, Avrupa'dan Danimarka'ya yapılan saldırıları önlemek için inşa edilen geniş çaplı toprak tahkimatlardır. İnşa edildiğinden sonra pek çok kez genişletilmiş ve geliştirilmiştir."
  building_danevirke_01:0 "$building_type_danevirke_01$"
  building_danevirke_01_desc:0 "$building_type_danevirke_01_desc$"
-### TODO AGOT-CHANGED: building_type_aljaferia_palace_01 [AGOT: AljaferÃ­a | TR: Aljafería]
- building_type_aljaferia_palace_01:0 "AljaferÃ­a"
-### TODO AGOT-CHANGED: building_type_aljaferia_palace_01_desc [AGOT: A great palace-fortress built on the SarÃ­a plain, the AljaferÃ­a is a testament to the power and wealth of Zaragoza. Imposing and splendid in equal measure; it is both an intimidating fortification and a pinnacle of Iberian architecture. | TR: Zaragoza'nın gücüne ve zenginliğine şahit olmak isteyenler, Saria vadisine inşa edilmiş büyük hisar Aljafería'ya bakabilirler. Kudreti ve güzelliği eşsiz olan bu göz korkutucu kale, aynı zamanda güzelliği ile İberya mimarisini üst noktalara çıkarmaktadır.]
- building_type_aljaferia_palace_01_desc:0 "A great palace-fortress built on the SarÃ­a plain, the AljaferÃ­a is a testament to the power and wealth of Zaragoza. Imposing and splendid in equal measure; it is both an intimidating fortification and a pinnacle of Iberian architecture."
+
+ building_type_aljaferia_palace_01:0 "Aljafería"
+
+ building_type_aljaferia_palace_01_desc:0 "Zaragoza'nın gücüne ve zenginliğine şahit olmak isteyenler, Saria vadisine inşa edilmiş büyük hisar Aljafería'ya bakabilirler. Kudreti ve güzelliği eşsiz olan bu göz korkutucu kale, aynı zamanda güzelliği ile İberya mimarisini üst noktalara çıkarmaktadır."
  building_aljaferia_palace_01:0 "$building_type_aljaferia_palace_01$"
  building_aljaferia_palace_01_desc:0 "$building_type_aljaferia_palace_01_desc$"
  building_type_roman_wall_of_lugo_01:0 "Lugo'nun Roma Surları"
@@ -1800,15 +1800,15 @@
  building_type_city_wall_of_toledo_01_desc:0 "Aslen Romalılar tarafından inşa edilen bu görkemli surlar, Vizigot kralı Wamba hükümdarlığı sırasında önemli ölçüde genişletildi. Toprakları ele geçiren ilk Arap kralları tarafından da büyütülen surlar, Krallar Şehri'ne layık bir savunma sistemi oluşturuyor."
  building_city_wall_of_toledo_01:0 "$building_type_city_wall_of_toledo_01$"
  building_city_wall_of_toledo_01_desc:0 "$building_type_city_wall_of_toledo_01_desc$"
-### TODO AGOT-CHANGED: building_type_alcazar_of_segovia_01 [AGOT: AlcÃ¡zar of Segovia | TR: Segovyalı Alcázar]
- building_type_alcazar_of_segovia_01:0 "AlcÃ¡zar of Segovia"
-### TODO AGOT-CHANGED: building_type_alcazar_of_segovia_01_desc [AGOT: Rising like the bow of a ship from a rocky crag, this fortress is an awe-inspiring sight. As majestic as it is impenetrable, it is the greatest of all castles in the kingdom of castles â€” Castile. | TR: Bir uçurumun üzerinde gemi pruvası gibi yükselir, baktığınızda gözlerinizi kamaştıran bir manzara yaratır. Zapt edilemez olduğu kadar da görkemli olan bu kale, aynı zamanda Kastilya Krallığı dönemindeki kalelerin en büyüğüydü.]
- building_type_alcazar_of_segovia_01_desc:0 "Rising like the bow of a ship from a rocky crag, this fortress is an awe-inspiring sight. As majestic as it is impenetrable, it is the greatest of all castles in the kingdom of castles â€” Castile."
+
+ building_type_alcazar_of_segovia_01:0 "Segovyalı Alcázar"
+
+ building_type_alcazar_of_segovia_01_desc:0 "Bir uçurumun üzerinde gemi pruvası gibi yükselir, baktığınızda gözlerinizi kamaştıran bir manzara yaratır. Zapt edilemez olduğu kadar da görkemli olan bu kale, aynı zamanda Kastilya Krallığı dönemindeki kalelerin en büyüğüydü."
  building_alcazar_of_segovia_01:0 "$building_type_alcazar_of_segovia_01$"
  building_alcazar_of_segovia_01_desc:0 "$building_type_alcazar_of_segovia_01_desc$"
  building_type_holy_site_basilica_santiago_01:0 "Santiago de Compostela Katedrali"
-### TODO AGOT-CHANGED: building_type_holy_site_basilica_santiago_01_desc [AGOT: Built over the tomb of James the Great, this splendid edifice is the end point of the Way of Saint James, and the crown of one of the great sites of Christendom. Pilgrims from all over Western and Northern Europe arrive in large numbers, speaking dozens of tongues â€” though many become mute with awe. | TR: Aziz Yakup Yolu'nun sonunda bulunan Büyük Yakup'un mezarı üzerine inşa edilen bu görkemli yapı, Hristiyan âleminin en kutsal yerlerinden biridir. Batı ve Kuzey Avrupa'nın her bölgesinden hacılar burayı ziyarete gelir. Her ne kadar manzara karşısında huşuya kapılıp konuşamasalar da.]
- building_type_holy_site_basilica_santiago_01_desc:0 "Built over the tomb of James the Great, this splendid edifice is the end point of the Way of Saint James, and the crown of one of the great sites of Christendom. Pilgrims from all over Western and Northern Europe arrive in large numbers, speaking dozens of tongues â€” though many become mute with awe."
+
+ building_type_holy_site_basilica_santiago_01_desc:0 "Aziz Yakup Yolu'nun sonunda bulunan Büyük Yakup'un mezarı üzerine inşa edilen bu görkemli yapı, Hristiyan âleminin en kutsal yerlerinden biridir. Batı ve Kuzey Avrupa'nın her bölgesinden hacılar burayı ziyarete gelir. Her ne kadar manzara karşısında huşuya kapılıp konuşamasalar da."
  building_holy_site_basilica_santiago_01:0 "$building_type_holy_site_basilica_santiago_01$"
  building_holy_site_basilica_santiago_01_desc:0 "$building_type_holy_site_basilica_santiago_01_desc$"
  building_type_charnel_grounds_01: "Mezarlık Alanı"
@@ -1860,8 +1860,8 @@
  building_rainbow_mountains_01: "$building_type_rainbow_mountains_01$"
  building_rainbow_mountains_01_desc: "$building_type_rainbow_mountains_01_desc$"
  building_type_mount_damavand_01: "Demavend Dağı"
-### TODO AGOT-CHANGED: building_type_mount_damavand_01_desc [AGOT: A great, snow-capped pinnacle steeped in ancient lore, Mount Damavand is said to be the prison of the monstrous tyrant ZahhÄk, where he will abide until the end of the world. Many heroes of old have performed great feats on this mountain, and to those who travel there today, its mighty presence seem to touch their very souls. A dormant volcano, its slopes are dotted by hot springs where weary travelers can stop and relax, pondering the deeds of the ancients. | TR: Karla kaplı muazzam bir dağ olan Damavand Dağı efsanevi Zahhāk'ın tutsak tutulduğu yer olarak bilinir. Rivayete göre burada dünyanın sonu gelesiye kadar kalacağı söylenir. Birçok eski kahraman bu dağda büyük başarılar elde etmiştir. Günümüzde bu dağı ziyaret edenler ise dağın muazzam varlığıyla ruhlarında huzur bulur. Sönmüş bir yanardağ olan bu dağın yamaçları ziyaretçiler için çok sayıda sıcak su kaplıcaları barındırır. Eski insanların nasıl yaşadıklarını düşünerek düşüncelere dalmak için mükemmel bir yerdir.]
- building_type_mount_damavand_01_desc: "A great, snow-capped pinnacle steeped in ancient lore, Mount Damavand is said to be the prison of the monstrous tyrant ZahhÄk, where he will abide until the end of the world. Many heroes of old have performed great feats on this mountain, and to those who travel there today, its mighty presence seem to touch their very souls. A dormant volcano, its slopes are dotted by hot springs where weary travelers can stop and relax, pondering the deeds of the ancients."
+
+ building_type_mount_damavand_01_desc:0 "Karla kaplı muazzam bir dağ olan Damavand Dağı efsanevi Zahhāk'ın tutsak tutulduğu yer olarak bilinir. Rivayete göre burada dünyanın sonu gelesiye kadar kalacağı söylenir. Birçok eski kahraman bu dağda büyük başarılar elde etmiştir. Günümüzde bu dağı ziyaret edenler ise dağın muazzam varlığıyla ruhlarında huzur bulur. Sönmüş bir yanardağ olan bu dağın yamaçları ziyaretçiler için çok sayıda sıcak su kaplıcaları barındırır. Eski insanların nasıl yaşadıklarını düşünerek düşüncelere dalmak için mükemmel bir yerdir."
  building_mount_damavand_01: "$building_type_mount_damavand_01$"
  building_mount_damavand_01_desc: "$building_type_mount_damavand_01_desc$"
  building_type_holy_site_fire_temple_01: "Büyük Ateş Tapınağı"
@@ -1892,17 +1892,17 @@
  building_assassin_castle_01_desc: "$building_type_assassin_castle_01_desc$"
  building_type_qanats_01: "$building_qanats_06$"
  building_type_qanats_01_desc: "$building_qanats_05_desc$"
-### TODO AGOT-CHANGED: building_qanats_01 [AGOT: YakchÄl | TR: Yakchāl]
- building_qanats_01: "YakchÄl"
+
+ building_qanats_01:0 "Yakchāl"
  building_qanats_01_desc: "Kubbeli biçimdeki bu yapılar ısıya dayanıklı malzemelerle inşa edildiklerinden yer altında soğutucu depolama alanı işlevi görürler." 
  building_qanats_02: "Sarnıç"
  building_qanats_02_desc: "Farsça'da #italic Ab anbar#! olarak bilinen bu yapılar yer altında bol miktarda su depolamak için kullanılıyor. "
  building_qanats_03: "Rüzgar Kulesi"
  building_qanats_03_desc: "Tamamen İranlılar tarafından icad edilen bu yüksek kuleler sarnıçlarla ve diğer binalarla bağlantılı hâldedir. Rüzgarın estiği yönde bulunan açıklıklar sayesinde rüzgarı yakalayıp bu havayı soğutma amaçlı diğer yapılara dağıtıyor."
-### TODO AGOT-CHANGED: building_qanats_04 [AGOT: KÄrÄ«z | TR: Kehriz]
- building_qanats_04: "KÄrÄ«z"
-### TODO AGOT-CHANGED: building_qanats_04_desc [AGOT: The first stage of a subterranean aqueduct system, the kÄrÄ«z is a series of vertical shafts, connected by a gently sloping tunnel, that taps into a source of underground water and delivers it to the surface. | TR: Yeraltı su kemeri sisteminin ilk aşaması olan kehriz, bir yeraltı suyu kaynağına bağlanan ve suyu yüzeye çıkartan bir yapıdır.]
- building_qanats_04_desc: "The first stage of a subterranean aqueduct system, the kÄrÄ«z is a series of vertical shafts, connected by a gently sloping tunnel, that taps into a source of underground water and delivers it to the surface."
+
+ building_qanats_04:0 "Kehriz"
+
+ building_qanats_04_desc:0 "Yeraltı su kemeri sisteminin ilk aşaması olan kehriz, bir yeraltı suyu kaynağına bağlanan ve suyu yüzeye çıkartan bir yapıdır."
  building_qanats_05: "Küçük Qanatlar"
  building_qanats_05_desc: "Qanatlar, buharlaşma sebebiyle kaynaklanan su kaybını azaltmak için kurulmuş yeraltı su kemerleridir. Bu aşamada oldukça küçük olsa da tarıma önemli bir miktarda fayda sağlıyor."
  building_qanats_06: "Qanatlar"
@@ -1974,8 +1974,8 @@
  building_mount_athos_03: "$building_type_mount_athos_01$"
  building_mount_athos_03_desc: "Aynaroz'un bir manastır merkezi olarak popülaritesi, ruhban olmayan yönetimler tarafından kendisine sunulan birçok imtiyaz, özerk statüsü, gerçekten izole edilmiş yaşam tarzı ve gelişen ikona üretimi, yüzyıllar boyunca sürekli yeni keşişlerin yarımadaya gelmesini sağlamıştır.\nKeşişlerin sayısı arttıkça manastırların sayısı da artmıştır. Athos Dağı'nda şu anda yirmi manastır bulunmaktadır ve Ayanoz böylece bölgedeki en büyük ve en etkili manastır topluluklarından biri hâline gelmiştir."
  building_apollinare_nuovo: "Yeni Aziz Apollinare Bazilikası"
-### TODO AGOT-CHANGED: building_apollinare_nuovo_desc [AGOT: The Basilica of Sant'Apollinare Nuovo has only gained its current name recently, when the relics of Saint Apollinaris were transferred from the neighboring Basilica in Classe. Its history, however, is much longer.\nFirst consecrated in the early 6th century by King Theodoric of the Ostrogoths as an Arian church, the building has seen many renovations both in structure and decoration while maintaining its unique style â€” an elegant mixture of western and eastern art â€” and its amazing Byzantine mosaics. | TR: Yeni Aziz Apollinare Bazilikası, bugünkü adını yakın zamanda, Aziz Apollinare'nin beden kalıntıları komşu Classe'deki bazilikadan getirildiğinde almıştır. Ancak tarihi çok daha eskidir.\nİlk olarak 6. yüzyılın başlarında Ostrogot Kralı Theodoric tarafından bir Ariusçu kilisesi olarak kutsanan binada, hem yapı hem de dekorasyon açısından pek çok kez renovasyon yapılmıştır ancak Batı ve Doğu sanatının zarif bir karışımı olan benzersiz tarzını ve muhteşem Bizans mozaiklerini de korumuştur.]
- building_apollinare_nuovo_desc: "The Basilica of Sant'Apollinare Nuovo has only gained its current name recently, when the relics of Saint Apollinaris were transferred from the neighboring Basilica in Classe. Its history, however, is much longer.\nFirst consecrated in the early 6th century by King Theodoric of the Ostrogoths as an Arian church, the building has seen many renovations both in structure and decoration while maintaining its unique style â€” an elegant mixture of western and eastern art â€” and its amazing Byzantine mosaics."
+
+ building_apollinare_nuovo_desc:0 "Yeni Aziz Apollinare Bazilikası, bugünkü adını yakın zamanda, Aziz Apollinare'nin beden kalıntıları komşu Classe'deki bazilikadan getirildiğinde almıştır. Ancak tarihi çok daha eskidir.\nİlk olarak 6. yüzyılın başlarında Ostrogot Kralı Theodoric tarafından bir Ariusçu kilisesi olarak kutsanan binada, hem yapı hem de dekorasyon açısından pek çok kez renovasyon yapılmıştır ancak Batı ve Doğu sanatının zarif bir karışımı olan benzersiz tarzını ve muhteşem Bizans mozaiklerini de korumuştur."
  building_type_apollinare_nuovo: "$building_apollinare_nuovo$"
  building_type_apollinare_nuovo_desc: "$building_apollinare_nuovo_desc$"
  building_saint_catherine: "Azize Katerina Manastırı"
@@ -2011,8 +2011,8 @@
  building_type_cilician_gates: "$building_cilician_gates$"
  building_type_cilician_gates_desc: "$building_cilician_gates_desc$"
  building_swahili_port_pemba: "Pemba Ticaret Limanları"
-### TODO AGOT-CHANGED: building_swahili_port_pemba_desc [AGOT: The reefs, beaches, and mangrove forests of Pemba Island provide an abundance of inlets and resources for the people of Pemba, making it a natural entrepÃ´t of the Zanj. | TR: Pemba Adası'nın resifleri, kumsalları ve mangrov ormanları Pemba halkına çok sayıda koy ve kaynak sunar, bu da adayı Zenc'in doğal bir aktarma merkezi hâline getirir.]
- building_swahili_port_pemba_desc: "The reefs, beaches, and mangrove forests of Pemba Island provide an abundance of inlets and resources for the people of Pemba, making it a natural entrepÃ´t of the Zanj."
+
+ building_swahili_port_pemba_desc:0 "Pemba Adası'nın resifleri, kumsalları ve mangrov ormanları Pemba halkına çok sayıda koy ve kaynak sunar, bu da adayı Zenc'in doğal bir aktarma merkezi hâline getirir."
  building_type_swahili_port_pembas: "$building_swahili_port_pemba$"
  building_type_swahili_port_pemba_desc: "$building_swahili_port_pemba_desc$"
  building_swahili_port_zanzibar: "Zanzibar Ticaret Limanları"
@@ -2031,8 +2031,8 @@
  building_swahili_port_lamu_desc: "Kumsallarının sıcak beyazı ve kıyılarına ağır ağır vuran suların canlı mavisi, Lamu'nun can damarı olan hareketli ticareti gizler. Okyanus ötesi ticaretle uzun süredir bağlantılı olan bu yerde, bilinen dünyanın batı ve doğu uçlarından gelen mallar alınıp satılabilir."
  building_type_swahili_port_lamu: "$building_swahili_port_lamu$"
  building_type_swahili_port_lamu_desc: "$building_swahili_port_lamu_desc$"
-### TODO AGOT-CHANGED: building_type_dragon_kiln_01 [AGOT: Porcelain Kiln | TR: Ejderha Fırını]
- building_type_dragon_kiln_01: "Porcelain Kiln"
+
+ building_type_dragon_kiln_01:0 "Ejderha Fırını"
  building_type_dragon_kiln_01_desc: "Dik bir yamaç kenarına inşa edilen bu fırın kompleksi, ticaret malı ve hediye olarak çok değer gören egzotik seramikleri üretmek için gereken son derece yüksek ısıları sağlayabilir."
  building_dragon_kiln_01: "Yamaç Fırını"
  building_dragon_kiln_01_desc: "Bu uzun fırın, ateşin çekişini yatay biçimde yönlendirerek çömlekçilerin değerli kaseler, vazolar ve diğer seramikleri üretmesi için gereken yoğun ısıyı oluşturur."
@@ -2052,11 +2052,11 @@
  building_type_pleasure_dome: "$building_pleasure_dome$"
  building_type_pleasure_dome_desc: "$building_pleasure_dome_desc$"
  building_type_murex_farm_01: "Dikenli Salyangoz Avcılığı"
-### TODO AGOT-CHANGED: building_type_murex_farm_01_desc [AGOT: Purple dye is always in high demand. The snails from which this luxurious dye is made are harvested and processed here. | TR: İmparatorluk moru her zaman talepte olan bir şeydir. Bu lüks boyanın yapıldığı salyangozlar burada toplanır ve işlenir.]
- building_type_murex_farm_01_desc: "Purple dye is always in high demand. The snails from which this luxurious dye is made are harvested and processed here."
+
+ building_type_murex_farm_01_desc:0 "İmparatorluk moru her zaman talepte olan bir şeydir. Bu lüks boyanın yapıldığı salyangozlar burada toplanır ve işlenir."
  building_murex_farm_01: "Dikenli Salyangoz Toplayıcılığı"
-### TODO AGOT-CHANGED: building_murex_farm_01_desc [AGOT: A thriving Murex fishing industry has been established along the coast. It provides a modest but steady income through the sale of harvested snails. | TR: Akdeniz kıyısı boyunca bir dikenli salyangoz balıkçılığı sanayisi kurulmuştur. Hasat edilen salyangozların satışı, mütevazı ama istikrarlı bir gelir sağlamaktadır.]
- building_murex_farm_01_desc: "A thriving Murex fishing industry has been established along the coast. It provides a modest but steady income through the sale of harvested snails."
+
+ building_murex_farm_01_desc:0 "Akdeniz kıyısı boyunca bir dikenli salyangoz balıkçılığı sanayisi kurulmuştur. Hasat edilen salyangozların satışı, mütevazı ama istikrarlı bir gelir sağlamaktadır."
  building_murex_farm_02: "Dikenli Salyangoz İşleme Merkezi"
  building_murex_farm_02_desc: "Bu merkezlerde, dikenli salyangozlar verimli bir şekilde işlenerek daha yüksek kalitede mor boya elde ediliyor."
  building_murex_farm_03: "Boya Damıtımevi"
@@ -2064,17 +2064,17 @@
  building_murex_farm_04: "Kurutma Alanları"
  building_murex_farm_04_desc: "Açık hava alanları, boyanın paslanma sürecini hızlandırır. Bu da mor boyanın üretim süresini kısaltarak daha verimli bir iş akışı sağlar."
  building_murex_farm_05: "Usta Boyacılar Loncası"
-### TODO AGOT-CHANGED: building_murex_farm_05_desc [AGOT: The Master Dyers Guild, renowned for achieving the perfect shade of Tyroshi purple, enhances the precision of textile dyeing. This results in consistently high-quality purple garments. | TR: Sur morunun mükemmel tonunu elde etmesini sağlayan Usta Boyacılar Loncası, tekstillerin daha doğru bir şekilde boyanmasını sağlıyor. Böylece yüksek kaliteli mor giysiler daha kolay ve daha hızlıca elde ediliyor.]
- building_murex_farm_05_desc: "The Master Dyers Guild, renowned for achieving the perfect shade of Tyroshi purple, enhances the precision of textile dyeing. This results in consistently high-quality purple garments."
+
+ building_murex_farm_05_desc:0 "Sur morunun mükemmel tonunu elde etmesini sağlayan Usta Boyacılar Loncası, tekstillerin daha doğru bir şekilde boyanmasını sağlıyor. Böylece yüksek kaliteli mor giysiler daha kolay ve daha hızlıca elde ediliyor."
  building_murex_farm_06: "İpek Dokuma Atölyesi"
  building_murex_farm_06_desc: "Bu atölye, boyama için ipek gibi lüks kumaşların dokumasında uzmanlaşmıştır. Olağanüstü kalitede giysiler üreterek ticari değerin de artmasını sağlarlar."
-### TODO AGOT-CHANGED: building_murex_farm_07 [AGOT: Grand Textile Workshop | TR: İmparatorluk Tekstil Atölyesi]
- building_murex_farm_07: "Grand Textile Workshop"
-### TODO AGOT-CHANGED: building_murex_farm_07_desc [AGOT: The grand workshop focuses on mass production of Tyroshi purple-dyed textiles, significantly boosting income from the sale of these prestigious garments. | TR: İmparatorluk atölyesi, Sur moru boyalı tekstillerinin seri üretimine odaklanarak bu prestijli giysilerin satışından elde edilen geliri önemli ölçüde arttırır.]
- building_murex_farm_07_desc: "The grand workshop focuses on mass production of Tyroshi purple-dyed textiles, significantly boosting income from the sale of these prestigious garments."
+
+ building_murex_farm_07:0 "İmparatorluk Tekstil Atölyesi"
+
+ building_murex_farm_07_desc:0 "İmparatorluk atölyesi, Sur moru boyalı tekstillerinin seri üretimine odaklanarak bu prestijli giysilerin satışından elde edilen geliri önemli ölçüde arttırır."
  building_murex_farm_08: "Mor Kraliyet Sarayı"
-### TODO AGOT-CHANGED: building_murex_farm_08_desc [AGOT: A magnificent palace adorned with Tyroshi purple-themed decorations stands as a symbol of wealth and power. It showcases the local mastery in Tyroshi purple production. | TR: Sur moru temalı süslemelerle bezenmiş, zenginliğin ve gücün sembolü olan görkemli bir saray. Sur moru üretimindeki yerel ustalığı gözler önüne seriyor.]
- building_murex_farm_08_desc: "A magnificent palace adorned with Tyroshi purple-themed decorations stands as a symbol of wealth and power. It showcases the local mastery in Tyroshi purple production."
+
+ building_murex_farm_08_desc:0 "Sur moru temalı süslemelerle bezenmiş, zenginliğin ve gücün sembolü olan görkemli bir saray. Sur moru üretimindeki yerel ustalığı gözler önüne seriyor."
  building_type_generic_copper_mines_01: "Bakır Madenleri"
  building_type_generic_copper_mines_01_desc: "İnanılmaz kârlı bakır cevherleri sunan önemli bir bakır madeni."
  building_generic_copper_mines_01: "Bakır Maden Yerleşkesi"
@@ -2106,8 +2106,8 @@
  building_generic_gold_mines_04: "Altın Maden Tesisi"
  building_generic_gold_mines_04_desc: "$building_rammelsberg_mines_04_desc$"
  building_type_capital_bureau_01: "Başkent Teşkilatı"
-### TODO AGOT-CHANGED: building_type_capital_bureau_01_desc [AGOT: A dedicated branch of government, which devotes all of its resources to manage the capital. A throng of clerks and servicemen resides within these walls, ready to serve at the jovÄ“nnio's command. | TR: Tüm kaynaklarını başkenti yönetmeye adayan özel bir devlet kurumu. Bu duvarların içinde, eparkın emirlerini hazır şekilde bekleyen bir kalabalık memur ve hizmetli grubu bulunur.]
- building_type_capital_bureau_01_desc: "A dedicated branch of government, which devotes all of its resources to manage the capital. A throng of clerks and servicemen resides within these walls, ready to serve at the jovÄ“nnio's command."
+
+ building_type_capital_bureau_01_desc:0 "Tüm kaynaklarını başkenti yönetmeye adayan özel bir devlet kurumu. Bu duvarların içinde, eparkın emirlerini hazır şekilde bekleyen bir kalabalık memur ve hizmetli grubu bulunur."
  building_capital_bureau_01: "Adliye"
  building_capital_bureau_01_desc: "Bir şehrin gelişip büyümesini sağlayan şey kanunlardır ve kanunlar ancak mahkemelerde uygulanabilir."
  building_capital_bureau_02: "Güvenlik Bürosu"
@@ -2228,8 +2228,8 @@
  building_mandala_capital_04: "Büyük Tapınak Kompleksi"
  building_mandala_capital_04_desc: "Tapınak kompleksi artık küçük bir köy büyüklüğüne ulaştı ve çoğu ihtiyacında büyük ölçüde kendi kendine yeter hâle geldi.\nKüçük bir kutsal emanet mahfazası ve doğudan batıya uzanan yansıma havuzları eklendi, bu da ruhlar âlemiyle bağı daha da güçlendirdi."
  building_mandala_capital_05: "İlahi Tapınak Sarayı"
-### TODO AGOT-CHANGED: building_mandala_capital_05_desc [AGOT: A rarely seen architectural gem, the temple palace has been expanded with magnificent lodgings for the divine Devaraja.\nMonuments, relics, treasures â€” travelers come from all over to marvel at the excess of this divine temple palace. | TR: Nadiren görülen bir mimari mücevher, tapınak sarayı, ilahi Devaraja için görkemli konaklamalarla genişletilmiştir.\nAnıtlar, kutsal emanetler, hazineler — gezginler bu ilahi tapınak sarayının ihtişamını görmek için her yerden gelir.]
- building_mandala_capital_05_desc: "A rarely seen architectural gem, the temple palace has been expanded with magnificent lodgings for the divine Devaraja.\nMonuments, relics, treasures â€” travelers come from all over to marvel at the excess of this divine temple palace."
+
+ building_mandala_capital_05_desc:0 "Nadiren görülen bir mimari mücevher, tapınak sarayı, ilahi Devaraja için görkemli konaklamalarla genişletilmiştir.\nAnıtlar, kutsal emanetler, hazineler — gezginler bu ilahi tapınak sarayının ihtişamını görmek için her yerden gelir."
  building_type_wulingyuan_01: "$building_wulingyuan_01$"
  building_type_wulingyuan_01_desc: "$building_wulingyuan_01_desc$"
  building_wulingyuan_01: "Wulingyuan"
@@ -2281,14 +2281,14 @@
  building_type_angkor_wat_01_desc: "$building_angkor_wat_01_desc$"
  building_angkor_wat_01: "Angkor Wat"
  building_angkor_wat_01_desc: "Angkor Wat, Vişnu'ya adanmış devasa bir tapınak kompleksidir. Hindu mitolojisinde tanrıların evi olan Meru Dağı'nı temsil edecek şekilde tasarlanmıştır. Yerleşke görkemli bir hendekle çevrilidir ve dini sanat, heykeller ve kabartmalarla taşan, galerili çok sayıda tapınak barındırır."
-### TODO AGOT-CHANGED: building_type_citadel_thang_long_01 [AGOT: Citadel of ThÄƒng Long | TR: Thăng Long İç Kalesi]
- building_type_citadel_thang_long_01: "Citadel of ThÄƒng Long" # æ˜‡é¾
+
+ building_type_citadel_thang_long_01:0 "Thăng Long İç Kalesi"
  building_type_citadel_thang_long_01_desc: "$building_citadel_thang_long_01_desc$"
-### TODO AGOT-CHANGED: building_citadel_thang_long_01 [AGOT: Äai La Citadel | TR: Đại La İç Kalesi]
- building_citadel_thang_long_01: "Äai La Citadel"
+
+ building_citadel_thang_long_01:0 "Đại La İç Kalesi"
  building_citadel_thang_long_01_desc: "Yerel ordular için askerî bir üs olarak hizmet veren ve istilacıları püskürtmeye yardımcı olmak için güçlü biçimde tahkim edilmiş bir iç kale."
-### TODO AGOT-CHANGED: building_citadel_thang_long_02 [AGOT: Imperial Citadel of ThÄƒng Long | TR: Thăng Long İmparatorluk İç Kalesi]
- building_citadel_thang_long_02: "Imperial Citadel of ThÄƒng Long" # æ˜‡é¾
+
+ building_citadel_thang_long_02:0 "Thăng Long İmparatorluk İç Kalesi"
  building_citadel_thang_long_02_desc: "İmparatorluk İç Kalesi hem bir kale hem de kraliyet ikametgâhı görevi görür. Kale kompleksi, ana tahkimat bölgesi, imparatorluk şehri ve Yasak Şehir olmak üzere üç bölümden oluşur."
  building_type_po_klong_garai_01: "$building_po_klong_garai_01$"
  building_type_po_klong_garai_01_desc: "$building_po_klong_garai_01_desc$"
@@ -2296,10 +2296,10 @@
  building_po_klong_garai_01_desc: "Cham mimarisinin zirvelerinden biri olan Po Klong Garai tapınağının, aynı adı taşıyan efsanevi kralı onurlandırmak için inşa edildiği söylenir. Üç ayrı tuğla kuleden oluşur ve başlıca sanat eseri olarak Tanrı Şiva'nın etkileyici bir heykeline sahiptir."
  building_type_dau_temple_01: "$building_dau_temple_01$"
  building_type_dau_temple_01_desc: "$building_dau_temple_01_desc$"
-### TODO AGOT-CHANGED: building_dau_temple_01 [AGOT: DÃ¢u Temple | TR: Dâu Tapınağı]
- building_dau_temple_01: "DÃ¢u Temple"
-### TODO AGOT-CHANGED: building_dau_temple_01_desc [AGOT: A revered temple in Luy LÃ¢u, marks the spot where monks from far-off lands first came together. The brick tower, relics, and mummified masters that remain there embody centuries of devotion to Buddhism. | TR: Luy Lâu'daki saygıdeğer bir tapınak, uzak diyarlardan gelen keşişlerin ilk kez bir araya geldiği yeri işaretler. Tuğla kule, kutsal emanetler ve orada kalan mumyalanmış ustalar, Budizme adanmış yüzyılların izlerini taşır.]
- building_dau_temple_01_desc: "A revered temple in Luy LÃ¢u, marks the spot where monks from far-off lands first came together. The brick tower, relics, and mummified masters that remain there embody centuries of devotion to Buddhism."
+
+ building_dau_temple_01:0 "Dâu Tapınağı"
+
+ building_dau_temple_01_desc:0 "Luy Lâu'daki saygıdeğer bir tapınak, uzak diyarlardan gelen keşişlerin ilk kez bir araya geldiği yeri işaretler. Tuğla kule, kutsal emanetler ve orada kalan mumyalanmış ustalar, Budizme adanmış yüzyılların izlerini taşır."
  building_type_liuhe_pagoda_01: "$building_liuhe_pagoda_01$"
  building_type_liuhe_pagoda_01_desc: "$building_liuhe_pagoda_01_desc$"
  building_liuhe_pagoda_01: "Liuhe Pagodası"
@@ -2346,10 +2346,10 @@
  building_borobudur_01_desc: "Borobudur, üst üste dizilmiş dokuz taş platformdan oluşan ve tepesinde merkezi bir kubbe bulunan devasa bir Budist tapınağıdır. Tapınak, binlerce kabartma ve yüzlerce Buda heykeliyle süslenmiştir."
  building_type_hoshi_ryokan_01: "$building_hoshi_ryokan_01$"
  building_type_hoshi_ryokan_01_desc: "$building_hoshi_ryokan_01_desc$"
-### TODO AGOT-CHANGED: building_hoshi_ryokan_01 [AGOT: HÅshi Ryokan | TR: Hōshi Ryokan]
- building_hoshi_ryokan_01: "HÅshi Ryokan"
-### TODO AGOT-CHANGED: building_hoshi_ryokan_01_desc [AGOT: HÅshi Ryokan is an old traditional inn and a family business. It offers travellers a respite on their journey with rest, food, and access to hot spring baths. | TR: Hōshi Ryokan, eski bir geleneksel han ve aile işletmesidir. Yolculuk edenlere, dinlenme, yemek ve kaplıca banyolarına erişim sunarak yolda bir soluklanma imkânı sağlar.]
- building_hoshi_ryokan_01_desc: "HÅshi Ryokan is an old traditional inn and a family business. It offers travellers a respite on their journey with rest, food, and access to hot spring baths."
+
+ building_hoshi_ryokan_01:0 "Hōshi Ryokan"
+
+ building_hoshi_ryokan_01_desc:0 "Hōshi Ryokan, eski bir geleneksel han ve aile işletmesidir. Yolculuk edenlere, dinlenme, yemek ve kaplıca banyolarına erişim sunarak yolda bir soluklanma imkânı sağlar."
  building_type_celestial_great_barracks_01: "$building_celestial_great_barracks_01$"
  building_type_celestial_great_barracks_01_desc: "$building_celestial_great_barracks_01_desc$"
  building_celestial_great_barracks_01: "Büyük Kışla"
@@ -2392,15 +2392,15 @@
  building_dvin_shuka_01: "Dvin Şukası"
  building_dvin_shuka_01_desc: "Dvin'in saygın pazarı, zamanın başlangıcından beri Ermeni ticaretinin büyük merkezi olarak hizmet etmiştir. Duvarları renkli çiniler ve boyalı sıvalarla süslüdür, bu kadim pazar yerinin zenginliğini ve itibarını yansıtır."
  building_dvin_shuka_02: "Dvin'in Yaygın Şukası"
-### TODO AGOT-CHANGED: building_dvin_shuka_02_desc [AGOT: Age has not sapped Dvin's august and ancient marketplace of any vitality â€” if anything, the venerable shuka seems more lively than ever before. | TR: Yaş, Dvin'in vakur ve kadim pazarının canlılığını azaltmadı — aksine, saygıdeğer şuka her zamankinden daha da capcanlı görünüyor.]
- building_dvin_shuka_02_desc: "Age has not sapped Dvin's august and ancient marketplace of any vitality â€” if anything, the venerable shuka seems more lively than ever before."
+
+ building_dvin_shuka_02_desc:0 "Yaş, Dvin'in vakur ve kadim pazarının canlılığını azaltmadı — aksine, saygıdeğer şuka her zamankinden daha da capcanlı görünüyor."
  building_type_khiva_bazaar_01: "$building_khiva_bazaar_01$"
  building_type_khiva_bazaar_01_desc: "$building_khiva_bazaar_01_desc$"
  building_khiva_bazaar_01: "Hive Çarşısı"
  building_khiva_bazaar_01_desc: "Bozkırın Kapısı olan mütevazı Hive şehri, sınırda kâr ya da talih arayan tüccar ve gezgin bolluğuyla dikkat çeker."
  building_khiva_bazaar_02: "Hive'nin Yaygın Çarşısı"
-### TODO AGOT-CHANGED: building_khiva_bazaar_02_desc [AGOT: Under the burning sun, nomads, merchants, and adventurers eke out fortunes and trade whispers of far China's wealth over the exotic coins of the HuÃ¡ngdÃ¬. | TR: Yakıcı güneşin altında göçebeler, tüccarlar ve maceracılar servet devşirir, uzaktaki Çin'in zenginliğine dair fısıltıları, Huángdì'nin egzotik sikkeleri ile takas eder.]
- building_khiva_bazaar_02_desc: "Under the burning sun, nomads, merchants, and adventurers eke out fortunes and trade whispers of far China's wealth over the exotic coins of the HuÃ¡ngdÃ¬."
+
+ building_khiva_bazaar_02_desc:0 "Yakıcı güneşin altında göçebeler, tüccarlar ve maceracılar servet devşirir, uzaktaki Çin'in zenginliğine dair fısıltıları, Huángdì'nin egzotik sikkeleri ile takas eder."
  building_type_lhasa_market_01: "$building_lhasa_market_01$"
  building_type_lhasa_market_01_desc: "$building_lhasa_market_01_desc$"
  building_lhasa_market_01: "Lhasa Pazarı"
@@ -2409,24 +2409,24 @@
  building_lhasa_market_02_desc: "Güneşin altında yeni bir şey yok, diye iddia eder Lhasa'nın tüccarları, çünkü İpek Yolu boyunca dolaşıp gelmeyen hiçbir biblo ya da mücevher yoktur."
  building_type_changan_market_01: "$building_changan_market_01$"
  building_type_changan_market_01_desc: "$building_changan_market_01_desc$"
-### TODO AGOT-CHANGED: building_changan_market_01 [AGOT: Marketplace of ChÃ¡ng'Än | TR: Cháng'ān Pazarı]
- building_changan_market_01: "Marketplace of ChÃ¡ng'Än"
-### TODO AGOT-CHANGED: building_changan_market_01_desc [AGOT: The markets of the great city of ChÃ¡ng'Än, #EMP Perpetual Peace#!, bustle with all manner of trade, and are an essential stop for nearly all commerce heading both in and out of China. | TR: Büyük şehir Cháng'ān'ın, yani #EMP Ebedî Huzur#!un pazarları her tür ticaretle kaynar ve Çin'e giren ya da Çin'den çıkan neredeyse tüm ticaret için vazgeçilmez bir duraktır.]
- building_changan_market_01_desc: "The markets of the great city of ChÃ¡ng'Än, #EMP Perpetual Peace#!, bustle with all manner of trade, and are an essential stop for nearly all commerce heading both in and out of China."
-### TODO AGOT-CHANGED: building_changan_market_02 [AGOT: Sprawling Marketplace of ChÃ¡ng'Än | TR: Cháng'ān'ın Yaygın Pazarı]
- building_changan_market_02: "Sprawling Marketplace of ChÃ¡ng'Än"
-### TODO AGOT-CHANGED: building_changan_market_02_desc [AGOT: ChÃ¡ng'Än's prosperous merchants no longer blink at the sight of the greatest treasures known to man â€” for they have seen them all before, and probably own a few of them. | TR: Cháng'ān'ın müreffeh tüccarları artık insanın bildiği en büyük hazineleri görünce gözlerini bile kırpmaz — çünkü hepsini daha önce gördüler ve muhtemelen birkaçına da sahipler.]
- building_changan_market_02_desc: "ChÃ¡ng'Än's prosperous merchants no longer blink at the sight of the greatest treasures known to man â€” for they have seen them all before, and probably own a few of them."
+
+ building_changan_market_01:0 "Cháng'ān Pazarı"
+
+ building_changan_market_01_desc:0 "Büyük şehir Cháng'ān'ın, yani #EMP Ebedî Huzur#!un pazarları her tür ticaretle kaynar ve Çin'e giren ya da Çin'den çıkan neredeyse tüm ticaret için vazgeçilmez bir duraktır."
+
+ building_changan_market_02:0 "Cháng'ān'ın Yaygın Pazarı"
+
+ building_changan_market_02_desc:0 "Cháng'ān'ın müreffeh tüccarları artık insanın bildiği en büyük hazineleri görünce gözlerini bile kırpmaz — çünkü hepsini daha önce gördüler ve muhtemelen birkaçına da sahipler."
  building_type_dunhuang_market_01: "$building_dunhuang_market_01$"
  building_type_dunhuang_market_01_desc: "$building_dunhuang_market_01_desc$"
-### TODO AGOT-CHANGED: building_dunhuang_market_01 [AGOT: Marketplace of DÅ«nhuÃ¡ng | TR: Dūnhuáng Pazarı]
- building_dunhuang_market_01: "Marketplace of DÅ«nhuÃ¡ng"
-### TODO AGOT-CHANGED: building_dunhuang_market_01_desc [AGOT: Sat on the glistening banks of the Shule river, the city of DÅ«nhuÃ¡ng marks the gateway between the Hexi Corridor and the Tarim basin, and is a key stopping point for all travelers between them. | TR: Shule Nehri'nin parıldayan kıyılarında kurulu Dūnhuáng şehri, Hexi Koridoru ile Tarım Havzası arasındaki geçidi işaret eder ve aralarında yolculuk eden herkes için kilit bir konak noktasıdır.]
- building_dunhuang_market_01_desc: "Sat on the glistening banks of the Shule river, the city of DÅ«nhuÃ¡ng marks the gateway between the Hexi Corridor and the Tarim basin, and is a key stopping point for all travelers between them."
-### TODO AGOT-CHANGED: building_dunhuang_market_02 [AGOT: Sprawling Marketplace of DÅ«nhuÃ¡ng | TR: Dūnhuáng'ın Yaygın Pazarı]
- building_dunhuang_market_02: "Sprawling Marketplace of DÅ«nhuÃ¡ng"
-### TODO AGOT-CHANGED: building_dunhuang_market_02_desc [AGOT: The sun-bleached streets of DÅ«nhuÃ¡ng know only the steady, languid march of countless laden camels, mules, and men, and their ever-crossing paths east and west. | TR: Güneşte ağarmış Dūnhuáng sokakları, sayısız yüklü devenin, katırın ve insanın ağır, dingin yürüyüşünü ve doğu ile batı arasında durmaksızın kesişen yollarını bilir.]
- building_dunhuang_market_02_desc: "The sun-bleached streets of DÅ«nhuÃ¡ng know only the steady, languid march of countless laden camels, mules, and men, and their ever-crossing paths east and west."
+
+ building_dunhuang_market_01:0 "Dūnhuáng Pazarı"
+
+ building_dunhuang_market_01_desc:0 "Shule Nehri'nin parıldayan kıyılarında kurulu Dūnhuáng şehri, Hexi Koridoru ile Tarım Havzası arasındaki geçidi işaret eder ve aralarında yolculuk eden herkes için kilit bir konak noktasıdır."
+
+ building_dunhuang_market_02:0 "Dūnhuáng'ın Yaygın Pazarı"
+
+ building_dunhuang_market_02_desc:0 "Güneşte ağarmış Dūnhuáng sokakları, sayısız yüklü devenin, katırın ve insanın ağır, dingin yürüyüşünü ve doğu ile batı arasında durmaksızın kesişen yollarını bilir."
  building_type_lahur_bazaar_01: "$building_lahur_bazaar_01$"
  building_type_lahur_bazaar_01_desc: "$building_lahur_bazaar_01_desc$"
  building_lahur_bazaar_01: "Lahur Çarşısı"
@@ -2442,13 +2442,13 @@
  building_type_sunday_bazaar_01: "Pazar Günü Çarşısı"
  building_type_sunday_bazaar_01_desc: "$building_sunday_bazaar_01_desc$"
  building_sunday_bazaar_01: "Pazar Günü Çarşısı"
-### TODO AGOT-CHANGED: building_sunday_bazaar_01_desc [AGOT: Some locals will tell you that before there was money, Kashgar already had the Sunday Bazaar. Walking between the stalls of the market, it certainly feels that way â€” it's impossible to imagine a time without this place. | TR: Bazı yerliler, paradan önce bile Kaşgar'da Pazar Günü Çarşısı vardı derler. Tezgâhların arasında yürürken gerçekten de öyle hissedilir — bu yerin olmadığı bir zamanı hayal etmek imkânsızdır.]
- building_sunday_bazaar_01_desc: "Some locals will tell you that before there was money, Kashgar already had the Sunday Bazaar. Walking between the stalls of the market, it certainly feels that way â€” it's impossible to imagine a time without this place."
+
+ building_sunday_bazaar_01_desc:0 "Bazı yerliler, paradan önce bile Kaşgar'da Pazar Günü Çarşısı vardı derler. Tezgâhların arasında yürürken gerçekten de öyle hissedilir — bu yerin olmadığı bir zamanı hayal etmek imkânsızdır."
  building_sunday_bazaar_02: "Yaygın Pazar Günü Çarşısı"
  building_sunday_bazaar_02_desc: "Kaşgar'ın büyük Pazar Günü Çarşısı zamanın başlangıcından beri sürmüş olabilir ama bugün hissedilen refah, kuşkusuz çağlar boyunca hatırlanacaktır."
  building_type_mount_fuji_01: "Fuji Dağı"
-### TODO AGOT-CHANGED: building_type_mount_fuji_01_desc [AGOT: The lone, towering, snow-capped peak of Fujisan marks the passage into eastern Japan and is a sight famed throughout the islands, drawing travelers and pilgrims, and granting repose to all who gaze upon it. Among the most sacred ShintÅ mountains, Fuji is home to #EMP Konohanasakuya-hime#!, goddess of volcanoes, the cherry blossom, and life's ephemeral delicacy. | TR: Fuji-san'ın tek başına yükselen, karlı zirvesi doğu Japonya'ya geçişi işaret eder, adaların her yanında ün salmış bu manzara yolcuları ve hacıları çeker, ona bakan herkese huzur verir. En kutsal Şintō dağları arasında yer alan Fuji, volkanların, kiraz çiçeğinin ve hayatın geçici inceliğinin tanrıçası #EMP Konohanasakuya-hime#!'ye ev sahipliği yapar.]
- building_type_mount_fuji_01_desc: "The lone, towering, snow-capped peak of Fujisan marks the passage into eastern Japan and is a sight famed throughout the islands, drawing travelers and pilgrims, and granting repose to all who gaze upon it. Among the most sacred ShintÅ mountains, Fuji is home to #EMP Konohanasakuya-hime#!, goddess of volcanoes, the cherry blossom, and life's ephemeral delicacy."
+
+ building_type_mount_fuji_01_desc:0 "Fuji-san'ın tek başına yükselen, karlı zirvesi doğu Japonya'ya geçişi işaret eder, adaların her yanında ün salmış bu manzara yolcuları ve hacıları çeker, ona bakan herkese huzur verir. En kutsal Şintō dağları arasında yer alan Fuji, volkanların, kiraz çiçeğinin ve hayatın geçici inceliğinin tanrıçası #EMP Konohanasakuya-hime#!'ye ev sahipliği yapar."
  building_mount_fuji_01: "$building_type_mount_fuji_01$"
  building_mount_fuji_01_desc: "$building_type_mount_fuji_01_desc$"
  building_type_waterworks_01: "Su Yönetimi"
@@ -2514,8 +2514,8 @@
  building_citadel_shrine_03_desc: "Bu heykel topluluğu ebediyeti düşünür gibi sürekli etere bakar, çoğu zaman da ibadet edenlerde karmaşık duygular uyandırır."
  building_citadel_shrine_04: "Singha Heykelleri"
  building_citadel_shrine_04_desc: "Sırıtan dişler ve sabit bakışlarla, bu vahşi bekçi aslanlar $building_type_temple_citadel_01$ sakinlerine koruma lütfunu sunar."
-### TODO AGOT-CHANGED: building_citadel_shrine_05 [AGOT: NÄga Guardians | TR: Nāga Muhafızları]
- building_citadel_shrine_05: "NÄga Guardians"
+
+ building_citadel_shrine_05:0 "Nāga Muhafızları"
  building_citadel_shrine_05_desc: "Kumtaşından özenle işlenmiş ve göğsüne mandala incelikle kazınmış bu yedi başlı yılanlar, Mabedin sakinlerine huzur ve refah bahşeder."
  building_citadel_shrine_06: "Kabartmalar"
  building_citadel_shrine_06_desc: "Halk, bu kabartmaların ince ayrıntılarını incelemek için sık sık durur, zira hem dramatik savaş dönemlerini, hem de çeşitli ilahi düzlemleri ve yaratılış mitlerini tasvir ederler."
@@ -2540,8 +2540,8 @@
  building_sacred_pool_07: "Büyük Baray"
  building_sacred_pool_07_desc: "Heykeller, çiçeklenen bitki örtüsü ve görkemli manzara bu görkemli su kütlesini tanımlar, kavurucu sıcak dönemlerinde serin bir ferahlık ve su sağlar."
  building_sacred_pool_08: "Kutsal Baray"
-### TODO AGOT-CHANGED: building_sacred_pool_08_desc [AGOT: Travelers and other visitors passing by often stand in awe of this man-made body of water â€” its width making the eye barely able to see the edge at the other side. A true testament to the divine link of this location. | TR: Yoldan geçen gezginler ve diğer ziyaretçiler bu insan yapımı su kütlesi karşısında sık sık hayranlıkla durur — genişliği, karşı kıyıyı seçmeyi neredeyse imkânsız kılar. Bu, yerin ilahi bağının gerçek bir kanıtıdır.]
- building_sacred_pool_08_desc: "Travelers and other visitors passing by often stand in awe of this man-made body of water â€” its width making the eye barely able to see the edge at the other side. A true testament to the divine link of this location."
+
+ building_sacred_pool_08_desc:0 "Yoldan geçen gezginler ve diğer ziyaretçiler bu insan yapımı su kütlesi karşısında sık sık hayranlıkla durur — genişliği, karşı kıyıyı seçmeyi neredeyse imkânsız kılar. Bu, yerin ilahi bağının gerçek bir kanıtıdır."
  building_type_vihara_halls_01: "Vihara Salonları"
  building_type_vihara_halls_01_desc: "Yağmur mevsiminde keşişleri korumak için inşa edilmiş manastır yapıları, sessiz tefekkür, dua ve toparlanma mekânlarıdır. Salonları genişletmek, burada yaşayan dindarların canlılığını ve bağlılığını artırır."
  building_vihara_halls_01: "Dua Mabedi"
@@ -2563,36 +2563,36 @@
  building_type_itsukushima_jinja_01: "$building_itsukushima_jinja_01$"
  building_type_itsukushima_jinja_01_desc: "$building_itsukushima_jinja_01_desc$"
  building_itsukushima_jinja_01: "Itsukushima Tapınağı" # 厳島神社
-### TODO AGOT-CHANGED: building_itsukushima_jinja_01_desc [AGOT: Established in the 6th century and dedicated to the ShintÅ goddesses of the sea and storms, Itsukushima-jinja's galleries stand over the water, looking towards a famed torii gate which appears to float over the waters of Matsushima bay. | TR: 6. yüzyılda kurulan ve Şintō'nun deniz ve fırtına tanrıçalarına adanan Itsukushima-jinja'nın galerileri suyun üzerinde yükselir, Matsushima körfezinin suları üzerinde süzülüyormuş gibi görünen meşhur bir torii kapısına bakar.]
- building_itsukushima_jinja_01_desc: "Established in the 6th century and dedicated to the ShintÅ goddesses of the sea and storms, Itsukushima-jinja's galleries stand over the water, looking towards a famed torii gate which appears to float over the waters of Matsushima bay."
+
+ building_itsukushima_jinja_01_desc:0 "6. yüzyılda kurulan ve Şintō'nun deniz ve fırtına tanrıçalarına adanan Itsukushima-jinja'nın galerileri suyun üzerinde yükselir, Matsushima körfezinin suları üzerinde süzülüyormuş gibi görünen meşhur bir torii kapısına bakar."
  building_itsukushima_jinja_02: "$building_itsukushima_jinja_01$"
  building_itsukushima_jinja_02_desc: "$building_itsukushima_jinja_01_desc$"
  building_type_heian_palace_01: "$building_heian_palace_01$"
  building_type_heian_palace_01_desc: "$building_heian_palace_01_desc$"
  building_heian_palace_01: "Heian Sarayı" # 平安宮
-### TODO AGOT-CHANGED: building_heian_palace_01_desc [AGOT: Built by Emperor Kanmu as the centerpiece of his great city of Heian-kyÅ, or 'Peace Capital', the sprawling palace complex houses the imperial court, residence, and the central bureaucratic offices of Japan. Its corridors are bustling hubs of ceremony, politics, and intrigue, where ancient aristocratic families vie for influence. | TR: İmparator Kanmu tarafından büyük Heian-kyō şehrinin, yani 'Barış Başkenti'nin merkez taşı olarak inşa edilen bu geniş saray kompleksi, imparatorluk sarayını, ikametgâhı ve Japonya'nın merkez bürokratik dairelerini barındırır. Koridorları tören, siyaset ve entrikanın kaynaştığı merkezlerdir, kadim aristokrat aileler nüfuz için burada mücadele eder.]
- building_heian_palace_01_desc: "Built by Emperor Kanmu as the centerpiece of his great city of Heian-kyÅ, or 'Peace Capital', the sprawling palace complex houses the imperial court, residence, and the central bureaucratic offices of Japan. Its corridors are bustling hubs of ceremony, politics, and intrigue, where ancient aristocratic families vie for influence."
+
+ building_heian_palace_01_desc:0 "İmparator Kanmu tarafından büyük Heian-kyō şehrinin, yani 'Barış Başkenti'nin merkez taşı olarak inşa edilen bu geniş saray kompleksi, imparatorluk sarayını, ikametgâhı ve Japonya'nın merkez bürokratik dairelerini barındırır. Koridorları tören, siyaset ve entrikanın kaynaştığı merkezlerdir, kadim aristokrat aileler nüfuz için burada mücadele eder."
  building_type_ise_jingu_01: "$building_ise_jingu_01$"
  building_type_ise_jingu_01_desc: "$building_ise_jingu_01_desc$"
  building_ise_jingu_01: "Ise Tapınağı" # 伊勢神宮
-### TODO AGOT-CHANGED: building_ise_jingu_01_desc [AGOT: Ise-jingÅ« is sacred to the sun goddess, #EMP Amaterasu#!, and among the most hallowed ShintÅ sites. The shrine houses the Yamato imperial regalia, and is overseen by a vestal SaigÅ« priestess, chosen from among the imperial dynasty. | TR: Ise-jingū, güneş tanrıçası #EMP Amaterasu#!'ya adanmıştır ve en kutsal Şintō mekânları arasındadır. Tapınak Yamato imparatorluk alametlerini barındırır ve imparator hanedanından seçilen, Saigū adlı bir bakire rahibe tarafından gözetilir.]
- building_ise_jingu_01_desc: "Ise-jingÅ« is sacred to the sun goddess, #EMP Amaterasu#!, and among the most hallowed ShintÅ sites. The shrine houses the Yamato imperial regalia, and is overseen by a vestal SaigÅ« priestess, chosen from among the imperial dynasty."
+
+ building_ise_jingu_01_desc:0 "Ise-jingū, güneş tanrıçası #EMP Amaterasu#!'ya adanmıştır ve en kutsal Şintō mekânları arasındadır. Tapınak Yamato imparatorluk alametlerini barındırır ve imparator hanedanından seçilen, Saigū adlı bir bakire rahibe tarafından gözetilir."
  building_type_kofuku_ji_01: "$building_kofuku_ji_01$"
  building_type_kofuku_ji_01_desc: "$building_kofuku_ji_01_desc$"
-### TODO AGOT-CHANGED: building_kofuku_ji_01 [AGOT: KÅfuku Temple | TR: Kōfuku Tapınağı]
- building_kofuku_ji_01: "KÅfuku Temple" # èˆˆç¦å¯º
-### TODO AGOT-CHANGED: building_kofuku_ji_01_desc [AGOT: Dating to the 7th century, KÅfuku-ji is one of the Seven Great Temples of Nara, among the oldest and most important centers of Buddhist thought and power in Japan. | TR: 7. yüzyıla tarihlenen Kōfuku-ji, Nara'nın Yedi Büyük Tapınağı'ndan biridir, Japonya'daki Budist düşünce ve gücün en eski ve en önemli merkezleri arasındadır.]
- building_kofuku_ji_01_desc: "Dating to the 7th century, KÅfuku-ji is one of the Seven Great Temples of Nara, among the oldest and most important centers of Buddhist thought and power in Japan."
+
+ building_kofuku_ji_01:0 "Kōfuku Tapınağı"
+
+ building_kofuku_ji_01_desc:0 "7. yüzyıla tarihlenen Kōfuku-ji, Nara'nın Yedi Büyük Tapınağı'ndan biridir, Japonya'daki Budist düşünce ve gücün en eski ve en önemli merkezleri arasındadır."
  building_type_enryaku_ji_01: "$building_enryaku_ji_01$"
  building_type_enryaku_ji_01_desc: "$building_enryaku_ji_01_desc$"
  building_enryaku_ji_01: "Enryaku Tapınağı" # 延暦寺
-### TODO AGOT-CHANGED: building_enryaku_ji_01_desc [AGOT: Founded by $SaichO_$ in the late 8th century, Enryaku-ji sits on Mount Hiei overlooking Emperor Kanmu's capital, Heian-kyÅ, and is the center of Japanese Pundarika, or Tendai, Buddhism in Japan. | TR: $SaichO_$ tarafından 8. yüzyılın sonlarında kurulan Enryaku-ji, İmparator Kanmu'nun başkenti Heian-kyō'ya bakan Hiei Dağı üzerinde yer alır ve Japonya'daki Japon Pundarika'sının, yani Tendai Budizminin merkezidir.]
- building_enryaku_ji_01_desc: "Founded by $SaichO_$ in the late 8th century, Enryaku-ji sits on Mount Hiei overlooking Emperor Kanmu's capital, Heian-kyÅ, and is the center of Japanese Pundarika, or Tendai, Buddhism in Japan."
+
+ building_enryaku_ji_01_desc:0 "$SaichO_$ tarafından 8. yüzyılın sonlarında kurulan Enryaku-ji, İmparator Kanmu'nun başkenti Heian-kyō'ya bakan Hiei Dağı üzerinde yer alır ve Japonya'daki Japon Pundarika'sının, yani Tendai Budizminin merkezidir."
  building_type_dazaifu_01: "$building_dazaifu_01$"
  building_type_dazaifu_01_desc: "$building_dazaifu_01_desc$"
  building_dazaifu_01: "Dazaifu Dairesi" # 興福寺
-### TODO AGOT-CHANGED: building_dazaifu_01_desc [AGOT: The town of Dazaifu is the imperial court's administrative center on distant KyÅ«shÅ«. Established to oversee the island's defense, facilitate overseas trade, and host foreign dignitaries, governorship of Dazaifu is a common career stepping stone of ambitious bureaucrats. | TR: Dazaifu kasabası, uzak Kyūshū'da imparatorluk sarayının idarî merkezidir. Adanın savunmasını gözetmek, denizaşırı ticareti kolaylaştırmak ve yabancı elçileri ağırlamak üzere kurulan Dazaifu'nun valiliği, hırslı bürokratlar için yaygın bir kariyer basamağıdır.]
- building_dazaifu_01_desc: "The town of Dazaifu is the imperial court's administrative center on distant KyÅ«shÅ«. Established to oversee the island's defense, facilitate overseas trade, and host foreign dignitaries, governorship of Dazaifu is a common career stepping stone of ambitious bureaucrats."
+
+ building_dazaifu_01_desc:0 "Dazaifu kasabası, uzak Kyūshū'da imparatorluk sarayının idarî merkezidir. Adanın savunmasını gözetmek, denizaşırı ticareti kolaylaştırmak ve yabancı elçileri ağırlamak üzere kurulan Dazaifu'nun valiliği, hırslı bürokratlar için yaygın bir kariyer basamağıdır."
  building_type_chinjufu_01: "$building_chinjufu_01$"
  building_type_chinjufu_01_desc: "$building_chinjufu_01_desc$"
  building_chinjufu_01: "Chinjufu Bölgesi" # 鎮守府
@@ -2600,8 +2600,8 @@
  building_type_hakata_port_01: "$building_hakata_port_01$"
  building_type_hakata_port_01_desc: "$building_hakata_port_01_desc$"
  building_hakata_port_01: "Hakata Limanı" # 博多
-### TODO AGOT-CHANGED: building_hakata_port_01_desc [AGOT: Since the earliest days of the Yamato, the port city of Hakata on KyÅ«shÅ«'s northern shore has been a naval gateway, a bustling nexus overseen by the nearby Dazaifu office, where traders sell goods from far-off lands and diplomatic delegations step onto Japan's shores. | TR: Yamato'nun en erken günlerinden beri, Kyūshū'nun kuzey kıyısındaki Hakata liman şehri bir deniz kapısıdır, yakınlardaki Dazaifu dairesi tarafından gözetilen, uzak diyarlardan gelen malların satıldığı ve diplomatik heyetlerin Japon kıyılarına ayak bastığı canlı bir kesişme noktasıdır.]
- building_hakata_port_01_desc: "Since the earliest days of the Yamato, the port city of Hakata on KyÅ«shÅ«'s northern shore has been a naval gateway, a bustling nexus overseen by the nearby Dazaifu office, where traders sell goods from far-off lands and diplomatic delegations step onto Japan's shores."
+
+ building_hakata_port_01_desc:0 "Yamato'nun en erken günlerinden beri, Kyūshū'nun kuzey kıyısındaki Hakata liman şehri bir deniz kapısıdır, yakınlardaki Dazaifu dairesi tarafından gözetilen, uzak diyarlardan gelen malların satıldığı ve diplomatik heyetlerin Japon kıyılarına ayak bastığı canlı bir kesişme noktasıdır."
  building_hakata_port_02: "$building_hakata_port_01$"
  building_hakata_port_02_desc: "$building_hakata_port_01_desc$"
  building_type_hwangnyongsa_01: "$building_hwangnyongsa_01$"
@@ -2657,8 +2657,8 @@
  building_type_tada_mines_01: "$building_tada_mines_02$" # 多田銀銅山遺
  building_type_tada_mines_01_desc: "$building_tada_mines_01_desc$"
  building_tada_mines_01: "Tada Bakır Çukurları"
-### TODO AGOT-CHANGED: building_tada_mines_01_desc [AGOT: Beneath the village of Tada, nestled in the Hokusetsu mountains, a wealth of precious metals lies waiting to be rendered. It is said the plating of the great Buddha of TÅdai-ji was hewn from this place. | TR: Hokusetsu dağlarına yaslanmış Tada köyünün altında, işlenmeyi bekleyen bir kıymetli metal zenginliği yatar. Tōdai-ji'nin büyük Buda'sının kaplamasının bu yerden çıkarıldığı söylenir.]
- building_tada_mines_01_desc: "Beneath the village of Tada, nestled in the Hokusetsu mountains, a wealth of precious metals lies waiting to be rendered. It is said the plating of the great Buddha of TÅdai-ji was hewn from this place."
+
+ building_tada_mines_01_desc:0 "Hokusetsu dağlarına yaslanmış Tada köyünün altında, işlenmeyi bekleyen bir kıymetli metal zenginliği yatar. Tōdai-ji'nin büyük Buda'sının kaplamasının bu yerden çıkarıldığı söylenir."
  building_tada_mines_02: "Tada Bakır Madeni"
  building_tada_mines_02_desc: "Maden çukurları genişletildi ve bakır çıkarımını gerçekten artırabilmek için mühendisler getirildi."
  building_tada_mines_03: "Büyük Tada Bakır Madeni"
@@ -2678,8 +2678,8 @@
  building_type_koganeyama_mines_01: "$building_koganeyama_mines_02$"
  building_type_koganeyama_mines_01_desc: "$building_koganeyama_mines_01_desc$"
  building_koganeyama_mines_01: "Kinka Altın Çukurları"
-### TODO AGOT-CHANGED: building_koganeyama_mines_01_desc [AGOT: The island of Kinka and its associated Koganeyama Shrine are famous for the earliest discovered gold deposits in Japan, in the form of gold dust. Established by Emperor ShÅmu in the 8th century, the shrine is dedicated to #EMP Kanayama#!, god of mining. | TR: Kinka adası ve ona bağlı Koganeyama Tapınağı, Japonya'da toz altın formunda keşfedilen en erken altın yataklarıyla ünlüdür. 8. yüzyılda İmparator Shōmu tarafından kurulan tapınak, madenciliğin tanrısı #EMP Kanayama#!'ya adanmıştır.]
- building_koganeyama_mines_01_desc: "The island of Kinka and its associated Koganeyama Shrine are famous for the earliest discovered gold deposits in Japan, in the form of gold dust. Established by Emperor ShÅmu in the 8th century, the shrine is dedicated to #EMP Kanayama#!, god of mining."
+
+ building_koganeyama_mines_01_desc:0 "Kinka adası ve ona bağlı Koganeyama Tapınağı, Japonya'da toz altın formunda keşfedilen en erken altın yataklarıyla ünlüdür. 8. yüzyılda İmparator Shōmu tarafından kurulan tapınak, madenciliğin tanrısı #EMP Kanayama#!'ya adanmıştır."
  building_koganeyama_mines_02: "Kinka Altın Madeni"
  building_koganeyama_mines_02_desc: "Maden çukurları genişletildi ve altın çıkarımını gerçekten artırabilmek için mühendisler getirildi."
  building_koganeyama_mines_03: "Büyük Kinka Altın Madeni"

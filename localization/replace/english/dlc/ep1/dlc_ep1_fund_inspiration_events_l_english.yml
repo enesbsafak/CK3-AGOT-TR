@@ -1,7 +1,7 @@
 ﻿l_english:
  fund_inspiration.9999.t:0 "İlham Artışı"
-### TODO AGOT-ONLY: fund_inspiration.9999.desc [AGOT: ]
- fund_inspiration.9999.desc:0 ""
+
+ fund_inspiration.9999.desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
  fund_inspiration.9999.a:0 "İlhamı Hisset!"
  fund_inspiration.you_decide_option_tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], talimatlarınıza göre bir [artifact|E] yaratacak"
  fund_inspiration.they_decide_option_tt:1 "[inspiration_owner.GetTitledFirstNameNoTooltip], [artifact|E] tamamlandığında sizi bilgilendirecek"
@@ -26,8 +26,8 @@
  fund_inspiration.0011.tooltip_sword:0 "$fund_inspiration.0011.tooltip_action$ bir kılıç üzerinde çalışmaya başlıyor"
  fund_inspiration.0011.tooltip_sword.tt:0 "[inspiration|E] sona erdiğinde bir kılıç elde edeceksiniz"
  fund_inspiration.0012.t:0 "Silah İlhamı Desteklendi"
-### TODO AGOT-ONLY: fund_inspiration.0021.desc [AGOT: ]
- fund_inspiration.0021.desc:0 ""You will not regret supporting me, [ROOT.Char.Custom('FormOfAddressForLiege')]!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] assures me [inspiration_owner.GetSheHe] will create a masterpiece, but also that my input is valued. "Please tell me, what type of armor do you desire?""
+
+ fund_inspiration.0021.desc:0 ""Beni desteklemekle pişman olmayacaksınız, [ROOT.Char.Custom('FormOfAddressForLiege')]!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [inspiration_owner.GetSheHe] bir başyapıt yaratacağına dair güvence veriyor, ama aynı zamanda fikirlerime değer verdiğini söylüyor. "Lütfen söyleyin, ne tür bir zırh arzu ediyorsunuz?""
  fund_inspiration.0021.mail:0 "İçinde rahat hareket edebileceğim zincir bir zırh istiyorum."
  fund_inspiration.0021.mail.tt:0 "Çok gösterişli olmasa da elverişli"
  fund_inspiration.0021.plate:0 "Tam plaka zırh beni güvende tutacaktır!"
@@ -41,8 +41,8 @@
  fund_inspiration.0021.brigandine:1 "Parçaları ayrı bir zırh istiyorum."
  fund_inspiration.0021.brigandine.tt:0 "Hem hareket etmesi kolay, hem de gösterişli bir zırh"
  fund_inspiration.0022.t:0 "Zırh İlhamı Desteklendi"
-### TODO AGOT-ONLY: fund_inspiration.0031.desc [AGOT: ]
- fund_inspiration.0031.desc:0 ""Thank you for believing in me, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] smiles [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', inspiration_owner)] before tilting [inspiration_owner.GetHerHis] head.\n\n"However, I'm not sure what to write about. Recently I've been interested in topics related to [SCOPE.Custom('ArtifactBookSubject')], do you think that would be a good focus for the book?""
+
+ fund_inspiration.0031.desc:0 ""Bana inandığınız için teşekkürler, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [ROOT.Char.Custom2('QuirkAdverbPosOrNeg', inspiration_owner)] gülümser ve [inspiration_owner.GetHerHis] başını eğer.\n\n"Yine de ne hakkında yazacağımdan emin değilim. Son zamanlarda [SCOPE.Custom('ArtifactBookSubject')] ile ilgili konulara ilgi duyuyorum, sence kitap için iyi bir konu olur mu?""
  fund_inspiration.0031.education:0 "Kitap [ROOT.Char.Custom('education_focus')] ile alakalı olacak."
  fund_inspiration.0031.lifestyle_reveler:0 "Eğlence, #EMP yaşam#!, ziyafetler hakkında yazalım!"
  fund_inspiration.0031.lifestyle_blademaster:0 "Hiçbir konu kılıçlar kadar keskin olamaz!"
@@ -73,8 +73,8 @@
  fund_inspiration.0031.e:0 "[restored_title.GetNameNoTierNoTooltip] topraklarını birleştirmem hakkında yazılmaya değer!"
  fund_inspiration.0031.f:0 "Senin kararına güveniyorum."
  fund_inspiration.0032.t:0 "Kitap İlhamı Desteklendi"
-### TODO AGOT-ONLY: fund_inspiration.0041.desc [AGOT: ]
- fund_inspiration.0041.desc:0 ""Thank you for putting your trust in me, [ROOT.Char.Custom('FormOfAddressForLiege')]! [inspiration_owner.GetTitledFirstName] smiles and continues "Your confidence is not misplaced, for I have spent years practicing my techniques and woven some truly wonderful rugs and drapes."\n\n"For you though, I think a tapestry would be best — a well-woven one can really command the attention of a room and say something about its owner. The only question is, what should the tapestry show?""
+
+ fund_inspiration.0041.desc:0 ""Bana güvendiğiniz için teşekkürler, [ROOT.Char.Custom('FormOfAddressForLiege')]! [inspiration_owner.GetTitledFirstName] gülümseyerek devam eder: "Güveniniz boşa değil, çünkü tekniğimi geliştirmek için yıllarımı harcadım ve gerçekten harika halılar ile perdeler dokudum."\n\n"Sizin için ise sanırım en iyisi bir duvar halısı olur — iyi dokunmuş bir halı gerçekten odanın dikkatini çeker ve sahibi hakkında bir şeyler anlatır. Tek soru, halı neyi göstermeli?""
  fund_inspiration.0041.option_battle:0 "[ROOT.Var('epic_battle_location').Province.GetNameNoTooltip] Muharebesindeki zaferimi."
  fund_inspiration.0041.option_abstract:0 "Soyut bir sanat parçasını."
  fund_inspiration.0041.option_nature:0 "Doğanın yabani güzelliğini."
@@ -114,8 +114,8 @@
  fund_inspiration.0051.d:0 "Dünya senindir, dostum!"
  fund_inspiration.0052.t:0 "Macera İlhamı Desteklendi"
  activity_adventure:0 "Macera"
-### TODO AGOT-ONLY: fund_inspiration.0061.desc [AGOT: ]
- fund_inspiration.0061.desc:0 ""Thank you for funding this endeavor of mine, [ROOT.Char.Custom('FormOfAddressForLiege')]." [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] tries to keep [inspiration_owner.GetHerHis] composure, but I can see the excitement in [inspiration_owner.GetHerHis] eyes.\n\n"Boxes, sculptures, #EMP thrones#!... There's so much I can make! Perhaps you have any wishes?""
+
+ fund_inspiration.0061.desc:0 ""Bu girişimimi finanse ettiğiniz için teşekkürler, [ROOT.Char.Custom('FormOfAddressForLiege')]." [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sakinliğini korumaya çalışıyor, ama [inspiration_owner.GetHerHis] gözlerindeki heyecanı görebiliyorum.\n\n"Kutular, heykeller, #EMP tahtlar#!... Yapabileceğim o kadar çok şey var ki! Belki sizin de dilekleriniz vardır?""
  fund_inspiration.0061.chest:0 "İçinde bir şeyler saklayabileceğim şaşalı bir sandık."
  fund_inspiration.0061.box:0 "İçine mücevherler koyabileceğim şık bir kutu."
  fund_inspiration.0061.sculpture:0 "Harika bir heykel istiyorum!"
@@ -127,8 +127,8 @@
  fund_inspiration.0061.urn:0 "Zarif bir zavo salonumu tamamlayacaktır."
  fund_inspiration.0061.icon: "Duvarımı görkemli bir ikona süsleyecek."
  fund_inspiration.0062.t:0 "Zanaatkâr İlhamı Desteklendi"
-### TODO AGOT-ONLY: fund_inspiration.0071.desc [AGOT: ]
- fund_inspiration.0071.desc:0 ""Thank you for funding this endeavor of mine, [ROOT.Char.Custom('FormOfAddressForLiege')]!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] tries to keep [inspiration_owner.GetHerHis] composure, but I can see the excitement in [inspiration_owner.GetHerHis] eyes as [inspiration_owner.GetSheHe] continues. "I can work the metal into #EMP wonders#!. Perhaps you have any wishes?""
+
+ fund_inspiration.0071.desc:0 ""Bu girişimimi finanse ettiğiniz için teşekkürler, [ROOT.Char.Custom('FormOfAddressForLiege')]!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sakinliğini korumaya çalışıyor, ama [inspiration_owner.GetSheHe] devam ederken [inspiration_owner.GetHerHis] gözlerindeki heyecanı görebiliyorum. "Metali #EMP harikalara#! dönüştürebilirim. Belki sizin de dilekleriniz vardır?""
  fund_inspiration.0071.brooch:0 "Güzel bir broş!"
  fund_inspiration.0071.regalia:0 "Benim şanıma uygun bir takı."
  fund_inspiration.0071.crown:0 "Kafama layık bir taç!"
@@ -136,8 +136,8 @@
  fund_inspiration.0071.aquamanile:0 "Arınma ayini için süslü bir akuamanil."
  fund_inspiration.0071.incense_burner_sculpture:0 "Süslü bir tütsü yakıcı."
  fund_inspiration.0072.t:0 "İşleyici İlhamı Desteklendi"
-### TODO AGOT-ONLY: fund_inspiration.0081.desc [AGOT: ]
- fund_inspiration.0081.desc:0 ""You will not regret supporting me, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows before me before [inspiration_owner.Custom('quirk_pos_pp')].\n\n"Now, could I get some beakers and sulfur? I have much to study. Is there any specific area you would like me to start investigating?""
+
+ fund_inspiration.0081.desc:0 ""Beni desteklemekle pişman olmayacaksınız, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [inspiration_owner.Custom('quirk_pos_pp')] önce önümde eğilir.\n\n"Şimdi, biraz balon ve kükürt alabilir miyim? Çalışacak çok şeyim var. Araştırmaya başlamamı istediğiniz belirli bir alan var mı?""
  fund_inspiration.0081.elixirs:0 "İksirlerin yaratabildiği harikalarla alakalı söylentiler duydum!"
  fund_inspiration.0081.metals:0 "Metaller her zaman ilgimi çekmiştir."
  fund_inspiration.0081.panacea:0 "Her derde deva olan bir ilaç!"
@@ -159,55 +159,55 @@
  fund_inspiration.0091.tooltip_crossbow: "$fund_inspiration.0011.tooltip_action$ bir arbalet üzerinde çalışmaya başlıyor"
  fund_inspiration.0091.tooltip_crossbow.tt: "[inspiration|E] sonunda bir arbalet kazanırsınız"
  fund_inspiration.1001.t:0 "İlham Hayata Geçirildi"
-### TODO AGOT-ONLY: fund_inspiration.1001.desc [AGOT: ]
- fund_inspiration.1001.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a wide grin. "I have toiled many days and nights, and finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] presents me with an object wrapped in cloth, and as I unveil what is hidden within my eyes grow wide.\n\n"
+
+ fund_inspiration.1001.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kocaman bir sırıtışla yanıma yaklaşır. "Günlerce ve gecelerce çalıştım, sonunda işim bitti!"\n\n[inspiration_owner.GetSheHe|U] bana bezle sarılı bir nesne uzatır ve içindeki gizli şeyi açtığımda gözlerim kocaman olur.\n\n"
  fund_inspiration.1001.a:0 "Harika!"
  fund_inspiration.1001.b: "Hazırlıklar başlasın."
  fund_inspiration.1001.b.coronation_ready: "Artık [coronation|E] düzenleyebilirsiniz"
  fund_inspiration.1071.coronation: "\n\nTacım tamamlandı, artık taç giyme töreni düzenleyip hükümdar olarak otoritemi resmileştirebilirim."
-### TODO AGOT-ONLY: fund_inspiration.1011.desc [AGOT: ]
- fund_inspiration.1011.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a wide grin, sweat dripping down [inspiration_owner.GetHerHis] forehead, and soot smeared across [inspiration_owner.GetHerHis] face. "I have toiled over the forge many days and nights, but finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] presents me with an object wrapped in cloth, and as I unveil what is hidden within my eyes grow wide.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1021.desc_opening_1 [AGOT: ]
- fund_inspiration.1021.desc_opening_1:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] waves me over with a wide grin, gesturing towards a covered armor stand. "I have toiled over the forge many days and nights, but finally my work is done!""
-### TODO AGOT-ONLY: fund_inspiration.1021.desc_opening_2 [AGOT: ]
- fund_inspiration.1021.desc_opening_2:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] waves me over to a covered armor stand. [inspiration_owner.GetSheHe|U] is trying hard to keep a professional demeanor, but I can see the fire in [inspiration_owner.GetHerHis] eyes as [inspiration_owner.GetSheHe] tells me [inspiration_owner.GetHerHis] work is done."
+
+ fund_inspiration.1011.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kocaman bir sırıtışla yanıma yaklaşır, [inspiration_owner.GetHerHis] alnından terler damlıyor, [inspiration_owner.GetHerHis] yüzü ise is içinde. "Ocağın başında günlerce ve gecelerce çalıştım, ama sonunda işim bitti!"\n\n[inspiration_owner.GetSheHe|U] bana bezle sarılı bir nesne uzatır ve içindeki gizli şeyi açtığımda gözlerim kocaman olur.\n\n"
+
+ fund_inspiration.1021.desc_opening_1:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] örtülü bir zırh sehpasını işaret ederek kocaman bir sırıtışla beni yanına çağırır. "Ocağın başında günlerce ve gecelerce çalıştım, ama sonunda işim bitti!""
+
+ fund_inspiration.1021.desc_opening_2:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] beni örtülü bir zırh sehpasına çağırır. [inspiration_owner.GetSheHe|U] profesyonel bir tavır takınmaya çalışıyor, ama [inspiration_owner.GetSheHe] işinin bittiğini söylerken [inspiration_owner.GetHerHis] gözlerindeki ateşi görebiliyorum."
  fund_inspiration.1021.desc:0 "\n\nGösterişli bir hareket ile üstündeki kumaşı yırtıyor ve gözlerime inanamıyorum.\n\n"
  fund_inspiration.1021.a:0 "Muhteşem!"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_opening [AGOT: ]
- fund_inspiration.1031.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] smiles and gestures me over with ink-stained hands."
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_crime [AGOT: ]
- fund_inspiration.1031.desc_crime:0 ""The book's subject matter is a bit controversial, but it's a masterpiece. Look!"\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_soulmate_died [AGOT: ]
- fund_inspiration.1031.desc_soulmate_died:0 ""Your beloved [soulmate.GetTitledFirstName] may have passed away, but this book stands testament to the love you shared."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_nemesis_died [AGOT: ]
- fund_inspiration.1031.desc_nemesis_died:0 ""[nemesis.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)|U] may have passed away, but this book stands testament to the hate you felt for [nemesis.GetHerHim]."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_cat_died [AGOT: ]
- fund_inspiration.1031.desc_cat_died:0 ""Your beloved cat may have passed away, but this book should make sure that no one ever forgets the feline named [inspiration_owner.Custom('CatStoryName')]!"\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_dog_died [AGOT: ]
- fund_inspiration.1031.desc_dog_died:0 ""Your beloved dog may have passed away, but this book should make sure that no one ever forgets the canine named [inspiration_owner.Custom('DogStoryName')]!"\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc_low_content_quality [AGOT: ]
- fund_inspiration.1031.desc_low_content_quality:0 ""The book is finished. I hope the completed work overshadows my lack of knowledge on the subject. Please, have a look!"\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1031.desc [AGOT: ]
- fund_inspiration.1031.desc:0 ""My book– my #EMP masterpiece#! is finished! Behold."\n\n"
+
+ fund_inspiration.1031.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mürekkep lekeli elleriyle beni yanına çağırıp gülümser."
+
+ fund_inspiration.1031.desc_crime:0 ""Kitabın konusu biraz tartışmalı, ama bir başyapıt. Bak!"\n\n"
+
+ fund_inspiration.1031.desc_soulmate_died:0 ""Sevgili [soulmate.GetTitledFirstName] aramızdan ayrılmış olabilir, ama bu kitap paylaştığınız aşkın kanıtıdır."\n\n"
+
+ fund_inspiration.1031.desc_nemesis_died:0 ""[nemesis.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)|U] aramızdan ayrılmış olabilir, ama bu kitap [nemesis.GetHerHim]e karşı hissettiğiniz nefretin kanıtıdır."\n\n"
+
+ fund_inspiration.1031.desc_cat_died:0 ""Sevgili kediniz aramızdan ayrılmış olabilir, ama bu kitap [inspiration_owner.Custom('CatStoryName')] adlı kediyi kimsenin asla unutmamasını sağlayacak!"\n\n"
+
+ fund_inspiration.1031.desc_dog_died:0 ""Sevgili köpeğiniz aramızdan ayrılmış olabilir, ama bu kitap [inspiration_owner.Custom('DogStoryName')] adlı köpeği kimsenin asla unutmamasını sağlayacak!"\n\n"
+
+ fund_inspiration.1031.desc_low_content_quality:0 ""Kitap bitti. Umarım tamamlanmış eser, konu hakkındaki bilgi eksikliğimi gölgeler. Lütfen, bir bakın!"\n\n"
+
+ fund_inspiration.1031.desc:0 ""Kitabım– #EMP başyapıtım#! bitti! İşte."\n\n"
  fund_inspiration.1031.a:0 "Etkilendim!"
  fund_inspiration.1032.t:0 "Yazıya Dökülmüş Hisler"
-### TODO AGOT-ONLY: fund_inspiration.1032.desc [AGOT: ]
- fund_inspiration.1032.desc:0 ""My [ROOT.Char.Custom('LoverPetName')], I have a surprise for you!"\n\n[inspiration_sponsor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] presents me with a beautiful book, and as I leaf through it I can scarcely believe my eyes. [inspiration_sponsor.GetSheHe|U] commissioned a book about #EMP us#!!\n\n"The bindings pale in the face of your beauty, and the content is nothing compared to your company, but these pages hold the essence of my love for you.""
+
+ fund_inspiration.1032.desc:0 ""[ROOT.Char.Custom('LoverPetName')]'im, sana bir sürprizim var!"\n\n[inspiration_sponsor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bana güzel bir kitap uzatır ve sayfaları çevirdikçe gözlerime inanamıyorum. [inspiration_sponsor.GetSheHe|U] #EMP ikimiz#! hakkında bir kitap yazdırmış!\n\n"Ciltler senin güzelliğin karşısında sönük kalıyor, içerik de senin sohbetinle kıyaslanamaz, ama bu sayfalar sana olan aşkımın özünü taşıyor.""
  fund_inspiration.1032.a:0 "[inspiration_sponsor.Custom('LoverPetName')|U]!"
-### TODO AGOT-ONLY: fund_inspiration.1033.desc [AGOT: ]
- fund_inspiration.1033.desc:0 ""I have a surprise for you!"\n\n[inspiration_sponsor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] presents me with a beautiful book, but as I leaf through it I can scarcely believe my eyes. [inspiration_sponsor.GetSheHe|U] commissioned a book for the sole purpose of defaming #EMP me#!!\n\n"While no words on this earth can convey the contempt I feel for you, and no illustration can accurately portray the blight that is your face, I made an attempt. The whole world will read this and know how vile you are.""
+
+ fund_inspiration.1033.desc:0 ""Sana bir sürprizim var!"\n\n[inspiration_sponsor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bana güzel bir kitap uzatır, ama sayfaları çevirdikçe gözlerime inanamıyorum. [inspiration_sponsor.GetSheHe|U] sırf #EMP beni#! karalamak için bir kitap yazdırmış!\n\n"Yeryüzünde sana duyduğum nefreti anlatacak kelime yok, yüzündeki kusuru doğru çizecek resim de, ama yine de denedim. Bütün dünya bunu okuyacak ve ne kadar aşağılık olduğunu bilecek.""
  fund_inspiration.1033.a:0 "Vay [inspiration_sponsor.Custom2('InsultNoun', ROOT.Char)]!"
  fund_inspiration.1033.a_proud:0 "En azından beni #EMP tanıyacaklar#!!"
-### TODO AGOT-ONLY: fund_inspiration.1041.desc [AGOT: ]
- fund_inspiration.1041.desc:0 ""In here, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gestures to the door of [inspiration_owner.GetHerHis] weavery, where [inspiration_owner.GetSheHe] has been toiling for months on my commission. Stepping through the doorway, I gasp as I gaze upon the work hanging in front of me.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1051.desc [AGOT: ]
- fund_inspiration.1051.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] announces [inspiration_owner.GetHerHis] arrival in a surprisingly loud voice. [inspiration_owner.GetSheHe|U] proudly holds up a package securely wrapped in cloth.\n\n"I return from [inspiration_owner.Custom('InspirationAdventureDestination')] with an artifact from my journey!"\n\nI take the bulky bundle into my hands and loosen the cords before peeling layer after layer of fabric. Inside"
-### TODO AGOT-ONLY: fund_inspiration.1051_throne.desc [AGOT: ]
- fund_inspiration.1051_throne.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] announces [inspiration_owner.GetHerHis] arrival in a surprisingly loud voice. [inspiration_owner.GetSheHe|U] proudly leads a great procession up to your throne. Behind [inspiration_owner.GetHerHim] a cart is being rolled into your audience hall.\n\n"I return from [inspiration_owner.Custom('InspirationAdventureDestination')] with a great symbol of royal virtue!"\n\nAs the cart comes nearer I realize that it carries a throne."
-### TODO AGOT-ONLY: fund_inspiration.1051_ark_covenant.desc [AGOT: ]
- fund_inspiration.1051_ark_covenant.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] announces [inspiration_owner.GetHerHis] arrival in a surprisingly loud voice. [inspiration_owner.GetSheHe|U] proudly leads a great procession up to your throne. Behind [inspiration_owner.GetHerHim] a number of helpers are carrying what looks to be an enormous box.\n\n"I return from [inspiration_owner.Custom('InspirationAdventureDestination')] with a prize from my journey!"\n\nI walk up to the giant box, as one of the helpers break away the boards that hide its' treasure. Inside"
-### TODO AGOT-ONLY: fund_inspiration.1051_cupboard.desc [AGOT: ]
- fund_inspiration.1051_cupboard.desc:1 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] announces [inspiration_owner.GetHerHis] arrival in a surprisingly loud voice. [inspiration_owner.GetSheHe|U] proudly points to a piece of furniture being carried by two helpers.\n\n"I return with an artifact from my journey!"\n\nI walk up to the artifact, inspecting what my [inspiration_owner.GetWomanMan] has brought me from [inspiration_owner.Custom('InspirationAdventureDestination')]."
+
+ fund_inspiration.1041.desc:0 ""Burada, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [inspiration_owner.GetHerHis] dokuma atölyesinin kapısını işaret eder; [inspiration_owner.GetSheHe] aylardır benim siparişim için orada çalışıyor. Kapıdan içeri adım attığımda, önümde asılı duran işi görünce nefesim kesilir.\n\n"
+
+ fund_inspiration.1051.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gelişini şaşırtıcı derecede gür bir sesle duyurur. [inspiration_owner.GetSheHe|U] beze sıkıca sarılmış bir paketi gururla havaya kaldırır.\n\n"[inspiration_owner.Custom('InspirationAdventureDestination')]'den yolculuğumdan bir eserle dönüyorum!"\n\nHacimli paketi ellerime alır, ipleri gevşetir ve kat kat bezi sıyırırım. İçeride"
+
+ fund_inspiration.1051_throne.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gelişini şaşırtıcı derecede gür bir sesle duyurur. [inspiration_owner.GetSheHe|U] tahtınıza doğru büyük bir alayı gururla yönetir. [inspiration_owner.GetHerHim]in arkasında kabul salonunuza doğru itilen bir araba vardır.\n\n"[inspiration_owner.Custom('InspirationAdventureDestination')]'den kraliyet erdeminin büyük bir sembolüyle dönüyorum!"\n\nAraba yaklaştıkça bir taht taşıdığını fark ederim."
+
+ fund_inspiration.1051_ark_covenant.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gelişini şaşırtıcı derecede gür bir sesle duyurur. [inspiration_owner.GetSheHe|U] tahtınıza doğru büyük bir alayı gururla yönetir. [inspiration_owner.GetHerHim]in arkasında birkaç yardımcı kocaman bir kutuya benzeyen şeyi taşıyor.\n\n"[inspiration_owner.Custom('InspirationAdventureDestination')]'den yolculuğumdan bir ödülle dönüyorum!"\n\nDevasa kutuya doğru yürürüm; yardımcılardan biri hazinesini saklayan tahtaları söker. İçeride"
+
+ fund_inspiration.1051_cupboard.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gelişini şaşırtıcı derecede gür bir sesle duyurur. [inspiration_owner.GetSheHe|U] iki yardımcının taşıdığı bir mobilya parçasını gururla işaret eder.\n\n"Yolculuğumdan bir eserle dönüyorum!"\n\nEserin yanına gider, [inspiration_owner.GetWomanMan]'in [inspiration_owner.Custom('InspirationAdventureDestination')]'den bana getirdiği şeyi incelerim."
  fund_inspiration.1051.desc.skull:1 "[newly_created_artifact.GetFeatureText( 'animal_skull_type' )] kafatası var. [inspiration_owner.GetFirstNameNoTooltip], benimle detayları paylaşıyor ve bu devasa yaratığı nasıl alt ettiğini anlatıyor."
  fund_inspiration.1051.desc.goblet:0 "bir kadeh var. [inspiration_owner.GetFirstNameNoTooltip], bunu nereden buldun diyorum ve bana bir yabancıyla girdiği tüyleri diken diken eden iddiadan bahsediyor. İddianın kaybedeninin zehir içmesiyle son bulmuş."
  fund_inspiration.1051.desc.box:0 "bir kutu var. Yerel bir zanaatkâr bunu [inspiration_owner.GetFirstNameNoTooltip], onu bir grup vahşi hayvandan kurtardıktan sonra vermiş. Bana hayvanları nasıl kandırıp öldürdüğünü anlatıyor."
@@ -224,38 +224,38 @@
  fund_inspiration.1051.desc.necklace:0 "bir kolye var.\n\n[inspiration_owner.GetFirstNameNoTooltip], bu ödülü size takdim etmekten hoşnut fakat nasıl elde ettiğini anlatma konusunda çekingen gözüküyor."
  fund_inspiration.1051.a:0 "Muhteşem!"
  fund_inspiration.1051.b:0 "'İşinin ehli' insanlar tarafından bakılmalı"
-### TODO AGOT-ONLY: fund_inspiration.1061.desc_floor_bound_artifact [AGOT: ]
- fund_inspiration.1061.desc_floor_bound_artifact:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gestures me over to an object covered in fabric with a wide grin on [inspiration_owner.GetHerHis] face. "I have toiled many days and nights, and finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] whips the covering off and my eyes grow wide as I see what's hidden beneath.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1061.desc [AGOT: ]
- fund_inspiration.1061.desc:0 ""Over here, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] waves me over with a wide grin. "I have toiled many days and nights, and finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] presents me with an object wrapped in cloth, and as I lift the fabric my eyes grow wide.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.desc_opening [AGOT: ]
- fund_inspiration.1081.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] gesture me over to [inspiration_owner.GetHerHis] cluttered desk with a huge grin on [inspiration_owner.GetHerHis] face."
-### TODO AGOT-ONLY: fund_inspiration.1081.immortality_fail_desc_opening [AGOT: ]
- fund_inspiration.1081.immortality_fail_desc_opening:0 ""I know I said I could discover a way to prolong life indefinitely, but sadly that was not meant to be."
+
+ fund_inspiration.1061.desc_floor_bound_artifact:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] yüzünde kocaman bir sırıtışla beni kumaşla örtülü bir nesnenin yanına çağırır. "Günlerce ve gecelerce çalıştım, sonunda işim bitti!"\n\n[inspiration_owner.GetSheHe|U] örtüyü sıyırır ve altında gizleneni görünce gözlerim kocaman olur.\n\n"
+
+ fund_inspiration.1061.desc:0 ""Buraya, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kocaman bir sırıtışla beni yanına çağırır. "Günlerce ve gecelerce çalıştım, sonunda işim bitti!"\n\n[inspiration_owner.GetSheHe|U] bana beze sarılı bir nesne uzatır ve bezi kaldırdığımda gözlerim kocaman olur.\n\n"
+
+ fund_inspiration.1081.desc_opening:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] yüzünde kocaman bir sırıtışla beni [inspiration_owner.GetHerHis] dağınık masasına çağırır."
+
+ fund_inspiration.1081.immortality_fail_desc_opening:0 ""Hayatı sonsuza dek uzatmanın bir yolunu bulabileceğimi söylemiştim, ama maalesef kısmet değilmiş.""
  fund_inspiration.1081.immortality_fail_desc_young:0 ""Lakin yaşlanmanızı engelleyecek bir iksir üretmeyi başardım! En azından bir nebze. Lütfen, tadına bakın ya da en azından çalışmamın meyvesini inceleyin."\n\n"
  fund_inspiration.1081.immortality_fail_desc_old:0 ""Lakin eski kuvvetinizi bir nebze geri getirecek bir iksir üretmeyi başardım! Lütfen, tadına bakın ya da en azından çalışmamın meyvesini inceleyin."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.elixir_desc_desc_young [AGOT: ]
- fund_inspiration.1081.elixir_desc_desc_young:0 ""My experiments have borne fruit. Behold, an elixir that will prevent aging! To some extent. Please, have a look, and perhaps even a taste."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.elixir_desc_desc_old [AGOT: ]
- fund_inspiration.1081.elixir_desc_desc_old:0 ""My experiments have borne fruit. Behold, an elixir that will return some of your lost vigor! Please, have a look, and perhaps even a taste."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.panacea_desc [AGOT: ]
- fund_inspiration.1081.panacea_desc:0 ""It's a panacea based on the established tradition of theriac, containing myrrh, saffron, opium, viper's flesh, and a number of other ingredients. It has proven itself most efficient for centuries, and I have perfected it even more! Have a look."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_philosophers_stone_desc [AGOT: ]
- fund_inspiration.1081.metals_philosophers_stone_desc:0 ""I have done it! I have created the philosopher's stone! This is my Magnum Opus, my golden legacy. Please, behold!"\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_mercury_desc [AGOT: ]
- fund_inspiration.1081.metals_mercury_desc:0 ""I heated a mix of quicksilver with sulfur in a flask which caused it to vaporize and recondense at the top of the flask. When I then broke the flask and ground the resulting compound I had created vermilion, bright red and vibrant! Here, I have recorded my findings."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_arsenic_desc [AGOT: ]
- fund_inspiration.1081.metals_arsenic_desc:0 ""I heated some arsenic ore, which produced a white powder that is solvable in water. I am positive that it is fatal when ingested, but it will leave no trace of taste or smell! Here, I have recorded my findings."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_gold_desc [AGOT: ]
- fund_inspiration.1081.metals_gold_desc:0 ""I have created gold! As great minds before me had theorized it was a lack of moisture and heat that was the fault with lead."\n\nWhen I ask to observe the process [inspiration_owner.GetSheHe] insists that the small piece of gold on the table speaks for itself. "But of course I have recorded my findings, have a look."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_silver_desc [AGOT: ]
- fund_inspiration.1081.metals_silver_desc:0 ""I have created silver! As great minds before me had theorized silver is born from heating copper and other base metals until they turn white."\n\nWhen I ask to observe the process [inspiration_owner.GetSheHe] insists that the small piece of silver on the table speaks for itself. "But of course I have recorded my findings, have a look."\n\n"
-### TODO AGOT-ONLY: fund_inspiration.1081.metals_fallback_desc [AGOT: ]
- fund_inspiration.1081.metals_fallback_desc:0 ""I have gathered all my insights into base metals and knowledge about transmutations into this tome. Here, have a look."\n\n"
+
+ fund_inspiration.1081.elixir_desc_desc_young:0 ""Deneylerim meyvesini verdi. İşte, yaşlanmayı önleyecek bir iksir! Bir dereceye kadar. Lütfen, bir bakın, hatta belki bir tadın."\n\n"
+
+ fund_inspiration.1081.elixir_desc_desc_old:0 ""Deneylerim meyvesini verdi. İşte, kaybettiğiniz dinçliğin bir kısmını geri getirecek bir iksir! Lütfen, bir bakın, hatta belki bir tadın."\n\n"
+
+ fund_inspiration.1081.panacea_desc:0 ""Mür, safran, afyon, engerek eti ve daha birçok bileşen içeren, köklü tiryak geleneğine dayanan bir her derde devadır. Yüzyıllardır son derece etkili olduğunu kanıtlamıştır, ben de onu daha da mükemmelleştirdim! Bir bakın."\n\n"
+
+ fund_inspiration.1081.metals_philosophers_stone_desc:0 ""Başardım! Felsefe taşını yarattım! Bu benim Başyapıtım, altın mirasım. Lütfen, şahit olun!"\n\n"
+
+ fund_inspiration.1081.metals_mercury_desc:0 ""Bir şişede cıvayı kükürtle ısıttım; bu, karışımın buharlaşmasına ve şişenin tepesinde yeniden yoğunlaşmasına yol açtı. Şişeyi kırıp elde edilen bileşiği öğüttüğümde parlak ve canlı kırmızı bir sülyen elde ettim! İşte, bulgularımı kaydettim."\n\n"
+
+ fund_inspiration.1081.metals_arsenic_desc:0 ""Biraz arsenik cevheri ısıttım; bu, suda çözünen beyaz bir toz ortaya çıkardı. Yutulduğunda ölümcül olduğundan eminim, ama hiçbir tat ya da koku izi bırakmayacak! İşte, bulgularımı kaydettim."\n\n"
+
+ fund_inspiration.1081.metals_gold_desc:0 ""Altın yarattım! Benden önceki büyük zekâların kuramlaştırdığı gibi, kurşunun kusuru nem ve ısı eksikliğiymiş."\n\nSüreci gözlemlemek istediğimde [inspiration_owner.GetSheHe] masadaki küçük altın parçasının kendi kendini anlattığında ısrar eder. "Ama elbette bulgularımı kaydettim, bir bakın."\n\n"
+
+ fund_inspiration.1081.metals_silver_desc:0 ""Gümüş yarattım! Benden önceki büyük zekâların kuramlaştırdığı gibi, gümüş bakırın ve diğer adi metallerin beyazlaşana dek ısıtılmasından doğar."\n\nSüreci gözlemlemek istediğimde [inspiration_owner.GetSheHe] masadaki küçük gümüş parçasının kendi kendini anlattığında ısrar eder. "Ama elbette bulgularımı kaydettim, bir bakın."\n\n"
+
+ fund_inspiration.1081.metals_fallback_desc:0 ""Adi metallerle ilgili tüm içgörülerimi ve dönüşüm bilgimi bu cilde topladım. İşte, bir bakın."\n\n"
  fund_inspiration.1081.a_elixirs:0 "Hemen tadına bakayım!"
  fund_inspiration.1081.a:0 "Büyüleyici!"
-### TODO AGOT-ONLY: fund_inspiration.1091.desc [AGOT: ]
- fund_inspiration.1091.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me with a satisfied smile drawn across [inspiration_owner.GetHerHis] face. "I have toiled over the workbench many days and nights, but finally my work is done!"\n\n[inspiration_owner.GetSheHe|U] presents me with an object wrapped in cloth, and as I unveil what is hidden within my eyes grow wide.\n\n"
+
+ fund_inspiration.1091.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] yüzünde hoşnut bir gülümsemeyle yanıma yaklaşır. "Tezgâhın başında günlerce ve gecelerce çalıştım, ama sonunda işim bitti!"\n\n[inspiration_owner.GetSheHe|U] bana beze sarılı bir nesne uzatır ve içindeki gizli şeyi açtığımda gözlerim kocaman olur.\n\n"
  fund_inspiration.1091.a: "İnce işçilik! Çok iyi!"
  fund_inspiration.9001.t:0 "İlham Sona Erdi"
  fund_inspiration.9001.desc:1 "Felaket! Desteklediğim [inspiration_owner.GetTitledFirstName] hayatını kaybetti. Kendi hayalini, hayır #EMP benim#! hayalimi gerçekleştiremeden [inspiration_owner.GetDeathReason]!\n\n"
@@ -293,10 +293,10 @@
  change_artifact_book_content_quality_effect_loss:1 "Kitap [Concept( 'artifact', 'Eseri' )|E] içeriği #N daha düşük kalitede#! olacak"
  fund_inspiration.9005.t:0 "Bitmemiş Mesele"
  fund_inspiration.9005.desc_intro:0 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('inherited_insp_owner'))|U] [inherited_insp_owner.GetTitledFirstName], verasetin karmaşası sırasında benimle konuşmak istiyor.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], [old_ruler.GetTitledFirstNameRegnal], vefatından önce çalışmalarımı desteklemişti, onun için [inherited_insp_owner.Custom('InspirationTypeDescription')] iken ölümüyle çalışmalarım yarıda kaldı." \n\n"
-### TODO AGOT-ONLY: fund_inspiration.9005.desc_multiple [AGOT: ]
- fund_inspiration.9005.desc_multiple:0 ""Other artisans had been working too, and we wish to know whether you will sponsor our efforts.""
-### TODO AGOT-ONLY: fund_inspiration.9005.desc_single [AGOT: ]
- fund_inspiration.9005.desc_single:0 ""The work has already begun, and it would be a shame not to complete it...""
+
+ fund_inspiration.9005.desc_multiple:0 ""Diğer zanaatkârlar da çalışıyordu ve çabalarımıza destek olup olmayacağınızı bilmek istiyoruz.""
+
+ fund_inspiration.9005.desc_single:0 ""İş çoktan başladı ve tamamlamamak yazık olur...""
  fund_inspiration.9005.a:0 "Çalışmalar devam edecek!"
  fund_inspiration.9005.b:0 "Bu manasız işler son bulacak."
  inherited_inspiration_continue_tt:0 "[old_ruler.GetTitledFirstNameRegnal], neyi desteklediyse siz de onu destekleyeceksiniz"
@@ -311,45 +311,45 @@
  fund_inspiration.2002.desc.fingernails:0 "bakışlarım masasının üzerindeki kızıla boyanmış aletler ve koparılmış tırnaklara gidiyor."
  fund_inspiration.2002.desc.potions:1 "bakışlarım hayvan parçaları, renkli sıvılar ve tehlikeli gözüken bitkilerle dolu masalar ve raflara kayıyor."
  fund_inspiration.2002.desc.blind:0 "Odada başka birinden gelen hafif inlemeleri ve ağlamaları duyuyorum. Birkaç hıçkırığın ardından, kulağa acı verici gelen bir öğürmeyle birlikte asidik kusmuk kokusunu alıyorum."
-### TODO AGOT-ONLY: fund_inspiration.2002.a [AGOT: ]
- fund_inspiration.2002.a:0 ""Use the people in my dungeons as you see fit.""
-### TODO AGOT-ONLY: fund_inspiration.2002.b [AGOT: ]
- fund_inspiration.2002.b:1 ""Here, some coin to abduct a few peasants.""
-### TODO AGOT-ONLY: fund_inspiration.2002.c [AGOT: ]
- fund_inspiration.2002.c:0 ""The border isn't far. Go kidnap some foreign peasants.""
+
+ fund_inspiration.2002.a:0 ""Zindanlarımdaki insanları dilediğiniz gibi kullanın.""
+
+ fund_inspiration.2002.b:0 ""Alın, birkaç köylüyü kaçırmanız için biraz para.""
+
+ fund_inspiration.2002.c:0 ""Sınır uzak değil. Gidip yabancı köylülerden birkaçını kaçırın.""
  fund_inspiration.2002.toast_outcome.negative:0 "Kanıtlar kayıp köylülerin sebebinin siz olduğunu açığa çıkarıyor"
  fund_inspiration.2002.toast_outcome.positive:0 "Köylülerin kaçırılmasının sebebinin siz olduğu açığa çıkmıyor"
  fund_inspiration.2002.d:0 "[inspiration_owner.GetTitledFirstNameNoTooltip] ve isteğini reddet."
  fund_inspiration.2003.t:0 "$fund_inspiration.title$ Aksamalar"
-### TODO AGOT-ONLY: fund_inspiration.2003.desc [AGOT: ]
- fund_inspiration.2003.desc:0 ""By #EMP [inspiration_owner.GetFaith.HighGodName]#!, [previous_inspired.GetWomanMan]! Leave me alone!"\n\nThe peaceful atmosphere is shattered by [inspiration_owner.GetFirstName] yelling as [inspiration_owner.GetSheHe] storms into the courtyard. [previous_inspired.GetFirstName] quickly follows, but stops when [previous_inspired.GetSheHe] sees me.\n\n"[ROOT.Char.Custom2('RelationToMeAddress', previous_inspired)|U], please talk some sense into [inspiration_owner.GetFirstNameNoTooltip]! I'm trying to help [inspiration_owner.GetHerHim] since I have some experience that may improve [inspiration_owner.GetHerHis] work!""
+
+ fund_inspiration.2003.desc:0 ""#EMP [inspiration_owner.GetFaith.HighGodName]#! aşkına, [previous_inspired.GetWomanMan]! Beni rahat bırak!"\n\n[inspiration_owner.GetFirstName] avluya öfkeyle dalıp bağırınca huzurlu atmosfer bozulur. [previous_inspired.GetFirstName] hemen arkasından gelir, ama [previous_inspired.GetSheHe] beni görünce durur.\n\n"[ROOT.Char.Custom2('RelationToMeAddress', previous_inspired)|U], lütfen [inspiration_owner.GetFirstNameNoTooltip]'e aklını başına toplatın! [inspiration_owner.GetHerHim]e yardım etmeye çalışıyorum çünkü [inspiration_owner.GetHerHis] işini geliştirebilecek tecrübem var!""
  fund_inspiration.2003.a:0 "Birlikte çalışmaları için ikna edeceğim."
-### TODO AGOT-ONLY: fund_inspiration.2003.b [AGOT: ]
- fund_inspiration.2003.b:1 ""Come, at least hear [previous_inspired.GetHerHim] out.""
+
+ fund_inspiration.2003.b:0 ""Gelin, en azından [previous_inspired.GetHerHim]i dinleyin.""
  fund_inspiration.2003.c:0 "Onu rahat bırakmasını emredeceğim."
  fund_inspiration.2003.toast_outcome.positive:0 "[inspiration_owner.GetFirstNameNoTooltip], [previous_inspired.GetFirstNameNoTooltip] ne diyorsa ona kulak verecek"
  fund_inspiration.2003.toast_outcome.refusal:0 "[inspiration_owner.GetFirstNameNoTooltip], dinlemeyi reddediyor"
  fund_inspiration.2003.toast_outcome.negative:0 "[previous_inspired.GetFirstNameNoTooltip], kötü önerilerde bulunuyor"
  fund_inspiration.2004.t:0 "$fund_inspiration.title$ En Yüksek Kalite"
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_metal [AGOT: ]
- fund_inspiration.2004.desc_metal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that metal! I have never seen such fine quality before.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_fabric [AGOT: ]
- fund_inspiration.2004.desc_fabric:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that fabric! The fibers, the depth of color... I have never seen such fine quality before.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_thread [AGOT: ]
- fund_inspiration.2004.desc_thread:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that thread! I have never seen such fine quality before.""
+
+ fund_inspiration.2004.desc_metal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu metale bakın! Daha önce hiç bu kadar kaliteli görmemiştim.""
+
+ fund_inspiration.2004.desc_fabric:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu kumaşa bakın! Lifler, renk derinliği... Daha önce hiç bu kadar kaliteli görmemiştim.""
+
+ fund_inspiration.2004.desc_thread:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu ipliğe bakın! Daha önce hiç bu kadar kaliteli görmemiştim.""
  fund_inspriation.2004.desc_paint: ""Efendim, şu renge bakın! Hiç bu kadar kalitelisini görmemiştim.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_wood [AGOT: ]
- fund_inspiration.2004.desc_wood:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that wood! The grain, the density... I have never seen such fine quality before!""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_paper [AGOT: ]
- fund_inspiration.2004.desc_paper:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that paper! I have never seen such fine quality before.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_ink [AGOT: ]
- fund_inspiration.2004.desc_ink:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that ink! The colors, the saturation... I have never seen such fine quality before!""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_alchemy_metal [AGOT: ]
- fund_inspiration.2004.desc_alchemy_metal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that! I have never seen such pure ore before.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_elixirs [AGOT: ]
- fund_inspiration.2004.desc_elixirs:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at those beakers! I have never seen such clear glass before.""
-### TODO AGOT-ONLY: fund_inspiration.2004.desc_fallback [AGOT: ]
- fund_inspiration.2004.desc_fallback:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], look at that! I have never seen such fine materials.""
+
+ fund_inspiration.2004.desc_wood:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu ahşaba bakın! Damarlar, yoğunluk... Daha önce hiç bu kadar kaliteli görmemiştim!""
+
+ fund_inspiration.2004.desc_paper:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu kâğıda bakın! Daha önce hiç bu kadar kaliteli görmemiştim.""
+
+ fund_inspiration.2004.desc_ink:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu mürekkebe bakın! Renkler, doygunluk... Daha önce hiç bu kadar kaliteli görmemiştim!""
+
+ fund_inspiration.2004.desc_alchemy_metal:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şuna bakın! Daha önce hiç bu kadar saf cevher görmemiştim.""
+
+ fund_inspiration.2004.desc_elixirs:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şu balonlara bakın! Daha önce hiç bu kadar duru cam görmemiştim.""
+
+ fund_inspiration.2004.desc_fallback:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], şuna bakın! Daha önce hiç bu kadar ince işlenmiş malzeme görmemiştim.""
  fund_inspiration.2004.desc:0 "\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], pazar alayımızdan ayrılıp gözüne çarpan malı satan tüccarla heyecanlı bir şekilde konuşmaya başlıyor.\n\n"Bununla birlikte çalışmam yeni bir seviyeye ulaşabilir. Gerçekten #EMP fevkalade#! bir şey yaratabilirim! Efendim lütfen, bu armağanı bana çok görmeyin.""
  fund_inspiration.2004.a:0 "Çalışmaların her türlü yatırıma değer!"
  fund_inspiration.2004.b:0 "Tabii ki ama daha adil bir fiyattan alabiliriz değil mi?"
@@ -375,8 +375,8 @@
  fund_inspiration.2021.b:0 "Sana beş kuruş daha vermem."
  fund_inspiration.2030.t:0 "$fund_inspiration.title$ Dostça Bir Söz"
  fund_inspiration.2030.desc:0 "Dostum [friend.GetTitledFirstName] yüzünde gülümsemeyle beni durduruyor.\n\n"[ROOT.Char.GetFirstNameNoTooltip]! İşte #EMP buradasın#!! Daha şimdi [inspiration_owner.GetTitledFirstName] ile konuştum! Duydum ki senin için [inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')]. Bir ziyarette bulunmaktan kendimi alıkoyamadım!" \n\n"Onunla senin beklentilerini nasıl karşılayabileceği hakkında konuştum, bence sonuçları beğeneceksin!""
-### TODO AGOT-ONLY: fund_inspiration.2030.a [AGOT: ]
- fund_inspiration.2030.a:0 ""Oh! Thanks [friend.GetFirstNameNoTooltip]!""
+
+ fund_inspiration.2030.a:0 ""Ah! Teşekkürler [friend.GetFirstNameNoTooltip]!""
  fund_inspiration.2040.t:0 "$fund_inspiration.title$ Sabotaj"
  fund_inspiration.2040.desc:0 "[inspiration_owner.GetTitledFirstName] ve şiddetli çığırışları normalde sakin olan bir anı mahvediyor: "[inspiration_owner.Custom('GetInspirationTypeTool')|U] sürekli kaybolurken işimi nasıl yapabilirim ki?!" \n\nBana doğru koşuyor. "[ROOT.Char.Custom('FormOfAddressForLiege')|U], her ilerleme katettiğimde sürekli bir şeyler yanlış gidiyor! Eminim ki saraydaki biri işime karışıyor!" \n\n[inspiration_owner.Custom('GetInspirationOwnerType')|U] öfkeli bir şekilde odasına dönüyor."
  fund_inspiration.2040.a:0 "Tam bir amatör."
@@ -389,10 +389,10 @@
  ep1_fund_inspiration_2040_scheme_modifier:0 "Gizli İşler"
  ep1_fund_inspiration_2040_scheme_modifier_desc:0 "Bu karakter kendini kanıtlamış bir ajan."
  fund_inspiration.2041.desc:0 "Akşam yemeğinden sonra [inspiration_owner.GetTitledFirstName] ve odasının yanında birkaç muhafız ile bekliyorum, [ROOT.Char.Custom('FortifiedBuilding')] üstüne gece çökerken koridorları izliyorum. \n\nTam vazgeçmeye karar verdiğimde, koridorda hareket eden bir ışık görüyorum, peşinden ise pelerinli bir silüet çıkıyor.\n\nKaranlık figur kapıyı açıyor ve son bir kaçamak bakıştan sonra odaya dalıyor, yüzü titreyen alevlerden ötürü açık bir şekilde belli oluyor bu [rival.GetTitledFirstName]!"
-### TODO AGOT-ONLY: fund_inspiration.2041.a [AGOT: ]
- fund_inspiration.2041.a:0 ""A-ha! To the dungeons!""
-### TODO AGOT-ONLY: fund_inspiration.2041.b [AGOT: ]
- fund_inspiration.2041.b:0 ""Throw [rival.GetHerHim] out of the [ROOT.Char.Custom('FortifiedBuilding')]!""
+
+ fund_inspiration.2041.a:0 ""A-ha! Zindanlara!""
+
+ fund_inspiration.2041.b:0 ""[rival.GetHerHim]i [ROOT.Char.Custom('FortifiedBuilding')]den atın!""
  fund_inspiration.2041.c:0 "Bunu kendi yöntemlerimle halledeceğim..."
  fund_inspiration.2050.t:0 "$fund_inspiration.title$ Fikir Değerlendirildi"
  fund_inspiration.2050.desc:0 "[inspiration_owner.Custom('GetInspirationOwnerType')|U] [inspiration_owner.GetTitledFirstName] ilerlemesi hakkında beni bilgilendiriyor ve sürekli kendisine yetmeyen [inspiration_owner.Custom('GetInspirationTypeTool')] ve [inspiration_owner.Custom('GetInspirationTypeStation')] hakkında şikayet ediyor. Bu sırada aklım [inspiration_owner.Custom('GetInspirationTypeObject')] ile ilgili fikirlerle dolu... \n\nİşi bizzat #EMP ben#! yapmıyorum ama bu, paranın nasıl harcanacağı hakkında söz sahibi olmadığım anlamına gelmiyor!"
@@ -415,27 +415,27 @@
  fund_inspiration.2060.desc.abbey:0 "[barony_scope.GetDeJureLiege.GetNameNoTier] içerisindeki bir [barony_scope.GetAdjectiveNoTooltip] [donator.GetFaith.GetAdjectiveNoTooltip] ibadethanesini temsil ediyormuş.\n\n"
  fund_inspiration.2060.desc.mercenary:1 "[barony_scope.GetDeJureLiege.GetNameNoTier] içerisindeki [barony_scope.GetNameNoTierNoTooltip] diyarlarından ufak bir [donator.GetCulture.GetNameNoTooltip] paralı asker grubunu temsil ediyormuş.\n\n"
  fund_inspiration.2060.desc.guild:0 "[barony_scope.GetDeJureLiege.GetNameNoTier] içerisindeki [barony_scope.GetNameNoTierNoTooltip] diyarlarından ufak bir [donator.Custom('dummy_peasant_profession')] loncasını temsil ediyormuş.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.2060.piety [AGOT: ]
- fund_inspiration.2060.piety:0 ""Most holy [ROOT.Char.GetTitleAsNameNoTooltip]!"
-### TODO AGOT-ONLY: fund_inspiration.2060.saoshyant [AGOT: ]
- fund_inspiration.2060.saoshyant:0 ""Heavenly Saoshyant!"
-### TODO AGOT-ONLY: fund_inspiration.2060.savior [AGOT: ]
- fund_inspiration.2060.savior:0 ""Holy savior!"
-### TODO AGOT-ONLY: fund_inspiration.2060.saint [AGOT: ]
- fund_inspiration.2060.saint:0 ""Revered saint!"
-### TODO AGOT-ONLY: fund_inspiration.2060.prestige [AGOT: ]
- fund_inspiration.2060.prestige:0 ""Oh, superb [ROOT.Char.GetTitleAsNameNoTooltip]!"
-### TODO AGOT-ONLY: fund_inspiration.2060.grandeur [AGOT: ]
- fund_inspiration.2060.grandeur:1 ""Oh, peerless [ROOT.Char.GetTitleAsNameNoTooltip]!"
+
+ fund_inspiration.2060.piety:0 ""En kutsal [ROOT.Char.GetTitleAsNameNoTooltip]!""
+
+ fund_inspiration.2060.saoshyant:0 ""İlahi Saoshyant!""
+
+ fund_inspiration.2060.savior:0 ""Kutsal kurtarıcı!""
+
+ fund_inspiration.2060.saint:0 ""Saygıdeğer aziz!""
+
+ fund_inspiration.2060.prestige:0 ""Ah, muhteşem [ROOT.Char.GetTitleAsNameNoTooltip]!""
+
+ fund_inspiration.2060.grandeur:0 ""Ah, eşsiz [ROOT.Char.GetTitleAsNameNoTooltip]!""
  fund_inspiration.2060.desc_outro:0 ""Yaptırdığınız [inspiration_owner.Custom('GetInspirationTypeObject')] harikâymış diye duyduk ve [inspiration_owner.Custom('GetInspirationOwnerType')] için cüzi bir miktarda bağış yapmak istedik. Umarım bu onuru bize bahşedersiniz efendim, aylardır bunun için para biriktiriyoruz!""
-### TODO AGOT-ONLY: fund_inspiration.2060.a [AGOT: ]
- fund_inspiration.2060.a:0 ""It is #EMP I#! who am honored.""
-### TODO AGOT-ONLY: fund_inspiration.2060.b.religious [AGOT: ]
- fund_inspiration.2060.b.religious:0 ""No, please kind [donator.Custom('NunMonk')], keep it.""
-### TODO AGOT-ONLY: fund_inspiration.2060.b.prestige [AGOT: ]
- fund_inspiration.2060.b.prestige:0 ""No, I refuse! Keep it, friend!""
-### TODO AGOT-ONLY: fund_inspiration.2060.c [AGOT: ]
- fund_inspiration.2060.c:0 ""Is that all?""
+
+ fund_inspiration.2060.a:0 ""Onurlanan #EMP ben#!im.""
+
+ fund_inspiration.2060.b.religious:0 ""Hayır, lütfen nazik [donator.Custom('NunMonk')], sizde kalsın.""
+
+ fund_inspiration.2060.b.prestige:0 ""Hayır, kabul etmiyorum! Sende kalsın, dostum!""
+
+ fund_inspiration.2060.c:0 ""Hepsi bu kadar mı?""
  ep1_fund_inspiration_2070_accept_modifier:0 "Hediye Kabul Edildi"
  ep1_fund_inspiration_2070_accept_modifier_desc:0 "Bu kontluk hükümdarının eserinin yapımında paya sahip olmaktan memnun."
  ep1_fund_inspiration_2070_refuse_modifier:0 "Hediye Reddedildi"
@@ -461,49 +461,49 @@
  fund_inspiration.2070.desc.pregnant:0 "Dediklerine göre [inspiration_owner.GetFirstNameNoTooltip], hamileliğinden kaynaklı sancılar yüzünden hareket edemiyormuş bu da işini yapamamasına sebep olmuş..."
  fund_inspiration.2070.desc.sick:0 "Dediklerine göre [inspiration_owner.GetFirstNameNoTooltip], sürekli hastalanıyor, bu da onu sık sık yatağa mahkûm ediyor ve işini yapamayacak hâle getiriyor."
  fund_inspiration.2070.desc_outro:0 "\n\nDaha fazla dayanamayıp huzuruma çıkarılmasını emrediyorum."
-### TODO AGOT-ONLY: fund_inspiration.2070.a [AGOT: ]
- fund_inspiration.2070.a:0 ""See to it that things get back on track.""
-### TODO AGOT-ONLY: fund_inspiration.2070.b [AGOT: ]
- fund_inspiration.2070.b:0 ""I know you are doing your best, [inspiration_owner.GetFirstNameNoTooltip].""
-### TODO AGOT-ONLY: fund_inspiration.2070.c [AGOT: ]
- fund_inspiration.2070.c:0 ""It had better be a masterpiece, and soon!""
-### TODO AGOT-ONLY: fund_inspiration.2070.d [AGOT: ]
- fund_inspiration.2070.d:0 ""Leave this [ROOT.Char.Custom('FortifiedBuilding')] at once, wastrel.""
+
+ fund_inspiration.2070.a:0 ""İşlerin yoluna girmesini sağla.""
+
+ fund_inspiration.2070.b:0 ""Elinden gelenin en iyisini yaptığını biliyorum, [inspiration_owner.GetFirstNameNoTooltip].""
+
+ fund_inspiration.2070.c:0 ""Bir başyapıt olsa iyi olur, hem de yakında!""
+
+ fund_inspiration.2070.d:0 ""Bu [ROOT.Char.Custom('FortifiedBuilding')]den derhal çık, sersem.""
  fund_inspiration.2080.t:0 "$fund_inspiration.title$ Yaratıcı Özgürlük"
  fund_inspiration.2080.antiquarian:0 ""Bu saçmalık!", diyor [rival.GetTitledFirstName], "[ROOT.Char.GetTitleAsNameNoTooltip] ve kişisel koleksiyonunun koruyucusu olarak işinizin belli bir kalitede olmasını sağlamakla yükümlüyüm!""
  fund_inspiration.2080.artificer:0 ""Bu saçmalık!", diyor [rival.GetTitledFirstName], "[ROOT.Char.GetTitleAsNameNoTooltip], beni bu işe güvendiği için atadı! Yaptığın işe bakmama izin verirsen yardımcı olabilirim!""
  fund_inspiration.2080.desc:0 "\n\n"Bittiğinde göreceksin!" diye çıkışıyor [inspiration_owner.GetTitledFirstName]. "Birisi krallara layık [inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')|l] ise işine karışılmamalı!""
-### TODO AGOT-ONLY: fund_inspiration.2080.a [AGOT: ]
- fund_inspiration.2080.a:0 ""[rival.GetFirstNameNoTooltip] #EMP will#! ensure its quality, [inspiration_owner.GetFirstNameNoTooltip].""
-### TODO AGOT-ONLY: fund_inspiration.2080.b [AGOT: ]
- fund_inspiration.2080.b:0 ""Stick to your own duties, [rival.GetFirstNameNoTooltip].""
+
+ fund_inspiration.2080.a:0 ""[rival.GetFirstNameNoTooltip] kalitesini #EMP garanti edecek#!, [inspiration_owner.GetFirstNameNoTooltip].""
+
+ fund_inspiration.2080.b:0 ""Kendi görevine bak, [rival.GetFirstNameNoTooltip].""
  fund_inspiration.2080.success:0 "[rival.GetFirstNameNoTooltip], yardımcı oldu"
  fund_inspiration.2080.failure:0 "[rival.GetFirstNameNoTooltip], yardımcı olmadı"
  fund_inspiration.2080.c:0 "Yeni bir sayfa açma vakti."
  fund_inspiration.2090.t:0 "$fund_inspiration.title$ Eş Eli Değmiş Gibi"
  fund_inspiration.2090.desc:0 "Eşim [event_spouse.GetFirstName], [inspiration_owner.GetTitledFirstName] ile heyecanlı bir şekilde muhabbet ederken gözüme çarpıyor, konuşması sırasında [inspiration_owner.Custom('GetInspirationTypeObject')] için fikirlerini sunuyor. [inspiration_owner.Custom('GetInspirationOwnerType')|U] eşimin fikirlerini hor görüyor ve işine karışmasından memnun olmadığını gösteriyor.\n\n"...bu yüzden büyük atalarımın eskiden sahip olduğu [inspiration_owner.Custom('GetInspirationTypeObject')] ile benzer olsa iyi olur!" \n\n[inspiration_owner.GetFirstNameNoTooltip] söylenilenlerden sonra ruhundan bir parça kaybetmiş gibi gözüküyor."
-### TODO AGOT-ONLY: fund_inspiration.2090.a [AGOT: ]
- fund_inspiration.2090.a:0 ""Listen well [inspiration_owner.GetFirstNameNoTooltip] — my [event_spouse.GetWifeHusband] must be heard!""
-### TODO AGOT-ONLY: fund_inspiration.2090.b [AGOT: ]
- fund_inspiration.2090.b:0 ""Come darling, let's leave it to the expert.""
+
+ fund_inspiration.2090.a:0 ""İyi dinle [inspiration_owner.GetFirstNameNoTooltip] — [event_spouse.GetWifeHusband]im duyulmak zorunda!""
+
+ fund_inspiration.2090.b:0 ""Gel canım, işi uzmanına bırakalım.""
  fund_inspiration.2090.success:0 "[event_spouse.GetFirstNameNoTooltip], yardımcı oldu"
  fund_inspiration.2090.failure:0 "[event_spouse.GetFirstNameNoTooltip], yardımcı olmadı"
  fund_inspiration.2100.t:0 "$fund_inspiration.title$ İmrenen Zanaatkâr"
  fund_inspiration.2100.desc:0 "[inspiration_owner.Custom('GetInspirationOwnerType')|U] [inspiration_owner.GetTitledFirstName], desteklediğim diğer kişi [other_inspiration_owner.GetTitledFirstName] ile olan çekişmesini oturmuş düşünüyor. \n\nGenelde bu düşüncelerden hemen sıyrılıp odasındaki çalışmasına geri dönse de bu sefer [inspiration_owner.GetFirstNameNoTooltip], akşam yemeğindeki havayı mahvetti. \n\nBu akşam sonunda kafayı sıyırdı:"
-### TODO AGOT-ONLY: fund_inspiration.2100.desc.funds [AGOT: ]
- fund_inspiration.2100.desc.funds:0 ""Why does [other_inspiration_owner.GetFirstNameNoTooltip] receive more funds than me? '[other_inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')|U]'! So what?""
-### TODO AGOT-ONLY: fund_inspiration.2100.desc.rival [AGOT: ]
- fund_inspiration.2100.desc.rival:0 ""I can't believe you drain your coffers for that [other_inspiration_owner.Custom2('InsultNoun', SCOPE.sC('inspiration_owner'))], [other_inspiration_owner.GetFirstNameNoTooltip], you'd get better results from the gong-farmers!""
-### TODO AGOT-ONLY: fund_inspiration.2100.desc.fallback [AGOT: ]
- fund_inspiration.2100.desc.fallback:0 ""You should drop this dead weight, my liege; [other_inspiration_owner.GetFirstNameNoTooltip] doesn't know the right end of a [other_inspiration_owner.Custom('GetInspirationTypeTool')], let alone [other_inspiration_owner.GetHerHis] way around a [other_inspiration_owner.Custom('GetInspirationTypeRoom')].""
-### TODO AGOT-ONLY: fund_inspiration.2100.a [AGOT: ]
- fund_inspiration.2100.a:0 ""Your work is valuable to me, [inspiration_owner.GetFirstNameNoTooltip].""
-### TODO AGOT-ONLY: fund_inspiration.2100.b [AGOT: ]
- fund_inspiration.2100.b:0 ""I will match your funding, happy?""
-### TODO AGOT-ONLY: fund_inspiration.2100.c [AGOT: ]
- fund_inspiration.2100.c:0 ""Come, what is the matter?""
-### TODO AGOT-ONLY: fund_inspiration.2100.d [AGOT: ]
- fund_inspiration.2100.d:0 ""Stop this foolishness.""
+
+ fund_inspiration.2100.desc.funds:0 ""Neden [other_inspiration_owner.GetFirstNameNoTooltip] benden daha fazla fon alıyor? '[other_inspiration_owner.Custom('InspirationTypeDescriptionFuturePresent')|U]'! Neymiş yani?""
+
+ fund_inspiration.2100.desc.rival:0 ""Hazineni şu [other_inspiration_owner.Custom2('InsultNoun', SCOPE.sC('inspiration_owner'))] için boşalttığına inanamıyorum, [other_inspiration_owner.GetFirstNameNoTooltip], lağımcılardan daha iyi sonuç alırdın!""
+
+ fund_inspiration.2100.desc.fallback:0 ""Bu yükü bırakmalısınız, hükümdarım; [other_inspiration_owner.GetFirstNameNoTooltip] bir [other_inspiration_owner.Custom('GetInspirationTypeTool')]nin doğru ucunu bilmez, [other_inspiration_owner.Custom('GetInspirationTypeRoom')]nde yolunu bulması bir yana.""
+
+ fund_inspiration.2100.a:0 ""Çalışman benim için değerli, [inspiration_owner.GetFirstNameNoTooltip].""
+
+ fund_inspiration.2100.b:0 ""Fonunu eşitleyeceğim, memnun musun?""
+
+ fund_inspiration.2100.c:0 ""Gel, derdin ne?""
+
+ fund_inspiration.2100.d:0 ""Bu saçmalığı kes.""
  fund_inspiration.2100.c.leave:0 "[inspiration_owner.GetFirstNameNoTooltip], işini bırakıyor"
  fund_inspiration.2100.c.worse:0 "[inspiration_owner.GetFirstNameNoTooltip], motivasyon kaybediyor"
  fund_inspiration.2100.success:0 "İşleri düzeltiyorsun"
@@ -517,13 +517,13 @@
  fund_inspiration.2110.desc.dweeb.research: "[generous_vassal.GetFirstNameNoTooltip] pek çok şeye ilgi duyuyor, bunların arasında bilimsel buluşlar ve onları ortaya çıkaran zihinler de var..."
  fund_inspiration.2110.desc.friend:0 "[generous_vassal.GetFirstNameNoTooltip], elinde bir torba altınla birlikte gülümsüyor."
  fund_inspiration.2110.desc.rich:0 "Zavallı [generous_vassal.GetFirstNameNoTooltip] harcayamayacağı kadar çok paraya sahip olmalı..."
-### TODO AGOT-ONLY: fund_inspiration.2110.a [AGOT: ]
- fund_inspiration.2110.a:0 ""How generous!""
-### TODO AGOT-ONLY: fund_inspiration.2110.b [AGOT: ]
- fund_inspiration.2110.b:0 ""Oh, I'll make #EMP sure#! [inspiration_owner.GetSheHe] gets it!""
+
+ fund_inspiration.2110.a:0 ""Ne cömertsin!""
+
+ fund_inspiration.2110.b:0 ""Ah, #EMP emin olun#! [inspiration_owner.GetSheHe] alacak!""
  fund_inspiration.2110.b.flavor:0 "Bu güzel oldu..."
-### TODO AGOT-ONLY: fund_inspiration.2110.c [AGOT: ]
- fund_inspiration.2110.c:0 ""No, prithee, keep it!""
+
+ fund_inspiration.2110.c:0 ""Hayır, lütfen, sizde kalsın!""
  fund_inspiration.2120.t:0 "$fund_inspiration.title$ Gecenin Körü"
  fund_inspiration.2120.desc:0 "[inspiration_owner.GetFirstName], odasında çalışırken zaman uçup gidiyor. [ROOT.Char.Custom('RegionalAlcoholicDrink')|U] içerken, benim için yaptığı [inspiration_owner.Custom('GetInspirationTypeObject')] hakkında konuşuyoruz. Hayal mi görüyorum yoksa açıklayamadığım bir... yakınlık mı var? \n\n"
  fund_inspiration.2120.desc.me:0 "Hayallere dalıyorum, vücudunun ufak hareketlerinde, gülümseyen dudaklarında kayboluyorum... Elimi üzerine koyuyorum. Ben mest edici gözlerinede kaybolmuşken titreyen ellerindeki [inspiration_owner.Custom('GetInspirationTypeTool')] yere düşüyor.\n\n"
@@ -536,53 +536,53 @@
  fund_inspiration.2120.desc.me_chaste:0 "İleri adım atıp beni kollarının arasına almaya çalışıyor. Vücudum evet dese de, kalbim hayır diyor..."
  fund_inspiration.2120.desc.me_into:0 "İçimde bir şeylerin kıpırdadığını reddedemem, kalp atışlarım hızlanıyor ve birbirimizi bir diğerinin kollarında buluyoruz... Neler #EMP oluyor#!?"
  fund_inspiration.2120.desc.me_into_alot:0 "Arzuladığı şey hakkında şüphem yok! [inspiration_owner.Custom('GetInspirationTypeStation')] ne ara yana fırladı hiçbir fikrim yok, kendimi durduramıyorum."
-### TODO AGOT-ONLY: fund_inspiration.2120.a [AGOT: ]
- fund_inspiration.2120.a:0 ""Come here, sweet thing.""
-### TODO AGOT-ONLY: fund_inspiration.2120.e [AGOT: ]
- fund_inspiration.2120.e:0 ""Oh... [inspiration_owner.GetFirstNameNoTooltip]...""
-### TODO AGOT-ONLY: fund_inspiration.2120.f.chaste [AGOT: ]
- fund_inspiration.2120.f.chaste:0 ""This is not for me...""
-### TODO AGOT-ONLY: fund_inspiration.2120.f [AGOT: ]
- fund_inspiration.2120.f:0 ""I... must go!""
-### TODO AGOT-ONLY: fund_inspiration.2120.h [AGOT: ]
- fund_inspiration.2120.h:0 ""Quick, the door!""
-### TODO AGOT-ONLY: fund_inspiration.2120.i [AGOT: ]
- fund_inspiration.2120.i:0 ""Oh! I'm not...""
-### TODO AGOT-ONLY: fund_inspiration.2120.j [AGOT: ]
- fund_inspiration.2120.j:0 ""No! The [ROOT.Char.GetFaith.ReligiousText] forbids this union...""
-### TODO AGOT-ONLY: fund_inspiration.2120.k.me [AGOT: ]
- fund_inspiration.2120.k.me:0 ""No! I can't... adultery is a sin!""
-### TODO AGOT-ONLY: fund_inspiration.2120.k.them [AGOT: ]
- fund_inspiration.2120.k.them:0 ""No, I can't tempt [inspiration_owner.GetHerHim] into adultery..."
-### TODO AGOT-ONLY: fund_inspiration.2120.l [AGOT: ]
- fund_inspiration.2120.l:0 ""Wait... how #EMP dare#! you?!""
-### TODO AGOT-ONLY: fund_inspiration.2120.m [AGOT: ]
- fund_inspiration.2120.m:0 ""Unhand me, debauched sinner!""
+
+ fund_inspiration.2120.a:0 ""Buraya gel, tatlım.""
+
+ fund_inspiration.2120.e:0 ""Ah... [inspiration_owner.GetFirstNameNoTooltip]...""
+
+ fund_inspiration.2120.f.chaste:0 ""Bu bana göre değil...""
+
+ fund_inspiration.2120.f:0 ""Ben... gitmeliyim!""
+
+ fund_inspiration.2120.h:0 ""Çabuk, kapı!""
+
+ fund_inspiration.2120.i:0 ""Ah! Ben...""
+
+ fund_inspiration.2120.j:0 ""Hayır! [ROOT.Char.GetFaith.ReligiousText] bu birliği yasaklıyor...""
+
+ fund_inspiration.2120.k.me:0 ""Hayır! Yapamam... zina günahtır!""
+
+ fund_inspiration.2120.k.them:0 ""Hayır, [inspiration_owner.GetHerHim]i zinaya sürükleyemem...""
+
+ fund_inspiration.2120.l:0 ""Bir dakika... buna nasıl #EMP cüret#! edersin?!""
+
+ fund_inspiration.2120.m:0 ""Bırak beni, sefih günahkâr!""
  fund_inspiration.2120.leave_flavor:0 "Aceleyle çıkıyorsunuz"
  fund_inspiration.2130.t:0 "$fund_inspiration.title$ Gelmeyen Fikirler"
  fund_inspiration.2130.desc:1 "[inspiration_owner.Custom('GetInspirationOwnerType')|U] [inspiration_owner.GetTitledFirstName] bayağı kasvetli görünüyor, umuyorum ki yakın zamanda bitmesi gereken muhteşem [inspiration_owner.Custom('GetInspirationTypeObject')] ile alakalı kötü haberler getirmez.\n\n"Efendim, ben de sizi arıyordum... Çalışmalarım sırasında bir engele takıldım diyebilirim, çok büyük bir şey değil tabii! Üzerimdeki baskı arttıkça fikirlerim kayboluyor gibi bir şey!".\n\n"Biraz... ilhama ihtiyacım var! Yüce [ROOT.Char.GetTitleAsNameNoTooltip], bana aktarabileceğiniz... geçmiş tecrübeleriniz var mıdır acaba?""
-### TODO AGOT-ONLY: fund_inspiration.2130.a.library [AGOT: ]
- fund_inspiration.2130.a.library:0 ""To the library!""
-### TODO AGOT-ONLY: fund_inspiration.2130.a.armory [AGOT: ]
- fund_inspiration.2130.a.armory:0 ""To the armory!""
-### TODO AGOT-ONLY: fund_inspiration.2130.a.hall [AGOT: ]
- fund_inspiration.2130.a.hall:0 ""To the great hall!""
+
+ fund_inspiration.2130.a.library:0 ""Kütüphaneye!""
+
+ fund_inspiration.2130.a.armory:0 ""Silahhaneye!""
+
+ fund_inspiration.2130.a.hall:0 ""Büyük salona!""
  fund_inspiration.2130.a.tt:0 "[inspiration_owner.GetFirstNameNoTooltip] tarafından sahip olunan [Concept( 'inspiration', 'İlhamın' )|E] kalitesi ya da ilerlemesi artabilir"
  fund_inspiration.2130.a.flavor:0 "Yardım edecek bir şey bulmak zorundayız!"
-### TODO AGOT-ONLY: fund_inspiration.2130.b [AGOT: ]
- fund_inspiration.2130.b:0 ""I know what you need!""
+
+ fund_inspiration.2130.b:0 ""Ne gerektiğini biliyorum!""
  fund_inspiration.2130.b.great:0 "[inspiration_owner.GetFirstNameNoTooltip] yeni fikirler buluyor"
  fund_inspiration.2130.b.good:1 "[inspiration_owner.GetFirstNameNoTooltip] fikirlerini hatırlıyor"
  fund_inspiration.2130.b.nothing:0 "[inspiration_owner.GetFirstNameNoTooltip] fikirlerini hatırlamıyor"
  fund_inspiration.2130.b.bad:0 "[inspiration_owner.GetFirstNameNoTooltip] fikirlerini unutuyor"
  fund_inspiration.2130.b.terrible:0 "[inspiration_owner.GetFirstNameNoTooltip] fikirlerini tamamen unutuyor"
  fund_inspiration.2130.b.flavor:0 "Ne eğleneceğiz ama!"
-### TODO AGOT-ONLY: fund_inspiration.2130.c [AGOT: ]
- fund_inspiration.2130.c:0 ""Ah, I have just the tonic.""
+
+ fund_inspiration.2130.c:0 ""Ah, tam da aradığım tonik var.""
  fund_inspiration.2130.c.dead:1 "[inspiration_owner.GetFirstNameNoTooltip], yere yığılıyor"
  fund_inspiration.2130.c.flavor:0 "Nerede şu kırmızı şişe..."
-### TODO AGOT-ONLY: fund_inspiration.2130.d [AGOT: ]
- fund_inspiration.2130.d:0 ""Real inspiration comes from within.""
+
+ fund_inspiration.2130.d:0 ""Gerçek ilham içeriden gelir.""
  fund_inspiration.2131.t:0 "$fund_inspiration.title$ Yeni Yüzler"
  fund_inspiration.2131.desc_library_unused:0 "Son bir nefesten sonra [inspiration_owner.GetTitledFirstName] ve ben tozlu kütüphaneme giriyoruz, nadiren girme sebebim olan bir odaya.\n\n"
  fund_inspiration.2131.desc_library:0 "[inspiration_owner.GetTitledFirstName], bakımlı kütüphaneme benimle birlikte giriyor. Ona bazı önemli ciltleri ve iksirleri gösteriyorum.\n\n"
@@ -595,38 +595,38 @@
  fund_inspiration.2131.desc_equipped:0 "[inspiration_owner.Custom('GetInspirationOwnerType')|U] sanki şaşırmış gibi bir an duruyor, gözlerinin önünde ise [artifact_1.GetName]. "Gerçekten çok iyi süzerenim... Acaba... Acaba bunun yapıldığı [inspiration_owner.Custom('GetInspirationMaterialType')] hâlâ varsa birazını alabilir miyim?""
  fund_inspiration.2131.desc_unequipped:0 "[inspiration_owner.Custom('GetInspirationOwnerType')|U] gezerken aniden duruyor, yakından incelediğiş şey ise [artifact_1.GetName]. "Evet... aradığım şey [inspiration_owner.Custom('GetInspirationMaterialType')] gibi gözüküyor... Acaba... hâlâ bunu istiyor musunuz? Süzerenim?""
  fund_inspiration.2131.desc_fallback:1 "Odada birkaç tur attıktan sonra başı öne eğik bir şekilde bana geliyor. "Süzerenim, burada ilgimi çeken hiçbir şey yok... başka bir şey var mı?""
-### TODO AGOT-ONLY: fund_inspiration.2131.a [AGOT: ]
- fund_inspiration.2131.a:0 ""The [artifact_1.GetNameNoTooltip]? Very well...""
-### TODO AGOT-ONLY: fund_inspiration.2131.b [AGOT: ]
- fund_inspiration.2131.b:0 ""What about my [artifact_2.GetNameNoTooltip]?""
-### TODO AGOT-ONLY: fund_inspiration.2131.c [AGOT: ]
- fund_inspiration.2131.c:0 ""There must be some junk lying around...""
+
+ fund_inspiration.2131.a:0 ""[artifact_1.GetNameNoTooltip] mi? Pekâlâ...""
+
+ fund_inspiration.2131.b:0 ""Peki ya [artifact_2.GetNameNoTooltip]?""
+
+ fund_inspiration.2131.c:0 ""Ortalıkta bir sürü ıvır zıvır olmalı...""
  fund_inspiration.2131.c.good:0 "Kaliteli [inspiration_owner.Custom('GetInspirationMaterialType')] buluyorsunuz"
  fund_inspiration.2131.c.nothing:0 "Hiçbir şey bulamıyorsunuz"
  fund_inspiration.2131.c.bad:0 "Dandik [inspiration_owner.Custom('GetInspirationMaterialType')] buluyorsunuz"
-### TODO AGOT-ONLY: fund_inspiration.2131.d [AGOT: ]
- fund_inspiration.2131.d:0 ""You're just having a look.""
+
+ fund_inspiration.2131.d:0 ""Sadece bir göz atıyorsun.""
  fund_inspiration.2131.d.great:1 "[inspiration_owner.GetNameNoTooltip], harika bir şey buluyor"
  fund_inspiration.2131.d.good:1 "[inspiration_owner.GetNameNoTooltip], [inspiration_owner.Custom('GetInspirationMaterialType')] buluyor"
  fund_inspiration.2131.d.nothing:1 "[inspiration_owner.GetNameNoTooltip], hiçbir şey bulamıyor"
  fund_inspiration.2131.d.bad:1 "[inspiration_owner.GetNameNoTooltip], kalitesiz [inspiration_owner.Custom('GetInspirationMaterialType')] buluyor"
  fund_inspiration.2131.d.terrible:1 "[inspiration_owner.GetNameNoTooltip], dandik [inspiration_owner.Custom('GetInspirationMaterialType')] buluyor"
-### TODO AGOT-ONLY: fund_inspiration.2131.e [AGOT: ]
- fund_inspiration.2131.e:0 ""[second.GetFirstNameNoTooltip]! Any suggestions?""
-### TODO AGOT-ONLY: fund_inspiration.2131.f [AGOT: ]
- fund_inspiration.2131.f:0 ""What a waste a time!""
+
+ fund_inspiration.2131.e:0 ""[second.GetFirstNameNoTooltip]! Bir önerin var mı?""
+
+ fund_inspiration.2131.f:0 ""Ne büyük zaman kaybı!""
  fund_inspiration.3001.t:0 "$fund_inspiration.title$ Kâfirce Yazılar"
  fund_inspiration.3001.desc_opening:0 "[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U], odaya elinde bir sürü sayfa ile dalıyor, peşinde ise yanakları kıpkırmızı olan [inspiration_owner.GetTitledFirstName] girip elindeki sayfaları almaya çalışıyor.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.3001.desc_witch [AGOT: ]
- fund_inspiration.3001.desc_witch:0 ""This [inspiration_owner.GetWomanMan] is writing about [ROOT.Char.GetFaith.WitchGodName]. #EMP [ROOT.Char.GetFaith.WitchGodName]#!!"
-### TODO AGOT-ONLY: fund_inspiration.3001.desc_cannibal [AGOT: ]
- fund_inspiration.3001.desc_cannibal:0 ""This [inspiration_owner.GetWomanMan] is writing about #EMP consuming human flesh#!!"
-### TODO AGOT-ONLY: fund_inspiration.3001.desc_torturer [AGOT: ]
- fund_inspiration.3001.desc_torturer:0 ""This [inspiration_owner.GetWomanMan] is writing about unspeakable, sadistic, activities!"
-### TODO AGOT-ONLY: fund_inspiration.3001.desc_lustful [AGOT: ]
- fund_inspiration.3001.desc_lustful:0 ""This [inspiration_owner.GetWomanMan] is writing about unspeakable, perverted, activities!"
-### TODO AGOT-ONLY: fund_inspiration.3001.desc_other [AGOT: ]
- fund_inspiration.3001.desc_other:0 ""This [inspiration_owner.GetWomanMan] is writing about impious things!"
+
+ fund_inspiration.3001.desc_witch:0 ""Bu [inspiration_owner.GetWomanMan] [ROOT.Char.GetFaith.WitchGodName] hakkında yazıyor. #EMP [ROOT.Char.GetFaith.WitchGodName]#!!""
+
+ fund_inspiration.3001.desc_cannibal:0 ""Bu [inspiration_owner.GetWomanMan] #EMP insan eti yemek#! hakkında yazıyor!""
+
+ fund_inspiration.3001.desc_torturer:0 ""Bu [inspiration_owner.GetWomanMan] anlatılamaz, sadistçe faaliyetler hakkında yazıyor!""
+
+ fund_inspiration.3001.desc_lustful:0 ""Bu [inspiration_owner.GetWomanMan] anlatılamaz, sapkın faaliyetler hakkında yazıyor!""
+
+ fund_inspiration.3001.desc_other:0 ""Bu [inspiration_owner.GetWomanMan] dinsizce şeyler hakkında yazıyor!""
  fund_inspiration.3001.desc_ending:0 ""Hem de çizimlerle! Tek tahminim bunun hakkında hiçbir fikrinizin olmadığı, [ROOT.Char.Custom('FormOfAddressForLiege')|l]."\n\n[inspiration_owner.GetTitledFirstNameNoTooltip] dudak büküyor ve sayfaları elinden almak için son bir hamle daha yapıyor fakat [court_chaplain.Custom('CouncilPosition')], ondan kaçıyor.\n\n"Şimdi bu alçak yazar ortaya çıktığına göre kitabın [ROOT.Char.GetFaith.HighGodName], olması gerektiği şekilde, adına yazılmasını sağlayacaksınız değil mi?""
  fund_inspiration.3001.a:0 "Tabii ki, o tarz şeyler yazdığı hakkında hiçbir fikrim yok."
  fund_inspiration.3001.a_tt:0 "[inspiration_owner.GetShortUIName], [inspiration_owner.Custom('ArtifactBookSubject')] yerine inanç ile alakalı bir kitap yazacak"
@@ -636,8 +636,8 @@
  fund_inspiration.3011.desc_opening_1:0 "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], ben onu bulduğumda tomarlar ve müsveddeler ile sarılmış şekilde oturuyor, öfkeli bir şekilde sayfaları geçiyor.\n\n"
  fund_inspiration.3011.desc_opening_2:0 "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], ben onu bulduğumda tomarlar ve müsveddeler ile sarılmış şekilde başı ellerinin arasında oturuyor.\n\n"
  fund_inspiration.3011.desc_opening_3:0 "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], avuçları tomarlar ve müsveddeler ile dolu şekilde bana yaklaşıyor.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.3011.desc [AGOT: ]
- fund_inspiration.3011.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! There are so many areas of warfare that are worthy of attention. Strategy, troop compositions, battle itself... I don't even know where to start!""
+
+ fund_inspiration.3011.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Savaş sanatında dikkate değer o kadar çok alan var ki. Strateji, ordu düzeni, savaşın kendisi... Nereden başlayacağımı bile bilmiyorum!""
  fund_inspiration.3011.a:0 "Kitabın ordu için eğitici ya da işe yarar olmasını istiyorum."
  fund_inspiration.3011.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının strateji ve ordu kompozisyonu ile alakalı olmasını sağlayacak"
  fund_inspiration.3011.b:0 "Belki de meselenin daha soylu alanlarına değinmelisin."
@@ -645,29 +645,29 @@
  fund_inspiration.3011.d:0 "Senin gönlün ne hakkında yazmak istiyor?"
  fund_inspiration.3011.d.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının konusunu kendi belirleyecek"
  fund_inspiration.3012.t:0 "$fund_inspiration.title$ Diplomasi Meseleleri"
-### TODO AGOT-ONLY: fund_inspiration.3012.desc [AGOT: ]
- fund_inspiration.3012.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! There are so many areas of diplomacy that are worthy of attention. Courtly conduct, relationships, #EMP poetry#!... I don't even know where to start!""
+
+ fund_inspiration.3012.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Diplomaside dikkate değer o kadar çok alan var ki. Saray adabı, ilişkiler, #EMP şiir#!... Nereden başlayacağımı bile bilmiyorum!""
  fund_inspiration.3012.a:0 "Belki de saray hayatına değinen bir şey."
  fund_inspiration.3012.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının ittifaklar ve konuşma sanatı ile alakalı olmasını sağlayacak"
  fund_inspiration.3012.b:0 "Kitabın eğlenceli olmasını istiyorum!"
  fund_inspiration.3012.b.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının macera ve eğlence ile alakalı olmasını sağlayacak"
  fund_inspiration.3013.t:0 "$fund_inspiration.title$ Öğrenim Meseleleri"
-### TODO AGOT-ONLY: fund_inspiration.3013.desc [AGOT: ]
- fund_inspiration.3013.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! There are so many areas that are worthy of attention. Religion, education... Not to mention the art of writing itself!""
+
+ fund_inspiration.3013.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Dikkate değer o kadar çok alan var ki. Din, eğitim... Yazma sanatının kendisinden bahsetmiyorum bile!""
  fund_inspiration.3013.a:0 "Bu amaç [ROOT.Char.GetFaith.HighGodName] uğruna olmalı!"
  fund_inspiration.3013.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının teoloji ve dualar ile alakalı olmasını sağlayacak"
  fund_inspiration.3013.b:0 "Kitabın eğitici ya da en azından eğlenceli olmasını istiyorum!"
  fund_inspiration.3013.b.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının tarih ve şiir ile alakalı olmasını sağlayacak"
  fund_inspiration.3014.t:0 "$fund_inspiration.title$ İdare Meseleleri"
-### TODO AGOT-ONLY: fund_inspiration.3014.desc [AGOT: ]
- fund_inspiration.3014.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! There are so many areas of stewardship that are worthy of attention. Laws, trade, #EMP money#!... I don't even know where to start!""
+
+ fund_inspiration.3014.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Yönetimde dikkate değer o kadar çok alan var ki. Yasalar, ticaret, #EMP para#!... Nereden başlayacağımı bile bilmiyorum!""
  fund_inspiration.3014.a:0 "Ülke yönetmeyle alakalı meselelere odaklan."
  fund_inspiration.3014.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının kanun ve yönetim ile alakalı olmasını sağlayacak"
  fund_inspiration.3014.b:0 "Gelişim ile ilgileniyorum!"
  fund_inspiration.3014.b.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının binalar ve vergiler ile alakalı olmasını sağlayacak"
  fund_inspiration.3015.t:0 "$fund_inspiration.title$ Entrika Meseleleri"
-### TODO AGOT-ONLY: fund_inspiration.3015.desc [AGOT: ]
- fund_inspiration.3015.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! There are so many areas of intrigue worthy of attention. Scheming, seduction, manipulation... I don't even know where to start!""
+
+ fund_inspiration.3015.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Entrikada dikkate değer o kadar çok alan var ki. Komplolar, baştan çıkarma, manipülasyon... Nereden başlayacağımı bile bilmiyorum!""
  fund_inspiration.3015.a:0 "#EMP Herkesin#! bir adım önünde olmak istiyorum!"
  fund_inspiration.3015.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının planlar ve manipülasyon ile alakalı olmasını sağlayacak"
  fund_inspiration.3015.b_men:0 "Erkekler önümde sıra olsun istiyorum!"
@@ -677,36 +677,36 @@
  fund_inspiration.3015.b.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], çalışmasının şehvet ve baştan çıkarma sanatı ile alakalı olmasını sağlayacak"
  fund_inspiration.3030.t:0 "$fund_inspiration.title$ Soğuyan Nefret"
  fund_inspiration.3030.desc_opening:0 "[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], benim için yazdığı kitabın konusunu tartışmak için beni davet etti.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.3030.desc [AGOT: ]
- fund_inspiration.3030.desc:0 ""I cannot help but notice the cooling animosity between you and [prev_nemesis.Custom2('YourCharacterIntroduction', ROOT.Char)]. Do you still want to dedicate this book to the hatred you feel for [prev_nemesis.GetHerHim]?""
-### TODO AGOT-ONLY: fund_inspiration.3030.desc_dead [AGOT: ]
- fund_inspiration.3030.desc_dead:0 ""Now that [prev_nemesis.Custom2('YourCharacterIntroduction', ROOT.Char)] has passed on, do you still want to dedicate this book to the hatred you felt for [prev_nemesis.GetHerHim]?""
+
+ fund_inspiration.3030.desc:0 ""Seninle [prev_nemesis.Custom2('YourCharacterIntroduction', ROOT.Char)] arasındaki düşmanlığın soğuduğunu fark etmeden edemiyorum. Bu kitabı hâlâ [prev_nemesis.GetHerHim]e duyduğun nefrete adamak istiyor musun?""
+
+ fund_inspiration.3030.desc_dead:0 ""Madem [prev_nemesis.Custom2('YourCharacterIntroduction', ROOT.Char)] aramızdan ayrıldı, bu kitabı hâlâ [prev_nemesis.GetHerHim]e duyduğun nefrete adamak istiyor musun?""
  fund_inspiration.3030.a:0 "Ona olan nefretim o kadar da azalmadı."
  fund_inspiration.3030.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], [prev_nemesis.GetTitledFirstName] ile aranızdaki düşmanlık hakkında yazmaya devam edecek"
  fund_inspiration.3030.b:0 "Uğraşmaya değmez."
  fund_inspiration.3031.t:0 "$fund_inspiration.title$ Solan Aşk"
-### TODO AGOT-ONLY: fund_inspiration.3031.desc [AGOT: ]
- fund_inspiration.3031.desc:0 ""I cannot help but notice that [prev_soulmate.Custom2('YourCharacterIntroduction', ROOT.Char)] isn't in your #EMP highest#! of graces anymore, [ROOT.Char.Custom('FormOfAddressForLiege')]. Do you still want to dedicate this book to the love you feel for [prev_soulmate.GetHerHim]?""
-### TODO AGOT-ONLY: fund_inspiration.3031.desc_dead [AGOT: ]
- fund_inspiration.3031.desc_dead:0 ""The pain of losing [prev_soulmate.Custom2('YourCharacterIntroduction', ROOT.Char)] must be so fresh... Do you still want to dedicate this book to the love you felt for [prev_soulmate.GetHerHim]?""
+
+ fund_inspiration.3031.desc:0 ""[prev_soulmate.Custom2('YourCharacterIntroduction', ROOT.Char)]'ün artık gözündeki #EMP en yüksek#! makamda olmadığını fark etmeden edemiyorum, [ROOT.Char.Custom('FormOfAddressForLiege')]. Bu kitabı hâlâ [prev_soulmate.GetHerHim]e duyduğun aşka adamak istiyor musun?""
+
+ fund_inspiration.3031.desc_dead:0 ""[prev_soulmate.Custom2('YourCharacterIntroduction', ROOT.Char)]'ü kaybetmenin acısı çok taze olmalı... Bu kitabı hâlâ [prev_soulmate.GetHerHim]e duyduğun aşka adamak istiyor musun?""
  fund_inspiration.3031.a:0 "Özlem ve kayıp olmadan aşk nedir ki?"
  fund_inspiration.3031.a.tt:0 "[inspiration_owner.GetTitledFirstNameNoTooltip], [prev_soulmate.GetTitledFirstName] ile olan aşkınız hakkında yazmaya devam edecek"
  fund_inspiration.3031.b:0 "Uğraşmaya değmez."
  fund_inspiration.4001.t:0 "$fund_inspiration.title$ Kes Biç"
-### TODO AGOT-ONLY: fund_inspiration.4001.desc [AGOT: ]
- fund_inspiration.4001.desc:0 ""[inspiration_owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] #EMP ruined#! my new garb!"\n\n[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] storms into the room, followed by the weaver. The piece of clothing [courtier.GetSheHe] holds in [courtier.GetHerHis] hands is so badly cut up that I cannot tell what it once was.\n\n"You're overreacting! I was simply studying the weave of the fabric, it's important for my project.""
+
+ fund_inspiration.4001.desc:0 ""[inspiration_owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] yeni kıyafetimi #EMP mahvetti#!!"\n\n[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] odaya öfkeyle dalar, peşinde dokumacı. [courtier.GetSheHe]'in elinde tuttuğu giysi o kadar kötü kesilmiş ki bir zamanlar ne olduğunu anlayamıyorum.\n\n"Abartıyorsun! Sadece kumaşın dokumasını inceliyordum, projem için önemli.""
  fund_inspiration.4001.a:0 "İpin ucunu kaçırmışsın, illa yapacaksan kendi kıyafetlerin üzerinde yap!"
  fund_inspiration.4001.b:0 "Gerekli diyorsa, gereklidir."
  fund_inspiration.4010.t:1 "$fund_inspiration.title$ Kırmızı, Mavi ve [ROOT.Char.GetTitleAsNameNoTooltip|U]"
  fund_inspiration.4010.desc:0 "Dokumacımın atölyesine gidip benim için yaptığı dokumanın nasıl gittiğine bakıyorum. İçeride ise birkaç saray mensubum var. Hepsi kolları arkalarında, duvarları inceliyor. Mevcut dokumalar sadece kendine özgü boya darbelerinden oluşuyor. Birinin orasında burasında biçimsiz lekeler var. Biri tamamen beyaz ve bazı yerlerinde kareler var. Birinde birbirine dolaşmış çizgiler var. Bu sanat mı şimdi?\n\n[artistic_courtier_1.GetTitledFirstNameNoTooltip], leke gibi gözüken bir yeri işaret ediyor. "Beyazın yanındaki bu pis kahverengi, insanın doğasında yatan vahşeti yansıtmıyor mu sizce de?"\n\n[artistic_courtier_2.GetTitledFirstNameNoTooltip] kafasını onaylar şekilde sallıyor. "Bence [inspiration_owner.GetTitledFirstNameNoTooltip] ve çocukluğu arasındaki çatışmayı yansıtıyor - bak, şu annesine benziyor gibi.""
  fund_inspiration.4010.a:0 "Onaylar şekilde başını salla ve sanatçıyı öv"
-### TODO AGOT-ONLY: fund_inspiration.4010.b [AGOT: ]
- fund_inspiration.4010.b:0 ""Disgusting! I must go look at some traditional art now.""
+
+ fund_inspiration.4010.b:0 ""İğrenç! Gidip biraz geleneksel sanat izlemeliyim.""
  fund_inspiration.4010.b.tt:0 "Yatırımınız geri verildi ve sipariş iptal edildi"
-### TODO AGOT-ONLY: fund_inspiration.4010.c [AGOT: ]
- fund_inspiration.4010.c:0 ""[child.GetTitledFirstNameNoTooltip] could have done that!""
-### TODO AGOT-ONLY: fund_inspiration.5011.desc [AGOT: ]
- fund_inspiration.5011.desc:0 ""The time has come for me to depart upon my adventure, my [ROOT.Char.GetTitleTierName]." [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows as well as [inspiration_owner.GetSheHe] can while weighted down by heavy bags.\n\n"Before I leave, please tell me, is there anything specific you want me to keep an eye peeled for during my journey?""
+
+ fund_inspiration.4010.c:0 ""[child.GetTitledFirstNameNoTooltip] bile bunu yapabilirdi!""
+
+ fund_inspiration.5011.desc:0 ""Macerama çıkma zamanım geldi, [ROOT.Char.GetTitleTierName]'im." [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ağır çantaların altında ezilirken elinden geldiğince eğilir.\n\n"Ayrılmadan önce lütfen söyleyin, yolculuğum sırasında göz kulak olmamı istediğiniz belirli bir şey var mı?""
  fund_inspiration.5011.a:0 "Bana egzotik bir hayvanın kafatasını ya da derisini getir."
  fund_inspiration.5011.b:0 "Burada bulamayacağımız malzemeler istiyorum."
  fund_inspiration.5011.c:0 "Keşke orada olsaydım dedirtecek bir dokuma ya da sanat parçası."
@@ -752,10 +752,10 @@
  fund_inspiration.6101.b:0 "Ufak bir şiir yazıp içine koyacağım."
  fund_inspiration.6101.c:0 "Bende kalmasını tercih ederim."
  fund_inspiration.6102.desc:0 "Yatmak için hazırlık yapıyorum, bu sırada ayağımda keskin bir acı hissediyorum.\n\nBiraz inceledikten sonra fark ediyorum ki ayak tabanıma saplanan minyatür bir heykel var.\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U], bana kapı ağzından melun bir şekilde bakıyor. "Özür dilerim, bu son isteğinizin bir prototipiydi. Düşürmüş olmalıyım.""
-### TODO AGOT-ONLY: fund_inspiration.6102.a [AGOT: ]
- fund_inspiration.6102.a:0 ""Pull it out and get it out of my sight!""
-### TODO AGOT-ONLY: fund_inspiration.6102.b [AGOT: ]
- fund_inspiration.6102.b:0 ""The physician should see to this.""
+
+ fund_inspiration.6102.a:0 ""Çıkarın şunu ve gözümün önünden kaldırın!""
+
+ fund_inspiration.6102.b:0 ""Bunu hekim halledebilir.""
  fund_inspiration.6102.c:0 "Kendin çıkar ve cebine koy."
  fund_inspiration.6102.cure_toast:0 "Minyatür güvenli bir şekilde çıkarıldı"
  fund_inspiration.6102.failure_toast:0 "İnatçı minyatür"
@@ -773,19 +773,19 @@
  fund_inspiration.6200.t:1 "$fund_inspiration.title$ Kırmızı, Mavi ve [ROOT.Char.GetTitleAsNameNoTooltip|U]"
  fund_inspiration.6200.desc:2 "Dokumacımın atölyesine gidip benim için yaptığı dokumanın nasıl gittiğine bakıyorum. İçeride ise birkaç saray mensubum var. Hepsi kolları arkalarında, duvarları inceliyor. Mevcut dokumalar sadece kendine özgü boya darbelerinden oluşuyor. Birinin orasında burasında biçimsiz lekeler var. Biri tamamen beyaz ve bazı yerlerinde kareler var. Birinde birbirine dolaşmış çizgiler var. Bu sanat mı şimdi?\n\n[artistic_courtier_1.GetTitledFirstName], leke gibi gözüken bir yeri işaret ediyor. "Beyazın yanındaki bu pis kahverengi, insanın doğasında yatan vahşeti yansıtmıyor mu sizce de?"\n\n[artistic_courtier_2.GetTitledFirstNameNoTooltip] kafasını onaylar şekilde sallıyor. "Bence [ROOT.Char.GetTitledFirstNameNoTooltip] ve çocukluğu arasındaki çatışmayı yansıtıyor - bak, şu annesine benziyor gibi.""
  fund_inspiration.6200.a:0 "Onaylar şekilde başını salla ve sanatçıyı öv"
-### TODO AGOT-ONLY: fund_inspiration.6200.b [AGOT: ]
- fund_inspiration.6200.b:0 ""Disgusting! I must go look at some traditional art now.""
+
+ fund_inspiration.6200.b:0 ""İğrenç! Gidip biraz geleneksel sanat izlemeliyim.""
  fund_inspiration.6200.b.tt:0 "Yatırımınız geri verildi ve sipariş iptal edildi"
-### TODO AGOT-ONLY: fund_inspiration.6200.c [AGOT: ]
- fund_inspiration.6200.c:0 ""[child.GetTitledFirstNameNoTooltip] could have done that!""
+
+ fund_inspiration.6200.c:0 ""[child.GetTitledFirstNameNoTooltip] bile bunu yapabilirdi!""
  fund_inspiration.6300.t:0 "$fund_inspiration.title$ Mutsuz Kıta"
  fund_inspiration.6300.intro:0 "[inspiration_owner.GetTitledFirstName], masasının başındayken denk geliyorum, önünde müsvetteler ile pencereden dışarı bakıyor.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.6300.no_relationship_desc [AGOT: ]
- fund_inspiration.6300.no_relationship_desc:0 ""The idea of someone loving me is impossible. Not once have I whispered words of feeling to someone who returned them."\n\n"Thus I haven't been writing for you — I merely count the evenings since I lay with someone and despair.""
-### TODO AGOT-ONLY: fund_inspiration.6300.no_love_desc [AGOT: ]
- fund_inspiration.6300.no_love_desc:0 ""Despite the fact that usually nothing gets me going more than the written word, astonishingly I am not struck by any lusty feelings at all at present."\n\n"My apologies, [ROOT.Char.Custom('FormOfAddressForLiege')], I cannot write of love, the muse has deserted me.""
-### TODO AGOT-ONLY: fund_inspiration.6300.homosexual_desc [AGOT: ]
- fund_inspiration.6300.homosexual_desc:0 ""Ah, [ROOT.Char.Custom('FormOfAddressForLiege')]. Though I have been many hours attempting to compose a romantic work worthy of your patronage, I have found myself doing naught but weeping over my parchment."\n\n"You ask me to do the impossible. My love is a type which must remain unwritten.""
+
+ fund_inspiration.6300.no_relationship_desc:0 ""Birinin beni sevmesi ihtimali imkânsız. Duygularımı karşılık bulan birine hiç fısıldamadım."\n\n"Bu yüzden senin için yazmıyordum — yalnızca biriyle yattığımdan bu yana geçen akşamları sayıp karamsarlığa kapılıyorum.""
+
+ fund_inspiration.6300.no_love_desc:0 ""Genellikle beni yazılı kelimeden daha çok heyecanlandıran bir şey olmaz, ama şaşırtıcı şekilde şu an hiçbir arzulu duygu hissetmiyorum."\n\n"Özür dilerim, [ROOT.Char.Custom('FormOfAddressForLiege')], aşk üzerine yazamam, ilham perisi beni terk etti.""
+
+ fund_inspiration.6300.homosexual_desc:0 ""Ah, [ROOT.Char.Custom('FormOfAddressForLiege')]. Saatlerdir himayenize değer bir romantik eser bestelemeye çalışmama rağmen, kendimi parşömenimin başında ağlamaktan başka bir şey yaparken bulamadım."\n\n"Benden imkânsızı istiyorsunuz. Benim aşkım, yazılmadan kalması gereken türden.""
  fund_inspiration.6300.a:0 "Güzel! Bu acılı düşüncelerini yazdığın şeye yansıt!"
  fund_inspiration.6300.a.failure:0 "[inspiration_owner.GetShortUIName], artık aşktan nefret ediyor."
  fund_inspiration.6300.a.success:0 "[inspiration_owner.GetShortUIName], aşk hakkında yazmaya ikna oldu."
@@ -834,10 +834,10 @@
  fund_inspiration.6502.a:0 "Ah, çölde olmamama rağmen kendimi susamış hissettim."
  fund_inspiration.6502.b:0 "Büyük bir ödül getirirsen dikkatimi çekersin."
  fund_inspiration.6502.c:0 "Başına sıcak geçmiş olmalı."
-### TODO AGOT-CHANGED: fund_inspiration.6503.t [AGOT: $fund_inspiration.title$ Ancient Whispers | TR: $fund_inspiration.title$ Pontus Fısıltıları]
- fund_inspiration.6503.t:0 "$fund_inspiration.title$ Ancient Whispers"
-### TODO AGOT-CHANGED: fund_inspiration.6503.desc [AGOT: \n\n'I have delved into an ancient burial mound, perhaps from the Dawn Age. Hundreds of long-perished horses, stuffed, preserved, and staked to the walls to stand upright, each with their own room. It was a stable for the damned, lost to time.\n\n'Knowing of my duty to seek knowledge for our realm, I considered stealing a relic from the tomb when my guide was not watching to bring to you. | TR: \n\n'İskitlerden kalma eski bir Kurgan'ı araştırdım. Uzun zaman önce telef olmuş yüzlerce at, içi doldurulmuş, korunmuş ve dik durmak için duvarlara kazıklanmış, her birinin kendi odası var. Zamana yenik düşen lanetliler için bir ahır.\n\n'Krallığımız için bilgi arama görevimi biliyorum. Bu yüzden size getirmek için rehberim izlemezken mezardan bir kalıntı çalmayı düşündüm.]
- fund_inspiration.6503.desc:0 "\n\n'I have delved into an ancient burial mound, perhaps from the Dawn Age. Hundreds of long-perished horses, stuffed, preserved, and staked to the walls to stand upright, each with their own room. It was a stable for the damned, lost to time.\n\n'Knowing of my duty to seek knowledge for our realm, I considered stealing a relic from the tomb when my guide was not watching to bring to you."
+
+ fund_inspiration.6503.t:0 "$fund_inspiration.title$ Pontus Fısıltıları"
+
+ fund_inspiration.6503.desc:0 "\n\n'İskitlerden kalma eski bir Kurgan'ı araştırdım. Uzun zaman önce telef olmuş yüzlerce at, içi doldurulmuş, korunmuş ve dik durmak için duvarlara kazıklanmış, her birinin kendi odası var. Zamana yenik düşen lanetliler için bir ahır.\n\n'Krallığımız için bilgi arama görevimi biliyorum. Bu yüzden size getirmek için rehberim izlemezken mezardan bir kalıntı çalmayı düşündüm."
  fund_inspiration.6503.a:0 "Süslerden birini cebine atıyorsunuz."
  fund_inspiration.6503.b:0 "Çalışmamız için atların eyerlerinden birini getiriyorsunuz."
  fund_inspiration.6503.c:0 "Ölüleri rahatsız etmeye cesaret edemiyorsunuz."
@@ -967,8 +967,8 @@
  artifact_motto_written:0 "[newly_created_artifact.GetDesc]\n\n[owner.GetHouse.GetName] ailesinin sözü, #EMP '[owner.GetHouse.GetMotto]'#!, ilk sayfaya şık bir şekilde yazılmış."
  artifact_motto_woven:0 "[newly_created_artifact.GetDesc]\n\n[owner.GetHouse.GetName] ailesinin sözü, #EMP '[owner.GetHouse.GetMotto]'#!, ana sahnenin üstüne şık bir şekilde dokunmuş."
  fund_inspiration.7100.t:0 "$fund_inspiration.title$ Yaratıcı Yönlendirme"
-### TODO AGOT-ONLY: fund_inspiration.7100.desc [AGOT: ]
- fund_inspiration.7100.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! The work on your precious artifact is proceeding well!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] seems in a very good mood today.\n\n"I'm not making any promises but... if I managed to produce a true masterpiece, what idea would you like to guide my hand?""
+
+ fund_inspiration.7100.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Değerli eseriniz üzerindeki çalışma iyi ilerliyor!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bugün çok iyi bir ruh hâlinde görünüyor.\n\n"Söz vermiyorum ama... gerçek bir başyapıt üretmeyi başarırsam, elime yol göstermesini hangi fikri istersiniz?""
  fund_inspiration.7100.a:0 "#EMP Onlara#! daha çok zayiat verdirirken, #EMP bizim#! zayiatımızı azaltmasını."
  fund_inspiration.7100.a.tt:0 "[Concept('artifact', 'Eseriniz')|E] [Concept('casualties', 'Zayiat')|E] [Concept('modifier', 'Etkisi')|E] kazanabilir." 
  fund_inspiration.7100.b:0 "Yağmaladığım insanlara korku salmasını."
@@ -1016,8 +1016,8 @@
  fund_inspiration.8012.b.failure:0 "[court_chaplain.GetFirstNameNoTooltip] ikna olmuyor"
  fund_inspiration.8012.c:0 "Kesinlikle kâfir değil."
  fund_inspiration.8013.t:0 "$fund_inspiration.title$ Simya Hazinesi"
-### TODO AGOT-ONLY: fund_inspiration.8013.desc [AGOT: ]
- fund_inspiration.8013.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," My alchemist [inspiration_owner.GetTitledFirstName] practically runs up to me, giddy as a child.\n\n"I found this book when visiting the market in [barony_market.GetName]. It is a book attributed to the fabled alchemist Jabir ibn Hayyan – the master himself! At least according to the merchant... Nevertheless, just imagine the wealth of knowledge contained within!""
+
+ fund_inspiration.8013.desc:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]," Simyacım [inspiration_owner.GetTitledFirstName] bir çocuk gibi sevinçle neredeyse koşarak yanıma gelir.\n\n"Bu kitabı [barony_market.GetName] pazarını ziyaret ederken buldum. Efsanevi simyacı Cabir bin Hayyan'a atfedilen bir kitap – ustanın kendisine! En azından tüccara göre... Neyse, içindeki bilgi hazinesini bir düşünün!""
  fund_inspiration.8013.a:0 "Teşekkürler, kitabı inceleyeceğim."
  fund_inspiration.8013.a_tt:0 "Kitabı kendinize saklıyorsunuz"
  fund_inspiration.8013.b:0 "Kitapla iyi bir iş çıkaracağına güveniyorum."
@@ -1030,8 +1030,8 @@
  fund_inspiration.8014.c:0 "Paramı bu saçmalık için harcamayacağım!"
  fund_inspiration.8014.c.tt:0 "Simya için aldığınız tüm ekipmanları satıyorsunuz"
  fund_inspiration.8015.t:0 "$fund_inspiration.title$ Yasta"
-### TODO AGOT-ONLY: fund_inspiration.8015.desc [AGOT: ]
- fund_inspiration.8015.desc:0 ""Alchemist have power over all matter, they can create wonders, so how is life any different? How is [loved_one.GetFirstName] any different?!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] just shakes [inspiration_owner.GetHerHis] head, headless of my sorrow. What good is science if it cannot grant me this one wish?\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], I cannot work that kind of a miracle. However, I have found that an open ear can be its own kind of magic when sadness looms. Please, sit down.""
+
+ fund_inspiration.8015.desc:0 ""Simyacılar tüm maddeler üzerinde güce sahiptir, harikalar yaratabilirler, peki hayat neden farklı olsun? [loved_one.GetFirstName] neden farklı olsun?!"\n\n[inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] kederimi umursamadan sadece [inspiration_owner.GetHerHis] başını sallar. Bana bu tek dileği bahşedemiyorsa bilimin ne faydası var?\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], o tür bir mucize yaratamam. Ama şunu buldum ki, keder baş gösterdiğinde kulak veren bir çift kulak kendi başına bir tür büyüdür. Lütfen, oturun.""
  fund_inspiration.8015.a:0 "Ama– Ben– Haklısın... Teşekkür ederim."
  fund_inspiration.8015.b:0 "Hayır. Onu bana geri getireceksin!"
  fund_inspiration.8015.b.tt:0 "[inspiration_owner.GetShortUINameNoTooltip] imkânsızı deneyecek"
@@ -1043,8 +1043,8 @@
  fund_inspiration.8017.a:0 "Aranızda bilgilerinizi paylaşmanız güzel."
  fund_inspiration.8017.b:0 "İkinize de yazıklar olsun, doğru işinizin başına!"
  fund_inspiration.9000.t:0 "$fund_inspiration.title$ Yoldaki Çapulcular"
-### TODO AGOT-ONLY: fund_inspiration.9000.desc [AGOT: ]
- fund_inspiration.9000.desc:0 ""My liege, the adventurer [adventurer.GetFirstName] sends word!" the servant exclaims, holding out a letter.\n\n"For ten days and ten nights me and my party has been hiding. The bandit [bandit.GetLadyLord] [bandit.GetFirstName] has set a blockade on the road we must travel — what do you advice? Caution? Or should we fight them, trusting [adventurer.GetFaith.HighGodName] to keep us safe? Signed, [adventurer.GetFirstName]." the parchment reads.\n\nIt seems [adventurer.GetSheHe] is in quite a predicament."
+
+ fund_inspiration.9000.desc:0 ""Hükümdarım, maceracı [adventurer.GetFirstName] haber gönderdi!" diye haykırır hizmetkâr, bir mektup uzatarak.\n\n"On gün on gecedir ekibimle saklanıyoruz. Haydut [bandit.GetLadyLord] [bandit.GetFirstName] gitmemiz gereken yolu kapatmış — ne önerirsiniz? İhtiyat mı? Yoksa [adventurer.GetFaith.HighGodName]'in bizi koruyacağına güvenip onlarla savaşmalı mıyız? İmza: [adventurer.GetFirstName]." diye okur parşömen.\n\n[adventurer.GetSheHe] gerçekten zor bir durumda görünüyor."
  fund_inspiration.9000.a:0 "Saklanmaya devam edin, eninde sonunda giderler."
  fund_inspiration.9000.b:0 "Cesaretiniz yoksa, şanınız da olmaz! Zamanımı harcadıkları için günlerini gösterin."
  fund_inspiration.9000.c:0 "Bu altın geçişinizi sağlayacak miktarda bir rüşvet olacaktır."
@@ -1058,8 +1058,8 @@
  fund_inspiration.9000.a.success:0 "[adventurer.GetFirstNameNoTooltip] geceleyin kaçıyor"
  fund_inspiration.9000.a.failure:0 "[adventurer.GetFirstNameNoTooltip] kaçmaya çalışırken yakalanıyor"
  fund_inspiration.9100.t:0 "$fund_inspiration.title$ [adventurer.Custom('GetAnimalAdjective')|U] [adventurer.Custom('GetAnimalPlural')|U]"
-### TODO AGOT-ONLY: fund_inspiration.9100.desc [AGOT: ]
- fund_inspiration.9100.desc:0 ""My [ROOT.Char.GetLadyLord|U], a message from your adventurer, [adventurer.GetFirstName]." the servant says, handing me a scroll.\n\n"My search has led me to the [background_wilderness_scope.Custom('TerrainTypeProvince')] of [background_wilderness_scope.GetName]. They are notoriously [adventurer.Custom('GetAnimalType')]-infested, but I have good reason to think that my goal is near! Expect my return soon. Signed, [adventurer.GetFirstNameNoTooltip]" the scroll reads.\n\n[adventurer.GetSheHe|U] surely is ambitious to choose such a risky path..."
+
+ fund_inspiration.9100.desc:0 ""[ROOT.Char.GetLadyLord|U], maceracınız [adventurer.GetFirstName]'den bir mesaj." der hizmetkâr, bana bir parşömen uzatarak.\n\n"Arayışım beni [background_wilderness_scope.Custom('TerrainTypeProvince')] olan [background_wilderness_scope.GetName]'e götürdü. Burası [adventurer.Custom('GetAnimalType')] kaynıyor olmasıyla ünlü, ama hedefime yakın olduğuma inanmak için iyi nedenlerim var! Yakında dönüşümü bekleyin. İmza: [adventurer.GetFirstNameNoTooltip]" diye okur parşömen.\n\n[adventurer.GetSheHe|U] bu kadar riskli bir yol seçmekle gerçekten hırslı olmalı..."
  fund_inspiration.9100.a:0 "[adventurer.GetFirstNameNoTooltip] ve bilgisi onu güvende tutmaya yeterli olmalı..."
  fund_inspiration.9100.b:0 "[ROOT.Char.GetFaith.HighGodName] aşkına, umarım biriyle mücadele etmek zorunda kalmaz!"
  fund_inspiration.9100.c:0 "[adventurer.GetFirstNameNoTooltip] dikkatlidir, etrafından dolaşan uzun yolu tercih eder."
@@ -1162,10 +1162,10 @@
  inspiration_type_material_clay:0 "kil"
  inspiration_type_material_ingredients:0 "malzeme"
  inspiration_type_material_fallback:0 "materyal"
-### TODO AGOT-ONLY: fund_inspiration.1042.desc [AGOT: ]
- fund_inspiration.1042.desc:0 ""Just over here, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] signals to two servants who have emerged from [inspiration_owner.GetHerHis] weavery holding a roll of fabric. \n\n[inspiration_owner.GetSheHe|U] nods. The banner unfurls, held aloft from its wooden hanger. I can't help but marvel at the fine detailing and flawless lines.\n\n"
-### TODO AGOT-ONLY: fund_inspiration.0043.desc [AGOT: ]
- fund_inspiration.0043.desc:0 ""Yes my [ROOT.Char.GetLadyLord], a mighty banner I will spin for you!" [inspiration_owner.GetTitledFirstName] is genuinely excited to be working for me. "The nobles of the [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] know my work well, but this is a new honor!"\n\n"Trust me, this will be no mere fabric standard, this will be the most regal of drapery! I only need know, what crest would you have me sew?""
+
+ fund_inspiration.1042.desc:0 ""Hemen şurada, [ROOT.Char.Custom('FormOfAddressForLiege')]!" [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] [inspiration_owner.GetHerHis] dokuma atölyesinden bir rulo kumaşla çıkan iki hizmetkâra işaret eder. \n\n[inspiration_owner.GetSheHe|U] başını sallar. Sancak, ahşap askısından kaldırılarak açılır. İnce ayrıntılara ve kusursuz çizgilere hayran kalmadan edemiyorum.\n\n"
+
+ fund_inspiration.0043.desc:0 ""Evet [ROOT.Char.GetLadyLord]'im, sizin için kudretli bir sancak öreceğim!" [inspiration_owner.GetTitledFirstName] benim için çalışacağı için gerçekten heyecanlı. "[ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]'nin soyluları işimi iyi bilir, ama bu yeni bir onur!"\n\n"Güvenin bana, bu sıradan bir kumaş sancak olmayacak, en asil kumaştan bir süs olacak! Tek bilmem gereken, hangi armayı işlememi istersiniz?""
  fund_inspiration.0043.option_title:0 "[ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] silahları."
  fund_inspiration.0043.option_house:0 "[ROOT.Char.GetHouse.GetNameNoTooltip] Hanesinin arması."
  fund_inspiration.0043.option_dynasty:0 "[ROOT.Char.GetDynasty.GetNameNoTooltip] amblemi."

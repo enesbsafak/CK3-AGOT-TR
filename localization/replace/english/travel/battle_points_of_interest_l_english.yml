@@ -3,8 +3,8 @@
  BattlePoiInfo: "#emp $BattlePoiVictoriousSide$\n$BattlePoiLosingSide$\n$BattlePoiDate$#!"
  BattlePoiVictoriousSide: "Kazanan: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]"
  BattlePoiLosingSide: "Kaybeden: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]"
-### TODO AGOT-CHANGED: BattlePoiDate [AGOT: Date: [Province.Custom('OrdinalIndicatorPoI')] of the [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] [Province.Custom('EraBattlePoI')] | TR: Tarih: [Province.Custom('OrdinalIndicatorPoI')] [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] MS]
- BattlePoiDate: "Date: [Province.Custom('OrdinalIndicatorPoI')] of the [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] [Province.Custom('EraBattlePoI')]"
+
+ BattlePoiDate:0 "Tarih: [Province.Custom('OrdinalIndicatorPoI')] [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] MS"
  BattlePoiDescription: "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!"
  poi_battles.visit: "[province.GetNameNoTooltip] Muharebesinin Gerçekleştiği Yeri Ziyaret Etti"
  poi_battles.learn: "[province.GetNameNoTooltip] Muharebesinden Öğrendi"

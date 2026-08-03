@@ -1,25 +1,25 @@
 ﻿l_english:
-### TODO NOT-IN-ST: doctrine_consanguinity_siblings_name [AGOT: Adelphogamous Marriage]
- doctrine_consanguinity_siblings_name:0 "Adelphogamous Marriage"
-### TODO NOT-IN-ST: doctrine_consanguinity_siblings_desc [AGOT: Siblings, cousins, and aunts/uncles may intermarry to preserve the purity of blood, though any other incestuous marriages are taboo.]
- doctrine_consanguinity_siblings_desc:0 "Siblings, cousins, and aunts/uncles may intermarry to preserve the purity of blood, though any other incestuous marriages are taboo."
-### TODO NOT-IN-ST: doctrine_parameter_consanguinity_sibling_marriage [AGOT: Marriage between siblings is allowed]
- doctrine_parameter_consanguinity_sibling_marriage:0 "Marriage between siblings is allowed"
-### TODO NOT-IN-ST: doctrine_parameter_consanguinity_sibling_incest [AGOT: Sexual relations between siblings does not give the incest [secret|E]]
- doctrine_parameter_consanguinity_sibling_incest:0 "Sexual relations between siblings does not give the incest [secret|E]"
-### TODO NOT-IN-ST: doctrine_parameter_allows_sibling_marriage [AGOT: ]
- doctrine_parameter_allows_sibling_marriage:0 "" #intentionally blank
-### TODO NOT-IN-ST: doctrine_parameter_hostility_override_special_doctrine_ecumenical_essosi [AGOT: Considers Essosi [faiths|E], and is considered by Essosi $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$]
- doctrine_parameter_hostility_override_special_doctrine_ecumenical_essosi:0 "Considers Essosi [faiths|E], and is considered by Essosi $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
-### TODO NOT-IN-ST: doctrine_parameter_hostility_override_special_doctrine_ecumenical_the_seven [AGOT: Considers Seven [faiths|E], and is considered by Seven $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$]
- doctrine_parameter_hostility_override_special_doctrine_ecumenical_the_seven:0 "Considers Seven [faiths|E], and is considered by Seven $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
-### TODO NOT-IN-ST: doctrine_parameter_hostility_override_special_doctrine_ecumenical_old_gods [AGOT: Considers Old Gods [faiths|E], and is considered by Old Gods $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$]
- doctrine_parameter_hostility_override_special_doctrine_ecumenical_old_gods:0 "Considers Old Gods [faiths|E], and is considered by Old Gods $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
-### TODO NOT-IN-ST: agot_dummy_doctrine_name [AGOT: ]
- agot_dummy_doctrine_name: ""
-### TODO NOT-IN-ST: agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name [AGOT: ]
- agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name: ""
-### TODO NOT-IN-ST: agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc [AGOT: ]
- agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc: ""
-### TODO NOT-IN-ST: fervor_gain_agot_legendary_conversion [AGOT: Evangelized to the Realm]
- fervor_gain_agot_legendary_conversion:0 "Evangelized to the Realm"
+
+ doctrine_consanguinity_siblings_name:0 "Kardeş Evliliği"
+
+ doctrine_consanguinity_siblings_desc:0 "Kanın saflığını korumak için kardeşler, kuzenler ve teyzeler/dayılar birbirleriyle evlenebilir; ancak diğer ensest evlilikler tabudur."
+
+ doctrine_parameter_consanguinity_sibling_marriage:0 "Kardeşler arasında evliliğe izin verilir"
+
+ doctrine_parameter_consanguinity_sibling_incest:0 "Kardeşler arasındaki cinsel ilişkiler ensest [secret|E] vermez"
+
+ doctrine_parameter_allows_sibling_marriage:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_essosi:0 "Essoslu [faiths|E] ile dostça ilişki kurar ve Essoslu $game_concept_faiths$ tarafından, $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak kabul edilir"
+
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_the_seven:0 "Yedili [faiths|E] ile dostça ilişki kurar ve Yedili $game_concept_faiths$ tarafından, $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak kabul edilir"
+
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_old_gods:0 "Eski Tanrı [faiths|E] ile dostça ilişki kurar ve Eski Tanrı $game_concept_faiths$ tarafından, $hostility_evil_tooltippable$ yerine [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] olarak kabul edilir"
+
+ agot_dummy_doctrine_name:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc:0 "$BULLET$[GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()]sı [Concept( 'aptitude', 'Yatkınlığını' )|E] arttırır ([aptitude|E] seviyesine bağlıdır)\n$BULLET$Şartları sağlayan [Concept( 'courtiers', 'Saray Mensuplarından' )|E] [GetTrait('varangian').GetName( GetNullCharacter )] ve [GetTrait('loyal').GetName( GetNullCharacter )] [Concept( 'traits', 'Özelliklerini' )|E] kazananların sayısı artar\n$BULLET$Daha çok Vareg Muhafızı belirir\n@warning_icon! #X Basileus'un ölümünden sonra Vareg Muhafızları bir miktar [gold_i] altın talep eder.#!"
+
+ fervor_gain_agot_legendary_conversion:0 "Diyara Vaaz Edildi"

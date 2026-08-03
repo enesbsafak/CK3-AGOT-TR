@@ -1,63 +1,63 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: MEGA_WAR_SWITCH_SIDES [AGOT: Force to switch side]
- MEGA_WAR_SWITCH_SIDES:0 "Force to switch side"
-### TODO NOT-IN-ST: SWITCH_SIDES_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$]
- SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] is reluctant to switch sides: $VALUE|=+0$"
-### TODO NOT-IN-ST: SWITCH_SIDES_HEIR_IMPRISONED [AGOT: [recipient.GetHerHis|U] heir is taken prisoner: $VALUE|=+0$]
- SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] heir is taken prisoner: $VALUE|=+0$"
-### TODO NOT-IN-ST: SWITCH_SIDES_LOYAL [AGOT: [recipient.GetSheHe|U] is loyal: $VALUE|=+0$]
- SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] is loyal: $VALUE|=+0$"
-### TODO NOT-IN-ST: SWITCH_SIDES_DISLOYAL [AGOT: [recipient.GetSheHe|U] is disloyal: $VALUE|=+0$]
- SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] is disloyal: $VALUE|=+0$"
-### TODO NOT-IN-ST: SWITCH_SIDES_CONTROLS_CAPITAL [AGOT: [recipient.GetSheHe|U] does not control [recipient.GetHerHis] capital: $VALUE|=+0$]
- SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] does not control [recipient.GetHerHis] capital: $VALUE|=+0$"
-### TODO NOT-IN-ST: SWITCH_SIDES_LOSING_WAR [AGOT: [recipient.GetHerHis|U] side is losing the war: $VALUE|=+0$]
- SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] side is losing the war: $VALUE|=+0$"
-### TODO NOT-IN-ST: AGOT_REALM_MEGAWAR_REASON [AGOT: Realm at war: $VALUE|=+0$]
- AGOT_REALM_MEGAWAR_REASON:0 "Realm at war: $VALUE|=+0$"
-### TODO NOT-IN-ST: DESIGNATE_HEIR_HAS_CHILD [AGOT: You already have an heir!]
- DESIGNATE_HEIR_HAS_CHILD:0 "You already have an heir!"
-### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV [AGOT: Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]).]
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
-### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV [AGOT: Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]).]
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
-### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV [AGOT: Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]).]
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Attempt to convert [secondary_recipient.GetShortUIName] to ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
-### TODO NOT-IN-ST: EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV [AGOT: Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]).]
- EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Attempt to convert [secondary_actor.GetShortUIName] to ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
-### TODO NOT-IN-ST: childhood_education.1011.wv.desc [AGOT: [guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName].]
- childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
-### TODO NOT-IN-ST: childhood_education.1011.ev.desc [AGOT: [guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName].]
- childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] has taught me so much about the ways of [guardian.GetHerHis] people— of #EMP our#! people, for not only do I profess to the [guardian.GetFaith.GetAdjective] faith, I see myself as [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
-### TODO NOT-IN-ST: childhood_education.1012.wv.desc [AGOT: With [ward.GetHerHis] ongoing education in the faith and practices of my people, [ward.GetTitledFirstName] has told me that [ward.GetSheHe] feels like a good, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName].]
- childhood_education.1012.wv.desc:0 "With [ward.GetHerHis] ongoing education in the faith and practices of my people, [ward.GetTitledFirstName] has told me that [ward.GetSheHe] feels like a good, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
-### TODO NOT-IN-ST: childhood_education.1012.ev.desc [AGOT: With [ward.GetHerHis] ongoing education in the faith and practices of my people, [ward.GetTitledFirstName] has told me that [ward.GetSheHe] feels like a good, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName].]
- childhood_education.1012.ev.desc:0 "With [ward.GetHerHis] ongoing education in the faith and practices of my people, [ward.GetTitledFirstName] has told me that [ward.GetSheHe] feels like a good, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
-### TODO NOT-IN-ST: childhood_education.1031.wv.desc [AGOT: I may have been born [ward.GetCulture.GetName], but I cannot deny that I no longer know what that even means. After [guardian.GetTitledFirstNamePossessive] tutelage, I feel [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] through and through.]
- childhood_education.1031.wv.desc:0 "I may have been born [ward.GetCulture.GetName], but I cannot deny that I no longer know what that even means. After [guardian.GetTitledFirstNamePossessive] tutelage, I feel [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] through and through."
-### TODO NOT-IN-ST: childhood_education.1031.ev.desc [AGOT: I may have been born [ward.GetCulture.GetName], but I cannot deny that I no longer know what that even means. After [guardian.GetTitledFirstNamePossessive] tutelage, I feel [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] through and through.]
- childhood_education.1031.ev.desc:0 "I may have been born [ward.GetCulture.GetName], but I cannot deny that I no longer know what that even means. After [guardian.GetTitledFirstNamePossessive] tutelage, I feel [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] through and through."
-### TODO NOT-IN-ST: childhood_education.1032.wv.desc [AGOT: After my long tutelage of young [ward.GetTitledFirstName], I was pleased to no end when [ward.GetSheHe] told me that [ward.GetSheHe] considers [ward.GetHerselfHimself] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]!]
- childhood_education.1032.wv.desc:0 "After my long tutelage of young [ward.GetTitledFirstName], I was pleased to no end when [ward.GetSheHe] told me that [ward.GetSheHe] considers [ward.GetHerselfHimself] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]!"
-### TODO NOT-IN-ST: childhood_education.1032.ev.desc [AGOT: After my long tutelage of young [ward.GetTitledFirstName], I was pleased to no end when [ward.GetSheHe] told me that [ward.GetSheHe] considers [ward.GetHerselfHimself] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]!]
- childhood_education.1032.ev.desc:0 "After my long tutelage of young [ward.GetTitledFirstName], I was pleased to no end when [ward.GetSheHe] told me that [ward.GetSheHe] considers [ward.GetHerselfHimself] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]!"
-### TODO NOT-IN-ST: agot_strip_knighthood [AGOT: Strip Knighthood]
- agot_strip_knighthood:0 "Strip Knighthood"
-### TODO NOT-IN-ST: NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON [AGOT: [recipient.GetSheHe|U] is not religiously attached to [recipient.GetHerHis] knighthood: $VALUE|=+0$]
- NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] is not religiously attached to [recipient.GetHerHis] knighthood: $VALUE|=+0$"
-### TODO NOT-IN-ST: RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON [AGOT: [recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$]
- RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] is religiously attached to knighthood: $VALUE|=+0$"
-### TODO NOT-IN-ST: agot_send_to_nw [AGOT: Send to [nw_govt|E]]
- agot_send_to_nw:0 "Send to [nw_govt|E]"
+﻿l_english:
+
+ MEGA_WAR_SWITCH_SIDES:0 "Taraf değiştirmeye zorla"
+
+ SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] taraf değiştirmekte isteksiz: $VALUE|=+0$"
+
+ SWITCH_SIDES_HEIR_IMPRISONED:0 "[recipient.GetHerHis|U] varisi esir alındı: $VALUE|=+0$"
+
+ SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] sadık: $VALUE|=+0$"
+
+ SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] sadakatsiz: $VALUE|=+0$"
+
+ SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] [recipient.GetHerHis] başkentini kontrol etmiyor: $VALUE|=+0$"
+
+ SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetHerHis|U] tarafı savaşı kaybediyor: $VALUE|=+0$"
+
+ AGOT_REALM_MEGAWAR_REASON:0 "Diyar savaşta: $VALUE|=+0$"
+
+ DESIGNATE_HEIR_HAS_CHILD:0 "Zaten bir varisin var!"
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "[secondary_recipient.GetShortUIName]'i ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) kültürüne geçirmeyi dene."
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "[secondary_actor.GetShortUIName]'i ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]) kültürüne geçirmeyi dene."
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "[secondary_recipient.GetShortUIName]'i ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) kültürüne geçirmeyi dene."
+
+ EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "[secondary_actor.GetShortUIName]'i ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]) kültürüne geçirmeyi dene."
+
+ childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] bana [guardian.GetHerHis] halkının yolları hakkında çok şey öğretti — #EMP bizim#! halkımızın, çünkü yalnızca [guardian.GetFaith.GetAdjective] inancına bağlılık bildirmekle kalmıyor, kendimi de [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] olarak görüyorum."
+
+ childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] bana [guardian.GetHerHis] halkının yolları hakkında çok şey öğretti — #EMP bizim#! halkımızın, çünkü yalnızca [guardian.GetFaith.GetAdjective] inancına bağlılık bildirmekle kalmıyor, kendimi de [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] olarak görüyorum."
+
+ childhood_education.1012.wv.desc:0 "Koruyucumun inancı ve halkımın uygulamaları konusundaki devam eden eğitimiyle [ward.GetTitledFirstName], bana iyi bir, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] gibi hissettiğini söyledi."
+
+ childhood_education.1012.ev.desc:0 "Koruyucumun inancı ve halkımın uygulamaları konusundaki devam eden eğitimiyle [ward.GetTitledFirstName], bana iyi bir, [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] gibi hissettiğini söyledi."
+
+ childhood_education.1031.wv.desc:0 "Belki [ward.GetCulture.GetName] olarak doğdum, ama artık bunun ne anlama geldiğini bile bilmediğimi inkar edemem. [guardian.GetTitledFirstNamePossessive] eğitiminden sonra kendimi baştan aşağı [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] hissediyorum."
+
+ childhood_education.1031.ev.desc:0 "Belki [ward.GetCulture.GetName] olarak doğdum, ama artık bunun ne anlama geldiğini bile bilmediğimi inkar edemem. [guardian.GetTitledFirstNamePossessive] eğitiminden sonra kendimi baştan aşağı [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] hissediyorum."
+
+ childhood_education.1032.wv.desc:0 "Genç [ward.GetTitledFirstName]'in uzun eğitiminden sonra, [ward.GetSheHe] bana kendini [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName] olarak gördüğünü söylediğinde son derece memnun oldum!"
+
+ childhood_education.1032.ev.desc:0 "Genç [ward.GetTitledFirstName]'in uzun eğitiminden sonra, [ward.GetSheHe] bana kendini [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName] olarak gördüğünü söylediğinde son derece memnun oldum!"
+
+ agot_strip_knighthood:0 "Şövalyelikten Azlet"
+
+ NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] şövalyeliğine dini olarak bağlı değil: $VALUE|=+0$"
+
+ RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] şövalyeliğine dini olarak bağlı: $VALUE|=+0$"
+
+ agot_send_to_nw:0 "[nw_govt|E]'e Gönder"
 
  RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "Karakterleri sürgün edip aynı zamanda Gece Nöbetçileri'ne gönderemezsin."
 
  RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "Karakterleri sürgün edip aynı zamanda Gece Nöbetçileri'ne gönderemezsin."
-### TODO NOT-IN-ST: NW_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$]
- NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] fears taking the black: $VALUE|=+0$"
-### TODO NOT-IN-ST: agot_ransom_artifact [AGOT: Ransom for Artifacts]
- agot_ransom_artifact:0 "Ransom for Artifacts"
-### TODO NOT-IN-ST: agot_ransom_artifact_requirement [AGOT: Use the $ransom_for_artifacts_interaction$ interaction to add at least one artifact to your demands.]
- agot_ransom_artifact_requirement:0 "Use the $ransom_for_artifacts_interaction$ interaction to add at least one artifact to your demands."
-### TODO NOT-IN-ST: ARTIFACT_RANSOM_REASON [AGOT: [recipient.GetSheHe|U] will lose Artifacts: $VALUE|=+0$]
- ARTIFACT_RANSOM_REASON:0 "[recipient.GetSheHe|U] will lose Artifacts: $VALUE|=+0$"
+
+ NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] siyahı giymekten korkuyor: $VALUE|=+0$"
+
+ agot_ransom_artifact:0 "Eserler İçin Fidye"
+
+ agot_ransom_artifact_requirement:0 "Taleplerine en az bir eser eklemek için $ransom_for_artifacts_interaction$ etkileşimini kullan."
+
+ ARTIFACT_RANSOM_REASON:0 "[recipient.GetSheHe|U] Eserleri kaybedecek: $VALUE|=+0$"
