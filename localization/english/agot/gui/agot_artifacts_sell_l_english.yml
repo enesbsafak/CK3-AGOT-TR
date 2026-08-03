@@ -1,183 +1,183 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: sell_artifacts_head [AGOT: Artifacts Market]
- sell_artifacts_head: "Artifacts Market"
-### TODO NOT-IN-ST: agot_sell_artifacts_decision [AGOT: Peruse Artifacts Market]
- agot_sell_artifacts_decision: "Peruse Artifacts Market"
-### TODO NOT-IN-ST: agot_sell_artifacts_decision_desc [AGOT: Sell your artifacts or buy new ones from the market.]
- agot_sell_artifacts_decision_desc: "Sell your artifacts or buy new ones from the market."
+﻿l_english:
+
+ sell_artifacts_head:0 "Eserler Pazarı"
+
+ agot_sell_artifacts_decision:0 "Eserler Pazarını İncele"
+
+ agot_sell_artifacts_decision_desc:0 "Eserlerini sat ya da pazardan yenilerini al."
 
  agot_sell_artifacts_decision_tooltip:0 "Eser Sat"
-### TODO NOT-IN-ST: agot_sell_artifacts_decision_confirm [AGOT: Go to Artifacts Market]
- agot_sell_artifacts_decision_confirm: "Go to Artifacts Market"
-### TODO NOT-IN-ST: agot_sell_artifacts_decision_custom_tooltip_1 [AGOT: Your steward will bring you a list of all the artifacts available for sale in the world.]
- agot_sell_artifacts_decision_custom_tooltip_1: "Your steward will bring you a list of all the artifacts available for sale in the world."
+
+ agot_sell_artifacts_decision_confirm:0 "Eserler Pazarına Git"
+
+ agot_sell_artifacts_decision_custom_tooltip_1:0 "Kâhyan, dünyada satışa sunulan tüm eserlerin bir listesini sana getirecek."
 
  sell_artifacts_to_market:0 "Eser Sat"
-### TODO NOT-IN-ST: agot_no_artifacts_to_sell [AGOT: You have no artifacts to sell.]
- agot_no_artifacts_to_sell: "You have no artifacts to sell."
+
+ agot_no_artifacts_to_sell:0 "Satacak eserin yok."
 
  sell_artifacts_to_market_confirm:0 "Eser Sat"
-### TODO NOT-IN-ST: agot_artifact_on_market [AGOT: Artifacts for Sale]
- agot_artifact_on_market: "Artifacts for Sale"
-### TODO NOT-IN-ST: agot_no_artifacts_is_selling [AGOT: No artifacts are currently available for sale.]
- agot_no_artifacts_is_selling: "No artifacts are currently available for sale."
-### TODO NOT-IN-ST: agot_buy_artifacts_from_market [AGOT: Buy Artifacts]
- agot_buy_artifacts_from_market: "Buy Artifacts"
-### TODO NOT-IN-ST: agot_artifact_info_head_text [AGOT: Artifact Information]
- agot_artifact_info_head_text: "Artifact Information"
-### TODO NOT-IN-ST: agot_artifact_seller_info_head_text [AGOT: Previous Owner]
- agot_artifact_seller_info_head_text: "Previous Owner"
-### TODO NOT-IN-ST: agot_artifact_vanilla_owner [AGOT: From [Artifact.MakeScope.Var('agot_seller').Char.GetName]]
- agot_artifact_vanilla_owner: "From [Artifact.MakeScope.Var('agot_seller').Char.GetName]"
-### TODO NOT-IN-ST: agot_artifact_owner [AGOT: [Artifact.GetOwner.GetName]]
- agot_artifact_owner: "[Artifact.GetOwner.GetName]"
+
+ agot_artifact_on_market:0 "Satılık Eserler"
+
+ agot_no_artifacts_is_selling:0 "Şu anda satışa sunulmuş eser yok."
+
+ agot_buy_artifacts_from_market:0 "Eser Satın Al"
+
+ agot_artifact_info_head_text:0 "Eser Bilgisi"
+
+ agot_artifact_seller_info_head_text:0 "Önceki Sahip"
+
+ agot_artifact_vanilla_owner:0 "[Artifact.MakeScope.Var('agot_seller').Char.GetName]'den"
+
+ agot_artifact_owner:0 "[Artifact.GetOwner.GetName]"
 
  agot_artifact_price_valyrian_steel_desc:0 "Valyria Çeliği"
-### TODO NOT-IN-ST: agot_artifact_price_dragon_egg_desc [AGOT: Dragon Egg]
- agot_artifact_price_dragon_egg_desc: "Dragon Egg"
-### TODO NOT-IN-ST: agot_new_historical_crown_by_decision_desc [AGOT: Recently Crafted]
- agot_new_historical_crown_by_decision_desc: "Recently Crafted"
-### TODO NOT-IN-ST: agot_artifact_keeper_title_essos [AGOT: Myr Exchange]
- agot_artifact_keeper_title_essos: "Myr Exchange"
-### TODO NOT-IN-ST: agot_artifact_keeper_title_westeros [AGOT: Oldtown Exchange]
- agot_artifact_keeper_title_westeros: "Oldtown Exchange"
+
+ agot_artifact_price_dragon_egg_desc:0 "Ejderha Yumurtası"
+
+ agot_new_historical_crown_by_decision_desc:0 "Yakın Zamanda Üretilmiş"
+
+ agot_artifact_keeper_title_essos:0 "Myr Borsası"
+
+ agot_artifact_keeper_title_westeros:0 "Eski Şehir Borsası"
 
  agot_events_artifacts_sell.1001.t:0 "Ejderha Yumurtası Satılıyor"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.desc.1 [AGOT: The Treasure Keeper from the Myrish Treasure Exchange brings a cadre of appraisal experts to my realm. They carefully inspect my dragon egg, attempting to verify its authenticity. Afterwards, the Treasure Keeper tells me:\n\n]
- agot_events_artifacts_sell.1001.desc.1: "The Treasure Keeper from the Myrish Treasure Exchange brings a cadre of appraisal experts to my realm. They carefully inspect my dragon egg, attempting to verify its authenticity. Afterwards, the Treasure Keeper tells me:\n\n"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.desc.2 [AGOT: ]
- agot_events_artifacts_sell.1001.desc.2: ""This is a genuine dragon egg, #bold invaluable#!, and we are willing to purchase it at the highest market price.""
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.desc.3 [AGOT: ]
- agot_events_artifacts_sell.1001.desc.3: ""This is indeed a precious dragon egg, but to us, it's not #italic that#! rare. If you are still willing to sell, we will buy it at seventy percent of the highest historical price.""
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.desc.4 [AGOT: ]
- agot_events_artifacts_sell.1001.desc.4: ""This is a true dragon egg, and you might think its value is immeasurable, but we have seen #italic one after another#!. We can only buy it at fifty percent of the historical price at most.""
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.desc.5 [AGOT: ]
- agot_events_artifacts_sell.1001.desc.5: ""We have seen this kind of thing time and again, they are precious, but we regret to tell you we will buy no more; our vaults are already filled with them. Unless you're willing to sell it to us for fifteen percent of the original price...""
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.a [AGOT: I am satisfied with this offer.]
- agot_events_artifacts_sell.1001.a: "I am satisfied with this offer."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.b [AGOT: Maybe I'm at a loss, but the situation forces me, I have to do this.]
- agot_events_artifacts_sell.1001.b: "Maybe I'm at a loss, but the situation forces me, I have to do this."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.c [AGOT: I think the offer is too low, but I unfortunately have no choice.]
- agot_events_artifacts_sell.1001.c: "I think the offer is too low, but I unfortunately have no choice."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.d [AGOT: You... okay... I agree.]
- agot_events_artifacts_sell.1001.d: "You... okay... I agree."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1001.e [AGOT: I will not sell my dragon egg.]
- agot_events_artifacts_sell.1001.e: "I will not sell my dragon egg."
+
+ agot_events_artifacts_sell.1001.desc.1:0 "Myr Hazine Borsası'ndan Hazine Muhafızı, bir grup değerleme uzmanını diyarıma getirir. Ejderha yumurtamı dikkatle inceleyip gerçekliğini doğrulamaya çalışırlar. Ardından Hazine Muhafızı bana şöyle der:\n\n"
+
+ agot_events_artifacts_sell.1001.desc.2:0 ""Bu gerçek bir ejderha yumurtası, #bold paha biçilmez#!; ve onu en yüksek piyasa fiyatından satın almaya razıyız.""
+
+ agot_events_artifacts_sell.1001.desc.3:0 ""Bu gerçekten kıymetli bir ejderha yumurtası, ama bizim için #italic o kadar#! nadir değil. Hâlâ satmak istersen, onu en yüksek tarihî fiyatın yüzde yetmişiyle alırız.""
+
+ agot_events_artifacts_sell.1001.desc.4:0 ""Bu gerçek bir ejderha yumurtası ve değerinin ölçülemez olduğunu düşünebilirsiniz, ama biz #italic ardı ardına#! böyle yumurtalar gördük. Onu en fazla tarihî fiyatın yüzde ellisiyle satın alabiliriz.""
+
+ agot_events_artifacts_sell.1001.desc.5:0 ""Bu tür şeyleri defalarca gördük; kıymetliler, ama size üzülerek bildiririz ki artık satın almayacağız; kasalarımız çoktan onlarla doldu. Orijinal fiyatın yüzde on beşine satmaya razı olmadıkça...""
+
+ agot_events_artifacts_sell.1001.a:0 "Bu tekliften memnunum."
+
+ agot_events_artifacts_sell.1001.b:0 "Belki zarara gireceğim, ama şartlar beni zorluyor; bunu yapmak zorundayım."
+
+ agot_events_artifacts_sell.1001.c:0 "Teklifin çok düşük olduğunu düşünüyorum, ama ne yazık ki başka seçeneğim yok."
+
+ agot_events_artifacts_sell.1001.d:0 "Peki... tamam... kabul ediyorum."
+
+ agot_events_artifacts_sell.1001.e:0 "Ejderha yumurtamı satmayacağım."
 
  agot_events_artifacts_sell.1002.t:0 "Ejderha Yumurtası Satılıyor"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1002.desc [AGOT: The Treasure Keeper from the Myrish Treasure Exchange has declined to come to view your dragon egg. They have sent a letter expressing their apologies, but they are not willing to buy more dragon eggs at this time.]
- agot_events_artifacts_sell.1002.desc: "The Treasure Keeper from the Myrish Treasure Exchange has declined to come to view your dragon egg. They have sent a letter expressing their apologies, but they are not willing to buy more dragon eggs at this time."
+
+ agot_events_artifacts_sell.1002.desc:0 "Myr Hazine Borsası'ndan Hazine Muhafızı, ejderha yumurtanı görmeye gelmeyi reddetti. Özürlerini bildiren bir mektup gönderdiler, ancak şu anda daha fazla ejderha yumurtası satın almaya niyetli değiller."
 
  agot_events_artifacts_sell.1002.a:0 "Kahretsin!"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.t [AGOT: Selling Valyrian Steel Sword]
- agot_events_artifacts_sell.1003.t: "Selling Valyrian Steel Sword"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.desc [AGOT: On hearing that I wish to sell my Valyrian steel blade for some gold, all my courtiers have clamored to persuade me not to do so.\n]
- agot_events_artifacts_sell.1003.desc: "On hearing that I wish to sell my Valyrian steel blade for some gold, all my courtiers have clamored to persuade me not to do so.\n"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.desc.westeros [AGOT: As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout Westeros, and even bring shame to my dynasty.]
- agot_events_artifacts_sell.1003.desc.westeros: "As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout Westeros, and even bring shame to my dynasty."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.desc.essos [AGOT: As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout Essos, and even bring shame to my family.]
- agot_events_artifacts_sell.1003.desc.essos: "As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout Essos, and even bring shame to my family."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.desc.else [AGOT: As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout the world, and even bring shame to my dynasty.]
- agot_events_artifacts_sell.1003.desc.else: "As a [ROOT.Char.GetLadyLord], selling a Valyrian steel blade will surely disgrace me throughout the world, and even bring shame to my dynasty."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.a [AGOT: My mind is made up.]
- agot_events_artifacts_sell.1003.a: "My mind is made up."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1003.b [AGOT: It is indeed a #bold bad#! decision.]
- agot_events_artifacts_sell.1003.b: "It is indeed a #bold bad#! decision."
+
+ agot_events_artifacts_sell.1003.t:0 "Valyria Çeliği Kılıcı Satılıyor"
+
+ agot_events_artifacts_sell.1003.desc:0 "Valyria Çeliği'nden kılıcımı biraz altın karşılığında satmak istediğimi duyan tüm saray mensuplarım, beni bu işten caydırmak için hep bir ağızdan konuştu.\n"
+
+ agot_events_artifacts_sell.1003.desc.westeros:0 "Bir [ROOT.Char.GetLadyLord] olarak, Valyria Çeliği'nden bir kılıç satmak beni Westeros'un her yanında mutlaka küçük düşürür, hatta hanedanıma utanç getirir."
+
+ agot_events_artifacts_sell.1003.desc.essos:0 "Bir [ROOT.Char.GetLadyLord] olarak, Valyria Çeliği'nden bir kılıç satmak beni Essos'un her yanında mutlaka küçük düşürür, hatta aileme utanç getirir."
+
+ agot_events_artifacts_sell.1003.desc.else:0 "Bir [ROOT.Char.GetLadyLord] olarak, Valyria Çeliği'nden bir kılıç satmak beni tüm dünyada mutlaka küçük düşürür, hatta hanedanıma utanç getirir."
+
+ agot_events_artifacts_sell.1003.a:0 "Kararımı verdim."
+
+ agot_events_artifacts_sell.1003.b:0 "Bu gerçekten #bold kötü#! bir karar."
 
  agot_events_artifacts_sell.0005.opening:0 "En içten taziyelerimle,"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0005.desc [AGOT: Your actions have completely infuriated the good Treasure Keepers of the Myrish Treasure Exchange. Henceforth, your family has have been permanently banned from trading at the Exchange.]
- agot_events_artifacts_sell.0005.desc: "Your actions have completely infuriated the good Treasure Keepers of the Myrish Treasure Exchange. Henceforth, your family has have been permanently banned from trading at the Exchange."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0005.a [AGOT: I don't know what they're talking about...]
- agot_events_artifacts_sell.0005.a: "I don't know what they're talking about..."
-### TODO NOT-IN-ST: agot_stolen_artifact_from_artifact_keeper_desc [AGOT: Your family has been blacklisted by the Myrish Treasure Exchange.]
- agot_stolen_artifact_from_artifact_keeper_desc: "Your family has been blacklisted by the Myrish Treasure Exchange."
-### TODO NOT-IN-ST: house_be_banned_exchange_artifact [AGOT: Resulting in the family being blacklisted by the treasure exchange.]
- house_be_banned_exchange_artifact: "Resulting in the family being blacklisted by the treasure exchange."
-### TODO NOT-IN-ST: targs_sold_dargon_egg [AGOT: Sold Dragon Egg]
- targs_sold_dargon_egg: "Sold Dragon Egg"
+
+ agot_events_artifacts_sell.0005.desc:0 "Davranışların, Myr Hazine Borsası'nın saygıdeğer Hazine Muhafızlarını tamamen çileden çıkardı. Bundan böyle ailen, Borsa'da ticaret yapmaktan kalıcı olarak men edildi."
+
+ agot_events_artifacts_sell.0005.a:0 "Ne hakkında konuştuklarını bilmiyorum..."
+
+ agot_stolen_artifact_from_artifact_keeper_desc:0 "Ailen, Myr Hazine Borsası tarafından kara listeye alındı."
+
+ house_be_banned_exchange_artifact:0 "Bunun sonucunda aile, hazine borsası tarafından kara listeye alındı."
+
+ targs_sold_dargon_egg:0 "Satılan Ejderha Yumurtası"
 
  agot_events_artifacts_sell.0006.opening:0 "En içten taziyelerimle,"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0006.desc [AGOT: The disgraceful acts of [who_hurt_artifact_keeper.GetName] in your family have forever tarnished your family's relationship with the Myrish Treasure Exchange. Henceforth, your family will be blacklisted by the Treasure Exchange.]
- agot_events_artifacts_sell.0006.desc: "The disgraceful acts of [who_hurt_artifact_keeper.GetName] in your family have forever tarnished your family's relationship with the Myrish Treasure Exchange. Henceforth, your family will be blacklisted by the Treasure Exchange."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0006.a [AGOT: That despicable coward!]
- agot_events_artifacts_sell.0006.a: "That despicable coward!"
-### TODO NOT-IN-ST: agot_stolen_artifact_from_artifact_keeper_dec_desc [AGOT: Your family has not been blacklisted.]
- agot_stolen_artifact_from_artifact_keeper_dec_desc: "Your family has not been blacklisted."
-### TODO NOT-IN-ST: agot_artifact_value_breakdown_head [AGOT: Price Breakdown]
- agot_artifact_value_breakdown_head: "Price Breakdown"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0007.opening [AGOT: With great sorrow,]
- agot_events_artifacts_sell.0007.opening: "With great sorrow,"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0007.desc [AGOT: I regret to inform you that the Myrish Treasure Exchange currently does not have sufficient funds to purchase your artifact. We are keen to maintain friendly trade relations in the future.]
- agot_events_artifacts_sell.0007.desc: "I regret to inform you that the Myrish Treasure Exchange currently does not have sufficient funds to purchase your artifact. We are keen to maintain friendly trade relations in the future."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0007.a [AGOT: I understand.]
- agot_events_artifacts_sell.0007.a: "I understand."
-### TODO NOT-IN-ST: agot_no_money_buy_artifact_from_artifact_keeper_desc [AGOT: Your artifact was not sold.]
- agot_no_money_buy_artifact_from_artifact_keeper_desc: "Your artifact was not sold."
-### TODO NOT-IN-ST: agot_sell_artifacts_cooldown_tooltip [AGOT: You have already sold an artifact in the last year.]
- agot_sell_artifacts_cooldown_tooltip: "You have already sold an artifact in the last year."
-### TODO NOT-IN-ST: agot_buy_artifacts_ban_tooltip [AGOT: @warning_icon! Your faith prevents you from buying artifacts.]
- agot_buy_artifacts_ban_tooltip:0 "@warning_icon! Your faith prevents you from buying artifacts."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0008.opening [AGOT: With the utmost sincerity,]
- agot_events_artifacts_sell.0008.opening: "With the utmost sincerity,"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0008.desc [AGOT: I regret to inform you that you — with all the treasure in your coffers, and any boastful promises to boot — do not possess nearly enough to purchase this artifact.]
- agot_events_artifacts_sell.0008.desc: "I regret to inform you that you — with all the treasure in your coffers, and any boastful promises to boot — do not possess nearly enough to purchase this artifact."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.0008.a [AGOT: What else can I say...]
- agot_events_artifacts_sell.0008.a: "What else can I say..."
-### TODO NOT-IN-ST: agot_artifact_on_market_debug [AGOT: Artifact Market Debug Window]
- agot_artifact_on_market_debug: "Artifact Market Debug Window"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_buy [AGOT: AGOT Artifact bought: [GetGlobalVariable('agot_buy_artifact_number').GetValue]]
- agot_artifact_market_debug_text_buy: "AGOT Artifact bought: [GetGlobalVariable('agot_buy_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_sold [AGOT: AGOT Artifact sold: [GetGlobalVariable('agot_sell_artifact_number').GetValue]]
- agot_artifact_market_debug_text_sold: "AGOT Artifact sold: [GetGlobalVariable('agot_sell_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_sold_special [AGOT: - special: [GetGlobalVariable('agot_sell_special_artifact_number').GetValue]]
- agot_artifact_market_debug_text_sold_special: "- special: [GetGlobalVariable('agot_sell_special_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_created [AGOT: AGOT Artifact created: [GetGlobalVariable('agot_created_artifact_number').GetValue]]
- agot_artifact_market_debug_text_created: "AGOT Artifact created: [GetGlobalVariable('agot_created_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_created_character [AGOT: - character: [GetGlobalVariable('agot_created_character_artifact_number').GetValue]]
- agot_artifact_market_debug_text_created_character: "- character: [GetGlobalVariable('agot_created_character_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_created_court [AGOT: - court: [GetGlobalVariable('agot_created_court_artifact_number').GetValue]]
- agot_artifact_market_debug_text_created_court: "- court: [GetGlobalVariable('agot_created_court_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_created_dargon_egg [AGOT: - dragon egg: [GetGlobalVariable('agot_created_dragon_egg_artifact_number').GetValue]]
- agot_artifact_market_debug_text_created_dargon_egg: "- dragon egg: [GetGlobalVariable('agot_created_dragon_egg_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_artifact_market_debug_text_created_valyrian_steel [AGOT: - valyrian steel: [GetGlobalVariable('agot_created_valyrian_artifact_number').GetValue]]
- agot_artifact_market_debug_text_created_valyrian_steel: "- valyrian steel: [GetGlobalVariable('agot_created_valyrian_artifact_number').GetValue]"
-### TODO NOT-IN-ST: agot_sold_artifact_debug_log [AGOT: Sold Artifact]
- agot_sold_artifact_debug_log: "Sold Artifact"
-### TODO NOT-IN-ST: agot_buy_artifact_debug_log [AGOT: Bought Artifact]
- agot_buy_artifact_debug_log: "Bought Artifact"
-### TODO NOT-IN-ST: agot_artifact_keeper_head_text [AGOT: Treasure Keeper]
- agot_artifact_keeper_head_text: "Treasure Keeper"
-### TODO NOT-IN-ST: agot_artifact_welcome_word_text [AGOT: Welcome to the Myr Exchange, my lord. I am the Treasure Keeper of Myrish Exchange. I manage all artifact transactions, and I will purchase any valuable artifacts.\n\nJust as my job title suggests, I guard these artifacts, and if you have any inappropriate intentions, you and your family will be permanently blacklisted and will no longer be able to conduct treasure transactions.]
- agot_artifact_welcome_word_text: "Welcome to the Myr Exchange, my lord. I am the Treasure Keeper of Myrish Exchange. I manage all artifact transactions, and I will purchase any valuable artifacts.\n\nJust as my job title suggests, I guard these artifacts, and if you have any inappropriate intentions, you and your family will be permanently blacklisted and will no longer be able to conduct treasure transactions."
-### TODO NOT-IN-ST: agot_not_wilding_desc_trigger_desc [AGOT: You are not a wildling]
- agot_not_wilding_desc_trigger_desc: "You are not a wildling"
+
+ agot_events_artifacts_sell.0006.desc:0 "Ailendeki [who_hurt_artifact_keeper.GetName]'in rezil davranışları, ailenin Myr Hazine Borsası ile ilişkisini sonsuza dek lekeledi. Bundan böyle ailen, Hazine Borsası tarafından kara listeye alınacak."
+
+ agot_events_artifacts_sell.0006.a:0 "O iğrenç korkak!"
+
+ agot_stolen_artifact_from_artifact_keeper_dec_desc:0 "Ailen kara listeye alınmadı."
+
+ agot_artifact_value_breakdown_head:0 "Fiyat Dökümü"
+
+ agot_events_artifacts_sell.0007.opening:0 "Büyük üzüntüyle,"
+
+ agot_events_artifacts_sell.0007.desc:0 "Size üzülerek bildiririm ki Myr Hazine Borsası'nın şu anda eserinizi satın alacak yeterli fonu bulunmuyor. Gelecekte dostane ticari ilişkileri sürdürmeyi içtenlikle diliyoruz."
+
+ agot_events_artifacts_sell.0007.a:0 "Anlıyorum."
+
+ agot_no_money_buy_artifact_from_artifact_keeper_desc:0 "Eserin satılmadı."
+
+ agot_sell_artifacts_cooldown_tooltip:0 "Son bir yıl içinde zaten bir eser sattın."
+
+ agot_buy_artifacts_ban_tooltip:0 "@warning_icon! İnancın, eser satın almanı engelliyor."
+
+ agot_events_artifacts_sell.0008.opening:0 "En içten dileklerimle,"
+
+ agot_events_artifacts_sell.0008.desc:0 "Size üzülerek bildiririm ki kasalarınızdaki tüm hazine ve üstüne abartılı vaatlerinizle bile bu eseri satın almaya yetecek kadar mal varlığınız yok."
+
+ agot_events_artifacts_sell.0008.a:0 "Başka ne diyebilirim ki..."
+
+ agot_artifact_on_market_debug:0 "Eser Pazarı Hata Ayıklama Penceresi"
+
+ agot_artifact_market_debug_text_buy:0 "Satın alınan AGOT eseri: [GetGlobalVariable('agot_buy_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_sold:0 "Satılan AGOT eseri: [GetGlobalVariable('agot_sell_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_sold_special:0 "- özel: [GetGlobalVariable('agot_sell_special_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_created:0 "Üretilen AGOT eseri: [GetGlobalVariable('agot_created_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_created_character:0 "- karakter: [GetGlobalVariable('agot_created_character_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_created_court:0 "- saray: [GetGlobalVariable('agot_created_court_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_created_dargon_egg:0 "- ejderha yumurtası: [GetGlobalVariable('agot_created_dragon_egg_artifact_number').GetValue]"
+
+ agot_artifact_market_debug_text_created_valyrian_steel:0 "- valyria çeliği: [GetGlobalVariable('agot_created_valyrian_artifact_number').GetValue]"
+
+ agot_sold_artifact_debug_log:0 "Satılan Eser"
+
+ agot_buy_artifact_debug_log:0 "Satın Alınan Eser"
+
+ agot_artifact_keeper_head_text:0 "Hazine Muhafızı"
+
+ agot_artifact_welcome_word_text:0 "Myr Borsası'na hoş geldiniz, lordum. Ben Myr Borsası'nın Hazine Muhafızı'yım. Tüm eser işlemlerini yönetirim ve değerli her eseri satın alırım.\n\nGörev unvanımın da ima ettiği gibi bu eserleri korurum; eğer uygunsuz niyetleriniz olursa, siz ve aileniz kalıcı olarak kara listeye alınır ve bir daha hazine işlemleri yapamazsınız."
+
+ agot_not_wilding_desc_trigger_desc:0 "Bir yabanıl değilsin"
 
  agot_events_artifacts_sell.1004.t:0 "Ejderha Yumurtası Satılıyor"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.desc [AGOT: After learning that I wanted to sell dragon eggs, the Treasure Keeper of Myrish Exchange quickly came to my court.]
- agot_events_artifacts_sell.1004.desc: "After learning that I wanted to sell dragon eggs, the Treasure Keeper of Myrish Exchange quickly came to my court."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.desc.first [AGOT: After confirming that I really wanted to sell the dragon eggs, [GetGlobalVariable('agot_artifact_keeper').Char.GetSheHe] looked at me with a strange expression, as if [GetGlobalVariable('agot_artifact_keeper').Char.GetSheHe] were looking at a joke. I suppressed my anger and listened to [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHis] offer.]
- agot_events_artifacts_sell.1004.desc.first: "After confirming that I really wanted to sell the dragon eggs, [GetGlobalVariable('agot_artifact_keeper').Char.GetSheHe] looked at me with a strange expression, as if [GetGlobalVariable('agot_artifact_keeper').Char.GetSheHe] were looking at a joke. I suppressed my anger and listened to [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHis] offer."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.desc.others [AGOT: Treasure Keeper swaggered into my court and began to mock me unabashedly:]
- agot_events_artifacts_sell.1004.desc.others: "Treasure Keeper swaggered into my court and began to mock me unabashedly: "Do the dragonriders also want to sell their children? Don't worry about not having a market""
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.a [AGOT: I will sell it to you.]
- agot_events_artifacts_sell.1004.a: "I will sell it to you."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.b [AGOT: Go to hell!]
- agot_events_artifacts_sell.1004.b: "Go to hell!"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.common.tt [AGOT: You will be blacklisted by the Myrish Treasure Exchange]
- agot_events_artifacts_sell.1004.common.tt: "You will be blacklisted by the Myrish Treasure Exchange"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.b.tt [AGOT: You will burn the treasure keeper]
- agot_events_artifacts_sell.1004.b.tt: "You will burn the treasure keeper"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.c [AGOT: Guard, behead [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHim] as a public demonstration.]
- agot_events_artifacts_sell.1004.c: "Guard, behead [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHim] as a public demonstration."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1004.d [AGOT: Who told you I would sell my dragon eggs?]
- agot_events_artifacts_sell.1004.d: "Who told you I would sell my dragon eggs?"
-### TODO NOT-IN-ST: targs_burn_artifact_keeper [AGOT: Burned the artifact keeper]
- targs_burn_artifact_keeper: "Burned the artifact keeper"
-### TODO NOT-IN-ST: agot_trags_kill_artifact_keeper_desc [AGOT: You have been blacklisted by the Myrish Treasure Exchange.]
- agot_trags_kill_artifact_keeper_desc: "You have been blacklisted by the Myrish Treasure Exchange."
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1005.opening [AGOT: Letter from the Myrish Treasure Exchange]
- agot_events_artifacts_sell.1005.opening: "Letter from the Myrish Treasure Exchange"
-### TODO NOT-IN-ST: agot_events_artifacts_sell.1005.desc [AGOT: Because of the behavior of your family member [agot_artifact_killer.GetName], you are prohibited from trading with us.]
- agot_events_artifacts_sell.1005.desc: "Because of the behavior of your family member [agot_artifact_killer.GetName], you are prohibited from trading with us."
+
+ agot_events_artifacts_sell.1004.desc:0 "Ejderha yumurtası satmak istediğimi öğrenen Myr Borsası'nın Hazine Muhafızı, çabucak sarayıma geldi."
+
+ agot_events_artifacts_sell.1004.desc.first:0 "Ejderha yumurtalarını gerçekten satmak istediğimi teyit ettikten sonra [GetGlobalVariable('agot_artifact_keeper').Char.GetSheHe], sanki bir şakayla karşılaşmış gibi garip bir ifadeyle bana baktı. Öfkemi bastırdım ve [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHis] teklifini dinledim."
+
+ agot_events_artifacts_sell.1004.desc.others:0 "Hazine Muhafızı sarayıma kibirli bir tavırla girdi ve utanmadan benimle alay etmeye başladı: "Ejderha binicileri çocuklarını da mı satmak ister? Pazar bulamama diye bir derdin olmasın""
+
+ agot_events_artifacts_sell.1004.a:0 "Onu sana satacağım."
+
+ agot_events_artifacts_sell.1004.b:0 "Cehenneme git!"
+
+ agot_events_artifacts_sell.1004.common.tt:0 "Myr Hazine Borsası tarafından kara listeye alınacaksın"
+
+ agot_events_artifacts_sell.1004.b.tt:0 "Hazine muhafızını yakacaksın"
+
+ agot_events_artifacts_sell.1004.c:0 "Muhafız, [GetGlobalVariable('agot_artifact_keeper').Char.GetHerHim] herkese ibret olacak şekilde başını kes!"
+
+ agot_events_artifacts_sell.1004.d:0 "Ejderha yumurtalarımı satacağımı sana kim söyledi?"
+
+ targs_burn_artifact_keeper:0 "Eser muhafızını yaktın"
+
+ agot_trags_kill_artifact_keeper_desc:0 "Myr Hazine Borsası tarafından kara listeye alındın."
+
+ agot_events_artifacts_sell.1005.opening:0 "Myr Hazine Borsası'ndan Mektup"
+
+ agot_events_artifacts_sell.1005.desc:0 "Aile üyen [agot_artifact_killer.GetName]'in davranışları yüzünden, bizimle ticaret yapman yasaklandı."
 
  agot_events_artifacts_sell.1005.a:0 "Anlıyorum."

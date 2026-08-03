@@ -1,147 +1,147 @@
-﻿﻿﻿l_english:
-### TODO NOT-IN-ST: agot_invite_to_spy_network_interaction [AGOT: Recruit as Spy]
- agot_invite_to_spy_network_interaction:0 "Recruit as Spy"
-### TODO NOT-IN-ST: agot_check_for_potential_spies_interaction [AGOT: Check for Potential Spies]
- agot_check_for_potential_spies_interaction:0 "Check for Potential Spies"
-### TODO NOT-IN-ST: agot_remove_from_spy_network_interaction [AGOT: Dismiss Spy]
- agot_remove_from_spy_network_interaction:0 "Dismiss Spy"
-### TODO NOT-IN-ST: SPY_RECRUIT_GOLD [AGOT: Bribe]
- SPY_RECRUIT_GOLD:0 "Bribe"
-### TODO NOT-IN-ST: SPY_RECRUIT_GOLD_VALID [AGOT: Pay [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]]
- SPY_RECRUIT_GOLD_VALID:0 "Pay [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
-### TODO NOT-IN-ST: AGOT_RECRUIT_SPY_SKILL_MOD [AGOT: Your [intrigue|E] Skill: $VALUE|=+0$]
- AGOT_RECRUIT_SPY_SKILL_MOD:0 "Your [intrigue|E] Skill: $VALUE|=+0$"
-### TODO NOT-IN-ST: AGOT_RECRUIT_SPY_CAP_MODIFIER [AGOT: You have more spies than you can manage: $VALUE|=+0$]
- AGOT_RECRUIT_SPY_CAP_MODIFIER:0 "You have more spies than you can manage: $VALUE|=+0$"
-### TODO NOT-IN-ST: AGOT_RECRUIT_SPY_KINGSGUARD_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is a Kingsguard: $VALUE|=+0$]
- AGOT_RECRUIT_SPY_KINGSGUARD_REASON:0 "[recipient.GetShortUINameNoTooltip] is a Kingsguard: $VALUE|=+0$"
-### TODO NOT-IN-ST: highest_held_title_tier_greater_than [AGOT: You are a higher title tier than them.]
- highest_held_title_tier_greater_than:0 "You are a higher title tier than them."
-### TODO NOT-IN-ST: DECEITFUL_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Deceitful: $VALUE|+0=$]
- DECEITFUL_REASON:0 "[recipient.GetShortUINameNoTooltip] is Deceitful: $VALUE|+0=$"
-### TODO NOT-IN-ST: HONEST_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Honest: $VALUE|+0=$]
- HONEST_REASON:0 "[recipient.GetShortUINameNoTooltip] is Honest: $VALUE|+0=$"
-### TODO NOT-IN-ST: JUST_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Just: $VALUE|+0=$]
- JUST_REASON:0 "[recipient.GetShortUINameNoTooltip] is Just: $VALUE|+0=$"
-### TODO NOT-IN-ST: TRUSTING_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Trusting: $VALUE|+0=$]
- TRUSTING_REASON:0 "[recipient.GetShortUINameNoTooltip] is Trusting: $VALUE|+0=$"
-### TODO NOT-IN-ST: LAZY_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Lazy: $VALUE|+0=$]
- LAZY_REASON:0 "[recipient.GetShortUINameNoTooltip] is Lazy: $VALUE|+0=$"
-### TODO NOT-IN-ST: SHY_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Shy: $VALUE|+0=$]
- SHY_REASON:0 "[recipient.GetShortUINameNoTooltip] is Shy: $VALUE|+0=$"
-### TODO NOT-IN-ST: CRAVEN_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Craven: $VALUE|+0=$]
- CRAVEN_REASON:0 "[recipient.GetShortUINameNoTooltip] is Craven: $VALUE|+0=$"
-### TODO NOT-IN-ST: PARANOID_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Paranoid: $VALUE|+0=$]
- PARANOID_REASON:0 "[recipient.GetShortUINameNoTooltip] is Paranoid: $VALUE|+0=$"
-### TODO NOT-IN-ST: DRUNKARD_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is a Drunkard: $VALUE|+0=$]
- DRUNKARD_REASON:0 "[recipient.GetShortUINameNoTooltip] is a Drunkard: $VALUE|+0=$"
-### TODO NOT-IN-ST: CONTRITE_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is Contrite: $VALUE|+0=$]
- CONTRITE_REASON:0 "[recipient.GetShortUINameNoTooltip] is Contrite: $VALUE|+0=$"
+﻿l_english:
+
+ agot_invite_to_spy_network_interaction:0 "Casus Olarak Devşir"
+
+ agot_check_for_potential_spies_interaction:0 "Olası Casusları Araştır"
+
+ agot_remove_from_spy_network_interaction:0 "Casusu Çıkar"
+
+ SPY_RECRUIT_GOLD:0 "Rüşvet Ver"
+
+ SPY_RECRUIT_GOLD_VALID:0 "[recipient.GetShortUINameNoTooltip]'e [gold_i] [SCOPE.ScriptValue('bribe_value')|V0] öde"
+
+ AGOT_RECRUIT_SPY_SKILL_MOD:0 "[intrigue|E] Entrika Becerin: $VALUE|=+0$"
+
+ AGOT_RECRUIT_SPY_CAP_MODIFIER:0 "Yönetebileceğinden daha fazla casusun var: $VALUE|=+0$"
+
+ AGOT_RECRUIT_SPY_KINGSGUARD_REASON:0 "[recipient.GetShortUINameNoTooltip] bir Kral Muhafızı: $VALUE|=+0$"
+
+ highest_held_title_tier_greater_than:0 "Unvan kademen onlardan daha yüksek."
+
+ DECEITFUL_REASON:0 "[recipient.GetShortUINameNoTooltip] Sahtekâr: $VALUE|+0=$"
+
+ HONEST_REASON:0 "[recipient.GetShortUINameNoTooltip] Dürüst: $VALUE|+0=$"
+
+ JUST_REASON:0 "[recipient.GetShortUINameNoTooltip] Adil: $VALUE|+0=$"
+
+ TRUSTING_REASON:0 "[recipient.GetShortUINameNoTooltip] Güvenen: $VALUE|+0=$"
+
+ LAZY_REASON:0 "[recipient.GetShortUINameNoTooltip] Tembel: $VALUE|+0=$"
+
+ SHY_REASON:0 "[recipient.GetShortUINameNoTooltip] Utangaç: $VALUE|+0=$"
+
+ CRAVEN_REASON:0 "[recipient.GetShortUINameNoTooltip] Ödlek: $VALUE|+0=$"
+
+ PARANOID_REASON:0 "[recipient.GetShortUINameNoTooltip] Paranoyak: $VALUE|+0=$"
+
+ DRUNKARD_REASON:0 "[recipient.GetShortUINameNoTooltip] bir Ayyaş: $VALUE|+0=$"
+
+ CONTRITE_REASON:0 "[recipient.GetShortUINameNoTooltip] Pişman: $VALUE|+0=$"
 
  agot_spy_network.0200.interface.employer.t:0 "Casus Sır Açığa Çıkarır"
 
  agot_spy_network.0200.interface.employer.desc:0 "[courtowner.GetTitledFirstNamePossessive] sarayındaki casuslarından biri işe yarayabilecek bir sır açığa çıkardı."
-### TODO NOT-IN-ST: agot_spy_network.0201.interface.employer.t [AGOT: Spy Reveals Information]
- agot_spy_network.0201.interface.employer.t:0 "Spy Reveals Information"
-### TODO NOT-IN-ST: agot_spy_network.0201.interface.employer.desc [AGOT: One of your spies revealed personal and military information about their court's owner.]
- agot_spy_network.0201.interface.employer.desc:0 "One of your spies revealed personal and military information about their court's owner."
+
+ agot_spy_network.0201.interface.employer.t:0 "Casus Bilgi İfşa Ediyor"
+
+ agot_spy_network.0201.interface.employer.desc:0 "Casuslarından biri, sarayının sahibi hakkında kişisel ve askerî bilgiler ifşa etti."
 
  agot_spy_network.0200.interface.spymaster.t:0 "Casus Sır Açığa Çıkarır"
 
  agot_spy_network.0200.interface.spymaster.desc:0 "[courtowner.GetTitledFirstNamePossessive] sarayındaki casuslarından biri işe yarayabilecek bir sır açığa çıkardı."
-### TODO NOT-IN-ST: agot_spy_network.0210.t [AGOT: My [ROOT.Char.GetLadyLord],]
- agot_spy_network.0210.t:0 "My [ROOT.Char.GetLadyLord],"
-### TODO NOT-IN-ST: agot_spy_network.0210.desc [AGOT: I was able to obtain a secret [secret_holder.GetTitledFirstName] is trying to protect at [courtowner.GetShortUINamePossessive] court. I will hand over the evidence I found, but only if my service is fairly rewarded.]
- agot_spy_network.0210.desc:0 "I was able to obtain a secret [secret_holder.GetTitledFirstName] is trying to protect at [courtowner.GetShortUINamePossessive] court. I will hand over the evidence I found, but only if my service is fairly rewarded."
-### TODO NOT-IN-ST: agot_spy_network.0210.a [AGOT: I need to know everything!]
- agot_spy_network.0210.a:0 "I need to know everything!"
-### TODO NOT-IN-ST: agot_spy_network.0210.b [AGOT: I am not interested.]
- agot_spy_network.0210.b:0 "I am not interested."
-### TODO NOT-IN-ST: agot_spy_network.0210.c [AGOT: I don't have the coin...]
- agot_spy_network.0210.c:0 "I don't have the coin..."
-### TODO NOT-IN-ST: agot_spy_network.0400.t [AGOT: A Spy Was Recruited]
- agot_spy_network.0400.t:0 "A Spy Was Recruited"
-### TODO NOT-IN-ST: agot_spy_network.0400.desc [AGOT: [councillor.GetTitledFirstName] has found a person willing to spy for you at [target_character.GetShortUINamePossessive] court.]
- agot_spy_network.0400.desc:0 "[councillor.GetTitledFirstName] has found a person willing to spy for you at [target_character.GetShortUINamePossessive] court."
-### TODO NOT-IN-ST: agot_spy_network.0400.a [AGOT: [new_spy.GetTitledFirstName] will serve me well.]
- agot_spy_network.0400.a:0 "[new_spy.GetTitledFirstName] will serve me well."
+
+ agot_spy_network.0210.t:0 "[ROOT.Char.GetLadyLord]'um,"
+
+ agot_spy_network.0210.desc:0 "[courtowner.GetShortUINamePossessive] sarayında [secret_holder.GetTitledFirstName]'in korumaya çalıştığı bir sırrı ele geçirmeyi başardım. Bulduğum kanıtları teslim ederim, ama yalnızca hizmetim adil bir şekilde ödüllendirilirse."
+
+ agot_spy_network.0210.a:0 "Her şeyi bilmem gerek!"
+
+ agot_spy_network.0210.b:0 "İlgilenmiyorum."
+
+ agot_spy_network.0210.c:0 "Param yok..."
+
+ agot_spy_network.0400.t:0 "Bir Casus Devşirildi"
+
+ agot_spy_network.0400.desc:0 "[councillor.GetTitledFirstName], [target_character.GetShortUINamePossessive] sarayında senin için casusluk yapmaya istekli birini buldu."
+
+ agot_spy_network.0400.a:0 "[new_spy.GetTitledFirstName] bana iyi hizmet edecek."
 
  agot_spy_network.0500.t:0 "Bir Casus Yakalandı"
-### TODO NOT-IN-ST: agot_spy_network.0500.desc [AGOT: [councillor.GetTitledFirstName] has discovered a spy! [discovered_spy.GetTitledFirstName] was caught searching for secrets in the darkest corners of your court.]
- agot_spy_network.0500.desc:0 "[councillor.GetTitledFirstName] has discovered a spy! [discovered_spy.GetTitledFirstName] was caught searching for secrets in the darkest corners of your court."
-### TODO NOT-IN-ST: agot_spy_network.0500.a [AGOT: Who sent you?]
- agot_spy_network.0500.a:0 "Who sent you?"
-### TODO NOT-IN-ST: agot_spy_network.0510.t [AGOT: You Were Discovered!]
- agot_spy_network.0510.t:0 "You Were Discovered!"
-### TODO NOT-IN-ST: agot_spy_network.0510.desc [AGOT: Somehow, they found out! I was discovered spying for [discovered_spy_employer.GetTitledFirstName]. Now my life is at risk. Maybe I can survive this if I tell them who hired me?]
- agot_spy_network.0510.desc:0 "Somehow, they found out! I was discovered spying for [discovered_spy_employer.GetTitledFirstName]. Now my life is at risk. Maybe I can survive this if I tell them who hired me?"
-### TODO NOT-IN-ST: agot_spy_network.0510.a [AGOT: Mercy! I'll tell you everything!]
- agot_spy_network.0510.a:0 "Mercy! I'll tell you everything!"
-### TODO NOT-IN-ST: agot_spy_network.0510.b [AGOT: My lips remain sealed!]
- agot_spy_network.0510.b:0 "My lips remain sealed!"
+
+ agot_spy_network.0500.desc:0 "[councillor.GetTitledFirstName] bir casus keşfetti! [discovered_spy.GetTitledFirstName], sarayının en karanlık köşelerinde sır ararken yakalandı."
+
+ agot_spy_network.0500.a:0 "Seni kim gönderdi?"
+
+ agot_spy_network.0510.t:0 "Deşifre Oldun!"
+
+ agot_spy_network.0510.desc:0 "Bir şekilde öğrendiler! [discovered_spy_employer.GetTitledFirstName] için casusluk yaptığım ortaya çıktı. Artık hayatım tehlikede. Belki beni kimin tuttuğunu söylersem bu işten sağ çıkabilirim?"
+
+ agot_spy_network.0510.a:0 "Merhamet! Sana her şeyi anlatacağım!"
+
+ agot_spy_network.0510.b:0 "Dudaklarım mühürlü kalacak!"
 
  agot_spy_network.0520.t:0 "Bir Casus Yakalandı"
-### TODO NOT-IN-ST: agot_spy_network.0520.flipped.desc [AGOT: [discovered_spy.GetTitledFirstName] willingly exposed who was spying on you, begging for mercy: it was [discovered_spy_employer.GetTitledFirstName]!]
- agot_spy_network.0520.flipped.desc:0 "[discovered_spy.GetTitledFirstName] willingly exposed who was spying on you, begging for mercy: it was [discovered_spy_employer.GetTitledFirstName]!"
-### TODO NOT-IN-ST: agot_spy_network.0520.loyal.desc [AGOT: [discovered_spy.GetTitledFirstName] refuses to expose who was spying on you.]
- agot_spy_network.0520.loyal.desc:0 "[discovered_spy.GetTitledFirstName] refuses to expose who was spying on you."
-### TODO NOT-IN-ST: agot_spy_network.0520.desc [AGOT: How do you want to proceed with the traitor?]
- agot_spy_network.0520.desc:0 "How do you want to proceed with the traitor?"
-### TODO NOT-IN-ST: agot_spy_network.0520.a [AGOT: [discovered_spy.GetTitledFirstNameNoTooltip] will be banished from the realm.]
- agot_spy_network.0520.a:0 "[discovered_spy.GetTitledFirstNameNoTooltip] will be banished from the realm."
-### TODO NOT-IN-ST: agot_spy_network.0520.b [AGOT: [discovered_spy.GetTitledFirstNameNoTooltip] must rot in a cell.]
- agot_spy_network.0520.b:0 "[discovered_spy.GetTitledFirstNameNoTooltip] must rot in a cell."
-### TODO NOT-IN-ST: agot_spy_network.0520.c [AGOT: There is only one punishment for this crime: death!]
- agot_spy_network.0520.c:0 "There is only one punishment for this crime: death!"
-### TODO NOT-IN-ST: agot_spy_network.0520.d [AGOT: I will be merciful. But this scheming must stop!]
- agot_spy_network.0520.d:0 "I will be merciful. But this scheming must stop!"
-### TODO NOT-IN-ST: agot_spy_network.0600.t [AGOT: Your Spy Was Discovered!]
- agot_spy_network.0600.t:0 "Your Spy Was Discovered!"
-### TODO NOT-IN-ST: agot_spy_network.0600.desc [AGOT: The clandestine reports we received from [discovered_spy.GetTitledFirstName] have suddenly stopped. It appears [discovered_spy.GetHerHis] skills were not enough to avoid discovery.]
- agot_spy_network.0600.desc:0 "The clandestine reports we received from [discovered_spy.GetTitledFirstName] have suddenly stopped. It appears [discovered_spy.GetHerHis] skills were not enough to avoid discovery."
-### TODO NOT-IN-ST: agot_spy_network.0600.flipped.desc [AGOT: Even worse, [discovered_spy.GetTitledFirstName] revealed your involvement!]
- agot_spy_network.0600.flipped.desc:0 "Even worse, [discovered_spy.GetTitledFirstName] revealed your involvement!"
-### TODO NOT-IN-ST: agot_spy_network.0600.a [AGOT: [discovered_spy.GetSheHe|U] was not careful enough!]
- agot_spy_network.0600.a:0 "[discovered_spy.GetSheHe|U] was not careful enough!"
-### TODO NOT-IN-ST: agot_spy_network.0700.t [AGOT: A Spy Was Hired]
- agot_spy_network.0700.t:0 "A Spy Was Hired"
-### TODO NOT-IN-ST: agot_spy_network.0700.desc [AGOT: [recipient.GetTitledFirstName] has joined the ranks of your sprawling spy network.]
- agot_spy_network.0700.desc:0 "[recipient.GetTitledFirstName] has joined the ranks of your sprawling spy network."
-### TODO NOT-IN-ST: agot_spy_network.0700.a [AGOT: Influence grows like a weed...]
- agot_spy_network.0700.a:0 "Influence grows like a weed..."
-### TODO NOT-IN-ST: agot_spy_network.0800.t [AGOT: A Spy Can Be Hired]
- agot_spy_network.0800.t:0 "A Spy Can Be Hired"
-### TODO NOT-IN-ST: agot_spy_network.0800.desc [AGOT: Your spymaster found a potential new spy at [recipient.GetTitledFirstNamePossessive] court. [potential_new_spy.GetTitledFirstName] might be convinced to join your spy network.]
- agot_spy_network.0800.desc:0 "Your spymaster found a potential new spy at [recipient.GetTitledFirstNamePossessive] court. [potential_new_spy.GetTitledFirstName] might be convinced to join your spy network."
-### TODO NOT-IN-ST: agot_spy_network.0800.a [AGOT: I should contact [potential_new_spy.GetTitledFirstName] soon...]
- agot_spy_network.0800.a:0 "I should contact [potential_new_spy.GetTitledFirstName] soon..."
-### TODO NOT-IN-ST: hostile_scheme_discovery_spy.2001.intro [AGOT: My spymaster, [spymaster.GetTitledFirstName], has discovered preparations for a scheme against me at [courtowner.GetTitledFirstNamePossessive] court. While we do not yet know who,]
- hostile_scheme_discovery_spy.2001.intro:0 "My spymaster, [spymaster.GetTitledFirstName], has discovered preparations for a scheme against me at [courtowner.GetTitledFirstNamePossessive] court. While we do not yet know who,"
-### TODO NOT-IN-ST: potential_spy_in_court [AGOT: A character in this court is willing to spy for you.]
- potential_spy_in_court:0 "A character in this court is willing to spy for you."
-### TODO NOT-IN-ST: agot_invite_to_spy_network_interaction_desc [AGOT: Recruit [recipient.GetTitledFirstName] to your [agot_spy_network|E]]
- agot_invite_to_spy_network_interaction_desc: "Recruit [recipient.GetTitledFirstName] to your [agot_spy_network|E]"
-### TODO NOT-IN-ST: invite_to_spy_network_interaction_target_added_to_network.tt [AGOT: You add [recipient.GetShortUIName] to your spy network]
- invite_to_spy_network_interaction_target_added_to_network.tt: "You add [recipient.GetShortUIName] to your spy network"
-### TODO NOT-IN-ST: invite_to_spy_network_interaction_target_becomes_spy.tt [AGOT: [recipient.GetShortUIName] is added to your spy network]
- invite_to_spy_network_interaction_target_becomes_spy.tt: "[recipient.GetShortUIName] is added to your spy network"
-### TODO NOT-IN-ST: invite_to_spy_network_toast_title [AGOT: Spy Recruited]
- invite_to_spy_network_toast_title: "Spy Recruited"
-### TODO NOT-IN-ST: invite_to_spy_network_toast_desc [AGOT: [recipient.GetTitledFirstName] has joined the ranks of your sprawling spy network.]
- invite_to_spy_network_toast_desc: "[recipient.GetTitledFirstName] has joined the ranks of your sprawling spy network."
-### TODO NOT-IN-ST: agot_remove_from_spy_network_interaction_desc [AGOT: Dismiss [recipient.GetTitledFirstName] from your [agot_spy_network|E]]
- agot_remove_from_spy_network_interaction_desc: "Dismiss [recipient.GetTitledFirstName] from your [agot_spy_network|E]"
-### TODO NOT-IN-ST: dismiss_from_spy_network_interaction_target_remove_from_network.tt [AGOT: You dismiss [recipient.GetShortUIName] from your spy network]
- dismiss_from_spy_network_interaction_target_remove_from_network.tt: "You dismiss [recipient.GetShortUIName] from your spy network"
-### TODO NOT-IN-ST: dismiss_from_spy_network_interaction_target_loses_spy.tt [AGOT: [recipient.GetShortUIName] is dismissed from your spy network]
- dismiss_from_spy_network_interaction_target_loses_spy.tt: "[recipient.GetShortUIName] is dismissed from your spy network"
-### TODO NOT-IN-ST: dismiss_from_spy_network_toast_title [AGOT: Spy Dismissed]
- dismiss_from_spy_network_toast_title: "Spy Dismissed"
-### TODO NOT-IN-ST: dismiss_from_spy_network_toast_desc [AGOT: [recipient.GetTitledFirstName] has left the ranks of your sprawling spy network.]
- dismiss_from_spy_network_toast_desc: "[recipient.GetTitledFirstName] has left the ranks of your sprawling spy network."
-### TODO NOT-IN-ST: agot_check_for_potential_spies_interaction_desc [AGOT: Check [recipient.GetShortUIName]'s court for courtiers who might be willing to join your [agot_spy_network|E]]
- agot_check_for_potential_spies_interaction_desc: "Check [recipient.GetShortUIName]'s court for courtiers who might be willing to join your [agot_spy_network|E]"
-### TODO NOT-IN-ST: check_for_potential_spies_actor.tt [AGOT: You will be notified of a potential [agot_spy|E] you may negotiate into joining your [agot_spy_network|E]]
- check_for_potential_spies_actor.tt: "You will be notified of a potential [agot_spy|E] you may negotiate into joining your [agot_spy_network|E]"
-### TODO NOT-IN-ST: your_spies [AGOT: Your Spies]
- your_spies:0 "Your Spies"
+
+ agot_spy_network.0520.flipped.desc:0 "[discovered_spy.GetTitledFirstName], merhamet dileyerek sana kimin casusluk yaptığını isteyerek açıkladı: [discovered_spy_employer.GetTitledFirstName]!"
+
+ agot_spy_network.0520.loyal.desc:0 "[discovered_spy.GetTitledFirstName], sana kimin casusluk yaptığını açıklamayı reddediyor."
+
+ agot_spy_network.0520.desc:0 "Hain için nasıl ilerlemek istersin?"
+
+ agot_spy_network.0520.a:0 "[discovered_spy.GetTitledFirstNameNoTooltip] diyardan sürülecek."
+
+ agot_spy_network.0520.b:0 "[discovered_spy.GetTitledFirstNameNoTooltip] bir hücrede çürümeli."
+
+ agot_spy_network.0520.c:0 "Bu suçun tek cezası var: ölüm!"
+
+ agot_spy_network.0520.d:0 "Merhametli olacağım. Ama bu entrikalar sona ermeli!"
+
+ agot_spy_network.0600.t:0 "Casusun Deşifre Oldu!"
+
+ agot_spy_network.0600.desc:0 "[discovered_spy.GetTitledFirstName]'den aldığımız gizli raporlar aniden kesildi. Görünüşe göre [discovered_spy.GetHerHis] becerileri, deşifre olmaktan kaçınmaya yetmedi."
+
+ agot_spy_network.0600.flipped.desc:0 "Daha da kötüsü, [discovered_spy.GetTitledFirstName] senin parmağını da ifşa etti!"
+
+ agot_spy_network.0600.a:0 "[discovered_spy.GetSheHe|U] yeterince dikkatli değildi!"
+
+ agot_spy_network.0700.t:0 "Bir Casus Tutuldu"
+
+ agot_spy_network.0700.desc:0 "[recipient.GetTitledFirstName], genişleyen casus ağının saflarına katıldı."
+
+ agot_spy_network.0700.a:0 "Nüfuz ot gibi büyüyor..."
+
+ agot_spy_network.0800.t:0 "Casus Tutulabilir"
+
+ agot_spy_network.0800.desc:0 "Casusun, [recipient.GetTitledFirstNamePossessive] sarayında olası yeni bir casus buldu. [potential_new_spy.GetTitledFirstName], casus ağına katılmaya ikna edilebilir."
+
+ agot_spy_network.0800.a:0 "Yakında [potential_new_spy.GetTitledFirstName] ile iletişime geçmeliyim..."
+
+ hostile_scheme_discovery_spy.2001.intro:0 "Casusum [spymaster.GetTitledFirstName], [courtowner.GetTitledFirstNamePossessive] sarayında bana karşı bir planın hazırlıklarını keşfetti. Henüz kim olduğunu bilmesek de,"
+
+ potential_spy_in_court:0 "Bu saraydaki bir karakter senin için casusluk yapmaya istekli."
+
+ agot_invite_to_spy_network_interaction_desc:0 "[recipient.GetTitledFirstName]'i [agot_spy_network|E] casus ağına kat"
+
+ invite_to_spy_network_interaction_target_added_to_network.tt:0 "[recipient.GetShortUIName]'i casus ağına katıyorsun"
+
+ invite_to_spy_network_interaction_target_becomes_spy.tt:0 "[recipient.GetShortUIName], casus ağına eklendi"
+
+ invite_to_spy_network_toast_title:0 "Casus Devşirildi"
+
+ invite_to_spy_network_toast_desc:0 "[recipient.GetTitledFirstName], genişleyen casus ağının saflarına katıldı."
+
+ agot_remove_from_spy_network_interaction_desc:0 "[recipient.GetTitledFirstName]'i [agot_spy_network|E] casus ağından çıkar"
+
+ dismiss_from_spy_network_interaction_target_remove_from_network.tt:0 "[recipient.GetShortUIName]'i casus ağından çıkarıyorsun"
+
+ dismiss_from_spy_network_interaction_target_loses_spy.tt:0 "[recipient.GetShortUIName], casus ağından çıkarıldı"
+
+ dismiss_from_spy_network_toast_title:0 "Casus Çıkarıldı"
+
+ dismiss_from_spy_network_toast_desc:0 "[recipient.GetTitledFirstName], genişleyen casus ağının saflarından ayrıldı."
+
+ agot_check_for_potential_spies_interaction_desc:0 "[recipient.GetShortUIName]'in sarayında [agot_spy_network|E] casus ağına katılmaya istekli olabilecek saray mensuplarını araştır"
+
+ check_for_potential_spies_actor.tt:0 "[agot_spy_network|E] casus ağına katılması için pazarlık edebileceğin olası bir [agot_spy|E] hakkında bilgilendirileceksin"
+
+ your_spies:0 "Casusların"

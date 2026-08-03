@@ -1,176 +1,176 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: become_paramours_interaction [AGOT: Become Paramours]
- become_paramours_interaction:0 "Become Paramours"
-### TODO NOT-IN-ST: become_paramours_interaction_desc [AGOT: Officially take [recipient.GetShortUINameNoTooltip] as a paramour.]
- become_paramours_interaction_desc:0 "Officially take [recipient.GetShortUINameNoTooltip] as a paramour."
-### TODO NOT-IN-ST: mark_as_captive_interaction [AGOT: Mark as Captive]
- mark_as_captive_interaction:0 "Mark as Captive"
-### TODO NOT-IN-ST: mark_as_captive_interaction_desc [AGOT: Mark as a captive to break all marriages and concubinages, and add them to your court during a War to Free Captives.]
- mark_as_captive_interaction_desc:0 "Mark as a captive to break all marriages and concubinages, and add them to your court during a War to Free Captives."
-### TODO NOT-IN-ST: unmark_as_captive_interaction [AGOT: Unmark as Captive]
- unmark_as_captive_interaction:0 "Unmark as Captive"
-### TODO NOT-IN-ST: unmark_as_captive_interaction_desc [AGOT: Unmark as a captive to break all marriages and concubinages, and add them to your court during a War to Free Captives.]
- unmark_as_captive_interaction_desc:0 "Unmark as a captive to break all marriages and concubinages, and add them to your court during a War to Free Captives."
-### TODO NOT-IN-ST: mark_for_freedom_interaction [AGOT: Mark for Freedom]
- mark_for_freedom_interaction:0 "Mark for Freedom"
-### TODO NOT-IN-ST: mark_for_freedom_interaction_desc [AGOT: Mark to release from prison. This allows you to declare a 'War to Free Captives' on their jailor.]
- mark_for_freedom_interaction_desc:0 "Mark to release from prison. This allows you to declare a 'War to Free Captives' on their jailor."
-### TODO NOT-IN-ST: unmark_for_freedom_interaction [AGOT: Unmark for Freedom]
- unmark_for_freedom_interaction:0 "Unmark for Freedom"
-### TODO NOT-IN-ST: unmark_for_freedom_interaction_desc [AGOT: Unmark to release from prison during a War to Free Captives.]
- unmark_for_freedom_interaction_desc:0 "Unmark to release from prison during a War to Free Captives."
-### TODO NOT-IN-ST: marked_release_from_prison.title [AGOT: Prisoner Released]
- marked_release_from_prison.title:0 "Prisoner Released"
-### TODO NOT-IN-ST: marked_release_from_prison.desc [AGOT: A prisoner you had marked for freedom, [marked.GetTitledFirstName], has been released.]
- marked_release_from_prison.desc:0 "A prisoner you had marked for freedom, [marked.GetTitledFirstName], has been released."
-### TODO NOT-IN-ST: impart_values_interaction [AGOT: Impart Values]
- impart_values_interaction:0 "Impart Values"
-### TODO NOT-IN-ST: impart_values_interaction_desc [AGOT: Attempt to impress upon [recipient.GetShortUINameNoTooltip] a lesson in life.]
- impart_values_interaction_desc:0 "Attempt to impress upon [recipient.GetShortUINameNoTooltip] a lesson in life."
-### TODO NOT-IN-ST: legitimize_bastard_liege_interaction [AGOT: Request to Legitimize Bastard]
- legitimize_bastard_liege_interaction:0 "Request to Legitimize Bastard"
-### TODO NOT-IN-ST: legitimize_bastard_liege_interaction_extra_icon [AGOT: $hook_extra_icon$]
+﻿l_english:
+
+ become_paramours_interaction:0 "Baş Başa Aşık Ol"
+
+ become_paramours_interaction_desc:0 "[recipient.GetShortUINameNoTooltip]'i resmî olarak âşığın olarak kabul et."
+
+ mark_as_captive_interaction:0 "Esir Olarak İşaretle"
+
+ mark_as_captive_interaction_desc:0 "Tüm evlilikleri ve odalıklıkları bozacak şekilde esir olarak işaretle; Esirleri Özgürleştirme Savaşı sırasında onları sarayına kat."
+
+ unmark_as_captive_interaction:0 "Esir İşaretini Kaldır"
+
+ unmark_as_captive_interaction_desc:0 "Tüm evlilikleri ve odalıklıkları bozacak biçimde esir işaretini kaldır; onları Esirleri Özgürleştirme Savaşı sırasında sarayına kat."
+
+ mark_for_freedom_interaction:0 "Özgürlük İçin İşaretle"
+
+ mark_for_freedom_interaction_desc:0 "Hapisten salıverilmek üzere işaretle. Bu, gardiyanına karşı 'Esirleri Özgürleştirme Savaşı' ilan etmene olanak tanır."
+
+ unmark_for_freedom_interaction:0 "Özgürlük İşaretini Kaldır"
+
+ unmark_for_freedom_interaction_desc:0 "Esirleri Özgürleştirme Savaşı sırasında hapisten salıvermek üzere işareti kaldır."
+
+ marked_release_from_prison.title:0 "Mahkûm Serbest Bırakıldı"
+
+ marked_release_from_prison.desc:0 "Özgürlüğüne işaretlediğin mahkûm [marked.GetTitledFirstName] serbest bırakıldı."
+
+ impart_values_interaction:0 "Değer Aşıla"
+
+ impart_values_interaction_desc:0 "[recipient.GetShortUINameNoTooltip]'e hayat dersi vermeyi dene."
+
+ legitimize_bastard_liege_interaction:0 "Piçi Meşrulaştırma Talebi"
+
  legitimize_bastard_liege_interaction_extra_icon:0 "$hook_extra_icon$"
-### TODO NOT-IN-ST: legitimize_bastard_liege_interaction_desc [AGOT: Request that the reigning monarch legitimize your bastard.]
- legitimize_bastard_liege_interaction_desc:0 "Request that the reigning monarch legitimize your bastard."
+
+ legitimize_bastard_liege_interaction_desc:0 "Hüküm süren hükümdarın piçini meşrulaştırmasını iste."
 
  recipient_secondary_legitimize_bastard_liege_interaction:0 "Piç"
-### TODO NOT-IN-ST: agot_goad_interaction [AGOT: Goad]
- agot_goad_interaction:0 "Goad"
-### TODO NOT-IN-ST: agot_goad_interaction_desc [AGOT: You try to goad this individual, if successful they will become less rational and more likely to look for a fight. Be careful that you are not on the receiving end of their wrath...]
- agot_goad_interaction_desc:0 "You try to goad this individual, if successful they will become less rational and more likely to look for a fight. Be careful that you are not on the receiving end of their wrath..."
-### TODO NOT-IN-ST: goad.success_title [AGOT: Goading Successful]
- goad.success_title:0 "Goading Successful"
-### TODO NOT-IN-ST: goad.failure_title [AGOT: Goading Failed...]
- goad.failure_title:0 "Goading Failed..."
-### TODO NOT-IN-ST: recall_wanderer_interaction [AGOT: Recall Wanderer]
- recall_wanderer_interaction:0 "Recall Wanderer"
-### TODO NOT-IN-ST: recall_wanderer_interaction_desc [AGOT: Bring your wayward house member home]
- recall_wanderer_interaction_desc:0 "Bring your wayward house member home"
-### TODO NOT-IN-ST: demand_trial_by_combat_interaction [AGOT: Demand a Trial by Combat]
- demand_trial_by_combat_interaction:0 "Demand a Trial by Combat"
-### TODO NOT-IN-ST: demand_trial_by_combat_interaction_desc [AGOT: Demand a trial by combat to prove your innocence in the eyes of gods and men.]
- demand_trial_by_combat_interaction_desc:0 "Demand a trial by combat to prove your innocence in the eyes of gods and men."
-### TODO NOT-IN-ST: demand_trial_by_combat_duel [AGOT: You will both be given a chance to choose champions who will fight on your behalf to prove or disprove [actor.GetHerHis] guilt.]
- demand_trial_by_combat_duel:0 "You will both be given a chance to choose champions who will fight on your behalf to prove or disprove [actor.GetHerHis] guilt."
-### TODO NOT-IN-ST: demand_trial_by_combat_duel_self [AGOT: You will both be given a chance to choose champions who will fight on your behalf to prove or disprove the guilt of the accused.]
- demand_trial_by_combat_duel_self:0 "You will both be given a chance to choose champions who will fight on your behalf to prove or disprove the guilt of the accused."
-### TODO NOT-IN-ST: TRIAL_BY_COMBAT_HONOR_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Honor: $VALUE|=+0$]
- TRIAL_BY_COMBAT_HONOR_REASON:0 "[recipient.GetShortUINamePossessiveNoTooltip] Honor: $VALUE|=+0$"
-### TODO NOT-IN-ST: demand_trial_of_seven_interaction [AGOT: Demand a Trial of Seven]
- demand_trial_of_seven_interaction:0 "Demand a Trial of Seven"
-### TODO NOT-IN-ST: demand_trial_of_seven_interaction_desc [AGOT: Demand a Trial of Seven to prove [recipient.GetShortUINamePossessiveNoTooltip] guilt in the eyes of gods and men.]
- demand_trial_of_seven_interaction_desc:0 "Demand a Trial of Seven to prove [recipient.GetShortUINamePossessiveNoTooltip] guilt in the eyes of gods and men."
-### TODO NOT-IN-ST: agot_challenge_to_trial_of_seven_interaction_HIGHLIGHTED [AGOT: Highlighted because the opportunity to do a Trial of Seven is rare!]
- agot_challenge_to_trial_of_seven_interaction_HIGHLIGHTED:0 "Highlighted because the opportunity to do a Trial of Seven is rare!"
-### TODO NOT-IN-ST: AGOT_REQUEST_TRIAL_OF_SEVEN_TEXT [AGOT: [recipient.Custom2('InsultNoun', SCOPE.sC('actor'))|U]! Your crimes against the realm are reprehensible. I demand a Trial of Seven, and let the gods judge our differences.]
- AGOT_REQUEST_TRIAL_OF_SEVEN_TEXT:0 "[recipient.Custom2('InsultNoun', SCOPE.sC('actor'))|U]! Your crimes against the realm are reprehensible. I demand a Trial of Seven, and let the gods judge our differences."
-### TODO NOT-IN-ST: demand_trial_of_seven [AGOT: You will both be given a chance to choose champions who will fight on your side to prove or disprove your guilt.]
- demand_trial_of_seven:0 "You will both be given a chance to choose champions who will fight on your side to prove or disprove your guilt."
-### TODO NOT-IN-ST: reveal_royal_bastardry_interaction [AGOT: Reveal Royal Bastardry]
- reveal_royal_bastardry_interaction:0 "Reveal Royal Bastardry"
-### TODO NOT-IN-ST: reveal_royal_bastardry_interaction_desc [AGOT: You will consider if you should reveal [recipient.GetShortUINameNoTooltip]'s heritage.]
- reveal_royal_bastardry_interaction_desc:0 "You will consider if you should reveal [recipient.GetShortUINameNoTooltip]'s heritage."
-### TODO NOT-IN-ST: set_signature_weapon_interaction [AGOT: Set Signature Weapon]
- set_signature_weapon_interaction:0 "Set Signature Weapon"
-### TODO NOT-IN-ST: set_signature_weapon_interaction_desc [AGOT: Set your default weapon for portrait animations]
- set_signature_weapon_interaction_desc:0 "Set your default weapon for portrait animations"
-### TODO NOT-IN-ST: set_signature_weapon_sword_person [AGOT: Sword]
- set_signature_weapon_sword_person:0 "Sword"
-### TODO NOT-IN-ST: set_signature_weapon_already_sword_person [AGOT: Your signature weapon is already a sword!]
- set_signature_weapon_already_sword_person:0 "Your signature weapon is already a sword!"
-### TODO NOT-IN-ST: set_signature_weapon_swordshield_person [AGOT: Sword and Shield]
- set_signature_weapon_swordshield_person:0 "Sword and Shield"
-### TODO NOT-IN-ST: set_signature_weapon_already_swordshield_person [AGOT: Your signature weapon is already a sword and shield!]
- set_signature_weapon_already_swordshield_person:0 "Your signature weapon is already a sword and shield!"
-### TODO NOT-IN-ST: set_signature_weapon_mace_person [AGOT: Mace]
- set_signature_weapon_mace_person:0 "Mace"
-### TODO NOT-IN-ST: set_signature_weapon_already_mace_person [AGOT: Your signature weapon is already a mace!]
- set_signature_weapon_already_mace_person:0 "Your signature weapon is already a mace!"
-### TODO NOT-IN-ST: set_signature_weapon_maceshield_person [AGOT: Mace and Shield]
- set_signature_weapon_maceshield_person:0 "Mace and Shield"
-### TODO NOT-IN-ST: set_signature_weapon_already_maceshield_person [AGOT: Your signature weapon is already a mace and shield!]
- set_signature_weapon_already_maceshield_person:0 "Your signature weapon is already a mace and shield!"
-### TODO NOT-IN-ST: set_signature_weapon_spear_person [AGOT: Spear]
- set_signature_weapon_spear_person:0 "Spear"
-### TODO NOT-IN-ST: set_signature_weapon_already_spear_person [AGOT: Your signature weapon is already a spear!]
- set_signature_weapon_already_spear_person:0 "Your signature weapon is already a spear!"
-### TODO NOT-IN-ST: set_signature_weapon_spearshield_person [AGOT: Spear and Shield]
- set_signature_weapon_spearshield_person:0 "Spear and Shield"
-### TODO NOT-IN-ST: set_signature_weapon_already_spearshield_person [AGOT: Your signature weapon is already a spear and shield!]
- set_signature_weapon_already_spearshield_person:0 "Your signature weapon is already a spear and shield!"
-### TODO NOT-IN-ST: set_signature_weapon_axe_person [AGOT: Axe]
- set_signature_weapon_axe_person:0 "Axe"
-### TODO NOT-IN-ST: set_signature_weapon_already_axe_person [AGOT: Your signature weapon is already an axe!]
- set_signature_weapon_already_axe_person:0 "Your signature weapon is already an axe!"
-### TODO NOT-IN-ST: set_signature_weapon_hammer_person [AGOT: Hammer]
- set_signature_weapon_hammer_person:0 "Hammer"
-### TODO NOT-IN-ST: set_signature_weapon_already_hammer_person [AGOT: Your signature weapon is already a hammer!]
- set_signature_weapon_already_hammer_person:0 "Your signature weapon is already a hammer!"
+
+ agot_goad_interaction:0 "Tahrik Et"
+
+ agot_goad_interaction_desc:0 "Bu kişiyi tahrik etmeye çalışırsın; başarılı olursan daha az mantıklı ve kavga aramaya daha meyilli hâle gelir. Öfkelerinin hedefi olmamaya dikkat et..."
+
+ goad.success_title:0 "Tahrik Başarılı"
+
+ goad.failure_title:0 "Tahrik Başarısız..."
+
+ recall_wanderer_interaction:0 "Gezgini Geri Çağır"
+
+ recall_wanderer_interaction_desc:0 "Yoldan çıkmış hane üyeni eve getir"
+
+ demand_trial_by_combat_interaction:0 "Savaş Yargılaması Talep Et"
+
+ demand_trial_by_combat_interaction_desc:0 "Tanrıların ve insanların gözünde masumiyetini kanıtlamak için savaş yargılaması talep et."
+
+ demand_trial_by_combat_duel:0 "İkinize de, [actor.GetHerHis] suçluluğunu kanıtlamak ya da çürütmek adına sizin için savaşacak şampiyonları seçme şansı verilecek."
+
+ demand_trial_by_combat_duel_self:0 "İkinize de, sanığın suçluluğunu kanıtlamak ya da çürütmek adına sizin için savaşacak şampiyonları seçme şansı verilecek."
+
+ TRIAL_BY_COMBAT_HONOR_REASON:0 "[recipient.GetShortUINamePossessiveNoTooltip] Onuru: $VALUE|=+0$"
+
+ demand_trial_of_seven_interaction:0 "Yedi Şövalye Yargılaması Talep Et"
+
+ demand_trial_of_seven_interaction_desc:0 "Tanrıların ve insanların gözünde [recipient.GetShortUINamePossessiveNoTooltip] suçluluğunu kanıtlamak için Yedi Şövalye Yargılaması talep et."
+
+ agot_challenge_to_trial_of_seven_interaction_HIGHLIGHTED:0 "Yedi Şövalye Yargılaması yapma fırsatı nadir olduğu için vurgulandı!"
+
+ AGOT_REQUEST_TRIAL_OF_SEVEN_TEXT:0 "[recipient.Custom2('InsultNoun', SCOPE.sC('actor'))|U]! Diyara karşı işlediğin suçlar affedilemez. Yedi Şövalye Yargılaması talep ediyorum; tanrılar aramızdaki anlaşmazlığı yargılasın."
+
+ demand_trial_of_seven:0 "İkinize de, senin suçluluğunu kanıtlamak ya da çürütmek adına sizin tarafınızda savaşacak şampiyonları seçme şansı verilecek."
+
+ reveal_royal_bastardry_interaction:0 "Kraliyet Piçliğini İfşa Et"
+
+ reveal_royal_bastardry_interaction_desc:0 "[recipient.GetShortUINameNoTooltip]'in soyunu ifşa edip etmemen gerektiğini düşüneceksin."
+
+ set_signature_weapon_interaction:0 "İmza Silahını Belirle"
+
+ set_signature_weapon_interaction_desc:0 "Portre animasyonları için varsayılan silahını belirle"
+
+ set_signature_weapon_sword_person:0 "Kılıç"
+
+ set_signature_weapon_already_sword_person:0 "İmza silahın zaten bir kılıç!"
+
+ set_signature_weapon_swordshield_person:0 "Kılıç ve Kalkan"
+
+ set_signature_weapon_already_swordshield_person:0 "İmza silahın zaten kılıç ve kalkan!"
+
+ set_signature_weapon_mace_person:0 "Topuz"
+
+ set_signature_weapon_already_mace_person:0 "İmza silahın zaten bir topuz!"
+
+ set_signature_weapon_maceshield_person:0 "Topuz ve Kalkan"
+
+ set_signature_weapon_already_maceshield_person:0 "İmza silahın zaten topuz ve kalkan!"
+
+ set_signature_weapon_spear_person:0 "Mızrak"
+
+ set_signature_weapon_already_spear_person:0 "İmza silahın zaten bir mızrak!"
+
+ set_signature_weapon_spearshield_person:0 "Mızrak ve Kalkan"
+
+ set_signature_weapon_already_spearshield_person:0 "İmza silahın zaten mızrak ve kalkan!"
+
+ set_signature_weapon_axe_person:0 "Balta"
+
+ set_signature_weapon_already_axe_person:0 "İmza silahın zaten bir balta!"
+
+ set_signature_weapon_hammer_person:0 "Çekiç"
+
+ set_signature_weapon_already_hammer_person:0 "İmza silahın zaten bir çekiç!"
 
  set_signature_weapon_dagger_person:0 "Hançer"
-### TODO NOT-IN-ST: set_signature_weapon_already_dagger_person [AGOT: Your signature weapon is already a dagger!]
- set_signature_weapon_already_dagger_person:0 "Your signature weapon is already a dagger!"
-### TODO NOT-IN-ST: agot_char_interaction.0200.opening [AGOT: [actor.Custom2('AppropriateGreeting', recipient )]]
- agot_char_interaction.0200.opening:1 "[actor.Custom2('AppropriateGreeting', recipient )]"
-### TODO NOT-IN-ST: agot_char_interaction.0200.desc [AGOT: I hereby compell you to send [secondary_recipient.GetName] to my court forthwith to be the ward of [secondary_actor.GetName].]
- agot_char_interaction.0200.desc:0 "I hereby compell you to send [secondary_recipient.GetName] to my court forthwith to be the ward of [secondary_actor.GetName]."
+
+ set_signature_weapon_already_dagger_person:0 "İmza silahın zaten bir hançer!"
+
+ agot_char_interaction.0200.opening:0 "[actor.Custom2('AppropriateGreeting', recipient )]"
+
+ agot_char_interaction.0200.desc:0 "Bu vesileyle, [secondary_actor.GetName]'ın vesayeti altında olmak üzere [secondary_recipient.GetName]'i derhal sarayıma göndermeni emrediyorum."
 
  agot_char_interaction.0200.a:0 "Anlıyorum."
-### TODO NOT-IN-ST: agot_char_interaction.0200.tt [AGOT: [actor.GetName] has used their hook on you.]
- agot_char_interaction.0200.tt:0 "[actor.GetName] has used their hook on you."
-### TODO NOT-IN-ST: EXECUTION_DRAGON_FED [AGOT: Feed to Dragon]
- EXECUTION_DRAGON_FED:0 "Feed to Dragon"
-### TODO NOT-IN-ST: EXECUTION_DRAGON_BURN [AGOT: Burn with Dragonflame]
- EXECUTION_DRAGON_BURN:0 "Burn with Dragonflame"
-### TODO NOT-IN-ST: EXECUTION_DRAGON_STOMPED [AGOT: Dragonstomp]
- EXECUTION_DRAGON_STOMPED:0 "Dragonstomp"
-### TODO NOT-IN-ST: EXECUTION_DRAGON_DROPPED [AGOT: Drop from Dragonback]
- EXECUTION_DRAGON_DROPPED:0 "Drop from Dragonback"
-### TODO NOT-IN-ST: EXECUTION_MOON_DOOR [AGOT: Send through the Moon Door]
- EXECUTION_MOON_DOOR:0 "Send through the Moon Door"
-### TODO NOT-IN-ST: EXECUTION_BLASPHEMOUS_SACRIFICE [AGOT: Sacrifice in Dark Ritual]
- EXECUTION_BLASPHEMOUS_SACRIFICE:0 "Sacrifice in Dark Ritual"
-### TODO NOT-IN-ST: EXECUTION_PRISONER_IMPROVE_QUALITY [AGOT: Because your [faith|e] has a [doctrine|E] in which executed prisoners increase the quality of artifacts]
- EXECUTION_PRISONER_IMPROVE_QUALITY:0 "Because your [faith|e] has a [doctrine|E] in which executed prisoners increase the quality of artifacts"
-### TODO NOT-IN-ST: EXECUTION_FLAY [AGOT: Flay]
- EXECUTION_FLAY:0 "Flay"
+
+ agot_char_interaction.0200.tt:0 "[actor.GetName], üzerinde kozunu kullandı."
+
+ EXECUTION_DRAGON_FED:0 "Ejderhaya Yem Et"
+
+ EXECUTION_DRAGON_BURN:0 "Ejderha Aleviyle Yak"
+
+ EXECUTION_DRAGON_STOMPED:0 "Ejderha Çiğnemesi"
+
+ EXECUTION_DRAGON_DROPPED:0 "Ejderha Sırtından Atma"
+
+ EXECUTION_MOON_DOOR:0 "Ay Kapısı'ndan Aşağı At"
+
+ EXECUTION_BLASPHEMOUS_SACRIFICE:0 "Karanlık Ayinde Kurban Et"
+
+ EXECUTION_PRISONER_IMPROVE_QUALITY:0 "Çünkü [faith|e] inancının, idam edilen mahkûmların eserlerin kalitesini artırdığı bir [doctrine|E] öğretisi var"
+
+ EXECUTION_FLAY:0 "Derisini Yüz"
 
  EXECUTION_DROWN:0 "Boğul"
-### TODO NOT-IN-ST: EXECUTION_THROWN_FROM_WALL [AGOT: Throw from the Wall]
- EXECUTION_THROWN_FROM_WALL:0 "Throw from the Wall"
-### TODO NOT-IN-ST: agot_laamp_legitimist_prestige_or_patron_warning [AGOT: #warning In order to accept this [task_contract|E] [recipient.GetShortUIName] must be your [contact_list_contact|E] or Your [prestige_level|E] must be at least [GetPrestigeLevelName('(int32)4')]#!]
- agot_laamp_legitimist_prestige_or_patron_warning:0 "#warning In order to accept this [task_contract|E] [recipient.GetShortUIName] must be your [contact_list_contact|E] or Your [prestige_level|E] must be at least [GetPrestigeLevelName('(int32)4')]#!"
-### TODO NOT-IN-ST: agot_request_legitimist_support_tt [AGOT: You will be able to negotiate up to #color_yellow 1800 gold#! and #color_yellow 3000 elite troops#!, in exchange for sizable payments to [recipient.GetShortUIName] afterwards.]
- agot_request_legitimist_support_tt:0 "You will be able to negotiate up to #color_yellow 1800 gold#! and #color_yellow 3000 elite troops#!, in exchange for sizable payments to [recipient.GetShortUIName] afterwards."
-### TODO NOT-IN-ST: agot_sacrifice_child_to_others [AGOT: Sacrifice Child to the Others]
- agot_sacrifice_child_to_others:0 "Sacrifice Child to the Others"
-### TODO NOT-IN-ST: agot_sacrifice_child_to_others_desc [AGOT: Sacrifice [recipient.GetShortUINameNoTooltip] to the Others.]
- agot_sacrifice_child_to_others_desc:0 "Sacrifice [recipient.GetShortUINameNoTooltip] to the Others."
-### TODO NOT-IN-ST: agot_send_food_to_dragon_religious [AGOT: Send Food to Dragon]
- agot_send_food_to_dragon_religious:0 "Send Food to Dragon"
-### TODO NOT-IN-ST: agot_send_food_to_dragon_religious_desc [AGOT: Dragons are divine, and thus sending tribute to [recipient.GetShortUINameNoTooltip] is necessary.]
- agot_send_food_to_dragon_religious_desc:0 "Dragons are divine, and thus sending tribute to [recipient.GetShortUINameNoTooltip] is necessary."
-### TODO NOT-IN-ST: agot_send_food_to_dragon_religious_dragon_belongs_to_someone [AGOT: [recipient.GetShortUINameNoTooltip] belongs to someone!]
- agot_send_food_to_dragon_religious_dragon_belongs_to_someone:0 "[recipient.GetShortUINameNoTooltip] belongs to someone!"
-### TODO NOT-IN-ST: agot_send_food_to_dragon_religious_tt [AGOT: You will attempt to send food to [recipient.GetShortUINameNoTooltip]. The following outcomes may occur:\n$EFFECT_LIST_BULLET$#N You may be wounded or killed#! by [recipient.GetShortUINameNoTooltip]!\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('minor_piety_value')|0]#! piety.\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('major_piety_value')|0]#! piety.]
- agot_send_food_to_dragon_religious_tt:0 "You will attempt to send food to [recipient.GetShortUINameNoTooltip]. The following outcomes may occur:\n$EFFECT_LIST_BULLET$#N You may be wounded or killed#! by [recipient.GetShortUINameNoTooltip]!\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('minor_piety_value')|0]#! piety.\n$EFFECT_LIST_BULLET$You gain #P [EmptyScope.ScriptValue('major_piety_value')|0]#! piety."
-### TODO NOT-IN-ST: agot_send_for_faceless_interaction [AGOT: Send for Faceless Men]
- agot_send_for_faceless_interaction:0 "Send for Faceless Men"
-### TODO NOT-IN-ST: agot_send_for_faceless_interaction_desc [AGOT: The Faceless Men of Braavos will get rid of your problem... for a price.]
- agot_send_for_faceless_interaction_desc:0 "The Faceless Men of Braavos will get rid of your problem... for a price."
-### TODO NOT-IN-ST: required_intrigue_faceless.tt [AGOT: You or your [spymaster|E] have an [intrigue|E] of at least [intrigue_i] 20]
- required_intrigue_faceless.tt:0 "You or your [spymaster|E] have an [intrigue|E] of at least [intrigue_i] 20"
-### TODO NOT-IN-ST: faceless_payed_child_price.tt [AGOT: The Faceless Men have not already accepted an [artifact|E] from you]
- faceless_payed_child_price.tt:0 "The Faceless Men have not already accepted an [artifact|E] from you"
-### TODO NOT-IN-ST: action_agot_faceless_interaction [AGOT: You can consult a Faceless Man about [recipient.GetShortUINameNoTooltip]]
- action_agot_faceless_interaction:0 "You can consult a Faceless Man about [recipient.GetShortUINameNoTooltip]"
+
+ EXECUTION_THROWN_FROM_WALL:0 "Duvar'dan Aşağı At"
+
+ agot_laamp_legitimist_prestige_or_patron_warning:0 "#warning Bu [task_contract|E] görev sözleşmesini kabul etmek için [recipient.GetShortUIName] senin [contact_list_contact|E] irtibat kişin olmalı ya da [prestige_level|E] itibar seviyen en az [GetPrestigeLevelName('(int32)4')] olmalıdır#!"
+
+ agot_request_legitimist_support_tt:0 "[recipient.GetShortUIName]'e sonrasında yapılacak ciddi ödemeler karşılığında #color_yellow 1800 altına#! ve #color_yellow 3000 seçkin askere#! kadar pazarlık yapabileceksin."
+
+ agot_sacrifice_child_to_others:0 "Çocuğu Ak Gezenler'e Kurban Et"
+
+ agot_sacrifice_child_to_others_desc:0 "[recipient.GetShortUINameNoTooltip]'i Ak Gezenler'e kurban et."
+
+ agot_send_food_to_dragon_religious:0 "Ejderhaya Yiyecek Gönder"
+
+ agot_send_food_to_dragon_religious_desc:0 "Ejderhalar kutsaldır; bu yüzden [recipient.GetShortUINameNoTooltip]'e haraç göndermek şarttır."
+
+ agot_send_food_to_dragon_religious_dragon_belongs_to_someone:0 "[recipient.GetShortUINameNoTooltip] bir başkasına ait!"
+
+ agot_send_food_to_dragon_religious_tt:0 "[recipient.GetShortUINameNoTooltip]'e yiyecek göndermeyi denersin. Şu sonuçlar ortaya çıkabilir:\n$EFFECT_LIST_BULLET$#N [recipient.GetShortUINameNoTooltip] tarafından yaralanabilir ya da öldürülebilirsin#!\n$EFFECT_LIST_BULLET$#P [EmptyScope.ScriptValue('minor_piety_value')|0]#! dindarlık kazanırsın.\n$EFFECT_LIST_BULLET$#P [EmptyScope.ScriptValue('major_piety_value')|0]#! dindarlık kazanırsın."
+
+ agot_send_for_faceless_interaction:0 "Yüzsüz Adamlar'ı Çağır"
+
+ agot_send_for_faceless_interaction_desc:0 "Braavos'un Yüzsüz Adamları sorununu ortadan kaldırır... bir bedel karşılığında."
+
+ required_intrigue_faceless.tt:0 "Sen ya da [spymaster|E] casusun en az [intrigue_i] 20 [intrigue|E] entrikaya sahip"
+
+ faceless_payed_child_price.tt:0 "Yüzsüz Adamlar senden daha önce bir [artifact|E] eser kabul etmemiş"
+
+ action_agot_faceless_interaction:0 "[recipient.GetShortUINameNoTooltip] hakkında bir Yüzsüz Adam'a danışabilirsin"
 
  action_agot_faceless_interaction_label:0 "Yüzsüz Adam Çağır"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_desc [AGOT: You have a murder plot against [recipient.GetShortUIName]. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!]
- action_agot_faceless_interaction_desc:0 "You have a murder plot against [recipient.GetShortUIName]. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_click [AGOT: #I Click to open the interaction window.\n#!]
- action_agot_faceless_interaction_click:0 "#I Click to open the interaction window.\n#!"
+
+ action_agot_faceless_interaction_desc:0 "[recipient.GetShortUIName]'a karşı bir cinayet komplon var. \n\n#help Braavos'un Yüzsüz Adamları, bedelleri ödendiği takdirde sorununu halleder. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+
+ action_agot_faceless_interaction_click:0 "#I Etkileşim penceresini açmak için tıklayın.\n#!"
 
  action_agot_faceless_interaction_combined_label:0 "[recipient.GetUIName] hakkında Yüzsüz Adam'a danış."
 
@@ -179,53 +179,53 @@
  action_agot_faceless_interaction_combined_group_label:0 "Yüzsüz Adam Çağır"
 
  action_agot_faceless_interaction_combined_group_name:0 "Yüzsüz Adam Çağır"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_group_description [AGOT: You have a murder plot against [recipient.GetShortUIName] and your [intrigue|E] is greater than 19. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!]
- action_agot_faceless_interaction_combined_group_description:0 "You have a murder plot against [recipient.GetShortUIName] and your [intrigue|E] is greater than 19. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
-### TODO NOT-IN-ST: agot_remove_taken_face_interaction [AGOT: Remove Face]
- agot_remove_taken_face_interaction:0 "Remove Face"
-### TODO NOT-IN-ST: agot_remove_taken_face_interaction_desc [AGOT: It is time to set this face aside and return to your original appearance.]
- agot_remove_taken_face_interaction_desc:0 "It is time to set this face aside and return to your original appearance."
-### TODO NOT-IN-ST: agot_remove_taken_face_interaction.same_gender.tt [AGOT: You are wearing the face of a character with the same gender as your original character.]
- agot_remove_taken_face_interaction.same_gender.tt:0 "You are wearing the face of a character with the same gender as your original character."
-### TODO NOT-IN-ST: agot_grant_lordship_interaction [AGOT: Elevate to Lordship]
- agot_grant_lordship_interaction:0 "Elevate to Lordship"
-### TODO NOT-IN-ST: agot_grant_lordship_interaction_desc [AGOT: Grant [recipient.GetShortUIName] a lordship, elevating [recipient.GetHerHim] from the status of [agot_landed_knight|E]]
- agot_grant_lordship_interaction_desc:0 "Grant [recipient.GetShortUIName] a lordship, elevating [recipient.GetHerHim] from the status of [agot_landed_knight|E]"
-### TODO NOT-IN-ST: accepted_lordship_interaction_tt [AGOT: [recipient.GetShortUIName] accepted your offer of lordship]
- accepted_lordship_interaction_tt:0 "[recipient.GetShortUIName] accepted your offer of lordship"
-### TODO NOT-IN-ST: rejected_lordship_interaction_tt [AGOT: [recipient.GetShortUIName] rejected your offer of lordship]
- rejected_lordship_interaction_tt:0 "[recipient.GetShortUIName] rejected your offer of lordship"
-### TODO NOT-IN-ST: accepted_request_for_lordship_interaction_tt [AGOT: [recipient.GetShortUIName] accepted your request for lordship]
- accepted_request_for_lordship_interaction_tt:0 "[recipient.GetShortUIName] accepted your request for lordship"
-### TODO NOT-IN-ST: declined_request_for_lordship_interaction_tt [AGOT: [recipient.GetShortUIName] declined your request for lordship]
- declined_request_for_lordship_interaction_tt:0 "[recipient.GetShortUIName] declined your request for lordship"
-### TODO NOT-IN-ST: agot_offer_of_lordship [AGOT: Offer Lordship]
- agot_offer_of_lordship:0 "Offer Lordship"
-### TODO NOT-IN-ST: AGOT_OFFER_LORDSHIP_NOTIFICATION [AGOT: You have served me long and faithfully, [recipient.GetFirstNameNicknamedNoTooltipRegnal], and I would see you elevated to a [recipient.GetLadyLord]. Do you accept such an honor?]
- AGOT_OFFER_LORDSHIP_NOTIFICATION:0 "You have served me long and faithfully, [recipient.GetFirstNameNicknamedNoTooltipRegnal], and I would see you elevated to a [recipient.GetLadyLord]. Do you accept such an honor?"
+
+ action_agot_faceless_interaction_combined_group_description:0 "[recipient.GetShortUIName]'a karşı bir cinayet komplon var ve [intrigue|E] entrikan 19'dan büyük. \n\n#help Braavos'un Yüzsüz Adamları, bedelleri ödendiği takdirde sorununu halleder. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+
+ agot_remove_taken_face_interaction:0 "Yüzü Çıkar"
+
+ agot_remove_taken_face_interaction_desc:0 "Bu yüzü bir kenara bırakıp asıl görünüşüne dönmenin zamanı geldi."
+
+ agot_remove_taken_face_interaction.same_gender.tt:0 "Asıl karakterinle aynı cinsiyetteki bir karakterin yüzünü takıyorsun."
+
+ agot_grant_lordship_interaction:0 "Lordluğa Yükselt"
+
+ agot_grant_lordship_interaction_desc:0 "[recipient.GetShortUIName]'a lordluk vererek onu [agot_landed_knight|E] statüsünden yükselt"
+
+ accepted_lordship_interaction_tt:0 "[recipient.GetShortUIName] senin lordluk teklifini kabul etti"
+
+ rejected_lordship_interaction_tt:0 "[recipient.GetShortUIName] senin lordluk teklifini reddetti"
+
+ accepted_request_for_lordship_interaction_tt:0 "[recipient.GetShortUIName] senin lordluk talebini kabul etti"
+
+ declined_request_for_lordship_interaction_tt:0 "[recipient.GetShortUIName] senin lordluk talebini geri çevirdi"
+
+ agot_offer_of_lordship:0 "Lordluk Teklif Et"
+
+ AGOT_OFFER_LORDSHIP_NOTIFICATION:0 "Bana uzun ve sadakatle hizmet ettin, [recipient.GetFirstNameNicknamedNoTooltipRegnal]; senin bir [recipient.GetLadyLord] mertebesine yükseltilmeni istiyorum. Böyle bir onuru kabul eder misin?"
 
  agot_request_for_lordship:0 "Lordluk Talebi"
-### TODO NOT-IN-ST: AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION [AGOT: Our House has ruled your lands in your stead justly and faithfully, and we believe it is time that we are rewarded with the elevation of our status.]
- AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION:0 "Our House has ruled your lands in your stead justly and faithfully, and we believe it is time that we are rewarded with the elevation of our status."
+
+ AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION:0 "Hanemiz, senin yerine topraklarını adil ve sadakatle yönetti ve statümüzün yükseltilmesiyle ödüllendirilmemizin zamanının geldiğine inanıyoruz."
 
  agot_request_lordship_interaction:0 "Lordluk Talebi"
-### TODO NOT-IN-ST: agot_request_lordship_interaction_desc [AGOT: Request that [recipient.GetShortUIName] grants you a lordship, elevating you from the status of [agot_landed_knight|E]]
- agot_request_lordship_interaction_desc:0 "Request that [recipient.GetShortUIName] grants you a lordship, elevating you from the status of [agot_landed_knight|E]"
-### TODO NOT-IN-ST: agot_strip_lordship [AGOT: Strip Lordship]
- agot_strip_lordship:0 "Strip Lordship"
-### TODO NOT-IN-ST: agot_release_strip_lordship_send_to_nw [AGOT: You cannot strip [TARGET_CHARACTER.GetShortUINameNoTooltip] of [TARGET_CHARACTER.GetHerHis] lordship and send [TARGET_CHARACTER.GetHerHim] to the Night's Watch at the same time]
- agot_release_strip_lordship_send_to_nw:0 "You cannot strip [TARGET_CHARACTER.GetShortUINameNoTooltip] of [TARGET_CHARACTER.GetHerHis] lordship and send [TARGET_CHARACTER.GetHerHim] to the Night's Watch at the same time"
-### TODO NOT-IN-ST: agot_release_strip_lordship_banish [AGOT: You cannot strip [TARGET_CHARACTER.GetShortUINameNoTooltip] of [TARGET_CHARACTER.GetHerHis] lordship and banish [TARGET_CHARACTER.GetHerHim] at the same time]
- agot_release_strip_lordship_banish:0 "You cannot strip [TARGET_CHARACTER.GetShortUINameNoTooltip] of [TARGET_CHARACTER.GetHerHis] lordship and banish [TARGET_CHARACTER.GetHerHim] at the same time"
-### TODO NOT-IN-ST: AGOT_LANDED_KNIGHT_NO_MODIFY_SPECIAL [AGOT: Lordship must be granted through [interactions|E]!]
- AGOT_LANDED_KNIGHT_NO_MODIFY_SPECIAL:0 "Lordship must be granted through [interactions|E]!"
-### TODO NOT-IN-ST: agot_expel_landless_pirate [AGOT: Expel Pirate]
- agot_expel_landless_pirate:0 "Expel Pirate"
-### TODO NOT-IN-ST: agot_expel_landless_pirate_desc [AGOT: You will demand that [recipient.GetShortUINameNoTooltip] move [recipient.GetHerHis] [agot_landless_pirate_domicile|E] elsewhere.]
- agot_expel_landless_pirate_desc:0 "You will demand that [recipient.GetShortUINameNoTooltip] move [recipient.GetHerHis] [agot_landless_pirate_domicile|E] elsewhere."
-### TODO NOT-IN-ST: agot_pirate_will_be_expelled_tt [AGOT: [recipient.GetShortUINameNoTooltip] will decide either to remain in your port illegally or to flee.]
- agot_pirate_will_be_expelled_tt:0 "[recipient.GetShortUINameNoTooltip] will decide either to remain in your port illegally or to flee."
-### TODO NOT-IN-ST: agot_bestow_royal_status_interaction [AGOT: Bestow Royal Title]
- agot_bestow_royal_status_interaction:0 "Bestow Royal Title"
-### TODO NOT-IN-ST: agot_bestow_royal_status_interaction_desc [AGOT: Bestow the title of [Concept( 'royal_scion', SelectLocalization(recipient.IsFemale, 'princess', 'prince'))|E] of [actor.GetPrimaryTitle.GetNameNoTier|V] upon [AGOTGetTitledFirstName(recipient)|V] in recognition of [recipient.GetHerHis] royal lineage]
- agot_bestow_royal_status_interaction_desc:0 "Bestow the title of [Concept( 'royal_scion', SelectLocalization(recipient.IsFemale, 'princess', 'prince'))|E] of [actor.GetPrimaryTitle.GetNameNoTier|V] upon [AGOTGetTitledFirstName(recipient)|V] in recognition of [recipient.GetHerHis] royal lineage"
+
+ agot_request_lordship_interaction_desc:0 "[recipient.GetShortUIName]'dan sana lordluk vermesini, seni [agot_landed_knight|E] statüsünden yükseltmesini iste"
+
+ agot_strip_lordship:0 "Lordluğunu Elinden Al"
+
+ agot_release_strip_lordship_send_to_nw:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]'in lordluğunu elinden alıp aynı zamanda Gece Nöbetçileri'ne gönderemezsin"
+
+ agot_release_strip_lordship_banish:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip]'in lordluğunu elinden alıp aynı zamanda sürgün edemezsin"
+
+ AGOT_LANDED_KNIGHT_NO_MODIFY_SPECIAL:0 "Lordluk, [interactions|E] etkileşimleri aracılığıyla bahşedilmelidir!"
+
+ agot_expel_landless_pirate:0 "Korsanı Sür"
+
+ agot_expel_landless_pirate_desc:0 "[recipient.GetShortUINameNoTooltip]'den [recipient.GetHerHis] [agot_landless_pirate_domicile|E] korsan yuvasını başka yere taşımasını talep edeceksin."
+
+ agot_pirate_will_be_expelled_tt:0 "[recipient.GetShortUINameNoTooltip] ya limanında yasadışı biçimde kalmaya ya da kaçmaya karar verecek."
+
+ agot_bestow_royal_status_interaction:0 "Kraliyet Unvanı Bahşet"
+
+ agot_bestow_royal_status_interaction_desc:0 "Kraliyet soyunun takdiri olarak [AGOTGetTitledFirstName(recipient)|V]'a, [actor.GetPrimaryTitle.GetNameNoTier|V] unvanının [Concept( 'royal_scion', SelectLocalization(recipient.IsFemale, 'princess', 'prince'))|E] unvanını bahşet"

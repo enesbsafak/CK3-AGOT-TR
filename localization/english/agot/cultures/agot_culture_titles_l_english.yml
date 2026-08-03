@@ -1,36 +1,36 @@
-﻿﻿l_english:
+﻿l_english:
 
  king_feudal_male_fallback:0 "Kral"
 
  king_feudal_female_fallback:0 "Kraliçe"
 
  kingdom_feudal_independent:0 "Krallık"
-### TODO NOT-IN-ST: agot_king_flavour [AGOT: [ROOT.Char.Custom('AGOT_KING_FLAVOUR')]]
+
  agot_king_flavour:0 "[ROOT.Char.Custom('AGOT_KING_FLAVOUR')]"
-### TODO NOT-IN-ST: agot_king_spouse_flavour [AGOT: [ROOT.Char.Custom('AGOT_KING_SPOUSE_FLAVOUR')]]
+
  agot_king_spouse_flavour:0 "[ROOT.Char.Custom('AGOT_KING_SPOUSE_FLAVOUR')]"
-### TODO NOT-IN-ST: agot_queen_flavour [AGOT: [ROOT.Char.Custom('AGOT_QUEEN_FLAVOUR')]]
+
  agot_queen_flavour:0 "[ROOT.Char.Custom('AGOT_QUEEN_FLAVOUR')]"
-### TODO NOT-IN-ST: agot_queen_spouse_flavour [AGOT: [ROOT.Char.Custom('AGOT_QUEEN_SPOUSE_FLAVOUR')]]
+
  agot_queen_spouse_flavour:0 "[ROOT.Char.Custom('AGOT_QUEEN_SPOUSE_FLAVOUR')]"
-### TODO NOT-IN-ST: hegemony_feudal [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY')]]
+
  hegemony_feudal:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY')]"
-### TODO NOT-IN-ST: hegemony_feudal_iron_throne [AGOT: Seven Kingdoms]
- hegemony_feudal_iron_throne:0 "Seven Kingdoms"
-### TODO NOT-IN-ST: hegemony_feudal_male [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY_MALE')]]
+
+ hegemony_feudal_iron_throne:0 "Yedi Krallık"
+
  hegemony_feudal_male:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY_MALE')]"
-### TODO NOT-IN-ST: hegemony_feudal_female [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY_FEMALE')]]
+
  hegemony_feudal_female:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY_FEMALE')]"
-### TODO NOT-IN-ST: empire_feudal_principiality [AGOT: Principality]
- empire_feudal_principiality:0 "Principality"
-### TODO NOT-IN-ST: empire_feudal_paramountcy [AGOT: Lord Paramountcy]
- empire_feudal_paramountcy:0 "Lord Paramountcy"
+
+ empire_feudal_principiality:0 "Prenslik"
+
+ empire_feudal_paramountcy:0 "Yüce Lordluk"
 
  empire_feudal_default:0 "Krallık"
-### TODO NOT-IN-ST: lord_paramount [AGOT: Lord Paramount]
- lord_paramount:0 "Lord Paramount"
-### TODO NOT-IN-ST: lady_paramount [AGOT: Lady Paramount]
- lady_paramount:0 "Lady Paramount"
+
+ lord_paramount:0 "Yüce Lord"
+
+ lady_paramount:0 "Yüce Leydi"
 
  lord_non_paramount:0 "Lord"
 
@@ -39,17 +39,17 @@
  landed_knight_warden:0 "Muhafız"
 
  landed_knight_master:0 "Usta"
-### TODO NOT-IN-ST: princess_mother [AGOT: Princess Mother]
- princess_mother:0 "Princess Mother"
-### TODO NOT-IN-ST: queen_mother_default [AGOT: Queen Mother]
- queen_mother_default:0 "Queen Mother"
-### TODO NOT-IN-ST: empress_mother_default [AGOT: Empress Mother]
- empress_mother_default:0 "Empress Mother"
-### TODO NOT-IN-ST: petty_kingdom [AGOT: Petty Kingdom]
- petty_kingdom:0 "Petty Kingdom"
-### TODO NOT-IN-ST: prince_kingdom [AGOT: [CHARACTER.Custom('PRINCE_MALE')]]
+
+ princess_mother:0 "Prenses Ana"
+
+ queen_mother_default:0 "Kraliçe Ana"
+
+ empress_mother_default:0 "İmparatoriçe Ana"
+
+ petty_kingdom:0 "Küçük Krallık"
+
  prince_kingdom:0 "[CHARACTER.Custom('PRINCE_MALE')]"
-### TODO NOT-IN-ST: princess_kingdom [AGOT: [CHARACTER.Custom('PRINCE_FEMALE')]]
+
  princess_kingdom:0 "[CHARACTER.Custom('PRINCE_FEMALE')]"
 
  prince_hegemony_feudal_male:0 "Prens"
@@ -59,17 +59,17 @@
  child_lord:0 "Lord"
 
  child_lady:0 "Hanım"
-### TODO NOT-IN-ST: king_claimant_feudal_male [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]]
+
  king_claimant_feudal_male:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]"
-### TODO NOT-IN-ST: king_claimant_feudal_female [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]]
+
  king_claimant_feudal_female:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]"
 
  king_claimant_feudal_male_default:0 "Kral"
 
  king_claimant_feudal_female_default:0 "Kraliçe"
-### TODO NOT-IN-ST: king_claimant_feudal_laamp_male [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]]
+
  king_claimant_feudal_laamp_male:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]"
-### TODO NOT-IN-ST: king_claimant_feudal_laamp_female [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]]
+
  king_claimant_feudal_laamp_female:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]"
 
  king_claimant_feudal_laamp_male_default:0 "Kral"
@@ -93,31 +93,31 @@
  landed_knight_male_barony_ser:0 "Ser"
 
  landed_knight_male_barony_master:0 "Usta"
-### TODO NOT-IN-ST: barony_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  barony_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: barony_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  barony_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: county_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  county_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: county_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  county_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: duchy_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  duchy_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: duchy_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  duchy_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: kingdom_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  kingdom_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: kingdom_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  kingdom_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: empire_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  empire_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: empire_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  empire_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: hegemony_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  hegemony_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: hegemony_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  hegemony_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
-### TODO NOT-IN-ST: high_septon_override [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+
  high_septon_override:0 "$AGOT_FULL_TITLE_OVERRIDE$"
 
  king_free_city_male_k_lys:0 "Birinci Magister"
@@ -143,14 +143,14 @@
  baron_free_city_male:0 "Magister"
 
  baron_free_city_female:0 "Magister"
-### TODO NOT-IN-ST: barony_free_city [AGOT: Borough]
- barony_free_city:0 "Borough"
+
+ barony_free_city:0 "Kasaba"
 
  count_free_city_male:0 "Magister"
 
  count_free_city_female:0 "Magister"
-### TODO NOT-IN-ST: county_free_city [AGOT: Town]
- county_free_city:0 "Town"
+
+ county_free_city:0 "Kasaba"
 
  duke_free_city_male:0 "Magister"
 
@@ -163,9 +163,9 @@
  duke_free_city_independent_female:0 "Birinci Magister"
 
  duchy_free_city_independent:0 "Şehir"
-### TODO NOT-IN-ST: king_free_city_male [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]]
+
  king_free_city_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
-### TODO NOT-IN-ST: king_free_city_female [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]]
+
  king_free_city_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
 
  king_free_city_male_fallback:0 "Magister"
@@ -177,27 +177,27 @@
  king_free_city_male_spouse:0 "Lord"
 
  king_free_city_female_spouse:0 "Hanım"
-### TODO NOT-IN-ST: king_free_city_independent_male [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]]
+
  king_free_city_independent_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
-### TODO NOT-IN-ST: king_free_city_independent_female [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]]
+
  king_free_city_independent_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
 
  king_free_city_independent_male_fallback:0 "Birinci Magister"
 
  king_free_city_independent_female_fallback:0 "Birinci Magister"
-### TODO NOT-IN-ST: king_free_city_male_k_braavos [AGOT: Sealord]
- king_free_city_male_k_braavos:0 "Sealord"
-### TODO NOT-IN-ST: king_free_city_female_k_braavos [AGOT: Sealady]
- king_free_city_female_k_braavos:0 "Sealady"
+
+ king_free_city_male_k_braavos:0 "Mühür Lordu"
+
+ king_free_city_female_k_braavos:0 "Mühür Leydisi"
 
  kingdom_free_city_independent:0 "Özgür Şehir"
 
  emperor_free_city_male_spouse:0 "Lord"
 
  emperor_free_city_female_spouse:0 "Hanım"
-### TODO NOT-IN-ST: emperor_free_city_male [AGOT: [CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]]
+
  emperor_free_city_male:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]"
-### TODO NOT-IN-ST: emperor_free_city_female [AGOT: [CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]]
+
  emperor_free_city_female:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
 
  emperor_free_city_male_fallback:0 "Birinci Magister"
@@ -213,50 +213,50 @@
  archon_tyrosh_male:0 "Arhon"
 
  archon_tyrosh_female:0 "Arhon"
-### TODO NOT-IN-ST: baron_pirate_male [AGOT: Skipper]
- baron_pirate_male:0 "Skipper"
-### TODO NOT-IN-ST: baron_pirate_female [AGOT: $baron_pirate_male$]
- baron_pirate_female:1 "$baron_pirate_male$"
-### TODO NOT-IN-ST: barony_pirate [AGOT: Lair]
- barony_pirate:0 "Lair"
+
+ baron_pirate_male:0 "Kaptan"
+
+ baron_pirate_female:0 "$baron_pirate_male$"
+
+ barony_pirate:0 "İn"
 
  count_pirate_male:0 "Kaptan"
-### TODO NOT-IN-ST: count_pirate_female [AGOT: $count_pirate_male$]
- count_pirate_female:1 "$count_pirate_male$"
-### TODO NOT-IN-ST: county_pirate [AGOT: Haven]
- county_pirate:0 "Haven"
-### TODO NOT-IN-ST: duke_pirate_male [AGOT: Pirate Lord]
- duke_pirate_male:0 "Pirate Lord"
-### TODO NOT-IN-ST: duke_pirate_female [AGOT: Pirate Lady]
- duke_pirate_female:1 "Pirate Lady"
-### TODO NOT-IN-ST: duchy_pirate [AGOT: Stronghold]
- duchy_pirate:0 "Stronghold"
-### TODO NOT-IN-ST: king_pirate_male [AGOT: [CHARACTER.Custom('KINGDOM_PIRATE_MALE')]]
+
+ count_pirate_female:0 "$count_pirate_male$"
+
+ county_pirate:0 "Sığınak"
+
+ duke_pirate_male:0 "Korsan Lordu"
+
+ duke_pirate_female:0 "Korsan Leydisi"
+
+ duchy_pirate:0 "Hisar"
+
  king_pirate_male:0 "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]"
-### TODO NOT-IN-ST: king_pirate_female [AGOT: [CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]]
+
  king_pirate_female:0 "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]"
-### TODO NOT-IN-ST: king_pirate_male_corsair [AGOT: Corsair King]
- king_pirate_male_corsair:0 "Corsair King"
-### TODO NOT-IN-ST: king_pirate_female_corsair [AGOT: Corsair Queen]
- king_pirate_female_corsair:0 "Corsair Queen"
-### TODO NOT-IN-ST: king_pirate_male_fallback [AGOT: Pirate King]
- king_pirate_male_fallback:0 "Pirate King"
-### TODO NOT-IN-ST: king_pirate_female_fallback [AGOT: Pirate Queen]
- king_pirate_female_fallback:0 "Pirate Queen"
-### TODO NOT-IN-ST: kingdom_pirate [AGOT: Pirate Kingdom]
- kingdom_pirate:1 "Pirate Kingdom"
-### TODO NOT-IN-ST: emperor_pirate_male [AGOT: King of the Seas]
- emperor_pirate_male:0 "King of the Seas"
-### TODO NOT-IN-ST: emperor_pirate_female [AGOT: Queen of the Seas]
- emperor_pirate_female:0 "Queen of the Seas"
-### TODO NOT-IN-ST: empire_pirate [AGOT: Grand Pirate Kingdom]
- empire_pirate:0 "Grand Pirate Kingdom"
-### TODO NOT-IN-ST: hegemony_pirate [AGOT: Pirate Empire]
- hegemony_pirate:0 "Pirate Empire"
-### TODO NOT-IN-ST: prince_admiral [AGOT: Prince-Admiral]
- prince_admiral:0 "Prince-Admiral"
-### TODO NOT-IN-ST: princess_admiral [AGOT: Princess-Admiral]
- princess_admiral:0 "Princess-Admiral"
+
+ king_pirate_male_corsair:0 "Korsan Kralı"
+
+ king_pirate_female_corsair:0 "Korsan Kraliçesi"
+
+ king_pirate_male_fallback:0 "Korsan Kralı"
+
+ king_pirate_female_fallback:0 "Korsan Kraliçesi"
+
+ kingdom_pirate:0 "Korsan Krallığı"
+
+ emperor_pirate_male:0 "Denizlerin Kralı"
+
+ emperor_pirate_female:0 "Denizlerin Kraliçesi"
+
+ empire_pirate:0 "Büyük Korsan Krallığı"
+
+ hegemony_pirate:0 "Korsan İmparatorluğu"
+
+ prince_admiral:0 "Prens-Amiral"
+
+ princess_admiral:0 "Prenses-Amiral"
 
  wolfswood_clansman_master_male_duchy:0 "Usta"
 
@@ -273,12 +273,12 @@
  ironborn_master_male_county:0 "Usta"
 
  ironborn_master_female_county:0 "Usta"
-### TODO NOT-IN-ST: e_the_riverlands_old [AGOT: The Rivers and the Hills]
- e_the_riverlands_old:0 "The Rivers and the Hills"
-### TODO NOT-IN-ST: emperor_male_beyond_the_wall [AGOT: King-beyond-the-Wall]
- emperor_male_beyond_the_wall:0 "King-beyond-the-Wall"
-### TODO NOT-IN-ST: emperor_female_beyond_the_wall [AGOT: Queen-beyond-the-Wall]
- emperor_female_beyond_the_wall:0 "Queen-beyond-the-Wall"
+
+ e_the_riverlands_old:0 "Nehirler ve Tepeler"
+
+ emperor_male_beyond_the_wall:0 "Duvar'ın Ötesindeki Kral"
+
+ emperor_female_beyond_the_wall:0 "Duvar'ın Ötesindeki Kraliçe"
 
  magnar_count:0 "Magnar"
 
@@ -299,52 +299,52 @@
  queen_north:0 "Kraliçe"
 
  queen_north_spouse:0 "Kraliçe"
-### TODO NOT-IN-ST: good_queen [AGOT: 'Good Queen']
- good_queen:0 "'Good Queen'"
-### TODO NOT-IN-ST: bad_queen [AGOT: 'Bad Queen']
- bad_queen:0 "'Bad Queen'"
-### TODO NOT-IN-ST: king_riverlands [AGOT: River King]
- king_riverlands:0 "River King"
+
+ good_queen:0 "'İyi Kraliçe'"
+
+ bad_queen:0 "'Kötü Kraliçe'"
+
+ king_riverlands:0 "Nehir Kralı"
 
  queen_riverlands:0 "Nehir Kraliçesi"
 
  queen_riverlands_spouse:0 "Nehir Kraliçesi"
-### TODO NOT-IN-ST: king_wall [AGOT: Night's King]
- king_wall:0 "Night's King"
-### TODO NOT-IN-ST: queen_wall [AGOT: Night's Queen]
- queen_wall:0 "Night's Queen"
-### TODO NOT-IN-ST: king_the_dreadlands [AGOT: Red King]
- king_the_dreadlands:0 "Red King"
-### TODO NOT-IN-ST: queen_the_dreadlands [AGOT: Red Queen]
- queen_the_dreadlands:0 "Red Queen"
-### TODO NOT-IN-ST: king_barrows_and_rills [AGOT: Barrow King]
- king_barrows_and_rills:0 "Barrow King"
-### TODO NOT-IN-ST: queen_barrows_and_rills [AGOT: Barrow Queen]
- queen_barrows_and_rills:0 "Barrow Queen"
-### TODO NOT-IN-ST: king_the_neck [AGOT: Marsh King]
- king_the_neck:0 "Marsh King"
-### TODO NOT-IN-ST: queen_the_neck [AGOT: Marsh Queen]
- queen_the_neck:0 "Marsh Queen"
-### TODO NOT-IN-ST: king_tridents_mouth [AGOT: Fool King]
- king_tridents_mouth:0 "Fool King"
-### TODO NOT-IN-ST: queen_tridents_mouth [AGOT: Maid Queen]
- queen_tridents_mouth:0 "Maid Queen"
-### TODO NOT-IN-ST: king_the_bay_of_crabs [AGOT: True King]
- king_the_bay_of_crabs:0 "True King"
-### TODO NOT-IN-ST: queen_the_bay_of_crabs [AGOT: True Queen]
- queen_the_bay_of_crabs:0 "True Queen"
-### TODO NOT-IN-ST: king_runestone [AGOT: Bronze King]
- king_runestone:0 "Bronze King"
-### TODO NOT-IN-ST: queen_runestone [AGOT: Bronze Queen]
- queen_runestone:0 "Bronze Queen"
-### TODO NOT-IN-ST: king_the_red_mountains [AGOT: Vulture King]
- king_the_red_mountains:0 "Vulture King"
-### TODO NOT-IN-ST: queen_the_red_mountains [AGOT: Vulture Queen]
- queen_the_red_mountains:0 "Vulture Queen"
-### TODO NOT-IN-ST: king_withermoore [AGOT: Hooded King]
- king_withermoore:0 "Hooded King"
-### TODO NOT-IN-ST: queen_withermoore [AGOT: Hooded Queen]
- queen_withermoore:0 "Hooded Queen"
+
+ king_wall:0 "Gece Kralı"
+
+ queen_wall:0 "Gece Kraliçesi"
+
+ king_the_dreadlands:0 "Kızıl Kral"
+
+ queen_the_dreadlands:0 "Kızıl Kraliçe"
+
+ king_barrows_and_rills:0 "Tümsek Kralı"
+
+ queen_barrows_and_rills:0 "Tümsek Kraliçesi"
+
+ king_the_neck:0 "Bataklık Kralı"
+
+ queen_the_neck:0 "Bataklık Kraliçesi"
+
+ king_tridents_mouth:0 "Soytarı Kral"
+
+ queen_tridents_mouth:0 "Bakire Kraliçe"
+
+ king_the_bay_of_crabs:0 "Gerçek Kral"
+
+ queen_the_bay_of_crabs:0 "Gerçek Kraliçe"
+
+ king_runestone:0 "Bronz Kral"
+
+ queen_runestone:0 "Bronz Kraliçe"
+
+ king_the_red_mountains:0 "Akbaba Kral"
+
+ queen_the_red_mountains:0 "Akbaba Kraliçe"
+
+ king_withermoore:0 "Kukuletalı Kral"
+
+ queen_withermoore:0 "Kukuletalı Kraliçe"
 
  king_yronwood:0 "Kral Kanlı"
 
@@ -365,9 +365,9 @@
  lp_empire_male_faegon:0 "Kral"
 
  lp_empire_female_faegon:0 "Kraliçe"
-### TODO NOT-IN-ST: head_of_faith_male_normal [AGOT: [CHARACTER.GetFaith.ReligiousHeadName|U]]
+
  head_of_faith_male_normal:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
-### TODO NOT-IN-ST: head_of_faith_male_fots [AGOT: ]
+
  head_of_faith_male_fots:0 ""
 
  duke_landless_adventurer_knight_camp:0 "Ser"
@@ -377,8 +377,8 @@
  duchess_landless_adventurer_knight_camp:0 "Ser"
 
  spouse_landless_adventurer_knight_female:0 "Ser"
-### TODO NOT-IN-ST: captain_general [AGOT: Captain-General]
- captain_general:0 "Captain-General"
+
+ captain_general:0 "Kaptan-General"
 
  default_duke_landless_adventurer_male_camp:0 "Kaptan"
 
@@ -389,25 +389,25 @@
  default_spouse_landless_adventurer_holder_female:0 "Metres"
 
  default_duke_landless_adventurer_camp_mercenaries:0 "Kaptan"
-### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_wanderers [AGOT: [Character.Custom('MistressMaster')|U]]
+
  default_duke_landless_adventurer_camp_wanderers:0 "[Character.Custom('MistressMaster')|U]"
-### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_scholars [AGOT: [Character.Custom('MistressMaster')|U]]
+
  default_duke_landless_adventurer_camp_scholars:0 "[Character.Custom('MistressMaster')|U]"
 
  default_duke_landless_adventurer_camp_explorers:0 "Lider"
 
  default_duke_landless_adventurer_camp_brigands:0 "Patron"
-### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_legitimists [AGOT: [Character.GetLadyLord|U]]
+
  default_duke_landless_adventurer_camp_legitimists:0 "[Character.GetLadyLord|U]"
 
  default_duchess_landless_adventurer_camp_mercenaries:0 "Kaptan"
-### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_wanderers [AGOT: [Character.Custom('MistressMaster')|U]]
+
  default_duchess_landless_adventurer_camp_wanderers:0 "[Character.Custom('MistressMaster')|U]"
-### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_scholars [AGOT: [Character.Custom('MistressMaster')|U]]
+
  default_duchess_landless_adventurer_camp_scholars:0 "[Character.Custom('MistressMaster')|U]"
 
  default_duchess_landless_adventurer_camp_explorers:0 "Lider"
 
  default_duchess_landless_adventurer_camp_brigands:0 "Patron"
-### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_legitimists [AGOT: [Character.GetLadyLord|U]]
+
  default_duchess_landless_adventurer_camp_legitimists:0 "[Character.GetLadyLord|U]"

@@ -1,89 +1,89 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: knight_wounded_no_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by an enemy soldier!]
- knight_wounded_no_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by an enemy soldier!"
-### TODO NOT-IN-ST: knight_wounded_no_enemy_enemy_player [AGOT: One of our valiant soldiers has managed to wound the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!]
- knight_wounded_no_enemy_enemy_player:2 "One of our valiant soldiers has managed to wound the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_wounded_by_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- knight_wounded_by_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was wounded by [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_wounded_by_enemy_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] wounded [CHARACTER.GetShortUINameNoTooltip]!]
- knight_wounded_by_enemy_enemy_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] wounded [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_maimed_no_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was maimed by an enemy soldier!]
- knight_maimed_no_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was maimed by an enemy soldier!"
-### TODO NOT-IN-ST: knight_maimed_no_enemy_enemy_player [AGOT: One of our valiant soldiers has managed to maim the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!]
- knight_maimed_no_enemy_enemy_player:2 "One of our valiant soldiers has managed to maim the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_maimed_by_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was maimed by [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- knight_maimed_by_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was maimed by [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_maimed_by_enemy_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] maimed [CHARACTER.GetShortUINameNoTooltip]!]
- knight_maimed_by_enemy_enemy_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] maimed [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_killed_no_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by an enemy soldier!]
- knight_killed_no_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by an enemy soldier!"
-### TODO NOT-IN-ST: knight_killed_no_enemy_enemy_player [AGOT: One of our valiant soldiers has managed to slay the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!]
- knight_killed_no_enemy_enemy_player:2 "One of our valiant soldiers has managed to slay the enemy [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_killed_by_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- knight_killed_by_enemy_friendly_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was slain by [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: knight_killed_by_enemy_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] killed [CHARACTER.GetShortUINameNoTooltip]!]
- knight_killed_by_enemy_enemy_player:2 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] killed [CHARACTER.GetShortUINameNoTooltip]!"
+﻿l_english:
+
+ knight_wounded_no_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], bir düşman askeri tarafından yaralandı!"
+
+ knight_wounded_no_enemy_enemy_player:0 "Yiğit askerlerimizden biri, düşman [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]'i yaralamayı başardı!"
+
+ knight_wounded_by_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip] tarafından yaralandı!"
+
+ knight_wounded_by_enemy_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [CHARACTER.GetShortUINameNoTooltip]'i yaraladı!"
+
+ knight_maimed_no_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], bir düşman askeri tarafından sakatlandı!"
+
+ knight_maimed_no_enemy_enemy_player:0 "Yiğit askerlerimizden biri, düşman [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]'i sakatlamayı başardı!"
+
+ knight_maimed_by_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip] tarafından sakatlandı!"
+
+ knight_maimed_by_enemy_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [CHARACTER.GetShortUINameNoTooltip]'i sakatladı!"
+
+ knight_killed_no_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], bir düşman askeri tarafından öldürüldü!"
+
+ knight_killed_no_enemy_enemy_player:0 "Yiğit askerlerimizden biri, düşman [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]'i öldürmeyi başardı!"
+
+ knight_killed_by_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip] tarafından öldürüldü!"
+
+ knight_killed_by_enemy_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [CHARACTER.GetShortUINameNoTooltip]'i öldürdü!"
 
  berserker_rage_killed_enemy_enemy_player:0 "$knight_culture_player_no_tooltip_lowercasemiz [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafası, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından koparıldı!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip] and became a [GetTrait('berserker').GetName( GetNullCharacter )]!]
- berserker_rage_killed_enemy_friendly_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip] and became a [GetTrait('berserker').GetName( GetNullCharacter )]!"
+
+ berserker_rage_killed_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafasını kopardı ve [GetTrait('berserker').GetName( GetNullCharacter )] oldu!"
 
  berserker_rage_killed_enemy_no_trait_enemy_player:0 "$knight_culture_player_no_tooltip_lowercasemiz [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafası, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından koparıldı!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_friendly_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the head off of [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_no_enemy_enemy_player [AGOT: The enemy $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] rampaged through our soldiers and became a [GetTrait('berserker').GetName( GetNullCharacter )]!]
- berserker_rage_no_enemy_enemy_player:1 "The enemy $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] rampaged through our soldiers and became a [GetTrait('berserker').GetName( GetNullCharacter )]!"
-### TODO NOT-IN-ST: berserker_rage_no_enemy_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] rampaged through the enemy soldiers and became a [GetTrait('berserker').GetName( GetNullCharacter )]!]
- berserker_rage_no_enemy_friendly_player:1 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] rampaged through the enemy soldiers and became a [GetTrait('berserker').GetName( GetNullCharacter )]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v2_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was cloven in half by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v2_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was cloven in half by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v2_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] clove [TARGET_CHARACTER.GetShortUINameNoTooltip] in half!]
- berserker_rage_killed_enemy_no_trait_v2_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] clove [TARGET_CHARACTER.GetShortUINameNoTooltip] in half!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v3_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was viciously dismembered by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v3_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was viciously dismembered by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v3_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] viciously dismembered [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v3_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] viciously dismembered [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v4_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was ripped apart limb-by-limb by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v4_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was ripped apart limb-by-limb by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v4_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped [TARGET_CHARACTER.GetShortUINameNoTooltip] apart limb-by-limb!]
- berserker_rage_killed_enemy_no_trait_v4_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped [TARGET_CHARACTER.GetShortUINameNoTooltip] apart limb-by-limb!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v5_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was chopped into pieces by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v5_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was chopped into pieces by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v5_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] chopped [TARGET_CHARACTER.GetShortUINameNoTooltip] into pieces!]
- berserker_rage_killed_enemy_no_trait_v5_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] chopped [TARGET_CHARACTER.GetShortUINameNoTooltip] into pieces!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v6_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] heart ripped out by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v6_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] got [TARGET_CHARACTER.GetHerHis] heart ripped out by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v6_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the heart out of [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v6_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] ripped the heart out of [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v7_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] heart gave out after the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] screamed at [TARGET_CHARACTER.GetHerHim]!]
- berserker_rage_killed_enemy_no_trait_v7_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] heart gave out after the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] screamed at [TARGET_CHARACTER.GetHerHim]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v7_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] scared [TARGET_CHARACTER.GetShortUINameNoTooltip] to death with a mighty roar!]
- berserker_rage_killed_enemy_no_trait_v7_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] scared [TARGET_CHARACTER.GetShortUINameNoTooltip] to death with a mighty roar!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v8_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] had [TARGET_CHARACTER.GetHerHis] skull cracked open by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v8_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] had [TARGET_CHARACTER.GetHerHis] skull cracked open by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v8_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] cracked open the skull of [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v8_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] cracked open the skull of [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v9_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was strangled with [TARGET_CHARACTER.GetHerHis] own intestines by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!]
- berserker_rage_killed_enemy_no_trait_v9_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] was strangled with [TARGET_CHARACTER.GetHerHis] own intestines by the [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: berserker_rage_killed_enemy_no_trait_v9_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] strangled [TARGET_CHARACTER.GetShortUINameNoTooltip] with [TARGET_CHARACTER.GetHerHis] own intestines!]
- berserker_rage_killed_enemy_no_trait_v9_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] strangled [TARGET_CHARACTER.GetShortUINameNoTooltip] with [TARGET_CHARACTER.GetHerHis] own intestines!"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v1_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was decapitated [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- shieldmaiden_skill_killed_enemy_no_trait_v1_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was decapitated [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v1_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] decapitated [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- shieldmaiden_skill_killed_enemy_no_trait_v1_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] decapitated [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v2_enemy_player [AGOT: $berserker_rage_killed_enemy_no_trait_v2_enemy$]
+
+ berserker_rage_killed_enemy_no_trait_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafasını kopardı!"
+
+ berserker_rage_no_enemy_enemy_player:0 "Düşman $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], askerlerimizin arasında azgınca saldırdı ve [GetTrait('berserker').GetName( GetNullCharacter )] oldu!"
+
+ berserker_rage_no_enemy_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], düşman askerlerinin arasında azgınca saldırdı ve [GetTrait('berserker').GetName( GetNullCharacter )] oldu!"
+
+ berserker_rage_killed_enemy_no_trait_v2_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından ikiye bölündü!"
+
+ berserker_rage_killed_enemy_no_trait_v2_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i ikiye böldü!"
+
+ berserker_rage_killed_enemy_no_trait_v3_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından vahşice parçalandı!"
+
+ berserker_rage_killed_enemy_no_trait_v3_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i vahşice parçaladı!"
+
+ berserker_rage_killed_enemy_no_trait_v4_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından uzuv uzuv parçalandı!"
+
+ berserker_rage_killed_enemy_no_trait_v4_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i uzuv uzuv parçaladı!"
+
+ berserker_rage_killed_enemy_no_trait_v5_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından parçalara ayrıldı!"
+
+ berserker_rage_killed_enemy_no_trait_v5_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i parçalara ayırdı!"
+
+ berserker_rage_killed_enemy_no_trait_v6_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kalbi, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından söküldü!"
+
+ berserker_rage_killed_enemy_no_trait_v6_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kalbini söktü!"
+
+ berserker_rage_killed_enemy_no_trait_v7_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] kalbi, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ona bağırınca durdu!"
+
+ berserker_rage_killed_enemy_no_trait_v7_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], kudretli bir kükremeyle [TARGET_CHARACTER.GetShortUINameNoTooltip]'i korkudan öldürdü!"
+
+ berserker_rage_killed_enemy_no_trait_v8_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafatası, [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından yarıldı!"
+
+ berserker_rage_killed_enemy_no_trait_v8_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafatasını yardı!"
+
+ berserker_rage_killed_enemy_no_trait_v9_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip], [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] tarafından kendi bağırsaklarıyla boğuldu!"
+
+ berserker_rage_killed_enemy_no_trait_v9_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i kendi bağırsaklarıyla boğdu!"
+
+ shieldmaiden_skill_killed_enemy_no_trait_v1_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip]'in kafası uçuruldu!"
+
+ shieldmaiden_skill_killed_enemy_no_trait_v1_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'in kafasını uçurdu!"
+
  shieldmaiden_skill_killed_enemy_no_trait_v2_enemy_player:0 "$berserker_rage_killed_enemy_no_trait_v2_enemy$"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v2_friendly_player [AGOT: $berserker_rage_killed_enemy_no_trait_v2_friendly$]
+
  shieldmaiden_skill_killed_enemy_no_trait_v2_friendly_player:0 "$berserker_rage_killed_enemy_no_trait_v2_friendly$"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v3_enemy_player [AGOT: $berserker_rage_killed_enemy_no_trait_v3_enemy$]
+
  shieldmaiden_skill_killed_enemy_no_trait_v3_enemy_player:0 "$berserker_rage_killed_enemy_no_trait_v3_enemy$"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v3_friendly_player [AGOT: $berserker_rage_killed_enemy_no_trait_v3_friendly$]
+
  shieldmaiden_skill_killed_enemy_no_trait_v3_friendly_player:0 "$berserker_rage_killed_enemy_no_trait_v3_friendly$"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v4_enemy_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was piteously cut down [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- shieldmaiden_skill_killed_enemy_no_trait_v4_enemy_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] was piteously cut down [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v4_friendly_player [AGOT: Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] piteously cut down [TARGET_CHARACTER.GetShortUINameNoTooltip]!]
- shieldmaiden_skill_killed_enemy_no_trait_v4_friendly_player:0 "Our $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] piteously cut down [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v5_enemy_player [AGOT: $berserker_rage_killed_enemy_no_trait_v5_enemy$]
+
+ shieldmaiden_skill_killed_enemy_no_trait_v4_enemy_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip] tarafından acınası biçimde katledildi!"
+
+ shieldmaiden_skill_killed_enemy_no_trait_v4_friendly_player:0 "Bizim $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip], [TARGET_CHARACTER.GetShortUINameNoTooltip]'i acınası biçimde katletti!"
+
  shieldmaiden_skill_killed_enemy_no_trait_v5_enemy_player:0 "$berserker_rage_killed_enemy_no_trait_v5_enemy$"
-### TODO NOT-IN-ST: shieldmaiden_skill_killed_enemy_no_trait_v5_friendly_player [AGOT: $berserker_rage_killed_enemy_no_trait_v5_friendly$]
+
  shieldmaiden_skill_killed_enemy_no_trait_v5_friendly_player:0 "$berserker_rage_killed_enemy_no_trait_v5_friendly$"
