@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿l_english:
+﻿﻿﻿﻿﻿﻿﻿﻿﻿l_english:
 
  GetWarriorNickname_Blank:0 ""
 
@@ -15,11 +15,11 @@
  GetWarriorNickname_Reaver:0 " Yağmacı"
 
  GetWarriorNickname_Maid:0 " Bakire"
-### TODO NOT-IN-ST: GetWarriorNickname_LordLady [AGOT: [Character.GetLadyLord|U]]
+
  GetWarriorNickname_LordLady:0 " [Character.GetLadyLord|U]"
-### TODO NOT-IN-ST: GetWarriorNickname_PrincePrincess [AGOT: [Character.Custom('GetPrincessPrince')|U]]
+
  GetWarriorNickname_PrincePrincess:0 " [Character.Custom('GetPrincessPrince')|U]"
-### TODO NOT-IN-ST: GetWarriorNickname_KingQueen [AGOT: [Character.Custom('GetQueenKing')|U]]
+
  GetWarriorNickname_KingQueen:0 " [Character.Custom('GetQueenKing')|U]"
 
  nick_the_black_unique:0 "Kara  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
@@ -27,8 +27,8 @@
  nick_the_white_unique:0 "Beyaz  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_crazed_unique:0 "Deli  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
-### TODO NOT-IN-ST: nick_the_wild_unique [AGOT: the Wrathful [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
- nick_the_wild_unique:0 "the Wrathful [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+
+ nick_the_wild_unique:0 "Gazap Dolu [[GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_quiet_unique:0 "Sessiz  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
@@ -37,20 +37,20 @@
  nick_the_big_unique:0 "Büyük  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_strong_unique:0 "Güçlü  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
-### TODO NOT-IN-ST: nick_the_fair_unique [AGOT: the Fair [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
- nick_the_fair_unique:0 "the Fair [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
-### TODO NOT-IN-ST: nick_the_ugly_unique [AGOT: the Ugly [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
- nick_the_ugly_unique:0 "the Ugly [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+
+ nick_the_fair_unique:0 "Güzel [[GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+
+ nick_the_ugly_unique:0 "Çirkin [[GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_small_unique:0 "Küçük  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_wise_unique:0 "Bilge  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
-### TODO NOT-IN-ST: nick_the_dumb_unique [AGOT: the Dumb [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
- nick_the_dumb_unique:0 "the Dumb [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+
+ nick_the_dumb_unique:0 "Aptal [[GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_dark_unique:0 "Kara  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
-### TODO NOT-IN-ST: nick_the_weak_unique [AGOT: the Weak [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
- nick_the_weak_unique:0 "the Weak [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+
+ nick_the_weak_unique:0 "Zayıf [[GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_silver_unique:0 "Gümüş  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
@@ -59,12 +59,12 @@
  nick_the_laughing_unique:0 "Gülen  [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
 
  nick_the_unique_daughter:0 "Üstadın Kızı"
-### TODO NOT-IN-ST: nick_the_uniqueknight [AGOT: the [GetGlobalVariable('maester').Char.GetNameNoTooltip] [CHARACTER.Custom('GetWarriorNickname')]]
- nick_the_uniqueknight:0 "the [GetGlobalVariable('maester').Char.GetNameNoTooltip] [CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_the_uniqueknight:0 "Üstat [CHARACTER.Custom('GetWarriorNickname')]"
 
  agot_nicknames.9000.t:0 "Hanedan Takma Adı"
-### TODO NOT-IN-ST: agot_nicknames.9000_desc [AGOT: The great houses boast of their wolves, their lions, their krakens and bridges, each convinced their sigil marks them as unmatched. Yet their symbols are no more than boast and bluster.\n\nOur house shall be different. Our banner will inspire fear in our foes and awe in our allies. From this day forth, House [ROOT.Char.GetHouse.GetName] shall be remembered for its association with...\n\n #help The world selected will be used in several templates to provide Dynastic Nicknames for your House.\n\ne.g. 'The Black X' 'The Red X'\n\nFor the best results select a noun!#]
- agot_nicknames.9000_desc:0 "The great houses boast of their wolves, their lions, their krakens and bridges, each convinced their sigil marks them as unmatched. Yet their symbols are no more than boast and bluster.\n\nOur house shall be different. Our banner will inspire fear in our foes and awe in our allies. From this day forth, House [ROOT.Char.GetHouse.GetName] shall be remembered for its association with...\n\n #help The world selected will be used in several templates to provide Dynastic Nicknames for your House.\n\ne.g. 'The Black X' 'The Red X'\n\nFor the best results select a noun!#"
+
+ agot_nicknames.9000_desc:0 "Büyük haneler kurtlarıyla, aslanlarıyla, krakenleriyle ve köprüleriyle övünür; her biri armasının onları eşsiz kıldığına inanır. Oysa sembolleri övünçten ve böbürlenmekten başka bir şey değildir.\n\nBizim hanemiz farklı olacak. Sancağımız düşmanlarımıza korku, müttefiklerimize hayranlık aşılayacak. Bugünden itibaren [ROOT.Char.GetHouse.GetName] Hanesi, ilişkilendirildiği şeyle hatırlanacak...\n\n #help Seçilen kelime, Hanenize Hanedan Takma Adları sağlamak için çeşitli şablonlarda kullanılacaktır.\n\nÖrn. 'Kara X' 'Kızıl X'\n\nEn iyi sonuç için bir isim seçin!#"
 
  Dynasty_Nickname_Text:0 "[GetGlobalVariable('maester').Char.GetLocalizedText('dynastic_nickname')]"
 
@@ -75,10 +75,10 @@
  nick_agot_the_white_lion:0 "Beyaz Aslan"
 
  nick_agot_the_crazed_lion:0 "Deli Aslan"
-### TODO NOT-IN-ST: nick_agot_the_wild_lion [AGOT: the Wroth Lion]
- nick_agot_the_wild_lion:0 "the Wroth Lion"
-### TODO NOT-IN-ST: nick_agot_the_quiet_lion [AGOT: the Sleeping Lion]
- nick_agot_the_quiet_lion:0 "the Sleeping Lion"
+
+ nick_agot_the_wild_lion:0 "Gazap Dolu Aslan"
+
+ nick_agot_the_quiet_lion:0 "Uyuyan Aslan"
 
  nick_agot_the_red_lion:0 "Kızıl Aslan"
 
@@ -87,78 +87,78 @@
  nick_agot_the_strong_lion:0 "Güçlü Aslan"
 
  nick_agot_the_fair_lion:0 "Altın Aslan"
-### TODO NOT-IN-ST: nick_agot_the_ugly_lion [AGOT: the Mangy Lion]
- nick_agot_the_ugly_lion:0 "the Mangy Lion"
+
+ nick_agot_the_ugly_lion:0 "Uyuz Aslan"
 
  nick_agot_the_small_lion:0 "Küçük Aslan"
 
  nick_agot_the_wise_lion:0 "Parlak Aslan"
-### TODO NOT-IN-ST: nick_agot_the_dumb_lion [AGOT: the Dumb Lion]
- nick_agot_the_dumb_lion:0 "the Dumb Lion"
+
+ nick_agot_the_dumb_lion:0 "Aptal Aslan"
 
  nick_agot_the_dark_lion:0 "Kara Aslan"
-### TODO NOT-IN-ST: nick_agot_the_weak_lion [AGOT: the Lame Lion]
- nick_agot_the_weak_lion:0 "the Lame Lion"
-### TODO NOT-IN-ST: nick_agot_the_toothless_lion [AGOT: the Toothless Lion]
- nick_agot_the_toothless_lion:0 "the Toothless Lion"
+
+ nick_agot_the_weak_lion:0 "Topal Aslan"
+
+ nick_agot_the_toothless_lion:0 "Dişsiz Aslan"
 
  nick_agot_the_silver_lion:0 "Gümüş Aslan"
 
  nick_agot_the_old_lion:0 "Yaşlı Aslan"
-### TODO NOT-IN-ST: nick_agot_the_laughing_lion [AGOT: the Laughing Lion]
- nick_agot_the_laughing_lion:0 "the Laughing Lion"
-### TODO NOT-IN-ST: nick_agot_the_lion_daughter [AGOT: the Lion's Daughter]
- nick_agot_the_lion_daughter:0 "the Lion's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_lionknight [AGOT: the Lion[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_lionknight:0 "the Lion[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_lion:0 "Gülen Aslan"
+
+ nick_agot_the_lion_daughter:0 "Aslanin Kızı"
+
+ nick_agot_the_lionknight:0 "Aslan [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_crimsonknight:0 "Kızıl [CHARACTER.Custom('GetWarriorNickname')]"
-### TODO NOT-IN-ST: nick_agot_the_chequyknight [AGOT: the Chequy[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_chequyknight:0 "the Chequy[CHARACTER.Custom('GetWarriorNickname')]"
-### TODO NOT-IN-ST: nick_agot_the_lionheart [AGOT: the Lionheart]
- nick_agot_the_lionheart:0 "the Lionheart"
-### TODO NOT-IN-ST: nick_agot_the_lioness [AGOT: the Lioness]
- nick_agot_the_lioness:0 "the Lioness"
+
+ nick_agot_the_chequyknight:0 "Damalı [CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_lionheart:0 "Aslan Yürek"
+
+ nick_agot_the_lioness:0 "Dişi Aslan"
 
  nick_agot_the_black_wolf:0 "Kara Kurt"
 
  nick_agot_the_white_wolf:0 "Beyaz Kurt"
-### TODO NOT-IN-ST: nick_agot_the_crazed_wolf [AGOT: the Rabid Wolf]
- nick_agot_the_crazed_wolf:0 "the Rabid Wolf"
-### TODO NOT-IN-ST: nick_agot_the_wild_wolf [AGOT: the Hungry Wolf]
- nick_agot_the_wild_wolf:0 "the Hungry Wolf"
-### TODO NOT-IN-ST: nick_agot_the_quiet_wolf [AGOT: the Quiet Wolf]
- nick_agot_the_quiet_wolf:0 "the Quiet Wolf"
+
+ nick_agot_the_crazed_wolf:0 "Kuduz Kurt"
+
+ nick_agot_the_wild_wolf:0 "Aç Kurt"
+
+ nick_agot_the_quiet_wolf:0 "Sessiz Kurt"
 
  nick_agot_the_red_wolf:0 "Kızıl Kurt"
 
  nick_agot_the_big_wolf:0 "Büyük Kurt"
 
  nick_agot_the_strong_wolf:0 "Ulukurt"
-### TODO NOT-IN-ST: nick_agot_the_fair_wolf [AGOT: the Fair Wolf]
- nick_agot_the_fair_wolf:0 "the Fair Wolf"
-### TODO NOT-IN-ST: nick_agot_the_ugly_wolf [AGOT: the Mangy Wolf]
- nick_agot_the_ugly_wolf:0 "the Mangy Wolf"
-### TODO NOT-IN-ST: nick_agot_the_small_wolf [AGOT: the Runt]
- nick_agot_the_small_wolf:0 "the Runt"
+
+ nick_agot_the_fair_wolf:0 "Güzel Kurt"
+
+ nick_agot_the_ugly_wolf:0 "Uyuz Kurt"
+
+ nick_agot_the_small_wolf:0 "Bodur"
 
  nick_agot_the_wise_wolf:0 "Bilge Kurt"
-### TODO NOT-IN-ST: nick_agot_the_dumb_wolf [AGOT: the Slow Wolf]
- nick_agot_the_dumb_wolf:0 "the Slow Wolf"
+
+ nick_agot_the_dumb_wolf:0 "Yavaş Kurt"
 
  nick_agot_the_dark_wolf:0 "Karakurt"
-### TODO NOT-IN-ST: nick_agot_the_weak_wolf [AGOT: the Lame Wolf]
- nick_agot_the_weak_wolf:0 "the Lame Wolf"
+
+ nick_agot_the_weak_wolf:0 "Topal Kurt"
 
  nick_agot_the_silver_wolf:0 "Gümüş Kurt"
 
  nick_agot_the_old_wolf:0 "Yaşlı Kurt"
-### TODO NOT-IN-ST: nick_agot_the_laughing_wolf [AGOT: the Howling Wolf]
- nick_agot_the_laughing_wolf:0 "the Howling Wolf"
-### TODO NOT-IN-ST: nick_agot_the_wolf_daughter [AGOT: the She-Wolf]
- nick_agot_the_wolf_daughter:0 "the She-Wolf"
-### TODO NOT-IN-ST: nick_agot_the_wolfknight [AGOT: the Wolf[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_wolfknight:0 "the Wolf[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_wolf:0 "Uluyan Kurt"
+
+ nick_agot_the_wolf_daughter:0 "Dişi Kurt"
+
+ nick_agot_the_wolfknight:0 "Kurt [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_dragon:0 "Kara Ejderha"
 
@@ -167,94 +167,94 @@
  nick_agot_the_crazed_dragon:0 "Deli Ejderha"
 
  nick_agot_the_wild_dragon:0 "Alevli Ejderha"
-### TODO NOT-IN-ST: nick_agot_the_quiet_dragon [AGOT: the Sleeping Dragon]
- nick_agot_the_quiet_dragon:0 "the Sleeping Dragon"
+
+ nick_agot_the_quiet_dragon:0 "Uyuyan Ejderha"
 
  nick_agot_the_red_dragon:0 "Kızıl Ejderha"
 
  nick_agot_the_big_dragon:0 "Büyük Ejderha"
-### TODO NOT-IN-ST: nick_agot_the_strong_dragon [AGOT: Strongdragon]
- nick_agot_the_strong_dragon:0 "Strongdragon"
+
+ nick_agot_the_strong_dragon:0 "Güçlü Ejderha"
 
  nick_agot_the_fair_dragon:0 "Aslanağzı"
 
  nick_agot_the_fair_dragon_2:0 "Güneşpul"
-### TODO NOT-IN-ST: nick_agot_the_fair_dragon_3 [AGOT: the Dawn Dragon]
- nick_agot_the_fair_dragon_3:0 "the Dawn Dragon"
+
+ nick_agot_the_fair_dragon_3:0 "Şafak Ejderhası"
 
  nick_agot_the_fair_dragon_4:0 "Parlakpul" #Brightflame esque without stepping on his drip
-### TODO NOT-IN-ST: nick_agot_the_ugly_dragon [AGOT: the Scaleless]
- nick_agot_the_ugly_dragon:0 "the Scaleless"
-### TODO NOT-IN-ST: nick_agot_the_small_dragon [AGOT: the Wyrm]
- nick_agot_the_small_dragon:0 "the Wyrm"
+
+ nick_agot_the_ugly_dragon:0 "Pulsuz"
+
+ nick_agot_the_small_dragon:0 "Ejder"
 
  nick_agot_the_wise_dragon:0 "Altın Ejderha"
-### TODO NOT-IN-ST: nick_agot_the_dumb_dragon [AGOT: the Lumbering Dragon]
- nick_agot_the_dumb_dragon:0 "the Lumbering Dragon"
-### TODO NOT-IN-ST: nick_agot_the_dark_dragon [AGOT: the Wyvern]
- nick_agot_the_dark_dragon:0 "the Wyvern"
-### TODO NOT-IN-ST: nick_agot_the_weak_dragon [AGOT: the Hatchling]
- nick_agot_the_weak_dragon:0 "the Hatchling"
+
+ nick_agot_the_dumb_dragon:0 "Ağır Ağır Yürüyen Ejderha"
+
+ nick_agot_the_dark_dragon:0 "Kanatlı Ejder"
+
+ nick_agot_the_weak_dragon:0 "Yavru"
 
  nick_agot_the_silver_dragon:0 "Gümüş Ejderha"
 
  nick_agot_the_old_dragon:0 "Yaşlı Ejderha"
-### TODO NOT-IN-ST: nick_agot_the_laughing_dragon [AGOT: the Laughing Dragon]
- nick_agot_the_laughing_dragon:0 "the Laughing Dragon"
-### TODO NOT-IN-ST: nick_agot_the_dragon_daughter [AGOT: the Dragon's Daughter]
- nick_agot_the_dragon_daughter:0 "the Dragon's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_dragonknight [AGOT: the Dragon[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_dragonknight:0 "the Dragon[CHARACTER.Custom('GetWarriorNickname')]"
-### TODO NOT-IN-ST: nick_agot_the_shedragon [AGOT: the She-Dragon]
- nick_agot_the_shedragon:0 "the She-Dragon"
+
+ nick_agot_the_laughing_dragon:0 "Gülen Ejderha"
+
+ nick_agot_the_dragon_daughter:0 "Ejderhanın Kızı"
+
+ nick_agot_the_dragonknight:0 "Ejderha [CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_shedragon:0 "Dişi Ejderha"
 
  nick_agot_the_black_fire:0 "Kara Ateş"
 
  nick_agot_the_white_fire:0 "Beyaz Alev"
 
  nick_agot_the_crazed_fire:0 "Deli Alev"
-### TODO NOT-IN-ST: nick_agot_the_wild_fire [AGOT: Wildfire]
- nick_agot_the_wild_fire:0 "Wildfire"
-### TODO NOT-IN-ST: nick_agot_the_quiet_fire [AGOT: the Smouldering Flame]
- nick_agot_the_quiet_fire:0 "the Smouldering Flame"
+
+ nick_agot_the_wild_fire:0 "Orman Yangını"
+
+ nick_agot_the_quiet_fire:0 "Korlaşan Alev"
 
  nick_agot_the_red_fire:0 "Cehennem Ateşi"
 
  nick_agot_the_big_fire:0 "Büyük Alev"
-### TODO NOT-IN-ST: nick_agot_the_strong_fire [AGOT: Strongfire]
- nick_agot_the_strong_fire:0 "Strongfire"
+
+ nick_agot_the_strong_fire:0 "Güçlü Ateş"
 
  nick_agot_the_fair_fire:0 "Parlakalev"
-### TODO NOT-IN-ST: nick_agot_the_ugly_fire [AGOT: the Ugly Fire]
- nick_agot_the_ugly_fire:0 "the Ugly Fire"
-### TODO NOT-IN-ST: nick_agot_the_small_fire [AGOT: the Flicker]
- nick_agot_the_small_fire:0 "the Flicker"
-### TODO NOT-IN-ST: nick_agot_the_wise_fire [AGOT: the Spark]
- nick_agot_the_wise_fire:0 "the Spark"
-### TODO NOT-IN-ST: nick_agot_the_dumb_fire [AGOT: the Doused Flame]
- nick_agot_the_dumb_fire:0 "the Doused Flame"
+
+ nick_agot_the_ugly_fire:0 "Çirkin Ateş"
+
+ nick_agot_the_small_fire:0 "Titreme"
+
+ nick_agot_the_wise_fire:0 "Kıvılcım"
+
+ nick_agot_the_dumb_fire:0 "Söndürülmüş Alev"
 
  nick_agot_the_dark_fire:0 "Karaalev"
-### TODO NOT-IN-ST: nick_agot_the_weak_fire [AGOT: the Cinder]
- nick_agot_the_weak_fire:0 "the Cinder"
+
+ nick_agot_the_weak_fire:0 "Kor"
 
  nick_agot_the_silver_fire:0 "Gümüş Alev"
 
  nick_agot_the_old_fire:0 "Yaşlı Ateş"
-### TODO NOT-IN-ST: nick_agot_the_laughing_fire [AGOT: the Crackling Flame]
- nick_agot_the_laughing_fire:0 "the Crackling Flame"
-### TODO NOT-IN-ST: nick_agot_the_fire_daughter [AGOT: the Fire's Daughter]
- nick_agot_the_fire_daughter:0 "the Fire's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_fireknight [AGOT: the Fire[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_fireknight:0 "the Fire[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_fire:0 "Çıtırdayan Alev"
+
+ nick_agot_the_fire_daughter:0 "Ateşin Kızı"
+
+ nick_agot_the_fireknight:0 "Ateş [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_stag:0 "Kara Geyik"
 
  nick_agot_the_white_stag:0 "Beyaz Geyik"
 
  nick_agot_the_crazed_stag:0 "Deli Geyik"
-### TODO NOT-IN-ST: nick_agot_the_wild_stag [AGOT: the Bucking Stag]
- nick_agot_the_wild_stag:0 "the Bucking Stag"
+
+ nick_agot_the_wild_stag:0 "Şaha Kalkan Geyik"
 
  nick_agot_the_quiet_stag:0 "Sessiz Geyik"
 
@@ -263,68 +263,68 @@
  nick_agot_the_big_stag:0 "Büyük Geyik"
 
  nick_agot_the_strong_stag:0 "Güçlügeyik"
-### TODO NOT-IN-ST: nick_agot_the_fair_stag [AGOT: the Noble Stag]
- nick_agot_the_fair_stag:0 "the Noble Stag"
-### TODO NOT-IN-ST: nick_agot_the_ugly_stag [AGOT: the Ugly Stag]
- nick_agot_the_ugly_stag:0 "the Ugly Stag"
-### TODO NOT-IN-ST: nick_agot_the_small_stag [AGOT: the Deerling]
- nick_agot_the_small_stag:0 "the Deerling"
-### TODO NOT-IN-ST: nick_agot_the_wise_stag [AGOT: the Sage Stag]
- nick_agot_the_wise_stag:0 "the Sage Stag"
-### TODO NOT-IN-ST: nick_agot_the_dumb_stag [AGOT: the Slow Stag]
- nick_agot_the_dumb_stag:0 "the Slow Stag"
+
+ nick_agot_the_fair_stag:0 "Soylu Geyik"
+
+ nick_agot_the_ugly_stag:0 "Çirkin Geyik"
+
+ nick_agot_the_small_stag:0 "Geyik Yavrusu"
+
+ nick_agot_the_wise_stag:0 "Bilge Geyik"
+
+ nick_agot_the_dumb_stag:0 "Yavaş Geyik"
 
  nick_agot_the_dark_stag:0 "Karageyik"
-### TODO NOT-IN-ST: nick_agot_the_weak_stag [AGOT: the Weak Stag]
- nick_agot_the_weak_stag:0 "the Weak Stag"
+
+ nick_agot_the_weak_stag:0 "Zayıf Geyik"
 
  nick_agot_the_silver_stag:0 "Gümüş Geyik"
 
  nick_agot_the_old_stag:0 "Yaşlı Geyik"
-### TODO NOT-IN-ST: nick_agot_the_laughing_stag [AGOT: the Laughing Stag]
- nick_agot_the_laughing_stag:0 "the Laughing Stag"
-### TODO NOT-IN-ST: nick_agot_the_stag_daughter [AGOT: the Doe]
- nick_agot_the_stag_daughter:0 "the Doe"
-### TODO NOT-IN-ST: nick_agot_the_stagknight [AGOT: the Stag[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_stagknight:0 "the Stag[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_stag:0 "Gülen Geyik"
+
+ nick_agot_the_stag_daughter:0 "Dişi Geyik"
+
+ nick_agot_the_stagknight:0 "Geyik [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_storm:0 "Kara Fırtına"
 
  nick_agot_the_white_storm:0 "Beyaz Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_crazed_storm [AGOT: the Howling Storm]
- nick_agot_the_crazed_storm:0 "the Howling Storm"
-### TODO NOT-IN-ST: nick_agot_the_wild_storm [AGOT: the Raging Storm]
- nick_agot_the_wild_storm:0 "the Raging Storm"
-### TODO NOT-IN-ST: nick_agot_the_quiet_storm [AGOT: the Quiet Storm]
- nick_agot_the_quiet_storm:0 "the Quiet Storm"
-### TODO NOT-IN-ST: nick_agot_the_red_storm [AGOT: the Maelstrom]
- nick_agot_the_red_storm:0 "the Maelstrom"
-### TODO NOT-IN-ST: nick_agot_the_big_storm [AGOT: the Hurricane]
- nick_agot_the_big_storm:0 "the Hurricane"
+
+ nick_agot_the_crazed_storm:0 "Uluyan Fırtına"
+
+ nick_agot_the_wild_storm:0 "Azgın Fırtına"
+
+ nick_agot_the_quiet_storm:0 "Sessiz Fırtına"
+
+ nick_agot_the_red_storm:0 "Girdap"
+
+ nick_agot_the_big_storm:0 "Kasırga"
 
  nick_agot_the_strong_storm:0 "Güçlüfırtına"
 
  nick_agot_the_fair_storm:0 "Güzel Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_ugly_storm [AGOT: the Fart]
- nick_agot_the_ugly_storm:0 "the Fart"
-### TODO NOT-IN-ST: nick_agot_the_small_storm [AGOT: the Gust]
- nick_agot_the_small_storm:0 "the Gust"
+
+ nick_agot_the_ugly_storm:0 "Osuruk"
+
+ nick_agot_the_small_storm:0 "Rüzgâr Püskürtüsü"
 
  nick_agot_the_wise_storm:0 "Bilge Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_dumb_storm [AGOT: the Drizzle]
- nick_agot_the_dumb_storm:0 "the Drizzle"
+
+ nick_agot_the_dumb_storm:0 "Çisenti"
 
  nick_agot_the_dark_storm:0 "Karafırtına"
-### TODO NOT-IN-ST: nick_agot_the_weak_storm [AGOT: the Gentle Breeze]
- nick_agot_the_weak_storm:0 "the Gentle Breeze"
+
+ nick_agot_the_weak_storm:0 "Nazik Meltem"
 
  nick_agot_the_silver_storm:0 "Gümüş Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_old_storm [AGOT: the Old Winds]
- nick_agot_the_old_storm:0 "the Old Winds"
-### TODO NOT-IN-ST: nick_agot_the_laughing_storm [AGOT: the Laughing Storm]
- nick_agot_the_laughing_storm:0 "the Laughing Storm"
-### TODO NOT-IN-ST: nick_agot_the_storm_daughter [AGOT: the Storm's Daughter]
- nick_agot_the_storm_daughter:0 "the Storm's Daughter"
+
+ nick_agot_the_old_storm:0 "Yaşlı Rüzgârlar"
+
+ nick_agot_the_laughing_storm:0 "Gülen Fırtına"
+
+ nick_agot_the_storm_daughter:0 "Fırtınain Kızı"
 
  nick_agot_the_stormknight:0 "Fırtına [CHARACTER.Custom('GetWarriorNickname')]"
 
@@ -333,204 +333,204 @@
  nick_agot_the_white_spear:0 "Beyaz Mızrak"
 
  nick_agot_the_crazed_spear:0 "Deli Mızrak"
-### TODO NOT-IN-ST: nick_agot_the_wild_spear [AGOT: the Lashing Spear]
- nick_agot_the_wild_spear:0 "the Lashing Spear"
+
+ nick_agot_the_wild_spear:0 "Kamçılayan Mızrak"
 
  nick_agot_the_quiet_spear:0 "Sessiz Mızrak"
 
  nick_agot_the_red_spear:0 "Kızıl Mızrak"
-### TODO NOT-IN-ST: nick_agot_the_big_spear [AGOT: the Pollax]
- nick_agot_the_big_spear:0 "the Pollax"
+
+ nick_agot_the_big_spear:0 "Baltalı Mızrak"
 
  nick_agot_the_strong_spear:0 "Büyük Mızrak"
-### TODO NOT-IN-ST: nick_agot_the_fair_spear [AGOT: the Noble Spear]
- nick_agot_the_fair_spear:0 "the Noble Spear"
+
+ nick_agot_the_fair_spear:0 "Soylu Mızrak"
 
  nick_agot_the_ugly_spear:0 "Eğik Mızrak"
 
  nick_agot_the_small_spear:0 "Bıçak"
-### TODO NOT-IN-ST: nick_agot_the_wise_spear [AGOT: the Sage Spear]
- nick_agot_the_wise_spear:0 "the Sage Spear"
-### TODO NOT-IN-ST: nick_agot_the_dumb_spear [AGOT: the Blunt Spear]
- nick_agot_the_dumb_spear:0 "the Blunt Spear"
+
+ nick_agot_the_wise_spear:0 "Bilge Mızrak"
+
+ nick_agot_the_dumb_spear:0 "Küt Mızrak"
 
  nick_agot_the_dark_spear:0 "Karamızrak"
-### TODO NOT-IN-ST: nick_agot_the_weak_spear [AGOT: the Brittle Spear]
- nick_agot_the_weak_spear:0 "the Brittle Spear"
+
+ nick_agot_the_weak_spear:0 "Kırılgan Mızrak"
 
  nick_agot_the_silver_spear:0 "Gümüş Mızrak"
 
  nick_agot_the_old_spear:0 "Yaşlı Mızrak"
-### TODO NOT-IN-ST: nick_agot_the_laughing_spear [AGOT: the Laughing Spear]
- nick_agot_the_laughing_spear:0 "the Laughing Spear"
-### TODO NOT-IN-ST: nick_agot_the_spear_daughter [AGOT: the Spear's Daughter]
- nick_agot_the_spear_daughter:0 "the Spear's Daughter"
+
+ nick_agot_the_laughing_spear:0 "Gülen Mızrak"
+
+ nick_agot_the_spear_daughter:0 "Mızrakin Kızı"
 
  nick_agot_the_spearknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Spears"
 
  nick_agot_the_black_sun:0 "Kara Güneş"
 
  nick_agot_the_white_sun:0 "Beyaz Güneş"
-### TODO NOT-IN-ST: nick_agot_the_crazed_sun [AGOT: the Scorching Sun]
- nick_agot_the_crazed_sun:0 "the Scorching Sun"
-### TODO NOT-IN-ST: nick_agot_the_wild_sun [AGOT: the Blistering Spear]
- nick_agot_the_wild_sun:0 "the Blistering Spear"
+
+ nick_agot_the_crazed_sun:0 "Kavurucu Güneş"
+
+ nick_agot_the_wild_sun:0 "Yakıcı Mızrak"
 
  nick_agot_the_quiet_sun:0 "Sessiz Güneş"
 
  nick_agot_the_red_sun:0 "Kızıl Güneş"
-### TODO NOT-IN-ST: nick_agot_the_big_sun [AGOT: the Sun]
- nick_agot_the_big_sun:0 "the Sun" #Like it's pretty big already
+
+ nick_agot_the_big_sun:0 "Güneş" #Like it's pretty big already
 
  nick_agot_the_strong_sun:0 "Güçlügüneş"
 
  nick_agot_the_fair_sun:0 "Parlak Güneş"
-### TODO NOT-IN-ST: nick_agot_the_ugly_sun [AGOT: the Ugly Sun]
- nick_agot_the_ugly_sun:0 "the Ugly Sun"
-### TODO NOT-IN-ST: nick_agot_the_small_sun [AGOT: the Candle]
- nick_agot_the_small_sun:0 "the Candle"
-### TODO NOT-IN-ST: nick_agot_the_wise_sun [AGOT: the Sage Sun]
- nick_agot_the_wise_sun:0 "the Sage Sun"
-### TODO NOT-IN-ST: nick_agot_the_dumb_sun [AGOT: the Dull Sun]
- nick_agot_the_dumb_sun:0 "the Dull Sun"
+
+ nick_agot_the_ugly_sun:0 "Çirkin Güneş"
+
+ nick_agot_the_small_sun:0 "Mum"
+
+ nick_agot_the_wise_sun:0 "Bilge Güneş"
+
+ nick_agot_the_dumb_sun:0 "Donuk Güneş"
 
  nick_agot_the_dark_sun:0 "Karagüneş"
-### TODO NOT-IN-ST: nick_agot_the_weak_sun [AGOT: the Weak Sun]
- nick_agot_the_weak_sun:0 "the Weak Sun"
+
+ nick_agot_the_weak_sun:0 "Zayıf Güneş"
 
  nick_agot_the_silver_sun:0 "Gümüş Güneş"
 
  nick_agot_the_old_sun:0 "Yaşlı Güneş"
-### TODO NOT-IN-ST: nick_agot_the_laughing_sun [AGOT: the Smiling Sun]
- nick_agot_the_laughing_sun:0 "the Smiling Sun"
-### TODO NOT-IN-ST: nick_agot_the_sun_daughter [AGOT: the Sun's Daughter]
- nick_agot_the_sun_daughter:0 "the Sun's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_sunknight [AGOT: the Sun[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_sunknight:0 "the Sun[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_sun:0 "Gülümseyen Güneş"
+
+ nick_agot_the_sun_daughter:0 "Güneşin Kızı"
+
+ nick_agot_the_sunknight:0 "Güneş [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_sunknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Sun"
 
  nick_agot_the_black_rose:0 "Kara Gül"
 
  nick_agot_the_white_rose:0 "Beyaz Gül"
-### TODO NOT-IN-ST: nick_agot_the_crazed_rose [AGOT: Tanglethorn]
- nick_agot_the_crazed_rose:0 "Tanglethorn"
+
+ nick_agot_the_crazed_rose:0 "Dolaşık Diken"
 
  nick_agot_the_wild_rose:0 "Diken"
 
  nick_agot_the_quiet_rose:0 "Sessiz Gül"
 
  nick_agot_the_red_rose:0 "Kızıl Gül" #Bloody Rose?
-### TODO NOT-IN-ST: nick_agot_the_big_rose [AGOT: the Rosebush]
- nick_agot_the_big_rose:0 "the Rosebush"
+
+ nick_agot_the_big_rose:0 "Gül Fidanı"
 
  nick_agot_the_strong_rose:0 "Güçlügül"
-### TODO NOT-IN-ST: nick_agot_the_fair_rose [AGOT: the Summer Rose]
- nick_agot_the_fair_rose:0 "the Summer Rose"
-### TODO NOT-IN-ST: nick_agot_the_ugly_rose [AGOT: the Weed]
- nick_agot_the_ugly_rose:0 "the Weed"
-### TODO NOT-IN-ST: nick_agot_the_small_rose [AGOT: the Rosebud]
- nick_agot_the_small_rose:0 "the Rosebud"
+
+ nick_agot_the_fair_rose:0 "Yaz Gül"
+
+ nick_agot_the_ugly_rose:0 "Yaban Otu"
+
+ nick_agot_the_small_rose:0 "Gül Tomurcuğu"
 
  nick_agot_the_wise_rose:0 "Bilge Gül"
-### TODO NOT-IN-ST: nick_agot_the_dumb_rose [AGOT: the Dull Rose]
- nick_agot_the_dumb_rose:0 "the Dull Rose"
-### TODO NOT-IN-ST: nick_agot_the_dark_rose [AGOT: the Violet]
- nick_agot_the_dark_rose:0 "the Violet"
-### TODO NOT-IN-ST: nick_agot_the_weak_rose [AGOT: the Wilting Rose]
- nick_agot_the_weak_rose:0 "the Wilting Rose"
+
+ nick_agot_the_dumb_rose:0 "Donuk Gül"
+
+ nick_agot_the_dark_rose:0 "Menekşe"
+
+ nick_agot_the_weak_rose:0 "Solgun Gül"
 
  nick_agot_the_silver_rose:0 "Gümüş Gül"
 
  nick_agot_the_old_rose:0 "Yaşlı Gül"
 
  nick_agot_the_laughing_rose:0 "Açan Gül"
-### TODO NOT-IN-ST: nick_agot_the_rose_daughter [AGOT: the Petal]
- nick_agot_the_rose_daughter:0 "the Petal"
+
+ nick_agot_the_rose_daughter:0 "Taç Yaprak"
 
  nick_agot_the_roseknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Flowers"
-### TODO NOT-IN-ST: nick_agot_the_black_fish [AGOT: the Blackfish]
- nick_agot_the_black_fish:0 "the Blackfish"
-### TODO NOT-IN-ST: nick_agot_the_white_fish [AGOT: the Whitefish]
- nick_agot_the_white_fish:0 "the Whitefish"
+
+ nick_agot_the_black_fish:0 "Kara Balık"
+
+ nick_agot_the_white_fish:0 "Beyaz Balık"
 
  nick_agot_the_crazed_fish:0 "Delibalık"
 
  nick_agot_the_wild_fish:0 "Barakuda"
-### TODO NOT-IN-ST: nick_agot_the_quiet_fish [AGOT: the Silent Swimmer]
- nick_agot_the_quiet_fish:0 "the Silent Swimmer"
-### TODO NOT-IN-ST: nick_agot_the_red_fish [AGOT: the Redfin]
- nick_agot_the_red_fish:0 "the Redfin"
-### TODO NOT-IN-ST: nick_agot_the_big_fish [AGOT: the Pike]
- nick_agot_the_big_fish:0 "the Pike"
+
+ nick_agot_the_quiet_fish:0 "Sessiz Yüzücü"
+
+ nick_agot_the_red_fish:0 "Kızıl Yüzgeç"
+
+ nick_agot_the_big_fish:0 "Turna Balığı"
 
  nick_agot_the_strong_fish:0 "Balık Oltası"
-### TODO NOT-IN-ST: nick_agot_the_strong_fish_2 [AGOT: the Sturgeon]
- nick_agot_the_strong_fish_2:0 "the Sturgeon"
-### TODO NOT-IN-ST: nick_agot_the_fair_fish [AGOT: the Goldfish]
- nick_agot_the_fair_fish:0 "the Goldfish"
-### TODO NOT-IN-ST: nick_agot_the_ugly_fish [AGOT: Troutface]
- nick_agot_the_ugly_fish:0 "Troutface"
-### TODO NOT-IN-ST: nick_agot_the_small_fish [AGOT: the Minnow]
- nick_agot_the_small_fish:0 "the Minnow"
-### TODO NOT-IN-ST: nick_agot_the_wise_fish [AGOT: the Fish of Knowledge]
- nick_agot_the_wise_fish:0 "the Fish of Knowledge"
-### TODO NOT-IN-ST: nick_agot_the_dumb_fish [AGOT: the Guppy]
- nick_agot_the_dumb_fish:0 "the Guppy"
+
+ nick_agot_the_strong_fish_2:0 "Mersin Balığı"
+
+ nick_agot_the_fair_fish:0 "Japon Balığı"
+
+ nick_agot_the_ugly_fish:0 "Alabalık Yüzlü"
+
+ nick_agot_the_small_fish:0 "Golyan Balığı"
+
+ nick_agot_the_wise_fish:0 "Bilginin Balığı"
+
+ nick_agot_the_dumb_fish:0 "Lepistes"
 
  nick_agot_the_dark_fish:0 "Karabalık"
-### TODO NOT-IN-ST: nick_agot_the_weak_fish [AGOT: the Floundering Fish]
- nick_agot_the_weak_fish:0 "the Floundering Fish"
+
+ nick_agot_the_weak_fish:0 "Çırpınan Balık"
 
  nick_agot_the_silver_fish:0 "Gümüşbalık"
-### TODO NOT-IN-ST: nick_agot_the_old_fish [AGOT: the Old Fisher]
- nick_agot_the_old_fish:0 "the Old Fisher"
+
+ nick_agot_the_old_fish:0 "Yaşlı Balıkçı"
 
  nick_agot_the_laughing_fish:0 "Gülen Balık"
-### TODO NOT-IN-ST: nick_agot_the_fish_daughter [AGOT: the Lady of the Lakes]
- nick_agot_the_fish_daughter:0 "the Lady of the Lakes"
-### TODO NOT-IN-ST: nick_agot_the_fishknight [AGOT: the River[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_fishknight:0 "the River[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_fish_daughter:0 "Göllerin Hanımı"
+
+ nick_agot_the_fishknight:0 "Nehir [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_squid:0 "Kara Kraken"
 
  nick_agot_the_white_squid:0 "Beyaz Kraken"
 
  nick_agot_the_crazed_squid:0 "Denizrüzgâr"
-### TODO NOT-IN-ST: nick_agot_the_wild_squid [AGOT: the Thrashing Kraken]
- nick_agot_the_wild_squid:0 "the Thrashing Kraken"
-### TODO NOT-IN-ST: nick_agot_the_quiet_squid [AGOT: the Quiet Kraken]
- nick_agot_the_quiet_squid:0 "the Quiet Kraken"
+
+ nick_agot_the_wild_squid:0 "Dövünen Kraken"
+
+ nick_agot_the_quiet_squid:0 "Sessiz Kraken"
 
  nick_agot_the_red_squid:0 "Kızıl Kraken"
 
  nick_agot_the_big_squid:0 "Kraken"
-### TODO NOT-IN-ST: nick_agot_the_strong_squid [AGOT: Strongsquid]
- nick_agot_the_strong_squid:0 "Strongsquid"
-### TODO NOT-IN-ST: nick_agot_the_fair_squid [AGOT: the Fair Kraken]
- nick_agot_the_fair_squid:0 "the Fair Kraken"
-### TODO NOT-IN-ST: nick_agot_the_ugly_squid [AGOT: the Monstrous Kraken]
- nick_agot_the_ugly_squid:0 "the Monstrous Kraken"
-### TODO NOT-IN-ST: nick_agot_the_small_squid [AGOT: the Squidling]
- nick_agot_the_small_squid:0 "the Squidling"
+
+ nick_agot_the_strong_squid:0 "Güçlü Mürekkepbalığı"
+
+ nick_agot_the_fair_squid:0 "Güzel Kraken"
+
+ nick_agot_the_ugly_squid:0 "Canavar Kraken"
+
+ nick_agot_the_small_squid:0 "Mürekkepbalığı Yavrusu"
 
  nick_agot_the_wise_squid:0 "Bilge Kraken"
-### TODO NOT-IN-ST: nick_agot_the_dumb_squid [AGOT: the Dull Squid]
- nick_agot_the_dumb_squid:0 "the Dull Squid"
+
+ nick_agot_the_dumb_squid:0 "Donuk Mürekkepbalığı"
 
  nick_agot_the_dark_squid:0 "kara mürekkepbalığı"
-### TODO NOT-IN-ST: nick_agot_the_weak_squid [AGOT: the Soft Squid]
- nick_agot_the_weak_squid:0 "the Soft Squid"
+
+ nick_agot_the_weak_squid:0 "Yumuşak Mürekkepbalığı"
 
  nick_agot_the_silver_squid:0 "Gümüş Kraken"
 
  nick_agot_the_old_squid:0 "Yaşlı Kraken"
-### TODO NOT-IN-ST: nick_agot_the_laughing_squid [AGOT: the Laughing Kraken]
- nick_agot_the_laughing_squid:0 "the Laughing Kraken"
-### TODO NOT-IN-ST: nick_agot_the_squid_daughter [AGOT: the Kraken's Daughter]
- nick_agot_the_squid_daughter:0 "the Kraken's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_squidknight [AGOT: the Kraken[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_squidknight:0 "the Kraken[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_squid:0 "Gülen Kraken"
+
+ nick_agot_the_squid_daughter:0 "Krakenin Kızı"
+
+ nick_agot_the_squidknight:0 "Kraken [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_falcon:0 "Kara Şahin"
 
@@ -547,10 +547,10 @@
  nick_agot_the_big_falcon:0 "Büyük Şahin"
 
  nick_agot_the_strong_falcon:0 "Güçlü Şahin"
-### TODO NOT-IN-ST: nick_agot_the_fair_falcon [AGOT: the Peregrine]
- nick_agot_the_fair_falcon:0 "the Peregrine"
-### TODO NOT-IN-ST: nick_agot_the_ugly_falcon [AGOT: the Molting Falcon]
- nick_agot_the_ugly_falcon:0 "the Molting Falcon"
+
+ nick_agot_the_fair_falcon:0 "Gezginci Doğan"
+
+ nick_agot_the_ugly_falcon:0 "Tüy Döken Şahin"
 
  nick_agot_the_small_falcon:0 "Küçükşahin"
 
@@ -559,18 +559,18 @@
  nick_agot_the_dumb_falcon:0 "Küt Gaga"
 
  nick_agot_the_dark_falcon:0 "Karaşahin"
-### TODO NOT-IN-ST: nick_agot_the_weak_falcon [AGOT: the Talonless]
- nick_agot_the_weak_falcon:0 "the Talonless"
+
+ nick_agot_the_weak_falcon:0 "Pençesiz"
 
  nick_agot_the_silver_falcon:0 "Gümüş Şahin"
 
  nick_agot_the_old_falcon:0 "Yaşlı Şahin"
-### TODO NOT-IN-ST: nick_agot_the_laughing_falcon [AGOT: the Laughing Falcon]
- nick_agot_the_laughing_falcon:0 "the Laughing Falcon"
-### TODO NOT-IN-ST: nick_agot_the_falcon_daughter [AGOT: the Falcon's Daughter]
- nick_agot_the_falcon_daughter:0 "the Falcon's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_falconknight [AGOT: the Falcon[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_falconknight:0 "the Falcon[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_falcon:0 "Gülen Şahin"
+
+ nick_agot_the_falcon_daughter:0 "Şahinin Kızı"
+
+ nick_agot_the_falconknight:0 "Şahin [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_hand:0 "Karael"
 
@@ -579,14 +579,14 @@
  nick_agot_the_crazed_hand:0 "Deliel"
 
  nick_agot_the_wild_hand:0 "Deliel"
-### TODO NOT-IN-ST: nick_agot_the_quiet_hand [AGOT: the Gentle Touch]
- nick_agot_the_quiet_hand:0 "the Gentle Touch"
+
+ nick_agot_the_quiet_hand:0 "Nazik Dokunuş"
 
  nick_agot_the_red_hand:0 "Yumruk"
 
  nick_agot_the_big_hand:0 "Usta El"
-### TODO NOT-IN-ST: nick_agot_the_big_green [AGOT: the Green Giant]
- nick_agot_the_big_green:0 "the Green Giant"
+
+ nick_agot_the_big_green:0 "Yeşil Dev"
 
  nick_agot_the_strong_hand:0 "Güçlüel"
 
@@ -609,26 +609,26 @@
  nick_agot_the_old_hand:0 "Yaşlıel"
 
  nick_agot_the_laughing_hand:0 "Neşeli El"
-### TODO NOT-IN-ST: nick_agot_the_hand_daughter [AGOT: the Hand's Daughter]
- nick_agot_the_hand_daughter:0 "the Hand's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_handknight [AGOT: the Hand[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_handknight:0 "the Hand[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_hand_daughter:0 "Elin Kızı"
+
+ nick_agot_the_handknight:0 "El [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_gardenknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Gardens"
 
  nick_agot_the_greenknight:0 "Yeşil [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_iron:0 "Karademir"
-### TODO NOT-IN-ST: nick_agot_the_wrought_iron [AGOT: Wroughtiron]
- nick_agot_the_wrought_iron:0 "Wroughtiron"
+
+ nick_agot_the_wrought_iron:0 "Dövme Demir"
 
  nick_agot_the_white_iron:0 "Beyazdemir"
 
  nick_agot_the_crazed_iron:0 "Delidemir"
 
  nick_agot_the_wild_iron:0 "Demir Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_quiet_iron [AGOT: the Muffled Oar]
- nick_agot_the_quiet_iron:0 "the Muffled Oar"
+
+ nick_agot_the_quiet_iron:0 "Boğuk Kürek"
 
  nick_agot_the_red_iron:0 "Kızıldemir"
 
@@ -639,8 +639,8 @@
  nick_agot_the_fair_iron:0 "Altındemir"
 
  nick_agot_the_ugly_iron:0 "domuz demiri"
-### TODO NOT-IN-ST: nick_agot_the_small_iron [AGOT: the Ingot]
- nick_agot_the_small_iron:0 "the Ingot"
+
+ nick_agot_the_small_iron:0 "Külçe"
 
  nick_agot_the_wise_iron:0 "Adil Demir"
 
@@ -653,10 +653,10 @@
  nick_agot_the_silver_iron:0 "Gümüşdemir"
 
  nick_agot_the_old_iron:0 "Yaşlıdemir"
-### TODO NOT-IN-ST: nick_agot_the_laughing_iron [AGOT: the Laughing Iron]
- nick_agot_the_laughing_iron:0 "the Laughing Iron"
-### TODO NOT-IN-ST: nick_agot_the_iron_daughter [AGOT: the Iron Maiden]
- nick_agot_the_iron_daughter:0 "the Iron Maiden"
+
+ nick_agot_the_laughing_iron:0 "Gülen Demir"
+
+ nick_agot_the_iron_daughter:0 "Demir Bakire"
 
  nick_agot_the_ironknight:0 "Demir [CHARACTER.Custom('GetWarriorNickname')]"
 
@@ -667,38 +667,38 @@
  nick_agot_the_crazed_seahorse:0 "Deli Denizatı"
 
  nick_agot_the_wild_seahorse:0 "Denizrüzgâr"
-### TODO NOT-IN-ST: nick_agot_the_quiet_seahorse [AGOT: the Quiet Tide]
- nick_agot_the_quiet_seahorse:0 "the Quiet Tide"
-### TODO NOT-IN-ST: nick_agot_the_red_seahorse [AGOT: the Sea Snake]
- nick_agot_the_red_seahorse:0 "the Sea Snake"
+
+ nick_agot_the_quiet_seahorse:0 "Sessiz Gelgit"
+
+ nick_agot_the_red_seahorse:0 "Deniz Yılanı"
 
  nick_agot_the_big_seahorse:0 "Büyük Denizatı"
 
  nick_agot_the_strong_seahorse:0 "kızıl gelgit"
-### TODO NOT-IN-ST: nick_agot_the_fair_seahorse [AGOT: the Sea Pearl]
- nick_agot_the_fair_seahorse:0 "the Sea Pearl"
-### TODO NOT-IN-ST: nick_agot_the_ugly_seahorse [AGOT: the Ugly Seahorse]
- nick_agot_the_ugly_seahorse:0 "the Ugly Seahorse"
+
+ nick_agot_the_fair_seahorse:0 "Deniz İncisi"
+
+ nick_agot_the_ugly_seahorse:0 "Çirkin Denizatı"
 
  nick_agot_the_small_seahorse:0 "Küçük Denizatı"
 
  nick_agot_the_wise_seahorse:0 "Bilge Denizatı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_seahorse [AGOT: the Slow Seahorse]
- nick_agot_the_dumb_seahorse:0 "the Slow Seahorse"
+
+ nick_agot_the_dumb_seahorse:0 "Yavaş Denizatı"
 
  nick_agot_the_dark_seahorse:0 "kara gelgit"
-### TODO NOT-IN-ST: nick_agot_the_weak_seahorse [AGOT: the Weak Seahorse]
- nick_agot_the_weak_seahorse:0 "the Weak Seahorse"
+
+ nick_agot_the_weak_seahorse:0 "Zayıf Denizatı"
 
  nick_agot_the_silver_seahorse:0 "Gümüş Denizatı"
 
  nick_agot_the_old_seahorse:0 "Yaşlı Denizatı"
-### TODO NOT-IN-ST: nick_agot_the_laughing_seahorse [AGOT: the Laughing Seahorse]
- nick_agot_the_laughing_seahorse:0 "the Laughing Seahorse"
-### TODO NOT-IN-ST: nick_agot_the_seahorse_daughter [AGOT: the Seahorse's Daughter]
- nick_agot_the_seahorse_daughter:0 "the Seahorse's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_seahorseknight [AGOT: the Seahorse[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_seahorseknight:0 "the Seahorse[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_seahorse:0 "Gülen Denizatı"
+
+ nick_agot_the_seahorse_daughter:0 "Denizatıin Kızı"
+
+ nick_agot_the_seahorseknight:0 "Denizatı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_fox:0 "Kara Tilki"
 
@@ -715,30 +715,30 @@
  nick_agot_the_big_fox:0 "Büyük Tilki"
 
  nick_agot_the_strong_fox:0 "Yüksük Otu"
-### TODO NOT-IN-ST: nick_agot_the_fair_fox [AGOT: the Fair Fox]
- nick_agot_the_fair_fox:0 "the Fair Fox"
-### TODO NOT-IN-ST: nick_agot_the_ugly_fox [AGOT: the Mangy Fox]
- nick_agot_the_ugly_fox:0 "the Mangy Fox"
+
+ nick_agot_the_fair_fox:0 "Güzel Tilki"
+
+ nick_agot_the_ugly_fox:0 "Uyuz Tilki"
 
  nick_agot_the_small_fox:0 "Küçük Tilki"
-### TODO NOT-IN-ST: nick_agot_the_wise_fox [AGOT: the Cunning Fox]
- nick_agot_the_wise_fox:0 "the Cunning Fox"
-### TODO NOT-IN-ST: nick_agot_the_dumb_fox [AGOT: the Slow Fox]
- nick_agot_the_dumb_fox:0 "the Slow Fox"
-### TODO NOT-IN-ST: nick_agot_the_dark_fox [AGOT: the Sly Fox]
- nick_agot_the_dark_fox:0 "the Sly Fox"
-### TODO NOT-IN-ST: nick_agot_the_weak_fox [AGOT: the Toothless Fox]
- nick_agot_the_weak_fox:0 "the Toothless Fox"
+
+ nick_agot_the_wise_fox:0 "Kurnaz Tilki"
+
+ nick_agot_the_dumb_fox:0 "Yavaş Tilki"
+
+ nick_agot_the_dark_fox:0 "Sinsi Tilki"
+
+ nick_agot_the_weak_fox:0 "Dişsiz Tilki"
 
  nick_agot_the_silver_fox:0 "Gümüş Tilki"
 
  nick_agot_the_old_fox:0 "Gri Tilki"
-### TODO NOT-IN-ST: nick_agot_the_laughing_fox [AGOT: the Laughing Fox]
- nick_agot_the_laughing_fox:0 "the Laughing Fox"
-### TODO NOT-IN-ST: nick_agot_the_fox_daughter [AGOT: the Vixen]
- nick_agot_the_fox_daughter:0 "the Vixen"
-### TODO NOT-IN-ST: nick_agot_the_foxknight [AGOT: the Fox[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_foxknight:0 "the Fox[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_fox:0 "Gülen Tilki"
+
+ nick_agot_the_fox_daughter:0 "Dişi Tilki"
+
+ nick_agot_the_foxknight:0 "Tilki [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_bear:0 "Kara Ayı"
 
@@ -747,78 +747,78 @@
  nick_agot_the_crazed_bear:0 "Deli Ayı"
 
  nick_agot_the_wild_bear:0 "Yaban Ayı"
-### TODO NOT-IN-ST: nick_agot_the_quiet_bear [AGOT: the Sleeping Bear]
- nick_agot_the_quiet_bear:0 "the Sleeping Bear"
+
+ nick_agot_the_quiet_bear:0 "Uyuyan Ayı"
 
  nick_agot_the_red_bear:0 "Kızıl Ayı"
 
  nick_agot_the_big_bear:0 "Büyük Ayı"
-### TODO NOT-IN-ST: nick_agot_the_strong_bear [AGOT: Strongbear]
- nick_agot_the_strong_bear:0 "Strongbear"
-### TODO NOT-IN-ST: nick_agot_the_fair_bear [AGOT: the Gold Bear]
- nick_agot_the_fair_bear:0 "the Gold Bear"
-### TODO NOT-IN-ST: nick_agot_the_ugly_bear [AGOT: the Ugly Bear]
- nick_agot_the_ugly_bear:0 "the Ugly Bear"
+
+ nick_agot_the_strong_bear:0 "Güçlü Ayı"
+
+ nick_agot_the_fair_bear:0 "Altın Ayı"
+
+ nick_agot_the_ugly_bear:0 "Çirkin Ayı"
 
  nick_agot_the_small_bear:0 "Küçük Ayı"
 
  nick_agot_the_wise_bear:0 "Bilge Ayı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_bear [AGOT: the Slow Bear]
- nick_agot_the_dumb_bear:0 "the Slow Bear"
+
+ nick_agot_the_dumb_bear:0 "Yavaş Ayı"
 
  nick_agot_the_dark_bear:0 "Kara Ayı"
-### TODO NOT-IN-ST: nick_agot_the_weak_bear [AGOT: the Weak Bear]
- nick_agot_the_weak_bear:0 "the Weak Bear"
+
+ nick_agot_the_weak_bear:0 "Zayıf Ayı"
 
  nick_agot_the_silver_bear:0 "Gümüş Ayı"
 
  nick_agot_the_old_bear:0 "Yaşlı Ayı"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bear [AGOT: the Laughing Bear]
- nick_agot_the_laughing_bear:0 "the Laughing Bear"
+
+ nick_agot_the_laughing_bear:0 "Gülen Ayı"
 
  nick_agot_the_bear_daughter:0 "Ayının Kızı"
-### TODO NOT-IN-ST: nick_agot_the_bearknight [AGOT: the Bear[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_bearknight:0 "the Bear[CHARACTER.Custom('GetWarriorNickname')]"
-### TODO NOT-IN-ST: nick_agot_the_black_tower [AGOT: the Blacktower]
- nick_agot_the_black_tower:0 "the Blacktower"
-### TODO NOT-IN-ST: nick_agot_the_white_tower [AGOT: the Whitetower]
- nick_agot_the_white_tower:0 "the Whitetower"
-### TODO NOT-IN-ST: nick_agot_the_crazed_tower [AGOT: the Madtower]
- nick_agot_the_crazed_tower:0 "the Madtower"
+
+ nick_agot_the_bearknight:0 "Ayı [CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_black_tower:0 "Kara Kule"
+
+ nick_agot_the_white_tower:0 "Beyaz Kule"
+
+ nick_agot_the_crazed_tower:0 "Deli Kule"
 
  nick_agot_the_wild_tower:0 "Kızgın Kule"
-### TODO NOT-IN-ST: nick_agot_the_quiet_tower [AGOT: the Mute Tower]
- nick_agot_the_quiet_tower:0 "the Mute Tower"
+
+ nick_agot_the_quiet_tower:0 "Dilsiz Kule"
 
  nick_agot_the_red_tower:0 "Kızılkule"
-### TODO NOT-IN-ST: nick_agot_the_big_tower [AGOT: the Hightower]
- nick_agot_the_big_tower:0 "the Hightower"
+
+ nick_agot_the_big_tower:0 "Yüksek Kule"
 
  nick_agot_the_strong_tower:0 "Kule"
-### TODO NOT-IN-ST: nick_agot_the_fair_tower [AGOT: the Fair Tower]
- nick_agot_the_fair_tower:0 "the Fair Tower"
+
+ nick_agot_the_fair_tower:0 "Güzel Kule"
 
  nick_agot_the_ugly_tower:0 "Kırık Kule"
 
  nick_agot_the_small_tower:0 "Alçak Kule"
 
  nick_agot_the_wise_tower:0 "parlak kule"
-### TODO NOT-IN-ST: nick_agot_the_dumb_tower [AGOT: the Slowtower]
- nick_agot_the_dumb_tower:0 "the Slowtower"
-### TODO NOT-IN-ST: nick_agot_the_dark_tower [AGOT: the Darktower]
- nick_agot_the_dark_tower:0 "the Darktower"
-### TODO NOT-IN-ST: nick_agot_the_weak_tower [AGOT: the Crumbling Tower]
- nick_agot_the_weak_tower:0 "the Crumbling Tower"
-### TODO NOT-IN-ST: nick_agot_the_silver_tower [AGOT: the Silvertower]
- nick_agot_the_silver_tower:0 "the Silvertower"
+
+ nick_agot_the_dumb_tower:0 "Yavaş Kule"
+
+ nick_agot_the_dark_tower:0 "Kara Kule"
+
+ nick_agot_the_weak_tower:0 "Yıkılan Kule"
+
+ nick_agot_the_silver_tower:0 "Gümüş Kule"
 
  nick_agot_the_old_tower:0 "Yaşlıkule"
 
  nick_agot_the_laughing_tower:0 "Gülen Kule"
-### TODO NOT-IN-ST: nick_agot_the_tower_daughter [AGOT: the Tower's Daughter]
- nick_agot_the_tower_daughter:0 "the Tower's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_towerknight [AGOT: the Tower[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_towerknight:0 "the Tower[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_tower_daughter:0 "Kulein Kızı"
+
+ nick_agot_the_towerknight:0 "Kule [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_griffin:0 "Kara Griffon"
 
@@ -827,8 +827,8 @@
  nick_agot_the_crazed_griffin:0 "Deli Griffon"
 
  nick_agot_the_wild_griffin:0 "Yaban Griffon"
-### TODO NOT-IN-ST: nick_agot_the_quiet_griffin [AGOT: the Quiet Griffin]
- nick_agot_the_quiet_griffin:0 "the Quiet Griffin"
+
+ nick_agot_the_quiet_griffin:0 "Sessiz Griffon"
 
  nick_agot_the_red_griffin:0 "Kızıl Griffon"
 
@@ -837,28 +837,28 @@
  nick_agot_the_strong_griffin:0 "Güçlü Griffon"
 
  nick_agot_the_fair_griffin:0 "Altın Griffon"
-### TODO NOT-IN-ST: nick_agot_the_ugly_griffin [AGOT: the Ugly Griffin]
- nick_agot_the_ugly_griffin:0 "the Ugly Griffin"
+
+ nick_agot_the_ugly_griffin:0 "Çirkin Griffon"
 
  nick_agot_the_small_griffin:0 "Küçük Griffon"
 
  nick_agot_the_wise_griffin:0 "Bilge Griffon"
-### TODO NOT-IN-ST: nick_agot_the_dumb_griffin [AGOT: the Dull Griffin]
- nick_agot_the_dumb_griffin:0 "the Dull Griffin"
+
+ nick_agot_the_dumb_griffin:0 "Donuk Griffon"
 
  nick_agot_the_dark_griffin:0 "Kara Griffon"
-### TODO NOT-IN-ST: nick_agot_the_weak_griffin [AGOT: the Weak Griffin]
- nick_agot_the_weak_griffin:0 "the Weak Griffin"
+
+ nick_agot_the_weak_griffin:0 "Zayıf Griffon"
 
  nick_agot_the_silver_griffin:0 "Gümüş Griffon"
 
  nick_agot_the_old_griffin:0 "Yaşlı Griffon"
-### TODO NOT-IN-ST: nick_agot_the_laughing_griffin [AGOT: the Laughing Griffin]
- nick_agot_the_laughing_griffin:0 "the Laughing Griffin"
-### TODO NOT-IN-ST: nick_agot_the_griffin_daughter [AGOT: the Griffin's Daughter]
- nick_agot_the_griffin_daughter:0 "the Griffin's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_griffinknight [AGOT: the Griffin[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_griffinknight:0 "the Griffin[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_griffin:0 "Gülen Griffon"
+
+ nick_agot_the_griffin_daughter:0 "Griffonin Kızı"
+
+ nick_agot_the_griffinknight:0 "Griffon [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_bridge:0 "Karaköprü"
 
@@ -877,28 +877,28 @@
  nick_agot_the_strong_bridge:0 "Kemer"
 
  nick_agot_the_fair_bridge:0 "Altın Köprü"
-### TODO NOT-IN-ST: nick_agot_the_ugly_bridge [AGOT: the Troll Beneath the Bridge]
- nick_agot_the_ugly_bridge:0 "the Troll Beneath the Bridge"
+
+ nick_agot_the_ugly_bridge:0 "Köprü Altı Cini"
 
  nick_agot_the_small_bridge:0 "Küçük Köprü"
 
  nick_agot_the_wise_bridge:0 "Bilge Köprü"
-### TODO NOT-IN-ST: nick_agot_the_dumb_bridge [AGOT: the Crooked Bridge]
- nick_agot_the_dumb_bridge:0 "the Crooked Bridge"
+
+ nick_agot_the_dumb_bridge:0 "Eğri Köprü"
 
  nick_agot_the_dark_bridge:0 "Çifte Haç"
-### TODO NOT-IN-ST: nick_agot_the_weak_bridge [AGOT: the Crumbling Bridge]
- nick_agot_the_weak_bridge:0 "the Crumbling Bridge"
+
+ nick_agot_the_weak_bridge:0 "Yıkılan Köprü"
 
  nick_agot_the_silver_bridge:0 "Gümüş Köprü"
 
  nick_agot_the_old_bridge:0 "Yaşlı Köprü"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bridge [AGOT: the Laughing Bridge]
- nick_agot_the_laughing_bridge:0 "the Laughing Bridge"
-### TODO NOT-IN-ST: nick_agot_the_bridge_daughter [AGOT: the Bridge's Daughter]
- nick_agot_the_bridge_daughter:0 "the Bridge's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_bridgeknight [AGOT: the Bridge[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_bridgeknight:0 "the Bridge[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_bridge:0 "Gülen Köprü"
+
+ nick_agot_the_bridge_daughter:0 "Köprüin Kızı"
+
+ nick_agot_the_bridgeknight:0 "Köprü [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_crossingknight:0 "the[CHARACTER.Custom('GetWarriorNickname')] of the Crossing"
 
@@ -907,60 +907,60 @@
  nick_agot_the_white_gate:0 "Beyaz Kapı"
 
  nick_agot_the_crazed_gate:0 "Deli Kapı"
-### TODO NOT-IN-ST: nick_agot_the_wild_gate [AGOT: the Screaming Gate]
- nick_agot_the_wild_gate:0 "the Screaming Gate"
-### TODO NOT-IN-ST: nick_agot_the_quiet_gate [AGOT: the Quiet Gate]
- nick_agot_the_quiet_gate:0 "the Quiet Gate"
+
+ nick_agot_the_wild_gate:0 "Çığlık atan Kapı"
+
+ nick_agot_the_quiet_gate:0 "Sessiz Kapı"
 
  nick_agot_the_red_gate:0 "Kızıl Kapı"
-### TODO NOT-IN-ST: nick_agot_the_big_gate [AGOT: the Portcullis]
- nick_agot_the_big_gate:0 "the Portcullis"
+
+ nick_agot_the_big_gate:0 "Düşey Kapı"
 
  nick_agot_the_strong_gate:0 "Barikat"
 
  nick_agot_the_fair_gate:0 "Altın Kapı"
-### TODO NOT-IN-ST: nick_agot_the_ugly_gate [AGOT: the Rusty Gate]
- nick_agot_the_ugly_gate:0 "the Rusty Gate"
+
+ nick_agot_the_ugly_gate:0 "Paslı Kapı"
 
  nick_agot_the_small_gate:0 "Küçük Kapı"
 
  nick_agot_the_wise_gate:0 "Bilge Kapı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_gate [AGOT: the Open Gate]
- nick_agot_the_dumb_gate:0 "the Open Gate"
-### TODO NOT-IN-ST: nick_agot_the_dark_gate [AGOT: the Turnkey]
- nick_agot_the_dark_gate:0 "the Turnkey"
-### TODO NOT-IN-ST: nick_agot_the_weak_gate [AGOT: the Brittle Gate]
- nick_agot_the_weak_gate:0 "the Brittle Gate"
+
+ nick_agot_the_dumb_gate:0 "Açık Kapı"
+
+ nick_agot_the_dark_gate:0 "Gardiyan"
+
+ nick_agot_the_weak_gate:0 "Kırılgan Kapı"
 
  nick_agot_the_silver_gate:0 "Gümüş Kapı"
 
  nick_agot_the_old_gate:0 "Yaşlı Kapı"
-### TODO NOT-IN-ST: nick_agot_the_laughing_gate [AGOT: the Laughing Gate]
- nick_agot_the_laughing_gate:0 "the Laughing Gate"
-### TODO NOT-IN-ST: nick_agot_the_gate_daughter [AGOT: the Gate's Daughter]
- nick_agot_the_gate_daughter:0 "the Gate's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_gateknight [AGOT: the Gate[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_gateknight:0 "the Gate[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_gate:0 "Gülen Kapı"
+
+ nick_agot_the_gate_daughter:0 "Kapıin Kızı"
+
+ nick_agot_the_gateknight:0 "Kapı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_star:0 "Karayıldız"
 
  nick_agot_the_white_star:0 "Beyazyıldız"
 
  nick_agot_the_crazed_star:0 "Deli Yıldız"
-### TODO NOT-IN-ST: nick_agot_the_wild_star [AGOT: the Wroth Star]
- nick_agot_the_wild_star:0 "the Wroth Star"
-### TODO NOT-IN-ST: nick_agot_the_quiet_star [AGOT: the Quiet Star]
- nick_agot_the_quiet_star:0 "the Quiet Star"
-### TODO NOT-IN-ST: nick_agot_the_red_star [AGOT: the Redstar]
- nick_agot_the_red_star:0 "the Redstar"
+
+ nick_agot_the_wild_star:0 "Gazap Dolu Yıldız"
+
+ nick_agot_the_quiet_star:0 "Sessiz Yıldız"
+
+ nick_agot_the_red_star:0 "Kızıl Yıldız"
 
  nick_agot_the_big_star:0 "Büyük Yıldız"
 
  nick_agot_the_strong_star:0 "Güçlüyıldız"
 
  nick_agot_the_fair_star:0 "Yıldız Işığı"
-### TODO NOT-IN-ST: nick_agot_the_ugly_star [AGOT: the Dim Star]
- nick_agot_the_ugly_star:0 "the Dim Star"
+
+ nick_agot_the_ugly_star:0 "Donuk Yıldız"
 
  nick_agot_the_small_star:0 "Küçük Yıldız"
 
@@ -969,16 +969,16 @@
  nick_agot_the_dumb_star:0 "donuk yıldız"
 
  nick_agot_the_dark_star:0 "Karayıldız"
-### TODO NOT-IN-ST: nick_agot_the_weak_star [AGOT: the Weak Star]
- nick_agot_the_weak_star:0 "the Weak Star"
+
+ nick_agot_the_weak_star:0 "Zayıf Yıldız"
 
  nick_agot_the_silver_star:0 "Gümüş Yıldız"
 
  nick_agot_the_old_star:0 "Yaşlı Yıldız"
-### TODO NOT-IN-ST: nick_agot_the_laughing_star [AGOT: the Shining Star]
- nick_agot_the_laughing_star:0 "the Shining Star"
-### TODO NOT-IN-ST: nick_agot_the_star_daughter [AGOT: the Star's Daughter]
- nick_agot_the_star_daughter:0 "the Star's Daughter"
+
+ nick_agot_the_laughing_star:0 "Parlayan Yıldız"
+
+ nick_agot_the_star_daughter:0 "Yıldızin Kızı"
 
  nick_agot_the_starknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Stars"
 
@@ -987,38 +987,38 @@
  nick_agot_the_white_sword:0 "Beyaz Kılıç"
 
  nick_agot_the_crazed_sword:0 "Deli Kılıç"
-### TODO NOT-IN-ST: nick_agot_the_wild_sword [AGOT: the Cleaver]
- nick_agot_the_wild_sword:0 "the Cleaver"
+
+ nick_agot_the_wild_sword:0 "Satır"
 
  nick_agot_the_quiet_sword:0 "Sessiz Kılıç"
 
  nick_agot_the_red_sword:0 "Kızılkılıç"
-### TODO NOT-IN-ST: nick_agot_the_big_sword [AGOT: the Greatsword]
- nick_agot_the_big_sword:0 "the Greatsword"
+
+ nick_agot_the_big_sword:0 "Büyük Kılıç"
 
  nick_agot_the_strong_sword:0 "Güçlü Kılıç"
 
  nick_agot_the_fair_sword:0 "Altın Kılıç"
-### TODO NOT-IN-ST: nick_agot_the_ugly_sword [AGOT: the Dented Sword]
- nick_agot_the_ugly_sword:0 "the Dented Sword"
-### TODO NOT-IN-ST: nick_agot_the_small_sword [AGOT: the Shortsword]
- nick_agot_the_small_sword:0 "the Shortsword"
+
+ nick_agot_the_ugly_sword:0 "Göçük Kılıç"
+
+ nick_agot_the_small_sword:0 "Kısa Kılıç"
 
  nick_agot_the_wise_sword:0 "Keskin Kılıç"
-### TODO NOT-IN-ST: nick_agot_the_dumb_sword [AGOT: the Blunt Sword]
- nick_agot_the_dumb_sword:0 "the Blunt Sword"
+
+ nick_agot_the_dumb_sword:0 "Küt Kılıç"
 
  nick_agot_the_dark_sword:0 "Karakılıç"
-### TODO NOT-IN-ST: nick_agot_the_weak_sword [AGOT: the Blunt Sword]
- nick_agot_the_weak_sword:0 "the Blunt Sword"
+
+ nick_agot_the_weak_sword:0 "Küt Kılıç"
 
  nick_agot_the_silver_sword:0 "Gümüş Kılıç"
 
  nick_agot_the_old_sword:0 "Eski Kın"
-### TODO NOT-IN-ST: nick_agot_the_laughing_sword [AGOT: the Singing Sword]
- nick_agot_the_laughing_sword:0 "the Singing Sword"
-### TODO NOT-IN-ST: nick_agot_the_sword_daughter [AGOT: the Sword's Daughter]
- nick_agot_the_sword_daughter:0 "the Sword's Daughter"
+
+ nick_agot_the_laughing_sword:0 "Şarkı Söyleyen Kılıç"
+
+ nick_agot_the_sword_daughter:0 "Kılıcın Kızı"
 
  nick_agot_the_swordknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Swords"
 
@@ -1029,8 +1029,8 @@
  nick_agot_the_crazed_oak:0 "Deli Meşe"
 
  nick_agot_the_wild_oak:0 "Yaban Meşe"
-### TODO NOT-IN-ST: nick_agot_the_quiet_oak [AGOT: the Hushed Oak]
- nick_agot_the_quiet_oak:0 "the Hushed Oak"
+
+ nick_agot_the_quiet_oak:0 "Sessiz Meşe"
 
  nick_agot_the_red_oak:0 "Kızılmeşe"
 
@@ -1039,14 +1039,14 @@
  nick_agot_the_strong_oak:0 "Güçlümeşe"
 
  nick_agot_the_fair_oak:0 "Altın Meşe"
-### TODO NOT-IN-ST: nick_agot_the_ugly_oak [AGOT: the Ugly Oak]
- nick_agot_the_ugly_oak:0 "the Ugly Oak"
-### TODO NOT-IN-ST: nick_agot_the_small_oak [AGOT: the Sapling]
- nick_agot_the_small_oak:0 "the Sapling"
+
+ nick_agot_the_ugly_oak:0 "Çirkin Meşe"
+
+ nick_agot_the_small_oak:0 "Fidan"
 
  nick_agot_the_wise_oak:0 "Bilge Meşe"
-### TODO NOT-IN-ST: nick_agot_the_dumb_oak [AGOT: the Dull Oak]
- nick_agot_the_dumb_oak:0 "the Dull Oak"
+
+ nick_agot_the_dumb_oak:0 "Donuk Meşe"
 
  nick_agot_the_dark_oak:0 "Karameşe"
 
@@ -1055,220 +1055,220 @@
  nick_agot_the_silver_oak:0 "Gümüş Meşe"
 
  nick_agot_the_old_oak:0 "Yaşlı Meşe"
-### TODO NOT-IN-ST: nick_agot_the_laughing_oak [AGOT: the Laughing Oak]
- nick_agot_the_laughing_oak:0 "the Laughing Oak"
-### TODO NOT-IN-ST: nick_agot_the_oak_daughter [AGOT: the Oak's Daughter]
- nick_agot_the_oak_daughter:0 "the Oak's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_oakknight [AGOT: the Oak[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_oakknight:0 "the Oak[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_oak:0 "Gülen Meşe"
+
+ nick_agot_the_oak_daughter:0 "Meşein Kızı"
+
+ nick_agot_the_oakknight:0 "Meşe [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_merman:0 "Kara Deniz Adamı"
 
  nick_agot_the_white_merman:0 "Beyaz Deniz Adamı"
 
  nick_agot_the_crazed_merman:0 "Deli Deniz Adamı"
-### TODO NOT-IN-ST: nick_agot_the_wild_merman [AGOT: the Raging Merman]
- nick_agot_the_wild_merman:0 "the Raging Merman"
-### TODO NOT-IN-ST: nick_agot_the_quiet_merman [AGOT: the Quiet Merman]
- nick_agot_the_quiet_merman:0 "the Quiet Merman"
+
+ nick_agot_the_wild_merman:0 "Azgın Deniz Adamı"
+
+ nick_agot_the_quiet_merman:0 "Sessiz Deniz Adamı"
 
  nick_agot_the_red_merman:0 "Kızıl Deniz Adamı"
 
  nick_agot_the_big_merman:0 "Büyük Deniz Adamı"
-### TODO NOT-IN-ST: nick_agot_the_strong_merman [AGOT: the Merman's Trident]
- nick_agot_the_strong_merman:0 "the Merman's Trident"
-### TODO NOT-IN-ST: nick_agot_the_fair_merman [AGOT: the Fair Merman]
- nick_agot_the_fair_merman:0 "the Fair Merman"
-### TODO NOT-IN-ST: nick_agot_the_ugly_merman [AGOT: the Ugly Merman]
- nick_agot_the_ugly_merman:0 "the Ugly Merman"
+
+ nick_agot_the_strong_merman:0 "Deniz Adamının Zıpkını"
+
+ nick_agot_the_fair_merman:0 "Güzel Deniz Adamı"
+
+ nick_agot_the_ugly_merman:0 "Çirkin Deniz Adamı"
 
  nick_agot_the_small_merman:0 "Küçük Deniz Adamı"
 
  nick_agot_the_wise_merman:0 "Bilge Deniz Adamı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_merman [AGOT: the Dull Merman]
- nick_agot_the_dumb_merman:0 "the Dull Merman"
+
+ nick_agot_the_dumb_merman:0 "Donuk Deniz Adamı"
 
  nick_agot_the_dark_merman:0 "Kara Deniz Adamı"
-### TODO NOT-IN-ST: nick_agot_the_weak_merman [AGOT: the Weak Merman]
- nick_agot_the_weak_merman:0 "the Weak Merman"
+
+ nick_agot_the_weak_merman:0 "Zayıf Deniz Adamı"
 
  nick_agot_the_silver_merman:0 "Gümüş Deniz Adamı"
-### TODO NOT-IN-ST: nick_agot_the_old_merman [AGOT: the Old Man of the Sea]
- nick_agot_the_old_merman:0 "the Old Man of the Sea"
-### TODO NOT-IN-ST: nick_agot_the_laughing_merman [AGOT: the Laughing Merman]
- nick_agot_the_laughing_merman:0 "the Laughing Merman"
-### TODO NOT-IN-ST: nick_agot_the_merman_daughter [AGOT: the Merman's Daughter]
- nick_agot_the_merman_daughter:0 "the Merman's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_mermanknight [AGOT: the Merman[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_mermanknight:0 "the Merman[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_old_merman:0 "Denizin Yaşlı Adamı"
+
+ nick_agot_the_laughing_merman:0 "Gülen Deniz Adamı"
+
+ nick_agot_the_merman_daughter:0 "Deniz Adamıin Kızı"
+
+ nick_agot_the_mermanknight:0 "Deniz Adamı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_mermaid:0 "Kara Deniz Kızı"
 
  nick_agot_the_white_mermaid:0 "Beyaz Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_crazed_mermaid [AGOT: the Crazy Mermaid]
- nick_agot_the_crazed_mermaid:0 "the Crazy Mermaid"
+
+ nick_agot_the_crazed_mermaid:0 "Deli Deniz Kızı"
 
  nick_agot_the_wild_mermaid:0 "Yaban Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_quiet_mermaid [AGOT: the Quiet Mermaid]
- nick_agot_the_quiet_mermaid:0 "the Quiet Mermaid"
+
+ nick_agot_the_quiet_mermaid:0 "Sessiz Deniz Kızı"
 
  nick_agot_the_red_mermaid:0 "Kızıl Deniz Kızı"
 
  nick_agot_the_big_mermaid:0 "Büyük Deniz Kızı"
 
  nick_agot_the_strong_mermaid:0 "Güçlü Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_fair_mermaid [AGOT: the Siren]
- nick_agot_the_fair_mermaid:0 "the Siren"
-### TODO NOT-IN-ST: nick_agot_the_ugly_mermaid [AGOT: the Ugly Mermaid]
- nick_agot_the_ugly_mermaid:0 "the Ugly Mermaid"
+
+ nick_agot_the_fair_mermaid:0 "Siren"
+
+ nick_agot_the_ugly_mermaid:0 "Çirkin Deniz Kızı"
 
  nick_agot_the_small_mermaid:0 "Küçük Deniz Kızı"
 
  nick_agot_the_wise_mermaid:0 "Bilge Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_mermaid [AGOT: the Dumb Mermaid]
- nick_agot_the_dumb_mermaid:0 "the Dumb Mermaid"
+
+ nick_agot_the_dumb_mermaid:0 "Aptal Deniz Kızı"
 
  nick_agot_the_dark_mermaid:0 "Kara Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_weak_mermaid [AGOT: the Weak Mermaid]
- nick_agot_the_weak_mermaid:0 "the Weak Mermaid"
+
+ nick_agot_the_weak_mermaid:0 "Zayıf Deniz Kızı"
 
  nick_agot_the_silver_mermaid:0 "Gümüş Deniz Kızı"
 
  nick_agot_the_old_mermaid:0 "Yaşlı Deniz Kızı"
-### TODO NOT-IN-ST: nick_agot_the_laughing_mermaid [AGOT: the Laughing Mermaid]
- nick_agot_the_laughing_mermaid:0 "the Laughing Mermaid"
-### TODO NOT-IN-ST: nick_agot_the_mermaidknight [AGOT: the Mermaid[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_mermaidknight:0 "the Mermaid[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_mermaid:0 "Gülen Deniz Kızı"
+
+ nick_agot_the_mermaidknight:0 "Deniz Kızı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_bat:0 "Kara Yarasa"
 
  nick_agot_the_white_bat:0 "Beyaz Yarasa"
 
  nick_agot_the_crazed_bat:0 "Deli Yarasa"
-### TODO NOT-IN-ST: nick_agot_the_wild_bat [AGOT: the Screeching Bat]
- nick_agot_the_wild_bat:0 "the Screeching Bat"
+
+ nick_agot_the_wild_bat:0 "Tiz Çığlık Atan Yarasa"
 
  nick_agot_the_quiet_bat:0 "Sessiz Yarasa"
 
  nick_agot_the_red_bat:0 "Kanlı Yarasa"
-### TODO NOT-IN-ST: nick_agot_the_big_bat [AGOT: the Giant Bat]
- nick_agot_the_big_bat:0 "the Giant Bat"
-### TODO NOT-IN-ST: nick_agot_the_strong_bat [AGOT: Strongbat]
- nick_agot_the_strong_bat:0 "Strongbat"
-### TODO NOT-IN-ST: nick_agot_the_fair_bat [AGOT: the Noble Bat]
- nick_agot_the_fair_bat:0 "the Noble Bat"
+
+ nick_agot_the_big_bat:0 "Dev Yarasa"
+
+ nick_agot_the_strong_bat:0 "Güçlü Yarasa"
+
+ nick_agot_the_fair_bat:0 "Soylu Yarasa"
 
  nick_agot_the_ugly_bat:0 "Yarasa Yüzlü"
 
  nick_agot_the_small_bat:0 "Yarasa Yavrusu"
 
  nick_agot_the_wise_bat:0 "Parlak Yarasa"
-### TODO NOT-IN-ST: nick_agot_the_dumb_bat [AGOT: the Dumb Bat]
- nick_agot_the_dumb_bat:0 "the Dumb Bat"
+
+ nick_agot_the_dumb_bat:0 "Aptal Yarasa"
 
  nick_agot_the_dark_bat:0 "Kara Yarasa"
-### TODO NOT-IN-ST: nick_agot_the_weak_bat [AGOT: the Toothless Bat]
- nick_agot_the_weak_bat:0 "the Toothless Bat"
+
+ nick_agot_the_weak_bat:0 "Dişsiz Yarasa"
 
  nick_agot_the_silver_bat:0 "Gümüş Yarasa"
 
  nick_agot_the_old_bat:0 "Yaşlı Yarasa"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bat [AGOT: the Laughing Bat]
- nick_agot_the_laughing_bat:0 "the Laughing Bat"
+
+ nick_agot_the_laughing_bat:0 "Gülen Yarasa"
 
  nick_agot_the_bat_daughter:0 "Yarasanın Kızı"
-### TODO NOT-IN-ST: nick_agot_the_batknight [AGOT: the Bat[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_batknight:0 "the Bat[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_batknight:0 "Yarasa [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_boar:0 "Kara Yaban Domuzu"
 
  nick_agot_the_white_boar:0 "Beyaz Yaban Domuzu"
 
  nick_agot_the_crazed_boar:0 "Deli Yaban Domuzu"
-### TODO NOT-IN-ST: nick_agot_the_wild_boar [AGOT: the Bristling Boar]
- nick_agot_the_wild_boar:0 "the Bristling Boar"
+
+ nick_agot_the_wild_boar:0 "Tüyleri Diken Diken Yaban Domuzu"
 
  nick_agot_the_quiet_boar:0 "Sessiz Yaban Domuzu"
 
  nick_agot_the_red_boar:0 "Kanlı Yaban Domuzu"
 
  nick_agot_the_big_boar:0 "Yaban Domuzu"
-### TODO NOT-IN-ST: nick_agot_the_strong_boar [AGOT: Strongboar]
- nick_agot_the_strong_boar:0 "Strongboar"
-### TODO NOT-IN-ST: nick_agot_the_fair_boar [AGOT: the Noble Boar]
- nick_agot_the_fair_boar:0 "the Noble Boar"
+
+ nick_agot_the_strong_boar:0 "Güçlü Yaban Domuzu"
+
+ nick_agot_the_fair_boar:0 "Soylu Yaban Domuzu"
 
  nick_agot_the_ugly_boar:0 "domuz yüzlü"
-### TODO NOT-IN-ST: nick_agot_the_small_boar [AGOT: the Piglet]
- nick_agot_the_small_boar:0 "the Piglet"
+
+ nick_agot_the_small_boar:0 "Domuz Yavrusu"
 
  nick_agot_the_wise_boar:0 "Parlak Yaban Domuzu"
-### TODO NOT-IN-ST: nick_agot_the_dumb_boar [AGOT: the Dumb Boar]
- nick_agot_the_dumb_boar:0 "the Dumb Boar"
+
+ nick_agot_the_dumb_boar:0 "Aptal Yaban Domuzu"
 
  nick_agot_the_dark_boar:0 "Kara Yaban Domuzu"
-### TODO NOT-IN-ST: nick_agot_the_weak_boar [AGOT: the Tuskless]
- nick_agot_the_weak_boar:0 "the Tuskless"
+
+ nick_agot_the_weak_boar:0 "Azı Dişsiz"
 
  nick_agot_the_silver_boar:0 "Gümüş Yaban Domuzu"
 
  nick_agot_the_old_boar:0 "Yaşlı Yaban Domuzu"
-### TODO NOT-IN-ST: nick_agot_the_laughing_boar [AGOT: the Laughing Boar]
- nick_agot_the_laughing_boar:0 "the Laughing Boar"
-### TODO NOT-IN-ST: nick_agot_the_boar_daughter [AGOT: the Boar's Daughter]
- nick_agot_the_boar_daughter:0 "the Boar's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_boarknight [AGOT: the Boar[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_boarknight:0 "the Boar[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_boar:0 "Gülen Yaban Domuzu"
+
+ nick_agot_the_boar_daughter:0 "Yaban Domuzuin Kızı"
+
+ nick_agot_the_boarknight:0 "Yaban Domuzu [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_badger:0 "Kara Porsuk"
 
  nick_agot_the_white_badger:0 "Beyaz Porsuk"
 
  nick_agot_the_crazed_badger:0 "Deli Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_wild_badger [AGOT: the Honey Badger]
- nick_agot_the_wild_badger:0 "the Honey Badger"
-### TODO NOT-IN-ST: nick_agot_the_quiet_badger [AGOT: the Quiet Badger]
- nick_agot_the_quiet_badger:0 "the Quiet Badger"
+
+ nick_agot_the_wild_badger:0 "Bal Porsuk"
+
+ nick_agot_the_quiet_badger:0 "Sessiz Porsuk"
 
  nick_agot_the_red_badger:0 "Kanlı Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_big_badger [AGOT: the Giant Badger]
- nick_agot_the_big_badger:0 "the Giant Badger"
+
+ nick_agot_the_big_badger:0 "Dev Porsuk"
 
  nick_agot_the_strong_badger:0 "Güçlü Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_fair_badger [AGOT: the Noble Badger]
- nick_agot_the_fair_badger:0 "the Noble Badger"
+
+ nick_agot_the_fair_badger:0 "Soylu Porsuk"
 
  nick_agot_the_ugly_badger:0 "Porsuk Yüzlü"
 
  nick_agot_the_small_badger:0 "Küçük Porsuk"
 
  nick_agot_the_wise_badger:0 "Parlak Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_dumb_badger [AGOT: the Dumb Badger]
- nick_agot_the_dumb_badger:0 "the Dumb Badger"
+
+ nick_agot_the_dumb_badger:0 "Aptal Porsuk"
 
  nick_agot_the_dark_badger:0 "Kara Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_weak_badger [AGOT: the Toothless Badger]
- nick_agot_the_weak_badger:0 "the Toothless Badger"
+
+ nick_agot_the_weak_badger:0 "Dişsiz Porsuk"
 
  nick_agot_the_silver_badger:0 "Gümüş Porsuk"
 
  nick_agot_the_old_badger:0 "Yaşlı Porsuk"
-### TODO NOT-IN-ST: nick_agot_the_laughing_badger [AGOT: the Laughing Badger]
- nick_agot_the_laughing_badger:0 "the Laughing Badger"
+
+ nick_agot_the_laughing_badger:0 "Gülen Porsuk"
 
  nick_agot_the_badger_daughter:0 "Porsuğun Kızı"
-### TODO NOT-IN-ST: nick_agot_the_badgerknight [AGOT: the Badger[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_badgerknight:0 "the Badger[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_badgerknight:0 "Porsuk [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_bronze:0 "Kararün"
 
  nick_agot_the_white_bronze:0 "Beyazrün"
-### TODO NOT-IN-ST: nick_agot_the_crazed_bronze [AGOT: the Mad Bronze]
- nick_agot_the_crazed_bronze:0 "the Mad Bronze"
-### TODO NOT-IN-ST: nick_agot_the_wild_bronze [AGOT: Wrothrune]
- nick_agot_the_wild_bronze:0 "Wrothrune"
-### TODO NOT-IN-ST: nick_agot_the_quiet_bronze [AGOT: the Quiet Bronze]
- nick_agot_the_quiet_bronze:0 "the Quiet Bronze"
+
+ nick_agot_the_crazed_bronze:0 "Deli Tunç"
+
+ nick_agot_the_wild_bronze:0 "Gazap Rünü"
+
+ nick_agot_the_quiet_bronze:0 "Sessiz Tunç"
 
  nick_agot_the_red_bronze:0 "Kızılrün"
 
@@ -1279,22 +1279,22 @@
  nick_agot_the_fair_bronze:0 "Altınrün"
 
  nick_agot_the_ugly_bronze:0 "tunç yüz"
-### TODO NOT-IN-ST: nick_agot_the_small_bronze [AGOT: the Little Rune]
- nick_agot_the_small_bronze:0 "the Little Rune"
+
+ nick_agot_the_small_bronze:0 "Küçük Rün"
 
  nick_agot_the_wise_bronze:0 "Parlakrün"
 
  nick_agot_the_dumb_bronze:0 "donuk tunç"
 
  nick_agot_the_dark_bronze:0 "Kararün"
-### TODO NOT-IN-ST: nick_agot_the_weak_bronze [AGOT: the Corroded]
- nick_agot_the_weak_bronze:0 "the Corroded"
+
+ nick_agot_the_weak_bronze:0 "Paslanmış"
 
  nick_agot_the_silver_bronze:0 "Gümüşrün"
-### TODO NOT-IN-ST: nick_agot_the_old_bronze [AGOT: the Old Bronze]
- nick_agot_the_old_bronze:0 "the Old Bronze"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bronze [AGOT: the Laughing Bronze]
- nick_agot_the_laughing_bronze:0 "the Laughing Bronze"
+
+ nick_agot_the_old_bronze:0 "Yaşlı Tunç"
+
+ nick_agot_the_laughing_bronze:0 "Gülen Tunç"
 
  nick_agot_the_bronze_daughter:0 "Tunç Dişi Köpek"
 
@@ -1309,8 +1309,8 @@
  nick_agot_the_white_swan:0 "Beyaz Kuğu"
 
  nick_agot_the_crazed_swan:0 "Delikuğu"
-### TODO NOT-IN-ST: nick_agot_the_wild_swan [AGOT: the Stormy Swan]
- nick_agot_the_wild_swan:0 "the Stormy Swan"
+
+ nick_agot_the_wild_swan:0 "Fırtınalı Kuğu"
 
  nick_agot_the_quiet_swan:0 "Sessiz Kuğu"
 
@@ -1319,70 +1319,70 @@
  nick_agot_the_big_swan:0 "Büyük Kuğu"
 
  nick_agot_the_strong_swan:0 "Güçlükuğu"
-### TODO NOT-IN-ST: nick_agot_the_fair_swan [AGOT: the Splendid Swan]
- nick_agot_the_fair_swan:0 "the Splendid Swan"
-### TODO NOT-IN-ST: nick_agot_the_ugly_swan [AGOT: the Ugly Duckling]
- nick_agot_the_ugly_swan:0 "the Ugly Duckling"
-### TODO NOT-IN-ST: nick_agot_the_small_swan [AGOT: the Cygnet]
- nick_agot_the_small_swan:0 "the Cygnet"
+
+ nick_agot_the_fair_swan:0 "Görkemli Kuğu"
+
+ nick_agot_the_ugly_swan:0 "Çirkin Ördek Yavrusu"
+
+ nick_agot_the_small_swan:0 "Kuğu Yavrusu"
 
  nick_agot_the_wise_swan:0 "Parlakkuğu"
-### TODO NOT-IN-ST: nick_agot_the_dumb_swan [AGOT: the Simple Swan]
- nick_agot_the_dumb_swan:0 "the Simple Swan"
+
+ nick_agot_the_dumb_swan:0 "Basit Kuğu"
 
  nick_agot_the_dark_swan:0 "Karakuğu"
-### TODO NOT-IN-ST: nick_agot_the_weak_swan [AGOT: the Lame Swan]
- nick_agot_the_weak_swan:0 "the Lame Swan"
+
+ nick_agot_the_weak_swan:0 "Topal Kuğu"
 
  nick_agot_the_silver_swan:0 "Gümüş Kuğu"
 
  nick_agot_the_old_swan:0 "Yaşlı Kuğu"
-### TODO NOT-IN-ST: nick_agot_the_laughing_swan [AGOT: the Laughing Swan]
- nick_agot_the_laughing_swan:0 "the Laughing Swan"
-### TODO NOT-IN-ST: nick_agot_the_swan_daughter [AGOT: the Lady Swan]
- nick_agot_the_swan_daughter:0 "the Lady Swan"
-### TODO NOT-IN-ST: nick_agot_the_swanknight [AGOT: the Swan[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_swanknight:0 "the Swan[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_swan:0 "Gülen Kuğu"
+
+ nick_agot_the_swan_daughter:0 "Kuğu Hanım"
+
+ nick_agot_the_swanknight:0 "Kuğu [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_bee:0 "Karaarı"
-### TODO NOT-IN-ST: nick_agot_the_white_bee [AGOT: the White Bee]
- nick_agot_the_white_bee:0 "the White Bee"
-### TODO NOT-IN-ST: nick_agot_the_crazed_bee [AGOT: the Buzzing]
- nick_agot_the_crazed_bee:0 "the Buzzing"
-### TODO NOT-IN-ST: nick_agot_the_wild_bee [AGOT: the Wasp]
- nick_agot_the_wild_bee:0 "the Wasp"
-### TODO NOT-IN-ST: nick_agot_the_quiet_bee [AGOT: the Humming Bee]
- nick_agot_the_quiet_bee:0 "the Humming Bee"
-### TODO NOT-IN-ST: nick_agot_the_red_bee [AGOT: the Red Bee]
- nick_agot_the_red_bee:0 "the Red Bee"
-### TODO NOT-IN-ST: nick_agot_the_big_bee [AGOT: the Hornet]
- nick_agot_the_big_bee:0 "the Hornet"
+
+ nick_agot_the_white_bee:0 "Beyaz Arı"
+
+ nick_agot_the_crazed_bee:0 "Vızıldayan"
+
+ nick_agot_the_wild_bee:0 "Yaban Arısı"
+
+ nick_agot_the_quiet_bee:0 "Vızıldayan Arı"
+
+ nick_agot_the_red_bee:0 "Kızıl Arı"
+
+ nick_agot_the_big_bee:0 "Eşek Arısı"
 
  nick_agot_the_strong_bee:0 "Güçlüarı"
-### TODO NOT-IN-ST: nick_agot_the_fair_bee [AGOT: the Honey Bee]
- nick_agot_the_fair_bee:0 "the Honey Bee"
-### TODO NOT-IN-ST: nick_agot_the_ugly_bee [AGOT: the Ugly Bee]
- nick_agot_the_ugly_bee:0 "the Ugly Bee"
+
+ nick_agot_the_fair_bee:0 "Bal Arı"
+
+ nick_agot_the_ugly_bee:0 "Çirkin Arı"
 
  nick_agot_the_small_bee:0 "Küçükarı"
 
  nick_agot_the_wise_bee:0 "Parlakarı"
-### TODO NOT-IN-ST: nick_agot_the_dumb_bee [AGOT: the Simple Bee]
- nick_agot_the_dumb_bee:0 "the Simple Bee"
+
+ nick_agot_the_dumb_bee:0 "Basit Arı"
 
  nick_agot_the_dark_bee:0 "Karaarı"
-### TODO NOT-IN-ST: nick_agot_the_weak_bee [AGOT: the Stingless]
- nick_agot_the_weak_bee:0 "the Stingless"
-### TODO NOT-IN-ST: nick_agot_the_silver_bee [AGOT: the Silver Bee]
- nick_agot_the_silver_bee:0 "the Silver Bee"
-### TODO NOT-IN-ST: nick_agot_the_old_bee [AGOT: the Old Bee]
- nick_agot_the_old_bee:0 "the Old Bee"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bee [AGOT: the Bumblebee]
- nick_agot_the_laughing_bee:0 "the Bumblebee"
-### TODO NOT-IN-ST: nick_agot_the_bee_daughter [AGOT: the Queen Bee]
- nick_agot_the_bee_daughter:0 "the Queen Bee"
-### TODO NOT-IN-ST: nick_agot_the_beeknight [AGOT: the Bee[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_beeknight:0 "the Bee[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_weak_bee:0 "İğnesiz"
+
+ nick_agot_the_silver_bee:0 "Gümüş Arı"
+
+ nick_agot_the_old_bee:0 "Yaşlı Arı"
+
+ nick_agot_the_laughing_bee:0 "Yaban Arısı"
+
+ nick_agot_the_bee_daughter:0 "Kraliçe Arı"
+
+ nick_agot_the_beeknight:0 "Arı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_stinger:0 "İğneli"
 
@@ -1391,8 +1391,8 @@
  nick_agot_the_white_turtle:0 "Beyaz Kaplumbağa"
 
  nick_agot_the_crazed_turtle:0 "Deli Kaplumbağa"
-### TODO NOT-IN-ST: nick_agot_the_wild_turtle [AGOT: the Snapping Turtle]
- nick_agot_the_wild_turtle:0 "the Snapping Turtle"
+
+ nick_agot_the_wild_turtle:0 "Isıran Kaplumbağa"
 
  nick_agot_the_quiet_turtle:0 "Sessiz Kaplumbağa"
 
@@ -1403,68 +1403,68 @@
  nick_agot_the_strong_turtle:0 "Güçlükabuk"
 
  nick_agot_the_fair_turtle:0 "Altınkabuk"
-### TODO NOT-IN-ST: nick_agot_the_ugly_turtle [AGOT: the Ugly Turtle]
- nick_agot_the_ugly_turtle:0 "the Ugly Turtle"
+
+ nick_agot_the_ugly_turtle:0 "Çirkin Kaplumbağa"
 
  nick_agot_the_small_turtle:0 "Küçük Kaplumbağa"
-### TODO NOT-IN-ST: nick_agot_the_wise_turtle [AGOT: the Sage Turtle]
- nick_agot_the_wise_turtle:0 "the Sage Turtle"
-### TODO NOT-IN-ST: nick_agot_the_dumb_turtle [AGOT: the Slow Turtle]
- nick_agot_the_dumb_turtle:0 "the Slow Turtle"
+
+ nick_agot_the_wise_turtle:0 "Bilge Kaplumbağa"
+
+ nick_agot_the_dumb_turtle:0 "Yavaş Kaplumbağa"
 
  nick_agot_the_dark_turtle:0 "Karakabuk"
-### TODO NOT-IN-ST: nick_agot_the_weak_turtle [AGOT: the Trembling Turtle]
- nick_agot_the_weak_turtle:0 "the Trembling Turtle"
+
+ nick_agot_the_weak_turtle:0 "Titreyen Kaplumbağa"
 
  nick_agot_the_silver_turtle:0 "Gümüşkabuk"
-### TODO NOT-IN-ST: nick_agot_the_old_turtle [AGOT: the Tortoise]
- nick_agot_the_old_turtle:0 "the Tortoise"
-### TODO NOT-IN-ST: nick_agot_the_laughing_turtle [AGOT: the Laughing Turtle]
- nick_agot_the_laughing_turtle:0 "the Laughing Turtle"
-### TODO NOT-IN-ST: nick_agot_the_turtle_daughter [AGOT: the Turtle's Daughter]
- nick_agot_the_turtle_daughter:0 "the Turtle's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_turtleknight [AGOT: the Turtle[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_turtleknight:0 "the Turtle[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_old_turtle:0 "Kara Kaplumbağası"
+
+ nick_agot_the_laughing_turtle:0 "Gülen Kaplumbağa"
+
+ nick_agot_the_turtle_daughter:0 "Kaplumbağain Kızı"
+
+ nick_agot_the_turtleknight:0 "Kaplumbağa [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_arrow:0 "Kara Ok"
 
  nick_agot_the_white_arrow:0 "Beyaz Ok"
 
  nick_agot_the_crazed_arrow:0 "Deli Ok"
-### TODO NOT-IN-ST: nick_agot_the_wild_arrow [AGOT: the Bodkin]
- nick_agot_the_wild_arrow:0 "the Bodkin"
-### TODO NOT-IN-ST: nick_agot_the_quiet_arrow [AGOT: the Still Arrow]
- nick_agot_the_quiet_arrow:0 "the Still Arrow"
+
+ nick_agot_the_wild_arrow:0 "Biz"
+
+ nick_agot_the_quiet_arrow:0 "Durgun Ok"
 
  nick_agot_the_red_arrow:0 "kızıl ok"
 
  nick_agot_the_big_arrow:0 "Uzun Yay"
-### TODO NOT-IN-ST: nick_agot_the_strong_arrow [AGOT: Strongbow]
- nick_agot_the_strong_arrow:0 "Strongbow"
-### TODO NOT-IN-ST: nick_agot_the_fair_arrow [AGOT: the Fetching Fletcher]
- nick_agot_the_fair_arrow:0 "the Fetching Fletcher"
+
+ nick_agot_the_strong_arrow:0 "Güçlü Yay"
+
+ nick_agot_the_fair_arrow:0 "Çekici Okçu"
 
  nick_agot_the_ugly_arrow:0 "Eğik Ok"
 
  nick_agot_the_small_arrow:0 "Kısa Yay"
-### TODO NOT-IN-ST: nick_agot_the_wise_arrow [AGOT: the Quiver]
- nick_agot_the_wise_arrow:0 "the Quiver"
-### TODO NOT-IN-ST: nick_agot_the_dumb_arrow [AGOT: the Blunt Arrow]
- nick_agot_the_dumb_arrow:0 "the Blunt Arrow"
+
+ nick_agot_the_wise_arrow:0 "Okdanlık"
+
+ nick_agot_the_dumb_arrow:0 "Küt Ok"
 
  nick_agot_the_dark_arrow:0 "kara yay"
-### TODO NOT-IN-ST: nick_agot_the_weak_arrow [AGOT: the Snapped Arrow]
- nick_agot_the_weak_arrow:0 "the Snapped Arrow"
+
+ nick_agot_the_weak_arrow:0 "Kırılmış Ok"
 
  nick_agot_the_silver_arrow:0 "gümüş baş"
 
  nick_agot_the_old_arrow:0 "Yaşlı Ok"
-### TODO NOT-IN-ST: nick_agot_the_laughing_arrow [AGOT: the Whistling Arrow]
- nick_agot_the_laughing_arrow:0 "the Whistling Arrow"
+
+ nick_agot_the_laughing_arrow:0 "Islık Çalan Ok"
 
  nick_agot_the_arrow_daughter:0 "Okun Kızı"
-### TODO NOT-IN-ST: nick_agot_the_arrowknight [AGOT: the Arrow[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_arrowknight:0 "the Arrow[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_arrowknight:0 "Ok [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_apple:0 "Kara Elma"
 
@@ -1473,28 +1473,28 @@
  nick_agot_the_crazed_apple:0 "Yengeç Elması"
 
  nick_agot_the_wild_apple:0 "Kötü Elma"
-### TODO NOT-IN-ST: nick_agot_the_quiet_apple [AGOT: the Still Apple]
- nick_agot_the_quiet_apple:0 "the Still Apple"
+
+ nick_agot_the_quiet_apple:0 "Durgun Elma"
 
  nick_agot_the_red_apple:0 "Kızıl Elma"
-### TODO NOT-IN-ST: nick_agot_the_big_apple [AGOT: the Bushel]
- nick_agot_the_big_apple:0 "the Bushel"
+
+ nick_agot_the_big_apple:0 "Kile"
 
  nick_agot_the_strong_apple:0 "Elma Ağacı"
 
  nick_agot_the_fair_apple:0 "Altın Elma"
-### TODO NOT-IN-ST: nick_agot_the_ugly_apple [AGOT: the Worm in the Apple]
- nick_agot_the_ugly_apple:0 "the Worm in the Apple"
+
+ nick_agot_the_ugly_apple:0 "Elmadaki Kurt"
 
  nick_agot_the_small_apple:0 "Küçük Elma"
-### TODO NOT-IN-ST: nick_agot_the_wise_apple [AGOT: the Good Apple]
- nick_agot_the_wise_apple:0 "the Good Apple"
-### TODO NOT-IN-ST: nick_agot_the_dumb_apple [AGOT: the Unripe]
- nick_agot_the_dumb_apple:0 "the Unripe"
-### TODO NOT-IN-ST: nick_agot_the_dark_apple [AGOT: the Poison Apple]
- nick_agot_the_dark_apple:0 "the Poison Apple"
-### TODO NOT-IN-ST: nick_agot_the_weak_apple [AGOT: the Rotten Apple]
- nick_agot_the_weak_apple:0 "the Rotten Apple"
+
+ nick_agot_the_wise_apple:0 "İyi Elma"
+
+ nick_agot_the_dumb_apple:0 "Olgunlaşmamış"
+
+ nick_agot_the_dark_apple:0 "Zehirli Elma"
+
+ nick_agot_the_weak_apple:0 "Çürük Elma"
 
  nick_agot_the_silver_apple:0 "Gümüş Elma"
 
@@ -1511,38 +1511,38 @@
  nick_agot_the_white_peacock:0 "Beyaz Tavus Kuşu"
 
  nick_agot_the_crazed_peacock:0 "Deli Tavus Kuşu"
-### TODO NOT-IN-ST: nick_agot_the_wild_peacock [AGOT: the Wroth Peacock]
- nick_agot_the_wild_peacock:0 "the Wroth Peacock"
-### TODO NOT-IN-ST: nick_agot_the_quiet_peacock [AGOT: the Muted Peacock]
- nick_agot_the_quiet_peacock:0 "the Muted Peacock"
+
+ nick_agot_the_wild_peacock:0 "Gazap Dolu Tavus Kuşu"
+
+ nick_agot_the_quiet_peacock:0 "Sönük Tavus Kuşu"
 
  nick_agot_the_red_peacock:0 "Kızıl Tavus Kuşu"
 
  nick_agot_the_big_peacock:0 "Büyük Tavus Kuşu"
 
  nick_agot_the_strong_peacock:0 "Güçlü Tavus Kuşu"
-### TODO NOT-IN-ST: nick_agot_the_fair_peacock [AGOT: the Peacock's Plume]
- nick_agot_the_fair_peacock:0 "the Peacock's Plume"
-### TODO NOT-IN-ST: nick_agot_the_ugly_peacock [AGOT: the Featherless]
- nick_agot_the_ugly_peacock:0 "the Featherless"
-### TODO NOT-IN-ST: nick_agot_the_small_peacock [AGOT: the Tiny Peacock]
- nick_agot_the_small_peacock:0 "the Tiny Peacock"
+
+ nick_agot_the_fair_peacock:0 "Tavus Kuşunun Tüyü"
+
+ nick_agot_the_ugly_peacock:0 "Tüysüz"
+
+ nick_agot_the_small_peacock:0 "Minicik Tavus Kuşu"
 
  nick_agot_the_wise_peacock:0 "Bilge Tavus Kuşu"
-### TODO NOT-IN-ST: nick_agot_the_dumb_peacock [AGOT: the Stupid Peacock]
- nick_agot_the_dumb_peacock:0 "the Stupid Peacock"
+
+ nick_agot_the_dumb_peacock:0 "Aptal Tavus Kuşu"
 
  nick_agot_the_dark_peacock:0 "Kara Tavus Kuşu"
-### TODO NOT-IN-ST: nick_agot_the_weak_peacock [AGOT: the Weak Peacock]
- nick_agot_the_weak_peacock:0 "the Weak Peacock"
+
+ nick_agot_the_weak_peacock:0 "Zayıf Tavus Kuşu"
 
  nick_agot_the_silver_peacock:0 "Gümüş Tavus Kuşu"
 
  nick_agot_the_old_peacock:0 "Yaşlı Tavus Kuşu"
-### TODO NOT-IN-ST: nick_agot_the_laughing_peacock [AGOT: the Preening Peacock]
- nick_agot_the_laughing_peacock:0 "the Preening Peacock"
-### TODO NOT-IN-ST: nick_agot_the_peacock_daughter [AGOT: the Peahen]
- nick_agot_the_peacock_daughter:0 "the Peahen"
+
+ nick_agot_the_laughing_peacock:0 "Tüylerini Düzelten Tavus Kuşu"
+
+ nick_agot_the_peacock_daughter:0 "Dişi Tavus Kuşu"
 
  nick_agot_the_peacockknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Peacocks"
 
@@ -1551,8 +1551,8 @@
  nick_agot_the_white_scythe:0 "Beyaz Tırpan"
 
  nick_agot_the_crazed_scythe:0 "Deli Tırpan"
-### TODO NOT-IN-ST: nick_agot_the_wild_scythe [AGOT: the War Scythe]
- nick_agot_the_wild_scythe:0 "the War Scythe"
+
+ nick_agot_the_wild_scythe:0 "Savaş Tırpan"
 
  nick_agot_the_quiet_scythe:0 "Sessiz Tırpan"
 
@@ -1561,94 +1561,94 @@
  nick_agot_the_big_scythe:0 "Büyük Tırpan"
 
  nick_agot_the_strong_scythe:0 "Güçlütırpan"
-### TODO NOT-IN-ST: nick_agot_the_fair_scythe [AGOT: the Glimmering Scythe]
- nick_agot_the_fair_scythe:0 "the Glimmering Scythe"
+
+ nick_agot_the_fair_scythe:0 "Parıldayan Tırpan"
 
  nick_agot_the_ugly_scythe:0 "Eğik Tırpan"
-### TODO NOT-IN-ST: nick_agot_the_small_scythe [AGOT: the Sickle]
- nick_agot_the_small_scythe:0 "the Sickle"
-### TODO NOT-IN-ST: nick_agot_the_wise_scythe [AGOT: the Shrewd Scythe]
- nick_agot_the_wise_scythe:0 "the Shrewd Scythe"
-### TODO NOT-IN-ST: nick_agot_the_dumb_scythe [AGOT: the Shovel]
- nick_agot_the_dumb_scythe:0 "the Shovel"
+
+ nick_agot_the_small_scythe:0 "Orak"
+
+ nick_agot_the_wise_scythe:0 "Kurnaz Tırpan"
+
+ nick_agot_the_dumb_scythe:0 "Kürek"
 
  nick_agot_the_dark_scythe:0 "Karatırpan"
-### TODO NOT-IN-ST: nick_agot_the_weak_scythe [AGOT: the Hoe]
- nick_agot_the_weak_scythe:0 "the Hoe" #get rekt
+
+ nick_agot_the_weak_scythe:0 "Çapa" #get rekt
 
  nick_agot_the_silver_scythe:0 "Gümüştırpan"
 
  nick_agot_the_old_scythe:0 "Yaşlı Tırpan"
-### TODO NOT-IN-ST: nick_agot_the_laughing_scythe [AGOT: the Laughing Scythe]
- nick_agot_the_laughing_scythe:0 "the Laughing Scythe"
-### TODO NOT-IN-ST: nick_agot_the_scythe_daughter [AGOT: the Scythe Maiden]
- nick_agot_the_scythe_daughter:0 "the Scythe Maiden"
-### TODO NOT-IN-ST: nick_agot_the_scytheknight [AGOT: the Scythe[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_scytheknight:0 "the Scythe[CHARACTER.Custom('GetWarriorNickname')]"
-### TODO NOT-IN-ST: nick_agot_the_reaper [AGOT: the Reaper]
- nick_agot_the_reaper:0 "the Reaper"
+
+ nick_agot_the_laughing_scythe:0 "Gülen Tırpan"
+
+ nick_agot_the_scythe_daughter:0 "Tırpan Bakire"
+
+ nick_agot_the_scytheknight:0 "Tırpan [CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_reaper:0 "Biçici"
 
  nick_agot_the_black_horn:0 "Karaboynuz"
 
  nick_agot_the_white_horn:0 "Beyazboynuz"
-### TODO NOT-IN-ST: nick_agot_the_crazed_horn [AGOT: the Mad Horn]
- nick_agot_the_crazed_horn:0 "the Mad Horn"
+
+ nick_agot_the_crazed_horn:0 "Deli Boynuz"
 
  nick_agot_the_wild_horn:0 "Kızılboynuz"
-### TODO NOT-IN-ST: nick_agot_the_quiet_horn [AGOT: the Noiseless]
- nick_agot_the_quiet_horn:0 "the Noiseless"
-### TODO NOT-IN-ST: nick_agot_the_red_horn [AGOT: the War Horn]
- nick_agot_the_red_horn:0 "the War Horn"
-### TODO NOT-IN-ST: nick_agot_the_big_horn [AGOT: the Horn o' Plenty]
- nick_agot_the_big_horn:0 "the Horn o' Plenty"
+
+ nick_agot_the_quiet_horn:0 "Sessiz"
+
+ nick_agot_the_red_horn:0 "Savaş Boynuz"
+
+ nick_agot_the_big_horn:0 "Bereket Boynuzu"
 
  nick_agot_the_strong_horn:0 "Güçlüboynuz"
-### TODO NOT-IN-ST: nick_agot_the_fair_horn [AGOT: the Cornucopia]
- nick_agot_the_fair_horn:0 "the Cornucopia"
-### TODO NOT-IN-ST: nick_agot_the_ugly_horn [AGOT: the Empty Horn]
- nick_agot_the_ugly_horn:0 "the Empty Horn"
-### TODO NOT-IN-ST: nick_agot_the_small_horn [AGOT: the Small Horn]
- nick_agot_the_small_horn:0 "the Small Horn"
+
+ nick_agot_the_fair_horn:0 "Bereket Boynuzu"
+
+ nick_agot_the_ugly_horn:0 "Boş Boynuz"
+
+ nick_agot_the_small_horn:0 "Küçük Boynuz"
 
  nick_agot_the_wise_horn:0 "Altınboynuz"
-### TODO NOT-IN-ST: nick_agot_the_dumb_horn [AGOT: the Slow Horn]
- nick_agot_the_dumb_horn:0 "the Slow Horn"
+
+ nick_agot_the_dumb_horn:0 "Yavaş Boynuz"
 
  nick_agot_the_dark_horn:0 "Karaboynuz"
-### TODO NOT-IN-ST: nick_agot_the_weak_horn [AGOT: the Trumpet]
- nick_agot_the_weak_horn:0 "the Trumpet"
+
+ nick_agot_the_weak_horn:0 "Borazan"
 
  nick_agot_the_silver_horn:0 "Gümüşboynuz"
-### TODO NOT-IN-ST: nick_agot_the_old_horn [AGOT: the Old Horn]
- nick_agot_the_old_horn:0 "the Old Horn"
-### TODO NOT-IN-ST: nick_agot_the_laughing_horn [AGOT: the Mead Horn]
- nick_agot_the_laughing_horn:0 "the Mead Horn"
-### TODO NOT-IN-ST: nick_agot_the_horn_daughter [AGOT: the Blower's Daughter]
- nick_agot_the_horn_daughter:0 "the Blower's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_hornknight [AGOT: the Horn[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_hornknight:0 "the Horn[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_old_horn:0 "Yaşlı Boynuz"
+
+ nick_agot_the_laughing_horn:0 "Bal Şarabı Boynuzu"
+
+ nick_agot_the_horn_daughter:0 "Üfleyicinin Kızı"
+
+ nick_agot_the_hornknight:0 "Boynuz [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_hornknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Horns"
 
  nick_agot_the_black_lightning:0 "Karacıvata"
-### TODO NOT-IN-ST: nick_agot_the_white_lightning [AGOT: White Lightning]
- nick_agot_the_white_lightning:0 "White Lightning"
+
+ nick_agot_the_white_lightning:0 "Beyaz Şimşek"
 
  nick_agot_the_crazed_lightning:0 "Deli Şimşek"
-### TODO NOT-IN-ST: nick_agot_the_wild_lightning [AGOT: the Storm Cloud]
- nick_agot_the_wild_lightning:0 "the Storm Cloud"
-### TODO NOT-IN-ST: nick_agot_the_quiet_lightning [AGOT: Thunderless]
- nick_agot_the_quiet_lightning:0 "Thunderless"
+
+ nick_agot_the_wild_lightning:0 "Fırtına Bulutu"
+
+ nick_agot_the_quiet_lightning:0 "Gök Gürültüsüz"
 
  nick_agot_the_red_lightning:0 "Kızılcıvata"
 
  nick_agot_the_big_lightning:0 "Güçlücıvata"
-### TODO NOT-IN-ST: nick_agot_the_strong_lightning [AGOT: the Lightning Storm]
- nick_agot_the_strong_lightning:0 "the Lightning Storm"
+
+ nick_agot_the_strong_lightning:0 "Şimşek Fırtına"
 
  nick_agot_the_fair_lightning:0 "Güzel Cıvata"
-### TODO NOT-IN-ST: nick_agot_the_ugly_lightning [AGOT: the Ugly Bolt]
- nick_agot_the_ugly_lightning:0 "the Ugly Bolt"
+
+ nick_agot_the_ugly_lightning:0 "Çirkin Cıvata"
 
  nick_agot_the_small_lightning:0 "Küçük Şimşek"
 
@@ -1657,58 +1657,58 @@
  nick_agot_the_dumb_lightning:0 "donuk cıvata"
 
  nick_agot_the_dark_lightning:0 "Karacıvata"
-### TODO NOT-IN-ST: nick_agot_the_weak_lightning [AGOT: the Gust]
- nick_agot_the_weak_lightning:0 "the Gust"
+
+ nick_agot_the_weak_lightning:0 "Rüzgâr Püskürtüsü"
 
  nick_agot_the_silver_lightning:0 "Gümüşcıvata"
 
  nick_agot_the_old_lightning:0 "Gri Fırtına"
-### TODO NOT-IN-ST: nick_agot_the_laughing_lightning [AGOT: the Crackling Bolt]
- nick_agot_the_laughing_lightning:0 "the Crackling Bolt"
-### TODO NOT-IN-ST: nick_agot_the_lightning_daughter [AGOT: the Lightning's Daughter]
- nick_agot_the_lightning_daughter:0 "the Lightning's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_lightningknight [AGOT: the Lightning[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_lightningknight:0 "the Lightning[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_lightning:0 "Çıtırdayan Cıvata"
+
+ nick_agot_the_lightning_daughter:0 "Şimşekin Kızı"
+
+ nick_agot_the_lightningknight:0 "Şimşek [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_pipe:0 "Kara Kaval"
 
  nick_agot_the_white_pipe:0 "Beyaz Kaval"
 
  nick_agot_the_crazed_pipe:0 "Deli Kaval"
-### TODO NOT-IN-ST: nick_agot_the_wild_pipe [AGOT: the Smoking Pipe]
- nick_agot_the_wild_pipe:0 "the Smoking Pipe"
-### TODO NOT-IN-ST: nick_agot_the_quiet_pipe [AGOT: the Quiet Pipe]
- nick_agot_the_quiet_pipe:0 "the Quiet Pipe"
+
+ nick_agot_the_wild_pipe:0 "Dumanlı Kaval"
+
+ nick_agot_the_quiet_pipe:0 "Sessiz Kaval"
 
  nick_agot_the_red_pipe:0 "kızıl kaval"
-### TODO NOT-IN-ST: nick_agot_the_big_pipe [AGOT: the Full Pipe]
- nick_agot_the_big_pipe:0 "the Full Pipe"
+
+ nick_agot_the_big_pipe:0 "Dolu Kaval"
 
  nick_agot_the_strong_pipe:0 "Duman Bacası"
 
  nick_agot_the_fair_pipe:0 "Altın Kaval"
-### TODO NOT-IN-ST: nick_agot_the_ugly_pipe [AGOT: the Ugly Pipe]
- nick_agot_the_ugly_pipe:0 "the Ugly Pipe"
+
+ nick_agot_the_ugly_pipe:0 "Çirkin Kaval"
 
  nick_agot_the_small_pipe:0 "Küçük Kaval"
-### TODO NOT-IN-ST: nick_agot_the_wise_pipe [AGOT: the Sage Pipe]
- nick_agot_the_wise_pipe:0 "the Sage Pipe"
-### TODO NOT-IN-ST: nick_agot_the_dumb_pipe [AGOT: the Vapid Pipe]
- nick_agot_the_dumb_pipe:0 "the Vapid Pipe"
+
+ nick_agot_the_wise_pipe:0 "Bilge Kaval"
+
+ nick_agot_the_dumb_pipe:0 "Yavan Kaval"
 
  nick_agot_the_dark_pipe:0 "kara kaval"
-### TODO NOT-IN-ST: nick_agot_the_weak_pipe [AGOT: the Cracked Pipe]
- nick_agot_the_weak_pipe:0 "the Cracked Pipe"
+
+ nick_agot_the_weak_pipe:0 "Çatlak Kaval"
 
  nick_agot_the_silver_pipe:0 "gümüş kaval"
 
  nick_agot_the_old_pipe:0 "Yaşlı Kaval"
 
  nick_agot_the_laughing_pipe:0 "Dalgalanan Kaval"
-### TODO NOT-IN-ST: nick_agot_the_pipe_daughter [AGOT: the Maid of Piper]
- nick_agot_the_pipe_daughter:0 "the Maid of Piper"
-### TODO NOT-IN-ST: nick_agot_the_pipeknight [AGOT: the Smoke[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_pipeknight:0 "the Smoke[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_pipe_daughter:0 "Piper Bakiresi"
+
+ nick_agot_the_pipeknight:0 "Duman [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_pipeknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Pipes"
 
@@ -1717,26 +1717,26 @@
  nick_agot_the_white_crab:0 "Beyaz Yengeç"
 
  nick_agot_the_crazed_crab:0 "Deli Yengeç"
-### TODO NOT-IN-ST: nick_agot_the_wild_crab [AGOT: the Snapping Crab]
- nick_agot_the_wild_crab:0 "the Snapping Crab"
-### TODO NOT-IN-ST: nick_agot_the_quiet_crab [AGOT: the Quiet Crab]
- nick_agot_the_quiet_crab:0 "the Quiet Crab"
+
+ nick_agot_the_wild_crab:0 "Isıran Yengeç"
+
+ nick_agot_the_quiet_crab:0 "Sessiz Yengeç"
 
  nick_agot_the_red_crab:0 "Kızıl Yengeç"
-### TODO NOT-IN-ST: nick_agot_the_big_crab [AGOT: the Spider Crab]
- nick_agot_the_big_crab:0 "the Spider Crab"
+
+ nick_agot_the_big_crab:0 "Örümcek Yengeci"
 
  nick_agot_the_strong_crab:0 "Sert Kabuk"
 
  nick_agot_the_fair_crab:0 "Altın Yengeç"
-### TODO NOT-IN-ST: nick_agot_the_ugly_crab [AGOT: the Cracked Crab]
- nick_agot_the_ugly_crab:0 "the Cracked Crab"
-### TODO NOT-IN-ST: nick_agot_the_small_crab [AGOT: the Crabling]
- nick_agot_the_small_crab:0 "the Crabling"
+
+ nick_agot_the_ugly_crab:0 "Çatlak Yengeç"
+
+ nick_agot_the_small_crab:0 "Yengeç Yavrusu"
 
  nick_agot_the_wise_crab:0 "Keskinpençe"
-### TODO NOT-IN-ST: nick_agot_the_dumb_crab [AGOT: the Mudcrab]
- nick_agot_the_dumb_crab:0 "the Mudcrab"
+
+ nick_agot_the_dumb_crab:0 "Çamur Yengeci"
 
  nick_agot_the_dark_crab:0 "Karayengeç"
 
@@ -1745,12 +1745,12 @@
  nick_agot_the_silver_crab:0 "Gümüş Yengeç"
 
  nick_agot_the_old_crab:0 "Yaşlı Yengeç"
-### TODO NOT-IN-ST: nick_agot_the_laughing_crab [AGOT: the Cackling Crab]
- nick_agot_the_laughing_crab:0 "the Cackling Crab"
-### TODO NOT-IN-ST: nick_agot_the_crab_daughter [AGOT: the Crab's Daughter]
- nick_agot_the_crab_daughter:0 "the Crab's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_crabknight [AGOT: the Crab[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_crabknight:0 "the Crab[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_crab:0 "Kıkırdayan Yengeç"
+
+ nick_agot_the_crab_daughter:0 "Yengeçin Kızı"
+
+ nick_agot_the_crabknight:0 "Yengeç [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_crabknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Crabs"
 
@@ -1759,8 +1759,8 @@
  nick_agot_the_white_scorpion:0 "Beyaz Akrep"
 
  nick_agot_the_crazed_scorpion:0 "Deli Akrep"
-### TODO NOT-IN-ST: nick_agot_the_wild_scorpion [AGOT: the Scorpion's Sting]
- nick_agot_the_wild_scorpion:0 "the Scorpion's Sting"
+
+ nick_agot_the_wild_scorpion:0 "Akrep İğnesi"
 
  nick_agot_the_quiet_scorpion:0 "Sessiz Akrep"
 
@@ -1771,116 +1771,116 @@
  nick_agot_the_strong_scorpion:0 "Güçlü Akrep"
 
  nick_agot_the_fair_scorpion:0 "Altın Akrep"
-### TODO NOT-IN-ST: nick_agot_the_ugly_scorpion [AGOT: the Cracked scorpion]
- nick_agot_the_ugly_scorpion:0 "the Cracked scorpion"
+
+ nick_agot_the_ugly_scorpion:0 "Çatlak Akrep"
 
  nick_agot_the_small_scorpion:0 "Küçük Akrep"
 
  nick_agot_the_wise_scorpion:0 "keskin iğne"
-### TODO NOT-IN-ST: nick_agot_the_dumb_scorpion [AGOT: the Stupid Scorpion]
- nick_agot_the_dumb_scorpion:0 "the Stupid Scorpion"
-### TODO NOT-IN-ST: nick_agot_the_dark_scorpion [AGOT: the Venomous]
- nick_agot_the_dark_scorpion:0 "the Venomous"
+
+ nick_agot_the_dumb_scorpion:0 "Aptal Akrep"
+
+ nick_agot_the_dark_scorpion:0 "Zehirli"
 
  nick_agot_the_weak_scorpion:0 "Yumuşak Kabuk"
 
  nick_agot_the_silver_scorpion:0 "Gümüş Akrep"
 
  nick_agot_the_old_scorpion:0 "Yaşlı Akrep"
-### TODO NOT-IN-ST: nick_agot_the_laughing_scorpion [AGOT: the Cackling Scorpion]
- nick_agot_the_laughing_scorpion:0 "the Cackling Scorpion"
-### TODO NOT-IN-ST: nick_agot_the_scorpion_daughter [AGOT: the Scorpion's Daughter]
- nick_agot_the_scorpion_daughter:0 "the Scorpion's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_scorpionknight [AGOT: the Scorpion[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_scorpionknight:0 "the Scorpion[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_scorpion:0 "Kıkırdayan Akrep"
+
+ nick_agot_the_scorpion_daughter:0 "Akrepin Kızı"
+
+ nick_agot_the_scorpionknight:0 "Akrep [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_scorpionknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Scorpions"
 
  nick_agot_the_black_huntsman:0 "Kara Avcı"
 
  nick_agot_the_white_huntsman:0 "Beyaz Avcı"
-### TODO NOT-IN-ST: nick_agot_the_crazed_huntsman [AGOT: the Headless Huntsman]
- nick_agot_the_crazed_huntsman:0 "the Headless Huntsman"
+
+ nick_agot_the_crazed_huntsman:0 "Başsız Avcı"
 
  nick_agot_the_wild_huntsman:0 "İlkbahar Tuzağı"
-### TODO NOT-IN-ST: nick_agot_the_quiet_huntsman [AGOT: the Stalking Hunter]
- nick_agot_the_quiet_huntsman:0 "the Stalking Hunter"
+
+ nick_agot_the_quiet_huntsman:0 "Sinsice İzleyen Avcı"
 
  nick_agot_the_red_huntsman:0 "Kızıl Avcı"
 
  nick_agot_the_big_huntsman:0 "Büyük Avcı"
 
  nick_agot_the_strong_huntsman:0 "Canavar Katili"
-### TODO NOT-IN-ST: nick_agot_the_fair_huntsman [AGOT: the Handsome Hunter]
- nick_agot_the_fair_huntsman:0 "the Handsome Hunter"
-### TODO NOT-IN-ST: nick_agot_the_ugly_huntsman [AGOT: the Hideous Hunter]
- nick_agot_the_ugly_huntsman:0 "the Hideous Hunter"
+
+ nick_agot_the_fair_huntsman:0 "Yakışıklı Avcı"
+
+ nick_agot_the_ugly_huntsman:0 "Çirkin Avcı"
 
  nick_agot_the_small_huntsman:0 "Küçük Avcı"
-### TODO NOT-IN-ST: nick_agot_the_wise_huntsman [AGOT: the Wise Woodsman]
- nick_agot_the_wise_huntsman:0 "the Wise Woodsman"
-### TODO NOT-IN-ST: nick_agot_the_dumb_huntsman [AGOT: the Lost Tracker]
- nick_agot_the_dumb_huntsman:0 "the Lost Tracker"
-### TODO NOT-IN-ST: nick_agot_the_dark_huntsman [AGOT: the Trapper]
- nick_agot_the_dark_huntsman:0 "the Trapper"
-### TODO NOT-IN-ST: nick_agot_the_weak_huntsman [AGOT: the Lame Hunter]
- nick_agot_the_weak_huntsman:0 "the Lame Hunter"
+
+ nick_agot_the_wise_huntsman:0 "Bilge Orman Adamı"
+
+ nick_agot_the_dumb_huntsman:0 "Kayıp İzci"
+
+ nick_agot_the_dark_huntsman:0 "Tuzakçı"
+
+ nick_agot_the_weak_huntsman:0 "Topal Avcı"
 
  nick_agot_the_silver_huntsman:0 "Gümüş Avcı"
-### TODO NOT-IN-ST: nick_agot_the_old_huntsman [AGOT: the Gamekeeper]
- nick_agot_the_old_huntsman:0 "the Gamekeeper"
-### TODO NOT-IN-ST: nick_agot_the_laughing_huntsman [AGOT: the Laughing Huntsman]
- nick_agot_the_laughing_huntsman:0 "the Laughing Huntsman"
-### TODO NOT-IN-ST: nick_agot_the_huntsman_daughter [AGOT: the Huntsman's Daughter]
- nick_agot_the_huntsman_daughter:0 "the Huntsman's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_huntsmanknight [AGOT: the Hunter[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_huntsmanknight:0 "the Hunter[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_old_huntsman:0 "Av Bekçisi"
+
+ nick_agot_the_laughing_huntsman:0 "Gülen Avcı"
+
+ nick_agot_the_huntsman_daughter:0 "Avcıin Kızı"
+
+ nick_agot_the_huntsmanknight:0 "Avcı [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_rooster:0 "Kara Bantam"
-### TODO NOT-IN-ST: nick_agot_the_white_rooster [AGOT: the White Rooster]
- nick_agot_the_white_rooster:0 "the White Rooster"
-### TODO NOT-IN-ST: nick_agot_the_crazed_rooster [AGOT: the Mad Rooster]
- nick_agot_the_crazed_rooster:0 "the Mad Rooster"
-### TODO NOT-IN-ST: nick_agot_the_wild_rooster [AGOT: the Swaggering Cock]
- nick_agot_the_wild_rooster:0 "the Swaggering Cock"
-### TODO NOT-IN-ST: nick_agot_the_quiet_rooster [AGOT: the Crowless]
- nick_agot_the_quiet_rooster:0 "the Crowless"
+
+ nick_agot_the_white_rooster:0 "Beyaz Horoz"
+
+ nick_agot_the_crazed_rooster:0 "Deli Horoz"
+
+ nick_agot_the_wild_rooster:0 "Çalımlı Horoz"
+
+ nick_agot_the_quiet_rooster:0 "Kuzgunsuz"
 
  nick_agot_the_red_rooster:0 "kızıl horoz"
 
  nick_agot_the_big_rooster:0 "Büyük Bantam"
-### TODO NOT-IN-ST: nick_agot_the_strong_rooster [AGOT: the Strong Rooster]
- nick_agot_the_strong_rooster:0 "the Strong Rooster"
-### TODO NOT-IN-ST: nick_agot_the_fair_rooster [AGOT: the Ravishing Rooster]
- nick_agot_the_fair_rooster:0 "the Ravishing Rooster"
-### TODO NOT-IN-ST: nick_agot_the_ugly_rooster [AGOT: the Ugly Rooster]
- nick_agot_the_ugly_rooster:0 "the Ugly Rooster"
-### TODO NOT-IN-ST: nick_agot_the_small_rooster [AGOT: the Chick]
- nick_agot_the_small_rooster:0 "the Chick"
-### TODO NOT-IN-ST: nick_agot_the_wise_rooster [AGOT: the Sage Rooster]
- nick_agot_the_wise_rooster:0 "the Sage Rooster"
+
+ nick_agot_the_strong_rooster:0 "Güçlü Horoz"
+
+ nick_agot_the_fair_rooster:0 "Büyüleyici Horoz"
+
+ nick_agot_the_ugly_rooster:0 "Çirkin Horoz"
+
+ nick_agot_the_small_rooster:0 "Civciv"
+
+ nick_agot_the_wise_rooster:0 "Bilge Horoz"
 
  nick_agot_the_dumb_rooster:0 "Horoz İbikli"
-### TODO NOT-IN-ST: nick_agot_the_dark_rooster [AGOT: the Dark Cockrel]
- nick_agot_the_dark_rooster:0 "the Dark Cockrel"
-### TODO NOT-IN-ST: nick_agot_the_weak_rooster [AGOT: the Capon]
- nick_agot_the_weak_rooster:0 "the Capon"
-### TODO NOT-IN-ST: nick_agot_the_silver_rooster [AGOT: the Silver Rooster]
- nick_agot_the_silver_rooster:0 "the Silver Rooster"
-### TODO NOT-IN-ST: nick_agot_the_old_rooster [AGOT: the Old Rooster]
- nick_agot_the_old_rooster:0 "the Old Rooster"
-### TODO NOT-IN-ST: nick_agot_the_laughing_rooster [AGOT: the Crowing Rooster]
- nick_agot_the_laughing_rooster:0 "the Crowing Rooster"
-### TODO NOT-IN-ST: nick_agot_the_rooster_daughter [AGOT: the Hen]
- nick_agot_the_rooster_daughter:0 "the Hen"
-### TODO NOT-IN-ST: nick_agot_the_roosterknight [AGOT: the Rooster[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_roosterknight:0 "the Rooster[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_dark_rooster:0 "Kara Horoz"
+
+ nick_agot_the_weak_rooster:0 "İğdiş Horoz"
+
+ nick_agot_the_silver_rooster:0 "Gümüş Horoz"
+
+ nick_agot_the_old_rooster:0 "Yaşlı Horoz"
+
+ nick_agot_the_laughing_rooster:0 "Öten Horoz"
+
+ nick_agot_the_rooster_daughter:0 "Tavuk"
+
+ nick_agot_the_roosterknight:0 "Horoz [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_grape:0 "Karadiken"
 
  nick_agot_the_white_grape:0 "Beyazdiken"
-### TODO NOT-IN-ST: nick_agot_the_crazed_grape [AGOT: the Crazy Thorn]
- nick_agot_the_crazed_grape:0 "the Crazy Thorn"
+
+ nick_agot_the_crazed_grape:0 "Deli Diken"
 
  nick_agot_the_wild_grape:0 "Yabandiken"
 
@@ -1891,70 +1891,70 @@
  nick_agot_the_big_grape:0 "Büyük Diken"
 
  nick_agot_the_strong_grape:0 "Güçlüdiken"
-### TODO NOT-IN-ST: nick_agot_the_fair_grape [AGOT: the Full-Bodied]
- nick_agot_the_fair_grape:0 "the Full-Bodied"
-### TODO NOT-IN-ST: nick_agot_the_ugly_grape [AGOT: the Raisin]
- nick_agot_the_ugly_grape:0 "the Raisin"
-### TODO NOT-IN-ST: nick_agot_the_small_grape [AGOT: the Little Grape]
- nick_agot_the_small_grape:0 "the Little Grape"
+
+ nick_agot_the_fair_grape:0 "Dolu Gövdeli"
+
+ nick_agot_the_ugly_grape:0 "Kuru Üzüm"
+
+ nick_agot_the_small_grape:0 "Küçük Üzüm"
 
  nick_agot_the_wise_grape:0 "Keskindiken"
 
  nick_agot_the_dumb_grape:0 "Küt Diken"
 
  nick_agot_the_dark_grape:0 "Karadiken"
-### TODO NOT-IN-ST: nick_agot_the_weak_grape [AGOT: the Weak Thorn]
- nick_agot_the_weak_grape:0 "the Weak Thorn" #A RUSTY SPOON
+
+ nick_agot_the_weak_grape:0 "Zayıf Diken" #A RUSTY SPOON
 
  nick_agot_the_silver_grape:0 "Gümüşdiken"
-### TODO NOT-IN-ST: nick_agot_the_old_grape [AGOT: the Winestain]
- nick_agot_the_old_grape:0 "the Winestain"
-### TODO NOT-IN-ST: nick_agot_the_laughing_grape [AGOT: the Red Wine]
- nick_agot_the_laughing_grape:0 "the Red Wine"
-### TODO NOT-IN-ST: nick_agot_the_grape_daughter [AGOT: the Lady of Thorns]
- nick_agot_the_grape_daughter:0 "the Lady of Thorns"
+
+ nick_agot_the_old_grape:0 "Şarap Lekesi"
+
+ nick_agot_the_laughing_grape:0 "Kızıl Şarap"
+
+ nick_agot_the_grape_daughter:0 "Dikenlerin Hanımı"
 
  nick_agot_the_grapeknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Thorns"
 
  nick_agot_the_black_skinner:0 "Kara Kasap"
-### TODO NOT-IN-ST: nick_agot_the_white_skinner [AGOT: the Marrow]
- nick_agot_the_white_skinner:0 "the Marrow"
-### TODO NOT-IN-ST: nick_agot_the_crazed_skinner [AGOT: the Tormentor]
- nick_agot_the_crazed_skinner:0 "the Tormentor"
+
+ nick_agot_the_white_skinner:0 "İlik"
+
+ nick_agot_the_crazed_skinner:0 "Azap Eden"
 
  nick_agot_the_wild_skinner:0 "Kanmektup"
-### TODO NOT-IN-ST: nick_agot_the_quiet_skinner [AGOT: the Mute Gutter]
- nick_agot_the_quiet_skinner:0 "the Mute Gutter"
-### TODO NOT-IN-ST: nick_agot_the_red_skinner [AGOT: the Flayer]
- nick_agot_the_red_skinner:0 "the Flayer"
-### TODO NOT-IN-ST: nick_agot_the_big_skinner [AGOT: the Carver]
- nick_agot_the_big_skinner:0 "the Carver"
-### TODO NOT-IN-ST: nick_agot_the_strong_skinner [AGOT: the Rack]
- nick_agot_the_strong_skinner:0 "the Rack"
-### TODO NOT-IN-ST: nick_agot_the_fair_skinner [AGOT: the Pink]
- nick_agot_the_fair_skinner:0 "the Pink"
-### TODO NOT-IN-ST: nick_agot_the_ugly_skinner [AGOT: the Flayed]
- nick_agot_the_ugly_skinner:0 "the Flayed"
-### TODO NOT-IN-ST: nick_agot_the_small_skinner [AGOT: the Little Skinner]
- nick_agot_the_small_skinner:0 "the Little Skinner"
-### TODO NOT-IN-ST: nick_agot_the_wise_skinner [AGOT: the Scalper]
- nick_agot_the_wise_skinner:0 "the Scalper"
-### TODO NOT-IN-ST: nick_agot_the_dumb_skinner [AGOT: the Fleshy]
- nick_agot_the_dumb_skinner:0 "the Fleshy"
-### TODO NOT-IN-ST: nick_agot_the_dark_skinner [AGOT: the Peeler]
- nick_agot_the_dark_skinner:0 "the Peeler"
-### TODO NOT-IN-ST: nick_agot_the_weak_skinner [AGOT: the Spoon]
- nick_agot_the_weak_skinner:0 "the Spoon" #A RUSTY SPOON
-### TODO NOT-IN-ST: nick_agot_the_silver_skinner [AGOT: the Silver Skinner]
- nick_agot_the_silver_skinner:0 "the Silver Skinner"
-### TODO NOT-IN-ST: nick_agot_the_old_skinner [AGOT: the Rusty Skinner]
- nick_agot_the_old_skinner:0 "the Rusty Skinner"
-### TODO NOT-IN-ST: nick_agot_the_laughing_skinner [AGOT: the Tickler]
- nick_agot_the_laughing_skinner:0 "the Tickler"
-### TODO NOT-IN-ST: nick_agot_the_skinner_daughter [AGOT: the Flayed Lady]
- nick_agot_the_skinner_daughter:0 "the Flayed Lady"
-### TODO NOT-IN-ST: nick_agot_the_skinnerknight [AGOT: the Flayed[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_skinnerknight:0 "the Flayed[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_quiet_skinner:0 "Dilsiz Oluk"
+
+ nick_agot_the_red_skinner:0 "Yüzücü"
+
+ nick_agot_the_big_skinner:0 "Oymacı"
+
+ nick_agot_the_strong_skinner:0 "Askı"
+
+ nick_agot_the_fair_skinner:0 "Karanfil"
+
+ nick_agot_the_ugly_skinner:0 "Yüzülmüş"
+
+ nick_agot_the_small_skinner:0 "Küçük Yüzücü"
+
+ nick_agot_the_wise_skinner:0 "Deri Yüzücü"
+
+ nick_agot_the_dumb_skinner:0 "Etli"
+
+ nick_agot_the_dark_skinner:0 "Soyucu"
+
+ nick_agot_the_weak_skinner:0 "Kaşık" #A RUSTY SPOON
+
+ nick_agot_the_silver_skinner:0 "Gümüş Yüzücü"
+
+ nick_agot_the_old_skinner:0 "Paslı Yüzücü"
+
+ nick_agot_the_laughing_skinner:0 "Gıdıklayan"
+
+ nick_agot_the_skinner_daughter:0 "Yüzülmüş Hanım"
+
+ nick_agot_the_skinnerknight:0 "Yüzülmüş [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_skull:0 "Kara Kafatası"
 
@@ -1967,34 +1967,34 @@
  nick_agot_the_quiet_skull:0 "Sessiz Kafatası"
 
  nick_agot_the_red_skull:0 "Kanlı Kafatası"
-### TODO NOT-IN-ST: nick_agot_the_big_skull [AGOT: the Colossal Skull]
- nick_agot_the_big_skull:0 "the Colossal Skull"
+
+ nick_agot_the_big_skull:0 "Devasa Kafatası"
 
  nick_agot_the_strong_skull:0 "kafatası ezici"
 
  nick_agot_the_fair_skull:0 "Altın Kafatası"
 
  nick_agot_the_ugly_skull:0 "kafatası yüzlü"
-### TODO NOT-IN-ST: nick_agot_the_small_skull [AGOT: the Dwarf Skull]
- nick_agot_the_small_skull:0 "the Dwarf Skull"
+
+ nick_agot_the_small_skull:0 "Cüce Kafatası"
 
  nick_agot_the_wise_skull:0 "Parlak Kafatası"
 
  nick_agot_the_dumb_skull:0 "Kafasız"
 
  nick_agot_the_dark_skull:0 "kara kafatası"
-### TODO NOT-IN-ST: nick_agot_the_weak_skull [AGOT: the Fragile Skull]
- nick_agot_the_weak_skull:0 "the Fragile Skull"
+
+ nick_agot_the_weak_skull:0 "Kırılgan Kafatası"
 
  nick_agot_the_silver_skull:0 "Gümüş Kafatası"
 
  nick_agot_the_old_skull:0 "Yaşlı Kafatası"
-### TODO NOT-IN-ST: nick_agot_the_laughing_skull [AGOT: the Grinning Skull]
- nick_agot_the_laughing_skull:0 "the Grinning Skull"
-### TODO NOT-IN-ST: nick_agot_the_skull_daughter [AGOT: the Skull's Daughter]
- nick_agot_the_skull_daughter:0 "the Skull's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_skullknight [AGOT: the Skull[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_skullknight:0 "the Skull[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_skull:0 "Sırıtan Kafatası"
+
+ nick_agot_the_skull_daughter:0 "Kafatasıin Kızı"
+
+ nick_agot_the_skullknight:0 "Kafatası [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_death_head:0 "Ölüm Başı"
 
@@ -2005,50 +2005,50 @@
  nick_agot_the_crazed_horse:0 "Şaha Kalkan [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_wild_horse:0 "kızıl tırnak"
-### TODO NOT-IN-ST: nick_agot_the_quiet_horse [AGOT: the Canter]
- nick_agot_the_quiet_horse:0 "the Canter"
+
+ nick_agot_the_quiet_horse:0 "Dörtnal"
 
  nick_agot_the_red_horse:0 "Kan Körfez"
-### TODO NOT-IN-ST: nick_agot_the_sorrel [AGOT: the Sorrel]
- nick_agot_the_sorrel:0 "the Sorrel"
-### TODO NOT-IN-ST: nick_agot_the_big_horse [AGOT: the Destrier]
- nick_agot_the_big_horse:0 "the Destrier"
+
+ nick_agot_the_sorrel:0 "Kızıl Kumral"
+
+ nick_agot_the_big_horse:0 "Savaş Atı"
 
  nick_agot_the_strong_horse:0 "Aygır"
-### TODO NOT-IN-ST: nick_agot_the_courser [AGOT: the Courser]
- nick_agot_the_courser:0 "the Courser"
+
+ nick_agot_the_courser:0 "Savaş Atı"
 
  nick_agot_the_fair_horse:0 "Altın Yele"
 
  nick_agot_the_ugly_horse:0 "at yüzlü"
-### TODO NOT-IN-ST: nick_agot_the_small_horse [AGOT: the Dwarf Horse]
- nick_agot_the_small_horse:0 "the Dwarf Horse"
-### TODO NOT-IN-ST: nick_agot_the_pony [AGOT: the Pony]
- nick_agot_the_pony:0 "the Pony"
-### TODO NOT-IN-ST: nick_agot_the_wise_horse [AGOT: Swifthoof]
- nick_agot_the_wise_horse:0 "Swifthoof"
-### TODO NOT-IN-ST: nick_agot_the_palfrey [AGOT: the Palfrey]
- nick_agot_the_palfrey:0 "the Palfrey"
-### TODO NOT-IN-ST: nick_agot_the_dumb_horse [AGOT: the Dumb Horse]
- nick_agot_the_dumb_horse:0 "the Dumb Horse"
-### TODO NOT-IN-ST: nick_agot_the_sumpter_horse [AGOT: the Sumpter Horse]
- nick_agot_the_sumpter_horse:0 "the Sumpter Horse"
+
+ nick_agot_the_small_horse:0 "Cüce At"
+
+ nick_agot_the_pony:0 "Midilli"
+
+ nick_agot_the_wise_horse:0 "Süratli Tırnak"
+
+ nick_agot_the_palfrey:0 "Binek Atı"
+
+ nick_agot_the_dumb_horse:0 "Aptal At"
+
+ nick_agot_the_sumpter_horse:0 "Yük At"
 
  nick_agot_the_dark_horse:0 "kara at"
-### TODO NOT-IN-ST: nick_agot_the_weak_horse [AGOT: the Lame Horse]
- nick_agot_the_weak_horse:0 "the Lame Horse"
-### TODO NOT-IN-ST: nick_agot_the_rouncey [AGOT: the Rouncey]
- nick_agot_the_rouncey:0 "the Rouncey"
+
+ nick_agot_the_weak_horse:0 "Topal At"
+
+ nick_agot_the_rouncey:0 "Binek Atı"
 
  nick_agot_the_silver_horse:0 "Gümüş At"
 
  nick_agot_the_old_horse:0 "Yaşlı At"
-### TODO NOT-IN-ST: nick_agot_the_laughing_horse [AGOT: the Braying Horse]
- nick_agot_the_laughing_horse:0 "the Braying Horse"
-### TODO NOT-IN-ST: nick_agot_the_horse_daughter [AGOT: the Filly]
- nick_agot_the_horse_daughter:0 "the Filly"
-### TODO NOT-IN-ST: nick_agot_the_horseknight [AGOT: the Horse[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_horseknight:0 "the Horse[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_horse:0 "Anıran At"
+
+ nick_agot_the_horse_daughter:0 "Kısrak Yavrusu"
+
+ nick_agot_the_horseknight:0 "At [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_raven:0 "Gecekuzgun"
 
@@ -2059,10 +2059,10 @@
  nick_agot_the_wild_raven:0 "Kızılkuzgun"
 
  nick_agot_the_quiet_raven:0 "Sessiz Kuzgun"
-### TODO NOT-IN-ST: nick_agot_the_red_raven [AGOT: the Ravening Raven]
- nick_agot_the_red_raven:0 "the Ravening Raven"
-### TODO NOT-IN-ST: nick_agot_the_big_raven [AGOT: Wingspan]
- nick_agot_the_big_raven:0 "Wingspan"
+
+ nick_agot_the_red_raven:0 "Aç Kurt Gibi Kuzgun"
+
+ nick_agot_the_big_raven:0 "Kanat Açıklığı"
 
  nick_agot_the_strong_raven:0 "Güçlü Kuzgun"
 
@@ -2071,62 +2071,62 @@
  nick_agot_the_ugly_raven:0 "Kırık Kanat"
 
  nick_agot_the_small_raven:0 "Küçük Kuzgun"
-### TODO NOT-IN-ST: nick_agot_the_wise_raven [AGOT: the Clever Corvid]
- nick_agot_the_wise_raven:0 "the Clever Corvid"
-### TODO NOT-IN-ST: nick_agot_the_dumb_raven [AGOT: the Dumb Raven]
- nick_agot_the_dumb_raven:0 "the Dumb Raven"
+
+ nick_agot_the_wise_raven:0 "Kurnaz Kargagil"
+
+ nick_agot_the_dumb_raven:0 "Aptal Kuzgun"
 
  nick_agot_the_dark_raven:0 "Karakanat"
-### TODO NOT-IN-ST: nick_agot_the_weak_raven [AGOT: the Flightless]
- nick_agot_the_weak_raven:0 "the Flightless"
+
+ nick_agot_the_weak_raven:0 "Uçamayan"
 
  nick_agot_the_silver_raven:0 "Gümüşkuzgun"
 
  nick_agot_the_old_raven:0 "Yaşlı Kuzgun"
-### TODO NOT-IN-ST: nick_agot_the_laughing_raven [AGOT: the Grinning Raven]
- nick_agot_the_laughing_raven:0 "the Grinning Raven"
-### TODO NOT-IN-ST: nick_agot_the_raven_daughter [AGOT: the Raven's Daughter]
- nick_agot_the_raven_daughter:0 "the Raven's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_ravenknight [AGOT: the Raven[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_ravenknight:0 "the Raven[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_laughing_raven:0 "Sırıtan Kuzgun"
+
+ nick_agot_the_raven_daughter:0 "Kuzgunun Kızı"
+
+ nick_agot_the_ravenknight:0 "Kuzgun [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_sapphire:0 "Kara Safir"
 
  nick_agot_the_white_sapphire:0 "Beyaz Safir"
 
  nick_agot_the_crazed_sapphire:0 "Deli Safir"
-### TODO NOT-IN-ST: nick_agot_the_wild_sapphire [AGOT: the Wroth Sapphire]
- nick_agot_the_wild_sapphire:0 "the Wroth Sapphire"
-### TODO NOT-IN-ST: nick_agot_the_quiet_sapphire [AGOT: the Gloam]
- nick_agot_the_quiet_sapphire:0 "the Gloam"
+
+ nick_agot_the_wild_sapphire:0 "Gazap Dolu Safir"
+
+ nick_agot_the_quiet_sapphire:0 "Alacakaranlık"
 
  nick_agot_the_red_sapphire:0 "Kızıl Safir"
 
  nick_agot_the_big_sapphire:0 "Büyük Safir"
-### TODO NOT-IN-ST: nick_agot_the_strong_sapphire [AGOT: the Long Evening]
- nick_agot_the_strong_sapphire:0 "the Long Evening"
-### TODO NOT-IN-ST: nick_agot_the_fair_sapphire [AGOT: the Sapphire of the Sea]
- nick_agot_the_fair_sapphire:0 "the Sapphire of the Sea"
-### TODO NOT-IN-ST: nick_agot_the_ugly_sapphire [AGOT: the Ugly Sapphire]
- nick_agot_the_ugly_sapphire:0 "the Ugly Sapphire"
+
+ nick_agot_the_strong_sapphire:0 "Uzun Akşam"
+
+ nick_agot_the_fair_sapphire:0 "Denizin Safiri"
+
+ nick_agot_the_ugly_sapphire:0 "Çirkin Safir"
 
  nick_agot_the_small_sapphire:0 "Küçük Safir"
 
  nick_agot_the_wise_sapphire:0 "Akşam Yıldızı" #Canon
-### TODO NOT-IN-ST: nick_agot_the_dumb_sapphire [AGOT: the Dull Sapphire]
- nick_agot_the_dumb_sapphire:0 "the Dull Sapphire"
+
+ nick_agot_the_dumb_sapphire:0 "Donuk Safir"
 
  nick_agot_the_dark_sapphire:0 "Gece Yarısı"
-### TODO NOT-IN-ST: nick_agot_the_weak_sapphire [AGOT: the Weak Sapphire]
- nick_agot_the_weak_sapphire:0 "the Weak Sapphire"
+
+ nick_agot_the_weak_sapphire:0 "Zayıf Safir"
 
  nick_agot_the_silver_sapphire:0 "Gümüş Safir"
 
  nick_agot_the_old_sapphire:0 "Yaşlı Safir"
-### TODO NOT-IN-ST: nick_agot_the_laughing_sapphire [AGOT: the Shining Sapphire]
- nick_agot_the_laughing_sapphire:0 "the Shining Sapphire"
-### TODO NOT-IN-ST: nick_agot_the_sapphire_daughter [AGOT: the Sapphire's Daughter]
- nick_agot_the_sapphire_daughter:0 "the Sapphire's Daughter"
+
+ nick_agot_the_laughing_sapphire:0 "Parlayan Safir"
+
+ nick_agot_the_sapphire_daughter:0 "Safirin Kızı"
 
  nick_agot_the_sapphireknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Sapphires"
 
@@ -2147,32 +2147,32 @@
  nick_agot_the_red_moon:0 "Kızıl Ay"
 
  nick_agot_the_big_moon:0 "Büyük Ay"
-### TODO NOT-IN-ST: nick_agot_the_strong_moon [AGOT: the Full Moon]
- nick_agot_the_strong_moon:0 "the Full Moon"
+
+ nick_agot_the_strong_moon:0 "Dolunay"
 
  nick_agot_the_fair_moon:0 "İyi Huylu Ay"
-### TODO NOT-IN-ST: nick_agot_the_ugly_moon [AGOT: the Ugly Moon]
- nick_agot_the_ugly_moon:0 "the Ugly Moon"
+
+ nick_agot_the_ugly_moon:0 "Çirkin Ay"
 
  nick_agot_the_small_moon:0 "Küçük Ay"
-### TODO NOT-IN-ST: nick_agot_the_wise_moon [AGOT: the Eclipse]
- nick_agot_the_wise_moon:0 "the Eclipse"
-### TODO NOT-IN-ST: nick_agot_the_dumb_moon [AGOT: the Slow Moon]
- nick_agot_the_dumb_moon:0 "the Slow Moon"
+
+ nick_agot_the_wise_moon:0 "Tutulma"
+
+ nick_agot_the_dumb_moon:0 "Yavaş Ay"
 
  nick_agot_the_dark_moon:0 "Kara Ay"
-### TODO NOT-IN-ST: nick_agot_the_weak_moon [AGOT: the Waning Moon]
- nick_agot_the_weak_moon:0 "the Waning Moon"
+
+ nick_agot_the_weak_moon:0 "Küçülen Ay"
 
  nick_agot_the_silver_moon:0 "Gümüşay"
-### TODO NOT-IN-ST: nick_agot_the_old_moon [AGOT: the Old [CHARACTER.GetWomanMan] of the Moon]
- nick_agot_the_old_moon:0 "the Old [CHARACTER.GetWomanMan] of the Moon"
+
+ nick_agot_the_old_moon:0 "Ayın Yaşlı [CHARACTER.GetWomanMan]"
 
  nick_agot_the_laughing_moon:0 "Gülen Ay"
-### TODO NOT-IN-ST: nick_agot_the_moon_daughter [AGOT: the Moon's Maiden]
- nick_agot_the_moon_daughter:0 "the Moon's Maiden"
-### TODO NOT-IN-ST: nick_agot_the_moonknight [AGOT: the Moon[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_moonknight:0 "the Moon[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_moon_daughter:0 "Ayın Bakiresi"
+
+ nick_agot_the_moonknight:0 "Ay [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_moonknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Moon"
 
@@ -2193,28 +2193,28 @@
  nick_agot_the_strong_eagle:0 "Güçlü Kartal"
 
  nick_agot_the_fair_eagle:0 "Altın Kartal"
-### TODO NOT-IN-ST: nick_agot_the_ugly_eagle [AGOT: the Ugly Eagle]
- nick_agot_the_ugly_eagle:0 "the Ugly Eagle"
+
+ nick_agot_the_ugly_eagle:0 "Çirkin Kartal"
 
  nick_agot_the_small_eagle:0 "Küçük Kartal"
-### TODO NOT-IN-ST: nick_agot_the_wise_eagle [AGOT: the Even Eagle]
- nick_agot_the_wise_eagle:0 "the Even Eagle"
-### TODO NOT-IN-ST: nick_agot_the_dumb_eagle [AGOT: the Flightless]
- nick_agot_the_dumb_eagle:0 "the Flightless"
+
+ nick_agot_the_wise_eagle:0 "Adil Kartal"
+
+ nick_agot_the_dumb_eagle:0 "Uçamayan"
 
  nick_agot_the_dark_eagle:0 "Kara Kartal"
 
  nick_agot_the_weak_eagle:0 "Topal Kartal"
 
  nick_agot_the_silver_eagle:0 "Gümüşkartal"
-### TODO NOT-IN-ST: nick_agot_the_old_eagle [AGOT: the Old [CHARACTER.GetWomanMan] Eagle]
- nick_agot_the_old_eagle:0 "the Old [CHARACTER.GetWomanMan] Eagle"
+
+ nick_agot_the_old_eagle:0 "Yaşlı [CHARACTER.GetWomanMan] Kartal"
 
  nick_agot_the_laughing_eagle:0 "Gülen Kartal"
-### TODO NOT-IN-ST: nick_agot_the_eagle_daughter [AGOT: the Eagle's Daughter]
- nick_agot_the_eagle_daughter:0 "the Eagle's Daughter"
-### TODO NOT-IN-ST: nick_agot_the_eagleknight [AGOT: the Eagle[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_eagleknight:0 "the Eagle[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_eagle_daughter:0 "Kartalin Kızı"
+
+ nick_agot_the_eagleknight:0 "Kartal [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_black_heart:0 "Karayürek"
 
@@ -2223,8 +2223,8 @@
  nick_agot_the_crazed_heart:0 "Deliyürek"
 
  nick_agot_the_wild_heart:0 "Yabanyürek"
-### TODO NOT-IN-ST: nick_agot_the_quiet_heart [AGOT: the Still Heart]
- nick_agot_the_quiet_heart:0 "the Still Heart"
+
+ nick_agot_the_quiet_heart:0 "Durgun Yürek"
 
  nick_agot_the_red_heart:0 "Kızılyürek"
 
@@ -2233,26 +2233,26 @@
  nick_agot_the_strong_heart:0 "Büyük Yürek"
 
  nick_agot_the_fair_heart:0 "Altınyürek"
-### TODO NOT-IN-ST: nick_agot_the_ugly_heart [AGOT: the Organ]
- nick_agot_the_ugly_heart:0 "the Organ"
+
+ nick_agot_the_ugly_heart:0 "Org"
 
  nick_agot_the_small_heart:0 "Küçük Yürek"
 
  nick_agot_the_wise_heart:0 "Adil Yürek"
-### TODO NOT-IN-ST: nick_agot_the_dumb_heart [AGOT: the Slow Heart]
- nick_agot_the_dumb_heart:0 "the Slow Heart"
+
+ nick_agot_the_dumb_heart:0 "Yavaş Yürek"
 
  nick_agot_the_dark_heart:0 "Karayürek"
-### TODO NOT-IN-ST: nick_agot_the_weak_heart [AGOT: the Trembling Heart]
- nick_agot_the_weak_heart:0 "the Trembling Heart"
+
+ nick_agot_the_weak_heart:0 "Titreyen Yürek"
 
  nick_agot_the_silver_heart:0 "Gümüşyürek"
 
  nick_agot_the_old_heart:0 "Yaşlı Yürek"
-### TODO NOT-IN-ST: nick_agot_the_laughing_heart [AGOT: the Laughing Heart]
- nick_agot_the_laughing_heart:0 "the Laughing Heart"
-### TODO NOT-IN-ST: nick_agot_the_heart_daughter [AGOT: the Heart's Daughter]
- nick_agot_the_heart_daughter:0 "the Heart's Daughter"
+
+ nick_agot_the_laughing_heart:0 "Gülen Yürek"
+
+ nick_agot_the_heart_daughter:0 "Yüreğin Kızı"
 
  nick_agot_the_heartknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Hearts"
 
@@ -2273,24 +2273,24 @@
  nick_agot_the_strong_bell:0 "Büyük Çan"
 
  nick_agot_the_fair_bell:0 "Altınçan"
-### TODO NOT-IN-ST: nick_agot_the_ugly_bell [AGOT: the Cracked Bell]
- nick_agot_the_ugly_bell:0 "the Cracked Bell"
+
+ nick_agot_the_ugly_bell:0 "Çatlak Çan"
 
  nick_agot_the_small_bell:0 "Küçük Çan"
 
  nick_agot_the_wise_bell:0 "Adil Çan"
-### TODO NOT-IN-ST: nick_agot_the_dumb_bell [AGOT: the Slow Bell]
- nick_agot_the_dumb_bell:0 "the Slow Bell"
+
+ nick_agot_the_dumb_bell:0 "Yavaş Çan"
 
  nick_agot_the_dark_bell:0 "Karaçan"
-### TODO NOT-IN-ST: nick_agot_the_weak_bell [AGOT: the Trembling Bell]
- nick_agot_the_weak_bell:0 "the Trembling Bell"
+
+ nick_agot_the_weak_bell:0 "Titreyen Çan"
 
  nick_agot_the_silver_bell:0 "Gümüşçan"
 
  nick_agot_the_old_bell:0 "Yaşlı Çan"
-### TODO NOT-IN-ST: nick_agot_the_laughing_bell [AGOT: the Clanging Bell]
- nick_agot_the_laughing_bell:0 "the Clanging Bell"
+
+ nick_agot_the_laughing_bell:0 "Çınlayan Çan"
 
  nick_agot_the_bell_daughter:0 "Çanın Kızı"
 
@@ -2303,38 +2303,38 @@
  nick_agot_the_crazed_anchor:0 "Deliçapa"
 
  nick_agot_the_wild_anchor:0 "Yabançapa"
-### TODO NOT-IN-ST: nick_agot_the_quiet_anchor [AGOT: the Quiet Anchor]
- nick_agot_the_quiet_anchor:0 "the Quiet Anchor"
+
+ nick_agot_the_quiet_anchor:0 "Sessiz Çapa"
 
  nick_agot_the_red_anchor:0 "Kızıl Çapa"
-### TODO NOT-IN-ST: nick_agot_the_big_anchor [AGOT: the Weighed Anchor]
- nick_agot_the_big_anchor:0 "the Weighed Anchor"
+
+ nick_agot_the_big_anchor:0 "Ağır Çapa"
 
  nick_agot_the_strong_anchor:0 "Büyük Çapa"
 
  nick_agot_the_fair_anchor:0 "Altın Çapa"
-### TODO NOT-IN-ST: nick_agot_the_ugly_anchor [AGOT: the Cracked Anchor]
- nick_agot_the_ugly_anchor:0 "the Cracked Anchor"
+
+ nick_agot_the_ugly_anchor:0 "Çatlak Çapa"
 
  nick_agot_the_small_anchor:0 "Küçük Çapa"
-### TODO NOT-IN-ST: nick_agot_the_wise_anchor [AGOT: the Sage Anchor]
- nick_agot_the_wise_anchor:0 "the Sage Anchor"
-### TODO NOT-IN-ST: nick_agot_the_dumb_anchor [AGOT: the Floating Anchor]
- nick_agot_the_dumb_anchor:0 "the Floating Anchor"
+
+ nick_agot_the_wise_anchor:0 "Bilge Çapa"
+
+ nick_agot_the_dumb_anchor:0 "Yüzen Çapa"
 
  nick_agot_the_dark_anchor:0 "Karaçapa"
-### TODO NOT-IN-ST: nick_agot_the_weak_anchor [AGOT: the Light Anchor]
- nick_agot_the_weak_anchor:0 "the Light Anchor"
+
+ nick_agot_the_weak_anchor:0 "Hafif Çapa"
 
  nick_agot_the_silver_anchor:0 "Gümüşçapa"
 
  nick_agot_the_old_anchor:0 "Yaşlı Çapa"
-### TODO NOT-IN-ST: nick_agot_the_laughing_anchor [AGOT: the Clanging Anchor]
- nick_agot_the_laughing_anchor:0 "the Clanging Anchor"
+
+ nick_agot_the_laughing_anchor:0 "Çınlayan Çapa"
 
  nick_agot_the_anchor_daughter:0 "Çapanın Kızı"
-### TODO NOT-IN-ST: nick_agot_the_anchorknight [AGOT: the Anchor[CHARACTER.Custom('GetWarriorNickname')]]
- nick_agot_the_anchorknight:0 "the Anchor[CHARACTER.Custom('GetWarriorNickname')]"
+
+ nick_agot_the_anchorknight:0 "Çapa [CHARACTER.Custom('GetWarriorNickname')]"
 
  nick_agot_the_anchorknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Anchors"
 
@@ -2343,38 +2343,38 @@
  nick_agot_the_white_seashell:0 "Beyaz Kabuk"
 
  nick_agot_the_crazed_seashell:0 "Deli Kabuk"
-### TODO NOT-IN-ST: nick_agot_the_wild_seashell [AGOT: the Wroth Shell]
- nick_agot_the_wild_seashell:0 "the Wroth Shell"
-### TODO NOT-IN-ST: nick_agot_the_quiet_seashell [AGOT: the Silent Seashell]
- nick_agot_the_quiet_seashell:0 "the Silent Seashell"
+
+ nick_agot_the_wild_seashell:0 "Gazap Dolu Kabuk"
+
+ nick_agot_the_quiet_seashell:0 "Sessiz Deniz Kabuğu"
 
  nick_agot_the_red_seashell:0 "Kızılkabuk"
-### TODO NOT-IN-ST: nick_agot_the_big_seashell [AGOT: the Conch]
- nick_agot_the_big_seashell:0 "the Conch"
+
+ nick_agot_the_big_seashell:0 "Deniz Kabuğu"
 
  nick_agot_the_strong_seashell:0 "Güçlükabuk"
-### TODO NOT-IN-ST: nick_agot_the_fair_seashell [AGOT: the Pearl]
- nick_agot_the_fair_seashell:0 "the Pearl"
-### TODO NOT-IN-ST: nick_agot_the_ugly_seashell [AGOT: the Clam]
- nick_agot_the_ugly_seashell:0 "the Clam"
+
+ nick_agot_the_fair_seashell:0 "İnci"
+
+ nick_agot_the_ugly_seashell:0 "İstiridye"
 
  nick_agot_the_small_seashell:0 "Küçük Kabuk"
-### TODO NOT-IN-ST: nick_agot_the_wise_seashell [AGOT: the Sage Shell]
- nick_agot_the_wise_seashell:0 "the Sage Shell"
-### TODO NOT-IN-ST: nick_agot_the_dumb_seashell [AGOT: the Slow Shell]
- nick_agot_the_dumb_seashell:0 "the Slow Shell"
+
+ nick_agot_the_wise_seashell:0 "Bilge Kabuk"
+
+ nick_agot_the_dumb_seashell:0 "Yavaş Kabuk"
 
  nick_agot_the_dark_seashell:0 "Karakabuk"
 
  nick_agot_the_weak_seashell:0 "Yumuşak Kabuk"
 
  nick_agot_the_silver_seashell:0 "Gümüşkabuk"
-### TODO NOT-IN-ST: nick_agot_the_old_seashell [AGOT: the Cockle]
- nick_agot_the_old_seashell:0 "the Cockle"
-### TODO NOT-IN-ST: nick_agot_the_laughing_seashell [AGOT: the Laughing Seashell]
- nick_agot_the_laughing_seashell:0 "the Laughing Seashell"
-### TODO NOT-IN-ST: nick_agot_the_seashell_daughter [AGOT: the Shell's Pearl]
- nick_agot_the_seashell_daughter:0 "the Shell's Pearl"
+
+ nick_agot_the_old_seashell:0 "Kabuklu"
+
+ nick_agot_the_laughing_seashell:0 "Gülen Deniz Kabuğu"
+
+ nick_agot_the_seashell_daughter:0 "Kabuğun İncisi"
 
  nick_agot_the_seashellknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Seashells"
 
@@ -2383,8 +2383,8 @@
  nick_agot_the_white_chain:0 "Beyaz Zincir"
 
  nick_agot_the_crazed_chain:0 "Deli Zincir"
-### TODO NOT-IN-ST: nick_agot_the_wild_chain [AGOT: the Wroth Chain]
- nick_agot_the_wild_chain:0 "the Wroth Chain"
+
+ nick_agot_the_wild_chain:0 "Gazap Dolu Zincir"
 
  nick_agot_the_quiet_chain:0 "Sessiz Zincir"
 
@@ -2395,14 +2395,14 @@
  nick_agot_the_strong_chain:0 "Güçlü Zincir"
 
  nick_agot_the_fair_chain:0 "Altın Zincir"
-### TODO NOT-IN-ST: nick_agot_the_ugly_chain [AGOT: the Rusty Chain]
- nick_agot_the_ugly_chain:0 "the Rusty Chain"
+
+ nick_agot_the_ugly_chain:0 "Paslı Zincir"
 
  nick_agot_the_small_chain:0 "Küçük Zincir"
-### TODO NOT-IN-ST: nick_agot_the_wise_chain [AGOT: the Sage Chain]
- nick_agot_the_wise_chain:0 "the Sage Chain"
-### TODO NOT-IN-ST: nick_agot_the_dumb_chain [AGOT: the Slow Chain]
- nick_agot_the_dumb_chain:0 "the Slow Chain"
+
+ nick_agot_the_wise_chain:0 "Bilge Zincir"
+
+ nick_agot_the_dumb_chain:0 "Yavaş Zincir"
 
  nick_agot_the_dark_chain:0 "Karazincir"
 
@@ -2411,9 +2411,9 @@
  nick_agot_the_silver_chain:0 "Gümüş Zincir"
 
  nick_agot_the_old_chain:0 "Yaşlı Zincir"
-### TODO NOT-IN-ST: nick_agot_the_laughing_chain [AGOT: the Rattling Chain]
- nick_agot_the_laughing_chain:0 "the Rattling Chain"
-### TODO NOT-IN-ST: nick_agot_the_chain_daughter [AGOT: the Chain's Daughter]
- nick_agot_the_chain_daughter:0 "the Chain's Daughter"
+
+ nick_agot_the_laughing_chain:0 "Şakırdayan Zincir"
+
+ nick_agot_the_chain_daughter:0 "Zincirin Kızı"
 
  nick_agot_the_chainknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Chains"
