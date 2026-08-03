@@ -1,54 +1,54 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: agot_debug_religion_set_special_incest_flag_interaction [AGOT: Set Special Incest Flags]
- agot_debug_religion_set_special_incest_flag_interaction:0 "Set Special Incest Flags"
-### TODO NOT-IN-ST: agot_debug_religion_set_special_incest_flag_interaction_desc [AGOT: ]
+﻿l_english:
+
+ agot_debug_religion_set_special_incest_flag_interaction:0 "Özel Ensest Bayraklarını Ayarla"
+
  agot_debug_religion_set_special_incest_flag_interaction_desc:0 ""
-### TODO NOT-IN-ST: agot_unrestricted_incest_for_dynasty [AGOT: Allow unrestricted incest for dynasty.]
- agot_unrestricted_incest_for_dynasty:0 "Allow unrestricted incest for dynasty."
-### TODO NOT-IN-ST: agot_debug_incest_variable.tt [AGOT: Variable already set.]
- agot_debug_incest_variable.tt:0 "Variable already set."
-### TODO NOT-IN-ST: agot_unrestricted_incest_for_house [AGOT: Allow unrestricted incest for house.]
- agot_unrestricted_incest_for_house:0 "Allow unrestricted incest for house."
-### TODO NOT-IN-ST: agot_adelphogamous_incest_for_dynasty [AGOT: Allow adelphogamous incest for dynasty.]
- agot_adelphogamous_incest_for_dynasty:0 "Allow adelphogamous incest for dynasty."
-### TODO NOT-IN-ST: agot_adelphogamous_incest_for_house [AGOT: Allow adelphogamous incest for house.]
- agot_adelphogamous_incest_for_house:0 "Allow adelphogamous incest for house."
-### TODO NOT-IN-ST: agot_agot_no_incest_allowed [AGOT: Allow no special incest at all.]
- agot_agot_no_incest_allowed:0 "Allow no special incest at all."
-### TODO NOT-IN-ST: agot_debug_manage_mw_interaction [AGOT: Manage Mega War]
- agot_debug_manage_mw_interaction:0 "Manage Mega War"
-### TODO NOT-IN-ST: agot_debug_manage_mw_interaction_desc [AGOT: Several debugging options.]
- agot_debug_manage_mw_interaction_desc:0 "Several debugging options."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.loyalist [AGOT: [recipient.GetFirstName] is in the loyalist list of [debug_mw_loyalist.GetFirstName].]
- agot_debug_mw_stance.tt.loyalist:0 "[recipient.GetFirstName] is in the loyalist list of [debug_mw_loyalist.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.neutral [AGOT: [recipient.GetFirstName] is in the neutrals list of [debug_mw_neutral.GetFirstName].]
- agot_debug_mw_stance.tt.neutral:0 "[recipient.GetFirstName] is in the neutrals list of [debug_mw_neutral.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.rebel_supporter [AGOT: [recipient.GetFirstName] is in the rebel supporter list of [debug_mw_rebel.GetFirstName].]
- agot_debug_mw_stance.tt.rebel_supporter:0 "[recipient.GetFirstName] is in the rebel supporter list of [debug_mw_rebel.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.independence_rebel [AGOT: [recipient.GetFirstName] is in the independence rebel supporter list of [debug_mw_independence_rebel.GetFirstName].]
- agot_debug_mw_stance.tt.independence_rebel:0 "[recipient.GetFirstName] is in the independence rebel supporter list of [debug_mw_independence_rebel.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.crown [AGOT: [recipient.GetFirstName] is a mw target.]
- agot_debug_mw_stance.tt.crown:0 "[recipient.GetFirstName] is a mw target."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.rebel_leader [AGOT: [recipient.GetFirstName] is a rebel leader against [debug_mw_rebel_leader.GetFirstName].]
- agot_debug_mw_stance.tt.rebel_leader:0 "[recipient.GetFirstName] is a rebel leader against [debug_mw_rebel_leader.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.none [AGOT: [recipient.GetFirstName] is on no side or list.]
- agot_debug_mw_stance.tt.none:0 "[recipient.GetFirstName] is on no side or list."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.agot_pwl_direct [AGOT: [recipient.GetFirstNamePossessive] direct pre-war-liege is [recipient.MakeScope.Var('agot_pwl_direct').Char.GetFirstName].]
- agot_debug_mw_stance.tt.agot_pwl_direct:0 "[recipient.GetFirstNamePossessive] direct pre-war-liege is [recipient.MakeScope.Var('agot_pwl_direct').Char.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_stance.tt.agot_pwl_top [AGOT: [recipient.GetFirstNamePossessive] pre-war-top-liege is [recipient.MakeScope.Var('agot_pwl_top').Char.GetFirstName].]
- agot_debug_mw_stance.tt.agot_pwl_top:0 "[recipient.GetFirstNamePossessive] pre-war-top-liege is [recipient.MakeScope.Var('agot_pwl_top').Char.GetFirstName]."
-### TODO NOT-IN-ST: agot_debug_mw_rebuild_realm_loc [AGOT: Rebuild the realm.]
- agot_debug_mw_rebuild_realm_loc:0 "Rebuild the realm."
-### TODO NOT-IN-ST: agot_debug_mw_pwl_all_loc [AGOT: Remove pre-war-liege variables]
- agot_debug_mw_pwl_all_loc:0 "Remove pre-war-liege variables"
-### TODO NOT-IN-ST: agot_debug_mw_end_mw_story_loc [AGOT: End mega war stories.]
- agot_debug_mw_end_mw_story_loc:0 "End mega war stories."
-### TODO NOT-IN-ST: agot_debug_mw_rebuild_realm_desc [AGOT: Rebuilds [recipient.GetFirstNamePossessive] realm. #X ONLY#! #EMP do this, if the realm did not reunite after a mega war, several days have passed and no other war is active!#!]
- agot_debug_mw_rebuild_realm_desc:0 "Rebuilds [recipient.GetFirstNamePossessive] realm. #X ONLY#! #EMP do this, if the realm did not reunite after a mega war, several days have passed and no other war is active!#!"
-### TODO NOT-IN-ST: agot_debug_mw_pwl_all_desc [AGOT: This will remove the agot_pwl_direct variable]
- agot_debug_mw_pwl_all_desc:0 "This will remove the agot_pwl_direct variable"
-### TODO NOT-IN-ST: agot_debug_mw_end_mw_story_desc [AGOT: End [recipient.GetFirstNamePossessive] mega war stories.]
- agot_debug_mw_end_mw_story_desc:0 "End [recipient.GetFirstNamePossessive] mega war stories."
+
+ agot_unrestricted_incest_for_dynasty:0 "Hanedan için sınırsız enseste izin ver."
+
+ agot_debug_incest_variable.tt:0 "Değişken zaten ayarlı."
+
+ agot_unrestricted_incest_for_house:0 "Hane için sınırsız enseste izin ver."
+
+ agot_adelphogamous_incest_for_dynasty:0 "Hanedan için kardeşler arası enseste izin ver."
+
+ agot_adelphogamous_incest_for_house:0 "Hane için kardeşler arası enseste izin ver."
+
+ agot_agot_no_incest_allowed:0 "Hiçbir özel enseste izin verme."
+
+ agot_debug_manage_mw_interaction:0 "Dev Savaşı Yönet"
+
+ agot_debug_manage_mw_interaction_desc:0 "Çeşitli hata ayıklama seçenekleri."
+
+ agot_debug_mw_stance.tt.loyalist:0 "[recipient.GetFirstName], [debug_mw_loyalist.GetFirstName]'in sadık destekçiler listesinde."
+
+ agot_debug_mw_stance.tt.neutral:0 "[recipient.GetFirstName], [debug_mw_neutral.GetFirstName]'in tarafsızlar listesinde."
+
+ agot_debug_mw_stance.tt.rebel_supporter:0 "[recipient.GetFirstName], [debug_mw_rebel.GetFirstName]'in asi destekçileri listesinde."
+
+ agot_debug_mw_stance.tt.independence_rebel:0 "[recipient.GetFirstName], [debug_mw_independence_rebel.GetFirstName]'in bağımsızlıkçı asi destekçileri listesinde."
+
+ agot_debug_mw_stance.tt.crown:0 "[recipient.GetFirstName] bir dev savaş hedefi."
+
+ agot_debug_mw_stance.tt.rebel_leader:0 "[recipient.GetFirstName], [debug_mw_rebel_leader.GetFirstName]'e karşı bir asi lideri."
+
+ agot_debug_mw_stance.tt.none:0 "[recipient.GetFirstName] hiçbir tarafta ya da listede değil."
+
+ agot_debug_mw_stance.tt.agot_pwl_direct:0 "[recipient.GetFirstNamePossessive] doğrudan savaş öncesi efendisi [recipient.MakeScope.Var('agot_pwl_direct').Char.GetFirstName]."
+
+ agot_debug_mw_stance.tt.agot_pwl_top:0 "[recipient.GetFirstNamePossessive] savaş öncesi en üst efendisi [recipient.MakeScope.Var('agot_pwl_top').Char.GetFirstName]."
+
+ agot_debug_mw_rebuild_realm_loc:0 "Diyarı yeniden inşa et."
+
+ agot_debug_mw_pwl_all_loc:0 "Savaş öncesi efendi değişkenlerini kaldır"
+
+ agot_debug_mw_end_mw_story_loc:0 "Dev savaş hikâyelerini sonlandır."
+
+ agot_debug_mw_rebuild_realm_desc:0 "[recipient.GetFirstNamePossessive] diyarını yeniden inşa eder. #X YALNIZCA#! #EMP diyar bir dev savaştan sonra yeniden birleşmediyse, birkaç gün geçtiyse ve başka hiçbir savaş aktif değilse bunu yapın!#!"
+
+ agot_debug_mw_pwl_all_desc:0 "Bu, agot_pwl_direct değişkenini kaldıracak"
+
+ agot_debug_mw_end_mw_story_desc:0 "[recipient.GetFirstNamePossessive] dev savaş hikâyelerini sonlandır."
 
  agot_debug_mw_set_stance_interaction:0 "Mega savaşta taraf seç"
 
@@ -57,28 +57,28 @@
  agot_debug_mw_set_stance_pre_war_interaction:0 "Savaştan önce MW tutumunu belirle"
 
  agot_debug_mw_set_stance_pre_war_interaction_desc:0 "Savaştan önce MW tutumunu belirle"
-### TODO NOT-IN-ST: agot_debug_mw_only_one_stance [AGOT: Only select one stance at a time!]
- agot_debug_mw_only_one_stance:0 "Only select one stance at a time!"
-### TODO NOT-IN-ST: agot_debug_mw_loyalist_loc [AGOT: Set #S #G LOYALIST#!#!]
- agot_debug_mw_loyalist_loc:0 "Set #S #G LOYALIST#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_neutral_loc [AGOT: Set #S #D NEUTRAL#!#!]
- agot_debug_mw_neutral_loc:0 "Set #S #D NEUTRAL#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_rebel_loc [AGOT: Set #S #R REBEL#!#!]
- agot_debug_mw_rebel_loc:0 "Set #S #R REBEL#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_independence_loc [AGOT: Set #S #R INDEPENDENCE REBEL#!#!]
- agot_debug_mw_independence_loc:0 "Set #S #R INDEPENDENCE REBEL#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_all_vassals_loc [AGOT: Apply for vassals as well.]
- agot_debug_mw_all_vassals_loc:0 "Apply for vassals as well."
-### TODO NOT-IN-ST: agot_debug_mw_loyalist.tt [AGOT: will be a #S #G loyalist#!#!]
- agot_debug_mw_loyalist.tt:0 "will be a #S #G loyalist#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_neutral.tt [AGOT: will be a #S #D neutral#!#!]
- agot_debug_mw_neutral.tt:0 "will be a #S #D neutral#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_rebel.tt [AGOT: will be a #S #R rebel#!#!]
- agot_debug_mw_rebel.tt:0 "will be a #S #R rebel#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_independence.tt [AGOT: will be an #S #R independence rebel#!#!]
- agot_debug_mw_independence.tt:0 "will be an #S #R independence rebel#!#!"
-### TODO NOT-IN-ST: agot_debug_mw_all_vassals.tt [AGOT: all of [recipient.GetFirstNamePossessive] vassals will #S #R follow#!#! [recipient.GetHerHim].]
- agot_debug_mw_all_vassals.tt:0 "all of [recipient.GetFirstNamePossessive] vassals will #S #R follow#!#! [recipient.GetHerHim]."
+
+ agot_debug_mw_only_one_stance:0 "Bir seferde yalnızca bir tavır seçin!"
+
+ agot_debug_mw_loyalist_loc:0 "#S #G SADIK DESTEKÇİ#!#! olarak ayarla"
+
+ agot_debug_mw_neutral_loc:0 "#S #D TARAFSIZ#!#! olarak ayarla"
+
+ agot_debug_mw_rebel_loc:0 "#S #R ASİ#!#! olarak ayarla"
+
+ agot_debug_mw_independence_loc:0 "#S #R BAĞIMSIZLIKÇI ASİ#!#! olarak ayarla"
+
+ agot_debug_mw_all_vassals_loc:0 "Vassallar için de uygula."
+
+ agot_debug_mw_loyalist.tt:0 "#S #G sadık destekçi#!#! olacak"
+
+ agot_debug_mw_neutral.tt:0 "#S #D tarafsız#!#! olacak"
+
+ agot_debug_mw_rebel.tt:0 "#S #R asi#!#! olacak"
+
+ agot_debug_mw_independence.tt:0 "#S #R bağımsızlıkçı asi#!#! olacak"
+
+ agot_debug_mw_all_vassals.tt:0 "[recipient.GetFirstNamePossessive] tüm vassalları [recipient.GetHerHim]'i #S #R izleyecek#!#!."
 
  agot_debug_mw_set_rebel_leader_interaction:0 "Asi lideri olarak belirle"
 
@@ -87,179 +87,179 @@
  agot_debug_mw_set_rebel_target_interaction:0 "Asi hedefi olarak belirle"
 
  agot_debug_mw_set_rebel_target_interaction_desc:0 "Asi hedefi olarak belirle"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_TARGET_VARIABLE_NOT_SET [AGOT: Rebel leader variable is not set]
- AGOT_DEBUG_MW_TARGET_VARIABLE_NOT_SET:0 "Rebel leader variable is not set"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_NO_VALID_TARGET [AGOT: Mega War can not be triggered with this ruler as target]
- AGOT_DEBUG_MW_NO_VALID_TARGET:0 "Mega War can not be triggered with this ruler as target"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_REBELLION_WAR_OPTION [AGOT: Rebellion War]
- AGOT_DEBUG_MW_REBELLION_WAR_OPTION:0 "Rebellion War"
+
+ AGOT_DEBUG_MW_TARGET_VARIABLE_NOT_SET:0 "Asi lideri değişkeni ayarlı değil"
+
+ AGOT_DEBUG_MW_NO_VALID_TARGET:0 "Bu hükümdar hedefken Dev Savaş tetiklenemez"
+
+ AGOT_DEBUG_MW_REBELLION_WAR_OPTION:0 "İsyan Savaşı"
 
  AGOT_DEBUG_MW_INDEPENDENCE_WAR_OPTION:0 "Bağımsızlık Savaşı"
 
  AGOT_DEBUG_MW_CLAIM_WAR_OPTION:0 "Hak İddiası Savaşı"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_NO_WAR_VALID [AGOT: There is no valid mega war to declare.]
- AGOT_DEBUG_MW_NO_WAR_VALID:0 "There is no valid mega war to declare."
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_TRIGGER_MW_REGULAR [AGOT: This will trigger a regular mega war.]
- AGOT_DEBUG_MW_TRIGGER_MW_REGULAR:0 "This will trigger a regular mega war."
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_TRIGGER_MW_LITE [AGOT: This will trigger a lite mega war.]
- AGOT_DEBUG_MW_TRIGGER_MW_LITE:0 "This will trigger a lite mega war."
-### TODO NOT-IN-ST: agot_debug_fetch_ptk [AGOT: Display ProgressToKnighthood]
- agot_debug_fetch_ptk:0 "Display ProgressToKnighthood"
-### TODO NOT-IN-ST: agot_debug_fetch_ptk_desc [AGOT: Displays the Character's PTK Value]
- agot_debug_fetch_ptk_desc:0 "Displays the Character's PTK Value"
-### TODO NOT-IN-ST: agot_debug_fetch_ptk_desc_tt [AGOT: [recipient.GetFirstName] has a PTK of [THIS.Var('ProgressToKnighthood').GetValue|V0].]
- agot_debug_fetch_ptk_desc_tt:0 "[recipient.GetFirstName] has a PTK of [THIS.Var('ProgressToKnighthood').GetValue|V0]."
-### TODO NOT-IN-ST: agot_debug_take_as_squire [AGOT: Force Take As Squire]
- agot_debug_take_as_squire:0 "Force Take As Squire"
-### TODO NOT-IN-ST: agot_debug_take_as_squire_desc [AGOT: Take an eligible char as a squire]
- agot_debug_take_as_squire_desc:0 "Take an eligible char as a squire"
-### TODO NOT-IN-ST: agot_debug_modify_ptk [AGOT: Modify PTK]
- agot_debug_modify_ptk:0 "Modify PTK"
-### TODO NOT-IN-ST: agot_debug_modify_ptk_desc [AGOT: Modify a Squire's PTK]
- agot_debug_modify_ptk_desc:0 "Modify a Squire's PTK"
-### TODO NOT-IN-ST: debug_increase_ptk_5 [AGOT: #P Increase PTK by 5]
- debug_increase_ptk_5:0 "#P Increase PTK by 5"
-### TODO NOT-IN-ST: debug_increase_ptk_10 [AGOT: #P Increase PTK by 10]
- debug_increase_ptk_10:0 "#P Increase PTK by 10"
-### TODO NOT-IN-ST: debug_increase_ptk_15 [AGOT: #P Increase PTK by 15]
- debug_increase_ptk_15:0 "#P Increase PTK by 15"
-### TODO NOT-IN-ST: debug_increase_ptk_20 [AGOT: #P Increase PTK by 20]
- debug_increase_ptk_20:0 "#P Increase PTK by 20"
-### TODO NOT-IN-ST: debug_increase_ptk_25 [AGOT: #P Increase PTK by 25]
- debug_increase_ptk_25:0 "#P Increase PTK by 25"
-### TODO NOT-IN-ST: debug_decrease_ptk_5 [AGOT: #N Decrease PTK by 5]
- debug_decrease_ptk_5:0 "#N Decrease PTK by 5"
-### TODO NOT-IN-ST: debug_decrease_ptk_10 [AGOT: #N Decrease PTK by 10]
- debug_decrease_ptk_10:0 "#N Decrease PTK by 10"
-### TODO NOT-IN-ST: debug_decrease_ptk_15 [AGOT: #N Decrease PTK by 15]
- debug_decrease_ptk_15:0 "#N Decrease PTK by 15"
-### TODO NOT-IN-ST: debug_decrease_ptk_20 [AGOT: #N Decrease PTK by 20]
- debug_decrease_ptk_20:0 "#N Decrease PTK by 20"
-### TODO NOT-IN-ST: debug_decrease_ptk_25 [AGOT: #N Decrease PTK by 25]
- debug_decrease_ptk_25:0 "#N Decrease PTK by 25"
-### TODO NOT-IN-ST: debug_tame_dragon_interaction [AGOT: Debug Manage Dragon]
- debug_tame_dragon_interaction:0 "Debug Manage Dragon"
-### TODO NOT-IN-ST: agot_debug_spawn_egg [AGOT: Spawn Dragon Egg]
- agot_debug_spawn_egg:0 "Spawn Dragon Egg"
-### TODO NOT-IN-ST: agot_debug_spawn_dragon [AGOT: Spawn Dragon]
- agot_debug_spawn_dragon:0 "Spawn Dragon"
-### TODO NOT-IN-ST: agot_debug_give_dragon_tt [AGOT: [recipient.GetNameOrMeRegnal] will be given a [tamed_dragon|E]]
- agot_debug_give_dragon_tt:0 "[recipient.GetNameOrMeRegnal] will be given a [tamed_dragon|E]"
-### TODO NOT-IN-ST: debug_bond_dragon [AGOT: Instantly Bond]
- debug_bond_dragon:0 "Instantly Bond"
+
+ AGOT_DEBUG_MW_NO_WAR_VALID:0 "İlan edilecek geçerli bir dev savaş yok."
+
+ AGOT_DEBUG_MW_TRIGGER_MW_REGULAR:0 "Bu, normal bir dev savaşı tetikleyecek."
+
+ AGOT_DEBUG_MW_TRIGGER_MW_LITE:0 "Bu, hafif bir dev savaşı tetikleyecek."
+
+ agot_debug_fetch_ptk:0 "Şövalyelik İlerlemesini Göster"
+
+ agot_debug_fetch_ptk_desc:0 "Karakterin PTK Değerini Gösterir"
+
+ agot_debug_fetch_ptk_desc_tt:0 "[recipient.GetFirstName]'in PTK'sı [THIS.Var('ProgressToKnighthood').GetValue|V0]."
+
+ agot_debug_take_as_squire:0 "Zorla Çırak Olarak Al"
+
+ agot_debug_take_as_squire_desc:0 "Uygun bir karakteri çırak olarak al"
+
+ agot_debug_modify_ptk:0 "PTK'yı Değiştir"
+
+ agot_debug_modify_ptk_desc:0 "Bir Çırağın PTK'sını Değiştir"
+
+ debug_increase_ptk_5:0 "#P PTK'yı 5 artır"
+
+ debug_increase_ptk_10:0 "#P PTK'yı 10 artır"
+
+ debug_increase_ptk_15:0 "#P PTK'yı 15 artır"
+
+ debug_increase_ptk_20:0 "#P PTK'yı 20 artır"
+
+ debug_increase_ptk_25:0 "#P PTK'yı 25 artır"
+
+ debug_decrease_ptk_5:0 "#N PTK'yı 5 azalt"
+
+ debug_decrease_ptk_10:0 "#N PTK'yı 10 azalt"
+
+ debug_decrease_ptk_15:0 "#N PTK'yı 15 azalt"
+
+ debug_decrease_ptk_20:0 "#N PTK'yı 20 azalt"
+
+ debug_decrease_ptk_25:0 "#N PTK'yı 25 azalt"
+
+ debug_tame_dragon_interaction:0 "Hata Ayıklama: Ejderhayı Yönet"
+
+ agot_debug_spawn_egg:0 "Ejderha Yumurtası Oluştur"
+
+ agot_debug_spawn_dragon:0 "Ejderha Oluştur"
+
+ agot_debug_give_dragon_tt:0 "[recipient.GetNameOrMeRegnal]'e bir [tamed_dragon|E] verilecek"
+
+ debug_bond_dragon:0 "Anında Bağ Kur"
 
  debug_tame_dragon:0 "Ejderha Ehlileştir"
-### TODO NOT-IN-ST: debug_untame_dragon [AGOT: Untame Dragon]
- debug_untame_dragon:0 "Untame Dragon"
-### TODO NOT-IN-ST: debug_unbond_dragon [AGOT: Unbond Dragon]
- debug_unbond_dragon:0 "Unbond Dragon"
+
+ debug_untame_dragon:0 "Ejderhayı Evcilsizleştir"
+
+ debug_unbond_dragon:0 "Ejderhayla Bağı Kopar"
 
  debug_dragonpit_dragon:0 "Ejderha Çukuru'na Gönder"
-### TODO NOT-IN-ST: debug_release_from_dragonpit_dragon [AGOT: Release from Dragonpit]
- debug_release_from_dragonpit_dragon: "Release from Dragonpit"
-### TODO NOT-IN-ST: debug_bond_dragon_tt [AGOT: [actor.GetShortUIName] will instantly bond with [recipient.GetName]]
- debug_bond_dragon_tt:0 "[actor.GetShortUIName] will instantly bond with [recipient.GetName]"
-### TODO NOT-IN-ST: debug_tame_dragon_tt [AGOT: [actor.GetShortUIName] will instantly tame [recipient.GetName]]
- debug_tame_dragon_tt:0 "[actor.GetShortUIName] will instantly tame [recipient.GetName]"
-### TODO NOT-IN-ST: debug_untame_dragon_tt [AGOT: [actor.GetShortUIName] will untame [recipient.GetName], but [recipient.GetName] will remain bonded with [actor.GetShortUIName]]
- debug_untame_dragon_tt:0 "[actor.GetShortUIName] will untame [recipient.GetName], but [recipient.GetName] will remain bonded with [actor.GetShortUIName]"
-### TODO NOT-IN-ST: debug_unbond_dragon_tt [AGOT: [actor.GetShortUIName] will unbond [recipient.GetName]]
- debug_unbond_dragon_tt:0 "[actor.GetShortUIName] will unbond [recipient.GetName]"
-### TODO NOT-IN-ST: manage_dragon_nothing_tt [AGOT: Nothing Will Happen]
- manage_dragon_nothing_tt:0 "Nothing Will Happen"
-### TODO NOT-IN-ST: debug_dragonpit_dragon_tt [AGOT: [recipient.GetShortUIName] will be instantly locked in [actor.GetShortUINamePossessive] [dragonpit|El]]
- debug_dragonpit_dragon_tt:0 "[recipient.GetShortUIName] will be instantly locked in [actor.GetShortUINamePossessive] [dragonpit|El]"
-### TODO NOT-IN-ST: debug_release_from_dragonpit_dragon_tt [AGOT: [recipient.GetShortUIName] will be released from captivity]
- debug_release_from_dragonpit_dragon_tt: "[recipient.GetShortUIName] will be released from captivity"
-### TODO NOT-IN-ST: debug_spawn_owned_dragon [AGOT: Spawn [owned_dragon|E]]
- debug_spawn_owned_dragon:0 "Spawn [owned_dragon|E]"
-### TODO NOT-IN-ST: debug_spawn_tamed_dragon [AGOT: Spawn [tamed_dragon|E]]
- debug_spawn_tamed_dragon:0 "Spawn [tamed_dragon|E]"
-### TODO NOT-IN-ST: debug_spawn_wild_dragon [AGOT: Spawn [wild_dragon|E]]
- debug_spawn_wild_dragon:0 "Spawn [wild_dragon|E]"
-### TODO NOT-IN-ST: agot_debug_spawn_owned_dragon_tt [AGOT: An [owned_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court]
- agot_debug_spawn_owned_dragon_tt:0 "An [owned_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
-### TODO NOT-IN-ST: agot_debug_spawn_tamed_dragon_tt [AGOT: A [tamed_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court]
- agot_debug_spawn_tamed_dragon_tt:0 "A [tamed_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
-### TODO NOT-IN-ST: agot_debug_spawn_wild_dragon_tt [AGOT: A [wild_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court]
- agot_debug_spawn_wild_dragon_tt:0 "A [wild_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
-### TODO NOT-IN-ST: agot_show_all_dragonbloods [AGOT: Display All Dragonblood Characters]
- agot_show_all_dragonbloods:0 "Display All Dragonblood Characters"
-### TODO NOT-IN-ST: agot_show_all_dragonbloods_desc [AGOT: Display a list of all dragonblood characters]
- agot_show_all_dragonbloods_desc:0 "Display a list of all dragonblood characters"
-### TODO NOT-IN-ST: agot_show_dragonblood_debug [AGOT: Display Dragonblood %]
- agot_show_dragonblood_debug:0 "Display Dragonblood %"
-### TODO NOT-IN-ST: agot_show_dragonblood_debug_desc [AGOT: Display the amount of dragonblood [recipient.GetName] has]
- agot_show_dragonblood_debug_desc:0 "Display the amount of dragonblood [recipient.GetName] has"
-### TODO NOT-IN-ST: debug_dragon_blood_value [AGOT: [recipient.MakeScope.ScriptValue('dragonblood_percent')]% Dragonblood]
- debug_dragon_blood_value:0 "[recipient.MakeScope.ScriptValue('dragonblood_percent')]% Dragonblood"
+
+ debug_release_from_dragonpit_dragon:0 "Ejderha Çukurundan Serbest Bırak"
+
+ debug_bond_dragon_tt:0 "[actor.GetShortUIName], [recipient.GetName] ile anında bağ kuracak"
+
+ debug_tame_dragon_tt:0 "[actor.GetShortUIName], [recipient.GetName]'i anında evcilleştirecek"
+
+ debug_untame_dragon_tt:0 "[actor.GetShortUIName], [recipient.GetName]'i evcilsizleştirecek, ama [recipient.GetName], [actor.GetShortUIName] ile bağlı kalmaya devam edecek"
+
+ debug_unbond_dragon_tt:0 "[actor.GetShortUIName], [recipient.GetName] ile bağını koparacak"
+
+ manage_dragon_nothing_tt:0 "Hiçbir Şey Olmayacak"
+
+ debug_dragonpit_dragon_tt:0 "[recipient.GetShortUIName], [actor.GetShortUINamePossessive] [dragonpit|El]'ine anında kilitlenecek"
+
+ debug_release_from_dragonpit_dragon_tt:0 "[recipient.GetShortUIName] esaretten serbest bırakılacak"
+
+ debug_spawn_owned_dragon:0 "[owned_dragon|E] Oluştur"
+
+ debug_spawn_tamed_dragon:0 "[tamed_dragon|E] Oluştur"
+
+ debug_spawn_wild_dragon:0 "[wild_dragon|E] Oluştur"
+
+ agot_debug_spawn_owned_dragon_tt:0 "[recipient.GetNamePossessiveRegnal] sarayında bir [owned_dragon|E] belirecek"
+
+ agot_debug_spawn_tamed_dragon_tt:0 "[recipient.GetNamePossessiveRegnal] sarayında bir [tamed_dragon|E] belirecek"
+
+ agot_debug_spawn_wild_dragon_tt:0 "[recipient.GetNamePossessiveRegnal] sarayında bir [wild_dragon|E] belirecek"
+
+ agot_show_all_dragonbloods:0 "Tüm Ejderha Kanlı Karakterleri Göster"
+
+ agot_show_all_dragonbloods_desc:0 "Tüm ejderha kanlı karakterlerin listesini göster"
+
+ agot_show_dragonblood_debug:0 "Ejderha Kanı %'sini Göster"
+
+ agot_show_dragonblood_debug_desc:0 "[recipient.GetName]'in sahip olduğu ejderha kanı miktarını göster"
+
+ debug_dragon_blood_value:0 "%[recipient.MakeScope.ScriptValue('dragonblood_percent')] Ejderha Kanı"
 
  agot_dragon_lay_egg_debug:0 "Yumurta Bırak"
 
  agot_dragon_lay_egg_debug_desc:0 "Yumurta Bırak"
-### TODO NOT-IN-ST: agot_dragon_lay_egg_debug.lay_eggs [AGOT: Lays a clutch of eggs]
- agot_dragon_lay_egg_debug.lay_eggs:0 "Lays a clutch of eggs"
-### TODO NOT-IN-ST: agot_run_event_debug [AGOT: Run Debug Event]
- agot_run_event_debug:0 "Run Debug Event"
-### TODO NOT-IN-ST: agot_run_event_debug_desc [AGOT: Run debug event on the selected character]
- agot_run_event_debug_desc:0 "Run debug event on the selected character"
-### TODO NOT-IN-ST: agot_field_of_fire_debug [AGOT: Field of Fire]
- agot_field_of_fire_debug:0 "Field of Fire"
-### TODO NOT-IN-ST: agot_field_of_fire_debug_desc [AGOT: Rain dragonfire on unimportant characters throughout the world]
- agot_field_of_fire_debug_desc:0 "Rain dragonfire on unimportant characters throughout the world"
-### TODO NOT-IN-ST: field_of_fire_debug_desc [AGOT: Angry dragon noises]
- field_of_fire_debug_desc:0 "Angry dragon noises"
-### TODO NOT-IN-ST: claim_capital_kingdom_interaction [AGOT: Claim and Convert [capital|E] [kingdom|E]]
- claim_capital_kingdom_interaction:0 "Claim and Convert [capital|E] [kingdom|E]"
-### TODO NOT-IN-ST: complete_ruins_wilderness_interaction [AGOT: Complete All [colony|E] and [ruin|E] Holdings]
- complete_ruins_wilderness_interaction:0 "Complete All [colony|E] and [ruin|E] Holdings"
-### TODO NOT-IN-ST: agot_dragon_inactive_trait_debug [AGOT: Display Dragon's Inactive Traits]
- agot_dragon_inactive_trait_debug:0 "Display Dragon's Inactive Traits"
-### TODO NOT-IN-ST: agot_dragon_inactive_trait_debug_desc [AGOT: Display the inactive traits [recipient.GetName] has]
- agot_dragon_inactive_trait_debug_desc:0 "Display the inactive traits [recipient.GetName] has"
-### TODO NOT-IN-ST: dragon_physique_good_3.tt [AGOT: [GetTrait('dragon_physique_good_3').GetName( GetNullCharacter )]]
+
+ agot_dragon_lay_egg_debug.lay_eggs:0 "Bir yumurta kümesi bırakır"
+
+ agot_run_event_debug:0 "Hata Ayıklama Olayını Çalıştır"
+
+ agot_run_event_debug_desc:0 "Seçilen karakterde hata ayıklama olayını çalıştır"
+
+ agot_field_of_fire_debug:0 "Ateş Tarlası"
+
+ agot_field_of_fire_debug_desc:0 "Dünya genelindeki önemsiz karakterlerin üzerine ejderha ateşi yağdır"
+
+ field_of_fire_debug_desc:0 "Kızgın ejderha sesleri"
+
+ claim_capital_kingdom_interaction:0 "[capital|E] [kingdom|E]'ini Talep Et ve Dönüştür"
+
+ complete_ruins_wilderness_interaction:0 "Tüm [colony|E] ve [ruin|E] Bölgelerini Tamamla"
+
+ agot_dragon_inactive_trait_debug:0 "Ejderhanın Etkin Olmayan Özelliklerini Göster"
+
+ agot_dragon_inactive_trait_debug_desc:0 "[recipient.GetName]'in sahip olduğu etkin olmayan özellikleri göster"
+
  dragon_physique_good_3.tt:0 "[GetTrait('dragon_physique_good_3').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_physique_good_2.tt [AGOT: [GetTrait('dragon_physique_good_2').GetName( GetNullCharacter )]]
+
  dragon_physique_good_2.tt:0 "[GetTrait('dragon_physique_good_2').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_physique_good_1.tt [AGOT: [GetTrait('dragon_physique_good_1').GetName( GetNullCharacter )]]
+
  dragon_physique_good_1.tt:0 "[GetTrait('dragon_physique_good_1').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_swift.tt [AGOT: [GetTrait('dragon_swift').GetName( GetNullCharacter )]]
+
  dragon_swift.tt:0 "[GetTrait('dragon_swift').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_majestic.tt [AGOT: [GetTrait('dragon_majestic').GetName( GetNullCharacter )]]
+
  dragon_majestic.tt:0 "[GetTrait('dragon_majestic').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_fertile.tt [AGOT: [GetTrait('dragon_fertile').GetName( GetNullCharacter )]]
+
  dragon_fertile.tt:0 "[GetTrait('dragon_fertile').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_physique_bad_3.tt [AGOT: [GetTrait('dragon_physique_bad_3').GetName( GetNullCharacter )]]
+
  dragon_physique_bad_3.tt:0 "[GetTrait('dragon_physique_bad_3').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_physique_bad_2.tt [AGOT: [GetTrait('dragon_physique_bad_2').GetName( GetNullCharacter )]]
+
  dragon_physique_bad_2.tt:0 "[GetTrait('dragon_physique_bad_2').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_physique_bad_1.tt [AGOT: [GetTrait('dragon_physique_bad_1').GetName( GetNullCharacter )]]
+
  dragon_physique_bad_1.tt:0 "[GetTrait('dragon_physique_bad_1').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_slow.tt [AGOT: [GetTrait('dragon_slow').GetName( GetNullCharacter )]]
+
  dragon_slow.tt:0 "[GetTrait('dragon_slow').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_ugly.tt [AGOT: [GetTrait('dragon_ugly').GetName( GetNullCharacter )]]
+
  dragon_ugly.tt:0 "[GetTrait('dragon_ugly').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_spindly.tt [AGOT: [GetTrait('dragon_spindly').GetName( GetNullCharacter )]]
+
  dragon_spindly.tt:0 "[GetTrait('dragon_spindly').GetName( GetNullCharacter )]"
-### TODO NOT-IN-ST: dragon_none.tt [AGOT: Has no inactive traits]
- dragon_none.tt:0 "Has no inactive traits"
-### TODO NOT-IN-ST: agot_set_disfigurement [AGOT: Set Disfigurement]
- agot_set_disfigurement:0 "Set Disfigurement"
-### TODO NOT-IN-ST: agot_set_disfigurement_desc [AGOT: Set the type of disfigurement this character has]
- agot_set_disfigurement_desc:0 "Set the type of disfigurement this character has"
-### TODO NOT-IN-ST: debug_visible_disfigurement_1 [AGOT: Ravaged Right Side of Face]
- debug_visible_disfigurement_1:0 "Ravaged Right Side of Face"
-### TODO NOT-IN-ST: debug_visible_disfigurement_2 [AGOT: Noseless With Distorted Mouth]
- debug_visible_disfigurement_2:0 "Noseless With Distorted Mouth"
-### TODO NOT-IN-ST: debug_visible_disfigurement_3 [AGOT: Distorted Mouth]
- debug_visible_disfigurement_3:0 "Distorted Mouth"
-### TODO NOT-IN-ST: debug_visible_disfigurement_4 [AGOT: Damaged Left Side of Face]
- debug_visible_disfigurement_4:0 "Damaged Left Side of Face"
+
+ dragon_none.tt:0 "Etkin olmayan özelliği yok"
+
+ agot_set_disfigurement:0 "Şekil Bozukluğunu Ayarla"
+
+ agot_set_disfigurement_desc:0 "Bu karakterin sahip olduğu şekil bozukluğu türünü ayarla"
+
+ debug_visible_disfigurement_1:0 "Yüzün Sağ Tarafı Harap"
+
+ debug_visible_disfigurement_2:0 "Burunsuz, Çarpık Ağızlı"
+
+ debug_visible_disfigurement_3:0 "Çarpık Ağız"
+
+ debug_visible_disfigurement_4:0 "Yüzün Sol Tarafı Hasarlı"
 
  debug_visible_disfigurement_5:0 "Burunsuz"
-### TODO NOT-IN-ST: debug_remove_visible_disfigurement [AGOT: Remove Hidden Disfigurement Type]
- debug_remove_visible_disfigurement:0 "Remove Hidden Disfigurement Type"
-### TODO NOT-IN-ST: agot_give_pirate_ship [AGOT: Spawn a Pirate Ship Domicile]
- agot_give_pirate_ship:0 "Spawn a Pirate Ship Domicile"
-### TODO NOT-IN-ST: agot_give_pirate_ship_desc [AGOT: Spawn a Pirate Ship Domicile for [recipient.GetName]]
- agot_give_pirate_ship_desc:0 "Spawn a Pirate Ship Domicile for [recipient.GetName]"
+
+ debug_remove_visible_disfigurement:0 "Gizli Şekil Bozukluğu Türünü Kaldır"
+
+ agot_give_pirate_ship:0 "Bir Korsan Gemisi İkametgâhı Oluştur"
+
+ agot_give_pirate_ship_desc:0 "[recipient.GetName] için bir Korsan Gemisi İkametgâhı Oluştur"

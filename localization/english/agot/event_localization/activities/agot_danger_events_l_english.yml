@@ -1,16 +1,16 @@
-﻿﻿﻿l_english:
-### TODO NOT-IN-ST: agot_danger.0001.title [AGOT: $travel_danger_prefix$ A Wildling Raiding Party!]
- agot_danger.0001.title:0 "$travel_danger_prefix$ A Wildling Raiding Party!"
-### TODO NOT-IN-ST: agot_danger.0001.desc [AGOT: As our host passes through [location.GetName], a battle cry cuts through the air, stabbing us with immense fear. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n]
- agot_danger.0001.desc:0 "As our host passes through [location.GetName], a battle cry cuts through the air, stabbing us with immense fear. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Wildlings, my [ROOT.Char.GetLadyLord]!" A guard's voice pierces through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. Panic spreads among us like wildfire, with another voice joining the chorus of fear. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are huge, fearless, and seemingly prepared to lose their lives for our goods. Among them, one figure stood out: [btw_raider.GetFirstNameNicknamed], a leader by the looks of it. A Wildling known for [btw_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..."
+﻿l_english:
+
+ agot_danger.0001.title:0 "$travel_danger_prefix$ Bir Yabanıl Akıncı Birliği!"
+
+ agot_danger.0001.desc:0 "Kafilemiz [location.GetName]'den geçerken, savaş çığlığı havayı yararak bizi korkunun tam kalbinden bıçaklıyor. En cesur gezginler arasında bile bu ses, yürekli adamları annelerinin eteklerine koştururdu.\n\n"Yabanıllar, [ROOT.Char.GetLadyLord]'im!" Bir muhafızın sesi gerginliği delip geçiyor; kılıcını çekip ileri doğrulturken dikkatimi çekiyor. Aramızda panik yabanalevi gibi yayılıyor; korku korosuna bir ses daha katılıyor. "Ne kadar #bold çoklar#!!"\n\nSayıları azımsanacak gibi olmasa da düşmanlar kocaman, korkusuz ve mallarımız için canlarını vermeye hazır görünüyorlar. Aralarında bir figür öne çıkıyor: görünüşe göre bir lider olan [btw_raider.GetFirstNameNicknamed]. [btw_raider.GetHerHis] zalimliği, bunun gibi cüretkâr akınları ve ateşli öfkesiyle tanınan bir Yabanıl.\n\nAkıncılar yaklaşırken atım şahlanıp kişniyor, beni düşürmekle tehdit ediyor; ama ben dizginleri sıkıca tutup dik oturuyorum. [ROOT.Char.Custom('signature_weapon')] silahımı havaya kaldırıp haykırıyorum..."
 
  agot_danger.0001.a:0 "Geri dönün! Derhal geri dönün!"
-### TODO NOT-IN-ST: agot_danger.0001.a.tt [AGOT: You and your entourage attempt to flee from the Wildling raiders.]
- agot_danger.0001.a.tt:0 "You and your entourage attempt to flee from the Wildling raiders."
+
+ agot_danger.0001.a.tt:0 "Sen ve maiyetin Yabanıl akıncılardan kaçmayı deniyorsunuz."
 
  agot_danger.0001.a.toast:0 "Kaç!"
-### TODO NOT-IN-ST: agot_danger.0001.a.fleeing [AGOT: You escaped without a hassle. Take that, [btw_raider.GetFirstName]!]
- agot_danger.0001.a.fleeing:0 "You escaped without a hassle. Take that, [btw_raider.GetFirstName]!"
+
+ agot_danger.0001.a.fleeing:0 "Hiç zorlanmadan kaçtın. Al bakalım, [btw_raider.GetFirstName]!"
 
  agot_danger.0001.a.minordelay:0 "Kaçtın ama bu yolculuğunda küçük bir gecikmeye neden oldu."
 
@@ -19,62 +19,62 @@
  agot_danger.0001.a.minortheft:0 "Canınızı kurtardınız ama eşyalarınızın hepsini değil."
 
  agot_danger.0001.a.majortheft:0 "Canlarınızı kurtardınız ama kaçarken para kesen eyerinden düştü."
-### TODO NOT-IN-ST: agot_danger.0001.a.minorcombo [AGOT: Despite the maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal some of your things.]
- agot_danger.0001.a.minorcombo:0 "Despite the maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal some of your things."
-### TODO NOT-IN-ST: agot_danger.0001.a.majorcombo [AGOT: Despite the complicated maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal most of your things.]
- agot_danger.0001.a.majorcombo:0 "Despite the complicated maneuver, [btw_raider.GetFirstNameNoTooltip] managed to steal most of your things."
-### TODO NOT-IN-ST: agot_danger.0001.a.scattered [AGOT: Your entourage was scattered — everyone for themselves!]
- agot_danger.0001.a.scattered:0 "Your entourage was scattered — everyone for themselves!"
+
+ agot_danger.0001.a.minorcombo:0 "Manevraya rağmen [btw_raider.GetFirstNameNoTooltip] eşyalarından bir kısmını çalmayı başardı."
+
+ agot_danger.0001.a.majorcombo:0 "Karmaşık manevraya rağmen [btw_raider.GetFirstNameNoTooltip] eşyalarının çoğunu çalmayı başardı."
+
+ agot_danger.0001.a.scattered:0 "Maiyetin darmadağın oldu - herkes kendi başına!"
 
  agot_danger.0001.b:0 "Kendinize gelin beyler ve arkamdan gelin! Hücum!"
-### TODO NOT-IN-ST: agot_danger.0001.b.tt [AGOT: You and your guards charge at the Wildlings.]
- agot_danger.0001.b.tt:0 "You and your guards charge at the Wildlings."
+
+ agot_danger.0001.b.tt:0 "Sen ve muhafızların Yabanıllara saldırıyorsunuz."
 
  agot_danger.0001.b.winning:0 "Savaşı kazanıyorsun."
 
  agot_danger.0001.b.win:0 "Kazandın"
-### TODO NOT-IN-ST: agot_danger.0001.b.killed [AGOT: You have killed all the Wildlings in the party.]
- agot_danger.0001.b.killed:0 "You have killed all the Wildlings in the party."
-### TODO NOT-IN-ST: agot_danger.0001.b.imprisoned [AGOT: You have captured the leader of the Wildling raiding party, [btw_raider.GetFirstName]!]
- agot_danger.0001.b.imprisoned:0 "You have captured the leader of the Wildling raiding party, [btw_raider.GetFirstName]!"
-### TODO NOT-IN-ST: agot_danger.0001.b.fleeing [AGOT: The Wildling raiding party and their leader [btw_raider.GetFirstName] escaped after a hour-long fight!]
- agot_danger.0001.b.fleeing:0 "The Wildling raiding party and their leader [btw_raider.GetFirstName] escaped after a hour-long fight!"
+
+ agot_danger.0001.b.killed:0 "Birlikteki tüm Yabanılları öldürdün."
+
+ agot_danger.0001.b.imprisoned:0 "Yabanıl akıncı birliğinin liderini, [btw_raider.GetFirstName]'i esir aldın!"
+
+ agot_danger.0001.b.fleeing:0 "Yabanılların akıncı birliği ve liderleri [btw_raider.GetFirstName], bir saat süren çatışmanın ardından kaçtı!"
 
  agot_danger.0001.b.losing:0 "Savaşı kaybediyorsun."
 
  agot_danger.0001.b.loss:0 "Kaybettin"
 
  agot_danger.0001.b.robbed:0 "Yenildin, toplandın ve soyuldun; neyin varsa aldılar."
-### TODO NOT-IN-ST: agot_danger.0001.b.kidnapping [AGOT: You were defeated, and the Wildlings took [kidnapped_entourage.GetName]...]
- agot_danger.0001.b.kidnapping:0 "You were defeated, and the Wildlings took [kidnapped_entourage.GetName]..."
+
+ agot_danger.0001.b.kidnapping:0 "Yenildin ve Yabanıllar [kidnapped_entourage.GetName]'i alıp götürdü..."
 
  agot_danger.0001.c:0 "Peki ya bir rüşvet..."
-### TODO NOT-IN-ST: agot_danger.0001.c.tt [AGOT: You attempt to recruit [btw_raider.GetFirstNameNoTooltip].]
- agot_danger.0001.c.tt:0 "You attempt to recruit [btw_raider.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_danger.0001.c.joined [AGOT: [btw_raider.GetFirstNameNoTooltip] Joins Your Court]
- agot_danger.0001.c.joined:0 "[btw_raider.GetFirstNameNoTooltip] Joins Your Court"
-### TODO NOT-IN-ST: agot_danger.0001.c.else [AGOT: But should you trust a Wildling?]
- agot_danger.0001.c.else:0 "But should you trust a Wildling?"
-### TODO NOT-IN-ST: agot_danger.0001.c.ranwithmoney [AGOT: [btw_raider.GetFirstNameNoTooltip] Ran Away with the Money]
- agot_danger.0001.c.ranwithmoney:0 "[btw_raider.GetFirstNameNoTooltip] Ran Away with the Money"
+
+ agot_danger.0001.c.tt:0 "[btw_raider.GetFirstNameNoTooltip]'i saflarına katmayı deniyorsun."
+
+ agot_danger.0001.c.joined:0 "[btw_raider.GetFirstNameNoTooltip] Sarayına Katılıyor"
+
+ agot_danger.0001.c.else:0 "Ama bir Yabanıla güvenmeli misin?"
+
+ agot_danger.0001.c.ranwithmoney:0 "[btw_raider.GetFirstNameNoTooltip] Parayla Kaçtı"
 
  agot_danger.0001.d:0 "[sacrificed_entourage.GetFirstNameNoTooltip]'i bırakırsak bize zaman kazandırabilir."
-### TODO NOT-IN-ST: agot_danger.0001.d.tt [AGOT: You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the Wildling raiders.]
- agot_danger.0001.d.tt:0 "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the Wildling raiders."
-### TODO NOT-IN-ST: agot_danger.0001.d.sacrifice [AGOT: [sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind]
- agot_danger.0001.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind"
-### TODO NOT-IN-ST: agot_danger.0002.title [AGOT: $travel_danger_prefix$ A Clash in the Mountains!]
- agot_danger.0002.title:0 "$travel_danger_prefix$ A Clash in the Mountains!"
-### TODO NOT-IN-ST: agot_danger.0002.desc [AGOT: As our host passes through [location.GetName], a battle cry cuts through the thin morning air, sending shivers down our spines. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n]
- agot_danger.0002.desc:0 "As our host passes through [location.GetName], a battle cry cuts through the thin morning air, sending shivers down our spines. Even among the bravest travelers, this sound would have sent bold men rushing to their mothers' skirts.\n\n"Riders, my [ROOT.Char.GetLadyLord]!" A scout's voice rings out through the tension, drawing my attention as he unsheathes his sword, pointing it ahead. There is nothing to see yet, but the sound of many hoofbeats, a dozen horses or more, grows louder, coming nearer. Panic spreads among us like wildfire, with another voice joining the chorus of fear when they come to view. "There's #bold so many#!!"\n\nAlthough their numbers aren't vast, the enemies are big, fearless, and seemingly prepared to lose their lives for our goods. At their head rides a huge [moon_raider.GetWomanMan] in a striped shadowskin cloak, armed with a two-handed greatsword. Someone from my entourage shouts [moon_raider.GetHerHis] name, it was [moon_raider.GetFirstNameNicknamed], a leader of this raiding party by the looks of it. A Clansman known for [moon_raider.GetHerHis] cruelty, bold raids like this one, and a fiery temper.\n\nAs the raiders close in, my horse bucks and snorts, threatening to unseat me, but I hold the reins tightly, sitting up straight. Raising my [ROOT.Char.Custom('signature_weapon')] in air, I shout..."
+
+ agot_danger.0001.d.tt:0 "Yabanıl akıncıları oyalamak için [sacrificed_entourage.GetName]'i feda edeceksin."
+
+ agot_danger.0001.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Geride Bırakıldı"
+
+ agot_danger.0002.title:0 "$travel_danger_prefix$ Dağlarda Çatışma!"
+
+ agot_danger.0002.desc:0 "Kafilemiz [location.GetName]'den geçerken, savaş çığlığı ince sabah havasını yararak omurgamızdan aşağı ürpertiler gönderiyor. En cesur gezginler arasında bile bu ses, yürekli adamları annelerinin eteklerine koştururdu.\n\n"Süvariler, [ROOT.Char.GetLadyLord]'im!" Bir gözcünün sesi gerginliğin içinde çınlıyor; kılıcını çekip ileri doğrultarken dikkatimi çekiyor. Henüz görülecek bir şey yok; ama bir düzine ya da daha fazla atın nal sesleri gittikçe yükselerek yaklaşıyor. Onları görünce aramızda panik yabanalevi gibi yayılıyor; korku korosuna bir ses daha katılıyor. "Ne kadar #bold çoklar#!!"\n\nSayıları azımsanacak gibi olmasa da düşmanlar kocaman, korkusuz ve mallarımız için canlarını vermeye hazır görünüyorlar. Başlarında, çizgili gölgederi pelerinli, iki elle kullanılan büyük bir kılıçla kuşanmış dev gibi bir [moon_raider.GetWomanMan] sürüyor. Maiyetimden biri [moon_raider.GetHerHis] adını haykırıyor; görünüşe göre bu akıncı birliğinin lideri olan [moon_raider.GetFirstNameNicknamed]'miş. [moon_raider.GetHerHis] zalimliği, bunun gibi cüretkâr akınları ve ateşli öfkesiyle tanınan bir Dağlı.\n\nAkıncılar yaklaşırken atım şahlanıp kişniyor, beni düşürmekle tehdit ediyor; ama ben dizginleri sıkıca tutup dik oturuyorum. [ROOT.Char.Custom('signature_weapon')] silahımı havaya kaldırıp haykırıyorum..."
 
  agot_danger.0002.a:0 "Geri dönün! Derhal geri dönün!"
-### TODO NOT-IN-ST: agot_danger.0002.a.tt [AGOT: You and your entourage attempt to flee from the Clansmen raiders.]
- agot_danger.0002.a.tt:0 "You and your entourage attempt to flee from the Clansmen raiders."
+
+ agot_danger.0002.a.tt:0 "Sen ve maiyetin Dağlı akıncılarından kaçmayı deniyorsunuz."
 
  agot_danger.0002.a.toast:0 "Kaç!"
-### TODO NOT-IN-ST: agot_danger.0002.a.fleeing [AGOT: You escaped without a hassle. Take that, [moon_raider.GetFirstName]!]
- agot_danger.0002.a.fleeing:0 "You escaped without a hassle. Take that, [moon_raider.GetFirstName]!"
+
+ agot_danger.0002.a.fleeing:0 "Hiç zorlanmadan kaçtın. Al bakalım, [moon_raider.GetFirstName]!"
 
  agot_danger.0002.a.minordelay:0 "Kaçtın ama bu yolculuğunda küçük bir gecikmeye neden oldu."
 
@@ -83,265 +83,265 @@
  agot_danger.0002.a.minortheft:0 "Canınızı kurtardınız ama eşyalarınızın hepsini değil."
 
  agot_danger.0002.a.majortheft:0 "Canlarınızı kurtardınız ama kaçarken para kesen eyerinden düştü."
-### TODO NOT-IN-ST: agot_danger.0002.a.minorcombo [AGOT: Despite the maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal some of your things.]
- agot_danger.0002.a.minorcombo:0 "Despite the maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal some of your things."
-### TODO NOT-IN-ST: agot_danger.0002.a.majorcombo [AGOT: Despite the complicated maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal most of your things.]
- agot_danger.0002.a.majorcombo:0 "Despite the complicated maneuver, [moon_raider.GetFirstNameNoTooltip] managed to steal most of your things."
-### TODO NOT-IN-ST: agot_danger.0002.a.scattered [AGOT: Your entourage was scattered — everyone for themselves!]
- agot_danger.0002.a.scattered:0 "Your entourage was scattered — everyone for themselves!"
+
+ agot_danger.0002.a.minorcombo:0 "Manevraya rağmen [moon_raider.GetFirstNameNoTooltip] eşyalarından bir kısmını çalmayı başardı."
+
+ agot_danger.0002.a.majorcombo:0 "Karmaşık manevraya rağmen [moon_raider.GetFirstNameNoTooltip] eşyalarının çoğunu çalmayı başardı."
+
+ agot_danger.0002.a.scattered:0 "Maiyetin darmadağın oldu - herkes kendi başına!"
 
  agot_danger.0002.b:0 "Kendinize gelin beyler ve arkamdan gelin! Hücum!"
-### TODO NOT-IN-ST: agot_danger.0002.b.tt [AGOT: You and your guards charge at the Clansmen raiders.]
- agot_danger.0002.b.tt:0 "You and your guards charge at the Clansmen raiders."
+
+ agot_danger.0002.b.tt:0 "Sen ve muhafızların Dağlı akıncılarına saldırıyorsunuz."
 
  agot_danger.0002.b.winning:0 "Savaşı kazanıyorsun."
 
  agot_danger.0002.b.win:0 "Kazandın"
-### TODO NOT-IN-ST: agot_danger.0002.b.killed [AGOT: You have killed all the raiders in the party.]
- agot_danger.0002.b.killed:0 "You have killed all the raiders in the party."
-### TODO NOT-IN-ST: agot_danger.0002.b.imprisoned [AGOT: You have captured the leader of the Clansmen raiding party, [moon_raider.GetFirstName]!]
- agot_danger.0002.b.imprisoned:0 "You have captured the leader of the Clansmen raiding party, [moon_raider.GetFirstName]!"
-### TODO NOT-IN-ST: agot_danger.0002.b.fleeing [AGOT: The Clansmen raiding party and their leader [moon_raider.GetFirstName] escaped after a hour-long fight!]
- agot_danger.0002.b.fleeing:0 "The Clansmen raiding party and their leader [moon_raider.GetFirstName] escaped after a hour-long fight!"
+
+ agot_danger.0002.b.killed:0 "Birlikteki tüm akıncıları öldürdün."
+
+ agot_danger.0002.b.imprisoned:0 "Dağlı akıncı birliğinin liderini, [moon_raider.GetFirstName]'i esir aldın!"
+
+ agot_danger.0002.b.fleeing:0 "Dağlıların akıncı birliği ve liderleri [moon_raider.GetFirstName], bir saat süren çatışmanın ardından kaçtı!"
 
  agot_danger.0002.b.losing:0 "Savaşı kaybediyorsun."
 
  agot_danger.0002.b.loss:0 "Kaybettin"
 
  agot_danger.0002.b.robbed:0 "Yenildin, toplandın ve soyuldun; neyin varsa aldılar."
-### TODO NOT-IN-ST: agot_danger.0002.b.kidnapping [AGOT: You were defeated, and the raiders took [kidnapped_entourage.GetName]...]
- agot_danger.0002.b.kidnapping:0 "You were defeated, and the raiders took [kidnapped_entourage.GetName]..."
+
+ agot_danger.0002.b.kidnapping:0 "Yenildin ve akıncılar [kidnapped_entourage.GetName]'i alıp götürdü..."
 
  agot_danger.0002.c:0 "Peki ya bir rüşvet..."
-### TODO NOT-IN-ST: agot_danger.0002.c.tt [AGOT: You attempt to recruit [moon_raider.GetFirstNameNoTooltip].]
- agot_danger.0002.c.tt:0 "You attempt to recruit [moon_raider.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_danger.0002.c.joined [AGOT: [moon_raider.GetFirstNameNoTooltip] Joins Your Court]
- agot_danger.0002.c.joined:0 "[moon_raider.GetFirstNameNoTooltip] Joins Your Court"
-### TODO NOT-IN-ST: agot_danger.0002.c.else [AGOT: But should you trust a Mountain Clansman?]
- agot_danger.0002.c.else:0 "But should you trust a Mountain Clansman?"
-### TODO NOT-IN-ST: agot_danger.0002.c.ranwithmoney [AGOT: [moon_raider.GetFirstNameNoTooltip] Ran Away with the Money]
- agot_danger.0002.c.ranwithmoney:0 "[moon_raider.GetFirstNameNoTooltip] Ran Away with the Money"
+
+ agot_danger.0002.c.tt:0 "[moon_raider.GetFirstNameNoTooltip]'i saflarına katmayı deniyorsun."
+
+ agot_danger.0002.c.joined:0 "[moon_raider.GetFirstNameNoTooltip] Sarayına Katılıyor"
+
+ agot_danger.0002.c.else:0 "Ama bir Dağlıya güvenmeli misin?"
+
+ agot_danger.0002.c.ranwithmoney:0 "[moon_raider.GetFirstNameNoTooltip] Parayla Kaçtı"
 
  agot_danger.0002.d:0 "[sacrificed_entourage.GetFirstNameNoTooltip]'i bırakırsak bize zaman kazandırabilir."
-### TODO NOT-IN-ST: agot_danger.0002.d.tt [AGOT: You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the raiders.]
- agot_danger.0002.d.tt:0 "You will sacrifice [sacrificed_entourage.GetName] in an attempt to distract the raiders."
-### TODO NOT-IN-ST: agot_danger.0002.d.sacrifice [AGOT: [sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind]
- agot_danger.0002.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Was Left Behind"
-### TODO NOT-IN-ST: agot_danger.0003.title [AGOT: $travel_danger_prefix$ The Icy Crevasse]
- agot_danger.0003.title:0 "$travel_danger_prefix$ The Icy Crevasse"
-### TODO NOT-IN-ST: agot_danger.0003.desc [AGOT: As I traverse the ice sheet, carefully navigating around and through the crevasses and gullies that score its surface, I hear a faint yelp behind me. As I turn to follow the sound I see [crevasse_fallerinto.GetName], the laggard at the rear of my entourage, clinging to the edge of a crevasse. [crevasse_fallerinto.GetHerHis|U] sled hangs down beneath [crevasse_fallerinto.GetHerHim]. [crevasse_fallerinto.GetHerHis|U] face twisting to horror as [crevasse_fallerinto.GetSheHe] screams out for me, desperately fighting against the weight of the sled pulling [crevasse_fallerinto.GetHerHim] towards [crevasse_fallerinto.GetHerHis] doom.]
- agot_danger.0003.desc:0 "As I traverse the ice sheet, carefully navigating around and through the crevasses and gullies that score its surface, I hear a faint yelp behind me. As I turn to follow the sound I see [crevasse_fallerinto.GetName], the laggard at the rear of my entourage, clinging to the edge of a crevasse. [crevasse_fallerinto.GetHerHis|U] sled hangs down beneath [crevasse_fallerinto.GetHerHim]. [crevasse_fallerinto.GetHerHis|U] face twisting to horror as [crevasse_fallerinto.GetSheHe] screams out for me, desperately fighting against the weight of the sled pulling [crevasse_fallerinto.GetHerHim] towards [crevasse_fallerinto.GetHerHis] doom."
-### TODO NOT-IN-ST: agot_danger.0003.a [AGOT: This is why I have a rope on hand.]
- agot_danger.0003.a:0 "This is why I have a rope on hand."
-### TODO NOT-IN-ST: agot_danger.0003.a.tt [AGOT: You skillfully lasso [crevasse_fallerinto.GetFirstNameNoTooltip], tie the rope around yourself and dig in your heels until help arrives.]
- agot_danger.0003.a.tt:0 "You skillfully lasso [crevasse_fallerinto.GetFirstNameNoTooltip], tie the rope around yourself and dig in your heels until help arrives."
-### TODO NOT-IN-ST: agot_danger.0003.b [AGOT: Hold tight, I'm pulling you up!]
- agot_danger.0003.b:0 "Hold tight, I'm pulling you up!"
-### TODO NOT-IN-ST: agot_danger.0003.b.toast.success.t [AGOT: You managed to pull [crevasse_fallerinto.GetName] up along with [crevasse_fallerinto.GetHerHis] sled.]
- agot_danger.0003.b.toast.success.t:0 "You managed to pull [crevasse_fallerinto.GetName] up along with [crevasse_fallerinto.GetHerHis] sled."
-### TODO NOT-IN-ST: agot_danger.0003.b.toast.failure.t [AGOT: Your grip slipped and [crevasse_fallerinto.GetName] fell to [crevasse_fallerinto.GetHerHis] death]
- agot_danger.0003.b.toast.failure.t:0 "Your grip slipped and [crevasse_fallerinto.GetName] fell to [crevasse_fallerinto.GetHerHis] death"
-### TODO NOT-IN-ST: agot_danger.0003.c [AGOT: The combined weight is too much, I have to cut [crevasse_fallerinto.GetTitledFirstNamePossessiveNoTooltip] sled harness.]
- agot_danger.0003.c:0 "The combined weight is too much, I have to cut [crevasse_fallerinto.GetTitledFirstNamePossessiveNoTooltip] sled harness."
-### TODO NOT-IN-ST: agot_danger.0003.c.tt [AGOT: The loss of supplies means you will have to ration.]
- agot_danger.0003.c.tt:0 "The loss of supplies means you will have to ration."
-### TODO NOT-IN-ST: agot_danger.0003.d [AGOT: Well then, [crevasse_fallerinto.GetFirstNameNoTooltip], time to finally pull your own weight.]
- agot_danger.0003.d:0 "Well then, [crevasse_fallerinto.GetFirstNameNoTooltip], time to finally pull your own weight."
-### TODO NOT-IN-ST: agot_danger.0003.d.tt [AGOT: You watch idly as the sled pulls [crevasse_fallerinto.GetName] into the cold abyss.]
- agot_danger.0003.d.tt:0 "You watch idly as the sled pulls [crevasse_fallerinto.GetName] into the cold abyss."
-### TODO NOT-IN-ST: agot_danger.0004.title [AGOT: $travel_danger_prefix$ The Flesh-Stripping Wind]
- agot_danger.0004.title:0 "$travel_danger_prefix$ The Flesh-Stripping Wind"
-### TODO NOT-IN-ST: agot_danger.0004.desc [AGOT: Traveling through the unforgiving wilderness that stretches beyond the Wall is difficult enough on a good day. Today, it seems, will not be one of those. The air jabs its way into every gap in my furs and cloak, and the howling gales pummel my senses. I know the clouds above will carry with them snow to blind me as well. With the snows will also come wet, and with wet will come freezing. Shelter might save lives now.]
- agot_danger.0004.desc:0 "Traveling through the unforgiving wilderness that stretches beyond the Wall is difficult enough on a good day. Today, it seems, will not be one of those. The air jabs its way into every gap in my furs and cloak, and the howling gales pummel my senses. I know the clouds above will carry with them snow to blind me as well. With the snows will also come wet, and with wet will come freezing. Shelter might save lives now."
-### TODO NOT-IN-ST: agot_danger.0004.a [AGOT: I know for a fact that there is a cave nearby!]
- agot_danger.0004.a:0 "I know for a fact that there is a cave nearby!"
-### TODO NOT-IN-ST: agot_danger.0004.a.tt [AGOT: You will shelter in a cave until the gale calms.]
- agot_danger.0004.a.tt:0 "You will shelter in a cave until the gale calms."
-### TODO NOT-IN-ST: agot_danger.0004.b [AGOT: We need to find shelter, fast!]
- agot_danger.0004.b:0 "We need to find shelter, fast!"
-### TODO NOT-IN-ST: agot_danger.0004.b.tt [AGOT: You will search for a place to hunker down in. Some of the party might get injured by the cold.]
- agot_danger.0004.b.tt:0 "You will search for a place to hunker down in. Some of the party might get injured by the cold."
-### TODO NOT-IN-ST: agot_danger.0004.b.toast.lostlimb.t [AGOT: [frostbite_victim.GetName] fed the Cold Gods with [frostbite_victim.GetHerHis] flesh.]
- agot_danger.0004.b.toast.lostlimb.t:0 "[frostbite_victim.GetName] fed the Cold Gods with [frostbite_victim.GetHerHis] flesh."
-### TODO NOT-IN-ST: agot_danger.0004.c [AGOT: I stop for no weather. March or die.]
- agot_danger.0004.c:0 "I stop for no weather. March or die."
-### TODO NOT-IN-ST: agot_danger.0004.c.tt [AGOT: You will soldier on through the icy winds, many of your entourage members will get frostbite or perish.]
- agot_danger.0004.c.tt:0 "You will soldier on through the icy winds, many of your entourage members will get frostbite or perish."
-### TODO NOT-IN-ST: agot_danger.0004.c.toast.death.t [AGOT: [frostbite_victim.GetName] succumbed to the freezing wind.]
- agot_danger.0004.c.toast.death.t:0 "[frostbite_victim.GetName] succumbed to the freezing wind."
-### TODO NOT-IN-ST: agot_danger.0005.title [AGOT: $travel_danger_prefix$ The Flesh-Stripping Wind: The Cave]
- agot_danger.0005.title:0 "$travel_danger_prefix$ The Flesh-Stripping Wind: The Cave"
-### TODO NOT-IN-ST: agot_danger.0005.desc [AGOT: I leap into the dark sanctuary of the cave just as the first snows start to fling themselves down from the clouds above. The howling of the wind still haunts us inside, but the walls of the cave are thick, and they will shelter us from the worst of the cold.\n\nAs I step further into the cave, my eyes adjusting to the darkness I have no torches to dispel, I am surprised to find paintings waiting for me deeper within the cave. Figures of some folk who used this place for shelter before us.]
- agot_danger.0005.desc:0 "I leap into the dark sanctuary of the cave just as the first snows start to fling themselves down from the clouds above. The howling of the wind still haunts us inside, but the walls of the cave are thick, and they will shelter us from the worst of the cold.\n\nAs I step further into the cave, my eyes adjusting to the darkness I have no torches to dispel, I am surprised to find paintings waiting for me deeper within the cave. Figures of some folk who used this place for shelter before us."
-### TODO NOT-IN-ST: agot_danger.0005.a [AGOT: Look at these wall paintings, they must be ancient!]
- agot_danger.0005.a:0 "Look at these wall paintings, they must be ancient!"
-### TODO NOT-IN-ST: agot_danger.0005.a.tt [AGOT: You will closely examine the cave paintings and attempt to glean something from them.]
- agot_danger.0005.a.tt:0 "You will closely examine the cave paintings and attempt to glean something from them."
-### TODO NOT-IN-ST: agot_danger.0005.a.success [AGOT: You manage to recognize something in the paintings.]
- agot_danger.0005.a.success:0 "You manage to recognize something in the paintings."
-### TODO NOT-IN-ST: agot_danger.0005.a.failure [AGOT: They're just figures of men, animals and objects. Pretty, but they tell you nothing.]
- agot_danger.0005.a.failure:0 "They're just figures of men, animals and objects. Pretty, but they tell you nothing."
-### TODO NOT-IN-ST: agot_danger.0005.a.toast.failure.t [AGOT: Cave paintings yield no revelations.]
- agot_danger.0005.a.toast.failure.t:0 "Cave paintings yield no revelations."
-### TODO NOT-IN-ST: agot_danger.0005.b [AGOT: The fire is warm, but [cave_companion.GetFirstNameNoTooltip] is warmer.]
- agot_danger.0005.b:0 "The fire is warm, but [cave_companion.GetFirstNameNoTooltip] is warmer."
-### TODO NOT-IN-ST: agot_danger.0005.c [AGOT: If we're already stuck here, it won't hurt to search the place.]
- agot_danger.0005.c:0 "If we're already stuck here, it won't hurt to search the place."
-### TODO NOT-IN-ST: agot_danger.0005.c.tt [AGOT: You'll search the cave for valuables.]
- agot_danger.0005.c.tt:0 "You'll search the cave for valuables."
-### TODO NOT-IN-ST: agot_danger.0005.c.mushrooms [AGOT: You find delicious mushrooms]
- agot_danger.0005.c.mushrooms:0 "You find delicious mushrooms"
-### TODO NOT-IN-ST: agot_danger.0005.c.mushrooms.toast [AGOT: You found delicious mushrooms.]
- agot_danger.0005.c.mushrooms.toast:0 "You found delicious mushrooms."
-### TODO NOT-IN-ST: agot_danger.0005.c.tiny_gold [AGOT: You find a valuable trinket]
- agot_danger.0005.c.tiny_gold:0 "You find a valuable trinket"
-### TODO NOT-IN-ST: agot_danger.0005.c.tiny_gold.toast [AGOT: You found a valuable trinket.]
- agot_danger.0005.c.tiny_gold.toast:0 "You found a valuable trinket."
-### TODO NOT-IN-ST: agot_danger.0005.c.minor_gold [AGOT: You find a stash of pelts]
- agot_danger.0005.c.minor_gold:0 "You find a stash of pelts"
-### TODO NOT-IN-ST: agot_danger.0005.c.minor_gold.toast [AGOT: You found a stash of pelts]
- agot_danger.0005.c.minor_gold.toast:0 "You found a stash of pelts"
-### TODO NOT-IN-ST: agot_danger.0005.c.bear.tt [AGOT: You find the cave's owner]
- agot_danger.0005.c.bear.tt:0 "You find the cave's owner"
-### TODO NOT-IN-ST: agot_danger.0005.d [AGOT: Let us settle in. Light a fire and tell tales.]
- agot_danger.0005.d:0 "Let us settle in. Light a fire and tell tales."
-### TODO NOT-IN-ST: agot_danger.0005.d.tt [AGOT: You will wait out the blizzard sharing stories by the fire.]
- agot_danger.0005.d.tt:0 "You will wait out the blizzard sharing stories by the fire."
-### TODO NOT-IN-ST: agot_danger.0006.title [AGOT: $travel_danger_prefix$ The Flesh-Stripping Wind: Ancestral Paintings]
- agot_danger.0006.title:0 "$travel_danger_prefix$ The Flesh-Stripping Wind: Ancestral Paintings"
-### TODO NOT-IN-ST: agot_danger.0006.desc [AGOT: Looking closely at the cave paintings, I see they do not all belong to one people. The histories of a dozen clans and tribes line the walls, telling of their struggles and their triumphs. This place sheltered them all, as it shelters us now. These walls tell their stories, like I can hear their ghosts whispering to me through the distant sounds of the wind. As I examine the paintings in more detail, several start to call to me.\n\nWhich shall I focus on?]
- agot_danger.0006.desc:0 "Looking closely at the cave paintings, I see they do not all belong to one people. The histories of a dozen clans and tribes line the walls, telling of their struggles and their triumphs. This place sheltered them all, as it shelters us now. These walls tell their stories, like I can hear their ghosts whispering to me through the distant sounds of the wind. As I examine the paintings in more detail, several start to call to me.\n\nWhich shall I focus on?"
-### TODO NOT-IN-ST: agot_danger.0006.a [AGOT: These rows of small pictures, there's a pattern to them. Is this poetry?]
- agot_danger.0006.a:0 "These rows of small pictures, there's a pattern to them. Is this poetry?"
-### TODO NOT-IN-ST: agot_danger.0006.a.tt [AGOT: While trying to decipher the poem, you will inadvinadvertently compose a few pieces of your own.]
- agot_danger.0006.a.tt:0 "While trying to decipher the poem, you will inadvinadvertently compose a few pieces of your own."
-### TODO NOT-IN-ST: agot_danger.0006.b [AGOT: I recognize that scene; our clan founder slaying the one-tusked, white mammoth!]
- agot_danger.0006.b:0 "I recognize that scene; our clan founder slaying the one-tusked, white mammoth!"
-### TODO NOT-IN-ST: agot_danger.0006.b.tt [AGOT: Having a contemporary record of your ancestor's deeds will aid the legend of your clan.]
- agot_danger.0006.b.tt:0 "Having a contemporary record of your ancestor's deeds will aid the legend of your clan."
-### TODO NOT-IN-ST: agot_danger.0006.c [AGOT: I never heard of the fishing technique depicted here, it's very clever.]
- agot_danger.0006.c:0 "I never heard of the fishing technique depicted here, it's very clever."
-### TODO NOT-IN-ST: agot_danger.0006.c.tt [AGOT: Some of the scenes show figures going about their tasks with inspiring ingenuity.]
- agot_danger.0006.c.tt:0 "Some of the scenes show figures going about their tasks with inspiring ingenuity."
-### TODO NOT-IN-ST: agot_danger.0007.title [AGOT: $travel_danger_prefix$ The Flesh-Stripping Wind: Waking the Host]
- agot_danger.0007.title:0 "$travel_danger_prefix$ The Flesh-Stripping Wind: Waking the Host"
-### TODO NOT-IN-ST: agot_danger.0007.desc [AGOT: As I start to delve deeper into the cave, I find the bones of both beast and folk lining the floor. I pause as it dawns on me that some of the bones still have meat attached, and glisten with crimson blood in our limited light. I start to instinctually reach for a weapon just as the hulking form of a thickly muscled bear steps into view. Blood trickles in steady drips from its mouth as it rears back and roars a challenge.]
- agot_danger.0007.desc:0 "As I start to delve deeper into the cave, I find the bones of both beast and folk lining the floor. I pause as it dawns on me that some of the bones still have meat attached, and glisten with crimson blood in our limited light. I start to instinctually reach for a weapon just as the hulking form of a thickly muscled bear steps into view. Blood trickles in steady drips from its mouth as it rears back and roars a challenge."
-### TODO NOT-IN-ST: agot_danger.0007.a [AGOT: This cave isn't big enough for the two of us.]
- agot_danger.0007.a:0 "This cave isn't big enough for the two of us."
-### TODO NOT-IN-ST: agot_danger.0007.b [AGOT: Everybody, ready your spears!]
- agot_danger.0007.b:0 "Everybody, ready your spears!"
-### TODO NOT-IN-ST: agot_danger.0007.b.cleankill.tt [AGOT: Your party kills the bear without incident.]
- agot_danger.0007.b.cleankill.tt:0 "Your party kills the bear without incident."
-### TODO NOT-IN-ST: agot_danger.0007.b.bearwound.tt [AGOT: Someone will get injured.]
- agot_danger.0007.b.bearwound.tt:0 "Someone will get injured."
-### TODO NOT-IN-ST: agot_danger.0007.b.toast.bearwound.t [AGOT: [injury_target.GetName] got mauled by a bear]
- agot_danger.0007.b.toast.bearwound.t:0 "[injury_target.GetName] got mauled by a bear"
-### TODO NOT-IN-ST: agot_danger.0007.b.toast.bearkill.t [AGOT: [injury_target.GetName] met [injury_target.GetHerHis] end in a bear's cave]
- agot_danger.0007.b.toast.bearkill.t:0 "[injury_target.GetName] met [injury_target.GetHerHis] end in a bear's cave"
-### TODO NOT-IN-ST: agot_danger.0007.b.toast.cleankill.t [AGOT: Nobody got hurt by the bear.]
- agot_danger.0007.b.toast.cleankill.t:0 "Nobody got hurt by the bear."
-### TODO NOT-IN-ST: agot_danger.0008.title [AGOT: $travel_danger_prefix$ The Flesh-Stripping Wind: Spelunker's Trophy]
- agot_danger.0008.title:0 "$travel_danger_prefix$ The Flesh-Stripping Wind: Spelunker's Trophy"
-### TODO NOT-IN-ST: agot_danger.0008.desc [AGOT: I stand over the dying bear, its blood coating my weapon as the beast draws its last gasping breath. Its body goes limp on the floor of its former den, and I breathe a sigh of relief. I look back at my remaining band with a smirk, this bear will be quite a story. They all wait for me now, knowing that I get first choice of a trophy from the beast we've slain.]
- agot_danger.0008.desc:0 "I stand over the dying bear, its blood coating my weapon as the beast draws its last gasping breath. Its body goes limp on the floor of its former den, and I breathe a sigh of relief. I look back at my remaining band with a smirk, this bear will be quite a story. They all wait for me now, knowing that I get first choice of a trophy from the beast we've slain."
-### TODO NOT-IN-ST: agot_danger.0008.a [AGOT: Given what we've been through, I can't say no to that lush pelt.]
- agot_danger.0008.a:0 "Given what we've been through, I can't say no to that lush pelt."
-### TODO NOT-IN-ST: agot_danger.0008.a.tt [AGOT: You obtain a Bear Hide court artifact.]
- agot_danger.0008.a.tt:0 "You obtain a Bear Hide court artifact."
-### TODO NOT-IN-ST: agot_danger.0008.b [AGOT: Take the monster's head and clean the skull for me.]
- agot_danger.0008.b:0 "Take the monster's head and clean the skull for me."
-### TODO NOT-IN-ST: agot_danger.0008.b.tt [AGOT: You obtain a Bear Skull court artifact.]
- agot_danger.0008.b.tt:0 "You obtain a Bear Skull court artifact."
-### TODO NOT-IN-ST: agot_danger.0008.c [AGOT: I'll take those mighty paws or no one will believe their size.]
- agot_danger.0008.c:0 "I'll take those mighty paws or no one will believe their size."
-### TODO NOT-IN-ST: agot_danger.0008.c.tt [AGOT: You obtain a Bear Paws inventory artifact.]
- agot_danger.0008.c.tt:0 "You obtain a Bear Paws inventory artifact."
-### TODO NOT-IN-ST: agot_danger.0009.title [AGOT: $travel_danger_prefix$ On Thin Ice]
- agot_danger.0009.title:0 "$travel_danger_prefix$ On Thin Ice"
-### TODO NOT-IN-ST: agot_danger.0009.desc [AGOT: In the far north, there are hardly any roads to speak of, and even firmly beaten paths are few and far between. The frigid wastes are dotted with icy mountains and crevasses, and often the only section of clear and flat terrain is a frozen river. Our party has come across one, presenting an opportunity to use it as a road for the next part of our journey. This time of the year, however, the thickness of the ice is suspect, making a safe crossing over the treacherous terrain uncertain.]
- agot_danger.0009.desc:0 "In the far north, there are hardly any roads to speak of, and even firmly beaten paths are few and far between. The frigid wastes are dotted with icy mountains and crevasses, and often the only section of clear and flat terrain is a frozen river. Our party has come across one, presenting an opportunity to use it as a road for the next part of our journey. This time of the year, however, the thickness of the ice is suspect, making a safe crossing over the treacherous terrain uncertain."
-### TODO NOT-IN-ST: agot_danger.0009.a [AGOT: I shall walk first to test the ice.]
- agot_danger.0009.a:0 "I shall walk first to test the ice."
-### TODO NOT-IN-ST: agot_danger.0009.a.tt [AGOT: You will check if the ice cracks under your weight]
- agot_danger.0009.a.tt:0 "You will check if the ice cracks under your weight"
-### TODO NOT-IN-ST: agot_danger.0009.a.icegood.tt [AGOT: The ice is thick enough]
- agot_danger.0009.a.icegood.tt:0 "The ice is thick enough"
-### TODO NOT-IN-ST: agot_danger.0009.a.icegood.toast [AGOT: The ice was thick enough]
- agot_danger.0009.a.icegood.toast:0 "The ice was thick enough"
-### TODO NOT-IN-ST: agot_danger.0009.a.icebadnope.tt [AGOT: You notice the ice cracking in time]
- agot_danger.0009.a.icebadnope.tt:0 "You notice the ice cracking in time"
-### TODO NOT-IN-ST: agot_danger.0009.a.icebadnope.toast [AGOT: You avoided falling through the ice]
- agot_danger.0009.a.icebadnope.toast:0 "You avoided falling through the ice"
-### TODO NOT-IN-ST: agot_danger.0009.a.icebadfall.tt [AGOT: You fall through the ice]
- agot_danger.0009.a.icebadfall.tt:0 "You fall through the ice"
-### TODO NOT-IN-ST: agot_danger.0009.b [AGOT: [travel_leader.GetFirstNameNoTooltip], go and see if this ice will support us.]
- agot_danger.0009.b:0 "[travel_leader.GetFirstNameNoTooltip], go and see if this ice will support us."
-### TODO NOT-IN-ST: agot_danger.0009.b.tt [AGOT: [travel_leader.GetName] will test the thickness of the ice]
- agot_danger.0009.b.tt:0 "[travel_leader.GetName] will test the thickness of the ice"
-### TODO NOT-IN-ST: agot_danger.0009.b.icebadnope.tt [AGOT: [travel_leader.GetFirstNameNoTooltip] notices the ice cracking in time]
- agot_danger.0009.b.icebadnope.tt:0 "[travel_leader.GetFirstNameNoTooltip] notices the ice cracking in time"
-### TODO NOT-IN-ST: agot_danger.0009.b.icebadnope.toast [AGOT: [travel_leader.GetFirstNameNoTooltip] avoided falling through the ice]
- agot_danger.0009.b.icebadnope.toast:0 "[travel_leader.GetFirstNameNoTooltip] avoided falling through the ice"
-### TODO NOT-IN-ST: agot_danger.0009.b.icebadfall.tt [AGOT: [travel_leader.GetFirstNameNoTooltip] falls through the ice]
- agot_danger.0009.b.icebadfall.tt:0 "[travel_leader.GetFirstNameNoTooltip] falls through the ice"
-### TODO NOT-IN-ST: agot_danger.0009.c [AGOT: This is too risky, we continue on firm land.]
- agot_danger.0009.c:0 "This is too risky, we continue on firm land."
-### TODO NOT-IN-ST: agot_danger.0009.c.tt [AGOT: You carry on through the rough terrain of the frigid riverbank]
- agot_danger.0009.c.tt:0 "You carry on through the rough terrain of the frigid riverbank"
-### TODO NOT-IN-ST: agot_danger.0010.title [AGOT: $travel_danger_prefix$ On Thin Ice: The Plunge]
- agot_danger.0010.title:0 "$travel_danger_prefix$ On Thin Ice: The Plunge"
-### TODO NOT-IN-ST: agot_danger.0010.desc [AGOT: I make my way to the flat surface of the icy river, I walk carefully, trying to keep my weight on the back foot, but the treacherous ice breaks behind me. In the split second before the freezing water swallows me, I manage to...]
- agot_danger.0010.desc:0 "I make my way to the flat surface of the icy river, I walk carefully, trying to keep my weight on the back foot, but the treacherous ice breaks behind me. In the split second before the freezing water swallows me, I manage to..."
-### TODO NOT-IN-ST: agot_danger.0010.a [AGOT: ...brace myself for the plunge.]
- agot_danger.0010.a:0 "...brace myself for the plunge."
-### TODO NOT-IN-ST: agot_danger.0010.a.tt [AGOT: You will try to resurface on your own]
- agot_danger.0010.a.tt:0 "You will try to resurface on your own"
-### TODO NOT-IN-ST: agot_danger.0010.a.swim.tt [AGOT: You reemerge from the freezing water]
- agot_danger.0010.a.swim.tt:0 "You reemerge from the freezing water"
-### TODO NOT-IN-ST: agot_danger.0010.a.toast [AGOT: You resurfaced from beneath the ice]
- agot_danger.0010.a.toast:0 "You resurfaced from beneath the ice"
-### TODO NOT-IN-ST: agot_danger.0010.a.sink.tt [AGOT: The icy river claims your life]
- agot_danger.0010.a.sink.tt:0 "The icy river claims your life"
-### TODO NOT-IN-ST: agot_danger.0010.b [AGOT: ... yell out to [travel_leader.GetFirstNameNoTooltip] for help.]
- agot_danger.0010.b:0 "... yell out to [travel_leader.GetFirstNameNoTooltip] for help."
-### TODO NOT-IN-ST: agot_danger.0010.b.tt [AGOT: [travel_leader.GetName] will attempt to rescue you]
- agot_danger.0010.b.tt:0 "[travel_leader.GetName] will attempt to rescue you"
-### TODO NOT-IN-ST: agot_danger.0010.b.swim.tt [AGOT: [travel_leader.GetName] manages to fish you out]
- agot_danger.0010.b.swim.tt:0 "[travel_leader.GetName] manages to fish you out"
-### TODO NOT-IN-ST: agot_danger.0010.b.toast [AGOT: [travel_leader.GetFirstNameNoTooltip] pulled you out of the freezing water]
- agot_danger.0010.b.toast:0 "[travel_leader.GetFirstNameNoTooltip] pulled you out of the freezing water"
-### TODO NOT-IN-ST: agot_danger.0010.b.sink.tt [AGOT: You perish despite [travel_leader.GetFirstNamePossessiveNoTooltip] effort]
- agot_danger.0010.b.sink.tt:0 "You perish despite [travel_leader.GetFirstNamePossessiveNoTooltip] effort"
-### TODO NOT-IN-ST: agot_danger.0010.b.bothsink.tt [AGOT: You both drown beneath the ice]
- agot_danger.0010.b.bothsink.tt:0 "You both drown beneath the ice"
-### TODO NOT-IN-ST: agot_danger.0011.title [AGOT: $travel_danger_prefix$ On Thin Ice: [travel_leader.GetWomanMan|U] Under Water]
- agot_danger.0011.title:0 "$travel_danger_prefix$ On Thin Ice: [travel_leader.GetWomanMan|U] Under Water"
-### TODO NOT-IN-ST: agot_danger.0011.desc [AGOT: [travel_leader.GetFirstNameNicknamed] dutifully follows my order and descends to the frozen surface. [travel_leader.GetSheHe|U] barely makes three steps when, with seemingly no warning, the ice cracks violently under [travel_leader.GetHerHis] feet — and [travel_leader.GetSheHe] disappears under its surface.]
- agot_danger.0011.desc:0 "[travel_leader.GetFirstNameNicknamed] dutifully follows my order and descends to the frozen surface. [travel_leader.GetSheHe|U] barely makes three steps when, with seemingly no warning, the ice cracks violently under [travel_leader.GetHerHis] feet — and [travel_leader.GetSheHe] disappears under its surface."
-### TODO NOT-IN-ST: agot_danger.0011.a [AGOT: [travel_leader.GetSheHe|U] is on her own now.]
- agot_danger.0011.a:0 "[travel_leader.GetSheHe|U] is on her own now."
-### TODO NOT-IN-ST: agot_danger.0011.a.tt [AGOT: You stand by waiting for [travel_leader.GetFirstNameNoTooltip] to resurface — or not]
- agot_danger.0011.a.tt:0 "You stand by waiting for [travel_leader.GetFirstNameNoTooltip] to resurface — or not"
-### TODO NOT-IN-ST: agot_danger.0011.a.swim.tt [AGOT: [travel_leader.GetFirstNameNoTooltip] emerges from beneath the ice]
- agot_danger.0011.a.swim.tt:0 "[travel_leader.GetFirstNameNoTooltip] emerges from beneath the ice"
-### TODO NOT-IN-ST: agot_danger.0011.a.swim.toast [AGOT: [travel_leader.GetFirstNameNoTooltip] resurfaces from the freezing water]
- agot_danger.0011.a.swim.toast:0 "[travel_leader.GetFirstNameNoTooltip] resurfaces from the freezing water"
-### TODO NOT-IN-ST: agot_danger.0011.a.sink.tt [AGOT: [travel_leader.GetFirstNameNoTooltip] drowns in the river]
- agot_danger.0011.a.sink.tt:0 "[travel_leader.GetFirstNameNoTooltip] drowns in the river"
-### TODO NOT-IN-ST: agot_danger.0011.a.sink.toast [AGOT: [travel_leader.GetFirstNameNoTooltip] perished in the freezing depths]
- agot_danger.0011.a.sink.toast:0 "[travel_leader.GetFirstNameNoTooltip] perished in the freezing depths"
-### TODO NOT-IN-ST: agot_danger.0011.b [AGOT: I must help [travel_leader.GetHerHim]!]
- agot_danger.0011.b:0 "I must help [travel_leader.GetHerHim]!"
-### TODO NOT-IN-ST: agot_danger.0011.b.tt [AGOT: You rush in to rescue [travel_leader.GetName]]
- agot_danger.0011.b.tt:0 "You rush in to rescue [travel_leader.GetName]"
-### TODO NOT-IN-ST: agot_danger.0011.b.swim.tt [AGOT: You manage to fish out [travel_leader.GetFirstNameNoTooltip] from under the ice]
- agot_danger.0011.b.swim.tt:0 "You manage to fish out [travel_leader.GetFirstNameNoTooltip] from under the ice"
-### TODO NOT-IN-ST: agot_danger.0011.b.swim.toast [AGOT: You saved [travel_leader.GetFirstNameNoTooltip] from drowning]
- agot_danger.0011.b.swim.toast:0 "You saved [travel_leader.GetFirstNameNoTooltip] from drowning"
-### TODO NOT-IN-ST: agot_danger.0011.b.sink.tt [AGOT: [travel_leader.GetFirstNameNoTooltip] sinks too deep to reach]
- agot_danger.0011.b.sink.tt:0 "[travel_leader.GetFirstNameNoTooltip] sinks too deep to reach"
-### TODO NOT-IN-ST: agot_danger.0011.b.sink.toast [AGOT: [travel_leader.GetFirstNameNoTooltip] drowns in the river]
- agot_danger.0011.b.sink.toast:0 "[travel_leader.GetFirstNameNoTooltip] drowns in the river"
-### TODO NOT-IN-ST: agot_danger.0011.b.bothsink.tt [AGOT: You fall in and die together with [travel_leader.GetFirstNameNoTooltip]]
- agot_danger.0011.b.bothsink.tt:0 "You fall in and die together with [travel_leader.GetFirstNameNoTooltip]"
+
+ agot_danger.0002.d.tt:0 "Akıncıları oyalamak için [sacrificed_entourage.GetName]'i feda edeceksin."
+
+ agot_danger.0002.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] Geride Bırakıldı"
+
+ agot_danger.0003.title:0 "$travel_danger_prefix$ Buzlu Yarık"
+
+ agot_danger.0003.desc:0 "Buz tabakasında ilerlerken, yüzeyini çizen yarıklar ve oluklar arasında ve çevresinde dikkatle yol alırken arkamdan hafif bir çığlık duyuyorum. Sesi takip etmek için döndüğümde, maiyetimin en gerisinde kalan ağır davranan [crevasse_fallerinto.GetName]'i bir yarığın kenarına tutunmuş halde görüyorum. [crevasse_fallerinto.GetHerHis|U] kızağı [crevasse_fallerinto.GetHerHim]'in altında sarkıyor. Kızağın ağırlığı [crevasse_fallerinto.GetHerHim]'i [crevasse_fallerinto.GetHerHis] sonuna doğru çekerken [crevasse_fallerinto.GetSheHe] çaresizce savaşarak bana haykırdıkça [crevasse_fallerinto.GetHerHis|U] yüzü dehşetle buruşuyor."
+
+ agot_danger.0003.a:0 "Elimde ip bulundurmamın nedeni bu."
+
+ agot_danger.0003.a.tt:0 "[crevasse_fallerinto.GetFirstNameNoTooltip]'i ustalıkla kementliyorsun, ipi kendine doluyorsun ve yardım gelene dek topuklarını yere geçiriyorsun."
+
+ agot_danger.0003.b:0 "Sıkı tutun, seni yukarı çekiyorum!"
+
+ agot_danger.0003.b.toast.success.t:0 "[crevasse_fallerinto.GetName]'i [crevasse_fallerinto.GetHerHis] kızağıyla birlikte yukarı çekmeyi başardın."
+
+ agot_danger.0003.b.toast.failure.t:0 "Kavrayışın kaydı ve [crevasse_fallerinto.GetName] [crevasse_fallerinto.GetHerHis] ölümüne düştü"
+
+ agot_danger.0003.c:0 "Birleşik ağırlık fazla fazla; [crevasse_fallerinto.GetTitledFirstNamePossessiveNoTooltip] kızak koşumunu kesmek zorundayım."
+
+ agot_danger.0003.c.tt:0 "Erzak kaybı, kısıtlı paylaşman gerektiği anlamına geliyor."
+
+ agot_danger.0003.d:0 "Pekâlâ, [crevasse_fallerinto.GetFirstNameNoTooltip], artık kendi payına düşeni yapma zamanı."
+
+ agot_danger.0003.d.tt:0 "[crevasse_fallerinto.GetName]'i kızağın soğuk uçuruma sürükleyişini kayıtsızca izliyorsun."
+
+ agot_danger.0004.title:0 "$travel_danger_prefix$ Eti Sıyıran Rüzgâr"
+
+ agot_danger.0004.desc:0 "Sur'un ötesine uzanan acımasız vahşi doğada yolculuk, iyi bir günde bile yeterince zordur. Görünüşe göre bugün o günlerden biri olmayacak. Hava, kürklerimin ve pelerinimin her aralığına bıçak gibi saplanıyor; uğuldayan kasırgalar duyularımı dövüyor. Üstümdeki bulutların, beni kör edecek karları da beraberinde getireceğini biliyorum. Karlarla birlikte ıslaklık da gelecek; ıslaklıkla birlikte donma da. Bir barınak artık hayat kurtarabilir."
+
+ agot_danger.0004.a:0 "Yakınlarda bir mağara olduğunu kesin biliyorum!"
+
+ agot_danger.0004.a.tt:0 "Kasırga yatışana dek bir mağarada barınacaksın."
+
+ agot_danger.0004.b:0 "Bir barınak bulmalıyız, çabuk!"
+
+ agot_danger.0004.b.tt:0 "Sığınabileceğin bir yer arayacaksın. Ekibin bir kısmı soğuktan zarar görebilir."
+
+ agot_danger.0004.b.toast.lostlimb.t:0 "[frostbite_victim.GetName], [frostbite_victim.GetHerHis] etiyle Soğuk Tanrılar'ı besledi."
+
+ agot_danger.0004.c:0 "Hiçbir havayı umursamıyorum. Yürü ya da öl."
+
+ agot_danger.0004.c.tt:0 "Buzlu rüzgârların arasında yola devam edeceksin; maiyetinin pek çok üyesi donma yarası alacak ya da can verecek."
+
+ agot_danger.0004.c.toast.death.t:0 "[frostbite_victim.GetName], dondurucu rüzgâra yenik düştü."
+
+ agot_danger.0005.title:0 "$travel_danger_prefix$ Eti Sıyıran Rüzgâr"
+
+ agot_danger.0005.desc:0 "Yukarıdaki bulutlardan ilk kar taneleri dökülmeye başlar başlamaz mağaranın karanlık sığınağına atlıyorum. Rüzgârın uğultusu içeride bile peşimizi bırakmıyor; ama mağaranın duvarları kalın ve bizi soğuğun en kötüsünden koruyacak.\n\nMağaranın derinliklerine adım attığımda, dağıtacak meşalem olmayan karanlığa gözlerim alışırken, beni mağaranın daha derinlerinde resimlerin beklediğini görünce şaşırıyorum. Bizden önce burayı sığınak olarak kullanan bazı insanların figürleri."
+
+ agot_danger.0005.a:0 "Şu duvar resimlerine bak, kadim olmalılar!"
+
+ agot_danger.0005.a.tt:0 "Mağara resimlerini yakından inceleyecek ve onlardan bir şeyler çıkarmayı deneyeceksin."
+
+ agot_danger.0005.a.success:0 "Resimlerde bir şey tanımayı başarıyorsun."
+
+ agot_danger.0005.a.failure:0 "Bunlar sadece insan, hayvan ve nesne figürleri. Hoş ama sana hiçbir şey anlatmıyorlar."
+
+ agot_danger.0005.a.toast.failure.t:0 "Mağara resimleri hiçbir sır ifşa etmiyor."
+
+ agot_danger.0005.b:0 "Ateş sıcak; ama [cave_companion.GetFirstNameNoTooltip] daha sıcak."
+
+ agot_danger.0005.c:0 "Madem burada mahsur kaldık, etrafı aramak zarar vermez."
+
+ agot_danger.0005.c.tt:0 "Mağarayı değerli eşyalar için arayacaksın."
+
+ agot_danger.0005.c.mushrooms:0 "Leziz mantarlar buluyorsun"
+
+ agot_danger.0005.c.mushrooms.toast:0 "Leziz mantarlar buldun."
+
+ agot_danger.0005.c.tiny_gold:0 "Değerli bir süs eşyası buluyorsun"
+
+ agot_danger.0005.c.tiny_gold.toast:0 "Değerli bir süs eşyası buldun."
+
+ agot_danger.0005.c.minor_gold:0 "Bir kürk deposu buluyorsun"
+
+ agot_danger.0005.c.minor_gold.toast:0 "Bir kürk deposu buldun"
+
+ agot_danger.0005.c.bear.tt:0 "Mağaranın sahibini buluyorsun"
+
+ agot_danger.0005.d:0 "Yerleşelim. Bir ateş yakıp hikâyeler anlatalım."
+
+ agot_danger.0005.d.tt:0 "Ateşin başında hikâyeler paylaşarak kar fırtınasını atlatacaksın."
+
+ agot_danger.0006.title:0 "$travel_danger_prefix$ Eti Sıyıran Rüzgâr"
+
+ agot_danger.0006.desc:0 "Mağara resimlerine yakından baktığımda, hepsinin tek bir halka ait olmadığını görüyorum. Duvarları, düzinelerce klanın ve kabilenin tarihleri süslüyor; mücadelelerini ve zaferlerini anlatıyor. Burası, şimdi bizi koruduğu gibi hepsini de barındırmış. Bu duvarlar hikâyelerini anlatıyor; sanki uzaktaki rüzgâr seslerinin arasından hayaletlerinin bana fısıldadığını duyabiliyorum. Resimleri daha ayrıntılı inceledikçe birkaçı bana seslenmeye başlıyor.\n\nHangisine odaklanmalıyım?"
+
+ agot_danger.0006.a:0 "Bu küçük resim sıraları... aralarında bir düzen var. Bu şiir mi?"
+
+ agot_danger.0006.a.tt:0 "Şiiri çözmeye çalışırken, farkında olmadan kendi parçalarından birkaçını bestelersin."
+
+ agot_danger.0006.b:0 "O sahneyi tanıyorum; klanımızın kurucusu, tek dişli beyaz mamutu öldürüyor!"
+
+ agot_danger.0006.b.tt:0 "Atanın başarılarının çağdaş bir kaydına sahip olmak, klanının efsanesine yardımcı olacak."
+
+ agot_danger.0006.c:0 "Burada resmedilen balıkçılık tekniğini hiç duymamıştım; çok zekice."
+
+ agot_danger.0006.c.tt:0 "Sahnelerin bazıları, görevlerini ilham verici bir ustalıkla yürüten figürler gösteriyor."
+
+ agot_danger.0007.title:0 "$travel_danger_prefix$ Eti Sıyıran Rüzgâr"
+
+ agot_danger.0007.desc:0 "Mağaranın derinliklerine inmeye başladığımda, zemini kaplayan hem canavar hem insan kemikleri buluyorum. Bazı kemiklerde hâlâ et olduğunu ve kısıtlı ışığımızda kızıl kanla parladığını fark edince duraklıyorum. Kalın kaslı, iri yarı bir ayının görüş alanına girmesiyle içgüdüsel olarak silahıma uzanmaya başlıyorum. Geriye doğru yaslanıp meydan okurcasına kükrerken ağzından düzenli damlalar halinde kan sızıyor."
+
+ agot_danger.0007.a:0 "Bu mağara ikimize yetecek kadar büyük değil."
+
+ agot_danger.0007.b:0 "Herkes, mızraklarını hazırlasın!"
+
+ agot_danger.0007.b.cleankill.tt:0 "Ekibin ayıyı olaysız bir biçimde öldürüyor."
+
+ agot_danger.0007.b.bearwound.tt:0 "Birisi yaralanacak."
+
+ agot_danger.0007.b.toast.bearwound.t:0 "[injury_target.GetName] bir ayı tarafından parçalandı"
+
+ agot_danger.0007.b.toast.bearkill.t:0 "[injury_target.GetName], bir ayının ininde [injury_target.GetHerHis] sonunu buldu"
+
+ agot_danger.0007.b.toast.cleankill.t:0 "Kimse ayı tarafından yaralanmadı."
+
+ agot_danger.0008.title:0 "$travel_danger_prefix$ Eti Sıyıran Rüzgâr"
+
+ agot_danger.0008.desc:0 "Ölmekte olan ayının başında duruyorum; yaratık son hırıltılı nefesini alırken kanı silahımı kaplıyor. Bedeni, eski ininin zemininde gevşiyor ve rahat bir nefes alıyorum. Kalan ekibime sırıtarak bakıyorum; bu ayı epey bir hikâye olacak. Öldürdüğümüz yaratıktan ganimeti ilk seçme hakkının bende olduğunu bilerek hepsi şimdi beni bekliyor."
+
+ agot_danger.0008.a:0 "Yaşadıklarımızı düşünürsek, o gür kürke hayır diyemem."
+
+ agot_danger.0008.a.tt:0 "Bir Ayı Postu saray eseri elde ediyorsun."
+
+ agot_danger.0008.b:0 "Canavarın başını al ve benim için kafatasını temizle."
+
+ agot_danger.0008.b.tt:0 "Bir Ayı Kafatası saray eseri elde ediyorsun."
+
+ agot_danger.0008.c:0 "O kudretli pençeleri alacağım; yoksa boyutlarına kimse inanmaz."
+
+ agot_danger.0008.c.tt:0 "Bir Ayı Pençeleri envanter eseri elde ediyorsun."
+
+ agot_danger.0009.title:0 "$travel_danger_prefix$ İnce Buzda"
+
+ agot_danger.0009.desc:0 "Uzak kuzeyde, söz edilecek yollar neredeyse yoktur; sıkı kullanılan patikalar bile azdır ve birbirinden çok uzaktır. Dondurucu boşluklar buzlu dağlar ve yarıklarla bezenmiştir; çoğu kez açık ve düz arazinin tek bölümü donmuş bir nehirdir. Kafilemiz böyle bir yere rastladı; yolculuğumuzun sonraki bölümü için onu yol olarak kullanma fırsatı sunuyor. Ne var ki yılın bu zamanında buzun kalınlığı şüphelidir; hain arazide güvenli bir geçiş belirsizdir."
+
+ agot_danger.0009.a:0 "Buzu denemek için önce ben yürüyeceğim."
+
+ agot_danger.0009.a.tt:0 "Buzun ağırlığın altında çatlayıp çatlamayacağını deneyeceksin"
+
+ agot_danger.0009.a.icegood.tt:0 "Buz yeterince kalın"
+
+ agot_danger.0009.a.icegood.toast:0 "Buz yeterince kalındı"
+
+ agot_danger.0009.a.icebadnope.tt:0 "Buzun çatladığını zamanında fark ediyorsun"
+
+ agot_danger.0009.a.icebadnope.toast:0 "Buzun kırılmasından kurtuldun"
+
+ agot_danger.0009.a.icebadfall.tt:0 "Buzun içinden düşüyorsun"
+
+ agot_danger.0009.b:0 "[travel_leader.GetFirstNameNoTooltip], git ve bu buzun bizi taşıyıp taşımayacağına bak."
+
+ agot_danger.0009.b.tt:0 "[travel_leader.GetName] buzun kalınlığını deneyecek"
+
+ agot_danger.0009.b.icebadnope.tt:0 "[travel_leader.GetFirstNameNoTooltip] buzun çatladığını zamanında fark ediyor"
+
+ agot_danger.0009.b.icebadnope.toast:0 "[travel_leader.GetFirstNameNoTooltip] buzun kırılmasından kurtuldu"
+
+ agot_danger.0009.b.icebadfall.tt:0 "[travel_leader.GetFirstNameNoTooltip] buzun içinden düşüyor"
+
+ agot_danger.0009.c:0 "Bu çok riskli; sağlam karada ilerlemeye devam ediyoruz."
+
+ agot_danger.0009.c.tt:0 "Dondurucu nehir kıyısının zorlu arazisinde yoluna devam ediyorsun"
+
+ agot_danger.0010.title:0 "$travel_danger_prefix$ İnce Buzda"
+
+ agot_danger.0010.desc:0 "Buzlu nehrin düz yüzeyine doğru ilerliyorum; ağırlığımı arka ayağımda tutmaya çalışarak dikkatle yürüyorum; ama hain buz arkamda kırılıyor. Dondurucu su beni yutmadan hemen önceki o kısacık anda, şunları başarıyorum..."
+
+ agot_danger.0010.a:0 "... dalış için kendimi hazırlıyorum."
+
+ agot_danger.0010.a.tt:0 "Kendi başına yeniden yüzeye çıkmayı deneyeceksin"
+
+ agot_danger.0010.a.swim.tt:0 "Dondurucu sudan yeniden çıkıyorsun"
+
+ agot_danger.0010.a.toast:0 "Buzun altından yeniden yüzeye çıktın"
+
+ agot_danger.0010.a.sink.tt:0 "Buzlu nehir canını alıyor"
+
+ agot_danger.0010.b:0 "... [travel_leader.GetFirstNameNoTooltip]'e yardım için haykırıyorum."
+
+ agot_danger.0010.b.tt:0 "[travel_leader.GetName] seni kurtarmayı deneyecek"
+
+ agot_danger.0010.b.swim.tt:0 "[travel_leader.GetName] seni sudan çıkarmayı başarıyor"
+
+ agot_danger.0010.b.toast:0 "[travel_leader.GetFirstNameNoTooltip] seni dondurucu sudan çıkardı"
+
+ agot_danger.0010.b.sink.tt:0 "[travel_leader.GetFirstNamePossessiveNoTooltip] çabasına rağmen can veriyorsun"
+
+ agot_danger.0010.b.bothsink.tt:0 "İkiniz de buzun altında boğuluyorsunuz"
+
+ agot_danger.0011.title:0 "$travel_danger_prefix$ İnce Buzda"
+
+ agot_danger.0011.desc:0 "[travel_leader.GetFirstNameNicknamed] emirlerime sadakatle uyar ve donmuş yüzeye iner. [travel_leader.GetSheHe|U] daha üç adım atar atmaz, görünüşte hiçbir uyarı olmadan [travel_leader.GetHerHis] ayaklarının altındaki buz şiddetle çatlar - ve [travel_leader.GetSheHe] yüzeyin altında kaybolur."
+
+ agot_danger.0011.a:0 "[travel_leader.GetSheHe|U] artık kendi başına."
+
+ agot_danger.0011.a.tt:0 "Kenarda durup [travel_leader.GetFirstNameNoTooltip]'in yeniden yüzeye çıkmasını bekliyorsun - ya da çıkmamasını"
+
+ agot_danger.0011.a.swim.tt:0 "[travel_leader.GetFirstNameNoTooltip] buzun altından çıkıyor"
+
+ agot_danger.0011.a.swim.toast:0 "[travel_leader.GetFirstNameNoTooltip] dondurucu sudan yeniden yüzeye çıkıyor"
+
+ agot_danger.0011.a.sink.tt:0 "[travel_leader.GetFirstNameNoTooltip] nehirde boğuluyor"
+
+ agot_danger.0011.a.sink.toast:0 "[travel_leader.GetFirstNameNoTooltip] dondurucu derinliklerde can verdi"
+
+ agot_danger.0011.b:0 "[travel_leader.GetHerHim]'e yardım etmeliyim!"
+
+ agot_danger.0011.b.tt:0 "[travel_leader.GetName]'i kurtarmak için atılıyorsun"
+
+ agot_danger.0011.b.swim.tt:0 "[travel_leader.GetFirstNameNoTooltip]'i buzun altından çıkarmayı başarıyorsun"
+
+ agot_danger.0011.b.swim.toast:0 "[travel_leader.GetFirstNameNoTooltip]'i boğulmaktan kurtardın"
+
+ agot_danger.0011.b.sink.tt:0 "[travel_leader.GetFirstNameNoTooltip] ulaşılamayacak kadar derine batıyor"
+
+ agot_danger.0011.b.sink.toast:0 "[travel_leader.GetFirstNameNoTooltip] nehirde boğuluyor"
+
+ agot_danger.0011.b.bothsink.tt:0 "[travel_leader.GetFirstNameNoTooltip] ile birlikte suya düşüp ölüyorsunuz"

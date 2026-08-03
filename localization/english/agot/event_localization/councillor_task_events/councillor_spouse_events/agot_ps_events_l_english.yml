@@ -1,403 +1,403 @@
 ﻿l_english:
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.1001.desc [AGOT: Familial Reputation]
- councillor_personal_steward_diplomacy.1001.desc:0 "Familial Reputation"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.1004.desc [AGOT: Diplomacy Training]
- councillor_personal_steward_diplomacy.1004.desc:0 "Diplomacy Training"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.1004.desc_diplo_councillor [AGOT: Taught by the [councillor.GetTitleAsName]]
- councillor_personal_steward_diplomacy.1004.desc_diplo_councillor:0 "Taught by the [councillor.GetTitleAsName]"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.1005.desc [AGOT: Diplomatic Practice]
- councillor_personal_steward_diplomacy.1005.desc:0 "Diplomatic Practice"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.1006.desc [AGOT: Through [councillor.GetTitledFirstNamePossessive] hard work, [councillor.GetSheHe] has become better at talking to people.]
- councillor_personal_steward_diplomacy.1006.desc:0 "Through [councillor.GetTitledFirstNamePossessive] hard work, [councillor.GetSheHe] has become better at talking to people."
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.t [AGOT: Personal Steward: Grow Fonder]
- councillor_personal_steward_diplomacy.2002.t:1 "Personal Steward: Grow Fonder"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.desc [AGOT: ]
- councillor_personal_steward_diplomacy.2002.desc:0 ""To nurture relationships between the next generation of rulers is a duty we should not neglect," says [councillor.GetTitledFirstName].\n\n"Some of your more influential vassals have children that I am certain [child_heir.GetTitledFirstName] would benefit from knowing.""
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.a [AGOT: [vassal_heir_1.GetTitledFirstNameNoTooltip] seems like a [vassal_heir_1.Custom('WomanManGirlBoy')] of good repute.]
- councillor_personal_steward_diplomacy.2002.a:0 "[vassal_heir_1.GetTitledFirstNameNoTooltip] seems like a [vassal_heir_1.Custom('WomanManGirlBoy')] of good repute."
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.b [AGOT: [vassal_heir_2.GetTitledFirstNameNoTooltip] would probably be a good influence!]
- councillor_personal_steward_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] would probably be a good influence!"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.c [AGOT: I have heard good things about [vassal_heir_3.GetTitledFirstNameNoTooltip].]
- councillor_personal_steward_diplomacy.2002.c:0 "I have heard good things about [vassal_heir_3.GetTitledFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2002.d [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] will do fine on [child_heir.GetHerHis] own.]
- councillor_personal_steward_diplomacy.2002.d:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] will do fine on [child_heir.GetHerHis] own."
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2003.t [AGOT: Personal Steward: Opportunity for Peace]
- councillor_personal_steward_diplomacy.2003.t:1 "Personal Steward: Opportunity for Peace"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2003.desc [AGOT: As soon as I see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] on the other side of the [ROOT.Char.GetFaith.HouseOfWorship] I start to turn around, but to my surprise [councillor.GetTitledFirstName] waves the [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] towards us.\n\n]
- councillor_personal_steward_diplomacy.2003.desc:0 "As soon as I see my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName] on the other side of the [ROOT.Char.GetFaith.HouseOfWorship] I start to turn around, but to my surprise [councillor.GetTitledFirstName] waves the [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] towards us.\n\n"[rival.GetSheHe|U] has agreed to meet with you on neutral ground. It is unfortunate that two [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] [ROOT.Char.Custom2('WomenMenPeople', SCOPE.sC('rival'))] such as yourself are feuding. Do you not think it is time to make amends?""
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2003.a [AGOT: You might be right...]
- councillor_personal_steward_diplomacy.2003.a:0 "You might be right..."
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2003.b [AGOT: I will amend [rival.GetHerHis] face!]
- councillor_personal_steward_diplomacy.2003.b:0 "I will amend [rival.GetHerHis] face!"
-### TODO NOT-IN-ST: councillor_personal_steward_diplomacy.2003.c [AGOT: You call [rival.GetHerHim] [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]?! Let me divulge [rival.GetHerHis] true character...]
- councillor_personal_steward_diplomacy.2003.c:0 "You call [rival.GetHerHim] [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]?! Let me divulge [rival.GetHerHis] true character..."
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0001.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] and [spymaster.GetCouncilTitle] Cooperate]
- councillor_personal_steward_intrigue.0001.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] and [spymaster.GetCouncilTitle] Cooperate"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0002.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Exposes Scheme]
- councillor_personal_steward_intrigue.0002.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Exposes Scheme"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0003.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Discovers Secret]
- councillor_personal_steward_intrigue.0003.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Discovers Secret"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0004.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Aids Scheme]
- councillor_personal_steward_intrigue.0004.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Aids Scheme"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0005.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Manipulates Subject]
- councillor_personal_steward_intrigue.0005.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Manipulates Subject"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0006.message [AGOT: Naivety Lost]
- councillor_personal_steward_intrigue.0006.message:0 "Naivety Lost"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.0007.message [AGOT: Devious Practice]
- councillor_personal_steward_intrigue.0007.message:0 "Devious Practice"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1001.t [AGOT: Personal Steward: Trust No One]
- councillor_personal_steward_intrigue.1001.t:1 "Personal Steward: Trust No One"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1001.desc [AGOT: ]
- councillor_personal_steward_intrigue.1001.desc:0 ""You have to be careful about the people you surround yourself with." The expression in my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] eyes is deathly serious. "I have discovered that even as we speak, [spymaster.GetTitledFirstName] is scheming against you!"\n\nCould it really be? My own [spymaster.GetCouncilTitle]?!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1001.a [AGOT: I have been had for a fool!]
- councillor_personal_steward_intrigue.1001.a:0 "I have been had for a fool!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1002.t [AGOT: Personal Steward: Rumor and Speculation]
- councillor_personal_steward_intrigue.1002.t:1 "Personal Steward: Rumor and Speculation"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1002.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] in the way [councillor.GetSheHe] so often does when [councillor.GetSheHe] has something to share.]
- councillor_personal_steward_intrigue.1002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')] in the way [councillor.GetSheHe] so often does when [councillor.GetSheHe] has something to share. "You know the rumors about [target.GetTitledFirstName], that [target.GetSheHe] is hiding something terrible?" I lean in closer as [councillor.GetSheHe] lowers [councillor.GetHerHis] voice. "They are all true. All we need is proof.""
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1002.a [AGOT: It is time for some espionage, my [councillor.Custom('LoverPetName')]!]
- councillor_personal_steward_intrigue.1002.a:0 "It is time for some espionage, my [councillor.Custom('LoverPetName')]!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1002.b [AGOT: I must discover what it is!]
- councillor_personal_steward_intrigue.1002.b:0 "I must discover what it is!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1002.c [AGOT: I protect my secrets better than [target.GetFirstNameNoTooltip] does.]
- councillor_personal_steward_intrigue.1002.c:0 "I protect my secrets better than [target.GetFirstNameNoTooltip] does."
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1003.t [AGOT: Personal Steward: Revealed]
- councillor_personal_steward_intrigue.1003.t:1 "Personal Steward: Revealed"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1003.desc [AGOT: I can tell from the way [councillor.GetSheHe] approaches me that [councillor.GetTitledFirstName] has come across another secret at court.\n\n]
- councillor_personal_steward_intrigue.1003.desc:0 "I can tell from the way [councillor.GetSheHe] approaches me that [councillor.GetTitledFirstName] has come across another secret at court.\n\n"[agent.GetTitledFirstName] is participating in a conspiracy," [councillor.GetSheHe] says. "[agent.GetSheHe|U] does not yet know that I know, but I suggest you offer [agent.GetHerHim] amnesty, in exchange for absolute loyalty...""
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1003.a [AGOT: Make [agent.GetHerHim] understand how much is at stake.]
- councillor_personal_steward_intrigue.1003.a:0 "Make [agent.GetHerHim] understand how much is at stake."
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1003.b [AGOT: Use [agent.GetHerHim] to find the real mastermind!]
- councillor_personal_steward_intrigue.1003.b:0 "Use [agent.GetHerHim] to find the real mastermind!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1003.c [AGOT: Track [agent.GetHerHis] every move, and keep me safe from harm!]
- councillor_personal_steward_intrigue.1003.c:0 "Track [agent.GetHerHis] every move, and keep me safe from harm!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.t [AGOT: Personal Steward: Opposition Research]
- councillor_personal_steward_intrigue.1004.t:1 "Personal Steward: Opposition Research"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.desc [AGOT: [secret_holder.GetTitledFirstName] has been a pain, vocally supporting the [faction.GetName]. Thankfully, I seem about to get the upper hand.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has discovered a closely guarded secret of [secret_holder.GetHerHis], [councillor.GetSheHe] tells me with a clever smile.\n\n]
- councillor_personal_steward_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] has been a pain, vocally supporting the [faction.GetName]. Thankfully, I seem about to get the upper hand.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has discovered a closely guarded secret of [secret_holder.GetHerHis], [councillor.GetSheHe] tells me with a clever smile.\n\n"I thought you might find it interesting, my dear...""
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.a [AGOT: A little blackmail will keep [secret_holder.GetHerHim] in line.]
- councillor_personal_steward_intrigue.1004.a:0 "A little blackmail will keep [secret_holder.GetHerHim] in line."
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.b [AGOT: This is scandalous! The realm must know!]
- councillor_personal_steward_intrigue.1004.b:0 "This is scandalous! The realm must know!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.c [AGOT: Sometimes it is best to wait with a winning hand.]
- councillor_personal_steward_intrigue.1004.c:0 "Sometimes it is best to wait with a winning hand."
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1004.c.tt [AGOT: You do not yet reveal [secret_holder.GetFirstNamePossessiveNoTooltip] Secret]
- councillor_personal_steward_intrigue.1004.c.tt:1 "You do not yet reveal [secret_holder.GetFirstNamePossessiveNoTooltip] Secret"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1005.t [AGOT: Personal Steward: Divide and Conquer]
- councillor_personal_steward_intrigue.1005.t:1 "Personal Steward: Divide and Conquer"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1005.desc [AGOT: [faction_member.GetTitledFirstName] has been actively supporting [leader.GetTitledFirstName] and [leader.GetHerHis] [faction.GetName]. However, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has a plan to change that.\n\n]
- councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] has been actively supporting [leader.GetTitledFirstName] and [leader.GetHerHis] [faction.GetName]. However, my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] has a plan to change that.\n\n"Trust me, the things I could tell [faction_member.GetTitledFirstName] would make [faction_member.GetHerHim] disavow [leader.GetFirstNameNoTooltip] in an instant.""
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1005.a [AGOT: Make sure [faction_member.GetFirstNameNoTooltip] never supports [leader.GetFirstNameNoTooltip] again!]
- councillor_personal_steward_intrigue.1005.a:0 "Make sure [faction_member.GetFirstNameNoTooltip] never supports [leader.GetFirstNameNoTooltip] again!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1005.b [AGOT: Could you make #EMP me#! look like a better choice?]
- councillor_personal_steward_intrigue.1005.b:0 "Could you make #EMP me#! look like a better choice?"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1006.t [AGOT: Personal Steward: An Appropriate Representative]
- councillor_personal_steward_intrigue.1006.t:1 "Personal Steward: An Appropriate Representative"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1006.desc [AGOT: Being well aware of my plans in regards to [target.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] has come to me with a proposal.\n\n]
- councillor_personal_steward_intrigue.1006.desc:0 "Being well aware of my plans in regards to [target.GetTitledFirstName], my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] has come to me with a proposal.\n\n"I have friends at [court_owner.GetTitledFirstNamePossessive] court. I could request that they house a guest for some time. With a small token of loyalty and all the support I can offer, [plant.GetTitledFirstName] could do wonders on your behalf...""
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1006.a [AGOT: A brilliant idea, my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]!]
- councillor_personal_steward_intrigue.1006.a:0 "A brilliant idea, my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]!"
-### TODO NOT-IN-ST: councillor_personal_steward_intrigue.1006.b [AGOT: I think we might need [plant.GetFirstNameNoTooltip] here.]
- councillor_personal_steward_intrigue.1006.b:0 "I think we might need [plant.GetFirstNameNoTooltip] here."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0001.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Inspires Recruitment]
- councillor_personal_steward_martial.0001.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Inspires Recruitment"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0002.message [AGOT: Army Organization Aid]
- councillor_personal_steward_martial.0002.message:0 "Army Organization Aid"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0003.message [AGOT: Inspirational [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U]]
- councillor_personal_steward_martial.0003.message:1 "Inspirational [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U]"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0004.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Encourages Chivalry]
- councillor_personal_steward_martial.0004.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Encourages Chivalry"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0005.message [AGOT: Support in Mercenary Negotiations]
- councillor_personal_steward_martial.0005.message:0 "Support in Mercenary Negotiations"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0006.message [AGOT: Looking After Me]
- councillor_personal_steward_martial.0006.message:0 "Looking After Me"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0007.message [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Tending Wounds]
- councillor_personal_steward_martial.0007.message:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Tending Wounds"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0008.message [AGOT: Intimidating Presence]
- councillor_personal_steward_martial.0008.message:0 "Intimidating Presence"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.0009.message [AGOT: Combat Practice]
- councillor_personal_steward_martial.0009.message:0 "Combat Practice"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.t [AGOT: Personal Steward: Tourney Day]
- councillor_personal_steward_martial.1001.t:1 "Personal Steward: Tourney Day"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.desc [AGOT: The sun is shining and peasants are milling about the tourney hosted by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. All my $knight_culture_player_plural_no_tooltip_lowercase$ cheer as [councillor.GetTitledFirstName] announces the tournament in their honor, and for once I get to simply sit and watch.\n\nI am not going to spend an entire tourney day stuck to a throne, however!]
- councillor_personal_steward_martial.1001.desc:2 "The sun is shining and peasants are milling about the tourney hosted by my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. All my $knight_culture_player_plural_no_tooltip_lowercase$ cheer as [councillor.GetTitledFirstName] announces the tournament in their honor, and for once I get to simply sit and watch.\n\nI am not going to spend an entire tourney day stuck to a throne, however!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.a [AGOT: I, too, cheer to my $knight_culture_player_plural_no_tooltip_lowercase$!]
- councillor_personal_steward_martial.1001.a:2 "I, too, cheer to my $knight_culture_player_plural_no_tooltip_lowercase$!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.commanders [AGOT: Every $knight_culture_player_no_tooltip_lowercase$]
- councillor_personal_steward_martial.1001.commanders:2 "Every $knight_culture_player_no_tooltip_lowercase$"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.b [AGOT: This is the perfect chance to give [child.GetFirstNameNoTooltip] a few pointers!]
- councillor_personal_steward_martial.1001.b:0 "This is the perfect chance to give [child.GetFirstNameNoTooltip] a few pointers!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.b.education_tt [AGOT: I advance [child.GetFirstNamePossessiveNoTooltip] martial education]
- councillor_personal_steward_martial.1001.b.education_tt:0 "I advance [child.GetFirstNamePossessiveNoTooltip] martial education"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1001.c [AGOT: This day is in #EMP our#! honor, my dear!]
- councillor_personal_steward_martial.1001.c:0 "This day is in #EMP our#! honor, my dear!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1002.t [AGOT: Personal Steward: Acting on My Behalf]
- councillor_personal_steward_martial.1002.t:1 "Personal Steward: Acting on My Behalf"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1002.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] spends a significant amount of time traveling the realm with [councillor.GetHerHis] honor guard. There are many matters [councillor.GetSheHe] can settle on my behalf, and the military presence [councillor.GetTitledFirstName] brings with [councillor.GetHerHim] is a firm reminder of my right to rule.]
- councillor_personal_steward_martial.1002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] spends a significant amount of time traveling the realm with [councillor.GetHerHis] honor guard. There are many matters [councillor.GetSheHe] can settle on my behalf, and the military presence [councillor.GetTitledFirstName] brings with [councillor.GetHerHim] is a firm reminder of my right to rule."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1002.a [AGOT: My [councillor.GetTitleAsNameNoTooltip] and I stand ready in defense of the realm!]
- councillor_personal_steward_martial.1002.a:0 "My [councillor.GetTitleAsNameNoTooltip] and I stand ready in defense of the realm!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1002.b [AGOT: Make sure the people grovel appropriately, my dear.]
- councillor_personal_steward_martial.1002.b:0 "Make sure the people grovel appropriately, my dear."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1002.c [AGOT: Everyone should both fear me and worship at my feet, [councillor.GetFirstNameNoTooltip]!]
- councillor_personal_steward_martial.1002.c:0 "Everyone should both fear me and worship at my feet, [councillor.GetFirstNameNoTooltip]!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.t [AGOT: Personal Steward: A Matter of Honor]
- councillor_personal_steward_martial.1003.t:1 "Personal Steward: A Matter of Honor"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. It is the conflict between [attacker_vassal.GetTitledFirstName] and [defender_vassal.GetTitledFirstName] [councillor.GetSheHe] wishes to discuss.\n\n]
- councillor_personal_steward_martial.1003.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. It is the conflict between [attacker_vassal.GetTitledFirstName] and [defender_vassal.GetTitledFirstName] [councillor.GetSheHe] wishes to discuss.\n\n"Their fighting is without honor, and they bring shame to your realm. Let me handle them. I know I can force them to a peace.""
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.a [AGOT: See it settled, whatever the cost.]
- councillor_personal_steward_martial.1003.a:0 "See it settled, whatever the cost."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.b [AGOT: No, I want to see who wins!]
- councillor_personal_steward_martial.1003.b:0 "No, I want to see who wins!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.b.tt [AGOT: [attacker_vassal.GetFirstNameNoTooltip] and [defender_vassal.GetFirstNameNoTooltip] continue their war]
- councillor_personal_steward_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] and [defender_vassal.GetFirstNameNoTooltip] continue their war"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.c [AGOT: Oh, I trust that you can, my dear.]
- councillor_personal_steward_martial.1003.c:0 "Oh, I trust that you can, my dear."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1003.c.unlock_tt [AGOT: This option is available due to [councillor.GetFirstNamePossessiveNoTooltip] strategic brilliance]
- councillor_personal_steward_martial.1003.c.unlock_tt:0 "This option is available due to [councillor.GetFirstNamePossessiveNoTooltip] strategic brilliance"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1004.t [AGOT: Personal Steward: The Guard]
- councillor_personal_steward_martial.1004.t:1 "Personal Steward: The Guard"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1004.desc [AGOT: I am a little confused as to why my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] wants to present a]
- councillor_personal_steward_martial.1004.desc:0 "I am a little confused as to why my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] wants to present a "grand gift" to me in the courtyard. I soon understand, however, as [councillor.GetTitledFirstName] orders a group of soldiers into line. "A complete regiment, raised from my own lands, ready to serve you."\n\nThis #EMP is#! a grand gift!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1004.a [AGOT: More troops to bolster the army!]
- councillor_personal_steward_martial.1004.a:0 "More troops to bolster the army!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1004.b [AGOT: They will serve as my personal guard.]
- councillor_personal_steward_martial.1004.b:0 "They will serve as my personal guard."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1005.t [AGOT: Personal Steward: Leaving an Impression]
- councillor_personal_steward_martial.1005.t:1 "Personal Steward: Leaving an Impression"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1005.desc [AGOT: [vassal.GetTitledFirstName] is coming to [capital.GetNameNoTier] to pay me tribute. However, [councillor.GetTitledFirstName] suggests that a military display could ensure continued loyalty.\n\n]
- councillor_personal_steward_martial.1005.desc:0 "[vassal.GetTitledFirstName] is coming to [capital.GetNameNoTier] to pay me tribute. However, [councillor.GetTitledFirstName] suggests that a military display could ensure continued loyalty.\n\n"Seeing your overwhelming might would make anyone think twice if treason ever crossed their mind," my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] points out."
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1005.a [AGOT: Yes, [vassal.GetFirstNameNoTooltip] will see soldiers everywhere [vassal.GetSheHe] turns!]
- councillor_personal_steward_martial.1005.a:0 "Yes, [vassal.GetFirstNameNoTooltip] will see soldiers everywhere [vassal.GetSheHe] turns!"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1005.a.tt [AGOT: [vassal.GetFirstNameNoTooltip] becomes more susceptible to [dread|E]]
- councillor_personal_steward_martial.1005.a.tt:1 "[vassal.GetFirstNameNoTooltip] becomes more susceptible to [dread|E]"
-### TODO NOT-IN-ST: councillor_personal_steward_martial.1005.b [AGOT: A regular parade should suffice.]
- councillor_personal_steward_martial.1005.b:0 "A regular parade should suffice."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1001.religion.t [AGOT: Personal Steward Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Vassal]
- councillor_personal_steward_learning.1001.religion.t:1 "Personal Steward Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Vassal"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1001.culture.t [AGOT: Personal Steward Mediates With [councillor.GetCulture.GetNameNoTooltip]]
- councillor_personal_steward_learning.1001.culture.t:1 "Personal Steward Mediates With [councillor.GetCulture.GetNameNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1002.religion.t [AGOT: Personal Steward Mediates with [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]]
- councillor_personal_steward_learning.1002.religion.t:1 "Personal Steward Mediates with [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1002.culture.t [AGOT: Personal Steward Mediates with [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]]
- councillor_personal_steward_learning.1002.culture.t:1 "Personal Steward Mediates with [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1003.religion.desc [AGOT: Personal Steward Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Subjects]
- councillor_personal_steward_learning.1003.religion.desc:1 "Personal Steward Mediates With [councillor.GetFaith.GetAdjectiveNoTooltip] Subjects"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1003.culture.desc [AGOT: Personal Steward Mediates With [councillor.GetCulture.GetNameNoTooltip] Subjects]
- councillor_personal_steward_learning.1003.culture.desc:1 "Personal Steward Mediates With [councillor.GetCulture.GetNameNoTooltip] Subjects"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1301.t [AGOT: Personal Steward: Influences Religious Conversion]
- councillor_personal_steward_learning.1301.t:1 "Personal Steward: Influences Religious Conversion"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1302.t [AGOT: Personal Steward: Influences Cultural Conversion]
- councillor_personal_steward_learning.1302.t:1 "Personal Steward: Influences Cultural Conversion"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1303.desc [AGOT: Personal Steward is Patron of Theologians]
- councillor_personal_steward_learning.1303.desc:0 "Personal Steward is Patron of Theologians"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1601.desc [AGOT: Personal Steward Aids You in [ROOT.Char.Custom('LifestyleFocus')|U] Studies]
- councillor_personal_steward_learning.1601.desc:1 "Personal Steward Aids You in [ROOT.Char.Custom('LifestyleFocus')|U] Studies"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1602.t [AGOT: [tutored_child.Custom('GetDaughterSon')] Flourishes Under Personal Steward's Tutelage]
- councillor_personal_steward_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')] Flourishes Under Personal Steward's Tutelage"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1603.root_guardian.t [AGOT: Ward Appreciates Personal Steward's Tutelage]
- councillor_personal_steward_learning.1603.root_guardian.t:0 "Ward Appreciates Personal Steward's Tutelage"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1603.personal_steward_guardian.t [AGOT: Personal Steward's Ward Appreciates [councillor.GetHerHis|U] Tutelage]
- councillor_personal_steward_learning.1603.personal_steward_guardian.t:0 "Personal Steward's Ward Appreciates [councillor.GetHerHis|U] Tutelage"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1603.other_guardian.t [AGOT: Ward At Court Appreciates Personal Steward's Tutelage]
- councillor_personal_steward_learning.1603.other_guardian.t:0 "Ward At Court Appreciates Personal Steward's Tutelage"
-### TODO NOT-IN-ST: agot_add_patronage_personal_steward_education_points_effect.t [AGOT: Child Benefits From Personal Steward's Tutelage]
- agot_add_patronage_personal_steward_education_points_effect.t:0 "Child Benefits From Personal Steward's Tutelage"
-### TODO NOT-IN-ST: agot_add_patronage_personal_steward_education_points_effect.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage.]
- agot_add_patronage_personal_steward_education_points_effect.desc:1 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage."
-### TODO NOT-IN-ST: add_patronage_personal_steward_education_points_child_effect.desc [AGOT: My [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage.]
- add_patronage_personal_steward_education_points_child_effect.desc:0 "My [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], is more likely to receive a good [education|E] due to [councillor.GetTitledFirstNamePossessive] tutelage."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.t [AGOT: Personal Steward: Further Education]
- councillor_personal_steward_learning.2601.t:1 "Personal Steward: Further Education"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.not_scholarly.desc [AGOT: ]
- councillor_personal_steward_learning.2601.not_scholarly.desc:0 ""It would not hurt you to read a book once in a while," my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))], the studious [councillor.GetTitledFirstName], often tells me. [councillor.GetSheHe|U] has offered to be my tutor, if I need some help to get started."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.scholarly.desc [AGOT: Every time my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] finds me bent over a tome, [councillor.GetSheHe] gets visibly excited.\n\n]
- councillor_personal_steward_learning.2601.scholarly.desc:0 "Every time my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] finds me bent over a tome, [councillor.GetSheHe] gets visibly excited.\n\n"Would you like some help with your studies? Someone to exchange ideas with, or perhaps some new tomes? I recently acquired a volume with an excellent analysis of [ROOT.Char.Custom('education_conversation_subject')]!""
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.a [AGOT: Yes, I would appreciate your guidance.]
- councillor_personal_steward_learning.2601.a:0 "Yes, I would appreciate your guidance."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.b [AGOT: [tutoring_student_1.GetTitledFirstNameNoTooltip] needs your assistance more than I.]
- councillor_personal_steward_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip] needs your assistance more than I."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.c [AGOT: You should tutor [tutoring_student_2.GetTitledFirstNameNoTooltip] instead.]
- councillor_personal_steward_learning.2601.c:0 "You should tutor [tutoring_student_2.GetTitledFirstNameNoTooltip] instead."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2601.d [AGOT: You should focus on your own studies.]
- councillor_personal_steward_learning.2601.d:0 "You should focus on your own studies."
-### TODO NOT-IN-ST: agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success [AGOT: [THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] greatly increases]
- agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] greatly increases"
-### TODO NOT-IN-ST: agot_councillor_personal_steward_learning_2601_tutoring_effect.success [AGOT: [THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] increases]
- agot_councillor_personal_steward_learning_2601_tutoring_effect.success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] understanding of [THIS.Char.Custom('education_focus')] increases"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.faith.t [AGOT: Personal Steward: [councillor.GetFaith.GetAdjectiveNoTooltip] Dissidents]
- councillor_personal_steward_learning.2001.faith.t:1 "Personal Steward: [councillor.GetFaith.GetAdjectiveNoTooltip] Dissidents"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.culture.t [AGOT: Personal Steward: [councillor.GetCulture.GetNameNoTooltip] Dissidents]
- councillor_personal_steward_learning.2001.culture.t:1 "Personal Steward: [councillor.GetCulture.GetNameNoTooltip] Dissidents"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.start.desc [AGOT: [faction_leader.GetTitledFirstName] and [faction_leader.GetHerHis] fellow]
- councillor_personal_steward_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] and [faction_leader.GetHerHis] fellow"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.faith.desc [AGOT: [councillor.GetFaith.GetAdjectiveNoTooltip]]
+
+ councillor_personal_steward_diplomacy.1001.desc:0 "Aile İtibarı"
+
+ councillor_personal_steward_diplomacy.1004.desc:0 "Diplomasi Eğitimi"
+
+ councillor_personal_steward_diplomacy.1004.desc_diplo_councillor:0 "[councillor.GetTitleAsName] tarafından eğitildi"
+
+ councillor_personal_steward_diplomacy.1005.desc:0 "Diplomasi Talimi"
+
+ councillor_personal_steward_diplomacy.1006.desc:0 "[councillor.GetTitledFirstNamePossessive] çok çalışması sayesinde [councillor.GetSheHe], insanlarla konuşmakta daha iyi hale geldi."
+
+ councillor_personal_steward_diplomacy.2002.t:0 "Özel Kâhya: Gönül Bağı"
+
+ councillor_personal_steward_diplomacy.2002.desc:0 ""Gelecek nesil hükümdarlar arasındaki ilişkileri beslemek, ihmal etmememiz gereken bir görevdir," der [councillor.GetTitledFirstName].\n\n"Nüfuzlu vasallarından bazılarının çocukları var; eminim [child_heir.GetTitledFirstName]'in onları tanımaktan çıkarı olacaktır.""
+
+ councillor_personal_steward_diplomacy.2002.a:0 "[vassal_heir_1.GetTitledFirstNameNoTooltip] iyi namlı bir [vassal_heir_1.Custom('WomanManGirlBoy')] gibi görünüyor."
+
+ councillor_personal_steward_diplomacy.2002.b:0 "[vassal_heir_2.GetTitledFirstNameNoTooltip] muhtemelen iyi bir etki olur!"
+
+ councillor_personal_steward_diplomacy.2002.c:0 "[vassal_heir_3.GetTitledFirstNameNoTooltip] hakkında iyi şeyler duydum."
+
+ councillor_personal_steward_diplomacy.2002.d:0 "Benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child_heir'))] [child_heir.GetHerHis] başına gayet iyi idare eder."
+
+ councillor_personal_steward_diplomacy.2003.t:0 "Özel Kâhya: Barış Fırsatı"
+
+ councillor_personal_steward_diplomacy.2003.desc:0 "[ROOT.Char.GetFaith.HouseOfWorship]'in öbür ucunda benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival'))] [rival.GetTitledFirstName]'i görür görmez arkamı dönmeye başlıyorum; ama şaşırtıcı bir biçimde [councillor.GetTitledFirstName], [rival.Custom('InsultNoun')] [councillor.Custom('quirk_pos_adverb')] bize doğru el sallıyor.\n\n"[rival.GetSheHe|U] tarafsız bir zeminde seninle görüşmeyi kabul etti. Senin gibi iki [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] [ROOT.Char.Custom2('WomenMenPeople', SCOPE.sC('rival'))]'in kavga etmesi talihsizlik. Artık barışma vaktinin geldiğini düşünmüyor musun?""
+
+ councillor_personal_steward_diplomacy.2003.a:0 "Haklı olabilirsin..."
+
+ councillor_personal_steward_diplomacy.2003.b:0 "Ben [rival.GetHerHis] suratını düzelteceğim!"
+
+ councillor_personal_steward_diplomacy.2003.c:0 "[rival.GetHerHim]'e [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')] diyorsun öyle mi?! Bırak [rival.GetHerHis] gerçek karakterini ifşa edeyim..."
+
+ councillor_personal_steward_intrigue.0001.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] ve [spymaster.GetCouncilTitle] İş Birliği Yapıyor"
+
+ councillor_personal_steward_intrigue.0002.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Entrikayı İfşa Ediyor"
+
+ councillor_personal_steward_intrigue.0003.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Sırrı Keşfediyor"
+
+ councillor_personal_steward_intrigue.0004.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Entrikaya Yardım Ediyor"
+
+ councillor_personal_steward_intrigue.0005.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Tebaayı Yönlendiriyor"
+
+ councillor_personal_steward_intrigue.0006.message:0 "Saflık Kayboldu"
+
+ councillor_personal_steward_intrigue.0007.message:0 "Sinsi Talim"
+
+ councillor_personal_steward_intrigue.1001.t:0 "Özel Kâhya: Kimseye Güvenme"
+
+ councillor_personal_steward_intrigue.1001.desc:0 ""Çevrene aldığın insanlara karşı dikkatli olmalısın." Benim [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))]'in gözlerindeki ifade ölümüne ciddi. "Öğrendim ki daha biz konuşurken [spymaster.GetTitledFirstName] sana karşı entrika çeviriyor!"\n\nGerçekten olabilir mi? Kendi [spymaster.GetCouncilTitle]'im?!"
+
+ councillor_personal_steward_intrigue.1001.a:0 "Beni aptal yerine koydular!"
+
+ councillor_personal_steward_intrigue.1002.t:0 "Özel Kâhya: Söylenti ve Dedikodu"
+
+ councillor_personal_steward_intrigue.1002.desc:0 "Benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.Custom('quirk_pos_present')]; [councillor.GetSheHe] paylaşacak bir şeyi olduğunda sık sık yaptığı gibi. "[target.GetTitledFirstName] hakkındaki söylentileri biliyorsun; korkunç bir şey sakladığını?" [councillor.GetSheHe] sesini alçaltırken ben de yaklaşıyorum. "Hepsi doğru. Tek gereken kanıt.""
+
+ councillor_personal_steward_intrigue.1002.a:0 "Biraz casusluk vakti, benim [councillor.Custom('LoverPetName')]!"
+
+ councillor_personal_steward_intrigue.1002.b:0 "Ne olduğunu keşfetmeliyim!"
+
+ councillor_personal_steward_intrigue.1002.c:0 "Sırlarımı [target.GetFirstNameNoTooltip]'den daha iyi koruyorum."
+
+ councillor_personal_steward_intrigue.1003.t:0 "Özel Kâhya: İfşa Edildi"
+
+ councillor_personal_steward_intrigue.1003.desc:0 "[councillor.GetSheHe]'in bana yaklaşma biçiminden [councillor.GetTitledFirstName]'in sarayda bir sırra daha rastladığını anlıyorum.\n\n"[agent.GetTitledFirstName] bir komploya katılıyor," der [councillor.GetSheHe]. "[agent.GetSheHe|U] bildiğimi henüz bilmiyor; ama [agent.GetHerHim]'e mutlak sadakat karşılığında af teklif etmeni öneririm...""
+
+ councillor_personal_steward_intrigue.1003.a:0 "[agent.GetHerHim]'e ortada ne kadar çok şey olduğunu anlat."
+
+ councillor_personal_steward_intrigue.1003.b:0 "[agent.GetHerHim]'i asıl azmettiriciyi bulmak için kullan!"
+
+ councillor_personal_steward_intrigue.1003.c:0 "[agent.GetHerHis] her hareketini izle ve beni zarardan koru!"
+
+ councillor_personal_steward_intrigue.1004.t:0 "Özel Kâhya: Muhalefet Araştırması"
+
+ councillor_personal_steward_intrigue.1004.desc:0 "[secret_holder.GetTitledFirstName] baş belası oldu; [faction.GetName]'i yüksek sesle destekliyor. Neyse ki üstünlüğü ele geçirmek üzereyim.\n\nBenim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], [secret_holder.GetHerHis] sıkı sıkı saklanan bir sırrını keşfetti, der [councillor.GetSheHe] kurnaz bir gülümsemeyle.\n\n"İlgini çekebileceğini düşündüm, canım...""
+
+ councillor_personal_steward_intrigue.1004.a:0 "Biraz şantaj, [secret_holder.GetHerHim]'i yola getirir."
+
+ councillor_personal_steward_intrigue.1004.b:0 "Bu rezalet! Alem bilmeli!"
+
+ councillor_personal_steward_intrigue.1004.c:0 "Bazen kazançlı bir elde beklemek en iyisidir."
+
+ councillor_personal_steward_intrigue.1004.c.tt:0 "[secret_holder.GetFirstNamePossessiveNoTooltip] Sırrını henüz ifşa etmiyorsun"
+
+ councillor_personal_steward_intrigue.1005.t:0 "Özel Kâhya: Böl ve Yönet"
+
+ councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName], [leader.GetTitledFirstName]'i ve [leader.GetHerHis] [faction.GetName]'i etkin biçimde destekliyor. Ne var ki benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] bunu değiştirecek bir plana sahip.\n\n"Güven bana, [faction_member.GetTitledFirstName]'e anlatabileceklerim [faction_member.GetHerHim]'i anında [leader.GetFirstNameNoTooltip]'i inkâr ettirir.""
+
+ councillor_personal_steward_intrigue.1005.a:0 "[faction_member.GetFirstNameNoTooltip]'in [leader.GetFirstNameNoTooltip]'i bir daha asla desteklemediğinden emin ol!"
+
+ councillor_personal_steward_intrigue.1005.b:0 "Beni daha iyi bir seçenek gibi gösterebilir misin?"
+
+ councillor_personal_steward_intrigue.1006.t:0 "Özel Kâhya: Uygun Bir Temsilci"
+
+ councillor_personal_steward_intrigue.1006.desc:0 "[target.GetTitledFirstName] hakkındaki planlarımın tamamen farkında olan benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName], bana bir teklifle geldi.\n\n"[court_owner.GetTitledFirstNamePossessive] sarayında dostlarım var. Bir süreliğine bir konuk ağırlamalarını isteyebilirim. Küçük bir sadakat nişanesi ve sunabileceğim tüm destekle [plant.GetTitledFirstName] senin adına harikalar yaratabilir...""
+
+ councillor_personal_steward_intrigue.1006.a:0 "Dâhiyane bir fikir, benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]!"
+
+ councillor_personal_steward_intrigue.1006.b:0 "Sanırım burada [plant.GetFirstNameNoTooltip]'e ihtiyacımız olabilir."
+
+ councillor_personal_steward_martial.0001.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Askere Almaya İlham Veriyor"
+
+ councillor_personal_steward_martial.0002.message:0 "Ordu Teşkilatı Desteği"
+
+ councillor_personal_steward_martial.0003.message:0 "İlham Veren [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U]"
+
+ councillor_personal_steward_martial.0004.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Şövalyeliği Teşvik Ediyor"
+
+ councillor_personal_steward_martial.0005.message:0 "Paralı Asker Müzakerelerinde Destek"
+
+ councillor_personal_steward_martial.0006.message:0 "Bana Göz Kulak Olmak"
+
+ councillor_personal_steward_martial.0007.message:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Yaraları Sarıyor"
+
+ councillor_personal_steward_martial.0008.message:0 "Yıldırıcı Varlık"
+
+ councillor_personal_steward_martial.0009.message:0 "Çatışma Talimi"
+
+ councillor_personal_steward_martial.1001.t:0 "Özel Kâhya: Turnuva Günü"
+
+ councillor_personal_steward_martial.1001.desc:0 "Güneş parlıyor ve köylüler benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] tarafından düzenlenen turnuvada ortalıkta dolaşıyor. [councillor.GetTitledFirstName] turnuvayı onların şerefine ilan ettiğinde tüm $knight_culture_player_plural_no_tooltip_lowercaselarım tezahürat yapıyor ve ilk kez sadece oturup izliyorum.\n\nYine de bütün bir turnuva gününü tahta yapışık geçirmeyeceğim!"
+
+ councillor_personal_steward_martial.1001.a:0 "Ben de benim $knight_culture_player_plural_no_tooltip_lowercaselarıma kadeh kaldırıyorum!"
+
+ councillor_personal_steward_martial.1001.commanders:0 "Her $knight_culture_player_no_tooltip_lowercase$"
+
+ councillor_personal_steward_martial.1001.b:0 "Bu, [child.GetFirstNameNoTooltip]'e birkaç ipucu vermek için kusursuz bir fırsat!"
+
+ councillor_personal_steward_martial.1001.b.education_tt:0 "[child.GetFirstNamePossessiveNoTooltip] askerî eğitimini ilerletiyorum"
+
+ councillor_personal_steward_martial.1001.c:0 "Bu gün #EMP bizim#! şerefimiz için, canım!"
+
+ councillor_personal_steward_martial.1002.t:0 "Özel Kâhya: Benim Adıma Hareket"
+
+ councillor_personal_steward_martial.1002.desc:0 "Benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))], [councillor.GetHerHis] şeref muhafızıyla birlikte alemi gezmek için kayda değer zaman harcıyor. [councillor.GetSheHe]'in benim adıma çözebileceği pek çok mesele var ve [councillor.GetTitledFirstName]'in [councillor.GetHerHim] ile getirdiği askerî varlık, benim hüküm hakkımın sağlam bir hatırlatıcısı."
+
+ councillor_personal_steward_martial.1002.a:0 "Benim [councillor.GetTitleAsNameNoTooltip] ve ben alemin savunması için hazır bekliyoruz!"
+
+ councillor_personal_steward_martial.1002.b:0 "İnsanların gerektiği gibi yaltaklandığından emin ol, canım."
+
+ councillor_personal_steward_martial.1002.c:0 "Herkes benden hem korkmalı hem de ayaklarımın dibinde tapınmalı, [councillor.GetFirstNameNoTooltip]!"
+
+ councillor_personal_steward_martial.1003.t:0 "Özel Kâhya: Bir Onur Meselesi"
+
+ councillor_personal_steward_martial.1003.desc:0 "Benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. [councillor.GetSheHe]'in tartışmak istediği şey [attacker_vassal.GetTitledFirstName] ile [defender_vassal.GetTitledFirstName] arasındaki çatışma.\n\n"Kavgaları onursuzca ve alemine utanç getiriyorlar. Bırak onları ben halledeyim. Onları barışa zorlayabileceğimi biliyorum.""
+
+ councillor_personal_steward_martial.1003.a:0 "Ne pahasına olursa olsun çözülmesini sağla."
+
+ councillor_personal_steward_martial.1003.b:0 "Hayır, kimin kazanacağını görmek istiyorum!"
+
+ councillor_personal_steward_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] ve [defender_vassal.GetFirstNameNoTooltip] savaşlarına devam ediyor"
+
+ councillor_personal_steward_martial.1003.c:0 "Oh, yapabileceğine eminim, canım."
+
+ councillor_personal_steward_martial.1003.c.unlock_tt:0 "Bu seçenek, [councillor.GetFirstNamePossessiveNoTooltip] stratejik dehası sayesinde mümkün"
+
+ councillor_personal_steward_martial.1004.t:0 "Özel Kâhya: Muhafız"
+
+ councillor_personal_steward_martial.1004.desc:0 "Benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]'imin neden avluda bana "büyük bir armağan" sunmak istediğini biraz şaşkınlıkla karşılıyorum. Ne var ki [councillor.GetTitledFirstName] bir grup askerin dizilmesini emrettiğinde kısa sürede anlıyorum. "Kendi topraklarımdan toplanmış, sana hizmet etmeye hazır eksiksiz bir alay."\n\nBu #EMP gerçekten de#! büyük bir armağan!"
+
+ councillor_personal_steward_martial.1004.a:0 "Orduyu güçlendirmek için daha fazla asker!"
+
+ councillor_personal_steward_martial.1004.b:0 "Benim özel muhafızlarım olarak hizmet edecekler."
+
+ councillor_personal_steward_martial.1005.t:0 "Özel Kâhya: İz Bırakmak"
+
+ councillor_personal_steward_martial.1005.desc:0 "[vassal.GetTitledFirstName] bana haraç ödemek için [capital.GetNameNoTier]'e geliyor. Ne var ki [councillor.GetTitledFirstName], askerî bir gösterinin sürekli sadakati güvence altına alabileceğini öne sürüyor.\n\n"Ezici gücünüzü görmek, aklına ihanet geçen herkesi bir kez daha düşündürür," diye belirtir benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]."
+
+ councillor_personal_steward_martial.1005.a:0 "Evet, [vassal.GetFirstNameNoTooltip] nereye dönse asker görecek!"
+
+ councillor_personal_steward_martial.1005.a.tt:0 "[vassal.GetFirstNameNoTooltip] [dread|E]'e karşı daha duyarlı hale geliyor"
+
+ councillor_personal_steward_martial.1005.b:0 "Düzenli bir geçit töreni yeterli olur."
+
+ councillor_personal_steward_learning.1001.religion.t:0 "Özel Kâhya [councillor.GetFaith.GetAdjectiveNoTooltip] Vasalıyla Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1001.culture.t:0 "Özel Kâhya [councillor.GetCulture.GetNameNoTooltip] ile Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1002.religion.t:0 "Özel Kâhya [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U] ile Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1002.culture.t:0 "Özel Kâhya [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U] ile Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1003.religion.desc:0 "Özel Kâhya [councillor.GetFaith.GetAdjectiveNoTooltip] Tebaasıyla Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1003.culture.desc:0 "Özel Kâhya [councillor.GetCulture.GetNameNoTooltip] ile Arabuluculuk Yapıyor"
+
+ councillor_personal_steward_learning.1301.t:0 "Özel Kâhya: Dinî Dönüşümü Etkiliyor"
+
+ councillor_personal_steward_learning.1302.t:0 "Özel Kâhya: Kültürel Dönüşümü Etkiliyor"
+
+ councillor_personal_steward_learning.1303.desc:0 "Özel Kâhya İlahiyatçıların Hamisi"
+
+ councillor_personal_steward_learning.1601.desc:0 "Özel Kâhya [ROOT.Char.Custom('LifestyleFocus')|U] Çalışmalarında Sana Yardım Ediyor"
+
+ councillor_personal_steward_learning.1602.t:0 "[tutored_child.Custom('GetDaughterSon')] Özel Kâhyanın Öğretiminde Parlıyor"
+
+ councillor_personal_steward_learning.1603.root_guardian.t:0 "Koğuş Özel Kâhyanın Öğretimini Takdir Ediyor"
+
+ councillor_personal_steward_learning.1603.personal_steward_guardian.t:0 "Özel Kâhyanın Koğuşu [councillor.GetHerHis|U] Öğretimini Takdir Ediyor"
+
+ councillor_personal_steward_learning.1603.other_guardian.t:0 "Saraydaki Koğuş Özel Kâhyanın Öğretimini Takdir Ediyor"
+
+ agot_add_patronage_personal_steward_education_points_effect.t:0 "Çocuk Özel Kâhyanın Öğretiminden Faydalanıyor"
+
+ agot_add_patronage_personal_steward_education_points_effect.desc:0 "[councillor.GetTitledFirstNamePossessive] öğretimi sayesinde benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))] [patronage_student.GetTitledFirstName]'in iyi bir [education|E] alması daha olası."
+
+ add_patronage_personal_steward_education_points_child_effect.desc:0 "[councillor.GetTitledFirstNamePossessive] öğretimi sayesinde [patronage_student.Custom('GetDaughterSon')] [patronage_student.GetTitledFirstName]'in iyi bir [education|E] alması daha olası."
+
+ councillor_personal_steward_learning.2601.t:0 "Özel Kâhya: İleri Eğitim"
+
+ councillor_personal_steward_learning.2601.not_scholarly.desc:0 ""Ara sıra bir kitap okumak sana zarar vermez," der bana sık sık çalışkan [councillor.GetTitledFirstName]; benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]. [councillor.GetSheHe|U], başlamak için yardıma ihtiyacım olursa bana öğretmenlik yapmayı teklif etti."
+
+ councillor_personal_steward_learning.2601.scholarly.desc:0 "Benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] beni ne zaman bir cildin üzerine eğilmiş bulsa, [councillor.GetSheHe] gözle görülür biçimde heyecanlanır.\n\n"Çalışmaların için biraz yardım ister miydin? Fikir alışverişi yapacak biri ya da belki birkaç yeni cilt? Geçenlerde [ROOT.Char.Custom('education_conversation_subject')] hakkında mükemmel bir inceleme içeren bir cilt edindim!""
+
+ councillor_personal_steward_learning.2601.a:0 "Evet, rehberliğini memnuniyetle kabul ederim."
+
+ councillor_personal_steward_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip] benimden daha çok senin yardımına ihtiyaç duyuyor."
+
+ councillor_personal_steward_learning.2601.c:0 "Onun yerine [tutoring_student_2.GetTitledFirstNameNoTooltip]'e ders vermelisin."
+
+ councillor_personal_steward_learning.2601.d:0 "Kendi çalışmalarına odaklanmalısın."
+
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U]'in [THIS.Char.Custom('education_focus')] konusundaki kavrayışı büyük ölçüde artıyor"
+
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.success:0 "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U]'in [THIS.Char.Custom('education_focus')] konusundaki kavrayışı artıyor"
+
+ councillor_personal_steward_learning.2001.faith.t:0 "Özel Kâhya: [councillor.GetFaith.GetAdjectiveNoTooltip] Muhalifleri"
+
+ councillor_personal_steward_learning.2001.culture.t:0 "Özel Kâhya: [councillor.GetCulture.GetNameNoTooltip] Muhalifleri"
+
+ councillor_personal_steward_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] ve [faction_leader.GetHerHis] yoldaşları"
+
  councillor_personal_steward_learning.2001.faith.desc:0 "[councillor.GetFaith.GetAdjectiveNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.culture.desc [AGOT: [councillor.GetCulture.GetNameNoTooltip]]
+
  councillor_personal_steward_learning.2001.culture.desc:0 "[councillor.GetCulture.GetNameNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.middle.desc [AGOT: conspirators in the [different_culture_or_faith_faction.GetName] never give me a moment's peace!]
- councillor_personal_steward_learning.2001.middle.desc:0 "conspirators in the [different_culture_or_faith_faction.GetName] never give me a moment's peace!"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.independence_faction.desc [AGOT: They should be loyal subjects, yet I know they plot to turn against me.]
- councillor_personal_steward_learning.2001.independence_faction.desc:0 "They should be loyal subjects, yet I know they plot to turn against me."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.liberty_faction.desc [AGOT: They seek to undermine my authority at every turn.]
- councillor_personal_steward_learning.2001.liberty_faction.desc:0 "They seek to undermine my authority at every turn."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.claimant_faction.desc [AGOT: Those dishonorable thieves seek to take the land which is rightfully mine.]
- councillor_personal_steward_learning.2001.claimant_faction.desc:0 "Those dishonorable thieves seek to take the land which is rightfully mine."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.end.desc [AGOT: \n\nFortunately, as]
- councillor_personal_steward_learning.2001.end.desc:0 "\n\nFortunately, as "one of their own", my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] holds a certain measure of sway with them. [councillor.GetSheHe|U] has offered to mediate and wants to know how to proceed."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.a.faith [AGOT: Appease the [councillor.GetFaith.GetAdjectiveNoTooltip] faction members.]
- councillor_personal_steward_learning.2001.a.faith:0 "Appease the [councillor.GetFaith.GetAdjectiveNoTooltip] faction members."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.a.culture [AGOT: Appease the [councillor.GetCulture.GetNameNoTooltip] faction members.]
- councillor_personal_steward_learning.2001.a.culture:0 "Appease the [councillor.GetCulture.GetNameNoTooltip] faction members."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.a.faction_members_faith [AGOT: Every [councillor.GetFaith.GetAdjective] member of the [different_culture_or_faith_faction.GetName]]
- councillor_personal_steward_learning.2001.a.faction_members_faith:0 "Every [councillor.GetFaith.GetAdjective] member of the [different_culture_or_faith_faction.GetName]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.a.faction_members_culture [AGOT: Every [councillor.GetCulture.GetName] member of the [different_culture_or_faith_faction.GetName]]
- councillor_personal_steward_learning.2001.a.faction_members_culture:0 "Every [councillor.GetCulture.GetName] member of the [different_culture_or_faith_faction.GetName]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.b [AGOT: Make [faction_member_1.GetTitledFirstNameNoTooltip] leave the faction.]
- councillor_personal_steward_learning.2001.b:0 "Make [faction_member_1.GetTitledFirstNameNoTooltip] leave the faction."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2001.c [AGOT: Convince [faction_member_2.GetTitledFirstNameNoTooltip] to stay loyal to me.]
- councillor_personal_steward_learning.2001.c:0 "Convince [faction_member_2.GetTitledFirstNameNoTooltip] to stay loyal to me."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.t [AGOT: Personal Steward: A Higher Power]
- councillor_personal_steward_learning.2301.t:1 "Personal Steward: A Higher Power"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.desc [AGOT: My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] has become a well-known figure in the religious world. [councillor.GetHerHis|U] patronage of [councillor.GetFaith.GetAdjectiveNoTooltip] scholars, [councillor.GetFaith.HouseOfWorshipPlural], and orders has even attracted the attention of [religious_head.GetTitledFirstNameNicknamed] [religious_head.GetHerselfHimself].\n\nThe [religious_head.GetTitleAsNamePossessiveNoTooltip] gratitude comes with powerful benefits. My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] has offered to reach out to [religious_head.GetHerHim] on my behalf.]
- councillor_personal_steward_learning.2301.desc:0 "My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] has become a well-known figure in the religious world. [councillor.GetHerHis|U] patronage of [councillor.GetFaith.GetAdjectiveNoTooltip] scholars, [councillor.GetFaith.HouseOfWorshipPlural], and orders has even attracted the attention of [religious_head.GetTitledFirstNameNicknamed] [religious_head.GetHerselfHimself].\n\nThe [religious_head.GetTitleAsNamePossessiveNoTooltip] gratitude comes with powerful benefits. My [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] has offered to reach out to [religious_head.GetHerHim] on my behalf."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.a [AGOT: Can you make introductions?]
- councillor_personal_steward_learning.2301.a:0 "Can you make introductions?"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.a.success [AGOT: I have befriended [religious_head.GetTitledFirstNameNicknamed].]
- councillor_personal_steward_learning.2301.a.success:0 "I have befriended [religious_head.GetTitledFirstNameNicknamed]."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.b [AGOT: What can [religious_head.GetSheHe] do for us in return?]
- councillor_personal_steward_learning.2301.b:0 "What can [religious_head.GetSheHe] do for us in return?"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.c [AGOT: This is my chance to be welcomed back into the holy community!]
- councillor_personal_steward_learning.2301.c:0 "This is my chance to be welcomed back into the holy community!"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2301.d [AGOT: Let [religious_head.GetHerHim] know — all we do, we do for [councillor.GetFaith.HighGodName].]
- councillor_personal_steward_learning.2301.d:0 "Let [religious_head.GetHerHim] know — all we do, we do for [councillor.GetFaith.HighGodName]."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.t [AGOT: Personal Steward: Broadening Horizons]
- councillor_personal_steward_learning.2602.t:1 "Personal Steward: Broadening Horizons"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.not_root.desc [AGOT: While my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] certainly knows a thing or two about [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] thinks it is time for [student.GetHerHim] to widen [student.GetHerHis] horizons.\n\n]
- councillor_personal_steward_learning.2602.not_root.desc:0 "While my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] certainly knows a thing or two about [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] thinks it is time for [student.GetHerHim] to widen [student.GetHerHis] horizons.\n\n"I could acquire some new tomes, prepare a few assignments, tutor [student.GetHerHim] a little. Which subject do you think would benefit [student.GetFirstNameNoTooltip] most?""
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.root.desc [AGOT: ]
- councillor_personal_steward_learning.2602.root.desc:0 ""While you know a thing or two about [student.Custom('highest_skill_noun')], the [student.GetTitleTierName] of [student.GetPrimaryTitle.GetNameNoTierNoTooltip] should possess a broad range of skills," my [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] says, [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"I could acquire some new tomes, prepare a few assignments, tutor you a little. What subject are you most interested in?""
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.a [AGOT: Diplomacy.]
- councillor_personal_steward_learning.2602.a:0 "Diplomacy."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.b [AGOT: Military theory.]
- councillor_personal_steward_learning.2602.b:0 "Military theory."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.c [AGOT: Realm economy.]
- councillor_personal_steward_learning.2602.c:0 "Realm economy."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.d [AGOT: Spy network management.]
- councillor_personal_steward_learning.2602.d:0 "Spy network management."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2602.e [AGOT: Theology.]
- councillor_personal_steward_learning.2602.e:0 "Theology."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1304.desc [AGOT: Personal Steward Is Patron of [religious_vassal.GetTitledFirstNameNoTooltip]]
- councillor_personal_steward_learning.1304.desc:0 "Personal Steward Is Patron of [religious_vassal.GetTitledFirstNameNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.1305.desc [AGOT: Personal Steward's Piety Impresses The [religious_head.GetTitleAsNameNoTooltip]]
- councillor_personal_steward_learning.1305.desc:0 "Personal Steward's Piety Impresses The [religious_head.GetTitleAsNameNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.t [AGOT: Personal Steward: Up to the Task]
- councillor_personal_steward_learning.2603.t:1 "Personal Steward: Up to the Task"
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.desc [AGOT: Some of my councilors believe the job is theirs by right of blood or influence alone — how wrong they are! I expect results, yet I am often disappointed.\n\nAfter a long day, I am complaining to [councillor.GetFirstName] when [councillor.GetSheHe] interrupts me.]
- councillor_personal_steward_learning.2603.desc:0 "Some of my councilors believe the job is theirs by right of blood or influence alone — how wrong they are! I expect results, yet I am often disappointed.\n\nAfter a long day, I am complaining to [councillor.GetFirstName] when [councillor.GetSheHe] interrupts me. "Let me do something about it, my [ROOT.Char.GetTitleAsNameNoTooltip]. A few lessons might sharpen their wits.""
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.a [AGOT: [chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] could use a tutor.]
- councillor_personal_steward_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] could use a tutor."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.b [AGOT: [marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] would benefit from your help.]
- councillor_personal_steward_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] would benefit from your help."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.c [AGOT: Give a few lessons to my [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip].]
- councillor_personal_steward_learning.2603.c:0 "Give a few lessons to my [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.d [AGOT: Perhaps you have some advice for [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip].]
- councillor_personal_steward_learning.2603.d:0 "Perhaps you have some advice for [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.e [AGOT: [court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] is in need of some guidance.]
- councillor_personal_steward_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] is in need of some guidance."
-### TODO NOT-IN-ST: councillor_personal_steward_learning.2603.f [AGOT: Stay here with me instead...]
- councillor_personal_steward_learning.2603.f:0 "Stay here with me instead..."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1001.desc [AGOT: Military Upkeep]
- councillor_personal_steward_stewardship.1001.desc:0 "Military Upkeep"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1002.desc [AGOT: Worker Diligence]
- councillor_personal_steward_stewardship.1002.desc:0 "Worker Diligence"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1003.desc [AGOT: Construction Negotiations]
- councillor_personal_steward_stewardship.1003.desc:0 "Construction Negotiations"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1004.desc [AGOT: Household Savings]
- councillor_personal_steward_stewardship.1004.desc:0 "Household Savings"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1005.desc [AGOT: Impeccable Household]
- councillor_personal_steward_stewardship.1005.desc:0 "Impeccable Household"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1006.desc [AGOT: Well-organized Court]
- councillor_personal_steward_stewardship.1006.desc:0 "Well-organized Court"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship_1006_every_courtier [AGOT: Every Courtier]
- councillor_personal_steward_stewardship_1006_every_courtier:0 "Every Courtier"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1007.desc [AGOT: Comfortable Living]
- councillor_personal_steward_stewardship.1007.desc:0 "Comfortable Living"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1008.desc [AGOT: Healthy Court]
- councillor_personal_steward_stewardship.1008.desc:0 "Healthy Court"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1009.desc [AGOT: Development Negotiations]
- councillor_personal_steward_stewardship.1009.desc:0 "Development Negotiations"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1010.desc [AGOT: [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Resolves Courtier Debt]
- councillor_personal_steward_stewardship.1010.desc:1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Resolves Courtier Debt"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1011.desc.guilds [AGOT: Guilds Defeated]
- councillor_personal_steward_stewardship.1011.desc.guilds:0 "Guilds Defeated"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1011.desc.serfs [AGOT: Serfs Mollified]
- councillor_personal_steward_stewardship.1011.desc.serfs:0 "Serfs Mollified"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.1011.desc.corruption [AGOT: Control of Tax Collectors]
- councillor_personal_steward_stewardship.1011.desc.corruption:0 "Control of Tax Collectors"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.t [AGOT: Personal Steward: Investment Inquiry]
- councillor_personal_steward_stewardship.2001.t:1 "Personal Steward: Investment Inquiry"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.desc [AGOT: With [councillor.GetTitledFirstNamePossessive] diligent administration of my household's finances, there is more gold at the end of this season than expected.\n\n]
- councillor_personal_steward_stewardship.2001.desc:0 "With [councillor.GetTitledFirstNamePossessive] diligent administration of my household's finances, there is more gold at the end of this season than expected.\n\n"How should we put it to best use, my [ROOT.Char.GetTitleAsNameNoTooltip]?""
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.a [AGOT: Host a magnificent dinner party to the delight of all!]
- councillor_personal_steward_stewardship.2001.a:0 "Host a magnificent dinner party to the delight of all!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship_2001_every_powerful_vassal [AGOT: Every Powerful Vassal]
- councillor_personal_steward_stewardship_2001_every_powerful_vassal:0 "Every Powerful Vassal"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.b [AGOT: Invest the money in the local area.]
- councillor_personal_steward_stewardship.2001.b:0 "Invest the money in the local area."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.c [AGOT: If there's one thing money can buy it's eyes and ears!]
- councillor_personal_steward_stewardship.2001.c:0 "If there's one thing money can buy it's eyes and ears!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2001.d [AGOT: Let's save it for now.]
- councillor_personal_steward_stewardship.2001.d:0 "Let's save it for now."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.t [AGOT: Personal Steward: Glittering Opportunity]
- councillor_personal_steward_stewardship.2002.t:1 "Personal Steward: Glittering Opportunity"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.desc [AGOT: ]
- councillor_personal_steward_stewardship.2002.desc:0 ""My [ROOT.Char.GetLadyLord]." [courtier_lender.GetTitledFirstName] shuffles up to me and smiles [courtier_lender.Custom('quirk_pos_adverb')]. "I was approached by [councillor.GetTitledFirstName] who in [councillor.GetHerHis] wisdom suggested an arrangement between the two of us. Since you could use some financial aid, and I could use some social assistance...""
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.a [AGOT: I will repay you, I promise.]
- councillor_personal_steward_stewardship.2002.a:0 "I will repay you, I promise."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.money_loan_tooltip [AGOT: I will borrow [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! gold from [courtier_lender.GetFirstNameNoTooltip].]
- councillor_personal_steward_stewardship.2002.money_loan_tooltip:0 "I will borrow [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! gold from [courtier_lender.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.b [AGOT: Why don't you donate it to the [ROOT.Char.GetFaith.HouseOfWorship] instead?]
- councillor_personal_steward_stewardship.2002.b:0 "Why don't you donate it to the [ROOT.Char.GetFaith.HouseOfWorship] instead?"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.c [AGOT: You should donate it to the poor.]
- councillor_personal_steward_stewardship.2002.c:0 "You should donate it to the poor."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2002.d [AGOT: I will gladly accept this tribute!]
- councillor_personal_steward_stewardship.2002.d:0 "I will gladly accept this tribute!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.t [AGOT: Personal Steward: Opportunity for Trade]
- councillor_personal_steward_stewardship.2003.t:1 "Personal Steward: Opportunity for Trade"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.desc [AGOT: [councillor.GetTitledFirstName] approaches me with three scrolls of parchment in [councillor.GetHerHis] arms.\n\n]
- councillor_personal_steward_stewardship.2003.desc:0 "[councillor.GetTitledFirstName] approaches me with three scrolls of parchment in [councillor.GetHerHis] arms.\n\n"My [ROOT.Char.GetLadyLord], I have drafted trade proposals for neighboring rulers. I am certain that a deal can be struck that will benefit both parties!""
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.a [AGOT: [ruler_1.GetTitledFirstNameNoTooltip] seems reasonable.]
- councillor_personal_steward_stewardship.2003.a:0 "[ruler_1.GetTitledFirstNameNoTooltip] seems reasonable."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.b [AGOT: Enter in an agreement with [ruler_2.GetTitledFirstNameNoTooltip].]
- councillor_personal_steward_stewardship.2003.b:0 "Enter in an agreement with [ruler_2.GetTitledFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.c [AGOT: Make a deal with [ruler_3.GetTitledFirstNameNoTooltip].]
- councillor_personal_steward_stewardship.2003.c:0 "Make a deal with [ruler_3.GetTitledFirstNameNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.d_greedy [AGOT: None of them will come close to my gold!]
- councillor_personal_steward_stewardship.2003.d_greedy:0 "None of them will come close to my gold!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.d_arrogant [AGOT: None of them are worthy of a deal with #EMP me#!!]
- councillor_personal_steward_stewardship.2003.d_arrogant:0 "None of them are worthy of a deal with #EMP me#!!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2003.d [AGOT: None of them present a tempting enough opportunity...]
- councillor_personal_steward_stewardship.2003.d:0 "None of them present a tempting enough opportunity..."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2004.t [AGOT: Personal Steward: A Helping Hand]
- councillor_personal_steward_stewardship.2004.t:1 "Personal Steward: A Helping Hand"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2004.desc [AGOT: ]
- councillor_personal_steward_stewardship.2004.desc:0 ""Your [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('on_my_hook'))], [on_my_hook.GetTitledFirstName], recently found [on_my_hook.GetHerselfHimself] in a bit of trouble."\n\n[councillor.GetTitledFirstName] smiles [councillor.Custom('quirk_pos_adverb')] as [councillor.GetSheHe] continues, "I made sure the situation resolved itself, and to mention you as the benefactor.""
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2004.a [AGOT: Excellent work!]
- councillor_personal_steward_stewardship.2004.a:0 "Excellent work!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2004.b [AGOT: A good deed needs no repayment.]
- councillor_personal_steward_stewardship.2004.b:0 "A good deed needs no repayment."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.t [AGOT: Personal Steward: Investments in [county_to_boost.GetNameNoTierNoTooltip]]
- councillor_personal_steward_stewardship.2005.t:1 "Personal Steward: Investments in [county_to_boost.GetNameNoTierNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.desc [AGOT: ]
- councillor_personal_steward_stewardship.2005.desc:1 ""My [ROOT.Char.GetLadyLord|U]. It has come to my attention that there is a rare opportunity to invest in the [county_to_boost.GetName]."\n\nMy [councillor.Custom('GetCouncilOrCourtPosition')] [councillor.GetFirstName] draws up the details for the business investment, and it does indeed look as if the deal could benefit [county_to_boost.GetNameNoTierNoTooltip] greatly if successful."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.a [AGOT: It is a risk worth taking!]
- councillor_personal_steward_stewardship.2005.a:0 "It is a risk worth taking!"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.a_1 [AGOT: The deal results in a great return for [county_to_boost.GetNameNoTierNoTooltip]]
- councillor_personal_steward_stewardship.2005.a_1:0 "The deal results in a great return for [county_to_boost.GetNameNoTierNoTooltip]"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.a_2 [AGOT: The deal falls through]
- councillor_personal_steward_stewardship.2005.a_2:0 "The deal falls through"
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.b [AGOT: Leave the opportunity to the people of [county_to_boost.GetNameNoTierNoTooltip].]
- councillor_personal_steward_stewardship.2005.b:0 "Leave the opportunity to the people of [county_to_boost.GetNameNoTierNoTooltip]."
-### TODO NOT-IN-ST: councillor_personal_steward_stewardship.2005.c [AGOT: This talk about local affairs is beneath me!]
- councillor_personal_steward_stewardship.2005.c:0 "This talk about local affairs is beneath me!"
+
+ councillor_personal_steward_learning.2001.middle.desc:0 "[different_culture_or_faith_faction.GetName]'teki komplocular bana bir an bile huzur vermiyor!"
+
+ councillor_personal_steward_learning.2001.independence_faction.desc:0 "Sadık tebaa olmalılar; oysa bana karşı dönmek için plan yaptıklarını biliyorum."
+
+ councillor_personal_steward_learning.2001.liberty_faction.desc:0 "Her fırsatta otoritemi baltalamaya çalışıyorlar."
+
+ councillor_personal_steward_learning.2001.claimant_faction.desc:0 "O onursuz hırsızlar, hakça benim olan toprakları almaya çalışıyor."
+
+ councillor_personal_steward_learning.2001.end.desc:0 "\n\nNeyse ki, "onlardan biri" olarak benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] onlar üzerinde belirli bir ölçüde nüfuz sahibi. [councillor.GetSheHe|U] arabuluculuk yapmayı teklif etti ve nasıl ilerlemesi gerektiğini öğrenmek istiyor."
+
+ councillor_personal_steward_learning.2001.a.faith:0 "[councillor.GetFaith.GetAdjectiveNoTooltip] hizip üyelerini yatıştır."
+
+ councillor_personal_steward_learning.2001.a.culture:0 "[councillor.GetCulture.GetNameNoTooltip] hizip üyelerini yatıştır."
+
+ councillor_personal_steward_learning.2001.a.faction_members_faith:0 "[different_culture_or_faith_faction.GetName]'in her [councillor.GetFaith.GetAdjective] üyesi"
+
+ councillor_personal_steward_learning.2001.a.faction_members_culture:0 "[different_culture_or_faith_faction.GetName]'in her [councillor.GetCulture.GetName] üyesi"
+
+ councillor_personal_steward_learning.2001.b:0 "[faction_member_1.GetTitledFirstNameNoTooltip]'i hizipten ayrılmaya zorla."
+
+ councillor_personal_steward_learning.2001.c:0 "[faction_member_2.GetTitledFirstNameNoTooltip]'i bana sadık kalmaya ikna et."
+
+ councillor_personal_steward_learning.2301.t:0 "Özel Kâhya: Daha Yüce Bir Güç"
+
+ councillor_personal_steward_learning.2301.desc:0 "Benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName], din dünyasında tanınan bir figür haline geldi. [councillor.GetHerHis|U] [councillor.GetFaith.GetAdjectiveNoTooltip] bilginlere, [councillor.GetFaith.HouseOfWorshipPlural]'e ve tarikatlara verdiği himaye, [religious_head.GetTitledFirstNameNicknamed] [religious_head.GetHerselfHimself]'in dikkatini bile çekti.\n\n[religious_head.GetTitleAsNamePossessiveNoTooltip] minnettarlığı güçlü yararlarla gelir. Benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] benim adıma [religious_head.GetHerHim]'e ulaşmayı teklif etti."
+
+ councillor_personal_steward_learning.2301.a:0 "Tanıştırmaları sen ayarlar mısın?"
+
+ councillor_personal_steward_learning.2301.a.success:0 "[religious_head.GetTitledFirstNameNicknamed] ile dost oldum."
+
+ councillor_personal_steward_learning.2301.b:0 "[religious_head.GetSheHe] karşılığında bizim için ne yapabilir?"
+
+ councillor_personal_steward_learning.2301.c:0 "Bu, kutsal topluluğa yeniden kabul edilme şansım!"
+
+ councillor_personal_steward_learning.2301.d:0 "[religious_head.GetHerHim]'e bildir — yaptığımız her şeyi [councillor.GetFaith.HighGodName] için yapıyoruz."
+
+ councillor_personal_steward_learning.2602.t:0 "Özel Kâhya: Ufukları Genişletmek"
+
+ councillor_personal_steward_learning.2602.not_root.desc:0 "Benim [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] [student.Custom('highest_skill_noun')] hakkında bir iki şey biliyor olsa da [councillor.GetTitledFirstName], [student.GetHerHim]'in [student.GetHerHis] ufkunu genişletme zamanının geldiğini düşünüyor.\n\n"Birkaç yeni cilt edinebilir, birkaç ödev hazırlayıp [student.GetHerHim]'e biraz ders verebilirim. Sence hangi konu [student.GetFirstNameNoTooltip]'e en çok yarar sağlar?""
+
+ councillor_personal_steward_learning.2602.root.desc:0 ""[student.Custom('highest_skill_noun')] hakkında bir iki şey biliyor olsan da [student.GetPrimaryTitle.GetNameNoTierNoTooltip]'in [student.GetTitleTierName]'i geniş bir beceri yelpazesine sahip olmalı," der benim [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"Birkaç yeni cilt edinebilir, birkaç ödev hazırlayıp sana biraz ders verebilirim. En çok hangi konu ilgini çekiyor?""
+
+ councillor_personal_steward_learning.2602.a:0 "Diplomasi."
+
+ councillor_personal_steward_learning.2602.b:0 "Askerî kuram."
+
+ councillor_personal_steward_learning.2602.c:0 "Alem ekonomisi."
+
+ councillor_personal_steward_learning.2602.d:0 "Casus ağı yönetimi."
+
+ councillor_personal_steward_learning.2602.e:0 "İlahiyat."
+
+ councillor_personal_steward_learning.1304.desc:0 "Özel Kâhya [religious_vassal.GetTitledFirstNameNoTooltip]'in Hamisi"
+
+ councillor_personal_steward_learning.1305.desc:0 "Özel Kâhyanın Dindarlığı [religious_head.GetTitleAsNameNoTooltip]'i Etkiliyor"
+
+ councillor_personal_steward_learning.2603.t:0 "Özel Kâhya: Görevin Üstesinden Gelir"
+
+ councillor_personal_steward_learning.2603.desc:0 "Konsey üyelerimden bazıları görevin yalnızca kan ya da nüfuz hakkıyla onların olduğuna inanıyor — ne kadar yanılıyorlar! Sonuç bekliyorum ama çoğu kez hayal kırıklığına uğruyorum.\n\nUzun bir günün ardından [councillor.GetFirstName]'e yakınıyorum; [councillor.GetSheHe] sözümü kesiyor. "Bırak ben bir şeyler yapayım, [ROOT.Char.GetTitleAsNameNoTooltip]'im. Birkaç ders zekâlarını keskinleştirebilir.""
+
+ councillor_personal_steward_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] bir öğretmenden faydalanabilir."
+
+ councillor_personal_steward_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] senin yardımından faydalanır."
+
+ councillor_personal_steward_learning.2603.c:0 "[steward.GetCouncilTitle] [steward.GetFirstNameNoTooltip]'e birkaç ders ver."
+
+ councillor_personal_steward_learning.2603.d:0 "Belki [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip] için bir öğüdün vardır."
+
+ councillor_personal_steward_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] biraz rehberliğe ihtiyaç duyuyor."
+
+ councillor_personal_steward_learning.2603.f:0 "Onun yerine burada, benimle kal..."
+
+ councillor_personal_steward_stewardship.1001.desc:0 "Askerî Bakım"
+
+ councillor_personal_steward_stewardship.1002.desc:0 "İşçi Çalışkanlığı"
+
+ councillor_personal_steward_stewardship.1003.desc:0 "İnşaat Müzakereleri"
+
+ councillor_personal_steward_stewardship.1004.desc:0 "Hane Tasarrufu"
+
+ councillor_personal_steward_stewardship.1005.desc:0 "Kusursuz Hane"
+
+ councillor_personal_steward_stewardship.1006.desc:0 "İyi Düzenlenmiş Saray"
+
+ councillor_personal_steward_stewardship_1006_every_courtier:0 "Her Nedime"
+
+ councillor_personal_steward_stewardship.1007.desc:0 "Rahat Yaşam"
+
+ councillor_personal_steward_stewardship.1008.desc:0 "Sağlıklı Saray"
+
+ councillor_personal_steward_stewardship.1009.desc:0 "Kalkınma Müzakereleri"
+
+ councillor_personal_steward_stewardship.1010.desc:0 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] Nedimenin Borcunu Çözüyor"
+
+ councillor_personal_steward_stewardship.1011.desc.guilds:0 "Loncalar Yenildi"
+
+ councillor_personal_steward_stewardship.1011.desc.serfs:0 "Serfler Yatıştırıldı"
+
+ councillor_personal_steward_stewardship.1011.desc.corruption:0 "Vergi Toplayıcılarının Denetimi"
+
+ councillor_personal_steward_stewardship.2001.t:0 "Özel Kâhya: Yatırım Araştırması"
+
+ councillor_personal_steward_stewardship.2001.desc:0 "[councillor.GetTitledFirstNamePossessive] hanemin maliyesini özenle yönetmesi sayesinde bu sezonun sonunda beklenenden daha fazla altın var.\n\n"Bu altını en iyi nasıl değerlendirelim, [ROOT.Char.GetTitleAsNameNoTooltip]'im?""
+
+ councillor_personal_steward_stewardship.2001.a:0 "Herkesin keyfi için görkemli bir yemek daveti düzenle!"
+
+ councillor_personal_steward_stewardship_2001_every_powerful_vassal:0 "Her Güçlü Vasal"
+
+ councillor_personal_steward_stewardship.2001.b:0 "Parayı yerel bölgeye yatır."
+
+ councillor_personal_steward_stewardship.2001.c:0 "Paranın satın alabileceği bir şey varsa o da gözler ve kulaklardır!"
+
+ councillor_personal_steward_stewardship.2001.d:0 "Şimdilik saklayalım."
+
+ councillor_personal_steward_stewardship.2002.t:0 "Özel Kâhya: Göz Kamaştıran Fırsat"
+
+ councillor_personal_steward_stewardship.2002.desc:0 ""[ROOT.Char.GetLadyLord]'im." [courtier_lender.GetTitledFirstName] sendeleyerek yanıma yaklaşır ve [courtier_lender.Custom('quirk_pos_adverb')] gülümser. "[councillor.GetTitledFirstName], [councillor.GetHerHis] bilgeliğiyle ikimiz arasında bir anlaşma önererek bana geldi. Madem siz mali yardıma, ben de sosyal desteğe ihtiyaç duyuyorum...""
+
+ councillor_personal_steward_stewardship.2002.a:0 "Sana borcumu ödeyeceğim, söz."
+
+ councillor_personal_steward_stewardship.2002.money_loan_tooltip:0 "[courtier_lender.GetFirstNameNoTooltip]'den [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! altın ödünç alacağım."
+
+ councillor_personal_steward_stewardship.2002.b:0 "Onun yerine [ROOT.Char.GetFaith.HouseOfWorship]'e bağışlamaya ne dersin?"
+
+ councillor_personal_steward_stewardship.2002.c:0 "Onu yoksullara bağışlamalısın."
+
+ councillor_personal_steward_stewardship.2002.d:0 "Bu haraçı seve seve kabul edeceğim!"
+
+ councillor_personal_steward_stewardship.2003.t:0 "Özel Kâhya: Ticaret Fırsatı"
+
+ councillor_personal_steward_stewardship.2003.desc:0 "[councillor.GetTitledFirstName], [councillor.GetHerHis] kollarında üç parşömen tomarıyla yanıma yaklaşır.\n\n"[ROOT.Char.GetLadyLord]'im, komşu hükümdarlar için ticaret önerileri hazırladım. Eminim iki tarafa da yarar sağlayacak bir anlaşma kurulabilir!""
+
+ councillor_personal_steward_stewardship.2003.a:0 "[ruler_1.GetTitledFirstNameNoTooltip] makul görünüyor."
+
+ councillor_personal_steward_stewardship.2003.b:0 "[ruler_2.GetTitledFirstNameNoTooltip] ile bir anlaşmaya gir."
+
+ councillor_personal_steward_stewardship.2003.c:0 "[ruler_3.GetTitledFirstNameNoTooltip] ile bir anlaşma yap."
+
+ councillor_personal_steward_stewardship.2003.d_greedy:0 "Hiçbiri altınımın yakınından bile geçemez!"
+
+ councillor_personal_steward_stewardship.2003.d_arrogant:0 "Hiçbiri #EMP benimle#! anlaşma yapmaya layık değil!!"
+
+ councillor_personal_steward_stewardship.2003.d:0 "Hiçbiri yeterince cazip bir fırsat sunmuyor..."
+
+ councillor_personal_steward_stewardship.2004.t:0 "Özel Kâhya: Yardım Eli"
+
+ councillor_personal_steward_stewardship.2004.desc:0 ""Senin [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('on_my_hook'))] [on_my_hook.GetTitledFirstName], geçenlerde kendini bir parça zor durumda buldu."\n\n[councillor.GetTitledFirstName] [councillor.Custom('quirk_pos_adverb')] gülümseyerek sözlerini sürdürür: "Durumun kendiliğinden çözülmesini ve hayırsever olarak sizden söz edilmesini sağladım.""
+
+ councillor_personal_steward_stewardship.2004.a:0 "Üstün iş!"
+
+ councillor_personal_steward_stewardship.2004.b:0 "İyi bir iş karşılık beklemez."
+
+ councillor_personal_steward_stewardship.2005.t:0 "Özel Kâhya: [county_to_boost.GetNameNoTierNoTooltip] Yatırımları"
+
+ councillor_personal_steward_stewardship.2005.desc:0 ""[ROOT.Char.GetLadyLord|U]'im. Dikkatimi çekti ki [county_to_boost.GetName]'e yatırım yapmak için ender bir fırsat var."\n\nBenim [councillor.Custom('GetCouncilOrCourtPosition')] [councillor.GetFirstName] iş yatırımının ayrıntılarını hazırlar ve anlaşma başarılı olursa gerçekten [county_to_boost.GetNameNoTierNoTooltip]'e büyük yarar sağlayacak gibi görünüyor."
+
+ councillor_personal_steward_stewardship.2005.a:0 "Göze alınmaya değer bir risk!"
+
+ councillor_personal_steward_stewardship.2005.a_1:0 "Anlaşma [county_to_boost.GetNameNoTierNoTooltip] için büyük bir kazanç sağlıyor"
+
+ councillor_personal_steward_stewardship.2005.a_2:0 "Anlaşma suya düşüyor"
+
+ councillor_personal_steward_stewardship.2005.b:0 "Fırsatı [county_to_boost.GetNameNoTierNoTooltip] halkına bırak."
+
+ councillor_personal_steward_stewardship.2005.c:0 "Bu yerel mesele konuşmaları bana göre değil!"
