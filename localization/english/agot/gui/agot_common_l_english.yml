@@ -1,4 +1,8 @@
 ﻿l_english:
+### TODO NOT-IN-ST: activity_MISSING [AGOT: #true_white #underline Whereabouts Unknown#!]
+ activity_MISSING:0 "#true_white #underline Whereabouts Unknown#!"
+### TODO NOT-IN-ST: activity_PROPER [AGOT: Attending [ACTIVITY.GetName|V] in [PROVINCE.GetName|V]]
+ activity_PROPER:0 "Attending [ACTIVITY.GetName|V] in [PROVINCE.GetName|V]"
 ### TODO NOT-IN-ST: CHARACTER_IN_LOCATION_MISSING [AGOT: #underline This Character's Location Can Not Be Determined.#!]
  CHARACTER_IN_LOCATION_MISSING:0 "#underline This Character's Location Can Not Be Determined.#!"
 ### TODO NOT-IN-ST: CHARACTER_IN_LOCATION_PROPER [AGOT: #underline Located in [Character.GetCurrentLocation.GetName|V]#!]
@@ -41,8 +45,16 @@
  DRAGON_DESIGNER_EXPORT_VALUES:0 "#T Copy event contents#!\nWill copy the contents of the event text to your clipboard.\n\nThe event text will contain a scripted effect that is ready for you to put inside an #high import_dragon_dna.txt#! file.\n\n@warning_icon! #X Please use the#! #T Regenerate event contents#! #X button (the refresh button to the left of this one) to regenerate the event text and get the most recent values from the customizer#!"
 ### TODO NOT-IN-ST: DRAGON_DESIGNER_IMPORT_VALUES [AGOT: #T Import DNA from a file#!\nBe sure of the following before using this button:\n$BULLET_WITH_TAB$This folder is created: #high %USERPROFILE%/Documents/Paradox Interactive/Crusader Kings III/run#! — create the folder if it doesn't exist.\n$BULLET_WITH_TAB$There is a file named #high import_dragon_dna.txt#! inside the #high run#! folder.\n$BULLET_WITH_TAB$There is an #high import_dragon_dna = {}#! effect inside the #high import_dragon_dna.txt#! file.\n\n@warning_icon! #X Please note this will fire every effect in the file, ensure you only have what you want to run inside of it#!]
  DRAGON_DESIGNER_IMPORT_VALUES:0 "#T Import DNA from a file#!\nBe sure of the following before using this button:\n$BULLET_WITH_TAB$This folder is created: #high %USERPROFILE%/Documents/Paradox Interactive/Crusader Kings III/run#! — create the folder if it doesn't exist.\n$BULLET_WITH_TAB$There is a file named #high import_dragon_dna.txt#! inside the #high run#! folder.\n$BULLET_WITH_TAB$There is an #high import_dragon_dna = {}#! effect inside the #high import_dragon_dna.txt#! file.\n\n@warning_icon! #X Please note this will fire every effect in the file, ensure you only have what you want to run inside of it#!"
+### TODO NOT-IN-ST: agot_character_performing_councillor_task [AGOT: while performing a task]
+ agot_character_performing_councillor_task: "while performing a task"
+### TODO NOT-IN-ST: agot_character_traveling [AGOT: while traveling]
+ agot_character_traveling: "while traveling"
+### TODO NOT-IN-ST: cant_be_kingsguard [AGOT: #X Can't be a member of the Kingsguard]
+ cant_be_kingsguard:0 "#X Can't be a member of the Kingsguard"
 ### TODO NOT-IN-ST: cant_be_nw [AGOT: #X Can't be a member of the Night's Watch]
  cant_be_nw:0 "#X Can't be a member of the Night's Watch"
+### TODO NOT-IN-ST: cant_be_silent_sis [AGOT: #X Can't be a member of the Silent Sisters]
+ cant_be_silent_sis:0 "#X Can't be a member of the Silent Sisters"
 ### TODO NOT-IN-ST: COURT_POSITION_NAME_DISPLAY [AGOT: [AGOTGetLongUINameNoTooltip(CourtPosition.GetEmployee)|V]]
  COURT_POSITION_NAME_DISPLAY:0 "[AGOTGetLongUINameNoTooltip(CourtPosition.GetEmployee)|V]"
 ### TODO NOT-IN-ST: ACCLAIMED_KNIGHT_NAME_DISPLAY [AGOT: [AGOTGetLongUINameNoTooltip(Accolade.GetAcclaimedKnight)|V]]

@@ -110,6 +110,7 @@
  SUBJECT_CONTRACT_OBLIGATION_LEVEL_PRESTIGE_EFFECT_TOOLTIP_CURRENT: "$game_concept_prestige$: $PRESTIGE|%1V$"
  SUBJECT_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT: "#weak Mevcut Yükümlülük Seviyesi#!"
  SUBJECT_CONTRACT_LIEGE_IS_NOT_RIGHTFUL_LIEGE_NOTICE: "[SubjectContract.GetLiege.GetNameOrMe|U] [SelectLocalization( SubjectContract.GetSubject.IsPlayer, 'sizin', 'bu tebaanın' )] [Concept( 'rightful_liege', 'Meşru Süzereni' )|E][Select_CString( SubjectContract.GetSubject.IsLocalPlayer, 'niz', '' )] değil[Select_CString( SubjectContract.GetLiege.IsLocalPlayer, 'siniz', '' )]"
+ subject_contract_obligation_cannot_change_tt: "Bu Yükümlülük Seviyesinin şartlarını yerine getirmiyorsunuz:"
  SUBJECT_CONTRIBUTION_NON_RIGHTFUL_LIEGE: "[rightful_liege|E] Değil"
  SUBJECT_CONTRIBUTION_AT_WAR_WITH_LIEGE: "[Concept( 'liege', 'Süzereni' )|E] ile [Concept( 'war', 'Savaşta' )|E]"
  SUBJECT_CONTRACT_OBLIGATIONS_TITLE_PRESTIGE: "Prestij Seviyesi"
@@ -269,6 +270,11 @@
  MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_HEADER: "[kurultai|E] [obedient|E] değilse, [realm|E] mevcut [ruler|E] [Concept('character_death_dies', 'öldüğünde')|E] rastgele bir Sonuçla karşılaşır. [Concept('kurultai_members', 'Kurultay Üyelerinizin')|E] ne kadar fazlası itaatsizse, bu Sonuç o kadar vahim olacaktır:\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 1+#! itaatsiz: Ufak problemler — [herd|E] kayıpları, firar eden [courtiers|E], kaybedilen [prestige_levels|E], serbest kalan [tributaries|E].#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold 2+#! itaatsiz: Azımsanmayacak düzensizlik — kapsamlı [herd|E] kayıpları, toprak kaybı, [gold|E] kaybı, [legitimacy|E] düşüşü.#!\n\n#indent_newline:6 $BULLET_WITH_TAB$#bold Yarısı veya daha fazlası#! itaatsiz: Büyük kargaşa — devasa [herd|E] kaybı, [Concept('realm', 'Ülkenin')|E] ikiye bölünmesi veya tamamen dağılması.#!"
  MY_REALM_WINDOW_KURULTAI_STABLE_TOOLTIP_FOOTER: "#weak Hükümdarlığım ben bu diyarı terk ettikten sonra da hatırlanmaya devam edecek, vârisim benim güvenime sahip ve mirasımı layıkıyla onurlandıracağından şüphem yok.#!"
  MY_REALM_WINDOW_KURULTAI_CHAOTIC_TOOLTIP_FOOTER: "#weak Ülkemizin geleceği belirsizliklerle dolu, ona kimin liderlik etmesi gerektiği konusunda herkes farklı düşüncelere sahip. Ne kadar uğraşsam da biliyorum ki öldüğüm anda sözlerim bozkırı aşan rüzgâr gibi savrulup gidecek.#!"
+ chaotic_succession_havsarsan_zud: "[root_scope.GetCapitalLocation.GetName] #V $situation_steppe_havsarsan_zud_season$#! Mevsiminde"
+ chaotic_succession_disobedient_kurultai: "$chaotic_succession_disobedient_kurultai_none$ #weak ([root_scope.MakeScope.ScriptValue('mpo_current_disobedient_kurultai_value')|V0])#!"
+ chaotic_succession_disobedient_kurultai_none: "İtaatsiz [Concept('kurultais', 'Kurultay Üyeleri')|E]"
+ is_kurultai_succession_chaotic_empty_kurultai: "$is_kurultai_succession_chaotic_empty_kurultai_none$ #weak ([root_scope.MakeScope.ScriptValue('mpo_missing_kurultai_value')|V0])#!"
+ is_kurultai_succession_chaotic_empty_kurultai_none: "[Concept('kurultai', 'Kurultayınızda')|E] boş pozisyonlar bulunuyor"
 ### TODO AGOT-CHANGED: MY_REALM_WINDOW_SUZERAIN_NAME [AGOT: [suzerain|E] : [Character.GetShortUIName] | TR: [suzerain|E] : [Character.GetSuzerain.GetShortUIName]]
  MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetShortUIName]"
 ### TODO AGOT-CHANGED: MY_REALM_WINDOW_LIEGE_NAME [AGOT: [liege|E] : [Character.GetShortUIName] | TR: [liege|E] : [Character.GetLiege.GetShortUIName]]

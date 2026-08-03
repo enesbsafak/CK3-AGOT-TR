@@ -3,11 +3,117 @@
  COLONIZE:0 "Colonize"
 ### TODO NOT-IN-ST: COLONIZATION_ACTIONS [AGOT: Colonization]
  COLONIZATION_ACTIONS:0 "Colonization"
+### TODO NOT-IN-ST: colonize_land [AGOT: Colonize]
+ colonize_land:0 "Colonize"
+### TODO NOT-IN-ST: colonize_land_cost_desc [AGOT: You spend [gold_i]#high [GetPlayer.MakeScope.ScriptValue('colonize_cost_val')]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('colonize_cost_val')]]
+ colonize_land_cost_desc:0 "You spend [gold_i]#high [GetPlayer.MakeScope.ScriptValue('colonize_cost_val')]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('colonize_cost_val')]"
+### TODO NOT-IN-ST: colonize_land_holding_desc [AGOT: You gain a [settlement_holding|E] in [wilderness.GetCounty.GetName]]
+ colonize_land_holding_desc:0 "You gain a [settlement_holding|E] in [wilderness.GetCounty.GetName]"
+### TODO NOT-IN-ST: colonize_land_holding_pirates_desc [AGOT: You gain a [pirate_den_holding|E] in [wilderness.GetCounty.GetName]]
+ colonize_land_holding_pirates_desc:0 "You gain a [pirate_den_holding|E] in [wilderness.GetCounty.GetName]"
+### TODO NOT-IN-ST: colonize_border_county_trigger_tooltip [AGOT: You must border the [wilderness|E] [county|E] by land or sea.]
+ colonize_border_county_trigger_tooltip:0 "You must border the [wilderness|E] [county|E] by land or sea."
+### TODO NOT-IN-ST: colonize_btw [AGOT: You must border the [wilderness|E] [county|E] by land.]
+ colonize_btw:0 "You must border the [wilderness|E] [county|E] by land."
+### TODO NOT-IN-ST: pirates_must_use_decision_to_colonize [AGOT: Landless Pirates must use the [GetDecisionWithKey('settle_wilderness_county_or_duchy_decision').GetName] [decision|E] to colonize.]
+ pirates_must_use_decision_to_colonize:0 "Landless Pirates must use the [GetDecisionWithKey('settle_wilderness_county_or_duchy_decision').GetName] [decision|E] to colonize."
+### TODO NOT-IN-ST: no_settlement_or_wilderness_counties [AGOT: No holdings in [region_title.GetNameNoTier] are [wilderness_holding|E] or [settlement_holding|E]]
+ no_settlement_or_wilderness_counties:0 "No holdings in [region_title.GetNameNoTier] are [wilderness_holding|E] or [settlement_holding|E]"
+### TODO NOT-IN-ST: colonization_cost_over_water [AGOT: Cost from settling an island]
+ colonization_cost_over_water:0 "Cost from settling an island"
+### TODO NOT-IN-ST: colonization_cost_count_tier [AGOT: [count|E]]
+ colonization_cost_count_tier:0 "[count|E]"
+### TODO NOT-IN-ST: colonization_cost_duke_tier [AGOT: [duke|E]]
+ colonization_cost_duke_tier:0 "[duke|E]"
+### TODO NOT-IN-ST: colonization_cost_king_tier [AGOT: [king|E]]
+ colonization_cost_king_tier:0 "[king|E]"
+### TODO NOT-IN-ST: colonization_cost_emperor_tier [AGOT: [emperor|E]]
+ colonization_cost_emperor_tier:0 "[emperor|E]"
+### TODO NOT-IN-ST: colonization_cost_lord_tier_over_hold_limit [AGOT: Number of [settlement_holdings|E] exceeds what you can comfortably hold]
+ colonization_cost_lord_tier_over_hold_limit:0 "Number of [settlement_holdings|E] exceeds what you can comfortably hold"
+### TODO NOT-IN-ST: colonization_cost_blockers [AGOT: Number of [blockers|E]]
+ colonization_cost_blockers:0 "Number of [blockers|E]"
+### TODO NOT-IN-ST: colonization_cooldown [AGOT: You cannot colonize another county until #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'colonization_cooldown') )]#!.]
+ colonization_cooldown:0 "You cannot colonize another county until #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'colonization_cooldown') )]#!."
+### TODO NOT-IN-ST: colonization_started_title [AGOT: Colonization Started!]
+ colonization_started_title:0 "Colonization Started!"
+### TODO NOT-IN-ST: feudalize_into_castle_holding_interaction [AGOT: Feudalize into a Castle]
+ feudalize_into_castle_holding_interaction:0 "Feudalize into a Castle"
+### TODO NOT-IN-ST: feudalize_into_castle_holding_interaction_desc [AGOT: Destroy all [buildings|E] in this [holding|E] and convert it into a [castle|E].]
+ feudalize_into_castle_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and convert it into a [castle|E]."
+### TODO NOT-IN-ST: feudalize_into_castle_holding_interaction_notification [AGOT: Converted [barony|E] into a Castle [holding|E]]
+ feudalize_into_castle_holding_interaction_notification:0 "Converted [barony|E] into a Castle [holding|E]"
+### TODO NOT-IN-ST: feudalize_into_city_holding_interaction [AGOT: Feudalize into a City]
+ feudalize_into_city_holding_interaction:0 "Feudalize into a City"
+### TODO NOT-IN-ST: feudalize_into_city_holding_interaction_desc [AGOT: Destroy all [buildings|E] in this [holding|E] and convert it into a [city|E].]
+ feudalize_into_city_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and convert it into a [city|E]."
+### TODO NOT-IN-ST: feudalize_into_city_holding_interaction_notification [AGOT: Converted [barony|E] into a [city|E] [holding|E]]
+ feudalize_into_city_holding_interaction_notification:0 "Converted [barony|E] into a [city|E] [holding|E]"
+### TODO NOT-IN-ST: feudalize_into_temple_holding_interaction [AGOT: Feudalize into a Temple]
+ feudalize_into_temple_holding_interaction:0 "Feudalize into a Temple"
+### TODO NOT-IN-ST: feudalize_into_temple_holding_interaction_desc [AGOT: Destroy all [buildings|E] in this [holding|E] and convert it into a [temple|E].]
+ feudalize_into_temple_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and convert it into a [temple|E]."
+### TODO NOT-IN-ST: feudalize_into_temple_holding_interaction_notification [AGOT: Converted [barony|E] into a [temple|E] [holding|E]]
+ feudalize_into_temple_holding_interaction_notification:0 "Converted [barony|E] into a [temple|E] [holding|E]"
+### TODO NOT-IN-ST: return_settlement_county_to_wilderness [AGOT: Abandon this [settlement_holding|E]]
+ return_settlement_county_to_wilderness:0 "Abandon this [settlement_holding|E]"
+### TODO NOT-IN-ST: return_settlement_county_to_wilderness_desc_one_province [AGOT: Return this [holding|E] to [wilderness_holding|E], destroying all [buildings|E].]
+ return_settlement_county_to_wilderness_desc_one_province:0 "Return this [holding|E] to [wilderness_holding|E], destroying all [buildings|E]."
+### TODO NOT-IN-ST: return_settlement_county_to_wilderness_desc [AGOT: Return this [county|E] to [wilderness_holding|E], destroying all [buildings|E] and additional baronies.]
+ return_settlement_county_to_wilderness_desc:0 "Return this [county|E] to [wilderness_holding|E], destroying all [buildings|E] and additional baronies."
+### TODO NOT-IN-ST: return_settlement_county_to_wilderness_notification [AGOT: Abandoned [settlement_holding|E]]
+ return_settlement_county_to_wilderness_notification:0 "Abandoned [settlement_holding|E]"
+### TODO NOT-IN-ST: return_settlement_to_wilderness_cannot_be_your_primary_title [AGOT: Cannot be your [primary_title|E]]
+ return_settlement_to_wilderness_cannot_be_your_primary_title: "Cannot be your [primary_title|E]"
+### TODO NOT-IN-ST: tribalize_settlement_holding_interaction [AGOT: Settle Tribe]
+ tribalize_settlement_holding_interaction:0 "Settle Tribe"
+### TODO NOT-IN-ST: tribalize_settlement_holding_interaction_desc [AGOT: Destroy all [buildings|E] in this [holding|E] and settle it as a [tribe|E].]
+ tribalize_settlement_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and settle it as a [tribe|E]."
+### TODO NOT-IN-ST: tribalize_settlement_holding_interaction_notification [AGOT: Converted [barony|E] into a [tribal_holding|E]]
+ tribalize_settlement_holding_interaction_notification:0 "Converted [barony|E] into a [tribal_holding|E]"
+### TODO NOT-IN-ST: colonize_pirate_den_interaction [AGOT: Colonize]
+ colonize_pirate_den_interaction:0 "Colonize"
+### TODO NOT-IN-ST: colonize_pirate_den_interaction_desc [AGOT: Destroy all [buildings|E] in all [holdings|E] in this county and convert them into [settlement_holdings|E].]
+ colonize_pirate_den_interaction_desc:0 "Destroy all [buildings|E] in all [holdings|E] in this county and convert them into [settlement_holdings|E]."
+### TODO NOT-IN-ST: colonize_pirate_den_interaction_desc_one_province [AGOT: Destroy all [buildings|E] in this barony and convert it into a [settlement_holding|E].]
+ colonize_pirate_den_interaction_desc_one_province:0 "Destroy all [buildings|E] in this barony and convert it into a [settlement_holding|E]."
+### TODO NOT-IN-ST: colonize_pirate_den_interaction_notification [AGOT: Holding Colonized]
+ colonize_pirate_den_interaction_notification:0 "Holding Colonized"
+### TODO NOT-IN-ST: support_colonize_pirate_den_interaction [AGOT: Aid Colonization]
+ support_colonize_pirate_den_interaction:0 "Aid Colonization"
+### TODO NOT-IN-ST: support_colonize_pirate_den_interaction_desc [AGOT: Aid [recipient.GetShortUIName] develop [recipient.GetHerHis] land and turn one of [recipient.GetHerHis] [pirate_den|E] [holdings|E] into a [settlement_holding|E]]
+ support_colonize_pirate_den_interaction_desc:0 "Aid [recipient.GetShortUIName] develop [recipient.GetHerHis] land and turn one of [recipient.GetHerHis] [pirate_den|E] [holdings|E] into a [settlement_holding|E]"
+### TODO NOT-IN-ST: pirate_takeover_of_holding_interaction [AGOT: Establish Pirate Den]
+ pirate_takeover_of_holding_interaction:0 "Establish Pirate Den"
+### TODO NOT-IN-ST: pirate_takeover_of_holding_interaction_desc [AGOT: Destroy all [buildings|E] in this [holding|E] and convert it into a [pirate_den_holding|E].]
+ pirate_takeover_of_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and convert it into a [pirate_den_holding|E]."
 ### TODO NOT-IN-ST: county_dev_must_be_below_or_equal_to_15 [AGOT: The county of this holding must have a [development|E] level less than or equal to 15]
  county_dev_must_be_below_or_equal_to_15:0 "The county of this holding must have a [development|E] level less than or equal to 15"
 ### TODO NOT-IN-ST: county_must_be_coastal [AGOT: The county of this holding must be coastal]
  county_must_be_coastal:0 "The county of this holding must be coastal"
+### TODO NOT-IN-ST: destroy_holding_interaction [AGOT: Destroy Holding]
+ destroy_holding_interaction:0 "Destroy Holding"
+### TODO NOT-IN-ST: destroy_holding_interaction_desc [AGOT: Destroy this [holding|E].]
+ destroy_holding_interaction_desc:0 "Destroy this [holding|E]."
+### TODO NOT-IN-ST: destroy_holding_interaction_notification [AGOT: Destroyed [barony|E].]
+ destroy_holding_interaction_notification:0 "Destroyed [barony|E]."
+### TODO NOT-IN-ST: tribalize_settlement_holding_interaction_title_not_county_or_below [AGOT: [title|E] is not a [barony|E]]
+ tribalize_settlement_holding_interaction_title_not_county_or_below:0 "[title|E] is not a [barony|E]"
+### TODO NOT-IN-ST: blockers_remain_in_settlement [AGOT: [colonization_blockers|E] still remain in this [settlement_holding|E]]
+ blockers_remain_in_settlement:0 "[colonization_blockers|E] still remain in this [settlement_holding|E]"
+### TODO NOT-IN-ST: one_or_fewer_blockers_remain_in_settlement [AGOT: More than one [colonization_blocker|E] remains in this [settlement_holding|E]]
+ one_or_fewer_blockers_remain_in_settlement:0 "More than one [colonization_blocker|E] remains in this [settlement_holding|E]"
+### TODO NOT-IN-ST: two_or_fewer_blockers_remain_in_settlement [AGOT: More than two [colonization_blockers|E] remain in this [settlement_holding|E]]
+ two_or_fewer_blockers_remain_in_settlement:0 "More than two [colonization_blockers|E] remain in this [settlement_holding|E]"
 ### TODO NOT-IN-ST: less_than_three_development [AGOT: This [county|E] has less than 3 [development|E]]
  less_than_three_development:0 "This [county|E] has less than 3 [development|E]"
+### TODO NOT-IN-ST: has_fully_upgraded_settlement_holding [AGOT: The [settlement_holding|E] [building|E] is not fully upgraded]
+ has_fully_upgraded_settlement_holding:0 "The [settlement_holding|E] [building|E] is not fully upgraded"
 ### TODO NOT-IN-ST: NOT_MUST_NOT_HAVE_BLOCKERS_TRIGGER [AGOT: Province contains one or more [colonization_blockers|E]]
  NOT_MUST_NOT_HAVE_BLOCKERS_TRIGGER:0 "Province contains one or more [colonization_blockers|E]"
+### TODO NOT-IN-ST: capital_province_is_settlement [AGOT: [county_capital|E] is a [settlement|E]]
+ capital_province_is_settlement:0 "[county_capital|E] is a [settlement|E]"
+### TODO NOT-IN-ST: settlement_holding_limit [AGOT: #size:18 #bold [ongoing_colonies|E]: [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')] [holdings|E]#!#!\nSettlement: [Character.MakeScope.Var('num_settled_wilderness').GetValue]\n\n#size:16 #italic [settlement_holding_limit|E]: #high [Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!#!#!\nPrimary Title [title_tier|E]: #P +[Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!]
+ settlement_holding_limit:0 "#size:18 #bold [ongoing_colonies|E]: [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')] [holdings|E]#!#!\nSettlement: [Character.MakeScope.Var('num_settled_wilderness').GetValue]\n\n#size:16 #italic [settlement_holding_limit|E]: #high [Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!#!#!\nPrimary Title [title_tier|E]: #P +[Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!"
+### TODO NOT-IN-ST: agot_return_to_wilderness.tt [AGOT: [new_wilderness_county.GetName] returns to wilderness]
+ agot_return_to_wilderness.tt:0 "[new_wilderness_county.GetName] returns to wilderness"

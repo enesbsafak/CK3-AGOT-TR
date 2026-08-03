@@ -9,6 +9,12 @@
  AGOT_CANNOT_BANISH_PEER_FAMILY:0 "[recipient.GetSheHe|U] belongs to a powerful family: $VALUE|=+0$"
 ### TODO NOT-IN-ST: AGOT_CANNOT_BANISH_OUTSIDER [AGOT: [recipient.GetSheHe|U] is an outsider: $VALUE|=+0$]
  AGOT_CANNOT_BANISH_OUTSIDER:0 "[recipient.GetSheHe|U] is an outsider: $VALUE|=+0$"
+### TODO NOT-IN-ST: character_to_knight_exists [AGOT: No possible knight exists in [CHARACTER.GetShortUINamePossessiveNoTooltip] court]
+ character_to_knight_exists:1 "No possible knight exists in [CHARACTER.GetShortUINamePossessiveNoTooltip] court"
+### TODO NOT-IN-ST: character_to_knight_exists_first [AGOT: No possible knight exists in your court]
+ character_to_knight_exists_first:1 "No possible knight exists in your court"
+### TODO NOT-IN-ST: character_to_squire_exists [AGOT: No one in [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [court|E] can become a [squire|E]]
+ character_to_squire_exists:0 "No one in [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [court|E] can become a [squire|E]"
 ### TODO NOT-IN-ST: CONVINCING_PERK [AGOT: Is convincing: $VALUE|=+0$]
  CONVINCING_PERK:1 "Is convincing: $VALUE|=+0$"
 ### TODO NOT-IN-ST: CHARISMATIC_PERK [AGOT: Is charismatic: $VALUE|=+0$]
@@ -73,7 +79,15 @@
  AGOT_HOUSE_ALREADY_HAS_ROYAL_MAR:0 "Your [house|e] already has a royal marriage: $VALUE|=+0$"
 ### TODO NOT-IN-ST: AGOT_DIVIDED_DYNASTY_MARRIAGE_REASON [AGOT: Your [houses|e] are severed by [GetModifier('divided_dynasty_house_modifier').GetNameWithTooltip]: $VALUE|=+0$]
  AGOT_DIVIDED_DYNASTY_MARRIAGE_REASON:0 "Your [houses|e] are severed by [GetModifier('divided_dynasty_house_modifier').GetNameWithTooltip]: $VALUE|=+0$"
+### TODO NOT-IN-ST: agot_grant_title_blocked [AGOT: You cannot give away this [title|E]]
+ agot_grant_title_blocked:0 "You cannot give away this [title|E]"
 ### TODO NOT-IN-ST: AGOT_IS_DWARF [AGOT: [secondary_actor.GetFirstName] is a dwarf: $VALUE|=+0$]
  AGOT_IS_DWARF:0 "[secondary_actor.GetFirstName] is a dwarf: $VALUE|=+0$"
 ### TODO NOT-IN-ST: AGOT_PIRATE_MARRYING_OUTSIDE_GOVT [AGOT: [secondary_actor.GetFirstName] is a [pirate_govt|E]: $VALUE|=+0$]
  AGOT_PIRATE_MARRYING_OUTSIDE_GOVT:0 "[secondary_actor.GetFirstName] is a [pirate_govt|E]: $VALUE|=+0$"
+### TODO NOT-IN-ST: grant_only_one_settlement_at_a_time [AGOT: #N #italic Can only grant one [settlement_holding|E] at a time#!#!\n]
+ grant_only_one_settlement_at_a_time:0 "#N #italic Can only grant one [settlement_holding|E] at a time#!#!\n"
+### TODO NOT-IN-ST: recipient_at_settlement_limit [AGOT: #N #italic [recipient.GetShortUINameNotMe] is at their [settlement_holding_limit|E]#!#!\n]
+ recipient_at_settlement_limit:0 "#N #italic [recipient.GetShortUINameNotMe] is at their [settlement_holding_limit|E]#!#!\n"
+### TODO NOT-IN-ST: recipient_needs_to_border_settlement_county [AGOT: #N #italic [recipient.GetShortUINameNotMe] needs to border the settlement county they are being granted#!#!\n]
+ recipient_needs_to_border_settlement_county:0 "#N #italic [recipient.GetShortUINameNotMe] needs to border the settlement county they are being granted#!#!\n"

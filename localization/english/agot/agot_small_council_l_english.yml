@@ -1,7 +1,99 @@
 ﻿l_english:
+### TODO NOT-IN-ST: small_councillor [AGOT: Small Councillor]
+ small_councillor: "Small Councillor"
+### TODO NOT-IN-ST: invite_to_small_council [AGOT: Invite to the Small Council]
+ invite_to_small_council: "Invite to the Small Council"
+### TODO NOT-IN-ST: invite_to_small_council_prompt [AGOT: I hereby request that you release your [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], to serve on my Small Council. As a temporary peer vassal, they will of course remain bound to you as an ally.]
+ invite_to_small_council_prompt: "I hereby request that you release your [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], to serve on my Small Council. As a temporary peer vassal, they will of course remain bound to you as an ally."
+### TODO NOT-IN-ST: recipient_secondary_invite_to_small_council [AGOT: Small Councillor]
+ recipient_secondary_invite_to_small_council: "Small Councillor"
+### TODO NOT-IN-ST: invite_to_small_council_accepted [AGOT: [secondary_recipient.GetShortUIName|U] will become your direct vassal in order to join your council.]
+ invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] will become your direct vassal in order to join your council."
+### TODO NOT-IN-ST: invite_to_small_council_declined [AGOT: [secondary_recipient.GetShortUIName|U] does not join your council.]
+ invite_to_small_council_declined:0 "[secondary_recipient.GetShortUIName|U] does not join your council."
+### TODO NOT-IN-ST: small_council_vassal_retained_desc [AGOT: You are already employing one of [TARGET_CHARACTER.GetShortUIName] Vassals.]
+ small_council_vassal_retained_desc:0 "You are already employing one of [TARGET_CHARACTER.GetShortUIName] Vassals."
+### TODO NOT-IN-ST: demanded_my_vassal_opinion [AGOT: Demanded My Vassal]
+ demanded_my_vassal_opinion:0 "Demanded My Vassal"
+### TODO NOT-IN-ST: refused_vassal_appointment_opinion [AGOT: Refused to relinquish Vassal]
+ refused_vassal_appointment_opinion:0 "Refused to relinquish Vassal"
 ### TODO NOT-IN-ST: SMALL_COUNCIL_ON_THE_COUNCIL [AGOT: [secondary_recipient.GetShortUIName] is my Councillor: $VALUE|=+0$]
  SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] is my Councillor: $VALUE|=+0$"
 ### TODO NOT-IN-ST: SMALL_COUNCIL_MY_KNIGHT [AGOT: [secondary_recipient.GetShortUIName] is serving as my [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$]
  SMALL_COUNCIL_MY_KNIGHT:0 "[secondary_recipient.GetShortUIName] is serving as my [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$"
 ### TODO NOT-IN-ST: SMALL_COUNCIL_THEIR_RELATIVE [AGOT: [secondary_recipient.GetShortUIName] is my Relative: $VALUE|=+0$]
  SMALL_COUNCIL_THEIR_RELATIVE:0 "[secondary_recipient.GetShortUIName] is my Relative: $VALUE|=+0$"
+### TODO NOT-IN-ST: small_councillor_custom [AGOT: [CHARACTER.Custom('small_councillor_custom')]]
+ small_councillor_custom:0 "[CHARACTER.Custom('small_councillor_custom')]"
+### TODO NOT-IN-ST: small_councillor_custom_input [AGOT: [ROOT.Char.GetLocalizedText('small_council_title')]]
+ small_councillor_custom_input:0 "[ROOT.Char.GetLocalizedText('small_council_title')]"
+### TODO NOT-IN-ST: set_relation_small_councillor [AGOT: [TARGET_CHARACTER.GetTitledFirstName|V] starts serving on your small council.]
+ set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] starts serving on your small council."
+### TODO NOT-IN-ST: small_council_vassal_repatriation [AGOT: Vassal Repatriation]
+ small_council_vassal_repatriation:0 "Vassal Repatriation"
+### TODO NOT-IN-ST: small_council_vassal_repatriation_desc [AGOT: One of this character's vassals is serving on their liege's council, but continues to send them levies and tax.]
+ small_council_vassal_repatriation_desc:0 "One of this character's vassals is serving on their liege's council, but continues to send them levies and tax."
+### TODO NOT-IN-ST: small_council_vassal_low_tax_low_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_low_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_low_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_low_tax_low_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_normal_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_low_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_normal_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_low_tax_normal_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_high_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_low_tax_high_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_high_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_low_tax_high_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_extortionate_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_low_tax_extortionate_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_low_tax_extortionate_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_low_tax_extortionate_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_low_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_normal_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_low_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_normal_tax_low_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_normal_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_normal_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_normal_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_normal_tax_normal_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_high_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_normal_tax_high_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_high_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_normal_tax_high_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_extortionate_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_normal_tax_extortionate_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_normal_tax_extortionate_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_normal_tax_extortionate_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_low_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_high_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_low_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_high_tax_low_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_normal_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_high_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_normal_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_high_tax_normal_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_high_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_high_tax_high_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_high_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_high_tax_high_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_extortionate_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_high_tax_extortionate_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_high_tax_extortionate_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_high_tax_extortionate_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_low_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_extortionate_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_low_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_extortionate_tax_low_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_normal_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_extortionate_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_normal_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_extortionate_tax_normal_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_high_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_extortionate_tax_high_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_high_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_extortionate_tax_high_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_extortionate_levies_modifier [AGOT: $small_council_vassal_repatriation$]
+ small_council_vassal_extortionate_tax_extortionate_levies_modifier:0 "$small_council_vassal_repatriation$"
+### TODO NOT-IN-ST: small_council_vassal_extortionate_tax_extortionate_levies_modifier_desc [AGOT: $small_council_vassal_repatriation_desc$]
+ small_council_vassal_extortionate_tax_extortionate_levies_modifier_desc:0 "$small_council_vassal_repatriation_desc$"

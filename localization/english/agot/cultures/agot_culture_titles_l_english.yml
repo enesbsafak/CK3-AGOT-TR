@@ -1,14 +1,32 @@
 ﻿l_english:
+### TODO NOT-IN-ST: king_feudal_male_fallback [AGOT: King]
+ king_feudal_male_fallback:0 "King"
+### TODO NOT-IN-ST: king_feudal_female_fallback [AGOT: Queen]
+ king_feudal_female_fallback:0 "Queen"
+### TODO NOT-IN-ST: kingdom_feudal_independent [AGOT: Kingdom]
+ kingdom_feudal_independent:0 "Kingdom"
+### TODO NOT-IN-ST: agot_king_flavour [AGOT: [ROOT.Char.Custom('AGOT_KING_FLAVOUR')]]
+ agot_king_flavour:0 "[ROOT.Char.Custom('AGOT_KING_FLAVOUR')]"
+### TODO NOT-IN-ST: agot_king_spouse_flavour [AGOT: [ROOT.Char.Custom('AGOT_KING_SPOUSE_FLAVOUR')]]
+ agot_king_spouse_flavour:0 "[ROOT.Char.Custom('AGOT_KING_SPOUSE_FLAVOUR')]"
 ### TODO NOT-IN-ST: agot_queen_flavour [AGOT: [ROOT.Char.Custom('AGOT_QUEEN_FLAVOUR')]]
  agot_queen_flavour:0 "[ROOT.Char.Custom('AGOT_QUEEN_FLAVOUR')]"
 ### TODO NOT-IN-ST: agot_queen_spouse_flavour [AGOT: [ROOT.Char.Custom('AGOT_QUEEN_SPOUSE_FLAVOUR')]]
  agot_queen_spouse_flavour:0 "[ROOT.Char.Custom('AGOT_QUEEN_SPOUSE_FLAVOUR')]"
 ### TODO NOT-IN-ST: hegemony_feudal [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY')]]
  hegemony_feudal:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY')]"
+### TODO NOT-IN-ST: hegemony_feudal_iron_throne [AGOT: Seven Kingdoms]
+ hegemony_feudal_iron_throne:0 "Seven Kingdoms"
 ### TODO NOT-IN-ST: hegemony_feudal_male [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY_MALE')]]
  hegemony_feudal_male:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY_MALE')]"
 ### TODO NOT-IN-ST: hegemony_feudal_female [AGOT: [CHARACTER.Custom('FEUDAL_HEGEMONY_FEMALE')]]
  hegemony_feudal_female:0 "[CHARACTER.Custom('FEUDAL_HEGEMONY_FEMALE')]"
+### TODO NOT-IN-ST: empire_feudal_principiality [AGOT: Principality]
+ empire_feudal_principiality:0 "Principality"
+### TODO NOT-IN-ST: empire_feudal_paramountcy [AGOT: Lord Paramountcy]
+ empire_feudal_paramountcy:0 "Lord Paramountcy"
+### TODO NOT-IN-ST: empire_feudal_default [AGOT: Kingdom]
+ empire_feudal_default:0 "Kingdom"
 ### TODO NOT-IN-ST: lord_paramount [AGOT: Lord Paramount]
  lord_paramount:0 "Lord Paramount"
 ### TODO NOT-IN-ST: lady_paramount [AGOT: Lady Paramount]
@@ -17,14 +35,228 @@
  lord_non_paramount:0 "Lord"
 ### TODO NOT-IN-ST: lady_non_paramount [AGOT: Lady]
  lady_non_paramount:0 "Lady"
+### TODO NOT-IN-ST: landed_knight_warden [AGOT: Warden]
+ landed_knight_warden:0 "Warden"
+### TODO NOT-IN-ST: landed_knight_master [AGOT: Master]
+ landed_knight_master:0 "Master"
+### TODO NOT-IN-ST: princess_mother [AGOT: Princess Mother]
+ princess_mother:0 "Princess Mother"
 ### TODO NOT-IN-ST: queen_mother_default [AGOT: Queen Mother]
  queen_mother_default:0 "Queen Mother"
 ### TODO NOT-IN-ST: empress_mother_default [AGOT: Empress Mother]
  empress_mother_default:0 "Empress Mother"
+### TODO NOT-IN-ST: petty_kingdom [AGOT: Petty Kingdom]
+ petty_kingdom:0 "Petty Kingdom"
+### TODO NOT-IN-ST: prince_kingdom [AGOT: [CHARACTER.Custom('PRINCE_MALE')]]
+ prince_kingdom:0 "[CHARACTER.Custom('PRINCE_MALE')]"
+### TODO NOT-IN-ST: princess_kingdom [AGOT: [CHARACTER.Custom('PRINCE_FEMALE')]]
+ princess_kingdom:0 "[CHARACTER.Custom('PRINCE_FEMALE')]"
+### TODO NOT-IN-ST: prince_hegemony_feudal_male [AGOT: Prince]
+ prince_hegemony_feudal_male:0 "Prince"
+### TODO NOT-IN-ST: prince_hegemony_feudal_female [AGOT: Princess]
+ prince_hegemony_feudal_female:0 "Princess"
+### TODO NOT-IN-ST: child_lord [AGOT: Lord]
+ child_lord:0 "Lord"
+### TODO NOT-IN-ST: child_lady [AGOT: Lady]
+ child_lady:0 "Lady"
+### TODO NOT-IN-ST: king_claimant_feudal_male [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]]
+ king_claimant_feudal_male:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]"
+### TODO NOT-IN-ST: king_claimant_feudal_female [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]]
+ king_claimant_feudal_female:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]"
+### TODO NOT-IN-ST: king_claimant_feudal_male_default [AGOT: King]
+ king_claimant_feudal_male_default:0 "King"
+### TODO NOT-IN-ST: king_claimant_feudal_female_default [AGOT: Queen]
+ king_claimant_feudal_female_default:0 "Queen"
+### TODO NOT-IN-ST: king_claimant_feudal_laamp_male [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]]
+ king_claimant_feudal_laamp_male:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_MALE')]"
+### TODO NOT-IN-ST: king_claimant_feudal_laamp_female [AGOT: [CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]]
+ king_claimant_feudal_laamp_female:0 "[CHARACTER.Custom('CLAIMANT_FEUDAL_KINGDOM_FEMALE')]"
+### TODO NOT-IN-ST: king_claimant_feudal_laamp_male_default [AGOT: King]
+ king_claimant_feudal_laamp_male_default:0 "King"
+### TODO NOT-IN-ST: king_claimant_feudal_laamp_female_default [AGOT: Queen]
+ king_claimant_feudal_laamp_female_default:0 "Queen"
+### TODO NOT-IN-ST: emperor_blackfyre_rebellion_male [AGOT: King]
+ emperor_blackfyre_rebellion_male:0 "King"
+### TODO NOT-IN-ST: emperor_blackfyre_rebellion_female [AGOT: Queen]
+ emperor_blackfyre_rebellion_female:0 "Queen"
+### TODO NOT-IN-ST: empire_blackfyre_rebellion [AGOT: Kingdom]
+ empire_blackfyre_rebellion:0 "Kingdom"
+### TODO NOT-IN-ST: landed_knight_male_knight_duchy [AGOT: Ser]
+ landed_knight_male_knight_duchy:0 "Ser"
+### TODO NOT-IN-ST: landed_knight_male_duchy [AGOT: Warden]
+ landed_knight_male_duchy:0 "Warden"
+### TODO NOT-IN-ST: landed_knight_male_knight_county [AGOT: Ser]
+ landed_knight_male_knight_county:0 "Ser"
+### TODO NOT-IN-ST: landed_knight_male_county [AGOT: Warden]
+ landed_knight_male_county:0 "Warden"
+### TODO NOT-IN-ST: landed_knight_male_barony_ser [AGOT: Ser]
+ landed_knight_male_barony_ser:0 "Ser"
+### TODO NOT-IN-ST: landed_knight_male_barony_master [AGOT: Master]
+ landed_knight_male_barony_master:0 "Master"
+### TODO NOT-IN-ST: barony_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ barony_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: barony_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ barony_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: county_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ county_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: county_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ county_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: duchy_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ duchy_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: duchy_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ duchy_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: kingdom_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ kingdom_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: kingdom_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ kingdom_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: empire_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ empire_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: empire_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ empire_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: hegemony_override_male [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ hegemony_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: hegemony_override_female [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ hegemony_override_female:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: high_septon_override [AGOT: $AGOT_FULL_TITLE_OVERRIDE$]
+ high_septon_override:0 "$AGOT_FULL_TITLE_OVERRIDE$"
+### TODO NOT-IN-ST: king_free_city_male_k_lys [AGOT: First Magister]
+ king_free_city_male_k_lys:0 "First Magister"
+### TODO NOT-IN-ST: king_free_city_female_k_lys [AGOT: First Magister]
+ king_free_city_female_k_lys:0 "First Magister"
+### TODO NOT-IN-ST: king_free_city_male_k_tyrosh [AGOT: Archon]
+ king_free_city_male_k_tyrosh:0 "Archon"
+### TODO NOT-IN-ST: king_free_city_female_k_tyrosh [AGOT: Archon]
+ king_free_city_female_k_tyrosh:0 "Archon"
+### TODO NOT-IN-ST: king_free_city_male_k_myr [AGOT: Eliate]
+ king_free_city_male_k_myr:0 "Eliate"
+### TODO NOT-IN-ST: king_free_city_female_k_myr [AGOT: Eliate]
+ king_free_city_female_k_myr:0 "Eliate"
+### TODO NOT-IN-ST: king_free_city_male_bob [AGOT: Bob]
+ king_free_city_male_bob:0 "Bob"
+### TODO NOT-IN-ST: king_free_city_female_bob [AGOT: Bob]
+ king_free_city_female_bob:0 "Bob"
+### TODO NOT-IN-ST: king_free_city_male_k_pentos [AGOT: Prince]
+ king_free_city_male_k_pentos:0 "Prince"
+### TODO NOT-IN-ST: king_free_city_female_k_pentos [AGOT: Princess]
+ king_free_city_female_k_pentos:0 "Princess"
+### TODO NOT-IN-ST: baron_free_city_male [AGOT: Magister]
+ baron_free_city_male:0 "Magister"
+### TODO NOT-IN-ST: baron_free_city_female [AGOT: Magister]
+ baron_free_city_female:0 "Magister"
+### TODO NOT-IN-ST: barony_free_city [AGOT: Borough]
+ barony_free_city:0 "Borough"
+### TODO NOT-IN-ST: count_free_city_male [AGOT: Magister]
+ count_free_city_male:0 "Magister"
+### TODO NOT-IN-ST: count_free_city_female [AGOT: Magister]
+ count_free_city_female:0 "Magister"
+### TODO NOT-IN-ST: county_free_city [AGOT: Town]
+ county_free_city:0 "Town"
+### TODO NOT-IN-ST: duke_free_city_male [AGOT: Magister]
+ duke_free_city_male:0 "Magister"
+### TODO NOT-IN-ST: duke_free_city_female [AGOT: Magister]
+ duke_free_city_female:0 "Magister"
+### TODO NOT-IN-ST: duchy_free_city [AGOT: City]
+ duchy_free_city:0 "City"
+### TODO NOT-IN-ST: duke_free_city_independent_male [AGOT: First Magister]
+ duke_free_city_independent_male:0 "First Magister"
+### TODO NOT-IN-ST: duke_free_city_independent_female [AGOT: First Magister]
+ duke_free_city_independent_female:0 "First Magister"
+### TODO NOT-IN-ST: duchy_free_city_independent [AGOT: City]
+ duchy_free_city_independent:0 "City"
+### TODO NOT-IN-ST: king_free_city_male [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]]
+ king_free_city_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
+### TODO NOT-IN-ST: king_free_city_female [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]]
+ king_free_city_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
+### TODO NOT-IN-ST: king_free_city_male_fallback [AGOT: Magister]
+ king_free_city_male_fallback:0 "Magister"
+### TODO NOT-IN-ST: king_free_city_female_fallback [AGOT: Magister]
+ king_free_city_female_fallback:0 "Magister"
+### TODO NOT-IN-ST: kingdom_free_city [AGOT: Kingdom]
+ kingdom_free_city:0 "Kingdom"
+### TODO NOT-IN-ST: king_free_city_male_spouse [AGOT: Lord]
+ king_free_city_male_spouse:0 "Lord"
+### TODO NOT-IN-ST: king_free_city_female_spouse [AGOT: Lady]
+ king_free_city_female_spouse:0 "Lady"
+### TODO NOT-IN-ST: king_free_city_independent_male [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]]
+ king_free_city_independent_male:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_MALE')]"
+### TODO NOT-IN-ST: king_free_city_independent_female [AGOT: [CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]]
+ king_free_city_independent_female:0 "[CHARACTER.Custom('KINGDOM_FREE_CITIES_FEMALE')]"
+### TODO NOT-IN-ST: king_free_city_independent_male_fallback [AGOT: First Magister]
+ king_free_city_independent_male_fallback:0 "First Magister"
+### TODO NOT-IN-ST: king_free_city_independent_female_fallback [AGOT: First Magister]
+ king_free_city_independent_female_fallback:0 "First Magister"
+### TODO NOT-IN-ST: king_free_city_male_k_braavos [AGOT: Sealord]
+ king_free_city_male_k_braavos:0 "Sealord"
+### TODO NOT-IN-ST: king_free_city_female_k_braavos [AGOT: Sealady]
+ king_free_city_female_k_braavos:0 "Sealady"
+### TODO NOT-IN-ST: kingdom_free_city_independent [AGOT: Free City]
+ kingdom_free_city_independent:0 "Free City"
+### TODO NOT-IN-ST: emperor_free_city_male_spouse [AGOT: Lord]
+ emperor_free_city_male_spouse:0 "Lord"
+### TODO NOT-IN-ST: emperor_free_city_female_spouse [AGOT: Lady]
+ emperor_free_city_female_spouse:0 "Lady"
+### TODO NOT-IN-ST: emperor_free_city_male [AGOT: [CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]]
+ emperor_free_city_male:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_MALE')]"
+### TODO NOT-IN-ST: emperor_free_city_female [AGOT: [CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]]
+ emperor_free_city_female:0 "[CHARACTER.Custom('EMPIRE_FREE_CITIES_FEMALE')]"
+### TODO NOT-IN-ST: emperor_free_city_male_fallback [AGOT: First Magister]
+ emperor_free_city_male_fallback:0 "First Magister"
+### TODO NOT-IN-ST: emperor_free_city_female_fallback [AGOT: First Magister]
+ emperor_free_city_female_fallback:0 "First Magister"
+### TODO NOT-IN-ST: spouse_estate_holder_free_city_male [AGOT: Magister]
+ spouse_estate_holder_free_city_male:0 "Magister"
+### TODO NOT-IN-ST: spouse_estate_holder_free_city_female [AGOT: Magister]
+ spouse_estate_holder_free_city_female:0 "Magister"
+### TODO NOT-IN-ST: empire_free_city [AGOT: Free City]
+ empire_free_city:0 "Free City"
 ### TODO NOT-IN-ST: archon_tyrosh_male [AGOT: Archon]
  archon_tyrosh_male:0 "Archon"
 ### TODO NOT-IN-ST: archon_tyrosh_female [AGOT: Archon]
  archon_tyrosh_female:0 "Archon"
+### TODO NOT-IN-ST: baron_pirate_male [AGOT: Skipper]
+ baron_pirate_male:0 "Skipper"
+### TODO NOT-IN-ST: baron_pirate_female [AGOT: $baron_pirate_male$]
+ baron_pirate_female:1 "$baron_pirate_male$"
+### TODO NOT-IN-ST: barony_pirate [AGOT: Lair]
+ barony_pirate:0 "Lair"
+### TODO NOT-IN-ST: count_pirate_male [AGOT: Captain]
+ count_pirate_male:0 "Captain"
+### TODO NOT-IN-ST: count_pirate_female [AGOT: $count_pirate_male$]
+ count_pirate_female:1 "$count_pirate_male$"
+### TODO NOT-IN-ST: county_pirate [AGOT: Haven]
+ county_pirate:0 "Haven"
+### TODO NOT-IN-ST: duke_pirate_male [AGOT: Pirate Lord]
+ duke_pirate_male:0 "Pirate Lord"
+### TODO NOT-IN-ST: duke_pirate_female [AGOT: Pirate Lady]
+ duke_pirate_female:1 "Pirate Lady"
+### TODO NOT-IN-ST: duchy_pirate [AGOT: Stronghold]
+ duchy_pirate:0 "Stronghold"
+### TODO NOT-IN-ST: king_pirate_male [AGOT: [CHARACTER.Custom('KINGDOM_PIRATE_MALE')]]
+ king_pirate_male:0 "[CHARACTER.Custom('KINGDOM_PIRATE_MALE')]"
+### TODO NOT-IN-ST: king_pirate_female [AGOT: [CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]]
+ king_pirate_female:0 "[CHARACTER.Custom('KINGDOM_PIRATE_FEMALE')]"
+### TODO NOT-IN-ST: king_pirate_male_corsair [AGOT: Corsair King]
+ king_pirate_male_corsair:0 "Corsair King"
+### TODO NOT-IN-ST: king_pirate_female_corsair [AGOT: Corsair Queen]
+ king_pirate_female_corsair:0 "Corsair Queen"
+### TODO NOT-IN-ST: king_pirate_male_fallback [AGOT: Pirate King]
+ king_pirate_male_fallback:0 "Pirate King"
+### TODO NOT-IN-ST: king_pirate_female_fallback [AGOT: Pirate Queen]
+ king_pirate_female_fallback:0 "Pirate Queen"
+### TODO NOT-IN-ST: kingdom_pirate [AGOT: Pirate Kingdom]
+ kingdom_pirate:1 "Pirate Kingdom"
+### TODO NOT-IN-ST: emperor_pirate_male [AGOT: King of the Seas]
+ emperor_pirate_male:0 "King of the Seas"
+### TODO NOT-IN-ST: emperor_pirate_female [AGOT: Queen of the Seas]
+ emperor_pirate_female:0 "Queen of the Seas"
+### TODO NOT-IN-ST: empire_pirate [AGOT: Grand Pirate Kingdom]
+ empire_pirate:0 "Grand Pirate Kingdom"
+### TODO NOT-IN-ST: hegemony_pirate [AGOT: Pirate Empire]
+ hegemony_pirate:0 "Pirate Empire"
+### TODO NOT-IN-ST: prince_admiral [AGOT: Prince-Admiral]
+ prince_admiral:0 "Prince-Admiral"
+### TODO NOT-IN-ST: princess_admiral [AGOT: Princess-Admiral]
+ princess_admiral:0 "Princess-Admiral"
 ### TODO NOT-IN-ST: wolfswood_clansman_master_male_duchy [AGOT: Master]
  wolfswood_clansman_master_male_duchy:0 "Master"
 ### TODO NOT-IN-ST: wolfswood_clansman_master_female_duchy [AGOT: Mistress]
@@ -33,6 +265,16 @@
  wolfswood_clansman_master_male_county:0 "Master"
 ### TODO NOT-IN-ST: wolfswood_clansman_master_female_county [AGOT: Mistress]
  wolfswood_clansman_master_female_county:0 "Mistress"
+### TODO NOT-IN-ST: ironborn_master_male_duchy [AGOT: Master]
+ ironborn_master_male_duchy:0 "Master"
+### TODO NOT-IN-ST: ironborn_master_female_duchy [AGOT: Mistress]
+ ironborn_master_female_duchy:0 "Mistress"
+### TODO NOT-IN-ST: ironborn_master_male_county [AGOT: Master]
+ ironborn_master_male_county:0 "Master"
+### TODO NOT-IN-ST: ironborn_master_female_county [AGOT: Master]
+ ironborn_master_female_county:0 "Master"
+### TODO NOT-IN-ST: e_the_riverlands_old [AGOT: The Rivers and the Hills]
+ e_the_riverlands_old:0 "The Rivers and the Hills"
 ### TODO NOT-IN-ST: emperor_male_beyond_the_wall [AGOT: King-beyond-the-Wall]
  emperor_male_beyond_the_wall:0 "King-beyond-the-Wall"
 ### TODO NOT-IN-ST: emperor_female_beyond_the_wall [AGOT: Queen-beyond-the-Wall]
@@ -41,12 +283,18 @@
  magnar_count:0 "Magnar"
 ### TODO NOT-IN-ST: magnar_duke [AGOT: Magnar]
  magnar_duke:0 "Magnar"
+### TODO NOT-IN-ST: magnar_king [AGOT: Magnar]
+ magnar_king:0 "Magnar"
 ### TODO NOT-IN-ST: magnar_emperor [AGOT: Magnar]
  magnar_emperor:0 "Magnar"
+### TODO NOT-IN-ST: king_stormlands [AGOT: Storm King]
+ king_stormlands:0 "Storm King"
 ### TODO NOT-IN-ST: queen_stormlands [AGOT: Storm Queen]
  queen_stormlands:0 "Storm Queen"
 ### TODO NOT-IN-ST: queen_stormland_spouse [AGOT: Storm Queen]
  queen_stormland_spouse:0 "Storm Queen"
+### TODO NOT-IN-ST: king_north [AGOT: King]
+ king_north:0 "King"
 ### TODO NOT-IN-ST: queen_north [AGOT: Queen]
  queen_north:0 "Queen"
 ### TODO NOT-IN-ST: queen_north_spouse [AGOT: Queen]
@@ -55,20 +303,82 @@
  good_queen:0 "'Good Queen'"
 ### TODO NOT-IN-ST: bad_queen [AGOT: 'Bad Queen']
  bad_queen:0 "'Bad Queen'"
+### TODO NOT-IN-ST: king_riverlands [AGOT: River King]
+ king_riverlands:0 "River King"
+### TODO NOT-IN-ST: queen_riverlands [AGOT: River Queen]
+ queen_riverlands:0 "River Queen"
+### TODO NOT-IN-ST: queen_riverlands_spouse [AGOT: River Queen]
+ queen_riverlands_spouse:0 "River Queen"
+### TODO NOT-IN-ST: king_wall [AGOT: Night's King]
+ king_wall:0 "Night's King"
 ### TODO NOT-IN-ST: queen_wall [AGOT: Night's Queen]
  queen_wall:0 "Night's Queen"
+### TODO NOT-IN-ST: king_the_dreadlands [AGOT: Red King]
+ king_the_dreadlands:0 "Red King"
 ### TODO NOT-IN-ST: queen_the_dreadlands [AGOT: Red Queen]
  queen_the_dreadlands:0 "Red Queen"
+### TODO NOT-IN-ST: king_barrows_and_rills [AGOT: Barrow King]
+ king_barrows_and_rills:0 "Barrow King"
+### TODO NOT-IN-ST: queen_barrows_and_rills [AGOT: Barrow Queen]
+ queen_barrows_and_rills:0 "Barrow Queen"
+### TODO NOT-IN-ST: king_the_neck [AGOT: Marsh King]
+ king_the_neck:0 "Marsh King"
 ### TODO NOT-IN-ST: queen_the_neck [AGOT: Marsh Queen]
  queen_the_neck:0 "Marsh Queen"
+### TODO NOT-IN-ST: king_tridents_mouth [AGOT: Fool King]
+ king_tridents_mouth:0 "Fool King"
+### TODO NOT-IN-ST: queen_tridents_mouth [AGOT: Maid Queen]
+ queen_tridents_mouth:0 "Maid Queen"
+### TODO NOT-IN-ST: king_the_bay_of_crabs [AGOT: True King]
+ king_the_bay_of_crabs:0 "True King"
 ### TODO NOT-IN-ST: queen_the_bay_of_crabs [AGOT: True Queen]
  queen_the_bay_of_crabs:0 "True Queen"
+### TODO NOT-IN-ST: king_runestone [AGOT: Bronze King]
+ king_runestone:0 "Bronze King"
 ### TODO NOT-IN-ST: queen_runestone [AGOT: Bronze Queen]
  queen_runestone:0 "Bronze Queen"
+### TODO NOT-IN-ST: king_the_red_mountains [AGOT: Vulture King]
+ king_the_red_mountains:0 "Vulture King"
+### TODO NOT-IN-ST: queen_the_red_mountains [AGOT: Vulture Queen]
+ queen_the_red_mountains:0 "Vulture Queen"
+### TODO NOT-IN-ST: king_withermoore [AGOT: Hooded King]
+ king_withermoore:0 "Hooded King"
+### TODO NOT-IN-ST: queen_withermoore [AGOT: Hooded Queen]
+ queen_withermoore:0 "Hooded Queen"
+### TODO NOT-IN-ST: king_yronwood [AGOT: Bloodroyal]
+ king_yronwood:0 "Bloodroyal"
 ### TODO NOT-IN-ST: queen_yronwood [AGOT: Bloodroyal]
  queen_yronwood:0 "Bloodroyal"
+### TODO NOT-IN-ST: king_the_stormlands [AGOT: Storm King]
+ king_the_stormlands:0 "Storm King"
 ### TODO NOT-IN-ST: queen_the_stormlands [AGOT: Storm Queen]
  queen_the_stormlands:0 "Storm Queen"
+### TODO NOT-IN-ST: king_rhoynish [AGOT: Prince]
+ king_rhoynish:0 "Prince"
+### TODO NOT-IN-ST: queen_rhoynish [AGOT: Princess]
+ queen_rhoynish:0 "Princess"
+### TODO NOT-IN-ST: king_dragonstone_heir [AGOT: Prince]
+ king_dragonstone_heir:0 "Prince"
+### TODO NOT-IN-ST: queen_dragonstone_heir [AGOT: Princess]
+ queen_dragonstone_heir:0 "Princess"
+### TODO NOT-IN-ST: lp_empire_male_faegon [AGOT: King]
+ lp_empire_male_faegon:0 "King"
+### TODO NOT-IN-ST: lp_empire_female_faegon [AGOT: Queen]
+ lp_empire_female_faegon:0 "Queen"
+### TODO NOT-IN-ST: head_of_faith_male_normal [AGOT: [CHARACTER.GetFaith.ReligiousHeadName|U]]
+ head_of_faith_male_normal:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]"
+### TODO NOT-IN-ST: head_of_faith_male_fots [AGOT: ]
+ head_of_faith_male_fots:0 ""
+### TODO NOT-IN-ST: duke_landless_adventurer_knight_camp [AGOT: Ser]
+ duke_landless_adventurer_knight_camp:0 "Ser"
+### TODO NOT-IN-ST: spouse_landless_adventurer_knight_male [AGOT: Ser]
+ spouse_landless_adventurer_knight_male:0 "Ser"
+### TODO NOT-IN-ST: duchess_landless_adventurer_knight_camp [AGOT: Ser]
+ duchess_landless_adventurer_knight_camp:0 "Ser"
+### TODO NOT-IN-ST: spouse_landless_adventurer_knight_female [AGOT: Ser]
+ spouse_landless_adventurer_knight_female:0 "Ser"
+### TODO NOT-IN-ST: captain_general [AGOT: Captain-General]
+ captain_general:0 "Captain-General"
 ### TODO NOT-IN-ST: default_duke_landless_adventurer_male_camp [AGOT: Captain]
  default_duke_landless_adventurer_male_camp:0 "Captain"
 ### TODO NOT-IN-ST: default_duke_landless_adventurer_female_camp [AGOT: Captain]
@@ -77,15 +387,27 @@
  default_spouse_landless_adventurer_male:0 "Master"
 ### TODO NOT-IN-ST: default_spouse_landless_adventurer_holder_female [AGOT: Mistress]
  default_spouse_landless_adventurer_holder_female:0 "Mistress"
+### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_mercenaries [AGOT: Captain]
+ default_duke_landless_adventurer_camp_mercenaries:0 "Captain"
 ### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_wanderers [AGOT: [Character.Custom('MistressMaster')|U]]
  default_duke_landless_adventurer_camp_wanderers:0 "[Character.Custom('MistressMaster')|U]"
 ### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_scholars [AGOT: [Character.Custom('MistressMaster')|U]]
  default_duke_landless_adventurer_camp_scholars:0 "[Character.Custom('MistressMaster')|U]"
 ### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_explorers [AGOT: Leader]
  default_duke_landless_adventurer_camp_explorers:0 "Leader"
+### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_brigands [AGOT: Boss]
+ default_duke_landless_adventurer_camp_brigands:0 "Boss"
+### TODO NOT-IN-ST: default_duke_landless_adventurer_camp_legitimists [AGOT: [Character.GetLadyLord|U]]
+ default_duke_landless_adventurer_camp_legitimists:0 "[Character.GetLadyLord|U]"
+### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_mercenaries [AGOT: Captain]
+ default_duchess_landless_adventurer_camp_mercenaries:0 "Captain"
 ### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_wanderers [AGOT: [Character.Custom('MistressMaster')|U]]
  default_duchess_landless_adventurer_camp_wanderers:0 "[Character.Custom('MistressMaster')|U]"
 ### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_scholars [AGOT: [Character.Custom('MistressMaster')|U]]
  default_duchess_landless_adventurer_camp_scholars:0 "[Character.Custom('MistressMaster')|U]"
 ### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_explorers [AGOT: Leader]
  default_duchess_landless_adventurer_camp_explorers:0 "Leader"
+### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_brigands [AGOT: Boss]
+ default_duchess_landless_adventurer_camp_brigands:0 "Boss"
+### TODO NOT-IN-ST: default_duchess_landless_adventurer_camp_legitimists [AGOT: [Character.GetLadyLord|U]]
+ default_duchess_landless_adventurer_camp_legitimists:0 "[Character.GetLadyLord|U]"

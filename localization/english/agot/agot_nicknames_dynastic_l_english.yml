@@ -1,0 +1,2419 @@
+﻿l_english:
+### TODO NOT-IN-ST: GetWarriorNickname_Blank [AGOT: ]
+ GetWarriorNickname_Blank:0 ""
+### TODO NOT-IN-ST: GetWarriorNickname_Dynasty [AGOT: of [Character.GetDynasty.GetNameNoTooltip]]
+ GetWarriorNickname_Dynasty:0 " of [Character.GetDynasty.GetNameNoTooltip]"
+### TODO NOT-IN-ST: GetWarriorNickname_Location [AGOT: of [Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]]
+ GetWarriorNickname_Location:0 " of [Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: GetWarriorNickname_Knight [AGOT: Knight]
+ GetWarriorNickname_Knight:0 " Knight"
+### TODO NOT-IN-ST: GetWarriorNickname_Ranger [AGOT: Ranger]
+ GetWarriorNickname_Ranger:0 " Ranger"
+### TODO NOT-IN-ST: GetWarriorNickname_Warrior [AGOT: Warrior]
+ GetWarriorNickname_Warrior:0 " Warrior"
+### TODO NOT-IN-ST: GetWarriorNickname_Reaver [AGOT: Reaver]
+ GetWarriorNickname_Reaver:0 " Reaver"
+### TODO NOT-IN-ST: GetWarriorNickname_Maid [AGOT: Maid]
+ GetWarriorNickname_Maid:0 " Maid"
+### TODO NOT-IN-ST: GetWarriorNickname_LordLady [AGOT: [Character.GetLadyLord|U]]
+ GetWarriorNickname_LordLady:0 " [Character.GetLadyLord|U]"
+### TODO NOT-IN-ST: GetWarriorNickname_PrincePrincess [AGOT: [Character.Custom('GetPrincessPrince')|U]]
+ GetWarriorNickname_PrincePrincess:0 " [Character.Custom('GetPrincessPrince')|U]"
+### TODO NOT-IN-ST: GetWarriorNickname_KingQueen [AGOT: [Character.Custom('GetQueenKing')|U]]
+ GetWarriorNickname_KingQueen:0 " [Character.Custom('GetQueenKing')|U]"
+### TODO NOT-IN-ST: nick_the_black_unique [AGOT: the Black [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_black_unique:0 "the Black [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_white_unique [AGOT: the White [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_white_unique:0 "the White [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_crazed_unique [AGOT: the Mad [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_crazed_unique:0 "the Mad [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_wild_unique [AGOT: the Wrathful [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_wild_unique:0 "the Wrathful [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_quiet_unique [AGOT: the Quiet [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_quiet_unique:0 "the Quiet [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_red_unique [AGOT: the Red [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_red_unique:0 "the Red [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_big_unique [AGOT: the Big [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_big_unique:0 "the Big [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_strong_unique [AGOT: the Strong [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_strong_unique:0 "the Strong [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_fair_unique [AGOT: the Fair [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_fair_unique:0 "the Fair [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_ugly_unique [AGOT: the Ugly [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_ugly_unique:0 "the Ugly [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_small_unique [AGOT: the Small [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_small_unique:0 "the Small [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_wise_unique [AGOT: the Wise [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_wise_unique:0 "the Wise [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_dumb_unique [AGOT: the Dumb [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_dumb_unique:0 "the Dumb [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_dark_unique [AGOT: the Dark [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_dark_unique:0 "the Dark [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_weak_unique [AGOT: the Weak [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_weak_unique:0 "the Weak [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_silver_unique [AGOT: the Silver [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_silver_unique:0 "the Silver [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_old_unique [AGOT: the Old [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_old_unique:0 "the Old [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_laughing_unique [AGOT: the Laughing [GetGlobalVariable('maester').Char.GetNameNoTooltip]]
+ nick_the_laughing_unique:0 "the Laughing [GetGlobalVariable('maester').Char.GetNameNoTooltip]"
+### TODO NOT-IN-ST: nick_the_unique_daughter [AGOT: the [GetGlobalVariable('maester').Char.GetNameNoTooltip]'s Daughter]
+ nick_the_unique_daughter:0 "the [GetGlobalVariable('maester').Char.GetNameNoTooltip]'s Daughter"
+### TODO NOT-IN-ST: nick_the_uniqueknight [AGOT: the [GetGlobalVariable('maester').Char.GetNameNoTooltip] [CHARACTER.Custom('GetWarriorNickname')]]
+ nick_the_uniqueknight:0 "the [GetGlobalVariable('maester').Char.GetNameNoTooltip] [CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: agot_nicknames.9000.t [AGOT: Dynastic Nickname]
+ agot_nicknames.9000.t:0 "Dynastic Nickname"
+### TODO NOT-IN-ST: agot_nicknames.9000_desc [AGOT: The great houses boast of their wolves, their lions, their krakens and bridges, each convinced their sigil marks them as unmatched. Yet their symbols are no more than boast and bluster.\n\nOur house shall be different. Our banner will inspire fear in our foes and awe in our allies. From this day forth, House [ROOT.Char.GetHouse.GetName] shall be remembered for its association with...\n\n #help The world selected will be used in several templates to provide Dynastic Nicknames for your House.\n\ne.g. 'The Black X' 'The Red X'\n\nFor the best results select a noun!#]
+ agot_nicknames.9000_desc:0 "The great houses boast of their wolves, their lions, their krakens and bridges, each convinced their sigil marks them as unmatched. Yet their symbols are no more than boast and bluster.\n\nOur house shall be different. Our banner will inspire fear in our foes and awe in our allies. From this day forth, House [ROOT.Char.GetHouse.GetName] shall be remembered for its association with...\n\n #help The world selected will be used in several templates to provide Dynastic Nicknames for your House.\n\ne.g. 'The Black X' 'The Red X'\n\nFor the best results select a noun!#"
+### TODO NOT-IN-ST: Dynasty_Nickname_Text [AGOT: [GetGlobalVariable('maester').Char.GetLocalizedText('dynastic_nickname')]]
+ Dynasty_Nickname_Text:0 "[GetGlobalVariable('maester').Char.GetLocalizedText('dynastic_nickname')]"
+### TODO NOT-IN-ST: agot_nicknames.9000.a [AGOT: Let them know our name!]
+ agot_nicknames.9000.a:0 "Let them know our name!"
+### TODO NOT-IN-ST: nick_agot_the_black_lion [AGOT: the Black Lion]
+ nick_agot_the_black_lion:0 "the Black Lion" # [CHARACTER.Custom('GetCadetHousePrefix')]
+### TODO NOT-IN-ST: nick_agot_the_white_lion [AGOT: the White Lion]
+ nick_agot_the_white_lion:0 "the White Lion"
+### TODO NOT-IN-ST: nick_agot_the_crazed_lion [AGOT: the Mad Lion]
+ nick_agot_the_crazed_lion:0 "the Mad Lion"
+### TODO NOT-IN-ST: nick_agot_the_wild_lion [AGOT: the Wroth Lion]
+ nick_agot_the_wild_lion:0 "the Wroth Lion"
+### TODO NOT-IN-ST: nick_agot_the_quiet_lion [AGOT: the Sleeping Lion]
+ nick_agot_the_quiet_lion:0 "the Sleeping Lion"
+### TODO NOT-IN-ST: nick_agot_the_red_lion [AGOT: the Red Lion]
+ nick_agot_the_red_lion:0 "the Red Lion"
+### TODO NOT-IN-ST: nick_agot_the_big_lion [AGOT: the Big Lion]
+ nick_agot_the_big_lion:0 "the Big Lion"
+### TODO NOT-IN-ST: nick_agot_the_strong_lion [AGOT: the Strong Lion]
+ nick_agot_the_strong_lion:0 "the Strong Lion"
+### TODO NOT-IN-ST: nick_agot_the_fair_lion [AGOT: the Golden Lion]
+ nick_agot_the_fair_lion:0 "the Golden Lion"
+### TODO NOT-IN-ST: nick_agot_the_ugly_lion [AGOT: the Mangy Lion]
+ nick_agot_the_ugly_lion:0 "the Mangy Lion"
+### TODO NOT-IN-ST: nick_agot_the_small_lion [AGOT: the Little Lion]
+ nick_agot_the_small_lion:0 "the Little Lion"
+### TODO NOT-IN-ST: nick_agot_the_wise_lion [AGOT: the Bright Lion]
+ nick_agot_the_wise_lion:0 "the Bright Lion"
+### TODO NOT-IN-ST: nick_agot_the_dumb_lion [AGOT: the Dumb Lion]
+ nick_agot_the_dumb_lion:0 "the Dumb Lion"
+### TODO NOT-IN-ST: nick_agot_the_dark_lion [AGOT: the Dark Lion]
+ nick_agot_the_dark_lion:0 "the Dark Lion"
+### TODO NOT-IN-ST: nick_agot_the_weak_lion [AGOT: the Lame Lion]
+ nick_agot_the_weak_lion:0 "the Lame Lion"
+### TODO NOT-IN-ST: nick_agot_the_toothless_lion [AGOT: the Toothless Lion]
+ nick_agot_the_toothless_lion:0 "the Toothless Lion"
+### TODO NOT-IN-ST: nick_agot_the_silver_lion [AGOT: the Silver Lion]
+ nick_agot_the_silver_lion:0 "the Silver Lion"
+### TODO NOT-IN-ST: nick_agot_the_old_lion [AGOT: the Old Lion]
+ nick_agot_the_old_lion:0 "the Old Lion"
+### TODO NOT-IN-ST: nick_agot_the_laughing_lion [AGOT: the Laughing Lion]
+ nick_agot_the_laughing_lion:0 "the Laughing Lion"
+### TODO NOT-IN-ST: nick_agot_the_lion_daughter [AGOT: the Lion's Daughter]
+ nick_agot_the_lion_daughter:0 "the Lion's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_lionknight [AGOT: the Lion[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_lionknight:0 "the Lion[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_crimsonknight [AGOT: the Crimson[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_crimsonknight:0 "the Crimson[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_chequyknight [AGOT: the Chequy[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_chequyknight:0 "the Chequy[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_lionheart [AGOT: the Lionheart]
+ nick_agot_the_lionheart:0 "the Lionheart"
+### TODO NOT-IN-ST: nick_agot_the_lioness [AGOT: the Lioness]
+ nick_agot_the_lioness:0 "the Lioness"
+### TODO NOT-IN-ST: nick_agot_the_black_wolf [AGOT: the Black Wolf]
+ nick_agot_the_black_wolf:0 "the Black Wolf"
+### TODO NOT-IN-ST: nick_agot_the_white_wolf [AGOT: the White Wolf]
+ nick_agot_the_white_wolf:0 "the White Wolf"
+### TODO NOT-IN-ST: nick_agot_the_crazed_wolf [AGOT: the Rabid Wolf]
+ nick_agot_the_crazed_wolf:0 "the Rabid Wolf"
+### TODO NOT-IN-ST: nick_agot_the_wild_wolf [AGOT: the Hungry Wolf]
+ nick_agot_the_wild_wolf:0 "the Hungry Wolf"
+### TODO NOT-IN-ST: nick_agot_the_quiet_wolf [AGOT: the Quiet Wolf]
+ nick_agot_the_quiet_wolf:0 "the Quiet Wolf"
+### TODO NOT-IN-ST: nick_agot_the_red_wolf [AGOT: the Red Wolf]
+ nick_agot_the_red_wolf:0 "the Red Wolf"
+### TODO NOT-IN-ST: nick_agot_the_big_wolf [AGOT: the Big Wolf]
+ nick_agot_the_big_wolf:0 "the Big Wolf"
+### TODO NOT-IN-ST: nick_agot_the_strong_wolf [AGOT: Direwolf]
+ nick_agot_the_strong_wolf:0 "Direwolf"
+### TODO NOT-IN-ST: nick_agot_the_fair_wolf [AGOT: the Fair Wolf]
+ nick_agot_the_fair_wolf:0 "the Fair Wolf"
+### TODO NOT-IN-ST: nick_agot_the_ugly_wolf [AGOT: the Mangy Wolf]
+ nick_agot_the_ugly_wolf:0 "the Mangy Wolf"
+### TODO NOT-IN-ST: nick_agot_the_small_wolf [AGOT: the Runt]
+ nick_agot_the_small_wolf:0 "the Runt"
+### TODO NOT-IN-ST: nick_agot_the_wise_wolf [AGOT: the Wise Wolf]
+ nick_agot_the_wise_wolf:0 "the Wise Wolf"
+### TODO NOT-IN-ST: nick_agot_the_dumb_wolf [AGOT: the Slow Wolf]
+ nick_agot_the_dumb_wolf:0 "the Slow Wolf"
+### TODO NOT-IN-ST: nick_agot_the_dark_wolf [AGOT: Darkwolf]
+ nick_agot_the_dark_wolf:0 "Darkwolf"
+### TODO NOT-IN-ST: nick_agot_the_weak_wolf [AGOT: the Lame Wolf]
+ nick_agot_the_weak_wolf:0 "the Lame Wolf"
+### TODO NOT-IN-ST: nick_agot_the_silver_wolf [AGOT: the Silver Wolf]
+ nick_agot_the_silver_wolf:0 "the Silver Wolf"
+### TODO NOT-IN-ST: nick_agot_the_old_wolf [AGOT: the Old Wolf]
+ nick_agot_the_old_wolf:0 "the Old Wolf"
+### TODO NOT-IN-ST: nick_agot_the_laughing_wolf [AGOT: the Howling Wolf]
+ nick_agot_the_laughing_wolf:0 "the Howling Wolf"
+### TODO NOT-IN-ST: nick_agot_the_wolf_daughter [AGOT: the She-Wolf]
+ nick_agot_the_wolf_daughter:0 "the She-Wolf"
+### TODO NOT-IN-ST: nick_agot_the_wolfknight [AGOT: the Wolf[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_wolfknight:0 "the Wolf[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_dragon [AGOT: the Black Dragon]
+ nick_agot_the_black_dragon:0 "the Black Dragon"
+### TODO NOT-IN-ST: nick_agot_the_white_dragon [AGOT: the White Dragon]
+ nick_agot_the_white_dragon:0 "the White Dragon"
+### TODO NOT-IN-ST: nick_agot_the_crazed_dragon [AGOT: the Mad Dragon]
+ nick_agot_the_crazed_dragon:0 "the Mad Dragon"
+### TODO NOT-IN-ST: nick_agot_the_wild_dragon [AGOT: the Fiery Dragon]
+ nick_agot_the_wild_dragon:0 "the Fiery Dragon"
+### TODO NOT-IN-ST: nick_agot_the_quiet_dragon [AGOT: the Sleeping Dragon]
+ nick_agot_the_quiet_dragon:0 "the Sleeping Dragon"
+### TODO NOT-IN-ST: nick_agot_the_red_dragon [AGOT: the Red Dragon]
+ nick_agot_the_red_dragon:0 "the Red Dragon"
+### TODO NOT-IN-ST: nick_agot_the_big_dragon [AGOT: the Great Dragon]
+ nick_agot_the_big_dragon:0 "the Great Dragon"
+### TODO NOT-IN-ST: nick_agot_the_strong_dragon [AGOT: Strongdragon]
+ nick_agot_the_strong_dragon:0 "Strongdragon"
+### TODO NOT-IN-ST: nick_agot_the_fair_dragon [AGOT: Snapdragon]
+ nick_agot_the_fair_dragon:0 "Snapdragon"
+### TODO NOT-IN-ST: nick_agot_the_fair_dragon_2 [AGOT: Sunscale]
+ nick_agot_the_fair_dragon_2:0 "Sunscale"
+### TODO NOT-IN-ST: nick_agot_the_fair_dragon_3 [AGOT: the Dawn Dragon]
+ nick_agot_the_fair_dragon_3:0 "the Dawn Dragon"
+### TODO NOT-IN-ST: nick_agot_the_fair_dragon_4 [AGOT: Brightscale]
+ nick_agot_the_fair_dragon_4:0 "Brightscale" #Brightflame esque without stepping on his drip
+### TODO NOT-IN-ST: nick_agot_the_ugly_dragon [AGOT: the Scaleless]
+ nick_agot_the_ugly_dragon:0 "the Scaleless"
+### TODO NOT-IN-ST: nick_agot_the_small_dragon [AGOT: the Wyrm]
+ nick_agot_the_small_dragon:0 "the Wyrm"
+### TODO NOT-IN-ST: nick_agot_the_wise_dragon [AGOT: the Golden Dragon]
+ nick_agot_the_wise_dragon:0 "the Golden Dragon"
+### TODO NOT-IN-ST: nick_agot_the_dumb_dragon [AGOT: the Lumbering Dragon]
+ nick_agot_the_dumb_dragon:0 "the Lumbering Dragon"
+### TODO NOT-IN-ST: nick_agot_the_dark_dragon [AGOT: the Wyvern]
+ nick_agot_the_dark_dragon:0 "the Wyvern"
+### TODO NOT-IN-ST: nick_agot_the_weak_dragon [AGOT: the Hatchling]
+ nick_agot_the_weak_dragon:0 "the Hatchling"
+### TODO NOT-IN-ST: nick_agot_the_silver_dragon [AGOT: the Silver Dragon]
+ nick_agot_the_silver_dragon:0 "the Silver Dragon"
+### TODO NOT-IN-ST: nick_agot_the_old_dragon [AGOT: the Old Dragon]
+ nick_agot_the_old_dragon:0 "the Old Dragon"
+### TODO NOT-IN-ST: nick_agot_the_laughing_dragon [AGOT: the Laughing Dragon]
+ nick_agot_the_laughing_dragon:0 "the Laughing Dragon"
+### TODO NOT-IN-ST: nick_agot_the_dragon_daughter [AGOT: the Dragon's Daughter]
+ nick_agot_the_dragon_daughter:0 "the Dragon's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_dragonknight [AGOT: the Dragon[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_dragonknight:0 "the Dragon[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_shedragon [AGOT: the She-Dragon]
+ nick_agot_the_shedragon:0 "the She-Dragon"
+### TODO NOT-IN-ST: nick_agot_the_black_fire [AGOT: the Black Fire]
+ nick_agot_the_black_fire:0 "the Black Fire"
+### TODO NOT-IN-ST: nick_agot_the_white_fire [AGOT: the White Flame]
+ nick_agot_the_white_fire:0 "the White Flame"
+### TODO NOT-IN-ST: nick_agot_the_crazed_fire [AGOT: the Mad Flame]
+ nick_agot_the_crazed_fire:0 "the Mad Flame"
+### TODO NOT-IN-ST: nick_agot_the_wild_fire [AGOT: Wildfire]
+ nick_agot_the_wild_fire:0 "Wildfire"
+### TODO NOT-IN-ST: nick_agot_the_quiet_fire [AGOT: the Smouldering Flame]
+ nick_agot_the_quiet_fire:0 "the Smouldering Flame"
+### TODO NOT-IN-ST: nick_agot_the_red_fire [AGOT: Hellfire]
+ nick_agot_the_red_fire:0 "Hellfire"
+### TODO NOT-IN-ST: nick_agot_the_big_fire [AGOT: the Great Flame]
+ nick_agot_the_big_fire:0 "the Great Flame"
+### TODO NOT-IN-ST: nick_agot_the_strong_fire [AGOT: Strongfire]
+ nick_agot_the_strong_fire:0 "Strongfire"
+### TODO NOT-IN-ST: nick_agot_the_fair_fire [AGOT: Brightflame]
+ nick_agot_the_fair_fire:0 "Brightflame"
+### TODO NOT-IN-ST: nick_agot_the_ugly_fire [AGOT: the Ugly Fire]
+ nick_agot_the_ugly_fire:0 "the Ugly Fire"
+### TODO NOT-IN-ST: nick_agot_the_small_fire [AGOT: the Flicker]
+ nick_agot_the_small_fire:0 "the Flicker"
+### TODO NOT-IN-ST: nick_agot_the_wise_fire [AGOT: the Spark]
+ nick_agot_the_wise_fire:0 "the Spark"
+### TODO NOT-IN-ST: nick_agot_the_dumb_fire [AGOT: the Doused Flame]
+ nick_agot_the_dumb_fire:0 "the Doused Flame"
+### TODO NOT-IN-ST: nick_agot_the_dark_fire [AGOT: Darkflame]
+ nick_agot_the_dark_fire:0 "Darkflame"
+### TODO NOT-IN-ST: nick_agot_the_weak_fire [AGOT: the Cinder]
+ nick_agot_the_weak_fire:0 "the Cinder"
+### TODO NOT-IN-ST: nick_agot_the_silver_fire [AGOT: the Silver Flame]
+ nick_agot_the_silver_fire:0 "the Silver Flame"
+### TODO NOT-IN-ST: nick_agot_the_old_fire [AGOT: the Old Fire]
+ nick_agot_the_old_fire:0 "the Old Fire"
+### TODO NOT-IN-ST: nick_agot_the_laughing_fire [AGOT: the Crackling Flame]
+ nick_agot_the_laughing_fire:0 "the Crackling Flame"
+### TODO NOT-IN-ST: nick_agot_the_fire_daughter [AGOT: the Fire's Daughter]
+ nick_agot_the_fire_daughter:0 "the Fire's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_fireknight [AGOT: the Fire[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_fireknight:0 "the Fire[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_stag [AGOT: the Black Stag]
+ nick_agot_the_black_stag:0 "the Black Stag"
+### TODO NOT-IN-ST: nick_agot_the_white_stag [AGOT: the White Stag]
+ nick_agot_the_white_stag:0 "the White Stag"
+### TODO NOT-IN-ST: nick_agot_the_crazed_stag [AGOT: the Mad Stag]
+ nick_agot_the_crazed_stag:0 "the Mad Stag"
+### TODO NOT-IN-ST: nick_agot_the_wild_stag [AGOT: the Bucking Stag]
+ nick_agot_the_wild_stag:0 "the Bucking Stag"
+### TODO NOT-IN-ST: nick_agot_the_quiet_stag [AGOT: the Silent Stag]
+ nick_agot_the_quiet_stag:0 "the Silent Stag"
+### TODO NOT-IN-ST: nick_agot_the_red_stag [AGOT: the Red Stag]
+ nick_agot_the_red_stag:0 "the Red Stag"
+### TODO NOT-IN-ST: nick_agot_the_big_stag [AGOT: the Great Stag]
+ nick_agot_the_big_stag:0 "the Great Stag"
+### TODO NOT-IN-ST: nick_agot_the_strong_stag [AGOT: Strongstag]
+ nick_agot_the_strong_stag:0 "Strongstag"
+### TODO NOT-IN-ST: nick_agot_the_fair_stag [AGOT: the Noble Stag]
+ nick_agot_the_fair_stag:0 "the Noble Stag"
+### TODO NOT-IN-ST: nick_agot_the_ugly_stag [AGOT: the Ugly Stag]
+ nick_agot_the_ugly_stag:0 "the Ugly Stag"
+### TODO NOT-IN-ST: nick_agot_the_small_stag [AGOT: the Deerling]
+ nick_agot_the_small_stag:0 "the Deerling"
+### TODO NOT-IN-ST: nick_agot_the_wise_stag [AGOT: the Sage Stag]
+ nick_agot_the_wise_stag:0 "the Sage Stag"
+### TODO NOT-IN-ST: nick_agot_the_dumb_stag [AGOT: the Slow Stag]
+ nick_agot_the_dumb_stag:0 "the Slow Stag"
+### TODO NOT-IN-ST: nick_agot_the_dark_stag [AGOT: Darkstag]
+ nick_agot_the_dark_stag:0 "Darkstag"
+### TODO NOT-IN-ST: nick_agot_the_weak_stag [AGOT: the Weak Stag]
+ nick_agot_the_weak_stag:0 "the Weak Stag"
+### TODO NOT-IN-ST: nick_agot_the_silver_stag [AGOT: the Silver Stag]
+ nick_agot_the_silver_stag:0 "the Silver Stag"
+### TODO NOT-IN-ST: nick_agot_the_old_stag [AGOT: the Old Stag]
+ nick_agot_the_old_stag:0 "the Old Stag"
+### TODO NOT-IN-ST: nick_agot_the_laughing_stag [AGOT: the Laughing Stag]
+ nick_agot_the_laughing_stag:0 "the Laughing Stag"
+### TODO NOT-IN-ST: nick_agot_the_stag_daughter [AGOT: the Doe]
+ nick_agot_the_stag_daughter:0 "the Doe"
+### TODO NOT-IN-ST: nick_agot_the_stagknight [AGOT: the Stag[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_stagknight:0 "the Stag[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_storm [AGOT: the Black Storm]
+ nick_agot_the_black_storm:0 "the Black Storm"
+### TODO NOT-IN-ST: nick_agot_the_white_storm [AGOT: the White Storm]
+ nick_agot_the_white_storm:0 "the White Storm"
+### TODO NOT-IN-ST: nick_agot_the_crazed_storm [AGOT: the Howling Storm]
+ nick_agot_the_crazed_storm:0 "the Howling Storm"
+### TODO NOT-IN-ST: nick_agot_the_wild_storm [AGOT: the Raging Storm]
+ nick_agot_the_wild_storm:0 "the Raging Storm"
+### TODO NOT-IN-ST: nick_agot_the_quiet_storm [AGOT: the Quiet Storm]
+ nick_agot_the_quiet_storm:0 "the Quiet Storm"
+### TODO NOT-IN-ST: nick_agot_the_red_storm [AGOT: the Maelstrom]
+ nick_agot_the_red_storm:0 "the Maelstrom"
+### TODO NOT-IN-ST: nick_agot_the_big_storm [AGOT: the Hurricane]
+ nick_agot_the_big_storm:0 "the Hurricane"
+### TODO NOT-IN-ST: nick_agot_the_strong_storm [AGOT: Strongstorm]
+ nick_agot_the_strong_storm:0 "Strongstorm"
+### TODO NOT-IN-ST: nick_agot_the_fair_storm [AGOT: the Beautiful Storm]
+ nick_agot_the_fair_storm:0 "the Beautiful Storm"
+### TODO NOT-IN-ST: nick_agot_the_ugly_storm [AGOT: the Fart]
+ nick_agot_the_ugly_storm:0 "the Fart"
+### TODO NOT-IN-ST: nick_agot_the_small_storm [AGOT: the Gust]
+ nick_agot_the_small_storm:0 "the Gust"
+### TODO NOT-IN-ST: nick_agot_the_wise_storm [AGOT: the Wise Storm]
+ nick_agot_the_wise_storm:0 "the Wise Storm"
+### TODO NOT-IN-ST: nick_agot_the_dumb_storm [AGOT: the Drizzle]
+ nick_agot_the_dumb_storm:0 "the Drizzle"
+### TODO NOT-IN-ST: nick_agot_the_dark_storm [AGOT: Darkstorm]
+ nick_agot_the_dark_storm:0 "Darkstorm"
+### TODO NOT-IN-ST: nick_agot_the_weak_storm [AGOT: the Gentle Breeze]
+ nick_agot_the_weak_storm:0 "the Gentle Breeze"
+### TODO NOT-IN-ST: nick_agot_the_silver_storm [AGOT: the Silver Storm]
+ nick_agot_the_silver_storm:0 "the Silver Storm"
+### TODO NOT-IN-ST: nick_agot_the_old_storm [AGOT: the Old Winds]
+ nick_agot_the_old_storm:0 "the Old Winds"
+### TODO NOT-IN-ST: nick_agot_the_laughing_storm [AGOT: the Laughing Storm]
+ nick_agot_the_laughing_storm:0 "the Laughing Storm"
+### TODO NOT-IN-ST: nick_agot_the_storm_daughter [AGOT: the Storm's Daughter]
+ nick_agot_the_storm_daughter:0 "the Storm's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_stormknight [AGOT: the Storm[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_stormknight:0 "the Storm[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_spear [AGOT: the Black Spear]
+ nick_agot_the_black_spear:0 "the Black Spear"
+### TODO NOT-IN-ST: nick_agot_the_white_spear [AGOT: the White Spear]
+ nick_agot_the_white_spear:0 "the White Spear"
+### TODO NOT-IN-ST: nick_agot_the_crazed_spear [AGOT: the Mad Spear]
+ nick_agot_the_crazed_spear:0 "the Mad Spear"
+### TODO NOT-IN-ST: nick_agot_the_wild_spear [AGOT: the Lashing Spear]
+ nick_agot_the_wild_spear:0 "the Lashing Spear"
+### TODO NOT-IN-ST: nick_agot_the_quiet_spear [AGOT: the Silent Spear]
+ nick_agot_the_quiet_spear:0 "the Silent Spear"
+### TODO NOT-IN-ST: nick_agot_the_red_spear [AGOT: the Red Spear]
+ nick_agot_the_red_spear:0 "the Red Spear"
+### TODO NOT-IN-ST: nick_agot_the_big_spear [AGOT: the Pollax]
+ nick_agot_the_big_spear:0 "the Pollax"
+### TODO NOT-IN-ST: nick_agot_the_strong_spear [AGOT: Greatspear]
+ nick_agot_the_strong_spear:0 "Greatspear"
+### TODO NOT-IN-ST: nick_agot_the_fair_spear [AGOT: the Noble Spear]
+ nick_agot_the_fair_spear:0 "the Noble Spear"
+### TODO NOT-IN-ST: nick_agot_the_ugly_spear [AGOT: the Bent Spear]
+ nick_agot_the_ugly_spear:0 "the Bent Spear"
+### TODO NOT-IN-ST: nick_agot_the_small_spear [AGOT: the Knife]
+ nick_agot_the_small_spear:0 "the Knife"
+### TODO NOT-IN-ST: nick_agot_the_wise_spear [AGOT: the Sage Spear]
+ nick_agot_the_wise_spear:0 "the Sage Spear"
+### TODO NOT-IN-ST: nick_agot_the_dumb_spear [AGOT: the Blunt Spear]
+ nick_agot_the_dumb_spear:0 "the Blunt Spear"
+### TODO NOT-IN-ST: nick_agot_the_dark_spear [AGOT: Darkspear]
+ nick_agot_the_dark_spear:0 "Darkspear"
+### TODO NOT-IN-ST: nick_agot_the_weak_spear [AGOT: the Brittle Spear]
+ nick_agot_the_weak_spear:0 "the Brittle Spear"
+### TODO NOT-IN-ST: nick_agot_the_silver_spear [AGOT: the Silver Spear]
+ nick_agot_the_silver_spear:0 "the Silver Spear"
+### TODO NOT-IN-ST: nick_agot_the_old_spear [AGOT: the Old Spear]
+ nick_agot_the_old_spear:0 "the Old Spear"
+### TODO NOT-IN-ST: nick_agot_the_laughing_spear [AGOT: the Laughing Spear]
+ nick_agot_the_laughing_spear:0 "the Laughing Spear"
+### TODO NOT-IN-ST: nick_agot_the_spear_daughter [AGOT: the Spear's Daughter]
+ nick_agot_the_spear_daughter:0 "the Spear's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_spearknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Spears]
+ nick_agot_the_spearknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Spears"
+### TODO NOT-IN-ST: nick_agot_the_black_sun [AGOT: the Black Sun]
+ nick_agot_the_black_sun:0 "the Black Sun"
+### TODO NOT-IN-ST: nick_agot_the_white_sun [AGOT: the White Sun]
+ nick_agot_the_white_sun:0 "the White Sun"
+### TODO NOT-IN-ST: nick_agot_the_crazed_sun [AGOT: the Scorching Sun]
+ nick_agot_the_crazed_sun:0 "the Scorching Sun"
+### TODO NOT-IN-ST: nick_agot_the_wild_sun [AGOT: the Blistering Spear]
+ nick_agot_the_wild_sun:0 "the Blistering Spear"
+### TODO NOT-IN-ST: nick_agot_the_quiet_sun [AGOT: the Silent Sun]
+ nick_agot_the_quiet_sun:0 "the Silent Sun"
+### TODO NOT-IN-ST: nick_agot_the_red_sun [AGOT: the Red Sun]
+ nick_agot_the_red_sun:0 "the Red Sun"
+### TODO NOT-IN-ST: nick_agot_the_big_sun [AGOT: the Sun]
+ nick_agot_the_big_sun:0 "the Sun" #Like it's pretty big already
+### TODO NOT-IN-ST: nick_agot_the_strong_sun [AGOT: Strongsun]
+ nick_agot_the_strong_sun:0 "Strongsun"
+### TODO NOT-IN-ST: nick_agot_the_fair_sun [AGOT: the Bright Sun]
+ nick_agot_the_fair_sun:0 "the Bright Sun"
+### TODO NOT-IN-ST: nick_agot_the_ugly_sun [AGOT: the Ugly Sun]
+ nick_agot_the_ugly_sun:0 "the Ugly Sun"
+### TODO NOT-IN-ST: nick_agot_the_small_sun [AGOT: the Candle]
+ nick_agot_the_small_sun:0 "the Candle"
+### TODO NOT-IN-ST: nick_agot_the_wise_sun [AGOT: the Sage Sun]
+ nick_agot_the_wise_sun:0 "the Sage Sun"
+### TODO NOT-IN-ST: nick_agot_the_dumb_sun [AGOT: the Dull Sun]
+ nick_agot_the_dumb_sun:0 "the Dull Sun"
+### TODO NOT-IN-ST: nick_agot_the_dark_sun [AGOT: Darksun]
+ nick_agot_the_dark_sun:0 "Darksun"
+### TODO NOT-IN-ST: nick_agot_the_weak_sun [AGOT: the Weak Sun]
+ nick_agot_the_weak_sun:0 "the Weak Sun"
+### TODO NOT-IN-ST: nick_agot_the_silver_sun [AGOT: the Silver Sun]
+ nick_agot_the_silver_sun:0 "the Silver Sun"
+### TODO NOT-IN-ST: nick_agot_the_old_sun [AGOT: the Old Sun]
+ nick_agot_the_old_sun:0 "the Old Sun"
+### TODO NOT-IN-ST: nick_agot_the_laughing_sun [AGOT: the Smiling Sun]
+ nick_agot_the_laughing_sun:0 "the Smiling Sun"
+### TODO NOT-IN-ST: nick_agot_the_sun_daughter [AGOT: the Sun's Daughter]
+ nick_agot_the_sun_daughter:0 "the Sun's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_sunknight [AGOT: the Sun[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_sunknight:0 "the Sun[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_sunknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Sun]
+ nick_agot_the_sunknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Sun"
+### TODO NOT-IN-ST: nick_agot_the_black_rose [AGOT: the Black Rose]
+ nick_agot_the_black_rose:0 "the Black Rose"
+### TODO NOT-IN-ST: nick_agot_the_white_rose [AGOT: the White Rose]
+ nick_agot_the_white_rose:0 "the White Rose"
+### TODO NOT-IN-ST: nick_agot_the_crazed_rose [AGOT: Tanglethorn]
+ nick_agot_the_crazed_rose:0 "Tanglethorn"
+### TODO NOT-IN-ST: nick_agot_the_wild_rose [AGOT: the Thorn]
+ nick_agot_the_wild_rose:0 "the Thorn"
+### TODO NOT-IN-ST: nick_agot_the_quiet_rose [AGOT: the Quiet Rose]
+ nick_agot_the_quiet_rose:0 "the Quiet Rose"
+### TODO NOT-IN-ST: nick_agot_the_red_rose [AGOT: the Red Rose]
+ nick_agot_the_red_rose:0 "the Red Rose" #Bloody Rose?
+### TODO NOT-IN-ST: nick_agot_the_big_rose [AGOT: the Rosebush]
+ nick_agot_the_big_rose:0 "the Rosebush"
+### TODO NOT-IN-ST: nick_agot_the_strong_rose [AGOT: Strongrose]
+ nick_agot_the_strong_rose:0 "Strongrose"
+### TODO NOT-IN-ST: nick_agot_the_fair_rose [AGOT: the Summer Rose]
+ nick_agot_the_fair_rose:0 "the Summer Rose"
+### TODO NOT-IN-ST: nick_agot_the_ugly_rose [AGOT: the Weed]
+ nick_agot_the_ugly_rose:0 "the Weed"
+### TODO NOT-IN-ST: nick_agot_the_small_rose [AGOT: the Rosebud]
+ nick_agot_the_small_rose:0 "the Rosebud"
+### TODO NOT-IN-ST: nick_agot_the_wise_rose [AGOT: the Wise Rose]
+ nick_agot_the_wise_rose:0 "the Wise Rose"
+### TODO NOT-IN-ST: nick_agot_the_dumb_rose [AGOT: the Dull Rose]
+ nick_agot_the_dumb_rose:0 "the Dull Rose"
+### TODO NOT-IN-ST: nick_agot_the_dark_rose [AGOT: the Violet]
+ nick_agot_the_dark_rose:0 "the Violet"
+### TODO NOT-IN-ST: nick_agot_the_weak_rose [AGOT: the Wilting Rose]
+ nick_agot_the_weak_rose:0 "the Wilting Rose"
+### TODO NOT-IN-ST: nick_agot_the_silver_rose [AGOT: the Silver Rose]
+ nick_agot_the_silver_rose:0 "the Silver Rose"
+### TODO NOT-IN-ST: nick_agot_the_old_rose [AGOT: the Old Rose]
+ nick_agot_the_old_rose:0 "the Old Rose"
+### TODO NOT-IN-ST: nick_agot_the_laughing_rose [AGOT: the Blooming Rose]
+ nick_agot_the_laughing_rose:0 "the Blooming Rose"
+### TODO NOT-IN-ST: nick_agot_the_rose_daughter [AGOT: the Petal]
+ nick_agot_the_rose_daughter:0 "the Petal"
+### TODO NOT-IN-ST: nick_agot_the_roseknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Flowers]
+ nick_agot_the_roseknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Flowers"
+### TODO NOT-IN-ST: nick_agot_the_black_fish [AGOT: the Blackfish]
+ nick_agot_the_black_fish:0 "the Blackfish"
+### TODO NOT-IN-ST: nick_agot_the_white_fish [AGOT: the Whitefish]
+ nick_agot_the_white_fish:0 "the Whitefish"
+### TODO NOT-IN-ST: nick_agot_the_crazed_fish [AGOT: Madfish]
+ nick_agot_the_crazed_fish:0 "Madfish"
+### TODO NOT-IN-ST: nick_agot_the_wild_fish [AGOT: the Barracuda]
+ nick_agot_the_wild_fish:0 "the Barracuda"
+### TODO NOT-IN-ST: nick_agot_the_quiet_fish [AGOT: the Silent Swimmer]
+ nick_agot_the_quiet_fish:0 "the Silent Swimmer"
+### TODO NOT-IN-ST: nick_agot_the_red_fish [AGOT: the Redfin]
+ nick_agot_the_red_fish:0 "the Redfin"
+### TODO NOT-IN-ST: nick_agot_the_big_fish [AGOT: the Pike]
+ nick_agot_the_big_fish:0 "the Pike"
+### TODO NOT-IN-ST: nick_agot_the_strong_fish [AGOT: Fishhook]
+ nick_agot_the_strong_fish:0 "Fishhook"
+### TODO NOT-IN-ST: nick_agot_the_strong_fish_2 [AGOT: the Sturgeon]
+ nick_agot_the_strong_fish_2:0 "the Sturgeon"
+### TODO NOT-IN-ST: nick_agot_the_fair_fish [AGOT: the Goldfish]
+ nick_agot_the_fair_fish:0 "the Goldfish"
+### TODO NOT-IN-ST: nick_agot_the_ugly_fish [AGOT: Troutface]
+ nick_agot_the_ugly_fish:0 "Troutface"
+### TODO NOT-IN-ST: nick_agot_the_small_fish [AGOT: the Minnow]
+ nick_agot_the_small_fish:0 "the Minnow"
+### TODO NOT-IN-ST: nick_agot_the_wise_fish [AGOT: the Fish of Knowledge]
+ nick_agot_the_wise_fish:0 "the Fish of Knowledge"
+### TODO NOT-IN-ST: nick_agot_the_dumb_fish [AGOT: the Guppy]
+ nick_agot_the_dumb_fish:0 "the Guppy"
+### TODO NOT-IN-ST: nick_agot_the_dark_fish [AGOT: Darkfish]
+ nick_agot_the_dark_fish:0 "Darkfish"
+### TODO NOT-IN-ST: nick_agot_the_weak_fish [AGOT: the Floundering Fish]
+ nick_agot_the_weak_fish:0 "the Floundering Fish"
+### TODO NOT-IN-ST: nick_agot_the_silver_fish [AGOT: Silverfish]
+ nick_agot_the_silver_fish:0 "Silverfish"
+### TODO NOT-IN-ST: nick_agot_the_old_fish [AGOT: the Old Fisher]
+ nick_agot_the_old_fish:0 "the Old Fisher"
+### TODO NOT-IN-ST: nick_agot_the_laughing_fish [AGOT: the Laughing Fish]
+ nick_agot_the_laughing_fish:0 "the Laughing Fish"
+### TODO NOT-IN-ST: nick_agot_the_fish_daughter [AGOT: the Lady of the Lakes]
+ nick_agot_the_fish_daughter:0 "the Lady of the Lakes"
+### TODO NOT-IN-ST: nick_agot_the_fishknight [AGOT: the River[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_fishknight:0 "the River[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_squid [AGOT: the Black Kraken]
+ nick_agot_the_black_squid:0 "the Black Kraken"
+### TODO NOT-IN-ST: nick_agot_the_white_squid [AGOT: the White Kraken]
+ nick_agot_the_white_squid:0 "the White Kraken"
+### TODO NOT-IN-ST: nick_agot_the_crazed_squid [AGOT: Seawind]
+ nick_agot_the_crazed_squid:0 "Seawind"
+### TODO NOT-IN-ST: nick_agot_the_wild_squid [AGOT: the Thrashing Kraken]
+ nick_agot_the_wild_squid:0 "the Thrashing Kraken"
+### TODO NOT-IN-ST: nick_agot_the_quiet_squid [AGOT: the Quiet Kraken]
+ nick_agot_the_quiet_squid:0 "the Quiet Kraken"
+### TODO NOT-IN-ST: nick_agot_the_red_squid [AGOT: the Red Kraken]
+ nick_agot_the_red_squid:0 "the Red Kraken"
+### TODO NOT-IN-ST: nick_agot_the_big_squid [AGOT: the Kraken]
+ nick_agot_the_big_squid:0 "the Kraken"
+### TODO NOT-IN-ST: nick_agot_the_strong_squid [AGOT: Strongsquid]
+ nick_agot_the_strong_squid:0 "Strongsquid"
+### TODO NOT-IN-ST: nick_agot_the_fair_squid [AGOT: the Fair Kraken]
+ nick_agot_the_fair_squid:0 "the Fair Kraken"
+### TODO NOT-IN-ST: nick_agot_the_ugly_squid [AGOT: the Monstrous Kraken]
+ nick_agot_the_ugly_squid:0 "the Monstrous Kraken"
+### TODO NOT-IN-ST: nick_agot_the_small_squid [AGOT: the Squidling]
+ nick_agot_the_small_squid:0 "the Squidling"
+### TODO NOT-IN-ST: nick_agot_the_wise_squid [AGOT: the Wise Kraken]
+ nick_agot_the_wise_squid:0 "the Wise Kraken"
+### TODO NOT-IN-ST: nick_agot_the_dumb_squid [AGOT: the Dull Squid]
+ nick_agot_the_dumb_squid:0 "the Dull Squid"
+### TODO NOT-IN-ST: nick_agot_the_dark_squid [AGOT: Darksquid]
+ nick_agot_the_dark_squid:0 "Darksquid"
+### TODO NOT-IN-ST: nick_agot_the_weak_squid [AGOT: the Soft Squid]
+ nick_agot_the_weak_squid:0 "the Soft Squid"
+### TODO NOT-IN-ST: nick_agot_the_silver_squid [AGOT: the Silver Kraken]
+ nick_agot_the_silver_squid:0 "the Silver Kraken"
+### TODO NOT-IN-ST: nick_agot_the_old_squid [AGOT: the Old Kraken]
+ nick_agot_the_old_squid:0 "the Old Kraken"
+### TODO NOT-IN-ST: nick_agot_the_laughing_squid [AGOT: the Laughing Kraken]
+ nick_agot_the_laughing_squid:0 "the Laughing Kraken"
+### TODO NOT-IN-ST: nick_agot_the_squid_daughter [AGOT: the Kraken's Daughter]
+ nick_agot_the_squid_daughter:0 "the Kraken's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_squidknight [AGOT: the Kraken[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_squidknight:0 "the Kraken[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_falcon [AGOT: the Black Falcon]
+ nick_agot_the_black_falcon:0 "the Black Falcon"
+### TODO NOT-IN-ST: nick_agot_the_white_falcon [AGOT: the White Falcon]
+ nick_agot_the_white_falcon:0 "the White Falcon"
+### TODO NOT-IN-ST: nick_agot_the_crazed_falcon [AGOT: the Mad Falcon]
+ nick_agot_the_crazed_falcon:0 "the Mad Falcon"
+### TODO NOT-IN-ST: nick_agot_the_wild_falcon [AGOT: the Vulture]
+ nick_agot_the_wild_falcon:0 "the Vulture"
+### TODO NOT-IN-ST: nick_agot_the_quiet_falcon [AGOT: the Silent Falcon]
+ nick_agot_the_quiet_falcon:0 "the Silent Falcon"
+### TODO NOT-IN-ST: nick_agot_the_red_falcon [AGOT: the Red Falcon]
+ nick_agot_the_red_falcon:0 "the Red Falcon"
+### TODO NOT-IN-ST: nick_agot_the_big_falcon [AGOT: Greathawk]
+ nick_agot_the_big_falcon:0 "Greathawk"
+### TODO NOT-IN-ST: nick_agot_the_strong_falcon [AGOT: the Strong Falcon]
+ nick_agot_the_strong_falcon:0 "the Strong Falcon"
+### TODO NOT-IN-ST: nick_agot_the_fair_falcon [AGOT: the Peregrine]
+ nick_agot_the_fair_falcon:0 "the Peregrine"
+### TODO NOT-IN-ST: nick_agot_the_ugly_falcon [AGOT: the Molting Falcon]
+ nick_agot_the_ugly_falcon:0 "the Molting Falcon"
+### TODO NOT-IN-ST: nick_agot_the_small_falcon [AGOT: Smallhawk]
+ nick_agot_the_small_falcon:0 "Smallhawk"
+### TODO NOT-IN-ST: nick_agot_the_wise_falcon [AGOT: the Sharp Falcon]
+ nick_agot_the_wise_falcon:0 "the Sharp Falcon"
+### TODO NOT-IN-ST: nick_agot_the_dumb_falcon [AGOT: Bluntbeak]
+ nick_agot_the_dumb_falcon:0 "Bluntbeak"
+### TODO NOT-IN-ST: nick_agot_the_dark_falcon [AGOT: Darkhawk]
+ nick_agot_the_dark_falcon:0 "Darkhawk"
+### TODO NOT-IN-ST: nick_agot_the_weak_falcon [AGOT: the Talonless]
+ nick_agot_the_weak_falcon:0 "the Talonless"
+### TODO NOT-IN-ST: nick_agot_the_silver_falcon [AGOT: the Silver Falcon]
+ nick_agot_the_silver_falcon:0 "the Silver Falcon"
+### TODO NOT-IN-ST: nick_agot_the_old_falcon [AGOT: the Old Falcon]
+ nick_agot_the_old_falcon:0 "the Old Falcon"
+### TODO NOT-IN-ST: nick_agot_the_laughing_falcon [AGOT: the Laughing Falcon]
+ nick_agot_the_laughing_falcon:0 "the Laughing Falcon"
+### TODO NOT-IN-ST: nick_agot_the_falcon_daughter [AGOT: the Falcon's Daughter]
+ nick_agot_the_falcon_daughter:0 "the Falcon's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_falconknight [AGOT: the Falcon[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_falconknight:0 "the Falcon[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_hand [AGOT: Blackhand]
+ nick_agot_the_black_hand:0 "Blackhand"
+### TODO NOT-IN-ST: nick_agot_the_white_hand [AGOT: Whitehand]
+ nick_agot_the_white_hand:0 "Whitehand"
+### TODO NOT-IN-ST: nick_agot_the_crazed_hand [AGOT: Crazyhand]
+ nick_agot_the_crazed_hand:0 "Crazyhand"
+### TODO NOT-IN-ST: nick_agot_the_wild_hand [AGOT: Madhand]
+ nick_agot_the_wild_hand:0 "Madhand"
+### TODO NOT-IN-ST: nick_agot_the_quiet_hand [AGOT: the Gentle Touch]
+ nick_agot_the_quiet_hand:0 "the Gentle Touch"
+### TODO NOT-IN-ST: nick_agot_the_red_hand [AGOT: the Fist]
+ nick_agot_the_red_hand:0 "the Fist"
+### TODO NOT-IN-ST: nick_agot_the_big_hand [AGOT: Masterhand]
+ nick_agot_the_big_hand:0 "Masterhand"
+### TODO NOT-IN-ST: nick_agot_the_big_green [AGOT: the Green Giant]
+ nick_agot_the_big_green:0 "the Green Giant"
+### TODO NOT-IN-ST: nick_agot_the_strong_hand [AGOT: Stronghand]
+ nick_agot_the_strong_hand:0 "Stronghand"
+### TODO NOT-IN-ST: nick_agot_the_fair_hand [AGOT: Goldenhand]
+ nick_agot_the_fair_hand:0 "Goldenhand"
+### TODO NOT-IN-ST: nick_agot_the_ugly_hand [AGOT: Brokenhand]
+ nick_agot_the_ugly_hand:0 "Brokenhand"
+### TODO NOT-IN-ST: nick_agot_the_small_hand [AGOT: Smallhand]
+ nick_agot_the_small_hand:0 "Smallhand"
+### TODO NOT-IN-ST: nick_agot_the_wise_hand [AGOT: Evenhand]
+ nick_agot_the_wise_hand:0 "Evenhand"
+### TODO NOT-IN-ST: nick_agot_the_dumb_hand [AGOT: Slowhand]
+ nick_agot_the_dumb_hand:0 "Slowhand"
+### TODO NOT-IN-ST: nick_agot_the_dark_hand [AGOT: Darkhand]
+ nick_agot_the_dark_hand:0 "Darkhand"
+### TODO NOT-IN-ST: nick_agot_the_weak_hand [AGOT: Softouch]
+ nick_agot_the_weak_hand:0 "Softouch"
+### TODO NOT-IN-ST: nick_agot_the_silver_hand [AGOT: Silverhand]
+ nick_agot_the_silver_hand:0 "Silverhand"
+### TODO NOT-IN-ST: nick_agot_the_old_hand [AGOT: Oldhand]
+ nick_agot_the_old_hand:0 "Oldhand"
+### TODO NOT-IN-ST: nick_agot_the_laughing_hand [AGOT: Jollyhand]
+ nick_agot_the_laughing_hand:0 "Jollyhand"
+### TODO NOT-IN-ST: nick_agot_the_hand_daughter [AGOT: the Hand's Daughter]
+ nick_agot_the_hand_daughter:0 "the Hand's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_handknight [AGOT: the Hand[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_handknight:0 "the Hand[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_gardenknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Gardens]
+ nick_agot_the_gardenknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Gardens"
+### TODO NOT-IN-ST: nick_agot_the_greenknight [AGOT: the Green[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_greenknight:0 "the Green[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_iron [AGOT: Blackiron]
+ nick_agot_the_black_iron:0 "Blackiron"
+### TODO NOT-IN-ST: nick_agot_the_wrought_iron [AGOT: Wroughtiron]
+ nick_agot_the_wrought_iron:0 "Wroughtiron"
+### TODO NOT-IN-ST: nick_agot_the_white_iron [AGOT: Whiteiron]
+ nick_agot_the_white_iron:0 "Whiteiron"
+### TODO NOT-IN-ST: nick_agot_the_crazed_iron [AGOT: Madiron]
+ nick_agot_the_crazed_iron:0 "Madiron"
+### TODO NOT-IN-ST: nick_agot_the_wild_iron [AGOT: the Iron Storm]
+ nick_agot_the_wild_iron:0 "the Iron Storm"
+### TODO NOT-IN-ST: nick_agot_the_quiet_iron [AGOT: the Muffled Oar]
+ nick_agot_the_quiet_iron:0 "the Muffled Oar"
+### TODO NOT-IN-ST: nick_agot_the_red_iron [AGOT: Rediron]
+ nick_agot_the_red_iron:0 "Rediron"
+### TODO NOT-IN-ST: nick_agot_the_big_iron [AGOT: Bigiron]
+ nick_agot_the_big_iron:0 "Bigiron"
+### TODO NOT-IN-ST: nick_agot_the_strong_iron [AGOT: Ironmonger]
+ nick_agot_the_strong_iron:0 "Ironmonger"
+### TODO NOT-IN-ST: nick_agot_the_fair_iron [AGOT: Goldiron]
+ nick_agot_the_fair_iron:0 "Goldiron"
+### TODO NOT-IN-ST: nick_agot_the_ugly_iron [AGOT: Pigiron]
+ nick_agot_the_ugly_iron:0 "Pigiron"
+### TODO NOT-IN-ST: nick_agot_the_small_iron [AGOT: the Ingot]
+ nick_agot_the_small_iron:0 "the Ingot"
+### TODO NOT-IN-ST: nick_agot_the_wise_iron [AGOT: Eveniron]
+ nick_agot_the_wise_iron:0 "Eveniron"
+### TODO NOT-IN-ST: nick_agot_the_dumb_iron [AGOT: Dulliron]
+ nick_agot_the_dumb_iron:0 "Dulliron"
+### TODO NOT-IN-ST: nick_agot_the_dark_iron [AGOT: Darkiron]
+ nick_agot_the_dark_iron:0 "Darkiron"
+### TODO NOT-IN-ST: nick_agot_the_weak_iron [AGOT: Softiron]
+ nick_agot_the_weak_iron:0 "Softiron"
+### TODO NOT-IN-ST: nick_agot_the_silver_iron [AGOT: Silveriron]
+ nick_agot_the_silver_iron:0 "Silveriron"
+### TODO NOT-IN-ST: nick_agot_the_old_iron [AGOT: Oldiron]
+ nick_agot_the_old_iron:0 "Oldiron"
+### TODO NOT-IN-ST: nick_agot_the_laughing_iron [AGOT: the Laughing Iron]
+ nick_agot_the_laughing_iron:0 "the Laughing Iron"
+### TODO NOT-IN-ST: nick_agot_the_iron_daughter [AGOT: the Iron Maiden]
+ nick_agot_the_iron_daughter:0 "the Iron Maiden"
+### TODO NOT-IN-ST: nick_agot_the_ironknight [AGOT: the Iron[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_ironknight:0 "the Iron[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_seahorse [AGOT: the Black Seahorse]
+ nick_agot_the_black_seahorse:0 "the Black Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_white_seahorse [AGOT: the White Seahorse]
+ nick_agot_the_white_seahorse:0 "the White Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_crazed_seahorse [AGOT: the Mad Seahorse]
+ nick_agot_the_crazed_seahorse:0 "the Mad Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_wild_seahorse [AGOT: Seawind]
+ nick_agot_the_wild_seahorse:0 "Seawind"
+### TODO NOT-IN-ST: nick_agot_the_quiet_seahorse [AGOT: the Quiet Tide]
+ nick_agot_the_quiet_seahorse:0 "the Quiet Tide"
+### TODO NOT-IN-ST: nick_agot_the_red_seahorse [AGOT: the Sea Snake]
+ nick_agot_the_red_seahorse:0 "the Sea Snake"
+### TODO NOT-IN-ST: nick_agot_the_big_seahorse [AGOT: the Big Seahorse]
+ nick_agot_the_big_seahorse:0 "the Big Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_strong_seahorse [AGOT: Redtide]
+ nick_agot_the_strong_seahorse:0 "Redtide"
+### TODO NOT-IN-ST: nick_agot_the_fair_seahorse [AGOT: the Sea Pearl]
+ nick_agot_the_fair_seahorse:0 "the Sea Pearl"
+### TODO NOT-IN-ST: nick_agot_the_ugly_seahorse [AGOT: the Ugly Seahorse]
+ nick_agot_the_ugly_seahorse:0 "the Ugly Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_small_seahorse [AGOT: the Small Seahorse]
+ nick_agot_the_small_seahorse:0 "the Small Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_wise_seahorse [AGOT: the Wise Seahorse]
+ nick_agot_the_wise_seahorse:0 "the Wise Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_dumb_seahorse [AGOT: the Slow Seahorse]
+ nick_agot_the_dumb_seahorse:0 "the Slow Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_dark_seahorse [AGOT: Darktide]
+ nick_agot_the_dark_seahorse:0 "Darktide"
+### TODO NOT-IN-ST: nick_agot_the_weak_seahorse [AGOT: the Weak Seahorse]
+ nick_agot_the_weak_seahorse:0 "the Weak Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_silver_seahorse [AGOT: the Silver Seahorse]
+ nick_agot_the_silver_seahorse:0 "the Silver Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_old_seahorse [AGOT: the Old Seahorse]
+ nick_agot_the_old_seahorse:0 "the Old Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_laughing_seahorse [AGOT: the Laughing Seahorse]
+ nick_agot_the_laughing_seahorse:0 "the Laughing Seahorse"
+### TODO NOT-IN-ST: nick_agot_the_seahorse_daughter [AGOT: the Seahorse's Daughter]
+ nick_agot_the_seahorse_daughter:0 "the Seahorse's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_seahorseknight [AGOT: the Seahorse[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_seahorseknight:0 "the Seahorse[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_fox [AGOT: the Black Fox]
+ nick_agot_the_black_fox:0 "the Black Fox"
+### TODO NOT-IN-ST: nick_agot_the_white_fox [AGOT: the White Fox]
+ nick_agot_the_white_fox:0 "the White Fox"
+### TODO NOT-IN-ST: nick_agot_the_crazed_fox [AGOT: the Mad Fox]
+ nick_agot_the_crazed_fox:0 "the Mad Fox"
+### TODO NOT-IN-ST: nick_agot_the_wild_fox [AGOT: the Barking Fox]
+ nick_agot_the_wild_fox:0 "the Barking Fox"
+### TODO NOT-IN-ST: nick_agot_the_quiet_fox [AGOT: the Silent Fox]
+ nick_agot_the_quiet_fox:0 "the Silent Fox"
+### TODO NOT-IN-ST: nick_agot_the_red_fox [AGOT: the Red Fox]
+ nick_agot_the_red_fox:0 "the Red Fox"
+### TODO NOT-IN-ST: nick_agot_the_big_fox [AGOT: the Big Fox]
+ nick_agot_the_big_fox:0 "the Big Fox"
+### TODO NOT-IN-ST: nick_agot_the_strong_fox [AGOT: Foxglove]
+ nick_agot_the_strong_fox:0 "Foxglove"
+### TODO NOT-IN-ST: nick_agot_the_fair_fox [AGOT: the Fair Fox]
+ nick_agot_the_fair_fox:0 "the Fair Fox"
+### TODO NOT-IN-ST: nick_agot_the_ugly_fox [AGOT: the Mangy Fox]
+ nick_agot_the_ugly_fox:0 "the Mangy Fox"
+### TODO NOT-IN-ST: nick_agot_the_small_fox [AGOT: the Small Fox]
+ nick_agot_the_small_fox:0 "the Small Fox"
+### TODO NOT-IN-ST: nick_agot_the_wise_fox [AGOT: the Cunning Fox]
+ nick_agot_the_wise_fox:0 "the Cunning Fox"
+### TODO NOT-IN-ST: nick_agot_the_dumb_fox [AGOT: the Slow Fox]
+ nick_agot_the_dumb_fox:0 "the Slow Fox"
+### TODO NOT-IN-ST: nick_agot_the_dark_fox [AGOT: the Sly Fox]
+ nick_agot_the_dark_fox:0 "the Sly Fox"
+### TODO NOT-IN-ST: nick_agot_the_weak_fox [AGOT: the Toothless Fox]
+ nick_agot_the_weak_fox:0 "the Toothless Fox"
+### TODO NOT-IN-ST: nick_agot_the_silver_fox [AGOT: the Silver Fox]
+ nick_agot_the_silver_fox:0 "the Silver Fox"
+### TODO NOT-IN-ST: nick_agot_the_old_fox [AGOT: the Grey Fox]
+ nick_agot_the_old_fox:0 "the Grey Fox"
+### TODO NOT-IN-ST: nick_agot_the_laughing_fox [AGOT: the Laughing Fox]
+ nick_agot_the_laughing_fox:0 "the Laughing Fox"
+### TODO NOT-IN-ST: nick_agot_the_fox_daughter [AGOT: the Vixen]
+ nick_agot_the_fox_daughter:0 "the Vixen"
+### TODO NOT-IN-ST: nick_agot_the_foxknight [AGOT: the Fox[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_foxknight:0 "the Fox[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_bear [AGOT: the Black Bear]
+ nick_agot_the_black_bear:0 "the Black Bear"
+### TODO NOT-IN-ST: nick_agot_the_white_bear [AGOT: the White Bear]
+ nick_agot_the_white_bear:0 "the White Bear"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bear [AGOT: the Mad Bear]
+ nick_agot_the_crazed_bear:0 "the Mad Bear"
+### TODO NOT-IN-ST: nick_agot_the_wild_bear [AGOT: the Wild Bear]
+ nick_agot_the_wild_bear:0 "the Wild Bear"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bear [AGOT: the Sleeping Bear]
+ nick_agot_the_quiet_bear:0 "the Sleeping Bear"
+### TODO NOT-IN-ST: nick_agot_the_red_bear [AGOT: the Red Bear]
+ nick_agot_the_red_bear:0 "the Red Bear"
+### TODO NOT-IN-ST: nick_agot_the_big_bear [AGOT: the Great Bear]
+ nick_agot_the_big_bear:0 "the Great Bear"
+### TODO NOT-IN-ST: nick_agot_the_strong_bear [AGOT: Strongbear]
+ nick_agot_the_strong_bear:0 "Strongbear"
+### TODO NOT-IN-ST: nick_agot_the_fair_bear [AGOT: the Gold Bear]
+ nick_agot_the_fair_bear:0 "the Gold Bear"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bear [AGOT: the Ugly Bear]
+ nick_agot_the_ugly_bear:0 "the Ugly Bear"
+### TODO NOT-IN-ST: nick_agot_the_small_bear [AGOT: the Small Bear]
+ nick_agot_the_small_bear:0 "the Small Bear"
+### TODO NOT-IN-ST: nick_agot_the_wise_bear [AGOT: the Wise Bear]
+ nick_agot_the_wise_bear:0 "the Wise Bear"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bear [AGOT: the Slow Bear]
+ nick_agot_the_dumb_bear:0 "the Slow Bear"
+### TODO NOT-IN-ST: nick_agot_the_dark_bear [AGOT: the Dark Bear]
+ nick_agot_the_dark_bear:0 "the Dark Bear"
+### TODO NOT-IN-ST: nick_agot_the_weak_bear [AGOT: the Weak Bear]
+ nick_agot_the_weak_bear:0 "the Weak Bear"
+### TODO NOT-IN-ST: nick_agot_the_silver_bear [AGOT: the Silver Bear]
+ nick_agot_the_silver_bear:0 "the Silver Bear"
+### TODO NOT-IN-ST: nick_agot_the_old_bear [AGOT: the Old Bear]
+ nick_agot_the_old_bear:0 "the Old Bear"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bear [AGOT: the Laughing Bear]
+ nick_agot_the_laughing_bear:0 "the Laughing Bear"
+### TODO NOT-IN-ST: nick_agot_the_bear_daughter [AGOT: the Bear's Daughter]
+ nick_agot_the_bear_daughter:0 "the Bear's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_bearknight [AGOT: the Bear[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_bearknight:0 "the Bear[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_tower [AGOT: the Blacktower]
+ nick_agot_the_black_tower:0 "the Blacktower"
+### TODO NOT-IN-ST: nick_agot_the_white_tower [AGOT: the Whitetower]
+ nick_agot_the_white_tower:0 "the Whitetower"
+### TODO NOT-IN-ST: nick_agot_the_crazed_tower [AGOT: the Madtower]
+ nick_agot_the_crazed_tower:0 "the Madtower"
+### TODO NOT-IN-ST: nick_agot_the_wild_tower [AGOT: the Angry Tower]
+ nick_agot_the_wild_tower:0 "the Angry Tower"
+### TODO NOT-IN-ST: nick_agot_the_quiet_tower [AGOT: the Mute Tower]
+ nick_agot_the_quiet_tower:0 "the Mute Tower"
+### TODO NOT-IN-ST: nick_agot_the_red_tower [AGOT: Redtower]
+ nick_agot_the_red_tower:0 "Redtower"
+### TODO NOT-IN-ST: nick_agot_the_big_tower [AGOT: the Hightower]
+ nick_agot_the_big_tower:0 "the Hightower"
+### TODO NOT-IN-ST: nick_agot_the_strong_tower [AGOT: the Tower]
+ nick_agot_the_strong_tower:0 "the Tower"
+### TODO NOT-IN-ST: nick_agot_the_fair_tower [AGOT: the Fair Tower]
+ nick_agot_the_fair_tower:0 "the Fair Tower"
+### TODO NOT-IN-ST: nick_agot_the_ugly_tower [AGOT: the Broken Tower]
+ nick_agot_the_ugly_tower:0 "the Broken Tower"
+### TODO NOT-IN-ST: nick_agot_the_small_tower [AGOT: Lowtower]
+ nick_agot_the_small_tower:0 "Lowtower"
+### TODO NOT-IN-ST: nick_agot_the_wise_tower [AGOT: Brightower]
+ nick_agot_the_wise_tower:0 "Brightower"
+### TODO NOT-IN-ST: nick_agot_the_dumb_tower [AGOT: the Slowtower]
+ nick_agot_the_dumb_tower:0 "the Slowtower"
+### TODO NOT-IN-ST: nick_agot_the_dark_tower [AGOT: the Darktower]
+ nick_agot_the_dark_tower:0 "the Darktower"
+### TODO NOT-IN-ST: nick_agot_the_weak_tower [AGOT: the Crumbling Tower]
+ nick_agot_the_weak_tower:0 "the Crumbling Tower"
+### TODO NOT-IN-ST: nick_agot_the_silver_tower [AGOT: the Silvertower]
+ nick_agot_the_silver_tower:0 "the Silvertower"
+### TODO NOT-IN-ST: nick_agot_the_old_tower [AGOT: Oldtower]
+ nick_agot_the_old_tower:0 "Oldtower"
+### TODO NOT-IN-ST: nick_agot_the_laughing_tower [AGOT: the Laughing Tower]
+ nick_agot_the_laughing_tower:0 "the Laughing Tower"
+### TODO NOT-IN-ST: nick_agot_the_tower_daughter [AGOT: the Tower's Daughter]
+ nick_agot_the_tower_daughter:0 "the Tower's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_towerknight [AGOT: the Tower[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_towerknight:0 "the Tower[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_griffin [AGOT: the Black Griffin]
+ nick_agot_the_black_griffin:0 "the Black Griffin"
+### TODO NOT-IN-ST: nick_agot_the_white_griffin [AGOT: the White Griffin]
+ nick_agot_the_white_griffin:0 "the White Griffin"
+### TODO NOT-IN-ST: nick_agot_the_crazed_griffin [AGOT: the Mad Griffin]
+ nick_agot_the_crazed_griffin:0 "the Mad Griffin"
+### TODO NOT-IN-ST: nick_agot_the_wild_griffin [AGOT: the Wild Griffin]
+ nick_agot_the_wild_griffin:0 "the Wild Griffin"
+### TODO NOT-IN-ST: nick_agot_the_quiet_griffin [AGOT: the Quiet Griffin]
+ nick_agot_the_quiet_griffin:0 "the Quiet Griffin"
+### TODO NOT-IN-ST: nick_agot_the_red_griffin [AGOT: the Red Griffin]
+ nick_agot_the_red_griffin:0 "the Red Griffin"
+### TODO NOT-IN-ST: nick_agot_the_big_griffin [AGOT: the Big Griffin]
+ nick_agot_the_big_griffin:0 "the Big Griffin"
+### TODO NOT-IN-ST: nick_agot_the_strong_griffin [AGOT: the Strong Griffin]
+ nick_agot_the_strong_griffin:0 "the Strong Griffin"
+### TODO NOT-IN-ST: nick_agot_the_fair_griffin [AGOT: the Golden Griffin]
+ nick_agot_the_fair_griffin:0 "the Golden Griffin"
+### TODO NOT-IN-ST: nick_agot_the_ugly_griffin [AGOT: the Ugly Griffin]
+ nick_agot_the_ugly_griffin:0 "the Ugly Griffin"
+### TODO NOT-IN-ST: nick_agot_the_small_griffin [AGOT: the Little Griffin]
+ nick_agot_the_small_griffin:0 "the Little Griffin"
+### TODO NOT-IN-ST: nick_agot_the_wise_griffin [AGOT: the Wise Griffin]
+ nick_agot_the_wise_griffin:0 "the Wise Griffin"
+### TODO NOT-IN-ST: nick_agot_the_dumb_griffin [AGOT: the Dull Griffin]
+ nick_agot_the_dumb_griffin:0 "the Dull Griffin"
+### TODO NOT-IN-ST: nick_agot_the_dark_griffin [AGOT: the Dark Griffin]
+ nick_agot_the_dark_griffin:0 "the Dark Griffin"
+### TODO NOT-IN-ST: nick_agot_the_weak_griffin [AGOT: the Weak Griffin]
+ nick_agot_the_weak_griffin:0 "the Weak Griffin"
+### TODO NOT-IN-ST: nick_agot_the_silver_griffin [AGOT: the Silver Griffin]
+ nick_agot_the_silver_griffin:0 "the Silver Griffin"
+### TODO NOT-IN-ST: nick_agot_the_old_griffin [AGOT: the Old Griffin]
+ nick_agot_the_old_griffin:0 "the Old Griffin"
+### TODO NOT-IN-ST: nick_agot_the_laughing_griffin [AGOT: the Laughing Griffin]
+ nick_agot_the_laughing_griffin:0 "the Laughing Griffin"
+### TODO NOT-IN-ST: nick_agot_the_griffin_daughter [AGOT: the Griffin's Daughter]
+ nick_agot_the_griffin_daughter:0 "the Griffin's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_griffinknight [AGOT: the Griffin[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_griffinknight:0 "the Griffin[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_bridge [AGOT: Blackbridge]
+ nick_agot_the_black_bridge:0 "Blackbridge"
+### TODO NOT-IN-ST: nick_agot_the_white_bridge [AGOT: Whitebridge]
+ nick_agot_the_white_bridge:0 "Whitebridge"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bridge [AGOT: Madbridge]
+ nick_agot_the_crazed_bridge:0 "Madbridge"
+### TODO NOT-IN-ST: nick_agot_the_wild_bridge [AGOT: the Red Bridge]
+ nick_agot_the_wild_bridge:0 "the Red Bridge"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bridge [AGOT: the Abandoned Bridge]
+ nick_agot_the_quiet_bridge:0 "the Abandoned Bridge"
+### TODO NOT-IN-ST: nick_agot_the_red_bridge [AGOT: Bloodbridge]
+ nick_agot_the_red_bridge:0 "Bloodbridge"
+### TODO NOT-IN-ST: nick_agot_the_big_bridge [AGOT: the Big Bridge]
+ nick_agot_the_big_bridge:0 "the Big Bridge"
+### TODO NOT-IN-ST: nick_agot_the_strong_bridge [AGOT: the Arch]
+ nick_agot_the_strong_bridge:0 "the Arch"
+### TODO NOT-IN-ST: nick_agot_the_fair_bridge [AGOT: the Golden Bridge]
+ nick_agot_the_fair_bridge:0 "the Golden Bridge"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bridge [AGOT: the Troll Beneath the Bridge]
+ nick_agot_the_ugly_bridge:0 "the Troll Beneath the Bridge"
+### TODO NOT-IN-ST: nick_agot_the_small_bridge [AGOT: the Little Bridge]
+ nick_agot_the_small_bridge:0 "the Little Bridge"
+### TODO NOT-IN-ST: nick_agot_the_wise_bridge [AGOT: the Wise Bridge]
+ nick_agot_the_wise_bridge:0 "the Wise Bridge"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bridge [AGOT: the Crooked Bridge]
+ nick_agot_the_dumb_bridge:0 "the Crooked Bridge"
+### TODO NOT-IN-ST: nick_agot_the_dark_bridge [AGOT: Doublecross]
+ nick_agot_the_dark_bridge:0 "Doublecross"
+### TODO NOT-IN-ST: nick_agot_the_weak_bridge [AGOT: the Crumbling Bridge]
+ nick_agot_the_weak_bridge:0 "the Crumbling Bridge"
+### TODO NOT-IN-ST: nick_agot_the_silver_bridge [AGOT: the Silver Bridge]
+ nick_agot_the_silver_bridge:0 "the Silver Bridge"
+### TODO NOT-IN-ST: nick_agot_the_old_bridge [AGOT: the Old Bridge]
+ nick_agot_the_old_bridge:0 "the Old Bridge"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bridge [AGOT: the Laughing Bridge]
+ nick_agot_the_laughing_bridge:0 "the Laughing Bridge"
+### TODO NOT-IN-ST: nick_agot_the_bridge_daughter [AGOT: the Bridge's Daughter]
+ nick_agot_the_bridge_daughter:0 "the Bridge's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_bridgeknight [AGOT: the Bridge[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_bridgeknight:0 "the Bridge[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_crossingknight [AGOT: the[CHARACTER.Custom('GetWarriorNickname')] of the Crossing]
+ nick_agot_the_crossingknight:0 "the[CHARACTER.Custom('GetWarriorNickname')] of the Crossing"
+### TODO NOT-IN-ST: nick_agot_the_black_gate [AGOT: the Black Gate]
+ nick_agot_the_black_gate:0 "the Black Gate"
+### TODO NOT-IN-ST: nick_agot_the_white_gate [AGOT: the White Gate]
+ nick_agot_the_white_gate:0 "the White Gate"
+### TODO NOT-IN-ST: nick_agot_the_crazed_gate [AGOT: the Mad Gate]
+ nick_agot_the_crazed_gate:0 "the Mad Gate"
+### TODO NOT-IN-ST: nick_agot_the_wild_gate [AGOT: the Screaming Gate]
+ nick_agot_the_wild_gate:0 "the Screaming Gate"
+### TODO NOT-IN-ST: nick_agot_the_quiet_gate [AGOT: the Quiet Gate]
+ nick_agot_the_quiet_gate:0 "the Quiet Gate"
+### TODO NOT-IN-ST: nick_agot_the_red_gate [AGOT: the Red Gate]
+ nick_agot_the_red_gate:0 "the Red Gate"
+### TODO NOT-IN-ST: nick_agot_the_big_gate [AGOT: the Portcullis]
+ nick_agot_the_big_gate:0 "the Portcullis"
+### TODO NOT-IN-ST: nick_agot_the_strong_gate [AGOT: the Barricade]
+ nick_agot_the_strong_gate:0 "the Barricade"
+### TODO NOT-IN-ST: nick_agot_the_fair_gate [AGOT: the Golden Gate]
+ nick_agot_the_fair_gate:0 "the Golden Gate"
+### TODO NOT-IN-ST: nick_agot_the_ugly_gate [AGOT: the Rusty Gate]
+ nick_agot_the_ugly_gate:0 "the Rusty Gate"
+### TODO NOT-IN-ST: nick_agot_the_small_gate [AGOT: the Little Gate]
+ nick_agot_the_small_gate:0 "the Little Gate"
+### TODO NOT-IN-ST: nick_agot_the_wise_gate [AGOT: the Wise Gate]
+ nick_agot_the_wise_gate:0 "the Wise Gate"
+### TODO NOT-IN-ST: nick_agot_the_dumb_gate [AGOT: the Open Gate]
+ nick_agot_the_dumb_gate:0 "the Open Gate"
+### TODO NOT-IN-ST: nick_agot_the_dark_gate [AGOT: the Turnkey]
+ nick_agot_the_dark_gate:0 "the Turnkey"
+### TODO NOT-IN-ST: nick_agot_the_weak_gate [AGOT: the Brittle Gate]
+ nick_agot_the_weak_gate:0 "the Brittle Gate"
+### TODO NOT-IN-ST: nick_agot_the_silver_gate [AGOT: the Silver Gate]
+ nick_agot_the_silver_gate:0 "the Silver Gate"
+### TODO NOT-IN-ST: nick_agot_the_old_gate [AGOT: the Old Gate]
+ nick_agot_the_old_gate:0 "the Old Gate"
+### TODO NOT-IN-ST: nick_agot_the_laughing_gate [AGOT: the Laughing Gate]
+ nick_agot_the_laughing_gate:0 "the Laughing Gate"
+### TODO NOT-IN-ST: nick_agot_the_gate_daughter [AGOT: the Gate's Daughter]
+ nick_agot_the_gate_daughter:0 "the Gate's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_gateknight [AGOT: the Gate[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_gateknight:0 "the Gate[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_star [AGOT: Blackstar]
+ nick_agot_the_black_star:0 "Blackstar"
+### TODO NOT-IN-ST: nick_agot_the_white_star [AGOT: Whitestar]
+ nick_agot_the_white_star:0 "Whitestar"
+### TODO NOT-IN-ST: nick_agot_the_crazed_star [AGOT: the Mad Star]
+ nick_agot_the_crazed_star:0 "the Mad Star"
+### TODO NOT-IN-ST: nick_agot_the_wild_star [AGOT: the Wroth Star]
+ nick_agot_the_wild_star:0 "the Wroth Star"
+### TODO NOT-IN-ST: nick_agot_the_quiet_star [AGOT: the Quiet Star]
+ nick_agot_the_quiet_star:0 "the Quiet Star"
+### TODO NOT-IN-ST: nick_agot_the_red_star [AGOT: the Redstar]
+ nick_agot_the_red_star:0 "the Redstar"
+### TODO NOT-IN-ST: nick_agot_the_big_star [AGOT: the Big Star]
+ nick_agot_the_big_star:0 "the Big Star"
+### TODO NOT-IN-ST: nick_agot_the_strong_star [AGOT: Strongstar]
+ nick_agot_the_strong_star:0 "Strongstar"
+### TODO NOT-IN-ST: nick_agot_the_fair_star [AGOT: Starlight]
+ nick_agot_the_fair_star:0 "Starlight"
+### TODO NOT-IN-ST: nick_agot_the_ugly_star [AGOT: the Dim Star]
+ nick_agot_the_ugly_star:0 "the Dim Star"
+### TODO NOT-IN-ST: nick_agot_the_small_star [AGOT: the Little Star]
+ nick_agot_the_small_star:0 "the Little Star"
+### TODO NOT-IN-ST: nick_agot_the_wise_star [AGOT: Brightstar]
+ nick_agot_the_wise_star:0 "Brightstar"
+### TODO NOT-IN-ST: nick_agot_the_dumb_star [AGOT: Dullstar]
+ nick_agot_the_dumb_star:0 "Dullstar"
+### TODO NOT-IN-ST: nick_agot_the_dark_star [AGOT: Darkstar]
+ nick_agot_the_dark_star:0 "Darkstar"
+### TODO NOT-IN-ST: nick_agot_the_weak_star [AGOT: the Weak Star]
+ nick_agot_the_weak_star:0 "the Weak Star"
+### TODO NOT-IN-ST: nick_agot_the_silver_star [AGOT: the Silver Star]
+ nick_agot_the_silver_star:0 "the Silver Star"
+### TODO NOT-IN-ST: nick_agot_the_old_star [AGOT: the Old Star]
+ nick_agot_the_old_star:0 "the Old Star"
+### TODO NOT-IN-ST: nick_agot_the_laughing_star [AGOT: the Shining Star]
+ nick_agot_the_laughing_star:0 "the Shining Star"
+### TODO NOT-IN-ST: nick_agot_the_star_daughter [AGOT: the Star's Daughter]
+ nick_agot_the_star_daughter:0 "the Star's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_starknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Stars]
+ nick_agot_the_starknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Stars"
+### TODO NOT-IN-ST: nick_agot_the_black_sword [AGOT: the Black Sword]
+ nick_agot_the_black_sword:0 "the Black Sword"
+### TODO NOT-IN-ST: nick_agot_the_white_sword [AGOT: the White Sword]
+ nick_agot_the_white_sword:0 "the White Sword"
+### TODO NOT-IN-ST: nick_agot_the_crazed_sword [AGOT: the Mad Sword]
+ nick_agot_the_crazed_sword:0 "the Mad Sword"
+### TODO NOT-IN-ST: nick_agot_the_wild_sword [AGOT: the Cleaver]
+ nick_agot_the_wild_sword:0 "the Cleaver"
+### TODO NOT-IN-ST: nick_agot_the_quiet_sword [AGOT: the Silent Sword]
+ nick_agot_the_quiet_sword:0 "the Silent Sword"
+### TODO NOT-IN-ST: nick_agot_the_red_sword [AGOT: Redsword]
+ nick_agot_the_red_sword:0 "Redsword"
+### TODO NOT-IN-ST: nick_agot_the_big_sword [AGOT: the Greatsword]
+ nick_agot_the_big_sword:0 "the Greatsword"
+### TODO NOT-IN-ST: nick_agot_the_strong_sword [AGOT: the Strong Sword]
+ nick_agot_the_strong_sword:0 "the Strong Sword"
+### TODO NOT-IN-ST: nick_agot_the_fair_sword [AGOT: the Golden Sword]
+ nick_agot_the_fair_sword:0 "the Golden Sword"
+### TODO NOT-IN-ST: nick_agot_the_ugly_sword [AGOT: the Dented Sword]
+ nick_agot_the_ugly_sword:0 "the Dented Sword"
+### TODO NOT-IN-ST: nick_agot_the_small_sword [AGOT: the Shortsword]
+ nick_agot_the_small_sword:0 "the Shortsword"
+### TODO NOT-IN-ST: nick_agot_the_wise_sword [AGOT: the Sharp Sword]
+ nick_agot_the_wise_sword:0 "the Sharp Sword"
+### TODO NOT-IN-ST: nick_agot_the_dumb_sword [AGOT: the Blunt Sword]
+ nick_agot_the_dumb_sword:0 "the Blunt Sword"
+### TODO NOT-IN-ST: nick_agot_the_dark_sword [AGOT: Darksword]
+ nick_agot_the_dark_sword:0 "Darksword"
+### TODO NOT-IN-ST: nick_agot_the_weak_sword [AGOT: the Blunt Sword]
+ nick_agot_the_weak_sword:0 "the Blunt Sword"
+### TODO NOT-IN-ST: nick_agot_the_silver_sword [AGOT: the Silver Sword]
+ nick_agot_the_silver_sword:0 "the Silver Sword"
+### TODO NOT-IN-ST: nick_agot_the_old_sword [AGOT: Old Scabbard]
+ nick_agot_the_old_sword:0 "Old Scabbard"
+### TODO NOT-IN-ST: nick_agot_the_laughing_sword [AGOT: the Singing Sword]
+ nick_agot_the_laughing_sword:0 "the Singing Sword"
+### TODO NOT-IN-ST: nick_agot_the_sword_daughter [AGOT: the Sword's Daughter]
+ nick_agot_the_sword_daughter:0 "the Sword's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_swordknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Swords]
+ nick_agot_the_swordknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Swords"
+### TODO NOT-IN-ST: nick_agot_the_black_oak [AGOT: the Black Oak]
+ nick_agot_the_black_oak:0 "the Black Oak"
+### TODO NOT-IN-ST: nick_agot_the_white_oak [AGOT: the White Oak]
+ nick_agot_the_white_oak:0 "the White Oak"
+### TODO NOT-IN-ST: nick_agot_the_crazed_oak [AGOT: the Mad Oak]
+ nick_agot_the_crazed_oak:0 "the Mad Oak"
+### TODO NOT-IN-ST: nick_agot_the_wild_oak [AGOT: the Wild Oak]
+ nick_agot_the_wild_oak:0 "the Wild Oak"
+### TODO NOT-IN-ST: nick_agot_the_quiet_oak [AGOT: the Hushed Oak]
+ nick_agot_the_quiet_oak:0 "the Hushed Oak"
+### TODO NOT-IN-ST: nick_agot_the_red_oak [AGOT: Redoak]
+ nick_agot_the_red_oak:0 "Redoak"
+### TODO NOT-IN-ST: nick_agot_the_big_oak [AGOT: the Oak]
+ nick_agot_the_big_oak:0 "the Oak"
+### TODO NOT-IN-ST: nick_agot_the_strong_oak [AGOT: Strongoak]
+ nick_agot_the_strong_oak:0 "Strongoak"
+### TODO NOT-IN-ST: nick_agot_the_fair_oak [AGOT: the Golden Oak]
+ nick_agot_the_fair_oak:0 "the Golden Oak"
+### TODO NOT-IN-ST: nick_agot_the_ugly_oak [AGOT: the Ugly Oak]
+ nick_agot_the_ugly_oak:0 "the Ugly Oak"
+### TODO NOT-IN-ST: nick_agot_the_small_oak [AGOT: the Sapling]
+ nick_agot_the_small_oak:0 "the Sapling"
+### TODO NOT-IN-ST: nick_agot_the_wise_oak [AGOT: the Wise Oak]
+ nick_agot_the_wise_oak:0 "the Wise Oak"
+### TODO NOT-IN-ST: nick_agot_the_dumb_oak [AGOT: the Dull Oak]
+ nick_agot_the_dumb_oak:0 "the Dull Oak"
+### TODO NOT-IN-ST: nick_agot_the_dark_oak [AGOT: Darkoak]
+ nick_agot_the_dark_oak:0 "Darkoak"
+### TODO NOT-IN-ST: nick_agot_the_weak_oak [AGOT: the Acorn]
+ nick_agot_the_weak_oak:0 "the Acorn"
+### TODO NOT-IN-ST: nick_agot_the_silver_oak [AGOT: the Silver Oak]
+ nick_agot_the_silver_oak:0 "the Silver Oak"
+### TODO NOT-IN-ST: nick_agot_the_old_oak [AGOT: the Old Oak]
+ nick_agot_the_old_oak:0 "the Old Oak"
+### TODO NOT-IN-ST: nick_agot_the_laughing_oak [AGOT: the Laughing Oak]
+ nick_agot_the_laughing_oak:0 "the Laughing Oak"
+### TODO NOT-IN-ST: nick_agot_the_oak_daughter [AGOT: the Oak's Daughter]
+ nick_agot_the_oak_daughter:0 "the Oak's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_oakknight [AGOT: the Oak[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_oakknight:0 "the Oak[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_merman [AGOT: the Black Merman]
+ nick_agot_the_black_merman:0 "the Black Merman"
+### TODO NOT-IN-ST: nick_agot_the_white_merman [AGOT: the White Merman]
+ nick_agot_the_white_merman:0 "the White Merman"
+### TODO NOT-IN-ST: nick_agot_the_crazed_merman [AGOT: the Mad Merman]
+ nick_agot_the_crazed_merman:0 "the Mad Merman"
+### TODO NOT-IN-ST: nick_agot_the_wild_merman [AGOT: the Raging Merman]
+ nick_agot_the_wild_merman:0 "the Raging Merman"
+### TODO NOT-IN-ST: nick_agot_the_quiet_merman [AGOT: the Quiet Merman]
+ nick_agot_the_quiet_merman:0 "the Quiet Merman"
+### TODO NOT-IN-ST: nick_agot_the_red_merman [AGOT: the Red Merman]
+ nick_agot_the_red_merman:0 "the Red Merman"
+### TODO NOT-IN-ST: nick_agot_the_big_merman [AGOT: the Big Merman]
+ nick_agot_the_big_merman:0 "the Big Merman"
+### TODO NOT-IN-ST: nick_agot_the_strong_merman [AGOT: the Merman's Trident]
+ nick_agot_the_strong_merman:0 "the Merman's Trident"
+### TODO NOT-IN-ST: nick_agot_the_fair_merman [AGOT: the Fair Merman]
+ nick_agot_the_fair_merman:0 "the Fair Merman"
+### TODO NOT-IN-ST: nick_agot_the_ugly_merman [AGOT: the Ugly Merman]
+ nick_agot_the_ugly_merman:0 "the Ugly Merman"
+### TODO NOT-IN-ST: nick_agot_the_small_merman [AGOT: the Little Merman]
+ nick_agot_the_small_merman:0 "the Little Merman"
+### TODO NOT-IN-ST: nick_agot_the_wise_merman [AGOT: the Wise Merman]
+ nick_agot_the_wise_merman:0 "the Wise Merman"
+### TODO NOT-IN-ST: nick_agot_the_dumb_merman [AGOT: the Dull Merman]
+ nick_agot_the_dumb_merman:0 "the Dull Merman"
+### TODO NOT-IN-ST: nick_agot_the_dark_merman [AGOT: the Dark Merman]
+ nick_agot_the_dark_merman:0 "the Dark Merman"
+### TODO NOT-IN-ST: nick_agot_the_weak_merman [AGOT: the Weak Merman]
+ nick_agot_the_weak_merman:0 "the Weak Merman"
+### TODO NOT-IN-ST: nick_agot_the_silver_merman [AGOT: the Silver Merman]
+ nick_agot_the_silver_merman:0 "the Silver Merman"
+### TODO NOT-IN-ST: nick_agot_the_old_merman [AGOT: the Old Man of the Sea]
+ nick_agot_the_old_merman:0 "the Old Man of the Sea"
+### TODO NOT-IN-ST: nick_agot_the_laughing_merman [AGOT: the Laughing Merman]
+ nick_agot_the_laughing_merman:0 "the Laughing Merman"
+### TODO NOT-IN-ST: nick_agot_the_merman_daughter [AGOT: the Merman's Daughter]
+ nick_agot_the_merman_daughter:0 "the Merman's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_mermanknight [AGOT: the Merman[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_mermanknight:0 "the Merman[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_mermaid [AGOT: the Black Mermaid]
+ nick_agot_the_black_mermaid:0 "the Black Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_white_mermaid [AGOT: the White Mermaid]
+ nick_agot_the_white_mermaid:0 "the White Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_crazed_mermaid [AGOT: the Crazy Mermaid]
+ nick_agot_the_crazed_mermaid:0 "the Crazy Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_wild_mermaid [AGOT: the Wild Mermaid]
+ nick_agot_the_wild_mermaid:0 "the Wild Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_quiet_mermaid [AGOT: the Quiet Mermaid]
+ nick_agot_the_quiet_mermaid:0 "the Quiet Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_red_mermaid [AGOT: the Red Mermaid]
+ nick_agot_the_red_mermaid:0 "the Red Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_big_mermaid [AGOT: the Big Mermaid]
+ nick_agot_the_big_mermaid:0 "the Big Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_strong_mermaid [AGOT: the Strong Mermaid]
+ nick_agot_the_strong_mermaid:0 "the Strong Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_fair_mermaid [AGOT: the Siren]
+ nick_agot_the_fair_mermaid:0 "the Siren"
+### TODO NOT-IN-ST: nick_agot_the_ugly_mermaid [AGOT: the Ugly Mermaid]
+ nick_agot_the_ugly_mermaid:0 "the Ugly Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_small_mermaid [AGOT: the Little Mermaid]
+ nick_agot_the_small_mermaid:0 "the Little Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_wise_mermaid [AGOT: the Wise Mermaid]
+ nick_agot_the_wise_mermaid:0 "the Wise Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_dumb_mermaid [AGOT: the Dumb Mermaid]
+ nick_agot_the_dumb_mermaid:0 "the Dumb Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_dark_mermaid [AGOT: the Dark Mermaid]
+ nick_agot_the_dark_mermaid:0 "the Dark Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_weak_mermaid [AGOT: the Weak Mermaid]
+ nick_agot_the_weak_mermaid:0 "the Weak Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_silver_mermaid [AGOT: the Silver Mermaid]
+ nick_agot_the_silver_mermaid:0 "the Silver Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_old_mermaid [AGOT: the Old Mermaid]
+ nick_agot_the_old_mermaid:0 "the Old Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_laughing_mermaid [AGOT: the Laughing Mermaid]
+ nick_agot_the_laughing_mermaid:0 "the Laughing Mermaid"
+### TODO NOT-IN-ST: nick_agot_the_mermaidknight [AGOT: the Mermaid[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_mermaidknight:0 "the Mermaid[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_bat [AGOT: the Black Bat]
+ nick_agot_the_black_bat:0 "the Black Bat"
+### TODO NOT-IN-ST: nick_agot_the_white_bat [AGOT: the White Bat]
+ nick_agot_the_white_bat:0 "the White Bat"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bat [AGOT: the Mad Bat]
+ nick_agot_the_crazed_bat:0 "the Mad Bat"
+### TODO NOT-IN-ST: nick_agot_the_wild_bat [AGOT: the Screeching Bat]
+ nick_agot_the_wild_bat:0 "the Screeching Bat"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bat [AGOT: the Silent Bat]
+ nick_agot_the_quiet_bat:0 "the Silent Bat"
+### TODO NOT-IN-ST: nick_agot_the_red_bat [AGOT: the Bloody Bat]
+ nick_agot_the_red_bat:0 "the Bloody Bat"
+### TODO NOT-IN-ST: nick_agot_the_big_bat [AGOT: the Giant Bat]
+ nick_agot_the_big_bat:0 "the Giant Bat"
+### TODO NOT-IN-ST: nick_agot_the_strong_bat [AGOT: Strongbat]
+ nick_agot_the_strong_bat:0 "Strongbat"
+### TODO NOT-IN-ST: nick_agot_the_fair_bat [AGOT: the Noble Bat]
+ nick_agot_the_fair_bat:0 "the Noble Bat"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bat [AGOT: Batface]
+ nick_agot_the_ugly_bat:0 "Batface"
+### TODO NOT-IN-ST: nick_agot_the_small_bat [AGOT: the Batling]
+ nick_agot_the_small_bat:0 "the Batling"
+### TODO NOT-IN-ST: nick_agot_the_wise_bat [AGOT: the Bright Bat]
+ nick_agot_the_wise_bat:0 "the Bright Bat"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bat [AGOT: the Dumb Bat]
+ nick_agot_the_dumb_bat:0 "the Dumb Bat"
+### TODO NOT-IN-ST: nick_agot_the_dark_bat [AGOT: the Dark Bat]
+ nick_agot_the_dark_bat:0 "the Dark Bat"
+### TODO NOT-IN-ST: nick_agot_the_weak_bat [AGOT: the Toothless Bat]
+ nick_agot_the_weak_bat:0 "the Toothless Bat"
+### TODO NOT-IN-ST: nick_agot_the_silver_bat [AGOT: the Silver Bat]
+ nick_agot_the_silver_bat:0 "the Silver Bat"
+### TODO NOT-IN-ST: nick_agot_the_old_bat [AGOT: the Old Bat]
+ nick_agot_the_old_bat:0 "the Old Bat"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bat [AGOT: the Laughing Bat]
+ nick_agot_the_laughing_bat:0 "the Laughing Bat"
+### TODO NOT-IN-ST: nick_agot_the_bat_daughter [AGOT: the Bat's Daughter]
+ nick_agot_the_bat_daughter:0 "the Bat's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_batknight [AGOT: the Bat[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_batknight:0 "the Bat[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_boar [AGOT: the Black Boar]
+ nick_agot_the_black_boar:0 "the Black Boar"
+### TODO NOT-IN-ST: nick_agot_the_white_boar [AGOT: the White Boar]
+ nick_agot_the_white_boar:0 "the White Boar"
+### TODO NOT-IN-ST: nick_agot_the_crazed_boar [AGOT: the Mad Boar]
+ nick_agot_the_crazed_boar:0 "the Mad Boar"
+### TODO NOT-IN-ST: nick_agot_the_wild_boar [AGOT: the Bristling Boar]
+ nick_agot_the_wild_boar:0 "the Bristling Boar"
+### TODO NOT-IN-ST: nick_agot_the_quiet_boar [AGOT: the Silent Boar]
+ nick_agot_the_quiet_boar:0 "the Silent Boar"
+### TODO NOT-IN-ST: nick_agot_the_red_boar [AGOT: the Bloody Boar]
+ nick_agot_the_red_boar:0 "the Bloody Boar"
+### TODO NOT-IN-ST: nick_agot_the_big_boar [AGOT: the Boar]
+ nick_agot_the_big_boar:0 "the Boar"
+### TODO NOT-IN-ST: nick_agot_the_strong_boar [AGOT: Strongboar]
+ nick_agot_the_strong_boar:0 "Strongboar"
+### TODO NOT-IN-ST: nick_agot_the_fair_boar [AGOT: the Noble Boar]
+ nick_agot_the_fair_boar:0 "the Noble Boar"
+### TODO NOT-IN-ST: nick_agot_the_ugly_boar [AGOT: Pigface]
+ nick_agot_the_ugly_boar:0 "Pigface"
+### TODO NOT-IN-ST: nick_agot_the_small_boar [AGOT: the Piglet]
+ nick_agot_the_small_boar:0 "the Piglet"
+### TODO NOT-IN-ST: nick_agot_the_wise_boar [AGOT: the Bright Boar]
+ nick_agot_the_wise_boar:0 "the Bright Boar"
+### TODO NOT-IN-ST: nick_agot_the_dumb_boar [AGOT: the Dumb Boar]
+ nick_agot_the_dumb_boar:0 "the Dumb Boar"
+### TODO NOT-IN-ST: nick_agot_the_dark_boar [AGOT: the Dark Boar]
+ nick_agot_the_dark_boar:0 "the Dark Boar"
+### TODO NOT-IN-ST: nick_agot_the_weak_boar [AGOT: the Tuskless]
+ nick_agot_the_weak_boar:0 "the Tuskless"
+### TODO NOT-IN-ST: nick_agot_the_silver_boar [AGOT: the Silver Boar]
+ nick_agot_the_silver_boar:0 "the Silver Boar"
+### TODO NOT-IN-ST: nick_agot_the_old_boar [AGOT: the Old Boar]
+ nick_agot_the_old_boar:0 "the Old Boar"
+### TODO NOT-IN-ST: nick_agot_the_laughing_boar [AGOT: the Laughing Boar]
+ nick_agot_the_laughing_boar:0 "the Laughing Boar"
+### TODO NOT-IN-ST: nick_agot_the_boar_daughter [AGOT: the Boar's Daughter]
+ nick_agot_the_boar_daughter:0 "the Boar's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_boarknight [AGOT: the Boar[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_boarknight:0 "the Boar[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_badger [AGOT: the Black Badger]
+ nick_agot_the_black_badger:0 "the Black Badger"
+### TODO NOT-IN-ST: nick_agot_the_white_badger [AGOT: the White Badger]
+ nick_agot_the_white_badger:0 "the White Badger"
+### TODO NOT-IN-ST: nick_agot_the_crazed_badger [AGOT: the Mad Badger]
+ nick_agot_the_crazed_badger:0 "the Mad Badger"
+### TODO NOT-IN-ST: nick_agot_the_wild_badger [AGOT: the Honey Badger]
+ nick_agot_the_wild_badger:0 "the Honey Badger"
+### TODO NOT-IN-ST: nick_agot_the_quiet_badger [AGOT: the Quiet Badger]
+ nick_agot_the_quiet_badger:0 "the Quiet Badger"
+### TODO NOT-IN-ST: nick_agot_the_red_badger [AGOT: the Bloody Badger]
+ nick_agot_the_red_badger:0 "the Bloody Badger"
+### TODO NOT-IN-ST: nick_agot_the_big_badger [AGOT: the Giant Badger]
+ nick_agot_the_big_badger:0 "the Giant Badger"
+### TODO NOT-IN-ST: nick_agot_the_strong_badger [AGOT: Strongbadger]
+ nick_agot_the_strong_badger:0 "Strongbadger"
+### TODO NOT-IN-ST: nick_agot_the_fair_badger [AGOT: the Noble Badger]
+ nick_agot_the_fair_badger:0 "the Noble Badger"
+### TODO NOT-IN-ST: nick_agot_the_ugly_badger [AGOT: Badgerface]
+ nick_agot_the_ugly_badger:0 "Badgerface"
+### TODO NOT-IN-ST: nick_agot_the_small_badger [AGOT: the Little Badger]
+ nick_agot_the_small_badger:0 "the Little Badger"
+### TODO NOT-IN-ST: nick_agot_the_wise_badger [AGOT: the Bright Badger]
+ nick_agot_the_wise_badger:0 "the Bright Badger"
+### TODO NOT-IN-ST: nick_agot_the_dumb_badger [AGOT: the Dumb Badger]
+ nick_agot_the_dumb_badger:0 "the Dumb Badger"
+### TODO NOT-IN-ST: nick_agot_the_dark_badger [AGOT: the Dark Badger]
+ nick_agot_the_dark_badger:0 "the Dark Badger"
+### TODO NOT-IN-ST: nick_agot_the_weak_badger [AGOT: the Toothless Badger]
+ nick_agot_the_weak_badger:0 "the Toothless Badger"
+### TODO NOT-IN-ST: nick_agot_the_silver_badger [AGOT: the Silver Badger]
+ nick_agot_the_silver_badger:0 "the Silver Badger"
+### TODO NOT-IN-ST: nick_agot_the_old_badger [AGOT: the Old Badger]
+ nick_agot_the_old_badger:0 "the Old Badger"
+### TODO NOT-IN-ST: nick_agot_the_laughing_badger [AGOT: the Laughing Badger]
+ nick_agot_the_laughing_badger:0 "the Laughing Badger"
+### TODO NOT-IN-ST: nick_agot_the_badger_daughter [AGOT: the Badger's Daughter]
+ nick_agot_the_badger_daughter:0 "the Badger's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_badgerknight [AGOT: the Badger[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_badgerknight:0 "the Badger[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_bronze [AGOT: Blackrune]
+ nick_agot_the_black_bronze:0 "Blackrune"
+### TODO NOT-IN-ST: nick_agot_the_white_bronze [AGOT: Whiterune]
+ nick_agot_the_white_bronze:0 "Whiterune"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bronze [AGOT: the Mad Bronze]
+ nick_agot_the_crazed_bronze:0 "the Mad Bronze"
+### TODO NOT-IN-ST: nick_agot_the_wild_bronze [AGOT: Wrothrune]
+ nick_agot_the_wild_bronze:0 "Wrothrune"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bronze [AGOT: the Quiet Bronze]
+ nick_agot_the_quiet_bronze:0 "the Quiet Bronze"
+### TODO NOT-IN-ST: nick_agot_the_red_bronze [AGOT: Redrune]
+ nick_agot_the_red_bronze:0 "Redrune"
+### TODO NOT-IN-ST: nick_agot_the_big_bronze [AGOT: Bigbronze]
+ nick_agot_the_big_bronze:0 "Bigbronze"
+### TODO NOT-IN-ST: nick_agot_the_strong_bronze [AGOT: Strongbronze]
+ nick_agot_the_strong_bronze:0 "Strongbronze"
+### TODO NOT-IN-ST: nick_agot_the_fair_bronze [AGOT: Goldrune]
+ nick_agot_the_fair_bronze:0 "Goldrune"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bronze [AGOT: Bronzeface]
+ nick_agot_the_ugly_bronze:0 "Bronzeface"
+### TODO NOT-IN-ST: nick_agot_the_small_bronze [AGOT: the Little Rune]
+ nick_agot_the_small_bronze:0 "the Little Rune"
+### TODO NOT-IN-ST: nick_agot_the_wise_bronze [AGOT: Brightrune]
+ nick_agot_the_wise_bronze:0 "Brightrune"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bronze [AGOT: Dullbronze]
+ nick_agot_the_dumb_bronze:0 "Dullbronze"
+### TODO NOT-IN-ST: nick_agot_the_dark_bronze [AGOT: Darkrune]
+ nick_agot_the_dark_bronze:0 "Darkrune"
+### TODO NOT-IN-ST: nick_agot_the_weak_bronze [AGOT: the Corroded]
+ nick_agot_the_weak_bronze:0 "the Corroded"
+### TODO NOT-IN-ST: nick_agot_the_silver_bronze [AGOT: Silverrune]
+ nick_agot_the_silver_bronze:0 "Silverrune"
+### TODO NOT-IN-ST: nick_agot_the_old_bronze [AGOT: the Old Bronze]
+ nick_agot_the_old_bronze:0 "the Old Bronze"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bronze [AGOT: the Laughing Bronze]
+ nick_agot_the_laughing_bronze:0 "the Laughing Bronze"
+### TODO NOT-IN-ST: nick_agot_the_bronze_daughter [AGOT: the Bronze Bitch]
+ nick_agot_the_bronze_daughter:0 "the Bronze Bitch"
+### TODO NOT-IN-ST: nick_agot_the_bronzeknight [AGOT: the Bronze[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_bronzeknight:0 "the Bronze[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_runeknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Runes]
+ nick_agot_the_runeknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Runes"
+### TODO NOT-IN-ST: nick_agot_bronze [AGOT: Bronze]
+ nick_agot_bronze:0 "Bronze"
+### TODO NOT-IN-ST: nick_agot_the_black_swan [AGOT: the Black Swan]
+ nick_agot_the_black_swan:0 "the Black Swan"
+### TODO NOT-IN-ST: nick_agot_the_white_swan [AGOT: the White Swan]
+ nick_agot_the_white_swan:0 "the White Swan"
+### TODO NOT-IN-ST: nick_agot_the_crazed_swan [AGOT: Madswan]
+ nick_agot_the_crazed_swan:0 "Madswan"
+### TODO NOT-IN-ST: nick_agot_the_wild_swan [AGOT: the Stormy Swan]
+ nick_agot_the_wild_swan:0 "the Stormy Swan"
+### TODO NOT-IN-ST: nick_agot_the_quiet_swan [AGOT: the Silent Swan]
+ nick_agot_the_quiet_swan:0 "the Silent Swan"
+### TODO NOT-IN-ST: nick_agot_the_red_swan [AGOT: the Red Swan]
+ nick_agot_the_red_swan:0 "the Red Swan"
+### TODO NOT-IN-ST: nick_agot_the_big_swan [AGOT: the Big Swan]
+ nick_agot_the_big_swan:0 "the Big Swan"
+### TODO NOT-IN-ST: nick_agot_the_strong_swan [AGOT: Strongswan]
+ nick_agot_the_strong_swan:0 "Strongswan"
+### TODO NOT-IN-ST: nick_agot_the_fair_swan [AGOT: the Splendid Swan]
+ nick_agot_the_fair_swan:0 "the Splendid Swan"
+### TODO NOT-IN-ST: nick_agot_the_ugly_swan [AGOT: the Ugly Duckling]
+ nick_agot_the_ugly_swan:0 "the Ugly Duckling"
+### TODO NOT-IN-ST: nick_agot_the_small_swan [AGOT: the Cygnet]
+ nick_agot_the_small_swan:0 "the Cygnet"
+### TODO NOT-IN-ST: nick_agot_the_wise_swan [AGOT: Brightswan]
+ nick_agot_the_wise_swan:0 "Brightswan"
+### TODO NOT-IN-ST: nick_agot_the_dumb_swan [AGOT: the Simple Swan]
+ nick_agot_the_dumb_swan:0 "the Simple Swan"
+### TODO NOT-IN-ST: nick_agot_the_dark_swan [AGOT: Darkswan]
+ nick_agot_the_dark_swan:0 "Darkswan"
+### TODO NOT-IN-ST: nick_agot_the_weak_swan [AGOT: the Lame Swan]
+ nick_agot_the_weak_swan:0 "the Lame Swan"
+### TODO NOT-IN-ST: nick_agot_the_silver_swan [AGOT: the Silver Swan]
+ nick_agot_the_silver_swan:0 "the Silver Swan"
+### TODO NOT-IN-ST: nick_agot_the_old_swan [AGOT: the Old Swan]
+ nick_agot_the_old_swan:0 "the Old Swan"
+### TODO NOT-IN-ST: nick_agot_the_laughing_swan [AGOT: the Laughing Swan]
+ nick_agot_the_laughing_swan:0 "the Laughing Swan"
+### TODO NOT-IN-ST: nick_agot_the_swan_daughter [AGOT: the Lady Swan]
+ nick_agot_the_swan_daughter:0 "the Lady Swan"
+### TODO NOT-IN-ST: nick_agot_the_swanknight [AGOT: the Swan[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_swanknight:0 "the Swan[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_bee [AGOT: Blackbee]
+ nick_agot_the_black_bee:0 "Blackbee"
+### TODO NOT-IN-ST: nick_agot_the_white_bee [AGOT: the White Bee]
+ nick_agot_the_white_bee:0 "the White Bee"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bee [AGOT: the Buzzing]
+ nick_agot_the_crazed_bee:0 "the Buzzing"
+### TODO NOT-IN-ST: nick_agot_the_wild_bee [AGOT: the Wasp]
+ nick_agot_the_wild_bee:0 "the Wasp"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bee [AGOT: the Humming Bee]
+ nick_agot_the_quiet_bee:0 "the Humming Bee"
+### TODO NOT-IN-ST: nick_agot_the_red_bee [AGOT: the Red Bee]
+ nick_agot_the_red_bee:0 "the Red Bee"
+### TODO NOT-IN-ST: nick_agot_the_big_bee [AGOT: the Hornet]
+ nick_agot_the_big_bee:0 "the Hornet"
+### TODO NOT-IN-ST: nick_agot_the_strong_bee [AGOT: Strongbee]
+ nick_agot_the_strong_bee:0 "Strongbee"
+### TODO NOT-IN-ST: nick_agot_the_fair_bee [AGOT: the Honey Bee]
+ nick_agot_the_fair_bee:0 "the Honey Bee"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bee [AGOT: the Ugly Bee]
+ nick_agot_the_ugly_bee:0 "the Ugly Bee"
+### TODO NOT-IN-ST: nick_agot_the_small_bee [AGOT: Smallbee]
+ nick_agot_the_small_bee:0 "Smallbee"
+### TODO NOT-IN-ST: nick_agot_the_wise_bee [AGOT: Brightbee]
+ nick_agot_the_wise_bee:0 "Brightbee"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bee [AGOT: the Simple Bee]
+ nick_agot_the_dumb_bee:0 "the Simple Bee"
+### TODO NOT-IN-ST: nick_agot_the_dark_bee [AGOT: Darkbee]
+ nick_agot_the_dark_bee:0 "Darkbee"
+### TODO NOT-IN-ST: nick_agot_the_weak_bee [AGOT: the Stingless]
+ nick_agot_the_weak_bee:0 "the Stingless"
+### TODO NOT-IN-ST: nick_agot_the_silver_bee [AGOT: the Silver Bee]
+ nick_agot_the_silver_bee:0 "the Silver Bee"
+### TODO NOT-IN-ST: nick_agot_the_old_bee [AGOT: the Old Bee]
+ nick_agot_the_old_bee:0 "the Old Bee"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bee [AGOT: the Bumblebee]
+ nick_agot_the_laughing_bee:0 "the Bumblebee"
+### TODO NOT-IN-ST: nick_agot_the_bee_daughter [AGOT: the Queen Bee]
+ nick_agot_the_bee_daughter:0 "the Queen Bee"
+### TODO NOT-IN-ST: nick_agot_the_beeknight [AGOT: the Bee[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_beeknight:0 "the Bee[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_stinger [AGOT: Stinger]
+ nick_agot_stinger:0 "Stinger"
+### TODO NOT-IN-ST: nick_agot_the_black_turtle [AGOT: the Black Turtle]
+ nick_agot_the_black_turtle:0 "the Black Turtle"
+### TODO NOT-IN-ST: nick_agot_the_white_turtle [AGOT: the White Turtle]
+ nick_agot_the_white_turtle:0 "the White Turtle"
+### TODO NOT-IN-ST: nick_agot_the_crazed_turtle [AGOT: the Mad Turtle]
+ nick_agot_the_crazed_turtle:0 "the Mad Turtle"
+### TODO NOT-IN-ST: nick_agot_the_wild_turtle [AGOT: the Snapping Turtle]
+ nick_agot_the_wild_turtle:0 "the Snapping Turtle"
+### TODO NOT-IN-ST: nick_agot_the_quiet_turtle [AGOT: the Silent Turtle]
+ nick_agot_the_quiet_turtle:0 "the Silent Turtle"
+### TODO NOT-IN-ST: nick_agot_the_red_turtle [AGOT: Redshell]
+ nick_agot_the_red_turtle:0 "Redshell"
+### TODO NOT-IN-ST: nick_agot_the_big_turtle [AGOT: the Big Turtle]
+ nick_agot_the_big_turtle:0 "the Big Turtle"
+### TODO NOT-IN-ST: nick_agot_the_strong_turtle [AGOT: Strongshell]
+ nick_agot_the_strong_turtle:0 "Strongshell"
+### TODO NOT-IN-ST: nick_agot_the_fair_turtle [AGOT: Goldshell]
+ nick_agot_the_fair_turtle:0 "Goldshell"
+### TODO NOT-IN-ST: nick_agot_the_ugly_turtle [AGOT: the Ugly Turtle]
+ nick_agot_the_ugly_turtle:0 "the Ugly Turtle"
+### TODO NOT-IN-ST: nick_agot_the_small_turtle [AGOT: the Little Turtle]
+ nick_agot_the_small_turtle:0 "the Little Turtle"
+### TODO NOT-IN-ST: nick_agot_the_wise_turtle [AGOT: the Sage Turtle]
+ nick_agot_the_wise_turtle:0 "the Sage Turtle"
+### TODO NOT-IN-ST: nick_agot_the_dumb_turtle [AGOT: the Slow Turtle]
+ nick_agot_the_dumb_turtle:0 "the Slow Turtle"
+### TODO NOT-IN-ST: nick_agot_the_dark_turtle [AGOT: Darkshell]
+ nick_agot_the_dark_turtle:0 "Darkshell"
+### TODO NOT-IN-ST: nick_agot_the_weak_turtle [AGOT: the Trembling Turtle]
+ nick_agot_the_weak_turtle:0 "the Trembling Turtle"
+### TODO NOT-IN-ST: nick_agot_the_silver_turtle [AGOT: Silvershell]
+ nick_agot_the_silver_turtle:0 "Silvershell"
+### TODO NOT-IN-ST: nick_agot_the_old_turtle [AGOT: the Tortoise]
+ nick_agot_the_old_turtle:0 "the Tortoise"
+### TODO NOT-IN-ST: nick_agot_the_laughing_turtle [AGOT: the Laughing Turtle]
+ nick_agot_the_laughing_turtle:0 "the Laughing Turtle"
+### TODO NOT-IN-ST: nick_agot_the_turtle_daughter [AGOT: the Turtle's Daughter]
+ nick_agot_the_turtle_daughter:0 "the Turtle's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_turtleknight [AGOT: the Turtle[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_turtleknight:0 "the Turtle[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_arrow [AGOT: the Black Arrow]
+ nick_agot_the_black_arrow:0 "the Black Arrow"
+### TODO NOT-IN-ST: nick_agot_the_white_arrow [AGOT: the White Arrow]
+ nick_agot_the_white_arrow:0 "the White Arrow"
+### TODO NOT-IN-ST: nick_agot_the_crazed_arrow [AGOT: the Mad Arrow]
+ nick_agot_the_crazed_arrow:0 "the Mad Arrow"
+### TODO NOT-IN-ST: nick_agot_the_wild_arrow [AGOT: the Bodkin]
+ nick_agot_the_wild_arrow:0 "the Bodkin"
+### TODO NOT-IN-ST: nick_agot_the_quiet_arrow [AGOT: the Still Arrow]
+ nick_agot_the_quiet_arrow:0 "the Still Arrow"
+### TODO NOT-IN-ST: nick_agot_the_red_arrow [AGOT: Redarrow]
+ nick_agot_the_red_arrow:0 "Redarrow"
+### TODO NOT-IN-ST: nick_agot_the_big_arrow [AGOT: Longbow]
+ nick_agot_the_big_arrow:0 "Longbow"
+### TODO NOT-IN-ST: nick_agot_the_strong_arrow [AGOT: Strongbow]
+ nick_agot_the_strong_arrow:0 "Strongbow"
+### TODO NOT-IN-ST: nick_agot_the_fair_arrow [AGOT: the Fetching Fletcher]
+ nick_agot_the_fair_arrow:0 "the Fetching Fletcher"
+### TODO NOT-IN-ST: nick_agot_the_ugly_arrow [AGOT: the Bent Arrow]
+ nick_agot_the_ugly_arrow:0 "the Bent Arrow"
+### TODO NOT-IN-ST: nick_agot_the_small_arrow [AGOT: Shortbow]
+ nick_agot_the_small_arrow:0 "Shortbow"
+### TODO NOT-IN-ST: nick_agot_the_wise_arrow [AGOT: the Quiver]
+ nick_agot_the_wise_arrow:0 "the Quiver"
+### TODO NOT-IN-ST: nick_agot_the_dumb_arrow [AGOT: the Blunt Arrow]
+ nick_agot_the_dumb_arrow:0 "the Blunt Arrow"
+### TODO NOT-IN-ST: nick_agot_the_dark_arrow [AGOT: Darkbow]
+ nick_agot_the_dark_arrow:0 "Darkbow"
+### TODO NOT-IN-ST: nick_agot_the_weak_arrow [AGOT: the Snapped Arrow]
+ nick_agot_the_weak_arrow:0 "the Snapped Arrow"
+### TODO NOT-IN-ST: nick_agot_the_silver_arrow [AGOT: Silverhead]
+ nick_agot_the_silver_arrow:0 "Silverhead"
+### TODO NOT-IN-ST: nick_agot_the_old_arrow [AGOT: the Old Arrow]
+ nick_agot_the_old_arrow:0 "the Old Arrow"
+### TODO NOT-IN-ST: nick_agot_the_laughing_arrow [AGOT: the Whistling Arrow]
+ nick_agot_the_laughing_arrow:0 "the Whistling Arrow"
+### TODO NOT-IN-ST: nick_agot_the_arrow_daughter [AGOT: the Arrow's Daughter]
+ nick_agot_the_arrow_daughter:0 "the Arrow's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_arrowknight [AGOT: the Arrow[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_arrowknight:0 "the Arrow[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_apple [AGOT: the Black Apple]
+ nick_agot_the_black_apple:0 "the Black Apple"
+### TODO NOT-IN-ST: nick_agot_the_white_apple [AGOT: the White Apple]
+ nick_agot_the_white_apple:0 "the White Apple"
+### TODO NOT-IN-ST: nick_agot_the_crazed_apple [AGOT: Crabapple]
+ nick_agot_the_crazed_apple:0 "Crabapple"
+### TODO NOT-IN-ST: nick_agot_the_wild_apple [AGOT: the Bad Apple]
+ nick_agot_the_wild_apple:0 "the Bad Apple"
+### TODO NOT-IN-ST: nick_agot_the_quiet_apple [AGOT: the Still Apple]
+ nick_agot_the_quiet_apple:0 "the Still Apple"
+### TODO NOT-IN-ST: nick_agot_the_red_apple [AGOT: the Red Apple]
+ nick_agot_the_red_apple:0 "the Red Apple"
+### TODO NOT-IN-ST: nick_agot_the_big_apple [AGOT: the Bushel]
+ nick_agot_the_big_apple:0 "the Bushel"
+### TODO NOT-IN-ST: nick_agot_the_strong_apple [AGOT: the Apple Tree]
+ nick_agot_the_strong_apple:0 "the Apple Tree"
+### TODO NOT-IN-ST: nick_agot_the_fair_apple [AGOT: the Golden Apple]
+ nick_agot_the_fair_apple:0 "the Golden Apple"
+### TODO NOT-IN-ST: nick_agot_the_ugly_apple [AGOT: the Worm in the Apple]
+ nick_agot_the_ugly_apple:0 "the Worm in the Apple"
+### TODO NOT-IN-ST: nick_agot_the_small_apple [AGOT: the Little Apple]
+ nick_agot_the_small_apple:0 "the Little Apple"
+### TODO NOT-IN-ST: nick_agot_the_wise_apple [AGOT: the Good Apple]
+ nick_agot_the_wise_apple:0 "the Good Apple"
+### TODO NOT-IN-ST: nick_agot_the_dumb_apple [AGOT: the Unripe]
+ nick_agot_the_dumb_apple:0 "the Unripe"
+### TODO NOT-IN-ST: nick_agot_the_dark_apple [AGOT: the Poison Apple]
+ nick_agot_the_dark_apple:0 "the Poison Apple"
+### TODO NOT-IN-ST: nick_agot_the_weak_apple [AGOT: the Rotten Apple]
+ nick_agot_the_weak_apple:0 "the Rotten Apple"
+### TODO NOT-IN-ST: nick_agot_the_silver_apple [AGOT: the Silver Apple]
+ nick_agot_the_silver_apple:0 "the Silver Apple"
+### TODO NOT-IN-ST: nick_agot_the_old_apple [AGOT: the Old Apple]
+ nick_agot_the_old_apple:0 "the Old Apple"
+### TODO NOT-IN-ST: nick_agot_the_laughing_apple [AGOT: Sweet Cider]
+ nick_agot_the_laughing_apple:0 "Sweet Cider"
+### TODO NOT-IN-ST: nick_agot_the_apple_daughter [AGOT: the Apple's Blossom]
+ nick_agot_the_apple_daughter:0 "the Apple's Blossom"
+### TODO NOT-IN-ST: nick_agot_the_appleknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Apples]
+ nick_agot_the_appleknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Apples"
+### TODO NOT-IN-ST: nick_agot_the_black_peacock [AGOT: the Black Peacock]
+ nick_agot_the_black_peacock:0 "the Black Peacock"
+### TODO NOT-IN-ST: nick_agot_the_white_peacock [AGOT: the White Peacock]
+ nick_agot_the_white_peacock:0 "the White Peacock"
+### TODO NOT-IN-ST: nick_agot_the_crazed_peacock [AGOT: the Mad Peacock]
+ nick_agot_the_crazed_peacock:0 "the Mad Peacock"
+### TODO NOT-IN-ST: nick_agot_the_wild_peacock [AGOT: the Wroth Peacock]
+ nick_agot_the_wild_peacock:0 "the Wroth Peacock"
+### TODO NOT-IN-ST: nick_agot_the_quiet_peacock [AGOT: the Muted Peacock]
+ nick_agot_the_quiet_peacock:0 "the Muted Peacock"
+### TODO NOT-IN-ST: nick_agot_the_red_peacock [AGOT: the Red Peacock]
+ nick_agot_the_red_peacock:0 "the Red Peacock"
+### TODO NOT-IN-ST: nick_agot_the_big_peacock [AGOT: the Big Peacock]
+ nick_agot_the_big_peacock:0 "the Big Peacock"
+### TODO NOT-IN-ST: nick_agot_the_strong_peacock [AGOT: the Strong Peacock]
+ nick_agot_the_strong_peacock:0 "the Strong Peacock"
+### TODO NOT-IN-ST: nick_agot_the_fair_peacock [AGOT: the Peacock's Plume]
+ nick_agot_the_fair_peacock:0 "the Peacock's Plume"
+### TODO NOT-IN-ST: nick_agot_the_ugly_peacock [AGOT: the Featherless]
+ nick_agot_the_ugly_peacock:0 "the Featherless"
+### TODO NOT-IN-ST: nick_agot_the_small_peacock [AGOT: the Tiny Peacock]
+ nick_agot_the_small_peacock:0 "the Tiny Peacock"
+### TODO NOT-IN-ST: nick_agot_the_wise_peacock [AGOT: the Wise Peacock]
+ nick_agot_the_wise_peacock:0 "the Wise Peacock"
+### TODO NOT-IN-ST: nick_agot_the_dumb_peacock [AGOT: the Stupid Peacock]
+ nick_agot_the_dumb_peacock:0 "the Stupid Peacock"
+### TODO NOT-IN-ST: nick_agot_the_dark_peacock [AGOT: the Dark Peacock]
+ nick_agot_the_dark_peacock:0 "the Dark Peacock"
+### TODO NOT-IN-ST: nick_agot_the_weak_peacock [AGOT: the Weak Peacock]
+ nick_agot_the_weak_peacock:0 "the Weak Peacock"
+### TODO NOT-IN-ST: nick_agot_the_silver_peacock [AGOT: the Silver Peacock]
+ nick_agot_the_silver_peacock:0 "the Silver Peacock"
+### TODO NOT-IN-ST: nick_agot_the_old_peacock [AGOT: the Old Peacock]
+ nick_agot_the_old_peacock:0 "the Old Peacock"
+### TODO NOT-IN-ST: nick_agot_the_laughing_peacock [AGOT: the Preening Peacock]
+ nick_agot_the_laughing_peacock:0 "the Preening Peacock"
+### TODO NOT-IN-ST: nick_agot_the_peacock_daughter [AGOT: the Peahen]
+ nick_agot_the_peacock_daughter:0 "the Peahen"
+### TODO NOT-IN-ST: nick_agot_the_peacockknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Peacocks]
+ nick_agot_the_peacockknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Peacocks"
+### TODO NOT-IN-ST: nick_agot_the_black_scythe [AGOT: Blackscythe]
+ nick_agot_the_black_scythe:0 "Blackscythe"
+### TODO NOT-IN-ST: nick_agot_the_white_scythe [AGOT: the White Scythe]
+ nick_agot_the_white_scythe:0 "the White Scythe"
+### TODO NOT-IN-ST: nick_agot_the_crazed_scythe [AGOT: the Mad scythe]
+ nick_agot_the_crazed_scythe:0 "the Mad scythe"
+### TODO NOT-IN-ST: nick_agot_the_wild_scythe [AGOT: the War Scythe]
+ nick_agot_the_wild_scythe:0 "the War Scythe"
+### TODO NOT-IN-ST: nick_agot_the_quiet_scythe [AGOT: the Silent Scythe]
+ nick_agot_the_quiet_scythe:0 "the Silent Scythe"
+### TODO NOT-IN-ST: nick_agot_the_red_scythe [AGOT: Redscythe]
+ nick_agot_the_red_scythe:0 "Redscythe"
+### TODO NOT-IN-ST: nick_agot_the_big_scythe [AGOT: the Big Scythe]
+ nick_agot_the_big_scythe:0 "the Big Scythe"
+### TODO NOT-IN-ST: nick_agot_the_strong_scythe [AGOT: Strongscythe]
+ nick_agot_the_strong_scythe:0 "Strongscythe"
+### TODO NOT-IN-ST: nick_agot_the_fair_scythe [AGOT: the Glimmering Scythe]
+ nick_agot_the_fair_scythe:0 "the Glimmering Scythe"
+### TODO NOT-IN-ST: nick_agot_the_ugly_scythe [AGOT: the Bent Scythe]
+ nick_agot_the_ugly_scythe:0 "the Bent Scythe"
+### TODO NOT-IN-ST: nick_agot_the_small_scythe [AGOT: the Sickle]
+ nick_agot_the_small_scythe:0 "the Sickle"
+### TODO NOT-IN-ST: nick_agot_the_wise_scythe [AGOT: the Shrewd Scythe]
+ nick_agot_the_wise_scythe:0 "the Shrewd Scythe"
+### TODO NOT-IN-ST: nick_agot_the_dumb_scythe [AGOT: the Shovel]
+ nick_agot_the_dumb_scythe:0 "the Shovel"
+### TODO NOT-IN-ST: nick_agot_the_dark_scythe [AGOT: Darkscythe]
+ nick_agot_the_dark_scythe:0 "Darkscythe"
+### TODO NOT-IN-ST: nick_agot_the_weak_scythe [AGOT: the Hoe]
+ nick_agot_the_weak_scythe:0 "the Hoe" #get rekt
+### TODO NOT-IN-ST: nick_agot_the_silver_scythe [AGOT: Silverscythe]
+ nick_agot_the_silver_scythe:0 "Silverscythe"
+### TODO NOT-IN-ST: nick_agot_the_old_scythe [AGOT: the Old Scythe]
+ nick_agot_the_old_scythe:0 "the Old Scythe"
+### TODO NOT-IN-ST: nick_agot_the_laughing_scythe [AGOT: the Laughing Scythe]
+ nick_agot_the_laughing_scythe:0 "the Laughing Scythe"
+### TODO NOT-IN-ST: nick_agot_the_scythe_daughter [AGOT: the Scythe Maiden]
+ nick_agot_the_scythe_daughter:0 "the Scythe Maiden"
+### TODO NOT-IN-ST: nick_agot_the_scytheknight [AGOT: the Scythe[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_scytheknight:0 "the Scythe[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_reaper [AGOT: the Reaper]
+ nick_agot_the_reaper:0 "the Reaper"
+### TODO NOT-IN-ST: nick_agot_the_black_horn [AGOT: Blackhorn]
+ nick_agot_the_black_horn:0 "Blackhorn"
+### TODO NOT-IN-ST: nick_agot_the_white_horn [AGOT: Whitehorn]
+ nick_agot_the_white_horn:0 "Whitehorn"
+### TODO NOT-IN-ST: nick_agot_the_crazed_horn [AGOT: the Mad Horn]
+ nick_agot_the_crazed_horn:0 "the Mad Horn"
+### TODO NOT-IN-ST: nick_agot_the_wild_horn [AGOT: Redhorn]
+ nick_agot_the_wild_horn:0 "Redhorn"
+### TODO NOT-IN-ST: nick_agot_the_quiet_horn [AGOT: the Noiseless]
+ nick_agot_the_quiet_horn:0 "the Noiseless"
+### TODO NOT-IN-ST: nick_agot_the_red_horn [AGOT: the War Horn]
+ nick_agot_the_red_horn:0 "the War Horn"
+### TODO NOT-IN-ST: nick_agot_the_big_horn [AGOT: the Horn o' Plenty]
+ nick_agot_the_big_horn:0 "the Horn o' Plenty"
+### TODO NOT-IN-ST: nick_agot_the_strong_horn [AGOT: Stronghorn]
+ nick_agot_the_strong_horn:0 "Stronghorn"
+### TODO NOT-IN-ST: nick_agot_the_fair_horn [AGOT: the Cornucopia]
+ nick_agot_the_fair_horn:0 "the Cornucopia"
+### TODO NOT-IN-ST: nick_agot_the_ugly_horn [AGOT: the Empty Horn]
+ nick_agot_the_ugly_horn:0 "the Empty Horn"
+### TODO NOT-IN-ST: nick_agot_the_small_horn [AGOT: the Small Horn]
+ nick_agot_the_small_horn:0 "the Small Horn"
+### TODO NOT-IN-ST: nick_agot_the_wise_horn [AGOT: Goldenhorn]
+ nick_agot_the_wise_horn:0 "Goldenhorn"
+### TODO NOT-IN-ST: nick_agot_the_dumb_horn [AGOT: the Slow Horn]
+ nick_agot_the_dumb_horn:0 "the Slow Horn"
+### TODO NOT-IN-ST: nick_agot_the_dark_horn [AGOT: Darkhorn]
+ nick_agot_the_dark_horn:0 "Darkhorn"
+### TODO NOT-IN-ST: nick_agot_the_weak_horn [AGOT: the Trumpet]
+ nick_agot_the_weak_horn:0 "the Trumpet"
+### TODO NOT-IN-ST: nick_agot_the_silver_horn [AGOT: Silverhorn]
+ nick_agot_the_silver_horn:0 "Silverhorn"
+### TODO NOT-IN-ST: nick_agot_the_old_horn [AGOT: the Old Horn]
+ nick_agot_the_old_horn:0 "the Old Horn"
+### TODO NOT-IN-ST: nick_agot_the_laughing_horn [AGOT: the Mead Horn]
+ nick_agot_the_laughing_horn:0 "the Mead Horn"
+### TODO NOT-IN-ST: nick_agot_the_horn_daughter [AGOT: the Blower's Daughter]
+ nick_agot_the_horn_daughter:0 "the Blower's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_hornknight [AGOT: the Horn[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_hornknight:0 "the Horn[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_hornknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Horns]
+ nick_agot_the_hornknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Horns"
+### TODO NOT-IN-ST: nick_agot_the_black_lightning [AGOT: Blackbolt]
+ nick_agot_the_black_lightning:0 "Blackbolt"
+### TODO NOT-IN-ST: nick_agot_the_white_lightning [AGOT: White Lightning]
+ nick_agot_the_white_lightning:0 "White Lightning"
+### TODO NOT-IN-ST: nick_agot_the_crazed_lightning [AGOT: Mad Lightning]
+ nick_agot_the_crazed_lightning:0 "Mad Lightning"
+### TODO NOT-IN-ST: nick_agot_the_wild_lightning [AGOT: the Storm Cloud]
+ nick_agot_the_wild_lightning:0 "the Storm Cloud"
+### TODO NOT-IN-ST: nick_agot_the_quiet_lightning [AGOT: Thunderless]
+ nick_agot_the_quiet_lightning:0 "Thunderless"
+### TODO NOT-IN-ST: nick_agot_the_red_lightning [AGOT: Redbolt]
+ nick_agot_the_red_lightning:0 "Redbolt"
+### TODO NOT-IN-ST: nick_agot_the_big_lightning [AGOT: Strongbolt]
+ nick_agot_the_big_lightning:0 "Strongbolt"
+### TODO NOT-IN-ST: nick_agot_the_strong_lightning [AGOT: the Lightning Storm]
+ nick_agot_the_strong_lightning:0 "the Lightning Storm"
+### TODO NOT-IN-ST: nick_agot_the_fair_lightning [AGOT: Fairbolt]
+ nick_agot_the_fair_lightning:0 "Fairbolt"
+### TODO NOT-IN-ST: nick_agot_the_ugly_lightning [AGOT: the Ugly Bolt]
+ nick_agot_the_ugly_lightning:0 "the Ugly Bolt"
+### TODO NOT-IN-ST: nick_agot_the_small_lightning [AGOT: Little Lightning]
+ nick_agot_the_small_lightning:0 "Little Lightning"
+### TODO NOT-IN-ST: nick_agot_the_wise_lightning [AGOT: Brightspark]
+ nick_agot_the_wise_lightning:0 "Brightspark"
+### TODO NOT-IN-ST: nick_agot_the_dumb_lightning [AGOT: Dimbolt]
+ nick_agot_the_dumb_lightning:0 "Dimbolt"
+### TODO NOT-IN-ST: nick_agot_the_dark_lightning [AGOT: Darkbolt]
+ nick_agot_the_dark_lightning:0 "Darkbolt"
+### TODO NOT-IN-ST: nick_agot_the_weak_lightning [AGOT: the Gust]
+ nick_agot_the_weak_lightning:0 "the Gust"
+### TODO NOT-IN-ST: nick_agot_the_silver_lightning [AGOT: Silverbolt]
+ nick_agot_the_silver_lightning:0 "Silverbolt"
+### TODO NOT-IN-ST: nick_agot_the_old_lightning [AGOT: the Grey Storm]
+ nick_agot_the_old_lightning:0 "the Grey Storm"
+### TODO NOT-IN-ST: nick_agot_the_laughing_lightning [AGOT: the Crackling Bolt]
+ nick_agot_the_laughing_lightning:0 "the Crackling Bolt"
+### TODO NOT-IN-ST: nick_agot_the_lightning_daughter [AGOT: the Lightning's Daughter]
+ nick_agot_the_lightning_daughter:0 "the Lightning's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_lightningknight [AGOT: the Lightning[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_lightningknight:0 "the Lightning[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_pipe [AGOT: the Black Pipe]
+ nick_agot_the_black_pipe:0 "the Black Pipe"
+### TODO NOT-IN-ST: nick_agot_the_white_pipe [AGOT: the White Pipe]
+ nick_agot_the_white_pipe:0 "the White Pipe"
+### TODO NOT-IN-ST: nick_agot_the_crazed_pipe [AGOT: the Mad Pipe]
+ nick_agot_the_crazed_pipe:0 "the Mad Pipe"
+### TODO NOT-IN-ST: nick_agot_the_wild_pipe [AGOT: the Smoking Pipe]
+ nick_agot_the_wild_pipe:0 "the Smoking Pipe"
+### TODO NOT-IN-ST: nick_agot_the_quiet_pipe [AGOT: the Quiet Pipe]
+ nick_agot_the_quiet_pipe:0 "the Quiet Pipe"
+### TODO NOT-IN-ST: nick_agot_the_red_pipe [AGOT: Redpipe]
+ nick_agot_the_red_pipe:0 "Redpipe"
+### TODO NOT-IN-ST: nick_agot_the_big_pipe [AGOT: the Full Pipe]
+ nick_agot_the_big_pipe:0 "the Full Pipe"
+### TODO NOT-IN-ST: nick_agot_the_strong_pipe [AGOT: Smokestack]
+ nick_agot_the_strong_pipe:0 "Smokestack"
+### TODO NOT-IN-ST: nick_agot_the_fair_pipe [AGOT: the Golden Pipe]
+ nick_agot_the_fair_pipe:0 "the Golden Pipe"
+### TODO NOT-IN-ST: nick_agot_the_ugly_pipe [AGOT: the Ugly Pipe]
+ nick_agot_the_ugly_pipe:0 "the Ugly Pipe"
+### TODO NOT-IN-ST: nick_agot_the_small_pipe [AGOT: the Little Pipe]
+ nick_agot_the_small_pipe:0 "the Little Pipe"
+### TODO NOT-IN-ST: nick_agot_the_wise_pipe [AGOT: the Sage Pipe]
+ nick_agot_the_wise_pipe:0 "the Sage Pipe"
+### TODO NOT-IN-ST: nick_agot_the_dumb_pipe [AGOT: the Vapid Pipe]
+ nick_agot_the_dumb_pipe:0 "the Vapid Pipe"
+### TODO NOT-IN-ST: nick_agot_the_dark_pipe [AGOT: Darkpipe]
+ nick_agot_the_dark_pipe:0 "Darkpipe"
+### TODO NOT-IN-ST: nick_agot_the_weak_pipe [AGOT: the Cracked Pipe]
+ nick_agot_the_weak_pipe:0 "the Cracked Pipe"
+### TODO NOT-IN-ST: nick_agot_the_silver_pipe [AGOT: Silverpipe]
+ nick_agot_the_silver_pipe:0 "Silverpipe"
+### TODO NOT-IN-ST: nick_agot_the_old_pipe [AGOT: the Old Pipe]
+ nick_agot_the_old_pipe:0 "the Old Pipe"
+### TODO NOT-IN-ST: nick_agot_the_laughing_pipe [AGOT: the Billowing Pipe]
+ nick_agot_the_laughing_pipe:0 "the Billowing Pipe"
+### TODO NOT-IN-ST: nick_agot_the_pipe_daughter [AGOT: the Maid of Piper]
+ nick_agot_the_pipe_daughter:0 "the Maid of Piper"
+### TODO NOT-IN-ST: nick_agot_the_pipeknight [AGOT: the Smoke[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_pipeknight:0 "the Smoke[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_pipeknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Pipes]
+ nick_agot_the_pipeknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Pipes"
+### TODO NOT-IN-ST: nick_agot_the_black_crab [AGOT: the Black Crab]
+ nick_agot_the_black_crab:0 "the Black Crab"
+### TODO NOT-IN-ST: nick_agot_the_white_crab [AGOT: the White Crab]
+ nick_agot_the_white_crab:0 "the White Crab"
+### TODO NOT-IN-ST: nick_agot_the_crazed_crab [AGOT: the Mad Crab]
+ nick_agot_the_crazed_crab:0 "the Mad Crab"
+### TODO NOT-IN-ST: nick_agot_the_wild_crab [AGOT: the Snapping Crab]
+ nick_agot_the_wild_crab:0 "the Snapping Crab"
+### TODO NOT-IN-ST: nick_agot_the_quiet_crab [AGOT: the Quiet Crab]
+ nick_agot_the_quiet_crab:0 "the Quiet Crab"
+### TODO NOT-IN-ST: nick_agot_the_red_crab [AGOT: the Red Crab]
+ nick_agot_the_red_crab:0 "the Red Crab"
+### TODO NOT-IN-ST: nick_agot_the_big_crab [AGOT: the Spider Crab]
+ nick_agot_the_big_crab:0 "the Spider Crab"
+### TODO NOT-IN-ST: nick_agot_the_strong_crab [AGOT: Hardshell]
+ nick_agot_the_strong_crab:0 "Hardshell"
+### TODO NOT-IN-ST: nick_agot_the_fair_crab [AGOT: the Golden Crab]
+ nick_agot_the_fair_crab:0 "the Golden Crab"
+### TODO NOT-IN-ST: nick_agot_the_ugly_crab [AGOT: the Cracked Crab]
+ nick_agot_the_ugly_crab:0 "the Cracked Crab"
+### TODO NOT-IN-ST: nick_agot_the_small_crab [AGOT: the Crabling]
+ nick_agot_the_small_crab:0 "the Crabling"
+### TODO NOT-IN-ST: nick_agot_the_wise_crab [AGOT: Sharpclaw]
+ nick_agot_the_wise_crab:0 "Sharpclaw"
+### TODO NOT-IN-ST: nick_agot_the_dumb_crab [AGOT: the Mudcrab]
+ nick_agot_the_dumb_crab:0 "the Mudcrab"
+### TODO NOT-IN-ST: nick_agot_the_dark_crab [AGOT: Darkcrab]
+ nick_agot_the_dark_crab:0 "Darkcrab"
+### TODO NOT-IN-ST: nick_agot_the_weak_crab [AGOT: Softshell]
+ nick_agot_the_weak_crab:0 "Softshell"
+### TODO NOT-IN-ST: nick_agot_the_silver_crab [AGOT: the Silver Crab]
+ nick_agot_the_silver_crab:0 "the Silver Crab"
+### TODO NOT-IN-ST: nick_agot_the_old_crab [AGOT: the Old Crab]
+ nick_agot_the_old_crab:0 "the Old Crab"
+### TODO NOT-IN-ST: nick_agot_the_laughing_crab [AGOT: the Cackling Crab]
+ nick_agot_the_laughing_crab:0 "the Cackling Crab"
+### TODO NOT-IN-ST: nick_agot_the_crab_daughter [AGOT: the Crab's Daughter]
+ nick_agot_the_crab_daughter:0 "the Crab's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_crabknight [AGOT: the Crab[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_crabknight:0 "the Crab[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_crabknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Crabs]
+ nick_agot_the_crabknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Crabs"
+### TODO NOT-IN-ST: nick_agot_the_black_scorpion [AGOT: the Black Scorpion]
+ nick_agot_the_black_scorpion:0 "the Black Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_white_scorpion [AGOT: the White Scorpion]
+ nick_agot_the_white_scorpion:0 "the White Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_crazed_scorpion [AGOT: the Mad Scorpion]
+ nick_agot_the_crazed_scorpion:0 "the Mad Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_wild_scorpion [AGOT: the Scorpion's Sting]
+ nick_agot_the_wild_scorpion:0 "the Scorpion's Sting"
+### TODO NOT-IN-ST: nick_agot_the_quiet_scorpion [AGOT: the Silent Scorpion]
+ nick_agot_the_quiet_scorpion:0 "the Silent Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_red_scorpion [AGOT: the Red Scorpion]
+ nick_agot_the_red_scorpion:0 "the Red Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_big_scorpion [AGOT: the Big Scorpion]
+ nick_agot_the_big_scorpion:0 "the Big Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_strong_scorpion [AGOT: the Strong Scorpion]
+ nick_agot_the_strong_scorpion:0 "the Strong Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_fair_scorpion [AGOT: the Golden Scorpion]
+ nick_agot_the_fair_scorpion:0 "the Golden Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_ugly_scorpion [AGOT: the Cracked scorpion]
+ nick_agot_the_ugly_scorpion:0 "the Cracked scorpion"
+### TODO NOT-IN-ST: nick_agot_the_small_scorpion [AGOT: the Small Scorpion]
+ nick_agot_the_small_scorpion:0 "the Small Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_wise_scorpion [AGOT: Sharpsting]
+ nick_agot_the_wise_scorpion:0 "Sharpsting"
+### TODO NOT-IN-ST: nick_agot_the_dumb_scorpion [AGOT: the Stupid Scorpion]
+ nick_agot_the_dumb_scorpion:0 "the Stupid Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_dark_scorpion [AGOT: the Venomous]
+ nick_agot_the_dark_scorpion:0 "the Venomous"
+### TODO NOT-IN-ST: nick_agot_the_weak_scorpion [AGOT: Softshell]
+ nick_agot_the_weak_scorpion:0 "Softshell"
+### TODO NOT-IN-ST: nick_agot_the_silver_scorpion [AGOT: the Silver Scorpion]
+ nick_agot_the_silver_scorpion:0 "the Silver Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_old_scorpion [AGOT: the Old Scorpion]
+ nick_agot_the_old_scorpion:0 "the Old Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_laughing_scorpion [AGOT: the Cackling Scorpion]
+ nick_agot_the_laughing_scorpion:0 "the Cackling Scorpion"
+### TODO NOT-IN-ST: nick_agot_the_scorpion_daughter [AGOT: the Scorpion's Daughter]
+ nick_agot_the_scorpion_daughter:0 "the Scorpion's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_scorpionknight [AGOT: the Scorpion[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_scorpionknight:0 "the Scorpion[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_scorpionknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Scorpions]
+ nick_agot_the_scorpionknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Scorpions"
+### TODO NOT-IN-ST: nick_agot_the_black_huntsman [AGOT: the Black Huntsman]
+ nick_agot_the_black_huntsman:0 "the Black Huntsman"
+### TODO NOT-IN-ST: nick_agot_the_white_huntsman [AGOT: the White Huntsman]
+ nick_agot_the_white_huntsman:0 "the White Huntsman"
+### TODO NOT-IN-ST: nick_agot_the_crazed_huntsman [AGOT: the Headless Huntsman]
+ nick_agot_the_crazed_huntsman:0 "the Headless Huntsman"
+### TODO NOT-IN-ST: nick_agot_the_wild_huntsman [AGOT: Springtrap]
+ nick_agot_the_wild_huntsman:0 "Springtrap"
+### TODO NOT-IN-ST: nick_agot_the_quiet_huntsman [AGOT: the Stalking Hunter]
+ nick_agot_the_quiet_huntsman:0 "the Stalking Hunter"
+### TODO NOT-IN-ST: nick_agot_the_red_huntsman [AGOT: the Red Hunter]
+ nick_agot_the_red_huntsman:0 "the Red Hunter"
+### TODO NOT-IN-ST: nick_agot_the_big_huntsman [AGOT: the Big Hunter]
+ nick_agot_the_big_huntsman:0 "the Big Hunter"
+### TODO NOT-IN-ST: nick_agot_the_strong_huntsman [AGOT: the Beastslayer]
+ nick_agot_the_strong_huntsman:0 "the Beastslayer"
+### TODO NOT-IN-ST: nick_agot_the_fair_huntsman [AGOT: the Handsome Hunter]
+ nick_agot_the_fair_huntsman:0 "the Handsome Hunter"
+### TODO NOT-IN-ST: nick_agot_the_ugly_huntsman [AGOT: the Hideous Hunter]
+ nick_agot_the_ugly_huntsman:0 "the Hideous Hunter"
+### TODO NOT-IN-ST: nick_agot_the_small_huntsman [AGOT: the Little Hunter]
+ nick_agot_the_small_huntsman:0 "the Little Hunter"
+### TODO NOT-IN-ST: nick_agot_the_wise_huntsman [AGOT: the Wise Woodsman]
+ nick_agot_the_wise_huntsman:0 "the Wise Woodsman"
+### TODO NOT-IN-ST: nick_agot_the_dumb_huntsman [AGOT: the Lost Tracker]
+ nick_agot_the_dumb_huntsman:0 "the Lost Tracker"
+### TODO NOT-IN-ST: nick_agot_the_dark_huntsman [AGOT: the Trapper]
+ nick_agot_the_dark_huntsman:0 "the Trapper"
+### TODO NOT-IN-ST: nick_agot_the_weak_huntsman [AGOT: the Lame Hunter]
+ nick_agot_the_weak_huntsman:0 "the Lame Hunter"
+### TODO NOT-IN-ST: nick_agot_the_silver_huntsman [AGOT: the Silver Hunter]
+ nick_agot_the_silver_huntsman:0 "the Silver Hunter"
+### TODO NOT-IN-ST: nick_agot_the_old_huntsman [AGOT: the Gamekeeper]
+ nick_agot_the_old_huntsman:0 "the Gamekeeper"
+### TODO NOT-IN-ST: nick_agot_the_laughing_huntsman [AGOT: the Laughing Huntsman]
+ nick_agot_the_laughing_huntsman:0 "the Laughing Huntsman"
+### TODO NOT-IN-ST: nick_agot_the_huntsman_daughter [AGOT: the Huntsman's Daughter]
+ nick_agot_the_huntsman_daughter:0 "the Huntsman's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_huntsmanknight [AGOT: the Hunter[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_huntsmanknight:0 "the Hunter[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_rooster [AGOT: the Black Bantam]
+ nick_agot_the_black_rooster:0 "the Black Bantam"
+### TODO NOT-IN-ST: nick_agot_the_white_rooster [AGOT: the White Rooster]
+ nick_agot_the_white_rooster:0 "the White Rooster"
+### TODO NOT-IN-ST: nick_agot_the_crazed_rooster [AGOT: the Mad Rooster]
+ nick_agot_the_crazed_rooster:0 "the Mad Rooster"
+### TODO NOT-IN-ST: nick_agot_the_wild_rooster [AGOT: the Swaggering Cock]
+ nick_agot_the_wild_rooster:0 "the Swaggering Cock"
+### TODO NOT-IN-ST: nick_agot_the_quiet_rooster [AGOT: the Crowless]
+ nick_agot_the_quiet_rooster:0 "the Crowless"
+### TODO NOT-IN-ST: nick_agot_the_red_rooster [AGOT: Redrooster]
+ nick_agot_the_red_rooster:0 "Redrooster"
+### TODO NOT-IN-ST: nick_agot_the_big_rooster [AGOT: the Big Bantam]
+ nick_agot_the_big_rooster:0 "the Big Bantam"
+### TODO NOT-IN-ST: nick_agot_the_strong_rooster [AGOT: the Strong Rooster]
+ nick_agot_the_strong_rooster:0 "the Strong Rooster"
+### TODO NOT-IN-ST: nick_agot_the_fair_rooster [AGOT: the Ravishing Rooster]
+ nick_agot_the_fair_rooster:0 "the Ravishing Rooster"
+### TODO NOT-IN-ST: nick_agot_the_ugly_rooster [AGOT: the Ugly Rooster]
+ nick_agot_the_ugly_rooster:0 "the Ugly Rooster"
+### TODO NOT-IN-ST: nick_agot_the_small_rooster [AGOT: the Chick]
+ nick_agot_the_small_rooster:0 "the Chick"
+### TODO NOT-IN-ST: nick_agot_the_wise_rooster [AGOT: the Sage Rooster]
+ nick_agot_the_wise_rooster:0 "the Sage Rooster"
+### TODO NOT-IN-ST: nick_agot_the_dumb_rooster [AGOT: Coxcomb]
+ nick_agot_the_dumb_rooster:0 "Coxcomb"
+### TODO NOT-IN-ST: nick_agot_the_dark_rooster [AGOT: the Dark Cockrel]
+ nick_agot_the_dark_rooster:0 "the Dark Cockrel"
+### TODO NOT-IN-ST: nick_agot_the_weak_rooster [AGOT: the Capon]
+ nick_agot_the_weak_rooster:0 "the Capon"
+### TODO NOT-IN-ST: nick_agot_the_silver_rooster [AGOT: the Silver Rooster]
+ nick_agot_the_silver_rooster:0 "the Silver Rooster"
+### TODO NOT-IN-ST: nick_agot_the_old_rooster [AGOT: the Old Rooster]
+ nick_agot_the_old_rooster:0 "the Old Rooster"
+### TODO NOT-IN-ST: nick_agot_the_laughing_rooster [AGOT: the Crowing Rooster]
+ nick_agot_the_laughing_rooster:0 "the Crowing Rooster"
+### TODO NOT-IN-ST: nick_agot_the_rooster_daughter [AGOT: the Hen]
+ nick_agot_the_rooster_daughter:0 "the Hen"
+### TODO NOT-IN-ST: nick_agot_the_roosterknight [AGOT: the Rooster[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_roosterknight:0 "the Rooster[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_grape [AGOT: Blackthorn]
+ nick_agot_the_black_grape:0 "Blackthorn"
+### TODO NOT-IN-ST: nick_agot_the_white_grape [AGOT: Whitethorn]
+ nick_agot_the_white_grape:0 "Whitethorn"
+### TODO NOT-IN-ST: nick_agot_the_crazed_grape [AGOT: the Crazy Thorn]
+ nick_agot_the_crazed_grape:0 "the Crazy Thorn"
+### TODO NOT-IN-ST: nick_agot_the_wild_grape [AGOT: Wildthorn]
+ nick_agot_the_wild_grape:0 "Wildthorn"
+### TODO NOT-IN-ST: nick_agot_the_quiet_grape [AGOT: the Silent Thorn]
+ nick_agot_the_quiet_grape:0 "the Silent Thorn"
+### TODO NOT-IN-ST: nick_agot_the_red_grape [AGOT: Redthorn]
+ nick_agot_the_red_grape:0 "Redthorn"
+### TODO NOT-IN-ST: nick_agot_the_big_grape [AGOT: the Big Thorn]
+ nick_agot_the_big_grape:0 "the Big Thorn"
+### TODO NOT-IN-ST: nick_agot_the_strong_grape [AGOT: Strongthorn]
+ nick_agot_the_strong_grape:0 "Strongthorn"
+### TODO NOT-IN-ST: nick_agot_the_fair_grape [AGOT: the Full-Bodied]
+ nick_agot_the_fair_grape:0 "the Full-Bodied"
+### TODO NOT-IN-ST: nick_agot_the_ugly_grape [AGOT: the Raisin]
+ nick_agot_the_ugly_grape:0 "the Raisin"
+### TODO NOT-IN-ST: nick_agot_the_small_grape [AGOT: the Little Grape]
+ nick_agot_the_small_grape:0 "the Little Grape"
+### TODO NOT-IN-ST: nick_agot_the_wise_grape [AGOT: Sharpthorn]
+ nick_agot_the_wise_grape:0 "Sharpthorn"
+### TODO NOT-IN-ST: nick_agot_the_dumb_grape [AGOT: Bluntthorn]
+ nick_agot_the_dumb_grape:0 "Bluntthorn"
+### TODO NOT-IN-ST: nick_agot_the_dark_grape [AGOT: Darkthorn]
+ nick_agot_the_dark_grape:0 "Darkthorn"
+### TODO NOT-IN-ST: nick_agot_the_weak_grape [AGOT: the Weak Thorn]
+ nick_agot_the_weak_grape:0 "the Weak Thorn" #A RUSTY SPOON
+### TODO NOT-IN-ST: nick_agot_the_silver_grape [AGOT: Silverthorn]
+ nick_agot_the_silver_grape:0 "Silverthorn"
+### TODO NOT-IN-ST: nick_agot_the_old_grape [AGOT: the Winestain]
+ nick_agot_the_old_grape:0 "the Winestain"
+### TODO NOT-IN-ST: nick_agot_the_laughing_grape [AGOT: the Red Wine]
+ nick_agot_the_laughing_grape:0 "the Red Wine"
+### TODO NOT-IN-ST: nick_agot_the_grape_daughter [AGOT: the Lady of Thorns]
+ nick_agot_the_grape_daughter:0 "the Lady of Thorns"
+### TODO NOT-IN-ST: nick_agot_the_grapeknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Thorns]
+ nick_agot_the_grapeknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Thorns"
+### TODO NOT-IN-ST: nick_agot_the_black_skinner [AGOT: the Black Butcher]
+ nick_agot_the_black_skinner:0 "the Black Butcher"
+### TODO NOT-IN-ST: nick_agot_the_white_skinner [AGOT: the Marrow]
+ nick_agot_the_white_skinner:0 "the Marrow"
+### TODO NOT-IN-ST: nick_agot_the_crazed_skinner [AGOT: the Tormentor]
+ nick_agot_the_crazed_skinner:0 "the Tormentor"
+### TODO NOT-IN-ST: nick_agot_the_wild_skinner [AGOT: Bloodletter]
+ nick_agot_the_wild_skinner:0 "Bloodletter"
+### TODO NOT-IN-ST: nick_agot_the_quiet_skinner [AGOT: the Mute Gutter]
+ nick_agot_the_quiet_skinner:0 "the Mute Gutter"
+### TODO NOT-IN-ST: nick_agot_the_red_skinner [AGOT: the Flayer]
+ nick_agot_the_red_skinner:0 "the Flayer"
+### TODO NOT-IN-ST: nick_agot_the_big_skinner [AGOT: the Carver]
+ nick_agot_the_big_skinner:0 "the Carver"
+### TODO NOT-IN-ST: nick_agot_the_strong_skinner [AGOT: the Rack]
+ nick_agot_the_strong_skinner:0 "the Rack"
+### TODO NOT-IN-ST: nick_agot_the_fair_skinner [AGOT: the Pink]
+ nick_agot_the_fair_skinner:0 "the Pink"
+### TODO NOT-IN-ST: nick_agot_the_ugly_skinner [AGOT: the Flayed]
+ nick_agot_the_ugly_skinner:0 "the Flayed"
+### TODO NOT-IN-ST: nick_agot_the_small_skinner [AGOT: the Little Skinner]
+ nick_agot_the_small_skinner:0 "the Little Skinner"
+### TODO NOT-IN-ST: nick_agot_the_wise_skinner [AGOT: the Scalper]
+ nick_agot_the_wise_skinner:0 "the Scalper"
+### TODO NOT-IN-ST: nick_agot_the_dumb_skinner [AGOT: the Fleshy]
+ nick_agot_the_dumb_skinner:0 "the Fleshy"
+### TODO NOT-IN-ST: nick_agot_the_dark_skinner [AGOT: the Peeler]
+ nick_agot_the_dark_skinner:0 "the Peeler"
+### TODO NOT-IN-ST: nick_agot_the_weak_skinner [AGOT: the Spoon]
+ nick_agot_the_weak_skinner:0 "the Spoon" #A RUSTY SPOON
+### TODO NOT-IN-ST: nick_agot_the_silver_skinner [AGOT: the Silver Skinner]
+ nick_agot_the_silver_skinner:0 "the Silver Skinner"
+### TODO NOT-IN-ST: nick_agot_the_old_skinner [AGOT: the Rusty Skinner]
+ nick_agot_the_old_skinner:0 "the Rusty Skinner"
+### TODO NOT-IN-ST: nick_agot_the_laughing_skinner [AGOT: the Tickler]
+ nick_agot_the_laughing_skinner:0 "the Tickler"
+### TODO NOT-IN-ST: nick_agot_the_skinner_daughter [AGOT: the Flayed Lady]
+ nick_agot_the_skinner_daughter:0 "the Flayed Lady"
+### TODO NOT-IN-ST: nick_agot_the_skinnerknight [AGOT: the Flayed[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_skinnerknight:0 "the Flayed[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_skull [AGOT: the Black Skull]
+ nick_agot_the_black_skull:0 "the Black Skull"
+### TODO NOT-IN-ST: nick_agot_the_white_skull [AGOT: the White Skull]
+ nick_agot_the_white_skull:0 "the White Skull"
+### TODO NOT-IN-ST: nick_agot_the_crazed_skull [AGOT: the Cackling Skull]
+ nick_agot_the_crazed_skull:0 "the Cackling Skull"
+### TODO NOT-IN-ST: nick_agot_the_wild_skull [AGOT: the Red Skull]
+ nick_agot_the_wild_skull:0 "the Red Skull"
+### TODO NOT-IN-ST: nick_agot_the_quiet_skull [AGOT: the Silent Skull]
+ nick_agot_the_quiet_skull:0 "the Silent Skull"
+### TODO NOT-IN-ST: nick_agot_the_red_skull [AGOT: the Bloody Skull]
+ nick_agot_the_red_skull:0 "the Bloody Skull"
+### TODO NOT-IN-ST: nick_agot_the_big_skull [AGOT: the Colossal Skull]
+ nick_agot_the_big_skull:0 "the Colossal Skull"
+### TODO NOT-IN-ST: nick_agot_the_strong_skull [AGOT: Skullcrusher]
+ nick_agot_the_strong_skull:0 "Skullcrusher"
+### TODO NOT-IN-ST: nick_agot_the_fair_skull [AGOT: the Golden Skull]
+ nick_agot_the_fair_skull:0 "the Golden Skull"
+### TODO NOT-IN-ST: nick_agot_the_ugly_skull [AGOT: Skullface]
+ nick_agot_the_ugly_skull:0 "Skullface"
+### TODO NOT-IN-ST: nick_agot_the_small_skull [AGOT: the Dwarf Skull]
+ nick_agot_the_small_skull:0 "the Dwarf Skull"
+### TODO NOT-IN-ST: nick_agot_the_wise_skull [AGOT: the Bright Skull]
+ nick_agot_the_wise_skull:0 "the Bright Skull"
+### TODO NOT-IN-ST: nick_agot_the_dumb_skull [AGOT: Numbskull]
+ nick_agot_the_dumb_skull:0 "Numbskull"
+### TODO NOT-IN-ST: nick_agot_the_dark_skull [AGOT: Darkskull]
+ nick_agot_the_dark_skull:0 "Darkskull"
+### TODO NOT-IN-ST: nick_agot_the_weak_skull [AGOT: the Fragile Skull]
+ nick_agot_the_weak_skull:0 "the Fragile Skull"
+### TODO NOT-IN-ST: nick_agot_the_silver_skull [AGOT: the Silver Skull]
+ nick_agot_the_silver_skull:0 "the Silver Skull"
+### TODO NOT-IN-ST: nick_agot_the_old_skull [AGOT: the Old skull]
+ nick_agot_the_old_skull:0 "the Old skull"
+### TODO NOT-IN-ST: nick_agot_the_laughing_skull [AGOT: the Grinning Skull]
+ nick_agot_the_laughing_skull:0 "the Grinning Skull"
+### TODO NOT-IN-ST: nick_agot_the_skull_daughter [AGOT: the Skull's Daughter]
+ nick_agot_the_skull_daughter:0 "the Skull's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_skullknight [AGOT: the Skull[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_skullknight:0 "the Skull[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_death_head [AGOT: Death's Head]
+ nick_agot_death_head:0 "Death's Head"
+### TODO NOT-IN-ST: nick_agot_the_black_horse [AGOT: the Black Horse]
+ nick_agot_the_black_horse:0 "the Black Horse"
+### TODO NOT-IN-ST: nick_agot_the_white_horse [AGOT: the White Horse]
+ nick_agot_the_white_horse:0 "the White Horse"
+### TODO NOT-IN-ST: nick_agot_the_crazed_horse [AGOT: the Bucking[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_crazed_horse:0 "the Bucking[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_wild_horse [AGOT: Redhoof]
+ nick_agot_the_wild_horse:0 "Redhoof"
+### TODO NOT-IN-ST: nick_agot_the_quiet_horse [AGOT: the Canter]
+ nick_agot_the_quiet_horse:0 "the Canter"
+### TODO NOT-IN-ST: nick_agot_the_red_horse [AGOT: the Blood Bay]
+ nick_agot_the_red_horse:0 "the Blood Bay"
+### TODO NOT-IN-ST: nick_agot_the_sorrel [AGOT: the Sorrel]
+ nick_agot_the_sorrel:0 "the Sorrel"
+### TODO NOT-IN-ST: nick_agot_the_big_horse [AGOT: the Destrier]
+ nick_agot_the_big_horse:0 "the Destrier"
+### TODO NOT-IN-ST: nick_agot_the_strong_horse [AGOT: the Stallion]
+ nick_agot_the_strong_horse:0 "the Stallion"
+### TODO NOT-IN-ST: nick_agot_the_courser [AGOT: the Courser]
+ nick_agot_the_courser:0 "the Courser"
+### TODO NOT-IN-ST: nick_agot_the_fair_horse [AGOT: Goldmane]
+ nick_agot_the_fair_horse:0 "Goldmane"
+### TODO NOT-IN-ST: nick_agot_the_ugly_horse [AGOT: Horseface]
+ nick_agot_the_ugly_horse:0 "Horseface"
+### TODO NOT-IN-ST: nick_agot_the_small_horse [AGOT: the Dwarf Horse]
+ nick_agot_the_small_horse:0 "the Dwarf Horse"
+### TODO NOT-IN-ST: nick_agot_the_pony [AGOT: the Pony]
+ nick_agot_the_pony:0 "the Pony"
+### TODO NOT-IN-ST: nick_agot_the_wise_horse [AGOT: Swifthoof]
+ nick_agot_the_wise_horse:0 "Swifthoof"
+### TODO NOT-IN-ST: nick_agot_the_palfrey [AGOT: the Palfrey]
+ nick_agot_the_palfrey:0 "the Palfrey"
+### TODO NOT-IN-ST: nick_agot_the_dumb_horse [AGOT: the Dumb Horse]
+ nick_agot_the_dumb_horse:0 "the Dumb Horse"
+### TODO NOT-IN-ST: nick_agot_the_sumpter_horse [AGOT: the Sumpter Horse]
+ nick_agot_the_sumpter_horse:0 "the Sumpter Horse"
+### TODO NOT-IN-ST: nick_agot_the_dark_horse [AGOT: Darkhorse]
+ nick_agot_the_dark_horse:0 "Darkhorse"
+### TODO NOT-IN-ST: nick_agot_the_weak_horse [AGOT: the Lame Horse]
+ nick_agot_the_weak_horse:0 "the Lame Horse"
+### TODO NOT-IN-ST: nick_agot_the_rouncey [AGOT: the Rouncey]
+ nick_agot_the_rouncey:0 "the Rouncey"
+### TODO NOT-IN-ST: nick_agot_the_silver_horse [AGOT: the Silver Horse]
+ nick_agot_the_silver_horse:0 "the Silver Horse"
+### TODO NOT-IN-ST: nick_agot_the_old_horse [AGOT: the Old Horse]
+ nick_agot_the_old_horse:0 "the Old Horse"
+### TODO NOT-IN-ST: nick_agot_the_laughing_horse [AGOT: the Braying Horse]
+ nick_agot_the_laughing_horse:0 "the Braying Horse"
+### TODO NOT-IN-ST: nick_agot_the_horse_daughter [AGOT: the Filly]
+ nick_agot_the_horse_daughter:0 "the Filly"
+### TODO NOT-IN-ST: nick_agot_the_horseknight [AGOT: the Horse[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_horseknight:0 "the Horse[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_raven [AGOT: Nightraven]
+ nick_agot_the_black_raven:0 "Nightraven"
+### TODO NOT-IN-ST: nick_agot_the_white_raven [AGOT: the White Raven]
+ nick_agot_the_white_raven:0 "the White Raven"
+### TODO NOT-IN-ST: nick_agot_the_crazed_raven [AGOT: the Mad Raven]
+ nick_agot_the_crazed_raven:0 "the Mad Raven"
+### TODO NOT-IN-ST: nick_agot_the_wild_raven [AGOT: Redraven]
+ nick_agot_the_wild_raven:0 "Redraven"
+### TODO NOT-IN-ST: nick_agot_the_quiet_raven [AGOT: the Silent Raven]
+ nick_agot_the_quiet_raven:0 "the Silent Raven"
+### TODO NOT-IN-ST: nick_agot_the_red_raven [AGOT: the Ravening Raven]
+ nick_agot_the_red_raven:0 "the Ravening Raven"
+### TODO NOT-IN-ST: nick_agot_the_big_raven [AGOT: Wingspan]
+ nick_agot_the_big_raven:0 "Wingspan"
+### TODO NOT-IN-ST: nick_agot_the_strong_raven [AGOT: the Strong Raven]
+ nick_agot_the_strong_raven:0 "the Strong Raven"
+### TODO NOT-IN-ST: nick_agot_the_fair_raven [AGOT: Goldwing]
+ nick_agot_the_fair_raven:0 "Goldwing"
+### TODO NOT-IN-ST: nick_agot_the_ugly_raven [AGOT: the Broken Wing]
+ nick_agot_the_ugly_raven:0 "the Broken Wing"
+### TODO NOT-IN-ST: nick_agot_the_small_raven [AGOT: the Little Raven]
+ nick_agot_the_small_raven:0 "the Little Raven"
+### TODO NOT-IN-ST: nick_agot_the_wise_raven [AGOT: the Clever Corvid]
+ nick_agot_the_wise_raven:0 "the Clever Corvid"
+### TODO NOT-IN-ST: nick_agot_the_dumb_raven [AGOT: the Dumb Raven]
+ nick_agot_the_dumb_raven:0 "the Dumb Raven"
+### TODO NOT-IN-ST: nick_agot_the_dark_raven [AGOT: Darkwing]
+ nick_agot_the_dark_raven:0 "Darkwing"
+### TODO NOT-IN-ST: nick_agot_the_weak_raven [AGOT: the Flightless]
+ nick_agot_the_weak_raven:0 "the Flightless"
+### TODO NOT-IN-ST: nick_agot_the_silver_raven [AGOT: Silverraven]
+ nick_agot_the_silver_raven:0 "Silverraven"
+### TODO NOT-IN-ST: nick_agot_the_old_raven [AGOT: the Old Raven]
+ nick_agot_the_old_raven:0 "the Old Raven"
+### TODO NOT-IN-ST: nick_agot_the_laughing_raven [AGOT: the Grinning Raven]
+ nick_agot_the_laughing_raven:0 "the Grinning Raven"
+### TODO NOT-IN-ST: nick_agot_the_raven_daughter [AGOT: the Raven's Daughter]
+ nick_agot_the_raven_daughter:0 "the Raven's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_ravenknight [AGOT: the Raven[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_ravenknight:0 "the Raven[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_sapphire [AGOT: the Black Sapphire]
+ nick_agot_the_black_sapphire:0 "the Black Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_white_sapphire [AGOT: the White Sapphire]
+ nick_agot_the_white_sapphire:0 "the White Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_crazed_sapphire [AGOT: the Mad Sapphire]
+ nick_agot_the_crazed_sapphire:0 "the Mad Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_wild_sapphire [AGOT: the Wroth Sapphire]
+ nick_agot_the_wild_sapphire:0 "the Wroth Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_quiet_sapphire [AGOT: the Gloam]
+ nick_agot_the_quiet_sapphire:0 "the Gloam"
+### TODO NOT-IN-ST: nick_agot_the_red_sapphire [AGOT: the Red Sapphire]
+ nick_agot_the_red_sapphire:0 "the Red Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_big_sapphire [AGOT: the Big Sapphire]
+ nick_agot_the_big_sapphire:0 "the Big Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_strong_sapphire [AGOT: the Long Evening]
+ nick_agot_the_strong_sapphire:0 "the Long Evening"
+### TODO NOT-IN-ST: nick_agot_the_fair_sapphire [AGOT: the Sapphire of the Sea]
+ nick_agot_the_fair_sapphire:0 "the Sapphire of the Sea"
+### TODO NOT-IN-ST: nick_agot_the_ugly_sapphire [AGOT: the Ugly Sapphire]
+ nick_agot_the_ugly_sapphire:0 "the Ugly Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_small_sapphire [AGOT: the Little Sapphire]
+ nick_agot_the_small_sapphire:0 "the Little Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_wise_sapphire [AGOT: Evenstar]
+ nick_agot_the_wise_sapphire:0 "Evenstar" #Canon
+### TODO NOT-IN-ST: nick_agot_the_dumb_sapphire [AGOT: the Dull Sapphire]
+ nick_agot_the_dumb_sapphire:0 "the Dull Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_dark_sapphire [AGOT: Midnight]
+ nick_agot_the_dark_sapphire:0 "Midnight"
+### TODO NOT-IN-ST: nick_agot_the_weak_sapphire [AGOT: the Weak Sapphire]
+ nick_agot_the_weak_sapphire:0 "the Weak Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_silver_sapphire [AGOT: the Silver Sapphire]
+ nick_agot_the_silver_sapphire:0 "the Silver Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_old_sapphire [AGOT: the Old Sapphire]
+ nick_agot_the_old_sapphire:0 "the Old Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_laughing_sapphire [AGOT: the Shining Sapphire]
+ nick_agot_the_laughing_sapphire:0 "the Shining Sapphire"
+### TODO NOT-IN-ST: nick_agot_the_sapphire_daughter [AGOT: the Sapphire's Daughter]
+ nick_agot_the_sapphire_daughter:0 "the Sapphire's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_sapphireknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Sapphires]
+ nick_agot_the_sapphireknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Sapphires"
+### TODO NOT-IN-ST: nick_agot_the_eveningknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Evening]
+ nick_agot_the_eveningknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Evening"
+### TODO NOT-IN-ST: nick_agot_the_twilightknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Twilight]
+ nick_agot_the_twilightknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Twilight"
+### TODO NOT-IN-ST: nick_agot_the_black_moon [AGOT: the Black Moon]
+ nick_agot_the_black_moon:0 "the Black Moon"
+### TODO NOT-IN-ST: nick_agot_the_white_moon [AGOT: the White moon]
+ nick_agot_the_white_moon:0 "the White moon"
+### TODO NOT-IN-ST: nick_agot_the_crazed_moon [AGOT: the Mad Moon]
+ nick_agot_the_crazed_moon:0 "the Mad Moon"
+### TODO NOT-IN-ST: nick_agot_the_wild_moon [AGOT: the Blood Moon]
+ nick_agot_the_wild_moon:0 "the Blood Moon"
+### TODO NOT-IN-ST: nick_agot_the_quiet_moon [AGOT: the Silent Moon]
+ nick_agot_the_quiet_moon:0 "the Silent Moon"
+### TODO NOT-IN-ST: nick_agot_the_red_moon [AGOT: the Red Moon]
+ nick_agot_the_red_moon:0 "the Red Moon"
+### TODO NOT-IN-ST: nick_agot_the_big_moon [AGOT: the Big Moon]
+ nick_agot_the_big_moon:0 "the Big Moon"
+### TODO NOT-IN-ST: nick_agot_the_strong_moon [AGOT: the Full Moon]
+ nick_agot_the_strong_moon:0 "the Full Moon"
+### TODO NOT-IN-ST: nick_agot_the_fair_moon [AGOT: the Benign Moon]
+ nick_agot_the_fair_moon:0 "the Benign Moon"
+### TODO NOT-IN-ST: nick_agot_the_ugly_moon [AGOT: the Ugly Moon]
+ nick_agot_the_ugly_moon:0 "the Ugly Moon"
+### TODO NOT-IN-ST: nick_agot_the_small_moon [AGOT: the Little Moon]
+ nick_agot_the_small_moon:0 "the Little Moon"
+### TODO NOT-IN-ST: nick_agot_the_wise_moon [AGOT: the Eclipse]
+ nick_agot_the_wise_moon:0 "the Eclipse"
+### TODO NOT-IN-ST: nick_agot_the_dumb_moon [AGOT: the Slow Moon]
+ nick_agot_the_dumb_moon:0 "the Slow Moon"
+### TODO NOT-IN-ST: nick_agot_the_dark_moon [AGOT: the Dark Moon]
+ nick_agot_the_dark_moon:0 "the Dark Moon"
+### TODO NOT-IN-ST: nick_agot_the_weak_moon [AGOT: the Waning Moon]
+ nick_agot_the_weak_moon:0 "the Waning Moon"
+### TODO NOT-IN-ST: nick_agot_the_silver_moon [AGOT: Silvermoon]
+ nick_agot_the_silver_moon:0 "Silvermoon"
+### TODO NOT-IN-ST: nick_agot_the_old_moon [AGOT: the Old [CHARACTER.GetWomanMan] of the Moon]
+ nick_agot_the_old_moon:0 "the Old [CHARACTER.GetWomanMan] of the Moon"
+### TODO NOT-IN-ST: nick_agot_the_laughing_moon [AGOT: the Laughing Moon]
+ nick_agot_the_laughing_moon:0 "the Laughing Moon"
+### TODO NOT-IN-ST: nick_agot_the_moon_daughter [AGOT: the Moon's Maiden]
+ nick_agot_the_moon_daughter:0 "the Moon's Maiden"
+### TODO NOT-IN-ST: nick_agot_the_moonknight [AGOT: the Moon[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_moonknight:0 "the Moon[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_moonknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Moon]
+ nick_agot_the_moonknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of the Moon"
+### TODO NOT-IN-ST: nick_agot_the_black_eagle [AGOT: the Black Eagle]
+ nick_agot_the_black_eagle:0 "the Black Eagle"
+### TODO NOT-IN-ST: nick_agot_the_white_eagle [AGOT: the White Eagle]
+ nick_agot_the_white_eagle:0 "the White Eagle"
+### TODO NOT-IN-ST: nick_agot_the_crazed_eagle [AGOT: the Mad Eagle]
+ nick_agot_the_crazed_eagle:0 "the Mad Eagle"
+### TODO NOT-IN-ST: nick_agot_the_wild_eagle [AGOT: the Blood Eagle]
+ nick_agot_the_wild_eagle:0 "the Blood Eagle"
+### TODO NOT-IN-ST: nick_agot_the_quiet_eagle [AGOT: the Silent Eagle]
+ nick_agot_the_quiet_eagle:0 "the Silent Eagle"
+### TODO NOT-IN-ST: nick_agot_the_red_eagle [AGOT: the Red Eagle]
+ nick_agot_the_red_eagle:0 "the Red Eagle"
+### TODO NOT-IN-ST: nick_agot_the_big_eagle [AGOT: the Great Eagle]
+ nick_agot_the_big_eagle:0 "the Great Eagle"
+### TODO NOT-IN-ST: nick_agot_the_strong_eagle [AGOT: the Strong Eagle]
+ nick_agot_the_strong_eagle:0 "the Strong Eagle"
+### TODO NOT-IN-ST: nick_agot_the_fair_eagle [AGOT: the Golden Eagle]
+ nick_agot_the_fair_eagle:0 "the Golden Eagle"
+### TODO NOT-IN-ST: nick_agot_the_ugly_eagle [AGOT: the Ugly Eagle]
+ nick_agot_the_ugly_eagle:0 "the Ugly Eagle"
+### TODO NOT-IN-ST: nick_agot_the_small_eagle [AGOT: the Little Eagle]
+ nick_agot_the_small_eagle:0 "the Little Eagle"
+### TODO NOT-IN-ST: nick_agot_the_wise_eagle [AGOT: the Even Eagle]
+ nick_agot_the_wise_eagle:0 "the Even Eagle"
+### TODO NOT-IN-ST: nick_agot_the_dumb_eagle [AGOT: the Flightless]
+ nick_agot_the_dumb_eagle:0 "the Flightless"
+### TODO NOT-IN-ST: nick_agot_the_dark_eagle [AGOT: Dark Eagle]
+ nick_agot_the_dark_eagle:0 "Dark Eagle"
+### TODO NOT-IN-ST: nick_agot_the_weak_eagle [AGOT: the Lame Eagle]
+ nick_agot_the_weak_eagle:0 "the Lame Eagle"
+### TODO NOT-IN-ST: nick_agot_the_silver_eagle [AGOT: Silvereagle]
+ nick_agot_the_silver_eagle:0 "Silvereagle"
+### TODO NOT-IN-ST: nick_agot_the_old_eagle [AGOT: the Old [CHARACTER.GetWomanMan] Eagle]
+ nick_agot_the_old_eagle:0 "the Old [CHARACTER.GetWomanMan] Eagle"
+### TODO NOT-IN-ST: nick_agot_the_laughing_eagle [AGOT: the Laughing Eagle]
+ nick_agot_the_laughing_eagle:0 "the Laughing Eagle"
+### TODO NOT-IN-ST: nick_agot_the_eagle_daughter [AGOT: the Eagle's Daughter]
+ nick_agot_the_eagle_daughter:0 "the Eagle's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_eagleknight [AGOT: the Eagle[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_eagleknight:0 "the Eagle[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_black_heart [AGOT: Blackheart]
+ nick_agot_the_black_heart:0 "Blackheart"
+### TODO NOT-IN-ST: nick_agot_the_white_heart [AGOT: Whiteheart]
+ nick_agot_the_white_heart:0 "Whiteheart"
+### TODO NOT-IN-ST: nick_agot_the_crazed_heart [AGOT: Madheart]
+ nick_agot_the_crazed_heart:0 "Madheart"
+### TODO NOT-IN-ST: nick_agot_the_wild_heart [AGOT: Wildheart]
+ nick_agot_the_wild_heart:0 "Wildheart"
+### TODO NOT-IN-ST: nick_agot_the_quiet_heart [AGOT: the Still Heart]
+ nick_agot_the_quiet_heart:0 "the Still Heart"
+### TODO NOT-IN-ST: nick_agot_the_red_heart [AGOT: Redheart]
+ nick_agot_the_red_heart:0 "Redheart"
+### TODO NOT-IN-ST: nick_agot_the_big_heart [AGOT: Bigheart]
+ nick_agot_the_big_heart:0 "Bigheart"
+### TODO NOT-IN-ST: nick_agot_the_strong_heart [AGOT: Greatheart]
+ nick_agot_the_strong_heart:0 "Greatheart"
+### TODO NOT-IN-ST: nick_agot_the_fair_heart [AGOT: Goldheart]
+ nick_agot_the_fair_heart:0 "Goldheart"
+### TODO NOT-IN-ST: nick_agot_the_ugly_heart [AGOT: the Organ]
+ nick_agot_the_ugly_heart:0 "the Organ"
+### TODO NOT-IN-ST: nick_agot_the_small_heart [AGOT: the Little Heart]
+ nick_agot_the_small_heart:0 "the Little Heart"
+### TODO NOT-IN-ST: nick_agot_the_wise_heart [AGOT: Justheart]
+ nick_agot_the_wise_heart:0 "Justheart"
+### TODO NOT-IN-ST: nick_agot_the_dumb_heart [AGOT: the Slow Heart]
+ nick_agot_the_dumb_heart:0 "the Slow Heart"
+### TODO NOT-IN-ST: nick_agot_the_dark_heart [AGOT: Darkheart]
+ nick_agot_the_dark_heart:0 "Darkheart"
+### TODO NOT-IN-ST: nick_agot_the_weak_heart [AGOT: the Trembling Heart]
+ nick_agot_the_weak_heart:0 "the Trembling Heart"
+### TODO NOT-IN-ST: nick_agot_the_silver_heart [AGOT: Silverheart]
+ nick_agot_the_silver_heart:0 "Silverheart"
+### TODO NOT-IN-ST: nick_agot_the_old_heart [AGOT: the Old Heart]
+ nick_agot_the_old_heart:0 "the Old Heart"
+### TODO NOT-IN-ST: nick_agot_the_laughing_heart [AGOT: the Laughing Heart]
+ nick_agot_the_laughing_heart:0 "the Laughing Heart"
+### TODO NOT-IN-ST: nick_agot_the_heart_daughter [AGOT: the Heart's Daughter]
+ nick_agot_the_heart_daughter:0 "the Heart's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_heartknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Hearts]
+ nick_agot_the_heartknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Hearts"
+### TODO NOT-IN-ST: nick_agot_the_black_bell [AGOT: Blackbell]
+ nick_agot_the_black_bell:0 "Blackbell"
+### TODO NOT-IN-ST: nick_agot_the_white_bell [AGOT: Whitebell]
+ nick_agot_the_white_bell:0 "Whitebell"
+### TODO NOT-IN-ST: nick_agot_the_crazed_bell [AGOT: Madbell]
+ nick_agot_the_crazed_bell:0 "Madbell"
+### TODO NOT-IN-ST: nick_agot_the_wild_bell [AGOT: Wildbell]
+ nick_agot_the_wild_bell:0 "Wildbell"
+### TODO NOT-IN-ST: nick_agot_the_quiet_bell [AGOT: the Silent Bell]
+ nick_agot_the_quiet_bell:0 "the Silent Bell"
+### TODO NOT-IN-ST: nick_agot_the_red_bell [AGOT: Redbell]
+ nick_agot_the_red_bell:0 "Redbell"
+### TODO NOT-IN-ST: nick_agot_the_big_bell [AGOT: the Big Bell]
+ nick_agot_the_big_bell:0 "the Big Bell"
+### TODO NOT-IN-ST: nick_agot_the_strong_bell [AGOT: Greatbell]
+ nick_agot_the_strong_bell:0 "Greatbell"
+### TODO NOT-IN-ST: nick_agot_the_fair_bell [AGOT: Goldbell]
+ nick_agot_the_fair_bell:0 "Goldbell"
+### TODO NOT-IN-ST: nick_agot_the_ugly_bell [AGOT: the Cracked Bell]
+ nick_agot_the_ugly_bell:0 "the Cracked Bell"
+### TODO NOT-IN-ST: nick_agot_the_small_bell [AGOT: the Little Bell]
+ nick_agot_the_small_bell:0 "the Little Bell"
+### TODO NOT-IN-ST: nick_agot_the_wise_bell [AGOT: Justbell]
+ nick_agot_the_wise_bell:0 "Justbell"
+### TODO NOT-IN-ST: nick_agot_the_dumb_bell [AGOT: the Slow Bell]
+ nick_agot_the_dumb_bell:0 "the Slow Bell"
+### TODO NOT-IN-ST: nick_agot_the_dark_bell [AGOT: Darkbell]
+ nick_agot_the_dark_bell:0 "Darkbell"
+### TODO NOT-IN-ST: nick_agot_the_weak_bell [AGOT: the Trembling Bell]
+ nick_agot_the_weak_bell:0 "the Trembling Bell"
+### TODO NOT-IN-ST: nick_agot_the_silver_bell [AGOT: Silverbell]
+ nick_agot_the_silver_bell:0 "Silverbell"
+### TODO NOT-IN-ST: nick_agot_the_old_bell [AGOT: the Old Bell]
+ nick_agot_the_old_bell:0 "the Old Bell"
+### TODO NOT-IN-ST: nick_agot_the_laughing_bell [AGOT: the Clanging Bell]
+ nick_agot_the_laughing_bell:0 "the Clanging Bell"
+### TODO NOT-IN-ST: nick_agot_the_bell_daughter [AGOT: the Bell's Daughter]
+ nick_agot_the_bell_daughter:0 "the Bell's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_bellknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Bells]
+ nick_agot_the_bellknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Bells"
+### TODO NOT-IN-ST: nick_agot_the_black_anchor [AGOT: Blackanchor]
+ nick_agot_the_black_anchor:0 "Blackanchor"
+### TODO NOT-IN-ST: nick_agot_the_white_anchor [AGOT: Whiteanchor]
+ nick_agot_the_white_anchor:0 "Whiteanchor"
+### TODO NOT-IN-ST: nick_agot_the_crazed_anchor [AGOT: Madanchor]
+ nick_agot_the_crazed_anchor:0 "Madanchor"
+### TODO NOT-IN-ST: nick_agot_the_wild_anchor [AGOT: Wildanchor]
+ nick_agot_the_wild_anchor:0 "Wildanchor"
+### TODO NOT-IN-ST: nick_agot_the_quiet_anchor [AGOT: the Quiet Anchor]
+ nick_agot_the_quiet_anchor:0 "the Quiet Anchor"
+### TODO NOT-IN-ST: nick_agot_the_red_anchor [AGOT: the Red Anchor]
+ nick_agot_the_red_anchor:0 "the Red Anchor"
+### TODO NOT-IN-ST: nick_agot_the_big_anchor [AGOT: the Weighed Anchor]
+ nick_agot_the_big_anchor:0 "the Weighed Anchor"
+### TODO NOT-IN-ST: nick_agot_the_strong_anchor [AGOT: Greatanchor]
+ nick_agot_the_strong_anchor:0 "Greatanchor"
+### TODO NOT-IN-ST: nick_agot_the_fair_anchor [AGOT: the Golden Anchor]
+ nick_agot_the_fair_anchor:0 "the Golden Anchor"
+### TODO NOT-IN-ST: nick_agot_the_ugly_anchor [AGOT: the Cracked Anchor]
+ nick_agot_the_ugly_anchor:0 "the Cracked Anchor"
+### TODO NOT-IN-ST: nick_agot_the_small_anchor [AGOT: the Little Anchor]
+ nick_agot_the_small_anchor:0 "the Little Anchor"
+### TODO NOT-IN-ST: nick_agot_the_wise_anchor [AGOT: the Sage Anchor]
+ nick_agot_the_wise_anchor:0 "the Sage Anchor"
+### TODO NOT-IN-ST: nick_agot_the_dumb_anchor [AGOT: the Floating Anchor]
+ nick_agot_the_dumb_anchor:0 "the Floating Anchor"
+### TODO NOT-IN-ST: nick_agot_the_dark_anchor [AGOT: Darkanchor]
+ nick_agot_the_dark_anchor:0 "Darkanchor"
+### TODO NOT-IN-ST: nick_agot_the_weak_anchor [AGOT: the Light Anchor]
+ nick_agot_the_weak_anchor:0 "the Light Anchor"
+### TODO NOT-IN-ST: nick_agot_the_silver_anchor [AGOT: Silveranchor]
+ nick_agot_the_silver_anchor:0 "Silveranchor"
+### TODO NOT-IN-ST: nick_agot_the_old_anchor [AGOT: the Old Anchor]
+ nick_agot_the_old_anchor:0 "the Old Anchor"
+### TODO NOT-IN-ST: nick_agot_the_laughing_anchor [AGOT: the Clanging Anchor]
+ nick_agot_the_laughing_anchor:0 "the Clanging Anchor"
+### TODO NOT-IN-ST: nick_agot_the_anchor_daughter [AGOT: the Anchor's Daughter]
+ nick_agot_the_anchor_daughter:0 "the Anchor's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_anchorknight [AGOT: the Anchor[CHARACTER.Custom('GetWarriorNickname')]]
+ nick_agot_the_anchorknight:0 "the Anchor[CHARACTER.Custom('GetWarriorNickname')]"
+### TODO NOT-IN-ST: nick_agot_the_anchorknightprefix [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Anchors]
+ nick_agot_the_anchorknightprefix:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Anchors"
+### TODO NOT-IN-ST: nick_agot_the_black_seashell [AGOT: the Black Shell]
+ nick_agot_the_black_seashell:0 "the Black Shell"
+### TODO NOT-IN-ST: nick_agot_the_white_seashell [AGOT: the White Shell]
+ nick_agot_the_white_seashell:0 "the White Shell"
+### TODO NOT-IN-ST: nick_agot_the_crazed_seashell [AGOT: the Mad Shell]
+ nick_agot_the_crazed_seashell:0 "the Mad Shell"
+### TODO NOT-IN-ST: nick_agot_the_wild_seashell [AGOT: the Wroth Shell]
+ nick_agot_the_wild_seashell:0 "the Wroth Shell"
+### TODO NOT-IN-ST: nick_agot_the_quiet_seashell [AGOT: the Silent Seashell]
+ nick_agot_the_quiet_seashell:0 "the Silent Seashell"
+### TODO NOT-IN-ST: nick_agot_the_red_seashell [AGOT: Redshell]
+ nick_agot_the_red_seashell:0 "Redshell"
+### TODO NOT-IN-ST: nick_agot_the_big_seashell [AGOT: the Conch]
+ nick_agot_the_big_seashell:0 "the Conch"
+### TODO NOT-IN-ST: nick_agot_the_strong_seashell [AGOT: Strongshell]
+ nick_agot_the_strong_seashell:0 "Strongshell"
+### TODO NOT-IN-ST: nick_agot_the_fair_seashell [AGOT: the Pearl]
+ nick_agot_the_fair_seashell:0 "the Pearl"
+### TODO NOT-IN-ST: nick_agot_the_ugly_seashell [AGOT: the Clam]
+ nick_agot_the_ugly_seashell:0 "the Clam"
+### TODO NOT-IN-ST: nick_agot_the_small_seashell [AGOT: the Little Shell]
+ nick_agot_the_small_seashell:0 "the Little Shell"
+### TODO NOT-IN-ST: nick_agot_the_wise_seashell [AGOT: the Sage Shell]
+ nick_agot_the_wise_seashell:0 "the Sage Shell"
+### TODO NOT-IN-ST: nick_agot_the_dumb_seashell [AGOT: the Slow Shell]
+ nick_agot_the_dumb_seashell:0 "the Slow Shell"
+### TODO NOT-IN-ST: nick_agot_the_dark_seashell [AGOT: Darkshell]
+ nick_agot_the_dark_seashell:0 "Darkshell"
+### TODO NOT-IN-ST: nick_agot_the_weak_seashell [AGOT: Softshell]
+ nick_agot_the_weak_seashell:0 "Softshell"
+### TODO NOT-IN-ST: nick_agot_the_silver_seashell [AGOT: Silvershell]
+ nick_agot_the_silver_seashell:0 "Silvershell"
+### TODO NOT-IN-ST: nick_agot_the_old_seashell [AGOT: the Cockle]
+ nick_agot_the_old_seashell:0 "the Cockle"
+### TODO NOT-IN-ST: nick_agot_the_laughing_seashell [AGOT: the Laughing Seashell]
+ nick_agot_the_laughing_seashell:0 "the Laughing Seashell"
+### TODO NOT-IN-ST: nick_agot_the_seashell_daughter [AGOT: the Shell's Pearl]
+ nick_agot_the_seashell_daughter:0 "the Shell's Pearl"
+### TODO NOT-IN-ST: nick_agot_the_seashellknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Seashells]
+ nick_agot_the_seashellknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Seashells"
+### TODO NOT-IN-ST: nick_agot_the_black_chain [AGOT: the Black Chain]
+ nick_agot_the_black_chain:0 "the Black Chain"
+### TODO NOT-IN-ST: nick_agot_the_white_chain [AGOT: the White Chain]
+ nick_agot_the_white_chain:0 "the White Chain"
+### TODO NOT-IN-ST: nick_agot_the_crazed_chain [AGOT: the Mad Chain]
+ nick_agot_the_crazed_chain:0 "the Mad Chain"
+### TODO NOT-IN-ST: nick_agot_the_wild_chain [AGOT: the Wroth Chain]
+ nick_agot_the_wild_chain:0 "the Wroth Chain"
+### TODO NOT-IN-ST: nick_agot_the_quiet_chain [AGOT: the Silent Chain]
+ nick_agot_the_quiet_chain:0 "the Silent Chain"
+### TODO NOT-IN-ST: nick_agot_the_red_chain [AGOT: Redchain]
+ nick_agot_the_red_chain:0 "Redchain"
+### TODO NOT-IN-ST: nick_agot_the_big_chain [AGOT: the Big Chain]
+ nick_agot_the_big_chain:0 "the Big Chain"
+### TODO NOT-IN-ST: nick_agot_the_strong_chain [AGOT: the Strong Chain]
+ nick_agot_the_strong_chain:0 "the Strong Chain"
+### TODO NOT-IN-ST: nick_agot_the_fair_chain [AGOT: the Golden Chain]
+ nick_agot_the_fair_chain:0 "the Golden Chain"
+### TODO NOT-IN-ST: nick_agot_the_ugly_chain [AGOT: the Rusty Chain]
+ nick_agot_the_ugly_chain:0 "the Rusty Chain"
+### TODO NOT-IN-ST: nick_agot_the_small_chain [AGOT: the Little Chain]
+ nick_agot_the_small_chain:0 "the Little Chain"
+### TODO NOT-IN-ST: nick_agot_the_wise_chain [AGOT: the Sage Chain]
+ nick_agot_the_wise_chain:0 "the Sage Chain"
+### TODO NOT-IN-ST: nick_agot_the_dumb_chain [AGOT: the Slow Chain]
+ nick_agot_the_dumb_chain:0 "the Slow Chain"
+### TODO NOT-IN-ST: nick_agot_the_dark_chain [AGOT: Darkchain]
+ nick_agot_the_dark_chain:0 "Darkchain"
+### TODO NOT-IN-ST: nick_agot_the_weak_chain [AGOT: the Broken Chain]
+ nick_agot_the_weak_chain:0 "the Broken Chain"
+### TODO NOT-IN-ST: nick_agot_the_silver_chain [AGOT: the Silver Chain]
+ nick_agot_the_silver_chain:0 "the Silver Chain"
+### TODO NOT-IN-ST: nick_agot_the_old_chain [AGOT: the Aged Chain]
+ nick_agot_the_old_chain:0 "the Aged Chain"
+### TODO NOT-IN-ST: nick_agot_the_laughing_chain [AGOT: the Rattling Chain]
+ nick_agot_the_laughing_chain:0 "the Rattling Chain"
+### TODO NOT-IN-ST: nick_agot_the_chain_daughter [AGOT: the Chain's Daughter]
+ nick_agot_the_chain_daughter:0 "the Chain's Daughter"
+### TODO NOT-IN-ST: nick_agot_the_chainknight [AGOT: the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Chains]
+ nick_agot_the_chainknight:0 "the[CHARACTER.Custom('GetWarriorNicknamePrefix')] of Chains"

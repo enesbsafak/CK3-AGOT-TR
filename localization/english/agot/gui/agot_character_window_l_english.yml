@@ -1,8 +1,12 @@
 ﻿l_english:
 ### TODO NOT-IN-ST: bastard_surname_flowers [AGOT: Flowers]
  bastard_surname_flowers:0 " Flowers"
+### TODO NOT-IN-ST: bastard_surname_hill [AGOT: Hill]
+ bastard_surname_hill:0 " Hill"
 ### TODO NOT-IN-ST: bastard_surname_pyke [AGOT: Pyke]
  bastard_surname_pyke:0 " Pyke"
+### TODO NOT-IN-ST: bastard_surname_rivers [AGOT: Rivers]
+ bastard_surname_rivers:0 " Rivers"
 ### TODO NOT-IN-ST: bastard_surname_sand [AGOT: Sand]
  bastard_surname_sand:0 " Sand"
 ### TODO NOT-IN-ST: bastard_surname_snow [AGOT: Snow]
@@ -233,10 +237,40 @@
  THEY_LOSE_SURNAME_WATERS_EFFECT:0 "[CHARACTER.GetShortUIName|U] loses the [agot_surname|E] #high Waters#!"
 ### TODO NOT-IN-ST: LOSE_SURNAME_WATERS_EFFECT [AGOT: Loses the [agot_surname|E] #high Waters#!]
  LOSE_SURNAME_WATERS_EFFECT:0 "Loses the [agot_surname|E] #high Waters#!"
+### TODO NOT-IN-ST: bastard_surname_flowers_possessive [AGOT: Flowers']
+ bastard_surname_flowers_possessive:0 " Flowers'"
+### TODO NOT-IN-ST: bastard_surname_hill_possessive [AGOT: Hill's]
+ bastard_surname_hill_possessive:0 " Hill's"
+### TODO NOT-IN-ST: bastard_surname_pyke_possessive [AGOT: Pyke's]
+ bastard_surname_pyke_possessive:0 " Pyke's"
+### TODO NOT-IN-ST: bastard_surname_rivers_possessive [AGOT: Rivers']
+ bastard_surname_rivers_possessive:0 " Rivers'"
+### TODO NOT-IN-ST: bastard_surname_sand_possessive [AGOT: Sand's]
+ bastard_surname_sand_possessive:0 " Sand's"
+### TODO NOT-IN-ST: bastard_surname_snow_possessive [AGOT: Snow's]
+ bastard_surname_snow_possessive:0 " Snow's"
+### TODO NOT-IN-ST: bastard_surname_stone_possessive [AGOT: Stone's]
+ bastard_surname_stone_possessive:0 " Stone's"
+### TODO NOT-IN-ST: bastard_surname_storm_possessive [AGOT: Storm's]
+ bastard_surname_storm_possessive:0 " Storm's"
+### TODO NOT-IN-ST: bastard_surname_waters_possessive [AGOT: Waters']
+ bastard_surname_waters_possessive:0 " Waters'"
+### TODO NOT-IN-ST: regular_surname_possessive [AGOT: [ROOT.Char.GetHouse.GetNameNoTooltip]'s]
+ regular_surname_possessive:0 " [ROOT.Char.GetHouse.GetNameNoTooltip]'s"
 ### TODO NOT-IN-ST: SURNAME_SWITCH_POSSESSIVE [AGOT: [ROOT.Char.Custom('SurnameSwitchPossessive')]]
  SURNAME_SWITCH_POSSESSIVE:0 "[ROOT.Char.Custom('SurnameSwitchPossessive')]"
 ### TODO NOT-IN-ST: word_no_space [AGOT: ]
  word_no_space:0 ""
+### TODO NOT-IN-ST: word_with_space [AGOT: ]
+ word_with_space:0 " "
+### TODO NOT-IN-ST: of_title_loc [AGOT: of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]]
+ of_title_loc:0 " of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: of_title_spouse_loc [AGOT: of [ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]]
+ of_title_spouse_loc:0 " of [ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: of_title_father_loc [AGOT: of [ROOT.Char.GetFather.GetPrimaryTitle.GetNameNoTierNoTooltip]]
+ of_title_father_loc:0 " of [ROOT.Char.GetFather.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: of_title_mother_loc [AGOT: of [ROOT.Char.GetMother.GetPrimaryTitle.GetNameNoTierNoTooltip]]
+ of_title_mother_loc:0 " of [ROOT.Char.GetMother.GetPrimaryTitle.GetNameNoTierNoTooltip]"
 ### TODO NOT-IN-ST: agot_name_regnal_character [AGOT: [Character.Custom('AGOT_CHAR_NAME_REGNAL')]]
  agot_name_regnal_character:0 "[Character.Custom('AGOT_CHAR_NAME_REGNAL')]"
 ### TODO NOT-IN-ST: AGOT_NAME_CHARACTER [AGOT: #high $agot_name_regnal_character$[Character.Custom('SurnameSwitch')]#!]

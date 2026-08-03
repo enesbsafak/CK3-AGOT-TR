@@ -1,8 +1,110 @@
 ﻿l_english:
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_intrigue [AGOT: $TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$]
+ TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings_intrigue:0 "$TRAVEL_POINT_OF_INTEREST_TT_poi_special_buildings$"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_martial [AGOT: [PROVINCE.Custom('CastleName')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_martial:0 "[PROVINCE.Custom('CastleName')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_intrigue [AGOT: [PROVINCE.Custom('CastleName')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_intrigue:0 "[PROVINCE.Custom('CastleName')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_learning [AGOT: [PROVINCE.Custom('CastleName')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_learning:0 "[PROVINCE.Custom('CastleName')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_stewardship [AGOT: [PROVINCE.Custom('CastleName')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_stewardship:0 "[PROVINCE.Custom('CastleName')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_diplo [AGOT: [PROVINCE.Custom('CastleName')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_diplo:0 "[PROVINCE.Custom('CastleName')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle [AGOT: Site of the [PROVINCE.Custom('HistoricalBattle')]]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle:0 "Site of the [PROVINCE.Custom('HistoricalBattle')]"
+### TODO NOT-IN-ST: agot_poi_historical_battle.visit [AGOT: Visited the location of the [province.Custom('HistoricalBattle')]]
+ agot_poi_historical_battle.visit:0 "Visited the location of the [province.Custom('HistoricalBattle')]"
+### TODO NOT-IN-ST: agot_poi_historical_battle.visit.tt [AGOT: [province.Custom('HistoricalBattleDesc')]]
+ agot_poi_historical_battle.visit.tt:0 "[province.Custom('HistoricalBattleDesc')]"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_myr_scholastic_guilds [AGOT: Scholastic Guilds]
+ TRAVEL_POINT_OF_INTEREST_TT_poi_myr_scholastic_guilds:0 "Scholastic Guilds"
+### TODO NOT-IN-ST: poi_myr_scholastic_guilds_event_tt [AGOT: Will trigger a Sight-Seeing Event]
+ poi_myr_scholastic_guilds_event_tt:0 "Will trigger a Sight-Seeing Event"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target [AGOT: Interesting Area]
+ TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target:0 "Interesting Area"
+### TODO NOT-IN-ST: poi_exploration_event_tt [AGOT: Will trigger an Exploration Event]
+ poi_exploration_event_tt:0 "Will trigger an Exploration Event"
+### TODO NOT-IN-ST: historical_battle_rape_of_the_sisters [AGOT: Rape of the Sisters]
+ historical_battle_rape_of_the_sisters:0 "Rape of the Sisters"
+### TODO NOT-IN-ST: historical_battle_rape_of_the_sisters_desc [AGOT: The Rape of the Three Sisters, the devastating occupation of the islands by the Northmen, was a period in the War across the Water between the kings of Houses Stark and Arryn that led to the integration of the Sisters into the Vale.]
+ historical_battle_rape_of_the_sisters_desc:0 "The Rape of the Three Sisters, the devastating occupation of the islands by the Northmen, was a period in the War across the Water between the kings of Houses Stark and Arryn that led to the integration of the Sisters into the Vale."
+### TODO NOT-IN-ST: historical_battle_end_of_the_mudds [AGOT: End of the Mudds]
+ historical_battle_end_of_the_mudds:0 "End of the Mudds"
+### TODO NOT-IN-ST: historical_battle_end_of_the_mudds_desc [AGOT: The second great kingdom of First Men to fall to the Andals was that of Rivers and Hills. The kings of House Mudd fought valiantly and heroically, but even the famed Hammer of Justice, Tristifer IV Mudd, would fall in his hundredth battle, with the house not long surviving him.]
+ historical_battle_end_of_the_mudds_desc:0 "The second great kingdom of First Men to fall to the Andals was that of Rivers and Hills. The kings of House Mudd fought valiantly and heroically, but even the famed Hammer of Justice, Tristifer IV Mudd, would fall in his hundredth battle, with the house not long surviving him."
+### TODO NOT-IN-ST: historical_battle_battle_of_seven_stars [AGOT: Battle of Seven Stars]
+ historical_battle_battle_of_seven_stars:0 "Battle of Seven Stars"
+### TODO NOT-IN-ST: historical_battle_battle_of_seven_stars_desc [AGOT: The great victory of the Andals over that of the First Men, the Battle of Seven Stars secured the Vale for House Arryn and established the Kingdom of Mountain and Vale.]
+ historical_battle_battle_of_seven_stars_desc:0 "The great victory of the Andals over that of the First Men, the Battle of Seven Stars secured the Vale for House Arryn and established the Kingdom of Mountain and Vale."
+### TODO NOT-IN-ST: historical_battle_feast_of_skane [AGOT: Feast of Skane]
+ historical_battle_feast_of_skane:0 "Feast of Skane"
+### TODO NOT-IN-ST: historical_battle_feast_of_skane_desc [AGOT: The Feast of Skane, the infamous sacking of Skane by the Skagosi, is remembered for the cannibalization of the entire island population by the Skagosi, leaving the island uninhabited to this day.]
+ historical_battle_feast_of_skane_desc:0 "The Feast of Skane, the infamous sacking of Skane by the Skagosi, is remembered for the cannibalization of the entire island population by the Skagosi, leaving the island uninhabited to this day."
+### TODO NOT-IN-ST: historical_battle_of_the_weeping_water [AGOT: Battle of the Weeping Water]
+ historical_battle_of_the_weeping_water:0 "Battle of the Weeping Water"
+### TODO NOT-IN-ST: historical_battle_of_the_weeping_water_desc [AGOT: During the Andal invasion, a rare alliance between Stark and Bolton forces led by King Theon Stark defeated Argos Sevenstar's Andal forces near the Weeping Water river.]
+ historical_battle_of_the_weeping_water_desc:0 "During the Andal invasion, a rare alliance between Stark and Bolton forces led by King Theon Stark defeated Argos Sevenstar's Andal forces near the Weeping Water river."
+### TODO NOT-IN-ST: historical_teague_crowning [AGOT: The Crowning of the Teagues]
+ historical_teague_crowning:0 "The Crowning of the Teagues"
+### TODO NOT-IN-ST: historical_teague_crowning_desc [AGOT: The last great Rivermen kings were of House Teague — infamous both inside and outside their realm, they secured their crown through raiding the Westerlands, and then were crowned at Maidenpool.]
+ historical_teague_crowning_desc:0 "The last great Rivermen kings were of House Teague — infamous both inside and outside their realm, they secured their crown through raiding the Westerlands, and then were crowned at Maidenpool."
+### TODO NOT-IN-ST: historical_burning_of_lannisport [AGOT: Burning of Lannisport]
+ historical_burning_of_lannisport:0 "Burning of Lannisport"
+### TODO NOT-IN-ST: historical_burning_of_lannisport_desc [AGOT: The Greyjoy Rebellion began not with a declaration, but rather with the Burning of Lannisport, which housed the Lannister fleet.]
+ historical_burning_of_lannisport_desc:0 "The Greyjoy Rebellion began not with a declaration, but rather with the Burning of Lannisport, which housed the Lannister fleet."
+### TODO NOT-IN-ST: historical_battle_of_ruby_ford [AGOT: The Battle of Ruby Ford]
+ historical_battle_of_ruby_ford:0 "The Battle of Ruby Ford"
+### TODO NOT-IN-ST: historical_battle_of_ruby_ford_desc [AGOT: House Targaryen's centuries of rule began to fall apart on the Trident with the death of Prince Rhaegar Targaryen. When Lord Robert Baratheon's hammer shattered Rhaegar's chestplate, the Dragons died.]
+ historical_battle_of_ruby_ford_desc:0 "House Targaryen's centuries of rule began to fall apart on the Trident with the death of Prince Rhaegar Targaryen. When Lord Robert Baratheon's hammer shattered Rhaegar's chestplate, the Dragons died."
+### TODO NOT-IN-ST: historical_battle_redgrass_field [AGOT: Battle of the Redgrass Field]
+ historical_battle_redgrass_field:0 "Battle of the Redgrass Field"
+### TODO NOT-IN-ST: historical_battle_redgrass_field_desc [AGOT: After nearly a year of war, the First Blackfyre Rebellion came to an end with the Battle of the Redgrass Field. The forces of Daemon Blackfyre clashed with the loyalist Targaryen forces, resulting in the death of Daemon, his twin sons, and the rebellion.]
+ historical_battle_redgrass_field_desc:0 "After nearly a year of war, the First Blackfyre Rebellion came to an end with the Battle of the Redgrass Field. The forces of Daemon Blackfyre clashed with the loyalist Targaryen forces, resulting in the death of Daemon, his twin sons, and the rebellion."
+### TODO NOT-IN-ST: historical_sack_of_high_tide [AGOT: The Sack of High Tide]
+ historical_sack_of_high_tide:0 "The Sack of High Tide"
+### TODO NOT-IN-ST: historical_sack_of_high_tide_desc [AGOT: The castle of High Tide, a symbol of the wealth and power of House Velaryon, was sacked following the Battle of the Gullet during the Dance of Dragons. The famed treasure hoard of Lord Corlys 'The Sea Snake' burned with the castle.]
+ historical_sack_of_high_tide_desc:0 "The castle of High Tide, a symbol of the wealth and power of House Velaryon, was sacked following the Battle of the Gullet during the Dance of Dragons. The famed treasure hoard of Lord Corlys 'The Sea Snake' burned with the castle."
+### TODO NOT-IN-ST: historical_battle_vulture_hunts [AGOT: The Vulture Hunt]
+ historical_battle_vulture_hunts:0 "The Vulture Hunt"
+### TODO NOT-IN-ST: historical_battle_vulture_hunts_desc [AGOT: The first Vulture King's rebellion sought vengeance for Dorne's suffering in the First Dornish War. After initial victories, he was defeated. The fleeing rebels were hunted down and killed in what became known as the Vulture Hunt.]
+ historical_battle_vulture_hunts_desc:0 "The first Vulture King's rebellion sought vengeance for Dorne's suffering in the First Dornish War. After initial victories, he was defeated. The fleeing rebels were hunted down and killed in what became known as the Vulture Hunt."
+### TODO NOT-IN-ST: historical_battle_last_storm [AGOT: The Last Storm]
+ historical_battle_last_storm:0 "The Last Storm"
+### TODO NOT-IN-ST: historical_battle_last_storm_desc [AGOT: The Last Storm was a battle fought during Aegon's Conquest. The forces of King Argilac Durrandon were ultimately defeated after Orys Baratheon, a close friend of Aegon 'the Conqueror,' slew King Argilac in single combat. Orys would take Argilac's kingdom, keep, and daughter in the aftermath.]
+ historical_battle_last_storm_desc:0 "The Last Storm was a battle fought during Aegon's Conquest. The forces of King Argilac Durrandon were ultimately defeated after Orys Baratheon, a close friend of Aegon 'the Conqueror,' slew King Argilac in single combat. Orys would take Argilac's kingdom, keep, and daughter in the aftermath."
+### TODO NOT-IN-ST: historical_burning_of_harrenhall [AGOT: The Burning of Harrenhal]
+ historical_burning_of_harrenhall:0 "The Burning of Harrenhal"
+### TODO NOT-IN-ST: historical_burning_of_harrenhall_desc [AGOT: House Hoare and the Ironborn dominion over the Riverlands were both extinguished with the Burning of Harrenhal. Aegon 'the Conqueror' unleashed dragonfire upon the castle, melting the towers and all those inside.]
+ historical_burning_of_harrenhall_desc:0 "House Hoare and the Ironborn dominion over the Riverlands were both extinguished with the Burning of Harrenhal. Aegon 'the Conqueror' unleashed dragonfire upon the castle, melting the towers and all those inside."
+### TODO NOT-IN-ST: historical_battle_field_of_fire [AGOT: The Field of Fire]
+ historical_battle_field_of_fire:0 "The Field of Fire"
+### TODO NOT-IN-ST: historical_battle_field_of_fire_desc [AGOT: The only battle during Aegon's Conquest where all three Targaryen dragons fought, the Field of Fire resulted in the end of House Gardener, the surrender of Highgarden, and the subjugation of the Rock.]
+ historical_battle_field_of_fire_desc:0 "The only battle during Aegon's Conquest where all three Targaryen dragons fought, the Field of Fire resulted in the end of House Gardener, the surrender of Highgarden, and the subjugation of the Rock."
+### TODO NOT-IN-ST: historical_battle_wendwater [AGOT: The Battle of Wendwater Bridge]
+ historical_battle_wendwater:0 "The Battle of Wendwater Bridge"
+### TODO NOT-IN-ST: historical_battle_wendwater_desc [AGOT: The Fourth Blackfyre Rebellion ended when the Blackfyre host was smashed at the Battle of Wendwater Bridge and Daemon III Blackfyre was killed by Ser Duncan the Tall of the Kingsguard.]
+ historical_battle_wendwater_desc:0 "The Fourth Blackfyre Rebellion ended when the Blackfyre host was smashed at the Battle of Wendwater Bridge and Daemon III Blackfyre was killed by Ser Duncan the Tall of the Kingsguard."
+### TODO NOT-IN-ST: historical_kingswood_brotherhood [AGOT: The Kingswood Brotherhood]
+ historical_kingswood_brotherhood:0 "The Kingswood Brotherhood"
+### TODO NOT-IN-ST: historical_kingswood_brotherhood_desc [AGOT: The Brotherhood was a band of outlaws, led by Simon Toyne, that prowled the Kingswood during the reign of King Aerys II Targaryen. They were defeated by forces led by Kingsguard Ser Arthur Dayne 'the Sword of the Morning,' who killed the infamous Smiling Knight in a duel.]
+ historical_kingswood_brotherhood_desc:0 "The Brotherhood was a band of outlaws, led by Simon Toyne, that prowled the Kingswood during the reign of King Aerys II Targaryen. They were defeated by forces led by Kingsguard Ser Arthur Dayne 'the Sword of the Morning,' who killed the infamous Smiling Knight in a duel."
+### TODO NOT-IN-ST: historical_battle_of_the_bells [AGOT: Battle of the Bells]
+ historical_battle_of_the_bells:0 "Battle of the Bells"
+### TODO NOT-IN-ST: historical_battle_of_the_bells_desc [AGOT: Following a defeat, Lord Robert Baratheon retreated to Stoney Sept with the aim of rejoining Lord Eddard Stark's forces. Targaryen forces led by the Hand of the King, Lord Jon Connington, followed him there, resulting in the Battle of the Bells and a rebel victory.]
+ historical_battle_of_the_bells_desc:0 "Following a defeat, Lord Robert Baratheon retreated to Stoney Sept with the aim of rejoining Lord Eddard Stark's forces. Targaryen forces led by the Hand of the King, Lord Jon Connington, followed him there, resulting in the Battle of the Bells and a rebel victory."
+### TODO NOT-IN-ST: poi_notable_castle_visit [AGOT: Visited [province.Custom('CastleName')]]
+ poi_notable_castle_visit:0 "Visited [province.Custom('CastleName')]"
+### TODO NOT-IN-ST: poi_notable_castle_visit.tt [AGOT: [province.Custom('CastleDesc')]]
+ poi_notable_castle_visit.tt:0 "[province.Custom('CastleDesc')]"
 ### TODO NOT-IN-ST: runestone_name [AGOT: Runestone]
  runestone_name:0 "Runestone"
 ### TODO NOT-IN-ST: runestone_desc [AGOT: The ancient castle of Runestone has been the high seat of House Royce since the Dawn Age when they ruled as the Bronze Kings.]
  runestone_desc:0 "The ancient castle of Runestone has been the high seat of House Royce since the Dawn Age when they ruled as the Bronze Kings."
+### TODO NOT-IN-ST: nightfort_name [AGOT: The Nightfort]
+ nightfort_name:0 "The Nightfort"
+### TODO NOT-IN-ST: nightfort_desc [AGOT: The largest and oldest castle on the Wall, the Nightfort is a shadow of its former self, now lying in ruins. What remains is a maze of tunnels, towers, and stone.]
+ nightfort_desc:0 "The largest and oldest castle on the Wall, the Nightfort is a shadow of its former self, now lying in ruins. What remains is a maze of tunnels, towers, and stone."
 ### TODO NOT-IN-ST: shadowtower_name [AGOT: The Shadow Tower]
  shadowtower_name:0 "The Shadow Tower"
 ### TODO NOT-IN-ST: shadowtower_desc [AGOT: Located at the western end of the Wall, the Shadow Tower sits between Sentinel Stand and Westwatch-by-the-Bridge and remains occupied by the Night's Watch to this day.]
@@ -15,12 +117,28 @@
  eastwatch_name:0 "Eastwatch-by-the-Sea"
 ### TODO NOT-IN-ST: eastwatch_desc [AGOT: The easternmost castle occupied by the Night's Watch, Eastwatch is host to a garrison of Watchmen, a small number of ships, and the occasional wildling traders.]
  eastwatch_desc:0 "The easternmost castle occupied by the Night's Watch, Eastwatch is host to a garrison of Watchmen, a small number of ships, and the occasional wildling traders."
+### TODO NOT-IN-ST: starpike_name [AGOT: Starpike]
+ starpike_name:0 "Starpike"
+### TODO NOT-IN-ST: starpike_desc [AGOT: The ancient home of House Peake, Starpike lies within the Dornish Marches. Home to one of the great powers in the Kingdom of the Reach, it has seen battles since time immemorial.]
+ starpike_desc:0 "The ancient home of House Peake, Starpike lies within the Dornish Marches. Home to one of the great powers in the Kingdom of the Reach, it has seen battles since time immemorial."
+### TODO NOT-IN-ST: bitterbridge_name [AGOT: Bitterbridge]
+ bitterbridge_name:0 "Bitterbridge"
+### TODO NOT-IN-ST: bitterbridge_desc [AGOT: The Stonebridge has long been a crossing of the Mander, and yet it was during the Faith Militant uprising that it earned its new name, Bitterbridge.]
+ bitterbridge_desc:0 "The Stonebridge has long been a crossing of the Mander, and yet it was during the Faith Militant uprising that it earned its new name, Bitterbridge."
+### TODO NOT-IN-ST: shield_islands_name [AGOT: Shield Islands]
+ shield_islands_name:0 "Shield Islands"
+### TODO NOT-IN-ST: shield_islands_desc [AGOT: Once known as the Misty Islands and home to the dreaded Ironmen, the Shield Islands have since become a bastion against their once masters.]
+ shield_islands_desc:0 "Once known as the Misty Islands and home to the dreaded Ironmen, the Shield Islands have since become a bastion against their once masters."
 ### TODO NOT-IN-ST: ashford_name [AGOT: Ashford]
  ashford_name:0 "Ashford"
 ### TODO NOT-IN-ST: ashford_desc [AGOT: Ashford, a small triangular castle surrounded by a market town, is the seat of House Ashford.]
  ashford_desc:0 "Ashford, a small triangular castle surrounded by a market town, is the seat of House Ashford."
 ### TODO NOT-IN-ST: ashford_tourney_desc [AGOT: The tourney that brought the end of Prince Baelor 'Breakspear' Targaryen and began the friendship between the future King and his Lord Commander. Ashford will forever be tied to it.]
  ashford_tourney_desc:0 "The tourney that brought the end of Prince Baelor 'Breakspear' Targaryen and began the friendship between the future King and his Lord Commander. Ashford will forever be tied to it."
+### TODO NOT-IN-ST: horn_hill_name [AGOT: Horn Hill]
+ horn_hill_name:0 "Horn Hill"
+### TODO NOT-IN-ST: horn_hill_desc [AGOT: Home to House Tarly, Horn Hill has long been an arrow in the quiver of the Reach, and one that is regularly notched against would-be enemies.]
+ horn_hill_desc:0 "Home to House Tarly, Horn Hill has long been an arrow in the quiver of the Reach, and one that is regularly notched against would-be enemies."
 ### TODO NOT-IN-ST: golden_tooth_name [AGOT: Golden Tooth]
  golden_tooth_name:0 "Golden Tooth"
 ### TODO NOT-IN-ST: golden_tooth_desc [AGOT: The fortress of the Golden Tooth, home of House Lefford, has long been a bastion to protect the Westerlands from would-be threats to the east.]
@@ -29,6 +147,14 @@
  pyke_name:0 "Pyke"
 ### TODO NOT-IN-ST: pyke_desc [AGOT: The great fortress of the Ironmen, Pyke is the seat of the Seastone Chair and of House Greyjoy.]
  pyke_desc:0 "The great fortress of the Ironmen, Pyke is the seat of the Seastone Chair and of House Greyjoy."
+### TODO NOT-IN-ST: moat_cailin_name [AGOT: Moat Cailin]
+ moat_cailin_name:0 "Moat Cailin"
+### TODO NOT-IN-ST: moat_cailin_desc [AGOT: Moat Cailin, the gateway of the North, famed for turning back all would-be conquerors from the south, has fallen from its previous greatness, and yet remains a dreaded adversary still.]
+ moat_cailin_desc:0 "Moat Cailin, the gateway of the North, famed for turning back all would-be conquerors from the south, has fallen from its previous greatness, and yet remains a dreaded adversary still."
+### TODO NOT-IN-ST: fist_name [AGOT: The Fist of the First Men]
+ fist_name:0 "The Fist of the First Men"
+### TODO NOT-IN-ST: fist_desc [AGOT: The Fist of the First Men is a solitary hill that lies north of the Wall, so named by the free folk because it resembles a fist punching up through the earth. Atop the hill are the ruins of an ancient ringfort built by the First Men.]
+ fist_desc:0 "The Fist of the First Men is a solitary hill that lies north of the Wall, so named by the free folk because it resembles a fist punching up through the earth. Atop the hill are the ruins of an ancient ringfort built by the First Men."
 ### TODO NOT-IN-ST: bloody_gate_name [AGOT: The Bloody Gate]
  bloody_gate_name:0 "The Bloody Gate"
 ### TODO NOT-IN-ST: bloody_gate_desc [AGOT: The Bloody Gate is a series of fortifications along the narrow high road that leads into The Vale of Arryn.]
@@ -49,6 +175,10 @@
  yronwood_name:0 "Yronwood"
 ### TODO NOT-IN-ST: yronwood_desc [AGOT: The castle of Yronwood sits at the southern end of the Boneway and primarily serves as the seat of House Yronwood.]
  yronwood_desc:0 "The castle of Yronwood sits at the southern end of the Boneway and primarily serves as the seat of House Yronwood."
+### TODO NOT-IN-ST: brimstone_hall_name [AGOT: Hellgate Hall]
+ brimstone_hall_name:0 "Hellgate Hall"
+### TODO NOT-IN-ST: brimstone_hall_desc [AGOT: Hellgate Hall along the Brimstone was the seat of House Dryland, the last Kings of the Brimstone. King Lucifer Dryland, the Last of His Ilk, was sent to the Wall after his defeat during Nymeria's War.]
+ brimstone_hall_desc:0 "Hellgate Hall along the Brimstone was the seat of House Dryland, the last Kings of the Brimstone. King Lucifer Dryland, the Last of His Ilk, was sent to the Wall after his defeat during Nymeria's War."
 ### TODO NOT-IN-ST: second_blackfyre_name [AGOT: Second Blackfyre Rebellion]
  second_blackfyre_name:0 "Second Blackfyre Rebellion"
 ### TODO NOT-IN-ST: second_blackfyre_desc [AGOT: When Bittersteel led the remnants of House Blackfyre to Essos, the Iron Throne knew the pretenders would return; that they would do so at a wedding in Whitewalls would be surprising, though due to Ser Duncan the Tall and his squire's efforts, this second rebellion would end before it began.]
@@ -61,10 +191,18 @@
  meraxes_death_name:0 "The Death of Meraxes"
 ### TODO NOT-IN-ST: meraxes_death_desc [AGOT: Meraxes was a she-dragon ridden by Queen Rhaenys Targaryen, sister-wife of Aegon 'the Conqueror.' During the First Dornish War Meraxes was shot through the eye with an iron bolt killing her instantly, Queen Rhaenys was killed when the dragon fell from the sky.]
  meraxes_death_desc:0 "Meraxes was a she-dragon ridden by Queen Rhaenys Targaryen, sister-wife of Aegon 'the Conqueror.' During the First Dornish War Meraxes was shot through the eye with an iron bolt killing her instantly, Queen Rhaenys was killed when the dragon fell from the sky."
+### TODO NOT-IN-ST: defiance_duskendale_name [AGOT: The Defiance of Duskendale]
+ defiance_duskendale_name:0 "The Defiance of Duskendale"
+### TODO NOT-IN-ST: defiance_duskendale_desc [AGOT: When Lord Denys Darklyn stopped paying taxes in protest, he invited King Aerys II Targaryen to hear his grievances but instead imprisoned him upon arrival. After a six-month standoff, the King was rescued by Kingguard Ser Barristan Selmy in a daring solo rescue mission.]
+ defiance_duskendale_desc:0 "When Lord Denys Darklyn stopped paying taxes in protest, he invited King Aerys II Targaryen to hear his grievances but instead imprisoned him upon arrival. After a six-month standoff, the King was rescued by Kingguard Ser Barristan Selmy in a daring solo rescue mission."
 ### TODO NOT-IN-ST: red_keep_name [AGOT: The Red Keep]
  red_keep_name:0 "The Red Keep"
 ### TODO NOT-IN-ST: red_keep_desc [AGOT: The Red Keep is a fortress in King's Landing built from pale red stone. Within its huge curtain walls stands Maegor's Holdfast, the Tower of the Hand, the White Sword Tower, and the Great Hall which contains the Iron Throne.]
  red_keep_desc:0 "The Red Keep is a fortress in King's Landing built from pale red stone. Within its huge curtain walls stands Maegor's Holdfast, the Tower of the Hand, the White Sword Tower, and the Great Hall which contains the Iron Throne."
+### TODO NOT-IN-ST: whispers_name [AGOT: The Whispers]
+ whispers_name:0 "The Whispers"
+### TODO NOT-IN-ST: whispers_desc [AGOT: The Whispers is a ruined castle of House Crabb on Crackclaw Point. Legends say the wife of the fabled knight Ser Clarence Crabb would reanimate the severed heads of his slain enemies. The heads would then talk to each other creating a whispering sound, giving the castle its name.]
+ whispers_desc:0 "The Whispers is a ruined castle of House Crabb on Crackclaw Point. Legends say the wife of the fabled knight Ser Clarence Crabb would reanimate the severed heads of his slain enemies. The heads would then talk to each other creating a whispering sound, giving the castle its name."
 ### TODO NOT-IN-ST: sunspear_name [AGOT: Sunspear]
  sunspear_name:0 "Sunspear"
 ### TODO NOT-IN-ST: sunspear_desc [AGOT: The palace of Sunspear has been the seat of House Nymeros Martell since Princess Nymeria of the Rhoynar married Lord Mors Martell and united Dorne under their rule.]
@@ -73,14 +211,30 @@
  starry_sept_name:0 "Starry Sept"
 ### TODO NOT-IN-ST: starry_sept_desc [AGOT: The original home of the High Septon, the Starry Sept is the beating heart of the Faith. Made of black marble, it evokes the night sky from which the Father pulled the seven stars to anoint Hugor.]
  starry_sept_desc:0 "The original home of the High Septon, the Starry Sept is the beating heart of the Faith. Made of black marble, it evokes the night sky from which the Father pulled the seven stars to anoint Hugor."
+### TODO NOT-IN-ST: citadel_name [AGOT: Citadel]
+ citadel_name:0 "Citadel"
+### TODO NOT-IN-ST: citadel_desc [AGOT: The Citadel is the ancient home of the maesters. According to legend, it dates back to the first days of the rule of the Hightowers, and today it is one of the beacons of knowledge and learning in the world.]
+ citadel_desc:0 "The Citadel is the ancient home of the maesters. According to legend, it dates back to the first days of the rule of the Hightowers, and today it is one of the beacons of knowledge and learning in the world."
+### TODO NOT-IN-ST: seven_shrines_name [AGOT: Seven Shrines]
+ seven_shrines_name:0 "Seven Shrines"
+### TODO NOT-IN-ST: seven_shrines_desc [AGOT: The Seven Shrines are seven septs raised to honor the gods, famed for their gardens.]
+ seven_shrines_desc:0 "The Seven Shrines are seven septs raised to honor the gods, famed for their gardens."
 ### TODO NOT-IN-ST: nagga_name [AGOT: Nagga's Hill]
  nagga_name:0 "Nagga's Hill"
 ### TODO NOT-IN-ST: nagga_desc [AGOT: The remains of Nagga, the Sea Dragon, still adorn the hill which once housed the hall of the Grey King.]
  nagga_desc:0 "The remains of Nagga, the Sea Dragon, still adorn the hill which once housed the hall of the Grey King."
+### TODO NOT-IN-ST: jonquil_name [AGOT: Jonquil's Pool]
+ jonquil_name:0 "Jonquil's Pool"
+### TODO NOT-IN-ST: jonquil_desc [AGOT: Across the Seven Kingdoms, and beyond, the love story of Florian and Jonquil is told. And here lies the pool from which Florian first laid eyes upon his love.]
+ jonquil_desc:0 "Across the Seven Kingdoms, and beyond, the love story of Florian and Jonquil is told. And here lies the pool from which Florian first laid eyes upon his love."
 ### TODO NOT-IN-ST: snowy_sept_name [AGOT: Snowy Sept]
  snowy_sept_name:0 "Snowy Sept"
 ### TODO NOT-IN-ST: snowy_sept_desc [AGOT: The only great sept found in the North, the Snowy Sept relies on the patronage of House Manderly and welcomes all of the faithful in the realm of winter and snow.]
  snowy_sept_desc:0 "The only great sept found in the North, the Snowy Sept relies on the patronage of House Manderly and welcomes all of the faithful in the realm of winter and snow."
+### TODO NOT-IN-ST: arrival_andals_name [AGOT: Coming of the Andals]
+ arrival_andals_name:0 "Coming of the Andals"
+### TODO NOT-IN-ST: arrival_andals_desc [AGOT: The coming of the Andals refers to their migration from Essos to Westeros. The Andals introduced writing, steel weapons, and the Faith of the Seven religion to Westeros. The fighting between the Andals and the First Men lasted hundreds of years.]
+ arrival_andals_desc:0 "The coming of the Andals refers to their migration from Essos to Westeros. The Andals introduced writing, steel weapons, and the Faith of the Seven religion to Westeros. The fighting between the Andals and the First Men lasted hundreds of years."
 ### TODO NOT-IN-ST: gate_of_gods_name [AGOT: Gate of the Gods]
  gate_of_gods_name:0 "Gate of the Gods"
 ### TODO NOT-IN-ST: gate_of_gods_desc [AGOT: The Gate of the Gods is one of the seven massive gates in the colossal walls of King's Landing. Adorned with intricate carvings, the gatehouse and portcullis feature eyes that appear to track the movements of anyone entering. The Kingsroad enters King's Landing from the North at the Gate of the Gods.]
@@ -97,18 +251,62 @@
  sept_baelor_name:0 "Great Sept of Baelor"
 ### TODO NOT-IN-ST: sept_baelor_desc [AGOT: The Great Sept of Baelor stands as the focal point of the Faith of the Seven's worship. Located in King's Landing it serves as the residence of the High Septon. The sept is named in honor of the revered septon-king, Baelor the Blessed.]
  sept_baelor_desc:0 "The Great Sept of Baelor stands as the focal point of the Faith of the Seven's worship. Located in King's Landing it serves as the residence of the High Septon. The sept is named in honor of the revered septon-king, Baelor the Blessed."
+### TODO NOT-IN-ST: highgarden_name [AGOT: Highgarden]
+ highgarden_name:0 "Highgarden"
+### TODO NOT-IN-ST: highgarden_desc [AGOT: Highgarden was the seat of the Gardener Kings, raised by Garth the Gardener. It is commonly stated to be the most beautiful castle in all the realm, maybe even the world.]
+ highgarden_desc:0 "Highgarden was the seat of the Gardener Kings, raised by Garth the Gardener. It is commonly stated to be the most beautiful castle in all the realm, maybe even the world."
+### TODO NOT-IN-ST: fair_isle_name [AGOT: Fair Isle]
+ fair_isle_name:0 "Fair Isle"
+### TODO NOT-IN-ST: fair_isle_desc [AGOT: Fair Isle, home of House Farman, is a paradise in the Sunset Sea. Home to prosperous waters and plentiful lands, it has more than earned its name.]
+ fair_isle_desc:0 "Fair Isle, home of House Farman, is a paradise in the Sunset Sea. Home to prosperous waters and plentiful lands, it has more than earned its name."
+### TODO NOT-IN-ST: lonely_light_name [AGOT: Lonely Light]
+ lonely_light_name:0 "Lonely Light"
+### TODO NOT-IN-ST: lonely_light_desc [AGOT: The furthest western outpost of not only the Ironmen, but rather the known world, Lonely Light is a small port of House Farwynd.]
+ lonely_light_desc:0 "The furthest western outpost of not only the Ironmen, but rather the known world, Lonely Light is a small port of House Farwynd."
+### TODO NOT-IN-ST: riverrun_name [AGOT: Riverrun]
+ riverrun_name:0 "Riverrun"
+### TODO NOT-IN-ST: riverrun_desc [AGOT: The ancestral home of House Tully, Riverrun is famed for its moat, which is made by connecting the Tumblestone and Red Fork.]
+ riverrun_desc:0 "The ancestral home of House Tully, Riverrun is famed for its moat, which is made by connecting the Tumblestone and Red Fork."
+### TODO NOT-IN-ST: wrestling_bears_island_name [AGOT: Bear Island]
+ wrestling_bears_island_name:0 "Bear Island"
+### TODO NOT-IN-ST: wrestling_bears_island_desc [AGOT: Bear Island is the home of House Mormont, it lies in the Bay of Ice off the northwest coast of Westeros. It is picturesque and secluded, characterized by ancient oaks, towering pines, and rugged hills.]
+ wrestling_bears_island_desc:0 "Bear Island is the home of House Mormont, it lies in the Bay of Ice off the northwest coast of Westeros. It is picturesque and secluded, characterized by ancient oaks, towering pines, and rugged hills."
+### TODO NOT-IN-ST: eyrie_name [AGOT: The Eyrie]
+ eyrie_name:0 "The Eyrie"
+### TODO NOT-IN-ST: eyrie_desc [AGOT: The Eyrie is the ancient stronghold and seat of House Arryn. Perched in the Mountains of the Moon thousands of feet above the valley below. Because of its location, it is considered by most to be all but impregnable to attack.]
+ eyrie_desc:0 "The Eyrie is the ancient stronghold and seat of House Arryn. Perched in the Mountains of the Moon thousands of feet above the valley below. Because of its location, it is considered by most to be all but impregnable to attack."
+### TODO NOT-IN-ST: moon_mountain_name [AGOT: Mountains of the Moon]
+ moon_mountain_name:0 "Mountains of the Moon"
+### TODO NOT-IN-ST: moon_mountain_desc [AGOT: The Mountains of the Moon are a series of mountains in the Vale of Arryn. Bleak and inhospitable, they are inhabited by mountain clansmen who reject the authority of both House Arryn and the Iron Throne.]
+ moon_mountain_desc:0 "The Mountains of the Moon are a series of mountains in the Vale of Arryn. Bleak and inhospitable, they are inhabited by mountain clansmen who reject the authority of both House Arryn and the Iron Throne."
+### TODO NOT-IN-ST: kingswood_name [AGOT: Kingswood]
+ kingswood_name:0 "Kingswood"
+### TODO NOT-IN-ST: kingswood_desc [AGOT: The Kingswood is a vast forest situated across the Blackwater Rush from King's Landing, spanning the southern crownlands and the northern Stormlands and intersected by the Kingsroad. The forest features a private hunting area reserved for the king.]
+ kingswood_desc:0 "The Kingswood is a vast forest situated across the Blackwater Rush from King's Landing, spanning the southern crownlands and the northern Stormlands and intersected by the Kingsroad. The forest features a private hunting area reserved for the king."
 ### TODO NOT-IN-ST: tarth_name [AGOT: Tarth]
  tarth_name:0 "Tarth"
 ### TODO NOT-IN-ST: tarth_desc [AGOT: Known as the Sapphire Isle, the island of Tarth lies in the narrow sea off the eastern coast of Westeros. Part of the Stormlands, Tarth is ruled by House Tarth from their seat at Evenfall Hall.]
  tarth_desc:0 "Known as the Sapphire Isle, the island of Tarth lies in the narrow sea off the eastern coast of Westeros. Part of the Stormlands, Tarth is ruled by House Tarth from their seat at Evenfall Hall."
+### TODO NOT-IN-ST: rainwood_name [AGOT: Rainwood]
+ rainwood_name:0 "Rainwood"
+### TODO NOT-IN-ST: rainwood_desc [AGOT: The Rainwood, situated on Cape Wrath in the Stormlands, is a vast forest renowned for its misty and fertile environment. Valued for its fur, timber, and amber, it hosts a diverse range of flora.]
+ rainwood_desc:0 "The Rainwood, situated on Cape Wrath in the Stormlands, is a vast forest renowned for its misty and fertile environment. Valued for its fur, timber, and amber, it hosts a diverse range of flora."
 ### TODO NOT-IN-ST: dragon_mummer_name [AGOT: Lord Toland's Mad Fool]
  dragon_mummer_name:0 "Lord Toland's Mad Fool"
 ### TODO NOT-IN-ST: dragon_mummer_desc [AGOT: During the First Dornish War, House Toland resisted the dragons through trickery. When King Aegon I Targaryen faced Lord Toland's champion, slaying him easily, he discovered the champion was in fact the lord's mad fool — and that Lord Toland himself had escaped.]
  dragon_mummer_desc:0 "During the First Dornish War, House Toland resisted the dragons through trickery. When King Aegon I Targaryen faced Lord Toland's champion, slaying him easily, he discovered the champion was in fact the lord's mad fool — and that Lord Toland himself had escaped."
+### TODO NOT-IN-ST: nymeria_ships_name [AGOT: Nymeria's Ten Thousand Ships]
+ nymeria_ships_name:0 "Nymeria's Ten Thousand Ships"
+### TODO NOT-IN-ST: nymeria_ships_desc [AGOT: After the Rhoynar was conquered by the Valyrian Freehold, Princess Nymeria led the Rhoynar people to Dorne. Legend has it they set out with a fleet of ten thousand ships, facing many hardships on their voyage, only a small number of ships reached Westeros.]
+ nymeria_ships_desc:0 "After the Rhoynar was conquered by the Valyrian Freehold, Princess Nymeria led the Rhoynar people to Dorne. Legend has it they set out with a fleet of ten thousand ships, facing many hardships on their voyage, only a small number of ships reached Westeros."
 ### TODO NOT-IN-ST: aegonfort_name [AGOT: Aegonfort]
  aegonfort_name:0 "Aegonfort"
 ### TODO NOT-IN-ST: aegonfort_desc [AGOT: The Aegonfort, a small motte-and-bailey fort erected by Aegon 'the Conqueror,' marked his initial foothold in Westeros, situated at the site of the present-day Red Keep in King's Landing. The swords of Aegon's defeated enemies were sent to the Aegonfort and the Iron Throne was created.]
  aegonfort_desc:0 "The Aegonfort, a small motte-and-bailey fort erected by Aegon 'the Conqueror,' marked his initial foothold in Westeros, situated at the site of the present-day Red Keep in King's Landing. The swords of Aegon's defeated enemies were sent to the Aegonfort and the Iron Throne was created."
+### TODO NOT-IN-ST: hightower_name [AGOT: The Hightower]
+ hightower_name:0 "The Hightower"
+### TODO NOT-IN-ST: hightower_desc [AGOT: The Hightower, one of the wonders made by man, stands high above the city of Oldtown. Built on the remains of an ancient black stone fortress, it stands as a beacon for all.]
+ hightower_desc:0 "The Hightower, one of the wonders made by man, stands high above the city of Oldtown. Built on the remains of an ancient black stone fortress, it stands as a beacon for all."
 ### TODO NOT-IN-ST: oldtown_name [AGOT: Oldtown]
  oldtown_name:0 "Oldtown"
 ### TODO NOT-IN-ST: oldtown_desc [AGOT: Oldtown is the oldest and arguably greatest city in Westeros — home to the Citadel, the Starry Sept, and the Hightower.]
@@ -121,6 +319,14 @@
  lordsport_name:0 "Lordsport"
 ### TODO NOT-IN-ST: lordsport_desc [AGOT: The greatest town in the Iron Islands, Lordsport has long been the chief port of the Ironmen.]
  lordsport_desc:0 "The greatest town in the Iron Islands, Lordsport has long been the chief port of the Ironmen."
+### TODO NOT-IN-ST: fairmarket_name [AGOT: Fairmarket]
+ fairmarket_name:0 "Fairmarket"
+### TODO NOT-IN-ST: fairmarket_desc [AGOT: The town of the Blue Fork, once home to Ironmen kings, has a long history of serving as a key financial center in the Riverlands.]
+ fairmarket_desc:0 "The town of the Blue Fork, once home to Ironmen kings, has a long history of serving as a key financial center in the Riverlands."
+### TODO NOT-IN-ST: winterfell_name [AGOT: Winterfell]
+ winterfell_name:0 "Winterfell"
+### TODO NOT-IN-ST: winterfell_desc [AGOT: The heart of the North and home of House Stark, Winterfell is easily one of the greatest castles in all of Westeros, and is famed for its hot springs and glass gardens.]
+ winterfell_desc:0 "The heart of the North and home of House Stark, Winterfell is easily one of the greatest castles in all of Westeros, and is famed for its hot springs and glass gardens."
 ### TODO NOT-IN-ST: gulltown_name [AGOT: Gulltown]
  gulltown_name:0 "Gulltown"
 ### TODO NOT-IN-ST: gulltown_desc [AGOT: The largest settlement in the Vale, Gulltown is also a primary port of call for ships traveling between the Free Cities, King's Landing, and the North.]
@@ -133,3 +339,11 @@
  plankytown_name:0 "Planky Town"
 ### TODO NOT-IN-ST: plankytown_desc [AGOT: Said to be the closest thing to a city the Dornish have, Planky Town is a bustling trading town at the mouth of the Greenblood. Constructed out of roped together barges, it floats on the river.]
  plankytown_desc:0 "Said to be the closest thing to a city the Dornish have, Planky Town is a bustling trading town at the mouth of the Greenblood. Constructed out of roped together barges, it floats on the river."
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_dragonlore [AGOT: Site of Draconic Significance]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_dragonlore:0 "Site of Draconic Significance"
+### TODO NOT-IN-ST: agot_poi_dragonlore_tt [AGOT: Will trigger a Dragonlore Event]
+ agot_poi_dragonlore_tt:0 "Will trigger a Dragonlore Event"
+### TODO NOT-IN-ST: TRAVEL_POINT_OF_INTEREST_TT_agot_poi_wild_dragon [AGOT: #X Wild Dragon#!]
+ TRAVEL_POINT_OF_INTEREST_TT_agot_poi_wild_dragon:0 "#X Wild Dragon#! "
+### TODO NOT-IN-ST: agot_poi_wild_dragon_tt [AGOT: A wild, full grown dragon resides in this region.]
+ agot_poi_wild_dragon_tt:0 "A wild, full grown dragon resides in this region."

@@ -1,12 +1,90 @@
 ﻿l_english:
+### TODO NOT-IN-ST: personal_steward_task_diplomacy_good_skilled_notification_tooltip [AGOT: Your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill led to this windfall.]
+ personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill led to this windfall."
+### TODO NOT-IN-ST: personal_steward_task_diplomacy_good_unskilled_notification_tooltip [AGOT: This happened despite your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill.]
+ personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('diplomacy_skill_level')] diplomacy skill."
+### TODO NOT-IN-ST: personal_steward_task_martial_good_unskilled_notification_tooltip [AGOT: This happened despite your personal steward's [councillor.Custom('martial_skill_level')] martial skill.]
+ personal_steward_task_martial_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('martial_skill_level')] martial skill."
+### TODO NOT-IN-ST: personal_steward_task_martial_good_skilled_notification_tooltip [AGOT: Your personal steward's [councillor.Custom('martial_skill_level')] martial skill led to this windfall.]
+ personal_steward_task_martial_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('martial_skill_level')] martial skill led to this windfall."
+### TODO NOT-IN-ST: personal_steward_task_stewardship_good_skilled_notification_tooltip [AGOT: Your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill led to this windfall.]
+ personal_steward_task_stewardship_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill led to this windfall."
+### TODO NOT-IN-ST: personal_steward_task_stewardship_good_unskilled_notification_tooltip [AGOT: This happened despite your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill.]
+ personal_steward_task_stewardship_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('stewardship_skill_level')] stewardship skill."
+### TODO NOT-IN-ST: personal_steward_task_intrigue_good_unskilled_notification_tooltip [AGOT: This happened despite your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill.]
+ personal_steward_task_intrigue_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill."
+### TODO NOT-IN-ST: personal_steward_task_intrigue_good_skilled_notification_tooltip [AGOT: Your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill led to this windfall.]
+ personal_steward_task_intrigue_good_skilled_notification_tooltip:0 "Your personal steward's [councillor.Custom('intrigue_skill_level')] intrigue skill led to this windfall."
+### TODO NOT-IN-ST: personal_steward_task_learning_good_unskilled_notification_tooltip [AGOT: This happened despite your personal steward's [councillor.Custom('learning_skill_level')] learning skill.]
+ personal_steward_task_learning_good_unskilled_notification_tooltip:0 "This happened despite your personal steward's [councillor.Custom('learning_skill_level')] learning skill."
+### TODO NOT-IN-ST: personal_steward_task_learning_good_skilled_notification_tooltip [AGOT: Your personal steward's [councillor.Custom('learning_skill_level')] learning skill led to this windfall.]
+ personal_steward_task_learning_good_skilled_notification_tooltip:1 "Your personal steward's [councillor.Custom('learning_skill_level')] learning skill led to this windfall."
+### TODO NOT-IN-ST: task_personal_steward_default_diplomacy_modifier [AGOT: Assistance from Personal Steward]
+ task_personal_steward_default_diplomacy_modifier:0 "Assistance from Personal Steward"
+### TODO NOT-IN-ST: task_personal_steward_default_martial_modifier [AGOT: Assistance from Personal Steward]
+ task_personal_steward_default_martial_modifier:0 "Assistance from Personal Steward"
+### TODO NOT-IN-ST: task_personal_steward_default_stewardship_modifier [AGOT: Assistance from Personal Steward]
+ task_personal_steward_default_stewardship_modifier:0 "Assistance from Personal Steward"
+### TODO NOT-IN-ST: task_personal_steward_default_intrigue_modifier [AGOT: Assistance from Personal Steward]
+ task_personal_steward_default_intrigue_modifier:0 "Assistance from Personal Steward"
+### TODO NOT-IN-ST: task_personal_steward_default_learning_modifier [AGOT: Assistance from Personal Steward]
+ task_personal_steward_default_learning_modifier:0 "Assistance from Personal Steward"
 ### TODO NOT-IN-ST: task_personal_steward_default [AGOT: Assist Lord Commander]
  task_personal_steward_default:0 "Assist Lord Commander"
 ### TODO NOT-IN-ST: task_personal_steward_default_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] assists you with the day to day job of managing the Night's Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]]
  task_personal_steward_default_effect_desc:0 "[councillor.GetShortUINameNoTooltip] assists you with the day to day job of managing the Night's Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]"
+### TODO NOT-IN-ST: task_personal_steward_court_politics [AGOT: Build Influence]
+ task_personal_steward_court_politics:0 "Build Influence"
+### TODO NOT-IN-ST: task_personal_steward_court_politics_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on Night's Watch politics and improving relations among the Black Brothers\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_politics')]]
+ task_personal_steward_court_politics_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on Night's Watch politics and improving relations among the Black Brothers\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_politics')]"
+### TODO NOT-IN-ST: task_personal_steward_chivalry [AGOT: Train the Watch]
+ task_personal_steward_chivalry:0 "Train the Watch"
+### TODO NOT-IN-ST: task_personal_steward_chivalry_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on training the men of the Night's Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_chivalry')]]
+ task_personal_steward_chivalry_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on training the men of the Night's Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_chivalry')]"
+### TODO NOT-IN-ST: task_personal_steward_court_intrigue [AGOT: Keep an Ear Out]
+ task_personal_steward_court_intrigue:0 "Keep an Ear Out"
+### TODO NOT-IN-ST: task_personal_steward_court_intrigue_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on rumors and whispers of the Black Brothers at your court\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_intrigue')]]
+ task_personal_steward_court_intrigue_effect_desc:0 "[councillor.GetShortUINameNoTooltip] focuses on rumors and whispers of the Black Brothers at your court\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_court_intrigue')]"
+### TODO NOT-IN-ST: task_personal_steward_manage_domain [AGOT: Manage the Gift]
+ task_personal_steward_manage_domain:0 "Manage the Gift"
+### TODO NOT-IN-ST: task_personal_steward_manage_domain_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on managing the Gift and boosting the Watch's holdings\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_manage_domain')]]
+ task_personal_steward_manage_domain_effect_desc:1 "[councillor.GetShortUINameNoTooltip] focuses on managing the Gift and boosting the Watch's holdings\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_manage_domain')]"
 ### TODO NOT-IN-ST: task_personal_steward_patronage [AGOT: Educate the Watch]
  task_personal_steward_patronage:0 "Educate the Watch"
 ### TODO NOT-IN-ST: task_personal_steward_patronage_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on matters of culture, religion and education in the Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_patronage')]]
  task_personal_steward_patronage_effect_desc:0 "[councillor.GetShortUINameNoTooltip] focuses on matters of culture, religion and education in the Watch\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_personal_steward_patronage')]"
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.diplomacy_notification [AGOT: With experience, [councillor.GetShortUINamePossessive] skill at diplomacy has increased.]
+ councillor_personal_steward_background.0001.diplomacy_notification:0 "With experience, [councillor.GetShortUINamePossessive] skill at diplomacy has increased."
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.martial_notification [AGOT: With experience, [councillor.GetShortUINamePossessive] understanding of warfare has increased.]
+ councillor_personal_steward_background.0001.martial_notification:0 "With experience, [councillor.GetShortUINamePossessive] understanding of warfare has increased."
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.stewardship_notification [AGOT: With experience, [councillor.GetShortUINamePossessive] administrative abilities have increased.]
+ councillor_personal_steward_background.0001.stewardship_notification:0 "With experience, [councillor.GetShortUINamePossessive] administrative abilities have increased."
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.intrigue_notification [AGOT: With experience, [councillor.GetShortUINamePossessive] intrigue skills have increased.]
+ councillor_personal_steward_background.0001.intrigue_notification:0 "With experience, [councillor.GetShortUINamePossessive] intrigue skills have increased."
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.learning_notification [AGOT: With experience, [councillor.GetShortUINamePossessive] scholarly understanding has increased.]
+ councillor_personal_steward_background.0001.learning_notification:0 "With experience, [councillor.GetShortUINamePossessive] scholarly understanding has increased."
+### TODO NOT-IN-ST: councillor_personal_steward_background.0001.title [AGOT: Personal Steward's Skills]
+ councillor_personal_steward_background.0001.title:0 "Personal Steward's Skills"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_wv_override [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]]
+ task_promote_culture_effect_desc_wv_override:1 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_ev_override [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]]
+ task_promote_culture_effect_desc_ev_override:1 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to [councillor_liege.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_ironborn_override_coastal [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]]
+ task_promote_culture_effect_desc_ironborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]]
+ task_promote_culture_effect_desc_ironborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_ironborn_override_inland [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]]
+ task_promote_culture_effect_desc_ironborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('greenborn_culture').Culture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_ironborn_override_smt_broke [AGOT: #R #L (AGOT ERROR)#!#!: Something Broke with ironborn culture conversion, Report to Typical]
+ task_promote_culture_effect_desc_ironborn_override_smt_broke:0 "#R #L (AGOT ERROR)#!#!: Something Broke with ironborn culture conversion, Report to Typical"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_greenborn_override_coastal [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]]
+ task_promote_culture_effect_desc_greenborn_override_coastal:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 80%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 20%#! [councillor_liege.GetCulture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]]
+ task_promote_culture_effect_desc_greenborn_override_coastal_county_duchy:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures:: \n#S $TAB$ 60%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 40%#! [councillor_liege.GetCulture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_greenborn_override_inland [AGOT: #S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]]
+ task_promote_culture_effect_desc_greenborn_override_inland:0 "#S At #V 100%#!#!:\n$TAB$The [county|E] changes [culture|E] to one of following\n$TAB$cultures: \n#S $TAB$ 20%#! [councillor_liege.GetCulture.MakeScope.Var('ironborn_culture').Culture.GetName]\n#S $TAB$ 80%#! [councillor_liege.GetCulture.GetName]"
+### TODO NOT-IN-ST: task_promote_culture_effect_desc_greenborn_override_smt_broke [AGOT: #R #L (AGOT ERROR)#!#!: Something Broke with greenborn culture conversion, Report to Typical]
+ task_promote_culture_effect_desc_greenborn_override_smt_broke:0 "#R #L (AGOT ERROR)#!#!: Something Broke with greenborn culture conversion, Report to Typical"
 ### TODO NOT-IN-ST: task_castellan_default_1 [AGOT: Oversee Realm]
  task_castellan_default_1:0 "Oversee Realm" #martial
 ### TODO NOT-IN-ST: task_castellan_default_effect_desc_1 [AGOT: [councillor.GetShortUINameNoTooltip]'s experience in matters of war will tighten your grip on this land. \n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]]
@@ -35,15 +113,89 @@
  task_castellan_court:0 "Preside Over Council"
 ### TODO NOT-IN-ST: task_castellan_court_desc [AGOT: \n[councillor.GetModifierDescForTask('task_castellan_court')]]
  task_castellan_court_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_court')]"
+### TODO NOT-IN-ST: task_castellan_fortify [AGOT: Fortify Defenses]
+ task_castellan_fortify:0 "Fortify Defenses"
+### TODO NOT-IN-ST: task_castellan_fortify_desc [AGOT: \n[councillor.GetModifierDescForTask('task_castellan_fortify')]]
+ task_castellan_fortify_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_fortify')]"
+### TODO NOT-IN-ST: castellan_fortify_province_modifier [AGOT: $task_castellan_fortify$]
+ castellan_fortify_province_modifier:0 "$task_castellan_fortify$"
+### TODO NOT-IN-ST: castellan_fortify_county_modifier [AGOT: Fortifying Defenses]
+ castellan_fortify_county_modifier:0 "Fortifying Defenses"
+### TODO NOT-IN-ST: castellan_court_opinion_modifier [AGOT: Castellan presides over the council]
+ castellan_court_opinion_modifier:0 "Castellan presides over the council"
+### TODO NOT-IN-ST: task_train_commanders_maa_effect_desc [AGOT: Placeholder]
+ task_train_commanders_maa_effect_desc:0 "Placeholder"
+### TODO NOT-IN-ST: task_train_commanders_maa_erudition_bonus_desc [AGOT: Placeholder]
+ task_train_commanders_maa_erudition_bonus_desc:0 "Placeholder"
+### TODO NOT-IN-ST: task_castellan_organise [AGOT: Negotiate with Vassals]
+ task_castellan_organise:0 "Negotiate with Vassals"
+### TODO NOT-IN-ST: task_castellan_organise_desc [AGOT: \n[councillor.GetModifierDescForTask('task_castellan_organise')]]
+ task_castellan_organise_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_organise')]"
+### TODO NOT-IN-ST: task_castellan_organise_modifier [AGOT: Council $councillor_castellan$]
+ task_castellan_organise_modifier:0 "Council $councillor_castellan$"
 ### TODO NOT-IN-ST: task_castellan_scheme [AGOT: Organize Schemes]
  task_castellan_scheme:0 "Organize Schemes"
 ### TODO NOT-IN-ST: task_castellan_scheme_desc [AGOT: \n[councillor.GetModifierDescForTask('task_castellan_scheme')]]
  task_castellan_scheme_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_scheme')]"
+### TODO NOT-IN-ST: task_castellan_scheme_modifier [AGOT: Council $councillor_castellan$]
+ task_castellan_scheme_modifier:0 "Council $councillor_castellan$"
 ### TODO NOT-IN-ST: task_castellan_clergy [AGOT: Convene Clergy]
  task_castellan_clergy:0 "Convene Clergy"
 ### TODO NOT-IN-ST: task_castellan_clergy_desc [AGOT: \n[councillor.GetModifierDescForTask('task_castellan_clergy')]]
  task_castellan_clergy_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_clergy')]"
+### TODO NOT-IN-ST: task_castellan_clergy_modifier [AGOT: Council $councillor_castellan$]
+ task_castellan_clergy_modifier:0 "Council $councillor_castellan$"
+### TODO NOT-IN-ST: task_admiral_fleet [AGOT: Scatter Fleets]
+ task_admiral_fleet:0 "Scatter Fleets"
+### TODO NOT-IN-ST: task_admiral_fleet_modifier [AGOT: Council $councillor_admiral$]
+ task_admiral_fleet_modifier:0 "Council $councillor_admiral$"
+### TODO NOT-IN-ST: task_admiral_fleet_effect_desc [AGOT: [supply|E] Duration: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!]
+ task_admiral_fleet_effect_desc:0 "[supply|E] Duration: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n [fleet|E] Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_fleet_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_fleet_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!"
+### TODO NOT-IN-ST: task_admiral_fleet_erudition_bonus [AGOT: \n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n]
+ task_admiral_fleet_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
+### TODO NOT-IN-ST: task_admiral_fleet_family_business_bonus [AGOT: \n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!]
+ task_admiral_fleet_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+### TODO NOT-IN-ST: task_admiral_raid [AGOT: Embolden Raiders]
+ task_admiral_raid:0 "Embolden Raiders"
+### TODO NOT-IN-ST: cannot_raid [AGOT: #X You can raid!#!]
+ cannot_raid:0 "#X You can raid!#!"
+### TODO NOT-IN-ST: NOT_cannot_raid [AGOT: #X You cannot raid!#!]
+ NOT_cannot_raid:0 "#X You cannot raid!#!"
+### TODO NOT-IN-ST: task_admiral_raid_modifier [AGOT: Council $councillor_admiral$]
+ task_admiral_raid_modifier:0 "Council $councillor_admiral$"
+### TODO NOT-IN-ST: task_admiral_raid_effect_desc [AGOT: [raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[GetPerk('hard_rule_perk').GetName(GetNullCharacter)] Perk: #P +[SCOPE.ScriptValue('task_admiral_hard_rule_perk_bonus')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid|E] [loot|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!]
+ task_admiral_raid_effect_desc:0 "[raid|E] Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[GetPerk('hard_rule_perk').GetName(GetNullCharacter)] Perk: #P +[SCOPE.ScriptValue('task_admiral_hard_rule_perk_bonus')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid|E] [loot|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n Movement Speed: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Councillor's [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+### TODO NOT-IN-ST: task_admiral_raid_erudition_bonus [AGOT: \n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n]
+ task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
+### TODO NOT-IN-ST: task_admiral_raid_family_business_bonus [AGOT: \n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!]
+ task_admiral_raid_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
+### TODO NOT-IN-ST: task_admiral_maritime [AGOT: Protect Trade]
+ task_admiral_maritime:0 "Protect Trade"
+### TODO NOT-IN-ST: task_admiral_maritime_modifier [AGOT: Council $councillor_admiral$]
+ task_admiral_maritime_modifier:0 "Council $councillor_admiral$"
+### TODO NOT-IN-ST: task_admiral_maritime_tax_modifier [AGOT: Council $councillor_admiral$]
+ task_admiral_maritime_tax_modifier:0 "Council $councillor_admiral$"
+### TODO NOT-IN-ST: task_admiral_maritime_effect_desc [AGOT: [domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!]
+ task_admiral_maritime_effect_desc:0 "[domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacity: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Councillor's [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
+### TODO NOT-IN-ST: task_admiral_maritime_erudition_bonus [AGOT: \n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n]
+ task_admiral_maritime_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
+### TODO NOT-IN-ST: task_admiral_maritime_family_business_bonus [AGOT: \n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!]
+ task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 ### TODO NOT-IN-ST: COURT_CHAPLAIN_SHATTERED_WORLD [AGOT: Shattered World Starting Bonus]
  COURT_CHAPLAIN_SHATTERED_WORLD:0 "Shattered World Starting Bonus"
 ### TODO NOT-IN-ST: COURT_CHAPLAIN_CONVERSION_LEGENDARY_CONVERSION_BONUS_MODIFIER [AGOT: Evangelize to the Realm]
  COURT_CHAPLAIN_CONVERSION_LEGENDARY_CONVERSION_BONUS_MODIFIER:3 "Evangelize to the Realm"
+### TODO NOT-IN-ST: agot_task_disrupt_schemes_discover_spies [AGOT: Might discover foreign spies at your court \n]
+ agot_task_disrupt_schemes_discover_spies:0 "Might discover foreign spies at your court \n"
+### TODO NOT-IN-ST: agot_task_disrupt_schemes_recruit_spies [AGOT: Might recruit spies at the targets court \n]
+ agot_task_disrupt_schemes_recruit_spies:0 "Might recruit spies at the targets court \n"
+### TODO NOT-IN-ST: task_collect_pirate_domicile_taxes [AGOT: Collect Dues]
+ task_collect_pirate_domicile_taxes:0 "Collect Dues"
+### TODO NOT-IN-ST: task_collect_pirate_domicile_taxes_modifier [AGOT: Assistance from $councillor_steward$]
+ task_collect_pirate_domicile_taxes_modifier:0 "Assistance from $councillor_steward$"
+### TODO NOT-IN-ST: task_collect_pirate_domicile_taxes_effect_desc [AGOT: [councillor.GetShortUINameNoTooltip] focuses on the domicile's ledgers, trying to extract every possible scrap of gold.\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_collect_pirate_domicile_taxes')]]
+ task_collect_pirate_domicile_taxes_effect_desc:0 "[councillor.GetShortUINameNoTooltip] focuses on the domicile's ledgers, trying to extract every possible scrap of gold.\n\n[councillor.GetHerHis|U] support gives you:\n[councillor.GetModifierDescForTask('task_collect_pirate_domicile_taxes')]"
+### TODO NOT-IN-ST: task_domicile_generic_build_speed_inc_modifier [AGOT: Domicile Management]
+ task_domicile_generic_build_speed_inc_modifier:0 "Domicile Management"
+### TODO NOT-IN-ST: you_have_one_of_the_following_domiciles [AGOT: You must have one of the following [domiciles|E]:\n$EFFECT_LIST_BULLET$[agot_landless_pirate_domicile]]
+ you_have_one_of_the_following_domiciles:0 "You must have one of the following [domiciles|E]:\n$EFFECT_LIST_BULLET$[agot_landless_pirate_domicile]"

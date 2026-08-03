@@ -1,0 +1,37 @@
+﻿l_english:
+### TODO NOT-IN-ST: coronation_decision.0001.t [AGOT: The Officiant]
+ coronation_decision.0001.t:0 "The Officiant"
+### TODO NOT-IN-ST: coronation_decision.0001.desc [AGOT: I must select someone to officiate my coronation.]
+ coronation_decision.0001.desc:0 "I must select someone to officiate my coronation."
+### TODO NOT-IN-ST: coronation_decision.0001.a [AGOT: They shall crown me!]
+ coronation_decision.0001.a:0 "They shall crown me!"
+### TODO NOT-IN-ST: coronation_decision.0001.a.tt [AGOT: [officiant.GetTitledFirstNameNicknamed|U] will serve as the Officiant of your coronation.]
+ coronation_decision.0001.a.tt:0 "[officiant.GetTitledFirstNameNicknamed|U] will serve as the Officiant of your coronation."
+### TODO NOT-IN-ST: coronation_decision.0001.a.tt_hof [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is your [head_of_faith|E], thereby increasing your [piety_i] [piety|E] gain.]
+ coronation_decision.0001.a.tt_hof:0 "[officiant.GetTitledFirstNameNicknamed|U] is your [head_of_faith|E], thereby increasing your [piety_i] [piety|E] gain."
+### TODO NOT-IN-ST: coronation_decision.0001.a.tt_pv [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is a [powerful_vassal|E], thereby increasing your [legitimacy_i] [legitimacy|E] gain.]
+ coronation_decision.0001.a.tt_pv:0 "[officiant.GetTitledFirstNameNicknamed|U] is a [powerful_vassal|E], thereby increasing your [legitimacy_i] [legitimacy|E] gain."
+### TODO NOT-IN-ST: coronation_decision.0001.a.tt_dynn [AGOT: [officiant.GetTitledFirstNameNicknamed|U] is a member of your [dynasty|E], thereby increasing your [dynasty_prestige_i] [dynasty_prestige|E] gain.]
+ coronation_decision.0001.a.tt_dynn:0 "[officiant.GetTitledFirstNameNicknamed|U] is a member of your [dynasty|E], thereby increasing your [dynasty_prestige_i] [dynasty_prestige|E] gain."
+### TODO NOT-IN-ST: coronation_decision.0001.b [AGOT: Actually, I'll do it myself!]
+ coronation_decision.0001.b:0 "Actually, I'll do it myself!"
+### TODO NOT-IN-ST: coronation_decision.0001.b.tt [AGOT: You will crown yourself.]
+ coronation_decision.0001.b.tt:0 "You will crown yourself."
+### TODO NOT-IN-ST: coronation_decision.0002.t [AGOT: Selecting a Crown]
+ coronation_decision.0002.t:0 "Selecting a Crown"
+### TODO NOT-IN-ST: coronation_decision.0002.desc [AGOT: With the final preparations underway, [officiant.GetTitledFirstNameNoTooltip] approaches me.]
+ coronation_decision.0002.desc:0 "With the final preparations underway, [officiant.GetTitledFirstNameNoTooltip] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
+### TODO NOT-IN-ST: coronation_decision.0002.desc_crowning_self [AGOT: With the final preparations underway, I must decide upon which crown I wish to be crowned with.]
+ coronation_decision.0002.desc_crowning_self:0 "With the final preparations underway, I must decide upon which crown I wish to be crowned with."
+### TODO NOT-IN-ST: coronation_decision.0002.desc_high_septon [AGOT: With the final preparations underway, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me.]
+ coronation_decision.0002.desc_high_septon:0 "With the final preparations underway, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
+### TODO NOT-IN-ST: coronation_decision.0002.desc_after_sabotage [AGOT: After someone stole my crown, I must now select from the others in my collection.]
+ coronation_decision.0002.desc_after_sabotage:0 "After someone stole my crown, I must now select from the others in my collection."
+### TODO NOT-IN-ST: coronation_decision.0002.a [AGOT: This shall do nicely.]
+ coronation_decision.0002.a:0 "This shall do nicely."
+### TODO NOT-IN-ST: coronation_decision.0002.a.tt [AGOT: [selected_crown_for_coronation.GetNameNoTooltip] shall be used to crown you.]
+ coronation_decision.0002.a.tt:0 "[selected_crown_for_coronation.GetNameNoTooltip] shall be used to crown you."
+### TODO NOT-IN-ST: coronation_decision.0002.b [AGOT: None of these are suitable; I shall commission a new crown.]
+ coronation_decision.0002.b:0 "None of these are suitable; I shall commission a new crown."
+### TODO NOT-IN-ST: already_hosting_coronation [AGOT: You are already hosting a coronation.]
+ already_hosting_coronation:0 "You are already hosting a coronation."

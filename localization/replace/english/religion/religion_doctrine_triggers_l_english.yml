@@ -30,6 +30,7 @@
  INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "$doctrine_pilgrimage_name$ [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
  INCOMPATIBLE_DOCTRINE_MUMMIFICATION: "$doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName] [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz"
  INCOMPATIBLE_TENET_ANICONISM: "[GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
+ rome_must_be_faithfully_restored_global_not: "[GetTitleByKey( 'h_roman_empire' ).GetName] tam olarak yeniden kurulmalı"
  DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Tutucu [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz."
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Tutucu [Concept( 'doctrine', 'İlkesi' )|E] gerekiyor."
  DOCTRINE_PLURALISM_PLURALISTIC:0 "Çoğulcu [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz."

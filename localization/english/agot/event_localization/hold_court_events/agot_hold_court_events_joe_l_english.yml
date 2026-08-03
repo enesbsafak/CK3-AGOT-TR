@@ -1,0 +1,25 @@
+﻿l_english:
+### TODO NOT-IN-ST: court_position_desc_master_of_arms [AGOT: presiding over the armorial rolls and heralding your arrivals]
+ court_position_desc_master_of_arms:0 "presiding over the armorial rolls and heralding your arrivals"
+### TODO NOT-IN-ST: hold_court_8090_interest_master_of_arms [AGOT: \n\n]
+ hold_court_8090_interest_master_of_arms:0 "\n\n"I have great knowledge of the arms of the realm, I am an obvious choice.""
+### TODO NOT-IN-ST: court_position_master_of_arms [AGOT: [GetCourtPositionType('master_of_arms_court_position').GetName()]]
+ court_position_master_of_arms:0 "[GetCourtPositionType('master_of_arms_court_position').GetName()]"
+### TODO NOT-IN-ST: gaoler_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )]]
+ gaoler_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )]"
+### TODO NOT-IN-ST: gaoler_old_holder_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )])#!]
+ gaoler_old_holder_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )])#!"
+### TODO NOT-IN-ST: gaoler_salary_tooltip [AGOT: [GetCourtPositionType( 'gaoler_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]]
+ gaoler_salary_tooltip:0 "[GetCourtPositionType( 'gaoler_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"
+### TODO NOT-IN-ST: household_guard_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )]]
+ household_guard_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )]"
+### TODO NOT-IN-ST: household_guard_old_holder_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )])#!]
+ household_guard_old_holder_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )])#!"
+### TODO NOT-IN-ST: household_guard_salary_tooltip [AGOT: [GetCourtPositionType( 'household_guard_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]]
+ household_guard_salary_tooltip:0 "[GetCourtPositionType( 'household_guard_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]"
+### TODO NOT-IN-ST: bloodrider_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )]]
+ bloodrider_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )]"
+### TODO NOT-IN-ST: bloodrider_old_holder_aptitude_tooltip [AGOT: [candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )])#!]
+ bloodrider_old_holder_aptitude_tooltip:0 "[candidate.GetHerHisMy|U] [aptitude|E] is [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'bloodrider_court_position' ) )])#!"
+### TODO NOT-IN-ST: bloodrider_salary_tooltip [AGOT: [GetCourtPositionType( 'bloodrider_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]]
+ bloodrider_salary_tooltip:0 "[GetCourtPositionType( 'bloodrider_court_position' ).GetName()] has a monthly salary of [gold_i][SCOPE.ScriptValue('minor_court_position_salary')|2]"

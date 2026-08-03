@@ -1,0 +1,29 @@
+﻿l_english:
+ court_events.1000.t: "Sarayların En Yücesi"
+### TODO AGOT-ONLY: court_events.1000.desc [AGOT: ]
+court_events.1000.desc: ""O great [ROOT.Char.GetTitleAsNameNoTooltip]! Together, we two have wandered all the known world," fawns [guest.GetName], the first of a pair of renowned travelers, "Beheld sunny pleasure-domes! Caves of ice! Drunk the milk of Norvos and fed on honey-dew."\n\n"We've visited the camps of khals, triarchs' palaces, ancient halls... but not a court on earth compares to yours: none equal in stateliness and luxury!"\n\n[guest.GetHerHis|U] companion [guest_2.GetName] performs strange foreign obeisances, pleading:\n\n"The comforts of this place — they're beyond even [second_court.GetPrimaryTitle.GetAdjective] frivolities... wise [ROOT.Char.GetTitleAsNameNoTooltip], please allow us yet more early glimpses of [guest_2.GetFaith.PositiveAfterLife]!""
+ court_events.1000.a: "Aşırılığı gölgeleyebilecek tek şey yardımseverliktir..."
+ court_events.1000.a: "Aşırılığı gölgeleyebilecek tek şey yardımseverliktir..."
+ court_events.1000.a.flavor: "Ve halkımı zenginleştirir."
+### TODO AGOT-ONLY: court_events.1000.b [AGOT: ]
+court_events.1000.b: ""Remain here, in the grandest of courts.""
+ court_events.1000.b.flavor: "Saray ahalisiyle beraber hükümdarların en yücesine hizmet edin!"
+### TODO AGOT-ONLY: court_events.1000.c [AGOT: ]
+court_events.1000.c: ""Tell all of the wonders you've seen here.""
+ traveling_friends_court_position_aptitude: "Bu gezgin ikili, her ikisi birden [court_position|E] sahibi olduğunda [aptitude|E] bonusu elde ederler"
+ visiting_gives_opinion: "[guest.GetFirstName] veya [guest_2.GetFirstName] adlı karakteri misafir eden her [ruler|E], #high size#! karşı #P 20#! [opinion|E] kazanır #EMP (İtibar)#!"
+ court_events.1010.t: "Bir Başka Karınca Yuvası"
+ court_events.1010.desc: "[grander_ruler.GetPrimaryTitle.GetAdjectiveNoTooltip] saray mensubu muhafızlarıma gergin bir bakış attıktan sonra önümde eğiliyor.\n\n"Ben ihtişamlı bir yerden geliyorum..." diye sözlerine başlıyor [defector.GetName]: "[grander_ruler.GetName] sarayı."\n\n"Onun sarayından ayrılırsam, görevlilerin birçoğu da benimle birlikte gelecektir. Çok önemli kişiler sayılmazlar fakat gün be gün çalışarak onun sarayını mükemmel bir yer hâline getirdik! İşin doğrusu ömrümüzün sonuna kadar o [grander_ruler.Custom2('InsultAdjective', SCOPE.sC('defector'))] [grander_ruler.GetTitleAsNameNoTooltip] ile muhatap olma niyetinde değiliz..."\n\n"Onun yerine, hizmetlerimizi #EMP size#! sunmak isteriz, ey [ROOT.Char.GetTitleAsName]."" ### CQC
+### TODO AGOT-ONLY: court_events.1010.a [AGOT: ]
+court_events.1010.a: ""With your cunning... prove to me your usefulness.""
+ court_events.1010.a.flavor: "Antikacım hazinelerden bahsedip duruyor, özellikle birisi hırsızlar tarafından çalınabilir gibi."
+ court_events.1010.a.success: "Kaçaklar süzerenlerinin eserini çalmayı başarıyorlar"
+ court_events.1010.a.failure: "Hainler yakalanıyor ve idam ediliyor"
+ court_events.1010.b: "Bu görevliler işin inceliğinden iyi anlıyorlar."
+ court_events.1010.c: "Becerikli katipler sarayı yönetmemi kolaylaştırabilir."
+ court_events.1010.c.flavor: "Eğer sarayı yönetmek için daha becerikli ellere ihtiyaç varsa, [court_chaplain.GetCouncilTitle] aralarından günahsız olanları bulabilir..."
+### TODO AGOT-ONLY: court_events.1010.d [AGOT: #EMP]
+court_events.1010.d: "#EMP "Scurry home, you treacherous cockroaches!"#!"
+ court_events.1011.opening: "Bir zamanlarki efendim,"
+ court_events.1011.desc: "Bendeniz, [defector.GetName], beraberimde sizden bıkmış bazı hizmetkârlarla sarayınızdan ayrılıyorum. Bizim ustalıklarımız olmadan, sarayınız tam da hak ettiğiniz şekilde paramparça olacaktır.\n\nHer zaman layık bir hükümdardan ziyade [grander_ruler.Custom2('InsultNoun', SCOPE.sC('defector'))] biri olduğunuzu düşündüm. Sizin yerinize [root_scope.GetName], bir zamanlar sahip olduğunuz hizmetin tadını çıkaracak." ### CQC
+ court_events.1011.a: "#EMP Hain!#!"

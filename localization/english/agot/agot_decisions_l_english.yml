@@ -3,17 +3,417 @@
  I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years."
 ### TODO NOT-IN-ST: I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE [AGOT: Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years.]
  I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:2 "Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years."
+### TODO NOT-IN-ST: weirwood_meditate_decision [AGOT: Meditate at a Weirwood]
+ weirwood_meditate_decision:0 "Meditate at a Weirwood"
+### TODO NOT-IN-ST: weirwood_meditate_decision_desc [AGOT: Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. Perhaps I should visit the heart tree for some guidance.]
+ weirwood_meditate_decision_desc:0 "Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. Perhaps I should visit the heart tree for some guidance."
+### TODO NOT-IN-ST: weirwood_meditate_decision_tooltip [AGOT: You will visit the godswood for a chance of renewal.]
+ weirwood_meditate_decision_tooltip:0 "You will visit the godswood for a chance of renewal."
+### TODO NOT-IN-ST: weirwood_meditate_decision_confirm [AGOT: The trees call to me]
+ weirwood_meditate_decision_confirm:0 "The trees call to me"
+### TODO NOT-IN-ST: high_heart_the_pact_decision [AGOT: Regrow the Weirwoods of High Heart]
+ high_heart_the_pact_decision:0 "Regrow the Weirwoods of High Heart"
+### TODO NOT-IN-ST: high_heart_the_pact_decision_desc [AGOT: For too long, High Heart has stood as a testament to the Andals and their new gods. It is time for the hill to be crowned once more with weirwoods — their carved faces watching all who seek to visit.]
+ high_heart_the_pact_decision_desc:0 "For too long, High Heart has stood as a testament to the Andals and their new gods. It is time for the hill to be crowned once more with weirwoods — their carved faces watching all who seek to visit."
+### TODO NOT-IN-ST: high_heart_the_pact_decision_effect [AGOT: You will replant the grove, which will eventually develop into [GetBuilding('agot_high_heart_01').GetName]]
+ high_heart_the_pact_decision_effect:0 "You will replant the grove, which will eventually develop into [GetBuilding('agot_high_heart_01').GetName]"
+### TODO NOT-IN-ST: high_heart_the_pact_decision_tooltip [AGOT: You will regrow the weirwoods of High Heart]
+ high_heart_the_pact_decision_tooltip:0 "You will regrow the weirwoods of High Heart"
+### TODO NOT-IN-ST: high_heart_the_pact_decision_confirm [AGOT: The Old Gods whisper it!]
+ high_heart_the_pact_decision_confirm:0 "The Old Gods whisper it!"
+### TODO NOT-IN-ST: high_heart_the_seven_decision [AGOT: Cut Down the Weirwoods of High Heart]
+ high_heart_the_seven_decision:0 "Cut Down the Weirwoods of High Heart"
+### TODO NOT-IN-ST: high_heart_the_seven_decision_desc [AGOT: Erreg's good work has been undone. Now, we must cleanse High Heart of the demon trees once more.]
+ high_heart_the_seven_decision_desc:0 "Erreg's good work has been undone. Now, we must cleanse High Heart of the demon trees once more."
+### TODO NOT-IN-ST: high_heart_the_seven_decision_tooltip [AGOT: You will cut down the weirwoods of High Heart]
+ high_heart_the_seven_decision_tooltip:0 "You will cut down the weirwoods of High Heart"
+### TODO NOT-IN-ST: high_heart_the_seven_decision_confirm [AGOT: As the Seven demand!]
+ high_heart_the_seven_decision_confirm:0 "As the Seven demand!"
+### TODO NOT-IN-ST: evil_goose_decision [AGOT: Cut Down the Dead Goose Tree]
+ evil_goose_decision:0 "Cut Down the Dead Goose Tree"
+### TODO NOT-IN-ST: evil_goose_decision_desc [AGOT: House Cargyll will avenge the great goose by cutting down the Frowning Tree.]
+ evil_goose_decision_desc:0 "House Cargyll will avenge the great goose by cutting down the Frowning Tree."
+### TODO NOT-IN-ST: evil_goose_decision_tooltip [AGOT: You will cut down the Frowning Tree]
+ evil_goose_decision_tooltip:0 "You will cut down the Frowning Tree"
+### TODO NOT-IN-ST: evil_goose_decision_confirm [AGOT: For the great goose!]
+ evil_goose_decision_confirm:0 "For the great goose!"
+### TODO NOT-IN-ST: house_revival_tooltip [AGOT: By violence or fate, this House has become extinct, but due to its renowned history can be revived.]
+ house_revival_tooltip:0 "By violence or fate, this House has become extinct, but due to its renowned history can be revived."
+### TODO NOT-IN-ST: darklyn_revival_decision [AGOT: Revive House Darklyn]
+ darklyn_revival_decision:0 "Revive House Darklyn"
+### TODO NOT-IN-ST: darklyn_revival_desc [AGOT: In the Age of the Hundred Kingdoms, House Darklyn of Duskendale reigned as kings, claiming the mouth of the Blackwater Rush. The last Lord Darklyn lost his seat, his lands and his life when he took his king to prisoner. The price for his defiance was his family's demise. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ darklyn_revival_desc:0 "In the Age of the Hundred Kingdoms, House Darklyn of Duskendale reigned as kings, claiming the mouth of the Blackwater Rush. The last Lord Darklyn lost his seat, his lands and his life when he took his king to prisoner. The price for his defiance was his family's demise. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: darklyn_revival_decision_confirm [AGOT: Beneath Dusk's Dim Light]
+ darklyn_revival_decision_confirm:0 "Beneath Dusk's Dim Light"
+### TODO NOT-IN-ST: reyne_revival_decision [AGOT: Revive House Reyne]
+ reyne_revival_decision:0 "Revive House Reyne"
+### TODO NOT-IN-ST: reyne_revival_desc [AGOT: House Reyne traces its lineage back to the First Men in the Age of Heroes, building their seat of Castamere around a rich system of mines, thus securing themselves great power in the Westerlands. House Reyne met its downfall when Lord Roger Reyne refused to pay his debts and rebelled against House Lannister. Their rebellion ended swiftly with the extinction of their dynasty. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ reyne_revival_desc:0 "House Reyne traces its lineage back to the First Men in the Age of Heroes, building their seat of Castamere around a rich system of mines, thus securing themselves great power in the Westerlands. House Reyne met its downfall when Lord Roger Reyne refused to pay his debts and rebelled against House Lannister. Their rebellion ended swiftly with the extinction of their dynasty. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: reyne_revival_decision_confirm [AGOT: Long and Sharp]
+ reyne_revival_decision_confirm:0 "Long and Sharp"
+### TODO NOT-IN-ST: gardener_revival_decision [AGOT: Revive House Gardener]
+ gardener_revival_decision:0 "Revive House Gardener"
+### TODO NOT-IN-ST: gardener_revival_desc [AGOT: Many houses are said to descend from the legendary Garth Greenhand, none more prestigious than House Gardener. The last Gardener King Mern IX and his kin were burnt alive at the Field of Fire in 1BC, ending the Gardener dynasty. Their lands were given to House Tyrell who had served loyally as their stewards. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ gardener_revival_desc:0 "Many houses are said to descend from the legendary Garth Greenhand, none more prestigious than House Gardener. The last Gardener King Mern IX and his kin were burnt alive at the Field of Fire in 1BC, ending the Gardener dynasty. Their lands were given to House Tyrell who had served loyally as their stewards. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: gardener_revival_decision_confirm [AGOT: The Tallest Tree]
+ gardener_revival_decision_confirm:0 "The Tallest Tree"
+### TODO NOT-IN-ST: durrandon_revival_decision [AGOT: Revive House Durrandon]
+ durrandon_revival_decision:0 "Revive House Durrandon"
+### TODO NOT-IN-ST: durrandon_revival_desc [AGOT: In the Age of Heroes, legendary King Durran Godsgrief raised the castle Storm's End and founded the Kingdom of the Stormlands, thus cementing the rule of House Durrandon. Centuries later, his descendant Argilac the Arrogant lost his kingdom and his life — his lands and daughter given to Lord Orys Baratheon, ending the Durrandon dynasty. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ durrandon_revival_desc:0 "In the Age of Heroes, legendary King Durran Godsgrief raised the castle Storm's End and founded the Kingdom of the Stormlands, thus cementing the rule of House Durrandon. Centuries later, his descendant Argilac the Arrogant lost his kingdom and his life — his lands and daughter given to Lord Orys Baratheon, ending the Durrandon dynasty. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: durrandon_revival_decision_confirm [AGOT: Ours is the Fury]
+ durrandon_revival_decision_confirm:0 "Ours is the Fury"
+### TODO NOT-IN-ST: stark_revival_decision [AGOT: Revive House Stark]
+ stark_revival_decision:0 "Revive House Stark"
+### TODO NOT-IN-ST: stark_revival_desc [AGOT: Through fate and misfortune, the ancient House of Bran the Builder has gone extinct, ending thousands of years of Starks reigning in Winterfell. I have retaken Winterfell — perhaps it is time to bring back this once great [dynasty|E], with myself as its head... For there must always be a Stark in Winterfell.]
+ stark_revival_desc:0 "Through fate and misfortune, the ancient House of Bran the Builder has gone extinct, ending thousands of years of Starks reigning in Winterfell. I have retaken Winterfell — perhaps it is time to bring back this once great [dynasty|E], with myself as its head... For there must always be a Stark in Winterfell."
+### TODO NOT-IN-ST: stark_revival_decision_confirm [AGOT: Winter is Coming]
+ stark_revival_decision_confirm:0 "Winter is Coming"
+### TODO NOT-IN-ST: arryn_revival_decision [AGOT: Revive House Arryn]
+ arryn_revival_decision:0 "Revive House Arryn"
+### TODO NOT-IN-ST: arryn_revival_desc [AGOT: Through fate and misfortune, the ancient House of the Falconknight has gone extinct, ending thousands of years of Arryn's reigning in the Vale. I have retaken the Eyrie — perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ arryn_revival_desc:0 "Through fate and misfortune, the ancient House of the Falconknight has gone extinct, ending thousands of years of Arryn's reigning in the Vale. I have retaken the Eyrie — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: arryn_revival_decision_confirm [AGOT: As High As Honor]
+ arryn_revival_decision_confirm:0 "As High As Honor"
+### TODO NOT-IN-ST: lannister_revival_decision [AGOT: Revive House Lannister]
+ lannister_revival_decision:0 "Revive House Lannister"
+### TODO NOT-IN-ST: lannister_revival_desc [AGOT: Through fate and misfortune, the ancient House of Lann the Clever has gone extinct, ending thousands of years of Lannister rule. I have retaken Casterly Rock — perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ lannister_revival_desc:0 "Through fate and misfortune, the ancient House of Lann the Clever has gone extinct, ending thousands of years of Lannister rule. I have retaken Casterly Rock — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: lannister_revival_decision_confirm [AGOT: Hear Me Roar!]
+ lannister_revival_decision_confirm:0 "Hear Me Roar!"
+### TODO NOT-IN-ST: hoare_revival_decision [AGOT: Revive House Hoare]
+ hoare_revival_decision:0 "Revive House Hoare"
+### TODO NOT-IN-ST: hoare_revival_desc [AGOT: For thousands of years my family ruled the Iron Islands, reaping iron and fear all over the shores of Westeros. It was only through dragonfire that we were humbled — but still we endure. I have retaken Orkmont, our ancestral home. Perhaps it is time to refound the [dynasty|E] of Qhored the Cruel, with myself as its head.]
+ hoare_revival_desc:0 "For thousands of years my family ruled the Iron Islands, reaping iron and fear all over the shores of Westeros. It was only through dragonfire that we were humbled — but still we endure. I have retaken Orkmont, our ancestral home. Perhaps it is time to refound the [dynasty|E] of Qhored the Cruel, with myself as its head."
+### TODO NOT-IN-ST: hoare_revival_decision_confirm [AGOT: Lashed in Blood]
+ hoare_revival_decision_confirm:0 "Lashed in Blood"
+### TODO NOT-IN-ST: justman_revival_decision [AGOT: Revive House Justman]
+ justman_revival_decision:0 "Revive House Justman"
+### TODO NOT-IN-ST: justman_revival_desc [AGOT: Long ago, Benedict Rivers, a child of Blackwood and Bracken blood, united the Trident under his rule and founded House Justman. They ruled the Riverlands for almost three hundred years before their line was cruelly ended by the Ironborn. I, too, am a child of both these lines — perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ justman_revival_desc:0 "Long ago, Benedict Rivers, a child of Blackwood and Bracken blood, united the Trident under his rule and founded House Justman. They ruled the Riverlands for almost three hundred years before their line was cruelly ended by the Ironborn. I, too, am a child of both these lines — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: justman_revival_decision_confirm [AGOT: A Name Earned]
+ justman_revival_decision_confirm:0 "A Name Earned"
+### TODO NOT-IN-ST: saerygan_revival_decision [AGOT: Revive House Saerygan]
+ saerygan_revival_decision:0 "Revive House Saerygan"
+### TODO NOT-IN-ST: saerygan_revival_desc [AGOT: Through fate and misfortune, the ancient House Saerygan has gone extinct, ending hundreds of years of rule of a house that saw the Valyrian Freehold at it's height and survived the Doom of Valyria. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
+ saerygan_revival_desc:0 "Through fate and misfortune, the ancient House Saerygan has gone extinct, ending hundreds of years of rule of a house that saw the Valyrian Freehold at it's height and survived the Doom of Valyria. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
+### TODO NOT-IN-ST: saerygan_revival_decision_confirm [AGOT: A Name Earned]
+ saerygan_revival_decision_confirm:0 "A Name Earned"
+### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision [AGOT: Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]]
+ dynamic_bastard_house_revival_decision:0 "Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
+### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision_desc [AGOT: House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] has gone extinct. As a direct descendant of this House, I can reclaim its legacy and name.]
+ dynamic_bastard_house_revival_decision_desc:0 "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] has gone extinct. As a direct descendant of this House, I can reclaim its legacy and name."
+### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision_confirm [AGOT: House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], shall be born again!]
+ dynamic_bastard_house_revival_decision_confirm:0 "House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName], shall be born again!"
+### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision_bastard [AGOT: Your [house|e] is a [bastard_branch|e]]
+ dynamic_bastard_house_revival_decision_bastard:0 "Your [house|e] is a [bastard_branch|e]"
+### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision_westeros_needs_legitimization [AGOT: [top_liege.GetName] will hear your petition for assuming the name, words, and arms of House [bastard_house_of.GetName].]
+ dynamic_bastard_house_revival_decision_westeros_needs_legitimization:0 "[top_liege.GetName] will hear your petition for assuming the name, words, and arms of House [bastard_house_of.GetName]."
+### TODO NOT-IN-ST: agot_events_generic.0030.t [AGOT: You wretched [ROOT.Char.Custom('GirlBoy')],]
+ agot_events_generic.0030.t:0 "You wretched [ROOT.Char.Custom('GirlBoy')],"
+### TODO NOT-IN-ST: agot_events_generic.0030.desc_vassal [AGOT: I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP King's Landing#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Blackwater shall be your drowning-pit — I will fling you into it myself, if I must.]
+ agot_events_generic.0030.desc_vassal:0 "I dragged you out of the filth, and I can cast you back in again! You didn't #EMP truly#! think #EMP King's Landing#!, the last pillar of erudition on this disdainful earth, could really be yours! Not so much as your littlest toe is worthy of treading upon its glimmering bricks! Return it, or else the Blackwater shall be your drowning-pit — I will fling you into it myself, if I must."
+### TODO NOT-IN-ST: agot_events_generic.0030.a [AGOT: I was merely looking after it for you!]
+ agot_events_generic.0030.a:0 "I was merely looking after it for you!"
+### TODO NOT-IN-ST: agot_events_generic.0030.b [AGOT: I hope your mithering rear gets cut on the Iron Throne.]
+ agot_events_generic.0030.b:0 "I hope your mithering rear gets cut on the Iron Throne."
+### TODO NOT-IN-ST: agot_buy_knighthood_decision [AGOT: Buy Knighthood]
+ agot_buy_knighthood_decision:0 "Buy Knighthood"
+### TODO NOT-IN-ST: agot_buy_knighthood_decision_desc [AGOT: While social pressure forbids the sale and purchase of knighthood, there will always be those close willing to sell knighthood for the right price. For circumstances unimportant, I have not been made a knight at this point in my life. Using my influence and wealth, I can definitely fix that.]
+ agot_buy_knighthood_decision_desc:0 "While social pressure forbids the sale and purchase of knighthood, there will always be those close willing to sell knighthood for the right price. For circumstances unimportant, I have not been made a knight at this point in my life. Using my influence and wealth, I can definitely fix that."
+### TODO NOT-IN-ST: agot_buy_knighthood_decision_desc_outsider [AGOT: While knighthood is not particularly valued or even relevant in my background, becoming a knight does nonetheless interest me. Finding a person willing to knight an #italic outsider#! will be difficult, but I'm sure that I can find a willing person for the right price.]
+ agot_buy_knighthood_decision_desc_outsider:0 "While knighthood is not particularly valued or even relevant in my background, becoming a knight does nonetheless interest me. Finding a person willing to knight an #italic outsider#! will be difficult, but I'm sure that I can find a willing person for the right price."
+### TODO NOT-IN-ST: agot_buy_knighthood_decision_confirm [AGOT: Buy it!]
+ agot_buy_knighthood_decision_confirm:0 "Buy it!"
+### TODO NOT-IN-ST: agot_buy_knighthood_decision_tooltip [AGOT: You will buy knighthood]
+ agot_buy_knighthood_decision_tooltip:0 "You will buy knighthood"
+### TODO NOT-IN-ST: agot_decision_bought_knighthood_effect_tt [AGOT: Your #V close family#! will be notified of your knighting.]
+ agot_decision_bought_knighthood_effect_tt:0 "Your #V close family#! will be notified of your knighting."
+### TODO NOT-IN-ST: reforge_valyrian_steel_decision [AGOT: Reforge Valyrian Steel Blade]
+ reforge_valyrian_steel_decision:0 "Reforge Valyrian Steel Blade"
+### TODO NOT-IN-ST: reforge_valyrian_steel_decision_desc [AGOT: I wish to forge a new blade of my own devising]
+ reforge_valyrian_steel_decision_desc:0 "I wish to forge a new blade of my own devising"
+### TODO NOT-IN-ST: reforge_valyrian_steel_decision.tt [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
+ reforge_valyrian_steel_decision.tt:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
+### TODO NOT-IN-ST: reforge_valyrian_steel_decision_confirm [AGOT: Summon the smith!]
+ reforge_valyrian_steel_decision_confirm:0 "Summon the smith!"
+### TODO NOT-IN-ST: reforge_valyrian_steel_decision_tooltip [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
+ reforge_valyrian_steel_decision_tooltip:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
+### TODO NOT-IN-ST: reforge_valyrian_steel_excellent_aptitude [AGOT: Your $court_smith_court_position$ needs an aptitude of #V Excellent#!]
+ reforge_valyrian_steel_excellent_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Excellent#!"
+### TODO NOT-IN-ST: reforge_valyrian_steel_additional_requirements [AGOT: Your $court_smith_court_position$ needs either the knowledge of reforging Valyrian steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet]
+ reforge_valyrian_steel_additional_requirements:0 "Your $court_smith_court_position$ needs either the knowledge of reforging Valyrian steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet"
+### TODO NOT-IN-ST: reforge_longthorn_good_aptitude [AGOT: Your $court_smith_court_position$ needs an aptitude of #V Good#!]
+ reforge_longthorn_good_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Good#!"
+### TODO NOT-IN-ST: claim_dawn_unworthy_decision [AGOT: Claim Dawn]
+ claim_dawn_unworthy_decision:0 "Claim Dawn"
+### TODO NOT-IN-ST: claim_dawn_unworthy_decision_desc [AGOT: The sword is mine by rights,]
+ claim_dawn_unworthy_decision_desc:0 "The sword is mine by rights, "worthy" or not I claim it as my own."
+### TODO NOT-IN-ST: claim_dawn_unworthy_decision_tooltip [AGOT: Claim the legendary sword Dawn as your own]
+ claim_dawn_unworthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
+### TODO NOT-IN-ST: claim_dawn_unworthy_decision_confirm [AGOT: Claim]
+ claim_dawn_unworthy_decision_confirm:0 "Claim"
+### TODO NOT-IN-ST: claim_dawn_worthy_decision [AGOT: Claim Dawn]
+ claim_dawn_worthy_decision:0 "Claim Dawn"
+### TODO NOT-IN-ST: claim_dawn_worthy_decision_desc [AGOT: I believe I am worthy.]
+ claim_dawn_worthy_decision_desc:0 "I believe I am worthy."
+### TODO NOT-IN-ST: claim_dawn_worthy_decision_tooltip [AGOT: Claim the legendary sword Dawn as your own]
+ claim_dawn_worthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
+### TODO NOT-IN-ST: claim_dawn_worthy_decision_confirm [AGOT: I am worthy!]
+ claim_dawn_worthy_decision_confirm:0 "I am worthy!"
+### TODO NOT-IN-ST: recover_brightroar_decision [AGOT: Recover Brightroar]
+ recover_brightroar_decision:0 "Recover Brightroar"
+### TODO NOT-IN-ST: recover_brightroar_decision_desc [AGOT: I will fund a brave explorer to venture into the perilous ruins of Old Valyria in search of Brightroar, the ancestral sword of House Lannister.]
+ recover_brightroar_decision_desc:0 "I will fund a brave explorer to venture into the perilous ruins of Old Valyria in search of Brightroar, the ancestral sword of House Lannister."
+### TODO NOT-IN-ST: recover_brightroar_decision_tooltip [AGOT: Plan an expedition to recover Brightroar]
+ recover_brightroar_decision_tooltip:0 "Plan an expedition to recover Brightroar"
+### TODO NOT-IN-ST: recover_brightroar_decision_confirm [AGOT: Prepare a ship]
+ recover_brightroar_decision_confirm:0 "Prepare a ship"
+### TODO NOT-IN-ST: decision_reforge_longthorn [AGOT: Restore Longthorn]
+ decision_reforge_longthorn:0 "Restore Longthorn"
+### TODO NOT-IN-ST: decision_reforge_longthorn_desc [AGOT: The blade of Longthorn survives, for Valyrian steel endures even dragonflame. Yet our house swore a solemn oath that it would not be reforged until Highgarden is reclaimed and House Gardener restored to glory.]
+ decision_reforge_longthorn_desc:0 "The blade of Longthorn survives, for Valyrian steel endures even dragonflame. Yet our house swore a solemn oath that it would not be reforged until Highgarden is reclaimed and House Gardener restored to glory."
+### TODO NOT-IN-ST: decision_reforge_longthorn_tooltip [AGOT: You will have the blade of Longthorn reforged into a usable sword]
+ decision_reforge_longthorn_tooltip:0 "You will have the blade of Longthorn reforged into a usable sword"
+### TODO NOT-IN-ST: decision_reforge_longthorn_confirm [AGOT: Call the smiths!]
+ decision_reforge_longthorn_confirm:0 "Call the smiths!"
+### TODO NOT-IN-ST: decision_reforge_longthorn_alt [AGOT: Restore Longthorn]
+ decision_reforge_longthorn_alt:0 "Restore Longthorn"
+### TODO NOT-IN-ST: decision_reforge_longthorn_desc_alt [AGOT: The blade of Longthorn survives, for Valyrian steel endures even dragonflame. It shall at last be restored to its former glory, its ancient splendor returned anew.]
+ decision_reforge_longthorn_desc_alt:0 "The blade of Longthorn survives, for Valyrian steel endures even dragonflame. It shall at last be restored to its former glory, its ancient splendor returned anew."
+### TODO NOT-IN-ST: retrieve_hidden_artifact_decision [AGOT: Retrieve Hidden Artifact]
+ retrieve_hidden_artifact_decision:0 "Retrieve Hidden Artifact"
+### TODO NOT-IN-ST: retrieve_hidden_artifact_decision_desc [AGOT: Unbeknownst to the world, I am in possession of [ROOT.Char.Custom('HiddenArtifact')]. I no longer see any reason to keep it hidden. The time has come to reveal it.]
+ retrieve_hidden_artifact_decision_desc:0 "Unbeknownst to the world, I am in possession of [ROOT.Char.Custom('HiddenArtifact')]. I no longer see any reason to keep it hidden. The time has come to reveal it."
+### TODO NOT-IN-ST: retrieve_hidden_artifact_decision_tooltip [AGOT: Retrieve an artifact currently hidden away]
+ retrieve_hidden_artifact_decision_tooltip:0 "Retrieve an artifact currently hidden away"
+### TODO NOT-IN-ST: retrieve_hidden_artifact_decision_confirm [AGOT: Let it be known!]
+ retrieve_hidden_artifact_decision_confirm:0 "Let it be known!"
+### TODO NOT-IN-ST: retrieve_stored_artifacts_decision [AGOT: Retrieve Stored Artifacts]
+ retrieve_stored_artifacts_decision:0 "Retrieve Stored Artifacts"
+### TODO NOT-IN-ST: retrieve_stored_artifacts_decision_desc [AGOT: Many relics of House Targaryen lie forgotten in the cellars beneath the Red Keep. Crowns and ancient dragon skulls gather dust in silence. It is time they were brought forth and restored to their rightful place in history.]
+ retrieve_stored_artifacts_decision_desc:0 "Many relics of House Targaryen lie forgotten in the cellars beneath the Red Keep. Crowns and ancient dragon skulls gather dust in silence. It is time they were brought forth and restored to their rightful place in history."
+### TODO NOT-IN-ST: retrieve_stored_artifacts_decision_tooltip [AGOT: Retrieve Targaryen artifacts stored beneath the Red Keep]
+ retrieve_stored_artifacts_decision_tooltip:0 "Retrieve Targaryen artifacts stored beneath the Red Keep"
+### TODO NOT-IN-ST: retrieve_stored_artifacts_decision_confirm [AGOT: Send servants below]
+ retrieve_stored_artifacts_decision_confirm:0 "Send servants below"
 ### TODO NOT-IN-ST: adopt_personal_coa [AGOT: Adopt a Set of Personal Arms]
  adopt_personal_coa:0 "Adopt a Set of Personal Arms"
 ### TODO NOT-IN-ST: adopt_personal_coa_desc [AGOT: A set of [agot_personal_coa|e] can distinguish me further from my House and family.]
  adopt_personal_coa_desc:0 "A set of [agot_personal_coa|e] can distinguish me further from my House and family."
+### TODO NOT-IN-ST: adopt_personal_coa_confirm [AGOT: Do it]
+ adopt_personal_coa_confirm:0 "Do it"
+### TODO NOT-IN-ST: adopt_personal_coa_tooltip [AGOT: Adopt a Set of Personal Arms]
+ adopt_personal_coa_tooltip:0 "Adopt a Set of Personal Arms"
 ### TODO NOT-IN-ST: adopt_personal_coa_effect_tt [AGOT: You will gain a personal coat of arms which will be displayed next to your House sigil.]
  adopt_personal_coa_effect_tt:0 "You will gain a personal coat of arms which will be displayed next to your House sigil."
+### TODO NOT-IN-ST: pcoa_plain [AGOT: Plain Arms]
+ pcoa_plain:0 "Plain Arms"
+### TODO NOT-IN-ST: pcoa_plain_tooltip [AGOT: You will gain a personal coat of arms identical to your House. Perfect for customization.]
+ pcoa_plain_tooltip:0 "You will gain a personal coat of arms identical to your House. Perfect for customization."
+### TODO NOT-IN-ST: pcoa_nickname [AGOT: Nickname-Based Arms]
+ pcoa_nickname:0 "Nickname-Based Arms"
+### TODO NOT-IN-ST: pcoa_nickname_tooltip [AGOT: You will gain a personal coat of arms based on your nickname.]
+ pcoa_nickname_tooltip:0 "You will gain a personal coat of arms based on your nickname."
+### TODO NOT-IN-ST: pcoa_ancestral_quartering [AGOT: Ancestrally Quartered Arms]
+ pcoa_ancestral_quartering:0 "Ancestrally Quartered Arms"
+### TODO NOT-IN-ST: pcoa_ancestral_quartering_tooltip [AGOT: You will gain a personal coat of arms that is quartered with an ancestor's House arms.]
+ pcoa_ancestral_quartering_tooltip:0 "You will gain a personal coat of arms that is quartered with an ancestor's House arms."
+### TODO NOT-IN-ST: pcoa_religious [AGOT: Faith-Based Arms]
+ pcoa_religious:0 "Faith-Based Arms"
+### TODO NOT-IN-ST: pcoa_religious_tooltip [AGOT: You will gain a personal coat of arms that is based on your faith.]
+ pcoa_religious_tooltip:0 "You will gain a personal coat of arms that is based on your faith."
+### TODO NOT-IN-ST: pcoa_fourth_child [AGOT: Fourth [CHARACTER.Custom('GetDaughterSon')|U]-Based Arms]
+ pcoa_fourth_child:0 "Fourth [CHARACTER.Custom('GetDaughterSon')|U]-Based Arms"
+### TODO NOT-IN-ST: pcoa_fourth_child_tooltip [AGOT: You will gain a personal coat of arms that is your House arms repeated four times.]
+ pcoa_fourth_child_tooltip:0 "You will gain a personal coat of arms that is your House arms repeated four times."
+### TODO NOT-IN-ST: adopt_personal_coa_decision_next_stop_button [AGOT: Continue]
+ adopt_personal_coa_decision_next_stop_button:0 "Continue"
+### TODO NOT-IN-ST: personal_coa_name_gui [AGOT: Personal Arms]
+ personal_coa_name_gui:0 "Personal Arms"
 ### TODO NOT-IN-ST: coa_new_name [AGOT: ]
  coa_new_name:0 ""
 ### TODO NOT-IN-ST: pcoa_random [AGOT: Random Arms]
  pcoa_random:0 "Random Arms"
+### TODO NOT-IN-ST: pcoa_random_tooltip [AGOT: You will gain a randomly generated personal coat of arms.]
+ pcoa_random_tooltip:0 "You will gain a randomly generated personal coat of arms."
 ### TODO NOT-IN-ST: CUSTOMIZE_PERSONAL_ARMS [AGOT: #T Customize [agot_personal_coa|e]#!\nOpen the customization menu to edit your personal arms.]
  CUSTOMIZE_PERSONAL_ARMS:0 "#T Customize [agot_personal_coa|e]#!\nOpen the customization menu to edit your personal arms."
+### TODO NOT-IN-ST: control_realm_borders_close_decision [AGOT: Isolate Realm]
+ control_realm_borders_close_decision:0 "Isolate Realm"
+### TODO NOT-IN-ST: control_realm_borders_decision [AGOT: Begin Isolation]
+ control_realm_borders_decision:0 "Begin Isolation"
+### TODO NOT-IN-ST: control_realm_borders_decision_desc [AGOT: $control_realm_borders_decision$]
+ control_realm_borders_decision_desc:0 "$control_realm_borders_decision$"
+### TODO NOT-IN-ST: control_realm_borders_decision_tooltip [AGOT: Restrict travel into your realm and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_decision_tooltip:0 "Restrict travel into your realm and prevent [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_decision_alert_tt [AGOT: Your realm must be free from [plague_apocalyptic|E] [epidemics|E].]
+ control_realm_borders_decision_alert_tt:0 "Your realm must be free from [plague_apocalyptic|E] [epidemics|E]."
+### TODO NOT-IN-ST: control_realm_borders_decision_confirm [AGOT: $control_realm_borders_decision$]
+ control_realm_borders_decision_confirm:0 "$control_realm_borders_decision$"
+### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.dorne [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
+ control_realm_borders_close_decision_opening_desc.dorne:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.vale [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
+ control_realm_borders_close_decision_opening_desc.vale:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.north [AGOT: I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
+ control_realm_borders_close_decision_opening_desc.north:0 "I can restrict travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_opening_desc.iron_islands [AGOT: I can restrict travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective.]
+ control_realm_borders_close_decision_opening_desc.iron_islands:0 "I can restrict travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], to prevent the spread of infection to my domain. This is normally very effective."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.dorne [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_decision_tooltip.dorne:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.vale [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_decision_tooltip.vale:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.north [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_decision_tooltip.north:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_decision_tooltip.iron_islands [AGOT: Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_decision_tooltip.iron_islands:0 "Restrict travel into [ROOT.Char.GetPrimaryTitle.GetName] and prevent [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.dorne [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_effect_tt.dorne:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.vale [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_effect_tt.vale:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.north [AGOT: You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_effect_tt.north:0 "You will restrict travel into [title.GetName] and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_close_effect_tt.iron_islands [AGOT: You will restrict travel into [title.GetName], and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_close_effect_tt.iron_islands:0 "You will restrict travel into [title.GetName], and will be highly resistant to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision [AGOT: End Realm Isolation]
+ control_realm_borders_open_decision:0 "End Realm Isolation"
+### TODO NOT-IN-ST: uncontrol_realm_borders_decision [AGOT: End Isolation]
+ uncontrol_realm_borders_decision:0 "End Isolation"
+### TODO NOT-IN-ST: uncontrol_realm_borders_decision_desc [AGOT: $uncontrol_realm_borders_decision$]
+ uncontrol_realm_borders_decision_desc:0 "$uncontrol_realm_borders_decision$"
+### TODO NOT-IN-ST: uncontrol_realm_borders_decision_tooltip [AGOT: Allow travel into your realm and risk [plague_apocalyptic|E] [epidemic|E] spread.]
+ uncontrol_realm_borders_decision_tooltip:0 "Allow travel into your realm and risk [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: uncontrol_realm_borders_decision_alert_tt [AGOT: Your realm must have previously been isolated from [plague_apocalyptic|E] [epidemics|E].]
+ uncontrol_realm_borders_decision_alert_tt:0 "Your realm must have previously been isolated from [plague_apocalyptic|E] [epidemics|E]."
+### TODO NOT-IN-ST: uncontrol_realm_borders_decision_confirm [AGOT: $uncontrol_realm_borders_decision$]
+ uncontrol_realm_borders_decision_confirm:0 "$uncontrol_realm_borders_decision$"
+### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.dorne [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
+ control_realm_borders_open_decision_opening_desc.dorne:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.vale [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
+ control_realm_borders_open_decision_opening_desc.vale:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.north [AGOT: I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
+ control_realm_borders_open_decision_opening_desc.north:0 "I can allow travel on the roads and into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_opening_desc.iron_islands [AGOT: I can allow travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread.]
+ control_realm_borders_open_decision_opening_desc.iron_islands:0 "I can allow travel into the ports of [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] again, but will be at higher risk of infectious spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.dorne [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_decision_tooltip.dorne:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.vale [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_decision_tooltip.vale:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.north [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_decision_tooltip.north:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_decision_tooltip.iron_islands [AGOT: Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_decision_tooltip.iron_islands:0 "Allow travel into [ROOT.Char.GetPrimaryTitle.GetName] and risk [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.dorne [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_effect_tt.dorne:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.vale [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_effect_tt.vale:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.north [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_effect_tt.north:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: control_realm_borders_open_effect_tt.iron_islands [AGOT: You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread.]
+ control_realm_borders_open_effect_tt.iron_islands:0 "You will allow travel into [title.GetName] again, but will be susceptible to [plague_apocalyptic|E] [epidemic|E] spread."
+### TODO NOT-IN-ST: abdicate_decision [AGOT: Abdicate to my Heir]
+ abdicate_decision:0 "Abdicate to my Heir"
+### TODO NOT-IN-ST: abdicate_decision_tooltip [AGOT: My rule must come to its end.]
+ abdicate_decision_tooltip:0 "My rule must come to its end."
+### TODO NOT-IN-ST: abdicate_decision_desc [AGOT: Due to the given circumstances, I see no other alternative but to hand over the reigns of power to my heir, and let the history books write the footnote of my rule.]
+ abdicate_decision_desc:0 "Due to the given circumstances, I see no other alternative but to hand over the reigns of power to my heir, and let the history books write the footnote of my rule."
+### TODO NOT-IN-ST: abdicate_decision_confirm [AGOT: Call my maester]
+ abdicate_decision_confirm:0 "Call my maester"
+### TODO NOT-IN-ST: agot_abdicate.1.t [AGOT: Abdication]
+ agot_abdicate.1.t:0 "Abdication"
+### TODO NOT-IN-ST: agot_abdicate.1.desc [AGOT: [ROOT.Char.GetTitledFirstName] has decided to abdicate in your favor.]
+ agot_abdicate.1.desc:0 "[ROOT.Char.GetTitledFirstName] has decided to abdicate in your favor."
+### TODO NOT-IN-ST: agot_abdicate.1.a [AGOT: I am grateful.]
+ agot_abdicate.1.a:0 "I am grateful."
+### TODO NOT-IN-ST: agot_minor_decisions_events.0005.t [AGOT: Letting Myself Go]
+ agot_minor_decisions_events.0005.t:0 "Letting Myself Go"
+### TODO NOT-IN-ST: agot_minor_decisions_events.0005.desc [AGOT: #italic [ROOT.Char.GetFullNameNicknamedNoTooltip] has descended fully into madness...#!\n\nI can hear the whispers throughout the court. My courtiers think me a nuisance, in behavior if not in looks. If they consider me as such, perhaps I ought to quit maintaining appearances.]
+ agot_minor_decisions_events.0005.desc:0 "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] has descended fully into madness...#!\n\nI can hear the whispers throughout the court. My courtiers think me a nuisance, in behavior if not in looks. If they consider me as such, perhaps I ought to quit maintaining appearances."
+### TODO NOT-IN-ST: agot_minor_decisions_events.0005.a [AGOT: Begone, barber!]
+ agot_minor_decisions_events.0005.a:0 "Begone, barber!"
+### TODO NOT-IN-ST: recruit_forder_specialist_decision [AGOT: Recruit Forder Specalist]
+ recruit_forder_specialist_decision:0 "Recruit Forder Specalist"
+### TODO NOT-IN-ST: recruit_forder_specialist_decision_desc [AGOT: Recruit a Commander that not only knows how to effectively cross rivers, but is also a skilled fighter when they do.]
+ recruit_forder_specialist_decision_desc:0 "Recruit a Commander that not only knows how to effectively cross rivers, but is also a skilled fighter when they do."
+### TODO NOT-IN-ST: recruit_forder_specialist_decision_tooltip [AGOT: A Commander with the Forder trait will join your court.]
+ recruit_forder_specialist_decision_tooltip:0 "A Commander with the Forder trait will join your court."
+### TODO NOT-IN-ST: recruit_forder_specialist_decision_confirm [AGOT: I hope I find one]
+ recruit_forder_specialist_decision_confirm:0 "I hope I find one"
+### TODO NOT-IN-ST: agot_commission_special_artifact_decision [AGOT: Commission Special Artifact]
+ agot_commission_special_artifact_decision:0 "Commission Special Artifact"
+### TODO NOT-IN-ST: agot_commission_special_artifact_decision_tooltip [AGOT: Commission the Court Smith to create a new special artifact]
+ agot_commission_special_artifact_decision_tooltip:0 "Commission the Court Smith to create a new special artifact"
+### TODO NOT-IN-ST: agot_commission_special_artifact_decision_effects_tooltip [AGOT: You will commission a new special artifact.]
+ agot_commission_special_artifact_decision_effects_tooltip:0 "You will commission a new special artifact."
+### TODO NOT-IN-ST: agot_commission_special_artifact_decision_desc [AGOT: A ruler is judged as much by what they bear as by what they do. Crown or armor, such a piece serves as both symbol and statement. I will have a new artifact made, one worthy of my station.]
+ agot_commission_special_artifact_decision_desc:0 "A ruler is judged as much by what they bear as by what they do. Crown or armor, such a piece serves as both symbol and statement. I will have a new artifact made, one worthy of my station."
+### TODO NOT-IN-ST: agot_commission_special_artifact_decision_confirm [AGOT: Summon the smith!]
+ agot_commission_special_artifact_decision_confirm:0 "Summon the smith!"
+### TODO NOT-IN-ST: agot_commission_special_artifact_button [AGOT: Choose Artifact]
+ agot_commission_special_artifact_button:0 "Choose Artifact"
+### TODO NOT-IN-ST: agot_commission_special_artifact_crown_choice_loc [AGOT: A Crown For Myself]
+ agot_commission_special_artifact_crown_choice_loc:0 "A Crown For Myself"
+### TODO NOT-IN-ST: agot_commission_special_artifact_crown_choice_tooltip [AGOT: A crown inspired by aspects of myself, my lineage, faith and titles.]
+ agot_commission_special_artifact_crown_choice_tooltip:0 "A crown inspired by aspects of myself, my lineage, faith and titles."
+### TODO NOT-IN-ST: agot_commissioned_personal_crown_recently [AGOT: You cannot commission another crown for yourself until [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_crown' ))]]
+ agot_commissioned_personal_crown_recently:0 "You cannot commission another crown for yourself until [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_crown' ))]"
+### TODO NOT-IN-ST: agot_commission_special_artifact_crown_spouse_choice_loc [AGOT: A Crown For My Spouse]
+ agot_commission_special_artifact_crown_spouse_choice_loc:0 "A Crown For My Spouse"
+### TODO NOT-IN-ST: agot_commission_special_artifact_crown_spouse_choice_tooltip [AGOT: A crown inspired by the lineage, faith or titles of my spouse.]
+ agot_commission_special_artifact_crown_spouse_choice_tooltip:0 "A crown inspired by the lineage, faith or titles of my spouse."
+### TODO NOT-IN-ST: agot_commissioned_spouse_crown_recently [AGOT: You cannot commission another crown for [spouse_scope.GetName] until [GetCurrentDateWithDiff( GetVarTimeRemaining( spouse_scope.MakeScope, 'agot_recently_commissioned_crown') )]]
+ agot_commissioned_spouse_crown_recently:0 "You cannot commission another crown for [spouse_scope.GetName] until [GetCurrentDateWithDiff( GetVarTimeRemaining( spouse_scope.MakeScope, 'agot_recently_commissioned_crown') )]"
+### TODO NOT-IN-ST: agot_commission_special_artifact_armor_choice_loc [AGOT: A Set of Armor]
+ agot_commission_special_artifact_armor_choice_loc:0 "A Set of Armor"
+### TODO NOT-IN-ST: agot_commission_special_artifact_armor_choice_tooltip [AGOT: A custom-forged set of armor, tailored to its wearer.]
+ agot_commission_special_artifact_armor_choice_tooltip:0 "A custom-forged set of armor, tailored to its wearer."
+### TODO NOT-IN-ST: agot_commissioned_armor_recently [AGOT: You cannot commission another armor until [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_armor' ))]]
+ agot_commissioned_armor_recently:0 "You cannot commission another armor until [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_armor' ))]"
+### TODO NOT-IN-ST: disavow_incest_decision [AGOT: Disavow Incest]
+ disavow_incest_decision:0 "Disavow Incest"
+### TODO NOT-IN-ST: disavow_incest_decision_desc [AGOT: For centuries, the Targaryen bloodline has been kept pure through the practice of incest, with the Faith granting us a special exemption under the doctrine of exceptionalism. But now, the time has come to reconsider this tradition. Is it worth continuing to cling to the old ways, or shall we seek new alliances and broaden the horizons of our house?]
+ disavow_incest_decision_desc:0 "For centuries, the Targaryen bloodline has been kept pure through the practice of incest, with the Faith granting us a special exemption under the doctrine of exceptionalism. But now, the time has come to reconsider this tradition. Is it worth continuing to cling to the old ways, or shall we seek new alliances and broaden the horizons of our house?"
+### TODO NOT-IN-ST: disavow_incest_decision_tooltip [AGOT: Forbid the practice of sibling marriage amongst your house.]
+ disavow_incest_decision_tooltip:0 "Forbid the practice of sibling marriage amongst your house."
+### TODO NOT-IN-ST: disavow_incest_decision_confirm [AGOT: We will break with tradition]
+ disavow_incest_decision_confirm:0 "We will break with tradition"
+### TODO NOT-IN-ST: reinstate_incest_decision [AGOT: Reinstate Incest]
+ reinstate_incest_decision:0 "Reinstate Incest"
+### TODO NOT-IN-ST: reinstate_incest_decision_desc [AGOT: Our house once thrived on the purity of its bloodline, preserved through the practice of incest. Though we had moved beyond this tradition, the faith's doctrine of exceptionalism still holds, granting us the right to maintain this ancient custom. Should we embrace our legacy and restore the tradition that once defined us?]
+ reinstate_incest_decision_desc:0 "Our house once thrived on the purity of its bloodline, preserved through the practice of incest. Though we had moved beyond this tradition, the faith's doctrine of exceptionalism still holds, granting us the right to maintain this ancient custom. Should we embrace our legacy and restore the tradition that once defined us?"
+### TODO NOT-IN-ST: reinstate_incest_decision_tooltip [AGOT: Allow the practice of sibling marriage amongst your house.]
+ reinstate_incest_decision_tooltip:0 "Allow the practice of sibling marriage amongst your house."
+### TODO NOT-IN-ST: reinstate_incest_decision_confirm [AGOT: We will restore the old ways]
+ reinstate_incest_decision_confirm:0 "We will restore the old ways"
+### TODO NOT-IN-ST: agot_take_new_face_decision [AGOT: Take New Face]
+ agot_take_new_face_decision:0 "Take New Face"
+### TODO NOT-IN-ST: agot_take_new_face_decision_desc [AGOT: I will take on a new face in service of the Many-Faced God.]
+ agot_take_new_face_decision_desc:0 "I will take on a new face in service of the Many-Faced God."
+### TODO NOT-IN-ST: agot_take_new_face_decision_tooltip [AGOT: You will choose another face from a character of the same sex.]
+ agot_take_new_face_decision_tooltip:0 "You will choose another face from a character of the same sex."
+### TODO NOT-IN-ST: agot_take_new_face_decision_tt [AGOT: Taking a new face will replace your character's appearance and age, but you will retain your current character, lands, and titles.]
+ agot_take_new_face_decision_tt:0 "Taking a new face will replace your character's appearance and age, but you will retain your current character, lands, and titles."
+### TODO NOT-IN-ST: agot_take_new_face_multiple_player_warning_tt [AGOT: @warning_icon! This is a multiplayer session, transfer of player to the new character is not automatic.]
+ agot_take_new_face_multiple_player_warning_tt:0 "@warning_icon! This is a multiplayer session, transfer of player to the new character is not automatic."
+### TODO NOT-IN-ST: agot_take_new_face_decision_confirm [AGOT: Show me the Hall of Faces]
+ agot_take_new_face_decision_confirm:0 "Show me the Hall of Faces"
 ### TODO NOT-IN-ST: agot_has_taken_face_recently [AGOT: You have recently donned a new face]
  agot_has_taken_face_recently:0 "You have recently donned a new face"
+### TODO NOT-IN-ST: agot_faceless_new_adventure_decision [AGOT: Start a Fresh-Faced Adventure]
+ agot_faceless_new_adventure_decision:0 "Start a Fresh-Faced Adventure"
+### TODO NOT-IN-ST: agot_faceless_new_adventure_decision_desc [AGOT: I will abandon my old ways and all those I know, taking a new face, life, and purpose in service of the Many-Faced God.]
+ agot_faceless_new_adventure_decision_desc:0 "I will abandon my old ways and all those I know, taking a new face, life, and purpose in service of the Many-Faced God."
+### TODO NOT-IN-ST: agot_faceless_new_adventure_decision_tooltip [AGOT: You will abandon your current character to start a new adventure with a new face.]
+ agot_faceless_new_adventure_decision_tooltip:0 "You will abandon your current character to start a new adventure with a new face."
+### TODO NOT-IN-ST: agot_faceless_new_adventure_decision_tt [AGOT: Upon taking a new face:\n$EFFECT_LIST_BULLET$You will abandon your current character and switch to a new one. Only your [gold|E], non-court [artifacts|E], [traits|E], and [faith|E] will be kept. The rest is determined by the face you select.\n$EFFECT_LIST_BULLET$ You will begin playing as a landless character of a new house.]
+ agot_faceless_new_adventure_decision_tt:0 "Upon taking a new face:\n$EFFECT_LIST_BULLET$You will abandon your current character and switch to a new one. Only your [gold|E], non-court [artifacts|E], [traits|E], and [faith|E] will be kept. The rest is determined by the face you select.\n$EFFECT_LIST_BULLET$ You will begin playing as a landless character of a new house."
+### TODO NOT-IN-ST: agot_faceless_new_adventure_decision_confirm [AGOT: A new life awaits]
+ agot_faceless_new_adventure_decision_confirm:0 "A new life awaits"
+### TODO NOT-IN-ST: agot_visit_house_of_baw [AGOT: Visit the House of Black and White]
+ agot_visit_house_of_baw:0 "Visit the House of Black and White"
+### TODO NOT-IN-ST: agot_visit_house_of_baw_decision_effect [AGOT: @warning_icon! The Many-Faced God will take away your suffering. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )].]
+ agot_visit_house_of_baw_decision_effect:0 "@warning_icon! The Many-Faced God will take away your suffering. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]."
+### TODO NOT-IN-ST: agot_valar_morghulis [AGOT: Valar Morghulis]
+ agot_valar_morghulis:0 "Valar Morghulis"
+### TODO NOT-IN-ST: commit_suicide_decision_confirm_base [AGOT: My time has come]
+ commit_suicide_decision_confirm_base:0 "My time has come"

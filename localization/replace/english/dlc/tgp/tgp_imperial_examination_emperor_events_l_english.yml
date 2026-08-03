@@ -1,2 +1,68 @@
 ﻿l_english:
+ emperor_imperial_examination.100.t: "Hayranlık İçinde"
+### TODO AGOT-ONLY: emperor_imperial_examination.100.desc [AGOT: ]
+ emperor_imperial_examination.100.desc: ""Most august and sagely [ROOT.Char.GetTitleAsNameNoTooltip], it is the highest honor to stand in your presence." My [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetTitledFirstName], speaks in awe. "May this examination prove me your loyal servant."\n\n"May the might and splendor of [ROOT.Char.GetPrimaryTitle.GetNameNoTier], and the [ROOT.Char.Custom('GetDaughterSon')|U] of Heaven, endure ten thousand years!""
+ emperor_imperial_examination.100.a: "Sadakat, her şeyin üstünde bir erdemdir."
+ emperor_imperial_examination.100.b: "Övgü geçicidir, asıl olan eylemdir."
+ imperial_examination.advantage.other.tt: "Bir [exam_advantage|E] kazanılır"
+ imperial_examination.advantage.dynasty_legacy.tt: "[GetDynastyPerk( 'tgp_chinese_legacy_1' ).GetName] Hanedan Mirasını açtığınız için etkinliğe bir [exam_advantage|E] ile başlayacaksınız"
+ emperor_imperial_examination.200.t: "Seçkin Bir Güzellik"
+### TODO AGOT-ONLY: emperor_imperial_examination.200.desc [AGOT: ]
+ emperor_imperial_examination.200.desc: ""Your esteemed majesty," my [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetTitledFirstName], speaks reverently. "During my travels in [concubine_origin.GetNameNoTier] I met with a family of good standing, the [examination_character_1.GetHouse.GetName], and spoke with [examination_character_1.GetCulture.GetName] elders."\n\n"They petitioned me to select a [examination_character_1.GetLadyLord] to serve you in the inner palace — I chose [examination_character_1.GetFirstName], a [examination_character_1.GetWomanMan] of rare grace. We hope that [examination_character_1.GetSheHe] pleases you, oh [ROOT.Char.Custom('GetDaughterSon')|U] of Heaven.""
+ emperor_imperial_examination.200.a: "[examination_character_1.GetSheHe|U] hareme katılabilir."
+ emperor_imperial_examination.200.b: "Bana bunun yerine seyahatlerinden bahset."
+ emperor_imperial_examination.200.c: "Burası saray mı genelev mi?"
+ emperor_imperial_examination.300.t: "Aile Yadigârı"
+### TODO AGOT-ONLY: emperor_imperial_examination.300.desc [AGOT: ]
+ emperor_imperial_examination.300.desc: ""Great [ROOT.Char.GetTitleAsNameNoTooltip], your sagely grace is vast." My [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetTitledFirstName], prostrates [examination_character_2.GetHerselfHimself] before me. "I bring a humble offering, an artifact for display in the palace."\n\n"This [newly_created_artifact.GetName] is an heirloom of house [examination_character_2.GetHouse.GetName]. We ask for nothing more than for your sovereign majesty to recognize us as loyal servants.""
+ emperor_imperial_examination.300.a: "Layık bir armağan."
+ emperor_imperial_examination.300.b: "Kötü işçilik; atın gitsin."
+ emperor_imperial_examination.300.c: "[examination_character_2.GetHouse.GetNameNoTooltip] hanesi sınava odaklanmalı."
+ emperor_imperial_examination.400.t: "Vakanüvislerden Okumak"
+ emperor_imperial_examination.400.desc: "Sınav görevlileri ve saraya kabul edilecekler bir arada toplanmış, hararetle okuyup fısıldaşıyorlar; hepsi gergin, hepsi tetikte. Göklerin Oğlu olarak zamansız bir hikmet sunmam yerinde olur. İşaretimle oda hayranlık içinde sessizliğe bürünüyor.\n\nElimle raflardaki..."
+ emperor_imperial_examination.400.a: "...[ROOT.Char.Custom('GetRandomAnnalsPassage')] Yıllıklarını işaret ediyorum"
+ emperor_imperial_examination.400.b: "...[ROOT.Char.Custom('GetRandomPoetryPassage')] işaret ediyorum."
+ emperor_imperial_examination.400.c: "...[ROOT.Char.Custom('GetRandomRitesPassage')] işaret ediyorum."
  every_palace_entrant: "Her Saray Adayı"
+ custom_every_examiner: "Her Sınav Görevlisi"
+ emperor_imperial_examination.500.t: "[examination_character_2.GetFirstNameNoTooltip] ve Şiirleri"
+### TODO AGOT-ONLY: emperor_imperial_examination.500.desc [AGOT: ]
+ emperor_imperial_examination.500.desc: ""Heavenly majesty, I have written a poem in honor of your infinite grace." My [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetTitledFirstName], unfolds a book, and recites:\n\n#EMP "The [examination_character_2.Custom('GetAdventureNameBand')|l] of [examination_character_2.Custom('GeneratePoem_Title_Fragment_Season')], the [examination_character_2.Custom('GetAdventureNameBand')|l] of [examination_character_2.Custom('GetAdventureNameSuffix')|l] and [examination_character_2.Custom('GetAdventureNameSuffix')|l] — [examination_character_2.Custom('GetAdventureNamePrefixes')|l] in the [poetry_province.Custom('GetTerrainTypePlural')], the [examination_character_2.Custom('GetRandomSmallPreciousItem')] in their hands. From [poetry_county.GetNameNoTier], in [poetry_province.Custom('ProvinceCompliment')] [examination_character_2.Custom('GeneratePoem_Title_Fragment_Noun')|l], within the [examination_character_2.Custom('FormalComplimentAdjective')|l] [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."#!\n\n[examination_character_2.GetSheHe|U] waits eagerly for my verdict."
+ emperor_imperial_examination.500.a: "Dizeleriniz ölçülü ama manayla dolu."
+ emperor_imperial_examination.500.b: "Liyakatiniz gibi kelimeleriniz de yetersiz."
+ emperor_imperial_examination.600.t: "Neşeli Bir An"
+ emperor_imperial_examination.600.desc: "Kalabalığı denetlerken adaylardan biri, olan [examination_character_2.GetTitledFirstName], öyle şakaya dalıyor ki nereye gittiğini bile fark etmiyor. Geri geri yürürken bilmeden bana yaklaşıp ve şöyle diyor: "...ve işte [examination_character_2.Custom('GetAdventureNameBand')|l], [examination_character_2.Custom('GetAdventureNameSuffix')|l]'ı böyle kaybetti!"\n\nHafifçe öksürürüyorum.\n\nÖnündeki kalabalık susuyor. [examination_character_2.GetFirstNameNoTooltip] korkuyla donakalıyor."
+ emperor_imperial_examination.600.a: "Eğlenceliymiş."
+ emperor_imperial_examination.600.b: "Yeter, sınava odaklan."
+ emperor_imperial_examination.600.c: "Bu bir saygısızlık, derhâl defol."
+### TODO AGOT-CHANGED: emperor_imperial_examination.700.t [AGOT:  | TR: Gümüş Armağan]
+ emperor_imperial_examination.700.t: ""
+### TODO AGOT-ONLY: emperor_imperial_examination.700.desc [AGOT: ]
+ emperor_imperial_examination.700.desc: ""
+### TODO AGOT-CHANGED: emperor_imperial_examination.700.a [AGOT:  | TR: Cömertçe kabul ediyorum.]
+ emperor_imperial_examination.700.a: ""
+### TODO AGOT-CHANGED: emperor_imperial_examination.700.b [AGOT:  | TR: Bana [silver_county_top_liege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|l] hakkında anlat.]
+ emperor_imperial_examination.700.b: ""
+### TODO AGOT-CHANGED: emperor_imperial_examination.700.c [AGOT:  | TR: Aranızda paylaştırın, dersleriniz için kullanın.]
+ emperor_imperial_examination.700.c: ""
+### TODO AGOT-CHANGED: situation_type_silk_road_situation [AGOT:  | TR: İpek Yolu]
+ situation_type_silk_road_situation: ""
+### TODO AGOT-CHANGED: situation_type_silk_road_situation_desc [AGOT:  | TR: $game_concept_silk_road_situation_desc$]
+ situation_type_silk_road_situation_desc: ""
+ emperor_imperial_examination.800.t: "Haraç Hadımı"
+### TODO AGOT-ONLY: emperor_imperial_examination.800.desc [AGOT: ]
+ emperor_imperial_examination.800.desc: ""Magnanimous [ROOT.Char.GetTitleAsNameNoTooltip], your humble servant begs pardon for this interruption," says my [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetTitledFirstName], bowing low with a gongshou. "This is [examination_character_1.GetFirstName] — a most resourceful [GetTrait('eunuch_1').GetName( GetNullCharacter )], long loyal to house [examination_character_2.GetHouse.GetName]."\n\n"We offer his service to the palace, so that [ROOT.Char.GetPrimaryTitle.GetNameNoTier] may flourish under your grace.""
+ emperor_imperial_examination.800.a: "Ona bir görev buluruz."
+ emperor_imperial_examination.800.b: "Bir sınav görevlisi olabilir."
+ emperor_imperial_examination.800.c: "Hizmetkârını yanında tut."
+ becomes_imperial_examiner.tt: "Bir Sınav Görevlisi olur"
+ emperor_imperial_examination.900.t: "[examination_character_2.Custom('ComplimentAdjective')|U] Bir Hizmetkâr"
+### TODO AGOT-ONLY: emperor_imperial_examination.900.desc [AGOT: ]
+ emperor_imperial_examination.900.desc: ""Heavenly [ROOT.Char.GetTitleAsNameNoTooltip], we thank you for this feast," says my [ROOT.Char.Custom2('RelationToMeShort', examination_character_1)], [examination_character_1.GetTitledFirstName], bowing low with a servant at [examination_character_1.GetHerHis] side. "This is my [examination_character_1.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetFirstName] — bearer of a humble gift: [examination_character_1.Custom('GetExpensiveDrink')] from my home, [origin_county.GetNameNoTier]."\n\n"But more than drink, I offer [examination_character_2.GetHerHis] service. [examination_character_2.GetHerHis|U] knowledge of [examination_character_2.Custom('highest_skill_noun')] will serve the palace.""
+ emperor_imperial_examination.900.a: "Becerileri memnuniyetle karşılayacağız."
+ emperor_imperial_examination.900.b: "O sana daha iyi hizmet eder."
+ emperor_imperial_examination.1000.t: "Yabancı Yetenek"
+### TODO AGOT-ONLY: emperor_imperial_examination.1000.desc [AGOT: ]
+ emperor_imperial_examination.1000.desc: ""Sagely [ROOT.Char.GetTitleAsNameNoTooltip], I come before you with humble appreciation," says the palace entrant, [examination_character_2.GetTitledFirstName], speaking flawless [chinese.GetLanguage.GetName]. "Though I am [examination_character_2.GetCulture.GetName] by birth and tounge, I have come this far by your grace — and I wish for nothing more than to serve [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."\n\n"So I learned the language of the heavens — [chinese.GetLanguage.GetName] — as a mark of [examination_character_2.GetCulture.GetName] humility.""
+ emperor_imperial_examination.1000.a: "Çabaların takdir edilecek."
+ emperor_imperial_examination.1000.b: "[examination_character_2.GetCulture.GetNameNoTooltip] taklidi burada yersiz."

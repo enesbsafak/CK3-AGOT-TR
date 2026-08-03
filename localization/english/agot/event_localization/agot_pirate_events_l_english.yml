@@ -1,3 +1,221 @@
 ﻿l_english:
+### TODO NOT-IN-ST: agot_pirate_events.0003.t [AGOT: Port Customs]
+ agot_pirate_events.0003.t:0 "Port Customs"
+### TODO NOT-IN-ST: agot_pirate_events.0003.desc [AGOT: I've arrived at the pirate haven of [port_name.GetName].\n\nAs I step onto the docks, I am told I must pay a one-time docking fee of #P [SCOPE.GetValue('port_docking_fee')|0]#! @gold_icon!, and a yearly fee currently listed as #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!.\n\nYearly fees may change suddenly based on the whims of a port's owner and are calculated according to the size of my ship.\n\nI am warned that failing to pay the yearly fee could result in #N imprisonment!#!]
+ agot_pirate_events.0003.desc:0 "I've arrived at the pirate haven of [port_name.GetName].\n\nAs I step onto the docks, I am told I must pay a one-time docking fee of #P [SCOPE.GetValue('port_docking_fee')|0]#! @gold_icon!, and a yearly fee currently listed as #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!.\n\nYearly fees may change suddenly based on the whims of a port's owner and are calculated according to the size of my ship.\n\nI am warned that failing to pay the yearly fee could result in #N imprisonment!#!"
+### TODO NOT-IN-ST: agot_pirate_events.0003.a [AGOT: Understood.]
+ agot_pirate_events.0003.a:0 "Understood."
+### TODO NOT-IN-ST: agot_pirate_events.0004.t [AGOT: Port Customs]
+ agot_pirate_events.0004.t:0 "Port Customs"
+### TODO NOT-IN-ST: agot_pirate_events.0004.desc [AGOT: It's time to pay the yearly port fees. I must pay #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to [port_holder.GetName].]
+ agot_pirate_events.0004.desc:0 "It's time to pay the yearly port fees. I must pay #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to [port_holder.GetName]."
+### TODO NOT-IN-ST: agot_pirate_events.0004.a [AGOT: I will pay.]
+ agot_pirate_events.0004.a:0 "I will pay."
+### TODO NOT-IN-ST: agot_pirate_events.0004.b [AGOT: I refuse to pay.]
+ agot_pirate_events.0004.b:0 "I refuse to pay."
+### TODO NOT-IN-ST: agot_pirate_events.0004.c [AGOT: Perhaps I can use my leverage to avoid this payment...]
+ agot_pirate_events.0004.c:0 "Perhaps I can use my leverage to avoid this payment..."
+### TODO NOT-IN-ST: agot_pirate_events.0004.c_tt [AGOT: Using your [strong_hook|E] on [port_holder.GetShortUIName] will allow you to avoid this year's required payment.]
+ agot_pirate_events.0004.c_tt:0 "Using your [strong_hook|E] on [port_holder.GetShortUIName] will allow you to avoid this year's required payment."
+### TODO NOT-IN-ST: agot_pirate_events.0100.t [AGOT: Becoming a Pirate]
+ agot_pirate_events.0100.t:0 "Becoming a Pirate"
+### TODO NOT-IN-ST: agot_pirate_events.0100.desc [AGOT: I have abandoned my life as an adventurer and embraced piracy.]
+ agot_pirate_events.0100.desc:0 "I have abandoned my life as an adventurer and embraced piracy."
+### TODO NOT-IN-ST: agot_pirate_events.0100.a [AGOT: The life of a corsair suits me.]
+ agot_pirate_events.0100.a:0 "The life of a corsair suits me."
+### TODO NOT-IN-ST: agot_pirate_events.0101.t [AGOT: To the Seas]
+ agot_pirate_events.0101.t:0 "To the Seas"
+### TODO NOT-IN-ST: agot_pirate_events.0101.desc [AGOT: I have renounced my titles and lands to live as a landless captain, bound only to the sea and my ship.]
+ agot_pirate_events.0101.desc:0 "I have renounced my titles and lands to live as a landless captain, bound only to the sea and my ship."
+### TODO NOT-IN-ST: agot_pirate_events.0101.a [AGOT: The life of a corsair is mine!]
+ agot_pirate_events.0101.a:0 "The life of a corsair is mine!"
+### TODO NOT-IN-ST: agot_pirate_auto_join_port_war_interface_toast_title [AGOT: Defensive War Joined]
+ agot_pirate_auto_join_port_war_interface_toast_title:0 "Defensive War Joined"
+### TODO NOT-IN-ST: agot_pirate_auto_join_port_war_interface_toast [AGOT: You have automatically joined the war over your port location.]
+ agot_pirate_auto_join_port_war_interface_toast:0 "You have automatically joined the war over your port location."
+### TODO NOT-IN-ST: agot_pirate_events.0200.t [AGOT: Expulsion]
+ agot_pirate_events.0200.t:0 "Expulsion"
+### TODO NOT-IN-ST: agot_pirate_events.0200.desc [AGOT: [actor.GetName], the ruler of [port_name.GetName], has issued an edict demanding that I leave port immediately, or face imprisonment!]
+ agot_pirate_events.0200.desc:0 "[actor.GetName], the ruler of [port_name.GetName], has issued an edict demanding that I leave port immediately, or face imprisonment!"
+### TODO NOT-IN-ST: agot_pirate_events.0200.a [AGOT: I will sail to [new_destination.GetName] then.]
+ agot_pirate_events.0200.a:0 "I will sail to [new_destination.GetName] then."
+### TODO NOT-IN-ST: agot_pirate_events.0200.b [AGOT: Let [actor.GetHerHim] try to arrest me!]
+ agot_pirate_events.0200.b:0 "Let [actor.GetHerHim] try to arrest me!"
+### TODO NOT-IN-ST: agot_pirate_events.0200.c [AGOT: My options are limited; perhaps it is time to retire from piracy.]
+ agot_pirate_events.0200.c:0 "My options are limited; perhaps it is time to retire from piracy."
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_moved_title [AGOT: Pirate Departed]
+ agot_pirate_events.0200.msg_pirate_moved_title:0 "Pirate Departed"
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_moved_desc [AGOT: [recipient.GetName] has complied with your demand to leave [port_name.GetNameNoTooltip]!]
+ agot_pirate_events.0200.msg_pirate_moved_desc:0 "[recipient.GetName] has complied with your demand to leave [port_name.GetNameNoTooltip]!"
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_squatting_title [AGOT: Pirate Refuses to Leave]
+ agot_pirate_events.0200.msg_pirate_squatting_title:0 "Pirate Refuses to Leave"
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_squatting_desc [AGOT: [recipient.GetName] has refused to leave [port_name.GetNameNoTooltip]! You may attempt to seize their domicile through a [character_interaction|e].]
+ agot_pirate_events.0200.msg_pirate_squatting_desc:0 "[recipient.GetName] has refused to leave [port_name.GetNameNoTooltip]! You may attempt to seize their domicile through a [character_interaction|e]."
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_renouncd_piracy_title [AGOT: Pirate No More]
+ agot_pirate_events.0200.msg_pirate_renouncd_piracy_title:0 "Pirate No More"
+### TODO NOT-IN-ST: agot_pirate_events.0200.msg_pirate_renouncd_piracy_desc [AGOT: [recipient.GetName] has renounced piracy following your efforts to expel them from [port_name.GetNameNoTooltip]! They are now an [adventurer|e].]
+ agot_pirate_events.0200.msg_pirate_renouncd_piracy_desc:0 "[recipient.GetName] has renounced piracy following your efforts to expel them from [port_name.GetNameNoTooltip]! They are now an [adventurer|e]."
+### TODO NOT-IN-ST: agot_pirate_events.0300.t [AGOT: Port Fees Refused]
+ agot_pirate_events.0300.t:0 "Port Fees Refused"
+### TODO NOT-IN-ST: agot_pirate_events.0300.desc [AGOT: [pirate.GetName], a pirate docked at one of my ports, has refused to pay the yearly fee of #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to me.]
+ agot_pirate_events.0300.desc:0 "[pirate.GetName], a pirate docked at one of my ports, has refused to pay the yearly fee of #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to me."
+### TODO NOT-IN-ST: agot_pirate_events.0300.a [AGOT: I will look the other way, for now.]
+ agot_pirate_events.0300.a:0 "I will look the other way, for now."
+### TODO NOT-IN-ST: agot_pirate_events.0300.b [AGOT: Seize their ship and imprison [pirate.GetHerHim].]
+ agot_pirate_events.0300.b:0 "Seize their ship and imprison [pirate.GetHerHim]."
+### TODO NOT-IN-ST: agot_pirate_events.9000.t [AGOT: A New Captain Rises]
+ agot_pirate_events.9000.t:0 "A New Captain Rises"
+### TODO NOT-IN-ST: agot_pirate_events.9000.desc [AGOT: Captain [dying_pirate_predecessor.GetName] has died! I have been given command of the #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTier]#! and now rule as their captain.]
+ agot_pirate_events.9000.desc:0 "Captain [dying_pirate_predecessor.GetName] has died! I have been given command of the #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTier]#! and now rule as their captain."
+### TODO NOT-IN-ST: agot_pirate_events.9000.desc_maa_reset [AGOT: \n\nThough my captaincy was quickly recognized across the #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]#!, large swathes of battle-hardened men-at-arms who once served [dying_pirate_predecessor.GetNameNoTooltip] have departed, seeking new challenges elsewhere.\n\nAll hope is not lost, however, as the news of my predecessor's death has begun to attract new swords eager to pledge themselves to me.]
+ agot_pirate_events.9000.desc_maa_reset:0 "\n\nThough my captaincy was quickly recognized across the #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]#!, large swathes of battle-hardened men-at-arms who once served [dying_pirate_predecessor.GetNameNoTooltip] have departed, seeking new challenges elsewhere.\n\nAll hope is not lost, however, as the news of my predecessor's death has begun to attract new swords eager to pledge themselves to me."
+### TODO NOT-IN-ST: agot_pirate_events.9000.a [AGOT: My journey begins.]
+ agot_pirate_events.9000.a:0 "My journey begins."
+### TODO NOT-IN-ST: agot_pirate_ship_succession_gui_tt [AGOT: @title_succession! [agot_landless_pirate_domiciles|E] will be inherited by your [player_heir|E], [pirate_ship_designated_heir|E], your [primary_heir|E], or an eligible [courtier|E].]
+ agot_pirate_ship_succession_gui_tt:0 "@title_succession! [agot_landless_pirate_domiciles|E] will be inherited by your [player_heir|E], [pirate_ship_designated_heir|E], your [primary_heir|E], or an eligible [courtier|E]."
+### TODO NOT-IN-ST: you_are_an_landless_pirate_tt [AGOT: You are a [GetGovernment('pirate_government').GetNameWithIcon]]
+ you_are_an_landless_pirate_tt:0 "You are a [GetGovernment('pirate_government').GetNameWithIcon]"
+### TODO NOT-IN-ST: agot_pirate_succession_invalid [AGOT: @warning_icon! Your primary heir already has a pirate ship.]
+ agot_pirate_succession_invalid:0 "@warning_icon! Your primary heir already has a pirate ship."
+### TODO NOT-IN-ST: agot_pirate_tax_results.t [AGOT: Pirate Port Fees: Paid]
+ agot_pirate_tax_results.t:0 "Pirate Port Fees: Paid"
+### TODO NOT-IN-ST: agot_pirate_tax_results.desc [AGOT: [pirate.GetShortUIName] has paid the required port fees:]
+ agot_pirate_tax_results.desc:0 "[pirate.GetShortUIName] has paid the required port fees:"
+### TODO NOT-IN-ST: agot_pirate_tax_results.desc_used_hook_to_skip_taxes [AGOT: [pirate.GetShortUIName] has used their strong hook on you to #X avoid paying this year's port fee#!.]
+ agot_pirate_tax_results.desc_used_hook_to_skip_taxes:0 "[pirate.GetShortUIName] has used their strong hook on you to #X avoid paying this year's port fee#!."
+### TODO NOT-IN-ST: agot_pirate_domicile_arrived_in_port.t [AGOT: Pirate Port Arrival]
+ agot_pirate_domicile_arrived_in_port.t:0 "Pirate Port Arrival"
+### TODO NOT-IN-ST: agot_pirate_domicile_arrived_in_port.desc [AGOT: [pirate.GetShortUIName] has arrived at [port_name.GetName].]
+ agot_pirate_domicile_arrived_in_port.desc:0 "[pirate.GetShortUIName] has arrived at [port_name.GetName]."
+### TODO NOT-IN-ST: agot_pirate_domicile_departed_port.t [AGOT: Pirate Port Departure]
+ agot_pirate_domicile_departed_port.t:0 "Pirate Port Departure"
+### TODO NOT-IN-ST: agot_pirate_domicile_departed_port.desc [AGOT: [departing_pirate_ship_holder.GetShortUIName] has departed from [departing_pirate_ship_location.GetName].]
+ agot_pirate_domicile_departed_port.desc:0 "[departing_pirate_ship_holder.GetShortUIName] has departed from [departing_pirate_ship_location.GetName]."
+### TODO NOT-IN-ST: agot_pirate_loot_collect [AGOT: Raid Loot Collected]
+ agot_pirate_loot_collect:0 "Raid Loot Collected"
+### TODO NOT-IN-ST: agot_pirate_loot_collect_tt [AGOT: [THIS.Var('raid_loot').GetValue|0] @gold_icon! added to Army Loot.]
+ agot_pirate_loot_collect_tt:0 "[THIS.Var('raid_loot').GetValue|0] @gold_icon! added to Army Loot."
+### TODO NOT-IN-ST: agot_pirate_port_rate_changed.t [AGOT: Port Rate Changed]
+ agot_pirate_port_rate_changed.t:0 "Port Rate Changed"
+### TODO NOT-IN-ST: agot_pirate_port_rate_changed.desc_01 [AGOT: Port rate has changed to [GetLaw('pirate_tax_rate_01').GetName].]
+ agot_pirate_port_rate_changed.desc_01:0 "Port rate has changed to [GetLaw('pirate_tax_rate_01').GetName]."
+### TODO NOT-IN-ST: agot_pirate_port_rate_changed.desc_02 [AGOT: Port rate has changed to [GetLaw('pirate_tax_rate_02').GetName].]
+ agot_pirate_port_rate_changed.desc_02:0 "Port rate has changed to [GetLaw('pirate_tax_rate_02').GetName]."
+### TODO NOT-IN-ST: agot_pirate_port_rate_changed.desc_03 [AGOT: Port rate has changed to [GetLaw('pirate_tax_rate_03').GetName].]
+ agot_pirate_port_rate_changed.desc_03:0 "Port rate has changed to [GetLaw('pirate_tax_rate_03').GetName]."
+### TODO NOT-IN-ST: agot_pirate_port_rate_changed.desc_04 [AGOT: Port rate has changed to [GetLaw('pirate_tax_rate_04').GetName].]
+ agot_pirate_port_rate_changed.desc_04:0 "Port rate has changed to [GetLaw('pirate_tax_rate_04').GetName]."
+### TODO NOT-IN-ST: agot_pirate_events.9201.t [AGOT: A Bleak Venture]
+ agot_pirate_events.9201.t:0 "A Bleak Venture"
+### TODO NOT-IN-ST: agot_pirate_events.9201.desc [AGOT: ]
+ agot_pirate_events.9201.desc:0 ""My liege," [colonist.GetName] says with a weary sigh, "This land was made for pirates and reavers, not farmers and merchants. The soil is thin, the coast is dangerous, and pirates still haunt the waters and hills. I cannot make it prosper without your aid — and even then, I fear it may never be worth the cost."\n\nIf I give aid, I can keep these lands under my rule, but will the cost ever pay off if it is as barren as [colonist.GetFirstNameNoTooltip] claims? Still, it is my duty as liege to support my vassals in their need, and if I fail in that duty, there is no telling how long they will remain loyal, or even remain vassals at all."
+### TODO NOT-IN-ST: agot_pirate_events.9201.a [AGOT: You will have the coin you need.]
+ agot_pirate_events.9201.a:0 "You will have the coin you need."
+### TODO NOT-IN-ST: agot_pirate_events.9201.b [AGOT: This is your responsibility; you will have nothing from me.]
+ agot_pirate_events.9201.b:0 "This is your responsibility; you will have nothing from me."
+### TODO NOT-IN-ST: agot_pirate_events.9201.b.tt [AGOT: [colonist.GetTitledFirstNameNoTooltip] may react poorly to this decision.]
+ agot_pirate_events.9201.b.tt:0 "[colonist.GetTitledFirstNameNoTooltip] may react poorly to this decision."
+### TODO NOT-IN-ST: agot_pirate_events.9300.t [AGOT: Existential Threat]
+ agot_pirate_events.9300.t:0 "Existential Threat"
+### TODO NOT-IN-ST: agot_pirate_events.9300.desc [AGOT: [attacker.GetName] has launched an invasion to disrupt piracy in the region. Given the severity of their threat, we have automatically joined forces with our suzerain, [defender.GetName]!\n\nShould we lose, our territory will be reduced to wilderness and our pirate ships scattered.]
+ agot_pirate_events.9300.desc:0 "[attacker.GetName] has launched an invasion to disrupt piracy in the region. Given the severity of their threat, we have automatically joined forces with our suzerain, [defender.GetName]!\n\nShould we lose, our territory will be reduced to wilderness and our pirate ships scattered."
+### TODO NOT-IN-ST: agot_pirate_events.9300.a [AGOT: We must prevail.]
+ agot_pirate_events.9300.a:0 "We must prevail."
+### TODO NOT-IN-ST: forced_vassalage_perk_landless_pirate_name [AGOT: Charismatic Captain]
+ forced_vassalage_perk_landless_pirate_name:0 "Charismatic Captain"
+### TODO NOT-IN-ST: forced_vassalage_perk_landless_pirate_desc [AGOT: [GetPerk('forced_vassalage_perk').GetName(GetPlayer)]: $VALUE|+0=$]
+ forced_vassalage_perk_landless_pirate_desc:0 "[GetPerk('forced_vassalage_perk').GetName(GetPlayer)]: $VALUE|+0=$"
+### TODO NOT-IN-ST: forced_vassalage_perk_landless_pirate_effect_desc [AGOT: [pirate_govt_i] [personal_scheme|E] [success_chance|E]: #P +20%#!]
+ forced_vassalage_perk_landless_pirate_effect_desc:0 "[pirate_govt_i] [personal_scheme|E] [success_chance|E]: #P +20%#!"
+### TODO NOT-IN-ST: landless_pirate_strict_organization_perk_effect [AGOT: [pirate_govt_i] Completing a [siege|E] grants #V x20#! the Holding's [loot|E] value as [provisions_i][provisions|E].]
+ landless_pirate_strict_organization_perk_effect:0 "[pirate_govt_i] Completing a [siege|E] grants #V x20#! the Holding's [loot|E] value as [provisions_i][provisions|E]."
+### TODO NOT-IN-ST: landless_pirate_hard_rule_perk_effect [AGOT: [pirate_govt_i] [raid|E] speed is increased by #P 15%#! when the [GetPlayer.GetCouncillorPosition('councillor_admiral').GetPositionName] Councillor uses the [GetCouncilTaskType('task_admiral_raid').GetName|V] task.]
+ landless_pirate_hard_rule_perk_effect:0 "[pirate_govt_i] [raid|E] speed is increased by #P 15%#! when the [GetPlayer.GetCouncillorPosition('councillor_admiral').GetPositionName] Councillor uses the [GetCouncilTaskType('task_admiral_raid').GetName|V] task."
+### TODO NOT-IN-ST: serve_the_crown_perk_pirate_name [AGOT: Serve the Captain]
+ serve_the_crown_perk_pirate_name:0 "Serve the Captain"
+### TODO NOT-IN-ST: landless_pirate_enduring_hardships_perk_effect [AGOT: [pirate_govt_i] Increases protection against [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E].]
+ landless_pirate_enduring_hardships_perk_effect:0 "[pirate_govt_i] Increases protection against [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]."
+### TODO NOT-IN-ST: prepared_conscription_perk_pirate_name [AGOT: Call to Piracy]
+ prepared_conscription_perk_pirate_name:0 "Call to Piracy"
+### TODO NOT-IN-ST: absolute_controlperk_landless_pirate_name [AGOT: Captain in Command]
+ absolute_controlperk_landless_pirate_name:0 "Captain in Command"
+### TODO NOT-IN-ST: absolute_control_perk_landless_pirate_effect_1_modifier_desc [AGOT: [GetPerk('absolute_control_perk').GetName(GetPlayer)]: $VALUE|+0=$]
+ absolute_control_perk_landless_pirate_effect_1_modifier_desc:0 "[GetPerk('absolute_control_perk').GetName(GetPlayer)]: $VALUE|+0=$"
+### TODO NOT-IN-ST: absolute_control_perk_landless_pirate_effect_1 [AGOT: [pirate_govt_i] [courtiers|E] are less likely to become [agents|E] in [hostile_schemes|E] against you.]
+ absolute_control_perk_landless_pirate_effect_1:0 "[pirate_govt_i] [courtiers|E] are less likely to become [agents|E] in [hostile_schemes|E] against you."
+### TODO NOT-IN-ST: martial_authority_landless_pirate_focus_desc [AGOT: To command a ship is to bend both crew and sea under one [GetPlayer.GetWomanMan]'s control.]
+ martial_authority_landless_pirate_focus_desc:0 "To command a ship is to bend both crew and sea under one [GetPlayer.GetWomanMan]'s control."
+### TODO NOT-IN-ST: martial_authority_landless_pirate_focus [AGOT: $martial_authority_focus_short$ Focus]
+ martial_authority_landless_pirate_focus:0 "$martial_authority_focus_short$ Focus"
+### TODO NOT-IN-ST: martial_authority_landless_pirate_focus_modifier [AGOT: [GetFocus('martial_authority_landless_pirate_focus').GetName]]
+ martial_authority_landless_pirate_focus_modifier:0 "[GetFocus('martial_authority_landless_pirate_focus').GetName]"
+### TODO NOT-IN-ST: martial_authority_landless_pirate_focus_effect_desc [AGOT: Focusing on Authority grants:]
+ martial_authority_landless_pirate_focus_effect_desc:0 "Focusing on Authority grants:"
+### TODO NOT-IN-ST: stewardship_duty_landless_pirate_focus [AGOT: $stewardship_duty_focus$]
+ stewardship_duty_landless_pirate_focus:0 "$stewardship_duty_focus$"
+### TODO NOT-IN-ST: stewardship_duty_landless_pirate_focus_modifier [AGOT: [GetFocus('stewardship_duty_landless_pirate_focus').GetName]]
+ stewardship_duty_landless_pirate_focus_modifier:0 "[GetFocus('stewardship_duty_landless_pirate_focus').GetName]"
+### TODO NOT-IN-ST: stewardship_duty_landless_pirate_focus_effect_desc [AGOT: Focusing on Duty grants:]
+ stewardship_duty_landless_pirate_focus_effect_desc:0 "Focusing on Duty grants:"
+### TODO NOT-IN-ST: learning_scholarship_landless_pirate_focus [AGOT: $learning_scholarship_focus$]
+ learning_scholarship_landless_pirate_focus:0 "$learning_scholarship_focus$"
+### TODO NOT-IN-ST: learning_scholarship_landless_pirate_focus_modifier [AGOT: [GetFocus('learning_scholarship_landless_pirate_focus').GetName]]
+ learning_scholarship_landless_pirate_focus_modifier:0 "[GetFocus('learning_scholarship_landless_pirate_focus').GetName]"
+### TODO NOT-IN-ST: learning_scholarship_landless_pirate_focus_effect_desc [AGOT: Focusing on Scholarship grants:]
+ learning_scholarship_landless_pirate_focus_effect_desc:0 "Focusing on Scholarship grants:"
+### TODO NOT-IN-ST: detailed_ledgers_landless_pirate_effect [AGOT: [pirate_govt_i] The #V $experienced_captains_option$#! travel option is free of cost.]
+ detailed_ledgers_landless_pirate_effect:0 "[pirate_govt_i] The #V $experienced_captains_option$#! travel option is free of cost."
+### TODO NOT-IN-ST: detailed_ledgers_perk_landless_pirate_name [AGOT: Local Connections]
+ detailed_ledgers_perk_landless_pirate_name:0 "Local Connections"
+### TODO NOT-IN-ST: professional_workforce_perk_pirate_name [AGOT: Hardy Workers]
+ professional_workforce_perk_pirate_name:0 "Hardy Workers"
+### TODO NOT-IN-ST: tax_man_perk_pirate_name [AGOT: An Eye for Gold]
+ tax_man_perk_pirate_name:0 "An Eye for Gold"
+### TODO NOT-IN-ST: scientific_perk_landless_pirate_name [AGOT: Warrior-Scholars]
+ scientific_perk_landless_pirate_name:0 "Warrior-Scholars"
+### TODO NOT-IN-ST: tax_man_perk_landless_pirate_effect [AGOT: [pirate_govt_i] The [GetCourtPositionType('travel_leader_court_position').GetName()] [court_position|e] may be employed at no cost.]
+ tax_man_perk_landless_pirate_effect:0 "[pirate_govt_i] The [GetCourtPositionType('travel_leader_court_position').GetName()] [court_position|e] may be employed at no cost."
+### TODO NOT-IN-ST: travel_leader_pirate [AGOT: Victualler]
+ travel_leader_pirate:0 "Victualler"
+### TODO NOT-IN-ST: travel_leader_pirate_desc [AGOT: The $travel_leader_pirate$ assists you while traveling, ensuring provisions are tended to and the journey proceeds safely and on schedule.]
+ travel_leader_pirate_desc:0 "The $travel_leader_pirate$ assists you while traveling, ensuring provisions are tended to and the journey proceeds safely and on schedule."
+### TODO NOT-IN-ST: organized_muster_rolls_perk_name_landless_pirate_name [AGOT: Seabound Novices]
+ organized_muster_rolls_perk_name_landless_pirate_name:0 "Seabound Novices"
+### TODO NOT-IN-ST: centralization_landless_pirate_perk_effect [AGOT: [pirate_govt_i] Visiting a [capital|E] [point_of_interest|E] improves all [courtiers|E] by #V 1#! [skill|E] point.]
+ centralization_landless_pirate_perk_effect:0 "[pirate_govt_i] Visiting a [capital|E] [point_of_interest|E] improves all [courtiers|E] by #V 1#! [skill|E] point."
+### TODO NOT-IN-ST: popular_figurehead_landless_pirate_perk_effect [AGOT: [pirate_govt_i] Gain #V 10-15#! @dread_icon! [dread|E] when a [domicile|e] [building|e] is constructed #weak (up to once per year)#!]
+ popular_figurehead_landless_pirate_perk_effect:0 "[pirate_govt_i] Gain #V 10-15#! @dread_icon! [dread|E] when a [domicile|e] [building|e] is constructed #weak (up to once per year)#!"
+### TODO NOT-IN-ST: popular_figurehead_landless_pirate_perk_name [AGOT: Port Popularity]
+ popular_figurehead_landless_pirate_perk_name:0 "Port Popularity"
+### TODO NOT-IN-ST: court_position_positions_of_landless_pirate_toe_the_line_perk_bonus [AGOT: Employer has [GetPerk('toe_the_line_perk').GetName(GetPlayer)]]
+ court_position_positions_of_landless_pirate_toe_the_line_perk_bonus:0 "Employer has [GetPerk('toe_the_line_perk').GetName(GetPlayer)]"
+### TODO NOT-IN-ST: toe_the_line_perk_landless_pirate_name [AGOT: A Loyal Crew]
+ toe_the_line_perk_landless_pirate_name:0 "A Loyal Crew"
+### TODO NOT-IN-ST: toe_the_line_landless_pirate_perk_effect_1 [AGOT: [pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('travel_leader_court_position').GetName()] [court_position|e]: #P +10#!]
+ toe_the_line_landless_pirate_perk_effect_1:0 "[pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('travel_leader_court_position').GetName()] [court_position|e]: #P +10#!"
+### TODO NOT-IN-ST: toe_the_line_landless_pirate_perk_effect_2 [AGOT: [pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('bodyguard_court_position').GetName()] [court_position|e]: #P +10#!]
+ toe_the_line_landless_pirate_perk_effect_2:0 "[pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('bodyguard_court_position').GetName()] [court_position|e]: #P +10#!"
+### TODO NOT-IN-ST: toe_the_line_landless_pirate_perk_effect_3 [AGOT: [pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('household_guard_court_position').GetName()] [court_position|e]: #P +10#!]
+ toe_the_line_landless_pirate_perk_effect_3:0 "[pirate_govt_i] [aptitude|E] of the [GetCourtPositionType('household_guard_court_position').GetName()] [court_position|e]: #P +10#!"
+### TODO NOT-IN-ST: planned_cultivation_perk_landless_pirate_name [AGOT: Education of the Corsairs]
+ planned_cultivation_perk_landless_pirate_name:0 "Education of the Corsairs"
+### TODO NOT-IN-ST: planned_cultivation_perk_landless_pirate_effect [AGOT: The #V $physician_guard_family$#! [court_position|E] task costs #P 50%#! less.]
+ planned_cultivation_perk_landless_pirate_effect:0 "The #V $physician_guard_family$#! [court_position|E] task costs #P 50%#! less."
+### TODO NOT-IN-ST: zealous_proselytizer_perk_landless_pirate_name [AGOT: Patronage Above All]
+ zealous_proselytizer_perk_landless_pirate_name:0 "Patronage Above All"
+### TODO NOT-IN-ST: zealous_proselytizer_perk_pirate_effect [AGOT: Selecting a patron deity costs #P 50%#! less.]
+ zealous_proselytizer_perk_pirate_effect:0 "Selecting a patron deity costs #P 50%#! less."
+### TODO NOT-IN-ST: zealous_proselytizer_perk_pirate_effect_2 [AGOT: The $councillor_court_chaplain$ Councillor [GetCouncilTaskType('task_religious_relations').GetName|V] task yields increased @piety_icon! [piety|E].]
+ zealous_proselytizer_perk_pirate_effect_2:0 "The $councillor_court_chaplain$ Councillor [GetCouncilTaskType('task_religious_relations').GetName|V] task yields increased @piety_icon! [piety|E]."
+### TODO NOT-IN-ST: religious_icon_perk_landless_pirate_name [AGOT: Blessed Voyagers]
+ religious_icon_perk_landless_pirate_name:0 "Blessed Voyagers"
+### TODO NOT-IN-ST: religious_icon_perk_landless_pirate_effect [AGOT: [pirate_govt_i] Gain #V 25-50#! @piety_icon! [piety|E] when a [domicile|e] [building|e] is constructed #weak (up to once per year)#!]
+ religious_icon_perk_landless_pirate_effect:0 "[pirate_govt_i] Gain #V 25-50#! @piety_icon! [piety|E] when a [domicile|e] [building|e] is constructed #weak (up to once per year)#!"
+### TODO NOT-IN-ST: court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_landless_pirate_desc [AGOT: \n$TAB$[GetPerk('zealous_proselytizer_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_modifier')]#!]
+ court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_landless_pirate_desc:1 "\n$TAB$[GetPerk('zealous_proselytizer_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_modifier')]#!"
+### TODO NOT-IN-ST: my_realm_window_designated_pirate_ship_heir_display [AGOT: [MyRealmWindow.GetCharacter.MakeScope.Var('appointed_pirate_jank_heir').Char.GetUINameNoTooltip]]
+ my_realm_window_designated_pirate_ship_heir_display:0 "[MyRealmWindow.GetCharacter.MakeScope.Var('appointed_pirate_jank_heir').Char.GetUINameNoTooltip]"
 ### TODO NOT-IN-ST: MY_REALM_WINDOW_NO_LANDLESS_PIRATESHIP_HEIR_FLAVOR [AGOT: @warning_icon! #X You have no [pirate_ship_designated_heir|E]. The game will end upon your death#!]
  MY_REALM_WINDOW_NO_LANDLESS_PIRATESHIP_HEIR_FLAVOR:0 "@warning_icon! #X You have no [pirate_ship_designated_heir|E]. The game will end upon your death#!"
+### TODO NOT-IN-ST: liege_cannot_be_a_landless_pirate [AGOT: #X You cannot be a landless pirate!#!]
+ liege_cannot_be_a_landless_pirate:0 "#X You cannot be a landless pirate!#!"

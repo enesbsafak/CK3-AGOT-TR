@@ -33,16 +33,68 @@
  dragon_owner_unlanded:0 "[ROOT.Char.GetFullNamePossessive]"
 ### TODO NOT-IN-ST: dragon_owner_landed [AGOT: [ROOT.Char.GetTitledFirstNamePossessive]]
  dragon_owner_landed:0 "[ROOT.Char.GetTitledFirstNamePossessive]"
+### TODO NOT-IN-ST: agot_dragon_healed.t [AGOT: [dragon.GetName] Recovered]
+ agot_dragon_healed.t:0 "[dragon.GetName] Recovered"
+### TODO NOT-IN-ST: agot_dragon_healed.tt [AGOT: [dragon.GetName] has recovered from [dragon.Custom('GetDragonHerHis')] wound.]
+ agot_dragon_healed.tt:0 "[dragon.GetName] has recovered from [dragon.Custom('GetDragonHerHis')] wound."
+### TODO NOT-IN-ST: agot_dragon_same_location.t [AGOT: Returned To Dragon]
+ agot_dragon_same_location.t:0 "Returned To Dragon"
+### TODO NOT-IN-ST: agot_dragon_same_location.tt [AGOT: You have left the army in [current_location.GetName] and returned to your dragon in [dragon_location.GetName].]
+ agot_dragon_same_location.tt:0 "You have left the army in [current_location.GetName] and returned to your dragon in [dragon_location.GetName]."
+### TODO NOT-IN-ST: wild_dragon_returned_home.t [AGOT: [dragon.GetName] Returned]
+ wild_dragon_returned_home.t:0 "[dragon.GetName] Returned"
+### TODO NOT-IN-ST: wild_dragon_returned_home.desc [AGOT: [dragon.GetName] has been sighted returning to [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]]
+ wild_dragon_returned_home.desc:0 "[dragon.GetName] has been sighted returning to [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]"
+### TODO NOT-IN-ST: wild_dragon_returned_home_from.t [AGOT: [dragon.GetName] Flew Home]
+ wild_dragon_returned_home_from.t:0 "[dragon.GetName] Flew Home"
+### TODO NOT-IN-ST: wild_dragon_returned_home_from.desc [AGOT: [dragon.GetName] has been sighted flying back [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]]
+ wild_dragon_returned_home_from.desc:0 "[dragon.GetName] has been sighted flying back [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName]"
+### TODO NOT-IN-ST: wild_dragon_travelling_arrived.t [AGOT: [dragon.GetName] Roaming Nearby]
+ wild_dragon_travelling_arrived.t:0 "[dragon.GetName] Roaming Nearby"
+### TODO NOT-IN-ST: wild_dragon_travelling_arrived.desc [AGOT: [dragon.GetName], known to lair in the province of [lair.GetName], has been sighted roaming near [destination.GetName]]
+ wild_dragon_travelling_arrived.desc:0 "[dragon.GetName], known to lair in the province of [lair.GetName], has been sighted roaming near [destination.GetName]"
+### TODO NOT-IN-ST: wild_dragon_left.t [AGOT: [dragon.GetName] Roaming Elsewhere]
+ wild_dragon_left.t:0 "[dragon.GetName] Roaming Elsewhere"
+### TODO NOT-IN-ST: wild_dragon_left.desc [AGOT: [dragon.GetName] was sighted flying away, heading towards the province of [destination.GetName]]
+ wild_dragon_left.desc:0 "[dragon.GetName] was sighted flying away, heading towards the province of [destination.GetName]"
+### TODO NOT-IN-ST: wild_dragon_left_lair.t [AGOT: [dragon.GetName] Roaming]
+ wild_dragon_left_lair.t:0 "[dragon.GetName] Roaming"
+### TODO NOT-IN-ST: wild_dragon_left_lair.desc [AGOT: [dragon.GetName] was sighted leaving [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName], heading towards the province of [destination.GetName]]
+ wild_dragon_left_lair.desc:0 "[dragon.GetName] was sighted leaving [dragon.Custom('GetDragonHerHis')] lair in [lair.GetName], heading towards the province of [destination.GetName]"
+### TODO NOT-IN-ST: agot_spawn_dragon_effect.interface.t [AGOT: Dragon Joined Court]
+ agot_spawn_dragon_effect.interface.t:0 "Dragon Joined Court"
+### TODO NOT-IN-ST: agot_spawn_dragon_effect.interface.desc [AGOT: [dragon.GetName] joined court]
+ agot_spawn_dragon_effect.interface.desc:0 "[dragon.GetName] joined court"
+### TODO NOT-IN-ST: agot_spawn_wild_dragon_effect.interface.t [AGOT: A Wild Dragon Appears]
+ agot_spawn_wild_dragon_effect.interface.t:0 "A Wild Dragon Appears"
+### TODO NOT-IN-ST: agot_spawn_wild_dragon_effect.interface.desc [AGOT: [dragon.GetName] appeared in [dragon.GetCurrentLocation.GetName]]
+ agot_spawn_wild_dragon_effect.interface.desc:0 "[dragon.GetName] appeared in [dragon.GetCurrentLocation.GetName]"
 ### TODO NOT-IN-ST: agot_reveal_dragon_gender_effect_tt_male [AGOT: [dragon.GetNamePossessive] gender is revealed to be male]
  agot_reveal_dragon_gender_effect_tt_male:0 "[dragon.GetNamePossessive] gender is revealed to be male"
 ### TODO NOT-IN-ST: agot_reveal_dragon_gender_effect_tt_female [AGOT: [dragon.GetNamePossessive] gender is revealed to be female]
  agot_reveal_dragon_gender_effect_tt_female:0 "[dragon.GetNamePossessive] gender is revealed to be female"
+### TODO NOT-IN-ST: dragonpit_was_ruinized_tt [AGOT: The [dragonpit|E] in this realm will be destroyed. Any [dragons_plural|E] locked within will be freed.]
+ dragonpit_was_ruinized_tt:0 "The [dragonpit|E] in this realm will be destroyed. Any [dragons_plural|E] locked within will be freed."
 ### TODO NOT-IN-ST: free_dragon_tt [AGOT: [free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]]
  free_dragon_tt:0 "[free_dragon_for_effect.GetFirstName] will become a [wild_dragon|E]"
 ### TODO NOT-IN-ST: agot_dragon_hatched_from_egg_effect_tt [AGOT: A [dragon|E] hatched from [egg.GetName]!]
  agot_dragon_hatched_from_egg_effect_tt:0 "A [dragon|E] hatched from [egg.GetName]!"
 ### TODO NOT-IN-ST: realm_dragons_faux_tt [AGOT: Realm [dragons_plural|E]:]
  realm_dragons_faux_tt:0 "Realm [dragons_plural|E]:"
+### TODO NOT-IN-ST: realm_dragons_faux_armies_tt [AGOT: Armies]
+ realm_dragons_faux_armies_tt:0 "Armies"
+### TODO NOT-IN-ST: dragons_military_war_participant_text [AGOT: Dragons:]
+ dragons_military_war_participant_text:0 "Dragons:"
+### TODO NOT-IN-ST: dragons_military_war_overview_text [AGOT: Total Dragons:]
+ dragons_military_war_overview_text:0 "Total Dragons:"
+### TODO NOT-IN-ST: dragons_versus_war_overview_attacker_text [AGOT: Attackers' Dragons:]
+ dragons_versus_war_overview_attacker_text:0 "Attackers' Dragons:"
+### TODO NOT-IN-ST: dragons_versus_war_overview_defender_text [AGOT: Defenders' Dragons:]
+ dragons_versus_war_overview_defender_text:0 "Defenders' Dragons:"
+### TODO NOT-IN-ST: building_dragonpit_effect [AGOT: This building acts as a [dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. However, the dragons interned within will suffer health and growth penalities.]
+ building_dragonpit_effect:0 "This building acts as a [dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. However, the dragons interned within will suffer health and growth penalities."
+### TODO NOT-IN-ST: building_dragonmont_dragonpit_effect [AGOT: This building acts as a [natural_dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. The dragons locked within will suffer considerably less than a dragon in an artificial dragonpit.]
+ building_dragonmont_dragonpit_effect:0 "This building acts as a [natural_dragonpit|e], which allows the [county|e] holder to store [dragons_plural|e]. The dragons locked within will suffer considerably less than a dragon in an artificial dragonpit."
 ### TODO NOT-IN-ST: GET_DRAGON [AGOT: Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
  GET_DRAGON:0 "Becomes [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
 ### TODO NOT-IN-ST: GOT_DRAGON [AGOT: Became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
@@ -55,10 +107,28 @@
  I_GOT_DRAGON:1 "You became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
 ### TODO NOT-IN-ST: THEY_GOT_DRAGON [AGOT: [CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider]
  THEY_GOT_DRAGON:1 "[CHARACTER.GetShortUIName] became [TARGET_CHARACTER.GetShortUINamePossessive] dragonrider"
+### TODO NOT-IN-ST: dragon_size_at_least_10 [AGOT: [dragon_size|E] is at least 10]
+ dragon_size_at_least_10:0 "[dragon_size|E] is at least 10"
+### TODO NOT-IN-ST: dragon_size_at_least_20 [AGOT: [dragon_size|E] is at least 20]
+ dragon_size_at_least_20:0 "[dragon_size|E] is at least 20"
+### TODO NOT-IN-ST: dragon_size_at_least_30 [AGOT: [dragon_size|E] is at least 30]
+ dragon_size_at_least_30:0 "[dragon_size|E] is at least 30"
+### TODO NOT-IN-ST: dragon_size_at_least_40 [AGOT: [dragon_size|E] is at least 40]
+ dragon_size_at_least_40:0 "[dragon_size|E] is at least 40"
+### TODO NOT-IN-ST: recipient_dragon_size_at_least_10 [AGOT: [recipient.GetFirstName] has at least 10 [dragon_size|E]]
+ recipient_dragon_size_at_least_10:0 "[recipient.GetFirstName] has at least 10 [dragon_size|E]"
+### TODO NOT-IN-ST: recipient_dragon_size_at_least_20 [AGOT: [recipient.GetFirstName] has at least 20 [dragon_size|E]]
+ recipient_dragon_size_at_least_20:0 "[recipient.GetFirstName] has at least 20 [dragon_size|E]"
+### TODO NOT-IN-ST: recipient_dragon_size_at_least_30 [AGOT: [recipient.GetFirstName] has at least 30 [dragon_size|E]]
+ recipient_dragon_size_at_least_30:0 "[recipient.GetFirstName] has at least 30 [dragon_size|E]"
+### TODO NOT-IN-ST: recipient_dragon_size_at_least_40 [AGOT: [recipient.GetFirstName] has at least 40 [dragon_size|E]]
+ recipient_dragon_size_at_least_40:0 "[recipient.GetFirstName] has at least 40 [dragon_size|E]"
 ### TODO NOT-IN-ST: dragon_black_key [AGOT: black]
  dragon_black_key:0 "black"
 ### TODO NOT-IN-ST: dragon_grey_key [AGOT: grey]
  dragon_grey_key:0 "grey"
+### TODO NOT-IN-ST: dragon_white_key [AGOT: white]
+ dragon_white_key:0 "white"
 ### TODO NOT-IN-ST: dragon_red_key [AGOT: red]
  dragon_red_key:0 "red"
 ### TODO NOT-IN-ST: dragon_orange_key [AGOT: orange]
@@ -73,6 +143,16 @@
  dragon_blue_key:0 "blue"
 ### TODO NOT-IN-ST: dragon_purple_key [AGOT: purple]
  dragon_purple_key:0 "purple"
+### TODO NOT-IN-ST: dragon_pink_key [AGOT: pink]
+ dragon_pink_key:0 "pink"
+### TODO NOT-IN-ST: dragon_fuschia_key [AGOT: rose]
+ dragon_fuschia_key:0 "rose"
+### TODO NOT-IN-ST: dragon_lightest_key [AGOT: pale]
+ dragon_lightest_key:0 "pale"
+### TODO NOT-IN-ST: dragon_lighter_key [AGOT: light]
+ dragon_lighter_key:0 "light"
+### TODO NOT-IN-ST: dragon_middle_key [AGOT: bright]
+ dragon_middle_key:0 "bright"
 ### TODO NOT-IN-ST: dragon_darker_key [AGOT: deep]
  dragon_darker_key:0 "deep"
 ### TODO NOT-IN-ST: dragon_darkest_key [AGOT: dark]
@@ -83,6 +163,8 @@
  dragon_black_key_F:0 "black"
 ### TODO NOT-IN-ST: dragon_grey_key_F [AGOT: grey]
  dragon_grey_key_F:0 "grey"
+### TODO NOT-IN-ST: dragon_white_key_F [AGOT: white]
+ dragon_white_key_F:0 "white"
 ### TODO NOT-IN-ST: dragon_red_key_F [AGOT: red]
  dragon_red_key_F:0 "red"
 ### TODO NOT-IN-ST: dragon_orange_key_F [AGOT: orange]
@@ -97,9 +179,31 @@
  dragon_blue_key_F:0 "blue"
 ### TODO NOT-IN-ST: dragon_purple_key_F [AGOT: purple]
  dragon_purple_key_F:0 "purple"
+### TODO NOT-IN-ST: dragon_pink_key_F [AGOT: pink]
+ dragon_pink_key_F:0 "pink"
+### TODO NOT-IN-ST: dragon_fuschia_key_F [AGOT: rose]
+ dragon_fuschia_key_F:0 "rose"
+### TODO NOT-IN-ST: dragon_lightest_key_F [AGOT: pale]
+ dragon_lightest_key_F:0 "pale"
+### TODO NOT-IN-ST: dragon_lighter_key_F [AGOT: light]
+ dragon_lighter_key_F:0 "light"
+### TODO NOT-IN-ST: dragon_middle_key_F [AGOT: bright]
+ dragon_middle_key_F:0 "bright"
 ### TODO NOT-IN-ST: dragon_darker_key_F [AGOT: deep]
  dragon_darker_key_F:0 "deep"
 ### TODO NOT-IN-ST: dragon_darkest_key_F [AGOT: dark]
  dragon_darkest_key_F:0 "dark"
 ### TODO NOT-IN-ST: tame_unbonded_dragon_scheme_scheme_power_mult [AGOT: [GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]]
  tame_unbonded_dragon_scheme_scheme_power_mult:1 "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
+### TODO NOT-IN-ST: title_is_dragonpit_warning [AGOT: @warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], giving it away would surrender control of it to an outside ruler!#!]
+ title_is_dragonpit_warning:0 "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], giving it away would surrender control of it to an outside ruler!#!"
+### TODO NOT-IN-ST: title_is_dragonpit_and_ruler_is_not_king_warning [AGOT: @warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], [recipient.GetShortUIName] is not a king-tier ruler which would limit their access to the dragonpit!#!]
+ title_is_dragonpit_and_ruler_is_not_king_warning:0 "@warning_icon! #warning [target.GetNameNoTier] has a [dragonpit|e], [recipient.GetShortUIName] is not a king-tier ruler which would limit their access to the dragonpit!#!"
+### TODO NOT-IN-ST: has_a_relation_dragon_trigger_tooltip [AGOT: Has a [tamed_dragon|E]]
+ has_a_relation_dragon_trigger_tooltip:0 "Has a [tamed_dragon|E]"
+### TODO NOT-IN-ST: has_a_dragon_egg_artifact_tooltip [AGOT: Has a [dragon|E] egg [artifact|e]]
+ has_a_dragon_egg_artifact_tooltip:0 "Has a [dragon|E] egg [artifact|e]"
+### TODO NOT-IN-ST: dragon_rider_is_in_sieging_army_tooltip [AGOT: Is a riding a [dragon|E] in a sieging army]
+ dragon_rider_is_in_sieging_army_tooltip:0 "Is a riding a [dragon|E] in a sieging army"
+### TODO NOT-IN-ST: dragons_are_extant_desc_tooltip [AGOT: [dragons_plural|E] are extant in the World]
+ dragons_are_extant_desc_tooltip:0 "[dragons_plural|E] are extant in the World"

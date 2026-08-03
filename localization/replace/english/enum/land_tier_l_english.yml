@@ -11,6 +11,12 @@
  duchy: "High Lordship"
 ### TODO AGOT-CHANGED: duchy_plural [AGOT: High Lordships | TR: Düklükler]
  duchy_plural: "High Lordships"
+ kingdom: "Krallığı"
+ kingdom_plural: "Krallıklar"
+### TODO AGOT-CHANGED: empire [AGOT: Kingdom | TR: İmparatorluğu]
+ empire: "Kingdom"
+### TODO AGOT-CHANGED: empire_plural [AGOT: [SelectLocalization(GetVariableSystem.Exists('ledger_titles_tab'), 'game_concept_empires', 'kingdom_plural')] | TR: İmparatorluklar]
+ empire_plural: "[SelectLocalization(GetVariableSystem.Exists('ledger_titles_tab'), 'game_concept_empires', 'kingdom_plural')]"
  hegemony: "Hegemonyası"
  hegemony_plural: "Hegemonyalar"
  unlanded: "Topraksız"
@@ -19,9 +25,13 @@
  concept_barony: "[barony|E]"
  concept_county: "[county|E]"
  concept_duchy: "[duchy|E]"
+ concept_kingdom: "[kingdom|E]"
+ concept_empire: "[empire|E]"
  concept_hegemony: "[hegemony|E]"
  concept_unlanded_plural: "[unlanded|E]"
  concept_barony_plural: "[baronies|E]"
  concept_county_plural: "[counties|E]"
  concept_duchy_plural: "[duchies|E]"
+ concept_kingdom_plural: "[kingdoms|E]"
+ concept_empire_plural: "[empires|E]"
  concept_hegemony_plural: "[hegemonies|E]"

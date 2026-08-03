@@ -3,6 +3,18 @@
  AGOT_TITLE_DRAGON_TREE:0 "[GetPlayer.MakeScope.Var('dragon_tree_being_shown').Var('dragon_tree_founder').Char.GetFirstNamePossessive|U]\nDescendants"
 ### TODO NOT-IN-ST: dragon_tree_members [AGOT: [GetPlayer.MakeScope.Var('total_dragon_tree_members').GetValue|0] Total Dragons]
  dragon_tree_members:0 "[GetPlayer.MakeScope.Var('total_dragon_tree_members').GetValue|0] Total Dragons"
+### TODO NOT-IN-ST: dragon_tree_living [AGOT: [GetPlayer.MakeScope.Var('total_dragon_tree_alive').GetValue|0] Living Dragons]
+ dragon_tree_living:0 "[GetPlayer.MakeScope.Var('total_dragon_tree_alive').GetValue|0] Living Dragons"
+### TODO NOT-IN-ST: list_dragon_tree_members [AGOT: [Scope.ScriptValue('list_dragon_tree_members_count')|0] Total Dragons]
+ list_dragon_tree_members:0 "[Scope.ScriptValue('list_dragon_tree_members_count')|0] Total Dragons"
+### TODO NOT-IN-ST: list_dragon_tree_alive [AGOT: [SelectLocalization(GreaterThan_CFixedPoint(Scope.ScriptValue('list_dragon_tree_alive_count'), '(CFixedPoint)0'), 'list_dragon_tree_living', 'list_dragon_tree_null_living')]]
+ list_dragon_tree_alive:0 "[SelectLocalization(GreaterThan_CFixedPoint(Scope.ScriptValue('list_dragon_tree_alive_count'), '(CFixedPoint)0'), 'list_dragon_tree_living', 'list_dragon_tree_null_living')]"
+### TODO NOT-IN-ST: list_dragon_tree_living [AGOT: [Scope.ScriptValue('list_dragon_tree_alive_count')|0] Living Dragons]
+ list_dragon_tree_living:0 "[Scope.ScriptValue('list_dragon_tree_alive_count')|0] Living Dragons"
+### TODO NOT-IN-ST: list_dragon_tree_null_living [AGOT: Extinct Lineage]
+ list_dragon_tree_null_living:0 "Extinct Lineage"
+### TODO NOT-IN-ST: agot_dragon_birth_date [AGOT: $DRAGON_YEAR_BIRTH$ $DRAGON_ERA_BIRTH$]
+ agot_dragon_birth_date:0 "$DRAGON_YEAR_BIRTH$ $DRAGON_ERA_BIRTH$"
 ### TODO NOT-IN-ST: agot_dragon_death_date [AGOT: $DRAGON_YEAR_DEATH$ $DRAGON_ERA_DEATH$]
  agot_dragon_death_date:0 "$DRAGON_YEAR_DEATH$ $DRAGON_ERA_DEATH$"
 ### TODO NOT-IN-ST: dragon_tree_count [AGOT: #D Trees: [GetPlayer.MakeScope.Var('total_dragon_trees').GetValue|0]#!]
@@ -17,6 +29,22 @@
  DRAGON_TREE_SELF_PAN:0 "Pan to My Dragon"
 ### TODO NOT-IN-ST: AGOT_NAME_DRAGON_TREE [AGOT: [Scope.GetCharacter.GetFirstNameNicknamedNoTooltip]]
  AGOT_NAME_DRAGON_TREE:0 "[Scope.GetCharacter.GetFirstNameNicknamedNoTooltip]"
+### TODO NOT-IN-ST: agot_dragon_tree.0001.t [AGOT: Known $game_concept_dragon_family_trees$]
+ agot_dragon_tree.0001.t:0 "Known $game_concept_dragon_family_trees$"
+### TODO NOT-IN-ST: agot_dragon_tree.0001.desc [AGOT: My liege, I have gathered here a list of all known [dragon_matriarchs|E] of the world, from whom all other [dragons_plural|E] have descended:]
+ agot_dragon_tree.0001.desc:0 "My liege, I have gathered here a list of all known [dragon_matriarchs|E] of the world, from whom all other [dragons_plural|E] have descended:"
+### TODO NOT-IN-ST: game_concept_dragon_matriarch [AGOT: Dragon Matriarch]
+ game_concept_dragon_matriarch:0 "Dragon Matriarch"
+### TODO NOT-IN-ST: game_concept_dragon_matriarchs [AGOT: Dragon Matriarchs]
+ game_concept_dragon_matriarchs:0 "Dragon Matriarchs"
+### TODO NOT-IN-ST: game_concept_dragon_matriarch_desc [AGOT: $game_concept_dragon_matriarchs$ are the known founders of [dragon_family_trees|E]. As such, collectively they are responsible for all other dragons in the world.\n\nIf a hatchling is born without a known grandmother, the mother of the hatchling will become a $game_concept_dragon_matriarch$ and a new $game_concept_dragon_family_tree$ will be recorded for the mother and their child.]
+ game_concept_dragon_matriarch_desc:0 "$game_concept_dragon_matriarchs$ are the known founders of [dragon_family_trees|E]. As such, collectively they are responsible for all other dragons in the world.\n\nIf a hatchling is born without a known grandmother, the mother of the hatchling will become a $game_concept_dragon_matriarch$ and a new $game_concept_dragon_family_tree$ will be recorded for the mother and their child."
+### TODO NOT-IN-ST: game_concept_dragon_family_tree [AGOT: Dragon Family Tree]
+ game_concept_dragon_family_tree:0 "Dragon Family Tree"
+### TODO NOT-IN-ST: game_concept_dragon_family_trees [AGOT: Dragon Family Trees]
+ game_concept_dragon_family_trees:0 "Dragon Family Trees"
+### TODO NOT-IN-ST: game_concept_dragon_family_tree_desc [AGOT: $game_concept_dragon_family_trees$ are the recorded lineages of [dragons_plural|E]. As such, they contain and display all of the dragons which descended from the [dragon_matriarchs|E] that founded their respective tree.\n\nWhen a hatchling is born and their mother already belongs to a tree, the hatchling will be added to the existing tree. If a dragon hatchling is born and their mother does not belong to a tree, the hatchling will be added to a newly created tree of which their mother becomes the $game_concept_dragon_matriarch$.]
+ game_concept_dragon_family_tree_desc:0 "$game_concept_dragon_family_trees$ are the recorded lineages of [dragons_plural|E]. As such, they contain and display all of the dragons which descended from the [dragon_matriarchs|E] that founded their respective tree.\n\nWhen a hatchling is born and their mother already belongs to a tree, the hatchling will be added to the existing tree. If a dragon hatchling is born and their mother does not belong to a tree, the hatchling will be added to a newly created tree of which their mother becomes the $game_concept_dragon_matriarch$."
 ### TODO NOT-IN-ST: DRAGON_ERA_BIRTH [AGOT: [Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]]
  DRAGON_ERA_BIRTH:0 "[Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]"
 ### TODO NOT-IN-ST: DRAGON_ERA_DEATH [AGOT: [Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetDeathDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]]

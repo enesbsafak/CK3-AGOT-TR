@@ -1,0 +1,15 @@
+﻿l_english:
+### TODO NOT-IN-ST: at_buyer_not_enough_gold_for_artifact_price_tooltip [AGOT: Pays #high [gold_i][SCOPE.ScriptValue('at_scope_buyer_current_gold_value')|0]#! to [seller.GetShortUINameNoTooltip] #weak (full price of [gold_i][SCOPE.ScriptValue('at_scope_artifact_price_value')|0] exceeds short term budget)#!]
+ at_buyer_not_enough_gold_for_artifact_price_tooltip: "Pays #high [gold_i][SCOPE.ScriptValue('at_scope_buyer_current_gold_value')|0]#! to [seller.GetShortUINameNoTooltip] #weak (full price of [gold_i][SCOPE.ScriptValue('at_scope_artifact_price_value')|0] exceeds short term budget)#!"
+### TODO NOT-IN-ST: at_msg_artifact_bought [AGOT: Artifact Bought]
+ at_msg_artifact_bought: "Artifact Bought"
+### TODO NOT-IN-ST: at_msg_artifact_sold [AGOT: Artifact Sold]
+ at_msg_artifact_sold: "Artifact Sold"
+### TODO NOT-IN-ST: at_artifact_cannot_equip_or_benefit_tt [AGOT: @warning_icon! #X [buyer.GetTitledFirstName] cannot equip or benefit from [artifact.GetName]#!]
+ at_artifact_cannot_equip_or_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] cannot equip or benefit from [artifact.GetName]#!"
+### TODO NOT-IN-ST: at_artifact_cannot_equip_tt [AGOT: @warning_icon! #X [buyer.GetTitledFirstName] cannot equip [artifact.GetName]#!]
+ at_artifact_cannot_equip_tt: "@warning_icon! #X [buyer.GetTitledFirstName] cannot equip [artifact.GetName]#!"
+### TODO NOT-IN-ST: at_artifact_cannot_benefit_tt [AGOT: @warning_icon! #X [buyer.GetTitledFirstName] cannot benefit from [artifact.GetName]#!]
+ at_artifact_cannot_benefit_tt: "@warning_icon! #X [buyer.GetTitledFirstName] cannot benefit from [artifact.GetName]#!"
+### TODO NOT-IN-ST: at_artifact_unwanted_or_cursed_tt [AGOT: @warning_icon! #X Unwanted or cursed artifact#!]
+ at_artifact_unwanted_or_cursed_tt: "@warning_icon! #X Unwanted or cursed artifact#!"

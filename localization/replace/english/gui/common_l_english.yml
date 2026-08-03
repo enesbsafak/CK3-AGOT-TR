@@ -94,6 +94,13 @@
  COA_REALM_TOOLTIP_CHARACTER_CLICK_INFO:0 "#I [Select_CString(CHARACTER.IsShownInCharacterWindow, 'Konuma gitmek için tıklayın', 'Görüntülemek için tıklayın')]\n[Select_CString( CHARACTER.IsLocalPlayer, 'Kendinizle', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ile' )] etkileşime girmek için sağ tıklayın#!"
  COA_REALM_TOOLTIP_PRIMARY_TITLE_CLICK_INFO:0 "#I [CHARACTER.GetPrimaryTitle.GetNameNoTooltip|V] Birincil Unvanını görüntülemek için tıklayın#!"
  COA_REALM_TOOLTIP_GUI_CLICK_INFO:0 "#I [Select_CString(Character.IsShownInCharacterWindow, 'Konuma gitmek için tıklayın', 'Görüntülemek için tıklayın')]\n[Select_CString( CHARACTER.IsLocalPlayer, 'Kendinizle', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ile' )] ile etkileşime girmek için sağ tıklayın#!"
+### TODO AGOT-CHANGED: cooltip_spouse_listing [AGOT: [spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)] | TR: [spouse|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]]
+ cooltip_spouse_listing: "[spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]
+### TODO AGOT-CHANGED: cooltip_betrothed_listing [AGOT: [betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)] | TR: [betrothed|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]]
+ cooltip_betrothed_listing: "[betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]
+### TODO AGOT-CHANGED: cooltip_concubine_listing [AGOT: [concubine|E] of: [AGOTGetName(ROOT.Char.GetConcubinist)] | TR: [Concept( 'concubine', 'Cariyesi' )|E]: [ROOT.Char.GetConcubinist.GetName]]
+ cooltip_concubine_listing: "[concubine|E] of: [AGOTGetName(ROOT.Char.GetConcubinist)]
+ cooltip_unmarried_listing: "Evli değil"
  GLOBAL_OBSERVER:0 "İzliyorsunuz"
  PLAYER_OBSERVER:0 "[GetPlayer.GetShortUINameNotMeNoTooltip] olarak izliyorsunuz ([SelectLocalization(GetPlayer.IsPlayer, 'OBSERVER_PLAYER_NAME', 'OBSERVER_AI')])"
  OBSERVER_PLAYER_NAME:0 "[GetPlayer.PlayerName] tarafından oynanıyor"
@@ -104,6 +111,7 @@
  CHARACTER_IMPRISONED_TOOLTIP:0 "[Select_CString(Character.GetImprisonedBy.IsLocalPlayer,'Sizin', Character.GetImprisonedBy.GetUIName)] [Select_CString(Character.GetImprisonedBy.IsLocalPlayer,'tarafınızdan','tarafından')] [imprisoned|E]"
  CHARACTER_BIRTH_NAME_TOOLTIP:1 "Doğum adı: [Character.GetOriginalFirstName]"
  CHARACTER_COURT_POSITIONS_TOOLTIP:0 "[Character.GetLiege.GetShortUIName|U] adlı karakterin [Character.GetHeldCourtAndCouncilPositionsString]"
+ cooltip_opinion_of_player:0 "Bana karşı [Concept( 'opinion', 'Görüşü' )|E]: #P [Character.GetOpinionOf( GetPlayer )|+=]#!"
 ### TODO AGOT-CHANGED: CHARACTER_KILLER_TOOLTIP [AGOT: Killer: [AGOTGetLongUIName(Character.GetKiller)|V] | TR: Katili: [Character.GetKiller.GetUIName]]
  CHARACTER_KILLER_TOOLTIP:0 "Killer: [AGOTGetLongUIName(Character.GetKiller)|V]"
  FAITH_COOLTIP_WINDOW:0 "[Faith.GetAdjective]"

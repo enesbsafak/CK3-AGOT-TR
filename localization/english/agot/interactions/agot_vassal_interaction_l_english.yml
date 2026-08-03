@@ -1,3 +1,9 @@
 ﻿l_english:
+### TODO NOT-IN-ST: settle_wilderness_icon [AGOT: @directive_wilderness!]
+ settle_wilderness_icon: "@directive_wilderness!"
+### TODO NOT-IN-ST: settle_wilderness [AGOT: $settle_wilderness_icon$ Settle [wilderness|E]]
+ settle_wilderness: "$settle_wilderness_icon$ Settle [wilderness|E]"
+### TODO NOT-IN-ST: vassal_directive_settle_wilderness [AGOT: [recipient.GetUIName] will focus on settling wilderness.]
+ vassal_directive_settle_wilderness: "[recipient.GetUIName] will focus on settling wilderness."
 ### TODO NOT-IN-ST: settlement_focus_text [AGOT: [directive|E]: Settle wilderness counties]
  settlement_focus_text: "[directive|E]: Settle wilderness counties"

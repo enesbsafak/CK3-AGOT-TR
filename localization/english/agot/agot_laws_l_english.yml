@@ -1,6 +1,26 @@
 ﻿l_english:
+### TODO NOT-IN-ST: title_succession_laws_singular [AGOT: [succession_law|e]]
+ title_succession_laws_singular:0 "[succession_law|e]"
+### TODO NOT-IN-ST: the_silent_sisterhood_succession_law [AGOT: Silent Sisterhood Succession]
+ the_silent_sisterhood_succession_law:0 "Silent Sisterhood Succession"
+### TODO NOT-IN-ST: night_watch_centralization [AGOT: Night's Watch Organization]
+ night_watch_centralization:0 "Night's Watch Organization"
+### TODO NOT-IN-ST: night_watch_centralization_0 [AGOT: No Night's Watch Organization]
+ night_watch_centralization_0:0 "No Night's Watch Organization"
+### TODO NOT-IN-ST: night_watch_centralization_1 [AGOT: Limited Night's Watch Organization]
+ night_watch_centralization_1:0 "Limited Night's Watch Organization"
+### TODO NOT-IN-ST: night_watch_centralization_2 [AGOT: High Night's Watch Organization]
+ night_watch_centralization_2:0 "High Night's Watch Organization"
+### TODO NOT-IN-ST: night_watch_centralization_3 [AGOT: Absolute Night's Watch Organization]
+ night_watch_centralization_3:0 "Absolute Night's Watch Organization"
 ### TODO NOT-IN-ST: slavery_laws [AGOT: Slavery]
  slavery_laws:0 "Slavery"
+### TODO NOT-IN-ST: slavery_laws_singular [AGOT: Slavery Policy]
+ slavery_laws_singular:0 "Slavery Policy"
+### TODO NOT-IN-ST: slavery_disallowed_law [AGOT: Slavery Forbidden]
+ slavery_disallowed_law:0 "Slavery Forbidden"
+### TODO NOT-IN-ST: slavery_disallowed_law_effect [AGOT: No form of slavery is tolerated. Rulers have access to the #V Free Slaves#! [casus_bellis|E].]
+ slavery_disallowed_law_effect:1 "No form of slavery is tolerated. Rulers have access to the #V Free Slaves#! [casus_bellis|E]."
 ### TODO NOT-IN-ST: slavery_allowed_law [AGOT: Slavery Allowed]
  slavery_allowed_law:0 "Slavery Allowed"
 ### TODO NOT-IN-ST: slavery_allowed_law_effect [AGOT: Rulers can build and use the $building_type_agot_slave_camps_01$ lines of [buildings|E], and sell prisoners into slavery. Rulers may use the #V Raid for Slaves#! [casus_bellis|E] to fill their slave camps.]
@@ -13,12 +33,82 @@
  DRAGONPIT_LAW_IS_ON_COOLDOWN:0 "You recently changed Dragonpit Laws. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]"
 ### TODO NOT-IN-ST: PIRATE_PORT_TAX_RATE_IS_ON_COOLDOWN [AGOT: You recently changed Pirate Port Tax Rates. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'pirate_port_law_cooldown') )]]
  PIRATE_PORT_TAX_RATE_IS_ON_COOLDOWN:0 "You recently changed Pirate Port Tax Rates. Can be changed again after [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'pirate_port_law_cooldown') )]"
+### TODO NOT-IN-ST: dragonpit_laws [AGOT: Dragonpit Access Laws]
+ dragonpit_laws:0 "Dragonpit Access Laws"
+### TODO NOT-IN-ST: dragonpit_laws_singular [AGOT: Dragonpit Access Policy]
+ dragonpit_laws_singular:0 "Dragonpit Access Policy"
+### TODO NOT-IN-ST: dragonpit_close_family_law [AGOT: Close Family Only]
+ dragonpit_close_family_law:0 "Close Family Only"
+### TODO NOT-IN-ST: dragonpit_close_family_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can only be accessed by [close_family_members|e]]
+ dragonpit_close_family_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [close_family_members|e]"
+### TODO NOT-IN-ST: dragonpit_house_law [AGOT: House Only]
+ dragonpit_house_law:0 "House Only"
+### TODO NOT-IN-ST: dragonpit_house_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can only be accessed by [house|e] members]
+ dragonpit_house_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [house|e] members"
+### TODO NOT-IN-ST: dragonpit_dynasty_law [AGOT: Dynasty Only]
+ dragonpit_dynasty_law:0 "Dynasty Only"
+### TODO NOT-IN-ST: dragonpit_dynasty_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members]
+ dragonpit_dynasty_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members"
+### TODO NOT-IN-ST: dragonpit_everyone_law [AGOT: Everyone]
+ dragonpit_everyone_law:0 "Everyone"
+### TODO NOT-IN-ST: dragonpit_everyone_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!]
+ dragonpit_everyone_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!"
 ### TODO NOT-IN-ST: YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT [AGOT: You are banned from the [dragonpit|e] this dragon is located in]
  YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT:0 "You are banned from the [dragonpit|e] this dragon is located in"
+### TODO NOT-IN-ST: pirate_tax_rate_law [AGOT: [pirate_port_rates|e]]
+ pirate_tax_rate_law: "[pirate_port_rates|e]"
+### TODO NOT-IN-ST: pirate_tax_rate_01 [AGOT: Friendly]
+ pirate_tax_rate_01: "Friendly"
+### TODO NOT-IN-ST: pirate_tax_rate_01_effects [AGOT: $EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]: #P +10%#! additional chance of learning a [secret|E]\n#underline #underline [agot_landless_pirate_domiciles|e] will pay#!:#!\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.]
+ pirate_tax_rate_01_effects: "$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]: #P +10%#! additional chance of learning a [secret|E]\n#underline #underline [agot_landless_pirate_domiciles|e] will pay#!:#!\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee."
+### TODO NOT-IN-ST: pirate_tax_rate_02 [AGOT: Standard]
+ pirate_tax_rate_02: "Standard"
+### TODO NOT-IN-ST: pirate_tax_rate_02_effects [AGOT: #underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.]
+ pirate_tax_rate_02_effects: "#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee."
+### TODO NOT-IN-ST: pirate_tax_rate_03 [AGOT: High]
+ pirate_tax_rate_03: "High"
+### TODO NOT-IN-ST: pirate_tax_rate_03_effects [AGOT: $EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] will receive increased protection from [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee.]
+ pirate_tax_rate_03_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] will receive increased protection from [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee."
+### TODO NOT-IN-ST: pirate_tax_rate_04 [AGOT: Extortionate]
+ pirate_tax_rate_04: "Extortionate"
+### TODO NOT-IN-ST: pirate_tax_rate_04_effects [AGOT: $EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] are less likely to start [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee.]
+ pirate_tax_rate_04_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] are less likely to start [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee."
 ### TODO NOT-IN-ST: PIRATE_TAX_RATE_LAW_SELECTED [AGOT: [Law.GetNameNoTooltip]]
  PIRATE_TAX_RATE_LAW_SELECTED: "[Law.GetNameNoTooltip]"
+### TODO NOT-IN-ST: franchise_laws [AGOT: Franchise]
+ franchise_laws: "Franchise"
+### TODO NOT-IN-ST: franchise_laws_singular [AGOT: Franchise Policy]
+ franchise_laws_singular: "Franchise Policy"
+### TODO NOT-IN-ST: franchise_democratic_full [AGOT: Popular]
+ franchise_democratic_full: "Popular"
+### TODO NOT-IN-ST: franchise_lean_democratic [AGOT: Oligarchic]
+ franchise_lean_democratic: "Oligarchic"
+### TODO NOT-IN-ST: franchise_lean_aristocratic [AGOT: Aristocratic]
+ franchise_lean_aristocratic: "Aristocratic"
+### TODO NOT-IN-ST: franchise_aristocratic_full [AGOT: Patrician]
+ franchise_aristocratic_full: "Patrician"
+### TODO NOT-IN-ST: franchise_theocratic [AGOT: Theocratic]
+ franchise_theocratic: "Theocratic"
+### TODO NOT-IN-ST: policy_laws [AGOT: Foreign Policy]
+ policy_laws: "Foreign Policy"
+### TODO NOT-IN-ST: policy_laws_singular [AGOT: $policy_laws$]
+ policy_laws_singular: "$policy_laws$"
+### TODO NOT-IN-ST: policy_mercantile_full [AGOT: Pacifist]
+ policy_mercantile_full: "Pacifist"
+### TODO NOT-IN-ST: policy_lean_mercantile [AGOT: Mercantile]
+ policy_lean_mercantile: "Mercantile"
+### TODO NOT-IN-ST: policy_lean_militaristic [AGOT: Militaristic]
+ policy_lean_militaristic: "Militaristic"
+### TODO NOT-IN-ST: policy_militaristic_full [AGOT: Imperialist]
+ policy_militaristic_full: "Imperialist"
 ### TODO NOT-IN-ST: term_length_laws [AGOT: Term Length]
  term_length_laws: "Term Length"
+### TODO NOT-IN-ST: term_length_laws_singular [AGOT: Term Length Policy]
+ term_length_laws_singular: "Term Length Policy"
+### TODO NOT-IN-ST: term_length_historical [AGOT: Historical]
+ term_length_historical: "Historical"
+### TODO NOT-IN-ST: term_length_historical_effects [AGOT: Election Terms are based on the historical setup of long-lasting Free City Traditions]
+ term_length_historical_effects: "Election Terms are based on the historical setup of long-lasting Free City Traditions"
 ### TODO NOT-IN-ST: term_length_short [AGOT: Short Terms]
  term_length_short: "Short Terms"
 ### TODO NOT-IN-ST: term_length_short_effects [AGOT: Election Terms are 5 years long]
@@ -27,3 +117,7 @@
  term_length_long: "Long Terms"
 ### TODO NOT-IN-ST: term_length_long_effects [AGOT: Election Terms are 10 years long]
  term_length_long_effects: "Election Terms are 10 years long"
+### TODO NOT-IN-ST: term_length_life [AGOT: Life Terms]
+ term_length_life: "Life Terms"
+### TODO NOT-IN-ST: term_length_life_effects [AGOT: Election Terms are until death]
+ term_length_life_effects: "Election Terms are until death"

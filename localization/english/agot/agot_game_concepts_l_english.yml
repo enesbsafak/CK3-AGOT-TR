@@ -3,28 +3,152 @@
  game_concept_personal_steward:0 "Personal Steward"
 ### TODO NOT-IN-ST: game_concept_personal_steward_desc [AGOT: The $game_concept_personal_steward$ is the [councillor|E] who tends to the needs of the Lord Commander of the [realm|E].]
  game_concept_personal_steward_desc:0 "The $game_concept_personal_steward$ is the [councillor|E] who tends to the needs of the Lord Commander of the [realm|E]."
+### TODO NOT-IN-ST: game_concept_agot_knight [AGOT: Knight]
+ game_concept_agot_knight:0 "Knight"
+### TODO NOT-IN-ST: game_concept_agot_knights [AGOT: Knights]
+ game_concept_agot_knights:0 "Knights"
+### TODO NOT-IN-ST: game_concept_agot_knightspossessive [AGOT: Knight's]
+ game_concept_agot_knightspossessive:0 "Knight's"
+### TODO NOT-IN-ST: game_concept_agot_knight_desc [AGOT: A $game_concept_agot_knight$ is a [character|E] who has been granted a title of chivalric honor.\n\nWhile knighthood is revered by faiths with the [GetFaithDoctrine('tenet_knighthood').GetBaseName] tenet, any character can be knighted by another knight or a monarch regardless of faith.\n\nA knight may take up to two [squires|E] and train them in the ways of knighthood via #V character interactions#! and #V events#!.\n\nA character may become a knight once they are 16 years or older — or as early as 12 if they have exceptionally high [prowess|E] — and do not possess any disqualifying traits. Knighthood can be achieved through squiring, tournament [prizes|e], in [battles|e], offers from knights, or purchasing the title outright.]
+ game_concept_agot_knight_desc:0 "A $game_concept_agot_knight$ is a [character|E] who has been granted a title of chivalric honor.\n\nWhile knighthood is revered by faiths with the [GetFaithDoctrine('tenet_knighthood').GetBaseName] tenet, any character can be knighted by another knight or a monarch regardless of faith.\n\nA knight may take up to two [squires|E] and train them in the ways of knighthood via #V character interactions#! and #V events#!.\n\nA character may become a knight once they are 16 years or older — or as early as 12 if they have exceptionally high [prowess|E] — and do not possess any disqualifying traits. Knighthood can be achieved through squiring, tournament [prizes|e], in [battles|e], offers from knights, or purchasing the title outright."
+### TODO NOT-IN-ST: game_concept_squire [AGOT: Squire]
+ game_concept_squire:0 "Squire"
+### TODO NOT-IN-ST: game_concept_squires [AGOT: Squires]
+ game_concept_squires:0 "Squires"
+### TODO NOT-IN-ST: game_concept_squirepossessive [AGOT: Squire's]
+ game_concept_squirepossessive:0 "Squire's"
+### TODO NOT-IN-ST: game_concept_squire_desc [AGOT: A [squire|e] is a [character|e] that is training to become a [agot_knight|e]. They serve as an attendant to a knight, aiding in all duties menial and glorious alike. Squires will provide their knights with a modifier, [GetModifier('agot_has_squire_modifier').GetNameWithTooltip]. \n\nA character may become a squire once they are between the ages of 9 and 21.\n\nAs a squire, they will automatically receive #V events#! that raises or lowers their progress to knighthood — represented in the form of trait experience. These events may also boost a squire's [martial_skill|e], [diplomacy_skill|e], and or their [prowess_skill|e].\n\nA squire's journey to knighthood is affected by their [traits|e] and [personality|e]; some characters will handle it better than others!]
+ game_concept_squire_desc:0 "A [squire|e] is a [character|e] that is training to become a [agot_knight|e]. They serve as an attendant to a knight, aiding in all duties menial and glorious alike. Squires will provide their knights with a modifier, [GetModifier('agot_has_squire_modifier').GetNameWithTooltip]. \n\nA character may become a squire once they are between the ages of 9 and 21.\n\nAs a squire, they will automatically receive #V events#! that raises or lowers their progress to knighthood — represented in the form of trait experience. These events may also boost a squire's [martial_skill|e], [diplomacy_skill|e], and or their [prowess_skill|e].\n\nA squire's journey to knighthood is affected by their [traits|e] and [personality|e]; some characters will handle it better than others!"
+### TODO NOT-IN-ST: game_concept_agot_dynastic_stability [AGOT: Dynastic Stability]
+ game_concept_agot_dynastic_stability:0 "Dynastic Stability"
+### TODO NOT-IN-ST: game_concept_agot_dynastic_stability_desc [AGOT: Dynastic stability is a mechanic that allows for [houses|E] to survive in a realm of patrilineal [succession|E].\n\nIf a character of a lesser house inherits the [title|E] of a greater house that they have ancestral ties with, they will take the name of that great houses.]
+ game_concept_agot_dynastic_stability_desc:0 "Dynastic stability is a mechanic that allows for [houses|E] to survive in a realm of patrilineal [succession|E].\n\nIf a character of a lesser house inherits the [title|E] of a greater house that they have ancestral ties with, they will take the name of that great houses."
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house [AGOT: Legitimate House]
+ game_concept_agot_legitimate_house:0 "Legitimate House"
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house_desc [AGOT: Westeros is an ancient land, whose rulers derive their legitimacy not just from contemporary power but from the ancient bloodlines that they claim. A $game_concept_agot_legitimate_house$ is the [house|E] that is considered the rightful rulers of a [title|E]. Members of the $game_concept_agot_legitimate_house$ of a title will have an ancestral claim to it, find it easier to manage the respective realm, and see additional support for their claimants should they lose it.\n\nShould a house that is not the $game_concept_agot_legitimate_house$ of a title control it, they will start to make progress towards becoming the $game_concept_agot_legitimate_house$ of that title. This progress can be seen in the title's history, and is dependent on a variety of factors. Should that house ever lose the title, all their progress towards becoming the $game_concept_agot_legitimate_house$ will be lost.]
+ game_concept_agot_legitimate_house_desc:0 "Westeros is an ancient land, whose rulers derive their legitimacy not just from contemporary power but from the ancient bloodlines that they claim. A $game_concept_agot_legitimate_house$ is the [house|E] that is considered the rightful rulers of a [title|E]. Members of the $game_concept_agot_legitimate_house$ of a title will have an ancestral claim to it, find it easier to manage the respective realm, and see additional support for their claimants should they lose it.\n\nShould a house that is not the $game_concept_agot_legitimate_house$ of a title control it, they will start to make progress towards becoming the $game_concept_agot_legitimate_house$ of that title. This progress can be seen in the title's history, and is dependent on a variety of factors. Should that house ever lose the title, all their progress towards becoming the $game_concept_agot_legitimate_house$ will be lost."
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house_the_north_remembers [AGOT: The North Remembers]
+ game_concept_agot_legitimate_house_the_north_remembers:0 "The North Remembers"
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house_the_north_remembers_desc [AGOT: The North is a stubborn land of stubborn people. It does not forget its rulers easily, and will warm slower to a new [agot_legitimate_house|E] than other realms.]
+ game_concept_agot_legitimate_house_the_north_remembers_desc:0 "The North is a stubborn land of stubborn people. It does not forget its rulers easily, and will warm slower to a new [agot_legitimate_house|E] than other realms."
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house_iron_price [AGOT: The Iron Price]
+ game_concept_agot_legitimate_house_iron_price:0 "The Iron Price"
+### TODO NOT-IN-ST: game_concept_agot_legitimate_house_iron_price_desc [AGOT: The Ironborn believe that those who have the strength to take a crown are the ones who deserve to wear it. They are less concerned with the ancient bloodlines of the mainland, and will warm to a new [agot_legitimate_house|E] more quickly than other realms.]
+ game_concept_agot_legitimate_house_iron_price_desc:0 "The Ironborn believe that those who have the strength to take a crown are the ones who deserve to wear it. They are less concerned with the ancient bloodlines of the mainland, and will warm to a new [agot_legitimate_house|E] more quickly than other realms."
+### TODO NOT-IN-ST: game_concept_agot_landed_knight [AGOT: Landed Gentry]
+ game_concept_agot_landed_knight:0 "Landed Gentry"
+### TODO NOT-IN-ST: game_concept_agot_landed_knights [AGOT: Landed Gentry]
+ game_concept_agot_landed_knights:0 "Landed Gentry"
+### TODO NOT-IN-ST: game_concept_agot_landed_knight_desc [AGOT: The $game_concept_agot_landed_knights$ are [characters|E] who hold a keep and its accompanying lands in service to their [liege|E] lord. Although their position is hereditary, and $game_concept_agot_landed_knights$ may command their own peasants and men-at-arms, they remain the lowest rank of Westerosi nobility — not quite lords — and often suffer from the lack of [prestige|E] that comes with such a station.\n\nThey lack the right to execute prisoners without the leave of their liege, and are often overlooked for marriage in favor of higher nobility.\n\nIn the North and the Iron Isles, they are most commonly known as 'Master'. In the south, they are usually styled 'Ser', or 'Warden' if they lack formal knighthood.]
+ game_concept_agot_landed_knight_desc:0 "The $game_concept_agot_landed_knights$ are [characters|E] who hold a keep and its accompanying lands in service to their [liege|E] lord. Although their position is hereditary, and $game_concept_agot_landed_knights$ may command their own peasants and men-at-arms, they remain the lowest rank of Westerosi nobility — not quite lords — and often suffer from the lack of [prestige|E] that comes with such a station.\n\nThey lack the right to execute prisoners without the leave of their liege, and are often overlooked for marriage in favor of higher nobility.\n\nIn the North and the Iron Isles, they are most commonly known as 'Master'. In the south, they are usually styled 'Ser', or 'Warden' if they lack formal knighthood."
 ### TODO NOT-IN-ST: game_concept_lord_commander [AGOT: Kingsguard Lord Commander]
  game_concept_lord_commander:0 "Kingsguard Lord Commander"
 ### TODO NOT-IN-ST: game_concept_lord_commander_desc [AGOT: The $game_concept_lord_commander$ is the [councillor|E] in charge of the personal defense of the royal family, leading a small contingent of elite [knights|E] who protect them with their lives.]
  game_concept_lord_commander_desc:0 "The $game_concept_lord_commander$ is the [councillor|E] in charge of the personal defense of the royal family, leading a small contingent of elite [knights|E] who protect them with their lives."
+### TODO NOT-IN-ST: game_concept_kingsguard [AGOT: Kingsguard]
+ game_concept_kingsguard:0 "Kingsguard"
+### TODO NOT-IN-ST: game_concept_kingsguardpossessive [AGOT: Kingsguard's]
+ game_concept_kingsguardpossessive:0 "Kingsguard's"
+### TODO NOT-IN-ST: game_concept_kingsguard_desc [AGOT: The $game_concept_kingsguard$ is a coterie of the greatest warriors of the realm, sworn in service to their liege and pledged to trade their life for theirs.]
+ game_concept_kingsguard_desc:0 "The $game_concept_kingsguard$ is a coterie of the greatest warriors of the realm, sworn in service to their liege and pledged to trade their life for theirs."
 ### TODO NOT-IN-ST: game_concept_maester [AGOT: Maester]
  game_concept_maester:0 "Maester"
 ### TODO NOT-IN-ST: game_concept_maesters [AGOT: Maesters]
  game_concept_maesters:0 "Maesters"
 ### TODO NOT-IN-ST: game_concept_maester_desc [AGOT: The Westerosi Knights of the Mind; the Maesters of the Citadel are educated to the cutting edge of science and continue to push the boundaries. Around their necks they carry the burden of this teaching in metal links, representing their graft and their duty, which stoop their necks as they are assigned to courts throughout the Seven Kingdoms to serve the incumbent lords as healers, tutors, and advisors. A network of learned men, who have put aside their own name for the greater good, holding chamber council with the powerful, for the sake of knowledge.]
  game_concept_maester_desc:0 "The Westerosi Knights of the Mind; the Maesters of the Citadel are educated to the cutting edge of science and continue to push the boundaries. Around their necks they carry the burden of this teaching in metal links, representing their graft and their duty, which stoop their necks as they are assigned to courts throughout the Seven Kingdoms to serve the incumbent lords as healers, tutors, and advisors. A network of learned men, who have put aside their own name for the greater good, holding chamber council with the powerful, for the sake of knowledge."
+### TODO NOT-IN-ST: game_concept_monastery_holding [AGOT: Monastery]
+ game_concept_monastery_holding:0 "Monastery"
 ### TODO NOT-IN-ST: game_concept_monastery [AGOT: Monastery]
  game_concept_monastery:0 "Monastery"
+### TODO NOT-IN-ST: game_concept_monasteries [AGOT: Monasteries]
+ game_concept_monasteries:0 "Monasteries"
+### TODO NOT-IN-ST: game_concept_monastery_holdings [AGOT: Monastic Holdings]
+ game_concept_monastery_holdings:0 "Monastic Holdings"
+### TODO NOT-IN-ST: game_concept_monastery_holding_desc [AGOT: ]
+ game_concept_monastery_holding_desc:0 ""
+### TODO NOT-IN-ST: game_concept_unknown_holding [AGOT: Unknown]
+ game_concept_unknown_holding:0 "Unknown"
 ### TODO NOT-IN-ST: game_concept_unknown [AGOT: Unknown]
  game_concept_unknown:0 "Unknown"
+### TODO NOT-IN-ST: game_concept_unknown_holdings [AGOT: Unknown Holdings]
+ game_concept_unknown_holdings:0 "Unknown Holdings"
+### TODO NOT-IN-ST: game_concept_unknown_holding_desc [AGOT: The holding of this realm is unknown, as it lies beyond the reach of your diplomatic sight.]
+ game_concept_unknown_holding_desc:0 "The holding of this realm is unknown, as it lies beyond the reach of your diplomatic sight."
+### TODO NOT-IN-ST: game_concept_wilderness_holding [AGOT: Wilderness]
+ game_concept_wilderness_holding:0 "Wilderness"
+### TODO NOT-IN-ST: game_concept_wilderness [AGOT: Wilderness]
+ game_concept_wilderness:0 "Wilderness"
+### TODO NOT-IN-ST: game_concept_wildernesses [AGOT: Wildernesses]
+ game_concept_wildernesses:0 "Wildernesses"
+### TODO NOT-IN-ST: game_concept_wilderness_desc [AGOT: A wide and empty land, unclaimed and very sparsely populated.]
+ game_concept_wilderness_desc:0 "A wide and empty land, unclaimed and very sparsely populated."
+### TODO NOT-IN-ST: game_concept_wilderness_holdings [AGOT: Wilderness Holdings]
+ game_concept_wilderness_holdings:0 "Wilderness Holdings"
+### TODO NOT-IN-ST: game_concept_wilderness_holding_desc [AGOT: Wilderness Holdings are entirely unproductive and must be replaced by a [settlement_holding|E] during [colonization|E] to unlock their potential.]
+ game_concept_wilderness_holding_desc:0 "Wilderness Holdings are entirely unproductive and must be replaced by a [settlement_holding|E] during [colonization|E] to unlock their potential."
+### TODO NOT-IN-ST: game_concept_settlement_holding [AGOT: Settlement]
+ game_concept_settlement_holding:0 "Settlement"
 ### TODO NOT-IN-ST: game_concept_settlement [AGOT: Settlement]
  game_concept_settlement:0 "Settlement"
 ### TODO NOT-IN-ST: game_concept_settlements [AGOT: Settlements]
  game_concept_settlements:0 "Settlements"
+### TODO NOT-IN-ST: game_concept_settlement_holdings [AGOT: Settlement Holdings]
+ game_concept_settlement_holdings:0 "Settlement Holdings"
+### TODO NOT-IN-ST: game_concept_settlement_holding_desc [AGOT: Settlement Holdings represent the small outposts, towns, and colonies established as part of the [colonization|E] process.\n\nThey are less productive than other [holding_types|E], but clearing all [colonization_blockers|E] and increasing [county_development|E] will allow their productivity to grow, eventually enabling them to be converted into a standard [holding|E].]
+ game_concept_settlement_holding_desc:0 "Settlement Holdings represent the small outposts, towns, and colonies established as part of the [colonization|E] process.\n\nThey are less productive than other [holding_types|E], but clearing all [colonization_blockers|E] and increasing [county_development|E] will allow their productivity to grow, eventually enabling them to be converted into a standard [holding|E]."
+### TODO NOT-IN-ST: game_concept_ruin_holding [AGOT: Ruin]
+ game_concept_ruin_holding:0 "Ruin"
+### TODO NOT-IN-ST: game_concept_ruin_holding_desc [AGOT: A holding which has been long forgotten and abandoned, a mere shadow of its former self. One may begin the [reconstruction_effort|E] by interacting with the ruin itself.]
+ game_concept_ruin_holding_desc:0 "A holding which has been long forgotten and abandoned, a mere shadow of its former self. One may begin the [reconstruction_effort|E] by interacting with the ruin itself."
+### TODO NOT-IN-ST: game_concept_ruin [AGOT: Ruin]
+ game_concept_ruin:0 "Ruin"
+### TODO NOT-IN-ST: game_concept_ruins [AGOT: Ruins]
+ game_concept_ruins:0 "Ruins"
+### TODO NOT-IN-ST: game_concept_ruin_holdings [AGOT: Ruined Holdings]
+ game_concept_ruin_holdings:0 "Ruined Holdings"
+### TODO NOT-IN-ST: game_concept_ruin_holdings_desc [AGOT: Holdings which have been long forgotten and abandoned, a mere shadow of their former selves.]
+ game_concept_ruin_holdings_desc:0 "Holdings which have been long forgotten and abandoned, a mere shadow of their former selves."
+### TODO NOT-IN-ST: game_concept_ruin_reconstruction [AGOT: Ruin Reconstruction]
+ game_concept_ruin_reconstruction:0 "Ruin Reconstruction"
+### TODO NOT-IN-ST: game_concept_ruin_reconstruction_desc [AGOT: Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button.]
+ game_concept_ruin_reconstruction_desc:0 "Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button."
+### TODO NOT-IN-ST: game_concept_reconstruction [AGOT: Ruin Reconstruction]
+ game_concept_reconstruction:0 "Ruin Reconstruction"
+### TODO NOT-IN-ST: game_concept_reconstruction_desc [AGOT: Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button.]
+ game_concept_reconstruction_desc:0 "Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button."
+### TODO NOT-IN-ST: game_concept_reconstruction_effort [AGOT: Ruin Reconstruction]
+ game_concept_reconstruction_effort:0 "Ruin Reconstruction"
+### TODO NOT-IN-ST: game_concept_reconstruction_effort_desc [AGOT: Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button.]
+ game_concept_reconstruction_effort_desc:0 "Through upgrading a ruin's [buildings|E], a ruin may be rebuilt back into a proper holding, though the process of doing so is long and ardous.\n\nTo begin the reconstruction, click on the ruin character which holds the ruin, which will take you to another window. There, click on the 'Restore Ruins' button."
+### TODO NOT-IN-ST: game_concept_colonization [AGOT: Colonization]
+ game_concept_colonization:0 "Colonization"
+### TODO NOT-IN-ST: game_concept_colonize [AGOT: Colonize]
+ game_concept_colonize:0 "Colonize"
 ### TODO NOT-IN-ST: game_concept_colony [AGOT: Colony]
  game_concept_colony:0 "Colony"
+### TODO NOT-IN-ST: game_concept_colonization_desc [AGOT: Colonization is how an [independent_ruler|E] expands their [realm|E] into neighboring [wilderness|E] [counties|E].\n\nAfter an initial investment of [gold|E], a [settlement_holding|E] can be established, bringing the [county|E] into their [domain|E]. Initially, this settlement will be unproductive and unable to build standard [buildings|E] in the [holding|E]. Instead, time and [gold|E] must be invested to increase [development|E] in the new settlement and clear any [colonization_blockers|E] that exist.\n\nOnce all blockers have been cleared, the [settlement_holding|E] is fully upgraded, and the colony has reached a [county_development|E] of three or greater, the settlement can be converted into a standard [holding|E].]
+ game_concept_colonization_desc:0 "Colonization is how an [independent_ruler|E] expands their [realm|E] into neighboring [wilderness|E] [counties|E].\n\nAfter an initial investment of [gold|E], a [settlement_holding|E] can be established, bringing the [county|E] into their [domain|E]. Initially, this settlement will be unproductive and unable to build standard [buildings|E] in the [holding|E]. Instead, time and [gold|E] must be invested to increase [development|E] in the new settlement and clear any [colonization_blockers|E] that exist.\n\nOnce all blockers have been cleared, the [settlement_holding|E] is fully upgraded, and the colony has reached a [county_development|E] of three or greater, the settlement can be converted into a standard [holding|E]."
+### TODO NOT-IN-ST: game_concept_colonization_blocker [AGOT: Colonization Blocker]
+ game_concept_colonization_blocker:0 "Colonization Blocker"
+### TODO NOT-IN-ST: game_concept_colonization_blockers [AGOT: Colonization Blockers]
+ game_concept_colonization_blockers:0 "Colonization Blockers"
 ### TODO NOT-IN-ST: game_concept_blockers [AGOT: Blockers]
  game_concept_blockers:0 "Blockers"
+### TODO NOT-IN-ST: game_concept_colonization_blocker_desc [AGOT: Colonization Blockers are [buildings|E] in [wilderness|E] [counties|E] that represent obstacles to the [colonization|E] of the area.\n\nThese blockers apply negative [modifiers|E] to the county, reducing its productivity and preventing it from being converted into a standard [holding|E].]
+ game_concept_colonization_blocker_desc:0 "Colonization Blockers are [buildings|E] in [wilderness|E] [counties|E] that represent obstacles to the [colonization|E] of the area.\n\nThese blockers apply negative [modifiers|E] to the county, reducing its productivity and preventing it from being converted into a standard [holding|E]."
+### TODO NOT-IN-ST: game_concept_ongoing_colonies [AGOT: Ongoing Colonies]
+ game_concept_ongoing_colonies:0 "Ongoing Colonies"
+### TODO NOT-IN-ST: game_concept_settlement_holding_limit [AGOT: Settlement Limit]
+ game_concept_settlement_holding_limit:0 "Settlement Limit"
+### TODO NOT-IN-ST: game_concept_settlement_holding_limit_i [AGOT: @hud_wilderness! [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')|0]]
+ game_concept_settlement_holding_limit_i:0 "@hud_wilderness! [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')|0]"
+### TODO NOT-IN-ST: game_concept_settlement_holding_limit_desc [AGOT: The number of settlements a [ruler|E] can hold at any given point in time is determined by their title tier.\n\n$EFFECT_LIST_BULLET$A #bold [count|E] #!can hold a maximum of 1 [settlement_holding|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [duke|E] #!can hold a maximum of 2 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [king|E] #!can hold a maximum of 3 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$An #bold [emperor|E] #!can hold a maximum of 4 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].]
+ game_concept_settlement_holding_limit_desc:0 "The number of settlements a [ruler|E] can hold at any given point in time is determined by their title tier.\n\n$EFFECT_LIST_BULLET$A #bold [count|E] #!can hold a maximum of 1 [settlement_holding|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [duke|E] #!can hold a maximum of 2 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$A #bold [king|E] #!can hold a maximum of 3 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$An #bold [emperor|E] #!can hold a maximum of 4 [settlement_holdings|E] without incurring [additional_settlement_upkeep|E]."
+### TODO NOT-IN-ST: game_concept_additional_settlement_upkeep [AGOT: Additional Upkeep]
+ game_concept_additional_settlement_upkeep:0 "Additional Upkeep"
+### TODO NOT-IN-ST: game_concept_additional_settlement_upkeep_desc [AGOT: Additional upkeep refers to the monthly income reduction due to holding too many [settlement_holdings|E].\n\nRulers can #V abandon#! their settlement holdings if the upkeep starts to ruin the economy of the [realm|E].]
+ game_concept_additional_settlement_upkeep_desc:0 "Additional upkeep refers to the monthly income reduction due to holding too many [settlement_holdings|E].\n\nRulers can #V abandon#! their settlement holdings if the upkeep starts to ruin the economy of the [realm|E]."
 ### TODO NOT-IN-ST: game_concept_bastard_house [AGOT: Bastard Branch]
  game_concept_bastard_house:0 "Bastard Branch"
 ### TODO NOT-IN-ST: game_concept_bastard_branch [AGOT: Bastard Branch]
@@ -35,14 +159,42 @@
  game_concept_bastard_branches:0 "Bastard Branches"
 ### TODO NOT-IN-ST: game_concept_bastard_house_desc [AGOT: [bastard|E] members create their own [house|E] when they have offspring. Such offshoot houses function as [cadet_branches|E] do — acting as a separate branch within the larger dynasty.]
  game_concept_bastard_house_desc:0 "[bastard|E] members create their own [house|E] when they have offspring. Such offshoot houses function as [cadet_branches|E] do — acting as a separate branch within the larger dynasty."
+### TODO NOT-IN-ST: game_concept_reaving [AGOT: Reaving]
+ game_concept_reaving:0 "Reaving"
+### TODO NOT-IN-ST: game_concept_reaving_desc [AGOT: An [activity|E] where rulers embark on an expedition to ravage a nearby coastline.\n\nThe primary purpose of this activity is to plunder [gold|E].\n\nA [ruler|E] will invite their close relatives, [courtiers|E], [guests|E] and [vassals|E].]
+ game_concept_reaving_desc:1 "An [activity|E] where rulers embark on an expedition to ravage a nearby coastline.\n\nThe primary purpose of this activity is to plunder [gold|E].\n\nA [ruler|E] will invite their close relatives, [courtiers|E], [guests|E] and [vassals|E]."
+### TODO NOT-IN-ST: game_concept_admiral [AGOT: Admiral]
+ game_concept_admiral:0 "Admiral"
+### TODO NOT-IN-ST: game_concept_admirals [AGOT: Admirals]
+ game_concept_admirals:0 "Admirals"
+### TODO NOT-IN-ST: game_concept_admiral_desc [AGOT: The $game_concept_admiral$ is your [councillor|E] in charge of matters nautical and naval. Grand Captain of your [fleet|E], and overseer of when your armies [embark|E].]
+ game_concept_admiral_desc:1 "The $game_concept_admiral$ is your [councillor|E] in charge of matters nautical and naval. Grand Captain of your [fleet|E], and overseer of when your armies [embark|E]."
 ### TODO NOT-IN-ST: game_concept_castellan [AGOT: Castellan]
  game_concept_castellan:0 "Castellan"
 ### TODO NOT-IN-ST: game_concept_castellan_desc [AGOT: The $game_concept_castellan$ is your [councillor|E] who acts in their capacity as your strong right hand. They can perform a variety [councillor_tasks|E] depending on their capabilities, speak with your voice, and act with your hand.]
  game_concept_castellan_desc:1 "The $game_concept_castellan$ is your [councillor|E] who acts in their capacity as your strong right hand. They can perform a variety [councillor_tasks|E] depending on their capabilities, speak with your voice, and act with your hand."
+### TODO NOT-IN-ST: activity_kinguard_bodyguard_name [AGOT: Bodyguard Duties]
+ activity_kinguard_bodyguard_name:0 "Bodyguard Duties"
+### TODO NOT-IN-ST: activity_kinguard_bodyguard [AGOT: Bodyguard Duties]
+ activity_kinguard_bodyguard:0 "Bodyguard Duties"
+### TODO NOT-IN-ST: activity_location_set [AGOT: Traveling]
+ activity_location_set:0 "Traveling"
+### TODO NOT-IN-ST: activity_location_set_name [AGOT: Traveling]
+ activity_location_set_name:0 "Traveling"
 ### TODO NOT-IN-ST: game_concept_agot_personal_coa [AGOT: Personal Arms]
  game_concept_agot_personal_coa:0 "Personal Arms"
 ### TODO NOT-IN-ST: game_concept_agot_personal_coa_desc [AGOT: $game_concept_agot_personal_coa$ are a set of heraldic arms owned by the individual rather than the [house|e].\n\nA player may customize their own personal arms to their liking; though, they may sometimes be granted one based on other conditions — such as their nickname or birth order.]
  game_concept_agot_personal_coa_desc:0 "$game_concept_agot_personal_coa$ are a set of heraldic arms owned by the individual rather than the [house|e].\n\nA player may customize their own personal arms to their liking; though, they may sometimes be granted one based on other conditions — such as their nickname or birth order."
+### TODO NOT-IN-ST: game_concept_pirate_den_holding [AGOT: Pirate Den]
+ game_concept_pirate_den_holding:0 "Pirate Den"
+### TODO NOT-IN-ST: game_concept_pirate_den [AGOT: Pirate Den]
+ game_concept_pirate_den:0 "Pirate Den"
+### TODO NOT-IN-ST: game_concept_pirate_dens [AGOT: Pirate Dens]
+ game_concept_pirate_dens:0 "Pirate Dens"
+### TODO NOT-IN-ST: game_concept_pirate_den_holdings [AGOT: Pirate Dens]
+ game_concept_pirate_den_holdings:0 "Pirate Dens"
+### TODO NOT-IN-ST: game_concept_pirate_den_holding_desc [AGOT: Pirate dens are the standard [holding_type|E], lightly fortified encampments where pirates gather when forced to land. It is the primary type of holding available to [GetGovernment( 'pirate_government' ).GetName] [rulers|E].]
+ game_concept_pirate_den_holding_desc:0 "Pirate dens are the standard [holding_type|E], lightly fortified encampments where pirates gather when forced to land. It is the primary type of holding available to [GetGovernment( 'pirate_government' ).GetName] [rulers|E]."
 ### TODO NOT-IN-ST: game_concept_dragon [AGOT: Dragon]
  game_concept_dragon:0 "Dragon"
 ### TODO NOT-IN-ST: game_concept_dragons_plural [AGOT: Dragons]
@@ -53,6 +205,12 @@
  game_concept_dragon_type:0 "Dragon Types"
 ### TODO NOT-IN-ST: game_concept_dragon_type_desc [AGOT: $game_concept_dragons_plural$ come in three distinct types. These are [wild_dragons|E], [owned_dragons|E], and [tamed_dragons|E]. A dragon's type will affect how it interacts with the world, how a [ruler|e] can interact with it, and whether it can be used in combat.]
  game_concept_dragon_type_desc:0 "$game_concept_dragons_plural$ come in three distinct types. These are [wild_dragons|E], [owned_dragons|E], and [tamed_dragons|E]. A dragon's type will affect how it interacts with the world, how a [ruler|e] can interact with it, and whether it can be used in combat."
+### TODO NOT-IN-ST: game_concept_wild_dragon [AGOT: Wild Dragon]
+ game_concept_wild_dragon:0 "Wild Dragon"
+### TODO NOT-IN-ST: game_concept_wild_dragons [AGOT: Wild Dragons]
+ game_concept_wild_dragons:0 "Wild Dragons"
+### TODO NOT-IN-ST: game_concept_wild_dragon_desc [AGOT: $game_concept_wild_dragons$ are dragons that are not owned by any [ruler|E], living as they naturally do. They are free to roam the world, though prefer to stay near their lair. A wild dragon cannot be used in combat or to travel, and largely form a hazard to any [ruler|E] or [realm|E] within hunting range.\n\nThey are one of the three types of [dragon|E]. The other two are [owned_dragons|E] and [tamed_dragons|E].\n\nA ruler with a [dragonpit|E] may attempt to capture a $game_concept_wild_dragon$ to turn it into an $game_concept_owned_dragon$, while nearby rulers and [courtiers|E] may attempt to tame it directly.]
+ game_concept_wild_dragon_desc:0 "$game_concept_wild_dragons$ are dragons that are not owned by any [ruler|E], living as they naturally do. They are free to roam the world, though prefer to stay near their lair. A wild dragon cannot be used in combat or to travel, and largely form a hazard to any [ruler|E] or [realm|E] within hunting range.\n\nThey are one of the three types of [dragon|E]. The other two are [owned_dragons|E] and [tamed_dragons|E].\n\nA ruler with a [dragonpit|E] may attempt to capture a $game_concept_wild_dragon$ to turn it into an $game_concept_owned_dragon$, while nearby rulers and [courtiers|E] may attempt to tame it directly."
 ### TODO NOT-IN-ST: game_concept_owned_dragon [AGOT: Owned Dragon]
  game_concept_owned_dragon:0 "Owned Dragon"
 ### TODO NOT-IN-ST: game_concept_owned_dragons [AGOT: Owned Dragons]
@@ -65,10 +223,66 @@
  game_concept_tamed_dragons:0 "Tamed Dragons"
 ### TODO NOT-IN-ST: game_concept_tamed_dragon_desc [AGOT: $game_concept_tamed_dragons$ are dragons that have been tamed by a [GetTrait('dragonrider').GetName(GetNullCharacter)]. If their rider is a [ruler|E] they will remain in their capital, else they will remain in their rider's employer's capital. That is, unless they are in an [army|E] or being used to [travel|E].\n\nThey are one of the three types of [dragon|E]. The other two are [wild_dragons|E] and [owned_dragons|E]. Tamed dragons will become wild if their rider dies while they are not kept in a [dragonpit|E].]
  game_concept_tamed_dragon_desc:0 "$game_concept_tamed_dragons$ are dragons that have been tamed by a [GetTrait('dragonrider').GetName(GetNullCharacter)]. If their rider is a [ruler|E] they will remain in their capital, else they will remain in their rider's employer's capital. That is, unless they are in an [army|E] or being used to [travel|E].\n\nThey are one of the three types of [dragon|E]. The other two are [wild_dragons|E] and [owned_dragons|E]. Tamed dragons will become wild if their rider dies while they are not kept in a [dragonpit|E]."
+### TODO NOT-IN-ST: game_concept_dragon_size [AGOT: Dragon Size]
+ game_concept_dragon_size:0 "Dragon Size"
+### TODO NOT-IN-ST: game_concept_dragons_size [AGOT: Dragon's Size]
+ game_concept_dragons_size:0 "Dragon's Size"
+### TODO NOT-IN-ST: game_concept_dragon_size_desc [AGOT: $game_concept_dragon_size$ is the physical size of a [dragon|E]. It is a collective measure of the dragon's length, wingspan, and weight. A dragon's size will greatly affect its [dragon_combat_effectiveness|E] as well as its [draconic_dread|E] and [taming_chance|E].\n\nA dragon will never stop growing, but the rate at which they do so will slow as they age. Dragons kept in a man-made [dragonpit|E] will grow slower than those that grow in the wild or in a [natural_dragonpit|E].]
+ game_concept_dragon_size_desc:0 "$game_concept_dragon_size$ is the physical size of a [dragon|E]. It is a collective measure of the dragon's length, wingspan, and weight. A dragon's size will greatly affect its [dragon_combat_effectiveness|E] as well as its [draconic_dread|E] and [taming_chance|E].\n\nA dragon will never stop growing, but the rate at which they do so will slow as they age. Dragons kept in a man-made [dragonpit|E] will grow slower than those that grow in the wild or in a [natural_dragonpit|E]."
+### TODO NOT-IN-ST: game_concept_dragon_size_i [AGOT: @dragon_size_stat_icon!]
+ game_concept_dragon_size_i:0 "@dragon_size_stat_icon!"
+### TODO NOT-IN-ST: game_concept_dragon_size_lists_i [AGOT: @dragon_size_lists_icon! [Character.MakeScope.ScriptValue('dragon_size')|0]]
+ game_concept_dragon_size_lists_i:0 "@dragon_size_lists_icon! [Character.MakeScope.ScriptValue('dragon_size')|0]"
+### TODO NOT-IN-ST: game_concept_dragon_combat_effectiveness [AGOT: Combat Effectiveness]
+ game_concept_dragon_combat_effectiveness:0 "Combat Effectiveness"
+### TODO NOT-IN-ST: game_concept_dragon_combat_effectiveness_desc [AGOT: $game_concept_dragon_combat_effectiveness$ is a measure of how effective a [dragon|E] is in combat. It is largely affected by the [dragons_size|E], but may be influenced by [traits|E] and the experience of its [GetTrait('dragonrider').GetName(GetNullCharacter)]. A dragon with high combat effectiveness will be more effective in battle.]
+ game_concept_dragon_combat_effectiveness_desc:0 "$game_concept_dragon_combat_effectiveness$ is a measure of how effective a [dragon|E] is in combat. It is largely affected by the [dragons_size|E], but may be influenced by [traits|E] and the experience of its [GetTrait('dragonrider').GetName(GetNullCharacter)]. A dragon with high combat effectiveness will be more effective in battle."
+### TODO NOT-IN-ST: game_concept_dragon_combat_effectiveness_num [AGOT: [Character.MakeScope.Var('current_dragon').Char.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]]
+ game_concept_dragon_combat_effectiveness_num:0 "[Character.MakeScope.Var('current_dragon').Char.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+### TODO NOT-IN-ST: game_concept_dragon_combat_effectiveness_i [AGOT: @dragon_combat_effectiveness_stat_icon!]
+ game_concept_dragon_combat_effectiveness_i:0 "@dragon_combat_effectiveness_stat_icon!"
+### TODO NOT-IN-ST: game_concept_dragon_combat_effectiveness_lists_i [AGOT: @dragon_combat_effectiveness_lists_icon!  [Character.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]]
+ game_concept_dragon_combat_effectiveness_lists_i:0 "@dragon_combat_effectiveness_lists_icon!  [Character.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+### TODO NOT-IN-ST: game_concept_draconic_dread [AGOT: Draconic Dread]
+ game_concept_draconic_dread:0 "Draconic Dread"
+### TODO NOT-IN-ST: game_concept_draconic_dread_desc [AGOT: $game_concept_draconic_dread$ is the [dread|E] that a [dragon|E], rather than a ruler, possesses. It represents the intrinsic fear that the creature strikes into the hearts of men. While largely reflecting the [dragons_size|E], it can also be affected by its [personality|E] and deeds.]
+ game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ is the [dread|E] that a [dragon|E], rather than a ruler, possesses. It represents the intrinsic fear that the creature strikes into the hearts of men. While largely reflecting the [dragons_size|E], it can also be affected by its [personality|E] and deeds."
+### TODO NOT-IN-ST: game_concept_draconic_dread_i [AGOT: @draconic_dread_stat_icon!]
+ game_concept_draconic_dread_i:0 "@draconic_dread_stat_icon!"
+### TODO NOT-IN-ST: game_concept_draconic_dread_lists_i [AGOT: @draconic_dread_lists_icon! [Character.MakeScope.ScriptValue('draconic_dread')|0]]
+ game_concept_draconic_dread_lists_i:0 "@draconic_dread_lists_icon! [Character.MakeScope.ScriptValue('draconic_dread')|0]"
 ### TODO NOT-IN-ST: game_concept_temperament [AGOT: Temperament]
  game_concept_temperament:0 "Temperament"
 ### TODO NOT-IN-ST: game_concept_temperament_desc [AGOT: $game_concept_temperament$ is the general disposition and attitude that a [dragon|E] displays. Positive values indicate a more sociable dragon, while a dragon with a negative temperament is a more wild and willful beast. A dragon's temperament will be affected by their [education|E], [personality|E], and experiences.]
  game_concept_temperament_desc:0 "$game_concept_temperament$ is the general disposition and attitude that a [dragon|E] displays. Positive values indicate a more sociable dragon, while a dragon with a negative temperament is a more wild and willful beast. A dragon's temperament will be affected by their [education|E], [personality|E], and experiences."
+### TODO NOT-IN-ST: game_concept_temperament_i [AGOT: @temperament_stat_icon!]
+ game_concept_temperament_i:0 "@temperament_stat_icon!"
+### TODO NOT-IN-ST: game_concept_temperament_lists_i [AGOT: @temperament_lists_icon! [Character.MakeScope.ScriptValue('temperament')|0]]
+ game_concept_temperament_lists_i:0 "@temperament_lists_icon! [Character.MakeScope.ScriptValue('temperament')|0]"
+### TODO NOT-IN-ST: game_concept_taming_chance [AGOT: Taming Chance]
+ game_concept_taming_chance:0 "Taming Chance"
+### TODO NOT-IN-ST: game_concept_taming_chance_desc [AGOT: $game_concept_taming_chance$ is the innate likelihood of a [dragon|E] to be tamed and bonded with. A higher taming chance indicates a dragon more susceptible to human interaction, while a lower taming chance represents a dragon that all but the strongest wills will struggle to tame. A dragon's taming chance will be affected by their [education|E], [personality|E], and experiences.]
+ game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ is the innate likelihood of a [dragon|E] to be tamed and bonded with. A higher taming chance indicates a dragon more susceptible to human interaction, while a lower taming chance represents a dragon that all but the strongest wills will struggle to tame. A dragon's taming chance will be affected by their [education|E], [personality|E], and experiences."
+### TODO NOT-IN-ST: game_concept_dragonpit [AGOT: Dragonpit]
+ game_concept_dragonpit:0 "Dragonpit"
+### TODO NOT-IN-ST: game_concept_dragonpits [AGOT: Dragonpits]
+ game_concept_dragonpits:0 "Dragonpits"
+### TODO NOT-IN-ST: game_concept_dragonpit_desc [AGOT: A $game_concept_dragonpit$ is a [building|E] that is used to house both [owned_dragons|E] and [tamed_dragons|E]. These buildings are very expensive to construct, but once finished provide the holder with increased security for their dragons, unique interactions, and the ability to appoint a $head_dragonkeeper_court_position$ [court_position|E]. Notably, these are the only way to retain a tamed dragon as an owned dragon should its rider die.\n\nThe Dragonmont on Dragonstone acts as a [natural_dragonpit|E]; the only one of its kind.]
+ game_concept_dragonpit_desc:0 "A $game_concept_dragonpit$ is a [building|E] that is used to house both [owned_dragons|E] and [tamed_dragons|E]. These buildings are very expensive to construct, but once finished provide the holder with increased security for their dragons, unique interactions, and the ability to appoint a $head_dragonkeeper_court_position$ [court_position|E]. Notably, these are the only way to retain a tamed dragon as an owned dragon should its rider die.\n\nThe Dragonmont on Dragonstone acts as a [natural_dragonpit|E]; the only one of its kind."
+### TODO NOT-IN-ST: game_concept_dragon_pit [AGOT: $game_concept_dragonpit$]
+ game_concept_dragon_pit:0 "$game_concept_dragonpit$"
+### TODO NOT-IN-ST: game_concept_dragon_pit_desc [AGOT: $game_concept_dragonpit_desc$]
+ game_concept_dragon_pit_desc:0 "$game_concept_dragonpit_desc$"
+### TODO NOT-IN-ST: game_concept_natural_dragonpit [AGOT: Natural Dragonpit]
+ game_concept_natural_dragonpit:0 "Natural Dragonpit"
+### TODO NOT-IN-ST: game_concept_natural_dragonpits [AGOT: Natural Dragonpits]
+ game_concept_natural_dragonpits:0 "Natural Dragonpits"
+### TODO NOT-IN-ST: game_concept_natural_dragonpit_desc [AGOT: A $game_concept_natural_dragonpit$ is a [dragonpit|E] where an order of [dragonkeepers|E] have made use of natural caverns to store and guard [dragons_plural|E]. A [dragons_size|E] will not suffer as much as a dragon locked in an man-made dragonpit.]
+ game_concept_natural_dragonpit_desc:0 "A $game_concept_natural_dragonpit$ is a [dragonpit|E] where an order of [dragonkeepers|E] have made use of natural caverns to store and guard [dragons_plural|E]. A [dragons_size|E] will not suffer as much as a dragon locked in an man-made dragonpit."
+### TODO NOT-IN-ST: game_concept_anti_dragon_maa [AGOT: Anti-Dragon]
+ game_concept_anti_dragon_maa:0 "Anti-Dragon"
+### TODO NOT-IN-ST: game_concept_anti_dragon_maa_desc [AGOT: Purpose-built [men_at_arms|E] to combat the threat of [dragons_plural|E]. These regiments will not provide their worth unless faced with their intended foe, but little else can hope to protect an [army|E] when it is faced with a dragon.]
+ game_concept_anti_dragon_maa_desc:0 "Purpose-built [men_at_arms|E] to combat the threat of [dragons_plural|E]. These regiments will not provide their worth unless faced with their intended foe, but little else can hope to protect an [army|E] when it is faced with a dragon."
 ### TODO NOT-IN-ST: game_concept_dragon_gender [AGOT: Dragon Gender]
  game_concept_dragon_gender:0 "Dragon Gender"
 ### TODO NOT-IN-ST: game_concept_dragon_gender_desc [AGOT: The [maesters|E] of the Citadel have long debated the true nature of [dragons_plural|E], some believing that they change as needed between male and female, and others believing them to have no particular gender at all. Historically, dragons that have been observed to lay eggs have been referred to as female, though some that are known as female have not done so.\n\nRegardless, the conventions of men hold that dragons are indeed distinguished by their sex, and so they are referred to as such until either rider or a clutch state otherwise.]
@@ -77,12 +291,20 @@
  game_concept_dragonblood:0 "Dragonblood"
 ### TODO NOT-IN-ST: game_concept_dragonblood_desc [AGOT: $game_concept_dragonblood$ is an indicator that a [character|e] is descended from either a [GetTrait('dragonrider').GetName( GetNullCharacter )|LV], or a [house|E] with the [GetModifier('dragonrider_house_modifier').GetNameWithTooltip|L] modifier.]
  game_concept_dragonblood_desc:0 "$game_concept_dragonblood$ is an indicator that a [character|e] is descended from either a [GetTrait('dragonrider').GetName( GetNullCharacter )|LV], or a [house|E] with the [GetModifier('dragonrider_house_modifier').GetNameWithTooltip|L] modifier."
+### TODO NOT-IN-ST: game_concept_authorized_tamer [AGOT: Authorized Tamer]
+ game_concept_authorized_tamer:0 "Authorized Tamer"
+### TODO NOT-IN-ST: game_concept_authorized_tamer_desc [AGOT: An $game_concept_authorized_tamer$ is a [character|e] that has been granted special permission to access a specific [dragonpit|e] regardless of its laws. The dragonpit owner can remove this distinction at will.\n\nA character can only be an $game_concept_authorized_tamer$ of one dragonpit at a time.]
+ game_concept_authorized_tamer_desc:0 "An $game_concept_authorized_tamer$ is a [character|e] that has been granted special permission to access a specific [dragonpit|e] regardless of its laws. The dragonpit owner can remove this distinction at will.\n\nA character can only be an $game_concept_authorized_tamer$ of one dragonpit at a time."
 ### TODO NOT-IN-ST: game_concept_dragonkeeper [AGOT: Dragonkeeper]
  game_concept_dragonkeeper:0 "Dragonkeeper"
 ### TODO NOT-IN-ST: game_concept_dragonkeepers [AGOT: Dragonkeepers]
  game_concept_dragonkeepers:0 "Dragonkeepers"
 ### TODO NOT-IN-ST: game_concept_dragonkeeper_desc [AGOT: The Order of the $game_concept_dragonkeepers$ is charged with overseeing the maintenance of [dragonpits|E] and any housed [dragons_plural|E]. The order is led by a $head_dragonkeeper_court_position$, who unlocks several [dragonpit_interactions|E] when employed.]
  game_concept_dragonkeeper_desc:0 "The Order of the $game_concept_dragonkeepers$ is charged with overseeing the maintenance of [dragonpits|E] and any housed [dragons_plural|E]. The order is led by a $head_dragonkeeper_court_position$, who unlocks several [dragonpit_interactions|E] when employed."
+### TODO NOT-IN-ST: game_concept_dragonpit_interactions [AGOT: Dragonpit Interactions]
+ game_concept_dragonpit_interactions:0 "Dragonpit Interactions"
+### TODO NOT-IN-ST: game_concept_dragonpit_interactions_desc [AGOT: $game_concept_dragonpit_interactions$ are a set of [interactions|E] unlocked when a [character|E] employs the $head_dragonkeeper_court_position$ [court_position|E]. These interactions allow the owner of a [dragonpit|e] a finer degree of control.\n\n$EFFECT_LIST_BULLET$#V Teach Dragonlore #!Interaction - Teach children, grandchildren, or [house|E] members Dragonlore.\n$EFFECT_LIST_BULLET$#V Ban Access to Dragonpit #!Interaction - Restrict a character who normally has access to a dragonpit because of that pit's [laws|e].\n$EFFECT_LIST_BULLET$#V Lift Dragonpit Ban #!Interaction - Restore a character's access to a dragonpit they have been banned from.\n$EFFECT_LIST_BULLET$#V Grant Access to Dragonpit #!Interaction - Make a character an [authorized_tamer|E] of a specific dragonpit.\n$EFFECT_LIST_BULLET$#V Send Egg to Dragonpit #!Interaction - Send a dragon egg [artifact|e] to the pit where it may hatch on its own, or for safekeeping.\n$EFFECT_LIST_BULLET$#V Retrieve Egg from Dragonpit #!Interaction - Retrieve a pitted egg from the dragonpit.]
+ game_concept_dragonpit_interactions_desc:0 "$game_concept_dragonpit_interactions$ are a set of [interactions|E] unlocked when a [character|E] employs the $head_dragonkeeper_court_position$ [court_position|E]. These interactions allow the owner of a [dragonpit|e] a finer degree of control.\n\n$EFFECT_LIST_BULLET$#V Teach Dragonlore #!Interaction - Teach children, grandchildren, or [house|E] members Dragonlore.\n$EFFECT_LIST_BULLET$#V Ban Access to Dragonpit #!Interaction - Restrict a character who normally has access to a dragonpit because of that pit's [laws|e].\n$EFFECT_LIST_BULLET$#V Lift Dragonpit Ban #!Interaction - Restore a character's access to a dragonpit they have been banned from.\n$EFFECT_LIST_BULLET$#V Grant Access to Dragonpit #!Interaction - Make a character an [authorized_tamer|E] of a specific dragonpit.\n$EFFECT_LIST_BULLET$#V Send Egg to Dragonpit #!Interaction - Send a dragon egg [artifact|e] to the pit where it may hatch on its own, or for safekeeping.\n$EFFECT_LIST_BULLET$#V Retrieve Egg from Dragonpit #!Interaction - Retrieve a pitted egg from the dragonpit."
 ### TODO NOT-IN-ST: game_concept_story_content_robert_baratheon_282 [AGOT: $game_concept_story_generic_prefix$ $bookmark_282_robert_baratheon$]
  game_concept_story_content_robert_baratheon_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_robert_baratheon$"
 ### TODO NOT-IN-ST: game_concept_story_content_robert_baratheon_282_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Robert Baratheon, you will fight against Aerys II Targaryen and his loyalists. Scripted story events will fire throughout the war as you navigate toward victory — or defeat — against House Targaryen.]
@@ -95,6 +317,10 @@
  game_concept_story_content_aerys_targaryen_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_aerys_targaryen$"
 ### TODO NOT-IN-ST: game_concept_story_content_aerys_targaryen_282_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Aerys II Targaryen, you will fight against the forces of Robert Baratheon and his allies. Scripted story events concerning the war, the realm, and your family will fire throughout the conflict as you navigate toward victory — or defeat — against the rebels.]
  game_concept_story_content_aerys_targaryen_282_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Aerys II Targaryen, you will fight against the forces of Robert Baratheon and his allies. Scripted story events concerning the war, the realm, and your family will fire throughout the conflict as you navigate toward victory — or defeat — against the rebels."
+### TODO NOT-IN-ST: game_concept_story_content_tywin_lannister_282 [AGOT: $game_concept_story_generic_prefix$ $bookmark_282_tywin_lannister$]
+ game_concept_story_content_tywin_lannister_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_tywin_lannister$"
+### TODO NOT-IN-ST: game_concept_story_content_tywin_lannister_282_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs Tywin Lannister, you are a neutral observer as your friend-turned-rival Aerys II Targaryen fights in a war against an alliance of rebel lords led by Robert Baratheon. As the war progresses, you may face story events concerning your neutrality and willingness to participate in the war.]
+ game_concept_story_content_tywin_lannister_282_desc:0 "#tooltip_heading Story Style: Moderate#!\n\nAs Tywin Lannister, you are a neutral observer as your friend-turned-rival Aerys II Targaryen fights in a war against an alliance of rebel lords led by Robert Baratheon. As the war progresses, you may face story events concerning your neutrality and willingness to participate in the war."
 ### TODO NOT-IN-ST: game_concept_story_content_eddard_stark_282 [AGOT: $game_concept_story_generic_prefix$ $bookmark_282_eddard_stark$]
  game_concept_story_content_eddard_stark_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_eddard_stark$"
 ### TODO NOT-IN-ST: game_concept_story_content_eddard_stark_282_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs Ned Stark, you will fight against Aerys II Targaryen alongside your lifelong friend Robert Baratheon. You will face scripted story events concerning the fate of your missing sister, Lyanna Stark.]
@@ -107,6 +333,10 @@
  game_concept_story_content_maelys_blackfyre_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_maelys_blackfyre$"
 ### TODO NOT-IN-ST: game_concept_story_content_maelys_blackfyre_259_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Maelys Blackfyre, you will fight alongside your allies in order to take back what is yours: the Seven Kingdoms. You will face scripted story events allowing conquest of your surrounding realms, culminating in a war for your ultimate goal, Westeros.]
  game_concept_story_content_maelys_blackfyre_259_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Maelys Blackfyre, you will fight alongside your allies in order to take back what is yours: the Seven Kingdoms. You will face scripted story events allowing conquest of your surrounding realms, culminating in a war for your ultimate goal, Westeros."
+### TODO NOT-IN-ST: game_concept_story_content_viserys_targaryen_109 [AGOT: $game_concept_story_generic_prefix$ $bookmark_106_viserys_targaryen$]
+ game_concept_story_content_viserys_targaryen_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_viserys_targaryen$"
+### TODO NOT-IN-ST: game_concept_story_content_viserys_targaryen_109_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Viserys I Targaryen, you are the ruler of a realm at a peace inherited from your grandsire, Jaehaerys Targaryen. You will face scripted story events concerning your family and their exploits — namely, your brother, Prince Daemon Targaryen.]
+ game_concept_story_content_viserys_targaryen_109_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Viserys I Targaryen, you are the ruler of a realm at a peace inherited from your grandsire, Jaehaerys Targaryen. You will face scripted story events concerning your family and their exploits — namely, your brother, Prince Daemon Targaryen."
 ### TODO NOT-IN-ST: game_concept_story_content_daemon_targaryen_109 [AGOT: $game_concept_story_generic_prefix$ $bookmark_106_daemon_targaryen$]
  game_concept_story_content_daemon_targaryen_109:0 "$game_concept_story_generic_prefix$ $bookmark_106_daemon_targaryen$"
 ### TODO NOT-IN-ST: game_concept_story_content_daemon_targaryen_109_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Daemon Targaryen, you will fight against the pirates backed by the Triarchy laying claim to the Stepstones. As your conquests progress, you will face scripted story events concerning your rule and your family.]
@@ -135,6 +365,10 @@
  game_concept_story_content_rohanne_webber_211:0 "$game_concept_story_generic_prefix$ $bookmark_211_rohanne_webber$"
 ### TODO NOT-IN-ST: game_concept_story_content_rohanne_webber_211_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs Rohanne Webber, you will face scripted story events concerning your marital status and a land dispute with your neighbor, Eustace Osgrey.]
  game_concept_story_content_rohanne_webber_211_desc:0 "#tooltip_heading Story Style: Moderate#!\n\nAs Rohanne Webber, you will face scripted story events concerning your marital status and a land dispute with your neighbor, Eustace Osgrey."
+### TODO NOT-IN-ST: game_concept_story_content_tytos_lannister_259 [AGOT: $game_concept_story_generic_prefix$ $bookmark_259_tytos_lannister$]
+ game_concept_story_content_tytos_lannister_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_tytos_lannister$"
+### TODO NOT-IN-ST: game_concept_story_content_tytos_lannister_259_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs Tytos Lannister, you are a lord dealing with arrogant vassals with large ambition. You will face scripted story events concerning the status and position of several of your vassals, potentially leading to the outbreak of war.]
+ game_concept_story_content_tytos_lannister_259_desc:0 "#tooltip_heading Story Style: Moderate#!\n\nAs Tytos Lannister, you are a lord dealing with arrogant vassals with large ambition. You will face scripted story events concerning the status and position of several of your vassals, potentially leading to the outbreak of war."
 ### TODO NOT-IN-ST: game_concept_story_content_roger_reyne_259 [AGOT: $game_concept_story_generic_prefix$ $bookmark_259_roger_reyne$]
  game_concept_story_content_roger_reyne_259:0 "$game_concept_story_generic_prefix$ $bookmark_259_roger_reyne$"
 ### TODO NOT-IN-ST: game_concept_story_content_roger_reyne_259_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Roger Reyne, you are an ambitious lord with little respect for your liege, Tytos Lannister. You will face scripted story events concerning your fealty, possibly leading to a rebellion against your liege lord.]
@@ -155,6 +389,10 @@
  game_concept_story_content_denys_darklyn_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_denys_darklyn$"
 ### TODO NOT-IN-ST: game_concept_story_content_denys_darklyn_277_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Denys Darklyn, you have taken King Aerys II Targaryen hostage. You will face scripted story events related to your demands, and whether they are granted, as you vie for greater standing in the realm with the king as leverage.]
  game_concept_story_content_denys_darklyn_277_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Denys Darklyn, you have taken King Aerys II Targaryen hostage. You will face scripted story events related to your demands, and whether they are granted, as you vie for greater standing in the realm with the king as leverage."
+### TODO NOT-IN-ST: game_concept_story_content_tywin_lannister_277 [AGOT: $game_concept_story_generic_prefix$ $bookmark_277_tywin_lannister$]
+ game_concept_story_content_tywin_lannister_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_tywin_lannister$"
+### TODO NOT-IN-ST: game_concept_story_content_tywin_lannister_277_desc [AGOT: #tooltip_heading Story Style: Extensive#!\n\nAs Tywin Lannister, you serve as Hand of the King to an imprisoned King Aerys II Targaryen, and it falls to you to face off with Denys Darklyn for the king's safe release. You will face scripted story events concerning the king's rescue — and the fallout of your attempts.]
+ game_concept_story_content_tywin_lannister_277_desc:0 "#tooltip_heading Story Style: Extensive#!\n\nAs Tywin Lannister, you serve as Hand of the King to an imprisoned King Aerys II Targaryen, and it falls to you to face off with Denys Darklyn for the king's safe release. You will face scripted story events concerning the king's rescue — and the fallout of your attempts."
 ### TODO NOT-IN-ST: game_concept_story_content_lyonel_baratheon_236 [AGOT: $game_concept_story_generic_prefix$ $bookmark_236_lyonel_baratheon$]
  game_concept_story_content_lyonel_baratheon_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_lyonel_baratheon$"
 ### TODO NOT-IN-ST: game_concept_story_content_lyonel_baratheon_236_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Lyonel Baratheon, you are a lord determined to restore the honor of your house. You will experience scripted story events that revolve around the brewing rebellion.]
@@ -163,6 +401,10 @@
  game_concept_story_content_aegon_v_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_aegon_targaryen$"
 ### TODO NOT-IN-ST: game_concept_story_content_aegon_v_236_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Aegon V Targaryen, you must face the consequences of your children's misdeeds. You will experience scripted story events related to the growing rebellion.]
  game_concept_story_content_aegon_v_236_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Aegon V Targaryen, you must face the consequences of your children's misdeeds. You will experience scripted story events related to the growing rebellion."
+### TODO NOT-IN-ST: game_concept_story_content_bittersteel_236 [AGOT: $game_concept_story_generic_prefix$ $bookmark_236_bittersteel$]
+ game_concept_story_content_bittersteel_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_bittersteel$"
+### TODO NOT-IN-ST: game_concept_story_content_bittersteel_236_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Aegor Rivers, you are the Captain-General of the Golden Company. You will experience scripted story events tied to the ambition of King Daemon III.]
+ game_concept_story_content_bittersteel_236_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Aegor Rivers, you are the Captain-General of the Golden Company. You will experience scripted story events tied to the ambition of King Daemon III."
 ### TODO NOT-IN-ST: game_concept_story_content_daemon_blackfyre_236 [AGOT: $game_concept_story_generic_prefix$ $bookmark_236_daemon_blackfyre$]
  game_concept_story_content_daemon_blackfyre_236:0 "$game_concept_story_generic_prefix$ $bookmark_236_daemon_blackfyre$"
 ### TODO NOT-IN-ST: game_concept_story_content_daemon_blackfyre_236_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs King Daemon III Blackfyre, you lead the Blackfyre Host. You will experience scripted story events tied to your ambition to reclaim the Iron Throne.]
@@ -179,6 +421,10 @@
  game_concept_story_content_bloodraven_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_bloodraven$"
 ### TODO NOT-IN-ST: game_concept_story_content_bloodraven_239_desc [AGOT: #tooltip_heading Story Style: Moderate#!\n\nAs Brynden Rivers, you are the newly elected Lord Commander of the Night's Watch. You will experience scripted story events concerning your visions.]
  game_concept_story_content_bloodraven_239_desc:0 "#tooltip_heading Story Style: Moderate#!\n\nAs Brynden Rivers, you are the newly elected Lord Commander of the Night's Watch. You will experience scripted story events concerning your visions."
+### TODO NOT-IN-ST: game_concept_story_content_bittersteel_239 [AGOT: $game_concept_story_generic_prefix$ $bookmark_239_bittersteel$]
+ game_concept_story_content_bittersteel_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_bittersteel$"
+### TODO NOT-IN-ST: game_concept_story_content_bittersteel_239_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Aegor Rivers, you are the Captain-General of the Golden Company. You will experience scripted story events tied to the ambition of Maelys 'the Monstrous.']
+ game_concept_story_content_bittersteel_239_desc:0 "#tooltip_heading Story Style: Light#!\n\nAs Aegor Rivers, you are the Captain-General of the Golden Company. You will experience scripted story events tied to the ambition of Maelys 'the Monstrous.'"
 ### TODO NOT-IN-ST: game_concept_story_content_garlan_tyrell_239 [AGOT: $game_concept_story_generic_prefix$ $bookmark_239_garlan_tyrell$]
  game_concept_story_content_garlan_tyrell_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_garlan_tyrell$"
 ### TODO NOT-IN-ST: game_concept_story_content_garlan_tyrell_239_desc [AGOT: #tooltip_heading Story Style: Light#!\n\nAs Garlan Tyrell, you must choose between loyalty to the king or siding with the Laughing Storm. You will experience scripted story events concerning the betrothals of Aegon Targaryen's children.]
@@ -191,18 +437,66 @@
  game_concept_nw_govt:0 "Night's Watch"
 ### TODO NOT-IN-ST: game_concept_nw_govt_desc [AGOT: Under the $game_concept_nw_govt$ [government_form|E], the top [liege|E] distributes [land|E] to [vassals|E] to govern and protect. Only sworn brothers of the Night's Watch may hold titles under this government, and when they die, their titles revert to their liege.]
  game_concept_nw_govt_desc:0 "Under the $game_concept_nw_govt$ [government_form|E], the top [liege|E] distributes [land|E] to [vassals|E] to govern and protect. Only sworn brothers of the Night's Watch may hold titles under this government, and when they die, their titles revert to their liege."
+### TODO NOT-IN-ST: game_concept_nw_govt_i [AGOT: @nights_watch_government!]
+ game_concept_nw_govt_i:0 "@nights_watch_government!"
+### TODO NOT-IN-ST: game_concept_pirate_govt [AGOT: Pirate]
+ game_concept_pirate_govt:0 "Pirate"
+### TODO NOT-IN-ST: game_concept_pirate_govt_desc [AGOT: Under the $game_concept_pirate_govt$ [government_form|E], [rulers|E] are constrained to an elective form of [succession|E], unique pirate [buildings|E], and limited to [pirate_den_holdings|E]. Despite these constraints, pirate rulers are able to [raid|E] and use the conquest [casus_belli|E].\n\nPirates also have access to a [domicile|E], the [agot_landless_pirate_domicile|E], which enables landless gameplay for this $game_concept_government_form$.]
+ game_concept_pirate_govt_desc:0 "Under the $game_concept_pirate_govt$ [government_form|E], [rulers|E] are constrained to an elective form of [succession|E], unique pirate [buildings|E], and limited to [pirate_den_holdings|E]. Despite these constraints, pirate rulers are able to [raid|E] and use the conquest [casus_belli|E].\n\nPirates also have access to a [domicile|E], the [agot_landless_pirate_domicile|E], which enables landless gameplay for this $game_concept_government_form$."
+### TODO NOT-IN-ST: game_concept_pirate_govt_i [AGOT: @pirate_government!]
+ game_concept_pirate_govt_i:0 "@pirate_government!"
+### TODO NOT-IN-ST: game_concept_pirate_no_dlc_govt [AGOT: Free Pirate]
+ game_concept_pirate_no_dlc_govt:0 "Free Pirate"
+### TODO NOT-IN-ST: game_concept_pirate_no_dlc_govt_desc [AGOT: Under the $game_concept_pirate_govt$ [government_form|E], [rulers|E] are constrained to an elective form of [succession|E], unique pirate [buildings|E], and limited to [pirate_den_holdings|E]. Despite these constraints, pirate rulers are able to [raid|E] and use the conquest [casus_belli|E].]
+ game_concept_pirate_no_dlc_govt_desc:0 "Under the $game_concept_pirate_govt$ [government_form|E], [rulers|E] are constrained to an elective form of [succession|E], unique pirate [buildings|E], and limited to [pirate_den_holdings|E]. Despite these constraints, pirate rulers are able to [raid|E] and use the conquest [casus_belli|E]."
+### TODO NOT-IN-ST: game_concept_pirate_no_dlc_govt_i [AGOT: @pirate_government!]
+ game_concept_pirate_no_dlc_govt_i:0 "@pirate_government!"
+### TODO NOT-IN-ST: game_concept_citadel_govt [AGOT: The Conclave]
+ game_concept_citadel_govt:0 "The Conclave"
+### TODO NOT-IN-ST: game_concept_citadel_govt_desc [AGOT: The $game_concept_citadel_govt$ is a nonplayable government representing the order of maesters.]
+ game_concept_citadel_govt_desc:0 "The $game_concept_citadel_govt$ is a nonplayable government representing the order of maesters."
+### TODO NOT-IN-ST: game_concept_citadel_govt_i [AGOT: @the_citadel_government!]
+ game_concept_citadel_govt_i:0 "@the_citadel_government!"
 ### TODO NOT-IN-ST: game_concept_kg_govt [AGOT: Kingsguard]
  game_concept_kg_govt:0 "Kingsguard"
 ### TODO NOT-IN-ST: game_concept_kg_govt_desc [AGOT: The $game_concept_kg_govt$ is a nonplayable government representing the elite order of bodyguards of the Iron Throne's monarch.]
  game_concept_kg_govt_desc:0 "The $game_concept_kg_govt$ is a nonplayable government representing the elite order of bodyguards of the Iron Throne's monarch."
+### TODO NOT-IN-ST: game_concept_kg_govt_i [AGOT: @kingsguard_government!]
+ game_concept_kg_govt_i:0 "@kingsguard_government!"
 ### TODO NOT-IN-ST: game_concept_command_govt [AGOT: Command]
  game_concept_command_govt:0 "Command"
 ### TODO NOT-IN-ST: game_concept_command_govt_desc [AGOT: $game_concept_command_govt$ is a nonplayable government representing an appointed commander overseeing a title.]
  game_concept_command_govt_desc:0 "$game_concept_command_govt$ is a nonplayable government representing an appointed commander overseeing a title."
+### TODO NOT-IN-ST: game_concept_command_govt_i [AGOT: @command_government!]
+ game_concept_command_govt_i:0 "@command_government!"
+### TODO NOT-IN-ST: game_concept_silent_sisters_govt [AGOT: Silent Sisterhood]
+ game_concept_silent_sisters_govt:0 "Silent Sisterhood"
+### TODO NOT-IN-ST: game_concept_silent_sisters_govt_desc [AGOT: The $game_concept_silent_sisters_govt$ is a nonplayable government representing the order of women who attend to the dead in the Faith of the Seven religion.]
+ game_concept_silent_sisters_govt_desc:0 "The $game_concept_silent_sisters_govt$ is a nonplayable government representing the order of women who attend to the dead in the Faith of the Seven religion."
+### TODO NOT-IN-ST: game_concept_silent_sisters_govt_i [AGOT: @silent_sisters_government!]
+ game_concept_silent_sisters_govt_i:0 "@silent_sisters_government!"
+### TODO NOT-IN-ST: game_concept_ruins_govt [AGOT: Ruin]
+ game_concept_ruins_govt:0 "Ruin"
+### TODO NOT-IN-ST: game_concept_ruins_govt_desc [AGOT: The $game_concept_ruins_govt$ is a nonplayable government representing realms that have fallen into ruin and are now tended by Wardens until they can be restored.]
+ game_concept_ruins_govt_desc:0 "The $game_concept_ruins_govt$ is a nonplayable government representing realms that have fallen into ruin and are now tended by Wardens until they can be restored."
+### TODO NOT-IN-ST: game_concept_ruins_govt_i [AGOT: @ruins_government!]
+ game_concept_ruins_govt_i:0 "@ruins_government!"
 ### TODO NOT-IN-ST: game_concept_unknown_govt [AGOT: Unknown]
  game_concept_unknown_govt:0 "Unknown"
 ### TODO NOT-IN-ST: game_concept_unknown_govt_desc [AGOT: The $game_concept_unknown_govt$ is a nonplayable government representing realms that are beyond the bounds of your diplomatic range.]
  game_concept_unknown_govt_desc:0 "The $game_concept_unknown_govt$ is a nonplayable government representing realms that are beyond the bounds of your diplomatic range."
+### TODO NOT-IN-ST: game_concept_unknown_govt_i [AGOT: @unknown_government!]
+ game_concept_unknown_govt_i:0 "@unknown_government!"
+### TODO NOT-IN-ST: game_concept_wilderness_govt [AGOT: Wilderness]
+ game_concept_wilderness_govt:0 "Wilderness"
+### TODO NOT-IN-ST: game_concept_wilderness_govt_desc [AGOT: The $game_concept_wilderness_govt$ is a nonplayable government representing realms that are uninhabited or too sparsely populated to maintain a government.]
+ game_concept_wilderness_govt_desc:0 "The $game_concept_wilderness_govt$ is a nonplayable government representing realms that are uninhabited or too sparsely populated to maintain a government."
+### TODO NOT-IN-ST: game_concept_wilderness_govt_i [AGOT: @wilderness_government!]
+ game_concept_wilderness_govt_i:0 "@wilderness_government!"
+### TODO NOT-IN-ST: game_concept_agot_spoils_of_war [AGOT: Spoils of War]
+ game_concept_agot_spoils_of_war:0 "Spoils of War"
+### TODO NOT-IN-ST: game_concept_agot_spoils_of_war_desc [AGOT: $game_concept_agot_spoils_of_war$ is an event that can fire following a claimant's victory over [empire|E] and [hegemony|E] tier [titles|e]. The top 3 war attackers who achieved a minimum 10% war score may request certain boons from the newly crowned claimant.\n\nThese boons include:\n$EFFECT_LIST_BULLET$#V Gold#!\n$EFFECT_LIST_BULLET$#V A small council position#!\n$EFFECT_LIST_BULLET$#V A royal marriage#!\n$EFFECT_LIST_BULLET$#V Place a family member into the [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V A lord paramountcy#!]
+ game_concept_agot_spoils_of_war_desc:0 "$game_concept_agot_spoils_of_war$ is an event that can fire following a claimant's victory over [empire|E] and [hegemony|E] tier [titles|e]. The top 3 war attackers who achieved a minimum 10% war score may request certain boons from the newly crowned claimant.\n\nThese boons include:\n$EFFECT_LIST_BULLET$#V Gold#!\n$EFFECT_LIST_BULLET$#V A small council position#!\n$EFFECT_LIST_BULLET$#V A royal marriage#!\n$EFFECT_LIST_BULLET$#V Place a family member into the [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V A lord paramountcy#!"
 ### TODO NOT-IN-ST: game_concept_agot_mega_wars [AGOT: Mega War]
  game_concept_agot_mega_wars:0 "Mega War"
 ### TODO NOT-IN-ST: game_concept_agot_mega_wars_desc [AGOT: A mega war is a large-scale conflict within a major realm that can be of minor or major severity: Mighty empires will fall into a [Concept('agot_major_mw', 'major')|E] war, whilst others will fall into a [Concept('agot_minor_mw', 'minor')|E] one. The war's impact is considered so severe that every participant must choose a side or, if in a [Concept('agot_major_mw', 'major')|E] war, stay neutral.\nAt the end of the war the winning side has extended options regarding the punishment of the losing side.]
@@ -211,6 +505,14 @@
  game_concept_agot_major_mw:0 "Major Mega War"
 ### TODO NOT-IN-ST: game_concept_agot_major_mw_desc [AGOT: In a major [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into three kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E], [Concept('agot_neutrals', 'Neutrals')|E], [Concept('agot_rebels', 'Rebels')|E].\nDuring the war, neutrals might still choose a side and are not bound to their initial decision.]
  game_concept_agot_major_mw_desc:0 "In a major [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into three kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E], [Concept('agot_neutrals', 'Neutrals')|E], [Concept('agot_rebels', 'Rebels')|E].\nDuring the war, neutrals might still choose a side and are not bound to their initial decision."
+### TODO NOT-IN-ST: game_concept_agot_minor_mw [AGOT: Minor Mega War]
+ game_concept_agot_minor_mw:0 "Minor Mega War"
+### TODO NOT-IN-ST: game_concept_agot_minor_mw_desc [AGOT: In a minor [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into only two kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E] and [Concept('agot_rebels', 'Rebels')|E].]
+ game_concept_agot_minor_mw_desc:0 "In a minor [Concept('agot_mega_wars', 'Mega War')|E] the realm is split up into only two kinds of participants: [Concept('agot_loyalists', 'Loyalists')|E] and [Concept('agot_rebels', 'Rebels')|E]."
+### TODO NOT-IN-ST: game_concept_agot_loyalists [AGOT: Loyalists]
+ game_concept_agot_loyalists:0 "Loyalists"
+### TODO NOT-IN-ST: game_concept_agot_loyalists_desc [AGOT: Those who stay loyal to the Crown during a [Concept('agot_mega_wars', 'Mega War')|E], are called loyalists. The Crown can be targeted by multiple [Concept('agot_rebels', 'rebel leaders')|E].]
+ game_concept_agot_loyalists_desc:0 "Those who stay loyal to the Crown during a [Concept('agot_mega_wars', 'Mega War')|E], are called loyalists. The Crown can be targeted by multiple [Concept('agot_rebels', 'rebel leaders')|E]."
 ### TODO NOT-IN-ST: game_concept_agot_neutrals [AGOT: Neutrals]
  game_concept_agot_neutrals:0 "Neutrals"
 ### TODO NOT-IN-ST: game_concept_agot_neutrals_desc [AGOT: Neutrals in a [Concept('agot_mega_wars', 'Mega War')|E] are vassals who have not yet declared for one of the fighting sides. Some do not want to have anything to do with the war at all, some wait for the tides of war to bring new opportunities...\n\nThis stance can only be taken when in a [Concept('agot_major_mw', 'major')|E] war]
@@ -223,18 +525,64 @@
  game_concept_agot_expel_character:0 "Expel"
 ### TODO NOT-IN-ST: game_concept_agot_expel_character_desc [AGOT: The character in question will be forced to leave your realm and may never return. Their fate is exile.]
  game_concept_agot_expel_character_desc:0 "The character in question will be forced to leave your realm and may never return. Their fate is exile."
+### TODO NOT-IN-ST: game_concept_agot_take_main_titles [AGOT: Taking main titles]
+ game_concept_agot_take_main_titles:0 "Taking main titles"
+### TODO NOT-IN-ST: game_concept_agot_take_main_titles_desc [AGOT: This seizes all top-level titles from a traitor.]
+ game_concept_agot_take_main_titles_desc:0 "This seizes all top-level titles from a traitor."
 ### TODO NOT-IN-ST: game_concept_agot_bank [AGOT: Bank]
  game_concept_agot_bank:0 "Bank"
+### TODO NOT-IN-ST: game_concept_agot_banking [AGOT: Banking]
+ game_concept_agot_banking:0 "Banking"
 ### TODO NOT-IN-ST: game_concept_agot_banks [AGOT: Banks]
  game_concept_agot_banks:0 "Banks"
 ### TODO NOT-IN-ST: game_concept_agot_bank_desc [AGOT: A $game_concept_agot_bank$ is an institution that holds, loans, and invests gold. Banks are led by a [agot_bank_director|E], who oversees its operations. Bank shareholders own a stake in the bank's funds, earning income in the form of dividends.\n\n#weak Players may request loans from Banks, but should not take on a debt they cannot repay.#!]
  game_concept_agot_bank_desc:0 "A $game_concept_agot_bank$ is an institution that holds, loans, and invests gold. Banks are led by a [agot_bank_director|E], who oversees its operations. Bank shareholders own a stake in the bank's funds, earning income in the form of dividends.\n\n#weak Players may request loans from Banks, but should not take on a debt they cannot repay.#!"
+### TODO NOT-IN-ST: game_concept_agot_bank_director [AGOT: Director]
+ game_concept_agot_bank_director:0 "Director"
+### TODO NOT-IN-ST: game_concept_agot_bank_directors [AGOT: Directors]
+ game_concept_agot_bank_directors:0 "Directors"
+### TODO NOT-IN-ST: game_concept_agot_bank_director_desc [AGOT: The $game_concept_agot_bank_director$ of a [agot_bank|E] oversees its operations. The $game_concept_agot_bank_director$ is elected every five years during the bookkeeping event by the bank's shareholders.]
+ game_concept_agot_bank_director_desc:0 "The $game_concept_agot_bank_director$ of a [agot_bank|E] oversees its operations. The $game_concept_agot_bank_director$ is elected every five years during the bookkeeping event by the bank's shareholders."
+### TODO NOT-IN-ST: game_concept_agot_bank_profits [AGOT: Profits]
+ game_concept_agot_bank_profits:0 "Profits"
+### TODO NOT-IN-ST: game_concept_agot_bank_profit [AGOT: Profit]
+ game_concept_agot_bank_profit:0 "Profit"
+### TODO NOT-IN-ST: game_concept_agot_bank_profits_desc [AGOT: The $game_concept_agot_bank_profits$ of a [agot_bank|E] represents the income from all loan interest plus the income from its investment fund, minus any [agot_bank_expenses|E].]
+ game_concept_agot_bank_profits_desc:0 "The $game_concept_agot_bank_profits$ of a [agot_bank|E] represents the income from all loan interest plus the income from its investment fund, minus any [agot_bank_expenses|E]."
 ### TODO NOT-IN-ST: game_concept_agot_bank_expenses [AGOT: Expenses]
  game_concept_agot_bank_expenses:0 "Expenses"
 ### TODO NOT-IN-ST: game_concept_agot_bank_expense [AGOT: Expense]
  game_concept_agot_bank_expense:0 "Expense"
 ### TODO NOT-IN-ST: game_concept_agot_bank_expenses_desc [AGOT: The $game_concept_agot_bank_expenses$ of a [agot_bank|E] represents the total loss of unrepayed loans, costs associated with loan recovery, premiums paid to any agents tasked with recovering lost loans, any losses from the investment fund, and the general running costs of the bank (one percent of the banks value per year).]
  game_concept_agot_bank_expenses_desc:0 "The $game_concept_agot_bank_expenses$ of a [agot_bank|E] represents the total loss of unrepayed loans, costs associated with loan recovery, premiums paid to any agents tasked with recovering lost loans, any losses from the investment fund, and the general running costs of the bank (one percent of the banks value per year)."
+### TODO NOT-IN-ST: game_concept_agot_bank_interest_rate [AGOT: Interest Rate]
+ game_concept_agot_bank_interest_rate:0 "Interest Rate"
+### TODO NOT-IN-ST: game_concept_agot_bank_interest_rate_l [AGOT: interest rate]
+ game_concept_agot_bank_interest_rate_l:0 "interest rate"
+### TODO NOT-IN-ST: game_concept_agot_bank_interest_rates [AGOT: Interest Rates]
+ game_concept_agot_bank_interest_rates:0 "Interest Rates"
+### TODO NOT-IN-ST: game_concept_agot_bank_interest_rates_l [AGOT: interest rates]
+ game_concept_agot_bank_interest_rates_l:0 "interest rates"
+### TODO NOT-IN-ST: game_concept_agot_bank_interest_rate_desc [AGOT: The $game_concept_agot_bank_interest_rate$ defines the base level of the annual interest a debtor has to pay the [agot_bank|E], broken into three tiers: #difficulty_hard High#!, #difficulty_medium Medium#!, and #difficulty_easy Low#!. The exact interest rate is a complex calculation done individually per customer.]
+ game_concept_agot_bank_interest_rate_desc:0 "The $game_concept_agot_bank_interest_rate$ defines the base level of the annual interest a debtor has to pay the [agot_bank|E], broken into three tiers: #difficulty_hard High#!, #difficulty_medium Medium#!, and #difficulty_easy Low#!. The exact interest rate is a complex calculation done individually per customer."
+### TODO NOT-IN-ST: game_concept_agot_bank_risk_level [AGOT: Risk Level]
+ game_concept_agot_bank_risk_level:0 "Risk Level"
+### TODO NOT-IN-ST: game_concept_agot_bank_risk_level_l [AGOT: risk level]
+ game_concept_agot_bank_risk_level_l:0 "risk level"
+### TODO NOT-IN-ST: game_concept_agot_bank_risk_levels [AGOT: Risk Levels]
+ game_concept_agot_bank_risk_levels:0 "Risk Levels"
+### TODO NOT-IN-ST: game_concept_agot_bank_risk_levels_l [AGOT: risk levels]
+ game_concept_agot_bank_risk_levels_l:0 "risk levels"
+### TODO NOT-IN-ST: game_concept_agot_bank_risk_level_desc [AGOT: The $game_concept_agot_bank_risk_level$ defines how much risk the [agot_bank|E] is going to accept when handing out loans and making investments via the investment fund, broken into three tiers: #difficulty_hard High#!, #difficulty_medium Medium#!, and #difficulty_easy Low#!. If your credit score is above the maximum defined by the risk level, the bank will refuse to loan you money.]
+ game_concept_agot_bank_risk_level_desc:0 "The $game_concept_agot_bank_risk_level$ defines how much risk the [agot_bank|E] is going to accept when handing out loans and making investments via the investment fund, broken into three tiers: #difficulty_hard High#!, #difficulty_medium Medium#!, and #difficulty_easy Low#!. If your credit score is above the maximum defined by the risk level, the bank will refuse to loan you money."
+### TODO NOT-IN-ST: game_concept_agot_bank_dividend_level [AGOT: Dividend Level]
+ game_concept_agot_bank_dividend_level:0 "Dividend Level"
+### TODO NOT-IN-ST: game_concept_agot_bank_dividend_level_l [AGOT: dividend level]
+ game_concept_agot_bank_dividend_level_l:0 "dividend level"
+### TODO NOT-IN-ST: game_concept_agot_bank_dividends [AGOT: Dividends]
+ game_concept_agot_bank_dividends:0 "Dividends"
+### TODO NOT-IN-ST: game_concept_agot_bank_dividend_level_desc [AGOT: The $game_concept_agot_bank_dividend_level$ is a factor defined the fraction of the 5-yearly profits that are paid out to shareholders of the [agot_bank|E] as dividends: #difficulty_hard 50%#!, #difficulty_medium 75%#!, or #difficulty_easy 100%#!.]
+ game_concept_agot_bank_dividend_level_desc:0 "The $game_concept_agot_bank_dividend_level$ is a factor defined the fraction of the 5-yearly profits that are paid out to shareholders of the [agot_bank|E] as dividends: #difficulty_hard 50%#!, #difficulty_medium 75%#!, or #difficulty_easy 100%#!."
 ### TODO NOT-IN-ST: game_concept_agot_bastard_surnames [AGOT: Bastard Surnames]
  game_concept_agot_bastard_surnames:0 "Bastard Surnames"
 ### TODO NOT-IN-ST: game_concept_agot_bastard_surnames_desc [AGOT: By Westerosi custom, [bastards|E] of highborn lords and ladies typically receive regional surnames denoting the place of their birth or where they were raised. The practice is designed to hold illegitimate children apart from their parent's houses and legitimate siblings.\n\nAlthough not required, many legitimate children of bastards keep their parent's bastard surname or alter it in some way to denote their own legitimate status.]
@@ -243,15 +591,27 @@
  game_concept_agot_surname:0 "Surname"
 ### TODO NOT-IN-ST: game_concept_agot_spy [AGOT: Spy]
  game_concept_agot_spy:0 "Spy"
+### TODO NOT-IN-ST: game_concept_agot_spies [AGOT: Spies]
+ game_concept_agot_spies:0 "Spies"
 ### TODO NOT-IN-ST: game_concept_agot_spy_desc [AGOT: Spies are agents that that can be based in any court and report back to their employer when the find secrets. Their employer may learn any of these secrets by paying a small fee.\n\nThe collective group of agents working for one employer is called a [agot_spy_network|E].]
  game_concept_agot_spy_desc:0 "Spies are agents that that can be based in any court and report back to their employer when the find secrets. Their employer may learn any of these secrets by paying a small fee.\n\nThe collective group of agents working for one employer is called a [agot_spy_network|E]."
 ### TODO NOT-IN-ST: game_concept_agot_spy_network [AGOT: Spy Network]
  game_concept_agot_spy_network:0 "Spy Network"
 ### TODO NOT-IN-ST: game_concept_agot_spy_network_desc [AGOT: A collection of [agot_spies|E] all working for the same employer. This network can be grown by using the Recruit Spy interaction on eligible characters directly, or by using the Check for Spies interaction on a particular ruler to investigate their court for opportunities.\n\nSpies in other courts are naturally recruited by a [spymaster|E] using the Find Secrets council task, and can be discovered in your court using the Disrupt Schemes council task.\n\nThe efficacy of a [agot_spy_network|E] can be enhanced by making certain decisions, with effects such as increasing the maximum number of spies, making courtiers more likely to be willing to offer their services, or allowing spies to discover [innovations|E].]
  game_concept_agot_spy_network_desc:0 "A collection of [agot_spies|E] all working for the same employer. This network can be grown by using the Recruit Spy interaction on eligible characters directly, or by using the Check for Spies interaction on a particular ruler to investigate their court for opportunities.\n\nSpies in other courts are naturally recruited by a [spymaster|E] using the Find Secrets council task, and can be discovered in your court using the Disrupt Schemes council task.\n\nThe efficacy of a [agot_spy_network|E] can be enhanced by making certain decisions, with effects such as increasing the maximum number of spies, making courtiers more likely to be willing to offer their services, or allowing spies to discover [innovations|E]."
+### TODO NOT-IN-ST: game_concept_royal_scion [AGOT: Scions]
+ game_concept_royal_scion:0 "Scions"
+### TODO NOT-IN-ST: game_concept_royal_scion_desc [AGOT: Scions are members of the Royal [house|E] formally recognized as being of royal blood. By custom, all legitimate children of a sovereign, as well as all legitimate grandchildren belonging to the sovereign's House, are automatically conferred the title of Prince or Princess at birth. Beyond this, the conferral of Scion status lies solely at the discretion of the sovereign.]
+ game_concept_royal_scion_desc:0 "Scions are members of the Royal [house|E] formally recognized as being of royal blood. By custom, all legitimate children of a sovereign, as well as all legitimate grandchildren belonging to the sovereign's House, are automatically conferred the title of Prince or Princess at birth. Beyond this, the conferral of Scion status lies solely at the discretion of the sovereign."
 ### TODO NOT-IN-ST: game_concept_agot_paramour [AGOT: Paramour]
  game_concept_agot_paramour:0 "Paramour"
 ### TODO NOT-IN-ST: game_concept_agot_paramours [AGOT: Paramours]
  game_concept_agot_paramours:0 "Paramours"
 ### TODO NOT-IN-ST: game_concept_agot_paramour_desc [AGOT: A $game_concept_agot_paramour$ is a $game_concept_relation$ denoting a recognized romantic bond between two [characters|E], existing outside of [marriage|E]. In certain cultures, nobles may take paramours without scandal, and such relationships can carry social acceptance within their courts.\n\n$game_concept_agot_paramours$ are acknowledged companions, but remain distinct from [spouses|E] and [concubines|E] in both role and status.\n\nIf a child is born of such a union, they will be considered a [bastard|E].]
  game_concept_agot_paramour_desc:0 "A $game_concept_agot_paramour$ is a $game_concept_relation$ denoting a recognized romantic bond between two [characters|E], existing outside of [marriage|E]. In certain cultures, nobles may take paramours without scandal, and such relationships can carry social acceptance within their courts.\n\n$game_concept_agot_paramours$ are acknowledged companions, but remain distinct from [spouses|E] and [concubines|E] in both role and status.\n\nIf a child is born of such a union, they will be considered a [bastard|E]."
+### TODO NOT-IN-ST: game_concept_agot_milk_name [AGOT: Milk Name]
+ game_concept_agot_milk_name:0 "Milk Name"
+### TODO NOT-IN-ST: game_concept_agot_milk_names [AGOT: Milk Names]
+ game_concept_agot_milk_names:0 "Milk Names"
+### TODO NOT-IN-ST: game_concept_agot_milk_name_desc [AGOT: A $game_concept_agot_milk_name$ is a temporary childhood name given to a [character|E] among the free folk before they receive a true name.\n\nBecause of the harsh conditions beyond the Wall and the risk of infant death, it is considered ill luck to grant a child a permanent name too early. Instead, a simple nickname is used in their earliest years.\n\nThere are two common forms. Some children are given generic milk names, which are discarded entirely once they reach early childhood in good health and receive a proper name. Others are given animal milk names, taking the name of a young creature; as the child grows, the name matures into the adult form of that animal, and upon reaching adulthood gains a descriptive epithet.]
+ game_concept_agot_milk_name_desc:0 "A $game_concept_agot_milk_name$ is a temporary childhood name given to a [character|E] among the free folk before they receive a true name.\n\nBecause of the harsh conditions beyond the Wall and the risk of infant death, it is considered ill luck to grant a child a permanent name too early. Instead, a simple nickname is used in their earliest years.\n\nThere are two common forms. Some children are given generic milk names, which are discarded entirely once they reach early childhood in good health and receive a proper name. Others are given animal milk names, taking the name of a young creature; as the child grows, the name matures into the adult form of that animal, and upon reaching adulthood gains a descriptive epithet."

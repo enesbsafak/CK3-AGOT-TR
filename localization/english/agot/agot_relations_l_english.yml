@@ -1,15 +1,121 @@
 ﻿l_english:
+### TODO NOT-IN-ST: agot_squire [AGOT: [squire|E]]
+ agot_squire:0 "[squire|E]"
+### TODO NOT-IN-ST: agot_knight [AGOT: [agot_knight|E]]
+ agot_knight:0 "[agot_knight|E]"
 ### TODO NOT-IN-ST: agot_personal_coa_slave [AGOT: Personal Arms Holder]
  agot_personal_coa_slave:0 "Personal Arms Holder"
 ### TODO NOT-IN-ST: paramour [AGOT: Paramour]
  paramour:0 "Paramour"
 ### TODO NOT-IN-ST: bodyguard [AGOT: Bodyguard]
  bodyguard:0 "Bodyguard"
+### TODO NOT-IN-ST: bloodrider [AGOT: Bloodrider]
+ bloodrider:0 "Bloodrider"
 ### TODO NOT-IN-ST: agot_dragon [AGOT: Dragon]
  agot_dragon:0 "Dragon"
+### TODO NOT-IN-ST: agot_parent_in_law [AGOT: [Character.Custom('GoodMotherFatherWithConcept')]]
+ agot_parent_in_law:0 "[Character.Custom('GoodMotherFatherWithConcept')]"
+### TODO NOT-IN-ST: agot_child_in_law [AGOT: [Character.Custom('GoodDaughterSonWithConcept')]]
+ agot_child_in_law:0 "[Character.Custom('GoodDaughterSonWithConcept')]"
+### TODO NOT-IN-ST: pirate_ship_designated_heir [AGOT: [pirate_ship_designated_heir|E]]
+ pirate_ship_designated_heir:0 "[pirate_ship_designated_heir|E]"
+### TODO NOT-IN-ST: agot_squire_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]]
+ agot_squire_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]"
+### TODO NOT-IN-ST: agot_knight_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]]
+ agot_knight_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]"
 ### TODO NOT-IN-ST: paramour_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] paramour]
  paramour_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] paramour"
 ### TODO NOT-IN-ST: bodyguard_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard]
  bodyguard_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bodyguard"
+### TODO NOT-IN-ST: bloodrider_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bloodrider]
+ bloodrider_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bloodrider"
 ### TODO NOT-IN-ST: agot_dragon_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]]
  agot_dragon_desc:0 "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] bonded [dragon|E]"
+### TODO NOT-IN-ST: agot_pirate_ship_designated_heir [AGOT: This is the designated heir to [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_landless_pirate_domicile|E]]
+ agot_pirate_ship_designated_heir:0 "This is the designated heir to [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_landless_pirate_domicile|E]"
+### TODO NOT-IN-ST: CharacterIntroductionSupportNoComma_firstnamedynastyname_a_noblewoman_from_birthplace_location [AGOT: [ROOT.Char.GetFirstName], a noblewoman from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]]
+ CharacterIntroductionSupportNoComma_firstnamedynastyname_a_noblewoman_from_birthplace_location:0 "[ROOT.Char.GetFirstName], a noblewoman from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
+### TODO NOT-IN-ST: CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman_from_birthplace_location [AGOT: [ROOT.Char.GetFirstName], a nobleman from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]]
+ CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman_from_birthplace_location:0 "[ROOT.Char.GetFirstName], a nobleman from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
+### TODO NOT-IN-ST: CharacterIntroductionSupportNoComma_firstname_a_commoner_from_birthplace_location [AGOT: [ROOT.Char.GetFirstName], a commoner from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]]
+ CharacterIntroductionSupportNoComma_firstname_a_commoner_from_birthplace_location:0 "[ROOT.Char.GetFirstName], a commoner from [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
+### TODO NOT-IN-ST: relation_maester_female [AGOT: maester]
+ relation_maester_female:0 "maester"
+### TODO NOT-IN-ST: relation_maester_male [AGOT: maester]
+ relation_maester_male:0 "maester"
+### TODO NOT-IN-ST: relation_maester_female_possessive [AGOT: maester's]
+ relation_maester_female_possessive:0 "maester's"
+### TODO NOT-IN-ST: relation_maester_male_possessive [AGOT: maester's]
+ relation_maester_male_possessive:0 "maester's"
+### TODO NOT-IN-ST: relation_captain_of_the_household_guard_female [AGOT: captain of the household guard]
+ relation_captain_of_the_household_guard_female:0 "captain of the household guard"
+### TODO NOT-IN-ST: relation_captain_of_the_household_guard_male [AGOT: captain of the household guard]
+ relation_captain_of_the_household_guard_male:0 "captain of the household guard"
+### TODO NOT-IN-ST: relation_captain_of_the_household_guard_female_possessive [AGOT: captain of the household guard's]
+ relation_captain_of_the_household_guard_female_possessive:0 "captain of the household guard's"
+### TODO NOT-IN-ST: relation_captain_of_the_household_guard_male_possessive [AGOT: captain of the household guard's]
+ relation_captain_of_the_household_guard_male_possessive:0 "captain of the household guard's"
+### TODO NOT-IN-ST: relation_septa_female [AGOT: septa]
+ relation_septa_female:0 "septa"
+### TODO NOT-IN-ST: relation_septa_female_possessive [AGOT: septa's]
+ relation_septa_female_possessive:0 "septa's"
+### TODO NOT-IN-ST: relation_septon_male [AGOT: septon]
+ relation_septon_male:0 "septon"
+### TODO NOT-IN-ST: relation_septon_male_possessive [AGOT: septon's]
+ relation_septon_male_possessive:0 "septon's"
+### TODO NOT-IN-ST: relation_gaoler_female [AGOT: keeper of the cells]
+ relation_gaoler_female:0 "keeper of the cells"
+### TODO NOT-IN-ST: relation_gaoler_male [AGOT: keeper of the cells]
+ relation_gaoler_male:0 "keeper of the cells"
+### TODO NOT-IN-ST: relation_gaoler_female_possessive [AGOT: keeper of the cells's]
+ relation_gaoler_female_possessive:0 "keeper of the cells's"
+### TODO NOT-IN-ST: relation_gaoler_male_possessive [AGOT: keeper of the cells's]
+ relation_gaoler_male_possessive:0 "keeper of the cells's"
+### TODO NOT-IN-ST: relation_master_at_arms_female [AGOT: master-at-arms]
+ relation_master_at_arms_female:0 "master-at-arms"
+### TODO NOT-IN-ST: relation_master_at_arms_male [AGOT: master-at-arms]
+ relation_master_at_arms_male:0 "master-at-arms"
+### TODO NOT-IN-ST: relation_master_at_arms_female_possessive [AGOT: master-at-arms's]
+ relation_master_at_arms_female_possessive:0 "master-at-arms's"
+### TODO NOT-IN-ST: relation_master_at_arms_male_possessive [AGOT: master-at-arms's]
+ relation_master_at_arms_male_possessive:0 "master-at-arms's"
+### TODO NOT-IN-ST: relation_court_smith_female [AGOT: court smith]
+ relation_court_smith_female:0 "court smith"
+### TODO NOT-IN-ST: relation_court_smith_male [AGOT: court smith]
+ relation_court_smith_male:0 "court smith"
+### TODO NOT-IN-ST: relation_court_smith_female_possessive [AGOT: court smith's]
+ relation_court_smith_female_possessive:0 "court smith's"
+### TODO NOT-IN-ST: relation_court_smith_male_possessive [AGOT: court smith's]
+ relation_court_smith_male_possessive:0 "court smith's"
+### TODO NOT-IN-ST: relation_harbormaster_female [AGOT: harbormaster]
+ relation_harbormaster_female:0 "harbormaster"
+### TODO NOT-IN-ST: relation_harbormaster_male [AGOT: harbormaster]
+ relation_harbormaster_male:0 "harbormaster"
+### TODO NOT-IN-ST: relation_harbormaster_female_possessive [AGOT: harbormaster's]
+ relation_harbormaster_female_possessive:0 "harbormaster's"
+### TODO NOT-IN-ST: relation_harbormaster_male_possessive [AGOT: harbormaster's]
+ relation_harbormaster_male_possessive:0 "harbormaster's"
+### TODO NOT-IN-ST: relation_paramour_female [AGOT: paramour]
+ relation_paramour_female:0 "paramour"
+### TODO NOT-IN-ST: relation_paramour_male [AGOT: paramour]
+ relation_paramour_male:0 "paramour"
+### TODO NOT-IN-ST: relation_paramour_female_possessive [AGOT: paramour's]
+ relation_paramour_female_possessive:0 "paramour's"
+### TODO NOT-IN-ST: relation_paramour_male_possessive [AGOT: paramour's]
+ relation_paramour_male_possessive:0 "paramour's"
+### TODO NOT-IN-ST: relation_head_dragonkeeper_female [AGOT: head dragonkeeper]
+ relation_head_dragonkeeper_female:0 "head dragonkeeper"
+### TODO NOT-IN-ST: relation_head_dragonkeeper_male [AGOT: head dragonkeeper]
+ relation_head_dragonkeeper_male:0 "head dragonkeeper"
+### TODO NOT-IN-ST: relation_head_dragonkeeper_female_possessive [AGOT: head dragonkeeper's]
+ relation_head_dragonkeeper_female_possessive:0 "head dragonkeeper's"
+### TODO NOT-IN-ST: relation_head_dragonkeeper_male_possessive [AGOT: head dragonkeeper's]
+ relation_head_dragonkeeper_male_possessive:0 "head dragonkeeper's"
+### TODO NOT-IN-ST: relation_bloodrider_female [AGOT: bloodrider]
+ relation_bloodrider_female:0 "bloodrider"
+### TODO NOT-IN-ST: relation_bloodrider_male [AGOT: bloodrider]
+ relation_bloodrider_male:0 "bloodrider"
+### TODO NOT-IN-ST: relation_bloodrider_female_possessive [AGOT: bloodrider's]
+ relation_bloodrider_female_possessive:0 "bloodrider's"
+### TODO NOT-IN-ST: relation_bloodrider_male_possessive [AGOT: bloodrider's]
+ relation_bloodrider_male_possessive:0 "bloodrider's"

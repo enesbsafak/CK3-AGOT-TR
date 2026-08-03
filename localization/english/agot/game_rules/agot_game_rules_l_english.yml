@@ -7,21 +7,399 @@
  game_rule_category_agot_dragons:0 "AGOT - Dragons"
 ### TODO NOT-IN-ST: rule_agot_story_outcome [AGOT: #R AGOT:#! Bookmark Outcomes]
  rule_agot_story_outcome:0 "#R AGOT:#! Bookmark Outcomes"
+### TODO NOT-IN-ST: setting_agot_story_sandbox [AGOT: Sandbox]
+ setting_agot_story_sandbox:0 "Sandbox"
+### TODO NOT-IN-ST: setting_agot_story_sandbox_desc [AGOT: Minimal scripted events will occur.]
+ setting_agot_story_sandbox_desc:0 "Minimal scripted events will occur."
+### TODO NOT-IN-ST: setting_agot_story_random_events_random_outcomes [AGOT: Uncertain Events;\nUncertain Outcomes]
+ setting_agot_story_random_events_random_outcomes:0 "   Uncertain Events;\nUncertain Outcomes"
+### TODO NOT-IN-ST: setting_agot_story_random_events_random_outcomes_desc [AGOT: Historical events may or may not occur, and the outcomes may or may not be historical.]
+ setting_agot_story_random_events_random_outcomes_desc:0 "Historical events may or may not occur, and the outcomes may or may not be historical."
+### TODO NOT-IN-ST: setting_agot_story_historical_events_random_outcomes [AGOT: Historical Events;\nUncertain Outcomes]
+ setting_agot_story_historical_events_random_outcomes:0 "   Historical Events;\nUncertain Outcomes"
+### TODO NOT-IN-ST: setting_agot_story_historical_events_random_outcomes_desc [AGOT: Historical events will occur when relevant, and the outcomes may or may not be historical.]
+ setting_agot_story_historical_events_random_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes may or may not be historical."
+### TODO NOT-IN-ST: setting_agot_story_historical_events_weighted_outcomes [AGOT: Historical Events;\nWeighted Outcomes]
+ setting_agot_story_historical_events_weighted_outcomes:0 "   Historical Events;\nWeighted Outcomes"
+### TODO NOT-IN-ST: setting_agot_story_historical_events_weighted_outcomes_desc [AGOT: Historical events will occur when relevant, and the outcomes will tend to be historical.]
+ setting_agot_story_historical_events_weighted_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes will tend to be historical."
+### TODO NOT-IN-ST: setting_agot_story_historical_events_historical_outcomes [AGOT: Historical Events;\nHistorical Outcomes]
+ setting_agot_story_historical_events_historical_outcomes:0 "   Historical Events;\nHistorical Outcomes"
+### TODO NOT-IN-ST: setting_agot_story_historical_events_historical_outcomes_desc [AGOT: Historical events will occur when relevant, and the outcomes will be historical when possible.]
+ setting_agot_story_historical_events_historical_outcomes_desc:0 "Historical events will occur when relevant, and the outcomes will be historical when possible."
+### TODO NOT-IN-ST: rule_agot_coin_flip [AGOT: #R AGOT:#! Targaryen Coin Flip]
+ rule_agot_coin_flip:0 "#R AGOT:#! Targaryen Coin Flip"
+### TODO NOT-IN-ST: setting_agot_coin_flip_enabled [AGOT: Enabled]
+ setting_agot_coin_flip_enabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_coin_flip_enabled_desc [AGOT: Targaryen coin flip will occur.]
+ setting_agot_coin_flip_enabled_desc:0 "Targaryen coin flip will occur."
+### TODO NOT-IN-ST: setting_agot_coin_flip_disabled [AGOT: Disabled]
+ setting_agot_coin_flip_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_coin_flip_disabled_desc [AGOT: Targaryen coin flip will not occur.]
+ setting_agot_coin_flip_disabled_desc:0 "Targaryen coin flip will not occur."
+### TODO NOT-IN-ST: rule_agot_hv_conversion [AGOT: #R AGOT:#! High Valyrian Conversion]
+ rule_agot_hv_conversion:0 "#R AGOT:#! High Valyrian Conversion"
+### TODO NOT-IN-ST: setting_agot_hv_conversion_disallowed [AGOT: Disallowed]
+ setting_agot_hv_conversion_disallowed:0 "Disallowed"
+### TODO NOT-IN-ST: setting_agot_hv_conversion_disallowed_desc [AGOT: Characters and counties will not be allowed to be converted to High Valyrian culture.]
+ setting_agot_hv_conversion_disallowed_desc:0 "Characters and counties will not be allowed to be converted to High Valyrian culture."
+### TODO NOT-IN-ST: setting_agot_hv_conversion_offshoots [AGOT: Offshoots]
+ setting_agot_hv_conversion_offshoots:0 "Offshoots"
+### TODO NOT-IN-ST: setting_agot_hv_conversion_offshoots_desc [AGOT: Characters and counties can only be converted to Valyrian culture offshoots. High Valyrian characters will convert counties and characters to Westerosi or Essosi Valyrian depending on location.]
+ setting_agot_hv_conversion_offshoots_desc:0 "Characters and counties can only be converted to Valyrian culture offshoots. High Valyrian characters will convert counties and characters to Westerosi or Essosi Valyrian depending on location."
+### TODO NOT-IN-ST: setting_agot_hv_conversion_unrestricted [AGOT: Unrestricted]
+ setting_agot_hv_conversion_unrestricted:0 "Unrestricted"
+### TODO NOT-IN-ST: setting_agot_hv_conversion_unrestricted_desc [AGOT: Characters and counties will be allowed to convert to High Valyrian culture.]
+ setting_agot_hv_conversion_unrestricted_desc:0 "Characters and counties will be allowed to convert to High Valyrian culture."
+### TODO NOT-IN-ST: rule_agot_abdication [AGOT: #R AGOT:#! Abdication]
+ rule_agot_abdication:0 "#R AGOT:#! Abdication"
+### TODO NOT-IN-ST: setting_agot_abdication_enabled [AGOT: Disabled]
+ setting_agot_abdication_enabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_abdication_enabled_desc [AGOT: The decision to abdicate to your heir is enabled.]
+ setting_agot_abdication_enabled_desc:0 "The decision to abdicate to your heir is enabled."
+### TODO NOT-IN-ST: setting_agot_abdication_disabled [AGOT: Enabled]
+ setting_agot_abdication_disabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_abdication_disabled_desc [AGOT: The decision to abdicate to your heir is disabled.]
+ setting_agot_abdication_disabled_desc:0 "The decision to abdicate to your heir is disabled."
 ### TODO NOT-IN-ST: rule_agot_shattered_world [AGOT: #R AGOT:#! Shattered World]
  rule_agot_shattered_world:0 "#R AGOT:#! Shattered World"
+### TODO NOT-IN-ST: setting_agot_not_shattered [AGOT: Not Shattered]
+ setting_agot_not_shattered:0 "Not Shattered"
+### TODO NOT-IN-ST: setting_agot_not_shattered_desc [AGOT: The world will remain intact, titles as they normally are.]
+ setting_agot_not_shattered_desc:0 "The world will remain intact, titles as they normally are."
+### TODO NOT-IN-ST: setting_agot_shatter_to_counties [AGOT: Counties]
+ setting_agot_shatter_to_counties:1 "Counties"
+### TODO NOT-IN-ST: setting_agot_shatter_to_counties_desc [AGOT: The world will only have up to county-level titles, but lords retain all of their counties.]
+ setting_agot_shatter_to_counties_desc:0 "The world will only have up to county-level titles, but lords retain all of their counties."
+### TODO NOT-IN-ST: setting_agot_shatter_to_counties_even [AGOT: Counties - Even]
+ setting_agot_shatter_to_counties_even:1 "Counties - Even"
+### TODO NOT-IN-ST: setting_agot_shatter_to_counties_even_desc [AGOT: The world will only have up to county-level titles, and any extra counties are redistributed.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!]
+ setting_agot_shatter_to_counties_even_desc:0 "The world will only have up to county-level titles, and any extra counties are redistributed.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!"
+### TODO NOT-IN-ST: setting_agot_shatter_to_duchies [AGOT: Duchies]
+ setting_agot_shatter_to_duchies:1 "Duchies"
+### TODO NOT-IN-ST: setting_agot_shatter_to_duchies_desc [AGOT: The world will only have up to duchy-level titles; kingdom- and empire-tier titles are destroyed.]
+ setting_agot_shatter_to_duchies_desc:0 "The world will only have up to duchy-level titles; kingdom- and empire-tier titles are destroyed."
+### TODO NOT-IN-ST: setting_agot_shatter_to_petty_kingdoms [AGOT: Petty Kingdoms]
+ setting_agot_shatter_to_petty_kingdoms:1 "Petty Kingdoms"
+### TODO NOT-IN-ST: setting_agot_shatter_to_petty_kingdoms_desc [AGOT: The world will be shattered into all available kingdom titles, including formable titles.]
+ setting_agot_shatter_to_petty_kingdoms_desc:0 "The world will be shattered into all available kingdom titles, including formable titles."
+### TODO NOT-IN-ST: setting_agot_shatter_to_kingdoms [AGOT: Kingdoms]
+ setting_agot_shatter_to_kingdoms:1 " Kingdoms"
+### TODO NOT-IN-ST: setting_agot_shatter_to_kingdoms_desc [AGOT: The world will only have up to kingdom-level titles; empire- and hegemon-tier titles are destroyed.]
+ setting_agot_shatter_to_kingdoms_desc:0 "The world will only have up to kingdom-level titles; empire- and hegemon-tier titles are destroyed."
+### TODO NOT-IN-ST: setting_agot_shatter_to_empires [AGOT: Empires]
+ setting_agot_shatter_to_empires:1 "Empires"
+### TODO NOT-IN-ST: setting_agot_shatter_to_empires_desc [AGOT: Only existing hegemon-level titles will be destroyed.]
+ setting_agot_shatter_to_empires_desc:0 "Only existing hegemon-level titles will be destroyed."
 ### TODO NOT-IN-ST: rule_agot_canon_dragons [AGOT: #R AGOT:#! Canon Dragons]
  rule_agot_canon_dragons:0 "#R AGOT:#! Canon Dragons"
+### TODO NOT-IN-ST: setting_agot_canon_dragons_disabled [AGOT: Disabled]
+ setting_agot_canon_dragons_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_canon_dragons_disabled_desc [AGOT: Characters will hatch and tame random dragons.]
+ setting_agot_canon_dragons_disabled_desc:0 "Characters will hatch and tame random dragons."
+### TODO NOT-IN-ST: setting_agot_canon_dragons_enabled [AGOT: Enabled]
+ setting_agot_canon_dragons_enabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_canon_dragons_enabled_desc [AGOT: If certain requirements are met, canon dragons can be born, and characters will tame their canon dragons.]
+ setting_agot_canon_dragons_enabled_desc:0 "If certain requirements are met, canon dragons can be born, and characters will tame their canon dragons."
+### TODO NOT-IN-ST: setting_agot_canon_dragons_enabled_traits [AGOT: Enabled with Canon Traits]
+ setting_agot_canon_dragons_enabled_traits:0 "Enabled with Canon Traits"
+### TODO NOT-IN-ST: setting_agot_canon_dragons_enabled_traits_desc [AGOT: If certain requirements are met, canon dragons can be born and will get their canon traits, and characters will tame their canon dragons.]
+ setting_agot_canon_dragons_enabled_traits_desc:0 "If certain requirements are met, canon dragons can be born and will get their canon traits, and characters will tame their canon dragons."
+### TODO NOT-IN-ST: rule_agot_canon_children [AGOT: #R AGOT:#! Canon Children]
+ rule_agot_canon_children:0 "#R AGOT:#! Canon Children"
+### TODO NOT-IN-ST: setting_agot_canon_children_enabled [AGOT: Enabled]
+ setting_agot_canon_children_enabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_canon_children_enabled_desc [AGOT: If certain requirements are met, the parents of unborn canonical children will follow their canonical birth cycles.]
+ setting_agot_canon_children_enabled_desc:0 "If certain requirements are met, the parents of unborn canonical children will follow their canonical birth cycles."
+### TODO NOT-IN-ST: setting_agot_canon_children_enabled_strict [AGOT: Enabled - Strict Mode]
+ setting_agot_canon_children_enabled_strict:0 "Enabled - Strict Mode"
+### TODO NOT-IN-ST: setting_agot_canon_children_enabled_strict_desc [AGOT: Canonical married couples will only have their canonical children.]
+ setting_agot_canon_children_enabled_strict_desc:0 "Canonical married couples will only have their canonical children."
+### TODO NOT-IN-ST: setting_agot_canon_children_disabled [AGOT: Disabled]
+ setting_agot_canon_children_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_canon_children_disabled_desc [AGOT: All characters will follow vanilla birth cycles.]
+ setting_agot_canon_children_disabled_desc:0 "All characters will follow vanilla birth cycles."
+### TODO NOT-IN-ST: rule_agot_canon_children_traits [AGOT: #R AGOT:#! Canon Children (Traits)]
+ rule_agot_canon_children_traits:0 "#R AGOT:#! Canon Children (Traits)"
+### TODO NOT-IN-ST: setting_agot_canon_children_traits [AGOT: Traits]
+ setting_agot_canon_children_traits:0 "Traits"
+### TODO NOT-IN-ST: setting_agot_canon_children_traits_desc [AGOT: If Canon Children are enabled, canon children born before and during the bookmark will receive their canon personality traits.]
+ setting_agot_canon_children_traits_desc:0 "If Canon Children are enabled, canon children born before and during the bookmark will receive their canon personality traits."
+### TODO NOT-IN-ST: setting_agot_canon_children_traits_and_edu [AGOT: Traits and Education]
+ setting_agot_canon_children_traits_and_edu:0 "Traits and Education"
+### TODO NOT-IN-ST: setting_agot_canon_children_traits_and_edu_desc [AGOT: If Canon Children are enabled, canon children born before and during the bookmark will receive their canon personality, prowess and education traits, unless a different education focus is specifically selected.]
+ setting_agot_canon_children_traits_and_edu_desc:0 "If Canon Children are enabled, canon children born before and during the bookmark will receive their canon personality, prowess and education traits, unless a different education focus is specifically selected."
+### TODO NOT-IN-ST: setting_agot_canon_children_traits_disabled [AGOT: Disabled]
+ setting_agot_canon_children_traits_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_canon_children_traits_disabled_desc [AGOT: Canon children will receive random traits.]
+ setting_agot_canon_children_traits_disabled_desc:0 "Canon children will receive random traits."
+### TODO NOT-IN-ST: rule_agot_canon_children_gender [AGOT: #R AGOT:#! Canon Children (Gender)]
+ rule_agot_canon_children_gender:0 "#R AGOT:#! Canon Children (Gender)"
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_accurate [AGOT: Canon Gender]
+ setting_agot_canon_children_gender_accurate:0 "Canon Gender"
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_accurate_desc [AGOT: Canon children will be born with their canon gender.]
+ setting_agot_canon_children_gender_accurate_desc:0 "Canon children will be born with their canon gender."
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_semi_accurate [AGOT: Weighted Gender]
+ setting_agot_canon_children_gender_semi_accurate:0 "Weighted Gender"
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_semi_accurate_desc [AGOT: Canon children will mostly be born with their canon gender (80% chance).]
+ setting_agot_canon_children_gender_semi_accurate_desc:0 "Canon children will mostly be born with their canon gender (80% chance)."
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_random [AGOT: Random Gender]
+ setting_agot_canon_children_gender_random:0 "Random Gender"
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_random_desc [AGOT: Canon children will be born with a random gender (50% chance).]
+ setting_agot_canon_children_gender_random_desc:0 "Canon children will be born with a random gender (50% chance)."
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_opposite [AGOT: Opposite Gender]
+ setting_agot_canon_children_gender_opposite:0 "Opposite Gender"
+### TODO NOT-IN-ST: setting_agot_canon_children_gender_opposite_desc [AGOT: Canon children will be born with the opposite gender.]
+ setting_agot_canon_children_gender_opposite_desc:0 "Canon children will be born with the opposite gender."
+### TODO NOT-IN-ST: rule_agot_canon_children_birth_outcomes [AGOT: #R AGOT:#! Canon Children (Birth Outcomes)]
+ rule_agot_canon_children_birth_outcomes:0 "#R AGOT:#! Canon Children (Birth Outcomes)"
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_accurate [AGOT: Canon Outcomes]
+ setting_agot_canon_children_birth_outcomes_accurate:0 "Canon Outcomes"
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_accurate_desc [AGOT: Canon births will have accurate outcomes, including stillbirths and deaths of the mothers.]
+ setting_agot_canon_children_birth_outcomes_accurate_desc:0 "Canon births will have accurate outcomes, including stillbirths and deaths of the mothers."
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_everyone_lives [AGOT: Everyone Lives]
+ setting_agot_canon_children_birth_outcomes_everyone_lives:0 "Everyone Lives"
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_everyone_lives_desc [AGOT: Canon births will result in all canon children that can be born through the system and their mothers living unless Historical Outcomes is on and they are part of bookmark events.]
+ setting_agot_canon_children_birth_outcomes_everyone_lives_desc:0 "Canon births will result in all canon children that can be born through the system and their mothers living unless Historical Outcomes is on and they are part of bookmark events."
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_random [AGOT: Random Outcomes]
+ setting_agot_canon_children_birth_outcomes_random:0 "Random Outcomes"
+### TODO NOT-IN-ST: setting_agot_canon_children_birth_outcomes_random_desc [AGOT: Canon births will have outcomes based on vanilla birth logic.]
+ setting_agot_canon_children_birth_outcomes_random_desc:0 "Canon births will have outcomes based on vanilla birth logic."
+### TODO NOT-IN-ST: rule_agot_enhanced_marriage_ai [AGOT: #R AGOT:#! Enhanced Marriage AI]
+ rule_agot_enhanced_marriage_ai:0 "#R AGOT:#! Enhanced Marriage AI"
+### TODO NOT-IN-ST: setting_agot_ema_disabled [AGOT: Disabled]
+ setting_agot_ema_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_ema_disabled_desc [AGOT: Enhanced marriage AI is disabled.]
+ setting_agot_ema_disabled_desc:0 "Enhanced marriage AI is disabled."
+### TODO NOT-IN-ST: setting_agot_ema_targ [AGOT: Targaryen Dynasty Only]
+ setting_agot_ema_targ:0 "Targaryen Dynasty Only"
+### TODO NOT-IN-ST: setting_agot_ema_targ_desc [AGOT: AI Targaryens will preferentially marry siblings.]
+ setting_agot_ema_targ_desc:0 "AI Targaryens will preferentially marry siblings."
+### TODO NOT-IN-ST: setting_agot_ema_lps [AGOT: Lord Paramounts Only]
+ setting_agot_ema_lps:0 "Lord Paramounts Only"
+### TODO NOT-IN-ST: setting_agot_ema_lps_desc [AGOT: AI Lord Paramounts will attempt to betroth their heirs to relatives of strong vassals.]
+ setting_agot_ema_lps_desc:0 "AI Lord Paramounts will attempt to betroth their heirs to relatives of strong vassals."
+### TODO NOT-IN-ST: setting_agot_ema_lps_dukes [AGOT: LPs & High Lords]
+ setting_agot_ema_lps_dukes:0 "LPs & High Lords"
+### TODO NOT-IN-ST: setting_agot_ema_lps_dukes_desc [AGOT: AI Lord Paramounts and duchy-level lords will attempt to betroth their heirs to relatives of vassals within their kingdom.]
+ setting_agot_ema_lps_dukes_desc:0 "AI Lord Paramounts and duchy-level lords will attempt to betroth their heirs to relatives of vassals within their kingdom."
+### TODO NOT-IN-ST: setting_agot_ema_lps_targs [AGOT: Targaryens & LPs]
+ setting_agot_ema_lps_targs:0 "Targaryens & LPs"
+### TODO NOT-IN-ST: setting_agot_ema_lps_targs_desc [AGOT: Targaryens and Lord Paramounts will use the enhanced marriage AI.]
+ setting_agot_ema_lps_targs_desc:0 "Targaryens and Lord Paramounts will use the enhanced marriage AI."
+### TODO NOT-IN-ST: setting_agot_ema_enabled [AGOT: Full]
+ setting_agot_ema_enabled:0 "Full"
+### TODO NOT-IN-ST: setting_agot_ema_enabled_desc [AGOT: All enhanced marriage AI options are enabled.]
+ setting_agot_ema_enabled_desc:0 "All enhanced marriage AI options are enabled."
+### TODO NOT-IN-ST: rule_agot_dynastic_stability [AGOT: #R AGOT:#! Dynastic Stability]
+ rule_agot_dynastic_stability:0 "#R AGOT:#! Dynastic Stability"
+### TODO NOT-IN-ST: setting_agot_dynastic_stability_enabled [AGOT: Enabled]
+ setting_agot_dynastic_stability_enabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_dynastic_stability_enabled_desc [AGOT: [agot_dynastic_stability|E] is enabled.]
+ setting_agot_dynastic_stability_enabled_desc:0 "[agot_dynastic_stability|E] is enabled."
+### TODO NOT-IN-ST: setting_agot_dynastic_stability_disabled [AGOT: Disabled]
+ setting_agot_dynastic_stability_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_dynastic_stability_disabled_desc [AGOT: [agot_dynastic_stability|E] is disabled.]
+ setting_agot_dynastic_stability_disabled_desc:0 "[agot_dynastic_stability|E] is disabled."
 ### TODO NOT-IN-ST: rule_agot_strong_seed [AGOT: #R AGOT:#! Strong Seed]
  rule_agot_strong_seed:0 "#R AGOT:#! Strong Seed"
+### TODO NOT-IN-ST: setting_agot_strong_seed_house [AGOT: House]
+ setting_agot_strong_seed_house:0 "House"
+### TODO NOT-IN-ST: setting_agot_strong_seed_house_desc [AGOT: Strong seed will always follow house inheritance when possible.]
+ setting_agot_strong_seed_house_desc:0 "Strong seed will always follow house inheritance when possible."
+### TODO NOT-IN-ST: setting_agot_strong_seed_house_stability [AGOT: House Stability]
+ setting_agot_strong_seed_house_stability:0 "House Stability"
+### TODO NOT-IN-ST: setting_agot_strong_seed_house_stability_desc [AGOT: Strong seed will always follow house inheritance when possible for the first daughter and first son; additional children can inherit any possible strong seeds.]
+ setting_agot_strong_seed_house_stability_desc:0 "Strong seed will always follow house inheritance when possible for the first daughter and first son; additional children can inherit any possible strong seeds."
+### TODO NOT-IN-ST: setting_agot_strong_seed_default [AGOT: Mixed]
+ setting_agot_strong_seed_default:0 "Mixed"
+### TODO NOT-IN-ST: setting_agot_strong_seed_default_desc [AGOT: If two parents have strong seed genes, a child can inherit either.]
+ setting_agot_strong_seed_default_desc:0 "If two parents have strong seed genes, a child can inherit either."
+### TODO NOT-IN-ST: setting_agot_strong_seed_disabled [AGOT: Disabled]
+ setting_agot_strong_seed_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_strong_seed_disabled_desc [AGOT: Strong seed inheritance is disabled.]
+ setting_agot_strong_seed_disabled_desc:0 "Strong seed inheritance is disabled."
 ### TODO NOT-IN-ST: rule_agot_cadet [AGOT: #R AGOT:#! Cadet Creation]
  rule_agot_cadet:0 "#R AGOT:#! Cadet Creation"
+### TODO NOT-IN-ST: setting_agot_cadet_default [AGOT: Default]
+ setting_agot_cadet_default:0 "Default"
+### TODO NOT-IN-ST: setting_agot_cadet_default_desc [AGOT: Default difficulty to create cadet branches.]
+ setting_agot_cadet_default_desc:0 "Default difficulty to create cadet branches."
+### TODO NOT-IN-ST: setting_agot_cadet_easier [AGOT: Easier]
+ setting_agot_cadet_easier:0 "Easier"
+### TODO NOT-IN-ST: setting_agot_cadet_easier_desc [AGOT: Creating cadet branches will be easier.]
+ setting_agot_cadet_easier_desc:0 "Creating cadet branches will be easier."
+### TODO NOT-IN-ST: setting_agot_cadet_none [AGOT: Disabled]
+ setting_agot_cadet_none:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_cadet_none_desc [AGOT: Characters will not be able to create cadet branches.]
+ setting_agot_cadet_none_desc:0 "Characters will not be able to create cadet branches."
 ### TODO NOT-IN-ST: rule_agot_bastard_cadets [AGOT: #R AGOT:#! Bastard Cadet Creation]
  rule_agot_bastard_cadets:0 "#R AGOT:#! Bastard Cadet Creation"
+### TODO NOT-IN-ST: setting_agot_bastard_cadets_landed_only [AGOT: Landed and Landless]
+ setting_agot_bastard_cadets_landed_only:0 "Landed and Landless"
+### TODO NOT-IN-ST: setting_agot_bastard_cadets_landed_only_desc [AGOT: Only landed or landless adventurer [bastards|E] will form [bastard_houses|E] upon having children.]
+ setting_agot_bastard_cadets_landed_only_desc:0 "Only landed or landless adventurer [bastards|E] will form [bastard_houses|E] upon having children."
+### TODO NOT-IN-ST: setting_agot_bastard_cadets_everyone [AGOT: Any]
+ setting_agot_bastard_cadets_everyone:0 "Any"
+### TODO NOT-IN-ST: setting_agot_bastard_cadets_everyone_desc [AGOT: Any [bastard|E], landed or unlanded, will form a [bastard_house|E] upon having children. #N This can result in cadet bloat!#!]
+ setting_agot_bastard_cadets_everyone_desc:0 "Any [bastard|E], landed or unlanded, will form a [bastard_house|E] upon having children. #N This can result in cadet bloat!#!"
+### TODO NOT-IN-ST: rule_agot_targaryen_exile_invasion [AGOT: #R AGOT:#! Targaryen Exile Invasion]
+ rule_agot_targaryen_exile_invasion:0 "#R AGOT:#! Targaryen Exile Invasion"
+### TODO NOT-IN-ST: setting_agot_targaryen_exile_invasion_special_content [AGOT: Scripted Story Content]
+ setting_agot_targaryen_exile_invasion_special_content:0 "Scripted Story Content"
+### TODO NOT-IN-ST: setting_agot_targaryen_exile_invasion_special_content_desc [AGOT: The Targaryen Exiles will receive scripted story content that will culminate in their invasion of Westeros. #N They will experience buffs related to legitimist interactions, dragons, and military content.#!]
+ setting_agot_targaryen_exile_invasion_special_content_desc:0 "The Targaryen Exiles will receive scripted story content that will culminate in their invasion of Westeros. #N They will experience buffs related to legitimist interactions, dragons, and military content.#!"
+### TODO NOT-IN-ST: setting_agot_targaryen_exile_invasion_nothing [AGOT: No Scripted Story Content]
+ setting_agot_targaryen_exile_invasion_nothing:0 "No Scripted Story Content"
+### TODO NOT-IN-ST: setting_agot_targaryen_exile_invasion_nothing_desc [AGOT: The Targaryen Exiles will #N not#! receive any scripted content. They will exist as ordinary characters on the map — #N subject to the same rules as everyone else.#!]
+ setting_agot_targaryen_exile_invasion_nothing_desc:0 "The Targaryen Exiles will #N not#! receive any scripted content. They will exist as ordinary characters on the map — #N subject to the same rules as everyone else.#!"
+### TODO NOT-IN-ST: rule_agot_faegon_invasion [AGOT: #R AGOT:#! fAegon Invasion]
+ rule_agot_faegon_invasion:0 "#R AGOT:#! fAegon Invasion"
+### TODO NOT-IN-ST: setting_agot_faegon_invasion_enabled [AGOT: Enabled]
+ setting_agot_faegon_invasion_enabled:0 "Enabled"
+### TODO NOT-IN-ST: setting_agot_faegon_invasion_enabled_desc [AGOT: Aegon of Essos will invade Westeros in or around 298 AC in non-shattered games started in 282 or later.]
+ setting_agot_faegon_invasion_enabled_desc:0 "Aegon of Essos will invade Westeros in or around 298 AC in non-shattered games started in 282 or later."
+### TODO NOT-IN-ST: setting_agot_faegon_invasion_disabled [AGOT: Disabled]
+ setting_agot_faegon_invasion_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_faegon_invasion_disabled_desc [AGOT: Aegon of Essos will #N NOT#! invade Westeros.]
+ setting_agot_faegon_invasion_disabled_desc:0 "Aegon of Essos will #N NOT#! invade Westeros."
+### TODO NOT-IN-ST: rule_agot_faegon_identity [AGOT: #R AGOT:#! fAegon Identity]
+ rule_agot_faegon_identity:0 "#R AGOT:#! fAegon Identity"
+### TODO NOT-IN-ST: setting_agot_faegon_identity_default [AGOT: Default]
+ setting_agot_faegon_identity_default:0 "Default"
+### TODO NOT-IN-ST: setting_agot_faegon_identity_open_blackfyre [AGOT: Open Blackfyre]
+ setting_agot_faegon_identity_open_blackfyre:0 "Open Blackfyre"
+### TODO NOT-IN-ST: setting_agot_faegon_identity_default_desc [AGOT: Aegon's identity will be determined based on the conditions in which he spawns. He may spawn as a public or secret Blackfyre, or as Rhaegar's son.]
+ setting_agot_faegon_identity_default_desc:0 "Aegon's identity will be determined based on the conditions in which he spawns. He may spawn as a public or secret Blackfyre, or as Rhaegar's son."
+### TODO NOT-IN-ST: setting_agot_faegon_identity_open_blackfyre_desc [AGOT: Aegon will be a member of House Blackfyre.]
+ setting_agot_faegon_identity_open_blackfyre_desc:0 "Aegon will be a member of House Blackfyre."
+### TODO NOT-IN-ST: setting_agot_faegon_identity_real [AGOT: True Targaryen]
+ setting_agot_faegon_identity_real:0 "True Targaryen"
+### TODO NOT-IN-ST: setting_agot_faegon_identity_real_desc [AGOT: If possible, Aegon will always spawn as the real son of Rhaegar, but he #N must win the Iron Throne to officialize that claim#!.]
+ setting_agot_faegon_identity_real_desc:0 "If possible, Aegon will always spawn as the real son of Rhaegar, but he #N must win the Iron Throne to officialize that claim#!."
 ### TODO NOT-IN-ST: rule_agot_mw_gore [AGOT: #R AGOT:#! Mega Wars Gore]
  rule_agot_mw_gore:0 "#R AGOT:#! Mega Wars Gore"
+### TODO NOT-IN-ST: setting_agot_mw_gore_standard [AGOT: Default]
+ setting_agot_mw_gore_standard:0 "Default"
+### TODO NOT-IN-ST: setting_agot_mw_gore_standard_desc [AGOT: Duke-tier and lower vassals are strongly inclined to support their liege's side.]
+ setting_agot_mw_gore_standard_desc:0 "Duke-tier and lower vassals are strongly inclined to support their liege's side."
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_1 [AGOT: Moderate Border Gore]
+ setting_agot_mw_gore_increased_1:0 "Moderate Border Gore"
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_1_desc [AGOT: Duke-tier and lower vassals are somewhat inclined to support their liege's side.]
+ setting_agot_mw_gore_increased_1_desc:0 "Duke-tier and lower vassals are somewhat inclined to support their liege's side."
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_2 [AGOT: High Border Gore]
+ setting_agot_mw_gore_increased_2:0 "High Border Gore"
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_2_desc [AGOT: Duke-tier and lower vassals are only weakly inclined to support their liege's side.]
+ setting_agot_mw_gore_increased_2_desc:0 "Duke-tier and lower vassals are only weakly inclined to support their liege's side."
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_3 [AGOT: Extreme Border Gore]
+ setting_agot_mw_gore_increased_3:0 "Extreme Border Gore"
+### TODO NOT-IN-ST: setting_agot_mw_gore_increased_3_desc [AGOT: Duke-tier and lower vassals are barely influenced by their liege's side.]
+ setting_agot_mw_gore_increased_3_desc:0 "Duke-tier and lower vassals are barely influenced by their liege's side."
+### TODO NOT-IN-ST: rule_agot_balding [AGOT: #R AGOT:#! Character Balding]
+ rule_agot_balding:0 "#R AGOT:#! Character Balding"
+### TODO NOT-IN-ST: setting_agot_vanilla_balding [AGOT: Default]
+ setting_agot_vanilla_balding:0 "Default"
+### TODO NOT-IN-ST: setting_agot_vanilla_balding_desc [AGOT: Characters will bald at the same rate as the vanilla game.]
+ setting_agot_vanilla_balding_desc:0 "Characters will bald at the same rate as the vanilla game."
+### TODO NOT-IN-ST: setting_agot_no_balding [AGOT: Never]
+ setting_agot_no_balding:0 "Never"
+### TODO NOT-IN-ST: setting_agot_no_balding_desc [AGOT: Male characters will never become bald using the vanilla system.]
+ setting_agot_no_balding_desc:0 "Male characters will never become bald using the vanilla system."
 ### TODO NOT-IN-ST: rule_agot_dragons [AGOT: #R AGOT:#! Dragon Hatching and Taming]
  rule_agot_dragons:0 "#R AGOT:#! Dragon Hatching and Taming"
+### TODO NOT-IN-ST: setting_dragon_dragonblood_2_gen [AGOT: 2nd Gen Dragonblood]
+ setting_dragon_dragonblood_2_gen:0 "2nd Gen Dragonblood"
+### TODO NOT-IN-ST: setting_dragon_dragonblood_2_gen_desc [AGOT: Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e].]
+ setting_dragon_dragonblood_2_gen_desc:0 "Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]."
+### TODO NOT-IN-ST: setting_dragon_dragonblood_3_gen [AGOT: 3rd Gen Dragonblood]
+ setting_dragon_dragonblood_3_gen:0 "3rd Gen Dragonblood"
+### TODO NOT-IN-ST: setting_dragon_dragonblood_3_gen_desc [AGOT: Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e].]
+ setting_dragon_dragonblood_3_gen_desc:0 "Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]."
+### TODO NOT-IN-ST: setting_dragon_valyrian_2_gen [AGOT: 2nd Gen Valyrian Dragonblood]
+ setting_dragon_valyrian_2_gen:0 "2nd Gen Valyrian Dragonblood"
+### TODO NOT-IN-ST: setting_dragon_valyrian_2_gen_desc [AGOT: Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e].]
+ setting_dragon_valyrian_2_gen_desc:0 "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 2 generations will be able to hatch and tame [dragons_plural|e]."
+### TODO NOT-IN-ST: setting_dragon_valyrian_3_gen [AGOT: 3rd Gen Valyrian Dragonblood]
+ setting_dragon_valyrian_3_gen:0 "3rd Gen Valyrian Dragonblood"
+### TODO NOT-IN-ST: setting_dragon_valyrian_3_gen_desc [AGOT: Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e].]
+ setting_dragon_valyrian_3_gen_desc:0 "Valyrian cultural heritage counts as dragonblood. Only those that have [dragonblood|E] within 3 generations will be able to hatch and tame [dragons_plural|e]."
+### TODO NOT-IN-ST: setting_dragons_anyone [AGOT: Anyone]
+ setting_dragons_anyone:0 "Anyone"
+### TODO NOT-IN-ST: setting_dragons_anyone_desc [AGOT: Anyone can try to hatch and tame dragons.]
+ setting_dragons_anyone_desc:0 "Anyone can try to hatch and tame dragons."
+### TODO NOT-IN-ST: rule_agot_dragon_culling [AGOT: #R AGOT:#! Dragon Limit]
+ rule_agot_dragon_culling:0 "#R AGOT:#! Dragon Limit"
+### TODO NOT-IN-ST: setting_agot_dragon_culling_normal [AGOT: Default]
+ setting_agot_dragon_culling_normal:0 "Default"
+### TODO NOT-IN-ST: setting_agot_dragon_culling_normal_desc [AGOT: Dragons will start being pruned above 27 living dragons.]
+ setting_agot_dragon_culling_normal_desc:0 "Dragons will start being pruned above 27 living dragons."
+### TODO NOT-IN-ST: setting_agot_dragon_culling_high [AGOT: Raised Limit]
+ setting_agot_dragon_culling_high:0 "Raised Limit"
+### TODO NOT-IN-ST: setting_agot_dragon_culling_high_desc [AGOT: Dragons will start being pruned above 35 living dragons.]
+ setting_agot_dragon_culling_high_desc:0 "Dragons will start being pruned above 35 living dragons."
+### TODO NOT-IN-ST: setting_agot_no_dragon_culling [AGOT: Pseudo-Unlimited]
+ setting_agot_no_dragon_culling:0 "Pseudo-Unlimited"
+### TODO NOT-IN-ST: setting_agot_no_dragon_culling_desc [AGOT: There will be no tangible limit on the number of dragons.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!]
+ setting_agot_no_dragon_culling_desc:0 "There will be no tangible limit on the number of dragons.\n@warning_icon! #X This setting may be #bold heavy#! on performance. Use at your own risk!#!"
+### TODO NOT-IN-ST: rule_agot_dragon_trait_inheritance [AGOT: #R AGOT:#! Dragon Trait Inheritance]
+ rule_agot_dragon_trait_inheritance:0 "#R AGOT:#! Dragon Trait Inheritance"
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_full [AGOT: Full]
+ setting_agot_dragon_trait_inheritance_full:0 "Full"
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_full_desc [AGOT: Dragons will inherit parental congenital traits at a rate comparable to humans.]
+ setting_agot_dragon_trait_inheritance_full_desc:0 "Dragons will inherit parental congenital traits at a rate comparable to humans."
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_reduced [AGOT: Reduced]
+ setting_agot_dragon_trait_inheritance_reduced:0 "Reduced"
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_reduced_desc [AGOT: Dragons' congenital trait inheritance is reduced to 75% of the human default rate.]
+ setting_agot_dragon_trait_inheritance_reduced_desc:0 "Dragons' congenital trait inheritance is reduced to 75% of the human default rate."
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_half [AGOT: Half]
+ setting_agot_dragon_trait_inheritance_half:0 "Half"
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_half_desc [AGOT: Dragons' congenital trait inheritance is reduced to 50% of the human default rate.]
+ setting_agot_dragon_trait_inheritance_half_desc:0 "Dragons' congenital trait inheritance is reduced to 50% of the human default rate."
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_disabled [AGOT: Disabled]
+ setting_agot_dragon_trait_inheritance_disabled:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_dragon_trait_inheritance_disabled_desc [AGOT: Trait inheritance is disabled. Dragon congenital traits are completely random.]
+ setting_agot_dragon_trait_inheritance_disabled_desc:0 "Trait inheritance is disabled. Dragon congenital traits are completely random."
+### TODO NOT-IN-ST: rule_agot_silly [AGOT: #R AGOT:#! Silly Mode]
+ rule_agot_silly:0 "#R AGOT:#! Silly Mode"
+### TODO NOT-IN-ST: setting_agot_silly_mode [AGOT: Silly]
+ setting_agot_silly_mode:0 "Silly"
+### TODO NOT-IN-ST: setting_agot_silly_mode_desc [AGOT: Expect shenanigans. For example, Cannibal will be up to his day-one tomfoolery.]
+ setting_agot_silly_mode_desc:0 "Expect shenanigans. For example, Cannibal will be up to his day-one tomfoolery."
+### TODO NOT-IN-ST: setting_agot_no_silly [AGOT: Disabled]
+ setting_agot_no_silly:0 "Disabled"
+### TODO NOT-IN-ST: setting_agot_no_silly_desc [AGOT: Normal game balance.]
+ setting_agot_no_silly_desc:0 "Normal game balance."
 ### TODO NOT-IN-ST: rule_agot_essos [AGOT: #R AGOT:#! Essos Enabled]
  rule_agot_essos:0 "#R AGOT:#! Essos Enabled"
+### TODO NOT-IN-ST: setting_agot_essos_enabled [AGOT: Essos Enabled]
+ setting_agot_essos_enabled:0 "Essos Enabled"
+### TODO NOT-IN-ST: setting_agot_essos_enabled_desc [AGOT: Essos is available for interaction.]
+ setting_agot_essos_enabled_desc:0 "Essos is available for interaction."
+### TODO NOT-IN-ST: setting_agot_essos_disabled [AGOT: Essos Disabled]
+ setting_agot_essos_disabled:0 "Essos Disabled"
+### TODO NOT-IN-ST: setting_agot_essos_disabled_desc [AGOT: Essos is unavailable for interaction.]
+ setting_agot_essos_disabled_desc:0 "Essos is unavailable for interaction."
 ### TODO NOT-IN-ST: rule_agot_debug [AGOT: #R AGOT DEBUG#!]
  rule_agot_debug:0 "#R AGOT DEBUG#!"
+### TODO NOT-IN-ST: setting_agot_debug_on [AGOT: On]
+ setting_agot_debug_on:0 "On"
+### TODO NOT-IN-ST: setting_agot_debug_on_desc [AGOT: AGOT DEBUG is enabled. #R Do not turn this on if you don't know what it does!#!]
+ setting_agot_debug_on_desc:0 "AGOT DEBUG is enabled. #R Do not turn this on if you don't know what it does!#!"
+### TODO NOT-IN-ST: setting_agot_debug_off [AGOT: Off]
+ setting_agot_debug_off:0 "Off"
+### TODO NOT-IN-ST: setting_agot_debug_off_desc [AGOT: AGOT DEBUG is disabled.]
+ setting_agot_debug_off_desc:0 "AGOT DEBUG is disabled."
+### TODO NOT-IN-ST: rule_agot_realistic_pregnancy_chance_rule [AGOT: @lmf_icon! Realistic Pregnancies]
+ rule_agot_realistic_pregnancy_chance_rule:0 "@lmf_icon! Realistic Pregnancies"
+### TODO NOT-IN-ST: setting_agot_realistic_pregnancy_chance [AGOT: Realism]
+ setting_agot_realistic_pregnancy_chance:0 "Realism"
+### TODO NOT-IN-ST: setting_agot_realistic_pregnancy_chance_desc [AGOT: Characters will only become pregnant if both partners are in the same location, activity, travel plan, or army when a pregnancy check is initiated. This is disregarded if neither partner is a ruler.]
+ setting_agot_realistic_pregnancy_chance_desc:0 "Characters will only become pregnant if both partners are in the same location, activity, travel plan, or army when a pregnancy check is initiated. This is disregarded if neither partner is a ruler."
+### TODO NOT-IN-ST: setting_agot_vanilla_pregnancy_chance [AGOT: Vanilla]
+ setting_agot_vanilla_pregnancy_chance:0 "Vanilla"
+### TODO NOT-IN-ST: setting_agot_vanilla_pregnancy_chance_desc [AGOT: Characters will be able to become pregnant anywhere, regardless of whether both partners are near each other.]
+ setting_agot_vanilla_pregnancy_chance_desc:0 "Characters will be able to become pregnant anywhere, regardless of whether both partners are near each other."
+### TODO NOT-IN-ST: setting_epidemic_frequency_very_very_rare [AGOT: Extremely Rare]
+ setting_epidemic_frequency_very_very_rare:0 "Extremely Rare"
+### TODO NOT-IN-ST: setting_epidemic_frequency_very_very_rare_desc [AGOT: Plagues will be extremely rare to appear and spread with much less frequency.]
+ setting_epidemic_frequency_very_very_rare_desc:0 "Plagues will be extremely rare to appear and spread with much less frequency."

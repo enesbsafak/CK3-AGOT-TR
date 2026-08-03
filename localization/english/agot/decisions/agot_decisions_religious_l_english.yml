@@ -1,4 +1,68 @@
 ﻿l_english:
+### TODO NOT-IN-ST: decision_group_type_religion [AGOT: Religious Decisions]
+ decision_group_type_religion:0 "Religious Decisions"
+### TODO NOT-IN-ST: agot_look_into_the_flames_decision [AGOT: Look into the Flames]
+ agot_look_into_the_flames_decision:0 "Look into the Flames"
+### TODO NOT-IN-ST: agot_look_into_the_flames_decision_confirm [AGOT: The night is dark and full of terrors]
+ agot_look_into_the_flames_decision_confirm:0 "The night is dark and full of terrors"
+### TODO NOT-IN-ST: look_into_the_flames_decision_desc [AGOT: It is said [ROOT.Char.GetFaith.HighGodName] speaks to his chosen through the flames in a tongue of ash and cinders, twisting flames few can truly grasp.\n\nWhat may I see within his blessed blaze?]
+ look_into_the_flames_decision_desc:0 "It is said [ROOT.Char.GetFaith.HighGodName] speaks to his chosen through the flames in a tongue of ash and cinders, twisting flames few can truly grasp.\n\nWhat may I see within his blessed blaze?"
+### TODO NOT-IN-ST: look_into_the_flames_decision_tooltip [AGOT: What shall the flames reveal?]
+ look_into_the_flames_decision_tooltip:0 "What shall the flames reveal?"
+### TODO NOT-IN-ST: look_into_flames_decision_effect [AGOT: You will perform the rites in hopes to witness a vision]
+ look_into_flames_decision_effect:0 "You will perform the rites in hopes to witness a vision"
+### TODO NOT-IN-ST: look_into_flames_decision_no_cooldown [AGOT: You have #bold NOT#! taken this decision in the last 5 years]
+ look_into_flames_decision_no_cooldown:0 "You have #bold NOT#! taken this decision in the last 5 years"
+### TODO NOT-IN-ST: available_red_priest_camp_officer [AGOT: Your [GetCourtPositionType('camp_priest_camp_officer').GetName] has the [GetTrait('red_priest').GetName( GetNullCharacter )] [trait|e] and is available]
+ available_red_priest_camp_officer: "Your [GetCourtPositionType('camp_priest_camp_officer').GetName] has the [GetTrait('red_priest').GetName( GetNullCharacter )] [trait|e] and is available"
+### TODO NOT-IN-ST: blind_self_for_piety_decision [AGOT: Blind Myself]
+ blind_self_for_piety_decision:0 "Blind Myself"
+### TODO NOT-IN-ST: blind_self_for_piety_decision_desc [AGOT: $tenet_opening_the_third_eye_desc$]
+ blind_self_for_piety_decision_desc:0 "$tenet_opening_the_third_eye_desc$"
+### TODO NOT-IN-ST: blind_self_for_piety_decision_tooltip [AGOT: Blind Myself]
+ blind_self_for_piety_decision_tooltip:0 "Blind Myself"
+### TODO NOT-IN-ST: blind_self_for_piety_decision_confirm [AGOT: $blind_self_for_piety_decision_tooltip$!]
+ blind_self_for_piety_decision_confirm:0 "$blind_self_for_piety_decision_tooltip$!"
+### TODO NOT-IN-ST: oily_black_stone_meditate_decision_desc [AGOT: Ancient beyond reckoning, the black stone bears no chisel marks, no maker's claim — only the weight of ages and the whispers of things unseen. To meditate upon it is to surrender to forces older than gods.]
+ oily_black_stone_meditate_decision_desc:0 "Ancient beyond reckoning, the black stone bears no chisel marks, no maker's claim — only the weight of ages and the whispers of things unseen. To meditate upon it is to surrender to forces older than gods."
+### TODO NOT-IN-ST: oily_black_stone_meditate_decision_tooltip [AGOT: Meditate with Oily Black Stone]
+ oily_black_stone_meditate_decision_tooltip:0 "Meditate with Oily Black Stone"
+### TODO NOT-IN-ST: oily_black_stone_meditate_decision [AGOT: Meditate with Oily Black Stone]
+ oily_black_stone_meditate_decision:0 "Meditate with Oily Black Stone"
+### TODO NOT-IN-ST: oily_black_stone_meditate_decision_confirm [AGOT: Fix your eyes upon it... and see]
+ oily_black_stone_meditate_decision_confirm:0 "Fix your eyes upon it... and see"
+### TODO NOT-IN-ST: decision_oily_black_stone.has_artifact [AGOT: Has an Oily Black Stone [artifact|E]]
+ decision_oily_black_stone.has_artifact: "Has an Oily Black Stone [artifact|E]"
+### TODO NOT-IN-ST: decision_oily_black_stone.control_one_holy_site [AGOT: You control at least 1 [CHARACTER.GetFaith.GetAdjective] [holy_site|E]]
+ decision_oily_black_stone.control_one_holy_site:0 "You control at least 1 [CHARACTER.GetFaith.GetAdjective] [holy_site|E]"
+### TODO NOT-IN-ST: imbibe_in_shade_of_the_evening_decision_desc [AGOT: $tenet_black_barked_trees_desc$]
+ imbibe_in_shade_of_the_evening_decision_desc:0 "$tenet_black_barked_trees_desc$"
+### TODO NOT-IN-ST: imbibe_in_shade_of_the_evening_decision_tooltip [AGOT: Drink the Shade of the Evening]
+ imbibe_in_shade_of_the_evening_decision_tooltip:0 "Drink the Shade of the Evening"
+### TODO NOT-IN-ST: imbibe_in_shade_of_the_evening_decision [AGOT: Imbibe in Shade of the Evening]
+ imbibe_in_shade_of_the_evening_decision:0 "Imbibe in Shade of the Evening"
+### TODO NOT-IN-ST: imbibe_in_shade_of_the_evening_decision_confirm [AGOT: Drink the Shade of the Evening!]
+ imbibe_in_shade_of_the_evening_decision_confirm:0 "Drink the Shade of the Evening!"
+### TODO NOT-IN-ST: agot_drain_blood_religious_decision [AGOT: Drain Prisoners' Blood]
+ agot_drain_blood_religious_decision:0 "Drain Prisoners' Blood"
+### TODO NOT-IN-ST: agot_drain_blood_religious_decision_desc [AGOT: $tenet_blood_is_the_life_desc$\n\nWith prisoners at my disposal, I may fulfill my spiritual obligations and collect their blood for later consumption.]
+ agot_drain_blood_religious_decision_desc:0 "$tenet_blood_is_the_life_desc$\n\nWith prisoners at my disposal, I may fulfill my spiritual obligations and collect their blood for later consumption."
+### TODO NOT-IN-ST: agot_drain_blood_religious_decision_tooltip [AGOT: Collect Blood]
+ agot_drain_blood_religious_decision_tooltip:0 "Collect Blood"
+### TODO NOT-IN-ST: agot_drain_blood_religious_decision_confirm [AGOT: Collect Blood!]
+ agot_drain_blood_religious_decision_confirm:0 "Collect Blood!"
+### TODO NOT-IN-ST: agot_drain_blood_religious_decision_effect_tt [AGOT: You will drain blood from a prisoner of your choice.]
+ agot_drain_blood_religious_decision_effect_tt:0 "You will drain blood from a prisoner of your choice."
+### TODO NOT-IN-ST: agot_consume_blood_religious_decision [AGOT: Consume Collected Blood]
+ agot_consume_blood_religious_decision:0 "Consume Collected Blood"
+### TODO NOT-IN-ST: agot_consume_blood_religious_decision_desc [AGOT: $tenet_blood_is_the_life_desc$\n\nNow that I have collected [ROOT.Var('blood_is_life_blood_counter').GetValue|0] blood, I may freely consume some.]
+ agot_consume_blood_religious_decision_desc:0 "$tenet_blood_is_the_life_desc$\n\nNow that I have collected [ROOT.Var('blood_is_life_blood_counter').GetValue|0] blood, I may freely consume some."
+### TODO NOT-IN-ST: agot_consume_blood_religious_decision_tooltip [AGOT: Drink Blood]
+ agot_consume_blood_religious_decision_tooltip:0 "Drink Blood"
+### TODO NOT-IN-ST: agot_consume_blood_religious_decision_confirm [AGOT: Drink Blood!]
+ agot_consume_blood_religious_decision_confirm:0 "Drink Blood!"
+### TODO NOT-IN-ST: agot_consume_blood_religious_decision_next_step_button [AGOT: Choose Amount of Blood to Drink]
+ agot_consume_blood_religious_decision_next_step_button:0 "Choose Amount of Blood to Drink"
 ### TODO NOT-IN-ST: small_amount_of_blood_desc [AGOT: A Small Amount]
  small_amount_of_blood_desc:0 "A Small Amount"
 ### TODO NOT-IN-ST: moderate_amount_of_blood_desc [AGOT: A Moderate Amount]
@@ -7,3 +71,51 @@
  large_amount_of_blood_desc:0 "A Large Amount"
 ### TODO NOT-IN-ST: great_amount_of_blood_desc [AGOT: A Great Amount]
  great_amount_of_blood_desc:0 "A Great Amount"
+### TODO NOT-IN-ST: small_amount_of_blood_tooltip [AGOT: At least 20 blood is required]
+ small_amount_of_blood_tooltip:0 "At least 20 blood is required"
+### TODO NOT-IN-ST: moderate_amount_of_blood_tooltip [AGOT: At least 30 blood is required]
+ moderate_amount_of_blood_tooltip:0 "At least 30 blood is required"
+### TODO NOT-IN-ST: large_amount_of_blood_tooltip [AGOT: At least 40 blood is required]
+ large_amount_of_blood_tooltip:0 "At least 40 blood is required"
+### TODO NOT-IN-ST: great_amount_of_blood_tooltip [AGOT: At least 50 blood is required]
+ great_amount_of_blood_tooltip:0 "At least 50 blood is required"
+### TODO NOT-IN-ST: agot_divine_plots_hire_assassin_decision [AGOT: Hire Assassin]
+ agot_divine_plots_hire_assassin_decision:0 "Hire Assassin"
+### TODO NOT-IN-ST: agot_divine_plots_hire_assassin_decision_confirm [AGOT: This should help...]
+ agot_divine_plots_hire_assassin_decision_confirm:0 "This should help..."
+### TODO NOT-IN-ST: divine_plots_hire_assassin_decision_desc [AGOT: Hire an assassin to your court to who will be a skilled [agent|E] for your [GetScheme('murder').GetTypeName] [scheme|E].]
+ divine_plots_hire_assassin_decision_desc:0 "Hire an assassin to your court to who will be a skilled [agent|E] for your [GetScheme('murder').GetTypeName] [scheme|E]."
+### TODO NOT-IN-ST: divine_plots_hire_assassin_decision_tooltip [AGOT: Hire an assassin to support your murder schemes]
+ divine_plots_hire_assassin_decision_tooltip:0 "Hire an assassin to support your murder schemes"
+### TODO NOT-IN-ST: divine_plots_hire_assassin_decision_effect [AGOT: A courtier with strong intrigue skills will appear in your court and be added as an [agent|E] in your murder scheme. They will leave when your murder schemes are complete.]
+ divine_plots_hire_assassin_decision_effect:0 "A courtier with strong intrigue skills will appear in your court and be added as an [agent|E] in your murder scheme. They will leave when your murder schemes are complete."
+### TODO NOT-IN-ST: divine_plot_assassin_left [AGOT: [assassin.GetFirstName] Left Court]
+ divine_plot_assassin_left:0 "[assassin.GetFirstName] Left Court"
+### TODO NOT-IN-ST: divine_plot_assassin_left.tooltip [AGOT: With the end of your scheme, [assassin.GetFirstName] has vanished back into the shadows from which [assassin.GetSheHe] came.]
+ divine_plot_assassin_left.tooltip:0 "With the end of your scheme, [assassin.GetFirstName] has vanished back into the shadows from which [assassin.GetSheHe] came."
+### TODO NOT-IN-ST: hire_assassin_decision_no_agent_slot [AGOT: You do not have an ongoing [GetScheme('murder').GetTypeName] [scheme|E] with an open assassin [agent|E] role]
+ hire_assassin_decision_no_agent_slot:0 "You do not have an ongoing [GetScheme('murder').GetTypeName] [scheme|E] with an open assassin [agent|E] role"
+### TODO NOT-IN-ST: hire_assassin_decision_existing_assassin [AGOT: You already have a hired assassin in your court]
+ hire_assassin_decision_existing_assassin:0 "You already have a hired assassin in your court"
+### TODO NOT-IN-ST: agot_fund_trade_expedition_decision [AGOT: Fund Trade Expedition]
+ agot_fund_trade_expedition_decision:0 "Fund Trade Expedition"
+### TODO NOT-IN-ST: agot_fund_trade_expedition_decision_confirm [AGOT: Plan the expedition]
+ agot_fund_trade_expedition_decision_confirm:0 "Plan the expedition"
+### TODO NOT-IN-ST: fund_trade_expedition_decision_desc [AGOT: As the realm's wealth grows, the opportunity arises to explore new trade routes, establish lucrative alliances, and unlock access to rare goods. The costs may be steep, but the rewards can significantly increase the prosperity of the realm.]
+ fund_trade_expedition_decision_desc:0 "As the realm's wealth grows, the opportunity arises to explore new trade routes, establish lucrative alliances, and unlock access to rare goods. The costs may be steep, but the rewards can significantly increase the prosperity of the realm."
+### TODO NOT-IN-ST: fund_trade_expedition_decision_tooltip [AGOT: Fund an expedition to open new trade routes]
+ fund_trade_expedition_decision_tooltip:0 "Fund an expedition to open new trade routes"
+### TODO NOT-IN-ST: fund_trade_expedition_decision_effect [AGOT: You will be given the opportunity to choose between various levels of funding your expedition. On its return, you may receive beneficial [county_modifiers|E], [gold|E], or [artifacts|E].]
+ fund_trade_expedition_decision_effect:0 "You will be given the opportunity to choose between various levels of funding your expedition. On its return, you may receive beneficial [county_modifiers|E], [gold|E], or [artifacts|E]."
+### TODO NOT-IN-ST: fund_trade_expedition_expedition_in_progress [AGOT: You already have a trade expedition in progress]
+ fund_trade_expedition_expedition_in_progress:0 "You already have a trade expedition in progress"
+### TODO NOT-IN-ST: agot_launch_whaling_expedition_expedition_decision [AGOT: Launch Whaling Expedition]
+ agot_launch_whaling_expedition_expedition_decision:0 "Launch Whaling Expedition"
+### TODO NOT-IN-ST: agot_launch_whaling_expedition_expedition_decision_confirm [AGOT: Go Whaling]
+ agot_launch_whaling_expedition_expedition_decision_confirm:0 "Go Whaling"
+### TODO NOT-IN-ST: agot_launch_whaling_expedition_expedition_decision_desc [AGOT: The seas are a bounty of life, but only the leviathans of the deep hold any real importance. Whaling is thus a vigorous activity that can yield both material and spiritual rewards.]
+ agot_launch_whaling_expedition_expedition_decision_desc:0 "The seas are a bounty of life, but only the leviathans of the deep hold any real importance. Whaling is thus a vigorous activity that can yield both material and spiritual rewards."
+### TODO NOT-IN-ST: agot_launch_whaling_expedition_expedition_decision_tooltip [AGOT: Launch a whaling expedition to reap gold and piety]
+ agot_launch_whaling_expedition_expedition_decision_tooltip:0 "Launch a whaling expedition to reap gold and piety"
+### TODO NOT-IN-ST: agot_launch_whaling_expedition_expedition_decision_effect [AGOT: You will launch an expedition where you can gain [piety|E] and [gold|E].]
+ agot_launch_whaling_expedition_expedition_decision_effect:0 "You will launch an expedition where you can gain [piety|E] and [gold|E]."

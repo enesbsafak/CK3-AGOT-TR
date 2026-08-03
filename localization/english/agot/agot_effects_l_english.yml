@@ -115,6 +115,12 @@
  THEY_ENTER_DREAD_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
 ### TODO NOT-IN-ST: ENTERS_DREAD_CHALLENGE_EFFECT [AGOT: @dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]]
  ENTERS_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Dread Challenge against [TARGET_CHARACTER.GetShortUIName]"
+### TODO NOT-IN-ST: agot_set_legitimate_house_effect [AGOT: [HOUSE.GetName] is now the [agot_legitimate_house|E] of [TITLE_REF.GetName]]
+ agot_set_legitimate_house_effect:0 "[HOUSE.GetName] is now the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
+### TODO NOT-IN-ST: agot_add_new_house_progress_positive_effect [AGOT: [CURRENT_HOUSE.GetName] gains progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]]
+ agot_add_new_house_progress_positive_effect:0 "[CURRENT_HOUSE.GetName] gains progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
+### TODO NOT-IN-ST: agot_add_new_house_progress_negative_effect [AGOT: [CURRENT_HOUSE.GetName] loses progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]]
+ agot_add_new_house_progress_negative_effect:0 "[CURRENT_HOUSE.GetName] loses progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName]"
 ### TODO NOT-IN-ST: agot_add_new_house_progress_zero_effect [AGOT: [CURRENT_HOUSE.GetName] progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName] remains unchanged]
  agot_add_new_house_progress_zero_effect:0 "[CURRENT_HOUSE.GetName] progress towards becoming the [agot_legitimate_house|E] of [TITLE_REF.GetName] remains unchanged"
 ### TODO NOT-IN-ST: I_BECAME_A_PRINCELING [AGOT: I became a [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] of [TARGET_TITLE.GetNameNoTierNoTooltip|V]]

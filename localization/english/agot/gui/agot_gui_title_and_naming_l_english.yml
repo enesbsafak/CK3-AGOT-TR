@@ -97,6 +97,12 @@
  PAST_TITLE_SUFFIX:0 " #medium of [TARGET_TITLE.GetNameNoTierNoTooltip]#!"
 ### TODO NOT-IN-ST: PAST_TITLE_SUFFIX_NO_FORMAT [AGOT: of [TARGET_TITLE.GetNameNoTierNoTooltip]]
  PAST_TITLE_SUFFIX_NO_FORMAT:0 " of [TARGET_TITLE.GetNameNoTierNoTooltip]"
+### TODO NOT-IN-ST: AGOTGetTitleDowager [AGOT: [Localize(get_title_dowager)][Localize(get_title)]]
+ AGOTGetTitleDowager:0 "[Localize(get_title_dowager)][Localize(get_title)]"
+### TODO NOT-IN-ST: AGOTGetTitleRegent [AGOT: [Localize(get_title)][Localize(get_title_regent)]]
+ AGOTGetTitleRegent:0 "[Localize(get_title)][Localize(get_title_regent)]"
+### TODO NOT-IN-ST: AGOTGetTitle [AGOT: [Localize(get_title)]]
+ AGOTGetTitle:0 "[Localize(get_title)]"
 ### TODO NOT-IN-ST: AGOT_FULL_TITLE_OVERRIDE [AGOT: [AddLocalizationIf( CHARACTER.IsValid, AGOTGetTitle(CHARACTER))]]
  AGOT_FULL_TITLE_OVERRIDE:0 "[AddLocalizationIf( CHARACTER.IsValid, AGOTGetTitle(CHARACTER))]"
 ### TODO NOT-IN-ST: CHARACTER_HIGH_SEPTON [AGOT: [CHARACTER.GetNickname]]

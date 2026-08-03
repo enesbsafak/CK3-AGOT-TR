@@ -11,3 +11,887 @@
  GetCadetHouseName_C:0 "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetHousePrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSuffix')]"
 ### TODO NOT-IN-ST: GetCadetHouseName_D [AGOT: [GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetHousePrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSigilSuffix')]]
  GetCadetHouseName_D:0 "[GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetHousePrefix')][GetGlobalVariable('cadet_new_name').Char.Custom('GetCadetSigilSuffix')]"
+### TODO NOT-IN-ST: CadetPrefix_green [AGOT: Green]
+ CadetPrefix_green:0 "Green"
+### TODO NOT-IN-ST: CadetPrefix_blue [AGOT: Blu]
+ CadetPrefix_blue:0 "Blu"
+### TODO NOT-IN-ST: CadetPrefix_red [AGOT: Red]
+ CadetPrefix_red:0 "Red"
+### TODO NOT-IN-ST: CadetPrefix_black [AGOT: Black]
+ CadetPrefix_black:0 "Black"
+### TODO NOT-IN-ST: CadetPrefix_dark [AGOT: Dark]
+ CadetPrefix_dark:0 "Dark"
+### TODO NOT-IN-ST: CadetPrefix_white [AGOT: White]
+ CadetPrefix_white:0 "White"
+### TODO NOT-IN-ST: CadetPrefix_grey [AGOT: Grey]
+ CadetPrefix_grey:0 "Grey"
+### TODO NOT-IN-ST: CadetPrefix_brown [AGOT: Brown]
+ CadetPrefix_brown:0 "Brown"
+### TODO NOT-IN-ST: CadetPrefix_pink [AGOT: Pink]
+ CadetPrefix_pink:0 "Pink"
+### TODO NOT-IN-ST: CadetPrefix_blood [AGOT: Blood]
+ CadetPrefix_blood:0 "Blood"
+### TODO NOT-IN-ST: CadetPrefix_gold [AGOT: Gold]
+ CadetPrefix_gold:0 "Gold"
+### TODO NOT-IN-ST: CadetPrefix_silver [AGOT: Silver]
+ CadetPrefix_silver:0 "Silver"
+### TODO NOT-IN-ST: CadetPrefix_argent [AGOT: Ar]
+ CadetPrefix_argent:0 "Ar"
+### TODO NOT-IN-ST: CadetPrefix_bronze [AGOT: Bronz]
+ CadetPrefix_bronze:0 "Bronz"
+### TODO NOT-IN-ST: CadetPrefix_steel [AGOT: Steel]
+ CadetPrefix_steel:0 "Steel"
+### TODO NOT-IN-ST: CadetPrefix_iron [AGOT: Iron]
+ CadetPrefix_iron:0 "Iron"
+### TODO NOT-IN-ST: CadetPrefix_brave [AGOT: Bold]
+ CadetPrefix_brave:0 "Bold"
+### TODO NOT-IN-ST: CadetPrefix_calm [AGOT: Calm]
+ CadetPrefix_calm:0 "Calm"
+### TODO NOT-IN-ST: CadetPrefix_wrathful [AGOT: Wroth]
+ CadetPrefix_wrathful:0 "Wroth"
+### TODO NOT-IN-ST: CadetPrefix_chaste [AGOT: Pure]
+ CadetPrefix_chaste:0 "Pure"
+### TODO NOT-IN-ST: CadetPrefix_lustful [AGOT: Lew]
+ CadetPrefix_lustful:0 "Lew"
+### TODO NOT-IN-ST: CadetPrefix_content [AGOT: Glad]
+ CadetPrefix_content:0 "Glad"
+### TODO NOT-IN-ST: CadetPrefix_ambitious [AGOT: Bold]
+ CadetPrefix_ambitious:0 "Bold"
+### TODO NOT-IN-ST: CadetPrefix_diligent [AGOT: Heed]
+ CadetPrefix_diligent:0 "Heed"
+### TODO NOT-IN-ST: CadetPrefix_lazy [AGOT: Daz]
+ CadetPrefix_lazy:0 "Daz"
+### TODO NOT-IN-ST: CadetPrefix_fickle [AGOT: Flit]
+ CadetPrefix_fickle:0 "Flit"
+### TODO NOT-IN-ST: CadetPrefix_stubborn [AGOT: Mul]
+ CadetPrefix_stubborn:0 "Mul"
+### TODO NOT-IN-ST: CadetPrefix_vengeful [AGOT: Mal]
+ CadetPrefix_vengeful:0 "Mal"
+### TODO NOT-IN-ST: CadetPrefix_gregarious [AGOT: Ben]
+ CadetPrefix_gregarious:0 "Ben"
+### TODO NOT-IN-ST: CadetPrefix_honest [AGOT: Tru]
+ CadetPrefix_honest:0 "Tru"
+### TODO NOT-IN-ST: CadetPrefix_arrogant [AGOT: Proud]
+ CadetPrefix_arrogant:0 "Proud"
+### TODO NOT-IN-ST: CadetPrefix_compassionate [AGOT: Good]
+ CadetPrefix_compassionate:0 "Good"
+### TODO NOT-IN-ST: CadetPrefix_just [AGOT: Just]
+ CadetPrefix_just:0 "Just"
+### TODO NOT-IN-ST: CadetPrefix_impatient [AGOT: Mad]
+ CadetPrefix_impatient:0 "Mad"
+### TODO NOT-IN-ST: CadetPrefix_generous [AGOT: Giv]
+ CadetPrefix_generous:0 "Giv"
+### TODO NOT-IN-ST: CadetPrefix_giant [AGOT: Great]
+ CadetPrefix_giant:0 "Great"
+### TODO NOT-IN-ST: CadetPrefix_long [AGOT: Long]
+ CadetPrefix_long:0 "Long"
+### TODO NOT-IN-ST: CadetPrefix_dwarf [AGOT: Imp]
+ CadetPrefix_dwarf:0 "Imp"
+### TODO NOT-IN-ST: CadetPrefix_strong [AGOT: Strong]
+ CadetPrefix_strong:0 "Strong"
+### TODO NOT-IN-ST: CadetPrefix_wise [AGOT: Wys]
+ CadetPrefix_wise:0 "Wys"
+### TODO NOT-IN-ST: CadetPrefix_fair [AGOT: Fair]
+ CadetPrefix_fair:0 "Fair"
+### TODO NOT-IN-ST: CadetPrefix_ugly [AGOT: Nast]
+ CadetPrefix_ugly:0 "Nast"
+### TODO NOT-IN-ST: CadetPrefix_hard [AGOT: Hard]
+ CadetPrefix_hard:0 "Hard"
+### TODO NOT-IN-ST: CadetPrefix_sharp [AGOT: Sharp]
+ CadetPrefix_sharp:0 "Sharp"
+### TODO NOT-IN-ST: CadetPrefix_bright [AGOT: Bright]
+ CadetPrefix_bright:0 "Bright"
+### TODO NOT-IN-ST: CadetPrefix_sly [AGOT: Sly]
+ CadetPrefix_sly:0 "Sly"
+### TODO NOT-IN-ST: CadetPrefix_hunt [AGOT: Hunt]
+ CadetPrefix_hunt:0 "Hunt"
+### TODO NOT-IN-ST: CadetPrefix_herb [AGOT: Herb]
+ CadetPrefix_herb:0 "Herb"
+### TODO NOT-IN-ST: CadetPrefix_weir [AGOT: Weir]
+ CadetPrefix_weir:0 "Weir"
+### TODO NOT-IN-ST: CadetPrefix_drown [AGOT: Drown]
+ CadetPrefix_drown:0 "Drown"
+### TODO NOT-IN-ST: CadetPrefix_nor [AGOT: Nor]
+ CadetPrefix_nor:0 "Nor"
+### TODO NOT-IN-ST: CadetPrefix_riv [AGOT: Riv]
+ CadetPrefix_riv:0 "Riv"
+### TODO NOT-IN-ST: CadetPrefix_val [AGOT: Val]
+ CadetPrefix_val:0 "Val"
+### TODO NOT-IN-ST: CadetPrefix_wes [AGOT: Wes]
+ CadetPrefix_wes:0 "Wes"
+### TODO NOT-IN-ST: CadetPrefix_crown [AGOT: Crown]
+ CadetPrefix_crown:0 "Crown"
+### TODO NOT-IN-ST: CadetPrefix_reach [AGOT: Reach]
+ CadetPrefix_reach:0 "Reach"
+### TODO NOT-IN-ST: CadetPrefix_stor [AGOT: Stor]
+ CadetPrefix_stor:0 "Stor"
+### TODO NOT-IN-ST: CadetPrefix_dor [AGOT: Dor]
+ CadetPrefix_dor:0 "Dor"
+### TODO NOT-IN-ST: CadetPrefix_tri [AGOT: Tri]
+ CadetPrefix_tri:0 "Tri"
+### TODO NOT-IN-ST: CadetPrefix_d_winterfell [AGOT: Winter]
+ CadetPrefix_d_winterfell:0 "Winter"
+### TODO NOT-IN-ST: CadetPrefix_d_skagos [AGOT: Skag]
+ CadetPrefix_d_skagos:0 "Skag"
+### TODO NOT-IN-ST: CadetPrefix_d_bear_island [AGOT: Maul]
+ CadetPrefix_d_bear_island:0 "Maul"
+### TODO NOT-IN-ST: CadetPrefix_d_flints_finger [AGOT: Flint]
+ CadetPrefix_d_flints_finger:0 "Flint"
+### TODO NOT-IN-ST: CadetPrefix_d_stony_shore [AGOT: Ston]
+ CadetPrefix_d_stony_shore:0 "Ston"
+### TODO NOT-IN-ST: CadetPrefix_d_last_lands [AGOT: Last]
+ CadetPrefix_d_last_lands:0 "Last"
+### TODO NOT-IN-ST: CadetPrefix_d_the_wolfswood [AGOT: Wolfs]
+ CadetPrefix_d_the_wolfswood:0 "Wolfs"
+### TODO NOT-IN-ST: CadetPrefix_d_karhold [AGOT: Kar]
+ CadetPrefix_d_karhold:0 "Kar"
+### TODO NOT-IN-ST: CadetPrefix_d_the_dreadfort [AGOT: Dread]
+ CadetPrefix_d_the_dreadfort:0 "Dread"
+### TODO NOT-IN-ST: CadetPrefix_d_the_rills [AGOT: Rill]
+ CadetPrefix_d_the_rills:0 "Rill"
+### TODO NOT-IN-ST: CadetPrefix_d_the_barrowlands [AGOT: Barrow]
+ CadetPrefix_d_the_barrowlands:0 "Barrow"
+### TODO NOT-IN-ST: CadetPrefix_d_white_harbor [AGOT: Mer]
+ CadetPrefix_d_white_harbor:0 "Mer"
+### TODO NOT-IN-ST: CadetPrefix_d_the_neck [AGOT: Neck]
+ CadetPrefix_d_the_neck:0 "Neck"
+### TODO NOT-IN-ST: CadetPrefix_d_harlaw [AGOT: Har]
+ CadetPrefix_d_harlaw:0 "Har"
+### TODO NOT-IN-ST: CadetPrefix_d_orkmont [AGOT: Ork]
+ CadetPrefix_d_orkmont:0 "Ork"
+### TODO NOT-IN-ST: CadetPrefix_d_old_wyk [AGOT: Wyk]
+ CadetPrefix_d_old_wyk:0 "Wyk"
+### TODO NOT-IN-ST: CadetPrefix_d_hardstone_hills [AGOT: Hard]
+ CadetPrefix_d_hardstone_hills:0 "Hard"
+### TODO NOT-IN-ST: CadetPrefix_d_saltcliffe [AGOT: Salt]
+ CadetPrefix_d_saltcliffe:0 "Salt"
+### TODO NOT-IN-ST: CadetPrefix_d_blackwood_vale [AGOT: Flock]
+ CadetPrefix_d_blackwood_vale:0 "Flock"
+### TODO NOT-IN-ST: CadetPrefix_d_the_crossing [AGOT: Cross]
+ CadetPrefix_d_the_crossing:0 "Cross"
+### TODO NOT-IN-ST: CadetPrefix_d_willow_wood [AGOT: Willow]
+ CadetPrefix_d_willow_wood:0 "Willow"
+### TODO NOT-IN-ST: CadetPrefix_d_tridents_mouth [AGOT: Salt]
+ CadetPrefix_d_tridents_mouth:0 "Salt"
+### TODO NOT-IN-ST: CadetPrefix_d_harrenhal [AGOT: Harren]
+ CadetPrefix_d_harrenhal:0 "Harren"
+### TODO NOT-IN-ST: CadetPrefix_d_maidenpool [AGOT: Maiden]
+ CadetPrefix_d_maidenpool:0 "Maiden"
+### TODO NOT-IN-ST: CadetPrefix_d_pinkmaiden [AGOT: Pink]
+ CadetPrefix_d_pinkmaiden:0 "Pink"
+### TODO NOT-IN-ST: CadetPrefix_d_the_giants_lance [AGOT: Lans]
+ CadetPrefix_d_the_giants_lance:0 "Lans"
+### TODO NOT-IN-ST: CadetPrefix_c_the_eyrie [AGOT: Nest]
+ CadetPrefix_c_the_eyrie:0 "Nest"
+### TODO NOT-IN-ST: CadetPrefix_d_wickenden [AGOT: Wick]
+ CadetPrefix_d_wickenden:0 "Wick"
+### TODO NOT-IN-ST: CadetPrefix_d_old_anchor [AGOT: Anchor]
+ CadetPrefix_d_old_anchor:0 "Anchor"
+### TODO NOT-IN-ST: CadetPrefix_d_gulltown [AGOT: Gull]
+ CadetPrefix_d_gulltown:0 "Gull"
+### TODO NOT-IN-ST: CadetPrefix_d_runestone [AGOT: Rune]
+ CadetPrefix_d_runestone:0 "Rune"
+### TODO NOT-IN-ST: CadetPrefix_d_hearts_home [AGOT: Heart]
+ CadetPrefix_d_hearts_home:0 "Heart"
+### TODO NOT-IN-ST: CadetPrefix_d_castamere [AGOT: Casta]
+ CadetPrefix_d_castamere:0 "Casta"
+### TODO NOT-IN-ST: CadetPrefix_d_casterly_rock [AGOT: Caster]
+ CadetPrefix_d_casterly_rock:0 "Caster"
+### TODO NOT-IN-ST: CadetPrefix_d_crakehall [AGOT: Crake]
+ CadetPrefix_d_crakehall:0 "Crake"
+### TODO NOT-IN-ST: CadetPrefix_d_hornvale [AGOT: Horn]
+ CadetPrefix_d_hornvale:0 "Horn"
+### TODO NOT-IN-ST: CadetPrefix_d_the_golden_tooth [AGOT: Golden]
+ CadetPrefix_d_the_golden_tooth:0 "Golden"
+### TODO NOT-IN-ST: CadetPrefix_d_ashemark [AGOT: Ashe]
+ CadetPrefix_d_ashemark:0 "Ashe"
+### TODO NOT-IN-ST: CadetPrefix_d_denslane [AGOT: Den]
+ CadetPrefix_d_denslane:0 "Den"
+### TODO NOT-IN-ST: CadetPrefix_c_deep_den [AGOT: Deep]
+ CadetPrefix_c_deep_den:0 "Deep"
+### TODO NOT-IN-ST: CadetPrefix_d_highgarden [AGOT: High]
+ CadetPrefix_d_highgarden:0 "High"
+### TODO NOT-IN-ST: CadetPrefix_c_ashford [AGOT: Ash]
+ CadetPrefix_c_ashford:0 "Ash"
+### TODO NOT-IN-ST: CadetPrefix_c_horn_hill [AGOT: Horn]
+ CadetPrefix_c_horn_hill:0 "Horn"
+### TODO NOT-IN-ST: CadetPrefix_d_oldtown [AGOT: Old]
+ CadetPrefix_d_oldtown:0 "Old"
+### TODO NOT-IN-ST: CadetPrefix_d_honeylands [AGOT: Honey]
+ CadetPrefix_d_honeylands:0 "Honey"
+### TODO NOT-IN-ST: CadetPrefix_d_darkdell [AGOT: Dark]
+ CadetPrefix_d_darkdell:0 "Dark"
+### TODO NOT-IN-ST: CadetPrefix_d_the_roseroad [AGOT: Rose]
+ CadetPrefix_d_the_roseroad:0 "Rose"
+### TODO NOT-IN-ST: CadetPrefix_d_manderfields [AGOT: Mander]
+ CadetPrefix_d_manderfields:0 "Mander"
+### TODO NOT-IN-ST: CadetPrefix_d_sunnyvale [AGOT: Sunny]
+ CadetPrefix_d_sunnyvale:0 "Sunny"
+### TODO NOT-IN-ST: CadetPrefix_d_tumbleton [AGOT: Tumble]
+ CadetPrefix_d_tumbleton:0 "Tumble"
+### TODO NOT-IN-ST: CadetPrefix_d_bitterbridge [AGOT: Bitter]
+ CadetPrefix_d_bitterbridge:0 "Bitter"
+### TODO NOT-IN-ST: CadetPrefix_d_the_arbor [AGOT: Arbor]
+ CadetPrefix_d_the_arbor:0 "Arbor"
+### TODO NOT-IN-ST: CadetPrefix_d_darstone [AGOT: Dar]
+ CadetPrefix_d_darstone:0 "Dar"
+### TODO NOT-IN-ST: CadetPrefix_c_hayholt [AGOT: Hay]
+ CadetPrefix_c_hayholt:0 "Hay"
+### TODO NOT-IN-ST: CadetPrefix_d_hayford [AGOT: Hay]
+ CadetPrefix_d_hayford:0 "Hay"
+### TODO NOT-IN-ST: CadetPrefix_d_rosby [AGOT: Ros]
+ CadetPrefix_d_rosby:0 "Ros"
+### TODO NOT-IN-ST: CadetPrefix_d_stokeworth [AGOT: Stoke]
+ CadetPrefix_d_stokeworth:0 "Stoke"
+### TODO NOT-IN-ST: CadetPrefix_d_duskendale [AGOT: Dusken]
+ CadetPrefix_d_duskendale:0 "Dusken"
+### TODO NOT-IN-ST: CadetPrefix_d_rooks_rest [AGOT: Rook]
+ CadetPrefix_d_rooks_rest:0 "Rook"
+### TODO NOT-IN-ST: CadetPrefix_d_crackclaw_point [AGOT: Crack]
+ CadetPrefix_d_crackclaw_point:0 "Crack"
+### TODO NOT-IN-ST: CadetPrefix_d_deerfield [AGOT: Deer]
+ CadetPrefix_d_deerfield:0 "Deer"
+### TODO NOT-IN-ST: CadetPrefix_d_the_blackwater_rush [AGOT: Rush]
+ CadetPrefix_d_the_blackwater_rush:0 "Rush"
+### TODO NOT-IN-ST: CadetPrefix_d_the_baywater_woods [AGOT: Bay]
+ CadetPrefix_d_the_baywater_woods:0 "Bay"
+### TODO NOT-IN-ST: CadetPrefix_d_wendwater_forest [AGOT: Wend]
+ CadetPrefix_d_wendwater_forest:0 "Wend"
+### TODO NOT-IN-ST: CadetPrefix_d_masseys_hook [AGOT: Hook]
+ CadetPrefix_d_masseys_hook:0 "Hook"
+### TODO NOT-IN-ST: CadetPrefix_d_dragonstone [AGOT: Dragon]
+ CadetPrefix_d_dragonstone:0 "Dragon"
+### TODO NOT-IN-ST: CadetPrefix_c_driftmark [AGOT: Drift]
+ CadetPrefix_c_driftmark:0 "Drift"
+### TODO NOT-IN-ST: CadetPrefix_c_claw_isle [AGOT: Claw]
+ CadetPrefix_c_claw_isle:0 "Claw"
+### TODO NOT-IN-ST: CadetPrefix_d_shipbreaker_bay [AGOT: Break]
+ CadetPrefix_d_shipbreaker_bay:0 "Break"
+### TODO NOT-IN-ST: CadetPrefix_c_storms_end [AGOT: Squal]
+ CadetPrefix_c_storms_end:0 "Squal"
+### TODO NOT-IN-ST: CadetPrefix_d_nestridge [AGOT: Nest]
+ CadetPrefix_d_nestridge:0 "Nest"
+### TODO NOT-IN-ST: CadetPrefix_c_griffins_roost [AGOT: Griff]
+ CadetPrefix_c_griffins_roost:0 "Griff"
+### TODO NOT-IN-ST: CadetPrefix_d_grandview [AGOT: Grand]
+ CadetPrefix_d_grandview:0 "Grand"
+### TODO NOT-IN-ST: CadetPrefix_c_gallowsgrey [AGOT: Gallows]
+ CadetPrefix_c_gallowsgrey:0 "Gallows"
+### TODO NOT-IN-ST: CadetPrefix_d_the_drench [AGOT: Drench]
+ CadetPrefix_d_the_drench:0 "Drench"
+### TODO NOT-IN-ST: CadetPrefix_d_cape_wrath [AGOT: Wrath]
+ CadetPrefix_d_cape_wrath:0 "Wrath"
+### TODO NOT-IN-ST: CadetPrefix_c_mistfall [AGOT: Mist]
+ CadetPrefix_c_mistfall:0 "Mist"
+### TODO NOT-IN-ST: CadetPrefix_c_weeping_town [AGOT: Weeping]
+ CadetPrefix_c_weeping_town:0 "Weeping"
+### TODO NOT-IN-ST: CadetPrefix_d_the_rainwood [AGOT: Rain]
+ CadetPrefix_d_the_rainwood:0 "Rain"
+### TODO NOT-IN-ST: CadetPrefix_d_estermont_isles [AGOT: Ester]
+ CadetPrefix_d_estermont_isles:0 "Ester"
+### TODO NOT-IN-ST: CadetPrefix_d_marchfields [AGOT: March]
+ CadetPrefix_d_marchfields:0 "March"
+### TODO NOT-IN-ST: CadetPrefix_c_harvest_hall [AGOT: Harvest]
+ CadetPrefix_c_harvest_hall:0 "Harvest"
+### TODO NOT-IN-ST: CadetPrefix_d_nightsong [AGOT: Night]
+ CadetPrefix_d_nightsong:0 "Night"
+### TODO NOT-IN-ST: CadetPrefix_d_whentway [AGOT: Whent]
+ CadetPrefix_d_whentway:0 "Whent"
+### TODO NOT-IN-ST: CadetPrefix_d_valor_meadows [AGOT: Valor]
+ CadetPrefix_d_valor_meadows:0 "Valor"
+### TODO NOT-IN-ST: CadetPrefix_c_poddingfield [AGOT: Podding]
+ CadetPrefix_c_poddingfield:0 "Podding"
+### TODO NOT-IN-ST: CadetPrefix_d_kingswood [AGOT: Kings]
+ CadetPrefix_d_kingswood:0 "Kings"
+### TODO NOT-IN-ST: CadetPrefix_c_felwood [AGOT: Fel]
+ CadetPrefix_c_felwood:0 "Fel"
+### TODO NOT-IN-ST: CadetPrefix_c_parchments [AGOT: Parch]
+ CadetPrefix_c_parchments:0 "Parch"
+### TODO NOT-IN-ST: CadetPrefix_d_tarth [AGOT: Sapphire]
+ CadetPrefix_d_tarth:0 "Sapphire"
+### TODO NOT-IN-ST: CadetPrefix_c_evenfall [AGOT: Even]
+ CadetPrefix_c_evenfall:0 "Even"
+### TODO NOT-IN-ST: CadetPrefix_d_sunspear [AGOT: Shadow]
+ CadetPrefix_d_sunspear:0 "Shadow"
+### TODO NOT-IN-ST: CadetPrefix_c_plankytown [AGOT: Plank]
+ CadetPrefix_c_plankytown:0 "Plank"
+### TODO NOT-IN-ST: CadetPrefix_c_stinkwater [AGOT: Stink]
+ CadetPrefix_c_stinkwater:0 "Stink"
+### TODO NOT-IN-ST: CadetPrefix_c_sweetwater [AGOT: Sweet]
+ CadetPrefix_c_sweetwater:0 "Sweet"
+### TODO NOT-IN-ST: CadetPrefix_c_sourmarket [AGOT: Sour]
+ CadetPrefix_c_sourmarket:0 "Sour"
+### TODO NOT-IN-ST: CadetPrefix_d_lemonwood [AGOT: Lemon]
+ CadetPrefix_d_lemonwood:0 "Lemon"
+### TODO NOT-IN-ST: CadetPrefix_d_salt_shore [AGOT: Salt]
+ CadetPrefix_d_salt_shore:0 "Salt"
+### TODO NOT-IN-ST: CadetPrefix_d_broken_arm [AGOT: Broken]
+ CadetPrefix_d_broken_arm:0 "Broken"
+### TODO NOT-IN-ST: CadetPrefix_c_spottswood [AGOT: Spotts]
+ CadetPrefix_c_spottswood:0 "Spotts"
+### TODO NOT-IN-ST: CadetPrefix_d_ghost_hills [AGOT: Ghost]
+ CadetPrefix_d_ghost_hills:0 "Ghost"
+### TODO NOT-IN-ST: CadetPrefix_d_the_tor [AGOT: Tor]
+ CadetPrefix_d_the_tor:0 "Tor"
+### TODO NOT-IN-ST: CadetPrefix_d_scourgehead [AGOT: Scourge]
+ CadetPrefix_d_scourgehead:0 "Scourge"
+### TODO NOT-IN-ST: CadetPrefix_c_vaith [AGOT: Vaith]
+ CadetPrefix_c_vaith:0 "Vaith"
+### TODO NOT-IN-ST: CadetPrefix_d_brimstone [AGOT: Brim]
+ CadetPrefix_d_brimstone:0 "Brim"
+### TODO NOT-IN-ST: CadetPrefix_c_hellholt [AGOT: Hell]
+ CadetPrefix_c_hellholt:0 "Hell"
+### TODO NOT-IN-ST: CadetPrefix_d_sandstone [AGOT: Sand]
+ CadetPrefix_d_sandstone:0 "Sand"
+### TODO NOT-IN-ST: CadetPrefix_d_torrentine [AGOT: Torrent]
+ CadetPrefix_d_torrentine:0 "Torrent"
+### TODO NOT-IN-ST: CadetPrefix_c_high_hermitage [AGOT: Hermit]
+ CadetPrefix_c_high_hermitage:0 "Hermit"
+### TODO NOT-IN-ST: CadetPrefix_d_greenbelt [AGOT: Green]
+ CadetPrefix_d_greenbelt:0 "Green"
+### TODO NOT-IN-ST: CadetPrefix_c_royalmarch [AGOT: Royal]
+ CadetPrefix_c_royalmarch:0 "Royal"
+### TODO NOT-IN-ST: CadetPrefix_d_the_princes_pass [AGOT: Prince]
+ CadetPrefix_d_the_princes_pass:0 "Prince"
+### TODO NOT-IN-ST: CadetPrefix_c_skyreach [AGOT: Sky]
+ CadetPrefix_c_skyreach:0 "Sky"
+### TODO NOT-IN-ST: CadetPrefix_d_blackmont [AGOT: Bald]
+ CadetPrefix_d_blackmont:0 "Bald"
+### TODO NOT-IN-ST: CadetPrefix_d_the_stoneway [AGOT: Bone]
+ CadetPrefix_d_the_stoneway:0 "Bone"
+### TODO NOT-IN-ST: CadetPrefix_c_wyl [AGOT: Wyl]
+ CadetPrefix_c_wyl:0 "Wyl"
+### TODO NOT-IN-ST: CadetPrefix_Vis [AGOT: Vis]
+ CadetPrefix_Vis:0 "Vis"
+### TODO NOT-IN-ST: CadetPrefix_Qoh [AGOT: Qoh]
+ CadetPrefix_Qoh:0 "Qoh"
+### TODO NOT-IN-ST: CadetPrefix_Aeg [AGOT: Aeg]
+ CadetPrefix_Aeg:0 "Aeg"
+### TODO NOT-IN-ST: CadetPrefix_Vel [AGOT: Vel]
+ CadetPrefix_Vel:0 "Vel"
+### TODO NOT-IN-ST: CadetPrefix_Val [AGOT: Val]
+ CadetPrefix_Val:0 "Val"
+### TODO NOT-IN-ST: CadetPrefix_Bel [AGOT: Bel]
+ CadetPrefix_Bel:0 "Bel"
+### TODO NOT-IN-ST: CadetPrefix_Bal [AGOT: Bal]
+ CadetPrefix_Bal:0 "Bal"
+### TODO NOT-IN-ST: CadetPrefix_Aur [AGOT: Aur]
+ CadetPrefix_Aur:0 "Aur"
+### TODO NOT-IN-ST: CadetPrefix_Jae [AGOT: Jae]
+ CadetPrefix_Jae:0 "Jae"
+### TODO NOT-IN-ST: CadetPrefix_Mormont [AGOT: Mor]
+ CadetPrefix_Mormont:0 "Mor"
+### TODO NOT-IN-ST: CadetPrefix_Ryswell [AGOT: Rys]
+ CadetPrefix_Ryswell:0 "Rys"
+### TODO NOT-IN-ST: CadetPrefix_Glover [AGOT: Glov]
+ CadetPrefix_Glover:0 "Glov"
+### TODO NOT-IN-ST: CadetPrefix_Reed [AGOT: Reed]
+ CadetPrefix_Reed:0 "Reed"
+### TODO NOT-IN-ST: CadetPrefix_Bolton [AGOT: Bol]
+ CadetPrefix_Bolton:0 "Bol"
+### TODO NOT-IN-ST: CadetPrefix_Manderly1 [AGOT: Mander]
+ CadetPrefix_Manderly1:0 "Mander"
+### TODO NOT-IN-ST: CadetPrefix_Manderly2 [AGOT: Mer]
+ CadetPrefix_Manderly2:0 "Mer"
+### TODO NOT-IN-ST: CadetPrefix_Tully1 [AGOT: Tul]
+ CadetPrefix_Tully1:0 "Tul"
+### TODO NOT-IN-ST: CadetPrefix_Tully2 [AGOT: Tulli]
+ CadetPrefix_Tully2:0 "Tulli"
+### TODO NOT-IN-ST: CadetPrefix_Mooton [AGOT: Moot]
+ CadetPrefix_Mooton:0 "Moot"
+### TODO NOT-IN-ST: CadetPrefix_Bracken [AGOT: Brack]
+ CadetPrefix_Bracken:0 "Brack"
+### TODO NOT-IN-ST: CadetPrefix_Arryn1 [AGOT: Arr]
+ CadetPrefix_Arryn1:0 "Arr"
+### TODO NOT-IN-ST: CadetPrefix_Arryn2 [AGOT: Arry]
+ CadetPrefix_Arryn2:0 "Arry"
+### TODO NOT-IN-ST: CadetPrefix_Grafton [AGOT: Graft]
+ CadetPrefix_Grafton:0 "Graft"
+### TODO NOT-IN-ST: CadetPrefix_Corbray [AGOT: Corb]
+ CadetPrefix_Corbray:0 "Corb"
+### TODO NOT-IN-ST: CadetPrefix_Waxley [AGOT: Wax]
+ CadetPrefix_Waxley:0 "Wax"
+### TODO NOT-IN-ST: CadetPrefix_Waynwood [AGOT: Wayn]
+ CadetPrefix_Waynwood:0 "Wayn"
+### TODO NOT-IN-ST: CadetPrefix_Tyrell1 [AGOT: Ty]
+ CadetPrefix_Tyrell1:0 "Ty"
+### TODO NOT-IN-ST: CadetPrefix_Tyrell2 [AGOT: Tyr]
+ CadetPrefix_Tyrell2:0 "Tyr"
+### TODO NOT-IN-ST: CadetPrefix_Tarly [AGOT: Tar]
+ CadetPrefix_Tarly:0 "Tar"
+### TODO NOT-IN-ST: CadetPrefix_Beesbury [AGOT: Bees]
+ CadetPrefix_Beesbury:0 "Bees"
+### TODO NOT-IN-ST: CadetPrefix_Roxton [AGOT: Rox]
+ CadetPrefix_Roxton:0 "Rox"
+### TODO NOT-IN-ST: CadetPrefix_Fossoway [AGOT: Foss]
+ CadetPrefix_Fossoway:0 "Foss"
+### TODO NOT-IN-ST: CadetPrefix_Lannister1 [AGOT: Lann]
+ CadetPrefix_Lannister1:0 "Lann"
+### TODO NOT-IN-ST: CadetPrefix_Lannister2 [AGOT: Lannis]
+ CadetPrefix_Lannister2:0 "Lannis"
+### TODO NOT-IN-ST: CadetPrefix_Lannister3 [AGOT: Lan]
+ CadetPrefix_Lannister3:0 "Lan"
+### TODO NOT-IN-ST: CadetPrefix_Crakehall [AGOT: Crake]
+ CadetPrefix_Crakehall:0 "Crake"
+### TODO NOT-IN-ST: CadetPrefix_Brax [AGOT: Brax]
+ CadetPrefix_Brax:0 "Brax"
+### TODO NOT-IN-ST: CadetPrefix_Lydden [AGOT: Ly]
+ CadetPrefix_Lydden:0 "Ly"
+### TODO NOT-IN-ST: CadetPrefix_Celtigar [AGOT: Celt]
+ CadetPrefix_Celtigar:0 "Celt"
+### TODO NOT-IN-ST: CadetPrefix_Massey [AGOT: Mass]
+ CadetPrefix_Massey:0 "Mass"
+### TODO NOT-IN-ST: CadetPrefix_Rykker [AGOT: Ryk]
+ CadetPrefix_Rykker:0 "Ryk"
+### TODO NOT-IN-ST: CadetPrefix_Baratheon1 [AGOT: Bara]
+ CadetPrefix_Baratheon1:0 "Bara"
+### TODO NOT-IN-ST: CadetPrefix_Baratheon2 [AGOT: Barath]
+ CadetPrefix_Baratheon2:0 "Barath"
+### TODO NOT-IN-ST: CadetPrefix_Durrandon [AGOT: Durran]
+ CadetPrefix_Durrandon:0 "Durran"
+### TODO NOT-IN-ST: CadetPrefix_Tarth1 [AGOT: Tarth]
+ CadetPrefix_Tarth1:0 "Tarth"
+### TODO NOT-IN-ST: CadetPrefix_Tarth2 [AGOT: Morn]
+ CadetPrefix_Tarth2:0 "Morn"
+### TODO NOT-IN-ST: CadetPrefix_Dondarrion [AGOT: Dond]
+ CadetPrefix_Dondarrion:0 "Dond"
+### TODO NOT-IN-ST: CadetPrefix_Caron [AGOT: Caron]
+ CadetPrefix_Caron:0 "Caron"
+### TODO NOT-IN-ST: CadetPrefix_Connington [AGOT: Con]
+ CadetPrefix_Connington:0 "Con"
+### TODO NOT-IN-ST: CadetPrefix_Martell1 [AGOT: Mar]
+ CadetPrefix_Martell1:0 "Mar"
+### TODO NOT-IN-ST: CadetPrefix_Martell2 [AGOT: Nym]
+ CadetPrefix_Martell2:0 "Nym"
+### TODO NOT-IN-ST: CadetPrefix_Jordayne [AGOT: Jor]
+ CadetPrefix_Jordayne:0 "Jor"
+### TODO NOT-IN-ST: CadetPrefix_Santagar [AGOT: Sant]
+ CadetPrefix_Santagar:0 "Sant"
+### TODO NOT-IN-ST: CadetPrefix_Vaith [AGOT: Vaith]
+ CadetPrefix_Vaith:0 "Vaith"
+### TODO NOT-IN-ST: CadetPrefix_Qorgyle [AGOT: Qorg]
+ CadetPrefix_Qorgyle:0 "Qorg"
+### TODO NOT-IN-ST: CadetPrefix_Yronwood [AGOT: Yron]
+ CadetPrefix_Yronwood:0 "Yron"
+### TODO NOT-IN-ST: CadetPrefix_Wyl [AGOT: Wyl]
+ CadetPrefix_Wyl:0 "Wyl"
+### TODO NOT-IN-ST: CadetPrefix_Greyjoy [AGOT: Grey]
+ CadetPrefix_Greyjoy:0 "Grey"
+### TODO NOT-IN-ST: CadetSuffix_law [AGOT: law]
+ CadetSuffix_law:0 "law"
+### TODO NOT-IN-ST: CadetSuffix_ton [AGOT: ton]
+ CadetSuffix_ton:0 "ton"
+### TODO NOT-IN-ST: CadetSuffix_ent [AGOT: ent]
+ CadetSuffix_ent:0 "ent"
+### TODO NOT-IN-ST: CadetSuffix_ett [AGOT: ett]
+ CadetSuffix_ett:0 "ett"
+### TODO NOT-IN-ST: CadetSuffix_wyn [AGOT: wyn]
+ CadetSuffix_wyn:0 "wyn"
+### TODO NOT-IN-ST: CadetSuffix_ren [AGOT: ren]
+ CadetSuffix_ren:0 "ren"
+### TODO NOT-IN-ST: CadetSuffix_ling [AGOT: ling]
+ CadetSuffix_ling:0 "ling"
+### TODO NOT-IN-ST: CadetSuffix_don [AGOT: don]
+ CadetSuffix_don:0 "don"
+### TODO NOT-IN-ST: CadetSuffix_ler [AGOT: ler]
+ CadetSuffix_ler:0 "ler"
+### TODO NOT-IN-ST: CadetSuffix_ward [AGOT: ward]
+ CadetSuffix_ward:0 "ward"
+### TODO NOT-IN-ST: CadetSuffix_saw [AGOT: saw]
+ CadetSuffix_saw:0 "saw"
+### TODO NOT-IN-ST: CadetSuffix_man [AGOT: man]
+ CadetSuffix_man:0 "man"
+### TODO NOT-IN-ST: CadetSuffix_house [AGOT: house]
+ CadetSuffix_house:0 "house"
+### TODO NOT-IN-ST: CadetSuffix_mark [AGOT: mark]
+ CadetSuffix_mark:0 "mark"
+### TODO NOT-IN-ST: CadetSuffix_shire [AGOT: shire]
+ CadetSuffix_shire:0 "shire"
+### TODO NOT-IN-ST: CadetSuffix_ary [AGOT: ary]
+ CadetSuffix_ary:0 "ary"
+### TODO NOT-IN-ST: CadetSuffix_ly [AGOT: ly]
+ CadetSuffix_ly:0 "ly"
+### TODO NOT-IN-ST: CadetSuffix_run [AGOT: run]
+ CadetSuffix_run:0 "run"
+### TODO NOT-IN-ST: CadetSuffix_back [AGOT: back]
+ CadetSuffix_back:0 "back"
+### TODO NOT-IN-ST: CadetSuffix_beck [AGOT: beck]
+ CadetSuffix_beck:0 "beck"
+### TODO NOT-IN-ST: CadetSuffix_crann [AGOT: crann]
+ CadetSuffix_crann:0 "crann"
+### TODO NOT-IN-ST: CadetSuffix_bury [AGOT: bury]
+ CadetSuffix_bury:0 "bury"
+### TODO NOT-IN-ST: CadetSuffix_stock [AGOT: stock]
+ CadetSuffix_stock:0 "stock"
+### TODO NOT-IN-ST: CadetSuffix_joy [AGOT: joy]
+ CadetSuffix_joy:0 "joy"
+### TODO NOT-IN-ST: CadetSuffix_keep [AGOT: keep]
+ CadetSuffix_keep:0 "keep"
+### TODO NOT-IN-ST: CadetSuffix_spur [AGOT: spur]
+ CadetSuffix_spur:0 "spur"
+### TODO NOT-IN-ST: CadetSuffix_way [AGOT: way]
+ CadetSuffix_way:0 "way"
+### TODO NOT-IN-ST: CadetSuffix_top [AGOT: top]
+ CadetSuffix_top:0 "top"
+### TODO NOT-IN-ST: CadetSuffix_gard [AGOT: gard]
+ CadetSuffix_gard:0 "gard"
+### TODO NOT-IN-ST: CadetSuffix_dell [AGOT: dell]
+ CadetSuffix_dell:0 "dell"
+### TODO NOT-IN-ST: CadetSuffix_worth [AGOT: worth]
+ CadetSuffix_worth:0 "worth"
+### TODO NOT-IN-ST: CadetSuffix_ter [AGOT: ter]
+ CadetSuffix_ter:0 "ter"
+### TODO NOT-IN-ST: CadetSuffix_tear [AGOT: tear]
+ CadetSuffix_tear:0 "tear"
+### TODO NOT-IN-ST: CadetSuffix_son [AGOT: son]
+ CadetSuffix_son:0 "son"
+### TODO NOT-IN-ST: CadetSuffix_child [AGOT: child]
+ CadetSuffix_child:0 "child"
+### TODO NOT-IN-ST: CadetSuffix_brother [AGOT: brother]
+ CadetSuffix_brother:0 "brother"
+### TODO NOT-IN-ST: CadetSuffix_sister [AGOT: sister]
+ CadetSuffix_sister:0 "sister"
+### TODO NOT-IN-ST: CadetSuffix_Mountains [AGOT: mont]
+ CadetSuffix_Mountains:0 "mont"
+### TODO NOT-IN-ST: CadetSuffix_Hills [AGOT: tor]
+ CadetSuffix_Hills:0 "tor"
+### TODO NOT-IN-ST: CadetSuffix_Ridge [AGOT: ridge]
+ CadetSuffix_Ridge:0 "ridge"
+### TODO NOT-IN-ST: CadetSuffix_Floodplains [AGOT: flood]
+ CadetSuffix_Floodplains:0 "flood"
+### TODO NOT-IN-ST: CadetSuffix_Wood [AGOT: wood]
+ CadetSuffix_Wood:0 "wood"
+### TODO NOT-IN-ST: CadetSuffix_Tree [AGOT: tree]
+ CadetSuffix_Tree:0 "tree"
+### TODO NOT-IN-ST: CadetSuffix_Field [AGOT: field]
+ CadetSuffix_Field:0 "field"
+### TODO NOT-IN-ST: CadetSuffix_Shaw [AGOT: shaw]
+ CadetSuffix_Shaw:0 "shaw"
+### TODO NOT-IN-ST: CadetSuffix_Mill [AGOT: mill]
+ CadetSuffix_Mill:0 "mill"
+### TODO NOT-IN-ST: CadetSuffix_Bog [AGOT: bog]
+ CadetSuffix_Bog:0 "bog"
+### TODO NOT-IN-ST: CadetSuffix_Sea [AGOT: sea]
+ CadetSuffix_Sea:0 "sea"
+### TODO NOT-IN-ST: CadetSuffix_Foam [AGOT: foam]
+ CadetSuffix_Foam:0 "foam"
+### TODO NOT-IN-ST: CadetSuffix_Aryen [AGOT: aryen]
+ CadetSuffix_Aryen:0 "aryen"
+### TODO NOT-IN-ST: CadetSuffix_Aryon [AGOT: aryon]
+ CadetSuffix_Aryon:0 "aryon"
+### TODO NOT-IN-ST: CadetSuffix_Axes [AGOT: axes]
+ CadetSuffix_Axes:0 "axes"
+### TODO NOT-IN-ST: CadetSuffix_Erys [AGOT: erys]
+ CadetSuffix_Erys:0 "erys"
+### TODO NOT-IN-ST: CadetSuffix_Lor [AGOT: lor]
+ CadetSuffix_Lor:0 "lor"
+### TODO NOT-IN-ST: CadetSuffix_Fyre [AGOT: fyre]
+ CadetSuffix_Fyre:0 "fyre"
+### TODO NOT-IN-ST: CadetSuffix_Water [AGOT: water]
+ CadetSuffix_Water:0 "water"
+### TODO NOT-IN-ST: CadetSuffix_Waters [AGOT: waters]
+ CadetSuffix_Waters:0 "waters"
+### TODO NOT-IN-ST: CadetSuffix_Hill [AGOT: hill]
+ CadetSuffix_Hill:0 "hill"
+### TODO NOT-IN-ST: CadetSuffix_River [AGOT: river]
+ CadetSuffix_River:0 "river"
+### TODO NOT-IN-ST: CadetSuffix_Rivers [AGOT: rivers]
+ CadetSuffix_Rivers:0 "rivers"
+### TODO NOT-IN-ST: CadetSuffix_Snow [AGOT: snow]
+ CadetSuffix_Snow:0 "snow"
+### TODO NOT-IN-ST: CadetSuffix_frost [AGOT: frost]
+ CadetSuffix_frost:0 "frost"
+### TODO NOT-IN-ST: CadetSuffix_Flower [AGOT: flower]
+ CadetSuffix_Flower:0 "flower"
+### TODO NOT-IN-ST: CadetSuffix_Flowers [AGOT: flowers]
+ CadetSuffix_Flowers:0 "flowers"
+### TODO NOT-IN-ST: CadetSuffix_grow [AGOT: grow]
+ CadetSuffix_grow:0 "grow"
+### TODO NOT-IN-ST: CadetSuffix_Sand [AGOT: sand]
+ CadetSuffix_Sand:0 "sand"
+### TODO NOT-IN-ST: CadetSuffix_Sands [AGOT: sands]
+ CadetSuffix_Sands:0 "sands"
+### TODO NOT-IN-ST: CadetSuffix_Stone [AGOT: stone]
+ CadetSuffix_Stone:0 "stone"
+### TODO NOT-IN-ST: CadetSuffix_Stones [AGOT: stones]
+ CadetSuffix_Stones:0 "stones"
+### TODO NOT-IN-ST: CadetSuffix_Pyke [AGOT: pyke]
+ CadetSuffix_Pyke:0 "pyke"
+### TODO NOT-IN-ST: CadetSuffix_reaver [AGOT: reaver]
+ CadetSuffix_reaver:0 "reaver"
+### TODO NOT-IN-ST: CadetSuffix_Storm [AGOT: storm]
+ CadetSuffix_Storm:0 "storm"
+### TODO NOT-IN-ST: CadetSuffix_d_winterfell [AGOT: fell]
+ CadetSuffix_d_winterfell:0 "fell"
+### TODO NOT-IN-ST: CadetSuffix_d_the_dreadfort [AGOT: fort]
+ CadetSuffix_d_the_dreadfort:0 "fort"
+### TODO NOT-IN-ST: CadetSuffix_d_blacktyde [AGOT: tyde]
+ CadetSuffix_d_blacktyde:0 "tyde"
+### TODO NOT-IN-ST: CadetSuffix_d_saltcliffe [AGOT: cliffe]
+ CadetSuffix_d_saltcliffe:0 "cliffe"
+### TODO NOT-IN-ST: CadetSuffix_d_the_crossing [AGOT: crossing]
+ CadetSuffix_d_the_crossing:0 "crossing"
+### TODO NOT-IN-ST: CadetSuffix_d_cape_of_eagles [AGOT: gard]
+ CadetSuffix_d_cape_of_eagles:0 "gard"
+### TODO NOT-IN-ST: CadetSuffix_d_tridents_mouth [AGOT: pans]
+ CadetSuffix_d_tridents_mouth:0 "pans"
+### TODO NOT-IN-ST: CadetSuffix_c_darry [AGOT: darry]
+ CadetSuffix_c_darry:0 "darry"
+### TODO NOT-IN-ST: CadetSuffix_d_harrenhal [AGOT: hal]
+ CadetSuffix_d_harrenhal:0 "hal"
+### TODO NOT-IN-ST: CadetSuffix_d_wayfarers_rest [AGOT: rest]
+ CadetSuffix_d_wayfarers_rest:0 "rest"
+### TODO NOT-IN-ST: CadetSuffix_d_fairmarket [AGOT: market]
+ CadetSuffix_d_fairmarket:0 "market"
+### TODO NOT-IN-ST: CadetSuffix_d_three_forks [AGOT: forks]
+ CadetSuffix_d_three_forks:0 "forks"
+### TODO NOT-IN-ST: CadetSuffix_d_the_giants_lance [AGOT: gates]
+ CadetSuffix_d_the_giants_lance:0 "gates"
+### TODO NOT-IN-ST: CadetSuffix_d_ironoaks [AGOT: oaks]
+ CadetSuffix_d_ironoaks:0 "oaks"
+### TODO NOT-IN-ST: CadetSuffix_d_strongsong [AGOT: song]
+ CadetSuffix_d_strongsong:0 "song"
+### TODO NOT-IN-ST: CadetSuffix_d_the_sisters [AGOT: sisters]
+ CadetSuffix_d_the_sisters:0 "sisters"
+### TODO NOT-IN-ST: CadetSuffix_d_castamere [AGOT: mere]
+ CadetSuffix_d_castamere:0 "mere"
+### TODO NOT-IN-ST: CadetSuffix_c_casterly_rock [AGOT: rock]
+ CadetSuffix_c_casterly_rock:0 "rock"
+### TODO NOT-IN-ST: CadetSuffix_c_lannisport [AGOT: port]
+ CadetSuffix_c_lannisport:0 "port"
+### TODO NOT-IN-ST: CadetSuffix_d_the_golden_tooth [AGOT: tooth]
+ CadetSuffix_d_the_golden_tooth:0 "tooth"
+### TODO NOT-IN-ST: CadetSuffix_c_oxcross [AGOT: cross]
+ CadetSuffix_c_oxcross:0 "cross"
+### TODO NOT-IN-ST: CadetSuffix_d_the_crag [AGOT: crag]
+ CadetSuffix_d_the_crag:0 "crag"
+### TODO NOT-IN-ST: CadetSuffix_d_lanns_point [AGOT: point]
+ CadetSuffix_d_lanns_point:0 "point"
+### TODO NOT-IN-ST: CadetSuffix_d_fair_isle [AGOT: isle]
+ CadetSuffix_d_fair_isle:0 "isle"
+### TODO NOT-IN-ST: CadetSuffix_d_highgarden [AGOT: garden]
+ CadetSuffix_d_highgarden:0 "garden"
+### TODO NOT-IN-ST: CadetSuffix_d_cockleswhent [AGOT: whent]
+ CadetSuffix_d_cockleswhent:0 "whent"
+### TODO NOT-IN-ST: CadetSuffix_d_the_westmarch [AGOT: march]
+ CadetSuffix_d_the_westmarch:0 "march"
+### TODO NOT-IN-ST: CadetSuffix_c_honeyholt [AGOT: holt]
+ CadetSuffix_c_honeyholt:0 "holt"
+### TODO NOT-IN-ST: CadetSuffix_d_goldengrove [AGOT: grove]
+ CadetSuffix_d_goldengrove:0 "grove"
+### TODO NOT-IN-ST: CadetSuffix_d_fullharvest [AGOT: harvest]
+ CadetSuffix_d_fullharvest:0 "harvest"
+### TODO NOT-IN-ST: CadetSuffix_c_longtable [AGOT: table]
+ CadetSuffix_c_longtable:0 "table"
+### TODO NOT-IN-ST: CadetSuffix_d_shield_islands [AGOT: shield]
+ CadetSuffix_d_shield_islands:0 "shield"
+### TODO NOT-IN-ST: CadetSuffix_d_darstone [AGOT: stone]
+ CadetSuffix_d_darstone:0 "stone"
+### TODO NOT-IN-ST: CadetSuffix_c_hayholt [AGOT: holt]
+ CadetSuffix_c_hayholt:0 "holt"
+### TODO NOT-IN-ST: CadetSuffix_d_kings_landing [AGOT: landing]
+ CadetSuffix_d_kings_landing:0 "landing"
+### TODO NOT-IN-ST: CadetSuffix_d_crackclaw_point [AGOT: claw]
+ CadetSuffix_d_crackclaw_point:0 "claw"
+### TODO NOT-IN-ST: CadetSuffix_c_antlers [AGOT: antlers]
+ CadetSuffix_c_antlers:0 "antlers"
+### TODO NOT-IN-ST: CadetSuffix_c_stonedance [AGOT: dance]
+ CadetSuffix_c_stonedance:0 "dance"
+### TODO NOT-IN-ST: CadetSuffix_c_driftmark [AGOT: mark]
+ CadetSuffix_c_driftmark:0 "mark"
+### TODO NOT-IN-ST: CadetSuffix_c_high_tide [AGOT: tide]
+ CadetSuffix_c_high_tide:0 "tide"
+### TODO NOT-IN-ST: CadetSuffix_d_dark_harrow [AGOT: harrow]
+ CadetSuffix_d_dark_harrow:0 "harrow"
+### TODO NOT-IN-ST: CadetSuffix_c_stonehelm [AGOT: helm]
+ CadetSuffix_c_stonehelm:0 "helm"
+### TODO NOT-IN-ST: CadetSuffix_d_blackhaven [AGOT: haven]
+ CadetSuffix_d_blackhaven:0 "haven"
+### TODO NOT-IN-ST: CadetSuffix_d_nightsong [AGOT: song]
+ CadetSuffix_d_nightsong:0 "song"
+### TODO NOT-IN-ST: CadetSuffix_c_broad_arch [AGOT: arch]
+ CadetSuffix_c_broad_arch:0 "arch"
+### TODO NOT-IN-ST: CadetSuffix_d_greatstock [AGOT: stock]
+ CadetSuffix_d_greatstock:0 "stock"
+### TODO NOT-IN-ST: CadetSuffix_c_the_haystacks [AGOT: stacks]
+ CadetSuffix_c_the_haystacks:0 "stacks"
+### TODO NOT-IN-ST: CadetSuffix_d_sunspear [AGOT: blood]
+ CadetSuffix_d_sunspear:0 "blood"
+### TODO NOT-IN-ST: CadetSuffix_d_godsgrace [AGOT: grace]
+ CadetSuffix_d_godsgrace:0 "grace"
+### TODO NOT-IN-ST: CadetSuffix_c_hellholt [AGOT: holt]
+ CadetSuffix_c_hellholt:0 "holt"
+### TODO NOT-IN-ST: CadetSuffix_d_red_dunes [AGOT: dunes]
+ CadetSuffix_d_red_dunes:0 "dunes"
+### TODO NOT-IN-ST: CadetSuffix_d_oldwell [AGOT: well]
+ CadetSuffix_d_oldwell:0 "well"
+### TODO NOT-IN-ST: CadetSuffix_c_starfall [AGOT: fall]
+ CadetSuffix_c_starfall:0 "fall"
+### TODO NOT-IN-ST: CadetSuffix_d_redmarch [AGOT: march]
+ CadetSuffix_d_redmarch:0 "march"
+### TODO NOT-IN-ST: CadetSuffix_Stark [AGOT: stark]
+ CadetSuffix_Stark:0 "stark"
+### TODO NOT-IN-ST: CadetSuffix_Umber [AGOT: umber]
+ CadetSuffix_Umber:0 "umber"
+### TODO NOT-IN-ST: CadetSuffix_Frey [AGOT: frey]
+ CadetSuffix_Frey:0 "frey"
+### TODO NOT-IN-ST: CadetSuffix_Cox [AGOT: cox]
+ CadetSuffix_Cox:0 "cox"
+### TODO NOT-IN-ST: CadetSuffix_Thorne [AGOT: thorne]
+ CadetSuffix_Thorne:0 "thorne"
+### TODO NOT-IN-ST: CadetSuffix_Arryn [AGOT: arryn]
+ CadetSuffix_Arryn:0 "arryn"
+### TODO NOT-IN-ST: CadetSuffix_Bar_Emmon [AGOT: emmon]
+ CadetSuffix_Bar_Emmon:0 "emmon"
+### TODO NOT-IN-ST: CadetSuffix_Farwynd [AGOT: wynd]
+ CadetSuffix_Farwynd:0 "wynd"
+### TODO NOT-IN-ST: CadetSuffix_Royce [AGOT: royce]
+ CadetSuffix_Royce:0 "royce"
+### TODO NOT-IN-ST: CadetSuffix_Dayne [AGOT: dayne]
+ CadetSuffix_Dayne:0 "dayne"
+### TODO NOT-IN-ST: CadetSuffix_Vance [AGOT: vance]
+ CadetSuffix_Vance:0 "vance"
+### TODO NOT-IN-ST: CadetSigil_Anvil [AGOT: anvil]
+ CadetSigil_Anvil:0 "anvil"
+### TODO NOT-IN-ST: CadetSigil_Arrow [AGOT: arrow]
+ CadetSigil_Arrow:0 "arrow"
+### TODO NOT-IN-ST: CadetSigil_Axe [AGOT: axe]
+ CadetSigil_Axe:0 "axe"
+### TODO NOT-IN-ST: CadetSigil_Badger [AGOT: badger]
+ CadetSigil_Badger:0 "badger"
+### TODO NOT-IN-ST: CadetSigil_Bat [AGOT: bat]
+ CadetSigil_Bat:0 "bat"
+### TODO NOT-IN-ST: CadetSigil_Bear [AGOT: bear]
+ CadetSigil_Bear:0 "bear"
+### TODO NOT-IN-ST: CadetSigil_Bell [AGOT: bell]
+ CadetSigil_Bell:0 "bell"
+### TODO NOT-IN-ST: CadetSigil_Boar [AGOT: boar]
+ CadetSigil_Boar:0 "boar"
+### TODO NOT-IN-ST: CadetSigil_Boat [AGOT: boat]
+ CadetSigil_Boat:0 "boat"
+### TODO NOT-IN-ST: CadetSigil_Bolt [AGOT: bolt]
+ CadetSigil_Bolt:0 "bolt"
+### TODO NOT-IN-ST: CadetSigil_Bone [AGOT: bone]
+ CadetSigil_Bone:0 "bone"
+### TODO NOT-IN-ST: CadetSigil_Bow [AGOT: bow]
+ CadetSigil_Bow:0 "bow"
+### TODO NOT-IN-ST: CadetSigil_Bridge [AGOT: bridge]
+ CadetSigil_Bridge:0 "bridge"
+### TODO NOT-IN-ST: CadetSigil_Buck [AGOT: buck]
+ CadetSigil_Buck:0 "buck"
+### TODO NOT-IN-ST: CadetSigil_Chain [AGOT: chain]
+ CadetSigil_Chain:0 "chain"
+### TODO NOT-IN-ST: CadetSigil_Claw [AGOT: claw]
+ CadetSigil_Claw:0 "claw"
+### TODO NOT-IN-ST: CadetSigil_Crab [AGOT: crab]
+ CadetSigil_Crab:0 "crab"
+### TODO NOT-IN-ST: CadetSigil_Crow [AGOT: crow]
+ CadetSigil_Crow:0 "crow"
+### TODO NOT-IN-ST: CadetSigil_Deer [AGOT: deer]
+ CadetSigil_Deer:0 "deer"
+### TODO NOT-IN-ST: CadetSigil_Dog [AGOT: dog]
+ CadetSigil_Dog:0 "dog"
+### TODO NOT-IN-ST: CadetSigil_Drake [AGOT: drake]
+ CadetSigil_Drake:0 "drake"
+### TODO NOT-IN-ST: CadetSigil_Falcon [AGOT: falcon]
+ CadetSigil_Falcon:0 "falcon"
+### TODO NOT-IN-ST: CadetSigil_Feather [AGOT: feather]
+ CadetSigil_Feather:0 "feather"
+### TODO NOT-IN-ST: CadetSigil_Fire [AGOT: fire]
+ CadetSigil_Fire:0 "fire"
+### TODO NOT-IN-ST: CadetSigil_Fish [AGOT: fish]
+ CadetSigil_Fish:0 "fish"
+### TODO NOT-IN-ST: CadetSigil_Fist [AGOT: fist]
+ CadetSigil_Fist:0 "fist"
+### TODO NOT-IN-ST: CadetSigil_Flame [AGOT: flame]
+ CadetSigil_Flame:0 "flame"
+### TODO NOT-IN-ST: CadetSigil_Fox [AGOT: fox]
+ CadetSigil_Fox:0 "fox"
+### TODO NOT-IN-ST: CadetSigil_Frog [AGOT: frog]
+ CadetSigil_Frog:0 "frog"
+### TODO NOT-IN-ST: CadetSigil_Giant [AGOT: giant]
+ CadetSigil_Giant:0 "giant"
+### TODO NOT-IN-ST: CadetSigil_Griffin [AGOT: griff]
+ CadetSigil_Griffin:0 "griff"
+### TODO NOT-IN-ST: CadetSigil_Hand [AGOT: hand]
+ CadetSigil_Hand:0 "hand"
+### TODO NOT-IN-ST: CadetSigil_Hart [AGOT: hart]
+ CadetSigil_Hart:0 "hart"
+### TODO NOT-IN-ST: CadetSigil_Hawk [AGOT: hawk]
+ CadetSigil_Hawk:0 "hawk"
+### TODO NOT-IN-ST: CadetSigil_Heart [AGOT: heart]
+ CadetSigil_Heart:0 "heart"
+### TODO NOT-IN-ST: CadetSigil_Hive [AGOT: hive]
+ CadetSigil_Hive:0 "hive"
+### TODO NOT-IN-ST: CadetSigil_Horn [AGOT: horn]
+ CadetSigil_Horn:0 "horn"
+### TODO NOT-IN-ST: CadetSigil_Horse [AGOT: horse]
+ CadetSigil_Horse:0 "horse"
+### TODO NOT-IN-ST: CadetSigil_Kraken [AGOT: krak]
+ CadetSigil_Kraken:0 "krak"
+### TODO NOT-IN-ST: CadetSigil_Lion [AGOT: lion]
+ CadetSigil_Lion:0 "lion"
+### TODO NOT-IN-ST: CadetSigil_Lizard [AGOT: lizard]
+ CadetSigil_Lizard:0 "lizard"
+### TODO NOT-IN-ST: CadetSigil_Mane [AGOT: mane]
+ CadetSigil_Mane:0 "mane"
+### TODO NOT-IN-ST: CadetSigil_Moon [AGOT: moon]
+ CadetSigil_Moon:0 "moon"
+### TODO NOT-IN-ST: CadetSigil_Owl [AGOT: owl]
+ CadetSigil_Owl:0 "owl"
+### TODO NOT-IN-ST: CadetSigil_Pelt [AGOT: pelt]
+ CadetSigil_Pelt:0 "pelt"
+### TODO NOT-IN-ST: CadetSigil_Petal [AGOT: petal]
+ CadetSigil_Petal:0 "petal"
+### TODO NOT-IN-ST: CadetSigil_Raven [AGOT: raven]
+ CadetSigil_Raven:0 "raven"
+### TODO NOT-IN-ST: CadetSigil_Roar [AGOT: roar]
+ CadetSigil_Roar:0 "roar"
+### TODO NOT-IN-ST: CadetSigil_Rose [AGOT: rose]
+ CadetSigil_Rose:0 "rose"
+### TODO NOT-IN-ST: CadetSigil_Scythe [AGOT: scythe]
+ CadetSigil_Scythe:0 "scythe"
+### TODO NOT-IN-ST: CadetSigil_Stag [AGOT: stag]
+ CadetSigil_Stag:0 "stag"
+### TODO NOT-IN-ST: CadetSigil_Skull [AGOT: skull]
+ CadetSigil_Skull:0 "skull"
+### TODO NOT-IN-ST: CadetSigil_Snake [AGOT: snake]
+ CadetSigil_Snake:0 "snake"
+### TODO NOT-IN-ST: CadetSigil_Spear [AGOT: spear]
+ CadetSigil_Spear:0 "spear"
+### TODO NOT-IN-ST: CadetSigil_Squid [AGOT: squid]
+ CadetSigil_Squid:0 "squid"
+### TODO NOT-IN-ST: CadetSigil_Sting [AGOT: sting]
+ CadetSigil_Sting:0 "sting"
+### TODO NOT-IN-ST: CadetSigil_Star [AGOT: star]
+ CadetSigil_Star:0 "star"
+### TODO NOT-IN-ST: CadetSigil_Stars [AGOT: stars]
+ CadetSigil_Stars:0 "stars"
+### TODO NOT-IN-ST: CadetSigil_Sun [AGOT: sun]
+ CadetSigil_Sun:0 "sun"
+### TODO NOT-IN-ST: CadetSigil_Swan [AGOT: swan]
+ CadetSigil_Swan:0 "swan"
+### TODO NOT-IN-ST: CadetSigil_Sword [AGOT: sword]
+ CadetSigil_Sword:0 "sword"
+### TODO NOT-IN-ST: CadetSigil_Talon [AGOT: talon]
+ CadetSigil_Talon:0 "talon"
+### TODO NOT-IN-ST: CadetSigil_Thorn [AGOT: thorn]
+ CadetSigil_Thorn:0 "thorn"
+### TODO NOT-IN-ST: CadetSigil_Tower [AGOT: tower]
+ CadetSigil_Tower:0 "tower"
+### TODO NOT-IN-ST: CadetSigil_Towers [AGOT: towers]
+ CadetSigil_Towers:0 "towers"
+### TODO NOT-IN-ST: CadetSigil_Tree [AGOT: tree]
+ CadetSigil_Tree:0 "tree"
+### TODO NOT-IN-ST: CadetSigil_Turtle [AGOT: turtle]
+ CadetSigil_Turtle:0 "turtle"
+### TODO NOT-IN-ST: CadetSigil_Wheel [AGOT: wheel]
+ CadetSigil_Wheel:0 "wheel"
+### TODO NOT-IN-ST: CadetSigil_Wing [AGOT: wing]
+ CadetSigil_Wing:0 "wing"
+### TODO NOT-IN-ST: CadetSigil_Wolf [AGOT: wolf]
+ CadetSigil_Wolf:0 "wolf"
+### TODO NOT-IN-ST: CadetSigil_Wool [AGOT: wool]
+ CadetSigil_Wool:0 "wool"
+### TODO NOT-IN-ST: CadetSigil_Wyrm [AGOT: wyrm]
+ CadetSigil_Wyrm:0 "wyrm"

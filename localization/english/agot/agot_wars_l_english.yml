@@ -5,6 +5,32 @@
  AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War"
 ### TODO NOT-IN-ST: AGOT_VASSALIZATION_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: agot_duskendale_claimant_war [AGOT: Claimant War]
+ agot_duskendale_claimant_war:0 "Claimant War"
+### TODO NOT-IN-ST: agot_duskendale_iron_throne_war [AGOT: Claimant War]
+ agot_duskendale_iron_throne_war:0 "Claimant War"
+### TODO NOT-IN-ST: agot_independence_war [AGOT: Independence War]
+ agot_independence_war:0 "Independence War"
+### TODO NOT-IN-ST: agot_independence_war_name [AGOT: Independence War]
+ agot_independence_war_name:0 "Independence War"
+### TODO NOT-IN-ST: agot_rebellion_war [AGOT: Rebellion]
+ agot_rebellion_war:0 "Rebellion"
+### TODO NOT-IN-ST: agot_rebellion_war_name [AGOT: Rebellion against [DEFENDER.GetShortUINameNotMe]]
+ agot_rebellion_war_name:0 "Rebellion against [DEFENDER.GetShortUINameNotMe]"
+### TODO NOT-IN-ST: agot_rebellion_war_victory_desc [AGOT: With the success of [attacker.GetHerHis] rebellion, [attacker.GetTitledFirstName] will decide who will rule the [defender.GetPrimaryTitle.GetName].]
+ agot_rebellion_war_victory_desc:0 "With the success of [attacker.GetHerHis] rebellion, [attacker.GetTitledFirstName] will decide who will rule the [defender.GetPrimaryTitle.GetName]."
+### TODO NOT-IN-ST: agot_rebuild_realm_effect_loc [AGOT: \nWith the end of the war, the old order will be restored, but will it continue to hold?]
+ agot_rebuild_realm_effect_loc:0 "\nWith the end of the war, the old order will be restored, but will it continue to hold?" #AGOT TODO why cant I rename this one?
+### TODO NOT-IN-ST: agot_rebuild_realm_effect_loc_past [AGOT: \nWith the end of the war, the old order is restored, but will it continue to hold?]
+ agot_rebuild_realm_effect_loc_past:0 "\nWith the end of the war, the old order is restored, but will it continue to hold?" #AGOT TODO why cant I rename this one?
+### TODO NOT-IN-ST: agot_rebellion_war_white_peace_desc_defender [AGOT: White peace defender - Invalid boss. Tell Gaytriarch if you see this.]
+ agot_rebellion_war_white_peace_desc_defender:0 "White peace defender - Invalid boss. Tell Gaytriarch if you see this."
+### TODO NOT-IN-ST: agot_rebellion_war_white_peace_desc [AGOT: White peace attacker - Invalid boss. Tell Gaytriarch if you see this.]
+ agot_rebellion_war_white_peace_desc:0 "White peace attacker - Invalid boss. Tell Gaytriarch if you see this."
+### TODO NOT-IN-ST: agot_rebellion_war_defeat_desc_defender [AGOT: [attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels.]
+ agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
+### TODO NOT-IN-ST: agot_rebellion_war_defeat_desc [AGOT: [attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels.]
+ agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
 ### TODO NOT-IN-ST: agot_reconquest_war [AGOT: Reconquest]
  agot_reconquest_war:0 "Reconquest"
 ### TODO NOT-IN-ST: agot_reconquest_war_name [AGOT: Reconquest]
@@ -13,50 +39,190 @@
  agot_revolt_war:0 "Revolt"
 ### TODO NOT-IN-ST: agot_revolt_war_name [AGOT: Revolt against [DEFENDER.GetShortUINameNotMe]]
  agot_revolt_war_name:0 "Revolt against [DEFENDER.GetShortUINameNotMe]"
+### TODO NOT-IN-ST: agot_revolt_war_victory_desc [AGOT: [attacker.GetName] and the rebels successfully avert punishment and undermine [defender.GetNamePossessive] authority.]
+ agot_revolt_war_victory_desc:0 "[attacker.GetName] and the rebels successfully avert punishment and undermine [defender.GetNamePossessive] authority."
+### TODO NOT-IN-ST: agot_revolt_war_white_peace_desc [AGOT: This is a revolt war, but they dont white peace. If you see this, tell Gaytriarch.]
+ agot_revolt_war_white_peace_desc:0 "This is a revolt war, but they dont white peace. If you see this, tell Gaytriarch."
 ### TODO NOT-IN-ST: agot_revolt_war_defeat_desc_defender [AGOT: [attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass.]
  agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
 ### TODO NOT-IN-ST: agot_revolt_war_defeat_desc [AGOT: [attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass.]
  agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
+### TODO NOT-IN-ST: agot_claimant_faction_war [AGOT: Claimant War]
+ agot_claimant_faction_war:0 "Claimant War"
+### TODO NOT-IN-ST: agot_liberty_faction_war [AGOT: Liberty War]
+ agot_liberty_faction_war:0 "Liberty War"
 ### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME [AGOT: Wildling Raid]
  WILDLING_RAID_WAR_NAME:0 "Wildling Raid"
 ### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: wildling_raid_cb [AGOT: Wildling Raid]
+ wildling_raid_cb:0 "Wildling Raid"
 ### TODO NOT-IN-ST: WILDLINGS [AGOT: Wildlings]
  WILDLINGS:0 "Wildlings"
+### TODO NOT-IN-ST: wildling_raid_wars_victory_desc [AGOT: The Wildlings have overpowered the Watch and will take all they can carry!]
+ wildling_raid_wars_victory_desc:0 "The Wildlings have overpowered the Watch and will take all they can carry!"
+### TODO NOT-IN-ST: wildling_raid_wars_defeat_desc [AGOT: The Wildlings were defeated by the Watch as they have been for thousands of years]
+ wildling_raid_wars_defeat_desc:0 "The Wildlings were defeated by the Watch as they have been for thousands of years"
+### TODO NOT-IN-ST: wildling_raid_wars_white_peace_desc [AGOT: Placeholder White Peace Text]
+ wildling_raid_wars_white_peace_desc:0 "Placeholder White Peace Text"
+### TODO NOT-IN-ST: wildling_raid_wars_invalidated_desc [AGOT: The war was invalidated because [attacker.GetName] is no longer a ruler or cannot wage war against the Night's Watch.]
+ wildling_raid_wars_invalidated_desc:0 "The war was invalidated because [attacker.GetName] is no longer a ruler or cannot wage war against the Night's Watch."
+### TODO NOT-IN-ST: wildling_diminish_cb [AGOT: Diminishment War]
+ wildling_diminish_cb:0 "Diminishment War"
 ### TODO NOT-IN-ST: WILDLING_DIMINISH_CB_NAME [AGOT: Diminishment War]
  WILDLING_DIMINISH_CB_NAME:0 "Diminishment War"
 ### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME [AGOT: $WILDLING_DIMINISH_CB_NAME$]
  WILDLING_DIMINISH_WAR_NAME:0 "$WILDLING_DIMINISH_CB_NAME$"
 ### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME_BASE [AGOT: $WILDLING_DIMINISH_CB_NAME$]
  WILDLING_DIMINISH_WAR_NAME_BASE:0 "$WILDLING_DIMINISH_CB_NAME$"
+### TODO NOT-IN-ST: wildling_diminish_defeat_desc [AGOT: The targeted realm is fractured.]
+ wildling_diminish_defeat_desc:0 "The targeted realm is fractured."
+### TODO NOT-IN-ST: wildling_diminish_victory_desc [AGOT: The targeted realm remains intact.]
+ wildling_diminish_victory_desc:0 "The targeted realm remains intact."
+### TODO NOT-IN-ST: wildling_diminish_white_peace_desc [AGOT: $wildling_diminish_victory_desc$]
+ wildling_diminish_white_peace_desc:0 "$wildling_diminish_victory_desc$"
+### TODO NOT-IN-ST: wildling_diminish_invalidated_desc [AGOT: $wildling_diminish_victory_desc$]
+ wildling_diminish_invalidated_desc:0 "$wildling_diminish_victory_desc$"
 ### TODO NOT-IN-ST: RECLAIM_CB_NAME [AGOT: Reclaim the Night's Watch [de_jure|E] Lands]
  RECLAIM_CB_NAME:0 "Reclaim the Night's Watch [de_jure|E] Lands"
 ### TODO NOT-IN-ST: RECLAIM_CB_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Night's Watch Reclamation War]
  RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Night's Watch Reclamation War"
 ### TODO NOT-IN-ST: RECLAIM_CB_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  RECLAIM_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: de_reclaim_wall_victory_desc [AGOT: The Wildlings are defeated and the land has been returned to the Night's Watch.]
+ de_reclaim_wall_victory_desc:0 "The Wildlings are defeated and the land has been returned to the Night's Watch."
+### TODO NOT-IN-ST: de_reclaim_wall_defeat_desc [AGOT: The Wildlings successfully held back the offensive, retaining the territory claimed by the Night's Watch.]
+ de_reclaim_wall_defeat_desc:0 "The Wildlings successfully held back the offensive, retaining the territory claimed by the Night's Watch."
+### TODO NOT-IN-ST: agot_wall_reclamation_post_nw_cb [AGOT: Night's Watch Reclamation]
+ agot_wall_reclamation_post_nw_cb:0 "Night's Watch Reclamation"
+### TODO NOT-IN-ST: agot_wall_reclamation_cb [AGOT: Night's Watch Reclamation]
+ agot_wall_reclamation_cb:0 "Night's Watch Reclamation"
 ### TODO NOT-IN-ST: DISPUTED_LANDS_CONQUEST_CB_NAME [AGOT: Disputed Lands Conquest for [county|E]]
  DISPUTED_LANDS_CONQUEST_CB_NAME:0 "Disputed Lands Conquest for [county|E]"
+### TODO NOT-IN-ST: disputed_lands_conquest_cb [AGOT: Disputed Lands Conquest]
+ disputed_lands_conquest_cb:0 "Disputed Lands Conquest"
+### TODO NOT-IN-ST: iron_throne_decision_troops [AGOT: The Conqueror's Guard]
+ iron_throne_decision_troops:0 "The Conqueror's Guard"
+### TODO NOT-IN-ST: pirate_adventurer_conquest [AGOT: Pirate Conquest]
+ pirate_adventurer_conquest:0 "Pirate Conquest"
+### TODO NOT-IN-ST: pirate_adventurer_event_troops [AGOT: Pirate Adventurers]
+ pirate_adventurer_event_troops:0 "Pirate Adventurers"
 ### TODO NOT-IN-ST: PIRATE_ARMY_NEUTRAL_NAME [AGOT: Pirate Crew]
  PIRATE_ARMY_NEUTRAL_NAME:0 "Pirate Crew"
+### TODO NOT-IN-ST: reclaim_captives_war_victory_desc [AGOT: You free all captives that are held by [defender.GetShortUIName|U] and their [vassals|e].]
+ reclaim_captives_war_victory_desc:0 "You free all captives that are held by [defender.GetShortUIName|U] and their [vassals|e]."
+### TODO NOT-IN-ST: reclaim_captives_war_victory_desc_defender [AGOT: [attacker.GetShortUIName|U] frees all captives held by you and your [vassals|e].]
+ reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] frees all captives held by you and your [vassals|e]."
+### TODO NOT-IN-ST: reclaim_captives_war_white_peace_desc [AGOT: No captives are freed.]
+ reclaim_captives_war_white_peace_desc:0 "No captives are freed."
+### TODO NOT-IN-ST: reclaim_captives_war_defeat_desc [AGOT: No captives are freed.]
+ reclaim_captives_war_defeat_desc:0 "No captives are freed."
+### TODO NOT-IN-ST: reclaim_captives_war_invalidated_desc [AGOT: $RECLAIM_CAPTIVES_WAR_NAME$ invalidated!]
+ reclaim_captives_war_invalidated_desc:0 "$RECLAIM_CAPTIVES_WAR_NAME$ invalidated!"
+### TODO NOT-IN-ST: reclaim_captives_war [AGOT: Free Captives]
+ reclaim_captives_war:0 "Free Captives"
 ### TODO NOT-IN-ST: RECLAIM_CAPTIVES_NAME [AGOT: Free Captives]
  RECLAIM_CAPTIVES_NAME:0 "Free Captives"
 ### TODO NOT-IN-ST: RECLAIM_CAPTIVES_WAR_NAME [AGOT: Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
  RECLAIM_CAPTIVES_WAR_NAME:1 "Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+### TODO NOT-IN-ST: agot_blackfyre_claim [AGOT: Blackfyre Rebellion]
+ agot_blackfyre_claim:0 "Blackfyre Rebellion"
 ### TODO NOT-IN-ST: BLACKFYRE_WAR_NAME [AGOT: [ATTACKER.Custom('BlackfyreRebellions')]]
  BLACKFYRE_WAR_NAME:0 "[ATTACKER.Custom('BlackfyreRebellions')]"
+### TODO NOT-IN-ST: agot_blackfyre_claim_first [AGOT: The Blackfyre Rebellion]
+ agot_blackfyre_claim_first:0 "The Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_second [AGOT: The Second Blackfyre Rebellion]
+ agot_blackfyre_claim_second:0 "The Second Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_third [AGOT: The Third Blackfyre Rebellion]
+ agot_blackfyre_claim_third:0 "The Third Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_fourth [AGOT: The Fourth Blackfyre Rebellion]
+ agot_blackfyre_claim_fourth:0 "The Fourth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_fifth [AGOT: The Fifth Blackfyre Rebellion]
+ agot_blackfyre_claim_fifth:0 "The Fifth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_sixth [AGOT: The Sixth Blackfyre Rebellion]
+ agot_blackfyre_claim_sixth:0 "The Sixth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_seventh [AGOT: The Seventh Blackfyre Rebellion]
+ agot_blackfyre_claim_seventh:0 "The Seventh Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_eight [AGOT: The Eighth Blackfyre Rebellion]
+ agot_blackfyre_claim_eight:0 "The Eighth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_ninth [AGOT: The Ninth Blackfyre Rebellion]
+ agot_blackfyre_claim_ninth:0 "The Ninth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_tenth [AGOT: The Tenth Blackfyre Rebellion]
+ agot_blackfyre_claim_tenth:0 "The Tenth Blackfyre Rebellion"
+### TODO NOT-IN-ST: agot_blackfyre_claim_more [AGOT: Another Fucking Blackfyre Rebellion]
+ agot_blackfyre_claim_more:0 "Another Fucking Blackfyre Rebellion"
+### TODO NOT-IN-ST: ninepenny_conquest_cb [AGOT: Ninepenny Conquest]
+ ninepenny_conquest_cb:0 "Ninepenny Conquest"
 ### TODO NOT-IN-ST: NINEPENNY_WAR_NAME [AGOT: $ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]]
  NINEPENNY_WAR_NAME:2 "$ORDER$ The Band of Nine's War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]"
+### TODO NOT-IN-ST: ninepenny_conquest_cb_victory_desc_defender [AGOT: [claimant.GetShortUIName|U] seizes the target [title|E].]
+ ninepenny_conquest_cb_victory_desc_defender:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+### TODO NOT-IN-ST: ninepenny_conquest_cb_victory_desc_attacker [AGOT: [claimant.GetShortUIName|U] seizes the target [title|E].]
+ ninepenny_conquest_cb_victory_desc_attacker:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+### TODO NOT-IN-ST: ninepenny_conquest_cb_victory_desc [AGOT: [claimant.GetShortUIName|U] seizes the target [title|E].]
+ ninepenny_conquest_cb_victory_desc:0 "[claimant.GetShortUIName|U] seizes the target [title|E]."
+### TODO NOT-IN-ST: ninepenny_conquest_cb_defeat_desc [AGOT: [defender.GetShortUIName|U] keeps the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it.]
+ ninepenny_conquest_cb_defeat_desc:0 "[defender.GetShortUIName|U] keeps the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+### TODO NOT-IN-ST: ninepenny_conquest_cb_defeat_desc_defender [AGOT: You keep the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it.]
+ ninepenny_conquest_cb_defeat_desc_defender:0 "You keep the target [title|E]. [claimant.GetShortUIName|U] loses [claimant.GetHerHis] [claim|E] to it."
+### TODO NOT-IN-ST: ninepenny_conquest_cb_defeat_desc_attacker [AGOT: [claimant.GetShortUIName|U] keeps the target [title|E]. You lose your [claim|E] to it.]
+ ninepenny_conquest_cb_defeat_desc_attacker:0 "[claimant.GetShortUIName|U] keeps the target [title|E]. You lose your [claim|E] to it."
 ### TODO NOT-IN-ST: NINEPENNY_TRUCE [AGOT: \nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine]
  NINEPENNY_TRUCE:0 "\nTruce bound in blood between [attacker.GetTitledFirstName] and [claimant.GetTitledFirstName] as members of the Band of the Nine"
+### TODO NOT-IN-ST: reyne_rebellion [AGOT: Reyne Rebellion]
+ reyne_rebellion:0 "Reyne Rebellion"
 ### TODO NOT-IN-ST: REYNE_REBELLION_NAME [AGOT: The Reyne Rebellion]
  REYNE_REBELLION_NAME:0 "The Reyne Rebellion"
+### TODO NOT-IN-ST: agot_faegon_landing_war_invalidated [AGOT: [attacker.GetFullNameRegnal|U] Invasion was invalidated because of [attacker.GetFullNameRegnal|U]'s death]
+ agot_faegon_landing_war_invalidated: "[attacker.GetFullNameRegnal|U] Invasion was invalidated because of [attacker.GetFullNameRegnal|U]'s death"
+### TODO NOT-IN-ST: agot_faegon_landing_defeat_desc_defender [AGOT: You defeat the [attacker.GetFullNameRegnal|U] and retain control over the [defender.GetPrimaryTitle.GetName]]
+ agot_faegon_landing_defeat_desc_defender: "You defeat the [attacker.GetFullNameRegnal|U] and retain control over the [defender.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: agot_faegon_landing_defeat_defeat_desc [AGOT: [attacker.GetFullNameRegnal|U] gets imprisoned]
+ agot_faegon_landing_defeat_defeat_desc: "[attacker.GetFullNameRegnal|U] gets imprisoned"
+### TODO NOT-IN-ST: agot_faegon_landing_war_victory_desc_attacker [AGOT: You depose [defender.GetFullNameRegnal|U] and take the [defender.GetPrimaryTitle.GetName]]
+ agot_faegon_landing_war_victory_desc_attacker: "You depose [defender.GetFullNameRegnal|U] and take the [defender.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: agot_faegon_landing_war_victory_desc [AGOT: [defender.GetFullNameRegnal|U] gets imprisoned]
+ agot_faegon_landing_war_victory_desc: "[defender.GetFullNameRegnal|U] gets imprisoned"
+### TODO NOT-IN-ST: agot_duskendale_independence_war [AGOT: War for Duskendale Independence]
+ agot_duskendale_independence_war:0 "War for Duskendale Independence"
 ### TODO NOT-IN-ST: AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME [AGOT: [ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence]
  AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME:0 "[ATTACKER.GetTitledFirstNamePossessive] War for [ATTACKER.GetPrimaryTitle.GetNameNoTier] Independence"
+### TODO NOT-IN-ST: agot_bastard_claimant_war [AGOT: Royal Bastard Claimant War]
+ agot_bastard_claimant_war:0 "Royal Bastard Claimant War"
+### TODO NOT-IN-ST: agot_bastard_claimant_war_name [AGOT: [CLAIMANT.Custom('BastardClaimantWarName')]]
+ agot_bastard_claimant_war_name:0 "[CLAIMANT.Custom('BastardClaimantWarName')]"
+### TODO NOT-IN-ST: agot_bastard_claimant_war_name_nicked [AGOT: The War of[ROOT.Char.Custom('SurnameSwitch')]]
+ agot_bastard_claimant_war_name_nicked:0 "The War of[ROOT.Char.Custom('SurnameSwitch')]" # There is a space in the Cusloc Key
+### TODO NOT-IN-ST: agot_bastard_claimant_war_name_no_nick [AGOT: The War of [ROOT.Char.GetFather.GetFirstNamePossessiveNoTooltip] Bastard]
+ agot_bastard_claimant_war_name_no_nick:0 "The War of [ROOT.Char.GetFather.GetFirstNamePossessiveNoTooltip] Bastard"
+### TODO NOT-IN-ST: agot_bastard_claimant_war_invalid [AGOT: [claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed.]
+ agot_bastard_claimant_war_invalid:0 "[claimant.GetName] has died. [claimant.GetHerHis] claim can no longer be pressed."
+### TODO NOT-IN-ST: agot_bastard_claimant_war_victory [AGOT: [claimant.GetName] will be installed as ruler of [defender.GetPrimaryTitle.GetName]!]
+ agot_bastard_claimant_war_victory:0 "[claimant.GetName] will be installed as ruler of [defender.GetPrimaryTitle.GetName]!"
+### TODO NOT-IN-ST: agot_bastard_claimant_war_white_peace [AGOT: [attacker.GetName] and [defender.GetName] agree to cease the bloodshed. [claimant.GetName] will return home and this matter put to rest.]
+ agot_bastard_claimant_war_white_peace:0 "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed. [claimant.GetName] will return home and this matter put to rest."
+### TODO NOT-IN-ST: agot_bastard_claimant_war_defeat [AGOT: [defender.GetName] will win and the rebels will be subject to [defender.GetHerHis] judgment.]
+ agot_bastard_claimant_war_defeat:0 "[defender.GetName] will win and the rebels will be subject to [defender.GetHerHis] judgment."
 ### TODO NOT-IN-ST: agot_bastard_enforcement_war [AGOT: Royal Decree Enforcement]
  agot_bastard_enforcement_war:0 "Royal Decree Enforcement"
 ### TODO NOT-IN-ST: agot_bastard_enforcement_war_name [AGOT: [ATTACKER.GetTitledFirstNamePossessive] Enforcement on [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
  agot_bastard_enforcement_war_name:0 "[ATTACKER.GetTitledFirstNamePossessive] Enforcement on [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_invalid [AGOT: [claimant.GetName] has died. The enforcement is no longer necessary.]
+ agot_bastard_enforcement_war_invalid:0 "[claimant.GetName] has died. The enforcement is no longer necessary."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree upon [defender.GetName].]
+ agot_bastard_enforcement_war_victory:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree upon [defender.GetName]."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory_execute_both [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] and [defender.GetName] will be executed.]
+ agot_bastard_enforcement_war_victory_execute_both:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] and [defender.GetName] will be executed."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory_execute_bastard [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be executed.]
+ agot_bastard_enforcement_war_victory_execute_bastard:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be executed."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory_send_to_order [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be sent to serve in an order.]
+ agot_bastard_enforcement_war_victory_send_to_order:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be sent to serve in an order."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory_bring_to_court [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be brought to court.]
+ agot_bastard_enforcement_war_victory_bring_to_court:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will be brought to court."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_victory_give_up_claims [AGOT: [attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will renounce all claims to the throne.]
+ agot_bastard_enforcement_war_victory_give_up_claims:0 "[attacker.GetName] will enforce [attacker.GetHerHis] royal decree — [claimant.GetName] will renounce all claims to the throne."
+### TODO NOT-IN-ST: agot_bastard_enforcement_war_white_peace [AGOT: [attacker.GetName] and [defender.GetName] agree to a truce. The matter is put to rest.]
+ agot_bastard_enforcement_war_white_peace:0 "[attacker.GetName] and [defender.GetName] agree to a truce. The matter is put to rest."
 ### TODO NOT-IN-ST: agot_bastard_enforcement_war_defeat [AGOT: [defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree.]
  agot_bastard_enforcement_war_defeat:0 "[defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree."
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_WAR_NAME [AGOT: Disrupt Piracy]
@@ -65,8 +231,18 @@
  DISRUPT_PIRACY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_CB [AGOT: Disrupt Piracy]
  DISRUPT_PIRACY_CB:0 "Disrupt Piracy"
+### TODO NOT-IN-ST: destroy_pirates_cb [AGOT: $DISRUPT_PIRACY_CB$]
+ destroy_pirates_cb:0 "$DISRUPT_PIRACY_CB$"
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_CB_SHATTER [AGOT: The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state.]
  DISRUPT_PIRACY_CB_SHATTER:0 "The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state."
+### TODO NOT-IN-ST: disrupt_piracy_defeat_desc [AGOT: Pirates in this region will be emboldened, increasing the threat to trade and security.]
+ disrupt_piracy_defeat_desc:0 "Pirates in this region will be emboldened, increasing the threat to trade and security."
+### TODO NOT-IN-ST: disrupt_piracy_victory_desc [AGOT: The Pirate realm is destroyed and piracy in the region will be disrupted.]
+ disrupt_piracy_victory_desc:0 "The Pirate realm is destroyed and piracy in the region will be disrupted."
+### TODO NOT-IN-ST: disrupt_piracy_white_peace_desc [AGOT: White peace shouldn't happen, if it does, report it to gaytriarch.]
+ disrupt_piracy_white_peace_desc:0 "White peace shouldn't happen, if it does, report it to gaytriarch."
+### TODO NOT-IN-ST: disrupt_piracy_invalidated_desc [AGOT: The war to disrupt piracy has been invalidated due to the death of [ATTACKER.GetFullNameRegnalPossessive|U].]
+ disrupt_piracy_invalidated_desc:0 "The war to disrupt piracy has been invalidated due to the death of [ATTACKER.GetFullNameRegnalPossessive|U]."
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_COASTAL_GOOD [AGOT: With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years.]
  DISRUPT_PIRACY_COASTAL_GOOD:0 "With the pirates of [defender.GetPrimaryTitle.GetNameNoTier|U] smashed, your coastal [counties|E] are safer from piracy, increasing [county_control|E] for #V 2 years."
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_COASTAL_BAD [AGOT: With their [attacker.GetLadyLord|U] unable to control the pirate meance, the once bustling docks in your coastal [counties|E] sit empty, lowering [county_control|E], [county_opinion|E], and [development|E] for #V 2 years.]
@@ -77,6 +253,8 @@
  INVADE_PIRATE_HAVEN_CB:0 "$INVADE_PIRATE_HAVEN_WAR_NAME$"
 ### TODO NOT-IN-ST: ESTABLISH_PIRATE_HAVEN_WAR_NAME [AGOT: Establish Pirate Haven]
  ESTABLISH_PIRATE_HAVEN_WAR_NAME:0 "Establish Pirate Haven"
+### TODO NOT-IN-ST: establish_pirate_haven_cb [AGOT: $ESTABLISH_PIRATE_HAVEN_WAR_NAME$]
+ establish_pirate_haven_cb:0 "$ESTABLISH_PIRATE_HAVEN_WAR_NAME$"
 ### TODO NOT-IN-ST: PIRATE_CB_TARGET_IS_KINGDOM [AGOT: Defender's primary title is kingdom-tier or higher]
  PIRATE_CB_TARGET_IS_KINGDOM:0 "Defender's primary title is kingdom-tier or higher"
 ### TODO NOT-IN-ST: PIRATE_CB_TARGET_IS_DUCHY [AGOT: Defender's primary title is duchy-tier]
@@ -101,6 +279,10 @@
  dragon_duchy_conquest_cb:1 "Draconically Conquer [duchy|E]"
 ### TODO NOT-IN-ST: dragon_ducal_conquest_cb [AGOT: Draconically Unite [duchy|E]]
  dragon_ducal_conquest_cb:1 "Draconically Unite [duchy|E]"
+### TODO NOT-IN-ST: dragon_kingdom_conquest_cb [AGOT: Draconically Conquer [kingdom|E]]
+ dragon_kingdom_conquest_cb:1 "Draconically Conquer [kingdom|E]"
+### TODO NOT-IN-ST: dragon_subjugation_cb [AGOT: Draconic Subjugation]
+ dragon_subjugation_cb:0 "Draconic Subjugation"
 ### TODO NOT-IN-ST: DRAGON_CONQUEST_COUNTY_CB_NAME [AGOT: Draconically Conquer [county|E]]
  DRAGON_CONQUEST_COUNTY_CB_NAME:1 "Draconically Conquer [county|E]"
 ### TODO NOT-IN-ST: DRAGON_CONQUEST_DUCHY_CB_NAME [AGOT: Draconically Conquer [duchy|E]]
@@ -125,8 +307,14 @@
  DRAGON_SUBJUGATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Dragon Subjugation War"
 ### TODO NOT-IN-ST: DRAGON_SUBJUGATION_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  DRAGON_SUBJUGATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+### TODO NOT-IN-ST: declared_draconic_subjugation_war_flag_tt [AGOT: \n\n#X You may only attempt one Draconic Subjugation [war|e] per lifetime#!]
+ declared_draconic_subjugation_war_flag_tt:0 "\n\n#X You may only attempt one Draconic Subjugation [war|e] per lifetime#!"
+### TODO NOT-IN-ST: empire_destroyed_effect_tt [AGOT: @warning_icon! #X [de_jure_target_empire.GetName] will be destroyed and [de_jure_target.GetName] will be created to be taken in war.#!]
+ empire_destroyed_effect_tt:0 "@warning_icon! #X [de_jure_target_empire.GetName] will be destroyed and [de_jure_target.GetName] will be created to be taken in war.#!"
 ### TODO NOT-IN-ST: truce_stepstones_holders_trp [AGOT: Events in the Stepstones have yet to be resolved.]
  truce_stepstones_holders_trp:0 " Events in the Stepstones have yet to be resolved."
+### TODO NOT-IN-ST: daemon_stepstones_first_war [AGOT: Landing on the Stepstones]
+ daemon_stepstones_first_war:0 "Landing on the Stepstones"
 ### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
  DAEMON_FIRST_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
 ### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
@@ -145,14 +333,224 @@
  DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for Three Daughters"
 ### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_CB_NAME [AGOT: War for the Stepstones]
  DAEMON_SECOND_STEPSTONE_WAR_CB_NAME:0 "War for the Stepstones" # Should never be seen\
+### TODO NOT-IN-ST: daemon_invades_triarchy_war [AGOT: War for the Three Daughters]
+ daemon_invades_triarchy_war:0 "War for the Three Daughters"
+### TODO NOT-IN-ST: admiral_subjugation_cb [AGOT: Admiral Subjugation]
+ admiral_subjugation_cb:0 "Admiral Subjugation"
+### TODO NOT-IN-ST: triarchy_anti_daemon_war [AGOT: Claim War]
+ triarchy_anti_daemon_war:0 "Claim War"
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty [AGOT: Reassert Braavos-Pentos Treaty]
+ reinstate_braavos_pentos_treaty:0 "Reassert Braavos-Pentos Treaty"
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_war_name [AGOT: War to Reinstate Braavos-Pentos Treaty]
+ reinstate_braavos_pentos_treaty_war_name:0 "War to Reinstate Braavos-Pentos Treaty"
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_victory_desc [AGOT: [attacker.GetName] successfully reasserts the Braavos-Pentos Treaty.]
+ reinstate_braavos_pentos_treaty_victory_desc:0 "[attacker.GetName] successfully reasserts the Braavos-Pentos Treaty."
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_white_peace_desc [AGOT: The Braavos-Pentos Treaty is not reasserted.]
+ reinstate_braavos_pentos_treaty_white_peace_desc:0 "The Braavos-Pentos Treaty is not reasserted."
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_defeat_desc [AGOT: [attacker.GetNamePossessive] war fails, and the Braavos-Pentos Treaty is not reasserted.]
+ reinstate_braavos_pentos_treaty_defeat_desc:0 "[attacker.GetNamePossessive] war fails, and the Braavos-Pentos Treaty is not reasserted."
+### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_on_defeat_tt [AGOT: Braavosi leaders will no longer be able to reassert the Braavos-Pentos Treaty.]
+ reinstate_braavos_pentos_treaty_on_defeat_tt:0 "Braavosi leaders will no longer be able to reassert the Braavos-Pentos Treaty."
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war [AGOT: Braavosi-Pentoshi War]
+ fourth_braavosi_pentoshi_war:0 "Braavosi-Pentoshi War"
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_desc [AGOT: Braavos's gamble to strike while Pentos seemed weak pays off, establishing greater dominance in Andalos.]
+ fourth_braavosi_pentoshi_war_desc:0 "Braavos's gamble to strike while Pentos seemed weak pays off, establishing greater dominance in Andalos."
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_victory_desc [AGOT: Braavos shall seize most of Pentos' remaining territory in Andalos.]
+ fourth_braavosi_pentoshi_war_victory_desc:0 "Braavos shall seize most of Pentos' remaining territory in Andalos."
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_white_peace_desc [AGOT: [attacker.GetName] and [defender.GetName] agree to cease the bloodshed.]
+ fourth_braavosi_pentoshi_war_white_peace_desc:0 "[attacker.GetName] and [defender.GetName] agree to cease the bloodshed."
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_on_defeat_desc [AGOT: [attacker.GetNamePossessive] invasion fails, and Pentos pushes Braavos out of Andalos.]
+ fourth_braavosi_pentoshi_war_on_defeat_desc:0 "[attacker.GetNamePossessive] invasion fails, and Pentos pushes Braavos out of Andalos."
+### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_on_defeat_tt [AGOT: All land that Braavos has ownership over in Andalos will be transferred to Pentos.]
+ fourth_braavosi_pentoshi_war_on_defeat_tt:0 "All land that Braavos has ownership over in Andalos will be transferred to Pentos."
+### TODO NOT-IN-ST: agot_succession_war [AGOT: War of Succession]
+ agot_succession_war: "War of Succession"
+### TODO NOT-IN-ST: agot_succession_war_name [AGOT: [ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]]
+ agot_succession_war_name:0 "[ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]"
+### TODO NOT-IN-ST: agot_war_of_succession_number_one [AGOT: The]
+ agot_war_of_succession_number_one:0 "The"
+### TODO NOT-IN-ST: agot_war_of_succession_number_two [AGOT: The Second]
+ agot_war_of_succession_number_two:0 "The Second"
+### TODO NOT-IN-ST: agot_war_of_succession_number_three [AGOT: The Third]
+ agot_war_of_succession_number_three:0 "The Third"
+### TODO NOT-IN-ST: agot_war_of_succession_number_four [AGOT: The Fourth]
+ agot_war_of_succession_number_four:0 "The Fourth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_five [AGOT: The Fifth]
+ agot_war_of_succession_number_five:0 "The Fifth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_six [AGOT: The Sixth]
+ agot_war_of_succession_number_six:0 "The Sixth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_seven [AGOT: The Seventh]
+ agot_war_of_succession_number_seven:0 "The Seventh"
+### TODO NOT-IN-ST: agot_war_of_succession_number_eight [AGOT: The Eighth]
+ agot_war_of_succession_number_eight:0 "The Eighth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_nince [AGOT: The Ninth]
+ agot_war_of_succession_number_nince:0 "The Ninth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_ten [AGOT: The Tenth]
+ agot_war_of_succession_number_ten:0 "The Tenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_eleven [AGOT: The Eleventh]
+ agot_war_of_succession_number_eleven:0 "The Eleventh"
+### TODO NOT-IN-ST: agot_war_of_succession_number_twelve [AGOT: The Twelfth]
+ agot_war_of_succession_number_twelve:0 "The Twelfth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_thirteen [AGOT: The Thirteenth]
+ agot_war_of_succession_number_thirteen:0 "The Thirteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_fourteen [AGOT: The Fourteenth]
+ agot_war_of_succession_number_fourteen:0 "The Fourteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_fifteen [AGOT: The Fifteenth]
+ agot_war_of_succession_number_fifteen:0 "The Fifteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_sixteen [AGOT: The Sixteenth]
+ agot_war_of_succession_number_sixteen:0 "The Sixteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_seventeen [AGOT: The Seventeenth]
+ agot_war_of_succession_number_seventeen:0 "The Seventeenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_eighteen [AGOT: The Eighteenth]
+ agot_war_of_succession_number_eighteen:0 "The Eighteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_nineteen [AGOT: The Nineteenth]
+ agot_war_of_succession_number_nineteen:0 "The Nineteenth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_twenty [AGOT: The Twentieth]
+ agot_war_of_succession_number_twenty:0 "The Twentieth"
+### TODO NOT-IN-ST: agot_war_of_succession_number_billion [AGOT: The Endless]
+ agot_war_of_succession_number_billion:0 "The Endless"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Targaryen [AGOT: Dance of the Dragons]
+ agot_war_of_succession_name_Targaryen:0 "Dance of the Dragons"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Valeryon [AGOT: Turning of the Tides]
+ agot_war_of_succession_name_Valeryon:0 "Turning of the Tides"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Celtigar [AGOT: Clack of Crabs]
+ agot_war_of_succession_name_Celtigar:0 "Clack of Crabs"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Darklyn [AGOT: Dance for the Dusk]
+ agot_war_of_succession_name_Darklyn:0 "Dance for the Dusk"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Massey [AGOT: Dance of Stone]
+ agot_war_of_succession_name_Massey:0 "Dance of Stone"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Stark [AGOT: War of the Wolves]
+ agot_war_of_succession_name_Stark:0 "War of the Wolves"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Mormont [AGOT: Wrath of the Bears]
+ agot_war_of_succession_name_Mormont:0 "Wrath of the Bears"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Bolton [AGOT: Bloodletting]
+ agot_war_of_succession_name_Bolton:0 "Bloodletting"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Manderly [AGOT: Merman War]
+ agot_war_of_succession_name_Manderly:0 "Merman War"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Forrester [AGOT: Clear Cut]
+ agot_war_of_succession_name_Forrester:0 "Clear Cut"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Umber [AGOT: Wrath of the Giants]
+ agot_war_of_succession_name_Umber:0 "Wrath of the Giants"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Glover [AGOT: Gauntlet]
+ agot_war_of_succession_name_Glover:0 "Gauntlet"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Dustin [AGOT: Desecration]
+ agot_war_of_succession_name_Dustin:0 "Desecration"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Ryswell [AGOT: Beat of Hooves]
+ agot_war_of_succession_name_Ryswell:0 "Beat of Hooves"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Tully [AGOT: War of Family and Honor]
+ agot_war_of_succession_name_Tully:0 "War of Family and Honor"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Blackwood [AGOT: Wrath of the Ravens]
+ agot_war_of_succession_name_Blackwood:0 "Wrath of the Ravens"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Bracken [AGOT: Bloody Bridling]
+ agot_war_of_succession_name_Bracken:0 "Bloody Bridling"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Frey [AGOT: Clash of the Crossing]
+ agot_war_of_succession_name_Frey:0 "Clash of the Crossing"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Darry [AGOT: Bloody Tilling]
+ agot_war_of_succession_name_Darry:0 "Bloody Tilling"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Strong [AGOT: Brawl]
+ agot_war_of_succession_name_Strong:0 "Brawl"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Arryn [AGOT: War of High Honor]
+ agot_war_of_succession_name_Arryn:0 "War of High Honor"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Royce [AGOT: Tarnishing]
+ agot_war_of_succession_name_Royce:0 "Tarnishing"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Baelish [AGOT: Ballad of Songbirds]
+ agot_war_of_succession_name_Baelish:0 "Ballad of Songbirds"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Corbray [AGOT: Forlorn War]
+ agot_war_of_succession_name_Corbray:0 "Forlorn War"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Sunderland [AGOT: Sundering]
+ agot_war_of_succession_name_Sunderland:0 "Sundering"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Greyjoy [AGOT: Clash of Krakens]
+ agot_war_of_succession_name_Greyjoy:0 "Clash of Krakens"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Harlaw [AGOT: Great Reaping]
+ agot_war_of_succession_name_Harlaw:0 "Great Reaping"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Goodbrother [AGOT: Badbrother War]
+ agot_war_of_succession_name_Goodbrother:0 "Badbrother War"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Hoare [AGOT: Black Sowing]
+ agot_war_of_succession_name_Hoare:0 "Black Sowing"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Codd [AGOT: Clash of the Codd]
+ agot_war_of_succession_name_Codd:0 "Clash of the Codd"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Baratheon [AGOT: Clash of Antlers]
+ agot_war_of_succession_name_Baratheon:0 "Clash of Antlers"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Estermont [AGOT: Maelstrom]
+ agot_war_of_succession_name_Estermont:0 "Maelstrom"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Dondarrion [AGOT: Thundering]
+ agot_war_of_succession_name_Dondarrion:0 "Thundering"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Tarth [AGOT: Sapphire War]
+ agot_war_of_succession_name_Tarth:0 "Sapphire War"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Seaworth [AGOT: Onslaught of Onions]
+ agot_war_of_succession_name_Seaworth:0 "Onslaught of Onions"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Connington [AGOT: Griffin's Grudge]
+ agot_war_of_succession_name_Connington:0 "Griffin's Grudge"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Swann [AGOT: Ballad of Swans]
+ agot_war_of_succession_name_Swann:0 "Ballad of Swans"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Selmy [AGOT: Cruel Harvest]
+ agot_war_of_succession_name_Selmy:0 "Cruel Harvest"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Lannister [AGOT: War of Pride]
+ agot_war_of_succession_name_Lannister:0 "War of Pride"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Reyne [AGOT: Roar of Red Lions]
+ agot_war_of_succession_name_Reyne:0 "Roar of Red Lions"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Clegane [AGOT: Melee of Mongrels]
+ agot_war_of_succession_name_Clegane:0 "Melee of Mongrels"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Lydden [AGOT: Brawl of the Badgers]
+ agot_war_of_succession_name_Lydden:0 "Brawl of the Badgers"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Brax [AGOT: Broken Horns]
+ agot_war_of_succession_name_Brax:0 "Broken Horns"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Crakehall [AGOT: Goring]
+ agot_war_of_succession_name_Crakehall:0 "Goring"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Banefort [AGOT: Hooded War]
+ agot_war_of_succession_name_Banefort:0 "Hooded War"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Tyrell [AGOT: War of the Roses]
+ agot_war_of_succession_name_Tyrell:0 "War of the Roses"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Hightower [AGOT: Battle of the Beacon]
+ agot_war_of_succession_name_Hightower:0 "Battle of the Beacon"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Florent [AGOT: Fracas of Foxes]
+ agot_war_of_succession_name_Florent:0 "Fracas of Foxes"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Redwyne [AGOT: Bloody Vintage]
+ agot_war_of_succession_name_Redwyne:0 "Bloody Vintage"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Tarly [AGOT: Black Hunt]
+ agot_war_of_succession_name_Tarly:0 "Black Hunt"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Gardener [AGOT: Wilting]
+ agot_war_of_succession_name_Gardener:0 "Wilting"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Martell [AGOT: War of Sun and Spear]
+ agot_war_of_succession_name_Martell:0 "War of Sun and Spear"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Dayne [AGOT: War of the Mourning]
+ agot_war_of_succession_name_Dayne:0 "War of the Mourning"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Yronwood [AGOT: War of the Bloodroyal]
+ agot_war_of_succession_name_Yronwood:0 "War of the Bloodroyal"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Qorgyle [AGOT: War of the Poisoned Well]
+ agot_war_of_succession_name_Qorgyle:0 "War of the Poisoned Well"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Uller [AGOT: Hellfire]
+ agot_war_of_succession_name_Uller:0 "Hellfire"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Jordayne [AGOT: War of Power]
+ agot_war_of_succession_name_Jordayne:0 "War of Power"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Toland [AGOT: Grave Digging]
+ agot_war_of_succession_name_Toland:0 "Grave Digging"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Dalt [AGOT: Sour Harvest]
+ agot_war_of_succession_name_Dalt:0 "Sour Harvest"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Fowler [AGOT: Falcon's Fight]
+ agot_war_of_succession_name_Fowler:0 "Falcon's Fight"
+### TODO NOT-IN-ST: agot_war_of_succession_name_Manwoody [AGOT: Skullbreaking]
+ agot_war_of_succession_name_Manwoody:0 "Skullbreaking"
+### TODO NOT-IN-ST: agot_war_of_succession_name_fallback [AGOT: War of Succession]
+ agot_war_of_succession_name_fallback:0 "War of Succession"
 ### TODO NOT-IN-ST: AGOT_CB_RECLAIMING_DYNASTY_TITLES [AGOT: Reclaiming Your Dynasty's Titles]
  AGOT_CB_RECLAIMING_DYNASTY_TITLES:0 "Reclaiming Your Dynasty's Titles"
 ### TODO NOT-IN-ST: agot_usurper_standard [AGOT: Usurper]
  agot_usurper_standard:0 "Usurper"
 ### TODO NOT-IN-ST: agot_usurper_pretender [AGOT: Pretender]
  agot_usurper_pretender:0 "Pretender"
+### TODO NOT-IN-ST: agot_usurper_mummer_king [AGOT: Mummer King]
+ agot_usurper_mummer_king:0 "Mummer King"
 ### TODO NOT-IN-ST: agot_usurper_mummer_queen [AGOT: Mummer Queen]
  agot_usurper_mummer_queen:0 "Mummer Queen"
+### TODO NOT-IN-ST: agot_usurper_boy_king [AGOT: Boy King]
+ agot_usurper_boy_king:0 "Boy King"
+### TODO NOT-IN-ST: agot_usurper_witch_king [AGOT: Witch King]
+ agot_usurper_witch_king:0 "Witch King"
+### TODO NOT-IN-ST: agot_usurper_witch_queen [AGOT: Witch Queen]
+ agot_usurper_witch_queen:0 "Witch Queen"
+### TODO NOT-IN-ST: agot_usurper_coward_king [AGOT: Craven King]
+ agot_usurper_coward_king:0 "Craven King"
 ### TODO NOT-IN-ST: agot_usurper_coward_queen [AGOT: Craven Queen]
  agot_usurper_coward_queen:0 "Craven Queen"
 ### TODO NOT-IN-ST: agot_usurper_mummers_dragon [AGOT: Mummer's Dragon]
@@ -165,8 +563,12 @@
  agot_usurper_mummers_fox:0 "Mummer's Fox"
 ### TODO NOT-IN-ST: agot_usurper_false_star [AGOT: False Star]
  agot_usurper_false_star:0 "False Star"
+### TODO NOT-IN-ST: agot_usurper_false_king [AGOT: False King]
+ agot_usurper_false_king:0 "False King"
 ### TODO NOT-IN-ST: agot_usurper_false_queen [AGOT: False Queen]
  agot_usurper_false_queen:0 "False Queen"
+### TODO NOT-IN-ST: agot_usurper_bastard_king [AGOT: Bastard King]
+ agot_usurper_bastard_king:0 "Bastard King"
 ### TODO NOT-IN-ST: agot_usurper_bastard_queen [AGOT: Bastard Queen]
  agot_usurper_bastard_queen:0 "Bastard Queen"
 ### TODO NOT-IN-ST: agot_usurper_b_word [AGOT: Bitch Queen]
