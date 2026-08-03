@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_debug_religion_set_special_incest_flag_interaction [AGOT: Set Special Incest Flags]
  agot_debug_religion_set_special_incest_flag_interaction:0 "Set Special Incest Flags"
 ### TODO NOT-IN-ST: agot_debug_religion_set_special_incest_flag_interaction_desc [AGOT: ]
@@ -49,14 +49,14 @@
  agot_debug_mw_pwl_all_desc:0 "This will remove the agot_pwl_direct variable"
 ### TODO NOT-IN-ST: agot_debug_mw_end_mw_story_desc [AGOT: End [recipient.GetFirstNamePossessive] mega war stories.]
  agot_debug_mw_end_mw_story_desc:0 "End [recipient.GetFirstNamePossessive] mega war stories."
-### TODO NOT-IN-ST: agot_debug_mw_set_stance_interaction [AGOT: Join side in mega war]
- agot_debug_mw_set_stance_interaction:0 "Join side in mega war"
-### TODO NOT-IN-ST: agot_debug_mw_set_stance_interaction_desc [AGOT: Join side in mega war]
- agot_debug_mw_set_stance_interaction_desc:0 "Join side in mega war"
-### TODO NOT-IN-ST: agot_debug_mw_set_stance_pre_war_interaction [AGOT: Set MW stance prior to war]
- agot_debug_mw_set_stance_pre_war_interaction:0 "Set MW stance prior to war"
-### TODO NOT-IN-ST: agot_debug_mw_set_stance_pre_war_interaction_desc [AGOT: Set MW stance prior to war]
- agot_debug_mw_set_stance_pre_war_interaction_desc:0 "Set MW stance prior to war"
+
+ agot_debug_mw_set_stance_interaction:0 "Mega savaşta taraf seç"
+
+ agot_debug_mw_set_stance_interaction_desc:0 "Mega savaşta taraf seç"
+
+ agot_debug_mw_set_stance_pre_war_interaction:0 "Savaştan önce MW tutumunu belirle"
+
+ agot_debug_mw_set_stance_pre_war_interaction_desc:0 "Savaştan önce MW tutumunu belirle"
 ### TODO NOT-IN-ST: agot_debug_mw_only_one_stance [AGOT: Only select one stance at a time!]
  agot_debug_mw_only_one_stance:0 "Only select one stance at a time!"
 ### TODO NOT-IN-ST: agot_debug_mw_loyalist_loc [AGOT: Set #S #G LOYALIST#!#!]
@@ -79,24 +79,24 @@
  agot_debug_mw_independence.tt:0 "will be an #S #R independence rebel#!#!"
 ### TODO NOT-IN-ST: agot_debug_mw_all_vassals.tt [AGOT: all of [recipient.GetFirstNamePossessive] vassals will #S #R follow#!#! [recipient.GetHerHim].]
  agot_debug_mw_all_vassals.tt:0 "all of [recipient.GetFirstNamePossessive] vassals will #S #R follow#!#! [recipient.GetHerHim]."
-### TODO NOT-IN-ST: agot_debug_mw_set_rebel_leader_interaction [AGOT: Set as rebel leader]
- agot_debug_mw_set_rebel_leader_interaction:0 "Set as rebel leader"
-### TODO NOT-IN-ST: agot_debug_mw_set_rebel_leader_interaction_desc [AGOT: Set as rebel leader]
- agot_debug_mw_set_rebel_leader_interaction_desc:0 "Set as rebel leader"
-### TODO NOT-IN-ST: agot_debug_mw_set_rebel_target_interaction [AGOT: Set as rebel target]
- agot_debug_mw_set_rebel_target_interaction:0 "Set as rebel target"
-### TODO NOT-IN-ST: agot_debug_mw_set_rebel_target_interaction_desc [AGOT: Set as rebel target]
- agot_debug_mw_set_rebel_target_interaction_desc:0 "Set as rebel target"
+
+ agot_debug_mw_set_rebel_leader_interaction:0 "Asi lideri olarak belirle"
+
+ agot_debug_mw_set_rebel_leader_interaction_desc:0 "Asi lideri olarak belirle"
+
+ agot_debug_mw_set_rebel_target_interaction:0 "Asi hedefi olarak belirle"
+
+ agot_debug_mw_set_rebel_target_interaction_desc:0 "Asi hedefi olarak belirle"
 ### TODO NOT-IN-ST: AGOT_DEBUG_MW_TARGET_VARIABLE_NOT_SET [AGOT: Rebel leader variable is not set]
  AGOT_DEBUG_MW_TARGET_VARIABLE_NOT_SET:0 "Rebel leader variable is not set"
 ### TODO NOT-IN-ST: AGOT_DEBUG_MW_NO_VALID_TARGET [AGOT: Mega War can not be triggered with this ruler as target]
  AGOT_DEBUG_MW_NO_VALID_TARGET:0 "Mega War can not be triggered with this ruler as target"
 ### TODO NOT-IN-ST: AGOT_DEBUG_MW_REBELLION_WAR_OPTION [AGOT: Rebellion War]
  AGOT_DEBUG_MW_REBELLION_WAR_OPTION:0 "Rebellion War"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_INDEPENDENCE_WAR_OPTION [AGOT: Independence War]
- AGOT_DEBUG_MW_INDEPENDENCE_WAR_OPTION:0 "Independence War"
-### TODO NOT-IN-ST: AGOT_DEBUG_MW_CLAIM_WAR_OPTION [AGOT: Claim War]
- AGOT_DEBUG_MW_CLAIM_WAR_OPTION:0 "Claim War"
+
+ AGOT_DEBUG_MW_INDEPENDENCE_WAR_OPTION:0 "Bağımsızlık Savaşı"
+
+ AGOT_DEBUG_MW_CLAIM_WAR_OPTION:0 "Hak İddiası Savaşı"
 ### TODO NOT-IN-ST: AGOT_DEBUG_MW_NO_WAR_VALID [AGOT: There is no valid mega war to declare.]
  AGOT_DEBUG_MW_NO_WAR_VALID:0 "There is no valid mega war to declare."
 ### TODO NOT-IN-ST: AGOT_DEBUG_MW_TRIGGER_MW_REGULAR [AGOT: This will trigger a regular mega war.]
@@ -147,14 +147,14 @@
  agot_debug_give_dragon_tt:0 "[recipient.GetNameOrMeRegnal] will be given a [tamed_dragon|E]"
 ### TODO NOT-IN-ST: debug_bond_dragon [AGOT: Instantly Bond]
  debug_bond_dragon:0 "Instantly Bond"
-### TODO NOT-IN-ST: debug_tame_dragon [AGOT: Tame Dragon]
- debug_tame_dragon:0 "Tame Dragon"
+
+ debug_tame_dragon:0 "Ejderha Ehlileştir"
 ### TODO NOT-IN-ST: debug_untame_dragon [AGOT: Untame Dragon]
  debug_untame_dragon:0 "Untame Dragon"
 ### TODO NOT-IN-ST: debug_unbond_dragon [AGOT: Unbond Dragon]
  debug_unbond_dragon:0 "Unbond Dragon"
-### TODO NOT-IN-ST: debug_dragonpit_dragon [AGOT: Send to Dragonpit]
- debug_dragonpit_dragon:0 "Send to Dragonpit"
+
+ debug_dragonpit_dragon:0 "Ejderha Çukuru'na Gönder"
 ### TODO NOT-IN-ST: debug_release_from_dragonpit_dragon [AGOT: Release from Dragonpit]
  debug_release_from_dragonpit_dragon: "Release from Dragonpit"
 ### TODO NOT-IN-ST: debug_bond_dragon_tt [AGOT: [actor.GetShortUIName] will instantly bond with [recipient.GetName]]
@@ -193,10 +193,10 @@
  agot_show_dragonblood_debug_desc:0 "Display the amount of dragonblood [recipient.GetName] has"
 ### TODO NOT-IN-ST: debug_dragon_blood_value [AGOT: [recipient.MakeScope.ScriptValue('dragonblood_percent')]% Dragonblood]
  debug_dragon_blood_value:0 "[recipient.MakeScope.ScriptValue('dragonblood_percent')]% Dragonblood"
-### TODO NOT-IN-ST: agot_dragon_lay_egg_debug [AGOT: Lay Clutch of Eggs]
- agot_dragon_lay_egg_debug:0 "Lay Clutch of Eggs"
-### TODO NOT-IN-ST: agot_dragon_lay_egg_debug_desc [AGOT: Lay Clutch of Eggs]
- agot_dragon_lay_egg_debug_desc:0 "Lay Clutch of Eggs"
+
+ agot_dragon_lay_egg_debug:0 "Yumurta Bırak"
+
+ agot_dragon_lay_egg_debug_desc:0 "Yumurta Bırak"
 ### TODO NOT-IN-ST: agot_dragon_lay_egg_debug.lay_eggs [AGOT: Lays a clutch of eggs]
  agot_dragon_lay_egg_debug.lay_eggs:0 "Lays a clutch of eggs"
 ### TODO NOT-IN-ST: agot_run_event_debug [AGOT: Run Debug Event]
@@ -255,8 +255,8 @@
  debug_visible_disfigurement_3:0 "Distorted Mouth"
 ### TODO NOT-IN-ST: debug_visible_disfigurement_4 [AGOT: Damaged Left Side of Face]
  debug_visible_disfigurement_4:0 "Damaged Left Side of Face"
-### TODO NOT-IN-ST: debug_visible_disfigurement_5 [AGOT: Noseless]
- debug_visible_disfigurement_5:0 "Noseless"
+
+ debug_visible_disfigurement_5:0 "Burunsuz"
 ### TODO NOT-IN-ST: debug_remove_visible_disfigurement [AGOT: Remove Hidden Disfigurement Type]
  debug_remove_visible_disfigurement:0 "Remove Hidden Disfigurement Type"
 ### TODO NOT-IN-ST: agot_give_pirate_ship [AGOT: Spawn a Pirate Ship Domicile]

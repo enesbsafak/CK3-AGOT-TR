@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: hatch_dragon_egg_decision [AGOT: Hatch Dragon Egg]
  hatch_dragon_egg_decision:0 "Hatch Dragon Egg"
 ### TODO NOT-IN-ST: hatch_dragon_egg_decision_desc [AGOT: I will attempt to hatch my dragon egg.]
@@ -21,10 +21,10 @@
  agot_appoint_dragonkeeper_head_desc:0 "The position of Head Dragonkeeper has gone vacant. In order to preserve to maintain our [dragonpit|e], we should appoint a new one."
 ### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_dragonmount_desc [AGOT: The position of Head Dragonkeeper has gone vacant. In order to keep the Dragonmont guarded and maintained, we should appoint a new one.]
  agot_appoint_dragonkeeper_head_dragonmount_desc:0 "The position of Head Dragonkeeper has gone vacant. In order to keep the Dragonmont guarded and maintained, we should appoint a new one."
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_tooltip [AGOT: Appoint a new Head Dragonkeeper]
- agot_appoint_dragonkeeper_head_tooltip:0 "Appoint a new Head Dragonkeeper"
-### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_confirm [AGOT: Appoint a new Head Dragonkeeper]
- agot_appoint_dragonkeeper_head_confirm:0 "Appoint a new Head Dragonkeeper"
+
+ agot_appoint_dragonkeeper_head_tooltip:0 "Yeni Baş Ejderha Bakıcısı Atama"
+
+ agot_appoint_dragonkeeper_head_confirm:0 "Yeni Baş Ejderha Bakıcısı Atama"
 ### TODO NOT-IN-ST: tooltip_employ_dragonkeeper [AGOT: Must not currently employ a Head Dragonkeeper.]
  tooltip_employ_dragonkeeper:0 "Must not currently employ a Head Dragonkeeper."
 ### TODO NOT-IN-ST: agot_appoint_dragonkeeper_head_effect_tooltip [AGOT: A new Head Dragonkeeper will be generated based on your dragonpit amenity funding.]
@@ -35,8 +35,8 @@
  agot_restore_dragonstone_dragonkeepers_desc:0 "After many years of inactivity, the [GetBuilding('agot_dragonmont_01').GetName] once again requires an order of [dragonkeepers|e] to guard it."
 ### TODO NOT-IN-ST: agot_restore_dragonmont_dragonkeepers_effect_tooltip [AGOT: A new [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] and order of dragonkeepers will be established in [GetTitleByKey('c_dragonstone').GetNameNoTier].]
  agot_restore_dragonmont_dragonkeepers_effect_tooltip:0 "A new [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] and order of dragonkeepers will be established in [GetTitleByKey('c_dragonstone').GetNameNoTier]."
-### TODO NOT-IN-ST: conduct_terror_campaign [AGOT: Conduct Terror Campaign]
- conduct_terror_campaign:0 "Conduct Terror Campaign"
+
+ conduct_terror_campaign:0 "Terör Kampanyası Yürüt"
 ### TODO NOT-IN-ST: conduct_terror_campaign_desc [AGOT: As a rider of a great dragon, it is for me to decide how it is to be used in warfare. Though often their use has historically been restricted to enemy armies, there is nothing stopping me from using it to lay waste to my enemies civilian population.]
  conduct_terror_campaign_desc:0 "As a rider of a great dragon, it is for me to decide how it is to be used in warfare. Though often their use has historically been restricted to enemy armies, there is nothing stopping me from using it to lay waste to my enemies civilian population."
 ### TODO NOT-IN-ST: conduct_terror_campaign_effect [AGOT: You will begin a draconic terror campaign, damaging all provinces around you when you are at war.\n\n#X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!]
@@ -45,10 +45,10 @@
  conduct_terror_campaign_tooltip:0 "#X @warning_icon! Such wanton destruction will cause extreme anger in your enemies and more scrupulous allies both.#!"
 ### TODO NOT-IN-ST: conduct_terror_campaign_dragon_condition [AGOT: Your dragon has at least 100 [dragon_combat_effectiveness|E]]
  conduct_terror_campaign_dragon_condition:0 "Your dragon has at least 100 [dragon_combat_effectiveness|E]"
-### TODO NOT-IN-ST: conduct_terror_campaign_confirm [AGOT: Burn them all!]
- conduct_terror_campaign_confirm:0 "Burn them all!"
-### TODO NOT-IN-ST: stop_terror_campaign [AGOT: End Terror Campaign]
- stop_terror_campaign:0 "End Terror Campaign"
+
+ conduct_terror_campaign_confirm:0 "Hepsini yakın!"
+
+ stop_terror_campaign:0 "Terör Kampanyasını Bitir"
 ### TODO NOT-IN-ST: stop_terror_campaign_show_condition [AGOT: You are conducting a terror campaign]
  stop_terror_campaign_show_condition:0 "You are conducting a terror campaign"
 ### TODO NOT-IN-ST: stop_terror_campaign_desc [AGOT: I am currently conducting a draconic terror campaign. Any armies that myself of my dragon are in will be used as a staging base for devastation to rain upon the surrounding lands. Though doubtlessly effective, such tactics are against all convention of the honorable rules of war.]
@@ -61,10 +61,10 @@
  ride_dragon_decision:0 "Ride [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]"
 ### TODO NOT-IN-ST: ride_dragon_decision_desc [AGOT: It has been too long since [ROOT.Var('current_dragon').Char.GetFirstName] and I simply rode together. I long to feel the wind rush over me and the freedom of the open sky.]
  ride_dragon_decision_desc:0 "It has been too long since [ROOT.Var('current_dragon').Char.GetFirstName] and I simply rode together. I long to feel the wind rush over me and the freedom of the open sky."
-### TODO NOT-IN-ST: ride_dragon_decision_tooltip [AGOT: Ride your dragon]
- ride_dragon_decision_tooltip:0 "Ride your dragon"
-### TODO NOT-IN-ST: ride_dragon_decision_confirm [AGOT: Ride your dragon]
- ride_dragon_decision_confirm:0 "Ride your dragon"
+
+ ride_dragon_decision_tooltip:0 "Ejderhana bin"
+
+ ride_dragon_decision_confirm:0 "Ejderhana bin"
 ### TODO NOT-IN-ST: ride_dragon_effect_tooltip [AGOT: You will lose some [stress|E] and may increase your bond with your dragon.]
  ride_dragon_effect_tooltip:0 "You will lose some [stress|E] and may increase your bond with your dragon."
 ### TODO NOT-IN-ST: use_dragon_decision [AGOT: Use [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in War]
@@ -87,8 +87,8 @@
  dont_use_dragon_decision_confirm:0 "Don't use your dragon"
 ### TODO NOT-IN-ST: dont_use_dragon_decision_effect [AGOT: Your [dragon|E] will not join armies and you will fight without it]
  dont_use_dragon_decision_effect:0 "Your [dragon|E] will not join armies and you will fight without it"
-### TODO NOT-IN-ST: show_me_dragons_decision [AGOT: Show the Dragons]
- show_me_dragons_decision:0 "Show the Dragons"
+
+ show_me_dragons_decision:0 "Ejderhaları Göster"
 ### TODO NOT-IN-ST: show_me_dragons_decision_desc [AGOT: Bring to me the list of all known dragons.]
  show_me_dragons_decision_desc:0 "Bring to me the list of all known dragons."
 ### TODO NOT-IN-ST: show_me_dragons_decision_tooltip [AGOT: You will be presented with a list of all living dragons]

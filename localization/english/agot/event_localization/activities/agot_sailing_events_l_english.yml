@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_sailing.0800.t [AGOT: Arriving at Port]
  agot_sailing.0800.t:0 "Arriving at Port"
 ### TODO NOT-IN-ST: agot_sailing.0800.desc [AGOT: I stride across the walkways at the haven of [location.GetName], the fresh ocean air all around me. While the ship that will be used for my voyage is being prepared by the crew, my companions and I still have some time to spend at the harbor.\n\nI hear the cries of gulls above us and see the waves crashing against the quays below. The sea lies before me, and with it, the endless potential it offers. Soon we will be out there, on the open waters.]
@@ -137,8 +137,8 @@
  agot_sailing.1013.b:0 "Tell me, what is your usual fare? I'll double it!"
 ### TODO NOT-IN-ST: agot_sailing.1013.c [AGOT: We have enough sailors. We'll be fine.]
  agot_sailing.1013.c:0 "We have enough sailors. We'll be fine."
-### TODO NOT-IN-ST: agot_sailing.1014.t [AGOT: A Day at the Market]
- agot_sailing.1014.t:0 "A Day at the Market"
+
+ agot_sailing.1014.t:0 "Çarşıda Bir Gün"
 ### TODO NOT-IN-ST: agot_sailing.1014.desc [AGOT: As the ship is being loaded with supplies, I take the time to wander the local markets.\n\nMany merchants shout out, attempting to advertise their wares to me. There are truly exotic things here — foods I have never tasted and books in tongues I cannot comprehend. There is also a solid selection of alcohol. I know the crew would most definitely appreciate it if I came back with that!\n\nDoes anything here strike my fancy?]
  agot_sailing.1014.desc:0 "As the ship is being loaded with supplies, I take the time to wander the local markets.\n\nMany merchants shout out, attempting to advertise their wares to me. There are truly exotic things here — foods I have never tasted and books in tongues I cannot comprehend. There is also a solid selection of alcohol. I know the crew would most definitely appreciate it if I came back with that!\n\nDoes anything here strike my fancy?"
 ### TODO NOT-IN-ST: agot_sailing.1014.a [AGOT: That book looks interesting!]
@@ -227,7 +227,7 @@
  agot_sailing.2002.b.tt_failure:0 "You storm the boat, but get wounded in the chaos"
 ### TODO NOT-IN-ST: agot_sailing.2002.c [AGOT: Let's just sail on by.]
  agot_sailing.2002.c:0 "Let's just sail on by."
-### TODO NOT-IN-ST: agot_sailing.2003.t [AGOT: Leviathan]
+
  agot_sailing.2003.t:0 "Leviathan"
 ### TODO NOT-IN-ST: agot_sailing.2003.desc [AGOT: I breathe in deeply as I walk the length of the deck, the bracing sea wind and salty air in my face. Today is a fine day to sail!\n\nThe short voyage has been an exhilarating change of pace from life at court, when we spot it: a distant plume of water, followed by a small island of wine-dark flesh rolling out of the waves.\n\nOne of the greatest beasts of all the deeps.\n\nA whale!]
  agot_sailing.2003.desc:0 "I breathe in deeply as I walk the length of the deck, the bracing sea wind and salty air in my face. Today is a fine day to sail!\n\nThe short voyage has been an exhilarating change of pace from life at court, when we spot it: a distant plume of water, followed by a small island of wine-dark flesh rolling out of the waves.\n\nOne of the greatest beasts of all the deeps.\n\nA whale!"
@@ -381,8 +381,8 @@
  agot_sailing.2021.desc:0 "In the distance, another ship has been spotted! It appears to be on the verge of sinking, and after a brief discussion, [host.GetTitledFirstNameNicknamed] decides to try to rescue the foundering ship's crew.\n\nAs we approach the wreckage, there is a loud crash. The broken vessel's main mast plummets onto what remains of the deck, and to our shock, the entire ship is torn apart and swallowed up by hungry waves.\n\nOnly a scarce few of the crew can be rescued, the rest of the sailors following their ship into a watery grave!"
 ### TODO NOT-IN-ST: agot_sailing.2021.a [AGOT: Gods be good! What a disaster!]
  agot_sailing.2021.a:0 "Gods be good! What a disaster!"
-### TODO NOT-IN-ST: agot_sailing.2021.b [AGOT: The sea is a cruel mistress...]
- agot_sailing.2021.b:0 "The sea is a cruel mistress..."
+
+ agot_sailing.2021.b:0 "Deniz acımasız bir metres..."
 ### TODO NOT-IN-ST: agot_sailing.2022.t [AGOT: $agot_sailing.2002.t$: Storming the Ship]
  agot_sailing.2022.t:0 "$agot_sailing.2002.t$: Storming the Ship"
 ### TODO NOT-IN-ST: agot_sailing.2022.desc [AGOT: In the distance, another ship has been spotted! It appears to be on the verge of sinking, and after a brief discussion, [host.GetTitledFirstNameNicknamed] decides to loot the wreckage, slaying any survivors.\n\nI watch as our sailors make quick work of the exhausted crew, picking the wreckage apart for any spoils they might find. As they return, I see the smiles of successful men on their faces.]
@@ -403,8 +403,8 @@
  agot_sailing.2024.desc:0 "In the distance, another ship has been spotted! It appears to be on the verge of sinking, but after a brief discussion, [host.GetTitledFirstNameNicknamed] decides to avoid the wreckage.\n\nI watch as our ship passes by the foundering vessel, its crew crying out as they follow their ship into a watery grave."
 ### TODO NOT-IN-ST: agot_sailing.2024.a [AGOT: I hope our ship proves more sturdy than theirs.]
  agot_sailing.2024.a:0 "I hope our ship proves more sturdy than theirs."
-### TODO NOT-IN-ST: agot_sailing.2024.b [AGOT: The sea is a cruel mistress...]
- agot_sailing.2024.b:0 "The sea is a cruel mistress..."
+
+ agot_sailing.2024.b:0 "Deniz acımasız bir metres..."
 ### TODO NOT-IN-ST: agot_sailing.2024.c [AGOT: We could have claimed their spoils...]
  agot_sailing.2024.c:0 "We could have claimed their spoils..."
 ### TODO NOT-IN-ST: agot_sailing.2024.d [AGOT: [host.GetFirstNameNoTooltip] was right to pass by.]
@@ -559,8 +559,8 @@
  agot_sailing.2049.t:0 "$agot_sailing.2011.t$: Escape"
 ### TODO NOT-IN-ST: agot_sailing.2049.desc [AGOT: A short while after setting out from port, our ship becomes enveloped in a shroud of swiftly rising fog that seemingly comes out of nowhere. The sky is obscured, as is the ocean all around us. Soon, it becomes clear that something needs to be done.\n\n[host.GetTitledFirstNameNicknamed] decides to maintain course, hoping to escape the fog without losing our heading. And indeed, the gamble pays off as the fog begins to lift, returning the ship to its desired course.]
  agot_sailing.2049.desc:0 "A short while after setting out from port, our ship becomes enveloped in a shroud of swiftly rising fog that seemingly comes out of nowhere. The sky is obscured, as is the ocean all around us. Soon, it becomes clear that something needs to be done.\n\n[host.GetTitledFirstNameNicknamed] decides to maintain course, hoping to escape the fog without losing our heading. And indeed, the gamble pays off as the fog begins to lift, returning the ship to its desired course."
-### TODO NOT-IN-ST: agot_sailing.2049.a [AGOT: What luck!]
- agot_sailing.2049.a:0 "What luck!"
+
+ agot_sailing.2049.a:0 "Ne şans!"
 ### TODO NOT-IN-ST: agot_sailing.2050.t [AGOT: $agot_sailing.2011.t$: Lost]
  agot_sailing.2050.t:0 "$agot_sailing.2011.t$: Lost"
 ### TODO NOT-IN-ST: agot_sailing.2050.desc [AGOT: A short while after setting out from port, our ship becomes enveloped in a shroud of swiftly rising fog that seemingly comes out of nowhere. The sky is obscured, as is the ocean all around us. Soon, it becomes clear that something needs to be done.\n\n[host.GetTitledFirstNameNicknamed] decides to maintain course, hoping to escape the fog without losing our heading. But even after many hours of sailing, the fog appears to be unending...]
@@ -585,8 +585,8 @@
  agot_sailing.2100.desc:0 "The ocean wind gently caresses my hair as I stand at the very front of our ship, thoroughly enjoying the atmosphere. #Italic This is why I came on this voyage#!! I think to myself. I have seldom felt so... relaxed.\n\nI close my eyes for a moment and let my thoughts wander, focusing only on the sound of the crashing waves, the gentle swaying of the boards beneath my feet, and the faint cries of the gulls from the nearby shores. Yes. This... this is it."
 ### TODO NOT-IN-ST: agot_sailing.2100.a [AGOT: I feel my stress getting swept away...]
  agot_sailing.2100.a:0 "I feel my stress getting swept away..."
-### TODO NOT-IN-ST: agot_sailing.2101.t [AGOT: A Moment to Talk]
- agot_sailing.2101.t:0 "A Moment to Talk"
+
+ agot_sailing.2101.t:0 "Konuşmak İçin Bir An"
 ### TODO NOT-IN-ST: agot_sailing.2101.opening [AGOT: As our vessel passes by a large town with a significant lighthouse in the distance, most passengers admire the view. [woo_target.GetFirstName] reclines nearby: now is the ideal moment for a casual conversation.]
  agot_sailing.2101.opening:0 "As our vessel passes by a large town with a significant lighthouse in the distance, most passengers admire the view. [woo_target.GetFirstName] reclines nearby: now is the ideal moment for a casual conversation."
 ### TODO NOT-IN-ST: agot_sailing.2101.married [AGOT: I move while [woo_target.GetHerHis] [woo_target.GetPrimarySpouse.GetWifeHusband], [woo_target.GetPrimarySpouse.GetTitledFirstName], is distracted.]
@@ -595,7 +595,7 @@
  agot_sailing.2101.married_absent:0 "[woo_target.GetHerHis|U] [woo_target.GetPrimarySpouse.GetWifeHusband], [woo_target.GetPrimarySpouse.GetTitledFirstName], is far away..."
 ### TODO NOT-IN-ST: agot_sailing.2101.currentspouse [AGOT: Perhaps today I will win over my [woo_target.GetWomanMan]!]
  agot_sailing.2101.currentspouse:0 "Perhaps today I will win over my [woo_target.GetWomanMan]!"
-### TODO NOT-IN-ST: agot_sailing.2101.desc [AGOT: \n\n]
+
  agot_sailing.2101.desc:0 "\n\n"Ah [woo_target.GetTitledFirstName], it's a rare chance to chat in the enclosure of a seaborne ship. I hope you're finding some enjoyment on this marvelous voyage," I say in a relaxed tone.\n\nI'm quite convinced that [woo_target.GetHerHis] smile carries more than mere politeness."
 ### TODO NOT-IN-ST: agot_sailing.2101.a [AGOT: There is nothing better than sailing the open waters!]
  agot_sailing.2101.a:0 "There is nothing better than sailing the open waters!"
@@ -733,9 +733,9 @@
  agot_sailing.2203.desc:0 "I make my move as quickly as I can, stepping next to the bed in which [murder_target.GetTitledFirstName] is sleeping. Just as I draw my dagger, I see [murder_target.GetHerHim] stir."
 ### TODO NOT-IN-ST: agot_sailing.2203.agent [AGOT: I don't want to let [abduct_schemer.GetFirstName] down...]
  agot_sailing.2203.agent:0 "I don't want to let [abduct_schemer.GetFirstName] down..."
-### TODO NOT-IN-ST: agot_sailing.2203.success [AGOT: \n\n]
+
  agot_sailing.2203.success:0 "\n\n"[ROOT.Char.GetFirstNameNoTooltip]?! What are y—" [murder_target.GetFirstNameNoTooltip] slumps back onto the bed, as my dagger pierces deep into [murder_target.GetHerHis] heart.\n\nThe deed is done before [murder_target.GetSheHe] can even finish [murder_target.GetHerHis] final words, and I quickly look to cover my tracks, tossing the body overboard through the cabin's single window."
-### TODO NOT-IN-ST: agot_sailing.2203.failure [AGOT: \n\n]
+
  agot_sailing.2203.failure:0 "\n\n"[ROOT.Char.GetFirstNameNoTooltip]?! You fiend!" [murder_target.GetFirstNameNoTooltip] somehow manages to roll out of the way as my dagger jolts forward. Then, [murder_target.GetFirstNameNoTooltip] scrambles to [murder_target.GetHerHis] feet.\n\nBut [murder_target.GetSheHe] dashes out of the cabin's door as I try to regain my balance, looking over [murder_target.GetHerHis] shoulder fearfully, shouting at the top of [murder_target.GetHerHis] lungs. I won't catch [murder_target.GetHerHim] in time..."
 ### TODO NOT-IN-ST: agot_sailing.2203.a [AGOT: I should get back on deck before anyone grows suspicious...]
  agot_sailing.2203.a:0 "I should get back on deck before anyone grows suspicious..."
@@ -755,8 +755,8 @@
  agot_sailing.2204.b:0 "Just keep running!"
 ### TODO NOT-IN-ST: sailing_ends_tt [AGOT: The [GetActivityType('activity_agot_sailing').GetName] ends]
  sailing_ends_tt:2 "The [GetActivityType('activity_agot_sailing').GetName] ends"
-### TODO NOT-IN-ST: agot_sailing.2301.t [AGOT: A Moment to Talk]
- agot_sailing.2301.t:1 "A Moment to Talk"
+
+ agot_sailing.2301.t:0 "Konuşmak İçin Bir An"
 ### TODO NOT-IN-ST: agot_sailing.2301.desc [AGOT: The sun shines brightly as our ship sails swiftly across the open waters, making good pace. [befriend_target.GetFirstName] stands not far off, admiring the view: this is my chance to impress [befriend_target.GetHerHim].\n\n]
  agot_sailing.2301.desc:0 "The sun shines brightly as our ship sails swiftly across the open waters, making good pace. [befriend_target.GetFirstName] stands not far off, admiring the view: this is my chance to impress [befriend_target.GetHerHim].\n\n"[befriend_target.GetTitledFirstNameNoTooltip]! How are you? It's not often we get a chance to talk." I open informally.\n\n[befriend_target.GetSheHe|U] seems surprised by my conversation, but not hostile to the idea."
 ### TODO NOT-IN-ST: agot_sailing.2302.reply_sailor [AGOT: ]
@@ -909,8 +909,8 @@
  agot_sailing.3202.t:0 "A Tasty Snack"
 ### TODO NOT-IN-ST: agot_sailing.3202.desc [AGOT: The monstrous kraken easily shrugs off the arrows my crew desperately arrayed against it, snatching up crew members left and right!\n\nBefore long it comes for me. I dodge once, then twice, then... nothing.]
  agot_sailing.3202.desc:0 "The monstrous kraken easily shrugs off the arrows my crew desperately arrayed against it, snatching up crew members left and right!\n\nBefore long it comes for me. I dodge once, then twice, then... nothing."
-### TODO NOT-IN-ST: agot_sailing.3202.a [AGOT: No... not like this!]
- agot_sailing.3202.a:0 "No... not like this!"
+
+ agot_sailing.3202.a:0 "Hayır... böyle değil!"
 ### TODO NOT-IN-ST: agot_sailing.3202.a.success.tt [AGOT: You somehow manage to escape with your life intact.]
  agot_sailing.3202.a.success.tt:0 "You somehow manage to escape with your life intact."
 ### TODO NOT-IN-ST: agot_sailing.3202.a.failure.tt [AGOT: @death_icon! You are swallowed whole, never to be seen again.]
@@ -973,8 +973,8 @@
  agot_sailing.3304.a:0 "Cowards! Traitors!"
 ### TODO NOT-IN-ST: agot_sailing.3305.desc [AGOT: We have long been at sea, and strong headwinds have meant our progress is little and less than we'd have hoped. What's worse, provisions are running dangerously low...\n\n[host.GetTitledFirstNameNicknamed] has attempted to convince the crew to enforce harsh rations, but it is too little, too late. The last of the supplies are gone, and soon we will be, as well.]
  agot_sailing.3305.desc:0 "We have long been at sea, and strong headwinds have meant our progress is little and less than we'd have hoped. What's worse, provisions are running dangerously low...\n\n[host.GetTitledFirstNameNicknamed] has attempted to convince the crew to enforce harsh rations, but it is too little, too late. The last of the supplies are gone, and soon we will be, as well."
-### TODO NOT-IN-ST: agot_sailing.3305.a [AGOT: Please, just a bite...]
- agot_sailing.3305.a:0 "Please, just a bite..."
+
+ agot_sailing.3305.a:0 "Lütfen, sadece bir ısırık..."
 ### TODO NOT-IN-ST: agot_sailing.3306.t [AGOT: Chum on the Water]
  agot_sailing.3306.t:0 "Chum on the Water"
 ### TODO NOT-IN-ST: agot_sailing.3306.desc [AGOT: The voyage has gone terribly awry, and our supplies have dwindled to scraps... Some on the ship have even resorted to gnawing the frayed ends of rope after attempts to catch a rat failed.\n\n[man_meat.GetTitledFirstName] has been whinging incessantly about [man_meat.GetHerHis] hunger pangs, as though the rest of us do not feel the same pain. It's enough to drive a [ROOT.Char.GetWomanMan] #emp mad!#!\n\n[man_meat.GetHerHis|U] complaining has sapped all [man_meat.GetHerHis] energy, it seems, and [man_meat.GetSheHe] has passed out, sprawled across the deck. I can't help but notice how... tender [man_meat.GetHerHis] scrawny legs look. #emp Ah, a taste of flesh... Surely this is what I need to reinvigorate my spirit!#!]
@@ -1015,8 +1015,8 @@
  agot_sailing.3400.b.failure.tt:0 "You threats are unable to terrify your crew enough to get past their doubts"
 ### TODO NOT-IN-ST: agot_sailing.3400.c [AGOT: I can feel the cold in my bones... we need to go back.]
  agot_sailing.3400.c:0 "I can feel the cold in my bones... we need to go back."
-### TODO NOT-IN-ST: agot_sailing.3400.c.tt [AGOT: You make your way back to port]
- agot_sailing.3400.c.tt:0 "You make your way back to port"
+
+ agot_sailing.3400.c.tt:0 "Limana geri dönüyorsun"
 ### TODO NOT-IN-ST: agot_sailing.3401.t [AGOT: The Madness Fades]
  agot_sailing.3401.t:0 "The Madness Fades"
 ### TODO NOT-IN-ST: agot_sailing.3401.desc [AGOT: My words cut through the fever-dream that has gripped my crew. I see it happen — the wild light fading from their eyes, replaced by something steadier. Reason returning like the tide.\n\nOne by one, the crew returns to their senses. [first_mate.GetFirstName] joins me, clear-eyed for the journey ahead. We turn our bow east once more, toward those distant, cursed waters.\n\nThe crew works in silence, but it's no longer the silence of terror. It's the silence of men who have stared into the abyss and chosen to sail forward anyway.]
@@ -1045,8 +1045,8 @@
  agot_sailing.3500.a.failure.tt:0 "@death_icon! The storm proves too much for you to handle, and you are lost to the waves"
 ### TODO NOT-IN-ST: agot_sailing.3500.b [AGOT: This is madness! We must turn back!]
  agot_sailing.3500.b:0 "This is madness! We must turn back!"
-### TODO NOT-IN-ST: agot_sailing.3500.b.tt [AGOT: You make your way back to port]
- agot_sailing.3500.b.tt:0 "You make your way back to port"
+
+ agot_sailing.3500.b.tt:0 "Limana geri dönüyorsun"
 ### TODO NOT-IN-ST: agot_sailing.3501.t [AGOT: Riding the Tempest]
  agot_sailing.3501.t:0 "Riding the Tempest"
 ### TODO NOT-IN-ST: agot_sailing.3501.desc [AGOT: I grapple with the ship's wheel, pulling it over the crest of another fierce wave. Thunder cracks, and lightning pierces the dark.\n\nI bark orders and commands to adjust the rigging again, sailors furiously working to execute my commands. My ship is battered and bruised, but I refuse to give up.\n\nAt last, however, the winds begin to calm, and the waves fall. The tempest subsides, and when the sun first peeks through the clouds, I can scarcely imagine a more beautiful sight. I have endured a storm without peer, mastering all tides before me.\n\nAnd in the distance... could it be?]
@@ -1057,12 +1057,12 @@
  agot_sailing.3502.t:0 "A Watery Grave"
 ### TODO NOT-IN-ST: agot_sailing.3502.desc [AGOT: I desperately try to grapple with the storm, barking orders to my men. But this is no mere storm.\n\nI hear a loud crack as the main mast of the ship, long battered by the winds, can take no more, tumbling down on the main deck. The ship begins to fall apart, and the fierce waves sweep me into the deep.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness.]
  agot_sailing.3502.desc:0 "I desperately try to grapple with the storm, barking orders to my men. But this is no mere storm.\n\nI hear a loud crack as the main mast of the ship, long battered by the winds, can take no more, tumbling down on the main deck. The ship begins to fall apart, and the fierce waves sweep me into the deep.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness."
-### TODO NOT-IN-ST: agot_sailing.3502.a [AGOT: N-ngh...]
- agot_sailing.3502.a:0 "N-ngh..."
+
+ agot_sailing.3502.a:0 "N-gh..."
 ### TODO NOT-IN-ST: agot_sailing.3503.desc [AGOT: I hear [host.GetFirstName] trying to command the men to keep going. But this is no mere storm.\n\nI hear a loud crack as the main mast of the ship, long battered by the winds, can take no more, tumbling down on the main deck. The ship begins to fall apart, and the fierce waves sweep me into the deep.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness.]
  agot_sailing.3503.desc:0 "I hear [host.GetFirstName] trying to command the men to keep going. But this is no mere storm.\n\nI hear a loud crack as the main mast of the ship, long battered by the winds, can take no more, tumbling down on the main deck. The ship begins to fall apart, and the fierce waves sweep me into the deep.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness."
-### TODO NOT-IN-ST: agot_sailing.3900.t [AGOT: The Fourteen Flames]
- agot_sailing.3900.t:0 "The Fourteen Flames"
+
+ agot_sailing.3900.t:0 "On Dört Alev"
 ### TODO NOT-IN-ST: agot_sailing.3900.desc [AGOT: A wild grin breaks upon my face as I spot the broken islands at last, a slightly hysterical laugh bubbling free. We've done it. The struggles were great, and many doubted it was even possible — but we did it. This must assuredly be what remains of the Fourteen Flames of Valyria.\n\nAs we get close, though, I furrow my brow in thought. Do we attempt to land?\n\nOn all sides, sheer cliff faces appear to prevent any easy landing — and smoke rises all around, from water and rock alike. To land upon it is to risk calling doom on ourselves — just like the doom that befell the dragonlords of old.\n\nI have a choice now — to land, or to merely admire it from afar?]
  agot_sailing.3900.desc:0 "A wild grin breaks upon my face as I spot the broken islands at last, a slightly hysterical laugh bubbling free. We've done it. The struggles were great, and many doubted it was even possible — but we did it. This must assuredly be what remains of the Fourteen Flames of Valyria.\n\nAs we get close, though, I furrow my brow in thought. Do we attempt to land?\n\nOn all sides, sheer cliff faces appear to prevent any easy landing — and smoke rises all around, from water and rock alike. To land upon it is to risk calling doom on ourselves — just like the doom that befell the dragonlords of old.\n\nI have a choice now — to land, or to merely admire it from afar?"
 ### TODO NOT-IN-ST: agot_sailing.3900.a [AGOT: It's not worth the risk, merely coming here is worthy of song!]
@@ -1189,8 +1189,8 @@
  agot_sailing.3925.t:0 "$agot_sailing.3200.t$"
 ### TODO NOT-IN-ST: agot_sailing.3925.desc [AGOT: $agot_sailing_kraken_spawn$\n\n[host.GetTitledFirstNameNicknamed] calls the attack, and we nock our bows. But the beast easily shrugs off the arrows. The beast is upon us, plucking crewmates from the deck like lemon cakes from a tray.\n\nA tentacle wraps around my hand with an unfathomable strength, crushing my fingers with a sickening crack. The ruin of my hand is trapped in the monster's grip as it lifts me toward its mouth...]
  agot_sailing.3925.desc:0 "$agot_sailing_kraken_spawn$\n\n[host.GetTitledFirstNameNicknamed] calls the attack, and we nock our bows. But the beast easily shrugs off the arrows. The beast is upon us, plucking crewmates from the deck like lemon cakes from a tray.\n\nA tentacle wraps around my hand with an unfathomable strength, crushing my fingers with a sickening crack. The ruin of my hand is trapped in the monster's grip as it lifts me toward its mouth..."
-### TODO NOT-IN-ST: agot_sailing.3925.a [AGOT: No... not like this!]
- agot_sailing.3925.a:0 "No... not like this!"
+
+ agot_sailing.3925.a:0 "Hayır... böyle değil!"
 ### TODO NOT-IN-ST: agot_sailing.3925.a.success.tt [AGOT: You somehow manage to escape with your life intact]
  agot_sailing.3925.a.success.tt:0 "You somehow manage to escape with your life intact"
 ### TODO NOT-IN-ST: agot_sailing.3925.a.failure.tt [AGOT: @death_icon! You are swallowed whole, never to be seen again]
@@ -1213,8 +1213,8 @@
  agot_sailing.3927.t:0 "$agot_sailing.3300.t$"
 ### TODO NOT-IN-ST: agot_sailing.3927.desc [AGOT: We have long been at sea, and strong headwinds have meant our progress is little and less than we had hoped. What's worse, provisions are running dangerously low...\n\n[host.GetTitledFirstNameNicknamed] has attempted to implement strict rations, but [host.GetHerHis] calculations seem to be off... Around us, nothing but sea. On board, no food — only our slow cries as the hunger pangs consume us.]
  agot_sailing.3927.desc:0 "We have long been at sea, and strong headwinds have meant our progress is little and less than we had hoped. What's worse, provisions are running dangerously low...\n\n[host.GetTitledFirstNameNicknamed] has attempted to implement strict rations, but [host.GetHerHis] calculations seem to be off... Around us, nothing but sea. On board, no food — only our slow cries as the hunger pangs consume us."
-### TODO NOT-IN-ST: agot_sailing.3927.a [AGOT: Please, just a bite...]
- agot_sailing.3927.a:0 "Please, just a bite..."
+
+ agot_sailing.3927.a:0 "Lütfen, sadece bir ısırık..."
 ### TODO NOT-IN-ST: agot_sailing.3928.t [AGOT: $agot_sailing.3300.t$]
  agot_sailing.3928.t:0 "$agot_sailing.3300.t$"
 ### TODO NOT-IN-ST: agot_sailing.3928.desc [AGOT: We have long been at sea, and strong headwinds have meant our progress is little and less than we had hoped. What's worse, provisions are running dangerously low...\n\n[host.GetTitledFirstNameNicknamed] overheard the crew's protests, but dealt with the loudest among us harshly. Morale has taken a hit, and the sound of rumbling bellies has become commonplace — but at least we live for the journey ahead.]
@@ -1249,8 +1249,8 @@
  agot_sailing.3933.t:0 "$agot_sailing.3502.t$"
 ### TODO NOT-IN-ST: agot_sailing.3933.desc [AGOT: Good winds, calm waves, and clear skies have been a welcome sight as we near where lost Valyria lies. But that all changes in an instant.\n\nA towering thundercloud rolls toward our ship, followed by another, and another, and another. Their formation almost seems pointed at our position. #EMP A sword of storms#!, it seems!\n\n[host.GetTitledFirstNameNicknamed] jumps forth, barking orders through cracks of thunder and a torrential downpour. But the orders cannot keep up with the strength of the tempest around us.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness.]
  agot_sailing.3933.desc:0 "Good winds, calm waves, and clear skies have been a welcome sight as we near where lost Valyria lies. But that all changes in an instant.\n\nA towering thundercloud rolls toward our ship, followed by another, and another, and another. Their formation almost seems pointed at our position. #EMP A sword of storms#!, it seems!\n\n[host.GetTitledFirstNameNicknamed] jumps forth, barking orders through cracks of thunder and a torrential downpour. But the orders cannot keep up with the strength of the tempest around us.\n\nThe last thing I hear is the all-consuming rumbling of the tumultuous waters all around me...\n\nAnd then there is darkness."
-### TODO NOT-IN-ST: agot_sailing.3933.a [AGOT: N-ngh...]
- agot_sailing.3933.a:0 "N-ngh..."
+
+ agot_sailing.3933.a:0 "N-gh..."
 ### TODO NOT-IN-ST: agot_sailing.3934.t [AGOT: $agot_sailing.3900.t$]
  agot_sailing.3934.t:0 "$agot_sailing.3900.t$"
 ### TODO NOT-IN-ST: agot_sailing.3934.desc [AGOT: A wild grin breaks upon [host.GetHerHis] face as [host.GetTitledFirstNameNicknamed] spots the broken islands at last, a slightly hysterical laugh bubbling free. We've done it. The struggles were great, and many doubted it was even possible — but we did it. This must assuredly be what remains of the Fourteen Flames of Valyria.\n\nAs we get close, though, a question is murmured... do we attempt to land?\n\nOn all sides, sheer cliff faces appear to prevent any easy landing — and smoke rises all around, from water and rock alike. To land upon it is to risk calling doom on ourselves — just like the doom that befell the dragonlords of old.]
@@ -1295,62 +1295,62 @@
  agot_sailing.5500.a.tt:0 "You will look for a #high sea creature#! to hunt"
 ### TODO NOT-IN-ST: agot_sailing.5501.t [AGOT: Prey Sighted]
  agot_sailing.5501.t:0 "Prey Sighted"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.a [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.a:0 "It does not take long for a call to go out. "Turtle sighted, captain!"\n\nSwimming lazily next to our vessel, a large green #high sea turtle#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.a:0 "Çağrının duyulması uzun sürmez. "Turtle sighted, captain!"\n\nSwimming lazily next to our vessel, a large green #high sea turtle#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.a [AGOT: This should be easy...]
  agot_sailing.5501.a:0 "This should be easy..."
 ### TODO NOT-IN-ST: agot_sailing.5501.a.tt [AGOT: You decide to hunt the #high sea turtle#!]
  agot_sailing.5501.a.tt:0 "You decide to hunt the #high sea turtle#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.b [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.b:0 "It does not take long for a call to go out. "Seal sighted, captain!"\n\nSwimming lazily next to our vessel, a rotund grey #high seal#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.b:0 "Çağrının duyulması uzun sürmez. "Seal sighted, captain!"\n\nSwimming lazily next to our vessel, a rotund grey #high seal#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.b [AGOT: Go get that seal!]
  agot_sailing.5501.b:0 "Go get that seal!"
 ### TODO NOT-IN-ST: agot_sailing.5501.b.tt [AGOT: You decide to hunt the #high seal#!]
  agot_sailing.5501.b.tt:0 "You decide to hunt the #high seal#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.c [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.c:0 "It does not take long for a call to go out. "Dolphin sighted, captain!"\n\nSwimming excitedly next to our vessel, a slender #high white dolphin#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.c:0 "Çağrının duyulması uzun sürmez. "Dolphin sighted, captain!"\n\nSwimming excitedly next to our vessel, a slender #high white dolphin#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.c [AGOT: Let's hunt the dolphin.]
  agot_sailing.5501.c:0 "Let's hunt the dolphin."
 ### TODO NOT-IN-ST: agot_sailing.5501.c.tt [AGOT: You decide to hunt the #high white dolphin#!]
  agot_sailing.5501.c.tt:0 "You decide to hunt the #high white dolphin#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.d [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.d:0 "It does not take long for a call to go out. "Walrus sighted, captain!"\n\nLounging lazily on a rocky islet near our vessel, a massive #high walrus#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.d:0 "Çağrının duyulması uzun sürmez. "Walrus sighted, captain!"\n\nLounging lazily on a rocky islet near our vessel, a massive #high walrus#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.d [AGOT: Its tusks will fetch a good price!]
  agot_sailing.5501.d:0 "Its tusks will fetch a good price!"
 ### TODO NOT-IN-ST: agot_sailing.5501.d.tt [AGOT: You decide to hunt the #high walrus#!]
  agot_sailing.5501.d.tt:0 "You decide to hunt the #high walrus#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.e [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.e:0 "It does not take long for a call to go out. "Orca sighted, captain!"\n\nSwimming speedily next to our vessel, an imposing #high orca#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.e:0 "Çağrının duyulması uzun sürmez. "Orca sighted, captain!"\n\nSwimming speedily next to our vessel, an imposing #high orca#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.e [AGOT: Bring me my harpoon!]
  agot_sailing.5501.e:0 "Bring me my harpoon!"
 ### TODO NOT-IN-ST: agot_sailing.5501.e.tt [AGOT: You decide to hunt the #high orca#!]
  agot_sailing.5501.e.tt:0 "You decide to hunt the #high orca#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.f [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.f:0 "It does not take long for a call to go out. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a fully grown #high humpback whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.f:0 "Çağrının duyulması uzun sürmez. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a fully grown #high humpback whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.f [AGOT: Time to hunt, men!]
  agot_sailing.5501.f:0 "Time to hunt, men!"
 ### TODO NOT-IN-ST: agot_sailing.5501.f.tt [AGOT: You decide to hunt the #high humpback whale#!]
  agot_sailing.5501.f.tt:0 "You decide to hunt the #high humpback whale#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.g [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.g:0 "It does not take long for a call to go out. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a fully grown #high sperm whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.g:0 "Çağrının duyulması uzun sürmez. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a fully grown #high sperm whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.g [AGOT: This will be worth a fortune!]
  agot_sailing.5501.g:0 "This will be worth a fortune!"
 ### TODO NOT-IN-ST: agot_sailing.5501.g.tt [AGOT: You decide to hunt the #high sperm whale#!]
  agot_sailing.5501.g.tt:0 "You decide to hunt the #high sperm whale#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.h [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.h:0 "It does not take long for a call to go out. "Whale straight ahead, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a massive #high blue whale#!, a true leviathan. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
+
+ agot_sailing.5501.desc.h:0 "Çağrının duyulması uzun sürmez. "Whale straight ahead, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. It is a massive #high blue whale#!, a true leviathan. "Do we go for it, captain?" [first_mate.GetFirstName] asks."
 ### TODO NOT-IN-ST: agot_sailing.5501.h [AGOT: A big one! Let's get him!]
  agot_sailing.5501.h:0 "A big one! Let's get him!"
 ### TODO NOT-IN-ST: agot_sailing.5501.h.tt [AGOT: You decide to hunt the #high blue whale#!]
  agot_sailing.5501.h.tt:0 "You decide to hunt the #high blue whale#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.i [AGOT: After a few hours of sailing, I am startled by cries of fear and shock.]
- agot_sailing.5501.desc.i:0 "After a few hours of sailing, I am startled by cries of fear and shock. "Kraken! Kraken!" the men shout, some already running in fear.\n\nIt seems that our prey has found us instead of us finding it. The water behind our ship churns, soon revealing the scaled head of a fully grown #high kraken#!, tentacles thrashing violently around it.\n\n[first_mate.GetFirstName] runs up to me. "What's it going to be, captain? Do we fight? Or attempt to escape?""
+
+ agot_sailing.5501.desc.i:0 "Birkaç saatlik deniz yolculuğunun ardından korku ve dehşet çığlıklarıyla irkiliyorum. "Kraken! Kraken!" the men shout, some already running in fear.\n\nIt seems that our prey has found us instead of us finding it. The water behind our ship churns, soon revealing the scaled head of a fully grown #high kraken#!, tentacles thrashing violently around it.\n\n[first_mate.GetFirstName] runs up to me. "What's it going to be, captain? Do we fight? Or attempt to escape?""
 ### TODO NOT-IN-ST: agot_sailing.5501.i [AGOT: I will not run! Get ready for a fight, men!]
  agot_sailing.5501.i:0 "I will not run! Get ready for a fight, men!"
 ### TODO NOT-IN-ST: agot_sailing.5501.i.tt [AGOT: You decide to hunt the #high kraken#!]
  agot_sailing.5501.i.tt:0 "You decide to hunt the #high kraken#!"
-### TODO NOT-IN-ST: agot_sailing.5501.desc.j [AGOT: It does not take long for a call to go out.]
- agot_sailing.5501.desc.j:0 "It does not take long for a call to go out. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. The ship is rocked by a powerful blow, knocking us to our feet. As I struggle to get up, [first_mate.GetFirstName] crawls up to me, face as white as a sheet.\n\n"I—it's the White Dread, captain!" [first_mate.GetSheHe] stammers. I've heard the tales: a white whale of sheer cunning and malice that is said to haunt the waters of the Shivering Sea. It has sunk many ships, and now... it has found us."
+
+ agot_sailing.5501.desc.j:0 "Çağrının duyulması uzun sürmez. "Whale at starboard, captain!"\n\nJust then, a massive eruption of water is blown into the air and the whale's large form bursts through the waves. The ship is rocked by a powerful blow, knocking us to our feet. As I struggle to get up, [first_mate.GetFirstName] crawls up to me, face as white as a sheet.\n\n"I—it's the White Dread, captain!" [first_mate.GetSheHe] stammers. I've heard the tales: a white whale of sheer cunning and malice that is said to haunt the waters of the Shivering Sea. It has sunk many ships, and now... it has found us."
 ### TODO NOT-IN-ST: agot_sailing.5501.desc.k [AGOT: For a long time, the sea remains silent, as if the ocean itself was holding its breath in anticipation. I am restless; pacing up and down near the ship's helm. Then, at last, the lookout calls out.]
  agot_sailing.5501.desc.k:0 "For a long time, the sea remains silent, as if the ocean itself was holding its breath in anticipation. I am restless; pacing up and down near the ship's helm. Then, at last, the lookout calls out. "Whale sighted!"\n\nI rush forward, and my eyes widen in disbelief. It has found us. The White Dread approaches rapidly, plowing through the waves on a direct collision course with our ship.\n\nI close my eyes for a split second before grabbing my harpoon. "Get ready for a fight, men!" I yell, as the white whale dives and begins its vicious attack."
 ### TODO NOT-IN-ST: agot_sailing.5501.reroll [AGOT: \n\nUnfortunately it has gotten too late in the day to continue searching for new prey, so this will have to do]
@@ -1375,64 +1375,64 @@
  agot_sailing.5502.t:0 "Hunting a Sea Turtle"
 ### TODO NOT-IN-ST: agot_sailing.5502.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the sea turtle swimming beside the ship.\n\n]
  agot_sailing.5502.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the sea turtle swimming beside the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5502.a [AGOT: Ready, aim, and...]
- agot_sailing.5502.a:0 "Ready, aim, and..."
+
+ agot_sailing.5502.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5502.a.success [AGOT: You slay the sea turtle]
  agot_sailing.5502.a.success:0 "You slay the sea turtle"
 ### TODO NOT-IN-ST: agot_sailing.5503.t [AGOT: Hunting a Seal]
  agot_sailing.5503.t:0 "Hunting a Seal"
 ### TODO NOT-IN-ST: agot_sailing.5503.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the gray seal swimming beside the ship.\n\n]
  agot_sailing.5503.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the gray seal swimming beside the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5503.a [AGOT: Ready, aim, and...]
- agot_sailing.5503.a:0 "Ready, aim, and..."
+
+ agot_sailing.5503.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5503.a.success [AGOT: You slay the seal]
  agot_sailing.5503.a.success:0 "You slay the seal"
 ### TODO NOT-IN-ST: agot_sailing.5504.t [AGOT: Hunting a Dolphin]
  agot_sailing.5504.t:0 "Hunting a Dolphin"
 ### TODO NOT-IN-ST: agot_sailing.5504.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the slender dolphin swimming beside the ship.\n\n]
  agot_sailing.5504.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the slender dolphin swimming beside the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5504.a [AGOT: Ready, aim, and...]
- agot_sailing.5504.a:0 "Ready, aim, and..."
+
+ agot_sailing.5504.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5504.a.success [AGOT: You slay the dolphin]
  agot_sailing.5504.a.success:0 "You slay the dolphin"
 ### TODO NOT-IN-ST: agot_sailing.5505.t [AGOT: Hunting a Walrus]
  agot_sailing.5505.t:0 "Hunting a Walrus"
 ### TODO NOT-IN-ST: agot_sailing.5505.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the large walrus lounging on a nearby islet.\n\n]
  agot_sailing.5505.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the large walrus lounging on a nearby islet.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5505.a [AGOT: Ready, aim, and...]
- agot_sailing.5505.a:0 "Ready, aim, and..."
+
+ agot_sailing.5505.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5505.a.success [AGOT: You slay the walrus]
  agot_sailing.5505.a.success:0 "You slay the walrus"
 ### TODO NOT-IN-ST: agot_sailing.5506.t [AGOT: Hunting an Orca]
  agot_sailing.5506.t:0 "Hunting an Orca"
 ### TODO NOT-IN-ST: agot_sailing.5506.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the fearsome orca prowling the waters near the ship.\n\n]
  agot_sailing.5506.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the fearsome orca prowling the waters near the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5506.a [AGOT: Ready, aim, and...]
- agot_sailing.5506.a:0 "Ready, aim, and..."
+
+ agot_sailing.5506.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5506.a.success [AGOT: You slay the orca]
  agot_sailing.5506.a.success:0 "You slay the orca"
 ### TODO NOT-IN-ST: agot_sailing.5507.t [AGOT: Hunting a Humpback Whale]
  agot_sailing.5507.t:0 "Hunting a Humpback Whale"
 ### TODO NOT-IN-ST: agot_sailing.5507.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the gray humpback whale plowing through the waters near the ship.\n\n]
  agot_sailing.5507.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the gray humpback whale plowing through the waters near the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5507.a [AGOT: Ready, aim, and...]
- agot_sailing.5507.a:0 "Ready, aim, and..."
+
+ agot_sailing.5507.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5507.a.success [AGOT: You slay the humpback whale]
  agot_sailing.5507.a.success:0 "You slay the humpback whale"
 ### TODO NOT-IN-ST: agot_sailing.5508.t [AGOT: Hunting a Sperm Whale]
  agot_sailing.5508.t:0 "Hunting a Sperm Whale"
 ### TODO NOT-IN-ST: agot_sailing.5508.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the mighty black sperm whale crashing through the water's surface near the ship.\n\n]
  agot_sailing.5508.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the mighty black sperm whale crashing through the water's surface near the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5508.a [AGOT: Ready, aim, and...]
- agot_sailing.5508.a:0 "Ready, aim, and..."
+
+ agot_sailing.5508.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5508.a.success [AGOT: You slay the sperm whale]
  agot_sailing.5508.a.success:0 "You slay the sperm whale"
 ### TODO NOT-IN-ST: agot_sailing.5509.t [AGOT: Hunting a Blue Whale]
  agot_sailing.5509.t:0 "Hunting a Blue Whale"
 ### TODO NOT-IN-ST: agot_sailing.5509.desc [AGOT: I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the majestic blue whale swimming just beneath the ocean's surface near the ship.\n\n]
  agot_sailing.5509.desc:0 "I stand on the deck, harpoon in hand. The crew watches me in anticipation as I take aim at the majestic blue whale swimming just beneath the ocean's surface near the ship.\n\n"Steady now," I think to myself, tightening my grip on the weapon's shaft."
-### TODO NOT-IN-ST: agot_sailing.5509.a [AGOT: Ready, aim, and...]
- agot_sailing.5509.a:0 "Ready, aim, and..."
+
+ agot_sailing.5509.a:0 "Hazır, nişan al ve..."
 ### TODO NOT-IN-ST: agot_sailing.5509.a.success [AGOT: You slay the blue whale]
  agot_sailing.5509.a.success:0 "You slay the blue whale"
 ### TODO NOT-IN-ST: agot_sailing.5510.t [AGOT: Hunting a Kraken]
@@ -1477,8 +1477,8 @@
  agot_sailing.5600.desc:0 "As our vessel sails farther into the open ocean, I overhear [host.GetTitledFirstName] and [first_mate.GetFirstName] talking. "We're keeping watch for any denizens of the deep, captain," [first_mate.GetFirstName] explains. "As soon as someone spots something, you'll be the first to know."\n\nI turn toward the serene ocean and wonder what sort of creature we will encounter today.\n\nA while later, I hear a commotion from the main mast — the lookout has spotted something!"
 ### TODO NOT-IN-ST: agot_sailing.5600.a [AGOT: The hunt is on!]
  agot_sailing.5600.a:0 "The hunt is on!"
-### TODO NOT-IN-ST: agot_sailing.5601.t [AGOT: Success!]
- agot_sailing.5601.t:0 "Success!"
+
+ agot_sailing.5601.t:0 "Başarı!"
 ### TODO NOT-IN-ST: agot_sailing.5601.desc.a [AGOT: ]
  agot_sailing.5601.desc.a:0 ""Turtle sighted, captain!"\n\nSwimming eagerly beside our vessel, a large green #high sea turtle#! can be seen. "Do we go for it, captain?" [first_mate.GetFirstName] asks.\n\n[host.GetTitledFirstNameNicknamed] grabs a harpoon, takes aim at the turtle, and...\n\n#italic Whack!#! A direct hit! Soon enough, the turtle's green carcass is hauled aboard."
 ### TODO NOT-IN-ST: agot_sailing.5601.desc.b [AGOT: ]
@@ -1495,10 +1495,10 @@
  agot_sailing.5601.desc.g:0 ""Whale straight ahead, captain!"\n\nJust as the call goes out, a massive plume of water erupts into the air and a whale's enormous form bursts through the waves. It is a fully grown #high black sperm whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks.\n\n[host.GetTitledFirstNameNicknamed] grabs a harpoon, takes aim at the whale, and...\n\n#italic Whack!#! A direct hit! But that alone is not enough to slay such a creature. Other sailors ready their projectiles, scoring additional hits on the bleeding whale. After a long struggle, the sperm whale's mighty carcass is finally hauled aboard."
 ### TODO NOT-IN-ST: agot_sailing.5601.desc.h [AGOT: ]
  agot_sailing.5601.desc.h:0 ""Whale straight ahead, captain!"\n\nJust as I hear the call go out, a massive plume of water erupts into the air and the whale's mighty form bursts through the waves. It is a massive #high blue whale#!, a true leviathan. "Do we go for it, captain?" [first_mate.GetFirstName] asks.\n\n[host.GetTitledFirstNameNicknamed] grabs a harpoon, takes aim at the whale, and...\n\n#italic Whack!#! A direct hit! But that alone is not enough to slay such a creature. Other sailors ready their projectiles, scoring additional hits on the bleeding whale. After a long struggle, the blue whale's giant carcass is finally hauled aboard."
-### TODO NOT-IN-ST: agot_sailing.5601.desc.i [AGOT: After a few hours of sailing, I am startled by cries of fear and shock.]
- agot_sailing.5601.desc.i:0 "After a few hours of sailing, I am startled by cries of fear and shock. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetTitledFirstNameNoTooltip] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged screaming into the depths. Just as I begin to fear the ship might be lost, a harpoon pierces the creature's eye, vanishing completely into the soft bulk of its bulbous flesh. It shrieks — louder than ever before. And then... it goes limp. At last, the beast is slain."
-### TODO NOT-IN-ST: agot_sailing.5601.desc.i_two [AGOT: After a few hours of sailing, I am startled by cries of fear and shock.]
- agot_sailing.5601.desc.i_two:0 "After a few hours of sailing, I am startled by cries of fear and shock. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetTitledFirstNameNoTooltip] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged screaming into the depths. [host.GetTitledFirstNameNoTooltip] blows his krakenhorn, the thunderous call distracting the great beast just long enough for a harpoon to pierce the creature's eye, vanishing completely into the soft bulk of its bulbous flesh. It shrieks — louder than ever before. And then... it goes limp. At last, the beast is slain."
+
+ agot_sailing.5601.desc.i:0 "Birkaç saatlik deniz yolculuğunun ardından korku ve dehşet çığlıklarıyla irkiliyorum. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetTitledFirstNameNoTooltip] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged screaming into the depths. Just as I begin to fear the ship might be lost, a harpoon pierces the creature's eye, vanishing completely into the soft bulk of its bulbous flesh. It shrieks — louder than ever before. And then... it goes limp. At last, the beast is slain."
+
+ agot_sailing.5601.desc.i_two:0 "Birkaç saatlik deniz yolculuğunun ardından korku ve dehşet çığlıklarıyla irkiliyorum. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetTitledFirstNameNoTooltip] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged screaming into the depths. [host.GetTitledFirstNameNoTooltip] blows his krakenhorn, the thunderous call distracting the great beast just long enough for a harpoon to pierce the creature's eye, vanishing completely into the soft bulk of its bulbous flesh. It shrieks — louder than ever before. And then... it goes limp. At last, the beast is slain."
 ### TODO NOT-IN-ST: agot_sailing.5601.desc.j [AGOT: The hunt goes poorly. No creature has been sighted for hours, and I am beginning to grow bored. Just then, a startled shout rings out behind me.]
  agot_sailing.5601.desc.j:0 "The hunt goes poorly. No creature has been sighted for hours, and I am beginning to grow bored. Just then, a startled shout rings out behind me. "Whale at starboard, captain!"\n\nIn an instant, a massive plume of water erupts into the air and the whale's enormous form bursts through the waves. The ship is rocked by a tremendous blow, knocking us off our feet. As I struggle to rise, [first_mate.GetFirstName] crawls toward me, face as white as a sheet.\n\n"I—it's the White Dread, the... the Terror of the Seas!" [first_mate.GetSheHe] stammers. I've heard the tales: a white whale of terrible cunning and malice said to haunt these waters like a gargantuan ghost. It has sunk many ships, and now... it has found us.\n\n"Make ready to fight!" [host.GetTitledFirstNameNicknamed] shouts, grabbing a harpoon. The ship takes another hit, and I am thrown into a barrel of provisions lashed to the deck. As I regain my footing, I see the White Dread rear up with a deafening howl of pain — somehow, from somewhere, a harpoon has pierced its heart. We have ended a legend today."
 ### TODO NOT-IN-ST: agot_sailing.5601.desc.k [AGOT: For a long while, the sea remains silent, as though the ocean itself were holding its breath in anticipation. I pace restlessly near the ship's helm. Then, at last, the lookout cries out,]
@@ -1523,10 +1523,10 @@
  agot_sailing.5602.desc.g:0 ""Whale straight ahead, captain!"\n\nJust as the call goes out, a massive plume of water erupts into the air and a whale's enormous form bursts through the waves. It is a fully grown #high black sperm whale#!. "Do we go for it, captain?" [first_mate.GetFirstName] asks.\n\n[host.GetTitledFirstNameNicknamed] grabs a harpoon, takes aim at the whale, and...\n\n#italic A miss!#! The sperm whale slaps the side of the ship with its tail, rocking it hard enough to make me stumble. Then it dives, and is gone."
 ### TODO NOT-IN-ST: agot_sailing.5602.desc.h [AGOT: ]
  agot_sailing.5602.desc.h:0 ""Whale straight ahead, captain!"\n\nJust as I hear the call go out, a massive plume of water erupts into the air and the whale's mighty form bursts through the waves. It is a massive #high blue whale#!, a true leviathan. "Do we go for it, captain?" [first_mate.GetFirstName] asks.\n\n[host.GetTitledFirstNameNicknamed] grabs a harpoon, takes aim at the whale, and...\n\n#italic A miss!#! The blue whale reacts swiftly. It turns away from our ship and dives, vanishing from sight."
-### TODO NOT-IN-ST: agot_sailing.5602.desc.i [AGOT: After a few hours of sailing, I am startled by cries of fear and shock.]
- agot_sailing.5602.desc.i:0 "After a few hours of sailing, I am startled by cries of fear and shock. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetFirstName] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged into the depths. Harpoons simply slide off its slimy skin. It will not die! Luckily for us, the kraken finally loses interest and dives, taking a good number of unlucky souls with it and leaving us with nothing to show for it but wounds and a damaged ship."
-### TODO NOT-IN-ST: agot_sailing.5602.desc.i_two [AGOT: After a few hours of sailing, I am startled by cries of fear and shock.]
- agot_sailing.5602.desc.i_two:0 "After a few hours of sailing, I am startled by cries of fear and shock. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetFirstName] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged into the depths. [host.GetTitledFirstNameNoTooltip] blows his krakenhorn, drawing the beast's attention, but wounded and beset from all sides, the monster's will to survive proves too strong to keep it docile more than a moment. Harpoons simply slide off its slimy skin. It will not die! Luckily for us, the kraken finally loses interest and dives, taking a good number of unlucky souls with it and leaving us with nothing to show for it but wounds and a damaged ship."
+
+ agot_sailing.5602.desc.i:0 "Birkaç saatlik deniz yolculuğunun ardından korku ve dehşet çığlıklarıyla irkiliyorum. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetFirstName] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged into the depths. Harpoons simply slide off its slimy skin. It will not die! Luckily for us, the kraken finally loses interest and dives, taking a good number of unlucky souls with it and leaving us with nothing to show for it but wounds and a damaged ship."
+
+ agot_sailing.5602.desc.i_two:0 "Birkaç saatlik deniz yolculuğunun ardından korku ve dehşet çığlıklarıyla irkiliyorum. "Kraken! A kraken has come!" the men shout, some already fleeing in terror.\n\nIt seems our prey has found us instead. The water behind our ship churns violently, soon revealing the scaled head of a truly monstrous #high kraken#!, its slimy beak snapping with a hideous howl.\n\nI see [first_mate.GetFirstName] rush up to [host.GetTitledFirstNameNicknamed]. "What's it going to be, captain? Do we fight, or attempt to escape?"\n\n"I will not run!" [host.GetFirstName] exclaims. "Prepare yourselves, men!"\n\nThe kraken is a terrifying monster, and many sailors are struck by its tentacled arms and dragged into the depths. [host.GetTitledFirstNameNoTooltip] blows his krakenhorn, drawing the beast's attention, but wounded and beset from all sides, the monster's will to survive proves too strong to keep it docile more than a moment. Harpoons simply slide off its slimy skin. It will not die! Luckily for us, the kraken finally loses interest and dives, taking a good number of unlucky souls with it and leaving us with nothing to show for it but wounds and a damaged ship."
 ### TODO NOT-IN-ST: agot_sailing.5602.desc.j [AGOT: The hunt goes poorly. No creature has been sighted for hours, and I am beginning to grow bored. Just then, a startled shout rings out behind me.]
  agot_sailing.5602.desc.j:0 "The hunt goes poorly. No creature has been sighted for hours, and I am beginning to grow bored. Just then, a startled shout rings out behind me. "Whale at starboard, captain!"\n\nIn an instant, a massive plume of water erupts into the air and the whale's enormous form bursts through the waves. The ship is rocked by a tremendous blow, knocking us off our feet. As I struggle to rise, [first_mate.GetFirstName] crawls toward me, face as white as a sheet.\n\n"I—it's the White Dread, the... the Terror of the Seas!" [first_mate.GetSheHe] stammers. I've heard the tales: a white whale of terrible cunning and malice said to haunt these waters like a gargantuan ghost. It has sunk many ships, and now... it has found us.\n\n"Make ready to fight!" [host.GetTitledFirstNameNicknamed] shouts, grabbing a harpoon. The ship takes another hit, and I am thrown into a barrel of provisions lashed to the deck. As I regain my footing, I see the White Dread rear up with a deafening howl of triumph — it has torn our ship nearly to shreds and deems us defeated. As it dives, I feel my heart pounding louder than ever before. This monster will haunt my nightmares, I fear..."
 ### TODO NOT-IN-ST: agot_sailing.5602.desc.k [AGOT: For a long while, the sea remains silent, as though the ocean itself were holding its breath in anticipation. I pace restlessly near the ship's helm. Then, at last, the lookout cries out,]
@@ -1617,12 +1617,12 @@
  agot_sailing.6006.b:0 "You won't risk your life for this!"
 ### TODO NOT-IN-ST: death_by_kraken [AGOT: @death_icon! You are crushed by the kraken]
  death_by_kraken:0 "@death_icon! You are crushed by the kraken"
-### TODO NOT-IN-ST: agot_sailing.6007.t [AGOT: A Wasted Journey]
- agot_sailing.6007.t:0 "A Wasted Journey"
+
+ agot_sailing.6007.t:0 "Boşa Giden Yolculuk"
 ### TODO NOT-IN-ST: agot_sailing.6007.desc [AGOT: [host.GetTitledFirstName] returns to the safety of the ship, but without any treasure to show for the expedition. [host.GetSheHe|U] led us all out here, and now [host.GetHerHis] failure will be all we have to show for it...]
  agot_sailing.6007.desc:0 "[host.GetTitledFirstName] returns to the safety of the ship, but without any treasure to show for the expedition. [host.GetSheHe|U] led us all out here, and now [host.GetHerHis] failure will be all we have to show for it..."
-### TODO NOT-IN-ST: agot_sailing.6007.a [AGOT: Let us head home.]
- agot_sailing.6007.a:0 "Let us head home."
+
+ agot_sailing.6007.a:0 "Eve dönelim."
 ### TODO NOT-IN-ST: agot_sailing.6010.t [AGOT: The Captain's Return]
  agot_sailing.6010.t:0 "The Captain's Return"
 ### TODO NOT-IN-ST: agot_sailing.6010.desc_big [AGOT: [host.GetTitledFirstName] returns with a chest recovered from the wreckage. Though rusted and swollen from years beneath the sea, it is quickly pried open, revealing a vast trove of riches long thought lost to the depths.]
@@ -1633,10 +1633,10 @@
  agot_sailing.6010.desc_small:0 "[host.GetTitledFirstName] returns with a chest recovered from the wreckage. Though rusted and swollen from years beneath the sea, it is quickly pried open, revealing a small trove of riches long thought lost to the depths."
 ### TODO NOT-IN-ST: agot_sailing.6010.desc [AGOT: [host.GetTitledFirstName] returns without treasure. The wreckage proved too dangerous to reach, and the expedition has nothing to show for the journey.]
  agot_sailing.6010.desc:0 "[host.GetTitledFirstName] returns without treasure. The wreckage proved too dangerous to reach, and the expedition has nothing to show for the journey."
-### TODO NOT-IN-ST: agot_sailing.6010.a [AGOT: Let us head home.]
- agot_sailing.6010.a:0 "Let us head home."
-### TODO NOT-IN-ST: agot_sailing.6012.t [AGOT: A Wasted Journey]
- agot_sailing.6012.t:0 "A Wasted Journey"
+
+ agot_sailing.6010.a:0 "Eve dönelim."
+
+ agot_sailing.6012.t:0 "Boşa Giden Yolculuk"
 ### TODO NOT-IN-ST: agot_sailing.6012.desc [AGOT: I make it back to the ship safely, but without any treasure to show for the expedition. I led all these people out here, and now my failure is the only thing they will remember.]
  agot_sailing.6012.desc:0 "I make it back to the ship safely, but without any treasure to show for the expedition. I led all these people out here, and now my failure is the only thing they will remember."
 ### TODO NOT-IN-ST: agot_sailing.6012.a [AGOT: Let's just head home...]
@@ -1663,18 +1663,18 @@
  agot_sailing.6014.a_spare:0 "#V You#! gained a [spare.GetNameNoTooltip] [artifact|E]"
 ### TODO NOT-IN-ST: found_new_map [AGOT: You found a new treasure map]
  found_new_map:0 "You found a new treasure map"
-### TODO NOT-IN-ST: agot_sailing.9001.t [AGOT: End of a Voyage]
- agot_sailing.9001.t:0 "End of a Voyage" #(Mariner trait +1)
+
+ agot_sailing.9001.t:0 "Bir Yolculuğun Sonu" #(Mariner trait +1)
 ### TODO NOT-IN-ST: agot_sailing.9001.desc [AGOT: My long voyage comes to an end as my ship pulls back into port. A sense of accomplishment washes over me, and I know my skills as a sailor have grown sharper through the journey. Though part of me longs to remain at sea, I must now return to the business of ruling my realm...]
  agot_sailing.9001.desc:0 "My long voyage comes to an end as my ship pulls back into port. A sense of accomplishment washes over me, and I know my skills as a sailor have grown sharper through the journey. Though part of me longs to remain at sea, I must now return to the business of ruling my realm..."
-### TODO NOT-IN-ST: agot_sailing.9001.a [AGOT: ...and yet my heart yearns for the sea once more.]
- agot_sailing.9001.a:0 "...and yet my heart yearns for the sea once more."
-### TODO NOT-IN-ST: agot_sailing.9002.t [AGOT: End of a Voyage]
- agot_sailing.9002.t:0 "End of a Voyage" #(Mariner trait +1)
+
+ agot_sailing.9001.a:0 "...yine de yüreğim bir kez daha denizi özlüyor."
+
+ agot_sailing.9002.t:0 "Bir Yolculuğun Sonu" #(Mariner trait +1)
 ### TODO NOT-IN-ST: agot_sailing.9002.desc [AGOT: My long voyage comes to an end as my ship pulls back into port. Though the journey did not end as I had hoped, I must now turn the page and return to the business of ruling my realm...]
  agot_sailing.9002.desc:0 "My long voyage comes to an end as my ship pulls back into port. Though the journey did not end as I had hoped, I must now turn the page and return to the business of ruling my realm..."
-### TODO NOT-IN-ST: agot_sailing.9002.a [AGOT: ...and yet my heart yearns for the sea once more.]
- agot_sailing.9002.a:0 "...and yet my heart yearns for the sea once more."
+
+ agot_sailing.9002.a:0 "...yine de yüreğim bir kez daha denizi özlüyor."
 ### TODO NOT-IN-ST: agot_sailing.9100.t [AGOT: Piratical Preparations]
  agot_sailing.9100.t:0 "Piratical Preparations"
 ### TODO NOT-IN-ST: agot_sailing.9100.desc [AGOT: I stride down to the docks, drawing the salty sea air deep into my lungs. It invigorates me, though not nearly as much as the sight of my vessel at anchor. Both ship and dockside bustle with activity as my crew loads provisions while singing bawdy songs.\n\nThe quartermaster notices my approach and bows with an exaggerated flourish. I smile and nod in return as I cross the gangplank. My first mate cries out,]
@@ -1719,8 +1719,8 @@
  agot_sailing.9111.toast.c.success:0 "Patrol ship evaded!"
 ### TODO NOT-IN-ST: agot_sailing.9111.toast.c.failure [AGOT: Your ship is damaged, and you are forced to retreat]
  agot_sailing.9111.toast.c.failure:0 "Your ship is damaged, and you are forced to retreat"
-### TODO NOT-IN-ST: agot_sailing.9111.e [AGOT: This is too risky. Turn the ship around!]
- agot_sailing.9111.e:0 "This is too risky. Turn the ship around!"
+
+ agot_sailing.9111.e:0 "Bu çok riskli. Gemiyi geri çevir!"
 ### TODO NOT-IN-ST: agot_sailing.9114.t [AGOT: The Raid]
  agot_sailing.9114.t:0 "The Raid"
 ### TODO NOT-IN-ST: agot_sailing.9114.desc [AGOT: At last, we spy the coast ahead, and the outline of our target begins to emerge upon the horizon. Gulls circle overhead around the mast while my crew assembles on deck, sharpening weapons and swigging liquor for courage.\n\nNow comes the real decision — how best to profit from this nefarious venture?]
@@ -1729,8 +1729,8 @@
  agot_sailing.9114.a:0 "Let's sabotage production in [selected_piracy_destination.GetName]."
 ### TODO NOT-IN-ST: agot_sailing.9114.a.success [AGOT: You reduce [selected_piracy_destination.GetName] [development|E] factor and [garrison|E] size]
  agot_sailing.9114.a.success:0 "You reduce [selected_piracy_destination.GetName] [development|E] factor and [garrison|E] size"
-### TODO NOT-IN-ST: agot_sailing.9114.a.failure [AGOT: You are wounded by the guards]
- agot_sailing.9114.a.failure:0 "You are wounded by the guards"
+
+ agot_sailing.9114.a.failure:0 "Muhafızlar seni yaraladı"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.a.success [AGOT: Province sabotaged!]
  agot_sailing.9114.toast.a.success:0 "Province sabotaged!"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.a.failure [AGOT: Sabotage failed!]
@@ -1739,8 +1739,8 @@
  agot_sailing.9114.b:0 "Time to earn your pay! We'll pillage [selected_piracy_destination.GetName]."
 ### TODO NOT-IN-ST: agot_sailing.9114.b.success [AGOT: You pillage [selected_piracy_destination.GetNameNoTooltip]]
  agot_sailing.9114.b.success:0 "You pillage [selected_piracy_destination.GetNameNoTooltip]"
-### TODO NOT-IN-ST: agot_sailing.9114.b.failure [AGOT: You are wounded by the guards]
- agot_sailing.9114.b.failure:0 "You are wounded by the guards"
+
+ agot_sailing.9114.b.failure:0 "Muhafızlar seni yaraladı"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.b.success [AGOT: Province pillaged!]
  agot_sailing.9114.toast.b.success:0 "Province pillaged!"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.b.failure [AGOT: Pillage failed!]
@@ -1759,14 +1759,14 @@
  agot_sailing.9114.d:0 "We should abduct some villagers!"
 ### TODO NOT-IN-ST: agot_sailing.9114.d.success [AGOT: You abduct a villager]
  agot_sailing.9114.d.success:0 "You abduct a villager"
-### TODO NOT-IN-ST: agot_sailing.9114.d.failure [AGOT: You are wounded by the guards]
- agot_sailing.9114.d.failure:0 "You are wounded by the guards"
+
+ agot_sailing.9114.d.failure:0 "Muhafızlar seni yaraladı"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.d.success [AGOT: Villager abducted!]
  agot_sailing.9114.toast.d.success:0 "Villager abducted!"
 ### TODO NOT-IN-ST: agot_sailing.9114.toast.d.failure [AGOT: Abduction failed!]
  agot_sailing.9114.toast.d.failure:0 "Abduction failed!"
-### TODO NOT-IN-ST: agot_sailing.9114.e [AGOT: This is too risky. Turn the ship around!]
- agot_sailing.9114.e:0 "This is too risky. Turn the ship around!"
+
+ agot_sailing.9114.e:0 "Bu çok riskli. Gemiyi geri çevir!"
 ### TODO NOT-IN-ST: agot_sailing.9120.t [AGOT: The Merchant Ship]
  agot_sailing.9120.t:0 "The Merchant Ship"
 ### TODO NOT-IN-ST: agot_sailing.9120.desc [AGOT: The weather has been fair and the winds favorable, yet we have sailed for several days without sighting another vessel. The crew grows restless and quarrelsome. I begin to fear that, if their energy is not soon directed elsewhere, they may turn on one another.\n\nThen the cry rings out — sails upon the western horizon! I order the ship turned about and set on a direct course for our quarry. As we draw nearer, I can't help but smile — this is a worthy prize. A fat cog, riding low in the water beneath the weight of its cargo.]
@@ -1777,8 +1777,8 @@
  agot_sailing.9120.a.success:0 "You plunder the merchant ship!"
 ### TODO NOT-IN-ST: agot_sailing.9120.toast.a.success [AGOT: Merchant ship plundered!]
  agot_sailing.9120.toast.a.success:0 "Merchant ship plundered!"
-### TODO NOT-IN-ST: agot_sailing.9120.a.failure [AGOT: The ship's defenses prove too strong...]
- agot_sailing.9120.a.failure:0 "The ship's defenses prove too strong..."
+
+ agot_sailing.9120.a.failure:0 "Geminin savunması fazla güçlü çıkıyor..."
 ### TODO NOT-IN-ST: agot_sailing.9120.toast.a.failure [AGOT: Attack failed!]
  agot_sailing.9120.toast.a.failure:0 "Attack failed!"
 ### TODO NOT-IN-ST: agot_sailing.9120.c [AGOT: Why sink them when we can seize the ship for ourselves?]
@@ -1787,12 +1787,12 @@
  agot_sailing.9120.c.success:0 "You capture the vessel and bring it back to your capital!"
 ### TODO NOT-IN-ST: agot_sailing.9120.toast.c.success [AGOT: Merchant ship captured!]
  agot_sailing.9120.toast.c.success:0 "Merchant ship captured!"
-### TODO NOT-IN-ST: agot_sailing.9120.c.failure [AGOT: The ship's defenses prove too strong...]
- agot_sailing.9120.c.failure:0 "The ship's defenses prove too strong..."
+
+ agot_sailing.9120.c.failure:0 "Geminin savunması fazla güçlü çıkıyor..."
 ### TODO NOT-IN-ST: agot_sailing.9120.toast.c.failure [AGOT: Capture failed!]
  agot_sailing.9120.toast.c.failure:0 "Capture failed!"
-### TODO NOT-IN-ST: agot_sailing.9120.e [AGOT: This is too risky. Turn the ship around!]
- agot_sailing.9120.e:0 "This is too risky. Turn the ship around!"
+
+ agot_sailing.9120.e:0 "Bu çok riskli. Gemiyi geri çevir!"
 ### TODO NOT-IN-ST: agot_sailing.9130.t [AGOT: A Clash of Pirates]
  agot_sailing.9130.t:0 "A Clash of Pirates"
 ### TODO NOT-IN-ST: agot_sailing.9130.desc [AGOT: As we approach [selected_piracy_destination.GetName], a cry rings out that sails have been sighted. A closer look at the approaching vessel reveals that this is no easy prey, but a weathered pirate ship hunting for spoils of its own.\n\nIf we can overcome its crew, we may find great riches aboard, though the battle will not come without risk.]

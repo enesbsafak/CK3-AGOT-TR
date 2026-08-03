@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: is_human_first [AGOT: I'm a human]
  is_human_first:0 "I'm a human"
 ### TODO NOT-IN-ST: is_not_human_first [AGOT: I'm not a human]
@@ -17,8 +17,8 @@
  ANY_COUNTY_PROVINCE_TRIGGER:0 "Any county province:"
 ### TODO NOT-IN-ST: HAS_HOLDING_TYPE_TRIGGER [AGOT: Has $HOLDING$ [holding_type|E]]
  HAS_HOLDING_TYPE_TRIGGER:0 "Has $HOLDING$ [holding_type|E]"
-### TODO NOT-IN-ST: ANY_HAS_BUILDING_TRIGGER [AGOT: Has a $BUILDING|V$ [building|E]]
- ANY_HAS_BUILDING_TRIGGER:0 "Has a $BUILDING|V$ [building|E]"
+
+ ANY_HAS_BUILDING_TRIGGER:0 "$BUILDING|V$ [building|E] var"
 ### TODO NOT-IN-ST: agot_can_create_duchy [AGOT: Title has same or higher tier than the primary title of your pre-war [liege|E]]
  agot_can_create_duchy:0 "Title has same or higher tier than the primary title of your pre-war [liege|E]"
 ### TODO NOT-IN-ST: NOT_PRIMARY_TITLE_KINGDOM_TRIGGER [AGOT: Your [primary_title|E] cannot be a [kingdom|E]]

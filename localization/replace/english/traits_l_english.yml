@@ -1,4 +1,4 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
  TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE:0 "[TraitLevelTrackEntry.GetXpRequired|V0]+ [trait_level_track_xp|E] gerekiyor\n[TraitLevelTrackEntry.GetModifierDescription( Character.Self )][AddLocalizationIf( GreaterThan_int32( TraitLevelTrackEntry.GetLevel, '(int32)1' ), 'MODIFIER_PREVIOUS_LEVELS_APPLY_NEWLINE' )]"
  TRAIT_LEVEL_TRACK_ENTRY_DESC:2 "#V [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
  TRAIT_LEVEL_TRACK_ENTRY_DESC_TT:0 "\n\n#S [TraitLevelTrackEntry.GetLevel]. Seviye#!\n$TRAIT_LEVEL_TRACK_ENTRY_DESC_BASE$"
@@ -360,8 +360,8 @@
  trait_drunkard:0 "Ayyaş"
  trait_drunkard_desc:0 "Bu karakter kendisini içkiye vermiş, sık sık şişenin dibini görüyor."
  trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] kendisini içkiye vermiş, sık sık şişenin dibini görüyor."
-### TODO AGOT-CHANGED: trait_hashishiyah [AGOT: Milk of the Poppy Addict | TR: Esrarkeş]
- trait_hashishiyah:0 "Milk of the Poppy Addict"
+
+ trait_hashishiyah:0 "Haşhaş Sütü Bağımlısı"
 ### TODO AGOT-CHANGED: trait_hashishiyah_desc [AGOT: This character is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life. | TR: Bu karakter gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş.]
  trait_hashishiyah_desc:0 "This character is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life."
 ### TODO AGOT-CHANGED: trait_hashishiyah_character_desc [AGOT: [ROOT.GetCharacter.GetFirstNameNoTooltip] is dependent on the consumption of Milk of the Poppy to deal with the stress of everyday life. | TR: [ROOT.GetCharacter.GetFirstNameNoTooltip] gündelik yaşamın stresinden uzaklaşmak için haşiş içmeye bağımlı hâle gelmiş.]
@@ -531,12 +531,12 @@
  trait_cancer:0 "Kanser"
  trait_cancer_desc:0 "Kanser bu karakterin vücuduna yayılmış, hayatını sömürüyor."
  trait_cancer_character_desc:0 "Kanser [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] vücuduna yayılmış, hayatını sömürüyor."
-### TODO AGOT-CHANGED: trait_typhus [AGOT: Green Fever | TR: Lekeli Humma]
- trait_typhus:0 "Green Fever"
+
+ trait_typhus:0 "Yeşil Ateş"
  trait_typhus_desc:0 "Bu karakter lekeli humma da denilen tifüse sahip; ciltten dökülmeler, ateş ve öksürük gibi sorunlardan acı çekiyor."
  trait_typhus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lekeli humma da denilen tifüse sahip; ciltten dökülmeler, ateş ve öksürük gibi sorunlardan acı çekiyor."
-### TODO AGOT-CHANGED: trait_bubonic_plague [AGOT: Sunset Plague | TR: Kara Veba]
- trait_bubonic_plague:0 "Sunset Plague"
+
+ trait_bubonic_plague:0 "Gün Batımı Vebası"
  trait_bubonic_plague_desc:0 "Bu karakter derisinde siyah lekelere ve bubonlara sahip, bu dünyada sayılı günü kalmış."
  trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] derisinde siyah lekelere ve bubonlara sahip, bu dünyada sayılı günü kalmış."
 ### TODO AGOT-CHANGED: trait_smallpox [AGOT: Pox | TR: Çiçek Hastalığı]
@@ -700,10 +700,10 @@
  trait_excommunicated_desc:0 "Bu karakter dinî törenlerden yasaklanmış."
  trait_excommunicated_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] dinî törenlerden yasaklanmış."
  trait_devoted:0 "Kendini Adamış"
-### TODO AGOT-CHANGED: trait_devoted_male [AGOT: Devoted | TR: Keşiş]
- trait_devoted_male:0 "Devoted"
-### TODO AGOT-CHANGED: trait_devoted_female [AGOT: Devoted | TR: Rahibe]
- trait_devoted_female:0 "Devoted"
+
+ trait_devoted_male:0 "Adanmış"
+
+ trait_devoted_female:0 "Adanmış"
  trait_devoted_desc:0 "Bu karakter ömrünü ulu bir gücün hizmetinde geçirmeye adamış."
  trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ömrünü ulu bir gücün hizmetinde geçirmeye adamış."
 ### TODO AGOT-CHANGED: trait_devoted_child [AGOT: Promised to the Gods | TR: Ruhban Sınıfı için Söz Verilen]

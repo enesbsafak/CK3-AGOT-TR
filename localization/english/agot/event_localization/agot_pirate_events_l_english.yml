@@ -1,12 +1,12 @@
-﻿l_english:
-### TODO NOT-IN-ST: agot_pirate_events.0003.t [AGOT: Port Customs]
- agot_pirate_events.0003.t:0 "Port Customs"
+﻿﻿l_english:
+
+ agot_pirate_events.0003.t:0 "Liman Gümrükleri"
 ### TODO NOT-IN-ST: agot_pirate_events.0003.desc [AGOT: I've arrived at the pirate haven of [port_name.GetName].\n\nAs I step onto the docks, I am told I must pay a one-time docking fee of #P [SCOPE.GetValue('port_docking_fee')|0]#! @gold_icon!, and a yearly fee currently listed as #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!.\n\nYearly fees may change suddenly based on the whims of a port's owner and are calculated according to the size of my ship.\n\nI am warned that failing to pay the yearly fee could result in #N imprisonment!#!]
  agot_pirate_events.0003.desc:0 "I've arrived at the pirate haven of [port_name.GetName].\n\nAs I step onto the docks, I am told I must pay a one-time docking fee of #P [SCOPE.GetValue('port_docking_fee')|0]#! @gold_icon!, and a yearly fee currently listed as #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!.\n\nYearly fees may change suddenly based on the whims of a port's owner and are calculated according to the size of my ship.\n\nI am warned that failing to pay the yearly fee could result in #N imprisonment!#!"
 ### TODO NOT-IN-ST: agot_pirate_events.0003.a [AGOT: Understood.]
  agot_pirate_events.0003.a:0 "Understood."
-### TODO NOT-IN-ST: agot_pirate_events.0004.t [AGOT: Port Customs]
- agot_pirate_events.0004.t:0 "Port Customs"
+
+ agot_pirate_events.0004.t:0 "Liman Gümrükleri"
 ### TODO NOT-IN-ST: agot_pirate_events.0004.desc [AGOT: It's time to pay the yearly port fees. I must pay #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to [port_holder.GetName].]
  agot_pirate_events.0004.desc:0 "It's time to pay the yearly port fees. I must pay #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! to [port_holder.GetName]."
 ### TODO NOT-IN-ST: agot_pirate_events.0004.a [AGOT: I will pay.]

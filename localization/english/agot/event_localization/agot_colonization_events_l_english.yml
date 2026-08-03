@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_colonization_events.1001.t [AGOT: [obstacle_province.GetNameNoTooltip]: Confronting the Wolves]
  agot_colonization_events.1001.t:0 "[obstacle_province.GetNameNoTooltip]: Confronting the Wolves"
 ### TODO NOT-IN-ST: agot_colonization_events.1001.desc [AGOT: My scouts have been scouring the [obstacle_province.Custom('TerrainTypeProvince')] of [obstacle_province.GetName] for days.\n\nMost have returned empty-handed; some have not returned at all. I am beginning to wonder whether this rumored wolf den even exists, or if the wolves prowling these lands are the result of some magic or devilry.\n\nFinally, my last scout reports to me, his clothes ragged and a shaken look in his eyes.\n\n]
@@ -89,20 +89,20 @@
  agot_colonization_events.1005.desc:0 "Sad news from [obstacle_province.GetName] comes to my attention today, as a recent string of tragedies has rocked the settlements there. The local wolf packs of the area have, seemingly emboldened by the constant trespasses upon their territory, started to pick off the young, the helpless, and the elderly in great numbers.\n\nWith boldness hitherto unseen by them, they have even started to prowl into the villages at night in massive packs! Something must be done before the wolves get bold enough to steal babes from their very cribs."
 ### TODO NOT-IN-ST: agot_colonization_events.1005.a [AGOT: We must organize the villagers to take the fight to the wolves!]
  agot_colonization_events.1005.a:0 "We must organize the villagers to take the fight to the wolves!"
-### TODO NOT-IN-ST: agot_colonization_events.1005.a.duel_success [AGOT: The wolf den is cleared]
- agot_colonization_events.1005.a.duel_success:0 "The wolf den is cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1005.a.duel_failure [AGOT: The wolf den remains, and the colony is lost]
- agot_colonization_events.1005.a.duel_failure:0 "The wolf den remains, and the colony is lost"
-### TODO NOT-IN-ST: agot_colonization_events.1005.success.toast.t [AGOT: Wolf den cleared!]
- agot_colonization_events.1005.success.toast.t:0 "Wolf den cleared!"
-### TODO NOT-IN-ST: agot_colonization_events.1005.failure.toast.t [AGOT: Failed to clear the wolf den]
- agot_colonization_events.1005.failure.toast.t:0 "Failed to clear the wolf den"
+
+ agot_colonization_events.1005.a.duel_success:0 "Kurt ini temizlendi"
+
+ agot_colonization_events.1005.a.duel_failure:0 "Kurt ini duruyor ve koloni kaybedildi"
+
+ agot_colonization_events.1005.success.toast.t:0 "Kurt ini temizlendi!"
+
+ agot_colonization_events.1005.failure.toast.t:0 "Kurt ini temizlenemedi"
 ### TODO NOT-IN-ST: agot_colonization_events.1005.b [AGOT: Rally the villagers and burn the wolves out.]
  agot_colonization_events.1005.b:0 "Rally the villagers and burn the wolves out."
 ### TODO NOT-IN-ST: agot_colonization_events.1005.b.duel_success [AGOT: You burn the wolf den]
  agot_colonization_events.1005.b.duel_success:0 "You burn the wolf den"
-### TODO NOT-IN-ST: agot_colonization_events.1005.b.duel_failure [AGOT: The wolf den remains, and the colony is lost]
- agot_colonization_events.1005.b.duel_failure:0 "The wolf den remains, and the colony is lost"
+
+ agot_colonization_events.1005.b.duel_failure:0 "Kurt ini duruyor ve koloni kaybedildi"
 ### TODO NOT-IN-ST: agot_colonization_events.1005.c [AGOT: Unfortunate, but these are the risks of the frontier.]
  agot_colonization_events.1005.c:0 "Unfortunate, but these are the risks of the frontier."
 ### TODO NOT-IN-ST: agot_colonization_events.1006.t [AGOT: [obstacle_province.GetNameNoTooltip]: Hunted]
@@ -111,22 +111,22 @@
  agot_colonization_events.1006.desc:0 "What initially seemed to be an easy culling has quickly spiraled out of control. A great black wolf has stalked my band and struck in the night under the cover of fog, accompanied by its vengeful pack. The hunters I led into the wolf den of [obstacle_province.GetName] have been picked off one by one, and soon I am alone, facing off against the unnatural beast.\n\nIt is by far the largest wolf I have ever seen, and the disturbingly intelligent glint in its eyes promises a long, miserable death should I not flee its territory immediately."
 ### TODO NOT-IN-ST: agot_colonization_events.1006.a [AGOT: You'll make a fine rug.]
  agot_colonization_events.1006.a:0 "You'll make a fine rug."
-### TODO NOT-IN-ST: agot_colonization_events.1006.a.duel_success [AGOT: The wolf den is cleared]
- agot_colonization_events.1006.a.duel_success:0 "The wolf den is cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1006.a.duel_failure [AGOT: The wolf den remains]
- agot_colonization_events.1006.a.duel_failure:0 "The wolf den remains"
-### TODO NOT-IN-ST: agot_colonization_events.1006.success.toast.t [AGOT: Wolf den cleared!]
- agot_colonization_events.1006.success.toast.t:0 "Wolf den cleared!"
-### TODO NOT-IN-ST: agot_colonization_events.1006.failure.toast.t [AGOT: Failed to clear the wolf den]
- agot_colonization_events.1006.failure.toast.t:0 "Failed to clear the wolf den"
+
+ agot_colonization_events.1006.a.duel_success:0 "Kurt ini temizlendi"
+
+ agot_colonization_events.1006.a.duel_failure:0 "Kurt ini duruyor"
+
+ agot_colonization_events.1006.success.toast.t:0 "Kurt ini temizlendi!"
+
+ agot_colonization_events.1006.failure.toast.t:0 "Kurt ini temizlenemedi"
 ### TODO NOT-IN-ST: agot_colonization_events.1006.b [AGOT: If I start a fire, I can trap the beast and kill it that way.]
  agot_colonization_events.1006.b:0 "If I start a fire, I can trap the beast and kill it that way."
 ### TODO NOT-IN-ST: agot_colonization_events.1006.c [AGOT: I will bravely, bravely run away!]
  agot_colonization_events.1006.c:0 "I will bravely, bravely run away!"
-### TODO NOT-IN-ST: agot_colonization_events.1006.b.duel_success [AGOT: The wolf den is cleared]
- agot_colonization_events.1006.b.duel_success:0 "The wolf den is cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1006.b.duel_failure [AGOT: The wolf den remains]
- agot_colonization_events.1006.b.duel_failure:0 "The wolf den remains"
+
+ agot_colonization_events.1006.b.duel_success:0 "Kurt ini temizlendi"
+
+ agot_colonization_events.1006.b.duel_failure:0 "Kurt ini duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1007.t [AGOT: [obstacle_province.GetNameNoTooltip]: Howls From the Hills]
  agot_colonization_events.1007.t:0 "[obstacle_province.GetNameNoTooltip]: Howls From the Hills"
 ### TODO NOT-IN-ST: agot_colonization_events.1007.desc [AGOT: A messenger arrives at my court, bearing news from the settlement at [obstacle_province.GetName]. The news bodes well, yet as the messenger finishes his report, he relays one request from the villagers: while they have driven the majority of the wolves from the settlement, a sizeable pack still remains in the hills a few miles from the village. They seek my aid in destroying them once and for all.\n\nMy [steward.Custom('GetCouncilOrCourtPosition')] interjects,]
@@ -203,10 +203,10 @@
  agot_colonization_events.1101.c.duel_failure:0 "You are outwitted and overwhelmed by the bear"
 ### TODO NOT-IN-ST: agot_colonization_events.1101.d [AGOT: Hey, hey, hey! Leave that bear alone!]
  agot_colonization_events.1101.d:0 "Hey, hey, hey! Leave that bear alone!"
-### TODO NOT-IN-ST: agot_colonization_events.1101.success.toast.t [AGOT: Bear Den Cleared]
- agot_colonization_events.1101.success.toast.t:0 "Bear Den Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1101.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1101.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1101.success.toast.t:0 "Ayı İni Temizlendi"
+
+ agot_colonization_events.1101.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1102.t [AGOT: [obstacle_province.GetNameNoTooltip]: Beargild]
  agot_colonization_events.1102.t:0 "[obstacle_province.GetNameNoTooltip]: Beargild"
 ### TODO NOT-IN-ST: agot_colonization_events.1102.desc [AGOT: After four days tramping across difficult terrain, my bear hunt nears its finale. A great she-bear stands in the mouth of a cave, her gaze fixed on me. She rears on her hind legs and roars, but seems reluctant to charge and leave the shelter of her rocky recess. Taking this for a sign of weakness, I leap forward and plunge my spear into her chest. After a short struggle, the bear collapses, twitching. With her last strength, she looks into my eyes again with an expression that seems almost... pleading. Disconcerted, I step back and drop the spear.\n\nIt is then that I hear the mewling.\n\nAt the back of the cave, I find the source of the noise — a tiny cub, still blind and feeble, crawls towards me. An overwhelming feeling of guilt grips me. Feeding it would be expensive, but maybe I can raise the bear myself...]
@@ -239,10 +239,10 @@
  agot_colonization_events.1103.b.duel_failure:0 "Your party failed to kill the bear"
 ### TODO NOT-IN-ST: agot_colonization_events.1103.c [AGOT: Flee! This foe is greater than any of us!]
  agot_colonization_events.1103.c:0 "Flee! This foe is greater than any of us!"
-### TODO NOT-IN-ST: agot_colonization_events.1103.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1103.failure.toast.t:0 "Bear Den Remains"
-### TODO NOT-IN-ST: agot_colonization_events.1103.success.toast.t [AGOT: Bear Den Cleared]
- agot_colonization_events.1103.success.toast.t:0 "Bear Den Cleared"
+
+ agot_colonization_events.1103.failure.toast.t:0 "Ayı İni Duruyor"
+
+ agot_colonization_events.1103.success.toast.t:0 "Ayı İni Temizlendi"
 ### TODO NOT-IN-ST: agot_colonization_events.1104.t [AGOT: [obstacle_province.GetNameNoTooltip]: Mushroom Bear]
  agot_colonization_events.1104.t:0 "[obstacle_province.GetNameNoTooltip]: Mushroom Bear"
 ### TODO NOT-IN-ST: agot_colonization_events.1104.desc [AGOT: My [steward.Custom('GetCouncilOrCourtPosition')] [steward.GetFirstName] brings me news from our nascent colony at [obstacle_province.GetName]. It is such a baffling tale that [steward.GetFirstNameNoTooltip] insisted on verifying it before bringing it to me, but he is now certain of its veracity. It seems that one of our colonists has discovered a particularly potent form of mushroom, the consumption of which gives astonishing visions and feelings of intense euphoria.\n\nThat may be all well and good, but a cultivated patch of mushrooms has been raided by a local bear of fearsome size. This bear has subsequently gone on a rampage of immense proportions, destroying houses and storerooms and slaughtering settlers, such that the colony now faces an existential threat.]
@@ -265,8 +265,8 @@
  agot_colonization_events.1104.c.success.toast.t:0 "Shroomed Up"
 ### TODO NOT-IN-ST: agot_colonization_events.1104.c.failure.toast.t [AGOT: Shroomed Down]
  agot_colonization_events.1104.c.failure.toast.t:0 "Shroomed Down"
-### TODO NOT-IN-ST: agot_colonization_events.1104.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1104.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1104.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1104.success.toast.t [AGOT: Bear Driven Off]
  agot_colonization_events.1104.success.toast.t:0 "Bear Driven Off"
 ### TODO NOT-IN-ST: agot_colonization_events.1105.t [AGOT: [obstacle_province.GetNameNoTooltip]: More Than Meets the Eye]
@@ -283,8 +283,8 @@
  agot_colonization_events.1105.toast.t:0 "The bear remains"
 ### TODO NOT-IN-ST: agot_colonization_events.1105.a.duel_success [AGOT: You drive off the skinchanger]
  agot_colonization_events.1105.a.duel_success:0 "You drive off the skinchanger"
-### TODO NOT-IN-ST: agot_colonization_events.1105.a.success.toast.t [AGOT: Bear Den Cleared]
- agot_colonization_events.1105.a.success.toast.t:0 "Bear Den Cleared"
+
+ agot_colonization_events.1105.a.success.toast.t:0 "Ayı İni Temizlendi"
 ### TODO NOT-IN-ST: agot_colonization_events.1105.a.duel_failure [AGOT: You fail to drive off the skinchanger]
  agot_colonization_events.1105.a.duel_failure:0 "You fail to drive off the skinchanger"
 ### TODO NOT-IN-ST: agot_colonization_events.1105.a.failure.toast.t [AGOT: Wounded hunting bears]
@@ -295,42 +295,42 @@
  agot_colonization_events.1105.b.success.toast.t:0 "Co-exist"
 ### TODO NOT-IN-ST: agot_colonization_events.1105.b.duel_failure [AGOT: You fail to strike a deal with the skinchanger]
  agot_colonization_events.1105.b.duel_failure:0 "You fail to strike a deal with the skinchanger"
-### TODO NOT-IN-ST: agot_colonization_events.1105.b.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1105.b.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1105.b.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1106.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Man-Eater]
  agot_colonization_events.1106.t:0 "[obstacle_province.GetNameNoTooltip]: The Man-Eater"
 ### TODO NOT-IN-ST: agot_colonization_events.1106.desc [AGOT: It watches in the night. Seven feet tall, and half a ton in weight. Its hide is thicker and tougher than dragon scales, its fangs and claws greater than swords, the stench of its breath more putrid than a meadow after battle. It bears the scars of a hundred battles, and its face shows the wear and bruises of a hundred years.\n\nAt least, that's what the letters from [obstacle_province.GetName] tell me. It is likely that at least some of the facts about this great bear are exaggerated, yet their feeling is clear. They report many things: that it is nigh invincible; that it has survived a thousand arrows; that it slaughters hunting parties of fifty men; and that it enters the village at night, unseen, to slaughter livestock and townsfolk — especially townsfolk! The colonists are clear: they plead for aid, for anything; for this terror of the night to be rid of once and for all.]
  agot_colonization_events.1106.desc:0 "It watches in the night. Seven feet tall, and half a ton in weight. Its hide is thicker and tougher than dragon scales, its fangs and claws greater than swords, the stench of its breath more putrid than a meadow after battle. It bears the scars of a hundred battles, and its face shows the wear and bruises of a hundred years.\n\nAt least, that's what the letters from [obstacle_province.GetName] tell me. It is likely that at least some of the facts about this great bear are exaggerated, yet their feeling is clear. They report many things: that it is nigh invincible; that it has survived a thousand arrows; that it slaughters hunting parties of fifty men; and that it enters the village at night, unseen, to slaughter livestock and townsfolk — especially townsfolk! The colonists are clear: they plead for aid, for anything; for this terror of the night to be rid of once and for all."
-### TODO NOT-IN-ST: agot_colonization_events.1106.success.toast.t [AGOT: Bear Killed]
- agot_colonization_events.1106.success.toast.t:0 "Bear Killed"
-### TODO NOT-IN-ST: agot_colonization_events.1106.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1106.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1106.success.toast.t:0 "Ayı Öldürüldü"
+
+ agot_colonization_events.1106.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1106.a [AGOT: Send my finest warriors to slaughter this beast!]
  agot_colonization_events.1106.a:0 "Send my finest warriors to slaughter this beast!"
 ### TODO NOT-IN-ST: agot_colonization_events.1106.b [AGOT: [marshal.GetFirstName], rally the colonists and bring me this bear's head.]
  agot_colonization_events.1106.b:0 "[marshal.GetFirstName], rally the colonists and bring me this bear's head."
-### TODO NOT-IN-ST: agot_colonization_events.1106.b.duel_success [AGOT: Bear is killed]
- agot_colonization_events.1106.b.duel_success:0 "Bear is killed"
-### TODO NOT-IN-ST: agot_colonization_events.1106.b.duel_failure [AGOT: Bear survived]
- agot_colonization_events.1106.b.duel_failure:0 "Bear survived"
+
+ agot_colonization_events.1106.b.duel_success:0 "Ayı öldürüldü"
+
+ agot_colonization_events.1106.b.duel_failure:0 "Ayı hayatta kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1106.c [AGOT: Ah, 'tis naught but the superstition of peasants! They can deal with the bear themselves.]
  agot_colonization_events.1106.c:0 "Ah, 'tis naught but the superstition of peasants! They can deal with the bear themselves."
 ### TODO NOT-IN-ST: agot_colonization_events.1107.t [AGOT: [obstacle_province.GetNameNoTooltip]: Hated Enemies]
  agot_colonization_events.1107.t:0 "[obstacle_province.GetNameNoTooltip]: Hated Enemies"
 ### TODO NOT-IN-ST: agot_colonization_events.1107.desc [AGOT: As the colony in [obstacle_province.GetName] grows, the troublesome bear population in the area is hunted down — safety, food, and mere sport. But it seems that our actions have incurred the ire of these bears, as while I visit the colony to check on its progress, we come under siege by the damned things, alongside what is by far the largest bear I have ever seen. Worse yet, it looks to be commanding the smaller bears somehow!]
  agot_colonization_events.1107.desc:0 "As the colony in [obstacle_province.GetName] grows, the troublesome bear population in the area is hunted down — safety, food, and mere sport. But it seems that our actions have incurred the ire of these bears, as while I visit the colony to check on its progress, we come under siege by the damned things, alongside what is by far the largest bear I have ever seen. Worse yet, it looks to be commanding the smaller bears somehow!"
-### TODO NOT-IN-ST: agot_colonization_events.1107.success.toast.t [AGOT: Bear Killed]
- agot_colonization_events.1107.success.toast.t:0 "Bear Killed"
-### TODO NOT-IN-ST: agot_colonization_events.1107.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1107.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1107.success.toast.t:0 "Ayı Öldürüldü"
+
+ agot_colonization_events.1107.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1107.a [AGOT: It's bear season, boys!]
  agot_colonization_events.1107.a:0 "It's bear season, boys!"
 ### TODO NOT-IN-ST: agot_colonization_events.1107.b [AGOT: Cut that big beastie's head off, and the bears will disperse.]
  agot_colonization_events.1107.b:0 "Cut that big beastie's head off, and the bears will disperse."
-### TODO NOT-IN-ST: agot_colonization_events.1107.duel_success [AGOT: Bear is killed]
- agot_colonization_events.1107.duel_success:0 "Bear is killed"
-### TODO NOT-IN-ST: agot_colonization_events.1107.duel_failure [AGOT: Bear survived]
- agot_colonization_events.1107.duel_failure:0 "Bear survived"
+
+ agot_colonization_events.1107.duel_success:0 "Ayı öldürüldü"
+
+ agot_colonization_events.1107.duel_failure:0 "Ayı hayatta kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1107.c [AGOT: Distract them for me while I, er, go to get reinforcements!]
  agot_colonization_events.1107.c:0 "Distract them for me while I, er, go to get reinforcements!"
 ### TODO NOT-IN-ST: agot_colonization_events.1108.t [AGOT: [obstacle_province.GetNameNoTooltip]: Bear-Baiting]
@@ -355,18 +355,18 @@
  agot_colonization_events.1109.t:0 "[obstacle_province.GetNameNoTooltip]: Sloth and Savagery"
 ### TODO NOT-IN-ST: agot_colonization_events.1109.desc [AGOT: Some rather concerning news arrives on my desk this morning from [obstacle_province.GetName]. The local bear population found there has, since the settlement's beginning, been a constant thorn in the side of the locals due to the aggressive nature of the beasts. Maned, sickle-clawed, and shaggy-furred are these bears, but what makes them so dangerous is their savagery — attacking people with little provocation and little warning. Things have gotten so bad that I have been personally requested by the local governor to step in and deal with the threat these sloth bears pose.]
  agot_colonization_events.1109.desc:0 "Some rather concerning news arrives on my desk this morning from [obstacle_province.GetName]. The local bear population found there has, since the settlement's beginning, been a constant thorn in the side of the locals due to the aggressive nature of the beasts. Maned, sickle-clawed, and shaggy-furred are these bears, but what makes them so dangerous is their savagery — attacking people with little provocation and little warning. Things have gotten so bad that I have been personally requested by the local governor to step in and deal with the threat these sloth bears pose."
-### TODO NOT-IN-ST: agot_colonization_events.1109.success.toast.t [AGOT: Bear Killed]
- agot_colonization_events.1109.success.toast.t:0 "Bear Killed"
-### TODO NOT-IN-ST: agot_colonization_events.1109.failure.toast.t [AGOT: Bear Den Remains]
- agot_colonization_events.1109.failure.toast.t:0 "Bear Den Remains"
+
+ agot_colonization_events.1109.success.toast.t:0 "Ayı Öldürüldü"
+
+ agot_colonization_events.1109.failure.toast.t:0 "Ayı İni Duruyor"
 ### TODO NOT-IN-ST: agot_colonization_events.1109.a [AGOT: [knight.GetFirstName], care to go bear hunting?]
  agot_colonization_events.1109.a:0 "[knight.GetFirstName], care to go bear hunting?"
 ### TODO NOT-IN-ST: agot_colonization_events.1109.b [AGOT: Someone pass me my good bear spear!]
  agot_colonization_events.1109.b:0 "Someone pass me my good bear spear!"
-### TODO NOT-IN-ST: agot_colonization_events.1109.duel_success [AGOT: Bear is killed]
- agot_colonization_events.1109.duel_success:0 "Bear is killed"
-### TODO NOT-IN-ST: agot_colonization_events.1109.duel_failure [AGOT: Bear survived]
- agot_colonization_events.1109.duel_failure:0 "Bear survived"
+
+ agot_colonization_events.1109.duel_success:0 "Ayı öldürüldü"
+
+ agot_colonization_events.1109.duel_failure:0 "Ayı hayatta kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1109.c [AGOT: All very interesting, but I simply do not have the time.]
  agot_colonization_events.1109.c:0 "All very interesting, but I simply do not have the time."
 ### TODO NOT-IN-ST: agot_colonization_events.1201.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Outcasts]
@@ -383,10 +383,10 @@
  agot_colonization_events.1201.desc.3.scholar:0 "the scholar, [spymaster.GetName], whispers that there is more to this situation than meets the eye. It seems the outlaws were among the earliest colonists, and for the most part, were upstanding subjects — until driven from their homes by former soldiers who were better armed and less inclined to construct shelters with their own hands when they could steal those that had already been built."
 ### TODO NOT-IN-ST: agot_colonization_events.1201.a [AGOT: I don't care who was there first. Settle this with swords!]
  agot_colonization_events.1201.a:0 "I don't care who was there first. Settle this with swords!"
-### TODO NOT-IN-ST: agot_colonization_events.1201.a.duel_success [AGOT: Your men slay the last of the troublemakers.]
- agot_colonization_events.1201.a.duel_success:0 "Your men slay the last of the troublemakers."
-### TODO NOT-IN-ST: agot_colonization_events.1201.a.duel_failure [AGOT: Your men are driven back by the bandits.]
- agot_colonization_events.1201.a.duel_failure:0 "Your men are driven back by the bandits."
+
+ agot_colonization_events.1201.a.duel_success:0 "Adamların bela çıkaranların sonuncusunu da öldürüyor."
+
+ agot_colonization_events.1201.a.duel_failure:0 "Adamların haydutlarca geri püskürtüldü."
 ### TODO NOT-IN-ST: agot_colonization_events.1201.b [AGOT: Pardon the outlaws and restore them to their lands.]
  agot_colonization_events.1201.b:0 "Pardon the outlaws and restore them to their lands."
 ### TODO NOT-IN-ST: agot_colonization_events.1201.b.duel_success [AGOT: You craft a just settlement for the outcasts]
@@ -401,10 +401,10 @@
  agot_colonization_events.1201.c.duel_failure:0 "You fail to strike an agreement between the outcasts and the settlers"
 ### TODO NOT-IN-ST: agot_colonization_events.1201.d [AGOT: I don't have time for this right now!]
  agot_colonization_events.1201.d:0 "I don't have time for this right now!"
-### TODO NOT-IN-ST: agot_colonization_events.1201.success.toast.t [AGOT: Bandits Cleared]
- agot_colonization_events.1201.success.toast.t:0 "Bandits Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1201.failure.toast.t [AGOT: Bandits Remain]
- agot_colonization_events.1201.failure.toast.t:0 "Bandits Remain"
+
+ agot_colonization_events.1201.success.toast.t:0 "Haydutlar Temizlendi"
+
+ agot_colonization_events.1201.failure.toast.t:0 "Haydutlar Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1202.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Corral]
  agot_colonization_events.1202.t:0 "[obstacle_province.GetNameNoTooltip]: The Corral"
 ### TODO NOT-IN-ST: agot_colonization_events.1202.desc.marshal [AGOT: My [marshal.GetCouncilTitle], [marshal.GetName], brings me cheering news. The local garrison has discovered the hideout of a group of bandits who have been terrorizing my settlement in [obstacle_province.GetName]. The soldiers have encircled the outlaws, and for the last few days, an extensive exchange of arrows has taken place. But as yet, there has been no decisive push to end the standoff.\n\nThe bandit leader seems willing to fight to the end if necessary but has offered to leave the area in exchange for a substantial payoff.]
@@ -413,16 +413,16 @@
  agot_colonization_events.1202.desc.knight:0 "My military advisor, [marshal.GetNameNoTooltip], brings me cheering news. The local garrison has discovered the hideout of a group of bandits who have been terrorizing my settlement in [obstacle_province.GetNameNoTooltip]. The soldiers have encircled the outlaws, and for the last few days, an extensive exchange of arrows has taken place. But as yet, there has been no decisive push to end the standoff.\n\nThe bandit leader seems willing to fight to the end if necessary but has offered to leave the area in exchange for a substantial payoff."
 ### TODO NOT-IN-ST: agot_colonization_events.1202.a [AGOT: Crush them!]
  agot_colonization_events.1202.a:0 "Crush them!"
-### TODO NOT-IN-ST: agot_colonization_events.1202.a.duel_success [AGOT: Your men slay the last of the troublemakers.]
- agot_colonization_events.1202.a.duel_success:0 "Your men slay the last of the troublemakers."
-### TODO NOT-IN-ST: agot_colonization_events.1202.a.duel_failure [AGOT: Your men are driven back by the bandits.]
- agot_colonization_events.1202.a.duel_failure:0 "Your men are driven back by the bandits."
+
+ agot_colonization_events.1202.a.duel_success:0 "Adamların bela çıkaranların sonuncusunu da öldürüyor."
+
+ agot_colonization_events.1202.a.duel_failure:0 "Adamların haydutlarca geri püskürtüldü."
 ### TODO NOT-IN-ST: agot_colonization_events.1202.b [AGOT: What if they could be persuaded to enlist?]
  agot_colonization_events.1202.b:0 "What if they could be persuaded to enlist?"
 ### TODO NOT-IN-ST: agot_colonization_events.1202.b.duel_success [AGOT: You convince the bandit leader to help defend the colony for an ongoing fee.]
  agot_colonization_events.1202.b.duel_success:0 "You convince the bandit leader to help defend the colony for an ongoing fee."
-### TODO NOT-IN-ST: agot_colonization_events.1202.b.duel_failure [AGOT: Your negotiation efforts fail.]
- agot_colonization_events.1202.b.duel_failure:0 "Your negotiation efforts fail."
+
+ agot_colonization_events.1202.b.duel_failure:0 "Müzakere çabaların başarısız oluyor."
 ### TODO NOT-IN-ST: agot_colonization_events.1202.c [AGOT: I suppose I could pay their travel expenses...]
  agot_colonization_events.1202.c:0 "I suppose I could pay their travel expenses..."
 ### TODO NOT-IN-ST: agot_colonization_events.1203.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Brotherhood]
@@ -433,20 +433,20 @@
  agot_colonization_events.1203.a:0 "Surely you didn't think this would work?"
 ### TODO NOT-IN-ST: agot_colonization_events.1203.a.duel_success [AGOT: Your men slay the members of the Brotherhood.]
  agot_colonization_events.1203.a.duel_success:0 "Your men slay the members of the Brotherhood."
-### TODO NOT-IN-ST: agot_colonization_events.1203.a.duel_failure [AGOT: Your men are driven back by the bandits.]
- agot_colonization_events.1203.a.duel_failure:0 "Your men are driven back by the bandits."
+
+ agot_colonization_events.1203.a.duel_failure:0 "Adamların haydutlarca geri püskürtüldü."
 ### TODO NOT-IN-ST: agot_colonization_events.1203.b [AGOT: An interesting offer! But I have a much better one.]
  agot_colonization_events.1203.b:0 "An interesting offer! But I have a much better one."
 ### TODO NOT-IN-ST: agot_colonization_events.1203.b.duel_success [AGOT: You convince the guild to leave the colony for a fee.]
  agot_colonization_events.1203.b.duel_success:0 "You convince the guild to leave the colony for a fee."
-### TODO NOT-IN-ST: agot_colonization_events.1203.b.duel_failure [AGOT: Your negotiation efforts fail.]
- agot_colonization_events.1203.b.duel_failure:0 "Your negotiation efforts fail."
+
+ agot_colonization_events.1203.b.duel_failure:0 "Müzakere çabaların başarısız oluyor."
 ### TODO NOT-IN-ST: agot_colonization_events.1203.c [AGOT: Done! I will take your oaths of fealty here.]
  agot_colonization_events.1203.c:0 "Done! I will take your oaths of fealty here."
-### TODO NOT-IN-ST: agot_colonization_events.1203.success.toast.t [AGOT: Bandits Cleared]
- agot_colonization_events.1203.success.toast.t:0 "Bandits Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1203.failure.toast.t [AGOT: Bandits Remain]
- agot_colonization_events.1203.failure.toast.t:0 "Bandits Remain"
+
+ agot_colonization_events.1203.success.toast.t:0 "Haydutlar Temizlendi"
+
+ agot_colonization_events.1203.failure.toast.t:0 "Haydutlar Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1204.t [AGOT: [obstacle_province.GetNameNoTooltip]: Wildling Tribes]
  agot_colonization_events.1204.t:0 "[obstacle_province.GetNameNoTooltip]: Wildling Tribes"
 ### TODO NOT-IN-ST: agot_colonization_events.1204.desc [AGOT: Beyond the Wall has been sparsely inhabited for a long time now. The few who still call this cold place home are primitive, hardy, and stone-hearted. As [obstacle_province.GetName] grows, so too does the ire of the locals, as they have to compete for the few resources that can be found in the area.\n\nWhat was once tense stand-offs from a distance has started to escalate into small-scale skirmishes, cattle raids, and the occasional kidnapping for ransom. If these tribes decide to take matters into their own hands, there is a very real chance they might utterly destroy [obstacle_province.GetNameNoTooltip] if they launch a raid. Something must be done.]
@@ -465,10 +465,10 @@
  agot_colonization_events.1204.b.duel_failure:0 "Your negotiation efforts fail"
 ### TODO NOT-IN-ST: agot_colonization_events.1204.c [AGOT: As if these rag-wearing savages are any threat.]
  agot_colonization_events.1204.c:0 "As if these rag-wearing savages are any threat."
-### TODO NOT-IN-ST: agot_colonization_events.1204.success.toast.t [AGOT: Bandits Cleared]
- agot_colonization_events.1204.success.toast.t:0 "Bandits Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1204.failure.toast.t [AGOT: Bandits Remain]
- agot_colonization_events.1204.failure.toast.t:0 "Bandits Remain"
+
+ agot_colonization_events.1204.success.toast.t:0 "Haydutlar Temizlendi"
+
+ agot_colonization_events.1204.failure.toast.t:0 "Haydutlar Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1205.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Traitor]
  agot_colonization_events.1205.t:0 "[obstacle_province.GetNameNoTooltip]: The Traitor"
 ### TODO NOT-IN-ST: agot_colonization_events.1205.desc [AGOT: Work against the bandits of [obstacle_province.GetName] has been tough and slow, yet generally steady. Whereas previously camps of bandits and brigands dotted the wilderness, most of their outposts have now been destroyed. Yet, for the colonists, the threat still remains. The remaining bandits and survivors have banded together, forming one large camp.\n\nOne morning, a ragged, savage-looking [traitor.GetWomanMan] kneels before my throne.\n\n]
@@ -483,14 +483,14 @@
  agot_colonization_events.1205.b:0 "My soldiers shall curse the bandit scum."
 ### TODO NOT-IN-ST: agot_colonization_events.1205.b.duel_success [AGOT: Your men slay the bandits.]
  agot_colonization_events.1205.b.duel_success:0 "Your men slay the bandits."
-### TODO NOT-IN-ST: agot_colonization_events.1205.b.duel_failure [AGOT: Your men are driven back by the bandits.]
- agot_colonization_events.1205.b.duel_failure:0 "Your men are driven back by the bandits."
+
+ agot_colonization_events.1205.b.duel_failure:0 "Adamların haydutlarca geri püskürtüldü."
 ### TODO NOT-IN-ST: agot_colonization_events.1205.c [AGOT: I do not need your help.]
  agot_colonization_events.1205.c:0 "I do not need your help."
-### TODO NOT-IN-ST: agot_colonization_events.1205.success.toast.t [AGOT: Bandits Cleared]
- agot_colonization_events.1205.success.toast.t:0 "Bandits Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1205.failure.toast.t [AGOT: Bandits Remain]
- agot_colonization_events.1205.failure.toast.t:0 "Bandits Remain"
+
+ agot_colonization_events.1205.success.toast.t:0 "Haydutlar Temizlendi"
+
+ agot_colonization_events.1205.failure.toast.t:0 "Haydutlar Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1206.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Cunning Brigand]
  agot_colonization_events.1206.t:0 "[obstacle_province.GetNameNoTooltip]: The Cunning Brigand"
 ### TODO NOT-IN-ST: agot_colonization_events.1206.desc [AGOT: While going through the most recent reports from the settlement in [obstacle_province.GetName], I am surprised to find a letter addressed to me. It has been sent by [brigand.GetName], one of the leaders of the bandits that plague the region.\n\nThe contents of the letter are as bold as they are brazen: [brigand.GetFirstName] wishes for my permission to claim the settlement as [brigand.GetHerHis] own, in exchange for swearing fealty to me and becoming my vassal.\n\nWhile this is an unorthodox offer indeed, perhaps there is merit to be found here?]
@@ -623,10 +623,10 @@
  agot_colonization_events.1501.b.duel_failure:0 "Pirate raiders quickly strike again with deadly force"
 ### TODO NOT-IN-ST: agot_colonization_events.1501.c [AGOT: The pirates have made colonization here a fool's errand.]
  agot_colonization_events.1501.c:0 "The pirates have made colonization here a fool's errand."
-### TODO NOT-IN-ST: agot_colonization_events.1501.success.toast.t [AGOT: Pirate Remnants Cleared]
- agot_colonization_events.1501.success.toast.t:0 "Pirate Remnants Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1501.failure.toast.t [AGOT: Pirate Remnants Remain]
- agot_colonization_events.1501.failure.toast.t:0 "Pirate Remnants Remain"
+
+ agot_colonization_events.1501.success.toast.t:0 "Korsan Kalıntıları Temizlendi"
+
+ agot_colonization_events.1501.failure.toast.t:0 "Korsan Kalıntıları Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1502.t [AGOT: [obstacle_province.GetNameNoTooltip]: Shadows off the Shore]
  agot_colonization_events.1502.t:0 "[obstacle_province.GetNameNoTooltip]: Shadows off the Shore"
 ### TODO NOT-IN-ST: agot_colonization_events.1502.desc [AGOT: I awoke to strange news: this morning the fog had parted to reveal a weather-beaten vessel drifting along the coastline near [obstacle_province.GetName]. No traders were expected, and the colonists gathered on the shore, murmuring uneasily, unsure if the ship was abandoned, cursed, or some ill omen. Hours passed, yet the vessel lingered, adrift and silent.\n\nBy dusk, though no one had glimpsed a soul disembark, a warning was found pinned at the colony's gate with a rusty dagger.\n\n#italic We've come to take back what was stolen. Surrender your stores and ships, or drown beneath the tide.#!]
@@ -645,10 +645,10 @@
  agot_colonization_events.1502.b.duel_failure:0 "They take the coin and attack anyway"
 ### TODO NOT-IN-ST: agot_colonization_events.1502.c [AGOT: These pirates are proving to be more trouble than they're worth.]
  agot_colonization_events.1502.c:0 "These pirates are proving to be more trouble than they're worth."
-### TODO NOT-IN-ST: agot_colonization_events.1502.success.toast.t [AGOT: Pirate Remnants Cleared]
- agot_colonization_events.1502.success.toast.t:0 "Pirate Remnants Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1502.failure.toast.t [AGOT: Pirate Remnants Remain]
- agot_colonization_events.1502.failure.toast.t:0 "Pirate Remnants Remain"
+
+ agot_colonization_events.1502.success.toast.t:0 "Korsan Kalıntıları Temizlendi"
+
+ agot_colonization_events.1502.failure.toast.t:0 "Korsan Kalıntıları Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1503.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Pirate Commander]
  agot_colonization_events.1503.t:0 "[obstacle_province.GetNameNoTooltip]: The Pirate Commander"
 ### TODO NOT-IN-ST: agot_colonization_events.1503.desc [AGOT: [pirate_leader.GetName], one of the surviving pirate leaders, has rallied a band of stragglers and established a fortified encampment somewhere near [obstacle_province.GetNameNoTooltip]. [pirate_leader.GetSheHe|U] has sent word through an envoy to leave them be, or the colony will burn.\n\nA full assault could end in disaster but inaction could be just as dangerous.]
@@ -673,10 +673,10 @@
  agot_colonization_events.1503.c.duel_failure:0 "They take the gold and thank you for your \"donation\""
 ### TODO NOT-IN-ST: agot_colonization_events.1503.d [AGOT: If we leave them alone, surely they will do the same...]
  agot_colonization_events.1503.d:0 "If we leave them alone, surely they will do the same..."
-### TODO NOT-IN-ST: agot_colonization_events.1503.success.toast.t [AGOT: Pirate Remnants Cleared]
- agot_colonization_events.1503.success.toast.t:0 "Pirate Remnants Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1503.failure.toast.t [AGOT: Pirate Remnants Remain]
- agot_colonization_events.1503.failure.toast.t:0 "Pirate Remnants Remain"
+
+ agot_colonization_events.1503.success.toast.t:0 "Korsan Kalıntıları Temizlendi"
+
+ agot_colonization_events.1503.failure.toast.t:0 "Korsan Kalıntıları Kaldı"
 ### TODO NOT-IN-ST: agot_colonization_events.1504.t [AGOT: [obstacle_province.GetNameNoTooltip]: The Ambush]
  agot_colonization_events.1504.t:0 "[obstacle_province.GetNameNoTooltip]: The Ambush"
 ### TODO NOT-IN-ST: agot_colonization_events.1504.desc [AGOT: While conducting routine patrols near the coast, my men were ambushed by well-armed pirates. Hidden caves have served as a staging ground for raids. These stragglers are not aimless raiders; they're organized and deadly.\n\nIf we do not root them out now, they may overrun the settlement itself.]
@@ -689,7 +689,7 @@
  agot_colonization_events.1504.a.duel_failure:0 "Your men are slaughtered in the dark"
 ### TODO NOT-IN-ST: agot_colonization_events.1504.b [AGOT: Too dangerous. Post extra guards and pray they move on]
  agot_colonization_events.1504.b:0 "Too dangerous. Post extra guards and pray they move on"
-### TODO NOT-IN-ST: agot_colonization_events.1504.success.toast.t [AGOT: Pirate Remnants Cleared]
- agot_colonization_events.1504.success.toast.t:0 "Pirate Remnants Cleared"
-### TODO NOT-IN-ST: agot_colonization_events.1504.failure.toast.t [AGOT: Pirate Remnants Remain]
- agot_colonization_events.1504.failure.toast.t:0 "Pirate Remnants Remain"
+
+ agot_colonization_events.1504.success.toast.t:0 "Korsan Kalıntıları Temizlendi"
+
+ agot_colonization_events.1504.failure.toast.t:0 "Korsan Kalıntıları Kaldı"

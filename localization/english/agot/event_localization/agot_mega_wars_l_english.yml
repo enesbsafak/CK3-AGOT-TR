@@ -1,12 +1,12 @@
-﻿l_english:
-### TODO NOT-IN-ST: agot_mw_join_loyalists [AGOT: AI: Join Loyalists]
- agot_mw_join_loyalists:0 "AI: Join Loyalists"
-### TODO NOT-IN-ST: agot_mw_join_loyalists_desc [AGOT: AI: Join Loyalists]
- agot_mw_join_loyalists_desc:0 "AI: Join Loyalists"
-### TODO NOT-IN-ST: agot_mw_join_rebel [AGOT: AI: Join Rebels]
- agot_mw_join_rebel:0 "AI: Join Rebels"
-### TODO NOT-IN-ST: agot_mw_join_rebel_desc [AGOT: AI: Join Rebels]
- agot_mw_join_rebel_desc:0 "AI: Join Rebels"
+﻿﻿l_english:
+
+ agot_mw_join_loyalists:0 "AI: Sadıklara Katıl"
+
+ agot_mw_join_loyalists_desc:0 "AI: Sadıklara Katıl"
+
+ agot_mw_join_rebel:0 "AI: Asilere Katıl"
+
+ agot_mw_join_rebel_desc:0 "AI: Asilere Katıl"
 ### TODO NOT-IN-ST: AGOT_CANNOT_SWEAR_FEALTY_TO_PRE_WAR_LIEGE [AGOT: You may not swear fealty in the midst of a civil war.]
  AGOT_CANNOT_SWEAR_FEALTY_TO_PRE_WAR_LIEGE:0 "You may not swear fealty in the midst of a civil war."
 ### TODO NOT-IN-ST: MW_MEGA_WAR_STARTED_TITLE [AGOT: The Realm at War!]
@@ -51,8 +51,8 @@
  agot_mega_wars.0003.desc.c.4:0 "\n\n[ROOT.Char.GetLiege.GetTitledFirstName] has chosen to support the rebels..."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.desc.c.5 [AGOT: \n\n[ROOT.Char.GetLiege.GetTitledFirstName] has chosen to declare independence...]
  agot_mega_wars.0003.desc.c.5:0 "\n\n[ROOT.Char.GetLiege.GetTitledFirstName] has chosen to declare independence..."
-### TODO NOT-IN-ST: agot_mega_wars.0003.a [AGOT: The rebels will pay dearly for this.]
- agot_mega_wars.0003.a:0 "The rebels will pay dearly for this."
+
+ agot_mega_wars.0003.a:0 "Asiler bunun bedelini ağır ödeyecek."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.a.tt [AGOT: You betray [mw_rebel_leader.GetFullName] and [mw_rebel_leader.GetHerHis] conspirators.]
  agot_mega_wars.0003.a.tt:0 "You betray [mw_rebel_leader.GetFullName] and [mw_rebel_leader.GetHerHis] conspirators."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.a.dragonstone_positive [AGOT: I hope my soldiers will serve the [Select_CString(mw_crown.IsFemale,'queen','king')] well.]
@@ -63,14 +63,14 @@
  agot_mega_wars.0003.ba:0 "My choice has already been made..."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.bb [AGOT: The tides of war will decide...]
  agot_mega_wars.0003.bb:0 "The tides of war will decide..."
-### TODO NOT-IN-ST: agot_mega_wars.0003.bc [AGOT: I see no reason to get involved.]
- agot_mega_wars.0003.bc:0 "I see no reason to get involved."
+
+ agot_mega_wars.0003.bc:0 "İşin içine girmek için bir neden göremiyorum."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.b.tt [AGOT: You will not participate in this war and continue to support [mw_old_stance_leader.GetFullName].]
  agot_mega_wars.0003.b.tt:0 "You will not participate in this war and continue to support [mw_old_stance_leader.GetFullName]."
-### TODO NOT-IN-ST: agot_mega_wars.0003.c [AGOT: The rebellion's cause is righteous!]
- agot_mega_wars.0003.c:0 "The rebellion's cause is righteous!"
-### TODO NOT-IN-ST: agot_mega_wars.0003.c.tt [AGOT: You join the rebellion on the side of [mw_rebel_leader.GetFullName].]
- agot_mega_wars.0003.c.tt:0 "You join the rebellion on the side of [mw_rebel_leader.GetFullName]."
+
+ agot_mega_wars.0003.c:0 "İsyanın davası haklı!"
+
+ agot_mega_wars.0003.c.tt:0 "İsyana [mw_rebel_leader.GetFullName]'in tarafında katılıyorsun."
 ### TODO NOT-IN-ST: agot_mega_wars.0003.c.tt.independence [AGOT: Since this is a war for independence, you will also gain independence if you prevail!]
  agot_mega_wars.0003.c.tt.independence:0 "Since this is a war for independence, you will also gain independence if you prevail!"
 ### TODO NOT-IN-ST: agot_mega_wars.0003.da [AGOT: I shall follow [ROOT.Char.GetLiege.GetTitledFirstName]!]
@@ -139,8 +139,8 @@
  agot_mega_wars.0012.a:0 "Then war it is!"
 ### TODO NOT-IN-ST: agot_mega_wars.0012.b [AGOT: A wise choice.]
  agot_mega_wars.0012.b:0 "A wise choice."
-### TODO NOT-IN-ST: agot_mega_wars.0020.opening [AGOT: A matter of loyalty...]
- agot_mega_wars.0020.opening:0 "A matter of loyalty..."
+
+ agot_mega_wars.0020.opening:0 "Bir sadakat meselesi..."
 ### TODO NOT-IN-ST: agot_mega_wars.0020.desc [AGOT: [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], for too long now [faction_target.GetName] rules [faction_targeted_title.GetName], even though it is you who is our rightful [ROOT.Char.Custom('GetQueenKing')]. I have therefore put forward my demands to [faction_target.GetTitledFirstName] to abdicate the throne to you. Unfortunately [faction_target.GetSheHe] has refused, and war is now inevitable.\nWill you lead us in this struggle?]
  agot_mega_wars.0020.desc:0 "[ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], for too long now [faction_target.GetName] rules [faction_targeted_title.GetName], even though it is you who is our rightful [ROOT.Char.Custom('GetQueenKing')]. I have therefore put forward my demands to [faction_target.GetTitledFirstName] to abdicate the throne to you. Unfortunately [faction_target.GetSheHe] has refused, and war is now inevitable.\nWill you lead us in this struggle?"
 ### TODO NOT-IN-ST: agot_mega_wars.0020.a [AGOT: I shall take what is mine by right!]
@@ -149,16 +149,16 @@
  agot_mega_wars.0020.b:0 "That's too risky. Go ahead but leave me out of this..."
 ### TODO NOT-IN-ST: agot_mega_wars.0020.c [AGOT: My hands are tied...]
  agot_mega_wars.0020.c:0 "My hands are tied..."
-### TODO NOT-IN-ST: agot_mega_wars.0021.opening [AGOT: A matter of loyalty...]
- agot_mega_wars.0021.opening:0 "A matter of loyalty..."
+
+ agot_mega_wars.0021.opening:0 "Bir sadakat meselesi..."
 ### TODO NOT-IN-ST: agot_mega_wars.0021.desc.a [AGOT: [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], at last my claim shall be pressed. May the days of [faction_target.GetFirstName] be counted and the rule of [faction_claimant.Custom('GetQueenKing')] [faction_claimant.GetFirstName] begin.\nI will lead us to victory!]
  agot_mega_wars.0021.desc.a:0 "[ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], at last my claim shall be pressed. May the days of [faction_target.GetFirstName] be counted and the rule of [faction_claimant.Custom('GetQueenKing')] [faction_claimant.GetFirstName] begin.\nI will lead us to victory!"
 ### TODO NOT-IN-ST: agot_mega_wars.0021.desc.b [AGOT: [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], at last my claim shall be pressed.\nAs things stand I can not support you in this struggle.]
  agot_mega_wars.0021.desc.b:0 "[ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetName], at last my claim shall be pressed.\nAs things stand I can not support you in this struggle."
 ### TODO NOT-IN-ST: agot_mega_wars.0021.a [AGOT: So shall it be.]
  agot_mega_wars.0021.a:0 "So shall it be."
-### TODO NOT-IN-ST: agot_mega_wars.0500.t [AGOT: To Be King or Not to Be King]
- agot_mega_wars.0500.t:0 "To Be King or Not to Be King"
+
+ agot_mega_wars.0500.t:0 "Kral Olmak ya da Olmamak"
 ### TODO NOT-IN-ST: agot_mega_wars.0500.desc.a [AGOT: I've emerged victorious after my war with the murderous [defender.GetHouse.GetBaseName] dynasty.]
  agot_mega_wars.0500.desc.a:0 "I've emerged victorious after my war with the murderous [defender.GetHouse.GetBaseName] dynasty."
 ### TODO NOT-IN-ST: agot_mega_wars.0500.desc.ba [AGOT: Forces loyal to me want to make #italic me#! [ROOT.Char.Custom('GetQueenKing')]. They say my claim would come from [claim_ancestor.GetFirstName] [claim_ancestor.GetDynastyName], my [ROOT.Char.Custom2('RelationToMe', claim_ancestor)]...]
@@ -187,24 +187,24 @@
  MEGA_WARS_0500_cb_TOOLTIP:0 "I am to choose a new ruler for [primary_target_title.GetName]."
 ### TODO NOT-IN-ST: agot_mega_wars.0500.cb [AGOT: I will choose someone else...]
  agot_mega_wars.0500.cb:0 "I will choose someone else..."
-### TODO NOT-IN-ST: agot_mega_wars.0501.t [AGOT: To Be King or Not to Be King]
- agot_mega_wars.0501.t:0 "To Be King or Not to Be King"
+
+ agot_mega_wars.0501.t:0 "Kral Olmak ya da Olmamak"
 ### TODO NOT-IN-ST: agot_mega_wars.0501.desc [AGOT: I carefully think about who will rule [primary_target_title.GetName] best...]
  agot_mega_wars.0501.desc:0 "I carefully think about who will rule [primary_target_title.GetName] best..."
-### TODO NOT-IN-ST: agot_mega_wars.0501.a [AGOT: ... is the natural choice.]
- agot_mega_wars.0501.a:0 "... is the natural choice."
+
+ agot_mega_wars.0501.a:0 "... doğal seçimdir."
 ### TODO NOT-IN-ST: MEGA_WARS_0501_a_TOOLTIP [AGOT: Your selection will respond to your choice.]
  MEGA_WARS_0501_a_TOOLTIP:0 "Your selection will respond to your choice."
-### TODO NOT-IN-ST: agot_mega_wars.0502.t [AGOT: To Be King or Not to Be King]
- agot_mega_wars.0502.t:0 "To Be King or Not to Be King"
+
+ agot_mega_wars.0502.t:0 "Kral Olmak ya da Olmamak"
 ### TODO NOT-IN-ST: agot_mega_wars.0502.desc [AGOT: [attacker.GetTitledFirstName] asks me to take the crown and rule [primary_target_title.GetName]. How will I respond?]
  agot_mega_wars.0502.desc:0 "[attacker.GetTitledFirstName] asks me to take the crown and rule [primary_target_title.GetName]. How will I respond?"
 ### TODO NOT-IN-ST: agot_mega_wars.0502.a [AGOT: Send a raven... I agree.]
  agot_mega_wars.0502.a:0 "Send a raven... I agree."
 ### TODO NOT-IN-ST: agot_mega_wars.0502.b [AGOT: I have other obligations...]
  agot_mega_wars.0502.b:0 "I have other obligations..."
-### TODO NOT-IN-ST: agot_mega_wars.0503.t [AGOT: To Be King or Not to Be King]
- agot_mega_wars.0503.t:0 "To Be King or Not to Be King"
+
+ agot_mega_wars.0503.t:0 "Kral Olmak ya da Olmamak"
 ### TODO NOT-IN-ST: agot_mega_wars.0503.desc.a [AGOT: As I have now ascended the Iron Throne I must decide who will rule [old_demesne_main_title.GetName] in my stead...]
  agot_mega_wars.0503.desc.a:0 "As I have now ascended the Iron Throne I must decide who will rule [old_demesne_main_title.GetName] in my stead... "
 ### TODO NOT-IN-ST: agot_mega_wars.0503.desc.ba [AGOT: There are my brothers, Stannis and Renly.]
@@ -225,12 +225,12 @@
  agot_mega_wars.0503.d:0 "I'll keep it."
 ### TODO NOT-IN-ST: agot_mega_wars.0503.desc.msg [AGOT: [old_demesne_main_title.GetName] was granted to [old_demesne_main_title.GetHolder.GetLadyLord|U] [old_demesne_main_title.GetHolder.GetFirstName].]
  agot_mega_wars.0503.desc.msg:0 "[old_demesne_main_title.GetName] was granted to [old_demesne_main_title.GetHolder.GetLadyLord|U] [old_demesne_main_title.GetHolder.GetFirstName]."
-### TODO NOT-IN-ST: agot_mega_wars.0504.t [AGOT: To Be King or Not to Be King]
- agot_mega_wars.0504.t:0 "To Be King or Not to Be King"
+
+ agot_mega_wars.0504.t:0 "Kral Olmak ya da Olmamak"
 ### TODO NOT-IN-ST: agot_mega_wars.0504.desc [AGOT: I carefully think about who will rule [old_demesne_main_title.GetName] best...]
  agot_mega_wars.0504.desc:0 "I carefully think about who will rule [old_demesne_main_title.GetName] best..."
-### TODO NOT-IN-ST: agot_mega_wars.0504.a [AGOT: ... is the natural choice.]
- agot_mega_wars.0504.a:0 "... is the natural choice."
+
+ agot_mega_wars.0504.a:0 "... doğal seçimdir."
 ### TODO NOT-IN-ST: agot_mega_wars.0504.b [AGOT: Maybe someone else is more fitting...]
  agot_mega_wars.0504.b:0 "Maybe someone else is more fitting..."
 ### TODO NOT-IN-ST: agot_mega_wars.0505.t [AGOT: The Dragonstone Matter]
@@ -247,8 +247,8 @@
  agot_mega_wars.0506.t:0 "Royal Aftermath"
 ### TODO NOT-IN-ST: agot_mega_wars.0506.desc [AGOT: The war is won; the royal family deposed. The banner of the usurper now flies above King's Landing.\n\nNow, a difficult decision must be made: What to do with the former royal family? PLACEHOLDER Decide what to do with the former royal family; Leave them be, kill them all, expel them]
  agot_mega_wars.0506.desc:0 "The war is won; the royal family deposed. The banner of the usurper now flies above King's Landing.\n\nNow, a difficult decision must be made: What to do with the former royal family? PLACEHOLDER Decide what to do with the former royal family; Leave them be, kill them all, expel them"
-### TODO NOT-IN-ST: agot_mega_wars.0506.a [AGOT: Leave them be.]
- agot_mega_wars.0506.a:0 "Leave them be."
+
+ agot_mega_wars.0506.a:0 "Onları rahat bırak."
 ### TODO NOT-IN-ST: agot_mega_wars.0506.b [AGOT: Kill them all.]
  agot_mega_wars.0506.b:0 "Kill them all."
 ### TODO NOT-IN-ST: agot_mega_wars.0506.c [AGOT: Expel them from the realm.]
@@ -271,16 +271,16 @@
  agot_mega_wars.0510.a:0 "I shall keep my ambitions to myself."
 ### TODO NOT-IN-ST: agot_mega_wars.0510.b [AGOT: I wonder how [primary_target_title.GetHolder.GetTitledFirstName] will rule...]
  agot_mega_wars.0510.b:0 "I wonder how [primary_target_title.GetHolder.GetTitledFirstName] will rule..."
-### TODO NOT-IN-ST: agot_mega_wars.0600.t [AGOT: The War's Aftermath]
- agot_mega_wars.0600.t:0 "The War's Aftermath"
+
+ agot_mega_wars.0600.t:0 "Savaşın Ardından"
 ### TODO NOT-IN-ST: agot_mega_wars.0600.desc [AGOT: At long last, we have achieved victory in the face of those who sought to rebel against me and disrupt my righteous rule. Now that the traitors are within my grasp, the time has come to choose what fate shall befall them. Whether to show them mercy or to punish them for their transgressions...]
  agot_mega_wars.0600.desc:0 "At long last, we have achieved victory in the face of those who sought to rebel against me and disrupt my righteous rule. Now that the traitors are within my grasp, the time has come to choose what fate shall befall them. Whether to show them mercy or to punish them for their transgressions... "
 ### TODO NOT-IN-ST: agot_pui_events.0600.desc.mw_rebels_won [AGOT: Against all odds, we have overthrown the tyrants who once claimed the throne, shattering their grip on power and securing my place as the rightful ruler. The halls of power now stand open to us, and those who opposed our cause lie defeated.\n\nThe time has come to decide the fate of those who sought to keep us in chains. Shall we show mercy, or shall justice be meted out for the suffering they have caused?]
  agot_pui_events.0600.desc.mw_rebels_won:0 "Against all odds, we have overthrown the tyrants who once claimed the throne, shattering their grip on power and securing my place as the rightful ruler. The halls of power now stand open to us, and those who opposed our cause lie defeated.\n\nThe time has come to decide the fate of those who sought to keep us in chains. Shall we show mercy, or shall justice be meted out for the suffering they have caused?"
 ### TODO NOT-IN-ST: agot_mega_wars.0600.a [AGOT: Bring them before me!]
  agot_mega_wars.0600.a:0 "Bring them before me!"
-### TODO NOT-IN-ST: agot_mega_wars.0601.t [AGOT: The War's Aftermath]
- agot_mega_wars.0601.t:0 "The War's Aftermath"
+
+ agot_mega_wars.0601.t:0 "Savaşın Ardından"
 ### TODO NOT-IN-ST: agot_mega_wars.0601.desc [AGOT: [selected_traitor.GetTitledFirstName] kneels before me, ready to receive my judgment for [selected_traitor.GetHerHis] treachery. There are many options before me as to what punishment [selected_traitor.GetSheHe] should receive; some mild, some severe. Which to choose will depend on just how severe [selected_traitor.GetHerHis] treachery against the throne was.]
  agot_mega_wars.0601.desc:0 "[selected_traitor.GetTitledFirstName] kneels before me, ready to receive my judgment for [selected_traitor.GetHerHis] treachery. There are many options before me as to what punishment [selected_traitor.GetSheHe] should receive; some mild, some severe. Which to choose will depend on just how severe [selected_traitor.GetHerHis] treachery against the throne was."
 ### TODO NOT-IN-ST: agot_mega_wars.0601.a [AGOT: [selected_traitor.GetLiege.GetTitledFirstNameNoTooltip] will decide [selected_traitor.GetHerHis] punishment.]
@@ -385,16 +385,16 @@
  AGOT_MW_TRAITORS_SEC_TITLES_TT:0 "There are no valid secondary titles available."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_SPEC_TITLES_TT [AGOT: There are no valid titles available.]
  AGOT_MW_TRAITORS_SPEC_TITLES_TT:0 "There are no valid titles available."
-### TODO NOT-IN-ST: AGOT_MW_TRAITORS_MAIN_TITLES_neg_TT [AGOT: Can not be combined with taking the entire demesne.]
- AGOT_MW_TRAITORS_MAIN_TITLES_neg_TT:0 "Can not be combined with taking the entire demesne."
+
+ AGOT_MW_TRAITORS_MAIN_TITLES_neg_TT:0 "Tüm hanedan topraklarını almakla birleştirilemez."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_ENTIRE_DEM_neg_TT [AGOT: Can not be combined with taking half the demesne or the main titles.]
  AGOT_MW_TRAITORS_ENTIRE_DEM_neg_TT:0 "Can not be combined with taking half the demesne or the main titles."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_BLOCK_TITLE_SEPTON_neg_TT [AGOT: You can not take titles from the High Septon.]
  AGOT_MW_TRAITORS_BLOCK_TITLE_SEPTON_neg_TT:0 "You can not take titles from the High Septon."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_DEMESNE_CAPITAL_TT [AGOT: Exclude the capital county from your seize selection.]
  AGOT_MW_TRAITORS_DEMESNE_CAPITAL_TT:0 "Exclude the capital county from your seize selection."
-### TODO NOT-IN-ST: AGOT_MW_TRAITORS_HALF_DEM_neg_TT [AGOT: Can not be combined with taking the entire demesne.]
- AGOT_MW_TRAITORS_HALF_DEM_neg_TT:0 "Can not be combined with taking the entire demesne."
+
+ AGOT_MW_TRAITORS_HALF_DEM_neg_TT:0 "Tüm hanedan topraklarını almakla birleştirilemez."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_ARTIFACT_TT [AGOT: There are no valid artifacts available.]
  AGOT_MW_TRAITORS_ARTIFACT_TT:0 "There are no valid artifacts available."
 ### TODO NOT-IN-ST: AGOT_MW_TRAITORS_EXECUTION_WALL_TT [AGOT: You are already sending this character to the Wall.]
@@ -413,12 +413,12 @@
  AGOT_MW_TRAITORS_EXPELLED_TO_ESSOS_TT:0 "[t_mw_expelled_char.GetFirstName] shall be expelled to Essos."
 ### TODO NOT-IN-ST: mw_tab_name_header [AGOT: Civil War]
  mw_tab_name_header:0 "Civil War"
-### TODO NOT-IN-ST: AGOT_MW_VIEW_GUI_LOYALIST [AGOT: Loyalists]
- AGOT_MW_VIEW_GUI_LOYALIST:0 "Loyalists"
-### TODO NOT-IN-ST: AGOT_MW_VIEW_GUI_NEUTRAL [AGOT: Neutrals]
- AGOT_MW_VIEW_GUI_NEUTRAL:0 "Neutrals"
-### TODO NOT-IN-ST: AGOT_MW_VIEW_GUI_REBEL [AGOT: Rebels]
- AGOT_MW_VIEW_GUI_REBEL:0 "Rebels"
+
+ AGOT_MW_VIEW_GUI_LOYALIST:0 "Sadıklar"
+
+ AGOT_MW_VIEW_GUI_NEUTRAL:0 "Tarafsızlar"
+
+ AGOT_MW_VIEW_GUI_REBEL:0 "Asiler"
 ### TODO NOT-IN-ST: AGOT_MW_VIEW_GUI_JOIN [AGOT: Join]
  AGOT_MW_VIEW_GUI_JOIN:0 "Join"
 ### TODO NOT-IN-ST: AGOT_MW_VIEW_GUI_SHOW_REBEL_LEADERS [AGOT: Show Rebel Leaders]
@@ -435,8 +435,8 @@
  AGOT_MW_STAY_NEUTRAL_diarch:0 "[mw_diarch_target.GetTitledFirstName] stays neutral."
 ### TODO NOT-IN-ST: AGOT_MW_SWITCH_SIDE_TO_REBEL [AGOT: [mw_choosing_ruler.GetName] from now on supports [mw_rebel_leader.GetTitledFirstName].]
  AGOT_MW_SWITCH_SIDE_TO_REBEL:0 "[mw_choosing_ruler.GetName] from now on supports [mw_rebel_leader.GetTitledFirstName]."
-### TODO NOT-IN-ST: AGOT_MW_JOIN_REBEL_LEADER [AGOT: You join the rebellion on the side of [mw_rebel_leader.GetFullName].]
- AGOT_MW_JOIN_REBEL_LEADER:0 "You join the rebellion on the side of [mw_rebel_leader.GetFullName]."
+
+ AGOT_MW_JOIN_REBEL_LEADER:0 "İsyana [mw_rebel_leader.GetFullName]'in tarafında katılıyorsun."
 ### TODO NOT-IN-ST: AGOT_MW_JOIN_REBEL_LEADER_diarch [AGOT: [mw_diarch_target.GetTitledFirstName] joins the rebellion on the side of [mw_rebel_leader.GetFullName].]
  AGOT_MW_JOIN_REBEL_LEADER_diarch:0 "[mw_diarch_target.GetTitledFirstName] joins the rebellion on the side of [mw_rebel_leader.GetFullName]."
 ### TODO NOT-IN-ST: AGOT_MW_START_MID_WAR [AGOT: [war.GetName] will turn into a [Concept('agot_mega_wars', 'Mega War')|E].]

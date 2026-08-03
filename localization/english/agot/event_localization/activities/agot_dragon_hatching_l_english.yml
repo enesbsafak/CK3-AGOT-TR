@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: activity_dragon_hatching [AGOT: Dragon Egg Hatching]
  activity_dragon_hatching:0 "Dragon Egg Hatching"
 ### TODO NOT-IN-ST: activity_dragon_hatching_host_an_a [AGOT: $host_activity_a$]
@@ -69,8 +69,8 @@
  hatching_sacrifice_animal:0 "Animal"
 ### TODO NOT-IN-ST: hatching_sacrifice_animal_desc [AGOT: You will use the life of an animal as the source of power for this hatching. The animal to be sacrificed will be chosen when the time comes.]
  hatching_sacrifice_animal_desc:0 "You will use the life of an animal as the source of power for this hatching. The animal to be sacrificed will be chosen when the time comes."
-### TODO NOT-IN-ST: hatching_sacrifice_blood [AGOT: Blood]
- hatching_sacrifice_blood:0 "Blood"
+
+ hatching_sacrifice_blood:0 "Kan"
 ### TODO NOT-IN-ST: hatching_sacrifice_blood_desc [AGOT: You will use the power of blood as the source of power for this hatching. You will be able to select the source of the blood when the time comes.]
  hatching_sacrifice_blood_desc:0 "You will use the power of blood as the source of power for this hatching. You will be able to select the source of the blood when the time comes."
 ### TODO NOT-IN-ST: hatching_sacrifice_life [AGOT: Life]
@@ -83,12 +83,12 @@
  hatching_catalyst_minor:0 "Simple"
 ### TODO NOT-IN-ST: hatching_catalyst_minor_desc [AGOT: You will use a simple source of heat as the catalyst for this hatching, with no trimmings or ceremony required.]
  hatching_catalyst_minor_desc:0 "You will use a simple source of heat as the catalyst for this hatching, with no trimmings or ceremony required."
-### TODO NOT-IN-ST: hatching_catalyst_medium [AGOT: Appropriate]
- hatching_catalyst_medium:0 "Appropriate"
+
+ hatching_catalyst_medium:0 "Uygun"
 ### TODO NOT-IN-ST: hatching_catalyst_medium_desc [AGOT: With an appropriate housing and pomp of placement, you will perform the hatching ceremony with a catalyst befitting the occasion.]
  hatching_catalyst_medium_desc:0 "With an appropriate housing and pomp of placement, you will perform the hatching ceremony with a catalyst befitting the occasion."
-### TODO NOT-IN-ST: hatching_catalyst_major [AGOT: Grand]
- hatching_catalyst_major:0 "Grand"
+
+ hatching_catalyst_major:0 "Büyük"
 ### TODO NOT-IN-ST: hatching_catalyst_major_desc [AGOT: With the large amount of resources and effort put into the ceremony, you will heat the egg in a specially made housing with a grand procession to accompany the event.]
  hatching_catalyst_major_desc:0 "With the large amount of resources and effort put into the ceremony, you will heat the egg in a specially made housing with a grand procession to accompany the event."
 ### TODO NOT-IN-ST: hatching_catalyst_massive [AGOT: Massive]
@@ -129,14 +129,14 @@
  agot_hatching_fail_guest:0 "[host.GetName] has failed to hatch [host.GetHerHis] dragon egg."
 ### TODO NOT-IN-ST: hatching_cannot_be_held [AGOT: Due to current events, a hatching activity cannot be held until 1st of Twelfth Moon, 268 A.C.]
  hatching_cannot_be_held:0 "Due to current events, a hatching activity cannot be held until 1st of Twelfth Moon, 268 A.C."
-### TODO NOT-IN-ST: agot_dragon_hatching.0001.t [AGOT: Preparations]
- agot_dragon_hatching.0001.t:0 "Preparations"
+
+ agot_dragon_hatching.0001.t:0 "Hazırlıklar"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0001.desc [AGOT: I have sent out missives to the greatest academic minds of the land to be summoned to [province.GetName] in order to aid in my pursuit of hatching my dragon egg. Already I am receiving responses from maesters and those well-studied in dragonlore.\n\nMany are skeptical yet earnest in their curiosity in seeing a dragon egg hatch, while others are eager to put their knowledge to the test to bring forth a dragon into the world. Those honored to help with such a grand venture are already on their way to [province.GetNameNoTooltip].]
  agot_dragon_hatching.0001.desc:0 "I have sent out missives to the greatest academic minds of the land to be summoned to [province.GetName] in order to aid in my pursuit of hatching my dragon egg. Already I am receiving responses from maesters and those well-studied in dragonlore.\n\nMany are skeptical yet earnest in their curiosity in seeing a dragon egg hatch, while others are eager to put their knowledge to the test to bring forth a dragon into the world. Those honored to help with such a grand venture are already on their way to [province.GetNameNoTooltip]."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0001.opt.a [AGOT: With plenty of knowledge and a little luck, we may yet succeed.]
  agot_dragon_hatching.0001.opt.a:0 "With plenty of knowledge and a little luck, we may yet succeed."
-### TODO NOT-IN-ST: agot_dragon_hatching.0002.t [AGOT: Preparations]
- agot_dragon_hatching.0002.t:0 "Preparations"
+
+ agot_dragon_hatching.0002.t:0 "Hazırlıklar"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0002.desc [AGOT: I have sent out summons to the famed minds of sorcery and magic in the world to make their way to [province.GetName] to lend their art to my cause. I sift through the responses from warlocks in Qarth and maegi from Qohor, among other names from the more exotic corners of the world, making a note of the most reputable and knowledgeable of them excited to assist in such ambitious magics.\n\nWith my esoteric guests on their way, it is high time I am on mine.]
  agot_dragon_hatching.0002.desc:0 "I have sent out summons to the famed minds of sorcery and magic in the world to make their way to [province.GetName] to lend their art to my cause. I sift through the responses from warlocks in Qarth and maegi from Qohor, among other names from the more exotic corners of the world, making a note of the most reputable and knowledgeable of them excited to assist in such ambitious magics.\n\nWith my esoteric guests on their way, it is high time I am on mine."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0002.opt.a [AGOT: One must look to unconventional means to achieve unconventional goals.]
@@ -255,10 +255,10 @@
  agot_dragon_hatching.0009.opt.d:0 "[prisoner_blood_sacrifice.GetFirstName] cannot object..."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0009.opt.d_tt [AGOT: #bold;V [prisoner_blood_sacrifice.GetShortUINamePossessiveNoTooltip] blood#! will be the source of power for this hatching]
  agot_dragon_hatching.0009.opt.d_tt:0 "#bold;V [prisoner_blood_sacrifice.GetShortUINamePossessiveNoTooltip] blood#! will be the source of power for this hatching"
-### TODO NOT-IN-ST: agot_dragon_hatching.0009.opt.e [AGOT: On second thought, there's another way.]
- agot_dragon_hatching.0009.opt.e:0 "On second thought, there's another way."
-### TODO NOT-IN-ST: agot_dragon_hatching.0009.opt.e_tt [AGOT: You will return to the blood options screen.]
- agot_dragon_hatching.0009.opt.e_tt:0 "You will return to the blood options screen."
+
+ agot_dragon_hatching.0009.opt.e:0 "Bir düşününce, başka bir yol var."
+
+ agot_dragon_hatching.0009.opt.e_tt:0 "Kan seçenekleri ekranına geri döneceksin."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0010.t [AGOT: $agot_dragon_hatching.0009.t$]
  agot_dragon_hatching.0010.t:0 "$agot_dragon_hatching.0009.t$"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0010.desc [AGOT: It is well known that the Valyrians used bloodmagic to hatch their dragons. The learned gathering in the room debate how much, while the more mystical among us are certain that a similar tribute is the most likely to be successful.\n\nI expected [host.GetTitledFirstName] to bleed some animal or prisoner, but instead [host.GetSheHe] has asked us all to open our own veins for the ceremony!]
@@ -309,10 +309,10 @@
  agot_dragon_hatching.0011.opt.e:0 "#N;bold Our corpse pile will be the ashes from which the dragon rises!#!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0011.opt.e_tt [AGOT: #warning The life of all present will be the source of power for this hatching#!]
  agot_dragon_hatching.0011.opt.e_tt: "#warning The life of all present will be the source of power for this hatching#!"
-### TODO NOT-IN-ST: agot_dragon_hatching.0011.opt.f [AGOT: On second thought, there's another way.]
- agot_dragon_hatching.0011.opt.f:0 "On second thought, there's another way."
-### TODO NOT-IN-ST: agot_dragon_hatching.0011.opt.f_tt [AGOT: You will return to the blood options screen.]
- agot_dragon_hatching.0011.opt.f_tt:0 "You will return to the blood options screen."
+
+ agot_dragon_hatching.0011.opt.f:0 "Bir düşününce, başka bir yol var."
+
+ agot_dragon_hatching.0011.opt.f_tt:0 "Kan seçenekleri ekranına geri döneceksin."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0012.t [AGOT: $agot_dragon_hatching.0011.t$]
  agot_dragon_hatching.0012.t:0 "$agot_dragon_hatching.0011.t$"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0012.desc_knowledge [AGOT: The choice of prisoner is one that I must consider carefully, for many in attendance are already uneasy at the thought of a life being taken for the hatching. Who I choose will be observed by all, and I must take care to choose wisely.]
@@ -323,10 +323,10 @@
  agot_dragon_hatching.0012.opt.a:0 "They cannot object, after all..."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0012.opt.a_tt [AGOT: #bold;V The selected prisoner's life#! will be the source of power for this hatching]
  agot_dragon_hatching.0012.opt.a_tt: "#bold;V The selected prisoner's life#! will be the source of power for this hatching"
-### TODO NOT-IN-ST: agot_dragon_hatching.0012.opt.b [AGOT: On second thought, there are other options.]
- agot_dragon_hatching.0012.opt.b:0 "On second thought, there are other options."
-### TODO NOT-IN-ST: agot_dragon_hatching.0012.opt.b_tt [AGOT: You will go back and choose another sacrifice]
- agot_dragon_hatching.0012.opt.b_tt:0 "You will go back and choose another sacrifice"
+
+ agot_dragon_hatching.0012.opt.b:0 "Bir düşününce, başka seçenekler var."
+
+ agot_dragon_hatching.0012.opt.b_tt:0 "Geri dönüp başka bir kurban seçeceksin"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0013.t [AGOT: The Source of Power]
  agot_dragon_hatching.0013.t:0 "The Source of Power"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0013.desc_opening_knowledge [AGOT: The maesters and scholars gathered are a wellspring of knowledge not often assembled in one place. As well-known among men of letters, they love to debate and discuss the finer points of their craft. The topic of the day is the source of power for the hatching, and the debate is fierce. In the end, it is for [host.GetTitledFirstName] to decide what should be used.\n\n]
@@ -429,8 +429,8 @@
  agot_dragon_hatching.0015.opt.a_coward:0 "Thank the gods for that!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0015.opt.a_bold [AGOT: I can't believe [host.GetSheHe] backed out!]
  agot_dragon_hatching.0015.opt.a_bold:0 "I can't believe [host.GetSheHe] backed out!"
-### TODO NOT-IN-ST: agot_dragon_hatching.0016.t [AGOT: The Ceremony]
- agot_dragon_hatching.0016.t:0 "The Ceremony"
+
+ agot_dragon_hatching.0016.t:0 "Tören"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0016.desc_opening_craven [AGOT: My hand trembles, and I grab it with my other to steady it.]
  agot_dragon_hatching.0016.desc_opening_craven:0 "My hand trembles, and I grab it with my other to steady it."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0016.desc_opening_normal [AGOT: The air is thick with anticipation, the people gathered sharing spoken and unspoken excitement.]
@@ -535,7 +535,7 @@
  agot_dragon_hatching.0016.desc_life_everyone_me:0 "I look to my guests, each in turn, then to my guards. With a nod, they begin to bring each forward. Cries of protest, anger, and fear fill the room as each is brought before the egg, the blade pressed against their throats, and their lives given for the hatching. I stand before the egg, the blood of all present pooling around me, before at last it is my turn. The instructions are clear; with this, we must surely succeed.\n\nI close my eyes, feel the blade drag across my throat, and then there is nothing..."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0016.desc_life_everyone_oh_no [AGOT: Still no word as to what is to be sacrificed, I am shocked as the guards draw their steel and begin to bring each forward. Cries of protest, anger, and fear fill the room, my own voice among them. Yet before my very eyes, each is brought before the egg, the blade pressed against their throats, and their lives given for the hatching. I object, but my cries are ignored. I fight, but my struggles are in vain. With a last look of hate and defiance, I am brought before the egg, the blade pressed against my throat, and my life given for the hatching...]
  agot_dragon_hatching.0016.desc_life_everyone_oh_no:0 "Still no word as to what is to be sacrificed, I am shocked as the guards draw their steel and begin to bring each forward. Cries of protest, anger, and fear fill the room, my own voice among them. Yet before my very eyes, each is brought before the egg, the blade pressed against their throats, and their lives given for the hatching. I object, but my cries are ignored. I fight, but my struggles are in vain. With a last look of hate and defiance, I am brought before the egg, the blade pressed against my throat, and my life given for the hatching..."
-### TODO NOT-IN-ST: agot_dragon_hatching.0016.desc_newline [AGOT: \n\n]
+
  agot_dragon_hatching.0016.desc_newline:0 "\n\n"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0016.desc_minor_wood [AGOT: The wood is assembled in a pile, and the egg is placed atop it. The flames are lit, and the heat begins to rise.]
  agot_dragon_hatching.0016.desc_minor_wood:0 "The wood is assembled in a pile, and the egg is placed atop it. The flames are lit, and the heat begins to rise."
@@ -687,24 +687,24 @@
  agot_dragon_hatching.0018.opt.a:0 "Guards, seize them!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0018.opt.a_tt [AGOT: #bold;V The selected attendee's life#! will be the source of power for this hatching]
  agot_dragon_hatching.0018.opt.a_tt: "#bold;V The selected attendee's life#! will be the source of power for this hatching"
-### TODO NOT-IN-ST: agot_dragon_hatching.0018.opt.b [AGOT: On second thought, there are other options.]
- agot_dragon_hatching.0018.opt.b:0 "On second thought, there are other options."
-### TODO NOT-IN-ST: agot_dragon_hatching.0018.opt.b_tt [AGOT: You will go back and choose another sacrifice]
- agot_dragon_hatching.0018.opt.b_tt:0 "You will go back and choose another sacrifice"
+
+ agot_dragon_hatching.0018.opt.b:0 "Bir düşününce, başka seçenekler var."
+
+ agot_dragon_hatching.0018.opt.b_tt:0 "Geri dönüp başka bir kurban seçeceksin"
 ### TODO NOT-IN-ST: agot_dragon_hatchling.0018.toast.sacrifice_dead [AGOT: Sacrifice Is Dead]
  agot_dragon_hatchling.0018.toast.sacrifice_dead:0 "Sacrifice Is Dead"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.t [AGOT: The Sacrifice, Me?]
  agot_dragon_hatching.0019.t:0 "The Sacrifice, Me?"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.desc [AGOT: Nobody expected a dragon hatching to be without sacrifice, but as I see [host.GetTitledFirstNamePossessive] guards approach, I realize that I have been chosen!\n\nI have but a moment before I am taken — what shall I do?!]
  agot_dragon_hatching.0019.desc:0 "Nobody expected a dragon hatching to be without sacrifice, but as I see [host.GetTitledFirstNamePossessive] guards approach, I realize that I have been chosen!\n\nI have but a moment before I am taken — what shall I do?!"
-### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.escape.title [AGOT: Escape!]
- agot_dragon_hatching.0019.opt.escape.title:0 "Escape!"
+
+ agot_dragon_hatching.0019.opt.escape.title:0 "Kaç!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.escape.a_tt [AGOT: You cut your way to freedom]
  agot_dragon_hatching.0019.opt.escape.a_tt:0 "You cut your way to freedom"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.escape.b_tt [AGOT: You slip away in the confusion]
  agot_dragon_hatching.0019.opt.escape.b_tt:0 "You slip away in the confusion"
-### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.caught.title [AGOT: Caught!]
- agot_dragon_hatching.0019.opt.caught.title:0 "Caught!"
+
+ agot_dragon_hatching.0019.opt.caught.title:0 "Yakalandı!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.caught.a_tt [AGOT: You are disarmed and taken away]
  agot_dragon_hatching.0019.opt.caught.a_tt:0 "You are disarmed and taken away"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0019.opt.caught.b_tt [AGOT: Your ruse fails and you are taken away]
@@ -751,8 +751,8 @@
  agot_dragon_hatching.0303.t:0 "Breaking on Ambition's Anvil"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0303.desc [AGOT: #bold;italic *CRACK*#!\n\nThe sound is deafeningly loud. To a great chorus of disappointed shouts and sighs, the egg has split into pieces under the heat. My dreams — and my egg — are as shattered as the shell before me.]
  agot_dragon_hatching.0303.desc:0 "#bold;italic *CRACK*#!\n\nThe sound is deafeningly loud. To a great chorus of disappointed shouts and sighs, the egg has split into pieces under the heat. My dreams — and my egg — are as shattered as the shell before me."
-### TODO NOT-IN-ST: agot_dragon_hatching.0303.opt.a [AGOT: Damn it all!]
- agot_dragon_hatching.0303.opt.a:0 "Damn it all!"
+
+ agot_dragon_hatching.0303.opt.a:0 "Kahretsin!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0304.t [AGOT: Efforts in Vain]
  agot_dragon_hatching.0304.t:0 "Efforts in Vain"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0304.desc [AGOT: The crowd stares with bated breath, expecting the egg to hatch, to move, to do #emp something#!. But nothing happens. It remains as it was, unbroken and unyielding.\n\nAs the coughs of disappointment and the whispers of failure fill the air, I must accept that my efforts have been in vain. With a heavy heart, I instruct the servants to remove the egg and begin the cleanup.]
@@ -771,8 +771,8 @@
  agot_dragon_hatching.0306.desc:0 "The crowd stares with bated breath, expecting the egg to hatch, to move, to do #emp something#!. But nothing happens. It remains as it was, unbroken and unyielding.\n\nAs the coughs of disappointment and the whispers of failure fill the air, [host.GetTitledFirstName] must accept that [host.GetHerHis] efforts have been in vain. I see [host.GetHerHim] direct the servants to remove the egg and begin the cleanup, and I can only shake my head in sympathy."
 ### TODO NOT-IN-ST: agot_dragon_hatching.0306.opt.a [AGOT: $agot_dragon_hatching.0305.opt.a$]
  agot_dragon_hatching.0306.opt.a:0 "$agot_dragon_hatching.0305.opt.a$"
-### TODO NOT-IN-ST: agot_dragon_hatching.0401.t [AGOT: A New Dawn]
- agot_dragon_hatching.0401.t:0 "A New Dawn"
+
+ agot_dragon_hatching.0401.t:0 "Yeni Bir Şafak"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0401.desc [AGOT: All is silent for a moment. The crowd holds its breath. It seems as though nothing will happen.... Then, the egg shudders, and cracks. A small, scaly head emerges, followed by a long, sinuous neck. The dragon within is born! A new age of dragons has begun, and I am the one who brought it about!]
  agot_dragon_hatching.0401.desc:0 "All is silent for a moment. The crowd holds its breath. It seems as though nothing will happen.... Then, the egg shudders, and cracks. A small, scaly head emerges, followed by a long, sinuous neck. The dragon within is born! A new age of dragons has begun, and I am the one who brought it about!"
 ### TODO NOT-IN-ST: agot_dragon_hatching.0401.opt.a [AGOT: Huzzah!]
@@ -843,16 +843,16 @@
  agot_dragon_hatching_dragonlore.0008.desc_pair:0 "I approach cautiously and behold two odd mud-caked stones. As I brush the dirt away my heart races — beneath my fingers, the soil gives way to shimmering scales, I hold no ordinary rock, but a dragon egg!\n\nHow long have they stayed hidden here?"
 ### TODO NOT-IN-ST: agot_dragon_hatching_dragonlore.0008.desc_single [AGOT: I come closer and lift a heavy muddied stone, and as I brush the dirt away my heart begins to race and my fingers start to tremble — I quickly realize I hold no mere stone, but a dragon egg!\n\nHow long has it stayed hidden here?]
  agot_dragon_hatching_dragonlore.0008.desc_single:0 "I come closer and lift a heavy muddied stone, and as I brush the dirt away my heart begins to race and my fingers start to tremble — I quickly realize I hold no mere stone, but a dragon egg!\n\nHow long has it stayed hidden here?"
-### TODO NOT-IN-ST: agot_dragon_hatching_dragonlore.0008.a [AGOT: Incredible!]
- agot_dragon_hatching_dragonlore.0008.a:0 "Incredible!"
+
+ agot_dragon_hatching_dragonlore.0008.a:0 "İnanılmaz!"
 ### TODO NOT-IN-ST: agot_dragon_hatching_dragonlore_increase [AGOT: Your Dragonlore Increases]
  agot_dragon_hatching_dragonlore_increase:0 "Your Dragonlore Increases"
 ### TODO NOT-IN-ST: agot_dragon_egg_lay.female_revealed [AGOT: \n\nOf course, having laid a clutch, we now know that [dragon_parent.GetNameNoTooltip] is in fact a female dragon.]
  agot_dragon_egg_lay.female_revealed: "\n\nOf course, having laid a clutch, we now know that [dragon_parent.GetNameNoTooltip] is in fact a female dragon."
 ### TODO NOT-IN-ST: agot_dragon_egg_lay.female_revealed_past [AGOT: \n\nOf course, having laid a clutch, we now know that [dragon_parent.GetNameNoTooltip] was in fact a female dragon.]
  agot_dragon_egg_lay.female_revealed_past: "\n\nOf course, having laid a clutch, we now know that [dragon_parent.GetNameNoTooltip] was in fact a female dragon."
-### TODO NOT-IN-ST: agot_dragon_egg_cradling.1001.t [AGOT: A Stone Egg]
- agot_dragon_egg_cradling.1001.t:0 "A Stone Egg"
+
+ agot_dragon_egg_cradling.1001.t:0 "Taş Yumurta"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.1001.desc [AGOT: Something has gone wrong.\n\nI hold my cold dragon egg over a brazier, trying to return some of the warmth that used to radiate from its scaled surface. The flame and smoke from the brazier heat the outside, but the life within is hidden — soon it will be nothing but a brightly colored stone. Destiny has denied me this dragon.\n\nDo I try with another?]
  agot_dragon_egg_cradling.1001.desc:0 "Something has gone wrong.\n\nI hold my cold dragon egg over a brazier, trying to return some of the warmth that used to radiate from its scaled surface. The flame and smoke from the brazier heat the outside, but the life within is hidden — soon it will be nothing but a brightly colored stone. Destiny has denied me this dragon.\n\nDo I try with another?"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.1001.a [AGOT: Bring me another egg.]
@@ -861,8 +861,8 @@
  agot_dragon_egg_cradling.1001.a.tt:0 "You will begin cradling [new_egg.GetName]"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.1001.b [AGOT: How can this be?]
  agot_dragon_egg_cradling.1001.b:0 "How can this be?"
-### TODO NOT-IN-ST: agot_dragon_egg_cradling.1002.t [AGOT: A Stone Egg]
- agot_dragon_egg_cradling.1002.t:0 "A Stone Egg"
+
+ agot_dragon_egg_cradling.1002.t:0 "Taş Yumurta"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.1002.young_desc [AGOT: I enter [egg_owner.GetNamePossessive] room, approaching where [egg_owner.GetHerHis] dragon egg is cradled, waiting to be hatched. I run my hands over the scaly surface of the egg, and shiver as I feel nothing but cold stone beneath my palm. The usual warmth is all but gone, and the dragon inside is likely lost, never to hatch at all.\n\nShall I give [egg_owner.GetHerHim] another egg to try?]
  agot_dragon_egg_cradling.1002.young_desc:0 "I enter [egg_owner.GetNamePossessive] room, approaching where [egg_owner.GetHerHis] dragon egg is cradled, waiting to be hatched. I run my hands over the scaly surface of the egg, and shiver as I feel nothing but cold stone beneath my palm. The usual warmth is all but gone, and the dragon inside is likely lost, never to hatch at all.\n\nShall I give [egg_owner.GetHerHim] another egg to try?"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.1002.desc [AGOT: I enter [egg_owner.GetNamePossessive] chambers, only to see [egg_owner.GetHerHim] sitting beside the fireplace at the edge of the room, clutching [egg_owner.GetHerHis] dragon egg just over the flames. Tendrils of fire lick along the bottom of the scaly surface, and smoke dims the usual bright color of the egg.]
@@ -927,8 +927,8 @@
  agot_dragon_egg_cradling.2002.a:0 "This egg will do."
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.2002.a.tt [AGOT: [child.GetNameNoTooltip] will begin cradling with the [cradle_egg.GetName].]
  agot_dragon_egg_cradling.2002.a.tt:0 "[child.GetNameNoTooltip] will begin cradling with the [cradle_egg.GetName]."
-### TODO NOT-IN-ST: agot_dragon_egg_cradling.2002.b [AGOT: I have changed my mind.]
- agot_dragon_egg_cradling.2002.b:0 "I have changed my mind."
+
+ agot_dragon_egg_cradling.2002.b:0 "Fikrimi değiştirdim."
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.2012.t [AGOT: $agot_dragon_egg_cradling.2001.t.two$]
  agot_dragon_egg_cradling.2012.t:0 "$agot_dragon_egg_cradling.2001.t.two$"
 ### TODO NOT-IN-ST: agot_dragon_egg_cradling.2012.desc.intro [AGOT: I stare down at the twins, [child_1.GetName] and [child_2.GetName], in wonder; look what we have made. Each deserves the whole world, and hopefully, one day, that will include the skies. $agot_dragon_egg_cradling.2000.desc_targ$ [other_parent.GetTitledFirstNameNoTooltip] and I each possess an egg, just enough for the pair of them.]

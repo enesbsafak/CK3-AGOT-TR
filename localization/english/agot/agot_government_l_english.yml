@@ -1,16 +1,16 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: government_is_free_city [AGOT: [government|E] type is [GetGovernment( 'administrative_government' ).GetName]]
  government_is_free_city:0 "[government|E] type is [GetGovernment( 'administrative_government' ).GetName]"
 ### TODO NOT-IN-ST: lp_feudal_government_with_icon [AGOT: @government_type_feudal! $lp_feudal_government$]
  lp_feudal_government_with_icon:0 "@government_type_feudal! $lp_feudal_government$"
-### TODO NOT-IN-ST: lp_feudal_government [AGOT: Feudal Paramountcy]
- lp_feudal_government:0 "Feudal Paramountcy"
+
+ lp_feudal_government:0 "Feodal Üstünlük"
 ### TODO NOT-IN-ST: lp_feudal_government_adjective [AGOT: Feudal Paramount]
  lp_feudal_government_adjective:0 "Feudal Paramount"
 ### TODO NOT-IN-ST: lp_feudal_government_realm [AGOT: Feudal Realm]
  lp_feudal_government_realm:0 "Feudal Realm"
-### TODO NOT-IN-ST: lp_feudal_government_filter_option [AGOT: Feudal Paramountcy]
- lp_feudal_government_filter_option:0 "Feudal Paramountcy"
+
+ lp_feudal_government_filter_option:0 "Feodal Üstünlük"
 ### TODO NOT-IN-ST: lp_feudal_government_filter_option_desc [AGOT: Only show characters with Feudal Paramountcy [government|E]]
  lp_feudal_government_filter_option_desc:0 "Only show characters with Feudal Paramountcy [government|E]"
 ### TODO NOT-IN-ST: lp_feudal_government_vassals_label [AGOT: Feudal [obligations|E] are based on each [vassal|E]'s [vassal_contract|E]]
@@ -29,46 +29,46 @@
  free_city_election_succession_law_subname:0 "Elected, under Terms or Lifetime Appointments"
 ### TODO NOT-IN-ST: free_city_election_succession_law_effects [AGOT: \n#V Under $free_city_election_succession_law$, the ruler of the Free City will be chosen by the wealthiest and most influential citizens. Depending on the realm's laws, different groups may have more influence, and the term length can vary—some cities may even appoint a ruler for life.#!]
  free_city_election_succession_law_effects:0 "\n#V Under $free_city_election_succession_law$, the ruler of the Free City will be chosen by the wealthiest and most influential citizens. Depending on the realm's laws, different groups may have more influence, and the term length can vary—some cities may even appoint a ruler for life.#!"
-### TODO NOT-IN-ST: free_city_single_heir_succession_law [AGOT: Primogeniture]
- free_city_single_heir_succession_law:0 "Primogeniture"
-### TODO NOT-IN-ST: free_city_single_heir_succession_law_subname [AGOT: Primogeniture]
- free_city_single_heir_succession_law_subname:0 "Primogeniture"
-### TODO NOT-IN-ST: magisterial_life_succession_law [AGOT: Archonate Elective]
- magisterial_life_succession_law:0 "Archonate Elective"
-### TODO NOT-IN-ST: magisterial_life_succession_law_subname [AGOT: Magisterial]
- magisterial_life_succession_law_subname:0 "Magisterial"
-### TODO NOT-IN-ST: magisterial_life_elective_candidates [AGOT: Magisters]
- magisterial_life_elective_candidates:0 "Magisters"
-### TODO NOT-IN-ST: magisterial_life_elective_candidates_tooltip [AGOT: The wealthy and powerful of the Free Cities are known as the magisters]
- magisterial_life_elective_candidates_tooltip:0 "The wealthy and powerful of the Free Cities are known as the magisters"
-### TODO NOT-IN-ST: magisterial_life_elective_electors [AGOT: Magisters]
- magisterial_life_elective_electors:0 "Magisters"
+
+ free_city_single_heir_succession_law:0 "İlk Doğan Veraseti"
+
+ free_city_single_heir_succession_law_subname:0 "İlk Doğan Veraseti"
+
+ magisterial_life_succession_law:0 "Arhonluk Seçimi"
+
+ magisterial_life_succession_law_subname:0 "Magisterlik"
+
+ magisterial_life_elective_candidates:0 "Magisterler"
+
+ magisterial_life_elective_candidates_tooltip:0 "Özgür Şehirler'in zengin ve güçlüleri magister olarak bilinir"
+
+ magisterial_life_elective_electors:0 "Magisterler"
 ### TODO NOT-IN-ST: magisterial_life_elective_electors_tooltip [AGOT: The votes of the greatest magisters decide the election. The rest will fall into line]
  magisterial_life_elective_electors_tooltip:0 "The votes of the greatest magisters decide the election. The rest will fall into line"
-### TODO NOT-IN-ST: magisterial_life_succession_attached_titles_law [AGOT: Archonate Elective]
- magisterial_life_succession_attached_titles_law:0 "Archonate Elective"
-### TODO NOT-IN-ST: magisterial_life_succession_attached_titles_law_effects [AGOT: This title will follow the kingdom's election.]
- magisterial_life_succession_attached_titles_law_effects:0 "This title will follow the kingdom's election."
-### TODO NOT-IN-ST: magisterial_life_succession_attached_titles_law_subname [AGOT: Magisterial]
- magisterial_life_succession_attached_titles_law_subname:0 "Magisterial"
-### TODO NOT-IN-ST: magisterial_limited_succession_law [AGOT: First Magisterial Elective]
- magisterial_limited_succession_law:0 "First Magisterial Elective"
-### TODO NOT-IN-ST: magisterial_limited_succession_law_subname [AGOT: Magisterial]
- magisterial_limited_succession_law_subname:0 "Magisterial"
-### TODO NOT-IN-ST: magisterial_limited_elective_candidates [AGOT: Magisters]
- magisterial_limited_elective_candidates:0 "Magisters"
-### TODO NOT-IN-ST: magisterial_limited_elective_candidates_tooltip [AGOT: The wealthy and powerful of the Free Cities are known as the magisters]
- magisterial_limited_elective_candidates_tooltip:0 "The wealthy and powerful of the Free Cities are known as the magisters"
-### TODO NOT-IN-ST: magisterial_limited_elective_electors [AGOT: Magisters]
- magisterial_limited_elective_electors:0 "Magisters"
+
+ magisterial_life_succession_attached_titles_law:0 "Arhonluk Seçimi"
+
+ magisterial_life_succession_attached_titles_law_effects:0 "Bu unvan krallığın seçimini izleyecek."
+
+ magisterial_life_succession_attached_titles_law_subname:0 "Magisterlik"
+
+ magisterial_limited_succession_law:0 "Birinci Magisterlik Seçimi"
+
+ magisterial_limited_succession_law_subname:0 "Magisterlik"
+
+ magisterial_limited_elective_candidates:0 "Magisterler"
+
+ magisterial_limited_elective_candidates_tooltip:0 "Özgür Şehirler'in zengin ve güçlüleri magister olarak bilinir"
+
+ magisterial_limited_elective_electors:0 "Magisterler"
 ### TODO NOT-IN-ST: magisterial_limited_elective_electors_tooltip [AGOT: The votes of the greatest magisters decide the election. The rest will fall into line]
  magisterial_limited_elective_electors_tooltip:0 "The votes of the greatest magisters decide the election. The rest will fall into line"
-### TODO NOT-IN-ST: magisterial_attached_titles_law [AGOT: First Magisterial Elective]
- magisterial_attached_titles_law:0 "First Magisterial Elective"
-### TODO NOT-IN-ST: magisterial_attached_titles_law_effects [AGOT: This title will follow the kingdom's election.]
- magisterial_attached_titles_law_effects:0 "This title will follow the kingdom's election."
-### TODO NOT-IN-ST: magisterial_attached_titles_law_subname [AGOT: Magisterial]
- magisterial_attached_titles_law_subname:0 "Magisterial"
+
+ magisterial_attached_titles_law:0 "Birinci Magisterlik Seçimi"
+
+ magisterial_attached_titles_law_effects:0 "Bu unvan krallığın seçimini izleyecek."
+
+ magisterial_attached_titles_law_subname:0 "Magisterlik"
 ### TODO NOT-IN-ST: dictatorship_succession_law [AGOT: Dictatorship]
  dictatorship_succession_law:0 "Dictatorship"
 ### TODO NOT-IN-ST: dictatorship_succession_law_subname [AGOT: Dictatorial]
@@ -77,42 +77,42 @@
  election_history:0 "Elected"
 ### TODO NOT-IN-ST: agot_election_progress_loc_succession_window [AGOT: Time Until Election: [SuccessionAppointmentWindow.GetTitle.Custom('AgotElectionProgress_Succession')]]
  agot_election_progress_loc_succession_window: "Time Until Election: [SuccessionAppointmentWindow.GetTitle.Custom('AgotElectionProgress_Succession')]"
-### TODO NOT-IN-ST: agot_election_progress_loc_life_succession_window [AGOT: #Bold #V Life#!#!]
- agot_election_progress_loc_life_succession_window: "#Bold #V Life#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_delayed_until_war_ends_succession_window [AGOT: #Bold #V Delayed Until War Ends#!#!]
- agot_election_progress_loc_delayed_until_war_ends_succession_window: "#Bold #V Delayed Until War Ends#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_election_suspended_succession_window [AGOT: #Bold #V @warning_icon!#X Election Suspended#!#!#!]
- agot_election_progress_loc_election_suspended_succession_window: "#Bold #V @warning_icon!#X Election Suspended#!#!#!"
+
+ agot_election_progress_loc_life_succession_window:0 "#Bold #V Yaşam#!#!"
+
+ agot_election_progress_loc_delayed_until_war_ends_succession_window:0 "#Bold #V Savaş Bitene Dek Ertelendi#!#!"
+
+ agot_election_progress_loc_election_suspended_succession_window:0 "#Bold #V @warning_icon!#X Seçim Askıya Alındı#!#!#!"
 ### TODO NOT-IN-ST: agot_election_progress_loc_term_succession_window [AGOT: #Bold #V [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!]
  agot_election_progress_loc_term_succession_window: "#Bold #V [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_this_year_succession_window [AGOT: #Bold #V This Year#!#!]
- agot_election_progress_loc_this_year_succession_window: "#Bold #V This Year#!#!"
+
+ agot_election_progress_loc_this_year_succession_window:0 "#Bold #V Bu Yıl#!#!"
 ### TODO NOT-IN-ST: agot_election_progress_loc_admin_window [AGOT: Time Until Election: [GovernmentAdministrationWindow.GetTitle.Custom('AgotElectionProgress_Admin')]]
  agot_election_progress_loc_admin_window: "Time Until Election: [GovernmentAdministrationWindow.GetTitle.Custom('AgotElectionProgress_Admin')]"
-### TODO NOT-IN-ST: agot_election_progress_loc_life_admin_window [AGOT: #Bold #V Life#!#!]
- agot_election_progress_loc_life_admin_window: "#Bold #V Life#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_delayed_until_war_ends_admin_window [AGOT: #Bold #V Delayed Until War Ends#!#!]
- agot_election_progress_loc_delayed_until_war_ends_admin_window: "#Bold #V Delayed Until War Ends#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_election_suspended_admin_window [AGOT: #Bold #V @warning_icon!#X Election Suspended#!#!#!]
- agot_election_progress_loc_election_suspended_admin_window: "#Bold #V @warning_icon!#X Election Suspended#!#!#!"
+
+ agot_election_progress_loc_life_admin_window:0 "#Bold #V Yaşam#!#!"
+
+ agot_election_progress_loc_delayed_until_war_ends_admin_window:0 "#Bold #V Savaş Bitene Dek Ertelendi#!#!"
+
+ agot_election_progress_loc_election_suspended_admin_window:0 "#Bold #V @warning_icon!#X Seçim Askıya Alındı#!#!#!"
 ### TODO NOT-IN-ST: agot_election_progress_loc_term_admin_window [AGOT: #Bold #V [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!]
  agot_election_progress_loc_term_admin_window: "#Bold #V [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years#!#!"
-### TODO NOT-IN-ST: agot_election_progress_loc_this_year_admin_window [AGOT: #Bold #V This Year#!#!]
- agot_election_progress_loc_this_year_admin_window: "#Bold #V This Year#!#!"
+
+ agot_election_progress_loc_this_year_admin_window:0 "#Bold #V Bu Yıl#!#!"
 ### TODO NOT-IN-ST: pirate_government_with_icon [AGOT: @naval_administration! $pirate_government$]
  pirate_government_with_icon:0 "@naval_administration! $pirate_government$"
 ### TODO NOT-IN-ST: pirate_government [AGOT: Pirate Captaincy]
  pirate_government:0 "Pirate Captaincy"
 ### TODO NOT-IN-ST: pirate_government_desc [AGOT: \nA mostly irregular form of government where outlaws, exiles, sellswords, and those attempting to gain glory have banded together under a Captain. Being comparatively disorganized and unpredictable than others, the Pirates nominate each other, or themselves, for the position of Captain. However, it's common to see disgruntled Pirates unhappy with the vote's results to splinter off, and try to gain glory for themselves.]
  pirate_government_desc:0 "\nA mostly irregular form of government where outlaws, exiles, sellswords, and those attempting to gain glory have banded together under a Captain. Being comparatively disorganized and unpredictable than others, the Pirates nominate each other, or themselves, for the position of Captain. However, it's common to see disgruntled Pirates unhappy with the vote's results to splinter off, and try to gain glory for themselves."
-### TODO NOT-IN-ST: pirate_government_adjective [AGOT: Pirate]
- pirate_government_adjective:0 "Pirate"
-### TODO NOT-IN-ST: pirate_government_realm [AGOT: Pirate Realm]
- pirate_government_realm:0 "Pirate Realm"
+
+ pirate_government_adjective:0 "Korsan"
+
+ pirate_government_realm:0 "Korsan Diyarı"
 ### TODO NOT-IN-ST: pirate_government_filter_option [AGOT: $game_concept_pirate_govt$]
  pirate_government_filter_option:0 "$game_concept_pirate_govt$"
-### TODO NOT-IN-ST: pirate_government_filter_option_desc [AGOT: Only show characters with Pirate [government|E]]
- pirate_government_filter_option_desc:0 "Only show characters with Pirate [government|E]"
+
+ pirate_government_filter_option_desc:0 "Yalnızca Korsan [government|E] sahibi karakterleri göster"
 ### TODO NOT-IN-ST: pirate_govt_concept [AGOT: [pirate_govt_i|E]]
  pirate_govt_concept:0 "[pirate_govt_i|E]"
 ### TODO NOT-IN-ST: government_is_pirate [AGOT: [government|E] type is [GetGovernment( 'pirate_government' ).GetName]]
@@ -127,16 +127,16 @@
  pirate_no_dlc_government:0 "$pirate_government$"
 ### TODO NOT-IN-ST: pirate_no_dlc_government_desc [AGOT: $pirate_government_desc$]
  pirate_no_dlc_government_desc:0 "$pirate_government_desc$"
-### TODO NOT-IN-ST: pirate_no_dlc_government_adjective [AGOT: Pirate]
- pirate_no_dlc_government_adjective:0 "Pirate"
-### TODO NOT-IN-ST: pirate_no_dlc_government_realm [AGOT: Pirate Realm]
- pirate_no_dlc_government_realm:0 "Pirate Realm"
+
+ pirate_no_dlc_government_adjective:0 "Korsan"
+
+ pirate_no_dlc_government_realm:0 "Korsan Diyarı"
 ### TODO NOT-IN-ST: pirate_no_dlc_government_filter_option [AGOT: $game_concept_pirate_no_dlc_govt$]
  pirate_no_dlc_government_filter_option:0 "$game_concept_pirate_no_dlc_govt$"
 ### TODO NOT-IN-ST: pirate_no_dlc_govt_concept [AGOT: [pirate_no_dlc_govt_i|E]]
  pirate_no_dlc_govt_concept:0 "[pirate_no_dlc_govt_i|E]"
-### TODO NOT-IN-ST: pirate_no_dlc_government_filter_option_desc [AGOT: Only show characters with Pirate [government|E]]
- pirate_no_dlc_government_filter_option_desc:0 "Only show characters with Pirate [government|E]"
+
+ pirate_no_dlc_government_filter_option_desc:0 "Yalnızca Korsan [government|E] sahibi karakterleri göster"
 ### TODO NOT-IN-ST: government_is_pirate_without_landless_dlc [AGOT: [government|E] type is [GetGovernment( 'pirate_no_dlc_government' ).GetName]]
  government_is_pirate_without_landless_dlc:0 "[government|E] type is [GetGovernment( 'pirate_no_dlc_government' ).GetName]"
 ### TODO NOT-IN-ST: pirate_government_vassals_label [AGOT: ]
@@ -147,14 +147,14 @@
  agot_pirate_sailing_requirements:0 "Can host a [GetActivityType('activity_agot_sailing').GetName] [activity|E] from any coastal province within their realm"
 ### TODO NOT-IN-ST: agot_unlocks_conquest_cb [AGOT: Unlocks Conquest [casus_belli|E]]
  agot_unlocks_conquest_cb:0 "Unlocks Conquest [casus_belli|E]"
-### TODO NOT-IN-ST: silent_sisterhood_holder [AGOT: Silent Mother]
- silent_sisterhood_holder:0 "Silent Mother"
+
+ silent_sisterhood_holder:0 "Sessiz Ana"
 ### TODO NOT-IN-ST: silent_sisterhood_government_with_icon [AGOT: @silent_sisters_government! $silent_sisterhood_government$]
  silent_sisterhood_government_with_icon:0 "@silent_sisters_government! $silent_sisterhood_government$"
-### TODO NOT-IN-ST: silent_sisterhood_government [AGOT: Silent Sisterhood]
- silent_sisterhood_government:0 "Silent Sisterhood"
-### TODO NOT-IN-ST: silent_sisterhood_government_adjective [AGOT: Silent Sister]
- silent_sisterhood_government_adjective:0 "Silent Sister"
+
+ silent_sisterhood_government:0 "Sessiz Kız Kardeşlik"
+
+ silent_sisterhood_government_adjective:0 "Sessiz Kız Kardeş"
 ### TODO NOT-IN-ST: silent_sisterhood_government_filter_option [AGOT: $game_concept_silent_sisters_govt$]
  silent_sisterhood_government_filter_option:0 "$game_concept_silent_sisters_govt$"
 ### TODO NOT-IN-ST: silent_sisterhood_government_filter_option_desc [AGOT: Only show characters with Silent Sisterhood [government|E]]
@@ -175,10 +175,10 @@
  dummy_adventurer_govt_for_bms_realm:0 "$landless_adventurer_government_realm$"
 ### TODO NOT-IN-ST: dummy_adventurer_govt_for_bms_desc [AGOT: $landless_adventurer_government_desc$]
  dummy_adventurer_govt_for_bms_desc:0 "$landless_adventurer_government_desc$"
-### TODO NOT-IN-ST: dummy_adventurer_govt_for_bms_filter_option [AGOT: Developer]
- dummy_adventurer_govt_for_bms_filter_option:0 "Developer"
-### TODO NOT-IN-ST: dummy_adventurer_govt_for_bms_filter_option_desc [AGOT: Only show characters with Developer [government|E]]
- dummy_adventurer_govt_for_bms_filter_option_desc:0 "Only show characters with Developer [government|E]"
+
+ dummy_adventurer_govt_for_bms_filter_option:0 "Geliştirici"
+
+ dummy_adventurer_govt_for_bms_filter_option_desc:0 "Yalnızca Geliştirici [government|E] sahibi karakterleri göster"
 ### TODO NOT-IN-ST: dummy_admin_govt_for_bms [AGOT: $administrative_government$]
  dummy_admin_govt_for_bms:0 "$administrative_government$"
 ### TODO NOT-IN-ST: dummy_admin_govt_for_bms_with_icon [AGOT: $administrative_government_with_icon$]
@@ -191,18 +191,18 @@
  dummy_admin_govt_for_bms_desc:0 "$administrative_government_desc$"
 ### TODO NOT-IN-ST: dummy_admin_govt_for_bms_vassals_label [AGOT: $administrative_government_vassals_label$]
  dummy_admin_govt_for_bms_vassals_label:0 "$administrative_government_vassals_label$"
-### TODO NOT-IN-ST: dummy_admin_govt_for_bms_filter_option [AGOT: Developer]
- dummy_admin_govt_for_bms_filter_option:0 "Developer"
-### TODO NOT-IN-ST: dummy_admin_govt_for_bms_filter_option_desc [AGOT: Only show characters with Developer [government|E]]
- dummy_admin_govt_for_bms_filter_option_desc:0 "Only show characters with Developer [government|E]"
+
+ dummy_admin_govt_for_bms_filter_option:0 "Geliştirici"
+
+ dummy_admin_govt_for_bms_filter_option_desc:0 "Yalnızca Geliştirici [government|E] sahibi karakterleri göster"
 ### TODO NOT-IN-ST: nights_watch_government_with_icon [AGOT: @nights_watch_government! $nights_watch_government$]
  nights_watch_government_with_icon:0 "@nights_watch_government! $nights_watch_government$"
-### TODO NOT-IN-ST: nights_watch_government [AGOT: Night's Watch]
- nights_watch_government:0 "Night's Watch"
-### TODO NOT-IN-ST: nights_watch_government_adjective [AGOT: Night's Watch]
- nights_watch_government_adjective:0 "Night's Watch"
-### TODO NOT-IN-ST: nights_watch_government_realm [AGOT: Night's Watch]
- nights_watch_government_realm:0 "Night's Watch"
+
+ nights_watch_government:0 "Gece Nöbetçileri"
+
+ nights_watch_government_adjective:0 "Gece Nöbetçileri"
+
+ nights_watch_government_realm:0 "Gece Nöbetçileri"
 ### TODO NOT-IN-ST: nights_watch_government_filter_option [AGOT: $game_concept_nw_govt$]
  nights_watch_government_filter_option:0 "$game_concept_nw_govt$"
 ### TODO NOT-IN-ST: nights_watch_government_filter_option_desc [AGOT: Only show characters with Night's Watch [government|E]]
@@ -221,34 +221,34 @@
  nights_watch_temp_realm_succession_law:0 "$nights_watch_realm_succession_law$"
 ### TODO NOT-IN-ST: nights_watch_temp_realm_succession_law_effects [AGOT: $nights_watch_realm_succession_law_effects$]
  nights_watch_temp_realm_succession_law_effects:0 "$nights_watch_realm_succession_law_effects$"
-### TODO NOT-IN-ST: lc_nights_watch_male_empire [AGOT: Lord Commander]
- lc_nights_watch_male_empire:0 "Lord Commander"
-### TODO NOT-IN-ST: lc_nights_watch_male_kingdom [AGOT: Lord Commander]
- lc_nights_watch_male_kingdom:0 "Lord Commander"
-### TODO NOT-IN-ST: lc_nights_watch_male_duchy [AGOT: Commander]
- lc_nights_watch_male_duchy:0 "Commander"
-### TODO NOT-IN-ST: lc_nights_watch_male_county [AGOT: Commander]
- lc_nights_watch_male_county:0 "Commander"
-### TODO NOT-IN-ST: lc_nights_watch_male_barony [AGOT: Commander]
- lc_nights_watch_male_barony:0 "Commander"
+
+ lc_nights_watch_male_empire:0 "Lord Kumandan"
+
+ lc_nights_watch_male_kingdom:0 "Lord Kumandan"
+
+ lc_nights_watch_male_duchy:0 "Komutan"
+
+ lc_nights_watch_male_county:0 "Komutan"
+
+ lc_nights_watch_male_barony:0 "Komutan"
 ### TODO NOT-IN-ST: lc_nights_watch_female [AGOT: Lady Commander]
  lc_nights_watch_female:0 "Lady Commander"
-### TODO NOT-IN-ST: commander_nights_watch [AGOT: Commander]
- commander_nights_watch:0 "Commander"
-### TODO NOT-IN-ST: dc_nights_watch [AGOT: Commander]
- dc_nights_watch:0 "Commander"
-### TODO NOT-IN-ST: commander_post [AGOT: Commander]
- commander_post:0 "Commander"
+
+ commander_nights_watch:0 "Komutan"
+
+ dc_nights_watch:0 "Komutan"
+
+ commander_post:0 "Komutan"
 ### TODO NOT-IN-ST: seneschal_the_citadel_male [AGOT: $seneschal_court_position$]
  seneschal_the_citadel_male:0 "$seneschal_court_position$"
-### TODO NOT-IN-ST: the_citadel_government [AGOT: Conclave]
- the_citadel_government:0 "Conclave"
+
+ the_citadel_government:0 "Meclis"
 ### TODO NOT-IN-ST: the_citadel_government_with_icon [AGOT: @the_citadel_government! $the_citadel_government$]
  the_citadel_government_with_icon:0 "@the_citadel_government! $the_citadel_government$"
-### TODO NOT-IN-ST: the_citadel_government_adjective [AGOT: Conclave]
- the_citadel_government_adjective:0 "Conclave"
-### TODO NOT-IN-ST: the_citadel_government_realm [AGOT: Conclave]
- the_citadel_government_realm:0 "Conclave"
+
+ the_citadel_government_adjective:0 "Meclis"
+
+ the_citadel_government_realm:0 "Meclis"
 ### TODO NOT-IN-ST: the_citadel_government_filter_option [AGOT: $game_concept_citadel_govt$]
  the_citadel_government_filter_option:0 "$game_concept_citadel_govt$"
 ### TODO NOT-IN-ST: the_citadel_government_filter_option_desc [AGOT: Only show characters with Conclave [government|E]]
@@ -259,14 +259,14 @@
  citadel_govt_concept:0 "[citadel_govt_i|E]"
 ### TODO NOT-IN-ST: government_is_the_citadel [AGOT: [government|E] type is [GetGovernment( 'the_citadel_government' ).GetName]]
  government_is_the_citadel:0 "[government|E] type is [GetGovernment( 'the_citadel_government' ).GetName]"
-### TODO NOT-IN-ST: kingsguard_government [AGOT: Kingsguard]
- kingsguard_government:0 "Kingsguard"
+
+ kingsguard_government:0 "Kral Muhafızı"
 ### TODO NOT-IN-ST: kingsguard_government_with_icon [AGOT: @kingsguard_government! $kingsguard_government$]
  kingsguard_government_with_icon:0 "@kingsguard_government! $kingsguard_government$"
-### TODO NOT-IN-ST: kingsguard_government_adjective [AGOT: Kingsguard]
- kingsguard_government_adjective:0 "Kingsguard"
-### TODO NOT-IN-ST: kingsguard_government_desc [AGOT: Kingsguard]
- kingsguard_government_desc:0 "Kingsguard"
+
+ kingsguard_government_adjective:0 "Kral Muhafızı"
+
+ kingsguard_government_desc:0 "Kral Muhafızı"
 ### TODO NOT-IN-ST: kingsguard_government_filter_option [AGOT: $game_concept_kg_govt$]
  kingsguard_government_filter_option:0 "$game_concept_kg_govt$"
 ### TODO NOT-IN-ST: kingsguard_government_filter_option_desc [AGOT: Only show characters with Kingsguard [government|E]]
@@ -281,10 +281,10 @@
  government_is_kg:0 "[government|E] type is [GetGovernment( 'kingsguard_government' ).GetName]"
 ### TODO NOT-IN-ST: command_government_with_icon [AGOT: @command_government! $command_government$]
  command_government_with_icon:0 "@command_government! $command_government$"
-### TODO NOT-IN-ST: command_government [AGOT: Command]
- command_government:0 "Command"
-### TODO NOT-IN-ST: command_government_adjective [AGOT: Command]
- command_government_adjective:0 "Command"
+
+ command_government:0 "Komuta"
+
+ command_government_adjective:0 "Komuta"
 ### TODO NOT-IN-ST: command_government_filter_option [AGOT: $game_concept_command_govt$]
  command_government_filter_option:0 "$game_concept_command_govt$"
 ### TODO NOT-IN-ST: command_government_filter_option_desc [AGOT: Only show characters with Command [government|E]]
@@ -301,46 +301,46 @@
  command_vassal:0 "$command_government$"
 ### TODO NOT-IN-ST: command_vassal_desc [AGOT: $game_concept_command_govt_desc$]
  command_vassal_desc:0 "$game_concept_command_govt_desc$"
-### TODO NOT-IN-ST: baron_theocracy_male_the_seven_religion [AGOT: Septon]
+
  baron_theocracy_male_the_seven_religion:0 "Septon"
-### TODO NOT-IN-ST: baron_theocracy_female_the_seven_religion [AGOT: Septa]
+
  baron_theocracy_female_the_seven_religion:0 "Septa"
-### TODO NOT-IN-ST: barony_theocracy_the_seven_religion [AGOT: Sept]
- barony_theocracy_the_seven_religion:0 "Sept"
-### TODO NOT-IN-ST: count_theocracy_male_the_seven_religion [AGOT: Septon]
+
+ barony_theocracy_the_seven_religion:0 "Tapınak"
+
  count_theocracy_male_the_seven_religion:0 "Septon"
-### TODO NOT-IN-ST: count_theocracy_female_the_seven_religion [AGOT: Septa]
+
  count_theocracy_female_the_seven_religion:0 "Septa"
-### TODO NOT-IN-ST: county_theocracy_the_seven_religion [AGOT: Sept]
- county_theocracy_the_seven_religion:0 "Sept"
-### TODO NOT-IN-ST: duke_theocracy_male_the_seven_religion [AGOT: Septon]
+
+ county_theocracy_the_seven_religion:0 "Tapınak"
+
  duke_theocracy_male_the_seven_religion:0 "Septon"
-### TODO NOT-IN-ST: duke_theocracy_female_the_seven_religion [AGOT: Septa]
+
  duke_theocracy_female_the_seven_religion:0 "Septa"
-### TODO NOT-IN-ST: duchy_theocracy_the_seven_religion [AGOT: Sept]
- duchy_theocracy_the_seven_religion:0 "Sept"
-### TODO NOT-IN-ST: king_theocracy_male_the_seven_religion [AGOT: High Septon]
- king_theocracy_male_the_seven_religion:0 "High Septon"
-### TODO NOT-IN-ST: king_theocracy_female_the_seven_religion [AGOT: High Septa]
- king_theocracy_female_the_seven_religion:0 "High Septa"
-### TODO NOT-IN-ST: kingdom_theocracy_the_seven_religion [AGOT: Sept]
- kingdom_theocracy_the_seven_religion:0 "Sept"
-### TODO NOT-IN-ST: emperor_theocracy_male_the_seven_religion [AGOT: High Septon]
- emperor_theocracy_male_the_seven_religion:0 "High Septon"
-### TODO NOT-IN-ST: emperor_theocracy_female_the_seven_religion [AGOT: High Septa]
- emperor_theocracy_female_the_seven_religion:0 "High Septa"
-### TODO NOT-IN-ST: empire_theocracy_the_seven_religion [AGOT: Sept]
- empire_theocracy_the_seven_religion:0 "Sept"
-### TODO NOT-IN-ST: magnar_hof [AGOT: Magnar]
+
+ duchy_theocracy_the_seven_religion:0 "Tapınak"
+
+ king_theocracy_male_the_seven_religion:0 "Yüce Septon"
+
+ king_theocracy_female_the_seven_religion:0 "Yüce Septa"
+
+ kingdom_theocracy_the_seven_religion:0 "Tapınak"
+
+ emperor_theocracy_male_the_seven_religion:0 "Yüce Septon"
+
+ emperor_theocracy_female_the_seven_religion:0 "Yüce Septa"
+
+ empire_theocracy_the_seven_religion:0 "Tapınak"
+
  magnar_hof:0 "Magnar"
-### TODO NOT-IN-ST: unknown_government [AGOT: Unknown]
- unknown_government:0 "Unknown"
+
+ unknown_government:0 "Bilinmiyor"
 ### TODO NOT-IN-ST: unknown_government_with_icon [AGOT: @unknown_government! $unknown_government$]
  unknown_government_with_icon:0 "@unknown_government! $unknown_government$"
-### TODO NOT-IN-ST: unknown_government_adjective [AGOT: Unknown]
- unknown_government_adjective:0 "Unknown"
-### TODO NOT-IN-ST: unknown_government_realm [AGOT: Unknown]
- unknown_government_realm:0 "Unknown"
+
+ unknown_government_adjective:0 "Bilinmiyor"
+
+ unknown_government_realm:0 "Bilinmiyor"
 ### TODO NOT-IN-ST: unknown_government_filter_option [AGOT: $game_concept_unknown_govt$]
  unknown_government_filter_option:0 "$game_concept_unknown_govt$"
 ### TODO NOT-IN-ST: unknown_government_filter_option_desc [AGOT: Only show characters with [unknown|E] [government|E]]
@@ -351,14 +351,14 @@
  unknown_govt_concept:0 "[unknown_govt_i|E]"
 ### TODO NOT-IN-ST: government_is_unknown [AGOT: [government|E] type is [GetGovernment( 'unknown_government' ).GetName]]
  government_is_unknown:0 "[government|E] type is [GetGovernment( 'unknown_government' ).GetName]"
-### TODO NOT-IN-ST: wilderness_government [AGOT: Wilderness]
- wilderness_government:0 "Wilderness"
+
+ wilderness_government:0 "Vahşi Doğa"
 ### TODO NOT-IN-ST: wilderness_government_with_icon [AGOT: @wilderness_government! $wilderness_government$]
  wilderness_government_with_icon:0 "@wilderness_government! $wilderness_government$"
-### TODO NOT-IN-ST: wilderness_government_adjective [AGOT: Wild]
- wilderness_government_adjective:0 "Wild"
-### TODO NOT-IN-ST: wilderness_government_realm [AGOT: Wilderness]
- wilderness_government_realm:0 "Wilderness"
+
+ wilderness_government_adjective:0 "Yaban"
+
+ wilderness_government_realm:0 "Vahşi Doğa"
 ### TODO NOT-IN-ST: wilderness_government_filter_option [AGOT: $game_concept_wilderness_govt$]
  wilderness_government_filter_option:0 "$game_concept_wilderness_govt$"
 ### TODO NOT-IN-ST: wilderness_government_filter_option_desc [AGOT: Only show characters with [wilderness|E] [government|E]]
@@ -369,14 +369,14 @@
  wilderness_govt_concept:0 "[wilderness_govt_i|E]"
 ### TODO NOT-IN-ST: government_is_wilderness [AGOT: [government|E] type is [GetGovernment( 'wilderness_government' ).GetName]]
  government_is_wilderness:0 "[government|E] type is [GetGovernment( 'wilderness_government' ).GetName]"
-### TODO NOT-IN-ST: ruins_government [AGOT: Ruin]
- ruins_government:0 "Ruin"
+
+ ruins_government:0 "Harabe"
 ### TODO NOT-IN-ST: ruins_government_with_icon [AGOT: @ruins_government! $ruins_government$]
  ruins_government_with_icon:0 "@ruins_government! $ruins_government$"
-### TODO NOT-IN-ST: ruins_government_adjective [AGOT: Ruin]
- ruins_government_adjective:0 "Ruin"
-### TODO NOT-IN-ST: ruins_government_realm [AGOT: Ruin]
- ruins_government_realm:0 "Ruin"
+
+ ruins_government_adjective:0 "Harabe"
+
+ ruins_government_realm:0 "Harabe"
 ### TODO NOT-IN-ST: ruins_government_filter_option [AGOT: $game_concept_ruins_govt$]
  ruins_government_filter_option:0 "$game_concept_ruins_govt$"
 ### TODO NOT-IN-ST: ruins_government_filter_option_desc [AGOT: Only show characters with [ruin|E] [government|E]]
@@ -387,111 +387,111 @@
  ruins_govt_concept:0 "[ruins_govt_i|E]"
 ### TODO NOT-IN-ST: government_is_ruins [AGOT: [government|E] type is [GetGovernment( 'ruins_government' ).GetName]]
  government_is_ruins:0 "[government|E] type is [GetGovernment( 'ruins_government' ).GetName]"
-### TODO NOT-IN-ST: baron_ruin_male [AGOT: Warden]
- baron_ruin_male:0 "Warden"
-### TODO NOT-IN-ST: baron_ruin_female [AGOT: Warden]
- baron_ruin_female:0 "Warden"
-### TODO NOT-IN-ST: barony_ruin [AGOT: Ruin]
- barony_ruin:0 "Ruin"
-### TODO NOT-IN-ST: count_ruin_male [AGOT: Warden]
- count_ruin_male:0 "Warden"
-### TODO NOT-IN-ST: count_ruin_female [AGOT: Warden]
- count_ruin_female:0 "Warden"
-### TODO NOT-IN-ST: county_ruin [AGOT: Ruin]
- county_ruin:0 "Ruin"
-### TODO NOT-IN-ST: duke_ruin_male [AGOT: Warden]
- duke_ruin_male:0 "Warden"
-### TODO NOT-IN-ST: duke_ruin_female [AGOT: Warden]
- duke_ruin_female:0 "Warden"
-### TODO NOT-IN-ST: duchy_ruin [AGOT: Ruin]
- duchy_ruin:0 "Ruin"
-### TODO NOT-IN-ST: king_ruin_male [AGOT: Warden]
- king_ruin_male:0 "Warden"
-### TODO NOT-IN-ST: king_ruin_female [AGOT: Warden]
- king_ruin_female:0 "Warden"
-### TODO NOT-IN-ST: kingdom_ruin [AGOT: Ruin]
- kingdom_ruin:0 "Ruin"
-### TODO NOT-IN-ST: emperor_ruin_male [AGOT: Warden]
- emperor_ruin_male:0 "Warden"
-### TODO NOT-IN-ST: emperor_ruin_female [AGOT: Warden]
- emperor_ruin_female:0 "Warden"
-### TODO NOT-IN-ST: empire_ruin [AGOT: Ruin]
- empire_ruin:0 "Ruin"
-### TODO NOT-IN-ST: baron_unknown_male [AGOT: Unknown]
- baron_unknown_male:0 "Unknown"
-### TODO NOT-IN-ST: baron_unknown_female [AGOT: Unknown]
- baron_unknown_female:0 "Unknown"
-### TODO NOT-IN-ST: barony_unknown [AGOT: Realm]
- barony_unknown:0 "Realm"
-### TODO NOT-IN-ST: count_unknown_male [AGOT: Unknown]
- count_unknown_male:0 "Unknown"
-### TODO NOT-IN-ST: count_unknown_female [AGOT: Unknown]
- count_unknown_female:0 "Unknown"
-### TODO NOT-IN-ST: county_unknown [AGOT: Realm]
- county_unknown:0 "Realm"
-### TODO NOT-IN-ST: duke_unknown_male [AGOT: Unknown]
- duke_unknown_male:0 "Unknown"
-### TODO NOT-IN-ST: duke_unknown_female [AGOT: Unknown]
- duke_unknown_female:0 "Unknown"
-### TODO NOT-IN-ST: duchy_unknown [AGOT: Realm]
- duchy_unknown:0 "Realm"
-### TODO NOT-IN-ST: king_unknown_male [AGOT: Unknown]
- king_unknown_male:0 "Unknown"
-### TODO NOT-IN-ST: king_unknown_female [AGOT: Unknown]
- king_unknown_female:0 "Unknown"
-### TODO NOT-IN-ST: kingdom_unknown [AGOT: Realm]
- kingdom_unknown:0 "Realm"
-### TODO NOT-IN-ST: emperor_unknown_male [AGOT: Unknown]
- emperor_unknown_male:0 "Unknown"
-### TODO NOT-IN-ST: emperor_unknown_female [AGOT: Unknown]
- emperor_unknown_female:0 "Unknown"
-### TODO NOT-IN-ST: empire_unknown [AGOT: Realm]
- empire_unknown:0 "Realm"
-### TODO NOT-IN-ST: baron_wilderness_male [AGOT: Warden]
- baron_wilderness_male:0 "Warden"
-### TODO NOT-IN-ST: baron_wilderness_female [AGOT: Warden]
- baron_wilderness_female:0 "Warden"
-### TODO NOT-IN-ST: barony_wilderness [AGOT: Wilderness]
- barony_wilderness:0 "Wilderness"
-### TODO NOT-IN-ST: count_wilderness_male [AGOT: Warden]
- count_wilderness_male:0 "Warden"
-### TODO NOT-IN-ST: count_wilderness_female [AGOT: Warden]
- count_wilderness_female:0 "Warden"
-### TODO NOT-IN-ST: county_wilderness [AGOT: Wilderness]
- county_wilderness:0 "Wilderness"
-### TODO NOT-IN-ST: duke_wilderness_male [AGOT: Warden]
- duke_wilderness_male:0 "Warden"
-### TODO NOT-IN-ST: duke_wilderness_female [AGOT: Warden]
- duke_wilderness_female:0 "Warden"
-### TODO NOT-IN-ST: duchy_wilderness [AGOT: Wilderness]
- duchy_wilderness:0 "Wilderness"
-### TODO NOT-IN-ST: king_wilderness_male [AGOT: Warden]
- king_wilderness_male:0 "Warden"
-### TODO NOT-IN-ST: king_wilderness_female [AGOT: Warden]
- king_wilderness_female:0 "Warden"
-### TODO NOT-IN-ST: kingdom_wilderness [AGOT: Wilderness]
- kingdom_wilderness:0 "Wilderness"
-### TODO NOT-IN-ST: emperor_wilderness_male [AGOT: Warden]
- emperor_wilderness_male:0 "Warden"
-### TODO NOT-IN-ST: emperor_wilderness_female [AGOT: Warden]
- emperor_wilderness_female:0 "Warden"
-### TODO NOT-IN-ST: empire_wilderness [AGOT: Wilderness]
- empire_wilderness:0 "Wilderness"
+
+ baron_ruin_male:0 "Muhafız"
+
+ baron_ruin_female:0 "Muhafız"
+
+ barony_ruin:0 "Harabe"
+
+ count_ruin_male:0 "Muhafız"
+
+ count_ruin_female:0 "Muhafız"
+
+ county_ruin:0 "Harabe"
+
+ duke_ruin_male:0 "Muhafız"
+
+ duke_ruin_female:0 "Muhafız"
+
+ duchy_ruin:0 "Harabe"
+
+ king_ruin_male:0 "Muhafız"
+
+ king_ruin_female:0 "Muhafız"
+
+ kingdom_ruin:0 "Harabe"
+
+ emperor_ruin_male:0 "Muhafız"
+
+ emperor_ruin_female:0 "Muhafız"
+
+ empire_ruin:0 "Harabe"
+
+ baron_unknown_male:0 "Bilinmiyor"
+
+ baron_unknown_female:0 "Bilinmiyor"
+
+ barony_unknown:0 "Diyar"
+
+ count_unknown_male:0 "Bilinmiyor"
+
+ count_unknown_female:0 "Bilinmiyor"
+
+ county_unknown:0 "Diyar"
+
+ duke_unknown_male:0 "Bilinmiyor"
+
+ duke_unknown_female:0 "Bilinmiyor"
+
+ duchy_unknown:0 "Diyar"
+
+ king_unknown_male:0 "Bilinmiyor"
+
+ king_unknown_female:0 "Bilinmiyor"
+
+ kingdom_unknown:0 "Diyar"
+
+ emperor_unknown_male:0 "Bilinmiyor"
+
+ emperor_unknown_female:0 "Bilinmiyor"
+
+ empire_unknown:0 "Diyar"
+
+ baron_wilderness_male:0 "Muhafız"
+
+ baron_wilderness_female:0 "Muhafız"
+
+ barony_wilderness:0 "Vahşi Doğa"
+
+ count_wilderness_male:0 "Muhafız"
+
+ count_wilderness_female:0 "Muhafız"
+
+ county_wilderness:0 "Vahşi Doğa"
+
+ duke_wilderness_male:0 "Muhafız"
+
+ duke_wilderness_female:0 "Muhafız"
+
+ duchy_wilderness:0 "Vahşi Doğa"
+
+ king_wilderness_male:0 "Muhafız"
+
+ king_wilderness_female:0 "Muhafız"
+
+ kingdom_wilderness:0 "Vahşi Doğa"
+
+ emperor_wilderness_male:0 "Muhafız"
+
+ emperor_wilderness_female:0 "Muhafız"
+
+ empire_wilderness:0 "Vahşi Doğa"
 ### TODO NOT-IN-ST: baron_watch_male [AGOT: ]
  baron_watch_male:0 ""
-### TODO NOT-IN-ST: count_watch_male [AGOT: Commander]
- count_watch_male:0 "Commander"
-### TODO NOT-IN-ST: duke_watch_male [AGOT: Lord]
+
+ count_watch_male:0 "Komutan"
+
  duke_watch_male:0 "Lord"
-### TODO NOT-IN-ST: king_watch_male [AGOT: Lord Commander]
- king_watch_male:0 "Lord Commander"
+
+ king_watch_male:0 "Lord Kumandan"
 ### TODO NOT-IN-ST: emperor_watch_male [AGOT: Supreme Lord Commander]
  emperor_watch_male:0 "Supreme Lord Commander"
-### TODO NOT-IN-ST: cant_fight_the_wall [AGOT: You cannot declare war on the night's watch]
- cant_fight_the_wall:0 "You cannot declare war on the night's watch"
-### TODO NOT-IN-ST: cant_fight_the_seven_k_as_wall [AGOT: As the $nights_watch_government$, you can't declare war on the seven kingdoms]
- cant_fight_the_seven_k_as_wall:0 "As the $nights_watch_government$, you can't declare war on the seven kingdoms"
-### TODO NOT-IN-ST: NOT_cant_fight_the_wall [AGOT: You cannot declare war on the night's watch]
- NOT_cant_fight_the_wall:0 "You cannot declare war on the night's watch"
-### TODO NOT-IN-ST: NOT_cant_fight_the_seven_k_as_wall [AGOT: As the $nights_watch_government$, you can't declare war on the seven kingdoms]
- NOT_cant_fight_the_seven_k_as_wall:0 "As the $nights_watch_government$, you can't declare war on the seven kingdoms"
+
+ cant_fight_the_wall:0 "Gece Nöbetçileri'ne savaş ilan edemezsin"
+
+ cant_fight_the_seven_k_as_wall:0 "$nights_watch_government$ olarak Yedi Krallık'a savaş ilan edemezsin"
+
+ NOT_cant_fight_the_wall:0 "Gece Nöbetçileri'ne savaş ilan edemezsin"
+
+ NOT_cant_fight_the_seven_k_as_wall:0 "$nights_watch_government$ olarak Yedi Krallık'a savaş ilan edemezsin"

@@ -1,10 +1,10 @@
-﻿l_english:
-### TODO NOT-IN-ST: COLONIZE [AGOT: Colonize]
- COLONIZE:0 "Colonize"
-### TODO NOT-IN-ST: COLONIZATION_ACTIONS [AGOT: Colonization]
- COLONIZATION_ACTIONS:0 "Colonization"
-### TODO NOT-IN-ST: colonize_land [AGOT: Colonize]
- colonize_land:0 "Colonize"
+﻿﻿l_english:
+
+ COLONIZE:0 "Koloni Kur"
+
+ COLONIZATION_ACTIONS:0 "Koloni Kurma"
+
+ colonize_land:0 "Koloni Kur"
 ### TODO NOT-IN-ST: colonize_land_cost_desc [AGOT: You spend [gold_i]#high [GetPlayer.MakeScope.ScriptValue('colonize_cost_val')]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('colonize_cost_val')]]
  colonize_land_cost_desc:0 "You spend [gold_i]#high [GetPlayer.MakeScope.ScriptValue('colonize_cost_val')]#!\n[GetPlayer.MakeScope.GetScriptValueDesc('colonize_cost_val')]"
 ### TODO NOT-IN-ST: colonize_land_holding_desc [AGOT: You gain a [settlement_holding|E] in [wilderness.GetCounty.GetName]]
@@ -71,8 +71,8 @@
  tribalize_settlement_holding_interaction_desc:0 "Destroy all [buildings|E] in this [holding|E] and settle it as a [tribe|E]."
 ### TODO NOT-IN-ST: tribalize_settlement_holding_interaction_notification [AGOT: Converted [barony|E] into a [tribal_holding|E]]
  tribalize_settlement_holding_interaction_notification:0 "Converted [barony|E] into a [tribal_holding|E]"
-### TODO NOT-IN-ST: colonize_pirate_den_interaction [AGOT: Colonize]
- colonize_pirate_den_interaction:0 "Colonize"
+
+ colonize_pirate_den_interaction:0 "Koloni Kur"
 ### TODO NOT-IN-ST: colonize_pirate_den_interaction_desc [AGOT: Destroy all [buildings|E] in all [holdings|E] in this county and convert them into [settlement_holdings|E].]
  colonize_pirate_den_interaction_desc:0 "Destroy all [buildings|E] in all [holdings|E] in this county and convert them into [settlement_holdings|E]."
 ### TODO NOT-IN-ST: colonize_pirate_den_interaction_desc_one_province [AGOT: Destroy all [buildings|E] in this barony and convert it into a [settlement_holding|E].]

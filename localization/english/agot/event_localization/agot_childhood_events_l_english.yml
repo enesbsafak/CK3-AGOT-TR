@@ -1,10 +1,10 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_childhood_events.0001.t [AGOT: The Flip of a Coin]
  agot_childhood_events.0001.t:0 "The Flip of a Coin"
 ### TODO NOT-IN-ST: agot_childhood_events.0001.desc [AGOT: Every time a [GetPlayer.GetHouse.GetBaseName] is born, the gods toss a coin — on one side, greatness; on the other, madness.\n\n[child.Custom('CoinFlipChild')]]
  agot_childhood_events.0001.desc:0 "Every time a [GetPlayer.GetHouse.GetBaseName] is born, the gods toss a coin — on one side, greatness; on the other, madness.\n\n[child.Custom('CoinFlipChild')]"
-### TODO NOT-IN-ST: agot_childhood_events.0001.a [AGOT: So it goes...]
- agot_childhood_events.0001.a:0 "So it goes..."
+
+ agot_childhood_events.0001.a:0 "Hayat böyle..."
 ### TODO NOT-IN-ST: agot_childhood_events.0002.t [AGOT: $agot_childhood_events.0001.t$]
  agot_childhood_events.0002.t:0 "$agot_childhood_events.0001.t$"
 ### TODO NOT-IN-ST: agot_childhood_events.0002.desc [AGOT: Every time a [GetPlayer.GetHouse.GetBaseName] is born, the gods toss a coin — on one side, greatness; on the other, madness. And the world holds its breath to await the result.\n\nIt would seem, for today, the toss has landed favorably... [child.GetFirstName] [child.Custom('CoinFlip')]]
@@ -75,12 +75,12 @@
  agot_childhood_events.0004.b:0 "I must learn the truth!"
 ### TODO NOT-IN-ST: agot_childhood_events.0004.b.success [AGOT: If your child is not yours, you will learn the secret]
  agot_childhood_events.0004.b.success:0 "If your child is not yours, you will learn the secret"
-### TODO NOT-IN-ST: agot_childhood_events.0004.b.success.bastard.t [AGOT: Investigation Success]
- agot_childhood_events.0004.b.success.bastard.t:0 "Investigation Success"
+
+ agot_childhood_events.0004.b.success.bastard.t:0 "Soruşturma Başarılı"
 ### TODO NOT-IN-ST: agot_childhood_events.0004.b.success.bastard.desc [AGOT: [child.GetFirstName] is actually the child of [real_father.GetFullName]!]
  agot_childhood_events.0004.b.success.bastard.desc:0 "[child.GetFirstName] is actually the child of [real_father.GetFullName]!"
-### TODO NOT-IN-ST: agot_childhood_events.0004.b.success.notbastard.t [AGOT: Investigation Success]
- agot_childhood_events.0004.b.success.notbastard.t:0 "Investigation Success"
+
+ agot_childhood_events.0004.b.success.notbastard.t:0 "Soruşturma Başarılı"
 ### TODO NOT-IN-ST: agot_childhood_events.0004.b.success.notbastard.desc [AGOT: [child.GetFirstName] truly is my child after all!]
  agot_childhood_events.0004.b.success.notbastard.desc:0 "[child.GetFirstName] truly is my child after all!"
 ### TODO NOT-IN-ST: agot_childhood_events.0004.b.failure [AGOT: You can find no evidence]
@@ -199,18 +199,18 @@
  agot_childhood_events.0022.desc:0 "Dragons are legendary beasts made of fire and flesh, but such materials would ruin a doll... What should I use in their stead?"
 ### TODO NOT-IN-ST: agot_childhood_events.0022.a [AGOT: I shall use only the finest of materials! Silks and jewels!]
  agot_childhood_events.0022.a:0 "I shall use only the finest of materials! Silks and jewels!"
-### TODO NOT-IN-ST: agot_childhood_events.0022.a.tt [AGOT: The quality of the doll is #V #Bold significantly increased#!#!.]
- agot_childhood_events.0022.a.tt:0 "The quality of the doll is #V #Bold significantly increased#!#!."
+
+ agot_childhood_events.0022.a.tt:0 "Bebeğin kalitesi #V #Bold önemli ölçüde arttı#!#!."
 ### TODO NOT-IN-ST: agot_childhood_events.0022.b [AGOT: Surely, we don't need the golden thread...]
  agot_childhood_events.0022.b:0 "Surely, we don't need the golden thread..."
-### TODO NOT-IN-ST: agot_childhood_events.0022.b.tt [AGOT: The quality of the doll is #V #Bold slightly increased#!#!.]
- agot_childhood_events.0022.b.tt:0 "The quality of the doll is #V #Bold slightly increased#!#!."
+
+ agot_childhood_events.0022.b.tt:0 "Bebeğin kalitesi #V #Bold hafifçe arttı#!#!."
 ### TODO NOT-IN-ST: agot_childhood_events.0022.c [AGOT: Can't we make do with what we have in storage?]
  agot_childhood_events.0022.c:0 "Can't we make do with what we have in storage?"
-### TODO NOT-IN-ST: agot_doll_quality_significantly_increased [AGOT: The quality of the doll is #V #Bold significantly increased#!#!.]
- agot_doll_quality_significantly_increased:0 "The quality of the doll is #V #Bold significantly increased#!#!."
-### TODO NOT-IN-ST: agot_doll_quality_slightly_increased [AGOT: The quality of the doll is #V #Bold slightly increased#!#!.]
- agot_doll_quality_slightly_increased:0 "The quality of the doll is #V #Bold slightly increased#!#!."
+
+ agot_doll_quality_significantly_increased:0 "Bebeğin kalitesi #V #Bold önemli ölçüde arttı#!#!."
+
+ agot_doll_quality_slightly_increased:0 "Bebeğin kalitesi #V #Bold hafifçe arttı#!#!."
 ### TODO NOT-IN-ST: agot_doll_quality_slightly_decreased [AGOT: The quality of the doll is #V #Bold slightly decreased#!#!.]
  agot_doll_quality_slightly_decreased:0 "The quality of the doll is #V #Bold slightly decreased#!#!."
 ### TODO NOT-IN-ST: agot_doll_quality_significantly_decreased [AGOT: The quality of the doll is #V #Bold significantly decreased#!#!.]
@@ -291,16 +291,16 @@
  agot_childhood_events.0026.desc:0 "Dragons are fearsome beasts who soar through the sky with wings so large they can blot out the sun, a flap of one's wings sends all observers fleeing for shelter long before the dragon even crosses the horizon. Daunting is the task to capture such terror with this plushie, but I must start with settling on a wingspan."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.a [AGOT: The larger the better!]
  agot_childhood_events.0026.a:0 "The larger the better!"
-### TODO NOT-IN-ST: agot_childhood_events.0026.a.large_success.tt [AGOT: The wing span is oddly fitting.]
- agot_childhood_events.0026.a.large_success.tt: "The wing span is oddly fitting."
+
+ agot_childhood_events.0026.a.large_success.tt:0 "Kanat açıklığı tuhaf biçimde uygun."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.a.large_fail.tt [AGOT: The wings are uncomfortably large.]
  agot_childhood_events.0026.a.large_fail.tt: "The wings are uncomfortably large."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.a.large_major_fail.tt [AGOT: They look more like goat ears.]
  agot_childhood_events.0026.a.large_major_fail.tt: "They look more like goat ears."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.small [AGOT: Small and cute is the way.]
  agot_childhood_events.0026.small:0 "Small and cute is the way."
-### TODO NOT-IN-ST: agot_childhood_events.0026.small.large_success.tt [AGOT: The wing span is oddly fitting.]
- agot_childhood_events.0026.small.large_success.tt: "The wing span is oddly fitting."
+
+ agot_childhood_events.0026.small.large_success.tt:0 "Kanat açıklığı tuhaf biçimde uygun."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.small.large_fail.tt [AGOT: The wings are uncomfortably small.]
  agot_childhood_events.0026.small.large_fail.tt: "The wings are uncomfortably small."
 ### TODO NOT-IN-ST: agot_childhood_events.0026.small.large_major_fail.tt [AGOT: They look more like fish flippers.]
@@ -361,8 +361,8 @@
  agot_childhood_events.0029.desc:0 "Although a doll cannot mimic the wonder and majesty of a living dragon, perhaps one can be its inspiration? As [child.GetFirstName] is dragonless, if [child.GetSheHe] falls in love with a doll of a living dragon, [child.GetSheHe] may feel attached and brave enough to claim the beast when they are of age."
 ### TODO NOT-IN-ST: agot_childhood_events.0029.untamed_dragon [AGOT: The doll will be modeled after...]
  agot_childhood_events.0029.untamed_dragon:0 "The doll will be modeled after..."
-### TODO NOT-IN-ST: agot_childhood_events.0029.ask_child [AGOT: Say, [child.GetNameNoTooltip], which dragon is your favorite?]
- agot_childhood_events.0029.ask_child:0 "Say, [child.GetNameNoTooltip], which dragon is your favorite?"
+
+ agot_childhood_events.0029.ask_child:0 "Söyle bakalım [child.GetNameNoTooltip], en sevdiğin ejderha hangisi?"
 ### TODO NOT-IN-ST: agot_childhood_events.0029.unnamed [AGOT: This dragon doll shall be unique.]
  agot_childhood_events.0029.unnamed:0 "This dragon doll shall be unique."
 ### TODO NOT-IN-ST: agot_childhood_events.0029.unnamed.tt [AGOT: The dragon doll will be named at the end of the events.]
@@ -381,8 +381,8 @@
  agot_childhood_events.0030.confirm_dragon:0 "This dragon."
 ### TODO NOT-IN-ST: agot_childhood_events.0030.confirm_dragon.tt [AGOT: The doll will be modeled after [chosen_dragon.GetNameNicknamed].]
  agot_childhood_events.0030.confirm_dragon.tt:0 "The doll will be modeled after [chosen_dragon.GetNameNicknamed]."
-### TODO NOT-IN-ST: agot_childhood_events.0030.ask_child [AGOT: Say, [child.GetNameNoTooltip], which dragon is your favorite?]
- agot_childhood_events.0030.ask_child:0 "Say, [child.GetNameNoTooltip], which dragon is your favorite?"
+
+ agot_childhood_events.0030.ask_child:0 "Söyle bakalım [child.GetNameNoTooltip], en sevdiğin ejderha hangisi?"
 ### TODO NOT-IN-ST: agot_childhood_events.0030.cancel [AGOT: On second thought, let's keep it original.]
  agot_childhood_events.0030.cancel:0 "On second thought, let's keep it original."
 ### TODO NOT-IN-ST: agot_childhood_events.0030.child_dragon_name.toast_title [AGOT: [chosen_dragon.GetNameNoTooltip]]

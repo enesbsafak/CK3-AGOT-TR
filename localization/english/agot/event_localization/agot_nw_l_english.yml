@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_nights_watch.0004.t [AGOT: A Breach!]
  agot_nights_watch.0004.t:0 "A Breach!"
 ### TODO NOT-IN-ST: agot_nights_watch.0004.desc [AGOT: Today didn't start normally. The Wall outposts creaked, the trees close to us ruffled and shook — #N something is wrong.#!\n\nAs all of the black brothers worried, one ranger runs to me through the crowd. #bold]
@@ -29,22 +29,22 @@
  agot_nights_watch.0026.a:0 "My commanders have proved much competency."
 ### TODO NOT-IN-ST: agot_nights_watch.0026.b [AGOT: My commanders leave much to be desired.]
  agot_nights_watch.0026.b:0 "My commanders leave much to be desired."
-### TODO NOT-IN-ST: agot_nights_watch.2001.t [AGOT: A Wish to Join the Night's Watch]
- agot_nights_watch.2001.t:0 "A Wish to Join the Night's Watch"
+
+ agot_nights_watch.2001.t:0 "Gece Nöbetçileri'ne Katılma İsteği"
 ### TODO NOT-IN-ST: agot_nights_watch.2001.desc [AGOT: My child, [child.GetFirstName], has always been an odd duck — not standing to inherit, save by grave accident, and always muttering about snarks and grumkins beyond the Wall.\n\nIt comes as no surprise to me when [child.GetSheHe] comes to me [child.Custom('quirk_pos_pp')].]
  agot_nights_watch.2001.desc:0 "My child, [child.GetFirstName], has always been an odd duck — not standing to inherit, save by grave accident, and always muttering about snarks and grumkins beyond the Wall.\n\nIt comes as no surprise to me when [child.GetSheHe] comes to me [child.Custom('quirk_pos_pp')]. "My [ROOT.Char.GetLadyLord], I have made up my mind," [child.GetSheHe] says, as boldly as [child.GetSheHe]'s ever spoken to me. "I am going to join the Night's Watch. #bold I wish to take the black.#!""
-### TODO NOT-IN-ST: agot_nights_watch.2001.a [AGOT: Go, and serve honorably.]
- agot_nights_watch.2001.a:0 "Go, and serve honorably."
-### TODO NOT-IN-ST: agot_nights_watch.2001.b [AGOT: I have other plans for you.]
- agot_nights_watch.2001.b:0 "I have other plans for you."
-### TODO NOT-IN-ST: agot_nights_watch.2002.t [AGOT: A Wish to Join the Night's Watch]
- agot_nights_watch.2002.t:0 "A Wish to Join the Night's Watch"
+
+ agot_nights_watch.2001.a:0 "Git ve onurla hizmet et."
+
+ agot_nights_watch.2001.b:0 "Senin için başka planlarım var."
+
+ agot_nights_watch.2002.t:0 "Gece Nöbetçileri'ne Katılma İsteği"
 ### TODO NOT-IN-ST: agot_nights_watch.2002.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sibling') )], [sibling.GetFirstName], enters my solar with an energy emanating [sibling.Custom('quirk_pos_adverb')] about [sibling.GetHerHim]. [sibling.GetSheHe|U] [sibling.Custom('quirk_pos_present')] and approaches me [sibling.Custom('quirk_pos_adverb')]. \n\n]
  agot_nights_watch.2002.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sibling') )], [sibling.GetFirstName], enters my solar with an energy emanating [sibling.Custom('quirk_pos_adverb')] about [sibling.GetHerHim]. [sibling.GetSheHe|U] [sibling.Custom('quirk_pos_present')] and approaches me [sibling.Custom('quirk_pos_adverb')]. \n\n"My [sibling.Custom2('RelationToMe', ROOT.Char )], I have made up my mind," [sibling.GetSheHe] says, the words bursting forth from [sibling.GetHerHis] mouth like dragonflame. "I am going to join the Night's Watch. #bold I wish to take the black.#!""
-### TODO NOT-IN-ST: agot_nights_watch.2002.a [AGOT: Go, and serve honorably.]
- agot_nights_watch.2002.a:0 "Go, and serve honorably."
-### TODO NOT-IN-ST: agot_nights_watch.2002.b [AGOT: I have other plans for you.]
- agot_nights_watch.2002.b:0 "I have other plans for you."
+
+ agot_nights_watch.2002.a:0 "Git ve onurla hizmet et."
+
+ agot_nights_watch.2002.b:0 "Senin için başka planlarım var."
 ### TODO NOT-IN-ST: agot_nights_watch.2003.t [AGOT: Make Way For The Young]
  agot_nights_watch.2003.t:0 "Make Way For The Young"
 ### TODO NOT-IN-ST: agot_nights_watch.2003.desc [AGOT: As my hair greys and my joints ache I ponder whether I have already given my best years to the stewardship of this land, and that it might be better served by a younger [heir.GetWomanMan].\n\nMy [heir.Custom('DaughterSon')] [heir.GetName] is a young [heir.GetLadyLord] in their prime, and could do much good for [ROOT.Char.GetPrimaryTitle.GetNameNoTier]. And the experience they garner would be invaluable in the future battles that await House [ROOT.Char.GetHouse.GetName]. The institution of the men of the [nightswatch.GetName] is an ancient and venerable order that is held in high regard by [ROOT.Char.GetCulture.GetCollectiveNoun], and it is not completely unheard of for an older lord to forsake their lands and titles for the betterment of the realm and their holdings...]
@@ -91,8 +91,8 @@
  agot_nights_watch.2007.a.failure:1 "[craven_heir.GetFirstNameNoTooltip] survives your murder attempt"
 ### TODO NOT-IN-ST: agot_nights_watch.2007.b [AGOT: The [craven_heir.Custom('GirlBoy')] grows a spine?! Perhaps [craven_heir.GetSheHe] won't be the ruin of House [ROOT.Char.GetDynasty.GetNameNoTooltip].]
  agot_nights_watch.2007.b:0 "The [craven_heir.Custom('GirlBoy')] grows a spine?! Perhaps [craven_heir.GetSheHe] won't be the ruin of House [ROOT.Char.GetDynasty.GetNameNoTooltip]."
-### TODO NOT-IN-ST: agot_nights_watch.9901.t [AGOT: New Lord Commander on the Wall]
- agot_nights_watch.9901.t:0 "New Lord Commander on the Wall"
+
+ agot_nights_watch.9901.t:0 "Sur'da Yeni Lord Kumandan"
 ### TODO NOT-IN-ST: agot_nights_watch.9901.desc [AGOT: ]
  agot_nights_watch.9901.desc:0 ""A raven has brought news from [new_holder.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], my liege." The messenger gives a quick bow and hands me the letter to peruse.\n\nWith the recent passing of [previous_holder.GetTitledFirstName], the Sworn Brothers of the Night's Watch have chosen [new_holder.GetFirstNameNoTooltip] [new_holder.GetHouse.GetBaseName] as their new commander."
 ### TODO NOT-IN-ST: agot_nights_watch.9901.stark [AGOT: Winter is Coming.]

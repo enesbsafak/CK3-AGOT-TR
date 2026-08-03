@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_religion_events.0800.t [AGOT: Food for the Divines]
  agot_religion_events.0800.t:0 "Food for the Divines"
 ### TODO NOT-IN-ST: agot_religion_events.0800.desc [AGOT: [recipient.GetName] looms ahead, menacing and ominous. Though [recipient.Custom('DragonSheHe')] has not yet noticed me, it is still thrilling to confront a living and breathing god.\n\nI move the food crates ahead, dragging them into a clearing so that [recipient.GetNameNoTooltip] can see it in all of its splendor.\n\nI step behind the food and prepare to attract the dragon's attention.]
@@ -13,24 +13,24 @@
  agot_religion_events.0900.desc:0 "There are horrors in this world that we must respect. As a devotee of [ROOT.Char.GetFaith.GetName], I recognize that the Others are among those horrors and that their wrath may be quelled with a sacrifice.\n\nI collect [recipient.GetName] and descend into the night, ready to sacrifice [recipient.GetHerHim] to the Others with the hope they accept my tribute as a showing of my obedience."
 ### TODO NOT-IN-ST: agot_religion_events.0900.a [AGOT: This must be done.]
  agot_religion_events.0900.a:0 "This must be done."
-### TODO NOT-IN-ST: agot_religion_events.3000.t [AGOT: Ritual Warfare]
- agot_religion_events.3000.t:0 "Ritual Warfare"
+
+ agot_religion_events.3000.t:0 "Ritüel Savaşı"
 ### TODO NOT-IN-ST: agot_religion_events.3000.desc [AGOT: With the start of [war.GetName], both [defender.GetName] and [attacker.GetName] must prepare a team of captains to participate in the ritual warfare ceremony, as per the customs of the [attacker.GetFaith.GetName] faith.\n\nThe winning team will win the war, and the leader of the losers shall be exiled or deposed.]
  agot_religion_events.3000.desc:0 "With the start of [war.GetName], both [defender.GetName] and [attacker.GetName] must prepare a team of captains to participate in the ritual warfare ceremony, as per the customs of the [attacker.GetFaith.GetName] faith.\n\nThe winning team will win the war, and the leader of the losers shall be exiled or deposed."
-### TODO NOT-IN-ST: agot_religion_events.3000.a [AGOT: Good luck!]
- agot_religion_events.3000.a:0 "Good luck!"
+
+ agot_religion_events.3000.a:0 "İyi şanslar!"
 ### TODO NOT-IN-ST: agot_religion_events.3000.a_attackers_tt [AGOT: [dummy.GetName] has been chosen as a combatant for the #P attackers#!.]
  agot_religion_events.3000.a_attackers_tt:0 "[dummy.GetName] has been chosen as a combatant for the #P attackers#!."
 ### TODO NOT-IN-ST: agot_religion_events.3000.a_defenders_tt [AGOT: [dummy.GetName] has been chosen as a combatant for the #N defenders#!.]
  agot_religion_events.3000.a_defenders_tt:0 "[dummy.GetName] has been chosen as a combatant for the #N defenders#!."
 ### TODO NOT-IN-ST: agot_religion_events.3000.a_tt [AGOT: The ritual war ceremony will proceed in 1 day.]
  agot_religion_events.3000.a_tt:0 "The ritual war ceremony will proceed in 1 day."
-### TODO NOT-IN-ST: agot_religion_events.3001.t [AGOT: Ritual Warfare]
- agot_religion_events.3001.t:0 "Ritual Warfare"
+
+ agot_religion_events.3001.t:0 "Ritüel Savaşı"
 ### TODO NOT-IN-ST: agot_religion_events.3001.desc [AGOT: The ceremony begins, with the forces of [defender.GetName] eagerly greeting mine own. As spectators watch on, we take our positions in the battlefield and charge with glee as the melee starts.]
  agot_religion_events.3001.desc:0 "The ceremony begins, with the forces of [defender.GetName] eagerly greeting mine own. As spectators watch on, we take our positions in the battlefield and charge with glee as the melee starts."
-### TODO NOT-IN-ST: agot_religion_events.3001.a [AGOT: To Battle!]
- agot_religion_events.3001.a:0 "To Battle!"
+
+ agot_religion_events.3001.a:0 "Savaşa!"
 ### TODO NOT-IN-ST: agot_religion_events.3003.t [AGOT: Ritual Warfare: Conclusion]
  agot_religion_events.3003.t:0 "Ritual Warfare: Conclusion"
 ### TODO NOT-IN-ST: agot_religion_events.3003.desc [AGOT: As the dust settles, only one thing is evident:\n\n]
@@ -59,14 +59,14 @@
  agot_religion_events_involved_in_ceremony_recipient:0 "[recipient.GetName] is already involved in a ceremonial war ritual"
 ### TODO NOT-IN-ST: agot_religion_events.3005.t [AGOT: Ritual Warfare: Victory]
  agot_religion_events.3005.t:0 "Ritual Warfare: Victory"
-### TODO NOT-IN-ST: agot_religion_events.3005.desc [AGOT: I have been defeated in [war.GetName].]
- agot_religion_events.3005.desc:0 "I have been defeated in [war.GetName]."
+
+ agot_religion_events.3005.desc:0 "[war.GetName]'de yenildim."
 ### TODO NOT-IN-ST: agot_religion_events.3005.a [AGOT: Great.]
  agot_religion_events.3005.a:0 "Great."
 ### TODO NOT-IN-ST: agot_religion_events.3006.t [AGOT: Ritual Warfare: Defeat]
  agot_religion_events.3006.t:0 "Ritual Warfare: Defeat"
-### TODO NOT-IN-ST: agot_religion_events.3006.desc [AGOT: I have been defeated in [war.GetName].]
- agot_religion_events.3006.desc:0 "I have been defeated in [war.GetName]."
+
+ agot_religion_events.3006.desc:0 "[war.GetName]'de yenildim."
 ### TODO NOT-IN-ST: agot_religion_events.3006.a [AGOT: Terrible.]
  agot_religion_events.3006.a:0 "Terrible."
 ### TODO NOT-IN-ST: agot_religion_events.3007.attacker_toast.t [AGOT: Your ceremony against [attacker.GetFirstNameNoTooltip] has been Invalidated]

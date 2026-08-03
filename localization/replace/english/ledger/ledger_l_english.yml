@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 rarity_i: "I"
 rarity_ii: "II"
 rarity_iii: "III"
@@ -18,10 +18,10 @@ FAITHS_LEDGER_TAB: "Mezhepler"
 RELIGIONS_LEDGER_TAB: "Dinler"
 OPEN_LEDGER: "#T Defteri Aç#!"
 LEDGER_LIST_POSITION: "Bu listede [Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov]"
-### TODO AGOT-CHANGED: house_founded_year [AGOT: Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ | TR: [DynastyHouse.GetFoundYear]]
-house_founded_year: "Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
-### TODO AGOT-CHANGED: dynasty_founded_year [AGOT: Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ | TR: [DynastyHouse.GetFoundYear]]
-dynasty_founded_year: "Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
+
+house_founded_year:0 "Kur. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
+
+dynasty_founded_year:0 "Kur. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
 ongoing_wars_name: "#T Aktif Savaşlar#!"
 artifacts_name: "#T Eserler#!"
 characters_name: "#T Karakterler#!"

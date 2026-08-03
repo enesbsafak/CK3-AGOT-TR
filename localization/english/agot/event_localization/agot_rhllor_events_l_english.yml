@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_rhllor.0001.t [AGOT: The Last Hope]
  agot_rhllor.0001.t:0 "The Last Hope"
 ### TODO NOT-IN-ST: agot_rhllor.0001.multiple.desc [AGOT: Pain consumes me. My body is failing, torn and weakened by wounds that refuse to mend and sickness that festers deep within. I have tried every remedy, every desperate hope, yet my strength only wanes.\n\nThere is but one path left, one final chance before all is lost. The red priest speaks of fire, of the cleansing light that can burn away suffering. [red_priest.GetHerHis|U] words are bold, [red_priest.GetHerHis] faith unshaken. [red_priest.GetSheHe|U] claims the flames will heal what no mortal hands can mend.\n\nI do not know if I believe in [red_priest.GetHerHis] god, but I know I cannot endure this much longer.]
@@ -11,8 +11,8 @@
  agot_rhllor.0001.deadly_curse.desc:0 "I feel myself slipping further with each passing day. This is not a wound that can heal, nor a sickness that will run its course. It is something deeper, something cruel and unrelenting.\n\nThere are those who say such afflictions cannot be undone, that they are simply fate, a burden that cannot be lifted. But the red priest does not believe in fate. [red_priest.GetSheHe|U] believes in fire. [red_priest.GetSheHe|U] claims that even the worst of curses can be burned away.\n\nPerhaps it is madness. Perhaps it is my only hope."
 ### TODO NOT-IN-ST: agot_rhllor.0001.a [AGOT: If the fire can save me, then let it burn.]
  agot_rhllor.0001.a:0 "If the fire can save me, then let it burn."
-### TODO NOT-IN-ST: agot_rhllor.0001.b [AGOT: I have changed my mind.]
- agot_rhllor.0001.b:0 "I have changed my mind."
+
+ agot_rhllor.0001.b:0 "Fikrimi değiştirdim."
 ### TODO NOT-IN-ST: agot_rhllor.0002.t [AGOT: Flames of Judgment]
  agot_rhllor.0002.t:0 "Flames of Judgment"
 ### TODO NOT-IN-ST: agot_rhllor.0002.desc [AGOT: [patient.GetTitledFirstName] approaches, [patient.GetHerHis] steps heavy with suffering. I see the toll upon [patient.GetHerHis] body — wounds that refuse to mend, sickness that gnaws at [patient.GetHerHis] strength, a shadow of death creeping ever closer. [patient.GetSheHe|U] does not come to me as a believer, but as a desperate [Select_CString(patient.IsFemale,'woman','man')] grasping for salvation where no other remains.\n\nFire can cleanse. Fire can heal. But fire is not gentle. The Lord of Light does not grant his gifts freely — there is always a price. The question is whether [patient.GetTitledFirstNameNoTooltip] is worthy of his mercy... or if [red_priest.GetSheHe] will burn in the attempt.]
@@ -35,10 +35,10 @@
  agot_rhllor.0003.b:0 "I am weary — give me strength!" #ill
 ### TODO NOT-IN-ST: agot_rhllor.0003.c [AGOT: Burn away this cursed sickness!]
  agot_rhllor.0003.c:0 "Burn away this cursed sickness!" #great_pox
-### TODO NOT-IN-ST: agot_rhllor.0003.d [AGOT: Rid me of this affliction before it worsens!]
- agot_rhllor.0003.d:0 "Rid me of this affliction before it worsens!" #early_great_pox
-### TODO NOT-IN-ST: agot_rhllor.0003.e [AGOT: Rid me of this affliction before it worsens!]
- agot_rhllor.0003.e:0 "Rid me of this affliction before it worsens!" #lovers_pox
+
+ agot_rhllor.0003.d:0 "Bu dertten kurtar beni, kötüleşmeden!" #early_great_pox
+
+ agot_rhllor.0003.e:0 "Bu dertten kurtar beni, kötüleşmeden!" #lovers_pox
 ### TODO NOT-IN-ST: agot_rhllor.0003.f [AGOT: I will not waste away — save me!]
  agot_rhllor.0003.f:0 "I will not waste away — save me!" #leper
 ### TODO NOT-IN-ST: agot_rhllor.0003.g [AGOT: Strengthen my body, drive away this weakness!]

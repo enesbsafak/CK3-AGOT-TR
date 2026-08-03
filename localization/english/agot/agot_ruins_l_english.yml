@@ -1,6 +1,6 @@
-﻿l_english:
-### TODO NOT-IN-ST: building_type_ruin_01 [AGOT: Ruin]
- building_type_ruin_01:0 "Ruin"
+﻿﻿l_english:
+
+ building_type_ruin_01:0 "Harabe"
 ### TODO NOT-IN-ST: building_ruin_01 [AGOT: Destroyed Ruin]
  building_ruin_01:0 "Destroyed Ruin"
 ### TODO NOT-IN-ST: building_ruin_01_desc [AGOT: This location is in ruin.]
@@ -59,10 +59,10 @@
  building_large_ruin_04:0 "Restored Large-Sized Ruins"
 ### TODO NOT-IN-ST: building_large_ruin_04_desc [AGOT: Once a large-sized ruin swept aside into the annals of history, it has since been fully rebuilt, and perhaps even surpassed what it had originally been.]
  building_large_ruin_04_desc:0 "Once a large-sized ruin swept aside into the annals of history, it has since been fully rebuilt, and perhaps even surpassed what it had originally been."
-### TODO NOT-IN-ST: building_type_ruin_salted_earth_01 [AGOT: Salted Earth]
- building_type_ruin_salted_earth_01:0 "Salted Earth"
-### TODO NOT-IN-ST: building_ruin_salted_earth_01 [AGOT: Salted Earth]
- building_ruin_salted_earth_01:0 "Salted Earth"
+
+ building_type_ruin_salted_earth_01:0 "Tuzlanmış Toprak"
+
+ building_ruin_salted_earth_01:0 "Tuzlanmış Toprak"
 ### TODO NOT-IN-ST: building_ruin_salted_earth_01_desc [AGOT: The land surrounding the ruins has been salted, leaving the dirt barren and unfruitful, with only the weeds and resilient flowers able to grow for many years to come.]
  building_ruin_salted_earth_01_desc:0 "The land surrounding the ruins has been salted, leaving the dirt barren and unfruitful, with only the weeds and resilient flowers able to grow for many years to come."
 ### TODO NOT-IN-ST: building_type_ruin_desolate_01 [AGOT: Desolate]
@@ -85,16 +85,16 @@
  building_ruin_flooded_02:0 "Drained Ruins"
 ### TODO NOT-IN-ST: building_ruin_flooded_02_desc [AGOT: After some much-needed work, the water that had covered the ruins and hampered the reconstruction effort all this time has been mostly, if not fully, drained.]
  building_ruin_flooded_02_desc:0 "After some much-needed work, the water that had covered the ruins and hampered the reconstruction effort all this time has been mostly, if not fully, drained."
-### TODO NOT-IN-ST: building_type_ruin_renowned_01 [AGOT: Renowned Ruin]
- building_type_ruin_renowned_01:0 "Renowned Ruin"
-### TODO NOT-IN-ST: building_ruin_renowned_01 [AGOT: Renowned Ruin]
- building_ruin_renowned_01:0 "Renowned Ruin"
+
+ building_type_ruin_renowned_01:0 "Ünlü Harabe"
+
+ building_ruin_renowned_01:0 "Ünlü Harabe"
 ### TODO NOT-IN-ST: building_ruin_renowned_01_desc [AGOT: What is now just mere rubble and run-down walls was once held with praise and admiration, or perhaps its fall is what gave it its reputation as a tragedy. People seem to be more willing to assist in the reconstruction effort.]
  building_ruin_renowned_01_desc:0 "What is now just mere rubble and run-down walls was once held with praise and admiration, or perhaps its fall is what gave it its reputation as a tragedy. People seem to be more willing to assist in the reconstruction effort."
-### TODO NOT-IN-ST: building_type_ruin_infamous_01 [AGOT: Infamous Ruin]
- building_type_ruin_infamous_01:0 "Infamous Ruin"
-### TODO NOT-IN-ST: building_ruin_infamous_01 [AGOT: Infamous Ruin]
- building_ruin_infamous_01:0 "Infamous Ruin"
+
+ building_type_ruin_infamous_01:0 "Kötü Şöhretli Harabe"
+
+ building_ruin_infamous_01:0 "Kötü Şöhretli Harabe"
 ### TODO NOT-IN-ST: building_ruin_infamous_01_desc [AGOT: The ruins that adorn these lands are thought to be wrought with curses and ill-fortune. People shy away from the reconstruction effort, and the ruins themselves, in fear of what may become of them.]
  building_ruin_infamous_01_desc:0 "The ruins that adorn these lands are thought to be wrought with curses and ill-fortune. People shy away from the reconstruction effort, and the ruins themselves, in fear of what may become of them."
 ### TODO NOT-IN-ST: building_type_ruin_wildfire_01 [AGOT: Wildfire Outbreak]
@@ -161,8 +161,8 @@
  reconstruct_large_ruin_tooltip:0 "You must have at least @gold_icon!#high 600#! and either border the ruin or be the de jure liege to begin reconstruction."
 ### TODO NOT-IN-ST: reconstruct_summerhall_tooltip [AGOT: Even workers find this place to be ill-fated and refuse to work here. You will not be able to restore Summerhall.]
  reconstruct_summerhall_tooltip:0 "Even workers find this place to be ill-fated and refuse to work here. You will not be able to restore Summerhall."
-### TODO NOT-IN-ST: reconstruct_ruin_confirm_button [AGOT: Confirm]
- reconstruct_ruin_confirm_button:0 "Confirm"
+
+ reconstruct_ruin_confirm_button:0 "Onayla"
 ### TODO NOT-IN-ST: agot_ruins.1000.t [AGOT: Ruin No More]
  agot_ruins.1000.t:0 "Ruin No More"
 ### TODO NOT-IN-ST: agot_ruins.1000.desc [AGOT: Stone by stone, what was once lost to time now stands restored, reclaimed from ruin and given new life.\n\nYet one question remains: #italic What purpose will it serve?#!\n\nThough its past has been rebuilt, its future is yet unwritten. What role this place will take in the years to come is mine alone to decide, and the path I choose will shape not only these walls, but all that gathers within and around them.\n\nNow, I must determine what this place shall become.]
@@ -179,8 +179,8 @@
  agot_ruins.2000.t:0 "Treasures from Tragedy"
 ### TODO NOT-IN-ST: agot_ruins.2000.desc [AGOT: The tragedy at Summerhall has cast a shadow over this project from the beginning. The more superstitious workers have whispered that the place is cursed and that the ghosts of the Targaryens who perished that day still haunt the very stones. Even the more cynical men seemed on edge when a tool was misplaced or a minor accident occurred.\n\nToday, however, rather than a curse, I have found a blessing. So close to the final stages of the restoration, a hidden chamber was discovered beneath the ruins! I have been brought before the chamber, and as I step inside, I can't help but whoop with joy. At the center of the room sits a small table with a pillow on it, and on that pillow, rests a pristine, unblemished dragon egg!]
  agot_ruins.2000.desc:0 "The tragedy at Summerhall has cast a shadow over this project from the beginning. The more superstitious workers have whispered that the place is cursed and that the ghosts of the Targaryens who perished that day still haunt the very stones. Even the more cynical men seemed on edge when a tool was misplaced or a minor accident occurred.\n\nToday, however, rather than a curse, I have found a blessing. So close to the final stages of the restoration, a hidden chamber was discovered beneath the ruins! I have been brought before the chamber, and as I step inside, I can't help but whoop with joy. At the center of the room sits a small table with a pillow on it, and on that pillow, rests a pristine, unblemished dragon egg!"
-### TODO NOT-IN-ST: agot_ruins.2000.a [AGOT: A wondrous find!]
- agot_ruins.2000.a:0 "A wondrous find!"
+
+ agot_ruins.2000.a:0 "Harika bir keşif!"
 ### TODO NOT-IN-ST: agot_ruins.3000.t [AGOT: Construction Begins]
  agot_ruins.3000.t:0 "Construction Begins"
 ### TODO NOT-IN-ST: agot_ruins.3000.desc [AGOT: The order has been given. The masons are already at work, and I have great hope of seeing this monument to northern power restored.\n\nOnly three towers remain of the Neck's great bastion, covered in white ghostskin, a pale echo of the holdfast's former might. In time, I shall restore all twenty and make this place a fortress to be feared once again.\n\nWhen the work is completed, none shall cross without my leave!]

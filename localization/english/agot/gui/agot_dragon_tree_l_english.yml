@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: AGOT_TITLE_DRAGON_TREE [AGOT: [GetPlayer.MakeScope.Var('dragon_tree_being_shown').Var('dragon_tree_founder').Char.GetFirstNamePossessive|U]\nDescendants]
  AGOT_TITLE_DRAGON_TREE:0 "[GetPlayer.MakeScope.Var('dragon_tree_being_shown').Var('dragon_tree_founder').Char.GetFirstNamePossessive|U]\nDescendants"
 ### TODO NOT-IN-ST: dragon_tree_members [AGOT: [GetPlayer.MakeScope.Var('total_dragon_tree_members').GetValue|0] Total Dragons]
@@ -41,8 +41,8 @@
  game_concept_dragon_matriarch_desc:0 "$game_concept_dragon_matriarchs$ are the known founders of [dragon_family_trees|E]. As such, collectively they are responsible for all other dragons in the world.\n\nIf a hatchling is born without a known grandmother, the mother of the hatchling will become a $game_concept_dragon_matriarch$ and a new $game_concept_dragon_family_tree$ will be recorded for the mother and their child."
 ### TODO NOT-IN-ST: game_concept_dragon_family_tree [AGOT: Dragon Family Tree]
  game_concept_dragon_family_tree:0 "Dragon Family Tree"
-### TODO NOT-IN-ST: game_concept_dragon_family_trees [AGOT: Dragon Family Trees]
- game_concept_dragon_family_trees:0 "Dragon Family Trees"
+
+ game_concept_dragon_family_trees:0 "Ejderha Soy Ağaçları"
 ### TODO NOT-IN-ST: game_concept_dragon_family_tree_desc [AGOT: $game_concept_dragon_family_trees$ are the recorded lineages of [dragons_plural|E]. As such, they contain and display all of the dragons which descended from the [dragon_matriarchs|E] that founded their respective tree.\n\nWhen a hatchling is born and their mother already belongs to a tree, the hatchling will be added to the existing tree. If a dragon hatchling is born and their mother does not belong to a tree, the hatchling will be added to a newly created tree of which their mother becomes the $game_concept_dragon_matriarch$.]
  game_concept_dragon_family_tree_desc:0 "$game_concept_dragon_family_trees$ are the recorded lineages of [dragons_plural|E]. As such, they contain and display all of the dragons which descended from the [dragon_matriarchs|E] that founded their respective tree.\n\nWhen a hatchling is born and their mother already belongs to a tree, the hatchling will be added to the existing tree. If a dragon hatchling is born and their mother does not belong to a tree, the hatchling will be added to a newly created tree of which their mother becomes the $game_concept_dragon_matriarch$."
 ### TODO NOT-IN-ST: DRAGON_ERA_BIRTH [AGOT: [Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)8000'), 'A.C.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)7898' ), 'A.D.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)6400' ), 'A.I.', Select_CString( GreaterThan_int32( Scope.GetCharacter.GetBirthDate.GetYear, '(int32)2500' ), 'A.H.', 'D.A.' ))))]]

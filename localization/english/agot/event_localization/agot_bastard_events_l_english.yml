@@ -1,8 +1,8 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_events_bastard.reveal_tt [AGOT: You will tell [reveal_scope.GetName] the truth about [reveal_scope.GetHerHis] heritage.]
  agot_events_bastard.reveal_tt:0 "You will tell [reveal_scope.GetName] the truth about [reveal_scope.GetHerHis] heritage."
-### TODO NOT-IN-ST: agot_events_bastard.reveal_warning_cadet [AGOT: You and your children will form a new [bastard_house|E].]
- agot_events_bastard.reveal_warning_cadet:0 "You and your children will form a new [bastard_house|E]."
+
+ agot_events_bastard.reveal_warning_cadet:0 "Sen ve çocukların yeni bir [bastard_house|E] kuracaksınız."
 ### TODO NOT-IN-ST: agot_events_bastard.reveal_warning [AGOT: @warning_icon! #warning This may have major implications for yourself and the realm.#!]
  agot_events_bastard.reveal_warning:0 "@warning_icon! #warning This may have major implications for yourself and the realm.#!"
 ### TODO NOT-IN-ST: agot_events_bastard.reveal_warning_letter [AGOT: You will send letters to every corner of Westeros.\n@warning_icon!#warning This may have major implications for yourself and the realm.#!]
@@ -41,8 +41,8 @@
  agot_events_bastard.unjust_warning_tt:0 "The realm may dislike demands deemed unjust."
 ### TODO NOT-IN-ST: agot_events_bastard.no_demand_acknowledge [AGOT: A relief, to be sure.]
  agot_events_bastard.no_demand_acknowledge:0 "A relief, to be sure."
-### TODO NOT-IN-ST: agot_events_bastard.0901.t [AGOT: Questions of Parentage]
- agot_events_bastard.0901.t:0 "Questions of Parentage"
+
+ agot_events_bastard.0901.t:0 "Soy Soruları"
 ### TODO NOT-IN-ST: agot_events_bastard.0901.desc [AGOT: Every time I look at [reveal_scope.GetFirstName], I cannot help but think of the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. Though I want [reveal_scope.GetHerHim] to live a long and carefree life, I must also acknowledge [reveal_scope.GetHerHis] whole life is built upon a lie. It is not fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood. I cannot be the author of this injustice any longer.]
  agot_events_bastard.0901.desc:0 "Every time I look at [reveal_scope.GetFirstName], I cannot help but think of the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. Though I want [reveal_scope.GetHerHim] to live a long and carefree life, I must also acknowledge [reveal_scope.GetHerHis] whole life is built upon a lie. It is not fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood. I cannot be the author of this injustice any longer."
 ### TODO NOT-IN-ST: agot_events_bastard.0901.desc.jon [AGOT: Every time I look at [reveal_scope.GetFirstName], I remember promises made and dangers long dormant, but I also see a child whose whole life is built upon a lie.]
@@ -55,22 +55,22 @@
  agot_events_bastard.0901.b:0 "No, the time is not yet right for this."
 ### TODO NOT-IN-ST: agot_events_bastard.0901.b.jon [AGOT: And yet I must. My guilt cannot outweigh the promise I made.]
  agot_events_bastard.0901.b.jon:0 "And yet I must. My guilt cannot outweigh the promise I made."
-### TODO NOT-IN-ST: agot_events_bastard.0902.t [AGOT: A Shocking Truth]
- agot_events_bastard.0902.t:0 "A Shocking Truth"
+
+ agot_events_bastard.0902.t:0 "Şoke Edici Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0902.desc.jon [AGOT: My father asks that I join him for a ride outside the castle, taking me to a grove of oaks where we dismount and sit. I have never seen him so anxious — he struggles to even look me in the eye.\n\nHe begins by telling me of the tourney at Harrenhal, of his sister, and of Robert's rebellion all those years ago. I start to wonder why he is telling me a story I have known for so long, yet as the extra details are added I cannot believe where this seems to be heading.\n\n]
  agot_events_bastard.0902.desc.jon:0 "My father asks that I join him for a ride outside the castle, taking me to a grove of oaks where we dismount and sit. I have never seen him so anxious — he struggles to even look me in the eye.\n\nHe begins by telling me of the tourney at Harrenhal, of his sister, and of Robert's rebellion all those years ago. I start to wonder why he is telling me a story I have known for so long, yet as the extra details are added I cannot believe where this seems to be heading.\n\n"There is no easy way to say this, so I will say it bluntly. [ROOT.Char.GetFirstNameNoTooltip], I have lied to you. I am not your father. Your true father was [real_father.GetName], and you were born in a bed of winter roses to my sister, Lyanna Stark. I was sworn to keep this secret, but I could not bring myself to continue the deception. I fear I have only made you trade one burden for a heavier one, but at least you can decide for yourself what to do with this truth."\n\nThe oak leaves rustle in the wind. I want to reject this revelation, scream into the wind that it isn't true, but in my heart I know it is. The only question is what to do with it."
 ### TODO NOT-IN-ST: agot_events_bastard.0902.desc.father [AGOT: My father asks that I join him for a ride outside the castle, taking me to a grove deep in the forest.]
  agot_events_bastard.0902.desc.father:0 "My father asks that I join him for a ride outside the castle, taking me to a grove deep in the forest. "To not be overheard," he says sternly.\n\nWe dismount and sit. I have never seen him so anxious — he struggles to even look me in the eye."There is no easy way to say this, so I will say it bluntly. [ROOT.Char.GetFirstNameNoTooltip], your true parents are [real_mother.GetName] and [real_father.GetName]. I was sworn to keep this secret, but I could not bring myself to continue the deception. I fear I have only made you trade one burden for a heavier one, but at least you can decide for yourself what to do with this truth."\n\nThe leaves rustle in the wind. I want to reject this revelation, scream into the wind that it isn't true, but in my heart I know it is. The only question is what to do with it."
 ### TODO NOT-IN-ST: agot_events_bastard.0902.desc.mother [AGOT: My mother asks that I join her in the sitting room, taking me by the hand and shoeing the servants away. I have never seen her so anxious — she struggles to even look me in the eye.\n\n\]
  agot_events_bastard.0902.desc.mother:0 "My mother asks that I join her in the sitting room, taking me by the hand and shoeing the servants away. I have never seen her so anxious — she struggles to even look me in the eye.\n\n\"There is no easy way to say this, so I will say it bluntly. [ROOT.Char.GetFirstNameNoTooltip], your true parents are [real_mother.GetName] and [real_father.GetName]. I was sworn to keep this secret, but I could not bring myself to continue the deception. I fear I have only made you trade one burden for a heavier one, but at least you can decide for yourself what to do with this truth."\n\nI want to reject this revelation, scream into the sky that it isn't true, but in my heart I know it is. Either now, or into the future, I must decide what to do with it."
-### TODO NOT-IN-ST: agot_events_bastard.0902.a [AGOT: I will not hide from it. The whole world must know.]
- agot_events_bastard.0902.a:0 "I will not hide from it. The whole world must know."
-### TODO NOT-IN-ST: agot_events_bastard.0902.b [AGOT: This is all too much! I need time to think.]
- agot_events_bastard.0902.b:0 "This is all too much! I need time to think."
-### TODO NOT-IN-ST: agot_events_bastard.0902.b.flavor [AGOT: You will be able to reveal the truth yourself later if you wish.]
- agot_events_bastard.0902.b.flavor:0 "You will be able to reveal the truth yourself later if you wish."
-### TODO NOT-IN-ST: agot_events_bastard.0903.t [AGOT: Questions of Parentage]
- agot_events_bastard.0903.t:0 "Questions of Parentage"
+
+ agot_events_bastard.0902.a:0 "Ondan saklanmayacağım. Tüm dünya bilmeli."
+
+ agot_events_bastard.0902.b:0 "Bu çok fazla! Düşünmek için zamana ihtiyacım var."
+
+ agot_events_bastard.0902.b.flavor:0 "İstersen gerçeği kendin daha sonra açıklayabilirsin."
+
+ agot_events_bastard.0903.t:0 "Soy Soruları"
 ### TODO NOT-IN-ST: agot_events_bastard.0903.desc [AGOT: Every time I think of [reveal_scope.GetFirstName], I cannot help but remember the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. Though I want [reveal_scope.GetHerHim] to live a long and carefree life, I must also acknowledge [reveal_scope.GetHerHis] whole life is built upon a lie. It is not fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood. I cannot be the author of this injustice any longer.]
  agot_events_bastard.0903.desc:0 "Every time I think of [reveal_scope.GetFirstName], I cannot help but remember the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. Though I want [reveal_scope.GetHerHim] to live a long and carefree life, I must also acknowledge [reveal_scope.GetHerHis] whole life is built upon a lie. It is not fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood. I cannot be the author of this injustice any longer."
 ### TODO NOT-IN-ST: agot_events_bastard.0903.desc.jon [AGOT: I remember well the promises I made to Lady Lyanna and the oaths I swore to the Starks even before the rebellion. Perhaps this is not my decision to make, but I cannot help but think of the child whose whole life is built upon a lie.\n\nNo. It is not fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth. Though doubtless many will think it unfair of me, I must let the truth out. Though it pains me, and may pain the realm moreso, I cannot be the author of this injustice any longer.]
@@ -81,22 +81,22 @@
  agot_events_bastard.0903.b:0 "The whole realm must know the truth of it!"
 ### TODO NOT-IN-ST: agot_events_bastard.0903.c [AGOT: No. The truth must remain hidden for now.]
  agot_events_bastard.0903.c:0 "No. The truth must remain hidden for now."
-### TODO NOT-IN-ST: agot_events_bastard.0904.t [AGOT: A Shocking Truth]
- agot_events_bastard.0904.t:0 "A Shocking Truth"
+
+ agot_events_bastard.0904.t:0 "Şoke Edici Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0904.desc [AGOT: I open the letter with the seal of House [sharer.GetHouse.GetBaseName] without ceremony, but as I read the words enclosed my eyes widen in shock.\n\n]
  agot_events_bastard.0904.desc:0 "I open the letter with the seal of House [sharer.GetHouse.GetBaseName] without ceremony, but as I read the words enclosed my eyes widen in shock.\n\n"There is no easy way to say this, so I will say it bluntly," [sharer.GetName] begins after the usual formalities, "[ROOT.Char.GetFirstName], you have been lied to. Your true parents are [real_mother.GetName] and [real_father.GetName]. I was sworn to keep this secret, but I could not bring myself to continue the deception. I fear I have only made you trade one burden for a heavier one, but at least you can decide for yourself what to do with this truth."\n\nI drop the parchment onto the group in shock. I want to reject this revelation, scream that it isn't true, but in my heart I know it is. The only question is what to do with it."
 ### TODO NOT-IN-ST: agot_events_bastard.0904.desc.blind [AGOT: I ask [courtier.GetFirstName] to read me the letter with the seal of House [sharer.GetHouse.GetBaseName] on it, but I may regret that, for as [courtier.GetSheHe] reads the words on the page my blind eyes widen in shock.\n\n]
  agot_events_bastard.0904.desc.blind:0 "I ask [courtier.GetFirstName] to read me the letter with the seal of House [sharer.GetHouse.GetBaseName] on it, but I may regret that, for as [courtier.GetSheHe] reads the words on the page my blind eyes widen in shock.\n\n"There is no easy way to say this, so I will say it bluntly." [courtier.GetFirstNameNoTooltip] begins to read [sharer.GetNamePossessive] words after the usual formalities. "[ROOT.Char.GetFirstName], you have been lied to. Your true parents are [real_mother.GetName] and [real_father.GetName]. I was sworn to keep this secret, but I could not bring myself to continue the deception. I fear I have only made you trade one burden for a heavier one, but at least you can decide for yourself what to do with this truth."\n\n"M-my [ROOT.Char.GetLadyLord] I...don't know what to say!" [courtier.GetFirstNameNoTooltip] exclaims as I am stuck in shock. I want to reject this revelation, scream that it isn't true, but in my heart I know it is. The only question is what to do with it."
-### TODO NOT-IN-ST: agot_events_bastard.0904.a [AGOT: I will not hide from it. The whole world must know.]
- agot_events_bastard.0904.a:0 "I will not hide from it. The whole world must know."
+
+ agot_events_bastard.0904.a:0 "Ondan saklanmayacağım. Tüm dünya bilmeli."
 ### TODO NOT-IN-ST: agot_events_bastard.0904.b [AGOT: I must tell father! Or..[father.GetFirstNameNoTooltip].]
  agot_events_bastard.0904.b:0 "I must tell father! Or..[father.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_events_bastard.0904.b.flavor [AGOT: You will decide what to do together.]
- agot_events_bastard.0904.b.flavor:0 "You will decide what to do together."
-### TODO NOT-IN-ST: agot_events_bastard.0904.c [AGOT: This is all too much! I need time to think.]
- agot_events_bastard.0904.c:0 "This is all too much! I need time to think."
-### TODO NOT-IN-ST: agot_events_bastard.0904.c.flavor [AGOT: You will be able to reveal the truth yourself later if you wish.]
- agot_events_bastard.0904.c.flavor:0 "You will be able to reveal the truth yourself later if you wish."
+
+ agot_events_bastard.0904.b.flavor:0 "Ne yapacağınıza birlikte karar vereceksiniz."
+
+ agot_events_bastard.0904.c:0 "Bu çok fazla! Düşünmek için zamana ihtiyacım var."
+
+ agot_events_bastard.0904.c.flavor:0 "İstersen gerçeği kendin daha sonra açıklayabilirsin."
 ### TODO NOT-IN-ST: agot_events_bastard.0904.d [AGOT: I shall not reveal this. I must let [sharer.GetFirstNameNoTooltip] know.]
  agot_events_bastard.0904.d:0 "I shall not reveal this. I must let [sharer.GetFirstNameNoTooltip] know."
 ### TODO NOT-IN-ST: agot_events_bastard.0904.d.flavor [AGOT: You will write back asking [sharer.GetFirstName] to keep your secret.]
@@ -111,12 +111,12 @@
  agot_events_bastard.0905.a:0 "I shall give you land then, to rule in my name as my child."
 ### TODO NOT-IN-ST: agot_events_bastard.0905.a.flavor [AGOT: [reveal_scope.GetFirstName] may decide to reveal themselves at a later date...]
  agot_events_bastard.0905.a.flavor:0 "[reveal_scope.GetFirstName] may decide to reveal themselves at a later date..."
-### TODO NOT-IN-ST: agot_events_bastard.0905.b [AGOT: Then we must tell the realm!]
- agot_events_bastard.0905.b:0 "Then we must tell the realm!"
-### TODO NOT-IN-ST: agot_events_bastard.0905.c [AGOT: Then you know that the Night's Watch is the only safe place for you.]
- agot_events_bastard.0905.c:0 "Then you know that the Night's Watch is the only safe place for you."
-### TODO NOT-IN-ST: agot_events_bastard.0905.d [AGOT: It is enough that you know. What to do with it is up to you.]
- agot_events_bastard.0905.d:0 "It is enough that you know. What to do with it is up to you."
+
+ agot_events_bastard.0905.b:0 "Öyleyse diyara söylemeliyiz!"
+
+ agot_events_bastard.0905.c:0 "Öyleyse bil ki Gece Nöbetçileri senin için tek güvenli yer."
+
+ agot_events_bastard.0905.d:0 "Bilmen yeterli. Onunla ne yapacağın sana kalmış."
 ### TODO NOT-IN-ST: agot_events_bastard.0906.t [AGOT: Hidden Heritage]
  agot_events_bastard.0906.t:0 "Hidden Heritage"
 ### TODO NOT-IN-ST: agot_events_bastard.0906.desc.open [AGOT: I see the anguished look across [reveal_scope.GetFirstNamePossessive] face as I reach the end of my tale, a long silence passing before [reveal_scope.GetSheHe] gives me a worded response.]
@@ -133,8 +133,8 @@
  agot_events_bastard.0906.b:0 "We #bold must #!tell the realm!"
 ### TODO NOT-IN-ST: agot_events_bastard.0906.c [AGOT: You must know that the Night's Watch is the only safe place for you.]
  agot_events_bastard.0906.c:0 "You must know that the Night's Watch is the only safe place for you."
-### TODO NOT-IN-ST: agot_events_bastard.0906.d [AGOT: It is enough that you know. What to do with it is up to you.]
- agot_events_bastard.0906.d:0 "It is enough that you know. What to do with it is up to you."
+
+ agot_events_bastard.0906.d:0 "Bilmen yeterli. Onunla ne yapacağın sana kalmış."
 ### TODO NOT-IN-ST: agot_events_bastard.0907.t [AGOT: My Secret is Known]
  agot_events_bastard.0907.t:0 "My Secret is Known"
 ### TODO NOT-IN-ST: agot_events_bastard.0907.desc [AGOT: I open the letter with the seal of House [sharer.GetHouse.GetBaseName] without ceremony, but as I read the words enclosed my eyes widen in shock.\n\n]
@@ -145,8 +145,8 @@
  agot_events_bastard.0907.a:0 "This is getting out of hand. If the world must know, I shall tell them."
 ### TODO NOT-IN-ST: agot_events_bastard.0907.b [AGOT: I must discuss these developments with [father.GetFirstNameNoTooltip].]
  agot_events_bastard.0907.b:0 "I must discuss these developments with [father.GetFirstNameNoTooltip]."
-### TODO NOT-IN-ST: agot_events_bastard.0907.b.flavor [AGOT: You will decide what to do together.]
- agot_events_bastard.0907.b.flavor:0 "You will decide what to do together."
+
+ agot_events_bastard.0907.b.flavor:0 "Ne yapacağınıza birlikte karar vereceksiniz."
 ### TODO NOT-IN-ST: agot_events_bastard.0907.c [AGOT: Hardly ideal...I need time to think.]
  agot_events_bastard.0907.c:0 "Hardly ideal...I need time to think."
 ### TODO NOT-IN-ST: agot_events_bastard.0907.c.flavor [AGOT: You will be able to reveal the truth yourself later if you wish, but [sharer.GetName] may take matters into their own hands...]
@@ -187,96 +187,96 @@
  agot_events_bastard.0911.desc:0 "I knew this moment was coming since the day I promised Lyanna, but it still stings to hear the words. "Liar!" I'm called by my beloved Cat, and I can do little but hang my head in shame. "So much for the honor of Eddard Stark! Honorable to everyone but to your wife it seems! I am supposed to be your confidant Ned!" she yells before trailing off " No..." she laughs mirthfully "No, you are more honorable in your vows to me than the world thought apparently." she trails off, her justified outburst calming, and I can think of nothing to say.\n\nShe looks back to me, tears in in her eyes. "Family, Duty, Honor," she says it like a mantra, "I know why you did it, Ned. A part of me is relieved. But damn it, I am your family too! You should have told me. This was not right. What the world thought of us. Of you. What I thought of [secret_target.GetHerHim]." She looks down, now looking ashamed. "This was not right," she repeats finally."
 ### TODO NOT-IN-ST: agot_events_bastard.0911.a [AGOT: ]
  agot_events_bastard.0911.a:0 ""I'm sorry Cat...""
-### TODO NOT-IN-ST: agot_events_bastard.0912.t [AGOT: Questions of Parentage]
- agot_events_bastard.0912.t:0 "Questions of Parentage"
+
+ agot_events_bastard.0912.t:0 "Soy Soruları"
 ### TODO NOT-IN-ST: agot_events_bastard.0912.desc [AGOT: Every time I look at [reveal_scope.GetFirstName], I think of the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. It is very possible that [reveal_scope.GetSheHe] will live a long and carefree life without ever learning that [reveal_scope.GetHerHis] whole life is built upon a lie. Is it fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood? Perhaps I should tell [reveal_scope.GetHerHim] the truth. Besides, there may be advantage in it...]
  agot_events_bastard.0912.desc:0 "Every time I look at [reveal_scope.GetFirstName], I think of the truth of [reveal_scope.GetHerHis] blood, and also the dangers present in such truths. It is very possible that [reveal_scope.GetSheHe] will live a long and carefree life without ever learning that [reveal_scope.GetHerHis] whole life is built upon a lie. Is it fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood? Perhaps I should tell [reveal_scope.GetHerHim] the truth. Besides, there may be advantage in it..."
 ### TODO NOT-IN-ST: agot_events_bastard.0912.a [AGOT: [reveal_scope.GetFirstNameNoTooltip], your true parents are...]
  agot_events_bastard.0912.a:0 "[reveal_scope.GetFirstNameNoTooltip], your true parents are..."
-### TODO NOT-IN-ST: agot_events_bastard.0912.b [AGOT: No, now is not the time for this revelation.]
- agot_events_bastard.0912.b:0 "No, now is not the time for this revelation."
-### TODO NOT-IN-ST: agot_events_bastard.0913.t [AGOT: A Shocking Truth]
- agot_events_bastard.0913.t:0 "A Shocking Truth"
+
+ agot_events_bastard.0912.b:0 "Hayır, bu açıklamanın zamanı değil."
+
+ agot_events_bastard.0913.t:0 "Şoke Edici Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0913.desc [AGOT: [employer.GetFullName] asks that I join [employer.GetHerHim] in [employer.GetHerHis] study late one night, and though we have spoken a few times before, I am still nervous when I open the door. [employer.GetSheHe|U] looks strangely awkward as I step in, but nothing prepares me for what [employer.GetSheHe] says next.\n\n]
  agot_events_bastard.0913.desc:0 "[employer.GetFullName] asks that I join [employer.GetHerHim] in [employer.GetHerHis] study late one night, and though we have spoken a few times before, I am still nervous when I open the door. [employer.GetSheHe|U] looks strangely awkward as I step in, but nothing prepares me for what [employer.GetSheHe] says next.\n\n"[ROOT.Char.GetFirstName], it is time you knew the truth. Your true parents are [real_mother.GetName] and [real_father.GetName]. This secret was kept hidden from you for some time, and once I found out I believed it only proper that you know."\n\nI want to reject this revelation, scream into the wind that it isn't true, but in my heart I know it is. The only question is what to do with it."
-### TODO NOT-IN-ST: agot_events_bastard.0913.a [AGOT: I will not hide from it. The whole world must know.]
- agot_events_bastard.0913.a:0 "I will not hide from it. The whole world must know."
-### TODO NOT-IN-ST: agot_events_bastard.0913.b [AGOT: This is all too much! I need time to think.]
- agot_events_bastard.0913.b:0 "This is all too much! I need time to think."
-### TODO NOT-IN-ST: agot_events_bastard.0913.b.flavor [AGOT: You will be able to reveal the truth yourself later if you wish.]
- agot_events_bastard.0913.b.flavor:0 "You will be able to reveal the truth yourself later if you wish."
-### TODO NOT-IN-ST: agot_events_bastard.0914.t [AGOT: A Truth...Known?]
- agot_events_bastard.0914.t:0 "A Truth...Known?"
+
+ agot_events_bastard.0913.a:0 "Ondan saklanmayacağım. Tüm dünya bilmeli."
+
+ agot_events_bastard.0913.b:0 "Bu çok fazla! Düşünmek için zamana ihtiyacım var."
+
+ agot_events_bastard.0913.b.flavor:0 "İstersen gerçeği kendin daha sonra açıklayabilirsin."
+
+ agot_events_bastard.0914.t:0 "Bir Gerçek... Bilinen?"
 ### TODO NOT-IN-ST: agot_events_bastard.0914.desc [AGOT: I ask that [reveal_scope.GetFirstName] joins me in my study late one night, and though we have spoken a few times before, I am still somewhat apprehensive about their reaction when I open the door to invite them in.\n\nI confirmed that we would not be overheard before I begin to speak, yet as I begin to weave my tale [reveal_scope.GetFirstNameNoTooltip] puts a hand up to stop me.]
  agot_events_bastard.0914.desc:0 "I ask that [reveal_scope.GetFirstName] joins me in my study late one night, and though we have spoken a few times before, I am still somewhat apprehensive about their reaction when I open the door to invite them in.\n\nI confirmed that we would not be overheard before I begin to speak, yet as I begin to weave my tale [reveal_scope.GetFirstNameNoTooltip] puts a hand up to stop me. "[ROOT.Char.GetFirstNameNoTooltip]" [reveal_scope.GetSheHe] begins to say, addressing me by my first name "I already know. I've known for some time. I haven't yet revealed it but...I know." [reveal_scope.GetSheHe] says with a sigh."
-### TODO NOT-IN-ST: agot_events_bastard.0914.a [AGOT: I shall give you land regardless, in honor of our kinship.]
- agot_events_bastard.0914.a:0 "I shall give you land regardless, in honor of our kinship."
+
+ agot_events_bastard.0914.a:0 "Akrabalığımızın şerefine yine de sana toprak vereceğim."
 ### TODO NOT-IN-ST: agot_events_bastard.0914.a.flavor [AGOT: [reveal_scope.GetFirstName] may decide to reveal themselves at a later date...]
  agot_events_bastard.0914.a.flavor:0 "[reveal_scope.GetFirstName] may decide to reveal themselves at a later date..."
-### TODO NOT-IN-ST: agot_events_bastard.0914.b [AGOT: Then we must tell the realm!]
- agot_events_bastard.0914.b:0 "Then we must tell the realm!"
-### TODO NOT-IN-ST: agot_events_bastard.0914.c [AGOT: Then you know that the Night's Watch is the only safe place for you.]
- agot_events_bastard.0914.c:0 "Then you know that the Night's Watch is the only safe place for you."
-### TODO NOT-IN-ST: agot_events_bastard.0914.d [AGOT: It is enough that you know. What to do with it is up to you.]
- agot_events_bastard.0914.d:0 "It is enough that you know. What to do with it is up to you."
-### TODO NOT-IN-ST: agot_events_bastard.0915.t [AGOT: A Truth Revealed]
- agot_events_bastard.0915.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0914.b:0 "Öyleyse diyara söylemeliyiz!"
+
+ agot_events_bastard.0914.c:0 "Öyleyse bil ki Gece Nöbetçileri senin için tek güvenli yer."
+
+ agot_events_bastard.0914.d:0 "Bilmen yeterli. Onunla ne yapacağın sana kalmış."
+
+ agot_events_bastard.0915.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0915.desc [AGOT: [reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear.]
  agot_events_bastard.0915.desc:0 "[reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear. "So..." [reveal_scope.GetSheHe] exhales at last, but remains staring at the floor.\n\nI search [reveal_scope.GetHerHis] face for what feels like a day before [reveal_scope.GetSheHe] turns to me and says "This will change things, won't it?".\n\nWith that, there were plans to be made. [reveal_scope.GetFirstNameNoTooltip] has made [reveal_scope.GetHerHis] decision. The realm is to know, and consequences to face."
 ### TODO NOT-IN-ST: agot_events_bastard.0916.t [AGOT: A Request From Lessers]
  agot_events_bastard.0916.t:0 "A Request From Lessers"
 ### TODO NOT-IN-ST: agot_events_bastard.0916.desc [AGOT: [reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear.]
  agot_events_bastard.0916.desc:0 "[reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear. "So..." [reveal_scope.GetSheHe] exhales at last, but remains staring at the floor.\n\nI search [reveal_scope.GetHerHis] face for what feels like a day before [reveal_scope.GetSheHe] turns to me and says "This changes nothing. I am simply [reveal_scope.GetNameNoTooltip], whatever my birth.".\n\nI study [reveal_scope.GetHerHis] face, and [reveal_scope.GetSheHe] seems resolute in [reveal_scope.GetHerHis] answer. Fascinating. Still, I am [reveal_scope.GetHerHis] host, and privy to the secret besides. If I wanted, I could choose how we respond."
-### TODO NOT-IN-ST: agot_events_bastard.0916.a [AGOT: I shall give you land regardless, in honor of our kinship.]
- agot_events_bastard.0916.a:0 "I shall give you land regardless, in honor of our kinship."
+
+ agot_events_bastard.0916.a:0 "Akrabalığımızın şerefine yine de sana toprak vereceğim."
 ### TODO NOT-IN-ST: agot_events_bastard.0916.a.flavor [AGOT: [reveal_scope.GetFirstName] may decide to reveal themselves at a later date...]
  agot_events_bastard.0916.a.flavor:0 "[reveal_scope.GetFirstName] may decide to reveal themselves at a later date..."
 ### TODO NOT-IN-ST: agot_events_bastard.0916.b [AGOT: No, we must tell the realm!]
  agot_events_bastard.0916.b:0 "No, we must tell the realm!"
 ### TODO NOT-IN-ST: agot_events_bastard.0916.c [AGOT: The Night's Watch is the only safe place for you. You shall depart tomorrow.]
  agot_events_bastard.0916.c:0 "The Night's Watch is the only safe place for you. You shall depart tomorrow."
-### TODO NOT-IN-ST: agot_events_bastard.0916.d [AGOT: It is enough that you know. What to do with it is up to you.]
- agot_events_bastard.0916.d:0 "It is enough that you know. What to do with it is up to you."
-### TODO NOT-IN-ST: agot_events_bastard.0917.t [AGOT: Questions of Parentage]
- agot_events_bastard.0917.t:0 "Questions of Parentage"
+
+ agot_events_bastard.0916.d:0 "Bilmen yeterli. Onunla ne yapacağın sana kalmış."
+
+ agot_events_bastard.0917.t:0 "Soy Soruları"
 ### TODO NOT-IN-ST: agot_events_bastard.0917.desc [AGOT: Truthfully, I do not think on [reveal_scope.GetFirstNamePossessive] bloodline all that often. Now that we are both at [ROOT.Char.GetCurrentLocation.GetCounty.GetName] though, seeing [reveal_scope.GetHerHim] in person, I cannot get it out of my mind.\n\n[reveal_scope.GetHerHis|U] face does so look like them. Is it fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood? Perhaps I should tell [reveal_scope.GetHerHim] the truth. Besides, there may be advantage in it...]
  agot_events_bastard.0917.desc:0 "Truthfully, I do not think on [reveal_scope.GetFirstNamePossessive] bloodline all that often. Now that we are both at [ROOT.Char.GetCurrentLocation.GetCounty.GetName] though, seeing [reveal_scope.GetHerHim] in person, I cannot get it out of my mind.\n\n[reveal_scope.GetHerHis|U] face does so look like them. Is it fair to [reveal_scope.GetHerHim] that [reveal_scope.GetSheHe] should live and die without ever knowing the truth of [reveal_scope.GetHerHis] royal blood? Perhaps I should tell [reveal_scope.GetHerHim] the truth. Besides, there may be advantage in it..."
 ### TODO NOT-IN-ST: agot_events_bastard.0917.a [AGOT: [reveal_scope.GetFirstName], I need to talk to you.]
  agot_events_bastard.0917.a:0 "[reveal_scope.GetFirstName], I need to talk to you."
 ### TODO NOT-IN-ST: agot_events_bastard.0917.a_tt [AGOT: You will tell [reveal_scope.GetName] the truth about [reveal_scope.GetHerHis] heritage. As a guest here, you will not be able to influence [reveal_scope.GetFirstNamePossessiveNoTooltip] use of this information.]
  agot_events_bastard.0917.a_tt:0 "You will tell [reveal_scope.GetName] the truth about [reveal_scope.GetHerHis] heritage. As a guest here, you will not be able to influence [reveal_scope.GetFirstNamePossessiveNoTooltip] use of this information."
-### TODO NOT-IN-ST: agot_events_bastard.0917.b [AGOT: No, now is not the time for this revelation.]
- agot_events_bastard.0917.b:0 "No, now is not the time for this revelation."
-### TODO NOT-IN-ST: agot_events_bastard.0918.t [AGOT: A Shocking Truth]
- agot_events_bastard.0918.t:0 "A Shocking Truth"
+
+ agot_events_bastard.0917.b:0 "Hayır, bu açıklamanın zamanı değil."
+
+ agot_events_bastard.0918.t:0 "Şoke Edici Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0918.desc [AGOT: [sharer.GetFullName], currently visiting [ROOT.Char.GetCurrentLocation.GetCounty.GetName], discretely asks that I join [sharer.GetHerHim] on a walk later this evening. Failing to see any reason to decline, I accept [sharer.GetHerHis] invitation.\n\nAs I watch [sharer.GetHerHim] approach, something in [sharer.GetHerHis] baring makes me strangely nervous. [sharer.GetSheHe|U] seems strangely tense, yet steps beside me without issue. We make small talk for a time, but as we fall out of earshot of the keep [sharer.GetSheHe] grows serious.\n\n]
  agot_events_bastard.0918.desc:0 "[sharer.GetFullName], currently visiting [ROOT.Char.GetCurrentLocation.GetCounty.GetName], discretely asks that I join [sharer.GetHerHim] on a walk later this evening. Failing to see any reason to decline, I accept [sharer.GetHerHis] invitation.\n\nAs I watch [sharer.GetHerHim] approach, something in [sharer.GetHerHis] baring makes me strangely nervous. [sharer.GetSheHe|U] seems strangely tense, yet steps beside me without issue. We make small talk for a time, but as we fall out of earshot of the keep [sharer.GetSheHe] grows serious.\n\n"[ROOT.Char.GetFirstName], it is time you knew the truth. Your true parents are [real_mother.GetName] and [real_father.GetName]. I do not know how many people know of this, but seeing you earlier I felt compelled to share it."\n\nI want to reject this revelation, scream into the wind that it isn't true, but in my heart I know it is. The only question is what to do with it."
-### TODO NOT-IN-ST: agot_events_bastard.0918.a [AGOT: I will not hide from it. The whole world must know.]
- agot_events_bastard.0918.a:0 "I will not hide from it. The whole world must know."
-### TODO NOT-IN-ST: agot_events_bastard.0918.b [AGOT: This is all too much! I need time to think.]
- agot_events_bastard.0918.b:0 "This is all too much! I need time to think."
-### TODO NOT-IN-ST: agot_events_bastard.0918.b.flavor [AGOT: You will be able to reveal the truth yourself later if you wish.]
- agot_events_bastard.0918.b.flavor:0 "You will be able to reveal the truth yourself later if you wish."
-### TODO NOT-IN-ST: agot_events_bastard.0919.t [AGOT: A Truth...Known?]
- agot_events_bastard.0919.t:0 "A Truth...Known?"
+
+ agot_events_bastard.0918.a:0 "Ondan saklanmayacağım. Tüm dünya bilmeli."
+
+ agot_events_bastard.0918.b:0 "Bu çok fazla! Düşünmek için zamana ihtiyacım var."
+
+ agot_events_bastard.0918.b.flavor:0 "İstersen gerçeği kendin daha sonra açıklayabilirsin."
+
+ agot_events_bastard.0919.t:0 "Bir Gerçek... Bilinen?"
 ### TODO NOT-IN-ST: agot_events_bastard.0919.desc [AGOT: I ask that [reveal_scope.GetFirstName] joins me on a walk later that evening, and though nothing compared to what I'm sure will be a great shock to [reveal_scope.GetHerHim], I am still somewhat apprehensive about [reveal_scope.GetHerHis] reaction when I see [reveal_scope.GetHerHim] waiting for me.\n\nI looked over my shoulder to confirm that we would not be overheard before I began to speak, yet as I begin to weave my tale [reveal_scope.GetFirstNameNoTooltip] puts a hand up to stop me.]
  agot_events_bastard.0919.desc:0 "I ask that [reveal_scope.GetFirstName] joins me on a walk later that evening, and though nothing compared to what I'm sure will be a great shock to [reveal_scope.GetHerHim], I am still somewhat apprehensive about [reveal_scope.GetHerHis] reaction when I see [reveal_scope.GetHerHim] waiting for me.\n\nI looked over my shoulder to confirm that we would not be overheard before I began to speak, yet as I begin to weave my tale [reveal_scope.GetFirstNameNoTooltip] puts a hand up to stop me. "[ROOT.Char.GetFirstName]" [reveal_scope.GetSheHe] begins to say "I already know. I've known for some time. I haven't yet revealed it but...I know." [reveal_scope.GetSheHe] says with a sigh. "For my own reasons, I request that you keep this secret to yourself"."
 ### TODO NOT-IN-ST: agot_events_bastard.0919.a [AGOT: This will not do! I shall tell the realm.]
  agot_events_bastard.0919.a:0 "This will not do! I shall tell the realm."
 ### TODO NOT-IN-ST: agot_events_bastard.0919.a.flavor [AGOT: You sneak away to send letters of to every court in Westeros.\n@warning_icon!#warning This may have major implications for yourself and the realm.#!.]
  agot_events_bastard.0919.a.flavor:0 "You sneak away to send letters of to every court in Westeros.\n@warning_icon!#warning This may have major implications for yourself and the realm.#!."
-### TODO NOT-IN-ST: agot_events_bastard.0919.b [AGOT: It is enough that you know. What to do with it is up to you.]
- agot_events_bastard.0919.b:0 "It is enough that you know. What to do with it is up to you."
-### TODO NOT-IN-ST: agot_events_bastard.0920.t [AGOT: A Shocking Truth]
- agot_events_bastard.0920.t:0 "A Shocking Truth"
+
+ agot_events_bastard.0919.b:0 "Bilmen yeterli. Onunla ne yapacağın sana kalmış."
+
+ agot_events_bastard.0920.t:0 "Şoke Edici Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0920.desc [AGOT: I am working later than usual when I receive a short knock at my study door.]
  agot_events_bastard.0920.desc:0 "I am working later than usual when I receive a short knock at my study door. "Enter," I say simply, expecting the maids to be checking in on me, but instead [learned_person.GetFirstName] steps through the door. "Forgive me my [ROOT.Char.GetLadyLord|U] I... wanted to find you at a time when we would not be disturbed." [learned_person.GetSheHe|U] says nervously as I put down my quill to give [learned_person.GetHerHim] my full attention.\n\nWith a sigh [learned_person.GetSheHe] begins "Facts have come up in my research. Facts that... have some rather drastic implications for you... and for the realm." [learned_person.GetSheHe] continues, and as [learned_person.GetHerHis] story unfolds I find myself stunned into silence, whatever previous matter I was writing on completely forgotten. [learned_person.GetNameNoTooltip] says that previously undiscovered documents reveal that my true parents are in fact [real_mother.GetName] and [real_father.GetName]!\n\nI do not believe it, and yet as [learned_person.GetFirstNameNoTooltip] lays out the evidence in front of me I am forced to accept that this is indeed reality."
 ### TODO NOT-IN-ST: agot_events_bastard.0920.a [AGOT: If this is the truth, then I must tell the realm.]
  agot_events_bastard.0920.a:0 "If this is the truth, then I must tell the realm."
 ### TODO NOT-IN-ST: agot_events_bastard.0920.b [AGOT: I don't want it. This knowledge must be kept secret.]
  agot_events_bastard.0920.b:0 "I don't want it. This knowledge must be kept secret."
-### TODO NOT-IN-ST: agot_events_bastard.0951.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0951.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0951.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0951.first_person [AGOT: I am writing to all the lords of Westeros to let them know the truth that has been hidden for too long. Despite what you may have thought, I was in fact born to the union of [real_mother.GetName] and [real_father.GetName]. I ask that you, and the rest of the realm, recognize this new reality and the implications it brings.]
  agot_events_bastard.0951.first_person:0 "I am writing to all the lords of Westeros to let them know the truth that has been hidden for too long. Despite what you may have thought, I was in fact born to the union of [real_mother.GetName] and [real_father.GetName]. I ask that you, and the rest of the realm, recognize this new reality and the implications it brings."
 ### TODO NOT-IN-ST: agot_events_bastard.0951.third_person [AGOT: I am writing to all the lords of Westeros to let them know the truth that has been hidden for too long. Despite what you may have thought, [reveal_scope.GetName] was in fact born to the union of [real_mother.GetName] and [real_father.GetName]. I ask that you, and the rest of the realm, recognize this new reality and the implications it brings.]
@@ -285,40 +285,40 @@
  agot_events_bastard.0951.a:0 "Well, that is certainly interesting."
 ### TODO NOT-IN-ST: agot_events_bastard.0951.b [AGOT: I can't believe they would reveal this!]
  agot_events_bastard.0951.b:0 "I can't believe they would reveal this!"
-### TODO NOT-IN-ST: agot_events_bastard.0952.t [AGOT: A Truth Revealed]
- agot_events_bastard.0952.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0952.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0952.desc [AGOT: [reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear.]
  agot_events_bastard.0952.desc:0 "[reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear. "So..." [reveal_scope.GetSheHe] exhales at last, but remains staring at the floor.\n\nI search [reveal_scope.GetHerHis] face for what feels like a day before [reveal_scope.GetSheHe] turns to me and says "This will change things, won't it?".\n\nThere were hugs, there were tears. The family was certainly shocked. But [reveal_scope.GetFirstNameNoTooltip] has made [reveal_scope.GetHerHis] decision. The realm is to know."
 ### TODO NOT-IN-ST: agot_events_bastard.0952.desc.jon [AGOT: [reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear.]
  agot_events_bastard.0952.desc.jon:0 "[reveal_scope.GetName] is silent for a long time. I can see [reveal_scope.GetHerHis] thoughts dancing across [reveal_scope.GetHerHis] face. Confusion. Happiness. Fear. "Lyanna..." [reveal_scope.GetSheHe] exhales at last, but remains staring at the floor.\n\nI search [reveal_scope.GetHerHis] face for what feels like a day before [reveal_scope.GetSheHe] turns to me and says "This will change things, won't it?".\n\nThere were hugs, there were tears. The family was certainly shocked. But [reveal_scope.GetFirstNameNoTooltip] has made [reveal_scope.GetHerHis] decision. The realm is to know."
-### TODO NOT-IN-ST: agot_events_bastard.0953.t [AGOT: A Truth Revealed]
- agot_events_bastard.0953.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0953.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0953.desc [AGOT: [reveal_scope.GetName] is silent for a long time after handing me the letter from [sharer.GetFullName]. It tells of the truth. That [reveal_scope.GetFirstNameNoTooltip] was born of [real_mother.GetName] and [real_father.GetName]. Such a secret I held close for so long that it was not even I who could tell it to them.\n\nThere were hugs, there were tears. The family was certainly shocked. But [reveal_scope.GetFirstNameNoTooltip] has made [reveal_scope.GetHerHis] decision. The realm is to know.]
  agot_events_bastard.0953.desc:0 "[reveal_scope.GetName] is silent for a long time after handing me the letter from [sharer.GetFullName]. It tells of the truth. That [reveal_scope.GetFirstNameNoTooltip] was born of [real_mother.GetName] and [real_father.GetName]. Such a secret I held close for so long that it was not even I who could tell it to them.\n\nThere were hugs, there were tears. The family was certainly shocked. But [reveal_scope.GetFirstNameNoTooltip] has made [reveal_scope.GetHerHis] decision. The realm is to know."
-### TODO NOT-IN-ST: agot_events_bastard.0954.t [AGOT: A Truth Revealed]
- agot_events_bastard.0954.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0954.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0954.desc [AGOT: [reveal_scope.GetName] is silent for a long time after handing me the letter from [sharer.GetFullName]. It tells of the truth. That [reveal_scope.GetFirstNameNoTooltip] was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nSuch a secret I held close for so long that it was not even I who could reveal it.\n\nThere were hugs, there were tears. This should rightfully have been [reveal_scope.GetHerHis] decision, but [sharer.GetFirstNameNoTooltip] has robbed us of that option. Regardless, it has been done. Though it was neither I nor [reveal_scope.GetFirstNamePossessiveNoTooltip] decision, the realm is to know.]
  agot_events_bastard.0954.desc:0 "[reveal_scope.GetName] is silent for a long time after handing me the letter from [sharer.GetFullName]. It tells of the truth. That [reveal_scope.GetFirstNameNoTooltip] was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nSuch a secret I held close for so long that it was not even I who could reveal it.\n\nThere were hugs, there were tears. This should rightfully have been [reveal_scope.GetHerHis] decision, but [sharer.GetFirstNameNoTooltip] has robbed us of that option. Regardless, it has been done. Though it was neither I nor [reveal_scope.GetFirstNamePossessiveNoTooltip] decision, the realm is to know."
-### TODO NOT-IN-ST: agot_events_bastard.0955.t [AGOT: A Truth Revealed]
- agot_events_bastard.0955.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0955.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0955.desc [AGOT: It has been some time since I sent a letter to [reveal_scope.GetFirstName], and though every day I have asked if I have received a reply, or notice sent to the realm, I have received no word as yet.\n\nAt last, after weeks of waiting, a page tells me that I have received a reply.\n\n]
  agot_events_bastard.0955.desc:0 "It has been some time since I sent a letter to [reveal_scope.GetFirstName], and though every day I have asked if I have received a reply, or notice sent to the realm, I have received no word as yet.\n\nAt last, after weeks of waiting, a page tells me that I have received a reply.\n\n"Dear [ROOT.Char.GetFullNameNoTooltip]," [reveal_scope.GetSheHe] begins "I thank you for your candor, and I write to you in advance to let you know that I shall be writing to the realm in the coming days revealing that which you told me."\n\nIt seems [reveal_scope.GetNameNoTooltip] has made their choice, and I feel a weight leave my shoulders."
 ### TODO NOT-IN-ST: agot_events_bastard.0955.a [AGOT: Now to see how they, and [ruler_scope.GetFirstNameOrMe], react...]
  agot_events_bastard.0955.a:0 "Now to see how they, and [ruler_scope.GetFirstNameOrMe], react..."
-### TODO NOT-IN-ST: agot_events_bastard.0956.t [AGOT: A Truth Revealed]
- agot_events_bastard.0956.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0956.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0956.desc [AGOT: After receiving [revealer.GetFirstNamePossessive] letter, my life has divided into two. Before this, and after. I am silent, unable to process that what is in front of me is now in front of the whole realm. It tells of the truth. That I was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nSuch a secret I held close for so long that it was not even I who could reveal it.\n\nThis should rightfully have been my decision, but [sharer.GetFirstNameNoTooltip] has robbed me of that option. Regardless, it has been done. Though it was not my desire, the realm is to know.]
  agot_events_bastard.0956.desc:0 "After receiving [revealer.GetFirstNamePossessive] letter, my life has divided into two. Before this, and after. I am silent, unable to process that what is in front of me is now in front of the whole realm. It tells of the truth. That I was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nSuch a secret I held close for so long that it was not even I who could reveal it.\n\nThis should rightfully have been my decision, but [sharer.GetFirstNameNoTooltip] has robbed me of that option. Regardless, it has been done. Though it was not my desire, the realm is to know."
-### TODO NOT-IN-ST: agot_events_bastard.0956.a [AGOT: Now to see how they, and [ruler_scope.GetFirstName], react...]
- agot_events_bastard.0956.a:0 "Now to see how they, and [ruler_scope.GetFirstName], react..."
-### TODO NOT-IN-ST: agot_events_bastard.0957.t [AGOT: A Truth Revealed]
- agot_events_bastard.0957.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0956.a:0 "Şimdi bakalım onlar ve [ruler_scope.GetFirstName] nasıl tepki verecek..."
+
+ agot_events_bastard.0957.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0957.desc [AGOT: I look down into my hands and feel my life shatter to pieces. I cannot breathe and I feel my vision start to fade, barely retaining consciousness of what is in front of me. My life has divided into two. Before this, and after.\n\nThis letter tells of the truth. That I was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nMy entire life has been a lie. I should have been told! This was not right!]
  agot_events_bastard.0957.desc:0 "I look down into my hands and feel my life shatter to pieces. I cannot breathe and I feel my vision start to fade, barely retaining consciousness of what is in front of me. My life has divided into two. Before this, and after.\n\nThis letter tells of the truth. That I was born of [real_mother.GetName] and [real_father.GetName]. What's worse, copies have been sent to all the realm!\n\nMy entire life has been a lie. I should have been told! This was not right!"
-### TODO NOT-IN-ST: agot_events_bastard.0957.a [AGOT: Now to see how they, and [ruler_scope.GetFirstName], react...]
- agot_events_bastard.0957.a:0 "Now to see how they, and [ruler_scope.GetFirstName], react..."
-### TODO NOT-IN-ST: agot_events_bastard.0958.t [AGOT: A Truth Revealed]
- agot_events_bastard.0958.t:0 "A Truth Revealed"
+
+ agot_events_bastard.0957.a:0 "Şimdi bakalım onlar ve [ruler_scope.GetFirstName] nasıl tepki verecek..."
+
+ agot_events_bastard.0958.t:0 "Açığa Çıkan Gerçek"
 ### TODO NOT-IN-ST: agot_events_bastard.0958.desc.bastard [AGOT: The ravens are sent. The messages, delivered. The truth, known.\n\nThough many will curse me for revealing such a grand secret, for better or worse the truth is out there. Perhaps I may play a great role in the days to come. Perhaps all of this will come to naught. Whatever the case, my true bloodline is now acknowledged by all, for good or ill.]
  agot_events_bastard.0958.desc.bastard:0 "The ravens are sent. The messages, delivered. The truth, known.\n\nThough many will curse me for revealing such a grand secret, for better or worse the truth is out there. Perhaps I may play a great role in the days to come. Perhaps all of this will come to naught. Whatever the case, my true bloodline is now acknowledged by all, for good or ill."
 ### TODO NOT-IN-ST: agot_events_bastard.0958.desc.host [AGOT: The ravens are sent. The messages, delivered. The truth, known.\n\nThough many will curse me for revealing such a grand secret, for better or worse the truth is out there. Perhaps I may play a great role in the days to come. Perhaps all of this will come to naught. Whatever the case, [reveal_scope.GetFirstNamePossessive] true bloodline is now acknowledged by all, for good or ill.]
@@ -357,10 +357,10 @@
  agot_events_bastard.0959.b.flavor:0 "You will rule lightly on this matter."
 ### TODO NOT-IN-ST: agot_events_bastard.0959.c [AGOT: It is of no consequence. I shall say naught on this.]
  agot_events_bastard.0959.c:0 "It is of no consequence. I shall say naught on this."
-### TODO NOT-IN-ST: agot_events_bastard.0959.c_order [AGOT: With [reveal_scope.GetHerHis] vows, [reveal_scope.GetSheHe] has no true claim.]
- agot_events_bastard.0959.c_order:0 "With [reveal_scope.GetHerHis] vows, [reveal_scope.GetSheHe] has no true claim."
-### TODO NOT-IN-ST: agot_events_bastard.0959.c.flavor [AGOT: You will not respond to this development.]
- agot_events_bastard.0959.c.flavor:0 "You will not respond to this development."
+
+ agot_events_bastard.0959.c_order:0 "[reveal_scope.GetHerHis] yeminleriyle [reveal_scope.GetSheHe]'in gerçek bir hakkı yok."
+
+ agot_events_bastard.0959.c.flavor:0 "Bu gelişmeye yanıt vermeyeceksin."
 ### TODO NOT-IN-ST: agot_events_bastard.0960.t [AGOT: A Plea from a Friend]
  agot_events_bastard.0960.t:0 "A Plea from a Friend"
 ### TODO NOT-IN-ST: agot_events_bastard.0960.desc.ned_revealer [AGOT: I feel my heart sink as I am handed the second letter, peeling open the seal of House Stark with shaking fingers.]
@@ -375,8 +375,8 @@
  agot_events_bastard.0960.b.daughter:0 "My rage is immense, but I will not butcher the daughter of Lyanna."
 ### TODO NOT-IN-ST: agot_events_bastard.0960.c [AGOT: It was so many years ago now...I will not act against those I love.]
  agot_events_bastard.0960.c:0 "It was so many years ago now...I will not act against those I love."
-### TODO NOT-IN-ST: agot_events_bastard.0960.c.flavor [AGOT: You will not respond to this development.]
- agot_events_bastard.0960.c.flavor:0 "You will not respond to this development."
+
+ agot_events_bastard.0960.c.flavor:0 "Bu gelişmeye yanıt vermeyeceksin."
 ### TODO NOT-IN-ST: agot_events_bastard.0961.t [AGOT: A Harsh Response]
  agot_events_bastard.0961.t:0 "A Harsh Response"
 ### TODO NOT-IN-ST: agot_events_bastard.0961.desc [AGOT: I look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond, how I rule. Such blatant assertion of a claim to the throne warrants a response even to the most moderate of rulers — and that, I am not.\n\nHow, then, should I answer this implicit challenge?]
@@ -397,10 +397,10 @@
  agot_events_bastard.0962.t:0 "A Moderate Response"
 ### TODO NOT-IN-ST: agot_events_bastard.0962.desc [AGOT: I look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond, how I rule. Though such a claim doubtless represents a threat, [reveal_scope.GetName] has not acted against me yet, and does not deserve to be punished as though they have. How, then, should I answer this news?]
  agot_events_bastard.0962.desc:0 "I look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond, how I rule. Though such a claim doubtless represents a threat, [reveal_scope.GetName] has not acted against me yet, and does not deserve to be punished as though they have. How, then, should I answer this news?"
-### TODO NOT-IN-ST: agot_events_bastard.0962.a.nw [AGOT: He shall be allowed to live out his days at the Wall.]
- agot_events_bastard.0962.a.nw:0 "He shall be allowed to live out his days at the Wall."
-### TODO NOT-IN-ST: agot_events_bastard.0962.a.ss [AGOT: She shall be allowed to join the Silent Sisters.]
- agot_events_bastard.0962.a.ss:0 "She shall be allowed to join the Silent Sisters."
+
+ agot_events_bastard.0962.a.nw:0 "Günlerini Sur'da geçirmesine izin verilecek."
+
+ agot_events_bastard.0962.a.ss:0 "Sessiz Kız Kardeşler'e katılmasına izin verilecek."
 ### TODO NOT-IN-ST: agot_events_bastard.0962.b [AGOT: [reveal_scope.GetSheHe|U] must be placed under arrest.]
  agot_events_bastard.0962.b:0 "[reveal_scope.GetSheHe|U] must be placed under arrest."
 ### TODO NOT-IN-ST: agot_events_bastard.0962.c [AGOT: [reveal_scope.GetName] may join court, to note their new station.]
@@ -421,10 +421,10 @@
  agot_events_bastard.0963.desc_unchanged_dynasty:0 "I am seated on the throne, ruling as I do, when a queer piece of news is offered to me in the seal of House [revealer.GetHouse.GetBaseName]. As I read, my eyes widen with shock.\n\nIt seems that [reveal_scope.GetFullName], already of my own house through [real_mother.GetFullName], is now proven beyond doubt to carry the blood of [reveal_scope.GetDynasty.GetBaseName] in full. Born of [real_father.GetFullName] and [real_mother.GetFullName], [reveal_scope.GetSheHe] stands not merely as kin by name, but by both bloodlines alike.\n\nI look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond to this bit of family drama. Though such a claim doubtless represents a threat, [reveal_scope.GetNameNoTooltip] has not acted against me, and is in fact my kin, baseborn or no. How, then, should I answer this news?"
 ### TODO NOT-IN-ST: agot_events_bastard.0963.desc [AGOT: I am seated on the throne, ruling as I do, when a queer piece of news is offered to me in the seal of House [revealer.GetHouse.GetBaseName]. As I read, my eyes widen with shock.\n\nIt appears that [reveal_scope.GetFullName] is, in fact, of [reveal_scope.GetDynasty.GetBaseName] blood like me! Born to a union of [real_father.GetFullName] and [real_mother.GetFullName], [reveal_scope.GetSheHe] is now known to be of royal descent.\n\nI look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond to this bit of family drama. Though such a claim doubtless represents a threat, [reveal_scope.GetNameNoTooltip] has not acted against me, and is in fact my kin, baseborn or no. How, then, should I answer this news?]
  agot_events_bastard.0963.desc:0 "I am seated on the throne, ruling as I do, when a queer piece of news is offered to me in the seal of House [revealer.GetHouse.GetBaseName]. As I read, my eyes widen with shock.\n\nIt appears that [reveal_scope.GetFullName] is, in fact, of [reveal_scope.GetDynasty.GetBaseName] blood like me! Born to a union of [real_father.GetFullName] and [real_mother.GetFullName], [reveal_scope.GetSheHe] is now known to be of royal descent.\n\nI look up from the parchment I was handed to a sea of expectant faces. They're waiting to see how I respond to this bit of family drama. Though such a claim doubtless represents a threat, [reveal_scope.GetNameNoTooltip] has not acted against me, and is in fact my kin, baseborn or no. How, then, should I answer this news?"
-### TODO NOT-IN-ST: agot_events_bastard.0963.a.nw [AGOT: He shall be allowed to live out his days at the Wall.]
- agot_events_bastard.0963.a.nw:0 "He shall be allowed to live out his days at the Wall."
-### TODO NOT-IN-ST: agot_events_bastard.0963.a.ss [AGOT: She shall be allowed to join the Silent Sisters.]
- agot_events_bastard.0963.a.ss:0 "She shall be allowed to join the Silent Sisters."
+
+ agot_events_bastard.0963.a.nw:0 "Günlerini Sur'da geçirmesine izin verilecek."
+
+ agot_events_bastard.0963.a.ss:0 "Sessiz Kız Kardeşler'e katılmasına izin verilecek."
 ### TODO NOT-IN-ST: agot_events_bastard.0963.b [AGOT: [reveal_scope.GetSheHe|U] must be placed under arrest.]
  agot_events_bastard.0963.b:0 "[reveal_scope.GetSheHe|U] must be placed under arrest."
 ### TODO NOT-IN-ST: agot_events_bastard.0963.c [AGOT: [reveal_scope.GetNameNoTooltip] may join court, to note [reveal_scope.GetHerHis] new station.]
@@ -433,8 +433,8 @@
  agot_events_bastard.0963.c.flavor:0 "You may confer additional honors to them if they accept."
 ### TODO NOT-IN-ST: agot_events_bastard.0963.d [AGOT: [reveal_scope.GetNameNoTooltip] must state [reveal_scope.GetSheHe] has no claim, that is enough.]
  agot_events_bastard.0963.d:0 "[reveal_scope.GetNameNoTooltip] must state [reveal_scope.GetSheHe] has no claim, that is enough."
-### TODO NOT-IN-ST: agot_events_bastard.0963.e [AGOT: With [reveal_scope.GetHerHis] vows, [reveal_scope.GetSheHe] has no true claim.]
- agot_events_bastard.0963.e:0 "With [reveal_scope.GetHerHis] vows, [reveal_scope.GetSheHe] has no true claim."
+
+ agot_events_bastard.0963.e:0 "[reveal_scope.GetHerHis] yeminleriyle [reveal_scope.GetSheHe]'in gerçek bir hakkı yok."
 ### TODO NOT-IN-ST: agot_events_bastard.0970.t_execution_both [AGOT: A Tyrannous Demand]
  agot_events_bastard.0970.t_execution_both:0 "A Tyrannous Demand"
 ### TODO NOT-IN-ST: agot_events_bastard.0970.t_execution_bastard [AGOT: A Mortal Demand]
@@ -493,22 +493,22 @@
  agot_events_bastard.0971.desc_nothing:0 "For days and nights I have stressed and strained over what [ruler_scope.GetName] may do in response to recent revelations, yet it has been weeks now since the truth of my birth was sent to the realm. Surely [ruler_scope.GetSheHe] must have heard by now?\n\nI am forced to conclude that [ruler_scope.GetName] has simply decided to let this matter rest. Whether simply beneath [ruler_scope.GetHerHis] notice at this moment or [ruler_scope.GetSheHe] just does not care, it seems that there will be no demands coming from King's Landing."
 ### TODO NOT-IN-ST: agot_events_bastard.0971.nw_army_for_claim [AGOT: The Commander's Men]
  agot_events_bastard.0971.nw_army_for_claim:0 "The Commander's Men"
-### TODO NOT-IN-ST: agot_events_bastard.0980.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0980.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0980.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0980.desc [AGOT: Let it be known to all that [reveal_scope.GetName] and [reveal_employer.GetName] are, by their failure to present themselves to the throne when accounting for [reveal_scope.GetFirstNamePossessiveNoTooltip] heritage, deemed traitors to the realm and hereby sentenced to death.\n\nAny who assists [reveal_scope.GetHerHim] shall share the same fate.]
  agot_events_bastard.0980.desc:0 "Let it be known to all that [reveal_scope.GetName] and [reveal_employer.GetName] are, by their failure to present themselves to the throne when accounting for [reveal_scope.GetFirstNamePossessiveNoTooltip] heritage, deemed traitors to the realm and hereby sentenced to death.\n\nAny who assists [reveal_scope.GetHerHim] shall share the same fate."
 ### TODO NOT-IN-ST: agot_events_bastard.0980.a [AGOT: Such a vicious demand!]
  agot_events_bastard.0980.a:0 "Such a vicious demand!"
-### TODO NOT-IN-ST: agot_events_bastard.0981.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0981.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0981.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0981.desc [AGOT: Let it be known to all that [reveal_scope.GetName] is, by [reveal_scope.GetHerHis] failure to present [reveal_scope.GetHerselfHimself] to the throne when accounting for [reveal_scope.GetHerHis] heritage, hereby deemed a traitor to the realm and sentenced to death.\n\nAnyone who assists [reveal_scope.GetHerHim] shall share the same fate.]
  agot_events_bastard.0981.desc:0 "Let it be known to all that [reveal_scope.GetName] is, by [reveal_scope.GetHerHis] failure to present [reveal_scope.GetHerselfHimself] to the throne when accounting for [reveal_scope.GetHerHis] heritage, hereby deemed a traitor to the realm and sentenced to death.\n\nAnyone who assists [reveal_scope.GetHerHim] shall share the same fate."
 ### TODO NOT-IN-ST: agot_events_bastard.0981.desc_resolved [AGOT: Let it be known to all that [reveal_scope.GetName] has, by the threat of their emergence, been deemed a traitor to the realm and sentenced to death.\n\nLet [reveal_scope.GetHerHis] fate be a reminder of the fate that awaits all who would threaten the security of my realm.]
  agot_events_bastard.0981.desc_resolved:0 "Let it be known to all that [reveal_scope.GetName] has, by the threat of their emergence, been deemed a traitor to the realm and sentenced to death.\n\nLet [reveal_scope.GetHerHis] fate be a reminder of the fate that awaits all who would threaten the security of my realm."
 ### TODO NOT-IN-ST: agot_events_bastard.0981.a [AGOT: Such a harsh ruling!]
  agot_events_bastard.0981.a:0 "Such a harsh ruling!"
-### TODO NOT-IN-ST: agot_events_bastard.0982.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0982.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0982.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0982.desc.male [AGOT: Let it be known to all that [reveal_scope.GetName] has been ordered to take the black with the Night's Watch due to the threat [reveal_scope.GetHerHis] heritage represents to the realm.]
  agot_events_bastard.0982.desc.male:0 "Let it be known to all that [reveal_scope.GetName] has been ordered to take the black with the Night's Watch due to the threat [reveal_scope.GetHerHis] heritage represents to the realm."
 ### TODO NOT-IN-ST: agot_events_bastard.0982.desc.female [AGOT: Let it be known to all that [reveal_scope.GetName] has been ordered to join the Silent Sisterhood due to the threat [reveal_scope.GetHerHis] heritage represents to the realm.]
@@ -519,32 +519,32 @@
  agot_events_bastard.0982.desc_resolved:0 "The court thanks [reveal_scope.GetHerHim] for [reveal_scope.GetHerHis] service and hopes that [reveal_scope.GetSheHe] will serve equally well in [reveal_scope.GetHerHis] new station."
 ### TODO NOT-IN-ST: agot_events_bastard.0982.a [AGOT: Punished just for being born? Doesn't seem right.]
  agot_events_bastard.0982.a:0 "Punished just for being born? Doesn't seem right."
-### TODO NOT-IN-ST: agot_events_bastard.0983.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0983.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0983.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0983.desc [AGOT: Let it be known to all that [reveal_scope.GetName] has been summoned to be imprisoned until such a time as [reveal_scope.GetHerHis] heritage is demonstrated not to be a threat to the realm. Any lord or lady found aiding [reveal_scope.GetHerHim] to escape this summons shall be deemed a traitor to the realm and treated accordingly.]
  agot_events_bastard.0983.desc:0 "Let it be known to all that [reveal_scope.GetName] has been summoned to be imprisoned until such a time as [reveal_scope.GetHerHis] heritage is demonstrated not to be a threat to the realm. Any lord or lady found aiding [reveal_scope.GetHerHim] to escape this summons shall be deemed a traitor to the realm and treated accordingly."
 ### TODO NOT-IN-ST: agot_events_bastard.0983.desc_resolved [AGOT: Let it be known to all that [reveal_scope.GetName] has been imprisoned until such a time as the court is satisfied that [reveal_scope.GetHerHis] heritage is not a threat to the realm. Any lord or lady found conspiring to aid [reveal_scope.GetHerHim] in escape shall be deemed a traitor to the realm and treated accordingly.]
  agot_events_bastard.0983.desc_resolved:0 "Let it be known to all that [reveal_scope.GetName] has been imprisoned until such a time as the court is satisfied that [reveal_scope.GetHerHis] heritage is not a threat to the realm. Any lord or lady found conspiring to aid [reveal_scope.GetHerHim] in escape shall be deemed a traitor to the realm and treated accordingly."
 ### TODO NOT-IN-ST: agot_events_bastard.0983.a [AGOT: Imprisoned for being born? Doesn't seem right.]
  agot_events_bastard.0983.a:0 "Imprisoned for being born? Doesn't seem right."
-### TODO NOT-IN-ST: agot_events_bastard.0984.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0984.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0984.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0984.desc [AGOT: Let it be known to all that [reveal_scope.GetName] has been summoned to court under the protection of [ruler_scope.GetHerHis|U] Grace until such a time as [reveal_scope.GetHerHis] heritage is demonstrated not to be a threat to the realm. Any lord or lady found aiding [reveal_scope.GetHerHim] to escape this summons shall be deemed a traitor to the realm and treated accordingly.]
  agot_events_bastard.0984.desc:0 "Let it be known to all that [reveal_scope.GetName] has been summoned to court under the protection of [ruler_scope.GetHerHis|U] Grace until such a time as [reveal_scope.GetHerHis] heritage is demonstrated not to be a threat to the realm. Any lord or lady found aiding [reveal_scope.GetHerHim] to escape this summons shall be deemed a traitor to the realm and treated accordingly."
-### TODO NOT-IN-ST: agot_events_bastard.0984.a.courtier [AGOT: Seems a fair response.]
- agot_events_bastard.0984.a.courtier:0 "Seems a fair response."
+
+ agot_events_bastard.0984.a.courtier:0 "Adil bir karşılık gibi görünüyor."
 ### TODO NOT-IN-ST: agot_events_bastard.0984.a.landed [AGOT: Forced to give up their holdings? Harsh.]
  agot_events_bastard.0984.a.landed:0 "Forced to give up their holdings? Harsh."
-### TODO NOT-IN-ST: agot_events_bastard.0985.opening [AGOT: To [ROOT.Char.GetFullNameNoTooltip],]
- agot_events_bastard.0985.opening:0 "To [ROOT.Char.GetFullNameNoTooltip],"
+
+ agot_events_bastard.0985.opening:0 "Sayın [ROOT.Char.GetFullNameNoTooltip],"
 ### TODO NOT-IN-ST: agot_events_bastard.0985.desc [AGOT: Let it be known to all that [reveal_scope.GetName] has been instructed to make a public and legally binding statement, renouncing any and all claims to the throne or related titles.]
  agot_events_bastard.0985.desc:0 "Let it be known to all that [reveal_scope.GetName] has been instructed to make a public and legally binding statement, renouncing any and all claims to the throne or related titles."
 ### TODO NOT-IN-ST: agot_events_bastard.0985.desc_pending [AGOT: Any lord or lady found aiding [reveal_scope.GetHerHim] to avoid or otherwise argue their way out of this demand shall be deemed a traitor to the realm and treated accordingly.]
  agot_events_bastard.0985.desc_pending:0 "Any lord or lady found aiding [reveal_scope.GetHerHim] to avoid or otherwise argue their way out of this demand shall be deemed a traitor to the realm and treated accordingly."
 ### TODO NOT-IN-ST: agot_events_bastard.0985.desc_resolved [AGOT: This threat shall be resolved without bloodshed, such is my mercy and wish. The statement should reach your rookeries in the coming days, and I expect all to recognize it as fact.]
  agot_events_bastard.0985.desc_resolved:0 "This threat shall be resolved without bloodshed, such is my mercy and wish. The statement should reach your rookeries in the coming days, and I expect all to recognize it as fact."
-### TODO NOT-IN-ST: agot_events_bastard.0985.a [AGOT: Seems a fair response.]
- agot_events_bastard.0985.a:0 "Seems a fair response."
+
+ agot_events_bastard.0985.a:0 "Adil bir karşılık gibi görünüyor."
 ### TODO NOT-IN-ST: agot_events_bastard.0986.t [AGOT: The Crown Marches]
  agot_events_bastard.0986.t:0 "The Crown Marches"
 ### TODO NOT-IN-ST: agot_events_bastard.0986.desc [AGOT: Word has reached us that [ruler_scope.GetName] has lost patience with our defiance. The Crown's armies are being mustered, and it seems [ruler_scope.GetSheHe] intends to enforce [ruler_scope.GetHerHis] decree regarding [Select_CString( reveal_scope.IsLocalPlayer, 'me', reveal_scope.GetName )] by force of arms. We must prepare to defend ourselves.]
@@ -603,8 +603,8 @@
  agot_events_bastard.0992.a:0 "Together we march for justice!"
 ### TODO NOT-IN-ST: agot_events_bastard.0992.a.tt [AGOT: @warning_icon! #warning You will press a claim on [ruler_scope.GetFirstNamePossessive] throne and declare war. You will fight as the attacker.#!]
  agot_events_bastard.0992.a.tt:0 "@warning_icon! #warning You will press a claim on [ruler_scope.GetFirstNamePossessive] throne and declare war. You will fight as the attacker.#!"
-### TODO NOT-IN-ST: agot_events_bastard.0993.t [AGOT: Demands Rejected]
- agot_events_bastard.0993.t:0 "Demands Rejected"
+
+ agot_events_bastard.0993.t:0 "Talepler Reddedildi"
 ### TODO NOT-IN-ST: agot_events_bastard.0993.desc [AGOT: So it has come to this.\n\nRejecting my demands, the bastard [reveal_scope.GetName] has declared [reveal_scope.GetHerHis] intent to rule the [ruler_scope.GetPrimaryTitle.GetName] and called to [reveal_scope.GetHerHis] allies to uphold their claim. What manner of promises [reveal_scope.GetSheHe] must have made to assemble such a host is unknown, but the line is crossed, the die is cast, and either [reveal_scope.GetHouse.GetBaseName] or [ruler_scope.GetHouse.GetBaseName] will reign victorious when this is over.\n\nI survey the banners assembled before me, seeing the many that have flocked to defend my just rulership.]
  agot_events_bastard.0993.desc:0 "So it has come to this.\n\nRejecting my demands, the bastard [reveal_scope.GetName] has declared [reveal_scope.GetHerHis] intent to rule the [ruler_scope.GetPrimaryTitle.GetName] and called to [reveal_scope.GetHerHis] allies to uphold their claim. What manner of promises [reveal_scope.GetSheHe] must have made to assemble such a host is unknown, but the line is crossed, the die is cast, and either [reveal_scope.GetHouse.GetBaseName] or [ruler_scope.GetHouse.GetBaseName] will reign victorious when this is over.\n\nI survey the banners assembled before me, seeing the many that have flocked to defend my just rulership."
 ### TODO NOT-IN-ST: agot_events_bastard.0993.desc.same [AGOT: So it has come to this.\n\nRejecting my demands, the bastard [reveal_scope.GetName] has declared [reveal_scope.GetHerHis] intent to rule the [ruler_scope.GetPrimaryTitle.GetName] and called to [reveal_scope.GetHerHis] allies to uphold their claim. What manner of promises [reveal_scope.GetSheHe] must have made to assemble such a host is unknown, but the line is crossed, the die is cast, and either a true [reveal_scope.GetHouse.GetBaseName] or a false one will reign victorious when this is over.\n\nI survey the banners assembled before me, seeing the many that have flocked to defend my just rulership.]
@@ -667,48 +667,48 @@
  agot_events_bastard.0998.desc_give_up_claims:0 "The war is won. [claimant.GetName] shall renounce all claims to the throne, as was decreed."
 ### TODO NOT-IN-ST: agot_events_bastard.0998.desc_default [AGOT: The war is won. Our decree shall be enforced.]
  agot_events_bastard.0998.desc_default:0 "The war is won. Our decree shall be enforced."
-### TODO NOT-IN-ST: agot_events_bastard.0998.a [AGOT: Justice is served.]
- agot_events_bastard.0998.a:0 "Justice is served."
+
+ agot_events_bastard.0998.a:0 "Adalet yerini buldu."
 ### TODO NOT-IN-ST: agot_events_bastard.0999.t [AGOT: The Crown Defeated]
  agot_events_bastard.0999.t:0 "The Crown Defeated"
 ### TODO NOT-IN-ST: agot_events_bastard.0999.desc [AGOT: Against all odds, we have prevailed against the Crown's attempt to enforce its decree. The Iron Throne's armies have been turned back, and we have won our freedom - along with suitable reparations for the trouble.]
  agot_events_bastard.0999.desc:0 "Against all odds, we have prevailed against the Crown's attempt to enforce its decree. The Iron Throne's armies have been turned back, and we have won our freedom - along with suitable reparations for the trouble."
 ### TODO NOT-IN-ST: agot_events_bastard.0999.a [AGOT: We bow to no unjust decree.]
  agot_events_bastard.0999.a:0 "We bow to no unjust decree."
-### TODO NOT-IN-ST: agot_events_bastard.1001.t [AGOT: Demands Accepted]
- agot_events_bastard.1001.t:0 "Demands Accepted"
+
+ agot_events_bastard.1001.t:0 "Talepler Kabul Edildi"
 ### TODO NOT-IN-ST: agot_events_bastard.1001.desc.jon [AGOT: I watch as [reveal_scope.GetFirstName] and Eddard are brought before me. The coward won't even meet my eyes as he is brought before the throne next to the despicable dragonspawn.\n\n]
  agot_events_bastard.1001.desc.jon:0 "I watch as [reveal_scope.GetFirstName] and Eddard are brought before me. The coward won't even meet my eyes as he is brought before the throne next to the despicable dragonspawn.\n\n"For the crimes of harboring a Targaryen, a known threat to the realm—" As the charges and decrees are read I find myself unable to hear the words. My heart is pounding in my head. Rage boiling inside. I feel an inferno building in my body, my skin buzzing and alive with wrath. I don't notice myself standing, only realizing I am descending from the throne when I am halfway down it.\n\nWithout waiting for the judgment to finish, I take one of the Kingsguard's swords from their sheaths as I pass, and with a swing and a yell, I cleave Eddard Stark's head clean from his body, the swordpoint cracking the stonework beneath. [reveal_scope.GetFirstNameNoTooltip] cries out in horror before I silence [reveal_scope.GetHerHim] too with an upwards swing, blood and stonework arching in a glorious crimson and marble display.\n\nI stand there amidst the gore, Targaryen blood once again coating the ground of the court. Looking down at my one-time friend's lifeless eyes, I find no peace. The rage has not abated. Lyanna is still not here. The looks in my courtiers' eyes are the same I saw in the Mad King's court, and I wonder how it came to this."
 ### TODO NOT-IN-ST: agot_events_bastard.1001.desc [AGOT: I watch as [reveal_scope.GetFirstName] and [reveal_employer.GetFirstName] are brought before me and the whole court. My Justice begins to read the charges, and I find myself wondering why they agreed to this, given what's about to happen.\n\n]
  agot_events_bastard.1001.desc:0 "I watch as [reveal_scope.GetFirstName] and [reveal_employer.GetFirstName] are brought before me and the whole court. My Justice begins to read the charges, and I find myself wondering why they agreed to this, given what's about to happen.\n\n"For the crimes of harboring a known threat to the realm, and for proclaiming false claims to the throne—" As the charges and decrees are read I find myself unable to focus on the words. Was it right to execute two for no direct action? What must be going through their minds in this moment? Yet as I am considering this, the proclamation is finished. The executioner steps up, and with a clean swing, removes the head of one, then the next. I may have private doubts, and the realm will react how it may."
-### TODO NOT-IN-ST: agot_events_bastard.1001.a [AGOT: Regardless, this matter is settled.]
- agot_events_bastard.1001.a:0 "Regardless, this matter is settled."
-### TODO NOT-IN-ST: agot_events_bastard.1002.t [AGOT: Demands Accepted]
- agot_events_bastard.1002.t:0 "Demands Accepted"
+
+ agot_events_bastard.1001.a:0 "Her neyse, bu mesele çözüldü."
+
+ agot_events_bastard.1002.t:0 "Talepler Kabul Edildi"
 ### TODO NOT-IN-ST: agot_events_bastard.1002.desc.jon [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in chains. The despicable dragonspawn stares right toward me, as though looking through and past my eyes. Now that I know the truth, I wonder how I ever didn't see Rhaegar's features in [reveal_scope.GetHerHim].\n\n]
  agot_events_bastard.1002.desc.jon:0 "I watch as [reveal_scope.GetFirstName] is brought before me in chains. The despicable dragonspawn stares right toward me, as though looking through and past my eyes. Now that I know the truth, I wonder how I ever didn't see Rhaegar's features in [reveal_scope.GetHerHim].\n\n"For the crimes of proclaiming false claims to the throne—" As the charges and decrees are read I find myself unable to hear the words. My heart is pounding in my head. Rage boiling inside. I feel an inferno building in my body, my skin buzzing and alive with wrath. I don't notice myself standing, only realizing I am descending from the throne when I am halfway down it.\n\nWithout waiting for the judgment to finish, I take one of the Kingsguard's swords from their sheaths as I pass, and with a swing and a yell, I cleave the bastard's head clean from [reveal_scope.GetHerHis] body, the swordpoint cracking the stonework beneath. The court cries out in horror, but I cannot hear it over the sound of my own blood rushing through my head.\n\nI stand there amidst the gore, Targaryen blood once again coating the ground of the court. I look down at [reveal_scope.GetFirstNamePossessiveNoTooltip] lifeless eyes, and I find no peace. The rage has not abated. Lyanna is still not here. The looks in my courtiers' eyes are the same I saw in the Mad King's court, and I wonder how it came to this."
 ### TODO NOT-IN-ST: agot_events_bastard.1002.desc [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in chains. My Justice begins to read the charges, and I find myself wondering why they agreed to this, given what's about to happen.\n\n]
  agot_events_bastard.1002.desc:0 "I watch as [reveal_scope.GetFirstName] is brought before me in chains. My Justice begins to read the charges, and I find myself wondering why they agreed to this, given what's about to happen.\n\n"For the crimes of proclaiming false claims to the throne—" As the charges and decrees are read I find myself unable to focus on the words. Was it right to execute a baseborn for no directly treasonous action? What must be going through [reveal_scope.GetHerHis] mind in this moment? Yet as I am considering this, the proclamation is finished. The executioner steps up, and with one clean swing, removes the head of [reveal_scope.GetFullName]. I may have private doubts, and the realm will react how it may."
-### TODO NOT-IN-ST: agot_events_bastard.1002.a [AGOT: Regardless, this matter is settled.]
- agot_events_bastard.1002.a:0 "Regardless, this matter is settled."
-### TODO NOT-IN-ST: agot_events_bastard.1003.t [AGOT: Demands Accepted]
- agot_events_bastard.1003.t:0 "Demands Accepted"
+
+ agot_events_bastard.1002.a:0 "Her neyse, bu mesele çözüldü."
+
+ agot_events_bastard.1003.t:0 "Talepler Kabul Edildi"
 ### TODO NOT-IN-ST: agot_events_bastard.1003.desc.male [AGOT: Dark wings for once do not bear dark words, but instead bear words of peace. I am barely out of my bedchambers when I am made aware of the raven from Castle Black. It seems that [reveal_scope.GetFullName] has presented himself as instructed, and has sworn to uphold the duties of the Night's Watch. Most importantly, to hold not lands and father no children.\n\nI breathe a sigh of relief that this surprising issue was resolved without bloodshed, and in the frozen north, he is unlikely to cause any trouble. The realm can rest easy, [reveal_scope.GetFirstName] can live without fear of me, and I rule without this thorn in my side.]
  agot_events_bastard.1003.desc.male:0 "Dark wings for once do not bear dark words, but instead bear words of peace. I am barely out of my bedchambers when I am made aware of the raven from Castle Black. It seems that [reveal_scope.GetFullName] has presented himself as instructed, and has sworn to uphold the duties of the Night's Watch. Most importantly, to hold not lands and father no children.\n\nI breathe a sigh of relief that this surprising issue was resolved without bloodshed, and in the frozen north, he is unlikely to cause any trouble. The realm can rest easy, [reveal_scope.GetFirstName] can live without fear of me, and I rule without this thorn in my side."
 ### TODO NOT-IN-ST: agot_events_bastard.1003.desc.female [AGOT: Dark wings for once do not bear dark words, but instead bear words of peace. I am barely out of my bedchambers when I am made aware of the raven from the motherhouse of Oldtown. It seems that [reveal_scope.GetFullName] has presented herself as instructed, and has sworn to uphold the sacred and morbid duties of a silent sister. Most importantly, to serve in silence and take no husband.\n\nI breathe a sigh of relief that this surprising issue was resolved without bloodshed, and in the arms of the Sisterhood, she is unlikely to cause any trouble. The realm can rest easy, [reveal_scope.GetFirstName] can live without fear of me, and I rule without this thorn in my side.]
  agot_events_bastard.1003.desc.female:0 "Dark wings for once do not bear dark words, but instead bear words of peace. I am barely out of my bedchambers when I am made aware of the raven from the motherhouse of Oldtown. It seems that [reveal_scope.GetFullName] has presented herself as instructed, and has sworn to uphold the sacred and morbid duties of a silent sister. Most importantly, to serve in silence and take no husband.\n\nI breathe a sigh of relief that this surprising issue was resolved without bloodshed, and in the arms of the Sisterhood, she is unlikely to cause any trouble. The realm can rest easy, [reveal_scope.GetFirstName] can live without fear of me, and I rule without this thorn in my side."
 ### TODO NOT-IN-ST: agot_events_bastard.1003.a [AGOT: That's this matter settled then.]
  agot_events_bastard.1003.a:0 "That's this matter settled then."
-### TODO NOT-IN-ST: agot_events_bastard.1004.t [AGOT: Demands Accepted]
- agot_events_bastard.1004.t:0 "Demands Accepted"
+
+ agot_events_bastard.1004.t:0 "Talepler Kabul Edildi"
 ### TODO NOT-IN-ST: agot_events_bastard.1004.desc.jon [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in chains and shoved onto the cold marble of the throne room. The dragonspawn stares right toward me, as though looking through and past my eyes. Now that I know the truth, I wonder how I never saw Rhaegar's features in [reveal_scope.GetHerHim].\n\n]
  agot_events_bastard.1004.desc.jon:0 "I watch as [reveal_scope.GetFirstName] is brought before me in chains and shoved onto the cold marble of the throne room. The dragonspawn stares right toward me, as though looking through and past my eyes. Now that I know the truth, I wonder how I never saw Rhaegar's features in [reveal_scope.GetHerHim].\n\n"For the crimes of proclaiming false claims to the throne—" As the charges and decrees are read I find myself unable to hear the words. Those eyes though....they look just like Lyanna's. For years I couldn't remember what she looked like, and just now I remember a piece for the first time in over a decade. Those are Lyanna's eyes. I hear my heart beat in my head, and only by the silence do I realize that the proclamation is over.\n\nWithout word from me, the guards begin to usher [reveal_scope.GetHerHim] towards the dungeon, and as [reveal_scope.GetSheHe] rises I find my memory stolen again. Lyanna's eyes perhaps, but that bearing is Targaryen. What I do with [reveal_scope.GetHerHim] is up to me now."
 ### TODO NOT-IN-ST: agot_events_bastard.1004.desc [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in chains and shoved onto the cold marble of the throne room. My Justice begins to read the charges, and I find myself wondering why they agreed to this.\n\n]
  agot_events_bastard.1004.desc:0 "I watch as [reveal_scope.GetFirstName] is brought before me in chains and shoved onto the cold marble of the throne room. My Justice begins to read the charges, and I find myself wondering why they agreed to this.\n\n"For the crimes of proclaiming false claims to the throne—" As the charges and decrees are read I find myself unable to hear the words. I'm searching [reveal_scope.GetHerHis] eyes, seeking the motive behind [reveal_scope.GetHerHis] surrender. Was it cowardice, or a desire for peace? Perhaps this is part of some larger ploy? Only by the silence do I realize that the proclamation is over.\n\nWithout word from me, the guards begin to usher [reveal_scope.GetHerHim] towards the dungeon, and as [reveal_scope.GetSheHe] rises I find myself thinking on more practical concerns. What I do with [reveal_scope.GetHerHim] is up to me now."
 ### TODO NOT-IN-ST: agot_events_bastard.1004.a [AGOT: At least I now know what [reveal_scope.GetSheHe] is doing.]
  agot_events_bastard.1004.a:0 "At least I now know what [reveal_scope.GetSheHe] is doing."
-### TODO NOT-IN-ST: agot_events_bastard.1005.t [AGOT: Demands Accepted]
- agot_events_bastard.1005.t:0 "Demands Accepted"
+
+ agot_events_bastard.1005.t:0 "Talepler Kabul Edildi"
 ### TODO NOT-IN-ST: agot_events_bastard.1005.desc.jon [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in full view of the court, kneeling on the cold marble of the throne room as I preside above [reveal_scope.GetHerHim]. The offspring of my beloved Lyanna and my foe Rhaegar performs the perfect recital of vows, and now that I know the truth, I wonder how I never saw Rhaegar's features in [reveal_scope.GetHerHim].\n\n]
  agot_events_bastard.1005.desc.jon:0 "I watch as [reveal_scope.GetFirstName] is brought before me in full view of the court, kneeling on the cold marble of the throne room as I preside above [reveal_scope.GetHerHim]. The offspring of my beloved Lyanna and my foe Rhaegar performs the perfect recital of vows, and now that I know the truth, I wonder how I never saw Rhaegar's features in [reveal_scope.GetHerHim].\n\n"- do so swear fealty to you and your heirs as rulers of the [ROOT.Char.GetPrimaryTitle.GetName]." As [reveal_scope.GetHerHis] oaths are finished and [reveal_scope.GetSheHe] rises I find myself shocked. Those eyes look just like Lyanna's. For years I couldn't remember what she looked like, and just now I remember a piece for the first time in over a decade. Those are Lyanna's eyes.\n\nWithout word from me, [reveal_scope.GetSheHe] steps out of the procession and into the thrum of court. Lyanna's eyes perhaps, but that bearing is Targaryen. What I do with [reveal_scope.GetHerHim] is up to me now."
 ### TODO NOT-IN-ST: agot_events_bastard.1005.desc [AGOT: I watch as [reveal_scope.GetFirstName] is brought before me in full view of the court, kneeling on the cold marble of the throne room as I preside above [reveal_scope.GetHerHim].\n\n]

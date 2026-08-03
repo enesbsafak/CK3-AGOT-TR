@@ -1,25 +1,25 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0001.t [AGOT: The White Book]
  agot_kingsguard_white_book.0001.t:0 "The White Book"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0001.desc [AGOT: I leaf through the pages of the White Book, reading the names and deeds of those who have donned the white cloak. Each entry speaks of courage, duty, and sacrifice, reminding me of the solemn vows that bind the Kingsguard to the crown.]
  agot_kingsguard_white_book.0001.desc:0 "I leaf through the pages of the White Book, reading the names and deeds of those who have donned the white cloak. Each entry speaks of courage, duty, and sacrifice, reminding me of the solemn vows that bind the Kingsguard to the crown."
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0001.a [AGOT: #bold Turn Page#!]
  agot_kingsguard_white_book.0001.a:0 "#bold Turn Page#!"
-### TODO NOT-IN-ST: agot_kingsguard_white_book.0001.b [AGOT: #bold Close Book#!]
- agot_kingsguard_white_book.0001.b:0 "#bold Close Book#!"
+
+ agot_kingsguard_white_book.0001.b:0 "#bold Kitabı Kapat#!"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0002.t [AGOT: [selected_kingsguard.Custom('GetWhiteBookPageTitle')]]
  agot_kingsguard_white_book.0002.t:0 "[selected_kingsguard.Custom('GetWhiteBookPageTitle')]"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0002.desc [AGOT: [white_book_page.GetNameNoTierNoTooltip]]
  agot_kingsguard_white_book.0002.desc:0 "[white_book_page.GetNameNoTierNoTooltip]"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book.0002.a [AGOT: #bold Back to Contents#!]
  agot_kingsguard_white_book.0002.a:0 "#bold Back to Contents#!"
-### TODO NOT-IN-ST: agot_kingsguard_white_book.0002.b [AGOT: #bold Close Book#!]
- agot_kingsguard_white_book.0002.b:0 "#bold Close Book#!"
+
+ agot_kingsguard_white_book.0002.b:0 "#bold Kitabı Kapat#!"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book_title_house [AGOT: Ser [ROOT.Char.GetFirstNameNoTooltip] of House[AGOTGetSurname(ROOT.Char)]]
  agot_kingsguard_white_book_title_house:0 "Ser [ROOT.Char.GetFirstNameNoTooltip] of House[AGOTGetSurname(ROOT.Char)]"
-### TODO NOT-IN-ST: agot_kingsguard_white_book_title_bastard [AGOT: Ser [ROOT.Char.GetFirstNameNoTooltip][AGOTGetSurname(ROOT.Char)]]
+
  agot_kingsguard_white_book_title_bastard:0 "Ser [ROOT.Char.GetFirstNameNoTooltip][AGOTGetSurname(ROOT.Char)]"
-### TODO NOT-IN-ST: agot_kingsguard_white_book_title_surname [AGOT: Ser [ROOT.Char.GetFirstNameNoTooltip][AGOTGetSurname(ROOT.Char)]]
+
  agot_kingsguard_white_book_title_surname:0 "Ser [ROOT.Char.GetFirstNameNoTooltip][AGOTGetSurname(ROOT.Char)]"
 ### TODO NOT-IN-ST: agot_kingsguard_white_book_title_nickname [AGOT: Ser [ROOT.Char.GetFirstNameNicknamedNoTooltip]]
  agot_kingsguard_white_book_title_nickname:0 "Ser [ROOT.Char.GetFirstNameNicknamedNoTooltip]"

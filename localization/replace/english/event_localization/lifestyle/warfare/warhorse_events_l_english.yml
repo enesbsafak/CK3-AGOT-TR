@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  warhorse.0001.t:0 "Savaş Atı"
  warhorse.0001.desc:0 "[ROOT.Char.Custom('HorseStoryMareStallion')|U]m verdiğim tüm komutları layıkıyla yerine getiriyor. Geriye kalan yegâne şey ona bir isim seçmek..."
  warhorse.0001.a:0 "Tarihsel bir isim!"
@@ -33,8 +33,8 @@
  warhorse.1001.c:0 "[ROOT.Char.Custom('WarhorseStoryName')] dayanıklılığa ihtiyaç duyuyor."
  warhorse.1001.d:0 "[ROOT.Char.Custom('WarhorseStoryName')] daha haşin olmalı."
  warhorse.1001.e:0 "İlgilenmiyorum."
-### TODO AGOT-ONLY: warhorse.1001.e.tt [AGOT: #F]
- warhorse.1001.e.tt:1 "#F "[THIS.Char.Custom('WarhorseStoryName')] needs no other trainer than me!"#!"
+
+ warhorse.1001.e.tt:0 "#F "[THIS.Char.Custom('WarhorseStoryName')] needs no other trainer than me!"#!"
  warhorse.1001.f:0 "$master_of_horse_court_position$ zaten bunun için maaş alıyor!"
  warhorse.1001.f.tt:1 "[THIS.Char.Custom('WarhorseStoryName')], $master_of_horse_court_position$ tarafından eğitilecek."
  warhorse.1001.f.failure:0 "$master_of_horse_court_position$nizi abartmışsınız"

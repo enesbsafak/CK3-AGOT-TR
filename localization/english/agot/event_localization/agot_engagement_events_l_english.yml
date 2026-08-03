@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_engagement_objection_negative_opinion [AGOT: I honestly can't stand to be near [betrothed_2.GetHerHim]!]
  agot_engagement_objection_negative_opinion:0 "I honestly can't stand to be near [betrothed_2.GetHerHim]!"
 ### TODO NOT-IN-ST: agot_engagement_objection_incest [AGOT: [betrothed_2.GetSheHe|U]'s my [betrothed_1.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_2'))]! It... it's not right. I don't want that, I don't want #italic [betrothed_2.GetHerHim]#!.]
@@ -73,8 +73,8 @@
  agot_engagement_objection_child:0 "You know [betrothed_2.GetSheHe] has a child, yes? A bastard!"
 ### TODO NOT-IN-ST: agot_engagement_objection_unremarkable [AGOT: [betrothed_2.GetSheHe|U]'s completely unremarkable. There isn't a single special thing about [betrothed_2.GetHerHim]!]
  agot_engagement_objection_unremarkable:0 "[betrothed_2.GetSheHe|U]'s completely unremarkable. There isn't a single special thing about [betrothed_2.GetHerHim]!"
-### TODO NOT-IN-ST: agot_engagement_events.0002.t [AGOT: What the Heart Wants]
- agot_engagement_events.0002.t:0 "What the Heart Wants"
+
+ agot_engagement_events.0002.t:0 "Yüreğin İstediği"
 ### TODO NOT-IN-ST: agot_engagement_events.0002.desc.intro [AGOT: My [ROOT.Char.Custom2('LMF_RelationToMe', SCOPE.sC('betrothed_1'))] enters my chambers,]
  agot_engagement_events.0002.desc.intro:0 "My [ROOT.Char.Custom2('LMF_RelationToMe', SCOPE.sC('betrothed_1'))] enters my chambers,"
 ### TODO NOT-IN-ST: agot_engagement_events.0002.desc.submissive [AGOT: wringing [betrothed_1.GetHerHis] hands anxiously and reluctant to speak. Finally, after some coaxing, [betrothed_1.GetFirstName] opens up.\n\n]
@@ -143,10 +143,10 @@
  agot_engagement_events.0006.desc:0 "I have long considered confronting you in person, to ask how it is my [betrothed_1.Custom2('LMF_RelationToMeShort', ROOT.Char )] should also wish to be my [ROOT.Char.GetWifeHusband]...but I cannot do it.\n\nSince I cannot imagine living a life controlled by such a thoughtless [ROOT.Char.Custom('InsultNoun')], I will instead leave [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] and not return. Do not look for me."
 ### TODO NOT-IN-ST: agot_engagement_events.0006.a [AGOT: [betrothed_1.GetSheHe|U] will return, in time. I'm certain of it.]
  agot_engagement_events.0006.a:0 "[betrothed_1.GetSheHe|U] will return, in time. I'm certain of it."
-### TODO NOT-IN-ST: agot_engagement_events.0006.b [AGOT: Then [betrothed_1.GetSheHe] shall have no inheritance of mine!]
- agot_engagement_events.0006.b:0 "Then [betrothed_1.GetSheHe] shall have no inheritance of mine!"
-### TODO NOT-IN-ST: agot_engagement_events.0007.t [AGOT: What the Heart Wants]
- agot_engagement_events.0007.t:0 "What the Heart Wants"
+
+ agot_engagement_events.0006.b:0 "Öyleyse [betrothed_1.GetSheHe] mirasımdan pay alamayacak!"
+
+ agot_engagement_events.0007.t:0 "Yüreğin İstediği"
 ### TODO NOT-IN-ST: agot_engagement_events.0007.desc.incest [AGOT: ]
  agot_engagement_events.0007.desc.incest:0 ""[betrothed_1.Custom2('spoken_address_by_familiarity', ROOT.Char )|U], I don't want to marry my [betrothed_1.Custom2('LMF_RelationToMeShort', SCOPE.sC('betrothed_2'))]. Marriage among family is..." [betrothed_1.GetHerHis|U] face darkens, knowing the customs of our family while clearly being uncomfortable with them.\n\n"It keeps the bloodline pure, my sweet," I say reassuringly, but I can tell in an instant my plea has fallen on deaf ears. [betrothed_1.GetFirstNameNoTooltip] turns away from me.\n\n"I don't want to be like you," [betrothed_1.GetSheHe] exhales sharply. "I don't want... #bold this#!."\n\nI eventually talk [betrothed_1.GetHerHim] down, or so I think... "
 ### TODO NOT-IN-ST: agot_engagement_events.0007.desc.normal [AGOT: ]
@@ -155,8 +155,8 @@
  agot_engagement_events.0007.desc.end:0 "but, in the morning, I learn [betrothed_1.GetSheHe] has already called off the wedding [betrothed_1.GetHerselfHimself]. It is done."
 ### TODO NOT-IN-ST: agot_engagement_events.0007.a [AGOT: I have no choice but to accept [betrothed_1.GetHerHis] decision.]
  agot_engagement_events.0007.a:0 "I have no choice but to accept [betrothed_1.GetHerHis] decision."
-### TODO NOT-IN-ST: agot_engagement_events.0007.b [AGOT: Then [betrothed_1.GetSheHe] shall have no inheritance of mine!]
- agot_engagement_events.0007.b:0 "Then [betrothed_1.GetSheHe] shall have no inheritance of mine!"
+
+ agot_engagement_events.0007.b:0 "Öyleyse [betrothed_1.GetSheHe] mirasımdan pay alamayacak!"
 ### TODO NOT-IN-ST: agot_engagement_events.0008.t [AGOT: A Shattered Dream]
  agot_engagement_events.0008.t:0 "A Shattered Dream"
 ### TODO NOT-IN-ST: agot_engagement_events.0008.desc [AGOT: My argument with [betrothed_1.GetFirstNameNoTooltip] continues, our shouts growing louder and louder, until finally [betrothed_1.GetSheHe] turns on me, eyes filled with rage, and issues [betrothed_1.GetHerHis] ultimatum.\n\n]

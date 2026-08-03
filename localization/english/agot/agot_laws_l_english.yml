@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: title_succession_laws_singular [AGOT: [succession_law|e]]
  title_succession_laws_singular:0 "[succession_law|e]"
 ### TODO NOT-IN-ST: the_silent_sisterhood_succession_law [AGOT: Silent Sisterhood Succession]
@@ -13,8 +13,8 @@
  night_watch_centralization_2:0 "High Night's Watch Organization"
 ### TODO NOT-IN-ST: night_watch_centralization_3 [AGOT: Absolute Night's Watch Organization]
  night_watch_centralization_3:0 "Absolute Night's Watch Organization"
-### TODO NOT-IN-ST: slavery_laws [AGOT: Slavery]
- slavery_laws:0 "Slavery"
+
+ slavery_laws:0 "Kölelik"
 ### TODO NOT-IN-ST: slavery_laws_singular [AGOT: Slavery Policy]
  slavery_laws_singular:0 "Slavery Policy"
 ### TODO NOT-IN-ST: slavery_disallowed_law [AGOT: Slavery Forbidden]
@@ -49,28 +49,28 @@
  dragonpit_dynasty_law:0 "Dynasty Only"
 ### TODO NOT-IN-ST: dragonpit_dynasty_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members]
  dragonpit_dynasty_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can only be accessed by [dynasty|e] members"
-### TODO NOT-IN-ST: dragonpit_everyone_law [AGOT: Everyone]
- dragonpit_everyone_law:0 "Everyone"
+
+ dragonpit_everyone_law:0 "Herkes"
 ### TODO NOT-IN-ST: dragonpit_everyone_law_effects [AGOT: [dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!]
  dragonpit_everyone_law_effects:0 "[dragons_plural|E] in your [dragonpit|e] can be accessed by #warning everyone#!"
 ### TODO NOT-IN-ST: YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT [AGOT: You are banned from the [dragonpit|e] this dragon is located in]
  YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT:0 "You are banned from the [dragonpit|e] this dragon is located in"
 ### TODO NOT-IN-ST: pirate_tax_rate_law [AGOT: [pirate_port_rates|e]]
  pirate_tax_rate_law: "[pirate_port_rates|e]"
-### TODO NOT-IN-ST: pirate_tax_rate_01 [AGOT: Friendly]
- pirate_tax_rate_01: "Friendly"
+
+ pirate_tax_rate_01:0 "Dostça"
 ### TODO NOT-IN-ST: pirate_tax_rate_01_effects [AGOT: $EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]: #P +10%#! additional chance of learning a [secret|E]\n#underline #underline [agot_landless_pirate_domiciles|e] will pay#!:#!\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.]
  pirate_tax_rate_01_effects: "$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]: #P +10%#! additional chance of learning a [secret|E]\n#underline #underline [agot_landless_pirate_domiciles|e] will pay#!:#!\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! docking fee, and a 20 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee."
 ### TODO NOT-IN-ST: pirate_tax_rate_02 [AGOT: Standard]
  pirate_tax_rate_02: "Standard"
 ### TODO NOT-IN-ST: pirate_tax_rate_02_effects [AGOT: #underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.]
  pirate_tax_rate_02_effects: "#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! docking fee, and a 30 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee."
-### TODO NOT-IN-ST: pirate_tax_rate_03 [AGOT: High]
- pirate_tax_rate_03: "High"
+
+ pirate_tax_rate_03:0 "Yüksek"
 ### TODO NOT-IN-ST: pirate_tax_rate_03_effects [AGOT: $EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] will receive increased protection from [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee.]
  pirate_tax_rate_03_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] will receive increased protection from [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! docking fee, and a 40 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! docking fee, and a 60 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! docking fee, and an 80 @gold_icon! yearly fee."
-### TODO NOT-IN-ST: pirate_tax_rate_04 [AGOT: Extortionate]
- pirate_tax_rate_04: "Extortionate"
+
+ pirate_tax_rate_04:0 "Haraççı"
 ### TODO NOT-IN-ST: pirate_tax_rate_04_effects [AGOT: $EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] are less likely to start [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee.]
  pirate_tax_rate_04_effects: "$EFFECT_LIST_BULLET$[agot_landless_pirate_domiciles|e] are less likely to start [GetScheme('agot_raid_pirate_domicile').GetTypeName] [schemes|E]\n#underline [agot_landless_pirate_domiciles|e] will pay#!:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! docking fee, and a 50 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_03').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! docking fee, and a 70 @gold_icon! yearly fee.\n$EFFECT_LIST_BULLET$[GetDomicileBuilding('agot_pirate_ship_main_05').GetName] & [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! docking fee, and a 90 @gold_icon! yearly fee."
 ### TODO NOT-IN-ST: PIRATE_TAX_RATE_LAW_SELECTED [AGOT: [Law.GetNameNoTooltip]]

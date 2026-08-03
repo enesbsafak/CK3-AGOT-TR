@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0001.t [AGOT: Lost at Sea]
  agot_sailing_at_sea.0001.t:0 "Lost at Sea"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0001.desc [AGOT: Disaster! The captain had assured us that it would be smooth sailing through the placid waters of the [current_location.GetName], but as if to castigate him for his arrogance and presumption, a gathering darkness soon loomed heavy on the horizon; and our vessel began to buck and heave, cast about by wild and furious waves. \n\nIn the chaos of the raging storm, I saw one of my knights, [KnightDisaster.GetTitledFirstName], swept overboard with a blood-curdling scream! Even amidst the tempest's din, I can make out his desperate cries of terror as the ghastly abyss threatens to drag him down to a watery grave.]
@@ -23,7 +23,7 @@
  agot_sailing_at_sea.000444.end.desc:0 "\nIt would seem [physician.GetTitledFirstName] was, thankfully, correct. My aches are gone, as are the bruises and my gums have at long last stopped constantly bleeding. Needless to say, should I return to sea again, a few barrels of dried lemons will be stored away in the hull."
 ### TODO NOT-IN-ST: agot_sailing_at_sea.00044.d [AGOT: As we had quickly pulled into port, I had jumped off the ship in haste to find my Court Physician [physician.GetFirstName]; for perhaps they might know the solution to my illness; as I enter the medical quarters of my keep to explain my symptoms, my Physician stops me before I can get another word out.....]
  agot_sailing_at_sea.00044.d:0 "As we had quickly pulled into port, I had jumped off the ship in haste to find my Court Physician [physician.GetFirstName]; for perhaps they might know the solution to my illness; as I enter the medical quarters of my keep to explain my symptoms, my Physician stops me before I can get another word out....."
-### TODO NOT-IN-ST: agot_sailing_at_sea.00044.d.court_physician.desc [AGOT: \n\n]
+
  agot_sailing_at_sea.00044.d.court_physician.desc:0 "\n\n"My [ROOT.Char.GetLadyLord], I believe you may have Scurvy...I have a few ideas on how to help"."
 ### TODO NOT-IN-ST: agot_sailing_at_sea.000444.t [AGOT: Scurvy: A Little Brighter]
  agot_sailing_at_sea.000444.t:0 "Scurvy: A Little Brighter"
@@ -157,12 +157,12 @@
  agot_sailing_at_sea.0015.desc:0 "As I stood on the deck of the ship, I felt an unease, gazing out at the vast expanse of the [current_location.GetName]. These treacherous waters were known to be home to smugglers and pirates, and I knew that it was only a matter of time before we encountered one of these dangerous groups. But as the day wore on, it seemed we were in the clear. The waters were calm and there was no sign of any other ships on the horizon. I started to relax, thinking that we had somehow managed to avoid the perils of the [current_location.GetName].\n\nHowever, as the sun began to set, my fears were realized. On the horizon, I could see a ship approaching at high speed. It had torn sails, a hull built for battle, and an ominous aura. My heart raced as I shouted orders to my crew, preparing to defend ourselves against the impending attack."
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0015.a [AGOT: Let's try to get out of here!]
  agot_sailing_at_sea.0015.a:0 "Let's try to get out of here!"
-### TODO NOT-IN-ST: agot_sailing_at_sea.0015.toast [AGOT: Escaped!]
- agot_sailing_at_sea.0015.toast:0 "Escaped!"
+
+ agot_sailing_at_sea.0015.toast:0 "Kaçtı!"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0015.toast_tooltip [AGOT: You escape the pirates!]
  agot_sailing_at_sea.0015.toast_tooltip:0 "You escape the pirates!"
-### TODO NOT-IN-ST: agot_sailing_at_sea.0015.toast1 [AGOT: Caught!]
- agot_sailing_at_sea.0015.toast1:0 "Caught!"
+
+ agot_sailing_at_sea.0015.toast1:0 "Yakalandı!"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0015.toast_tooltip1 [AGOT: The pirates caught up to you, and are preparing to board!]
  agot_sailing_at_sea.0015.toast_tooltip1:0 "The pirates caught up to you, and are preparing to board!"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0015.b.option_tooltip [AGOT: You stand to fight the pirates!\n\nWhile you face off in duel against the captain of the opposing ship, A group of your knights will ALSO engage in a single duel against an attacker each.]
@@ -219,10 +219,10 @@
  agot_sailing_at_sea.0020.c.tooltip:0 ""
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0022.t [AGOT: A bottle in the sea]
  agot_sailing_at_sea.0022.t:0 "A bottle in the sea"
-### TODO NOT-IN-ST: agot_sailing_at_sea.0022.desc [AGOT: Placeholder]
- agot_sailing_at_sea.0022.desc:0 "Placeholder"
-### TODO NOT-IN-ST: agot_sailing_at_sea.0022.a [AGOT: Placeholder]
- agot_sailing_at_sea.0022.a:0 "Placeholder"
+
+ agot_sailing_at_sea.0022.desc:0 "Yer Tutucu"
+
+ agot_sailing_at_sea.0022.a:0 "Yer Tutucu"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0022.b [AGOT: PLACEHOLDER]
  agot_sailing_at_sea.0022.b:0 "PLACEHOLDER"
 ### TODO NOT-IN-ST: agot_sailing_at_sea.0005.a [AGOT: PLACEHOLDER]

@@ -1,12 +1,12 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_proclaim_iron_throne [AGOT: Proclaim the Iron Throne]
  agot_proclaim_iron_throne:0 "Proclaim the Iron Throne"
 ### TODO NOT-IN-ST: agot_proclaim_iron_throne_tooltip [AGOT: This decision will allow you to unite the realm under the Iron Throne.]
  agot_proclaim_iron_throne_tooltip:0 "This decision will allow you to unite the realm under the Iron Throne."
 ### TODO NOT-IN-ST: agot_proclaim_iron_throne_desc [AGOT: The Iron Throne long stood as a symbol of unity and power in Westeros. With the realm's countless petty fiefdoms now under our banners, the time has come to gather the blades of the defeated and forge a new Iron Throne for all the realm.\n\nDo I have the strength, the cunning, and the will to claim the Iron Throne? Does House [ROOT.Char.GetHouse.GetName] have what it takes to be the one true ruler of Westeros?]
  agot_proclaim_iron_throne_desc:0 "The Iron Throne long stood as a symbol of unity and power in Westeros. With the realm's countless petty fiefdoms now under our banners, the time has come to gather the blades of the defeated and forge a new Iron Throne for all the realm.\n\nDo I have the strength, the cunning, and the will to claim the Iron Throne? Does House [ROOT.Char.GetHouse.GetName] have what it takes to be the one true ruler of Westeros?"
-### TODO NOT-IN-ST: agot_proclaim_iron_throne_confirm [AGOT: Send the ravens]
- agot_proclaim_iron_throne_confirm:0 "Send the ravens"
+
+ agot_proclaim_iron_throne_confirm:0 "Kuzgunları sal"
 ### TODO NOT-IN-ST: set_capital_kingslanding_decision [AGOT: Reclaim King's Landing]
  set_capital_kingslanding_decision:0 "Reclaim King's Landing"
 ### TODO NOT-IN-ST: set_capital_kingslanding_decision_tooltip [AGOT: Restore King's Landing as the capital of your realm.]
@@ -19,8 +19,8 @@
  end_the_ironborn_decision:0 "End the Ironborn"
 ### TODO NOT-IN-ST: end_the_ironborn_decision_desc [AGOT: For centuries, the mongrel dogs that are the Ironborn have raped, pillaged, and reaved their way across Westeros and beyond. It has now become inevitable that we must take action against these seafaring brigands and crush their power once and for all. We must wage a war of such devastation against them that never again will an Iron King sit the Seastone Chair.]
  end_the_ironborn_decision_desc:0 "For centuries, the mongrel dogs that are the Ironborn have raped, pillaged, and reaved their way across Westeros and beyond. It has now become inevitable that we must take action against these seafaring brigands and crush their power once and for all. We must wage a war of such devastation against them that never again will an Iron King sit the Seastone Chair."
-### TODO NOT-IN-ST: end_the_ironborn_decision_confirm_text_desc [AGOT: To arms!]
- end_the_ironborn_decision_confirm_text_desc:0 "To arms!"
+
+ end_the_ironborn_decision_confirm_text_desc:0 "Silahlara!"
 ### TODO NOT-IN-ST: end_the_ironborn_decision_tooltip [AGOT: Death to the Ironborn.]
  end_the_ironborn_decision_tooltip:0 "Death to the Ironborn."
 ### TODO NOT-IN-ST: regrow_oakenseat_decision [AGOT: Regrow the Oakenseat]
@@ -47,16 +47,16 @@
  ironborn_rebellion_decision_tooltip:0 "Weep, o Westeros, that the Isles rise again!"
 ### TODO NOT-IN-ST: ironborn_rebellion_decision_confirm_text_desc [AGOT: We will pay the iron price!]
  ironborn_rebellion_decision_confirm_text_desc:0 "We will pay the iron price!"
-### TODO NOT-IN-ST: defy_winter_lords_decision [AGOT: Defy the Winter Lords]
- defy_winter_lords_decision:0 "Defy the Winter Lords"
+
+ defy_winter_lords_decision:0 "Kış Lordlarına Meydan Oku"
 ### TODO NOT-IN-ST: defy_winter_lords_decision_desc [AGOT: The Stoneborn know nothing but derision from the Northmen, who consider us no better than Wildlings. Skagos was once free and independent of the Winter Lords — and so it shall be once more. Our might will cause [ROOT.Char.GetLiege.GetNameNicknamedRegnal] to tremble!]
  defy_winter_lords_decision_desc:0 "The Stoneborn know nothing but derision from the Northmen, who consider us no better than Wildlings. Skagos was once free and independent of the Winter Lords — and so it shall be once more. Our might will cause [ROOT.Char.GetLiege.GetNameNicknamedRegnal] to tremble!"
 ### TODO NOT-IN-ST: defy_winter_lords_decision_tooltip [AGOT: You will declare your independence, returning the Skagosi to the seas once more.]
  defy_winter_lords_decision_tooltip:0 "You will declare your independence, returning the Skagosi to the seas once more."
 ### TODO NOT-IN-ST: defy_winter_lords_decision_confirm_text_desc [AGOT: The North will remember to fear Skagos!]
  defy_winter_lords_decision_confirm_text_desc:0 "The North will remember to fear Skagos!"
-### TODO NOT-IN-ST: agot_minor_decisions_events.0001 [AGOT: Defy the Winter Lords]
- agot_minor_decisions_events.0001:0 "Defy the Winter Lords"
+
+ agot_minor_decisions_events.0001:0 "Kış Lordlarına Meydan Oku"
 ### TODO NOT-IN-ST: agot_minor_decisions_events.0001.desc [AGOT: Many Stoneborn have dreamt of the day that Skagos took its freedom once more. When King Brandon Stark broke our power, he forbade us the sea. Now, the North shall tremble when our ships draw near!]
  agot_minor_decisions_events.0001.desc:0 "Many Stoneborn have dreamt of the day that Skagos took its freedom once more. When King Brandon Stark broke our power, he forbade us the sea. Now, the North shall tremble when our ships draw near!"
 ### TODO NOT-IN-ST: agot_minor_decisions_events.0001.a [AGOT: We swear fealty #bold no more#!.]

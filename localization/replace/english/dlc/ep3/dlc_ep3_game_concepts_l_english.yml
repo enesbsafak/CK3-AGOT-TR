@@ -1,10 +1,10 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO AGOT-CHANGED: game_concept_administrative_government [AGOT: Free City Government | TR: İdari Yönetim]
  game_concept_administrative_government: "Free City Government"
 ### TODO AGOT-CHANGED: game_concept_administrative_governments [AGOT: Free City Governments | TR: İdari Yönetimler]
  game_concept_administrative_governments: "Free City Governments"
-### TODO AGOT-CHANGED: game_concept_administrative [AGOT: Free City | TR: İdari]
- game_concept_administrative: "Free City"
+
+ game_concept_administrative:0 "Özgür Şehir"
  game_concept_administrative_i: "@government_type_administrative!"
  game_concept_administrative_desc: "$game_concept_administrative$, [Concept('characters', 'Karakterlerin')|E] [province|E] adı verilen bölgelere [governor|E] olarak atandıkları ve [Concept('liege', 'Süzerenleri')|E] adına atandıkları bölgeyi idare ettikleri [government_bureaucratic_type|E] bir [Concept('government_form', 'Yönetim Biçimidir')|E].\n\n$game_concept_administrative$ Karakterler [influence|E] sahibidir ve bir [Concept('family_estate', 'Aile Malikânesine')|E] sahip olabilir.\n\n$game_concept_administrative$ [Concept('realm', 'Ülkelerde')|E] sadece [independent|E] [rulers|E] [legitimacy|E] sahibidir, [Concept('vassals', 'Vasalların')|E] Meşruiyeti yoktur.\n\n$admin_cannot_declare_internal_wars$"
  game_concept_imperial_bureaucracy: "İmparatorluk Bürokrasisi"

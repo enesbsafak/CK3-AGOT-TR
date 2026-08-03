@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: start_contraceptives_decision [AGOT: Use Contraceptives]
  start_contraceptives_decision:0 "Use Contraceptives"
 ### TODO NOT-IN-ST: start_contraceptives_decision_desc [AGOT: By consulting a physician I can acquire contraceptives, such as moon tea, which can be used to ensure that my occasional dalliance does not result in children.]
@@ -53,8 +53,8 @@
  manage_realm_affairs_decision_confirm:0 "Summon a servant."
 ### TODO NOT-IN-ST: manage_realm_affairs_decision_effect [AGOT: Select which matters are to be brought before you directly, or learn more about the reports from throughout the world]
  manage_realm_affairs_decision_effect:0 "Select which matters are to be brought before you directly, or learn more about the reports from throughout the world"
-### TODO NOT-IN-ST: CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON [AGOT: Select Subject]
- CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Select Subject"
+
+ CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Özne Seç"
 ### TODO NOT-IN-ST: choose_petitioners_and_homage_name [AGOT: Petitioners and Homage]
  choose_petitioners_and_homage_name:0 "Petitioners and Homage"
 ### TODO NOT-IN-ST: choose_petitioners_and_homage_tooltip [AGOT: Choose whether you wish to receive petitioners and receive homage]
@@ -71,30 +71,30 @@
  choose_nights_watch_elections_tooltip:0 "Choose whether you wish to be informed whenever a new Lord Commander of the Night's Watch is elected"
 ### TODO NOT-IN-ST: choose_nights_watch_elections_invalid [AGOT: You already are the Lord Commader!]
  choose_nights_watch_elections_invalid:0 "You already are the Lord Commader!"
-### TODO NOT-IN-ST: choose_show_valyrian_steel_name [AGOT: Valyrian Steel]
- choose_show_valyrian_steel_name:0 "Valyrian Steel"
+
+ choose_show_valyrian_steel_name:0 "Valyria Çeliği"
 ### TODO NOT-IN-ST: choose_show_valyrian_steel_tooltip [AGOT: You will be brought a list of all known Valyrian steel wielders]
  choose_show_valyrian_steel_tooltip:0 "You will be brought a list of all known Valyrian steel wielders"
-### TODO NOT-IN-ST: choose_dragons_name [AGOT: Dragons]
- choose_dragons_name:0 "Dragons"
+
+ choose_dragons_name:0 "Ejderhalar"
 ### TODO NOT-IN-ST: choose_dragons_tooltip [AGOT: Choose whether you wish to be informed of news pertaining to [dragons_plural|E] or be brought a list of all dragons and their eggs]
  choose_dragons_tooltip:0 "Choose whether you wish to be informed of news pertaining to [dragons_plural|E] or be brought a list of all dragons and their eggs"
 ### TODO NOT-IN-ST: choose_house_feuds [AGOT: House Feuds]
  choose_house_feuds:0 "House Feuds"
-### TODO NOT-IN-ST: choose_house_feuds_desc [AGOT: You will be brought a list of all known House [house_feuds|E]]
- choose_house_feuds_desc:0 "You will be brought a list of all known House [house_feuds|E]"
-### TODO NOT-IN-ST: choose_house_feuds_tooltip [AGOT: You will be brought a list of all known House [house_feuds|E]]
- choose_house_feuds_tooltip:0 "You will be brought a list of all known House [house_feuds|E]"
-### TODO NOT-IN-ST: choose_dragon_trees [AGOT: Dragon Family Trees]
- choose_dragon_trees:0 "Dragon Family Trees"
+
+ choose_house_feuds_desc:0 "Bilinen tüm Hane [house_feuds|E] listesi getirilecek"
+
+ choose_house_feuds_tooltip:0 "Bilinen tüm Hane [house_feuds|E] listesi getirilecek"
+
+ choose_dragon_trees:0 "Ejderha Soy Ağaçları"
 ### TODO NOT-IN-ST: choose_dragon_trees_tooltip [AGOT: You will be brought a list of all known [dragon_matriarchs|E]]
  choose_dragon_trees_tooltip:0 "You will be brought a list of all known [dragon_matriarchs|E]"
-### TODO NOT-IN-ST: choose_banks [AGOT: Banks]
- choose_banks:0 "Banks"
-### TODO NOT-IN-ST: choose_banks_desc [AGOT: You will be brought a list of all known banks]
- choose_banks_desc:0 "You will be brought a list of all known banks"
-### TODO NOT-IN-ST: choose_banks_tooltip [AGOT: You will be brought a list of all known banks]
- choose_banks_tooltip:0 "You will be brought a list of all known banks"
+
+ choose_banks:0 "Bankalar"
+
+ choose_banks_desc:0 "Bilinen tüm bankaların listesi getirilecek"
+
+ choose_banks_tooltip:0 "Bilinen tüm bankaların listesi getirilecek"
 ### TODO NOT-IN-ST: agot_requires_rc [AGOT: Option requires Royal Court DLC]
  agot_requires_rc:0 "Option requires Royal Court DLC"
 ### TODO NOT-IN-ST: agot_requires_court [AGOT: Option requires a [royal_court|E]]
@@ -221,24 +221,24 @@
  manage_bank_decision:0 "Manage Bank"
 ### TODO NOT-IN-ST: manage_bank_decision_desc [AGOT: As a [agot_bank_director|El], I have many means at my disposal to steer the [agot_bank|El] toward a profitable future.]
  manage_bank_decision_desc:0 "As a [agot_bank_director|El], I have many means at my disposal to steer the [agot_bank|El] toward a profitable future."
-### TODO NOT-IN-ST: manage_bank_decision_tooltip [AGOT: Choose which of the bank's policies you want to change]
- manage_bank_decision_tooltip:0 "Choose which of the bank's policies you want to change"
+
+ manage_bank_decision_tooltip:0 "Bankanın hangi politikalarını değiştirmek istediğini seç"
 ### TODO NOT-IN-ST: manage_bank_decision_confirm [AGOT: Summon a clerk.]
  manage_bank_decision_confirm:0 "Summon a clerk."
-### TODO NOT-IN-ST: manage_bank_decision_effect [AGOT: Choose which of the bank's policies you want to change]
- manage_bank_decision_effect:0 "Choose which of the bank's policies you want to change"
-### TODO NOT-IN-ST: CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON [AGOT: Select Subject]
- CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON:0 "Select Subject"
-### TODO NOT-IN-ST: set_risk_level_name [AGOT: Change Risk Level]
- set_risk_level_name:0 "Change Risk Level"
+
+ manage_bank_decision_effect:0 "Bankanın hangi politikalarını değiştirmek istediğini seç"
+
+ CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON:0 "Özne Seç"
+
+ set_risk_level_name:0 "Risk Seviyesini Değiştir"
 ### TODO NOT-IN-ST: set_risk_level_tooltip [AGOT: You will be able to choose between low, medium, and high [agot_bank_risk_levels_l|E] for loans and investments.]
  set_risk_level_tooltip:0 "You will be able to choose between low, medium, and high [agot_bank_risk_levels_l|E] for loans and investments."
-### TODO NOT-IN-ST: set_dividend_level_name [AGOT: Adjust Dividend Rates]
- set_dividend_level_name:0 "Adjust Dividend Rates"
+
+ set_dividend_level_name:0 "Temettü Oranlarını Ayarla"
 ### TODO NOT-IN-ST: set_dividend_level_tooltip [AGOT: You will be able to choose between low, medium, and high rates of [agot_bank_dividends|El].]
  set_dividend_level_tooltip:0 "You will be able to choose between low, medium, and high rates of [agot_bank_dividends|El]."
-### TODO NOT-IN-ST: set_interest_level_name [AGOT: Adjust Interest Rates]
- set_interest_level_name:0 "Adjust Interest Rates"
+
+ set_interest_level_name:0 "Faiz Oranlarını Ayarla"
 ### TODO NOT-IN-ST: set_interest_level_tooltip [AGOT: You will be able to choose between lower, normal, and higher [agot_bank_interest_rates_l|E]. The lower the interest rate, the more customers you will attract, but the lower your [agot_bank_profits|El] per loan will be, and vice versa.]
  set_interest_level_tooltip:0 "You will be able to choose between lower, normal, and higher [agot_bank_interest_rates_l|E]. The lower the interest rate, the more customers you will attract, but the lower your [agot_bank_profits|El] per loan will be, and vice versa."
 ### TODO NOT-IN-ST: delegate_defaulter_handling_name [AGOT: Delegate Management of Defaults]

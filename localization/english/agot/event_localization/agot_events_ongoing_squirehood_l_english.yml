@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.tt.success [AGOT: Successful Training]
  agot_squirehood_ongoing.tt.success:0 "Successful Training"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.tt.failure [AGOT: Unsuccessful Training]
@@ -117,8 +117,8 @@
  agot_squirehood_ongoing.0018.a:0 "I will practice my command voice."
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0018.b [AGOT: My military tactics must be honed.]
  agot_squirehood_ongoing.0018.b:0 "My military tactics must be honed."
-### TODO NOT-IN-ST: agot_squirehood_ongoing.0400.t [AGOT: Squire Training]
- agot_squirehood_ongoing.0400.t:0 "Squire Training"
+
+ agot_squirehood_ongoing.0400.t:0 "Yaver Eğitimi"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0400.desc [AGOT: As the mentor for my squire [my_squire.GetFirstName], it is my responsibility to train [my_squire.GetHerHim] in the ways of knighthood.\n\nI've already decided to practice one of the core functions of knighthood with [my_squire.GetHerHim] today, but now I need to decide which one...]
  agot_squirehood_ongoing.0400.desc:0 "As the mentor for my squire [my_squire.GetFirstName], it is my responsibility to train [my_squire.GetHerHim] in the ways of knighthood.\n\nI've already decided to practice one of the core functions of knighthood with [my_squire.GetHerHim] today, but now I need to decide which one..."
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0400.a [AGOT: Train Strategy.]
@@ -151,8 +151,8 @@
  agot_squirehood_ongoing.0400.had_a_training_session.desc.horse.good:0 "Your knight trained you in the ways of horse riding. It was a good training session!"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0400.had_a_training_session.desc.horse.bad [AGOT: Your knight trained you in the ways of horse riding. It was a bad training session.]
  agot_squirehood_ongoing.0400.had_a_training_session.desc.horse.bad:0 "Your knight trained you in the ways of horse riding. It was a bad training session."
-### TODO NOT-IN-ST: agot_squirehood_ongoing.0401.t [AGOT: Squire Training]
- agot_squirehood_ongoing.0401.t:0 "Squire Training"
+
+ agot_squirehood_ongoing.0401.t:0 "Yaver Eğitimi"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0401_good_strategy_training.desc [AGOT: [my_squire.GetName] and I trained in strategy today. For a knight to play their part in a commander's plan, they must first learn to understand it. To see the broader picture and the value of their place in it.\n\nDuring our training session, [my_squire.GetNameNoTooltip] showed aptitude when choosing suitable terrain for a battle, and forming strong contingencies in the event a plan breaks down.\n\n[my_squire.GetSheHe|U] may have a commander's mind yet!]
  agot_squirehood_ongoing.0401_good_strategy_training.desc:0 "[my_squire.GetName] and I trained in strategy today. For a knight to play their part in a commander's plan, they must first learn to understand it. To see the broader picture and the value of their place in it.\n\nDuring our training session, [my_squire.GetNameNoTooltip] showed aptitude when choosing suitable terrain for a battle, and forming strong contingencies in the event a plan breaks down.\n\n[my_squire.GetSheHe|U] may have a commander's mind yet!"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0401_bad_strategy_training.desc [AGOT: [my_squire.GetName] and I trained in strategy today. For a knight to play their part in a commander's plan, they must first learn to understand it. To see the broader picture and the value of their place in it.\n\nDuring our training session, [my_squire.GetNameNoTooltip] showed difficulty understanding the uses of terrain, and how to plan maneuvers for your troops.\n\n[my_squire.GetSheHe|U] may not have the mind of a commander.]
@@ -189,5 +189,5 @@
  agot_squirehood_ongoing.0401.desc_fallback:0 "You were trained in [my_squire.MakeScope.Var('agot_squire_training').GetFlagName]"
 ### TODO NOT-IN-ST: agot_squirehood_ongoing.0401.a [AGOT: An excellent training session!]
  agot_squirehood_ongoing.0401.a:0 "An excellent training session!"
-### TODO NOT-IN-ST: agot_squirehood_ongoing.0401.b [AGOT: Disappointing...]
- agot_squirehood_ongoing.0401.b:0 "Disappointing..."
+
+ agot_squirehood_ongoing.0401.b:0 "Hayal kırıklığı..."

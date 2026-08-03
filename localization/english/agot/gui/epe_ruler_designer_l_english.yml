@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: gene_age [AGOT: Aging Type (only visible on the older characters)]
  gene_age: "Aging Type (only visible on the older characters)"
 ### TODO NOT-IN-ST: old_1 [AGOT: Old Aging 1]
@@ -83,24 +83,24 @@
  eye_height_outisde_neg: "Eye Height Outside Negative"
 ### TODO NOT-IN-ST: eye_height_outisde_pos [AGOT: Eye Height Outside Positive]
  eye_height_outisde_pos: "Eye Height Outside Positive"
-### TODO NOT-IN-ST: gene_eye_shut_bottom [AGOT: Eye Shut Bottom]
- gene_eye_shut_bottom: "Eye Shut Bottom"
+
+ gene_eye_shut_bottom:0 "Göz Kapalı Alt"
 ### TODO NOT-IN-ST: vanilla_eye_shut_bottom [AGOT: Vanilla Eye Shut Bottom]
  vanilla_eye_shut_bottom: "Vanilla Eye Shut Bottom"
-### TODO NOT-IN-ST: eye_shut_bottom [AGOT: Eye Shut Bottom]
- eye_shut_bottom: "Eye Shut Bottom"
-### TODO NOT-IN-ST: gene_eye_shut_top [AGOT: Eye Shut Top]
- gene_eye_shut_top: "Eye Shut Top"
+
+ eye_shut_bottom:0 "Göz Kapalı Alt"
+
+ gene_eye_shut_top:0 "Göz Kapalı Üst"
 ### TODO NOT-IN-ST: vanilla_eye_shut_top [AGOT: Vanilla Eye Shut Top]
  vanilla_eye_shut_top: "Vanilla Eye Shut Top"
-### TODO NOT-IN-ST: eye_shut_top [AGOT: Eye Shut Top]
- eye_shut_top: "Eye Shut Top"
-### TODO NOT-IN-ST: gene_eye_size [AGOT: Eye Size]
- gene_eye_size: "Eye Size"
+
+ eye_shut_top:0 "Göz Kapalı Üst"
+
+ gene_eye_size:0 "Göz Boyutu"
 ### TODO NOT-IN-ST: vanilla_eye_size [AGOT: Vanilla Eye Size]
  vanilla_eye_size: "Vanilla Eye Size"
-### TODO NOT-IN-ST: eye_size [AGOT: Eye Size]
- eye_size: "Eye Size"
+
+ eye_size:0 "Göz Boyutu"
 ### TODO NOT-IN-ST: gene_bs_nose_central_width [AGOT: Nose Central Width]
  gene_bs_nose_central_width: "Nose Central Width"
 ### TODO NOT-IN-ST: vanilla_nose_central_width [AGOT: Vanilla Nose Central Width]
@@ -381,34 +381,34 @@
  head_archetype_shape_09: "Head Archetype 09"
 ### TODO NOT-IN-ST: head_archetype_shape_10 [AGOT: Head Archetype 10]
  head_archetype_shape_10: "Head Archetype 10"
-### TODO NOT-IN-ST: gene_bs_nose_septum_height [AGOT: Nose Septum Height]
- gene_bs_nose_septum_height: "Nose Septum Height"
+
+ gene_bs_nose_septum_height:0 "Burun Perdesi Yüksekliği"
 ### TODO NOT-IN-ST: vanilla_nose_septum_height [AGOT: Vanilla Nose Septum Height]
  vanilla_nose_septum_height: "Vanilla Nose Septum Height"
-### TODO NOT-IN-ST: nose_septum_height [AGOT: Nose Septum Height]
- nose_septum_height: "Nose Septum Height"
+
+ nose_septum_height:0 "Burun Perdesi Yüksekliği"
 ### TODO NOT-IN-ST: eye_fold_shape_pos [AGOT: Eye Fold 02]
  eye_fold_shape_pos: "Eye Fold 02"
 ### TODO NOT-IN-ST: eye_fold_shape_neg_02 [AGOT: Eye Fold 03]
  eye_fold_shape_neg_02: "Eye Fold 03"
-### TODO NOT-IN-ST: gene_bs_eye_outer_width [AGOT: Eye Outer Width]
- gene_bs_eye_outer_width: "Eye Outer Width"
+
+ gene_bs_eye_outer_width:0 "Göz Dış Genişliği"
 ### TODO NOT-IN-ST: vanilla_eye_outer_width [AGOT: Vanilla Eye Outer Width]
  vanilla_eye_outer_width: "Vanilla Eye Outer Width"
-### TODO NOT-IN-ST: eye_outer_width [AGOT: Eye Outer Width]
- eye_outer_width: "Eye Outer Width"
-### TODO NOT-IN-ST: gene_bs_nose_flared_nostril [AGOT: Nose Flared Nostril]
- gene_bs_nose_flared_nostril: "Nose Flared Nostril"
+
+ eye_outer_width:0 "Göz Dış Genişliği"
+
+ gene_bs_nose_flared_nostril:0 "Açılmış Burun Deliği"
 ### TODO NOT-IN-ST: vanilla_nose_flared_nostril [AGOT: Vanilla Nose Flared Nostril]
  vanilla_nose_flared_nostril: "Vanilla Nose Flared Nostril"
-### TODO NOT-IN-ST: nose_flared_nostril [AGOT: Nose Flared Nostril]
- nose_flared_nostril: "Nose Flared Nostril"
-### TODO NOT-IN-ST: gene_bs_nose_swollen [AGOT: Nose Swollen]
- gene_bs_nose_swollen: "Nose Swollen"
+
+ nose_flared_nostril:0 "Açılmış Burun Deliği"
+
+ gene_bs_nose_swollen:0 "Şişmiş Burun"
 ### TODO NOT-IN-ST: vanilla_nose_swollen [AGOT: Vanilla Nose Swollen]
  vanilla_nose_swollen: "Vanilla Nose Swollen"
-### TODO NOT-IN-ST: nose_swollen [AGOT: Nose Swollen]
- nose_swollen: "Nose Swollen"
+
+ nose_swollen:0 "Şişmiş Burun"
 ### TODO NOT-IN-ST: gene_bs_mouth_center_curve [AGOT: Mouth Center Curve]
  gene_bs_mouth_center_curve: "Mouth Center Curve"
 ### TODO NOT-IN-ST: vanilla_mouth_center_curve [AGOT: Vanilla Mouth Center Curve]
@@ -417,24 +417,24 @@
  mouth_center_curve_max: "Mouth Center Curve Max"
 ### TODO NOT-IN-ST: mouth_center_curve_min [AGOT: Mouth Center Curve Min]
  mouth_center_curve_min: "Mouth Center Curve Min"
-### TODO NOT-IN-ST: gene_bs_mouth_glamour_lips [AGOT: Mouth Glamour Lips]
- gene_bs_mouth_glamour_lips: "Mouth Glamour Lips"
+
+ gene_bs_mouth_glamour_lips:0 "Ağız Büyülü Dudaklar"
 ### TODO NOT-IN-ST: vanilla_mouth_glamour_lips [AGOT: Vanilla Mouth Glamour Lips]
  vanilla_mouth_glamour_lips: "Vanilla Mouth Glamour Lips"
-### TODO NOT-IN-ST: mouth_glamour_lips [AGOT: Mouth Glamour Lips]
- mouth_glamour_lips: "Mouth Glamour Lips"
-### TODO NOT-IN-ST: gene_bs_mouth_lower_lip_forward [AGOT: Mouth Lower Lip Forward]
- gene_bs_mouth_lower_lip_forward: "Mouth Lower Lip Forward"
+
+ mouth_glamour_lips:0 "Ağız Büyülü Dudaklar"
+
+ gene_bs_mouth_lower_lip_forward:0 "Ağız Alt Dudak İleri"
 ### TODO NOT-IN-ST: vanilla_lower_lip_forward [AGOT: Vanilla Mouth Lower Lip Forward]
  vanilla_lower_lip_forward: "Vanilla Mouth Lower Lip Forward"
-### TODO NOT-IN-ST: mouth_lower_lip_forward [AGOT: Mouth Lower Lip Forward]
- mouth_lower_lip_forward: "Mouth Lower Lip Forward"
-### TODO NOT-IN-ST: gene_bs_mouth_upper_lip_forward [AGOT: Mouth Upper Lip Forward]
- gene_bs_mouth_upper_lip_forward: "Mouth Upper Lip Forward"
+
+ mouth_lower_lip_forward:0 "Ağız Alt Dudak İleri"
+
+ gene_bs_mouth_upper_lip_forward:0 "Ağız Üst Dudak İleri"
 ### TODO NOT-IN-ST: vanilla_upper_lip_forward [AGOT: Vanilla Mouth Upper Lip Forward]
  vanilla_upper_lip_forward: "Vanilla Mouth Upper Lip Forward"
-### TODO NOT-IN-ST: mouth_upper_lip_forward [AGOT: Mouth Upper Lip Forward]
- mouth_upper_lip_forward: "Mouth Upper Lip Forward"
+
+ mouth_upper_lip_forward:0 "Ağız Üst Dudak İleri"
 ### TODO NOT-IN-ST: face_detail_eye_upper_lid_def [AGOT: Face Upper Eyelid Lid Definition]
  face_detail_eye_upper_lid_def: "Face Upper Eyelid Lid Definition"
 ### TODO NOT-IN-ST: vanilla_upper_lid_def [AGOT: Vanilla Upper Eyelid Lid Definition]
@@ -451,12 +451,12 @@
  vanilla_eyebrow_inner_width: "Vanilla Eyebrow Width"
 ### TODO NOT-IN-ST: eyebrow_inner_width_min [AGOT: Eyebrow Inner Width Min]
  eyebrow_inner_width_min: "Eyebrow Inner Width Min"
-### TODO NOT-IN-ST: gene_bs_eye_lower_lid_size [AGOT: Lower Eyelid Size]
- gene_bs_eye_lower_lid_size: "Lower Eyelid Size"
+
+ gene_bs_eye_lower_lid_size:0 "Alt Göz Kapağı Boyutu"
 ### TODO NOT-IN-ST: vanilla_eye_lower_lid_size [AGOT: Vanilla Lower Eyelid Size]
  vanilla_eye_lower_lid_size: "Vanilla Lower Eyelid Size"
-### TODO NOT-IN-ST: eye_lower_lid_size [AGOT: Lower Eyelid Size]
- eye_lower_lid_size: "Lower Eyelid Size"
+
+ eye_lower_lid_size:0 "Alt Göz Kapağı Boyutu"
 ### TODO NOT-IN-ST: gene_bs_eye_shape [AGOT: Eye Shape]
  gene_bs_eye_shape: "Eye Shape"
 ### TODO NOT-IN-ST: vanilla_eye_shape [AGOT: Vanilla Eye Shape]
@@ -469,18 +469,18 @@
  eye_shape_03: "Eye Shape 03 - Smaller Almond"
 ### TODO NOT-IN-ST: eye_shape_04 [AGOT: Eye Shape 04 - Almond Variant]
  eye_shape_04: "Eye Shape 04 - Almond Variant"
-### TODO NOT-IN-ST: gene_bs_nasolabial_rotation [AGOT: Nasolabial Rotation]
- gene_bs_nasolabial_rotation: "Nasolabial Rotation"
+
+ gene_bs_nasolabial_rotation:0 "Nazolabial Dönüş"
 ### TODO NOT-IN-ST: vanilla_nasolabial_rotation [AGOT: Vanilla Nasolabial Rotation]
  vanilla_nasolabial_rotation: "Vanilla Nasolabial Rotation"
-### TODO NOT-IN-ST: nasolabial_rotation [AGOT: Nasolabial Rotation]
- nasolabial_rotation: "Nasolabial Rotation"
-### TODO NOT-IN-ST: gene_eye_color_saturation [AGOT: Eye Color Saturation]
- gene_eye_color_saturation: "Eye Color Saturation"
+
+ nasolabial_rotation:0 "Nazolabial Dönüş"
+
+ gene_eye_color_saturation:0 "Göz Rengi Doygunluğu"
 ### TODO NOT-IN-ST: vanilla_eye_saturation [AGOT: Vanilla Eye Color Saturation]
  vanilla_eye_saturation: "Vanilla Eye Color Saturation"
-### TODO NOT-IN-ST: eye_color_saturation [AGOT: Eye Color Saturation]
- eye_color_saturation: "Eye Color Saturation"
+
+ eye_color_saturation:0 "Göz Rengi Doygunluğu"
 ### TODO NOT-IN-ST: gene_face_dacals [AGOT: Face Decals]
  gene_face_dacals: "Face Decals"
 ### TODO NOT-IN-ST: no_face_dacal [AGOT: No Decal]

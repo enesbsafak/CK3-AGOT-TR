@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  epidemic_level_minor: "[plague_minor|E]"
  epidemic_level_major: "[plague_major|E]"
  epidemic_level_apocalyptic: "[plague_apocalyptic|E]"
@@ -29,16 +29,16 @@
  game_concept_plague_minor: "Küçük"
  game_concept_plague_minor_desc: "$game_concept_infection_chance_desc$"
  epidemic_smallpox: "Çiçek"
-### TODO AGOT-CHANGED: epidemic_bubonic_plague [AGOT: Sunset Plague | TR: Hıyarcıklı Veba]
- epidemic_bubonic_plague: "Sunset Plague"
+
+ epidemic_bubonic_plague:0 "Gün Batımı Vebası"
  epidemic_bubonic_plague_global_notification: "yayılmaya başladı"
-### TODO AGOT-CHANGED: epidemic_black_death [AGOT: Great Spring Sickness | TR: Kara Veba]
- epidemic_black_death: "Great Spring Sickness"
-### TODO AGOT-CHANGED: epidemic_typhus [AGOT: Green Fever | TR: Lekeli Humma]
- epidemic_typhus: "Green Fever"
+
+ epidemic_black_death:0 "Büyük Bahar Hastalığı"
+
+ epidemic_typhus:0 "Yeşil Ateş"
  epidemic_consumption: "Verem"
-### TODO AGOT-CHANGED: epidemic_measles [AGOT: Spotted Fever | TR: Kızamık]
- epidemic_measles: "Spotted Fever"
+
+ epidemic_measles:0 "Benekli Ateş"
  epidemic_realm_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip|U]"
  epidemic_ruler_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetTopLiege.GetFirstNameNoTooltip|U]"
  epidemic_holder_loc: "[ROOT.Epidemic.GetStartingOutbreakProvince.GetCounty.GetTitle.GetHolder.GetFirstNameNoTooltip|U]"
@@ -127,19 +127,19 @@
  epidemic_reapers_due: "Ecelin Vakti"
  epidemic_little_leprosy: "Küçük Cüzzam"
  epidemic_crimson_horror: "Kızıl Dehşet"
-### TODO AGOT-CHANGED: trait_measles [AGOT: Spotted Fever | TR: Kızamık]
- trait_measles: "Spotted Fever"
+
+ trait_measles:0 "Benekli Ateş"
  trait_measles_desc: "Bu karakter sürekli ateş, kızarıklıklar ve öksürükten muzdarip olduğu için birçok insan bu illete "küçük cüzzam" adını yakıştırıyor."
  trait_measles_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] sürekli ateş, kızarıklıklar ve öksürükten muzdarip olduğu için birçok insan bu illete "küçük cüzzam" adını yakıştırıyor."
  epidemic_dysentery: "Kanlı İshal"
  trait_dysentery: "Kanlı İshal"
  trait_dysentery_desc: "Ateş, sayıklamalar ve ağır karın ağrıları yüzünden bu karakter... tuvalette kan #EMP çıkarıyor#!."
  trait_dysentery_character_desc: "Ateş, sayıklamalar ve ağır karın ağrıları yüzünden [ROOT.GetCharacter.GetFirstNameNoTooltip]... tuvalette kan #EMP çıkarıyor#!."
-### TODO AGOT-CHANGED: epidemic_ergotism [AGOT: Dancing Plague | TR: Kutsal Ateş]
- epidemic_ergotism: "Dancing Plague"
+
+ epidemic_ergotism:0 "Dans Vebası"
  epidemic_saint_anthonys_fire: "Aziz Antonio'nun Ateşi"
-### TODO AGOT-CHANGED: trait_ergotism [AGOT: Dancing Plague | TR: Kutsal Ateş]
- trait_ergotism: "Dancing Plague"
+
+ trait_ergotism:0 "Dans Vebası"
  trait_ergotism_desc: "Bu karakter acılı nöbetler, baş ağrıları, bulantı ve ishalden muzdarip. İstemsiz kasılmalar âdeta dans ediyormuş gibi gözükmesine yol açıyor."
  trait_ergotism_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] acılı nöbetler, baş ağrıları, bulantı ve ishalden muzdarip. İstemsiz kasılmalar âdeta dans ediyormuş gibi gözükmesine yol açıyor."
  county_epidemic_recovered_tiny_modifier: "Kısmi Toparlanma"

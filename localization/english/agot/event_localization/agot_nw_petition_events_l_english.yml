@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: nw_petition_supplies_army_mod [AGOT: Well Provisioned Black Brothers]
  nw_petition_supplies_army_mod: "Well Provisioned Black Brothers"
 ### TODO NOT-IN-ST: nw_petition_supplies_normal_mod [AGOT: Well Provisioned Smaller Posts]
@@ -9,8 +9,8 @@
  nw_petition_persuasion_fail: "You are unable to persuade [nw_petition_target.GetTitledFirstNameNoTooltip]"
 ### TODO NOT-IN-ST: nw_petition_persuasion_player_target [AGOT: You will try to persuade [nw_petition_target.GetTitledFirstName]]
  nw_petition_persuasion_player_target: "You will try to persuade [nw_petition_target.GetTitledFirstName]"
-### TODO NOT-IN-ST: agot_nw_petition_events.01.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.01.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.01.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.01.desc [AGOT: The duty of Lord Commander is a thankless one — long nights spent with the maester, inking scrolls and sending ravens south in hopes of securing supplies and fresh recruits.\n\n]
  agot_nw_petition_events.01.desc:0 "The duty of Lord Commander is a thankless one — long nights spent with the maester, inking scrolls and sending ravens south in hopes of securing supplies and fresh recruits.\n\n"Ravens and scrolls can only do so much," [nw_petition_envoy.GetTitledFirstName] tells me, with a self-satisfied grin. "Some lords may respond better to a bit of ... #italic diplomatic#! effort."\n\n[nw_petition_envoy.GetSheHe|U] tells me that I ought to send [nw_petition_envoy.GetHerHim] as an envoy to the south. #italic But what should I request?#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.01.a [AGOT: I'll ask for more men.]
@@ -67,8 +67,8 @@
  agot_nw_petition_events.0104.a:0 "Try to reason with him."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0104.b [AGOT: It is time to fight!]
  agot_nw_petition_events.0104.b:0 "It is time to fight!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0104.c [AGOT: Perhaps my envoy's charm can smooth things over?]
- agot_nw_petition_events.0104.c:0 "Perhaps my envoy's charm can smooth things over?"
+
+ agot_nw_petition_events.0104.c:0 "Belki elçimin cazibesi işleri yoluna koyar?"
 ### TODO NOT-IN-ST: nw_petition_rand_event_4_succ [AGOT: Your envoy convinces the knight of his mission.]
  nw_petition_rand_event_4_succ:0 "Your envoy convinces the knight of his mission."
 ### TODO NOT-IN-ST: nw_petition_rand_event_4_fail [AGOT: The knight is #N unconvinced#!...]
@@ -87,14 +87,14 @@
  agot_nw_petition_events.0106.a:0 "Pay the knight recompense for the slight."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0106.b [AGOT: Tell the knight to bugger off!]
  agot_nw_petition_events.0106.b:0 "Tell the knight to bugger off!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0106.c [AGOT: Perhaps my envoy's charm can smooth things over?]
- agot_nw_petition_events.0106.c:0 "Perhaps my envoy's charm can smooth things over?"
+
+ agot_nw_petition_events.0106.c:0 "Belki elçimin cazibesi işleri yoluna koyar?"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0107.t [AGOT: Tavern Brawl]
  agot_nw_petition_events.0107.t:0 "Tavern Brawl"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0107.desc [AGOT: My envoy [nw_petition_envoy.GetFirstNameNoTooltip] makes occasional stops at local taverns on [nw_petition_envoy.GetHerHis] travels, but tonight's visit was unlike any other.\n\nIt started quiet enough, but before [nw_petition_envoy.GetSheHe] knew what was happening, the situation devolved into an #bold epic tavern brawl#!!]
  agot_nw_petition_events.0107.desc:0 "My envoy [nw_petition_envoy.GetFirstNameNoTooltip] makes occasional stops at local taverns on [nw_petition_envoy.GetHerHis] travels, but tonight's visit was unlike any other.\n\nIt started quiet enough, but before [nw_petition_envoy.GetSheHe] knew what was happening, the situation devolved into an #bold epic tavern brawl#!!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0107.a [AGOT: Fight! Fight! Fight!]
- agot_nw_petition_events.0107.a:0 "Fight! Fight! Fight!"
+
+ agot_nw_petition_events.0107.a:0 "Dövüş! Dövüş! Dövüş!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0108.t [AGOT: A Cutpurse Attacks]
  agot_nw_petition_events.0108.t:0 "A Cutpurse Attacks"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0108.desc [AGOT: While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] must stay alert at all times. When a shadowy figure approaches, one never knows if [vile_bandit.GetSheHe] may have ill intentions.\n\nToday, luck was not on my envoy's side. A vile bandit, [vile_bandit.GetFirstName], managed to ambush [nw_petition_envoy.GetHerHim] on the road, far away from help of any kind. #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!]
@@ -103,16 +103,16 @@
  agot_nw_petition_events.0108.a:0 "Kill the cutpurse."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0108.b [AGOT: Perhaps a bribe will suffice?]
  agot_nw_petition_events.0108.b:0 "Perhaps a bribe will suffice?"
-### TODO NOT-IN-ST: agot_nw_petition_events.0108.c [AGOT: Time to flee!]
- agot_nw_petition_events.0108.c:0 "Time to flee!"
+
+ agot_nw_petition_events.0108.c:0 "Kaçma zamanı!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0109.t [AGOT: An Animal Attacks]
  agot_nw_petition_events.0109.t:0 "An Animal Attacks" # TODO Could use local animal custom localization.
 ### TODO NOT-IN-ST: agot_nw_petition_events.0109.desc [AGOT: While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] must stay alert at all times. Around every nook or cranny, imminent danger may lurk.\n\nToday, luck was not on my envoy's side. A vicious beast caught [nw_petition_envoy.GetHerHim] unawares, far from any help. #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!]
  agot_nw_petition_events.0109.desc:0 "While traveling, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] must stay alert at all times. Around every nook or cranny, imminent danger may lurk.\n\nToday, luck was not on my envoy's side. A vicious beast caught [nw_petition_envoy.GetHerHim] unawares, far from any help. #italic What should [nw_petition_envoy.GetFirstNameNoTooltip] do?#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0109.a [AGOT: Kill the beast.]
  agot_nw_petition_events.0109.a:0 "Kill the beast."
-### TODO NOT-IN-ST: agot_nw_petition_events.0109.b [AGOT: Time to flee!]
- agot_nw_petition_events.0109.b:0 "Time to flee!"
+
+ agot_nw_petition_events.0109.b:0 "Kaçma zamanı!"
 ### TODO NOT-IN-ST: nw_petition_rand_event_9_flee_succ [AGOT: Your envoy successfully flees the beast.]
  nw_petition_rand_event_9_flee_succ:0 "Your envoy successfully flees the beast."
 ### TODO NOT-IN-ST: nw_petition_rand_event_9_flee_fail [AGOT: Your envoy is unable to escape the beast.]
@@ -149,8 +149,8 @@
  agot_nw_petition_events.0115.t:0 "The Knight Hears Reason"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0115.desc [AGOT: The depths of [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltipPossessive] idiocy has no limits. However, with some smooth words and a lot of patience, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was able to convince the dim-witted knight of the truth of [nw_petition_envoy.GetHerHis] mission.]
  agot_nw_petition_events.0115.desc:0 "The depths of [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltipPossessive] idiocy has no limits. However, with some smooth words and a lot of patience, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was able to convince the dim-witted knight of the truth of [nw_petition_envoy.GetHerHis] mission."
-### TODO NOT-IN-ST: agot_nw_petition_events.0115.a [AGOT: Good, now on with the mission.]
- agot_nw_petition_events.0115.a:0 "Good, now on with the mission."
+
+ agot_nw_petition_events.0115.a:0 "Güzel, şimdi göreve devam."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0116.t [AGOT: The Knight Has None of It]
  agot_nw_petition_events.0116.t:0 "The Knight Has None of It"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0116.desc [AGOT: The depths of [idiotic_knight_whomst_think_BB_is_bandit.GetFirstNameNoTooltipPossessive] idiocy has no limits. Despite my envoy's smooth words and abundant patience, the dim-witted knight is convinced that [nw_petition_envoy.GetFirstNameNoTooltip] is a bandit.\n\n]
@@ -159,8 +159,8 @@
  agot_nw_petition_events.0117.t:0 "Envoy Kills the Beast" # TODO Could use local animal custom localization.
 ### TODO NOT-IN-ST: agot_nw_petition_events.0117.desc [AGOT: Despite being caught by surprise, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was quick to react, allowing [nw_petition_envoy.GetHerHim] to fend off the beast.\n\nAfter locking eyes and circling one another, the beast attempted another strike — only for my envoy's sword to find its mark deep in the wild animal's chest.]
  agot_nw_petition_events.0117.desc:0 "Despite being caught by surprise, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was quick to react, allowing [nw_petition_envoy.GetHerHim] to fend off the beast.\n\nAfter locking eyes and circling one another, the beast attempted another strike — only for my envoy's sword to find its mark deep in the wild animal's chest."
-### TODO NOT-IN-ST: agot_nw_petition_events.0117.a [AGOT: Good, now on with the mission.]
- agot_nw_petition_events.0117.a:0 "Good, now on with the mission."
+
+ agot_nw_petition_events.0117.a:0 "Güzel, şimdi göreve devam."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0118.t [AGOT: Envoy Barely Kills the Beast]
  agot_nw_petition_events.0118.t:0 "Envoy Barely Kills the Beast" # TODO Could use local animal custom localization.
 ### TODO NOT-IN-ST: agot_nw_petition_events.0118.desc [AGOT: My envoy [nw_petition_envoy.GetFirstNameNoTooltip] was caught completely by surprise when the wild animal launched its attack. Despite the beast's best efforts, [nw_petition_envoy.GetFirstNameNoTooltip] was able to regain [nw_petition_envoy.GetHerHis] composure and fend off the attack.\n\nWhen the beast attempted another strike, my envoy's sword found its mark deep in the wild animal's chest. Unfortunately, the fight has left [nw_petition_envoy.GetHerHim] badly wounded.]
@@ -179,20 +179,20 @@
  agot_nw_petition_events.0120.desc:0 "Despite being caught by surprise, my envoy [nw_petition_envoy.GetFirstNameNoTooltip] was quick to react, regaining [nw_petition_envoy.GetHerHis] composure and sprinting away from the wild animal to safety.\n\nThough it wasn't glamorous, and [nw_petition_envoy.GetHerHis] trousers are a darker shade of brown now, my envoy escaped with his life."
 ### TODO NOT-IN-ST: agot_nw_petition_events.0120.a [AGOT: Wash those trousers before meeting with the lord, please.]
  agot_nw_petition_events.0120.a:0 "Wash those trousers before meeting with the lord, please."
-### TODO NOT-IN-ST: agot_nw_petition_events.1000.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1000.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1000.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1000.desc [AGOT: Preparations have been made, plans put in place, and now [nw_petition_envoy.GetTitledFirstName] has come before me for a final time before [nw_petition_envoy.GetHerHis] departure.\n\n]
  agot_nw_petition_events.1000.desc:0 "Preparations have been made, plans put in place, and now [nw_petition_envoy.GetTitledFirstName] has come before me for a final time before [nw_petition_envoy.GetHerHis] departure.\n\n"Lord Commander, I promise to fulfill my duties in the south expeditiously, returning to Castle Black with what we have requested," [nw_petition_envoy.GetFirstNameNoTooltip] assures me. "Though the road is long, and many perils await me, I pledge my life and honor to this purpose. #bold Onward, to [nw_petition_target.GetCapitalLocation.GetName]!""
 ### TODO NOT-IN-ST: agot_nw_petition_events.1000.a [AGOT: Go forth, and do your duty.]
  agot_nw_petition_events.1000.a:0 "Go forth, and do your duty."
-### TODO NOT-IN-ST: agot_nw_petition_events.1001.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1001.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1001.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1001.desc [AGOT: What [nw_petition_envoy.GetTitledFirstName] told me about the long road ahead and the perils awaiting [nw_petition_envoy.GetHerHim] could not have been more true. But at long last, [nw_petition_envoy.GetFirstNameNoTooltip] has arrived at [nw_petition_envoy.GetHerHis] destination, [nw_petition_target.GetCapitalLocation.GetName]!]
  agot_nw_petition_events.1001.desc:0 "What [nw_petition_envoy.GetTitledFirstName] told me about the long road ahead and the perils awaiting [nw_petition_envoy.GetHerHim] could not have been more true. But at long last, [nw_petition_envoy.GetFirstNameNoTooltip] has arrived at [nw_petition_envoy.GetHerHis] destination, [nw_petition_target.GetCapitalLocation.GetName]!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1001.a [AGOT: Let us pray the host accepts our petition.]
  agot_nw_petition_events.1001.a:0 "Let us pray the host accepts our petition."
-### TODO NOT-IN-ST: agot_nw_petition_events.1002.t [AGOT: An Envoy from the Night's Watch]
- agot_nw_petition_events.1002.t:0 "An Envoy from the Night's Watch"
+
+ agot_nw_petition_events.1002.t:0 "Gece Nöbetçileri'nden Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1002.desc.a [AGOT: A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n]
  agot_nw_petition_events.1002.desc.a:0 "A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n"[nw_petition_envoy.GetTitledFirstName], my [ROOT.Char.GetLadyLord|l]," [nw_petition_envoy.GetSheHe] introduces [nw_petition_envoyGetHerselfHimself]. "I am here on a mission — as an envoy of the black brothers, the watchers on the Wall." I yawn, hoping this envoy will get to the point.\n\n"Ehem, my [ROOT.Char.GetLadyLord|l]. I am here to petition your court for supplies, to help our sworn order defend the Seven Kingdoms!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1002.desc.b [AGOT: A strange traveler arrives at my court, clad in all black and reeking of the road.\n\n]
@@ -211,8 +211,8 @@
  agot_nw_petition_events.1002.c:0 "Har! You wish for aid to help keep watch for snarks and grumkins?"
 ### TODO NOT-IN-ST: nw_ruler_petition_initial_reject [AGOT: You reject the Night's Watch petition.]
  nw_ruler_petition_initial_reject:0 "You reject the Night's Watch petition."
-### TODO NOT-IN-ST: agot_nw_petition_events.1003.t [AGOT: An Envoy from the Night's Watch]
- agot_nw_petition_events.1003.t:0 "An Envoy from the Night's Watch"
+
+ agot_nw_petition_events.1003.t:0 "Gece Nöbetçileri'nden Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1003.desc [AGOT: ]
  agot_nw_petition_events.1003.desc:0 ""While I am honored to host a brother of the Night's Watch, truly," I begin, with a sly grin. "And one such as yourself must know the gravity of what you ask. Why else would the Lord Commander have sent an envoy instead of a raven?"\n\nWith that, [nw_petition_envoy.GetTitledFirstName] seems to have understood my meaning. "If I were to accept this petition from the Night's Watch, I would need #italic something#! in return...""
 ### TODO NOT-IN-ST: agot_nw_petition_events.1003.a [AGOT: Free the captives held by the Wildlings.]
@@ -225,34 +225,34 @@
  agot_nw_petition_events.1003.d:0 "We can agree on a fair price..."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1003.e [AGOT: A rare artifact is worth more than gold!]
  agot_nw_petition_events.1003.e:0 "A rare artifact is worth more than gold!"
-### TODO NOT-IN-ST: agot_nw_petition_events.1004.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1004.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1004.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1004.desc.a [AGOT: I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #bold splendidly#!!\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition.]
  agot_nw_petition_events.1004.desc.a:0 "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #bold splendidly#!!\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1004.desc.b [AGOT: I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone tepidly.\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition... #italic under one condition.#!]
  agot_nw_petition_events.1004.desc.b:0 "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone tepidly.\n\nWhile the details are still being discussed, [nw_petition_envoy.GetFirstNameNoTooltip] believes the [nw_petition_target.GetLadyLord] will agree to our petition... #italic under one condition.#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1004.desc.c [AGOT: I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #N terribly#!!\n\nThere is no need to say more. [nw_petition_envoy.GetFirstNameNoTooltip] is certain that [nw_petition_target.GetLadyLord] will not agree to our petition.]
  agot_nw_petition_events.1004.desc.c:0 "I have received word from my envoy to [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName], that the negotiations have gone #N terribly#!!\n\nThere is no need to say more. [nw_petition_envoy.GetFirstNameNoTooltip] is certain that [nw_petition_target.GetLadyLord] will not agree to our petition."
-### TODO NOT-IN-ST: agot_nw_petition_events.1004.a [AGOT: I must accept!]
- agot_nw_petition_events.1004.a:0 "I must accept!"
+
+ agot_nw_petition_events.1004.a:0 "Kabul etmeliyim!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1004.b [AGOT: Try to persuade the [nw_petition_target.GetLadyLord]!]
  agot_nw_petition_events.1004.b:0 "Try to persuade the [nw_petition_target.GetLadyLord]!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1004.c [AGOT: Perhaps a bribe will work?]
  agot_nw_petition_events.1004.c:0 "Perhaps a bribe will work?"
-### TODO NOT-IN-ST: agot_nw_petition_events.1005.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1005.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1005.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1005.desc [AGOT: There are rare moments in one's life where they prove the purpose of their existence. Today, [nw_petition_envoy.GetTitledFirstName] proved [nw_petition_envoy.GetHerHis].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #bold  [nw_petition_envoy.GetFirstNameNoTooltip] did it!#!]
  agot_nw_petition_events.1005.desc:0 "There are rare moments in one's life where they prove the purpose of their existence. Today, [nw_petition_envoy.GetTitledFirstName] proved [nw_petition_envoy.GetHerHis].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #bold  [nw_petition_envoy.GetFirstNameNoTooltip] did it!#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1005.a [AGOT: I mustn't let it go to [nw_petition_envoy.GetHerHis] head.]
  agot_nw_petition_events.1005.a:0 "I mustn't let it go to [nw_petition_envoy.GetHerHis] head."
-### TODO NOT-IN-ST: agot_nw_petition_events.1006.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1006.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1006.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1006.desc [AGOT: There are rare moments in one's life where they prove the purpose of their existence. Today was #bold not#! such a day for poor [nw_petition_envoy.GetTitledFirstName].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #N [nw_petition_envoy.GetFirstNameNoTooltip] failed.#!]
  agot_nw_petition_events.1006.desc:0 "There are rare moments in one's life where they prove the purpose of their existence. Today was #bold not#! such a day for poor [nw_petition_envoy.GetTitledFirstName].\n\nI tasked [nw_petition_envoy.GetHerHim] with persuading [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch, and by the gods... #N [nw_petition_envoy.GetFirstNameNoTooltip] failed.#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1006.a [AGOT: What a failure...]
  agot_nw_petition_events.1006.a:0 "What a failure..."
-### TODO NOT-IN-ST: agot_nw_petition_events.1007.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1007.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1007.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1007.desc [AGOT: [nw_petition_envoy.GetTitledFirstName] has returned once more to plead the case of the Night's Watch. I can barely follow the blabber about vows and promises, the darkness of night and the coming of the cold.\n\nWhen [nw_petition_envoy.GetSheHe] finally finishes the petition, I lock eyes with [nw_petition_envoy.GetHerHim] — the only way to get a true measure of one's character. In that moment, I know what I must do.]
  agot_nw_petition_events.1007.desc:0 "[nw_petition_envoy.GetTitledFirstName] has returned once more to plead the case of the Night's Watch. I can barely follow the blabber about vows and promises, the darkness of night and the coming of the cold.\n\nWhen [nw_petition_envoy.GetSheHe] finally finishes the petition, I lock eyes with [nw_petition_envoy.GetHerHim] — the only way to get a true measure of one's character. In that moment, I know what I must do."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1007.a [AGOT: A compelling case, and one that I will oblige.]
@@ -261,8 +261,8 @@
  agot_nw_petition_events.1007.b:0 "I do not doubt your conviction, but I must deny your petition."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1007.c [AGOT: You dare brazenly make this request a second time!]
  agot_nw_petition_events.1007.c:0 "You dare brazenly make this request a second time!"
-### TODO NOT-IN-ST: agot_nw_petition_events.1008.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1008.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1008.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1008.desc.a [AGOT: [nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — with great success!\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a welcome return to the Wall.]
  agot_nw_petition_events.1008.desc.a:0 "[nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — with great success!\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a welcome return to the Wall."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1008.desc.b [AGOT: [nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — and eventually came to an agreement...\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a welcome return to the Wall.]
@@ -271,22 +271,22 @@
  agot_nw_petition_events.1008.desc.c:0 "[nw_petition_envoy.GetTitledFirstName] has done all that [nw_petition_envoy.GetSheHe] could to convince [nw_petition_target.GetTitledFirstName] to come to the aid of the Night's Watch — all for naught.\n\nNow, [nw_petition_envoy.GetSheHe] must prepare for a long, bitter return to the harshness of the Wall."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1008.a [AGOT: Onward to Castle Black!]
  agot_nw_petition_events.1008.a:0 "Onward to Castle Black!"
-### TODO NOT-IN-ST: agot_nw_petition_events.1009.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1009.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1009.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1009.desc.a [AGOT: Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the terms of our petition.]
  agot_nw_petition_events.1009.desc.a:0 "Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the terms of our petition."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1009.desc.b [AGOT: Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the newly-outlined terms of our petition.]
  agot_nw_petition_events.1009.desc.b:0 "Through [nw_petition_envoy.GetHerHis] sheer effort, [nw_petition_envoy.GetTitledFirstName] was able to convince [nw_petition_target.GetTitledFirstName] to agree to the newly-outlined terms of our petition."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1009.desc.c [AGOT: Despite [nw_petition_envoy.GetTitledFirstName]'s best efforts, [nw_petition_target.GetTitledFirstName] dismisses the petition once more.]
  agot_nw_petition_events.1009.desc.c:0 "Despite [nw_petition_envoy.GetTitledFirstName]'s best efforts, [nw_petition_target.GetTitledFirstName] dismisses the petition once more."
-### TODO NOT-IN-ST: agot_nw_petition_events.1009.a [AGOT: I must accept!]
- agot_nw_petition_events.1009.a:0 "I must accept!"
+
+ agot_nw_petition_events.1009.a:0 "Kabul etmeliyim!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1009.b [AGOT: No, this negotiation is over.]
  agot_nw_petition_events.1009.b:0 "No, this negotiation is over."
 ### TODO NOT-IN-ST: agot_nw_petition_events.1009.c [AGOT: Thank you, my [nw_petition_target.GetLadyLord].]
  agot_nw_petition_events.1009.c:0 "Thank you, my [nw_petition_target.GetLadyLord]."
-### TODO NOT-IN-ST: agot_nw_petition_events.1010.t [AGOT: An Envoy to the Seven Kingdoms]
- agot_nw_petition_events.1010.t:0 "An Envoy to the Seven Kingdoms"
+
+ agot_nw_petition_events.1010.t:0 "Yedi Krallığa Bir Elçi"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1010.desc.a [AGOT: When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, deserving of a hero's welcome as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n]
  agot_nw_petition_events.1010.desc.a:0 "When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, deserving of a hero's welcome as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n"You did it," I say, as I take a hold of [nw_petition_envoy.GetHerHis] hand. "You successfully served as an envoy of the Night's Watch."\n\n#italic Now, what to do with the hard-won prize?#!"
 ### TODO NOT-IN-ST: agot_nw_petition_events.1010.desc.b [AGOT: When [nw_petition_envoy.GetTitledFirstName] left Castle Black, [nw_petition_envoy.GetSheHe] promised to pursue [nw_petition_envoy.GetHerHis] mission expeditiously, leaving no stone unturned in hopes of securing aid for the Night's Watch.\n\nToday, [nw_petition_envoy.GetFirstNameNoTooltip] completes [nw_petition_envoy.GetHerHis] journey, deserving of a hero's welcome as [nw_petition_envoy.GetSheHe] walks through the gate.\n\n]
@@ -325,10 +325,10 @@
  agot_nw_petition_events.0200.t:0 "Desire to Join the Night's Watch"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0200.desc [AGOT: While my envoy [nw_petition_envoy.GetTitledFirstName] is visiting the court of [nw_petition_target.GetTitledFirstName], [nw_petition_envoy.GetSheHe] is approached by a member of [nw_petition_envoy.GetHerHis] host's family.\n\n[nw_petition_200_lords_family_member.GetFirstNameNoTooltip] says he has long dreamed of the day that a black brother would enter his halls — #bold giving him an opportunity to leave this home behind and join the Night's Watch!#!]
  agot_nw_petition_events.0200.desc:0 "While my envoy [nw_petition_envoy.GetTitledFirstName] is visiting the court of [nw_petition_target.GetTitledFirstName], [nw_petition_envoy.GetSheHe] is approached by a member of [nw_petition_envoy.GetHerHis] host's family.\n\n[nw_petition_200_lords_family_member.GetFirstNameNoTooltip] says he has long dreamed of the day that a black brother would enter his halls — #bold giving him an opportunity to leave this home behind and join the Night's Watch!#!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0200.a [AGOT: We need more men!]
- agot_nw_petition_events.0200.a:0 "We need more men!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0200.b [AGOT: We cannot allow this.]
- agot_nw_petition_events.0200.b:0 "We cannot allow this."
+
+ agot_nw_petition_events.0200.a:0 "Daha fazla adama ihtiyacımız var!"
+
+ agot_nw_petition_events.0200.b:0 "Buna izin veremeyiz."
 ### TODO NOT-IN-ST: nw_post_petition_rand_event_1_family_member_taken [AGOT: You accept [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip] request. He shall join the Night's Watch, forsaking all claims to inheritance.]
  nw_post_petition_rand_event_1_family_member_taken:0 "You accept [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip] request. He shall join the Night's Watch, forsaking all claims to inheritance."
 ### TODO NOT-IN-ST: nw_post_petition_rand_event_1_family_member_refused [AGOT: You refuse [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip] request. The Wall is no place for dreamers.]
@@ -345,10 +345,10 @@
  agot_nw_petition_events.0203.t:0 "Local Knight Wishes to Join the Watch"
 ### TODO NOT-IN-ST: agot_nw_petition_events.0203.desc [AGOT: Myths and rumors about the perils — and glory — of the Night's Watch are plentiful. Some speak of the #italic Others#!, beings made of ice that can only be defeated by the greatest of knights. Others speak of #bold giants#!, still roaming north of the Wall.\n\nWhether glory or folly has rooted itself in [nw_petition_203_local_knight.GetTitledFirstName]'s head, [nw_petition_envoy.GetTitledFirstName] isn't sure. All [nw_petition_envoy.GetSheHe] knows is that this knight has a dream to join the Night's Watch!]
  agot_nw_petition_events.0203.desc:0 "Myths and rumors about the perils — and glory — of the Night's Watch are plentiful. Some speak of the #italic Others#!, beings made of ice that can only be defeated by the greatest of knights. Others speak of #bold giants#!, still roaming north of the Wall.\n\nWhether glory or folly has rooted itself in [nw_petition_203_local_knight.GetTitledFirstName]'s head, [nw_petition_envoy.GetTitledFirstName] isn't sure. All [nw_petition_envoy.GetSheHe] knows is that this knight has a dream to join the Night's Watch!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0203.a [AGOT: We need more men!]
- agot_nw_petition_events.0203.a:0 "We need more men!"
-### TODO NOT-IN-ST: agot_nw_petition_events.0203.b [AGOT: We cannot allow this.]
- agot_nw_petition_events.0203.b:0 "We cannot allow this."
+
+ agot_nw_petition_events.0203.a:0 "Daha fazla adama ihtiyacımız var!"
+
+ agot_nw_petition_events.0203.b:0 "Buna izin veremeyiz."
 ### TODO NOT-IN-ST: nw_post_petition_rand_event_4_knight_taken [AGOT: You accept [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip] request. [nw_petition_203_local_knight.GetSheHe] shall join the Night's Watch, forsaking all claims to inheritance.]
  nw_post_petition_rand_event_4_knight_taken:0 "You accept [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip] request. [nw_petition_203_local_knight.GetSheHe] shall join the Night's Watch, forsaking all claims to inheritance."
 ### TODO NOT-IN-ST: nw_post_petition_rand_event_4_knight_refused [AGOT: You refuse [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip] request. The Wall is no place for dreamers.]

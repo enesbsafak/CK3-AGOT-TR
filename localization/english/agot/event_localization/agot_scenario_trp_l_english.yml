@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_scenario_trp.0001.t [AGOT: The Rogue Prince's War]
  agot_scenario_trp.0001.t:0 "The Rogue Prince's War"
 ### TODO NOT-IN-ST: agot_scenario_trp.0001.desc [AGOT: I step off the back of [current_dragon.GetName], removing my helm to survey the war camp before me. Banners of Targaryen and Velaryon flutter in the wind, soldiers preparing for our next offensive already. The island of [ROOT.Char.GetCurrentLocation.GetName] fell easily enough, but the rest of Stepstones shall not be so simple.\n\nThough I may have been denied my birthright as Prince of Dragonstone, I shall not let my brother relegate me to obscurity. I shall conquer the Stepstones, and prove that this second son is the true heir of House [ROOT.Char.GetHouse.GetName]!]
@@ -367,8 +367,8 @@
  agot_scenario_trp.1010.b.toast.t:0 "Boon Denied"
 ### TODO NOT-IN-ST: agot_scenario_trp.1010.b.toast.desc [AGOT: You have not been offered a boon.]
  agot_scenario_trp.1010.b.toast.desc:0 "You have not been offered a boon."
-### TODO NOT-IN-ST: agot_scenario_trp.1011.t [AGOT: The Price of a Kingdom]
- agot_scenario_trp.1011.t:0 "The Price of a Kingdom"
+
+ agot_scenario_trp.1011.t:0 "Bir Krallığın Bedeli"
 ### TODO NOT-IN-ST: agot_scenario_trp.1011.desc [AGOT: I step before [sitting_ruler.GetTitledFirstName] and kneel, my head bowed in respect. With a sweeping gesture, I take the crown from my head and place it at [sitting_ruler.GetHerHis] feet.\n\nAs expected, [sitting_ruler.GetFirstNameNoTooltip] graciously accepts my fealty, and asks me to rise. I am now not just Prince, but Lord Paramount of the Stepstones.\n\nFurther, I have been granted a boon for my service to the realm. The question is now, what shall I ask for?]
  agot_scenario_trp.1011.desc:0 "I step before [sitting_ruler.GetTitledFirstName] and kneel, my head bowed in respect. With a sweeping gesture, I take the crown from my head and place it at [sitting_ruler.GetHerHis] feet.\n\nAs expected, [sitting_ruler.GetFirstNameNoTooltip] graciously accepts my fealty, and asks me to rise. I am now not just Prince, but Lord Paramount of the Stepstones.\n\nFurther, I have been granted a boon for my service to the realm. The question is now, what shall I ask for?"
 ### TODO NOT-IN-ST: agot_scenario_trp.1011.desc.rhaenyra_rejected [AGOT: Shock! Despite seeming interested in all our interactions thus far, it seems that Rhaenyra has no interest in me. She has rejected my offer of marriage, despite [sitting_ruler.GetTitledFirstNamePossessive] assent.\n\nKindly, [sitting_ruler.GetSheHe] has offered me another boon in its place.]
@@ -405,22 +405,22 @@
  agot_scenario_trp.1011.f:0 "Damn this keep, and damn your rule too!"
 ### TODO NOT-IN-ST: agot_scenario_trp.1011.f.f [AGOT: You cannot contain your anger, and the rage boils over.]
  agot_scenario_trp.1011.f.f:0 "You cannot contain your anger, and the rage boils over."
-### TODO NOT-IN-ST: agot_scenario_trp.1012.t [AGOT: The Price of a Kingdom]
- agot_scenario_trp.1012.t:0 "The Price of a Kingdom"
+
+ agot_scenario_trp.1012.t:0 "Bir Krallığın Bedeli"
 ### TODO NOT-IN-ST: agot_scenario_trp.1012.desc [AGOT: Daemon rises from his knees, looking considered for a moment.]
  agot_scenario_trp.1012.desc:0 "Daemon rises from his knees, looking considered for a moment."
 ### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.rhaenyra_rejected [AGOT: To my surprise, it seems that Rhaenyra has no interest in Daemon and has rejected his offer of marriage. I can see the disappointment in his eyes, and so I offer him another boon in its place.]
  agot_scenario_trp.1012.desc.rhaenyra_rejected:0 "To my surprise, it seems that Rhaenyra has no interest in Daemon and has rejected his offer of marriage. I can see the disappointment in his eyes, and so I offer him another boon in its place."
 ### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.heir [AGOT: Yet, it was never a question what he would ask for. It's what he has always wanted.\n\n]
  agot_scenario_trp.1012.desc.heir:0 "Yet, it was never a question what he would ask for. It's what he has always wanted.\n\n"I want my birthright." he says, almost a whisper. "I want to be Prince of Dragonstone, and your rightful heir." he raises his voice, enough for the court to hear.\n\nSuch a bold request! Dare I grant it?"
-### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.rhaenyra [AGOT: What comes next, I could never have expected.\n\n]
- agot_scenario_trp.1012.desc.rhaenyra:0 "What comes next, I could never have expected.\n\n"I want Rhaenyra." he says, a sparkle in his eye as he looks past me to her. "I want to wed her in the tradition of our house. Bring the dragon together as one." He raises his voice, enough for the court to hear.\n\nAghast faces line the court, but Rhaenyra is not one of them. She looks at me, and I can see the same sparkle in her eye. She #emp wants#! this!"
-### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.rhaenyra.ruler [AGOT: What comes next, I could never have expected.\n\n]
- agot_scenario_trp.1012.desc.rhaenyra.ruler:0 "What comes next, I could never have expected.\n\n"I want you." he says, a sparkle in his eye, that wry smile over his lips. "I want to wed you in the tradition of our house. Bring the dragon together as one. I've always wanted you Rhaenyra, and I know you've always wanted me. End the farce. Let it be known."\n\nAghast faces line the court, but I cannot help but smile. I #emp want#! this too!"
-### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.divorce [AGOT: What comes next should have been expected.\n\n]
- agot_scenario_trp.1012.desc.divorce:0 "What comes next should have been expected.\n\n"I wish to be rid of my loathsome wife." he says, to the gasp of the court. "I want to be free of the Bronze Bitch; to marry someone more worthy of my station. I have proven myself a worthy ruler, and I think the realm would agree that I deserve such a reward."\n\nSuch a boon is simultaneously trivial, yet completely scandalous!"
-### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.hand [AGOT: What comes next should have been expected.\n\n]
- agot_scenario_trp.1012.desc.hand:0 "What comes next should have been expected.\n\n"I wish to be named Hand of the King!" he says, to the gasp of the court. "I want to be your right hand, your most trusted advisor, as I always should have been. I have proven myself a worthy ruler, and there is none better to be your Hand."\n\nWhile certainly a political statement, I cannot deny that he has proven himself a worthy ruler."
+
+ agot_scenario_trp.1012.desc.rhaenyra:0 "Sıradakini asla beklemezdim.\n\n"I want Rhaenyra." he says, a sparkle in his eye as he looks past me to her. "I want to wed her in the tradition of our house. Bring the dragon together as one." He raises his voice, enough for the court to hear.\n\nAghast faces line the court, but Rhaenyra is not one of them. She looks at me, and I can see the same sparkle in her eye. She #emp wants#! this!"
+
+ agot_scenario_trp.1012.desc.rhaenyra.ruler:0 "Sıradakini asla beklemezdim.\n\n"I want you." he says, a sparkle in his eye, that wry smile over his lips. "I want to wed you in the tradition of our house. Bring the dragon together as one. I've always wanted you Rhaenyra, and I know you've always wanted me. End the farce. Let it be known."\n\nAghast faces line the court, but I cannot help but smile. I #emp want#! this too!"
+
+ agot_scenario_trp.1012.desc.divorce:0 "Sıradaki beklenmeliydi.\n\n"I wish to be rid of my loathsome wife." he says, to the gasp of the court. "I want to be free of the Bronze Bitch; to marry someone more worthy of my station. I have proven myself a worthy ruler, and I think the realm would agree that I deserve such a reward."\n\nSuch a boon is simultaneously trivial, yet completely scandalous!"
+
+ agot_scenario_trp.1012.desc.hand:0 "Sıradaki beklenmeliydi.\n\n"I wish to be named Hand of the King!" he says, to the gasp of the court. "I want to be your right hand, your most trusted advisor, as I always should have been. I have proven myself a worthy ruler, and there is none better to be your Hand."\n\nWhile certainly a political statement, I cannot deny that he has proven himself a worthy ruler."
 ### TODO NOT-IN-ST: agot_scenario_trp.1012.desc.gold [AGOT: What comes next should have been expected from a man such as him.\n\n]
  agot_scenario_trp.1012.desc.gold:0 "What comes next should have been expected from a man such as him.\n\n"Well your Grace... gold is always welcome. And a festival in my honor would be most appreciated. I have proven myself a worthy ruler, and I think the realm would agree that I deserve such a reward." he says with a wry smile.\n\nSuch a boon is trivial compared to the territory gained!"
 ### TODO NOT-IN-ST: agot_scenario_trp.1012.a [AGOT: And so it shall be!]
@@ -617,8 +617,8 @@
  agot_scenario_trp.1030.desc.uncle:0 "Though my uncle's death will weigh heavy on my heart, I know that I have done what was necessary."
 ### TODO NOT-IN-ST: agot_scenario_trp.1030.desc.niece [AGOT: Though my niece's death will weigh heavy on my heart, I know that I have done what was necessary.]
  agot_scenario_trp.1030.desc.niece:0 "Though my niece's death will weigh heavy on my heart, I know that I have done what was necessary."
-### TODO NOT-IN-ST: agot_scenario_trp.1030.a [AGOT: The realm is mine, as it should be.]
- agot_scenario_trp.1030.a:0 "The realm is mine, as it should be."
+
+ agot_scenario_trp.1030.a:0 "Diyar benim, olması gerektiği gibi."
 ### TODO NOT-IN-ST: agot_scenario_trp.1030.a.tt [AGOT: [dragonstone_claimant.GetTitledFirstName] remains however, and may still challenge your rule.]
  agot_scenario_trp.1030.a.tt:0 "[dragonstone_claimant.GetTitledFirstName] remains however, and may still challenge your rule."
 ### TODO NOT-IN-ST: agot_scenario_trp.1031.t [AGOT: The Rogue Prince's End]
@@ -667,8 +667,8 @@
  agot_scenario_trp.1034.t:0 "The Prince is Greater"
 ### TODO NOT-IN-ST: agot_scenario_trp.1034.desc [AGOT: To my surprise, [sitting_ruler.GetTitledFirstName] quickly stands and, rather than drawing [sitting_ruler.GetHerHis] blade, kneels before me, offering the crown from [sitting_ruler.GetHerHis] head.]
  agot_scenario_trp.1034.desc:0 "To my surprise, [sitting_ruler.GetTitledFirstName] quickly stands and, rather than drawing [sitting_ruler.GetHerHis] blade, kneels before me, offering the crown from [sitting_ruler.GetHerHis] head. "If this is the path you walk Daemon, then I cannot stop you...but now those who called you a second Maegor will be proven right." [sitting_ruler.GetSheHe] says, eyes downcast.\n\nI take the crown, and place it on my head. With a wave of my hand I have [sitting_ruler.GetTitledFirstNameNoTooltip] taken away in chains, and walk up to claim that seat which should always have been mine."
-### TODO NOT-IN-ST: agot_scenario_trp.1034.a [AGOT: The realm is mine, as it should be.]
- agot_scenario_trp.1034.a:0 "The realm is mine, as it should be."
+
+ agot_scenario_trp.1034.a:0 "Diyar benim, olması gerektiği gibi."
 ### TODO NOT-IN-ST: agot_scenario_trp.1034.a.dragonstone [AGOT: Now, to deal with Dragonstone...]
  agot_scenario_trp.1034.a.dragonstone:0 "Now, to deal with Dragonstone..."
 ### TODO NOT-IN-ST: agot_scenario_trp.1035.t [AGOT: A Prince Scorned]

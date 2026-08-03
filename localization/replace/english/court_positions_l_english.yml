@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO AGOT-CHANGED: APPOINT_COURT_POSITION_VIEW_replace_character_header [AGOT: Replace [AGOTGetUINameNoTooltip(AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee)|V] as [AppointCourtPositionView.GetCourtPositionType.GetName] | TR: [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] yerine yeni bir [AppointCourtPositionView.GetPositionName] bul]
  APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Replace [AGOTGetUINameNoTooltip(AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee)|V] as [AppointCourtPositionView.GetCourtPositionType.GetName]"
  APPOINT_COURT_POSITION_VIEW_select_character_header: "[AppointCourtPositionView.GetPositionName] Ata"
@@ -368,8 +368,8 @@
  master_of_horse_oversee_breeding_desc: "Bu karakter, kraliyet ahırlarında at yetiştirilmesini denetlemekle görevlendirilmiştir."
  master_of_horse_mightiest_warhorse: "Savaş Atı Bakımı"
  master_of_horse_mightiest_warhorse_desc: "Sadece en iyi atlar savaşçı bir hükümdara layık olabilir."
-### TODO AGOT-CHANGED: court_jester_court_position [AGOT: Fool | TR: Saray Soytarısı]
- court_jester_court_position:0 "Fool"
+
+ court_jester_court_position:0 "Soytarı"
  court_jester_employer_custom_effect_description:1 "$BULLET$#V $jester_entertainment_decision$#! [Concept('decision', 'Kararını')|E] açar"
 ### TODO AGOT-CHANGED: court_jester_court_position_desc [AGOT: A $court_jester_court_position$ is there to entertain both their Liege and any guests visiting the court. While a clever turn of phrase can be appreciated from time to time a nasty fall always wins laughter. | TR: $court_jester_court_position$, Süzerenini ve saraydaki misafirleri eğlendirir. Zekice kelime oyunları kimi zaman takdir edilse de, kötü bir düşüş her zaman kahkaha atılmasını sağlar.]
  court_jester_court_position_desc:1 "A $court_jester_court_position$ is there to entertain both their Liege and any guests visiting the court. While a clever turn of phrase can be appreciated from time to time a nasty fall always wins laughter."
@@ -410,8 +410,8 @@
  court_tutor_teach_kids_notification_desc: "Karakterinizin [court_owner.Custom2('RelationToMeShort', SCOPE.sC('child') )] [Select_CString( court_tutor_scope.IsLocalPlayer, 'sizin', court_tutor_scope.GetShortUIName )][Select_CString( court_tutor_scope.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] eğitildi"
  court_tutor_teach_kids_notification_desc_you: "[court_tutor_scope.GetShortUIName] tarafından eğitildiniz"
  court_tutor_teach_kids_tt: "[Concept('court', 'Saraydaki')|E] [Concept('children', 'Çocukların')|E] her yıl [diplomacy_i][stewardship_i][learning_i][martial_i][Concept('skills', 'Becerilerinden')|E] birinin #p +1#! veya #p +2#! artma ihtimali vardır"
-### TODO AGOT-CHANGED: royal_architect_court_position [AGOT: Architect | TR: Saray Mimarı]
- royal_architect_court_position:0 "Architect"
+
+ royal_architect_court_position:0 "Mimar"
  royal_architect_court_position_desc:1 "$royal_architect_court_position$, ülke genelindeki ihtişamlı inşaat projelerini denetler; döşenen her tuğlayı ve harcanan her saniyeyi kontrol eder."
  royal_architect_fortify_lands: "Toprakları İstihkam Et"
  royal_architect_fortify_lands_desc: "Bu karakter süzereninin topraklarının ve halkının emniyetini sağlamakla görevlendirilmiştir."
@@ -426,8 +426,8 @@
  courtier_inspired_effect: "[Concept('courtier', 'Saray Mensubunuz')|E] [inspired_courtier.GetFirstName] bir @inspiration_icon![inspiration|E] kazandı"
  court_poet_skald: "Skald"
  court_poet_skald_desc: "$court_poet_skald$, kelime ve kafiyelerde ustadır, süzerenine ve saraydaki herkese eğlence, zihinsel canlılık ve duygusal deneyimler sunar."
-### TODO AGOT-CHANGED: bodyguard_court_position [AGOT: Sworn Shield | TR: Koruma]
- bodyguard_court_position:0 "Sworn Shield"
+
+ bodyguard_court_position:0 "Yeminli Kalkan"
  bodyguard_court_position_nomadic: "Keşik"
  bodyguard_employer_custom_effect_description:3 "$BULLET$Suikast içeren [GetScheme('murder').GetTypeName] [Concept( 'schemes', 'Planlarına' )|E] mani olabilir#!\n#indent_newline:3 $BULLET$İkinizin de bulunduğu [Concept( 'battles', 'Muharebelerde' )|E] ölme veya yakalanma riskinizi azaltır#!#!"
  stooge_employer_custom_effect_description: "$BULLET$Olaylarda özel seçenekler açar\n#indent_newline:3 $BULLET$$humiliate_the_stooge_decision$ [Concept( 'decision', 'Kararını' )|E] açar#!#!"
@@ -447,8 +447,8 @@
  champion_improve_self: "Becerileri Geliştirme"
  champion_improve_self_desc: "Bu karakter kişisel şampiyon olarak becerilerini geliştirmekle görevlendirilmiştir."
  champion_improve_self_fallback_tt: "Bu karakter her ay [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait_level_track_xp|E] veya [prowess_i][prowess_skill|E] kazanma ihtimaline sahiptir"
-### TODO AGOT-CHANGED: court_musician_court_position [AGOT: Court Bard | TR: Saray Müzisyeni]
- court_musician_court_position:0 "Court Bard"
+
+ court_musician_court_position:0 "Saray Ozanı"
  court_musician_employer_custom_effect_description:2 "$BULLET$[GetActivityType('activity_feast').GetName] esnasında kazanılan [opinion|E] artışını yükseltir"
  court_musician_court_position_desc:1 "$court_musician_court_position$ Süzerenini ve diğer saray mensuplarını eğlendirmek için şarkılar söyler ve çalgılar çalar."
  food_taster_court_position:0 "Çeşnicibaşı"

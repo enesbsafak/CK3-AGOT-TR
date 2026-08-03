@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: AGOT_RANGER_CAMP [AGOT: [agot_ranger_camp|E]]
  AGOT_RANGER_CAMP:0 "[agot_ranger_camp|E]"
 ### TODO NOT-IN-ST: game_concept_agot_ranger_camp [AGOT: Ranger Camp]
@@ -19,8 +19,8 @@
  can_move_domicile_agot_ranger_south.tt:0 "You cannot move your $game_concept_agot_ranger_camp$ to the south of the Wall."
 ### TODO NOT-IN-ST: RANGER_PATHFINDER_CLICK_TO_HIRE [AGOT: Click to appoint a [ActiveCouncilTask.GetPositionName|E].\nThe [ActiveCouncilTask.GetPositionName|E] will find [agot_ranger_mission_plural|E]\nwhen your [agot_ranger_camp|E] is beyond the Wall]
  RANGER_PATHFINDER_CLICK_TO_HIRE:0 "Click to appoint a [ActiveCouncilTask.GetPositionName|E].\nThe [ActiveCouncilTask.GetPositionName|E] will find [agot_ranger_mission_plural|E]\nwhen your [agot_ranger_camp|E] is beyond the Wall"
-### TODO NOT-IN-ST: ranger_name [AGOT: Ranger]
- ranger_name:0 "Ranger"
+
+ ranger_name:0 "Korucu"
 ### TODO NOT-IN-ST: councillor_ranger_1 [AGOT: Scout]
  councillor_ranger_1:0 "Scout"
 ### TODO NOT-IN-ST: councillor_ranger_1_desc [AGOT: The one who charts the unknown, guiding the group through treacherous lands with an unmatched sense of direction and knowledge of the wild.]
@@ -63,8 +63,8 @@
  ranger_default_2:0 "Provisioner"
 ### TODO NOT-IN-ST: ranger_default_3 [AGOT: Warbrand]
  ranger_default_3:0 "Warbrand"
-### TODO NOT-IN-ST: ranger_default_4 [AGOT: Shadow]
- ranger_default_4:0 "Shadow"
+
+ ranger_default_4:0 "Gölge"
 ### TODO NOT-IN-ST: ranger_other_1 [AGOT: Wayfinder]
  ranger_other_1:0 "Wayfinder"
 ### TODO NOT-IN-ST: ranger_other_2 [AGOT: Forager]
@@ -75,12 +75,12 @@
  ranger_other_4:0 "Watcher"
 ### TODO NOT-IN-ST: RANGER_COUNCILWINDOW_TITLE [AGOT: Ranger Command]
  RANGER_COUNCILWINDOW_TITLE:0 "Ranger Command"
-### TODO NOT-IN-ST: first_ranger_landless_male [AGOT: First Ranger]
- first_ranger_landless_male:0 "First Ranger"
-### TODO NOT-IN-ST: first_ranger_landless_male_dead [AGOT: Commander]
- first_ranger_landless_male_dead:0 "Commander"
-### TODO NOT-IN-ST: councillor_ranger_1_flavor [AGOT: Ranger]
- councillor_ranger_1_flavor:0 "Ranger"
+
+ first_ranger_landless_male:0 "Birinci Korucu"
+
+ first_ranger_landless_male_dead:0 "Komutan"
+
+ councillor_ranger_1_flavor:0 "Korucu"
 ### TODO NOT-IN-ST: councillor_ranger_2_flavor [AGOT: $councillor_ranger_1_flavor$]
  councillor_ranger_2_flavor:0 "$councillor_ranger_1_flavor$"
 ### TODO NOT-IN-ST: councillor_ranger_3_flavor [AGOT: $councillor_ranger_1_flavor$]
@@ -97,16 +97,16 @@
  game_concept_ranger_4_desc:0 "$councillor_ranger_4_desc$"
 ### TODO NOT-IN-ST: ranger_courtier [AGOT: $councillor_ranger_1_flavor$]
  ranger_courtier:0 "$councillor_ranger_1_flavor$"
-### TODO NOT-IN-ST: ranger_courtier_plural [AGOT: Rangers]
- ranger_courtier_plural:0 "Rangers"
+
+ ranger_courtier_plural:0 "Korucular"
 ### TODO NOT-IN-ST: AGOT_LAAMP_CAMP_NAME_CUSLOC [AGOT: [Character.Custom('LaampCampName')]]
  AGOT_LAAMP_CAMP_NAME_CUSLOC:0 "[Character.Custom('LaampCampName')]"
 ### TODO NOT-IN-ST: agot_laamp_camp_name_fallback [AGOT: [Character.GetDomicile.GetName]]
  agot_laamp_camp_name_fallback:0 "[Character.GetDomicile.GetName]"
 ### TODO NOT-IN-ST: AGOT_COUNCIL_TITLE_CUSLOC [AGOT: [GetPlayer.Custom('AGOTCouncilWindowTitle')]]
  AGOT_COUNCIL_TITLE_CUSLOC:0 "[GetPlayer.Custom('AGOTCouncilWindowTitle')]"
-### TODO NOT-IN-ST: NW_COUNCILWINDOW_TITLE [AGOT: Officers]
- NW_COUNCILWINDOW_TITLE:0 "Officers"
+
+ NW_COUNCILWINDOW_TITLE:0 "Subaylar"
 ### TODO NOT-IN-ST: twice_schemed_perk_ranger_name [AGOT: Turncloak]
  twice_schemed_perk_ranger_name:0 "Turncloak"
 ### TODO NOT-IN-ST: game_concept_agot_desert_nw [AGOT: Desert the Night's Watch]
@@ -115,20 +115,20 @@
  game_concept_agot_desert_nw_desc:0 "A [decision|E] that allows the $first_ranger_landless_male$ to desert the [nw_govt|E] and become an [adventurer|E]."
 ### TODO NOT-IN-ST: first_ranger_has_to_be_beyond_the_wall [AGOT: Your [agot_ranger_camp|E] has to be beyond the Wall]
  first_ranger_has_to_be_beyond_the_wall:0 "Your [agot_ranger_camp|E] has to be beyond the Wall"
-### TODO NOT-IN-ST: game_concept_nwfr_govt [AGOT: Ranger]
- game_concept_nwfr_govt:0 "Ranger"
+
+ game_concept_nwfr_govt:0 "Korucu"
 ### TODO NOT-IN-ST: game_concept_nwfr_govt_desc [AGOT: Under the $game_concept_nwfr_govt$ [government_form|E], the $first_ranger_landless_male$ may venture beyond the Wall with a small group of Rangers. Only sworn brothers of the [GetGovernment( 'nights_watch_government' ).GetName] may become Rangers, and only the $first_ranger_landless_male$ can lead a [agot_ranger_camp|E].]
  game_concept_nwfr_govt_desc:0 "Under the $game_concept_nwfr_govt$ [government_form|E], the $first_ranger_landless_male$ may venture beyond the Wall with a small group of Rangers. Only sworn brothers of the [GetGovernment( 'nights_watch_government' ).GetName] may become Rangers, and only the $first_ranger_landless_male$ can lead a [agot_ranger_camp|E]."
 ### TODO NOT-IN-ST: game_concept_nwfr_govt_i [AGOT: @nights_watch_government!]
  game_concept_nwfr_govt_i:0 "@nights_watch_government!"
 ### TODO NOT-IN-ST: first_ranger_government_with_icon [AGOT: @nights_watch_government! $first_ranger_government$]
  first_ranger_government_with_icon:0 "@nights_watch_government! $first_ranger_government$"
-### TODO NOT-IN-ST: first_ranger_government [AGOT: Ranger]
- first_ranger_government:0 "Ranger"
-### TODO NOT-IN-ST: first_ranger_government_adjective [AGOT: Ranger]
- first_ranger_government_adjective:0 "Ranger"
-### TODO NOT-IN-ST: first_ranger_government_realm [AGOT: Ranger]
- first_ranger_government_realm:0 "Ranger"
+
+ first_ranger_government:0 "Korucu"
+
+ first_ranger_government_adjective:0 "Korucu"
+
+ first_ranger_government_realm:0 "Korucu"
 ### TODO NOT-IN-ST: first_ranger_government_filter_option [AGOT: $game_concept_nwfr_govt$]
  first_ranger_government_filter_option:0 "$game_concept_nwfr_govt$"
 ### TODO NOT-IN-ST: first_ranger_government_filter_option_desc [AGOT: Only show characters with $game_concept_nwfr_govt$ [government|E]]
@@ -531,8 +531,8 @@
  agot_nw_ranger_events.0016.a:0 "I hope you are ready."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0016.a.tt [AGOT: [ranger_candidate.GetTitledFirstName] joins your Ranger Camp]
  agot_nw_ranger_events.0016.a.tt:0 "[ranger_candidate.GetTitledFirstName] joins your Ranger Camp"
-### TODO NOT-IN-ST: agot_nw_ranger_events.0017.t [AGOT: A New Day]
- agot_nw_ranger_events.0017.t:0 "A New Day"
+
+ agot_nw_ranger_events.0017.t:0 "Yeni Bir Gün"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0017.desc.fr [AGOT: The Wall stands as it always has, a sentinel against the unknown. I go about my duties, patrolling the grounds and keeping the men in line. In the distance, I see the Lord Commander overseeing the day's work, his voice cutting through the icy air. His every decision carries the weight of the Watch and the lives sworn to it.\n\nA part of me wonders what it would feel like to bear such responsibility.]
  agot_nw_ranger_events.0017.desc.fr:0 "The Wall stands as it always has, a sentinel against the unknown. I go about my duties, patrolling the grounds and keeping the men in line. In the distance, I see the Lord Commander overseeing the day's work, his voice cutting through the icy air. His every decision carries the weight of the Watch and the lives sworn to it.\n\nA part of me wonders what it would feel like to bear such responsibility."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0017.desc.lc [AGOT: The Wall looms, unyielding against the horizon, as I go about my tasks as Lord Commander. Among the men, I spot the First Ranger. He carries himself with the quiet strength of someone who knows the dangers beyond the Wall.\n\nWatching him, I wonder what it would be like to step into his boots, to face the wilds and the unknown directly.]
@@ -545,16 +545,16 @@
  agot_nw_ranger_events.0017.c:0 "I am busy now."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0017.c.tt [AGOT: You will not be asked again until there is a new Lord Commander.]
  agot_nw_ranger_events.0017.c.tt:0 "You will not be asked again until there is a new Lord Commander."
-### TODO NOT-IN-ST: agot_nw_ranger_events.0018.t [AGOT: A New Day]
- agot_nw_ranger_events.0018.t:0 "A New Day"
+
+ agot_nw_ranger_events.0018.t:0 "Yeni Bir Gün"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0018.desc.lc [AGOT: As Lord Commander, the weight of leadership rests on my shoulders. The brothers look to me for guidance, and every decision will shape the future of the Watch. The cold air carries with it the unspoken burdens of command, but duty calls — and the Wall must endure.]
  agot_nw_ranger_events.0018.desc.lc:0 "As Lord Commander, the weight of leadership rests on my shoulders. The brothers look to me for guidance, and every decision will shape the future of the Watch. The cold air carries with it the unspoken burdens of command, but duty calls — and the Wall must endure."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0018.desc.fr [AGOT: Beyond the Wall lies the unknown, and it is my task to ensure we are ready to face it. Every track in the snow, every whisper in the wind — it is my duty to listen and act. The Wall endures, and so must I.]
  agot_nw_ranger_events.0018.desc.fr:0 "Beyond the Wall lies the unknown, and it is my task to ensure we are ready to face it. Every track in the snow, every whisper in the wind — it is my duty to listen and act. The Wall endures, and so must I."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0018.a [AGOT: There is work to be done.]
  agot_nw_ranger_events.0018.a:0 "There is work to be done."
-### TODO NOT-IN-ST: agot_nw_ranger_events.0019.t [AGOT: The Fall of the Night's Watch]
- agot_nw_ranger_events.0019.t:0 "The Fall of the Night's Watch"
+
+ agot_nw_ranger_events.0019.t:0 "Gece Nöbetçileri'nin Çöküşü"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0019.desc [AGOT: The Wall still stands, but it is no longer ours. The banners of the Watch have been torn down, its strongholds claimed by another. Those who once called themselves my brothers now kneel or lie dead in the snow. The oaths we swore mean nothing to those who now rule here.\n\nI am no longer First Ranger. My duty has been stripped from me, and the path ahead is uncertain.]
  agot_nw_ranger_events.0019.desc:0 "The Wall still stands, but it is no longer ours. The banners of the Watch have been torn down, its strongholds claimed by another. Those who once called themselves my brothers now kneel or lie dead in the snow. The oaths we swore mean nothing to those who now rule here.\n\nI am no longer First Ranger. My duty has been stripped from me, and the path ahead is uncertain."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0019.desc.republic [AGOT: The Wall still stands, but the Watch I once knew is gone. The oaths, the traditions, the purpose we swore to uphold—it has all been cast aside. A new order rules here now, one that no longer follows the old ways. The Night's Watch has become something else, something I no longer recognize.\n\nI am no longer First Ranger, not in any way that matters. My place here is lost, and the choice before me is clear.]
@@ -721,8 +721,8 @@
  agot_nw_ranger_events.0023.desc.fail_e:0 "\n\nThe camp, though promising, held no treasure. [my_ranger.GetTitledFirstNameNoTooltip] returns empty-handed, the cold wind having swept away any hope of finding value."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0023.a.success [AGOT: This gold will serve us well.]
  agot_nw_ranger_events.0023.a.success:0 "This gold will serve us well."
-### TODO NOT-IN-ST: agot_nw_ranger_events.0023.a.failure [AGOT: A fruitless search.]
- agot_nw_ranger_events.0023.a.failure:0 "A fruitless search."
+
+ agot_nw_ranger_events.0023.a.failure:0 "Sonuçsuz bir arama."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0024.t.success [AGOT: Tracker: Bounty from the Wilds]
  agot_nw_ranger_events.0024.t.success:0 "Tracker: Bounty from the Wilds"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0024.t.failed [AGOT: Tracker: The Hunt Comes Up Empty]
@@ -1039,8 +1039,8 @@
  agot_nw_ranger_events.0107.desc:0 "Word spreads from the far North that the Night's Watch stands once more. After a bitter struggle, the wildlings who broke the order have been driven back, and black cloaks again man the castles along the Wall.\n\n[the_new_lc.GetFirstName], a new Lord Commander, has been chosen from among those who survived the fall, and the old vows are said to be spoken again. Whether the Watch will endure as it once did remains to be seen, but for now its fire has not gone out."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0107.a [AGOT: So the Wall has watchers again.]
  agot_nw_ranger_events.0107.a:0 "So the Wall has watchers again."
-### TODO NOT-IN-ST: agot_nw_ranger_events.0108.t [AGOT: The Fall of the Night's Watch]
- agot_nw_ranger_events.0108.t:0 "The Fall of the Night's Watch"
+
+ agot_nw_ranger_events.0108.t:0 "Gece Nöbetçileri'nin Çöküşü"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0108.desc [AGOT: Unsettling reports drift south from the far North. The Night's Watch has been shattered, its brothers slain or scattered, its strongholds left silent. Wildlings are said to roam freely where black cloaks once stood.\n\nWith no Watch to stand the line, the far North has been left to its own fate.]
  agot_nw_ranger_events.0108.desc:0 "Unsettling reports drift south from the far North. The Night's Watch has been shattered, its brothers slain or scattered, its strongholds left silent. Wildlings are said to roam freely where black cloaks once stood.\n\nWith no Watch to stand the line, the far North has been left to its own fate."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.0108.a [AGOT: This is not good.]
@@ -1083,8 +1083,8 @@
  agot_nw_ranger_events.1101.a:0 "Let's head out and hunt."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1101.b [AGOT: Move the camp closer to the hunting grounds.]
  agot_nw_ranger_events.1101.b:0 "Move the camp closer to the hunting grounds."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1101.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1101.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1101.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1102.t [AGOT: The Beast and the Stranger]
  agot_nw_ranger_events.1102.t:0 "The Beast and the Stranger"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1102.desc.intro_a [AGOT: I find myself separated from the others. The sound of their pursuit fades into the distance as the forest around me grows still.]
@@ -1229,8 +1229,8 @@
  agot_nw_ranger_events.1201.a:0 "Let's head out and ambush [main_figure.GetHerHim]."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1201.b [AGOT: Move the camp closer to the ambush site.]
  agot_nw_ranger_events.1201.b:0 "Move the camp closer to the ambush site."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1201.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1201.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1201.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1202.t [AGOT: The Trap Is Set]
  agot_nw_ranger_events.1202.t:0 "The Trap Is Set"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1202.desc.intro_a [AGOT: We approach the wildling camp under the cover of darkness. [main_figure.GetTitledFirstNamePossessive] tent is easy to spot, [main_figure.GetHerHis] guards few and scattered.]
@@ -1277,8 +1277,8 @@
  agot_nw_ranger_events_1202.c.tt.win:0 "My strategy works flawlessly, and we encircle the camp, capturing the chief"
 ### TODO NOT-IN-ST: agot_nw_ranger_events_1202.c.tt.lose [AGOT: The plan goes awry, and the wildlings escape before we can execute the ambush]
  agot_nw_ranger_events_1202.c.tt.lose:0 "The plan goes awry, and the wildlings escape before we can execute the ambush"
-### TODO NOT-IN-ST: agot_nw_ranger_events.1204.t [AGOT: The Chief Falls]
- agot_nw_ranger_events.1204.t:0 "The Chief Falls"
+
+ agot_nw_ranger_events.1204.t:0 "Şef Düşüyor"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1204.desc.one.a [AGOT: The moment I charged, the wildling chief's eyes widened in surprise. My blade met [main_figure.GetHerHis] as we clashed, but my strength overwhelmed [main_figure.GetHerHim]. [main_figure.GetHerHis|U] guards scattered, and with a final strike, the chief fell.]
  agot_nw_ranger_events.1204.desc.one.a:0 "The moment I charged, the wildling chief's eyes widened in surprise. My blade met [main_figure.GetHerHis] as we clashed, but my strength overwhelmed [main_figure.GetHerHim]. [main_figure.GetHerHis|U] guards scattered, and with a final strike, the chief fell."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1204.desc.one.b [AGOT: My approach was swift, and the chief barely had time to react. [main_figure.GetHerHis|U] men tried to intervene, but they were no match for my skill. With a powerful swing, I ended the wildling chief's reign.]
@@ -1343,8 +1343,8 @@
  agot_nw_ranger_events.1205.desc.three.d:0 "\n\nOur attempt to sneak in unnoticed failed when the chief's men saw through our disguises. The wildlings struck swiftly, forcing us to retreat before we could regroup."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1205.desc.three.e [AGOT: \n\nThe chief was more alert than expected. [main_figure.GetSheHe|U] recognized us immediately, and before we could make a move, [main_figure.GetHerHis] men surrounded us. We escaped, but just barely.]
  agot_nw_ranger_events.1205.desc.three.e:0 "\n\nThe chief was more alert than expected. [main_figure.GetSheHe|U] recognized us immediately, and before we could make a move, [main_figure.GetHerHis] men surrounded us. We escaped, but just barely."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1205.a [AGOT: This can not be the end.]
- agot_nw_ranger_events.1205.a:0 "This can not be the end."
+
+ agot_nw_ranger_events.1205.a:0 "Bu son olamaz."
 ### TODO NOT-IN-ST: ranger_laamp_contract_1301_contract [AGOT: Rising Threat]
  ranger_laamp_contract_1301_contract:0 "Rising Threat"
 ### TODO NOT-IN-ST: ranger_laamp_contract_1301_request [AGOT: This [agot_ranger_mission|E] requires you to fight and win against [TaskContract.GetEmployer.GetName]]
@@ -1369,10 +1369,10 @@
  agot_nw_ranger_events.1301.desc.outro:0 "\n\nWe prepare to leave, weapons in hand. The wildling chief must be stopped, and we will face whatever stands in our way."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1301.a [AGOT: Let's head out and deal with this threat.]
  agot_nw_ranger_events.1301.a:0 "Let's head out and deal with this threat."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1301.b [AGOT: Move the camp closer to the wildling chief's territory.]
- agot_nw_ranger_events.1301.b:0 "Move the camp closer to the wildling chief's territory."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1301.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1301.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1301.b:0 "Kampı yabanıl şefinin topraklarına yaklaştır."
+
+ agot_nw_ranger_events.1301.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1302.t [AGOT: Turned Tables]
  agot_nw_ranger_events.1302.t:0 "Turned Tables"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1302.desc.intro_a [AGOT: We move silently through the snow, the wildling camp just ahead. The guards seem few, and [main_figure.GetTitledFirstName] is within reach, we are ready to strike.]
@@ -1419,8 +1419,8 @@
  agot_nw_ranger_events_1302.c.tt.win:0 "The fire creates chaos, and we escape unnoticed"
 ### TODO NOT-IN-ST: agot_nw_ranger_events_1302.c.tt.lose [AGOT: The wildlings see through our trick, and the fire traps us]
  agot_nw_ranger_events_1302.c.tt.lose:0 "The wildlings see through our trick, and the fire traps us"
-### TODO NOT-IN-ST: agot_nw_ranger_events.1304.t [AGOT: The Chief Falls]
- agot_nw_ranger_events.1304.t:0 "The Chief Falls"
+
+ agot_nw_ranger_events.1304.t:0 "Şef Düşüyor"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1304.desc.one.a [AGOT: We charge into the wildlings with fury. The wildling chief tries to rally [main_figure.GetHerHis] men, but our strength is too much. With a powerful strike, I bring the chief down, and [main_figure.GetHerHis] men flee into the night.]
  agot_nw_ranger_events.1304.desc.one.a:0 "We charge into the wildlings with fury. The wildling chief tries to rally [main_figure.GetHerHis] men, but our strength is too much. With a powerful strike, I bring the chief down, and [main_figure.GetHerHis] men flee into the night."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1304.desc.one.b [AGOT: Our charge cuts through the wildlings like a knife through snow. The chief faces me, but [main_figure.GetSheHe] is no match for my skill. As [main_figure.GetSheHe] falls, [main_figure.GetHerHis] men scatter, leaving us victorious.]
@@ -1517,8 +1517,8 @@
  agot_nw_ranger_events.1401.a:0 "Let's head out to meet the chief."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1401.b [AGOT: Move the camp closer to where the chief is located.]
  agot_nw_ranger_events.1401.b:0 "Move the camp closer to where the chief is located."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1401.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1401.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1401.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1402.t [AGOT: Stories by the Fire]
  agot_nw_ranger_events.1402.t:0 "Stories by the Fire"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1402.desc.intro_a [AGOT: We sit around the fire, [main_figure.GetTitledFirstName] watching me closely as we share tales. [main_figure.GetHerHis|U] men are quiet, but I can feel their eyes on me as the chief speaks.]
@@ -1663,8 +1663,8 @@
  agot_nw_ranger_events.1501.a:0 "Let's head out and rescue the child."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1501.b [AGOT: Move the camp closer to the ravine to help.]
  agot_nw_ranger_events.1501.b:0 "Move the camp closer to the ravine to help."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1501.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1501.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1501.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1502.t [AGOT: The Fearful Rescue]
  agot_nw_ranger_events.1502.t:0 "The Fearful Rescue"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1502.desc.intro_a [AGOT: We arrive at the edge of the ravine, and there, clinging to a fragile branch, is the child. [main_figure.GetHerHis|U] wide eyes are full of fear, and it is clear [main_figure.GetSheHe] does not trust us.]
@@ -1807,10 +1807,10 @@
  agot_nw_ranger_events.1601.desc.outro:0 "\n\nWe ready ourselves for the mission. The artifact could be the key to something greater, but we will need to act swiftly and wisely if we are to succeed."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1601.a [AGOT: Let's head out and retrieve the artifact.]
  agot_nw_ranger_events.1601.a:0 "Let's head out and retrieve the artifact."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1601.b [AGOT: Move the camp closer to the wildling chief's territory.]
- agot_nw_ranger_events.1601.b:0 "Move the camp closer to the wildling chief's territory."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1601.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1601.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1601.b:0 "Kampı yabanıl şefinin topraklarına yaklaştır."
+
+ agot_nw_ranger_events.1601.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1602.t [AGOT: Closing In on the Relic]
  agot_nw_ranger_events.1602.t:0 "Closing In on the Relic"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1602.desc.intro_a [AGOT: We arrive at the outskirts of [main_figure.GetTitledFirstNamePossessive] camp, the relic hidden somewhere inside. The chief's men stand guard, and the camp is alert. We need to move carefully.]
@@ -1933,8 +1933,8 @@
  ranger_laamp_contract_1701_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
 ### TODO NOT-IN-ST: ranger_laamp_contract_1701_desc [AGOT: The wildling chief has sent a curious message, [TaskContract.GetEmployer.GetSheHe] wants to meet with you, saying [TaskContract.GetEmployer.GetSheHe] intends to 'set the crow free.'\n\nWhat [TaskContract.GetEmployer.GetSheHe] means is a mystery, and there is no telling what [TaskContract.GetEmployer.GetHerHis] true motives are. It could be a trap, or something far more unexpected. We need to tread carefully and find out what [TaskContract.GetEmployer.GetSheHe] really wants.]
  ranger_laamp_contract_1701_desc:0 "The wildling chief has sent a curious message, [TaskContract.GetEmployer.GetSheHe] wants to meet with you, saying [TaskContract.GetEmployer.GetSheHe] intends to 'set the crow free.'\n\nWhat [TaskContract.GetEmployer.GetSheHe] means is a mystery, and there is no telling what [TaskContract.GetEmployer.GetHerHis] true motives are. It could be a trap, or something far more unexpected. We need to tread carefully and find out what [TaskContract.GetEmployer.GetSheHe] really wants."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1701.t [AGOT: Into the Unknown]
- agot_nw_ranger_events.1701.t:0 "Into the Unknown"
+
+ agot_nw_ranger_events.1701.t:0 "Bilinmeze Doğru"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1701.desc.intro_a [AGOT: [main_figure.GetTitledFirstNamePossessive] message is as cryptic as it is unsettling. #italic 'Set the crow free.'#! The words echo in my mind as we prepare for the journey. Whatever [main_figure.GetSheHe] means, we must be ready for anything.]
  agot_nw_ranger_events.1701.desc.intro_a:0 "[main_figure.GetTitledFirstNamePossessive] message is as cryptic as it is unsettling. #italic 'Set the crow free.'#! The words echo in my mind as we prepare for the journey. Whatever [main_figure.GetSheHe] means, we must be ready for anything."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1701.desc.intro_b [AGOT: I cannot shake the feeling that there is more to [main_figure.GetTitledFirstNamePossessive] message than meets the eye. #italic 'Set the crow free.'#! What does [main_figure.GetSheHe] truly want? The uncertainty gnaws at me as we make our preparations.]
@@ -1951,8 +1951,8 @@
  agot_nw_ranger_events.1701.a:0 "Let's go and meet the chief."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1701.b [AGOT: Move the camp closer to the meeting point.]
  agot_nw_ranger_events.1701.b:0 "Move the camp closer to the meeting point."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1701.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1701.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1701.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1702.t [AGOT: The Chief's Offer]
  agot_nw_ranger_events.1702.t:0 "The Chief's Offer"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1702.desc.intro_a [AGOT: We arrive at the wildling camp, greeted by the chief. [main_figure.GetHerHis|U] expression is calm, but there is a hint of something more in [main_figure.GetHerHis] eyes. It is clear [main_figure.GetSheHe] has planned this moment carefully.]
@@ -2045,8 +2045,8 @@
  agot_nw_ranger_events.1801.a:0 "Let's set out and investigate the camp."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1801.b [AGOT: Move the whole ranger camp closer to ensure we are ready.]
  agot_nw_ranger_events.1801.b:0 "Move the whole ranger camp closer to ensure we are ready."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1801.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1801.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1801.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1802.t [AGOT: Captured in the Wild]
  agot_nw_ranger_events.1802.t:0 "Captured in the Wild"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1802.desc.intro_a [AGOT: We arrive at the abandoned camp and begin our investigation. The rangers spread out, searching for signs of what happened here. I move further from the group, and before long, I find myself separated from the others.]
@@ -2191,8 +2191,8 @@
  agot_nw_ranger_events.1901.a:0 "Let's go. We will catch [main_figure.GetHerHim]."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1901.b [AGOT: Move the camp closer, we may need more support.]
  agot_nw_ranger_events.1901.b:0 "Move the camp closer, we may need more support."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1901.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.1901.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.1901.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1902.t [AGOT: The Deserter Found]
  agot_nw_ranger_events.1902.t:0 "The Deserter Found"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1902.desc.intro_a [AGOT: We have arrived at the edge of the forest, and it does not take long to spot [main_figure.GetTitledFirstName], the deserter. [main_figure.GetSheHe|U] is moving quickly, but [main_figure.GetSheHe] does not know we are here yet. This is our chance.]
@@ -2305,8 +2305,8 @@
  agot_nw_ranger_events.1905.desc.three.d:0 "The plan is sound, but the deserter is quicker than I anticipated. [main_figure.GetSheHe|U] finds a gap in our formation and sprints into the wilderness. The hunt ends here, with [main_figure.GetHerHim] slipping through our fingers."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.1905.desc.three.e [AGOT: We move in, but the deserter is faster than expected. [main_figure.GetSheHe|U] takes advantage of a mistake in our positioning and escapes into the woods, leaving us to stare after [main_figure.GetHerHim] in frustration.]
  agot_nw_ranger_events.1905.desc.three.e:0 "We move in, but the deserter is faster than expected. [main_figure.GetSheHe|U] takes advantage of a mistake in our positioning and escapes into the woods, leaving us to stare after [main_figure.GetHerHim] in frustration."
-### TODO NOT-IN-ST: agot_nw_ranger_events.1905.a [AGOT: No!]
- agot_nw_ranger_events.1905.a:0 "No!"
+
+ agot_nw_ranger_events.1905.a:0 "Hayır!"
 ### TODO NOT-IN-ST: ranger_laamp_contract_2001_contract [AGOT: Chased by Wildlings]
  ranger_laamp_contract_2001_contract:0 "Chased by Wildlings"
 ### TODO NOT-IN-ST: ranger_laamp_contract_2001_request [AGOT: This [agot_ranger_mission|E] requires you to save a blackbrother from [TaskContract.GetEmployer.GetNamePossessive] wrath]
@@ -2329,12 +2329,12 @@
  agot_nw_ranger_events.2001.desc.intro_e:0 "The wildlings are on the hunt, and one of our own is their prey. If we do not act quickly, the blackbrother will not stand a chance. The camp stirs as we gather what we need for the mission."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2001.desc.outro [AGOT: \n\nThe wildling chief is closing in, and the longer we wait, the worse our chances get. We must act now, before it is too late.]
  agot_nw_ranger_events.2001.desc.outro:0 "\n\nThe wildling chief is closing in, and the longer we wait, the worse our chances get. We must act now, before it is too late."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2001.a [AGOT: There is no time to waste.]
- agot_nw_ranger_events.2001.a:0 "There is no time to waste."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2001.b [AGOT: Move the camp closer.]
- agot_nw_ranger_events.2001.b:0 "Move the camp closer."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2001.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.2001.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.2001.a:0 "Kaybedecek zaman yok."
+
+ agot_nw_ranger_events.2001.b:0 "Kampı yaklaştır."
+
+ agot_nw_ranger_events.2001.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2002.t [AGOT: The Chase Tightens]
  agot_nw_ranger_events.2002.t:0 "The Chase Tightens"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2002.desc.intro_a [AGOT: We reach the edge of the clearing, and there [rescued_bb.GetSheHe] is, our blackbrother, desperately fleeing with the wildling chief hot on [main_figure.GetHerHis] heels. There is barely any time to act, but we have made it just in time.]
@@ -2463,8 +2463,8 @@
  ranger_laamp_contract_2101_reward_win:0 "You may win a random reward, including [gold_i|E][gold|E], [prestige_i|E][prestige|E] or [piety_i|E][piety|E]"
 ### TODO NOT-IN-ST: ranger_laamp_contract_2101_reward_lose [AGOT: You may suffer minor penalties, such as losing [prestige_i|E][prestige|E] or [piety_i|E][piety|E]]
  ranger_laamp_contract_2101_reward_lose:0 "You may suffer minor penalties, such as losing [prestige_i|E][prestige|E] or [piety_i|E][piety|E]"
-### TODO NOT-IN-ST: agot_nw_ranger_events.2101.t [AGOT: Into the Unknown]
- agot_nw_ranger_events.2101.t:0 "Into the Unknown"
+
+ agot_nw_ranger_events.2101.t:0 "Bilinmeze Doğru"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2101.desc.intro_a [AGOT: We ready ourselves to follow the trail my scout has found. The air is cold and sharp, carrying the weight of something unknown. Whatever we find out there could be valuable, or dangerous. The tracks are waiting.]
  agot_nw_ranger_events.2101.desc.intro_a:0 "We ready ourselves to follow the trail my scout has found. The air is cold and sharp, carrying the weight of something unknown. Whatever we find out there could be valuable, or dangerous. The tracks are waiting."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2101.desc.intro_b [AGOT: The men are prepared to move, eyes scanning the icy landscape. [my_ranger.GetTitledFirstName] report lingers in my mind, signs of something unusual across the area. It is time to see for ourselves.]
@@ -2477,12 +2477,12 @@
  agot_nw_ranger_events.2101.desc.intro_e:0 "With the sun barely cresting the Wall, we prepare to set out. [my_ranger.GetTitledFirstNamePossessive] discovery waits beyond, calling us toward the cave, woods, or hills. The trail might reveal something unexpected, or something best left hidden."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2101.desc.outro [AGOT: \n\nThe signs left in the snow will not last long. We need to act quickly before the wild erases every trace. It is time to move out and find what lies ahead.]
  agot_nw_ranger_events.2101.desc.outro:0 "\n\nThe signs left in the snow will not last long. We need to act quickly before the wild erases every trace. It is time to move out and find what lies ahead."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2101.a [AGOT: There is no time to waste.]
- agot_nw_ranger_events.2101.a:0 "There is no time to waste."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2101.b [AGOT: Move the camp closer.]
- agot_nw_ranger_events.2101.b:0 "Move the camp closer."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2101.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.2101.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.2101.a:0 "Kaybedecek zaman yok."
+
+ agot_nw_ranger_events.2101.b:0 "Kampı yaklaştır."
+
+ agot_nw_ranger_events.2101.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2102.t [AGOT: Before the Sun Sets]
  agot_nw_ranger_events.2102.t:0 "Before the Sun Sets"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2102.desc.intro_a [AGOT: We have made it to the site just as the sun starts its descent. The air grows colder, shadows stretching across the ground. Time is short, and we will need to make a choice, there is only enough light left to search one area thoroughly.]
@@ -2551,8 +2551,8 @@
  agot_nw_ranger_events_2103.b.tt.lose.cave:0 "The object is a trap,it breaks upon closer inspection."
 ### TODO NOT-IN-ST: agot_nw_ranger_events_2103.c.tt.win.cave [AGOT: I spot fresh tracks.]
  agot_nw_ranger_events_2103.c.tt.win.cave:0 "I spot fresh tracks."
-### TODO NOT-IN-ST: agot_nw_ranger_events_2103.c.tt.lose.cave [AGOT: The tracks lead nowhere.]
- agot_nw_ranger_events_2103.c.tt.lose.cave:0 "The tracks lead nowhere."
+
+ agot_nw_ranger_events_2103.c.tt.lose.cave:0 "İzler hiçbir yere çıkmıyor."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2103.t.woods [AGOT: The Whispering Woods]
  agot_nw_ranger_events.2103.t.woods:0 "The Whispering Woods"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2103.desc.intro_a.woods [AGOT: The trees close in around us, their branches hanging heavy with frost. The woods are silent, almost too still.]
@@ -2597,8 +2597,8 @@
  agot_nw_ranger_events_2103.a.tt.lose.woods:0 "The object breaks, offering nothing."
 ### TODO NOT-IN-ST: agot_nw_ranger_events_2103.b.tt.win.woods [AGOT: I find fresh tracks leading deeper.]
  agot_nw_ranger_events_2103.b.tt.win.woods:0 "I find fresh tracks leading deeper."
-### TODO NOT-IN-ST: agot_nw_ranger_events_2103.b.tt.lose.woods [AGOT: The tracks lead nowhere.]
- agot_nw_ranger_events_2103.b.tt.lose.woods:0 "The tracks lead nowhere."
+
+ agot_nw_ranger_events_2103.b.tt.lose.woods:0 "İzler hiçbir yere çıkmıyor."
 ### TODO NOT-IN-ST: agot_nw_ranger_events_2103.c.tt.win.woods [AGOT: I uncover a hidden cache.]
  agot_nw_ranger_events_2103.c.tt.win.woods:0 "I uncover a hidden cache."
 ### TODO NOT-IN-ST: agot_nw_ranger_events_2103.c.tt.lose.woods [AGOT: There is nothing but shadows here.]
@@ -2681,8 +2681,8 @@
  agot_nw_ranger_events.2105.desc.d:0 "After combing through every inch, we leave with empty hands and lingering doubts about what we missed."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2105.desc.e [AGOT: Our investigation turns up nothing of worth, just lost time and a growing sense of futility.]
  agot_nw_ranger_events.2105.desc.e:0 "Our investigation turns up nothing of worth, just lost time and a growing sense of futility."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2105.a [AGOT: A fruitless search.]
- agot_nw_ranger_events.2105.a:0 "A fruitless search."
+
+ agot_nw_ranger_events.2105.a:0 "Sonuçsuz bir arama."
 ### TODO NOT-IN-ST: ranger_laamp_contract_2201_contract [AGOT: Assess the Wildling Chief]
  ranger_laamp_contract_2201_contract:0 "Assess the Wildling Chief"
 ### TODO NOT-IN-ST: ranger_laamp_contract_2201_request [AGOT: This [agot_ranger_mission|E] requires you to visit [TaskContract.GetEmployer.GetName] to assess [TaskContract.GetEmployer.GetHerHim]]
@@ -2691,8 +2691,8 @@
  ranger_laamp_contract_2201_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
 ### TODO NOT-IN-ST: ranger_laamp_contract_2201_desc [AGOT: The Lord Commander has ordered us to investigate [TaskContract.GetEmployer.GetName] who has been making waves beyond the Wall. [TaskContract.GetEmployer.GetHerHis] people grow in number, and rumors speak of [TaskContract.GetEmployer.GetHerHis] unpredictable nature. Some say [TaskContract.GetEmployer.GetSheHe] is a danger to us, others claim [TaskContract.GetEmployer.GetSheHe] is merely another warband struggling to survive. I have located [TaskContract.GetEmployer.GetHerHis] camp. If we move quickly, we can assess the threat before it grows too large to handle.]
  ranger_laamp_contract_2201_desc:0 "The Lord Commander has ordered us to investigate [TaskContract.GetEmployer.GetName] who has been making waves beyond the Wall. [TaskContract.GetEmployer.GetHerHis] people grow in number, and rumors speak of [TaskContract.GetEmployer.GetHerHis] unpredictable nature. Some say [TaskContract.GetEmployer.GetSheHe] is a danger to us, others claim [TaskContract.GetEmployer.GetSheHe] is merely another warband struggling to survive. I have located [TaskContract.GetEmployer.GetHerHis] camp. If we move quickly, we can assess the threat before it grows too large to handle."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2201.t [AGOT: A Watchful Eye]
- agot_nw_ranger_events.2201.t:0 "A Watchful Eye"
+
+ agot_nw_ranger_events.2201.t:0 "Dikkatli Bir Göz"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2201.desc.intro_a [AGOT: The Lord Commander's orders are clear — [main_figure.GetTitledFirstName] must be watched closely. If [main_figure.GetSheHe] is a threat to the Wall, we must know before it is too late.]
  agot_nw_ranger_events.2201.desc.intro_a:0 "The Lord Commander's orders are clear — [main_figure.GetTitledFirstName] must be watched closely. If [main_figure.GetSheHe] is a threat to the Wall, we must know before it is too late."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2201.desc.intro_b [AGOT: Beyond the Wall, whispers spread of a chieftain growing bolder. Some claim [main_figure.GetSheHe] is rallying others, others say [main_figure.GetSheHe] is nothing more than a loud fool. We must learn the truth.]
@@ -2705,12 +2705,12 @@
  agot_nw_ranger_events.2201.desc.intro_e:0 "This is the nature of the Watch — to watch. If this wildling is trouble, the Lord Commander must know before trouble reaches our doorstep."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2201.desc.outro [AGOT: \n\nWith supplies gathered and blades sharpened, we make for the frozen expanse. Soon, we will stand before [main_figure.GetTitledFirstNamePossessive] lands and learn what kind of [Select_CString(main_figure.IsFemale,'woman','man')] [main_figure.GetSheHe] truly is.]
  agot_nw_ranger_events.2201.desc.outro:0 "\n\nWith supplies gathered and blades sharpened, we make for the frozen expanse. Soon, we will stand before [main_figure.GetTitledFirstNamePossessive] lands and learn what kind of [Select_CString(main_figure.IsFemale,'woman','man')] [main_figure.GetSheHe] truly is."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2201.a [AGOT: Let's move out.]
- agot_nw_ranger_events.2201.a:0 "Let's move out."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2201.b [AGOT: We should move the entire camp closer.]
- agot_nw_ranger_events.2201.b:0 "We should move the entire camp closer."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2201.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.2201.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.2201.a:0 "Yola çıkalım."
+
+ agot_nw_ranger_events.2201.b:0 "Tüm kampı daha yakına taşımalıyız."
+
+ agot_nw_ranger_events.2201.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2202.t [AGOT: At the Edge of Their World]
  agot_nw_ranger_events.2202.t:0 "At the Edge of Their World"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2202.desc.intro_a [AGOT: We arrive near the wildling encampment under the cover of frost and shadow. Fires flicker ahead, their warriors moving like shades beneath the trees.]
@@ -2757,8 +2757,8 @@
  agot_nw_ranger_events.2204.a:0 "The Wall will not sit idle. We march!"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2204.b [AGOT: We will wait and watch. The time is not right.]
  agot_nw_ranger_events.2204.b:0 "We will wait and watch. The time is not right."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2205.t [AGOT: A Watchful Eye]
- agot_nw_ranger_events.2205.t:0 "A Watchful Eye"
+
+ agot_nw_ranger_events.2205.t:0 "Dikkatli Bir Göz"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2205.desc [AGOT: A messenger arrives from [first_ranger.GetTitledFirstName], bearing his report on [main_figure.GetTitledFirstName]. While the [Select_CString(main_figure.IsFemale,'woman','man')] is no friend to the Watch, [main_figure.GetSheHe] does not appear to be an immediate threat. [main_figure.GetHerHis|U] people are occupied with their own survival, not gathering to strike at the Wall.\n\nFor now, there is no need for war. But is it wise to leave them unchecked?]
  agot_nw_ranger_events.2205.desc:0 "A messenger arrives from [first_ranger.GetTitledFirstName], bearing his report on [main_figure.GetTitledFirstName]. While the [Select_CString(main_figure.IsFemale,'woman','man')] is no friend to the Watch, [main_figure.GetSheHe] does not appear to be an immediate threat. [main_figure.GetHerHis|U] people are occupied with their own survival, not gathering to strike at the Wall.\n\nFor now, there is no need for war. But is it wise to leave them unchecked?"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2205.a [AGOT: Then we shall leave them be.]
@@ -2787,12 +2787,12 @@
  agot_nw_ranger_events.2301.desc.intro_e:0 "A brother of the Watch has met an end beyond the Wall, and his killer remains unknown. I will not return without answers."
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2301.desc.outro [AGOT: \n\nThere is only one way to uncover the truth — I must follow the trail and see where it leads.]
  agot_nw_ranger_events.2301.desc.outro:0 "\n\nThere is only one way to uncover the truth — I must follow the trail and see where it leads."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2301.a [AGOT: Let's move out.]
- agot_nw_ranger_events.2301.a:0 "Let's move out."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2301.b [AGOT: We should move the entire camp closer.]
- agot_nw_ranger_events.2301.b:0 "We should move the entire camp closer."
-### TODO NOT-IN-ST: agot_nw_ranger_events.2301.tt.destination [AGOT: You immediately begin traveling to [destination_1.GetBaseNameNoTier]]
- agot_nw_ranger_events.2301.tt.destination:0 "You immediately begin traveling to [destination_1.GetBaseNameNoTier]"
+
+ agot_nw_ranger_events.2301.a:0 "Yola çıkalım."
+
+ agot_nw_ranger_events.2301.b:0 "Tüm kampı daha yakına taşımalıyız."
+
+ agot_nw_ranger_events.2301.tt.destination:0 "Hemen [destination_1.GetBaseNameNoTier]'e yolculuğa başlıyorsun"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2302.t [AGOT: Cold Signs]
  agot_nw_ranger_events.2302.t:0 "Cold Signs"
 ### TODO NOT-IN-ST: agot_nw_ranger_events.2302.desc.intro_a [AGOT: We reach the place where the ranger was found. His body lies still where it fell, untouched save for the cold wind sweeping over him.]

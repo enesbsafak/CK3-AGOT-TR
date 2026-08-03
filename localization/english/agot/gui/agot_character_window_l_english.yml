@@ -1,22 +1,22 @@
-﻿l_english:
-### TODO NOT-IN-ST: bastard_surname_flowers [AGOT: Flowers]
- bastard_surname_flowers:0 " Flowers"
-### TODO NOT-IN-ST: bastard_surname_hill [AGOT: Hill]
- bastard_surname_hill:0 " Hill"
-### TODO NOT-IN-ST: bastard_surname_pyke [AGOT: Pyke]
+﻿﻿l_english:
+
+ bastard_surname_flowers:0 " Çiçekler"
+
+ bastard_surname_hill:0 " Tepe"
+
  bastard_surname_pyke:0 " Pyke"
-### TODO NOT-IN-ST: bastard_surname_rivers [AGOT: Rivers]
- bastard_surname_rivers:0 " Rivers"
-### TODO NOT-IN-ST: bastard_surname_sand [AGOT: Sand]
- bastard_surname_sand:0 " Sand"
-### TODO NOT-IN-ST: bastard_surname_snow [AGOT: Snow]
- bastard_surname_snow:0 " Snow"
-### TODO NOT-IN-ST: bastard_surname_stone [AGOT: Stone]
- bastard_surname_stone:0 " Stone"
-### TODO NOT-IN-ST: bastard_surname_storm [AGOT: Storm]
- bastard_surname_storm:0 " Storm"
-### TODO NOT-IN-ST: bastard_surname_waters [AGOT: Waters]
- bastard_surname_waters:0 " Waters"
+
+ bastard_surname_rivers:0 " Nehirler"
+
+ bastard_surname_sand:0 " Kum"
+
+ bastard_surname_snow:0 " Kar"
+
+ bastard_surname_stone:0 " Taş"
+
+ bastard_surname_storm:0 " Fırtına"
+
+ bastard_surname_waters:0 " Sular"
 ### TODO NOT-IN-ST: regular_surname [AGOT: [ROOT.Char.GetHouse.GetNameNoTooltip]]
  regular_surname:0 " [ROOT.Char.GetHouse.GetNameNoTooltip]"
 ### TODO NOT-IN-ST: SURNAME_SWITCH [AGOT: [ROOT.Char.Custom('SurnameSwitch')]]
@@ -343,14 +343,14 @@
  AGOT_SER_BIRTHPLACE_BASED_NICKNAME_COMMA:0 "Ser [Character.GetTitledFirstNameNicknamedNoTooltip] of [Character.MakeScope.Var('agot_birthplace').GetProvince.GetNameNoTooltip]#medium , #!"
 ### TODO NOT-IN-ST: AGOT_SER_BIRTHPLACE_BASED_NICKNAME_TOOLTIP [AGOT: #high Ser [Character.GetTitledFirstNameNicknamedNoTooltip] of [Character.MakeScope.Var('agot_birthplace').GetProvince.GetNameNoTooltip]#!]
  AGOT_SER_BIRTHPLACE_BASED_NICKNAME_TOOLTIP:0 "#high Ser [Character.GetTitledFirstNameNicknamedNoTooltip] of [Character.MakeScope.Var('agot_birthplace').GetProvince.GetNameNoTooltip]#!"
-### TODO NOT-IN-ST: KNIGHT_LABEL [AGOT: Knight]
- KNIGHT_LABEL:0 "Knight"
-### TODO NOT-IN-ST: SQUIRES_LABEL [AGOT: Squires]
- SQUIRES_LABEL:0 "Squires"
-### TODO NOT-IN-ST: PARAMOUR_LABEL [AGOT: Paramour]
- PARAMOUR_LABEL:0 "Paramour"
-### TODO NOT-IN-ST: BODYGUARD_LABEL [AGOT: Bodyguard]
- BODYGUARD_LABEL:0 "Bodyguard"
+
+ KNIGHT_LABEL:0 "Şövalye"
+
+ SQUIRES_LABEL:0 "Yaverler"
+
+ PARAMOUR_LABEL:0 "Metres"
+
+ BODYGUARD_LABEL:0 "Koruma"
 ### TODO NOT-IN-ST: BODYGUARD_TARGET_LABEL [AGOT: Bodyguarding]
  BODYGUARD_TARGET_LABEL:0 "Bodyguarding"
 ### TODO NOT-IN-ST: AGOT_CHARACTER_TT_NAME_AGE [AGOT: [Character.GetFirstNameNicknamedNoTooltip]#medium , [Character.GetAge]#!]
@@ -365,8 +365,8 @@
  CAPTURE_WILD_DRAGON_TT:0 "#I Try to capture this wild dragon#!"
 ### TODO NOT-IN-ST: CANNOT_CAPTURE_WILD_DRAGON_TT [AGOT: You cannot capture a dragon for another [GetVarTimeRemaining( GetPlayer.MakeScope, 'capture_cd')] days]
  CANNOT_CAPTURE_WILD_DRAGON_TT:0 "You cannot capture a dragon for another [GetVarTimeRemaining( GetPlayer.MakeScope, 'capture_cd')] days"
-### TODO NOT-IN-ST: SEND_TO_DRAGONPIT [AGOT: Send to Dragonpit]
- SEND_TO_DRAGONPIT:0 "Send to Dragonpit"
+
+ SEND_TO_DRAGONPIT:0 "Ejderha Çukuru'na Gönder"
 ### TODO NOT-IN-ST: SEND_TO_DRAGONPIT_TT [AGOT: #I Send this dragon to the dragonpit#!]
  SEND_TO_DRAGONPIT_TT:0 "#I Send this dragon to the dragonpit#!"
 ### TODO NOT-IN-ST: DRAGONPIT_DISABLED_TT [AGOT: #Warning [CharacterWindow.GetCharacter.Custom('dragonpit_disabled_tt')]#!]

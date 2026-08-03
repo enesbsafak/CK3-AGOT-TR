@@ -1,7 +1,7 @@
-﻿l_english:
+﻿﻿l_english:
  game_concept_persian_struggle: "İran Mücadelesi"
-### TODO AGOT-CHANGED: game_concept_persian_struggle_desc [AGOT: Why does this cause a database error. | TR: $game_concept_persian_struggle$ Abbasî Halifeliğinin çalkantılı çöküşünü konu alır, bu dönemde Mezopotamya isyanlar ve iktidar mücadeleleri tarafından harap edilmiş, birçok İranlı hükümdar bağımsızlığını elde etmiştir.\n\n[struggle_involved|E] [characters|E] farklı hedeflere sahip olsa da, birçoğu [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] olmak ve Halifeliğin otoritesini yeniden sağlamak veya [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] olup Halifeliğin otoritesini tamamen sona erdirmek arasında karar vermelidir.\n\n[struggle|E] iki [struggle_phase_phase|E] arasında gelgit hâlindedir: [struggle_persia_phase_unrest|E] ve [struggle_persia_phase_stabilisation|E].]
- game_concept_persian_struggle_desc: "Why does this cause a database error." 
+
+ game_concept_persian_struggle_desc:0 "Bu neden veritabanı hatasına yol açıyor." 
 game_concept_kindle_royal_fire_decision: "Kraliyet Ateşini Tutuşturma Kararı"
 game_concept_kindle_royal_fire_decision_desc: "Kraliyet ateşini tutuşturmanızı sağlayan bu [decision|E] [health|E] ve [dynasty_prestige|E] sağlar."
 game_concept_fp3_embellish_capital_decision: "$fp3_embellish_capital_decision_name$ Kararı"
@@ -26,8 +26,8 @@ game_concept_fp3_embellish_capital_decision_desc: "Yeni fethedilmiş bir [Concep
 game_concept_fp3_request_turkic_invasion_interaction: "$fp3_request_turkic_invasion_interaction$"
 game_concept_fp3_request_turkic_invasion_interaction_desc: "Türkî miraslı herhangi bir [Concept( 'ruler', 'Hükümdara' )|E] maddi destekte bulunarak onlara komşu hükümdarlarınızdan birini fethettir"
 game_concept_fp3_install_loyalist_cb: "Destekçi Yerleştir"
-### TODO AGOT-CHANGED: game_concept_fp3_install_loyalist_cb_desc [AGOT: Why does this cause a database error. | TR: Hedef [Concept( 'realm', 'Ülkede' )|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] birini başa geçirmek için [war|E] ilan et]
- game_concept_fp3_install_loyalist_cb_desc: "Why does this cause a database error."
+
+ game_concept_fp3_install_loyalist_cb_desc:0 "Bu neden veritabanı hatasına yol açıyor."
 game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
 game_concept_fp3_demand_submission_interaction_desc: "Dindarlık, hile ve gözdağı ile [character_possessive|E] sadakatini [hook|E] olarak talep et."
 game_concept_fp3_request_house_unity_change_interaction: "$fp3_request_house_unity_change_interaction$"

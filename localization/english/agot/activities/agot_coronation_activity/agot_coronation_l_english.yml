@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_is_coronated_crown_tooltip_desc [AGOT: Coronated]
  agot_is_coronated_crown_tooltip_desc:0 "Coronated"
 ### TODO NOT-IN-ST: agot_was_crowned_third_tooltip [AGOT: [officiant.GetShortUIName|U] crowned [coronation_target.GetShortUIName]]
@@ -13,10 +13,10 @@
  coronation_gold_recoup_desc:0 "You were able to recover some of your coronation expenses."
 ### TODO NOT-IN-ST: agot_in_coronation [AGOT: You cannot commission a crown while in a coronation ceremony]
  agot_in_coronation:0 "You cannot commission a crown while in a coronation ceremony"
-### TODO NOT-IN-ST: activity_agot_coronation [AGOT: Coronation]
- activity_agot_coronation:0 "Coronation"
-### TODO NOT-IN-ST: activity_agot_coronation_name [AGOT: Coronation]
- activity_agot_coronation_name:0 "Coronation"
+
+ activity_agot_coronation:0 "Taç Giyme"
+
+ activity_agot_coronation_name:0 "Taç Giyme"
 ### TODO NOT-IN-ST: invite_to_activity_flavor_coronation_seven_kingdoms [AGOT: It is with great honor and anticipation that I, [ROOT.Char.GetFirstNameNoTooltip|U], of House [ROOT.Char.GetHouse.GetName|U], [ROOT.Char.GetTitleAsNameNoTooltip|U] of the Andals, the Rhoynar, and the First Men, [ROOT.Char.GetLadyLord|U] of the Seven Kingdoms, and Protector of the Realm, extend this invitation to you. The auspicious occasion of my [GetActivityType('activity_agot_coronation').GetName|l] is set to take place in [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].]
  invite_to_activity_flavor_coronation_seven_kingdoms:1 "It is with great honor and anticipation that I, [ROOT.Char.GetFirstNameNoTooltip|U], of House [ROOT.Char.GetHouse.GetName|U], [ROOT.Char.GetTitleAsNameNoTooltip|U] of the Andals, the Rhoynar, and the First Men, [ROOT.Char.GetLadyLord|U] of the Seven Kingdoms, and Protector of the Realm, extend this invitation to you. The auspicious occasion of my [GetActivityType('activity_agot_coronation').GetName|l] is set to take place in [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]."
 ### TODO NOT-IN-ST: invite_to_activity_flavor_coronation_other [AGOT: It is with great honor and anticipation that I, [ROOT.Char.GetFirstNameNoTooltip|U], of House [ROOT.Char.GetHouse.GetName|U], [ROOT.Char.GetTitleAsNameNoTooltip|U] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], extend this invitation to you. The auspicious occasion of my [GetActivityType('activity_agot_coronation').GetName|l] is set to take place in [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName].]
@@ -103,8 +103,8 @@
  coronation_pomp_humble:0 "Humble"
 ### TODO NOT-IN-ST: coronation_pomp_humble_desc [AGOT: $EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'zealot' ).GetName] and [GetVassalStance( 'parochial' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] and [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Much more [piety|E] earned on completion, but less [legitimacy|E] and [prestige|E].\n\n#weak No fanfare, merely the placing of a crown atop your head. A coronation is a time to prove ones deference to the gods; not to inflate ones ego.#!]
  coronation_pomp_humble_desc:1 "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'zealot' ).GetName] and [GetVassalStance( 'parochial' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] and [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Much more [piety|E] earned on completion, but less [legitimacy|E] and [prestige|E].\n\n#weak No fanfare, merely the placing of a crown atop your head. A coronation is a time to prove ones deference to the gods; not to inflate ones ego.#!"
-### TODO NOT-IN-ST: coronation_pomp_appropriate [AGOT: Appropriate]
- coronation_pomp_appropriate:0 "Appropriate"
+
+ coronation_pomp_appropriate:0 "Uygun"
 ### TODO NOT-IN-ST: coronation_pomp_appropriate_desc [AGOT: $EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'parochial' ).GetName] and [GetVassalStance( 'zealot' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] and [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ [piety|E], [legitimacy|E], and [prestige|E] rewards on completion are unaffected\n\n#weak The houses of the realm, both great and small, will only view you as legitimate once a crown is placed upon your head. Only then will they bend the knee.#!]
  coronation_pomp_appropriate_desc:0 "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'parochial' ).GetName] and [GetVassalStance( 'zealot' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] and [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ [piety|E], [legitimacy|E], and [prestige|E] rewards on completion are unaffected\n\n#weak The houses of the realm, both great and small, will only view you as legitimate once a crown is placed upon your head. Only then will they bend the knee.#!"
 ### TODO NOT-IN-ST: coronation_pomp_impressive [AGOT: Impressive]
@@ -119,14 +119,14 @@
  activity_window_character_coronation_target:1 "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]"
 ### TODO NOT-IN-ST: activity_window_character_travel_coronation_target [AGOT: [Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]]
  activity_window_character_travel_coronation_target:1 "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]"
-### TODO NOT-IN-ST: activity_window_character_coronation_officiant [AGOT: Officiant\n[Character.GetShortUINameNoTooltip|U]]
- activity_window_character_coronation_officiant:1 "Officiant\n[Character.GetShortUINameNoTooltip|U]"
-### TODO NOT-IN-ST: activity_window_character_travel_coronation_officiant [AGOT: Officiant\n[Character.GetShortUINameNoTooltip|U]]
- activity_window_character_travel_coronation_officiant:1 "Officiant\n[Character.GetShortUINameNoTooltip|U]"
+
+ activity_window_character_coronation_officiant:0 "Yöneten\n[Character.GetShortUINameNoTooltip|U]"
+
+ activity_window_character_travel_coronation_officiant:0 "Yöneten\n[Character.GetShortUINameNoTooltip|U]"
 ### TODO NOT-IN-ST: activity_window_character_coronation_consort [AGOT: [Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]]
  activity_window_character_coronation_consort:1 "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]"
-### TODO NOT-IN-ST: coronation_phase_ceremony [AGOT: Coronation]
- coronation_phase_ceremony:0 "Coronation"
+
+ coronation_phase_ceremony:0 "Taç Giyme"
 ### TODO NOT-IN-ST: coronation_phase_ceremony_desc [AGOT: Before gods and men, a new ruler shall be crowned.]
  coronation_phase_ceremony_desc:0 "Before gods and men, a new ruler shall be crowned."
 ### TODO NOT-IN-ST: coronation_phase_homage [AGOT: Homage]
@@ -225,8 +225,8 @@
  activity_invite_rule_high_lords:0 "High Lords"
 ### TODO NOT-IN-ST: activity_invite_rule_minor_lords [AGOT: Minor Lords]
  activity_invite_rule_minor_lords:0 "Minor Lords"
-### TODO NOT-IN-ST: activity_invite_kingsguard [AGOT: Kingsguard]
- activity_invite_kingsguard:0 "Kingsguard"
+
+ activity_invite_kingsguard:0 "Kral Muhafızı"
 ### TODO NOT-IN-ST: legitimate_ruler_opinion [AGOT: Legitimate Ruler]
  legitimate_ruler_opinion:0 "Legitimate Ruler"
 ### TODO NOT-IN-ST: coronation_grandiose_modifier [AGOT: Hosted a Grandiose Coronation]
@@ -395,8 +395,8 @@
  coronation_completed_log:0 "[coronation_target.GetTitledFirstNameOrMe|U] was crowned by [officiant.GetTitledFirstNameNicknamed|U]."
 ### TODO NOT-IN-ST: coronation_completed_log_title [AGOT: The Rightful [coronation_target.GetTitleAsNameNoTooltip|U]]
  coronation_completed_log_title:0 "The Rightful [coronation_target.GetTitleAsNameNoTooltip|U]"
-### TODO NOT-IN-ST: nick_the_queenmaker [AGOT: the Queenmaker]
- nick_the_queenmaker:0 "the Queenmaker"
+
+ nick_the_queenmaker:0 "Kraliçe Yapan"
 ### TODO NOT-IN-ST: nick_the_queenmaker_desc [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for crowning a Queen.]
  nick_the_queenmaker_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for crowning a Queen."
 ### TODO NOT-IN-ST: nick_the_kingmaker_desc [AGOT: [CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] known for crowning a King.]

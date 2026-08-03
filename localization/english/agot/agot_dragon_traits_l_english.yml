@@ -1,12 +1,12 @@
-﻿l_english:
-### TODO NOT-IN-ST: trait_dragon_generic [AGOT: Dragon]
- trait_dragon_generic: "Dragon"
-### TODO NOT-IN-ST: trait_dragon_wild [AGOT: Wild Dragon]
- trait_dragon_wild: "Wild Dragon"
-### TODO NOT-IN-ST: trait_dragon_owned [AGOT: Owned Dragon]
- trait_dragon_owned: "Owned Dragon"
-### TODO NOT-IN-ST: trait_dragon_tamed [AGOT: Tamed Dragon]
- trait_dragon_tamed: "Tamed Dragon"
+﻿﻿l_english:
+
+ trait_dragon_generic:0 "Ejderha"
+
+ trait_dragon_wild:0 "Yaban Ejderhası"
+
+ trait_dragon_owned:0 "Sahiplenilen Ejderha"
+
+ trait_dragon_tamed:0 "Ehlileştirilmiş Ejderha"
 ### TODO NOT-IN-ST: trait_dragon_bound [AGOT: Bound Dragon]
  trait_dragon_bound: "Bound Dragon"
 ### TODO NOT-IN-ST: trait_dragon_desc [AGOT: Whether made by bloodmagic, fire-made-flesh, a piece of the moon, or a divine body on earth, none can deny that [dragons_plural|El] are one the most impressive species in the world.]
@@ -57,8 +57,8 @@
  trait_dragon_aggressive_desc: "Quick to lash out at any creature, in any situation, this dragon is notoriously known for anger."
 ### TODO NOT-IN-ST: trait_dragon_aggressive_character_desc [AGOT: Quick to lash out at any creature, in any situation, [ROOT.Char.GetFirstNameNoTooltip] is notoriously known for anger.]
  trait_dragon_aggressive_character_desc: "Quick to lash out at any creature, in any situation, [ROOT.Char.GetFirstNameNoTooltip] is notoriously known for anger."
-### TODO NOT-IN-ST: trait_dragon_friendly [AGOT: Friendly]
- trait_dragon_friendly: "Friendly"
+
+ trait_dragon_friendly:0 "Dostça"
 ### TODO NOT-IN-ST: trait_dragon_friendly_desc [AGOT: This dragon is surprisingly peaceful and considerate with most creatures, and can often be calm or even playful..]
  trait_dragon_friendly_desc: "This dragon is surprisingly peaceful and considerate with most creatures, and can often be calm or even playful.."
 ### TODO NOT-IN-ST: trait_dragon_friendly_character_desc [AGOT: [ROOT.Char.GetFirstNameNoTooltip] is surprisingly peaceful and considerate with most creatures, and can often be calm or even playful.]
@@ -181,8 +181,8 @@
  trait_dragon_physique_bad_3_desc: "Such is the fate of dragons born in the least magical times, where from tip to tail there is no part of them that looks right. Misshapen eyes set awkwardly in an asymmetric skull. The wings are too small, and the back too large. Far from terror, these creatures incite pity."
 ### TODO NOT-IN-ST: trait_dragon_physique_bad_3_character_desc [AGOT: From tip to tail there is no part of [ROOT.Char.GetFirstNameNoTooltip] that looks right. Misshapen eyes set awkwardly in an asymmetric skull. The wings are too small, and the back too large. Far from terror, this creature incites pity.]
  trait_dragon_physique_bad_3_character_desc: "From tip to tail there is no part of [ROOT.Char.GetFirstNameNoTooltip] that looks right. Misshapen eyes set awkwardly in an asymmetric skull. The wings are too small, and the back too large. Far from terror, this creature incites pity."
-### TODO NOT-IN-ST: trait_dragon_swift [AGOT: Swift]
- trait_dragon_swift:0 "Swift"
+
+ trait_dragon_swift:0 "Süratli"
 ### TODO NOT-IN-ST: trait_dragon_swift_desc [AGOT: Some dragons are known for their speed and agility, able to outmaneuver their peers of the same size and age.]
  trait_dragon_swift_desc: "Some dragons are known for their speed and agility, able to outmaneuver their peers of the same size and age."
 ### TODO NOT-IN-ST: trait_dragon_swift_character_desc [AGOT: [ROOT.Char.GetFirstNameNoTooltip] is known for [ROOT.Char.Custom('GetDragonHerHis')] speed and agility, able to outmaneuver peers of the same size and age.]
@@ -253,16 +253,16 @@
  trait_education_dragon_5_desc: "An exemplar of temperament and character, a dragon ideally raised is all any dragonrider could want in their charge."
 ### TODO NOT-IN-ST: trait_education_dragon_5_character_desc [AGOT: An exemplar of temperament and character, [ROOT.Char.GetFirstNameNoTooltip] is all any dragonrider could want in their charge.]
  trait_education_dragon_5_character_desc: "An exemplar of temperament and character, [ROOT.Char.GetFirstNameNoTooltip] is all any dragonrider could want in their charge."
-### TODO NOT-IN-ST: trait_dragon_wounded [AGOT: Wounded]
- trait_dragon_wounded: "Wounded"
+
+ trait_dragon_wounded:0 "Yaralı"
 ### TODO NOT-IN-ST: trait_dragon_wounded_1 [AGOT: Lightly Wounded]
  trait_dragon_wounded_1: "Lightly Wounded"
 ### TODO NOT-IN-ST: trait_dragon_wounded_1_desc [AGOT: Whether through a minor accident or a very one-sided combat, a dragon can be lightly wounded.]
  trait_dragon_wounded_1_desc: "Whether through a minor accident or a very one-sided combat, a dragon can be lightly wounded."
 ### TODO NOT-IN-ST: trait_dragon_wounded_1_character_desc [AGOT: Whether through a minor accident or a very one-sided combat, [ROOT.Char.GetFirstNameNoTooltip] has been lightly wounded.]
  trait_dragon_wounded_1_character_desc: "Whether through a minor accident or a very one-sided combat, [ROOT.Char.GetFirstNameNoTooltip] has been lightly wounded."
-### TODO NOT-IN-ST: trait_dragon_wounded_2 [AGOT: Wounded]
- trait_dragon_wounded_2: "Wounded"
+
+ trait_dragon_wounded_2:0 "Yaralı"
 ### TODO NOT-IN-ST: trait_dragon_wounded_2_desc [AGOT: Surprising for creatures of their stature, dragons can be wounded in combat or through accidents.]
  trait_dragon_wounded_2_desc: "Surprising for creatures of their stature, dragons can be wounded in combat or through accidents."
 ### TODO NOT-IN-ST: trait_dragon_wounded_2_character_desc [AGOT: [ROOT.Char.GetFirstNameNoTooltip] has suffered a wound — surprising for a creature of [ROOT.Char.Custom('GetDragonHerHis')] stature.]
@@ -297,8 +297,8 @@
  trait_dragon_ill_desc: "Though dragons rarely get ill, it has been known to happen on occasion either due to a bad meal or an unseen malaise."
 ### TODO NOT-IN-ST: trait_dragon_ill_character_desc [AGOT: Though dragons rarely get ill, [ROOT.Char.GetFirstNameNoTooltip] has been struck sick by some unseen malaise or bad meal.]
  trait_dragon_ill_character_desc: "Though dragons rarely get ill, [ROOT.Char.GetFirstNameNoTooltip] has been struck sick by some unseen malaise or bad meal."
-### TODO NOT-IN-ST: trait_dragon_blind [AGOT: Blind]
- trait_dragon_blind: "Blind"
+
+ trait_dragon_blind:0 "Kör"
 ### TODO NOT-IN-ST: trait_dragon_blind_desc [AGOT: Either through injury or misfortune at birth, this dragon is unable to see.]
  trait_dragon_blind_desc: "Either through injury or misfortune at birth, this dragon is unable to see."
 ### TODO NOT-IN-ST: trait_dragon_blind_character_desc [AGOT: Either through injury or misfortune at birth, [ROOT.Char.GetFirstNameNoTooltip] is unable to see.]

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_religious_decision.1001.t [AGOT: The Heart Tree]
  agot_religious_decision.1001.t:0 "The Heart Tree"
 ### TODO NOT-IN-ST: agot_religious_decision.1001.desc [AGOT: Regardless of faith, few places in the world come close to matching the heart of a godswood in terms of tranquility and otherworldly solitude. But this is no mere relaxing garden to stroll through — the Old Gods hold sway here.\n\nAs I approach the heart tree, I desire nothing more than...]
@@ -17,10 +17,10 @@
  wounds_turn_to_cripple_tooltip:0 "Your wounds completely heal, but you become [GetTrait('crippled').GetName( GetNullCharacter )]"
 ### TODO NOT-IN-ST: weirwood_fertility_bonus_modifier [AGOT: Weirwood Fertility Blessing]
  weirwood_fertility_bonus_modifier:0 "Weirwood Fertility Blessing"
-### TODO NOT-IN-ST: weirwood_minor_health_bonus_modifier [AGOT: Weirwood Health Blessing]
- weirwood_minor_health_bonus_modifier:0 "Weirwood Health Blessing"
-### TODO NOT-IN-ST: weirwood_medium_health_bonus_modifier [AGOT: Weirwood Health Blessing]
- weirwood_medium_health_bonus_modifier:0 "Weirwood Health Blessing"
+
+ weirwood_minor_health_bonus_modifier:0 "Weirwood Sağlık Lütfu"
+
+ weirwood_medium_health_bonus_modifier:0 "Weirwood Sağlık Lütfu"
 ### TODO NOT-IN-ST: weirwood_stress_modifier [AGOT: Peace of the Weirwoods]
  weirwood_stress_modifier:0 "Peace of the Weirwoods"
 ### TODO NOT-IN-ST: agot_religious_decision.1101.t [AGOT: Beneath the Red Leaves]
@@ -159,28 +159,28 @@ agot_religious_decision.1101.a:0 "Let the gods guide my path."
  agot_religious_decision.4000.d:0 "A lavish investment; I will spare no expense."
 ### TODO NOT-IN-ST: agot_religious_decision.4000.d.flavor [AGOT: An expedition will set out and return within two years.]
  agot_religious_decision.4000.d.flavor:0 "An expedition will set out and return within two years."
-### TODO NOT-IN-ST: agot_religious_decision.4000.e [AGOT: Never mind.]
- agot_religious_decision.4000.e:0 "Never mind."
-### TODO NOT-IN-ST: agot_religious_decision.4001.t [AGOT: Expedition Returns]
- agot_religious_decision.4001.t:0 "Expedition Returns"
+
+ agot_religious_decision.4000.e:0 "Boş ver."
+
+ agot_religious_decision.4001.t:0 "Sefer Dönüyor"
 ### TODO NOT-IN-ST: agot_religious_decision.4001.desc [AGOT: After months of anticipation, my trade expedition has finally returned, but the results are far from what I had hoped for. A series of misfortunes—including poor planning, bad weather, and pirate attacks—left the fleet with little to show for the journey compared to what was invested. Some goods have been salvaged, but the venture has not yielded the promised rewards.]
  agot_religious_decision.4001.desc:0 "After months of anticipation, my trade expedition has finally returned, but the results are far from what I had hoped for. A series of misfortunes—including poor planning, bad weather, and pirate attacks—left the fleet with little to show for the journey compared to what was invested. Some goods have been salvaged, but the venture has not yielded the promised rewards."
-### TODO NOT-IN-ST: agot_religious_decision.4001.a [AGOT: Unfortunate.]
- agot_religious_decision.4001.a:0 "Unfortunate."
-### TODO NOT-IN-ST: agot_religious_decision.4002.t [AGOT: Expedition Returns]
- agot_religious_decision.4002.t:0 "Expedition Returns"
+
+ agot_religious_decision.4001.a:0 "Talihsizlik."
+
+ agot_religious_decision.4002.t:0 "Sefer Dönüyor"
 ### TODO NOT-IN-ST: agot_religious_decision.4002.desc [AGOT: My trade expedition has returned, bringing back a modest shipment of goods. While it wasn't the windfall I had hoped for, it's certainly not a failure. New trade routes have been established, though they're not as lucrative as I'd imagined. It's a start, at least.]
  agot_religious_decision.4002.desc:0 "My trade expedition has returned, bringing back a modest shipment of goods. While it wasn't the windfall I had hoped for, it's certainly not a failure. New trade routes have been established, though they're not as lucrative as I'd imagined. It's a start, at least."
 ### TODO NOT-IN-ST: agot_religious_decision.4002.a [AGOT: As well as can be expected.]
  agot_religious_decision.4002.a:0 "As well as can be expected."
-### TODO NOT-IN-ST: agot_religious_decision.4003.t [AGOT: Expedition Returns]
- agot_religious_decision.4003.t:0 "Expedition Returns"
+
+ agot_religious_decision.4003.t:0 "Sefer Dönüyor"
 ### TODO NOT-IN-ST: agot_religious_decision.4003.desc [AGOT: My trade expedition has returned triumphant, laden with riches and new trade routes. The new foreign trade partners I have secured well make up for the investment I made. This venture has enhanced my capital's reputation as a thriving hub of commerce.]
  agot_religious_decision.4003.desc:0 "My trade expedition has returned triumphant, laden with riches and new trade routes. The new foreign trade partners I have secured well make up for the investment I made. This venture has enhanced my capital's reputation as a thriving hub of commerce."
-### TODO NOT-IN-ST: agot_religious_decision.4003.a [AGOT: Incredible!]
- agot_religious_decision.4003.a:0 "Incredible!"
-### TODO NOT-IN-ST: agot_religious_decision.5000.t [AGOT: Whaling Expedition]
- agot_religious_decision.5000.t:0 "Whaling Expedition"
+
+ agot_religious_decision.4003.a:0 "İnanılmaz!"
+
+ agot_religious_decision.5000.t:0 "Balina Avı Seferi"
 ### TODO NOT-IN-ST: agot_religious_decision.5000.desc [AGOT: It is time to gather the supplies and funds necessary to launch my whaling expedition.]
  agot_religious_decision.5000.desc:0 "It is time to gather the supplies and funds necessary to launch my whaling expedition."
 ### TODO NOT-IN-ST: agot_religious_decision.5000.a [AGOT: I will spend generously on this expedition.]
@@ -191,8 +191,8 @@ agot_religious_decision.1101.a:0 "Let the gods guide my path."
  agot_religious_decision.5000.c:0 "I will spend the bare minimum."
 ### TODO NOT-IN-ST: agot_religious_decision.5000.d [AGOT: Nevermind, I am no longer interested.]
  agot_religious_decision.5000.d:0 "Nevermind, I am no longer interested."
-### TODO NOT-IN-ST: agot_religious_decision.5001.t [AGOT: Whaling Expedition]
- agot_religious_decision.5001.t:0 "Whaling Expedition"
+
+ agot_religious_decision.5001.t:0 "Balina Avı Seferi"
 ### TODO NOT-IN-ST: agot_religious_decision.5001.desc_great [AGOT: After only a few short hours of scouring the sea, I am alerted to a few whales breaching nearby. Though I am a considerable distance away, I can see that they are all the size of small islands. At least, that's what I'll be telling the traders back on shore.\n\nRegardless, my sailors and I can plainly see that they are worth a small fortune!]
  agot_religious_decision.5001.desc_great:0 "After only a few short hours of scouring the sea, I am alerted to a few whales breaching nearby. Though I am a considerable distance away, I can see that they are all the size of small islands. At least, that's what I'll be telling the traders back on shore.\n\nRegardless, my sailors and I can plainly see that they are worth a small fortune!"
 ### TODO NOT-IN-ST: agot_religious_decision.5001.desc_good [AGOT: A sudden shout from one of my sailors grabs my attention.\n\nI follow the growing shouts, turned heads, and outstretched fingers, and eventually I see a whale thrashing about in the distance. From what I can see, it is one that is likely to fetch a good price...]
@@ -203,8 +203,8 @@ agot_religious_decision.1101.a:0 "Let the gods guide my path."
  agot_religious_decision.5001.a:0 "I must chase after them!"
 ### TODO NOT-IN-ST: agot_religious_decision.5001.b [AGOT: It shall be mine!]
  agot_religious_decision.5001.b:0 "It shall be mine!"
-### TODO NOT-IN-ST: agot_religious_decision.5001.c [AGOT: Damnation!]
- agot_religious_decision.5001.c:0 "Damnation!"
+
+ agot_religious_decision.5001.c:0 "Lanet olsun!"
 ### TODO NOT-IN-ST: agot_religious_decision.5001.a.tt_success [AGOT: You slay the whales and return home with them]
  agot_religious_decision.5001.a.tt_success:0 "You slay the whales and return home with them"
 ### TODO NOT-IN-ST: agot_religious_decision.5001.b.tt_success [AGOT: You slay the whale and return home with it]
@@ -275,16 +275,16 @@ agot_religious_decision.1101.a:0 "Let the gods guide my path."
  agot_religious_decision.5101.no_change:0 "Unanswered"
 ### TODO NOT-IN-ST: agot_religious_decision.5101.no_change.tt [AGOT: The stone has done nothing. My hopes and expectations are dashed, leaving me to question if it was all for nothing.]
  agot_religious_decision.5101.no_change.tt:0 "The stone has done nothing. My hopes and expectations are dashed, leaving me to question if it was all for nothing."
-### TODO NOT-IN-ST: agot_religious_decision.5200.t [AGOT: The Essence of Life Itself]
- agot_religious_decision.5200.t:0 "The Essence of Life Itself"
+
+ agot_religious_decision.5200.t:0 "Hayatın Kendi Özü"
 ### TODO NOT-IN-ST: agot_religious_decision.5200.desc [AGOT: Who among my prisoners shall be bled?]
  agot_religious_decision.5200.desc:0 "Who among my prisoners shall be bled?"
 ### TODO NOT-IN-ST: agot_religious_decision.5200.a [AGOT: This one will do.]
  agot_religious_decision.5200.a:0 "This one will do."
 ### TODO NOT-IN-ST: agot_religious_decision.5200.b [AGOT: $agot_religious_decision.5200.a$]
  agot_religious_decision.5200.b:0 "$agot_religious_decision.5200.a$"
-### TODO NOT-IN-ST: agot_religious_decision.5201.t [AGOT: The Essence of Life Itself]
- agot_religious_decision.5201.t:0 "The Essence of Life Itself"
+
+ agot_religious_decision.5201.t:0 "Hayatın Kendi Özü"
 ### TODO NOT-IN-ST: agot_religious_decision.5201.desc [AGOT: I watch in grim fascination as my torturers drag [living_blood_bag.GetName] into the dungeon and begin draining [living_blood_bag.GetHerHis] blood using their leeches and other instruments of horror.]
  agot_religious_decision.5201.desc:0 "I watch in grim fascination as my torturers drag [living_blood_bag.GetName] into the dungeon and begin draining [living_blood_bag.GetHerHis] blood using their leeches and other instruments of horror."
 ### TODO NOT-IN-ST: agot_religious_decision.5201.a [AGOT: How exciting!]

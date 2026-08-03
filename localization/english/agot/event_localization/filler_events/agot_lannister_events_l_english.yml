@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_lannister_events.100.t [AGOT: An Ambitious Hedge Knight]
  agot_lannister_events.100.t:0 "An Ambitious Hedge Knight"
 ### TODO NOT-IN-ST: agot_lannister_events.100.desc [AGOT: The Westerlands' reputation for wealth is constantly attracting sellswords and hedge knights looking for work. One particularly enthusiastic knight somehow found his way past my guards and is standing before me, offering his services.]
@@ -89,8 +89,8 @@
  agot_lannister_events.107.a:0 "Guards! Kill this man."
 ### TODO NOT-IN-ST: agot_lannister_events.107.b [AGOT: Guards! Arrest this man.]
  agot_lannister_events.107.b:0 "Guards! Arrest this man."
-### TODO NOT-IN-ST: agot_lannister_events.108.t [AGOT: Too Slow]
- agot_lannister_events.108.t:0 "Too Slow"
+
+ agot_lannister_events.108.t:0 "Çok Yavaş"
 ### TODO NOT-IN-ST: agot_lannister_events.108.desc [AGOT: Sputtering but unfazed, [ambitious_knight.GetFirstNameNoTooltip] charges you, taking a mad swing as he comes. All you can do is try your best to shield yourself from the attack that is coming.]
  agot_lannister_events.108.desc:0 "Sputtering but unfazed, [ambitious_knight.GetFirstNameNoTooltip] charges you, taking a mad swing as he comes. All you can do is try your best to shield yourself from the attack that is coming."
 ### TODO NOT-IN-ST: agot_lannister_events.108.a [AGOT: Argh!]
@@ -99,8 +99,8 @@
  agot_lannister_events.109.t:0 "An Ignoble Ending"
 ### TODO NOT-IN-ST: agot_lannister_events.109.desc [AGOT: I'm not able to reach the door in time and [ambitious_knight.GetFirstNameNoTooltip] begins to strike me. Once, twice and a third time, I begin to lose consciousness as I see my lifeblood soaking into carpet.]
  agot_lannister_events.109.desc:0 "I'm not able to reach the door in time and [ambitious_knight.GetFirstNameNoTooltip] begins to strike me. Once, twice and a third time, I begin to lose consciousness as I see my lifeblood soaking into carpet."
-### TODO NOT-IN-ST: agot_lannister_events.109.a [AGOT: Not like this!]
- agot_lannister_events.109.a:0 "Not like this!"
+
+ agot_lannister_events.109.a:0 "Böyle değil!"
 ### TODO NOT-IN-ST: agot_lannister_events.200.t [AGOT: A Hidden Cave]
  agot_lannister_events.200.t:0 "A Hidden Cave"
 ### TODO NOT-IN-ST: agot_lannister_events.200.desc [AGOT: Whilst leading my men through [new_mine_barony.GetNameNoTooltip] I've stumbled across what appears to be a door in the side of a hill. \n\nI remember stories from my childhood of vast caverns under the Westerland hills filled with gold.]
@@ -159,10 +159,10 @@
  agot_lannister_events.204.desc:0 "I safely descend to the cave floor below, as I push farther into the cavern, the light from my torch catching and reflecting off the surface of the walls, upon closer inspection I can tell that there are rich, untapped gold veins here."
 ### TODO NOT-IN-ST: agot_lannister_events.204.a [AGOT: Maybe [new_mine_holder.GetNameNoTooltip] and I can come to an agreement.]
  agot_lannister_events.204.a:0 "Maybe [new_mine_holder.GetNameNoTooltip] and I can come to an agreement."
-### TODO NOT-IN-ST: agot_lannister_events.204.b [AGOT: I shall exploit this gold.]
- agot_lannister_events.204.b:0 "I shall exploit this gold."
-### TODO NOT-IN-ST: agot_lannister_events.204.c [AGOT: This is my realm.]
- agot_lannister_events.204.c:0 "This is my realm."
+
+ agot_lannister_events.204.b:0 "Bu altını işleteceğim."
+
+ agot_lannister_events.204.c:0 "Bu benim diyarım."
 ### TODO NOT-IN-ST: agot_lannister_events_selfish_mine.tt [AGOT: You build a mine and exclude [new_mine_holder.GetFirstNameNoTooltip] from the profits.]
  agot_lannister_events_selfish_mine.tt:0 "You build a mine and exclude [new_mine_holder.GetFirstNameNoTooltip] from the profits."
 ### TODO NOT-IN-ST: agot_lannister_events.205.t [AGOT: A Sudden Drop]
@@ -171,10 +171,10 @@
  agot_lannister_events.205.desc:0 "The climb starts off well enough, I pick my moves carefully and make good progress. One wrong move is all it takes, however; one moment I'm shifting my weight down to the next grip and the next I'm free falling. It can't have been more than a few seconds but it felt like an eternity and I hit the ground, #bold hard#!. \n\nI can feel blood beginning to run from my head down my neck, though none of the wounds are life-threatening. I pick my torch up from the ground beside me and am amazed as the light catches off the surface of the cavern, reflecting the gold veins that run through the walls."
 ### TODO NOT-IN-ST: agot_lannister_events.205.a [AGOT: This is [new_mine_holder.GetFirstNameNoTooltip]'s land, but maybe we can come to an agreement.]
  agot_lannister_events.205.a:0 "This is [new_mine_holder.GetFirstNameNoTooltip]'s land, but maybe we can come to an agreement."
-### TODO NOT-IN-ST: agot_lannister_events.205.b [AGOT: I shall exploit this gold.]
- agot_lannister_events.205.b:0 "I shall exploit this gold."
-### TODO NOT-IN-ST: agot_lannister_events.205.c [AGOT: This is my realm.]
- agot_lannister_events.205.c:0 "This is my realm."
+
+ agot_lannister_events.205.b:0 "Bu altını işleteceğim."
+
+ agot_lannister_events.205.c:0 "Bu benim diyarım."
 ### TODO NOT-IN-ST: agot_lannister_events.206.t [AGOT: Negotiations]
  agot_lannister_events.206.t:0 "Negotiations"
 ### TODO NOT-IN-ST: agot_lannister_events.206.desc [AGOT: I have summoned [new_mine_holder.GetFirstNameNoTooltip] to discuss the riches that run through his lands, maybe we can come to a mutually profitable agreement.]
@@ -185,8 +185,8 @@
  agot_lannister_events.206.a.minor_success.tt:0 "You get a bad deal."
 ### TODO NOT-IN-ST: agot_lannister_events.206.a.medium_success.tt [AGOT: You get an average deal.]
  agot_lannister_events.206.a.medium_success.tt:0 "You get an average deal."
-### TODO NOT-IN-ST: agot_lannister_events.206.a.major_success.tt [AGOT: You get a great deal.]
- agot_lannister_events.206.a.major_success.tt:0 "You get a great deal."
+
+ agot_lannister_events.206.a.major_success.tt:0 "Harika bir anlaşma yapıyorsun."
 ### TODO NOT-IN-ST: agot_lannister_events.206.a.failure.tt [AGOT: [new_mine_holder.GetName] refuses to share.]
  agot_lannister_events.206.a.failure.tt:0 "[new_mine_holder.GetName] refuses to share."
 ### TODO NOT-IN-ST: agot_lannister_events.206.b [AGOT: Do not forget to whom you owe allegiance.]
@@ -197,8 +197,8 @@
  agot_lannister_events.206.a.minor_failure.toast:0 "You get a poor deal."
 ### TODO NOT-IN-ST: agot_lannister_events.206.a.minor_success.toast [AGOT: You get a good deal.]
  agot_lannister_events.206.a.minor_success.toast:0 "You get a good deal."
-### TODO NOT-IN-ST: agot_lannister_events.206.a.major_success.toast [AGOT: You get a great deal.]
- agot_lannister_events.206.a.major_success.toast:0 "You get a great deal."
+
+ agot_lannister_events.206.a.major_success.toast:0 "Harika bir anlaşma yapıyorsun."
 ### TODO NOT-IN-ST: agot_lannister_events.206.a.major_failure.toast [AGOT: [new_mine_holder.GetName] refuses to share.]
  agot_lannister_events.206.a.major_failure.toast:0 "[new_mine_holder.GetName] refuses to share."
 ### TODO NOT-IN-ST: agot_lannister_events.206.c [AGOT: I will settle for a finder's fee.]
@@ -265,8 +265,8 @@
  agot_lannister_events.302.t:0 "Back To The Sea"
 ### TODO NOT-IN-ST: agot_lannister_events.302.desc [AGOT: My men and I rushed to the aid of [ironborn_raid_target.GetNameNoTooltip]'s garrison. Though the fighting was fierce and there were casualties on both sides, our superior discipline and the worthy cause we fought for won the day. The raiders that weren't cut down where they stood fled back to their ships. \n\nOne man, the leader of the raid perhaps, refused to retreat. He is swinging his axe around wildly as my men close in on him to subdue him. \n\nOnce he is secured, he is brought before me in chains, that I may decide his fate.]
  agot_lannister_events.302.desc:0 "My men and I rushed to the aid of [ironborn_raid_target.GetNameNoTooltip]'s garrison. Though the fighting was fierce and there were casualties on both sides, our superior discipline and the worthy cause we fought for won the day. The raiders that weren't cut down where they stood fled back to their ships. \n\nOne man, the leader of the raid perhaps, refused to retreat. He is swinging his axe around wildly as my men close in on him to subdue him. \n\nOnce he is secured, he is brought before me in chains, that I may decide his fate."
-### TODO NOT-IN-ST: agot_lannister_events.302.a [AGOT: Send him to the dungeons.]
- agot_lannister_events.302.a:0 "Send him to the dungeons."
+
+ agot_lannister_events.302.a:0 "Onu zindanlara gönder."
 ### TODO NOT-IN-ST: agot_lannister_events.302.b [AGOT: Kill this scum and be done with it]
  agot_lannister_events.302.b:0 "Kill this scum and be done with it"
 ### TODO NOT-IN-ST: agot_lannister_events.302.c [AGOT: Hand over the ironborn to a local ruler.]
@@ -277,8 +277,8 @@
  agot_lannister_events.303.desc:0 "The ferocity of the ironborn raiders forces your line back time and time again. Though there is no way they would have be able to keep to this pace indefinitely, this is a raid, not an invasion.\n\nWhilst I and my men are holding the main line of the raiders, others continue to plunder the markets and houses of [ironborn_raid_target.GetNameNoTooltip]."
 ### TODO NOT-IN-ST: agot_lannister_events.303.a [AGOT: Damn the ironborn.]
  agot_lannister_events.303.a:0 "Damn the ironborn."
-### TODO NOT-IN-ST: agot_lannister_events.303.b [AGOT: I'll fund the recovery of [ironborn_raid_target.GetNameNoTooltip].]
- agot_lannister_events.303.b:0 "I'll fund the recovery of [ironborn_raid_target.GetNameNoTooltip]."
+
+ agot_lannister_events.303.b:0 "[ironborn_raid_target.GetNameNoTooltip]'in toparlanmasını finanse edeceğim."
 ### TODO NOT-IN-ST: agot_lannister_events.303_wounded.toast.t [AGOT: You are wounded whilst fighting [ironborn_raider.GetNameNoTooltip]'s men.]
  agot_lannister_events.303_wounded.toast.t:0 "You are wounded whilst fighting [ironborn_raider.GetNameNoTooltip]'s men."
 ### TODO NOT-IN-ST: agot_lannister_events.304.t [AGOT: Victorious Vassal]
@@ -287,16 +287,16 @@
  agot_lannister_events.304.opening:0 "[ROOT.Char.GetNameNoTooltip]"
 ### TODO NOT-IN-ST: agot_lannister_events.304.desc [AGOT: Though we received no outside aid I believe it will gladden you to hear that we repelled the ironborn and secured [ironborn_raid_target.GetNameNoTooltip] against further incursions. I believe that tales of my solitary defense are already spreading throughout the realm.]
  agot_lannister_events.304.desc:0 "Though we received no outside aid I believe it will gladden you to hear that we repelled the ironborn and secured [ironborn_raid_target.GetNameNoTooltip] against further incursions. I believe that tales of my solitary defense are already spreading throughout the realm."
-### TODO NOT-IN-ST: agot_lannister_events.304.a [AGOT: Very well.]
- agot_lannister_events.304.a:0 "Very well."
+
+ agot_lannister_events.304.a:0 "Pekâlâ."
 ### TODO NOT-IN-ST: agot_lannister_events.305.t [AGOT: Defeated Vassal]
  agot_lannister_events.305.t:0 "Defeated Vassal"
 ### TODO NOT-IN-ST: agot_lannister_events.305.opening [AGOT: [ROOT.Char.GetNameNoTooltip]]
  agot_lannister_events.305.opening:0 "[ROOT.Char.GetNameNoTooltip]"
 ### TODO NOT-IN-ST: agot_lannister_events.305.desc [AGOT: The lack of intervention during the ironborn raid on [ironborn_raid_target.GetNameNoTooltip] allowed them to run amok through the town. We lost many good men, women and children, as well as considerable wealth.]
  agot_lannister_events.305.desc:0 "The lack of intervention during the ironborn raid on [ironborn_raid_target.GetNameNoTooltip] allowed them to run amok through the town. We lost many good men, women and children, as well as considerable wealth."
-### TODO NOT-IN-ST: agot_lannister_events.305.a [AGOT: A pity.]
- agot_lannister_events.305.a:0 "A pity."
+
+ agot_lannister_events.305.a:0 "Yazık."
 ### TODO NOT-IN-ST: agot_lannister_events.306.t [AGOT: The Triumphant Marshal]
  agot_lannister_events.306.t:0 "The Triumphant Marshal"
 ### TODO NOT-IN-ST: agot_lannister_events.306.desc [AGOT: Though it has clearly not come without a price, [marshal.GetName] has returned in victory, having cast the ironborn raiders back from [ironborn_raid_target.GetNameNoTooltip]. The commoners cheer at [marshal.GetHersHis] return, lining the streets to welcome [marshal.GetHerHim] home. \n\nPerhaps a reward is in order?]
@@ -313,8 +313,8 @@
  agot_lannister_events.307.marshal_died_desc:0 "[marshal.GetName]'s forces return to the capital defeated. The men seem to have suffered great injuries, with many returning on the backs of wagons. A brief headcount suggests that many have not returned at all, [marshal.GetNameNoTooltip] among them."
 ### TODO NOT-IN-ST: agot_lannister_events.307.desc [AGOT: [marshal.GetName] returns to the capital defeated. Both [marshal.GetSheHe] and [marshal.GetHerHis] men seem to have suffered great injuries, with many returning on the backs of wagons. A brief headcount suggests that many have not returned at all.]
  agot_lannister_events.307.desc:0 "[marshal.GetName] returns to the capital defeated. Both [marshal.GetSheHe] and [marshal.GetHerHis] men seem to have suffered great injuries, with many returning on the backs of wagons. A brief headcount suggests that many have not returned at all."
-### TODO NOT-IN-ST: agot_lannister_events.307.a [AGOT: A pity.]
- agot_lannister_events.307.a:0 "A pity."
+
+ agot_lannister_events.307.a:0 "Yazık."
 ### TODO NOT-IN-ST: agot_lannister_events.307.b [AGOT: Failure will not be tolerated.]
  agot_lannister_events.307.b:0 "Failure will not be tolerated."
 ### TODO NOT-IN-ST: agot_lannister_events.309.t [AGOT: A Sneaking Suspicion]
@@ -323,14 +323,14 @@
  agot_lannister_events.309.desc:0 "It was a sound plan in theory, leave the majority of your men to face the ironborn head on whilst you snuck around to hit them in their backs. Unfortunately the raiders made quick work of the main force, meaning all they had to do was turn to face you after the initial shock of your charge wore off. \n\nHeavily outnumbered, you were quickly forced to retreat from the battlefield, leaving [ironborn_raid_target.GetNameNoTooltip] at the raiders mercy "
 ### TODO NOT-IN-ST: agot_lannister_events.309.a [AGOT: Damned raiders.]
  agot_lannister_events.309.a:0 "Damned raiders."
-### TODO NOT-IN-ST: agot_lannister_events.309.b [AGOT: I'll fund the recovery of [ironborn_raid_target.GetNameNoTooltip].]
- agot_lannister_events.309.b:0 "I'll fund the recovery of [ironborn_raid_target.GetNameNoTooltip]."
+
+ agot_lannister_events.309.b:0 "[ironborn_raid_target.GetNameNoTooltip]'in toparlanmasını finanse edeceğim."
 ### TODO NOT-IN-ST: agot_lannister_events.308.t [AGOT: Hammer and Anvil]
  agot_lannister_events.308.t:0 "Hammer and Anvil"
 ### TODO NOT-IN-ST: agot_lannister_events.308.desc [AGOT: My flanking force and I quickly split off from the main group as they charged into the fray. We wove our way through alleys and markets until we were positioned behind the enemy. The main force held valiantly as we stalked closer to our target. I waited until I was close enough to smell the enemy before giving the order to charge. \n\nWe smashed into the raiders rear, spreading fear and confusion amongst them, they formed a circle around their leading, protecting him to the last. As the sound of battle died down and blood ran through the streets of [ironborn_raid_target.GetNameNoTooltip] I had the captain of the raid at my mercy.]
  agot_lannister_events.308.desc:0 "My flanking force and I quickly split off from the main group as they charged into the fray. We wove our way through alleys and markets until we were positioned behind the enemy. The main force held valiantly as we stalked closer to our target. I waited until I was close enough to smell the enemy before giving the order to charge. \n\nWe smashed into the raiders rear, spreading fear and confusion amongst them, they formed a circle around their leading, protecting him to the last. As the sound of battle died down and blood ran through the streets of [ironborn_raid_target.GetNameNoTooltip] I had the captain of the raid at my mercy."
-### TODO NOT-IN-ST: agot_lannister_events.308.a [AGOT: Send him to the dungeons.]
- agot_lannister_events.308.a:0 "Send him to the dungeons."
+
+ agot_lannister_events.308.a:0 "Onu zindanlara gönder."
 ### TODO NOT-IN-ST: agot_lannister_events.308.b [AGOT: Kill this scum and be done with it.]
  agot_lannister_events.308.b:0 "Kill this scum and be done with it."
 ### TODO NOT-IN-ST: agot_lannister_events.308.c [AGOT: Deliver him to the dungeon of [ironborn_raid_target_holder.GetName].]

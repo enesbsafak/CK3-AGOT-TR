@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_filler_colonization.0001.t [AGOT: [colony_province.GetNameNoTooltip]: The Squirrel]
  agot_filler_colonization.0001.t:0 "[colony_province.GetNameNoTooltip]: The Squirrel"
 ### TODO NOT-IN-ST: agot_filler_colonization.0001.desc [AGOT: While journeying to visit my colony of [colony_province.GetName], my company and I pause for a light repast among the trees. I find myself lost in thought, mulling over the most recent challenges faced by my realm. Suddenly, my reverie is broken by a rustling in the boughs above. In the gloom, it takes a moment before I can identify the source of the sound — a sleek black squirrel.\n\nIt stares at me. I stare back. Something in its beady gaze strikes me as malevolent.]
@@ -57,8 +57,8 @@
  agot_filler_colonization.0003.a.success.toast:0 "Thriving Colony"
 ### TODO NOT-IN-ST: agot_filler_colonization.0003.a.failure.toast [AGOT: Struggling Colony]
  agot_filler_colonization.0003.a.failure.toast:0 "Struggling Colony"
-### TODO NOT-IN-ST: agot_filler_colonization.0003.a.critical_failure.toast [AGOT: Colony Failure]
- agot_filler_colonization.0003.a.critical_failure.toast:0 "Colony Failure"
+
+ agot_filler_colonization.0003.a.critical_failure.toast:0 "Koloni Başarısızlığı"
 ### TODO NOT-IN-ST: well_supplied_colony_county_modifier [AGOT: Well-Supplied Colony]
  well_supplied_colony_county_modifier:0 "Well-Supplied Colony"
 ### TODO NOT-IN-ST: well_supplied_colony_county_modifier_desc [AGOT: This colony receives plentiful supplies from the rest of the realm.]
@@ -111,8 +111,8 @@
  agot_filler_colonization.1003.b.failure.toast:0 "Costly Repairs"
 ### TODO NOT-IN-ST: agot_filler_colonization.1003.c [AGOT: These things happen. Next time, be more careful with the buns...]
  agot_filler_colonization.1003.c:0 "These things happen. Next time, be more careful with the buns..."
-### TODO NOT-IN-ST: agot_filler_colonization.1003.c.failure.toast [AGOT: Colony Failure]
- agot_filler_colonization.1003.c.failure.toast:0 "Colony Failure"
+
+ agot_filler_colonization.1003.c.failure.toast:0 "Koloni Başarısızlığı"
 ### TODO NOT-IN-ST: agot_filler_colonization.1003.c.success.toast [AGOT: Colony Survives]
  agot_filler_colonization.1003.c.success.toast:0 "Colony Survives"
 ### TODO NOT-IN-ST: agot_filler_colonization.1004.t [AGOT: [colony_province.GetNameNoTooltip]: A Den of Sin]
@@ -205,10 +205,10 @@
  harmonious_colony_county_modifier_desc:0 "The various competing factions in this county have reached a state of compromise, working effectively together to build up its strength."
 ### TODO NOT-IN-ST: agot_filler_colonization.1007.t [AGOT: [colony_province.GetNameNoTooltip]: Boycott]
  agot_filler_colonization.1007.t:0 "[colony_province.GetNameNoTooltip]: Boycott"
-### TODO NOT-IN-ST: agot_filler_colonization.1007.desc.1.steward [AGOT: My steward,]
- agot_filler_colonization.1007.desc.1.steward:0 "My steward,"
-### TODO NOT-IN-ST: agot_filler_colonization.1007.desc.1.advisor [AGOT: My advisor,]
- agot_filler_colonization.1007.desc.1.advisor:0 "My advisor,"
+
+ agot_filler_colonization.1007.desc.1.steward:0 "Kahyam,"
+
+ agot_filler_colonization.1007.desc.1.advisor:0 "Danışmanım,"
 ### TODO NOT-IN-ST: agot_filler_colonization.1007.desc.2 [AGOT: [steward.GetFirstName] taps on my door, with a face glummer than usual. [steward.GetSheHe|U] has spent an exasperating day negotiating with the guilds, and it seems these discussions have not been fruitful.\n\n]
  agot_filler_colonization.1007.desc.2:0 "[steward.GetFirstName] taps on my door, with a face glummer than usual. [steward.GetSheHe|U] has spent an exasperating day negotiating with the guilds, and it seems these discussions have not been fruitful.\n\n"Why is it that whenever the guildsmen get together, it feels like a conspiracy against the people? They complain that taxes on the trade route to our colony in [colony_province.GetName] are too high, and they are threatening to boycott any goods manufactured there. If they cripple its economy now, then they will be strangling it at birth. I have tried to persuade them, yet nothing avails me. I fear you may need to intervene..."\n\nI share [steward.GetHerHis] irritation at the news. Why must so much depend on these avaricious guildsmen? Something will have to be done."
 ### TODO NOT-IN-ST: agot_filler_colonization.1007.a [AGOT: Perhaps a temporary reduction in taxation will silence them?]
@@ -237,8 +237,8 @@
  agot_filler_colonization.1007.c.success.toast:0 "Guilds Relent"
 ### TODO NOT-IN-ST: agot_filler_colonization.1007.c.failure.toast [AGOT: Guilds Pressure Colony]
  agot_filler_colonization.1007.c.failure.toast:0 "Guilds Pressure Colony"
-### TODO NOT-IN-ST: agot_filler_colonization.1007.c.critical_failure.toast [AGOT: Colony Failure]
- agot_filler_colonization.1007.c.critical_failure.toast:0 "Colony Failure"
+
+ agot_filler_colonization.1007.c.critical_failure.toast:0 "Koloni Başarısızlığı"
 ### TODO NOT-IN-ST: agot_filler_colonization.1008.t [AGOT: [colony_province.GetNameNoTooltip]: Plague]
  agot_filler_colonization.1008.t:0 "[colony_province.GetNameNoTooltip]: Plague"
 ### TODO NOT-IN-ST: agot_filler_colonization.1008.desc [AGOT: The latest news from my colony at [colony_province.GetName] is truly horrifying. The settlers have been afflicted by a devastating pestilence that has swept through almost every household. I can barely read the reports, so graphic are their details.\n\nThe illness starts as a fever and unquenchable thirst — some villagers have literally burst in their attempt to slake their desperate urges. Next come the buboes — great black swellings at every joint that expel a noisome yellow pus and render the victim entirely unable to move. In the final stage, these subside, but the afflicted suffer an infernal rash on their faces, so agonizing that some have clawed out their own eyes or torn off their ears and nose in a futile attempt at relief. Death comes to most thereafter, usually with a final torment of spine-cracking spasms.\n\nIf the colony is to be saved, something must be done without delay!]
@@ -247,8 +247,8 @@
  agot_filler_colonization.1008.a:0 "Quarantine the colony — no one is to leave! I won't risk this spreading."
 ### TODO NOT-IN-ST: agot_filler_colonization.1008.a.success.toast [AGOT: Colony Saved]
  agot_filler_colonization.1008.a.success.toast:0 "Colony Saved"
-### TODO NOT-IN-ST: agot_filler_colonization.1008.a.failure.toast [AGOT: Colony Failure]
- agot_filler_colonization.1008.a.failure.toast:0 "Colony Failure"
+
+ agot_filler_colonization.1008.a.failure.toast:0 "Koloni Başarısızlığı"
 ### TODO NOT-IN-ST: agot_filler_colonization.1008.b [AGOT: I will send men skilled in the treatment of such maladies to aid them.]
  agot_filler_colonization.1008.b:0 "I will send men skilled in the treatment of such maladies to aid them."
 ### TODO NOT-IN-ST: agot_filler_colonization.1008.c [AGOT: The poor souls... Bring those afflicted to [capital.GetNameNoTier] to receive our best care!]
@@ -263,10 +263,10 @@
  colony_disease_recovery_county_modifier_desc:0 "The people of this county are recovering from a recent outbreak of disease."
 ### TODO NOT-IN-ST: agot_filler_colonization.1009.t [AGOT: [colony_province.GetNameNoTooltip]: Prospecting]
  agot_filler_colonization.1009.t:0 "[colony_province.GetNameNoTooltip]: Prospecting"
-### TODO NOT-IN-ST: agot_filler_colonization.1009.desc.1.steward [AGOT: My steward,]
- agot_filler_colonization.1009.desc.1.steward:0 "My steward,"
-### TODO NOT-IN-ST: agot_filler_colonization.1009.desc.1.advisor [AGOT: My advisor,]
- agot_filler_colonization.1009.desc.1.advisor:0 "My advisor,"
+
+ agot_filler_colonization.1009.desc.1.steward:0 "Kahyam,"
+
+ agot_filler_colonization.1009.desc.1.advisor:0 "Danışmanım,"
 ### TODO NOT-IN-ST: agot_filler_colonization.1009.desc.2 [AGOT: [steward.GetFirstName] approaches me in my halls with a wide smile on his face. Perhaps he has something good to report for a change...\n\n]
  agot_filler_colonization.1009.desc.2:0 "[steward.GetFirstName] approaches me in my halls with a wide smile on his face. Perhaps he has something good to report for a change...\n\n"[ROOT.Char.GetTitleAsNameNoTooltip], I have received good news from our colonists in [colony_province.GetName]! While out scouting the uplands of [mineral_province.GetName] searching for bandits, one of their number discovered a strong seam of precious minerals on a rocky outcrop. The settlers are now abuzz with excitement at dreams of future riches and beseech you to organize a survey of the land."\n\nWhile this would require an initial investment, if they have truly found a significant deposit, it could provide wealth for many years to come..."
 ### TODO NOT-IN-ST: agot_filler_colonization.1009.a [AGOT: Charter a survey of [mineral_province.GetNameNoTooltip] at once!]

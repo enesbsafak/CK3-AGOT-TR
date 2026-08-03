@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0200.desc [AGOT: [child.GetFirstNameNoTooltip].\n\nInitially I was fond of the name, but now it seems strange to my ears.\n\nMaybe I should change it to something better?]
  agot_dragon_maintenance.0200.desc:0 "[child.GetFirstNameNoTooltip].\n\nInitially I was fond of the name, but now it seems strange to my ears.\n\nMaybe I should change it to something better?"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0901.t [AGOT: Death of a Dragonrider]
@@ -97,8 +97,8 @@
  agot_dragon_maintenance.0902.last:0 "[dragon_tamer.GetFirstNameNoTooltip] has come into a power that is, at the moment, peerless. [dragon_tamer.GetSheHe|U] now rides the #bold last#! dragon in the known world."
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0902.a [AGOT: Let us hope [dragon_tamer.GetSheHe] is not consumed by ambition.]
  agot_dragon_maintenance.0902.a:0 "Let us hope [dragon_tamer.GetSheHe] is not consumed by ambition."
-### TODO NOT-IN-ST: agot_dragon_maintenance.0903.t [AGOT: A Dragon Enters the World]
- agot_dragon_maintenance.0903.t:0 "A Dragon Enters the World"
+
+ agot_dragon_maintenance.0903.t:0 "Dünyaya Bir Ejderha Geliyor"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0903.opening1 [AGOT: Chaotic excitement and fear overwhelm the ports and markets across the seas; the word on every merchant and traveler's lips is that a dragon's egg has hatched!]
  agot_dragon_maintenance.0903.opening1:0 "Chaotic excitement and fear overwhelm the ports and markets across the seas; the word on every merchant and traveler's lips is that a dragon's egg has hatched!"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0903.opening2 [AGOT: Tumultuous excitement and trepidation can be heard throughout the streets, as the smallfolk buzz with news: a dragon's egg has hatched!]
@@ -125,8 +125,8 @@
  agot_dragon_maintenance.0903.mid2:0 "The fleeting conversations focus on a [dragon_hatcher.Custom('WomanManGirlBoy')] called [dragon_hatcher.GetName], who has hatched [dragon_hatcher.GetHerHis] egg."
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0903.outro [AGOT: \n\nHowever [dragon_hatcher.GetSheHe] managed it, [dragon_hatcher.GetFirstNameNoTooltip] has named [dragon_hatcher.GetHerHis] new [dragon.Custom('GetDragonColorFull')] hatchling [dragon.GetName].]
  agot_dragon_maintenance.0903.outro:0 "\n\nHowever [dragon_hatcher.GetSheHe] managed it, [dragon_hatcher.GetFirstNameNoTooltip] has named [dragon_hatcher.GetHerHis] new [dragon.Custom('GetDragonColorFull')] hatchling [dragon.GetName]."
-### TODO NOT-IN-ST: agot_dragon_maintenance.0903.a [AGOT: Incredible!]
- agot_dragon_maintenance.0903.a:0 "Incredible!"
+
+ agot_dragon_maintenance.0903.a:0 "İnanılmaz!"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0904.t [AGOT: [dead_dragon.GetNameNoTooltip] Breathes [dead_dragon.Custom('GetDragonHerHis')|U] Last Breath]
  agot_dragon_maintenance.0904.t:0 "[dead_dragon.GetNameNoTooltip] Breathes [dead_dragon.Custom('GetDragonHerHis')|U] Last Breath"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0904.desc_few_dragons_extant [AGOT: Smallfolk and high lords the world over exhale sighs of relief at the news that the dragon [dead_dragon.GetName] has died.\n\n[dead_dragon.Custom('GetDragonHerHis')|U] wings will no longer inspire fear when spotted among the clouds, nor will [dead_dragon.Custom('GetDragonHerHis')] jaws steal livestock or [dead_dragon.Custom('GetDragonHerHis')] dragonflame turn generations to ash upon the battlefield.\n\nThough there are some that may weep, most seem relieved that one of the last few dragons is dead.]
@@ -151,14 +151,14 @@
  agot_dragon_maintenance.9999.desc:0 "Below is a list of every possible appearance attribute for this dragon. Each attribute has a maximum value of 100%, and a minimum value of 0%.\n\n@warning_icon! #warning Colors in this event window may differ to those in the character window!#!\n\nimport_dragon_dna = {\n\tprimary_color_value = [story.MakeScope.Var('gene_dragon_primary_color_value').GetValue]\n\tprimary_color_hue = [story.MakeScope.Var('gene_dragon_primary_color_hue').GetValue]\n\tsecondary_value = [story.MakeScope.Var('gene_dragon_secondary_value').GetValue]\n\tsecondary_hue = [story.MakeScope.Var('gene_dragon_secondary_hue').GetValue]\n\ttertiary_value = [story.MakeScope.Var('gene_dragon_tertiary_value').GetValue]\n\ttertiary_hue = [story.MakeScope.Var('gene_dragon_tertiary_hue').GetValue]\n\thorn_color_value = [story.MakeScope.Var('gene_dragon_tertiary_hue').GetValue]\n\thorn_color_hue = [story.MakeScope.Var('gene_dragon_horn_color_value').GetValue]\n\teye_color_value = [story.MakeScope.Var('gene_dragon_horn_color_hue').GetValue]\n\teye_color_hue = [story.MakeScope.Var('gene_dragon_eye_color_value').GetValue]\n\tmain_horn_shape_template = [story.MakeScope.Var('gene_dragon_main_horn_shape_template').GetValue]\n\tmain_horn_shape_value = [story.MakeScope.Var('gene_dragon_main_horn_shape_value').GetValue]\n\tbody_shading_template = [story.MakeScope.Var('gene_dragon_body_shading_template').GetValue]\n\tbody_shading_value = [story.MakeScope.Var('gene_dragon_body_shading_value').GetValue]\n\twings_shading_template = [story.MakeScope.Var('gene_dragon_wings_shading_template').GetValue]\n\twings_shading_value = [story.MakeScope.Var('gene_dragon_wings_shading_value').GetValue]\n\tneck_length = [story.MakeScope.Var('gene_dragon_neck_length').GetValue]\n\tmetallic_scales_strength = [story.MakeScope.Var('gene_dragon_metallic_scales_strength').GetValue]\n\twounded = [story.MakeScope.Var('gene_dragon_wounded').GetValue]\n\told_neck = [story.MakeScope.Var('gene_dragon_old_neck').GetValue]\n\ttail_length = [story.MakeScope.Var('gene_dragon_tail_length').GetValue]\n\tcenter_fin_size = [story.MakeScope.Var('gene_dragon_center_fin_size').GetValue]\n\tside_fin_size = [story.MakeScope.Var('gene_dragon_side_fin_size').GetValue]\n\tcrest_depth = [story.MakeScope.Var('gene_dragon_crest_depth').GetValue]\n\tback_spike_size = [story.MakeScope.Var('gene_dragon_back_spike_size').GetValue]\n\tneck_spike_size = [story.MakeScope.Var('gene_dragon_neck_spike_size').GetValue]\n\thorns_eyebrow_length = [story.MakeScope.Var('gene_dragon_horns_eyebrow_length').GetValue]\n\thorns_eyebrow = [story.MakeScope.Var('gene_dragon_horns_eyebrow').GetValue]\n\tsnout_length = [story.MakeScope.Var('gene_dragon_snout_length').GetValue]\n\tsnout_height = [story.MakeScope.Var('gene_dragon_snout_height').GetValue]\n\tsnout_width = [story.MakeScope.Var('gene_dragon_snout_width').GetValue]\n\tsnout_end_width = [story.MakeScope.Var('gene_dragon_snout_end_width').GetValue]\n\tsnout_profile = [story.MakeScope.Var('gene_dragon_snout_profile').GetValue]\n\tchin_profile = [story.MakeScope.Var('gene_dragon_chin_profile').GetValue]\n\tjaw_width = [story.MakeScope.Var('gene_dragon_jaw_width').GetValue]\n\tupper_jaw_width = [story.MakeScope.Var('gene_dragon_upper_jaw_width').GetValue]\n\tlower_jaw_width = [story.MakeScope.Var('gene_dragon_lower_jaw_width').GetValue]\n\tlower_jaw_height = [story.MakeScope.Var('gene_dragon_lower_jaw_height').GetValue]\n\tcheek_width = [story.MakeScope.Var('gene_dragon_cheek_width').GetValue]\n\thead_roundness = [story.MakeScope.Var('gene_dragon_head_roundness').GetValue]\n\tbrow_width = [story.MakeScope.Var('gene_dragon_brow_width').GetValue]\n\touter_brow_height = [story.MakeScope.Var('gene_dragon_outer_brow_height').GetValue]\n}"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.9999.a [AGOT: I am finished.]
  agot_dragon_maintenance.9999.a:0 "I am finished."
-### TODO NOT-IN-ST: agot_dragon_maintenance.0905.t [AGOT: A Dragon Enters the World]
- agot_dragon_maintenance.0905.t:0 "A Dragon Enters the World"
+
+ agot_dragon_maintenance.0905.t:0 "Dünyaya Bir Ejderha Geliyor"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0905.desc [AGOT: Word spreads far and wide, spread by ship captains, merchants, and traders alike: A new dragon egg has hatched in the dragonpit of [dragonpit_county.GetNameNoTierNoTooltip]. [owner.GetTitledFirstName] has added a [dragon.Custom('GetDragonColorFull')] beast to [owner.GetHerHis] strength, they say.\n\nThough it is only a baby, any dragon is a fearsome thing, and unbonded dragons in particular send ripples of worry through the smallfolk and nobles alike.]
  agot_dragon_maintenance.0905.desc:0 "Word spreads far and wide, spread by ship captains, merchants, and traders alike: A new dragon egg has hatched in the dragonpit of [dragonpit_county.GetNameNoTierNoTooltip]. [owner.GetTitledFirstName] has added a [dragon.Custom('GetDragonColorFull')] beast to [owner.GetHerHis] strength, they say.\n\nThough it is only a baby, any dragon is a fearsome thing, and unbonded dragons in particular send ripples of worry through the smallfolk and nobles alike."
-### TODO NOT-IN-ST: agot_dragon_maintenance.0905.a [AGOT: Incredible!]
- agot_dragon_maintenance.0905.a:0 "Incredible!"
-### TODO NOT-IN-ST: agot_dragon_maintenance.0800.t [AGOT: Show the Dragons]
- agot_dragon_maintenance.0800.t:0 "Show the Dragons"
+
+ agot_dragon_maintenance.0905.a:0 "İnanılmaz!"
+
+ agot_dragon_maintenance.0800.t:0 "Ejderhaları Göster"
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0800.desc [AGOT: Select an option to view the worlds' dragons.]
  agot_dragon_maintenance.0800.desc:0 "Select an option to view the worlds' dragons."
 ### TODO NOT-IN-ST: agot_dragon_maintenance.0800.a [AGOT: [wild_dragons|E].]

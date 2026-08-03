@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: innovation_agot_gavelkind [AGOT: Gavelkind]
  innovation_agot_gavelkind:0 "Gavelkind"
 ### TODO NOT-IN-ST: innovation_agot_gavelkind_desc [AGOT: Stability and prosperity go hand in hand. Instead of having vassals jockey for power when the old monarch passes away, we can define a predetermined, equitable system of inheritance which will eliminate much of the instability that traditionally occurs during succession.]
@@ -7,8 +7,8 @@
  innovation_agot_heraldry:0 "Heraldry"
 ### TODO NOT-IN-ST: innovation_agot_heraldry_desc [AGOT: Establishing hereditary designs to identify our noble families will encourage their members to see themselves as part of a greater whole, inspiring them to improve their dynasty's reputation rather than being obsessed with personal status.]
  innovation_agot_heraldry_desc:0 "Establishing hereditary designs to identify our noble families will encourage their members to see themselves as part of a greater whole, inspiring them to improve their dynasty's reputation rather than being obsessed with personal status."
-### TODO NOT-IN-ST: innovation_agot_siege_01 [AGOT: Battering Ram]
- innovation_agot_siege_01:0 "Battering Ram"
+
+ innovation_agot_siege_01:0 "Koç Başı"
 ### TODO NOT-IN-ST: innovation_agot_siege_01_desc [AGOT: As men built forts and bastions, so too did others find ways to break those defenses.]
  innovation_agot_siege_01_desc:0 "As men built forts and bastions, so too did others find ways to break those defenses."
 ### TODO NOT-IN-ST: unlock_maa_battering_ram [AGOT: Can recruit [GetMaA('battering_ram').GetName] as [men_at_arms|E]]
@@ -27,12 +27,12 @@
  innovation_agot_professional_lances:0 "Professional Lances"
 ### TODO NOT-IN-ST: innovation_agot_professional_lances_desc [AGOT: The might of Westeros lies in its heavy cavalry, and this culture has embraced mobile warfare. Its heavy cavalry are known for their ferocity and speed.]
  innovation_agot_professional_lances_desc:0 "The might of Westeros lies in its heavy cavalry, and this culture has embraced mobile warfare. Its heavy cavalry are known for their ferocity and speed."
-### TODO NOT-IN-ST: innovation_maesters [AGOT: Maesters]
- innovation_maesters:0 "Maesters"
+
+ innovation_maesters:0 "Üstatlar"
 ### TODO NOT-IN-ST: innovation_maesters_desc [AGOT: Trained at the Citadel in all manners of knowledge, the lords of Westeros have found maesters vital to the stability of their rule and the maintenance of their health.]
  innovation_maesters_desc:0 "Trained at the Citadel in all manners of knowledge, the lords of Westeros have found maesters vital to the stability of their rule and the maintenance of their health."
-### TODO NOT-IN-ST: innovation_agot_landed_gentry [AGOT: Landed Gentry]
- innovation_agot_landed_gentry:0 "Landed Gentry"
+
+ innovation_agot_landed_gentry:0 "Toprak Sahibi Soylular"
 ### TODO NOT-IN-ST: innovation_agot_landed_gentry_desc [AGOT: Across Westeros, a shared class of minor nobility has emerged. Though styled differently as masters in the North and Iron Isles or landed knights in the south, they serve the same role, holding lands and titles in service to their liege lords.]
  innovation_agot_landed_gentry_desc:0 "Across Westeros, a shared class of minor nobility has emerged. Though styled differently as masters in the North and Iron Isles or landed knights in the south, they serve the same role, holding lands and titles in service to their liege lords."
 ### TODO NOT-IN-ST: unlock_landed_knight_contract [AGOT: Unlocks the #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_landed_knight' )]#! [vassal_contract|E]]
@@ -101,22 +101,22 @@
  innovation_agot_stepstone_fighting:0 "Stepstones Raiding"
 ### TODO NOT-IN-ST: innovation_agot_stepstone_fighting_desc [AGOT: The Narrow Sea connects many trade hubs, and wherever trade flourishes, so does piracy. The Stepstones are home to countless pirates — from the lowliest cutthroats to powerful pirate princes — all seeking their fortune among the islands.]
  innovation_agot_stepstone_fighting_desc:0 "The Narrow Sea connects many trade hubs, and wherever trade flourishes, so does piracy. The Stepstones are home to countless pirates — from the lowliest cutthroats to powerful pirate princes — all seeking their fortune among the islands."
-### TODO NOT-IN-ST: unlock_stepstone_sailors [AGOT: Can recruit [GetMaA('stepstone_sailors').GetName] as [men_at_arms|E]]
- unlock_stepstone_sailors:0 "Can recruit [GetMaA('stepstone_sailors').GetName] as [men_at_arms|E]"
+
+ unlock_stepstone_sailors:0 "[GetMaA('stepstone_sailors').GetName]'i [men_at_arms|E] olarak toplayabilir"
 ### TODO NOT-IN-ST: innovation_agot_giants [AGOT: Walking with Giants]
  innovation_agot_giants:0 "Walking with Giants"
 ### TODO NOT-IN-ST: innovation_agot_giants_desc [AGOT: Beyond the Wall lie many things forgotten in the south. Giants still roam these lands, and sometimes one will join a tribe or band for reasons unknown.]
  innovation_agot_giants_desc:0 "Beyond the Wall lie many things forgotten in the south. Giants still roam these lands, and sometimes one will join a tribe or band for reasons unknown."
 ### TODO NOT-IN-ST: unlock_giants [AGOT: Can recruit [GetMaA('giant_regiment').GetName] as [men_at_arms|E]]
  unlock_giants:0 "Can recruit [GetMaA('giant_regiment').GetName] as [men_at_arms|E]"
-### TODO NOT-IN-ST: innovation_agot_goldenheart_bowmen [AGOT: Goldenheart Bowmen]
- innovation_agot_goldenheart_bowmen:0 "Goldenheart Bowmen"
+
+ innovation_agot_goldenheart_bowmen:0 "Altın Yürek Okçuları"
 ### TODO NOT-IN-ST: innovation_agot_goldenheart_bowmen_desc [AGOT: Long ago, the Summer Isles were plagued by pirates and slavers — until the coming of Xanda Qo. She armed her archers with bows of goldenheart, unmatched in quality save by those made of dragonbone. These archers and their swanships have become feared by pirates and slavers alike.]
  innovation_agot_goldenheart_bowmen_desc:0 "Long ago, the Summer Isles were plagued by pirates and slavers — until the coming of Xanda Qo. She armed her archers with bows of goldenheart, unmatched in quality save by those made of dragonbone. These archers and their swanships have become feared by pirates and slavers alike."
 ### TODO NOT-IN-ST: unlock_goldenheart_bowmen [AGOT: Can recruit [GetMaA('goldenheart_bowmen').GetName] as [men_at_arms|E]]
  unlock_goldenheart_bowmen:0 "Can recruit [GetMaA('goldenheart_bowmen').GetName] as [men_at_arms|E]"
-### TODO NOT-IN-ST: innovation_agot_rubies_and_iron [AGOT: Rubies and Iron]
- innovation_agot_rubies_and_iron:0 "Rubies and Iron"
+
+ innovation_agot_rubies_and_iron:0 "Yakutlar ve Demir"
 ### TODO NOT-IN-ST: innovation_agot_rubies_and_iron_desc [AGOT: The surviving bastions of the Patrimony of Hyrkoon and their peoples are a strange group. Unlike in other lands, men are forbidden from war, and their women warriors adorn themselves with rubies in their cheeks and iron ring piercings.]
  innovation_agot_rubies_and_iron_desc:0 "The surviving bastions of the Patrimony of Hyrkoon and their peoples are a strange group. Unlike in other lands, men are forbidden from war, and their women warriors adorn themselves with rubies in their cheeks and iron ring piercings."
 ### TODO NOT-IN-ST: unlock_ruby_spearwomen [AGOT: Can recruit [GetMaA('ruby_spearwomen').GetName] as [men_at_arms|E]]

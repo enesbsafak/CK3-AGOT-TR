@@ -1,6 +1,6 @@
-﻿l_english:
-### TODO NOT-IN-ST: activity_reaving [AGOT: Reaving]
- activity_reaving:0 "Reaving"
+﻿﻿l_english:
+
+ activity_reaving:0 "Yağma"
 ### TODO NOT-IN-ST: activity_reaving_owner [AGOT: Reaver]
  activity_reaving_owner:0 "Reaver"
 ### TODO NOT-IN-ST: activity_reaving_name [AGOT: The Great Reaving]
@@ -33,18 +33,18 @@
  agot_reaving.0001.e:0 "I have changed my mind. This is not the right time."
 ### TODO NOT-IN-ST: agot_reaving.0010.desc [AGOT: Why you would accept my invitation only to attend [other_host.GetTitledFirstNamePossessive] court instead I do not know, but know that I will remember this.]
  agot_reaving.0010.desc:0 "Why you would accept my invitation only to attend [other_host.GetTitledFirstNamePossessive] court instead I do not know, but know that I will remember this."
-### TODO NOT-IN-ST: agot_reaving.0010.a [AGOT: Unfortunate.]
- agot_reaving.0010.a:0 "Unfortunate."
+
+ agot_reaving.0010.a:0 "Talihsizlik."
 ### TODO NOT-IN-ST: agot_reaving.1002.opening [AGOT: [sender.Custom2('AppropriateGreeting', ROOT.Char)]]
  agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
 ### TODO NOT-IN-ST: agot_reaving.1002.opening_desc [AGOT: I hereby invite you to a feast at my court in [barony.GetNameNoTier]!]
  agot_reaving.1002.opening_desc:0 "I hereby invite you to a feast at my court in [barony.GetNameNoTier]!"
-### TODO NOT-IN-ST: agot_reaving.1002.host_likes_me [AGOT: I hope you will attend, as your presence would otherwise be sorely missed.]
- agot_reaving.1002.host_likes_me:0 "I hope you will attend, as your presence would otherwise be sorely missed."
+
+ agot_reaving.1002.host_likes_me:0 "Umarım katılırsın, yoksa yokluğun çok aranır."
 ### TODO NOT-IN-ST: agot_reaving.1002.host_gets_along_with_me [AGOT: As a notable [ROOT.Char.GetTitleTierName], I would be honored by your attendance.]
  agot_reaving.1002.host_gets_along_with_me:0 "As a notable [ROOT.Char.GetTitleTierName], I would be honored by your attendance."
-### TODO NOT-IN-ST: agot_reaving.1002.host_dislikes_me [AGOT: I expect everyone of note to be there, which unfortunately includes you.]
- agot_reaving.1002.host_dislikes_me:0 "I expect everyone of note to be there, which unfortunately includes you."
+
+ agot_reaving.1002.host_dislikes_me:0 "Adı sanı duyulmuş herkesin orada olmasını bekliyorum, ne yazık ki buna sen de dahilsin."
 ### TODO NOT-IN-ST: agot_reaving.1002.a [AGOT: Of course I will attend.]
  agot_reaving.1002.a:0 "Of course I will attend."
 ### TODO NOT-IN-ST: agot_reaving.1002.b [AGOT: I will attend. Reluctantly.]
@@ -55,16 +55,16 @@
  agot_reaving.1002.d:0 "No, I refuse!"
 ### TODO NOT-IN-ST: agot_reaving.1003.desc [AGOT: I hereby invite you to a Great Reaving at my court in [barony.GetNameNoTier]! It will be a grand affair, worthy of your honorable presence.]
  agot_reaving.1003.desc:0 "I hereby invite you to a Great Reaving at my court in [barony.GetNameNoTier]! It will be a grand affair, worthy of your honorable presence."
-### TODO NOT-IN-ST: agot_reaving.1003.a [AGOT: It will be my pleasure.]
- agot_reaving.1003.a:0 "It will be my pleasure."
-### TODO NOT-IN-ST: agot_reaving.1003.b [AGOT: I have more important matters to attend to.]
- agot_reaving.1003.b:0 "I have more important matters to attend to."
+
+ agot_reaving.1003.a:0 "Benim için zevktir."
+
+ agot_reaving.1003.b:0 "İlgilenmem gereken daha önemli işler var."
 ### TODO NOT-IN-ST: agot_reaving.1004.desc [AGOT: I hereby invite you to a agot_reaving at my court in [barony.GetNameNoTier]! It will be a grand affair, with delightful food and entertainment.]
  agot_reaving.1004.desc:0 "I hereby invite you to a agot_reaving at my court in [barony.GetNameNoTier]! It will be a grand affair, with delightful food and entertainment."
-### TODO NOT-IN-ST: agot_reaving.1004.a [AGOT: It will be my pleasure.]
- agot_reaving.1004.a:0 "It will be my pleasure."
-### TODO NOT-IN-ST: agot_reaving.1004.b [AGOT: I have more important matters to attend to.]
- agot_reaving.1004.b:0 "I have more important matters to attend to."
+
+ agot_reaving.1004.a:0 "Benim için zevktir."
+
+ agot_reaving.1004.b:0 "İlgilenmem gereken daha önemli işler var."
 ### TODO NOT-IN-ST: agot_reaving.1008.t [AGOT: Great Reaving: Departure]
  agot_reaving.1008.t:0 "Great Reaving: Departure"
 ### TODO NOT-IN-ST: agot_reaving.1008.desc.opening [AGOT: A thicket of masts and spars crowd the port of [ROOT.Char.GetCapitalLocation.GetName]. This stout flotilla of longships is crewed by the leal and bold Ironmen who have answered the call of [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]. They are eager at the chance to prove the salt in their blood by pillaging the green lands across the Narrow Sea. \n\nAs we prepare for the Great [reaving|E] to [ROOT.Char.Custom('ReavingDestination')], I know that the [ROOT.Char.GetFaith.PantheonTerm] will fill our sails and guide our swords.]
@@ -179,12 +179,12 @@
  agot_reaving.2006.b.tt:0 "I will free the woman and take her as my salt wife!"
 ### TODO NOT-IN-ST: agot_reaving.2006.a.success_title [AGOT: Killed the red priest and paid the iron price for the gold!]
  agot_reaving.2006.a.success_title:0 "Killed the red priest and paid the iron price for the gold!"
-### TODO NOT-IN-ST: agot_reaving.2006.a.failure_title [AGOT: The red priest forced you to flee...]
- agot_reaving.2006.a.failure_title:0 "The red priest forced you to flee..."
+
+ agot_reaving.2006.a.failure_title:0 "Kızıl rahip seni kaçmaya zorladı..."
 ### TODO NOT-IN-ST: agot_reaving.2006.b.success_title [AGOT: Killed the red priest and paid the iron price for the woman!]
  agot_reaving.2006.b.success_title:0 "Killed the red priest and paid the iron price for the woman!"
-### TODO NOT-IN-ST: agot_reaving.2006.b.failure_title [AGOT: The red priest forced you to flee...]
- agot_reaving.2006.b.failure_title:0 "The red priest forced you to flee..."
+
+ agot_reaving.2006.b.failure_title:0 "Kızıl rahip seni kaçmaya zorladı..."
 ### TODO NOT-IN-ST: agot_reaving.2007.t [AGOT: The Leviathan: The Attack]
  agot_reaving.2007.t:0 "The Leviathan: The Attack"
 ### TODO NOT-IN-ST: agot_reaving.2007.desc [AGOT: The men have spotted a large whale that has been following us for the past few days. The beast has kept it's distance, yet men are saying they can see scars upon it when it comes to the surface. I wonder if the whale has survived attacks by Ibbenese ships? The thought had not been long with me, when the beast decided to attack. The men and I scramble to arm ourselves and try to bring the beast down or drive it off before it can sink our vessel!]
@@ -197,8 +197,8 @@
  agot_reaving.2008.t:0 "Pursuit: Ibbenese"
 ### TODO NOT-IN-ST: agot_reaving.2008.desc [AGOT: We could smell the vessel before we saw it. A Ibbenese Whaling Ship was a head of us, the men were mixed on if we should pursue. Some felt it would not be worth raiding, others were it seemed bored or itching for a fight, after all such a ship would be easy to catch. The men look to me to decide how we should act.]
  agot_reaving.2008.desc:0 "We could smell the vessel before we saw it. A Ibbenese Whaling Ship was a head of us, the men were mixed on if we should pursue. Some felt it would not be worth raiding, others were it seemed bored or itching for a fight, after all such a ship would be easy to catch. The men look to me to decide how we should act."
-### TODO NOT-IN-ST: agot_reaving.2008.a [AGOT: Stations, we will catch her!]
- agot_reaving.2008.a:0 "Stations, we will catch her!"
+
+ agot_reaving.2008.a:0 "Mevzilerinize! Onu yakalayacağız!"
 ### TODO NOT-IN-ST: agot_reaving.2008.a.tt [AGOT: Gold is Gold and we will pay the Ironprice!]
  agot_reaving.2008.a.tt:0 "Gold is Gold and we will pay the Ironprice!"
 ### TODO NOT-IN-ST: agot_reaving.2008.b [AGOT: It is not worth the smell...]
@@ -233,42 +233,42 @@
  agot_reaving.2010.t:0 "Pursuit: Pentoshi Ship"
 ### TODO NOT-IN-ST: agot_reaving.2010.desc [AGOT: A Pentoshi Ship was sighted by the men The winds are in our favor and she seems to be slow from a full cargo. My mouth waters thinking of the Cheeses and Pale Amber Wine known to Pentos that would be within the ships haul.]
  agot_reaving.2010.desc:0 "A Pentoshi Ship was sighted by the men The winds are in our favor and she seems to be slow from a full cargo. My mouth waters thinking of the Cheeses and Pale Amber Wine known to Pentos that would be within the ships haul."
-### TODO NOT-IN-ST: agot_reaving.2010.a [AGOT: Stations, we will catch her!]
- agot_reaving.2010.a:0 "Stations, we will catch her!"
-### TODO NOT-IN-ST: agot_reaving.2010.a.tt [AGOT: Start chasing the ship! You are the Wolves of the Sea after all!]
- agot_reaving.2010.a.tt:0 "Start chasing the ship! You are the Wolves of the Sea after all!"
-### TODO NOT-IN-ST: agot_reaving.2010.b [AGOT: Not worth our time]
- agot_reaving.2010.b:0 "Not worth our time"
-### TODO NOT-IN-ST: agot_reaving.2010.b.tt [AGOT: There is better game out there..]
- agot_reaving.2010.b.tt:0 "There is better game out there.."
-### TODO NOT-IN-ST: agot_reaving.2010.a.success_title [AGOT: You Caught the Ship!]
- agot_reaving.2010.a.success_title:0 "You Caught the Ship!"
-### TODO NOT-IN-ST: agot_reaving.2010.a.failure_title [AGOT: The Ship escaped...]
- agot_reaving.2010.a.failure_title:0 "The Ship escaped..."
+
+ agot_reaving.2010.a:0 "Mevzilerinize! Onu yakalayacağız!"
+
+ agot_reaving.2010.a.tt:0 "Gemiyi kovalamaya başlayın! Sonuçta siz Denizin Kurtlarısınız!"
+
+ agot_reaving.2010.b:0 "Zamanımıza değmez"
+
+ agot_reaving.2010.b.tt:0 "Daha iyi avlar var oralarda..."
+
+ agot_reaving.2010.a.success_title:0 "Gemiyi Yakaladın!"
+
+ agot_reaving.2010.a.failure_title:0 "Gemi kaçtı..."
 ### TODO NOT-IN-ST: agot_reaving.2011.t [AGOT: Pursuit: Lys Ship]
  agot_reaving.2011.t:0 "Pursuit: Lys Ship"
 ### TODO NOT-IN-ST: agot_reaving.2011.desc [AGOT: A Lys ship was spotted on the horizon. Such a ship could be carrying valuables and perhaps slaves meant for the pillow houses of its homeland. The men look to me for the decision on if we pursue.]
  agot_reaving.2011.desc:0 "A Lys ship was spotted on the horizon. Such a ship could be carrying valuables and perhaps slaves meant for the pillow houses of its homeland. The men look to me for the decision on if we pursue."
 ### TODO NOT-IN-ST: agot_reaving.2011.a [AGOT: I intend to claim a salt wife!]
  agot_reaving.2011.a:0 "I intend to claim a salt wife!"
-### TODO NOT-IN-ST: agot_reaving.2011.a.tt [AGOT: Start chasing the ship! You are the Wolves of the Sea after all!]
- agot_reaving.2011.a.tt:0 "Start chasing the ship! You are the Wolves of the Sea after all!"
-### TODO NOT-IN-ST: agot_reaving.2011.b [AGOT: Stations, we will catch her!]
- agot_reaving.2011.b:0 "Stations, we will catch her!"
-### TODO NOT-IN-ST: agot_reaving.2011.b.tt [AGOT: Start chasing the ship! You are the Wolves of the Sea after all!]
- agot_reaving.2011.b.tt:0 "Start chasing the ship! You are the Wolves of the Sea after all!"
-### TODO NOT-IN-ST: agot_reaving.2011.c [AGOT: Not worth our time]
- agot_reaving.2011.c:0 "Not worth our time"
-### TODO NOT-IN-ST: agot_reaving.2011.c.tt [AGOT: There is better game out there..]
- agot_reaving.2011.c.tt:0 "There is better game out there.."
+
+ agot_reaving.2011.a.tt:0 "Gemiyi kovalamaya başlayın! Sonuçta siz Denizin Kurtlarısınız!"
+
+ agot_reaving.2011.b:0 "Mevzilerinize! Onu yakalayacağız!"
+
+ agot_reaving.2011.b.tt:0 "Gemiyi kovalamaya başlayın! Sonuçta siz Denizin Kurtlarısınız!"
+
+ agot_reaving.2011.c:0 "Zamanımıza değmez"
+
+ agot_reaving.2011.c.tt:0 "Daha iyi avlar var oralarda..."
 ### TODO NOT-IN-ST: agot_reaving.2011.a.success_title [AGOT: You caught the ship and claimed a salt wife!]
  agot_reaving.2011.a.success_title:0 "You caught the ship and claimed a salt wife!"
 ### TODO NOT-IN-ST: agot_reaving.2011.a.failure_title [AGOT: The ship escaped...]
  agot_reaving.2011.a.failure_title:0 "The ship escaped..."
 ### TODO NOT-IN-ST: agot_reaving.2011.b.success_title [AGOT: You caught the ship!]
  agot_reaving.2011.b.success_title:0 "You caught the ship!"
-### TODO NOT-IN-ST: agot_reaving.2011.b.failure_title [AGOT: The Ship escaped...]
- agot_reaving.2011.b.failure_title:0 "The Ship escaped..."
+
+ agot_reaving.2011.b.failure_title:0 "Gemi kaçtı..."
 ### TODO NOT-IN-ST: agot_reaving.2012.t [AGOT: Tyroshi War Gallon]
  agot_reaving.2012.t:0 "Tyroshi War Gallon"
 ### TODO NOT-IN-ST: agot_reaving.2012.desc [AGOT: A Tyroshi War Gallon was spotted, no doubt on it's way to clear out some pirate lord from the Stepstones who has been causing trouble with the trade routes.]
@@ -293,18 +293,18 @@
  agot_reaving.2013.a:0 "What gold is there here?"
 ### TODO NOT-IN-ST: agot_reaving.2013.a.tt [AGOT: There must be some things of value here...]
  agot_reaving.2013.a.tt:0 "There must be some things of value here..."
-### TODO NOT-IN-ST: agot_reaving.2013.b [AGOT: She will be my salt wife.]
- agot_reaving.2013.b:0 "She will be my salt wife."
-### TODO NOT-IN-ST: agot_reaving.2013.b.tt [AGOT: She will make a fine salt wife.]
- agot_reaving.2013.b.tt:0 "She will make a fine salt wife."
-### TODO NOT-IN-ST: agot_reaving.2013.c [AGOT: She will be my salt wife.]
- agot_reaving.2013.c:0 "She will be my salt wife."
-### TODO NOT-IN-ST: agot_reaving.2013.c.tt [AGOT: She will make a fine salt wife.]
- agot_reaving.2013.c.tt:0 "She will make a fine salt wife."
-### TODO NOT-IN-ST: agot_reaving.2013.d [AGOT: She will be my salt wife.]
- agot_reaving.2013.d:0 "She will be my salt wife."
-### TODO NOT-IN-ST: agot_reaving.2013.d.tt [AGOT: She will make a fine salt wife.]
- agot_reaving.2013.d.tt:0 "She will make a fine salt wife."
+
+ agot_reaving.2013.b:0 "O benim tuz karım olacak."
+
+ agot_reaving.2013.b.tt:0 "İyi bir tuz karısı olacak."
+
+ agot_reaving.2013.c:0 "O benim tuz karım olacak."
+
+ agot_reaving.2013.c.tt:0 "İyi bir tuz karısı olacak."
+
+ agot_reaving.2013.d:0 "O benim tuz karım olacak."
+
+ agot_reaving.2013.d.tt:0 "İyi bir tuz karısı olacak."
 ### TODO NOT-IN-ST: agot_reaving.2014.t [AGOT: Small Pirate Hide Out]
  agot_reaving.2014.t:0 "Small Pirate Hide Out"
 ### TODO NOT-IN-ST: agot_reaving.2014.desc [AGOT: We have come across the hide out of a small Pirate lord in the Stepstones. While we are better armed then them, they have held up in a fortified cave on the coast line. We could lead a charge and break the defenses or perhaps we maybe able to sneak some men in and open a path]

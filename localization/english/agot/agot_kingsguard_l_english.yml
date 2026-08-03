@@ -1,8 +1,8 @@
-﻿﻿l_english:
-### TODO NOT-IN-ST: kingsguard_lord_commander_male [AGOT: Lord Commander]
- kingsguard_lord_commander_male: "Lord Commander"
-### TODO NOT-IN-ST: kingsguard_lord_commander_flavor [AGOT: Lord Commander]
- kingsguard_lord_commander_flavor: "Lord Commander"
+﻿﻿﻿l_english:
+
+ kingsguard_lord_commander_male:0 "Lord Kumandan"
+
+ kingsguard_lord_commander_flavor:0 "Lord Kumandan"
 ### TODO NOT-IN-ST: kingsguard_lord_commander [AGOT: Lord Commander of the Kingsguard]
  kingsguard_lord_commander: "Lord Commander of the Kingsguard"
 ### TODO NOT-IN-ST: kingsguard_lord_commander_name [AGOT: $kingsguard_lord_commander$]
@@ -13,20 +13,20 @@
  queensguard_lord_commander_name:0 "Lord Commander of the Queensguard"
 ### TODO NOT-IN-ST: KINGSGUARD [AGOT: [CHARACTER.Custom('KingsguardName')]]
  KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]"
-### TODO NOT-IN-ST: kingsguard_possessive [AGOT: Kingsguard's]
- kingsguard_possessive: "Kingsguard's"
-### TODO NOT-IN-ST: kingsguard_1 [AGOT: Kingsguard]
- kingsguard_1: "Kingsguard" # $KINGSGUARD$
-### TODO NOT-IN-ST: kingsguard_2 [AGOT: Kingsguard]
- kingsguard_2: "Kingsguard"
-### TODO NOT-IN-ST: kingsguard_3 [AGOT: Kingsguard]
- kingsguard_3: "Kingsguard"
-### TODO NOT-IN-ST: kingsguard_4 [AGOT: Kingsguard]
- kingsguard_4: "Kingsguard"
-### TODO NOT-IN-ST: kingsguard_5 [AGOT: Kingsguard]
- kingsguard_5: "Kingsguard"
-### TODO NOT-IN-ST: kingsguard_6 [AGOT: Kingsguard]
- kingsguard_6: "Kingsguard"
+
+ kingsguard_possessive:0 "Kral Muhafızının"
+
+ kingsguard_1:0 "Kral Muhafızı" # $KINGSGUARD$
+
+ kingsguard_2:0 "Kral Muhafızı"
+
+ kingsguard_3:0 "Kral Muhafızı"
+
+ kingsguard_4:0 "Kral Muhafızı"
+
+ kingsguard_5:0 "Kral Muhafızı"
+
+ kingsguard_6:0 "Kral Muhafızı"
 ### TODO NOT-IN-ST: kingsguard_1_possessive [AGOT: $kingsguard_possessive$]
  kingsguard_1_possessive: "$kingsguard_possessive$"
 ### TODO NOT-IN-ST: kingsguard_2_possessive [AGOT: $kingsguard_possessive$]
@@ -43,8 +43,8 @@
  KINGSGUARD_CLICK_TO_HIRE:0 "Interact with Characters \nto appoint a [ActiveCouncilTask.GetPositionName|E]"
 ### TODO NOT-IN-ST: KINGSGUARD_TAB_BUTTON_TEXT [AGOT: Your [GetPlayer.Custom('KingsguardName')]]
  KINGSGUARD_TAB_BUTTON_TEXT:0 "Your [GetPlayer.Custom('KingsguardName')]"
-### TODO NOT-IN-ST: kingsguard_name [AGOT: Kingsguard]
- kingsguard_name:0 "Kingsguard"
+
+ kingsguard_name:0 "Kral Muhafızı"
 ### TODO NOT-IN-ST: queensguard_name [AGOT: Queensguard]
  queensguard_name:0 "Queensguard"
 ### TODO NOT-IN-ST: kingsguard_lord_commander_modifier [AGOT: Liege's Lord Commander]
@@ -69,8 +69,8 @@
  task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] gets [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]"
 ### TODO NOT-IN-ST: valid_kingsguard_bodyguard_court [AGOT: There are no unguarded members of your dynasty in this court.]
  valid_kingsguard_bodyguard_court: "There are no unguarded members of your dynasty in this court."
-### TODO NOT-IN-ST: kingsguard_bodyguard [AGOT: Bodyguard]
- kingsguard_bodyguard: "Bodyguard"
+
+ kingsguard_bodyguard:0 "Koruma"
 ### TODO NOT-IN-ST: kingsguard_bodyguard_desc [AGOT: This character is being guarded by a member of the Kingsguard]
  kingsguard_bodyguard_desc: "This character is being guarded by a member of the Kingsguard"
 ### TODO NOT-IN-ST: kingsguard_bodyguard_1 [AGOT: Guard Dynasty Member]
@@ -85,20 +85,20 @@
  kingsguard_bodyguard_5: "$kingsguard_bodyguard_1$"
 ### TODO NOT-IN-ST: kingsguard_bodyguard_6 [AGOT: $kingsguard_bodyguard_1$]
  kingsguard_bodyguard_6: "$kingsguard_bodyguard_1$"
-### TODO NOT-IN-ST: kingsguard_lord_commander_default [AGOT: Protection]
- kingsguard_lord_commander_default: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_1 [AGOT: Protection]
- kingsguard_default_1: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_2 [AGOT: Protection]
- kingsguard_default_2: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_3 [AGOT: Protection]
- kingsguard_default_3: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_4 [AGOT: Protection]
- kingsguard_default_4: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_5 [AGOT: Protection]
- kingsguard_default_5: "Protection"
-### TODO NOT-IN-ST: kingsguard_default_6 [AGOT: Protection]
- kingsguard_default_6: "Protection"
+
+ kingsguard_lord_commander_default:0 "Koruma"
+
+ kingsguard_default_1:0 "Koruma"
+
+ kingsguard_default_2:0 "Koruma"
+
+ kingsguard_default_3:0 "Koruma"
+
+ kingsguard_default_4:0 "Koruma"
+
+ kingsguard_default_5:0 "Koruma"
+
+ kingsguard_default_6:0 "Koruma"
 ### TODO NOT-IN-ST: task_protection_modifier [AGOT: Kingsguard Protection]
  task_protection_modifier:1 "Kingsguard Protection"
 ### TODO NOT-IN-ST: you_agot_kingsguard_can_fire [AGOT: Kingsguards may be fired or reassigned if certain requirements are met.]

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_kingsguard.1001.t [AGOT: An Oath Fulfilled: [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)]]
  agot_kingsguard.1001.t:0 "An Oath Fulfilled: [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)]"
 ### TODO NOT-IN-ST: agot_kingsguard.1001.fallback.t [AGOT: An Oath Broken: [AGOTGetTitledFirstNameNicknamedNoTooltip(removed_kg)]]
@@ -31,8 +31,8 @@
  agot_kingsguard.1001.c:0 "There are more pressing matters at hand."
 ### TODO NOT-IN-ST: agot_kingsguard.1001.c.tt [AGOT: Interact with characters in your realm to invite them to your personal guard.]
  agot_kingsguard.1001.c.tt:0 "Interact with characters in your realm to invite them to your personal guard."
-### TODO NOT-IN-ST: agot_kingsguard.1002.t [AGOT: Bestowing the Mantle]
- agot_kingsguard.1002.t:0 "Bestowing the Mantle"
+
+ agot_kingsguard.1002.t:0 "Pelerini Devretme"
 ### TODO NOT-IN-ST: agot_kingsguard.1002.desc.intro [AGOT: [dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has fulfilled [dead_kingsguard.GetHerHis] solemn oath and has departed this world under the mantle of [dead_kingsguard.GetHerHis] white cloak. [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)] [dead_kingsguard.GetDeathReason] in [dead_kingsguard.GetHerHis] [dead_kingsguard.GetAge][dead_kingsguard.Custom('GetAgeOrdinal')] year.]
  agot_kingsguard.1002.desc.intro:0 "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has fulfilled [dead_kingsguard.GetHerHis] solemn oath and has departed this world under the mantle of [dead_kingsguard.GetHerHis] white cloak. [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)] [dead_kingsguard.GetDeathReason] in [dead_kingsguard.GetHerHis] [dead_kingsguard.GetAge][dead_kingsguard.Custom('GetAgeOrdinal')] year."
 ### TODO NOT-IN-ST: agot_kingsguard.1002.fallback.desc.intro [AGOT: [removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has disgraced [removed_kg.GetHerselfHimself] and was stripped of [removed_kg.GetHerHis] white cloak.]
@@ -47,14 +47,14 @@
  agot_kingsguard.1002.c:0 "[AGOTGetTitledFirstNameNicknamedNoTooltip(kingsguard_candidate_3)] is built for the position!"
 ### TODO NOT-IN-ST: agot_kingsguard.1002.d [AGOT: Bah, none of these will do.]
  agot_kingsguard.1002.d:0 "Bah, none of these will do."
-### TODO NOT-IN-ST: agot_kingsguard.1002.d.tt [AGOT: Interact with characters in your realm to assign them to your Kingsguard]
- agot_kingsguard.1002.d.tt:0 "Interact with characters in your realm to assign them to your Kingsguard" #[ROOT.Char.Custom('KingsguardName')] <- this doesn't work in tooltips
+
+ agot_kingsguard.1002.d.tt:0 "Kral Muhafızı'na atamak için diyarındaki karakterlerle etkileşime geç" #[ROOT.Char.Custom('KingsguardName')] <- this doesn't work in tooltips
 ### TODO NOT-IN-ST: agot_kingsguard.1002.e [AGOT: I will need to look elsewhere.]
  agot_kingsguard.1002.e:0 "I will need to look elsewhere."
-### TODO NOT-IN-ST: agot_kingsguard.1002.e.tt [AGOT: Interact with characters in your realm to assign them to your Kingsguard]
- agot_kingsguard.1002.e.tt:0 "Interact with characters in your realm to assign them to your Kingsguard" #[ROOT.Char.Custom('KingsguardName')] <- this doesn't work in tooltips
-### TODO NOT-IN-ST: agot_kingsguard.1003.t [AGOT: Bestowing the Mantle]
- agot_kingsguard.1003.t:0 "Bestowing the Mantle"
+
+ agot_kingsguard.1002.e.tt:0 "Kral Muhafızı'na atamak için diyarındaki karakterlerle etkileşime geç" #[ROOT.Char.Custom('KingsguardName')] <- this doesn't work in tooltips
+
+ agot_kingsguard.1003.t:0 "Pelerini Devretme"
 ### TODO NOT-IN-ST: agot_kingsguard.1003.desc.intro [AGOT: [dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has fulfilled [dead_kingsguard.GetHerHis] solemn oath and has departed this world under the mantle of [dead_kingsguard.GetHerHis] white cloak. [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)] [dead_kingsguard.GetDeathReason].]
  agot_kingsguard.1003.desc.intro:0 "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has fulfilled [dead_kingsguard.GetHerHis] solemn oath and has departed this world under the mantle of [dead_kingsguard.GetHerHis] white cloak. [AGOTGetTitledFirstNameNicknamedNoTooltip(dead_kingsguard)] [dead_kingsguard.GetDeathReason]."
 ### TODO NOT-IN-ST: agot_kingsguard.1003.fallback.desc.intro [AGOT: [removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] has disgraced [removed_kg.GetHerselfHimself] and was stripped of [removed_kg.GetHerHis] white cloak.]
@@ -67,12 +67,12 @@
  agot_kingsguard.1005.opening:0 "[kingsguard_candidate.Custom2('AppropriateGreeting', ROOT.Char)]"
 ### TODO NOT-IN-ST: agot_kingsguard.1005.opening_desc [AGOT: I would be honored to serve within your [ROOT.Char.Custom('KingsguardName')]!]
  agot_kingsguard.1005.opening_desc:0 "I would be honored to serve within your [ROOT.Char.Custom('KingsguardName')]!"
-### TODO NOT-IN-ST: agot_kingsguard.1005.host_likes_me [AGOT: I hope you will attend, as your presence would otherwise be sorely missed.]
- agot_kingsguard.1005.host_likes_me:0 "I hope you will attend, as your presence would otherwise be sorely missed."
+
+ agot_kingsguard.1005.host_likes_me:0 "Umarım katılırsın, yoksa yokluğun çok aranır."
 ### TODO NOT-IN-ST: agot_kingsguard.1005.host_gets_along_with_me [AGOT: As a notable [ROOT.Char.GetTitleAsNameNoTooltip], I would be honored by your attendance.]
  agot_kingsguard.1005.host_gets_along_with_me:0 "As a notable [ROOT.Char.GetTitleAsNameNoTooltip], I would be honored by your attendance."
-### TODO NOT-IN-ST: agot_kingsguard.1005.host_dislikes_me [AGOT: I expect everyone of note to be there, which unfortunately includes you.]
- agot_kingsguard.1005.host_dislikes_me:0 "I expect everyone of note to be there, which unfortunately includes you."
+
+ agot_kingsguard.1005.host_dislikes_me:0 "Adı sanı duyulmuş herkesin orada olmasını bekliyorum, ne yazık ki buna sen de dahilsin."
 ### TODO NOT-IN-ST: agot_kingsguard.1005.a [AGOT: You shall come to the capital to take your vows!]
  agot_kingsguard.1005.a:0 "You shall come to the capital to take your vows!"
 ### TODO NOT-IN-ST: agot_kingsguard.1007.opening [AGOT: [kingsguard_candidate.Custom2('AppropriateGreeting', ROOT.Char)]]
@@ -163,8 +163,8 @@
  indicate_bodyguard_target: "[councillor.GetTitledFirstName] starts protecting [si_target.GetShortUIName]."
 ### TODO NOT-IN-ST: set_relation_bodyguard_first [AGOT: [TARGET_CHARACTER.GetUIName] starts protecting [CHARACTER.GetUIName].]
  set_relation_bodyguard_first: "[TARGET_CHARACTER.GetUIName] starts protecting [CHARACTER.GetUIName]."
-### TODO NOT-IN-ST: agot_kingsguard.2002.title [AGOT: Renegade [ROOT.Char.Custom('KingsguardName')]!]
- agot_kingsguard.2002.title:0 "Renegade [ROOT.Char.Custom('KingsguardName')]!"
+
+ agot_kingsguard.2002.title:0 "Kaçak [ROOT.Char.Custom('KingsguardName')]!"
 ### TODO NOT-IN-ST: agot_kingsguard.2002.desc [AGOT: [recipient.GetTitledFirstName] has managed to avoid capture and has fled into the city! Perhaps there is still time to circumvent [recipient.GetHerHis] flight.\n\n[kingsguard.GetName] is on watch and may be able to intercept [recipient.GetNameNoTooltip], or I could send word to [goldcloaks.GetName] and rouse the full force of the City Watch.]
  agot_kingsguard.2002.desc:0 "[recipient.GetTitledFirstName] has managed to avoid capture and has fled into the city! Perhaps there is still time to circumvent [recipient.GetHerHis] flight.\n\n[kingsguard.GetName] is on watch and may be able to intercept [recipient.GetNameNoTooltip], or I could send word to [goldcloaks.GetName] and rouse the full force of the City Watch."
 ### TODO NOT-IN-ST: agot_kingsguard.2002.a [AGOT: [kingsguard.GetName], return your sworn brother to me!]
@@ -175,8 +175,8 @@
  agot_kingsguard.2002.b:0 "[goldcloaks.GetTitledFirstName], seize him!"
 ### TODO NOT-IN-ST: agot_kingsguard.2002.c [AGOT: Let [recipient.GetHerHim] go, [recipient.GetSheHe] is of no threat to me.]
  agot_kingsguard.2002.c:0 "Let [recipient.GetHerHim] go, [recipient.GetSheHe] is of no threat to me."
-### TODO NOT-IN-ST: agot_kingsguard.2003.title [AGOT: Renegade [ROOT.Char.Custom('KingsguardName')]!]
- agot_kingsguard.2003.title:0 "Renegade [ROOT.Char.Custom('KingsguardName')]!"
+
+ agot_kingsguard.2003.title:0 "Kaçak [ROOT.Char.Custom('KingsguardName')]!"
 ### TODO NOT-IN-ST: agot_kingsguard.2003.desc [AGOT: My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))] has come to my court seeking asylum. [crown.GetTitledFirstNamePossessive] attempted to have [fleeing_kingsguard.GetFirstName] arrested on some trumped up charge and now [fleeing_kingsguard.GetSheHe] finds [fleeing_kingsguard.GetHerselfHimself] a fugitive of the realm. I must now make the difficult decision between my duty and my family in deciding what to do next.]
  agot_kingsguard.2003.desc:0 "My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))] has come to my court seeking asylum. [crown.GetTitledFirstNamePossessive] attempted to have [fleeing_kingsguard.GetFirstName] arrested on some trumped up charge and now [fleeing_kingsguard.GetSheHe] finds [fleeing_kingsguard.GetHerselfHimself] a fugitive of the realm. I must now make the difficult decision between my duty and my family in deciding what to do next."
 ### TODO NOT-IN-ST: agot_kingsguard.2003.a [AGOT: You are my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))], and you belong here.]
@@ -239,12 +239,12 @@
  agot_kingsguard.3005.t:0 "[essosi_warrior.GetSheHe|U] Comes Highly Recommended"
 ### TODO NOT-IN-ST: agot_kingsguard.3005.desc [AGOT: [sponsor.GetTitledFirstName] enters the throne room, accompanied by a [essosi_warrior.GetWomanMan] foreign to me.\n\n]
  agot_kingsguard.3005.desc:0 "[sponsor.GetTitledFirstName] enters the throne room, accompanied by a [essosi_warrior.GetWomanMan] foreign to me.\n\n"My [ROOT.Char.GetLadyLord]," [sponsor.GetFirstNameNoTooltip] rasps, a proud look on [sponsor.GetHerHis] face. "It is my honor to introduce you to the greatest warrior Essos has ever seen. [essosi_warrior.GetFirstNameNoTooltip] is known from Braavos to Asshai, and [essosi_warrior.GetSheHe] would make an excellent addition to your [ROOT.Char.Custom('KingsguardName')].""
-### TODO NOT-IN-ST: agot_kingsguard.3005.a [AGOT: Welcome to the [ROOT.Char.Custom('KingsguardName')]!]
- agot_kingsguard.3005.a:0 "Welcome to the [ROOT.Char.Custom('KingsguardName')]!"
+
+ agot_kingsguard.3005.a:0 "[ROOT.Char.Custom('KingsguardName')]'e hoş geldin!"
 ### TODO NOT-IN-ST: agot_kingsguard.3005.agot_kingsguard.tt [AGOT: [essosi_warrior.GetName] will join your [GetPlayer.Custom('KingsguardName')]]
  agot_kingsguard.3005.agot_kingsguard.tt:0 "[essosi_warrior.GetName] will join your [GetPlayer.Custom('KingsguardName')] "
-### TODO NOT-IN-ST: agot_kingsguard.3005.b [AGOT: Perhaps you would take another position?]
- agot_kingsguard.3005.b:0 "Perhaps you would take another position?"
+
+ agot_kingsguard.3005.b:0 "Belki başka bir pozisyon alırsın?"
 ### TODO NOT-IN-ST: agot_kingsguard.3005.court_position.tt [AGOT: You will find an adequate position for [essosi_warrior.GetName].]
  agot_kingsguard.3005.court_position.tt:0 "You will find an adequate position for [essosi_warrior.GetName]."
 ### TODO NOT-IN-ST: agot_kingsguard.3005.c [AGOT: I have no need for more courtiers.]
@@ -263,12 +263,12 @@
  agot_kingsguard.3008.t:0 "[candidate.GetSheHe|U] Comes Highly Recommended"
 ### TODO NOT-IN-ST: agot_kingsguard.3008.desc [AGOT: [sponsor.GetTitledFirstName] enters the throne room, accompanied by a [candidate.GetWomanMan] foreign to me.\n\n]
  agot_kingsguard.3008.desc:0 "[sponsor.GetTitledFirstName] enters the throne room, accompanied by a [candidate.GetWomanMan] foreign to me.\n\n"My [ROOT.Char.GetLadyLord]," [sponsor.GetFirstNameNoTooltip] rasps, a proud look on [sponsor.GetHerHis] face. "It is my honor to introduce you to [candidate.GetFullNameNoTooltip]. [candidate.GetSheHe|U] is a most puissant [candidate.GetWomanMan] of considerable martial talent and has forsaken marriage and titles in the hope of one day joining your [ROOT.Char.Custom('KingsguardName')].""
-### TODO NOT-IN-ST: agot_kingsguard.3008.a [AGOT: Welcome to the [ROOT.Char.Custom('KingsguardName')]!]
- agot_kingsguard.3008.a:0 "Welcome to the [ROOT.Char.Custom('KingsguardName')]!"
+
+ agot_kingsguard.3008.a:0 "[ROOT.Char.Custom('KingsguardName')]'e hoş geldin!"
 ### TODO NOT-IN-ST: agot_kingsguard.3008.agot_kingsguard.tt [AGOT: [candidate.GetName] will join your [GetPlayer.Custom('KingsguardName')]]
  agot_kingsguard.3008.agot_kingsguard.tt:0 "[candidate.GetName] will join your [GetPlayer.Custom('KingsguardName')] "
-### TODO NOT-IN-ST: agot_kingsguard.3008.b [AGOT: Perhaps you would take another position?]
- agot_kingsguard.3008.b:0 "Perhaps you would take another position?"
+
+ agot_kingsguard.3008.b:0 "Belki başka bir pozisyon alırsın?"
 ### TODO NOT-IN-ST: agot_kingsguard.3008.b.tt [AGOT: [candidate.GetName] will be promised a position when one becomes available.]
  agot_kingsguard.3008.b.tt:0 "[candidate.GetName] will be promised a position when one becomes available."
 ### TODO NOT-IN-ST: agot_kingsguard.3008.c [AGOT: I am not so desperate that your like would guard me.]
@@ -337,14 +337,14 @@
  agot_kingsguard.3017.desc:0 "The naked corpse of my [ROOT.Char.Custom('KingsguardName')] [eunuch_kingsguard.GetFullName] has been found outside of a local brothel. [eunuch_kingsguard.GetSheHe|U] was discovered having been castrated, and to add to the insult, [eunuch_kingsguard.GetHerHis] own cock stuffed into [eunuch_kingsguard.GetHerHis] mouth. According to our sources, he was in the midst of an argument with a worker when he found himself overwhelmed by [eunuch_kingsguard.GetHerHis] lessers. Nude and without [eunuch_kingsguard.GetHerHis] weapon, he was overwhelmed by the whores.\n\nEmboldened by this the smallfolk have been stoked in a furor and are rioting in the streets. It seems [eunuch_kingsguard.GetFirstName] was well known, but not particularly well liked."
 ### TODO NOT-IN-ST: agot_kingsguard.3017.a [AGOT: [eunuch_kingsguard.GetFirstNameNoTooltip] you fool!]
  agot_kingsguard.3017.a:0 "[eunuch_kingsguard.GetFirstNameNoTooltip] you fool!"
-### TODO NOT-IN-ST: agot_kingsguard.9100.t [AGOT: A New [ROOT.Char.Custom('KingsguardName')]]
- agot_kingsguard.9100.t:0 "A New [ROOT.Char.Custom('KingsguardName')]"
+
+ agot_kingsguard.9100.t:0 "Yeni Bir [ROOT.Char.Custom('KingsguardName')]"
 ### TODO NOT-IN-ST: agot_kingsguard.9100.desc [AGOT: Now that I have defeated [loser.GetName], I must decide if I should keep [loser.GetHerHis] appointments to the [ROOT.Char.Custom('KingsguardName')], or if I should appoint my own.\n\nElevating my own appointees to the [ROOT.Char.Custom('KingsguardName')] will undoubtedly ensure my safety, but perhaps an argument could be made to keep some of the current members?]
  agot_kingsguard.9100.desc:0 "Now that I have defeated [loser.GetName], I must decide if I should keep [loser.GetHerHis] appointments to the [ROOT.Char.Custom('KingsguardName')], or if I should appoint my own.\n\nElevating my own appointees to the [ROOT.Char.Custom('KingsguardName')] will undoubtedly ensure my safety, but perhaps an argument could be made to keep some of the current members?"
 ### TODO NOT-IN-ST: agot_kingsguard.9100.a [AGOT: Let the judgment begin.]
  agot_kingsguard.9100.a:0 "Let the judgment begin."
-### TODO NOT-IN-ST: agot_kingsguard.9101.t [AGOT: A New [ROOT.Char.Custom('KingsguardName')]]
- agot_kingsguard.9101.t:0 "A New [ROOT.Char.Custom('KingsguardName')]"
+
+ agot_kingsguard.9101.t:0 "Yeni Bir [ROOT.Char.Custom('KingsguardName')]"
 ### TODO NOT-IN-ST: agot_kingsguard.9101.desc [AGOT: It is time to make my decision concerning who, if anyone, shall be removed from the [ROOT.Char.Custom('KingsguardName')].]
  agot_kingsguard.9101.desc:0 "It is time to make my decision concerning who, if anyone, shall be removed from the [ROOT.Char.Custom('KingsguardName')]."
 ### TODO NOT-IN-ST: agot_kingsguard.9101.a [AGOT: My will shall be done.]

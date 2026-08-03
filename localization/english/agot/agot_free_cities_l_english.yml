@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: free_city_events.0001.t [AGOT: A Letter with an Alliance Proposal]
  free_city_events.0001.t:0 "A Letter with an Alliance Proposal"
 ### TODO NOT-IN-ST: free_city_events.0001.desc [AGOT: A letter bearing the sigil of [request_sender.GetTitledFirstName] has been delivered to our court, its contents speaking of a decision of great consequence.\n\n[request_sender.GetTitledFirstNameNoTooltip] extends an olive branch, proposing the renewal of an ancient alliance that once gave rise to the mighty Triarchy. The memory of those days, when our cities stood united in strength and purpose, stirs within us once more.\n\n[request_sender.GetSheHe|U] now seeks to raise again the banner of the Kingdom of the Three Daughters, uniting Myr, Lys, and Tyrosh in common cause and shared ambition.\n\nShall we, as proud and sovereign cities, cast aside the animosities of the past and restore this alliance of old? Will we stand together, shoulder to shoulder, and face the coming storms as a united Triarchy, or will we instead follow our own courses, as lone ships braving the tempest?]
@@ -25,8 +25,8 @@
  free_city_events.1000.t:0 "Free the Free Cities"
 ### TODO NOT-IN-ST: free_city_events.1000.desc [AGOT: ]
  free_city_events.1000.desc:0 ""Did you think [dead_ruler.GetNamePossessive] tyranny would last forever? Now that [free_city.GetName] has been freed of [dead_ruler.GetHerHis] stain, we have resumed elections, and you are not who we choose.""
-### TODO NOT-IN-ST: free_city_events.1000.a [AGOT: Oh no...]
- free_city_events.1000.a:0 "Oh no..."
+
+ free_city_events.1000.a:0 "Ah hayır..."
 ### TODO NOT-IN-ST: free_city_events.1001.t [AGOT: Election Postponed]
  free_city_events.1001.t:0 "Election Postponed"
 ### TODO NOT-IN-ST: free_city_events.1001.desc_elector [AGOT: With the realm embroiled in a war against the [war_enemy.GetPrimaryTitle.GetName], the Conclave has deemed it unsafe to proceed with the election of a new First Magister.\n\nInstead, the [current_ruler.GetFullNameNicknamed] has temporarily assumed new powers to help maintain order and stability until the war ends.\n\nThe Conclave and the Gonfaloniere declare in an announcement that they acknowledge the First Magister's authority during this period of crisis, aware that their city's future hangs in the balance. The citizens now sit awaiting the end of the conflict, seemingly divided, either cheering on the decrees or uncertain what lies ahead once peace is restored.]
@@ -73,7 +73,7 @@
  free_city_events.2000.t:0 "The Prince's Price"
 ### TODO NOT-IN-ST: free_city_events.2000.desc [AGOT: I stand before the crowd, my hands bound, the weight of my failures heavier than any chains. For my loss of the war, my people will now sacrifice me to appease the gods.\n\nThe cold blade rests against my throat. I can hear the murmurs of the crowd, but none of it matters anymore; my fate is sealed.\n\nI think of what might have been, the ambitions I once held, and the men who followed me. It all feels so distant now.\n\nWith a final breath, the blade cuts through silence, and I am no more.]
  free_city_events.2000.desc:0 "I stand before the crowd, my hands bound, the weight of my failures heavier than any chains. For my loss of the war, my people will now sacrifice me to appease the gods.\n\nThe cold blade rests against my throat. I can hear the murmurs of the crowd, but none of it matters anymore; my fate is sealed.\n\nI think of what might have been, the ambitions I once held, and the men who followed me. It all feels so distant now.\n\nWith a final breath, the blade cuts through silence, and I am no more."
-### TODO NOT-IN-ST: free_city_events.2000.a [AGOT: ...]
+
  free_city_events.2000.a:0 "..."
 ### TODO NOT-IN-ST: PENTOS_LOST_WAR [AGOT: Truce signed after the sacrifice of [loser.GetName]]
  PENTOS_LOST_WAR:0 "Truce signed after the sacrifice of [loser.GetName]"
@@ -95,8 +95,8 @@
  agot_attempt_triarchy_desc:0 "Reach out to the other Three Daughters in order to form the Triarchy"
 ### TODO NOT-IN-ST: agot_attempt_triarchy_tooltip [AGOT: Reach out to your fellow rulers to form the triarchy]
  agot_attempt_triarchy_tooltip:0 "Reach out to your fellow rulers to form the triarchy"
-### TODO NOT-IN-ST: agot_attempt_triarchy_confirm [AGOT: Bring me my seal]
- agot_attempt_triarchy_confirm:0 "Bring me my seal"
+
+ agot_attempt_triarchy_confirm:0 "Mührümü getir"
 ### TODO NOT-IN-ST: request_war_interaction [AGOT: Request Permission for War]
  request_war_interaction:0 "Request Permission for War"
 ### TODO NOT-IN-ST: request_war_desc [AGOT: Request that the High Council vote to grant you permission to declare war]
@@ -117,8 +117,8 @@
  agot_seize_control_desc:0 "A dictatorship cannot last forever; if I want to secure my dynasty's succession I must abandon all pretense at democracy."
 ### TODO NOT-IN-ST: agot_seize_control_tooltip [AGOT: Forever end elections by converting to a Feudal government]
  agot_seize_control_tooltip:0 "Forever end elections by converting to a Feudal government"
-### TODO NOT-IN-ST: agot_seize_control_confirm [AGOT: Bring me my seal]
- agot_seize_control_confirm:0 "Bring me my seal"
+
+ agot_seize_control_confirm:0 "Mührümü getir"
 ### TODO NOT-IN-ST: agot_seize_control_full_county_control_tt [AGOT: You have maximum [county_control|E] in your [capital|E]]
  agot_seize_control_full_county_control_tt:0 "You have maximum [county_control|E] in your [capital|E]"
 ### TODO NOT-IN-ST: strong_hook_on_all_powerful_vassals_tt [AGOT: You have a [strong_hook|E] on all of your [powerful_vassals|E]]
@@ -133,18 +133,18 @@
  agot_form_undisputed_lands_confirm:0 "To infamy and immortality!"
 ### TODO NOT-IN-ST: three_daughters_confederation [AGOT: The confederation of the Three Daughters exists]
  three_daughters_confederation:0 "The confederation of the Three Daughters exists"
-### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty [AGOT: Break the Braavos-Pentos Treaty]
- agot_break_braavos_pentos_treaty:0 "Break the Braavos-Pentos Treaty"
+
+ agot_break_braavos_pentos_treaty:0 "Braavos-Pentos Antlaşması'nı Boz"
 ### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_desc [AGOT: Since 209, the Braavosi have forced the proud city of Pentos to abide by a heavy-handed treaty. The time has come for Pentos to tear this treaty to shreds and govern ourselves freely!]
  agot_break_braavos_pentos_treaty_desc:0 "Since 209, the Braavosi have forced the proud city of Pentos to abide by a heavy-handed treaty. The time has come for Pentos to tear this treaty to shreds and govern ourselves freely!"
 ### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_effect_tt [AGOT: The Braavos-Pentos Treaty will be broken. Pentos will once again be able to #bold develop their military, hire sellswords, and participate in slavery#!.]
  agot_break_braavos_pentos_treaty_effect_tt:0 "The Braavos-Pentos Treaty will be broken. Pentos will once again be able to #bold develop their military, hire sellswords, and participate in slavery#!."
 ### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_effect_2_tt [AGOT: Braavos will gain a casus belli for #bold 15 years#! that will allow them to try to reassert the treaty.]
  agot_break_braavos_pentos_treaty_effect_2_tt:0 "Braavos will gain a casus belli for #bold 15 years#! that will allow them to try to reassert the treaty."
-### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_tooltip [AGOT: Break the Braavos-Pentos Treaty]
- agot_break_braavos_pentos_treaty_tooltip:0 "Break the Braavos-Pentos Treaty"
-### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_confirm [AGOT: For Pentos!]
- agot_break_braavos_pentos_treaty_confirm:0 "For Pentos!"
+
+ agot_break_braavos_pentos_treaty_tooltip:0 "Braavos-Pentos Antlaşması'nı Boz"
+
+ agot_break_braavos_pentos_treaty_confirm:0 "Pentos için!"
 ### TODO NOT-IN-ST: agot_create_braavos_pentos_treaty_effect_tt [AGOT: [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] will be permanently added to all characters under the realm of Pentos. It may only be removed should Pentos break free through war.]
  agot_create_braavos_pentos_treaty_effect_tt:0 "[GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] will be permanently added to all characters under the realm of Pentos. It may only be removed should Pentos break free through war."
 ### TODO NOT-IN-ST: agot_break_braavos_pentos_treaty_as_braavos [AGOT: $agot_break_braavos_pentos_treaty$]
@@ -173,16 +173,16 @@
  gonfaloniere_diarchy_type:1 "Gonfalon"
 ### TODO NOT-IN-ST: gonfaloniere_diarch_title [AGOT: Gonfaloniere]
  gonfaloniere_diarch_title:0 "Gonfaloniere"
-### TODO NOT-IN-ST: second_magister_diarchy_type [AGOT: Magisterial Conclave]
- second_magister_diarchy_type:1 "Magisterial Conclave"
+
+ second_magister_diarchy_type:0 "Magisterlik Meclisi"
 ### TODO NOT-IN-ST: second_magister_diarch_title [AGOT: Second Magister]
  second_magister_diarch_title:0 "Second Magister"
 ### TODO NOT-IN-ST: high_councilor_diarchy_type [AGOT: Magisterial Council]
  high_councilor_diarchy_type:1 "Magisterial Council"
 ### TODO NOT-IN-ST: high_councilor_diarch_title [AGOT: High Councilor]
  high_councilor_diarch_title:0 "High Councilor"
-### TODO NOT-IN-ST: tyniate_diarchy_type [AGOT: Magisterial Conclave]
- tyniate_diarchy_type:1 "Magisterial Conclave"
+
+ tyniate_diarchy_type:0 "Magisterlik Meclisi"
 ### TODO NOT-IN-ST: tyniate_diarch_title [AGOT: Tyniate]
  tyniate_diarch_title:0 "Tyniate"
 ### TODO NOT-IN-ST: war_approved [AGOT: War Approved]

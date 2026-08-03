@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  martial_strategy.1051.t:0 "Söylentiler"
  martial_strategy.1051.desc:0 "[SelectLocalization( IsLandlessAdventurer( ROOT.Char ), 'Kampta', 'Sarayda')] konuşulan şeyler sürekli değişiklik gösterse de, son zamanlarda askerî meziyetlerim iyice gündem maddesi hâline gelmiş durumda. Herkes başarılarımın sırrını merak ediyor.\n\nBu ilgiyi itibarımı güçlendirmek için kullanabilirim... Bunun için önce başarımın sırrını belirlemem gerek."
  martial_strategy.1051.a:0 "Doğal yeteneklerim beni diğerlerinden üstün kılıyor."
@@ -191,8 +191,8 @@
  martial_strategy_special.1403.a:0 "Mecbursak yapacağız..."
  martial_strategy_special.1403.a.tt:0 "#F Katırlar için su taşıyoruz... Hâle bak!#!"
  martial_strategy_special.1403.b:0 "Şehre gideceksiniz dendiyse şehre gideceksiniz!"
-### TODO AGOT-ONLY: martial_strategy_special.1403.b.tt [AGOT: #F]
- martial_strategy_special.1403.b.tt:1 "#F "Do these commoners think water is more important than my orders?"#!"
+
+ martial_strategy_special.1403.b.tt:0 "#F "Do these commoners think water is more important than my orders?"#!"
  martial_strategy_special.1403.c:0 "Bir şekilde şehre ulaştırın, nasıl olduğu umurumda değil."
  martial_strategy_special.1403.d:0 "Aklımda enteresan bir fikir var."
  martial_strategy_special.1403.d.tt:0 "#F Her katır günde 8 galon su içiyorsa...#!"
@@ -209,15 +209,15 @@
  martial_strategy_special.1405.desc:1 "Küçük bir köyden geçerken yerel muhafızların her ne kadar basit giysiler giyseler de, benim sembolümü taşıyan silahlarla kuşandığını fark ediyorum!\n\nÇamurlu bir yolda [zealot.GetTitledFirstName] kendisini kasabanın "ilahi koruyucusu" olarak tanıtıyor. Görünen o ki askerlerim [zealot.GetFaith.HighGodName] yolunda ona yardım etmek adına zırhlarını çıkartmışlar."
 ### TODO AGOT-CHANGED: martial_strategy_special.1405.a [AGOT: I already rule through my ancestral right! | TR: Buraların yegâne ilahi koruyucusu benim!]
  martial_strategy_special.1405.a:1 "I already rule through my ancestral right!"
-### TODO AGOT-ONLY: martial_strategy_special.1405.a.tt [AGOT: #F]
- martial_strategy_special.1405.a.tt:1 "#F "These soldiers better remember that #EMP I#! was chosen by [zealot.GetFaith.HighGodName] according to a divine plan."#!"
+
+ martial_strategy_special.1405.a.tt:0 "#F "These soldiers better remember that #EMP I#! was chosen by [zealot.GetFaith.HighGodName] according to a divine plan."#!"
  martial_strategy_special.1405.b:0 "Bu kasabayı terk etmek için bir günün var, yobaz."
-### TODO AGOT-ONLY: martial_strategy_special.1405.b.tt [AGOT: #F]
- martial_strategy_special.1405.b.tt:2 "#F "It seems dangerous to punish the [zealot.GetWomanMan], but sending [zealot.GetHerHim] into exile will solve my problem for now."#!"
+
+ martial_strategy_special.1405.b.tt:0 "#F "It seems dangerous to punish the [zealot.GetWomanMan], but sending [zealot.GetHerHim] into exile will solve my problem for now."#!"
  martial_strategy_special.1405.c:0 "Er ya da geç kutsal asker taklidi yapmaktan sıkılacaklar."
  martial_strategy_special.1405.d:1 "Bana katıl, birlikte [ROOT.Char.GetFaith.HighGodNamePossessive] buyruğunu yerine getirelim!"
-### TODO AGOT-ONLY: martial_strategy_special.1405.d.tt [AGOT: #F]
- martial_strategy_special.1405.d.tt:2 "#F "After all, are we not all servants of [ROOT.Char.GetFaith.HighGodNameAlternate] in one way or another?"#!"
+
+ martial_strategy_special.1405.d.tt:0 "#F "After all, are we not all servants of [ROOT.Char.GetFaith.HighGodNameAlternate] in one way or another?"#!"
  martial_strategy_special.1498.t:0 "Kayıp Askerler"
  martial_strategy_special.1498.desc:0 "Son birliklerimin de [capital.GetNameNoTier] şehrine ulaşmasıyla birlikte düzen yeniden sağlandı.\n\nYaşananları askerî dehanın bir tezahürü olarak nitelendirmek zor olsa da, bu maceranın orduma ve ordumu oluşturan askerlere dair yeni bilgiler edinmemi sağladığını söyleyebilirim."
  martial_strategy_special.1498.a:0 "Sonuçta faydası dokundu!"

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: DRAGON_IN_SIEGE [AGOT: Use Dragon]
  DRAGON_IN_SIEGE:0 "Use Dragon"
 ### TODO NOT-IN-ST: agot_dragon_siege.gui_tt_event_already_fired [AGOT: You are already considering this siege...]
@@ -63,8 +63,8 @@
  agot_dragon_siege.0001.c:0 "I will do it myself!"
 ### TODO NOT-IN-ST: agot_dragon_siege.0001.c.tt [AGOT: [myself_sieging_dragonrider.GetNameOrMe|U] will attack with [myself_current_dragon.GetName]]
  agot_dragon_siege.0001.c.tt:0 "[myself_sieging_dragonrider.GetNameOrMe|U] will attack with [myself_current_dragon.GetName]"
-### TODO NOT-IN-ST: agot_dragon_siege.0001.d [AGOT: On second thought...]
- agot_dragon_siege.0001.d:0 "On second thought..."
+
+ agot_dragon_siege.0001.d:0 "Bir düşününce..."
 ### TODO NOT-IN-ST: agot_dragon_siege.0001.d.tt [AGOT: Your army will continue the siege without dragon support.]
  agot_dragon_siege.0001.d.tt:0 "Your army will continue the siege without dragon support."
 ### TODO NOT-IN-ST: agot_dragon_siege.0002.t [AGOT: $agot_dragon_siege.title$ Command of the Dragon]
@@ -85,8 +85,8 @@
  agot_dragon_siege.0002.d.f_third:0 "[sieging_rider.GetFirstNameNoTooltip] will raze the holding to the ground, leaving nothing but ash and ruin in [siegeing_rider.GetHerHis] wake."
 ### TODO NOT-IN-ST: agot_dragon_siege.0002.e [AGOT: Order [siegeing_rider.GetTitledFirstName] to attack [defending_dragonrider.GetFirstName]!]
  agot_dragon_siege.0002.e:0 "Order [siegeing_rider.GetTitledFirstName] to attack [defending_dragonrider.GetFirstName]!"
-### TODO NOT-IN-ST: agot_dragon_siege.0002.f.f [AGOT: You continue the siege.]
- agot_dragon_siege.0002.f.f:0 "You continue the siege."
+
+ agot_dragon_siege.0002.f.f:0 "Kuşatmaya devam ediyorsun."
 ### TODO NOT-IN-ST: agot_dragon_siege.0002.will_choose [AGOT: [sieging_rider.GetTitledFirstName] will consider your order.]
  agot_dragon_siege.0002.will_choose:0 "[sieging_rider.GetTitledFirstName] will consider your order."
 ### TODO NOT-IN-ST: agot_dragon_siege.0002.chance_success.order [AGOT: [sieging_rider.GetSheHe|U] follows your order]
@@ -121,8 +121,8 @@
  agot_dragon_siege.0003.a.1:0 "I will do as I am commanded."
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.a.2 [AGOT: Seems prudent enough.]
  agot_dragon_siege.0003.a.2:0 "Seems prudent enough."
-### TODO NOT-IN-ST: agot_dragon_siege.0003.a.toast.t [AGOT: The Siege of [sieging_location.GetTitle.GetNameNoTierNoTooltip]]
- agot_dragon_siege.0003.a.toast.t:0 "The Siege of [sieging_location.GetTitle.GetNameNoTierNoTooltip]"
+
+ agot_dragon_siege.0003.a.toast.t:0 "[sieging_location.GetTitle.GetNameNoTierNoTooltip] Kuşatması"
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.a.toast.tt.order [AGOT: [sieging_rider.GetTitledFirstNameNoTooltip] obeyed your command and used [sieging_dragon.GetFirstNameNoTooltip] in the siege.]
  agot_dragon_siege.0003.a.toast.tt.order:0 "[sieging_rider.GetTitledFirstNameNoTooltip] obeyed your command and used [sieging_dragon.GetFirstNameNoTooltip] in the siege."
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.a.toast.tt.advice [AGOT: [sieging_rider.GetTitledFirstNameNoTooltip] followed your advice and used [sieging_dragon.GetFirstNameNoTooltip] in the siege.]
@@ -137,8 +137,8 @@
  agot_dragon_siege.0003.b.f.advice:0 "You ignore [commander.GetTitledFirstNamePossessiveNoTooltip] advice."
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.b.tt [AGOT: Since I am not bound to [commander.GetTitledFirstNamePossessive] command, I am free to decide myself to use [sieging_dragon.GetFirstName] or not.]
  agot_dragon_siege.0003.b.tt:0 "Since I am not bound to [commander.GetTitledFirstNamePossessive] command, I am free to decide myself to use [sieging_dragon.GetFirstName] or not."
-### TODO NOT-IN-ST: agot_dragon_siege.0003.b.toast.t [AGOT: The Siege of [sieging_location.GetTitle.GetNameNoTierNoTooltip]]
- agot_dragon_siege.0003.b.toast.t:0 "The Siege of [sieging_location.GetTitle.GetNameNoTierNoTooltip]"
+
+ agot_dragon_siege.0003.b.toast.t:0 "[sieging_location.GetTitle.GetNameNoTierNoTooltip] Kuşatması"
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.b.toast.tt.order [AGOT: [sieging_rider.GetTitledFirstNameNoTooltip] defied your command and did not use [sieging_dragon.GetFirstNameNoTooltip] in the siege.]
  agot_dragon_siege.0003.b.toast.tt.order:0 "[sieging_rider.GetTitledFirstNameNoTooltip] defied your command and did not use [sieging_dragon.GetFirstNameNoTooltip] in the siege."
 ### TODO NOT-IN-ST: agot_dragon_siege.0003.b.toast.tt.advice [AGOT: [sieging_rider.GetTitledFirstNameNoTooltip] ignored your advice and did no use [sieging_dragon.GetFirstNameNoTooltip] in the siege.]
@@ -211,8 +211,8 @@
  agot_dragon_siege.0100.e.f:0 "You will force [defending_dragonrider.GetTitledFirstNameNoTooltip] and [defending_dragon.GetFirstNameNoTooltip] to face [sieging_rider.GetFirstNameOrMeNoTooltip]."
 ### TODO NOT-IN-ST: agot_dragon_siege.0100.f [AGOT: No, we shall siege the old-fashioned way.]
  agot_dragon_siege.0100.f:0 "No, we shall siege the old-fashioned way."
-### TODO NOT-IN-ST: agot_dragon_siege.0100.f.f [AGOT: You continue the siege.]
- agot_dragon_siege.0100.f.f:0 "You continue the siege."
+
+ agot_dragon_siege.0100.f.f:0 "Kuşatmaya devam ediyorsun."
 ### TODO NOT-IN-ST: agot_dragon_siege.0101.t [AGOT: $agot_dragon_siege.title$ Dragonfire!]
  agot_dragon_siege.0101.t:0 "$agot_dragon_siege.title$ Dragonfire!"
 ### TODO NOT-IN-ST: agot_dragon_siege.0101.intro [AGOT: As I pace the battlements of [location.GetName], I cannot ignore the precarity of my situation — enemy soldiers have surrounded my keep, and a prolonged siege seems likely.\n\n]
@@ -273,8 +273,8 @@
  agot_dragon_siege.0106.t:0 "$agot_dragon_siege.title$ A Thousand Cuts"
 ### TODO NOT-IN-ST: agot_dragon_siege.0106.desc [AGOT: The attack on [sieging_location.GetName] has been going well, their many structural emplacements falling with little difficulty or resistance. I had thought this province well defended, but it seems the defenders are not as brave as they would have us believe.\n\nAs we strike our next key target however — a large barracks that the defenders — I see where these missing defenders were. Arrows fly from every window, all aimed straight at me!\n\nThough [sieging_dragon.GetFirstName] raises [sieging_dragon.Custom('GetDragonHerHis')] wings to shield me, many find their mark, and I feel their bite deep into my flesh. I shout in pain, marking an unspoken last command as we soar into the sky, the clouds fading before me as I feel blood pouring down my chest.]
  agot_dragon_siege.0106.desc:0 "The attack on [sieging_location.GetName] has been going well, their many structural emplacements falling with little difficulty or resistance. I had thought this province well defended, but it seems the defenders are not as brave as they would have us believe.\n\nAs we strike our next key target however — a large barracks that the defenders — I see where these missing defenders were. Arrows fly from every window, all aimed straight at me!\n\nThough [sieging_dragon.GetFirstName] raises [sieging_dragon.Custom('GetDragonHerHis')] wings to shield me, many find their mark, and I feel their bite deep into my flesh. I shout in pain, marking an unspoken last command as we soar into the sky, the clouds fading before me as I feel blood pouring down my chest."
-### TODO NOT-IN-ST: agot_dragon_siege.0106.a [AGOT: I need a healer!]
- agot_dragon_siege.0106.a:0 "I need a healer!"
+
+ agot_dragon_siege.0106.a:0 "Bir hekime ihtiyacım var!"
 ### TODO NOT-IN-ST: agot_dragon_siege.0106.a.f [AGOT: You have been badly wounded and were forced to retreat, but not before achieving the damage you set out to do.]
  agot_dragon_siege.0106.a.f:0 "You have been badly wounded and were forced to retreat, but not before achieving the damage you set out to do."
 ### TODO NOT-IN-ST: agot_dragon_siege.0106.b [AGOT: I...I didn't...I...]

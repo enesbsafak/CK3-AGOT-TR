@@ -1,16 +1,16 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: rv_declare_private_war_interaction [AGOT: Declare Private War]
  rv_declare_private_war_interaction:0 "Declare Private War"
 ### TODO NOT-IN-ST: rv_declare_private_war_desc [AGOT: Use a [casus_belli|E] to declare [war|E] on [recipient.GetShortUINameNoTooltip]]
  rv_declare_private_war_desc:0 "Use a [casus_belli|E] to declare [war|E] on [recipient.GetShortUINameNoTooltip]"
 ### TODO NOT-IN-ST: rv_liege_warning [AGOT: Defender's [liege|E] will join the war]
  rv_liege_warning:0 "Defender's [liege|E] will join the war"
-### TODO NOT-IN-ST: RESCUE_WAR_NAME [AGOT: War to Free Captives]
- RESCUE_WAR_NAME:0 "War to Free Captives"
-### TODO NOT-IN-ST: rv_rescue_war [AGOT: War to Free Captives]
- rv_rescue_war:0 "War to Free Captives"
-### TODO NOT-IN-ST: rv_duskendale_rescue_war [AGOT: War to Free Captives]
- rv_duskendale_rescue_war:0 "War to Free Captives"
+
+ RESCUE_WAR_NAME:0 "Tutsakları Kurtarma Savaşı"
+
+ rv_rescue_war:0 "Tutsakları Kurtarma Savaşı"
+
+ rv_duskendale_rescue_war:0 "Tutsakları Kurtarma Savaşı"
 ### TODO NOT-IN-ST: rv_duskendale_rescue_war_invalidated_desc [AGOT: War to Free Captives has concluded.]
  rv_duskendale_rescue_war_invalidated_desc:0 "War to Free Captives has concluded."
 ### TODO NOT-IN-ST: CB_RESCUE_COST [AGOT: Number of Targeted Captives]
@@ -79,14 +79,14 @@
  rv_avenged_close_relation:0 "Avenged Close Relation"
 ### TODO NOT-IN-ST: rv_avenged_very_close [AGOT: Avenged [best_friend|E] or [soulmate|E]]
  rv_avenged_very_close:0 "Avenged [best_friend|E] or [soulmate|E]"
-### TODO NOT-IN-ST: REVENGE_WAR_NAME [AGOT: War of Revenge]
- REVENGE_WAR_NAME:0 "War of Revenge"
-### TODO NOT-IN-ST: rv_revenge_war [AGOT: War of Revenge]
- rv_revenge_war:0 "War of Revenge"
-### TODO NOT-IN-ST: CB_REVENGE_COST [AGOT: Victims to be Avenged]
- CB_REVENGE_COST:0 "Victims to be Avenged"
-### TODO NOT-IN-ST: REVENGE_LABEL [AGOT: Victims to be Avenged]
- REVENGE_LABEL:0 "Victims to be Avenged"
+
+ REVENGE_WAR_NAME:0 "İntikam Savaşı"
+
+ rv_revenge_war:0 "İntikam Savaşı"
+
+ CB_REVENGE_COST:0 "Öcü Alınacak Kurbanlar"
+
+ REVENGE_LABEL:0 "Öcü Alınacak Kurbanlar"
 ### TODO NOT-IN-ST: rv_no_revenge_target_trigger [AGOT: $rv_no_revenge_target$]
  rv_no_revenge_target_trigger:0 "$rv_no_revenge_target$"
 ### TODO NOT-IN-ST: rv_no_revenge_target [AGOT: There is no one to be avenged]
@@ -101,48 +101,48 @@
  rv_revenge_war_defeat_desc:0 "$rv_revenge_war_white_peace_desc$"
 ### TODO NOT-IN-ST: rv_revenge_war_invalidated_desc [AGOT: War for revenge invalidated!]
  rv_revenge_war_invalidated_desc:0 "War for revenge invalidated!"
-### TODO NOT-IN-ST: rv_successful_revenged_lover [AGOT: Successful Revenge]
- rv_successful_revenged_lover:0 "Successful Revenge"
+
+ rv_successful_revenged_lover:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_lover_desc_1 [AGOT: I exacted revenge for my lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_lover_desc_1:0 "I exacted revenge for my lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_lover_desc_second_perspective_1 [AGOT: you exacted revenge for your lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_lover_desc_second_perspective_1:0 "you exacted revenge for your lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_lover_desc_third_perspective_1 [AGOT: [owner.GetName] exacted revenge for [owner.GetHerHis] lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_lover_desc_third_perspective_1:0 "[owner.GetName] exacted revenge for [owner.GetHerHis] lover [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
-### TODO NOT-IN-ST: rv_successful_revenged_soulmate [AGOT: Successful Revenge]
- rv_successful_revenged_soulmate:0 "Successful Revenge"
+
+ rv_successful_revenged_soulmate:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_soulmate_desc_1 [AGOT: I exacted revenge for my soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_soulmate_desc_1:0 "I exacted revenge for my soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_soulmate_desc_second_perspective_1 [AGOT: you exacted revenge for your soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_soulmate_desc_second_perspective_1:0 "you exacted revenge for your soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_soulmate_desc_third_perspective_1 [AGOT: [owner.GetName] exacted revenge for [owner.GetHerHis] soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_soulmate_desc_third_perspective_1:0 "[owner.GetName] exacted revenge for [owner.GetHerHis] soulmate [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
-### TODO NOT-IN-ST: rv_successful_revenged_friend [AGOT: Successful Revenge]
- rv_successful_revenged_friend:0 "Successful Revenge"
+
+ rv_successful_revenged_friend:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_friend_desc_1 [AGOT: I exacted revenge for my friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_friend_desc_1:0 "I exacted revenge for my friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_friend_desc_second_perspective_1 [AGOT: you exacted revenge for your friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_friend_desc_second_perspective_1:0 "you exacted revenge for your friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_friend_desc_third_perspective_1 [AGOT: [owner.GetName] exacted revenge for [owner.GetHerHis] friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_friend_desc_third_perspective_1:0 "[owner.GetName] exacted revenge for [owner.GetHerHis] friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
-### TODO NOT-IN-ST: rv_successful_revenged_best_friend [AGOT: Successful Revenge]
- rv_successful_revenged_best_friend:0 "Successful Revenge"
+
+ rv_successful_revenged_best_friend:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_best_friend_desc_1 [AGOT: I exacted revenge for my best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_best_friend_desc_1:0 "I exacted revenge for my best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_best_friend_desc_second_perspective_1 [AGOT: you exacted revenge for your best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_best_friend_desc_second_perspective_1:0 "you exacted revenge for your best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_best_friend_desc_third_perspective_1 [AGOT: [owner.GetName] exacted revenge for [owner.GetHerHis] best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_best_friend_desc_third_perspective_1:0 "[owner.GetName] exacted revenge for [owner.GetHerHis] best friend [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
-### TODO NOT-IN-ST: rv_successful_revenged_spouse [AGOT: Successful Revenge]
- rv_successful_revenged_spouse:0 "Successful Revenge"
+
+ rv_successful_revenged_spouse:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_spouse_desc_1 [AGOT: I exacted revenge for my spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_spouse_desc_1:0 "I exacted revenge for my spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_spouse_desc_second_perspective_1 [AGOT: you exacted revenge for your spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_spouse_desc_second_perspective_1:0 "you exacted revenge for your spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_spouse_desc_third_perspective_1 [AGOT: [owner.GetName] exacted revenge for [owner.GetHerHis] spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_spouse_desc_third_perspective_1:0 "[owner.GetName] exacted revenge for [owner.GetHerHis] spouse [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
-### TODO NOT-IN-ST: rv_successful_revenged_family [AGOT: Successful Revenge]
- rv_successful_revenged_family:0 "Successful Revenge"
+
+ rv_successful_revenged_family:0 "Başarılı İntikam"
 ### TODO NOT-IN-ST: rv_revenged_family_desc_1 [AGOT: I exacted revenge for my family member [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]
  rv_revenged_family_desc_1:0 "I exacted revenge for my family member [target_revenged.GetName]'s death who was killed by [target_killer.GetName]"
 ### TODO NOT-IN-ST: rv_revenged_family_desc_second_perspective_1 [AGOT: you exacted revenge for your family member [target_revenged.GetName]'s death who was killed by [target_killer.GetName]]

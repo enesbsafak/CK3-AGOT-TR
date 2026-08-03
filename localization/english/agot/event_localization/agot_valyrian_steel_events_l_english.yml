@@ -1,12 +1,12 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_valyrian_steel.0001.t [AGOT: The Sword of the Morning]
  agot_valyrian_steel.0001.t:0 "The Sword of the Morning"
 ### TODO NOT-IN-ST: agot_valyrian_steel.0001.desc [AGOT: The morning's light stretches across the room all the way to where Dawn sits on her stone pedestal. The blade is as pale as the full moon forged from the heart of a fallen star covered by a dark ornate sheath; her pommel is shaped as a golden sun glows in the morning's light. This is where Dawn remains when there is no Sword of the Morning, where she rests in between bouts of fame and glory. \n\nThe granting of Dawn to a Dayne worthy of bearing her is an ancient responsibility, which now falls to me. I must select a worthy knight to live up to the standards of our ancestors. \nOver the last few years, it has come to my attention that [my_relation.GetFirstName] has grown into a talented and honorable knight — but are they worthy of becoming the next #S Sword of the Morning? #!]
  agot_valyrian_steel.0001.desc:0 "The morning's light stretches across the room all the way to where Dawn sits on her stone pedestal. The blade is as pale as the full moon forged from the heart of a fallen star covered by a dark ornate sheath; her pommel is shaped as a golden sun glows in the morning's light. This is where Dawn remains when there is no Sword of the Morning, where she rests in between bouts of fame and glory. \n\nThe granting of Dawn to a Dayne worthy of bearing her is an ancient responsibility, which now falls to me. I must select a worthy knight to live up to the standards of our ancestors. \nOver the last few years, it has come to my attention that [my_relation.GetFirstName] has grown into a talented and honorable knight — but are they worthy of becoming the next #S Sword of the Morning? #!"
 ### TODO NOT-IN-ST: agot_valyrian_steel.0001.a [AGOT: I will bestow Dawn upon [my_relation.GetHerHim].]
  agot_valyrian_steel.0001.a:0 "I will bestow Dawn upon [my_relation.GetHerHim]."
-### TODO NOT-IN-ST: agot_valyrian_steel.0001.b [AGOT: No, I do not find [my_relation.GetHerHim] worthy.]
- agot_valyrian_steel.0001.b:0 "No, I do not find [my_relation.GetHerHim] worthy."
+
+ agot_valyrian_steel.0001.b:0 "Hayır, [my_relation.GetHerHim]'i layık bulmuyorum."
 ### TODO NOT-IN-ST: agot_valyrian_steel.0002.t [AGOT: The Sword of the Morning]
  agot_valyrian_steel.0002.t:0 "The Sword of the Morning"
 ### TODO NOT-IN-ST: agot_valyrian_steel.0002.desc [AGOT: In the dark of the night, a few hours before the dawn, my maester brings me a letter from [my_relation.GetFullNameRegnal] claiming it is urgent. I turn it over in my hands and break the purple wax button to open the letter. \n\nIt seems that [my_relation.GetFirstName] would name me to be the next #SSword of the Morning#!, if I would accept the honor. So many great Daynes have borne that fabled blade, like Lord Davos Dayne, who fought against King Yorick V Yronwood and his armies for his future wife, Princess Nymeria. These figures have brought glory to our House. Am I truly worthy to follow in their footsteps?]
@@ -21,8 +21,8 @@
  agot_valyrian_steel.0004.desc:0 "With the death of [dead_relative.GetFirstName], the mantle of Sword of the Morning stands empty. Once the funeral rites are over and [dead_relative.GetHerHim] is resting with the Seven Who Are One; Dawn will return to her pedestal to await a new bearer. There have been years of our history where the title has remained vacant as there has been no worthy candidate. \n\nHowever, another of our House may be worthy of the title Sword of the Morning and the honors and duties that come with it. [my_relative.GetFirstName] has demonstrated exceptional talent thus far and proven themselves a [my_relative.GetWomanMan] of honor. Perhaps they are even worthy of becoming the next #S Sword of the Morning? #!"
 ### TODO NOT-IN-ST: agot_valyrian_steel.0004.a [AGOT: I will bestow Dawn on [my_relation.GetHerHim].]
  agot_valyrian_steel.0004.a:0 "I will bestow Dawn on [my_relation.GetHerHim]."
-### TODO NOT-IN-ST: agot_valyrian_steel.0004.b [AGOT: No, I do not find [my_relation.GetHerHim] worthy.]
- agot_valyrian_steel.0004.b:0 "No, I do not find [my_relation.GetHerHim] worthy."
+
+ agot_valyrian_steel.0004.b:0 "Hayır, [my_relation.GetHerHim]'i layık bulmuyorum."
 ### TODO NOT-IN-ST: agot_valyrian_steel.1000.t [AGOT: Valyrian Steel at My Feet]
  agot_valyrian_steel.1000.t:0 "Valyrian Steel at My Feet"
 ### TODO NOT-IN-ST: agot_valyrian_steel.1000.desc [AGOT: As the heat of battle wains, I sweep the blood of my enemy from my brow, I see the weapon that has almost claimed my life would it not be for my superior skill.\n\nAmidst mud and the countless bodies lies the Valyrian steel blade of House [artifact_knight.GetHouse.GetBaseName]. With no owner to seize it, it is mine for the taking...]
@@ -137,22 +137,22 @@
  agot_valyrian_steel.2005.desc:0 "The great Maester Verkos theorized that the dragon might have eaten your sword and then pooped it out idk seems nuts but you can go check it out. Dragon bodies were traditionally brought to Dragonstone."
 ### TODO NOT-IN-ST: agot_valyrian_steel.2005.a [AGOT: Time to peep that dragon dung.]
  agot_valyrian_steel.2005.a:0 "Time to peep that dragon dung."
-### TODO NOT-IN-ST: agot_valyrian_steel.2005.a.tt [AGOT: You will charter a ship to Dragonstone.]
- agot_valyrian_steel.2005.a.tt:0 "You will charter a ship to Dragonstone."
-### TODO NOT-IN-ST: agot_valyrian_steel.2005.b [AGOT: This is fucking bonkers, I'll ask around Flea Bottom.]
- agot_valyrian_steel.2005.b:0 "This is fucking bonkers, I'll ask around Flea Bottom."
-### TODO NOT-IN-ST: agot_valyrian_steel.2006.t [AGOT: Dragonstone Search]
- agot_valyrian_steel.2006.t:0 "Dragonstone Search"
+
+ agot_valyrian_steel.2005.a.tt:0 "Dragonstone'a bir gemi kiralayacaksın."
+
+ agot_valyrian_steel.2005.b:0 "Bu kesinlikle çılgınca, Pire Dibinde soruşturacağım."
+
+ agot_valyrian_steel.2006.t:0 "Dragonstone Araması"
 ### TODO NOT-IN-ST: agot_valyrian_steel.2006.desc [AGOT: [host.GetFullName] graciously welcomes me to Dragonstone in my search for my missing sword. Tells me that dragon corpses and likewise have been returned to Dragonstone to the Dragonmont for many years to be disposed of in the flames. However it is dangerous up there.]
  agot_valyrian_steel.2006.desc:0 "[host.GetFullName] graciously welcomes me to Dragonstone in my search for my missing sword. Tells me that dragon corpses and likewise have been returned to Dragonstone to the Dragonmont for many years to be disposed of in the flames. However it is dangerous up there."
 ### TODO NOT-IN-ST: agot_valyrian_steel.2006.a [AGOT: We venture out tomorrow!]
  agot_valyrian_steel.2006.a:0 "We venture out tomorrow!"
-### TODO NOT-IN-ST: agot_valyrian_steel.2006.a.tt [AGOT: You will charter a ship to Dragonstone.]
- agot_valyrian_steel.2006.a.tt:0 "You will charter a ship to Dragonstone."
-### TODO NOT-IN-ST: agot_valyrian_steel.2006.b [AGOT: This is fucking bonkers, I'll ask around Flea Bottom.]
- agot_valyrian_steel.2006.b:0 "This is fucking bonkers, I'll ask around Flea Bottom."
-### TODO NOT-IN-ST: agot_valyrian_steel.2007.t [AGOT: Dragonstone Search]
- agot_valyrian_steel.2007.t:0 "Dragonstone Search"
+
+ agot_valyrian_steel.2006.a.tt:0 "Dragonstone'a bir gemi kiralayacaksın."
+
+ agot_valyrian_steel.2006.b:0 "Bu kesinlikle çılgınca, Pire Dibinde soruşturacağım."
+
+ agot_valyrian_steel.2007.t:0 "Dragonstone Araması"
 ### TODO NOT-IN-ST: agot_valyrian_steel.2007.desc [AGOT: Up on the Dragonmont fool of spooky things bit dangerous]
  agot_valyrian_steel.2007.desc:0 "Up on the Dragonmont fool of spooky things bit dangerous"
 ### TODO NOT-IN-ST: agot_valyrian_steel.2007.a [AGOT: We push through the Gorge.]
@@ -197,8 +197,8 @@
  agot_valyrian_steel.3001.e:0 "[girl_choice.GetTitledFirstName] has proven herself."
 ### TODO NOT-IN-ST: agot_valyrian_steel.3001.f [AGOT: There is no one worthy.]
  agot_valyrian_steel.3001.f:0 "There is no one worthy."
-### TODO NOT-IN-ST: agot_valyrian_steel.4000.t [AGOT: Recover Brightroar]
- agot_valyrian_steel.4000.t:0 "Recover Brightroar"
+
+ agot_valyrian_steel.4000.t:0 "Brightroar'ı Geri Al"
 ### TODO NOT-IN-ST: agot_valyrian_steel.4000.desc_gerion [AGOT: It has been centuries since [tommen.GetFullName] lost Brightroar during his expedition to Valyria. House [ROOT.Char.GetDynasty.GetBaseName] has been without a Valyrian steel blade ever since.\n\nPerhaps it is time to attempt to recover the blade? My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('explorer'))], [explorer.GetFirstName], has long sought my permission to voyage to Old Valyria for both glory and riches.\n\nThe trip will be both expensive and dangerous... but the rewards could be impressive.]
  agot_valyrian_steel.4000.desc_gerion:0 "It has been centuries since [tommen.GetFullName] lost Brightroar during his expedition to Valyria. House [ROOT.Char.GetDynasty.GetBaseName] has been without a Valyrian steel blade ever since.\n\nPerhaps it is time to attempt to recover the blade? My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('explorer'))], [explorer.GetFirstName], has long sought my permission to voyage to Old Valyria for both glory and riches.\n\nThe trip will be both expensive and dangerous... but the rewards could be impressive."
 ### TODO NOT-IN-ST: agot_valyrian_steel.4000.desc_gen [AGOT: It has been centuries since [tommen.GetFullName] lost Brightroar during his expedition to Valyria. House [ROOT.Char.GetDynasty.GetBaseName] has been without a Valyrian steel blade ever since.\n\nPerhaps it is time to attempt to recover the blade? There are few problems that gold cannot solve. With enough money—and daring adventurers—Brightroar could be recovered.\n\n[explorer.GetFirstName], a local captain, has offered to lead the expedition.\n\nThe trip will be both expensive and dangerous... but the rewards could be impressive.]
@@ -215,14 +215,14 @@
  agot_valyrian_steel.4000.c:0 "Perhaps now is not the time for a quest to Valyria..."
 ### TODO NOT-IN-ST: agot_valyrian_steel.4000.c.tt [AGOT: You will cancel the expedition and your gold will be refunded]
  agot_valyrian_steel.4000.c.tt:0 "You will cancel the expedition and your gold will be refunded"
-### TODO NOT-IN-ST: agot_valyrian_steel.4002.t [AGOT: Recover Brightroar]
- agot_valyrian_steel.4002.t:0 "Recover Brightroar"
+
+ agot_valyrian_steel.4002.t:0 "Brightroar'ı Geri Al"
 ### TODO NOT-IN-ST: agot_valyrian_steel.4002.desc [AGOT: Word of [explorer.GetFirstNamePossessive] return has worked its way to me. I rush down to the docks and see that the crew is already unloading chests full of gold and other spoils from Old Valyria.\n\n[explorer.GetFirstName] approaches me with a large greatsword in hand. [explorer.GetSheHe|U] bows and presents it to me.]
  agot_valyrian_steel.4002.desc:0 "Word of [explorer.GetFirstNamePossessive] return has worked its way to me. I rush down to the docks and see that the crew is already unloading chests full of gold and other spoils from Old Valyria.\n\n[explorer.GetFirstName] approaches me with a large greatsword in hand. [explorer.GetSheHe|U] bows and presents it to me. "Brightroar, my [ROOT.Char.GetLadyLord]. We found the wreck of [tommen.GetFirstNamePossessive] ship deep in the Smoking Sea... It is past time that the sword returns to House [ROOT.Char.GetDynasty.GetBaseName]."\n\nI take the sword into my hands. Brightroar has finally returned home."
 ### TODO NOT-IN-ST: agot_valyrian_steel.4002.a [AGOT: [ROOT.Char.GetHouse.GetMotto]!]
  agot_valyrian_steel.4002.a:0 "[ROOT.Char.GetHouse.GetMotto]!"
-### TODO NOT-IN-ST: agot_valyrian_steel.4003.t [AGOT: Recover Brightroar]
- agot_valyrian_steel.4003.t:0 "Recover Brightroar"
+
+ agot_valyrian_steel.4003.t:0 "Brightroar'ı Geri Al"
 ### TODO NOT-IN-ST: agot_valyrian_steel.4003.desc [AGOT: [explorer.GetFirstNamePossessive] expedition is long overdue. They were scheduled to have returned by now.\n\nI fear that something has gone terribly wrong in the Smoking Sea...]
  agot_valyrian_steel.4003.desc:0 "[explorer.GetFirstNamePossessive] expedition is long overdue. They were scheduled to have returned by now.\n\nI fear that something has gone terribly wrong in the Smoking Sea..."
 ### TODO NOT-IN-ST: agot_valyrian_steel.4003.a [AGOT: Valyria has claimed another life...]
@@ -253,18 +253,18 @@
  agot_valyrian_steel.8001.a:0 "This one is worthy of me."
 ### TODO NOT-IN-ST: agot_valyrian_steel.8001.b [AGOT: None of these suit me.]
  agot_valyrian_steel.8001.b:0 "None of these suit me."
-### TODO NOT-IN-ST: agot_valyrian_steel_default_name [AGOT: Reforged Valyrian Steel Sword]
- agot_valyrian_steel_default_name:0 "Reforged Valyrian Steel Sword"
-### TODO NOT-IN-ST: agot_valyrian_steel_default_desc [AGOT: Reforged Valyrian Steel Sword]
- agot_valyrian_steel_default_desc:0 "Reforged Valyrian Steel Sword"
+
+ agot_valyrian_steel_default_name:0 "Yeniden Dövülmüş Valyria Çeliği Kılıcı"
+
+ agot_valyrian_steel_default_desc:0 "Yeniden Dövülmüş Valyria Çeliği Kılıcı"
 ### TODO NOT-IN-ST: event_window_widget_enter_name_prompt [AGOT: Choose Artifact Name:]
  event_window_widget_enter_name_prompt:0 "Choose Artifact Name:"
 ### TODO NOT-IN-ST: agot_valyrian_steel.8100.t [AGOT: A Blade of Legend]
  agot_valyrian_steel.8100.t:0 "A Blade of Legend"
 ### TODO NOT-IN-ST: agot_valyrian_steel.8100.desc [AGOT: Which one of these was mine again?]
  agot_valyrian_steel.8100.desc:0 "Which one of these was mine again?"
-### TODO NOT-IN-ST: agot_valyrian_steel.8100.a [AGOT: This is the one.]
- agot_valyrian_steel.8100.a:0 "This is the one."
+
+ agot_valyrian_steel.8100.a:0 "İşte bu."
 ### TODO NOT-IN-ST: agot_valyrian_steel.8100.b [AGOT: Maybe I didn't have a Valyrian steel sword after all...]
  agot_valyrian_steel.8100.b:0 "Maybe I didn't have a Valyrian steel sword after all..."
 ### TODO NOT-IN-ST: The_Swordsman [AGOT: The Swordsman]
@@ -273,5 +273,5 @@
  agot_valyrian_steel.9999.t:0 "Wielders of Valyrian Steel"
 ### TODO NOT-IN-ST: agot_valyrian_steel.9999.desc [AGOT: My liege, I have gathered here a list of all wielders of Valyrian steel in the known world.]
  agot_valyrian_steel.9999.desc:0 "My liege, I have gathered here a list of all wielders of Valyrian steel in the known world."
-### TODO NOT-IN-ST: agot_valyrian_steel.9999.a [AGOT: Thank you.]
- agot_valyrian_steel.9999.a:0 "Thank you."
+
+ agot_valyrian_steel.9999.a:0 "Teşekkür ederim."

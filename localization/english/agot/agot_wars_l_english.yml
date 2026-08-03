@@ -1,18 +1,18 @@
-﻿﻿l_english:
+﻿﻿﻿l_english:
 ### TODO NOT-IN-ST: AGOT_VASSALIZATION_CB_NAME [AGOT: Iron Throne [vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]]
  AGOT_VASSALIZATION_CB_NAME:2 "Iron Throne [vassalization_casus_belli|E] of [DEFENDER.GetShortUIName]"
 ### TODO NOT-IN-ST: AGOT_VASSALIZATION_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War]
  AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Iron Throne Vassalization War"
 ### TODO NOT-IN-ST: AGOT_VASSALIZATION_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: agot_duskendale_claimant_war [AGOT: Claimant War]
- agot_duskendale_claimant_war:0 "Claimant War"
-### TODO NOT-IN-ST: agot_duskendale_iron_throne_war [AGOT: Claimant War]
- agot_duskendale_iron_throne_war:0 "Claimant War"
-### TODO NOT-IN-ST: agot_independence_war [AGOT: Independence War]
- agot_independence_war:0 "Independence War"
-### TODO NOT-IN-ST: agot_independence_war_name [AGOT: Independence War]
- agot_independence_war_name:0 "Independence War"
+
+ agot_duskendale_claimant_war:0 "Hak İddiası Savaşı"
+
+ agot_duskendale_iron_throne_war:0 "Hak İddiası Savaşı"
+
+ agot_independence_war:0 "Bağımsızlık Savaşı"
+
+ agot_independence_war_name:0 "Bağımsızlık Savaşı"
 ### TODO NOT-IN-ST: agot_rebellion_war [AGOT: Rebellion]
  agot_rebellion_war:0 "Rebellion"
 ### TODO NOT-IN-ST: agot_rebellion_war_name [AGOT: Rebellion against [DEFENDER.GetShortUINameNotMe]]
@@ -31,10 +31,10 @@
  agot_rebellion_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
 ### TODO NOT-IN-ST: agot_rebellion_war_defeat_desc [AGOT: [attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels.]
  agot_rebellion_war_defeat_desc:0 "[attacker.GetNamePossessive] rebellion for the [defender.GetPrimaryTitle.GetName] has failed. [defender.GetName] will decide the fate of the rebels."
-### TODO NOT-IN-ST: agot_reconquest_war [AGOT: Reconquest]
- agot_reconquest_war:0 "Reconquest"
-### TODO NOT-IN-ST: agot_reconquest_war_name [AGOT: Reconquest]
- agot_reconquest_war_name:0 "Reconquest"
+
+ agot_reconquest_war:0 "Yeniden Fetih"
+
+ agot_reconquest_war_name:0 "Yeniden Fetih"
 ### TODO NOT-IN-ST: agot_revolt_war [AGOT: Revolt]
  agot_revolt_war:0 "Revolt"
 ### TODO NOT-IN-ST: agot_revolt_war_name [AGOT: Revolt against [DEFENDER.GetShortUINameNotMe]]
@@ -47,30 +47,30 @@
  agot_revolt_war_defeat_desc_defender:0 "[attacker.GetNamePossessive] revolt has failed, and the punishment they have attempted to avert will now come to pass."
 ### TODO NOT-IN-ST: agot_revolt_war_defeat_desc [AGOT: [attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass.]
  agot_revolt_war_defeat_desc:0 "[attacker.GetNamePossessive] revolt fails, resulting in the rebels' original sentence coming to pass."
-### TODO NOT-IN-ST: agot_claimant_faction_war [AGOT: Claimant War]
- agot_claimant_faction_war:0 "Claimant War"
+
+ agot_claimant_faction_war:0 "Hak İddiası Savaşı"
 ### TODO NOT-IN-ST: agot_liberty_faction_war [AGOT: Liberty War]
  agot_liberty_faction_war:0 "Liberty War"
-### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME [AGOT: Wildling Raid]
- WILDLING_RAID_WAR_NAME:0 "Wildling Raid"
+
+ WILDLING_RAID_WAR_NAME:0 "Yabanıl Akını"
 ### TODO NOT-IN-ST: WILDLING_RAID_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: wildling_raid_cb [AGOT: Wildling Raid]
- wildling_raid_cb:0 "Wildling Raid"
-### TODO NOT-IN-ST: WILDLINGS [AGOT: Wildlings]
- WILDLINGS:0 "Wildlings"
+
+ wildling_raid_cb:0 "Yabanıl Akını"
+
+ WILDLINGS:0 "Yabanıllar"
 ### TODO NOT-IN-ST: wildling_raid_wars_victory_desc [AGOT: The Wildlings have overpowered the Watch and will take all they can carry!]
  wildling_raid_wars_victory_desc:0 "The Wildlings have overpowered the Watch and will take all they can carry!"
 ### TODO NOT-IN-ST: wildling_raid_wars_defeat_desc [AGOT: The Wildlings were defeated by the Watch as they have been for thousands of years]
  wildling_raid_wars_defeat_desc:0 "The Wildlings were defeated by the Watch as they have been for thousands of years"
-### TODO NOT-IN-ST: wildling_raid_wars_white_peace_desc [AGOT: Placeholder White Peace Text]
- wildling_raid_wars_white_peace_desc:0 "Placeholder White Peace Text"
+
+ wildling_raid_wars_white_peace_desc:0 "Yer Tutucu Beyaz Barış Metni"
 ### TODO NOT-IN-ST: wildling_raid_wars_invalidated_desc [AGOT: The war was invalidated because [attacker.GetName] is no longer a ruler or cannot wage war against the Night's Watch.]
  wildling_raid_wars_invalidated_desc:0 "The war was invalidated because [attacker.GetName] is no longer a ruler or cannot wage war against the Night's Watch."
-### TODO NOT-IN-ST: wildling_diminish_cb [AGOT: Diminishment War]
- wildling_diminish_cb:0 "Diminishment War"
-### TODO NOT-IN-ST: WILDLING_DIMINISH_CB_NAME [AGOT: Diminishment War]
- WILDLING_DIMINISH_CB_NAME:0 "Diminishment War"
+
+ wildling_diminish_cb:0 "Küçültme Savaşı"
+
+ WILDLING_DIMINISH_CB_NAME:0 "Küçültme Savaşı"
 ### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME [AGOT: $WILDLING_DIMINISH_CB_NAME$]
  WILDLING_DIMINISH_WAR_NAME:0 "$WILDLING_DIMINISH_CB_NAME$"
 ### TODO NOT-IN-ST: WILDLING_DIMINISH_WAR_NAME_BASE [AGOT: $WILDLING_DIMINISH_CB_NAME$]
@@ -93,10 +93,10 @@
  de_reclaim_wall_victory_desc:0 "The Wildlings are defeated and the land has been returned to the Night's Watch."
 ### TODO NOT-IN-ST: de_reclaim_wall_defeat_desc [AGOT: The Wildlings successfully held back the offensive, retaining the territory claimed by the Night's Watch.]
  de_reclaim_wall_defeat_desc:0 "The Wildlings successfully held back the offensive, retaining the territory claimed by the Night's Watch."
-### TODO NOT-IN-ST: agot_wall_reclamation_post_nw_cb [AGOT: Night's Watch Reclamation]
- agot_wall_reclamation_post_nw_cb:0 "Night's Watch Reclamation"
-### TODO NOT-IN-ST: agot_wall_reclamation_cb [AGOT: Night's Watch Reclamation]
- agot_wall_reclamation_cb:0 "Night's Watch Reclamation"
+
+ agot_wall_reclamation_post_nw_cb:0 "Gece Nöbetçileri Geri Alımı"
+
+ agot_wall_reclamation_cb:0 "Gece Nöbetçileri Geri Alımı"
 ### TODO NOT-IN-ST: DISPUTED_LANDS_CONQUEST_CB_NAME [AGOT: Disputed Lands Conquest for [county|E]]
  DISPUTED_LANDS_CONQUEST_CB_NAME:0 "Disputed Lands Conquest for [county|E]"
 ### TODO NOT-IN-ST: disputed_lands_conquest_cb [AGOT: Disputed Lands Conquest]
@@ -113,16 +113,16 @@
  reclaim_captives_war_victory_desc:0 "You free all captives that are held by [defender.GetShortUIName|U] and their [vassals|e]."
 ### TODO NOT-IN-ST: reclaim_captives_war_victory_desc_defender [AGOT: [attacker.GetShortUIName|U] frees all captives held by you and your [vassals|e].]
  reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] frees all captives held by you and your [vassals|e]."
-### TODO NOT-IN-ST: reclaim_captives_war_white_peace_desc [AGOT: No captives are freed.]
- reclaim_captives_war_white_peace_desc:0 "No captives are freed."
-### TODO NOT-IN-ST: reclaim_captives_war_defeat_desc [AGOT: No captives are freed.]
- reclaim_captives_war_defeat_desc:0 "No captives are freed."
+
+ reclaim_captives_war_white_peace_desc:0 "Tutsak serbest bırakılmıyor."
+
+ reclaim_captives_war_defeat_desc:0 "Tutsak serbest bırakılmıyor."
 ### TODO NOT-IN-ST: reclaim_captives_war_invalidated_desc [AGOT: $RECLAIM_CAPTIVES_WAR_NAME$ invalidated!]
  reclaim_captives_war_invalidated_desc:0 "$RECLAIM_CAPTIVES_WAR_NAME$ invalidated!"
-### TODO NOT-IN-ST: reclaim_captives_war [AGOT: Free Captives]
- reclaim_captives_war:0 "Free Captives"
-### TODO NOT-IN-ST: RECLAIM_CAPTIVES_NAME [AGOT: Free Captives]
- RECLAIM_CAPTIVES_NAME:0 "Free Captives"
+
+ reclaim_captives_war:0 "Tutsakları Özgür Bırak"
+
+ RECLAIM_CAPTIVES_NAME:0 "Tutsakları Özgür Bırak"
 ### TODO NOT-IN-ST: RECLAIM_CAPTIVES_WAR_NAME [AGOT: Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
  RECLAIM_CAPTIVES_WAR_NAME:1 "Free Captives of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 ### TODO NOT-IN-ST: agot_blackfyre_claim [AGOT: Blackfyre Rebellion]
@@ -225,12 +225,12 @@
  agot_bastard_enforcement_war_white_peace:0 "[attacker.GetName] and [defender.GetName] agree to a truce. The matter is put to rest."
 ### TODO NOT-IN-ST: agot_bastard_enforcement_war_defeat [AGOT: [defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree.]
  agot_bastard_enforcement_war_defeat:0 "[defender.GetName] has successfully resisted [attacker.GetTitledFirstNamePossessive] decree."
-### TODO NOT-IN-ST: DISRUPT_PIRACY_WAR_NAME [AGOT: Disrupt Piracy]
- DISRUPT_PIRACY_WAR_NAME:0 "Disrupt Piracy"
+
+ DISRUPT_PIRACY_WAR_NAME:0 "Korsanlığı Boz"
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  DISRUPT_PIRACY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: DISRUPT_PIRACY_CB [AGOT: Disrupt Piracy]
- DISRUPT_PIRACY_CB:0 "Disrupt Piracy"
+
+ DISRUPT_PIRACY_CB:0 "Korsanlığı Boz"
 ### TODO NOT-IN-ST: destroy_pirates_cb [AGOT: $DISRUPT_PIRACY_CB$]
  destroy_pirates_cb:0 "$DISRUPT_PIRACY_CB$"
 ### TODO NOT-IN-ST: DISRUPT_PIRACY_CB_SHATTER [AGOT: The [titles|e] of every war defender and their vassals will shatter, returning to a sparsley inhabited state.]
@@ -267,26 +267,26 @@
  SHATTERED_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 ### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB_NAME [AGOT: Ambush in the Bog]
  CRANNOGMAN_AMBUSH_CB_NAME:0 "Ambush in the Bog"
-### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB_NAME_BASE [AGOT: Bog Ambush]
- CRANNOGMAN_AMBUSH_CB_NAME_BASE:0 "Bog Ambush"
-### TODO NOT-IN-ST: CRANNOGMAN_AMBUSH_CB [AGOT: Bog Ambush]
- CRANNOGMAN_AMBUSH_CB:0 "Bog Ambush"
-### TODO NOT-IN-ST: dragon_county_conquest_cb [AGOT: Draconically Conquer [county|E]]
- dragon_county_conquest_cb:1 "Draconically Conquer [county|E]"
-### TODO NOT-IN-ST: dragon_duchy_conquest_cb [AGOT: Draconically Conquer [duchy|E]]
- dragon_duchy_conquest_cb:1 "Draconically Conquer [duchy|E]"
+
+ CRANNOGMAN_AMBUSH_CB_NAME_BASE:0 "Bataklık Pusu"
+
+ CRANNOGMAN_AMBUSH_CB:0 "Bataklık Pusu"
+
+ dragon_county_conquest_cb:0 "Ejderha Gücüyle Fethet [county|E]"
+
+ dragon_duchy_conquest_cb:0 "Ejderha Gücüyle Fethet [duchy|E]"
 ### TODO NOT-IN-ST: dragon_ducal_conquest_cb [AGOT: Draconically Unite [duchy|E]]
  dragon_ducal_conquest_cb:1 "Draconically Unite [duchy|E]"
-### TODO NOT-IN-ST: dragon_kingdom_conquest_cb [AGOT: Draconically Conquer [kingdom|E]]
- dragon_kingdom_conquest_cb:1 "Draconically Conquer [kingdom|E]"
+
+ dragon_kingdom_conquest_cb:0 "Ejderha Gücüyle Fethet [kingdom|E]"
 ### TODO NOT-IN-ST: dragon_subjugation_cb [AGOT: Draconic Subjugation]
  dragon_subjugation_cb:0 "Draconic Subjugation"
-### TODO NOT-IN-ST: DRAGON_CONQUEST_COUNTY_CB_NAME [AGOT: Draconically Conquer [county|E]]
- DRAGON_CONQUEST_COUNTY_CB_NAME:1 "Draconically Conquer [county|E]"
-### TODO NOT-IN-ST: DRAGON_CONQUEST_DUCHY_CB_NAME [AGOT: Draconically Conquer [duchy|E]]
- DRAGON_CONQUEST_DUCHY_CB_NAME:1 "Draconically Conquer [duchy|E]"
-### TODO NOT-IN-ST: DRAGON_CONQUEST_KINGDOM_CB_NAME [AGOT: Draconically Conquer [kingdom|E]]
- DRAGON_CONQUEST_KINGDOM_CB_NAME:1 "Draconically Conquer [kingdom|E]"
+
+ DRAGON_CONQUEST_COUNTY_CB_NAME:0 "Ejderha Gücüyle Fethet [county|E]"
+
+ DRAGON_CONQUEST_DUCHY_CB_NAME:0 "Ejderha Gücüyle Fethet [duchy|E]"
+
+ DRAGON_CONQUEST_KINGDOM_CB_NAME:0 "Ejderha Gücüyle Fethet [kingdom|E]"
 ### TODO NOT-IN-ST: DRAGON_CONQUEST_CB_NAME [AGOT: Draconically Conquer the [TITLE.GetBaseName]]
  DRAGON_CONQUEST_CB_NAME:0 "Draconically Conquer the [TITLE.GetBaseName]"
 ### TODO NOT-IN-ST: DRAGON_CONQUEST_WAR_NAME [AGOT: $ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Draconic Conquest of the [TITLE.GetBaseName]]
@@ -311,16 +311,16 @@
  empire_destroyed_effect_tt:0 "@warning_icon! #X [de_jure_target_empire.GetName] will be destroyed and [de_jure_target.GetName] will be created to be taken in war.#!"
 ### TODO NOT-IN-ST: truce_stepstones_holders_trp [AGOT: Events in the Stepstones have yet to be resolved.]
  truce_stepstones_holders_trp:0 " Events in the Stepstones have yet to be resolved."
-### TODO NOT-IN-ST: daemon_stepstones_first_war [AGOT: Landing on the Stepstones]
- daemon_stepstones_first_war:0 "Landing on the Stepstones"
+
+ daemon_stepstones_first_war:0 "Adımtaşları'na Çıkarma"
 ### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
  DAEMON_FIRST_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
 ### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] Landing on the Stepstones]
  DAEMON_FIRST_STEPSTONE_WAR_NAME_BASE:0 "[ATTACKER.GetFirstNamePossessive] Landing on the Stepstones"
-### TODO NOT-IN-ST: DAEMON_FIRST_STEPSTONE_WAR_CB_NAME [AGOT: Landing on the Stepstones]
- DAEMON_FIRST_STEPSTONE_WAR_CB_NAME:0 "Landing on the Stepstones" # Should never be seen
-### TODO NOT-IN-ST: daemon_stepstones_second_war [AGOT: War for the Stepstones]
- daemon_stepstones_second_war:0 "War for the Stepstones"
+
+ DAEMON_FIRST_STEPSTONE_WAR_CB_NAME:0 "Adımtaşları'na Çıkarma" # Should never be seen
+
+ daemon_stepstones_second_war:0 "Adımtaşları Savaşı"
 ### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_NAME [AGOT: [ATTACKER.GetFirstNamePossessive] War for the Stepstones]
  DAEMON_SECOND_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] War for the Stepstones"
 ### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] War for the Stepstones]
@@ -329,14 +329,14 @@
  DAEMON_TRIARCHY_CONQUEST_WAR_NAME: "[ATTACKER.GetFirstNamePossessive] War for the Three Daughters"
 ### TODO NOT-IN-ST: DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE [AGOT: [ATTACKER.GetFirstNamePossessive] War for Three Daughters]
  DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetFirstNamePossessive] War for Three Daughters"
-### TODO NOT-IN-ST: DAEMON_SECOND_STEPSTONE_WAR_CB_NAME [AGOT: War for the Stepstones]
- DAEMON_SECOND_STEPSTONE_WAR_CB_NAME:0 "War for the Stepstones" # Should never be seen\
+
+ DAEMON_SECOND_STEPSTONE_WAR_CB_NAME:0 "Adımtaşları Savaşı" # Should never be seen\
 ### TODO NOT-IN-ST: daemon_invades_triarchy_war [AGOT: War for the Three Daughters]
  daemon_invades_triarchy_war:0 "War for the Three Daughters"
 ### TODO NOT-IN-ST: admiral_subjugation_cb [AGOT: Admiral Subjugation]
  admiral_subjugation_cb:0 "Admiral Subjugation"
-### TODO NOT-IN-ST: triarchy_anti_daemon_war [AGOT: Claim War]
- triarchy_anti_daemon_war:0 "Claim War"
+
+ triarchy_anti_daemon_war:0 "Hak İddiası Savaşı"
 ### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty [AGOT: Reassert Braavos-Pentos Treaty]
  reinstate_braavos_pentos_treaty:0 "Reassert Braavos-Pentos Treaty"
 ### TODO NOT-IN-ST: reinstate_braavos_pentos_treaty_war_name [AGOT: War to Reinstate Braavos-Pentos Treaty]
@@ -361,8 +361,8 @@
  fourth_braavosi_pentoshi_war_on_defeat_desc:0 "[attacker.GetNamePossessive] invasion fails, and Pentos pushes Braavos out of Andalos."
 ### TODO NOT-IN-ST: fourth_braavosi_pentoshi_war_on_defeat_tt [AGOT: All land that Braavos has ownership over in Andalos will be transferred to Pentos.]
  fourth_braavosi_pentoshi_war_on_defeat_tt:0 "All land that Braavos has ownership over in Andalos will be transferred to Pentos."
-### TODO NOT-IN-ST: agot_succession_war [AGOT: War of Succession]
- agot_succession_war: "War of Succession"
+
+ agot_succession_war:0 "Veraset Savaşı"
 ### TODO NOT-IN-ST: agot_succession_war_name [AGOT: [ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]]
  agot_succession_war_name:0 "[ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]"
 ### TODO NOT-IN-ST: agot_war_of_succession_number_one [AGOT: The]
@@ -529,8 +529,8 @@
  agot_war_of_succession_name_Fowler:0 "Falcon's Fight"
 ### TODO NOT-IN-ST: agot_war_of_succession_name_Manwoody [AGOT: Skullbreaking]
  agot_war_of_succession_name_Manwoody:0 "Skullbreaking"
-### TODO NOT-IN-ST: agot_war_of_succession_name_fallback [AGOT: War of Succession]
- agot_war_of_succession_name_fallback:0 "War of Succession"
+
+ agot_war_of_succession_name_fallback:0 "Veraset Savaşı"
 ### TODO NOT-IN-ST: AGOT_CB_RECLAIMING_DYNASTY_TITLES [AGOT: Reclaiming Your Dynasty's Titles]
  AGOT_CB_RECLAIMING_DYNASTY_TITLES:0 "Reclaiming Your Dynasty's Titles"
 ### TODO NOT-IN-ST: agot_usurper_standard [AGOT: Usurper]

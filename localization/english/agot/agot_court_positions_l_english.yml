@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: court_position_education_martial_1_trait [AGOT: [GetTrait('education_martial_1').GetName( ROOT.Char )]]
  court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
 ### TODO NOT-IN-ST: court_position_education_martial_2_trait [AGOT: [GetTrait('education_martial_2').GetName( ROOT.Char )]]
@@ -19,66 +19,66 @@
  court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
 ### TODO NOT-IN-ST: court_position_historic_title_holder [AGOT: Historic Title Holder]
  court_position_historic_title_holder:0 "Historic Title Holder"
-### TODO NOT-IN-ST: maester_court_position [AGOT: Maester]
- maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
-### TODO NOT-IN-ST: maester_tradition_bonus [AGOT: From [culture_tradition|E]]
- maester_tradition_bonus:0 "From [culture_tradition|E]"
+
+ maester_court_position:0 "Üstat" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+
+ maester_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: maester_court_position_desc [AGOT: The $maester_court_position$ is responsible for the health and well-being of the [court|E] they are in. They will treat disease and suture wounds to the best of their abilities.]
  maester_court_position_desc:1 "The $maester_court_position$ is responsible for the health and well-being of the [court|E] they are in. They will treat disease and suture wounds to the best of their abilities."
 ### TODO NOT-IN-ST: maester_employer_custom_effect_description [AGOT: Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!]
  maester_employer_custom_effect_description:1 "Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
-### TODO NOT-IN-ST: grandmaester_court_position [AGOT: Grand Maester]
- grandmaester_court_position:0 "Grand Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
-### TODO NOT-IN-ST: grandmaester_tradition_bonus [AGOT: From [culture_tradition|E]]
- grandmaester_tradition_bonus:0 "From [culture_tradition|E]"
+
+ grandmaester_court_position:0 "Başüstat" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+
+ grandmaester_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: grandmaester_court_position_desc [AGOT: The $grandmaester_court_position$ is responsible for the health and well-being of the royal family. They will treat disease and suture wounds to the best of their abilities.]
  grandmaester_court_position_desc:1 "The $grandmaester_court_position$ is responsible for the health and well-being of the royal family. They will treat disease and suture wounds to the best of their abilities."
 ### TODO NOT-IN-ST: grandmaester_employer_custom_effect_description [AGOT: Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!]
  grandmaester_employer_custom_effect_description:1 "Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
-### TODO NOT-IN-ST: household_guard_court_position [AGOT: Captain of the Household Guard]
- household_guard_court_position:0 "Captain of the Household Guard"
-### TODO NOT-IN-ST: household_guard_tradition_bonus [AGOT: From [culture_tradition|E]]
- household_guard_tradition_bonus:0 "From [culture_tradition|E]"
+
+ household_guard_court_position:0 "Hane Muhafızlarının Kaptanı"
+
+ household_guard_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: household_guard_court_position_desc [AGOT: The $household_guard_court_position$ is responsible for organizing the protection of the [house|E] they serve.]
  household_guard_court_position_desc:0 "The $household_guard_court_position$ is responsible for organizing the protection of the [house|E] they serve."
 ### TODO NOT-IN-ST: household_guard_employer_custom_effect_description [AGOT: Reduces your risk to die or be captured in battles you're both fighting in#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!]
  household_guard_employer_custom_effect_description:2 "Reduces your risk to die or be captured in battles you're both fighting in#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
-### TODO NOT-IN-ST: admiral_court_position [AGOT: Admiral]
- admiral_court_position:0 "Admiral"
+
+ admiral_court_position:0 "Amiral"
 ### TODO NOT-IN-ST: admiral_court_position_desc [AGOT: The $admiral_court_position$ in charge of matters nautical and naval. Grand Captain of your [fleet|E], and overseer of when your armies [embark|E].]
  admiral_court_position_desc:0 "The $admiral_court_position$ in charge of matters nautical and naval. Grand Captain of your [fleet|E], and overseer of when your armies [embark|E]."
-### TODO NOT-IN-ST: admiral_fleet [AGOT: Scatter Fleets]
- admiral_fleet:0 "Scatter Fleets"
+
+ admiral_fleet:0 "Filoları Dağıt"
 ### TODO NOT-IN-ST: admiral_fleet_desc [AGOT: This character is dispersing the realm's fleets to patrol wider waters and respond swiftly to threats along the coast.]
  admiral_fleet_desc:0 "This character is dispersing the realm's fleets to patrol wider waters and respond swiftly to threats along the coast."
-### TODO NOT-IN-ST: admiral_maritime [AGOT: Protect Trade]
- admiral_maritime:0 "Protect Trade"
+
+ admiral_maritime:0 "Ticareti Koru"
 ### TODO NOT-IN-ST: admiral_maritime_desc [AGOT: This character is tasked with safeguarding maritime trade routes and ensuring the steady flow of goods through your ports.]
  admiral_maritime_desc:0 "This character is tasked with safeguarding maritime trade routes and ensuring the steady flow of goods through your ports."
-### TODO NOT-IN-ST: admiral_raid [AGOT: Embolden Raiders]
- admiral_raid:0 "Embolden Raiders"
+
+ admiral_raid:0 "Akıncıları Cesaretlendir"
 ### TODO NOT-IN-ST: admiral_raid_desc [AGOT: This character encourages aggressive action at sea, favoring swift strikes and plunder over caution or restraint.]
  admiral_raid_desc:0 "This character encourages aggressive action at sea, favoring swift strikes and plunder over caution or restraint."
-### TODO NOT-IN-ST: septon_court_position [AGOT: Septon]
+
  septon_court_position:0 "Septon"
-### TODO NOT-IN-ST: septon_tradition_bonus [AGOT: From [culture_tradition|E]]
- septon_tradition_bonus:0 "From [culture_tradition|E]"
+
+ septon_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: septon_court_position_desc [AGOT: The $septon_court_position$ provides religious services for members of your [court|E] who belong to the Faith of the Seven.]
  septon_court_position_desc:1 "The $septon_court_position$ provides religious services for members of your [court|E] who belong to the Faith of the Seven."
-### TODO NOT-IN-ST: septa_court_position [AGOT: Septa]
+
  septa_court_position:0 "Septa"
-### TODO NOT-IN-ST: septa_tradition_bonus [AGOT: From [culture_tradition|E]]
- septa_tradition_bonus:0 "From [culture_tradition|E]"
+
+ septa_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: septa_court_position_desc [AGOT: The $septa_court_position$ is responsible for educating your female [children|E] who do not have a [guardian|E].]
  septa_court_position_desc:1 "The $septa_court_position$ is responsible for educating your female [children|E] who do not have a [guardian|E]."
-### TODO NOT-IN-ST: gaoler_court_position [AGOT: Keeper of the Cells]
- gaoler_court_position:0 "Keeper of the Cells"
+
+ gaoler_court_position:0 "Hücrelerin Bekçisi"
 ### TODO NOT-IN-ST: gaoler_court_position_desc [AGOT: In the dank depths of the castle sprawl the dungeons, where the prisoners wail, and the $gaoler_court_position$ keeps watch.]
  gaoler_court_position_desc:1 "In the dank depths of the castle sprawl the dungeons, where the prisoners wail, and the $gaoler_court_position$ keeps watch."
-### TODO NOT-IN-ST: harbormaster_court_position [AGOT: Harbormaster]
- harbormaster_court_position:0 "Harbormaster"
-### TODO NOT-IN-ST: harbormaster_tradition_bonus [AGOT: From [culture_tradition|E]]
- harbormaster_tradition_bonus:0 "From [culture_tradition|E]"
+
+ harbormaster_court_position:0 "Liman Reisi"
+
+ harbormaster_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: harbormaster_court_position_desc [AGOT: The $harbormaster_court_position$ is the official who regulates maritime trade and oversees customs in your ports.]
  harbormaster_court_position_desc:0 "The $harbormaster_court_position$ is the official who regulates maritime trade and oversees customs in your ports."
 ### TODO NOT-IN-ST: warden_of_the_north_court_position [AGOT: Warden of the North]
@@ -99,14 +99,14 @@
  warden_of_the_south_court_position_desc:1 "The Warden of the South is charged with the defense of the South in cases of foreign threats or invasions."
 ### TODO NOT-IN-ST: goldcloaks_court_position [AGOT: Commander of the City Watch]
  goldcloaks_court_position:0 "Commander of the City Watch"
-### TODO NOT-IN-ST: goldcloaks_tradition_bonus [AGOT: From [culture_tradition|E]]
- goldcloaks_tradition_bonus:0 "From [culture_tradition|E]"
+
+ goldcloaks_tradition_bonus:0 "[culture_tradition|E]'den"
 ### TODO NOT-IN-ST: goldcloaks_court_position_desc [AGOT: The $goldcloaks_court_position$ commands King's Landing's City Watch, a position of significant prestige and importance.]
  goldcloaks_court_position_desc:0 "The $goldcloaks_court_position$ commands King's Landing's City Watch, a position of significant prestige and importance."
-### TODO NOT-IN-ST: goldcloaks_employer_custom_effect_description [AGOT: #!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!]
- goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
-### TODO NOT-IN-ST: generic_scheme_warning_employer_custom_effect_description [AGOT: #!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!]
- generic_scheme_warning_employer_custom_effect_description:0 "#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
+
+ goldcloaks_employer_custom_effect_description:0 "#!\n@warning_icon!#X Sana karşı [hostile_schemes|E] içinde güçlü [agent|E]#!"
+
+ generic_scheme_warning_employer_custom_effect_description:0 "#!\n@warning_icon!#X Sana karşı [hostile_schemes|E] içinde güçlü [agent|E]#!"
 ### TODO NOT-IN-ST: sea_watch_commander_court_position [AGOT: Commander of the Sea Watch]
  sea_watch_commander_court_position:0 "Commander of the Sea Watch"
 ### TODO NOT-IN-ST: sea_watch_commander_court_position_desc [AGOT: The head of the patrol fleet that guards the waters of Blackwater Bay around King's Landing, stretching toward Crackclaw Point, the shores of the Kingswood, and Massey's Hook.]
@@ -123,8 +123,8 @@
  high_reeve_court_position:0 "High Reeve"
 ### TODO NOT-IN-ST: high_reeve_court_position_desc [AGOT: The $high_reeve_court_position$ is charged with judging all cases of low justice in the capital, such as theft and pickpocketing.]
  high_reeve_court_position_desc:0 "The $high_reeve_court_position$ is charged with judging all cases of low justice in the capital, such as theft and pickpocketing."
-### TODO NOT-IN-ST: justiciar_court_position [AGOT: Justiciar]
- justiciar_court_position:0 "Justiciar"
+
+ justiciar_court_position:0 "Adalet Bakanı"
 ### TODO NOT-IN-ST: justiciar_court_position_desc [AGOT: Justiciars are granted powers of high justice directly by the sitting monarch. They travel the realm, authorized to try matters involving pits and gallows, and deliver justice in the royal name wherever it is required. This may be done by their own sword or by that of their retainers.]
  justiciar_court_position_desc:0 "Justiciars are granted powers of high justice directly by the sitting monarch. They travel the realm, authorized to try matters involving pits and gallows, and deliver justice in the royal name wherever it is required. This may be done by their own sword or by that of their retainers."
 ### TODO NOT-IN-ST: royal_mint_officer_court_position [AGOT: Warden of the Royal Mint]
@@ -159,14 +159,14 @@
  master_at_arms_court_position:0 "Master-at-Arms"
 ### TODO NOT-IN-ST: master_at_arms_court_position_desc [AGOT: The $master_at_arms_court_position$ is in charge of the arms of the realm, preserving and presiding over armorial and heraldic matters; they often double as their liege's courtly herald.]
  master_at_arms_court_position_desc:1 "The $master_at_arms_court_position$ is in charge of the arms of the realm, preserving and presiding over armorial and heraldic matters; they often double as their liege's courtly herald."
-### TODO NOT-IN-ST: court_smith_court_position [AGOT: Court Smith]
- court_smith_court_position:0 "Court Smith"
+
+ court_smith_court_position:0 "Saray Demircisi"
 ### TODO NOT-IN-ST: court_smith_court_position_desc [AGOT: The $court_smith_court_position$ is responsible for the upkeep and care of metalworks.]
  court_smith_court_position_desc:2 "The $court_smith_court_position$ is responsible for the upkeep and care of metalworks."
 ### TODO NOT-IN-ST: court_position_reforge_vs [AGOT: Knows the secrets of reforging Valyrian Steel]
  court_position_reforge_vs:0 "Knows the secrets of reforging Valyrian Steel"
-### TODO NOT-IN-ST: bloodrider_court_position [AGOT: Bloodrider]
- bloodrider_court_position:0 "Bloodrider"
+
+ bloodrider_court_position:0 "Kan Sürücüsü"
 ### TODO NOT-IN-ST: bloodrider_court_position_desc [AGOT: A $bloodrider_court_position$ is a guardian — bound in blood as a brother and companion — sworn to protect their leader. It is more than merely a bond of service; it is an unbreakable joining of their souls until their leader falls. Should they fail in their duty of protection, it turns to one of vengeance, and then death, as they join their leader in the afterlife.]
  bloodrider_court_position_desc:0 "A $bloodrider_court_position$ is a guardian — bound in blood as a brother and companion — sworn to protect their leader. It is more than merely a bond of service; it is an unbreakable joining of their souls until their leader falls. Should they fail in their duty of protection, it turns to one of vengeance, and then death, as they join their leader in the afterlife."
 ### TODO NOT-IN-ST: bloodrider_employer_custom_effect_description [AGOT: $BULLET$Has a chance to prevent Assassination [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Reduces your risk to die or be captured in [battles|E] you're both fighting in#!\n$BULLET$Will gain the [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] and become your [friend|E] if not already\n$BULLET$Will commit suicide upon your death to honor their blood oath]
@@ -175,7 +175,7 @@
  first_sword_court_position:0 "First Sword of Braavos"
 ### TODO NOT-IN-ST: first_sword_court_position_desc [AGOT: The $first_sword_court_position$ is the chief protector of the Sealord of Braavos.]
  first_sword_court_position_desc:0 "The $first_sword_court_position$ is the chief protector of the Sealord of Braavos."
-### TODO NOT-IN-ST: nw_septon [AGOT: Septon]
+
  nw_septon:0 "Septon"
 ### TODO NOT-IN-ST: nw_septon_desc [AGOT: The resident septon serving the brothers of the Night's Watch who follow the Seven.]
  nw_septon_desc:0 "The resident septon serving the brothers of the Night's Watch who follow the Seven."
@@ -183,114 +183,114 @@
  COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Castle Keepers"
 ### TODO NOT-IN-ST: b_the_shadow_tower_keeper [AGOT: Commander of the Shadow Tower]
  b_the_shadow_tower_keeper:0 "Commander of the Shadow Tower"
-### TODO NOT-IN-ST: b_the_shadow_tower_keeper_employer_custom_effect_description [AGOT: Keeps and protects the Shadow Tower]
- b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Keeps and protects the Shadow Tower"
-### TODO NOT-IN-ST: b_the_shadow_tower_keeper_desc [AGOT: Keeps and protects the Shadow Tower]
- b_the_shadow_tower_keeper_desc:0 "Keeps and protects the Shadow Tower"
+
+ b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Gölge Kulesi'ni korur ve muhafaza eder"
+
+ b_the_shadow_tower_keeper_desc:0 "Gölge Kulesi'ni korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_eastwatch_by_the_sea_keeper [AGOT: Commander of Eastwatch by the Sea]
  b_eastwatch_by_the_sea_keeper:0 "Commander of Eastwatch by the Sea"
-### TODO NOT-IN-ST: b_eastwatch_by_the_sea_keeper_employer_custom_effect_description [AGOT: Keeps and protects Eastwatch by the Sea]
- b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Keeps and protects Eastwatch by the Sea"
-### TODO NOT-IN-ST: b_eastwatch_by_the_sea_keeper_desc [AGOT: Keeps and protects Eastwatch by the Sea]
- b_eastwatch_by_the_sea_keeper_desc:0 "Keeps and protects Eastwatch by the Sea"
+
+ b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Deniz'deki Doğu Nöbet'i korur ve muhafaza eder"
+
+ b_eastwatch_by_the_sea_keeper_desc:0 "Deniz'deki Doğu Nöbet'i korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_the_nightfort_keeper [AGOT: Commander of the Nightfort]
  b_the_nightfort_keeper:0 "Commander of the Nightfort"
-### TODO NOT-IN-ST: b_the_nightfort_keeper_employer_custom_effect_description [AGOT: Keeps and protects the Nightfort]
- b_the_nightfort_keeper_employer_custom_effect_description:0 "Keeps and protects the Nightfort"
-### TODO NOT-IN-ST: b_the_nightfort_keeper_desc [AGOT: Keeps and protects the Nightfort]
- b_the_nightfort_keeper_desc:0 "Keeps and protects the Nightfort"
+
+ b_the_nightfort_keeper_employer_custom_effect_description:0 "Gece Kalesi'ni korur ve muhafaza eder"
+
+ b_the_nightfort_keeper_desc:0 "Gece Kalesi'ni korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_icemark_keeper [AGOT: Commander of Icemark]
  b_icemark_keeper:0 "Commander of Icemark"
-### TODO NOT-IN-ST: b_icemark_keeper_employer_custom_effect_description [AGOT: Keeps and protects Icemark]
- b_icemark_keeper_employer_custom_effect_description:0 "Keeps and protects Icemark"
-### TODO NOT-IN-ST: b_icemark_keeper_desc [AGOT: Keeps and protects Icemark]
- b_icemark_keeper_desc:0 "Keeps and protects Icemark"
+
+ b_icemark_keeper_employer_custom_effect_description:0 "Buz Sınırı'nı korur ve muhafaza eder"
+
+ b_icemark_keeper_desc:0 "Buz Sınırı'nı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_deep_lake_keeper [AGOT: Commander of Deep Lake]
  b_deep_lake_keeper:0 "Commander of Deep Lake"
-### TODO NOT-IN-ST: b_deep_lake_keeper_employer_custom_effect_description [AGOT: Keeps and protects Deep Lake]
- b_deep_lake_keeper_employer_custom_effect_description:0 "Keeps and protects Deep Lake"
-### TODO NOT-IN-ST: b_deep_lake_keeper_desc [AGOT: Keeps and protects Deep Lake]
- b_deep_lake_keeper_desc:0 "Keeps and protects Deep Lake"
+
+ b_deep_lake_keeper_employer_custom_effect_description:0 "Derin Göl'ü korur ve muhafaza eder"
+
+ b_deep_lake_keeper_desc:0 "Derin Göl'ü korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_queensgate_keeper [AGOT: Commander of Queensgate]
  b_queensgate_keeper:0 "Commander of Queensgate"
-### TODO NOT-IN-ST: b_queensgate_keeper_employer_custom_effect_description [AGOT: Keeps and protects Queensgate]
- b_queensgate_keeper_employer_custom_effect_description:0 "Keeps and protects Queensgate"
-### TODO NOT-IN-ST: b_queensgate_keeper_desc [AGOT: Keeps and protects Queensgate]
- b_queensgate_keeper_desc:0 "Keeps and protects Queensgate"
+
+ b_queensgate_keeper_employer_custom_effect_description:0 "Kraliçe Kapısı'nı korur ve muhafaza eder"
+
+ b_queensgate_keeper_desc:0 "Kraliçe Kapısı'nı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_oakenshield_keeper [AGOT: Commander of Oakenshield]
  b_oakenshield_keeper:0 "Commander of Oakenshield"
-### TODO NOT-IN-ST: b_oakenshield_keeper_employer_custom_effect_description [AGOT: Keeps and protects Oakenshield]
- b_oakenshield_keeper_employer_custom_effect_description:0 "Keeps and protects Oakenshield"
-### TODO NOT-IN-ST: b_oakenshield_keeper_desc [AGOT: Keeps and protects Oakenshield]
- b_oakenshield_keeper_desc:0 "Keeps and protects Oakenshield"
+
+ b_oakenshield_keeper_employer_custom_effect_description:0 "Oakenshield'ı korur ve muhafaza eder"
+
+ b_oakenshield_keeper_desc:0 "Oakenshield'ı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_woodswatch_by_the_pool_keeper [AGOT: Commander of Wood's Watch by the Pool]
  b_woodswatch_by_the_pool_keeper:0 "Commander of Wood's Watch by the Pool"
-### TODO NOT-IN-ST: b_woodswatch_by_the_pool_keeper_employer_custom_effect_description [AGOT: Keeps and protects Wood's Watch by the Pool]
- b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Keeps and protects Wood's Watch by the Pool"
-### TODO NOT-IN-ST: b_woodswatch_by_the_pool_keeper_desc [AGOT: Keeps and protects Wood's Watch by the Pool]
- b_woodswatch_by_the_pool_keeper_desc:0 "Keeps and protects Wood's Watch by the Pool"
+
+ b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Havuz'daki Ahşap Nöbet'i korur ve muhafaza eder"
+
+ b_woodswatch_by_the_pool_keeper_desc:0 "Havuz'daki Ahşap Nöbet'i korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_westwatch_by_the_bridge_keeper [AGOT: Commander of Westwatch by the Bridge]
  b_westwatch_by_the_bridge_keeper:0 "Commander of Westwatch by the Bridge"
-### TODO NOT-IN-ST: b_westwatch_by_the_bridge_keeper_employer_custom_effect_description [AGOT: Keeps and protects Westwatch by the Bridge]
- b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Keeps and protects Westwatch by the Bridge"
-### TODO NOT-IN-ST: b_westwatch_by_the_bridge_keeper_desc [AGOT: Keeps and protects Westwatch by the Bridge]
- b_westwatch_by_the_bridge_keeper_desc:0 "Keeps and protects Westwatch by the Bridge"
+
+ b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Köprü'deki Batı Nöbet'i korur ve muhafaza eder"
+
+ b_westwatch_by_the_bridge_keeper_desc:0 "Köprü'deki Batı Nöbet'i korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_sentinel_stand_keeper [AGOT: Commander of Sentinel Stand]
  b_sentinel_stand_keeper:0 "Commander of Sentinel Stand"
-### TODO NOT-IN-ST: b_sentinel_stand_keeper_employer_custom_effect_description [AGOT: Keeps and protects Sentinel Stand]
- b_sentinel_stand_keeper_employer_custom_effect_description:0 "Keeps and protects Sentinel Stand"
-### TODO NOT-IN-ST: b_sentinel_stand_keeper_desc [AGOT: Keeps and protects Sentinel Stand]
- b_sentinel_stand_keeper_desc:0 "Keeps and protects Sentinel Stand"
+
+ b_sentinel_stand_keeper_employer_custom_effect_description:0 "Nöbetçi Duruşu'nu korur ve muhafaza eder"
+
+ b_sentinel_stand_keeper_desc:0 "Nöbetçi Duruşu'nu korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_greyguard_keeper [AGOT: Commander of Greyguard]
  b_greyguard_keeper:0 "Commander of Greyguard"
-### TODO NOT-IN-ST: b_greyguard_keeper_employer_custom_effect_description [AGOT: Keeps and protects Greyguard]
- b_greyguard_keeper_employer_custom_effect_description:0 "Keeps and protects Greyguard"
-### TODO NOT-IN-ST: b_greyguard_keeper_desc [AGOT: Keeps and protects Greyguard]
- b_greyguard_keeper_desc:0 "Keeps and protects Greyguard"
+
+ b_greyguard_keeper_employer_custom_effect_description:0 "Gri Muhafız'ı korur ve muhafaza eder"
+
+ b_greyguard_keeper_desc:0 "Gri Muhafız'ı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_stonedoor_keeper [AGOT: Commander of Stonedoor]
  b_stonedoor_keeper:0 "Commander of Stonedoor"
-### TODO NOT-IN-ST: b_stonedoor_keeper_employer_custom_effect_description [AGOT: Keeps and protects Stonedoor]
- b_stonedoor_keeper_employer_custom_effect_description:0 "Keeps and protects Stonedoor"
-### TODO NOT-IN-ST: b_stonedoor_keeper_desc [AGOT: Keeps and protects Stonedoor]
- b_stonedoor_keeper_desc:0 "Keeps and protects Stonedoor"
+
+ b_stonedoor_keeper_employer_custom_effect_description:0 "Taş Kapı'yı korur ve muhafaza eder"
+
+ b_stonedoor_keeper_desc:0 "Taş Kapı'yı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_hoarfrost_hill_keeper [AGOT: Commander of Hoarfrost Hill]
  b_hoarfrost_hill_keeper:0 "Commander of Hoarfrost Hill"
-### TODO NOT-IN-ST: b_hoarfrost_hill_keeper_employer_custom_effect_description [AGOT: Keeps and protects Hoarfrost Hill]
- b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Keeps and protects Hoarfrost Hill"
-### TODO NOT-IN-ST: b_hoarfrost_hill_keeper_desc [AGOT: Keeps and protects Hoarfrost Hill]
- b_hoarfrost_hill_keeper_desc:0 "Keeps and protects Hoarfrost Hill"
+
+ b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Kırağı Tepesi'ni korur ve muhafaza eder"
+
+ b_hoarfrost_hill_keeper_desc:0 "Kırağı Tepesi'ni korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_sable_hall_keeper [AGOT: Commander of Sable Hall]
  b_sable_hall_keeper:0 "Commander of Sable Hall"
-### TODO NOT-IN-ST: b_sable_hall_keeper_employer_custom_effect_description [AGOT: Keeps and protects Sable Hall]
- b_sable_hall_keeper_employer_custom_effect_description:0 "Keeps and protects Sable Hall"
-### TODO NOT-IN-ST: b_sable_hall_keeper_desc [AGOT: Keeps and protects Sable Hall]
- b_sable_hall_keeper_desc:0 "Keeps and protects Sable Hall"
+
+ b_sable_hall_keeper_employer_custom_effect_description:0 "Siyah Salon'u korur ve muhafaza eder"
+
+ b_sable_hall_keeper_desc:0 "Siyah Salon'u korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_rimegate_keeper [AGOT: Commander of Rimegate]
  b_rimegate_keeper:0 "Commander of Rimegate"
-### TODO NOT-IN-ST: b_rimegate_keeper_employer_custom_effect_description [AGOT: Keeps and protects Rimegate]
- b_rimegate_keeper_employer_custom_effect_description:0 "Keeps and protects Rimegate"
-### TODO NOT-IN-ST: b_rimegate_keeper_desc [AGOT: Keeps and protects Rimegate]
- b_rimegate_keeper_desc:0 "Keeps and protects Rimegate"
+
+ b_rimegate_keeper_employer_custom_effect_description:0 "Kırağı Kapısı'nı korur ve muhafaza eder"
+
+ b_rimegate_keeper_desc:0 "Kırağı Kapısı'nı korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_long_barrow_keeper [AGOT: Commander of Long Barrow]
  b_long_barrow_keeper:0 "Commander of Long Barrow"
-### TODO NOT-IN-ST: b_long_barrow_keeper_employer_custom_effect_description [AGOT: Keeps and protects Long Barrow]
- b_long_barrow_keeper_employer_custom_effect_description:0 "Keeps and protects Long Barrow"
-### TODO NOT-IN-ST: b_long_barrow_keeper_desc [AGOT: Keeps and protects Long Barrow]
- b_long_barrow_keeper_desc:0 "Keeps and protects Long Barrow"
+
+ b_long_barrow_keeper_employer_custom_effect_description:0 "Uzun Tümülüs'ü korur ve muhafaza eder"
+
+ b_long_barrow_keeper_desc:0 "Uzun Tümülüs'ü korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_the_torches_keeper [AGOT: Commander of the Torches]
  b_the_torches_keeper:0 "Commander of the Torches"
-### TODO NOT-IN-ST: b_the_torches_keeper_employer_custom_effect_description [AGOT: Keeps and protects the Torches]
- b_the_torches_keeper_employer_custom_effect_description:0 "Keeps and protects the Torches"
-### TODO NOT-IN-ST: b_the_torches_keeper_desc [AGOT: Keeps and protects the Torches]
- b_the_torches_keeper_desc:0 "Keeps and protects the Torches"
+
+ b_the_torches_keeper_employer_custom_effect_description:0 "Meşaleler'i korur ve muhafaza eder"
+
+ b_the_torches_keeper_desc:0 "Meşaleler'i korur ve muhafaza eder"
 ### TODO NOT-IN-ST: b_greenguard_keeper [AGOT: Commander of Greenguard]
  b_greenguard_keeper:0 "Commander of Greenguard"
-### TODO NOT-IN-ST: b_greenguard_keeper_employer_custom_effect_description [AGOT: Keeps and protects Greenguard]
- b_greenguard_keeper_employer_custom_effect_description:0 "Keeps and protects Greenguard"
-### TODO NOT-IN-ST: b_greenguard_keeper_desc [AGOT: Keeps and protects Greenguard]
- b_greenguard_keeper_desc:0 "Keeps and protects Greenguard"
-### TODO NOT-IN-ST: head_dragonkeeper_court_position [AGOT: Head Dragonkeeper]
- head_dragonkeeper_court_position:0 "Head Dragonkeeper"
+
+ b_greenguard_keeper_employer_custom_effect_description:0 "Yeşil Muhafız'ı korur ve muhafaza eder"
+
+ b_greenguard_keeper_desc:0 "Yeşil Muhafız'ı korur ve muhafaza eder"
+
+ head_dragonkeeper_court_position:0 "Baş Ejderha Bakıcısı"
 ### TODO NOT-IN-ST: head_dragonkeeper_court_position_desc [AGOT: The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons_plural|e] in the [dragonpit|e] to the best of their ability.]
  head_dragonkeeper_court_position_desc:1 "The $head_dragonkeeper_court_position$ is the head of the [dragonkeeper|E] order they serve. They will protect and raise [dragons_plural|e] in the [dragonpit|e] to the best of their ability."
 ### TODO NOT-IN-ST: head_dragonkeeper_court_position_custom_effect_description [AGOT: Unlocks [dragonpit_interactions|E]]

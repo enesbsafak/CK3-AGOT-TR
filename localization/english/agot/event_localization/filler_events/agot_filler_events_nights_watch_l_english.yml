@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: nightswatch_arrived.title [AGOT: A New Night's Watchman]
  nightswatch_arrived.title:0 "A New Night's Watchman"
 ### TODO NOT-IN-ST: nightswatch_arrived.desc [AGOT: [nightswatch_candidate.GetShortUIName|U] has joined the Night's Watch as a sworn brother.]
@@ -19,7 +19,7 @@
  agot_filler_nights_watch.0002.paranoia:0 "with a cruel, unloving look in [teller.GetHerHis] eyes."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0002.fallback [AGOT: in utter disbelief.]
  agot_filler_nights_watch.0002.fallback:0 "in utter disbelief."
-### TODO NOT-IN-ST: agot_filler_nights_watch.0002.middle [AGOT: \n\n]
+
  agot_filler_nights_watch.0002.middle:0 "\n\n"[fallguy.Custom2('YourCharacterIntroduction', ROOT.Char)|U] is selling our mules," [teller.GetSheHe] says with disgust. "The herd we use for patrolling the wall has thinned this last year, so I took it upon myself to uncover the cause, and I am certain [fallguy.GetSheHe] is selling them. [fallguy.GetSheHe|U] could have made as much as two hundred gold dragons!""
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0002.special.less_than.learning [AGOT: \n\nAs I look over [teller.GetFirstNameNoTooltip], I know in my heart that [teller.GetSheHe] is well-learned, but]
  agot_filler_nights_watch.0002.special.less_than.learning:0 "\n\nAs I look over [teller.GetFirstNameNoTooltip], I know in my heart that [teller.GetSheHe] is well-learned, but"
@@ -165,8 +165,8 @@
  agot_filler_nights_watch.0007.t:0 "[benefactor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0007.desc [AGOT: I hope this finds you well. I understand my [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] owes a debt to you and your brotherhood. Though [fallguy.GetSheHe] insists on [fallguy.GetHerHis] innocence, I will pay this debt on [fallguy.GetHerHis] behalf, with the expectation that you will no longer hound my [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] for it.\n\nAs I have been more than fair in paying this debt — a debt which you would never have had collected otherwise — I will one day expect you to return the favor for me.]
  agot_filler_nights_watch.0007.desc:0 "I hope this finds you well. I understand my [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] owes a debt to you and your brotherhood. Though [fallguy.GetSheHe] insists on [fallguy.GetHerHis] innocence, I will pay this debt on [fallguy.GetHerHis] behalf, with the expectation that you will no longer hound my [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] for it.\n\nAs I have been more than fair in paying this debt — a debt which you would never have had collected otherwise — I will one day expect you to return the favor for me."
-### TODO NOT-IN-ST: agot_filler_nights_watch.0007.a [AGOT: Very well.]
- agot_filler_nights_watch.0007.a:0 "Very well."
+
+ agot_filler_nights_watch.0007.a:0 "Pekâlâ."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0008.t.good [AGOT: [ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]]
  agot_filler_nights_watch.0008.t.good:0 "[ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0008.t.bad [AGOT: To the moron still at [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]]
@@ -175,16 +175,16 @@
  agot_filler_nights_watch.0008.desc.good:0 "Perhaps you have realized it already, but I will not be returning to the Wall.\n\nI am sorry for the deception, but I cannot bear the debt you set upon me. I swear to you, on the old gods and the new, I did not steal from the Watch.\n\nI know you do not believe me, so I will work to right my name of dishonor, even if I must live dishonorably for the rest of my days to do it."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0008.desc.bad [AGOT: You haven't even noticed my absence these last weeks, have you? And it is that stunning ineptitude which so astounds me.\n\nI did not appreciate your accusations of theft, nor your demands that I pay back a debt which is not rightfully mine, so I am pleased to tell you I will not be returning to the Wall — not now, not ever.\n\nIn a year's time I might be dead in a ditch, the world cursing my dishonorable name, and still it will be a better fate than to sit at the heel of such a mindless lord.]
  agot_filler_nights_watch.0008.desc.bad:0 "You haven't even noticed my absence these last weeks, have you? And it is that stunning ineptitude which so astounds me.\n\nI did not appreciate your accusations of theft, nor your demands that I pay back a debt which is not rightfully mine, so I am pleased to tell you I will not be returning to the Wall — not now, not ever.\n\nIn a year's time I might be dead in a ditch, the world cursing my dishonorable name, and still it will be a better fate than to sit at the heel of such a mindless lord."
-### TODO NOT-IN-ST: agot_filler_nights_watch.0008.a.good [AGOT: So be it.]
- agot_filler_nights_watch.0008.a.good:0 "So be it."
+
+ agot_filler_nights_watch.0008.a.good:0 "Öyle olsun."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0008.a.bad [AGOT: Bastard.]
  agot_filler_nights_watch.0008.a.bad:0 "Bastard."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0009.t [AGOT: Trouble Adjusting]
  agot_filler_nights_watch.0009.t:0 "Trouble Adjusting"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0009.desc [AGOT: They come to the Watch sometimes as little lordlings, but most often as broken boys. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] is the rough slipshod of such a boy, disregarding his training masters and fighting without provocation. When he finally drives the master-at-arms to the limit, he lands in front of me.\n\n]
  agot_filler_nights_watch.0009.desc:0 "They come to the Watch sometimes as little lordlings, but most often as broken boys. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] is the rough slipshod of such a boy, disregarding his training masters and fighting without provocation. When he finally drives the master-at-arms to the limit, he lands in front of me.\n\n"Why are you so quick to fight with your new brothers?" I sneer. "Would you rather be in a cage than on the Wall?"\n\n"Yes," he says softly. "I don't deserve a second go, not after all I did. I deserve a cage, or a hole you can bury me in.""
-### TODO NOT-IN-ST: agot_filler_nights_watch.0009.a [AGOT: So be it.]
- agot_filler_nights_watch.0009.a:0 "So be it."
+
+ agot_filler_nights_watch.0009.a:0 "Öyle olsun."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0009.a.tt [AGOT: You execute [troublemaker.GetTitledFirstName]]
  agot_filler_nights_watch.0009.a.tt:0 "You execute [troublemaker.GetTitledFirstName]"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0009.b [AGOT: This is your life, boy. Reconcile that, or find your own damn shovel.]
@@ -237,8 +237,8 @@
  agot_filler_nights_watch.0011.b.sadistic:0 "Hang [squatter_1.GetHerHim]"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0011.c [AGOT: Take [squatter_1.GetHerHis] tongue before [squatter_1.GetSheHe] reveals any more secrets]
  agot_filler_nights_watch.0011.c:0 "Take [squatter_1.GetHerHis] tongue before [squatter_1.GetSheHe] reveals any more secrets"
-### TODO NOT-IN-ST: agot_filler_nights_watch.0012.t [AGOT: The Wolf's Shadow]
- agot_filler_nights_watch.0012.t:0 "The Wolf's Shadow"
+
+ agot_filler_nights_watch.0012.t:0 "Kurdun Gölgesi"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0012.opening [AGOT: A pack of grey wolves has been hunting smallfolk in the Gift, but the two hunting parties sent out have returned with not only less than a single pelt, but also a badly-mauled brother in [eaten.GetTitledFirstName]. The men have grown restless since, and now rumors flutter among the watch that a direwolf leads the pack.\n\n]
  agot_filler_nights_watch.0012.opening:0 "A pack of grey wolves has been hunting smallfolk in the Gift, but the two hunting parties sent out have returned with not only less than a single pelt, but also a badly-mauled brother in [eaten.GetTitledFirstName]. The men have grown restless since, and now rumors flutter among the watch that a direwolf leads the pack.\n\n"South of the Wall?" [goon.GetTitledFirstName] snorts at one of the men as we sup. "There's no direwolf south of the Wall. This is a bitch barely weaned. One sword stroke and she'll go down, sure as "
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0012.joke.lowborn [AGOT: [joke.GetFirstNamePossessive] mother in Mole's Town.]
@@ -249,7 +249,7 @@
  agot_filler_nights_watch.0012.joke.response.new_speaker:0 "\n\n[joke.GetFirstNameNoTooltip] prods at [goon.GetTitledFirstNameNoTooltip]. "Why don't you kill it then?""
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0012.joke.response.fallback [AGOT: \n\n[joke.GetFirstName] prods at [goon.GetTitledFirstNameNoTooltip].]
  agot_filler_nights_watch.0012.joke.response.fallback:0 "\n\n[joke.GetFirstName] prods at [goon.GetTitledFirstNameNoTooltip]. "Why don't you kill it then?""
-### TODO NOT-IN-ST: agot_filler_nights_watch.0012.closing [AGOT: \n\n]
+
  agot_filler_nights_watch.0012.closing:0 "\n\n"Well, I wouldn't want to steal the glory from [ROOT.Char.GetTitledFirstNameNoTooltip]," [goon.GetTitledFirstNameNoTooltip] says sheepishly. "[ROOT.Char.GetSheHe|U] should be the one to kill the wolf."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0012.a.trusting [AGOT: I'll trust you to take care of it, [goon.GetFirstName].]
  agot_filler_nights_watch.0012.a.trusting:0 "I'll trust you to take care of it, [goon.GetFirstName]."
@@ -285,8 +285,8 @@
  agot_filler_nights_watch.0013.message.success.t:0 "[goon.GetTitledFirstName] Has Driven Back the Wolves"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0013.message.success.tt [AGOT: The hunting party you sent to deal with the wolves was not able to kill the pack's leader, but the pack was driven away from the villages and holdfasts of the Gift]
  agot_filler_nights_watch.0013.message.success.tt:0 "The hunting party you sent to deal with the wolves was not able to kill the pack's leader, but the pack was driven away from the villages and holdfasts of the Gift"
-### TODO NOT-IN-ST: agot_filler_nights_watch.0014.t [AGOT: The Wolf's Shadow]
- agot_filler_nights_watch.0014.t:0 "The Wolf's Shadow"
+
+ agot_filler_nights_watch.0014.t:0 "Kurdun Gölgesi"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0014.opening.forgiving [AGOT: The hunting parties have tried their best, but looking at the fear on their faces, I know the task must fall to me.]
  agot_filler_nights_watch.0014.opening.forgiving:0 "The hunting parties have tried their best, but looking at the fear on their faces, I know the task must fall to me."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0014.opening.arrogant [AGOT: Who else but me could fix this problem?]
@@ -317,8 +317,8 @@
  agot_filler_nights_watch.0014.b:0 "Plunge into the woods to scare the creatures away"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0014.b.tt [AGOT: #I Favors bold characters#!]
  agot_filler_nights_watch.0014.b.tt:0 "#I Favors bold characters#!"
-### TODO NOT-IN-ST: agot_filler_nights_watch.0015.t [AGOT: The Wolf's Shadow]
- agot_filler_nights_watch.0015.t:0 "The Wolf's Shadow"
+
+ agot_filler_nights_watch.0015.t:0 "Kurdun Gölgesi"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0015.dire_wolf.defense [AGOT: We set the horses to rest and take our defensive positions. Blades are drawn in the dark, steel flashing in the torchlight. Branches rustle. Bushes shake. The birds quiet so softly that a cold silence slithers into each of us, then an aching howl cries out, and in the dark its mate answers.\n\nWolves rush from the woods, fangs and claws and grey fur thrashing around us like a roiling grey sea. Over the yelping of the beasts, [goon.GetTitledFirstName] cries out in pain. [goon.GetSheHe|U] lies on his belly, and above him stands a monstrous, snarling direwolf, its snout bloodied with gore, its yellow eyes as wild as winter. Its gaze fixes on me and it lunges, jaw snapping with hate.\n\n]
  agot_filler_nights_watch.0015.dire_wolf.defense:0 "We set the horses to rest and take our defensive positions. Blades are drawn in the dark, steel flashing in the torchlight. Branches rustle. Bushes shake. The birds quiet so softly that a cold silence slithers into each of us, then an aching howl cries out, and in the dark its mate answers.\n\nWolves rush from the woods, fangs and claws and grey fur thrashing around us like a roiling grey sea. Over the yelping of the beasts, [goon.GetTitledFirstName] cries out in pain. [goon.GetSheHe|U] lies on his belly, and above him stands a monstrous, snarling direwolf, its snout bloodied with gore, its yellow eyes as wild as winter. Its gaze fixes on me and it lunges, jaw snapping with hate.\n\n"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0015.dire_wolf.offense [AGOT: I draw my sword and yell, charging towards the bushes. Taken aback, the other black brothers reluctantly give chase. Branches snap, wolves whimpering and scurrying in fear as I push through a tangled break in the woods.\n\nThen I freeze. A direwolf of monstrous size stands in my way as I clear the brush, its hot stink of breath on my face, as it snarls and drools before me. As I hold my ground it takes a weak step back, and sensing its fright, I charge. Its dagger-sharp claws slash at me, but]
@@ -397,8 +397,8 @@
  agot_filler_nights_watch.0016.desc:0 "PLACEHOLDER"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0016.a [AGOT: PLACEHOLDER]
  agot_filler_nights_watch.0016.a:0 "PLACEHOLDER"
-### TODO NOT-IN-ST: agot_filler_nights_watch.0017.t [AGOT: The Wolf's Shadow]
- agot_filler_nights_watch.0017.t:0 "The Wolf's Shadow"
+
+ agot_filler_nights_watch.0017.t:0 "Kurdun Gölgesi"
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0017.desc [AGOT: The remnants of the hunting party that was sent to dispatch the wolf pack terrorizing the Gift limps home beaten and bloody. Some of my brothers have not returned from the Gift at all, and I feel their loss as a stab in my gut. These wolves, it seems, are no ordinary pack. When at last one of my brothers is calm enough to give a coherent account of what happened, he speaks of a hulking beast with yellow eyes and black fur. They were ambushed, he says, and barely escaped the encounter with their lives.\n\nWhat has the Night's Watch come to? We are charged to protect the realms of men, but we cannot even protect our neighbors from wild animals.]
  agot_filler_nights_watch.0017.desc:0 "The remnants of the hunting party that was sent to dispatch the wolf pack terrorizing the Gift limps home beaten and bloody. Some of my brothers have not returned from the Gift at all, and I feel their loss as a stab in my gut. These wolves, it seems, are no ordinary pack. When at last one of my brothers is calm enough to give a coherent account of what happened, he speaks of a hulking beast with yellow eyes and black fur. They were ambushed, he says, and barely escaped the encounter with their lives.\n\nWhat has the Night's Watch come to? We are charged to protect the realms of men, but we cannot even protect our neighbors from wild animals."
 ### TODO NOT-IN-ST: agot_filler_nights_watch.0017.a [AGOT: This failure is a stain on the good name of the Night's Watch.]

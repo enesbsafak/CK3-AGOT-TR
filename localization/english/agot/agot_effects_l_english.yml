@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: GET_AGOT_SQUIRE [AGOT: Gets [TARGET_CHARACTER.GetShortUIName] as a #V [squire|e]#!]
  GET_AGOT_SQUIRE:0 "Gets [TARGET_CHARACTER.GetShortUIName] as a #V [squire|e]#!"
 ### TODO NOT-IN-ST: I_GET_AGOT_SQUIRE [AGOT: [TARGET_CHARACTER.GetShortUIName|U] becomes your #V [squire|e]#!]
@@ -59,22 +59,22 @@
  I_SPYNETWORK_INSTRUCTED_DESCRIPTION:2 "Your spies are more likely to discover secrets or schemes"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_INSTRUCTED_DESCRIPTION [AGOT: [CHARACTER.GetShortUINamePossessive|U] spies are more likely to discover secrets or schemes]
  THEY_SPYNETWORK_INSTRUCTED_DESCRIPTION:1 "[CHARACTER.GetShortUINamePossessive|U] spies are more likely to discover secrets or schemes"
-### TODO NOT-IN-ST: SPYNETWORK_CONVINCING_DESCRIPTION [AGOT: Characters are generally more willing to spy for you]
- SPYNETWORK_CONVINCING_DESCRIPTION:1 "Characters are generally more willing to spy for you"
-### TODO NOT-IN-ST: I_SPYNETWORK_CONVINCING_DESCRIPTION [AGOT: Characters are generally more willing to spy for you]
- I_SPYNETWORK_CONVINCING_DESCRIPTION:2 "Characters are generally more willing to spy for you"
+
+ SPYNETWORK_CONVINCING_DESCRIPTION:0 "Karakterler genellikle senin için casusluk yapmaya daha istekli"
+
+ I_SPYNETWORK_CONVINCING_DESCRIPTION:0 "Karakterler genellikle senin için casusluk yapmaya daha istekli"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_CONVINCING_DESCRIPTION [AGOT: Characters are generally more willing to spy for [CHARACTER.GetShortUIName|U]]
  THEY_SPYNETWORK_CONVINCING_DESCRIPTION:1 "Characters are generally more willing to spy for [CHARACTER.GetShortUIName|U]"
-### TODO NOT-IN-ST: SPYNETWORK_CHARISMATIC_DESCRIPTION [AGOT: Attracted characters are more willing to spy for you]
- SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Attracted characters are more willing to spy for you"
-### TODO NOT-IN-ST: I_SPYNETWORK_CHARISMATIC_DESCRIPTION [AGOT: Attracted characters are more willing to spy for you]
- I_SPYNETWORK_CHARISMATIC_DESCRIPTION:2 "Attracted characters are more willing to spy for you"
+
+ SPYNETWORK_CHARISMATIC_DESCRIPTION:0 "Etkilenen karakterler senin için casusluk yapmaya daha istekli"
+
+ I_SPYNETWORK_CHARISMATIC_DESCRIPTION:0 "Etkilenen karakterler senin için casusluk yapmaya daha istekli"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_CHARISMATIC_DESCRIPTION [AGOT: Attracted characters are more willing to spy for [CHARACTER.GetShortUIName|U]]
  THEY_SPYNETWORK_CHARISMATIC_DESCRIPTION:1 "Attracted characters are more willing to spy for [CHARACTER.GetShortUIName|U]"
-### TODO NOT-IN-ST: SPYNETWORK_BIRDS_DESCRIPTION [AGOT: You can hire children older than 8 years as spies]
- SPYNETWORK_BIRDS_DESCRIPTION:1 "You can hire children older than 8 years as spies"
-### TODO NOT-IN-ST: I_SPYNETWORK_BIRDS_DESCRIPTION [AGOT: You can hire children older than 8 years as spies]
- I_SPYNETWORK_BIRDS_DESCRIPTION:2 "You can hire children older than 8 years as spies"
+
+ SPYNETWORK_BIRDS_DESCRIPTION:0 "8 yaşından büyük çocukları casus olarak tutabilirsin"
+
+ I_SPYNETWORK_BIRDS_DESCRIPTION:0 "8 yaşından büyük çocukları casus olarak tutabilirsin"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_BIRDS_DESCRIPTION [AGOT: [CHARACTER.GetShortUIName|U] can hire children older than 8 years as spies]
  THEY_SPYNETWORK_BIRDS_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] can hire children older than 8 years as spies"
 ### TODO NOT-IN-ST: SPYNETWORK_INNOCENT_DESCRIPTION [AGOT: Increases the probability of child spies discovering secrets or schemes]
@@ -83,16 +83,16 @@
  I_SPYNETWORK_INNOCENT_DESCRIPTION:2 "Children spying for you have a higher chance of discovering secrets or schemes"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_INNOCENT_DESCRIPTION [AGOT: Children spying for [CHARACTER.GetShortUIName|U] have a higher chance of discovering secrets or schemes]
  THEY_SPYNETWORK_INNOCENT_DESCRIPTION:1 "Children spying for [CHARACTER.GetShortUIName|U] have a higher chance of discovering secrets or schemes"
-### TODO NOT-IN-ST: SPYNETWORK_OMERTA_DESCRIPTION [AGOT: Your spies are much less likely to flip and reveal your name if they get caught]
- SPYNETWORK_OMERTA_DESCRIPTION:1 "Your spies are much less likely to flip and reveal your name if they get caught"
-### TODO NOT-IN-ST: I_SPYNETWORK_OMERTA_DESCRIPTION [AGOT: Your spies are much less likely to flip and reveal your name if they get caught]
- I_SPYNETWORK_OMERTA_DESCRIPTION:2 "Your spies are much less likely to flip and reveal your name if they get caught"
+
+ SPYNETWORK_OMERTA_DESCRIPTION:0 "Casusların yakalanırsa adını söyleme ihtimalleri çok daha düşük"
+
+ I_SPYNETWORK_OMERTA_DESCRIPTION:0 "Casusların yakalanırsa adını söyleme ihtimalleri çok daha düşük"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_OMERTA_DESCRIPTION [AGOT: [CHARACTER.GetShortUIName|U]'s spies are much less likely to flip and reveal their employer if they get caught]
  THEY_SPYNETWORK_OMERTA_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U]'s spies are much less likely to flip and reveal their employer if they get caught"
-### TODO NOT-IN-ST: SPYNETWORK_SLEEPER_DESCRIPTION [AGOT: Your spies are more likely to join your hostile schemes as agents]
- SPYNETWORK_SLEEPER_DESCRIPTION:1 "Your spies are more likely to join your hostile schemes as agents"
-### TODO NOT-IN-ST: I_SPYNETWORK_SLEEPER_DESCRIPTION [AGOT: Your spies are more likely to join your hostile schemes as agents]
- I_SPYNETWORK_SLEEPER_DESCRIPTION:2 "Your spies are more likely to join your hostile schemes as agents"
+
+ SPYNETWORK_SLEEPER_DESCRIPTION:0 "Casusların düşmanca entrikalarına ajan olarak katılmaya daha meyilli"
+
+ I_SPYNETWORK_SLEEPER_DESCRIPTION:0 "Casusların düşmanca entrikalarına ajan olarak katılmaya daha meyilli"
 ### TODO NOT-IN-ST: THEY_SPYNETWORK_SLEEPER_DESCRIPTION [AGOT: [CHARACTER.GetShortUIName|U]'s spies are more likely to join hostile schemes as agents]
  THEY_SPYNETWORK_SLEEPER_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U]'s spies are more likely to join hostile schemes as agents"
 ### TODO NOT-IN-ST: CHANGE_TITLE_HOLDER_INCLUDE_VASSALS_EFFECT_GLOBAL_PAST [AGOT: [CHARACTER.GetShortUIName|U] got [TARGET_TITLE.GetName|V] and its [vassals|E]]

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: restore_the_nights_watch [AGOT: Restore the Night's Watch]
  restore_the_nights_watch:0 "Restore the Night's Watch"
 ### TODO NOT-IN-ST: restore_the_nights_watch_desc [AGOT: Ever since their destruction, our walls and our people have been under the threat of savages and other ungodly creatures lurking in the far north. We must bring back the night's watch for order to be reintroduced in the north and so our women and children can sleep safely at night.]
@@ -35,22 +35,22 @@
  desert_the_nw_tooltip:0 "You will desert the [nw_govt|E]"
 ### TODO NOT-IN-ST: desert_the_nw_confirm [AGOT: Desert the Watch]
  desert_the_nw_confirm:0 "Desert the Watch"
-### TODO NOT-IN-ST: reclaim_brandons_gift_decision [AGOT: Reclaim Brandon's Gift]
- reclaim_brandons_gift_decision:0 "Reclaim Brandon's Gift"
+
+ reclaim_brandons_gift_decision:0 "Brandon'ın Armağanı'nı Geri Al"
 ### TODO NOT-IN-ST: reclaim_brandons_gift_decision_desc [AGOT: The lands of Brandon's Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged.]
  reclaim_brandons_gift_decision_desc:0 "The lands of Brandon's Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged."
-### TODO NOT-IN-ST: reclaim_brandons_gift_decision_tooltip [AGOT: Reclaim Brandon's Gift]
- reclaim_brandons_gift_decision_tooltip:0 "Reclaim Brandon's Gift"
+
+ reclaim_brandons_gift_decision_tooltip:0 "Brandon'ın Armağanı'nı Geri Al"
 ### TODO NOT-IN-ST: reclaim_gift_decision.requirements [AGOT: One of the following must be valid:\n$EFFECT_LIST_BULLET$You are allied to the Night's Watch\n$EFFECT_LIST_BULLET$You have the [GetPerk('diplomat_perk').GetName( GetNullCharacter )] perk\n$EFFECT_LIST_BULLET$The Lord Commander of the Night's Watch has 100 opinion of you]
  reclaim_gift_decision.requirements:0 "One of the following must be valid:\n$EFFECT_LIST_BULLET$You are allied to the Night's Watch\n$EFFECT_LIST_BULLET$You have the [GetPerk('diplomat_perk').GetName( GetNullCharacter )] perk\n$EFFECT_LIST_BULLET$The Lord Commander of the Night's Watch has 100 opinion of you"
 ### TODO NOT-IN-ST: reclaim_brandons_gift_decision_confirm [AGOT: $reclaim_brandons_gift_decision_tooltip$]
  reclaim_brandons_gift_decision_confirm:0 "$reclaim_brandons_gift_decision_tooltip$"
-### TODO NOT-IN-ST: reclaim_gift_decision [AGOT: Reclaim the New Gift]
- reclaim_gift_decision:0 "Reclaim the New Gift"
+
+ reclaim_gift_decision:0 "Yeni Armağan'ı Geri Al"
 ### TODO NOT-IN-ST: reclaim_gift_decision_desc [AGOT: The lands of the New Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged.]
  reclaim_gift_decision_desc:0 "The lands of the New Gift once swore fealty to the North rather than the Night's Watch. It's time to reclaim our rightful lands and raise new lords to develop the lands that the Watch has mismanaged."
-### TODO NOT-IN-ST: reclaim_gift_decision_tooltip [AGOT: Reclaim the New Gift]
- reclaim_gift_decision_tooltip:0 "Reclaim the New Gift"
+
+ reclaim_gift_decision_tooltip:0 "Yeni Armağan'ı Geri Al"
 ### TODO NOT-IN-ST: reclaim_gift_decision_confirm [AGOT: $reclaim_gift_decision_tooltip$]
  reclaim_gift_decision_confirm:0 "$reclaim_gift_decision_tooltip$"
 ### TODO NOT-IN-ST: reclaim_gift_decision_desc_effect [AGOT: [GetTitleByKey('k_the_wall').GetHolder.GetName] will be sent a proposal concerning returning the [GetTitleByKey('d_new_gift').GetNameNoTier] to the North.]
@@ -59,8 +59,8 @@
  reclaim_brandons_gift_decision_desc_effect:0 "[GetTitleByKey('k_the_wall').GetHolder.GetName] will be sent a proposal concerning returning the [GetTitleByKey('d_brandons_gift').GetNameNoTier] to the North."
 ### TODO NOT-IN-ST: reclaim_gift_decision_desc_use_hook_tt [AGOT: Your [hook|e] on your [top_liege|E] will be used.]
  reclaim_gift_decision_desc_use_hook_tt:0 "Your [hook|e] on your [top_liege|E] will be used."
-### TODO NOT-IN-ST: agot_nights_watch.3000.t [AGOT: The New Gift]
- agot_nights_watch.3000.t:0 "The New Gift"
+
+ agot_nights_watch.3000.t:0 "Yeni Armağan"
 ### TODO NOT-IN-ST: agot_nights_watch.3000.desc [AGOT: [winterfell_petitioner.GetName] has asked that we return the New Gift to the North, in exchange for a large sum of gold. Four new lords will be raised up in these lands, but they will be sworn to the North, ending the Night's Watch's dominion over those lands for the first time in generations.]
  agot_nights_watch.3000.desc:0 "[winterfell_petitioner.GetName] has asked that we return the New Gift to the North, in exchange for a large sum of gold. Four new lords will be raised up in these lands, but they will be sworn to the North, ending the Night's Watch's dominion over those lands for the first time in generations."
 ### TODO NOT-IN-ST: agot_nights_watch.3000.desc_brandons_gift [AGOT: [winterfell_petitioner.GetName] has asked that we return Brandon's Gift to the North, in exchange for a large sum of gold. Three new lords will be raised up in these lands, but they will be sworn to the North, ending the Night's Watch's dominion over those lands for the first time in generations.]
@@ -81,8 +81,8 @@
  agot_nights_watch.3003.t:0 "New Lords of the New Gift"
 ### TODO NOT-IN-ST: agot_nights_watch.3003.desc [AGOT: It is time to select a lord of [new_gift_county_to_give_away.GetNameNoTier].]
  agot_nights_watch.3003.desc:0 "It is time to select a lord of [new_gift_county_to_give_away.GetNameNoTier]."
-### TODO NOT-IN-ST: agot_nights_watch.3003.a [AGOT: This person will do.]
- agot_nights_watch.3003.a:0 "This person will do."
+
+ agot_nights_watch.3003.a:0 "Bu kişi olur."
 ### TODO NOT-IN-ST: agot_nights_watch.3003.b [AGOT: Actually, grant the title to a random person.]
  agot_nights_watch.3003.b:0 "Actually, grant the title to a random person."
 ### TODO NOT-IN-ST: nw_proposal_rejected [AGOT: Proposal Rejected]
@@ -101,12 +101,12 @@
  agot_nights_watch.new_capital_tt:0 "[new_capital.GetName] will become the capital of [new_gift_county_to_give_away.GetNameNoTier]."
 ### TODO NOT-IN-ST: donate_land_to_nw_decision_desc [AGOT: We hold some of the Night's Watch's historical lands. Perhaps returning the land to them can strengthen their position.]
  donate_land_to_nw_decision_desc:0 "We hold some of the Night's Watch's historical lands. Perhaps returning the land to them can strengthen their position."
-### TODO NOT-IN-ST: donate_land_to_nw_decision_tooltip [AGOT: Return the Land!]
- donate_land_to_nw_decision_tooltip:0 "Return the Land!"
+
+ donate_land_to_nw_decision_tooltip:0 "Toprağı Geri Ver!"
 ### TODO NOT-IN-ST: donate_land_to_nw_decision [AGOT: Return Historical Land to the Night's Watch]
  donate_land_to_nw_decision:0 "Return Historical Land to the Night's Watch"
-### TODO NOT-IN-ST: donate_land_to_nw_decision_confirm [AGOT: Return the Land!]
- donate_land_to_nw_decision_confirm:0 "Return the Land!"
+
+ donate_land_to_nw_decision_confirm:0 "Toprağı Geri Ver!"
 ### TODO NOT-IN-ST: brandons_gift_will_be_returned_to_nw_tt [AGOT: Every county in the [GetTitleByKey('d_brandons_gift').GetName] will be granted to [GetTitleByKey('k_the_wall').GetHolder.GetName]]
  brandons_gift_will_be_returned_to_nw_tt:0 "Every county in the [GetTitleByKey('d_brandons_gift').GetName] will be granted to [GetTitleByKey('k_the_wall').GetHolder.GetName]"
 ### TODO NOT-IN-ST: new_gift_will_be_returned_to_nw_tt [AGOT: Every county in the [GetTitleByKey('d_new_gift').GetName] will be granted to [GetTitleByKey('k_the_wall').GetHolder.GetName]]

@@ -1,6 +1,6 @@
-﻿l_english:
-### TODO NOT-IN-ST: tame_dragon_interaction [AGOT: Tame Dragon]
- tame_dragon_interaction:0 "Tame Dragon"
+﻿﻿l_english:
+
+ tame_dragon_interaction:0 "Ejderha Ehlileştir"
 ### TODO NOT-IN-ST: tame_dragon_interaction_desc [AGOT: You will attempt to tame [recipient.GetNameNoTooltip]]
  tame_dragon_interaction_desc:0 "You will attempt to tame [recipient.GetNameNoTooltip]"
 ### TODO NOT-IN-ST: tame_dragon_interaction_desc_warning [AGOT: You will attempt to tame [recipient.GetNameNoTooltip].\n\n@warning_icon! #warning Taming a dragon before bonding it is extremely risky.#!]
@@ -159,18 +159,18 @@
  taught_dragonlore_received_desc:0 "You were taught dragonlore by [actor.GetFirstName]."
 ### TODO NOT-IN-ST: has_a_dragon [AGOT: [actor.GetFirstName] already has a tamed or bonded dragon]
  has_a_dragon:0 "[actor.GetFirstName] already has a tamed or bonded dragon"
-### TODO NOT-IN-ST: agot_instruct_to_conduct_terror_campaign [AGOT: Conduct Terror Campaign]
- agot_instruct_to_conduct_terror_campaign:0 "Conduct Terror Campaign"
+
+ agot_instruct_to_conduct_terror_campaign:0 "Terör Kampanyası Yürüt"
 ### TODO NOT-IN-ST: agot_instruct_to_conduct_terror_campaign_desc [AGOT: Instruct [recipient.GetName] to use [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] to conduct a Terror Campaign.\n$conduct_terror_campaign_tooltip$]
  agot_instruct_to_conduct_terror_campaign_desc:0 "Instruct [recipient.GetName] to use [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] to conduct a Terror Campaign.\n$conduct_terror_campaign_tooltip$"
-### TODO NOT-IN-ST: agot_stop_conducting_terror_campaign [AGOT: End Terror Campaign]
- agot_stop_conducting_terror_campaign:0 "End Terror Campaign"
+
+ agot_stop_conducting_terror_campaign:0 "Terör Kampanyasını Bitir"
 ### TODO NOT-IN-ST: agot_stop_conducting_terror_campaign_desc [AGOT: Instruct [recipient.GetName] to cease [recipient.GetHerHis] Terror Campaign]
  agot_stop_conducting_terror_campaign_desc:0 "Instruct [recipient.GetName] to cease [recipient.GetHerHis] Terror Campaign"
 ### TODO NOT-IN-ST: agot_refusing_stop_conducting_terror_campaign_tt [AGOT: [recipient.GetFirstName] already refused to stop [recipient.GetHerHis] Terror Campaign]
  agot_refusing_stop_conducting_terror_campaign_tt:0 "[recipient.GetFirstName] already refused to stop [recipient.GetHerHis] Terror Campaign"
-### TODO NOT-IN-ST: agot_dragon.imprisoned_on_terror_campaign.t [AGOT: Terror Campaign Ended!]
- agot_dragon.imprisoned_on_terror_campaign.t:0 "Terror Campaign Ended!"
+
+ agot_dragon.imprisoned_on_terror_campaign.t:0 "Terör Kampanyası Sona Erdi!"
 ### TODO NOT-IN-ST: agot_dragon.imprisoned_on_terror_campaign.desc [AGOT: [ROOT.Char.GetFirstName] has been imprisoned, and will no longer burn the lands of your enemies.]
  agot_dragon.imprisoned_on_terror_campaign.desc:0 "[ROOT.Char.GetFirstName] has been imprisoned, and will no longer burn the lands of your enemies."
 ### TODO NOT-IN-ST: agot_teach_dragonlore [AGOT: Teach Dragonlore]

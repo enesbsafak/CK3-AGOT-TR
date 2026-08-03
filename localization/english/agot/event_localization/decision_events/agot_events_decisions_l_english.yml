@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: agot_decisions_events.0001.t [AGOT: An Undisputed Kingdom]
  agot_decisions_events.0001.t:0 "An Undisputed Kingdom"
 ### TODO NOT-IN-ST: agot_decisions_events.0001.desc [AGOT: With the strength of my position now beyond all doubt, I am finally ready to declare my realm a true kingdom. These lands have been fought and picked over since the Doom of Valyria, but I have finally united them. No longer will the Disputed Lands be ravaged and picked over as a display of power between the other Free Cities, but instead stand on the power of our own realm. My realm.]
@@ -13,8 +13,8 @@
  agot_decisions_events.0002.desc:0 "Going from strength to strength, [founder.GetTitledFirstName] has finally declared [founder.GetHerHis] realm a true kingdom.\n\nThe strength of this now united realm is beyond doubt."
 ### TODO NOT-IN-ST: agot_decisions_events.0002.a [AGOT: We will prove ourselves to them all.]
  agot_decisions_events.0002.a:0 "We will prove ourselves to them all."
-### TODO NOT-IN-ST: agot_decisions_events.0002.b [AGOT: Interesting.]
- agot_decisions_events.0002.b:0 "Interesting."
+
+ agot_decisions_events.0002.b:0 "İlginç."
 ### TODO NOT-IN-ST: agot_decisions_events.0003.t [AGOT: $agot_decisions_events.0001.t$]
  agot_decisions_events.0003.t:0 "$agot_decisions_events.0001.t$"
 ### TODO NOT-IN-ST: agot_decisions_events.0003.desc [AGOT: Going from strength to strength, [founder.GetTitledFirstName] has finally declared [founder.GetHerHis] realm a true kingdom.\n\nThe strength of this now united realm is beyond doubt.]
@@ -23,8 +23,8 @@
  agot_decisions_events.0003.a:0 "They will not last long!"
 ### TODO NOT-IN-ST: agot_decisions_events.0003.b [AGOT: Something to keep an eye on.]
  agot_decisions_events.0003.b:0 "Something to keep an eye on."
-### TODO NOT-IN-ST: agot_decisions_events.0003.c [AGOT: Interesting.]
- agot_decisions_events.0003.c:0 "Interesting."
+
+ agot_decisions_events.0003.c:0 "İlginç."
 ### TODO NOT-IN-ST: k_undisputed_lands [AGOT: Undisputed Lands]
  k_undisputed_lands:0 "Undisputed Lands"
 ### TODO NOT-IN-ST: k_undisputed_lands_adj [AGOT: $k_undisputed_lands$]
@@ -159,8 +159,8 @@
  agot_decisions_events.0110.desc:0 "At first, it was unclear what had compelled [dragon.GetName] to depart so abruptly. Until now, my hold over [dragon.Custom('GetDragonHerHim')] had seemed sound.\n\nBut upon reflection, there is only one natural conclusion; someone else has bound themselves to my dragon horn! In retrospect, I should never have misplaced that thing. I'll count myself lucky, this could have been far worse."
 ### TODO NOT-IN-ST: agot_decisions_events.0110.a [AGOT: A shame to lose the dragon though.]
  agot_decisions_events.0110.a:0 "A shame to lose the dragon though."
-### TODO NOT-IN-ST: agot_decisions_events.0200.t [AGOT: The Braavos-Pentos Treaty: Broken!]
- agot_decisions_events.0200.t:0 "The Braavos-Pentos Treaty: Broken!"
+
+ agot_decisions_events.0200.t:0 "Braavos-Pentos Antlaşması: Bozuldu!"
 ### TODO NOT-IN-ST: agot_decisions_events.0200.desc [AGOT: Word has reached my court that Pentos will no longer abide by the Braavos-Pentos Treaty of 209! They have declared it null and void and are already rebuilding their armies and slave camps!]
  agot_decisions_events.0200.desc:0 "Word has reached my court that Pentos will no longer abide by the Braavos-Pentos Treaty of 209! They have declared it null and void and are already rebuilding their armies and slave camps!"
 ### TODO NOT-IN-ST: agot_decisions_events.0200.a [AGOT: What have they done?!]
@@ -169,26 +169,26 @@
  agot_decisions_events.0200.b: "This means war!"
 ### TODO NOT-IN-ST: agot_decisions_events.0200.a_tt [AGOT: Rulers of Braavos will be able to use the #bold Reassert Braavos-Pentos Treaty#! Casus Belli for 15 years]
  agot_decisions_events.0200.a_tt:0 "Rulers of Braavos will be able to use the #bold Reassert Braavos-Pentos Treaty#! Casus Belli for 15 years"
-### TODO NOT-IN-ST: agot_decisions_events.0201.t [AGOT: The Braavos-Pentos Treaty: Broken!]
- agot_decisions_events.0201.t:0 "The Braavos-Pentos Treaty: Broken!"
+
+ agot_decisions_events.0201.t:0 "Braavos-Pentos Antlaşması: Bozuldu!"
 ### TODO NOT-IN-ST: agot_decisions_events.0201.desc [AGOT: Word has reached my court straight from [GetTitleByKey('c_princes_quarter').GetNameNoTier]: the Braavos-Pentos Treaty of 209 has been declared null and void.\n\nWe can resume our participation in the slave trade, rebuild our armies, and enlist sellswords freely.]
  agot_decisions_events.0201.desc:0 "Word has reached my court straight from [GetTitleByKey('c_princes_quarter').GetNameNoTier]: the Braavos-Pentos Treaty of 209 has been declared null and void.\n\nWe can resume our participation in the slave trade, rebuild our armies, and enlist sellswords freely."
-### TODO NOT-IN-ST: agot_decisions_events.0201.a [AGOT: For Pentos!]
- agot_decisions_events.0201.a:0 "For Pentos!"
-### TODO NOT-IN-ST: agot_decisions_events.0202.t [AGOT: The Braavos-Pentos Treaty: Broken!]
- agot_decisions_events.0202.t:0 "The Braavos-Pentos Treaty: Broken!"
+
+ agot_decisions_events.0201.a:0 "Pentos için!"
+
+ agot_decisions_events.0202.t:0 "Braavos-Pentos Antlaşması: Bozuldu!"
 ### TODO NOT-IN-ST: agot_decisions_events.0202.desc [AGOT: No longer shall the magisters of Pentos be bound by the whims of the Braavosi!\n\nThe Braavos-Pentos Treaty of 209 has been officially declared null and void, thanks to my efforts. Now, the city of Pentos can freely rebuild our armies, participate in slavery, and enlist sellswords.]
  agot_decisions_events.0202.desc:0 "No longer shall the magisters of Pentos be bound by the whims of the Braavosi!\n\nThe Braavos-Pentos Treaty of 209 has been officially declared null and void, thanks to my efforts. Now, the city of Pentos can freely rebuild our armies, participate in slavery, and enlist sellswords."
-### TODO NOT-IN-ST: agot_decisions_events.0202.a [AGOT: For Pentos!]
- agot_decisions_events.0202.a:0 "For Pentos!"
-### TODO NOT-IN-ST: agot_decisions_events.0203.t [AGOT: The Braavos-Pentos Treaty]
- agot_decisions_events.0203.t:0 "The Braavos-Pentos Treaty"
+
+ agot_decisions_events.0202.a:0 "Pentos için!"
+
+ agot_decisions_events.0203.t:0 "Braavos-Pentos Antlaşması"
 ### TODO NOT-IN-ST: agot_decisions_events.0203.desc [AGOT: With our defeat in the Sixth Braavosi-Pentoshi War, [attacker.GetName] has decreed that the following sanctions will be imposed over all of Pentos:\n\n$EFFECT_LIST_BULLET$The Pentoshi military will be significantly reduced.\n$EFFECT_LIST_BULLET$The Pentoshi will be banned from hiring sellswords.\n$EFFECT_LIST_BULLET$And finally, Pentos will be banned from the slave trade.]
  agot_decisions_events.0203.desc:0 "With our defeat in the Sixth Braavosi-Pentoshi War, [attacker.GetName] has decreed that the following sanctions will be imposed over all of Pentos:\n\n$EFFECT_LIST_BULLET$The Pentoshi military will be significantly reduced.\n$EFFECT_LIST_BULLET$The Pentoshi will be banned from hiring sellswords.\n$EFFECT_LIST_BULLET$And finally, Pentos will be banned from the slave trade."
 ### TODO NOT-IN-ST: agot_decisions_events.0203.a [AGOT: What a disaster...]
  agot_decisions_events.0203.a:0 "What a disaster..."
-### TODO NOT-IN-ST: agot_decisions_events.0204.t [AGOT: The Braavos-Pentos Treaty]
- agot_decisions_events.0204.t:0 "The Braavos-Pentos Treaty"
+
+ agot_decisions_events.0204.t:0 "Braavos-Pentos Antlaşması"
 ### TODO NOT-IN-ST: agot_decisions_events.0204.desc [AGOT: With our victory in the Sixth Braavosi-Pentoshi War, the following sanctions will be immediately imposed over our enemies:\n\n$EFFECT_LIST_BULLET$The Pentoshi military will be significantly reduced.\n$EFFECT_LIST_BULLET$The Pentoshi will be banned from hiring sellswords.\n$EFFECT_LIST_BULLET$And finally, Pentos will be banned from the slave trade.]
  agot_decisions_events.0204.desc:0 "With our victory in the Sixth Braavosi-Pentoshi War, the following sanctions will be immediately imposed over our enemies:\n\n$EFFECT_LIST_BULLET$The Pentoshi military will be significantly reduced.\n$EFFECT_LIST_BULLET$The Pentoshi will be banned from hiring sellswords.\n$EFFECT_LIST_BULLET$And finally, Pentos will be banned from the slave trade."
 ### TODO NOT-IN-ST: agot_decisions_events.0204.a [AGOT: The Titan is victorious!]
@@ -207,10 +207,10 @@
  agot_decisions_events.1000.desc:0 "Beyond a locked door, hidden deep in the vaults of the Hellholt, I find what I have been searching for: [rhaenys.GetFirstNamePossessive] circlet. It is a thing of rare beauty, shaped from dark Valyrian steel with subtle ripples in the metal, its band set with rubies cut like diamonds, each one catching the torchlight like a living ember.\n\nAfter [meraxes.GetFirstName] fell from the sky, [uller_ancestor.GetName] recovered it from the wreckage. He kept it as a trophy, a symbol of defiance against the dragonlords who had brought so much devastation to Dorne. Since that day, it has remained here, buried in shadow and silence.\n\nBut it should not stay hidden forever."
 ### TODO NOT-IN-ST: agot_decisions_events.1000.desc_targs [AGOT: \n\nIf I were to reveal it, the Targaryens would almost certainly be enraged. Perhaps it would be wiser to return it quietly, as a gesture of goodwill, before they hear of it another way.]
  agot_decisions_events.1000.desc_targs:0 "\n\nIf I were to reveal it, the Targaryens would almost certainly be enraged. Perhaps it would be wiser to return it quietly, as a gesture of goodwill, before they hear of it another way."
-### TODO NOT-IN-ST: agot_decisions_events.1000.a [AGOT: It belongs to House Uller by right of conquest.]
- agot_decisions_events.1000.a:0 "It belongs to House Uller by right of conquest."
-### TODO NOT-IN-ST: agot_decisions_events.1000.b [AGOT: I shall return it.]
- agot_decisions_events.1000.b:0 "I shall return it."
+
+ agot_decisions_events.1000.a:0 "Fetih hakkıyla Uller Hanesi'ne aittir."
+
+ agot_decisions_events.1000.b:0 "Onu geri vereceğim."
 ### TODO NOT-IN-ST: agot_decisions_events.1001.t [AGOT: $rhaenys_circlet_name$]
  agot_decisions_events.1001.t:0 "$rhaenys_circlet_name$"
 ### TODO NOT-IN-ST: agot_decisions_events.1001.desc [AGOT: Word has spread from the Hellholt of a public display recently unveiled by House [current_uller.GetHouse.GetName] — a circlet of Valyrian steel, adorned with diamond-shaped rubies. There can be no doubt: it is the crown once worn by [rhaenys.GetName].\n\nAfter [meraxes.GetFirstName] was shot down from the sky, we believed it lost in the sands of Dorne. But no. House Uller had it all along, kept in secret for generations.\n\nAnd now, they flaunt it as if it were theirs by right. To see her memory paraded like a Dornish prize is an insult I will not soon forget.]
@@ -223,8 +223,8 @@
  agot_decisions_events.1002.t:0 "$rhaenys_circlet_name$"
 ### TODO NOT-IN-ST: agot_decisions_events.1002.desc [AGOT: A courier from the Hellholt arrives unexpectedly, bearing with them a small, velvet-lined box and a sealed letter from [current_uller.GetName]. Inside is no mere trinket. It is the circlet once worn by [rhaenys.GetName], which we believed to be lost after [meraxes.GetFirstName] was shot down in the skies over Dorne.\n\n[current_uller.GetTitledFirstNameNoTooltip] writes that [current_uller.GetSheHe] wishes to offer it to me as a gesture of goodwill and regrets that [current_uller.GetSheHe] and [current_uller.GetHerHis] house have kept it from us for so long.]
  agot_decisions_events.1002.desc:0 "A courier from the Hellholt arrives unexpectedly, bearing with them a small, velvet-lined box and a sealed letter from [current_uller.GetName]. Inside is no mere trinket. It is the circlet once worn by [rhaenys.GetName], which we believed to be lost after [meraxes.GetFirstName] was shot down in the skies over Dorne.\n\n[current_uller.GetTitledFirstNameNoTooltip] writes that [current_uller.GetSheHe] wishes to offer it to me as a gesture of goodwill and regrets that [current_uller.GetSheHe] and [current_uller.GetHerHis] house have kept it from us for so long."
-### TODO NOT-IN-ST: agot_decisions_events.1002.a [AGOT: At last, it has been returned to us.]
- agot_decisions_events.1002.a:0 "At last, it has been returned to us."
+
+ agot_decisions_events.1002.a:0 "Sonunda bize geri döndü."
 ### TODO NOT-IN-ST: agot_decisions_events.1010.t [AGOT: Who Bears the Sword?]
  agot_decisions_events.1010.t:0 "Who Bears the Sword?"
 ### TODO NOT-IN-ST: agot_decisions_events.1010.desc [AGOT: Tucked away in my private quarters rests a chest that has long been locked. The time has finally come for me to open it. I tug away the red silks that conceal its contents to reveal a dark Valyrian steel sword with blackened steel dragon heads decorating the crossguard — Blackfyre, the sword of kings. In the right hands, it could become a potent symbol.]
@@ -235,12 +235,12 @@
  agot_decisions_events.1010.desc.blackfyres:0 "\n\nWith the extinction of the main Targaryen line, the Blackfyres have the only true claim to the sword."
 ### TODO NOT-IN-ST: agot_decisions_events.1010.desc.both [AGOT: \n\nBoth the Targaryens and Blackfyres are likely to claim the sword belongs to them.]
  agot_decisions_events.1010.desc.both:0 "\n\nBoth the Targaryens and Blackfyres are likely to claim the sword belongs to them."
-### TODO NOT-IN-ST: agot_decisions_events.1010.a [AGOT: It belongs to me.]
- agot_decisions_events.1010.a:0 "It belongs to me."
-### TODO NOT-IN-ST: agot_decisions_events.1010.b [AGOT: I shall return it to the Targaryens.]
- agot_decisions_events.1010.b:0 "I shall return it to the Targaryens."
-### TODO NOT-IN-ST: agot_decisions_events.1010.c [AGOT: It belongs with the Blackfyres.]
- agot_decisions_events.1010.c:0 "It belongs with the Blackfyres."
+
+ agot_decisions_events.1010.a:0 "Bana aittir."
+
+ agot_decisions_events.1010.b:0 "Onu Targaryenlere geri vereceğim."
+
+ agot_decisions_events.1010.c:0 "Blackfyre'larındır."
 ### TODO NOT-IN-ST: agot_decisions_events.1011.t [AGOT: $agot_decisions_events.1010.t$]
  agot_decisions_events.1011.t:0 "$agot_decisions_events.1010.t$"
 ### TODO NOT-IN-ST: agot_decisions_events.1011.desc [AGOT: The rumors are true. Blackfyre, the sword of kings, has resurfaced in the hands of [current_mopatis.GetName]. Blackfyre is rightfully ours, a symbol of the Targaryen bloodline and our heritage as dragonlords.]
@@ -257,8 +257,8 @@
  agot_decisions_events.1012.t:0 "$agot_decisions_events.1010.t$"
 ### TODO NOT-IN-ST: agot_decisions_events.1012.desc [AGOT: A courier arrives unexpectedly, bearing a large, locked chest. A gift for me, he says, courtesy of [current_mopatis.GetName], before handing me a matching key and an elegantly written letter. I open the chest to reveal a dark Valyrian steel sword with blackened steel dragon heads decorating the crossguard — Blackfyre, the sword of kings.\n\nIt has been lost to the Targaryens since [aegoniv.GetNameNicknamedRegnal] foolishly gave it to the traitor [daemon.GetName]. [current_mopatis.GetFirstNameNoTooltip] writes that [current_mopatis.GetSheHe] had found [current_mopatis.GetHerselfHimself] in possession of it, and believed it should be returned to its true owners.]
  agot_decisions_events.1012.desc:0 "A courier arrives unexpectedly, bearing a large, locked chest. A gift for me, he says, courtesy of [current_mopatis.GetName], before handing me a matching key and an elegantly written letter. I open the chest to reveal a dark Valyrian steel sword with blackened steel dragon heads decorating the crossguard — Blackfyre, the sword of kings.\n\nIt has been lost to the Targaryens since [aegoniv.GetNameNicknamedRegnal] foolishly gave it to the traitor [daemon.GetName]. [current_mopatis.GetFirstNameNoTooltip] writes that [current_mopatis.GetSheHe] had found [current_mopatis.GetHerselfHimself] in possession of it, and believed it should be returned to its true owners."
-### TODO NOT-IN-ST: agot_decisions_events.1012.a [AGOT: At last, it has been returned to us.]
- agot_decisions_events.1012.a:0 "At last, it has been returned to us."
+
+ agot_decisions_events.1012.a:0 "Sonunda bize geri döndü."
 ### TODO NOT-IN-ST: agot_decisions_events.1013.t [AGOT: $agot_decisions_events.1010.t$]
  agot_decisions_events.1013.t:0 "$agot_decisions_events.1010.t$"
 ### TODO NOT-IN-ST: agot_decisions_events.1013.desc [AGOT: The rumors are true. Blackfyre, the sword of kings, has resurfaced in the hands of [current_mopatis.GetName]. Blackfyre is rightfully ours, a symbol of the Blackfyre bloodline and our claim to the throne.]

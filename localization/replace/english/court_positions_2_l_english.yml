@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
  master_of_hunt_court_position_task_dangerous_game: "Tehlikeli Av İzleme"
  master_of_hunt_court_position_task_dangerous_game_desc: "$master_of_hunt_court_position$, avlanmak için bolca itibar kazandıracak kurtlar veya ayılar gibi tehlikeli avları takip edecek."
  master_of_hunt_court_position_task_dangerous_game_tt: "$master_of_hunt_court_position$ her yıl, [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] için tehlikeli bir hayvanın [Concept('hunt_sighting_no_prefix', 'İzini Yakalama')|E] şansına sahiptir.\n$master_of_hunt_court_position_task_generic_tt$"
@@ -41,8 +41,8 @@
  antiquarian_court_position_task_improve_artifacts_tt: "$antiquarian_court_position$ her yıl, giyilmiş bir [Concept('artifact', 'Eseri')|E] geliştirme şansına sahiptir.\nGeliştirme şansı #weak (#bold kaliteyi değil#!) [aptitude|E] ile artar.\nGeliştirme sayısı nadirliğe bağlıdır, sıradan [artifacts|E] bir kez, Güzel Eserler iki kez geliştirilebilir vs."
  antiquarian_improved_artifact_message: "[artifact_target.GetName] Geliştirildi!"
  artifact_prowess_1_modifier: "Dövüş Becerisi"
-### TODO AGOT-CHANGED: artifact_knight_effectiveness_1_modifier [AGOT: Captain Effectiveness | TR: Şövalye Verimliliği]
- artifact_knight_effectiveness_1_modifier: "Captain Effectiveness"
+
+ artifact_knight_effectiveness_1_modifier:0 "Kaptan Etkinliği"
  artifact_glory_hound_levy_contribution_mult_1_modifier: "Şan Avcısı Milis Katkısı"
  artifact_enemy_hard_casualty_modifier_1_modifier: "Düşman Ağır Kayıp Etkisi"
  artifact_plains_advantage_1_modifier: "Ova Avantajı"

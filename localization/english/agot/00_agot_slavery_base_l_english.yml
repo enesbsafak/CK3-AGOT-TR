@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: SLAVERY_NOT_LEGAL [AGOT: Slavery is not legal in this [county|E].]
  SLAVERY_NOT_LEGAL:0 "Slavery is not legal in this [county|E]."
 ### TODO NOT-IN-ST: slavery_allowed_not_desc [AGOT: You must be Independent or have a Liege with the Slavery Allowed law]
@@ -7,10 +7,10 @@
  sold_into_slavery_desc:0 "Is sold into slavery"
 ### TODO NOT-IN-ST: freedman_courtiers_will_join [AGOT: Freed slaves may join court]
  freedman_courtiers_will_join:0 "Freed slaves may join court"
-### TODO NOT-IN-ST: freedman_courtiers_will_join_first [AGOT: Freed slaves may join your court]
- freedman_courtiers_will_join_first:0 "Freed slaves may join your court"
-### TODO NOT-IN-ST: freedman_courtiers_will_join_first_past [AGOT: Freed slaves may join your court]
- freedman_courtiers_will_join_first_past:0 "Freed slaves may join your court"
+
+ freedman_courtiers_will_join_first:0 "Azat edilen köleler sarayına katılabilir"
+
+ freedman_courtiers_will_join_first_past:0 "Azat edilen köleler sarayına katılabilir"
 ### TODO NOT-IN-ST: freedman_courtiers_will_join_third [AGOT: Freed slaves may join their court]
  freedman_courtiers_will_join_third:0 "Freed slaves may join their court"
 ### TODO NOT-IN-ST: upgrade_slave_population [AGOT: A county's slave population will increase]
@@ -79,10 +79,10 @@
  SLAVE_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 ### TODO NOT-IN-ST: slave_raid_cb_victory_desc [AGOT: Residents of [defender.GetShortUINamePossessive] realm are taken as slaves by [attacker.GetShortUIName].]
  slave_raid_cb_victory_desc:0 "Residents of [defender.GetShortUINamePossessive] realm are taken as slaves by [attacker.GetShortUIName]."
-### TODO NOT-IN-ST: slave_raid_cb_white_peace_desc [AGOT: No slaves are taken.]
- slave_raid_cb_white_peace_desc:0 "No slaves are taken."
-### TODO NOT-IN-ST: slave_raid_cb_defeat_desc [AGOT: No slaves are taken.]
- slave_raid_cb_defeat_desc:0 "No slaves are taken."
+
+ slave_raid_cb_white_peace_desc:0 "Köle alınmıyor."
+
+ slave_raid_cb_defeat_desc:0 "Köle alınmıyor."
 ### TODO NOT-IN-ST: free_slaves_cb [AGOT: Free Slaves]
  free_slaves_cb:0 "Free Slaves"
 ### TODO NOT-IN-ST: FREE_SLAVES_CB_NAME [AGOT: Free Slaves of [DEFENDER.GetPrimaryTitle.GetNameNoTier]]
@@ -95,18 +95,18 @@
  FREE_SLAVES_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 ### TODO NOT-IN-ST: free_slaves_cb_victory_desc [AGOT: Slavery in [defender.GetPrimaryTitle.GetNameNoTier] will be ended and all slaves will be freed.]
  free_slaves_cb_victory_desc:0 "Slavery in [defender.GetPrimaryTitle.GetNameNoTier] will be ended and all slaves will be freed."
-### TODO NOT-IN-ST: free_slaves_cb_white_peace_desc [AGOT: The slaves of [defender.GetPrimaryTitle.GetNameNoTier] will not be freed.]
- free_slaves_cb_white_peace_desc:0 "The slaves of [defender.GetPrimaryTitle.GetNameNoTier] will not be freed."
-### TODO NOT-IN-ST: free_slaves_cb_defeat_desc [AGOT: The slaves of [defender.GetPrimaryTitle.GetNameNoTier] will not be freed.]
- free_slaves_cb_defeat_desc:0 "The slaves of [defender.GetPrimaryTitle.GetNameNoTier] will not be freed."
-### TODO NOT-IN-ST: slavery_revolt [AGOT: Slave Revolt]
- slavery_revolt:0 "Slave Revolt"
+
+ free_slaves_cb_white_peace_desc:0 "[defender.GetPrimaryTitle.GetNameNoTier]'in köleleri özgür bırakılmayacak."
+
+ free_slaves_cb_defeat_desc:0 "[defender.GetPrimaryTitle.GetNameNoTier]'in köleleri özgür bırakılmayacak."
+
+ slavery_revolt:0 "Köle İsyanı"
 ### TODO NOT-IN-ST: slavery_revolt_faction_short_effect_desc [AGOT: Wants abolish slavery and punish all former Masters]
  slavery_revolt_faction_short_effect_desc:0 "Wants abolish slavery and punish all former Masters"
-### TODO NOT-IN-ST: FACTION_SLAVE_NAME [AGOT: Slave Revolt]
- FACTION_SLAVE_NAME:0 "Slave Revolt"
-### TODO NOT-IN-ST: FACTION_SLAVE_TITLE_NAME [AGOT: Slave Revolt]
- FACTION_SLAVE_TITLE_NAME:0 "Slave Revolt"
+
+ FACTION_SLAVE_NAME:0 "Köle İsyanı"
+
+ FACTION_SLAVE_TITLE_NAME:0 "Köle İsyanı"
 ### TODO NOT-IN-ST: FACTION_DEMAND_SLAVE [AGOT: To the [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]]
  FACTION_DEMAND_SLAVE:1 "To the [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]"
 ### TODO NOT-IN-ST: FACTION_DEMAND_SLAVE_DESC [AGOT: We have been burdened with your oppressive laws for far too long. No more! We are now free man.\n\nOnce your fields are empty, you will wish you had treated us as humans.]
@@ -115,8 +115,8 @@
  FACTION_DEMAND_SLAVE_ACCEPT:0 "Perhaps I can abolish slavery..."
 ### TODO NOT-IN-ST: FACTION_DEMAND_SLAVE_REFUSE [AGOT: Never! A slave's lot is to serve their master!]
  FACTION_DEMAND_SLAVE_REFUSE:0 "Never! A slave's lot is to serve their master!"
-### TODO NOT-IN-ST: SLAVE_WAR_NAME [AGOT: Slave Revolt]
- SLAVE_WAR_NAME:"Slave Revolt"
+
+ SLAVE_WAR_NAME:0 "Köle İsyanı"
 ### TODO NOT-IN-ST: slave_war_defeat_desc [AGOT: The Slave Faction is disbanded and [attacker.GetShortUIName] is imprisoned.]
  slave_war_defeat_desc:0 "The Slave Faction is disbanded and [attacker.GetShortUIName] is imprisoned."
 ### TODO NOT-IN-ST: slave_war_victory_desc [AGOT: The Slave Faction is disbanded and [attacker.GetShortUIName] and all slaver [vassals|E] are imprisoned. All rebelling [counties|E] have their [county_opinion|E] forcibly increased. All counties owned by slave masters are lost to the slave revolt leader.]

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: GREAT_RANGING_WAR_NAME [AGOT: The Great Ranging]
  GREAT_RANGING_WAR_NAME:0 "The Great Ranging"
 ### TODO NOT-IN-ST: GREAT_RANGING_WAR_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
@@ -11,16 +11,16 @@
  great_ranging_victory_desc:0 "The Wildlings will continue to bicker amongst themselves, ensuring safety for the realms of man."
 ### TODO NOT-IN-ST: shatter_wildling_realm [AGOT: The realm of [defender_realm.GetName] will shatter into independent county tribes]
  shatter_wildling_realm:0 "The realm of [defender_realm.GetName] will shatter into independent county tribes"
-### TODO NOT-IN-ST: great_ranging_white_peace_desc [AGOT: Placeholder White Peace Text]
- great_ranging_white_peace_desc:0 "Placeholder White Peace Text"
+
+ great_ranging_white_peace_desc:0 "Yer Tutucu Beyaz Barış Metni"
 ### TODO NOT-IN-ST: great_ranging_invalidated_desc [AGOT: Placeholder Invalidated Text]
  great_ranging_invalidated_desc:0 "Placeholder Invalidated Text"
-### TODO NOT-IN-ST: GENERIC_RANGING_WAR_NAME [AGOT: Range Beyond the Wall]
- GENERIC_RANGING_WAR_NAME:0 "Range Beyond the Wall"
+
+ GENERIC_RANGING_WAR_NAME:0 "Sur'un Ötesi Devriyesi"
 ### TODO NOT-IN-ST: GENERIC_RANGING_NAME_BASE [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]]
  GENERIC_RANGING_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO NOT-IN-ST: GENERIC_RANGING_CB [AGOT: Range Beyond the Wall]
- GENERIC_RANGING_CB:0 "Range Beyond the Wall"
+
+ GENERIC_RANGING_CB:0 "Sur'un Ötesi Devriyesi"
 ### TODO NOT-IN-ST: nw_multi_county_ranging_cb [AGOT: $GENERIC_RANGING_CB$]
  nw_multi_county_ranging_cb:0 "$GENERIC_RANGING_CB$"
 ### TODO NOT-IN-ST: nw_single_county_ranging_cb [AGOT: $GENERIC_RANGING_CB$]
@@ -29,8 +29,8 @@
  nw_single_county_ranging_cb_desc_victory_attacker:0 "You gain [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
 ### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_victory_defender [AGOT: [attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$]
  nw_single_county_ranging_cb_desc_victory_defender:0 "[attacker.GetName] gains [gold|E] in proportion to the [development|E] of the target [county|E], which will decrease.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
-### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_white_peace_attacker [AGOT: You choose to abandon your attempted expedition.]
- nw_single_county_ranging_cb_desc_white_peace_attacker:0 "You choose to abandon your attempted expedition."
+
+ nw_single_county_ranging_cb_desc_white_peace_attacker:0 "Denediğin seferi bırakmayı seçiyorsun."
 ### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_white_peace_defender [AGOT: [attacker.GetName] abandons [attacker.GetHerHis] ranging expedition.]
  nw_single_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition."
 ### TODO NOT-IN-ST: nw_single_county_ranging_cb_desc_defeat_attacker [AGOT: Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E].]
@@ -43,8 +43,8 @@
  nw_multi_county_ranging_cb_desc_victory_attacker:0 "You drive the wildlings deeper in the wilderness."
 ### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_victory_defender [AGOT: One of your holdings is lost to the wilderness.]
  nw_multi_county_ranging_cb_desc_victory_defender:0 "One of your holdings is lost to the wilderness."
-### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_white_peace_attacker [AGOT: You choose to abandon your attempted expedition.]
- nw_multi_county_ranging_cb_desc_white_peace_attacker:0 "You choose to abandon your attempted expedition."
+
+ nw_multi_county_ranging_cb_desc_white_peace_attacker:0 "Denediğin seferi bırakmayı seçiyorsun."
 ### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_white_peace_defender [AGOT: [attacker.GetName] abandons [attacker.GetHerHis] ranging expedition.]
  nw_multi_county_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] abandons [attacker.GetHerHis] ranging expedition."
 ### TODO NOT-IN-ST: nw_multi_county_ranging_cb_desc_defeat_attacker [AGOT: Your ranging expedition fails spectacularly, leaving behind arms and supplies worth [gold|E].]

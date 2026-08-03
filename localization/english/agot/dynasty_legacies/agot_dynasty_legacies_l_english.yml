@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: dragonrider_dynasty_legacy_track_name [AGOT: Dragonlords]
  dragonrider_dynasty_legacy_track_name: "Dragonlords"
 ### TODO NOT-IN-ST: dragonrider_dynasty_legacy_track_desc [AGOT: Mastery over the fiery beasts of the sky sets us closer to gods than men]
@@ -23,24 +23,24 @@
  DRAGONRIDER_LEGACY_4_DESCRIPTION:0 "$EFFECT_LIST_BULLET$[dynasty|E] members receive increased #V Training#! experience\n$EFFECT_LIST_BULLET$Unlocks ability to practice combat training during #V Ride Dragon#! [decision|E], regardless of education#!"
 ### TODO NOT-IN-ST: DRAGONRIDER_LEGACY_5_DESCRIPTION [AGOT: $EFFECT_LIST_BULLET$No limit to the number of Draconic Subjugation [casus_bellis|E] that can be used by any one dragonrider#!]
  DRAGONRIDER_LEGACY_5_DESCRIPTION:0 "$EFFECT_LIST_BULLET$No limit to the number of Draconic Subjugation [casus_bellis|E] that can be used by any one dragonrider#!"
-### TODO NOT-IN-ST: north_legacy_track_name [AGOT: Northman]
- north_legacy_track_name: "Northman"
-### TODO NOT-IN-ST: north_legacy_track_desc [AGOT: The North Remembers]
- north_legacy_track_desc: "The North Remembers"
+
+ north_legacy_track_name:0 "Kuzeyli"
+
+ north_legacy_track_desc:0 "Kuzey Hatırlar"
 ### TODO NOT-IN-ST: north_legacy_1_name [AGOT: Winter Pelts]
  north_legacy_1_name: "Winter Pelts"
-### TODO NOT-IN-ST: north_legacy_2_name [AGOT: Watchers on the Wall]
- north_legacy_2_name: "Watchers on the Wall" #Send to NW interaction
+
+ north_legacy_2_name:0 "Sur'daki Gözcüler" #Send to NW interaction
 ### TODO NOT-IN-ST: north_legacy_3_name [AGOT: Unconquered]
  north_legacy_3_name: "Unconquered"
-### TODO NOT-IN-ST: north_legacy_4_name [AGOT: Builder's Blood]
- north_legacy_4_name: "Builder's Blood"
+
+ north_legacy_4_name:0 "İnşaatçının Kanı"
 ### TODO NOT-IN-ST: north_legacy_5_name [AGOT: Hungry Wolves]
  north_legacy_5_name: "Hungry Wolves"
 ### TODO NOT-IN-ST: LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH [AGOT: [dynast_interaction|E]: #V Send to the Night's Watch#!\n#weak The [dynast] gains the ability to pay [prestige] [prestige_i] in order to send away unlanded adult [dynasty] members to serve in the Night's Watch.\nDynasty members are more likely to be elected Lord Commander.]
  LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH:0 "[dynast_interaction|E]: #V Send to the Night's Watch#!\n#weak The [dynast] gains the ability to pay [prestige] [prestige_i] in order to send away unlanded adult [dynasty] members to serve in the Night's Watch.\nDynasty members are more likely to be elected Lord Commander."
-### TODO NOT-IN-ST: reachman_legacy_track_name [AGOT: Reachman]
- reachman_legacy_track_name: "Reachman"
+
+ reachman_legacy_track_name:0 "Reachli"
 ### TODO NOT-IN-ST: reachman_legacy_track_desc [AGOT: Flowers of Chivalry]
  reachman_legacy_track_desc: "Flowers of Chivalry"
 ### TODO NOT-IN-ST: reachman_legacy_1_name [AGOT: Green and Pleasant Land]
@@ -51,16 +51,16 @@
  reachman_legacy_3_name: "The Burden of Knowledge"
 ### TODO NOT-IN-ST: reachman_legacy_4_name [AGOT: Verdant Fields]
  reachman_legacy_4_name: "Verdant Fields"
-### TODO NOT-IN-ST: reachman_legacy_5_name [AGOT: Order of the Green Hand]
- reachman_legacy_5_name: "Order of the Green Hand"
-### TODO NOT-IN-ST: ironborn_legacy_track_name [AGOT: Ironborn]
- ironborn_legacy_track_name: "Ironborn"
+
+ reachman_legacy_5_name:0 "Yeşil El Tarikatı"
+
+ ironborn_legacy_track_name:0 "Demirdoğan"
 ### TODO NOT-IN-ST: ironborn_legacy_track_desc [AGOT: What is dead may never die]
  ironborn_legacy_track_desc: "What is dead may never die"
 ### TODO NOT-IN-ST: ironborn_legacy_1_name [AGOT: Salt Legs]
  ironborn_legacy_1_name: "Salt Legs"
-### TODO NOT-IN-ST: ironborn_legacy_2_name [AGOT: The Iron Price]
- ironborn_legacy_2_name: "The Iron Price"
+
+ ironborn_legacy_2_name:0 "Demir Bedel"
 ### TODO NOT-IN-ST: ironborn_legacy_3_name [AGOT: Iron Fleet]
  ironborn_legacy_3_name: "Iron Fleet"
 ### TODO NOT-IN-ST: ironborn_legacy_4_name [AGOT: Kraken Plate]
@@ -71,8 +71,8 @@
  LEGACY_IRONBORN_CALL_GREAT_REAVING:0 "[dynasty|E] members can [imprison|E] more people after a [siege|E] or [raid|E]"
 ### TODO NOT-IN-ST: MORE_PRESTIGE_FROM_REAVING_LEGACY [AGOT: More [piety|E] and [prestige|E] from [reaving|E]: [piety_i]#P +30%#! [prestige_i]#P +30%#!]
  MORE_PRESTIGE_FROM_REAVING_LEGACY:0 "More [piety|E] and [prestige|E] from [reaving|E]: [piety_i]#P +30%#! [prestige_i]#P +30%#!"
-### TODO NOT-IN-ST: riverlander_legacy_track_name [AGOT: Riverlander]
- riverlander_legacy_track_name: "Riverlander"
+
+ riverlander_legacy_track_name:0 "Nehirli"
 ### TODO NOT-IN-ST: riverlander_legacy_track_desc [AGOT: From the Gods Eye to the Red Fork]
  riverlander_legacy_track_desc: "From the Gods Eye to the Red Fork"
 ### TODO NOT-IN-ST: riverlander_legacy_1_name [AGOT: Communal Life]
@@ -87,12 +87,12 @@
  riverlander_legacy_5_name: "Holy Waters" #Placeholder
 ### TODO NOT-IN-ST: LEGACY_RIVERLANDER_SAIL_RIVER [AGOT: Unlocks the ability to sail in Major Rivers]
  LEGACY_RIVERLANDER_SAIL_RIVER: "Unlocks the ability to sail in Major Rivers"
-### TODO NOT-IN-ST: valeman_legacy_track_name [AGOT: Valeman]
- valeman_legacy_track_name: "Valeman"
+
+ valeman_legacy_track_name:0 "Vadili"
 ### TODO NOT-IN-ST: valeman_legacy_track_desc [AGOT: Touch the Sky]
  valeman_legacy_track_desc: "Touch the Sky"
-### TODO NOT-IN-ST: valeman_legacy_1_name [AGOT: Mountains of the Moon]
- valeman_legacy_1_name: "Mountains of the Moon"
+
+ valeman_legacy_1_name:0 "Ay Dağları"
 ### TODO NOT-IN-ST: valeman_legacy_2_name [AGOT: Andal's Landing]
  valeman_legacy_2_name: "Andal's Landing"
 ### TODO NOT-IN-ST: valeman_legacy_3_name [AGOT: Falcon Knights]
@@ -101,8 +101,8 @@
  valeman_legacy_4_name: "Steel Steeds"
 ### TODO NOT-IN-ST: valeman_legacy_5_name [AGOT: Hugor's Dogma]
  valeman_legacy_5_name: "Hugor's Dogma"
-### TODO NOT-IN-ST: westerman_legacy_track_name [AGOT: Westerman]
- westerman_legacy_track_name: "Westerman"
+
+ westerman_legacy_track_name:0 "Batılı"
 ### TODO NOT-IN-ST: westerman_legacy_track_desc [AGOT: All That Glitters]
  westerman_legacy_track_desc: "All That Glitters"
 ### TODO NOT-IN-ST: westerman_legacy_1_name [AGOT: The Golden Stool]
@@ -115,8 +115,8 @@
  westerman_legacy_4_name: "Brick and Mortar"
 ### TODO NOT-IN-ST: westerman_legacy_5_name [AGOT: Steady as a Rock]
  westerman_legacy_5_name: "Steady as a Rock" #Placeholder
-### TODO NOT-IN-ST: dornish_legacy_track_name [AGOT: Dornish]
- dornish_legacy_track_name: "Dornish"
+
+ dornish_legacy_track_name:0 "Dorneli"
 ### TODO NOT-IN-ST: dornish_legacy_track_desc [AGOT: Sand Lands]
  dornish_legacy_track_desc: "Sand Lands"
 ### TODO NOT-IN-ST: dornish_legacy_1_name [AGOT: Shifting Sands]
@@ -131,8 +131,8 @@
  dornish_legacy_5_name: "Viper's Nest"
 ### TODO NOT-IN-ST: LEGACY_DORNISH_SIEGE_EVASION [AGOT: [dynasty|E] members are more likely to escape imprisonment after a [siege|E] or [raid|E]]
  LEGACY_DORNISH_SIEGE_EVASION:0 "[dynasty|E] members are more likely to escape imprisonment after a [siege|E] or [raid|E]"
-### TODO NOT-IN-ST: stormlander_legacy_track_name [AGOT: Stormlander]
- stormlander_legacy_track_name: "Stormlander"
+
+ stormlander_legacy_track_name:0 "Fırtınalı"
 ### TODO NOT-IN-ST: stormlander_legacy_track_desc [AGOT: Stormy Shores]
  stormlander_legacy_track_desc: "Stormy Shores"
 ### TODO NOT-IN-ST: stormlander_legacy_1_name [AGOT: Weather the Storm]
@@ -147,14 +147,14 @@
  stormlander_legacy_5_name: "Storm God's Defiance"
 ### TODO NOT-IN-ST: stark_legacy_track_name [AGOT: Stark]
  stark_legacy_track_name: "Stark"
-### TODO NOT-IN-ST: stark_legacy_track_desc [AGOT: Winter is Coming]
- stark_legacy_track_desc: "Winter is Coming"
+
+ stark_legacy_track_desc:0 "Kış Geliyor"
 ### TODO NOT-IN-ST: stark_legacy_1_name [AGOT: Winter Kings]
  stark_legacy_1_name: "Winter Kings"
 ### TODO NOT-IN-ST: stark_legacy_2_name [AGOT: Wolf Blood]
  stark_legacy_2_name: "Wolf Blood"
-### TODO NOT-IN-ST: stark_legacy_3_name [AGOT: Builder's Blood]
- stark_legacy_3_name: "Builder's Blood"
+
+ stark_legacy_3_name:0 "İnşaatçının Kanı"
 ### TODO NOT-IN-ST: bolton_legacy_track_name [AGOT: Bolton]
  bolton_legacy_track_name: "Bolton"
 ### TODO NOT-IN-ST: bolton_legacy_track_desc [AGOT: Our Blades Are Sharp]
@@ -185,8 +185,8 @@
  forrester_legacy_track_desc: "Iron From Ice"
 ### TODO NOT-IN-ST: forrester_legacy_1_name [AGOT: Stewards of the Ironwood]
  forrester_legacy_1_name: "Stewards of the Ironwood"
-### TODO NOT-IN-ST: sarsfield_legacy_track_name [AGOT: Sarsfield]
- sarsfield_legacy_track_name: "Sarsfield"
+
+ sarsfield_legacy_track_name:0 "Sarsfield"
 ### TODO NOT-IN-ST: sarsfield_legacy_track_desc [AGOT: True to the Mark]
  sarsfield_legacy_track_desc: "True to the Mark"
 ### TODO NOT-IN-ST: sarsfield_legacy_1_name [AGOT: Born to the Bow, Trained to the Saddle]
@@ -217,8 +217,8 @@
  velaryon_legacy_track_desc: "The Old, the True, the Brave"
 ### TODO NOT-IN-ST: velaryon_legacy_1_name [AGOT: Call of the Sea]
  velaryon_legacy_1_name: "Call of the Sea"
-### TODO NOT-IN-ST: VELARYON_LEGACY_SEA_SNAKES [AGOT: Can recruit [GetMaA('sea_snakes').GetName] as [men_at_arms|E]]
- VELARYON_LEGACY_SEA_SNAKES:0 "Can recruit [GetMaA('sea_snakes').GetName] as [men_at_arms|E]"
+
+ VELARYON_LEGACY_SEA_SNAKES:0 "[GetMaA('sea_snakes').GetName]'i [men_at_arms|E] olarak toplayabilir"
 ### TODO NOT-IN-ST: VELARYON_LEGACY_TRADE [AGOT: Can use a [decision|E] to fund trade expeditions]
  VELARYON_LEGACY_TRADE:0 "Can use a [decision|E] to fund trade expeditions"
 ### TODO NOT-IN-ST: VELARYON_LEGACY_TRADE_PRESTIGE [AGOT: Earn [prestige|E] on funding a trade expedition]

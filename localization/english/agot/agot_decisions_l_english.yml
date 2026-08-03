@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE [AGOT: At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years.]
  I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "At least three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E] for at least ten years."
 ### TODO NOT-IN-ST: I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE [AGOT: Less than three of your ancestors belong to your current [house|E] and have ruled your [primary_title|E], for at least ten years.]
@@ -67,8 +67,8 @@
  stark_revival_decision:0 "Revive House Stark"
 ### TODO NOT-IN-ST: stark_revival_desc [AGOT: Through fate and misfortune, the ancient House of Bran the Builder has gone extinct, ending thousands of years of Starks reigning in Winterfell. I have retaken Winterfell — perhaps it is time to bring back this once great [dynasty|E], with myself as its head... For there must always be a Stark in Winterfell.]
  stark_revival_desc:0 "Through fate and misfortune, the ancient House of Bran the Builder has gone extinct, ending thousands of years of Starks reigning in Winterfell. I have retaken Winterfell — perhaps it is time to bring back this once great [dynasty|E], with myself as its head... For there must always be a Stark in Winterfell."
-### TODO NOT-IN-ST: stark_revival_decision_confirm [AGOT: Winter is Coming]
- stark_revival_decision_confirm:0 "Winter is Coming"
+
+ stark_revival_decision_confirm:0 "Kış Geliyor"
 ### TODO NOT-IN-ST: arryn_revival_decision [AGOT: Revive House Arryn]
  arryn_revival_decision:0 "Revive House Arryn"
 ### TODO NOT-IN-ST: arryn_revival_desc [AGOT: Through fate and misfortune, the ancient House of the Falconknight has gone extinct, ending thousands of years of Arryn's reigning in the Vale. I have retaken the Eyrie — perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
@@ -91,14 +91,14 @@
  justman_revival_decision:0 "Revive House Justman"
 ### TODO NOT-IN-ST: justman_revival_desc [AGOT: Long ago, Benedict Rivers, a child of Blackwood and Bracken blood, united the Trident under his rule and founded House Justman. They ruled the Riverlands for almost three hundred years before their line was cruelly ended by the Ironborn. I, too, am a child of both these lines — perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
  justman_revival_desc:0 "Long ago, Benedict Rivers, a child of Blackwood and Bracken blood, united the Trident under his rule and founded House Justman. They ruled the Riverlands for almost three hundred years before their line was cruelly ended by the Ironborn. I, too, am a child of both these lines — perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
-### TODO NOT-IN-ST: justman_revival_decision_confirm [AGOT: A Name Earned]
- justman_revival_decision_confirm:0 "A Name Earned"
+
+ justman_revival_decision_confirm:0 "Kazanılan Bir Ad"
 ### TODO NOT-IN-ST: saerygan_revival_decision [AGOT: Revive House Saerygan]
  saerygan_revival_decision:0 "Revive House Saerygan"
 ### TODO NOT-IN-ST: saerygan_revival_desc [AGOT: Through fate and misfortune, the ancient House Saerygan has gone extinct, ending hundreds of years of rule of a house that saw the Valyrian Freehold at it's height and survived the Doom of Valyria. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head.]
  saerygan_revival_desc:0 "Through fate and misfortune, the ancient House Saerygan has gone extinct, ending hundreds of years of rule of a house that saw the Valyrian Freehold at it's height and survived the Doom of Valyria. Perhaps it is time to bring back this once great [dynasty|E], with myself as its head."
-### TODO NOT-IN-ST: saerygan_revival_decision_confirm [AGOT: A Name Earned]
- saerygan_revival_decision_confirm:0 "A Name Earned"
+
+ saerygan_revival_decision_confirm:0 "Kazanılan Bir Ad"
 ### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision [AGOT: Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]]
  dynamic_bastard_house_revival_decision:0 "Revive House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
 ### TODO NOT-IN-ST: dynamic_bastard_house_revival_decision_desc [AGOT: House [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] has gone extinct. As a direct descendant of this House, I can reclaim its legacy and name.]
@@ -135,8 +135,8 @@
  reforge_valyrian_steel_decision_desc:0 "I wish to forge a new blade of my own devising"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_decision.tt [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
  reforge_valyrian_steel_decision.tt:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
-### TODO NOT-IN-ST: reforge_valyrian_steel_decision_confirm [AGOT: Summon the smith!]
- reforge_valyrian_steel_decision_confirm:0 "Summon the smith!"
+
+ reforge_valyrian_steel_decision_confirm:0 "Demirciyi çağır!"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_decision_tooltip [AGOT: You will begin the process of reforging a Valyrian steel blade in your possession]
  reforge_valyrian_steel_decision_tooltip:0 "You will begin the process of reforging a Valyrian steel blade in your possession"
 ### TODO NOT-IN-ST: reforge_valyrian_steel_excellent_aptitude [AGOT: Your $court_smith_court_position$ needs an aptitude of #V Excellent#!]
@@ -145,40 +145,40 @@
  reforge_valyrian_steel_additional_requirements:0 "Your $court_smith_court_position$ needs either the knowledge of reforging Valyrian steel or a faith with the [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName] tenet"
 ### TODO NOT-IN-ST: reforge_longthorn_good_aptitude [AGOT: Your $court_smith_court_position$ needs an aptitude of #V Good#!]
  reforge_longthorn_good_aptitude:0 "Your $court_smith_court_position$ needs an aptitude of #V Good#!"
-### TODO NOT-IN-ST: claim_dawn_unworthy_decision [AGOT: Claim Dawn]
- claim_dawn_unworthy_decision:0 "Claim Dawn"
+
+ claim_dawn_unworthy_decision:0 "Şafak'ı Talep Et"
 ### TODO NOT-IN-ST: claim_dawn_unworthy_decision_desc [AGOT: The sword is mine by rights,]
  claim_dawn_unworthy_decision_desc:0 "The sword is mine by rights, "worthy" or not I claim it as my own."
-### TODO NOT-IN-ST: claim_dawn_unworthy_decision_tooltip [AGOT: Claim the legendary sword Dawn as your own]
- claim_dawn_unworthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
+
+ claim_dawn_unworthy_decision_tooltip:0 "Efsanevi kılıç Şafak'ı kendine mal et"
 ### TODO NOT-IN-ST: claim_dawn_unworthy_decision_confirm [AGOT: Claim]
  claim_dawn_unworthy_decision_confirm:0 "Claim"
-### TODO NOT-IN-ST: claim_dawn_worthy_decision [AGOT: Claim Dawn]
- claim_dawn_worthy_decision:0 "Claim Dawn"
+
+ claim_dawn_worthy_decision:0 "Şafak'ı Talep Et"
 ### TODO NOT-IN-ST: claim_dawn_worthy_decision_desc [AGOT: I believe I am worthy.]
  claim_dawn_worthy_decision_desc:0 "I believe I am worthy."
-### TODO NOT-IN-ST: claim_dawn_worthy_decision_tooltip [AGOT: Claim the legendary sword Dawn as your own]
- claim_dawn_worthy_decision_tooltip:0 "Claim the legendary sword Dawn as your own"
+
+ claim_dawn_worthy_decision_tooltip:0 "Efsanevi kılıç Şafak'ı kendine mal et"
 ### TODO NOT-IN-ST: claim_dawn_worthy_decision_confirm [AGOT: I am worthy!]
  claim_dawn_worthy_decision_confirm:0 "I am worthy!"
-### TODO NOT-IN-ST: recover_brightroar_decision [AGOT: Recover Brightroar]
- recover_brightroar_decision:0 "Recover Brightroar"
+
+ recover_brightroar_decision:0 "Brightroar'ı Geri Al"
 ### TODO NOT-IN-ST: recover_brightroar_decision_desc [AGOT: I will fund a brave explorer to venture into the perilous ruins of Old Valyria in search of Brightroar, the ancestral sword of House Lannister.]
  recover_brightroar_decision_desc:0 "I will fund a brave explorer to venture into the perilous ruins of Old Valyria in search of Brightroar, the ancestral sword of House Lannister."
 ### TODO NOT-IN-ST: recover_brightroar_decision_tooltip [AGOT: Plan an expedition to recover Brightroar]
  recover_brightroar_decision_tooltip:0 "Plan an expedition to recover Brightroar"
 ### TODO NOT-IN-ST: recover_brightroar_decision_confirm [AGOT: Prepare a ship]
  recover_brightroar_decision_confirm:0 "Prepare a ship"
-### TODO NOT-IN-ST: decision_reforge_longthorn [AGOT: Restore Longthorn]
- decision_reforge_longthorn:0 "Restore Longthorn"
+
+ decision_reforge_longthorn:0 "Longthorn'u Onar"
 ### TODO NOT-IN-ST: decision_reforge_longthorn_desc [AGOT: The blade of Longthorn survives, for Valyrian steel endures even dragonflame. Yet our house swore a solemn oath that it would not be reforged until Highgarden is reclaimed and House Gardener restored to glory.]
  decision_reforge_longthorn_desc:0 "The blade of Longthorn survives, for Valyrian steel endures even dragonflame. Yet our house swore a solemn oath that it would not be reforged until Highgarden is reclaimed and House Gardener restored to glory."
 ### TODO NOT-IN-ST: decision_reforge_longthorn_tooltip [AGOT: You will have the blade of Longthorn reforged into a usable sword]
  decision_reforge_longthorn_tooltip:0 "You will have the blade of Longthorn reforged into a usable sword"
 ### TODO NOT-IN-ST: decision_reforge_longthorn_confirm [AGOT: Call the smiths!]
  decision_reforge_longthorn_confirm:0 "Call the smiths!"
-### TODO NOT-IN-ST: decision_reforge_longthorn_alt [AGOT: Restore Longthorn]
- decision_reforge_longthorn_alt:0 "Restore Longthorn"
+
+ decision_reforge_longthorn_alt:0 "Longthorn'u Onar"
 ### TODO NOT-IN-ST: decision_reforge_longthorn_desc_alt [AGOT: The blade of Longthorn survives, for Valyrian steel endures even dragonflame. It shall at last be restored to its former glory, its ancient splendor returned anew.]
  decision_reforge_longthorn_desc_alt:0 "The blade of Longthorn survives, for Valyrian steel endures even dragonflame. It shall at last be restored to its former glory, its ancient splendor returned anew."
 ### TODO NOT-IN-ST: retrieve_hidden_artifact_decision [AGOT: Retrieve Hidden Artifact]
@@ -197,14 +197,14 @@
  retrieve_stored_artifacts_decision_tooltip:0 "Retrieve Targaryen artifacts stored beneath the Red Keep"
 ### TODO NOT-IN-ST: retrieve_stored_artifacts_decision_confirm [AGOT: Send servants below]
  retrieve_stored_artifacts_decision_confirm:0 "Send servants below"
-### TODO NOT-IN-ST: adopt_personal_coa [AGOT: Adopt a Set of Personal Arms]
- adopt_personal_coa:0 "Adopt a Set of Personal Arms"
+
+ adopt_personal_coa:0 "Kişisel Arma Edin"
 ### TODO NOT-IN-ST: adopt_personal_coa_desc [AGOT: A set of [agot_personal_coa|e] can distinguish me further from my House and family.]
  adopt_personal_coa_desc:0 "A set of [agot_personal_coa|e] can distinguish me further from my House and family."
 ### TODO NOT-IN-ST: adopt_personal_coa_confirm [AGOT: Do it]
  adopt_personal_coa_confirm:0 "Do it"
-### TODO NOT-IN-ST: adopt_personal_coa_tooltip [AGOT: Adopt a Set of Personal Arms]
- adopt_personal_coa_tooltip:0 "Adopt a Set of Personal Arms"
+
+ adopt_personal_coa_tooltip:0 "Kişisel Arma Edin"
 ### TODO NOT-IN-ST: adopt_personal_coa_effect_tt [AGOT: You will gain a personal coat of arms which will be displayed next to your House sigil.]
  adopt_personal_coa_effect_tt:0 "You will gain a personal coat of arms which will be displayed next to your House sigil."
 ### TODO NOT-IN-ST: pcoa_plain [AGOT: Plain Arms]
@@ -229,8 +229,8 @@
  pcoa_fourth_child_tooltip:0 "You will gain a personal coat of arms that is your House arms repeated four times."
 ### TODO NOT-IN-ST: adopt_personal_coa_decision_next_stop_button [AGOT: Continue]
  adopt_personal_coa_decision_next_stop_button:0 "Continue"
-### TODO NOT-IN-ST: personal_coa_name_gui [AGOT: Personal Arms]
- personal_coa_name_gui:0 "Personal Arms"
+
+ personal_coa_name_gui:0 "Kişisel Arma"
 ### TODO NOT-IN-ST: coa_new_name [AGOT: ]
  coa_new_name:0 ""
 ### TODO NOT-IN-ST: pcoa_random [AGOT: Random Arms]
@@ -347,8 +347,8 @@
  agot_commission_special_artifact_decision_effects_tooltip:0 "You will commission a new special artifact."
 ### TODO NOT-IN-ST: agot_commission_special_artifact_decision_desc [AGOT: A ruler is judged as much by what they bear as by what they do. Crown or armor, such a piece serves as both symbol and statement. I will have a new artifact made, one worthy of my station.]
  agot_commission_special_artifact_decision_desc:0 "A ruler is judged as much by what they bear as by what they do. Crown or armor, such a piece serves as both symbol and statement. I will have a new artifact made, one worthy of my station."
-### TODO NOT-IN-ST: agot_commission_special_artifact_decision_confirm [AGOT: Summon the smith!]
- agot_commission_special_artifact_decision_confirm:0 "Summon the smith!"
+
+ agot_commission_special_artifact_decision_confirm:0 "Demirciyi çağır!"
 ### TODO NOT-IN-ST: agot_commission_special_artifact_button [AGOT: Choose Artifact]
  agot_commission_special_artifact_button:0 "Choose Artifact"
 ### TODO NOT-IN-ST: agot_commission_special_artifact_crown_choice_loc [AGOT: A Crown For Myself]
@@ -413,7 +413,7 @@
  agot_visit_house_of_baw:0 "Visit the House of Black and White"
 ### TODO NOT-IN-ST: agot_visit_house_of_baw_decision_effect [AGOT: @warning_icon! The Many-Faced God will take away your suffering. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )].]
  agot_visit_house_of_baw_decision_effect:0 "@warning_icon! The Many-Faced God will take away your suffering. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]."
-### TODO NOT-IN-ST: agot_valar_morghulis [AGOT: Valar Morghulis]
+
  agot_valar_morghulis:0 "Valar Morghulis"
 ### TODO NOT-IN-ST: commit_suicide_decision_confirm_base [AGOT: My time has come]
  commit_suicide_decision_confirm_base:0 "My time has come"

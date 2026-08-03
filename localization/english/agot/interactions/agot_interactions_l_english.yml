@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: become_paramours_interaction [AGOT: Become Paramours]
  become_paramours_interaction:0 "Become Paramours"
 ### TODO NOT-IN-ST: become_paramours_interaction_desc [AGOT: Officially take [recipient.GetShortUINameNoTooltip] as a paramour.]
@@ -33,8 +33,8 @@
  legitimize_bastard_liege_interaction_extra_icon:0 "$hook_extra_icon$"
 ### TODO NOT-IN-ST: legitimize_bastard_liege_interaction_desc [AGOT: Request that the reigning monarch legitimize your bastard.]
  legitimize_bastard_liege_interaction_desc:0 "Request that the reigning monarch legitimize your bastard."
-### TODO NOT-IN-ST: recipient_secondary_legitimize_bastard_liege_interaction [AGOT: Bastard]
- recipient_secondary_legitimize_bastard_liege_interaction:0 "Bastard"
+
+ recipient_secondary_legitimize_bastard_liege_interaction:0 "Piç"
 ### TODO NOT-IN-ST: agot_goad_interaction [AGOT: Goad]
  agot_goad_interaction:0 "Goad"
 ### TODO NOT-IN-ST: agot_goad_interaction_desc [AGOT: You try to goad this individual, if successful they will become less rational and more likely to look for a fight. Be careful that you are not on the receiving end of their wrath...]
@@ -107,16 +107,16 @@
  set_signature_weapon_hammer_person:0 "Hammer"
 ### TODO NOT-IN-ST: set_signature_weapon_already_hammer_person [AGOT: Your signature weapon is already a hammer!]
  set_signature_weapon_already_hammer_person:0 "Your signature weapon is already a hammer!"
-### TODO NOT-IN-ST: set_signature_weapon_dagger_person [AGOT: Dagger]
- set_signature_weapon_dagger_person:0 "Dagger"
+
+ set_signature_weapon_dagger_person:0 "Hançer"
 ### TODO NOT-IN-ST: set_signature_weapon_already_dagger_person [AGOT: Your signature weapon is already a dagger!]
  set_signature_weapon_already_dagger_person:0 "Your signature weapon is already a dagger!"
 ### TODO NOT-IN-ST: agot_char_interaction.0200.opening [AGOT: [actor.Custom2('AppropriateGreeting', recipient )]]
  agot_char_interaction.0200.opening:1 "[actor.Custom2('AppropriateGreeting', recipient )]"
 ### TODO NOT-IN-ST: agot_char_interaction.0200.desc [AGOT: I hereby compell you to send [secondary_recipient.GetName] to my court forthwith to be the ward of [secondary_actor.GetName].]
  agot_char_interaction.0200.desc:0 "I hereby compell you to send [secondary_recipient.GetName] to my court forthwith to be the ward of [secondary_actor.GetName]."
-### TODO NOT-IN-ST: agot_char_interaction.0200.a [AGOT: I see.]
- agot_char_interaction.0200.a:0 "I see."
+
+ agot_char_interaction.0200.a:0 "Anlıyorum."
 ### TODO NOT-IN-ST: agot_char_interaction.0200.tt [AGOT: [actor.GetName] has used their hook on you.]
  agot_char_interaction.0200.tt:0 "[actor.GetName] has used their hook on you."
 ### TODO NOT-IN-ST: EXECUTION_DRAGON_FED [AGOT: Feed to Dragon]
@@ -135,8 +135,8 @@
  EXECUTION_PRISONER_IMPROVE_QUALITY:0 "Because your [faith|e] has a [doctrine|E] in which executed prisoners increase the quality of artifacts"
 ### TODO NOT-IN-ST: EXECUTION_FLAY [AGOT: Flay]
  EXECUTION_FLAY:0 "Flay"
-### TODO NOT-IN-ST: EXECUTION_DROWN [AGOT: Drown]
- EXECUTION_DROWN:0 "Drown"
+
+ EXECUTION_DROWN:0 "Boğul"
 ### TODO NOT-IN-ST: EXECUTION_THROWN_FROM_WALL [AGOT: Throw from the Wall]
  EXECUTION_THROWN_FROM_WALL:0 "Throw from the Wall"
 ### TODO NOT-IN-ST: agot_laamp_legitimist_prestige_or_patron_warning [AGOT: #warning In order to accept this [task_contract|E] [recipient.GetShortUIName] must be your [contact_list_contact|E] or Your [prestige_level|E] must be at least [GetPrestigeLevelName('(int32)4')]#!]
@@ -165,20 +165,20 @@
  faceless_payed_child_price.tt:0 "The Faceless Men have not already accepted an [artifact|E] from you"
 ### TODO NOT-IN-ST: action_agot_faceless_interaction [AGOT: You can consult a Faceless Man about [recipient.GetShortUINameNoTooltip]]
  action_agot_faceless_interaction:0 "You can consult a Faceless Man about [recipient.GetShortUINameNoTooltip]"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_label [AGOT: Send for a Faceless Man]
- action_agot_faceless_interaction_label:0 "Send for a Faceless Man"
+
+ action_agot_faceless_interaction_label:0 "Yüzsüz Adam Çağır"
 ### TODO NOT-IN-ST: action_agot_faceless_interaction_desc [AGOT: You have a murder plot against [recipient.GetShortUIName]. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!]
  action_agot_faceless_interaction_desc:0 "You have a murder plot against [recipient.GetShortUIName]. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
 ### TODO NOT-IN-ST: action_agot_faceless_interaction_click [AGOT: #I Click to open the interaction window.\n#!]
  action_agot_faceless_interaction_click:0 "#I Click to open the interaction window.\n#!"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_label [AGOT: Consult a Faceless Man about [recipient.GetUIName].]
- action_agot_faceless_interaction_combined_label:0 "Consult a Faceless Man about [recipient.GetUIName]."
-### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_description [AGOT: Consult a Faceless Man about [recipient.GetUIName].]
- action_agot_faceless_interaction_combined_description:0 "Consult a Faceless Man about [recipient.GetUIName]."
-### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_group_label [AGOT: Send for a Faceless Man]
- action_agot_faceless_interaction_combined_group_label:0 "Send for a Faceless Man"
-### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_group_name [AGOT: Send for a Faceless Man]
- action_agot_faceless_interaction_combined_group_name:0 "Send for a Faceless Man"
+
+ action_agot_faceless_interaction_combined_label:0 "[recipient.GetUIName] hakkında Yüzsüz Adam'a danış."
+
+ action_agot_faceless_interaction_combined_description:0 "[recipient.GetUIName] hakkında Yüzsüz Adam'a danış."
+
+ action_agot_faceless_interaction_combined_group_label:0 "Yüzsüz Adam Çağır"
+
+ action_agot_faceless_interaction_combined_group_name:0 "Yüzsüz Adam Çağır"
 ### TODO NOT-IN-ST: action_agot_faceless_interaction_combined_group_description [AGOT: You have a murder plot against [recipient.GetShortUIName] and your [intrigue|E] is greater than 19. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!]
  action_agot_faceless_interaction_combined_group_description:0 "You have a murder plot against [recipient.GetShortUIName] and your [intrigue|E] is greater than 19. \n\n#help The Faceless Men of Braavos can take your problem off your hands if their price is met. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
 ### TODO NOT-IN-ST: agot_remove_taken_face_interaction [AGOT: Remove Face]
@@ -203,12 +203,12 @@
  agot_offer_of_lordship:0 "Offer Lordship"
 ### TODO NOT-IN-ST: AGOT_OFFER_LORDSHIP_NOTIFICATION [AGOT: You have served me long and faithfully, [recipient.GetFirstNameNicknamedNoTooltipRegnal], and I would see you elevated to a [recipient.GetLadyLord]. Do you accept such an honor?]
  AGOT_OFFER_LORDSHIP_NOTIFICATION:0 "You have served me long and faithfully, [recipient.GetFirstNameNicknamedNoTooltipRegnal], and I would see you elevated to a [recipient.GetLadyLord]. Do you accept such an honor?"
-### TODO NOT-IN-ST: agot_request_for_lordship [AGOT: Request Lordship]
- agot_request_for_lordship:0 "Request Lordship"
+
+ agot_request_for_lordship:0 "Lordluk Talebi"
 ### TODO NOT-IN-ST: AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION [AGOT: Our House has ruled your lands in your stead justly and faithfully, and we believe it is time that we are rewarded with the elevation of our status.]
  AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION:0 "Our House has ruled your lands in your stead justly and faithfully, and we believe it is time that we are rewarded with the elevation of our status."
-### TODO NOT-IN-ST: agot_request_lordship_interaction [AGOT: Request Lordship]
- agot_request_lordship_interaction:0 "Request Lordship"
+
+ agot_request_lordship_interaction:0 "Lordluk Talebi"
 ### TODO NOT-IN-ST: agot_request_lordship_interaction_desc [AGOT: Request that [recipient.GetShortUIName] grants you a lordship, elevating you from the status of [agot_landed_knight|E]]
  agot_request_lordship_interaction_desc:0 "Request that [recipient.GetShortUIName] grants you a lordship, elevating you from the status of [agot_landed_knight|E]"
 ### TODO NOT-IN-ST: agot_strip_lordship [AGOT: Strip Lordship]

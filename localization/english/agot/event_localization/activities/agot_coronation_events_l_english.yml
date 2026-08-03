@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 ### TODO NOT-IN-ST: coronation.0001.t [AGOT: The Final Preparations]
  coronation.0001.t:0 "The Final Preparations"
 ### TODO NOT-IN-ST: coronation.0001.desc_intro [AGOT: Servants scurry across the courtyard of [barony.GetNameNoTier], bringing the final decorations as members of the court take their places. Many of those attending this occasion are yet to arrive.]
@@ -73,8 +73,8 @@
  coronation.0002.b.tt:0 "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] will serve as the Officiant of your coronation."
 ### TODO NOT-IN-ST: coronation.0002.c [AGOT: Damn it all, I'll do it myself!]
  coronation.0002.c:0 "Damn it all, I'll do it myself!"
-### TODO NOT-IN-ST: coronation.0002.c.tt [AGOT: You will crown yourself.]
- coronation.0002.c.tt:0 "You will crown yourself."
+
+ coronation.0002.c.tt:0 "Kendini taçlandıracaksın."
 ### TODO NOT-IN-ST: coronation.0003.opening [AGOT: [sender.Custom2('AppropriateGreeting', ROOT.Char)]]
  coronation.0003.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
 ### TODO NOT-IN-ST: coronation.0003.desc_seven_kingdoms [AGOT: It is with great honor and anticipation that I, [sender.GetFirstNameNoTooltip|U], of House [sender.GetHouse.GetName|U], [sender.GetTitleAsNameNoTooltip|U] of the Andals, the Rhoynar, and the First Men, [sender.GetLadyLord|U] of the Seven Kingdoms, and Protector of the Realm, extend this invitation to you. The auspicious occasion of my [GetActivityType('activity_agot_coronation').GetName|l] is set to take place in [county.GetNameNoTier] at [barony.GetNameNoTier].]
@@ -91,8 +91,8 @@
  coronation.0003.a:0 "It will be my pleasure; I shall leave at once."
 ### TODO NOT-IN-ST: coronation.0003.b [AGOT: I will send someone in my place.]
  coronation.0003.b:0 "I will send someone in my place."
-### TODO NOT-IN-ST: coronation.0003.c [AGOT: I have more important matters to attend to.]
- coronation.0003.c:0 "I have more important matters to attend to."
+
+ coronation.0003.c:0 "İlgilenmem gereken daha önemli işler var."
 ### TODO NOT-IN-ST: coronation.0003.c.tt_refusal [AGOT: [recipient.GetTitledFirstNameNoTooltip|U] Refused to Attend the Coronation]
  coronation.0003.c.tt_refusal:0 "[recipient.GetTitledFirstNameNoTooltip|U] Refused to Attend the Coronation"
 ### TODO NOT-IN-ST: coronation.0003.c.tt_officiant_refusal [AGOT: [recipient.GetTitledFirstNameNoTooltip|U] Refused to Officiate the Coronation]
@@ -117,20 +117,20 @@
  coronation.0004.d:0 "One of my councilors shall represent me."
 ### TODO NOT-IN-ST: coronation.0004.d.tt [AGOT: You will select from your available councilors]
  coronation.0004.d.tt:0 "You will select from your available councilors"
-### TODO NOT-IN-ST: coronation.0005.t [AGOT: Selecting a Crown]
- coronation.0005.t:0 "Selecting a Crown"
+
+ coronation.0005.t:0 "Taç Seçimi"
 ### TODO NOT-IN-ST: coronation.0005.desc [AGOT: With the final preparations underway, [coronation_officiant.GetTitledFirstNameNoTooltip] approaches me.]
  coronation.0005.desc:0 "With the final preparations underway, [coronation_officiant.GetTitledFirstNameNoTooltip] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
 ### TODO NOT-IN-ST: coronation.0005.desc_high_septon [AGOT: With the final preparations underway, [coronation_officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me.]
  coronation.0005.desc_high_septon:0 "With the final preparations underway, [coronation_officiant.GetTitledFirstNameNicknamedNoTooltip|U] approaches me. "Your Grace, we must decide upon which crown you wish to be crowned with."\n\nI take a moment to consider which of the crowns in my collection should be used."
 ### TODO NOT-IN-ST: coronation.0005.desc_after_sabotage [AGOT: After someone stole my crown, I must now select from the others in my collection]
  coronation.0005.desc_after_sabotage:0 "After someone stole my crown, I must now select from the others in my collection"
-### TODO NOT-IN-ST: coronation.0005.a [AGOT: This shall do nicely.]
- coronation.0005.a:0 "This shall do nicely."
+
+ coronation.0005.a:0 "Bu gayet işe yarar."
 ### TODO NOT-IN-ST: coronation.0005.a.tt [AGOT: #high [selected_crown_for_coronation.GetNameNoTooltip]#! shall be used to crown you]
  coronation.0005.a.tt:0 "#high [selected_crown_for_coronation.GetNameNoTooltip]#! shall be used to crown you"
-### TODO NOT-IN-ST: coronation.0005.b [AGOT: None of these are suitable; I shall commission a new crown.]
- coronation.0005.b:0 "None of these are suitable; I shall commission a new crown."
+
+ coronation.0005.b:0 "Bunların hiçbiri uygun değil; yeni bir taç sipariş edeceğim."
 ### TODO NOT-IN-ST: coronation.0006.t [AGOT: To Crown or Not to Crown]
  coronation.0006.t:0 "To Crown or Not to Crown"
 ### TODO NOT-IN-ST: coronation.0006.desc [AGOT: War has broken out within the realm and I still have yet to be crowned. Given the circumstances the realm may yet forgive me if I forgo a formal coronation ceremony. Then again, the lords of the realm may hold it against me in the years to come.]
@@ -531,15 +531,15 @@
  coronation.1000.t:0 "Artistic Differences"
 ### TODO NOT-IN-ST: coronation.1000.desc [AGOT: As if organizing a coronation weren't stressful enough, I also have to deal with one of my relatives.\n\nMy [coronation_target.Custom2('RelationToMe', SCOPE.sC('1000_relative'))], [1000_relative.GetTitledFirstName], arrived bright and early today and has been following me around ever since, complaining about this or that non-stop. As I feel a splitting headache growing behind my eyes, [1000_relative.GetSheHe] continues blabbering undeterred.]
  coronation.1000.desc:0 "As if organizing a coronation weren't stressful enough, I also have to deal with one of my relatives.\n\nMy [coronation_target.Custom2('RelationToMe', SCOPE.sC('1000_relative'))], [1000_relative.GetTitledFirstName], arrived bright and early today and has been following me around ever since, complaining about this or that non-stop. As I feel a splitting headache growing behind my eyes, [1000_relative.GetSheHe] continues blabbering undeterred."
-### TODO NOT-IN-ST: coronation.1000.desc_servants [AGOT: \n\n]
+
  coronation.1000.desc_servants:0 "\n\n"Are you #EMP sure#! you have enough servants for this? You're not expecting #EMP me#! to carry in the [ROOT.Char.Custom('GetExpensiveMeal')], are you?! Legend says that at [historical_figure.GetTitledFirstNameNicknamedPossessiveRegnal|U] coronation the servants were so numerous that their hats obscured the sun!""
-### TODO NOT-IN-ST: coronation.1000.desc_dec [AGOT: \n\n]
+
  coronation.1000.desc_dec:0 "\n\n"The entire hall is suffocated with heraldry! And why would you choose such a #EMP tasteless#! arrangement for the tables! And don't get me started on these #EMP gaudy#! fabrics!""
-### TODO NOT-IN-ST: coronation.1000.desc_dec_low [AGOT: \n\n]
+
  coronation.1000.desc_dec_low:0 "\n\n"I #EMP knew#! you couldn't be trusted to plan a #EMP simple#! coronation! Look at this place, the lack of heraldry, the bare tables, and not a single sliver of gold anywhere to be seen! My poor heart #EMP bleeds#! for the miserable fate that awaits the realm under your leadership!""
-### TODO NOT-IN-ST: coronation.1000.desc_entertainment [AGOT: \n\n]
+
  coronation.1000.desc_entertainment:0 "\n\n"Are those mimes? Where are those servants going with those light fires? And why is that wooden crate #EMP growling#!?! This is going to be a disaster!""
-### TODO NOT-IN-ST: coronation.1000.desc_fallback [AGOT: \n\n]
+
  coronation.1000.desc_fallback:0 "\n\n"I suppose we will have to see if this occasion is one for the histories. [historical_figure.GetTitledFirstNameNicknamedPossessiveRegnal|U] coronation was so magnificent that we still remember it today! Will #EMP anyone#! remember yours? Time will tell.""
 ### TODO NOT-IN-ST: coronation.1000.a [AGOT: I'm sure we can find some common ground...]
  coronation.1000.a:0 "I'm sure we can find some common ground..."
@@ -573,11 +573,11 @@
  coronation.1010.t:0 "A Magnificent Welcome"
 ### TODO NOT-IN-ST: coronation.1010.desc [AGOT: I'm glad I told my servants early to keep an eye out for [1010_target.GetTitledFirstNamePossessive] arrival because, in the midst of the coronation preparations, I would have missed it otherwise.\n\nInstead, I'm proudly standing in the middle of the courtyard, wearing my fanciest clothes and surrounded by a guard of honor, when [1010_target.GetFirstNameNoTooltip] makes [1010_target.GetHerHis] entrance.]
  coronation.1010.desc:0 "I'm glad I told my servants early to keep an eye out for [1010_target.GetTitledFirstNamePossessive] arrival because, in the midst of the coronation preparations, I would have missed it otherwise.\n\nInstead, I'm proudly standing in the middle of the courtyard, wearing my fanciest clothes and surrounded by a guard of honor, when [1010_target.GetFirstNameNoTooltip] makes [1010_target.GetHerHis] entrance."
-### TODO NOT-IN-ST: coronation.1010.diplo [AGOT: \n\n]
+
  coronation.1010.diplo:0 "\n\n"I am extremely pleased to welcome you, [1010_target.GetTitledFirstNameNoTooltip]! I am certain you will find my hospitality most agreeable, and be impressed by all the wonders my realm has to offer!""
-### TODO NOT-IN-ST: coronation.1010.seduce [AGOT: \n\n]
+
  coronation.1010.seduce:0 "\n\n"My dear [1010_target.GetTitledFirstNameNoTooltip]! You are finally here! No celebration would ever be as pleasant to me as when I can bask in your radiant presence!""
-### TODO NOT-IN-ST: coronation.1010.match [AGOT: \n\n]
+
  coronation.1010.match:0 "\n\n"[1010_target.GetTitledFirstNameNoTooltip], welcome! [1010_match.GetFirstName], come say hello too! — #EMP You must make a good impression with [1010_target.GetHerHim] and [1010_target.GetHerHis] family, clear?!" I add in a furious whisper."
 ### TODO NOT-IN-ST: coronation.1010.a [AGOT: Let me show you the gardens!]
  coronation.1010.a:0 "Let me show you the gardens!"
@@ -717,21 +717,21 @@
  coronation.1210.t:0 "Political talk"
 ### TODO NOT-IN-ST: coronation.1210.desc [AGOT: As the ceremony runs its course, I finally manage to place myself by [talk_to.GetTitledFirstName] and to engage [talk_to.GetHerHim] in some small talk, which rapidly moves into a more interesting field: politics.\n\nWe share some casual remarks until I lead [talk_to.GetHerHim] exactly where I wanted [talk_to.GetHerHim].]
  coronation.1210.desc:0 "As the ceremony runs its course, I finally manage to place myself by [talk_to.GetTitledFirstName] and to engage [talk_to.GetHerHim] in some small talk, which rapidly moves into a more interesting field: politics.\n\nWe share some casual remarks until I lead [talk_to.GetHerHim] exactly where I wanted [talk_to.GetHerHim]."
-### TODO NOT-IN-ST: coronation.1210.desc_gold [AGOT: \n\n]
+
  coronation.1210.desc_gold:0 "\n\n"It pains me to admit it, but my coffers are empty!""
-### TODO NOT-IN-ST: coronation.1210.desc_fear [AGOT: \n\n]
+
  coronation.1210.desc_fear:0 "\n\n"I live in constant fear for my [talk_to.GetPrimaryTitle.GetTierAsNameNoTooltip], and myself...""
-### TODO NOT-IN-ST: coronation.1210.desc_raids [AGOT: \n\n]
+
  coronation.1210.desc_raids:0 "\n\n"I am greatly concerned by the recent raids in my lands...""
-### TODO NOT-IN-ST: coronation.1210.desc_rivals [AGOT: \n\n]
+
  coronation.1210.desc_rivals:0 "\n\n"I can't sleep at night, I see my enemies in every shadow!""
-### TODO NOT-IN-ST: coronation.1210.desc_age [AGOT: \n\n]
+
  coronation.1210.desc_age:0 "\n\n"It pains me to admit it, but I'm not getting any younger!""
-### TODO NOT-IN-ST: coronation.1210.desc_bad_harvest [AGOT: \n\n]
+
  coronation.1210.desc_bad_harvest:0 "\n\n"Sadly, we've had some bad harvests that set our growth back recently...""
-### TODO NOT-IN-ST: coronation.1210.desc_rain [AGOT: \n\n]
+
  coronation.1210.desc_rain:0 "\n\n"Unexpected rains have been plaguing my people and damaging the harvest...""
-### TODO NOT-IN-ST: coronation.1210.desc_enemies [AGOT: \n\n]
+
  coronation.1210.desc_enemies:0 "\n\n"You can never feel too safe. Your enemies are always getting stronger around you.""
 ### TODO NOT-IN-ST: coronation.1210.a [AGOT: A pity if someone took advantage of that, uh?]
  coronation.1210.a:0 "A pity if someone took advantage of that, uh?"
@@ -821,8 +821,8 @@
  coronation.1131.desc_end:0 "\n\nFinally, I notice [potential_distraction_3.GetTitledFirstName|U] lounging with an air of calculated indifference. [potential_distraction_3.GetSheHe|U] harbors no love for the [coronation_target.GetTitleAsNameNoTooltip], making [potential_distraction_3.GetHerHim|l] an ideal candidate.\n\nWith these three potential distractions identified, the path to sabotage begins to take shape."
 ### TODO NOT-IN-ST: coronation.1131.a [AGOT: [potential_distraction_1.GetTitledFirstName|U] is the logical choice]
  coronation.1131.a:0 "[potential_distraction_1.GetTitledFirstName|U] is the logical choice"
-### TODO NOT-IN-ST: coronation.1131.a.tt [AGOT: You will try to]
- coronation.1131.a.tt:0 "You will try to "convince" [potential_distraction_1.GetTitledFirstNameNoTooltip|U] to become your accomplice."
+
+ coronation.1131.a.tt:0 "Şunu deneyeceksin: "convince" [potential_distraction_1.GetTitledFirstNameNoTooltip|U] to become your accomplice."
 ### TODO NOT-IN-ST: coronation.1131.a.success [AGOT: You convince [potential_distraction_1.GetTitledFirstNameNoTooltip|U]]
  coronation.1131.a.success:0 "You convince [potential_distraction_1.GetTitledFirstNameNoTooltip|U]"
 ### TODO NOT-IN-ST: coronation.1131.a.success.tt [AGOT: [potential_distraction_1.GetTitledFirstNameNoTooltip|U] becomes your accomplice, giving you an advantage in [prowess_i][prowess|E] duels]
@@ -835,8 +835,8 @@
  coronation.1131.a.failure.tt:0 "[potential_distraction_1.GetTitledFirstNameNoTooltip|U] will reveal your scheme to [coronation_target.GetShortUIName|U]"
 ### TODO NOT-IN-ST: coronation.1131.b [AGOT: Let's go with [potential_distraction_2.GetTitledFirstName|U]]
  coronation.1131.b:0 "Let's go with [potential_distraction_2.GetTitledFirstName|U]"
-### TODO NOT-IN-ST: coronation.1131.b.tt [AGOT: You will try to]
- coronation.1131.b.tt:0 "You will try to "convince" [potential_distraction_2.GetTitledFirstNameNoTooltip|U] to become your accomplice."
+
+ coronation.1131.b.tt:0 "Şunu deneyeceksin: "convince" [potential_distraction_2.GetTitledFirstNameNoTooltip|U] to become your accomplice."
 ### TODO NOT-IN-ST: coronation.1131.b.success [AGOT: You convince [potential_distraction_2.GetTitledFirstNameNoTooltip|U]]
  coronation.1131.b.success:0 "You convince [potential_distraction_2.GetTitledFirstNameNoTooltip|U]"
 ### TODO NOT-IN-ST: coronation.1131.b.success.tt [AGOT: [potential_distraction_2.GetTitledFirstNameNoTooltip|U] becomes your accomplice, giving you an advantage in [intrigue_i][intrigue|E] duels]
@@ -849,8 +849,8 @@
  coronation.1131.b.no_tell_failure.tt:0 "[potential_distraction_2.GetTitledFirstNameNoTooltip|U] keeps your identity secret"
 ### TODO NOT-IN-ST: coronation.1131.c [AGOT: [potential_distraction_3.GetTitledFirstName|U] is certain to help me]
  coronation.1131.c:0 "[potential_distraction_3.GetTitledFirstName|U] is certain to help me"
-### TODO NOT-IN-ST: coronation.1131.c.tt [AGOT: You will try to]
- coronation.1131.c.tt:0 "You will try to "convince" [potential_distraction_3.GetTitledFirstNameNoTooltip|U] to become your accomplice."
+
+ coronation.1131.c.tt:0 "Şunu deneyeceksin: "convince" [potential_distraction_3.GetTitledFirstNameNoTooltip|U] to become your accomplice."
 ### TODO NOT-IN-ST: coronation.1131.c.success [AGOT: You convince [potential_distraction_3.GetTitledFirstNameNoTooltip|U]]
  coronation.1131.c.success:0 "You convince [potential_distraction_3.GetTitledFirstNameNoTooltip|U]"
 ### TODO NOT-IN-ST: coronation.1131.c.success.tt [AGOT: [potential_distraction_3.GetTitledFirstNameNoTooltip|U] becomes your accomplice, giving you an advantage in [diplomacy_i][diplomacy|E] duels]
@@ -1091,8 +1091,8 @@
  coronation.1143.b_failure:0 "[coronation_claimant.GetShortUIName|U] Decided not to Press [coronation_claimant.GetShortUINamePossessive|U] [claim|E]"
 ### TODO NOT-IN-ST: coronation.1143.c [AGOT: [coronation_target.GetFirstNameNoTooltip] is the better ruler; I will renounce my claims instead]
  coronation.1143.c:0 "[coronation_target.GetFirstNameNoTooltip] is the better ruler; I will renounce my claims instead"
-### TODO NOT-IN-ST: coronation.1144.t [AGOT: Refusal]
- coronation.1144.t:0 "Refusal"
+
+ coronation.1144.t:0 "Reddetme"
 ### TODO NOT-IN-ST: coronation.1144.desc [AGOT: Despite my best efforts, [coronation_claimant.GetShortUINameNoFormat] failed to see reason and press his claim to [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. This was an unexpected setback. I will surely need to find some other way to ruin the day.]
  coronation.1144.desc:0 "Despite my best efforts, [coronation_claimant.GetShortUINameNoFormat] failed to see reason and press his claim to [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. This was an unexpected setback. I will surely need to find some other way to ruin the day."
 ### TODO NOT-IN-ST: coronation.1144.a [AGOT: Damn you [coronation_claimant.GetFirstNameNoTooltip]]
