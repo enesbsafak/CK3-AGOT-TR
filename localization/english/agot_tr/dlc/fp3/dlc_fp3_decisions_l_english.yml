@@ -1,21 +1,11 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: REASON_NOT_IN_DEBT [AGOT: You are #bold not#! @gold_icon! in debt | TR: Borçta @gold_icon! #bold değilsiniz#!]
- REASON_NOT_IN_DEBT: "You are #bold not#! @gold_icon! in debt"
-### TODO AGOT-CHANGED: fp3_event_troops_effect_tt [AGOT: Gains an [army|E] of loyal $heritage_iranian_name$ [soldiers|E]:\n$BULLET_WITH_TAB$#V 100#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $ayyar$ #weak ([heavy_infantry|E])#!\n$BULLET_WITH_TAB$#V 200#! $tawashi$ #weak ([light_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $zupin_warrior$ #weak ([spearmen|E])#!\n$BULLET_WITH_TAB$#V 100#! $tarkhan$ #weak ([heavy_cavalry|E])#! | TR: Sadık $heritage_iranian_name$ [Concept( 'soldiers', 'Askerlerinden' )|E] oluşan bir [army|E] kazanır:\n$BULLET_WITH_TAB$#V 100#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $ayyar$ #weak ([heavy_infantry|E])#!\n$BULLET_WITH_TAB$#V 200#! $tawashi$ #weak ([light_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $zupin_warrior$ #weak ([spearmen|E])#!\n$BULLET_WITH_TAB$#V 100#! $tarkhan$ #weak ([heavy_cavalry|E])#!]
- fp3_event_troops_effect_tt: "Gains an [army|E] of loyal $heritage_iranian_name$ [soldiers|E]:\n$BULLET_WITH_TAB$#V 100#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $ayyar$ #weak ([heavy_infantry|E])#!\n$BULLET_WITH_TAB$#V 200#! $tawashi$ #weak ([light_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $zupin_warrior$ #weak ([spearmen|E])#!\n$BULLET_WITH_TAB$#V 100#! $tarkhan$ #weak ([heavy_cavalry|E])#!"
-### TODO AGOT-CHANGED: fp3_event_troops_reformer_effect_tt [AGOT: You get an undyingly loyal [army|E] of $heritage_iranian_name$ [soldiers|E]:\n$BULLET_WITH_TAB$#V 500#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 2000#! $ayyar$ #weak ([heavy_infantry|E])#! | TR: $heritage_iranian_name$ [Concept( 'soldiers', 'Askerlerinden' )|E] oluşan sadık bir [army|E] elde edersiniz:\n$BULLET_WITH_TAB$#V 500#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 2000#! $ayyar$ #weak ([heavy_infantry|E])#!]
- fp3_event_troops_reformer_effect_tt: "You get an undyingly loyal [army|E] of $heritage_iranian_name$ [soldiers|E]:\n$BULLET_WITH_TAB$#V 500#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 2000#! $ayyar$ #weak ([heavy_infantry|E])#!"
-### TODO AGOT-CHANGED: CHOOSE_ARCHITECT_DECISION_NEXT_STEP_BUTTON [AGOT: Choose an architect | TR: Bir mimar seçin]
- CHOOSE_ARCHITECT_DECISION_NEXT_STEP_BUTTON: "Choose an architect"
-### TODO AGOT-CHANGED: fervor_loss_avenged_battle_of_nahrawan [AGOT: Battle of Nahrawan Avenged | TR: Nehrevan Muharebesi'nin İntikamı Alındı]
- fervor_loss_avenged_battle_of_nahrawan: "Battle of Nahrawan Avenged"
-### TODO AGOT-CHANGED: CHOOSE_RESEARCH_PATH [AGOT: Choose Research Path | TR: Araştırma Yolunu Seçin]
- CHOOSE_RESEARCH_PATH: "Choose Research Path"
-### TODO AGOT-CHANGED: year_960_tt [AGOT: The year is before 960 | TR: Yıl 960'tan önce]
- year_960_tt: "The year is before 960"
-### TODO AGOT-CHANGED: FACTION_REASON_FP3_SUPPORTER [AGOT: [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] of the Caliph: $VALUE|0+=$ | TR: [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)]: $VALUE|0+=$]
- FACTION_REASON_FP3_SUPPORTER: "[GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] of the Caliph: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DETRACTORS_STICK_TOGETHER [AGOT: I am also a [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)]: $VALUE|0+=$ | TR: Ben de [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)]yım: $VALUE|0+=$]
- FACTION_REASON_DETRACTORS_STICK_TOGETHER: "I am also a [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: CHOOSE_PERSIAN_FAITH [AGOT: Insha'Allah! | TR: İnşallah!]
- CHOOSE_PERSIAN_FAITH: "Insha'Allah!"
+ REASON_NOT_IN_DEBT: "Borçta @gold_icon! #bold değilsiniz#!"
+ fp3_event_troops_effect_tt: "Sadık $heritage_iranian_name$ [Concept( 'soldiers', 'Askerlerinden' )|E] oluşan bir [army|E] kazanır:\n$BULLET_WITH_TAB$#V 100#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $ayyar$ #weak ([heavy_infantry|E])#!\n$BULLET_WITH_TAB$#V 200#! $tawashi$ #weak ([light_cavalry|E])#!\n$BULLET_WITH_TAB$#V 400#! $zupin_warrior$ #weak ([spearmen|E])#!\n$BULLET_WITH_TAB$#V 100#! $tarkhan$ #weak ([heavy_cavalry|E])#!"
+ fp3_event_troops_reformer_effect_tt: "$heritage_iranian_name$ [Concept( 'soldiers', 'Askerlerinden' )|E] oluşan sadık bir [army|E] elde edersiniz:\n$BULLET_WITH_TAB$#V 500#! $asawira$ #weak ([heavy_cavalry|E])#!\n$BULLET_WITH_TAB$#V 2000#! $ayyar$ #weak ([heavy_infantry|E])#!"
+ CHOOSE_ARCHITECT_DECISION_NEXT_STEP_BUTTON: "Bir mimar seçin"
+ fervor_loss_avenged_battle_of_nahrawan: "Nehrevan Muharebesi'nin İntikamı Alındı"
+ CHOOSE_RESEARCH_PATH: "Araştırma Yolunu Seçin"
+ year_960_tt: "Yıl 960'tan önce"
+ FACTION_REASON_FP3_SUPPORTER: "[GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)]: $VALUE|0+=$"
+ FACTION_REASON_DETRACTORS_STICK_TOGETHER: "Ben de [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)]yım: $VALUE|0+=$"
+ CHOOSE_PERSIAN_FAITH: "İnşallah!"

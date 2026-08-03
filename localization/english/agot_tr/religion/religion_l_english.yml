@@ -22,10 +22,8 @@
  REL_HEAD_TITLE_NAME:1 "[my_faith.GetAdjectiveNoTooltip|U] [my_faith.ReligiousHeadTitleName|U]"
  HOLY_SITE_UNDER_CONTROL:0 "#P [FAITH.GetName] mezhebi tarafından kontrol ediliyor.#!"
  HOLY_SITE_NOT_UNDER_CONTROL:0 "@warning_icon! #X [FAITH.GetName] mezhebi tarafından kontrol edilmiyor.#!"
-### TODO AGOT-CHANGED: FAITH_WINDOW_HOLY_SITE_TOOLTIP [AGOT: #T [holy_site|E] of [HolySite.GetName]#!\n[HolySiteItem.GetControlDesc]\nWhen controlled by [HolySiteItem.GetFaith.GetName], the following effects apply:\n[HolySite.GetEffectDesc( HolySiteItem.GetFaith )]\n\n#I Click to view [HolySite.GetBarony.GetName]#! | TR: #T [HolySite.GetName] [Concept( 'holy_site', 'Kutsal Bölgesi' )|E] #!\n[HolySiteItem.GetControlDesc]\n[HolySiteItem.GetFaith.GetName] mezhebi tarafından kontrol edildiğinde aşağıdaki etkiler devreye girer:\n[HolySite.GetEffectDesc( HolySiteItem.GetFaith )]\n\n#I [HolySite.GetBarony.GetName] toprağını görüntülemek için tıklayın.#!]
- FAITH_WINDOW_HOLY_SITE_TOOLTIP: "#T [holy_site|E] of [HolySite.GetName]#!\n[HolySiteItem.GetControlDesc]\nWhen controlled by [HolySiteItem.GetFaith.GetName], the following effects apply:\n[HolySite.GetEffectDesc( HolySiteItem.GetFaith )]\n\n#I Click to view [HolySite.GetBarony.GetName]#!"
-### TODO AGOT-CHANGED: FERVOR_BASE_GROWTH [AGOT: Base growth | TR: Temel büyüme]
- FERVOR_BASE_GROWTH: "Base growth"
+ FAITH_WINDOW_HOLY_SITE_TOOLTIP: "#T [HolySite.GetName] [Concept( 'holy_site', 'Kutsal Bölgesi' )|E] #!\n[HolySiteItem.GetControlDesc]\n[HolySiteItem.GetFaith.GetName] mezhebi tarafından kontrol edildiğinde aşağıdaki etkiler devreye girer:\n[HolySite.GetEffectDesc( HolySiteItem.GetFaith )]\n\n#I [HolySite.GetBarony.GetName] toprağını görüntülemek için tıklayın.#!"
+ FERVOR_BASE_GROWTH: "Temel büyüme"
  FERVOR_GAIN_FROM_HOLY_SITES:0 "[holy_sites|E]den"
  PIETY_HEAD_OF_FAITH:0 "[head_of_faith|E]"
  FERVOR_GAIN_SIZE_MODIFIER:0 "[faith|E] Büyüklüğü"

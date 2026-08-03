@@ -29,56 +29,39 @@
  FACTION_DEMAND_INDEPENDENCE_REFUSED_DESC:0 "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nÇirkin şantaj girişiminiz sonuç vermedi. Bağımsızlık hayallerinizi gerçeğe dönüştürmek adına yanınıza ne kadar gafil toplarsanız toplayın, dik duracağım ve savaşmadan boyun eğmeyeceğim. Gerekirse hakkım olanı savunurken canımı veririm!"
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION:0 "Bağımsızlık!"
  FACTION_DEMAND_INDEPENDENCE_SEND_DEMAND_NOTIFICATION_DESC:0 "Beklenen gün geldi çattı. [faction.GetName]sine mensup kişiler [faction_target.GetName] adlı kişinin sahip olduğu yönetme hakkını kaybettiği konusunda hemfikir. Ya bağımsızlığımız verilecek ya da onu zorla alacağız!" #krutygetarts
-### TODO AGOT-CHANGED: FACTION_DEMAND_BRIBE_CO_EMPEROR [AGOT: Surely a gift of office can yet force their cooperation? | TR: Makam verirsem işbirliği yapmak zorunda kalırlar değil mi?]
- FACTION_DEMAND_BRIBE_CO_EMPEROR: "Surely a gift of office can yet force their cooperation?"
-### TODO AGOT-CHANGED: FACTION_DEMAND_BRIBE_CO_EMPEROR_REASON [AGOT: [faction_leader.GetShortUIName|U] must be the [faction|E] [claimant|E] #weak ([faction.GetSpecialCharacter.GetTitledFirstName])#! | TR: [Select_CString( faction_leader.IsLocalPlayer, '', faction_leader.GetShortUIName )][Select_CString( faction_leader.IsLocalPlayer, '', ', ' )][faction|E] [claimant|E] olmalı[Select_CString( faction_leader.IsLocalPlayer, 'sınız', '' )] #weak ([faction.GetSpecialCharacter.GetTitledFirstName])#!]
- FACTION_DEMAND_BRIBE_CO_EMPEROR_REASON: "[faction_leader.GetShortUIName|U] must be the [faction|E] [claimant|E] #weak ([faction.GetSpecialCharacter.GetTitledFirstName])#!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE [AGOT: Faction Counter-Offer | TR: Örgütleşmeden Karşı Teklif]
- FACTION_DEMAND_COUNTER_OFFER_CORULE: "Faction Counter-Offer"
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE_DESC [AGOT: [faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour demands have merit — perhaps even showing errors in my own judgement. Lower your arms and join me as my Co-[faction_target.GetTitleAsNameNoTooltip], and we shall rule [faction_target.GetPrimaryTitle.GetDefinitiveName] together! | TR: [faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nTaleplerinizde haklılık payı var - hatta belki de yaptığım hataları öne seriyor. Silahlarınızı bırakıp Eş[faction_target.GetTitleAsNameNoTooltip] olarak bana katıl ve [faction_target.GetPrimaryTitle.GetDefinitiveName] ikimizin kontrolünde olsun!]
- FACTION_DEMAND_COUNTER_OFFER_CORULE_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nYour demands have merit — perhaps even showing errors in my own judgement. Lower your arms and join me as my Co-[faction_target.GetTitleAsNameNoTooltip], and we shall rule [faction_target.GetPrimaryTitle.GetDefinitiveName] together!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE_ACCEPT [AGOT: An offer I cannot refuse... | TR: Böyle bir teklifi reddedemem...]
- FACTION_DEMAND_COUNTER_OFFER_CORULE_ACCEPT: "An offer I cannot refuse..."
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE_REJECT [AGOT: Bah, naught but a poisoned chalice! | TR: Hah, zehirli bir şarap kadehinden farksız.]
- FACTION_DEMAND_COUNTER_OFFER_CORULE_REJECT: "Bah, naught but a poisoned chalice!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION [AGOT: Faction Leader Elevated | TR: Örgütleşme Liderinin Makamı Yükseltildi]
- FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION: "Faction Leader Elevated"
-### TODO AGOT-CHANGED: FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION_DESC [AGOT: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nI am pleased to report that [faction_target.GetTitledFirstName] has come around to our way of thinking. [faction_target.GetSheHe|U] has appointed #EMP me#! as Co-[faction_target.GetTitleAsNameNoTooltip], and I have agreed that we shall lay down our swords. Effective immediately. | TR: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nMemnuniyetle bildirmek istiyorum ki [faction_target.GetTitledFirstName] taleplerimizin mantığını anlamaya başladı. Kendisi #EMP beni#! Eş [faction_target.GetTitleAsNameNoTooltip] olarak atadı ve ben de şu andan itibaren silahlarımızı bırakmayı kabul ettim.]
- FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nI am pleased to report that [faction_target.GetTitledFirstName] has come around to our way of thinking. [faction_target.GetSheHe|U] has appointed #EMP me#! as Co-[faction_target.GetTitleAsNameNoTooltip], and I have agreed that we shall lay down our swords. Effective immediately."
+ FACTION_DEMAND_BRIBE_CO_EMPEROR: "Makam verirsem işbirliği yapmak zorunda kalırlar değil mi?"
+ FACTION_DEMAND_BRIBE_CO_EMPEROR_REASON: "[Select_CString( faction_leader.IsLocalPlayer, '', faction_leader.GetShortUIName )][Select_CString( faction_leader.IsLocalPlayer, '', ', ' )][faction|E] [claimant|E] olmalı[Select_CString( faction_leader.IsLocalPlayer, 'sınız', '' )] #weak ([faction.GetSpecialCharacter.GetTitledFirstName])#!"
+ FACTION_DEMAND_COUNTER_OFFER_CORULE: "Örgütleşmeden Karşı Teklif"
+ FACTION_DEMAND_COUNTER_OFFER_CORULE_DESC: "[faction_target.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nTaleplerinizde haklılık payı var - hatta belki de yaptığım hataları öne seriyor. Silahlarınızı bırakıp Eş[faction_target.GetTitleAsNameNoTooltip] olarak bana katıl ve [faction_target.GetPrimaryTitle.GetDefinitiveName] ikimizin kontrolünde olsun!"
+ FACTION_DEMAND_COUNTER_OFFER_CORULE_ACCEPT: "Böyle bir teklifi reddedemem..."
+ FACTION_DEMAND_COUNTER_OFFER_CORULE_REJECT: "Hah, zehirli bir şarap kadehinden farksız."
+ FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION: "Örgütleşme Liderinin Makamı Yükseltildi"
+ FACTION_DEMAND_COUNTER_OFFER_CORULE_MEMBER_NOTIFICATION_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nMemnuniyetle bildirmek istiyorum ki [faction_target.GetTitledFirstName] taleplerimizin mantığını anlamaya başladı. Kendisi #EMP beni#! Eş [faction_target.GetTitleAsNameNoTooltip] olarak atadı ve ben de şu andan itibaren silahlarımızı bırakmayı kabul ettim."
  FACTION_DEMAND_PEASANT:1 "[ROOT.Char.Custom2('InsultAdjective', ROOT.Char)|U] [ROOT.Char.GetTitledFirstName],"
  FACTION_DEMAND_PEASANT_DESC:0 "Baskıcı yasalarınıza yeterince katlandık. Artık yeter! Bundan böyle size vergi ödemeyeceğiz.\n\nSandıklarınız ve ambarlarınız boşaldığı vakit belki bize daha adil davranmanız gerektiğini fark edersiniz."
  FACTION_DEMAND_PEASANT_ACCEPT:0 "Sanırım onlara vergi muafiyeti tanıyabilirim..."
  FACTION_DEMAND_PEASANT_REFUSE:0 "Asla! Köylünün görevi lorduna hizmet etmektir!"
  FACTION_PEASANT_NAME:0 "Köylü Sürüsü"
  FACTION_PEASANT_TITLE_NAME:0 "Köylü Ayaklanması"
-### TODO AGOT-CHANGED: FACTION_DEMAND_NOMADIC [AGOT: To the [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))] [ROOT.Char.GetTitledFirstName] | TR: [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))|U] [ROOT.Char.GetTitledFirstName]]
- FACTION_DEMAND_NOMADIC: "To the [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))] [ROOT.Char.GetTitledFirstName]"
-### TODO AGOT-CHANGED: FACTION_DEMAND_NOMADIC_DESC [AGOT: We will no longer bow beneath your yoke of oppression! We, the proud [GetGovernment( 'nomad_government' ).GetName] [peasant_leader.GetCulture.GetCollectiveNoun], were born to roam free beneath these endless skies.\n\nWith [peasant_leader.GetFaith.WarGodName] guiding our riders, we shall break from your pathetic rule and reclaim our place on the open steppe! | TR: Bundan böyle baskı zincirine boyun eğmeyeceğiz! Biz, gururlu [GetGovernment( 'nomad_government' ).GetName] [peasant_leader.GetCulture.GetCollectiveNoun], uçsuz bucaksız göklerin altında özgürce dolaşmak için doğduk.\n\n[peasant_leader.GetFaith.WarGodName] atlılarımıza rehberlik edecek, senin zavallı hükmünü yıkacak ve açık bozkırdaki yerimizi geri alacağız!]
- FACTION_DEMAND_NOMADIC_DESC: "We will no longer bow beneath your yoke of oppression! We, the proud [GetGovernment( 'nomad_government' ).GetName] [peasant_leader.GetCulture.GetCollectiveNoun], were born to roam free beneath these endless skies.\n\nWith [peasant_leader.GetFaith.WarGodName] guiding our riders, we shall break from your pathetic rule and reclaim our place on the open steppe!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_NOMADIC_ACCEPT_GRANT_INDEPENDENCE [AGOT: Fine! My realm has no place for your unwashed herds. | TR: Hayhay! Ülkemde sizin pis sürülerinize yer yok.]
- FACTION_DEMAND_NOMADIC_ACCEPT_GRANT_INDEPENDENCE: "Fine! My realm has no place for your unwashed herds."
-### TODO AGOT-CHANGED: FACTION_DEMAND_NOMADIC_VASSAL_DESC [AGOT: We will no longer tolerate your vile oppression of the proud [peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural]. Born to roam free beneath these open skies, we reject your tyranny — our time is at hand!\n\nWe shall cast off your rule and that of your liege, [faction_target.GetTitledFirstName], once and for all!! | TR: Biz, gururlu [peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural], artık senin alçakça baskını kabul etmeyeceğiz. Açık göklerin altında özgür yaşamak için doğduk ve zorbalığını reddediyoruz!\n\nSenin ve süzereninin hükmünü sonsuza dek üzerimizden atacağız!]
- FACTION_DEMAND_NOMADIC_VASSAL_DESC: "We will no longer tolerate your vile oppression of the proud [peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural]. Born to roam free beneath these open skies, we reject your tyranny — our time is at hand!\n\nWe shall cast off your rule and that of your liege, [faction_target.GetTitledFirstName], once and for all!!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_NOMADIC_VASSAL_JOIN_WAR [AGOT: Then I shall meet you on the field of battle, #EMP vagabond#!! | TR: O hâlde savaş meydanında görüşeceğiz, #EMP eşkıya#!!]
- FACTION_DEMAND_NOMADIC_VASSAL_JOIN_WAR: "Then I shall meet you on the field of battle, #EMP vagabond#!!"
+ FACTION_DEMAND_NOMADIC: "[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))|U] [ROOT.Char.GetTitledFirstName]"
+ FACTION_DEMAND_NOMADIC_DESC: "Bundan böyle baskı zincirine boyun eğmeyeceğiz! Biz, gururlu [GetGovernment( 'nomad_government' ).GetName] [peasant_leader.GetCulture.GetCollectiveNoun], uçsuz bucaksız göklerin altında özgürce dolaşmak için doğduk.\n\n[peasant_leader.GetFaith.WarGodName] atlılarımıza rehberlik edecek, senin zavallı hükmünü yıkacak ve açık bozkırdaki yerimizi geri alacağız!"
+ FACTION_DEMAND_NOMADIC_ACCEPT_GRANT_INDEPENDENCE: "Hayhay! Ülkemde sizin pis sürülerinize yer yok."
+ FACTION_DEMAND_NOMADIC_VASSAL_DESC: "Biz, gururlu [peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural], artık senin alçakça baskını kabul etmeyeceğiz. Açık göklerin altında özgür yaşamak için doğduk ve zorbalığını reddediyoruz!\n\nSenin ve süzereninin hükmünü sonsuza dek üzerimizden atacağız!"
+ FACTION_DEMAND_NOMADIC_VASSAL_JOIN_WAR: "O hâlde savaş meydanında görüşeceğiz, #EMP eşkıya#!!"
  FACTION_DEMAND_POPULIST:0 "[ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))|U] [ROOT.Char.GetTitledFirstName],"
-### TODO AGOT-CHANGED: FACTION_DEMAND_POPULIST_DESC_ADMIN [AGOT: We shall not permit any further oppression from your [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] rule. [peasant_leader.GetFaith.GetName|U] must be recognized as the preeminent faith of the [ROOT.Char.GetPrimaryTitle.GetName]!\n\nGive our faith the rightful status it deserves, or prepare to face the wrath of our many faithful! | TR: [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)|U] hükmünüzün daha fazla zulmetmesine izin vermeyeceğiz. [peasant_leader.GetFaith.GetName|U], [ROOT.Char.GetPrimaryTitle.GetName] topraklarının üstün inancı olarak tanınmalı!\n\nMezhebimize hak ettiği itibarı verin ya da inancına sadık halkın gazabıyla yüzleşmeye hazırlanın!]
- FACTION_DEMAND_POPULIST_DESC_ADMIN: "We shall not permit any further oppression from your [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] rule. [peasant_leader.GetFaith.GetName|U] must be recognized as the preeminent faith of the [ROOT.Char.GetPrimaryTitle.GetName]!\n\nGive our faith the rightful status it deserves, or prepare to face the wrath of our many faithful!"
+ FACTION_DEMAND_POPULIST_DESC_ADMIN: "[ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)|U] hükmünüzün daha fazla zulmetmesine izin vermeyeceğiz. [peasant_leader.GetFaith.GetName|U], [ROOT.Char.GetPrimaryTitle.GetName] topraklarının üstün inancı olarak tanınmalı!\n\nMezhebimize hak ettiği itibarı verin ya da inancına sadık halkın gazabıyla yüzleşmeye hazırlanın!"
  FACTION_DEMAND_POPULIST_DESC_CULTURE:0 "[peasant_leader.GetCulture.GetName] kültürümüzü baskı altında yaşamaya daha fazla katlanmayacağız. Kendi kaderimizi kendimizin tayin etme vakti geldi.\n\nBize bu hakkı tanımayı reddetmeniz durumunda tüm halkın gazabını üstünüzde bulacaksınız!"
  FACTION_DEMAND_POPULIST_DESC_FAITH:0 "[peasant_leader.GetFaith.GetAdherentNamePlural] olarak baskı altında yönetilmeye daha fazla katlanmayacağız. Kendi kaderimizi kendimizin tayin etme vakti geldi.\n\n[peasant_leader.GetFaith.WarGodName] önderliğinde birleşip kendimizi [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] hükümdarlığından kurtaracağız!"
  FACTION_DEMAND_POPULIST_DESC:0 "[peasant_leader.GetCulture.GetName] [peasant_leader.GetFaith.GetAdherentNamePlural] olarak baskı altında yönetilmeye daha fazla katlanmayacağız. Kendi kaderimizi kendimizin tayin etme vakti geldi.\n\n[peasant_leader.GetFaith.WarGodName] önderliğinde birleşip kendimizi [ROOT.Char.Custom2('GetUnbelieverTermAdjective', peasant_leader)] hükümdarlığından kurtaracağız!" #krutygetarts
  FACTION_DEMAND_POPULIST_ACCEPT_CONVERT:0 "Bir dakika... Bunun yerine ben sizden biri hâline gelsem?"
-### TODO AGOT-CHANGED: FACTION_DEMAND_POPULIST_ACCEPT_CONVERT_STATE_FAITH [AGOT: [peasant_leader.GetFaith.GetNameNoTooltip|U] shall be accorded this honor. | TR: [peasant_leader.GetFaith.GetNameNoTooltip|U] bu onura sahip olacak.]
- FACTION_DEMAND_POPULIST_ACCEPT_CONVERT_STATE_FAITH: "[peasant_leader.GetFaith.GetNameNoTooltip|U] shall be accorded this honor."
+ FACTION_DEMAND_POPULIST_ACCEPT_CONVERT_STATE_FAITH: "[peasant_leader.GetFaith.GetNameNoTooltip|U] bu onura sahip olacak."
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENDENCE:0 "Kendileri bilir, böyle huysuz bir güruhla uğraşacak vaktim yok!"
  FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENCE_TT:0 "#N Bu seçenek topraksız hâle gelmenizle sonuçlanacak!#!"
  FACTION_DEMAND_POPULIST_REFUSE:0 "Özgürlük mü? Öldüğünüzde özgür kalırsınız!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_POPULIST_REFUSE_ADMIN [AGOT: Such changes are not yours to make, insolent [peasant_leader.Custom2('InsultNoun', ROOT.Char)]! | TR: Böyle değişiklikler yapmak senin haddin değil, adi [peasant_leader.Custom2('InsultNoun', ROOT.Char)]!]
- FACTION_DEMAND_POPULIST_REFUSE_ADMIN: "Such changes are not yours to make, insolent [peasant_leader.Custom2('InsultNoun', ROOT.Char)]!"
+ FACTION_DEMAND_POPULIST_REFUSE_ADMIN: "Böyle değişiklikler yapmak senin haddin değil, adi [peasant_leader.Custom2('InsultNoun', ROOT.Char)]!"
  FACTION_DEMAND_POPULIST_REFUSE_TT:0 "#high [peasant_leader.GetTitledFirstName]#! ve #high [faction.GetName]#! size [war|E] açacak"
  FACTION_POPULIST_REVOLT_TITLE_NAME:0 "Halkçı Örgütleşme"
-### TODO AGOT-CHANGED: FACTION_NOMADIC_REVOLT_TITLE_NAME [AGOT: the Nomadic Revolt | TR: Göçebe İsyanı]
- FACTION_NOMADIC_REVOLT_TITLE_NAME: "the Nomadic Revolt"
+ FACTION_NOMADIC_REVOLT_TITLE_NAME: "Göçebe İsyanı"
  FACTION_POPULIST_CREATED_TITLE_NAME:0 "[founder_culture.GetCollectiveNounNoTooltip]"
  FACTION_DEMAND_POPULIST_VASSAL_DESC_SAME_CULTURE_AND_FAITH:0 "Geleneklerimiz ve inançlarımız aynı olabilir ama artık ne sen ne de [faction_target.Custom2('InsultAdjective', SCOPE.sC('peasant_leader'))] [faction_target.GetTitledFirstName] karşımızda duramaz!\n\nYa kenara çekil ya da hakkımız olan bağımsızlığımızı kazanmamızda bize yardım et!"
  FACTION_DEMAND_POPULIST_VASSAL_DESC_CULTURE:0 "[peasant_leader.GetCulture.GetName] geleneklerine karşı yapılan zulümlere artık göz yumamayız. Zaman geldi!\n\nSüzerenin [faction_target.GetTitledFirstName] ile ancak tam bağımsızlık sözüyle masaya otururuz."
@@ -137,17 +120,14 @@
  FACTION_CLAMAINT_DYNAMIC_NAME:0 "[ROOT.Faction.GetSpecialTitle.GetAdjective] Tahtına [ROOT.Faction.GetSpecialCharacter.GetNameNoTooltip] Adlı Kişiyi Geçirme"
  FACTION_POPULIST_DYNAMIC_NAME:0 "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] Halkçı Örgütleşmesi"
  FACTION_ESCALATED_PEASANT_DYNAMIC_NAME:0 "[ROOT.Faction.GetSpecialCharacter.Custom('GetTurbanRebellionColor')] [ROOT.Faction.GetSpecialCharacter.Custom('RegionalPeasantHeadgearPlural')|U] İsyanı"
-### TODO AGOT-CHANGED: FACTION_NOMAD_DYNAMIC_NAME [AGOT: [ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] Nomads | TR: [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] [ROOT.Var('faction_culture').Culture.GetNameNoTooltip] Göçebeler]
- FACTION_NOMAD_DYNAMIC_NAME: "[ROOT.Var('faction_culture').Culture.GetNameNoTooltip] [ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] Nomads"
+ FACTION_NOMAD_DYNAMIC_NAME: "[ROOT.Var('faction_faith').Faith.GetAdjectiveNoTooltip] [ROOT.Var('faction_culture').Culture.GetNameNoTooltip] Göçebeler"
  WARNING_I_HAVE_ALREADY_JOINED_A_FACTION:1 "@warning_icon! #X Hâlihazırda bir [faction|E] üyesisiniz#!"
  WARNING_I_AM_ALREADY_AT_WAR_WITH_TARGET:1 "@warning_icon! #X [faction_target.GetTitledFirstName] ile hâlihazırda savaştasınız#!"
  WARNING_I_AM_AT_WAR_WITH_FACTION_LEADER:1 "@warning_icon! #X [faction_invite_from.GetTitledFirstName] ile savaştasınız#!"
  WARNING_INVITE_CANNOT_JOIN:0 "@warning_icon! #X [faction_invite_from.GetTitledFirstName] örgütleşmeye katılamaz#!"
  FACTION_REASON_AI_PERSONALITY:0 "\n[personality|E]: $RESULT|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DIFFICULTY_HARD [AGOT: Hard Difficulty: $VALUE|0+=$ | TR: Zor Zorluk: $VALUE|0+=$]
- FACTION_REASON_DIFFICULTY_HARD: "Hard Difficulty: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DIFFICULTY_VERY_HARD [AGOT: Very Hard Difficulty: $VALUE|0+=$ | TR: Çok Zor Zorluk: $VALUE|0+=$]
- FACTION_REASON_DIFFICULTY_VERY_HARD: "Very Hard Difficulty: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_HARD: "Zor Zorluk: $VALUE|0+=$"
+ FACTION_REASON_DIFFICULTY_VERY_HARD: "Çok Zor Zorluk: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_EASY:0 "Kolay Zorluk: $VALUE|0+=$"
  FACTION_REASON_DIFFICULTY_VERY_EASY:0 "Çok Kolay Zorluk: $VALUE|0+=$"
  FACTION_REASON_GAME_RULE_REALM_STABILITY_LESSER:0 "Düşük Ülke İstikrarı Oyun Kuralı: $VALUE|0+=$"
@@ -183,16 +163,14 @@
  FACTION_REASON_PERK_TOE_THE_LINE:0 "[GetPerk('toe_the_line_perk').GetName(GetPlayer)]: $VALUE|0+=$"
  FACTION_REASON_INNOVATION_STEM_DUCHIES:0 "$innovation_stem_duchies$: $VALUE|0+=$"
  FACTION_REASON_CULTURE_ACCEPTANCE:0 "Düşük [cultural_acceptance|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DIFFERENT_CULTURE [AGOT: Different [culture|E]: $VALUE|0+=$ | TR: Farklı [culture|E]: $VALUE|0+=$]
- FACTION_REASON_DIFFERENT_CULTURE: "Different [culture|E]: $VALUE|0+=$"
+ FACTION_REASON_DIFFERENT_CULTURE: "Farklı [culture|E]: $VALUE|0+=$"
  FACTION_REASON_PREFER_DISSOLUTION_FACTION:0 "$nation_fracturing_faction$ni tercih ediyor: $VALUE|0+=$"
  FACTION_REASON_NEW_VASSAL:0 "Yeni [vassal|E]: $VALUE|0+=$"
  FACTION_REASON_PREFER_POPULIST_FACTION:0 "$populist_faction$ni tercih ediyor: $VALUE|0+=$"
  FACTION_REASON_PREFER_ESCALATED_FACTION:0 "$escalated_peasant_faction$ni tercih ediyor: $VALUE|0+=$"
  FACTION_REASON_RULING_CASTE:0 "[GetCultureTradition('tradition_ruling_caste').GetName]: $VALUE|0+=$"
  FACTION_REASON_AT_WAR_WITH_TARGET:0 "Hâlihazırda [Concept( 'liege', 'Süzerene' )|E] karşı isyan ediyor: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DISLIKE_NON_NOMADS [AGOT: Wants a [GetGovernment( 'nomad_government' ).GetName] [ruler|E]: $VALUE|0+=$ | TR: [GetGovernment( 'nomad_government' ).GetName] [ruler|E] istiyor: $VALUE|0+=$]
- FACTION_REASON_DISLIKE_NON_NOMADS: "Wants a [GetGovernment( 'nomad_government' ).GetName] [ruler|E]: $VALUE|0+=$"
+ FACTION_REASON_DISLIKE_NON_NOMADS: "[GetGovernment( 'nomad_government' ).GetName] [ruler|E] istiyor: $VALUE|0+=$"
  FACTION_REASON_CROWN_AUTHORITY_1:0 "$crown_authority_1$: $VALUE|0+=$"
  FACTION_REASON_CROWN_AUTHORITY_2:0 "$crown_authority_2$: $VALUE|0+=$"
  FACTION_REASON_CROWN_AUTHORITY_3:0 "$crown_authority_3$: $VALUE|0+=$"
@@ -210,8 +188,7 @@
  FACTION_REASON_CLAIMANT_TOO_OLD:0 "[claimant|E] çok yaşlı: $VALUE|0+=$"
  FACTION_REASON_CLAIMANT_TOO_YOUNG:0 "[claimant|E] bir [child|E]: $VALUE|0+=$"
  FACTION_REASON_CLAIMAINT_DYING:0 "[Concept( 'claimant', 'Hak Sahibinin' )|E] [Concept( 'health', 'Sağlığı' )|E] kötü: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_LOW_LEGITIMACY [AGOT: [claimant|E]'s [legitimacy|E] is too low: $VALUE|0+=$ | TR: [Concept( 'claimant', 'Hak Sahibinin' )|E] [Concept( 'legitimacy', 'Meşruiyeti' )|E] çok az: $VALUE|0+=$]
- FACTION_REASON_CLAIMANT_LOW_LEGITIMACY: "[claimant|E]'s [legitimacy|E] is too low: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_LOW_LEGITIMACY: "[Concept( 'claimant', 'Hak Sahibinin' )|E] [Concept( 'legitimacy', 'Meşruiyeti' )|E] çok az: $VALUE|0+=$"
  FACTION_REASON_CLAIMANT_RARE_PRODUCE_HEIR:0 "[claimant|E] doğumla [heir|E] sahibi olamaz: $VALUE|0+=$"
  FACTION_REASON_INFIRM:0 "[claimant|E] [GetTrait('infirm').GetName( GetNullCharacter )]: $VALUE|0+=$"
  FACTION_REASON_MEMBER_IS_CLAIMANT:0 "Ben [Concept( 'claimant', 'Hak Sahibiyim' )|E]: $VALUE|0+=$"
@@ -226,21 +203,16 @@
  FACTION_REASON_CLAIMANT_IS_RIGHTFUL_LIEGE:0 "[claimant|E] [rightful_liege|E]: $VALUE|0+=$"
  FACTION_REASON_TITLE_DEJURE_ABOVE:0 "[primary_title|E], hedef [Concept( 'title', 'Unvanın' )|E] [de_jure|E] vasalı değil: $VALUE|0+=$"
  FACTION_REASON_PREFER_INDEPENDENCE_FACTION:0 "$independence_faction$ni tercih ediyor: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR [AGOT: [liege|E] was [unpreferred_heir|E]: $VALUE|0+=$ | TR: [liege|E] [unpreferred_heir|E] idi: $VALUE|0+=$]
- FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR: "[liege|E] was [unpreferred_heir|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_LIEGE_IS_PREFERRED_HEIR [AGOT: [liege|E] was [preferred_heir|E]: $VALUE|0+=$ | TR: [liege|E] [preferred_heir|E] idi: $VALUE|0+=$]
- FACTION_REASON_LIEGE_IS_PREFERRED_HEIR: "[liege|E] was [preferred_heir|E]: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR: "[liege|E] [unpreferred_heir|E] idi: $VALUE|0+=$"
+ FACTION_REASON_LIEGE_IS_PREFERRED_HEIR: "[liege|E] [preferred_heir|E] idi: $VALUE|0+=$"
  FACTION_REASON_BETTER_CROWN_AUTHORITY:0 "[claimant|E] daha az [Concept( 'crown_authority', 'Taht Otoritesine' )|E] sahip: $VALUE|0+=$"
  FACTION_REASON_LOWER_COURT_GRANDEUR:0 "[liege|E] [Concept( 'court_grandeur_expectations', 'Saray Görkem Beklentisinin' )|E] altında: $VALUE|0+=$"
  FACTION_REASON_BYZANTINE:0 "[GetCultureTradition('tradition_byzantine_succession').GetName]: $FACTOR|0%+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_DISGRUNTLED_VASSALS [AGOT: [liege|E] has the [GetModifier('ep3_disgruntled_vassals_modifier').GetName][modifier|E]: $VALUE|0+=$ | TR: [liege|E], [GetModifier('ep3_disgruntled_vassals_modifier').GetName] [Concept( 'modifier', 'Etkisine' )|E] sahip: $VALUE|0+=$]
- FACTION_REASON_CLAIMANT_DISGRUNTLED_VASSALS: "[liege|E] has the [GetModifier('ep3_disgruntled_vassals_modifier').GetName][modifier|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_LIFE_THREATENED [AGOT: [liege|E] has the [GetModifier('ep3_life_threatened_modifier').GetName][modifier|E]: $VALUE|0+=$ | TR: [liege|E], [GetModifier('ep3_life_threatened_modifier').GetName] [Concept( 'modifier', 'Etkisine' )|E] sahip: $VALUE|0+=$]
- FACTION_REASON_CLAIMANT_LIFE_THREATENED: "[liege|E] has the [GetModifier('ep3_life_threatened_modifier').GetName][modifier|E]: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_DISGRUNTLED_VASSALS: "[liege|E], [GetModifier('ep3_disgruntled_vassals_modifier').GetName] [Concept( 'modifier', 'Etkisine' )|E] sahip: $VALUE|0+=$"
+ FACTION_REASON_CLAIMANT_LIFE_THREATENED: "[liege|E], [GetModifier('ep3_life_threatened_modifier').GetName] [Concept( 'modifier', 'Etkisine' )|E] sahip: $VALUE|0+=$"
  FACTION_REASON_SHORT_REIGN:0 "[liege|E] [Concept( 'primary_title', 'Birincil Unvanı' )|E] yakın zamanda aldı: $VALUE|0+=$"
  FACTION_REASON_CLAIMANTS_OF_MY_CULTURE:0 "[Concept( 'liege', 'Süzerenin' )|E] [Concept( 'primary_title', 'Birincil Unvanı' )|E] için benim [Concept( 'culture', 'Kültürümden' )|E] [claimants|E] var: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DE_JURE_VASSAL [AGOT: Part of the [de_jure|E] [liege|E]'s [primary_title|E]: $VALUE|0+=$ | TR: [de_jure|E] [Concept( 'liege', 'Süzerenin' )|E] [Concept( 'primary_title', 'Birincil Unvanının' )|E] parçası: $VALUE|0+=$]
- FACTION_REASON_DE_JURE_VASSAL: "Part of the [de_jure|E] [liege|E]'s [primary_title|E]: $VALUE|0+=$"
+ FACTION_REASON_DE_JURE_VASSAL: "[de_jure|E] [Concept( 'liege', 'Süzerenin' )|E] [Concept( 'primary_title', 'Birincil Unvanının' )|E] parçası: $VALUE|0+=$"
  FACTION_REASON_CULTURAL_ACCEPTANCE:0 "[cultural_acceptance|E]: $VALUE|0+=$"
  FACTION_REASON_TARGET_NOT_FULL_CONTROL:0 "[liege|E] [de_jure] bölgenin hepsini kontrol etmiyor: $VALUE|0+=$"
  FACTION_REASON_RECENT_LOST_WAR:0 "[liege|E] yakın zamanda [war|E] kaybetti: $VALUE|0+=$"
@@ -248,206 +220,110 @@
  FACTION_REASON_STRUGGLE_PHASE:0 "Mevcut [struggle_phase|E]: $VALUE|0+=$"
  FACTION_REASON_ELECTIVE_PRIMARY:0 "[Concept( 'liege', 'Süzerenin' )|E] [Concept( 'primary_title', 'Birincil Unvanında' )|E] Seçimli [succession_law|E] var: $VALUE|0+=$"
  FACTION_REASON_BYZANTINE_RELIGION:0 "Bizanslı [liege|E] ile aynı [religion|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_PERSIAN_STRUGGLE [AGOT: Part of the [persian_struggle|E]: $VALUE|0+=$ | TR: [persian_struggle|E] dahilinde: $VALUE|0+=$]
- FACTION_REASON_PERSIAN_STRUGGLE: "Part of the [persian_struggle|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_FRENCH_VASSAL [AGOT: Same [heritage|E] as French [liege|E]: $VALUE|0+=$ | TR: Fransız [liege|E] ile aynı [heritage|E]: $VALUE|0+=$]
- FACTION_REASON_FRENCH_VASSAL: "Same [heritage|E] as French [liege|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ANGLOSAXON [AGOT: West-Germanic [heritage|E]: $VALUE|0+=$ | TR: Batı Alman [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$]
- FACTION_REASON_ANGLOSAXON: "West-Germanic [heritage|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_NORMAN [AGOT: Frankish [heritage|E]: $VALUE|0+=$ | TR: Frank [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$]
- FACTION_REASON_NORMAN: "Frankish [heritage|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_BRYTHONIC [AGOT: Brythonic [heritage|E]: $VALUE|0+=$ | TR: Briton [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$]
- FACTION_REASON_BRYTHONIC: "Brythonic [heritage|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_LOW_CROWN_AUTHORITY [AGOT: Low [crown_authority|E]: $VALUE|0+=$ | TR: Düşük [crown_authority|E]: $VALUE|0+=$]
- FACTION_REASON_LOW_CROWN_AUTHORITY: "Low [crown_authority|E]: $VALUE|0+=$"
+ FACTION_REASON_PERSIAN_STRUGGLE: "[persian_struggle|E] dahilinde: $VALUE|0+=$"
+ FACTION_REASON_FRENCH_VASSAL: "Fransız [liege|E] ile aynı [heritage|E]: $VALUE|0+=$"
+ FACTION_REASON_ANGLOSAXON: "Batı Alman [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$"
+ FACTION_REASON_NORMAN: "Frank [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$"
+ FACTION_REASON_BRYTHONIC: "Briton [Concept( 'heritage', 'Mirası' )|E]: $VALUE|0+=$"
+ FACTION_REASON_LOW_CROWN_AUTHORITY: "Düşük [crown_authority|E]: $VALUE|0+=$"
  FACTION_REASON_POWER_MINIMAL:0 "[faction_military_power|E] az: $FACTOR|0%+=$"
  FACTION_REASON_FACTION_LEADER:0 "[faction|E] lideri benim: $VALUE|0+=$"
  FACTION_REASON_REGENT_CULTURAL_REASONS:0 "[regent_possessive|E] [Concept( 'culture', 'Kültürü' )|E]: $VALUE|0+=$"
  FACTION_REASON_REGENT_FAITH_REASONS:0 "[regent_possessive|E] [Concept( 'faith', 'Mezhebi' )|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_FP3_STRUGGLE_FRICTION [AGOT: Ongoing [struggle|E]: $VALUE|0+=$ | TR: Mevcut [struggle|E]: $VALUE|0+=$]
- FACTION_FP3_STRUGGLE_FRICTION: "Ongoing [struggle|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL [AGOT: [struggle|E] position on [liege|E]: $VALUE|0+=$ | TR: [liege|E] üzerindeki [struggle|E] konumu: $VALUE|0+=$]
- FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL: "[struggle|E] position on [liege|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_LOW_LEGITIMACY [AGOT: [liege_possessive|E] low [legitimacy|E]: $VALUE|0+=$ | TR: [liege_possessive|E] düşük [Concept( 'legitimacy', 'Meşruiyeti' )|E]: $VALUE|0+=$]
- FACTION_REASON_LOW_LEGITIMACY: "[liege_possessive|E] low [legitimacy|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_HIGH_LEGITIMACY [AGOT: [liege_possessive|E] high [legitimacy|E]: $VALUE|0+=$ | TR: [liege_possessive|E] yüksek [Concept( 'legitimacy', 'Meşruiyeti' )|E]: $VALUE|0+=$]
- FACTION_REASON_HIGH_LEGITIMACY: "[liege_possessive|E] high [legitimacy|E]: $VALUE|0+=$"
+ FACTION_FP3_STRUGGLE_FRICTION: "Mevcut [struggle|E]: $VALUE|0+=$"
+ FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL: "[liege|E] üzerindeki [struggle|E] konumu: $VALUE|0+=$"
+ FACTION_REASON_LOW_LEGITIMACY: "[liege_possessive|E] düşük [Concept( 'legitimacy', 'Meşruiyeti' )|E]: $VALUE|0+=$"
+ FACTION_REASON_HIGH_LEGITIMACY: "[liege_possessive|E] yüksek [Concept( 'legitimacy', 'Meşruiyeti' )|E]: $VALUE|0+=$"
  FACTION_REASON_HOUSE_HOSTILITY: "[GetCultureTradition('tradition_ep3_indomitable_azatani').GetName]: $FACTOR|^%+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_duty_focus [AGOT: [liege_possessive|E] Duty [focus|E]: $VALUE|0+=$ | TR: [liege_possessive|E] Görev [Concept( 'focus', 'Odağı' )|E]: $VALUE|0+=$]
- FACTION_REASON_duty_focus: "[liege_possessive|E] Duty [focus|E]: $VALUE|0+=$"
+ FACTION_REASON_duty_focus: "[liege_possessive|E] Görev [Concept( 'focus', 'Odağı' )|E]: $VALUE|0+=$"
  MPO_OBEDIENT_NOMAD: "[obedient|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: MPO_NON_OBEDIENT_NOMAD [AGOT: #bold Not #![obedient|E]: $VALUE|0+=$ | TR: #bold Not #![obedient|E]: $VALUE|0+=$]
  MPO_NON_OBEDIENT_NOMAD: "#bold Not #![obedient|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_HARRYING_RESISTANCE [AGOT: Harrying of the North Resistance: $VALUE|1+=$ | TR: Kuzey Seferi Direnişi: $VALUE|1+=$]
- FACTION_REASON_HARRYING_RESISTANCE: "Harrying of the North Resistance: $VALUE|1+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_HARRYING_PACIFICATION [AGOT: Harrying of the North Pacification: $VALUE|1+=$ | TR: Kuzey Seferi Boyun Eğdirmesi: $VALUE|1+=$]
- FACTION_REASON_HARRYING_PACIFICATION: "Harrying of the North Pacification: $VALUE|1+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_HARRYING_ANGLO_SAXON [AGOT: Claimant is Anglo-Saxon: $VALUE|0+=$ | TR: Hak Sahibi Anglosakson: $VALUE|0+=$]
- FACTION_REASON_HARRYING_ANGLO_SAXON: "Claimant is Anglo-Saxon: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_SIDE_WITH_EXISTING [AGOT: Preferable [claimant|E] [faction|E]: $VALUE|0+=$ | TR: Tercih Edilebilir [claimant|E] [faction|E]: $VALUE|0+=$]
- FACTION_REASON_SIDE_WITH_EXISTING: "Preferable [claimant|E] [faction|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_SHORT_REIGN_REASON [AGOT: Liege's Reign Length: $VALUE|+0=$ | TR: Süzerenin Hüküm Süresi: $VALUE|+0=$]
- FACTION_REASON_ADMIN_SHORT_REIGN_REASON: "Liege's Reign Length: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_EXISTING_STRONGER_FACTION_OF_SAME_TYPE_REASON [AGOT: Existing stronger [faction|E] of same type: $FACTOR|0%+=$ | TR: Aynı türden var olan daha güçlü [faction|E]: $FACTOR|0%+=$]
- FACTION_REASON_ADMIN_EXISTING_STRONGER_FACTION_OF_SAME_TYPE_REASON: "Existing stronger [faction|E] of same type: $FACTOR|0%+=$" 
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_STATE_FAITH [AGOT: [claimant|E] follows [state_faith|E]: $VALUE|+0=$ | TR: [claimant|E], [Concept( 'state_faith', 'Devletin Mezhebinden' )|E]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_STATE_FAITH: "[claimant|E] follows [state_faith|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_NOT_STATE_FAITH [AGOT: [claimant|E] doesn't follow [state_faith|E]: $VALUE|+0=$ | TR: [claimant|E], [Concept( 'state_faith', 'Devletin Mezhebinden' )|E] değil: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_NOT_STATE_FAITH: "[claimant|E] doesn't follow [state_faith|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_RELATIVE_SKILL [AGOT: Liege and [claimant|E] Relative [skill|E]: $VALUE|+0=$ | TR: Süzeren ve [Concept( 'claimant', 'Hak Sahibinin' )|E] Göreceli [Concept( 'skill', 'Becerisi' )|E]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_RELATIVE_SKILL: "Liege and [claimant|E] Relative [skill|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_POOR_SKILL [AGOT: Liege's Poor [skill|E]: $VALUE|+0=$ | TR: Süzeren Kötü [Concept( 'skill', 'Becerisi' )|E]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_POOR_SKILL: "Liege's Poor [skill|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_DEVIANT_AND_CRIMINAL [AGOT: Liege is [GetTrait('deviant').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('deviant').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_DEVIANT_AND_CRIMINAL: "Liege is [GetTrait('deviant').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_INCESTUOUS_AND_CRIMINAL [AGOT: Liege is [GetTrait('incestuous').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('incestuous').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_INCESTUOUS_AND_CRIMINAL: "Liege is [GetTrait('incestuous').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_SODOMITE_AND_CRIMINAL [AGOT: Liege is [GetTrait('sodomite').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('sodomite').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_SODOMITE_AND_CRIMINAL: "Liege is [GetTrait('sodomite').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_CANNIBAL_AND_CRIMINAL [AGOT: Liege is [GetTrait('cannibal').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('cannibal').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_CANNIBAL_AND_CRIMINAL: "Liege is [GetTrait('cannibal').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_KINSLAYER_1_AND_CRIMINAL [AGOT: Liege is [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_KINSLAYER_1_AND_CRIMINAL: "Liege is [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_KINSLAYER_2_AND_CRIMINAL [AGOT: Liege is [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_KINSLAYER_2_AND_CRIMINAL: "Liege is [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_KINSLAYER_3_AND_CRIMINAL [AGOT: Liege is [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_KINSLAYER_3_AND_CRIMINAL: "Liege is [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_WITCH_AND_CRIMINAL [AGOT: Liege is [GetTrait('witch').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('witch').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_WITCH_AND_CRIMINAL: "Liege is [GetTrait('witch').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_ADULTERER_AND_CRIMINAL [AGOT: Liege is [GetTrait('adulterer').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('adulterer').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_ADULTERER_AND_CRIMINAL: "Liege is [GetTrait('adulterer').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_LIEGE_FORNICATOR_AND_CRIMINAL [AGOT: Liege is [GetTrait('fornicator').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: Süzeren [GetTrait('fornicator').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_LIEGE_FORNICATOR_AND_CRIMINAL: "Liege is [GetTrait('fornicator').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_DEVIANT_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('deviant').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('deviant').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_DEVIANT_AND_CRIMINAL: "[claimant|E] is [GetTrait('deviant').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_INCESTUOUS_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('incestuous').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('incestuous').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_INCESTUOUS_AND_CRIMINAL: "[claimant|E] is [GetTrait('incestuous').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_SODOMITE_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('sodomite').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('sodomite').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_SODOMITE_AND_CRIMINAL: "[claimant|E] is [GetTrait('sodomite').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_CANNIBAL_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('cannibal').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('cannibal').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_CANNIBAL_AND_CRIMINAL: "[claimant|E] is [GetTrait('cannibal').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_1_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_1_AND_CRIMINAL: "[claimant|E] is [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_2_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_2_AND_CRIMINAL: "[claimant|E] is [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_3_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_3_AND_CRIMINAL: "[claimant|E] is [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_WITCH_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('witch').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('witch').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_WITCH_AND_CRIMINAL: "[claimant|E] is [GetTrait('witch').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_ADULTERER_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('adulterer').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('adulterer').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_ADULTERER_AND_CRIMINAL: "[claimant|E] is [GetTrait('adulterer').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_FORNICATOR_AND_CRIMINAL [AGOT: [claimant|E] is [GetTrait('fornicator').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('fornicator').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$]
- FACTION_REASON_ADMIN_CLAIMANT_FORNICATOR_AND_CRIMINAL: "[claimant|E] is [GetTrait('fornicator').GetName( GetNullCharacter )] #weak (considered [criminal|E])#!: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_COURTLY [AGOT: [claimant_possessive|E] appeal to [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName]: $VALUE|+0=$ | TR: [claimant_possessive|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] vasallar arasında onayı: $VALUE|+0=$]
- FACTION_REASON_ADMIN_COURTLY: "[claimant_possessive|E] appeal to [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_GLORY_HOUND [AGOT: [claimant_possessive|E] appeal to [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName]: $VALUE|+0=$ | TR: [claimant_possessive|E] [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName] vasallar arasında onayı: $VALUE|+0=$]
- FACTION_REASON_ADMIN_GLORY_HOUND: "[claimant_possessive|E] appeal to [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_PAROCHIAL [AGOT: [claimant_possessive|E] appeal to [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]: $VALUE|+0=$ | TR: [claimant_possessive|E] [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] vasallar arasında onayı: $VALUE|+0=$]
- FACTION_REASON_ADMIN_PAROCHIAL: "[claimant_possessive|E] appeal to [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_ZEALOT [AGOT: [claimant_possessive|E] appeal to [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName]: $VALUE|+0=$ | TR: [claimant_possessive|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] vasallar arasında onayı: $VALUE|+0=$]
- FACTION_REASON_ADMIN_ZEALOT: "[claimant_possessive|E] appeal to [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_MINORITY [AGOT: [claimant_possessive|E] appeal to [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName]: $VALUE|+0=$ | TR: [claimant_possessive|E] [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName] vasallar arasında onayı: $VALUE|+0=$]
- FACTION_REASON_ADMIN_MINORITY: "[claimant_possessive|E] appeal to [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_PARENT [AGOT: Parent of [claimant|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] Ebeveyni: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_PARENT: "Parent of [claimant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_CLOSE_FAMILY [AGOT: [close_family|E] of [claimant|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] [Concept( 'close_family', 'Yakın Ailesi' )|E]: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_CLOSE_FAMILY: "[close_family|E] of [claimant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_CLOSE_FAMILY_SPOUSE [AGOT: [close_family|E] of [claimant_possessive|E] [spouse|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] [Concept('spouse', 'Eşinin')|E] [Concept( 'close_family', 'Yakın Ailesi' )|E]: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_CLOSE_FAMILY_SPOUSE: "[close_family|E] of [claimant_possessive|E] [spouse|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_EXTENDED_FAMILY [AGOT: [extended_family|E] of [claimant|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] [Concept( 'extended_family', 'Geniş Ailesi' )|E]: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_EXTENDED_FAMILY: "[extended_family|E] of [claimant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_DYNASTY [AGOT: Same [dynasty||E] as [claimant|E]: $VALUE|+0=$ | TR: [claimant|E] ile aynı [dynasty|E]: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_DYNASTY: "Same [dynasty||E] as [claimant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_HOUSE [AGOT: Same [house|E] as [claimant|E]: $VALUE|+0=$ | TR: [claimant|E] ile aynı [house|E] : $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_HOUSE: "Same [house|E] as [claimant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_POWERFUL_FAMILY [AGOT: [claimant_possessive|E] [noble_family|E] is [powerful|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] [Concept( 'noble_family', 'Soylu ailesi' )|E] [powerful|E]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_POWERFUL_FAMILY: "[claimant_possessive|E] [noble_family|E] is [powerful|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_DOMINANT_FAMILY [AGOT: [claimant_possessive|E] [noble_family|E] is [dominant|E]: $VALUE|+0=$ | TR: [claimant_possessive|E] [Concept( 'noble_family', 'Soylu ailesi' )|E] [dominant|E]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_DOMINANT_FAMILY: "[claimant_possessive|E] [noble_family|E] is [dominant|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_BORN_IN_PURPLE [AGOT: [claimant|E] is [GetTrait('born_in_the_purple')]: $VALUE|+0=$ | TR: [claimant|E] [GetTrait('born_in_the_purple')]: $VALUE|+0=$]
- FACTION_REASON_ADMIN_BORN_IN_PURPLE: "[claimant|E] is [GetTrait('born_in_the_purple')]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR [AGOT: [claimant|E] is [co_emperor|E]: $FACTOR|0%+=$ | TR: [claimant|E] [co_emperor|E]: $FACTOR|0%+=$]
- FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR: "[claimant|E] is [co_emperor|E]: $FACTOR|0%+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR [AGOT: [claimant|E] is [junior_emperor|E]: $FACTOR|0%+=$ | TR: [claimant|E] [junior_emperor|E]: $FACTOR|0%+=$]
- FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[claimant|E] is [junior_emperor|E]: $FACTOR|0%+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_CLAIMANT_PRIMARY_HEIR [AGOT: [claimant|E] is my [heir|E]: $VALUE|+0=$ | TR: [claimant|E] benim [Concept( 'heir', 'Vârisim' )|E]: $VALUE|+0=$]
- FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] is my [heir|E]: $VALUE|+0=$"
+ FACTION_REASON_HARRYING_RESISTANCE: "Kuzey Seferi Direnişi: $VALUE|1+=$"
+ FACTION_REASON_HARRYING_PACIFICATION: "Kuzey Seferi Boyun Eğdirmesi: $VALUE|1+=$"
+ FACTION_REASON_HARRYING_ANGLO_SAXON: "Hak Sahibi Anglosakson: $VALUE|0+=$"
+ FACTION_REASON_SIDE_WITH_EXISTING: "Tercih Edilebilir [claimant|E] [faction|E]: $VALUE|0+=$"
+ FACTION_REASON_ADMIN_SHORT_REIGN_REASON: "Süzerenin Hüküm Süresi: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_EXISTING_STRONGER_FACTION_OF_SAME_TYPE_REASON: "Aynı türden var olan daha güçlü [faction|E]: $FACTOR|0%+=$" 
+ FACTION_REASON_ADMIN_CLAIMANT_STATE_FAITH: "[claimant|E], [Concept( 'state_faith', 'Devletin Mezhebinden' )|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_NOT_STATE_FAITH: "[claimant|E], [Concept( 'state_faith', 'Devletin Mezhebinden' )|E] değil: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_RELATIVE_SKILL: "Süzeren ve [Concept( 'claimant', 'Hak Sahibinin' )|E] Göreceli [Concept( 'skill', 'Becerisi' )|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_POOR_SKILL: "Süzeren Kötü [Concept( 'skill', 'Becerisi' )|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_DEVIANT_AND_CRIMINAL: "Süzeren [GetTrait('deviant').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_INCESTUOUS_AND_CRIMINAL: "Süzeren [GetTrait('incestuous').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_SODOMITE_AND_CRIMINAL: "Süzeren [GetTrait('sodomite').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_CANNIBAL_AND_CRIMINAL: "Süzeren [GetTrait('cannibal').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_KINSLAYER_1_AND_CRIMINAL: "Süzeren [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_KINSLAYER_2_AND_CRIMINAL: "Süzeren [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_KINSLAYER_3_AND_CRIMINAL: "Süzeren [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_WITCH_AND_CRIMINAL: "Süzeren [GetTrait('witch').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_ADULTERER_AND_CRIMINAL: "Süzeren [GetTrait('adulterer').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_LIEGE_FORNICATOR_AND_CRIMINAL: "Süzeren [GetTrait('fornicator').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_DEVIANT_AND_CRIMINAL: "[claimant|E] [GetTrait('deviant').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_INCESTUOUS_AND_CRIMINAL: "[claimant|E] [GetTrait('incestuous').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_SODOMITE_AND_CRIMINAL: "[claimant|E] [GetTrait('sodomite').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_CANNIBAL_AND_CRIMINAL: "[claimant|E] [GetTrait('cannibal').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_1_AND_CRIMINAL: "[claimant|E] [GetTrait('kinslayer_1').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_2_AND_CRIMINAL: "[claimant|E] [GetTrait('kinslayer_2').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_KINSLAYER_3_AND_CRIMINAL: "[claimant|E] [GetTrait('kinslayer_3').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_WITCH_AND_CRIMINAL: "[claimant|E] [GetTrait('witch').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_ADULTERER_AND_CRIMINAL: "[claimant|E] [GetTrait('adulterer').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_FORNICATOR_AND_CRIMINAL: "[claimant|E] [GetTrait('fornicator').GetName( GetNullCharacter )] #weak ([criminal|E] sayılıyor)#!: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_COURTLY: "[claimant_possessive|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] vasallar arasında onayı: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_GLORY_HOUND: "[claimant_possessive|E] [GetVassalStance( 'glory_hound' ).GetTextIcon][GetVassalStance( 'glory_hound' ).GetName] vasallar arasında onayı: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_PAROCHIAL: "[claimant_possessive|E] [GetVassalStance( 'parochial' ).GetTextIcon][GetVassalStance( 'parochial' ).GetName] vasallar arasında onayı: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_ZEALOT: "[claimant_possessive|E] [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] vasallar arasında onayı: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_MINORITY: "[claimant_possessive|E] [GetVassalStance( 'minority' ).GetTextIcon][GetVassalStance( 'minority' ).GetName] vasallar arasında onayı: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_PARENT: "[claimant_possessive|E] Ebeveyni: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_CLOSE_FAMILY: "[claimant_possessive|E] [Concept( 'close_family', 'Yakın Ailesi' )|E]: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_CLOSE_FAMILY_SPOUSE: "[claimant_possessive|E] [Concept('spouse', 'Eşinin')|E] [Concept( 'close_family', 'Yakın Ailesi' )|E]: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_EXTENDED_FAMILY: "[claimant_possessive|E] [Concept( 'extended_family', 'Geniş Ailesi' )|E]: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_DYNASTY: "[claimant|E] ile aynı [dynasty|E]: $VALUE|+0=$"
+ FACTION_REASON_CLAIMANT_HOUSE: "[claimant|E] ile aynı [house|E] : $VALUE|+0=$"
+ FACTION_REASON_ADMIN_POWERFUL_FAMILY: "[claimant_possessive|E] [Concept( 'noble_family', 'Soylu ailesi' )|E] [powerful|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_DOMINANT_FAMILY: "[claimant_possessive|E] [Concept( 'noble_family', 'Soylu ailesi' )|E] [dominant|E]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_BORN_IN_PURPLE: "[claimant|E] [GetTrait('born_in_the_purple')]: $VALUE|+0=$"
+ FACTION_REASON_ADMIN_CLAIMANT_CO_EMPEROR: "[claimant|E] [co_emperor|E]: $FACTOR|0%+=$"
+ FACTION_REASON_ADMIN_CLAIMANT_JUNIOR_EMPEROR: "[claimant|E] [junior_emperor|E]: $FACTOR|0%+=$"
+ FACTION_REASON_CLAIMANT_PRIMARY_HEIR: "[claimant|E] benim [Concept( 'heir', 'Vârisim' )|E]: $VALUE|+0=$"
  FACTION_REASON_ADMINISTRATIVE: "[administrative|E] [vassal|E]: $VALUE|+0=$"
  FACTION_REASON_NOMADIC: "[GetGovernment( 'nomad_government' ).GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DYNASTIC_CYCLE_INSTABILITY [AGOT: [dynastic_cycle|E] is in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]: $VALUE|+0=$ | TR: [dynastic_cycle|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName] içerisinde: $VALUE|+0=$]
- FACTION_REASON_DYNASTIC_CYCLE_INSTABILITY: "[dynastic_cycle|E] is in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ESCALATED_TO_LIEGE [AGOT: [holder|E] folded to a [peasant_faction|E]: $VALUE|+0=$ | TR: [holder|E] [Concept('peasant_faction', 'Köylü Örgütleşmesine')|E] yenildi: $VALUE|+0=$]
- FACTION_REASON_ESCALATED_TO_LIEGE: "[holder|E] folded to a [peasant_faction|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT [AGOT: Ceremonial Claimant Demand | TR: Sembolik Hak Sahibi Talebi]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT: "Ceremonial Claimant Demand"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC [AGOT: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNone can deny that [faction_claimant.GetName], not [faction_targeted_title.GetHolder.GetFirstName], is the rightful sovereign of [faction_targeted_title.GetNameNoTier].\n\nAccept this fact peacefully or we will make you do so by force! | TR: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n[faction_targeted_title.GetNameNoTier] unvanının meşru hükümdarı [faction_targeted_title.GetHolder.GetFirstName] değil, [faction_claimant.GetName] olmalıdır. Bunu kimse inkâr edemez.\n\nBu gerçeği barışçıl biçimde kabul edin, yoksa bunu size zorla kabul ettireceğiz!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nNone can deny that [faction_claimant.GetName], not [faction_targeted_title.GetHolder.GetFirstName], is the rightful sovereign of [faction_targeted_title.GetNameNoTier].\n\nAccept this fact peacefully or we will make you do so by force!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC_ME [AGOT: [faction_targeted_title.GetDefinitiveName|U] belongs to me by divine right, and I finally have the means to make it so. Accept this fact peacefully or I will make you do so by force! | TR: [faction_targeted_title.GetDefinitiveName|U] ilahi hakla bana aittir ve nihayet bunu gerçekleştirecek imkâna sahibim. Bu gerçeği barışçıl biçimde kabul edin, yoksa bunu size zorla kabul ettireceğim!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC_ME: "[faction_targeted_title.GetDefinitiveName|U] belongs to me by divine right, and I finally have the means to make it so. Accept this fact peacefully or I will make you do so by force!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED [AGOT: Ceremonial Claimant Demands Accepted | TR: Sembolik Hak Sahibi Talebi Kabul Edildi]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED: "Ceremonial Claimant Demands Accepted"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED_DESC [AGOT: It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of the realm I must accept your demands, but know that a great injustice was done here today. This will not stand! | TR: Bu budalaca girişimden vazgeçmektense tüm diyarı yakıp yıkmayı göze aldığınız bana açık. Ülkemizin iyiliği için taleplerinizi kabul etmeliyim fakat bilin ki bugün burada büyük bir adaletsizlik yapıldı. Bu böyle kalmayacak!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED_DESC: "It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of the realm I must accept your demands, but know that a great injustice was done here today. This will not stand!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED [AGOT: Ceremonial Claimant Demands Refused | TR: Sembolik Hak Sahibi Talebi Reddedildi]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED: "Ceremonial Claimant Demands Refused"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED_DESC [AGOT: Your support for [faction_claimant.GetShortUINamePossessive|U] claim to [faction_targeted_title.GetDefinitiveName|l] is an affront to the dignity of our rightful [faction_targeted_title.GetHolder.GetTitleAsName]!\n\nYour treachery and dishonor will soon find divine judgment, foul traitor! | TR: [faction_claimant.GetShortUINamePossessive|U] [faction_targeted_title.GetDefinitiveName|l] üzerindeki iddiasına verdiğiniz destek, meşru [faction_targeted_title.GetHolder.GetTitleAsName] için bir hakarettir!\n\nİhanetiniz ve rezilliğiniz yakında ilahi yargıyla karşılığını bulacak, alçak hain!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED_DESC: "Your support for [faction_claimant.GetShortUINamePossessive|U] claim to [faction_targeted_title.GetDefinitiveName|l] is an affront to the dignity of our rightful [faction_targeted_title.GetHolder.GetTitleAsName]!\n\nYour treachery and dishonor will soon find divine judgment, foul traitor!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION [AGOT: A Rightful Claim! | TR: Meşru Bir İddia!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION: "A Rightful Claim!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC [AGOT: The moment has come! All who support [faction_claimant.GetName] as the rightful [faction_targeted_title.GetHolder.GetTitleAsName] will now rise as one and make sure that [faction_claimant.GetSheHe] can take [faction_claimant.GetHerHis] rightful place on [faction_targeted_title.GetDefinitiveName|l]. We shall see it done, by sword and fire if we must! | TR: An geldi! [faction_claimant.GetName] meşru [faction_targeted_title.GetHolder.GetTitleAsName] olarak destekleyen herkes artık tek vücut olacak ve onun hakkı olan [faction_targeted_title.GetDefinitiveName|l] unvanına gelmesini sağlayacak. Gerekirse kılıçla ve ateşle bunu gerçekleştireceğiz!]
- FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support [faction_claimant.GetName] as the rightful [faction_targeted_title.GetHolder.GetTitleAsName] will now rise as one and make sure that [faction_claimant.GetSheHe] can take [faction_claimant.GetHerHis] rightful place on [faction_targeted_title.GetDefinitiveName|l]. We shall see it done, by sword and fire if we must!"
+ FACTION_REASON_DYNASTIC_CYCLE_INSTABILITY: "[dynastic_cycle|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName] içerisinde: $VALUE|+0=$"
+ FACTION_REASON_ESCALATED_TO_LIEGE: "[holder|E] [Concept('peasant_faction', 'Köylü Örgütleşmesine')|E] yenildi: $VALUE|+0=$"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT: "Sembolik Hak Sahibi Talebi"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\n[faction_targeted_title.GetNameNoTier] unvanının meşru hükümdarı [faction_targeted_title.GetHolder.GetFirstName] değil, [faction_claimant.GetName] olmalıdır. Bunu kimse inkâr edemez.\n\nBu gerçeği barışçıl biçimde kabul edin, yoksa bunu size zorla kabul ettireceğiz!"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_DESC_ME: "[faction_targeted_title.GetDefinitiveName|U] ilahi hakla bana aittir ve nihayet bunu gerçekleştirecek imkâna sahibim. Bu gerçeği barışçıl biçimde kabul edin, yoksa bunu size zorla kabul ettireceğim!"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED: "Sembolik Hak Sahibi Talebi Kabul Edildi"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_ACCEPTED_DESC: "Bu budalaca girişimden vazgeçmektense tüm diyarı yakıp yıkmayı göze aldığınız bana açık. Ülkemizin iyiliği için taleplerinizi kabul etmeliyim fakat bilin ki bugün burada büyük bir adaletsizlik yapıldı. Bu böyle kalmayacak!"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED: "Sembolik Hak Sahibi Talebi Reddedildi"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_REFUSED_DESC: "[faction_claimant.GetShortUINamePossessive|U] [faction_targeted_title.GetDefinitiveName|l] üzerindeki iddiasına verdiğiniz destek, meşru [faction_targeted_title.GetHolder.GetTitleAsName] için bir hakarettir!\n\nİhanetiniz ve rezilliğiniz yakında ilahi yargıyla karşılığını bulacak, alçak hain!"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION: "Meşru Bir İddia!"
+ FACTION_DEMAND_CEREMONIAL_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC: "An geldi! [faction_claimant.GetName] meşru [faction_targeted_title.GetHolder.GetTitleAsName] olarak destekleyen herkes artık tek vücut olacak ve onun hakkı olan [faction_targeted_title.GetDefinitiveName|l] unvanına gelmesini sağlayacak. Gerekirse kılıçla ve ateşle bunu gerçekleştireceğiz!"
  FACTION_CEREMONIAL_CLAIMANT_INVITE: "[faction_invite_from.Custom2('AppropriateGreeting', ROOT.Char)]"
-### TODO AGOT-CHANGED: FACTION_CEREMONIAL_CLAIMANT_INVITE_DESC [AGOT: [faction_target.GetName] occupies a throne that should rightly be yours! I am willing to support your claim with word and sword, and I am sure others in the realm will also champion this rightful cause. All you need to do is accept. | TR: [faction_target.GetName], hakkıyla size ait olması gereken bir tahtı işgal ediyor! Sözümle ve kılıcımla iddianızı desteklemeye hazırım, diyardaki birçok kişinin de bu haklı davayı savunacağına eminim. Tek yapmanız gereken kabul etmek.]
- FACTION_CEREMONIAL_CLAIMANT_INVITE_DESC: "[faction_target.GetName] occupies a throne that should rightly be yours! I am willing to support your claim with word and sword, and I am sure others in the realm will also champion this rightful cause. All you need to do is accept."
-### TODO AGOT-CHANGED: FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPT [AGOT: Finally! | TR: Nihayet!]
- FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPT: "Finally!"
-### TODO AGOT-CHANGED: FACTION_CEREMONIAL_CLAIMANT_INVITE_REFUSE [AGOT: It is not right... | TR: Bu doğru değil...]
- FACTION_CEREMONIAL_CLAIMANT_INVITE_REFUSE: "It is not right..."
+ FACTION_CEREMONIAL_CLAIMANT_INVITE_DESC: "[faction_target.GetName], hakkıyla size ait olması gereken bir tahtı işgal ediyor! Sözümle ve kılıcımla iddianızı desteklemeye hazırım, diyardaki birçok kişinin de bu haklı davayı savunacağına eminim. Tek yapmanız gereken kabul etmek."
+ FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPT: "Nihayet!"
+ FACTION_CEREMONIAL_CLAIMANT_INVITE_REFUSE: "Bu doğru değil..."
  FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED: "[faction_claimant.Custom2('AppropriateGreeting', ROOT.Char)]"
-### TODO AGOT-CHANGED: FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_DESC [AGOT: Finally! [faction_target.GetName] is nothing more than a jester acting a [faction_target.GetTitleAsNameNoTooltip], and I am sure the realm will rise to my cause. Those who aid me will not be forgotten. | TR: Nihayet! [faction_target.GetName] yalnızca bir [faction_target.GetTitleAsNameNoTooltip] rolü yapan bir soytarıdan ibaret, diyarın davam için ayağa kalkacağına eminim. Bana yardım edenler unutulmayacak.]
- FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_DESC: "Finally! [faction_target.GetName] is nothing more than a jester acting a [faction_target.GetTitleAsNameNoTooltip], and I am sure the realm will rise to my cause. Those who aid me will not be forgotten."
-### TODO AGOT-CHANGED: FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_OPT [AGOT: It is only a matter of time... | TR: Sadece zaman meselesi...]
- FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_OPT: "It is only a matter of time..."
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY [AGOT: Imperial Policy | TR: İmparatorluk Politikası]
- FACTION_DEMAND_IMPERIAL_POLICY: "Imperial Policy"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_DESC [AGOT: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nThe loyal subjects of the realm have endured your misguided policies for too long. The [faction.GetName] demands you assent to a new direction for [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], or we shall force one upon you! | TR: [faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nDiyarın sadık [Concept('subjects', 'Tebaası')|E] yanlış yönlendirilmiş politikalarınıza yeterince katlandı. [faction.GetName], [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] için yeni bir yönü onaylamanızı talep ediyor, aksi hâlde size bunu zorla kabul ettireceğiz!]
- FACTION_DEMAND_IMPERIAL_POLICY_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nThe loyal subjects of the realm have endured your misguided policies for too long. The [faction.GetName] demands you assent to a new direction for [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip], or we shall force one upon you!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED [AGOT: Imperial Policy Demands Accepted | TR: İmparatorluk Politikası Talebi Kabul Edildi]
- FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED: "Imperial Policy Demands Accepted"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED_DESC [AGOT: It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] I must accept your demands, but know that a great injustice was done here today. This will not stand! | TR: Bu budalaca girişimden vazgeçmektense diyarı yakıp yıkmayı göze aldığınız aşikâr. [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] topraklarının iyiliği için taleplerinizi kabul etmeliyim fakat bilin ki bugün burada büyük bir adaletsizlik yapıldı. Bu böyle kalmayacak!]
- FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED_DESC: "It is clear to me that you would see the realm burn before giving up this foolish venture. For the good of [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] I must accept your demands, but know that a great injustice was done here today. This will not stand!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_REFUSED [AGOT: Imperial Policy Demands Refused | TR: İmparatorluk Politikası Talebi Reddedildi]
- FACTION_DEMAND_IMPERIAL_POLICY_REFUSED: "Imperial Policy Demands Refused"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_REFUSED_DESC [AGOT: Your arrogant and petulant disregard for the sound policies of my government only prove how ill-fit you are to make such decisions!\n\nYour treachery and dishonor will soon find divine judgement, foul traitor! | TR: Hükümetimin sağlam politikalarını kibirle ve huysuzca hiçe saymanız, bu tür kararları vermeye ne kadar uygunsuz olduğunuzun kanıtıdır.\n\nİhanetiniz ve rezilliğiniz yakında ilahi yargıyla karşılığını bulacak, alçak hain!]
- FACTION_DEMAND_IMPERIAL_POLICY_REFUSED_DESC: "Your arrogant and petulant disregard for the sound policies of my government only prove how ill-fit you are to make such decisions!\n\nYour treachery and dishonor will soon find divine judgement, foul traitor!"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION [AGOT: Turning the Ship | TR: Geminin Rotasını Çevirmek]
- FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION: "Turning the Ship"
-### TODO AGOT-CHANGED: FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION_DESC [AGOT: The moment has come! All who support aborting [faction_target.GetTitledFirstNamePossessive] misguided policies will now rise as one and make sure that the realm is steered in a new direction. We shall see it done, by sword and fire if we must! | TR: An geldi! [faction_target.GetTitledFirstNamePossessive] yanlış yönlendirilmiş politikalarını sona erdirmeyi destekleyen herkes artık tek vücut olacak ve diyarın yeni bir yöne girmesini sağlayacak. Gerekirse kılıçla ve ateşle bunu gerçekleştireceğiz!]
- FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support aborting [faction_target.GetTitledFirstNamePossessive] misguided policies will now rise as one and make sure that the realm is steered in a new direction. We shall see it done, by sword and fire if we must!"
-### TODO AGOT-CHANGED: IMPERIAL_POLICY_WAR_NAME [AGOT: Imperial Policy War | TR: İmparatorluk Politikası Savaşı]
- IMPERIAL_POLICY_WAR_NAME: "Imperial Policy War"
-### TODO AGOT-CHANGED: FACTION_REASON_DESIRES_SORYO_POLICY [AGOT: Desires aggressive [imperial_policy|E]: $VALUE|0+=$ | TR: Saldırgan [imperial_policy|E] istiyor: $VALUE|0+=$]
- FACTION_REASON_DESIRES_SORYO_POLICY: "Desires aggressive [imperial_policy|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_ANTI_POLICY [AGOT: Friction with current [imperial_policy|E]: $VALUE|0+=$ | TR: Mevcut [imperial_policy|E] ile sürtüşme: $VALUE|0+=$]
- FACTION_REASON_ANTI_POLICY: "Friction with current [imperial_policy|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: FACTION_REASON_DESIRES_RITSURYO_POLICY [AGOT: Desires passive [imperial_policy|E]: $VALUE|0+=$ | TR: Pasif [imperial_policy|E] istiyor: $VALUE|0+=$]
- FACTION_REASON_DESIRES_RITSURYO_POLICY: "Desires passive [imperial_policy|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: peasant_leader_army_name [AGOT: [ROOT.Char.GetFirstNamePossessive] [ROOT.Char.Custom('GetTurbanRebellionColor')|U] [ROOT.Char.Custom('RegionalPeasantHeadgearPlural')|U] | TR: [ROOT.Char.GetFirstNamePossessive] [ROOT.Char.Custom('GetTurbanRebellionColor')|U] [ROOT.Char.Custom('RegionalPeasantHeadgearPlural')|U] Ordusu]
- peasant_leader_army_name: "[ROOT.Char.GetFirstNamePossessive] [ROOT.Char.Custom('GetTurbanRebellionColor')|U] [ROOT.Char.Custom('RegionalPeasantHeadgearPlural')|U]"
-### TODO AGOT-CHANGED: peasant_troops_name [AGOT: [ROOT.Char.GetCurrentLocation.GetName] Militia | TR: [ROOT.Char.GetCurrentLocation.GetName] Milisleri]
- peasant_troops_name: "[ROOT.Char.GetCurrentLocation.GetName] Militia"
+ FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_DESC: "Nihayet! [faction_target.GetName] yalnızca bir [faction_target.GetTitleAsNameNoTooltip] rolü yapan bir soytarıdan ibaret, diyarın davam için ayağa kalkacağına eminim. Bana yardım edenler unutulmayacak."
+ FACTION_CEREMONIAL_CLAIMANT_INVITE_ACCEPTED_OPT: "Sadece zaman meselesi..."
+ FACTION_DEMAND_IMPERIAL_POLICY: "İmparatorluk Politikası"
+ FACTION_DEMAND_IMPERIAL_POLICY_DESC: "[faction_leader.Custom2('AppropriateGreetingNegative', ROOT.Char)]\n\nDiyarın sadık [Concept('subjects', 'Tebaası')|E] yanlış yönlendirilmiş politikalarınıza yeterince katlandı. [faction.GetName], [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] için yeni bir yönü onaylamanızı talep ediyor, aksi hâlde size bunu zorla kabul ettireceğiz!"
+ FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED: "İmparatorluk Politikası Talebi Kabul Edildi"
+ FACTION_DEMAND_IMPERIAL_POLICY_ACCEPTED_DESC: "Bu budalaca girişimden vazgeçmektense diyarı yakıp yıkmayı göze aldığınız aşikâr. [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] topraklarının iyiliği için taleplerinizi kabul etmeliyim fakat bilin ki bugün burada büyük bir adaletsizlik yapıldı. Bu böyle kalmayacak!"
+ FACTION_DEMAND_IMPERIAL_POLICY_REFUSED: "İmparatorluk Politikası Talebi Reddedildi"
+ FACTION_DEMAND_IMPERIAL_POLICY_REFUSED_DESC: "Hükümetimin sağlam politikalarını kibirle ve huysuzca hiçe saymanız, bu tür kararları vermeye ne kadar uygunsuz olduğunuzun kanıtıdır.\n\nİhanetiniz ve rezilliğiniz yakında ilahi yargıyla karşılığını bulacak, alçak hain!"
+ FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION: "Geminin Rotasını Çevirmek"
+ FACTION_DEMAND_IMPERIAL_POLICY_SEND_DEMAND_NOTIFICATION_DESC: "An geldi! [faction_target.GetTitledFirstNamePossessive] yanlış yönlendirilmiş politikalarını sona erdirmeyi destekleyen herkes artık tek vücut olacak ve diyarın yeni bir yöne girmesini sağlayacak. Gerekirse kılıçla ve ateşle bunu gerçekleştireceğiz!"
+ IMPERIAL_POLICY_WAR_NAME: "İmparatorluk Politikası Savaşı"
+ FACTION_REASON_DESIRES_SORYO_POLICY: "Saldırgan [imperial_policy|E] istiyor: $VALUE|0+=$"
+ FACTION_REASON_ANTI_POLICY: "Mevcut [imperial_policy|E] ile sürtüşme: $VALUE|0+=$"
+ FACTION_REASON_DESIRES_RITSURYO_POLICY: "Pasif [imperial_policy|E] istiyor: $VALUE|0+=$"
+ peasant_leader_army_name: "[ROOT.Char.GetFirstNamePossessive] [ROOT.Char.Custom('GetTurbanRebellionColor')|U] [ROOT.Char.Custom('RegionalPeasantHeadgearPlural')|U] Ordusu"
+ peasant_troops_name: "[ROOT.Char.GetCurrentLocation.GetName] Milisleri"
  FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_POPULIST_PEASANT_MORE_LIKELY [AGOT: Empowered [faction|E] due to local [faith|E]: $VALUE|0+=$ | TR: Yerel [faith|E] nedeniyle güçlenen [faction|E]: $VALUE|0+=$]
- FACTION_REASON_POPULIST_PEASANT_MORE_LIKELY: "Empowered [faction|E] due to local [faith|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: LEADER_CANNOT_LEAVE_FACTION_OF_THIS_TYPE [AGOT: @warning_icon! #X Leader of this faction type can't leave it#! | TR: @warning_icon! #X Bu türdeki örgütleşmelerin lideri, örgütleşmeden ayrılamaz#!]
- LEADER_CANNOT_LEAVE_FACTION_OF_THIS_TYPE: "@warning_icon! #X Leader of this faction type can't leave it#!"
-### TODO AGOT-CHANGED: FACTION_REASON_SAME_HOUSE_LEADER [AGOT: Same [house|E] as [faction|E] Leader: $VALUE|+0=$ | TR: [faction|E] Lideriyle Aynı [house|E]: $VALUE|+0=$]
- FACTION_REASON_SAME_HOUSE_LEADER: "Same [house|E] as [faction|E] Leader: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_SAME_DYNASTY_LEADER [AGOT: Same [dynasty|E] as [faction|E] Leader: $VALUE|+0=$ | TR: [faction|E] Lideriyle Aynı [dynasty|E]: $VALUE|+0=$]
- FACTION_REASON_SAME_DYNASTY_LEADER: "Same [dynasty|E] as [faction|E] Leader: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_SAME_HOUSE_TARGET [AGOT: Same [house|E] as [faction|E] Target: $VALUE|+0=$ | TR: [faction|E] Hedefiyle Aynı [house|E]: $VALUE|+0=$]
- FACTION_REASON_SAME_HOUSE_TARGET: "Same [house|E] as [faction|E] Target: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_SAME_DYNASTY_TARGET [AGOT: Same [dynasty|E] as [faction|E] Target: $VALUE|+0=$ | TR: [faction|E] Hedefiyle Aynı [dynasty|E]: $VALUE|+0=$]
- FACTION_REASON_SAME_DYNASTY_TARGET: "Same [dynasty|E] as [faction|E] Target: $VALUE|+0=$"
-### TODO AGOT-CHANGED: FACTION_REASON_BLOC_HEAD_IS_LEADER [AGOT: [house_bloc|E] Leader's [faction] is [faction|E] Leader: $VALUE|+0=$ | TR: [house_bloc|E] Liderinin Örgütleşmesi [faction|E] Lideri: $VALUE|+0=$]
- FACTION_REASON_BLOC_HEAD_IS_LEADER: "[house_bloc|E] Leader's [faction] is [faction|E] Leader: $VALUE|+0=$"
+ FACTION_REASON_POPULIST_PEASANT_MORE_LIKELY: "Yerel [faith|E] nedeniyle güçlenen [faction|E]: $VALUE|0+=$"
+ LEADER_CANNOT_LEAVE_FACTION_OF_THIS_TYPE: "@warning_icon! #X Bu türdeki örgütleşmelerin lideri, örgütleşmeden ayrılamaz#!"
+ FACTION_REASON_SAME_HOUSE_LEADER: "[faction|E] Lideriyle Aynı [house|E]: $VALUE|+0=$"
+ FACTION_REASON_SAME_DYNASTY_LEADER: "[faction|E] Lideriyle Aynı [dynasty|E]: $VALUE|+0=$"
+ FACTION_REASON_SAME_HOUSE_TARGET: "[faction|E] Hedefiyle Aynı [house|E]: $VALUE|+0=$"
+ FACTION_REASON_SAME_DYNASTY_TARGET: "[faction|E] Hedefiyle Aynı [dynasty|E]: $VALUE|+0=$"
+ FACTION_REASON_BLOC_HEAD_IS_LEADER: "[house_bloc|E] Liderinin Örgütleşmesi [faction|E] Lideri: $VALUE|+0=$"

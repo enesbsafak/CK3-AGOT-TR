@@ -1,96 +1,55 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: GOLDEN_GATE_GLOSS [AGOT: The #bold Golden Gate#! is part of the Theodosian Walls encircling Constantinople and marks the beginning of the capital city's main street, the Mese. | TR: #bold Altın Kapı#! Konstantinopolis'i çevreleyen Theodosius Surları'nın parçasıdır ve başkentin ana caddesi olan Mese'nin başlangıcını işaret eder.]
- GOLDEN_GATE_GLOSS: "The #bold Golden Gate#! is part of the Theodosian Walls encircling Constantinople and marks the beginning of the capital city's main street, the Mese."
-### TODO AGOT-CHANGED: MILION_GLOSS [AGOT: The #bold milion#! marks the center of the [GetTitleByKey('e_byzantium').GetBaseName] and is the origin point from which all distances to the empire's cities are measured. | TR: #bold Milyon taşı#!, [GetTitleByKey('e_byzantium').GetBaseName] merkezini işaret eder ve imparatorluğun bütün şehirlerine olan mesafe ondan yola çıkarak ölçülür.]
- MILION_GLOSS: "The #bold milion#! marks the center of the [GetTitleByKey('e_byzantium').GetBaseName] and is the origin point from which all distances to the empire's cities are measured."
- TRIUMPH_HIPPODROME_CONC_GLOSS: ""#bold Aien aristeuein#!" Homeros'un #EMP İlyada'sında#! geçip "Her Zaman Mükemmelliğe" manasına gelir"
- TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS: ""#bold Hyper tes basileias soterias#!" yaygın bir Antik Yunanca ifade olup "İmparatorluğun kurtuluşu için." anlamına gelir"
-### TODO AGOT-CHANGED: WIPE_SLATE_DECISION_NEXT_STEP_BUTTON [AGOT: Select an Area to Redeem | TR: Telafi Edilecek bir Alan Belirle]
- WIPE_SLATE_DECISION_NEXT_STEP_BUTTON: "Select an Area to Redeem"
+ GOLDEN_GATE_GLOSS: "#bold Altın Kapı#! Konstantinopolis'i çevreleyen Theodosius Surları'nın parçasıdır ve başkentin ana caddesi olan Mese'nin başlangıcını işaret eder."
+ MILION_GLOSS: "#bold Milyon taşı#!, [GetTitleByKey('e_byzantium').GetBaseName] merkezini işaret eder ve imparatorluğun bütün şehirlerine olan mesafe ondan yola çıkarak ölçülür."
+### TODO AGOT-ONLY: TRIUMPH_HIPPODROME_CONC_GLOSS [AGOT: ]
+ TRIUMPH_HIPPODROME_CONC_GLOSS: ""#bold Aien aristeuein#!" is an ancient Greek phrase from Homer's #EMP Iliad#! meaning "Ever to excel.""
+### TODO AGOT-ONLY: TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS [AGOT: ]
+ TRIUMPH_HAGIA_SOPHIA_CONC_GLOSS: ""#bold Hyper tes basileias soterias#!" is a common formulation in Ancient Greek meaning "For the salvation of the empire.""
+ WIPE_SLATE_DECISION_NEXT_STEP_BUTTON: "Telafi Edilecek bir Alan Belirle"
  DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT: "[CHARACTER.Custom('IsAlreadyVisiting')]"
-### TODO AGOT-CHANGED: DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_TIME [AGOT: This action will be available again on [GetCurrentDateWithDiff( GetVarTimeRemaining( ROOT.Char.MakeScope, 'ep3_laamp_decision_1000_is_visiting') )] | TR: Bu eylem [GetCurrentDateWithDiff( GetVarTimeRemaining( ROOT.Char.MakeScope, 'ep3_laamp_decision_1000_is_visiting') )] tarihinde tekrar gerçekleştirilebilir olacak]
- DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_TIME: "This action will be available again on [GetCurrentDateWithDiff( GetVarTimeRemaining( ROOT.Char.MakeScope, 'ep3_laamp_decision_1000_is_visiting') )]"
-### TODO AGOT-CHANGED: DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_NO_TIME [AGOT: You are already visiting a settlement | TR: Hâlihazırda bir yerleşimi ziyaret ediyorsunuz]
- DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_NO_TIME: "You are already visiting a settlement"
-### TODO AGOT-CHANGED: DECISION_LOCAL_SETTLEMENT_SIEGED [AGOT: [CHARACTER.GetDomicile.GetLocation.GetName] is [besieged|E] | TR: [CHARACTER.GetDomicile.GetLocation.GetName] [besieged|E]]
- DECISION_LOCAL_SETTLEMENT_SIEGED: "[CHARACTER.GetDomicile.GetLocation.GetName] is [besieged|E]"
-### TODO AGOT-CHANGED: TREASURE_MAP_CONTRACT_DECISION_NEXT_STEP_BUTTON [AGOT: Organize Travel | TR: Seyahat Düzenle]
- TREASURE_MAP_CONTRACT_DECISION_NEXT_STEP_BUTTON: "Organize Travel"
-### TODO AGOT-CHANGED: DECISION_ALREADY_EXCAVATING_TREASURE [AGOT: You are already excavating a treasure | TR: Hâlihazırda bir define kazıyorsunuz]
- DECISION_ALREADY_EXCAVATING_TREASURE: "You are already excavating a treasure"
-### TODO AGOT-CHANGED: adopt_a_kennel_dog [AGOT: Adopt a Kennel Dog | TR: Tazı Evlat Edin]
- adopt_a_kennel_dog: "Adopt a Kennel Dog"
-### TODO AGOT-CHANGED: adopt_a_kennel_dog_desc [AGOT: Watching the kennel-master command these magnificent animals with word and gesture fills my mind with visions of myself standing beside my loyal canine companion. | TR: Tazıcının bu muhteşem hayvanlara söz ve hareketlerle komut vermesini izlerken yanımda duracak sadık bir arkadaşın hayallerini kuruyorum.]
- adopt_a_kennel_dog_desc: "Watching the kennel-master command these magnificent animals with word and gesture fills my mind with visions of myself standing beside my loyal canine companion."
-### TODO AGOT-CHANGED: DROMONS_GLOSS [AGOT: Byzantine galleys, powered by oar and sail, well-suited to making war on the Mediterranean. | TR: Kürek ve yelkenle donatılmış Bizans kadırgaları Akdeniz'de savaşmak için birebirdir.]
- DROMONS_GLOSS: "Byzantine galleys, powered by oar and sail, well-suited to making war on the Mediterranean."
-### TODO AGOT-CHANGED: KALLINIKOS_GLOSS [AGOT: The 7th century architect #bold Kallinikos#! is attributed with the invention of the proper form of Greek fire. | TR: Rum Ateşinin icadı, 7. yüzyılda yaşamış mimar #bold Kallinikos'a#! atfedilir.]
- KALLINIKOS_GLOSS: "The 7th century architect #bold Kallinikos#! is attributed with the invention of the proper form of Greek fire."
-### TODO AGOT-CHANGED: PARS_ORIENTIS_GLOSS [AGOT: #bold Pars Orientis#! — the | TR: #bold Pars Orientis#! —]
- PARS_ORIENTIS_GLOSS: "#bold Pars Orientis#! — the "Eastern Part" — is the original Latin name of the Eastern Roman Empire. The name implies only an administrative partition, without a formal or political division."
-### TODO AGOT-CHANGED: PANDIDAKTERION_GLOSS [AGOT: The #bold Pandidakterion#!, meaning | TR: #bold Pandidakterion#!, yani]
- PANDIDAKTERION_GLOSS: "The #bold Pandidakterion#!, meaning "place for all teachings," was founded in 425 AD by Theodosius II and hosted 31 chairs, half taught in Latin and half in Greek. It was refounded by Constantinus IX in 1046 and survived until the Ottoman conquest in 1453."
-### TODO AGOT-CHANGED: called_for_help_fervor [AGOT: Christian Brothers in Need | TR: Yardıma Muhtaç Hristiyan Kardeşler]
- called_for_help_fervor: "Christian Brothers in Need"
-### TODO AGOT-CHANGED: recently_asked_for_help [AGOT: You have already taken the decision in the past 20 years! | TR: Bu kararı geçmiş 20 yıl içerisinde zaten aldınız!]
- recently_asked_for_help: "You have already taken the decision in the past 20 years!"
-### TODO AGOT-CHANGED: ROMAIOS_GLOSS [AGOT: #bold Romaioi#! (singular #bold Romaios#!) is the Greek transliteration of the Latin name #bold Romani#!, as the Romans called themselves. Throughout the Middle Ages, the Byzantines identified themselves as Romans, and called their empire #EMP Basileia ton Romaion#!, the Empire of the Romans. | TR: #bold Romaioi#! (tekil #bold Romaios#!), Romalıların kendine hitap ettiği Latince #bold Romani#! adının Yunanca transliterasyonudur. Orta Çağ boyunca Bizanslılar kendilerini Romalı olarak tanımlamış ve imparatorluklarını #EMP Basileia ton Romaion#!, yani Romalıların İmparatorluğu olarak adlandırmışlardır.]
- ROMAIOS_GLOSS: "#bold Romaioi#! (singular #bold Romaios#!) is the Greek transliteration of the Latin name #bold Romani#!, as the Romans called themselves. Throughout the Middle Ages, the Byzantines identified themselves as Romans, and called their empire #EMP Basileia ton Romaion#!, the Empire of the Romans."
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_PER_EGYPT_GRANARY [AGOT: \t#weak Increase per [GetBuilding('cereal_fields_05').GetName] built in [GetGeographicalRegion('custom_roman_aegyptus').GetName]#! | TR: \t#weak [GetGeographicalRegion('custom_roman_aegyptus').GetName] üzerinde inşa edilmiş her [GetBuilding('cereal_fields_05').GetName] için artar#!]
- MODIFIER_DEFINITION_VALUE_PER_EGYPT_GRANARY: " \t#weak Increase per [GetBuilding('cereal_fields_05').GetName] built in [GetGeographicalRegion('custom_roman_aegyptus').GetName]#!"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_MAIN_DESC_PER_EGYPT_GRANARY [AGOT: This modifier increases per [GetBuilding('cereal_fields_05').GetName] built in [GetGeographicalRegion('custom_roman_aegyptus').GetName] ($MULTIPLIER|+=0$), Maxes out at #V 10#! | TR: Bu etki [GetGeographicalRegion('custom_roman_aegyptus').GetName] ($MULTIPLIER|+=0$) üzerinde inşa edilmiş her [GetBuilding('cereal_fields_05').GetName] için artar, en fazla #V 10#! olabilir]
- MODIFIER_DEFINITION_MAIN_DESC_PER_EGYPT_GRANARY: "This modifier increases per [GetBuilding('cereal_fields_05').GetName] built in [GetGeographicalRegion('custom_roman_aegyptus').GetName] ($MULTIPLIER|+=0$), Maxes out at #V 10#!"
-### TODO AGOT-CHANGED: every_house_member_tt [AGOT: Every member of House [THIS.House.GetName] | TR: [THIS.House.GetName] Hanesinin tüm mensupları]
- every_house_member_tt: "Every member of House [THIS.House.GetName]"
-### TODO AGOT-CHANGED: ep3_mass_arrests_house_power_malus [AGOT: Recently Imprisoned by [liege|E] | TR: Yakın zamanda [liege|E] tarafından hapsedilmiş]
- ep3_mass_arrests_house_power_malus: "Recently Imprisoned by [liege|E]"
-### TODO AGOT-CHANGED: dukes_become_governors [AGOT: Any [duchy|E] [title_tier|E] [vassal|E] will become a [governor|E] | TR: [duchy|E] [Concept('title_tier', 'Kademesindeki')|E] her [vassal|E] [governor|E] olacak]
- dukes_become_governors: "Any [duchy|E] [title_tier|E] [vassal|E] will become a [governor|E]"
-### TODO AGOT-CHANGED: governors_become_dukes [AGOT: Any [governors|E] will become a [duchy|E] [title_tier|E] [vassal|E] | TR: Bütün [governors|E] [duchy|E] [Concept('title_tier', 'Kademesinde')|E] [vassal|E]]
- governors_become_dukes: "Any [governors|E] will become a [duchy|E] [title_tier|E] [vassal|E]"
-### TODO AGOT-CHANGED: estates_get_bought [AGOT: Any [noble_families|E] with an [estate|E] will get a sum of [gold|E][gold_i] | TR: [Concept('estate', 'Malikânesi')|E] olan her [noble_family|E] bir miktar [gold|E][gold_i] kazanacak]
- estates_get_bought: "Any [noble_families|E] with an [estate|E] will get a sum of [gold|E][gold_i]"
-### TODO AGOT-CHANGED: NOT_ARTIFACT_CREATOR [AGOT: Is not this Artifact Creator | TR: Bu, Eseri Oluşturan değil]
- NOT_ARTIFACT_CREATOR: "Is not this Artifact Creator"
+ DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_TIME: "Bu eylem [GetCurrentDateWithDiff( GetVarTimeRemaining( ROOT.Char.MakeScope, 'ep3_laamp_decision_1000_is_visiting') )] tarihinde tekrar gerçekleştirilebilir olacak"
+ DECISION_ALREADY_VISITING_LOCAL_SETTLEMENT_NO_TIME: "Hâlihazırda bir yerleşimi ziyaret ediyorsunuz"
+ DECISION_LOCAL_SETTLEMENT_SIEGED: "[CHARACTER.GetDomicile.GetLocation.GetName] [besieged|E]"
+ TREASURE_MAP_CONTRACT_DECISION_NEXT_STEP_BUTTON: "Seyahat Düzenle"
+ DECISION_ALREADY_EXCAVATING_TREASURE: "Hâlihazırda bir define kazıyorsunuz"
+ adopt_a_kennel_dog: "Tazı Evlat Edin"
+ adopt_a_kennel_dog_desc: "Tazıcının bu muhteşem hayvanlara söz ve hareketlerle komut vermesini izlerken yanımda duracak sadık bir arkadaşın hayallerini kuruyorum."
+ DROMONS_GLOSS: "Kürek ve yelkenle donatılmış Bizans kadırgaları Akdeniz'de savaşmak için birebirdir."
+ KALLINIKOS_GLOSS: "Rum Ateşinin icadı, 7. yüzyılda yaşamış mimar #bold Kallinikos'a#! atfedilir."
+ PARS_ORIENTIS_GLOSS: "#bold Pars Orientis#! — "Doğu Kısmı" — Doğu Roma İmparatorluğu'nun orijinal Latince adıdır. Bu ad yalnızca idari bir bölünmeyi ima eder, resmî ya da siyasi bir bölünmeyi değil."
+ PANDIDAKTERION_GLOSS: "#bold Pandidakterion#!, yani "bütün öğretilerin mekânı," MS 425'te II. Theodosius tarafından kurulmuştu ve yarısı Latince, yarısı Yunanca eğitim veren 31 kürsüye ev sahipliği yapıyordu. 1046'da IX. Konstantinopolis tarafından yeniden kuruldu ve 1453'teki Osmanlı fethine kadar varlığını sürdürdü."
+ called_for_help_fervor: "Yardıma Muhtaç Hristiyan Kardeşler"
+ recently_asked_for_help: "Bu kararı geçmiş 20 yıl içerisinde zaten aldınız!"
+ ROMAIOS_GLOSS: "#bold Romaioi#! (tekil #bold Romaios#!), Romalıların kendine hitap ettiği Latince #bold Romani#! adının Yunanca transliterasyonudur. Orta Çağ boyunca Bizanslılar kendilerini Romalı olarak tanımlamış ve imparatorluklarını #EMP Basileia ton Romaion#!, yani Romalıların İmparatorluğu olarak adlandırmışlardır."
+ MODIFIER_DEFINITION_VALUE_PER_EGYPT_GRANARY: " \t#weak [GetGeographicalRegion('custom_roman_aegyptus').GetName] üzerinde inşa edilmiş her [GetBuilding('cereal_fields_05').GetName] için artar#!"
+ MODIFIER_DEFINITION_MAIN_DESC_PER_EGYPT_GRANARY: "Bu etki [GetGeographicalRegion('custom_roman_aegyptus').GetName] ($MULTIPLIER|+=0$) üzerinde inşa edilmiş her [GetBuilding('cereal_fields_05').GetName] için artar, en fazla #V 10#! olabilir" 
+ every_house_member_tt: "[THIS.House.GetName] Hanesinin tüm mensupları"
+ ep3_mass_arrests_house_power_malus: "Yakın zamanda [liege|E] tarafından hapsedilmiş"
+ dukes_become_governors: "[duchy|E] [Concept('title_tier', 'Kademesindeki')|E] her [vassal|E] [governor|E] olacak"
+ governors_become_dukes: "Bütün [governors|E] [duchy|E] [Concept('title_tier', 'Kademesinde')|E] [vassal|E]"
+ estates_get_bought: "[Concept('estate', 'Malikânesi')|E] olan her [noble_family|E] bir miktar [gold|E][gold_i] kazanacak"
+ NOT_ARTIFACT_CREATOR: "Bu, Eseri Oluşturan değil"
  marco_polo_book_desc: "[newly_created_artifact.Custom('ArtifactMarcoPoloIntro')]\n\n[newly_created_artifact.Custom('ArtifactMarcoPoloDesc')]\n\n[newly_created_artifact.Custom('ArtifactMarcoPoloEnd')]"
-### TODO AGOT-CHANGED: ep3_poachers_army [AGOT: Merry Men | TR: Neşeli Adamlar]
- ep3_poachers_army: "Merry Men"
-### TODO AGOT-CHANGED: maa_poachers [AGOT: Poachers | TR: Kaçak Avcılar]
- maa_poachers: "Poachers"
+ ep3_poachers_army: "Neşeli Adamlar"
+ maa_poachers: "Kaçak Avcılar"
  maa_poachers_flavor: "$maa_bandits_flavor$"
-### TODO AGOT-CHANGED: maa_marauders [AGOT: Marauders | TR: Çapulcular]
- maa_marauders: "Marauders"
+ maa_marauders: "Çapulcular"
  maa_marauders_flavor: "$maa_bandits_flavor$"
-### TODO AGOT-CHANGED: ep3_renounced_estate [AGOT: Peaceful Winter | TR: Huzurlu Kış]
- ep3_renounced_estate: "Peaceful Winter"
-### TODO AGOT-CHANGED: ep3_renounced_estate_desc [AGOT: This character retired from all duties to live out the rest of their life away from the public. | TR: Bu karakter, ömrünün geri kalanını göz önünden uzakta geçirmek için tüm görevlerinden çekildi.]
- ep3_renounced_estate_desc: "This character retired from all duties to live out the rest of their life away from the public."
-### TODO AGOT-CHANGED: SCHEME_COURTEOUS_KNIGHT [AGOT: You are a Courteous Knight: $VALUE|+0=$ | TR: Nazik Şövalyesiniz: $VALUE|+0=$]
- SCHEME_COURTEOUS_KNIGHT: "You are a Courteous Knight: $VALUE|+0=$"
-### TODO AGOT-CHANGED: ep3_black_sheep [AGOT: Black Sheep | TR: Yüz Karası]
- ep3_black_sheep: "Black Sheep"
-### TODO AGOT-CHANGED: ep3_black_sheep_desc [AGOT: This character opposed a family member calling them a disgrace to their family for their wandering lifestyle. | TR: Bu karakter bir aile üyesine gezgin yaşam tarzından ötürü yüz karası olduğunu söylemiş.]
- ep3_black_sheep_desc: "This character opposed a family member calling them a disgrace to their family for their wandering lifestyle."
-### TODO AGOT-CHANGED: theotokos [AGOT: the [Glossary( 'Theotokos', 'THEOTOKOS_GLOSS')] | TR: [Glossary( 'Theotokos', 'THEOTOKOS_GLOSS')]]
- theotokos: "the [Glossary( 'Theotokos', 'THEOTOKOS_GLOSS')]"
-### TODO AGOT-CHANGED: ladder_heaven [AGOT: the Ladder to Heaven | TR: Göğe Çıkan Merdiven]
- ladder_heaven: "the Ladder to Heaven"
-### TODO AGOT-CHANGED: pantokrator [AGOT: Christ [Glossary( 'Pantokrator', 'PANTOKRATOR_GLOSS')] | TR: Mesih [Glossary( 'Pantokrator', 'PANTOKRATOR_GLOSS')]]
- pantokrator: "Christ [Glossary( 'Pantokrator', 'PANTOKRATOR_GLOSS')]"
-### TODO AGOT-CHANGED: moses [AGOT: Moses receiving the tablets of the Law from the Burning Bush | TR: Yanan Çalı'dan Kanunları alan Musa]
- moses: "Moses receiving the tablets of the Law from the Burning Bush"
-### TODO AGOT-CHANGED: THEOTOKOS_GLOSS [AGOT: The | TR: ]
- THEOTOKOS_GLOSS: "The "Mother of God", Mary. In iconography, this definition identifies a scene of which Byzantine art is very fond: Mary breastfeeding or generally holding baby Jesus in her arms."
- PANTOKRATOR_GLOSS: ""Kadirimutlak Mesih" ya da "Her Şeyin Hâkimi". Bizans ikonografisinde fazlasıyla yaygındır, bir elinde Yeni Ahit'i tutan ve diğer eliyle onu seyredenleri kutsayan İsa'nın tasviridir."
-### TODO AGOT-CHANGED: embrace_heresy_tt [AGOT: You will embrace the chosen heretic [faith|E] | TR: Seçtiğiniz sapkın [Concept('faith', 'Mezhebi')|E] benimseyeceksiniz]
- embrace_heresy_tt: "You will embrace the chosen heretic [faith|E]"
-### TODO AGOT-CHANGED: has_embraced_heresy_tt [AGOT: You have embraced a [faith|E] through the [GetDecisionWithKey('embrace_heresy_decision').GetName] [decision|E] and are still following it | TR: [GetDecisionWithKey('embrace_heresy_decision').GetName] [Concept('decision', 'Kararı')|E] aracılığıyla bir [faith|E] benimsediniz ve hâlen mensubusunuz]
- has_embraced_heresy_tt: "You have embraced a [faith|E] through the [GetDecisionWithKey('embrace_heresy_decision').GetName] [decision|E] and are still following it"
-### TODO AGOT-CHANGED: you_arent_an_emp_tt [AGOT: Your [primary_title|E] is not an [empire|E] that isn't [GetTitleByKey('e_byzantium').GetName] | TR: [Concept('primary_title', 'Birincil Unvanınız')|E] [GetTitleByKey('e_byzantium').GetName] olmayan bir [empire|E] imparatorluk değil]
- you_arent_an_emp_tt: "Your [primary_title|E] is not an [empire|E] that isn't [GetTitleByKey('e_byzantium').GetName]"
-### TODO AGOT-CHANGED: holds_roman_emp_tt [AGOT: You hold [GetTitleByKey('h_roman_empire').GetName] | TR: [GetTitleByKey('h_roman_empire').GetName] unvanına sahipsiniz]
- holds_roman_emp_tt: "You hold [GetTitleByKey('h_roman_empire').GetName]"
-### TODO AGOT-CHANGED: BUTCHER_ANIMALS_DECISION_NEXT_STEP_BUTTON [AGOT: Delicious... #EMP meat#!... | TR: Leziz... #EMP et#!...]
- BUTCHER_ANIMALS_DECISION_NEXT_STEP_BUTTON: "Delicious... #EMP meat#!..."
-### TODO AGOT-CHANGED: holds_byz_emp_tt [AGOT: You hold [GetTitleByKey('e_byzantium').GetName] | TR: [GetTitleByKey('e_byzantium').GetName] elinizde]
-holds_byz_emp_tt: "You hold [GetTitleByKey('e_byzantium').GetName]"
+ ep3_renounced_estate: "Huzurlu Kış"
+ ep3_renounced_estate_desc: "Bu karakter, ömrünün geri kalanını göz önünden uzakta geçirmek için tüm görevlerinden çekildi."
+ SCHEME_COURTEOUS_KNIGHT: "Nazik Şövalyesiniz: $VALUE|+0=$"
+ ep3_black_sheep: "Yüz Karası"
+ ep3_black_sheep_desc: "Bu karakter bir aile üyesine gezgin yaşam tarzından ötürü yüz karası olduğunu söylemiş."
+ theotokos: "[Glossary( 'Theotokos', 'THEOTOKOS_GLOSS')]"
+ ladder_heaven: "Göğe Çıkan Merdiven"
+ pantokrator: "Mesih [Glossary( 'Pantokrator', 'PANTOKRATOR_GLOSS')]"
+ moses: "Yanan Çalı'dan Kanunları alan Musa"
+ THEOTOKOS_GLOSS: ""Tanrının Annesi" Meryem. İkonografide bu tanım Bizans sanatının çok sevdiği bir sahneyi belirtir: Bebek İsa'yı emziren ve genelde kollarında tutan Meryem."
+### TODO AGOT-ONLY: PANTOKRATOR_GLOSS [AGOT: ]
+ PANTOKRATOR_GLOSS: ""Christ Omnipotent" or "Ruler of All". Very common in byzantine iconography, it's a depiction of Jesus holding a New Testament in one hand, and blessing the on-lookers with the other."
+ embrace_heresy_tt: "Seçtiğiniz sapkın [Concept('faith', 'Mezhebi')|E] benimseyeceksiniz"
+ has_embraced_heresy_tt: "[GetDecisionWithKey('embrace_heresy_decision').GetName] [Concept('decision', 'Kararı')|E] aracılığıyla bir [faith|E] benimsediniz ve hâlen mensubusunuz"
+ you_arent_an_emp_tt: "[Concept('primary_title', 'Birincil Unvanınız')|E] [GetTitleByKey('e_byzantium').GetName] olmayan bir [empire|E] imparatorluk değil"
+ holds_roman_emp_tt: "[GetTitleByKey('h_roman_empire').GetName] unvanına sahipsiniz"
+ BUTCHER_ANIMALS_DECISION_NEXT_STEP_BUTTON: "Leziz... #EMP et#!..."
+holds_byz_emp_tt: "[GetTitleByKey('e_byzantium').GetName] elinizde"

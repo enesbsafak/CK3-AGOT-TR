@@ -17,8 +17,7 @@
  ACTIVITY_INTENT_TARGET_LABEL:0 "[ActivityIntent.GetName] Hedefi"
  ACTIVITY_SINGLE_INTENT_TOOLTIP:0 "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]"
  ACTIVITY_OPEN_INTENT_WINDOW:0 "$ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#I [intent|E] değiştirmek için tıklayın#!"
-### TODO AGOT-CHANGED: ACTIVITY_OPEN_INTENT_WINDOW_DISABLED [AGOT: $ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#X Cannot change [intent|E] during active events!#! | TR: $ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#X Etkin olaylar sırasında [intent|E] değiştirilemez!#!]
- ACTIVITY_OPEN_INTENT_WINDOW_DISABLED: "$ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#X Cannot change [intent|E] during active events!#!"
+ ACTIVITY_OPEN_INTENT_WINDOW_DISABLED: "$ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#X Etkin olaylar sırasında [intent|E] değiştirilemez!#!"
  ACTIVITY_SELECT_INTENT_NO_VALID_TARGET:0 "@warning_icon! #X [ACTIVITY_INTENT.GetName] için uygun hedef yok#!"
  ACTIVITY_CHANGE_INTENT_TARGET_TOOLTIP:0 "#T [intent|E] hedefini değiştir#!"
  ACTIVITY_CHANGE_INTENT_POTENTIAL_TARGET_HEADER:0 "Potansiyel Hedefler"
@@ -70,7 +69,5 @@
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP:1 "#T [ActivityPhase.GetName]#!\nSon eylem: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\nSonraki [activity_phase_action|E] olasılığına kadar [Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] gün var.\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE:0 "Yok"
  ACTIVITY_TIME_UNTIL_PROGRESS:1 " ([Select_CString(Activity.IsCurrentPhaseActive, 'Sona ermesine', 'Başlamasına')] [Activity.GetEstimatedProgressPhaseDate.GetTimeToDate] var)"
-### TODO AGOT-CHANGED: OPEN_ACTIVITY_NEVER_SEEN [AGOT: Never held | TR: Hiç düzenlenmedi]
- OPEN_ACTIVITY_NEVER_SEEN: "Never held"
-### TODO AGOT-CHANGED: OPEN_ACTIVITY_LAST_SEEN [AGOT: Last held [GetTimeBetweenDates(DATE.Self, GetCurrentDate)] ago | TR: [GetTimeBetweenDates(DATE.Self, GetCurrentDate)] önce düzenlendi]
- OPEN_ACTIVITY_LAST_SEEN: "Last held [GetTimeBetweenDates(DATE.Self, GetCurrentDate)] ago"
+ OPEN_ACTIVITY_NEVER_SEEN: "Hiç düzenlenmedi"
+ OPEN_ACTIVITY_LAST_SEEN: "[GetTimeBetweenDates(DATE.Self, GetCurrentDate)] önce düzenlendi"

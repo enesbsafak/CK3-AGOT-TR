@@ -18,14 +18,10 @@
  SAVE:0 "Kaydet"
  DELETE:0 "Sil"
  DELETE_CONFIRMATION_DESC:0 "$NAME|V$ kayıt dosyası silinecek. Emin misiniz?"
-### TODO AGOT-CHANGED: OLD_SAVE [AGOT: Old Save | TR: Eski Kayıt]
- OLD_SAVE: "Old Save"
-### TODO AGOT-CHANGED: OLD_SAVE_CONFIRMATION_DESC_INTRO [AGOT: @warning_icon! #X This save is from an old version of the game (Version $OLD_SAVE_VERSION$).#!\n\n#alert_bold The game might not run as expected#!. | TR: @warning_icon! #X Bu kayıt oyunun eski bir sürümüne ait ($OLD_SAVE_VERSION$ sürümü).#!\n\n#alert_bold Oyun beklendiği gibi çalışmayabilir#!.]
- OLD_SAVE_CONFIRMATION_DESC_INTRO: "@warning_icon! #X This save is from an old version of the game (Version $OLD_SAVE_VERSION$).#!\n\n#alert_bold The game might not run as expected#!."
-### TODO AGOT-CHANGED: OLD_SAVE_CONFIRMATION_DESC [AGOT: $OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nAre you sure you want to load this save? | TR: $OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nBu kaydı yüklemek istediğinize emin misiniz?]
- OLD_SAVE_CONFIRMATION_DESC: "$OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nAre you sure you want to load this save?"
-### TODO AGOT-CHANGED: OLD_SAVE_CONFIRMATION_DESC_STEAM [AGOT: $OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nYou can use the beta branch feature in Steam to revert the game's version to continue playing your save without issue.\n\nAre you sure you want to load this save? | TR: $OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nSteam'deki beta dalı özelliğini kullanarak oyunun sürümünü geri alabilir ve kaydınızı sorunsuz şekilde oynamaya devam edebilirsiniz.\n\nBu kaydı yüklemek istediğinize emin misiniz?]
- OLD_SAVE_CONFIRMATION_DESC_STEAM: "$OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nYou can use the beta branch feature in Steam to revert the game's version to continue playing your save without issue.\n\nAre you sure you want to load this save?"
+ OLD_SAVE: "Eski Kayıt"
+ OLD_SAVE_CONFIRMATION_DESC_INTRO: "@warning_icon! #X Bu kayıt oyunun eski bir sürümüne ait ($OLD_SAVE_VERSION$ sürümü).#!\n\n#alert_bold Oyun beklendiği gibi çalışmayabilir#!."
+ OLD_SAVE_CONFIRMATION_DESC: "$OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nBu kaydı yüklemek istediğinize emin misiniz?"
+ OLD_SAVE_CONFIRMATION_DESC_STEAM: "$OLD_SAVE_CONFIRMATION_DESC_INTRO$\n\nSteam'deki beta dalı özelliğini kullanarak oyunun sürümünü geri alabilir ve kaydınızı sorunsuz şekilde oynamaya devam edebilirsiniz.\n\nBu kaydı yüklemek istediğinize emin misiniz?"
  CLOUDSAVE_UNVAVAILABLE_TOOLTIP:0 "Bulut kayıtlarına ulaşılamıyor"
  SAVE_ENABLE_CLOUDSAVE_TOOLTIP:0 "Bulut'a kaydet"
  LOAD_CLOUDSAVE_TOOLTIP:0 "Bulut Kaydı"
@@ -47,8 +43,7 @@
  DISABLED_BUTTON:0 "Eklenmemiş..."
  CURRENT_DATE:0 "[GetCurrentDate.GetStringLong]"
  CURRENT_DATE_TOOLTIP:2 "[JoinText( '\n', GetCurrentDateStringWithSyncInfo, GetPausedByEventReason )] [AddLocalizationIf(Not(Or(IsPausedByEvent, IsPausedBySuccession)), 'CLICK_TOGGLE_PAUSE')]"
-### TODO AGOT-CHANGED: CLICK_TOGGLE_PAUSE [AGOT: \n\n#I Click to toggle pause#! | TR: \n\n#I Duraklatmak/devam ettirmek için tıklayın#!]
- CLICK_TOGGLE_PAUSE: "\n\n#I Click to toggle pause#!"	
+ CLICK_TOGGLE_PAUSE: "\n\n#I Duraklatmak/devam ettirmek için tıklayın#!"
  CURRENT_SPEED_LAGGING_PLAYER:0 "Hız düşürüldü: [GetLaggingPlayerName] geride kalıyor\n"
  CURRENT_SPEED_CLICK_TT_1:0 "#I Oyun hızını $CURRENT_SPEED_TEXT_1$ yapmak için tıklayın#!"
  CURRENT_SPEED_CLICK_TT_2:0 "#I Oyun hızını $CURRENT_SPEED_TEXT_2$ yapmak için tıklayın#!"
@@ -77,17 +72,14 @@
  GREATER_THAN:0 "daha fazla"
  LESS_THAN:0 "daha az"
  EQUAL_TO:0 "eşit"
-### TODO AGOT-CHANGED: EVENT_DEBUG_CHARACTER_EVENT [AGOT: Event: $EVENT$ Character: $NAME$ ($ID$)\n | TR: Olay: $EVENT$ Karakter: $NAME$ ($ID$)\n]
- EVENT_DEBUG_CHARACTER_EVENT: "Event: $EVENT$ Character: $NAME$ ($ID$)\n"
-### TODO AGOT-CHANGED: SCOPE_DEBUG_FORMAT [AGOT: $NAME$ #weak ($TYPE|U$ - $ID$)#! | TR: $NAME$ #weak ($TYPE|U$ - $ID$)#!]
+ EVENT_DEBUG_CHARACTER_EVENT: "Olay: $EVENT$ Karakter: $NAME$ ($ID$)\n"
  SCOPE_DEBUG_FORMAT: "$NAME$ #weak ($TYPE|U$ - $ID$)#!"
-### TODO AGOT-CHANGED: SCOPE_DEBUG_VALUE [AGOT: Value $VALUE$ | TR: Değer $VALUE$]
- SCOPE_DEBUG_VALUE: "Value $VALUE$"
+ SCOPE_DEBUG_VALUE: "Değer $VALUE$"
  CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nTarihsel ID: [CHARACTER.GetHistoryId|V]\nHanedan: [CHARACTER.GetDynastyName|V]\nKültür: [CHARACTER.GetCulture.GetName|V]\nDoğurganlık: [CHARACTER.GetFertility|%0V]\nSağlık: [CHARACTER.GetHealth|1V]\n"
  CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Gerçek Baba: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
- CHARACTER_DEBUG_TOOLTIP:2 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], Tarihsel ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Doğurganlık: [CHARACTER.GetFertility|%0V], Sağlık: [CHARACTER.GetHealth|1V], Stres: [CHARACTER.GetStress|0V]\nEtnik Köken: [CHARACTER.GetEthnicity.GetName]\nTemel Ağırlık: [CHARACTER.GetBaseWeight], Hedef Ağırlığı: [CHARACTER.GetTargetWeight], Mevcut Ağırlık: [CHARACTER.GetCurrentWeight]"
-### TODO AGOT-CHANGED: DEBUG_RULER_OBJECTIVE_INFO [AGOT: #D Ruler Objective: [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#! | TR: #D Hükümdar Hedefi: [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#!]
- DEBUG_RULER_OBJECTIVE_INFO: "#D Ruler Objective: [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#!"
+### TODO AGOT-CHANGED: CHARACTER_DEBUG_TOOLTIP [AGOT: #D DEBUG:#!\nID: [CHARACTER.GetID|V], Historical ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$$CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP$Fertility: [CHARACTER.GetFertility|%0V], Health: [CHARACTER.GetHealth|1V], Stress: [CHARACTER.GetStress|0V]\nBase Weight: [CHARACTER.GetBaseWeight], Target Weight: [CHARACTER.GetTargetWeight], Current Weight: [CHARACTER.GetCurrentWeight]\n | TR: #D DEBUG:#!\nID: [CHARACTER.GetID|V], Tarihsel ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Doğurganlık: [CHARACTER.GetFertility|%0V], Sağlık: [CHARACTER.GetHealth|1V], Stres: [CHARACTER.GetStress|0V]\nEtnik Köken: [CHARACTER.GetEthnicity.GetName]\nTemel Ağırlık: [CHARACTER.GetBaseWeight], Hedef Ağırlığı: [CHARACTER.GetTargetWeight], Mevcut Ağırlık: [CHARACTER.GetCurrentWeight]]
+ CHARACTER_DEBUG_TOOLTIP:2 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], Historical ID: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$$CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP$Fertility: [CHARACTER.GetFertility|%0V], Health: [CHARACTER.GetHealth|1V], Stress: [CHARACTER.GetStress|0V]\nBase Weight: [CHARACTER.GetBaseWeight], Target Weight: [CHARACTER.GetTargetWeight], Current Weight: [CHARACTER.GetCurrentWeight]\n"
+ DEBUG_RULER_OBJECTIVE_INFO: "#D Hükümdar Hedefi: [DECISION_TYPE.GetTitleForCharacter( CHARACTER.Self )|V]#!"
  CHARACTER_AI_VALUES_DEBUG_TOOLTIP:2 "#D DEBUG#! YZ Değerleri:\nOnur: [Character.GetAIHonor|V]\nAçgözlülük: [Character.GetAIGreed|V]\nAkılcılık: [Character.GetAIRationality|V]\nEnerji: [Character.GetAIEnergy|V]\nCesaret: [Character.GetAIBoldness|V]\nKorku Etkili Cesaret: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nDindarlık: [Character.GetAIZeal|V]\nİntikamcılık: [Character.GetAIVengefulness|V]\nŞefkat: [Character.GetAICompassion|V]\nSosyallik:[Character.GetAISociability|V]\n\n[Character.Custom( 'AIEconomicPersonality' )]\n[Character.GetAiBudgetDescription]\n[Character.GetVariablesDescription]\n#I YZ izlemeyi açmak için tıklayın#!" #orya
  CHARACTER_AI_VALUE:0 " #DEBUG YZ Değerleri#!"
  CHARACTER_AI_BUDGET_TOOLTIP: "$BUDGET_CATEGORY$: [gold_i] $BUDGET_GOLD_VALUE|V0$ / $BUDGET_GOLD_MAXIMUM|0$\n"
@@ -111,14 +103,10 @@
  LOWBORN_DESC:0 "Bu karakter bir Köylü"
  WEALTH_RICH:0 "Zengin"
  WEALTH_POOR:0 "Fakir"
-### TODO AGOT-CHANGED: ARMY_NAME [AGOT: $NUM|O$ Army of [PROVINCE.GetNameNoTooltip] | TR: $NUM|O$ [PROVINCE.GetNameNoTooltip] Ordusu]
- ARMY_NAME: "$NUM|O$ Army of [PROVINCE.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: ARMY_NAME_RAIDER [AGOT: $NUM|O$ Raiders of [PROVINCE.GetNameNoTooltip] | TR: $NUM|O$ [PROVINCE.GetNameNoTooltip] Yağmacıları]
- ARMY_NAME_RAIDER: "$NUM|O$ Raiders of [PROVINCE.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: ARMY_NAME_BARTER [AGOT: $NUM|O$ Barter Mission of [PROVINCE.GetNameNoTooltip] | TR: $NUM|O$ [PROVINCE.GetNameNoTooltip] Takasçıları]
- ARMY_NAME_BARTER: "$NUM|O$ Barter Mission of [PROVINCE.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: ARMY_NAME_LANDLESS [AGOT: $NUM|O$ Army of [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] | TR: $NUM|O$ [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] Ordusu]
- ARMY_NAME_LANDLESS: "$NUM|O$ Army of [CHARACTER.GetPrimaryTitle.GetNameNoTooltip]"
+ ARMY_NAME: "$NUM|O$ [PROVINCE.GetNameNoTooltip] Ordusu"
+ ARMY_NAME_RAIDER: "$NUM|O$ [PROVINCE.GetNameNoTooltip] Yağmacıları"
+ ARMY_NAME_BARTER: "$NUM|O$ [PROVINCE.GetNameNoTooltip] Takasçıları"
+ ARMY_NAME_LANDLESS: "$NUM|O$ [CHARACTER.GetPrimaryTitle.GetNameNoTooltip] Ordusu"
  GATHERING_ARMY_NAME:0 "$LOCATION$ Mevkisinde Toplanılıyor"
  DEAD:0 "Ölü"
  DEAD_SINCE:0 "[DATE.GetStringShort|V] tarihinden beri ölü."
@@ -129,21 +117,14 @@
  CHARACTER_DEAD_TOOLTIP:2 "$CHARACTER_DEAD_TOOLTIP_DATE_INFO$ [Character.GetDeathReason] ([Character.GetBirthDate.GetString|V] tarihinde doğdu)"
  CHARACTER_DEAD_LINEAGE:0 "[Character.GetDeathDate.GetString] tarihinde [Character.GetDeathReason|U]"
  CHARACTER_DEAD_TOOLTIP_HIDE_KILLER:0 "$CHARACTER_DEAD_TOOLTIP_DATE_INFO$ [Character.GetDeathReasonHideKiller] ([Character.GetBirthDate.GetString|V] tarihinde doğdu)"
-### TODO AGOT-CHANGED: CHARACTER_HOSTAGE_TOOLTIP [AGOT: #T Hostage#!\n[Character.GetUINameNotMe] is currently held [hostage|E] by [TARGET_CHARACTER.GetShortUIName] as their [warden|E] with [TARGET_CHARACTER_2.GetShortUIName] as their [home_court|E] | TR: #T Rehine#!\n[Character.GetUINameNotMe], şu anda koruyucusu [TARGET_CHARACTER.GetShortUINameNotMe] tarafından [hostage|E] olarak tutuluyor. [home_court|E] ise [TARGET_CHARACTER_2.GetShortUIName] adlı kişinin sarayı.]
- CHARACTER_HOSTAGE_TOOLTIP: "#T Hostage#!\n[Character.GetUINameNotMe] is currently held [hostage|E] by [TARGET_CHARACTER.GetShortUIName] as their [warden|E] with [TARGET_CHARACTER_2.GetShortUIName] as their [home_court|E]"
+ CHARACTER_HOSTAGE_TOOLTIP: "#T Rehine#!\n[Character.GetUINameNotMe], şu anda koruyucusu [TARGET_CHARACTER.GetShortUINameNotMe] tarafından [hostage|E] olarak tutuluyor. [home_court|E] ise [TARGET_CHARACTER_2.GetShortUIName] adlı kişinin sarayı."
  CHARACTER_INCAPABLE_TOOLTIP:0 "#T Âciz#!\n[Character.GetUINameNotMe], [GetTrait('incapable').GetName( Character.Self )] ve kendi başına hareket edemiyor"
-### TODO AGOT-CHANGED: CHARACTER_TRAVELING_TOOLTIP [AGOT: #T Traveling#!\n[traveling|E] towards [Character.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] [SelectLocalization(Character.GetTravelPlan.GetData.GetActivity.IsValid, 'CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION', '')] | TR: #T Seyahat Hâlinde#!\n[Character.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] topraklarına doğru [Concept( 'traveling', 'Seyahat' )|E] ediyor [SelectLocalization(Character.GetTravelPlan.GetData.GetActivity.IsValid, 'CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION', '')]]
- CHARACTER_TRAVELING_TOOLTIP: "#T Traveling#!\n[traveling|E] towards [Character.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] [SelectLocalization(Character.GetTravelPlan.GetData.GetActivity.IsValid, 'CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION', '')]"
-### TODO AGOT-CHANGED: CHARACTER_AWAY_TOOLTIP [AGOT: #T Away from home#!\n[SelectLocalization( Or( Character.IsCommandingArmy, Character.IsKnightInArmy ), 'CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP', 'CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP' )] | TR: #T Evden uzakta#!\n[SelectLocalization( Or( Character.IsCommandingArmy, Character.IsKnightInArmy ), 'CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP', 'CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP' )]]
- CHARACTER_AWAY_TOOLTIP: "#T Away from home#!\n[SelectLocalization( Or( Character.IsCommandingArmy, Character.IsKnightInArmy ), 'CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP', 'CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP' )]"
-### TODO AGOT-CHANGED: CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP [AGOT: [SelectLocalization( Character.IsCommandingArmy, 'CHARACTER_AWAY_DETAIL_COMMANDING_ARMY', 'CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY' )] located in [SelectLocalization( Character.IsCommandingArmy, Character.GetCommandingArmy.GetLocation.GetName, Character.GetKnightArmy.GetLocation.GetName )] | TR: [SelectLocalization( Character.IsCommandingArmy, Character.GetCommandingArmy.GetLocation.GetName, Character.GetKnightArmy.GetLocation.GetName )] Konumunda [SelectLocalization( Character.IsCommandingArmy, 'CHARACTER_AWAY_DETAIL_COMMANDING_ARMY', 'CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY' )]]
- CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP: "[SelectLocalization( Character.IsCommandingArmy, 'CHARACTER_AWAY_DETAIL_COMMANDING_ARMY', 'CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY' )] located in [SelectLocalization( Character.IsCommandingArmy, Character.GetCommandingArmy.GetLocation.GetName, Character.GetKnightArmy.GetLocation.GetName )]"
-### TODO AGOT-CHANGED: CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP [AGOT: Currently in [Character.GetCurrentLocation.GetName] | TR: Hâlihazırda [Character.GetCurrentLocation.GetName] Konumunda]
- CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP: "Currently in [Character.GetCurrentLocation.GetName]"
-### TODO AGOT-CHANGED: CHARACTER_AWAY_DETAIL_COMMANDING_ARMY [AGOT: Commanding [Character.GetCommandingArmy.GetNameNoTooltip] | TR: [Character.GetCommandingArmy.GetNameNoTooltip] Ordusunu Komuta Ediyor]
- CHARACTER_AWAY_DETAIL_COMMANDING_ARMY: "Commanding [Character.GetCommandingArmy.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY [AGOT: Serving as [Character.Custom('KnightCultureNoTooltipLowercase')] in [Character.GetKnightArmy.GetNameNoTooltip] | TR: [Character.GetKnightArmy.GetNameNoTooltip] Ordusunda [Character.Custom('KnightCultureNoTooltipLowercase')] Olarak Hizmet Ediyor]
- CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY: "Serving as [Character.Custom('KnightCultureNoTooltipLowercase')] in [Character.GetKnightArmy.GetNameNoTooltip]"
+ CHARACTER_TRAVELING_TOOLTIP: "#T Seyahat Hâlinde#!\n[Character.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] topraklarına doğru [Concept( 'traveling', 'Seyahat' )|E] ediyor [SelectLocalization(Character.GetTravelPlan.GetData.GetActivity.IsValid, 'CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION', '')]"
+ CHARACTER_AWAY_TOOLTIP: "#T Evden uzakta#!\n[SelectLocalization( Or( Character.IsCommandingArmy, Character.IsKnightInArmy ), 'CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP', 'CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP' )]"
+ CHARACTER_AWAY_DETAIL_ARMY_TOOLTIP: "[SelectLocalization( Character.IsCommandingArmy, Character.GetCommandingArmy.GetLocation.GetName, Character.GetKnightArmy.GetLocation.GetName )] Konumunda [SelectLocalization( Character.IsCommandingArmy, 'CHARACTER_AWAY_DETAIL_COMMANDING_ARMY', 'CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY' )]"
+ CHARACTER_AWAY_DETAIL_GENERIC_TOOLTIP: "Hâlihazırda [Character.GetCurrentLocation.GetName] Konumunda"
+ CHARACTER_AWAY_DETAIL_COMMANDING_ARMY: "[Character.GetCommandingArmy.GetNameNoTooltip] Ordusunu Komuta Ediyor"
+ CHARACTER_AWAY_DETAIL_KNIGHT_IN_ARMY: "[Character.GetKnightArmy.GetNameNoTooltip] Ordusunda [Character.Custom('KnightCultureNoTooltipLowercase')] Olarak Hizmet Ediyor"
  CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION:0 "[SelectLocalization(ObjectsEqual(Character.GetTravelPlan.GetData.GetActivity.GetHost.Self, Character.Self),'CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION_HOSTING','CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION_ATTENDING')]"
  CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION_HOSTING:0 "[Character.GetTravelPlan.GetData.GetActivity.GetName]"
  CHARACTER_TRAVELING_ACTIVITY_TOOLTIP_ADDITION_ATTENDING:0 "[Character.GetShortUIName] [Character.GetTravelPlan.GetData.GetActivity.GetName] Etkinliğine katılıyor"
@@ -158,12 +139,9 @@
  BASE_GOLD:0 "Temel [gold_i|E]"
  BASE_PIETY:0 "Temel [piety_i|E]"
  BASE_PRESTIGE:0 "Temel [prestige_i|E]"
-### TODO AGOT-CHANGED: BASE_INFLUENCE [AGOT: Base [influence_i|E] | TR: Temel [influence_i|E]]
- BASE_INFLUENCE: "Base [influence_i|E]"
-### TODO AGOT-CHANGED: BASE_TREASURY [AGOT: Base [treasury_i|E] | TR: Temel [treasury_i|E]]
- BASE_TREASURY: "Base [treasury_i|E]"
-### TODO AGOT-CHANGED: BASE_MERIT [AGOT: Base [merit_i|E] | TR: Temel [merit_i|E]]
- BASE_MERIT: "Base [merit_i|E]"
+ BASE_INFLUENCE: "Temel [influence_i|E]"
+ BASE_TREASURY: "Temel [treasury_i|E]"
+ BASE_MERIT: "Temel [merit_i|E]"
  BASE_TIME:0 "Temel @time_icon!"
  VALUE_COLON:0 "$KEY$: $VALUE|V0$"
  VALUE_COLON_POSITIVE_DIFF:0 "$KEY$: $VALUE|+=0$"
@@ -175,8 +153,7 @@
  OPINION_MTTH:1 "[CHARACTER.GetShortUINamePossessive|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'size', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ' adlı kişiye' )] olan Görüşü: $VALUE|=+0$"
  TRAIT_COMPATIBILITY_LIKES:0 "$TRAIT$, $OTHER_TRAIT$ sever: $VALUE|=+0$"
  TRAIT_COMPATIBILITY_DISLIKES:0 "$TRAIT$, $OTHER_TRAIT$ sevmez: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RANGED_MODIFIER [AGOT: $FROM$ to $TO$ | TR: $FROM$ ila $TO$ arasında]
- RANGED_MODIFIER: "$FROM$ to $TO$"
+ RANGED_MODIFIER: "$FROM$ ila $TO$ arasında"
  RANGED_MODIFIER_DESCRIPTION: "$MODIFIER$: $RANGED_MODIFIER$"
  SCRIPTED_VALUE_MODIFIER:0 "Değer: $VALUE|+0$"
  AI_VALUE_MODIFIER_COMPOUND:0 "Kişilik: $VALUE|=+0$"
@@ -216,8 +193,7 @@
  CHARACTER_HERHIS_ITS:0 "o"
  CHARACTER_HERHIS_THEIR:0 "onların"
  CHARACTER_HERHISMY_MY:0 "benim"
-### TODO AGOT-CHANGED: CHARACTER_HERHISYOUR_YOUR [AGOT: your | TR: karakterinizin]
- CHARACTER_HERHISYOUR_YOUR: "your"
+ CHARACTER_HERHISYOUR_YOUR: "karakterinizin"
  CHARACTER_HERSHIS_HERS:0 "onun"
  CHARACTER_HERSHIS_HIS:0 "onun"
  CHARACTER_HERSHIS_ITS:0 "onun"
@@ -258,10 +234,8 @@
  VASSAL:1 "[Concept( 'vassal', 'Vasalı' )|E]"
  LIEGE:1 "[Concept( 'liege', 'Süzereni' )|E]"
  LIEGE_POSSESSIVE:0 "[liege_possessive|E]"
-### TODO AGOT-CHANGED: TRIBUTARY [AGOT: [tributary|E] | TR: [Concept('tributary', 'Haraçgüzarı')|E]]
- TRIBUTARY: "[tributary|E]"
-### TODO AGOT-CHANGED: SUZERAIN [AGOT: [suzerain|E] | TR: [Concept('suzerain', 'Efendisi')|E]]
- SUZERAIN: "[suzerain|E]"
+ TRIBUTARY: "[Concept('tributary', 'Haraçgüzarı')|E]"
+ SUZERAIN: "[Concept('suzerain', 'Efendisi')|E]"
  KNIGHT:2 "Emrinde [CHARACTER.GetLiege.Custom('KnightCulture')]"
  COUNCILLOR:0 "Konseyinde [CHARACTER.GetCouncilTitle]"
  COURTIER:1 "[courtier|E]"
@@ -270,21 +244,17 @@
  RELATION_NEIGHBORING_RULER:0 "Komşu [ruler|E]"
  RELATION_FOREIGN_RULER:0 "Yabancı [ruler|E]"
  RELATION_MY_TOP_LIEGE:0 "Sizin [Concept( 'top_liege', 'Ana Süzereniniz' )|E]"
-### TODO AGOT-CHANGED: RELATION_BELOW_VASSAL [AGOT: [vassal|E] in your [realm|E] | TR: [Concept( 'realm', 'Ülkenizdeki' )|E] bir [vassal|E]]
- RELATION_BELOW_VASSAL: "[vassal|E] in your [realm|E]"
+ RELATION_BELOW_VASSAL: "[Concept( 'realm', 'Ülkenizdeki' )|E] bir [vassal|E]"
  RELATION_FELLOW_VASSAL:0 "Aynı Ülkedeki Bir Diğer [vassal|E]"
  RELATION_NEIGHBORING_FELLOW_VASSAL:0 "Aynı Ülkedeki Komşu [vassal|E]"
-### TODO AGOT-CHANGED: RELATION_VASSAL_IN_REALM [AGOT: [vassal|E] in the [CHARACTER.GetPrimaryTitle.GetBaseName] | TR: [CHARACTER.GetPrimaryTitle.GetBaseName] Ülkesinin [Concept('vassal', 'Vasalı')|E]]
- RELATION_VASSAL_IN_REALM: "[vassal|E] in the [CHARACTER.GetPrimaryTitle.GetBaseName]"
+ RELATION_VASSAL_IN_REALM: "[CHARACTER.GetPrimaryTitle.GetBaseName] Ülkesinin [Concept('vassal', 'Vasalı')|E]"
  RELATION_POOL_CHARACTER_LOCATION:0 "Dolaşıyor"
  RELATION_POOL_CHARACTER:0 "Dolaşıyor"
  RELATION_COUNCIL_POSITION:0 "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'Konseyinizde', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ' adlı kişinin konseyinde' )] [CHARACTER.GetCouncilTitle]"
-### TODO AGOT-CHANGED: RELATION_COURTIER [AGOT: [CHARACTER.Custom('GetCourtier')|U] of [CHARACTER.GetShortUIName] | TR: [Select_CString( CHARACTER.IsLocalPlayer, 'Karakterinizin', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] emrindeki [CHARACTER.Custom('GetCourtier')|U]]
- RELATION_COURTIER: "[CHARACTER.Custom('GetCourtier')|U] of [CHARACTER.GetShortUIName]"
+ RELATION_COURTIER: "[Select_CString( CHARACTER.IsLocalPlayer, 'Karakterinizin', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] emrindeki [CHARACTER.Custom('GetCourtier')|U]"
  RELATION_COURTIER_SHORT: "[CHARACTER.Custom('GetCourtier')|U]"
  RELATION_GUEST:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Karakterinizin', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] Misafiri"
-### TODO AGOT-CHANGED: RELATION_DIARCH [AGOT: $DIARCH_TITLE$ of [CHARACTER.GetShortUIName] | TR: [CHARACTER.GetShortUIName] için $DIARCH_TITLE$]
- RELATION_DIARCH: "$DIARCH_TITLE$ of [CHARACTER.GetShortUIName]"
+ RELATION_DIARCH: "[CHARACTER.GetShortUIName] için $DIARCH_TITLE$"
  THIS_IS_YOU_STATIC:0 "Bu sizsiniz"
  THIS_IS_YOU:2 "[CHARACTER.Custom('ThisIsYou')]"
  THIS_IS_YOU_ALLEGEDLY:0 "Bir rivayete göre bu sizsiniz"
@@ -301,10 +271,8 @@
  TRIBUTARIES: "[tributaries|E]"
  HIRED:0 "Kiralanmış"
  RAISE_ALL:1 "Tüm Askerleri Topla"
-### TODO AGOT-CHANGED: RAISE_ALL_RAIDERS [AGOT: Raise All as Raiders | TR: Yağmacı Olarak Topla]
- RAISE_ALL_RAIDERS: "Raise All as Raiders"
-### TODO AGOT-CHANGED: RAISE_ALL_BARTERERS [AGOT: Raise All as Barterers | TR: Takasçı Olarak Topla]
- RAISE_ALL_BARTERERS: "Raise All as Barterers"
+ RAISE_ALL_RAIDERS: "Yağmacı Olarak Topla"
+ RAISE_ALL_BARTERERS: "Takasçı Olarak Topla"
  RAISE_ALL_MEN_AT_ARMS:1 "Hepsini Topla"
  RAISE_HIRED_TROOP:0 "Topla"
  DISBAND_ALL:0 "Hepsini Terhis Et"
@@ -316,8 +284,7 @@
  SORT_STRENGTH:0 "Güç"
  SORT_INCOME:0 "Gelir"
  SORT_HEALTH:0 "Sağlık"
-### TODO AGOT-CHANGED: SORT_ACCEPTANCE [AGOT: Acceptance | TR: Kabul Edilme]
- SORT_ACCEPTANCE: "Acceptance"
+ SORT_ACCEPTANCE: "Kabul Edilme"
  TT_CURRENT_GOLD:1 "[gold_i|E] #high [GetPlayer.GetGold|1]#!"
  TT_CURRENT_BALANCE:1 "#high [GetPlayerBalance|=+1]#!/aylık"
  CURRENT_BALANCE_TOOLTIP:1 "#T [gold_i][gold|E] Miktarınız#!\n[GetPlayer.GetBalanceBreakdown]"
@@ -326,10 +293,8 @@
  ESTIMATE_TAX_INFO:0 "Toplam [tax|E] Geliri: [gold_i]$TOTAL|=+1$\n - [domain|E]: [gold_i]$DOMAIN|=+1$\n - [vassals|E]: [gold_i]$VASSALS|=+1$"
  ESTIMATE_TAX_LIEGE:0 "[Concept( 'liege', 'Süzerene' )|E] Ödenen: [gold_i]#N -$VALUE|1$#!"
  ESTIMATE_HERD_VASSAL: "[CHARACTER.GetUIName]"
-### TODO AGOT-CHANGED: ESTIMATE_HERD_INFO [AGOT: Total [tax|E] Income: [herd_i]$TOTAL|=+1$\n - [domain|E]: [herd_i]$DOMAIN|=+1$\n - [vassals|E]: [herd_i]$VASSALS|=+1$ | TR: Toplam [tax|E] Geliri: [herd_i]$TOTAL|=+1$\n - [domain|E]: [herd_i]$DOMAIN|=+1$\n - [vassals|E]: [herd_i]$VASSALS|=+1$]
- ESTIMATE_HERD_INFO: "Total [tax|E] Income: [herd_i]$TOTAL|=+1$\n - [domain|E]: [herd_i]$DOMAIN|=+1$\n - [vassals|E]: [herd_i]$VASSALS|=+1$"
-### TODO AGOT-CHANGED: ESTIMATE_HERD_LIEGE [AGOT: Paid to [liege|E]: [herd_i]#N -$VALUE|1$#! | TR: [Concept('liege', 'Süzerene')|E] Ödenen: [herd_i]#N -$VALUE|1$#!]
- ESTIMATE_HERD_LIEGE: "Paid to [liege|E]: [herd_i]#N -$VALUE|1$#!"
+ ESTIMATE_HERD_INFO: "Toplam [tax|E] Geliri: [herd_i]$TOTAL|=+1$\n - [domain|E]: [herd_i]$DOMAIN|=+1$\n - [vassals|E]: [herd_i]$VASSALS|=+1$"
+ ESTIMATE_HERD_LIEGE: "[Concept('liege', 'Süzerene')|E] Ödenen: [herd_i]#N -$VALUE|1$#!"
  ESTIMATE_BARTER_GOODS_SUBJECT: "[CHARACTER.GetUIName]"
  ARMY_MAINTENANCE:0 "Ordu Bakım Masrafı: [gold_i]$VALUE|=+1$"
  BREAKDOWN_ARMY_MAINTENANCE:1 "Toplanmış [armies|E]"
@@ -350,10 +315,8 @@
  GOLD_COST: "[gold_i] $VALUE|0$"
  GOLD_COST_REINFORCE: "[gold_i] $VALUE|2$"
  GOLD_COST_MAINTENANCE: "[gold_i] $VALUE|2$"
-### TODO AGOT-CHANGED: GOLD_COST_LONG [AGOT: Gold: [gold_i] $VALUE|0$ | TR: Altın: [gold_i] $VALUE|0$]
- GOLD_COST_LONG: "Gold: [gold_i] $VALUE|0$"
-### TODO AGOT-CHANGED: GOLD_COST_LONG_MAINTENANCE [AGOT: Gold: [gold_i] $VALUE|2$ | TR: Altın: [gold_i] $VALUE|2$]
- GOLD_COST_LONG_MAINTENANCE: "Gold: [gold_i] $VALUE|2$"
+ GOLD_COST_LONG: "Altın: [gold_i] $VALUE|0$"
+ GOLD_COST_LONG_MAINTENANCE: "Altın: [gold_i] $VALUE|2$"
  GOLD_K:0 "[gold_i] $VALUE|1$B"
  GOLD_TEXT:0 "$VALUE|0$ Altın"
  GOLD_CONCEPT:0 "[gold|E]"
@@ -361,13 +324,11 @@
  GOLD_K_NO_ICON:0 "$VALUE|1$B"
  GOLD_SIMPLE_TOOLTIP:1 "#T [CHARACTER.GetShortUINamePossessive|U] [gold|E]: $VALUE|V0$#!"
  GOLD_WITH_BALANCE_TOOLTIP:0 "#T [gold|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık"
-### TODO AGOT-CHANGED: TREASURY_WITH_BALANCE_TOOLTIP [AGOT: #T [treasury|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month | TR: #T [treasury|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık]
- TREASURY_WITH_BALANCE_TOOLTIP: "#T [treasury|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month"
+ TREASURY_WITH_BALANCE_TOOLTIP: "#T [treasury|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık"
  TREASURY_COST_REINFORCE: "[treasury_i] $VALUE|2$"
  TREASURY_COST_MAINTENANCE: "[treasury_i] $VALUE|2$"
  COST_PER_DAY:0 "/günlük"
-### TODO AGOT-CHANGED: COST_PER_WEEK [AGOT: /week | TR: /haftalık]
- COST_PER_WEEK: "/week"
+ COST_PER_WEEK: "/haftalık"
  COST_PER_MONTH:0 "/aylık"
  COST_PER_YEAR:0 "/yıllık"
  PIETY:0 "[piety_i] $VALUE|0$"
@@ -389,57 +350,41 @@
  PRESTIGE_K:0 "[prestige_i] $VALUE|1$B"
  PRESTIGE_CONCEPT:0 "[prestige|E]"
  PRESTIGE_LEVEL_CONCEPT:0 "[prestige_level|E]"
-### TODO AGOT-CHANGED: NOT_PRESTIGE_LEVEL_CONCEPT [AGOT: Not enough [prestige_level|E] | TR: [prestige_level|E] yeterli değil]
- NOT_PRESTIGE_LEVEL_CONCEPT: "Not enough [prestige_level|E]"
+ NOT_PRESTIGE_LEVEL_CONCEPT: "[prestige_level|E] yeterli değil"
  PRESTIGE_WITH_BALANCE_TOOLTIP:1 "#T [prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [prestige_level|E]: #!$LEVEL$"
  DYNASTY_PRESTIGE:0 "[dynasty_prestige_i] $VALUE|0$"
  DYNASTY_PRESTIGE_COST:0 "[dynasty_prestige_i] $VALUE|0$"
  DYNASTY_PRESTIGE_COST_LONG:0 "İhtişam: [dynasty_prestige_i] $VALUE|0$"
-### TODO AGOT-CHANGED: DYNASTY_PRESTIGE_COST_LONG_MAINTENANCE [AGOT: Renown: [dynasty_prestige_i] $VALUE|2$ | TR: İhtişam: [dynasty_prestige_i] $VALUE|2$]
- DYNASTY_PRESTIGE_COST_LONG_MAINTENANCE: "Renown: [dynasty_prestige_i] $VALUE|2$"
+ DYNASTY_PRESTIGE_COST_LONG_MAINTENANCE: "İhtişam: [dynasty_prestige_i] $VALUE|2$"
  DYNASTY_PRESTIGE_K:0 "[dynasty_prestige_i] $VALUE|1$B"
  DYNASTY_PRESTIGE_CONCEPT:0 "[dynasty_prestige|E]"
  DYNASTY_PRESTIGE_LEVEL_CONCEPT:0 "[dynasty_prestige_level|E]"
-### TODO AGOT-CHANGED: DYNASTY_PRESTIGE_WITH_BALANCE_TOOLTIP [AGOT: #T [dynasty_prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [dynasty_prestige_level|E]: #!$LEVEL$ | TR: #T [dynasty_prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [dynasty_prestige_level|E]: #!$LEVEL$]
- DYNASTY_PRESTIGE_WITH_BALANCE_TOOLTIP: "#T [dynasty_prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [dynasty_prestige_level|E]: #!$LEVEL$"
+ DYNASTY_PRESTIGE_WITH_BALANCE_TOOLTIP: "#T [dynasty_prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [dynasty_prestige_level|E]: #!$LEVEL$"
  INFLUENCE_COST: "[influence_i] $VALUE|0$"
-### TODO AGOT-CHANGED: INFLUENCE_COST_LONG [AGOT: Influence: [influence_i] $VALUE|0$ | TR: Nüfuz: [influence_i] $VALUE|0$]
- INFLUENCE_COST_LONG: "Influence: [influence_i] $VALUE|0$"
-### TODO AGOT-CHANGED: INFLUENCE_COST_LONG_MAINTENANCE [AGOT: Influence: [influence_i] $VALUE|2$ | TR: Nüfuz: [influence_i] $VALUE|2$]
- INFLUENCE_COST_LONG_MAINTENANCE: "Influence: [influence_i] $VALUE|2$"
+ INFLUENCE_COST_LONG: "Nüfuz: [influence_i] $VALUE|0$"
+ INFLUENCE_COST_LONG_MAINTENANCE: "Nüfuz: [influence_i] $VALUE|2$"
  INFLUENCE_CONCEPT: "[influence|E]"
  INFLUENCE_LEVEL_CONCEPT: "[influence_level|E]"
-### TODO AGOT-CHANGED: INFLUENCE_WITH_BALANCE_TOOLTIP [AGOT: #T [influence|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [influence_level|E]: #!$LEVEL$ | TR: #T [influence|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [influence_level|E]: #!$LEVEL$]
- INFLUENCE_WITH_BALANCE_TOOLTIP: "#T [influence|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [influence_level|E]: #!$LEVEL$"
+ INFLUENCE_WITH_BALANCE_TOOLTIP: "#T [influence|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [influence_level|E]: #!$LEVEL$"
  HERD_COST: "[herd_i] $VALUE|0$"
-### TODO AGOT-CHANGED: HERD_COST_LONG [AGOT: Herd: [herd_i] $VALUE|0$ | TR: Sürü: [herd_i] $VALUE|0$]
- HERD_COST_LONG: "Herd: [herd_i] $VALUE|0$"
-### TODO AGOT-CHANGED: HERD_COST_LONG_MAINTENANCE [AGOT: Herd: [herd_i] $VALUE|2$ | TR: Sürü: [herd_i] $VALUE|2$]
- HERD_COST_LONG_MAINTENANCE: "Herd: [herd_i] $VALUE|2$"
+ HERD_COST_LONG: "Sürü: [herd_i] $VALUE|0$"
+ HERD_COST_LONG_MAINTENANCE: "Sürü: [herd_i] $VALUE|2$"
  MERIT_COST: "[merit_i] $VALUE|0$"
-### TODO AGOT-CHANGED: MERIT_COST_LONG [AGOT: Merit: [merit_i] $VALUE|0$ | TR: Liyakat: [merit_i] $VALUE|0$]
- MERIT_COST_LONG: "Merit: [merit_i] $VALUE|0$"
-### TODO AGOT-CHANGED: MERIT_COST_LONG_MAINTENANCE [AGOT: Merit: [merit_i] $VALUE|2$ | TR: Liyakat: [merit_i] $VALUE|2$]
- MERIT_COST_LONG_MAINTENANCE: "Merit: [merit_i] $VALUE|2$"
+ MERIT_COST_LONG: "Liyakat: [merit_i] $VALUE|0$"
+ MERIT_COST_LONG_MAINTENANCE: "Liyakat: [merit_i] $VALUE|2$"
  MERIT_CONCEPT: "[merit|E]"
  MERIT_LEVEL_CONCEPT: "[merit_level|E]"
-### TODO AGOT-CHANGED: NOT_MERIT_LEVEL_CONCEPT [AGOT: Insufficient [merit_level|E] | TR: Yetersiz [merit_level|E]]
- NOT_MERIT_LEVEL_CONCEPT: "Insufficient [merit_level|E]"
-### TODO AGOT-CHANGED: MERIT_WITH_BALANCE_TOOLTIP [AGOT: #T [merit|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [merit_level|E]: #!$LEVEL$ | TR: #T [merit|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [merit_level|E]: #!$LEVEL$]
- MERIT_WITH_BALANCE_TOOLTIP: "#T [merit|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month\n\n#T [merit_level|E]: #!$LEVEL$"
-### TODO AGOT-CHANGED: TREASURY_COST_BREAK [AGOT: Cost [treasury_i] | TR: Maliyet [treasury_i]]
- TREASURY_COST_BREAK: "Cost [treasury_i]"
+ NOT_MERIT_LEVEL_CONCEPT: "Yetersiz [merit_level|E]"
+ MERIT_WITH_BALANCE_TOOLTIP: "#T [merit|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık\n\n#T [merit_level|E]: #!$LEVEL$"
+ TREASURY_COST_BREAK: "Maliyet [treasury_i]"
  TREASURY_COST: "[treasury_i] $VALUE|0$"
-### TODO AGOT-CHANGED: TREASURY_COST_LONG [AGOT: Treasury: [treasury_i] $VALUE|0$ | TR: Hazine: [treasury_i] $VALUE|0$]
- TREASURY_COST_LONG: "Treasury: [treasury_i] $VALUE|0$"
-### TODO AGOT-CHANGED: TREASURY_COST_LONG_MAINTENANCE [AGOT: Treasury: [treasury_i] $VALUE|2$ | TR: Hazine: [treasury_i] $VALUE|2$]
- TREASURY_COST_LONG_MAINTENANCE: "Treasury: [treasury_i] $VALUE|2$"
+ TREASURY_COST_LONG: "Hazine: [treasury_i] $VALUE|0$"
+ TREASURY_COST_LONG_MAINTENANCE: "Hazine: [treasury_i] $VALUE|2$"
  TREASURY_CONCEPT: "[treasury|E]"
  BARTER_GOODS_COST: "[barter_goods_i] $VALUE|0$"
  BARTER_GOODS_COST_MAINTENANCE: "[barter_goods_i] $VALUE|2$"
  BARTER_GOODS_COST_REINFORCE: "[barter_goods_i] $VALUE|2$"
-### TODO AGOT-CHANGED: BARTER_GOODS_WITH_BALANCE_TOOLTIP [AGOT: #T [barter_goods|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month | TR: #T [barter_goods|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık]
- BARTER_GOODS_WITH_BALANCE_TOOLTIP: "#T [barter_goods|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month"
+ BARTER_GOODS_WITH_BALANCE_TOOLTIP: "#T [barter_goods|E]: $VALUE|V0$#!\n$BALANCE|V=1$/aylık"
  NUMBER_OF_MEN_DESC:0 "[soldiers|E]"
  NUMBER_OF_MEN_VALUE:0 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE|0$ #!"
  NUMBER_OF_MEN_VALUE_K:1 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE$ #!"
@@ -455,28 +400,18 @@
  EXPENSES:1 "Aylık Gider"
  LEVIES:1 "[levies|E]:"
  TOTAL_TAX:0 "Toplam Vergi"
-### TODO AGOT-CHANGED: TAXABLE_VASSAL_INCOME [AGOT: Taxable Income | TR: Vergiye Tabi Gelir]
- TAXABLE_VASSAL_INCOME: "Taxable Income"
-### TODO AGOT-CHANGED: TAXABLE_VASSAL_HERD [AGOT: Taxable Herd | TR: Vergiye Tabi Sürü]
- TAXABLE_VASSAL_HERD: "Taxable Herd"
-### TODO AGOT-CHANGED: TAXABLE_VASSAL_PRESTIGE [AGOT: Taxable Prestige | TR: Vergiye Tabi PrestijTaxable Prestige]
- TAXABLE_VASSAL_PRESTIGE: "Taxable Prestige"
-### TODO AGOT-CHANGED: TAXABLE_VASSAL_PIETY [AGOT: Taxable Piety | TR: Vergiye Tabi Dindarlık]
- TAXABLE_VASSAL_PIETY: "Taxable Piety"
-### TODO AGOT-CHANGED: TAXABLE_VASSAL_BARTER_GOODS [AGOT: Taxable Barter Goods | TR: Vergiye Tabi Takas Malları]
- TAXABLE_VASSAL_BARTER_GOODS: "Taxable Barter Goods"
-### TODO AGOT-CHANGED: VASSAL_CONTRIBUTION [AGOT: Contribution | TR: Katkı]
- VASSAL_CONTRIBUTION: "Contribution"
+ TAXABLE_VASSAL_INCOME: "Vergiye Tabi Gelir"
+ TAXABLE_VASSAL_HERD: "Vergiye Tabi Sürü"
+ TAXABLE_VASSAL_PRESTIGE: "Vergiye Tabi PrestijTaxable Prestige"
+ TAXABLE_VASSAL_PIETY: "Vergiye Tabi Dindarlık"
+ TAXABLE_VASSAL_BARTER_GOODS: "Vergiye Tabi Takas Malları"
+ VASSAL_CONTRIBUTION: "Katkı"
  CONTRIBUTABLE_VASSAL_LEVIES:0 "Toplam Milis"
  TOTAL_LEVIES:0 "Sağlanan Milis"
-### TODO AGOT-CHANGED: TOTAL_HERD [AGOT: Contributed Herd | TR: Sağlanan Sürü]
- TOTAL_HERD: "Contributed Herd"
-### TODO AGOT-CHANGED: TOTAL_PRESTIGE [AGOT: Contributed Prestige | TR: Sağlanan Prestij]
- TOTAL_PRESTIGE: "Contributed Prestige"
-### TODO AGOT-CHANGED: TOTAL_PIETY [AGOT: Contributed Piety | TR: Sağlanan Dindarlık]
- TOTAL_PIETY: "Contributed Piety"
-### TODO AGOT-CHANGED: TOTAL_BARTER_GOODS [AGOT: Contributed Barter Goods | TR: Sağlanan Takas Malları]
- TOTAL_BARTER_GOODS: "Contributed Barter Goods"
+ TOTAL_HERD: "Sağlanan Sürü"
+ TOTAL_PRESTIGE: "Sağlanan Prestij"
+ TOTAL_PIETY: "Sağlanan Dindarlık"
+ TOTAL_BARTER_GOODS: "Sağlanan Takas Malları"
  LEVIES_ICON:0 "[soldier_i]"
  OPINION_HEADER:0 "[opinion|E]"
  AUTOSAVE_IN_PROGRESS:1 "Otomatik kaydediliyor..."
@@ -507,8 +442,7 @@
  PAUSED:0 "Duraklatıldı"
  PAUSED_BY_EVENT:1 "#X Olay Tarafından Duraklatıldı: $TITLE$#!"
  PAUSED_BY_TUTORIAL:0 "#X Eğitim Modu Tarafından Duraklatıldı: [TUTORIAL.GetStepName]#!"
-### TODO AGOT-CHANGED: PAUSED_BY_SUCCESSION [AGOT: #X Paused by Succession#! | TR: #X Veraset Tarafından Duraklatıldı#!]
- PAUSED_BY_SUCCESSION: "#X Paused by Succession#!"
+ PAUSED_BY_SUCCESSION: "#X Veraset Tarafından Duraklatıldı#!"
  EXIT:1 "Oyundan Çık"
  EXIT_TO_DESKTOP:0 "Masaüstüne Dön"
  SHOW_LEGACY:1 "Soyu Göster"
@@ -522,13 +456,13 @@
  OPEN_FOR_MULTIPLAYER:0 "Çok Oyunculuya Aç"
  OPEN_LOBBY:1 "Çok Oyunculuya Aç"
  CLOSE_LOBBY:0 "Lobiyi Kapat"
-### TODO AGOT-CHANGED: HOST [AGOT: 0 | TR: Ev Sahibi]
- HOST:0 "Host"
+ host: "Ev Sahibi"
  JOINING_SERVER_PROGRESS:0 "Sunucuya katılınıyor: $PROGRESS|0%$"
  WAITING_SERVER_REPLY:0 "Sunucudan yanıt bekleniyor"
  GENERATING_BOOKMARK_PROGRESS:0 "Dünya oluşturuluyor: $PROGRESS|0%$"
  LOADING_SAVEGAME_PROGRESS:1 "Yükleniyor: $PROGRESS|0%$"
- LOADSCREEN_INITIALIZING_GAME:0 "Oyun Başlatılıyor..."
+### TODO AGOT-CHANGED: LOADSCREEN_INITIALIZING_GAME [AGOT: Unmasking the Secret City... | TR: Oyun Başlatılıyor...]
+ LOADSCREEN_INITIALIZING_GAME:0 "Unmasking the Secret City..."
  SERVER_NAME:0 "$NAME$ Tarafından Kurulan Oyun"
  PLAYERS_ON_SERVER:0 "Sunucudaki oyuncular: İSİM - UNVAN - PİNG"
  PLAYER_ON_SERVER:0 "$NAME$ - $TITLE$ - $PING$"
@@ -550,10 +484,14 @@
  CHARACTER_VALUE_F1:0 "[CHARACTER.GetUIName]: $VALUE|V1$"
  CHARACTER_VALUE_F2:0 "[CHARACTER.GetUIName]: $VALUE|V2$"
  ERROR_ACTION:0 "\n#I Click me and I'll show them to you. Right-click me to clear the error log.#!"
- ERROR_HOOF:1 "I am Errorhoof. I'm here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
- ERROR_HOOF_1:1 "I am Babby Jesus. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
- ERROR_HOOF_2:1 "I am Errobert. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$"
- ERROR_HOOF_3:1 "I am the Bazcat. Sometimes I'm here instead of Errorhoof. Feed me. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
+### TODO AGOT-CHANGED: ERROR_HOOF [AGOT: I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$ | TR: I am Errorhoof. I'm here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
+ ERROR_HOOF:1 "I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$"
+### TODO AGOT-CHANGED: ERROR_HOOF_1 [AGOT: I am Jimhaerys. Sometimes I'm here instead of Pugarion. I'm also here because there are $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$ | TR: I am Babby Jesus. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
+ ERROR_HOOF_1:1 "I am Jimhaerys. Sometimes I'm here instead of Pugarion. I'm also here because there are $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$"
+### TODO AGOT-CHANGED: ERROR_HOOF_2 [AGOT: I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$ | TR: I am Errobert. Sometimes I'm here instead of Errorhoof. I'm also here because there are $ERRORS$ error(s) in your game. $ERROR_ACTION$]
+ ERROR_HOOF_2:1 "I am Pugarion. I'm here because there are $ERRORS$ error(s) to burn in your game. $ERROR_ACTION$"
+### TODO AGOT-CHANGED: ERROR_HOOF_3 [AGOT: I am Jimhaerys. Sometimes I'm here instead of Pugarion. Feed me. There are also $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$ | TR: I am the Bazcat. Sometimes I'm here instead of Errorhoof. Feed me. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$]
+ ERROR_HOOF_3:1 "I am Jimhaerys. Sometimes I'm here instead of Pugarion. Feed me. There are also $ERRORS$ error(s) in your game to consume. $ERROR_ACTION$"
  ERROR_HOOF_4:0 "I am Reconqat. Sometimes I'm here instead of Errorhoof. Don't call it a Reconquista otherwise I'll get sad. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
  ERROR_HOOF_5: "I am Smug Kid. Sometimes I'm here instead of Errorhoof. I'm looking at your error and looking smug about it. There are also $ERRORS$ error(s) in your game. $ERROR_ACTION$"
  ERROR_HOOF_6: "I am Cool Guy. Sometimes I'm here instead of Errorhoof. I'm very cool, but the $ERRORS$ error(s) in your game are not. $ERROR_ACTION$"
@@ -572,8 +510,7 @@
  REMOVE_SCRIPTED_RELATION:0 "$CHAR01$ artık $CHAR02$ ile $RELATION|V$ olmayacak"
  HAS_SCRIPTED_RELATION:0 "$CHAR01$ $CHAR02$ karakterinin $RELATION|V$"
  TITLE_DEFINITE_FORM:0 "$TITLE$"
-### TODO AGOT-CHANGED: DEFAULT_TITLE_NAME_ARTICLE [AGOT: the | TR: ]
- DEFAULT_TITLE_NAME_ARTICLE: "the "
+ DEFAULT_TITLE_NAME_ARTICLE: ""
  DURATION_FOREVER:0 "#V Sonsuza Dek#! "
  DURATION_DATE:0 "[DATE.GetStringShort|V]"
  DURATION_DATE_RANGE:0 "$[DATE_MIN.GetStringShort|V]$ - $[DATE_MAX.GetStringShort|V]$"
@@ -586,10 +523,12 @@
  DAYS_WITH_SPACE:0 " Gün"
  VALUE_DAYS:0 "#V $VALUE$ gün#! "
  MAINTENANCE:0 "Bakım Masrafı"
-### TODO AGOT-CHANGED: BANNER [AGOT: 0 | TR: Afişi]
+### TODO AGOT-CHANGED: BANNER [AGOT: Rally Point | TR: Afişi]
  BANNER:0 "Rally Point"
- SCOPE_CHARACTER:0 "[ROOT.GetCharacter.GetUIName]:"
- SCOPE_CHARACTER_ME:0 "Ben, [ROOT.GetCharacter.GetUIName]:"
+### TODO AGOT-CHANGED: SCOPE_CHARACTER [AGOT: [AGOTGetLongUIName(ROOT.GetCharacter)|V]: | TR: [ROOT.GetCharacter.GetUIName]:]
+ SCOPE_CHARACTER:0 "[AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
+### TODO AGOT-CHANGED: SCOPE_CHARACTER_ME [AGOT: I, [AGOTGetLongUIName(ROOT.GetCharacter)|V]: | TR: Ben, [ROOT.GetCharacter.GetUIName]:]
+ SCOPE_CHARACTER_ME:0 "I, [AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
  SCOPE_LANDED_TITLE:0 "[ROOT.GetLandedTitle.GetName|U]:"
  SCOPE_PROVINCE:0 "[ROOT.GetProvince.GetName]:"
  SCOPE_ACTIVITY:1 "[ROOT.Activity.GetName]:"
@@ -628,7 +567,8 @@
  flag_desc:0 "Flags are simple markers that you can use to trace that something has happened in the game. They have a specific type depending on what kind of scope it was set in (character flag, scheme flag, sC.). The particular scope (for example a particular character) will have the flag set until it is removed by an effect, or until its timer runs out, if a timer was defined for it."
  TODO:0 "TODO: $WHAT$"
  EVENT_SIGNED:0 "İmza,"
- EVENT_SIGNATURE:1 "[CHARACTER.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: EVENT_SIGNATURE [AGOT: [AGOTGetFullNameNoTooltip(CHARACTER)] | TR: [CHARACTER.GetNameNoTooltip]]
+ EVENT_SIGNATURE:1 "[AGOTGetFullNameNoTooltip(CHARACTER)]"
  EVENT_REASON_SEPARATOR:0 ", "
  EVENT_REASON_SKILL:0 "$SKILL$ Becerisi"
  EVENT_REASON_TRAIT:0 "[TRAIT.GetName( CHARACTER.Self )|L] Özelliği"
@@ -656,8 +596,10 @@
  HALF_SISTER:0 "Üvey Kız Kardeşi"
  BROTHER_HUSBAND:0 "Erkek Kardeş-Kocası"
  SISTER_WIFE:0 "Kız Kardeş-Karısı"
- BROTHER_IN_LAW:0 "Eniştesi/Kayınbiraderi"
- SISTER_IN_LAW:0 "Görümcesi/Baldızı"
+### TODO AGOT-CHANGED: BROTHER_IN_LAW [AGOT: [good_brother|E] | TR: Eniştesi/Kayınbiraderi]
+ BROTHER_IN_LAW:0 "[good_brother|E]"
+### TODO AGOT-CHANGED: SISTER_IN_LAW [AGOT: [good_sister|E] | TR: Görümcesi/Baldızı]
+ SISTER_IN_LAW:0 "[good_sister|E]"
  RELATION_CONCUBINE_MAN:0 "$game_concept_concubine_male$si"
  RELATION_CONCUBINE_WOMAN:0 "$game_concept_concubine_female$si"
  PLAYER_HEIR_RELATION:2 "[player_heir|E]"
@@ -672,14 +614,10 @@
  CONCUBINE:0 "Cariyesi"
  HUSBAND:0 "Kocası"
  PRISONER_RELATION:0 "Tutsağı"
-### TODO AGOT-CHANGED: RELATION_HOSTAGE_HOME [AGOT: Hostage from [TARGET_CHARACTER.GetShortUIName] | TR: [TARGET_CHARACTER.GetShortUINameNotMe] tarafından gönderilen Rehinesi]
- RELATION_HOSTAGE_HOME: "Hostage from [TARGET_CHARACTER.GetShortUIName]"
-### TODO AGOT-CHANGED: RELATION_HOSTAGE_AWAY [AGOT: [TARGET_CHARACTER.GetShortUINamePossessive] Hostage | TR: [TARGET_CHARACTER.GetShortUINameNotMe] adlı kişinin Rehinesi]
- RELATION_HOSTAGE_AWAY: "[TARGET_CHARACTER.GetShortUINamePossessive] Hostage"
-### TODO AGOT-CHANGED: RELATION_PRISONER_HOME [AGOT: [TARGET_CHARACTER.GetShortUINamePossessive] Prisoner | TR: [TARGET_CHARACTER.GetShortUINameNotMe] adlı kişinin Tutsağı]
- RELATION_PRISONER_HOME: "[TARGET_CHARACTER.GetShortUINamePossessive] Prisoner"
-### TODO AGOT-CHANGED: RELATION_PRISONER_AWAY [AGOT: Prisoner | TR: Tutsağı]
- RELATION_PRISONER_AWAY: "Prisoner"
+ RELATION_HOSTAGE_HOME: "[TARGET_CHARACTER.GetShortUINameNotMe] tarafından gönderilen Rehinesi"
+ RELATION_HOSTAGE_AWAY: "[TARGET_CHARACTER.GetShortUINameNotMe] adlı kişinin Rehinesi"
+ RELATION_PRISONER_HOME: "[TARGET_CHARACTER.GetShortUINameNotMe] adlı kişinin Tutsağı"
+ RELATION_PRISONER_AWAY: "Tutsağı"
  RELATION_COURT_POSITION:1 "Emrinde [COURT_POSITION.GetName] [COURT_POSITION.GetPositionType.GetTextIcon]"
  RELATION_COMMANDER:0 "Emrinde [commander|E]"
  RELATION_LIEGE_COUNCILLOR:0 "[TARGET_CHARACTER.GetShortUINamePossessive] Konseyinde [CHARACTER.GetCouncilTitle]"
@@ -709,18 +647,15 @@
  TRAIT_LEVEL_TRACK_DEGRADATION_MINIMUM:1 "@warning_icon! #X [trait_level_track_xp|E] her ay $CHANGE|-1$ azalacak #weak (en az $MINIMUM|0$)#!#!"
  TRAIT_CAN_NOT_HAVE_CHILDREN:0 "@warning_icon! #X Çocuk sahibi olamaz#!"
  TRAIT_FLAG_DESC_can_not_marry:0 "@warning_icon! #X Evlenemez#!"
-### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_agent_acceptance_25 [AGOT: [agent|E] Acceptance: #P +25#! | TR: [agent|E] Kabul Edilmesi: #P +25#!]
- TRAIT_FLAG_DESC_agent_acceptance_25: "[agent|E] Acceptance: #P +25#!"
-### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_scheme_start_progress [AGOT: Initial [scheme|E] Progress: #P +3#! | TR: Başlangıçtaki [scheme|E] İlerlemesi: #P +3#!]
- TRAIT_FLAG_DESC_scheme_start_progress: "Initial [scheme|E] Progress: #P +3#!"
-### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_better_war_hostages [AGOT: [war_score|E] from offering [hostages|E]: #P +5#!\nMax [war_score|E] from offering [hostages|E]: #P +10#! | TR: [hostage|E] teklifinden gelen [war_score|E]: #P +5#!\n[hostage|E] tekliflerinden gelebilecek en fazla [war_score|E]: #P +10#!]
- TRAIT_FLAG_DESC_better_war_hostages: "[war_score|E] from offering [hostages|E]: #P +5#!\nMax [war_score|E] from offering [hostages|E]: #P +10#!"
-### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_can_offer_strong_hook_to_agents [AGOT: Can offer potential [agents|E] a [strong_hook|E] | TR: Olası [Concept( 'agents', 'Yardakçılara' )|E], [strong_hook|E] teklif edilebilir]
- TRAIT_FLAG_DESC_can_offer_strong_hook_to_agents: "Can offer potential [agents|E] a [strong_hook|E]"
+ TRAIT_FLAG_DESC_agent_acceptance_25: "[agent|E] Kabul Edilmesi: #P +25#!"
+ TRAIT_FLAG_DESC_scheme_start_progress: "Başlangıçtaki [scheme|E] İlerlemesi: #P +3#!"
+ TRAIT_FLAG_DESC_better_war_hostages: "[hostage|E] teklifinden gelen [war_score|E]: #P +5#!\n[hostage|E] tekliflerinden gelebilecek en fazla [war_score|E]: #P +10#!"
+ TRAIT_FLAG_DESC_can_offer_strong_hook_to_agents: "Olası [Concept( 'agents', 'Yardakçılara' )|E], [strong_hook|E] teklif edilebilir"
  TRAIT_BLOCK_INHERITANCE:0 "@warning_icon! #X Miras yoluyla [title|E] elde edilemez#!"
  TRAIT_FLAVOR_DESC:0 "$DESC|F$"
  FERTILITY_COLON:0 "[fertility|E]: $VALUE|V$"
- BIRTH_DATE:0 "[DATE.GetStringShort|V] tarihinde doğdu"
+### TODO AGOT-CHANGED: BIRTH_DATE [AGOT: Born on [Character.GetBirthDate.GetString|V] | TR: [DATE.GetStringShort|V] tarihinde doğdu]
+ BIRTH_DATE:0 "Born on [Character.GetBirthDate.GetString|V]"
  YEARS_COUNT_SINGULAR:0 "#V 1 yıl#!"
  YEARS_COUNT_PLURAL:0 "#V $VALUE$ yıl#!"
  YEARS_COUNT_SINGULAR_NO_FORMAT:0 "1 yıl"
@@ -745,7 +680,7 @@
  CHARACTER_PORTRAIT_TOOLTIP:0 "[Character.GetFullNameNicknamedNoTooltip]\n[Character.GetDebugTooltip]"
  TOOLTIP_HEADER:0 "#T $NAME$#!"
  ATTACKERS:1 "#attacker_color Saldıranlar#!"
-### TODO AGOT-CHANGED: DEFENDERS [AGOT: 1 | TR: Savunucuları]
+### TODO AGOT-CHANGED: DEFENDERS [AGOT: #defender_color Defenders#! | TR: Savunucuları]
  DEFENDERS:1 "#defender_color Defenders#!"
  ATTACKERS_FRIENDLY:1 "#defender_color Saldıranlar#!"
  DEFENDERS_HOSTILE:1 "#attacker_color Savunanlar#!"
@@ -785,8 +720,7 @@
  VALUE_BREAKDOWN_INDICATOR_NEUTRAL_NONE: "@change_none_neutral!"
  GOVERNMENT_TYPE_DESCRIPTION:0 "[GovernmentType.GetRuleInfo][GovernmentType.GetFlagInfo][GovernmentType.GetDescription]"
  GOVERNMENT_FLAG_INFO:0 "$EFFECT_LIST_BULLET$ $FLAG$"
-### TODO AGOT-CHANGED: GOVERNMENT_IGNORED_DEVELOPMENT [AGOT: $EFFECT_LIST_BULLET$ [development|E] in owned [counties|E] is ignored | TR: $EFFECT_LIST_BULLET$ [Concept( 'counties', 'Kontlukların' )|E] [development|E] seviyesi görmezden gelinir]
- GOVERNMENT_IGNORED_DEVELOPMENT: "$EFFECT_LIST_BULLET$ [development|E] in owned [counties|E] is ignored"
+ GOVERNMENT_IGNORED_DEVELOPMENT: "$EFFECT_LIST_BULLET$ [Concept( 'counties', 'Kontlukların' )|E] [development|E] seviyesi görmezden gelinir"
  DEVELOPMENT_CURRENT_LEVEL:0 "#T Gelişmişlik Seviyesi: $LEVEL|+0$ #!"
  DEVELOPMENT_PROGRESS_TO_LEVEL:1 "[development_growth|E]: $CURRENT|V0$/$THRESHOLD|V0$"
  DEVELOPMENT_PROGRESS:1 "Aylık Değişiklik"
@@ -801,9 +735,12 @@
  BULLET_WITH_TAB:0 "    • "
  BULLET:0 "$EFFECT_LIST_BULLET$"
  MODIFIER_BULLET:0 "$EFFECT_LIST_BULLET$"
+### TODO AGOT-ONLY: TAB [AGOT: ]
  TAB:0 "    "
+### TODO AGOT-ONLY: SHORT_TAB [AGOT: ]
  SHORT_TAB:0 "   "
- HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$-$TITLE$"
+### TODO AGOT-CHANGED: HOUSE_CADET_BRANCH_NAME_FORMAT [AGOT: $DYNASTY$ | TR: $DYNASTY$-$TITLE$]
+ HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$"
  EVENT_OPTION_FLAVOR:0 "#F $TEXT$#!\n"
  CHARACTER_POSS_CHECK:0 ""
  CHARACTER_POSS:0 " adlı kişinin"
@@ -814,16 +751,11 @@
  RESOURCE_MISSING_PIETY:0 "@warning_icon! #X [piety_i] $VALUE|^$ Eksik#!"
  RESOURCE_MISSING_PRESTIGE:0 "@warning_icon! #X [prestige_i] $VALUE|^$ Eksik#!"
  RESOURCE_MISSING_DYNASTY_PRESTIGE:0 "@warning_icon! #X [dynasty_prestige_i] $VALUE|^$ Eksik#!"
-### TODO AGOT-CHANGED: RESOURCE_MISSING_INFLUENCE [AGOT: @warning_icon! #X Missing [influence_i] $VALUE|^$#! | TR: @warning_icon! #X [influence_i] $VALUE|^$ Eksik#!]
- RESOURCE_MISSING_INFLUENCE: "@warning_icon! #X Missing [influence_i] $VALUE|^$#!"
-### TODO AGOT-CHANGED: RESOURCE_MISSING_HERD [AGOT: @warning_icon! #X Missing [herd_i] $VALUE|^$#! | TR: @warning_icon! #X [herd_i] $VALUE|^$ Eksik#!]
- RESOURCE_MISSING_HERD: "@warning_icon! #X Missing [herd_i] $VALUE|^$#!"
-### TODO AGOT-CHANGED: RESOURCE_MISSING_MERIT [AGOT: @warning_icon! #X Missing [merit_i] $VALUE|^$#! | TR: @warning_icon! #X [merit_i] $VALUE|^$ Eksik#!]
- RESOURCE_MISSING_MERIT: "@warning_icon! #X Missing [merit_i] $VALUE|^$#!"
-### TODO AGOT-CHANGED: RESOURCE_MISSING_TREASURY [AGOT: @warning_icon! #X Missing [treasury_i] $VALUE|^$#! | TR: @warning_icon! #X [treasury_i] $VALUE|^$ Eksik#!]
- RESOURCE_MISSING_TREASURY: "@warning_icon! #X Missing [treasury_i] $VALUE|^$#!"
-### TODO AGOT-CHANGED: RESOURCE_MISSING_BARTER_GOODS [AGOT: @warning_icon! #X Missing [barter_goods_i] $VALUE|^$#! | TR: @warning_icon! #X [barter_goods_i] $VALUE|^$ Eksik#!]
- RESOURCE_MISSING_BARTER_GOODS: "@warning_icon! #X Missing [barter_goods_i] $VALUE|^$#!"
+ RESOURCE_MISSING_INFLUENCE: "@warning_icon! #X [influence_i] $VALUE|^$ Eksik#!"
+ RESOURCE_MISSING_HERD: "@warning_icon! #X [herd_i] $VALUE|^$ Eksik#!"
+ RESOURCE_MISSING_MERIT: "@warning_icon! #X [merit_i] $VALUE|^$ Eksik#!"
+ RESOURCE_MISSING_TREASURY: "@warning_icon! #X [treasury_i] $VALUE|^$ Eksik#!"
+ RESOURCE_MISSING_BARTER_GOODS: "@warning_icon! #X [barter_goods_i] $VALUE|^$ Eksik#!"
  BREAKDOWN_MULTIPLICATION_PREFIX:0 "×"
  CLICK_TO_VIEW:0 "#I Görüntülemek için tıklayın#!"
  CLICK_TO_SELECT:0 "#I Seçmek için tıklayın#!"
@@ -842,16 +774,16 @@
  BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE:0 "$KEY$: #P $VALUE|2$#!"
  SCRIPTED_COST_HEADER:0 "#S $TEXT$#!"
  SCRIPTED_COST_NO_DYNAST:1 "Sadece [dynast|E] [dynasty_prestige|E] harcayabilir"
- GAME_DATE_STRING:0 "$DAY$ $MONTH$ $YEAR$"
+### TODO AGOT-CHANGED: GAME_DATE_STRING [AGOT: $DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $DAY$ $MONTH$ $YEAR$]
+ GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
 ### TODO AGOT-CHANGED: GAME_DATE_STRING_SHORT [AGOT: $DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $DAY$ $MONTH_SHORT$ $ERA_BCE$$YEAR$]
  GAME_DATE_STRING_SHORT: "$DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
- GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$"
+### TODO AGOT-CHANGED: GAME_DATE_STRING_SHORT_NO_YEAR [AGOT: $DAY|O$ $MONTH$ | TR: $DAY$ $MONTH_SHORT$]
+ GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY|O$ $MONTH$"
 ### TODO AGOT-CHANGED: GAME_DATE_STRING_LONG [AGOT: $DAY|O$ of $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$ | TR: $MONTH$ Ayının $DAY|O$ Günü, $ERA$$YEAR$]
  GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
-### TODO AGOT-CHANGED: GAME_DATE_STRING_ERA_CE [AGOT: AD | TR: MS]
- GAME_DATE_STRING_ERA_CE: " AD"
-### TODO AGOT-CHANGED: GAME_DATE_STRING_ERA_BCE [AGOT: BC | TR: MÖ]
- GAME_DATE_STRING_ERA_BCE: " BC"
+ GAME_DATE_STRING_ERA_CE: "MS "
+ GAME_DATE_STRING_ERA_BCE: "MÖ "
  CONCEPT_TEXT:0 "[ConceptByKey('$KEY|q$')|E]"
  NOT_IN_DIPLOMATIC_RANGE:0 "Diplomatik Menzil içerisinde değil"
  FIND_CHARACTER:0 "Karakter Ara"
@@ -871,17 +803,13 @@
  mongol_event_troops:0 "Moğol Hordası"
  second_almohad_event_troops:0 "Muvahhidler"
  event_troop_default_name:2 "[ROOT.Char.GetTitledFirstNameNoTooltip] Komutasındaki Askerler"
-### TODO AGOT-CHANGED: CURRENT_SITUATION_TIPS [AGOT: Tips | TR: İpuçları]
- CURRENT_SITUATION_TIPS: "Tips"
+ CURRENT_SITUATION_TIPS: "İpuçları"
  CURRENT_SITUATION_SUGGESTIONS:0 "Öneriler"
  CURRENT_SITUATION_SUGGESTIONS_EMPTY:1 "Şu anda yok"
  CURRENT_SITUATION_HEADER:0 "Mevcut Vaziyet"
-### TODO AGOT-CHANGED: MARK_ALL_READ [AGOT: #T Mark all as read#! | TR: #T Hepsini okunmuş olarak işaretle#!]
- MARK_ALL_READ: "#T Mark all as read#!"
-### TODO AGOT-CHANGED: CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET [AGOT: No [secret|E] that can be used for [blackmail|E] | TR: [blackmail|E] için kullanılabilecek bir [secret|E] yok]
- CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET: "No [secret|E] that can be used for [blackmail|E]"
-### TODO AGOT-CHANGED: CHARACTER_INTERACTION_BLACKMAIL_ALREADY_STRONG_HOOK [AGOT: [CHARACTER.GetShortUIName|U] already [CharHaveHas(CHARACTER)] a [strong_hook|E] on [TARGET_CHARACTER.GetShortUIName|U] | TR: [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ', ' )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'size', 'adlı kişiye' )] karşı zaten bir [Concept( 'strong_hook', 'Güçlü Koza' )|E] sahip[Select_CString( CHARACTER.IsLocalPlayer, 'siniz', '' )]]
- CHARACTER_INTERACTION_BLACKMAIL_ALREADY_STRONG_HOOK: "[CHARACTER.GetShortUIName|U] already [CharHaveHas(CHARACTER)] a [strong_hook|E] on [TARGET_CHARACTER.GetShortUIName|U]"
+ MARK_ALL_READ: "#T Hepsini okunmuş olarak işaretle#!"
+ CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET: "[blackmail|E] için kullanılabilecek bir [secret|E] yok"
+ CHARACTER_INTERACTION_BLACKMAIL_ALREADY_STRONG_HOOK: "[Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ', ' )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'size', 'adlı kişiye' )] karşı zaten bir [Concept( 'strong_hook', 'Güçlü Koza' )|E] sahip[Select_CString( CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  RESET_DISMISSED_BUTTON_TEXT:0 "Sıfırla"
  RESET_DISMISSED_TOOLTIP:1 "#T Sıfırla#!\nKapatılmış $CURRENT_SITUATION_TIPS$i ve Bildirimleri geri getirir.\n\n#I Listeyi sıfırlamak için tıklayın#!"
  CHARACTER_INTERACTION_SAME_REALM_AS:0 "[Concept( 'realm', 'Ülkenizin' )|E] bir parçası olmalı."
@@ -895,32 +823,20 @@
  RENAME_STRING_ENDS_WITH_SPACE:0 "@warning_icon! #X Ad, boşluk ile bitiyor#!"
  RENAME_STRING_ENDS_WITH_SPACE_NAMED:0 "@warning_icon! #X $NAME$ boşluk ile bitiyor#!"
  DEFAULT_TEXT:0 "#D VARSAYILAN METİN#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_NAME [AGOT: Music Player | TR: Müzik Çalar]
- MUSIC_PLAYER_NAME: "Music Player"
+ MUSIC_PLAYER_NAME: "Müzik Çalar"
  MUSIC_PLAYER_VOLUME_VALUE: "[MusicPlayer.GetVolumeString]"
  MUSIC_PLAYER_SETTING_MUSIC_DENSITY_VALUE: "[MusicPlayer.GetMusicDensityString]"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_CATEGORY_ENABLED_CK3 [AGOT: #P $MUSIC_PLAYER_CATEGORY_ENABLED$#! | TR: #P $MUSIC_PLAYER_CATEGORY_ENABLED$#!]
  MUSIC_PLAYER_CATEGORY_ENABLED_CK3: "#P $MUSIC_PLAYER_CATEGORY_ENABLED$#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_CATEGORY_DISABLED_CK3 [AGOT: #X $MUSIC_PLAYER_CATEGORY_DISABLED$#! | TR: #X $MUSIC_PLAYER_CATEGORY_DISABLED$#!]
  MUSIC_PLAYER_CATEGORY_DISABLED_CK3: "#X $MUSIC_PLAYER_CATEGORY_DISABLED$#!"
  MUSIC_PLAYER_CATEGORY_ENABLED_DISABLED_TEXT: "[MusicPlayerCategory.GetName] [SelectLocalization( MusicPlayerCategory.IsEnabled, 'MUSIC_PLAYER_CATEGORY_ENABLED_CK3', 'MUSIC_PLAYER_CATEGORY_DISABLED_CK3' )]"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_NO_CATEGORIES_FOUND [AGOT: #X No music categories can be found.#! | TR: #X Herhangi bir müzik kategorisi bulunamadı.#!]
- MUSIC_PLAYER_NO_CATEGORIES_FOUND: "#X No music categories can be found.#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_NO_TRACKS_FOUND [AGOT: #X No tracks found for this category.#! | TR: #X Bu kategori için şarkı parçası yok.#!]
- MUSIC_PLAYER_NO_TRACKS_FOUND: "#X No tracks found for this category.#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_PLAY_TT [AGOT: Play | TR: Oynat]
- MUSIC_PLAYER_PLAY_TT: "Play"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_PAUSE_TT [AGOT: Pause | TR: Duraklat]
- MUSIC_PLAYER_PAUSE_TT: "Pause"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_DENSITY_TT [AGOT: #T Music Density#!\nControls the balance between full songs, silence, and mood music segments\n\n#bold Intense#! - Mostly full songs playing one after the other, similar to a radio station\n\n#bold Balanced#! - The perfect balance between songs, silence, and mood music segments\n\n#bold Relaxed#! - Mostly mood music segments that provide a calmer experience and less sense of repetition after several hours of playing | TR: #T Müzik Yoğunluğu#!\nTam şarkılar, sessizlik ve tematik müzik arasındaki dengeyi kontrol eder\n\n#bold Yoğun#! - Radyo istasyonu gibi çoğunlukla birbiri ardına çalan tam şarkılar\n\n#bold Dengeli#! - Tam şarkılar, sessizlik ve tematik müzik arasındaki mükemmel denge\n\n#bold Rahat#! - Çoğunlukla tematik müzik. Birkaç saat çaldıktan sonra daha sakin bir deneyim ve daha az tekrar hissi verir.]
- MUSIC_PLAYER_DENSITY_TT: "#T Music Density#!\nControls the balance between full songs, silence, and mood music segments\n\n#bold Intense#! - Mostly full songs playing one after the other, similar to a radio station\n\n#bold Balanced#! - The perfect balance between songs, silence, and mood music segments\n\n#bold Relaxed#! - Mostly mood music segments that provide a calmer experience and less sense of repetition after several hours of playing"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_TRACK_ENABLE_DISABLE_TT [AGOT: Click to [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] [MusicTrack.GetName] | TR: [MusicTrack.GetName] adlı parçayı [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )]mak için tıklayın]
- MUSIC_PLAYER_TRACK_ENABLE_DISABLE_TT: "Click to [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] [MusicTrack.GetName]"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_ENABLE_CATEGORY_TT [AGOT: Click to [SelectLocalization( MusicPlayerCategory.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] the music tracks in #bold [MusicPlayerCategory.GetName]#! | TR: #bold [MusicPlayerCategory.GetName]#! kategorisindeki müzik parçalarını [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )]mak için tıklayın]
- MUSIC_PLAYER_ENABLE_CATEGORY_TT: "Click to [SelectLocalization( MusicPlayerCategory.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] the music tracks in #bold [MusicPlayerCategory.GetName]#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_SELECT_CATEGORY_TT [AGOT: Select to see the music tracks in #bold [MusicPlayerCategory.GetName]#! | TR: #bold [MusicPlayerCategory.GetName]#! kategorisindeki müzik parçalarını görmek için tıklayın]
- MUSIC_PLAYER_SELECT_CATEGORY_TT: "Select to see the music tracks in #bold [MusicPlayerCategory.GetName]#!"
-### TODO AGOT-CHANGED: MUSIC_PLAYER_OPEN_PLAYER_TT [AGOT: #T $MUSIC_PLAYER_OPEN_PLAYER$#! | TR: #T $MUSIC_PLAYER_OPEN_PLAYER$#!]
+ MUSIC_PLAYER_NO_CATEGORIES_FOUND: "#X Herhangi bir müzik kategorisi bulunamadı.#!"
+ MUSIC_PLAYER_NO_TRACKS_FOUND: "#X Bu kategori için şarkı parçası yok.#!"
+ MUSIC_PLAYER_PLAY_TT: "Oynat"
+ MUSIC_PLAYER_PAUSE_TT: "Duraklat"
+ MUSIC_PLAYER_DENSITY_TT: "#T Müzik Yoğunluğu#!\nTam şarkılar, sessizlik ve tematik müzik arasındaki dengeyi kontrol eder\n\n#bold Yoğun#! - Radyo istasyonu gibi çoğunlukla birbiri ardına çalan tam şarkılar\n\n#bold Dengeli#! - Tam şarkılar, sessizlik ve tematik müzik arasındaki mükemmel denge\n\n#bold Rahat#! - Çoğunlukla tematik müzik. Birkaç saat çaldıktan sonra daha sakin bir deneyim ve daha az tekrar hissi verir."
+ MUSIC_PLAYER_TRACK_ENABLE_DISABLE_TT: "[MusicTrack.GetName] adlı parçayı [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )]mak için tıklayın"
+ MUSIC_PLAYER_ENABLE_CATEGORY_TT: "#bold [MusicPlayerCategory.GetName]#! kategorisindeki müzik parçalarını [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )]mak için tıklayın"
+ MUSIC_PLAYER_SELECT_CATEGORY_TT: "#bold [MusicPlayerCategory.GetName]#! kategorisindeki müzik parçalarını görmek için tıklayın"
  MUSIC_PLAYER_OPEN_PLAYER_TT: "#T $MUSIC_PLAYER_OPEN_PLAYER$#!"
  OR:0 " veya "
  OR_LIST:0 ", veya "
@@ -947,86 +863,57 @@
  OFFICER: "[officer|E]"
  OFFICER_PLURAL: "[officers|E]"
  COURT_POSITION_PLURAL: "[court_positions|E]"
-### TODO AGOT-CHANGED: NOBLE_FAMILY [AGOT: [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [noble_family|E] | TR: [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([noble_family|E])]
- NOBLE_FAMILY: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [noble_family|E]"
+ NOBLE_FAMILY: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([noble_family|E])"
  ESTATE_FAMILY: "[Character.GetHouse.GetBaseName]"
  CAMP_LEADER: "[Character.GetFirstNamePossessive]"
  NOMAD: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON_NOMAD', '' )]"
  HERDER: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]"
  KURULTAI: "[kurultai|E]"
-### TODO AGOT-CHANGED: CONFIRM_COMMAND_TITLE [AGOT: Confirm Action | TR: Eylemi Onayla]
- CONFIRM_COMMAND_TITLE: "Confirm Action"
-### TODO AGOT-CHANGED: CONFIRM_COMMAND_TEXT [AGOT: Are you sure you want to do this? | TR: Bunu yapmak istediğinize emin misiniz?]
- CONFIRM_COMMAND_TEXT: "Are you sure you want to do this?"
-### TODO AGOT-CHANGED: CONFIRM_COMMAND_ACCEPT [AGOT: Accept | TR: Kabul Et]
- CONFIRM_COMMAND_ACCEPT: "Accept"
+ CONFIRM_COMMAND_TITLE: "Eylemi Onayla"
+ CONFIRM_COMMAND_TEXT: "Bunu yapmak istediğinize emin misiniz?"
+ CONFIRM_COMMAND_ACCEPT: "Kabul Et"
  realm_chart_perk_same_realm_secrecy: "$realm_charts_perk_name$"
  GAIN_FROM_ALL_TRIBUTARIES: "[tributaries|E]"
  GAIN_FROM_TRIBUTARY: "[CHARACTER.GetShortUIName]"
-### TODO AGOT-CHANGED: LOSS_TO_SUZERAIN [AGOT: Conferred upon [suzerain|E] | TR: [Concept('suzerain', 'Efendiye')|E] Verilen]
- LOSS_TO_SUZERAIN: "Conferred upon [suzerain|E]"
+ LOSS_TO_SUZERAIN: "[Concept('suzerain', 'Efendiye')|E] Verilen"
 ### TODO AGOT-CHANGED: YURT [AGOT: [yurt|E] | TR: Yurdu]
  YURT: "[yurt|E]"
  YURT_BUILDINGS: "[yurt_buildings|E]"
  BASE_HERD_CAPACITY: "[title_tier|E]"
-### TODO AGOT-CHANGED: HERDER_VASSAL_HERD [AGOT: Herd from [herder|E] | TR: [herder|E] Sürüsü]
- HERDER_VASSAL_HERD: "Herd from [herder|E]"
-### TODO AGOT-CHANGED: HERDER_VASSAL_COUNTY [AGOT: Herd from [County.GetName] | TR: [County.GetName] Sürüsü]
- HERDER_VASSAL_COUNTY: "Herd from [County.GetName]"
+ HERDER_VASSAL_HERD: "[herder|E] Sürüsü"
+ HERDER_VASSAL_COUNTY: "[County.GetName] Sürüsü"
  TITLE_NOMAD_NAME_CULTURE_HEAD: "$CULTURE_COLLECTIVE$"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_HOUSE_HEAD [AGOT: $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ | TR: $DYNASTY_NAME$]
- TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM [AGOT: the $CULTURE_COLLECTIVE$ | TR: $CULTURE_COLLECTIVE$]
- TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM [AGOT: the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ | TR: $DYNASTY_NAME$]
- TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME [AGOT: $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #! | TR: $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!]
+ TITLE_NOMAD_NAME_HOUSE_HEAD: "$DYNASTY_NAME$"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_DEFINITE_FORM: "$CULTURE_COLLECTIVE$"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_DEFINITE_FORM: "$DYNASTY_NAME$"
  TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME [AGOT: $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #! | TR: $DYNASTY_NAME$ #F ($BASE_NAME$) #!]
- TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM [AGOT: the $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #! | TR: $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!]
- TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
-### TODO AGOT-CHANGED: TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM [AGOT: the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #! | TR: $DYNASTY_NAME$ #F ($BASE_NAME$) #!]
- TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "the $DYNASTY_NAME$ $CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
-### TODO AGOT-CHANGED: MILITARY_STRENGTH [AGOT: Military Strength: | TR: Askerî Güç:]
- MILITARY_STRENGTH: "Military Strength:"
-### TODO AGOT-CHANGED: COMBINED_MILITARY_STRENGTH [AGOT: Combined Military Strength: | TR: Toplam Askerî Güç:]
- COMBINED_MILITARY_STRENGTH: "Combined Military Strength:"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_GOLD_TO_TREASURY [AGOT: To [treasury|E] | TR: [Concept('treasury', 'Hazineye')|E]]
- BREAKDOWN_ENTRY_GOLD_TO_TREASURY: "To [treasury|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_BASE_TREASURY [AGOT: Tax Contribution | TR: Vergi Katkısı]
- BREAKDOWN_ENTRY_BASE_TREASURY: "Tax Contribution"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TOTAL_TREASURY [AGOT: Total [treasury|E] | TR: Toplam [treasury|E]]
- BREAKDOWN_ENTRY_TOTAL_TREASURY: "Total [treasury|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TO_LIEGE [AGOT: To [liege|E] | TR: [Concept('liege', 'Süzerene')|E]]
- BREAKDOWN_ENTRY_TO_LIEGE: "To [liege|E]"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME: "$DYNASTY_NAME$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_CULTURE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$CULTURE_COLLECTIVE$ #F ($BASE_NAME$) #!"
+ TITLE_NOMAD_NAME_HOUSE_HEAD_WITH_UNDERLYING_NAME_DEFINITE_FORM: "$DYNASTY_NAME$ #F ($BASE_NAME$) #!"
+ MILITARY_STRENGTH: "Askerî Güç:"
+ COMBINED_MILITARY_STRENGTH: "Toplam Askerî Güç:"
+ BREAKDOWN_ENTRY_GOLD_TO_TREASURY: "[Concept('treasury', 'Hazineye')|E]"
+ BREAKDOWN_ENTRY_BASE_TREASURY: "Vergi Katkısı"
+ BREAKDOWN_ENTRY_TOTAL_TREASURY: "Toplam [treasury|E]"
+ BREAKDOWN_ENTRY_TO_LIEGE: "[Concept('liege', 'Süzerene')|E]"
  BREAKDOWN_ENTRY_TREASURY_FROM_LIEGE: "[treasury_vassal_development|E]"
  BREAKDOWN_ENTRY_TREASURY_TO_VASSALS: "[treasury_vassal_development|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_OTHER_SOURCES [AGOT: Other Sources | TR: Diğer Kaynaklar]
- BREAKDOWN_ENTRY_OTHER_SOURCES: "Other Sources"
+ BREAKDOWN_ENTRY_OTHER_SOURCES: "Diğer Kaynaklar"
  BREAKDOWN_ENTRY_VASSAL_SALARY_EXPENSE: "[CHARACTER.GetName]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TREASURY_GOLD_INCOME [AGOT: [treasury|E] Conversion | TR: [treasury|E] Dönüşümü]
- BREAKDOWN_ENTRY_TREASURY_GOLD_INCOME: "[treasury|E] Conversion"
+ BREAKDOWN_ENTRY_TREASURY_GOLD_INCOME: "[treasury|E] Dönüşümü"
  BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET: "[treasury_ministry_budget|E]"
  BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET_BASE: "[treasury_budget_base_rate_short|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET_MULT [AGOT: Budget Multiplier | TR: Bütçe Çarpanı]
- BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET_MULT: "Budget Multiplier"
+ BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET_MULT: "Bütçe Çarpanı"
  BREAKDOWN_ENTRY_TREASURY_MINISTRY_BUDGET_VASSAL: "[CHARACTER.GetPrimaryTitle.GetName]"
  BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET: "[treasury_salary_budget|E]"
  BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET_BASE: "[treasury_budget_base_rate_short|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET_MULT [AGOT: Salary Multiplier | TR: Maaş Çarpanı]
- BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET_MULT: "Salary Multiplier"
+ BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET_MULT: "Maaş Çarpanı"
  BREAKDOWN_ENTRY_TREASURY_SALARY_BUDGET_VASSAL: "[CHARACTER.GetName]"
  BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET: "[treasury_military_budget|E]"
  BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET_BASE: "[treasury_budget_base_rate_short|E]"
-### TODO AGOT-CHANGED: BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET_MULT [AGOT: Budget Multiplier | TR: Bütçe Çarpanı]
- BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET_MULT: "Budget Multiplier"
+ BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET_MULT: "Bütçe Çarpanı"
  BREAKDOWN_ENTRY_TREASURY_MILITARY_BUDGET_VASSAL: "[CHARACTER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: CANT_TICK_UNPAUSED [AGOT: You can't do this when the game is unpaused. | TR: Bunu oyun duraklatılmamışken yapamazsınız.]
- CANT_TICK_UNPAUSED: "You can't do this when the game is unpaused."
-### TODO AGOT-CHANGED: CANT_TICK_OTHER_PLAYER_PAUSED [AGOT: Another player is paused. | TR: Bir başka oyuncu tarafından duraklatılmış.]
- CANT_TICK_OTHER_PLAYER_PAUSED: "Another player is paused."
-### TODO AGOT-CHANGED: CANT_TICK_TEMPORARILY_PAUSED [AGOT: The game is temporarily paused, e.g. due to an event. | TR: Oyun geçici olarak duraklatılmış, örneğin bir olay nedeniyle.]
- CANT_TICK_TEMPORARILY_PAUSED: "The game is temporarily paused, e.g. due to an event."
-### TODO AGOT-CHANGED: CANT_TICK_MUST_BE_PAUSED_OR_SLOWED_DOWN [AGOT: The game must be paused or slowed down. | TR: Oyun duraklatılmalı veya yavaşlatılmalı.]
- CANT_TICK_MUST_BE_PAUSED_OR_SLOWED_DOWN: "The game must be paused or slowed down."
+ CANT_TICK_UNPAUSED: "Bunu oyun duraklatılmamışken yapamazsınız."
+ CANT_TICK_OTHER_PLAYER_PAUSED: "Bir başka oyuncu tarafından duraklatılmış."
+ CANT_TICK_TEMPORARILY_PAUSED: "Oyun geçici olarak duraklatılmış, örneğin bir olay nedeniyle."
+ CANT_TICK_MUST_BE_PAUSED_OR_SLOWED_DOWN: "Oyun duraklatılmalı veya yavaşlatılmalı."

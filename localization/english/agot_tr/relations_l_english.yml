@@ -7,22 +7,15 @@
  bully:1 "[Concept( 'bully', 'Zorbası' )|E]"
  crush:1 "[Concept( 'crush', 'Çocukluk Aşkı' )|E]"
  oaf:0 "#D Budalası (Hidden)#!"
-### TODO AGOT-CHANGED: old_flame [AGOT: #D Old Flame (Hidden)#! | TR: #D Eski aşkı (Gizli)#!]
- old_flame: "#D Old Flame (Hidden)#!"
-### TODO AGOT-CHANGED: grudge [AGOT: [grudge|E] | TR: [Concept( 'grudge', 'Garezi' )|E] var]
- grudge: "[grudge|E]"
-### TODO AGOT-CHANGED: blood_brother [AGOT: [blood_brother|E] | TR: [Concept('blood_brother', 'Kan Kardeşi')|E]]
- blood_brother: "[blood_brother|E]"
-### TODO AGOT-CHANGED: elder [AGOT: [elder|E] | TR: [Concept('elder', 'Bilgesi')|E]]
- elder: "[elder|E]"
-### TODO AGOT-CHANGED: grudge_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [grudge|E] | TR: Bu karaktere karşı [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept( 'grudge', 'Garezi' )|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', '' )] var]
- grudge_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [grudge|E]"
+ old_flame: "#D Eski aşkı (Gizli)#!"
+ grudge: "[Concept( 'grudge', 'Garezi' )|E] var"
+ blood_brother: "[Concept('blood_brother', 'Kan Kardeşi')|E]"
+ elder: "[Concept('elder', 'Bilgesi')|E]"
+ grudge_desc: "Bu karaktere karşı [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept( 'grudge', 'Garezi' )|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', '' )] var"
  lover_desc:0 "Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept( 'lover', 'Sevgili' )|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', 'si' )]"
  soulmate_desc:0 "Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept( 'soulmate', 'Ruh Eşi' )|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', '' )]"
-### TODO AGOT-CHANGED: blood_brother_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [blood_brother|E] | TR: Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('blood_brother', 'Kan Kardeşi')|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', '' )]]
- blood_brother_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [blood_brother|E]"
-### TODO AGOT-CHANGED: elder_desc [AGOT: This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [elder|E] | TR: Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('elder', 'Bilge')|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', 'si' )]]
- elder_desc: "This is [CHARACTER.GetShortUINamePossessiveNoTooltip] [elder|E]"
+ blood_brother_desc: "Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('blood_brother', 'Kan Kardeşi')|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', '' )]"
+ elder_desc: "Bu karakter [Select_CString( CHARACTER.IsLocalPlayer, 'sizin', CHARACTER.GetShortUINameNoTooltip )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('elder', 'Bilge')|E][Select_CString( CHARACTER.IsLocalPlayer, 'niz', 'si' )]"
  FRAME_RELATION_ME:1 "#T Bu sizsiniz#!"
  FRAME_RELATION_MY_HEIR:2 "#T Bu sizin [Concept( 'player_heir', 'Oyuncu Vârisiniz' )|E]#!"
  FRAME_RELATION_MY_LIEGE:0 "#T Bu sizin [Concept( 'liege', 'Süzereniniz' )|E]#!"
@@ -50,38 +43,25 @@
  FRAME_RELATION_POWERFUL_VASSAL:1 "#T Önemli Vasal#!\nBu [ruler|E] sizden herhangi bir beklentisi olmayan bir [powerful_vassal|E]"
  FRAME_RELATION_HAPPY_POWERFUL_VASSAL:1 "#T Önemli Vasal#!\nBu [ruler|E] [Concept( 'council', 'Konseydeki' )|E] koltuğunu koruma beklentisine sahip bir [powerful_vassal|E] "
  FRAME_RELATION_UNAHAPPY_POWERFUL_VASSAL:2 "#T Önemli Vasal#!\n@warning_icon! #X Bu [ruler|E] [Concept( 'council', 'Konseyde' )|E] koltuk sahibi olmaması sebebiyle size karşı olan [Concept( 'opinion', 'Görüşü' )|E] azalmış bir [powerful_vassal|E]#!"
-### TODO AGOT-CHANGED: FRAME_RELATION_POWERFUL_FAMILY [AGOT: #T Head of Powerful Family#!\nThis [character|E] is the [house_head|E] of a [powerful_family|E] - [house|E] [Character.GetHouse.GetName] | TR: #T Önemli Ailenin Reisi#!\nBu [character|E], bir [Concept( 'powerful_family', 'Önemli Ailenin' )|E] [house_head|E] - [Character.GetHouse.GetName] [Concept( 'house', 'Hanesi' )|E]]
- FRAME_RELATION_POWERFUL_FAMILY: "#T Head of Powerful Family#!\nThis [character|E] is the [house_head|E] of a [powerful_family|E] - [house|E] [Character.GetHouse.GetName]"
-### TODO AGOT-CHANGED: FRAME_RELATION_DOMINANT_FAMILY [AGOT: #T Head of Dominant Family#!\nThis [character|E] is the [house_head|E] of a [dominant_family|E] - [house|E] [Character.GetHouse.GetName] | TR: #T Baskın Ailenin Reisi#!\nBu [character|E], bir [Concept( 'dominant_family', 'Baskın Ailenin' )|E] [house_head|E] - [Character.GetHouse.GetName] [Concept( 'house', 'Hanesi' )|E]]
- FRAME_RELATION_DOMINANT_FAMILY: "#T Head of Dominant Family#!\nThis [character|E] is the [house_head|E] of a [dominant_family|E] - [house|E] [Character.GetHouse.GetName]"
-### TODO AGOT-CHANGED: FRAME_RELATION_TRIBUTARY [AGOT: #T [SubjectContract.GetContractGroup.GetNameNoTooltip]#!\nThis [ruler|E] is your [tributary|E] | TR: #T [SubjectContract.GetContractGroup.GetNameNoTooltip]#!\nBu [ruler|E] sizin [Concept('tributary', 'Haraçgüzarınız')|E]]
- FRAME_RELATION_TRIBUTARY: "#T [SubjectContract.GetContractGroup.GetNameNoTooltip]#!\nThis [ruler|E] is your [tributary|E]"
-### TODO AGOT-CHANGED: FRAME_RELATION_OBEDIENT [AGOT: [Character.GetShortUIName|U] [CharAreIs(CHARACTER)] obedient to [TARGET_CHARACTER.GetShortUIName]. | TR: [Character.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Size', ' için' )] itaatkâr.]
- FRAME_RELATION_OBEDIENT: "[Character.GetShortUIName|U] [CharAreIs(CHARACTER)] obedient to [TARGET_CHARACTER.GetShortUIName]."
-### TODO AGOT-CHANGED: FRAME_RELATION_NO_OBEDIENCE [AGOT: [Character.GetShortUIName|U] [Select_CString( Character.IsLocalPlayer, 'obey', 'obeys' )] no one. | TR: [Character.GetShortUIName|U] kimseye itaat etmiyor[Select_CString( Character.IsLocalPlayer, 'sunuz', '' )]]
- FRAME_RELATION_NO_OBEDIENCE: "[Character.GetShortUIName|U] [Select_CString( Character.IsLocalPlayer, 'obey', 'obeys' )] no one."
+ FRAME_RELATION_POWERFUL_FAMILY: "#T Önemli Ailenin Reisi#!\nBu [character|E], bir [Concept( 'powerful_family', 'Önemli Ailenin' )|E] [house_head|E] - [Character.GetHouse.GetName] [Concept( 'house', 'Hanesi' )|E]"
+ FRAME_RELATION_DOMINANT_FAMILY: "#T Baskın Ailenin Reisi#!\nBu [character|E], bir [Concept( 'dominant_family', 'Baskın Ailenin' )|E] [house_head|E] - [Character.GetHouse.GetName] [Concept( 'house', 'Hanesi' )|E]"
+ FRAME_RELATION_TRIBUTARY: "#T [SubjectContract.GetContractGroup.GetNameNoTooltip]#!\nBu [ruler|E] sizin [Concept('tributary', 'Haraçgüzarınız')|E]"
+ FRAME_RELATION_OBEDIENT: "[Character.GetShortUIName|U], [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Size', ' için' )] itaatkâr."
+ FRAME_RELATION_NO_OBEDIENCE: "[Character.GetShortUIName|U] kimseye itaat etmiyor[Select_CString( Character.IsLocalPlayer, 'sunuz', '' )]"
  FRAME_DYNAST:0 "#T [dynast|E]#!\n$TT_DYNAST_DESC$"
  FRAME_HEAD_OF_HOUSE:0 "#T [house|E] Reisi#!\n$TT_HOUSE_HEAD_DESC$"
  FRAME_HOUSE_BASTARD:0 "#T [bastard|E]#!"
  FRAME_LEGITIMIZED_HOUSE_BASTARD:0 "#T Meşrulaştırılmış [bastard|E]#!"
  mother_ma:0 "anne"
  father_pa:0 "baba"
-### TODO AGOT-CHANGED: mother_mum [AGOT: mum | TR: anne]
- mother_mum: "mum"
-### TODO AGOT-CHANGED: father_dad [AGOT: dad | TR: baba]
- father_dad: "dad"
-### TODO AGOT-CHANGED: stammer_m [AGOT: m | TR: a]
- stammer_m: "m"
-### TODO AGOT-CHANGED: stammer_f [AGOT: f | TR: b]
- stammer_f: "f"
+ mother_mum: "anne"
+ father_dad: "baba"
+ stammer_m: "a"
+ stammer_f: "b"
  lass:0 "kız"
  lad:0 "delikanlı"
  my:0 "benim"
-### TODO AGOT-CHANGED: consort_husband [AGOT: husband | TR: kocası]
- consort_husband: "husband"
-### TODO AGOT-CHANGED: consort_betrothed [AGOT: betrothed | TR: nişanlısı]
- consort_betrothed: "betrothed"
-### TODO AGOT-CHANGED: consort_soulmate [AGOT: soulmate | TR: ruh arkadaşı]
- consort_soulmate: "soulmate"
-### TODO AGOT-CHANGED: consort_lover [AGOT: lover | TR: sevgilisi]
- consort_lover: "lover"
+ consort_husband: "kocası"
+ consort_betrothed: "nişanlısı"
+ consort_soulmate: "ruh arkadaşı"
+ consort_lover: "sevgilisi"

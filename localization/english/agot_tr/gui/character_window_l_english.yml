@@ -21,8 +21,7 @@
  CHARACTER_VIEW_AGE_TT: "[Character.GetDeathOrBirthDateInfo]"
  CHARACTER_VIEW_ALIVE_TT: "[Character.GetHealthInfo]"
  IMPRISONED_BY:0 "[Concept( 'jailor', 'Hapseden @crime_icon!' )|E]"
-### TODO AGOT-CHANGED: WARDEN_OF [AGOT: [Concept( 'warden', 'Warden @hostage_icon!' )|E] | TR: [Concept( 'warden', 'Koruyucusu @hostage_icon!' )|E]]
- WARDEN_OF: "[Concept( 'warden', 'Warden @hostage_icon!' )|E]"
+ WARDEN_OF: "[Concept( 'warden', 'Koruyucusu @hostage_icon!' )|E]"
  SKILLS:0 "[skills|E]"
  TRAITS:0 "[traits|E]"
  CLAIMS:0 "[claims|E]"
@@ -38,48 +37,37 @@
  CV_REALM_TYPE_LANDED: "[Character.GetGovernment.GetAdjective] [Character.GetPrimaryTitle.GetRankConcept]"
  CV_REALM_TYPE_HOLY_ORDER: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([ROOT.Char.GetFaith.GetAdjective])"
  CV_REALM_TYPE_MERCENARY: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )]"
-### TODO AGOT-CHANGED: CV_REALM_TYPE_HOF [AGOT: [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [vassal|E] ([head_of_faith|E]) | TR: [SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [Concept( 'vassal', 'Vasalı' )|E] ([head_of_faith|E])]
- CV_REALM_TYPE_HOF: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [vassal|E] ([head_of_faith|E])"
+ CV_REALM_TYPE_HOF: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [Concept( 'vassal', 'Vasalı' )|E] ([head_of_faith|E])"
  CV_REALM_TYPE_HOF_LANDED: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] ([head_of_faith|E])"
  CV_CIVIL_WAR_FACTION:0 "[Concept( 'civil_war', 'İç Savaştaki' )|E] [faction|E]"
  CV_DIPLOMACY:0 "Diplomasi"
-### TODO AGOT-CHANGED: CV_DIPLOMACY_SHOW_TT [AGOT: #I Click to expand diplomacy items, and toggle diplomatic relations map mode#! | TR: #I Diplomasiyi genişletmek ve diplomatik ilişkiler harita modunu açmak için tıklayın#!]
- CV_DIPLOMACY_SHOW_TT: "#I Click to expand diplomacy items, and toggle diplomatic relations map mode#!"
-### TODO AGOT-CHANGED: CV_DIPLOMACY_HIDE_TT [AGOT: #I Click to hide expanded diplomacy items, and toggle diplomatic relations map mode#! | TR: #I Genişletilmiş diplomasiyi gizlemek ve diplomatik ilişkiler harita modunu kapatmak için tıklayın#!]
- CV_DIPLOMACY_HIDE_TT: "#I Click to hide expanded diplomacy items, and toggle diplomatic relations map mode#!"
+ CV_DIPLOMACY_SHOW_TT: "#I Diplomasiyi genişletmek ve diplomatik ilişkiler harita modunu açmak için tıklayın#!"
+ CV_DIPLOMACY_HIDE_TT: "#I Genişletilmiş diplomasiyi gizlemek ve diplomatik ilişkiler harita modunu kapatmak için tıklayın#!"
  CV_CLAIMS:1 "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claim|E]"
  CV_CLAIMS_NOCOUNT:0 "[claims|E]"
  CV_CLAIMS_SINGULAR:10 "[GetDataModelSize(CharacterWindow.GetClaims)|V] [claim|E]"
  CV_CLAIMS_SHOW_TT:1 "#I [Concept( 'claims', 'Hak İddialarını' )|E] genişletmek için tıklayın#!"
  CV_CLAIMS_HIDE_TT:1 "#I Genişletilmiş [Concept( 'claims', 'Hak İddialarını' )|E] gizlemek için tıklayın#!"
-### TODO AGOT-CHANGED: CHARACTER_WINDOW_MODIFIERS_SHOW_TT [AGOT: #I Click to expand [modifiers|E]#! | TR: #I [Concept( 'modifiers', 'Etkilerini' )|E] genişletmek için tıklayın#!]
- CHARACTER_WINDOW_MODIFIERS_SHOW_TT: "#I Click to expand [modifiers|E]#!"
-### TODO AGOT-CHANGED: CHARACTER_WINDOW_MODIFIERS_HIDE_TT [AGOT: #I Click to hide expanded [modifiers|E]#! | TR: #I [Concept( 'modifiers', 'Etkilerini' )|E] gizlemek için tıklayın#!]
- CHARACTER_WINDOW_MODIFIERS_HIDE_TT: "#I Click to hide expanded [modifiers|E]#!"
+ CHARACTER_WINDOW_MODIFIERS_SHOW_TT: "#I [Concept( 'modifiers', 'Etkilerini' )|E] genişletmek için tıklayın#!"
+ CHARACTER_WINDOW_MODIFIERS_HIDE_TT: "#I [Concept( 'modifiers', 'Etkilerini' )|E] gizlemek için tıklayın#!"
  CHARACTER_WINDOW_MODIFIERS: "[SelectLocalization( CharacterWindow.AreModifiersExpanded, 'CHARACTER_WINDOW_MODIFIERS_HIDE_TT', 'CHARACTER_WINDOW_MODIFIERS_SHOW_TT' )]"
  CHARACTER_WINDOW_EXTRA_MODIFIERS: "+[CharacterWindow.GetExtraModifiersNumber]"
  SEXUALITY_TT:2 "#T Cinsel Yönelimi: [Character.GetSexuality]#!\nCinsiyet: [Select_CString( Character.IsFemale, 'Kadın', 'Erkek' )]"
-### TODO AGOT-CHANGED: HAS_STRONG_CLAIM_ON [AGOT: #T [TITLE.GetBaseNameNoTooltip]#!\n@pressed_claim![pressed_claim|E] | TR: #T [TITLE.GetBaseNameNoTooltip]#!\n@pressed_claim![pressed_claim|E]]
  HAS_STRONG_CLAIM_ON: "#T [TITLE.GetBaseNameNoTooltip]#!\n@pressed_claim![pressed_claim|E]"
-### TODO AGOT-CHANGED: HAS_WEAK_CLAIM_ON [AGOT: #T [TITLE.GetBaseNameNoTooltip]#!\n@unpressed_claim![unpressed_claim|E] | TR: #T [TITLE.GetBaseNameNoTooltip]#!\n@unpressed_claim![unpressed_claim|E]]
  HAS_WEAK_CLAIM_ON: "#T [TITLE.GetBaseNameNoTooltip]#!\n@unpressed_claim![unpressed_claim|E]"
-### TODO AGOT-CHANGED: HAS_IMPLICIT_CLAIM_ON [AGOT: #T [TITLE.GetBaseNameNoTooltip]#!\n[implicit_claim|E] | TR: #T [TITLE.GetBaseNameNoTooltip]#!\n[implicit_claim|E]]
  HAS_IMPLICIT_CLAIM_ON: "#T [TITLE.GetBaseNameNoTooltip]#!\n[implicit_claim|E]"
  CHARACTER_TT_NAME_AGE:0 "[Character.GetUINameNotMeNoTooltip]#medium , [Character.GetAge]#!"
  CHARACTER_TT_NAME:0 "[Character.GetUINameNotMeNoTooltip]"
  CHARACTER_TT_AGE:0 "[Character.GetAge] yaşında"
-### TODO AGOT-CHANGED: CV_TRAITS_SHOW_TT [AGOT: #I Click to expand [traits|E] items#! | TR: #I [Concept('traits', 'Özellikleri')|E] genişletmek için tıklayın#!]
- CV_TRAITS_SHOW_TT: "#I Click to expand [traits|E] items#!"
-### TODO AGOT-CHANGED: CV_TRAITS_HIDE_TT [AGOT: #I Click to hide expanded [traits|E] items#! | TR: #I Genişletilmiş [Concept('traits', 'Özellikleri')|E] gizlemek için tıklayın#!]
- CV_TRAITS_HIDE_TT: "#I Click to hide expanded [traits|E] items#!"
+ CV_TRAITS_SHOW_TT: "#I [Concept('traits', 'Özellikleri')|E] genişletmek için tıklayın#!"
+ CV_TRAITS_HIDE_TT: "#I Genişletilmiş [Concept('traits', 'Özellikleri')|E] gizlemek için tıklayın#!"
  COURTIERS:0 "[SelectLocalization( IsLandlessAdventurer( Character ), 'Takipçiler', 'Saray Mensupları')]"
  CV_UNLANDED:0 "[unlanded|E]"
  CV_TAB_FAMILY:0 "Aile"
  CV_TAB_RELATIONS:0 "İlişkiler"
  CV_TAB_COURT:2 "[SelectLocalization( IsLandlessAdventurer( Character ), 'Takipçiler', 'Saray Mensupları')]"
  CV_TAB_SECRETS:0 "Sırlar"
-### TODO AGOT-CHANGED: CV_TAB_SUBJECTS [AGOT: Subjects | TR: Tebaa]
- CV_TAB_SUBJECTS: "Subjects"
+ CV_TAB_SUBJECTS: "Tebaa"
  CV_NO_SECRETS:0 "#weak Bilinen [Concept( 'secret', 'Sırrı' )|E] yok#!"
  CV_NO_RELATIONS:0 "#weak İlişkisi yok#!"
  CV_NO_COURT:0 "#weak [court|E]ı yok#!"
@@ -97,8 +85,7 @@
  LOVERS_LABEL:0 "Sevgilileri"
  FRIENDS_LABEL:0 "Arkadaşları"
  RIVALS_LABEL:0 "Rakipleri"
-### TODO AGOT-CHANGED: GRUDGES_LABEL [AGOT: Grudges | TR: Garezleri]
- GRUDGES_LABEL: "Grudges"
+ GRUDGES_LABEL: "Garezleri"
  CRUSHES_LABEL:0 "Âşık Oldukları" #ragn
  BULLIES_LABEL:0 "Zorbaları"
  VICTIMS_LABEL:0 "Kurbanları"
@@ -152,10 +139,8 @@
  HAS_LEASE_APPROVAL_FROM_OPINION:0 "[CHARACTER.GetShortUINamePossessive] size karşı [Concept( 'opinion', 'görüşü' )|E] $THRESHOLD|+=$ veya daha fazla"
  HAS_NO_LEASE_APPROVAL:0 "[CHARACTER.GetShortUINamePossessive] size karşı [Concept( 'opinion', 'görüşü' )|E] $THRESHOLD|+=$ veya daha az"
  HAS_NO_LEASE_APPROVAL_CAN_HOOK:0 "[CHARACTER.GetShortUINamePossessive] size karşı [Concept( 'opinion', 'görüşü' )|E] $THRESHOLD|+=$ veya daha az ve onun üzerinde $TYPE$ sahibi değilsiniz"
-### TODO AGOT-CHANGED: THEOCRACY_LESSEE_APPROVAL_ENDORSE [AGOT: #T Your [realm_priest|E] endorses you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E] | TR: #T [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] sizi destekliyor#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: Aylık [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=] (aylık maksimum [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=] olabilir)\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (maksimum [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] olabilir)\n\n$REASON$, bunun sayesinde kendisinin [church_property|E]nden Gelir ve Milis elde ediyorsunuz]
- THEOCRACY_LESSEE_APPROVAL_ENDORSE: "#T Your [realm_priest|E] endorses you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/month (out of possible [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/month )\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (out of possible [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] )\n\nSince $REASON$, you gain Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
-### TODO AGOT-CHANGED: THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE [AGOT: #T Your [realm_priest|E] does #emphasis not#! endorse you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E] | TR: #T [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] sizi #emphasis desteklemiyor#!#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\n$REASON$, bu nedenle kendisinin [church_property|E]nden Gelir ve Milis elde etmiyorsunuz]
- THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Your [realm_priest|E] does #emphasis not#! endorse you#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\nSince $REASON$, you gain no Levies and Taxes from [CHARACTER.GetHerHis] [church_property|E]"
+ THEOCRACY_LESSEE_APPROVAL_ENDORSE: "#T [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] sizi destekliyor#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: Aylık [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=] (aylık maksimum [gold_i][TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=] olabilir)\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (maksimum [soldier_i][TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V] olabilir)\n\n$REASON$, bunun sayesinde kendisinin [church_property|E]nden Gelir ve Milis elde ediyorsunuz"
+ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T [Concept( 'realm_priest', 'Ülke Rahibiniz' )|E] sizi #emphasis desteklemiyor#!#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\n$REASON$, bu nedenle kendisinin [church_property|E]nden Gelir ve Milis elde etmiyorsunuz"
  THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD:0 "[CHARACTER.GetShortUINameNoTooltip] tarafından kiralanan unvanlardan aşağıdakini alıyorum:\n[taxes|E]: Aylık [gold_i][TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]\n[levies|E]: [soldier_i][TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
  CV_THEOCRACY_LESSEE_TOOLTIP:0 "#T [church_property|E]#!\n[Character.GetNumTitlesFromTheocraticLease] Tapınak\n\n[taxes|E]: Aylık [gold_i][Character.GetIncomeFromTheocraticLease|1+=]\n[Character.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [soldier_i][Character.GetLeviesFromTheocraticLease|V]\n[Character.GetLeviesBreakdownFromTheocraticLease]"
  CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP:0 "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: Aylık [gold_i][Character.GetIncomeAsReligiousHead|1+=]\n[Character.GetIncomeBreakdownAsReligiousHead]"
@@ -188,8 +173,10 @@
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T [spouse|E] Bul\n#!Kendinize bir [marriage|E] düzenleyin\n\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T [spouse|E] Bul\n#!Bir [marriage|E] düzenleyin"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T İleri: [spouse|E] Bul#!"
- CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T İleri: [CHARACTER.GetUIName]#!"
- CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Geri: [CHARACTER.GetUIName]#!"
+### TODO AGOT-CHANGED: CHARACTER_WINDOW_GOTO_NEXT_SPOUSE [AGOT: #T Next: [AGOTGetLongUIName(CHARACTER)|V]#! | TR: #T İleri: [CHARACTER.GetUIName]#!]
+ CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Next: [AGOTGetLongUIName(CHARACTER)|V]#!"
+### TODO AGOT-CHANGED: CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE [AGOT: #T Previous: [AGOTGetLongUIName(CHARACTER)|V]#! | TR: #T Geri: [CHARACTER.GetUIName]#!]
+ CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Previous: [AGOTGetLongUIName(CHARACTER)|V]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T Geri: [spouse|E] Bul#!"
  CHARACTER_WINDOW_GOTO_DIARCH:0 "#T İleri: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
  CV_CUSTOMIZE_PORTRAIT:0 "#I Berberi açmak için tıklayın#!"
@@ -204,23 +191,15 @@
  FIND_SPOUSE:0 "[spouse|E] Bul"
  KNOWN_LANGUAGES_TOOLTIP:1 "#T Bildiği [languages|E]#!\n[Character.GetKnownLanguagesString]\n\n#weak Şu anki [language_limit|E]: [Character.MakeScope.ScriptValue('current_extra_languages')|V0]/[Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
  REQUEST_CONTRIBUTION_TOOLTIP: "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]"
-### TODO AGOT-CHANGED: REQUEST_CONTRIBUTION_ERROR_TOOLTIP [AGOT: @warning_icon! [great_project_contributor|E] cannot be selected until all requirements for the [contribution|E] are fulfilled | TR: @warning_icon! [Concept('contribution', 'Katkının')|E] tüm şartları sağlanmadıkça [great_project_contributor|E] seçilemez]
- REQUEST_CONTRIBUTION_ERROR_TOOLTIP: "@warning_icon! [great_project_contributor|E] cannot be selected until all requirements for the [contribution|E] are fulfilled"
+ REQUEST_CONTRIBUTION_ERROR_TOOLTIP: "@warning_icon! [Concept('contribution', 'Katkının')|E] tüm şartları sağlanmadıkça [great_project_contributor|E] seçilemez"
  EXTENDED_RELATIONS_TOOLTIP:0 "[Character.GetRelationToStringExtended( GetPlayer )]"
  CHARACTER_WINDOW_LEGITIMACY_LEVEL: "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
-### TODO AGOT-CHANGED: DIARCH_ICON_TOOLTIP [AGOT: #T Active [power_sharing|E]\n#![Character.GetShortUIName|U] [CharAreIs(Character)] [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle] | TR: #T Aktif [power_sharing|E]\n#![Character.GetShortUIName|U], [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle]]
- DIARCH_ICON_TOOLTIP: "#T Active [power_sharing|E]\n#![Character.GetShortUIName|U] [CharAreIs(Character)] [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle]"
-### TODO AGOT-CHANGED: RADIANCE_TOOLTIP_HEADER [AGOT: [mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#! | TR: [mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!]
+ DIARCH_ICON_TOOLTIP: "#T Aktif [power_sharing|E]\n#![Character.GetShortUIName|U], [Character.GetLiege.GetShortUINamePossessive] [Character.GetLiege.GetDiarchTitle]"
  RADIANCE_TOOLTIP_HEADER: "[mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!"
-### TODO AGOT-CHANGED: RADIANCE_TOOLTIP_DISABLED [AGOT: @warning_icon! #WARNING Character must have the #HIGH $building_mandala_capital_01$#! [great_building|E] or higher in order to have [mandala_radiance|E]#! | TR: @warning_icon! #WARNING [Concept('mandala_radiance', 'Mandala Haşmetine')|E] sahip olmaları için Karakterlerin #HIGH $building_mandala_capital_01$#! [Concept('great_building', 'Büyük Binasına')|E] veya daha üstüne sahip olmaları gerekir#!]
- RADIANCE_TOOLTIP_DISABLED: "@warning_icon! #WARNING Character must have the #HIGH $building_mandala_capital_01$#! [great_building|E] or higher in order to have [mandala_radiance|E]#!"
+ RADIANCE_TOOLTIP_DISABLED: "@warning_icon! #WARNING [Concept('mandala_radiance', 'Mandala Haşmetine')|E] sahip olmaları için Karakterlerin #HIGH $building_mandala_capital_01$#! [Concept('great_building', 'Büyük Binasına')|E] veya daha üstüne sahip olmaları gerekir#!"
  MANDALA_ASPECT_DESC: "[mandala_aspect|E]"
  ROSE_FROM_THE_ASHES: "[GetModifier('mandala_rise_from_the_ashes_modifier').GetNameWithTooltip]"
-### TODO AGOT-CHANGED: I_AM_A_TRIBUTARY_OF_A_MANDALA [AGOT: [tributary|E] of a God King | TR: Tanrı Kralın [Concept('tributary', 'Haraçgüzarı')|E]]
- I_AM_A_TRIBUTARY_OF_A_MANDALA: "[tributary|E] of a God King"
-### TODO AGOT-CHANGED: I_AM_A_VASSAL [AGOT: I am a [vassal|E] | TR: Ben bir [Concept('vassal', 'Vasalım')|E]]
- I_AM_A_VASSAL: "I am a [vassal|E]"
-### TODO AGOT-CHANGED: TARNISHED_MANDALA [AGOT: Recently lost a war of tyranny | TR: Yakın zamanda tiranlığa karşı savaş kaybedildi]
- TARNISHED_MANDALA: "Recently lost a war of tyranny"
-### TODO AGOT-CHANGED: RUINED_MANDALA_CAPITAL [AGOT: #WARNING #HIGH $building_type_mandala_capital_01$#! is [ruined|E]#! | TR: #WARNING #HIGH $building_type_mandala_capital_01$#! bir [ruined|E]#!]
- RUINED_MANDALA_CAPITAL: "#WARNING #HIGH $building_type_mandala_capital_01$#! is [ruined|E]#!"
+ I_AM_A_TRIBUTARY_OF_A_MANDALA: "Tanrı Kralın [Concept('tributary', 'Haraçgüzarı')|E]"
+ I_AM_A_VASSAL: "Ben bir [Concept('vassal', 'Vasalım')|E]"
+ TARNISHED_MANDALA: "Yakın zamanda tiranlığa karşı savaş kaybedildi"
+ RUINED_MANDALA_CAPITAL: "#WARNING #HIGH $building_type_mandala_capital_01$#! bir [ruined|E]#!"

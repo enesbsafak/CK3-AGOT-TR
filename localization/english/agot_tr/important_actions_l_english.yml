@@ -21,9 +21,6 @@
  MAX_MILITARY_STRENGTH_TRIGGER:0 "Maksimum Askerî Güç: $VALUE|+0=$"
  IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName|U] adlı kişiyi ilgilendiren bir savaşta kuşatma ordusunda"
  RAID_LOOT_TRIGGER:0 "[raid|E] [Concept('loot', 'Ganimeti')|E]: $COMPARATOR$ $NUM|V0$"
-### TODO AGOT-CHANGED: IS_OCCUPIED_TRIGGER [AGOT: Holding is [occupied|E] | TR: Yerleşim [occupied|E]]
- IS_OCCUPIED_TRIGGER: "Holding is [occupied|E]"
-### TODO AGOT-CHANGED: ARMY_SUPPLY_TRIGGER [AGOT: [supply|E] is: $COMPARATOR$ $NUM|V0$ | TR: [supply|E]: $COMPARATOR$ $NUM|V0$]
- ARMY_SUPPLY_TRIGGER: "[supply|E] is: $COMPARATOR$ $NUM|V0$"
-### TODO AGOT-CHANGED: would_accept_mandala_embrace_help_desc [AGOT: \n\n#help You can further tip the scales in your favor by increasing their [opinion|E] of you, increasing your own [radiance|E] or making sure there are no other Radiant Mandala [rulers|E] nearby.#! | TR: \n\n#help Onların size karşı [Concept('opinion', 'Görüşlerini')|E] arttırarak, kendi [radiance|E] düzeyinizi yükselterek veya yakınlarda başka Haşmetli Mandala [ruler|E] bulunmadığından emin olarak teraziyi lehinize daha da çevirebilirsiniz.#!]
- would_accept_mandala_embrace_help_desc: "\n\n#help You can further tip the scales in your favor by increasing their [opinion|E] of you, increasing your own [radiance|E] or making sure there are no other Radiant Mandala [rulers|E] nearby.#!"
+ IS_OCCUPIED_TRIGGER: "Yerleşim [occupied|E]"
+ ARMY_SUPPLY_TRIGGER: "[supply|E]: $COMPARATOR$ $NUM|V0$"
+ would_accept_mandala_embrace_help_desc: "\n\n#help Onların size karşı [Concept('opinion', 'Görüşlerini')|E] arttırarak, kendi [radiance|E] düzeyinizi yükselterek veya yakınlarda başka Haşmetli Mandala [ruler|E] bulunmadığından emin olarak teraziyi lehinize daha da çevirebilirsiniz.#! "

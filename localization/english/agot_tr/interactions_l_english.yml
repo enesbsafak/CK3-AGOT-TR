@@ -46,56 +46,34 @@
  send_to_prayer_camp:0 "#D İbadet kampına gönder#!"
  debug_set_up_court:0 "#D Saray kur#!"
  add_test_hook:0 "#D Test kozu ekle#!"
-### TODO AGOT-CHANGED: BECOME_TRIBUTARY_INTERACTION_NAME_HEGEMONY [AGOT: Acknowledge Hegemon | TR: Hegemonu Kabul Et]
- BECOME_TRIBUTARY_INTERACTION_NAME_HEGEMONY: "Acknowledge Hegemon"
-### TODO AGOT-CHANGED: BECOME_TRIBUTARY_INTERACTION_NAME_FALLBACK [AGOT: Submit to Suzerain | TR: Efendiye Boyun Eğ]
- BECOME_TRIBUTARY_INTERACTION_NAME_FALLBACK: "Submit to Suzerain"
+ BECOME_TRIBUTARY_INTERACTION_NAME_HEGEMONY: "Hegemonu Kabul Et"
+ BECOME_TRIBUTARY_INTERACTION_NAME_FALLBACK: "Efendiye Boyun Eğ"
  compose_poetry:0 "Şiir yaz"
  compose_poetry_to:0 "Şiir yaz:"
-### TODO AGOT-CHANGED: herder_cannot_war_tt [AGOT: Is a [GetGovernment( 'herder_government' ).GetName] and cannot go to [war|E]. | TR: [GetGovernment( 'herder_government' ).GetName] ve [Concept('war', 'Savaşa')|E] giremez.]
- herder_cannot_war_tt: "Is a [GetGovernment( 'herder_government' ).GetName] and cannot go to [war|E]."
-### TODO AGOT-CHANGED: EXACT_TRIBUTE_INTERACTION_NOTIFICATION [AGOT: As your [recipient.Custom2('RelationToMe', recipient.GetOverlord )] it is my duty to inform you of #EMP your#! duties. My halls echo empty, void of your presence. Do not sleep on this, [recipient.GetTitleAsNameNoTooltip]. My court awaits... | TR: Haşmetmeaplarınızın [recipient.Custom2('RelationToMe', recipient.GetOverlord )] olarak, #EMP vazifelerinizi#! size hatırlatmak benim görevimdir. Salonlarımda eksikliğiniz hissediliyor. Yükümlülüklerinizi ihmal etmeyin, [recipient.GetTitleAsNameNoTooltip]. Sarayım sizi bekliyor...]
- EXACT_TRIBUTE_INTERACTION_NOTIFICATION: "As your [recipient.Custom2('RelationToMe', recipient.GetOverlord )] it is my duty to inform you of #EMP your#! duties. My halls echo empty, void of your presence. Do not sleep on this, [recipient.GetTitleAsNameNoTooltip]. My court awaits..."
+ herder_cannot_war_tt: "[GetGovernment( 'herder_government' ).GetName] ve [Concept('war', 'Savaşa')|E] giremez."
+ EXACT_TRIBUTE_INTERACTION_NOTIFICATION: "Haşmetmeaplarınızın [recipient.Custom2('RelationToMe', recipient.GetOverlord )] olarak, #EMP vazifelerinizi#! size hatırlatmak benim görevimdir. Salonlarımda eksikliğiniz hissediliyor. Yükümlülüklerinizi ihmal etmeyin, [recipient.GetTitleAsNameNoTooltip]. Sarayım sizi bekliyor..."
  EXACT_TRIBUTE_PLAYER_INTERACTION_NOTIFICATION: "$EXACT_TRIBUTE_INTERACTION_NOTIFICATION$"
  declare_war_desc:0 "[recipient.GetShortUINameNoTooltip] adlı kişiye bir [casus_belli|E] kullanarak [war|E] açın"
  CONCUBINE_PROMPT_SOMEONE:2 "#I [concubine|E] yapmak için birini seçin#!"
  CONCUBINE_PROMPT_CHARACTER:1 "#I [CHARACTER.GetShortUIName] adlı karakteri [concubine|E] olarak alın#!"
-### TODO AGOT-CHANGED: OFFER_CONCUBINE_NOTIFICATION [AGOT: I think [secondary_actor.GetShortUIName] would serve you well as a [concubine|E]. Will you let [secondary_actor.GetHerHim] into your bed? | TR: [secondary_actor.GetShortUIName] sizin için iyi bir [concubine|E] olabilir, güzel bir şekilde hizmet edebilir diye düşünüyorum. Onu yatağınıza alır mısınız?]
- OFFER_CONCUBINE_NOTIFICATION: "I think [secondary_actor.GetShortUIName] would serve you well as a [concubine|E]. Will you let [secondary_actor.GetHerHim] into your bed?"
-### TODO AGOT-CHANGED: DEMAND_CONCUBINE_NOTIFICATION [AGOT: Your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName] is too [recipient.Custom('GetNotableCharacteristic')] to rot in your shadow. A [secondary_actor.GetWomanMan] of such worth belongs in my tent.\n\nSend [secondary_actor.GetHerHim] without delay. You know better than to make me ask twice. | TR: Majestelerinin [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] gölgenizde çürümek için fazla [recipient.Custom('GetNotableCharacteristic')] biri. Onun gibi biri benim çadırıma yakışır.\n\nGecikme olmaksızın onu bana gönderin. Bir daha sormak zorunda kalmayayım.]
- DEMAND_CONCUBINE_NOTIFICATION: "Your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName] is too [recipient.Custom('GetNotableCharacteristic')] to rot in your shadow. A [secondary_actor.GetWomanMan] of such worth belongs in my tent.\n\nSend [secondary_actor.GetHerHim] without delay. You know better than to make me ask twice."
-### TODO AGOT-CHANGED: HIGHLIGHTED_SKILLED_COURTIER [AGOT: #EMP [recipient.GetShortUINamePossessiveNoTooltip] [courtiers|E] have very high [skills|E]#! | TR: #EMP [recipient.GetShortUINamePossessiveNoTooltip] [courtiers|E] yüksek [skill|E] sahibi#!]
- HIGHLIGHTED_SKILLED_COURTIER: "#EMP [recipient.GetShortUINamePossessiveNoTooltip] [courtiers|E] have very high [skills|E]#!"
-### TODO AGOT-CHANGED: DEMAND_COURTIER_NOTIFICATION [AGOT: I demand your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName], as tribute! [secondary_actor.GetHerHis|U] skills and extensive knowledge of [secondary_actor.Custom('highest_skill_noun')] will serve my [recipient.Custom('GetCourt')] well. | TR: Haraç olarak majestelerinin [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] adlı kişiyi talep ediyorum! Becerileri ve [secondary_actor.Custom('highest_skill_noun')] bilgisiyle sarayımda faydalı olacaktır.]
- DEMAND_COURTIER_NOTIFICATION: "I demand your [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName], as tribute! [secondary_actor.GetHerHis|U] skills and extensive knowledge of [secondary_actor.Custom('highest_skill_noun')] will serve my [recipient.Custom('GetCourt')] well."
-### TODO AGOT-CHANGED: AI_EMPLOYED_COURTIER_REASON [AGOT: [secondary_actor.GetShortUIName] is a [councillor|E] or holds a [court_position|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] bir [councillor|E] veya [court_position|E] sahibi: $VALUE|=+0$]
- AI_EMPLOYED_COURTIER_REASON: "[secondary_actor.GetShortUIName] is a [councillor|E] or holds a [court_position|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: OFFER_COURTIER_NOTIFICATION [AGOT: I offer you the service of my [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName], a highly skilled [secondary_actor.GetWomanMan] with extensive knowledge of [secondary_actor.Custom('highest_skill_noun')].\n\nI hope this gesture of generosity is well received and that you will allow [secondary_actor.GetHerHim] to serve in your [recipient.Custom('GetCourt')]. | TR: Size [actor.Custom2('RelationToMePossessive', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] adlı kişinin hizmetlerini teklif ediyorum, kendisi [secondary_actor.Custom('highest_skill_noun')] alanında yetkin, becerikli biridir.\n\nUmuyorum ki bu cömertliğimi olumlu bir şekilde karşılar ve kendisinin sarayınızda hizmet etmesine izin verirsiniz.]
- OFFER_COURTIER_NOTIFICATION: "I offer you the service of my [actor.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))], [secondary_actor.GetShortUIName], a highly skilled [secondary_actor.GetWomanMan] with extensive knowledge of [secondary_actor.Custom('highest_skill_noun')].\n\nI hope this gesture of generosity is well received and that you will allow [secondary_actor.GetHerHim] to serve in your [recipient.Custom('GetCourt')]."
-### TODO AGOT-CHANGED: no_spouses_can_be_sent_tt [AGOT: [secondary_actor.GetShortUIName] is your [spouse|E] | TR: [secondary_actor.GetShortUIName] [Concept('spouse', 'Eşiniz')|E]]
- no_spouses_can_be_sent_tt: "[secondary_actor.GetShortUIName] is your [spouse|E]"
-### TODO AGOT-CHANGED: AI_INTERESTING_COURTIER_REASON [AGOT: [secondary_actor.GetShortUIName] has [skills|E] I could use: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] değerlendirebileceğim [Concept('skills', 'Becerilere')|E] sahip: $VALUE|=+0$]
- AI_INTERESTING_COURTIER_REASON: "[secondary_actor.GetShortUIName] has [skills|E] I could use: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_FAMILY_REASON [AGOT: [secondary_actor.GetShortUIName] is my [family_member|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('family_member', 'Aile Üyem')|E]: $VALUE|=+0$]
- AI_FAMILY_REASON: "[secondary_actor.GetShortUIName] is my [family_member|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_SPOUSE_REASON [AGOT: [secondary_actor.GetShortUIName] is my [spouse|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('spouse', 'Eşim')|E]: $VALUE|=+0$]
- AI_SPOUSE_REASON: "[secondary_actor.GetShortUIName] is my [spouse|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_CHILD_REASON [AGOT: [secondary_actor.GetShortUIName] is my [child|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('child', 'Çocuğum')|E]: $VALUE|=+0$]
- AI_CHILD_REASON: "[secondary_actor.GetShortUIName] is my [child|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_FRIEND_REASON [AGOT: [secondary_actor.GetShortUIName] is my [friend|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('friend', 'Arkadaşım')|E]: $VALUE|=+0$]
- AI_FRIEND_REASON: "[secondary_actor.GetShortUIName] is my [friend|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_RIVAL_REASON [AGOT: [secondary_actor.GetShortUIName] is my [rival|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('rival', 'Rakibim')|E]: $VALUE|=+0$]
- AI_RIVAL_REASON: "[secondary_actor.GetShortUIName] is my [rival|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_SPOUSE_OF_COURTIER_REASON [AGOT: [secondary_actor.GetShortUIName] is the [spouse|E] of one of my [courtiers|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [Concept('courtiers', 'Saray Mensuplarımdan')|E] birinin [Concept('spouse', 'Eşi')|E]: $VALUE|=+0$]
- AI_SPOUSE_OF_COURTIER_REASON: "[secondary_actor.GetShortUIName] is the [spouse|E] of one of my [courtiers|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_INSPIRED_REASON [AGOT: [secondary_actor.GetShortUIName] has an [inspiration|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] [inspiration|E] sahibi: $VALUE|=+0$]
- AI_INSPIRED_REASON: "[secondary_actor.GetShortUIName] has an [inspiration|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_KNIGHT_REASON [AGOT: [secondary_actor.GetShortUIName] would make a good [knight|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] iyi [knight|E] olur: $VALUE|=+0$]
- AI_KNIGHT_REASON: "[secondary_actor.GetShortUIName] would make a good [knight|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_IS_KNIGHT_REASON [AGOT: [secondary_actor.GetShortUIName] is a [knight|E]: $VALUE|=+0$ | TR: [secondary_actor.GetShortUIName] bir [knight|E]: $VALUE|=+0$]
- AI_IS_KNIGHT_REASON: "[secondary_actor.GetShortUIName] is a [knight|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_LACK_COURTIERS_REASON [AGOT: I could use more [courtiers|E]: $VALUE|=+0$ | TR: [Concept('courtiers', 'Saray Mensubuna')|E] ihtiyacım var: $VALUE|=+0$]
- AI_LACK_COURTIERS_REASON: "I could use more [courtiers|E]: $VALUE|=+0$"
+ OFFER_CONCUBINE_NOTIFICATION: "[secondary_actor.GetShortUIName] sizin için iyi bir [concubine|E] olabilir, güzel bir şekilde hizmet edebilir diye düşünüyorum. Onu yatağınıza alır mısınız?"
+ DEMAND_CONCUBINE_NOTIFICATION: "Majestelerinin [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] gölgenizde çürümek için fazla [recipient.Custom('GetNotableCharacteristic')] biri. Onun gibi biri benim çadırıma yakışır.\n\nGecikme olmaksızın onu bana gönderin. Bir daha sormak zorunda kalmayayım."
+ HIGHLIGHTED_SKILLED_COURTIER: "#EMP [recipient.GetShortUINamePossessiveNoTooltip] [courtiers|E] yüksek [skill|E] sahibi#!"
+ DEMAND_COURTIER_NOTIFICATION: "Haraç olarak majestelerinin [recipient.Custom2('RelationToMeShort', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] adlı kişiyi talep ediyorum! Becerileri ve [secondary_actor.Custom('highest_skill_noun')] bilgisiyle sarayımda faydalı olacaktır."
+ AI_EMPLOYED_COURTIER_REASON: "[secondary_actor.GetShortUIName] bir [councillor|E] veya [court_position|E] sahibi: $VALUE|=+0$"
+ OFFER_COURTIER_NOTIFICATION: "Size [actor.Custom2('RelationToMePossessive', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] adlı kişinin hizmetlerini teklif ediyorum, kendisi [secondary_actor.Custom('highest_skill_noun')] alanında yetkin, becerikli biridir.\n\nUmuyorum ki bu cömertliğimi olumlu bir şekilde karşılar ve kendisinin sarayınızda hizmet etmesine izin verirsiniz."
+ no_spouses_can_be_sent_tt: "[secondary_actor.GetShortUIName] [Concept('spouse', 'Eşiniz')|E]"
+ AI_INTERESTING_COURTIER_REASON: "[secondary_actor.GetShortUIName] değerlendirebileceğim [Concept('skills', 'Becerilere')|E] sahip: $VALUE|=+0$"
+ AI_FAMILY_REASON: "[secondary_actor.GetShortUIName] [Concept('family_member', 'Aile Üyem')|E]: $VALUE|=+0$"
+ AI_SPOUSE_REASON: "[secondary_actor.GetShortUIName] [Concept('spouse', 'Eşim')|E]: $VALUE|=+0$"
+ AI_CHILD_REASON: "[secondary_actor.GetShortUIName] [Concept('child', 'Çocuğum')|E]: $VALUE|=+0$"
+ AI_FRIEND_REASON: "[secondary_actor.GetShortUIName] [Concept('friend', 'Arkadaşım')|E]: $VALUE|=+0$"
+ AI_RIVAL_REASON: "[secondary_actor.GetShortUIName] [Concept('rival', 'Rakibim')|E]: $VALUE|=+0$"
+ AI_SPOUSE_OF_COURTIER_REASON: "[secondary_actor.GetShortUIName] [Concept('courtiers', 'Saray Mensuplarımdan')|E] birinin [Concept('spouse', 'Eşi')|E]: $VALUE|=+0$"
+ AI_INSPIRED_REASON: "[secondary_actor.GetShortUIName] [inspiration|E] sahibi: $VALUE|=+0$"
+ AI_KNIGHT_REASON: "[secondary_actor.GetShortUIName] iyi [knight|E] olur: $VALUE|=+0$"
+ AI_IS_KNIGHT_REASON: "[secondary_actor.GetShortUIName] bir [knight|E]: $VALUE|=+0$"
+ AI_LACK_COURTIERS_REASON: "[Concept('courtiers', 'Saray Mensubuna')|E] ihtiyacım var: $VALUE|=+0$"
  CHARACTER_UNAVAILABLE_TO_BE_OFFERED_AS_CONCUBINE:0 "[TARGET_CHARACTER.GetShortUIName|U] şu anda uygun değil"
  BETROTHAL_INTERACTION:0 "Nişan Düzenle"
  break_betrothal_hook_used:0 "[hook|E] kullanılarak yapılan bir nişanı bozamazsınız"
@@ -143,24 +121,16 @@
  EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT:1 "#TUT_KW [FAITH.GetAdjective]#! olabilirim"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT:1 "Yaşı nedeniyle #TUT_KW [FAITH.GetAdjective]#! olamayabilir"
  EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT:1 "Yaşım nedeniyle #TUT_KW [FAITH.GetAdjective]#! olamayabilirim"
-### TODO AGOT-CHANGED: EDUCATE_CHILD_OPTION_ZEAL_EFFECT [AGOT: Will become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olacak]
- EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "Will become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
-### TODO AGOT-CHANGED: EDUCATE_ME_OPTION_ZEAL_EFFECT [AGOT: I will become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olacağım]
- EDUCATE_ME_OPTION_ZEAL_EFFECT: "I will become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
-### TODO AGOT-CHANGED: EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT [AGOT: Is #P likely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimali #P yüksek#!]
- EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "Is #P likely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
-### TODO AGOT-CHANGED: EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT [AGOT: I am #P likely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimalim #P yüksek#!]
- EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "I am #P likely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
-### TODO AGOT-CHANGED: EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW [AGOT: Is #N unlikely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimali #N düşük#!]
- EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "Is #N unlikely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
-### TODO AGOT-CHANGED: EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW [AGOT: I am #N unlikely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#! | TR: #high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimalim #N düşük#!]
- EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "I am #N unlikely#! to become #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olacak"
+ EDUCATE_ME_OPTION_ZEAL_EFFECT: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olacağım"
+ EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimali #P yüksek#!"
+ EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimalim #P yüksek#!"
+ EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimali #N düşük#!"
+ EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "#high [GetTrait('zealous').GetName(GetNullCharacter)]#! olma ihtimalim #N düşük#!"
  EDUCATION_UNIVERSITY:0 "Üniversiteye Gönder"
-### TODO AGOT-CHANGED: EDUCATION_UNIVERSITY_HIGHLIGHTED [AGOT: Access to University at [recipient.GetShortUINamePossessive] [recipient.Custom('GetCourtConcept')] allows a [ward|E] to get a better [education_trait|E] | TR: [recipient.GetShortUIName] tarafından yönetilen topraklardaki Üniversiteye erişim, bir [ward|E] daha iyi bir [education_trait|E] edinmesini sağlar]
- EDUCATION_UNIVERSITY_HIGHLIGHTED: "Access to University at [recipient.GetShortUINamePossessive] [recipient.Custom('GetCourtConcept')] allows a [ward|E] to get a better [education_trait|E]"
+ EDUCATION_UNIVERSITY_HIGHLIGHTED: "[recipient.GetShortUIName] tarafından yönetilen topraklardaki Üniversiteye erişim, bir [ward|E] daha iyi bir [education_trait|E] edinmesini sağlar"
  ransomed_by_someone:0 "[prisoner.Custom2('RelationToMePossessive', SCOPE.sC('payer'))|U] [payer.GetShortUIName] benim için fidye verdi!@prison_icon!"
-### TODO AGOT-CHANGED: has_person_haggler_decrease_ransom_cost [AGOT: [haggler.GetFirstNamePossessive] [GetCourtPositionType('person_haggler_camp_officer').GetName()] [aptitude|E]: [gold_i] #P [new_ransom_value|1]#! | TR: [haggler.GetFirstName] adlı kişinin [GetCourtPositionType('person_haggler_camp_officer').GetName()] [Concept( 'aptitude', 'Yatkınlığı' )|E]: [gold_i] #P [new_ransom_value|1]#!]
- has_person_haggler_decrease_ransom_cost: "[haggler.GetFirstNamePossessive] [GetCourtPositionType('person_haggler_camp_officer').GetName()] [aptitude|E]: [gold_i] #P [new_ransom_value|1]#!"
+ has_person_haggler_decrease_ransom_cost: "[haggler.GetFirstName] adlı kişinin [GetCourtPositionType('person_haggler_camp_officer').GetName()] [Concept( 'aptitude', 'Yatkınlığı' )|E]: [gold_i] #P [new_ransom_value|1]#!"
  RANSOM_GOLD_PAY_OPTION:0 "[gold_i]$RANSOM_COST|0$ öde"
  RANSOM_GOLD_OPTION:0 "[gold_i]$RANSOM_COST|0$ karşılığı"
  RANSOM_CURRENT_PAY_GOLD_OPTION:0 "[gold_i]$CURRENT_GOLD|0$ öde #weak ([gold_i]$RANSOM_COST|0$ olan tam maliyet karşılanamıyor)#!"
@@ -188,8 +158,7 @@
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_TITLE:1 "[recipient.GetFaith.GetAdherentNamePlural] sizin gözünüzde $hostility_hostile_tooltippable$ olduğu için [recipient.GetShortUINamePossessive] unvanlarını [tyrant|E] olarak görülmeden feshedebilirsiniz."
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL:1 "[recipient.GetFaith.GetAdherentNamePlural] sizin gözünüzde $hostility_evil_tooltippable$ olduğu için [recipient.GetShortUINamePossessive] vasallarını [tyrant|E] olarak görülmeden feshedebilirsiniz."
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL:1 "[recipient.GetFaith.GetAdherentNamePlural] sizin gözünüzde $hostility_hostile_tooltippable$ olduğu için [recipient.GetShortUINamePossessive] vasallarını [tyrant|E] olarak görülmeden feshedebilirsiniz."
-### TODO AGOT-CHANGED: IS_ALLOWED_TO_REVOKE_ADMIN_GOVERNMENT [AGOT: Because [TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'are', 'is' )] a [governor|E], [CHARACTER.GetShortUIName] can revoke [TARGET_CHARACTER.GetHerHis] titles without being viewed as a [tyrant|E] | TR: [Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ', ' )][governor|E] olduğu[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nuz', '' )] için [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sizin unvanlarınızı', 'onun unvanlarını' )] [tyrant|E] olarak görülmeden feshedebilir[Select_CString( CHARACTER.IsLocalPlayer, 'siniz', '' )]]
- IS_ALLOWED_TO_REVOKE_ADMIN_GOVERNMENT: "Because [TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'are', 'is' )] a [governor|E], [CHARACTER.GetShortUIName] can revoke [TARGET_CHARACTER.GetHerHis] titles without being viewed as a [tyrant|E]"
+ IS_ALLOWED_TO_REVOKE_ADMIN_GOVERNMENT: "[Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ', ' )][governor|E] olduğu[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nuz', '' )] için [Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' ' )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sizin unvanlarınızı', 'onun unvanlarını' )] [tyrant|E] olarak görülmeden feshedebilir[Select_CString( CHARACTER.IsLocalPlayer, 'siniz', '' )]"
  INFIDEL_REVOCATION_OPINION:0 "Her [recipient.GetFaith.GetAdjective] vasal"
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC:0 "[baronies|E]ı feshetmek [tyranny|E] vermez"
  IMPRISONMENT_RELATIVES_EFFECT_DUNGEON:1 "[Select_CString( imprisoner.IsLocalPlayer, 'Sizin', imprisoner.GetShortUIName )][Select_CString( imprisoner.IsLocalPlayer, '', ' adlı karakterin' )] [close_family|E][Select_CString( imprisoner.IsLocalPlayer, 'nizden', 'sinden' )] olmayan [Select_CString( THIS.GetCharacter.IsLocalPlayer, '', THIS.GetCharacter.GetShortUINamePossessive )][Select_CString( THIS.GetCharacter.IsLocalPlayer, '', ' ' )] [family|E] [Select_CString( THIS.GetCharacter.IsLocalPlayer, 'üyeleriniz', 'üyeleri' )] [Select_CString( THIS.GetCharacter.IsLocalPlayer, imprisoner.GetShortUIName, 'size' )][Select_CString( THIS.GetCharacter.IsLocalPlayer, ' adlı kişiye', '' )] karşı #N 30#! [opinion|E] kaybedecek."
@@ -206,21 +175,15 @@
  RELEASE_BANISH:0 "[banish|E]"
  RELEASE_TAKE_VOWS:0 "Ruhban Yemini Et"
  RELEASE_TAKE_VOWS_VALID:0 "[recipient.GetShortUIName|U] bir manastıra katılacak."
-### TODO AGOT-CHANGED: RELEASE_TAKE_VOWS_INVALID_RECRUIT [AGOT: You must Recruit a character before forcing them to Take the Vows. | TR: Bir karakteri ruhban yemini etmeye zorlamadan önce işe almalısınız.]
- RELEASE_TAKE_VOWS_INVALID_RECRUIT: "You must Recruit a character before forcing them to Take the Vows."
+ RELEASE_TAKE_VOWS_INVALID_RECRUIT: "Bir karakteri ruhban yemini etmeye zorlamadan önce işe almalısınız."
  RELEASE_RECRUIT:0 "[SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'Kampa', 'Saraya')] Davet Et"
  RELEASE_AS_EXECUTIONER:0 "Cellat Olarak İşe Al"
  RELEASE_AS_EXECUTIONER_VALID:0 "[recipient.GetShortUIName|U], cellat olarak işe alınacak."
-### TODO AGOT-CHANGED: RELEASE_DISFIGURE [AGOT: Disfigure | TR: Yüzünü Dağıt]
- RELEASE_DISFIGURE: "Disfigure"
-### TODO AGOT-CHANGED: RELEASE_BLIND [AGOT: Blind | TR: Körelt]
- RELEASE_BLIND: "Blind"
-### TODO AGOT-CHANGED: RELEASE_CASTRATE [AGOT: Castrate | TR: Hadım Et]
- RELEASE_CASTRATE: "Castrate"
-### TODO AGOT-CHANGED: RELEASE_PRISONER_DISFIGURE_BLIND_CASTRATE_CONDITION [AGOT: You may only choose between one of the following demands:\n$EFFECT_LIST_BULLET$$RELEASE_DISFIGURE$\n$EFFECT_LIST_BULLET$$RELEASE_BLIND$\n$EFFECT_LIST_BULLET$$RELEASE_CASTRATE$ | TR: Aşağıdaki taleplerden sadece bir tanesini seçebilirsiniz:\n$EFFECT_LIST_BULLET$$RELEASE_DISFIGURE$\n$EFFECT_LIST_BULLET$$RELEASE_BLIND$\n$EFFECT_LIST_BULLET$$RELEASE_CASTRATE$]
- RELEASE_PRISONER_DISFIGURE_BLIND_CASTRATE_CONDITION: "You may only choose between one of the following demands:\n$EFFECT_LIST_BULLET$$RELEASE_DISFIGURE$\n$EFFECT_LIST_BULLET$$RELEASE_BLIND$\n$EFFECT_LIST_BULLET$$RELEASE_CASTRATE$"
-### TODO AGOT-CHANGED: RELEASE_BYZ_DISFIGURE_INVALID [AGOT: [TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')], your [vassal|E], or your [rival|E]. | TR: [TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası, [Concept( 'vassal', 'Vasalınız' )|E] veya [Concept( 'rival', 'Rakibiniz' )|E] #bold değil#!.]
- RELEASE_BYZ_DISFIGURE_INVALID: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')], your [vassal|E], or your [rival|E]."
+ RELEASE_DISFIGURE: "Yüzünü Dağıt"
+ RELEASE_BLIND: "Körelt"
+ RELEASE_CASTRATE: "Hadım Et"
+ RELEASE_PRISONER_DISFIGURE_BLIND_CASTRATE_CONDITION: "Aşağıdaki taleplerden sadece bir tanesini seçebilirsiniz:\n$EFFECT_LIST_BULLET$$RELEASE_DISFIGURE$\n$EFFECT_LIST_BULLET$$RELEASE_BLIND$\n$EFFECT_LIST_BULLET$$RELEASE_CASTRATE$"
+ RELEASE_BYZ_DISFIGURE_INVALID: "[TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası, [Concept( 'vassal', 'Vasalınız' )|E] veya [Concept( 'rival', 'Rakibiniz' )|E] #bold değil#!."
  RELEASE_BANISH_INVALID_TAKE_VOWS_CONDITION:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] adlı karakteri aynı anda hem sürgün edip hem de ruhban yemini etmesini isteyemezsiniz."
  RELEASE_BANISH_INVALID_RECRUIT:0 "Karakterleri aynı anda sürgün edip sarayınıza davet edemezsiniz."
  RELEASE_EXECUTIONER_INVALID_RECRUIT:0 "Bir karakteri Cellat olarak atamadan önce sarayınıza almalısınz."
@@ -228,20 +191,14 @@
  RELEASE_BANISH_VALID:0 "[recipient.GetShortUIName] adlı kişiyi [Concept( 'realm', 'Ülkenizden' )|E] sürgün edin."
  RELEASE_BANISH_INVALID_SPOUSE:0 "[Concept( 'spouse', 'Eşinizi' )|E] sürgün edemezsiniz."
  RELEASE_TAKE_VOWS_INVALID_NOT_YOUR_FAITH:0 "[TARGET_CHARACTER.GetShortUIName|U] [CHARACTER.GetFaith.GetAdjective] #bold değil#!. $RELEASE_TAKE_VOWS$mesini talep etmek için önce $RELEASE_DEMAND_CONVERSION$melisiniz."
-### TODO AGOT-CHANGED: RELEASE_TAKE_VOWS_INVALID_NOT_YOUR_COURT [AGOT: [TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')]. To demand $RELEASE_TAKE_VOWS$, you must first $RELEASE_RECRUIT$ them. | TR: [TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası #bold değil#!. $RELEASE_TAKE_VOWS$mesini talep etmek için önce onu $RELEASE_RECRUIT$melisiniz.]
- RELEASE_TAKE_VOWS_INVALID_NOT_YOUR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')]. To demand $RELEASE_TAKE_VOWS$, you must first $RELEASE_RECRUIT$ them."
+ RELEASE_TAKE_VOWS_INVALID_NOT_YOUR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası #bold değil#!. $RELEASE_TAKE_VOWS$mesini talep etmek için önce onu $RELEASE_RECRUIT$melisiniz."
  RELEASE_TAKE_VOWS_INVALID_BANISH:0 "Aynı anda bir tutsağın hem ruhban yemini etmesini isteyip hem de onları sürgün edemezsiniz."
-### TODO AGOT-CHANGED: RELEASE_BYZ_TAKE_VOWS_INVALID [AGOT: [TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')], your [vassal|E] nor your [rival|E]. | TR: [TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası, [Concept( 'vassal', 'Vasalınız' )|E] veya [Concept( 'rival', 'Rakibiniz' )|E] #bold değil#!.]
- RELEASE_BYZ_TAKE_VOWS_INVALID: "[TARGET_CHARACTER.GetShortUIName|U] is #bold not#! part of your [CHARACTER.Custom('GetCourtType')], your [vassal|E] nor your [rival|E]."
-### TODO AGOT-CHANGED: RELEASE_DEMAND_ADMIN [AGOT: Become [GetPlayer.GetGovernment.GetName] | TR: [GetPlayer.GetGovernment.GetName] Ol]
- RELEASE_DEMAND_ADMIN: "Become [GetPlayer.GetGovernment.GetName]"
+ RELEASE_BYZ_TAKE_VOWS_INVALID: "[TARGET_CHARACTER.GetShortUIName|U] sizin [SelectLocalization( IsLandlessAdventurer( CHARACTER ), 'kampınızın', 'sarayınızın')] bir parçası, [Concept( 'vassal', 'Vasalınız' )|E] veya [Concept( 'rival', 'Rakibiniz' )|E] #bold değil#!."
+ RELEASE_DEMAND_ADMIN: "[GetPlayer.GetGovernment.GetName] Ol"
  HIGHLIGHTED_HAS_IMPRISONMENT_REASON:2 "Bu seçenek vurgulanıyor çünkü [recipient.GetShortUIName] adlı karakteri hapsetmek için haklı bir sebebiniz var."
-### TODO AGOT-CHANGED: HIGHLIGHTED_MINISTER_IMPRISONMENT_REASON [AGOT: @minister! Highlighted because you are the [minister_of_justice|E]. | TR: @minister! Bu seçenek vurgulanıyor çünkü [Concept('minister_of_justice', 'Adalet Bakanısınız')|E].]
- HIGHLIGHTED_MINISTER_IMPRISONMENT_REASON: "@minister! Highlighted because you are the [minister_of_justice|E]."
-### TODO AGOT-CHANGED: HIGHLIGHTED_MINISTER_WILLING_TO_PARDON [AGOT: @minister! Highlighted because the [minister_of_justice|E] is willing to pardon #V you#!. | TR: @minister! Bu seçenek vurgulanıyor çünkü [minister_of_justice|E] #V sizi#! affetmeye meyilli.]
- HIGHLIGHTED_MINISTER_WILLING_TO_PARDON: "@minister! Highlighted because the [minister_of_justice|E] is willing to pardon #V you#!."
-### TODO AGOT-CHANGED: HIGHLIGHTED_HAS_EXECUTION_REASON [AGOT: Highlighted because you have a valid reason to execute [recipient.GetShortUIName]. | TR: Bu seçenek vurgulanıyor çünkü [recipient.GetShortUIName] adlı kişiyi idam etmek için geçerli bir sebebe sahipsiniz.]
- HIGHLIGHTED_HAS_EXECUTION_REASON: "Highlighted because you have a valid reason to execute [recipient.GetShortUIName]."
+ HIGHLIGHTED_MINISTER_IMPRISONMENT_REASON: "@minister! Bu seçenek vurgulanıyor çünkü [Concept('minister_of_justice', 'Adalet Bakanısınız')|E]."
+ HIGHLIGHTED_MINISTER_WILLING_TO_PARDON: "@minister! Bu seçenek vurgulanıyor çünkü [minister_of_justice|E] #V sizi#! affetmeye meyilli."
+ HIGHLIGHTED_HAS_EXECUTION_REASON: "Bu seçenek vurgulanıyor çünkü [recipient.GetShortUIName] adlı kişiyi idam etmek için geçerli bir sebebe sahipsiniz."
  HIGHLIGHTED_HAS_REVOKE_TITLE_REASON:2 "Bu seçenek vurgulanıyor çünkü [recipient.GetShortUINamePossessive] [Concept( 'titles', 'Unvanlarından' )|E] birini feshetmek için haklı bir sebebiniz var."
  MARRIAGE_NOTIFICATION:0 "[actor.Custom2('RelationToMePossessive', SCOPE.sC('secondary_actor'))|U] [secondary_actor.GetShortUIName] ile sizin karakterinizin [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetShortUIName] arasında bir evlilik öneriyorum."
  MARRIAGE_NOTIFICATION_ACTOR_PERSONAL:0 "İzninizle sizin karakterinizin [secondary_recipient.Custom('ComplimentAdjective')] [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] ile evlenmek istiyorum."
@@ -265,8 +222,7 @@
  EXECUTION_PUBLIC:0 "Halka Açık İnfaz"
  EXECUTION_SACRIFICE:0 "Kurban Et"
  EXECUTION_KENNEL:0 "Köpeklere Ver"
-### TODO AGOT-CHANGED: EXECUTION_PROVISIONS [AGOT: Turn into Mystery Meat | TR: Gizemli Ete Dönüştür]
- EXECUTION_PROVISIONS: "Turn into Mystery Meat"
+ EXECUTION_PROVISIONS: "Gizemli Ete Dönüştür"
  MY_FAITH_HAS_THE_FIXED_APPOINTMENT_CLERGY_DOCTRINE:0 "[Concept( 'faith', 'Mezhebim' )|E] #weak ([CHARACTER.GetFaith.GetName])#! ataması değiştirilemeyen ruhban sınıfı veraset [Concept( 'doctrine', 'İlkesine' )|E] sahip"
  I_CANNOT_IMPRISON_ALLY_WITHOUT_REASON:1 "Herhangi bir sebep olmadan [ally|E]inizi hapsedemezsiniz"
  TARGET_WAS_RECENTLY_RANSOMED:0 "[TARGET_CHARACTER.GetShortUIName|U] yakın zamanda fiyde karşılığı serbest kalmıştı"
@@ -284,18 +240,14 @@
  NOT_ATTRACTED_TO_GENDER:0 "[TARGET_CHARACTER.GetShortUIName|U], [CHARACTER.GetWomenMen] ile ilgilenmiyor"
  NOT_ATTRACTED_TO_THEIR_GENDER:0 "[CHARACTER.GetWomenMen|U] ilgimi çekmiyor"
  I_CANNOT_DECLARE_WAR_WITHOUT_USING_HOOK_ON_LIEGE:0 "Ülke yasalarına göre [hook|E] kullanmadan bu savaşı açamazsınız"
-### TODO AGOT-CHANGED: I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT [AGOT: You cannot declare war while in [debt|E][AddLocalizationIf( Character.ShouldReplaceGoldCostByTreasury, 'I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY' )] | TR: [Concept( 'debt', 'Borçtayken' )|E][AddLocalizationIf( Character.ShouldReplaceGoldCostByTreasury, 'I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY' )] savaş açamazsınız]
- I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT: "You cannot declare war while in [debt|E][AddLocalizationIf( Character.ShouldReplaceGoldCostByTreasury, 'I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY' )]"
-### TODO AGOT-CHANGED: I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY [AGOT: or in [treasury_debt|E] | TR: veya [Concept('treasury_debt', 'Hazine Borcundayken')|E]]
- I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY: " or in [treasury_debt|E]"
-### TODO AGOT-CHANGED: I_CANNOT_DECLARE_WAR_WHILE_BLOCKING_DEFENDING_ARMY [AGOT: You cannot declare war while your armies occupy the targeted Realm | TR: Ordularınız hedef Ülkede yer alırken savaş açamazsınız]
- I_CANNOT_DECLARE_WAR_WHILE_BLOCKING_DEFENDING_ARMY: "You cannot declare war while your armies occupy the targeted Realm"
+ I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT: "[Concept( 'debt', 'Borçtayken' )|E][AddLocalizationIf( Character.ShouldReplaceGoldCostByTreasury, 'I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY' )] savaş açamazsınız"
+ I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT_TREASURY: " veya [Concept('treasury_debt', 'Hazine Borcundayken')|E]"
+ I_CANNOT_DECLARE_WAR_WHILE_BLOCKING_DEFENDING_ARMY: "Ordularınız hedef Ülkede yer alırken savaş açamazsınız"
  call_ally:0 "Savaşa Çağır"
  CALL_ALLY_NOTIFICATION:0 "İttifak sözünüzü tutarak [target.GetName] için bana katılmanızı istiyorum!"
  CALL_HOUSE_MEMBER_NOTIFICATION:0 "[actor.GetHouse.GetName] hanesinin reisi olarak, [target.GetName] için bana katılmanızı istiyorum!"
  CALL_DYNASTY_MEMBER_NOTIFICATION:1 "Hanedan reisiniz olarak [target.GetName] için bana katılmanızı istiyorum!"
-### TODO AGOT-CHANGED: too_low_rank_to_call_hegemon [AGOT: You have to be of [emperor|E] [rank|E] or above to call a [hegemon|E] into [wars|E] | TR: Bir [Concept('hegemon', 'Hegemonu')|E] [Concept('wars', 'Savaşa')|E] çağırmak için [emperor|E] [Concept('rank', 'Kademesinde')|E] veya üzerinde olmalısınız]
- too_low_rank_to_call_hegemon: "You have to be of [emperor|E] [rank|E] or above to call a [hegemon|E] into [wars|E]"
+ too_low_rank_to_call_hegemon: "Bir [Concept('hegemon', 'Hegemonu')|E] [Concept('wars', 'Savaşa')|E] çağırmak için [emperor|E] [Concept('rank', 'Kademesinde')|E] veya üzerinde olmalısınız"
  EDUCATE_ACTOR_CHILD_PERSONALLY_REQUEST:0 "[secondary_actor.GetShortUIName] yetişkinliğe erişene kadar onun eğitimiyle ilgilenmeniz beni çok mutlu eder."
  EDUCATE_ACTOR_PERSONALLY_REQUEST:0 "Yetişkinliğe erişene kadar benim eğitimim ile ilgilenmeniz beni çok mutlu eder."
  EDUCATE_ACTOR_CHILD_REQUEST:0 "[secondary_actor.GetShortUIName] yetişkinliğe erişene kadar karakterinizin [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] tarafından eğitilmesine izin vermeniz beni çok mutlu eder."
@@ -317,12 +269,9 @@
  SECONDARY_RECIPIENT_CAN_BETROTH:0 "[TARGET_CHARACTER.GetShortUIName|U] ve [CHARACTER.GetShortUIName] nişanlanabilir"
  I_SPEND_MY_HOOK_ON_RECIPIENT:1 "[TARGET_CHARACTER.GetShortUIName] üzerinde [Concept( 'hook', 'Kozunuzu' )|E] kullanıyorsunuz"
  RECIPIENT_IS_MY_SPOUSE:1 "[TARGET_CHARACTER.GetShortUIName|U] sizin [Concept( 'spouse', 'Eşiniz' )|E]"
-### TODO AGOT-CHANGED: RECIPIENT_IS_AMBITIOUS [AGOT: [recipient.GetShortUIName|U] is [GetTrait('ambitious').GetName( GetPlayer )]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [GetTrait('ambitious').GetName( GetPlayer )]: $VALUE|=+0$]
- RECIPIENT_IS_AMBITIOUS: "[recipient.GetShortUIName|U] is [GetTrait('ambitious').GetName( GetPlayer )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RECIPIENT_IS_JUST [AGOT: [recipient.GetShortUIName|U] is [GetTrait('just').GetName( GetPlayer )]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [GetTrait('just').GetName( GetPlayer )]: $VALUE|=+0$]
- RECIPIENT_IS_JUST: "[recipient.GetShortUIName|U] is [GetTrait('just').GetName( GetPlayer )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RECIPIENT_IS_GREEDY [AGOT: [recipient.GetShortUIName|U] is [GetTrait('greedy').GetName( GetPlayer )]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [GetTrait('greedy').GetName( GetPlayer )]: $VALUE|=+0$]
- RECIPIENT_IS_GREEDY: "[recipient.GetShortUIName|U] is [GetTrait('greedy').GetName( GetPlayer )]: $VALUE|=+0$"
+ RECIPIENT_IS_AMBITIOUS: "[recipient.GetShortUIName|U] [GetTrait('ambitious').GetName( GetPlayer )]: $VALUE|=+0$"
+ RECIPIENT_IS_JUST: "[recipient.GetShortUIName|U] [GetTrait('just').GetName( GetPlayer )]: $VALUE|=+0$"
+ RECIPIENT_IS_GREEDY: "[recipient.GetShortUIName|U] [GetTrait('greedy').GetName( GetPlayer )]: $VALUE|=+0$"
  I_MUST_BE_THE_WAR_LEADER:1 "Müttefik çağırabilmek için [war_leader|E] olmalısınız"
  I_HAVE_ALREADY_CALLED_THEM:1 "[CHARACTER.GetShortUIName] adlı kişiyi zaten tüm savaşlarınıza çağırdınız"
  I_CANNOT_CALL_A_VASSAL_AS_ALLY:1 "Savaşta [Concept( 'vassals', 'Vasallarınızı' )|E] [ally|E] olarak çağıramazsınız"
@@ -357,7 +306,8 @@
  IS_WAR_ALLY_OF_ANOTHER_TARGET_ENEMY:1 "[Select_CString( CHARACTER.IsLocalPlayer, '', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, 'Başka bir savaşta', ' başka bir savaşta' )] bu savaştaki düşmanlardan biriyle aynı tarafta[Select_CString( CHARACTER.IsLocalPlayer, 'sınız', '' )]"
  THEY_CANNOT_CREATE_CADET_BRANCH:0 "[CHARACTER.GetShortUIName|U] [cadet_branch|E] oluşturamaz"
  DECISION_COST:0 "Maliyet:"
- EFFECTS_ON_ME:1 "#high [Select_CString( Character.IsLocalPlayer, 'Benim', Character.GetUINameNoTooltip )]#! [Select_CString( Character.IsLocalPlayer, 'üzerimdeki', 'üzerindeki' )] etkileri"
+### TODO AGOT-CHANGED: EFFECTS_ON_ME [AGOT: Effects on [AGOTGetLongUINameNoTooltip(Character)|V] | TR: #high [Select_CString( Character.IsLocalPlayer, 'Benim', Character.GetUINameNoTooltip )]#! [Select_CString( Character.IsLocalPlayer, 'üzerimdeki', 'üzerindeki' )] etkileri]
+ EFFECTS_ON_ME:1 "Effects on [AGOTGetLongUINameNoTooltip(Character)|V]"
  RELEASE_GAIN_HOOK:1 "[weak_hook|E] Karşılığında"
  GAIN_HOOK_NEGATIVE_REASON:0 "[hook|E] vermek istemiyor: $VALUE|=+0$"
  demanded_hook:0 "Koz Talep Etti"
@@ -375,8 +325,7 @@
  BLACKMAIL_NOTIFICATION_SECRET_NON_BELIEVER:0 "\n[recipient.GetFaith.HighGodName] hakkında olan kuşkuların hakkında kanıtlarım var."
  BLACKMAIL_NOTIFICATION_SECRET_INCEST:0 "\nEnsestçe davranışların hakkında kanıtlarım var!"
  BLACKMAIL_NOTIFICATION_SECRET_WITCH:0 "\nŞeytanlarla arkadaşlık ettiğin hakkında kanıtlarım var!"
-### TODO AGOT-CHANGED: BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST [AGOT: \nI know that you are a secret believer of [recipient.GetSecretFaith.GetName]! | TR: \nSenin gizli bir [recipient.GetSecretFaith.GetName] olduğunu biliyorum!]
- BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\nI know that you are a secret believer of [recipient.GetSecretFaith.GetName]!"
+ BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\nSenin gizli bir [recipient.GetSecretFaith.GetName] olduğunu biliyorum!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY:0 "\nKarnında taşıdığın çocuğun gerçek babası olduğumu biliyorum."
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY_OTHER:0 "\nKarnında taşıdığın çocuğun gerçek babasının [secret_target.GetShortUIName] olduğunu biliyorum."
  BLACKMAIL_NOTIFICATION_SECRET_FALLBACK:0 "\nTüm sırlarını biliyorum!"
@@ -390,8 +339,7 @@
  BLACKMAIL_INTERACTION_ARROGANT_ACCEPTANCE:0 "Kibirli: $VALUE|=+0$"
  BLACKMAIL_INTERACTION_CRAVEN_ACCEPTANCE:0 "Korkak: $VALUE|=+0$"
  BLACKMAIL_INTERACTION_PARANOID_ACCEPTANCE:0 "Paranoyak: $VALUE|=+0$"
-### TODO AGOT-CHANGED: BLACKMAIL_INTERACTION_TRUSTING_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is Trusting: $VALUE|=+0$ | TR: Kolay Güvenen: $VALUE|=+0$]
- BLACKMAIL_INTERACTION_TRUSTING_ACCEPTANCE: "[recipient.GetSheHe|U] is Trusting: $VALUE|=+0$"
+ BLACKMAIL_INTERACTION_TRUSTING_ACCEPTANCE: "Kolay Güvenen: $VALUE|=+0$"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_ACTOR:0 "\n[secret_target.GetShortUIName] adlı kişinin gerçek babasının [father.GetShortUIName] değil, ben olduğumu biliyorum!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_OTHER:1 "\n[secret_target.GetShortUIName] adlı kişinin gerçek babasının [father.GetShortUIName] değil, [secret_target.GetRealFather.GetShortUIName] olduğunu biliyorum!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_CHILD_TARGET_ACTOR:0 "\nBabanın [father.GetShortUIName] değil, ben olduğumu biliyorum!"
@@ -486,10 +434,8 @@
  HOF_ASK_FOR_CLAIM_HAS_PRESSED_CLAIM_ALREADY:0 "Zaten [title|E] üzerinde [pressed_claim|E]na sahipsiniz"
  HOF_ASK_FOR_CLAIM_EXCOMMUNICATED:0 "[excommunicated|E] iken $hof_ask_for_claim_interaction$yemezsiniz!"
  HOF_INTERACTION_UNREFORMED_FAITH:0 "Bunu yapabilmek için [Concept( 'faith', 'Mezhebiniz' )|E] [organized|E] olmalı"
-### TODO AGOT-CHANGED: HOF_ASK_FOR_CLAIM_ON_ADMIN_TITLES [AGOT: A [head_of_faith|E] cannot grant you any claims on other [administrative|E] [titles|E] | TR: [head_of_faith|E] size diğer [administrative|E] [titles|E] üzerinde hak iddiası veremez]
- HOF_ASK_FOR_CLAIM_ON_ADMIN_TITLES: "A [head_of_faith|E] cannot grant you any claims on other [administrative|E] [titles|E]"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_INTRIGUE [AGOT: Difference between [recipient.GetShortUINamePossessive] and your [intrigue_skill|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName] ile aranızdaki [intrigue_skill|E] farkı: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_INTRIGUE: "Difference between [recipient.GetShortUINamePossessive] and your [intrigue_skill|E]: $VALUE|=+0$"
+ HOF_ASK_FOR_CLAIM_ON_ADMIN_TITLES: "[head_of_faith|E] size diğer [administrative|E] [titles|E] üzerinde hak iddiası veremez"
+ ASK_FOR_CONVERSION_RECIPIENT_INTRIGUE: "[recipient.GetShortUIName] ile aranızdaki [intrigue_skill|E] farkı: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_LEARNING:0 "[recipient.GetShortUINamePossessive] ve sizin [Concept( 'learning_skill', 'öğrenme beceriniz' )|E] arasındaki fark: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_DIPLOMACY:0 "[recipient.GetShortUINamePossessive] ve sizin [Concept( 'diplomacy_skill', 'diplomasi beceriniz' )|E] arasındaki fark: $VALUE|=+0$"
  ASK_FOR_CONVERSION_CAN_NOT_CREATE_CADET_BRANCH:0 "[recipient.GetShortUIName] [cadet_branch|E] oluşturamaz: $VALUE|=+0$"
@@ -504,52 +450,35 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_ZEALOUS:0 "[recipient.GetShortUIName|U] [GetTrait('zealous').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_CYNICAL:0 "[recipient.GetShortUIName|U] [GetTrait('cynical').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN:0 "[recipient.GetShortUIName|U] [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE [AGOT: [recipient.GetShortUIName|U] is [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] is [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH:0 "[recipient.GetShortUIName|U] bir [GetTrait('heresiarch').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC:0 "[recipient.GetShortUIName|U] bir [GetTrait('heretic').GetName( GetPlayer )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS [AGOT: [recipient.GetShortUINamePossessive|U] [piety_level|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] adlı kişinin [piety_level|E]: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUINamePossessive|U] [piety_level|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_TIER [AGOT: [recipient.GetShortUINamePossessive|U] [rank|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessive|U] adlı kişinin [Concept( 'rank', 'Kademesi' )|E]: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_TIER: "[recipient.GetShortUINamePossessive|U] [rank|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_CRIME [AGOT: [recipient.GetShortUINamePossessive|U] [liege|E] would consider [recipient.GetHerHim] [faith_hostile|E] or [faith_evil|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] adlı kişinin [Concept( 'liege', 'Süzereni' )|E] onu [faith_hostile|E] veya [faith_evil|E] olarak görür: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_CRIME: "[recipient.GetShortUINamePossessive|U] [liege|E] would consider [recipient.GetHerHim] [faith_hostile|E] or [faith_evil|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_ASTRAY [AGOT: [recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_astray|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_astray|E] olarak görüyor: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_ASTRAY: "[recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_astray|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_HOSTILE [AGOT: [recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_hostile|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_hostile|E] olarak görüyor: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_HOSTILE: "[recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_hostile|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_EVIL [AGOT: [recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_evil|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_evil|E] olarak görüyor: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_EVIL: "[recipient.GetShortUIName|U] considers [actor.GetFaith.GetAdjective] [faith_evil|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_ACTOR_IS_PIOUS [AGOT: [actor.GetShortUINamePossessive|U] [piety_level|E]: $VALUE|=+0$ | TR: Sahip olduğunuz [piety_level|E]: $VALUE|=+0$]
- ASK_FOR_CONVERSION_ACTOR_IS_PIOUS: "[actor.GetShortUINamePossessive|U] [piety_level|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: USING_STRESS [AGOT: [actor.GetShortUIName|U] are expending [stress|E]: $VALUE|=+0$ | TR: [stress|E] seviyeniz artıyor: $VALUE|=+0$]
- USING_STRESS: "[actor.GetShortUIName|U] are expending [stress|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: USING_GOLD [AGOT: [actor.GetShortUIName|U] are giving [gold|E]: $VALUE|=+0$ | TR: [gold|E] veriyorsunuz: $VALUE|=+0$]
- USING_GOLD: "[actor.GetShortUIName|U] are giving [gold|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: USING_PIETY [AGOT: [actor.GetShortUIName|U] are using [piety|E]: $VALUE|=+0$ | TR: [piety|E] harcıyorsunuz: $VALUE|=+0$]
- USING_PIETY: "[actor.GetShortUIName|U] are using [piety|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: USING_PROVISIONS [AGOT: [actor.GetShortUIName|U] are using [provisions|E]: $VALUE|=+0$ | TR: [provision|E] harcıyorsunuz: $VALUE|=+0$]
- USING_PROVISIONS: "[actor.GetShortUIName|U] are using [provisions|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_WILL_NOT_ACCEPT [AGOT: [recipient.GetShortUIName|U] will never convert willingly: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] asla kendi isteğiyle din değiştirmez: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_WILL_NOT_ACCEPT: "[recipient.GetShortUIName|U] will never convert willingly: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] adlı kişinin [piety_level|E]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_TIER: "[recipient.GetShortUINamePossessive|U] adlı kişinin [Concept( 'rank', 'Kademesi' )|E]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_CRIME: "[recipient.GetShortUIName|U] adlı kişinin [Concept( 'liege', 'Süzereni' )|E] onu [faith_hostile|E] veya [faith_evil|E] olarak görür: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_ASTRAY: "[recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_astray|E] olarak görüyor: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_HOSTILE: "[recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_hostile|E] olarak görüyor: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_EVIL: "[recipient.GetShortUIName|U], [actor.GetFaith.GetAdjective] mezhebini [faith_evil|E] olarak görüyor: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_ACTOR_IS_PIOUS: "Sahip olduğunuz [piety_level|E]: $VALUE|=+0$"
+ USING_STRESS: "[stress|E] seviyeniz artıyor: $VALUE|=+0$"
+ USING_GOLD: "[gold|E] veriyorsunuz: $VALUE|=+0$"
+ USING_PIETY: "[piety|E] harcıyorsunuz: $VALUE|=+0$"
+ USING_PROVISIONS: "[provision|E] harcıyorsunuz: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_WILL_NOT_ACCEPT: "[recipient.GetShortUIName|U] asla kendi isteğiyle din değiştirmez: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL:0 "[actor.GetCulture.GetName] ve [actor.GetShortUIName] [GetPrestigeLevelName( actor.GetPrestigeLevel )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: EP3_STATE_FAITH_CONVERSION [AGOT: [recipient.GetShortUIName|U] practices the [state_faith|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [Concept( 'state_faith', 'Devlet Mezhebine' )|E] inanıyor: $VALUE|=+0$]
- EP3_STATE_FAITH_CONVERSION: "[recipient.GetShortUIName|U] practices the [state_faith|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: EP3_STATE_FAITH_CONVERSION_NEG [AGOT: [recipient.GetShortUIName|U] does not practice the [state_faith|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [Concept( 'state_faith', 'Devlet Mezhebine' )|E] inanmıyor: $VALUE|=+0$]
- EP3_STATE_FAITH_CONVERSION_NEG: "[recipient.GetShortUIName|U] does not practice the [state_faith|E]: $VALUE|=+0$"
+ EP3_STATE_FAITH_CONVERSION: "[recipient.GetShortUIName|U] [Concept( 'state_faith', 'Devlet Mezhebine' )|E] inanıyor: $VALUE|=+0$"
+ EP3_STATE_FAITH_CONVERSION_NEG: "[recipient.GetShortUIName|U] [Concept( 'state_faith', 'Devlet Mezhebine' )|E] inanmıyor: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR:0 "[actor.GetFaith.GetName] mezhebinin [GetTrait('savior').GetName( GetPlayer )]sısınız: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD:0 "[GetTrait('divine_blood').GetName( GetPlayer )]a sahipsiniz: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_PARAGON:0 "[actor.GetFaith.GetName] mezhebinin [GetTrait('paragon').GetName( GetPlayer )]siniz: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_CONSECRATED_BLOOD:0 "[GetTrait('consecrated_blood').GetName( GetPlayer )]a sahipsiniz: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_UNPLEDGED_GHW:0 "[actor.GetFaith.GHWName] için olan sözünüzden döndünüz: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_CORONATION_BONUS [AGOT: [actor.GetShortUIName|U] have been anointed to proselytize: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] misyonerlik yapmakla görevlendirildi: $VALUE|=+0$]
- ASK_FOR_CONVERSION_CORONATION_BONUS: "[actor.GetShortUIName|U] have been anointed to proselytize: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_CORONATION_BONUS: "[actor.GetShortUIName|U] misyonerlik yapmakla görevlendirildi: $VALUE|=+0$"
  donated_ghw_money_1:0 "Savaş Sandığına Katkıda Bulundu"
  donated_ghw_money_2:0 "Dindar Bağışçı"
  CONVERT_AT_WAR_INTERACTION_NOTIFICATION:0 "Sonunda [recipient.GetFaith.HighGodNamePossessive] kudretini anladım. Silahlarınızı bırakırsanız [recipient.GetFaith.GetNameNoTooltip] mezhebine geçeceğim."
  TEST_INTERACTION_NOT_IMPLEMENTED:0 "Test Etkileşimi — Eklenmedi (N/A)"
-### TODO AGOT-CHANGED: GENERIC_YOUR_PIETY_LEVEL_MODIFIER [AGOT: Your [piety_level|E]: $VALUE|=+0$ | TR: [Concept( 'piety_level', 'Adanmışlık Seviyeniz' )|E]: $VALUE|=+0$]
- GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "Your [piety_level|E]: $VALUE|=+0$"
+ GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "[Concept( 'piety_level', 'Adanmışlık Seviyeniz' )|E]: $VALUE|=+0$"
  bankrupt_reason:0 "İflastasınız: $VALUE|+=0$"
  IS_NEIGHBOR_OR_DEJURE_LIEGE:0 "[TARGET_CHARACTER.GetShortUINameNotMe] bir komşu veya başkentinizin [de_jure|E] süzereni olmalı"
  OFFER_VASSALIZATION_INTERACTION_NOTIFICATION:1 "Sizin yeni süzereniniz olarak korumamı size de uzatmak istiyorum. Karşılığında ise sadece bağlılık yemini etmeniz gerekiyor..."
@@ -557,22 +486,17 @@
  FORCE_VOTE_INTERACTION_NOTIFICATION:0 "Sizin üzerinizdeki nüfuzumu kullanarak gelecek seçimde zorla benim seçtiğim vârise oy vermeniz gerektiğine karar verdim."
  FORCE_JOIN_FACTION_NOTIFICATION:0 "Sizin üzerinizdeki nüfuzumu kullanarak sizi örgütleşmeme katılmaya zorlamaya karar verdim."
  OFFER_FEALTY_INTERACTION_NOTIFICATION:1 "Benim yeni süzerenim olarak bağlılık yeminimi kabul etmenizi rica ediyorum."
-### TODO AGOT-CHANGED: BECOME_TRIBUTARY_INTERACTION_NOTIFICATION [AGOT: I humbly ask for you to accept my tribute, and for you to become my new suzerain. | TR: Naçizane haracımı kabul etmenizi ve yeni efendim olmanızı rica ediyorum.]
- BECOME_TRIBUTARY_INTERACTION_NOTIFICATION: "I humbly ask for you to accept my tribute, and for you to become my new suzerain."
-### TODO AGOT-CHANGED: DEMAND_TRIBUTARY_INTERACTION_NOTIFICATION [AGOT: Your realm appears in need of protection. As your new suzerain I would provide this sense of security, in exchange for tribute from [recipient.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]... | TR: Ülkeniz korunmaya muhtaç görünüyor. Yeni efendiniz olarak bu açığı kapatabilirim, elbette [recipient.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] topraklarından gelen haraç karşılığında...]
- DEMAND_TRIBUTARY_INTERACTION_NOTIFICATION: "Your realm appears in need of protection. As your new suzerain I would provide this sense of security, in exchange for tribute from [recipient.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]..."
-### TODO AGOT-CHANGED: OFFER_TRIBUTARY_STATUS_INTERACTION_NOTIFICATION [AGOT: Come, see the light and join my gathering of devout tributaries. We make this world better, together. | TR: Gelin ve ışığı görerek dindar haraçgüzarlarıma katılın. Hep birlikte bu dünyayı daha iyi bir yer hâline getireceğiz.]
- OFFER_TRIBUTARY_STATUS_INTERACTION_NOTIFICATION: "Come, see the light and join my gathering of devout tributaries. We make this world better, together."
+ BECOME_TRIBUTARY_INTERACTION_NOTIFICATION: "Naçizane haracımı kabul etmenizi ve yeni efendim olmanızı rica ediyorum."
+ DEMAND_TRIBUTARY_INTERACTION_NOTIFICATION: "Ülkeniz korunmaya muhtaç görünüyor. Yeni efendiniz olarak bu açığı kapatabilirim, elbette [recipient.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] topraklarından gelen haraç karşılığında..."
+ OFFER_TRIBUTARY_STATUS_INTERACTION_NOTIFICATION: "Gelin ve ışığı görerek dindar haraçgüzarlarıma katılın. Hep birlikte bu dünyayı daha iyi bir yer hâline getireceğiz."
  REQUEST_ARREST_NOTIFICATION_TEXT:0 "Tahta karşı işlediğin suçlar nedeniyle tutuklandın."
  REQUEST_VOWS_NOTIFICATION_TEXT:0 "Saraydan ayrılıp ruhban yemini etmeniz istendi."
  CHARACTER_INTERACTION_ALLOWED_TO_MARRY:0 "Evlenmesine İzin Ver"
  CHARACTER_INTERACTION_ALLOW_MARRIAGE:0 "#T Evlenmesine İzin Ver\n#!#I Buna tıklarsanız [CHARACTER.GetUIName] artık kendi isteğiyle evlenebilir#!"
  CHARACTER_INTERACTION_DISALLOW_MARRIAGE:0 "#T Evlenmesine İzin Verme\n#!#I Buna tıklarsanız [CHARACTER.GetUIName] artık kendi isteğiyle evlenemeyecek#!"
  CHARACTER_INTERACTION_TOGGLE_FAVORITE: "[SelectLocalization( InteractionItem.IsFavorite, 'CHARACTER_INTERACTION_TOGGLE_FAVORITE_OFF', 'CHARACTER_INTERACTION_TOGGLE_FAVORITE_ON' )]"
-### TODO AGOT-CHANGED: CHARACTER_INTERACTION_TOGGLE_FAVORITE_ON [AGOT: #T Add to Favorites\n#!The next time you open this list, '[InteractionItem.GetName]' will appear among your Favorites. | TR: #T Favorilere Ekle\n#!Bu listeyi bir sonraki açışınızda '[InteractionItem.GetName]' Favorileriniz arasında görünür.]
- CHARACTER_INTERACTION_TOGGLE_FAVORITE_ON: "#T Add to Favorites\n#!The next time you open this list, '[InteractionItem.GetName]' will appear among your Favorites."
-### TODO AGOT-CHANGED: CHARACTER_INTERACTION_TOGGLE_FAVORITE_OFF [AGOT: #T Remove from Favorites\n#!The next time you open this list, '[InteractionItem.GetName]' will no longer appear among your Favorites. | TR: #T Favorilerden Çıkar\n#!Bu listeyi bir sonraki açışınızda '[InteractionItem.GetName]' Favorileriniz arasında görünmeyecektir.]
- CHARACTER_INTERACTION_TOGGLE_FAVORITE_OFF: "#T Remove from Favorites\n#!The next time you open this list, '[InteractionItem.GetName]' will no longer appear among your Favorites."
+ CHARACTER_INTERACTION_TOGGLE_FAVORITE_ON: "#T Favorilere Ekle\n#!Bu listeyi bir sonraki açışınızda '[InteractionItem.GetName]' Favorileriniz arasında görünür."
+ CHARACTER_INTERACTION_TOGGLE_FAVORITE_OFF: "#T Favorilerden Çıkar\n#!Bu listeyi bir sonraki açışınızda '[InteractionItem.GetName]' Favorileriniz arasında görünmeyecektir."
  CHARACTER_INTERACTION_CANT_CONTROL_MARRIAGE:0 "#T Evlenmesine İzin Verme\n#! #X [CHARACTER.GetUIName] $YEARS|V$ yıldan uzun bir süredir hükümdar olduğu için kendi isteğiyle evlenebilir#!"
  ASK_FOR_DIVORCE_NOTIFICATION:0 "[secondary_recipient.GetShortUIName] ile olan evliliğimin [actor.GetFaith.HighGodName] tarafından kutsanmadığı apaçık. Boşanmama izin verir misiniz?"
  OFFER_RANSOM_PROPOSAL_PERSONAL:0 "Sizi serbest bırakmak istiyorum ama özgürlük bedava değildir. Teklifimi değerlendirin."
@@ -634,18 +558,12 @@
  I_PROMISED_NOT_TO_REVEAL_SECRET:0 "Sırrı açığa çıkarmamak üzere söz verdiniz"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET:1 "Kendi sevgili [Concept( 'secret', 'Sırrınız' )|E] üzerinden şantaj yapamazsınız"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_BASTARD:1 "Kendi [bastard|E]iniz üzerinden şantaj yapamazsınız"
-### TODO AGOT-CHANGED: CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER [AGOT: [CHARACTER.GetShortUIName|U] has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName] | TR: [CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi]
- CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
-### TODO AGOT-CHANGED: CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER [AGOT: [CHARACTER.GetShortUIName|U] has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName] | TR: [CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi]
- CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
-### TODO AGOT-CHANGED: HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER [AGOT: Has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName] | TR: [TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi]
- HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "Has a Crypto-Religionist [secret|E] known by [TARGET_CHARACTER.GetShortUIName]"
-### TODO AGOT-CHANGED: I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH [AGOT: You cannot blackmail another Crypto-[ROOT.Char.GetSecretFaith.GetAdherentName] | TR: Bir diğer Kripto-[ROOT.Char.GetSecretFaith.GetAdherentName] karaktere şantaj uygulayamazsınız]
- I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "You cannot blackmail another Crypto-[ROOT.Char.GetSecretFaith.GetAdherentName]"
-### TODO AGOT-CHANGED: IS_AWARE_OF_SHARED_CRYPTO_RELIGION [AGOT: You know that [TARGET_CHARACTER.GetShortUINameNoTooltip] practices Crypto-[CHARACTER.GetSecretFaith.GetName] | TR: [TARGET_CHARACTER.GetShortUINameNoTooltip] adlı karakterin Kripto-[CHARACTER.GetSecretFaith.GetName] olduğunu biliyorsunuz]
- IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "You know that [TARGET_CHARACTER.GetShortUINameNoTooltip] practices Crypto-[CHARACTER.GetSecretFaith.GetName]"
-### TODO AGOT-CHANGED: IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION [AGOT: You do not know whether [TARGET_CHARACTER.GetShortUINameNoTooltip] practices Crypto-[CHARACTER.GetSecretFaith.GetName] | TR: [TARGET_CHARACTER.GetShortUINameNoTooltip] adlı karakterin Kripto-[CHARACTER.GetSecretFaith.GetName] olup olmadığını bilmiyorsunuz]
- IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "You do not know whether [TARGET_CHARACTER.GetShortUINameNoTooltip] practices Crypto-[CHARACTER.GetSecretFaith.GetName]"
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi"
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi"
+ HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[TARGET_CHARACTER.GetShortUIName] tarafından bilinen bir Kripto-Mezhep [secret|E] sahibi"
+ I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "Bir diğer Kripto-[ROOT.Char.GetSecretFaith.GetAdherentName] karaktere şantaj uygulayamazsınız"
+ IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "[TARGET_CHARACTER.GetShortUINameNoTooltip] adlı karakterin Kripto-[CHARACTER.GetSecretFaith.GetName] olduğunu biliyorsunuz"
+ IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "[TARGET_CHARACTER.GetShortUINameNoTooltip] adlı karakterin Kripto-[CHARACTER.GetSecretFaith.GetName] olup olmadığını bilmiyorsunuz"
  FORCE_VOTE_IN_SUCCESSION_ELECTION_ALREADY_FORCED:0 "@warning_icon! #X [CHARACTER.GetUINameNotMe] zaten bu seçimde [TARGET_CHARACTER.GetShortUINamePossessive] oyunu kontrol ediyor#!"
  THEIR_FOLLOWERS_ARE_PROTECTING_THEM:0 "Onun takipçileri onu koruyor!"
  I_AM_AWATING_RESPONSE_FROM_A_PREVIOUS_REQUEST:0 "Başka bir mesele hakkında cevap bekliyorsunuz"
@@ -659,10 +577,8 @@
  KICK_FROM_COURT_INTERACTION_TRAVELLING_FAMILY_INVALID_LOC:0 "[CHARACTER.GetShortUIName|U] bir yakın aile üyesini geride bırakmak zorunda kalır"
  AI_YOUR_LOVER:0 "O sizin sevgiliniz: $VALUE|=+0$"
  AI_YOUR_FRIEND:0 "O sizin arkadaşınız: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_YOUR_ELDER [AGOT: [recipient.GetSheHe|U] is your Elder: $VALUE|=+0$ | TR: O sizin bilgeniz: $VALUE|=+0$]
- AI_YOUR_ELDER: "[recipient.GetSheHe|U] is your Elder: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_YOUR_DISCIPLE [AGOT: [recipient.GetSheHe|U] is your Disciple: $VALUE|=+0$ | TR: O sizin neferiniz: $VALUE|=+0$]
- AI_YOUR_DISCIPLE: "[recipient.GetSheHe|U] is your Disciple: $VALUE|=+0$"
+ AI_YOUR_ELDER: "O sizin bilgeniz: $VALUE|=+0$"
+ AI_YOUR_DISCIPLE: "O sizin neferiniz: $VALUE|=+0$"
  AI_YOUR_RIVAL:0 "O sizin rakibiniz: $VALUE|=+0$"
  AI_YOUR_CHILD:0 "O sizin çocuğunuz: $VALUE|=+0$ "
  AI_YOUR_RELATIVE:0 "O sizin akrabanız: $VALUE|=+0$ "
@@ -673,11 +589,9 @@
  AI_THEIR_CHILD:0 "[recipient.GetShortUIName] süzereninin çocuğu: $VALUE|=+0$ "
  AI_THEIR_RELATIVE:0 "[recipient.GetShortUIName] süzereninin akrabası: $VALUE|=+0$ "
  AI_MY_LIEGES_KNIGHT:3 "[recipient.GetShortUIName], süzereninin hizmetindeki bir [recipient.GetLiege.Custom('KnightCultureNoTooltip')]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_STOOGE [AGOT: You humiliated [recipient.GetShortUIName] as your $stooge_camp_officer$: $VALUE|=+0$ | TR: [recipient.GetShortUIName] adlı kişiyi $stooge_camp_officer$ yaparak onu küçük düşürdünüz: $VALUE|=+0$]
- AI_STOOGE: "You humiliated [recipient.GetShortUIName] as your $stooge_camp_officer$: $VALUE|=+0$ "
+ AI_STOOGE: "[recipient.GetShortUIName] adlı kişiyi $stooge_camp_officer$ yaparak onu küçük düşürdünüz: $VALUE|=+0$ "
  AI_MY_LIEGES_COMMANDER:2 "[recipient.GetShortUIName] süzereninin komutanı: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_MY_LIEGE_IS_LANDED [AGOT: [recipient.GetShortUINamePossessive] belongs to a [court|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName] [Concept( 'court', 'Sarayda' )|E] yaşamalı: $VALUE|=+0$]
- AI_MY_LIEGE_IS_LANDED: "[recipient.GetShortUINamePossessive] belongs to a [court|E]: $VALUE|=+0$"
+ AI_MY_LIEGE_IS_LANDED: "[recipient.GetShortUIName] [Concept( 'court', 'Sarayda' )|E] yaşamalı: $VALUE|=+0$"
  AI_ON_THE_COUNCIL:1 "[recipient.GetShortUIName] konseyde: $VALUE|=+0$"
  AI_COURT_PHYSICIAN:0 "[recipient.GetShortUIName] Süzereninin $court_physician_court_position$i: $VALUE|=+0$"
  AI_LEAVING_MY_SPOUSE:1 "[recipient.GetShortUIName] eşini geride bırakmak zorunda kalır: $VALUE|=+0$"
@@ -691,54 +605,33 @@
  AI_YOU_ARE_THE_FATHER:1 "[Select_CString( secondary_actor.IsLocalPlayer, '', secondary_actor.GetShortUIName )][Select_CString( secondary_actor.IsLocalPlayer, 'Gerçek babasısınız', ' gerçek babası' )]: $VALUE|=+0$"
  AI_YOU_ARE_THE_DYNAST:1 "Onun [Concept( 'dynast', 'hanedan reisisiniz' )|E]: $VALUE|=+0$"
  AI_YOU_ARE_THE_HOUSE_HEAD:1 "Onun [Concept( 'house_head', 'hane reisisiniz' )|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_YOU_ARE_THE_SOVEREIGN [AGOT: You are [recipient.GetHerHis] Sovereign: $VALUE|=+0$ | TR: Onun liderisiniz: $VALUE|=+0$]
- AI_YOU_ARE_THE_SOVEREIGN: "You are [recipient.GetHerHis] Sovereign: $VALUE|=+0$"
-### TODO AGOT-CHANGED: CLOSE_FAMILY_TIERS_REASON [AGOT: Relative [close_family|E] [title_tiers|E]: $VALUE|=+0$ | TR: Göreceli [close_family|E] [Concept( 'title_tiers', 'Seviyesi' )|E]: $VALUE|=+0$]
- CLOSE_FAMILY_TIERS_REASON: "Relative [close_family|E] [title_tiers|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: THEY_ARE_NON_ADMIN_REASON [AGOT: [recipient.GetShortUINamePossessive] [government|E] is not [administrative|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName] [administrative|E] [Concept( 'government', 'Yönetime' )|E] sahip değil: $VALUE|=+0$]
- THEY_ARE_NON_ADMIN_REASON: "[recipient.GetShortUINamePossessive] [government|E] is not [administrative|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: YOU_ARE_NON_ADMIN_REASON [AGOT: [actor.GetShortUINamePossessive|U] [government|E] is not [administrative|E]: $VALUE|=+0$ | TR: [administrative|E] [Concept( 'government', 'Yönetime' )|E] sahip değilsiniz: $VALUE|=+0$]
- YOU_ARE_NON_ADMIN_REASON: "[actor.GetShortUINamePossessive|U] [government|E] is not [administrative|E]: $VALUE|=+0$"
+ AI_YOU_ARE_THE_SOVEREIGN: "Onun liderisiniz: $VALUE|=+0$"
+ CLOSE_FAMILY_TIERS_REASON: "Göreceli [close_family|E] [Concept( 'title_tiers', 'Seviyesi' )|E]: $VALUE|=+0$"
+ THEY_ARE_NON_ADMIN_REASON: "[recipient.GetShortUIName] [administrative|E] [Concept( 'government', 'Yönetime' )|E] sahip değil: $VALUE|=+0$"
+ YOU_ARE_NON_ADMIN_REASON: "[administrative|E] [Concept( 'government', 'Yönetime' )|E] sahip değilsiniz: $VALUE|=+0$"
  FACTION_REASON_CHILD: "[child|E] [liege|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_RECIPIENT_IS_NOT_CYNICAL [AGOT: [recipient.GetShortUIName|U] is #bold not#! [GetTrait('cynical').GetName( GetPlayer )]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [GetTrait('cynical').GetName( GetPlayer )] #bold değil#!: $VALUE|=+0$]
- ASK_FOR_CONVERSION_RECIPIENT_IS_NOT_CYNICAL: "[recipient.GetShortUIName|U] is #bold not#! [GetTrait('cynical').GetName( GetPlayer )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: DIFFERENT_FAITH [AGOT: Different [faith|E]: $VALUE|+0$ | TR: Farklı [faith|E]: $VALUE|+0$]
- DIFFERENT_FAITH: "Different [faith|E]: $VALUE|+0$"
-### TODO AGOT-CHANGED: AI_OPINION_RECIPIENT_REASON [AGOT: Opinion of the target: $VALUE|=+0$ | TR: Hedefe karşı görüşü: $VALUE|=+0$]
- AI_OPINION_RECIPIENT_REASON: "Opinion of the target: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_INCESTOUS [AGOT: I am Incestous: $VALUE|=+0$ | TR: Ensestçiyim: $VALUE|=+0$]
- I_AM_INCESTOUS: "I am Incestous: $VALUE|=+0$"
-### TODO AGOT-CHANGED: THEY_ARE_INCESTOUS [AGOT: [secondary_recipient.GetShortUINameNoTooltip] is Incestous: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINameNoTooltip] ensestçi: $VALUE|=+0$]
- THEY_ARE_INCESTOUS: "[secondary_recipient.GetShortUINameNoTooltip] is Incestous: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_MURDERER [AGOT: I am a Murderer: $VALUE|=+0$ | TR: Ben katilim: $VALUE|=+0$]
- I_AM_MURDERER: "I am a Murderer: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_SODOMITE [AGOT: I am a Sodomite: $VALUE|=+0$ | TR: Ben sodomistim: $VALUE|=+0$]
- I_AM_SODOMITE: "I am a Sodomite: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_DEVIANT [AGOT: I am a Deviant: $VALUE|=+0$ | TR: Ben sapığım: $VALUE|=+0$]
- I_AM_DEVIANT: "I am a Deviant: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_WITCH [AGOT: I am a Witch: $VALUE|=+0$ | TR: Ben cadıyım: $VALUE|=+0$]
- I_AM_WITCH: "I am a Witch: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_LIEGE_TOP_LIEGE [AGOT: I am [recipient.GetShortUINamePossessive] [liege|E] or [top_liege|E]: $VALUE|=+0$ | TR: Ben [recipient.GetShortUINamePossessive] [Concept('liege', 'Süzereni')|E] veya [Concept('top_liege', 'Ana Süzereniyim')|E]: $VALUE|=+0$]
- I_AM_LIEGE_TOP_LIEGE: "I am [recipient.GetShortUINamePossessive] [liege|E] or [top_liege|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: THEY_ARE_MURDERER [AGOT: [secondary_recipient.GetShortUINameNoTooltip] is a Murderer: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINameNoTooltip] bir katil: $VALUE|=+0$]
- THEY_ARE_MURDERER: "[secondary_recipient.GetShortUINameNoTooltip] is a Murderer: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_AM_ADULTERER [AGOT: I am an Adulterer or Fornicator: $VALUE|=+0$ | TR: Zinacı veya zamparayım: $VALUE|=+0$]
- I_AM_ADULTERER: "I am an Adulterer or Fornicator: $VALUE|=+0$"
-### TODO AGOT-CHANGED: THEY_ARE_ADULTERER [AGOT: [secondary_recipient.GetShortUINameNoTooltip] is an Adulterer or Fornicator: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINameNoTooltip] bir zinacı veya zampara: $VALUE|=+0$]
- THEY_ARE_ADULTERER: "[secondary_recipient.GetShortUINameNoTooltip] is an Adulterer or Fornicator: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_DYNASTY_PRESTIGE_REASON_OURS [AGOT: [dynasty_prestige_level|E] of the [actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$ | TR: [actor.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$]
- AI_DYNASTY_PRESTIGE_REASON_OURS: "[dynasty_prestige_level|E] of the [actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_DYNASTY_PRESTIGE_REASON_THEIRS [AGOT: [dynasty_prestige_level|E] of the [recipient.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$ | TR: [recipient.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$]
- AI_DYNASTY_PRESTIGE_REASON_THEIRS: "[dynasty_prestige_level|E] of the [recipient.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_DYNASTY_PRESTIGE_REASON_SECONDARY_OURS [AGOT: [dynasty_prestige_level|E] of the [secondary_actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$ | TR: [secondary_actor.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$]
- AI_DYNASTY_PRESTIGE_REASON_SECONDARY_OURS: "[dynasty_prestige_level|E] of the [secondary_actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_DYNASTY_PRESTIGE_REASON_SECONDARY_THEIRS [AGOT: [dynasty_prestige_level|E] of the [secondary_recipient.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$ | TR: [secondary_recipient.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$]
- AI_DYNASTY_PRESTIGE_REASON_SECONDARY_THEIRS: "[dynasty_prestige_level|E] of the [secondary_recipient.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$"
- AI_WANDERLUST:0 ""Bana ne yapacağımı söyleyemezsin #EMP [Select_CString(actor.IsFemale, 'anne', 'baba' )]#!.": $VALUE|=+0$ "
+ ASK_FOR_CONVERSION_RECIPIENT_IS_NOT_CYNICAL: "[recipient.GetShortUIName|U] [GetTrait('cynical').GetName( GetPlayer )] #bold değil#!: $VALUE|=+0$"
+ DIFFERENT_FAITH: "Farklı [faith|E]: $VALUE|+0$"
+ AI_OPINION_RECIPIENT_REASON: "Hedefe karşı görüşü: $VALUE|=+0$"
+ I_AM_INCESTOUS: "Ensestçiyim: $VALUE|=+0$"
+ THEY_ARE_INCESTOUS: "[secondary_recipient.GetShortUINameNoTooltip] ensestçi: $VALUE|=+0$"
+ I_AM_MURDERER: "Ben katilim: $VALUE|=+0$"
+ I_AM_SODOMITE: "Ben sodomistim: $VALUE|=+0$"
+ I_AM_DEVIANT: "Ben sapığım: $VALUE|=+0$"
+ I_AM_WITCH: "Ben cadıyım: $VALUE|=+0$"
+ I_AM_LIEGE_TOP_LIEGE: "Ben [recipient.GetShortUINamePossessive] [Concept('liege', 'Süzereni')|E] veya [Concept('top_liege', 'Ana Süzereniyim')|E]: $VALUE|=+0$"
+ THEY_ARE_MURDERER: "[secondary_recipient.GetShortUINameNoTooltip] bir katil: $VALUE|=+0$"
+ I_AM_ADULTERER: "Zinacı veya zamparayım: $VALUE|=+0$"
+ THEY_ARE_ADULTERER: "[secondary_recipient.GetShortUINameNoTooltip] bir zinacı veya zampara: $VALUE|=+0$"
+ AI_DYNASTY_PRESTIGE_REASON_OURS: "[actor.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$"
+ AI_DYNASTY_PRESTIGE_REASON_THEIRS: "[recipient.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$"
+ AI_DYNASTY_PRESTIGE_REASON_SECONDARY_OURS: "[secondary_actor.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$"
+ AI_DYNASTY_PRESTIGE_REASON_SECONDARY_THEIRS: "[secondary_recipient.GetDynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] [dynasty_prestige_level|E]: $VALUE|=+0$"
+### TODO AGOT-ONLY: AI_WANDERLUST [AGOT: ]
+ AI_WANDERLUST:0 ""You can't tell me what to do, #EMP [actor.GetMotherFather].": $VALUE|=+0$ "
  AI_COURT_LODGING_STANDARDS_QUALITY:1 "$court_lodging_standards$nız: $VALUE|=+0$ "
  AI_LIEGE_COURT_LODGING_STANDARDS_QUALITY:0 "[liege|E]inizin $court_lodging_standards$: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INVITE_TO_COURT_COOLDOWN [AGOT: They recently accepted an invite to their current court and cannot be invited again for a while | TR: Yakın zamanda mevcut sarayı için bir davet kabul etti ve bir süre daha başka bir yere çağrılamaz]
- INVITE_TO_COURT_COOLDOWN: "They recently accepted an invite to their current court and cannot be invited again for a while"
+ INVITE_TO_COURT_COOLDOWN: "Yakın zamanda mevcut sarayı için bir davet kabul etti ve bir süre daha başka bir yere çağrılamaz"
  AI_CAN_BE_PERSUADED_TO_STAY:0 "Evsiz gezgin kalması için ikna edilebilir: $VALUE|=+0$"
  AI_TRAVEL_EXPENSES:0 "Seyahat masrafları karşılanıyor: $VALUE|=+0$"
  COVER_TRAVEL_EXPENSES:0 "Seyahat Masraflarını karşıla"
@@ -754,8 +647,7 @@
  RULERS_FAMILY_IS_MARRIED_TO_THEM:0 "[CHARACTER.GetShortUIName], [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sizin', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ' adlı kişinin' )] çocuğu[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nuz', '' )], ebeveyni[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'niz', '' )], kardeşi[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'niz', '' )], torunu[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nuz', '' )], büyük ebeveyni[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'niz', '' )], amca[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nız', 'sı' )], dayı[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nız', 'sı' )], hala[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'nız', 'sı' )], teyze[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'niz', 'si' )] veya yeğeni[Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'niz', '' )] ile evli"
  RULERS_CHILD_PARENT_SIBLING_IS_MARRIED_TO_OTHER_RULERS:0 "[CHARACTER.GetTitledFirstNamePossessive] çocuğu, ebeveyni veya kardeşi; [TARGET_CHARACTER.GetShortUIName] adlı kişinin çocuğu, ebeveyni veya kardeşi ile evli"
  HAS_SENT_INTERACTION_ALREADY:1 "Aynı anda bu etkileşimlerden sadece bir tane gönderebilirsiniz"
-### TODO AGOT-CHANGED: HAS_NO_OPTION_SELECTED [AGOT: You have to select at least one option | TR: En az bir seçenek seçmeniz gerekiyor]
- HAS_NO_OPTION_SELECTED: "You have to select at least one option"
+ HAS_NO_OPTION_SELECTED: "En az bir seçenek seçmeniz gerekiyor"
  ALREADY_HAS_AN_ALLIANCE_DEAL:1 "Aynı kişiyle bir tane [alliance|E] aktif olabilir"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL:0 "Aynı kişiye aynı anda sadece bir [alliance|E] önerebilirsiniz"
  SCHEME_PREDICTION_NAME:0 "[InteractionSchemeInfo.GetTarget.GetTitledFirstNameNoTooltip] Hedefli [InteractionSchemeInfo.GetScheme.GetActionName] Planı"
@@ -765,16 +657,14 @@
  SCHEME_PREDICTION_NO_AGENTS:0 "#weak Yok#!"
  SCHEME_PREDICTION_AGENT:0 "[CHARACTER.GetShortUIName|U]\n"
  SCHEME_PREDICTION_NO_CHANCE:0 "#X @warning_icon! Başarı İhtimali Yok!#!\n"
-### TODO AGOT-CHANGED: SCHEME_PREDICTION_SUCCESS_TT [AGOT: #T Initial [success_chance|E]: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_CFixedPoint( InteractionSchemeInfo.GetSuccessChance, '(CFixedPoint)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown] | TR: #T Başlangıçtaki [success_chance|E]: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_CFixedPoint( InteractionSchemeInfo.GetSuccessChance, '(CFixedPoint)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown]]
- SCHEME_PREDICTION_SUCCESS_TT: "#T Initial [success_chance|E]: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_CFixedPoint( InteractionSchemeInfo.GetSuccessChance, '(CFixedPoint)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown]"
+ SCHEME_PREDICTION_SUCCESS_TT: "#T Başlangıçtaki [success_chance|E]: [InteractionSchemeInfo.GetSuccessChance|%/V]\n#![SelectLocalization( LessThanOrEqualTo_CFixedPoint( InteractionSchemeInfo.GetSuccessChance, '(CFixedPoint)0' ), 'SCHEME_PREDICTION_NO_CHANCE', '' )][InteractionSchemeInfo.GetSuccessBreakdown]"
  SCHEME_PREDICTION_SECRECY_TT:2 "#T Tahmin Edilen [secrecy|E]: [InteractionSchemeInfo.GetSecrecy|%/V]\n#![InteractionSchemeInfo.GetSecrecyBreakdown]"
  SCHEME_PREDICTION_ON_DISCOVERY:2 "[scheme|E] gizli kaldığı sürece:"
  SCHEME_PREDICTION_EXPECTED_TIME:0 "[Concept( 'scheme', 'Planı' )|E] tamamlamak için tahmin edilen süre:"
  SCHEME_PREDICTION_SPEED: "[scheme_speed_single|E]: [GetGameTimeDurationDays(InteractionSchemeInfo.GetSchemePhaseLengthDays)]"
  SCHEME_PREDICTION_ON_SUCCESS:0 "[scheme|E] başarılı olduğunda:"
  SCHEME_PREDICTION_SUCCESS_CHANCE: "[predicted_difficulty|E]: [GetSchemeOddsLevelNameFromValue(InteractionSchemeInfo.GetOddsPredictionValue)]"
-### TODO AGOT-CHANGED: SCHEME_PREDICTION_VALUE_DEBUG [AGOT: #D Odds: [InteractionSchemeInfo.GetOddsPredictionValue]#! | TR: #D Plan Zorluğu: [InteractionSchemeInfo.GetOddsPredictionValue]#!]
- SCHEME_PREDICTION_VALUE_DEBUG: "#D Odds: [InteractionSchemeInfo.GetOddsPredictionValue]#!"
+ SCHEME_PREDICTION_VALUE_DEBUG: "#D Plan Zorluğu: [InteractionSchemeInfo.GetOddsPredictionValue]#!"
  SCHEME_PREDICTION_NO_SUCCESS:0 "#X @warning_icon! Tahmin Edilen Başarı İhtimali %0#!"
  ENFORCE_DEMANDS_INTERACTION:0 "Barış"
  SURRENDER_WAR_INTERACTION:0 "Teslim Ol"
@@ -785,8 +675,7 @@
  they_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] üzerinde kullanabileceği bir [Concept( 'hook', 'Koza' )|E] sahip"
  they_do_not_have_usable_hook_on_them:0 "[CHARACTER.GetShortUIName|U], [TARGET_CHARACTER.GetShortUIName] üzerinde kullanabileceği bir [Concept( 'hook', 'Koza' )|E] sahip değil"
  NOT_character_can_not_target_self:1 "Kendinizi hedefleyemezsiniz"
-### TODO AGOT-CHANGED: REVEL_IN_PAIN_INTERACTION_NOTIFICATION [AGOT: The time has come. Let us embrace the [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] and reach higher levels of transcendence together. | TR: Vakit geldi. [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] öğretisiyle birlikte arınalım.]
- REVEL_IN_PAIN_INTERACTION_NOTIFICATION: "The time has come. Let us embrace the [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] and reach higher levels of transcendence together."
+ REVEL_IN_PAIN_INTERACTION_NOTIFICATION: "Vakit geldi. [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] öğretisiyle birlikte arınalım."
  ACCEPT:0 "Kabul Edecek"
  DECLINE:0 "Reddedecek"
  INTERACTION_REPLACE_SCHEME_HOSTILE:0 "[scheme_hostile|E]"
@@ -797,14 +686,10 @@
  START_SCHEME:0 "Plan Başlat"
  SEND_PROPOSAL:0 "Teklifi Gönder"
  SEND_DEMAND:0 "Talebi Gönder"
-### TODO AGOT-CHANGED: CELESTIAL_TRIBUTARY_REQUEST_TRADE [AGOT: privileged access to the imperial markets | TR: imparatorluk pazarlarına ayrıcalıklı erişim]
- CELESTIAL_TRIBUTARY_REQUEST_TRADE: "privileged access to the imperial markets"
-### TODO AGOT-CHANGED: CELESTIAL_TRIBUTARY_REQUEST_MARRIAGE [AGOT: future permission to unite our dynasties in marriage | TR: hanedanlarımızı evlilik yoluyla birleştirmek için gelecekte verilecek izin]
- CELESTIAL_TRIBUTARY_REQUEST_MARRIAGE: "future permission to unite our dynasties in marriage"
-### TODO AGOT-CHANGED: CELESTIAL_TRIBUTARY_REQUEST_POLITICS [AGOT: the privilege to mingle with your advisors in the imperial palace | TR: imparatorluk sarayında müşavirlerinizle bir araya gelme ayrıcalığı]
- CELESTIAL_TRIBUTARY_REQUEST_POLITICS: "the privilege to mingle with your advisors in the imperial palace"
-### TODO AGOT-CHANGED: CELESTIAL_TRIBUTARY_REQUEST_GENERIC [AGOT: a modicum of relief from our ongoing obligations | TR: süregelen yükümlülüklerimizden bir nebze hafifleme]
- CELESTIAL_TRIBUTARY_REQUEST_GENERIC: "a modicum of relief from our ongoing obligations"
+ CELESTIAL_TRIBUTARY_REQUEST_TRADE: "imparatorluk pazarlarına ayrıcalıklı erişim"
+ CELESTIAL_TRIBUTARY_REQUEST_MARRIAGE: "hanedanlarımızı evlilik yoluyla birleştirmek için gelecekte verilecek izin"
+ CELESTIAL_TRIBUTARY_REQUEST_POLITICS: "imparatorluk sarayında müşavirlerinizle bir araya gelme ayrıcalığı"
+ CELESTIAL_TRIBUTARY_REQUEST_GENERIC: "süregelen yükümlülüklerimizden bir nebze hafifleme"
  INTERACTION_SHOW_ACCEPT_EFFECTS_TT:0 "[interaction|E] kabul edilirse ne olacağını göster"
  INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS_TT:0 "[interaction|E] alıcıya gönderilmeden önce aracı biri tarafından veto edilirse ne olacağını göster"
  INTERACTION_SHOW_DECLINE_EFFECTS_TT:0 "[interaction|E] reddedilirse ne olacağını göster"
@@ -812,8 +697,7 @@
  INTERACTION_ACCEPTANCE_SCORE:1 "[CharacterInteractionConfirmationWindow.GetAnswerScore|+=0]"
  INTERACTION_ACCEPTANCE_CHANCE:0 "[CharacterInteractionConfirmationWindow.GetAnswerProgress|+0%/]"
  break_betrothal_hook_toast_desc:0 "Karakterinizin [GetPlayer.Custom2('RelationToMe', SCOPE.sC('rejecting_betrothed'))] [rejecting_betrothed.GetShortUIName] ile [rejected_betrothed.GetUIName] arasındaki nişan bozuldu."
-### TODO AGOT-CHANGED: break_betrothal_hook_toast_desc_self [AGOT: Your [betrothal|E] to [rejected_betrothed.GetUIName] is now broken. | TR: [rejected_betrothed.GetUIName] ile olan [Concept('betrothal', 'Nişanınız')|E] bozuldu.]
- break_betrothal_hook_toast_desc_self: "Your [betrothal|E] to [rejected_betrothed.GetUIName] is now broken."
+ break_betrothal_hook_toast_desc_self: "[rejected_betrothed.GetUIName] ile olan [Concept('betrothal', 'Nişanınız')|E] bozuldu."
  deposed_and_become_wanderer:0 "[recipient.GetShortUINameNoTooltip] [Concept( 'deposed', 'tahttan indirilecek' )|E] ve [wanderer|E] olacak"
  IS_CHARACTER_INTERACTION_VALID_TRIGGER:0 "Karakter etkileşimi uygun"
  IS_CHARACTER_INTERACTION_POTENTIALLY_ACCEPTED_TRIGGER:0 "Karakter etkileşimi kabul edilebilir"
@@ -850,39 +734,24 @@
  INTERACTION_PEASANT_LEADER: "[GetTrait('peasant_leader').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_POPULIST_LEADER: "[GetTrait('populist_leader').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_ZEALOUS: "[GetTrait('zealous').GetName( recipient )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INTERACTION_ACTOR_INTRIGUE [AGOT: [actor.GetShortUINamePossessive|U] [intrigue_i][intrigue|E]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] adlı kişinin [intrigue_i][intrigue|E] becerisi: $VALUE|=+0$]
- INTERACTION_ACTOR_INTRIGUE: "[actor.GetShortUINamePossessive|U] [intrigue_i][intrigue|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INTERACTION_RECIPIENT_INTRIGUE [AGOT: [recipient.GetShortUINamePossessive|U] [intrigue_i][intrigue|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] adlı kişinin [intrigue_i][intrigue|E] becerisi: $VALUE|=+0$]
- INTERACTION_RECIPIENT_INTRIGUE: "[recipient.GetShortUINamePossessive|U] [intrigue_i][intrigue|E]: $VALUE|=+0$"
+ INTERACTION_ACTOR_INTRIGUE: "[actor.GetShortUIName|U] adlı kişinin [intrigue_i][intrigue|E] becerisi: $VALUE|=+0$"
+ INTERACTION_RECIPIENT_INTRIGUE: "[recipient.GetShortUIName|U] adlı kişinin [intrigue_i][intrigue|E] becerisi: $VALUE|=+0$"
  GIFT_ARTIFACT_PROPOSAL:0 "Lütfen bu naçizane hediyemi kabul edin. Benim için çok değerli olan bu eser umarım size layık olur."
  GIFT_ARTIFACT_ACCEPT:1 "Kabul Et"
  GIFT_ARTIFACT_REJECT:1 "Reddet"
-### TODO AGOT-CHANGED: ARTIFACT_REASON [AGOT: Artifacts are rare and precious: $VALUE|=+0$ | TR: Nadir ve değerli eserler: $VALUE|=+0$]
- ARTIFACT_REASON: "Artifacts are rare and precious: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_NOT_EQUIPPABLE_REASON [AGOT: This artifact is useless to [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$ | TR: Bu eser [recipient.GetShortUINameNoTooltip] için işe yaramaz: $VALUE|=+0$]
- ARTIFACT_NOT_EQUIPPABLE_REASON: "This artifact is useless to [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_NOT_BENEFIT_REASON [AGOT: This artifact is not relevant to [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$ | TR: [recipient.GetShortUINameNoTooltip] bu eser ile ilgilenmiyor: $VALUE|=+0$]
- ARTIFACT_NOT_BENEFIT_REASON: "This artifact is not relevant to [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_MILITARY_STRONGER_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] military is weaker than yours: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] askerî gücü sizden #N düşük#!: $VALUE|=+0$]
- ARTIFACT_MILITARY_STRONGER_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] military is weaker than yours: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_MILITARY_WEAKER_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] military is stronger than yours: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] askerî gücü sizden yüksek: $VALUE|=+0$]
- ARTIFACT_MILITARY_WEAKER_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] military is stronger than yours: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_BOLDNESS_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Boldness: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] Cesareti: $VALUE|=+0$]
- ARTIFACT_BOLDNESS_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Boldness: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_GREED_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Greed: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] Aç Gözlülüğü: $VALUE|=+0$]
- ARTIFACT_GREED_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Greed: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_HONOR_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Honor: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] Onuru: $VALUE|=+0$]
- ARTIFACT_HONOR_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Honor: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_RIVAL_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is your [rival|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINameNoTooltip] sizin [Concept('rival', 'Rakibiniz')|E]: $VALUE|=+0$]
- ARTIFACT_RIVAL_REASON: "[recipient.GetShortUINameNoTooltip] is your [rival|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_NEMESIS_REASON [AGOT: [recipient.GetShortUINameNoTooltip] is your [nemesis|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINameNoTooltip] sizin [Concept('nemesis', 'Can Düşmanınız')|E]: $VALUE|=+0$]
- ARTIFACT_NEMESIS_REASON: "[recipient.GetShortUINameNoTooltip] is your [nemesis|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_LIEGE_REASON [AGOT: You are [recipient.GetShortUINamePossessiveNoTooltip] [liege|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] [Concept('liege', 'Süzerenisiniz')|E]: $VALUE|=+0$]
- ARTIFACT_LIEGE_REASON: "You are [recipient.GetShortUINamePossessiveNoTooltip] [liege|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_CLAIM_REASON [AGOT: [recipient.GetShortUINameNoTooltip] could claim the artifact: $VALUE|=+0$ | TR: [recipient.GetShortUINameNoTooltip] eser üzerinde hak iddia edebilir: $VALUE|=+0$]
- ARTIFACT_CLAIM_REASON: "[recipient.GetShortUINameNoTooltip] could claim the artifact: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ARTIFACT_CURSED_REASON [AGOT: No, I'd rather not have that, thank you: $VALUE|=+0$ | TR: Hayır, buna sahip olmak istemem, yine de teşekkürler: $VALUE|=+0$]
- ARTIFACT_CURSED_REASON: "No, I'd rather not have that, thank you: $VALUE|=+0$"
+ ARTIFACT_REASON: "Nadir ve değerli eserler: $VALUE|=+0$"
+ ARTIFACT_NOT_EQUIPPABLE_REASON: "Bu eser [recipient.GetShortUINameNoTooltip] için işe yaramaz: $VALUE|=+0$"
+ ARTIFACT_NOT_BENEFIT_REASON: "[recipient.GetShortUINameNoTooltip] bu eser ile ilgilenmiyor: $VALUE|=+0$"
+ ARTIFACT_MILITARY_STRONGER_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] askerî gücü sizden #N düşük#!: $VALUE|=+0$"
+ ARTIFACT_MILITARY_WEAKER_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] askerî gücü sizden yüksek: $VALUE|=+0$"
+ ARTIFACT_BOLDNESS_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Cesareti: $VALUE|=+0$"
+ ARTIFACT_GREED_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Aç Gözlülüğü: $VALUE|=+0$"
+ ARTIFACT_HONOR_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Onuru: $VALUE|=+0$"
+ ARTIFACT_RIVAL_REASON: "[recipient.GetShortUINameNoTooltip] sizin [Concept('rival', 'Rakibiniz')|E]: $VALUE|=+0$"
+ ARTIFACT_NEMESIS_REASON: "[recipient.GetShortUINameNoTooltip] sizin [Concept('nemesis', 'Can Düşmanınız')|E]: $VALUE|=+0$"
+ ARTIFACT_LIEGE_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] [Concept('liege', 'Süzerenisiniz')|E]: $VALUE|=+0$"
+ ARTIFACT_CLAIM_REASON: "[recipient.GetShortUINameNoTooltip] eser üzerinde hak iddia edebilir: $VALUE|=+0$"
+ ARTIFACT_CURSED_REASON: "Hayır, buna sahip olmak istemem, yine de teşekkürler: $VALUE|=+0$"
  DEMAND_ARTIFACT_PROPOSAL:0 "Sende bana ait olan bir şey var, hemen geri ver!"
  DEMAND_ARTIFACT_ACCEPT:1 "Kabul Et"
  DEMAND_ARTIFACT_REJECT:1 "Reddet"
@@ -907,249 +776,131 @@
  MODIFY_NON_FEUDAL_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL:2 "Yeni bir [vassal_contract|E] için değişiklik önermelisiniz"
  INTERACTION_COST_MARRIAGE:0 "Maliyet: [CharacterInteractionConfirmationWindow.GetCostDescription]"
  ARTIFACT_USELESS_BANNER_REASON:0 "Bu sancak [recipient.GetShortUINameNoTooltip] ile ilişkili değil: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TRUCE_TRIBUTARY [AGOT: [SCOPE.sC('suzerain_loc').GetUINameNotMe|U] is the [suzerain|E] of [SCOPE.sC('tributary_loc').GetUINameNotMe|U]. | TR: [SCOPE.sC('suzerain_loc').GetUINameNotMe|U], [SCOPE.sC('tributary_loc').GetUINameNotMe|U] adlı kişinin [Concept('suzerain', 'Efendisi')|E].]
- TRUCE_TRIBUTARY: " [SCOPE.sC('suzerain_loc').GetUINameNotMe|U] is the [suzerain|E] of [SCOPE.sC('tributary_loc').GetUINameNotMe|U]."
-### TODO AGOT-CHANGED: TRUCE_TRIBUTARY_STOPPED [AGOT: [SCOPE.sC('suzerain_loc').GetUINameNotMe|U] has stopped being the [suzerain|E] of [SCOPE.sC('tributary_loc').GetUINameNotMe|U]. | TR: [SCOPE.sC('suzerain_loc').GetUINameNotMe|U], artık [SCOPE.sC('tributary_loc').GetUINameNotMe|U] adlı kişinin [Concept('suzerain', 'Efendisi')|E] değil.]
- TRUCE_TRIBUTARY_STOPPED: " [SCOPE.sC('suzerain_loc').GetUINameNotMe|U] has stopped being the [suzerain|E] of [SCOPE.sC('tributary_loc').GetUINameNotMe|U]."
-### TODO AGOT-CHANGED: TRUCE_TRIBUTARY_RELEASED [AGOT: Tributary Recently Released | TR: Yakın Zamanda Serbest Bırakılmış Haraçgüzar]
- TRUCE_TRIBUTARY_RELEASED: "Tributary Recently Released"
+ TRUCE_TRIBUTARY: " [SCOPE.sC('suzerain_loc').GetUINameNotMe|U], [SCOPE.sC('tributary_loc').GetUINameNotMe|U] adlı kişinin [Concept('suzerain', 'Efendisi')|E]."
+ TRUCE_TRIBUTARY_STOPPED: " [SCOPE.sC('suzerain_loc').GetUINameNotMe|U], artık [SCOPE.sC('tributary_loc').GetUINameNotMe|U] adlı kişinin [Concept('suzerain', 'Efendisi')|E] değil."
+ TRUCE_TRIBUTARY_RELEASED: "Yakın Zamanda Serbest Bırakılmış Haraçgüzar"
  AI_GUARDIAN_FEUD_HESITANCE:0 "Çocuğunu [Concept( 'house_feud', 'Kan Davalı' )|E] olduğu [Concept( 'house', 'Haneye' )|E] vermek istemiyor: $VALUE|=+0$"
  DIARCH_SHOULD_EDUCATE_DIARCH_TO_LIEGE:0 "[regent|E] için duruma el koy"
  DIARCH_SHOULD_EDUCATE_LIEGE_TO_DIARCH:0 "[regent|E] olarak görevin"
-### TODO AGOT-CHANGED: AI_REASON_LEGITIMIST_HIGHER_PRESTIGE [AGOT: Your [prestige_level|E] is higher than Usurper's: $VALUE|=+0$ | TR: [Concept( 'prestige_level', 'Şöhret Seviyeniz' )|E] gaspçıdan daha fazla: $VALUE|=+0$]
- AI_REASON_LEGITIMIST_HIGHER_PRESTIGE: "Your [prestige_level|E] is higher than Usurper's: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ward_departs_tt [AGOT: [ward.GetFirstNameNoTooltip] departs for [guardian.GetCurrentLocation.GetNameNoTooltip] | TR: [ward.GetFirstNameNoTooltip], [guardian.GetCurrentLocation.GetNameNoTooltip] topraklarına doğru yola çıktı]
- ward_departs_tt: "[ward.GetFirstNameNoTooltip] departs for [guardian.GetCurrentLocation.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: adoptee_departs_tt [AGOT: [adoptee.GetFirstNameNoTooltip] departs for [adopter.GetCurrentLocation.GetNameNoTooltip] | TR: [adoptee.GetFirstNameNoTooltip], [adopter.GetCurrentLocation.GetNameNoTooltip] topraklarına doğru yola çıktı]
- adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip] departs for [adopter.GetCurrentLocation.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: adoptee_leaves_for_adopter_tt [AGOT: @alert_icon! #alert_trial [adoptee.GetFirstName] must first [travel|E] to [adopter.GetShortUINamePossessive] court#! | TR: @alert_icon! #alert_trial [adoptee.GetFirstName] önce [adopter.GetShortUIName] adlı kişinin sarayına [travel|E] etmeli#!]
- adoptee_leaves_for_adopter_tt: "@alert_icon! #alert_trial [adoptee.GetFirstName] must first [travel|E] to [adopter.GetShortUINamePossessive] court#!"
-### TODO AGOT-CHANGED: ELUDING_CASTRATOR [AGOT: Eluding attempted castrator: $VALUE|=+0$ | TR: Hadım edilmekten kaçıyor: $VALUE|=+0$]
- ELUDING_CASTRATOR: "Eluding attempted castrator: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_SINS_REASON [AGOT: [recipient.GetSheHe|U] has [sinful|E] [traits|E]: $VALUE|=+0$ | TR: [sinful|E] [Concept( 'traits', 'Özelliklere' )|E] sahip: $VALUE|=+0$]
- TAKE_VOWS_SINS_REASON: "[recipient.GetSheHe|U] has [sinful|E] [traits|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_LUSTFUL_REASON [AGOT: [recipient.GetSheHe|U] is [GetTrait('lustful').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('lustful').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_LUSTFUL_REASON: "[recipient.GetSheHe|U] is [GetTrait('lustful').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_RAKISH_REASON [AGOT: [recipient.GetSheHe|U] is [GetTrait('rakish').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('rakish').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_RAKISH_REASON: "[recipient.GetSheHe|U] is [GetTrait('rakish').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_FORNICATOR_REASON [AGOT: [recipient.GetSheHe|U] is a [GetTrait('fornicator').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('fornicator').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_FORNICATOR_REASON: "[recipient.GetSheHe|U] is a [GetTrait('fornicator').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_SEDUCER_REASON [AGOT: [recipient.GetSheHe|U] is a [GetTrait('seducer').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('seducer').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_SEDUCER_REASON: "[recipient.GetSheHe|U] is a [GetTrait('seducer').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_DEVIANT_REASON [AGOT: [recipient.GetSheHe|U] is a [GetTrait('deviant').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('deviant').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_DEVIANT_REASON: "[recipient.GetSheHe|U] is a [GetTrait('deviant').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TAKE_VOWS_CYNICAL_REASON [AGOT: [recipient.GetSheHe|U] is [GetTrait('cynical').GetName( GetNullCharacter )]: $VALUE|=+0$ | TR: O bir [GetTrait('cynical').GetName( GetNullCharacter )]: $VALUE|=+0$]
- TAKE_VOWS_CYNICAL_REASON: "[recipient.GetSheHe|U] is [GetTrait('cynical').GetName( GetNullCharacter )]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SITUATION_CALL_TO_ACTION [AGOT: #I Click to view [Character.GetInvolvedMigrationSituation.GetName]#! | TR: #I [Character.GetInvolvedMigrationSituation.GetName] görüntülemek için tıklayın#!]
- SITUATION_CALL_TO_ACTION: "#I Click to view [Character.GetInvolvedMigrationSituation.GetName]#!"
-### TODO AGOT-CHANGED: DOMINANCE_WIDGET_CALL_TO_ACTION [AGOT: #I Click to view your Realm [laws|E]#! | TR: #I Ülke [Concept('laws', 'Yasalarınızı')|E] görüntülemek için tıklayın#!]
- DOMINANCE_WIDGET_CALL_TO_ACTION: "#I Click to view your Realm [laws|E]#!"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_BASE_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] wants to stay in [recipient.GetHerHis] land: $VALUE|=+0$ | TR: Toprağında kalmak istiyor: $VALUE|=+0$]
- MIGRATION_INTERACTION_BASE_ACCEPTANCE: "[recipient.GetSheHe|U] wants to stay in [recipient.GetHerHis] land: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_ACCEPTANCE_AI [AGOT: #D[recipient.GetSheHe|U] and [actor.GetShortUIName] are AI: $VALUE|=+0$#! | TR: #D O ve [actor.GetShortUIName] yapay zekâ: $VALUE|=+0$#!]
- MIGRATION_INTERACTION_ACCEPTANCE_AI: "#D[recipient.GetSheHe|U] and [actor.GetShortUIName] are AI: $VALUE|=+0$#!"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_DROUGHT_ACCEPTANCE [AGOT: [the_great_steppe|E] has a $situation_steppe_severe_drought_season$: $VALUE|=+0$ | TR: [the_great_steppe|E] $situation_steppe_severe_drought_season$ mevsiminde: $VALUE|=+0$]
- MIGRATION_INTERACTION_DROUGHT_ACCEPTANCE: "[the_great_steppe|E] has a $situation_steppe_severe_drought_season$: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_CRAVEN_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is Craven: $VALUE|=+0$ | TR: O korkak: $VALUE|=+0$]
- MIGRATION_INTERACTION_CRAVEN_ACCEPTANCE: "[recipient.GetSheHe|U] is Craven: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_CONTENT_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is Content: $VALUE|=+0$ | TR: O hâlinden memnun: $VALUE|=+0$]
- MIGRATION_INTERACTION_CONTENT_ACCEPTANCE: "[recipient.GetSheHe|U] is Content: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_OPINION_ACCEPTANCE [AGOT: [recipient.GetHerHis|U] [opinion|E] of you: $VALUE|=+0$ | TR: Size karşı [Concept('opinion', 'Görüşü')|E]: $VALUE|=+0$]
- MIGRATION_INTERACTION_OPINION_ACCEPTANCE: "[recipient.GetHerHis|U] [opinion|E] of you: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_TRUST_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] trusts you: $VALUE|=+0$ | TR: Size güveniyor: $VALUE|=+0$]
- MIGRATION_INTERACTION_TRUST_ACCEPTANCE: "[recipient.GetSheHe|U] trusts you: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_FRIEND_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is your friend: $VALUE|=+0$ | TR: Arkadaşınız: $VALUE|=+0$]
- MIGRATION_INTERACTION_FRIEND_ACCEPTANCE: "[recipient.GetSheHe|U] is your friend: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_BLOOD_BROTHERS_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is your Blood Brother: $VALUE|=+0$ | TR: Kan Kardeşiniz: $VALUE|=+0$]
- MIGRATION_INTERACTION_BLOOD_BROTHERS_ACCEPTANCE: "[recipient.GetSheHe|U] is your Blood Brother: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE [AGOT: Offer [herd_i][herd|E] | TR: [herd_i][herd|E] teklif et]
- TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE: "Offer [herd_i][herd|E]"
-### TODO AGOT-CHANGED: TRADE_GOLD_FOR_BETTER_MIGRATION_AI_ACCEPTANCE [AGOT: Offer [gold_i][gold|E] | TR: [gold_i][gold|E] teklif et]
- TRADE_GOLD_FOR_BETTER_MIGRATION_AI_ACCEPTANCE: "Offer [gold_i][gold|E]"
-### TODO AGOT-CHANGED: TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE_TT [AGOT: [herd|E] sent: $VALUE|+0=$ | TR: Gönderilen [herd|E]: $VALUE|+0=$]
- TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE_TT: "[herd|E] sent: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_HOOK_USED [AGOT: [hook|E] used: $VALUE|+0=$ | TR: Kullanılan [hook|E]: $VALUE|+0=$]
- MIGRATION_HOOK_USED: "[hook|E] used: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_HERDER [AGOT: [recipient.GetSheHe|U] is a [herder|E]: $VALUE|+0=$ | TR: O bir [herder|E]: $VALUE|+0=$]
- MIGRATION_INTERACTION_HERDER: "[recipient.GetSheHe|U] is a [herder|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_HIGH_DOMINANCE [AGOT: [recipient.GetHerHis|U] high [nomadic_authority|E]: $VALUE|+0=$ | TR: Yüksek [nomadic_authority|E] sahibi: $VALUE|+0=$]
- MIGRATION_INTERACTION_HIGH_DOMINANCE: "[recipient.GetHerHis|U] high [nomadic_authority|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_HERD_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] has a smaller [herd|E] than [actor.GetShortUINameNoFormat]: $VALUE|+0=$ | TR: [actor.GetShortUINameNoFormat] kadar büyük bir [herd|E] sahibi değil: $VALUE|+0=$]
- MIGRATION_INTERACTION_HERD_ACCEPTANCE: "[recipient.GetSheHe|U] has a smaller [herd|E] than [actor.GetShortUINameNoFormat]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_GURKHAN_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] [CharAreIs(recipient)] the [gurkhan|E]: $VALUE|+0=$ | TR: O [gurkhan|E]: $VALUE|+0=$]
- MIGRATION_INTERACTION_GURKHAN_ACCEPTANCE: "[recipient.GetSheHe|U] [CharAreIs(recipient)] the [gurkhan|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_KING_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] [CharAreIs(recipient)] a Kingdom or Empire-[title_tier|E] [ruler|E]: $VALUE|+0=$ | TR: O bir Krallık ya da İmparatorluk [Concept('title_tier', 'Seviyesinde')|E] bir [ruler|E]: $VALUE|+0=$]
- MIGRATION_INTERACTION_KING_ACCEPTANCE: "[recipient.GetSheHe|U] [CharAreIs(recipient)] a Kingdom or Empire-[title_tier|E] [ruler|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_GURKHAN_ACTOR_ACCEPTANCE [AGOT: [actor.GetShortUINameNoFormat|U] [CharAreIs(actor)] the [gurkhan|E]: $VALUE|+0=$ | TR: [actor.GetShortUINameNoFormat|U] [gurkhan|E]: $VALUE|+0=$]
- MIGRATION_INTERACTION_GURKHAN_ACTOR_ACCEPTANCE: "[actor.GetShortUINameNoFormat|U] [CharAreIs(actor)] the [gurkhan|E]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_OBEDIENT_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is [obedient|E] to [actor.GetShortUINameNoFormat]: $VALUE|+0=$ | TR: O [actor.GetShortUINameNoFormat] karşısında [obedient|E]: $VALUE|+0=$]
- MIGRATION_INTERACTION_OBEDIENT_ACCEPTANCE: "[recipient.GetSheHe|U] is [obedient|E] to [actor.GetShortUINameNoFormat]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_PRESTIGE_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] is less prestigious than [actor.GetShortUINameNoFormat]: $VALUE|+0=$ | TR: Prestiji [actor.GetShortUINameNoFormat] adlı kişiden az: $VALUE|+0=$]
- MIGRATION_INTERACTION_PRESTIGE_ACCEPTANCE: "[recipient.GetSheHe|U] is less prestigious than [actor.GetShortUINameNoFormat]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: MIGRATION_INTERACTION_PROWESS_ACCEPTANCE [AGOT: [recipient.GetSheHe|U] has less [prowess|E] than [actor.GetShortUINameNoFormat]: $VALUE|+0=$ | TR: [prowess|E] Becerisi [actor.GetShortUINameNoFormat] adlı kişiden düşük: $VALUE|+0=$]
- MIGRATION_INTERACTION_PROWESS_ACCEPTANCE: "[recipient.GetSheHe|U] has less [prowess|E] than [actor.GetShortUINameNoFormat]: $VALUE|+0=$" 
+ AI_REASON_LEGITIMIST_HIGHER_PRESTIGE: "[Concept( 'prestige_level', 'Şöhret Seviyeniz' )|E] gaspçıdan daha fazla: $VALUE|=+0$"
+ ward_departs_tt: "[ward.GetFirstNameNoTooltip], [guardian.GetCurrentLocation.GetNameNoTooltip] topraklarına doğru yola çıktı"
+ adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip], [adopter.GetCurrentLocation.GetNameNoTooltip] topraklarına doğru yola çıktı"
+ adoptee_leaves_for_adopter_tt: "@alert_icon! #alert_trial [adoptee.GetFirstName] önce [adopter.GetShortUIName] adlı kişinin sarayına [travel|E] etmeli#!"
+ ELUDING_CASTRATOR: "Hadım edilmekten kaçıyor: $VALUE|=+0$"
+ TAKE_VOWS_SINS_REASON: "[sinful|E] [Concept( 'traits', 'Özelliklere' )|E] sahip: $VALUE|=+0$"
+ TAKE_VOWS_LUSTFUL_REASON: "O bir [GetTrait('lustful').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ TAKE_VOWS_RAKISH_REASON: "O bir [GetTrait('rakish').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ TAKE_VOWS_FORNICATOR_REASON: "O bir [GetTrait('fornicator').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ TAKE_VOWS_SEDUCER_REASON: "O bir [GetTrait('seducer').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ TAKE_VOWS_DEVIANT_REASON: "O bir [GetTrait('deviant').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ TAKE_VOWS_CYNICAL_REASON: "O bir [GetTrait('cynical').GetName( GetNullCharacter )]: $VALUE|=+0$"
+ SITUATION_CALL_TO_ACTION: "#I [Character.GetInvolvedMigrationSituation.GetName] görüntülemek için tıklayın#!"
+ DOMINANCE_WIDGET_CALL_TO_ACTION: "#I Ülke [Concept('laws', 'Yasalarınızı')|E] görüntülemek için tıklayın#!"
+ MIGRATION_INTERACTION_BASE_ACCEPTANCE: "Toprağında kalmak istiyor: $VALUE|=+0$"
+ MIGRATION_INTERACTION_ACCEPTANCE_AI: "#D O ve [actor.GetShortUIName] yapay zekâ: $VALUE|=+0$#!"
+ MIGRATION_INTERACTION_DROUGHT_ACCEPTANCE: "[the_great_steppe|E] $situation_steppe_severe_drought_season$ mevsiminde: $VALUE|=+0$"
+ MIGRATION_INTERACTION_CRAVEN_ACCEPTANCE: "O korkak: $VALUE|=+0$"
+ MIGRATION_INTERACTION_CONTENT_ACCEPTANCE: "O hâlinden memnun: $VALUE|=+0$"
+ MIGRATION_INTERACTION_OPINION_ACCEPTANCE: "Size karşı [Concept('opinion', 'Görüşü')|E]: $VALUE|=+0$"
+ MIGRATION_INTERACTION_TRUST_ACCEPTANCE: "Size güveniyor: $VALUE|=+0$"
+ MIGRATION_INTERACTION_FRIEND_ACCEPTANCE: "Arkadaşınız: $VALUE|=+0$"
+ MIGRATION_INTERACTION_BLOOD_BROTHERS_ACCEPTANCE: "Kan Kardeşiniz: $VALUE|=+0$"
+ TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE: "[herd_i][herd|E] teklif et"
+ TRADE_GOLD_FOR_BETTER_MIGRATION_AI_ACCEPTANCE: "[gold_i][gold|E] teklif et"
+ TRADE_HERD_FOR_BETTER_AI_ACCEPTANCE_TT: "Gönderilen [herd|E]: $VALUE|+0=$"
+ MIGRATION_HOOK_USED: "Kullanılan [hook|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_HERDER: "O bir [herder|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_HIGH_DOMINANCE: "Yüksek [nomadic_authority|E] sahibi: $VALUE|+0=$"
+ MIGRATION_INTERACTION_HERD_ACCEPTANCE: "[actor.GetShortUINameNoFormat] kadar büyük bir [herd|E] sahibi değil: $VALUE|+0=$"
+ MIGRATION_INTERACTION_GURKHAN_ACCEPTANCE: "O [gurkhan|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_KING_ACCEPTANCE: "O bir Krallık ya da İmparatorluk [Concept('title_tier', 'Seviyesinde')|E] bir [ruler|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_GURKHAN_ACTOR_ACCEPTANCE: "[actor.GetShortUINameNoFormat|U] [gurkhan|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_OBEDIENT_ACCEPTANCE: "O [actor.GetShortUINameNoFormat] karşısında [obedient|E]: $VALUE|+0=$"
+ MIGRATION_INTERACTION_PRESTIGE_ACCEPTANCE: "Prestiji [actor.GetShortUINameNoFormat] adlı kişiden az: $VALUE|+0=$"
+ MIGRATION_INTERACTION_PROWESS_ACCEPTANCE: "[prowess|E] Becerisi [actor.GetShortUINameNoFormat] adlı kişiden düşük: $VALUE|+0=$"
  MIGRATION_INTERACTION_ELDER_FLOCK_ACCEPTANCE: "[GetModifier('mpo_elder_flock_migrate_modifier').GetNameWithTooltip]: $VALUE|+0=$"
-### TODO AGOT-CHANGED: PAY_FOR_BETTER_AI_ACCEPTANCE [AGOT: Pay [herd_i]$RANSOM_HERD_COST|0$ | TR: [herd_i]$RANSOM_HERD_COST|0$ öde]
- PAY_FOR_BETTER_AI_ACCEPTANCE: "Pay [herd_i]$RANSOM_HERD_COST|0$"
-### TODO AGOT-CHANGED: RANSOM_HERD_OPTION [AGOT: For [herd_i]$RANSOM_HERD_COST|0$ | TR: [herd_i]$RANSOM_HERD_COST|0$ karşılığında]
- RANSOM_HERD_OPTION: "For [herd_i]$RANSOM_HERD_COST|0$"
-### TODO AGOT-CHANGED: MIGRATION_WAR_CONFIRMATION_TITLE [AGOT: Negotiation Declined | TR: Müzakere Reddedildi]
- MIGRATION_WAR_CONFIRMATION_TITLE: "Negotiation Declined"
-### TODO AGOT-CHANGED: MIGRATION_WAR_POPUP_WARNING_TEXT [AGOT: [Character.GetShortUIName|U] will #BOLD not#! accept negotiation for [Title.GetNameNoTier|U] and [migrating|E] there will result in a [war|E] for the land. | TR: [Character.GetShortUIName|U], [Title.GetNameNoTier|U] için müzakere etmeyi #BOLD kabul etmeyecek#! ve oraya [Concept('migrating', 'Göç Etmek')|E] bir [war|E] ile sonuçlanacaktır.]
- MIGRATION_WAR_POPUP_WARNING_TEXT: "[Character.GetShortUIName|U] will #BOLD not#! accept negotiation for [Title.GetNameNoTier|U] and [migrating|E] there will result in a [war|E] for the land."
-### TODO AGOT-CHANGED: MIGRATION_WAR_CONFIRMATION_EFFECTS_HEADER [AGOT: Effects: | TR: Etkiler:]
- MIGRATION_WAR_CONFIRMATION_EFFECTS_HEADER: "Effects:"
-### TODO AGOT-CHANGED: MIGRATION_WAR_CONFIRMATION_CONFIRM [AGOT: Confirm | TR: Onayla]
- MIGRATION_WAR_CONFIRMATION_CONFIRM: "Confirm"
-### TODO AGOT-CHANGED: MIGRATION_WAR_START_WAR_EFFECT [AGOT: @warning_icon! #X You start a [war|E] against [TARGET_CHARACTER.GetShortUIName] with the $CASUS_BELLI$ [casus_belli|E] #! | TR: @warning_icon! #X [TARGET_CHARACTER.GetShortUIName] adlı kişiye karşı $CASUS_BELLI$ [casus_belli|E] ile bir [war|E] başlatırsınız#!]
- MIGRATION_WAR_START_WAR_EFFECT: "@warning_icon! #X You start a [war|E] against [TARGET_CHARACTER.GetShortUIName] with the $CASUS_BELLI$ [casus_belli|E] #!"
-### TODO AGOT-CHANGED: MIGRATION_WAR_ADD_DEFENDERS_EFFECT [AGOT: @alert_icon! #alert_trial The following characters #bold #underline may#!#! join the [war|E] as enemy [allies|E]:#! | TR: @alert_icon! #alert_trial Aşağıdaki karakterler bu [Concept('war', 'Savaşta')|E] düşman [Concept('allies', 'Müttefikleri')|E] olarak #bold #underline katılabilir#!#!:]
- MIGRATION_WAR_ADD_DEFENDERS_EFFECT: "@alert_icon! #alert_trial The following characters #bold #underline may#!#! join the [war|E] as enemy [allies|E]:#!"
-### TODO AGOT-CHANGED: MIGRATION_WAR_DEFENDER_ENTRY [AGOT: $BULLET_WITH_TAB$ [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#! | TR: $BULLET_WITH_TAB$ [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#!]
+ PAY_FOR_BETTER_AI_ACCEPTANCE: "[herd_i]$RANSOM_HERD_COST|0$ öde"
+ RANSOM_HERD_OPTION: "[herd_i]$RANSOM_HERD_COST|0$ karşılığında"
+ MIGRATION_WAR_CONFIRMATION_TITLE: "Müzakere Reddedildi"
+ MIGRATION_WAR_POPUP_WARNING_TEXT: "[Character.GetShortUIName|U], [Title.GetNameNoTier|U] için müzakere etmeyi #BOLD kabul etmeyecek#! ve oraya [Concept('migrating', 'Göç Etmek')|E] bir [war|E] ile sonuçlanacaktır."
+ MIGRATION_WAR_CONFIRMATION_EFFECTS_HEADER: "Etkiler:"
+ MIGRATION_WAR_CONFIRMATION_CONFIRM: "Onayla"
+ MIGRATION_WAR_START_WAR_EFFECT: "@warning_icon! #X [TARGET_CHARACTER.GetShortUIName] adlı kişiye karşı $CASUS_BELLI$ [casus_belli|E] ile bir [war|E] başlatırsınız#!"
+ MIGRATION_WAR_ADD_DEFENDERS_EFFECT: "@alert_icon! #alert_trial Aşağıdaki karakterler bu [Concept('war', 'Savaşta')|E] düşman [Concept('allies', 'Müttefikleri')|E] olarak #bold #underline katılabilir#!#!:"
  MIGRATION_WAR_DEFENDER_ENTRY: "$BULLET_WITH_TAB$ [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#!"
-### TODO AGOT-CHANGED: MIGRATION_WAR_CONFIRMATION_INVOLVED_CHAR_MILITARY_STRENGTH [AGOT: Their $COMBINED_MILITARY_STRENGTH$ $MILITARY_STRENGTH|V0$ | TR: Onların Toplam Askerî Gücü: $MILITARY_STRENGTH|V0$]
- MIGRATION_WAR_CONFIRMATION_INVOLVED_CHAR_MILITARY_STRENGTH: "Their $COMBINED_MILITARY_STRENGTH$ $MILITARY_STRENGTH|V0$"
-### TODO AGOT-CHANGED: MIGRATION_WAR_CONFIRMATION_SUZERAIN_MAY_JOIN [AGOT: $BULLET_WITH_TAB$ [suzerain|E] [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#! | TR: $BULLET_WITH_TAB$ [suzerain|E] [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#!]
+ MIGRATION_WAR_CONFIRMATION_INVOLVED_CHAR_MILITARY_STRENGTH: "Onların Toplam Askerî Gücü: $MILITARY_STRENGTH|V0$"
  MIGRATION_WAR_CONFIRMATION_SUZERAIN_MAY_JOIN: "$BULLET_WITH_TAB$ [suzerain|E] [Character.GetShortUIName|U] #WEAK ([Character.GetMilitaryStrengthText])#!"
-### TODO AGOT-CHANGED: TRIBUTARY_BOLDNESS_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Boldness: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] Cesareti: $VALUE|=+0$]
- TRIBUTARY_BOLDNESS_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Boldness: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TRIBUTARY_GREED_REASON [AGOT: [recipient.GetShortUINamePossessiveNoTooltip] Greed: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip] Açgözlülüğü: $VALUE|=+0$]
- TRIBUTARY_GREED_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Greed: $VALUE|=+0$"
-### TODO AGOT-CHANGED: accumulated_wealth_reason [AGOT: @gold_icon! Gold held by [recipient.GetShortUINamePossessiveNoTooltip]: $VALUE|=+0$ | TR: @gold_icon! [recipient.GetShortUINamePossessiveNoTooltip] tarafından sahip olunan altın: $VALUE|=+0$]
- accumulated_wealth_reason: "@gold_icon! Gold held by [recipient.GetShortUINamePossessiveNoTooltip]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: zud_season_reason [AGOT: The [steppe_season|E] is a Zud: $VALUE|=+0$ | TR: [steppe_season|E] Zud: $VALUE|=+0$]
- zud_season_reason: "The [steppe_season|E] is a Zud: $VALUE|=+0$"
-### TODO AGOT-CHANGED: PROMOTE_DIVERGENT_CULTURE_INTERACTION_NOTIFICATION [AGOT: Our tradition is a torch that lights the path, but we kindle a new flame now — one born of the old, yet forged for the future. Let [actor.GetCulture.GetName] blaze as the next chapter in our story! | TR: Geleneklerimiz yolumuzu aydınlatan bir meşaledir ama artık eskiye dayanan, geleceğe uzanan yeni bir kıvılcım yakıyoruz. [actor.GetCulture.GetName] kültürü, hikâyemizin bir sonraki bölümü olarak parlasın!]
- PROMOTE_DIVERGENT_CULTURE_INTERACTION_NOTIFICATION: "Our tradition is a torch that lights the path, but we kindle a new flame now — one born of the old, yet forged for the future. Let [actor.GetCulture.GetName] blaze as the next chapter in our story!"
-### TODO AGOT-CHANGED: not_a_parent_culture_tt [AGOT: [recipient.GetShortUINamePossessive] [recipient.GetCulture.GetName] [culture|E] is not a Parent Culture of [actor.GetCulture.GetName] | TR: [recipient.GetShortUINamePossessive] [recipient.GetCulture.GetName] [Concept('culture', 'Kültürü')|E], [actor.GetCulture.GetName] kültürünün ebeveyn kültürü değil]
- not_a_parent_culture_tt: "[recipient.GetShortUINamePossessive] [recipient.GetCulture.GetName] [culture|E] is not a Parent Culture of [actor.GetCulture.GetName]"
-### TODO AGOT-CHANGED: promote_culture_accepted_tt [AGOT: [recipient.GetShortUIName] adopts [actor.GetCulture.GetName]! | TR: [recipient.GetShortUIName], [actor.GetCulture.GetName] kültürünü benimsedi!]
- promote_culture_accepted_tt: "[recipient.GetShortUIName] adopts [actor.GetCulture.GetName]!"
-### TODO AGOT-CHANGED: not_a_nomad_or_herder_tt [AGOT: [recipient.GetShortUIName] does not have the [GetGovernment( 'nomad_government' ).GetName] or [GetGovernment( 'herder_government' ).GetName] [government|E] | TR: [recipient.GetShortUIName], [GetGovernment( 'nomad_government' ).GetName] ya da [GetGovernment( 'herder_government' ).GetName] [government|E] türüne sahip değil]
- not_a_nomad_or_herder_tt: "[recipient.GetShortUIName] does not have the [GetGovernment( 'nomad_government' ).GetName] or [GetGovernment( 'herder_government' ).GetName] [government|E]"
-### TODO AGOT-CHANGED: INSPIRE_CONVERSION_INTERACTION_NOTIFICATION [AGOT: Our lineage is carved into the bones of these lands, but a new calling stirs. Take up [actor.GetDomicile.GetFaith.GetName] with us, blending the wisdom of our elders and the promise of tomorrow. | TR: Soyumuz bu topraklara işlenmiş olabilir ama artık içimizde yeni bir çağrı var. Atalarımızın bilgeliğini ve yarının umudunu birleştirerek [actor.GetDomicile.GetFaith.GetName] mezhebini benimse!]
- INSPIRE_CONVERSION_INTERACTION_NOTIFICATION: "Our lineage is carved into the bones of these lands, but a new calling stirs. Take up [actor.GetDomicile.GetFaith.GetName] with us, blending the wisdom of our elders and the promise of tomorrow."
+ TRIBUTARY_BOLDNESS_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Cesareti: $VALUE|=+0$"
+ TRIBUTARY_GREED_REASON: "[recipient.GetShortUINamePossessiveNoTooltip] Açgözlülüğü: $VALUE|=+0$"
+ accumulated_wealth_reason: "@gold_icon! [recipient.GetShortUINamePossessiveNoTooltip] tarafından sahip olunan altın: $VALUE|=+0$"
+ zud_season_reason: "[steppe_season|E] Zud: $VALUE|=+0$"
+ PROMOTE_DIVERGENT_CULTURE_INTERACTION_NOTIFICATION: "Geleneklerimiz yolumuzu aydınlatan bir meşaledir ama artık eskiye dayanan, geleceğe uzanan yeni bir kıvılcım yakıyoruz. [actor.GetCulture.GetName] kültürü, hikâyemizin bir sonraki bölümü olarak parlasın!"
+ not_a_parent_culture_tt: "[recipient.GetShortUINamePossessive] [recipient.GetCulture.GetName] [Concept('culture', 'Kültürü')|E], [actor.GetCulture.GetName] kültürünün ebeveyn kültürü değil"
+ promote_culture_accepted_tt: "[recipient.GetShortUIName], [actor.GetCulture.GetName] kültürünü benimsedi!"
+ not_a_nomad_or_herder_tt: "[recipient.GetShortUIName], [GetGovernment( 'nomad_government' ).GetName] ya da [GetGovernment( 'herder_government' ).GetName] [government|E] türüne sahip değil"
+ INSPIRE_CONVERSION_INTERACTION_NOTIFICATION: "Soyumuz bu topraklara işlenmiş olabilir ama artık içimizde yeni bir çağrı var. Atalarımızın bilgeliğini ve yarının umudunu birleştirerek [actor.GetDomicile.GetFaith.GetName] mezhebini benimse!"
  NOMADIC_AUTHORITY_POSITIVE_REASON: "[actor.GetShortUINamePossessive|U] [nomadic_authority|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INSPIRE_UNREFORMED_FAITH [AGOT: [actor.GetShortUINamePossessive|U] [faith|E] is [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]: $VALUE|=+0$ | TR: [actor.GetShortUINamePossessive|U] [Concept('faith', 'Mezhebi')|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]: $VALUE|=+0$]
- INSPIRE_UNREFORMED_FAITH: "[actor.GetShortUINamePossessive|U] [faith|E] is [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: ZEALOUS_PROSELYTIZER_REASON [AGOT: [actor.GetShortUINamePossessive|E] [GetPerk('zealous_proselytizer_perk').GetName( GetPlayer )] [perk|E]: $VALUE|=+0$ | TR: [actor.GetShortUINamePossessive|E] [GetPerk('zealous_proselytizer_perk').GetName( GetPlayer )] [Concept('perk', 'Yeteneği')|E]: $VALUE|=+0$]
- ZEALOUS_PROSELYTIZER_REASON: "[actor.GetShortUINamePossessive|E] [GetPerk('zealous_proselytizer_perk').GetName( GetPlayer )] [perk|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: NO_CASUS_BELLI_REASON [AGOT: Holds no Casus Belli: $VALUE|0+=$ | TR: Geçerli Savaş Sebebi yok: $VALUE|0+=$]
- NO_CASUS_BELLI_REASON: "Holds no Casus Belli: $VALUE|0+=$"
-### TODO AGOT-CHANGED: CLAIMS_REASON [AGOT: Threat from held Claims: $VALUE|0+=$ | TR: Hak İddialarının oluşturduğu tehdit: $VALUE|0+=$]
- CLAIMS_REASON: "Threat from held Claims: $VALUE|0+=$"
-### TODO AGOT-CHANGED: SIMILAR_CURRENT_MILITARY_POWER_REASON [AGOT: Similar Military Power #weak (current)#!: $VALUE|0+=$ | TR: Benzer Askerî Güç #weak (mevcut)#!: $VALUE|0+=$]
- SIMILAR_CURRENT_MILITARY_POWER_REASON: "Similar Military Power #weak (current)#!: $VALUE|0+=$"
-### TODO AGOT-CHANGED: SIMILAR_MAX_MILITARY_POWER_REASON [AGOT: Similar Military Power #weak (max)#!: $VALUE|0+=$ | TR: Benzer Askerî Güç #weak (maksimum)#!: $VALUE|0+=$]
- SIMILAR_MAX_MILITARY_POWER_REASON: "Similar Military Power #weak (max)#!: $VALUE|0+=$"
-### TODO AGOT-CHANGED: RELATIVE_MILITARY_POWER_REASON [AGOT: Relative Military Power: $VALUE|0+=$ | TR: Göreceli Askerî Güç: $VALUE|0+=$]
- RELATIVE_MILITARY_POWER_REASON: "Relative Military Power: $VALUE|0+=$"
-### TODO AGOT-CHANGED: ALLY_MILITARY_POWER_REASON [AGOT: Military Power including Allies: $VALUE|0+=$ | TR: Müttefikler dâhil Askerî Güç: $VALUE|0+=$]
- ALLY_MILITARY_POWER_REASON: "Military Power including Allies: $VALUE|0+=$"
-### TODO AGOT-CHANGED: DIPLOMACY_NOT_A_THREAT_REASON [AGOT: Not considered threatening: $VALUE|0+=$ | TR: Tehdit olarak görülmüyor: $VALUE|0+=$]
- DIPLOMACY_NOT_A_THREAT_REASON: "Not considered threatening: $VALUE|0+=$"
-### TODO AGOT-CHANGED: DIPLOMACY_FRIEND_REASON [AGOT: Friendly diplomatic stance: $VALUE|0+=$ | TR: Dostane diplomatik tutum: $VALUE|0+=$]
- DIPLOMACY_FRIEND_REASON: "Friendly diplomatic stance: $VALUE|0+=$"
-### TODO AGOT-CHANGED: REFILL_MAA_AT_WAR_TT [AGOT: You are in hostile territory | TR: Düşmancıl bir bölgedesiniz]
- REFILL_MAA_AT_WAR_TT: "You are in hostile territory"
-### TODO AGOT-CHANGED: AI_HOUSE_RELATION_REASON [AGOT: [house_relation|E] Level: $VALUE|0+=$ | TR: [house_relation|E] Seviyesi: $VALUE|0+=$]
- AI_HOUSE_RELATION_REASON: "[house_relation|E] Level: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_FAMILY_RATING_REASON [AGOT: Relative [powerful_family_rating_mid|E]: $VALUE|0+=$ | TR: Göreceli [powerful_family_rating_mid|E]: $VALUE|0+=$]
- AI_RELATIVE_FAMILY_RATING_REASON: "Relative [powerful_family_rating_mid|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_TENNO_FEUDAL_AVERSION_REASON [AGOT: [tenno|E] Distrusts [soryo|E]: $VALUE|0+=$ | TR: [tenno|E], [soryo|E]'ya güvenmiyor: $VALUE|0+=$]
- AI_TENNO_FEUDAL_AVERSION_REASON: "[tenno|E] Distrusts [soryo|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_SAME_DYNASTY_REASON [AGOT: Same [dynasty|E]: $VALUE|0+=$ | TR: Aynı [dynasty|E]: $VALUE|0+=$]
- AI_SAME_DYNASTY_REASON: "Same [dynasty|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_SAME_HOUSE_REASON [AGOT: Same [house|E]: $VALUE|0+=$ | TR: Aynı [house|E]: $VALUE|0+=$]
- AI_SAME_HOUSE_REASON: "Same [house|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_DIFFERENT_GOVERNMENT_REASON [AGOT: Different [government|E]: $VALUE|0+=$ | TR: Farklı [government|E]: $VALUE|0+=$]
- AI_DIFFERENT_GOVERNMENT_REASON: "Different [government|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_DISTANT_DOMICILE_REASON [AGOT: Distant [manor|E]: $VALUE|0+=$ | TR: Uzak [manor|E]: $VALUE|0+=$]
- AI_DISTANT_DOMICILE_REASON: "Distant [manor|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_DIFFERENT_ASPIRATION_REASON [AGOT: Different [house_aspiration|E]: $VALUE|0+=$ | TR: Farklı [house_aspiration|E]: $VALUE|0+=$]
- AI_DIFFERENT_ASPIRATION_REASON: "Different [house_aspiration|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_DIFFERENT_LEADING_ASPIRATION_REASON [AGOT: Different [house_aspiration|E] to [bloc|E] [leading_house|E]: $VALUE|0+=$ | TR: [Concept('bloc', 'Bloğun')|E] [Concept('leading_house', 'Lider Hanesiyle')|E] farklı [house_aspiration|E]: $VALUE|0+=$]
- AI_DIFFERENT_LEADING_ASPIRATION_REASON: "Different [house_aspiration|E] to [bloc|E] [leading_house|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_NOT_IN_A_BLOC_REASON [AGOT: Not in a [bloc|E]: $VALUE|0+=$ | TR: Bir [bloc|E] içinde değil: $VALUE|0+=$]
- AI_NOT_IN_A_BLOC_REASON: "Not in a [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_BLOC_STRENGTH_REASON [AGOT: Relative [bloc|E] Strength: $VALUE|0+=$ | TR: Göreceli [bloc|E] Gücü: $VALUE|0+=$]
- AI_RELATIVE_BLOC_STRENGTH_REASON: "Relative [bloc|E] Strength: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_PRESTIGE_LEVEL_REASON [AGOT: Relative [prestige_level|E]: $VALUE|0+=$ | TR: Göreceli [prestige_level|E]: $VALUE|0+=$]
- AI_RELATIVE_PRESTIGE_LEVEL_REASON: "Relative [prestige_level|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_INFLUENCE_LEVEL_REASON [AGOT: Relative [influence_level|E]: $VALUE|0+=$ | TR: Göreceli [influence_level|E]: $VALUE|0+=$]
- AI_RELATIVE_INFLUENCE_LEVEL_REASON: "Relative [influence_level|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_DYNASTY_PRESTIGE_REASON [AGOT: Relative [dynasty_prestige_level|E]: $VALUE|0+=$ | TR: Göreceli [dynasty_prestige_level|E]: $VALUE|0+=$]
- AI_RELATIVE_DYNASTY_PRESTIGE_REASON: "Relative [dynasty_prestige_level|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_OLD_BLOC_HEAD_AVERAGE_OPINION_REASON [AGOT: Old [bloc|E] [house_heads|E] Opinion: $VALUE|0+=$ | TR: Eski [Concept('bloc', 'Bloğun')|E] [house_heads|E] Görüşü: $VALUE|0+=$]
- AI_OLD_BLOC_HEAD_AVERAGE_OPINION_REASON: "Old [bloc|E] [house_heads|E] Opinion: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_NEW_BLOC_HEAD_AVERAGE_OPINION_REASON [AGOT: New [bloc|E] [house_heads|E] Opinion: $VALUE|0+=$ | TR: Yeni [Concept('bloc', 'Bloğun')|E] [house_heads|E] Görüşü: $VALUE|0+=$]
- AI_NEW_BLOC_HEAD_AVERAGE_OPINION_REASON: "New [bloc|E] [house_heads|E] Opinion: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_MILITARY_POWER [AGOT: Relative [house|E] [military_power|E]: $VALUE|0+=$ | TR: Göreceli [house|E] [military_power|E]: $VALUE|0+=$]
- AI_RELATIVE_MILITARY_POWER: "Relative [house|E] [military_power|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_THREATENED_SORYO_REASON [AGOT: Threatened by [soryo|E] [rulers|E]: $VALUE|0+=$ | TR: [soryo|E] [rulers|E] tarafından tehdit altında: $VALUE|0+=$]
- AI_THREATENED_SORYO_REASON: "Threatened by [soryo|E] [rulers|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_THREATENED_RITSURYO_REASON [AGOT: Threatened by [soryo|E] [rulers|E]: $VALUE|0+=$ | TR: [ritsuryo|E] [rulers|E] tarafından tehdit altında: $VALUE|0+=$]
- AI_THREATENED_RITSURYO_REASON: "Threatened by [soryo|E] [rulers|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_THREATENED_BLOC_REASON [AGOT: Threatened by ruling [bloc|E]: $VALUE|0+=$ | TR: İktidar [Concept('bloc', 'Bloğu')|E] tarafından tehdit altında: $VALUE|0+=$]
- AI_THREATENED_BLOC_REASON: "Threatened by ruling [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_BLOC_SIZE [AGOT: Relative [bloc|E] Size: $VALUE|0+=$ | TR: Göreceli [bloc|E] Büyüklüğü: $VALUE|0+=$]
- AI_RELATIVE_BLOC_SIZE: "Relative [bloc|E] Size: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_BLOC_MILITARY_POWER [AGOT: Relative [bloc|E] [military_power|E]: $VALUE|0+=$ | TR: Göreceli [bloc|E] [military_power|E]: $VALUE|0+=$]
- AI_RELATIVE_BLOC_MILITARY_POWER: "Relative [bloc|E] [military_power|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_HOUSE_MILITARY_POWER [AGOT: Relative [house|E] [military_power|E]: $VALUE|0+=$ | TR: Göreceli [house|E] [military_power|E]: $VALUE|0+=$]
- AI_RELATIVE_HOUSE_MILITARY_POWER: "Relative [house|E] [military_power|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_BLOC_HOUSE_RELATIONS [AGOT: Relative [house_relations|E] in [bloc|E]: $VALUE|0+=$ | TR: [bloc|E] içindeki Göreceli [house_relations|E]: $VALUE|0+=$]
- AI_RELATIVE_BLOC_HOUSE_RELATIONS: "Relative [house_relations|E] in [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_ALREADY_IN_BLOC_REASON [AGOT: Already in a [bloc|E]: $VALUE|0+=$ | TR: Zaten bir [bloc|E] içinde: $VALUE|0+=$]
- AI_ALREADY_IN_BLOC_REASON: "Already in a [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_DISTANT_SORYO_BLOC_REASON [AGOT: Distance of [bloc|E] members: $VALUE|0+=$ | TR: [bloc|E] üyelerinin uzaklığı: $VALUE|0+=$]
- AI_DISTANT_SORYO_BLOC_REASON: "Distance of [bloc|E] members: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_VULNERABLE_GOVERNMENT_REASON [AGOT: Vulnerable [government|E]: $VALUE|0+=$ | TR: Savunmasız [government|E]: $VALUE|0+=$]
- AI_VULNERABLE_GOVERNMENT_REASON: "Vulnerable [government|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_LANDED_HOUSE_MEMBERS_REASON [AGOT: [landed|E] [house|E] members: $VALUE|0+=$ | TR: [landed|E] [house|E] üyeleri: $VALUE|0+=$]
- AI_LANDED_HOUSE_MEMBERS_REASON: "[landed|E] [house|E] members: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_LANDLESS_REASON [AGOT: Landless with no [military_power|E]: $VALUE|0+=$ | TR: [Concept('military_power', 'Askerî Gücü')|E] olmayan topraksız: $VALUE|0+=$]
- AI_LANDLESS_REASON: "Landless with no [military_power|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_RELATIVE_BLOC_OPINION_REASON [AGOT: Relative [bloc|E] Opinion: $VALUE|0+=$ | TR: Göreceli [bloc|E] Görüşü: $VALUE|0+=$]
- AI_RELATIVE_BLOC_OPINION_REASON: "Relative [bloc|E] Opinion: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_NEARBY_BLOC_REASON [AGOT: Nearby [bloc|E] members: $VALUE|0+=$ | TR: Yakındaki [bloc|E] üyeleri: $VALUE|0+=$]
- AI_NEARBY_BLOC_REASON: "Nearby [bloc|E] members: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_BLOC_FEW_HOUSES_REASON [AGOT: Few [bloc|E] [member_house|E]: $VALUE|0+=$ | TR: [Concept('bloc', 'Bloktaki')|E] [Concept('member_house', 'Hane')|E] sayısının azlığı: $VALUE|0+=$]
- AI_BLOC_FEW_HOUSES_REASON: "Few [bloc|E] [member_house|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_BLOC_FEW_MEMBERS_REASON [AGOT: Few [bloc|E] members: $VALUE|0+=$ | TR: Az sayıda [bloc|E] üyesi: $VALUE|0+=$]
- AI_BLOC_FEW_MEMBERS_REASON: "Few [bloc|E] members: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_INVITER_BLOC_OPINION_REASON [AGOT: Opinion of new [bloc|E]: $VALUE|0+=$ | TR: Yeni [bloc|E] hakkındaki görüş: $VALUE|0+=$]
- AI_INVITER_BLOC_OPINION_REASON: "Opinion of new [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_JOINER_BLOC_OPINION_REASON [AGOT: Opinion of old [bloc|E]: $VALUE|0+=$ | TR: Eski [bloc|E] hakkındaki görüş: $VALUE|0+=$]
- AI_JOINER_BLOC_OPINION_REASON: "Opinion of old [bloc|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_BLOC_SIZE_AVERSION_REASON [AGOT: [bloc|E] Size: $VALUE|0+=$ | TR: [bloc|E] Büyüklüğü: $VALUE|0+=$]
- AI_BLOC_SIZE_AVERSION_REASON: "[bloc|E] Size: $VALUE|0+=$"
+ INSPIRE_UNREFORMED_FAITH: "[actor.GetShortUINamePossessive|U] [Concept('faith', 'Mezhebi')|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]: $VALUE|=+0$"
+ ZEALOUS_PROSELYTIZER_REASON: "[actor.GetShortUINamePossessive|E] [GetPerk('zealous_proselytizer_perk').GetName( GetPlayer )] [Concept('perk', 'Yeteneği')|E]: $VALUE|=+0$"
+ NO_CASUS_BELLI_REASON: "Geçerli Savaş Sebebi yok: $VALUE|0+=$"
+ CLAIMS_REASON: "Hak İddialarının oluşturduğu tehdit: $VALUE|0+=$"
+ SIMILAR_CURRENT_MILITARY_POWER_REASON: "Benzer Askerî Güç #weak (mevcut)#!: $VALUE|0+=$"
+ SIMILAR_MAX_MILITARY_POWER_REASON: "Benzer Askerî Güç #weak (maksimum)#!: $VALUE|0+=$"
+ RELATIVE_MILITARY_POWER_REASON: "Göreceli Askerî Güç: $VALUE|0+=$"
+ ALLY_MILITARY_POWER_REASON: "Müttefikler dâhil Askerî Güç: $VALUE|0+=$"
+ DIPLOMACY_NOT_A_THREAT_REASON: "Tehdit olarak görülmüyor: $VALUE|0+=$"
+ DIPLOMACY_FRIEND_REASON: "Dostane diplomatik tutum: $VALUE|0+=$"
+ REFILL_MAA_AT_WAR_TT: "Düşmancıl bir bölgedesiniz"
+ AI_HOUSE_RELATION_REASON: "[house_relation|E] Seviyesi: $VALUE|0+=$"
+ AI_RELATIVE_FAMILY_RATING_REASON: "Göreceli [powerful_family_rating_mid|E]: $VALUE|0+=$"
+ AI_TENNO_FEUDAL_AVERSION_REASON: "[tenno|E], [soryo|E]'ya güvenmiyor: $VALUE|0+=$"
+ AI_SAME_DYNASTY_REASON: "Aynı [dynasty|E]: $VALUE|0+=$"
+ AI_SAME_HOUSE_REASON: "Aynı [house|E]: $VALUE|0+=$"
+ AI_DIFFERENT_GOVERNMENT_REASON: "Farklı [government|E]: $VALUE|0+=$"
+ AI_DISTANT_DOMICILE_REASON: "Uzak [manor|E]: $VALUE|0+=$"
+ AI_DIFFERENT_ASPIRATION_REASON: "Farklı [house_aspiration|E]: $VALUE|0+=$"
+ AI_DIFFERENT_LEADING_ASPIRATION_REASON: "[Concept('bloc', 'Bloğun')|E] [Concept('leading_house', 'Lider Hanesiyle')|E] farklı [house_aspiration|E]: $VALUE|0+=$"
+ AI_NOT_IN_A_BLOC_REASON: "Bir [bloc|E] içinde değil: $VALUE|0+=$"
+ AI_RELATIVE_BLOC_STRENGTH_REASON: "Göreceli [bloc|E] Gücü: $VALUE|0+=$"
+ AI_RELATIVE_PRESTIGE_LEVEL_REASON: "Göreceli [prestige_level|E]: $VALUE|0+=$"
+ AI_RELATIVE_INFLUENCE_LEVEL_REASON: "Göreceli [influence_level|E]: $VALUE|0+=$"
+ AI_RELATIVE_DYNASTY_PRESTIGE_REASON: "Göreceli [dynasty_prestige_level|E]: $VALUE|0+=$"
+ AI_OLD_BLOC_HEAD_AVERAGE_OPINION_REASON: "Eski [Concept('bloc', 'Bloğun')|E] [house_heads|E] Görüşü: $VALUE|0+=$"
+ AI_NEW_BLOC_HEAD_AVERAGE_OPINION_REASON: "Yeni [Concept('bloc', 'Bloğun')|E] [house_heads|E] Görüşü: $VALUE|0+=$"
+ AI_RELATIVE_MILITARY_POWER: "Göreceli [house|E] [military_power|E]: $VALUE|0+=$"
+ AI_THREATENED_SORYO_REASON: "[soryo|E] [rulers|E] tarafından tehdit altında: $VALUE|0+=$"
+ AI_THREATENED_RITSURYO_REASON: "[ritsuryo|E] [rulers|E] tarafından tehdit altında: $VALUE|0+=$"
+ AI_THREATENED_BLOC_REASON: "İktidar [Concept('bloc', 'Bloğu')|E] tarafından tehdit altında: $VALUE|0+=$"
+ AI_RELATIVE_BLOC_SIZE: "Göreceli [bloc|E] Büyüklüğü: $VALUE|0+=$"
+ AI_RELATIVE_BLOC_MILITARY_POWER: "Göreceli [bloc|E] [military_power|E]: $VALUE|0+=$"
+ AI_RELATIVE_HOUSE_MILITARY_POWER: "Göreceli [house|E] [military_power|E]: $VALUE|0+=$"
+ AI_RELATIVE_BLOC_HOUSE_RELATIONS: "[bloc|E] içindeki Göreceli [house_relations|E]: $VALUE|0+=$"
+ AI_ALREADY_IN_BLOC_REASON: "Zaten bir [bloc|E] içinde: $VALUE|0+=$"
+ AI_DISTANT_SORYO_BLOC_REASON: "[bloc|E] üyelerinin uzaklığı: $VALUE|0+=$"
+ AI_VULNERABLE_GOVERNMENT_REASON: "Savunmasız [government|E]: $VALUE|0+=$"
+ AI_LANDED_HOUSE_MEMBERS_REASON: "[landed|E] [house|E] üyeleri: $VALUE|0+=$"
+ AI_LANDLESS_REASON: "[Concept('military_power', 'Askerî Gücü')|E] olmayan topraksız: $VALUE|0+=$"
+ AI_RELATIVE_BLOC_OPINION_REASON: "Göreceli [bloc|E] Görüşü: $VALUE|0+=$"
+ AI_NEARBY_BLOC_REASON: "Yakındaki [bloc|E] üyeleri: $VALUE|0+=$"
+ AI_BLOC_FEW_HOUSES_REASON: "[Concept('bloc', 'Bloktaki')|E] [Concept('member_house', 'Hane')|E] sayısının azlığı: $VALUE|0+=$"
+ AI_BLOC_FEW_MEMBERS_REASON: "Az sayıda [bloc|E] üyesi: $VALUE|0+=$"
+ AI_INVITER_BLOC_OPINION_REASON: "Yeni [bloc|E] hakkındaki görüş: $VALUE|0+=$"
+ AI_JOINER_BLOC_OPINION_REASON: "Eski [bloc|E] hakkındaki görüş: $VALUE|0+=$"
+ AI_BLOC_SIZE_AVERSION_REASON: "[bloc|E] Büyüklüğü: $VALUE|0+=$"
  AI_BLOC_COHESION_REASON: "[bloc_cohesion|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_BLOC_RELATIVE_COHESION_REASON [AGOT: Relative [bloc_cohesion|E]: $VALUE|0+=$ | TR: Göreceli [bloc_cohesion|E]: $VALUE|0+=$]
- AI_BLOC_RELATIVE_COHESION_REASON: "Relative [bloc_cohesion|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_SAME_ASPIRATION_REASON [AGOT: Same [house_aspiration|E]: $VALUE|0+=$ | TR: Aynı [house_aspiration|E]: $VALUE|0+=$]
- AI_SAME_ASPIRATION_REASON: "Same [house_aspiration|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_SAME_LEADING_ASPIRATION_REASON [AGOT: Same [house_aspiration|E] as [bloc|E] [leading_house|E]: $VALUE|0+=$ | TR: [Concept('bloc', 'Bloğun')|E] [Concept('leading_house', 'Lider Hanesiyle')|E] aynı [house_aspiration|E]: $VALUE|0+=$]
- AI_SAME_LEADING_ASPIRATION_REASON: "Same [house_aspiration|E] as [bloc|E] [leading_house|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_BETTER_LEADING_ASPIRATION_REASON [AGOT: Higher [house_aspiration|E] level: $VALUE|0+=$ | TR: Daha yüksek [house_aspiration|E] seviyesi: $VALUE|0+=$]
- AI_BETTER_LEADING_ASPIRATION_REASON: "Higher [house_aspiration|E] level: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_LOW_COHESION_REASON [AGOT: Low [bloc_cohesion|E]: $VALUE|0+=$ | TR: Düşük [bloc_cohesion|E]: $VALUE|0+=$]
- AI_LOW_COHESION_REASON: "Low [bloc_cohesion|E]: $VALUE|0+=$"
+ AI_BLOC_RELATIVE_COHESION_REASON: "Göreceli [bloc_cohesion|E]: $VALUE|0+=$"
+ AI_SAME_ASPIRATION_REASON: "Aynı [house_aspiration|E]: $VALUE|0+=$"
+ AI_SAME_LEADING_ASPIRATION_REASON: "[Concept('bloc', 'Bloğun')|E] [Concept('leading_house', 'Lider Hanesiyle')|E] aynı [house_aspiration|E]: $VALUE|0+=$"
+ AI_BETTER_LEADING_ASPIRATION_REASON: "Daha yüksek [house_aspiration|E] seviyesi: $VALUE|0+=$"
+ AI_LOW_COHESION_REASON: "Düşük [bloc_cohesion|E]: $VALUE|0+=$"
  AI_BLOCK_JOIN_SAME_DYNASTY_LEGACY_BONUS: "[GetDynastyPerk('tgp_japan_legacy_1').GetName]: $VALUE|0+=$"
  AI_BLOCK_JOIN_LIFESTYLE_PERK: "[GetPerk('forced_vassalage_perk').GetName(GetNullCharacter)]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: AI_UNRESTORED_TENNO_REASON [AGOT: [top_liege|E] is [ceremonial_liege|E]: $VALUE|0+=$ | TR: [top_liege|E] [ceremonial_liege|E]: $VALUE|0+=$]
- AI_UNRESTORED_TENNO_REASON: "[top_liege|E] is [ceremonial_liege|E]: $VALUE|0+=$"
+ AI_UNRESTORED_TENNO_REASON: "[top_liege|E] [ceremonial_liege|E]: $VALUE|0+=$"
  SERVICE_BLOC_COHESION_DESC: "[ROOT.Char.GetConfederation.GetName]"
  CHARACTER_INTERACTION_CANDIDATE_SCORE_TT_HEADING: "[candidate_score|E]: [CharacterInteractionConfirmationWindow.GetCandidateScore( CharacterListItem.Self )|V0]"
-### TODO AGOT-CHANGED: INTERACTION_RULER_TOO_YOUNG [AGOT: Ruler is still young: $VALUE|0+=$ | TR: Hükümdar hâlâ genç: $VALUE|0+=$]
- INTERACTION_RULER_TOO_YOUNG: "Ruler is still young: $VALUE|0+=$"
-### TODO AGOT-CHANGED: INTERACTION_HEIR_NOT_MY_DESCENDENT [AGOT: Heir not [recipient.GetShortUINamePossessive] descendant: $VALUE|0+=$ | TR: Vâris, [Select_CString( recipient.IsLocalPlayer, 'sizin', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin' )] soyun[Select_CString( recipient.IsLocalPlayer, 'uz', '' )]dan değil: $VALUE|0+=$]
- INTERACTION_HEIR_NOT_MY_DESCENDENT: "Heir not [recipient.GetShortUINamePossessive] descendant: $VALUE|0+=$"
-### TODO AGOT-CHANGED: INTERACTION_HEIR_TOO_YOUNG [AGOT: Heir is still young: $VALUE|0+=$ | TR: Vâris hâlâ genç: $VALUE|0+=$]
- INTERACTION_HEIR_TOO_YOUNG: "Heir is still young: $VALUE|0+=$"
-### TODO AGOT-CHANGED: INTERACTION_BAD_RELATIONSHIP_WITH_ACTOR [AGOT: Poor relationship: $VALUE|0+=$ | TR: Kötü ilişki: $VALUE|0+=$]
- INTERACTION_BAD_RELATIONSHIP_WITH_ACTOR: "Poor relationship: $VALUE|0+=$"
-### TODO AGOT-CHANGED: INTERACTION_POOR_HEALTH [AGOT: Poor [health|E]: $VALUE|0+=$ | TR: Kötü [health|E]: $VALUE|0+=$]
- INTERACTION_POOR_HEALTH: "Poor [health|E]: $VALUE|0+=$"
-### TODO AGOT-CHANGED: IMPRISON_MINISTER_OF_JUSTICE_TREASURY_COST [AGOT: You are the [minister_of_justice|E] | TR: [Concept('minister_of_justice', 'Adalet Bakanısınız')|E]]
- IMPRISON_MINISTER_OF_JUSTICE_TREASURY_COST: "You are the [minister_of_justice|E]"
+ INTERACTION_RULER_TOO_YOUNG: "Hükümdar hâlâ genç: $VALUE|0+=$"
+ INTERACTION_HEIR_NOT_MY_DESCENDENT: "Vâris, [Select_CString( recipient.IsLocalPlayer, 'sizin', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin' )] soyun[Select_CString( recipient.IsLocalPlayer, 'uz', '' )]dan değil: $VALUE|0+=$"
+ INTERACTION_HEIR_TOO_YOUNG: "Vâris hâlâ genç: $VALUE|0+=$"
+ INTERACTION_BAD_RELATIONSHIP_WITH_ACTOR: "Kötü ilişki: $VALUE|0+=$"
+ INTERACTION_POOR_HEALTH: "Kötü [health|E]: $VALUE|0+=$"
+ IMPRISON_MINISTER_OF_JUSTICE_TREASURY_COST: "[Concept('minister_of_justice', 'Adalet Bakanısınız')|E]"

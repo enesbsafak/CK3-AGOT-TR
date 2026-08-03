@@ -30,30 +30,18 @@
  MOD_INTRIGUE_PER_PRESTIGE_LEVEL:0 "[prestige_level|E] başına [intrigue|E]"
  MOD_LEARNING_PER_PRESTIGE_LEVEL:0 "[prestige_level|E] başına [learning|E]"
  MOD_PROWESS_PER_PRESTIGE_LEVEL:0 "[prestige_level|E] başına [prowess|E]"
-### TODO AGOT-CHANGED: MOD_DIPLOMACY_PER_INFLUENCE_LEVEL [AGOT: [diplomacy|E] per [influence_level|E] | TR: [influence_level|E] başına [diplomacy|E]]
- MOD_DIPLOMACY_PER_INFLUENCE_LEVEL: "[diplomacy|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_MARTIAL_PER_INFLUENCE_LEVEL [AGOT: [martial|E] per [influence_level|E] | TR: [influence_level|E] başına [martial|E]]
- MOD_MARTIAL_PER_INFLUENCE_LEVEL: "[martial|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_STEWARDSHIP_PER_INFLUENCE_LEVEL [AGOT: [stewardship|E] per [influence_level|E] | TR: [influence_level|E] başına [stewardship|E]]
- MOD_STEWARDSHIP_PER_INFLUENCE_LEVEL: "[stewardship|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_INTRIGUE_PER_INFLUENCE_LEVEL [AGOT: [intrigue|E] per [influence_level|E] | TR: [influence_level|E] başına [intrigue|E]]
- MOD_INTRIGUE_PER_INFLUENCE_LEVEL: "[intrigue|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_LEARNING_PER_INFLUENCE_LEVEL [AGOT: [learning|E] per [influence_level|E] | TR: [influence_level|E] başına [learning|E]]
- MOD_LEARNING_PER_INFLUENCE_LEVEL: "[learning|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_PROWESS_PER_INFLUENCE_LEVEL [AGOT: [prowess|E] per [influence_level|E] | TR: [influence_level|E] başına [prowess|E]]
- MOD_PROWESS_PER_INFLUENCE_LEVEL: "[prowess|E] per [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_DIPLOMACY_PER_MERIT_LEVEL [AGOT: [diplomacy|E] per [merit_level|E] | TR: [merit_level|E] başına [diplomacy|E]]
- MOD_DIPLOMACY_PER_MERIT_LEVEL: "[diplomacy|E] per [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_MARTIAL_PER_MERIT_LEVEL [AGOT: [martial|E] per [merit_level|E] | TR: [merit_level|E] başına [martial|E]]
- MOD_MARTIAL_PER_MERIT_LEVEL: "[martial|E] per [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_STEWARDSHIP_PER_MERIT_LEVEL [AGOT: [stewardship|E] per [merit_level|E] | TR: [merit_level|E] başına [stewardship|E]]
- MOD_STEWARDSHIP_PER_MERIT_LEVEL: "[stewardship|E] per [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_INTRIGUE_PER_MERIT_LEVEL [AGOT: [intrigue|E] per [merit_level|E] | TR: [merit_level|E] başına [intrigue|E]]
- MOD_INTRIGUE_PER_MERIT_LEVEL: "[intrigue|E] per [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_LEARNING_PER_MERIT_LEVEL [AGOT: [learning|E] per [merit_level|E] | TR: [merit_level|E] başına [learning|E]]
- MOD_LEARNING_PER_MERIT_LEVEL: "[learning|E] per [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_PROWESS_PER_MERIT_LEVEL [AGOT: [prowess|E] per [merit_level|E] | TR: [merit_level|E] başına [prowess|E]]
- MOD_PROWESS_PER_MERIT_LEVEL: "[prowess|E] per [merit_level|E]"
+ MOD_DIPLOMACY_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [diplomacy|E]"
+ MOD_MARTIAL_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [martial|E]"
+ MOD_STEWARDSHIP_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [stewardship|E]"
+ MOD_INTRIGUE_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [intrigue|E]"
+ MOD_LEARNING_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [learning|E]"
+ MOD_PROWESS_PER_INFLUENCE_LEVEL: "[influence_level|E] başına [prowess|E]"
+ MOD_DIPLOMACY_PER_MERIT_LEVEL: "[merit_level|E] başına [diplomacy|E]"
+ MOD_MARTIAL_PER_MERIT_LEVEL: "[merit_level|E] başına [martial|E]"
+ MOD_STEWARDSHIP_PER_MERIT_LEVEL: "[merit_level|E] başına [stewardship|E]"
+ MOD_INTRIGUE_PER_MERIT_LEVEL: "[merit_level|E] başına [intrigue|E]"
+ MOD_LEARNING_PER_MERIT_LEVEL: "[merit_level|E] başına [learning|E]"
+ MOD_PROWESS_PER_MERIT_LEVEL: "[merit_level|E] başına [prowess|E]"
  MOD_DIPLOMACY_PER_STRESS_LEVEL:0 "[stress_level|E] başına [diplomacy|E]"
  MOD_MARTIAL_PER_STRESS_LEVEL:0 "[stress_level|E] başına [martial|E]"
  MOD_STEWARDSHIP_PER_STRESS_LEVEL:0 "[stress_level|E] başına [stewardship|E]"
@@ -72,12 +60,9 @@
  MOD_LEARNING_NEGATE_PENALTY:0 "[learning|E] Azalması Engellendi"
  MOD_FERTILITY:0 "[fertility|E]"
  MOD_FERTILITY_NEGATE_PENALTY:0 "Bağışıklık ([fertility|E])"
-### TODO AGOT-CHANGED: MOD_PROVISIONS_GAIN_MULT [AGOT: [provisions|E] Gain | TR: [provision|E] Artışı]
- MOD_PROVISIONS_GAIN_MULT: "[provisions|E] Gain"
-### TODO AGOT-CHANGED: MOD_PROVISIONS_LOSS_MULT [AGOT: [provisions|E] Loss | TR: [provision|E] Kaybı]
- MOD_PROVISIONS_LOSS_MULT: "[provisions|E] Loss"
-### TODO AGOT-CHANGED: MOD_PROVISIONS_CAPACITY_ADD [AGOT: [provisions|E] Capacity | TR: [provision|E] Kapasitesi]
- MOD_PROVISIONS_CAPACITY_ADD: "[provisions|E] Capacity"
+ MOD_PROVISIONS_GAIN_MULT: "[provision|E] Artışı"
+ MOD_PROVISIONS_LOSS_MULT: "[provision|E] Kaybı"
+ MOD_PROVISIONS_CAPACITY_ADD: "[provision|E] Kapasitesi"
  MOD_PROVISIONS_CAPACITY_MULT: "$MOD_PROVISIONS_CAPACITY_ADD$"
  MOD_COST_PREFIX:0 "[gold_i]"
  MOD_SCHEME_SECRECY:0 "[secrecy|E]"
@@ -123,10 +108,8 @@
  MOD_LEVY_REINFORCEMENT_RATE_FRIENDLY_TERRITORY:0 "Dost Topraklarda [levy|E] Takviye Hızı"
  MOD_TITLE_CREATION_COST:2 "[title|E] Oluşturma Maliyeti"
  MOD_TITLE_CREATION_COST_MULT:2 "[title|E] Oluşturma Maliyeti"
-### TODO AGOT-CHANGED: MOD_TITLE_CREATION_PIETY_COST [AGOT: [title|E] Creation [piety|E] Cost | TR: [title|E] Oluşturma [piety|E] Maliyeti]
- MOD_TITLE_CREATION_PIETY_COST: "[title|E] Creation [piety|E] Cost"
-### TODO AGOT-CHANGED: MOD_TITLE_CREATION_PIETY_COST_MULT [AGOT: [title|E] Creation [piety|E] Cost | TR: [title|E] Oluşturma [piety|E] Maliyeti]
- MOD_TITLE_CREATION_PIETY_COST_MULT: "[title|E] Creation [piety|E] Cost"
+ MOD_TITLE_CREATION_PIETY_COST: "[title|E] Oluşturma [piety|E] Maliyeti"
+ MOD_TITLE_CREATION_PIETY_COST_MULT: "[title|E] Oluşturma [piety|E] Maliyeti"
  MOD_WINTER_MOVEMENT_SPEED:0 "Kıştan Etkilenmiş Topraklarda Hareket Hızı"
  MOD_SUPPLY_LOSS_WINTER:0 "Kıştan Etkilenmiş Topraklarda İkmal Kaybı"
  MOD_HARD_CASUALTY_WINTER:0 "Kıştan Etkilenmiş Topraklardaki [dead_soldiers|E]"
@@ -135,8 +118,7 @@
  MOD_LEAD_BY_OWNER_ADVANTAGE:0 "[command_modifier_i|E]Kendi ordularını yönetirken [advantage|E]"
  MOD_SAME_HERITAGE_COUNTY_ADVANTAGE:1 "[command_modifier_i|E]Aynı [cultural|E] [heritage|E]a sahip Eyaletlerde [advantage|E]"
  MOD_INDEPENDENT_PRIMARY_DEFENDER_ADVANTAGE:0 "[command_modifier_i|E]Bağımsız ve birincil savunan [Concept( 'advantage', 'Avantajı' )|E]"
-### TODO AGOT-CHANGED: MOD_INDEPENDENT_PRIMARY_ATTACKER_ADVANTAGE [AGOT: [command_modifier_i|E][advantage|E] while primary attacker and independent | TR: [command_modifier_i|E]Bağımsız ve birincil saldıran [Concept( 'advantage', 'Avantajı' )|E]]
- MOD_INDEPENDENT_PRIMARY_ATTACKER_ADVANTAGE: "[command_modifier_i|E][advantage|E] while primary attacker and independent"
+ MOD_INDEPENDENT_PRIMARY_ATTACKER_ADVANTAGE: "[command_modifier_i|E]Bağımsız ve birincil saldıran [Concept( 'advantage', 'Avantajı' )|E]"
  MOD_ARMY_SIEGE_VALUE_MULT:0 "Ordu [siege_weapon|E] Verimliliği"
  MOD_ARMY_DAMAGE_MULT:0 "Ordu [Concept( 'damage', 'Hasarı' )|E]"
  MOD_ARMY_TOUGHNESS_MULT:0 "Ordu [Concept( 'toughness', 'Dayanıklılığı' )|E]"
@@ -144,8 +126,7 @@
  MOD_ARMY_SCREEN_MULT:0 "Ordu [Concept( 'screen', 'Siperi' )|E]"
  MOD_MERCENARY_HIRE_COST_ADD:0 "[mercenary|E] Kiralama Maliyeti"
  MOD_MERCENARY_HIRE_COST_MULT:0 "$MOD_MERCENARY_HIRE_COST_ADD$"
-### TODO AGOT-CHANGED: MOD_MERCENARY_HIRE_TIME_MULT [AGOT: [mercenary|E] Hire Duration | TR: [mercenary|E] Kiralama Süresi]
- MOD_MERCENARY_HIRE_TIME_MULT: "[mercenary|E] Hire Duration"
+ MOD_MERCENARY_HIRE_TIME_MULT: "[mercenary|E] Kiralama Süresi"
  MOD_HOLY_ORDER_HIRE_COST_ADD:0 "[holy_order|E] Kiralama Maliyeti"
  MOD_HOLY_ORDER_HIRE_COST_MULT:0 "$MOD_HOLY_ORDER_HIRE_COST_ADD$"
  MOD_SAME_CULTURE_MERCENARY_HIRE_COST_ADD:0 "Aynı [Concept( 'culture', 'Kültürden' )|E] [mercenary|E] Kiralama Maliyeti"
@@ -156,8 +137,10 @@
  desert_max_combat_roll:1 "[command_modifier_i|E]Çöl Arazide Maksimum [combat_roll|E]"
  drylands_advantage:1 "[command_modifier_i|E]Kurak Arazide [advantage|E]"
  drylands_max_combat_roll:1 "[command_modifier_i|E]Kurak Arazide Maksimum [combat_roll|E]"
- farmlands_advantage:1 "[command_modifier_i|E]Tarım Alanları Arazisinde [advantage|E]"
- farmlands_max_combat_roll:1 "[command_modifier_i|E]Tarım Alanları Arazisinde Maksimum [combat_roll|E]"
+### TODO AGOT-CHANGED: farmlands_advantage [AGOT: [command_modifier_i|E][advantage|E] in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde [advantage|E]]
+ farmlands_advantage:1 "[command_modifier_i|E][advantage|E] in Meadows"
+### TODO AGOT-CHANGED: farmlands_max_combat_roll [AGOT: [command_modifier_i|E]Maximum [combat_roll|E] in Meadows | TR: [command_modifier_i|E]Tarım Alanları Arazisinde Maksimum [combat_roll|E]]
+ farmlands_max_combat_roll:1 "[command_modifier_i|E]Maximum [combat_roll|E] in Meadows"
  forest_advantage:1 "[command_modifier_i|E]Ormanlık Arazide [advantage|E]"
  forest_max_combat_roll:1 "[command_modifier_i|E]Ormanlık Arazide Maksimum [combat_roll|E]"
  jungle_advantage:1 "[command_modifier_i|E]Vahşi Orman Arazisinde [advantage|E]"
@@ -196,14 +179,11 @@
  elephant_cavalry_toughness_mult:0 "$elephant_cavalry_toughness_add$"
  elephant_cavalry_screen_add:0 "[elephant_cavalry|E] [Concept( 'screen', 'Siperi' )|E]"
  elephant_cavalry_screen_mult:0 "$elephant_cavalry_screen_add$"
-### TODO AGOT-CHANGED: gunpowder_damage_add [AGOT: [gunpowder|E] [damage|E] | TR: [gunpowder|E] [Concept( 'damage', 'Hasarı' )|E]]
- gunpowder_damage_add: "[gunpowder|E] [damage|E]"
+ gunpowder_damage_add: "[gunpowder|E] [Concept( 'damage', 'Hasarı' )|E]"
  gunpowder_damage_mult: "$gunpowder_damage_add$"
-### TODO AGOT-CHANGED: gunpowder_toughness_add [AGOT: [gunpowder|E] [toughness|E] | TR: [gunpowder|E] [Concept( 'toughness', 'Dayanıklılığı' )|E]]
- gunpowder_toughness_add: "[gunpowder|E] [toughness|E]"
+ gunpowder_toughness_add: "[gunpowder|E] [Concept( 'toughness', 'Dayanıklılığı' )|E]"
  gunpowder_toughness_mult: "$gunpowder_toughness_add$"
-### TODO AGOT-CHANGED: gunpowder_screen_add [AGOT: [gunpowder|E] [screen|E] | TR: [gunpowder|E] [Concept( 'screen', 'Siperi' )|E]]
- gunpowder_screen_add: "[gunpowder|E] [screen|E]"
+ gunpowder_screen_add: "[gunpowder|E] [Concept( 'screen', 'Siperi' )|E]"
  gunpowder_screen_mult: "$gunpowder_screen_add$"
  MOD_COUNTY_FERTILITY_PREFIX: "@county_fertility_icon!"
  MOD_MOVEMENT_SPEED_PREFIX:0 "@movement_speed_icon!"
@@ -261,92 +241,54 @@
  MOD_INTIMIDATED_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [levy|E] [Concept( 'modifier_contribution', 'Katkısı' )|E]"
  MOD_COWED_VASSAL_LEVY_CONTRIBUTION_ADD:1 "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [levy|E] Katkısı"
  MOD_COWED_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [levy|E] [Concept( 'modifier_contribution', 'Katkısı' )|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_HERD_CONTRIBUTION_ADD [AGOT: [vassal|E] [herd|E] [modifier_base_contribution|E] | TR: [vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı]
- MOD_VASSAL_HERD_CONTRIBUTION_ADD: "[vassal|E] [herd|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_HERD_CONTRIBUTION_MULT [AGOT: [vassal|E] [herd|E] [modifier_contribution|E] | TR: [vassal|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_VASSAL_HERD_CONTRIBUTION_MULT: "[vassal|E] [herd|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_HERDER_CONTRIBUTION_ADD [AGOT: [vassal|E] [herd|E] [modifier_base_contribution|E] | TR: [vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı]
- MOD_VASSAL_HERDER_CONTRIBUTION_ADD: "[vassal|E] [herd|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_HERDER_CONTRIBUTION_MULT [AGOT: [vassal|E] [herd|E] [modifier_contribution|E] | TR: [vassal|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_VASSAL_HERDER_CONTRIBUTION_MULT: "[vassal|E] [herd|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_PRESTIGE_CONTRIBUTION_ADD [AGOT: [vassal|E] [prestige|E] [modifier_base_contribution|E] | TR: [vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı]
- MOD_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[vassal|E] [prestige|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_PRESTIGE_CONTRIBUTION_MULT [AGOT: [vassal|E] [prestige|E] [modifier_contribution|E] | TR: [vassal|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[vassal|E] [prestige|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_PIETY_CONTRIBUTION_ADD [AGOT: [vassal|E] [piety|E] [modifier_base_contribution|E] | TR: [vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı]
- MOD_VASSAL_PIETY_CONTRIBUTION_ADD: "[vassal|E] [piety|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_PIETY_CONTRIBUTION_MULT [AGOT: [vassal|E] [piety|E] [modifier_contribution|E] | TR: [vassal|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_VASSAL_PIETY_CONTRIBUTION_MULT: "[vassal|E] [piety|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_ADD [AGOT: [intimidated|E] [vassal|E] [herd|E] [modifier_base_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı]
- MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_ADD: "[intimidated|E] [vassal|E] [herd|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_MULT [AGOT: [intimidated|E] [vassal|E] [herd|E] [modifier_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_MULT: "[intimidated|E] [vassal|E] [herd|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_ADD [AGOT: [intimidated|E] [vassal|E] [prestige|E] [modifier_base_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı]
- MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[intimidated|E] [vassal|E] [prestige|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_MULT [AGOT: [intimidated|E] [vassal|E] [prestige|E] [modifier_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[intimidated|E] [vassal|E] [prestige|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_ADD [AGOT: [intimidated|E] [vassal|E] [piety|E] [modifier_base_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı]
- MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_ADD: "[intimidated|E] [vassal|E] [piety|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_MULT [AGOT: [intimidated|E] [vassal|E] [piety|E] [modifier_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_MULT: "[intimidated|E] [vassal|E] [piety|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_HERD_CONTRIBUTION_ADD [AGOT: [cowed|E] [vassal|E] [herd|E] [modifier_base_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı]
- MOD_COWED_VASSAL_HERD_CONTRIBUTION_ADD: "[cowed|E] [vassal|E] [herd|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_HERD_CONTRIBUTION_MULT [AGOT: [cowed|E] [vassal|E] [herd|E] [modifier_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_COWED_VASSAL_HERD_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [herd|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_ADD [AGOT: [cowed|E] [vassal|E] [prestige|E] [modifier_base_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı]
- MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[cowed|E] [vassal|E] [prestige|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_MULT [AGOT: [cowed|E] [vassal|E] [prestige|E] [modifier_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [prestige|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_PIETY_CONTRIBUTION_ADD [AGOT: [cowed|E] [vassal|E] [piety|E] [modifier_base_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı]
- MOD_COWED_VASSAL_PIETY_CONTRIBUTION_ADD: "[cowed|E] [vassal|E] [piety|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_PIETY_CONTRIBUTION_MULT [AGOT: [cowed|E] [vassal|E] [piety|E] [modifier_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_COWED_VASSAL_PIETY_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [piety|E] [modifier_contribution|E]"
+ MOD_VASSAL_HERD_CONTRIBUTION_ADD: "[vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı"
+ MOD_VASSAL_HERD_CONTRIBUTION_MULT: "[vassal|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_VASSAL_HERDER_CONTRIBUTION_ADD: "[vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı"
+ MOD_VASSAL_HERDER_CONTRIBUTION_MULT: "[vassal|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı"
+ MOD_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[vassal|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_VASSAL_PIETY_CONTRIBUTION_ADD: "[vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı"
+ MOD_VASSAL_PIETY_CONTRIBUTION_MULT: "[vassal|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_ADD: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı"
+ MOD_INTIMIDATED_VASSAL_HERD_CONTRIBUTION_MULT: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı"
+ MOD_INTIMIDATED_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_ADD: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı"
+ MOD_INTIMIDATED_VASSAL_PIETY_CONTRIBUTION_MULT: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_COWED_VASSAL_HERD_CONTRIBUTION_ADD: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı"
+ MOD_COWED_VASSAL_HERD_CONTRIBUTION_MULT: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı"
+ MOD_COWED_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_COWED_VASSAL_PIETY_CONTRIBUTION_ADD: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı"
+ MOD_COWED_VASSAL_PIETY_CONTRIBUTION_MULT: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]"
  MOD_HAPPY_POWERFUL_VASSAL_TAX_CONTRIBUTION_ADD:2 "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [tax|E] Katkısı"
  MOD_HAPPY_POWERFUL_VASSAL_TAX_CONTRIBUTION_MULT:1 "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [tax|E] [Concept( 'modifier_contribution', 'Katkısı' )|E]"
  MOD_HAPPY_POWERFUL_VASSAL_LEVY_CONTRIBUTION_ADD:2 "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [levy|E] Katkısı"
  MOD_HAPPY_POWERFUL_VASSAL_LEVY_CONTRIBUTION_MULT:1 "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [levy|E] [Concept( 'modifier_contribution', 'Katkısı' )|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_ADD [AGOT: [powerful_vassal|E] [councillor|E] [herd|E] [modifier_base_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı]
- MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_MULT [AGOT: [powerful_vassal|E] [councillor|E] [herd|E] [modifier_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [herd|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_ADD [AGOT: [powerful_vassal|E] [councillor|E] [prestige|E] [modifier_base_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı]
- MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_MULT [AGOT: [powerful_vassal|E] [councillor|E] [prestige|E] [modifier_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [prestige|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_ADD [AGOT: [powerful_vassal|E] [councillor|E] [piety|E] [modifier_base_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı]
- MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [piety|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_MULT [AGOT: [powerful_vassal|E] [councillor|E] [piety|E] [modifier_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [piety|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD [AGOT: [vassal|E] [barter_goods|E] [modifier_base_contribution|E] | TR: [vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı]
- MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[vassal|E] [barter_goods|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT [AGOT: [vassal|E] [barter_goods|E] [modifier_contribution|E] | TR: [vassal|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[vassal|E] [barter_goods|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD [AGOT: [intimidated|E] [vassal|E] [barter_goods|E] [modifier_base_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı]
- MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[intimidated|E] [vassal|E] [barter_goods|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT [AGOT: [intimidated|E] [vassal|E] [barter_goods|E] [modifier_contribution|E] | TR: [intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[intimidated|E] [vassal|E] [barter_goods|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD [AGOT: [cowed|E] [vassal|E] [barter_goods|E] [modifier_base_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı]
- MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[cowed|E] [vassal|E] [barter_goods|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT [AGOT: [cowed|E] [vassal|E] [barter_goods|E] [modifier_contribution|E] | TR: [cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[cowed|E] [vassal|E] [barter_goods|E] [modifier_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD [AGOT: [powerful_vassal|E] [councillor|E] [barter_goods|E] [modifier_base_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı]
- MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[powerful_vassal|E] [councillor|E] [barter_goods|E] [modifier_base_contribution|E]"
-### TODO AGOT-CHANGED: MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT [AGOT: [powerful_vassal|E] [councillor|E] [barter_goods|E] [modifier_contribution|E] | TR: [councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]]
- MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[powerful_vassal|E] [councillor|E] [barter_goods|E] [modifier_contribution|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_ADD: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [herd|E] Katkısı"
+ MOD_HAPPY_POWERFUL_VASSAL_HERD_CONTRIBUTION_MULT: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [herd|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_ADD: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [prestige|E] Katkısı"
+ MOD_HAPPY_POWERFUL_VASSAL_PRESTIGE_CONTRIBUTION_MULT: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [prestige|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_ADD: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [piety|E] Katkısı"
+ MOD_HAPPY_POWERFUL_VASSAL_PIETY_CONTRIBUTION_MULT: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [piety|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[vassal|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı"
+ MOD_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[vassal|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı"
+ MOD_INTIMIDATED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[intimidated|E] [Concept( 'vassal', 'Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı"
+ MOD_COWED_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[cowed|E] [Concept( 'vassal', 'Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]"
+ MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_ADD: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [Concept( 'modifier_base_contribution', 'Temel' )|E] [barter_goods|E] Katkısı"
+ MOD_HAPPY_POWERFUL_VASSAL_BARTER_GOODS_CONTRIBUTION_MULT: "[councillor|E] olan [Concept( 'powerful_vassal', 'Önemli Vasalın' )|E] [barter_goods|E] [Concept('modifier_contribution', 'Katkısı')|E]"
  MOD_SCHEME_PHASE_DURATION: "[scheme_speed|E]"
  MOD_SCHEME_RESISTANCE:0 "Plan Dayanıklılığı"
  MOD_HOSTILE_SCHEME_PHASE_DURATION_ADD: "[scheme_hostile|E] [scheme_speed|E]"
  MOD_CONTRACT_SCHEME_PHASE_DURATION_ADD: "[task_contract|E] [scheme_speed|E]"
  MOD_PERSONAL_SCHEME_PHASE_DURATION_ADD: "[personal|E] [scheme_speed|E]"
  MOD_POLITICAL_SCHEME_PHASE_DURATION_ADD: "[political|E] [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_HOSTILE_SCHEME_PHASE_DURATION_ADD [AGOT: Enemy $MOD_HOSTILE_SCHEME_PHASE_DURATION_ADD$ | TR: Düşmanın $MOD_HOSTILE_SCHEME_PHASE_DURATION_ADD$]
- MOD_ENEMY_HOSTILE_SCHEME_PHASE_DURATION_ADD: "Enemy $MOD_HOSTILE_SCHEME_PHASE_DURATION_ADD$"
-### TODO AGOT-CHANGED: MOD_ENEMY_CONTRACT_SCHEME_PHASE_DURATION_ADD [AGOT: Enemy $MOD_CONTRACT_SCHEME_PHASE_DURATION_ADD$ | TR: Düşmanın $MOD_CONTRACT_SCHEME_PHASE_DURATION_ADD$]
- MOD_ENEMY_CONTRACT_SCHEME_PHASE_DURATION_ADD: "Enemy $MOD_CONTRACT_SCHEME_PHASE_DURATION_ADD$"
-### TODO AGOT-CHANGED: MOD_ENEMY_PERSONAL_SCHEME_PHASE_DURATION_ADD [AGOT: Enemy $MOD_PERSONAL_SCHEME_PHASE_DURATION_ADD$ | TR: Düşmanın $MOD_PERSONAL_SCHEME_PHASE_DURATION_ADD$]
- MOD_ENEMY_PERSONAL_SCHEME_PHASE_DURATION_ADD: "Enemy $MOD_PERSONAL_SCHEME_PHASE_DURATION_ADD$"
-### TODO AGOT-CHANGED: MOD_ENEMY_POLITICAL_SCHEME_PHASE_DURATION_ADD [AGOT: Enemy $MOD_POLITICAL_SCHEME_PHASE_DURATION_ADD$ | TR: Düşmanın $MOD_POLITICAL_SCHEME_PHASE_DURATION_ADD$]
- MOD_ENEMY_POLITICAL_SCHEME_PHASE_DURATION_ADD: "Enemy $MOD_POLITICAL_SCHEME_PHASE_DURATION_ADD$"
+ MOD_ENEMY_HOSTILE_SCHEME_PHASE_DURATION_ADD: "Düşmanın $MOD_HOSTILE_SCHEME_PHASE_DURATION_ADD$"
+ MOD_ENEMY_CONTRACT_SCHEME_PHASE_DURATION_ADD: "Düşmanın $MOD_CONTRACT_SCHEME_PHASE_DURATION_ADD$"
+ MOD_ENEMY_PERSONAL_SCHEME_PHASE_DURATION_ADD: "Düşmanın $MOD_PERSONAL_SCHEME_PHASE_DURATION_ADD$"
+ MOD_ENEMY_POLITICAL_SCHEME_PHASE_DURATION_ADD: "Düşmanın $MOD_POLITICAL_SCHEME_PHASE_DURATION_ADD$"
  MOD_HEALTH:0 "[health|E]"
  MOD_CHILD_HEALTH: "[child_health|E]"
  MOD_ADULT_HEALTH: "[adult_health|E]"
@@ -355,59 +297,34 @@
  MOD_HEALTH_NEGATE_PENALTY:0 "Hastalık Bağışıklığı ([health|E])"
  MOD_MONTHLY_INCOME:0 "[tax|E]"
  MOD_MONTHLY_INCOME_MULT:0 "Aylık [income|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_INCOME_ADD [AGOT: [gold|E] [income|E] while at [war|E] | TR: [war|E] sırasında [gold|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_INCOME_ADD: "[gold|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_INCOME_MULT [AGOT: Monthly [gold|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [gold|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_INCOME_MULT: "Monthly [gold|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_PRESTIGE_INCOME_ADD [AGOT: [prestige|E] [income|E] while at [war|E] | TR: [war|E] sırasında [prestige|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_PRESTIGE_INCOME_ADD: "[prestige|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_PRESTIGE_INCOME_MULT [AGOT: Monthly [prestige|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [prestige|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_PRESTIGE_INCOME_MULT: "Monthly [prestige|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_PIETY_INCOME_ADD [AGOT: [piety|E] [income|E] while at [war|E] | TR: [war|E] sırasında [piety|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_PIETY_INCOME_ADD: "[piety|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_PIETY_INCOME_MULT [AGOT: Monthly [piety|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [piety|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_PIETY_INCOME_MULT: "Monthly [piety|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_INFLUENCE_INCOME_ADD [AGOT: [influence|E] [income|E] while at [war|E] | TR: [war|E] sırasında [influence|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_INFLUENCE_INCOME_ADD: "[influence|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_INFLUENCE_INCOME_MULT [AGOT: Monthly [influence|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [influence|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_INFLUENCE_INCOME_MULT: "Monthly [influence|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_MERIT_INCOME_ADD [AGOT: [merit|E] [income|E] while at [war|E] | TR: [war|E] sırasında [merit|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_MERIT_INCOME_ADD: "[merit|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_MERIT_INCOME_MULT [AGOT: Monthly [merit|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [merit|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_MERIT_INCOME_MULT: "Monthly [merit|E] [income|E] while at [war|E]"
+ MOD_MONTHLY_WAR_INCOME_ADD: "[war|E] sırasında [gold|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_INCOME_MULT: "[war|E] sırasında aylık [gold|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_PRESTIGE_INCOME_ADD: "[war|E] sırasında [prestige|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_PRESTIGE_INCOME_MULT: "[war|E] sırasında aylık [prestige|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_PIETY_INCOME_ADD: "[war|E] sırasında [piety|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_PIETY_INCOME_MULT: "[war|E] sırasında aylık [piety|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_INFLUENCE_INCOME_ADD: "[war|E] sırasında [influence|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_INFLUENCE_INCOME_MULT: "[war|E] sırasında aylık [influence|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_MERIT_INCOME_ADD: "[war|E] sırasında [merit|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_MERIT_INCOME_MULT: "[war|E] sırasında aylık [merit|E] [Concept('income', 'Geliri')|E]"
  MOD_MONTHLY_INCOME_PER_STRESS_LEVEL_ADD:0 "[stress_level|E] başına [income|E]"
  MOD_MONTHLY_INCOME_PER_STRESS_LEVEL_MULT:0 "[stress_level|E] başına aylık [income|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_INCOME_FROM_HERD_MULT [AGOT: Monthly [income|E] from [herd|E] | TR: Aylık [herd|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_INCOME_FROM_HERD_MULT: "Monthly [income|E] from [herd|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_VASSALS [AGOT: [treasury|E] from [vassals|E] | TR: [Concept('vassals', 'Vasallardan')|E] gelen [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_VASSALS: "[treasury|E] from [vassals|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_VASSALS_MULT [AGOT: [treasury|E] from [vassals|E] | TR: [Concept('vassals', 'Vasallardan')|E] gelen [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_VASSALS_MULT: "[treasury|E] from [vassals|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_NON_VASSALS [AGOT: [treasury|E] excluding [vassals|E] | TR: [Concept('vassals', 'Vasallar')|E] harici [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_NON_VASSALS: "[treasury|E] excluding [vassals|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_NON_VASSALS_MULT [AGOT: [treasury|E] excluding [vassals|E] | TR: [Concept('vassals', 'Vasallar')|E] harici [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_NON_VASSALS_MULT: "[treasury|E] excluding [vassals|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_LIEGE_ADD [AGOT: Monthly [treasury|E] | TR: Aylık [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_LIEGE_ADD: "Monthly [treasury|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_LIEGE_MULT [AGOT: Monthly [treasury|E] | TR: Aylık [treasury|E]]
- MOD_MONTHLY_TREASURY_FROM_LIEGE_MULT: "Monthly [treasury|E]"
-### TODO AGOT-CHANGED: MOD_TREASURY_MINISTRY_BUDGET_ALLOCATION [AGOT: [treasury_ministry_budget|E] Allocation | TR: [treasury_ministry_budget|E] Tahsisatı]
- MOD_TREASURY_MINISTRY_BUDGET_ALLOCATION: "[treasury_ministry_budget|E] Allocation"
-### TODO AGOT-CHANGED: MOD_TREASURY_SALARY_BUDGET_ALLOCATION [AGOT: [treasury_salary_budget|E] Allocation | TR: [treasury_salary_budget|E] Tahsisatı]
- MOD_TREASURY_SALARY_BUDGET_ALLOCATION: "[treasury_salary_budget|E] Allocation"
-### TODO AGOT-CHANGED: MOD_TREASURY_MILITARY_BUDGET_ALLOCATION [AGOT: [treasury_military_budget|E] Allocation | TR: [treasury_military_budget|E] Tahsisatı]
- MOD_TREASURY_MILITARY_BUDGET_ALLOCATION: "[treasury_military_budget|E] Allocation"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_BASE [AGOT: Monthly [treasury_ministry_budget_short|E] [treasury_budget_base_rate_short|E] | TR: Aylık [treasury_ministry_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]]
- MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_BASE: "Monthly [treasury_ministry_budget_short|E] [treasury_budget_base_rate_short|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_MULT [AGOT: Monthly [treasury_ministry_budget|E] | TR: Aylık [treasury_ministry_budget|E]]
- MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_MULT: "Monthly [treasury_ministry_budget|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_SALARY_BUDGET_BASE [AGOT: Monthly [treasury_salary_budget_short|E] [treasury_budget_base_rate_short|E] | TR: Aylık [treasury_salary_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]]
- MOD_MONTHLY_TREASURY_FROM_SALARY_BUDGET_BASE: "Monthly [treasury_salary_budget_short|E] [treasury_budget_base_rate_short|E]"
+ MOD_MONTHLY_INCOME_FROM_HERD_MULT: "Aylık [herd|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_TREASURY_FROM_VASSALS: "[Concept('vassals', 'Vasallardan')|E] gelen [treasury|E]"
+ MOD_MONTHLY_TREASURY_FROM_VASSALS_MULT: "[Concept('vassals', 'Vasallardan')|E] gelen [treasury|E]"
+ MOD_MONTHLY_TREASURY_FROM_NON_VASSALS: "[Concept('vassals', 'Vasallar')|E] harici [treasury|E]"
+ MOD_MONTHLY_TREASURY_FROM_NON_VASSALS_MULT: "[Concept('vassals', 'Vasallar')|E] harici [treasury|E]"
+ MOD_MONTHLY_TREASURY_FROM_LIEGE_ADD: "Aylık [treasury|E]"
+ MOD_MONTHLY_TREASURY_FROM_LIEGE_MULT: "Aylık [treasury|E]"
+ MOD_TREASURY_MINISTRY_BUDGET_ALLOCATION: "[treasury_ministry_budget|E] Tahsisatı"
+ MOD_TREASURY_SALARY_BUDGET_ALLOCATION: "[treasury_salary_budget|E] Tahsisatı"
+ MOD_TREASURY_MILITARY_BUDGET_ALLOCATION: "[treasury_military_budget|E] Tahsisatı"
+ MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_BASE: "Aylık [treasury_ministry_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]"
+ MOD_MONTHLY_TREASURY_FROM_MINISTRY_BUDGET_MULT: "Aylık [treasury_ministry_budget|E]"
+ MOD_MONTHLY_TREASURY_FROM_SALARY_BUDGET_BASE: "Aylık [treasury_salary_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]"
  MOD_MONTHLY_TREASURY_FROM_SALARY_BUDGET_MULT: "[governor_salary|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_BASE [AGOT: Monthly [treasury_military_budget_short|E] [treasury_budget_base_rate_short|E] | TR: Aylık [treasury_military_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]]
- MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_BASE: "Monthly [treasury_military_budget_short|E] [treasury_budget_base_rate_short|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_MULT [AGOT: Monthly [treasury_military_budget|E] | TR: Aylık [treasury_military_budget|E]]
- MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_MULT: "Monthly [treasury_military_budget|E]"
+ MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_BASE: "Aylık [treasury_military_budget_short|E] [Concept('treasury_budget_base_rate_short', 'Temel Oranı')|E]"
+ MOD_MONTHLY_TREASURY_FROM_MILITARY_BUDGET_MULT: "Aylık [treasury_military_budget|E]"
  MOD_MONTHLY_PIETY:0 "[piety|E]"
  MOD_MONTHLY_PIETY_GAIN_MULT:0 "Aylık [piety|E]"
  MOD_MONTHLY_PIETY_GAIN_PER_HAPPY_POWERFUL_VASSAL_ADD:1 "[Concept( 'council', 'Konseydeki' )|E] her [adult|E] [powerful_vassal|E] başına [piety|E]"
@@ -416,14 +333,10 @@
  MOD_MONTHLY_PIETY_GAIN_PER_DREAD_MULT:2 "[dread|E] başına aylık [piety|E]"
  MOD_MONTHLY_PIETY_GAIN_PER_KNIGHT_ADD:2 "[knight|E] başına [piety|E]"
  MOD_MONTHLY_PIETY_GAIN_PER_KNIGHT_MULT:4 "[knight|E] başına aylık [piety|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_ADD [AGOT: [piety|E] per [legitimacy_level|E] | TR: [legitimacy_level|E] başına [piety|E]]
- MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[piety|E] per [legitimacy_level|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_MULT [AGOT: Monthly [piety|E] per [legitimacy_level|E] | TR: [legitimacy_level|E] başına aylık [piety|E]]
- MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_MULT: "Monthly [piety|E] per [legitimacy_level|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_ADD [AGOT: [piety|E] per [court_position|E] | TR: [court_position|E] başına [piety|E]]
- MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_ADD: "[piety|E] per [court_position|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_MULT [AGOT: Monthly [piety|E] per [court_position|E] | TR: [court_position|E] başına aylık [piety|E]]
- MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_MULT: "Monthly [piety|E] per [court_position|E]"
+ MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[legitimacy_level|E] başına [piety|E]"
+ MOD_MONTHLY_PIETY_GAIN_PER_LEGITIMACY_LEVEL_MULT: "[legitimacy_level|E] başına aylık [piety|E]"
+ MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_ADD: "[court_position|E] başına [piety|E]"
+ MOD_MONTHLY_PIETY_GAIN_PER_COURT_POSITION_MULT: "[court_position|E] başına aylık [piety|E]"
  MOD_MONTHLY_PRESTIGE:0 "[prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_MULT:0 "Aylık [prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_HAPPY_POWERFUL_VASSAL_ADD:1 "[Concept( 'council', 'Konseydeki' )|E] her [adult|E] [powerful_vassal|E] başına [prestige|E]"
@@ -432,14 +345,10 @@
  MOD_MONTHLY_PRESTIGE_GAIN_PER_DREAD_MULT:0 "[dread|E] başına aylık [prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_ADD:1 "[knight|E] başına [prestige|E]"
  MOD_MONTHLY_PRESTIGE_GAIN_PER_KNIGHT_MULT:1 "[knight|E] başına aylık [prestige|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD [AGOT: [prestige|E] per [legitimacy_level|E] | TR: [legitimacy_level|E] başına [prestige|E]]
- MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[prestige|E] per [legitimacy_level|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT [AGOT: Monthly [prestige|E] per [legitimacy_level|E] | TR: [legitimacy_level|E] başına aylık [prestige|E]]
- MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "Monthly [prestige|E] per [legitimacy_level|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_ADD [AGOT: [prestige|E] per [court_position|E] | TR: [court_position|E] başına [prestige|E]]
- MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_ADD: "[prestige|E] per [court_position|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_MULT [AGOT: Monthly [prestige|E] per [court_position|E] | TR: [court_position|E] başına aylık [prestige|E]]
- MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_MULT: "Monthly [prestige|E] per [court_position|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_ADD: "[legitimacy_level|E] başına [prestige|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_LEGITIMACY_LEVEL_MULT: "[legitimacy_level|E] başına aylık [prestige|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_ADD: "[court_position|E] başına [prestige|E]"
+ MOD_MONTHLY_PRESTIGE_GAIN_PER_COURT_POSITION_MULT: "[court_position|E] başına aylık [prestige|E]"
  MOD_MONTHLY_PIETY_FROM_BUILDINGS_MULT:0 "[Concept( 'buildings', 'Binalardan' )|E] gelen aylık [piety|E]"
  MOD_MONTHLY_PRESTIGE_FROM_BUILDINGS_MULT:0 "[Concept( 'buildings', 'Binalardan' )|E] gelen aylık [prestige|E]"
  MOD_STRESS_GAIN_MULT:0 "[stress|E] Artışı"
@@ -485,70 +394,40 @@
  MOD_MONTHLY_DREAD_PREFIX:0 "@dread_icon!"
  MOD_MONTHLY_POSTFIX:0 "/aylık"
  MOD_MAX_PERSONAL_SCHEMES_ADD:0 "[personal_scheme|E] Limiti"
-### TODO AGOT-CHANGED: MOD_MAX_POLITICAL_SCHEMES_ADD [AGOT: Max [political_schemes|E] | TR: [political_schemes|E] Limiti]
- MOD_MAX_POLITICAL_SCHEMES_ADD: "Max [political_schemes|E]"
+ MOD_MAX_POLITICAL_SCHEMES_ADD: "[political_schemes|E] Limiti"
  MOD_MAX_CONTRACT_SCHEMES_ADD:0 "[contract_schemes|E] Limiti"
  MOD_MAX_HOSTILE_SCHEMES_ADD:0 "[hostile_scheme|E] Limiti"
-### TODO AGOT-CHANGED: MOD_OWNED_PERSONAL_SCHEME_SUCCESS_ADD [AGOT: Initial [personal_scheme|E] [success_chance|E] | TR: Başlangıçtaki [personal_scheme|E] [success_chance|E]]
- MOD_OWNED_PERSONAL_SCHEME_SUCCESS_ADD: "Initial [personal_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_POLITICAL_SCHEME_SUCCESS_ADD [AGOT: Initial [political_scheme|E] [success_chance|E] | TR: Başlangıçtaki [political_scheme|E] [success_chance|E]]
- MOD_OWNED_POLITICAL_SCHEME_SUCCESS_ADD: "Initial [political_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_CONTRACT_SCHEME_SUCCESS_ADD [AGOT: Initial [contract_scheme|E] [success_chance|E] | TR: Başlangıçtaki [contract_scheme|E] [success_chance|E]]
- MOD_OWNED_CONTRACT_SCHEME_SUCCESS_ADD: "Initial [contract_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_HOSTILE_SCHEME_SUCCESS_ADD [AGOT: Initial [hostile_scheme|E] [success_chance|E] | TR: Başlangıçtaki [hostile_scheme|E] [success_chance|E]]
- MOD_OWNED_HOSTILE_SCHEME_SUCCESS_ADD: "Initial [hostile_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_ADD [AGOT: Initial Enemy [personal_scheme|E] [success_chance|E] | TR: Düşmanın Başlangıçtaki [personal_scheme|E] [success_chance|E]]
- MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_ADD: "Initial Enemy [personal_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_ADD [AGOT: Initial Enemy [political_scheme|E] [success_chance|E] | TR: Düşmanın Başlangıçtaki [political_scheme|E] [success_chance|E]]
- MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_ADD: "Initial Enemy [political_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_ADD [AGOT: Initial Enemy [contract_scheme|E] [success_chance|E] | TR: Düşmanın Başlangıçtaki [contract_scheme|E] [success_chance|E]]
- MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_ADD: "Initial Enemy [contract_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_ADD [AGOT: Initial Enemy [hostile_scheme|E] [success_chance|E] | TR: Düşmanın Başlangıçtaki [hostile_scheme|E] [success_chance|E]]
- MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_ADD: "Initial Enemy [hostile_scheme|E] [success_chance|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD [AGOT: [personal_scheme|E] [scheme_growth_growth|E] | TR: [personal_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_OWNED_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD: "[personal_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD [AGOT: [political_scheme|E] [scheme_growth_growth|E] | TR: [political_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_OWNED_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD: "[political_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD [AGOT: [contract_scheme|E] [scheme_growth_growth|E] | TR: [contract_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_OWNED_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD: "[contract_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD [AGOT: [hostile_scheme|E] [scheme_growth_growth|E] | TR: [hostile_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_OWNED_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD: "[hostile_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD [AGOT: Enemy [personal_scheme|E] [scheme_growth_growth|E] | TR: Düşmanın [personal_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD: "Enemy [personal_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD [AGOT: Enemy [political_scheme|E] [scheme_growth_growth|E] | TR: Düşmanın [political_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD: "Enemy [political_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD [AGOT: Enemy [contract_scheme|E] [scheme_growth_growth|E] | TR: Düşmanın [contract_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD: "Enemy [contract_scheme|E] [scheme_growth_growth|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD [AGOT: Enemy [hostile_scheme|E] [scheme_growth_growth|E] | TR: Düşmanın [hostile_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]]
- MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD: "Enemy [hostile_scheme|E] [scheme_growth_growth|E]"
+ MOD_OWNED_PERSONAL_SCHEME_SUCCESS_ADD: "Başlangıçtaki [personal_scheme|E] [success_chance|E]"
+ MOD_OWNED_POLITICAL_SCHEME_SUCCESS_ADD: "Başlangıçtaki [political_scheme|E] [success_chance|E]"
+ MOD_OWNED_CONTRACT_SCHEME_SUCCESS_ADD: "Başlangıçtaki [contract_scheme|E] [success_chance|E]"
+ MOD_OWNED_HOSTILE_SCHEME_SUCCESS_ADD: "Başlangıçtaki [hostile_scheme|E] [success_chance|E]"
+ MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_ADD: "Düşmanın Başlangıçtaki [personal_scheme|E] [success_chance|E]"
+ MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_ADD: "Düşmanın Başlangıçtaki [political_scheme|E] [success_chance|E]"
+ MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_ADD: "Düşmanın Başlangıçtaki [contract_scheme|E] [success_chance|E]"
+ MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_ADD: "Düşmanın Başlangıçtaki [hostile_scheme|E] [success_chance|E]"
+ MOD_OWNED_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD: "[personal_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_OWNED_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD: "[political_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_OWNED_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD: "[contract_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_OWNED_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD: "[hostile_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_GROWTH_ADD: "Düşmanın [personal_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_GROWTH_ADD: "Düşmanın [political_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_GROWTH_ADD: "Düşmanın [contract_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
+ MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_GROWTH_ADD: "Düşmanın [hostile_scheme|E] [Concept('scheme_growth_growth', 'Artışı')|E]"
  MOD_SCHEME_SUCCESS_GROWTH: "[scheme_growth|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_PERSONAL_SCHEME_SUCCESS_MAX_ADD [AGOT: [personal_scheme|E] [scheme_potential_potential|E] | TR: [personal_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_OWNED_PERSONAL_SCHEME_SUCCESS_MAX_ADD: "[personal_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_POLITICAL_SCHEME_SUCCESS_MAX_ADD [AGOT: [political_scheme|E] [scheme_potential_potential|E] | TR: [political_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_OWNED_POLITICAL_SCHEME_SUCCESS_MAX_ADD: "[political_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_CONTRACT_SCHEME_SUCCESS_MAX_ADD [AGOT: [contract_scheme|E] [scheme_potential_potential|E] | TR: [contract_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_OWNED_CONTRACT_SCHEME_SUCCESS_MAX_ADD: "[contract_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_HOSTILE_SCHEME_SUCCESS_MAX_ADD [AGOT: [hostile_scheme|E] [scheme_potential_potential|E] | TR: [hostile_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_OWNED_HOSTILE_SCHEME_SUCCESS_MAX_ADD: "[hostile_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_MAX_ADD [AGOT: Enemy [personal_scheme|E] [scheme_potential_potential|E] | TR: Düşmanın [personal_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_MAX_ADD: "Enemy [personal_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_MAX_ADD [AGOT: Enemy [political_scheme|E] [scheme_potential_potential|E] | TR: Düşmanın [political_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_MAX_ADD: "Enemy [political_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_MAX_ADD [AGOT: Enemy [contract_scheme|E] [scheme_potential_potential|E] | TR: Düşmanın [contract_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_MAX_ADD: "Enemy [contract_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_MAX_ADD [AGOT: Enemy [hostile_scheme|E] [scheme_potential_potential|E] | TR: Düşmanın [hostile_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]]
- MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_MAX_ADD: "Enemy [hostile_scheme|E] [scheme_potential_potential|E]"
-### TODO AGOT-CHANGED: MOD_SCHEME_SUCCESS_MAX [AGOT: Maximum [success_chance|E] | TR: Maksimum [success_chance|E]]
- MOD_SCHEME_SUCCESS_MAX: "Maximum [success_chance|E]"
+ MOD_OWNED_PERSONAL_SCHEME_SUCCESS_MAX_ADD: "[personal_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_OWNED_POLITICAL_SCHEME_SUCCESS_MAX_ADD: "[political_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_OWNED_CONTRACT_SCHEME_SUCCESS_MAX_ADD: "[contract_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_OWNED_HOSTILE_SCHEME_SUCCESS_MAX_ADD: "[hostile_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_ENEMY_PERSONAL_SCHEME_SUCCESS_MAX_ADD: "Düşmanın [personal_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_ENEMY_POLITICAL_SCHEME_SUCCESS_MAX_ADD: "Düşmanın [political_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_ENEMY_CONTRACT_SCHEME_SUCCESS_MAX_ADD: "Düşmanın [contract_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_ENEMY_HOSTILE_SCHEME_SUCCESS_MAX_ADD: "Düşmanın [hostile_scheme|E] [Concept('scheme_potential_potential', 'Potansiyeli')|E]"
+ MOD_SCHEME_SUCCESS_MAX: "Maksimum [success_chance|E]"
  MOD_OWNED_SCHEME_SECRECY_ADD:0 "[scheme|E] [Concept( 'secrecy', 'Gizliliği' )|E]"
-### TODO AGOT-CHANGED: MOD_ENEMY_SCHEME_SECRECY_ADD [AGOT: Enemy [scheme|E] [secrecy|E] | TR: Düşmanın [scheme|E] [Concept( 'secrecy', 'Gizliliği' )|E]]
- MOD_ENEMY_SCHEME_SECRECY_ADD: "Enemy [scheme|E] [secrecy|E]"
-### TODO AGOT-CHANGED: MOD_PER_SCHEME_PHASE_POSTFIX [AGOT: per [scheme_phase_phase|E] | TR: (her [Concept('scheme_phase', 'Aşamada')|E])]
- MOD_PER_SCHEME_PHASE_POSTFIX: " per [scheme_phase_phase|E]"
-### TODO AGOT-CHANGED: MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_POSITIVE [AGOT: #weak days slower per [scheme_phase|E]#! | TR: #weak gün daha yavaştır (her [Concept('scheme_phase', 'Aşamada')|E])#!]
- MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_POSITIVE: " #weak days slower per [scheme_phase|E]#!"
-### TODO AGOT-CHANGED: MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_NEGATIVE [AGOT: #weak days faster per [scheme_phase|E]#! | TR: #weak gün daha hızlıdır (her [Concept('scheme_phase', 'Aşamada')|E])#!]
- MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_NEGATIVE: " #weak days faster per [scheme_phase|E]#!"
+ MOD_ENEMY_SCHEME_SECRECY_ADD: "Düşmanın [scheme|E] [Concept( 'secrecy', 'Gizliliği' )|E]"
+ MOD_PER_SCHEME_PHASE_POSTFIX: " (her [Concept('scheme_phase', 'Aşamada')|E])"
+ MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_POSITIVE: " #weak gün daha yavaştır (her [Concept('scheme_phase', 'Aşamada')|E])#!"
+ MOD_DAYS_PER_SCHEME_PHASE_SUFFIX_NEGATIVE: " #weak gün daha hızlıdır (her [Concept('scheme_phase', 'Aşamada')|E])#!"
  PROWESS_AGE:0 "Yaşlı: $MOD|=+$"
  men_at_arms_advantage:0 "$men_at_arms$ Taktiği"
  commander_advantage:0 "Komutan Becerisi"
@@ -557,95 +436,53 @@
  dungeon:0 "Zindan"
  house_arrest:0 "Ev Hapsi"
  MOD_IMPRISONED_RELATIVE_OPINION:0 "Akrabaların Hapsedene Karşı Görüşü"
-### TODO AGOT-CHANGED: combat_debt_level_0 [AGOT: Owner is slightly in [debt|E] | TR: Sahibi biraz [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_0: "Owner is slightly in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_1 [AGOT: Owner is one year in [debt|E] | TR: Sahibi bir yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_1: "Owner is one year in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_2 [AGOT: Owner is two years in [debt|E] | TR: Sahibi iki yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_2: "Owner is two years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_3 [AGOT: Owner is three years in [debt|E] | TR: Sahibi üç yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_3: "Owner is three years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_4 [AGOT: Owner is four years in [debt|E] | TR: Sahibi dört yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_4: "Owner is four years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_5 [AGOT: Owner is over five years in [debt|E] | TR: Sahibi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_5: "Owner is over five years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_6 [AGOT: Owner is over ten years in [debt|E] | TR: Sahibi on yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_6: "Owner is over ten years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_7 [AGOT: Owner is over twenty-five years in [debt|E] | TR: Sahibi yirmi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_7: "Owner is over twenty-five years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_8 [AGOT: Owner is over fifty years in [debt|E] | TR: Sahibi over elli yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_8: "Owner is over fifty years in [debt|E]"
-### TODO AGOT-CHANGED: combat_debt_level_9 [AGOT: Owner is over one hundred years in [debt|E] | TR: Sahibi yüz yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- combat_debt_level_9: "Owner is over one hundred years in [debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_0 [AGOT: Owner is slightly in [treasury_debt|E] | TR: Sahibi biraz [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_0: "Owner is slightly in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_1 [AGOT: Owner is one year in [treasury_debt|E] | TR: Sahibi bir yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_1: "Owner is one year in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_2 [AGOT: Owner is two years in [treasury_debt|E] | TR: Sahibi iki yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_2: "Owner is two years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_3 [AGOT: Owner is three years in [treasury_debt|E] | TR: Sahibi üç yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_3: "Owner is three years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_4 [AGOT: Owner is four years in [treasury_debt|E] | TR: Sahibi dört yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_4: "Owner is four years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_5 [AGOT: Owner is over five years in [treasury_debt|E] | TR: Sahibi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_5: "Owner is over five years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_6 [AGOT: Owner is over ten years in [treasury_debt|E] | TR: Sahibi on yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_6: "Owner is over ten years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_7 [AGOT: Owner is over twenty-five years in [treasury_debt|E] | TR: Sahibi yirmi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_7: "Owner is over twenty-five years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_8 [AGOT: Owner is over fifty years in [treasury_debt|E] | TR: Sahibi elli yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_8: "Owner is over fifty years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_combat_debt_level_9 [AGOT: Owner is over one hundred years in [treasury_debt|E] | TR: Sahibi yüz yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_combat_debt_level_9: "Owner is over one hundred years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: debt_level_0 [AGOT: Slightly in [debt|E] | TR: Biraz [Concept( 'debt', 'Borçta' )|E]]
- debt_level_0: "Slightly in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_1 [AGOT: One year in [debt|E] | TR: Bir yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_1: "One year in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_2 [AGOT: Two years in [debt|E] | TR: İki yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_2: "Two years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_3 [AGOT: Three years in [debt|E] | TR: Üç yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_3: "Three years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_4 [AGOT: Four years in [debt|E] | TR: Dört yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_4: "Four years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_5 [AGOT: Over five years in [debt|E] | TR: Beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_5: "Over five years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_6 [AGOT: Over ten years in [debt|E] | TR: On yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_6: "Over ten years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_7 [AGOT: Over twenty-five years in [debt|E] | TR: Yirmi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_7: "Over twenty-five years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_8 [AGOT: Over fifty years in [debt|E] | TR: Elli yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_8: "Over fifty years in [debt|E]"
-### TODO AGOT-CHANGED: debt_level_9 [AGOT: Over one hundred years in [debt|E] | TR: Yüz yıldan fazladır [Concept( 'debt', 'Borçta' )|E]]
- debt_level_9: "Over one hundred years in [debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_0 [AGOT: Slightly in [treasury_debt|E] | TR: Biraz [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_0: "Slightly in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_1 [AGOT: One year in [treasury_debt|E] | TR: Bir yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_1: "One year in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_2 [AGOT: Two years in [treasury_debt|E] | TR: İki yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_2: "Two years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_3 [AGOT: Three years in [treasury_debt|E] | TR: Üç yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_3: "Three years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_4 [AGOT: Four years in [treasury_debt|E] | TR: Dört yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_4: "Four years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_5 [AGOT: Over five years in [treasury_debt|E] | TR: Beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_5: "Over five years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_6 [AGOT: Over ten years in [treasury_debt|E] | TR: On yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_6: "Over ten years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_7 [AGOT: Over twenty-five years in [treasury_debt|E] | TR: Yirmi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_7: "Over twenty-five years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_8 [AGOT: Over fifty years in [treasury_debt|E] | TR: Elli yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_8: "Over fifty years in [treasury_debt|E]"
-### TODO AGOT-CHANGED: treasury_debt_level_9 [AGOT: Over one hundred years in [treasury_debt|E] | TR: Yüz yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]]
- treasury_debt_level_9: "Over one hundred years in [treasury_debt|E]"
+ combat_debt_level_0: "Sahibi biraz [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_1: "Sahibi bir yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_2: "Sahibi iki yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_3: "Sahibi üç yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_4: "Sahibi dört yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_5: "Sahibi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_6: "Sahibi on yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_7: "Sahibi yirmi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_8: "Sahibi over elli yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ combat_debt_level_9: "Sahibi yüz yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ treasury_combat_debt_level_0: "Sahibi biraz [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_1: "Sahibi bir yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_2: "Sahibi iki yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_3: "Sahibi üç yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_4: "Sahibi dört yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_5: "Sahibi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_6: "Sahibi on yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_7: "Sahibi yirmi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_8: "Sahibi elli yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_combat_debt_level_9: "Sahibi yüz yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ debt_level_0: "Biraz [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_1: "Bir yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_2: "İki yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_3: "Üç yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_4: "Dört yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_5: "Beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_6: "On yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_7: "Yirmi beş yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_8: "Elli yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ debt_level_9: "Yüz yıldan fazladır [Concept( 'debt', 'Borçta' )|E]"
+ treasury_debt_level_0: "Biraz [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_1: "Bir yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_2: "İki yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_3: "Üç yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_4: "Dört yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_5: "Beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_6: "On yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_7: "Yirmi beş yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_8: "Elli yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
+ treasury_debt_level_9: "Yüz yıldan fazladır [Concept( 'treasury_debt', 'Hazine Borcunda' )|E]"
  MOD_SUPPLY_LIMIT_MULT: "[supply_limit|E]"
  MOD_SUPPLY_LIMIT: "[supply_limit|E]"
  MOD_HOLDING_FORT_LEVEL: "[fort_level|E]"
-### TODO AGOT-CHANGED: MOD_ADDITIONAL_HOLDING_FORT_LEVEL [AGOT: Additional [fort_level|E] | TR: Fazladan [fort_level|E]]
- MOD_ADDITIONAL_HOLDING_FORT_LEVEL: "Additional [fort_level|E]"
+ MOD_ADDITIONAL_HOLDING_FORT_LEVEL: "Fazladan [fort_level|E]"
  MOD_CAPITAL_HOLDING_FORT_LEVEL: "[realm_capital|E] [fort_level|E]"
  MOD_CAPITAL_ADDITIONAL_HOLDING_FORT_LEVEL: "[realm_capital|E] [fort_level|E]"
-### TODO AGOT-CHANGED: MOD_SUPPLY_CAPACITY_ADD [AGOT: [command_modifier_i|E][supply|E] Capacity | TR: [command_modifier_i|E][supply|E] Kapasitesi]
- MOD_SUPPLY_CAPACITY_ADD: "[command_modifier_i|E][supply|E] Capacity"
+ MOD_SUPPLY_CAPACITY_ADD: "[command_modifier_i|E][supply|E] Kapasitesi"
  MOD_SUPPLY_CAPACITY_MULT: "$MOD_SUPPLY_CAPACITY_ADD$"
  spurned_by_traders:0 "Tüccarlar Tarafından Reddedildi"
  MOD_CONSTRUCTION_SPEED:0 "[building|E] İnşa Etme Süresi"
@@ -654,29 +491,21 @@
  MONTHLY_DEVELOPMENT_GROWTH:0 "Aylık [development|E] Artışı"
  FROM_NEIGHTBOURS:0 "Komşulardan"
  MOD_MONTHLY_DEVELOPMENT_GROWTH:0 "[development|E] Artışı"
-### TODO AGOT-CHANGED: MOD_MONTHLY_DEVELOPMENT_DECLINE [AGOT: [development|E] Decline | TR: [development|E] Azalması]
- MOD_MONTHLY_DEVELOPMENT_DECLINE: "[development|E] Decline"
+ MOD_MONTHLY_DEVELOPMENT_DECLINE: "[development|E] Azalması"
  MOD_CHARACTER_CAPITAL_MONTHLY_DEVELOPMENT_GROWTH_ADD:0 "[realm_capital|E]nde [development|E] Artışı"
-### TODO AGOT-CHANGED: MOD_CHARACTER_CAPITAL_MONTHLY_CONTROL_ADD [AGOT: [control|E] in [realm_capital|E] | TR: [realm_capital|E]nde [control|E]]
- MOD_CHARACTER_CAPITAL_MONTHLY_CONTROL_ADD: "[control|E] in [realm_capital|E]"
+ MOD_CHARACTER_CAPITAL_MONTHLY_CONTROL_ADD: "[realm_capital|E]nde [control|E]"
  MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR:1 "[development|E] Artışı"
-### TODO AGOT-CHANGED: MOD_MONTHLY_DEVELOPMENT_DECLINE_FACTOR [AGOT: [development|E] Decline | TR: [development|E] Azalması]
- MOD_MONTHLY_DEVELOPMENT_DECLINE_FACTOR: "[development|E] Decline"
+ MOD_MONTHLY_DEVELOPMENT_DECLINE_FACTOR: "[development|E] Azalması"
 ### TODO AGOT-CHANGED: farmlands_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Meadows | TR: Tarım Alanlında $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
  farmlands_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Meadows"
-### TODO AGOT-CHANGED: desert_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Desert | TR: Çölde $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- desert_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Desert"
-### TODO AGOT-CHANGED: jungle_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Jungle | TR: Vahşi Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- jungle_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Jungle"
-### TODO AGOT-CHANGED: forest_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Forest | TR: Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- forest_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Forest"
-### TODO AGOT-CHANGED: wetlands_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Wetlands | TR: Sulak Alanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- wetlands_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Wetlands"
-### TODO AGOT-CHANGED: steppe_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Steppe | TR: Bozkırda $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- steppe_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Steppe"
-### TODO AGOT-CHANGED: drylands_development_growth [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Drylands | TR: Kurak Alanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$]
- drylands_development_growth: "$MOD_MONTHLY_DEVELOPMENT_GROWTH$ in Drylands"
- farmlands_development_growth_factor:1 "Tarım Alanlarında $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
+ desert_development_growth: "Çölde $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+ jungle_development_growth: "Vahşi Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+ forest_development_growth: "Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+ wetlands_development_growth: "Sulak Alanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+ steppe_development_growth: "Bozkırda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+ drylands_development_growth: "Kurak Alanda $MOD_MONTHLY_DEVELOPMENT_GROWTH$"
+### TODO AGOT-CHANGED: farmlands_development_growth_factor [AGOT: $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows | TR: Tarım Alanlarında $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$]
+ farmlands_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ in Meadows"
  desert_development_growth_factor:1 "Çölde $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  jungle_development_growth_factor:1 "Vahşi Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
  forest_development_growth_factor:1 "Ormanda $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$"
@@ -692,28 +521,21 @@
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR_EVEN_IF_BARON:0 "$MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR$"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_AT_WAR:0 "[Concept( 'war', 'Savaştayken' )|E] [control|E] artışı"
  MOD_MONTHLY_COUNTY_CONTROL_GROWTH_FACTOR_AT_WAR:0 "[Concept( 'war', 'Savaştayken' )|E] [control|E] artışı"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_CONTROL_DECLINE [AGOT: [control|E] Decline | TR: [control|E] Azalması]
- MOD_MONTHLY_COUNTY_CONTROL_DECLINE: "[control|E] Decline"
+ MOD_MONTHLY_COUNTY_CONTROL_DECLINE: "[control|E] Azalması"
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE_EVEN_IF_BARON: "$MOD_MONTHLY_COUNTY_CONTROL_DECLINE$"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR [AGOT: [control|E] Decline | TR: [control|E] Azalması]
- MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR: "[control|E] Decline"
+ MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR: "[control|E] Azalması"
  MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_EVEN_IF_BARON: "$MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR$"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_CONTROL_DECLINE_AT_WAR [AGOT: [control|E] Decline when at [war|E] | TR: [Concept( 'war', 'Savaştayken' )|E] [control|E] Azalması]
- MOD_MONTHLY_COUNTY_CONTROL_DECLINE_AT_WAR: "[control|E] Decline when at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_AT_WAR [AGOT: [control|E] Decline when at [war|E] | TR: [Concept( 'war', 'Savaştayken' )|E] [control|E] Azalması]
- MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_AT_WAR: "[control|E] Decline when at [war|E]"
+ MOD_MONTHLY_COUNTY_CONTROL_DECLINE_AT_WAR: "[Concept( 'war', 'Savaştayken' )|E] [control|E] Azalması"
+ MOD_MONTHLY_COUNTY_CONTROL_DECLINE_FACTOR_AT_WAR: "[Concept( 'war', 'Savaştayken' )|E] [control|E] Azalması"
  MOD_CONSTRUCTION_PRESTIGE_COST:1 "[building|E] İnşa Etme Maliyeti"
-### TODO AGOT-CHANGED: MOD_CONSTRUCTION_HERD_COST [AGOT: [building|E] Construction Cost | TR: [building|E] İnşa Etme Maliyeti]
- MOD_CONSTRUCTION_HERD_COST: "[building|E] Construction Cost"
+ MOD_CONSTRUCTION_HERD_COST: "[building|E] İnşa Etme Maliyeti"
  MOD_DOMAIN_LIMIT:0 "[domain_limit|E]"
  MOD_DOMAIN_LIMIT_WITH_VALUE:0 "[domain_limit|E]: $VALUE|0=+$"
  MOD_DOMAIN_LIMIT_MIN: "Minimum [domain_limit|E]"
-### TODO AGOT-CHANGED: MOD_DOMAIN_LIMIT_MAX [AGOT: Maximum [domain_limit|E] | TR: Maksimum [domain_limit|E]]
- MOD_DOMAIN_LIMIT_MAX: "Maximum [domain_limit|E]"
+ MOD_DOMAIN_LIMIT_MAX: "Maksimum [domain_limit|E]"
  MOD_VASSAL_LIMIT:0 "[vassal_limit|E]"
  MOD_VASSAL_LIMIT_MIN: "Minimum [vassal_limit|E]"
-### TODO AGOT-CHANGED: MOD_VASSAL_LIMIT_MAX [AGOT: Maximum [vassal_limit|E] | TR: Maksimum [vassal_limit|E]]
- MOD_VASSAL_LIMIT_MAX: "Maximum [vassal_limit|E]"
+ MOD_VASSAL_LIMIT_MAX: "Maksimum [vassal_limit|E]"
  MOD_LEVY_SIZE:0 "[levy|E] Büyüklüğü"
  MOD_GARRISON_SIZE:0 "[garrison|E] Büyüklüğü"
  MOD_RELIGIOUS_HEAD_OPINION:0 "[head_of_faith|E]nin Görüşü"
@@ -732,29 +554,23 @@
  MOD_RELIGIOUS_VASSAL_OPINION:0 "Dindar [vassal|E] Görüşü"
  MOD_DIRECT_VASSAL_OPINION:0 "[direct_vassal|E] Görüşü"
  MOD_FELLOW_VASSAL_OPINION:0 "Aynı Dereceden [vassal|E] Görüşü"
-### TODO AGOT-CHANGED: MOD_FELLOW_TRIBUTARY_OPINION [AGOT: Fellow [tributary|E] Opinion | TR: Aynı Dereceden [tributary|E] Görüşü]
- MOD_FELLOW_TRIBUTARY_OPINION: "Fellow [tributary|E] Opinion"
-### TODO AGOT-CHANGED: MOD_FELLOW_CONFEDERATION_MEMBER_OPINION [AGOT: Fellow [confederation|E] Member Opinion | TR: Aynı Dereceden [confederation|E] Üyesi Görüşü]
- MOD_FELLOW_CONFEDERATION_MEMBER_OPINION: "Fellow [confederation|E] Member Opinion"
+ MOD_FELLOW_TRIBUTARY_OPINION: "Aynı Dereceden [tributary|E] Görüşü"
+ MOD_FELLOW_CONFEDERATION_MEMBER_OPINION: "Aynı Dereceden [confederation|E] Üyesi Görüşü"
  MOD_INDEPENDENT_RULER_OPINION:0 "Bağımsız Hükümdar Görüşü"
  MOD_OPINION_OF_LIEGE:0 "[liege|E] Görüşü"
-### TODO AGOT-CHANGED: MOD_OPINION_OF_SUZERAIN [AGOT: Opinion of [suzerain|E] | TR: [suzerain|E] Görüşü]
- MOD_OPINION_OF_SUZERAIN: "Opinion of [suzerain|E]"
+ MOD_OPINION_OF_SUZERAIN: "[suzerain|E] Görüşü"
  MOD_OPINION_OF_PARENTS:0 "Ebeveyn Görüşü"
  MOD_OPINION_OF_VASSAL:0 "[vassal|E] Görüşü"
-### TODO AGOT-CHANGED: MOD_OPINION_OF_TRIBUTARY [AGOT: Opinion of [tributary|E] | TR: [tributary|E] Görüşü]
- MOD_OPINION_OF_TRIBUTARY: "Opinion of [tributary|E]"
+ MOD_OPINION_OF_TRIBUTARY: "[tributary|E] Görüşü"
  MOD_OPINION_OF_DIFFERENT_FAITH_LIEGE:1 "Farklı [Concept( 'faith', 'Mezhepteki' )|E] [liege|E] Görüşü"
-### TODO AGOT-CHANGED: MOD_OPINION_OF_DIFFERENT_FAITH_SUZERAIN [AGOT: Opinion of Different [faith|E] [suzerain|E] | TR: Farklı [Concept( 'faith', 'Mezhepteki' )|E] [suzerain|E] Görüşü]
- MOD_OPINION_OF_DIFFERENT_FAITH_SUZERAIN: "Opinion of Different [faith|E] [suzerain|E]"
+ MOD_OPINION_OF_DIFFERENT_FAITH_SUZERAIN: "Farklı [Concept( 'faith', 'Mezhepteki' )|E] [suzerain|E] Görüşü"
  MOD_SPOUSE_OPINION:0 "[spouse|E] Görüşü"
  MOD_TWIN_OPINION:0 "İkiz Kardeş Görüşü"
  MOD_CLOSE_RELATIVE_OPINION:0 "[close_family|E] Görüşü"
  MOD_DYNASTY_HOUSE_OPINION:0 "[house|E] Görüşü"
  MOD_DYNASTY_OPINION:0 "[dynasty|E] Görüşü"
  MOD_LIEGE_OPINION:0 "[liege|E] Görüşü"
-### TODO AGOT-CHANGED: MOD_SUZERAIN_OPINION [AGOT: [suzerain|E] Opinion | TR: [suzerain|E] Görüşü]
- MOD_SUZERAIN_OPINION: "[suzerain|E] Opinion"
+ MOD_SUZERAIN_OPINION: "[suzerain|E] Görüşü"
  MOD_DIFFERENT_FAITH_LIEGE_OPINION:0 "Farklı [Concept( 'faith', 'Mezhepteki' )|E] [liege|E] Görüşü"
  MOD_DIFFERENT_FAITH_SUZERAIN_OPINION:0 "Farklı [Concept( 'faith', 'Mezhepteki' )|E] [suzerain|E] Görüşü"
  MOD_VASSAL_OPINION:0 "[vassal|E] Görüşü"
@@ -781,20 +597,13 @@
  MOD_DOMAIN_TAX_DIFFERENT_FAITH_MULT_EVEN_IF_BARON:0 "$MOD_DOMAIN_TAX_DIFFERENT_FAITH_MULT$"
  MOD_VASSAL_TAX_MULT:1 "[vassal|E] [Concept( 'taxes', 'Vergileri' )|E]"
  MOD_TRIBUTARY_TAX_MULT:1 "[tributary|E] [Concept('taxes', 'Vergileri')|E]"
-### TODO AGOT-CHANGED: MOD_TRIBUTARY_PIETY_CONTRIBUTION_MULT [AGOT: [tributary|E] [piety|E] contributions | TR: [tributary|E] [piety|E] katkıları]
- MOD_TRIBUTARY_PIETY_CONTRIBUTION_MULT: "[tributary|E] [piety|E] contributions"
-### TODO AGOT-CHANGED: MOD_DIPLOMACY_SCHEME_PHASE_DURATION [AGOT: [diplomacy_i]Diplomatic [scheme_speed|E] | TR: [diplomacy_i]Diplomatik [scheme_speed|E]]
- MOD_DIPLOMACY_SCHEME_PHASE_DURATION: "[diplomacy_i]Diplomatic [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_INTRIGUE_SCHEME_PHASE_DURATION [AGOT: [intrigue_i]Intrigue [scheme_speed|E] | TR: [intrigue_i]Entrika [scheme_speed|E]]
- MOD_INTRIGUE_SCHEME_PHASE_DURATION: "[intrigue_i]Intrigue [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_STEWARDSHIP_SCHEME_PHASE_DURATION [AGOT: [stewardship_i]Stewardship [scheme_speed|E] | TR: [stewardship_i]İdari [scheme_speed|E]]
- MOD_STEWARDSHIP_SCHEME_PHASE_DURATION: "[stewardship_i]Stewardship [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_MARTIAL_SCHEME_PHASE_DURATION [AGOT: [martial_i]Martial [scheme_speed|E] | TR: [martial_i]Askerî [scheme_speed|E]]
- MOD_MARTIAL_SCHEME_PHASE_DURATION: "[martial_i]Martial [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_PROWESS_SCHEME_PHASE_DURATION [AGOT: [prowess_i]Prowess [scheme_speed|E] | TR: [prowess_i]Dövüş [scheme_speed|E]]
- MOD_PROWESS_SCHEME_PHASE_DURATION: "[prowess_i]Prowess [scheme_speed|E]"
-### TODO AGOT-CHANGED: MOD_LEARNING_SCHEME_PHASE_DURATION [AGOT: [learning_i]Learning [scheme_speed|E] | TR: [learning_i]Öğrenim [scheme_speed|E]]
- MOD_LEARNING_SCHEME_PHASE_DURATION: "[learning_i]Learning [scheme_speed|E]"
+ MOD_TRIBUTARY_PIETY_CONTRIBUTION_MULT: "[tributary|E] [piety|E] katkıları"
+ MOD_DIPLOMACY_SCHEME_PHASE_DURATION: "[diplomacy_i]Diplomatik [scheme_speed|E]"
+ MOD_INTRIGUE_SCHEME_PHASE_DURATION: "[intrigue_i]Entrika [scheme_speed|E]"
+ MOD_STEWARDSHIP_SCHEME_PHASE_DURATION: "[stewardship_i]İdari [scheme_speed|E]"
+ MOD_MARTIAL_SCHEME_PHASE_DURATION: "[martial_i]Askerî [scheme_speed|E]"
+ MOD_PROWESS_SCHEME_PHASE_DURATION: "[prowess_i]Dövüş [scheme_speed|E]"
+ MOD_LEARNING_SCHEME_PHASE_DURATION: "[learning_i]Öğrenim [scheme_speed|E]"
  MOD_DIPLOMACY_SCHEME_RESISTANCE:1 "Diplomatik [scheme_resistance|E]"
  MOD_INTRIGUE_SCHEME_RESISTANCE:1 "Entrika [scheme_resistance|E]"
  MOD_STEWARDSHIP_SCHEME_RESISTANCE:1 "İdarî [scheme_resistance|E]"
@@ -812,11 +621,9 @@
  MOD_MEN_AT_ARMS_MAINTENANCE_PER_DREAD_MULT:0 "[dread|E] başına [men_at_arms|E] Bakımı"
  MOD_ARMY_MAINTENANCE_MULT:1 "[army|E] Bakımı Altın Masrafı"
  MOD_MEN_AT_ARMS_LIMIT:0 "[men_at_arms|E] [Concept( 'regiment', 'Birliklerinin' )|E] Büyüklüğü"
-### TODO AGOT-CHANGED: MOD_MEN_AT_ARMS_TITLE_LIMIT [AGOT: Size of [title_men_at_arms|E] [regiments|E] | TR: [title_men_at_arms|E] [Concept( 'regiment', 'Birliklerinin' )|E] Büyüklüğü]
- MOD_MEN_AT_ARMS_TITLE_LIMIT: "Size of [title_men_at_arms|E] [regiments|E]"
+ MOD_MEN_AT_ARMS_TITLE_LIMIT: "[title_men_at_arms|E] [Concept( 'regiment', 'Birliklerinin' )|E] Büyüklüğü"
  MOD_MEN_AT_ARMS_CAP:0 "[men_at_arms|E] [Concept( 'regiment', 'Birliği' )|E] Limiti"
-### TODO AGOT-CHANGED: MOD_MEN_AT_ARMS_TITLE_CAP [AGOT: Max [title_men_at_arms|E] [regiments|E] | TR: [title_men_at_arms|E] [Concept( 'regiment', 'Birliği' )|E] Limiti]
- MOD_MEN_AT_ARMS_TITLE_CAP: "Max [title_men_at_arms|E] [regiments|E]"
+ MOD_MEN_AT_ARMS_TITLE_CAP: "[title_men_at_arms|E] [Concept( 'regiment', 'Birliği' )|E] Limiti"
  MOD_SHORT_REIGN_DURATION_MULT:0 "[short_reign|E] Süresi"
  MOD_LONG_REIGN_BONUS_MULT:0 "[long_reign|E] Bonusu"
  MOD_DIPLOMATIC_RANGE_MULT:0 "[diplomatic_range|E]"
@@ -868,30 +675,26 @@
  MOD_MONTHLY_DYNASTY_PRESTIGE_MULT:0 "Aylık [dynasty_prestige|E]"
  MOD_MONTHLY_DYNASTY_PRESTIGE_PREFIX:0 "[dynasty_prestige_i]"
  MOD_MONTHLY_DYNASTY_PRESTIGE_MULT_PREFIX:0 "[dynasty_prestige_i]"
-### TODO AGOT-CHANGED: MOD_OPINION_FROM_PROWESS_SUFFIX [AGOT: / point | TR: / puan]
- MOD_OPINION_FROM_PROWESS_SUFFIX: " / point"
+ MOD_OPINION_FROM_PROWESS_SUFFIX: " / puan"
  MOD_MONTHLY_INFLUENCE: "[influence|E]"
  MOD_MONTHLY_INFLUENCE_PREFIX: "[influence_i|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_INFLUENCE_MULT [AGOT: Monthly [influence|E] | TR: Aylık [influence|E]]
- MOD_MONTHLY_INFLUENCE_MULT: "Monthly [influence|E]"
+ MOD_MONTHLY_INFLUENCE_MULT: "Aylık [influence|E]"
  MOD_MONTHLY_INFLUENCE_MULT_PREFIX: "[influence_i|E]"
  MOD_MONTHLY_MERIT: "[merit|E]"
  MOD_MONTHLY_MERIT_PREFIX: "[merit_i|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_MERIT_MULT [AGOT: Monthly [merit|E] | TR: Aylık [merit|E]]
- MOD_MONTHLY_MERIT_MULT: "Monthly [merit|E]"
+ MOD_MONTHLY_MERIT_MULT: "Aylık [merit|E]"
  MOD_MONTHLY_MERIT_MULT_PREFIX: "[merit_i|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_MERIT_PER_TITLE_MAA_VALUE [AGOT: Monthly [merit|E] per [title_men_at_arms|E] Base Recruitment Cost | TR: [title_men_at_arms|E] Temel Üretim Maliyeti başına Aylık [merit|E]]
- MOD_MONTHLY_MERIT_PER_TITLE_MAA_VALUE: "Monthly [merit|E] per [title_men_at_arms|E] Base Recruitment Cost"
+ MOD_MONTHLY_MERIT_PER_TITLE_MAA_VALUE: "[title_men_at_arms|E] Temel Üretim Maliyeti başına Aylık [merit|E]"
  MOD_MONTHLY_MERIT_PER_TITLE_MAA_VALUE_PREFIX: "[merit_i|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_MERIT_PER_LIEGE_TAX [AGOT: Monthly [merit|E] per total [tax|E] paid to [liege|E] | TR: [Concept('liege', 'Süzerene')|E] ödenen toplam [tax|E] başına Aylık [merit|E]]
- MOD_MONTHLY_MERIT_PER_LIEGE_TAX: "Monthly [merit|E] per total [tax|E] paid to [liege|E]"
+ MOD_MONTHLY_MERIT_PER_LIEGE_TAX: "[Concept('liege', 'Süzerene')|E] ödenen toplam [tax|E] başına Aylık [merit|E]"
  MOD_MONTHLY_MERIT_PER_LIEGE_TAX_PREFIX: "[merit_i|E]"
  MOD_RAID_SPEED:1 "[command_modifier_i|E][raid|E] Hızı"
  MOD_HOSTILE_RAID_TIME:0 "Düşman [raid|E] Süresi"
  MOD_HOLDING_FORT_LEVEL_PREFIX:0 "@fort_icon!"
  MOD_MAX_LOOT_MULT:1 "[army|E] [loot|E] Kapasitesi"
  MOD_EXTERNAL_SLOTS_PREFIX: "@external_slots_icon!"
- farmlands_tax_mult:0 "Tarım Alanlarında $MOD_TAX_MULT$"
+### TODO AGOT-CHANGED: farmlands_tax_mult [AGOT: $MOD_TAX_MULT$ in Meadows | TR: Tarım Alanlarında $MOD_TAX_MULT$]
+ farmlands_tax_mult:0 "$MOD_TAX_MULT$ in Meadows"
  desert_tax_mult:0 "Çölde $MOD_TAX_MULT$"
  jungle_tax_mult:0 "Vahşi Ormanda $MOD_TAX_MULT$"
  forest_tax_mult:0 "Ormanda $MOD_TAX_MULT$"
@@ -901,17 +704,14 @@
  learn_language_schemes_add:1 "Maksimum [GetScheme('learn_language').GetTypeName] [Concept( 'schemes', 'Planları' )|E]"
  max_learn_language_schemes_add:0 "$learn_language_schemes_add$"
  max_sway_schemes_add:1 "Maksimum [GetScheme('sway').GetTypeName] [Concept( 'schemes', 'Planları' )|E]"
-### TODO AGOT-CHANGED: max_elope_schemes_add [AGOT: Max [GetScheme('elope_schemes').GetTypeName] [schemes|E] | TR: Maksimum [GetScheme('elope_schemes').GetTypeName] [Concept( 'schemes', 'Planları' )|E]]
- max_elope_schemes_add: "Max [GetScheme('elope_schemes').GetTypeName] [schemes|E]"
-### TODO AGOT-CHANGED: max_seduce_schemes_add [AGOT: Max [GetScheme('seduce').GetTypeName] [schemes|E] | TR: Maksimum [GetScheme('seduce').GetTypeName] [Concept( 'schemes', 'Planları' )|E]]
- max_seduce_schemes_add: "Max [GetScheme('seduce').GetTypeName] [schemes|E]"
+ max_elope_schemes_add: "Maksimum [GetScheme('elope_schemes').GetTypeName] [Concept( 'schemes', 'Planları' )|E]"
+ max_seduce_schemes_add: "Maksimum [GetScheme('seduce').GetTypeName] [Concept( 'schemes', 'Planları' )|E]"
  stress_level_1:1 "Stres Seviyesi 1"
  stress_level_2:1 "Stres Seviyesi 2"
  stress_level_3:1 "Stres Seviyesi 3"
  stress_level_4:1 "Stres Seviyesi 4"
  stress_level_5:1 "Stres Seviyesi 5"
-### TODO AGOT-CHANGED: game_rule_base_value [AGOT: Base: $VALUE|=+0$ | TR: Temel: $VALUE|=+0$]
- game_rule_base_value: "Base: $VALUE|=+0$"
+ game_rule_base_value: "Temel: $VALUE|=+0$"
  CUSTOM_MOD_FAITH_CONVERSION_SPEED:0 "$task_conversion$ Hızı: "
  CUSTOM_MOD_CULTURE_CONVERSION_SPEED:0 "$task_promote_culture$ Hızı: "
  CUSTOM_MOD_FABRICATE_CLAIM_SPEED:0 "$task_fabricate_claim$ Hızı: "
@@ -925,8 +725,7 @@
  MOD_CHARACTER_TRAVEL_SAFETY:0 "$MOD_TRAVEL_SAFETY$"
  MOD_CHARACTER_TRAVEL_SAFETY_MULT:0 "$MOD_TRAVEL_SAFETY$"
  MOD_TRAVEL_DANGER:0 "[travel_danger|E]"
-### TODO AGOT-CHANGED: MOD_TRAVEL_DANGER_EPIDEMIC [AGOT: [epidemic|E] [travel_danger|E] | TR: [epidemic|E] [Concept( 'travel_danger', 'Tehlikesi' )|E]]
- MOD_TRAVEL_DANGER_EPIDEMIC: "[epidemic|E] [travel_danger|E]"
+ MOD_TRAVEL_DANGER_EPIDEMIC: "[epidemic|E] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  desert_travel_danger:0 "[GetTerrain( 'desert' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  jungle_travel_danger:0 "[GetTerrain( 'jungle' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  forest_travel_danger:0 "[GetTerrain( 'forest' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
@@ -935,22 +734,16 @@
  drylands_travel_danger:0 "[GetTerrain( 'drylands' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  sea_travel_danger:0 "[GetTerrain( 'sea' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  coastal_sea_travel_danger:0 "[GetTerrain( 'coastal_sea' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
-### TODO AGOT-CHANGED: farmlands_travel_danger [AGOT: [GetTerrain( 'farmlands' ).GetName] [travel_danger|E] | TR: [GetTerrain( 'farmlands' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]]
- farmlands_travel_danger: "[GetTerrain( 'farmlands' ).GetName] [travel_danger|E]"
+ farmlands_travel_danger: "[GetTerrain( 'farmlands' ).GetName] [Concept( 'travel_danger', 'Tehlikesi' )|E]"
  MOD_STRIFE_OPINION_GAIN_MULT:0 "[strife|E] Artışı"
  MOD_STRIFE_OPINION_LOSS_MULT:0 "[strife|E] Kaybı"
-### TODO AGOT-CHANGED: MOD_NUM_ACCOLADES [AGOT: [accolades|E] Available | TR: Uygun [accolades|E]]
- MOD_NUM_ACCOLADES: "[accolades|E] Available"
-### TODO AGOT-CHANGED: MOD_ACCOLADE_GLORY_GAIN_MULT [AGOT: [accolade|e] [glory|E] Gain | TR: [accolade|e] [Concept( 'glory', 'Şanı' )|E] Kazancı]
- MOD_ACCOLADE_GLORY_GAIN_MULT: "[accolade|e] [glory|E] Gain"
+ MOD_NUM_ACCOLADES: "Uygun [accolades|E]"
+ MOD_ACCOLADE_GLORY_GAIN_MULT: "[accolade|e] [Concept( 'glory', 'Şanı' )|E] Kazancı"
  MOD_EPIDEMIC_RESISTANCE: "[epidemic_resistance|E]"
-### TODO AGOT-CHANGED: MOD_OWNED_LEGEND_SPREAD_ADD [AGOT: [legend|E] Spread Chance | TR: [legend|E] Yayılma Olasılığı]
- MOD_OWNED_LEGEND_SPREAD_ADD: "[legend|E] Spread Chance"
+ MOD_OWNED_LEGEND_SPREAD_ADD: "[legend|E] Yayılma Olasılığı"
  MOD_OWNED_LEGEND_SPREAD_MULT: "$MOD_OWNED_LEGEND_SPREAD_ADD$"
-### TODO AGOT-CHANGED: MOD_LEGITIMACY_GAIN_MULT [AGOT: [legitimacy|E] Gain | TR: [legitimacy|E] Kazancı]
- MOD_LEGITIMACY_GAIN_MULT: "[legitimacy|E] Gain"
-### TODO AGOT-CHANGED: MOD_LEGITIMACY_LOSS_MULT [AGOT: [legitimacy|E] Loss | TR: [legitimacy|E] Kaybı]
- MOD_LEGITIMACY_LOSS_MULT: "[legitimacy|E] Loss"
+ MOD_LEGITIMACY_GAIN_MULT: "[legitimacy|E] Kazancı"
+ MOD_LEGITIMACY_LOSS_MULT: "[legitimacy|E] Kaybı"
  MOD_LEGITIMACY_MONTHLY_CHANGE: "[legitimacy|E]"
  MOD_LEVY_MAINTENANCE:0 "[levy|E] Maliyeti"
  MOD_UNCONTROLLED_PROVINCE_ADVANTAGE:0 "Kontrol Edilmeyen Toprak Saldıran [Concept( 'advantage', 'Avantajı' )|E]"
@@ -961,114 +754,63 @@
  MOD_LEVY_SCREEN:0 "[levy|E] [Concept( 'screen', 'Siperi' )|E]"
  MOD_KNIGHT_EFFECTIVENESS_PER_DREAD:0 "[dread|E] başına [knight_effectiveness|E]"
  MOD_KNIGHT_EFFECTIVENESS_PER_TYRANNY:0 "[tyranny|E] başına [knight_effectiveness|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_PROWESS [AGOT: [knight_effectiveness|E] per [prowess_i|E][prowess|E] [skill|E] | TR: [prowess_i|E][prowess|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_PROWESS: "[knight_effectiveness|E] per [prowess_i|E][prowess|E] [skill|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_DIPLOMACY [AGOT: [knight_effectiveness|E] per [diplomacy_i|E][diplomacy|E] [skill|E] | TR: [diplomacy_i|E][diplomacy|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_DIPLOMACY: "[knight_effectiveness|E] per [diplomacy_i|E][diplomacy|E] [skill|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_INTRIGUE [AGOT: [knight_effectiveness|E] per [intrigue_i|E][intrigue|E] [skill|E] | TR: [intrigue_i|E][intrigue|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_INTRIGUE: "[knight_effectiveness|E] per [intrigue_i|E][intrigue|E] [skill|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_LEARNING [AGOT: [knight_effectiveness|E] per [learning_i|E][learning|E] [skill|E] | TR: [learning_i|E][learning|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_LEARNING: "[knight_effectiveness|E] per [learning_i|E][learning|E] [skill|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_MARTIAL [AGOT: [knight_effectiveness|E] per [martial_i|E][martial|E] [skill|E] | TR: [martial_i|E][martial|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_MARTIAL: "[knight_effectiveness|E] per [martial_i|E][martial|E] [skill|E]"
-### TODO AGOT-CHANGED: MOD_KNIGHT_EFFECTIVENESS_PER_STEWARDSHIP [AGOT: [knight_effectiveness|E] per [stewardship_i|E][stewardship|E] [skill|E] | TR: [stewardship_i|E][stewardship|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]]
- MOD_KNIGHT_EFFECTIVENESS_PER_STEWARDSHIP: "[knight_effectiveness|E] per [stewardship_i|E][stewardship|E] [skill|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_PROWESS: "[prowess_i|E][prowess|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_DIPLOMACY: "[diplomacy_i|E][diplomacy|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_INTRIGUE: "[intrigue_i|E][intrigue|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_LEARNING: "[learning_i|E][learning|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_MARTIAL: "[martial_i|E][martial|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
+ MOD_KNIGHT_EFFECTIVENESS_PER_STEWARDSHIP: "[stewardship_i|E][stewardship|E] [Concept( 'skill', 'Becerisi' )|E] başına [knight_effectiveness|E]"
  MOD_STRESS_LOSS_PER_PIETY_LEVEL:0 "[piety_level|E] başına [stress|E] kaybı"
  MOD_STRESS_LOSS_PER_PRESTIGE_LEVEL:0 "[prestige_level|E] başına [stress|E] kaybı"
-### TODO AGOT-CHANGED: max_murder_schemes_add [AGOT: Max [GetScheme('murder').GetTypeName] [schemes|E] | TR: Maksimum [GetScheme('murder').GetTypeName] [schemes|E]ı]
- max_murder_schemes_add: "Max [GetScheme('murder').GetTypeName] [schemes|E]"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER [AGOT: \t#weak Increase per [landed|E] [house|E] member#! | TR: \t#weak [landed|E] [house|E] mensubu başına artış#!]
- MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER: " \t#weak Increase per [landed|E] [house|E] member#!"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY [AGOT: This modifier increases per [landed|E] [house|E] member (#bold $MULTIPLIER|0$#!/#bold 10#!) | TR: Bu etki [landed|E] [house|E] mensubu başına artış gösterir (#bold $MULTIPLIER|0$#!/#bold 10#!)]
- MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY: "This modifier increases per [landed|E] [house|E] member (#bold $MULTIPLIER|0$#!/#bold 10#!)"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_BASE_VALUE [AGOT: Base value | TR: Temel Değer]
- MODIFIER_DEFINITION_BASE_VALUE: "Base value"
-### TODO AGOT-CHANGED: MOD_HOSTAGE_PRESTIGE_MULT [AGOT: Monthly [prestige|E] from [hostages|E] | TR: [Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [prestige|E]]
- MOD_HOSTAGE_PRESTIGE_MULT: "Monthly [prestige|E] from [hostages|E]"
-### TODO AGOT-CHANGED: MOD_HOSTAGE_PIETY_MULT [AGOT: Monthly [piety|E] from [hostages|E] | TR: [Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [piety|E]]
- MOD_HOSTAGE_PIETY_MULT: "Monthly [piety|E] from [hostages|E]"
-### TODO AGOT-CHANGED: MOD_HOSTAGE_RENOWN_MULT [AGOT: Monthly [dynasty_prestige|E] from [hostages|E] | TR: [Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [dynasty_prestige|E]]
- MOD_HOSTAGE_RENOWN_MULT: "Monthly [dynasty_prestige|E] from [hostages|E]"
-### TODO AGOT-CHANGED: MOD_HOSTAGE_INCOME_MULT [AGOT: Monthly income from [hostages|E] | TR: [Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık gelir]
- MOD_HOSTAGE_INCOME_MULT: "Monthly income from [hostages|E]"
-### TODO AGOT-CHANGED: MOD_NUM_TAX_SLOTS [AGOT: Available [tax_jurisdictions|E] | TR: Müsait [tax_jurisdictions|E]]
- MOD_NUM_TAX_SLOTS: "Available [tax_jurisdictions|E]"
+ max_murder_schemes_add: "Maksimum [GetScheme('murder').GetTypeName] [schemes|E]ı"
+ MODIFIER_DEFINITION_VALUE_PER_HOUSE_UNITY_MEMBER: " \t#weak [landed|E] [house|E] mensubu başına artış#!"
+ MODIFIER_DEFINITION_MAIN_DESC_HOUSE_UNITY: "Bu etki [landed|E] [house|E] mensubu başına artış gösterir (#bold $MULTIPLIER|0$#!/#bold 10#!)"
+ MODIFIER_DEFINITION_BASE_VALUE: "Temel Değer"
+ MOD_HOSTAGE_PRESTIGE_MULT: "[Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [prestige|E]"
+ MOD_HOSTAGE_PIETY_MULT: "[Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [piety|E]"
+ MOD_HOSTAGE_RENOWN_MULT: "[Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık [dynasty_prestige|E]"
+ MOD_HOSTAGE_INCOME_MULT: "[Concept( 'hostages', 'Rehinelerden' )|E] gelen aylık gelir"
+ MOD_NUM_TAX_SLOTS: "Müsait [tax_jurisdictions|E]"
  clan_tax_slot_add: "$MOD_NUM_TAX_SLOTS$" # Can re-localize if we re-use tax slots in other governments
-### TODO AGOT-CHANGED: MOD_CULTURE_INNOVATION_PROGRESS_CHANCE_FROM_SPREAD_ADD [AGOT: [innovation|E] progress chance from [spread|E] | TR: [spread|E] kaynaklı [innovation|E] ilerleme şansı]
- MOD_CULTURE_INNOVATION_PROGRESS_CHANCE_FROM_SPREAD_ADD: "[innovation|E] progress chance from [spread|E]"
-### TODO AGOT-CHANGED: MOD_CHARACTER_INNOVATION_PROGRESS_CHANCE_FROM_FASCINATION_ADD [AGOT: [innovation|E] progress chance from [fascination|E] | TR: [fascination|E] kaynaklı [innovation|E] ilerleme şansı]
- MOD_CHARACTER_INNOVATION_PROGRESS_CHANCE_FROM_FASCINATION_ADD: "[innovation|E] progress chance from [fascination|E]"
-### TODO AGOT-CHANGED: MOD_INNOVATIONS_MONTHLY_POSTFIX [AGOT: % / month | TR: % / ayda]
- MOD_INNOVATIONS_MONTHLY_POSTFIX: "% / month"
-### TODO AGOT-CHANGED: AFFECTING_MODIFIERS_LABEL [AGOT: Affecting modifiers: | TR: Mevcut Etkiler:]
- AFFECTING_MODIFIERS_LABEL: "Affecting modifiers:"
-### TODO AGOT-CHANGED: PROVINCE_MODIFIERS [AGOT: [barony|E] Modifiers | TR: [barony|E] İçin Etkileri]
- PROVINCE_MODIFIERS: "[barony|E] Modifiers"
-### TODO AGOT-CHANGED: COUNTY_MODIFIERS [AGOT: [county|E] Modifiers | TR: [county|E] İçin Etkileri]
- COUNTY_MODIFIERS: "[county|E] Modifiers"
-### TODO AGOT-CHANGED: PROVINCE_AND_COUNTY_MODIFIERS [AGOT: [barony|E] and [county|E] Modifiers | TR: [barony|E] ve [county|E] İçin Etkileri]
- PROVINCE_AND_COUNTY_MODIFIERS: "[barony|E] and [county|E] Modifiers"
-### TODO AGOT-CHANGED: OWNER_MODIFIERS [AGOT: Owner Modifiers | TR: Sahibe Olan Etkileri]
- OWNER_MODIFIERS: "Owner Modifiers"
-### TODO AGOT-CHANGED: OPINION_HIGH_PROWESS [AGOT: High @skill_prowess_icon![prowess|E] | TR: Yüksek @skill_prowess_icon![Concept('prowess', 'Dövüş Becerisi')|E]]
- OPINION_HIGH_PROWESS: "High @skill_prowess_icon![prowess|E]"
-### TODO AGOT-CHANGED: OPINION_LOW_PROWESS [AGOT: Low @skill_prowess_icon![prowess|E] | TR: Düşük @skill_prowess_icon![Concept('prowess', 'Dövüş Becerisi')|E]]
- OPINION_LOW_PROWESS: "Low @skill_prowess_icon![prowess|E]"
-### TODO AGOT-CHANGED: OPINION_DISDAIN_HIGH_PROWESS [AGOT: Disdain for $OPINION_HIGH_PROWESS$ | TR: $OPINION_HIGH_PROWESS$ Küçümseniyor]
- OPINION_DISDAIN_HIGH_PROWESS: "Disdain for $OPINION_HIGH_PROWESS$"
-### TODO AGOT-CHANGED: OPINION_DISDAIN_LOW_PROWESS [AGOT: Disdain for $OPINION_LOW_PROWESS$ | TR: $OPINION_LOW_PROWESS$ Küçümseniyor]
- OPINION_DISDAIN_LOW_PROWESS: "Disdain for $OPINION_LOW_PROWESS$"
-### TODO AGOT-CHANGED: OPINION_RESPECT_HIGH_PROWESS [AGOT: Respect for $OPINION_HIGH_PROWESS$ | TR: $OPINION_HIGH_PROWESS$ Saygı Görüyor]
- OPINION_RESPECT_HIGH_PROWESS: "Respect for $OPINION_HIGH_PROWESS$"
-### TODO AGOT-CHANGED: OPINION_RESPECT_LOW_PROWESS [AGOT: Respect for $OPINION_LOW_PROWESS$ | TR: $OPINION_LOW_PROWESS$ Saygı Görüyor]
- OPINION_RESPECT_LOW_PROWESS: "Respect for $OPINION_LOW_PROWESS$"
-### TODO AGOT-CHANGED: MOD_OPINION_FROM_HIGH_PROWESS [AGOT: [opinion|E] bonus from $OPINION_HIGH_PROWESS$ | TR: $OPINION_HIGH_PROWESS$ kaynaklı [opinion|E] artışı]
- MOD_OPINION_FROM_HIGH_PROWESS: "[opinion|E] bonus from $OPINION_HIGH_PROWESS$"
-### TODO AGOT-CHANGED: MOD_OPINION_FROM_LOW_PROWESS [AGOT: [opinion|E] penalty from $OPINION_LOW_PROWESS$ | TR: $OPINION_LOW_PROWESS$ sebepli [opinion|E] düşüşü]
- MOD_OPINION_FROM_LOW_PROWESS: "[opinion|E] penalty from $OPINION_LOW_PROWESS$"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_MAIN_DESC_INFLUENCE_LEVEL [AGOT: This modifier increases per [influence_level|E] ($MULTIPLIER|+=0$) | TR: Bu etki [influence_level|E] başına artar ($MULTIPLIER|+=0$)]
- MODIFIER_DEFINITION_MAIN_DESC_INFLUENCE_LEVEL: "This modifier increases per [influence_level|E] ($MULTIPLIER|+=0$)"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_PER_INFLUENCE_LEVEL [AGOT: \t#weak Increase per [influence_level|E]#! | TR: \t#weak [influence_level|E] başına artış#!]
- MODIFIER_DEFINITION_VALUE_PER_INFLUENCE_LEVEL: "\t#weak Increase per [influence_level|E]#!"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_MAIN_DESC_GOVERNANCE_TIER [AGOT: This modifier increases per [governance_issue_tier|E] ($MULTIPLIER|+=0$) | TR: Bu etki [governance_issue_tier|E] başına artar ($MULTIPLIER|+=0$)]
- MODIFIER_DEFINITION_MAIN_DESC_GOVERNANCE_TIER: "This modifier increases per [governance_issue_tier|E] ($MULTIPLIER|+=0$)"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_PER_GOVERNANCE_TIER [AGOT: \t#weak Increase per [governance_issue_tier|E] Tier#! | TR: \t#weak [governance_issue_tier|E] başına artış#!]
- MODIFIER_DEFINITION_VALUE_PER_GOVERNANCE_TIER: "\t#weak Increase per [governance_issue_tier|E] Tier#!"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_ESTATE_SCALING_DESC [AGOT: This modifier increases based on your [estate|E] ($MULTIPLIER|+=0$) | TR: Bu etki [Concept( 'estate', 'Malikânenize' )|E] göre artar ($MULTIPLIER|+=0$)]
- MODIFIER_DEFINITION_ESTATE_SCALING_DESC: "This modifier increases based on your [estate|E] ($MULTIPLIER|+=0$)"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS [AGOT: \t#weak Increase per contributing factor#! | TR: \t#weak Katkıda bulunan etken başına artış#!]
- MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS: "\t#weak Increase per contributing factor#!"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_MAIN_DESC_EPARCH_APTITUDE [AGOT: This modifier increases with [aptitude|E] ($MULTIPLIER|+=0$) | TR: Bu etki [aptitude|E] doğrultusunda güçlenir ($MULTIPLIER|+=0$)]
- MODIFIER_DEFINITION_MAIN_DESC_EPARCH_APTITUDE: "This modifier increases with [aptitude|E] ($MULTIPLIER|+=0$)"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_VALUE_EPARCH_APTITUDE [AGOT: \t#weak Increase per [aptitude|E] level#! | TR: \t#weak [aptitude|E] seviyesi başına artış#!]
- MODIFIER_DEFINITION_VALUE_EPARCH_APTITUDE: "\t#weak Increase per [aptitude|E] level#!"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_GOLD_ADD [AGOT: [domicile|E] [income|E] | TR: [domicile|E] [Concept( 'income', 'Geliri' )|E]]
- MOD_DOMICILE_MONTHLY_GOLD_ADD: "[domicile|E] [income|E]"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_PRESTIGE_ADD [AGOT: [domicile|E] [prestige|E] | TR: [domicile|E] [Concept( 'prestige', 'Prestiji' )|E]]
- MOD_DOMICILE_MONTHLY_PRESTIGE_ADD: "[domicile|E] [prestige|E]"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_PIETY_ADD [AGOT: [domicile|E] [piety|E] | TR: [domicile|E] [Concept( 'piety', 'Dindarlığı' )|E]]
- MOD_DOMICILE_MONTHLY_PIETY_ADD: "[domicile|E] [piety|E]"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_INFLUENCE_ADD [AGOT: [domicile|E] [influence|E] | TR: [domicile|E] [Concept( 'influence', 'Nüfuzu' )|E]]
- MOD_DOMICILE_MONTHLY_INFLUENCE_ADD: "[domicile|E] [influence|E]"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_HERD_ADD [AGOT: [domicile|E] [herd|E] | TR: [domicile|E] [Concept('herd', 'Sürüsü')|E]]
- MOD_DOMICILE_MONTHLY_HERD_ADD: "[domicile|E] [herd|E]"
+ MOD_CULTURE_INNOVATION_PROGRESS_CHANCE_FROM_SPREAD_ADD: "[spread|E] kaynaklı [innovation|E] ilerleme şansı"
+ MOD_CHARACTER_INNOVATION_PROGRESS_CHANCE_FROM_FASCINATION_ADD: "[fascination|E] kaynaklı [innovation|E] ilerleme şansı"
+ MOD_INNOVATIONS_MONTHLY_POSTFIX: "% / ayda"
+ AFFECTING_MODIFIERS_LABEL: "Mevcut Etkiler:"
+ PROVINCE_MODIFIERS: "[barony|E] İçin Etkileri"
+ COUNTY_MODIFIERS: "[county|E] İçin Etkileri"
+ PROVINCE_AND_COUNTY_MODIFIERS: "[barony|E] ve [county|E] İçin Etkileri"
+ OWNER_MODIFIERS: "Sahibe Olan Etkileri"
+ OPINION_HIGH_PROWESS: "Yüksek @skill_prowess_icon![Concept('prowess', 'Dövüş Becerisi')|E]"
+ OPINION_LOW_PROWESS: "Düşük @skill_prowess_icon![Concept('prowess', 'Dövüş Becerisi')|E]"
+ OPINION_DISDAIN_HIGH_PROWESS: "$OPINION_HIGH_PROWESS$ Küçümseniyor"
+ OPINION_DISDAIN_LOW_PROWESS: "$OPINION_LOW_PROWESS$ Küçümseniyor"
+ OPINION_RESPECT_HIGH_PROWESS: "$OPINION_HIGH_PROWESS$ Saygı Görüyor"
+ OPINION_RESPECT_LOW_PROWESS: "$OPINION_LOW_PROWESS$ Saygı Görüyor"
+ MOD_OPINION_FROM_HIGH_PROWESS: "$OPINION_HIGH_PROWESS$ kaynaklı [opinion|E] artışı"
+ MOD_OPINION_FROM_LOW_PROWESS: "$OPINION_LOW_PROWESS$ sebepli [opinion|E] düşüşü"
+ MODIFIER_DEFINITION_MAIN_DESC_INFLUENCE_LEVEL: "Bu etki [influence_level|E] başına artar ($MULTIPLIER|+=0$)"
+ MODIFIER_DEFINITION_VALUE_PER_INFLUENCE_LEVEL: "\t#weak [influence_level|E] başına artış#!"
+ MODIFIER_DEFINITION_MAIN_DESC_GOVERNANCE_TIER: "Bu etki [governance_issue_tier|E] başına artar ($MULTIPLIER|+=0$)"
+ MODIFIER_DEFINITION_VALUE_PER_GOVERNANCE_TIER: "\t#weak [governance_issue_tier|E] başına artış#!"
+ MODIFIER_DEFINITION_ESTATE_SCALING_DESC: "Bu etki [Concept( 'estate', 'Malikânenize' )|E] göre artar ($MULTIPLIER|+=0$)"
+ MODIFIER_DEFINITION_VALUE_ESTATE_FACTORS: "\t#weak Katkıda bulunan etken başına artış#!"
+ MODIFIER_DEFINITION_MAIN_DESC_EPARCH_APTITUDE: "Bu etki [aptitude|E] doğrultusunda güçlenir ($MULTIPLIER|+=0$)"
+ MODIFIER_DEFINITION_VALUE_EPARCH_APTITUDE: "\t#weak [aptitude|E] seviyesi başına artış#!"
+ MOD_DOMICILE_MONTHLY_GOLD_ADD: "[domicile|E] [Concept( 'income', 'Geliri' )|E]"
+ MOD_DOMICILE_MONTHLY_PRESTIGE_ADD: "[domicile|E] [Concept( 'prestige', 'Prestiji' )|E]"
+ MOD_DOMICILE_MONTHLY_PIETY_ADD: "[domicile|E] [Concept( 'piety', 'Dindarlığı' )|E]"
+ MOD_DOMICILE_MONTHLY_INFLUENCE_ADD: "[domicile|E] [Concept( 'influence', 'Nüfuzu' )|E]"
+ MOD_DOMICILE_MONTHLY_HERD_ADD: "[domicile|E] [Concept('herd', 'Sürüsü')|E]"
  MOD_DOMICILE_MONTHLY_GOLD_MULT: "$MOD_DOMICILE_MONTHLY_GOLD_ADD$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_PRESTIGE_MULT [AGOT: Monthly $MOD_DOMICILE_MONTHLY_PRESTIGE_ADD$ | TR: Aylık $MOD_DOMICILE_MONTHLY_PRESTIGE_ADD$]
- MOD_DOMICILE_MONTHLY_PRESTIGE_MULT: "Monthly $MOD_DOMICILE_MONTHLY_PRESTIGE_ADD$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_PIETY_MULT [AGOT: Monthly $MOD_DOMICILE_MONTHLY_PIETY_ADD$ | TR: Aylık $MOD_DOMICILE_MONTHLY_PIETY_ADD$]
- MOD_DOMICILE_MONTHLY_PIETY_MULT: "Monthly $MOD_DOMICILE_MONTHLY_PIETY_ADD$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_INFLUENCE_MULT [AGOT: Monthly $MOD_DOMICILE_MONTHLY_INFLUENCE_ADD$ | TR: Aylık $MOD_DOMICILE_MONTHLY_INFLUENCE_ADD$]
- MOD_DOMICILE_MONTHLY_INFLUENCE_MULT: "Monthly $MOD_DOMICILE_MONTHLY_INFLUENCE_ADD$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_MONTHLY_HERD_MULT [AGOT: Monthly $MOD_DOMICILE_MONTHLY_HERD_ADD$ | TR: Aylık $MOD_DOMICILE_MONTHLY_HERD_ADD$]
- MOD_DOMICILE_MONTHLY_HERD_MULT: "Monthly $MOD_DOMICILE_MONTHLY_HERD_ADD$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_BUILD_GOLD_COST [AGOT: [domicile_building|E] Construction Cost | TR: [domicile_building|E] İnşa Maliyeti]
- MOD_DOMICILE_BUILD_GOLD_COST: "[domicile_building|E] Construction Cost"
+ MOD_DOMICILE_MONTHLY_PRESTIGE_MULT: "Aylık $MOD_DOMICILE_MONTHLY_PRESTIGE_ADD$"
+ MOD_DOMICILE_MONTHLY_PIETY_MULT: "Aylık $MOD_DOMICILE_MONTHLY_PIETY_ADD$"
+ MOD_DOMICILE_MONTHLY_INFLUENCE_MULT: "Aylık $MOD_DOMICILE_MONTHLY_INFLUENCE_ADD$"
+ MOD_DOMICILE_MONTHLY_HERD_MULT: "Aylık $MOD_DOMICILE_MONTHLY_HERD_ADD$"
+ MOD_DOMICILE_BUILD_GOLD_COST: "[domicile_building|E] İnşa Maliyeti"
  MOD_DOMICILE_CONSTRUCTION_SPEED: "$game_concept_domicile_build_speed$"
  MOD_DOMICILE_TRAVEL_SPEED: "$game_concept_domicile_travel_speed$"
-### TODO AGOT-CHANGED: MOD_DOMICILE_EXTERNAL_SLOTS_CAPACITY_ADD [AGOT: Number of [domicile_building_slots|E] | TR: [domicile_building_slots|E] Sayısı]
- MOD_DOMICILE_EXTERNAL_SLOTS_CAPACITY_ADD: "Number of [domicile_building_slots|E]"
-### TODO AGOT-CHANGED: MOD_PROVISIONS_USE_MULT [AGOT: [provisions|E] Use | TR: [provision|E] Tüketimi]
- MOD_PROVISIONS_USE_MULT: "[provisions|E] Use"
+ MOD_DOMICILE_EXTERNAL_SLOTS_CAPACITY_ADD: "[domicile_building_slots|E] Sayısı"
+ MOD_PROVISIONS_USE_MULT: "[provision|E] Tüketimi"
  farmlands_barter_goods_mult: "[GetTerrain( 'farmlands' ).GetName] [barter_goods|E]"
  jungle_barter_goods_mult: "[GetTerrain( 'jungle' ).GetName] [barter_goods|E]"
  forest_barter_goods_mult: "[GetTerrain( 'forest' ).GetName] [barter_goods|E]"
@@ -1076,126 +818,80 @@
  steppe_barter_goods_mult: "[GetTerrain( 'steppe' ).GetName] [barter_goods|E]"
  desert_barter_goods_mult: "[GetTerrain( 'desert' ).GetName] [barter_goods|E]"
  drylands_barter_goods_mult: "[GetTerrain( 'drylands' ).GetName] [barter_goods|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_FERTILITY_GROWTH [AGOT: [county_fertility|E] Growth | TR: [county_fertility|E] Artışı]
- MOD_MONTHLY_COUNTY_FERTILITY_GROWTH: "[county_fertility|E] Growth"
-### TODO AGOT-CHANGED: MOD_MONTHLY_COUNTY_FERTILITY_DECLINE [AGOT: [county_fertility|E] Consumption | TR: [county_fertility|E] Tüketimi]
- MOD_MONTHLY_COUNTY_FERTILITY_DECLINE: "[county_fertility|E] Consumption"
+ MOD_MONTHLY_COUNTY_FERTILITY_GROWTH: "[county_fertility|E] Artışı"
+ MOD_MONTHLY_COUNTY_FERTILITY_DECLINE: "[county_fertility|E] Tüketimi"
  MOD_MONTHLY_COUNTY_FERTILITY_GROWTH_ADD: "$MOD_MONTHLY_COUNTY_FERTILITY_GROWTH$"
  MOD_MONTHLY_COUNTY_FERTILITY_GROWTH_MULT: "$MOD_MONTHLY_COUNTY_FERTILITY_GROWTH$"
  MOD_CHARACTER_CAPITAL_MONTHLY_COUNTY_FERTILITY_GROWTH_ADD: "[capital|E] $MOD_MONTHLY_COUNTY_FERTILITY_GROWTH$"
  MOD_MONTHLY_COUNTY_FERTILITY_DECLINE_ADD: "$MOD_MONTHLY_COUNTY_FERTILITY_DECLINE$"
  MOD_MONTHLY_COUNTY_FERTILITY_DECLINE_MULT: "$MOD_MONTHLY_COUNTY_FERTILITY_DECLINE$"
  MOD_CHARACTER_CAPITAL_MONTHLY_COUNTY_FERTILITY_DECLINE_ADD: "[capital|E] $MOD_MONTHLY_COUNTY_FERTILITY_DECLINE$"
-### TODO AGOT-CHANGED: MONTHLY_COUNTY_FERTILITY_APPLIED_CHANGE_DIFF [AGOT: Current [county_fertility|E] Modifier | TR: Mevcut [county_fertility|E] Etkisi]
- MONTHLY_COUNTY_FERTILITY_APPLIED_CHANGE_DIFF: "Current [county_fertility|E] Modifier"
-### TODO AGOT-CHANGED: MOD_HERD_GAIN [AGOT: [herd|E] Gain | TR: [herd|E] Kazancı]
- MOD_HERD_GAIN: "[herd|E] Gain"
+ MONTHLY_COUNTY_FERTILITY_APPLIED_CHANGE_DIFF: "Mevcut [county_fertility|E] Etkisi"
+ MOD_HERD_GAIN: "[herd|E] Kazancı"
  MOD_HERD_GAIN_MULT: "$MOD_HERD_GAIN$"
-### TODO AGOT-CHANGED: MOD_HERD_CONVERSION [AGOT: [herd|E] Conversion into $nomadic_riders$ | TR: [Concept('herd', 'Sürünün')|E] $nomadic_riders$a Dönüşümü]
- MOD_HERD_CONVERSION: "[herd|E] Conversion into $nomadic_riders$"
-### TODO AGOT-CHANGED: MOD_HERD_CAPACITY_ADD [AGOT: [herd|E] Capacity | TR: [herd|E] Kapasitesi]
- MOD_HERD_CAPACITY_ADD: "[herd|E] Capacity"
+ MOD_HERD_CONVERSION: "[Concept('herd', 'Sürünün')|E] $nomadic_riders$a Dönüşümü"
+ MOD_HERD_CAPACITY_ADD: "[herd|E] Kapasitesi"
  MOD_HERD_CAPACITY_MULT: "$MOD_HERD_CAPACITY_ADD$"
-### TODO AGOT-CHANGED: MOD_HORDE_CONVERSION_COST [AGOT: Upgrade [horde|E] Regiment Cost | TR: [horde|E] Yükseltme Birlik Maliyeti]
- MOD_HORDE_CONVERSION_COST: "Upgrade [horde|E] Regiment Cost"
-### TODO AGOT-CHANGED: MOD_BLOOD_BROTHER_PRESTIGE_MULT [AGOT: Monthly [prestige|E] from [blood_brothers|E] | TR: [Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [prestige|E]]
- MOD_BLOOD_BROTHER_PRESTIGE_MULT: "Monthly [prestige|E] from [blood_brothers|E]"
-### TODO AGOT-CHANGED: MOD_BLOOD_BROTHER_PIETY_MULT [AGOT: Monthly [piety|E] from [blood_brothers|E] | TR: [Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [piety|E]]
- MOD_BLOOD_BROTHER_PIETY_MULT: "Monthly [piety|E] from [blood_brothers|E]"
-### TODO AGOT-CHANGED: MOD_BLOOD_BROTHER_RENOWN_MULT [AGOT: Monthly [dynasty_prestige|E] from [blood_brothers|E] | TR: [Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [dynasty_prestige|E]]
- MOD_BLOOD_BROTHER_RENOWN_MULT: "Monthly [dynasty_prestige|E] from [blood_brothers|E]"
-### TODO AGOT-CHANGED: the_great_steppe_all [AGOT: Current [steppe_season|E] | TR: Mevcut [steppe_season|E]]
- the_great_steppe_all: "Current [steppe_season|E]"
-### TODO AGOT-CHANGED: MOD_MAX_MIGRATION_DISTANCE_MULT [AGOT: Max [migration|E] Distance | TR: Maksimum [migration|E] Uzaklığı]
- MOD_MAX_MIGRATION_DISTANCE_MULT: "Max [migration|E] Distance"
+ MOD_HORDE_CONVERSION_COST: "[horde|E] Yükseltme Birlik Maliyeti"
+ MOD_BLOOD_BROTHER_PRESTIGE_MULT: "[Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [prestige|E]"
+ MOD_BLOOD_BROTHER_PIETY_MULT: "[Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [piety|E]"
+ MOD_BLOOD_BROTHER_RENOWN_MULT: "[Concept('blood_brothers', 'Kan Kardeşlerinden')|E] Aylık [dynasty_prestige|E]"
+ the_great_steppe_all: "Mevcut [steppe_season|E]"
+ MOD_MAX_MIGRATION_DISTANCE_MULT: "Maksimum [migration|E] Uzaklığı"
  MOD_GREAT_PROJECT_CONSTRUCTION_SPEED: "$game_concept_great_project_build_speed$"
-### TODO AGOT-CHANGED: subject_salary_expense [AGOT: salary expense | TR: maaş gideri]
- subject_salary_expense: "salary expense"
-### TODO AGOT-CHANGED: subject_salary_expense_breakdown [AGOT: [subject|E] Salaries | TR: [subject|E] Maaşları]
- subject_salary_expense_breakdown: "[subject|E] Salaries"
-### TODO AGOT-CHANGED: subject_salary_expense_gold_add [AGOT: [subject|E] [gold|E] $subject_salary_expense$ | TR: [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$]
- subject_salary_expense_gold_add: "[subject|E] [gold|E] $subject_salary_expense$"
+ subject_salary_expense: "maaş gideri"
+ subject_salary_expense_breakdown: "[subject|E] Maaşları"
+ subject_salary_expense_gold_add: "[Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$"
  subject_salary_expense_gold_mult: "$subject_salary_expense_gold_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_gold_county_add [AGOT: [county|E] [subject|E] [gold|E] $subject_salary_expense$ | TR: [county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$]
- subject_salary_expense_gold_county_add: "[county|E] [subject|E] [gold|E] $subject_salary_expense$"
+ subject_salary_expense_gold_county_add: "[county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$"
  subject_salary_expense_gold_county_mult: "$subject_salary_expense_gold_county_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_gold_duchy_add [AGOT: [duchy|E] [subject|E] [gold|E] $subject_salary_expense$ | TR: [duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$]
- subject_salary_expense_gold_duchy_add: "[duchy|E] [subject|E] [gold|E] $subject_salary_expense$"
+ subject_salary_expense_gold_duchy_add: "[duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$"
  subject_salary_expense_gold_duchy_mult: "$subject_salary_expense_gold_duchy_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_gold_hegemony_add [AGOT: [hegemony|E] [subject|E] [gold|E] $subject_salary_expense$ | TR: [hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$]
- subject_salary_expense_gold_hegemony_add: "[hegemony|E] [subject|E] [gold|E] $subject_salary_expense$"
+ subject_salary_expense_gold_hegemony_add: "[hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [gold|E] bazında $subject_salary_expense$"
  subject_salary_expense_gold_hegemony_mult: "$subject_salary_expense_gold_hegemony_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_renown_add [AGOT: [subject|E] [dynasty_prestige|E] $subject_salary_expense$ | TR: [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$]
- subject_salary_expense_renown_add: "[subject|E] [dynasty_prestige|E] $subject_salary_expense$"
+ subject_salary_expense_renown_add: "[Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$"
  subject_salary_expense_renown_mult: "$subject_salary_expense_renown_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_renown_county_add [AGOT: [county|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$ | TR: [county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$]
- subject_salary_expense_renown_county_add: "[county|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$"
+ subject_salary_expense_renown_county_add: "[county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$"
  subject_salary_expense_renown_county_mult: "$subject_salary_expense_renown_county_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_renown_duchy_add [AGOT: [duchy|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$ | TR: [duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$]
- subject_salary_expense_renown_duchy_add: "[duchy|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$"
+ subject_salary_expense_renown_duchy_add: "[duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$"
  subject_salary_expense_renown_duchy_mult: "$subject_salary_expense_renown_duchy_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_renown_hegemony_add [AGOT: [hegemony|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$ | TR: [hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$]
- subject_salary_expense_renown_hegemony_add: "[hegemony|E] [subject|E] [dynasty_prestige|E] $subject_salary_expense$"
+ subject_salary_expense_renown_hegemony_add: "[hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [dynasty_prestige|E] bazında $subject_salary_expense$"
  subject_salary_expense_renown_hegemony_mult: "$subject_salary_expense_renown_hegemony_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_herd_add [AGOT: [subject|E] [herd|E] $subject_salary_expense$ | TR: [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$]
- subject_salary_expense_herd_add: "[subject|E] [herd|E] $subject_salary_expense$"
+ subject_salary_expense_herd_add: "[Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$"
  subject_salary_expense_herd_mult: "$subject_salary_expense_herd_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_herd_county_add [AGOT: [county|E] [subject|E] [herd|E] $subject_salary_expense$ | TR: [county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$]
- subject_salary_expense_herd_county_add: "[county|E] [subject|E] [herd|E] $subject_salary_expense$"
+ subject_salary_expense_herd_county_add: "[county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$"
  subject_salary_expense_herd_county_mult: "$subject_salary_expense_herd_county_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_herd_duchy_add [AGOT: [duchy|E] [subject|E] [herd|E] $subject_salary_expense$ | TR: [duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$]
- subject_salary_expense_herd_duchy_add: "[duchy|E] [subject|E] [herd|E] $subject_salary_expense$"
+ subject_salary_expense_herd_duchy_add: "[duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$"
  subject_salary_expense_herd_duchy_mult: "$subject_salary_expense_herd_duchy_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_herd_hegemony_add [AGOT: [hegemony|E] [subject|E] [herd|E] $subject_salary_expense$ | TR: [hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$]
- subject_salary_expense_herd_hegemony_add: "[hegemony|E] [subject|E] [herd|E] $subject_salary_expense$"
+ subject_salary_expense_herd_hegemony_add: "[hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [herd|E] bazında $subject_salary_expense$"
  subject_salary_expense_herd_hegemony_mult: "$subject_salary_expense_herd_hegemony_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_treasury_add [AGOT: [subject|E] [treasury|E] $subject_salary_expense$ | TR: [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$]
- subject_salary_expense_treasury_add: "[subject|E] [treasury|E] $subject_salary_expense$"
+ subject_salary_expense_treasury_add: "[Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$"
  subject_salary_expense_treasury_mult: "$subject_salary_expense_treasury_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_treasury_county_add [AGOT: [county|E] [subject|E] [treasury|E] $subject_salary_expense$ | TR: [county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$]
- subject_salary_expense_treasury_county_add: "[county|E] [subject|E] [treasury|E] $subject_salary_expense$"
+ subject_salary_expense_treasury_county_add: "[county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$"
  subject_salary_expense_treasury_county_mult: "$subject_salary_expense_treasury_county_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_treasury_duchy_add [AGOT: [duchy|E] [subject|E] [treasury|E] $subject_salary_expense$ | TR: [duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$]
- subject_salary_expense_treasury_duchy_add: "[duchy|E] [subject|E] [treasury|E] $subject_salary_expense$"
+ subject_salary_expense_treasury_duchy_add: "[duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$"
  subject_salary_expense_treasury_duchy_mult: "$subject_salary_expense_treasury_duchy_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_treasury_hegemony_add [AGOT: [hegemony|E] [subject|E] [treasury|E] $subject_salary_expense$ | TR: [hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$]
- subject_salary_expense_treasury_hegemony_add: "[hegemony|E] [subject|E] [treasury|E] $subject_salary_expense$"
+ subject_salary_expense_treasury_hegemony_add: "[hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [treasury|E] bazında $subject_salary_expense$"
  subject_salary_expense_treasury_hegemony_mult: "$subject_salary_expense_treasury_hegemony_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_barter_goods_add [AGOT: [subject|E] [barter_goods|E] $subject_salary_expense$ | TR: [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$]
- subject_salary_expense_barter_goods_add: "[subject|E] [barter_goods|E] $subject_salary_expense$"
+ subject_salary_expense_barter_goods_add: "[Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$"
  subject_salary_expense_barter_goods_mult: "$subject_salary_expense_barter_goods_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_barter_goods_county_add [AGOT: [county|E] [subject|E] [barter_goods|E] $subject_salary_expense$ | TR: [county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$]
- subject_salary_expense_barter_goods_county_add: "[county|E] [subject|E] [barter_goods|E] $subject_salary_expense$"
+ subject_salary_expense_barter_goods_county_add: "[county|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$"
  subject_salary_expense_barter_goods_county_mult: "$subject_salary_expense_barter_goods_county_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_barter_goods_duchy_add [AGOT: [duchy|E] [subject|E] [barter_goods|E] $subject_salary_expense$ | TR: [duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$]
- subject_salary_expense_barter_goods_duchy_add: "[duchy|E] [subject|E] [barter_goods|E] $subject_salary_expense$"
+ subject_salary_expense_barter_goods_duchy_add: "[duchy|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$"
  subject_salary_expense_barter_goods_duchy_mult: "$subject_salary_expense_barter_goods_duchy_add$"
-### TODO AGOT-CHANGED: subject_salary_expense_barter_goods_hegemony_add [AGOT: [hegemony|E] [subject|E] [barter_goods|E] $subject_salary_expense$ | TR: [hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$]
- subject_salary_expense_barter_goods_hegemony_add: "[hegemony|E] [subject|E] [barter_goods|E] $subject_salary_expense$"
+ subject_salary_expense_barter_goods_hegemony_add: "[hegemony|E] seviyesindeki [Concept('subject', 'Tebaanın')|E] [barter_goods|E] bazında $subject_salary_expense$"
  subject_salary_expense_barter_goods_hegemony_mult: "$subject_salary_expense_barter_goods_hegemony_add$"
-### TODO AGOT-CHANGED: MOD_MAX_PIETY_LEVEL [AGOT: Maximum [piety_level|E] | TR: En yüksek [piety_level|E]]
- MOD_MAX_PIETY_LEVEL: "Maximum [piety_level|E]"
-### TODO AGOT-CHANGED: MOD_MAX_PRESTIGE_LEVEL [AGOT: Maximum [prestige_level|E] | TR: En yüksek [prestige_level|E]]
- MOD_MAX_PRESTIGE_LEVEL: "Maximum [prestige_level|E]"
-### TODO AGOT-CHANGED: MOD_MAX_INFLUENCE_LEVEL [AGOT: Maximum [influence_level|E] | TR: En yüksek [influence_level|E]]
- MOD_MAX_INFLUENCE_LEVEL: "Maximum [influence_level|E]"
-### TODO AGOT-CHANGED: MOD_MAX_MERIT_LEVEL [AGOT: Maximum [merit_level|E] | TR: En yüksek [merit_level|E]]
- MOD_MAX_MERIT_LEVEL: "Maximum [merit_level|E]"
-### TODO AGOT-CHANGED: MOD_STATIONED_MAA_DAMAGE_MULT_PER_PIETY_LEVEL [AGOT: $MOD_STATIONED_MAA_DAMAGE_ADD$ per [piety_level|E] | TR: [piety_level|E] başına $MOD_STATIONED_MAA_DAMAGE_ADD$]
- MOD_STATIONED_MAA_DAMAGE_MULT_PER_PIETY_LEVEL: "$MOD_STATIONED_MAA_DAMAGE_ADD$ per [piety_level|E]"
-### TODO AGOT-CHANGED: MOD_STATIONED_MAA_TOUGHNESS_MULT_PER_PIETY_LEVEL [AGOT: $MOD_STATIONED_MAA_TOUGHNESS_ADD$ per [piety_level|E] | TR: [piety_level|E] başına $MOD_STATIONED_MAA_TOUGHNESS_ADD$]
- MOD_STATIONED_MAA_TOUGHNESS_MULT_PER_PIETY_LEVEL: "$MOD_STATIONED_MAA_TOUGHNESS_ADD$ per [piety_level|E]"
-### TODO AGOT-CHANGED: MOD_TAX_PER_PIETY_LEVEL [AGOT: [tax|E] per [piety_level|E] | TR: [piety_level|E] başına [tax|E]]
- MOD_TAX_PER_PIETY_LEVEL: "[tax|E] per [piety_level|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_INCOME_PER_PIETY_LEVEL_ADD [AGOT: $MOD_MONTHLY_INCOME_MULT$ per [piety_level|E] | TR: [piety_level|E] başına $MOD_MONTHLY_INCOME_MULT$]
- MOD_MONTHLY_INCOME_PER_PIETY_LEVEL_ADD: "$MOD_MONTHLY_INCOME_MULT$ per [piety_level|E]"
+ MOD_MAX_PIETY_LEVEL: "En yüksek [piety_level|E]"
+ MOD_MAX_PRESTIGE_LEVEL: "En yüksek [prestige_level|E]"
+ MOD_MAX_INFLUENCE_LEVEL: "En yüksek [influence_level|E]"
+ MOD_MAX_MERIT_LEVEL: "En yüksek [merit_level|E]"
+ MOD_STATIONED_MAA_DAMAGE_MULT_PER_PIETY_LEVEL: "[piety_level|E] başına $MOD_STATIONED_MAA_DAMAGE_ADD$"
+ MOD_STATIONED_MAA_TOUGHNESS_MULT_PER_PIETY_LEVEL: "[piety_level|E] başına $MOD_STATIONED_MAA_TOUGHNESS_ADD$"
+ MOD_TAX_PER_PIETY_LEVEL: "[piety_level|E] başına [tax|E]"
+ MOD_MONTHLY_INCOME_PER_PIETY_LEVEL_ADD: "[piety_level|E] başına $MOD_MONTHLY_INCOME_MULT$"
  MOD_MONTHLY_BARTER_GOODS_PREFIX: "[barter_goods_i]"
  MOD_MONTHLY_BARTER_GOODS: "[barter_goods|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_BARTER_GOODS_MULT [AGOT: Monthly [barter_goods|E] | TR: Aylık [barter_goods|E]]
- MOD_MONTHLY_BARTER_GOODS_MULT: "Monthly [barter_goods|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_ADD [AGOT: [barter_goods|E] [income|E] while at [war|E] | TR: [war|E] sırasında [barter_goods|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_ADD: "[barter_goods|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_MULT [AGOT: Monthly [barter_goods|E] [income|E] while at [war|E] | TR: [war|E] sırasında aylık [barter_goods|E] [Concept('income', 'Geliri')|E]]
- MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_MULT: "Monthly [barter_goods|E] [income|E] while at [war|E]"
-### TODO AGOT-CHANGED: MOD_CAN_VASSALS_BE_ATTACKED [AGOT: Can vassals be attacked | TR: Vasallara saldırılabilir]
- MOD_CAN_VASSALS_BE_ATTACKED: "Can vassals be attacked"
+ MOD_MONTHLY_BARTER_GOODS_MULT: "Aylık [barter_goods|E]"
+ MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_ADD: "[war|E] sırasında [barter_goods|E] [Concept('income', 'Geliri')|E]"
+ MOD_MONTHLY_WAR_BARTER_GOODS_INCOME_MULT: "[war|E] sırasında aylık [barter_goods|E] [Concept('income', 'Geliri')|E]"
+ MOD_CAN_VASSALS_BE_ATTACKED: "Vasallara saldırılabilir"

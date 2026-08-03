@@ -1,69 +1,38 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: LEDGER_WINDOW_TITLE [AGOT: Ledger | TR: Defter]
-LEDGER_WINDOW_TITLE: "Ledger"
-### TODO AGOT-CHANGED: LEDGER_PINNED_ITEMS [AGOT: Favorites | TR: Favoriler]
-LEDGER_PINNED_ITEMS: "Favorites"
-### TODO AGOT-CHANGED: FAVORITE_LEDGER [AGOT: Add to Favorites | TR: Favorilere Ekle]
-FAVORITE_LEDGER: "Add to Favorites"
-### TODO AGOT-CHANGED: UNFAVORITE_LEDGER [AGOT: Remove from Favorites | TR: Favorilerden Çıkar]
-UNFAVORITE_LEDGER: "Remove from Favorites"
-### TODO AGOT-CHANGED: NO_LEDGER_ITEMS [AGOT: Nothing found | TR: Hiçbir şey bulunamadı]
-NO_LEDGER_ITEMS: "Nothing found"
-### TODO AGOT-CHANGED: TT_TOGGLE_PODIUM [AGOT: Toggle Podium | TR: Podyumu Aç/Kapat]
-TT_TOGGLE_PODIUM: "Toggle Podium"
-### TODO AGOT-CHANGED: RICH_LEDGER_TAB [AGOT: Rich | TR: Zengin]
-RICH_LEDGER_TAB: "Rich"
-### TODO AGOT-CHANGED: STRONG_LEDGER_TAB [AGOT: Strong | TR: Güçlü]
-STRONG_LEDGER_TAB: "Strong"
-### TODO AGOT-CHANGED: FAMED_LEDGER_TAB [AGOT: Famed | TR: Meşhur]
-FAMED_LEDGER_TAB: "Famed"
-### TODO AGOT-CHANGED: HOUSES_LEDEGER_TAB [AGOT: Houses | TR: Haneler]
-HOUSES_LEDEGER_TAB: "Houses"
-### TODO AGOT-CHANGED: DYNASTIES_LEDGER_TAB [AGOT: Dynasties | TR: Hanedanlar]
-DYNASTIES_LEDGER_TAB: "Dynasties"
-### TODO AGOT-CHANGED: FAITHS_LEDGER_TAB [AGOT: Faiths | TR: Mezhepler]
-FAITHS_LEDGER_TAB: "Faiths"
-### TODO AGOT-CHANGED: RELIGIONS_LEDGER_TAB [AGOT: Religions | TR: Dinler]
-RELIGIONS_LEDGER_TAB: "Religions"
-### TODO AGOT-CHANGED: OPEN_LEDGER [AGOT: #T Open Ledger#! | TR: #T Defteri Aç#!]
-OPEN_LEDGER: "#T Open Ledger#!"
-### TODO AGOT-CHANGED: LEDGER_LIST_POSITION [AGOT: [Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov] in this list | TR: Bu listede [Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov]]
-LEDGER_LIST_POSITION: "[Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov] in this list"
+LEDGER_WINDOW_TITLE: "Defter"
+LEDGER_PINNED_ITEMS: "Favoriler"
+FAVORITE_LEDGER: "Favorilere Ekle"
+UNFAVORITE_LEDGER: "Favorilerden Çıkar"
+NO_LEDGER_ITEMS: "Hiçbir şey bulunamadı"
+TT_TOGGLE_PODIUM: "Podyumu Aç/Kapat"
+RICH_LEDGER_TAB: "Zengin"
+STRONG_LEDGER_TAB: "Güçlü"
+FAMED_LEDGER_TAB: "Meşhur"
+HOUSES_LEDEGER_TAB: "Haneler"
+DYNASTIES_LEDGER_TAB: "Hanedanlar"
+FAITHS_LEDGER_TAB: "Mezhepler"
+RELIGIONS_LEDGER_TAB: "Dinler"
+OPEN_LEDGER: "#T Defteri Aç#!"
+LEDGER_LIST_POSITION: "Bu listede [Add_int32(PdxGuiWidget.GetIndexInDataModel, '(int32)1')|Ov]"
 ### TODO AGOT-CHANGED: house_founded_year [AGOT: Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ | TR: [DynastyHouse.GetFoundYear]]
 house_founded_year: "Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
 ### TODO AGOT-CHANGED: dynasty_founded_year [AGOT: Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ | TR: [DynastyHouse.GetFoundYear]]
 dynasty_founded_year: "Est. $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
-### TODO AGOT-CHANGED: characters_name [AGOT: #T Characters#! | TR: #T Karakterler#!]
-characters_name: "#T Characters#!"
+characters_name: "#T Karakterler#!"
 strong_name: "$characters_name$"
-### TODO AGOT-CHANGED: houses_name [AGOT: #T Houses#! | TR: #T Haneler#!]
-houses_name: "#T Houses#!"
-### TODO AGOT-CHANGED: cultures_name [AGOT: #T Cultures#! | TR: #T Kültürler#!]
-cultures_name: "#T Cultures#!"
-### TODO AGOT-CHANGED: LEDGER_DOCTRINE_TOOLTIP [AGOT: #T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F] | TR: #T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]]
+houses_name: "#T Haneler#!"
+cultures_name: "#T Kültürler#!"
 LEDGER_DOCTRINE_TOOLTIP: "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
-### TODO AGOT-CHANGED: TT_BUILDINGS_LEDGER [AGOT: Total number of [buildings|e] in the [realm|e] | TR: [Concept('realm', 'Ülkedeki')|e] [building|e] sayısı]
-TT_BUILDINGS_LEDGER: "Total number of [buildings|e] in the [realm|e]"
-### TODO AGOT-CHANGED: TT_AVG_DEVELOPMENT [AGOT: Average [development|e] in the [realm|e] | TR: [Concept('realm', 'Ülkedeki')|e] ortalama [development|e]]
-TT_AVG_DEVELOPMENT: "Average [development|e] in the [realm|e]"
-### TODO AGOT-CHANGED: TT_LEDGER_INNOVATIONS [AGOT: $CULTURE_VIEW_INNOVATIONS$: #high [Culture.GetCultureEra.GetNumberOfActiveInnovations]#!/[Culture.GetCultureEra.GetNumberOfInnovations] | TR: $CULTURE_VIEW_INNOVATIONS$: #high [Culture.GetCultureEra.GetNumberOfActiveInnovations]#!/[Culture.GetCultureEra.GetNumberOfInnovations]]
+TT_BUILDINGS_LEDGER: "[Concept('realm', 'Ülkedeki')|e] [building|e] sayısı"
+TT_AVG_DEVELOPMENT: "[Concept('realm', 'Ülkedeki')|e] ortalama [development|e]"
 TT_LEDGER_INNOVATIONS: "$CULTURE_VIEW_INNOVATIONS$: #high [Culture.GetCultureEra.GetNumberOfActiveInnovations]#!/[Culture.GetCultureEra.GetNumberOfInnovations]"
-### TODO AGOT-CHANGED: CULTURE_LEDGER_DATE [AGOT: Est. [Culture.GetCreationDate.GetYear] | TR: [Culture.GetCreationDate.GetYear]]
-CULTURE_LEDGER_DATE: "Est. [Culture.GetCreationDate.GetYear]" # can just use year
-### TODO AGOT-CHANGED: renown_ledger_tt [AGOT: #T [renown|e]: [Dynasty.GetPrestige|0]#!\n[Dynasty.GetPrestigeIncome|+=2]/month\n#T [dynasty_prestige_level|e]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!\n[Dynasty.GetPrestigeLevelProgressTooltip] | TR: #T [renown|e]: [Dynasty.GetPrestige|0]#!\n[Dynasty.GetPrestigeIncome|+=2]/month\n#T [dynasty_prestige_level|e]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!\n[Dynasty.GetPrestigeLevelProgressTooltip]]
+CULTURE_LEDGER_DATE: "[Culture.GetCreationDate.GetYear]" # can just use year
 renown_ledger_tt: "#T [renown|e]: [Dynasty.GetPrestige|0]#!\n[Dynasty.GetPrestigeIncome|+=2]/month\n#T [dynasty_prestige_level|e]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!\n[Dynasty.GetPrestigeLevelProgressTooltip]"
-### TODO AGOT-CHANGED: LEDGER_WAR_LOSSES [AGOT: #T Losses of [Character.GetPrimaryTitle.GetNameNoTierNoTooltip]#!\n#n [WarSide.GetBattleLosses]#! Battle Losses\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip] | TR: #T [Character.GetPrimaryTitle.GetNameNoTierNoTooltip] Ülkesinin Zayiatı#!\n#n [WarSide.GetBattleLosses]#! Muharebe Zayiatı\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]]
-LEDGER_WAR_LOSSES: "#T Losses of [Character.GetPrimaryTitle.GetNameNoTierNoTooltip]#!\n#n [WarSide.GetBattleLosses]#! Battle Losses\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]"
+LEDGER_WAR_LOSSES: "#T [Character.GetPrimaryTitle.GetNameNoTierNoTooltip] Ülkesinin Zayiatı#!\n#n [WarSide.GetBattleLosses]#! Muharebe Zayiatı\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]"
 LEDGER_HELD_OBJECTIVE: "$TICKING_WARSCORE_TOOLTIP_HEADER$[War.GetTickingWarScoreTooltip]"
-### TODO AGOT-CHANGED: LEDGER_DOMINANT_TITLE_FAITH [AGOT: [Faith.GetAdjective] is the dominant [faith|e] in [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantFaithPercent|0%] of [counties|e] follow it | TR: [Faith.GetAdjective], [Title.GetNameNoTierNoTooltip] unvanındaki baskın [faith|e]\n[Concept('counties', 'Kontlukların')|e] [Title.GetDominantFaithPercent|0%] kadarı bu mezhepten]
-LEDGER_DOMINANT_TITLE_FAITH: "[Faith.GetAdjective] is the dominant [faith|e] in [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantFaithPercent|0%] of [counties|e] follow it"
-### TODO AGOT-CHANGED: LEDGER_DOMINANT_TITLE_CULTURE [AGOT: [Culture.GetName] is the dominant [culture|e] in [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantCulturePercent|0%] of [counties|e] follow it | TR: [Culture.GetName], [Title.GetNameNoTierNoTooltip] unvanındaki baskın [culture|e]\n[Concept('counties', 'Kontlukların')|e] [Title.GetDominantCulturePercent|0%] kadarı bu kültürden]
-LEDGER_DOMINANT_TITLE_CULTURE: "[Culture.GetName] is the dominant [culture|e] in [Title.GetNameNoTierNoTooltip]\n[Title.GetDominantCulturePercent|0%] of [counties|e] follow it"
-### TODO AGOT-CHANGED: LEDGER_KNOWN_KILLS [AGOT: Known kills | TR: Bilinen cinayetler]
-LEDGER_KNOWN_KILLS: "Known kills"
-### TODO AGOT-CHANGED: LEDGER_DEV_MONTHLY_CHANGE [AGOT: Monthly Change: [County.GetDevelopmentRate|+=] | TR: Aylık Değişim: [County.GetDevelopmentRate|+=]]
-LEDGER_DEV_MONTHLY_CHANGE: "Monthly Change: [County.GetDevelopmentRate|+=]"
-### TODO AGOT-CHANGED: LEDGER_NO_KILLS [AGOT: #weak No kills#! | TR: #weak Cinayet yok#!]
-LEDGER_NO_KILLS: "#weak No kills#!"
-### TODO AGOT-CHANGED: LEDGER_NAME_AGE [AGOT: [Character.GetName], #low [Character.GetAge] #! | TR: [Character.GetName], #low [Character.GetAge] #!]
+LEDGER_DOMINANT_TITLE_FAITH: "[Faith.GetAdjective], [Title.GetNameNoTierNoTooltip] unvanındaki baskın [faith|e]\n[Concept('counties', 'Kontlukların')|e] [Title.GetDominantFaithPercent|0%] kadarı bu mezhepten"
+LEDGER_DOMINANT_TITLE_CULTURE: "[Culture.GetName], [Title.GetNameNoTierNoTooltip] unvanındaki baskın [culture|e]\n[Concept('counties', 'Kontlukların')|e] [Title.GetDominantCulturePercent|0%] kadarı bu kültürden"
+LEDGER_KNOWN_KILLS: "Bilinen cinayetler"
+LEDGER_DEV_MONTHLY_CHANGE: "Aylık Değişim: [County.GetDevelopmentRate|+=]"
+LEDGER_NO_KILLS: "#weak Cinayet yok#!"
 LEDGER_NAME_AGE: "[Character.GetName], #low [Character.GetAge] #!"

@@ -1,15 +1,8 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: tarkhan [AGOT: Tarkhans | TR: Tarkanlar]
- tarkhan: "Tarkhans"
-### TODO AGOT-CHANGED: tarkhan_flavor [AGOT: #F Elite cavalry of the steppes, the Tarkhans' combination of lance, mace and bow can break almost any defense.#! | TR: #F Bozkırlaın elit süvarisi Tarkanlar mızrak, topuz ve yaylarıya neredeyse her savunmayı yok edebilir.#!]
- tarkhan_flavor: "#F Elite cavalry of the steppes, the Tarkhans' combination of lance, mace and bow can break almost any defense.#!"
-### TODO AGOT-CHANGED: steppe_or_desert_percentage_desc [AGOT: The [culture|E] does not have #V 30%#! of its [counties|E] in Steppe or Desert [terrain|E] | TR: ]
- steppe_or_desert_percentage_desc: "The [culture|E] does not have #V 30%#! of its [counties|E] in Steppe or Desert [terrain|E]"
-### TODO AGOT-CHANGED: culture_parameter_unlock_maa_tarkhan [AGOT: Can recruit [GetMaA('tarkhan').GetName] as [men_at_arms|E] | TR: [men_at_arms|E] olarak [GetMaA('tarkhan').GetName] yaratabilir]
- culture_parameter_unlock_maa_tarkhan: "Can recruit [GetMaA('tarkhan').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: culture_parameter_characters_are_better_tax_collector [AGOT: [characters|E] of this [culture|E] perform better as [tax_collectors|E] | TR: Bu [Concept( 'culture', 'kültürden' )|E] [characters|E], [tax_collectors|E] olarak daha iyi iş çıkarır]
- culture_parameter_characters_are_better_tax_collector: "[characters|E] of this [culture|E] perform better as [tax_collectors|E]"
-### TODO AGOT-CHANGED: TRADITION_HARDER_TO_CULTURE_CONVERT [AGOT: Local [cultural|E] [tradition|E] penalty | TR: Yerel [cultural|E] [tradition|E] penaltısı]
-TRADITION_HARDER_TO_CULTURE_CONVERT: "Local [cultural|E] [tradition|E] penalty"
-### TODO AGOT-CHANGED: culture_parameter_harder_to_convert_county_culture [AGOT: Harder to [promote_culture|E] in [counties|E] of this [culture|E] | TR: Bu]
-culture_parameter_harder_to_convert_county_culture: "Harder to [promote_culture|E] in [counties|E] of this [culture|E]"
+ tarkhan: "Tarkanlar"
+ tarkhan_flavor: "#F Bozkırlaın elit süvarisi Tarkanlar mızrak, topuz ve yaylarıya neredeyse her savunmayı yok edebilir.#!"
+ steppe_or_desert_percentage_desc: ""[culture|E] [Concept( 'culture', 'Kültürün' )|E] [Concept( 'counties', 'kontluklarının' )|E] #V %30'u#! Step veya Çöl [Concept( 'terrain', 'arazide' )|E] değil"
+ culture_parameter_unlock_maa_tarkhan: "[men_at_arms|E] olarak [GetMaA('tarkhan').GetName] yaratabilir"
+ culture_parameter_characters_are_better_tax_collector: "Bu [Concept( 'culture', 'kültürden' )|E] [characters|E], [tax_collectors|E] olarak daha iyi iş çıkarır"
+TRADITION_HARDER_TO_CULTURE_CONVERT: "Yerel [cultural|E] [tradition|E] penaltısı"
+culture_parameter_harder_to_convert_county_culture: "Bu "[culture|E] [Concept( 'culture', 'Kültürün' )|E] [Concept( 'counties', 'kontluklarında' )|E] [promote_culture|E] daha zordur"

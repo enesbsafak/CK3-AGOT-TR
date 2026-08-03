@@ -1,5 +1,6 @@
 ﻿l_english:
- HAS_BULDING_TRIGGER:0 "[PROVINCE.GetName] has a $BUILDING|V$ [building|E]"
+### TODO AGOT-CHANGED: HAS_BULDING_TRIGGER [AGOT: Has a $BUILDING|V$ [building|E] | TR: [PROVINCE.GetName] has a $BUILDING|V$ [building|E]]
+ HAS_BULDING_TRIGGER:0 "Has a $BUILDING|V$ [building|E]"
  HAS_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Boş bir bina bölmesi var"
  HAS_NOT_FREE_BUILDING_SLOT_TRIGGER_GLOBAL:0 "Boş bir bina bölmesi yok"
  HAS_FREE_BUILDING_SLOT_TRIGGER_THIRD:0 "[PROVINCE.GetName], boş bir bina bölmesine sahip"
@@ -26,21 +27,13 @@
  NOT_NUM_BUILDINGS_TRIGGER_GLOBAL:0 "$NUM|V$ adet bina inşa edilmemiş"
  NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] toprağı $NUM|V$ adet inşa edilmiş binaya sahip"
  NOT_NUM_BUILDINGS_TRIGGER_THIRD:0 "[PROVINCE.GetName] toprağı $NUM|V$ adet inşa edilmiş binaya sahip değil"
-### TODO AGOT-CHANGED: HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL [AGOT: Has a [special_building|E] slot | TR: [special_building|E] bölmesine sahip]
- HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "Has a [special_building|E] slot"
-### TODO AGOT-CHANGED: NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL [AGOT: Does #bold not#! have a [special_building|E] slot | TR: [special_building|E] bölmesine sahip değil]
- NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "Does #bold not#! have a [special_building|E] slot"
-### TODO AGOT-CHANGED: HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD [AGOT: [PROVINCE.GetName] has a [special_building|E] slot | TR: [PROVINCE.GetName], [special_building|E] bölmesine sahip]
- HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName] has a [special_building|E] slot"
-### TODO AGOT-CHANGED: NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD [AGOT: [PROVINCE.GetName] does not have a [special_building|E] slot | TR: [PROVINCE.GetName], [special_building|E] bölmesine sahip]
- NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName] does not have a [special_building|E] slot"
-### TODO AGOT-CHANGED: HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL [AGOT: Has a [special_building|E] | TR: [special_building|E]ya sahip]
- HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "Has a [special_building|E]"
-### TODO AGOT-CHANGED: NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL [AGOT: Does #bold not#! have a [special_building|E] | TR: [special_building|E]ya sahip #bold değil#!]
- NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "Does #bold not#! have a [special_building|E]"
-### TODO AGOT-CHANGED: HAS_SPECIAL_BUILDING_TRIGGER_THIRD [AGOT: [PROVINCE.GetName] has a [special_building|E] | TR: [PROVINCE.GetName] toprağı [special_building|E]ya sahip]
- HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] has a [special_building|E]"
-### TODO AGOT-CHANGED: NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD [AGOT: [PROVINCE.GetName] does not have a [special_building|E] | TR: [PROVINCE.GetName] toprağı [special_building|E]ya sahip değil]
- NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] does not have a [special_building|E]"
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "[special_building|E] bölmesine sahip"
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_GLOBAL: "[special_building|E] bölmesine sahip değil"
+ HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName], [special_building|E] bölmesine sahip"
+ NOT_HAS_SPECIAL_BUILDING_SLOT_TRIGGER_THIRD: "[PROVINCE.GetName], [special_building|E] bölmesine sahip"
+ HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "[special_building|E]ya sahip"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_GLOBAL: "[special_building|E]ya sahip #bold değil#!"
+ HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] toprağı [special_building|E]ya sahip"
+ NOT_HAS_SPECIAL_BUILDING_TRIGGER_THIRD: "[PROVINCE.GetName] toprağı [special_building|E]ya sahip değil"
  HAS_HOLDING_DESC:0 "[PROVINCE.GetName] toprağında [holding|E] var"
  NOT_HAS_HOLDING_DESC:0 "[PROVINCE.GetName] toprağında [holding|E] #bold yok#!"

@@ -1,6 +1,7 @@
 ﻿l_english:
  CHARACTER_IN_ACTIVITY_LOCATION:1 "Etkinlikte: [ACTIVITY.GetBaronyNameExplicitly|V]"
- CHARACTER_IN_LOCATION:1 "Konumu: [PROVINCE.GetBaronyNameExplicitly|V]"
+### TODO AGOT-CHANGED: CHARACTER_IN_LOCATION [AGOT: [Character.Custom('is_missing_location_loc')] | TR: Konumu: [PROVINCE.GetBaronyNameExplicitly|V]]
+ CHARACTER_IN_LOCATION:1 "[Character.Custom('is_missing_location_loc')]"
  CLOSE_TOOLTIP:0 "#T $CLOSE_LABEL$#!"
  MINIMIZE_TOOLTIP:0 "#T Gizle#!"
  CLOSE_LABEL:0 "Kapat"
@@ -12,8 +13,10 @@
  DONE:0 "Tamam"
  CHANGE:0 "Değiştir"
  NONE:0 "Yok"
- TOP_BAR_VERSION:2 "Oyun Sürümü: [GetGameVersionInfo]\nMP Oyun Kodu: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]\nÇeviri: Strategyturk (1.19)"
- VERSION_SHORT:2 "[GetGameVersionInfoShort], Oyun Kodu: [GetMPChecksum] $MODIFIED_CHECKSUM$"
+### TODO AGOT-CHANGED: TOP_BAR_VERSION [AGOT: Game Version: [GetGameVersionInfo]\nMP Checksum: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo] $AGOT_VERSION_BUILD$ | TR: Oyun Sürümü: [GetGameVersionInfo]\nMP Oyun Kodu: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo]\nÇeviri: Strategyturk (1.19)]
+ TOP_BAR_VERSION:2 "Game Version: [GetGameVersionInfo]\nMP Checksum: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo] $AGOT_VERSION_BUILD$"
+### TODO AGOT-CHANGED: VERSION_SHORT [AGOT: [GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$ $AGOT_VERSION_BUILD$ | TR: [GetGameVersionInfoShort], Oyun Kodu: [GetMPChecksum] $MODIFIED_CHECKSUM$]
+ VERSION_SHORT:2 "[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$ $AGOT_VERSION_BUILD$"
  TITUS_FILTER_SAME_VERSION:0 "Aynı Oyun Kodu #weak ([GetMPChecksum])#!"
  MODIFIED_CHECKSUM:1 "[Select_CString( HasDifferentChecksumThanCompiled, '#X (Değiştirilmiş)#!', '' )]"
  TT_MODULE_VERSION_INFO_COMMON:0 "#T $MODULE$ sürümü:#!\n   Dal: $BRANCH|V$\n   Commit: $HASH_SHORT|V$\n   Tarih ve zaman: $TIMESTAMP$\n   Commit Sayısı: $COMMIT_COUNT$"
@@ -29,7 +32,8 @@
  GO_TO_RIGHT_CLICK:0 "Konuma gitmek için sağ tıklayın"
  VIEW_CLICK:0 "Görüntülemek için tıklayın"
  COA_LINE_OF_SUCCESSION:0 "[line_of_succession|E]:\n"
- COA_TOOLTIP_HOLDER:1 "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][Concept('holder', 'Sahibi')|E]: [TITLE.GetHolder.GetFullNameNicknamed]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' ) ]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
+### TODO AGOT-CHANGED: COA_TOOLTIP_HOLDER [AGOT: [GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|E]: [AGOTGetLongUIName(TITLE.GetHolder)]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' ) ]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n | TR: [GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][Concept('holder', 'Sahibi')|E]: [TITLE.GetHolder.GetFullNameNicknamed]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' ) ]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n]
+ COA_TOOLTIP_HOLDER:1 "[GetPlayer.Custom2_Title( 'TitleRelationToMe', TITLE.Self )][TITLE.GetLeaseInfo][holder|E]: [AGOTGetLongUIName(TITLE.GetHolder)]\n[SelectLocalization( TITLE.GetHolder.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_VIEW_DISABLED_BORDER_WARS', 'TITLE_VIEW_ENABLED_BORDER_WARS' ) ]\n[SelectLocalization(DataModelHasItems(TITLE.GetLineOfSuccession), 'COA_LINE_OF_SUCCESSION', '')][TITLE.GetLineOfSuccessionDesc]\n"
  TITLE_LEASED_OUT_TO:0 "[lessee|E]: [CHARACTER.GetUIName]\n" #krutygetarts
  COA_TOOLTIP_NO_HOLDER:0 "Oluşturulmadı\n"
  COA_TOOLTIP_CLICK_INFO:0 "#I [SelectLocalization(TITLE.IsShownInTitleView, 'GO_TO_CLICK', 'VIEW_CLICK')]\n$GO_TO_RIGHT_CLICK$#!"
@@ -41,8 +45,7 @@
  COA_HIGHLIGHT_CLAIM:1 "@pressed_claim! Bu [title|E] üzerinde bir $CLAIM$na sahipsiniz"
  COA_HIGHLIGHT_SUCCESSION:2 "#TUT_KW Bu unvan için [succession|E] sırasındasınız#!"
  COA_HIGHLIGHT_DE_JURE_LIEGE:1 "#TUT_KW Bu [de_jure|E] unvan size ait#!"
-### TODO AGOT-CHANGED: COA_DEFAULT_TOOLTIP [AGOT: 0 | TR: $COA_HOLDER$]
- COA_DEFAULT_TOOLTIP:0 "$COA_HOLDER$"
+ COA_DEFAULT_TOOLTIP: "$COA_HOLDER$"
  COA_DE_JURE_TOOLTIP:0 "$COA_TITLE$$COA_DE_JURE_TITLE$$COA_HOLDER$$COA_CLICK_INFO$"
  CHARACTER_TOOLTIP_PORTRAIT:0 "$CHARACTER_TOOLTIP$\n\n$CHARACTER_TOOLTIP_INSTRUCTION$"
  CHARACTER_TOOLTIP_INSTRUCTION:0 "#I [Select_CString(Character.IsShownInCharacterWindow,'Konuma gitmek için tıklayın', 'Görüntülemek için tıklayın')]\nEtkileşime girmek için sağ tıklayın#!"
@@ -50,8 +53,7 @@
  CHARACTER_TOOLTIP_INSTRUCTION_COURT_SCENE:0 "#I Görüntülemek için tıklayın\nEtkileşime girmek için sağ tıklayın#!"
  CHARACTER_TOOLTIP_NO_PORTRAIT:0 "#T Karakter Yok#!"
  PORTRAIT_NO_COUNCILLOR:0 "#T Atanmış [councillor|E] Yok#!"
-### TODO AGOT-CHANGED: PORTRAIT_NO_KURULTAI [AGOT: #T No [kurultai|E] member appointed#! | TR: #T Atanmış [kurultai|E] üyesi Yok#!]
- PORTRAIT_NO_KURULTAI: "#T No [kurultai|E] member appointed#!"
+ PORTRAIT_NO_KURULTAI: "#T Atanmış [kurultai|E] üyesi Yok#!"
  ON_COUNCIL_EFFECTS:0 "#T Sizin üzerinizdeki etkileri\n#![GetPlayer.GetCouncillorModifierDesc]"
  PORTRAIT_NO_SPOUSE:0 "#T Eş Yok#!"
  HEIR_TO_HEADER:2 "[heir|E] olduğu:\n"
@@ -80,15 +82,12 @@
  UNLANDED_TITLE:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Karakterinizin', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı karakterin' )] $SUBJECT_TYPE$"
  RIGHT_CLICK_DISMISS:0 "#I Kapatmak için sağ tıklayın#!"
  REALM_TOOLTIP_HOLDER:0 "[ruler|E]: [TITLE.GetHolder.GetName]\nMevcut [line_of_succession|E]:\n[TITLE.GetLineOfSuccessionDesc]\n"
-### TODO AGOT-CHANGED: COA_REALM_SIZE_TOOLTIP [AGOT: Realm Size: [Character.RealmSize|V] [counties|E] | TR: Ülke Büyüklüğü: [Character.RealmSize|V] [county|E]]
- COA_REALM_SIZE_TOOLTIP: "Realm Size: [Character.RealmSize|V] [counties|E]"
+ COA_REALM_SIZE_TOOLTIP: "Ülke Büyüklüğü: [Character.RealmSize|V] [county|E]"
  COA_REALM_SUZERAIN_INFO: "\n\n[SelectLocalization(Or(IsNomad( Character ), IsHerder( Character )), 'COA_REALM_SUZERAIN_INFO_NOMADIC', 'COA_REALM_SUZERAIN_INFO_SETTLED')]\n[suzerain|E]: [Character.GetSuzerain.GetUIName]\n"
-### TODO AGOT-CHANGED: COA_REALM_SUZERAIN_INFO_NOMADIC [AGOT: @tributary_nomadic!Nomadic [tributary|E] | TR: @tributary_nomadic!Göçebe [tributary|E]]
- COA_REALM_SUZERAIN_INFO_NOMADIC: "@tributary_nomadic!Nomadic [tributary|E]"
+ COA_REALM_SUZERAIN_INFO_NOMADIC: "@tributary_nomadic!Göçebe [tributary|E]"
  COA_REALM_SUZERAIN_INFO_SETTLED: "@tributary_settled![tributary|E]"
 ### TODO AGOT-CHANGED: COA_REALM_TOOLTIP_CHARACTER_ALIVE [AGOT: #T [Character.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')]\n[holder|E]: [Select_CString( Character.IsLocalPlayer, 'You', AGOTGetLongUIName(Character))|V]\nMilitary Strength: [Character.GetMilitaryStrengthText|V] [soldiers|E]\n[SelectLocalization( GreaterThan_int32( Character.RealmSize, '(int32)0' ), 'COA_REALM_SIZE_TOOLTIP', 'CV_UNLANDED')][SelectLocalization(Character.HasSuzerain, 'COA_REALM_SUZERAIN_INFO', '')][AddLine( AddTextIf( Not( IsLandlessAdventurer( Character ) ), SelectLocalization( Character.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_TOOLTIP_DISABLED_BORDER_WARS' , 'TITLE_TOOLTIP_ENABLED_BORDER_WARS' )))]\n\n#S Succession#!\nSuccession Law: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[Character.GetPrimaryTitle.GetLineOfSuccessionDesc] | TR: #T [Character.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')]\n[holder|E]: [Character.GetUIName|U]\nAskerî Güç: [Character.GetMilitaryStrengthText|V] [soldiers|E]\n[SelectLocalization( GreaterThan_int32( Character.RealmSize, '(int32)0' ), 'COA_REALM_SIZE_TOOLTIP', 'CV_UNLANDED')][SelectLocalization(Character.HasSuzerain, 'COA_REALM_SUZERAIN_INFO', '')][AddLine( AddTextIf( Not( IsLandlessAdventurer( Character ) ), SelectLocalization( Character.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_TOOLTIP_DISABLED_BORDER_WARS' , 'TITLE_TOOLTIP_ENABLED_BORDER_WARS' )))]\n\n#S Veraset#!\nVeraset Yasası: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[Character.GetPrimaryTitle.GetLineOfSuccessionDesc]]
  COA_REALM_TOOLTIP_CHARACTER_ALIVE: "#T [Character.GetPrimaryTitle.GetNameWithUnderlyingNoTooltip|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')]\n[holder|E]: [Select_CString( Character.IsLocalPlayer, 'You', AGOTGetLongUIName(Character))|V]\nMilitary Strength: [Character.GetMilitaryStrengthText|V] [soldiers|E]\n[SelectLocalization( GreaterThan_int32( Character.RealmSize, '(int32)0' ), 'COA_REALM_SIZE_TOOLTIP', 'CV_UNLANDED')][SelectLocalization(Character.HasSuzerain, 'COA_REALM_SUZERAIN_INFO', '')][AddLine( AddTextIf( Not( IsLandlessAdventurer( Character ) ), SelectLocalization( Character.HasRealmLaw('top_liege_not_redirected_to_border_wars_law'), 'TITLE_TOOLTIP_DISABLED_BORDER_WARS' , 'TITLE_TOOLTIP_ENABLED_BORDER_WARS' )))]\n\n#S Succession#!\nSuccession Law: $SUCCESSION_FORM_NAME$\n\n[line_of_succession|E]:\n[Character.GetPrimaryTitle.GetLineOfSuccessionDesc]"
-### TODO AGOT-CHANGED: COA_REALM_TOOLTIP_CHARACTER_DEAD [AGOT: #T [Character.GetPrimaryTitle.GetNameAtDateNoTooltip( Character.GetDeathDate )|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')] | TR: #T [Character.GetPrimaryTitle.GetNameAtDateNoTooltip( Character.GetDeathDate )|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')]]
  COA_REALM_TOOLTIP_CHARACTER_DEAD: "#T [Character.GetPrimaryTitle.GetNameAtDateNoTooltip( Character.GetDeathDate )|U]#!\n[Character.Custom('GetRealmOrDomicileTooltip')]"
  COA_REALM_TOOLTIP_CHARACTER: "[SelectLocalization( Character.IsAlive, 'COA_REALM_TOOLTIP_CHARACTER_ALIVE', 'COA_REALM_TOOLTIP_CHARACTER_DEAD' )]"
  CHARACTER_WINDOW_REALM_TOOLTIP:0 "[Character.GetDefaultRealmFlagTooltipNoClickInfo]\n\n[Title.GetClickInfo]"
@@ -100,18 +99,18 @@
  OBSERVER_PLAYER_NAME:0 "[GetPlayer.PlayerName] tarafından oynanıyor"
  OBSERVER_AI:0 "Yapay Zekâ"
  END_OF_COMBAT_CONTRIBUTION_TOOLTIP:0 "#T Savaş Katkısı #V [BattleSummaryWindow.GetCombatResultData.GetWarContribution( GetPlayer )|=]#! değişti #!"
- CHARACTER_LOCATION_TOOLTIP:0 "[Character.GetCurrentLocation.GetName] konumunda"
+### TODO AGOT-CHANGED: CHARACTER_LOCATION_TOOLTIP [AGOT: [Character.Custom('is_missing_location_loc')] | TR: [Character.GetCurrentLocation.GetName] konumunda]
+ CHARACTER_LOCATION_TOOLTIP:0 "[Character.Custom('is_missing_location_loc')]"
  CHARACTER_IMPRISONED_TOOLTIP:0 "[Select_CString(Character.GetImprisonedBy.IsLocalPlayer,'Sizin', Character.GetImprisonedBy.GetUIName)] [Select_CString(Character.GetImprisonedBy.IsLocalPlayer,'tarafınızdan','tarafından')] [imprisoned|E]"
  CHARACTER_BIRTH_NAME_TOOLTIP:1 "Doğum adı: [Character.GetOriginalFirstName]"
  CHARACTER_COURT_POSITIONS_TOOLTIP:0 "[Character.GetLiege.GetShortUIName|U] adlı karakterin [Character.GetHeldCourtAndCouncilPositionsString]"
- CHARACTER_KILLER_TOOLTIP:0 "Katili: [Character.GetKiller.GetUIName]"
+### TODO AGOT-CHANGED: CHARACTER_KILLER_TOOLTIP [AGOT: Killer: [AGOTGetLongUIName(Character.GetKiller)|V] | TR: Katili: [Character.GetKiller.GetUIName]]
+ CHARACTER_KILLER_TOOLTIP:0 "Killer: [AGOTGetLongUIName(Character.GetKiller)|V]"
  FAITH_COOLTIP_WINDOW:0 "[Faith.GetAdjective]"
  CULTURE_COOLTIP_WINDOW:0 "[Culture.GetName]"
  CULTURE_COOLTIP_GETNAME:1 "[Culture.GetNameNoTooltip]"
  SORT_BY:0 "Sırala: "
-### TODO AGOT-CHANGED: FILTER_BY [AGOT: Filter by: | TR: Filtrele:]
- FILTER_BY: "Filter by: "
-### TODO AGOT-CHANGED: DEBUG_TITLE_ID [AGOT: Title ID: #high $ID$#! | TR: Unvan ID: #high $ID$#!]
- DEBUG_TITLE_ID: "Title ID: #high $ID$#!"
+ FILTER_BY: "Filtrele: "
+ DEBUG_TITLE_ID: "Unvan ID: #high $ID$#!"
  DEBUG_TITLE_KEYS:0 "Unvan anahtarı ve dejure süzerenler:"
  DEBUG_REGION_KEYS:0 "Coğrafi bölgeler:"

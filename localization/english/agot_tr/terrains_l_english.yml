@@ -7,14 +7,14 @@
  wetlands:0 "Sulak Alan"
  combat_wetlands:0 "Sulak Alan Savunması"
  steppe:0 "Bozkır"
- farmlands:0 "Tarım Alanı"
+### TODO AGOT-CHANGED: farmlands [AGOT: Meadows | TR: Tarım Alanı]
+ farmlands:0 "Meadows"
  drylands:0 "Kurak Alan"
  sea:0 "Deniz"
  coastal_sea:0 "Kıyısal Deniz"
  TERRAIN_DESCRIPTION:0 "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER:0 "#S [county|E] Etkileri:#!"
-### TODO AGOT-CHANGED: TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER [AGOT: #S [county_capital|E] Effects:#! | TR: #S [county_capital|E] Etkileri:#!]
- TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER: "#S [county_capital|E] Effects:#!"
+ TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER: "#S [county_capital|E] Etkileri:#!"
  TERRAIN_MOVEMENT_SPEED:0 "Hareket Hızı: $VALUE|%0V$"
  TERRAIN_COMBAT_WIDTH:0 "[combat_width|E]: $VALUE|%0V$"
  TERRAIN_ATTACKER_MODIFIER:0 "Saldıran Tarafın [Concept( 'advantage', 'Avantajı' )|E]: $VALUE|=+0$" #krutygetarts
@@ -27,7 +27,5 @@
  TERRAIN_HARSH_WINTER:0 "Sert $winter$"
  TERRAIN_TRAVEL_EFFECTS_HEADER:0 "#S Seyahat Etkileri:#!"
  TERRAIN_DANGER:1 "[travel_danger|E]: $VALUE|=-0$"
-### TODO AGOT-CHANGED: TERRAIN_PROVISIONS_BASE_COST [AGOT: Base Cost | TR: Temel Maliyet]
- TERRAIN_PROVISIONS_BASE_COST: "Base Cost"
-### TODO AGOT-CHANGED: TERRAIN_PROVISIONS_COST [AGOT: [provisions|E] Cost | TR: [provision|E] Maliyeti]
- TERRAIN_PROVISIONS_COST: "[provisions|E] Cost"
+ TERRAIN_PROVISIONS_BASE_COST: "Temel Maliyet"
+ TERRAIN_PROVISIONS_COST: "[provision|E] Maliyeti"

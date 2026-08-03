@@ -62,12 +62,9 @@
  GAME_RULE_SLOWER_REASON:1 "Oyun Kuralı: #N x#![SCOPE.ScriptValue('slower_game_rule_value')|N]"
  GAME_RULE_SIGNIFICANTLY_SLOWER_REASON:1 "Oyun Kuralı: #N x#![SCOPE.ScriptValue('significantly_slower_game_rule_value')|N]"
  rule_random_ruler_placement:0 "Rastgele Hükümdar Dağıtımı"
-### TODO AGOT-CHANGED: rule_elderly_health [AGOT: Elderly Health | TR: Yaşlılık Özellikleri]
- rule_elderly_health: "Elderly Health"
-### TODO AGOT-CHANGED: rule_conquerors_frequency [AGOT: [conqueror_i] Conquerors: Frequency | TR: [conqueror_i] Fatihler: Sıklık]
- rule_conquerors_frequency: "[conqueror_i] Conquerors: Frequency"
-### TODO AGOT-CHANGED: rule_conquerors_bonuses [AGOT: [conqueror_i] Conquerors: Bonuses | TR: [conqueror_i] Fatihler: Bonuslar]
- rule_conquerors_bonuses: "[conqueror_i] Conquerors: Bonuses"
+ rule_elderly_health: "Yaşlılık Özellikleri"
+ rule_conquerors_frequency: "[conqueror_i] Fatihler: Sıklık"
+ rule_conquerors_bonuses: "[conqueror_i] Fatihler: Bonuslar"
  rule_end_date:0 "Bitiş Tarihi"
  rule_random_harm:0 "Rastgele Kötülük"
  rule_random_harm_target:0 "Rastgele Kötülük Hedefi"
@@ -75,27 +72,15 @@
  rule_black_death_occurrence: "Great Spring Sickness Circumstance"
 ### TODO AGOT-CHANGED: rule_black_death_frequency [AGOT: Great Spring Sickness Frequency | TR: Kara Veba Sıklığı]
  rule_black_death_frequency: "Great Spring Sickness Frequency"
-### TODO AGOT-CHANGED: rule_legend_spread_chance [AGOT: Legend Spread Chance | TR: Destan Yayılma Olasılığı]
- rule_legend_spread_chance: "Legend Spread Chance"
-### TODO AGOT-CHANGED: rule_legend_cost [AGOT: Legend Cost | TR: Destan Maliyeti]
- rule_legend_cost: "Legend Cost"
-### TODO AGOT-CHANGED: rule_advantage_damage_effect [AGOT: Impact of [advantage|E] | TR: [Concept( 'advantage', 'Avantajın' )|E] Etkisi]
- rule_advantage_damage_effect: "Impact of [advantage|E]"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_arabs_nomad_rulers_realm [AGOT: [steppe_season|E] #weak (Partially in the Region)#! | TR: [steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!]
- game_rule_extra_nomads_arabs_nomad_rulers_realm: "[steppe_season|E] #weak (Partially in the Region)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_arabs_settled_rulers [AGOT: [steppe_season|E] #weak (Settled Rulers)#! | TR: [steppe_season|E] #weak (Yerleşik Hükümdarlar)#!]
- game_rule_extra_nomads_arabs_settled_rulers: "[steppe_season|E] #weak (Settled Rulers)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_arabs_herders [AGOT: [steppe_season|E] #weak (Herders)#! | TR: [steppe_season|E] #weak (Çobanlar)#!]
- game_rule_extra_nomads_arabs_herders: "[steppe_season|E] #weak (Herders)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_sahel_nomad_rulers_realm [AGOT: [steppe_season|E] #weak (Partially in the Region)#! | TR: [steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!]
- game_rule_extra_nomads_sahel_nomad_rulers_realm: "[steppe_season|E] #weak (Partially in the Region)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_sahel_settled_rulers [AGOT: [steppe_season|E] #weak (Settled Rulers)#! | TR: [steppe_season|E] #weak (Yerleşik Hükümdarlar)#!]
- game_rule_extra_nomads_sahel_settled_rulers: "[steppe_season|E] #weak (Settled Rulers)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_sahel_herders [AGOT: [steppe_season|E] #weak (Herders)#! | TR: [steppe_season|E] #weak (Çobanlar)#!]
- game_rule_extra_nomads_sahel_herders: "[steppe_season|E] #weak (Herders)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_horn_herders [AGOT: [steppe_season|E] #weak (Herders)#! | TR: [steppe_season|E] #weak (Çobanlar)#!]
- game_rule_extra_nomads_horn_herders: "[steppe_season|E] #weak (Herders)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_horn_nomad_rulers_realm [AGOT: [steppe_season|E] #weak (Partially in the Region)#! | TR: [steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!]
- game_rule_extra_nomads_horn_nomad_rulers_realm: "[steppe_season|E] #weak (Partially in the Region)#!"
-### TODO AGOT-CHANGED: game_rule_extra_nomads_horn_settled_rulers [AGOT: [steppe_season|E] #weak (Settled Rulers)#! | TR: [steppe_season|E] #weak (Yerleşik Hükümdarlar)#!]
- game_rule_extra_nomads_horn_settled_rulers: "[steppe_season|E] #weak (Settled Rulers)#!"
+ rule_legend_spread_chance: "Destan Yayılma Olasılığı"
+ rule_legend_cost: "Destan Maliyeti"
+ rule_advantage_damage_effect: "[Concept( 'advantage', 'Avantajın' )|E] Etkisi"
+ game_rule_extra_nomads_arabs_nomad_rulers_realm: "[steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!"
+ game_rule_extra_nomads_arabs_settled_rulers: "[steppe_season|E] #weak (Yerleşik Hükümdarlar)#!"
+ game_rule_extra_nomads_arabs_herders: "[steppe_season|E] #weak (Çobanlar)#!"
+ game_rule_extra_nomads_sahel_nomad_rulers_realm: "[steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!"
+ game_rule_extra_nomads_sahel_settled_rulers: "[steppe_season|E] #weak (Yerleşik Hükümdarlar)#!"
+ game_rule_extra_nomads_sahel_herders: "[steppe_season|E] #weak (Çobanlar)#!"
+ game_rule_extra_nomads_horn_herders: "[steppe_season|E] #weak (Çobanlar)#!"
+ game_rule_extra_nomads_horn_nomad_rulers_realm: "[steppe_season|E] #weak (Kısmen Bölgedeki Hükümdarlar)#!"
+ game_rule_extra_nomads_horn_settled_rulers: "[steppe_season|E] #weak (Yerleşik Hükümdarlar)#!"

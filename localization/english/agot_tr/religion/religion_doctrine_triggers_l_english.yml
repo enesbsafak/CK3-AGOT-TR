@@ -14,10 +14,8 @@
  INCOMPATIBLE_TENET_PENTARCHY_TRIGGER:1 "[GetFaithDoctrine('tenet_pentarchy').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
  INCOMPATIBLE_TENET_SACRIFICIAL_CEREMONIES_TRIGGER:0 "[core_tenet|E] [GetFaithDoctrine('tenet_sacrificial_ceremonies').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
  INCOMPATIBLE_TENET_CONSOLAMENTUM_TRIGGER:0 "[core_tenet|E] [GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
-### TODO AGOT-CHANGED: INCOMPATIBLE_TENET_COMMUNION_TRIGGER [AGOT: Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_communion').GetName( GetPlayer.GetFaith )] | TR: [GetFaithDoctrine('tenet_communion').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz]
- INCOMPATIBLE_TENET_COMMUNION_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_communion').GetName( GetPlayer.GetFaith )]"
-### TODO AGOT-CHANGED: INCOMPATIBLE_TENET_SACRED_SHADOWS_TRIGGER [AGOT: Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_sacred_shadows').GetName( GetPlayer.GetFaith )] | TR: [GetFaithDoctrine('tenet_sacred_shadows').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz]
- INCOMPATIBLE_TENET_SACRED_SHADOWS_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_sacred_shadows').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_COMMUNION_TRIGGER: "[GetFaithDoctrine('tenet_communion').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
+ INCOMPATIBLE_TENET_SACRED_SHADOWS_TRIGGER: "[GetFaithDoctrine('tenet_sacred_shadows').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL:0 "konusu üzerinde [Concept( 'head_of_faith', 'Mezhep Lideriniz' )|E] ile farklı düşüncelere sahipseniz [GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )] öğretisi alınamaz"
  INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL:0 "konusu üzerinde [Concept( 'head_of_faith', 'Mezhep Lideriniz' )|E] sizin görüşlerinizi onaylamıyorsa [GetFaithDoctrine('tenet_rite').GetName( GetPlayer.GetFaith )] öğretisi alınamaz"
  INCOMPATIBLE_TENET_SHARED_HOF_PACIFISTS_VS_WARMONGERS:0 "Barışseverlik ve savaş çığırtkanlığı $INCOMPATIBLE_TENET_SHARED_HOF_INTRO_BILATERAL$"
@@ -27,21 +25,18 @@
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_HUMSAC_GRUFES:0 "İnsan kurban etme $INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$"
  INCOMPATIBLE_TENET_SHARED_HOF_MONOGAMY_VS_POLYGAMY:0 "Çok eşlilik $INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$"
  INCOMPATIBLE_TENET_SHARED_HOF_WORLD_VS_UNRESTRICTED_INCEST:0 "Kısıtsız ensest $INCOMPATIBLE_TENET_SHARED_HOF_INTRO_UNILATERAL$"
-### TODO AGOT-CHANGED: INCOMPATIBLE_TENET_SACRED_DESTRUCTION_TRIGGER [AGOT: Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_sacred_destruction').GetName( GetPlayer.GetFaith )] | TR: [GetFaithDoctrine('tenet_sacred_destruction').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz]
- INCOMPATIBLE_TENET_SACRED_DESTRUCTION_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_sacred_destruction').GetName( GetPlayer.GetFaith )]"
-### TODO AGOT-CHANGED: INCOMPATIBLE_TENET_PRESERVATION_TRIGGER [AGOT: Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_preservation_trigger').GetName( GetPlayer.GetFaith )] | TR: [GetFaithDoctrine('tenet_preservation_trigger').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz]
- INCOMPATIBLE_TENET_PRESERVATION_TRIGGER: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_preservation_trigger').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_TENET_SACRED_DESTRUCTION_TRIGGER: "[GetFaithDoctrine('tenet_sacred_destruction').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
+ INCOMPATIBLE_TENET_PRESERVATION_TRIGGER: "[GetFaithDoctrine('tenet_preservation_trigger').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
  INCOMPATIBLE_TENET_ARMED_PILGRIMAGES_VS_FORBIDDEN_PILGRIMAGES:0 "$doctrine_pilgrimage_name$ [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz: [GetFaithDoctrine('doctrine_pilgrimage_forbidden').GetBaseName]"
-### TODO AGOT-CHANGED: INCOMPATIBLE_DOCTRINE_MUMMIFICATION [AGOT: Incompatible with the [doctrine|E] $doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName] | TR: $doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName] [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz]
- INCOMPATIBLE_DOCTRINE_MUMMIFICATION: "Incompatible with the [doctrine|E] $doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName]"
-### TODO AGOT-CHANGED: INCOMPATIBLE_TENET_ANICONISM [AGOT: Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )] | TR: [GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz]
- INCOMPATIBLE_TENET_ANICONISM: "Incompatible with the [core_tenet|E] [GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )]"
+ INCOMPATIBLE_DOCTRINE_MUMMIFICATION: "$doctrine_funeral_name$: [GetFaithDoctrine('doctrine_funeral_mummification').GetBaseName] [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz"
+ INCOMPATIBLE_TENET_ANICONISM: "[GetFaithDoctrine('tenet_aniconism').GetName( GetPlayer.GetFaith )] [Concept( 'core_tenet', 'öğretisi' )|E] ile uyumsuz"
  DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Tutucu [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz."
  NOT_DOCTRINE_PLURALISM_FUNDAMENTALIST:0 "Tutucu [Concept( 'doctrine', 'İlkesi' )|E] gerekiyor."
  DOCTRINE_PLURALISM_PLURALISTIC:0 "Çoğulcu [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz."
  NOT_DOCTRINE_PLURALISM_PLURALISTIC:0 "Çoğulcu [Concept( 'doctrine', 'İlkesi' )|E] gerekiyor."
  DOCTRINE_UNRESTRICTED_CONSANGUINITY:0 "Kısıtsız Evlilik [Concept( 'doctrine', 'İlkesi' )|E] ile uyumsuz."
- NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY:0 "Kısıtsız Evlilik [Concept( 'doctrine', 'İlkesi' )|E] gerekiyor."
+### TODO AGOT-CHANGED: NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY [AGOT: Requires the [doctrine|E] Unrestricted or Adelphogamous Marriage | TR: Kısıtsız Evlilik [Concept( 'doctrine', 'İlkesi' )|E] gerekiyor.]
+ NOT_DOCTRINE_UNRESTRICTED_CONSANGUINITY:0 "Requires the [doctrine|E] Unrestricted or Adelphogamous Marriage"
  CANNOT_HAVE_TEMPORAL_HEAD_AND_THEOCRACY:0 "Bir mezhep hem [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] Ruhban Sınıfı Geleneğine hem de [GetFaithDoctrine('doctrine_temporal_head').GetBaseName] Mezhep Liderine sahip olamaz."
  CANNOT_HAVE_TEMPORAL_HEAD_AND_SPIRITUAL_APPOINTMENT:0 "Bir mezhep hem [GetFaithDoctrine('doctrine_clerical_succession_spiritual_appointment').GetBaseName] ruhban sınıfı atamasına hem de [GetFaithDoctrine('doctrine_temporal_head').GetBaseName] Mezhep Liderine sahip olamaz."
  DOCTRINE_REQUIRES_THEOCRATIC_HEAD_OF_FAITH_TRIGGER:0 "[spiritual_head_of_faith|E] [Concept( 'doctrine', 'ilkesi' )|E] gerekir"
@@ -50,16 +45,14 @@
  INCOMPATIBLE_WITH_ALL_CRIMINAL_DOCTRINES:0 "Belirli eylemleri [crime|E] sayan tüm [doctrines|E] ile uyumsuz."
  ADULTERY_MUST_BE_FULLY_ACCEPTED:0 "Zinayı [shunned|E] veya [crime|E] sayan tüm [doctrines|E] ile uyumsuz." #krutygetarts
  REQUIRES_EXALTATION:0 "$tenet_carnal_exaltation_name$ [Concept( 'core_tenet', 'öğretisi' )|E] gerekiyor"
-### TODO AGOT-CHANGED: FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER [AGOT: Requires one of the following [core_tenets|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )] | TR: Aşağıdaki [Concept( 'core_tenet', 'öğretilerden' )|E] biri gerekiyor:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]]
- FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Requires one of the following [core_tenets|E]:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]"
+ FEDAYEEN_REQUIRED_DOCTRINES_TRIGGER: "Aşağıdaki [Concept( 'core_tenet', 'öğretilerden' )|E] biri gerekiyor:\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_warmonger').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_unrelenting_faith').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_consolamentum').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_armed_pilgrimages').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_struggle_submission').GetName( GetPlayer.GetFaith )]\n$BULLET_WITH_TAB$[GetFaithDoctrine('tenet_pursuit_of_power').GetName( GetPlayer.GetFaith )]"
  HAS_DOCTRINE:0 "[FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip."
  NOT_HAS_DOCTRINE:0 "[FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip #bold değil#!."
  I_HAVE_DOCTRINE:1 "[Concept( 'faith', 'Mezhebiniz' )|E] [FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip."
  NOT_I_HAVE_DOCTRINE:1 "[Concept( 'faith', 'Mezhebiniz' )|E] [FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip #bold değil#!."
  THEY_HAS_DOCTRINE:0 "[FAITH.GetName] [FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip."
  NOT_THEY_HAS_DOCTRINE:0 "[FAITH.GetName] [FAITH_DOCTRINE.GetName(FAITH.Self)] [Concept( 'doctrine', 'İlkesine' )|E] sahip #bold değil#!."
-### TODO AGOT-CHANGED: IN_RELIGION_FAMILY [AGOT: [RELIGION.GetName] is [RELIGION.GetFamily.GetName] | TR: [RELIGION.GetName] bir [RELIGION.GetFamily.GetName] din]
- IN_RELIGION_FAMILY: "[RELIGION.GetName] is [RELIGION.GetFamily.GetName]"
+ IN_RELIGION_FAMILY: "[RELIGION.GetName] bir [RELIGION.GetFamily.GetName] din"
  HAS_DOCTRINE_PARAMETER:0 "$PARAMETER_NAME$ öğretisi olan bir [Concept( 'doctrine', 'İlkeye' )|E] sahip"
  NOT_HAS_DOCTRINE_PARAMETER:0 "$PARAMETER_NAME$ öğretisi olan bir [Concept( 'doctrine', 'İlkeye' )|E] sahip #bold değil#!"
  I_HAVE_DOCTRINE_PARAMETER:1 "[Concept( 'faith', 'Mezhebiniz' )|E] $PARAMETER_NAME$ öğretisi olan bir [Concept( 'doctrine', 'İlkeye' )|E] sahip"

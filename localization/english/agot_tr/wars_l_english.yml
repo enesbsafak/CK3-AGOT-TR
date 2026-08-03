@@ -1,33 +1,20 @@
 ﻿l_english:
  WAR_ORDER_NUMBER:0 "$NUM|O$"
-### TODO AGOT-CHANGED: WAR_SCORE_BATTLES_GAIN [AGOT: [battles|E] Won | TR: Kazanılan [battles|E]]
- WAR_SCORE_BATTLES_GAIN: "[battles|E] Won"
-### TODO AGOT-CHANGED: WAR_SCORE_OCCUPATION_GAIN [AGOT: #S Occupying Counties#! | TR: #S İşgal Edilen Kontluklar#!]
- WAR_SCORE_OCCUPATION_GAIN: "#S Occupying Counties#!"
-### TODO AGOT-CHANGED: WAR_SCORE_OCCUPATION_GAIN_POST_FIX [AGOT: #S (Cap: $CAP|=+0%/$)#! | TR: #S (Limit: $CAP|=+0%/$)#!]
- WAR_SCORE_OCCUPATION_GAIN_POST_FIX: " #S (Cap: $CAP|=+0%/$)#!"
-### TODO AGOT-CHANGED: WAR_SCORE_CAPITAL_GAIN [AGOT: Occupying Enemy Capital | TR: İşgal Edilmiş Düşman Başkenti]
- WAR_SCORE_CAPITAL_GAIN: "Occupying Enemy Capital"
-### TODO AGOT-CHANGED: WAR_SCORE_BATTLES_LOSS [AGOT: [battles|E] Lost | TR: Kaybedilen [battles|E]]
- WAR_SCORE_BATTLES_LOSS: "[battles|E] Lost"
-### TODO AGOT-CHANGED: WAR_SCORE_BATTLES_CAPPED [AGOT: Score cannot exceed | TR: Skor yükseltilemez]
- WAR_SCORE_BATTLES_CAPPED: "Score cannot exceed"
-### TODO AGOT-CHANGED: WAR_SCORE_OCCUPATION_LOSS [AGOT: #S Occupied Counties#! | TR: #S İşgal Edilmiş Kontluklar#!]
- WAR_SCORE_OCCUPATION_LOSS: "#S Occupied Counties#!"
-### TODO AGOT-CHANGED: WAR_SCORE_OCCUPATION_LOSS_POST_FIX [AGOT: #S (Cap: $CAP|=+0%/$)#! | TR: #S (Limit: $CAP|=+0%/$)#!]
- WAR_SCORE_OCCUPATION_LOSS_POST_FIX: " #S (Cap: $CAP|=+0%/$)#!"
-### TODO AGOT-CHANGED: WAR_SCORE_CAPITAL_LOSS [AGOT: Friendly Capital Occupied | TR: Dost Başkent İşgali]
- WAR_SCORE_CAPITAL_LOSS: "Friendly Capital Occupied"
-### TODO AGOT-CHANGED: WAR_SCORE_ATTACKER_TICKING [AGOT: Attacker controls War Target | TR: Saldıran taraf Savaş Hedefini kontrol ediyor]
- WAR_SCORE_ATTACKER_TICKING: "Attacker controls War Target"
-### TODO AGOT-CHANGED: WAR_SCORE_DEFENDER_TICKING [AGOT: Defender controls War Target | TR: Savunan taraf Savaş Hedefini kontrol ediyor]
- WAR_SCORE_DEFENDER_TICKING: "Defender controls War Target"
+ WAR_SCORE_BATTLES_GAIN: "Kazanılan [battles|E]"
+ WAR_SCORE_OCCUPATION_GAIN: "#S İşgal Edilen Kontluklar#!"
+ WAR_SCORE_OCCUPATION_GAIN_POST_FIX: " #S (Limit: $CAP|=+0%/$)#!"
+ WAR_SCORE_CAPITAL_GAIN: "İşgal Edilmiş Düşman Başkenti"
+ WAR_SCORE_BATTLES_LOSS: "Kaybedilen [battles|E]"
+ WAR_SCORE_BATTLES_CAPPED: "Skor yükseltilemez"
+ WAR_SCORE_OCCUPATION_LOSS: "#S İşgal Edilmiş Kontluklar#!"
+ WAR_SCORE_OCCUPATION_LOSS_POST_FIX: " #S (Limit: $CAP|=+0%/$)#!"
+ WAR_SCORE_CAPITAL_LOSS: "Dost Başkent İşgali"
+ WAR_SCORE_ATTACKER_TICKING: "Saldıran taraf Savaş Hedefini kontrol ediyor"
+ WAR_SCORE_DEFENDER_TICKING: "Savunan taraf Savaş Hedefini kontrol ediyor"
  WAR_SCORE_LANDLESS_ARMIES_LOST:0 "Topraksız saldıranın askeri kalmadı"
  WAR_SCORE_OCCUPATION_COUNTY: "[TITLE.GetNameNoTier]"
-### TODO AGOT-CHANGED: WAR_SCORE_OCCUPATION_COUNTY_PARTIAL [AGOT: [TITLE.GetNameNoTier] (Partial) | TR: [TITLE.GetNameNoTier] (Kısmi)]
- WAR_SCORE_OCCUPATION_COUNTY_PARTIAL: "[TITLE.GetNameNoTier] (Partial)"
-### TODO AGOT-CHANGED: WAR_SCORE_FULL_OCCUPATION [AGOT: Full occupation | TR: Tam işgal]
- WAR_SCORE_FULL_OCCUPATION: "Full occupation"
+ WAR_SCORE_OCCUPATION_COUNTY_PARTIAL: "[TITLE.GetNameNoTier] (Kısmi)"
+ WAR_SCORE_FULL_OCCUPATION: "Tam işgal"
  RELIGIOUS_WAR_NAME:1 "[TITLE.GetBaseName] İçin [holy_war|E]"
  HOLY_WAR_COUNTY_NAME:0 "[county|E] İçin [holy_war|E]"
  HOLY_WAR_DUCHY_NAME:0 "[duchy|E] İçin [holy_war|E]"
@@ -35,10 +22,8 @@
  great_holy_war_cooldown:0 "[Concept( 'faith', 'Mezhebiniz' )|E] geçtiğimiz 30 sene içerisinde zaten bir [great_holy_war|E] başlattı"
  DEBUG_WAR_NAME:1 "#D (DEBUG)#! [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] Savaşı"
  DEBUG_WAR_NAME_FALLBACK:0 "#D (DEBUG)#! Test Savaşı"
-### TODO AGOT-CHANGED: WAR_BREAKING_HOSTAGE [AGOT: @warning_icon! #X Declaring War will affect [hostages|E]!#! | TR: @warning_icon! #X Savaş açmak [Concept( 'hostages', 'Rehineleri' )|E] etkileyecek!#!]
- WAR_BREAKING_HOSTAGE: "@warning_icon! #X Declaring War will affect [hostages|E]!#!"
-### TODO AGOT-CHANGED: WAR_BREAKING_TRUCE [AGOT: @warning_icon! #X Declaring War will break the [truce|E]!#! #weak ([DATE.GetTimeDiffFromNow] left)#! | TR: @warning_icon! #X Savaş açmak [Concept( 'truce', 'Ateşkesi' )|E] bozacak!#! #weak ([DATE.GetTimeDiffFromNow] kaldı)#!]
- WAR_BREAKING_TRUCE: "@warning_icon! #X Declaring War will break the [truce|E]!#! #weak ([DATE.GetTimeDiffFromNow] left)#!"
+ WAR_BREAKING_HOSTAGE: "@warning_icon! #X Savaş açmak [Concept( 'hostages', 'Rehineleri' )|E] etkileyecek!#!"
+ WAR_BREAKING_TRUCE: "@warning_icon! #X Savaş açmak [Concept( 'truce', 'Ateşkesi' )|E] bozacak!#! #weak ([DATE.GetTimeDiffFromNow] kaldı)#!"
  WAR_BREAKING_ALLIANCE:0 "@warning_icon! #X Savaş açmak [Concept( 'alliance', 'İttifakı' )|E] bozacak!#!"
  WAR_ATTACKER_FAITH_MIGHT_JOIN:0 "[GetPlayer.GetFaith.GetAdherentNamePlural] bizim tarafımızda savaşa katılabilir"
  WAR_DEFENDER_FAITH_MIGHT_JOIN:0 "@warning_icon! #X Diğer [Character.GetFaith.GetAdherentNamePlural] [Character.GetUIName] adlı karakterin tarafında savaşa katılabilir#!"
@@ -47,60 +32,44 @@
  WAR_ATTACKING_NON_INDEPENDENT_OUTSIDE:0 "@warning_icon! #X [recipient.GetShortUIName] bağımsız değil#!"
  WAR_ATTACKING_OWN_VASSAL:1 "@warning_icon! #X Kendi vasallarınıza Savaş açamazsınız#!"
  WAR_ATTACKING_SUB_VASSAL_IN_SAME_REALM:1 "@warning_icon! #X [recipient.GetShortUIName] sizinle aynı Süzerene tabi değil#!"
-### TODO AGOT-CHANGED: WAR_SCORE_THEIR_LEADER_CAPTURED [AGOT: Enemy [war_leader|E] Captured: | TR: Düşman [war_leader|E] Ele Geçirildi]
- WAR_SCORE_THEIR_LEADER_CAPTURED: "Enemy [war_leader|E] Captured:"
-### TODO AGOT-CHANGED: WAR_SCORE_MY_LEADER_CAPTURED [AGOT: [war_leader|E] Captured | TR: [war_leader|E] Ele Geçirildi]
- WAR_SCORE_MY_LEADER_CAPTURED: "[war_leader|E] Captured"
-### TODO AGOT-CHANGED: WAR_SCORE_WE_CAPTURED_SPOUSE [AGOT: Captured Spouse | TR: Ele Geçirilmiş Eş]
- WAR_SCORE_WE_CAPTURED_SPOUSE: "Captured Spouse"
-### TODO AGOT-CHANGED: WAR_SCORE_THEY_CAPTURED_SPOUSE [AGOT: Spouse Captured | TR: Eş Ele Geçirildi]
- WAR_SCORE_THEY_CAPTURED_SPOUSE: "Spouse Captured"
-### TODO AGOT-CHANGED: WAR_SCORE_WE_CAPTURED_VASSAL [AGOT: Captured Direct Vassal of Enemy | TR: Ele Geçirilmiş Düşman Doğrudan Vasalı]
- WAR_SCORE_WE_CAPTURED_VASSAL: "Captured Direct Vassal of Enemy"
-### TODO AGOT-CHANGED: WAR_SCORE_THEY_CAPTURED_VASSAL [AGOT: Direct Vassal Captured | TR: Doğrudan Vasal Ele Geçirildi]
- WAR_SCORE_THEY_CAPTURED_VASSAL: "Direct Vassal Captured"
-### TODO AGOT-CHANGED: WAR_SCORE_WE_CAPTURED_VASSALS [AGOT: Captured $COUNT$ Direct Vassals of Enemy | TR: Ele Geçirilmiş $COUNT$ Düşman Doğrudan Vasalı]
- WAR_SCORE_WE_CAPTURED_VASSALS: "Captured $COUNT$ Direct Vassals of Enemy"
-### TODO AGOT-CHANGED: WAR_SCORE_THEY_CAPTURED_VASSALS [AGOT: $COUNT$ Direct Vassals Captured | TR: $COUNT$ Doğrudan Vasal Ele Geçirildi]
- WAR_SCORE_THEY_CAPTURED_VASSALS: "$COUNT$ Direct Vassals Captured"
-### TODO AGOT-CHANGED: WAR_SCORE_WE_CAPTURED_HEIR [AGOT: Captured Heir | TR: Ele Geçirilmiş Vâris]
- WAR_SCORE_WE_CAPTURED_HEIR: "Captured Heir"
-### TODO AGOT-CHANGED: WAR_SCORE_THEY_CAPTURED_HEIR [AGOT: Heir Captured | TR: Vâris Ele Geçirildi]
- WAR_SCORE_THEY_CAPTURED_HEIR: "Heir Captured"
+ WAR_SCORE_THEIR_LEADER_CAPTURED: "Düşman [war_leader|E] Ele Geçirildi"
+ WAR_SCORE_MY_LEADER_CAPTURED: "[war_leader|E] Ele Geçirildi"
+ WAR_SCORE_WE_CAPTURED_SPOUSE: "Ele Geçirilmiş Eş"
+ WAR_SCORE_THEY_CAPTURED_SPOUSE: "Eş Ele Geçirildi"
+ WAR_SCORE_WE_CAPTURED_VASSAL: "Ele Geçirilmiş Düşman Doğrudan Vasalı"
+ WAR_SCORE_THEY_CAPTURED_VASSAL: "Doğrudan Vasal Ele Geçirildi"
+ WAR_SCORE_WE_CAPTURED_VASSALS: "Ele Geçirilmiş $COUNT$ Düşman Doğrudan Vasalı"
+ WAR_SCORE_THEY_CAPTURED_VASSALS: "$COUNT$ Doğrudan Vasal Ele Geçirildi"
+ WAR_SCORE_WE_CAPTURED_HEIR: "Ele Geçirilmiş Vâris"
+ WAR_SCORE_THEY_CAPTURED_HEIR: "Vâris Ele Geçirildi"
  WHITE_PEACE_DISABLED:0 "Beyaz barış imzalanamaz"
  RELIGIOUS_CB_TITLE:3 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' adlı karakterin ' )][realm|E][Select_CString( defender.IsLocalPlayer, 'nizde', 'sinde' )] [THIS.GetLandedTitle.GetBaseName|H] unvanı dâhilindeki tüm topraklar [Select_CString(attacker.IsLocalPlayer,'size',attacker.GetShortUIName)][Select_CString(attacker.IsLocalPlayer,'',' adlı kişiye')] geçecek."
  INVASION_CB_TITLE:3 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' adlı karakterin ' )][realm|E][Select_CString( defender.IsLocalPlayer, 'nizdeki', 'sindeki' )] [occupied|E] ve [THIS.GetLandedTitle.GetBaseName|H] unvanı dâhilindeki tüm toprakları elde edeceksiniz"
  MONGOL_INVASION_CB_TITLE:3 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' adlı karakterin ' )][realm|E][Select_CString( defender.IsLocalPlayer, 'nizdeki', 'sindeki' )] [THIS.GetLandedTitle.GetBaseName|H] unvanı dâhilindeki tüm toprakları elde edeceksiniz"
  DEJURE_CB_NAME:0 "Tüm [de_jure|E] Toprakları Ele Geçir"
-### TODO AGOT-CHANGED: DEJURE_CB_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure War | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure Savaşı]
- DEJURE_CB_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure War"
+ DEJURE_CB_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure Savaşı"
  DEJURE_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  DEJURE_CB_DUCHY_NAME:2 "[TITLE.GetBaseName] Unvanını Ele Geçir #weak ([de_jure|E])#!"
  DEJURE_CB_DUCHY_NAME_GENERIC:1 "[de_jure|E] [Concept( 'duchy', 'Düklüğü' )|E] Ele Geçir"
  DEJURE_CB_COUNTY_NAME:2 "[TITLE.GetBaseName] Unvanını Ele Geçir #weak ([de_jure|E])#!"
  DEJURE_CB_COUNTY_NAME_GENERIC:1 "[de_jure|E] [Concept( 'county', 'Kontluğu' )|E] Ele Geçir"
-### TODO AGOT-CHANGED: DEJURE_CB_WAR_SPECIFIC_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure War for the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure Savaşı]
- DEJURE_CB_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure War for the [TITLE.GetBaseName]"
+ DEJURE_CB_WAR_SPECIFIC_NAME: "[TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] De Jure Savaşı"
  DEJURE_CB_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: CLAIM_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName] | TR: [Select_CString( CLAIMANT.IsLocalPlayer, '', CLAIMANT.GetShortUIName )][Select_CString( CLAIMANT.IsLocalPlayer, '', ' adlı karakterin ' )][TITLE.GetBaseName] Üzerindeki Hak İddia[Select_CString( CLAIMANT.IsLocalPlayer, 'nız', 'sı' )] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı]
- CLAIM_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] War for [CLAIMANT.GetShortUINamePossessive] Claim on the [TITLE.GetBaseName]"
+ CLAIM_WAR_NAME: "[Select_CString( CLAIMANT.IsLocalPlayer, '', CLAIMANT.GetShortUIName )][Select_CString( CLAIMANT.IsLocalPlayer, '', ' adlı karakterin ' )][TITLE.GetBaseName] Üzerindeki Hak İddia[Select_CString( CLAIMANT.IsLocalPlayer, 'nız', 'sı' )] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı"
  CLAIM_CB_NAME:0 "[CLAIMANT.GetShortUINamePossessive|U] [claims|E]"
  CLAIM_WAR_NAME_BASE:1 "[ATTACKER.GetPrimaryTitle.GetAdjective][CLAIMANT.GetShortUINameNotMe][TITLE.GetName]"
-### TODO AGOT-CHANGED: CLAIM_WAR_NAME_MY [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Claim on the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı]
- CLAIM_WAR_NAME_MY: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Claim on the [TITLE.GetBaseName]"
+ CLAIM_WAR_NAME_MY: "[TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı"
  WAR_DECLARED:1 "Savaş İlan Edildi"
  INDEPENDENCE_WAR_NAME:0 "Bağımsızlık Savaşı"
  LIBERTY_WAR_NAME:0 "Otorite Savaşı"
  PEASANT_WAR_NAME:0 "Köylü Ayaklanması"
  peasant_war_defeat_desc:0 "[peasant_faction|E] lağvedilecek ve [attacker.GetShortUIName] hapsedilecek. Tüm isyankâr [Concept( 'counties', 'Kontlukların' )|E] [county_opinion|E] artacak." #krutygetarts
-### TODO AGOT-CHANGED: NOMADIC_WAR_NAME [AGOT: [ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Nomadic Uprising | TR: [ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Göçebe Ayaklanması]
- NOMADIC_WAR_NAME: "[ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Nomadic Uprising"
+ NOMADIC_WAR_NAME: "[ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Göçebe Ayaklanması"
  POPULIST_WAR_NAME:0 "[ATTACKER.GetCulture.GetNameNoTooltip] [ATTACKER.GetFaith.GetAdjectiveNoTooltip] Ayaklanması"
  CLAIMANT_WAR_NAME:2 "[CLAIMANT.GetTitledFirstName] adlı karakterin [TITLE.GetBaseName] İçin Savaşı"
  depose_war:0 "Tahttan İndirme"
  CB_CLAIM_COST_TARGET_TITLES:0 "Hak İddia Edilen Unvanlar"
-### TODO AGOT-CHANGED: CB_CLAIM_COST_TARGET_TITLES_FOREIGN [AGOT: Claimed non-[de_jure|E] Titles | TR: Hak İddia Edilen [de_jure|E] Olmayan Unvanlar]
- CB_CLAIM_COST_TARGET_TITLES_FOREIGN: "Claimed non-[de_jure|E] Titles"
+ CB_CLAIM_COST_TARGET_TITLES_FOREIGN: "Hak İddia Edilen [de_jure|E] Olmayan Unvanlar"
  CB_CLAIM_COST_GENDER_PREFERENCES:0 "Cinsiyet Tercihleri"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_DYNASTY:0 "Farklı Hanedandan Gelen Hak Sahibi"
  CB_CLAIM_COST_CLAIMANT_DIFFERENT_HOUSE:0 "Farklı Haneden Gelen Hak Sahibi"
@@ -119,8 +88,7 @@
  CB_ATTACKER_HOF_HUMSACD:0 "[Concept( 'head_of_faith', 'Mezhep Liderinizi' )|E] Kurban Etti"
  CB_GAME_RULE_NO_COST:0 "Oyun Kuralı - Maliyet Yok"
  CB_BASE_COST:0 "Temel"
-### TODO AGOT-CHANGED: CB_REALM_SIZE_COST [AGOT: From your [realm|E] Size | TR: [realm|E] Büyüklüğünüz]
- CB_REALM_SIZE_COST: "From your [realm|E] Size"
+ CB_REALM_SIZE_COST: "[realm|E] Büyüklüğünüz"
  CB_SAME_FAITH_COST:1 "Temel #weak (Savunan sizin [Concept( 'faith', 'Mezhebinizden' )|E])#!"
  CB_TRIBAL_COST:0 "Kabilesiniz"
  CB_RECONQUISTA_COST:0 "Kültür — $innovation_reconquista$"
@@ -132,15 +100,12 @@
  CB_COST_RULES_EMPIRE:0 "Bir İmparatorluk Yönetiyor"
  CB_SIZE_OF_TARGET_REALM_COST:0 "Hedef Ülkenin Büyüklüğü"
  CB_VASSALIZING_KING:0 "Krallık Vasallaştırılıyor"
-### TODO AGOT-CHANGED: CB_VASSALIZING_EMPEROR [AGOT: Vassalizing an Empire | TR: İmparatorluk Vasallaştırılıyor]
- CB_VASSALIZING_EMPEROR: "Vassalizing an Empire"
+ CB_VASSALIZING_EMPEROR: "İmparatorluk Vasallaştırılıyor"
  CB_ATTACKER_CULTURE:0 "[culture|E]"
  CB_STRUGGLE_PHASE_DISCOUNT:0 "[struggle_phase|E]"
  CB_STRUGGLE_PHASE_SURCHARGE:0 "[struggle_phase|E]"
-### TODO AGOT-CHANGED: CB_GENERIC_PHASE_BONUS [AGOT: Current [struggle_phase|E] | TR: Mevcut [struggle_phase|E]]
- CB_GENERIC_PHASE_BONUS: "Current [struggle_phase|E]"
-### TODO AGOT-CHANGED: CB_STRUGGLE_CONCESSION_ENDING [AGOT: Lasting impact of $persian_struggle$ | TR: $persian_struggle$nin Kalıcı Etkisi]
- CB_STRUGGLE_CONCESSION_ENDING: "Lasting impact of $persian_struggle$"
+ CB_GENERIC_PHASE_BONUS: "Mevcut [struggle_phase|E]"
+ CB_STRUGGLE_CONCESSION_ENDING: "$persian_struggle$nin Kalıcı Etkisi"
  CB_STEPPE_SEASON_DISCOUNT: "[steppe_season|E]"
  peasant_war:0 "Köylü Savaşı"
  de_jure_cb:0 "De Jure"
@@ -154,37 +119,29 @@
  depose_war_defeat_desc_defender:1 "[Concept( 'title', 'Unvanlarınız' )|E] sizde kalacak ve tüm isyankâr [Concept( 'vassals', 'Vasalları' )|E] [Concept( 'prison', 'hapsedeceksiniz' )|E]."
  depose_war_defeat_desc:1 "[defender.GetShortUIName|U] [Concept( 'title', 'unvanların' )|E] sahipliğini koruyacak ve tüm isyankâr [Concept( 'vassals', 'Vasalları' )|E] [Concept( 'prison', 'hapsedecek' )|E]."
  IMPERIAL_RECONQUEST_NAME:0 "Tüm İmparatorluk Bölgelerinin Fethi"
-### TODO AGOT-CHANGED: IMPERIAL_RECONQUEST_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Yeniden Fethi]
- IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest"
+ IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Yeniden Fethi"
  IMPERIAL_RECONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  IMPERIAL_RECONQUEST_SPECIFIC_NAME:0 "[TITLE.GetNameNoTier] İmparatorluk Bölgelerinin Kazanımı"
-### TODO AGOT-CHANGED: IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Yeniden Fethi]
- IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial Reconquest"
+ IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Yeniden Fethi"
  IMPERIAL_RECONQUEST_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  DISMANTLE_EMPIRE_NAME:0 "Tüm [Concept( 'de_jure', 'De Jureleri' )|E] Kaydır"
-### TODO AGOT-CHANGED: DISMANTLE_EMPIRE_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial War of Legitimacy | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Meşruiyet Savaşı]
- DISMANTLE_EMPIRE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial War of Legitimacy"
+ DISMANTLE_EMPIRE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Meşruiyet Savaşı"
  DISMANTLE_EMPIRE_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  DISMANTLE_EMPIRE_SPECIFIC_BASE:0 "[TITLE.GetNameNoTier] Unvanını Ortadan Kaldır"
  DISMANTLE_EMPIRE_SPECIFIC_NAME:0 "[TITLE.GetNameNoTier] Unvanını Ortadan Kaldır"
-### TODO AGOT-CHANGED: DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial War of Legitimacy | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Meşruiyet Savaşı]
- DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Imperial War of Legitimacy"
+ DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] İmparatorluk Meşruiyet Savaşı"
  DISMANTLE_EMPIRE_WAR_SPECIFIC_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  all_vassals_of_defender:0 "[Select_CString( defender.IsLocalPlayer, 'Tüm vasallarınız', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' adlı karakterin tüm vasalları' )]"
  VASSALIZATION_CB_NAME:2 "[DEFENDER.GetShortUINameNotMe] adlı karakterin [Concept( 'vassalization_casus_belli', 'Zoraki Vasallaştırması' )|E]"
  VASSALIZATION_CB_SPECIFIC_NAME:0 "[DEFENDER.GetShortUIName] adlı karakteri vasal hâline getir"
-### TODO AGOT-CHANGED: VASSALIZATION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vassalization War | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vasallaştırma Savaşı]
- VASSALIZATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vassalization War"
+ VASSALIZATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Vasallaştırma Savaşı"
  VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: MAKE_TRIBUTARY_CB_NAME [AGOT: Bring [DEFENDER.GetPrimaryTitle.GetNameNoTier] under [Concept('tributary','Tribute')|E] | TR: [DEFENDER.GetPrimaryTitle.GetNameNoTier] ülkesini [Concept('tributary', 'Haraç')|E] ödemeye zorla]
- MAKE_TRIBUTARY_CB_NAME: "Bring [DEFENDER.GetPrimaryTitle.GetNameNoTier] under [Concept('tributary','Tribute')|E]"
-### TODO AGOT-CHANGED: MAKE_TRIBUTARY_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Tributary War | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Haraçgüzarlık Savaşı]
- MAKE_TRIBUTARY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Tributary War"
+ MAKE_TRIBUTARY_CB_NAME: "[DEFENDER.GetPrimaryTitle.GetNameNoTier] ülkesini [Concept('tributary', 'Haraç')|E] ödemeye zorla"
+ MAKE_TRIBUTARY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Haraçgüzarlık Savaşı"
  MAKE_TRIBUTARY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  DIARCH_VASSALIZATION_CB_NAME:0 "[Concept( 'diarch', 'Diarkın' )|E] [DEFENDER.GetShortUIName] adlı karakterin Topraklarını Gaspı"
  DIARCH_VASSALIZATION_CB_SPECIFIC_NAME:0 "[DEFENDER.GetShortUIName] adlı karakterin Topraklarının Gaspı"
-### TODO AGOT-CHANGED: DIARCH_VASSALIZATION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] De Jure Land Seizure | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] De Jure Toprak Gaspı]
- DIARCH_VASSALIZATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] De Jure Land Seizure"
+ DIARCH_VASSALIZATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] De Jure Toprak Gaspı"
  DIARCH_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  CONQUEST_CB_TITLE:3 "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, 'Hâkimiyetinizdeki', ' hâkimiyetindeki' )] [THIS.GetLandedTitle.GetBaseName] unvanı dâhilinde bulunan tüm toprakları elde edecek[Select_CString( defender.IsLocalPlayer, 'siniz', '' )]."
  duchy_conquest_cb:0 "Düklük Fethi"
@@ -200,54 +157,44 @@
  CONQUEST_DUCHY_CB_NAME:1 "[duchy|E] Fethi"
  CONQUEST_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] Fethi"
  CONQUEST_CB_NAME:0 "[TITLE.GetBaseName] Fethi"
-### TODO AGOT-CHANGED: CONQUEST_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName] | TR: [ATTACKER.GetPrimaryTitle.GetName] Tarafından [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Fethi]
- CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
+ CONQUEST_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetName] Tarafından [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Fethi"
  CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  ducal_conquest_cb:0 "Düklük Fethi"
  DUCAL_CONQUEST_CB_NAME:1 "[TITLE.GetName] Düklük Fethi"
  DUCAL_CONQUEST_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] Düklük Fethi"
-### TODO AGOT-CHANGED: DUCAL_CONQUEST_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Ducal Conquest of the [TITLE.GetBaseNameNoTooltip] | TR: [ATTACKER.GetPrimaryTitle.GetNameNoTooltip] Tarafından [TITLE.GetBaseNameNoTooltip] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Düklük Fethi]
- DUCAL_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] Ducal Conquest of the [TITLE.GetBaseNameNoTooltip]"
+ DUCAL_CONQUEST_WAR_NAME: "[ATTACKER.GetPrimaryTitle.GetNameNoTooltip] Tarafından [TITLE.GetBaseNameNoTooltip] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Düklük Fethi"
  DUCAL_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  SUBJUGATION_CB_NAME:0 "[DEFENDER.GetShortUIName] adlı karaktere Boyun Eğdirme"
  SUBJUGATION_CB_SPECIFIC_NAME:0 "[DEFENDER.GetShortUIName] adlı karaktere Boyun Eğdirme"
-### TODO AGOT-CHANGED: SUBJUGATION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Subjugation War | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Boyun Eğdirme Savaşı]
- SUBJUGATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Subjugation War"
+ SUBJUGATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Boyun Eğdirme Savaşı"
  SUBJUGATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  LAUDABILITER_CONQUEST_CB_NAME:1 "Laudabiliter [county|E] Fethi"
  LAUDABILITER_CONQUEST_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] Fethi"
-### TODO AGOT-CHANGED: LAUDABILITER_CONQUEST_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]conquest by Laudabiliter of the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Övgüye Değer Fethi]
- LAUDABILITER_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]conquest by Laudabiliter of the [TITLE.GetBaseName]"
+ LAUDABILITER_CONQUEST_WAR_NAME: "[TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Övgüye Değer Fethi"
  LAUDABILITER_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  INVASION_CB_NAME:1 "[kingdom|E] İstilası"
  INVASION_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] İstilası"
-### TODO AGOT-CHANGED: INVASION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Invasion of [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] İstilası]
- INVASION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Invasion of [TITLE.GetBaseName]"
+ INVASION_WAR_NAME: "[TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] İstilası"
  INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  MONGOL_INVASION_WAR_NAME:0 "[TITLE.GetNameNoTier] Topraklarının Moğollarca İstilası"
  MONGOL_INVASION_KINGDOM_CB_NAME:0 "Moğol [kingdom|E] İstilası"
  MONGOL_INVASION_EMPIRE_CB_NAME:0 "Moğol [empire|E] İstilası"
-### TODO AGOT-CHANGED: CLAN_INVASION_CB_NAME [AGOT: Subjugate [kingdom|E] | TR: [Concept( 'kingdom', 'Krallığa' )|E] Boyun Eğdirme]
- CLAN_INVASION_CB_NAME: "Subjugate [kingdom|E]"
+ CLAN_INVASION_CB_NAME: "[Concept( 'kingdom', 'Krallığa' )|E] Boyun Eğdirme"
  HUNGARIAN_INVASION_WAR_NAME:1 "[TITLE.GetBaseNameNoTier] Topraklarına $mogyer$ Göçü"
+### TODO AGOT-ONLY: HUNGARIAN_INVASION_WAR_NAME_BASE [AGOT: ]
  HUNGARIAN_INVASION_WAR_NAME_BASE:0 ""
  HUNGARIAN_INVASION_CB_NAME:0 "Panunya'ya Göç"
-### TODO AGOT-CHANGED: PAX_ROMANA_INVASION_WAR_NAME [AGOT: Roman Invasion of [Title.GetNameNoTier] | TR: [Title.GetNameNoTier] Topraklarının Roma İstilası]
- PAX_ROMANA_INVASION_WAR_NAME: "Roman Invasion of [Title.GetNameNoTier]"
-### TODO AGOT-CHANGED: PAX_ROMANA_INVASION_EMPIRE_CB_NAME [AGOT: Roman Invasion of [empire|E] | TR: [Concept( 'empire', 'İmparatorluğun' )|E] Roma İstilası]
- PAX_ROMANA_INVASION_EMPIRE_CB_NAME: "Roman Invasion of [empire|E]"
-### TODO AGOT-CHANGED: PAX_ROMANA_GLOSS [AGOT: The #bold Pax Romana#! — a Latin phrase meaning | TR: #bold Pax Romana#!,]
- PAX_ROMANA_GLOSS: "The #bold Pax Romana#! — a Latin phrase meaning "The Roman Peace" — has been historically used to describe the period of "peace" inaugurated by Augustus' victory at Actium. This phrase does not refer to an absence of war, but rather means that all Rome's foes were subdued."
+ PAX_ROMANA_INVASION_WAR_NAME: "[Title.GetNameNoTier] Topraklarının Roma İstilası"
+ PAX_ROMANA_INVASION_EMPIRE_CB_NAME: "[Concept( 'empire', 'İmparatorluğun' )|E] Roma İstilası"
+ PAX_ROMANA_GLOSS: "#bold Pax Romana#!, "Roma Barışı" anlamına gelen Latince bir söz, tarihsel olarak Augustus'un Actium'da kazandığı zaferle başlayan "barış" dönemini tanımlamak için kullanılmıştır. Bu ifade savaşın yokluğunu ifade etmez, daha ziyade Roma'nın tüm düşmanlarının bastırıldığı anlamına gelir."
  TRIBAL_RAID_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Yağması"
  TRIBAL_RAID_CB_SPECIFIC_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Yağması"
-### TODO AGOT-CHANGED: TRIBAL_RAID_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Raid of [DEFENDER.GetPrimaryTitle.GetNameNoTier] | TR: [DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Yağması]
- TRIBAL_RAID_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Raid of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ TRIBAL_RAID_WAR_NAME: "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Yağması"
  TRIBAL_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  flowery_war_cb:0 "Esir Yağması"
  FLOWERY_WAR_CB_NAME:0 "[DEFENDER.GetPrimaryTitle.GetNameNoTier] [flowery_war|E]"
  FLOWERY_WAR_CB_SPECIFIC_NAME:1 "[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] Esir Yağması"
-### TODO AGOT-CHANGED: FLOWERY_WAR_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Raid for Captives against [DEFENDER.GetPrimaryTitle.GetNameNoTier] | TR: [DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Esir Yağması]
- FLOWERY_WAR_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Raid for Captives against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+ FLOWERY_WAR_WAR_NAME: "[DEFENDER.GetPrimaryTitle.GetNameNoTier] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Esir Yağması"
  FLOWERY_WAR_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  CASUS_BELLI_CLAIM_NO_CLAIMS_TO_PUSH:1 "Bastırılabilecek bir [claim|E] yok"
  CASUS_BELLI_CLAIM_NO_VALID_TITLE_TARGETS:0 "Hedef alınabilecek geçerli bir unvan yok"
@@ -264,8 +211,7 @@
  ARTIFACT_WAR_NAME_FALLBACK:0 "$ARTIFACT_WAR_NAME$"
  NATION_FRACTURING_WAR_NAME:1 "Dağılma Savaşı"
  MEDI_CONQUEST_CB_NAME:0 "[county|E] için Akdeniz Fethi"
-### TODO AGOT-CHANGED: STRUGGLE_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [struggle_conquest_conquest|E] against [DEFENDER.GetPrimaryTitle.GetName] | TR: [DEFENDER.GetPrimaryTitle.GetName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept( 'struggle_conquest_conquest', 'Çarpışması' )|E]]
- STRUGGLE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [struggle_conquest_conquest|E] against [DEFENDER.GetPrimaryTitle.GetName]"
+ STRUGGLE_WAR_NAME: "[DEFENDER.GetPrimaryTitle.GetName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept( 'struggle_conquest_conquest', 'Çarpışması' )|E]"
  STRUGGLE_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  STRUGGLE_COUNTY_CB_NAME:1 "[struggle_conquest|E]"
  county_struggle_cb:0 "[struggle_conquest|E]"
@@ -276,119 +222,74 @@
  CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_iberia_hostility|E]"
  CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_iberia_compromise|E]"
  CB_COST_STRUGGLE_PHASE_CONCILIATION:0 "[struggle_phase_iberia_conciliation|E]"
-### TODO AGOT-CHANGED: REMOVE_REGENT_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')]War to remove [DEFENDER.GetShortUIName] as [regent|E] | TR: [DEFENDER.GetShortUIName] adlı kişiyi [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][Concept( 'regent', 'Naiplikten' )|E] Kovma Savaşı]
- REMOVE_REGENT_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]War to remove [DEFENDER.GetShortUIName] as [regent|E]"
+ REMOVE_REGENT_WAR_NAME: "[DEFENDER.GetShortUIName] adlı kişiyi [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][Concept( 'regent', 'Naiplikten' )|E] Kovma Savaşı"
  remove_regent_cb:0 "Naibi İndir"
  remove_regent_cb_defeat_desc_defender:0 "[Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, '', ' ' )][Concept( 'imprisoned', 'Hapsedilecek' )|E] ve cezalandırılacak[Select_CString( attacker.IsLocalPlayer, 'sınız', ' ' )]"
  remove_regent_cb_defeat_desc:0 "[attacker.GetShortUIName|U] [Concept( 'imprisoned', 'Hapsedilecek' )|E] ve cezalandırılacak"
-### TODO AGOT-CHANGED: remove_regent_cb_temporary_fort [AGOT: [defender.GetPrimaryTitle.GetBaseName] loses the [GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip] | TR: [Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' ' )][GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip] etkisini kaybedecek[Select_CString( defender.IsLocalPlayer, 'siniz', '' )]]
- remove_regent_cb_temporary_fort: "[defender.GetPrimaryTitle.GetBaseName] loses the [GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip]"
-### TODO AGOT-CHANGED: INSTALL_LOYALIST_PUPPET_WAR_NAME [AGOT: $fp3_install_loyalist_cb$ in [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] | TR: [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] Ülkesine $fp3_install_loyalist_cb$me Savaşı]
- INSTALL_LOYALIST_PUPPET_WAR_NAME: "$fp3_install_loyalist_cb$ in [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier]"
+ remove_regent_cb_temporary_fort: "[Select_CString( defender.IsLocalPlayer, '', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, '', ' ' )][GetModifier( 'temporary_fort_province_modifier' ).GetNameWithTooltip] etkisini kaybedecek[Select_CString( defender.IsLocalPlayer, 'siniz', '' )]"
+ INSTALL_LOYALIST_PUPPET_WAR_NAME: "[DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] Ülkesine $fp3_install_loyalist_cb$me Savaşı"
  INSTALL_LOYALIST_PUPPET_CB_NAME: "$fp3_install_loyalist_cb$"
  fp3_free_house_member_cb: "$fp3_free_house_member_cb_name$"
-### TODO AGOT-CHANGED: fp3_free_house_member_cb_name [AGOT: Rescue House Members | TR: Hane Üyelerini Kurtarma]
- fp3_free_house_member_cb_name: "Rescue House Members"
-### TODO AGOT-CHANGED: fp3_free_house_member_war_name [AGOT: [ATTACKER.GetPrimaryTitle.GetAdjective] War to Rescue [ATTACKER.GetHouse.GetBaseNameNoTooltip] [house|E] Members | TR: [ATTACKER.GetHouse.GetBaseNameNoTooltip] [house|E] Üyelerini Kurtarmak İçin [ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı]
- fp3_free_house_member_war_name: "[ATTACKER.GetPrimaryTitle.GetAdjective] War to Rescue [ATTACKER.GetHouse.GetBaseNameNoTooltip] [house|E] Members"
-### TODO AGOT-CHANGED: fp3_free_house_member_cb_defeat_desc [AGOT: [attacker.GetShortUINamePossessive|U] [house|E] members remain [imprisoned|E] by [defender.GetShortUIName]. | TR: [Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, '', ' adlı kişinin ' )][house|E] [Select_CString( attacker.IsLocalPlayer, 'üyeleriniz', ' üyeleri' )] [Select_CString( defender.IsLocalPlayer, 'Sizin', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] [Concept( 'imprisoned', 'Hapsedilmeye' )|E] devam edecek.]
- fp3_free_house_member_cb_defeat_desc: "[attacker.GetShortUINamePossessive|U] [house|E] members remain [imprisoned|E] by [defender.GetShortUIName]."
-### TODO AGOT-CHANGED: fp3_free_house_member_cb_defeat_desc_defender [AGOT: The [attacker.GetHouse.GetBaseNameNoTooltip] [house|E] members remain [imprisoned|E] by you. | TR: [attacker.GetHouse.GetBaseNameNoTooltip] [house|E] üyeleri sizin tarafınızdan [Concept( 'imprisoned', 'Hapsedilmeye' )|E] devam edecek.]
- fp3_free_house_member_cb_defeat_desc_defender: "The [attacker.GetHouse.GetBaseNameNoTooltip] [house|E] members remain [imprisoned|E] by you."
-### TODO AGOT-CHANGED: fp3_free_house_member_cb_every_house_member_released [AGOT: All prisoners of [house|E] [attacker.GetHouse.GetBaseName] held by [defender.GetShortUIName] are released. | TR: [attacker.GetHouse.GetBaseName] [Concept( 'house', 'Hanesine' )|E] mensup tüm tutsaklar serbest bırakılacak.]
- fp3_free_house_member_cb_every_house_member_released: "All prisoners of [house|E] [attacker.GetHouse.GetBaseName] held by [defender.GetShortUIName] are released."
-### TODO AGOT-CHANGED: ANCESTOR_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ancestral Claim on [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Atalardan Gelen Hak İddiası]
- ANCESTOR_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ancestral Claim on [TITLE.GetBaseName]"
+ fp3_free_house_member_cb_name: "Hane Üyelerini Kurtarma"
+ fp3_free_house_member_war_name: "[ATTACKER.GetHouse.GetBaseNameNoTooltip] [house|E] Üyelerini Kurtarmak İçin [ATTACKER.GetPrimaryTitle.GetAdjective] Savaşı"
+ fp3_free_house_member_cb_defeat_desc: "[Select_CString( attacker.IsLocalPlayer, '', attacker.GetShortUIName )][Select_CString( attacker.IsLocalPlayer, '', ' adlı kişinin ' )][house|E] [Select_CString( attacker.IsLocalPlayer, 'üyeleriniz', ' üyeleri' )] [Select_CString( defender.IsLocalPlayer, 'Sizin', defender.GetShortUIName )][Select_CString( defender.IsLocalPlayer, ' tarafınızdan', ' tarafından' )] [Concept( 'imprisoned', 'Hapsedilmeye' )|E] devam edecek."
+ fp3_free_house_member_cb_defeat_desc_defender: "[attacker.GetHouse.GetBaseNameNoTooltip] [house|E] üyeleri sizin tarafınızdan [Concept( 'imprisoned', 'Hapsedilmeye' )|E] devam edecek."
+ fp3_free_house_member_cb_every_house_member_released: "[attacker.GetHouse.GetBaseName] [Concept( 'house', 'Hanesine' )|E] mensup tüm tutsaklar serbest bırakılacak."
+ ANCESTOR_WAR_NAME: "[TITLE.GetBaseName] Üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Atalardan Gelen Hak İddiası"
  ANCESTOR_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: ANCESTOR_CB_NAME [AGOT: Ancestral Claim | TR: Atalardan Gelen Hak İddiası]
- ANCESTOR_CB_NAME: "Ancestral Claim"
-### TODO AGOT-CHANGED: EXPANSION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Expansion of the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Genişlemesi]
- EXPANSION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Expansion of the [TITLE.GetBaseName]"
+ ANCESTOR_CB_NAME: "Atalardan Gelen Hak İddiası"
+ EXPANSION_WAR_NAME: "[TITLE.GetBaseName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Genişlemesi"
  EXPANSION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: EXPANSION_COUNTY_CB_NAME [AGOT: [county|E] Expansion | TR: [county|E] Genişlemesi]
- EXPANSION_COUNTY_CB_NAME: "[county|E] Expansion"
-### TODO AGOT-CHANGED: EXPANSION_DUCHY_CB_NAME [AGOT: [duchy|E] Expansion | TR: [duchy|E] Genişlemesi]
- EXPANSION_DUCHY_CB_NAME: "[duchy|E] Expansion"
-### TODO AGOT-CHANGED: NAVAL_EXPANSION_COUNTY_CB_NAME [AGOT: Naval [county|E] Expansion | TR: Denizden [county|E] Genişlemesi]
- NAVAL_EXPANSION_COUNTY_CB_NAME: "Naval [county|E] Expansion"
-### TODO AGOT-CHANGED: NAVAL_EXPANSION_DUCHY_CB_NAME [AGOT: Naval [duchy|E] Expansion | TR: Denizden [duchy|E] Genişlemesi]
- NAVAL_EXPANSION_DUCHY_CB_NAME: "Naval [duchy|E] Expansion"
-### TODO AGOT-CHANGED: INFLUENCE_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Expansion of the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Genişlemesi]
- INFLUENCE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Expansion of the [TITLE.GetBaseName]"
+ EXPANSION_COUNTY_CB_NAME: "[county|E] Genişlemesi"
+ EXPANSION_DUCHY_CB_NAME: "[duchy|E] Genişlemesi"
+ NAVAL_EXPANSION_COUNTY_CB_NAME: "Denizden [county|E] Genişlemesi"
+ NAVAL_EXPANSION_DUCHY_CB_NAME: "Denizden [duchy|E] Genişlemesi"
+ INFLUENCE_WAR_NAME: "[TITLE.GetBaseName] Topraklarında [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Genişlemesi"
  INFLUENCE_WAR_NAME_BASE: "[ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: INFLUENCE_WAR_CB_NAME [AGOT: Sponsored Administrative War | TR: Desteklenmiş İdari Savaş]
- INFLUENCE_WAR_CB_NAME: "Sponsored Administrative War"
-### TODO AGOT-CHANGED: INFLUENCE_WAR_CB_TITLE [AGOT: [attacker.GetTopLiege.GetShortUIName|U] will seize all territory within [defender.GetShortUINamePossessive] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName] | TR: [attacker.GetTopLiege.GetShortUINameNotMe|U], [THIS.GetLandedTitle.GetBaseName] unvanında [defender.GetShortUINameNotMe] adlı kişinin [Concept( 'realm', 'Ülkesinin' )|E] sahip olduğu tüm toprakları alacak.]
- INFLUENCE_WAR_CB_TITLE: "[attacker.GetTopLiege.GetShortUIName|U] will seize all territory within [defender.GetShortUINamePossessive] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName]"
-### TODO AGOT-CHANGED: MIGRATION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Migration to the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Göçü]
- MIGRATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Migration to the [TITLE.GetBaseName]"
+ INFLUENCE_WAR_CB_NAME: "Desteklenmiş İdari Savaş"
+ INFLUENCE_WAR_CB_TITLE: "[attacker.GetTopLiege.GetShortUINameNotMe|U], [THIS.GetLandedTitle.GetBaseName] unvanında [defender.GetShortUINameNotMe] adlı kişinin [Concept( 'realm', 'Ülkesinin' )|E] sahip olduğu tüm toprakları alacak."
+ MIGRATION_WAR_NAME: "[TITLE.GetBaseName] İçin [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective] Göçü"
  MIGRATION_WAR_NAME_BASE: "[ATTACKER.GetTopLiege.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: MIGRATION_WAR_CB_NAME [AGOT: Migration War | TR: Göç Savaşı]
- MIGRATION_WAR_CB_NAME: "Migration War"
-### TODO AGOT-CHANGED: MIGRATION_CB_TITLE [AGOT: You will seize all territory within [defender.GetShortUINamePossessive] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName] | TR: [defender.GetShortUIName] adlı karakterin [Concept('realm', 'Ülkesinde')|E] [THIS.GetLandedTitle.GetBaseName] unvanının bir parçası olan tüm toprakları elde edeceksiniz]
- MIGRATION_CB_TITLE: "You will seize all territory within [defender.GetShortUINamePossessive] [realm|E] that is part of the [THIS.GetLandedTitle.GetBaseName]"
+ MIGRATION_WAR_CB_NAME: "Göç Savaşı"
+ MIGRATION_CB_TITLE: "[defender.GetShortUIName] adlı karakterin [Concept('realm', 'Ülkesinde')|E] [THIS.GetLandedTitle.GetBaseName] unvanının bir parçası olan tüm toprakları elde edeceksiniz"
  MPO_NOMAD_INVASION_CB_NAME:1 "[Concept('kingdom', 'Krallığı')|E] Ele Geçir"
  MPO_NOMAD_INVASION_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] Topraklarının Ele Geçirilişi"
-### TODO AGOT-CHANGED: MPO_NOMAD_INVASION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Overrunning of [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ele Geçirilişi]
- MPO_NOMAD_INVASION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Overrunning of [TITLE.GetBaseName]"
+ MPO_NOMAD_INVASION_WAR_NAME: "[TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ele Geçirilişi"
  MPO_NOMAD_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective] [DEFENDER.GetPrimaryTitle.GetName]"
  MPO_NOMAD_DUCHY_INVASION_CB_NAME:1 "[Concept('duchy', 'Düklüğü')|E] Ele Geçir"
  MPO_NOMAD_DUCHY_INVASION_CB_SPECIFIC_NAME:1 "[TITLE.GetBaseName] Topraklarının Ele Geçirilişi"
-### TODO AGOT-CHANGED: MPO_NOMAD_DUCHY_INVASION_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Overrunning of [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ele Geçirilişi]
- MPO_NOMAD_DUCHY_INVASION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Overrunning of [TITLE.GetBaseName]"
+ MPO_NOMAD_DUCHY_INVASION_WAR_NAME: "[TITLE.GetBaseName] Topraklarının [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Ele Geçirilişi"
  MPO_NOMAD_DUCHY_INVASION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective] [DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: NOMAD_CB_UNREFORMED_COST [AGOT: Your [faith|E] is [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName] | TR: [Concept('faith', 'Mezhebiniz')|E] [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]]
-NOMAD_CB_UNREFORMED_COST: "Your [faith|E] is [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]"
-### TODO AGOT-CHANGED: defender_desperate [AGOT: Desperate Defense | TR: Çaresiz Savunma]
- defender_desperate: "Desperate Defense"
-### TODO AGOT-CHANGED: defender_desperate_desc [AGOT: This side is desperate and will be more reckless in a last attempt to win the war. They are likely to try to find a place to make a heroic last stand, if possible. | TR: Bu taraf çaresiz bir şekilde savaşı kazanmak için daha riskli hamleler yapacak. Mümkünse kahramanca bir son direniş gösterebileceği yer bulmaya çalışacak.]
- defender_desperate_desc: "This side is desperate and will be more reckless in a last attempt to win the war. They are likely to try to find a place to make a heroic last stand, if possible."
-### TODO AGOT-CHANGED: great_holy_war_attacker [AGOT: Great Holy War Offense | TR: Büyük Kutsal Savaş Saldırısı]
- great_holy_war_attacker: "Great Holy War Offense"
-### TODO AGOT-CHANGED: great_holy_war_attacker_desc [AGOT: This side is unorganized and tries to take the wargoal with reckless abandon. | TR: Bu taraf düzensiz bir şekilde, riskler alarak savaş hedefini ele geçirmeye çalışacak.]
- great_holy_war_attacker_desc: "This side is unorganized and tries to take the wargoal with reckless abandon."
-### TODO AGOT-CHANGED: great_holy_war_defender [AGOT: Great Holy War Defense | TR: Büyük Kutsal Savaş Savunması]
- great_holy_war_defender: "Great Holy War Defense"
-### TODO AGOT-CHANGED: great_holy_war_defender_desc [AGOT: This side is unorganized and tries to keep the wargoal with reckless abandon. | TR: Bu taraf düzensiz bir şekilde, riskler alarak savaş hedefini elinde tutmaya çalışacak.]
- great_holy_war_defender_desc: "This side is unorganized and tries to keep the wargoal with reckless abandon."
-### TODO AGOT-CHANGED: defender_turtle [AGOT: Dedicated Defense | TR: Dikkatli Savunma]
- defender_turtle: "Dedicated Defense"
-### TODO AGOT-CHANGED: defender_turtle_desc [AGOT: This side will vehemently defend their own territory and the [war_target|E]. They will rarely, if ever, [siege|E] or attack [armies|E] in enemy lands. | TR: Bu taraf dikkatli bir şekilde kendi topraklarını ve [Concept('war_target', 'Savaş Hedefini')|E] savunacak. Zorunda kalmadıkça düşman topraklarını [Concept('siege', 'Kuşatmayacak')|E] veya düşman topraklarındaki [Concept('armies', 'Ordulara')|E] saldırmayacaklar]
- defender_turtle_desc: "This side will vehemently defend their own territory and the [war_target|E]. They will rarely, if ever, [siege|E] or attack [armies|E] in enemy lands."
-### TODO AGOT-CHANGED: NOMADIC_CONQUEST_COUNTY_CB_NAME [AGOT: Nomadic [county|E] Quarrel | TR: Göçebe [county|E] Anlaşmazlığı]
- NOMADIC_CONQUEST_COUNTY_CB_NAME: "Nomadic [county|E] Quarrel"
-### TODO AGOT-CHANGED: NOMADIC_CONQUEST_DUCHY_CB_NAME [AGOT: Nomadic [duchy|E] Quarrel | TR: Göçebe [duchy|E] Anlaşmazlığı]
- NOMADIC_CONQUEST_DUCHY_CB_NAME: "Nomadic [duchy|E] Quarrel"
-### TODO AGOT-CHANGED: NOMADIC_CONQUEST_CB_SPECIFIC_NAME [AGOT: Conquer the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarını Fethet]
- NOMADIC_CONQUEST_CB_SPECIFIC_NAME: "Conquer the [TITLE.GetBaseName]"
-### TODO AGOT-CHANGED: NOMADIC_CONQUEST_CB_NAME [AGOT: Conquer the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarını Fethet]
- NOMADIC_CONQUEST_CB_NAME: "Conquer the [TITLE.GetBaseName]"
-### TODO AGOT-CHANGED: NOMADIC_CONQUEST_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName] | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] Seferi]
- NOMADIC_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquest of the [TITLE.GetBaseName]"
+NOMAD_CB_UNREFORMED_COST: "[Concept('faith', 'Mezhebiniz')|E] [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName]"
+ defender_desperate: "Çaresiz Savunma"
+ defender_desperate_desc: "Bu taraf çaresiz bir şekilde savaşı kazanmak için daha riskli hamleler yapacak. Mümkünse kahramanca bir son direniş gösterebileceği yer bulmaya çalışacak."
+ great_holy_war_attacker: "Büyük Kutsal Savaş Saldırısı"
+ great_holy_war_attacker_desc: "Bu taraf düzensiz bir şekilde, riskler alarak savaş hedefini ele geçirmeye çalışacak."
+ great_holy_war_defender: "Büyük Kutsal Savaş Savunması"
+ great_holy_war_defender_desc: "Bu taraf düzensiz bir şekilde, riskler alarak savaş hedefini elinde tutmaya çalışacak."
+ defender_turtle: "Dikkatli Savunma"
+ defender_turtle_desc: "Bu taraf dikkatli bir şekilde kendi topraklarını ve [Concept('war_target', 'Savaş Hedefini')|E] savunacak. Zorunda kalmadıkça düşman topraklarını [Concept('siege', 'Kuşatmayacak')|E] veya düşman topraklarındaki [Concept('armies', 'Ordulara')|E] saldırmayacaklar"
+ NOMADIC_CONQUEST_COUNTY_CB_NAME: "Göçebe [county|E] Anlaşmazlığı"
+ NOMADIC_CONQUEST_DUCHY_CB_NAME: "Göçebe [duchy|E] Anlaşmazlığı"
+ NOMADIC_CONQUEST_CB_SPECIFIC_NAME: "[TITLE.GetBaseName] Topraklarını Fethet"
+ NOMADIC_CONQUEST_CB_NAME: "[TITLE.GetBaseName] Topraklarını Fethet"
+ NOMADIC_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] Seferi"
  NOMADIC_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  HUMILIATION_WAR_CB_NAME: "$humiliation_cb$"
  HUMILIATION_WAR_CB_NAME_BASE: "$humiliation_cb$"
  RETALIATION_WAR_CB_NAME: "$retaliation_cb$"
  RETALIATION_WAR_CB_NAME_BASE: "$retaliation_cb$"
-### TODO AGOT-CHANGED: DOMINATION_WAR_SPECIFIC_NAME [AGOT: Dominate the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarına Hâkim Ol]
- DOMINATION_WAR_SPECIFIC_NAME: "Dominate the [TITLE.GetBaseName]"
-### TODO AGOT-CHANGED: DOMINATION_WAR_CB_NAME [AGOT: Dominate the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] Topraklarına Hâkim Ol]
- DOMINATION_WAR_CB_NAME: "Dominate the [TITLE.GetBaseName]"
-### TODO AGOT-CHANGED: DOMINATION_WAR_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Domination of the [TITLE.GetBaseName] | TR: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] Hâkimiyet Seferi]
- DOMINATION_WAR_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Domination of the [TITLE.GetBaseName]"
+ DOMINATION_WAR_SPECIFIC_NAME: "[TITLE.GetBaseName] Topraklarına Hâkim Ol"
+ DOMINATION_WAR_CB_NAME: "[TITLE.GetBaseName] Topraklarına Hâkim Ol"
+ DOMINATION_WAR_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] Hâkimiyet Seferi"
  DOMINATION_WAR_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: NOMAD_DEJURE_CB_NAME [AGOT: [expand_dominance|E] over the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] üzerinde [Concept('expand_dominance', 'Hâkimiyet Kur')|E]]
- NOMAD_DEJURE_CB_NAME: "[expand_dominance|E] over the [TITLE.GetBaseName]"
-### TODO AGOT-CHANGED: NOMAD_DEJURE_CB_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [dominance_expansion|E] over [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept('dominance_expansion', 'Hâkimiyet Genişlemesi')|E]]
- NOMAD_DEJURE_CB_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [dominance_expansion|E] over [TITLE.GetBaseName]"
+ NOMAD_DEJURE_CB_NAME: "[TITLE.GetBaseName] üzerinde [Concept('expand_dominance', 'Hâkimiyet Kur')|E]"
+ NOMAD_DEJURE_CB_WAR_NAME: "[TITLE.GetBaseName] üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept('dominance_expansion', 'Hâkimiyet Genişlemesi')|E]"
  NOMAD_DEJURE_CB_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  NOMAD_DEJURE_CB_NAME_GENERIC: "$de_jure_cb_nomadic$"
-### TODO AGOT-CHANGED: NOMAD_DEJURE_CB_WAR_SPECIFIC_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [dominance_expansion|E] over the [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept('dominance_expansion', 'Hâkimiyet Genişlemesi')|E]]
- NOMAD_DEJURE_CB_WAR_SPECIFIC_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [dominance_expansion|E] over the [TITLE.GetBaseName]"
+ NOMAD_DEJURE_CB_WAR_SPECIFIC_NAME: "[TITLE.GetBaseName] üzerinde [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] [Concept('dominance_expansion', 'Hâkimiyet Genişlemesi')|E]"
  NOMAD_DEJURE_CB_WAR_SPECIFIC_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  SOVEREIGNTY_WAR_CB_NAME: "$sovereignty_cb$"
-### TODO AGOT-CHANGED: SOVEREIGNTY_WAR_WAR_NAME [AGOT: [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] War of Sovereignty with [TITLE.GetBaseName] | TR: [TITLE.GetBaseName] ile [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Egemenlik Savaşı]
- SOVEREIGNTY_WAR_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] War of Sovereignty with [TITLE.GetBaseName]"
+ SOVEREIGNTY_WAR_WAR_NAME: "[TITLE.GetBaseName] ile [ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Egemenlik Savaşı"
  SOVEREIGNTY_WAR_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: at_least_one_non_nomad_county_tt [AGOT: Target must have at least one non-[nomadic|E] [county|E] | TR: Hedefte en az bir [nomadic|E] olmayan [county|E] bulunmalı]
- at_least_one_non_nomad_county_tt: "Target must have at least one non-[nomadic|E] [county|E]"
+at_least_one_non_nomad_county_tt: "Hedefte en az bir [nomadic|E] olmayan [county|E] bulunmalı"

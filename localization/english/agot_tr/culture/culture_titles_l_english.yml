@@ -1,32 +1,51 @@
 ﻿l_english:
- baron:0 "Baron"
- baron_female:0 "Barones"
- count:0 "Kont"
- count_female:0 "Kontes"
- duke:0 "Dük"
- duke_female:0 "Düşes"
+### TODO AGOT-CHANGED: baron [AGOT: Lord | TR: Baron]
+ baron:0 "Lord"
+### TODO AGOT-CHANGED: baron_female [AGOT: Lady | TR: Barones]
+ baron_female:0 "Lady"
+### TODO AGOT-CHANGED: count [AGOT: Lord | TR: Kont]
+ count:0 "Lord"
+### TODO AGOT-CHANGED: count_female [AGOT: Lady | TR: Kontes]
+ count_female:0 "Lady"
+### TODO AGOT-CHANGED: duke [AGOT: Lord | TR: Dük]
+ duke:0 "Lord"
+### TODO AGOT-CHANGED: duke_female [AGOT: Lady | TR: Düşes]
+ duke_female:0 "Lady"
  emperor:0 "İmparator"
  emperor_female:0 "İmparatoriçe"
  hegemon: "Hegemon"
-### TODO AGOT-CHANGED: hegemon_female [AGOT: Hegemoness | TR: Hegemon]
- hegemon_female: "Hegemoness"
- baron_plural:0 "Baron"
- count_plural:0 "Kont"
- duke_plural:0 "Dük"
- emperor_plural:0 "İmparator"
-### TODO AGOT-CHANGED: unlanded_plural [AGOT: 0 | TR: Topraksızlar]
- unlanded_plural:0 "Unlanded"
- baron_feudal_male:0 "Baron"
- baron_feudal_female:0 "Barones"
- barony_feudal:0 "Baronluğu"
- count_feudal_male:0 "Kont"
- count_feudal_female:0 "Kontes"
- county_feudal:0 "Kontluğu"
- duke_feudal_male:0 "Dük"
- duke_feudal_female:0 "Düşes"
- duchy_feudal:0 "Düklüğü"
- emperor_feudal_male:0 "İmparator"
- emperor_feudal_female:0 "İmparatoriçe"
+ hegemon_female: "Hegemon"
+### TODO AGOT-CHANGED: baron_plural [AGOT: Lords | TR: Baron]
+ baron_plural:0 "Lords"
+### TODO AGOT-CHANGED: count_plural [AGOT: Lords | TR: Kont]
+ count_plural:0 "Lords"
+### TODO AGOT-CHANGED: duke_plural [AGOT: Lords | TR: Dük]
+ duke_plural:0 "Lords"
+### TODO AGOT-CHANGED: emperor_plural [AGOT: Kings | TR: İmparator]
+ emperor_plural:0 "Kings"
+ unlanded_plural: "Topraksızlar"
+### TODO AGOT-CHANGED: baron_feudal_male [AGOT: Lord | TR: Baron]
+ baron_feudal_male:0 "Lord"
+### TODO AGOT-CHANGED: baron_feudal_female [AGOT: Lady | TR: Barones]
+ baron_feudal_female:0 "Lady"
+### TODO AGOT-CHANGED: barony_feudal [AGOT: Province | TR: Baronluğu]
+ barony_feudal:0 "Province"
+### TODO AGOT-CHANGED: count_feudal_male [AGOT: Lord | TR: Kont]
+ count_feudal_male:0 "Lord"
+### TODO AGOT-CHANGED: count_feudal_female [AGOT: Lady | TR: Kontes]
+ count_feudal_female:0 "Lady"
+### TODO AGOT-CHANGED: county_feudal [AGOT: Lordship | TR: Kontluğu]
+ county_feudal:0 "Lordship"
+### TODO AGOT-CHANGED: duke_feudal_male [AGOT: Lord | TR: Dük]
+ duke_feudal_male:0 "Lord"
+### TODO AGOT-CHANGED: duke_feudal_female [AGOT: Lady | TR: Düşes]
+ duke_feudal_female:0 "Lady"
+### TODO AGOT-CHANGED: duchy_feudal [AGOT: High Lordship | TR: Düklüğü]
+ duchy_feudal:0 "High Lordship"
+### TODO AGOT-CHANGED: emperor_feudal_male [AGOT: [CHARACTER.Custom('FEUDAL_EMPIRE_MALE')] | TR: İmparator]
+ emperor_feudal_male:0 "[CHARACTER.Custom('FEUDAL_EMPIRE_MALE')]"
+### TODO AGOT-CHANGED: emperor_feudal_female [AGOT: [CHARACTER.Custom('FEUDAL_EMPIRE_FEMALE')] | TR: İmparatoriçe]
+ emperor_feudal_female:0 "[CHARACTER.Custom('FEUDAL_EMPIRE_FEMALE')]"
  baron_theocracy_male:0 "Rahip"
  baron_theocracy_female:0 "Rahibe"
  barony_theocracy:0 "Tapınağı"
@@ -38,21 +57,29 @@
  duchy_theocracy:0 "Teokrasisi"
  emperor_theocracy_male:0 "Kutsal İmparator"
  emperor_theocracy_female:0 "Kutsal İmparatoriçe"
- baron_clan_male:0 "Reis"
- baron_clan_female:0 "Reis"
- barony_clan:0 "Kabilesi"
- count_clan_male:0 "Şef"
+### TODO AGOT-CHANGED: baron_clan_male [AGOT: Leader | TR: Reis]
+ baron_clan_male:0 "Leader"
+### TODO AGOT-CHANGED: baron_clan_female [AGOT: Leader | TR: Reis]
+ baron_clan_female:0 "Leader"
+### TODO AGOT-CHANGED: barony_clan [AGOT: Folk | TR: Kabilesi]
+ barony_clan:0 "Folk"
+### TODO AGOT-CHANGED: count_clan_male [AGOT: Chief | TR: Şef]
+ count_clan_male:0 "Chief"
  count_clan_female:0 "Şef"
- county_clan:0 "Şefliği"
- duke_clan_male:0 "Yüce Şef"
- duke_clan_female:0 "Yüce Şef"
- duchy_clan:0 "Yüce Şefliği"
- emperor_clan_male:0 "Büyük Patriark"
- emperor_clan_female:0 "Büyük Matriark"
-### TODO AGOT-CHANGED: barony_herder [AGOT: Hamlets | TR: Köyü]
- barony_herder: "Hamlets"
-### TODO AGOT-CHANGED: county_herder [AGOT: [Character.GetPrimaryTitle.GetProvince.GetTerrain.GetNameNoTooltip] | TR: Otlakları]
- county_herder: "[Character.GetPrimaryTitle.GetProvince.GetTerrain.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: county_clan [AGOT: Clan | TR: Şefliği]
+ county_clan:0 "Clan"
+### TODO AGOT-CHANGED: duke_clan_male [AGOT: Chieftain | TR: Yüce Şef]
+ duke_clan_male:0 "Chieftain"
+### TODO AGOT-CHANGED: duke_clan_female [AGOT: Chieftess | TR: Yüce Şef]
+ duke_clan_female:0 "Chieftess"
+### TODO AGOT-CHANGED: duchy_clan [AGOT: Clans | TR: Yüce Şefliği]
+ duchy_clan:0 "Clans"
+### TODO AGOT-CHANGED: emperor_clan_male [AGOT: High King | TR: Büyük Patriark]
+ emperor_clan_male:0 "High King"
+### TODO AGOT-CHANGED: emperor_clan_female [AGOT: High Queen | TR: Büyük Matriark]
+ emperor_clan_female:0 "High Queen"
+ barony_herder: "Köyü"
+ county_herder: "Otlakları"
  baron_mercenary_male:0 "Teğmen"
  baron_mercenary_female:0 "Teğmen"
  barony_mercenary:0 "Bölüğü"
@@ -182,10 +209,8 @@
  duke_feudal_female_hausan:0 "Magajiya"
  emperor_feudal_male_hausan:1 "Sarkin Sarakuna"
  emperor_feudal_female_hausan:1 "Sarauniyar Sarauniya"
-### TODO AGOT-CHANGED: co_ruler_male [AGOT: Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')] | TR: Eş [SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')]]
- co_ruler_male: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')]"
-### TODO AGOT-CHANGED: co_ruler_female [AGOT: Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')] | TR: Eş [SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')]]
- co_ruler_female: "Co-[SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')]"
+ co_ruler_male: "Eş [SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_male_gender_fallback', 'co_ruler_actual')]"
+ co_ruler_female: "Eş [SelectLocalization( Character.GetLiege.IsFemale, 'co_ruler_actual', 'co_ruler_female_gender_fallback')]"
  co_ruler_actual: "[Character.GetLiegeEvenWhenDead.GetTitleAsNameNoTooltip]"
  co_ruler_male_gender_fallback: "[Character.Custom('GetCoRulerDiffGenderBestTitle')]"
  co_ruler_female_gender_fallback: "[Character.Custom('GetCoRulerDiffGenderBestTitle')]"
@@ -193,8 +218,7 @@
  duke_landless_adventurer_male_camp: "[Character.Custom('AgotDefaultCamp')|U]"
 ### TODO AGOT-CHANGED: duke_landless_adventurer_female_camp [AGOT: [Character.Custom('AgotDefaultCamp')|U] | TR: Kaptan]
  duke_landless_adventurer_female_camp: "[Character.Custom('AgotDefaultCamp')|U]"
-### TODO AGOT-CHANGED: duchy_landless_adventurer_camp [AGOT: Camp | TR: Kampı]
- duchy_landless_adventurer_camp: "Camp"
+ duchy_landless_adventurer_camp: "Kampı"
 ### TODO AGOT-CHANGED: spouse_landless_adventurer_male [AGOT: [Character.Custom('AgotSpouseCamp')|U] | TR: Efendi]
  spouse_landless_adventurer_male: "[Character.Custom('AgotSpouseCamp')|U]"
 ### TODO AGOT-CHANGED: spouse_landless_adventurer_holder_female [AGOT: [Character.Custom('AgotSpouseCamp')|U] | TR: Efendi]
@@ -212,26 +236,15 @@
 ### TODO AGOT-CHANGED: duchess_landless_adventurer_camp_explorers [AGOT: [Character.Custom('AgotExplorerCamp')|U] | TR: Lider]
  duchess_landless_adventurer_camp_explorers: "[Character.Custom('AgotExplorerCamp')|U]"
  spouse_estate_holder_male: "Lord"
-### TODO AGOT-CHANGED: spouse_estate_holder_female [AGOT: Lady | TR: Leydi]
- spouse_estate_holder_female: "Lady"
-### TODO AGOT-CHANGED: feudal_margrave_male [AGOT: Marquess | TR: Marki]
- feudal_margrave_male: "Marquess"
-### TODO AGOT-CHANGED: feudal_margrave_male_german_group [AGOT: Margrave | TR: Margrav]
- feudal_margrave_male_german_group: "Margrave"
-### TODO AGOT-CHANGED: feudal_margrave_female [AGOT: Marchioness | TR: Marki]
- feudal_margrave_female: "Marchioness"
-### TODO AGOT-CHANGED: feudal_margrave_female_german_group [AGOT: Margravine | TR: Margrav]
- feudal_margrave_female_german_group: "Margravine"
-### TODO AGOT-CHANGED: feudal_castellan_male [AGOT: Castellan | TR: Kale Kumandanı]
- feudal_castellan_male: "Castellan"
-### TODO AGOT-CHANGED: feudal_castellan_male_german_group [AGOT: Burgrave | TR: Kale Kumandanı]
- feudal_castellan_male_german_group: "Burgrave"
-### TODO AGOT-CHANGED: feudal_castellan_female [AGOT: Castellan | TR: Kale Kumandanı]
- feudal_castellan_female: "Castellan"
-### TODO AGOT-CHANGED: feudal_castellan_female_german_group [AGOT: Burgravine | TR: Kale Kumandanı]
- feudal_castellan_female_german_group: "Burgravine"
-### TODO AGOT-CHANGED: count_herder_male [AGOT: Shepherd | TR: Çoban]
- count_herder_male: "Shepherd"
-### TODO AGOT-CHANGED: count_herder_female [AGOT: Shepherdess | TR: Çoban]
- count_herder_female: "Shepherdess"
+ spouse_estate_holder_female: "Leydi"
+ feudal_margrave_male: "Marki"
+ feudal_margrave_male_german_group: "Margrav"
+ feudal_margrave_female: "Marki"
+ feudal_margrave_female_german_group: "Margrav"
+ feudal_castellan_male: "Kale Kumandanı"
+ feudal_castellan_male_german_group: "Kale Kumandanı"
+ feudal_castellan_female: "Kale Kumandanı"
+ feudal_castellan_female_german_group: "Kale Kumandanı"
+ count_herder_male: "Çoban"
+ count_herder_female: "Çoban"
  dudu: "Dūdū" # Commander-in-Chief

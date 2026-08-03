@@ -31,21 +31,19 @@
  FAITH_WINDOW_FERVOR:0 "[fervor|E]: %[Faith.GetFervor|0]"
  FAITH_WINDOW_VIRTUES:0 "[virtues|E]"
  FAITH_WINDOW_SINS:0 "[sins|E]"
-### TODO AGOT-CHANGED: FAITH_WINDOW_DOCTRINE_TOOLTIP [AGOT: #T [FaithDoctrine.GetNameNoTooltip( DoctrineItem.GetFaith )]#!\n[FaithDoctrine.GetEffectsDescription( DoctrineItem.GetFaith )]\n\n[FaithDoctrine.GetDescription( DoctrineItem.GetFaith )|F] | TR: #T [FaithDoctrine.GetNameNoTooltip( DoctrineItem.GetFaith )]#!\n[FaithDoctrine.GetEffectsDescription( DoctrineItem.GetFaith )]\n\n[FaithDoctrine.GetDescription( DoctrineItem.GetFaith )|F]]
  FAITH_WINDOW_DOCTRINE_TOOLTIP: "#T [FaithDoctrine.GetNameNoTooltip( DoctrineItem.GetFaith )]#!\n[FaithDoctrine.GetEffectsDescription( DoctrineItem.GetFaith )]\n\n[FaithDoctrine.GetDescription( DoctrineItem.GetFaith )|F]"
  FAITH_WINDOW_DOCTRINE_TOOLTIP_WITH_FAITH:1 "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]" #krutygetarts
  FAITH_TOOLTIP_DOCTRINE_HEAD_OF_FAITH:0 "[head_of_faith|E]: [Faith.GetReligiousHead.GetShortUIName|U]"
  FAITH_TOOLTIP_DOCTRINE_NO_HEAD_OF_FAITH:0 "[head_of_faith|E] yok"
  FAITH_TOOLTIP_DOCTRINE_VACANT_HEAD_OF_FAITH:0 "[head_of_faith|E]: boş"
-### TODO AGOT-CHANGED: FAITH_WINDOW_DOCTRINE_SELECT_TOOLTIP [AGOT: $FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]#I Click to Select [FaithDoctrine.GetName( DoctrineItem.GetFaith )]#! | TR: $FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]#I [FaithDoctrine.GetName( DoctrineItem.GetFaith )] ilkesini seçmek için tıklayın#!]
- FAITH_WINDOW_DOCTRINE_SELECT_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]#I Click to Select [FaithDoctrine.GetName( DoctrineItem.GetFaith )]#!"
-### TODO AGOT-CHANGED: FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP [AGOT: $FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]Cost: [piety_i][FaithDoctrine.CalcPietyCost( DoctrineItem.GetFaith )|0]\n#I Click to change#! | TR: $FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]Maliyet: [piety_i][FaithDoctrine.CalcPietyCost( DoctrineItem.GetFaith )|0]\n#I Değiştirmek için tıklayın#!]
- FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]Cost: [piety_i][FaithDoctrine.CalcPietyCost( DoctrineItem.GetFaith )|0]\n#I Click to change#!"
+ FAITH_WINDOW_DOCTRINE_SELECT_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]#I [FaithDoctrine.GetName( DoctrineItem.GetFaith )] ilkesini seçmek için tıklayın#!"
+ FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers]Maliyet: [piety_i][FaithDoctrine.CalcPietyCost( DoctrineItem.GetFaith )|0]\n#I Değiştirmek için tıklayın#!"
  DOCTRINE_BLOCKS_FAITH_CREATION:0 "@warning_icon! #X [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )] yasak#!"
  CANNOT_CREATE_FAITH_IN_OBSERVE_MODE:0 "@warning_icon! #X Bir karakter olarak oynamak gerekiyor#!"
  FAITH_CREATION_BUTTON_TOOLTIP:1 "#T Mezhep Kur#!\n[Select_CString( FaithCreationWindow.CanCreateFaith, '#I Mezhep Kurmak için tıklayın#!', FaithCreationWindow.GetCreationBlockers )]"
  FAITH_REFORM_BUTTON_TOOLTIP:0 "#T Mezhebi Reform Et#!\n[FaithCreationWindow.GetCreationBlockers]\n\n#I Mezhebi Reform Etmek için tıklayın#!"
- FAITH_CONVERSION_BUTTON_TOOLTIP:0 "#T Mezhebi Değiştir#!\n[FaithConversionWindow.GetConversionBlockers]#I Mezhebi Değiştirmek için tıklayın#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]"
+### TODO AGOT-CHANGED: FAITH_CONVERSION_BUTTON_TOOLTIP [AGOT: #T Convert Faith#!\n[FaithConversionWindow.GetConversionBlockers]#I Click to Convert Faith#![AddLocalizationIf(And(Not(GetScriptedGui('faith_has_polytheism').IsShown(GuiScope.SetRoot(FaithConversionWindow.GetFaith.MakeScope).End)), GetPlayer.GetGovernment.HasGovernmentFlag('government_is_mandala')), 'mandala_monotheist_warning')] | TR: #T Mezhebi Değiştir#!\n[FaithConversionWindow.GetConversionBlockers]#I Mezhebi Değiştirmek için tıklayın#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]]
+ FAITH_CONVERSION_BUTTON_TOOLTIP:0 "#T Convert Faith#!\n[FaithConversionWindow.GetConversionBlockers]#I Click to Convert Faith#![AddLocalizationIf(And(Not(GetScriptedGui('faith_has_polytheism').IsShown(GuiScope.SetRoot(FaithConversionWindow.GetFaith.MakeScope).End)), GetPlayer.GetGovernment.HasGovernmentFlag('government_is_mandala')), 'mandala_monotheist_warning')]"
  FAITH_CONVERSION_SAME_FAITH:0 "Zaten [FAITH.GetName] mensubuyum"
  CREATE_REFORM_FAITH_TEXT:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE', 'CREATE_FAITH_WINDOW_TITLE' )]"
  CREATE_REFORM_FAITH_TOOLTIP:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"
@@ -85,8 +83,7 @@
  FAITH_CREATION_REFORM:1 "Mezhebi Reform Et"
  FAITH_CONVERSION_CONVERT:1 "Mezhebe Geç"
  FAITH_MUST_BE_DIFFERENT_FROM_OLD:0 "@warning_icon! #X Eski [Concept( 'faith', 'Mezhebiniz' )|E] yeni [Concept( 'faith', 'Mezhebiniz' )|E] ile aynı [core_tenets|E]e ve [Concept( 'doctrines', 'İlkelere' )|E] sahip olamaz#!"
-### TODO AGOT-CHANGED: FAITH_MANDALA_MONOTHEIST_WARNING [AGOT: @alert_icon! #alert_trial Converting to a $doctrine_monotheist_name$ [faith|E] will make you abandon the [mandala_government|E] form#! | TR: @alert_icon! #alert_trial $doctrine_monotheist_name$ bir [Concept('faith', 'Mezhebe')|E] geçmeniz durumunda [Concept('mandala_government', 'Mandala Yönetim')|E] biçimini kaybedeceksiniz#!]
- FAITH_MANDALA_MONOTHEIST_WARNING: "@alert_icon! #alert_trial Converting to a $doctrine_monotheist_name$ [faith|E] will make you abandon the [mandala_government|E] form#!"
+ FAITH_MANDALA_MONOTHEIST_WARNING: "@alert_icon! #alert_trial $doctrine_monotheist_name$ bir [Concept('faith', 'Mezhebe')|E] geçmeniz durumunda [Concept('mandala_government', 'Mandala Yönetim')|E] biçimini kaybedeceksiniz#!"
  FAITH_CREATION_TOTAL_COST:1 "Maliyet: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyCost]"
  FAITH_CONVERSION_TOTAL_COST:1 "Toplam Maliyet: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyCost]"
  FAITH_CONVERSION_COST_MISSING:1 "#X Eksik: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyMissing]#!"
@@ -129,8 +126,7 @@
  FAITH_BELIEFS:0 "İnançlar"
  FAITH_HOLY_SITES:0 "Kutsal Bölgeler"
  FAITH_HOLY_SITE_EXPLANATION:0 "[Faith.GetAdjectiveNoTooltip] [Concept( 'rulers', 'Hükümdarların' )|E] kontrolündeki her Kutsal Bölge tüm [Faith.GetNameNoTooltip] için bonus verir"
-### TODO AGOT-CHANGED: FAITH_HOLY_SITE_HOLDER_TOOLTIP [AGOT: #T [Character.GetPrimaryTitle.GetNameNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Since the Ruler of [HolySite.GetName] is [Character.GetFaith.GetAdjectiveNoTooltip], it will [Select_CString( HolySiteItem.IsHeldByFaith, '', 'not ' )]provide [Select_CString( HolySiteItem.IsHeldByFaith, '', 'any ' )]benefits to all [Faith.GetAdjectiveNoTooltip] Characters#!\n\n#I Click to view#! | TR: 0]
- FAITH_HOLY_SITE_HOLDER_TOOLTIP: "#T [Character.GetPrimaryTitle.GetNameNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Since the Ruler of [HolySite.GetName] is [Character.GetFaith.GetAdjectiveNoTooltip], it will [Select_CString( HolySiteItem.IsHeldByFaith, '', 'not ' )]provide [Select_CString( HolySiteItem.IsHeldByFaith, '', 'any ' )]benefits to all [Faith.GetAdjectiveNoTooltip] Characters#!\n\n#I Click to view#!"
+ FAITH_HOLY_SITE_HOLDER_TOOLTIP:0 "#T [Character.GetPrimaryTitle.GetNameNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )][HolySite.GetName], [Character.GetFaith.GetAdjectiveNoTooltip] kontrolünde olduğu için tüm [Faith.GetAdjectiveNoTooltip] karakterler [Select_CString( HolySiteItem.IsHeldByFaith, 'bundan faydalanacak.', 'herhangi bir bonusdan faydalanamayacak.' )]#!\n\n#I Görüntülemek için tıklayın#!"
  FAITH_DOCTRINES_HEADING:0 "#E [doctrines|E]#!"
  FAITH_CORE_TENETS_HEADING:0 "#E [core_tenets|E]#!"
  FAITH_SHOW_ALL:0 "Tüm İlkeleri Göster"
@@ -142,7 +138,8 @@
  RELIGION_SHOW_ALL_FAITHS_TT:0 "Tüm [Concept( 'faiths', 'Mezhepleri' )|E] Göster"
  RELIGION_SHOW_RELIGION_FAITH_TT:0 "Sadece [RELIGION.GetAdjectiveNoTooltip] [Concept( 'faiths', 'Mezhepleri' )|E] Göster"
  FAITH_WINDOW_COUNTIES:0 "[Faith.GetNumberOfCountiesOfFaith] [county|E] bu mezhebe inanıyor"
- FAITH_RELIGION:0 "[Faith.GetReligion.GetAdjectiveNoTooltip] Mezhebi"
+### TODO AGOT-CHANGED: FAITH_RELIGION [AGOT: Faith of [Faith.GetReligion.GetAdjectiveNoTooltip] | TR: [Faith.GetReligion.GetAdjectiveNoTooltip] Mezhebi]
+ FAITH_RELIGION:0 "Faith of [Faith.GetReligion.GetAdjectiveNoTooltip]"
  ORDER_FAITH_BY_COUNTIES:0 "Kontluk Sayısı"
  ORDER_FAITH_BY_FERVOR:0 "Şevk"
  ORDER_FAITH_BY_RELIGION:0 "Din"

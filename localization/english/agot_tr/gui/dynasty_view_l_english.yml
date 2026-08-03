@@ -3,7 +3,8 @@
  DYNASTY_VIEW_CHILDREN_SHOW:0 "#T Çocukları Göster#!"
  DYNASTY_VIEW_INFO_TITLE:0 "#T [Dynasty.GetBaseNameNoTooltip|U] Hanedanı#!"
  DYNASTY_VIEW_PRESTIGE:0 "[Dynasty.GetPrestige|V0] [dynasty_prestige|E]"
- DYNASTY_VIEW_HOUSES_AMOUNT:1 "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'Hane', 'Hane' )]"
+### TODO AGOT-CHANGED: DYNASTY_VIEW_HOUSES_AMOUNT [AGOT: View all Houses | TR: [Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'Hane', 'Hane' )]]
+ DYNASTY_VIEW_HOUSES_AMOUNT:1 "View all Houses"
  DYNASTY_VIEW_HOUSES_TT:0 "#T [Dynasty.GetNameNoTooltip] Hanedanındaki tüm Haneleri gör#!"
  DYNASTY_VIEW_MEMBERS:1 "[Dynasty.GetNumberOfLivingMembers|V] Yaşayan Mensup"
  DYNASTY_VIEW_MEMBERS_TT:0 "#T [Dynasty.GetNameNoTooltip] Hanedanına mensup olan herkesi göster#!"
@@ -54,17 +55,10 @@
  DYNASTY_VIEW_SHOW_LEGACY_COST:0 "Maliyeti: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"
  DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP:0 "İlerleme: Sonraki [dynasty_perk|E] için [dynasty_prestige_i][Dynasty.GetPrestige|V0]/[Dynasty.GetNextPerkCost|0]"
  DYNASTY_HOUSE_VIEW_PROGRESS_LABEL:0 "Sonraki [dynasty_perk|E]" 
-### TODO AGOT-CHANGED: DYNASTY_SPLENDOR [AGOT: Dynasty Splendor: | TR: Hanedan İhtişamı:]
- DYNASTY_SPLENDOR: "Dynasty Splendor:"
-### TODO AGOT-CHANGED: DYNASTY_LEGACIES [AGOT: Dynasty Legacies | TR: Hanedan Mirasları]
- DYNASTY_LEGACIES: "Dynasty Legacies"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_VIEW_LEGACY_COST [AGOT: Next Legacy: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0] | TR: Sonraki Miras: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]]
- DYNASTY_HOUSE_VIEW_LEGACY_COST: "Next Legacy: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_FROM_MEMBERS [AGOT: From [dynasty_members|E]: | TR: [Concept('dynasty_members', 'Hanedan Mensuplarından')|E]:]
- DYNASTY_HOUSE_FROM_MEMBERS: "From [dynasty_members|E]:"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_FROM_MEMBERS_EXCESS [AGOT: From other [dynasty_members|E]: | TR: Diğer [Concept('dynasty_members', 'Hanedan Mensuplarından')|E]:]
- DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "From other [dynasty_members|E]:"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_FROM_RULERS [AGOT: From Rulers: | TR: Hükümdarlardan:]
- DYNASTY_HOUSE_FROM_RULERS: "From Rulers:"
-### TODO AGOT-CHANGED: DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS [AGOT: Multipliers: | TR: Çarpanlar:]
- DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "Multipliers:"
+ DYNASTY_SPLENDOR: "Hanedan İhtişamı:"
+ DYNASTY_LEGACIES: "Hanedan Mirasları"
+ DYNASTY_HOUSE_VIEW_LEGACY_COST: "Sonraki Miras: [dynasty_prestige_i] [Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_FROM_MEMBERS: "[Concept('dynasty_members', 'Hanedan Mensuplarından')|E]:"
+ DYNASTY_HOUSE_FROM_MEMBERS_EXCESS: "Diğer [Concept('dynasty_members', 'Hanedan Mensuplarından')|E]:"
+ DYNASTY_HOUSE_FROM_RULERS: "Hükümdarlardan:"
+ DYNASTY_HOUSE_PRESTIGE_MULTIPLIERS: "Çarpanlar:"

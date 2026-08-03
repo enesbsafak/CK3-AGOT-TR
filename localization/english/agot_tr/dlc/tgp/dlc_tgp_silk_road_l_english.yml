@@ -1,36 +1,25 @@
 ﻿l_english:
- INNOVATION_IN_SUB_REGION: "#T [SituationSubRegion.GetName] [Concept('region', 'Bölgesindeki')|E] [silk_road_innovation|E]#!"
- THE_SILK_ROAD_AWAITS: "İpek Yolu Sizi Bekliyor!"
- SILK_ROAD_MARKET_EMPTY_HANDED: "Her şey göze alındı, hiçbir şey kazanılmadı"
- MOVING_TOWARDS_TO: "#BOLD [GetSituation('silk_road_situation').MakeScope.Var( 'innovation_travel_countdown' ).GetValue|0V]#! yıl içinde bir sonraki pazara varacak"
-### TODO AGOT-CHANGED: VISIT_SUB_REGION_BAZAAR [AGOT: Visit [Building.GetNameNoTooltip] | TR: [Building.GetNameNoTooltip]nı Ziyaret Et]
- VISIT_SUB_REGION_BAZAAR: "Visit [Building.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: VISIT_BAZAAR_IN_SUB_REGION [AGOT: Visit bazaar in [SituationSubRegion.GetBazaarBuilding.GetName] | TR: [SituationSubRegion.GetBazaarBuilding.GetName] içinde çarşıyı ziyaret et]
- VISIT_BAZAAR_IN_SUB_REGION: "Visit bazaar in [SituationSubRegion.GetBazaarBuilding.GetName] "
-### TODO AGOT-CHANGED: NEXT_PHASE_PROGRESSING [AGOT: Next Phase: $DAYS|V$ left | TR: Sonraki Aşama: $DAYS|V$ kaldı]
- NEXT_PHASE_PROGRESSING: "Next Phase: $DAYS|V$ left"
-### TODO AGOT-CHANGED: TRAVEL_TO_INNOVATION [AGOT: Travel to discover [CultureInnovation.GetNameNoTooltip] | TR: [CultureInnovation.GetNameNoTooltip] keşfetmek için seyahat et]
- TRAVEL_TO_INNOVATION: "Travel to discover [CultureInnovation.GetNameNoTooltip] "
-### TODO AGOT-CHANGED: CURRENT_INNOVATION_HEADER [AGOT: Current [silk_road_innovation|E] in [SituationSubRegion.GetNameNoTooltip] [region|E]: | TR: [SituationSubRegion.GetNameNoTooltip] [Concept('region', 'Bölgesindeki')|E] mevcut [silk_road_innovation|E]:]
- CURRENT_INNOVATION_HEADER: "Current [silk_road_innovation|E] in [SituationSubRegion.GetNameNoTooltip] [region|E]:"
-### TODO AGOT-CHANGED: CURRENT_PHASE_IN_SUBREGION_HEADER [AGOT: Current [situation_phase|E]: [SituationPhase.GetName|V] | TR: Mevcut [situation_phase|E]: [SituationPhase.GetName|V]]
- CURRENT_PHASE_IN_SUBREGION_HEADER: "Current [situation_phase|E]: [SituationPhase.GetName|V]"
-### TODO AGOT-CHANGED: RecentCatalystsHeader [AGOT: Latest [situation_catalyst_catalyst|E]: | TR: En Yeni [situation_catalyst_catalyst|E]:]
- RecentCatalystsHeader: "Latest [situation_catalyst_catalyst|E]:"
-### TODO AGOT-CHANGED: CURRENT_PHASE_PROGRESS_HEADER [AGOT: [SituationPhaseType.GetName] Progress: | TR: [SituationPhaseType.GetName] İlerlemesi:]
- CURRENT_PHASE_PROGRESS_HEADER: "[SituationPhaseType.GetName] Progress:"
-### TODO AGOT-CHANGED: FUTURE_PHASE_PROGRESS_HEADER [AGOT: Progress towards [FutureSituationPhase.GetType.GetName]: [FutureSituationPhase.GetRelativeProgressPercent|%] | TR: [FutureSituationPhase.GetType.GetName] yönündeki ilerleme: [FutureSituationPhase.GetRelativeProgressPercent|%]]
- FUTURE_PHASE_PROGRESS_HEADER: "Progress towards [FutureSituationPhase.GetType.GetName]: [FutureSituationPhase.GetRelativeProgressPercent|%]"
-### TODO AGOT-CHANGED: SILK_ROAD_WINDOW_CATALYSTS_LIST [AGOT: Silk Road Catalysts | TR: İpek Yolu Tetikleyicileri]
- SILK_ROAD_WINDOW_CATALYSTS_LIST: "Silk Road Catalysts"
-### TODO AGOT-CHANGED: FUTURE_PHASE_PROGRESSING_TEXT [AGOT: Progressing: $YEARS|V$ left | TR: İlerliyor: $YEARS|V$ kaldı]
- FUTURE_PHASE_PROGRESSING_TEXT: "Progressing: $YEARS|V$ left"
-### TODO AGOT-CHANGED: SILK_ROAD_REGION_EFEFCTS [AGOT: Region Effects: | TR: Bölge Etkileri:]
- SILK_ROAD_REGION_EFEFCTS: "Region Effects:"
-### TODO AGOT-CHANGED: FUTURE_PHASE_HEADER [AGOT: Progress to next [dynastic_cycle_era_short|E]: | TR: Sonraki [Concept('dynastic_cycle_era_short', 'Devre')|E] İlerleme:]
- FUTURE_PHASE_HEADER: "Progress to next [dynastic_cycle_era_short|E]:"
+### TODO AGOT-CHANGED: INNOVATION_IN_SUB_REGION [AGOT:  | TR: #T [SituationSubRegion.GetName] [Concept('region', 'Bölgesindeki')|E] [silk_road_innovation|E]#!]
+ INNOVATION_IN_SUB_REGION: ""
+### TODO AGOT-CHANGED: THE_SILK_ROAD_AWAITS [AGOT:  | TR: İpek Yolu Sizi Bekliyor!]
+ THE_SILK_ROAD_AWAITS: ""
+### TODO AGOT-CHANGED: SILK_ROAD_MARKET_EMPTY_HANDED [AGOT:  | TR: Her şey göze alındı, hiçbir şey kazanılmadı]
+ SILK_ROAD_MARKET_EMPTY_HANDED: ""
+### TODO AGOT-CHANGED: MOVING_TOWARDS_TO [AGOT:  | TR: #BOLD [GetSituation('silk_road_situation').MakeScope.Var( 'innovation_travel_countdown' ).GetValue|0V]#! yıl içinde bir sonraki pazara varacak]
+ MOVING_TOWARDS_TO: ""
+ VISIT_SUB_REGION_BAZAAR: "[Building.GetNameNoTooltip]nı Ziyaret Et"
+ VISIT_BAZAAR_IN_SUB_REGION: "[SituationSubRegion.GetBazaarBuilding.GetName] içinde çarşıyı ziyaret et "
+ NEXT_PHASE_PROGRESSING: "Sonraki Aşama: $DAYS|V$ kaldı"
+ TRAVEL_TO_INNOVATION: "[CultureInnovation.GetNameNoTooltip] keşfetmek için seyahat et "
+ CURRENT_INNOVATION_HEADER: "[SituationSubRegion.GetNameNoTooltip] [Concept('region', 'Bölgesindeki')|E] mevcut [silk_road_innovation|E]:"
+ CURRENT_PHASE_IN_SUBREGION_HEADER: "Mevcut [situation_phase|E]: [SituationPhase.GetName|V]"
+ RecentCatalystsHeader: "En Yeni [situation_catalyst_catalyst|E]:"
+ CURRENT_PHASE_PROGRESS_HEADER: "[SituationPhaseType.GetName] İlerlemesi:"
+ FUTURE_PHASE_PROGRESS_HEADER: "[FutureSituationPhase.GetType.GetName] yönündeki ilerleme: [FutureSituationPhase.GetRelativeProgressPercent|%]"
+ SILK_ROAD_WINDOW_CATALYSTS_LIST: "İpek Yolu Tetikleyicileri"
+ FUTURE_PHASE_PROGRESSING_TEXT: "İlerliyor: $YEARS|V$ kaldı"
+ SILK_ROAD_REGION_EFEFCTS: "Bölge Etkileri:"
+ FUTURE_PHASE_HEADER: "Sonraki [Concept('dynastic_cycle_era_short', 'Devre')|E] İlerleme:"
  FUTURE_PHASE_VALUE: "[SituationPhaseType.GetName]: [SituationPhase.GetPhaseRelativeProgressPercent|V%]"
-### TODO AGOT-CHANGED: SILK_ROAD_HEADER_DESC [AGOT: A network of markets, waystations, and worn paths in lonely landscapes, the Silk Road provides opportunities to build fortunes and unlock new ideas for those bold enough to cross its legendary routes. | TR: Issız manzaralarda pazarlar, konak yerleri ve aşınmış patikalardan oluşan bir ağ olan İpek Yolu, efsanevi güzergâhlarını aşmaya cüret edenlere servet kurma ve yeni fikirler edinme fırsatları sunar.]
- SILK_ROAD_HEADER_DESC: "A network of markets, waystations, and worn paths in lonely landscapes, the Silk Road provides opportunities to build fortunes and unlock new ideas for those bold enough to cross its legendary routes."
-### TODO AGOT-CHANGED: SILK_ROAD_CATALYST_PER_PHASE [AGOT: Catalysts towards [SituationPhaseType.GetName] | TR: [SituationPhaseType.GetName] yönündeki Tetikleyiciler]
- SILK_ROAD_CATALYST_PER_PHASE: "Catalysts towards [SituationPhaseType.GetName]"
+ SILK_ROAD_HEADER_DESC: "Issız manzaralarda pazarlar, konak yerleri ve aşınmış patikalardan oluşan bir ağ olan İpek Yolu, efsanevi güzergâhlarını aşmaya cüret edenlere servet kurma ve yeni fikirler edinme fırsatları sunar."
+ SILK_ROAD_CATALYST_PER_PHASE: "[SituationPhaseType.GetName] yönündeki Tetikleyiciler"

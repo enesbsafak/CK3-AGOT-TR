@@ -7,53 +7,31 @@
  catalyst_truce_was_enforced_desc:0 "[struggle_involved|E] [Concept( 'ruler', 'Hükümdarlar' )|E] arasında [Concept( 'enforced_truce', 'Zorla Ateşkes' )|E] yaptırmak"
  catalyst_grant_land_local_noble:0 "Yerel Soyluya Kontluk Verme [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
  catalyst_grant_land_local_noble_desc:0 "[Concept( 'counties', 'Kontluklarınızdan' )|E] birini [struggle_involved|E] [Concept( 'culture', 'Kültürden' )|E] olan bir soyluya vermek"
-### TODO AGOT-CHANGED: catalyst_became_supporter_fp3 [AGOT: An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] | TR: Önemli Bir [character|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] Olmaya [decision|E] Verdi]
- catalyst_became_supporter_fp3: "An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: catalyst_became_supporter_fp3_desc [AGOT: Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] | TR: Önemli [character|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] olmaya [decision|E] verdi]
- catalyst_became_supporter_fp3_desc: "Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: catalyst_became_detractor_fp3 [AGOT: An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] | TR: Önemli Bir [character|E] [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] Olmaya [decision|E] Verdi]
- catalyst_became_detractor_fp3: "An important [character|E] took the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: catalyst_became_detractor_fp3_desc [AGOT: Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] | TR: Önemli [character|E] [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] olmaya [decision|E] verdi]
- catalyst_became_detractor_fp3_desc: "Important [character|E] takes the [decision|E] to become a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: catalyst_cadet_branch_created [AGOT: Created a [cadet_branch|E] [struggle_catalyst_catalyst|E] | TR: [cadet_branch|E] Kurma [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_cadet_branch_created: "Created a [cadet_branch|E] [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_cadet_branch_created_desc [AGOT: Create a new [house|E] by [cadet_branching|E] | TR: [Concept( 'cadet_branching', 'Alt Hane Kurarak' )|E] yeni bir [house|E] oluşturmak]
- catalyst_cadet_branch_created_desc: "Create a new [house|E] by [cadet_branching|E]"
+ catalyst_became_supporter_fp3: "Önemli Bir [character|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] Olmaya [decision|E] Verdi"
+ catalyst_became_supporter_fp3_desc: "Önemli [character|E] [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] olmaya [decision|E] verdi"
+ catalyst_became_detractor_fp3: "Önemli Bir [character|E] [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] Olmaya [decision|E] Verdi"
+ catalyst_became_detractor_fp3_desc: "Önemli [character|E] [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] olmaya [decision|E] verdi"
+ catalyst_cadet_branch_created: "[cadet_branch|E] Kurma [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+ catalyst_cadet_branch_created_desc: "[Concept( 'cadet_branching', 'Alt Hane Kurarak' )|E] yeni bir [house|E] oluşturmak"
  catalyst_release_supporter_detractor: "$catalyst_release_important$"
-### TODO AGOT-CHANGED: catalyst_release_supporter_detractor_desc [AGOT: Someone is released from [prison|E] without any demands made between $supporter_and_detractor$ | TR: $supporter_and_detractor$ arasında talepsiz bir şekilde birinin [Concept( 'prison', 'Hapisten' )|E] serbest bırakılması]
- catalyst_release_supporter_detractor_desc: "Someone is released from [prison|E] without any demands made between $supporter_and_detractor$"
+ catalyst_release_supporter_detractor_desc: "$supporter_and_detractor$ arasında talepsiz bir şekilde birinin [Concept( 'prison', 'Hapisten' )|E] serbest bırakılması"
  catalyst_ransom_supporter_detractor: "$catalyst_ransom_important$"
-### TODO AGOT-CHANGED: catalyst_ransom_supporter_detractor_desc [AGOT: Ransom an [struggle_involved|E] [ruler|E] between $supporter_and_detractor$ | TR: $supporter_and_detractor$ arasında [struggle_involved|E] bir [ruler|E] için fidye ödemek]
- catalyst_ransom_supporter_detractor_desc: "Ransom an [struggle_involved|E] [ruler|E] between $supporter_and_detractor$"
+ catalyst_ransom_supporter_detractor_desc: "$supporter_and_detractor$ arasında [struggle_involved|E] bir [ruler|E] için fidye ödemek"
  catalyst_unnatural_death_supporter: "$catalyst_unnatural_death_important_character$"
-### TODO AGOT-CHANGED: catalyst_unnatural_death_supporter_desc [AGOT: A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E] is killed | TR: Bir [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [Concept( 'ruler', 'Hükümdarın' )|E] öldürülmesi]
- catalyst_unnatural_death_supporter_desc: "A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E] is killed"
+ catalyst_unnatural_death_supporter_desc: "Bir [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [Concept( 'ruler', 'Hükümdarın' )|E] öldürülmesi"
  catalyst_unnatural_death_detractor: "$catalyst_unnatural_death_important_character$"
-### TODO AGOT-CHANGED: catalyst_unnatural_death_detractor_desc [AGOT: A [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E] is killed | TR: Bir [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [Concept( 'ruler', 'Hükümdarın' )|E] öldürülmesi]
- catalyst_unnatural_death_detractor_desc: "A [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E] is killed"
+ catalyst_unnatural_death_detractor_desc: "Bir [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [Concept( 'ruler', 'Hükümdarın' )|E] öldürülmesi"
  catalyst_reveal_secret_supporter: "$catalyst_reveal_secret_important$"
-### TODO AGOT-CHANGED: catalyst_reveal_secret_supporter_desc [AGOT: Reveal the [secret|E] of a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E] | TR: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'secret', 'Sırrını' )|E] açığa çıkartmak]
- catalyst_reveal_secret_supporter_desc: "Reveal the [secret|E] of a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [ruler|E]"
+ catalyst_reveal_secret_supporter_desc: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'secret', 'Sırrını' )|E] açığa çıkartmak"
  catalyst_reveal_secret_detractor: "$catalyst_reveal_secret_important$"
-### TODO AGOT-CHANGED: catalyst_reveal_secret_detractor_desc [AGOT: Reveal the [secret|E] of a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E] | TR: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'secret', 'Sırrını' )|E] açığa çıkartmak]
- catalyst_reveal_secret_detractor_desc: "Reveal the [secret|E] of a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [ruler|E]"
-### TODO AGOT-CHANGED: catalyst_abandon_hook_on_supporter_detractor [AGOT: [hook|E] abandoned [struggle_catalyst_catalyst|E] | TR: Terk Edilmiş [hook|E] [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_abandon_hook_on_supporter_detractor: "[hook|E] abandoned [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_abandon_hook_on_supporter_detractor_desc [AGOT: A [hook|E] is abandoned between $supporter_and_detractor$ | TR: Bir $supporter_and_detractor$ arasında [hook|E] terk edilmesi]
- catalyst_abandon_hook_on_supporter_detractor_desc: "A [hook|E] is abandoned between $supporter_and_detractor$"
-### TODO AGOT-CHANGED: catalyst_grants_pardon_supporter_detractor [AGOT: Pardon granted [struggle_catalyst_catalyst|E] | TR: Af Çıkarıldı [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_grants_pardon_supporter_detractor: "Pardon granted [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_grants_pardon_supporter_detractor_desc [AGOT: A [crime|E] is pardoned between $supporter_and_detractor$ | TR: Bir $supporter_and_detractor$ arasında [Concept( 'crime', 'Suçun' )|E] affedilmesi]
- catalyst_grants_pardon_supporter_detractor_desc: "A [crime|E] is pardoned between $supporter_and_detractor$"
-### TODO AGOT-CHANGED: catalyst_execute_supporter [AGOT: Executed a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E] | TR: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] İdam [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_execute_supporter: "Executed a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_execute_supporter_desc [AGOT: Execute a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] | TR: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] bir karakterin idam edilmesi]
- catalyst_execute_supporter_desc: "Execute a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: catalyst_execute_detractor [AGOT: Executed a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E] | TR: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] İdam [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]]
- catalyst_execute_detractor: "Executed a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_catalyst_catalyst|E]"
-### TODO AGOT-CHANGED: catalyst_execute_detractor_desc [AGOT: Execute a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] | TR: [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] bir karakterin idam edilmesi]
- catalyst_execute_detractor_desc: "Execute a [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: supporter_and_detractor [AGOT: a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] | TR: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] ve [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]]
- supporter_and_detractor: "a [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: supporter_and_detractor_caps [AGOT: A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] | TR: [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] ve [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]]
- supporter_and_detractor_caps: "A [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] and [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+ catalyst_reveal_secret_detractor_desc: "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'secret', 'Sırrını' )|E] açığa çıkartmak"
+ catalyst_abandon_hook_on_supporter_detractor: "Terk Edilmiş [hook|E] [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+ catalyst_abandon_hook_on_supporter_detractor_desc: "Bir $supporter_and_detractor$ arasında [hook|E] terk edilmesi"
+ catalyst_grants_pardon_supporter_detractor: "Af Çıkarıldı [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+ catalyst_grants_pardon_supporter_detractor_desc: "Bir $supporter_and_detractor$ arasında [Concept( 'crime', 'Suçun' )|E] affedilmesi"
+ catalyst_execute_supporter: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] İdam [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+ catalyst_execute_supporter_desc: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] bir karakterin idam edilmesi"
+ catalyst_execute_detractor: "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] İdam [Concept( 'struggle_catalyst_catalyst', 'Tetikleyicisi' )|E]"
+ catalyst_execute_detractor_desc: "[GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] bir karakterin idam edilmesi"
+ supporter_and_detractor: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] ve [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
+ supporter_and_detractor_caps: "[GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] ve [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"

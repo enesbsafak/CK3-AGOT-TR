@@ -2,8 +2,7 @@
  test_lover_desc:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], etkileyici bacaklarıyla [CHARACTER.GetShortUINameNotMe] adlı karakteri baştan çıkardı."
  test_soulmate_desc:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] için dağa tırmanıp nadir rastlanan çiçeği getirerek ona olan ebedi bağlılığını ilan etti."
  lover_seduced:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U], [CHARACTER.GetShortUINameNotMe] adlı karakteri baştan çıkardı."
-### TODO AGOT-CHANGED: grudge_too_good [AGOT: [CHARACTER.GetShortUIName|U] developed a hateful grudge against [TARGET_CHARACTER.GetShortUIName] for being too good at [TARGET_CHARACTER.GetHerHis] job. | TR: [CHARACTER.GetShortUINameNotMe|U], görevinde fazlasıyla başarılı olduğu için [TARGET_CHARACTER.GetShortUINameNotMe] adlı karaktere karşı kin beslemeye başladı.]
- grudge_too_good: "[CHARACTER.GetShortUIName|U] developed a hateful grudge against [TARGET_CHARACTER.GetShortUIName] for being too good at [TARGET_CHARACTER.GetHerHis] job."
+ grudge_too_good: "[CHARACTER.GetShortUINameNotMe|U], görevinde fazlasıyla başarılı olduğu için [TARGET_CHARACTER.GetShortUINameNotMe] adlı karaktere karşı kin beslemeye başladı."
  lover_poet_demand:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin aşkı için yazdığı şiirlere karşı koyamadı."
  lover_random_1:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin biçimli bacaklarından etkilendi."
  lover_random_2:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin güzel gülüşüne aşık oldu."
@@ -67,20 +66,12 @@
  soulmate_dreadful_for_me:0 "[CHARACTER.GetShortUINameNotMe|U], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakterin güvende olması için korkunç şeyler yapabilir."
  lover_dreadful_for_me:0 "$soulmate_dreadful_for_me$"
  lover_tour_storm:0 "[TARGET_CHARACTER.GetShortUINameNotMe|U] ve [CHARACTER.GetShortUINameNotMe] fırtına sırasında birbirlerine sığındılar."
-### TODO AGOT-CHANGED: lover_loves_death [AGOT: [CHARACTER.GetShortUIName] bonded with [TARGET_CHARACTER.GetShortUIName] over their reverence for the dead. | TR: [CHARACTER.GetShortUINameNotMe], [TARGET_CHARACTER.GetShortUINameNotMe] ile ölülere gösterdiği saygı üzerinden bağ kurdu.]
- lover_loves_death: "[CHARACTER.GetShortUIName] bonded with [TARGET_CHARACTER.GetShortUIName] over their reverence for the dead." 
+ lover_loves_death: "[CHARACTER.GetShortUINameNotMe], [TARGET_CHARACTER.GetShortUINameNotMe] ile ölülere gösterdiği saygı üzerinden bağ kurdu." 
  lover_tour_grounds_orgy:0 "[CHARACTER.GetShortUINameNotMe|U] ve [TARGET_CHARACTER.GetShortUINameNotMe|U] birlikte seks partisine katıldılar."
-### TODO AGOT-CHANGED: lover_tavern_hookup [AGOT: [CHARACTER.GetShortUIName|U] swept [TARGET_CHARACTER.GetShortUIName] away from a seedy tavern | TR: [CHARACTER.GetShortUINameNotMe], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakteri köhne bir tavernada ayarttı]
- lover_tavern_hookup: "[CHARACTER.GetShortUIName|U] swept [TARGET_CHARACTER.GetShortUIName] away from a seedy tavern"
-### TODO AGOT-CHANGED: lover_old_flame [AGOT: [CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] rekindled their previously-dormant status as lovers. | TR: [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] daha önce sönmüş aşk ateşini yeniden alevlendirdiler.]
- lover_old_flame: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] rekindled their previously-dormant status as lovers."
-### TODO AGOT-CHANGED: lover_grew_over_secret_scheme [AGOT: [CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst collaborating on... something. | TR: [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] bir şeyler üzerinde birlikte çalışırken sönmüş aşklarını alevlendirdiler.]
- lover_grew_over_secret_scheme: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst collaborating on... something."
-### TODO AGOT-CHANGED: lover_grew_over_open_scheme [AGOT: [CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst working towards a shared goal. | TR: [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] ortak bir amaç doğrultusunda birlikte çalışırken sönmüş aşklarını alevlendirdiler.]
- lover_grew_over_open_scheme: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst working towards a shared goal."
-### TODO AGOT-CHANGED: lover_grew_over_task_scheme [AGOT: [CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst completing a contract to sustain an adventuring camp. | TR: [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] bir maceracı kampını devam ettirebilmek için sözleşme tamamlarken sönmüş aşklarını alevlendirdiler.]
- lover_grew_over_task_scheme: "[CHARACTER.GetShortUIName|U] and [TARGET_CHARACTER.GetShortUIName] kindled a relationship whilst completing a contract to sustain an adventuring camp."
-### TODO AGOT-CHANGED: lover_made_love_on_yurt_wagon [AGOT: Within a great yurt, pulled by a team of oxen, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] shared an #EMP especially#! bumpy ride. | TR: Büyük bir yurt içinde, öküzlerin çektiği arabada, [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe], #EMP bir hayli#! sarsıntılı bir yolculuğu paylaştılar.]
- lover_made_love_on_yurt_wagon: "Within a great yurt, pulled by a team of oxen, [CHARACTER.GetShortUIName] and [TARGET_CHARACTER.GetShortUIName] shared an #EMP especially#! bumpy ride."
-### TODO AGOT-CHANGED: sworn_blood_brother [AGOT: [TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] swore to honor one another as kin, and bound the oath in blood. | TR: [TARGET_CHARACTER.GetShortUINameNotMe|U] ile [CHARACTER.GetShortUINameNotMe], birbirlerini kardeş gibi onurlandıracaklarına yemin ettiler ve bu yemini kanla mühürlediler.]
- sworn_blood_brother: "[TARGET_CHARACTER.GetShortUIName|U] and [CHARACTER.GetShortUIName] swore to honor one another as kin, and bound the oath in blood."
+ lover_tavern_hookup: "[CHARACTER.GetShortUINameNotMe], [TARGET_CHARACTER.GetShortUINameNotMe] adlı karakteri köhne bir tavernada ayarttı"
+ lover_old_flame: "[CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] daha önce sönmüş aşk ateşini yeniden alevlendirdiler."
+ lover_grew_over_secret_scheme: "[CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] bir şeyler üzerinde birlikte çalışırken sönmüş aşklarını alevlendirdiler."
+ lover_grew_over_open_scheme: "[CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] ortak bir amaç doğrultusunda birlikte çalışırken sönmüş aşklarını alevlendirdiler."
+ lover_grew_over_task_scheme: "[CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe] bir maceracı kampını devam ettirebilmek için sözleşme tamamlarken sönmüş aşklarını alevlendirdiler."
+ lover_made_love_on_yurt_wagon: "Büyük bir yurt içinde, öküzlerin çektiği arabada, [CHARACTER.GetShortUINameNotMe] ile [TARGET_CHARACTER.GetShortUINameNotMe], #EMP bir hayli#! sarsıntılı bir yolculuğu paylaştılar."
+ sworn_blood_brother: "[TARGET_CHARACTER.GetShortUINameNotMe|U] ile [CHARACTER.GetShortUINameNotMe], birbirlerini kardeş gibi onurlandıracaklarına yemin ettiler ve bu yemini kanla mühürlediler."

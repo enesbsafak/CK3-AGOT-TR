@@ -3,10 +3,11 @@
  ALREADY_PLANNING_ACTIVITY:0 "Hâlihazırda başka bir [activity|E] planlıyorsunuz"
  ALREADY_IN_ACTIVITY_FIRST_NOT:0 "Hâlihazırda [CHARACTER.Custom('GetActivityName')]"
  ALREADY_IN_ACTIVITY_THIRD_NOT:0 "Hâlihazırda [CHARACTER.Custom('GetActivityName')]"
-### TODO AGOT-CHANGED: GENERIC_CHOOSE_OPTION [AGOT: Choose Option | TR: Seçenek Seç]
- GENERIC_CHOOSE_OPTION: "Choose Option"
- I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "[Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha öndesiniz" #Aytaç
- I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "[Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha önde #bold değilsiniz#!"
+ GENERIC_CHOOSE_OPTION: "Seçenek Seç"
+### TODO AGOT-CHANGED: I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE [AGOT: You are fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E] | TR: [Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha öndesiniz]
+ I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
+### TODO AGOT-CHANGED: I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE [AGOT: You are #bold not#! fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E] | TR: [Concept( 'house_head', 'Hane Reisinin' )|E] [Concept( 'titles', 'Unvanlarından' )|E] birinin veraset sırasında üçüncü ya da daha önde #bold değilsiniz#!]
+ I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "You are #bold not#! fifth or closer in the line of succession for one of your [house_head|E]'s [titles|E]"
  I_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:1 "Atalarınızdan birisi mevcut [Concept( 'house', 'Hanenize' )|E] mensup"
  I_NOT_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:2 "Hayattaki atalarınızdan hiçbiri mevcut [Concept( 'house', 'Hanenize' )|E] mensup değil"
  created_cadet_branch_toast_new_house_desc:2 "Yeni bir Hane"
@@ -22,10 +23,8 @@
  hajj_short_tt:0 "Başkentimden Mekke'ye #V kısa#! bir kutsal yolculuk"
  HAS_NON_CELTIC_POWERFUL_VASSAL:2 "Tüm [Concept( 'powerful_vassals', 'Önemli Vasallarınız' )|E] Britonik veya Goidelik [heritage|E] sahibi bir [Concept( 'culture', 'Kültüre' )|E] mensup"
  MY_CAPITAL_IS_IN_ENGLAND:1 "[Concept( 'realm_capital', 'Ülke Başkentiniz' )|E] İngiltere'de" #Aytaç
-### TODO AGOT-CHANGED: HARRYING_ENDED [AGOT: The Harrying of the North has ended | TR: Kuzey Seferi sona erdi]
- HARRYING_ENDED: "The Harrying of the North has ended"
-### TODO AGOT-CHANGED: HIGH_PACIFICATION [AGOT: The Harrying of the North's [harrying_pacification|E] has been:\n$EFFECT_LIST_BULLET$Higher than [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Over #V 14#! for at least #V 1#! year | TR: Kuzey Seferinde [harrying_pacification|E]:\n$EFFECT_LIST_BULLET$[Concept( 'harrying_resistance', 'Direnişten' )|E] daha yüksek\n$EFFECT_LIST_BULLET$En az #V 1#! yıl boyunca #V 14'ten#! fazla]
- HIGH_PACIFICATION: "The Harrying of the North's [harrying_pacification|E] has been:\n$EFFECT_LIST_BULLET$Higher than [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Over #V 14#! for at least #V 1#! year"
+ HARRYING_ENDED: "Kuzey Seferi sona erdi"
+ HIGH_PACIFICATION: "Kuzey Seferinde [harrying_pacification|E]:\n$EFFECT_LIST_BULLET$[Concept( 'harrying_resistance', 'Direnişten' )|E] daha yüksek\n$EFFECT_LIST_BULLET$En az #V 1#! yıl boyunca #V 14'ten#! fazla"
  rome_held_by_you_or_vassal_tt:0 "$c_roma$ topraklarının sahibi ya siz ya da sizin bir [Concept( 'vassal', 'vasalınız' )|E] olmalı"
  I_AM_UNDER_OUTREMER_LIEGE:0 "Süzerenim Haçlı [Concept( 'culture', 'Kültürüne' )|E] sahip"
  I_AM_NOT_UNDER_OUTREMER_LIEGE:0 "Süzerenim Haçlı [Concept( 'culture', 'Kültürüne' )|E] sahip #bold değil#!"
@@ -35,8 +34,7 @@
  I_HAVE_NO_VASSALS_OF_COUNT_RANK_OR_HIGHER:0 "[count|E] veya daha yüksek kademedeki bir vasala sahip değilsiniz"
  COMMISSION_EPIC_ONCE_COMPLETE:0 "Kitap tamamlandığında:"
  COMMISSION_EPIC_POTENTIAL_COST:1 "#F Harcayacak fazladan paranız varsa daha iyi sonuçlar elde edeceksiniz#!"
-### TODO AGOT-CHANGED: you_are_an_adventurer_tt [AGOT: You are an [GetGovernment('landless_adventurer_government').GetNameWithIcon] | TR: Bir [GetGovernment('landless_adventurer_government').GetNameWithIcon]sınız]
- you_are_an_adventurer_tt: "You are an [GetGovernment('landless_adventurer_government').GetNameWithIcon]"
+ you_are_an_adventurer_tt: "Bir [GetGovernment('landless_adventurer_government').GetNameWithIcon]sınız"
  NEW_CREATED_TITLE_NAME:0 "[old_title.GetBaseNameNoTierNoTooltip]"
  SPECIAL_CREATED_TITLE_NAME:0 "[special_duchy.GetBaseNameNoTierNoTooltip]"
  converted_from_old_culture_to_new_culture_tt:0 "[old_culture.GetName] kültüründen [new_culture.GetName] kültürüne geçti[Select_CString( converting_character.IsLocalPlayer, 'niz', '' )]"
@@ -47,79 +45,44 @@
  PAY_HOMAGE_DECISION_SELECT_GIFT_TITLE:0 "[Concept( 'pay_homage', 'Hürmet' )|E] hediyesi seçin"
  eat_cheese_effect_tt:0 "Peyniriniz ne kadar uzun süre eskitilmişse yediğinizde o kadar çok stres kaybedersiniz."
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Bir seçenek seçin#!"
-### TODO AGOT-CHANGED: I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM [AGOT: You are #bold not#! in the same [realm|E] than your [house_head|E] | TR: [Concept( 'house_head', 'Hane Reisiniz' )|E] ile aynı [Concept( 'realm', 'Ülkede' )|E] #bold değilsiniz#!]
- I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "You are #bold not#! in the same [realm|E] than your [house_head|E]"
-### TODO AGOT-CHANGED: I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM [AGOT: You #bold are#! in the same [realm|E] than your [house_head|E] | TR: [Concept( 'house_head', 'Hane Reisiniz' )|E] ile You #bold aynı#! [Concept( 'realm', 'Ülkedesiniz' )|E]]
- I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "You #bold are#! in the same [realm|E] than your [house_head|E]"
-### TODO AGOT-CHANGED: CHOOSE_REFORMATION_TYPE [AGOT: Select a Reformation | TR: Reformasyon Seçin]
- CHOOSE_REFORMATION_TYPE: "Select a Reformation"
-### TODO AGOT-CHANGED: bwow_no_changes [AGOT: Coexistence | TR: Birlikte Yaşama]
- bwow_no_changes: "Coexistence"
-### TODO AGOT-CHANGED: bwow_no_changes_desc [AGOT: We shall maintain our traditions and meld the new ways with the old | TR: Geleneklerimze sahip çıkıp yeni ile eskiyi kaynaştırmalıyız]
- bwow_no_changes_desc: "We shall maintain our traditions and meld the new ways with the old"
-### TODO AGOT-CHANGED: bwow_chosen_people [AGOT: Chosen People | TR: Seçilmiş Halk]
- bwow_chosen_people: "Chosen People"
-### TODO AGOT-CHANGED: bwow_chosen_people_desc [AGOT: We have been chosen by $judaism_high_god_name$ | TR: Biz $judaism_high_god_name$ tarafından seçildik]
- bwow_chosen_people_desc: "We have been chosen by $judaism_high_god_name$"
+ I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "[Concept( 'house_head', 'Hane Reisiniz' )|E] ile aynı [Concept( 'realm', 'Ülkede' )|E] #bold değilsiniz#!"
+ I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "[Concept( 'house_head', 'Hane Reisiniz' )|E] ile You #bold aynı#! [Concept( 'realm', 'Ülkedesiniz' )|E]"
+ CHOOSE_REFORMATION_TYPE: "Reformasyon Seçin"
+ bwow_no_changes: "Birlikte Yaşama"
+ bwow_no_changes_desc: "Geleneklerimze sahip çıkıp yeni ile eskiyi kaynaştırmalıyız"
+ bwow_chosen_people: "Seçilmiş Halk"
+ bwow_chosen_people_desc: "Biz $judaism_high_god_name$ tarafından seçildik"
  DECISION_TOOLTIP_TITLE: "$EFFECT_LIST_BULLET$ [Decision.GetName]"
-### TODO AGOT-CHANGED: clear_ground_legendary_statue_desc [AGOT: A held [barony|E] will gain a [GetBuilding('legendary_statue').GetName] [special_building|E] Slot | TR: Sahip olunan bir [barony|E], bir [GetBuilding('legendary_statue').GetName] [special_building|E] bölmesi kazanacak]
- clear_ground_legendary_statue_desc: "A held [barony|E] will gain a [GetBuilding('legendary_statue').GetName] [special_building|E] Slot"
+ clear_ground_legendary_statue_desc: "Sahip olunan bir [barony|E], bir [GetBuilding('legendary_statue').GetName] [special_building|E] bölmesi kazanacak"
  clear_ground_legendary_statue: "$building_type_legendary_statue$"
-### TODO AGOT-CHANGED: clear_ground_legendary_palace_desc [AGOT: A held [barony|E] will gain a [GetBuilding('legendary_palace').GetName] [special_building|E] Slot | TR: Sahip olunan bir [barony|E], bir [GetBuilding('legendary_palace').GetName] [special_building|E] bölmesi kazanacak]
- clear_ground_legendary_palace_desc: "A held [barony|E] will gain a [GetBuilding('legendary_palace').GetName] [special_building|E] Slot"
+ clear_ground_legendary_palace_desc: "Sahip olunan bir [barony|E], bir [GetBuilding('legendary_palace').GetName] [special_building|E] bölmesi kazanacak"
  clear_ground_legendary_palace: "$building_type_legendary_palace$"
-### TODO AGOT-CHANGED: clear_ground_legendary_watchtower_desc [AGOT: A held [barony|E] will gain a [GetBuilding('legendary_watchtower').GetName] [special_building|E] Slot | TR: Sahip olunan bir [barony|E], bir [GetBuilding('legendary_watchtower').GetName] [special_building|E] bölmesi kazanacak]
- clear_ground_legendary_watchtower_desc: "A held [barony|E] will gain a [GetBuilding('legendary_watchtower').GetName] [special_building|E] Slot"
+ clear_ground_legendary_watchtower_desc: "Sahip olunan bir [barony|E], bir [GetBuilding('legendary_watchtower').GetName] [special_building|E] bölmesi kazanacak"
  clear_ground_legendary_watchtower: "$building_type_legendary_watchtower$"
-### TODO AGOT-CHANGED: clear_ground_legendary_watchtower_tt [AGOT: You must have completed a Mythical or Illustrious [legend|E] while having [GetDynastyPerk('ce1_heroic_legacy_5').GetName] [dynasty_perk|E] | TR: [GetDynastyPerk('ce1_heroic_legacy_5').GetName] [Concept( 'dynasty_perk', 'Hanedan Mirasına' )|E] sahipken bir Efsanevi veya Şanlı [legend|E] tamamlamış olmalısınız]
- clear_ground_legendary_watchtower_tt: "You must have completed a Mythical or Illustrious [legend|E] while having [GetDynastyPerk('ce1_heroic_legacy_5').GetName] [dynasty_perk|E]"
-### TODO AGOT-CHANGED: clear_ground_legendary_statue_tt [AGOT: You must have completed a Mythical or Illustrious Heroic [legend|E] | TR: Efsanevi veya Şanlı bir Yiğitlik [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız]
- clear_ground_legendary_statue_tt: "You must have completed a Mythical or Illustrious Heroic [legend|E]"
-### TODO AGOT-CHANGED: clear_ground_legendary_palace_tt [AGOT: You must have completed a Mythical or Illustrious Legitimizing [legend|E] | TR: Efsanevi veya Şanlı bir Meşruluk [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız]
- clear_ground_legendary_palace_tt: "You must have completed a Mythical or Illustrious Legitimizing [legend|E]"
-### TODO AGOT-CHANGED: CHOOSE_LEGENDARY_BUILDING [AGOT: Select Legendary Building | TR: Efsanevi Bina Seçin]
- CHOOSE_LEGENDARY_BUILDING: "Select Legendary Building"
-### TODO AGOT-CHANGED: PICK_LEGENDARY_BARONY_DECISION_LABEL [AGOT: Location: | TR: Konum:]
- PICK_LEGENDARY_BARONY_DECISION_LABEL: "Location:"
-### TODO AGOT-CHANGED: SELECT_ACTION [AGOT: Select an action | TR: Bir eylem seçin]
- SELECT_ACTION: "Select an action"
-### TODO AGOT-CHANGED: CHOOSE_CHARACTER_ROLE_DECISION_NEXT_STEP_BUTTON [AGOT: Choose Position Type | TR: Pozisyon Türü Seçin]
- CHOOSE_CHARACTER_ROLE_DECISION_NEXT_STEP_BUTTON: "Choose Position Type"
-### TODO AGOT-CHANGED: CHOOSE_POEM_DECISION_NEXT_STEP_BUTTON [AGOT: Choose Poem's Fate | TR: Şiirin Kaderini Seçin]
- CHOOSE_POEM_DECISION_NEXT_STEP_BUTTON: "Choose Poem's Fate"
-### TODO AGOT-CHANGED: MODIFIER_DEFINITION_BOSPORAN_KINGDOM [AGOT: This modifier is increased for every held [county|E] in the [GetGeographicalRegion('black_sea_coast_region').GetName] [region|E] | TR: Bu etki [GetGeographicalRegion('black_sea_coast_region').GetName] [Concept( 'region', 'Bölgesinde' )|E] sahip olunan her [county|E] başına artar]
- MODIFIER_DEFINITION_BOSPORAN_KINGDOM: "This modifier is increased for every held [county|E] in the [GetGeographicalRegion('black_sea_coast_region').GetName] [region|E]"
-### TODO AGOT-CHANGED: unlocks_black_sea_naval_conquest [AGOT: Unlocks the #emp County Expansion#! and #emp Naval County Expansion#! [casus_belli|E] in the [GetGeographicalRegion('black_sea_coast_region').GetName] [region|E] for the duration of the [house|E] [modifier|E] | TR: [house|E] [Concept( 'modifier', 'Etkisinin' )|E] süresi boyunca [GetGeographicalRegion('black_sea_coast_region').GetName] [Concept( 'region', 'Bölgesinde' )|E] #emp Kontluk Genişlemesi#! ve #emp Kıyı Kontluğu Genişlemesi#! [Concept( 'casus_belli', 'Savaş Sebeplerini' )|E] açar]
- unlocks_black_sea_naval_conquest: "Unlocks the #emp County Expansion#! and #emp Naval County Expansion#! [casus_belli|E] in the [GetGeographicalRegion('black_sea_coast_region').GetName] [region|E] for the duration of the [house|E] [modifier|E]"
-### TODO AGOT-CHANGED: cossack_custom_de_jure [AGOT: [duchies|E] of [GetTitleByKey('d_tana').GetBaseNameNoTier], [GetTitleByKey('d_red_levedia').GetBaseNameNoTier], [GetTitleByKey('d_levedia').GetBaseNameNoTier], [GetTitleByKey('d_don_valley').GetBaseNameNoTier], and [GetTitleByKey('d_itil').GetBaseNameNoTier] become [de_jure|E] [vassals|E] of [GetTitleByKey('k_cossack').GetDefinitiveName] | TR: [GetTitleByKey('d_tana').GetBaseNameNoTier], [GetTitleByKey('d_red_levedia').GetBaseNameNoTier], [GetTitleByKey('d_levedia').GetBaseNameNoTier], [GetTitleByKey('d_don_valley').GetBaseNameNoTier] ve [GetTitleByKey('d_itil').GetBaseNameNoTier] [Concept('duchies', 'Düklükleri')|E] [de_jure|E] olarak [GetTitleByKey('k_cossack').GetDefinitiveName] krallığına bağlanır]
- cossack_custom_de_jure: "[duchies|E] of [GetTitleByKey('d_tana').GetBaseNameNoTier], [GetTitleByKey('d_red_levedia').GetBaseNameNoTier], [GetTitleByKey('d_levedia').GetBaseNameNoTier], [GetTitleByKey('d_don_valley').GetBaseNameNoTier], and [GetTitleByKey('d_itil').GetBaseNameNoTier] become [de_jure|E] [vassals|E] of [GetTitleByKey('k_cossack').GetDefinitiveName]"
-### TODO AGOT-CHANGED: cossack_custom_county_culture [AGOT: Every held [de_jure|E] [county|E] of [GetTitleByKey('k_cossack').GetDefinitiveName] adopts [new_culture.GetName] [culture|E] | TR: Sahip olunan tüm [GetTitleByKey('k_cossack').GetDefinitiveName] [de_jure|E] [Concept('county', 'Kontlukları')|E], [new_culture.GetName] [Concept('culture', 'Kültürünü')|E] benimser]
- cossack_custom_county_culture: "Every held [de_jure|E] [county|E] of [GetTitleByKey('k_cossack').GetDefinitiveName] adopts [new_culture.GetName] [culture|E]" 
-### TODO AGOT-CHANGED: cossack_custom_county_culture_fallback [AGOT: Every held [de_jure|E] [county|E] of [GetTitleByKey('k_cossack').GetDefinitiveName] adopts #V Cossack#! [culture|E] | TR: Sahip olunan tüm [GetTitleByKey('k_cossack').GetDefinitiveName] [de_jure|E] [Concept('county', 'Kontlukları')|E], #V Kozak#! [Concept('culture', 'Kültürünü')|E] benimser]
- cossack_custom_county_culture_fallback: "Every held [de_jure|E] [county|E] of [GetTitleByKey('k_cossack').GetDefinitiveName] adopts #V Cossack#! [culture|E]"
-### TODO AGOT-CHANGED: mpo_pleasure_dome_tt [AGOT: This will unlock a [special_building|E] Slot in one of your Baronies. | TR: Baronluklarınızdan birinde [special_building|E] bölmesi açılır.]
- mpo_pleasure_dome_tt: "This will unlock a [special_building|E] Slot in one of your Baronies."
-### TODO AGOT-CHANGED: mpo_pleasure_dome_no_barony_tt [AGOT: You must hold a [barony|E] which is the capital of its [county|E], is not [leased|E], and does not already have a [special_building|E] Slot#! | TR: Bulunduğu [Concept('county', 'Kontluğun')|E] başkenti olan, [Concept('leased', 'Kiralanmamış')|E] ve hâlihazırda bir [special_building|E] bölmesi içermeyen bir [Concept('barony', 'Baronluğa')|E] sahip olmalısınız.]
- mpo_pleasure_dome_no_barony_tt: "You must hold a [barony|E] which is the capital of its [county|E], is not [leased|E], and does not already have a [special_building|E] Slot#!"
-### TODO AGOT-CHANGED: mpo_pleasure_dome_not_settled [AGOT: You must be settled | TR: Yerleşik olmalısınız]
- mpo_pleasure_dome_not_settled: "You must be settled"
-### TODO AGOT-CHANGED: mpo_add_pleasure_dome_effect_tt [AGOT: The selected [holding|E] gains the [GetBuilding('pleasure_dome').GetName] [special_building|E] | TR: Seçilen [holding|E], [GetBuilding('pleasure_dome').GetName] adlı [Concept('special_building', 'Özel Binaya')|E] sahip olacak]
- mpo_add_pleasure_dome_effect_tt: "The selected [holding|E] gains the [GetBuilding('pleasure_dome').GetName] [special_building|E]"
-### TODO AGOT-CHANGED: create_new_duchy [AGOT: You create a [duchy|E] of [root_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] | TR: [root_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] [Concept('duchy', 'Düklüğü')|E] kurulacak]
- create_new_duchy: "You create a [duchy|E] of [root_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-### TODO AGOT-CHANGED: create_custom_duchy_de_jure_changes [AGOT: [root_scope.GetPrimaryTitle.GetName]:\n$EFFECT_LIST_BULLET$ Becomes [de_jure|E] [county|E] of your new [duchy|E] | TR: [root_scope.GetPrimaryTitle.GetName]:\n$EFFECT_LIST_BULLET$ Yeni [Concept('duchy', 'Düklüğünüzün')|E] [de_jure|E] [Concept('county', 'Kontluğu')|E] hâline gelecek]
- create_custom_duchy_de_jure_changes: "[root_scope.GetPrimaryTitle.GetName]:\n$EFFECT_LIST_BULLET$ Becomes [de_jure|E] [county|E] of your new [duchy|E]"
-### TODO AGOT-CHANGED: expand_duchy_less_than_4 [AGOT: [duchy_title.GetName] has fewer than #color_white [root_scope_temporary.MakeScope.ScriptValue('expand_duchy_max_size_value')]#! [de_jure|E] [counties|E] | TR: [duchy_title.GetName] #color_white [root_scope_temporary.MakeScope.ScriptValue('expand_duchy_max_size_value')]#! [de_jure|E] [Concept('counties', 'Kontluktan')|E] daha azına sahip]
- expand_duchy_less_than_4: "[duchy_title.GetName] has fewer than #color_white [root_scope_temporary.MakeScope.ScriptValue('expand_duchy_max_size_value')]#! [de_jure|E] [counties|E]"
-### TODO AGOT-CHANGED: SET_DE_JURE_CAPITAL_CHOOSE_TYPE [AGOT: Choose Title Tier | TR: Unvan Kademesi Seç]
- SET_DE_JURE_CAPITAL_CHOOSE_TYPE: "Choose Title Tier"
-### TODO AGOT-CHANGED: CHOOSE_EXILES_DECISION_NEXT_STEP_BUTTON [AGOT: Invite Exiles | TR: Sürgünleri Davet Et]
- CHOOSE_EXILES_DECISION_NEXT_STEP_BUTTON: "Invite Exiles"
-### TODO AGOT-CHANGED: CHOOSE_CONFUCIAN_FAITH_TO_CONVERT_TO [AGOT: Adopt a Confucian Faith | TR: Bir Konfüçyus Mezhebi Benimse]
- CHOOSE_CONFUCIAN_FAITH_TO_CONVERT_TO: "Adopt a Confucian Faith"
+ clear_ground_legendary_watchtower_tt: "[GetDynastyPerk('ce1_heroic_legacy_5').GetName] [Concept( 'dynasty_perk', 'Hanedan Mirasına' )|E] sahipken bir Efsanevi veya Şanlı [legend|E] tamamlamış olmalısınız"
+ clear_ground_legendary_statue_tt: "Efsanevi veya Şanlı bir Yiğitlik [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız"
+ clear_ground_legendary_palace_tt: "Efsanevi veya Şanlı bir Meşruluk [Concept( 'legend', 'Destanı' )|E] tamamlamış olmalısınız"
+ CHOOSE_LEGENDARY_BUILDING: "Efsanevi Bina Seçin"
+ PICK_LEGENDARY_BARONY_DECISION_LABEL: "Konum:"
+ SELECT_ACTION: "Bir eylem seçin"
+ CHOOSE_CHARACTER_ROLE_DECISION_NEXT_STEP_BUTTON: "Pozisyon Türü Seçin"
+ CHOOSE_POEM_DECISION_NEXT_STEP_BUTTON: "Şiirin Kaderini Seçin"
+ MODIFIER_DEFINITION_BOSPORAN_KINGDOM: "Bu etki [GetGeographicalRegion('black_sea_coast_region').GetName] [Concept( 'region', 'Bölgesinde' )|E] sahip olunan her [county|E] başına artar"
+ unlocks_black_sea_naval_conquest: "[house|E] [Concept( 'modifier', 'Etkisinin' )|E] süresi boyunca [GetGeographicalRegion('black_sea_coast_region').GetName] [Concept( 'region', 'Bölgesinde' )|E] #emp Kontluk Genişlemesi#! ve #emp Kıyı Kontluğu Genişlemesi#! [Concept( 'casus_belli', 'Savaş Sebeplerini' )|E] açar"
+ cossack_custom_de_jure: "[GetTitleByKey('d_tana').GetBaseNameNoTier], [GetTitleByKey('d_red_levedia').GetBaseNameNoTier], [GetTitleByKey('d_levedia').GetBaseNameNoTier], [GetTitleByKey('d_don_valley').GetBaseNameNoTier] ve [GetTitleByKey('d_itil').GetBaseNameNoTier] [Concept('duchies', 'Düklükleri')|E] [de_jure|E] olarak [GetTitleByKey('k_cossack').GetDefinitiveName] krallığına bağlanır"
+ cossack_custom_county_culture: "Sahip olunan tüm [GetTitleByKey('k_cossack').GetDefinitiveName] [de_jure|E] [Concept('county', 'Kontlukları')|E], [new_culture.GetName] [Concept('culture', 'Kültürünü')|E] benimser"
+ cossack_custom_county_culture_fallback: "Sahip olunan tüm [GetTitleByKey('k_cossack').GetDefinitiveName] [de_jure|E] [Concept('county', 'Kontlukları')|E], #V Kozak#! [Concept('culture', 'Kültürünü')|E] benimser"
+ mpo_pleasure_dome_tt: "Baronluklarınızdan birinde [special_building|E] bölmesi açılır."
+ mpo_pleasure_dome_no_barony_tt: "Bulunduğu [Concept('county', 'Kontluğun')|E] başkenti olan, [Concept('leased', 'Kiralanmamış')|E] ve hâlihazırda bir [special_building|E] bölmesi içermeyen bir [Concept('barony', 'Baronluğa')|E] sahip olmalısınız."
+ mpo_pleasure_dome_not_settled: "Yerleşik olmalısınız"
+ mpo_add_pleasure_dome_effect_tt: "Seçilen [holding|E], [GetBuilding('pleasure_dome').GetName] adlı [Concept('special_building', 'Özel Binaya')|E] sahip olacak"
+ create_new_duchy: "[root_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] [Concept('duchy', 'Düklüğü')|E] kurulacak"
+ create_custom_duchy_de_jure_changes: "[root_scope.GetPrimaryTitle.GetName]:\n$EFFECT_LIST_BULLET$ Yeni [Concept('duchy', 'Düklüğünüzün')|E] [de_jure|E] [Concept('county', 'Kontluğu')|E] hâline gelecek"
+ expand_duchy_less_than_4: "[duchy_title.GetName] #color_white [root_scope_temporary.MakeScope.ScriptValue('expand_duchy_max_size_value')]#! [de_jure|E] [Concept('counties', 'Kontluktan')|E] daha azına sahip"
+ SET_DE_JURE_CAPITAL_CHOOSE_TYPE: "Unvan Kademesi Seç"
+ CHOOSE_EXILES_DECISION_NEXT_STEP_BUTTON: "Sürgünleri Davet Et"
+ CHOOSE_CONFUCIAN_FAITH_TO_CONVERT_TO: "Bir Konfüçyus Mezhebi Benimse"
  convert_to_daoxue: "[GetFaithByKey('daoxue').GetName]"
-### TODO AGOT-CHANGED: CHOOSE_TAOIST_FAITH_TO_CONVERT_TO [AGOT: Adopt a Taoist Faith | TR: Bir Taoist Mezhebi Benimse]
- CHOOSE_TAOIST_FAITH_TO_CONVERT_TO: "Adopt a Taoist Faith"
+ CHOOSE_TAOIST_FAITH_TO_CONVERT_TO: "Bir Taoist Mezhebi Benimse"
  convert_to_quanzhen: "[GetFaithByKey('quanzhen').GetName]"
-### TODO AGOT-CHANGED: ASK_FOR_CONVERSION_ACTOR_DAR_AL_ISLAM [AGOT: [actor.GetShortUIName|U] [CharHaveHas(actor)] the [GetTitleByKey('h_dar_al_islam').GetNameNoTier] [title|E] and [recipient.GetShortUIName|U] is a [GetReligionByKey('islam_religion').GetAdherentName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] [GetTitleByKey('h_dar_al_islam').GetNameNoTier] [Concept('title', 'Unvanına')|E] sahip ve [recipient.GetShortUIName|U] bir [GetReligionByKey('islam_religion').GetAdherentName]: $VALUE|=+0$]
- ASK_FOR_CONVERSION_ACTOR_DAR_AL_ISLAM: "[actor.GetShortUIName|U] [CharHaveHas(actor)] the [GetTitleByKey('h_dar_al_islam').GetNameNoTier] [title|E] and [recipient.GetShortUIName|U] is a [GetReligionByKey('islam_religion').GetAdherentName]: $VALUE|=+0$" 
+ ASK_FOR_CONVERSION_ACTOR_DAR_AL_ISLAM: "[actor.GetShortUIName|U] [GetTitleByKey('h_dar_al_islam').GetNameNoTier] [Concept('title', 'Unvanına')|E] sahip ve [recipient.GetShortUIName|U] bir [GetReligionByKey('islam_religion').GetAdherentName]: $VALUE|=+0$"

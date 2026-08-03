@@ -1,29 +1,18 @@
 ﻿l_english:
-### TODO AGOT-CHANGED: RULER_DESIGNER [AGOT: [Select_CString( Not( RulerDesignerWindow.IsDesigningLandless ), 'Ruler', 'Character' )] Designer | TR: [Select_CString( Not( RulerDesignerWindow.IsDesigningLandless ), 'Hükümdar', 'Karakter' )] Yaratma]
- RULER_DESIGNER: "[Select_CString( Not( RulerDesignerWindow.IsDesigningLandless ), 'Ruler', 'Character' )] Designer"
+ RULER_DESIGNER: "[Select_CString( Not( RulerDesignerWindow.IsDesigningLandless ), 'Hükümdar', 'Karakter' )] Yaratma"
  RULER_DESIGNER_FINALIZE:0 "Tamamla"
  RULER_DESIGNER_REGENERATE_PORTRAIT:3 "Görünüşü Rastgeleleştir"
  RULER_DESIGNER_OPEN:1 "Kendi Hükümdarını Yarat"
-### TODO AGOT-CHANGED: RULER_DESIGNER_OPEN_TT [AGOT: #T Create Ruler#!\nCreates a [ruler|e] to replace the selected character. | TR: #T Hükümdar Yarat#!\nSeçilen karakterin yerine geçecek bir [ruler|e] yaratır.]
- RULER_DESIGNER_OPEN_TT: "#T Create Ruler#!\nCreates a [ruler|e] to replace the selected character."
-### TODO AGOT-CHANGED: RULER_DESIGNER_LANDLESS_TO_RULER [AGOT: @warning_icon! #X Cannot create [rulers|E] from [unlanded|E] [characters|E]#! | TR: @warning_icon! #X [unlanded|E] [Concept('characters', 'Karakterlerden')|E] [rulers|E] yaratılamaz#!]
- RULER_DESIGNER_LANDLESS_TO_RULER: "@warning_icon! #X Cannot create [rulers|E] from [unlanded|E] [characters|E]#!"
-### TODO AGOT-CHANGED: RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY [AGOT: Create your own Noble Family | TR: Kendi Soylu Aileni Yarat]
- RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY: "Create your own Noble Family"
-### TODO AGOT-CHANGED: RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY_TT [AGOT: #T Create Noble Family#!\nCreates a landless Noble Family vassal of [CHARACTER.GetNameNoTooltip] | TR: #T Soylu Aile Yarat#!\n[CHARACTER.GetNameNoTooltip] adlı kişinin vasalı olarak topraksız bir Soylu Aile yaratır.]
- RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY_TT: "#T Create Noble Family#!\nCreates a landless Noble Family vassal of [CHARACTER.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_CANT_DESIGN_NOBLE_FAMILY_TT [AGOT: @warning_icon! #X Cannot create landless noble family. Government of [top_liege|E] [CHARACTER.GetNameNoTooltip] doesn't allow [estates|E]#! | TR: @warning_icon! #X Soylu aile yaratılamaz. [CHARACTER.GetNameNoTooltip] adlı kişinin [Concept('top_liege', 'Ana Süzereninin')|E] yönetim biçimi [Concept('estates', 'Malikânelere')|E] izin vermiyor#!]
- RULER_DESIGNER_CANT_DESIGN_NOBLE_FAMILY_TT: "@warning_icon! #X Cannot create landless noble family. Government of [top_liege|E] [CHARACTER.GetNameNoTooltip] doesn't allow [estates|E]#!"
-### TODO AGOT-CHANGED: RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER [AGOT: Create your own Adventurer | TR: Kendi Maceracını Yarat]
- RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER: "Create your own Adventurer"
-### TODO AGOT-CHANGED: RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER_TT [AGOT: #T Create Adventurer#!\nCreates a landless adventurer within the selected character's capital province. | TR: #T Maceracı Yarat#!\nSeçilen karakterin başkent bölgesinde topraksız bir Maceracı yaratır.]
- RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER_TT: "#T Create Adventurer#!\nCreates a landless adventurer within the selected character's capital province."
-### TODO AGOT-CHANGED: RULER_DESIGNER_CAMP_LOCATION [AGOT: #low Camp Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip] | TR: #low Kamp Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]]
- RULER_DESIGNER_CAMP_LOCATION: "#low Camp Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ESTATE_LOCATION [AGOT: #low Estate Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip] | TR: #low Malikâne Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]]
- RULER_DESIGNER_ESTATE_LOCATION: "#low Estate Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_YURT_LOCATION [AGOT: #low Yurt Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip] | TR: #low Yurt Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]]
- RULER_DESIGNER_YURT_LOCATION: "#low Yurt Location:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
+ RULER_DESIGNER_OPEN_TT: "#T Hükümdar Yarat#!\nSeçilen karakterin yerine geçecek bir [ruler|e] yaratır."
+ RULER_DESIGNER_LANDLESS_TO_RULER: "@warning_icon! #X [unlanded|E] [Concept('characters', 'Karakterlerden')|E] [rulers|E] yaratılamaz#!"
+ RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY: "Kendi Soylu Aileni Yarat"
+ RULER_DESIGNER_OPEN_LANDLESS_NOBLE_FAMILY_TT: "#T Soylu Aile Yarat#!\n[CHARACTER.GetNameNoTooltip] adlı kişinin vasalı olarak topraksız bir Soylu Aile yaratır."
+ RULER_DESIGNER_CANT_DESIGN_NOBLE_FAMILY_TT: "@warning_icon! #X Soylu aile yaratılamaz. [CHARACTER.GetNameNoTooltip] adlı kişinin [Concept('top_liege', 'Ana Süzereninin')|E] yönetim biçimi [Concept('estates', 'Malikânelere')|E] izin vermiyor#!"
+ RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER: "Kendi Maceracını Yarat"
+ RULER_DESIGNER_OPEN_LANDLESS_ADVENTURER_TT: "#T Maceracı Yarat#!\nSeçilen karakterin başkent bölgesinde topraksız bir Maceracı yaratır."
+ RULER_DESIGNER_CAMP_LOCATION: "#low Kamp Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
+ RULER_DESIGNER_ESTATE_LOCATION: "#low Malikâne Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
+ RULER_DESIGNER_YURT_LOCATION: "#low Yurt Konumu:#! [LobbyView.GetSelectedPlayable.GetCharacter.GetCapitalLocation.GetNameNoTooltip]"
  RULER_DESIGNER_SEX:0 "Cinsiyet"
  RULER_DESIGNER_SEXUALITY:1 "[sexuality|E]"
  RULER_DESIGNER_SEXUALITY_NOT_AVAILABLE_INFO:0 "Çocuklar cinsel kimliklerini yaşları ilerledikçe kazanırlar"
@@ -34,10 +23,8 @@
  RULER_DESIGNER_TITLE_NAME_TIER:0 "[RulerDesignerWindow.GetTitleName] [RulerDesignerWindow.GetCharacterToOverwrite.GetPrimaryTitle.GetTierAsNameNoTooltip] "
  RULER_DESIGNER_TITLE_NAME_DEFINITE:0 "[RulerDesignerWindow.GetTitleName]"
  RULER_DESIGNER_TITLE_NAME:0 "[SelectLocalization( RulerDesignerWindow.TitleUsesDefiniteForm, 'RULER_DESIGNER_TITLE_NAME_DEFINITE', 'RULER_DESIGNER_TITLE_NAME_TIER' )]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_FULL_NAME [AGOT: [RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#![AddLocalizationIf( Not( RulerDesignerWindow.IsDesigningLandless ), 'RULER_DESIGNER_FULL_NAME_TITLE' )] | TR: [RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#![AddLocalizationIf( Not( RulerDesignerWindow.IsDesigningLandless ), 'RULER_DESIGNER_FULL_NAME_TITLE' )]]
  RULER_DESIGNER_FULL_NAME: "[RulerDesignerWindow.GetTitleTierName] #high [RulerDesignerWindow.GetFirstName] [RulerDesignerWindow.GetDynastyName]#![AddLocalizationIf( Not( RulerDesignerWindow.IsDesigningLandless ), 'RULER_DESIGNER_FULL_NAME_TITLE' )]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_FULL_NAME_TITLE [AGOT: of the $RULER_DESIGNER_TITLE_NAME$ | TR: ($RULER_DESIGNER_TITLE_NAME$)]
- RULER_DESIGNER_FULL_NAME_TITLE: " of the $RULER_DESIGNER_TITLE_NAME$"
+ RULER_DESIGNER_FULL_NAME_TITLE: " ($RULER_DESIGNER_TITLE_NAME$)"
  RULER_DESIGNER_FIRST_NAME_LABEL:1 "Verilen Ad:"
  RULER_DESIGNER_RANDOM_NAME_LABEL:1 "Rastgele Ad:"
  RULER_DESIGNER_RANDOM_NAME_FAITH_TOOLTIP:2 "#T Rastgele [Faith.GetAdjectiveNoTooltip] Adı#!"
@@ -45,8 +32,7 @@
  RULER_DESIGNER_DYNASTY_LABEL:1 "[dynasty|E]"
  RULER_DESIGNER_REALM_LABEL:1 "[realm|E]"
  RULER_DESIGNER_CHOOSE_CULTURE:0 "Kültür Seç"
-### TODO AGOT-CHANGED: RULER_DESIGNER_UPDATE_APPEARANCE [AGOT: Generate Appearance from selection | TR: Seçilenden görünüş yarat]
- RULER_DESIGNER_UPDATE_APPEARANCE: "Generate Appearance from selection"
+ RULER_DESIGNER_UPDATE_APPEARANCE: "Seçilenden görünüş yarat"
  CULTURE_RD_TOOLTIP_ETHOS:1 "[ethos|E]: [Culture.GetEthos.GetName]"
  RULER_DESIGNER_CHOOSE_FAITH:0 "Mezhep Seç"
  RULER_DESIGNER_RANDOMIZE_DYNASTY_NAME:1 "#T Rastgele Hanedan Adı#!"
@@ -64,7 +50,8 @@
  RULER_DESIGNER_POINTS_LIMIT_LABEL:0 "Başarım Sınırı: $RULER_DESIGNER_POINTS_LIMIT_VALUE$"
  RULER_DESIGNER_AGE_LABEL:0 "Yaş"
  RULER_DESIGNER_AGE:1 "#high [RulerDesignerWindow.GetAge]#!"
- RULER_DESIGNER_BIRTH_YEAR:0 "Doğum Tarihi: MS [RulerDesignerWindow.GetBirthYear]"
+### TODO AGOT-CHANGED: RULER_DESIGNER_BIRTH_YEAR [AGOT: Born: $YEAR_SEL_RULDESBIRTH$ $ERA_SEL_RULDESBIRTH$ | TR: Doğum Tarihi: MS [RulerDesignerWindow.GetBirthYear]]
+ RULER_DESIGNER_BIRTH_YEAR:0 "Born: $YEAR_SEL_RULDESBIRTH$ $ERA_SEL_RULDESBIRTH$"
  RULER_DESIGNER_WEIGHT_LABEL:0 "Kilo"
  RULER_DESIGNER_TRAITS_LABEL:1 "[traits|E]"
  RULER_DESIGNER_SKILLS_LABEL:1 "[skills|E]"
@@ -99,24 +86,15 @@
  RULER_DESIGNER_OVERWRITE_PORTRAIT_TITLE:0 "Portre Değişikliklerinin Üzerine Yaz"
  RULER_DESIGNER_OVERWRITE_PORTRAIT_BODY:0 "Mevcut portreye yapılan tüm özel değişikliklerin üzerine yazılacak, bunu yapmak istediğinizden emin misiniz?"
  RULER_DESIGNER_OVERWRITE_PORTRAIT_ACCEPT:0 "Evet"
-### TODO AGOT-CHANGED: RULER_DESIGNER_CATEGORY_anatomy [AGOT: Anatomy | TR: Anatomi]
- RULER_DESIGNER_CATEGORY_anatomy: "Anatomy"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_body [AGOT: Body | TR: Vücut]
- RULER_DESIGNER_GROUP_body: "Body"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_head_neck [AGOT: Head and Neck | TR: Baş ve Boyun]
- RULER_DESIGNER_GROUP_head_neck: "Head and Neck"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_face [AGOT: Facial Structure | TR: Yüz Yapısı]
- RULER_DESIGNER_GROUP_face: "Facial Structure"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_beard [AGOT: Beard | TR: Sakal]
- RULER_DESIGNER_GROUP_beard: "Beard"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_eyes [AGOT: Eyes | TR: Göz]
- RULER_DESIGNER_GROUP_eyes: "Eyes"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_nose [AGOT: Nose | TR: Burun]
- RULER_DESIGNER_GROUP_nose: "Nose"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_mouth [AGOT: Mouth | TR: Ağız]
- RULER_DESIGNER_GROUP_mouth: "Mouth"
-### TODO AGOT-CHANGED: RULER_DESIGNER_GROUP_ears [AGOT: Ears | TR: Kulak]
- RULER_DESIGNER_GROUP_ears: "Ears"
+ RULER_DESIGNER_CATEGORY_anatomy: "Anatomi"
+ RULER_DESIGNER_GROUP_body: "Vücut"
+ RULER_DESIGNER_GROUP_head_neck: "Baş ve Boyun"
+ RULER_DESIGNER_GROUP_face: "Yüz Yapısı"
+ RULER_DESIGNER_GROUP_beard: "Sakal"
+ RULER_DESIGNER_GROUP_eyes: "Göz"
+ RULER_DESIGNER_GROUP_nose: "Burun"
+ RULER_DESIGNER_GROUP_mouth: "Ağız"
+ RULER_DESIGNER_GROUP_ears: "Kulak"
  CANNOT_START_CLIENTS_RULER_DESIGNING:0 "$NAME$ hükümdar yaratmada [CHARACTER.GetUINameNoTooltip] adlı karakteri değiştiriyor"
  CANNOT_SELECT_BEING_RULER_DESIGNING:0 "$NAME$ hükümdar yaratmada bu karakteri değiştiriyor"
  arab:0 "Arap"
@@ -170,23 +148,18 @@
  RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_TOOLTIP_SHOW:0 "#T $RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL$#!\nSeçili saç ve sakalı karakter portresinde göster. Özelleştirme tamamlandığında uygulanmaya devam edecek.\n\n#I Gizlemek için tıklayın#!" #Ayro
  RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_TOOLTIP_HIDE:0 "#T $RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_LABEL$#!\nSeçili saç ve sakalı karakter portresinde gizle. Özelleştirme tamamlandığında uygulanmaya devam edecek.\n\n#I Göstermek için tıklayın#!" #Ayro
  RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_TOOLTIP:0 "[SelectLocalization( RulerDesignerWindow.ShouldShowAcesssories, 'RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_TOOLTIP_SHOW', 'RULER_DESIGNER_TOGGLE_SHOW_ACCESSORIES_TOOLTIP_HIDE' )]"
-### TODO AGOT-CHANGED: RULER_DESIGNER_CHANGE_ETHNICITY [AGOT: Change Ethnicity | TR: Etnik Kökeni Değiştir]
- RULER_DESIGNER_CHANGE_ETHNICITY: "Change Ethnicity"
+ RULER_DESIGNER_CHANGE_ETHNICITY: "Etnik Kökeni Değiştir"
  RULER_DESIGNER_ETHNICITY_NAME: "[RulerDesignerWindow.GetEthnicity.GetName]"
-### TODO AGOT-CHANGED: gene_baldness [AGOT: Baldness | TR: Kellik]
- gene_baldness: "Baldness"
-### TODO AGOT-CHANGED: no_baldness [AGOT: No Baldness | TR: Kellik Yok]
- no_baldness: "No Baldness"
-### TODO AGOT-CHANGED: male_pattern_baldness [AGOT: Male Pattern Baldness | TR: Erkek Tipi Kellik]
- male_pattern_baldness: "Male Pattern Baldness"
-### TODO AGOT-CHANGED: eye_fold_shape_neg [AGOT: Eye Fold Shape Type 1 | TR: Göz Kapağı Kıvrımı Tip 1]
- eye_fold_shape_neg: "Eye Fold Shape Type 1"
-### TODO AGOT-CHANGED: eye_fold_shape_02_neg [AGOT: Eye Fold Shape Type 2 | TR: Göz Kapağı Kıvrımı Tip 2]
- eye_fold_shape_02_neg: "Eye Fold Shape Type 2"
+ gene_baldness: "Kellik"
+ no_baldness: "Kellik Yok"
+ male_pattern_baldness: "Erkek Tipi Kellik"
+ eye_fold_shape_neg: "Göz Kapağı Kıvrımı Tip 1"
+ eye_fold_shape_02_neg: "Göz Kapağı Kıvrımı Tip 2"
  gene_bs_body_type:0 "Vücut Yağı"
  body_fat_head_fat_low:0 "Az"
  body_fat_head_fat_full:0 "Çok"
- gene_bs_body_shape:1 "Kas"
+### TODO AGOT-CHANGED: gene_bs_body_shape [AGOT: Body Shape | TR: Kas]
+ gene_bs_body_shape:1 "Body Shape"
  gene_bs_bust:0 "Göğüs Büyüklüğü"
  gene_forehead_angle:0 "Alın Açısı"
  gene_forehead_roundness:0 "Alın Yuvarlaklığı"
@@ -214,26 +187,22 @@
  gene_bs_jaw_def:0 "Çene Belirginliği"
  gene_bs_nose_forward:0 "Burun Çıkıklığı"
  gene_bs_nose_length:0 "Burun Uzunluğu"
-### TODO AGOT-CHANGED: cheek_def_01 [AGOT: Sharper Cheekbone | TR: 0]
- cheek_def_01: "Sharper Cheekbone"
-### TODO AGOT-CHANGED: cheek_def_02 [AGOT: Rounder Cheekbone | TR: 0]
- cheek_def_02: "Rounder Cheekbone"
-### TODO AGOT-CHANGED: cheek_fat_01_pos [AGOT: Even Distribution | TR: 0]
- cheek_fat_01_pos: "Even Distribution"
-### TODO AGOT-CHANGED: cheek_fat_02_pos [AGOT: Lower Distribution | TR: 0]
- cheek_fat_02_pos: "Lower Distribution"
-### TODO AGOT-CHANGED: cheek_fat_03_pos [AGOT: Upper Distribution | TR: 0]
- cheek_fat_03_pos: "Upper Distribution"
-### TODO AGOT-CHANGED: cheek_fat_04_pos [AGOT: Forward Distribution | TR: 0]
- cheek_fat_04_pos: "Forward Distribution"
-### TODO AGOT-CHANGED: cheek_fat_01_neg [AGOT: Reduced Distribution | TR: 0]
- cheek_fat_01_neg: "Reduced Distribution"
+ cheek_def_01:0 "Daha Keskin Elmacık Kemiği"
+ cheek_def_02:0 "Daha Yuvarlak Elmacık Kemiği"
+ cheek_fat_01_pos:0 "Eşit Dağılım"
+ cheek_fat_02_pos:0 "Alta Doğru"
+ cheek_fat_03_pos:0 "Yukarıya Doğru"
+ cheek_fat_04_pos:0 "Öne Doğru"
+ cheek_fat_01_neg:0 "Azaltılmış"
  eye_socket_01:0 "Yuva Türü 1"
  eye_socket_02:0 "Yuva Türü 2"
  eye_socket_03:0 "Yuva Türü 3"
- eye_socket_color_01:0 "Kara Yuva Türü 1"
- eye_socket_color_02:0 "Kara Yuva Türü 2"
- eye_socket_color_03:0 "Kara Yuva Türü 3"
+### TODO AGOT-CHANGED: eye_socket_color_01 [AGOT: Socket Darker Type 1 | TR: Kara Yuva Türü 1]
+ eye_socket_color_01:0 "Socket Darker Type 1"
+### TODO AGOT-CHANGED: eye_socket_color_02 [AGOT: Socket Darker Type 2 | TR: Kara Yuva Türü 2]
+ eye_socket_color_02:0 "Socket Darker Type 2"
+### TODO AGOT-CHANGED: eye_socket_color_03 [AGOT: Socket Darker Type 3 | TR: Kara Yuva Türü 3]
+ eye_socket_color_03:0 "Socket Darker Type 3"
  gene_eyebrows_shape:0 "Kaş Şekli"
  no_eyebrows:0 "Kaş Yok"
  gene_eyebrows_fullness:0 "Kaş Dolgunluğu"
@@ -268,53 +237,31 @@
  RULER_DESIGNER_LOAD_WINDOW_DETAILS_FAMILY_DESC:0 "[Select_CString(SaveRulerItem.IsMarried, 'Evli', 'Bekâr')][SaveRulerItem.GetSonsDesc][SaveRulerItem.GetDaughtersDesc]"
  RULER_DESIGNER_LOAD_WINDOW_DETAILS_SKILLS:0 "$RULER_DESIGNER_SKILLS_LABEL$"
  RULER_DESIGNER_LOAD_WINDOW_DETAILS_TRAITS:0 "$RULER_DESIGNER_TRAITS_LABEL$"
-### TODO AGOT-CHANGED: RULER_DESIGNER_LOAD_WINDOW_LOAD_ALL_OPTION [AGOT: Load all | TR: Hepsini yükle]
- RULER_DESIGNER_LOAD_WINDOW_LOAD_ALL_OPTION: "Load all"
-### TODO AGOT-CHANGED: RULER_DESIGNER_LOAD_WINDOW_LOAD_TRAITS_OPTION [AGOT: Load traits | TR: Özellikleri yükle]
- RULER_DESIGNER_LOAD_WINDOW_LOAD_TRAITS_OPTION: "Load traits"
-### TODO AGOT-CHANGED: RULER_DESIGNER_LOAD_WINDOW_LOAD_DNA_OPTION [AGOT: Load appearance | TR: Görünüşü yükle]
- RULER_DESIGNER_LOAD_WINDOW_LOAD_DNA_OPTION: "Load appearance"
+ RULER_DESIGNER_LOAD_WINDOW_LOAD_ALL_OPTION: "Hepsini yükle"
+ RULER_DESIGNER_LOAD_WINDOW_LOAD_TRAITS_OPTION: "Özellikleri yükle"
+ RULER_DESIGNER_LOAD_WINDOW_LOAD_DNA_OPTION: "Görünüşü yükle"
  RULER_DESIGNER_LOAD_WINDOW_DELETE_FILE:0 "Hükümdarı Sil"
  RULER_DESIGNER_LOAD_WINDOW_DELETE_CONFIRMATION:0 "Hükümdarı Sil"
  RULER_DESIGNER_LOAD_WINDOW_DELETE_CONFIRMATION_DESC:0 "$NAME|V$ dosyası silinecek. Emin misiniz?"
-### TODO AGOT-CHANGED: RULER_DESIGNER_YOUR_RULERS [AGOT: Your rulers | TR: Hükümdarlarınız]
- RULER_DESIGNER_YOUR_RULERS: "Your rulers"
+ RULER_DESIGNER_YOUR_RULERS: "Hükümdarlarınız"
  RULER_DESIGNER_SAVE_RULER:0 "Kaydet"
  RULER_DESIGNER_LOAD_RULER:0 "Yükle"
  SLASH:0 "/"
-### TODO AGOT-CHANGED: RULER_DESIGNER_CHARACTER_WARNING_CHINA [AGOT: @warning_icon! #N Women cannot become [governors|e]. | TR: @warning_icon! #N Kadınlar [governor|e] olamaz.]
- RULER_DESIGNER_CHARACTER_WARNING_CHINA: "@warning_icon! #N Women cannot become [governors|e]."
-### TODO AGOT-CHANGED: RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED [AGOT: @warning_icon! #N Men cannot become [governors|e]. | TR: @warning_icon! #N Erkekler [governor|e] olamaz.]
- RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED: "@warning_icon! #N Men cannot become [governors|e]."
-### TODO AGOT-CHANGED: RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED_EXPLAINER [AGOT: #weak This is because of your [GuiGameRule.GetRule.GetName]: [GuiGameRule.GetSetting.GetName] Game Rule. | TR: #weak Çünkü [GuiGameRule.GetRule.GetName] oyun kuralında şu seçenek seçili: [GuiGameRule.GetSetting.GetName]]
- RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED_EXPLAINER: "#weak This is because of your [GuiGameRule.GetRule.GetName]: [GuiGameRule.GetSetting.GetName] Game Rule."
-### TODO AGOT-CHANGED: RULER_DESIGNER_LIGHTING [AGOT: Lighting | TR: Aydınlatma]
- RULER_DESIGNER_LIGHTING: "Lighting"
-### TODO AGOT-CHANGED: RULER_DESIGNER_LIGHTING_TT [AGOT: Change lighting of the portrait | TR: Portre aydınlatmasını değiştir]
- RULER_DESIGNER_LIGHTING_TT: "Change lighting of the portrait"
-### TODO AGOT-CHANGED: RULER_DESIGNER_SOLID_BACKGROUND [AGOT: Solid background | TR: Düz arka plan]
- RULER_DESIGNER_SOLID_BACKGROUND: "Solid background"
-### TODO AGOT-CHANGED: RULER_DESIGNER_STRAIGHT_PROFILE [AGOT: Straight profile | TR: Düz profil]
- RULER_DESIGNER_STRAIGHT_PROFILE: "Straight profile"
-### TODO AGOT-CHANGED: RULER_DESIGNER_STRAIGHT_PROFILE_TT [AGOT: Turn the profile portrait to 90 degrees | TR: Profil portresini 90 derece döndür]
- RULER_DESIGNER_STRAIGHT_PROFILE_TT: "Turn the profile portrait to 90 degrees"
-### TODO AGOT-CHANGED: RULER_DESIGNER_HIDE_PROFILE [AGOT: [Select_CString(GetVariableSystem.Exists('hide_rd_profile'), 'Show', 'Hide')] profile | TR: Profili [Select_CString(GetVariableSystem.Exists('hide_rd_profile'), 'Göster', 'Gizle')]]
- RULER_DESIGNER_HIDE_PROFILE: "[Select_CString(GetVariableSystem.Exists('hide_rd_profile'), 'Show', 'Hide')] profile"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ZOOM_IN_TIP [AGOT: Zoom in with mouse wheel | TR: Fare tekerleğiyle yakınlaştır]
- RULER_DESIGNER_ZOOM_IN_TIP: "Zoom in with mouse wheel"
-### TODO AGOT-CHANGED: RULER_DESIGNER_AUTO_HIDE [AGOT: Hide panel | TR: Paneli gizle]
- RULER_DESIGNER_AUTO_HIDE: "Hide panel"
-### TODO AGOT-CHANGED: RULER_DESIGNER_AUTO_HIDE_TT [AGOT: The panel will hide when you move the cursor away.\nHover over it to show again | TR: İmleci uzaklaştırdığınızda panel gizlenir.\nTekrar göstermek için üzerine gelin]
- RULER_DESIGNER_AUTO_HIDE_TT: "The panel will hide when you move the cursor away.\nHover over it to show again"
-### TODO AGOT-CHANGED: RULER_DESIGNER_HIDE_UI_TT [AGOT: Hide all panels | TR: Tüm panelleri gizle]
- RULER_DESIGNER_HIDE_UI_TT: "Hide all panels"
-### TODO AGOT-CHANGED: RULER_DESIGNER_BIG_SLIDER_TT [AGOT: Click to adjust this gene with a big slider.\nIt can use mousewheel to adjust more precisely | TR: Bu geni büyük bir kaydırıcıyla ayarlamak için tıklayın.\nDaha hassas ayarlamak için fare tekerleğini kullanabilirsiniz]
- RULER_DESIGNER_BIG_SLIDER_TT: "Click to adjust this gene with a big slider.\nIt can use mousewheel to adjust more precisely"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ROTATE_UP [AGOT: Rotate up | TR: Yukarı döndür]
- RULER_DESIGNER_ROTATE_UP: "Rotate up"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ROTATE_DOWN [AGOT: Rotate down | TR: Aşağı döndür]
- RULER_DESIGNER_ROTATE_DOWN: "Rotate down"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ROTATE_LEFT [AGOT: Rotate left | TR: Sola döndür]
- RULER_DESIGNER_ROTATE_LEFT: "Rotate left"
-### TODO AGOT-CHANGED: RULER_DESIGNER_ROTATE_RIGHT [AGOT: Rotate right | TR: Sağa döndür]
- RULER_DESIGNER_ROTATE_RIGHT: "Rotate right"
+ RULER_DESIGNER_CHARACTER_WARNING_CHINA: "@warning_icon! #N Kadınlar [governor|e] olamaz."
+ RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED: "@warning_icon! #N Erkekler [governor|e] olamaz."
+ RULER_DESIGNER_CHARACTER_WARNING_CHINA_INVERSED_EXPLAINER: "#weak Çünkü [GuiGameRule.GetRule.GetName] oyun kuralında şu seçenek seçili: [GuiGameRule.GetSetting.GetName]"
+ RULER_DESIGNER_LIGHTING: "Aydınlatma"
+ RULER_DESIGNER_LIGHTING_TT: "Portre aydınlatmasını değiştir"
+ RULER_DESIGNER_SOLID_BACKGROUND: "Düz arka plan"
+ RULER_DESIGNER_STRAIGHT_PROFILE: "Düz profil"
+ RULER_DESIGNER_STRAIGHT_PROFILE_TT: "Profil portresini 90 derece döndür"
+ RULER_DESIGNER_HIDE_PROFILE: "Profili [Select_CString(GetVariableSystem.Exists('hide_rd_profile'), 'Göster', 'Gizle')]"
+ RULER_DESIGNER_ZOOM_IN_TIP: "Fare tekerleğiyle yakınlaştır"
+ RULER_DESIGNER_AUTO_HIDE: "Paneli gizle"
+ RULER_DESIGNER_AUTO_HIDE_TT: "İmleci uzaklaştırdığınızda panel gizlenir.\nTekrar göstermek için üzerine gelin"
+ RULER_DESIGNER_HIDE_UI_TT: "Tüm panelleri gizle"
+ RULER_DESIGNER_BIG_SLIDER_TT: "Bu geni büyük bir kaydırıcıyla ayarlamak için tıklayın.\nDaha hassas ayarlamak için fare tekerleğini kullanabilirsiniz"
+ RULER_DESIGNER_ROTATE_UP: "Yukarı döndür"
+ RULER_DESIGNER_ROTATE_DOWN: "Aşağı döndür"
+ RULER_DESIGNER_ROTATE_LEFT: "Sola döndür"
+ RULER_DESIGNER_ROTATE_RIGHT: "Sağa döndür"

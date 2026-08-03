@@ -5,24 +5,14 @@
  reduce_develop_county_penalty_03:0 "Kontluklar artık maksimum [existing_development|E] cezasını #V 55#! [development|E]te alır"
  reduce_develop_county_penalty_04:0 "Kontluklar artık maksimum [existing_development|E] cezasını #V 90#! [development|E]te alır"
  unlock_march_contract:0 "#high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )]#! [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] açar"
-### TODO AGOT-CHANGED: unlock_castellan_contract [AGOT: Unlocks the #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#! [vassal_contract|E] | TR: #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#! [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] açar]
- unlock_castellan_contract: "Unlocks the #high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#! [vassal_contract|E]"
+ unlock_castellan_contract: "#high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )]#! [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] açar"
  unlock_scutage_contract:0 "#high [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )]#! [Concept( 'vassal_contract', 'vasal sözleşmesini' )|E] açar"
-### TODO AGOT-CHANGED: unlock_maa_armored_footmen [AGOT: Can recruit [GetMaA('armored_footmen').GetName] as [men_at_arms|E] | TR: [Concept( 'men_at_arms', 'Düzenli Asker' )|E] olarak [GetMaA('armored_footmen').GetName] üretilebilir]
- unlock_maa_armored_footmen: "Can recruit [GetMaA('armored_footmen').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_onager [AGOT: Can recruit [GetMaA('onager').GetName] as [men_at_arms|E] | TR: [GetMaA('onager').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
- unlock_maa_onager: "Can recruit [GetMaA('onager').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_armored_horsemen [AGOT: Can recruit [GetMaA('armored_horsemen').GetName] as [men_at_arms|E] | TR: [GetMaA('armored_horsemen').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
- unlock_maa_armored_horsemen: "Can recruit [GetMaA('armored_horsemen').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_crossbowmen [AGOT: Can recruit [GetMaA('crossbowmen').GetName] as [men_at_arms|E] | TR: [GetMaA('crossbowmen').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
- unlock_maa_crossbowmen: "Can recruit [GetMaA('crossbowmen').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_cloud_ladder [AGOT: Can recruit [GetMaA('cloud_ladder').GetName] as [men_at_arms|E] | TR: [GetMaA('cloud_ladder').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
-  unlock_maa_cloud_ladder: "Can recruit [GetMaA('cloud_ladder').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_cannon [AGOT: Can recruit [GetMaA('cannon').GetName] as [men_at_arms|E] | TR: [GetMaA('cannon').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
-  unlock_maa_cannon: "Can recruit [GetMaA('cannon').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_bombard [AGOT: Can recruit [GetMaA('bombard').GetName] as [men_at_arms|E] | TR: [GetMaA('bombard').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
-  unlock_maa_bombard: "Can recruit [GetMaA('bombard').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_trebuchet [AGOT: Can recruit [GetMaA('trebuchet').GetName] as [men_at_arms|E] | TR: [GetMaA('trebuchet').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
-  unlock_maa_trebuchet: "Can recruit [GetMaA('trebuchet').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_mangonel [AGOT: Can recruit [GetMaA('mangonel').GetName] as [men_at_arms|E] | TR: [GetMaA('mangonel').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar]
-  unlock_maa_mangonel: "Can recruit [GetMaA('mangonel').GetName] as [men_at_arms|E]"
+ unlock_maa_armored_footmen: "[Concept( 'men_at_arms', 'Düzenli Asker' )|E] olarak [GetMaA('armored_footmen').GetName] üretilebilir"
+ unlock_maa_onager: "[GetMaA('onager').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_armored_horsemen: "[GetMaA('armored_horsemen').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_crossbowmen: "[GetMaA('crossbowmen').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_cloud_ladder: "[GetMaA('cloud_ladder').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_cannon: "[GetMaA('cannon').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_bombard: "[GetMaA('bombard').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_trebuchet: "[GetMaA('trebuchet').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"
+ unlock_maa_mangonel: "[GetMaA('mangonel').GetName] [Concept( 'men_at_arms', 'Düzenli Askerini' )|E] açar"

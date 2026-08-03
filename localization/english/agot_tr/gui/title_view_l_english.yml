@@ -20,50 +20,40 @@
  TITLE_VIEW_NO_DEJURE_COUNTIES:0 "Seçilen [Concept( 'title', 'Unvanın' )|E] herhangi bir De Jure [Concept( 'county', 'Kontluğu' )|E] yok"
  TITLE_VIEW_COUNTIES:0 "$PERCENTAGE|0%VL$ De Jure [county|E] gerekiyor: $MINIMUM|V$ (siz $CURRENT|V$ kadarına sahipsiniz)"
  TITLE_VIEW_COUNTIES_DETAILED:0 "$TOTAL|V$ [de_jure|E] [Concept( 'counties', 'Kontluktan' )|E] en az $MINIMUM|V$ kadarı gerekiyor ($PERCENTAGE|0%V$) \nSiz $OWNED|V$ [Concept( 'counties', 'Kontluğa' )|E] sahipsiniz."
-### TODO AGOT-CHANGED: TITLE_VIEW_COUNTIES_DETAILED_PERCENTAGE_BREAKDOWN_HEADER [AGOT: \n\n[county|E] ownership requirement:\n | TR: \n\n[county|E] sahiplik şartı:\n]
- TITLE_VIEW_COUNTIES_DETAILED_PERCENTAGE_BREAKDOWN_HEADER: "\n\n[county|E] ownership requirement:\n"
-### TODO AGOT-CHANGED: TITLE_VIEW_TRIBUTARIES_COUNTIES [AGOT: Your [tributary|E] [counties|E] : $NUM|V$\n#weak You always need at least one [de_jure|E] [county|E]#! | TR: [tributary|E] [Concept('counties', 'Kontluklarınız')|E] : $NUM|V$\n#weak Her zaman en az bir [de_jure|E] [county|E] gereklidir#!]
- TITLE_VIEW_TRIBUTARIES_COUNTIES: "Your [tributary|E] [counties|E] : $NUM|V$\n#weak You always need at least one [de_jure|E] [county|E]#!"
+ TITLE_VIEW_COUNTIES_DETAILED_PERCENTAGE_BREAKDOWN_HEADER: "\n\n[county|E] sahiplik şartı:\n"
+ TITLE_VIEW_TRIBUTARIES_COUNTIES: "[tributary|E] [Concept('counties', 'Kontluklarınız')|E] : $NUM|V$\n#weak Her zaman en az bir [de_jure|E] [county|E] gereklidir#!"
  TITLE_VIEW_GOLD_TEXT:0 "[gold_i]$VALUE|0V$"
  TITLE_VIEW_TREASURY_TEXT: "[treasury_i]$VALUE|0V$"
-### TODO AGOT-CHANGED: TITLE_VIEW_GAIN_TEXT [AGOT: Gives [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$ | TR: [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazandırır]
- TITLE_VIEW_GAIN_TEXT: "Gives [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$"
+ TITLE_VIEW_GAIN_TEXT: "[prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazandırır"
  TITLE_VIEW_CLAIMANTS:1 "Hak Sahipleri: [TitleViewWindow.GetNumberOfClaimants]"
  TITLE_VIEW_NO_CLAIMANTS:0 "Hak sahibi olamaz"
  TITLE_VIEW_NO_CLAIMANTS_TOOLTIP:0 "#T $TITLE_VIEW_NO_CLAIMANTS$\n#!Bazı [Concept( 'titles', 'unvanlarda' )|E] [claimant|E] olamaz: \n$BULLET_WITH_TAB$Tüm [baronies|E]\n$BULLET_WITH_TAB$[mercenary_company|E] Unvanları\n$BULLET_WITH_TAB$[holy_order|E] Unvanları\n$BULLET_WITH_TAB$[head_of_faith|E] Unvanları"
- TITLE_VIEW_TITLE_HISTORY_LABEL:2 "[Title.GetBaseName] Tarihi"
+### TODO AGOT-CHANGED: TITLE_VIEW_TITLE_HISTORY_LABEL [AGOT: [SelectLocalization( Title.MakeScope.Var('is_pirate_domicile').IsSet, 'TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP', 'TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP' )] | TR: [Title.GetBaseName] Tarihi]
+ TITLE_VIEW_TITLE_HISTORY_LABEL:2 "[SelectLocalization( Title.MakeScope.Var('is_pirate_domicile').IsSet, 'TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP', 'TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP' )]"
  TITLE_VIEW_SHOW_ELECTION_TT:2 "#T Seçimi Göster#!"
  TITLE_VIEW_CLEAR_LAWS:0 "Yasayı Kaldır"
  TITLE_VIEW_CLEAR_LAWS_TOOTLIP_TITLE:0 "#T [title_succession|E] Yasasını Temizle#!"
  TITLE_VIEW_CLEAR_CLICK:0 "#I [title_succession|E] Yasasını temizlemek için tıklayın#!"
  TITLE_VIEW_CLEAR_LAWS_TITLE:0 "[TITLE.GetNameNoTooltip] unvanından Yasayı Kaldırın"
-### TODO AGOT-CHANGED: TITLE_VIEW_CLEAR_LAWS_TEXT [AGOT: Succession for [TITLE.GetName] will no longer have its own Title Succession, but instead be inherited along your [realm|E]'s [succession_law|E]\n\nCost:\n$COST|0V$\n$EFFECTS$ | TR: [TITLE.GetName] veraseti artık kendi unvan verasetine sahip olmayacak, bunun yerine sizin [Concept( 'realm', 'Ülkenizin' )|E] [Concept( 'succession_law', 'Veraset Yasasına' )|E] uyacak\n\nMaliyet:\n$COST|0V$\n$EFFECTS$]
- TITLE_VIEW_CLEAR_LAWS_TEXT: "Succession for [TITLE.GetName] will no longer have its own Title Succession, but instead be inherited along your [realm|E]'s [succession_law|E]\n\nCost:\n$COST|0V$\n$EFFECTS$"
+ TITLE_VIEW_CLEAR_LAWS_TEXT: "[TITLE.GetName] veraseti artık kendi unvan verasetine sahip olmayacak, bunun yerine sizin [Concept( 'realm', 'Ülkenizin' )|E] [Concept( 'succession_law', 'Veraset Yasasına' )|E] uyacak\n\nMaliyet:\n$COST|0V$\n$EFFECTS$"
  TITLE_VIEW_CLEAR_LAWS_ACCEPT:0 "Kaldır"
-### TODO AGOT-CHANGED: CREATE_TITLE_GOLD_TITLE [AGOT: Create the [TITLE.GetBaseNameNoTooltip] | TR: [TITLE.GetBaseNameNoTooltip] Unvanını Oluştur]
- CREATE_TITLE_GOLD_TITLE: "Create the [TITLE.GetBaseNameNoTooltip]"
+ CREATE_TITLE_GOLD_TITLE: "[TITLE.GetBaseNameNoTooltip] Unvanını Oluştur"
  CREATE_TITLE_TREASURY_TITLE: "$CREATE_TITLE_GOLD_TITLE$"
  DESTROY_TITLE_TITLE:1 "[TITLE.GetBaseNameNoTooltip] Unvanını Yok Et"
-### TODO AGOT-CHANGED: DESTROY_TITLE_TEXT [AGOT: The Title will be destroyed\n\n$OPINION$\n$LEGITIMACY$\n\nCost: [prestige_i]$PRESTIGE|0V$ | TR: Bu unvan yok edilecek.\n\n$OPINION$\n$LEGITIMACY$\n\nMaliyet: [prestige_i]$PRESTIGE|0V$]
- DESTROY_TITLE_TEXT: "The Title will be destroyed\n\n$OPINION$\n$LEGITIMACY$\n\nCost: [prestige_i]$PRESTIGE|0V$"
-### TODO AGOT-CHANGED: DESTROY_TITLE_ACCEPT [AGOT: Destroy | TR: Yok Et]
- DESTROY_TITLE_ACCEPT: "Destroy"
+ DESTROY_TITLE_TEXT: "Bu unvan yok edilecek.\n\n$OPINION$\n$LEGITIMACY$\n\nMaliyet: [prestige_i]$PRESTIGE|0V$"
+ DESTROY_TITLE_ACCEPT: "Yok Et"
  DESTROY_TITLE_TOOLTIP_TITLE:1 "#T [TITLE.GetBaseName] Unvanını Yok Et#!"
  DESTROY_TITLE_LEGITIMACY_LOSS: "$BULLET$ [legitimacy|E]: [legitimacy_i]$LEGITIMACY|0+$"
  DESTROY_TITLE_COST:0 "Maliyet: [prestige_i]$PRESTIGE|0V$"
  DESTROY_TITLE_BLOCKER_PRIMARY_TITLE:1 "@warning_icon! #X Kendi [primary_title]ınızı yok edemezsiniz.#!"
  DESTROY_TITLE_REASON_CONTESTED:0 "@warning_icon! #X Üzerinde savaşılıyorken yok edilemez#!"
  CREATE_TITLE_TOOLTIP_TITLE:1 "#T [TITLE.GetBaseNameNoTooltip] Unvanını Oluştur#!"
-### TODO AGOT-CHANGED: CREATE_TITLE_GOLD_TEXT [AGOT: You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [gold_i]$VALUE|0V$ | TR: [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [gold_i]$VALUE|0V$]
- CREATE_TITLE_GOLD_TEXT: "You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [gold_i]$VALUE|0V$"
-### TODO AGOT-CHANGED: CREATE_TITLE_TREASURY_TEXT [AGOT: You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [treasury_i]$VALUE|0V$ | TR: [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [treasury_i]$VALUE|0V$]
- CREATE_TITLE_TREASURY_TEXT: "You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [treasury_i]$VALUE|0V$"
+ CREATE_TITLE_GOLD_TEXT: "[prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [gold_i]$VALUE|0V$"
+ CREATE_TITLE_TREASURY_TEXT: "[prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [treasury_i]$VALUE|0V$"
  CREATE_TITLE_GOLD_ACCEPT: "$CREATE$"
  CREATE_TITLE_TREASURY_ACCEPT: "$CREATE$"
-### TODO AGOT-CHANGED: CREATE_TITLE_TEXT [AGOT: You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\n[AddLocalizationIf( And( HasDlcFeature( 'coronations' ), CoronationCharacter( GetPlayer ) ), 'UNCROWNED_TITLE_GAIN_WARNING', )]\n\nCost: [gold_i]$GOLD|0V$ | TR: [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\n[AddLocalizationIf( And( HasDlcFeature( 'coronations' ), CoronationCharacter( GetPlayer ) ), 'UNCROWNED_TITLE_GAIN_WARNING', )]\n\nMaliyet: [gold_i]$GOLD|0V$]
- CREATE_TITLE_TEXT: "You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\n[AddLocalizationIf( And( HasDlcFeature( 'coronations' ), CoronationCharacter( GetPlayer ) ), 'UNCROWNED_TITLE_GAIN_WARNING', )]\n\nCost: [gold_i]$GOLD|0V$"
-### TODO AGOT-CHANGED: UNCROWNED_TITLE_GAIN_WARNING [AGOT: #EMP @alert_icon! When increasing your [title|E] [title_tier|E] to [kingdom|E] or [empire|E], you become [GetLaw('uncrowned').GetName] until you hold a [coronation|E]#! | TR: #EMP @alert_icon! [title|E] [Concept('title_tier', 'Seviyeniz')|E] [kingdom|E] veya [empire|E] seviyesine çıktığında, bir [coronation|E] düzenleyene dek [GetLaw('uncrowned').GetName] sayılırsınız#!]
- UNCROWNED_TITLE_GAIN_WARNING: "#EMP @alert_icon! When increasing your [title|E] [title_tier|E] to [kingdom|E] or [empire|E], you become [GetLaw('uncrowned').GetName] until you hold a [coronation|E]#!"
+ CREATE_TITLE_TEXT: "[prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\n[AddLocalizationIf( And( HasDlcFeature( 'coronations' ), CoronationCharacter( GetPlayer ) ), 'UNCROWNED_TITLE_GAIN_WARNING', )]\n\nMaliyet: [gold_i]$GOLD|0V$"
+ UNCROWNED_TITLE_GAIN_WARNING: "#EMP @alert_icon! [title|E] [Concept('title_tier', 'Seviyeniz')|E] [kingdom|E] veya [empire|E] seviyesine çıktığında, bir [coronation|E] düzenleyene dek [GetLaw('uncrowned').GetName] sayılırsınız#!"
  CREATE_TITLE_ACCEPT: "$CREATE$"
  CREATE_TITLE_HAS_HOLDER:0 "[CHARACTER.GetUIName] zaten bu unvana [Select_CString( CHARACTER.IsLocalPlayer, 'sahipsiniz', 'sahip' )]"
  CREATE_TITLE_NO_DEJURE_COUNTIES:0 "@warning_icon! #X [TITLE.GetName] herhangi bir [de_jure|E] [Concept( 'county', 'Kontluğa' )|E] sahip değil.#!"
@@ -71,18 +61,15 @@
  CREATE_TITLE_OR_CONDITION_REASON:1 "@warning_icon! #X    $REQUIRED$ [ConceptByKey('$TIERNAME|q$')|E] [Concept( 'title', 'Unvanı' )|E] #weak (Şu anda: $COUNTED$)#!#!"
  CREATE_TITLE_OR_CONDITION_REASON_REGULAR:0 "$REQUIRED$ [ConceptByKey('$TIERNAME|q$')|E] [Concept( 'title', 'Unvanı' )|E] #weak (Şu anda: $COUNTED$)#!"
  CREATE_TITLE_GOLD:0 "@warning_icon! #X [gold_i]$VALUE|0V$ gerekiyor#!"
-### TODO AGOT-CHANGED: CREATE_TITLE_TREASURY [AGOT: @warning_icon! #X Requires [treasury_i]$VALUE|0V$#! | TR: @warning_icon! #X [treasury_i]$VALUE|0V$ gerekiyor#!]
- CREATE_TITLE_TREASURY: "@warning_icon! #X Requires [treasury_i]$VALUE|0V$#!"
+ CREATE_TITLE_TREASURY: "@warning_icon! #X [treasury_i]$VALUE|0V$ gerekiyor#!"
  CREATE_TITLE_PIETY:0 "@warning_icon! #X [piety_i]$VALUE|0V$ gerekiyor#!"
  CREATE_TITLE_COUNTIES_REQUIRED:1 "@warning_icon! #X $LIMIT$ [county|E] gerekiyorken sizde $CURRENT$ tane var#!"
-### TODO AGOT-CHANGED: CREATE_TITLE_FAIL_REASON_CONFEDERATION [AGOT: @warning_icon! #X You are a member of a [confederation|e]#! | TR: @warning_icon! #X [confederation|e] üyesisiniz#!]
- CREATE_TITLE_FAIL_REASON_CONFEDERATION: "@warning_icon! #X You are a member of a [confederation|e]#!"
+ CREATE_TITLE_FAIL_REASON_CONFEDERATION: "@warning_icon! #X [confederation|e] üyesisiniz#!"
  TITLE_VIEW_TT_SELECT_HOLDING:0 "#T Yerleşimi Seç#!"
  TITLE_VIEW_USURP_TITLE:0 "Gasp Et"
  USURP_TITLE_TITLE:1 "[TITLE.GetBaseNameNoTooltip] unvanını Gasp Et"
  USURP_TITLE_TOOLTIP_TITLE:1 "#T [TITLE.GetBaseName] unvanını Gasp Et#!"
-### TODO AGOT-CHANGED: USURP_TITLE_TEXT [AGOT: Usurp [TITLE.GetName] from [TITLE.GetHolder.GetUIName].\n Cost:\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nI will gain [prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName] will lose [legitimacy|E]. | TR: Sahibi [TITLE.GetHolder.GetTitledFirstName] olan [TITLE.GetName] unvanını gasp et.\n Maliyet:\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\n[prestige_i]$PRESTIGE|0V$ kazanacağım\n\n[TITLE.GetHolder.GetUIName] [legitimacy|E] kaybedecek.]
- USURP_TITLE_TEXT: "Usurp [TITLE.GetName] from [TITLE.GetHolder.GetUIName].\n Cost:\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\nI will gain [prestige_i]$PRESTIGE|0V$\n\n[TITLE.GetHolder.GetUIName] will lose [legitimacy|E]."
+ USURP_TITLE_TEXT: "Sahibi [TITLE.GetHolder.GetTitledFirstName] olan [TITLE.GetName] unvanını gasp et.\n Maliyet:\n[SelectLocalization( Or( GetPlayer.GetGovernment.IsType( 'celestial_government' ), Or(GetPlayer.GetGovernment.IsType( 'meritocratic_government' ), GetPlayer.GetGovernment.IsType( 'administrative_government' ))), 'USURP_TITLE_DESC_TREASURY', 'USURP_TITLE_DESC_GOLD')]$GOLD|0V$\n\n[prestige_i]$PRESTIGE|0V$ kazanacağım\n\n[TITLE.GetHolder.GetUIName] [legitimacy|E] kaybedecek."
  USURP_TITLE_DESC_GOLD: "[gold_i]"
  USURP_TITLE_DESC_TREASURY: "[treasury_i]"
  USURP_TITLE_ACCEPT:0 "Gasp Et"
@@ -90,10 +77,8 @@
  DESTROY_TITLE_VASSAL_OPINION:2 "$BULLET$ [TITLE.GetName] [de_jure|E] [Concept( 'vassals', 'Vasallarının' )|E] size karşı görüşleri $TIME|V$ yıl boyunca $OPINION_CHANGE|N$ azalacak."
  CREATE_TITLE_TOOLTIP_GAIN:1 "Oluşturulduğunda [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanırsınız\n\n[AddLocalizationIf( And( HasDlcFeature( 'coronations' ), CoronationCharacter( GetPlayer ) ), 'UNCROWNED_TITLE_GAIN_WARNING', )]"
  CREATE_TITLE_COST:0 "Maliyet: [gold_i]$GOLD|0V$"
-### TODO AGOT-CHANGED: CREATE_TITLE_COST_GOLD [AGOT: Cost: [gold_i]$VALUE|0V$ | TR: Maliyet: [gold_i]$VALUE|0V$]
- CREATE_TITLE_COST_GOLD: "Cost: [gold_i]$VALUE|0V$"
-### TODO AGOT-CHANGED: CREATE_TITLE_COST_TREASURY [AGOT: Cost: [treasury_i]$VALUE|0V$ | TR: Maliyet: [treasury_i]$VALUE|0V$]
- CREATE_TITLE_COST_TREASURY: "Cost: [treasury_i]$VALUE|0V$"
+ CREATE_TITLE_COST_GOLD: "Maliyet: [gold_i]$VALUE|0V$"
+ CREATE_TITLE_COST_TREASURY: "Maliyet: [treasury_i]$VALUE|0V$"
  CREATE_TITLE_WOULD_GO_INDEPENDENT:1 "Unvan, sizin [liege|E]inizin birincil unvanıyla aynı veya daha üst kademede"
  USURP_TITLE_TOOLTIP_PRESTIGE_GAIN:0 "Gasp edildiğinde:\n[prestige_i]$PRESTIGE|0V$ kazanırsınız"
  USURP_TITLE_HOLDER_OPINION:3 "[TITLE.GetHolder.GetUIName] adlı kişinin size karşı görüşü $OPINION_CHANGE|N$ azalacak.\n[TITLE.GetHolder.GetUIName] [legitimacy_i|E][legitimacy|E] kaybedecek"
@@ -122,14 +107,10 @@
  TITLE_VIEW_MAKE_PRIMARY:0 "Birincil yap"
  TITLE_MAKE_PRIMARY_TOOLTIP:1 "#T [TitleViewWindow.GetTitle.GetName] unvanını sizin [Concept( 'primary_title', 'Birincil Unvanınız' )|E] hâline getirin#!"
  TV_TIER_INFO:1 "[Title.GetRankConcept] [Concept( 'title', 'Unvanı' )|E]"
-### TODO AGOT-CHANGED: TV_HOLY_ORDER_LABEL [AGOT: [FAITH.GetReligion.GetAdjective] [holy_order|E] | TR: [FAITH.GetReligion.GetAdjective] [holy_order|E]ı]
- TV_HOLY_ORDER_LABEL: "[FAITH.GetReligion.GetAdjective] [holy_order|E]"
-### TODO AGOT-CHANGED: TV_PROVINCE_LABEL [AGOT: [TITLE.GetRankConcept]-[title_tier|E] [province|E] [title|E] | TR: [TITLE.GetRankConcept]-[Concept('title_tier', 'Seviyesinde')|E] [province|E] [Concept( 'title', 'Unvanı' )|E]]
- TV_PROVINCE_LABEL: "[TITLE.GetRankConcept]-[title_tier|E] [province|E] [title|E]"
-### TODO AGOT-CHANGED: TV_MERCENARY_COMPANY_LABEL [AGOT: [mercenary_company|E] [title|E] | TR: [mercenary_company|E] [Concept('title', 'Unvanı')|E]]
- TV_MERCENARY_COMPANY_LABEL: "[mercenary_company|E] [title|E]"
-### TODO AGOT-CHANGED: TITLE_VIEW_HEAD_OF_FAITH [AGOT: $ENTRIES$ [head_of_faith|E] [title|E] | TR: $ENTRIES$ [head_of_faith|E] [Concept('title', 'Unvanı')|E]]
- TITLE_VIEW_HEAD_OF_FAITH: "$ENTRIES$ [head_of_faith|E] [title|E]"
+ TV_HOLY_ORDER_LABEL: "[FAITH.GetReligion.GetAdjective] [holy_order|E]ı"
+ TV_PROVINCE_LABEL: "[TITLE.GetRankConcept]-[Concept('title_tier', 'Seviyesinde')|E] [province|E] [Concept( 'title', 'Unvanı' )|E]"
+ TV_MERCENARY_COMPANY_LABEL: "[mercenary_company|E] [Concept('title', 'Unvanı')|E]"
+ TITLE_VIEW_HEAD_OF_FAITH: "$ENTRIES$ [head_of_faith|E] [Concept('title', 'Unvanı')|E]"
  TITLE_VIEW_HEAD_OF_FAITH_ENTRY:0 "[FAITH.GetAdjective]"
  TV_NO_CLAIM:1 "#weak Bu unvan üzerinde [Concept( 'claim', 'Hak İddiasına' )|E] sahip değilsiniz#!"
  TV_NOT_CREATED:0 "#weak Daha oluşturulmadı#!"
@@ -179,10 +160,10 @@
  CHARACTER_SORT_BY:0 "#T Sıralama Düzeni: [Select_CString( CharacterSelectionList.GetSortOrder, 'Artan', 'Azalan' )]\n#!#I Değiştirmek için tıklayın#!"
  FIND_VASSAL_HEADER:2 "Birine ver..."
  FIND_VASSAL_RELEVANCE:0 "Alaka"
-### TODO AGOT-CHANGED: FIND_VASSAL_BUTTON_TOOLTIP [AGOT: #T $FIND_VASSAL_HEADER$#!\nChoose someone to whom the [Title.GetNameNoTooltip|V] should be granted.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$ | TR: #T $FIND_VASSAL_HEADER$#!\n[Title.GetNameNoTooltip|V] unvanını vermek için birini seçin.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$]
- FIND_VASSAL_BUTTON_TOOLTIP: "#T $FIND_VASSAL_HEADER$#!\nChoose someone to whom the [Title.GetNameNoTooltip|V] should be granted.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
+ FIND_VASSAL_BUTTON_TOOLTIP: "#T $FIND_VASSAL_HEADER$#!\n[Title.GetNameNoTooltip|V] unvanını vermek için birini seçin.\n\n$FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT$"
  FIND_VASSAL_BUTTON_TOOLTIP_SEGMENT:0 "[Concept( 'vassals', 'Vasallarınıza' )|E], [Concept( 'realm', 'Ülkenizdeki' )|E] [guests|E]e veya [Concept( 'courtiers', 'Saray Mensuplarınıza' )|E] [title|E] verebilirsiniz"
- GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "[GetPlayer.GetCulture.GetNameNoTooltip] Kültüründen bir Soylu"
+### TODO AGOT-CHANGED: GRANT_TO_SAME_CULTURE_NOBLE_HEADER [AGOT: A Noble of the [GetPlayer.Custom('same_culture_noble_header')] Culture | TR: [GetPlayer.GetCulture.GetNameNoTooltip] Kültüründen bir Soylu]
+ GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "A Noble of the [GetPlayer.Custom('same_culture_noble_header')] Culture"
  GRANT_TO_SAME_CULTURE_NOBLE_INFO:0 "Bu unvanı #V Kültürünüzden#! [Select_CString( GetPlayer.GetTopLiege.GetGovernment.HasRule( 'state_faith' ), GetPlayer.GetTopLiege.GetPrimaryTitle.GetStateFaith.GetAdjectiveNoTooltip, GetPlayer.GetFaith.GetAdjectiveNoTooltip )] bir Soyluya verin"
  GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP:0 "#T [GetPlayer.GetCulture.GetName] Kültüründen bir Soyluya verin#!\nYerel [culture|E]den olmayan bir [Concept( 'ruler', 'Hükümdara' )|E] sahip [county|E]lar düşük [county_opinion|E]ne sahip olur.\n\nAynı [culture|E]deki [Concept( 'vassals', 'Vasalların' )|E] [liege|E]lerine karşı [Concept( 'opinion', 'Görüşü' )|E] daha fazla olur.\n\n#I Vermek için tıklayın#!"
  GRANT_TO_LOCAL_CULTURE_NOBLE_HEADER:0 "Yerel [FindVassalListWindow.GetTitle.GetProvince.GetCulture.GetNameNoTooltip] bir Soylu"
@@ -193,47 +174,28 @@
  GRANT_TO_LOCAL_CULTURE_NOBLE_ACCEPTANCE:0 "Bu kabul edilirliği arttıracak"
  TITLE_VIEW_FACTION:0 "[Faction.GetName] [Concept( 'faction', 'örgütleşmesi' )|E]"
  CREATE_TITLE_MIN_COST:0 "En düşük maliyet"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_BASE_DUCHY_KINGDOM [AGOT: Base for [duchy|E] / [kingdom|E] title | TR: [duchy|E] / [kingdom|E] unvanları için temel]
- CREATE_TITLE_PERCENTAGE_BASE_DUCHY_KINGDOM: "Base for [duchy|E] / [kingdom|E] title"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_BASE_EMPIRE [AGOT: Base for [empire|E] title | TR: [empire|E] unvanı için temel]
- CREATE_TITLE_PERCENTAGE_BASE_EMPIRE: "Base for [empire|E] title"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_EXTRA_REDUCED [AGOT: Major [legitimacy_level|E] discount | TR: Büyük [legitimacy_level|E] indirimi]
- CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_EXTRA_REDUCED: "Major [legitimacy_level|E] discount"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_VERY_REDUCED [AGOT: [legitimacy_level|E] discount | TR: [legitimacy_level|E] indirimi]
- CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_VERY_REDUCED: "[legitimacy_level|E] discount"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_REDUCED [AGOT: Minor [legitimacy_level|E] discount | TR: Küçük [legitimacy_level|E] indirimi]
- CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_REDUCED: "Minor [legitimacy_level|E] discount"
-### TODO AGOT-CHANGED: CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE [AGOT: [legitimacy_level|E] discount | TR: [legitimacy_level|E] indirimi]
- CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[legitimacy_level|E] discount"
-### TODO AGOT-CHANGED: TITLE_VIEW_APPOINTMENT [AGOT: View Succession | TR: Veraseti Görüntüle]
- TITLE_VIEW_APPOINTMENT: "View Succession"
-### TODO AGOT-CHANGED: TITLE_VIEW_APPOINTMENT_TOOLTIP [AGOT: #T View appointment succession#!\nTitle will follow [Title.GetHolder.GetPrimaryTitle.GetName] | TR: #T Atama verasetini görüntüle#!\n[Title.GetHolder.GetPrimaryTitle.GetName] unvanını takip edecek]
- TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T View appointment succession#!\nTitle will follow [Title.GetHolder.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: ADD_LAWS_TOOLTIP [AGOT: #T Add Succession Law | TR: #T Veraset Yasası Ekle]
- ADD_LAWS_TOOLTIP: "#T Add Succession Law"
-### TODO AGOT-CHANGED: CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL [AGOT: @warning_icon! #X Your [top_liege_possessive|E] [government|E] does not allow [vassals|E] to have a [royal_court|E]#! | TR: @warning_icon! #X [top_liege_possessive|E] [government|E] biçimi [Concept('vassals', 'Vasalların')|E] [royal_court|E] sahibi olmasına izin vermiyor#!]
- CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X Your [top_liege_possessive|E] [government|E] does not allow [vassals|E] to have a [royal_court|E]#!"
-### TODO AGOT-CHANGED: CREATE_TITLE_PIETY_LEVEL [AGOT: Requires [GetPietyLevelName('(int32)$LEVEL|q$')] | TR: [GetPietyLevelName('(int32)$LEVEL|q$')] gerekiyor]
- CREATE_TITLE_PIETY_LEVEL: "Requires [GetPietyLevelName('(int32)$LEVEL|q$')]"
+ CREATE_TITLE_PERCENTAGE_BASE_DUCHY_KINGDOM: "[duchy|E] / [kingdom|E] unvanları için temel"
+ CREATE_TITLE_PERCENTAGE_BASE_EMPIRE: "[empire|E] unvanı için temel"
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_EXTRA_REDUCED: "Büyük [legitimacy_level|E] indirimi"
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_VERY_REDUCED: "[legitimacy_level|E] indirimi"
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_REDUCED: "Küçük [legitimacy_level|E] indirimi"
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[legitimacy_level|E] indirimi"
+ TITLE_VIEW_APPOINTMENT: "Veraseti Görüntüle"
+ TITLE_VIEW_APPOINTMENT_TOOLTIP: "#T Atama verasetini görüntüle#!\n[Title.GetHolder.GetPrimaryTitle.GetName] unvanını takip edecek"
+ ADD_LAWS_TOOLTIP: "#T Veraset Yasası Ekle"
+ CREATE_TITLE_FAIL_REASON_ADMIN_VASSAL: "@warning_icon! #X [top_liege_possessive|E] [government|E] biçimi [Concept('vassals', 'Vasalların')|E] [royal_court|E] sahibi olmasına izin vermiyor#!"
+ CREATE_TITLE_PIETY_LEVEL: "[GetPietyLevelName('(int32)$LEVEL|q$')] gerekiyor"
  WARNING_CREATE_TITLE_PIETY_LEVEL: "@warning_icon! $CREATE_TITLE_PIETY_LEVEL$"
  CAN_CREATE_TITLE_PIETY_LEVEL: "[Select_CString( TitleViewWindow.HasEnoughPietyLevel, '@check_icon!', '@cross_icon!')] $CREATE_TITLE_PIETY_LEVEL$"
  TITLE_VIEW_PIETY_TEXT: "[piety_i]$VALUE|0V$"
-### TODO AGOT-CHANGED: CREATE_TITLE_COST_PIETY [AGOT: Cost: $TITLE_VIEW_PIETY_TEXT$ | TR: Maliyet: $TITLE_VIEW_PIETY_TEXT$]
- CREATE_TITLE_COST_PIETY: "Cost: $TITLE_VIEW_PIETY_TEXT$"
+ CREATE_TITLE_COST_PIETY: "Maliyet: $TITLE_VIEW_PIETY_TEXT$"
  ENOUGH_PIETY_COST: "[Select_CString( Title.HasEnoughPiety(GetPlayer), '@check_icon!', '@cross_icon!')] $CREATE_TITLE_COST_PIETY$"
  CREATE_TITLE_PIETY_TITLE: "$CREATE_TITLE_GOLD_TITLE$"
-### TODO AGOT-CHANGED: CREATE_TITLE_PIETY_TEXT [AGOT: You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [piety_i]$VALUE|0V$ | TR: [prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [piety_i]$VALUE|0V$]
- CREATE_TITLE_PIETY_TEXT: "You will gain [prestige_i]$PRESTIGE|0V$ and [legitimacy_i]$LEGITIMACY|0V$\n\nCost: [piety_i]$VALUE|0V$"
+ CREATE_TITLE_PIETY_TEXT: "[prestige_i]$PRESTIGE|0V$ ve [legitimacy_i]$LEGITIMACY|0V$ kazanacaksınız\n\nMaliyet: [piety_i]$VALUE|0V$"
  CREATE_TITLE_PIETY_ACCEPT: "$CREATE$"
-### TODO AGOT-CHANGED: TITLE_VIEW_DISABLED_BORDER_WARS [AGOT: [Title.GetHolder.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName] | TR: [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]]
- TITLE_VIEW_DISABLED_BORDER_WARS: "[Title.GetHolder.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]"
-### TODO AGOT-CHANGED: TITLE_VIEW_ENABLED_BORDER_WARS [AGOT: [Title.GetHolder.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName] | TR: [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]]
- TITLE_VIEW_ENABLED_BORDER_WARS: "[Title.GetHolder.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]"
-### TODO AGOT-CHANGED: TITLE_TOOLTIP_DISABLED_BORDER_WARS [AGOT: [Character.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName] | TR: [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]]
- TITLE_TOOLTIP_DISABLED_BORDER_WARS: "[Character.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]"
-### TODO AGOT-CHANGED: TITLE_TOOLTIP_ENABLED_BORDER_WARS [AGOT: [Character.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName] | TR: [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]]
- TITLE_TOOLTIP_ENABLED_BORDER_WARS: "[Character.GetTopLiege.GetPrimaryTitle.GetTierAsNamePossessive] [GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]"
-### TODO AGOT-CHANGED: TITLE_VIEW_PROMINENCE [AGOT: [appointment_prominence|E]: $ORDER|VO$ #weak ([Title.MakeScope.ScriptValue('appointment_title_value')|L0])#! | TR: [appointment_prominence|E]: $ORDER|VO$ #weak ([Title.MakeScope.ScriptValue('appointment_title_value')|L0])#!]
+ TITLE_VIEW_DISABLED_BORDER_WARS: "[GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]"
+ TITLE_VIEW_ENABLED_BORDER_WARS: "[GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]"
+ TITLE_TOOLTIP_DISABLED_BORDER_WARS: "[GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]"
+ TITLE_TOOLTIP_ENABLED_BORDER_WARS: "[GetLawGroup('border_wars_laws').GetName]: [GetLaw('top_liege_redirected_to_border_wars_law').GetName]"
  TITLE_VIEW_PROMINENCE: "[appointment_prominence|E]: $ORDER|VO$ #weak ([Title.MakeScope.ScriptValue('appointment_title_value')|L0])#!"
-### TODO AGOT-CHANGED: CREATE_TITLE_REQUIRE_AT_LEAST_ONE_DEJURE_COUNTY [AGOT: @warning_icon! #X  You do not have any dejure counties within the borders of [TITLE.GetName]#! | TR: @warning_icon! #X [TITLE.GetName] içerisinde herhangi bir de jure kontluğa sahip değilsiniz#!]
- CREATE_TITLE_REQUIRE_AT_LEAST_ONE_DEJURE_COUNTY: "@warning_icon! #X  You do not have any dejure counties within the borders of [TITLE.GetName]#!"
+ CREATE_TITLE_REQUIRE_AT_LEAST_ONE_DEJURE_COUNTY: "@warning_icon! #X [TITLE.GetName] içerisinde herhangi bir de jure kontluğa sahip değilsiniz#!"

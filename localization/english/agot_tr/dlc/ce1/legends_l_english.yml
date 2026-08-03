@@ -2,298 +2,159 @@
  legend_cost_scale_by_era_desc:0 "[GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip] Dönemi"
  PROMOTED_LEGEND_EXPENSES: "[promoted_legend|E]"
  OWNED_LEGEND_EXPENSES: "[owned_legend|E]"
-### TODO AGOT-CHANGED: LEGEND_ALREADY_OWN_LEGEND [AGOT: @warning_icon! #X You already own, and are promoting [Legend.GetName]#! | TR: @warning_icon! #X [Legend.GetName] destanına zaten sahipsiniz ve onu yayıyorsunuz#!]
- LEGEND_ALREADY_OWN_LEGEND: "@warning_icon! #X You already own, and are promoting [Legend.GetName]#!"
-### TODO AGOT-CHANGED: LEGEND_UPGRADE_ALREADY_MAX [AGOT: @warning_icon! #X [Legend.GetName] is already the maximum $legend_quality_mythical$ [legend_quality|E]#! | TR: @warning_icon! #X [Legend.GetName] destanı zaten maksimum $legend_quality_mythical$ [Concept( 'legend_quality', 'Destan Kalitesinde' )|E]#!]
- LEGEND_UPGRADE_ALREADY_MAX: "@warning_icon! #X [Legend.GetName] is already the maximum $legend_quality_mythical$ [legend_quality|E]#!"
-### TODO AGOT-CHANGED: LEGEND_UPGRADE_NOT_ENOUGH_SPREAD [AGOT: @warning_icon! #X [Legend.GetName] must spread to [Legend.GetMaxNumProvinces|V] [baronies|E] #weak (currently [Legend.GetCurrentNumProvinces|V])#!#! | TR: @warning_icon! #X [Legend.GetName] destanı, [Legend.GetMaxNumProvinces|V] [Concept( 'baronies', 'Baronluğa' )|E] yayılmalı #weak (şu anda [Legend.GetCurrentNumProvinces|V])#!#!]
- LEGEND_UPGRADE_NOT_ENOUGH_SPREAD: "@warning_icon! #X [Legend.GetName] must spread to [Legend.GetMaxNumProvinces|V] [baronies|E] #weak (currently [Legend.GetCurrentNumProvinces|V])#!#!"
-### TODO AGOT-CHANGED: LEGEND_ALREADY_PROMOTING_LEGEND [AGOT: @warning_icon! #X You are already [promoting_legend|E] [Legend.GetName]#! | TR: @warning_icon! #X [Legend.GetName] destanı zaten [promoting_legend|E]#!]
- LEGEND_ALREADY_PROMOTING_LEGEND: "@warning_icon! #X You are already [promoting_legend|E] [Legend.GetName]#!"
-### TODO AGOT-CHANGED: LEGEND_NOT_PROMOTING_LEGEND [AGOT: @warning_icon! #X You are not [promoting_legend|E] [Legend.GetName]#! | TR: @warning_icon! #X [Legend.GetName] destanı [Concept( 'promoting_legend', 'Yayılmıyor' )|E]#!]
- LEGEND_NOT_PROMOTING_LEGEND: "@warning_icon! #X You are not [promoting_legend|E] [Legend.GetName]#!"
-### TODO AGOT-CHANGED: LEGEND_IS_UNOWNED [AGOT: @warning_icon! #X [Legend.GetName] has no owner#! | TR: @warning_icon! #X [Legend.GetName] destanı sahipsiz#!]
- LEGEND_IS_UNOWNED: "@warning_icon! #X [Legend.GetName] has no owner#!"
-### TODO AGOT-CHANGED: LEGEND_IS_OWNED [AGOT: @warning_icon! #X [Legend.GetName] already has an owner#! | TR: @warning_icon! #X [Legend.GetName] destanının zaten bir sahibi var#!]
- LEGEND_IS_OWNED: "@warning_icon! #X [Legend.GetName] already has an owner#!"
-### TODO AGOT-CHANGED: LEGEND_IS_COMPLETED [AGOT: @warning_icon! #X [Legend.GetName] has already been completed#! | TR: @warning_icon! #X [Legend.GetName] destanı zaten tamamlandı#!]
- LEGEND_IS_COMPLETED: "@warning_icon! #X [Legend.GetName] has already been completed#!"
-### TODO AGOT-CHANGED: LEGEND_NO_PROTAGONIST [AGOT: @warning_icon! #X No [legend_protagonist|E] has been selected#! | TR: @warning_icon! #X Hiçbir [legend_protagonist|E] seçilmedi#!]
- LEGEND_NO_PROTAGONIST: "@warning_icon! #X No [legend_protagonist|E] has been selected#!"
-### TODO AGOT-CHANGED: LEGEND_NOT_SAME_DYNASTY [AGOT: @warning_icon! #X You are not a member of the [Dynasty.GetName] [dynasty|E]#! | TR: @warning_icon! #X [Dynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] üyesi değilsiniz#!]
- LEGEND_NOT_SAME_DYNASTY: "@warning_icon! #X You are not a member of the [Dynasty.GetName] [dynasty|E]#!"
-### TODO AGOT-CHANGED: LEGEND_CAN_NOT_COMPLETE_YET [AGOT: @warning_icon! #X You cannot complete [Legend.GetName] for [DATE.GetTimeToDate] #weak ([DATE.GetStringLong])#!#! | TR: @warning_icon! #X [Legend.GetName] destanını [DATE.GetTimeToDate] tamamlayamazsınız #weak ([DATE.GetStringLong])#!#!]
- LEGEND_CAN_NOT_COMPLETE_YET: "@warning_icon! #X You cannot complete [Legend.GetName] for [DATE.GetTimeToDate] #weak ([DATE.GetStringLong])#!#!"
-### TODO AGOT-CHANGED: LEGEND_COMPLETE_LEGEND [AGOT: @alert_icon!#alert_trial Completing a [legend|E] makes it impossible to start it again#![AddLine( Legend.GetOnCompleteDescription )] | TR: @alert_icon!#alert_trial Bir [Concept( 'legend', 'Destanı' )|E] tamamlarsanız, ona tekrardan başlayamazsınız #![AddLine( Legend.GetOnCompleteDescription )]]
- LEGEND_COMPLETE_LEGEND: "@alert_icon!#alert_trial Completing a [legend|E] makes it impossible to start it again#![AddLine( Legend.GetOnCompleteDescription )]"
-### TODO AGOT-CHANGED: LEGEND_CAN_NOT_PROMOTE [AGOT: @warning_icon! #X You are already [promoting_legend|E] [Legend.GetName]#! | TR: @warning_icon! #X [Legend.GetName] destanı zaten [promoting_legend|E]#!]
- LEGEND_CAN_NOT_PROMOTE: "@warning_icon! #X You are already [promoting_legend|E] [Legend.GetName]#!"
-### TODO AGOT-CHANGED: legend_can_not_promote_tt [AGOT: You need one of the following:#!\n@warning_icon! #X You share a language with [legend.GetOwner.GetName]#!\n@warning_icon! #X [legend.GetName] is present in a province neighboring your realm#!\n@warning_icon! #X You and [legend.GetOwner.GetName] are $game_concept_lovers$#!\n@warning_icon! #X You and [legend.GetOwner.GetName] are $game_concept_friends$#! | TR: En az birine ihtiyacınız var:#!\n@warning_icon! #X [legend.GetOwner.GetName] ile birlikte bir dil paylaşıyorsunuz#!\n@warning_icon! #X [legend.GetName] destanı sizin diyarınıza komşu bir bölgede mevcut#!\n@warning_icon! #X [legend.GetOwner.GetName] ve siz [Concept( 'lovers', 'Sevgilisiniz' )|E]#!\n@warning_icon! #X [legend.GetOwner.GetName] ve siz [Concept( 'friends', 'Arkadaşsınız' )|E]#!]
- legend_can_not_promote_tt: "You need one of the following:#!\n@warning_icon! #X You share a language with [legend.GetOwner.GetName]#!\n@warning_icon! #X [legend.GetName] is present in a province neighboring your realm#!\n@warning_icon! #X You and [legend.GetOwner.GetName] are $game_concept_lovers$#!\n@warning_icon! #X You and [legend.GetOwner.GetName] are $game_concept_friends$#!"
-### TODO AGOT-CHANGED: legend_no_legend [AGOT: You are not promoting any [legends|E] | TR: Hiçbir [legend|E] yaymıyorsunuz]
- legend_no_legend: "You are not promoting any [legends|E]"
-### TODO AGOT-CHANGED: CHARACTER_CANNOT_REACH_LEGEND [AGOT: @warning_icon! #X Legend not in your [realm|e], nor you are currently present in the legend spread area#! | TR: @warning_icon! #X Destan [Concept( 'realm', 'Ülkenizde' )|E] değil ve şu anda destanın yayılma alanında da bulunmuyorsunuz#!]
- CHARACTER_CANNOT_REACH_LEGEND: "@warning_icon! #X Legend not in your [realm|e], nor you are currently present in the legend spread area#!"
-### TODO AGOT-CHANGED: LEGEND_PROMOTER_MODIFIERS [AGOT: [legend_promoter|E] Modifiers | TR: [legend_promoter|E] Etkileri]
- LEGEND_PROMOTER_MODIFIERS: "[legend_promoter|E] Modifiers"
-### TODO AGOT-CHANGED: LEGEND_PROVINCE_MODIFIERS_SUBTEXT [AGOT: #S $PROVINCE_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'province' )] | TR: #S $PROVINCE_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'province' )]]
+ LEGEND_ALREADY_OWN_LEGEND: "@warning_icon! #X [Legend.GetName] destanına zaten sahipsiniz ve onu yayıyorsunuz#!"
+ LEGEND_UPGRADE_ALREADY_MAX: "@warning_icon! #X [Legend.GetName] destanı zaten maksimum $legend_quality_mythical$ [Concept( 'legend_quality', 'Destan Kalitesinde' )|E]#!"
+ LEGEND_UPGRADE_NOT_ENOUGH_SPREAD: "@warning_icon! #X [Legend.GetName] destanı, [Legend.GetMaxNumProvinces|V] [Concept( 'baronies', 'Baronluğa' )|E] yayılmalı #weak (şu anda [Legend.GetCurrentNumProvinces|V])#!#!"
+ LEGEND_ALREADY_PROMOTING_LEGEND: "@warning_icon! #X [Legend.GetName] destanı zaten [promoting_legend|E]#!"
+ LEGEND_NOT_PROMOTING_LEGEND: "@warning_icon! #X [Legend.GetName] destanı [Concept( 'promoting_legend', 'Yayılmıyor' )|E]#!"
+ LEGEND_IS_UNOWNED: "@warning_icon! #X [Legend.GetName] destanı sahipsiz#!"
+ LEGEND_IS_OWNED: "@warning_icon! #X [Legend.GetName] destanının zaten bir sahibi var#!"
+ LEGEND_IS_COMPLETED: "@warning_icon! #X [Legend.GetName] destanı zaten tamamlandı#!"
+ LEGEND_NO_PROTAGONIST: "@warning_icon! #X Hiçbir [legend_protagonist|E] seçilmedi#!"
+ LEGEND_NOT_SAME_DYNASTY: "@warning_icon! #X [Dynasty.GetName] [Concept( 'dynasty', 'Hanedanının' )|E] üyesi değilsiniz#!"
+ LEGEND_CAN_NOT_COMPLETE_YET: "@warning_icon! #X [Legend.GetName] destanını [DATE.GetTimeToDate] tamamlayamazsınız #weak ([DATE.GetStringLong])#!#!"
+ LEGEND_COMPLETE_LEGEND: "@alert_icon!#alert_trial Bir [Concept( 'legend', 'Destanı' )|E] tamamlarsanız, ona tekrardan başlayamazsınız #![AddLine( Legend.GetOnCompleteDescription )]"
+ LEGEND_CAN_NOT_PROMOTE: "@warning_icon! #X [Legend.GetName] destanı zaten [promoting_legend|E]#!"
+ legend_can_not_promote_tt: "En az birine ihtiyacınız var:#!\n@warning_icon! #X [legend.GetOwner.GetName] ile birlikte bir dil paylaşıyorsunuz#!\n@warning_icon! #X [legend.GetName] destanı sizin diyarınıza komşu bir bölgede mevcut#!\n@warning_icon! #X [legend.GetOwner.GetName] ve siz [Concept( 'lovers', 'Sevgilisiniz' )|E]#!\n@warning_icon! #X [legend.GetOwner.GetName] ve siz [Concept( 'friends', 'Arkadaşsınız' )|E]#!"
+ legend_no_legend: "Hiçbir [legend|E] yaymıyorsunuz"
+ CHARACTER_CANNOT_REACH_LEGEND: "@warning_icon! #X Destan [Concept( 'realm', 'Ülkenizde' )|E] değil ve şu anda destanın yayılma alanında da bulunmuyorsunuz#!"
+ LEGEND_PROMOTER_MODIFIERS: "[legend_promoter|E] Etkileri"
  LEGEND_PROVINCE_MODIFIERS_SUBTEXT: "#S $PROVINCE_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'province' )]"
-### TODO AGOT-CHANGED: LEGEND_COUNTY_MODIFIERS_SUBTEXT [AGOT: #S $COUNTY_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'county' )] | TR: #S $COUNTY_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'county' )]]
  LEGEND_COUNTY_MODIFIERS_SUBTEXT: "#S $COUNTY_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'county' )]"
-### TODO AGOT-CHANGED: OWNER_MODIFIERS_SUBTEXT [AGOT: #S $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'owner' )] | TR: #S $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'owner' )]]
  OWNER_MODIFIERS_SUBTEXT: "#S $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'owner' )]"
-### TODO AGOT-CHANGED: LEGEND_PROMOTER_MODIFIERS_SUBTEXT [AGOT: #S $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promoter' )] | TR: #S $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promoter' )]]
  LEGEND_PROMOTER_MODIFIERS_SUBTEXT: "#S $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promoter' )]"
-### TODO AGOT-CHANGED: LEGEND_OWNER_DESCRIPTION [AGOT: Owner: [Legend.GetOwner.GetShortUIName|U] | TR: Sahibi: [Legend.GetOwner.GetShortUIName|U]]
- LEGEND_OWNER_DESCRIPTION: "Owner: [Legend.GetOwner.GetShortUIName|U]"
-### TODO AGOT-CHANGED: LEGEND_PROMOTING_LEGEND [AGOT: You are [promoting_legend|E] this [legend|E] | TR: Bu [Concept( 'legend', 'Destanı' )|E] [Concept( 'promoting_legend', 'Yayıyorsunuz' )|E]]
- LEGEND_PROMOTING_LEGEND: "You are [promoting_legend|E] this [legend|E]"
-### TODO AGOT-CHANGED: LEGEND_OWNING_LEGEND [AGOT: You are the owner of this [legend|E] | TR: Bu [Concept( 'legend', 'Destanın' )|E] sahibisiniz]
- LEGEND_OWNING_LEGEND: "You are the owner of this [legend|E]"
-### TODO AGOT-CHANGED: LEGEND_UNOWNED_GRACE_PERIOD [AGOT: You cannot take ownership of this [legend|E] until $DATE$ | TR: $DATE$ tarihine kadar bu [Concept( 'legend', 'Destanın' )|E] sahibi olamazsınız]
- LEGEND_UNOWNED_GRACE_PERIOD: "You cannot take ownership of this [legend|E] until $DATE$"
-### TODO AGOT-CHANGED: game_concept_legend [AGOT: Legend | TR: Destan]
- game_concept_legend: "Legend"
-### TODO AGOT-CHANGED: game_concept_legend_desc [AGOT: A $game_concept_legend$ represents the important deeds that a Character achieved in life, and are created from [legend_seeds|E].\n\nLegends are powerful ways to obtain [legitimacy|E], and other possible rewards like [skill|E] increases, [opinion|E] bonuses, [dynasty_prestige|E], [prestige|E] or [piety|E]. [baronies|E] in which a $game_concept_legend$ has spread may also receive additional effects, if held by the $game_concept_legend$ owner or a [legend_promoter|E].\n\n$game_concept_legends$ have a [legend_type|E] that governs those rewards: they can be Legitimizing, Holy or Heroic. Each $game_concept_legend$ also has a [legend_quality|E] level, which influences the strength of those rewards, as well as its spread. | TR: $game_concept_legend$, bir Karakterin hayatta başardığı önemli işleri tasvir eder ve [legend_seeds|E] ile oluşturulur.\n\nDestanlar [legitimacy|E] elde etmenin etkili yollarından biridir. [skill|E] artışları, [opinion|E] bonusları, [dynasty_prestige|E], [prestige|E] veya [piety|E] olası ödüllerdendir. Bir [Concept( 'legend', 'Destanın' )|E] yayıldığı [Concept( 'baronies', 'Baronluklar' )|E] $game_concept_legend$ sahibi ya da [legend_promoter|E] tarafından tutulursa ek etkiler de alabilir.\n\n[Concept( 'legends', 'Destanların' )|E] ödüllere etki eden bir [legend_type|E] vardır ve bunlar: Meşrulaştırıcı, Kutsal veya Kahramanca olabilirler. Her [Concept( 'legend', 'Destanın' )|E] ayrıca bu ödüllerin gücünü ve yayılımını etkileyen bir [legend_quality|E] seviyesi vardır.]
- game_concept_legend_desc: "A $game_concept_legend$ represents the important deeds that a Character achieved in life, and are created from [legend_seeds|E].\n\nLegends are powerful ways to obtain [legitimacy|E], and other possible rewards like [skill|E] increases, [opinion|E] bonuses, [dynasty_prestige|E], [prestige|E] or [piety|E]. [baronies|E] in which a $game_concept_legend$ has spread may also receive additional effects, if held by the $game_concept_legend$ owner or a [legend_promoter|E].\n\n$game_concept_legends$ have a [legend_type|E] that governs those rewards: they can be Legitimizing, Holy or Heroic. Each $game_concept_legend$ also has a [legend_quality|E] level, which influences the strength of those rewards, as well as its spread."
-### TODO AGOT-CHANGED: game_concept_owned_legend [AGOT: Owned Legend | TR: Sahip Olunan Destan]
- game_concept_owned_legend: "Owned Legend"
-### TODO AGOT-CHANGED: game_concept_owned_legend_desc [AGOT: An $game_concept_owned_legend$ is a [legend|E] owned by a [ruler|E], who is the main beneficiary of its effects.\n\nThe owner of a $game_concept_legend$ can be its [legend_protagonist|E], but it's not necessary.\n\nA $game_concept_legend$ can also be supported by [legend_promoters|E], who pay a monthly contribution to also get part of its bonuses. | TR: $game_concept_owned_legend$, bir [ruler|E] tarafından sahip olunan bir [Concept( 'legend', 'Destandır' )|E]. Bu [ruler|E], [Concept( 'legend', 'Destanın' )|E] etkilerinin ana yararlanıcısıdır.\n\n$game_concept_legend$ sahibi [legend_protagonist|E] olabilir ancak bu şart değildir.\n\nBir $game_concept_legend$ bonuslarının bir kısmından faydalanmak için aylık katkı payı ödeyen [legend_promoters|E] tarafından desteklenebilir.]
- game_concept_owned_legend_desc: "An $game_concept_owned_legend$ is a [legend|E] owned by a [ruler|E], who is the main beneficiary of its effects.\n\nThe owner of a $game_concept_legend$ can be its [legend_protagonist|E], but it's not necessary.\n\nA $game_concept_legend$ can also be supported by [legend_promoters|E], who pay a monthly contribution to also get part of its bonuses."
-### TODO AGOT-CHANGED: game_concept_promoted_legend [AGOT: Promoted Legend | TR: Desteklenen Destan]
- game_concept_promoted_legend: "Promoted Legend"
-### TODO AGOT-CHANGED: game_concept_promoted_legend_desc [AGOT: An $game_concept_promoted_legend$ is a [legend|E] owned by a different [ruler|E] that is being supported by [legend_promoters|E], who pay a monthly contribution to also get part of its bonuses. | TR: $game_concept_promoted_legend$, bir başka [ruler|E] tarafından sahip olunan fakat [legend_promoters|E] tarafından desteklenen [Concept( 'legend', 'Destandır' )|E], destekleyen karakterler destanın bonuslarından faydalanmak için aylık katkıda bulunur.]
- game_concept_promoted_legend_desc: "An $game_concept_promoted_legend$ is a [legend|E] owned by a different [ruler|E] that is being supported by [legend_promoters|E], who pay a monthly contribution to also get part of its bonuses."
-### TODO AGOT-CHANGED: game_concept_legend_promoter [AGOT: Legend Promoter | TR: Destan Destekçisi]
- game_concept_legend_promoter: "Legend Promoter"
-### TODO AGOT-CHANGED: game_concept_legend_promoter_desc [AGOT: A $game_concept_legend_promoter$ is a [ruler|E] that supports another ruler's [legend|E].\n\nA $game_concept_legend_promoter$ gets extra bonuses that vary depending on the [legend_type|E] and [legend_quality|E] of the $game_concept_legend$ in exchange for a monthly [gold|E] contribution. | TR: Başka bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'legend', 'Destanını' )|E] destekleyen [Concept( 'ruler', 'Hükümdara' )|E] $game_concept_legend_promoter$ denir.\n\nBir $game_concept_legend_promoter$, aylık [gold|E] katkısı karşılığında Destanın [Concept( 'legend_type', 'Türüne' )|E] ve [Concept( 'legend_quality', 'Kalitesine' )|E] bağlı olarak [Concept( 'legend', 'Destanın' )|E] etkilerinden faydalanır.]
- game_concept_legend_promoter_desc: "A $game_concept_legend_promoter$ is a [ruler|E] that supports another ruler's [legend|E].\n\nA $game_concept_legend_promoter$ gets extra bonuses that vary depending on the [legend_type|E] and [legend_quality|E] of the $game_concept_legend$ in exchange for a monthly [gold|E] contribution."
-### TODO AGOT-CHANGED: game_concept_legend_promoters [AGOT: Legend Promoters | TR: Destan Destekçileri]
- game_concept_legend_promoters: "Legend Promoters"
+ LEGEND_OWNER_DESCRIPTION: "Sahibi: [Legend.GetOwner.GetShortUIName|U]"
+ LEGEND_PROMOTING_LEGEND: "Bu [Concept( 'legend', 'Destanı' )|E] [Concept( 'promoting_legend', 'Yayıyorsunuz' )|E]"
+ LEGEND_OWNING_LEGEND: "Bu [Concept( 'legend', 'Destanın' )|E] sahibisiniz"
+ LEGEND_UNOWNED_GRACE_PERIOD: "$DATE$ tarihine kadar bu [Concept( 'legend', 'Destanın' )|E] sahibi olamazsınız"
+ game_concept_legend: "Destan"
+ game_concept_legend_desc: "$game_concept_legend$, bir Karakterin hayatta başardığı önemli işleri tasvir eder ve [legend_seeds|E] ile oluşturulur.\n\nDestanlar [legitimacy|E] elde etmenin etkili yollarından biridir. [skill|E] artışları, [opinion|E] bonusları, [dynasty_prestige|E], [prestige|E] veya [piety|E] olası ödüllerdendir. Bir [Concept( 'legend', 'Destanın' )|E] yayıldığı [Concept( 'baronies', 'Baronluklar' )|E] $game_concept_legend$ sahibi ya da [legend_promoter|E] tarafından tutulursa ek etkiler de alabilir.\n\n[Concept( 'legends', 'Destanların' )|E] ödüllere etki eden bir [legend_type|E] vardır ve bunlar: Meşrulaştırıcı, Kutsal veya Kahramanca olabilirler. Her [Concept( 'legend', 'Destanın' )|E] ayrıca bu ödüllerin gücünü ve yayılımını etkileyen bir [legend_quality|E] seviyesi vardır."
+ game_concept_owned_legend: "Sahip Olunan Destan"
+ game_concept_owned_legend_desc: "$game_concept_owned_legend$, bir [ruler|E] tarafından sahip olunan bir [Concept( 'legend', 'Destandır' )|E]. Bu [ruler|E], [Concept( 'legend', 'Destanın' )|E] etkilerinin ana yararlanıcısıdır.\n\n$game_concept_legend$ sahibi [legend_protagonist|E] olabilir ancak bu şart değildir.\n\nBir $game_concept_legend$ bonuslarının bir kısmından faydalanmak için aylık katkı payı ödeyen [legend_promoters|E] tarafından desteklenebilir."
+ game_concept_promoted_legend: "Desteklenen Destan"
+ game_concept_promoted_legend_desc: "$game_concept_promoted_legend$, bir başka [ruler|E] tarafından sahip olunan fakat [legend_promoters|E] tarafından desteklenen [Concept( 'legend', 'Destandır' )|E], destekleyen karakterler destanın bonuslarından faydalanmak için aylık katkıda bulunur."
+ game_concept_legend_promoter: "Destan Destekçisi"
+ game_concept_legend_promoter_desc: "Başka bir [Concept( 'ruler', 'Hükümdarın' )|E] [Concept( 'legend', 'Destanını' )|E] destekleyen [Concept( 'ruler', 'Hükümdara' )|E] $game_concept_legend_promoter$ denir.\n\nBir $game_concept_legend_promoter$, aylık [gold|E] katkısı karşılığında Destanın [Concept( 'legend_type', 'Türüne' )|E] ve [Concept( 'legend_quality', 'Kalitesine' )|E] bağlı olarak [Concept( 'legend', 'Destanın' )|E] etkilerinden faydalanır."
+ game_concept_legend_promoters: "Destan Destekçileri"
  game_concept_legend_promoters_desc: "$game_concept_legend_promoter_desc$"
-### TODO AGOT-CHANGED: game_concept_legends [AGOT: Legends | TR: Destanlar]
- game_concept_legends: "Legends"
+ game_concept_legends: "Destanlar"
  game_concept_legends_desc: "$game_concept_legend_desc$"
-### TODO AGOT-CHANGED: game_concept_legend_seed [AGOT: Legend Seed | TR: Destan Tohumu]
- game_concept_legend_seed: "Legend Seed"
+ game_concept_legend_seed: "Destan Tohumu"
 ### TODO AGOT-CHANGED: game_concept_legend_seed_desc [AGOT: A [legend|E] in the making. $game_concept_legend_seeds$ are the basis of a $game_concept_legend$ and, by founding them, a [ruler|E] may start a $game_concept_legend$.\n\n$game_concept_legend_seeds$ can be earned by fulfilling some criteria or by performing legendary deeds: Major [decisions|E], becoming a [king|E] or [emperor|E], organizing a Grand [activity|E], hunting a legendary animal, et cetera.\n\nInactive $game_concept_legend_seeds$ have no cost, but bear no effects. Founding a $game_concept_legend_seed$ for the first time has a [gold|E] cost to it. | TR: Oluşmakta olan bir [legend|E]. $game_concept_legend_seeds$ bir [Concept( 'legend', 'Destanın' )|E] temelini oluşturur ve bir [ruler|E] bunları kullanarak bir $game_concept_legend$ başlatabilir.\n\n$game_concept_legend_seeds$, Şarlman'ın vârisi olmak gibi bazı kriterleri yerine getirerek veya destansı eylemler gerçekleştirerek kazanılabilir: Büyük [decisions|E], [great_holy_war|E] kazanmak, bir [king|E] ya da [emperor|E] olmak, Büyük [activity|E] düzenlemek, efsanevi bir hayvan avlamak gibi.\n\nAktif olmayan $game_concept_legend_seeds$ maliyetsizdir ancak hiçbir etkisi de yoktur. İlk kez bir $game_concept_legend_seed$ oluşturmak için [gold|E] harcanır.]
  game_concept_legend_seed_desc: "A [legend|E] in the making. $game_concept_legend_seeds$ are the basis of a $game_concept_legend$ and, by founding them, a [ruler|E] may start a $game_concept_legend$.\n\n$game_concept_legend_seeds$ can be earned by fulfilling some criteria or by performing legendary deeds: Major [decisions|E], becoming a [king|E] or [emperor|E], organizing a Grand [activity|E], hunting a legendary animal, et cetera.\n\nInactive $game_concept_legend_seeds$ have no cost, but bear no effects. Founding a $game_concept_legend_seed$ for the first time has a [gold|E] cost to it."
-### TODO AGOT-CHANGED: game_concept_legend_seeds [AGOT: Legend Seeds | TR: Destan Tohumları]
- game_concept_legend_seeds: "Legend Seeds"
+ game_concept_legend_seeds: "Destan Tohumları"
  game_concept_legend_seeds_desc: "$game_concept_legend_seed_desc$"
-### TODO AGOT-CHANGED: game_concept_legend_famed [AGOT: Famed | TR: Ünlü]
- game_concept_legend_famed: "Famed"
+ game_concept_legend_famed: "Ünlü"
  game_concept_legend_famed_desc: "$game_concept_legend_quality_desc$"
-### TODO AGOT-CHANGED: game_concept_legend_type [AGOT: Legend Type | TR: Destan Türü]
- game_concept_legend_type: "Legend Type"
-### TODO AGOT-CHANGED: game_concept_legend_types [AGOT: Legend Types | TR: Destan Türleri]
- game_concept_legend_types: "Legend Types"
+ game_concept_legend_type: "Destan Türü"
+ game_concept_legend_types: "Destan Türleri"
  game_concept_legend_types_desc: "$game_concept_legend_type_desc$"
-### TODO AGOT-CHANGED: game_concept_legend_type_desc [AGOT: A [legend|E] has a Type that influences the category of the effects it will grant, as well as the theme of its content.\n\nThe $game_concept_legend_types$ are Legitimizing, Heroic and Holy, granting [legitimacy|E], [prestige|E] and [piety|E], correspondingly. | TR: [Concept( 'legend', 'Destanın' )|E] türü, vereceği etkilerin kategorisini ve içeriğinin temasını belirler.\n\n$game_concept_legend_types$; Meşruluk Destanı, İlahilik Destanı veya Yiğitlik Destanı olabilir ve bunlara uygun olarak [legitimacy|E], [prestige|E] ve [piety|E] sağlar.]
- game_concept_legend_type_desc: "A [legend|E] has a Type that influences the category of the effects it will grant, as well as the theme of its content.\n\nThe $game_concept_legend_types$ are Legitimizing, Heroic and Holy, granting [legitimacy|E], [prestige|E] and [piety|E], correspondingly."
-### TODO AGOT-CHANGED: game_concept_legend_holy [AGOT: Holy Legend | TR: İlahilik Destanı]
- game_concept_legend_holy: "Holy Legend"
+ game_concept_legend_type_desc: "[Concept( 'legend', 'Destanın' )|E] türü, vereceği etkilerin kategorisini ve içeriğinin temasını belirler.\n\n$game_concept_legend_types$; Meşruluk Destanı, İlahilik Destanı veya Yiğitlik Destanı olabilir ve bunlara uygun olarak [legitimacy|E], [prestige|E] ve [piety|E] sağlar."
+ game_concept_legend_holy: "İlahilik Destanı"
  game_concept_legend_holy_desc: "$game_concept_legend_type_desc$"
-### TODO AGOT-CHANGED: legend_holy [AGOT: Holy Legend | TR: İlahilik Destanı]
- legend_holy: "Holy Legend"
-### TODO AGOT-CHANGED: legend_holy_name [AGOT: The Miracles of [ROOT.Legend.GetOwner.GetNameNoTooltip] | TR: [ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] Mucizeleri]
- legend_holy_name: "The Miracles of [ROOT.Legend.GetOwner.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: legend_holy_desc [AGOT: The holiness shown by [ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] is admired by every [ROOT.Char.GetFaith.HighGodName] follower. | TR: [ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] tarafından gösterilen mucizeleri, içinde [ROOT.Char.GetFaith.HighGodName] inancı olan herkes takdir etmelidir.]
- legend_holy_desc: "The holiness shown by [ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] is admired by every [ROOT.Char.GetFaith.HighGodName] follower."
-### TODO AGOT-CHANGED: legend_alfred_of_wessex [AGOT: The Holy King | TR: Kutsal Kral]
- legend_alfred_of_wessex: "The Holy King"
-### TODO AGOT-CHANGED: legend_alfred_of_wessex_desc [AGOT: [ancestor.GetNameNoTooltip|U] weathered the invasions of the Northmen in England, and stood as a bulwark and proselytizer for Christendom. | TR: [ancestor.GetTitledFirstNameNoTooltip|U], İngiltere'deki Kuzeylilerin istilalarını atlattı ve Hristiyan âlemi için bir siper ve tebliğci vazifesini yerine getirdi.]
- legend_alfred_of_wessex_desc: "[ancestor.GetNameNoTooltip|U] weathered the invasions of the Northmen in England, and stood as a bulwark and proselytizer for Christendom."
-### TODO AGOT-CHANGED: legend_peasant_emperor [AGOT: From Peasant to Basileus | TR: Köylülükten Basileusluğa]
- legend_peasant_emperor: "From Peasant to Basileus"
-### TODO AGOT-CHANGED: legend_peasant_emperor_desc [AGOT: Basil was born to peasant farmers and entered the employ of the Emperor before marrying his daughter and ascending to the rank of Basileus himself. | TR: Basil, köylü bir çiftçinin çocuğu olarak dünyaya gelmiş ve İmparatorun kızıyla evlenip Basileus mevkisine yükselmeden önce İmparatorun hizmetine girmiştir.]
- legend_peasant_emperor_desc: "Basil was born to peasant farmers and entered the employ of the Emperor before marrying his daughter and ascending to the rank of Basileus himself."
-### TODO AGOT-CHANGED: legend_saman_khudah [AGOT: Descendant of Bahram Chobin | TR: Behram Çubin'in Soyu]
- legend_saman_khudah: "Descendant of Bahram Chobin"
-### TODO AGOT-CHANGED: legend_saman_khudah_desc [AGOT: General, conqueror, and usurper, Bahram Chobin took the Sassanid throne for himself, and his heroic blood flows through our veins. | TR: General, fatih ve gaspçı Behrâm Çubin, Sasani tahtını kendisi için aldı ve onun kahramanlık kanı damarlarımızda akıyor.]
- legend_saman_khudah_desc: "General, conqueror, and usurper, Bahram Chobin took the Sassanid throne for himself, and his heroic blood flows through our veins."
-### TODO AGOT-CHANGED: legend_bahram_gur [AGOT: Gur Lineage | TR: Gur Soyu]
- legend_bahram_gur: "Gur Lineage"
-### TODO AGOT-CHANGED: legend_bahram_gur_desc [AGOT: Bahram Gur was a great warrior king who fought and resisted countless invaders. His blood flows through our veins, making us Persian heroes. | TR: Behram Gur, sayısız istilacıya karşı savaşmış ve direnmiş büyük bir savaşçı kraldı. Onun kanı damarlarımızda akıyor ve bizi Pers kahramanları yapıyor.]
- legend_bahram_gur_desc: "Bahram Gur was a great warrior king who fought and resisted countless invaders. His blood flows through our veins, making us Persian heroes."
-### TODO AGOT-CHANGED: bahram_gur [AGOT: Bahram Gur | TR: Behram Gur]
- bahram_gur: "Bahram Gur"
-### TODO AGOT-CHANGED: legend_cadell [AGOT: The Blood of Cadell | TR: Cadell'in Kanı]
- legend_cadell: "The Blood of Cadell"
-### TODO AGOT-CHANGED: legend_cadell_desc [AGOT: Cadell began life as a slave boy, and with the blessing of a Saint bestowed upon him, he wrestled the Powys kingdom from Vortigern. | TR: Cadell hayata köle bir çocuk olarak başladı ve kendisine bahşedilen bir Aziz'in kutsamasıyla Powys krallığını Vortigern'den aldı.]
- legend_cadell_desc: "Cadell began life as a slave boy, and with the blessing of a Saint bestowed upon him, he wrestled the Powys kingdom from Vortigern."
-### TODO AGOT-CHANGED: legend_descendants_of_brahman [AGOT: Blood of Brahman | TR: Brahman'ın Kanı]
- legend_descendants_of_brahman: "Blood of Brahman"
-### TODO AGOT-CHANGED: legend_descendants_of_brahman_desc [AGOT: We are the sons and daughters of the Gods. Brahman, Vishnu, our blood can be traced back to the beginning of time itself. | TR: Bizler Tanrıların çocuklarıyız. Brahman, Vishnu, kanımızın izi zamanın başlangıcına kadar sürülebilir.]
- legend_descendants_of_brahman_desc: "We are the sons and daughters of the Gods. Brahman, Vishnu, our blood can be traced back to the beginning of time itself."
-### TODO AGOT-CHANGED: legend_edward_the_martyr [AGOT: Edward the Martyr | TR: Şehit Edward]
- legend_edward_the_martyr: "Edward the Martyr"
-### TODO AGOT-CHANGED: legend_edward_the_martyr_desc [AGOT: Murdered and buried without honors, Edward the Martyr's body was found to be incorrupt after a year. It is said that he embraced his own death out of a deep love for Christ. | TR: Öldürülen ve onursuzca gömülen Şehit Edward'ın cesedi bir yıl sonra bozulmamış olarak bulundu. Mesih'e duyduğu derin sevgiden dolayı kendi ölümünü kucakladığı söylenir.]
- legend_edward_the_martyr_desc: "Murdered and buried without honors, Edward the Martyr's body was found to be incorrupt after a year. It is said that he embraced his own death out of a deep love for Christ."
-### TODO AGOT-CHANGED: legend_sceafa [AGOT: Sceafa, Grandson of Noah | TR: Nuh'un Torunu Sceafa]
- legend_sceafa: "Sceafa, Grandson of Noah"
-### TODO AGOT-CHANGED: legend_sceafa_desc [AGOT: The ancient Lombardic king Sceafa crawled out of the sea as a child and went on to rule England. We know he was the grandson of Noah, and it is from him we gain our divine blood. | TR: Antik Lombard kralı Sceafa çocukken denizden sürünerek çıktı ve İngiltere'yi yönetmeye devam etti. Onun Nuh'un torunu olduğunu biliyoruz ve ilahi kanımızı ondan alıyoruz.]
- legend_sceafa_desc: "The ancient Lombardic king Sceafa crawled out of the sea as a child and went on to rule England. We know he was the grandson of Noah, and it is from him we gain our divine blood."
-### TODO AGOT-CHANGED: legend_new_troy_london [AGOT: New Troy | TR: Yeni Truva]
- legend_new_troy_london: "New Troy"
-### TODO AGOT-CHANGED: legend_new_troy_london_desc [AGOT: Brutus, banished from Troy, was guided by Diana to Albion. After defeating the great giants that occupied the land, he founded Troia Nova, the town we now know as London. | TR: Truva'dan sürgün edilen Brutus, Diana tarafından Albion'a yönlendirildi. Ülkeyi işgal eden büyük devleri yendikten sonra, şu anda Londra olarak bildiğimiz Yeni Truva'yı kurdu.]
- legend_new_troy_london_desc: "Brutus, banished from Troy, was guided by Diana to Albion. After defeating the great giants that occupied the land, he founded Troia Nova, the town we now know as London."
-### TODO AGOT-CHANGED: legend_scota [AGOT: Sons of Scota | TR: Scota'nın Oğulları]
- legend_scota: "Sons of Scota"
-### TODO AGOT-CHANGED: legend_scota_desc [AGOT: It is from Scota, daughter of a great Egyptian Pharaoh, that we call our land | TR: Büyük bir Mısır Firavununun kızı olan Scota'dan dolayı topraklarımıza]
- legend_scota_desc: "It is from Scota, daughter of a great Egyptian Pharaoh, that we call our land "Scotland". She is the mother of all Scots, and it is the blood of the ancient Pharaohs that flows through our veins."
-### TODO AGOT-CHANGED: legend_tosny [AGOT: The Swan Knight | TR: Kuğu Şövalye]
- legend_tosny: "The Swan Knight"
-### TODO AGOT-CHANGED: legend_tosny_desc [AGOT: The mighty Roger de Tosny was descended from the Knight of the Swan, and we wear the Swan Badge to this day to honor his legend. | TR: Kudretli Roger de Tosny, Kuğu Şövalyesi'nin soyundan geliyordu ve biz bugün onun efsanesini onurlandırmak için Kuğu Rozeti takıyoruz.]
- legend_tosny_desc: "The mighty Roger de Tosny was descended from the Knight of the Swan, and we wear the Swan Badge to this day to honor his legend."
-### TODO AGOT-CHANGED: legend_premysl [AGOT: Přemysl the Plowman | TR: Sabancı Přemysl]
- legend_premysl: "Přemysl the Plowman"
-### TODO AGOT-CHANGED: legend_premysl_desc [AGOT: Our ancestor began life as a mere peasant in the village of Stadice, but he soon caught the eye of Libuše and married her to become Prince of the Czechs. | TR: Atamız hayata Stadice köyünde sıradan bir köylü olarak başladı, ancak kısa süre sonra Libuše'nin dikkatini çekti ve onunla evlenerek Çeklerin Prensi oldu.]
- legend_premysl_desc: "Our ancestor began life as a mere peasant in the village of Stadice, but he soon caught the eye of Libuše and married her to become Prince of the Czechs."
-### TODO AGOT-CHANGED: legend_naga_descent [AGOT: Blood of the Naga | TR: Naga'nın Kanı]
- legend_naga_descent: "Blood of the Naga"
-### TODO AGOT-CHANGED: legend_naga_descent_desc [AGOT: The Naga are holy half-human and half-serpent creatures who reside in Patala, and can occasionally cross into our world as full humans. Our family can trace their lineage back to a Naga who once visited Kashmir and laid with a human. | TR: Naga, Patala'da yaşayan ve zaman zaman dünyamıza tam insan olarak geçebilen kutsal yarı insan yarı yılan yaratıklardır. Ailemiz soylarını bir zamanlar Keşmir'i ziyaret eden ve bir insanla yatan bir Naga'ya kadar takip edebilir.]
- legend_naga_descent_desc: "The Naga are holy half-human and half-serpent creatures who reside in Patala, and can occasionally cross into our world as full humans. Our family can trace their lineage back to a Naga who once visited Kashmir and laid with a human."
-### TODO AGOT-CHANGED: legend_the_red_hand [AGOT: The Red Hand of Ulster | TR: Ulster'in Kızıl Eli]
- legend_the_red_hand: "The Red Hand of Ulster"
-### TODO AGOT-CHANGED: legend_the_red_hand_desc [AGOT: It is said that in Ireland's early days, a promise was made that the first to lay their hand on Ulster would be given claim to it, and be made High King of Ireland. It was our ancestor who had the wit to slice off his own hand and hurl it into Ulster, staining the emerald grass with his blood. | TR: Rivayete göre İrlanda'nın ilk günlerinde Ulster'e ilk elini sürenin orayı sahipleneceği ve İrlanda'nın Yüce Kralı yapılacağına dair bir söz verilmiş. Atamız kendi elini kesip Ulster'e fırlatarak zümrüt çimenleri kanıyla lekeleme zekâsına sahipti.]
- legend_the_red_hand_desc: "It is said that in Ireland's early days, a promise was made that the first to lay their hand on Ulster would be given claim to it, and be made High King of Ireland. It was our ancestor who had the wit to slice off his own hand and hurl it into Ulster, staining the emerald grass with his blood."
-### TODO AGOT-CHANGED: legend_ragnarr [AGOT: Sons of $nick_lodbrok$ | TR: $nick_lodbrok$ Oğulları]
- legend_ragnarr: "Sons of $nick_lodbrok$"
-### TODO AGOT-CHANGED: legend_ragnarr_desc [AGOT: King of Danes and slayer of a mighty wyrm, [ancestor.GetFirstNameNoTooltip] was a terror to Christians and a legendary adventurer. [ancestor.GetHerHis|U] great deeds in life are too many to name, and with [ancestor.GetHerHis] blood flowing through me, it is only right that I claim [ancestor.GetHerHis] legacy and build a legendary tale all my own! | TR: Danimarkalıların kralı ve güçlü bir wyrm avcısı olan [ancestor.GetFirstNameNoTooltip], Hristiyanlar için bir korku ve efsanevi bir maceracıydı. Hayattayken yaptığı büyük işler saymakla bitmez ve onun kanı benim içimde akarken, onun mirasına sahip çıkmam ve kendime ait efsanevi bir hikâye inşa etmem en doğrusu!]
- legend_ragnarr_desc: "King of Danes and slayer of a mighty wyrm, [ancestor.GetFirstNameNoTooltip] was a terror to Christians and a legendary adventurer. [ancestor.GetHerHis|U] great deeds in life are too many to name, and with [ancestor.GetHerHis] blood flowing through me, it is only right that I claim [ancestor.GetHerHis] legacy and build a legendary tale all my own!"
-### TODO AGOT-CHANGED: holy_seed_toast [AGOT: Holy [legend_seed|E] Gained | TR: Kutsal [legend_seed|E] Kazanıldı]
- holy_seed_toast: "Holy [legend_seed|E] Gained"
-### TODO AGOT-CHANGED: legend_godly_descent_name [AGOT: The Blood of [Localize( god )|U] | TR: [Localize( god )|U] Kanı]
- legend_godly_descent_name: "The Blood of [Localize( god )|U]"
-### TODO AGOT-CHANGED: legend_godly_descent_desc [AGOT: [Localize( god )|U] is my ancestor, and with that blood in my veins, I shall perform wonders. | TR: [Localize( god )|U] benim atam ve damarlarımdaki o kanla harikalar yaratacağım.]
- legend_godly_descent_desc: "[Localize( god )|U] is my ancestor, and with that blood in my veins, I shall perform wonders."
+ legend_holy: "İlahilik Destanı"
+ legend_holy_name: "[ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] Mucizeleri"
+ legend_holy_desc: "[ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] tarafından gösterilen mucizeleri, içinde [ROOT.Char.GetFaith.HighGodName] inancı olan herkes takdir etmelidir."
+ legend_alfred_of_wessex: "Kutsal Kral"
+ legend_alfred_of_wessex_desc: "[ancestor.GetTitledFirstNameNoTooltip|U], İngiltere'deki Kuzeylilerin istilalarını atlattı ve Hristiyan âlemi için bir siper ve tebliğci vazifesini yerine getirdi."
+ legend_peasant_emperor: "Köylülükten Basileusluğa"
+ legend_peasant_emperor_desc: "Basil, köylü bir çiftçinin çocuğu olarak dünyaya gelmiş ve İmparatorun kızıyla evlenip Basileus mevkisine yükselmeden önce İmparatorun hizmetine girmiştir."
+ legend_saman_khudah: "Behram Çubin'in Soyu"
+ legend_saman_khudah_desc: "General, fatih ve gaspçı Behrâm Çubin, Sasani tahtını kendisi için aldı ve onun kahramanlık kanı damarlarımızda akıyor."
+ legend_bahram_gur: "Gur Soyu"
+ legend_bahram_gur_desc: "Behram Gur, sayısız istilacıya karşı savaşmış ve direnmiş büyük bir savaşçı kraldı. Onun kanı damarlarımızda akıyor ve bizi Pers kahramanları yapıyor."
+ bahram_gur: "Behram Gur"
+ legend_cadell: "Cadell'in Kanı"
+ legend_cadell_desc: "Cadell hayata köle bir çocuk olarak başladı ve kendisine bahşedilen bir Aziz'in kutsamasıyla Powys krallığını Vortigern'den aldı."
+ legend_descendants_of_brahman: "Brahman'ın Kanı"
+ legend_descendants_of_brahman_desc: "Bizler Tanrıların çocuklarıyız. Brahman, Vishnu, kanımızın izi zamanın başlangıcına kadar sürülebilir."
+ legend_edward_the_martyr: "Şehit Edward"
+ legend_edward_the_martyr_desc: "Öldürülen ve onursuzca gömülen Şehit Edward'ın cesedi bir yıl sonra bozulmamış olarak bulundu. Mesih'e duyduğu derin sevgiden dolayı kendi ölümünü kucakladığı söylenir."
+ legend_sceafa: "Nuh'un Torunu Sceafa"
+ legend_sceafa_desc: "Antik Lombard kralı Sceafa çocukken denizden sürünerek çıktı ve İngiltere'yi yönetmeye devam etti. Onun Nuh'un torunu olduğunu biliyoruz ve ilahi kanımızı ondan alıyoruz."
+ legend_new_troy_london: "Yeni Truva"
+ legend_new_troy_london_desc: "Truva'dan sürgün edilen Brutus, Diana tarafından Albion'a yönlendirildi. Ülkeyi işgal eden büyük devleri yendikten sonra, şu anda Londra olarak bildiğimiz Yeni Truva'yı kurdu."
+ legend_scota: "Scota'nın Oğulları"
+ legend_scota_desc: "Büyük bir Mısır Firavununun kızı olan Scota'dan dolayı topraklarımıza "İskoçya" diyoruz. O tüm İskoçların anasıdır ve damarlarımızda akan eski Firavunların kanıdır."
+ legend_tosny: "Kuğu Şövalye"
+ legend_tosny_desc: "Kudretli Roger de Tosny, Kuğu Şövalyesi'nin soyundan geliyordu ve biz bugün onun efsanesini onurlandırmak için Kuğu Rozeti takıyoruz."
+ legend_premysl: "Sabancı Přemysl"
+ legend_premysl_desc: "Atamız hayata Stadice köyünde sıradan bir köylü olarak başladı, ancak kısa süre sonra Libuše'nin dikkatini çekti ve onunla evlenerek Çeklerin Prensi oldu."
+ legend_naga_descent: "Naga'nın Kanı"
+ legend_naga_descent_desc: "Naga, Patala'da yaşayan ve zaman zaman dünyamıza tam insan olarak geçebilen kutsal yarı insan yarı yılan yaratıklardır. Ailemiz soylarını bir zamanlar Keşmir'i ziyaret eden ve bir insanla yatan bir Naga'ya kadar takip edebilir."
+ legend_the_red_hand: "Ulster'in Kızıl Eli"
+ legend_the_red_hand_desc: "Rivayete göre İrlanda'nın ilk günlerinde Ulster'e ilk elini sürenin orayı sahipleneceği ve İrlanda'nın Yüce Kralı yapılacağına dair bir söz verilmiş. Atamız kendi elini kesip Ulster'e fırlatarak zümrüt çimenleri kanıyla lekeleme zekâsına sahipti."
+ legend_ragnarr: "$nick_lodbrok$ Oğulları"
+ legend_ragnarr_desc: "Danimarkalıların kralı ve güçlü bir wyrm avcısı olan [ancestor.GetFirstNameNoTooltip], Hristiyanlar için bir korku ve efsanevi bir maceracıydı. Hayattayken yaptığı büyük işler saymakla bitmez ve onun kanı benim içimde akarken, onun mirasına sahip çıkmam ve kendime ait efsanevi bir hikâye inşa etmem en doğrusu!"
+ holy_seed_toast: "Kutsal [legend_seed|E] Kazanıldı"
+ legend_godly_descent_name: "[Localize( god )|U] Kanı"
+ legend_godly_descent_desc: "[Localize( god )|U] benim atam ve damarlarımdaki o kanla harikalar yaratacağım."
  legend_crusader: "[GetTrait('faith_warrior').GetNameNoTooltip( protagonist )] [ancestor.GetTitleAsNameNoTooltip|U]"
-### TODO AGOT-CHANGED: legend_crusader_desc [AGOT: [protagonist.GetName] committed many great and pious deeds in taking the holy land. | TR: [protagonist.GetName], kutsal toprakları ele geçirirken birçok büyük ve dindar eylemde bulundu.]
- legend_crusader_desc: "[protagonist.GetName] committed many great and pious deeds in taking the holy land."
-### TODO AGOT-CHANGED: consecrated_blood_legend [AGOT: The Holy Blood | TR: Kutsal Kan]
- consecrated_blood_legend: "The Holy Blood"
-### TODO AGOT-CHANGED: consecrated_blood_legend_desc [AGOT: [founder.GetNamePossessive|U] flows through all members of the [dynasty.GetName] family. Our devotion to [founder.GetFaith.HighGodName|U] is absolute and our deeds done only in [founder.GetFaith.HighGodHerHis|U] name. | TR: [founder.GetNamePossessive|U], [dynasty.GetName] Hanesinin tüm üyelerinin damarlarında akar. Bağlılığımız yalnızca [founder.GetFaith.HighGodName|U] içindir ve eylemlerimiz yalnızca onun adına yapılır.]
- consecrated_blood_legend_desc: "[founder.GetNamePossessive|U] flows through all members of the [dynasty.GetName] family. Our devotion to [founder.GetFaith.HighGodName|U] is absolute and our deeds done only in [founder.GetFaith.HighGodHerHis|U] name."
-### TODO AGOT-CHANGED: dyn_many_crown_legend [AGOT: The [dynasty.GetNameNoTooltip|U] Sovereignty | TR: [dynasty.GetNameNoTooltip|U] Egemenliği]
- dyn_many_crown_legend: "The [dynasty.GetNameNoTooltip|U] Sovereignty"
-### TODO AGOT-CHANGED: dyn_many_crown_legend_desc [AGOT: Either through fate or by design, power falls into [dynasty.GetName] hands. Our lands are many and our deeds great, and our dominion over the thrones of the world is preordained. | TR: İster kader desinler ister tasarım, güç [dynasty.GetName] hanedanının elinde. Topraklarımız geniş, eylemlerimiz büyüktür ve dünyanın tahtları üzerindeki hâkimiyetimiz önceden belirlenmiştir.]
- dyn_many_crown_legend_desc: "Either through fate or by design, power falls into [dynasty.GetName] hands. Our lands are many and our deeds great, and our dominion over the thrones of the world is preordained."
-### TODO AGOT-CHANGED: legend_of_rome_name [AGOT: A New Caesar | TR: Yeni Bir Sezar]
- legend_of_rome_name: "A New Caesar"
-### TODO AGOT-CHANGED: legend_of_n_sea_name [AGOT: Dominion of the Sea | TR: Denizin Hâkimiyeti]
- legend_of_n_sea_name: "Dominion of the Sea"
-### TODO AGOT-CHANGED: legend_of_mann_name [AGOT: The Pirate [founder.GetTitleAsNameNoTooltip|U] | TR: Korsan [founder.GetTitleAsNameNoTooltip|U]]
- legend_of_mann_name: "The Pirate [founder.GetTitleAsNameNoTooltip|U]"
-### TODO AGOT-CHANGED: legendary_battle_name [AGOT: The Battle of [location.GetName|U] | TR: [location.GetName|U] Muharebesi]
- legendary_battle_name: "The Battle of [location.GetName|U]"
-### TODO AGOT-CHANGED: khan_beater_name [AGOT: The Scourge of Khans | TR: Hanların Kamçısı]
- khan_beater_name: "The Scourge of Khans"
-### TODO AGOT-CHANGED: legend_of_rome_desc [AGOT: Rome, once diminished to a distant memory, now rises again with a new Caesar, ready to bring civilization once again to a new age. | TR: Uzun zaman önce bir anıya dönüşen Roma, şimdi yeni bir Sezar'la yeniden yükseliyor ve uygarlığı bir kez daha yeni bir çağa taşımaya hazır.]
- legend_of_rome_desc: "Rome, once diminished to a distant memory, now rises again with a new Caesar, ready to bring civilization once again to a new age."
-### TODO AGOT-CHANGED: legend_of_n_sea_desc [AGOT: The North Sea has been the dominion of the Danes, and now under the rulership of [founder.GetName], an empire rises above the waves. | TR: Kuzey Denizi Danimarkalıların egemenliği altındaydı ve şimdi [founder.GetName], hükümdarlığı ile dalgaların üzerinde bir imparatorluk yükseltiyor.]
- legend_of_n_sea_desc: "The North Sea has been the dominion of the Danes, and now under the rulership of [founder.GetName], an empire rises above the waves."
-### TODO AGOT-CHANGED: legend_of_mann_desc [AGOT: Across the waves of Britannia, sailors tell stories of a great and dreadful pirate [founder.GetTitleAsNameNoTooltip], the terrifying [founder.GetName]. Even the mightiest of warriors turns pale when they see those boats appearing on their shores. Surrender would be the only option, if only the [founder.GetTitleAsNameNoTooltip|U] would accept such a thing. | TR: Britanya'nın dalgaları boyunca denizciler büyük ve korkunç bir korsan [founder.GetTitleAsNameNoTooltip] olan [founder.GetName] hakkında hikâyeler anlatır. En kudretli savaşçılar bile kıyılarında beliren tekneleri gördüklerinde bembeyaz kesilirler. Teslim olmak tek seçenektir, tabii [founder.GetTitleAsNameNoTooltip|U] böyle bir şeyi kabul ederse.]
- legend_of_mann_desc: "Across the waves of Britannia, sailors tell stories of a great and dreadful pirate [founder.GetTitleAsNameNoTooltip], the terrifying [founder.GetName]. Even the mightiest of warriors turns pale when they see those boats appearing on their shores. Surrender would be the only option, if only the [founder.GetTitleAsNameNoTooltip|U] would accept such a thing."
-### TODO AGOT-CHANGED: khan_beater_desc [AGOT: The legendary 'Genghis Khan' was set to bring all that is under the sky into [loser.GetHerHis] Empire, but the mighty [winner.GetTitleAsNameNoTooltip|U] was thwarted by the heroic [winner.GetName]! | TR: Efsanevi 'Cengiz Han' gökyüzünün altındaki her şeyi İmparatorluğuna katmaya hazırlanıyordu, ancak kudretli [winner.GetTitleAsNameNoTooltip|U], kahraman [winner.GetName] tarafından engellendi!]
- khan_beater_desc: "The legendary 'Genghis Khan' was set to bring all that is under the sky into [loser.GetHerHis] Empire, but the mighty [winner.GetTitleAsNameNoTooltip|U] was thwarted by the heroic [winner.GetName]!"
-### TODO AGOT-CHANGED: legendary_battle_desc [AGOT: [loser.GetName|U] sought to destroy [winner.GetName], and [loser.GetSheHe] was a worthy opponent indeed. With [winner.GetFirstNameNoTooltip] emerging victorious, there will be no end to [winner.GetHerHis] deeds of derring-do! | TR: [loser.GetName|U], [winner.GetName] ile savaşarak onu yok etmeye çalıştı ve gerçekten de değerli bir rakipti. Bu, [winner.GetFirstNameNoTooltip] için ilk zafer değil, sonuncusu da olmayacak!]
- legendary_battle_desc: "[loser.GetName|U] sought to destroy [winner.GetName], and [loser.GetSheHe] was a worthy opponent indeed. With [winner.GetFirstNameNoTooltip] emerging victorious, there will be no end to [winner.GetHerHis] deeds of derring-do!"
+ legend_crusader_desc: "[protagonist.GetName], kutsal toprakları ele geçirirken birçok büyük ve dindar eylemde bulundu."
+ consecrated_blood_legend: "Kutsal Kan"
+ consecrated_blood_legend_desc: "[founder.GetNamePossessive|U], [dynasty.GetName] Hanesinin tüm üyelerinin damarlarında akar. Bağlılığımız yalnızca [founder.GetFaith.HighGodName|U] içindir ve eylemlerimiz yalnızca onun adına yapılır."
+ dyn_many_crown_legend: "[dynasty.GetNameNoTooltip|U] Egemenliği"
+ dyn_many_crown_legend_desc: "İster kader desinler ister tasarım, güç [dynasty.GetName] hanedanının elinde. Topraklarımız geniş, eylemlerimiz büyüktür ve dünyanın tahtları üzerindeki hâkimiyetimiz önceden belirlenmiştir."
+ legend_of_rome_name: "Yeni Bir Sezar"
+ legend_of_n_sea_name: "Denizin Hâkimiyeti"
+ legend_of_mann_name: "Korsan [founder.GetTitleAsNameNoTooltip|U]"
+ legendary_battle_name: "[location.GetName|U] Muharebesi"
+ khan_beater_name: "Hanların Kamçısı"
+ legend_of_rome_desc: "Uzun zaman önce bir anıya dönüşen Roma, şimdi yeni bir Sezar'la yeniden yükseliyor ve uygarlığı bir kez daha yeni bir çağa taşımaya hazır."
+ legend_of_n_sea_desc: "Kuzey Denizi Danimarkalıların egemenliği altındaydı ve şimdi [founder.GetName], hükümdarlığı ile dalgaların üzerinde bir imparatorluk yükseltiyor."
+ legend_of_mann_desc: "Britanya'nın dalgaları boyunca denizciler büyük ve korkunç bir korsan [founder.GetTitleAsNameNoTooltip] olan [founder.GetName] hakkında hikâyeler anlatır. En kudretli savaşçılar bile kıyılarında beliren tekneleri gördüklerinde bembeyaz kesilirler. Teslim olmak tek seçenektir, tabii [founder.GetTitleAsNameNoTooltip|U] böyle bir şeyi kabul ederse."
+ khan_beater_desc: "Efsanevi 'Cengiz Han' gökyüzünün altındaki her şeyi İmparatorluğuna katmaya hazırlanıyordu, ancak kudretli [winner.GetTitleAsNameNoTooltip|U], kahraman [winner.GetName] tarafından engellendi!"
+ legendary_battle_desc: "[loser.GetName|U], [winner.GetName] ile savaşarak onu yok etmeye çalıştı ve gerçekten de değerli bir rakipti. Bu, [winner.GetFirstNameNoTooltip] için ilk zafer değil, sonuncusu da olmayacak!"
  legend_ruler_loc: "[protagonist.GetFirstNameNoTooltip|U]"
-### TODO AGOT-CHANGED: legend_myth [AGOT: The Myth of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Miti]
- legend_myth: "The Myth of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_saga [AGOT: The Saga of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Efsanesi]
- legend_saga: "The Saga of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_tale [AGOT: The Tale of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Macerası]
- legend_tale: "The Tale of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_song [AGOT: The Song of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Şarkısı]
- legend_song: "The Song of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_story [AGOT: The Story of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Hikâyesi]
- legend_story: "The Story of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_nama [AGOT: The $legend_ruler_loc$nama | TR: $legend_ruler_loc$name]
- legend_nama: "The $legend_ruler_loc$nama"
-### TODO AGOT-CHANGED: legend_chanson [AGOT: $legend_ruler_loc_possessive$ Chanson | TR: $legend_ruler_loc$ Şansonu]
- legend_chanson: "$legend_ruler_loc_possessive$ Chanson"
-### TODO AGOT-CHANGED: legend_poem [AGOT: The Poem of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Şiiri]
- legend_poem: "The Poem of $legend_ruler_loc$"
+ legend_myth: "$legend_ruler_loc$ Miti"
+ legend_saga: "$legend_ruler_loc$ Efsanesi"
+ legend_tale: "$legend_ruler_loc$ Macerası"
+ legend_song: "$legend_ruler_loc$ Şarkısı"
+ legend_story: "$legend_ruler_loc$ Hikâyesi"
+ legend_nama: "$legend_ruler_loc$name"
+ legend_chanson: "$legend_ruler_loc$ Şansonu"
+ legend_poem: "$legend_ruler_loc$ Şiiri"
  legend_gesta: "Gesta $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_deeds [AGOT: The Deeds of $legend_ruler_loc$ | TR: $legend_ruler_loc$ İşleri]
- legend_deeds: "The Deeds of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_genealogy [AGOT: The Genealogy of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Soy Ağacı]
- legend_genealogy: "The Genealogy of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_record [AGOT: The Records of Family $legend_ruler_family_loc$ | TR: $legend_ruler_family_loc$ Hanesinin Kayıtları]
- legend_record: "The Records of Family $legend_ruler_family_loc$"
-### TODO AGOT-CHANGED: legend_annals [AGOT: The Annals of Family $legend_ruler_family_loc$ | TR: $legend_ruler_family_loc$ Hanesinin Yıllıkları]
- legend_annals: "The Annals of Family $legend_ruler_family_loc$"
+ legend_deeds: "$legend_ruler_loc$ İşleri"
+ legend_genealogy: "$legend_ruler_loc$ Soy Ağacı"
+ legend_record: "$legend_ruler_family_loc$ Hanesinin Kayıtları"
+ legend_annals: "$legend_ruler_family_loc$ Hanesinin Yıllıkları"
  legend_ayedawbon: "$legend_ruler_family_loc$ Ayedawbon"
-### TODO AGOT-CHANGED: legend_court [AGOT: The Court of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Sarayı]
- legend_court: "The Court of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_gospel [AGOT: Gospel of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Mucizeleri]
- legend_gospel: "Gospel of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_words [AGOT: Words of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Sözleri]
- legend_words: "Words of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: legend_sutra [AGOT: The $legend_ruler_loc$ Sutra | TR: $legend_ruler_loc$ Sutra]
- legend_sutra: "The $legend_ruler_loc$ Sutra"
-### TODO AGOT-CHANGED: legend_texts [AGOT: The $legend_province_loc$ Texts | TR: $legend_province_loc$ Metinleri]
- legend_texts: "The $legend_province_loc$ Texts"
-### TODO AGOT-CHANGED: legend_purana [AGOT: The $legend_province_loc$ Purana | TR: $legend_province_loc$ Purana]
- legend_purana: "The $legend_province_loc$ Purana"
-### TODO AGOT-CHANGED: legend_wonders [AGOT: The Wonders of $legend_ruler_loc$ | TR: $legend_ruler_loc$ Harikaları]
- legend_wonders: "The Wonders of $legend_ruler_loc$"
-### TODO AGOT-CHANGED: must_own_france_or_hre_tt [AGOT: You must hold either [GetTitleByKey('k_france').GetNameNoTier], [GetTitleByKey('e_france').GetNameNoTier], or [GetTitleByKey('e_hre').GetNameNoTier] personally | TR: [GetTitleByKey('k_france').GetNameNoTier], [GetTitleByKey('e_france').GetNameNoTier] veya [GetTitleByKey('e_hre').GetNameNoTier] unvanına direkt olarak sahip olmalısınız]
- must_own_france_or_hre_tt: "You must hold either [GetTitleByKey('k_france').GetNameNoTier], [GetTitleByKey('e_france').GetNameNoTier], or [GetTitleByKey('e_hre').GetNameNoTier] personally"
+ legend_court: "$legend_ruler_loc$ Sarayı"
+ legend_gospel: "$legend_ruler_loc$ Mucizeleri"
+ legend_words: "$legend_ruler_loc$ Sözleri"
+ legend_sutra: "$legend_ruler_loc$ Sutra"
+ legend_texts: "$legend_province_loc$ Metinleri"
+ legend_purana: "$legend_province_loc$ Purana"
+ legend_wonders: "$legend_ruler_loc$ Harikaları"
+ must_own_france_or_hre_tt: "[GetTitleByKey('k_france').GetNameNoTier], [GetTitleByKey('e_france').GetNameNoTier] veya [GetTitleByKey('e_hre').GetNameNoTier] unvanına direkt olarak sahip olmalısınız"
  ramses: "Ramses"
-### TODO AGOT-CHANGED: bear [AGOT: bear | TR: ayı]
- bear: "bear"
-### TODO AGOT-CHANGED: dragon [AGOT: dragon | TR: ejderha]
- dragon: "dragon"
-### TODO AGOT-CHANGED: huge_beast [AGOT: huge beast | TR: dev canavar]
- huge_beast: "huge beast"
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_memory [AGOT: [ROOT.Legend.GetProtagonist.GetNameNoTooltip], however, did not stop there, for [ROOT.Legend.GetProtagonist.GetSheHe] went on and with great bravery [ROOT.Legend.MakeScope.Var('extra_deed_memory').CharacterMemory.GetThirdPerspectiveDescription]. | TR: [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip], yaptıklarıyla yetinmedi. Büyük bir cesaretle [ROOT.Legend.MakeScope.Var('extra_deed_memory').CharacterMemory.GetThirdPerspectiveDescription].]
- legend_chapter_extra_deed_memory: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip], however, did not stop there, for [ROOT.Legend.GetProtagonist.GetSheHe] went on and with great bravery [ROOT.Legend.MakeScope.Var('extra_deed_memory').CharacterMemory.GetThirdPerspectiveDescription]."
-### TODO AGOT-CHANGED: legend_chapter_hunt_debug [AGOT: #D Hunt chapter#! | TR: #D Av bölümü#!]
- legend_chapter_hunt_debug: "#D Hunt chapter#!"
-### TODO AGOT-CHANGED: legend_chapter_battle_debug [AGOT: #D Battle chapter#! | TR: #D Muharebe bölümü#!]
- legend_chapter_battle_debug: "#D Battle chapter#!"
-### TODO AGOT-CHANGED: legend_chapter_famous_deed_debug [AGOT: #D Famous deed chapter#! | TR: #D Meşhur başarı bölümü#!]
- legend_chapter_famous_deed_debug: "#D Famous deed chapter#!"
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_debug [AGOT: #D Extra deed chapter#! | TR: #D Fazladan başarı bölümü#!]
- legend_chapter_extra_deed_debug: "#D Extra deed chapter#!"
-### TODO AGOT-CHANGED: legend_chapter_battle_enemy_commander [AGOT: Amidst the melee, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] found themselves face to face with none other than the wretched enemy commander! After an almighty duel, the vile cur was smote down by [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], blood running free down [ROOT.Legend.GetProtagonist.GetHerHis] blade as the battle swirled around them. | TR: Mücadele sırasında [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], kendini sefil düşman komutanının karşısında buldu! Çetin bir düellonun ardından adi pislik [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] tarafından yere serildi, etrafındaki savaş devam ederken rakibinin kanı kılıcından damlıyordu.]
- legend_chapter_battle_enemy_commander: "Amidst the melee, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] found themselves face to face with none other than the wretched enemy commander! After an almighty duel, the vile cur was smote down by [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], blood running free down [ROOT.Legend.GetProtagonist.GetHerHis] blade as the battle swirled around them."
-### TODO AGOT-CHANGED: legend_chapter_battle_faked_retreat [AGOT: [ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] tactical acumen was tested in the fires of battle, but [ROOT.Legend.GetProtagonist.GetSheHe] proved [ROOT.Legend.GetProtagonist.GetHerselfHimself] equal to the task. A cunning feigned retreat gathered the enemy into a vulnerable position, only for our brave hero to advance once more and cut them down. | TR: [ROOT.Legend.GetProtagonist.GetFirstName|U] ve muazzam taktiksel zekâsı muharebenin alevlerinde sınandı lakin bu işe uygun olduğunu kanıtladı. Akıllıca bir sahte çekilme ile düşmanı açıkta bıraktı ve kahramanca bir saldırı ile onları yerle yeksan etti.]
- legend_chapter_battle_faked_retreat: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] tactical acumen was tested in the fires of battle, but [ROOT.Legend.GetProtagonist.GetSheHe] proved [ROOT.Legend.GetProtagonist.GetHerselfHimself] equal to the task. A cunning feigned retreat gathered the enemy into a vulnerable position, only for our brave hero to advance once more and cut them down."
-### TODO AGOT-CHANGED: legend_chapter_battle_wounded [AGOT: The battle was fierce and combat was brutal. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] sustained many lasting injuries as a result of it; a small price to pay for a [ROOT.Legend.GetProtagonist.GetWomanMan] of such conviction and honor! | TR: Muharebe çetin ve çatışma acımasızdı. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], bunun sonucunda pek çok yara aldı; tabii bu, onun cesaretine ve şanına sahip biri için ufak bir bedel!]
- legend_chapter_battle_wounded: "The battle was fierce and combat was brutal. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] sustained many lasting injuries as a result of it; a small price to pay for a [ROOT.Legend.GetProtagonist.GetWomanMan] of such conviction and honor!"
+ bear: "ayı"
+ dragon: "ejderha"
+ huge_beast: "dev canavar"
+ legend_chapter_extra_deed_memory: "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip], yaptıklarıyla yetinmedi. Büyük bir cesaretle [ROOT.Legend.MakeScope.Var('extra_deed_memory').CharacterMemory.GetThirdPerspectiveDescription]."
+ legend_chapter_hunt_debug: "#D Av bölümü#!"
+ legend_chapter_battle_debug: "#D Muharebe bölümü#!"
+ legend_chapter_famous_deed_debug: "#D Meşhur başarı bölümü#!"
+ legend_chapter_extra_deed_debug: "#D Fazladan başarı bölümü#!"
+ legend_chapter_battle_enemy_commander: "Mücadele sırasında [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], kendini sefil düşman komutanının karşısında buldu! Çetin bir düellonun ardından adi pislik [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] tarafından yere serildi, etrafındaki savaş devam ederken rakibinin kanı kılıcından damlıyordu."
+ legend_chapter_battle_faked_retreat: "[ROOT.Legend.GetProtagonist.GetFirstName|U] ve muazzam taktiksel zekâsı muharebenin alevlerinde sınandı lakin bu işe uygun olduğunu kanıtladı. Akıllıca bir sahte çekilme ile düşmanı açıkta bıraktı ve kahramanca bir saldırı ile onları yerle yeksan etti."
+ legend_chapter_battle_wounded: "Muharebe çetin ve çatışma acımasızdı. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], bunun sonucunda pek çok yara aldı; tabii bu, onun cesaretine ve şanına sahip biri için ufak bir bedel!"
  legend_chapter_battle_legendary_battle: "$legendary_battle_desc$"
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_struggle [AGOT: In spite of all the greatness [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] had achieved, there were still those who doubted [ROOT.Legend.GetProtagonist.GetHerHis] vision to solve the [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]. [ROOT.Legend.GetProtagonist.GetHerHis|U] enemies were soon defeated on the battlefields of both debate and war, until all were grovelling at [ROOT.Legend.GetProtagonist.GetHerHis] feet and begging [ROOT.Legend.GetProtagonist.GetHerHis] mercy. | TR: [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], sayısız başarıya sahip olsa da [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName] için sunduğu çözümlere şüpheyle yaklaşan insanlar vardı. Düşmanları hem tartışma hem de muharebe alanında kısa sürede bertaraf edildi, ta ki hepsi onun ayağına kapanıp merhamet dilenene kadar.]
- legend_chapter_extra_deed_struggle: "In spite of all the greatness [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] had achieved, there were still those who doubted [ROOT.Legend.GetProtagonist.GetHerHis] vision to solve the [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]. [ROOT.Legend.GetProtagonist.GetHerHis|U] enemies were soon defeated on the battlefields of both debate and war, until all were grovelling at [ROOT.Legend.GetProtagonist.GetHerHis] feet and begging [ROOT.Legend.GetProtagonist.GetHerHis] mercy."
-### TODO AGOT-CHANGED: legend_chapter_famous_deed_ancestral_glory [AGOT: Fools would amass to challenge [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], but they were as wind to the mountain. [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] followers grew with each wonderful act [ROOT.Legend.GetProtagonist.GetSheHe] would commit in the name of [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm], and [ROOT.Legend.GetProtagonist.GetSheHe] became the very reflection of [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')]. | TR: Pek çok aptal [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] gibi yıkılmaz bir dağın karşısında durmaya çalışmış ve devrilmiştir. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] öyle bir iyilik timsali ki [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] adına attığı her adım ile takipçileri artıyor, sanki [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')] tekrar yeryüzünde yürüyor.]
- legend_chapter_famous_deed_ancestral_glory: "Fools would amass to challenge [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], but they were as wind to the mountain. [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] followers grew with each wonderful act [ROOT.Legend.GetProtagonist.GetSheHe] would commit in the name of [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm], and [ROOT.Legend.GetProtagonist.GetSheHe] became the very reflection of [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')]."
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_ancestral_glory [AGOT: The beautiful countryside of [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] had fallen to brigands and bandits since the [ROOT.Legend.Custom('GetAncestorFirstNamePossessiveNoTooltip')] time, but [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] soon set to work righting wrongs and protecting the people [ROOT.Legend.GetProtagonist.GetSheHe] was to rightfully rule. | TR: [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] topraklarının güzel kırları [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')] zamanından bu yana çapulcuların ve kanunsuzların eline düştü lakin [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] derhâl işe koyulup yanlışları düzeltti ve halkını olması gerektiği gibi korudu.]
- legend_chapter_extra_deed_ancestral_glory: "The beautiful countryside of [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] had fallen to brigands and bandits since the [ROOT.Legend.Custom('GetAncestorFirstNamePossessiveNoTooltip')] time, but [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] soon set to work righting wrongs and protecting the people [ROOT.Legend.GetProtagonist.GetSheHe] was to rightfully rule."
-### TODO AGOT-CHANGED: legend_chapter_famous_deed_war_won [AGOT: Battles waged back and forth, and war painted the land crimson with the blood of the righteous and villainous in equal measure. [ROOT.Legend.GetProperty( 'winner' ).Char.GetNameNoTooltip|U] remained unshaken as the forces of evil attempted to outwit [ROOT.Legend.GetProperty( 'winner' ).Char.GetHerHis] masterful military stratagem. Ultimately their efforts would prove to be fruitless. | TR: Bitmek bilmeyen muharebeler ve savaşlar sonucunda tüm diyar hem iyilerin hem kötülerin kanıyla kızıla boyandı. [ROOT.Legend.GetProperty( 'winner' ).Char.GetTitledFirstNameNoTooltip|U], kötülüğün tohumları onun eşi benzeri görülmemiş askerî dehasının altını kazımaya çalışırken hiç endişe duymadı. Eninde sonunda da bu uğraşlarının boşuna olduğu kanıtlandı.]
- legend_chapter_famous_deed_war_won: "Battles waged back and forth, and war painted the land crimson with the blood of the righteous and villainous in equal measure. [ROOT.Legend.GetProperty( 'winner' ).Char.GetNameNoTooltip|U] remained unshaken as the forces of evil attempted to outwit [ROOT.Legend.GetProperty( 'winner' ).Char.GetHerHis] masterful military stratagem. Ultimately their efforts would prove to be fruitless."
-### TODO AGOT-CHANGED: legend_chapter_famous_deed_tournament_won [AGOT: Minds and voices clashed in equal measure to blades in a great show of the martial arts, but no mind was as clever nor blade as sharp as [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip]! One after another, contestants lined up only to be brought to weeping by the untouchable [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]. | TR: Çatışma alanında zihinler ve sesler, kılıçlar ile kıyaslanabilecek seviyede çarpıştı lakin ne bir zihin ne de bir kılıç [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] ile mücadele edebildi! Birbirinin ardına yarışmacılar sıralandı ve hepsi tek tek amansız [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] tarafından yere serildi.]
- legend_chapter_famous_deed_tournament_won: "Minds and voices clashed in equal measure to blades in a great show of the martial arts, but no mind was as clever nor blade as sharp as [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip]! One after another, contestants lined up only to be brought to weeping by the untouchable [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]."
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_tournament_won [AGOT: None could keep from remembering the glory of [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip] first tournament, but a single victory was not enough for [ROOT.Legend.GetProtagonist.GetHerHim]. The other contestants surrounded [ROOT.Legend.GetProtagonist.GetHerHim] in a storm of blades, but [ROOT.Legend.GetProtagonist.GetSheHe] remained unshaken. [ROOT.Legend.GetProtagonist.GetSheHe|U] emerged victorious to a crowd screaming [ROOT.Legend.GetProtagonist.GetHerHis] name! | TR: Hiç kimse [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] ve katıldığı ilk turnuvayı unutamaz lakin tek bir galibiyet onun için yeterli değildi. Diğer yarışmacılar etrafını kılıçlarıyla sarıyordu ancak o bundan hiç etkilenmeden olduğu yerde duruyordu. Tüm herkes onun adına tezahürat ederken galip geliyordu!]
- legend_chapter_extra_deed_tournament_won: "None could keep from remembering the glory of [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip] first tournament, but a single victory was not enough for [ROOT.Legend.GetProtagonist.GetHerHim]. The other contestants surrounded [ROOT.Legend.GetProtagonist.GetHerHim] in a storm of blades, but [ROOT.Legend.GetProtagonist.GetSheHe] remained unshaken. [ROOT.Legend.GetProtagonist.GetSheHe|U] emerged victorious to a crowd screaming [ROOT.Legend.GetProtagonist.GetHerHis] name!"
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_recent_battle [AGOT: On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] valiantly fought [ROOT.Legend.GetProtagonist.GetHerHis] enemies, leading with unmatched courage and strategic brilliance. With [ROOT.Legend.GetProtagonist.GetHerHis] sword held high and his unwavering determination, he inspired victory against [ROOT.Legend.GetProtagonist.GetHerHis] foes. | TR: [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] vatanına geri dönerken düşmanlarıyla çetince savaştı, ordularını eşi benzeri görülmemiş bir cesaret ve stratejik deha ile yönetti. Havadaki kılıcı ve sarsılmaz iradesi ile düşmanlarına karşı galibiyeti kesinleştirdi.]
- legend_chapter_extra_deed_recent_battle: "On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] valiantly fought [ROOT.Legend.GetProtagonist.GetHerHis] enemies, leading with unmatched courage and strategic brilliance. With [ROOT.Legend.GetProtagonist.GetHerHis] sword held high and his unwavering determination, he inspired victory against [ROOT.Legend.GetProtagonist.GetHerHis] foes."
-### TODO AGOT-CHANGED: legend_chapter_extra_deed_recent_tournament [AGOT: On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] was captivated by the splendor of glorious tournament grounds. With sword in hand and armor gleaming under the sun's gaze, [ROOT.Legend.GetProtagonist.GetSheHe] faced formidable opponents with unwavering resolve. The audience clamored, fair ladies and impressionable pages threw themselves at [ROOT.Legend.GetProtagonist.GetHerHis] feet! The winner! The best knight! | TR: [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] vatanına dönerken muazzam turnuva alanlarının çekiciliğine kapıldı. Elinde kılıcı ve güneşin altında parlayan zırhı ile yılmaz azme sahip rakipleriyle yüz yüze geldi. Seyirciler haykırdı, güzel hanımefendiler ve kolayca etkilenen yaverler kendilerini onun ayaklarına fırlattı! Galibiyetin sahibi! En iyi şövalye!]
- legend_chapter_extra_deed_recent_tournament: "On [ROOT.Legend.GetProtagonist.GetHerHis] return home, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] was captivated by the splendor of glorious tournament grounds. With sword in hand and armor gleaming under the sun's gaze, [ROOT.Legend.GetProtagonist.GetSheHe] faced formidable opponents with unwavering resolve. The audience clamored, fair ladies and impressionable pages threw themselves at [ROOT.Legend.GetProtagonist.GetHerHis] feet! The winner! The best knight!"
-### TODO AGOT-CHANGED: legend_chapter_change_toast [AGOT: [ROOT.Char.GetPromotedLegend.GetName] changes | TR: [ROOT.Char.GetPromotedLegend.GetName] değişti]
- legend_chapter_change_toast: "[ROOT.Char.GetPromotedLegend.GetName] changes"
-### TODO AGOT-CHANGED: legend_chapter_change_culture_toast [AGOT: [founder.GetPromotedLegend.GetName] changes | TR: [founder.GetPromotedLegend.GetName] değişti]
- legend_chapter_change_culture_toast: "[founder.GetPromotedLegend.GetName] changes"
-### TODO AGOT-CHANGED: legend_chapter_famous_deed_conqueror [AGOT: Battle after battle the chanting growed louder. Battle after battle, the spoils growed bigger. Battle after battle, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] legend growed brighter. | TR: Muharebeden muharebeye zafer çığlıkları arttı. Muharebeden muharebeye ganimetler arttı. Muharebeden muharebeye [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] efsanesi daha da parladı.]
- legend_chapter_famous_deed_conqueror: "Battle after battle the chanting growed louder. Battle after battle, the spoils growed bigger. Battle after battle, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] legend growed brighter."
-### TODO AGOT-CHANGED: angels [AGOT: angels | TR: melekler]
- angels: "angels"
-### TODO AGOT-CHANGED: the_angels [AGOT: the Angels | TR: Melekler]
- the_angels: "the Angels"
-### TODO AGOT-CHANGED: olympus [AGOT: Olympus | TR: Olimpos]
- olympus: "Olympus"
+ legend_chapter_extra_deed_struggle: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], sayısız başarıya sahip olsa da [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName] için sunduğu çözümlere şüpheyle yaklaşan insanlar vardı. Düşmanları hem tartışma hem de muharebe alanında kısa sürede bertaraf edildi, ta ki hepsi onun ayağına kapanıp merhamet dilenene kadar."
+ legend_chapter_famous_deed_ancestral_glory: "Pek çok aptal [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] gibi yıkılmaz bir dağın karşısında durmaya çalışmış ve devrilmiştir. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] öyle bir iyilik timsali ki [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] adına attığı her adım ile takipçileri artıyor, sanki [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')] tekrar yeryüzünde yürüyor."
+ legend_chapter_extra_deed_ancestral_glory: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] topraklarının güzel kırları [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')] zamanından bu yana çapulcuların ve kanunsuzların eline düştü lakin [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] derhâl işe koyulup yanlışları düzeltti ve halkını olması gerektiği gibi korudu."
+ legend_chapter_famous_deed_war_won: "Bitmek bilmeyen muharebeler ve savaşlar sonucunda tüm diyar hem iyilerin hem kötülerin kanıyla kızıla boyandı. [ROOT.Legend.GetProperty( 'winner' ).Char.GetTitledFirstNameNoTooltip|U], kötülüğün tohumları onun eşi benzeri görülmemiş askerî dehasının altını kazımaya çalışırken hiç endişe duymadı. Eninde sonunda da bu uğraşlarının boşuna olduğu kanıtlandı."
+ legend_chapter_famous_deed_tournament_won: "Çatışma alanında zihinler ve sesler, kılıçlar ile kıyaslanabilecek seviyede çarpıştı lakin ne bir zihin ne de bir kılıç [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] ile mücadele edebildi! Birbirinin ardına yarışmacılar sıralandı ve hepsi tek tek amansız [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] tarafından yere serildi."
+ legend_chapter_extra_deed_tournament_won: "Hiç kimse [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] ve katıldığı ilk turnuvayı unutamaz lakin tek bir galibiyet onun için yeterli değildi. Diğer yarışmacılar etrafını kılıçlarıyla sarıyordu ancak o bundan hiç etkilenmeden olduğu yerde duruyordu. Tüm herkes onun adına tezahürat ederken galip geliyordu!"
+ legend_chapter_extra_deed_recent_battle: "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] vatanına geri dönerken düşmanlarıyla çetince savaştı, ordularını eşi benzeri görülmemiş bir cesaret ve stratejik deha ile yönetti. Havadaki kılıcı ve sarsılmaz iradesi ile düşmanlarına karşı galibiyeti kesinleştirdi."
+ legend_chapter_extra_deed_recent_tournament: "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] vatanına dönerken muazzam turnuva alanlarının çekiciliğine kapıldı. Elinde kılıcı ve güneşin altında parlayan zırhı ile yılmaz azme sahip rakipleriyle yüz yüze geldi. Seyirciler haykırdı, güzel hanımefendiler ve kolayca etkilenen yaverler kendilerini onun ayaklarına fırlattı! Galibiyetin sahibi! En iyi şövalye!"
+ legend_chapter_change_toast: "[ROOT.Char.GetPromotedLegend.GetName] değişti"
+ legend_chapter_change_culture_toast: "[founder.GetPromotedLegend.GetName] değişti"
+ legend_chapter_famous_deed_conqueror: "Muharebeden muharebeye zafer çığlıkları arttı. Muharebeden muharebeye ganimetler arttı. Muharebeden muharebeye [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] efsanesi daha da parladı."
+ angels: "melekler"
+ the_angels: "Melekler"
+ olympus: "Olimpos"
  beyul: "Beyul"
  ancestor_flag_name: "[ROOT.Legend.GetProperty( 'ancestor_flag' ).GetFlagName|U]"
  ancestor_name: "[ROOT.Legend.GetProperty('ancestor').Char.GetName]"

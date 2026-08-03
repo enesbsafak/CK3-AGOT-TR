@@ -16,8 +16,7 @@
  ALREADY_HAS_TRAIT_IN_GROUP:0 "@warning_icon! #X [TRAIT.GetName( CHARACTER.Self )] eklenemiyor çünkü $CHARACTER_NAME$ zaten [TRAIT_GROUP.GetName] grubunda bir özelliğe sahip #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
  SEX_MALE:0 "Erkek"
  SEX_FEMALE:0 "Kadın"
-### TODO AGOT-CHANGED: TRAIT_FLAG_DESC_death_on_max_level [AGOT: #indent_newline:7 @alert_icon! #alert_trial If the [trait_level_track|E] reaches level #V 4#!, they will [character_death_die|E]#!#! | TR: #indent_newline:7 @alert_icon! #alert_trial Bu [trait_level_track|E] #V 4#!. seviyeye ulaşırsa karakter [Concept('character_death_die', 'Ölür')|E]#!#!]
- TRAIT_FLAG_DESC_death_on_max_level: "#indent_newline:7 @alert_icon! #alert_trial If the [trait_level_track|E] reaches level #V 4#!, they will [character_death_die|E]#!#!"
+ TRAIT_FLAG_DESC_death_on_max_level: "#indent_newline:7 @alert_icon! #alert_trial Bu [trait_level_track|E] #V 4#!. seviyeye ulaşırsa karakter [Concept('character_death_die', 'Ölür')|E]#!#!"
  TRAIT_ENTRY_INHERITANCE_INFO:1 "[MatchmakerTraitInfo.GetInheritanceInfo]"
  TRAIT_INHERITANCE_GUARANTEED_ONE:0 "#weak En az bir ebeveyn bu özelliğe sahip olduğundan kalıtımsal olarak aktarılacak.#!"
  TRAIT_INHERITANCE_GUARANTEED_BOTH:0 "#weak İki ebeveyn de bu özelliğe sahip olduğundan kalıtımsal olarak aktarılacak.#!"
@@ -26,28 +25,16 @@
  TRAIT_INHERITANCE_POSSIBLE_ONE:0 "#weak En az bir ebeveyn bu özelliğe sahip olduğundan kalıtımsal olarak aktarılabilir.#!"
  TRAIT_INHERITANCE_POSSIBLE_BOTH:0 "#weak İki ebeveyn de bu özelliğe sahip olduğundan kalıtımsal olarak aktarılabilir.#!"
  TRAIT_INHERITANCE_UPGRADE_POSSIBLE:0 "#weak Bu özellik daha da şiddetlenip [TRAIT.GetName( CHARACTER.Self )] hâline gelebilir.#!"
-### TODO AGOT-CHANGED: the_wake [AGOT: The Wake | TR: Uyanık]
- the_wake: "The Wake"
-### TODO AGOT-CHANGED: the_wake_1 [AGOT: Exiled | TR: Sürgün]
- the_wake_1: "Exiled"
-### TODO AGOT-CHANGED: the_wake_2 [AGOT: The Outlaw | TR: Kanunsuz]
- the_wake_2: "The Outlaw"
-### TODO AGOT-CHANGED: the_wake_3 [AGOT: The Butcher | TR: Kasap]
- the_wake_3: "The Butcher"
-### TODO AGOT-CHANGED: the_wake_4 [AGOT: The Ankou | TR: Ankou]
- the_wake_4: "The Ankou"
+ the_wake: "Uyanık"
+ the_wake_1: "Sürgün"
+ the_wake_2: "Kanunsuz"
+ the_wake_3: "Kasap"
+ the_wake_4: "Ankou"
  the_wake_5: "$the_wake$"
-### TODO AGOT-CHANGED: the_wake_1_desc [AGOT: Pity young Hereweard, the exiled noble. A man without a purpose, a listless drifter. So much potential, left so unfulfilled. | TR: Zavallı genç Hereweard, sürgündeki soylu. Amacı olmayan bir adam, kaygısız bir serseri. O kadar çok şey yapabilir ki.]
- the_wake_1_desc: "Pity young Hereweard, the exiled noble. A man without a purpose, a listless drifter. So much potential, left so unfulfilled."
-### TODO AGOT-CHANGED: the_wake_2_desc [AGOT: A purpose found, but much work has to be done. Bloody work, until the muddy Fens run red with outsiders' blood. | TR: Bir amaç bulundu ama yapılması gereken çok iş var. Çamurlu Fens yabancıların kanıyla kıpkırmızı olana kadar devam edecek bir iş.]
- the_wake_2_desc: "A purpose found, but much work has to be done. Bloody work, until the muddy Fens run red with outsiders' blood."
-### TODO AGOT-CHANGED: the_wake_3_desc [AGOT: Lesser men wallow and drown in the sticky, stinking bogs this one hails from. Some even whisper that he can walk on the surface of any marsh, such is his mastery of the meres. | TR: Daha önemsiz kişiler bu adamın geldiği pis kokulu bataklıklarda debelenir ve boğulur. Bazıları onun bataklıkların üzerinde yürüyebildiğini bile iddia ediyor.]
- the_wake_3_desc: "Lesser men wallow and drown in the sticky, stinking bogs this one hails from. Some even whisper that he can walk on the surface of any marsh, such is his mastery of the meres."
-### TODO AGOT-CHANGED: the_wake_4_desc [AGOT: Terrified young children are spun tales of the prowling beast in the Fens, that they might not wander too far from safety. | TR: Küçük çocuklara, evlerinden fazla uzaklaşmamaları için Fens'te sinsice dolaşan bir canavarın masalları anlatılır.]
- the_wake_4_desc: "Terrified young children are spun tales of the prowling beast in the Fens, that they might not wander too far from safety."
-### TODO AGOT-CHANGED: the_wake_5_desc [AGOT: The dark shadow in the gloaming stalks the land, always watchful, always alert. Hereweard the Bloody, Hereweard the Feared. Hereweard the Wake. | TR: Karanlığın içindeki gölge, her zaman uyanık, her zaman tetikte etrafta dolaşır. Kanlı Hereweard, Korkulan Hereweard. Uyanık Hereweard.]
- the_wake_5_desc: "The dark shadow in the gloaming stalks the land, always watchful, always alert. Hereweard the Bloody, Hereweard the Feared. Hereweard the Wake."
-### TODO AGOT-CHANGED: unlock_maa_heavy_horse_archers [AGOT: Can recruit [GetMaA('heavy_horse_archers').GetName] as [men_at_arms|E] | TR: [men_at_arms|E] olarak [GetMaA('heavy_horse_archers').GetName] birimini üretebilir]
- unlock_maa_heavy_horse_archers: "Can recruit [GetMaA('heavy_horse_archers').GetName] as [men_at_arms|E]"
-### TODO AGOT-CHANGED: unlock_maa_nomad_lancers [AGOT: Can recruit [GetMaA('nomad_lancers').GetName] as [men_at_arms|E] | TR: [men_at_arms|E] olarak [GetMaA('nomad_lancers').GetName] birimini üretebilir]
- unlock_maa_nomad_lancers: "Can recruit [GetMaA('nomad_lancers').GetName] as [men_at_arms|E]"
+ the_wake_1_desc: "Zavallı genç Hereweard, sürgündeki soylu. Amacı olmayan bir adam, kaygısız bir serseri. O kadar çok şey yapabilir ki."
+ the_wake_2_desc: "Bir amaç bulundu ama yapılması gereken çok iş var. Çamurlu Fens yabancıların kanıyla kıpkırmızı olana kadar devam edecek bir iş."
+ the_wake_3_desc: "Daha önemsiz kişiler bu adamın geldiği pis kokulu bataklıklarda debelenir ve boğulur. Bazıları onun bataklıkların üzerinde yürüyebildiğini bile iddia ediyor."
+ the_wake_4_desc: "Küçük çocuklara, evlerinden fazla uzaklaşmamaları için Fens'te sinsice dolaşan bir canavarın masalları anlatılır."
+ the_wake_5_desc: "Karanlığın içindeki gölge, her zaman uyanık, her zaman tetikte etrafta dolaşır. Kanlı Hereweard, Korkulan Hereweard. Uyanık Hereweard."
+ unlock_maa_heavy_horse_archers: "[men_at_arms|E] olarak [GetMaA('heavy_horse_archers').GetName] birimini üretebilir"
+ unlock_maa_nomad_lancers: "[men_at_arms|E] olarak [GetMaA('nomad_lancers').GetName] birimini üretebilir"

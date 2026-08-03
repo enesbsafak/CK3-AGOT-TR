@@ -8,13 +8,13 @@
  MARRIAGE_INFO:0 "[MarriageInfo.GetMarriageOrBetrothal]"
  MARRIAGE_CHILDREN_CHANCE_INFO:1 "[MatchOffer.GetChanceOfChildrenDesc]"
  MARRIAGE_CHILDREN_HOUSE_INFO:1 "[MatchOffer.GetChildrensHouse]"
-### TODO AGOT-CHANGED: MARRIAGE_IMPACT_ON_HOUSE_RELATION [AGOT: [MarriageInfo.GetSecondaryActorHouse.GetName]-[MarriageInfo.GetSecondaryRecipientHouse.GetName] [house_relation|E] will #P improve#! by [MarriageInfo.GetHouseRelationChange|=+^%] ([MarriageInfo.GetNewHouseRelationLevel.GetName]). | TR: [MarriageInfo.GetSecondaryActorHouse.GetName] ile [MarriageInfo.GetSecondaryRecipientHouse.GetName] arasındaki [Concept('house_relation', 'Hane İlişkisini')|E] [MarriageInfo.GetHouseRelationChange|=+^%] #P arttıracak#! ([MarriageInfo.GetNewHouseRelationLevel.GetName]).]
- MARRIAGE_IMPACT_ON_HOUSE_RELATION: "[MarriageInfo.GetSecondaryActorHouse.GetName]-[MarriageInfo.GetSecondaryRecipientHouse.GetName] [house_relation|E] will #P improve#! by [MarriageInfo.GetHouseRelationChange|=+^%] ([MarriageInfo.GetNewHouseRelationLevel.GetName])."
+ MARRIAGE_IMPACT_ON_HOUSE_RELATION: "[MarriageInfo.GetSecondaryActorHouse.GetName] ile [MarriageInfo.GetSecondaryRecipientHouse.GetName] arasındaki [Concept('house_relation', 'Hane İlişkisini')|E] [MarriageInfo.GetHouseRelationChange|=+^%] #P arttıracak#! ([MarriageInfo.GetNewHouseRelationLevel.GetName])."
  CONVERT_BETROTHAL_TO_MARRIAGE:0 "[betrothal|E]ı evliliğe dönüştür"
  CHARACTER_UI_NAME:0 "[CHARACTER.GetUIName]"
  CREATE_MARRIAGE:2 "[CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [marriage|E] yapılmasını öner."
  BETROTHAL_ONE_CHARACTER:2 "İkisinden biri [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner."
- BETROTHAL_BOTH_CHARACTERS:3 "İkisi de [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner."
+### TODO AGOT-CHANGED: BETROTHAL_BOTH_CHARACTERS [AGOT: Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E] | TR: İkisi de [child|E] olduğu için [CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında [betrothal|E] yapılmasını öner.]
+ BETROTHAL_BOTH_CHARACTERS:3 "Propose that [CHARACTER.GetUIName] and [TARGET_CHARACTER.GetUIName] get [betrothed|E], since both are [children|E]"
  CREATE_GRAND_WEDDING_PROMISE:2 "[CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] ve [TARGET_CHARACTER.LocalPlayerString( 'Ben', 'CHARACTER_UI_NAME' )] arasında, söz verilen [GetActivityType( 'activity_wedding' ).GetName] düzenlenene kadar [betrothal|E] yapılmasını öner."
  CREATE_GRAND_WEDDING_PROMISE_ONE_CHILD:2 "$BETROTHAL_ONE_CHARACTER$ [GetActivityType( 'activity_wedding' ).GetName] düzenleme sözü de verilecek."
  CREATE_GRAND_WEDDING_PROMISE_BOTH_CHILD:2 "$BETROTHAL_BOTH_CHARACTERS$ [GetActivityType( 'activity_wedding' ).GetName] düzenleme sözü de verilecek."
@@ -24,8 +24,7 @@
  DESIRES_ALLIANCE:0 "[recipient.GetShortUIName|U] [alliance|E] istiyor: $VALUE|=+0$"
  DOES_NOT_WANT_ALLIANCE:0 "[recipient.GetShortUIName|U] ittifak istemiyor: $VALUE|=+0$"
  YOU_HAVE_TOO_MANY_ALLIANCES:0 "Hâlihazırda çok fazla [Concept( 'alliances', 'Müttefikiniz' )|E] var: $VALUE|=+0$"
-### TODO AGOT-CHANGED: YOU_ARE_AT_WAR [AGOT: You are at [war|E]: $VALUE|=+0$ | TR: [Concept( 'war', 'Savaştasınız' )|E]: $VALUE|=+0$]
- YOU_ARE_AT_WAR: "You are at [war|E]: $VALUE|=+0$"
+ YOU_ARE_AT_WAR: "[Concept( 'war', 'Savaştasınız' )|E]: $VALUE|=+0$"
  INTIMIDATED_REASON:3 "Sizden [intimidated_i][Concept( 'alliances', 'Gözü Korkmuş' )|E]: $VALUE|=+0$"
  COWED_REASON:3 "Sizin karşınızda [terrified_i][cowed|E]: $VALUE|=+0$"
  GRANDEUR_REASON:0 "[Concept( 'court_grandeur', 'Saray Görkeminiz' )|E]: $VALUE|=+0$"
@@ -42,25 +41,23 @@
  ACTOR_RIVAL_TO_ME_REASON:0 "[recipient.GetShortUIName|U], [actor.GetShortUIName] adlı kişinin Rakibi: $VALUE|+0$"
  NEMESIS_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U], [recipient.GetShortUIName] adlı kişinin Can Düşmanı: $VALUE|+0$"
  ACTOR_NEMESIS_TO_ME_REASON:0 "[recipient.GetShortUIName|U], [actor.GetShortUIName] adlı kişinin Can Düşmanı: $VALUE|+0$"
- MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUIName] adlı kişinin yaşı: $VALUE|+=0$"
+### TODO AGOT-CHANGED: MARRIAGE_DESPERATION [AGOT: [secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'are', 'is' )] desperate to marry: $VALUE|+=0$ | TR: [secondary_recipient.GetShortUIName] adlı kişinin yaşı: $VALUE|+=0$]
+ MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'are', 'is' )] desperate to marry: $VALUE|+=0$"
  MARRY_CONSANGUINITY_REASON:0 "Evlilik [incestuous|E] olur: $VALUE|+=0$"
  MATRILINEAL_WARNING:0 "@warning_icon! #X Bu evlilikten doğan çocuklar [CHARACTER.GetShortUIName] adlı kişinin [Concept( 'dynasty', 'Hanedanına' )|E] mensup olur #! #weak ([CHARACTER.GetDynastyName|V])#!"
  MATRILINEAL_REASON:0 "Anasoylu Evlilik: $VALUE|=+0$"
  PATRILINEAL_REASON:0 "Babasoylu Evlilik: $VALUE|=+0$"
  PROMISING_PROSPECTS_PERK_MODIFIER:0 "[GetPerk( 'promising_prospects_perk' ).GetName( GetPlayer )] özelliğine sahipsiniz: $VALUE|=+0$"
  DYNASTY_LEGACY_GLORY_MARRIAGE_ACCEPTANCE_PERK_MODIFIER:0 "[Concept( 'dynasty', 'Hanedanınız' )|E] [GetDynastyPerk( 'glory_legacy_1' ).GetName] mirasına sahip: $VALUE|=+0$"
-### TODO AGOT-CHANGED: DYNASTY_LEGACY_KHVARENAH_MARRIAGE_ACCEPTANCE_PERK_MODIFIER [AGOT: Your [dynasty|E] has [GetDynastyPerk( 'fp3_khvarenah_legacy_3' ).GetName]: $VALUE|=+0$ | TR: [Concept( 'dynasty', 'Hanedanınız' )|E] [GetDynastyPerk( 'fp3_khvarenah_legacy_3' ).GetName] mirasına sahip: $VALUE|=+0$]
- DYNASTY_LEGACY_KHVARENAH_MARRIAGE_ACCEPTANCE_PERK_MODIFIER: "Your [dynasty|E] has [GetDynastyPerk( 'fp3_khvarenah_legacy_3' ).GetName]: $VALUE|=+0$"
+ DYNASTY_LEGACY_KHVARENAH_MARRIAGE_ACCEPTANCE_PERK_MODIFIER: "[Concept( 'dynasty', 'Hanedanınız' )|E] [GetDynastyPerk( 'fp3_khvarenah_legacy_3' ).GetName] mirasına sahip: $VALUE|=+0$"
  MATRILINEAL_PATRILINEAL_REASON:0 "[secondary_recipient.Custom('IncorrectLineality')] Evlilik: $VALUE|=+0$"
  NO_PRESTIGE_MUSLIM_MARRIAGE:0 "[Concept( 'faiths', 'Mezhepleri' )|E] [GetFaithDoctrine('doctrine_polygamy').GetBaseName] olan [characters|E] evlilikten [prestige|E] kazanmazlar"
  CONTRACT_RELIGIOUS_EXEMPTION_REASON:0 "Dinî Muafiyet: $VALUE|=+0$"
  CONTRACT_RELIGIOUS_TAXATION_REASON:0 "Dinî Vergi: $VALUE|=+0$"
  CONTRACT_LOW_TAXES_REASON:0 "Düşük Feodal Yükümlülük: $VALUE|=+0$"
  CONTRACT_HIGH_TAXES_REASON:0 "Yüksek Feodal Yükümlülük: $VALUE|=+0$"
-### TODO AGOT-CHANGED: CONTRACT_LOW_TRIBUTARY_TAXES_REASON [AGOT: Low Tributary Obligations: $VALUE|=+0$ | TR: Düşük Haraçgüzar Yükümlülüğü: $VALUE|=+0$]
- CONTRACT_LOW_TRIBUTARY_TAXES_REASON: "Low Tributary Obligations: $VALUE|=+0$"
-### TODO AGOT-CHANGED: CONTRACT_HIGH_TRIBUTARY_TAXES_REASON [AGOT: High Tributary Obligations: $VALUE|=+0$ | TR: Yüksek Haraçgüzar Yükümlülüğü: $VALUE|=+0$]
- CONTRACT_HIGH_TRIBUTARY_TAXES_REASON: "High Tributary Obligations: $VALUE|=+0$"
+ CONTRACT_LOW_TRIBUTARY_TAXES_REASON: "Düşük Haraçgüzar Yükümlülüğü: $VALUE|=+0$"
+ CONTRACT_HIGH_TRIBUTARY_TAXES_REASON: "Yüksek Haraçgüzar Yükümlülüğü: $VALUE|=+0$"
  MONASTIC_EXPECTATIONS_REASON:0 "$tradition_monastic_communities_name$: $VALUE|=+0$"
  SURVEYOR_PERK_REALM_ACCEPTANCE:0 "[GetPerk( 'know_your_land_know_your_people_perk' ).GetName( GetPlayer )] yeteneğine sahipsiniz: $VALUE|=+0$"
  AI_ELOPE_CONSEQUENCES:0 "[recipient.GetShortUIName] sonuçlardan endişe ediyor: $VALUE|=+0$"
@@ -85,36 +82,27 @@
  GOLD_REASON:0 "Altın iyidir: $VALUE|=+0$"
  PRISONER_REASON:0 "Tutsak: $VALUE|=+0$"
  WONT_ATTACK_RELIGIOUS_BRETHREN_REASON:0 "Din kardeşlerine saldırı: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_HELP_STRUGGLE_FOE_REASON [AGOT: Opposing [struggle|E] Side: $VALUE|=+0$ | TR: [Concept( 'struggle', 'Mücadelede' )|E] karşı tarafta: $VALUE|=+0$]
- WONT_HELP_STRUGGLE_FOE_REASON: "Opposing [struggle|E] Side: $VALUE|=+0$"
+ WONT_HELP_STRUGGLE_FOE_REASON: "[Concept( 'struggle', 'Mücadelede' )|E] karşı tarafta: $VALUE|=+0$"
  DEFENSIVE_WAR_REASON:0 "Savunma Savaşı: $VALUE|=+0$"
  ATTACK_ON_ALLY_REASON:0 "Müttefike Saldırı: $VALUE|=+0$"
  WAR_WITH_ALLY_REASON:0 "Başka bir Müttefike Saldırı: $VALUE|=+0$"
  WONT_FIGHT_HEIR_REASON:0 "[Concept( 'heir', 'Vârisle' )|E] savaşmayacak: $VALUE|=+0$"
  WONT_FIGHT_SPOUSE_REASON:0 "[Concept( 'spouse', 'Eşiyle' )|E] savaşmayacak: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_FIGHT_FRIEND_REASON [AGOT: Will not fight [friend|E]: $VALUE|=+0$ | TR: [Concept( 'friend', 'Arkadaşıyla' )|E] savaşmayacak: $VALUE|=+0$]
- WONT_FIGHT_FRIEND_REASON: "Will not fight [friend|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_FIGHT_BEST_FRIEND_REASON [AGOT: Will not fight [best_friend|E]: $VALUE|=+0$ | TR: [Concept( 'best_friend', 'En İyi Arkadaşıyla' )|E] savaşmayacak: $VALUE|=+0$]
- WONT_FIGHT_BEST_FRIEND_REASON: "Will not fight [best_friend|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_FIGHT_LOVER_REASON [AGOT: Will not fight [lover|E]: $VALUE|=+0$ | TR: [Concept( 'lover', 'Sevgilisiyle' )|E] savaşmayacak: $VALUE|=+0$]
- WONT_FIGHT_LOVER_REASON: "Will not fight [lover|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_FIGHT_SOULMATE_REASON [AGOT: Will not fight [soulmate|E]: $VALUE|=+0$ | TR: [Concept( 'soulmate', 'Ruh Eşiyle' )|E] savaşmayacak: $VALUE|=+0$]
- WONT_FIGHT_SOULMATE_REASON: "Will not fight [soulmate|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WONT_FIGHT_OBEDIENT_REASON [AGOT: Will not fight [suzerain|E]: $VALUE|=+0$ | TR: [Concept('suzerain', 'Efendisiyle')|E] savaşmayacak: $VALUE|=+0$]
- WONT_FIGHT_OBEDIENT_REASON: "Will not fight [suzerain|E]: $VALUE|=+0$"
+ WONT_FIGHT_FRIEND_REASON: "[Concept( 'friend', 'Arkadaşıyla' )|E] savaşmayacak: $VALUE|=+0$"
+ WONT_FIGHT_BEST_FRIEND_REASON: "[Concept( 'best_friend', 'En İyi Arkadaşıyla' )|E] savaşmayacak: $VALUE|=+0$"
+ WONT_FIGHT_LOVER_REASON: "[Concept( 'lover', 'Sevgilisiyle' )|E] savaşmayacak: $VALUE|=+0$"
+ WONT_FIGHT_SOULMATE_REASON: "[Concept( 'soulmate', 'Ruh Eşiyle' )|E] savaşmayacak: $VALUE|=+0$"
+ WONT_FIGHT_OBEDIENT_REASON: "[Concept('suzerain', 'Efendisiyle')|E] savaşmayacak: $VALUE|=+0$"
  WONT_FIGHT_MEANINGLESS_REASON:0 "Lüzumsuz çatışmalarda yer almayacak: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MANDALA_GUARANTEE_REASON [AGOT: Mandala Guarantee: $VALUE|=+0$ | TR: Mandala Garantörlüğü: $VALUE|=+0$]
- MANDALA_GUARANTEE_REASON: "Mandala Guarantee: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_YOUR_SUPPORT_REASON [AGOT: Has your support: $VALUE|=+0$ | TR: Desteğinize sahip: $VALUE|=+0$]
- HAS_YOUR_SUPPORT_REASON: "Has your support: $VALUE|=+0$"
+ MANDALA_GUARANTEE_REASON: "Mandala Garantörlüğü: $VALUE|=+0$"
+ HAS_YOUR_SUPPORT_REASON: "Desteğinize sahip: $VALUE|=+0$"
  ENTRENCHED_REGENT_WILL_SUPPORT_LIEGE:0 "[entrenched_regent|E] [Concept( 'realm', 'Ülkeyi' )|E] koruyor: $VALUE|=+0$"
  NO_CHARACTERS_TO_SELECT:0 "#weak Uygun karakter bulunamadı#!"
  NO_VASSALS_TO_DISPLAY:1 "[Concept( 'vassals', 'Vasalınız' )|E] yok"
  ALREADY_AT_WAR:0 "Hâlihazırda [Concept( 'war', 'Savaşta' )|E]: $VALUE|=+0$"
  RECIPIENT_MILITARY_STRENGTH: "[recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$"
  SECONDARY_RECIPIENT_MILITARY_STRENGTH: "[secondary_recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: PROMISED_TITLE_MAA [AGOT: Promised [title|E] [men_at_arms|E]: $VALUE|=+0$ | TR: [title|E] [Concept( 'men_at_arms', 'Düzenli Askeri' )|E] söz verildi: $VALUE|=+0$]
- PROMISED_TITLE_MAA: "Promised [title|E] [men_at_arms|E]: $VALUE|=+0$"
+ PROMISED_TITLE_MAA: "[title|E] [Concept( 'men_at_arms', 'Düzenli Askeri' )|E] söz verildi: $VALUE|=+0$"
  MARRY_PROMPT_SOMEONE:0 "#I Evlendirmek için birini seçin#!"
  MARRY_PROMPT_BUILDING_LIST:0 "#I [CHARACTER.GetShortUIName] için potansiyel eşler bulunuyor#!"
  MARRY_PROMPT_CHARACTER:0 "#I [Select_CString( CHARACTER.IsLocalPlayer, 'Evlenmeniz', CHARACTER.GetShortUIName )][Select_CString( CHARACTER.IsLocalPlayer, '', ' adlı kişinin evlenmesi' )] için birini seçin#!"
@@ -129,8 +117,7 @@
  AI_OPINION_REASON:1 "[CHARACTER.GetShortUIName] adlı kişinin [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'size karşı', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ' hakkındaki' )] [Concept( 'opinion', 'görüşü' )|E]: $VALUE|=+0$"
  AI_OPINION_REASON_SPOUSE:0 "[CHARACTER.GetShortUIName] adlı kişinin eş ([TARGET_CHARACTER.GetShortUIName]) hakkındaki [Concept( 'opinion', 'görüşü' )|E]: $VALUE|=+0$"
  AI_OPINION_REASON_ACTOR:0 "[CHARACTER.GetShortUIName] adlı kişinin çöpçatan olan [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'size karşı', TARGET_CHARACTER.GetShortUIName )][Select_CString( TARGET_CHARACTER.IsLocalPlayer, '', ' hakkındaki' )] [Concept( 'opinion', 'görüşü' )|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_CONTRACT_BALANCE [AGOT: Contract benefits: $VALUE|=+0$ | TR: Sözleşme çıkarları: $VALUE|=+0$]
- AI_CONTRACT_BALANCE: "Contract benefits: $VALUE|=+0$"
+ AI_CONTRACT_BALANCE: "Sözleşme çıkarları: $VALUE|=+0$"
  AI_REFUSAL_IS_TREASON:0 "Reddetmek hainliktir: $VALUE|=+0$"
  AI_CLAIMANT_PENALTY:0 "[recipient.GetShortUIName|U] bir örgütleşme tarafından destekleniyor[Select_CString( recipient.IsLocalPlayer, 'sunuz', '' )]: $VALUE|=+0$"
  AI_PRISON_FEUDAL_COMPLEX_PERK:0 "[GetPerk( 'prison_feudal_complex_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
@@ -166,28 +153,17 @@
  AI_DYNASTY_PRESTIGE_REASON_LOWBORN_NO_POSITIVE_TRAIT:0 "Adayınız herhangi bir pozitif [congenital|E] [Concept( 'traits', 'özelliği' )|E] olmayan bir [lowborn|E]: $VALUE|=+0$"
  AI_NO_FERTILITY_REASON:0 "[recipient.GetShortUIName|U] [heir|E] sahibi değil ve evlilikte [fertility|E] yok: $VALUE|=+0$"
  AI_ATTRACTION_REASON:0 "[recipient.GetShortUIName|U], [Select_CString( secondary_recipient.IsLocalPlayer, 'sizi', secondary_recipient.GetShortUIName )][Select_CString( secondary_recipient.IsLocalPlayer, '', ' adlı kişiyi' )] çekici buluyor: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_TRIBUTARY_REASON [AGOT: [recipient.GetShortUIName|U] is [actor.GetShortUINamePossessive] [tributary|E]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U], [Select_CString( actor.IsLocalPlayer, 'sizin', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('tributary', 'Haraçgüzarı')|E][Select_CString( actor.IsLocalPlayer, 'nız', '' )]: $VALUE|=+0$]
- AI_TRIBUTARY_REASON: "[recipient.GetShortUIName|U] is [actor.GetShortUINamePossessive] [tributary|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_OBEDIENT_REASON [AGOT: [recipient.GetShortUIName|U] is [obedient|E] to [actor.GetShortUIName]: $VALUE|=+0$ | TR: [recipient.GetShortUIName|U] [Select_CString( actor.IsLocalPlayer, 'size', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E]: $VALUE|=+0$]
- AI_OBEDIENT_REASON: "[recipient.GetShortUIName|U] is [obedient|E] to [actor.GetShortUIName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_FILTHY_HORSE_LORD_REASON [AGOT: [actor.GetShortUIName|U] [CharAreIs(actor)] a filthy [GetGovernment( 'nomad_government' ).GetName] Horse Lord: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] çapulcu bir [GetGovernment( 'nomad_government' ).GetName]: $VALUE|=+0$]
- AI_FILTHY_HORSE_LORD_REASON: "[actor.GetShortUIName|U] [CharAreIs(actor)] a filthy [GetGovernment( 'nomad_government' ).GetName] Horse Lord: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_OBEDIENT_REVERSE_REASON [AGOT: [actor.GetShortUIName|U] is [obedient|E] to [recipient.GetShortUIName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'size', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E]: $VALUE|=+0$]
- AI_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] is [obedient|E] to [recipient.GetShortUIName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_NOT_OBEDIENT_REVERSE_REASON [AGOT: [actor.GetShortUIName|U] is not [obedient|E] to [recipient.GetShortUIName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'size', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E] değil: $VALUE|=+0$]
- AI_NOT_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] is not [obedient|E] to [recipient.GetShortUIName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_REASON_LOW_PROWESS [AGOT: [actor.GetShortUIName|U] low [prowess|E]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] düşük [Concept('prowess', 'Dövüş Becerisi')|E] sahibi: $VALUE|=+0$]
- AI_REASON_LOW_PROWESS: "[actor.GetShortUIName|U] low [prowess|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_REASON_NOMADIC_AUTHORITY_1 [AGOT: [actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_1').GetName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_1').GetName]: $VALUE|=+0$]
- AI_REASON_NOMADIC_AUTHORITY_1: "[actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_1').GetName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_REASON_NOMADIC_AUTHORITY_2 [AGOT: [actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_2').GetName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_2').GetName]: $VALUE|=+0$]
- AI_REASON_NOMADIC_AUTHORITY_2: "[actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_2').GetName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_REASON_NOMADIC_AUTHORITY_4 [AGOT: [actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_4').GetName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_4').GetName]: $VALUE|=+0$]
- AI_REASON_NOMADIC_AUTHORITY_4: "[actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_4').GetName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: AI_REASON_NOMADIC_AUTHORITY_5 [AGOT: [actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_5').GetName]: $VALUE|=+0$ | TR: [actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_5').GetName]: $VALUE|=+0$]
- AI_REASON_NOMADIC_AUTHORITY_5: "[actor.GetShortUIName|U] [dominance|E] is [GetLaw('nomadic_authority_5').GetName]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: LIEGE_REASON [AGOT: You are [recipient.GetHerHis] [liege|E]: $VALUE|=+0$ | TR: Onun [Concept('liege', 'Süzerenisiniz')|E]: $VALUE|=+0$]
- LIEGE_REASON: "You are [recipient.GetHerHis] [liege|E]: $VALUE|=+0$"
+ AI_TRIBUTARY_REASON: "[recipient.GetShortUIName|U], [Select_CString( actor.IsLocalPlayer, 'sizin', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin' )] [Concept('tributary', 'Haraçgüzarı')|E][Select_CString( actor.IsLocalPlayer, 'nız', '' )]: $VALUE|=+0$"
+ AI_OBEDIENT_REASON: "[recipient.GetShortUIName|U] [Select_CString( actor.IsLocalPlayer, 'size', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E]: $VALUE|=+0$"
+ AI_FILTHY_HORSE_LORD_REASON: "[actor.GetShortUIName|U] çapulcu bir [GetGovernment( 'nomad_government' ).GetName]: $VALUE|=+0$"
+ AI_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'size', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E]: $VALUE|=+0$"
+ AI_NOT_OBEDIENT_REVERSE_REASON: "[actor.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'size', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişiye' )] karşı [obedient|E] değil: $VALUE|=+0$"
+ AI_REASON_LOW_PROWESS: "[actor.GetShortUIName|U] düşük [Concept('prowess', 'Dövüş Becerisi')|E] sahibi: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_1: "[actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_1').GetName]: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_2: "[actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_2').GetName]: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_4: "[actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_4').GetName]: $VALUE|=+0$"
+ AI_REASON_NOMADIC_AUTHORITY_5: "[actor.GetShortUIName|U] adlı kişinin [Concept('dominance', 'Hâkimiyeti')|E] [GetLaw('nomadic_authority_5').GetName]: $VALUE|=+0$"
+ LIEGE_REASON: "Onun [Concept('liege', 'Süzerenisiniz')|E]: $VALUE|=+0$"
  FOREIGN_COURT_REASON:0 "[secondary_recipient.GetShortUIName|U] yabancı bir saraya gider: $VALUE|=+0$"
  MARRY_LOW_FERTILITY_REASON:0 "Bu evlilik düşük [Concept( 'fertility', 'Doğurganlığa' )|E] sahip olacak: $VALUE|+0$"
  HIGH_OPINION_REASON:0 "Görüş: $VALUE|=+0$"
@@ -206,10 +182,8 @@
  MARRYING_PERSON_PRESTIGE:0 "[CHARACTER.GetTitleTierName] ile evleniyor: $PRESTIGE|0+$"
  MARRYING_RELATIVE_PRESTIGE:0 "[CHARACTER.GetShortUIName] ([CHARACTER.GetTitleTierName]) adlı kişinin yakın akrabasıyla evleniyor: $PRESTIGE|0+$"
  MARRIAGE_DOCTRINE_PRESTIGE_EFFECT:0 "[CHARACTER.GetFaith.GetName] ilkeleri: $PRESTIGE_MULT|0+=%$"
-### TODO AGOT-CHANGED: TRADE_PIETY_FOR_BETTER_AI_ACCEPTANCE [AGOT: Spend [piety|E] | TR: [piety|E] kullan]
- TRADE_PIETY_FOR_BETTER_AI_ACCEPTANCE: "Spend [piety|E]"
-### TODO AGOT-CHANGED: MARRY_INCAPABLE_REASON [AGOT: [secondary_actor.GetShortUIName|U] [CharAreIs(secondary_actor)] [GetTrait('incapable').GetName( GetNullCharacter )]: $VALUE|+0$ | TR: [Select_CString( secondary_actor.IsLocalPlayer, '', secondary_actor.GetShortUIName )][Select_CString( secondary_actor.IsLocalPlayer, '', ' ' )][GetTrait('incapable').GetName( GetNullCharacter )][Select_CString( secondary_actor.IsLocalPlayer, 'siniz', '' )]: $VALUE|+0$]
- MARRY_INCAPABLE_REASON: "[secondary_actor.GetShortUIName|U] [CharAreIs(secondary_actor)] [GetTrait('incapable').GetName( GetNullCharacter )]: $VALUE|+0$"
+ TRADE_PIETY_FOR_BETTER_AI_ACCEPTANCE: "[piety|E] kullan"
+ MARRY_INCAPABLE_REASON: "[Select_CString( secondary_actor.IsLocalPlayer, '', secondary_actor.GetShortUIName )][Select_CString( secondary_actor.IsLocalPlayer, '', ' ' )][GetTrait('incapable').GetName( GetNullCharacter )][Select_CString( secondary_actor.IsLocalPlayer, 'siniz', '' )]: $VALUE|+0$"
  EDUCATION_HOOK:1 "[hook_i][hook|E] kullan"
  MARRIAGE_HOOK:1 "[hook_i][hook|E] kullan"
  MARRIAGE_MATRILINEAL_TOGGLE:0 "Anasoylu"
@@ -260,22 +234,15 @@
  GRANT_TITLES_ITEM_CANT_CAPITAL:2 "@warning_icon! #X [Concept( 'realm_capital', 'Ülke Başkentinizi' )|E] veremezsiniz#!"
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH:0 "Mezhep Lideri unvanlarını veremezsiniz"
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH_TO_INFIDEL:0 "Sizinle aynı Mezhep Liderine sahip olmayan karakterlere Mezhep Lideri unvanları veremezsiniz"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY [AGOT: You cannot give away your [noble_family|E] title | TR: [noble_family|E] unvanınızı veremezsiniz]
- GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY: "You cannot give away your [noble_family|E] title"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_CANT_GIVE_NOMAD_TITLE [AGOT: You cannot give away your [nomad|E] title | TR: [nomad|E] unvanınızı veremezsiniz]
- GRANT_TITLES_ITEM_CANT_GIVE_NOMAD_TITLE: "You cannot give away your [nomad|E] title"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_CANT_GIVE_CEREMONIAL_TITLE [AGOT: You cannot give away your [ceremonial_liege|E] title | TR: [ceremonial_liege|E] unvanını veremezsiniz]
- GRANT_TITLES_ITEM_CANT_GIVE_CEREMONIAL_TITLE: "You cannot give away your [ceremonial_liege|E] title"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_CANT_GIVE_NOMADIC_TITLES_TO_NON_NOMADS_TITLE [AGOT: Non-[GetGovernment( 'nomad_government' ).GetName] [rulers|E] can only grant [GetGovernment( 'nomad_government' ).GetName] [titles|E] to existing [vassals|E]\n@alert_icon! #alert_trial Upgrade the [holding|E] using [gold_i][gold|E] to remove this restriction#! | TR: [GetGovernment( 'nomad_government' ).GetName] olmayan [rulers|E] sadece mevcut [Concept('vassals', 'Vasallarına')|E] [GetGovernment( 'nomad_government' ).GetName] [titles|E] verebilir\n@alert_icon! #alert_trial [gold_i][gold|E] kullanıp [Concept('holding', 'Yerleşimi')|E] yükselterek bu kısıtlamayı kaldırabilirsiniz#!]
- GRANT_TITLES_ITEM_CANT_GIVE_NOMADIC_TITLES_TO_NON_NOMADS_TITLE: "Non-[GetGovernment( 'nomad_government' ).GetName] [rulers|E] can only grant [GetGovernment( 'nomad_government' ).GetName] [titles|E] to existing [vassals|E]\n@alert_icon! #alert_trial Upgrade the [holding|E] using [gold_i][gold|E] to remove this restriction#!"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY [AGOT: You cannot give away your primary [governorship|E] | TR: Birincil [governorship|E] unvanınızı veremezsiniz]
- GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY: "You cannot give away your primary [governorship|E]"
-### TODO AGOT-CHANGED: GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE [AGOT: You can only grant one [governorship|E] at a time | TR: Aynı anda sadece bir [governorship|E] verebilirsiniz]
- GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE: "You can only grant one [governorship|E] at a time"
+ GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY: "[noble_family|E] unvanınızı veremezsiniz"
+ GRANT_TITLES_ITEM_CANT_GIVE_NOMAD_TITLE: "[nomad|E] unvanınızı veremezsiniz"
+ GRANT_TITLES_ITEM_CANT_GIVE_CEREMONIAL_TITLE: "[ceremonial_liege|E] unvanını veremezsiniz"
+ GRANT_TITLES_ITEM_CANT_GIVE_NOMADIC_TITLES_TO_NON_NOMADS_TITLE: "[GetGovernment( 'nomad_government' ).GetName] olmayan [rulers|E] sadece mevcut [Concept('vassals', 'Vasallarına')|E] [GetGovernment( 'nomad_government' ).GetName] [titles|E] verebilir\n@alert_icon! #alert_trial [gold_i][gold|E] kullanıp [Concept('holding', 'Yerleşimi')|E] yükselterek bu kısıtlamayı kaldırabilirsiniz#!"
+ GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY: "Birincil [governorship|E] unvanınızı veremezsiniz"
+ GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE: "Aynı anda sadece bir [governorship|E] verebilirsiniz"
  GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED:1 "Verilecek çünkü [TITLE.GetName] unvanı da verliyor"
  CANNOT_GRANT_LEASED_OUT_TITLE:1 "@warning_icon! #X [leased|E] bir unvanı veremezsiniz#!"
-### TODO AGOT-CHANGED: CANNOT_GRANT_TITLE_OF_LESSEE [AGOT: @warning_icon! #X You cannot grant this title, it should be [leased|El] out to your [court_chaplain|E]. Seek one for your [council|E] if you do not have one.#! | TR: @warning_icon! #X Bu unvanı veremezsiniz, [Concept( 'court_chaplain', 'Saray Rahibinize' )|E] [Concept( 'leased', 'Kiralanması' )|El] lazım. [Concept( 'council', 'Konseyinizde' )|E] saray rahibi yoksa yeni bir tane seçin.#!]
- CANNOT_GRANT_TITLE_OF_LESSEE: "@warning_icon! #X You cannot grant this title, it should be [leased|El] out to your [court_chaplain|E]. Seek one for your [council|E] if you do not have one.#!"
+ CANNOT_GRANT_TITLE_OF_LESSEE: "@warning_icon! #X Bu unvanı veremezsiniz, [Concept( 'court_chaplain', 'Saray Rahibinize' )|E] [Concept( 'leased', 'Kiralanması' )|El] lazım. [Concept( 'council', 'Konseyinizde' )|E] saray rahibi yoksa yeni bir tane seçin.#!"
  GRANT_TITLES_ITEM_CANT_PRIMARY:1 "@warning_icon! #X [Concept( 'primary_title', 'Birincil Unvanınızı' )|E] veremezsiniz#!"
  GRANT_TITLES_ITEM_CTRL_SELECT:0 "#I Bu ve bunun altındaki tüm unvanları seçmek için Ctrl tuşuna basılı tutup tıklayın#!"
  GRANT_TITLES_ITEM_CTRL_DESELECT:0 "#I Bunu ve bunun altındaki tüm unvanları seçmeyi bırakmak için Ctrl tuşuna basılı tutup tıklayın#!"
@@ -311,16 +278,11 @@
  BANISH_NEGATIVE_REASON:0 "Sürgünden korkuyor: $VALUE|=+0$"
  TAKE_VOWS_NEGATIVE_REASON:0 "[GetTrait('devoted').GetName( recipient.Self )] olmak istemiyor: $VALUE|=+0$"
  RECRUITMET_NEGATIVE_REASON:0 "Saray mensubunuz olmak istemiyor: $VALUE|=+0$"
-### TODO AGOT-CHANGED: CASTRATE_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] doesn't want to be Castrated: $VALUE|=+0$ | TR: Hadım edilmek istemiyor: $VALUE|=+0$]
- CASTRATE_NEGATIVE_REASON: "[recipient.GetSheHe|U] doesn't want to be Castrated: $VALUE|=+0$"
-### TODO AGOT-CHANGED: CASTRATE_NO_CHILDREN_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] has no [children|E] and doesn't want to be Castrated: $VALUE|=+0$ | TR: [Concept('children', 'Çocuğu')|E] yok ve Hadım edilmek istemiyor: $VALUE|=+0$]
- CASTRATE_NO_CHILDREN_NEGATIVE_REASON: "[recipient.GetSheHe|U] has no [children|E] and doesn't want to be Castrated: $VALUE|=+0$"
-### TODO AGOT-CHANGED: DEMAND_ADMIN_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] is reluctant to becoming [government_bureaucratic_type|E]: $VALUE|=+0$ | TR: [government_bureaucratic_type|E] olmaya isteksiz: $VALUE|=+0$]
- DEMAND_ADMIN_NEGATIVE_REASON: "[recipient.GetSheHe|U] is reluctant to becoming [government_bureaucratic_type|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: DISFIGURE_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] doesn't want to become Difigured: $VALUE|=+0$ | TR: Yüzü Dağılmış olmak istemiyor: $VALUE|=+0$]
- DISFIGURE_NEGATIVE_REASON: "[recipient.GetSheHe|U] doesn't want to become Difigured: $VALUE|=+0$"
-### TODO AGOT-CHANGED: BLIND_NEGATIVE_REASON [AGOT: [recipient.GetSheHe|U] doesn't want to become Blind: $VALUE|=+0$ | TR: Kör olmak istemiyor: $VALUE|=+0$]
- BLIND_NEGATIVE_REASON: "[recipient.GetSheHe|U] doesn't want to become Blind: $VALUE|=+0$"
+ CASTRATE_NEGATIVE_REASON: "Hadım edilmek istemiyor: $VALUE|=+0$"
+ CASTRATE_NO_CHILDREN_NEGATIVE_REASON: "[Concept('children', 'Çocuğu')|E] yok ve Hadım edilmek istemiyor: $VALUE|=+0$"
+ DEMAND_ADMIN_NEGATIVE_REASON: "[government_bureaucratic_type|E] olmaya isteksiz: $VALUE|=+0$"
+ DISFIGURE_NEGATIVE_REASON: "Yüzü Dağılmış olmak istemiyor: $VALUE|=+0$"
+ BLIND_NEGATIVE_REASON: "Kör olmak istemiyor: $VALUE|=+0$"
  DECLARE_WAR_HEADER:0 "Savaş İlan Et"
  DECLARE_WAR_TOGGLE_TITLE:0 "[CasusBelliTitleItem.GetBlockers]#I [CasusBelliTitleItem.GetTitle.GetName] için hak iddiasını seçmek/seçimi kaldırmak için tıklayın#! "
  DECLARE_WAR_CLICK_TITLE:0 "[CasusBelliTitleItem.GetBlockers]#I [CasusBelliTitleItem.GetTitle.GetName] için hak iddiasını seçmek için tıklayın#! "
@@ -365,14 +327,10 @@
  WAR_ALLY_REASON_HOLY_WAR:0 "Mezheplerini korumak için katılıyor"
  WAR_ALLY_REASON_HOLY_WAR_AMOUNT:0 "#S Kabul etme değeri: $VALUE|V$#!"
  WAR_DEFENDER_ALLY_TOOLTIP:0 "[Character.GetFullNameNicknamedNoTooltipRegnal|T]\n[WarAllyItem.GetAllianceReason]"
-### TODO AGOT-CHANGED: WAR_COST_GOLD [AGOT: War cost: [gold|E] | TR: Savaş maliyeti: [gold|E]]
- WAR_COST_GOLD: "War cost: [gold|E]"
-### TODO AGOT-CHANGED: WAR_COST_PRESTIGE [AGOT: War cost: [prestige|E] | TR: Savaş maliyeti: [prestige|E]]
- WAR_COST_PRESTIGE: "War cost: [prestige|E]"
-### TODO AGOT-CHANGED: WAR_COST_PIETY [AGOT: War cost: [piety|E] | TR: Savaş maliyeti: [piety|E]]
- WAR_COST_PIETY: "War cost: [piety|E]"
-### TODO AGOT-CHANGED: WAR_COST_RENOWN [AGOT: War cost: [dynasty_prestige|E] | TR: Savaş maliyeti: [dynasty_prestige|E]]
- WAR_COST_RENOWN: "War cost: [dynasty_prestige|E]"
+ WAR_COST_GOLD: "Savaş maliyeti: [gold|E]"
+ WAR_COST_PRESTIGE: "Savaş maliyeti: [prestige|E]"
+ WAR_COST_PIETY: "Savaş maliyeti: [piety|E]"
+ WAR_COST_RENOWN: "Savaş maliyeti: [dynasty_prestige|E]"
  DEFEAT_CONFIRM_TITLE:0 "Teslim Ol"
  DEFEAT_CONFIRM:0 "Savaş kaybedilecek."
  DEFEAT_CONFIRM_ACCEPT:0 "Teslim Ol"
@@ -384,8 +342,7 @@
  REVOKE_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED:0 "@warning_icon! #X [TITLE.GetName] [occupied|E]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY:1 "@warning_icon! #X Sadece [TITLE.GetName] yerine [TITLE_2.GetName] unvanının hepsini feshetmelisiniz#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_NON_DOMAIN_BARONY:0 "@warning_icon! #X [TITLE.GetName] sizin [Concept( 'domain', 'Mülkünüzün' )|E] parçası olmayan bir [barony|E], bu nedenle [CHARACTER.GetShortUIName] adlı kişiden feshedilemez#!"
-### TODO AGOT-CHANGED: REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY [AGOT: #X [TITLE.GetName] is a [noble_family|E] title and thus cannot be revoked#! | TR: #X [TITLE.GetName], [noble_family|E] unvanı ve feshedilemez#!]
- REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName] is a [noble_family|E] title and thus cannot be revoked#!"
+ REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName], [noble_family|E] unvanı ve feshedilemez#!"
  REVOKE_TITLE_SELECT:0 "@warning_icon! #X Unvan seçilmemiş#!"
  REVOKE_TITLE_REVOKE:0 "#T Seçilen unvanı [CHARACTER.GetShortUIName] adlı kişiden feshet#!"
  REVOKE_TITLE_PROVINCE_TITLE_TOOLTIP:4 "[TITLE.GetName] unvanını feshedebilirsiniz\n#I Feshetmek için seçmek istiyorsanız tıklayabilirsiniz#!"
@@ -409,32 +366,20 @@
  BLACKMAIL_NO_SECRET_SELECTED:0 "@warning_icon! #X Yukarıdaki listeden bir [secret|E] seçin#!"
  BLACKMAIL_SECRET_FORBIDDEN:1 "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] bu sırrı açığa çıkaramaz[Select_CString( CHARACTER.IsLocalPlayer, 'sınız', '' )]#!"
  BLACKMAIL_SECRET_ALREADY_IN_HOOK:2 "@warning_icon! #X Bu [secret|E] zaten [CHARACTER.GetShortUINameNoTooltip] tarafından bir [hook|E] olarak kullanılıyor#!"
-### TODO AGOT-CHANGED: GENERIC_SPEND_A_HOOK [AGOT: Use a [hook_i] [hook|E] | TR: [hook_i] [hook|E] kullan]
- GENERIC_SPEND_A_HOOK: "Use a [hook_i] [hook|E]"
+ GENERIC_SPEND_A_HOOK: "[hook_i] [hook|E] kullan"
  GENERIC_HOOK_VALID:1 "[recipient.GetShortUINameNoTooltip] adlı kişinin kabul edeceğinden emin olmak için bir [hook|E] kullanıyorsunuz"
  GENERIC_HOOK_INVALID:1 "[recipient.GetShortUINameNoTooltip] üzerinde bir [Concept( 'hook', 'Kozunuz' )|E] yok"
-### TODO AGOT-CHANGED: GENERIC_USE_STRONG_HOOK [AGOT: Use a [strong_hook_i] [strong_hook|E] | TR: [strong_hook_i] [strong_hook|E] kullan]
- GENERIC_USE_STRONG_HOOK: "Use a [strong_hook_i] [strong_hook|E]"
-### TODO AGOT-CHANGED: GENERIC_USE_HOOK [AGOT: Use a [hook_i] [hook|E] | TR: [hook_i] [hook|E] kullan]
- GENERIC_USE_HOOK: "Use a [hook_i] [hook|E]"
-### TODO AGOT-CHANGED: GENERIC_USE_DREAD [AGOT: Leverage your [dread_i][dread|E] | TR: [dread_i][dread|E] kullan]
- GENERIC_USE_DREAD: "Leverage your [dread_i][dread|E]"
-### TODO AGOT-CHANGED: DECREASE_PIETY_OBLIGATIONS [AGOT: Decrease [piety|E] [obligation|E] | TR: [piety|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt]
- DECREASE_PIETY_OBLIGATIONS: "Decrease [piety|E] [obligation|E]"
-### TODO AGOT-CHANGED: ALREADY_LOWEST_PIETY_OBLIGATION [AGOT: Already at lowest [piety|E] [obligation|E] | TR: Hâlihazırda en düşük [piety|E] [Concept('obligation', 'Yükümlülüğünde')|E]]
- ALREADY_LOWEST_PIETY_OBLIGATION: "Already at lowest [piety|E] [obligation|E]"
-### TODO AGOT-CHANGED: DECREASE_LEVY_OBLIGATIONS [AGOT: Decrease [levy|E] [obligation|E] | TR: [levy|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt]
- DECREASE_LEVY_OBLIGATIONS: "Decrease [levy|E] [obligation|E]"
-### TODO AGOT-CHANGED: ALREADY_LOWEST_LEVY_OBLIGATION [AGOT: Already at lowest [levy|E] [obligation|E] | TR: Hâlihazırda en düşük [levy|E] [Concept('obligation', 'Yükümlülüğünde')|E]]
- ALREADY_LOWEST_LEVY_OBLIGATION: "Already at lowest [levy|E] [obligation|E]"
-### TODO AGOT-CHANGED: DECREASE_TAX_OBLIGATIONS [AGOT: Decrease [tax|E] [obligation|E] | TR: [tax|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt]
- DECREASE_TAX_OBLIGATIONS: "Decrease [tax|E] [obligation|E]"
-### TODO AGOT-CHANGED: ALREADY_LOWEST_TAX_OBLIGATION [AGOT: Already at lowest [tax|E] [obligation|E] | TR: Hâlihazırda en düşük [tax|E] [Concept('obligation', 'Yükümlülüğünde')|E]]
- ALREADY_LOWEST_TAX_OBLIGATION: "Already at lowest [tax|E] [obligation|E]"
-### TODO AGOT-CHANGED: DECREASE_PRESTIGE_OBLIGATIONS [AGOT: Decrease [prestige|E] [obligation|E] | TR: [prestige|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt]
- DECREASE_PRESTIGE_OBLIGATIONS: "Decrease [prestige|E] [obligation|E]"
-### TODO AGOT-CHANGED: ALREADY_LOWEST_PRESTIGE_OBLIGATION [AGOT: Already at lowest [prestige|E] [obligation|E] | TR: Hâlihazırda en düşük [prestige|E] [Concept('obligation', 'Yükümlülüğünde')|E]]
- ALREADY_LOWEST_PRESTIGE_OBLIGATION: "Already at lowest [prestige|E] [obligation|E]"
+ GENERIC_USE_STRONG_HOOK: "[strong_hook_i] [strong_hook|E] kullan"
+ GENERIC_USE_HOOK: "[hook_i] [hook|E] kullan"
+ GENERIC_USE_DREAD: "[dread_i][dread|E] kullan"
+ DECREASE_PIETY_OBLIGATIONS: "[piety|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt"
+ ALREADY_LOWEST_PIETY_OBLIGATION: "Hâlihazırda en düşük [piety|E] [Concept('obligation', 'Yükümlülüğünde')|E]"
+ DECREASE_LEVY_OBLIGATIONS: "[levy|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt"
+ ALREADY_LOWEST_LEVY_OBLIGATION: "Hâlihazırda en düşük [levy|E] [Concept('obligation', 'Yükümlülüğünde')|E]"
+ DECREASE_TAX_OBLIGATIONS: "[tax|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt"
+ ALREADY_LOWEST_TAX_OBLIGATION: "Hâlihazırda en düşük [tax|E] [Concept('obligation', 'Yükümlülüğünde')|E]"
+ DECREASE_PRESTIGE_OBLIGATIONS: "[prestige|E] [Concept('obligation', 'Yükümlülüğünü')|E] azalt"
+ ALREADY_LOWEST_PRESTIGE_OBLIGATION: "Hâlihazırda en düşük [prestige|E] [Concept('obligation', 'Yükümlülüğünde')|E]"
  GENERIC_HOOK_POSITIVE_REASON:0 "[hook|E] kullanıldı: $VALUE|=+0$"
  DIVORCE_INCESTUOUS:0 "Evlilik ensest olur: $VALUE|=+0$"
  DIVORCE_OPENLY_INCESTUOUS_SPOUSE:0 "[secondary_recipient.GetShortUINameNoTooltip] herkesin bildiği üzere ensest bir ilişki yaşıyor: $VALUE|=+0$"
@@ -451,29 +396,24 @@
  THEY_ARE_VIRTUOUS:0 "[secondary_recipient.GetShortUINameNoTooltip] [virtuous|E] [Concept( 'traits', 'Özelliklere' )|E] sahip: $VALUE|=+0$"
  I_AM_SINFUL:1 "[sinful|E] [Concept( 'traits', 'Özellikleriniz' )|E] var: $VALUE|=+0$"
  THEY_ARE_SINFUL:0 "[secondary_recipient.GetShortUINameNoTooltip] [sinful|E] [Concept( 'traits', 'Özelliklere' )|E] sahip: $VALUE|=+0$"
-### TODO AGOT-CHANGED: I_HAVE_LOW_PIETY [AGOT: Your [piety_level|E] is [GetModifier( 'piety_level_0' ).GetNameWithTooltip]: $VALUE|=+0$ | TR: [Concept('piety_level', 'Adanmışlık Seviyeniz' )|E] [GetModifier( 'piety_level_0' ).GetNameWithTooltip]: $VALUE|=+0$]
- I_HAVE_LOW_PIETY: "Your [piety_level|E] is [GetModifier( 'piety_level_0' ).GetNameWithTooltip]: $VALUE|=+0$"
+ I_HAVE_LOW_PIETY: "[Concept('piety_level', 'Adanmışlık Seviyeniz' )|E] [GetModifier( 'piety_level_0' ).GetNameWithTooltip]: $VALUE|=+0$"
  WE_ARE_RIVALS:0 "Rakipsiniz: $VALUE|=+0$"
  WE_ARE_NEMESES:0 "Can düşmanısınız: $VALUE|=+0$"
  WE_ARE_LOVERS:0 "Sevgilisiniz: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WE_ARE_SOULMATES [AGOT: You are soulmates: $VALUE|=+0$ | TR: Ruh eşisiniz: $VALUE|=+0$]
- WE_ARE_SOULMATES: "You are soulmates: $VALUE|=+0$"
+ WE_ARE_SOULMATES: "Ruh eşisiniz: $VALUE|=+0$"
  WE_ARE_FRIENDS:0 "Arkadaşsınız: $VALUE|=+0$"
  WE_ARE_BEST_FRIENDS:0 "En iyi arkadaşlarsınız: $VALUE|=+0$"
  YOU_ARE_MY_RELATIVE:0 "Ailesiniz: $VALUE|=+0$"
  THEY_ARE_MY_CLOSE_KIN:0 "[secondary_recipient.GetShortUINameNoTooltip] aileden: $VALUE|=+0$"
-### TODO AGOT-CHANGED: THEY_ARE_MY_CLOSE_FAMILY [AGOT: [secondary_recipient.GetShortUINameNoTooltip] is [recipient.GetHerHis] [close_family|E]: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINameNoTooltip] [Concept( 'close_family', 'Yakın Ailesinden' )|E]: $VALUE|=+0$]
- THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] is [recipient.GetHerHis] [close_family|E]: $VALUE|=+0$"
+ THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] [Concept( 'close_family', 'Yakın Ailesinden' )|E]: $VALUE|=+0$"
  YOU_ARE_MY_HOUSE_MEMBER:0 "Onun [Concept( 'house', 'Hanesindensiniz' )|E]: $VALUE|=+0$"
  YOU_ARE_MY_DYNASTY_MEMBER:0 "Onun [Concept( 'dynasty', 'Hanedanındansınız' )|E]: $VALUE|=+0$"
  THEY_ARE_MY_HOUSE_MEMBER:0 "[secondary_recipient.GetShortUINameNoTooltip] onun [Concept( 'house', 'Hanesinden' )|E]: $VALUE|=+0$"
  THEY_ARE_MY_DYNASTY_MEMBER:0 "[secondary_recipient.GetShortUINameNoTooltip] [Concept( 'dynasty', 'Hanedanından' )|E]: $VALUE|=+0$"
  I_AM_A_KINSLAYER:0 "Ben bir [kinslayer|E]yim: $VALUE|=+0$"
  THEY_ARE_A_KINSLAYER:0 "[secondary_recipient.GetShortUINameNoTooltip] bir [kinslayer|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY [AGOT: [secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E][Select_CString( secondary_recipient.IsLocalPlayer, 'niz', '' )]: $VALUE|=+0$]
- SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RECIPIENT_GOVERNOR_EFFICIENCY [AGOT: [recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E][Select_CString( recipient.IsLocalPlayer, 'niz', '' )]: $VALUE|=+0$]
- RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
+ SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E][Select_CString( secondary_recipient.IsLocalPlayer, 'niz', '' )]: $VALUE|=+0$"
+ RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E][Select_CString( recipient.IsLocalPlayer, 'niz', '' )]: $VALUE|=+0$"
  DIVORCE_GIVEN_CHILDREN:0 "[secondary_recipient.GetShortUINameNoTooltip] size birçok sağlıklı çocuk verdi: $VALUE|=+0$"
  I_DIVORCED_X:0 "[recipient.GetShortUINameNoTooltip], [actor.GetShortUINameNoTooltip] ile [secondary_recipient.GetShortUINameNoTooltip] adlı kişiyi boşadı!"
  X_DIVORCED_ME:0 "[recipient.GetShortUINameNoTooltip] onayıyla [actor.GetShortUINameNoTooltip] ile [secondary_recipient.GetShortUINameNoTooltip] boşandı!"
@@ -553,58 +493,34 @@
  AI_I_AM_A_BABY:0 "Bebekler siyasetten anlamaz: $VALUE|=+0$"
  AI_I_AM_A_CHILD:0 "Ben sadece bir [Concept( 'child', 'çocuğum' )|E]: $VALUE|=+0$"
  AI_I_AM_INFIRM:0 "[GetTrait('infirm').GetName(GetNullCharacter)] özelliğine sahibim: $VALUE|=+0$"
-### TODO AGOT-CHANGED: DIPLOMACY_SKILL_REASON [AGOT: Diplomacy Skill: $VALUE|=+0$ | TR: Diplomasi Becerisi: $VALUE|=+0$]
- DIPLOMACY_SKILL_REASON: "Diplomacy Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: MARTIAL_SKILL_REASON [AGOT: Martial Skill: $VALUE|=+0$ | TR: Askeriye Becerisi: $VALUE|=+0$]
- MARTIAL_SKILL_REASON: "Martial Skill: $VALUE|=+0$"
+ DIPLOMACY_SKILL_REASON: "Diplomasi Becerisi: $VALUE|=+0$"
+ MARTIAL_SKILL_REASON: "Askeriye Becerisi: $VALUE|=+0$"
  STEWARDSHIP_SKILL_REASON: "Stewardship Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INTRIGUE_SKILL_REASON [AGOT: Intrigue Skill: $VALUE|=+0$ | TR: İdare Becerisi: $VALUE|=+0$]
- INTRIGUE_SKILL_REASON: "Intrigue Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: LEARNING_SKILL_REASON [AGOT: Learning Skill: $VALUE|=+0$ | TR: Öğrenim Becerisi: $VALUE|=+0$]
- LEARNING_SKILL_REASON: "Learning Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: PROWESS_SKILL_REASON [AGOT: Prowess Skill: $VALUE|=+0$ | TR: Dövüş Becerisi: $VALUE|=+0$]
- PROWESS_SKILL_REASON: "Prowess Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SCHEME_TARGET_LEARNING [AGOT: [target.GetShortUINamePossessive|U] [learning|E]: $VALUE|+=0$ | TR: [target.GetShortUINameNotMe|U] adlı karakterin [Concept( 'learning', 'Öğrenim' )|E] becerisi: $VALUE|+=0$]
- SCHEME_TARGET_LEARNING: "[target.GetShortUINamePossessive|U] [learning|E]: $VALUE|+=0$"
+ INTRIGUE_SKILL_REASON: "İdare Becerisi: $VALUE|=+0$"
+ LEARNING_SKILL_REASON: "Öğrenim Becerisi: $VALUE|=+0$"
+ PROWESS_SKILL_REASON: "Dövüş Becerisi: $VALUE|=+0$"
+ SCHEME_TARGET_LEARNING: "[target.GetShortUINameNotMe|U] adlı karakterin [Concept( 'learning', 'Öğrenim' )|E] becerisi: $VALUE|+=0$"
  AI_I_AM_INCAPABLE:0 "[GetTrait('incapable').GetName(GetNullCharacter)] özelliğine sahibim: $VALUE|=+0$"
  AI_I_AM_IMPRISONED:0 "[imprisoned|E] durumdayım: $VALUE|=+0$"
  AI_LACKS_POLITICAL_CAPITAL:0 "Karşı koyabilecek [Concept( 'prestige', 'Prestijim' )|E] yok: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SPYMASTER_INTRIGUE_SKILL_REASON [AGOT: [owner.GetShortUINamePossessive|U] [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ] Intrigue Skill: $VALUE|=+0$ | TR: [owner.GetShortUINameNotMe|U] adlı karakterin [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ]nın Entrika becerisi: $VALUE|=+0$]
- SPYMASTER_INTRIGUE_SKILL_REASON: "[owner.GetShortUINamePossessive|U] [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ] Intrigue Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SECOND_INTRIGUE_SKILL_REASON [AGOT: [owner.GetShortUINamePossessive|U] [GetCourtPositionType( 'second_camp_officer' ).GetName ]'s Intrigue Skill: $VALUE|=+0$ | TR: [owner.GetShortUINameNotMe|U] adlı karakterin [GetCourtPositionType( 'second_camp_officer' ).GetName ]inin Entrika becerisi: $VALUE|=+0$]
- SECOND_INTRIGUE_SKILL_REASON: "[owner.GetShortUINamePossessive|U] [GetCourtPositionType( 'second_camp_officer' ).GetName ]'s Intrigue Skill: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_DIPLOMACY_SKILL_REASON [AGOT: Has [diplomacy_skill|E]: $VALUE|=+0$ | TR: [Concept( 'diplomacy_skill', 'Diplomasi Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_DIPLOMACY_SKILL_REASON: "Has [diplomacy_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_MARTIAL_SKILL_REASON [AGOT: Has [martial_skill|E]: $VALUE|=+0$ | TR: [Concept( 'martial_skill', 'Askeriye Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_MARTIAL_SKILL_REASON: "Has [martial_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_INTRIGUE_SKILL_REASON [AGOT: Has [intrigue_skill|E]: $VALUE|=+0$ | TR: [Concept( 'intrigue_skill', 'Entrika Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_INTRIGUE_SKILL_REASON: "Has [intrigue_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_STEWARDSHIP_SKILL_REASON [AGOT: Has [stewardship_skill|E]: $VALUE|=+0$ | TR: [Concept( 'stewardship_skill', 'İdare Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_STEWARDSHIP_SKILL_REASON: "Has [stewardship_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_LEARNING_SKILL_REASON [AGOT: Has [learning_skill|E]: $VALUE|=+0$ | TR: [Concept( 'learning_skill', 'Öğrenim Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_LEARNING_SKILL_REASON: "Has [learning_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_PROWESS_SKILL_REASON [AGOT: Has [prowess_skill|E]: $VALUE|=+0$ | TR: [Concept( 'prowess_skill', 'Dövüş Becerisine' )|E] sahip: $VALUE|=+0$]
- HAS_PROWESS_SKILL_REASON: "Has [prowess_skill|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INCREASE_UNITY_DESC [AGOT: Wants to increase [house_unity|E] | TR: [Concept( 'house_unity', 'Hane Birliğini' )|E] arttırmak istiyor]
- INCREASE_UNITY_DESC: "Wants to increase [house_unity|E]"
-### TODO AGOT-CHANGED: DECREASE_UNITY_DESC [AGOT: Wants to decrease [house_unity|E] | TR: [Concept( 'house_unity', 'Hane Birliğini' )|E] azaltmak istiyor]
- DECREASE_UNITY_DESC: "Wants to decrease [house_unity|E]"
-### TODO AGOT-CHANGED: LOW_LEGITIMACY_REASON [AGOT: [actor.GetShortUINamePossessive|U] low [legitimacy|E]: $VALUE|=+0$ | TR: [Select_CString( actor.IsLocalPlayer, 'Sahip olduğunuz', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] düşük [legitimacy|E]: $VALUE|=+0$]
- LOW_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] low [legitimacy|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RECIPIENT_LOW_LEGITIMACY_REASON [AGOT: [recipient.GetShortUINamePossessive|U] low [legitimacy|E]: $VALUE|=+0$ | TR: [Select_CString( recipient.IsLocalPlayer, 'Sahip olduğunuz', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] düşük [legitimacy|E]: $VALUE|=+0$]
- RECIPIENT_LOW_LEGITIMACY_REASON: "[recipient.GetShortUINamePossessive|U] low [legitimacy|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HIGH_LEGITIMACY_REASON [AGOT: [actor.GetShortUINamePossessive|U] high [legitimacy|E]: $VALUE|=+0$ | TR: [Select_CString( actor.IsLocalPlayer, 'Sahip olduğunuz', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] yüksek [legitimacy|E]: $VALUE|=+0$]
- HIGH_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] high [legitimacy|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RECIPIENT_HIGH_LEGITIMACY_REASON [AGOT: [recipient.GetShortUINamePossessive|U] high [legitimacy|E]: $VALUE|=+0$ | TR: [Select_CString( recipient.IsLocalPlayer, 'Sahip olduğunuz', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] yüksek [legitimacy|E]: $VALUE|=+0$]
- RECIPIENT_HIGH_LEGITIMACY_REASON: "[recipient.GetShortUINamePossessive|U] high [legitimacy|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: PIETY_REASON [AGOT: Leveraging your [piety|E]: $VALUE|=+0$ #weak (based on your [piety_level])#! | TR: [Concept('piety', 'Dindarlığınızı')|E] kullanıyorsunuz: $VALUE|=+0$ #weak ([Concept('piety_level', 'Adanmışlık Seviyenize')] bağlıdır)#!]
- PIETY_REASON: "Leveraging your [piety|E]: $VALUE|=+0$ #weak (based on your [piety_level])#!"
-### TODO AGOT-CHANGED: INFLUENCE_REASON [AGOT: Exerting [influence|E]: $VALUE|=+0$ #weak (based on your [influence_level])#! | TR: [influence|E] kullanıyor: $VALUE|=+0$ #weak ([Concept( 'influence_level', 'Nüfuz Seviyenize' )|E] bağlıdır)#!]
- INFLUENCE_REASON: "Exerting [influence|E]: $VALUE|=+0$ #weak (based on your [influence_level])#!"
-### TODO AGOT-CHANGED: RECIPIENT_SECRET [AGOT: Using [recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$ | TR: [recipient.GetShortUINameNotMe] adlı karakterin [Concept( 'secret', 'Sırrı' )|E] kullanılıyor: $VALUE|=+0$]
- RECIPIENT_SECRET: "Using [recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: SECONDARY_RECIPIENT_SECRET [AGOT: Using [secondary_recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$ | TR: [secondary_recipient.GetShortUINameNotMe] adlı karakterin [Concept( 'secret', 'Sırrı' )|E] kullanılıyor: $VALUE|=+0$]
- SECONDARY_RECIPIENT_SECRET: "Using [secondary_recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$"
+ SPYMASTER_INTRIGUE_SKILL_REASON: "[owner.GetShortUINameNotMe|U] adlı karakterin [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ]nın Entrika becerisi: $VALUE|=+0$"
+ SECOND_INTRIGUE_SKILL_REASON: "[owner.GetShortUINameNotMe|U] adlı karakterin [GetCourtPositionType( 'second_camp_officer' ).GetName ]inin Entrika becerisi: $VALUE|=+0$"
+ HAS_DIPLOMACY_SKILL_REASON: "[Concept( 'diplomacy_skill', 'Diplomasi Becerisine' )|E] sahip: $VALUE|=+0$"
+ HAS_MARTIAL_SKILL_REASON: "[Concept( 'martial_skill', 'Askeriye Becerisine' )|E] sahip: $VALUE|=+0$"
+ HAS_INTRIGUE_SKILL_REASON: "[Concept( 'intrigue_skill', 'Entrika Becerisine' )|E] sahip: $VALUE|=+0$"
+ HAS_STEWARDSHIP_SKILL_REASON: "[Concept( 'stewardship_skill', 'İdare Becerisine' )|E] sahip: $VALUE|=+0$"
+ HAS_LEARNING_SKILL_REASON: "[Concept( 'learning_skill', 'Öğrenim Becerisine' )|E] sahip: $VALUE|=+0$"
+ HAS_PROWESS_SKILL_REASON: "[Concept( 'prowess_skill', 'Dövüş Becerisine' )|E] sahip: $VALUE|=+0$"
+ INCREASE_UNITY_DESC: "[Concept( 'house_unity', 'Hane Birliğini' )|E] arttırmak istiyor"
+ DECREASE_UNITY_DESC: "[Concept( 'house_unity', 'Hane Birliğini' )|E] azaltmak istiyor"
+ LOW_LEGITIMACY_REASON: "[Select_CString( actor.IsLocalPlayer, 'Sahip olduğunuz', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] düşük [legitimacy|E]: $VALUE|=+0$"
+ RECIPIENT_LOW_LEGITIMACY_REASON: "[Select_CString( recipient.IsLocalPlayer, 'Sahip olduğunuz', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] düşük [legitimacy|E]: $VALUE|=+0$"
+ HIGH_LEGITIMACY_REASON: "[Select_CString( actor.IsLocalPlayer, 'Sahip olduğunuz', actor.GetShortUIName )][Select_CString( actor.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] yüksek [legitimacy|E]: $VALUE|=+0$"
+ RECIPIENT_HIGH_LEGITIMACY_REASON: "[Select_CString( recipient.IsLocalPlayer, 'Sahip olduğunuz', recipient.GetShortUIName )][Select_CString( recipient.IsLocalPlayer, '', ' adlı kişinin sahip olduğu' )] yüksek [legitimacy|E]: $VALUE|=+0$"
+ PIETY_REASON: "[Concept('piety', 'Dindarlığınızı')|E] kullanıyorsunuz: $VALUE|=+0$ #weak ([Concept('piety_level', 'Adanmışlık Seviyenize')] bağlıdır)#!"
+ INFLUENCE_REASON: "[influence|E] kullanıyor: $VALUE|=+0$ #weak ([Concept( 'influence_level', 'Nüfuz Seviyenize' )|E] bağlıdır)#!"
+ RECIPIENT_SECRET: "[recipient.GetShortUINameNotMe] adlı karakterin [Concept( 'secret', 'Sırrı' )|E] kullanılıyor: $VALUE|=+0$"
+ SECONDARY_RECIPIENT_SECRET: "[secondary_recipient.GetShortUINameNotMe] adlı karakterin [Concept( 'secret', 'Sırrı' )|E] kullanılıyor: $VALUE|=+0$"
  AI_OPINION_INFLUENCE_LEVEL_IMPOTENT: "[GetInfluenceLevelName('(int32)0')] [influence_level|E]: $VALUE|=+0$"
  AI_OPINION_INFLUENCE_LEVEL_PERSUASIVE: "[GetInfluenceLevelName('(int32)2')] [influence_level|E]: $VALUE|=+0$"
  AI_OPINION_INFLUENCE_LEVEL_CONTROLLING: "[GetInfluenceLevelName('(int32)3')] [influence_level|E]: $VALUE|=+0$"
@@ -617,30 +533,18 @@
  AI_OPINION_PRESTIGE_LEVEL_EXALTED: "[GetPrestigeLevelName('(int32)4')] [prestige_level|E]: $VALUE|=+0$"
  AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[GetPrestigeLevelName('(int32)5')] [prestige_level|E]: $VALUE|=+0$"
  AI_OPINION_MERIT_LEVEL: "[merit_level|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE [AGOT: Offer your [influence_i|E][influence|E] | TR: [influence_i|E][influence|E] öner]
- TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "Offer your [influence_i|E][influence|E]"
-### TODO AGOT-CHANGED: DEMAND_INFLUENCE_AI_ACCEPTANCE [AGOT: Demand [influence_i|E][influence|E] | TR: [influence_i|E][influence|E] talep et]
- DEMAND_INFLUENCE_AI_ACCEPTANCE: "Demand [influence_i|E][influence|E]"
-### TODO AGOT-CHANGED: INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION [AGOT: Spending [influence|E]: $VALUE|=+0$ | TR: [influence|E] harcanıyor: $VALUE|=+0$]
- INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "Spending [influence|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: not_same_realm_tt [AGOT: You and [recipient.GetShortUIName] are #BOLD not#! in the same realm | TR: [recipient.GetShortUIName] ile aynı ülkede #BOLD değilsiniz#!]
- not_same_realm_tt: "You and [recipient.GetShortUIName] are #BOLD not#! in the same realm"
-### TODO AGOT-CHANGED: same_realm_tt [AGOT: You and [recipient.GetShortUIName] are in the same realm | TR: [recipient.GetShortUIName] ile aynı ülkedesiniz]
- same_realm_tt: "You and [recipient.GetShortUIName] are in the same realm"
-### TODO AGOT-CHANGED: INFLUENCE_SEND_OPTION [AGOT: Spend @influence_icon![influence|E] | TR: @influence_icon![influence|E] harca]
- INFLUENCE_SEND_OPTION: "Spend @influence_icon![influence|E]"
-### TODO AGOT-CHANGED: HISTORICAL_ADMIN_REASON [AGOT: Historical [recipient.GetCulture.GetName] ties to [administrative|E] [government|E]: $VALUE|=+0$ | TR: [administrative|E] [Concept( 'government', 'Yönetime' )|E] tarihî [recipient.GetCulture.GetName] bağları: $VALUE|=+0$]
- HISTORICAL_ADMIN_REASON: "Historical [recipient.GetCulture.GetName] ties to [administrative|E] [government|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: WILL_BE_VASSALIZED_REASON [AGOT: Will become your [vassal|E]: $VALUE|=+0$ | TR: [Concept( 'vassal', 'Vasalınız' )|E] olacak: $VALUE|=+0$]
- WILL_BE_VASSALIZED_REASON: "Will become your [vassal|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: RIVAL_VASSAL_REASON [AGOT: Rival [vassal|E] within the [realm|E]: $VALUE|=+0$ | TR: [Concept( 'realm', 'Ülkede' )|E] rakip [vassal|E]: $VALUE|=+0$]
- RIVAL_VASSAL_REASON: "Rival [vassal|E] within the [realm|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: STATE_FAITH_CREATE_FAITH_REASON [AGOT: You hold a lot of sway within the [realm|E]: $VALUE|=+0$ | TR: [Concept( 'realm', 'Ülkede' )|E] söz hakkı sahibisiniz: $VALUE|=+0$]
- STATE_FAITH_CREATE_FAITH_REASON: "You hold a lot of sway within the [realm|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: HAS_PERK_PROPHET_REASON [AGOT: You have the [GetPerk('prophet_perk').GetName(GetPlayer)] [perk|E]: $VALUE|=+0$ | TR: [GetPerk('prophet_perk').GetName(GetPlayer)] [Concept( 'perk', 'Yeteneğine' )|E] sahipsiniz: $VALUE|=+0$]
- HAS_PERK_PROPHET_REASON: "You have the [GetPerk('prophet_perk').GetName(GetPlayer)] [perk|E]: $VALUE|=+0$"
-### TODO AGOT-CHANGED: INSPECTION_REASON [AGOT: [inspection|E] Bonus: $VALUE|=+0$ | TR: [inspection|E] Bonusu: $VALUE|=+0$]
- INSPECTION_REASON: "[inspection|E] Bonus: $VALUE|=+0$"
+ TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "[influence_i|E][influence|E] öner"
+ DEMAND_INFLUENCE_AI_ACCEPTANCE: "[influence_i|E][influence|E] talep et"
+ INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "[influence|E] harcanıyor: $VALUE|=+0$"
+ not_same_realm_tt: "[recipient.GetShortUIName] ile aynı ülkede #BOLD değilsiniz#!"
+ same_realm_tt: "[recipient.GetShortUIName] ile aynı ülkedesiniz"
+ INFLUENCE_SEND_OPTION: "@influence_icon![influence|E] harca"
+ HISTORICAL_ADMIN_REASON: "[administrative|E] [Concept( 'government', 'Yönetime' )|E] tarihî [recipient.GetCulture.GetName] bağları: $VALUE|=+0$"
+ WILL_BE_VASSALIZED_REASON: "[Concept( 'vassal', 'Vasalınız' )|E] olacak: $VALUE|=+0$"
+ RIVAL_VASSAL_REASON: "[Concept( 'realm', 'Ülkede' )|E] rakip [vassal|E]: $VALUE|=+0$"
+ STATE_FAITH_CREATE_FAITH_REASON: "[Concept( 'realm', 'Ülkede' )|E] söz hakkı sahibisiniz: $VALUE|=+0$"
+ HAS_PERK_PROPHET_REASON: "[GetPerk('prophet_perk').GetName(GetPlayer)] [Concept( 'perk', 'Yeteneğine' )|E] sahipsiniz: $VALUE|=+0$"
+ INSPECTION_REASON: "[inspection|E] Bonusu: $VALUE|=+0$"
  HAS_WET_NURSE_REASON: "[GetCourtPositionType( 'wet_nurse_court_position' ).GetName ]: $VALUE|=+0$"
  HAS_CHAMPION_REASON: "[GetCourtPositionType( 'champion_court_position' ).GetName ]: $VALUE|=+0$"
  NOMADIC_BASE_MALUS: "[GetGovernment( 'nomad_government' ).GetName] [government|E]: $VALUE|=+0$"

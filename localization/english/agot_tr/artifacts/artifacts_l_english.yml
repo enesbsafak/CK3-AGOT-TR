@@ -2,9 +2,12 @@
  placeholder:0 "$holderplace$"
  holder_place:0 "#D Holderplace#!"
  metal_steel:0 "çelik"
- metal_wootz_steel:0 "wootz çeliği"
- metal_bulat_steel:0 "bulat çeliği"
- metal_damascus_steel:0 "Şam çeliği"
+### TODO AGOT-CHANGED: metal_wootz_steel [AGOT: YiTish steel | TR: wootz çeliği]
+ metal_wootz_steel:0 "YiTish steel"
+### TODO AGOT-CHANGED: metal_bulat_steel [AGOT: Qohorik steel | TR: bulat çeliği]
+ metal_bulat_steel:0 "Qohorik steel"
+### TODO AGOT-CHANGED: metal_damascus_steel [AGOT: Valyrian steel | TR: Şam çeliği]
+ metal_damascus_steel:0 "Valyrian steel"
  feature_blade_metal_wootz_steel:0 "$metal_wootz_steel$"
  feature_blade_metal_damascus_steel:1 "$metal_damascus_steel$"
  feature_blade_metal_bulat_steel:1 "$metal_bulat_steel$"
@@ -21,9 +24,9 @@
  metal_copper:0 "bakır"
  metal_pewter:0 "kalaylı kurşun"
  metal_latten:0 "kalaylı pirinç"
- metal_panchaloha:0 "pançaloha"
-### TODO AGOT-CHANGED: metal_shakudo [AGOT: shakudo | TR: şakudo]
- metal_shakudo: "shakudo"
+### TODO AGOT-CHANGED: metal_panchaloha [AGOT: Qaathi metal | TR: pançaloha]
+ metal_panchaloha:0 "Qaathi metal"
+ metal_shakudo: "şakudo"
  earthware_clay:0 "kil"
  earthware_stone:0 "taş"
  earthware_terracotta:0 "terakota"
@@ -35,7 +38,8 @@
  wood_maple:0 "akçaağaç"
  wood_fleroya:0 "fleroya"
  wood_sycomore:0 "çınar"
- wood_padauk:0 "paduk"
+### TODO AGOT-CHANGED: wood_padauk [AGOT: goldenheart | TR: paduk]
+ wood_padauk:0 "goldenheart"
  wood_sal:0 "akasya"
  wood_teak:0 "tik"
  wood_rosewood:0 "gül"
@@ -43,15 +47,11 @@
  wood_coromandel:0 "koromandel"
  wood_ebony:0 "abanoz"
  wood_nanmu: "nanmu"
-### TODO AGOT-CHANGED: wood_boxwood [AGOT: boxwood | TR: şimşir]
- wood_boxwood: "boxwood"
-### TODO AGOT-CHANGED: wood_camphorwood [AGOT: camphorwood | TR: kafur ağacı]
- wood_camphorwood: "camphorwood"
+ wood_boxwood: "şimşir"
+ wood_camphorwood: "kafur ağacı"
  wood_narra: "narra"
-### TODO AGOT-CHANGED: wood_agarwood [AGOT: agarwood | TR: öd ağacı]
- wood_agarwood: "agarwood"
-### TODO AGOT-CHANGED: wood_sandalwood [AGOT: sandalwood | TR: sandal ağacı]
- wood_sandalwood: "sandalwood"
+ wood_agarwood: "öd ağacı"
+ wood_sandalwood: "sandal ağacı"
  feature_shaft_wood_ash:0 "$wood_ash$"
  feature_shaft_wood_oak:0 "$wood_oak$"
  feature_shaft_wood_elm:0 "$wood_elm$"
@@ -105,16 +105,11 @@
  gem_ruby_plural:0 "yakutlar"
  gem_emerald:0 "zümrüt"
  gem_emerald_plural:0 "zümrütler"
-### TODO AGOT-CHANGED: slate_bamboo [AGOT: slate of plain bamboo | TR: sade bambu levha]
- slate_bamboo: "slate of plain bamboo"
-### TODO AGOT-CHANGED: slate_soapstone [AGOT: slate of polished soapstone | TR: cilalı sabuntaşı levhası]
- slate_soapstone: "slate of polished soapstone"
-### TODO AGOT-CHANGED: slate_bronze [AGOT: slate of dusky bronze | TR: puslu bronz levha]
- slate_bronze: "slate of dusky bronze"
-### TODO AGOT-CHANGED: slate_quartz [AGOT: slate of glistening quartz | TR: pırıl pırıl kuvars levhası]
- slate_quartz: "slate of glistening quartz"
-### TODO AGOT-CHANGED: slate_jade [AGOT: slate of lustrous jade | TR: ışıltılı yeşim levhası]
- slate_jade: "slate of lustrous jade"
+ slate_bamboo: "sade bambu levha"
+ slate_soapstone: "cilalı sabuntaşı levhası"
+ slate_bronze: "puslu bronz levha"
+ slate_quartz: "pırıl pırıl kuvars levhası"
+ slate_jade: "ışıltılı yeşim levhası"
  hsb_mother_of_pearl:0 "sedef"
  hsb_seashell:0 "denizkabuğu"
  hsb_deer_antler:0 "geyik boynuzu"
@@ -137,16 +132,20 @@
  feature_armor_helmet_nasal:0 "Takım bir nazal miğfer ve içi [Artifact.GetFeatureText( 'generic_material_cloth' )] dolu baş örgüsü içerir"
  feature_armor_helmet_enclosed:0 "Takım bir kapalı miğfer ve içi [Artifact.GetFeatureText( 'generic_material_cloth' )] dolu baş örgüsü içerir"
  feature_armor_helmet_great_helmet:0 "Takım bir büyük miğfer ve içi [Artifact.GetFeatureText( 'generic_material_cloth' )] dolu baş örgüsü içerir"
- feature_armor_helmet_turban_helmet:0 "Takım bir peçelikli miğfer ve bir aventail içerir"
+### TODO AGOT-CHANGED: feature_armor_helmet_turban_helmet [AGOT: The set includes a Qaathi helmet and an aventail | TR: Takım bir peçelikli miğfer ve bir aventail içerir]
+ feature_armor_helmet_turban_helmet:0 "The set includes a Qaathi helmet and an aventail"
  feature_armor_helmet_lamellar:0 "Takım, üzerinde dekoratif tüyü olan bir lamellar miğfer ve bir aventail içerir"
  feature_armor_helmet_kettle:0 "Takım bir siperlikli miğfer içerir"
- feature_armor_helmet_kulah_khud:0 "Takım bir Khula Khud miğferi ve bir aventail içerir"
+### TODO AGOT-CHANGED: feature_armor_helmet_kulah_khud [AGOT: The set includes a Rhoynar helmet and an aventail | TR: Takım bir Khula Khud miğferi ve bir aventail içerir]
+ feature_armor_helmet_kulah_khud:0 "The set includes a Rhoynar helmet and an aventail"
  feature_brooch_adornment_gems:0 "küçük [Artifact.GetFeatureText( 'decoration_material_gem' )] ile süslenmiş"
  feature_brooch_adornment_runes:0 "rünler ile mühürlenmiş [Artifact.GetFeatureText( 'decoration_material_wire' )] halkalar ile süslenmiş"
  seahorse_brooch_name:0 "Altın Denizatı Broş"
  leopard_hat_name:0 "Leopar Şapka"
- kurgan_ornament_name:0 "İskit Panter Heykelciği"
- kurgan_saddle_name:0 "Kurganda Bulunan Eyer"
+### TODO AGOT-CHANGED: kurgan_ornament_name [AGOT: Horse Figurine | TR: İskit Panter Heykelciği]
+ kurgan_ornament_name:0 "Horse Figurine"
+### TODO AGOT-CHANGED: kurgan_saddle_name [AGOT: Saddle from a Burial Mound | TR: Kurganda Bulunan Eyer]
+ kurgan_saddle_name:0 "Saddle from a Burial Mound"
  naked_tapestry_name:0 "Erotik Duvar Örtüsü"
  frogspawn_jar_name:0 "Kurbağa Yumurtası Kavanozu"
  beaver_book_name:1 "Kunduzların Sarayları"
@@ -158,9 +157,12 @@
  brooch_adornment_gems:0 "küçük [ROOT.Char.Custom2_Flag('ArtifactGemType', SCOPE.GetFlagName('adornment_gem'))] ile süslenmiş"
  brooch_adornment_runes:0 "rünler ile mühürlenmiş [ROOT.Char.Custom2_Flag('ArtifactMetalType', SCOPE.GetFlagName('adornment_runed_ring_metal'))] halkalar ile süslenmiş"
  feature_blade_steel:0 "çelik"
- feature_blade_wootz_steel:0 "wootz çeliği"
- feature_blade_bulat_steel:0 "bulat çeliği"
- feature_blade_damascus_steel:0 "Şam çeliği"
+### TODO AGOT-CHANGED: feature_blade_wootz_steel [AGOT: YiTish steel | TR: wootz çeliği]
+ feature_blade_wootz_steel:0 "YiTish steel"
+### TODO AGOT-CHANGED: feature_blade_bulat_steel [AGOT: Qohorik steel | TR: bulat çeliği]
+ feature_blade_bulat_steel:0 "Qohorik steel"
+### TODO AGOT-CHANGED: feature_blade_damascus_steel [AGOT: Valyrian steel | TR: Şam çeliği]
+ feature_blade_damascus_steel:0 "Valyrian steel"
  lover_keepsake_clothes_male_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] Pantolonu"
  lover_keepsake_clothes_female_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] Sütyeni"
  lover_keepsake_shell_name:0 "[original_lover.GetFirstNamePossessiveNoTooltip] Deniz Kabuğu"
@@ -178,10 +180,8 @@
  merchants_sword:0 "[merchant_character_scope.GetCulture.GetName] Kılıcı"
  lunchbox:0 "Koruyucu Kutu"
  al_taj_crown_name:0 "el-Taç el-Şerif"
-### TODO AGOT-CHANGED: ryukyu_shaku_name [AGOT: Shaku of the Three Mountains | TR: Üç Dağın Shaku'su]
- ryukyu_shaku_name: "Shaku of the Three Mountains"
-### TODO AGOT-CHANGED: ryukyu_crown_name [AGOT: Crown of the Dragon | TR: Ejder Tacı]
- ryukyu_crown_name: "Crown of the Dragon"
+ ryukyu_shaku_name: "Üç Dağın Shaku'su"
+ ryukyu_crown_name: "Ejder Tacı"
  al_sayf_al_khass_name:0 "el-Saif el-Hass"
  al_dawat_name:0 "el-Davat"
  peacock_throne_name:0 "Tavuskuşu Tahtı"
@@ -212,5 +212,4 @@
  tournament_favor_sleeve:0 "eldiven"
  tournament_favor_scarf:0 "eşarp"
  blooded_blade:0 "Kanlı Bıçak"
-### TODO AGOT-CHANGED: whale_fat_candles_name [AGOT: Whale-Fat Candles | TR: Balina Yağı Mumları]
- whale_fat_candles_name: "Whale-Fat Candles"
+ whale_fat_candles_name: "Balina Yağı Mumları"

@@ -15,10 +15,10 @@
  task_bestow_royal_favor:0 "Kraliyet Desteği Bahşetme"
  task_bestow_royal_favor_target_message:0 "[councillor_liege.GetShortUIName], size kraliyet desteği bahşediyor"
  task_bestow_royal_favor_target_cancel_message:0 "[councillor_liege.GetShortUIName] artık size kraliyet desteği bahşetmiyor"
- task_manage_guards:0 "Kraliyet Muhafızlarını Yönetme"
+### TODO AGOT-CHANGED: task_manage_guards [AGOT: Manage Household Guards | TR: Kraliyet Muhafızlarını Yönetme]
+ task_manage_guards:0 "Manage Household Guards"
  task_manage_guards_scheme_desc:1 "\n\nDüşmanın [hostile_scheme|E] [success_chance|E]: #P %[SCOPE.ScriptValue('marshal_overtime_decrease_scale')|1]#!\nEn fazla #P [SCOPE.ScriptValue('marshal_overtime_decrease_max')]#! olmak üzere her ay #P %[SCOPE.ScriptValue('marshal_overtime_decrease_monthly_increase')]#! azalır\n$TAB$[councillor.Custom('GetCouncillorKurultaiMemberPossessive')] [martial_skill|E]: #P [SCOPE.ScriptValue('marshal_overtime_decrease_base')|2]#!"
-### TODO AGOT-CHANGED: task_manage_guards_consulted_house_bonus_scheme [AGOT: \n$TAB$$unity_consulted_house_member_desc$: #P -[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]%#! | TR: \n$TAB$$unity_consulted_house_member_desc$: #P -%[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]#!]
- task_manage_guards_consulted_house_bonus_scheme: "\n$TAB$$unity_consulted_house_member_desc$: #P -[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]%#!"
+ task_manage_guards_consulted_house_bonus_scheme: "\n$TAB$$unity_consulted_house_member_desc$: #P -%[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]#!"
  SCALED_COUNCILLOR_MARTIAL_VALUE:2 "[councillor.GetCouncilTitle] [councillor.GetShortUIName] adlı kişinin [martial_skill|E]"
  INCREASE_CONTROL_BASE:0 "Temel"
  INCREASE_CONTROL_PERK_BONUS_VALUE:1 "$strict_organization_perk_name$"
@@ -26,12 +26,10 @@
  task_support_schemes_effect_desc:0 "[councillor.GetModifierDescForTask('task_support_schemes')]"
  task_support_schemes_base_desc:3 "[hostile_scheme|E] [scheme_speed_single|E]: @scheme_phase_duration_icon!#P [SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|0]#!\n$TAB$[intrigue_i] [Concept( 'councillor', 'Konsey Üyesinin' )|E] [Concept( 'intrigue', 'Entrikası' )|E]: #P [SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|0] gün#!"
  task_support_schemes_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P [SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
-### TODO AGOT-CHANGED: task_support_schemes_consulted_house_bonus_desc [AGOT: \n$TAB$$unity_consulted_house_member_desc$: #P [SCOPE.ScriptValue('spymaster_espionage_consulted_house_bonus')|P]%#! | TR: \n$TAB$$unity_consulted_house_member_desc$: #P [SCOPE.ScriptValue('spymaster_espionage_consulted_house_bonus')|P]#!]
- task_support_schemes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P [SCOPE.ScriptValue('spymaster_espionage_consulted_house_bonus')|P]%#!"
+ task_support_schemes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P [SCOPE.ScriptValue('spymaster_espionage_consulted_house_bonus')|P]#!"
  task_support_schemes_success_chance_base_desc:2 "\n[hostile_scheme|E] [success_chance|E]: @scheme_success_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1%/]#!\n$TAB$Temel: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1%/]#!\n$TAB$[intrigue_i] [Concept( 'councillor', 'Konsey Üyesinin' )|E] [Concept( 'intrigue', 'Entrikası' )|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1%/]#!"
  task_support_schemes_success_chance_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_legacy_bonus')|P1]#!"
-### TODO AGOT-CHANGED: task_support_schemes_success_chance_consulted_house_bonus_desc [AGOT: \n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_consulted_house_bonus')|P]%#! | TR: \n$TAB$$unity_consulted_house_member_desc$: #P +%[SCOPE.ScriptValue('spymaster_espionage_success_chance_consulted_house_bonus')|P]#!]
- task_support_schemes_success_chance_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_consulted_house_bonus')|P]%#!"
+ task_support_schemes_success_chance_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P +%[SCOPE.ScriptValue('spymaster_espionage_success_chance_consulted_house_bonus')|P]#!"
  task_support_schemes_learn_secret:0 "\n$EFFECT_LIST_BULLET$#P Sır Açığa Çıkarılması#!"
  SCALED_COUNCILLOR_INTRIGUE_VALUE:2 "[councillor.GetCouncilTitle] [councillor.GetShortUINamePossessive] Entrika Becerisi"
  SPYMASTER_PROGRESS_BASE:0 "Temel"
@@ -40,8 +38,7 @@
  task_collect_taxes:0 "Vergi Toplama"
  task_collect_taxes_effect_desc:3 "[domain|E] Vergileri: [gold_i]#P +%[SCOPE.ScriptValue('steward_collect_taxes_scale_tooltip_total')]#!\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUIName] [stewardship_skill|E]: #P +%[SCOPE.ScriptValue('steward_collect_taxes_scale_base')|1]#!"
  task_collect_taxes_tax_man_bonus_desc:2 "\n$TAB$[GetPerk('tax_man_perk').GetName(GetPlayer)]: #P +%[SCOPE.ScriptValue('steward_collect_taxes_perk_bonus_scale')|2]#!"
-### TODO AGOT-CHANGED: task_collect_taxes_consulted_house_bonus_desc [AGOT: \n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('steward_collect_taxes_consulted_house_bonus_scale')|P]%#! | TR: \n$TAB$$unity_consulted_house_member_desc$: #P +%[SCOPE.ScriptValue('steward_collect_taxes_consulted_house_bonus_scale')|P]#!]
- task_collect_taxes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P +[SCOPE.ScriptValue('steward_collect_taxes_consulted_house_bonus_scale')|P]%#!"
+ task_collect_taxes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P +%[SCOPE.ScriptValue('steward_collect_taxes_consulted_house_bonus_scale')|P]#!"
  task_collect_taxes_extra_taxes:0 "\n$EFFECT_LIST_BULLET$#P Fazladan Vergi#!"
  task_develop_county:0 "Kontlukta Gelişmişlik Arttırma"
  task_develop_county_VALUE_NAME:0 "[development_growth|E]"
@@ -88,8 +85,7 @@
  FABRICATE_CLAIM_PERK_BONUS_VALUE:1 "[GetPerk('accomplished_forger_perk').GetName(GetPlayer)]"
  FABRICATE_CLAIM_DYNASTY_PERK_BONUS_VALUE:1 "[GetDynastyPerk('erudition_legacy_5').GetName]"
  FABRICATE_CLAIM_LANGUAGE_SCHOLARS_BONUS:0 "Bilinen [language|E] Sayısı"
-### TODO AGOT-CHANGED: FABRICATE_CLAIM_ANY_STRUGGLE_BONUS [AGOT: Ongoing [struggle|E] | TR: Mevcut [struggle|E]]
- FABRICATE_CLAIM_ANY_STRUGGLE_BONUS: "Ongoing [struggle|E]"
+ FABRICATE_CLAIM_ANY_STRUGGLE_BONUS: "Mevcut [struggle|E]"
  COURT_CHAPLAIN_CONVERSION_FERVOR_IMPACT:1 "Şevk ([councillor.GetFaith.GetName] vs. [county.GetProvince.GetCounty.GetFaith.GetName])"
  COURT_CHAPLAIN_CONVERSION_UNREFORMED_FAITH_PENALTY:3 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName]"
  COURT_CHAPLAIN_CONVERSION_FUNDAMENTALIST_FAITH_BONUS:3 "[councillor.GetFaith.GetName] — [GetFaithDoctrine('doctrine_pluralism_fundamentalist').GetBaseName]"
@@ -109,8 +105,7 @@
  COURT_CHAPLAIN_CONVERSION_SYNCRETIC_WITH_RELIGION_MODIFIER:0 "Bir [faith|E] ile senkretize oldu"
  COURT_CHAPLAIN_CONVERSION_LOCAL_COUNTY_MODIFIERS:0 "Yerel [county|E] [Concept( 'modifiers', 'Etkileri' )|E]"
  COURT_CHAPLAIN_CONVERSION_LIEGE_IS_DEFIANT_HIGH_MONARCH:0 "[liege|E], Cüretkâr Yüce Hükümdar"
-### TODO AGOT-CHANGED: COUNCILLOR_LIEGE_MODIFIERS_BONUS [AGOT: Councillor's [liege|E] [modifiers|E] | TR: Konsey Üyesinin [liege|E] [Concept( 'modifiers', 'Etkileri' )|E]]
- COUNCILLOR_LIEGE_MODIFIERS_BONUS: "Councillor's [liege|E] [modifiers|E]"
+ COUNCILLOR_LIEGE_MODIFIERS_BONUS: "Konsey Üyesinin [liege|E] [Concept( 'modifiers', 'Etkileri' )|E]"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_JERUSALEM:1 "Kutsal Bölge - Kudüs"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_KERALA:1 "Kutsal Bölge — Kerala"
  COURT_CHAPLAIN_CONVERSION_HOLY_SITE_IONA:1 "Kutsal Bölge — Iona"
@@ -130,8 +125,7 @@
  task_patronage_effect_desc:0 "[councillor.GetShortUINameNoTooltip] kültürel, dinî ve eğitim meselelerine odaklanır\n\nSize sağladığı katkı:\n[councillor.GetModifierDescForTask('task_patronage')]"
  COUNCIL_TASK_NOT_IN_DOMAIN:0 "[Concept( 'domain', 'Mülkünüze' )|E] dâhil değil"
  COUNCIL_TASK_NOT_IN_REALM:0 "[Concept( 'realm', 'Ülkenize' )|E] dâhil değil"
-### TODO AGOT-CHANGED: SCHEME_NOT_IN_REALM [AGOT: Not part of your [realm|E]: $VALUE|0$ | TR: [Concept( 'realm', 'Ülkenize' )|E] dâhil değil: $VALUE|0$]
- SCHEME_NOT_IN_REALM: "Not part of your [realm|E]: $VALUE|0$"
+ SCHEME_NOT_IN_REALM: "[Concept( 'realm', 'Ülkenize' )|E] dâhil değil: $VALUE|0$"
  COUNCIL_TASK_NOT_BORDERING_REALM:0 "[Concept( 'realm', 'Ülkenize' )|E] sınır değil"
  COUNCILLOR_LIEGE_IS_INDEPENDENT:0 "Bağımsız [ruler|E]"
  task_accept_culture:0 "Kültürel Kabullenmeyi Yükseltme"
@@ -140,7 +134,6 @@
  task_accept_culture_base_value_desc:0 "\n$TAB$[councillor.GetCouncilTitle] [councillor.GetShortUIName]: #P [SCOPE.ScriptValue('task_accept_culture_total_base_value')|+=2]#!"
  task_accept_culture_court_type_desc:0 "\n$TAB$$court_administrative$: #P [SCOPE.ScriptValue('steward_accept_culture_court_type_bonus')|+=2]#!"
  task_accept_culture_same_culture_desc:0 "\n$TAB$Konsey Üyesinin Kültürü: #P [SCOPE.ScriptValue('steward_accept_culture_yearly_increase_same_culture_bonus')|+=2]#!"
-### TODO AGOT-CHANGED: task_accept_culture_consulted_house_bonus_desc [AGOT: \n$TAB$$unity_consulted_house_member_desc$: #P +#![SCOPE.ScriptValue('steward_accept_culture_family_business_bonus_yearly_increase')|P] | TR: \n$TAB$$unity_consulted_house_member_desc$: #P +#![SCOPE.ScriptValue('steward_accept_culture_family_business_bonus_yearly_increase')|P]]
  task_accept_culture_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P +#![SCOPE.ScriptValue('steward_accept_culture_family_business_bonus_yearly_increase')|P]"
  task_accept_culture_customs_bonus_desc:0 "\n$TAB$[GetDynastyPerk('ep1_culture_legacy_2').GetName]: #P +[SCOPE.ScriptValue('steward_accept_culture_customs_bonus_yearly_increase')|2]#!"
  task_accept_culture_other_desc:0 "\nFarklı faktörler toplam kabullenme kazanımını etkileyebilir"

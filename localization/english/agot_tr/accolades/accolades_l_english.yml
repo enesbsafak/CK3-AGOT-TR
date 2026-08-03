@@ -3,8 +3,7 @@
  ACCOLADE:0 "Mükâfat"
  ACCOLADES:0 "Mükâfatlar"
  CREATE_ACCOLADE:0 "Mükâfat Oluştur"
-### TODO AGOT-CHANGED: CREATE_ACCOLADE_TYPES [AGOT: Available [accolade_types|E]: | TR: Uygun [accolade_types|E]:]
- CREATE_ACCOLADE_TYPES: "Available [accolade_types|E]:"
+ CREATE_ACCOLADE_TYPES: "Uygun [accolade_types|E]:"
  CREATE_ACCOLADE_CONFIRM:0 "Bu onursal unvanı vermek [acclaimed_knight_possessive|E] #high size karşı#! [Concept( 'opinion', 'Görüşünü' )|E] arttırır.\n\nMaliyeti: #high $COST$#!"
  CREATE_ACCOLADE_CONFIRM_ACCEPT:0 "$CREATE_ACCOLADE$"
  CREATE_ACCOLADE_COST:0 "#T $CREATE_ACCOLADE$#!\nŞövalyenizin [accolade_types|e] size olumlu etkiler vermeye başlayacak, bu etkiler [glory|E] kazanıldıkça artar.\n\nMaliyeti: #high $COST$#!"
@@ -20,31 +19,29 @@
  ACCOLADE_ARMY_MODIFIERS:0 "#S Ordu Etkileri:#!"
  ACCOLADE_GLORY:0 "[glory|E]"
  ACCOLADE_GLORY_TOOLTIP:1 "[glory|E]\nMevcut: [Accolade.GetGlory|0]\nBir Sonraki [accolade_rank_short|e]: [Accolade.GetGloryForNextUnlock|0]"
-### TODO AGOT-CHANGED: ACCOLADES_LIMIT [AGOT: Accolades: #V [Character.GetNumAccolades]/[Character.GetNumAccoladeSlots]#! | TR: 1]
- ACCOLADES_LIMIT: "Accolades: #V [Character.GetNumAccolades]/[Character.GetNumAccoladeSlots]#!"
-### TODO AGOT-CHANGED: ACCOLADES_LIMIT_TT [AGOT: #T Accolade Limit: [Character.GetNumAccoladeSlots]#!\n[Character.GetNumAccoladeSlotsBreakdown] | TR: #T Mükâfat Limiti: [Character.GetNumAccoladeSlots]#!\n[Character.GetNumAccoladeSlotsBreakdown]]
- ACCOLADES_LIMIT_TT: "#T Accolade Limit: [Character.GetNumAccoladeSlots]#!\n[Character.GetNumAccoladeSlotsBreakdown]"
+ ACCOLADES_LIMIT:1 "Mükâfatlar: #V [Character.GetNumAccolades]/[Character.GetNumAccoladeSlots]#!"
+ ACCOLADES_LIMIT_TT: "#T Mükâfat Limiti: [Character.GetNumAccoladeSlots]#!\n[Character.GetNumAccoladeSlotsBreakdown]"
  ACCOLADE_SHOW:1 "[Concept( 'accolade', 'Mükâfatları' )|E] Göster"
  ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Bu karakter hâlihazırda $TYPE$ niteliğinde etkin bir [Concept( 'accolade', 'Mükâfata' )|E] sahip."
  ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip], [accolade_type|E] koşullarını karşılamıyor"
- ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye"
+### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_ACCLAIMED [AGOT: [Character.GetNameNoTooltip] is already an Acclaimed Captain | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye]
+ ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] is already an Acclaimed Captain"
  ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] hâlihazırda bir [Concept( 'accolade', 'Mükâfatın' )|E] mirasçısı"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bir Mükâfatın Mirasçısı"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bu Mükâfatın Mirasçısı"
+### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR [AGOT: [Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of an Accolade | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bir Mükâfatın Mirasçısı]
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of an Accolade"
+### TODO AGOT-CHANGED: ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS [AGOT: [Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of this Accolade | TR: [Character.GetNameNoTooltip] hâlihazırda Tanınmış bir Şövalye veya bu Mükâfatın Mirasçısı]
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] is already the Acclaimed Captain or Successor of this Accolade"
  ACCOLADE_SUCCESSOR:0 "Mirasçı"
  ACCOLADE_SUCCESSOR_NAME:0 "Mirasçı: [Accolade.GetSuccessor.GetUIName]"
-### TODO AGOT-CHANGED: ACCOLADE_OBTAINED_TYPES_NAME [AGOT: Obtained [accolade_types|E]: | TR: Elde Edilen [accolade_types|E]:]
- ACCOLADE_OBTAINED_TYPES_NAME: "Obtained [accolade_types|E]:"
+ ACCOLADE_OBTAINED_TYPES_NAME: "Elde Edilen [accolade_types|E]:"
  ACCOLADE_OBTAINED_TYPES_TYPE_NAME: "[ObtainedAccoladeType.GetType.GetName]"
  ACCOLADE_ACCLAIMED_KNIGHT:0 "Tanınmış $knight_culture_player_no_tooltip$"
  ACCOLADE_ACCLAIMED_KNIGHT_NAME:0 "Tanınmış $knight_culture_player_no_tooltip$: [Accolade.GetAcclaimedKnight.GetUIName]"
  ACCOLADE_GLORY_AND_LEVEL:0 "[accolade_rank_short|e] [Accolade.GetCurrentRankNumber], [glory|E]: [Accolade.GetGlory|0]"
  CURRENT_ACCOLADE_GLORY_AND_LEVEL:0 "Mevcut $ACCOLADE_GLORY_AND_LEVEL$"
-### TODO AGOT-CHANGED: ACCOLADE_UNSPENT_POINTS [AGOT: Unspent [accolade_types|E]: [SelectLocalization(LessThan_int32( Accolade.GetAvailableLevelUpPoints, '(int32)0' ), '0', 'ACCOLADE_AVAILABLE_POINTS')] | TR: Harcanmamış [accolade_types|E]: [SelectLocalization(LessThan_int32( Accolade.GetAvailableLevelUpPoints, '(int32)0' ), '0', 'ACCOLADE_AVAILABLE_POINTS')]]
- ACCOLADE_UNSPENT_POINTS: "Unspent [accolade_types|E]: [SelectLocalization(LessThan_int32( Accolade.GetAvailableLevelUpPoints, '(int32)0' ), '0', 'ACCOLADE_AVAILABLE_POINTS')]"
+ ACCOLADE_UNSPENT_POINTS: "Harcanmamış [accolade_types|E]: [SelectLocalization(LessThan_int32( Accolade.GetAvailableLevelUpPoints, '(int32)0' ), '0', 'ACCOLADE_AVAILABLE_POINTS')]"
  ACCOLADE_AVAILABLE_POINTS: "[Accolade.GetAvailableLevelUpPoints|V]"
-### TODO AGOT-CHANGED: ACCOLADE_MAX_POINTS [AGOT: Reached Max [accolade_ranks|E] | TR: Maksimum [Concept('accolade_ranks', 'Mükâfet Kademesine')|E] Erişildi]
- ACCOLADE_MAX_POINTS: "Reached Max [accolade_ranks|E]"
+ ACCOLADE_MAX_POINTS: "Maksimum [Concept('accolade_ranks', 'Mükâfet Kademesine')|E] Erişildi"
  ACCOLADE_CHANGE_SUCCESSOR:0 "Mükâfat Mirasçısını Değiştir"
  CHANGE_ACCLAIMED_KNIGHT:0 "$ACCOLADE_ACCLAIMED_KNIGHT$ Değiştir"
  DESTROY_ACCOLADE:0 "Yok Et"
@@ -52,12 +49,10 @@
  DESTROY_ACCOLADE_CONFIRM_ACCEPT:0 "$DESTROY_ACCOLADE$"
  ACCOLADE_APPOINT:0 "Ata"
  ACCOLADE_TYPE: "[accolade_type|E]"
-### TODO AGOT-CHANGED: ACCOLADE_ACTIVE_EFFECTS_TITLE [AGOT: #TS Active Effects:#! | TR: #TS Aktif Etkiler:#!]
- ACCOLADE_ACTIVE_EFFECTS_TITLE: "#TS Active Effects:#!"
+ ACCOLADE_ACTIVE_EFFECTS_TITLE: "#TS Aktif Etkiler:#!"
  ACCOLADE_SUCCESSOR_REQUIREMENTS:0 "Mirasçı Şartları"
  LOCKED_ACCOLADE_SLOT:1 "#T Unavailable Accolade #!\n$LOCKED_ACCOLADE_SLOT_INFO$"
-### TODO AGOT-CHANGED: LOCKED_ACCOLADE_SLOT_INFO [AGOT: Unlocked via Military [innovations|E] (#V $innovation_bannus$#! and #V $innovation_knighthood$#!), [GetDynastyPerk('glory_legacy_2').GetName] [dynasty_perk|E] and higher [title_tiers|E] | TR: Askerî [innovations|E] (#V $innovation_bannus$#! ve #V $innovation_knighthood$#!), [GetDynastyPerk('glory_legacy_2').GetName] [dynasty_perk|E] ve daha yüksek [Concept('title_tiers', 'Unvan Seviyeleri')|E] ile açılır]
- LOCKED_ACCOLADE_SLOT_INFO: "Unlocked via Military [innovations|E] (#V $innovation_bannus$#! and #V $innovation_knighthood$#!), [GetDynastyPerk('glory_legacy_2').GetName] [dynasty_perk|E] and higher [title_tiers|E]"
+ LOCKED_ACCOLADE_SLOT_INFO: "Askerî [innovations|E] (#V $innovation_bannus$#! ve #V $innovation_knighthood$#!), [GetDynastyPerk('glory_legacy_2').GetName] [dynasty_perk|E] ve daha yüksek [Concept('title_tiers', 'Unvan Seviyeleri')|E] ile açılır"
  ACCOLADE_SET_ACCLAIMED_KNIGHT:0 "[Character.GetShortUINameNoTooltip], [Accolade.GetNameNoTooltip] ile mükâfatlandırılarak [acclaimed_knight|E] hâline gelecek\nBu eylem bir miktar [glory|e] gerektirecek"
  ACCOLADE_SET_ACCLAIMED_KNIGHT_ONLY_PRIMARY:1 "[Character.GetShortUINameNoTooltip], [Accolade.GetNameNoTooltip] ile mükâfatlandırılarak [acclaimed_knight|E] hâline gelecek\nSadece birincil [Concept( 'accolade_type', 'Mükâfat Niteliğinin' )|E] koşulları karşılandığı için ikincil [accolade_type|E] değişebilir ve bu eylem normalden fazla [glory|e] gerektirir "
  ACCOLADE_CANNOT_SET_ACCLAIMED_KNIGHT:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] [Accolade.GetNameNoTooltip] Mükâfatının birincil [accolade_type|E] şartlarını sağlamıyor#!"
@@ -71,25 +66,22 @@
  ACCOLADE_CHANGE_INITIAL_TYPE:0 "$ACCOLADE_TYPE$ Değiştir"
  CREATE_ACCOLADE_CANNOT_CHANGE_TYPES:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip], seçilen hariç diğer hiçbir [Concept( 'accolade_type', 'Mükâfat Niteliğinin' )|E] gereksinimlerini karşılamıyor #!"
  ACCOLADE_LIEGE_MODIFIERS:0 "#S Süzeren Etkileri:#!"
- ACCOLADE_KNIGHT_MODIFIERS:0 "#S Şövalye Etkileri:#!"
+### TODO AGOT-CHANGED: ACCOLADE_KNIGHT_MODIFIERS [AGOT: #S Captain Modifiers:#! | TR: #S Şövalye Etkileri:#!]
+ ACCOLADE_KNIGHT_MODIFIERS:0 "#S Captain Modifiers:#!"
  ACCOLADE_KNIGHT_ARMY_MODIFIERS:1 "#S [knight_army_modifiers|e]:#!"
  ACCOLADE_UNLOCKS:0 "#S Açar:#!"
  CREATE_ACCOLADE_NO_ACCLAIMED_KNIGHTS:0 "@warning_icon! #X [acclaimed_knight|E] hâline getirilebilecek bir $knight_culture_player_no_tooltip$ sahibi değilsiniz #!"
  OBTAINED_ACCOLADE_TYPE_TT:0 "Aktif [accolade_rank_short|E] [ObtainedAccoladeType.GetLevel] Etkileri:\n$TAB$#indent_newline:4 [Accolade.BuildActiveEffectsForType( ObtainedAccoladeType.Self )]"
-### TODO AGOT-CHANGED: UPGRADE_ACCOLADE_TYPE_TT [AGOT: $UPGRADE_ACCOLADE_TYPE$\n\n#I Click to upgrade [ObtainedAccoladeType.GetType.GetNameWithAccolade( Accolade.Self )] to the next [accolade_rank_short|E]#! | TR: $UPGRADE_ACCOLADE_TYPE$\n\n#I [ObtainedAccoladeType.GetType.GetNameWithAccolade( Accolade.Self )] mükâfatını bir sonraki [Concept('accolade_rank_short', 'Kademeye')|E] yükseltmek için tıklayın#!]
- UPGRADE_ACCOLADE_TYPE_TT: "$UPGRADE_ACCOLADE_TYPE$\n\n#I Click to upgrade [ObtainedAccoladeType.GetType.GetNameWithAccolade( Accolade.Self )] to the next [accolade_rank_short|E]#!"
-### TODO AGOT-CHANGED: UPGRADE_ACCOLADE_TYPE [AGOT: Next [accolade_rank|E] [Add_int32( ObtainedAccoladeType.GetLevel, '(int32)1' )] Effects:\n$TAB$#indent_newline:4 [Accolade.BuildNextRankEffectsForType( ObtainedAccoladeType.Self )]#! | TR: Bir Sonraki [accolade_rank|E] [Add_int32( ObtainedAccoladeType.GetLevel, '(int32)1' )] Etkileri:\n$TAB$#indent_newline:4 [Accolade.BuildNextRankEffectsForType( ObtainedAccoladeType.Self )]#!]
- UPGRADE_ACCOLADE_TYPE: "Next [accolade_rank|E] [Add_int32( ObtainedAccoladeType.GetLevel, '(int32)1' )] Effects:\n$TAB$#indent_newline:4 [Accolade.BuildNextRankEffectsForType( ObtainedAccoladeType.Self )]#!"
+ UPGRADE_ACCOLADE_TYPE_TT: "$UPGRADE_ACCOLADE_TYPE$\n\n#I [ObtainedAccoladeType.GetType.GetNameWithAccolade( Accolade.Self )] mükâfatını bir sonraki [Concept('accolade_rank_short', 'Kademeye')|E] yükseltmek için tıklayın#!"
+ UPGRADE_ACCOLADE_TYPE: "Bir Sonraki [accolade_rank|E] [Add_int32( ObtainedAccoladeType.GetLevel, '(int32)1' )] Etkileri:\n$TAB$#indent_newline:4 [Accolade.BuildNextRankEffectsForType( ObtainedAccoladeType.Self )]#!"
  ACCOLADE_TYPE_TT:0 "[AddLocalizationIf( Not( StringIsEmpty( AccoladeType.GetKnightValidForAccoladeTypeDesc(Accolade.Self) ) ), 'ACCOLADE_TYPE_TRIGGERS' ) ][AccoladeType.BuildEffects]"
  ACCOLADE_TYPE_TRIGGERS: "[AccoladeType.GetKnightValidForAccoladeTypeDesc(Accolade.Self)]\n\n"
  ACCOLADE_TYPE_DISABLED:0 "[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )]\n$ACCOLADE_TYPE_TT$"
-### TODO AGOT-CHANGED: ACCOLADE_TYPE_DISABLED_NO_POINTS [AGOT: @warning_icon! #X This [acclaimed_knight|E] has 0 unspent [accolade_types|E]#!\n\n | TR: @warning_icon! #X Bu [acclaimed_knight|E] kullanılmamış 0 [accolade_types|E] sahibi#!\n\n]
- ACCOLADE_TYPE_DISABLED_NO_POINTS: "@warning_icon! #X This [acclaimed_knight|E] has 0 unspent [accolade_types|E]#!\n\n"
+ ACCOLADE_TYPE_DISABLED_NO_POINTS: "@warning_icon! #X Bu [acclaimed_knight|E] kullanılmamış 0 [accolade_types|E] sahibi#!\n\n"
  ACCOLADE_RANK_HEADER_AND_EFFECTS_TT:0 "#T [AccoladeType.GetLevelAndGloryOfRank( AccoladeRank.Self )]#!\n[AccoladeRank.GetEffects]"
  CANNOT_FORBID_ACCLAIMED_KNIGHT:0 "@warning_icon! #X [Concept( 'acclaimed_knight', 'Tanınmış Şövalyenin' )|E] $knight_culture_player_no_tooltip$ olarak hizmet vermesini yasaklayamazsınız#!"
  MANAGE_ACCOLADE_NAME:0 "#T [Accolade.GetName]#!\n#I [accolade|E] detaylarını görüntülemek için tıklayın#!"
-### TODO AGOT-CHANGED: MANAGE_ACCOLADE_UPGRADE [AGOT: #T [Accolade.GetName]#!\nThis [acclaimed_knight|E] has $ACCOLADE_UNSPENT_POINTS|l$\n#I Click to show [accolade|E] details#! | TR: #T [Accolade.GetName]#!\nBu [acclaimed_knight|E] $ACCOLADE_UNSPENT_POINTS|l$ sahibi\n#I [accolade|E] detaylarını görüntülemek için tıklayın#!]
- MANAGE_ACCOLADE_UPGRADE: "#T [Accolade.GetName]#!\nThis [acclaimed_knight|E] has $ACCOLADE_UNSPENT_POINTS|l$\n#I Click to show [accolade|E] details#!"
+ MANAGE_ACCOLADE_UPGRADE: "#T [Accolade.GetName]#!\nBu [acclaimed_knight|E] $ACCOLADE_UNSPENT_POINTS|l$ sahibi\n#I [accolade|E] detaylarını görüntülemek için tıklayın#!"
  ACCOLADE_CLEAR_SUCCESSOR:0 "Mirasçıyı Kaldır"
  ACCOLADE_TYPE_REQUIREMENTS:0 "#S Nitelik Koşulları#!"
  OPINION_ACTIVE_ACCLAIMED_KNIGHT:0 "Aktif [acclaimed_knight|E]"
@@ -100,44 +92,28 @@
  ACCLAIMED_KNIGHTS_IN_ARMY:0 "Ordudaki [acclaimed_knights|E]"
  ACCOLADE_HISTORY:0 "Mükâfat Geçmişi"
  SHOW_ACCOLADE_HISTORY:0 "#T $ACCOLADE_HISTORY$#!\n#I [Accolade.GetName] Mükâfatının geçmişteki [Concept('acclaimed_knights', 'Tanınmış Şövalyelerini')|E] görmek için tıklayın#!"
-### TODO AGOT-CHANGED: RETIRE_ACCOLADE [AGOT: Retire Accolade | TR: Mükâfatı Yok Et]
- RETIRE_ACCOLADE: "Retire Accolade"
-### TODO AGOT-CHANGED: RETIRE_ACCOLADE_TT [AGOT: #T $RETIRE_ACCOLADE$#!\n#I Click to destroy [Accolade.GetName] [accolade|E]#! | TR: #T $RETIRE_ACCOLADE$#!\n#I [Accolade.GetName] [Concept('accolade', 'Mükâfatını')|E] yok etmek için tıklayın#!]
- RETIRE_ACCOLADE_TT: "#T $RETIRE_ACCOLADE$#!\n#I Click to destroy [Accolade.GetName] [accolade|E]#!"
-### TODO AGOT-CHANGED: RETIRE_ACCOLADE_CONFIRM_TEXT [AGOT: Are you sure you want to retire [Accolade.GetName]? | TR: [Accolade.GetName] mükâfatını yok etmek istediğinizden emin misiniz?]
- RETIRE_ACCOLADE_CONFIRM_TEXT: "Are you sure you want to retire [Accolade.GetName]?"
+ RETIRE_ACCOLADE: "Mükâfatı Yok Et"
+ RETIRE_ACCOLADE_TT: "#T $RETIRE_ACCOLADE$#!\n#I [Accolade.GetName] [Concept('accolade', 'Mükâfatını')|E] yok etmek için tıklayın#!"
+ RETIRE_ACCOLADE_CONFIRM_TEXT: "[Accolade.GetName] mükâfatını yok etmek istediğinizden emin misiniz?"
  ACCOLADE_HISTORY_ENTRY_DATE:0 "[AccoladeHistoryEntry.GetAcclaimedDate.GetString] Tarihinde [acclaimed_knight|E] olundu"
-### TODO AGOT-CHANGED: ACCOLADE_NO_SUCCESSOR_FOUND [AGOT: No suitable successor found in your court. | TR: Sarayınızda uygun mirasçı yok.]
- ACCOLADE_NO_SUCCESSOR_FOUND: "No suitable successor found in your court."
+ ACCOLADE_NO_SUCCESSOR_FOUND: "Sarayınızda uygun mirasçı yok."
  ACCOLADE_SUCCESSOR_REQUIREMENT_HEADER: "[accolade_type|E]: [ACCOLADE.GetPrimaryType.GetName]"
  ACCOLADE_SQUIRE_STATUS: "[accolade_squires|E]: [AccoladeView.GetAccoladeSquireQuality]"
-### TODO AGOT-CHANGED: ACCOLADE_ADD_NEW_TYPE_TT [AGOT: Add new [accolade_type|e]\n\n[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )]#I Click to open $game_concept_accolade_types$ list#! | TR: Yeni [accolade_type|e] Ekle\n\n[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )]#I $game_concept_accolade_types$ listesini açmak için tıklayın#!]
- ACCOLADE_ADD_NEW_TYPE_TT: "Add new [accolade_type|e]\n\n[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )]#I Click to open $game_concept_accolade_types$ list#!"
-### TODO AGOT-CHANGED: ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM [AGOT: Add Attribute | TR: Nitelik Ekle]
- ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM: "Add Attribute"
-### TODO AGOT-CHANGED: ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM_TT [AGOT: #T Add Selected Attribute#! | TR: #T Seçili Nitelikleri Ekle#!]
- ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM_TT: "#T Add Selected Attribute#!"
+ ACCOLADE_ADD_NEW_TYPE_TT: "Yeni [accolade_type|e] Ekle\n\n[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )]#I $game_concept_accolade_types$ listesini açmak için tıklayın#!"
+ ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM: "Nitelik Ekle"
+ ACCOLADE_ATTRIBUTE_SELECTION_CONFIRM_TT: "#T Seçili Nitelikleri Ekle#!"
  ACCOLADE_ATTRIBUTE_SELECTION_DISABLED_TT: "[AddLocalizationIf( LessThan_int32(Accolade.GetAvailableLevelUpPoints, '(int32)1' ), 'ACCOLADE_TYPE_DISABLED_NO_POINTS' )][AccoladeType.GetKnightValidForAccoladeTypeDesc(Accolade.Self)]"
-### TODO AGOT-CHANGED: ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TITLE [AGOT: Add Attribute | TR: Nitelik Ekle]
- ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TITLE: "Add Attribute"
-### TODO AGOT-CHANGED: ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TEXT [AGOT: [ACCOLADE.GetName] gains the [AccoladeType.GetName] attribute | TR: [ACCOLADE.GetName], [AccoladeType.GetName] niteliğini kazanacak]
- ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TEXT: "[ACCOLADE.GetName] gains the [AccoladeType.GetName] attribute"
-### TODO AGOT-CHANGED: ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_ACCEPT [AGOT: Confirm | TR: Onayla]
- ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_ACCEPT: "Confirm"
-### TODO AGOT-CHANGED: RENAME_ACCOLADE [AGOT: #T Customize Accolade Name#!\n#I Click to rename the Accolade#! | TR: #T Mükâfat Adını Özelleştir#!\n#I Mükâfatı yeniden adlandırmak için tıklayın#!]
- RENAME_ACCOLADE: "#T Customize Accolade Name#!\n#I Click to rename the Accolade#!"
+ ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TITLE: "Nitelik Ekle"
+ ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TEXT: "[ACCOLADE.GetName], [AccoladeType.GetName] niteliğini kazanacak"
+ ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_ACCEPT: "Onayla"
+ RENAME_ACCOLADE: "#T Mükâfat Adını Özelleştir#!\n#I Mükâfatı yeniden adlandırmak için tıklayın#!"
 ### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME [AGOT: #T Recruits' Aptitude:#! | TR: #T Yaver Yatkınlığı:#!]
  ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME: "#T Recruits' Aptitude:#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_0 [AGOT: #N @aptitude:1:inherit_color!Pathetic#! | TR: #N @aptitude:1:inherit_color!Acınası#!]
- ACCOLADE_SQUIRE_QUALITY_0: "#N @aptitude:1:inherit_color!Pathetic#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_1 [AGOT: #N @aptitude:2:inherit_color!Feckless#! | TR: #N @aptitude:2:inherit_color!Beceriksiz#!]
- ACCOLADE_SQUIRE_QUALITY_1: "#N @aptitude:2:inherit_color!Feckless#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_2 [AGOT: #color_yellow @aptitude:3:inherit_color!Inexperienced#! | TR: #color_yellow @aptitude:3:inherit_color!Tecrübesiz#!]
- ACCOLADE_SQUIRE_QUALITY_2: "#color_yellow @aptitude:3:inherit_color!Inexperienced#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_3 [AGOT: #P @aptitude:4:inherit_color!Capable#! | TR: #P @aptitude:4:inherit_color!Kabiliyetli#!]
- ACCOLADE_SQUIRE_QUALITY_3: "#P @aptitude:4:inherit_color!Capable#!"
-### TODO AGOT-CHANGED: ACCOLADE_SQUIRE_QUALITY_4 [AGOT: #P @aptitude:5:inherit_color!Accomplished#! | TR: #P @aptitude:5:inherit_color!Yetkin#!]
- ACCOLADE_SQUIRE_QUALITY_4: "#P @aptitude:5:inherit_color!Accomplished#!"
+ ACCOLADE_SQUIRE_QUALITY_0: "#N @aptitude:1:inherit_color!Acınası#!"
+ ACCOLADE_SQUIRE_QUALITY_1: "#N @aptitude:2:inherit_color!Beceriksiz#!"
+ ACCOLADE_SQUIRE_QUALITY_2: "#color_yellow @aptitude:3:inherit_color!Tecrübesiz#!"
+ ACCOLADE_SQUIRE_QUALITY_3: "#P @aptitude:4:inherit_color!Kabiliyetli#!"
+ ACCOLADE_SQUIRE_QUALITY_4: "#P @aptitude:5:inherit_color!Yetkin#!"
  ACCOLADE_UNSUNG:0 "İsimsiz"
  ACCOLADE_ESTABLISHED:0 "Duyulan"
  ACCOLADE_RECOGNIZED:0 "Bilinen"
@@ -310,29 +286,16 @@
  accolade_arm:0 "Kol"
  accolade_hand:0 "El"
  accolade_dame:0 "Hanım"
-### TODO AGOT-CHANGED: SQUIRES_BASE_VALUE [AGOT: Base Aptitude | TR: Temel Yatkınlık]
-SQUIRES_BASE_VALUE: "Base Aptitude"
-### TODO AGOT-CHANGED: SQUIRES_GLORY_VALUE [AGOT: [glory|E] gained by the [acclaimed_knight|E] | TR: [acclaimed_knight|E] tarafından kazanılan [glory|E]]
-SQUIRES_GLORY_VALUE: "[glory|E] gained by the [acclaimed_knight|E]"
-### TODO AGOT-CHANGED: SQUIRES_OWNER_MARTIAL_VALUE [AGOT: [liege|E]'s [martial|E] | TR: [Concept('liege', 'Süzerenin')|E] [Concept('martial', 'Askeriye Becerisi')|E]]
-SQUIRES_OWNER_MARTIAL_VALUE: "[liege|E]'s [martial|E]"
-### TODO AGOT-CHANGED: SQUIRES_PROWESS_VALUE [AGOT: [acclaimed_knight_possessive|E] [prowess|E] | TR: [acclaimed_knight_possessive|E] [Concept('prowess', 'Dövüş Becerisi')|E]]
-SQUIRES_PROWESS_VALUE: "[acclaimed_knight_possessive|E] [prowess|E]"
-### TODO AGOT-CHANGED: SQUIRES_MARTIAL_VALUE [AGOT: [acclaimed_knight_possessive|E] [martial|E] | TR: [acclaimed_knight_possessive|E] [Concept('martial', 'Askeriye Becerisi')|E]]
-SQUIRES_MARTIAL_VALUE: "[acclaimed_knight_possessive|E] [martial|E]"
-### TODO AGOT-CHANGED: SQUIRES_BLADEMASTER_VALUE [AGOT: [acclaimed_knight_possessive|E] [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [trait|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [Concept('trait', 'Özelliği')|E]]
-SQUIRES_BLADEMASTER_VALUE: "[acclaimed_knight_possessive|E] [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [trait|E]"
-### TODO AGOT-CHANGED: SQUIRES_HASTILUDES_VALUE_BASE [AGOT: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] [Concept('trait', 'Özelliği')|E]]
-SQUIRES_HASTILUDES_VALUE_BASE: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait|E]"
-### TODO AGOT-CHANGED: SQUIRES_HASTILUDES_VALUE_FOOT [AGOT: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Foot [trait_level_track_xp|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Yayan [trait_level_track_xp|E]]
-SQUIRES_HASTILUDES_VALUE_FOOT: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Foot [trait_level_track_xp|E]"
-### TODO AGOT-CHANGED: SQUIRES_HASTILUDES_VALUE_HORSE [AGOT: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Horse [trait_level_track_xp|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Sürücülük [trait_level_track_xp|E]]
-SQUIRES_HASTILUDES_VALUE_HORSE: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Horse [trait_level_track_xp|E]"
-### TODO AGOT-CHANGED: SQUIRES_HASTILUDES_VALUE_WIT [AGOT: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Wit [trait_level_track_xp|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Zekâ [trait_level_track_xp|E]]
-SQUIRES_HASTILUDES_VALUE_WIT: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Wit [trait_level_track_xp|E]"
-### TODO AGOT-CHANGED: SQUIRES_HASTILUDES_VALUE_BOW [AGOT: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Bow [trait_level_track_xp|E] | TR: [acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Okçuluk [trait_level_track_xp|E]]
-SQUIRES_HASTILUDES_VALUE_BOW: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Bow [trait_level_track_xp|E]"
-### TODO AGOT-CHANGED: SQUIRES_OWN_CHILD [AGOT: [acclaimed_knight_possessive|E] child is a [accolade_squire|E] or [knight|E] | TR: [acclaimed_knight_possessive|E] çocuğu [accolade_squire|E] veya [knight|E]]
-SQUIRES_OWN_CHILD: "[acclaimed_knight_possessive|E] child is a [accolade_squire|E] or [knight|E]"
-### TODO AGOT-CHANGED: SQUIRES_RESPECTED_ELDER [AGOT: [acclaimed_knight_possessive|E] seniority | TR: [acclaimed_knight_possessive|E] kıdemi]
-SQUIRES_RESPECTED_ELDER: "[acclaimed_knight_possessive|E] seniority"
+ SQUIRES_BASE_VALUE: "Temel Yatkınlık"
+ SQUIRES_GLORY_VALUE: "[acclaimed_knight|E] tarafından kazanılan [glory|E]"
+ SQUIRES_OWNER_MARTIAL_VALUE: "[Concept('liege', 'Süzerenin')|E] [Concept('martial', 'Askeriye Becerisi')|E]"
+ SQUIRES_PROWESS_VALUE: "[acclaimed_knight_possessive|E] [Concept('prowess', 'Dövüş Becerisi')|E]"
+ SQUIRES_MARTIAL_VALUE: "[acclaimed_knight_possessive|E] [Concept('martial', 'Askeriye Becerisi')|E]"
+ SQUIRES_BLADEMASTER_VALUE: "[acclaimed_knight_possessive|E] [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] [Concept('trait', 'Özelliği')|E]"
+ SQUIRES_HASTILUDES_VALUE_BASE: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] [Concept('trait', 'Özelliği')|E]"
+ SQUIRES_HASTILUDES_VALUE_FOOT: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Yayan [trait_level_track_xp|E]"
+ SQUIRES_HASTILUDES_VALUE_HORSE: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Sürücülük [trait_level_track_xp|E]"
+ SQUIRES_HASTILUDES_VALUE_WIT: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Zekâ [trait_level_track_xp|E]"
+ SQUIRES_HASTILUDES_VALUE_BOW: "[acclaimed_knight_possessive|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] Okçuluk [trait_level_track_xp|E]"
+ SQUIRES_OWN_CHILD: "[acclaimed_knight_possessive|E] çocuğu [accolade_squire|E] veya [knight|E]"
+ SQUIRES_RESPECTED_ELDER: "[acclaimed_knight_possessive|E] kıdemi"

@@ -14,56 +14,68 @@
  DESTINATION_LAKE:0 "Göl"
  DESTINATION_RIVER:0 "Nehir"
  SIEGE_TOOLTIP_TITLE:1 "#T $PROVINCE$ toprağındaki istihkâm#!"
- SIEGE_TOOLTIP_OCUPIED:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetShortUIName )] [Select_CString( CHARACTER.IsLocalPlayer, 'tarafınızdan', 'tarafından' )] işgal ediliyor."
+### TODO AGOT-CHANGED: SIEGE_TOOLTIP_OCUPIED [AGOT: Occupied by [AGOTGetLongUIName(CHARACTER)]. | TR: [Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetShortUIName )] [Select_CString( CHARACTER.IsLocalPlayer, 'tarafınızdan', 'tarafından' )] işgal ediliyor.]
+ SIEGE_TOOLTIP_OCUPIED:0 "Occupied by [AGOTGetLongUIName(CHARACTER)]."
  SIEGE_TOOTLTIP_IMPACT:0 "Kale seviyesi etkisi:"
- CHARACTER_ACTIVITY_TOOLTIP:0 "[CHARACTER.GetUIName] bu etkinliğe katılıyor"
+### TODO AGOT-CHANGED: CHARACTER_ACTIVITY_TOOLTIP [AGOT: [AGOTGetLongUIName(CHARACTER)] attends this activity | TR: [CHARACTER.GetUIName] bu etkinliğe katılıyor]
+ CHARACTER_ACTIVITY_TOOLTIP:0 "[AGOTGetLongUIName(CHARACTER)] attends this activity"
  CHARACTER_AT_LOCATION:0 "Konum: [PROVINCE.GetName|V]"
- CHARACTER_AT_ACTIVITY:0 "[PROVINCE.GetName|V] toprağında [ACTIVITY.GetName|V] yapıyor" #ragn
+### TODO AGOT-CHANGED: CHARACTER_AT_ACTIVITY [AGOT: [Character.Custom('is_missing_location_activity_loc')] | TR: [PROVINCE.GetName|V] toprağında [ACTIVITY.GetName|V] yapıyor]
+ CHARACTER_AT_ACTIVITY:0 "[Character.Custom('is_missing_location_activity_loc')]"
  CHARACTER_AT_ARMY:0 "[PROVINCE.GetName|V] toprağında [army|E] komuta ediyor"
  CHARACTER_TRAVEL_TO_LOCATION:0 "[PROVINCE.GetName|V] toprağına seyahat ediyor"
- CHARACTER_IMPRISONED_AT:0 "[Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetUIName )] tarafın[Select_CString( CHARACTER.IsLocalPlayer, 'ız', '' )]dan [PROVINCE.GetName|V] toprağında tutsak tutuluyor"
- CHARACTER_AT_COURT_VISITING:1 "[PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ını ziyaret ediyor" #krutygetarts
- CHARACTER_AT_COURT:1 "[PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ında"
- CHARACTER_TRAVELING_OWNER:0 "[PROVINCE.GetName|V] topraklarında seyahat hâlinde"
+### TODO AGOT-CHANGED: CHARACTER_IMPRISONED_AT [AGOT: Imprisoned by [AGOTGetLongUIName(CHARACTER)|V] in [PROVINCE.GetName|V] | TR: [Select_CString( CHARACTER.IsLocalPlayer, 'Sizin', CHARACTER.GetUIName )] tarafın[Select_CString( CHARACTER.IsLocalPlayer, 'ız', '' )]dan [PROVINCE.GetName|V] toprağında tutsak tutuluyor]
+ CHARACTER_IMPRISONED_AT:0 "Imprisoned by [AGOTGetLongUIName(CHARACTER)|V] in [PROVINCE.GetName|V]"
+### TODO AGOT-CHANGED: CHARACTER_AT_COURT_VISITING [AGOT: Visiting [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V] | TR: [PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ını ziyaret ediyor]
+ CHARACTER_AT_COURT_VISITING:1 "Visiting [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V]"
+### TODO AGOT-CHANGED: CHARACTER_AT_COURT [AGOT: At [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V] | TR: [PROVINCE.GetName|V] toprağında [CHARACTER.GetShortUINamePossessive|V] [CHARACTER.Custom('GetCourtConcept')]ında]
+ CHARACTER_AT_COURT:1 "At [SelectLocalization( CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessive(CHARACTER) )|V] [CHARACTER.Custom('GetCourtConcept')] in [PROVINCE.GetName|V]"
+### TODO AGOT-CHANGED: CHARACTER_TRAVELING_OWNER [AGOT: In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')] | TR: [PROVINCE.GetName|V] topraklarında seyahat hâlinde]
+ CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')]"
  CHARACTER_TRAVELING_ENTOURAGE:0 "[PROVINCE.GetName|V] topraklarında [Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, 'sizin', TRAVEL_PLAN.GetData.GetOwner.GetShortUIName )][Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, '', ' adlı kişinin' )] [entourage|E][Select_CString( TRAVEL_PLAN.GetData.GetOwner.IsLocalPlayer, 'inizde', 'inde' )]"
  FORD_TOOLTIP:1 "$FROM$ ile $TO$ arasındaki geçit"
  STRAIT_TOOLTIP:1 "$FROM$ ile $TO$ arasındaki boğaz"
- MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTooltip|U]#!"
- MAP_REALM_TT_BOTTOM:0 "Hükümdar: [CHARACTER.GetUINameNoTooltip|UV]"
+### TODO AGOT-CHANGED: MAP_REALM_TT_HEADER [AGOT: #T [TITLE.GetNameNoTierNoTooltip|U]#! | TR: #T [TITLE.GetNameNoTooltip|U]#!]
+ MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTierNoTooltip|U]#!"
+### TODO AGOT-CHANGED: MAP_REALM_TT_BOTTOM [AGOT: Ruler: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Hükümdar: [CHARACTER.GetUINameNoTooltip|UV]]
+ MAP_REALM_TT_BOTTOM:0 "Ruler: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
  MAP_REALM_LOBBY_TT_HEADER:0 "#T [CHARACTER.GetShortUINameNotMeNoTooltip]#!\n[TITLE.GetNameNoTooltip]"
  MAP_REALM_LOBBY_TT_BOTTOM:0 "\n#I Seçmek için tıklayın#!"
+### TODO AGOT-ONLY: MAP_REALM_TT_RELATION_ME [AGOT: ]
  MAP_REALM_TT_RELATION_ME:0 ""
- MAP_REALM_TT_RELATION_VASSAL:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Vasalı"
- MAP_REALM_TT_RELATION_PEER:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereninin Vasalı"
- MAP_REALM_TT_RELATION_LIEGE:0 "[TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereni"
- MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[TARGET_CHARACTER.GetShortUINamePossessive|UV] Ana Süzereni"
+### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_VASSAL [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Vassal | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Vasalı]
+ MAP_REALM_TT_RELATION_VASSAL:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Vassal"
+### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_PEER [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] fellow Vassal | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereninin Vasalı]
+ MAP_REALM_TT_RELATION_PEER:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] fellow Vassal"
+### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_LIEGE [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Liege | TR: [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip|UV] Süzereni]
+ MAP_REALM_TT_RELATION_LIEGE:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Liege"
+### TODO AGOT-CHANGED: MAP_REALM_TT_RELATION_TOP_LIEGE [AGOT: [SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Top Liege | TR: [TARGET_CHARACTER.GetShortUINamePossessive|UV] Ana Süzereni]
+ MAP_REALM_TT_RELATION_TOP_LIEGE:0 "[SelectLocalization( TARGET_CHARACTER.IsLocalPlayer, 'your', AGOTGetTitledFirstNamePossessiveNoTooltip(TARGET_CHARACTER) )|UV] Top Liege"
  MAP_REALM_TT_RELATION_OTHER:0 "Bağımsız Ülke"
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Geçilemez Arazi#!"
- IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Bilinmeyen Deniz#!"
+### TODO AGOT-CHANGED: IMPASSPABLE_SEA_PROVINCE_TOOLTIP [AGOT: #T Embrar Dogīmissiarzor#! | TR: #T Bilinmeyen Deniz#!]
+ IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Embrar Dogīmissiarzor#!"
  SEA_PROVINCE_TOOLTIP:2 "#T [PROVINCE.GetName]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  LAKE_PROVINCE_TOOLTIP:0 "#T Göl#!"
  RIVER_PROVINCE_TOOLTIP:1 "#T [PROVINCE.GetName]#!\nBüyük Nehir"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_HEADER [AGOT: #T [PROVINCE.GetTitle.GetNameNoTooltip]#! | TR: #T [PROVINCE.GetTitle.GetNameNoTooltip]#!]
  PROVINCE_TOOLTIP_HEADER: "#T [PROVINCE.GetTitle.GetNameNoTooltip]#!"
- PROVINCE_TOOLTIP_HOLDER:0 "Sahibi: [CHARACTER.GetUINameNoTooltip|UV]"
- PROVINCE_TOOLTIP_LESSEE:0 "Kiracı: [CHARACTER.GetUINameNoTooltip|UV]"
- PROVINCE_TOOLTIP_OCCUPIED:0 "İşgal eden: [CHARACTER.GetUINameNoTooltip|UV]"
+### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_HOLDER [AGOT: Holder: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Sahibi: [CHARACTER.GetUINameNoTooltip|UV]]
+ PROVINCE_TOOLTIP_HOLDER:0 "Holder: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
+### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_LESSEE [AGOT: Lessee: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: Kiracı: [CHARACTER.GetUINameNoTooltip|UV]]
+ PROVINCE_TOOLTIP_LESSEE:0 "Lessee: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
+### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_OCCUPIED [AGOT: Occupied by: [AGOTGetFullNameNoTooltip(CHARACTER)|UV] | TR: İşgal eden: [CHARACTER.GetUINameNoTooltip|UV]]
+ PROVINCE_TOOLTIP_OCCUPIED:0 "Occupied by: [AGOTGetFullNameNoTooltip(CHARACTER)|UV]"
  PROVINCE_TOOLTIP_CULTURE:0 "Kültür: [COUNTY.GetCulture.GetNameNoTooltip|V]"
  PROVINCE_TOOLTIP_FAITH:0 "Mezhep: [COUNTY.GetFaith.GetNameNoTooltip|V]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_TERRAIN [AGOT: #size:6 \n #!@[PROVINCE.GetTerrainKey]_big! #size:17 [PROVINCE.GetTerrain.GetNameNoTooltip|V] #! | TR: #size:6 \n #!@[PROVINCE.GetTerrainKey]_big! #size:17 [PROVINCE.GetTerrain.GetNameNoTooltip|V] #!]
  PROVINCE_TOOLTIP_TERRAIN: "#size:6 \n #!@[PROVINCE.GetTerrainKey]_big! #size:17 [PROVINCE.GetTerrain.GetNameNoTooltip|V] #!"
  PROVINCE_TOOLTIP_DEVELOPMENT:0 "Gelişmişlik: [COUNTY.GetDevelopmentLevel|V]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_NO_HOLDING [AGOT: Holding not constructed | TR: Yerleşim inşa edilmemiş]
- PROVINCE_TOOLTIP_NO_HOLDING: "Holding not constructed"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_HOLDING_TITLE [AGOT: Holding Title: [PROVINCE.GetTitle.GetNameNoTooltip|V] | TR: Yerleşim Unvanı: [PROVINCE.GetTitle.GetNameNoTooltip|V]]
- PROVINCE_TOOLTIP_HOLDING_TITLE: "Holding Title: [PROVINCE.GetTitle.GetNameNoTooltip|V]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_COUNTY_TITLE [AGOT: County Title: [TITLE.GetNameNoTooltip|V] | TR: Kontluk Unvanı: [TITLE.GetNameNoTooltip|V]]
- PROVINCE_TOOLTIP_COUNTY_TITLE: "County Title: [TITLE.GetNameNoTooltip|V]"
+ PROVINCE_TOOLTIP_NO_HOLDING: "Yerleşim inşa edilmemiş"
+ PROVINCE_TOOLTIP_HOLDING_TITLE: "Yerleşim Unvanı: [PROVINCE.GetTitle.GetNameNoTooltip|V]"
+ PROVINCE_TOOLTIP_COUNTY_TITLE: "Kontluk Unvanı: [TITLE.GetNameNoTooltip|V]"
  PROVINCE_DEBUG:2 "\nID: [PROVINCE.GetID] [PROVINCE.GetTag]"
  PROVINCE_TOOLTIP_EMBARKING_IMPLIED:0 "#I Gemiye binerken para ödeyecek#!"
  PROVINCE_TOOLTIP_NO_PATH_ALL:0 "@warning_icon! #X Buraya gidemez#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_NOT_ALLOWED_TO_MOVE_AUTOMATED_ARMY [AGOT: @warning_icon! #X You cannot give orders while $ARMY_AUTOMATION_FEATURE_NAME$ is controlling your Armies#! | TR: @warning_icon! #X Ordularınız $ARMY_AUTOMATION_FEATURE_NAME$ kontrolündeyken emir veremezsiniz#!]
- PROVINCE_TOOLTIP_NOT_ALLOWED_TO_MOVE_AUTOMATED_ARMY: "@warning_icon! #X You cannot give orders while $ARMY_AUTOMATION_FEATURE_NAME$ is controlling your Armies#!"
+ PROVINCE_TOOLTIP_NOT_ALLOWED_TO_MOVE_AUTOMATED_ARMY: "@warning_icon! #X Ordularınız $ARMY_AUTOMATION_FEATURE_NAME$ kontrolündeyken emir veremezsiniz#!"
  PROVINCE_TOOLTIP_NO_PATH_SOME:0 "@warning_icon! #X Seçilen ordulardan bazıları buraya gidemez#!"
  PROVINCE_TOOLTIP_IMPASSABLE:1 "@warning_icon! #X Bu [Concept( 'barony', 'Baronlukta' )|E] geçilemez arazi var#!"
  PROVINCE_TOOLTIP_NON_TRAVERSIBLE_WATER:1 "@warning_icon! #X Bu su kütlesinden geçilemez#!"
@@ -85,32 +97,20 @@
  PROVINCE_TOOLTIP_MOVE_RALLY_POINT_CANCEL:0 "#I İptal etmek için sağ tıklayın#!"
  PROVINCE_TOOLTIP_SELECT_MAA_ORIGIN_HERE:0 "#I [REGIMENT.GetNameNoTooltip] birliğini burada konuşlandırmak için tıklayın#!"
  PROVINCE_TOOLTIP_SELECT_MAA_ORIGIN_CANCEL:0 "#I İptal etmek için sağ tıklayın#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_LAND [AGOT: #T [PROVINCE.GetNameNoTooltip]#!\n$PROVINCE_TOOLTIP_TERRAIN$\n[supply_limit|E]: [PROVINCE.GetSupplyLimitFor(GetPlayer)] | TR: #T [PROVINCE.GetNameNoTooltip]#!\n$PROVINCE_TOOLTIP_TERRAIN$\n[supply_limit|E]: [PROVINCE.GetSupplyLimitFor(GetPlayer)]]
  PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_LAND: "#T [PROVINCE.GetNameNoTooltip]#!\n$PROVINCE_TOOLTIP_TERRAIN$\n[supply_limit|E]: [PROVINCE.GetSupplyLimitFor(GetPlayer)]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_WATER [AGOT: #T [PROVINCE.GetNameNoTooltip]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip] | TR: #T [PROVINCE.GetNameNoTooltip]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip]]
  PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_WATER: "#T [PROVINCE.GetNameNoTooltip]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_IMPASSABLE [AGOT: #T Impassable#! | TR: #T Geçilemez#!]
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_IMPASSABLE: "#T Impassable#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_VALID [AGOT: #I Click to raise armies here#! | TR: #I Burada ordu toplamak için tıklayın#!]
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_VALID: "#I Click to raise armies here#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_INVALID [AGOT: #X @warning_icon! You cannot raise armies here#! | TR: #X @warning_icon! Burada ordu toplayamazsınız#!]
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_INVALID: "#X @warning_icon! You cannot raise armies here#!"
-### TODO AGOT-CHANGED: PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_CANCEL [AGOT: #I Right-click to cancel#! | TR: #I İptal etmek için sağ tıklayın#!]
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_CANCEL: "#I Right-click to cancel#!"
-### TODO AGOT-CHANGED: SELECT_RAISE_TROOPS_AT_LOCATION [AGOT: Raise available [armies|E] at a location, skipping [rally_points|E] | TR: [Concept('rally_points', 'Toplanma Noktalarını')|E] görmezden gelerek uygun [Concept('armies', 'Orduları')|E] bir konumda topla]
- SELECT_RAISE_TROOPS_AT_LOCATION: "Raise available [armies|E] at a location, skipping [rally_points|E]"
-### TODO AGOT-CHANGED: SELECT_RAISE_TROOPS_CHOOSE_LOCATION [AGOT: Choose a Location on the Map | TR: Harita üzerinde bir Konum belirle]
- SELECT_RAISE_TROOPS_CHOOSE_LOCATION: "Choose a Location on the Map"
-### TODO AGOT-CHANGED: SELECT_RAISE_TROOPS_MAP_INSTRUCTION [AGOT: #I Click to pick a location\nCtrl-click to #bold not#! split the [armies|E] based on [Concept( 'supply_limit', 'Supply Limits')|E]\nRight-click to cancel#! | TR: #I Konum belirlemek için tıklayın\n[Concept('armies', 'Orduların')|E] [Concept( 'supply_limit', 'İkmal Limiti')|E] doğrultusunda #bold bölünmeden#! toplanması için Ctrl'ye basılı tutarak tıklayın\nİptal etmek için sağ tıklayın#!]
- SELECT_RAISE_TROOPS_MAP_INSTRUCTION: "#I Click to pick a location\nCtrl-click to #bold not#! split the [armies|E] based on [Concept( 'supply_limit', 'Supply Limits')|E]\nRight-click to cancel#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_IMPASSABLE: "#T Geçilemez#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_VALID: "#I Burada ordu toplamak için tıklayın#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_INVALID: "#X @warning_icon! Burada ordu toplayamazsınız#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_CANCEL: "#I İptal etmek için sağ tıklayın#!"
+ SELECT_RAISE_TROOPS_AT_LOCATION: "[Concept('rally_points', 'Toplanma Noktalarını')|E] görmezden gelerek uygun [Concept('armies', 'Orduları')|E] bir konumda topla"
+ SELECT_RAISE_TROOPS_CHOOSE_LOCATION: "Harita üzerinde bir Konum belirle"
+ SELECT_RAISE_TROOPS_MAP_INSTRUCTION: "#I Konum belirlemek için tıklayın\n[Concept('armies', 'Orduların')|E] [Concept( 'supply_limit', 'İkmal Limiti')|E] doğrultusunda #bold bölünmeden#! toplanması için Ctrl'ye basılı tutarak tıklayın\nİptal etmek için sağ tıklayın#!"
  DE_JURE_DRIFT_TARGET_DESCRIPTION:1 "#high De Jure Kayma:#! [TITLE.GetNameNoTooltip] $DURATION$ içinde [TARGET_TITLE.GetNameNoTooltip] sınırlarından sayılacak"
  DE_JURE_DRIFT_PROGRESS_DESCRIPTION:0 "[TITLE.GetNameNoTooltip] $DURATION$ içinde [TARGET_TITLE.GetNameNoTooltip] sınırlarından sayılacak" #ragn
-### TODO AGOT-CHANGED: MAP_TOP_REALM_MAIN_TEXT [AGOT: Top Realm: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V] | TR: Ana Ülke: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V]]
- MAP_TOP_REALM_MAIN_TEXT: "Top Realm: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V]"
-### TODO AGOT-CHANGED: MAP_TOP_HOLDER_MAIN_TEXT [AGOT: Top Realm Holder: [TITLE.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip|V] | TR: Ana Ülke Sahibi: [TITLE.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip|V]]
- MAP_TOP_HOLDER_MAIN_TEXT: "Top Realm Holder: [TITLE.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip|V]"
-### TODO AGOT-CHANGED: MAP_COUNTY_HOLDER_MAIN_TEXT [AGOT: County Holder: [CHARACTER.GetUINameNoTooltip|UV] | TR: Kontluk Sahibi: [CHARACTER.GetUINameNoTooltip|UV]]
- MAP_COUNTY_HOLDER_MAIN_TEXT: "County Holder: [CHARACTER.GetUINameNoTooltip|UV]"
+ MAP_TOP_REALM_MAIN_TEXT: "Ana Ülke: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V]"
+ MAP_TOP_HOLDER_MAIN_TEXT: "Ana Ülke Sahibi: [TITLE.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip|V]"
+ MAP_COUNTY_HOLDER_MAIN_TEXT: "Kontluk Sahibi: [CHARACTER.GetUINameNoTooltip|UV]"
  MAP_COUNTY_HOLDER_RIGHT_CLICK:1 "#I Kontluk Sahibini seçmek için sağ tıklayın#!"
  MAP_COUNTY_REALM_EXPLORE_CLICK:0 "#I Ülkeyi genişletmek için CTRL tuşuna basılı tutup sağ tıklayın#!"
  MAP_COUNTY_REALM_EXPLORE_UNDO_CLICK:0 "#I Ülkeyi daraltmak için CTRL tuşuna basılı tutup sol tıklayın#!"
@@ -129,7 +129,6 @@
  cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT:0 "\n#I [PROVINCE.GetCounty.GetCulture.GetNameNoTooltip] kültürünü seçmek için tıklayın#!"
  FAITHS_MAP_MODE_TOOLTIP:0 "#T Kontluk Mezhebi#!: [ROOT.Province.GetCounty.GetFaith.GetNameNoTooltip]\nAna Süzerenin Mezhebi: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetNameNoTooltip]"
  DYNASTIC_CYCLE_MAPMODE_TOOLTIP: "[ROOT.Province.GetDynasticCycleMapModeTooltip]"
-### TODO AGOT-CHANGED: DYNASTIC_CYCLE_MAPMODE_TOOLTIP_PARTICIPANT_GROUP [AGOT: #T [SituationParticipantGroup.GetNameNoTooltip]#!\n[SituationParticipantGroup.GetDescription]\n\n[Province.GetNameNoTooltip] | TR: #T [SituationParticipantGroup.GetNameNoTooltip]#!\n[SituationParticipantGroup.GetDescription]\n\n[Province.GetNameNoTooltip]]
  DYNASTIC_CYCLE_MAPMODE_TOOLTIP_PARTICIPANT_GROUP: "#T [SituationParticipantGroup.GetNameNoTooltip]#!\n[SituationParticipantGroup.GetDescription]\n\n[Province.GetNameNoTooltip]"
  COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER:2 "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetCourtLanguage.GetNameNoTooltip]"
  COURT_LANGUAGES_MAP_MODE_LIEGE:2 "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
@@ -146,8 +145,7 @@
  COURT_LANGUAGES_SELECTION_TOOLTIP_TOP_LIEGE:0 "\n#I $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$ dilini seçmek için tıklayın#!"
  ECONOMY_MAP_TOOLTIP_ENTRY:0 "\n[HOLDING.GetNameNoTooltip] topraklarındaki [HOLDING.GetType.GetName]: @gold_icon![HOLDING.GetIncome|+=1]/aylık"
  ECONOMY_MAP_TOOLTIP:0 "#T [ROOT.Province.GetCounty.GetName] Kontluğu#!\n[GetEconomyMapModeTooltip( ROOT.Province )]"
-### TODO AGOT-CHANGED: DEBUG_CONSTRUCTION_MAP_TOOLTIP [AGOT: #T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nHolder: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nConstructing: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, 'None')|V] Lvl##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nGold: [gold_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0]\nTreasury: [treasury_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription] | TR: #T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nSahibi: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nİnşa Ediliyor: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, '0')|V] Seviye##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nAltın: [gold_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0]\nHazine: [treasury_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription]]
- DEBUG_CONSTRUCTION_MAP_TOOLTIP: "#T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nHolder: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nConstructing: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, 'None')|V] Lvl##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nGold: [gold_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0]\nTreasury: [treasury_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription]"
+ DEBUG_CONSTRUCTION_MAP_TOOLTIP: "#T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nSahibi: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nİnşa Ediliyor: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, '0')|V] Seviye##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nAltın: [gold_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0]\nHazine: [treasury_i] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription]"
  COUNTY_CONTROL_MAP_MODE_TOOLTIP:1 "#T [ROOT.Province.GetCounty.GetName] Kontluğunun [Concept( 'control', 'Kontrolü' )|E]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]"
  ADDITIONAL_MAPMODES:0 "Ek Modlar"
  ADDITIONAL_MAP_SETTINGS:0 "Ek Ayarlar"
@@ -170,97 +168,52 @@
  PROVINCE_WINTER_LEVEL_HARSH:0 "Sert"
  MAP_MODE:0 "Harita Modu"
  EPIDEMICS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetEpidemicMapTooltip]"
-### TODO AGOT-CHANGED: EPIDEMIC_PROVINCE_NO_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nNot infected by any epidemic | TR: #T [Province.GetNameNoTooltip]#!\nHerhangi bir salgından etkilenmiyor]
- EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot infected by any epidemic"
-### TODO AGOT-CHANGED: EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP [AGOT: #T Infections in [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$ | TR: #T [Province.GetNameNoTooltip] Toprağındaki Salgınlar#!\n$EPIDEMIC_NAMES$]
- EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T Infections in [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$"
-### TODO AGOT-CHANGED: EPIDEMIC_INFECTED_PROVINCE_TOOLTIP [AGOT: #T [Epidemic.GetNameNoTooltip] Infection in [Province.GetNameNoTooltip]#!\nInfection Rate: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nOutbreak Start: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString] | TR: #T [Province.GetNameNoTooltip] Topraklarında [Epidemic.GetNameNoTooltip] Salgını#!\nSalgın İlerlemesi: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nSalgın Başlangıcı: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]]
- EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "#T [Epidemic.GetNameNoTooltip] Infection in [Province.GetNameNoTooltip]#!\nInfection Rate: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nOutbreak Start: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]"
-### TODO AGOT-CHANGED: EPIDEMIC_SAFE_PROVINCE_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nNot at risk of infection by [Epidemic.GetNameNoTooltip] | TR: #T [Province.GetNameNoTooltip]#!\n[Epidemic.GetNameNoTooltip] salgını riski yok]
- EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot at risk of infection by [Epidemic.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: EPIDEMIC_RISK_PROVINCE_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nRisk of infection by [Epidemic.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$ | TR: #T [Province.GetNameNoTooltip]#!\n[Epidemic.GetNameNoTooltip] salgını riski: $SPREAD_CHANCE|V%/$]
- EPIDEMIC_RISK_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nRisk of infection by [Epidemic.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$"
+ EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nHerhangi bir salgından etkilenmiyor"
+ EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T [Province.GetNameNoTooltip] Toprağındaki Salgınlar#!\n$EPIDEMIC_NAMES$"
+ EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip] Topraklarında [Epidemic.GetNameNoTooltip] Salgını#!\nSalgın İlerlemesi: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nSalgın Başlangıcı: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]"
+ EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\n[Epidemic.GetNameNoTooltip] salgını riski yok"
+ EPIDEMIC_RISK_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\n[Epidemic.GetNameNoTooltip] salgını riski: $SPREAD_CHANCE|V%/$"
  LEGENDS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetLegendMapTooltip]"
-### TODO AGOT-CHANGED: LEGEND_PROVINCE_NONE_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nNo legend has spread here | TR: #T [Province.GetNameNoTooltip]#!\nBurada yayılan bir Destan yok]
- LEGEND_PROVINCE_NONE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNo legend has spread here"
-### TODO AGOT-CHANGED: LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP [AGOT: #T Legends in [Province.GetNameNoTooltip]#!\n$LEGEND_NAMES$ | TR: #T [Province.GetNameNoTooltip] Toprağındaki Destanlar#!\n$LEGEND_NAMES$]
- LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T Legends in [Province.GetNameNoTooltip]#!\n$LEGEND_NAMES$"
-### TODO AGOT-CHANGED: LEGEND_IN_PROVINCE_TOOLTIP [AGOT: #T [Legend.GetNameNoTooltip] in [Province.GetNameNoTooltip]#! | TR: #T [Province.GetNameNoTooltip] Toprağındaki [Legend.GetNameNoTooltip] Destanı#!]
- LEGEND_IN_PROVINCE_TOOLTIP: "#T [Legend.GetNameNoTooltip] in [Province.GetNameNoTooltip]#!"
-### TODO AGOT-CHANGED: LEGEND_NO_SPREAD_PROVINCE_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nNot in range to adopt [Legend.GetNameNoTooltip] | TR: #T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] destanını benimseme menzilinde değil]
- LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot in range to adopt [Legend.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: LEGEND_SPREAD_PROVINCE_TOOLTIP [AGOT: #T [Province.GetNameNoTooltip]#!\nChance of adopting [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$ | TR: #T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] destanını benimseme olasılığı: $SPREAD_CHANCE|V%/$]
- LEGEND_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nChance of adopting [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$"
-### TODO AGOT-CHANGED: legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT [AGOT: \n#I Click to select [Province.GetHighestPriorityLegend.GetNameNoTooltip]#! | TR: \n#I [Province.GetHighestPriorityLegend.GetNameNoTooltip] seçmek için tıklayın#!]
- legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Click to select [Province.GetHighestPriorityLegend.GetNameNoTooltip]#!"
-### TODO AGOT-CHANGED: LEGEND_QUALITY_BASE_SPREAD_CHANCE [AGOT: Base Legend Spread Chance | TR: Temel Destan Yayılma İhtimali]
- LEGEND_QUALITY_BASE_SPREAD_CHANCE: "Base Legend Spread Chance"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_HEADER [AGOT: #T [TITLE.GetNameNoTooltip|U]#! | TR: #T [TITLE.GetNameNoTooltip|U]#!]
+ LEGEND_PROVINCE_NONE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nBurada yayılan bir Destan yok"
+ LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T [Province.GetNameNoTooltip] Toprağındaki Destanlar#!\n$LEGEND_NAMES$"
+ LEGEND_IN_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip] Toprağındaki [Legend.GetNameNoTooltip] Destanı#!"
+ LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] destanını benimseme menzilinde değil"
+ LEGEND_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] destanını benimseme olasılığı: $SPREAD_CHANCE|V%/$"
+ legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I [Province.GetHighestPriorityLegend.GetNameNoTooltip] seçmek için tıklayın#!"
+ LEGEND_QUALITY_BASE_SPREAD_CHANCE: "Temel Destan Yayılma İhtimali"
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_HEADER: "#T [TITLE.GetNameNoTooltip|U]#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_HOLDER [AGOT: Governed by: [CHARACTER.GetNameNoTooltip] | TR: Yönetiliyor: [CHARACTER.GetNameNoTooltip]]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_HOLDER: "Governed by: [CHARACTER.GetNameNoTooltip]"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_TYPE [AGOT: Administration: [CHARACTER.GetVassalContract.GetAdminDivisionShortName] | TR: İdaresi: [CHARACTER.GetVassalContract.GetAdminDivisionShortName]]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TYPE: "Administration: [CHARACTER.GetVassalContract.GetAdminDivisionShortName]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_HOLDER: "Yönetiliyor: [CHARACTER.GetNameNoTooltip]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TYPE: "İdaresi: [CHARACTER.GetVassalContract.GetAdminDivisionShortName]"
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_EFFICIENCY: "[governor_efficiency|E]: @governor_efficiency!$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALUE$"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_TAXES [AGOT: Taxes: @gold_icon! #high $TAXES|2$ #! | TR: Vergiler: @gold_icon! #high $TAXES|2$ #!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TAXES: "Taxes: @gold_icon! #high $TAXES|2$ #!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_TITLE_TROOPS_LABEL [AGOT: [TITLE.GetNameNoTooltip] Armies: | TR: [TITLE.GetNameNoTooltip] Orduları:]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TITLE_TROOPS_LABEL: "[TITLE.GetNameNoTooltip] Armies:"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TAXES: "Vergiler: @gold_icon! #high $TAXES|2$ #!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TITLE_TROOPS_LABEL: "[TITLE.GetNameNoTooltip] Orduları:"
  ADMIN_VASSAL_TYPES_MAP_MODE_TT_TROOP_ENTRY: "$TAB$[MenAtArmsType.GetBaseTypeName]: $CURRENT$/$MAX$"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_HELD_BY_TOP_LIEGE [AGOT: #X [TITLE.GetName] is held by the [CHARACTER.GetTitleTierName|V]#! | TR: #X [TITLE.GetName] unvanının sahibi [CHARACTER.GetTitleTierName|V]#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_HELD_BY_TOP_LIEGE: "#X [TITLE.GetName] is held by the [CHARACTER.GetTitleTierName|V]#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_HELD_BY_GOVERNOR [AGOT: #X [TITLE.GetName] is not held by a [governor|E]#! | TR: #X [TITLE.GetName] unvanının sahibi [governor|E] değil#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_HELD_BY_GOVERNOR: "#X [TITLE.GetName] is not held by a [governor|E]#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_IN_REALM [AGOT: #X [TITLE.GetName] is not part of [TARGET_TITLE.GetNameNoTooltip]#! | TR: #X [TITLE.GetName], [TARGET_TITLE.GetNameNoTooltip] unvanın bir parçası değil#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_IN_REALM: "#X [TITLE.GetName] is not part of [TARGET_TITLE.GetNameNoTooltip]#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ADMIN_VASSAL [AGOT: #X [CHARACTER.GetShortUIName] of [TITLE.GetName] is not an [administrative|E] [governor|E]#! | TR: #X [TITLE.GetName] sahibi bir [administrative|E] [governor|E] değil#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ADMIN_VASSAL: "#X [CHARACTER.GetShortUIName] of [TITLE.GetName] is not an [administrative|E] [governor|E]#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ASSIGNED [AGOT: #X [TITLE.GetName|U] is not Created#! | TR: #X [TITLE.GetName|U] oluşturulmamış#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ASSIGNED: "#X [TITLE.GetName|U] is not Created#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM [AGOT: Top Realm: [TITLE.GetName] | TR: Üst Ülke: [TITLE.GetName]]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM: "Top Realm: [TITLE.GetName]"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK [AGOT: #I Left-click to open details#! | TR: #I Ayrıntıları açmak için sol tıklayın#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK: "#I Left-click to open details#!"
-### TODO AGOT-CHANGED: ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK [AGOT: #I Right-click to view [CHARACTER.GetShortUINameNoTooltip]#! | TR: #I [CHARACTER.GetShortUINameNoTooltip] karakterini görmek için sağ tıklayın#!]
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK: "#I Right-click to view [CHARACTER.GetShortUINameNoTooltip]#!"
-### TODO AGOT-CHANGED: MIGRATION_COUNTIES_MAPMODE_TOOLTIP [AGOT: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nFertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0] | TR: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nVerimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0]]
- MIGRATION_COUNTIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nFertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0]"
-### TODO AGOT-CHANGED: MIGRATION_DUCHIES_MAPMODE_TOOLTIP [AGOT: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0] | TR: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0]]
- MIGRATION_DUCHIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0]"
-### TODO AGOT-CHANGED: MIGRATION_KINGDOMS_MAPMODE_TOOLTIP [AGOT: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0] | TR: #T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0]]
- MIGRATION_KINGDOMS_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0]"
-### TODO AGOT-CHANGED: MIGRATION_EMPIRES_MAPMODE_TOOLTIP [AGOT: #T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0] | TR: #T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0]]
- MIGRATION_EMPIRES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0]"
-### TODO AGOT-CHANGED: MIGRATION_HEGEMONIES_MAPMODE_TOOLTIP [AGOT: #T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0] | TR: #T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0]]
- MIGRATION_HEGEMONIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nAverage Fertility: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0]"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_WAR_ENEMY_TOOLTIP [AGOT: #T Enemy War Leader: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs a [war_leader|E] in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Düşman Savaş Lideri: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E] [war_leader|E].\n\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_WAR_ENEMY_TOOLTIP: "#T Enemy War Leader: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs a [war_leader|E] in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_WAR_ENEMY_ALLY_TOOLTIP [AGOT: #T Enemy War Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs a hostile opponent in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Düşman Müttefiki: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E]düşman müttefiki.\n\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_WAR_ENEMY_ALLY_TOOLTIP: "#T Enemy War Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs a hostile opponent in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_WAR_ALLY_TOOLTIP [AGOT: #T War Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs an ally in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Savaş Müttefiki: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E] müttefik.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_WAR_ALLY_TOOLTIP: "#T War Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs an ally in a [war|E] with [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_WAR_ENEMY_ENEMY_TOOLTIP [AGOT: #T Hostile: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs at war with a realm that [CHARACTER.GetPrimaryTitle.GetName] is also at war at.\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Düşmancıl: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile savaşta olan ülkeyle savaşta.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_WAR_ENEMY_ENEMY_TOOLTIP: "#T Hostile: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs at war with a realm that [CHARACTER.GetPrimaryTitle.GetName] is also at war at.\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_RAID_ON_ME_TOOLTIP [AGOT: #T Raided by: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Yağmalanıyor: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_RAID_ON_ME_TOOLTIP: "#T Raided by: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_RAID_BY_ME_TOOLTIP [AGOT: #T Raiding: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Yağmalıyor: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_RAID_BY_ME_TOOLTIP: "#T Raiding: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_ME_TOOLTIP [AGOT: #T Selected: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Seçili: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_ME_TOOLTIP:  "#T Selected: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_ALLY_TOOLTIP [AGOT: #T Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nAllied with [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Müttefik: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile müttefik.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_ALLY_TOOLTIP: "#T Ally: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nAllied with [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_TRIBUTARY_TOOLTIP [AGOT: #T Tributary: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nTributary of [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Haraçgüzar: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] haraçgüzarı.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_TRIBUTARY_TOOLTIP: "#T Tributary: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nTributary of [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_TRUCE_TOOLTIP [AGOT: #T Truce: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Ateşkes: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_TRUCE_TOOLTIP: "#T Truce: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_LIEGE_TOOLTIP [AGOT: #T Liege: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs the [liege|E] of [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T Süzeren: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] [Concept('liege', 'Süzereni')|E].\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_LIEGE_TOOLTIP: "#T Liege: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetUIName]\nIs the [liege|E] of [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: DIPLOMATIC_RELATION_OTHER_TOOLTIP [AGOT: #T No relation: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetTopLiege.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#! | TR: #T İlişki Yok: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetTopLiege.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!]
- DIPLOMATIC_RELATION_OTHER_TOOLTIP: "#T No relation: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!\nRuler: [TARGET_CHARACTER.GetTopLiege.GetUIName]\n$DIPLO_INFO$\n#i Click to select to see their diplomatic relations#!"
-### TODO AGOT-CHANGED: plan_great_project_map_mode_out_of_area [AGOT: [GreatProjectType.GetName] cannot be planned in [Title.GetName] | TR: [GreatProjectType.GetName], [Title.GetName] konumunda planlanamaz]
- plan_great_project_map_mode_out_of_area: "[GreatProjectType.GetName] cannot be planned in [Title.GetName]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_HELD_BY_TOP_LIEGE: "#X [TITLE.GetName] unvanının sahibi [CHARACTER.GetTitleTierName|V]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_HELD_BY_GOVERNOR: "#X [TITLE.GetName] unvanının sahibi [governor|E] değil#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_IN_REALM: "#X [TITLE.GetName], [TARGET_TITLE.GetNameNoTooltip] unvanın bir parçası değil#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ADMIN_VASSAL: "#X [TITLE.GetName] sahibi bir [administrative|E] [governor|E] değil#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ASSIGNED: "#X [TITLE.GetName|U] oluşturulmamış#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM: "Üst Ülke: [TITLE.GetName]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK: "#I Ayrıntıları açmak için sol tıklayın#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK: "#I [CHARACTER.GetShortUINameNoTooltip] karakterini görmek için sağ tıklayın#!"
+ MIGRATION_COUNTIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nVerimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0]"
+ MIGRATION_DUCHIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0]"
+ MIGRATION_KINGDOMS_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0]"
+ MIGRATION_EMPIRES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0]"
+ MIGRATION_HEGEMONIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nOrtalama Verimlilik: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0]"
+ DIPLOMATIC_RELATION_WAR_ENEMY_TOOLTIP: "#T Düşman Savaş Lideri: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E] [war_leader|E].\n\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_WAR_ENEMY_ALLY_TOOLTIP: "#T Düşman Müttefiki: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E]düşman müttefiki.\n\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_WAR_ALLY_TOOLTIP: "#T Savaş Müttefiki: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile [Concept('war', 'Savaşta')|E] müttefik.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_WAR_ENEMY_ENEMY_TOOLTIP: "#T Düşmancıl: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile savaşta olan ülkeyle savaşta.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_RAID_ON_ME_TOOLTIP: "#T Yağmalanıyor: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_RAID_BY_ME_TOOLTIP: "#T Yağmalıyor: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_ME_TOOLTIP:  "#T Seçili: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_ALLY_TOOLTIP: "#T Müttefik: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] ile müttefik.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_TRIBUTARY_TOOLTIP: "#T Haraçgüzar: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] haraçgüzarı.\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_TRUCE_TOOLTIP: "#T Ateşkes: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_LIEGE_TOOLTIP: "#T Süzeren: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetUIName]\n[CHARACTER.GetPrimaryTitle.GetName] [Concept('liege', 'Süzereni')|E].\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ DIPLOMATIC_RELATION_OTHER_TOOLTIP: "#T İlişki Yok: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!\nHükümdar: [TARGET_CHARACTER.GetTopLiege.GetUIName]\n$DIPLO_INFO$\n#i Diplomatik ilişkilerini görmek için tıklayın#!"
+ plan_great_project_map_mode_out_of_area: "[GreatProjectType.GetName], [Title.GetName] konumunda planlanamaz"
  CONFEDERATIONS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeFactoLiege.GetHolder.GetConfederationTooltip]"
-### TODO AGOT-CHANGED: CONFEDERATION_FOUND [AGOT: #T [CONFEDERATION.GetName]#!\n#I Click to select#! | TR: #T [CONFEDERATION.GetName]#!\n#I Seçmek için tıklayın#!]
- CONFEDERATION_FOUND: "#T [CONFEDERATION.GetName]#!\n#I Click to select#!"
-### TODO AGOT-CHANGED: CONFEDERATION_NOT_FOUND [AGOT: #T No Confederation#! | TR: #T Konfederasyon Yok#!]
- CONFEDERATION_NOT_FOUND: "#T No Confederation#!"
+ CONFEDERATION_FOUND: "#T [CONFEDERATION.GetName]#!\n#I Seçmek için tıklayın#!"
+ CONFEDERATION_NOT_FOUND: "#T Konfederasyon Yok#!"

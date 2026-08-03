@@ -46,8 +46,7 @@
  house_feud_balance_excellent:1 "#positive_value büyük farkla kazanıyor#!"
  house_feud_starts_flavor_tt:0 "[house_feud_story.Custom('GetFamilyFeudShortFlavor')] sebebiyle başladı"
  game_concept_house_feud:0 "Kan Davası"
-### TODO AGOT-CHANGED: game_concept_house_feuds [AGOT: Feuds | TR: Kan Davaları]
- game_concept_house_feuds: "Feuds"
+ game_concept_house_feuds: "Kan Davaları"
  game_concept_house_feud_desc:4 "Kimi zaman kişisel rekabetler, [Concept( 'house', 'Haneler' )|E] arasında bir kan davasına dönüşebilir.\n\n#help Düşman hane üyelerini öldürmek, işkenceye maruz bırakmak, boynuzlamak, soymak ve onlara karşı [wars|E] kazanmak sizin hanenizin puanınını arttırırken, bu eylemlere maruz kalmak puanınızı azaltır.\n\nKan Davası esnasında, tüm [house|E] üyeleri, düşman haneye karşı [hostile_scheme|E] avantajı elde ederler ve karşı haneden kişileri hedef almaya daha meyilli olurlar.\n\nKan Davası sona erdiğinde haneniz, düşman haneye verdiği zarar göre [GetModifier('house_feud_terrible_modifier').GetNameWithTooltip] ila [GetModifier('house_feud_excellent_modifier').GetNameWithTooltip] arasında bir ödül elde eder.#!"
  swap_feud_tt:0 "[house_feud_existing.GetBaseName] [Concept( 'house', 'Hanesiyle' )|E] olan [Concept( 'house_feud', 'Kan Davasını' )|E] Sona Erdir"
  house_feud_cooldown_tt:1 "[Concept( 'house', 'Haneniz' )|E] 25 yıl boyunca başka bir [house_feud|E] başlatamayacak"

@@ -16,12 +16,14 @@
  game_concept_court_type:0 "Saray Türü"
  game_concept_court_types:0 "Saray Türleri"
  game_concept_court_type_desc:3 "[Concept( 'royal_court', 'Kraliyet Sarayının' )|E] bir parçası olarak [rulers|E], belirli bir Saray Türüne sahip olabilir.\n\nHer $game_concept_court_type$, [court|E] ve Hükümdara kendi avantajlarını sağlar, bu avantajlar [court_grandeur_level|E] ile değişiklik gösterir.\n\nBir Hükümdarın [Concept( 'culture', 'Kültürünün' )|E] [Concept( 'ethos', 'Değerleri' )|E] hangi Saray Türlerine sahip olabileceğini belirler.\n\nSaray Türleri:\n$BULLET_WITH_TAB$[GetCourtType('court_diplomatic').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_warlike').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_administrative').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_intrigue').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_scholarly').GetName]\n$BULLET_WITH_TAB$[GetCourtType('court_tribal').GetName]"
- game_concept_court_language:0 "Saray Dili"
- game_concept_court_languages:0 "Saray Dilleri"
- game_concept_court_language_desc:1 "Saray Dili [Concept( 'royal_court', 'Kraliyet Sarayının' )|E] resmi [Concept( 'language', 'Dilidir' )|E], soylular tarafından konuşulur ve bürokraside kullanılır.\n\n[court_grandeur|E] Anahattı, ülkede bu dili konuşan [realm|E] [county|E], Dünyada bu dili konuşan Kraliyet Sarayı ve [Concept( 'language', 'Hükümdarın' )|E] ana dili olup olmamasına göre artar."
+### TODO AGOT-CHANGED: game_concept_court_language [AGOT: Court Tongue | TR: Saray Dili]
+ game_concept_court_language:0 "Court Tongue"
+### TODO AGOT-CHANGED: game_concept_court_languages [AGOT: Court Tongues | TR: Saray Dilleri]
+ game_concept_court_languages:0 "Court Tongues"
+### TODO AGOT-CHANGED: game_concept_court_language_desc [AGOT: A Court Tongue is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Tongue, for each Royal Court which speaks the same Court Tongue, and if it is the [ruler|E]'s native Tongue. | TR: Saray Dili [Concept( 'royal_court', 'Kraliyet Sarayının' )|E] resmi [Concept( 'language', 'Dilidir' )|E], soylular tarafından konuşulur ve bürokraside kullanılır.\n\n[court_grandeur|E] Anahattı, ülkede bu dili konuşan [realm|E] [county|E], Dünyada bu dili konuşan Kraliyet Sarayı ve [Concept( 'language', 'Hükümdarın' )|E] ana dili olup olmamasına göre artar.]
+ game_concept_court_language_desc:1 "A Court Tongue is the official [language|E] of a [royal_court|E], spoken by the nobility and used by the bureaucracy.\n\nThe [court_grandeur|E] Baseline is increased for each [realm|E] [county|E] that shares the Tongue, for each Royal Court which speaks the same Court Tongue, and if it is the [ruler|E]'s native Tongue."
  game_concept_sponsor:0 "Destekçi"
-### TODO AGOT-CHANGED: game_concept_sponsored [AGOT: Sponsored | TR: Desteklenmiş]
- game_concept_sponsored: "Sponsored"
+ game_concept_sponsored: "Desteklenmiş"
  game_concept_sponsor_desc:2 "$game_concept_sponsor$, [inspired|E] [Concept( 'character', 'Karakterlerin' )|E] [Concept( 'project', 'Projelerini' )|E] destekleyen [Concept( 'ruler', 'Hükümdarlara' )|E] denir."
  game_concept_project:0 "Proje"
  game_concept_project_desc:2 "Proje, [inspired|E] [Concept( 'character', 'Karakterlerin' )|E], bir [sponsor|E] aracılığıyla hayata geçirdiği eylemdir. Bu genellikle bir [artifact|E] oluşumu ile sonuçlanır."

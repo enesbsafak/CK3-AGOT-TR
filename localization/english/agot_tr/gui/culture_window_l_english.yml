@@ -6,62 +6,44 @@
  CULTURE_RELATION_FOREIGN_CULTURE:1 "Yabancı [culture|E]"
  CULTURE_WINDOW_ERA_JOINED:0 "$JOINED$–"
  CULTURE_WINDOW_ERA_JOINED_LEFT:0 "$JOINED$–$LEFT$"
+### TODO AGOT-ONLY: CULTURE_WINDOW_ERA_LEFT [AGOT: ]
  CULTURE_WINDOW_ERA_LEFT:0 "" #intentionally empty
  CULTURE_WINDOW_ERA_DISCOVERED_BY:0 "[CULTURE.GetName] tarafından keşfedildi"
  CULTURE_WINDOW_CULTURE_HEAD_TITLE:0 "[culture_head|E]: [Character.GetUIName|U]"
  CULTURE_WINDOW_NOT_CULTURE_HEAD_INFO:0 "#weak [fascination|E] sadece [culture_head|E] tarafından değiştirilebilir"
  CULTURE_WINDOW_NO_SPREAD:0 "Yok"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_HEAD_FASCINATION [AGOT: Current [fascination|E]: | TR: Mevcut [fascination|E]:]
- CULTURE_WINDOW_HEAD_FASCINATION: "Current [fascination|E]:"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_CURRENT_SPREAD [AGOT: Cultural [spread|E]: | TR: Kültürel [spread|E]:]
- CULTURE_WINDOW_CURRENT_SPREAD: "Cultural [spread|E]:"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_NEXT_SPREAD_PREVIEW [AGOT: Next [spread|E] will likely be [CultureWindow.GetNextSpreadInnovation.GetName] of [CultureWindow.GetNextSpreadCulture.GetName] [culture|e] | TR: Bir sonraki [spread|E] büyük ihtimalle [CultureWindow.GetNextSpreadCulture.GetName] [Concept('culture', 'Kültürünün')|e] [CultureWindow.GetNextSpreadInnovation.GetName] buluşu olacak]
- CULTURE_WINDOW_NEXT_SPREAD_PREVIEW: "Next [spread|E] will likely be [CultureWindow.GetNextSpreadInnovation.GetName] of [CultureWindow.GetNextSpreadCulture.GetName] [culture|e]"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_CULTURE_HEAD_INFO [AGOT: #weak The Ruler of this Culture that has the most [CULTURE.GetNameNoTooltip] [counties|E] in their [realm|E] ($COUNT|V$ Counties)#! | TR: #weak Bu kültürden [Concept( 'realm', 'Ülkesinde' )|E] en fazla [CULTURE.GetNameNoTooltip] [county|E] sahibi olan hükümdardır ($COUNT|V$ Kontluk)#!]
- CULTURE_WINDOW_CULTURE_HEAD_INFO: "#weak The Ruler of this Culture that has the most [CULTURE.GetNameNoTooltip] [counties|E] in their [realm|E] ($COUNT|V$ Counties)#!"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_CULTURE_HEAD_INFO_FROM_HERD [AGOT: #weak The Ruler of this Culture with the highest [title_tier|E] ([title_i]$TITLE_TIER$) or most [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$)#! | TR: #weak Bu kültürden en yüksek [Concept('title_tier', 'Unvan Seviyesine')|E] ([title_i]$TITLE_TIER$) veya Askerî Gücünün $MILITARY_SCALE|V0%$ kadarı [herd|E] büyüklüğüyle birleştiğinde ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$) en yüksek değere sahip olan hükümdardır#!]
- CULTURE_WINDOW_CULTURE_HEAD_INFO_FROM_HERD: "#weak The Ruler of this Culture with the highest [title_tier|E] ([title_i]$TITLE_TIER$) or most [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$)#!"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_MY_CULTURE_INFO [AGOT: #weak You have $COUNT|V$ [CULTURE.GetNameNoTooltip] Counties in your Realm.#! | TR: #weak Ülkenizde $COUNT|V$ [CULTURE.GetNameNoTooltip] Kontluk sahibisiniz.#!]
- CULTURE_WINDOW_MY_CULTURE_INFO: "#weak You have $COUNT|V$ [CULTURE.GetNameNoTooltip] Counties in your Realm.#!"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_MY_CULTURE_INFO_FROM_HERD [AGOT: #weak You have the [title_tier|E] ([title_i]$TITLE_TIER$), [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#! | TR: #weak [Concept('title_tier', 'Unvan Seviyesine')|E] ([title_i]$TITLE_TIER$) veya Askerî Gücünüzün $MILITARY_SCALE|V0%$ kadarı ile [herd|E] büyüklüğü birleşimine ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$) sahipsiniz#!]
- CULTURE_WINDOW_MY_CULTURE_INFO_FROM_HERD: "#weak You have the [title_tier|E] ([title_i]$TITLE_TIER$), [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#!"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_MY_CULTURE_INFO_NEED_HIGHER_TIER [AGOT: #weak You only have the [title_tier|E] ([title_i]$TITLE_TIER$).#! | TR: #weak [Concept('title_tier', 'Unvan Seviyeniz')|E] sadece ([title_i]$TITLE_TIER$).#!]
- CULTURE_WINDOW_MY_CULTURE_INFO_NEED_HIGHER_TIER: "#weak You only have the [title_tier|E] ([title_i]$TITLE_TIER$).#!"
-### TODO AGOT-CHANGED: CULTURE_WINDOW_MY_CULTURE_INFO_NEED_BIGGER_HERD [AGOT: #weak Your [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength is ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#! | TR: #weak [Concept('herd', 'Sürünüz')|E] ile Askerî Gücünüzün $MILITARY_SCALE|V0%$ kadarının birleşimi ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#!]
- CULTURE_WINDOW_MY_CULTURE_INFO_NEED_BIGGER_HERD: "#weak Your [herd|E] combined with $MILITARY_SCALE|V0%$ of Military Strength is ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#!"
+ CULTURE_WINDOW_HEAD_FASCINATION: "Mevcut [fascination|E]:"
+ CULTURE_WINDOW_CURRENT_SPREAD: "Kültürel [spread|E]:"
+ CULTURE_WINDOW_NEXT_SPREAD_PREVIEW: "Bir sonraki [spread|E] büyük ihtimalle [CultureWindow.GetNextSpreadCulture.GetName] [Concept('culture', 'Kültürünün')|e] [CultureWindow.GetNextSpreadInnovation.GetName] buluşu olacak"
+ CULTURE_WINDOW_CULTURE_HEAD_INFO: "#weak Bu kültürden [Concept( 'realm', 'Ülkesinde' )|E] en fazla [CULTURE.GetNameNoTooltip] [county|E] sahibi olan hükümdardır ($COUNT|V$ Kontluk)#!" #krutygetarts
+ CULTURE_WINDOW_CULTURE_HEAD_INFO_FROM_HERD: "#weak Bu kültürden en yüksek [Concept('title_tier', 'Unvan Seviyesine')|E] ([title_i]$TITLE_TIER$) veya Askerî Gücünün $MILITARY_SCALE|V0%$ kadarı [herd|E] büyüklüğüyle birleştiğinde ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$) en yüksek değere sahip olan hükümdardır#!"
+ CULTURE_WINDOW_MY_CULTURE_INFO: "#weak Ülkenizde $COUNT|V$ [CULTURE.GetNameNoTooltip] Kontluk sahibisiniz.#!"
+ CULTURE_WINDOW_MY_CULTURE_INFO_FROM_HERD: "#weak [Concept('title_tier', 'Unvan Seviyesine')|E] ([title_i]$TITLE_TIER$) veya Askerî Gücünüzün $MILITARY_SCALE|V0%$ kadarı ile [herd|E] büyüklüğü birleşimine ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$) sahipsiniz#!"
+ CULTURE_WINDOW_MY_CULTURE_INFO_NEED_HIGHER_TIER: "#weak [Concept('title_tier', 'Unvan Seviyeniz')|E] sadece ([title_i]$TITLE_TIER$).#!"
+ CULTURE_WINDOW_MY_CULTURE_INFO_NEED_BIGGER_HERD: "#weak [Concept('herd', 'Sürünüz')|E] ile Askerî Gücünüzün $MILITARY_SCALE|V0%$ kadarının birleşimi ([herd_i][soldier_i]$HERD_AND_MILITARY_SIZE|V$).#!"
  CULTURE_WINDOW_INNOVATIONS:0 "[era|E] bazında [Culture.GetNameNoTooltip] [Concept( 'innovations', 'Buluşları' )|E]"
  CULTURE_WINDOW_CULTURE:1 "[Culture.GetNameNoTooltip] Kültürü"
  CULTURE_WINDOW_ERA_NAME:0 "[CultureEra.GetNameNoTooltip] [era|E]i\n[GuiCultureEra.GetJoinedLeftString]" #ragn
  INNOVATION_TOOLTIP_TYPE:0 "[CultureInnovationType.GetGroupName] [innovation|E]"
-### TODO AGOT-CHANGED: INNOVATION_ERA_WITH_ERA_CONCEPT [AGOT: [CultureInnovation.GetCultureEra.GetName] [era|E] | TR: [CultureInnovation.GetCultureEra.GetName] [Concept('era', 'Dönemi')|E]]
- INNOVATION_ERA_WITH_ERA_CONCEPT: "[CultureInnovation.GetCultureEra.GetName] [era|E]"
+ INNOVATION_ERA_WITH_ERA_CONCEPT: "[CultureInnovation.GetCultureEra.GetName] [Concept('era', 'Dönemi')|E]"
  INNOVATION_TOOLTIP_GAIN:0 "Her ay [CultureInnovation.GetProgressGain|V^] ilerleme kaydetme olasılığı [CultureInnovation.GetProgressChance|V%] çünkü:"
  INNOVATION_NOT_IN_ERA:0 "@warning_icon! #X $ERA_TYPE|V$ [Concept( 'era', 'Döneminde' )|E] değil#!"
  INNOVATION_NOT_IN_REGION:1 "@warning_icon! #X $REGION$ bölgesinde $CULTURE_NAME|V$ [Concept( 'culture', 'kültürü' )|E] yok:\n#tut Olması için herhangi biri doğru olmalı:\n$BULLET_WITH_TAB$$REGION$ bölgesinde $CULTURE_NAME$ kültüründen $MIN_REGION|V$ Kontluk var (Şu anda: $CURRENT|V$)\n$BULLET_WITH_TAB$#bold Tüm#! $CULTURE_NAME$ Kontlukların $CULTURE_PERC|%0V$ kadarı $REGION$ bölgesinde (Şu anda: $CULTURE_CURRENT_PERC|%0V$)#!"
  INNOVATION_GAIN_BREAKDOWN_BASE:0 "Temel İlerleme"
  INNOVATION_GAIN_BREAKDOWN_DEVELOPMENT:0 "[CULTURE.GetNameNoTooltip] [Concept( 'counties', 'kontlukların' )|E] ortalama [Concept( 'development', 'Gelişmişliği' )|E]"
-### TODO AGOT-CHANGED: INNOVATION_GAIN_BREAKDOWN_BONUS_FASCINATION [AGOT: From bonus [fascination|e] | TR: Bonus [Concept('fascination', 'Hayranlıktan')|e]]
- INNOVATION_GAIN_BREAKDOWN_BONUS_FASCINATION: "From bonus [fascination|e]"
-### TODO AGOT-CHANGED: INNOVATION_GAIN_BREAKDOWN_ERAS_AHEAD [AGOT: From previous $NAME|V$ [era|E] | TR: Daha önceki $NAME|V$ [Concept('era', 'Döneminden')|E]]
- INNOVATION_GAIN_BREAKDOWN_ERAS_AHEAD: "From previous $NAME|V$ [era|E]"
-### TODO AGOT-CHANGED: INNOVATION_GAIN_BREAKDOWN_ERAS_BEHIND [AGOT: From next $NAME|V$ [era|E] | TR: Bir sonraki $NAME|V$ [Concept('era', 'Döneminden')|E]]
- INNOVATION_GAIN_BREAKDOWN_ERAS_BEHIND: "From next $NAME|V$ [era|E]"
-### TODO AGOT-CHANGED: INNOVATION_GAIN_BREAKDOWN_AHEAD_OF_TIME_INNOVATION_COUNT [AGOT: From #V $DISCOVERED_INNOVATIONS_COUNT$ #! already discovered [innovations|e] in $NAME|V$ [era|E] | TR: $NAME|V$ [Concept('era', 'Döneminde')|E] keşfedilen #V $DISCOVERED_INNOVATIONS_COUNT$ #! [Concept('innovations', 'Buluştan')|e]]
- INNOVATION_GAIN_BREAKDOWN_AHEAD_OF_TIME_INNOVATION_COUNT: "From #V $DISCOVERED_INNOVATIONS_COUNT$ #! already discovered [innovations|e] in $NAME|V$ [era|E]"
+ INNOVATION_GAIN_BREAKDOWN_BONUS_FASCINATION: "Bonus [Concept('fascination', 'Hayranlıktan')|e]"
+ INNOVATION_GAIN_BREAKDOWN_ERAS_AHEAD: "Daha önceki $NAME|V$ [Concept('era', 'Döneminden')|E]"
+ INNOVATION_GAIN_BREAKDOWN_ERAS_BEHIND: "Bir sonraki $NAME|V$ [Concept('era', 'Döneminden')|E]"
+ INNOVATION_GAIN_BREAKDOWN_AHEAD_OF_TIME_INNOVATION_COUNT: "$NAME|V$ [Concept('era', 'Döneminde')|E] keşfedilen #V $DISCOVERED_INNOVATIONS_COUNT$ #! [Concept('innovations', 'Buluştan')|e]"
  INNOVATION_CHANCE_BREAKDOWN_BASE:0 "Temel Olasılık"
-### TODO AGOT-CHANGED: INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_BORDERS [AGOT: [spread|E] #weak (Border with the [CULTURE.GetCollectiveNoun])#! | TR: [spread|E] #weak ([CULTURE.GetCollectiveNoun] ile sınır)#!]
- INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_BORDERS: "[spread|E] #weak (Border with the [CULTURE.GetCollectiveNoun])#!"
-### TODO AGOT-CHANGED: INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_REALM [AGOT: [spread|E] #weak (Shares [realm|E] with the [CULTURE.GetCollectiveNoun])#! | TR: [spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [realm|E] içinde olmak)#!]
- INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_REALM: "[spread|E] #weak (Shares [realm|E] with the [CULTURE.GetCollectiveNoun])#!"
-### TODO AGOT-CHANGED: INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_RELIGION [AGOT: [spread|E] #weak (Shares [religion|E] with the [CULTURE.GetCollectiveNoun])#! | TR: [spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [religion|E] mensubu olmak)#!]
- INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_RELIGION: "[spread|E] #weak (Shares [religion|E] with the [CULTURE.GetCollectiveNoun])#!"
+ INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_BORDERS: "[spread|E] #weak ([CULTURE.GetCollectiveNoun] ile sınır)#!"
+ INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_REALM: "[spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [realm|E] içinde olmak)#!"
+ INNOVATION_CHANCE_BREAKDOWN_SPREAD_TYPE_RELIGION: "[spread|E] #weak ([CULTURE.GetCollectiveNoun] ile aynı [religion|E] mensubu olmak)#!"
  INNOVATION_CHANCE_BREAKDOWN_FASCINATION:0 "[fascination|E]"
 ### TODO AGOT-CHANGED: INNOVATION_ERA_NOT_IN_YEAR [AGOT: #N This Era is not available#! | TR: #N Bu dönem $YEAR$ yılına kadar açılamaz#!]
  INNOVATION_ERA_NOT_IN_YEAR: "#N This Era is not available#!"
-### TODO AGOT-CHANGED: INNOVATION_ERA_NOT_IN_PREVIOUS_ERA [AGOT: #N Must first reach the [ERA.GetName] [era|E]#! | TR: #N Önce [ERA.GetName] [Concept( 'era', 'Dönemine' )|E] ulaşmanız gerekiyor#!]
- INNOVATION_ERA_NOT_IN_PREVIOUS_ERA: "#N Must first reach the [ERA.GetName] [era|E]#!"
-### TODO AGOT-CHANGED: INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA [AGOT: #tut Discover at least [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|V] of the Innovations of the [ERA.GetName|V] [era|E] to research innovations from the next era (Missing: $NUM_MISSING|V$) | TR: #tut Sonraki dönem buluşları için [ERA.GetName|V] [Concept('era', 'Döneminden')|E] [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|V] buluş açmanız gerek ($NUM_MISSING|V$ buluş eksik)]
- INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA: "#tut Discover at least [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|V] of the Innovations of the [ERA.GetName|V] [era|E] to research innovations from the next era (Missing: $NUM_MISSING|V$)"
+ INNOVATION_ERA_NOT_IN_PREVIOUS_ERA: "#N Önce [ERA.GetName] [Concept( 'era', 'Dönemine' )|E] ulaşmanız gerekiyor#!"
+ INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA: "#tut Sonraki dönem buluşları için [ERA.GetName|V] [Concept('era', 'Döneminden')|E] [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|V] buluş açmanız gerek ($NUM_MISSING|V$ buluş eksik)"
  INNOVATION_ERA_PROGRESS_STATE:0 "İlerleme: $PROGRESS|V0$/100"
  INNOVATION_ERA_PROGRESS_ESTIMATED_TIME_LEFT:0 " #weak (~$TIME_LEFT$)#!"
  INNOVATION_ERA_PROGRESS_SUM:0 "Aylık İlerleme"
@@ -72,24 +54,18 @@
  INNOVATION_UNLOCK_MAA:0 "[men_at_arms|E] olarak $NAME$ yaratılabilir"
  INNOVATION_UNLOCK_LAW:0 "$NAME$ [Concept( 'law', 'Yasasını' )|E] çıkarabilir"
  INNOVATION_MEN_AT_ARMS_TYPE_BONUS:0 "$NAME$ [men_at_arms|E]:"
-### TODO AGOT-CHANGED: INNOVATION_SPREAD_SOURCE [AGOT: #medium [Culture.GetSpreadingCulture.GetNameNoTooltip]#! | TR: #medium [Culture.GetSpreadingCulture.GetNameNoTooltip]#!]
  INNOVATION_SPREAD_SOURCE: "#medium [Culture.GetSpreadingCulture.GetNameNoTooltip]#!"
  INNOVATION_TOOLTIP_PROGRESS:0 "İlerleme: [CultureInnovation.GetProgress|0V]/100"
  INNOVATION_STATE_DISCOVERED:0 "Biliniyor"
  INNOVATION_STATE_DISCOVERED_OLD:0 "[CULTURE.GetCollectiveNoun] tarafından biliniyor"
-### TODO AGOT-CHANGED: INNOVATION_STATE_PROGRESSING [AGOT: $TIME|V$ left | TR: $TIME|V$ kaldı]
- INNOVATION_STATE_PROGRESSING: "$TIME|V$ left"
-### TODO AGOT-CHANGED: INNOVATION_STATE_STALE [AGOT: Not progressing | TR: İlerlemiyor]
- INNOVATION_STATE_STALE: "Not progressing"
-### TODO AGOT-CHANGED: INNOVATION_STATE_PROGRESSING_OLD [AGOT: Expected to be discovered in about $TIME|V$ | TR: Yaklaşık $TIME|V$ sonra keşfedilmesi bekleniyor]
- INNOVATION_STATE_PROGRESSING_OLD: "Expected to be discovered in about $TIME|V$"
-### TODO AGOT-CHANGED: INNOVATION_STATE_STALE_OLD [AGOT: The [CULTURE.GetCollectiveNoun] are not making any visible progress in discovering this [innovation|e] | TR: [CULTURE.GetCollectiveNoun] bu [innovation|E] üzerinde herhangi bir ilerleme kaydetmiyor]
- INNOVATION_STATE_STALE_OLD: "The [CULTURE.GetCollectiveNoun] are not making any visible progress in discovering this [innovation|e]"
+ INNOVATION_STATE_PROGRESSING: "$TIME|V$ kaldı"
+ INNOVATION_STATE_STALE: "İlerlemiyor"
+ INNOVATION_STATE_PROGRESSING_OLD: "Yaklaşık $TIME|V$ sonra keşfedilmesi bekleniyor"
+ INNOVATION_STATE_STALE_OLD: "[CULTURE.GetCollectiveNoun] bu [innovation|E] üzerinde herhangi bir ilerleme kaydetmiyor"
  INNOVATION_STATE_BLOCKED:0 "Kullanılamaz"
  INNOVATION_STATE_BLOCKED_OLD:0 "[CULTURE.GetCollectiveNoun] tarafından erişilemez"
  INNOVATION_CLICK_TO_SELECT_FASCINATION:0 "#I [cultural_fascination|E] olarak seçmek için tıklayın#!"
-### TODO AGOT-CHANGED: INNOVATION_SPREAD_MARKER_TOOLTIP [AGOT: #T Current [spread|E]#!\nThis [culture|E] is currently being exposed to an [innovation|E], boosting its progress. | TR: #T Mevcut [spread|E]#!\nBu [Concept('culture', 'Kültürde')|E] hâlihazırda bir [innovation|E] yayılıyor, böylece ilerlemesi artıyor.]
- INNOVATION_SPREAD_MARKER_TOOLTIP: "#T Current [spread|E]#!\nThis [culture|E] is currently being exposed to an [innovation|E], boosting its progress."
+ INNOVATION_SPREAD_MARKER_TOOLTIP: "#T Mevcut [spread|E]#!\nBu [Concept('culture', 'Kültürde')|E] hâlihazırda bir [innovation|E] yayılıyor, böylece ilerlemesi artıyor."
  INNOVATION_FASCINATION_MARKER_TOOLTIP:0 "#T Mevcut [cultural_fascination|E]#!\n[cultural_head|E] bu [innovation|E]a hayran kalmış, böylece ilerlemesi artıyor. Kültür Reisi istediği zaman başka bir buluşa hayran kalmayı seçebilir."
  CULTURE_WINDOW_ERA_INNOVATION_BLOCKED_FOR_PLAYER_GOVERNMENT:0 "#X @warning_icon! [GetPlayer.GetGovernment.GetName] Yönetim Biçiminiz sebebiyle [fascination|E] ilerlemesi #bold çok#! yavaş olacak#!"
  CULTURE_TOOLTIP_DESC:2 "[heritage|E]: [Culture.GetHeritage.GetNameNoTooltip]\n[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]\n[era|E]: [Culture.GetCultureEra.GetName]\n\n[Culture.GetCultureEra.GetType.GetDescription|F]"
@@ -114,8 +90,10 @@
  CULTURE_VIEW_PILLARS:0 "Özellikler"
  CULTURE_VIEW_TRADITIONS:0 "Gelenekler"
  CULTURE_VIEW_AESTHETICS:0 "Estetik"
- CULTURE_VIEW_HERITAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] Mirası"
- CULTURE_VIEW_LANGUAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: CULTURE_VIEW_HERITAGE_TEXT [AGOT: [CulturePillar.GetNameNoTooltip] Blood | TR: [CulturePillar.GetNameNoTooltip] Mirası]
+ CULTURE_VIEW_HERITAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] Blood"
+### TODO AGOT-CHANGED: CULTURE_VIEW_LANGUAGE_TEXT [AGOT: [CulturePillar.GetNameNoTooltip] Tongue | TR: [CulturePillar.GetNameNoTooltip]]
+ CULTURE_VIEW_LANGUAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] Tongue"
  CULTURE_VIEW_MARTIAL_CUSTOM_TEXT:2 "Askeriye: [CulturePillar.GetNameNoTooltip]"
  CULTURAL_ACCEPTANCE_FROM_BORDER:0 "Benim Kültürüme Sınır"
  CULTURAL_ACCEPTANCE_FROM_SHARED_REALM:0 "Ülkede [culture_intermingling|E]"
@@ -131,12 +109,18 @@
  CULTURAL_ACCEPTANCE_LOSSES:0 "Yıllık Kayıp"
  CULTURAL_ACCEPTANCE_BASELINE:0 "[Concept( 'cultural_acceptance_baseline', 'Kültürel Kabullenme Temel Değeri' )|E]"
  CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )][AddLocalizationIf( CulturePillar.HasEffectDescription( Culture.Self ), '\n\n' )][CulturePillar.GetDescription( Culture.Self )|F]"
- CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT:1 "Bu mirası paylaşan kültürler ile #P +20#! [cultural_acceptance_baseline|E]"
- CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME:0 "Mirasınız"
- CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF:0 "[Concept( 'culture', 'Kültürünüzden' )|E] farklı miras"
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT:1 "Bu dili paylaşan kültürler ile #P +10#! [cultural_acceptance_baseline|E]"
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME:1 "Ana Diliniz"
- CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF:0 "[Concept( 'culture', 'Kültürünüzden' )|E] farklı dil"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT [AGOT: #P +20#! [cultural_acceptance_baseline|E] with Cultures sharing this Blood | TR: Bu mirası paylaşan kültürler ile #P +20#! [cultural_acceptance_baseline|E]]
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT:1 "#P +20#! [cultural_acceptance_baseline|E] with Cultures sharing this Blood"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME [AGOT: Your Blood | TR: Mirasınız]
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME:0 "Your Blood"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF [AGOT: Different Blood from your [culture|E] | TR: [Concept( 'culture', 'Kültürünüzden' )|E] farklı miras]
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF:0 "Different Blood from your [culture|E]"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT [AGOT: #P +10#! [cultural_acceptance_baseline|E] with Cultures sharing this Tongue | TR: Bu dili paylaşan kültürler ile #P +10#! [cultural_acceptance_baseline|E]]
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT:1 "#P +10#! [cultural_acceptance_baseline|E] with Cultures sharing this Tongue"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME [AGOT: Your Native Tongue | TR: Ana Diliniz]
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME:1 "Your Native Tongue"
+### TODO AGOT-CHANGED: CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF [AGOT: Different Tongue from your [culture|E] | TR: [Concept( 'culture', 'Kültürünüzden' )|E] farklı dil]
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF:0 "Different Tongue from your [culture|E]"
  CULTURE_PILLAR_TOOLTIP_COURT_LANGUAGE:0 "[Concept( 'court_language', 'Saray Diliniz' )|E]"
  CULTURE_TRADITION_GENERAL_TOOLTIP:0 "[CultureTradition.GetEffectDescription( Culture.Self )]\n\n[CultureTradition.GetDescription( Culture.Self )|F]"
  CULTURE_TRADITION_TOOLTIP_CLICKINFO:0 "[Select_CString( GetVariableSystem.HasValue( 'culture_view_reform_open', 'true' ), '#I Değiştirmek için tıklayın#!', '' )]"
@@ -151,10 +135,8 @@
  COUNTIES_OF_UNKNOWN_CULTURE_MODIFIER:0 "#S Kültürdeki Tüm Kontluklar:#!"
  HOLDINGS_OF_CULTURE_MODIFIER:0 "#S Tüm [CULTURE.GetNameNoTooltip] Yerleşimleri:#!"
  HOLDINGS_OF_UNKNOWN_CULTURE_MODIFIER:0 "#S Kültürdeki Tüm Yerleşimler:#!"
-### TODO AGOT-CHANGED: CULTURE_AESTHETICS [AGOT: [Culture.GetNameNoTooltip] Aesthetics | TR: [Culture.GetNameNoTooltip] Estetiği]
- CULTURE_AESTHETICS: "[Culture.GetNameNoTooltip] Aesthetics"
-### TODO AGOT-CHANGED: CULTURE_AESTHETICS_TOOLTIP [AGOT: #T [Culture.GetNameNoTooltip] Aesthetics#!\nNaming Practices: [Culture.GetNamingListName|V]\nArchitecture: [Culture.GetBuildingGfxName|V]\nFashion: [Culture.GetClothingGfxName|V]\nCoat of Arms: [Culture.GetCoAGfxName|V]\nMilitary Equipment: [Culture.GetUnitGfxName|V]\nNaming style: [Culture.GetNamingAestheticName|V] | TR: #T [Culture.GetNameNoTooltip] Estetiği#!\nİsimlendirme: [Culture.GetNamingListName|V]\nMimari: [Culture.GetBuildingGfxName|V]\nModa: [Culture.GetClothingGfxName|V]\nArma: [Culture.GetCoAGfxName|V]\nAskerî Ekipman: [Culture.GetUnitGfxName|V]\nİsim tarzı: [Culture.GetNamingAestheticName|V]]
- CULTURE_AESTHETICS_TOOLTIP: "#T [Culture.GetNameNoTooltip] Aesthetics#!\nNaming Practices: [Culture.GetNamingListName|V]\nArchitecture: [Culture.GetBuildingGfxName|V]\nFashion: [Culture.GetClothingGfxName|V]\nCoat of Arms: [Culture.GetCoAGfxName|V]\nMilitary Equipment: [Culture.GetUnitGfxName|V]\nNaming style: [Culture.GetNamingAestheticName|V]"
+ CULTURE_AESTHETICS: "[Culture.GetNameNoTooltip] Estetiği"
+ CULTURE_AESTHETICS_TOOLTIP: "#T [Culture.GetNameNoTooltip] Estetiği#!\nİsimlendirme: [Culture.GetNamingListName|V]\nMimari: [Culture.GetBuildingGfxName|V]\nModa: [Culture.GetClothingGfxName|V]\nArma: [Culture.GetCoAGfxName|V]\nAskerî Ekipman: [Culture.GetUnitGfxName|V]\nİsim tarzı: [Culture.GetNamingAestheticName|V]"
  CULTURE_WINDOW_NO_HEAD:0 "[culture_head|E] Yok"
  CULTURE_WINDOW_NO_HEAD_NO_COUNTIES:0 "Kültürde Kontluk Yok"
  CULTURE_WINDOW_NO_VALID_HEAD:0 "Uygun aday yok"
@@ -167,9 +149,12 @@
  HYBRIDIZE_CULTURE_TOOLTIP:0 "#T $HYBRIDIZE_CULTURE_LABEL$#!\n[GetPlayer.GetCulture.GetNameNoTooltip] ve [Culture.GetNameNoTooltip] Kültürlerinin birleştiği yeni bir [hybrid_culture|E] oluşturun\n\n[GetPlayer.GetCulture.GetHybridizationBlockers( Culture.Self )]"
  DIVERGE_CULTURE_LABEL:0 "Kültürel Ayrışma"
  DIVERGE_CULTURE_TOOLTIP:0 "#T Kültürel Ayrışma#!\n[Culture.GetName] Kültüründen ayrışarak yeni bir [divergent_culture|E] oluşturun.\n\n[GetPlayer.GetCulture.GetDivergenceBlockers]"
- CULTURE_CREATION_DATE:0 "[DATE.GetYear] Yılında Oluşturuldu"
- CULTURE_CREATION_DATE_DIVERGED:0 "[DATE.GetYear] yılında [CULTURE.GetName] Kültüründen ayrıştı"
- CULTURE_CREATION_DATE_HYBRID:0 "[DATE.GetYear] yılında [CULTURE.GetName] ve [TARGET_CULTURE.GetName] Kültürlerinden oluşturuldu"
+### TODO AGOT-CHANGED: CULTURE_CREATION_DATE [AGOT: Formed in $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] Yılında Oluşturuldu]
+ CULTURE_CREATION_DATE:0 "Formed in $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
+### TODO AGOT-CHANGED: CULTURE_CREATION_DATE_DIVERGED [AGOT: Diverged from [CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] yılında [CULTURE.GetName] Kültüründen ayrıştı]
+ CULTURE_CREATION_DATE_DIVERGED:0 "Diverged from [CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
+### TODO AGOT-CHANGED: CULTURE_CREATION_DATE_HYBRID [AGOT: Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$ | TR: [DATE.GetYear] yılında [CULTURE.GetName] ve [TARGET_CULTURE.GetName] Kültürlerinden oluşturuldu]
+ CULTURE_CREATION_DATE_HYBRID:0 "Formed from [CULTURE.GetName] and [TARGET_CULTURE.GetName] in the year $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$"
  ADD_TRADITION_WINDOW_TITLE:0 "Gelenek Oluşturun"
  REPLACE_TRADITION_WINDOW_TITLE:0 "Gelenekleri Değiştir"
  ADD_TRADITION_LABEL:0 "Gelenek Oluştur"
@@ -223,20 +208,12 @@
  ESTABLISHMENT_TIME_TOOLTIP_PILLAR:0 "#T Oluşturma süresi:[Culture.GetTotalReformTimeForPillar]#!\n[Culture.GetTotalReformTimeBreakdownForPillar]"
  ESTABLISHMENT_TIME_TOOLTIP_NEW_TRADITION:0 "#T Oluşturma süresi:[GetPlayer.GetCulture.GetTotalReformTimeForNewTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForNewTradition]"
  ESTABLISHMENT_TIME_TOOLTIP_REPLACING_TRADITION:0 "#T Oluşturma süresi:[GetPlayer.GetCulture.GetTotalReformTimeForReplacingTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForReplacingTradition]"
-### TODO AGOT-CHANGED: CULTURE_INNOVATION_FASCINATION_SKILL_TT [AGOT: This [innovation|E] benefits from the [SkillItem.GetName] [skill|E] when it is a [fascination|E]. | TR: Bu [innovation|E] [fascination|E] olarak seçiliyken [SkillItem.GetName] [Concept('skill', 'Becerisinden')|E] faydalanır.]
- CULTURE_INNOVATION_FASCINATION_SKILL_TT: "This [innovation|E] benefits from the [SkillItem.GetName] [skill|E] when it is a [fascination|E]."
-### TODO AGOT-CHANGED: CULTURE_INNOVATION_MISSING_BONUS_FASCINATION_TT [AGOT: This [innovation|E] could benefit from bonus Progress Gain when selected as a [fascination|E]. | TR: Bu [innovation|E] [fascination|E] olarak seçildiğinde fazladan İlerleme Kazancı elde edebilir.]
- CULTURE_INNOVATION_MISSING_BONUS_FASCINATION_TT: "This [innovation|E] could benefit from bonus Progress Gain when selected as a [fascination|E]."
-### TODO AGOT-CHANGED: INNOVATION_CHANCE_BASE_SPREAD [AGOT: [spread|E] from [CULTURE.GetCollectiveNoun] | TR: [CULTURE.GetNameNoTooltip] kültüründen [spread|E]]
- INNOVATION_CHANCE_BASE_SPREAD: "[spread|E] from [CULTURE.GetCollectiveNoun]"
-### TODO AGOT-CHANGED: INNOVATION_CHANCE_CULTURAL_ACCEPTANCE_WITH_FASCINATION [AGOT: [Concept('fascination', 'Fascinated')|E] with currently [spread|E] [innovation|E] | TR: Mevcut [Concept('spread', 'Yayılan')|E] [Concept('innovation', 'Buluşa')|E] [Concept('fascination', 'Hayran')|E]]
- INNOVATION_CHANCE_CULTURAL_ACCEPTANCE_WITH_FASCINATION: "[Concept('fascination', 'Fascinated')|E] with currently [spread|E] [innovation|E]"
-### TODO AGOT-CHANGED: INNOVATION_PROGRESS_CHANCE_TITLE_TT [AGOT: Progress Chance: | TR: İlerleme Şansı:]
- INNOVATION_PROGRESS_CHANCE_TITLE_TT: "Progress Chance:"
-### TODO AGOT-CHANGED: INNOVATION_PROGRESS_GAIN_TITLE_TT [AGOT: Progress Gain: | TR: İlerleme Kazancı:]
- INNOVATION_PROGRESS_GAIN_TITLE_TT: "Progress Gain:"
-### TODO AGOT-CHANGED: INNOVATION_IS_FASCINATION [AGOT: It is already your [fascination|E] | TR: Zaten [fascination|E] olarak seçili]
- INNOVATION_IS_FASCINATION: "It is already your [fascination|E]"
+ CULTURE_INNOVATION_FASCINATION_SKILL_TT: "Bu [innovation|E] [fascination|E] olarak seçiliyken [SkillItem.GetName] [Concept('skill', 'Becerisinden')|E] faydalanır."
+ CULTURE_INNOVATION_MISSING_BONUS_FASCINATION_TT: "Bu [innovation|E] [fascination|E] olarak seçildiğinde fazladan İlerleme Kazancı elde edebilir."
+ INNOVATION_CHANCE_BASE_SPREAD: "[CULTURE.GetNameNoTooltip] kültüründen [spread|E]"
+ INNOVATION_CHANCE_CULTURAL_ACCEPTANCE_WITH_FASCINATION: "Mevcut [Concept('spread', 'Yayılan')|E] [Concept('innovation', 'Buluşa')|E] [Concept('fascination', 'Hayran')|E]"
+ INNOVATION_PROGRESS_CHANCE_TITLE_TT: "İlerleme Şansı:"
+ INNOVATION_PROGRESS_GAIN_TITLE_TT: "İlerleme Kazancı:"
+ INNOVATION_IS_FASCINATION: "Zaten [fascination|E] olarak seçili"
  CULTURE_INNOVATION_NAME_NO_TOOLTIP_WITH_BASE_NAME: "[CultureInnovation.GetNameNoTooltip] [AddLocalizationIf( Not( EqualTo_string(CultureInnovation.GetNameNoTooltip, CultureInnovation.GetType.GetName) ), 'CULTURE_INNOVATION_NAME_NO_TOOLTIP_WITH_BASE_NAME_BASE_NAME' )] "
-### TODO AGOT-CHANGED: CULTURE_INNOVATION_NAME_NO_TOOLTIP_WITH_BASE_NAME_BASE_NAME [AGOT: #weak ([CultureInnovation.GetType.GetName])#! | TR: #weak ([CultureInnovation.GetType.GetName])#!]
  CULTURE_INNOVATION_NAME_NO_TOOLTIP_WITH_BASE_NAME_BASE_NAME: "#weak ([CultureInnovation.GetType.GetName])#!"

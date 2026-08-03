@@ -2,7 +2,8 @@
  ACTIVITY_WAITING_TOOLTIP:0 "[CHARACTER.GetName] tarafından organize edildi.\nTüm davetiyelerin cevaplanması bekleniyor.\n$DESC|F$\n\n#I Detayları görmek için tıklayın#! "
  ACTIVITY_TIME_LEFT:0 "$TIME|V$ gün içinde başlayacak"
  ACTIVITY_OWNED_BY:0 "Sahibi: $NAME$"
- ACTIVITY_FULL_NAME:0 "[Character.GetShortUINameNotMeNoTooltip] tarafından düzenlenen [ActivityType.GetNameNoTooltip]"
+### TODO AGOT-CHANGED: ACTIVITY_FULL_NAME [AGOT: [SelectLocalization(Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').IsSet, Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstNamePossessive, Character.GetShortUINamePossessiveNoTooltip)] [ActivityType.GetNameNoTooltip|U] | TR: [Character.GetShortUINameNotMeNoTooltip] tarafından düzenlenen [ActivityType.GetNameNoTooltip]]
+ ACTIVITY_FULL_NAME:0 "[SelectLocalization(Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').IsSet, Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstNamePossessive, Character.GetShortUINamePossessiveNoTooltip)] [ActivityType.GetNameNoTooltip|U]"
  ACTIVITY_SHORT_NAME:0 "[ActivityType.GetNameNoTooltip]"
  ACTIVITY_TYPE_DESC:0 "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
  ACTIVITY_OPTION_TOOLTIP:2 "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"

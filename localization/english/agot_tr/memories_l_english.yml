@@ -7,10 +7,8 @@
  battle_won_memory_desc:1 "[ruler.GetName] karşısında [ROOT.Var('battle_location').GetProvince.GetName] Muharebesi'ni yönettim ve kazandım"
  battle_won_memory_desc_2:0 "[ROOT.Var('battle_location').GetProvince.GetName] Muharebesi'nde [ruler.GetName] benim tarafımdan yenildi"
  became_lovers_desc:0 "[new_relation.GetFullName] adlı kişiye aşık oldum"
-### TODO AGOT-CHANGED: became_grudge [AGOT: started holding a grudge | TR: garez sahibi olmaya başladı]
- became_grudge: "started holding a grudge"
-### TODO AGOT-CHANGED: became_grudge_desc [AGOT: I started holding a grudge against [grudge.GetFullName] | TR: [grudge.GetFullName] için garez tutmaya başladım]
- became_grudge_desc: "I started holding a grudge against [grudge.GetFullName]"
+ became_grudge: "garez sahibi olmaya başladı"
+ became_grudge_desc: "[grudge.GetFullName] için garez tutmaya başladım"
  became_soulmates_desc:1 "[new_soulmate.GetFullName] adlı kişinin ruh eşim olduğunu fark ettim"
  broke_up_lovers_desc:0 "[old_lover.GetName] ile ayrıldım"
  cut_down_tree_desc:0 "Sadece ellerim ve baltam ile devasa bir ağacı devirdim"
@@ -29,8 +27,7 @@
  had_sex_desc_3:0 "[sex_partner.GetFirstName] ile yattım"
  had_sex_desc_4:0 "[sex_partner.GetFirstName] ile seviştim"
  had_sex_desc_5:0 "[sex_partner.GetFirstName] ile seviştim"
-### TODO AGOT-CHANGED: had_sex_desc_6 [AGOT: I made love with [sex_partner.GetFirstName] | TR: [sex_partner.GetFirstName] ile seviştim]
- had_sex_desc_6: "I made love with [sex_partner.GetFirstName]"
+ had_sex_desc_6: "[sex_partner.GetFirstName] ile seviştim"
  haunted_by_parent_memory_desc:0 "$haunted_by_a_friend_memory_desc$"
  hurt_someone_close_to_me_desc:0 "Kazayla [close_relation.GetFirstName] adlı kişinin canını yaktım"
  lost_duel_desc_1:0 "[duel_winner.GetTitledFirstName] karşısında düello kaybettim"
@@ -75,24 +72,15 @@
  war_lost:0 "savaş yenilgisi"
  war_won:0 "savaş zaferi"
  ascended_throne_memory:0 "beni hükümdar yaptı"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_conquest [AGOT: from [flavor_character.GetTitledFirstName] | TR: ([flavor_character.GetTitledFirstName] adlı karakterden)]
- ascended_throne_memory_desc_conquest: "from [flavor_character.GetTitledFirstName]"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_conquest_holy_war [AGOT: from [flavor_character.GetTitledFirstName] in a holy war | TR: (kutsal savaşta [flavor_character.GetTitledFirstName] adlı karakterden)]
- ascended_throne_memory_desc_conquest_holy_war: "from [flavor_character.GetTitledFirstName] in a holy war"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_conquest_support [AGOT: from [flavor_character.GetTitledFirstName] with [ROOT.Var('ascended_throne_extra').Char.GetTitledFirstNamePossessive] support | TR: ([ROOT.Var('ascended_throne_extra').Char.GetTitledFirstName] tarafından verilen destek ile [flavor_character.GetTitledFirstName] adlı karakterden)]
- ascended_throne_memory_desc_conquest_support: "from [flavor_character.GetTitledFirstName] with [ROOT.Var('ascended_throne_extra').Char.GetTitledFirstNamePossessive] support"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_double [AGOT: and [ROOT.Var('title_count').GetValue] other | TR: - ve [ROOT.Var('title_count').GetValue] daha]
- ascended_throne_memory_desc_double: "and [ROOT.Var('title_count').GetValue] other"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_created [AGOT: after a period of disuse | TR: (bir süre kullanılmadıktan sonra)]
- ascended_throne_memory_desc_created: "after a period of disuse"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_usurped [AGOT: from [flavor_character.GetTitledFirstName] | TR: ([flavor_character.GetTitledFirstName] adlı karakterden)]
- ascended_throne_memory_desc_usurped: "from [flavor_character.GetTitledFirstName]"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_granted [AGOT: by [flavor_character.GetTitledFirstName] | TR: ([flavor_character.GetTitledFirstName] tarafından)]
- ascended_throne_memory_desc_granted: "by [flavor_character.GetTitledFirstName]"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_purchased [AGOT: from [flavor_character.GetTitledFirstName] | TR: ([flavor_character.GetTitledFirstName] adlı karakterden)]
- ascended_throne_memory_desc_purchased: "from [flavor_character.GetTitledFirstName]"
-### TODO AGOT-CHANGED: ascended_throne_memory_desc_stepped_down [AGOT: after [flavor_character.GetTitledFirstName] stepped down | TR: ([flavor_character.GetTitledFirstName] tahttan çekildiğinde)]
- ascended_throne_memory_desc_stepped_down: "after [flavor_character.GetTitledFirstName] stepped down"
+ ascended_throne_memory_desc_conquest: "([flavor_character.GetTitledFirstName] adlı karakterden)"
+ ascended_throne_memory_desc_conquest_holy_war: "(kutsal savaşta [flavor_character.GetTitledFirstName] adlı karakterden)"
+ ascended_throne_memory_desc_conquest_support: "([ROOT.Var('ascended_throne_extra').Char.GetTitledFirstName] tarafından verilen destek ile [flavor_character.GetTitledFirstName] adlı karakterden)"
+ ascended_throne_memory_desc_double: "- ve [ROOT.Var('title_count').GetValue] daha"
+ ascended_throne_memory_desc_created: "(bir süre kullanılmadıktan sonra)"
+ ascended_throne_memory_desc_usurped: "([flavor_character.GetTitledFirstName] adlı karakterden)"
+ ascended_throne_memory_desc_granted: "([flavor_character.GetTitledFirstName] tarafından)"
+ ascended_throne_memory_desc_purchased: "([flavor_character.GetTitledFirstName] adlı karakterden)"
+ ascended_throne_memory_desc_stepped_down: "([flavor_character.GetTitledFirstName] tahttan çekildiğinde)"
  feud_vengeance_torture:0 "rakip hane tarafından işkence edilen aile üyesinin intikamı alındı"
  feud_vengeance_torture_desc:0 "[relation_victim.GetFirstNamePossessive] işkencecisi [relation_torturer.GetFirstName], [relation_avenger.GetFirstNamePossessive] elleriyle adalete kavuştu"
  feud_vengeance_cuckold:0 "rakip hane tarafından boynuzlanan aile üyesinin intikamı alındı"
@@ -128,12 +116,9 @@
  war_memory_cb_expel:0 "kovma savaşı"
  war_memory_cb_regent:0 "naibi görevden alma savaşı"
  war_memory_cb_tyranny:0 "tahttan indirme savaşı"
-### TODO AGOT-CHANGED: war_memory_cb_peasant [AGOT: peasant revolt | TR: köylü ayaklanması]
- war_memory_cb_peasant: "peasant revolt"
-### TODO AGOT-CHANGED: war_memory_cb_government [AGOT: government war | TR: yönetim biçimi savaşı]
- war_memory_cb_government: "government war"
-### TODO AGOT-CHANGED: war_memory_cb_bloc [AGOT: bloc war | TR: blok savaşı]
- war_memory_cb_bloc: "bloc war"
+ war_memory_cb_peasant: "köylü ayaklanması"
+ war_memory_cb_government: "yönetim biçimi savaşı"
+ war_memory_cb_bloc: "blok savaşı"
  tournament_won_contest_memory:0 "Müsabaka Kazanıldı"
  tournament_won_contest_memory_desc_team_host:0 "düzenlediğim [GetActivityType( 'activity_tournament' ).GetName]da takımım [ROOT.Var('contest_type').GetFlagName] müsabakasını kazandı"
  tournament_won_contest_memory_desc_team:1 "[host.GetTitledFirstName] tarafından düzenlenen [GetActivityType( 'activity_tournament' ).GetName]da takımım [ROOT.Var('contest_type').GetFlagName] müsabakasını kazandı"
@@ -143,143 +128,74 @@
  legendary_tour_desc:0 "efsanevi bir Büyük Gezi düzenledim"
  good_tour:0 "Büyük Gezi"
  good_tour_desc:0 "şahane bir Büyük Gezi düzenledim"
-### TODO AGOT-CHANGED: board_games_on_horseback [AGOT: Board Games on Horseback | TR: At Sırtında Masa Oyunu]
- board_games_on_horseback: "Board Games on Horseback"
-### TODO AGOT-CHANGED: board_games_on_horseback_desc [AGOT: I played a board game on horseback with [friend.GetFirstName] | TR: [friend.GetFirstName] ile at sırtında masa oyunu oynadım.]
- board_games_on_horseback_desc: "I played a board game on horseback with [friend.GetFirstName]"
-### TODO AGOT-CHANGED: was_adopted [AGOT: Was Adopted | TR: Evlat Edinildi]
- was_adopted: "Was Adopted"
-### TODO AGOT-CHANGED: was_adopted_desc_1 [AGOT: I was adopted by [parent.GetTitledFirstName] | TR: [parent.GetTitledFirstName] tarafından evlat edinildim]
- was_adopted_desc_1: "I was adopted by [parent.GetTitledFirstName]"
-### TODO AGOT-CHANGED: cared_for_by_host [AGOT: Cared for by Host | TR: Ev Sahibi Tarafından Kurtarıldı]
- cared_for_by_host: "Cared for by Host"
-### TODO AGOT-CHANGED: cared_for_by_host_desc [AGOT: I was saved from youthful melancholy by [court_owner.GetTitledFirstName], as I grew homesick in [court_owner.GetHerHis] foreign court | TR: Onun yabancı sarayında memleket özlemi çekmeye başlarken [court_owner.GetTitledFirstName] tarafından kurtarıldım]
- cared_for_by_host_desc: "I was saved from youthful melancholy by [court_owner.GetTitledFirstName], as I grew homesick in [court_owner.GetHerHis] foreign court"
-### TODO AGOT-CHANGED: developed_crush [AGOT: developed a crush | TR: aşık olma]
- developed_crush: "developed a crush"
-### TODO AGOT-CHANGED: developed_crush_desc [AGOT: I developed romantic feelings for [new_relation.GetTitledFirstName] | TR: [new_relation.GetTitledFirstName] adlı kişiye karşı romantik duygular beslemeye başladım]
- developed_crush_desc: "I developed romantic feelings for [new_relation.GetTitledFirstName]"
-### TODO AGOT-CHANGED: hostage_created_hostage [AGOT: became hostage | TR: rehine olma]
- hostage_created_hostage: "became hostage"
-### TODO AGOT-CHANGED: hostage_created_hostage_desc_1 [AGOT: My [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], sent me to be [warden.GetTitledFirstNamePossessive] hostage | TR: [owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))|U] [home_court.GetTitledFirstName], beni [warden.GetTitledFirstName] adlı kişiye rehine olarak verdi]
- hostage_created_hostage_desc_1: "My [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], sent me to be [warden.GetTitledFirstNamePossessive] hostage"
-### TODO AGOT-CHANGED: hostage_created_warden [AGOT: took hostage | TR: rehine alma]
- hostage_created_warden: "took hostage"
-### TODO AGOT-CHANGED: hostage_created_warden_desc_1 [AGOT: I took [home_court.GetFullNamePossessive] [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], as a hostage | TR: [home_court.GetFullNamePossessive] [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetTitledFirstName] adlı kişiyi rehine olarak aldım]
- hostage_created_warden_desc_1: "I took [home_court.GetFullNamePossessive] [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], as a hostage"
-### TODO AGOT-CHANGED: hostage_created_home_court [AGOT: sent hostage | TR: rehine gönderme]
- hostage_created_home_court: "sent hostage"
-### TODO AGOT-CHANGED: hostage_created_home_court_desc_1 [AGOT: I sent my [owner.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], to be [warden.GetFullNamePossessive] hostage | TR: [owner.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))|U] [hostage.GetFirstName] adlı kişiyi [warden.GetFullName] adlı kişiye rehine olarak gönderdim]
- hostage_created_home_court_desc_1: "I sent my [owner.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetFirstName], to be [warden.GetFullNamePossessive] hostage"
-### TODO AGOT-CHANGED: hostage_returned_hostage [AGOT: returned home | TR: eve dönüş]
- hostage_returned_hostage: "returned home"
-### TODO AGOT-CHANGED: hostage_returned_hostage_desc_1 [AGOT: I returned to my [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstNamePossessive], court from being [warden.GetTitledFirstNamePossessive] hostage | TR: [warden.GetTitledFirstName] adlı kişinin rehinesi olmaktan kurtularak [owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))] [home_court.GetTitledFirstName] adlı kişinin sarayına döndüm]
- hostage_returned_hostage_desc_1: "I returned to my [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstNamePossessive], court from being [warden.GetTitledFirstNamePossessive] hostage"
-### TODO AGOT-CHANGED: hostage_returned_warden [AGOT: hostage returned | TR: rehine iadesi]
- hostage_returned_warden: "hostage returned"
-### TODO AGOT-CHANGED: hostage_returned_warden_desc_1 [AGOT: I returned my hostage, [hostage.GetTitledFirstName], to [hostage.GetHerHis] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName] | TR: Rehinem [hostage.GetTitledFirstName] adlı kişiyi, [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] [home_court.GetTitledFirstName] adlı kişinin sarayına gönderdim]
- hostage_returned_warden_desc_1: "I returned my hostage, [hostage.GetTitledFirstName], to [hostage.GetHerHis] [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName]"
-### TODO AGOT-CHANGED: hostage_returned_home_court [AGOT: hostage returned | TR: rehine iadesi]
- hostage_returned_home_court: "hostage returned"
-### TODO AGOT-CHANGED: hostage_returned_home_court_desc_1 [AGOT: My [owner.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], returned from being [warden.GetTitledFirstNamePossessive] hostage | TR: [owner.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))|U] [hostage.GetTitledFirstName], [warden.GetTitledFirstNamePossessive] rehinesi olmaktan kurtuldu]
- hostage_returned_home_court_desc_1: "My [owner.Custom2('RelationToMeShort', SCOPE.sC('hostage'))], [hostage.GetTitledFirstName], returned from being [warden.GetTitledFirstNamePossessive] hostage"
-### TODO AGOT-CHANGED: hostage_executed [AGOT: hostage executed | TR: rehine infaz edildi]
- hostage_executed: "hostage executed"
-### TODO AGOT-CHANGED: hostage_executed_desc_1 [AGOT: I executed my hostage [hostage.GetTitledFirstName], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] of [home_court.GetTitledFirstName] | TR: [home_court.GetTitledFirstName] adlı kişinin [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] olan rehinem [hostage.GetTitledFirstName] adlı kişiyi infaz ettim]
- hostage_executed_desc_1: "I executed my hostage [hostage.GetTitledFirstName], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] of [home_court.GetTitledFirstName]"
-### TODO AGOT-CHANGED: hostage_spared [AGOT: hostage spared | TR: rehine affedildi]
- hostage_spared: "hostage spared"
-### TODO AGOT-CHANGED: hostage_spared_desc_1 [AGOT: I spared my hostage [hostage.GetTitledFirstName], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] of [home_court.GetTitledFirstName], from execution | TR: [home_court.GetTitledFirstName] adlı kişinin [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] olan rehinem [hostage.GetTitledFirstName] infaz edilmekten kurtuldu]
- hostage_spared_desc_1: "I spared my hostage [hostage.GetTitledFirstName], [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] of [home_court.GetTitledFirstName], from execution"
-### TODO AGOT-CHANGED: became_hostage [AGOT: Became Hostage | TR: Rehine Hâline Geldi]
- became_hostage: "Became Hostage"
-### TODO AGOT-CHANGED: became_hostage_desc_1 [AGOT: My [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], sent me to be [warden.GetTitledFirstNamePossessive] hostage | TR: [owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))|U] [home_court.GetTitledFirstName], beni [warden.GetTitledFirstName] adlı kişiye rehine olarak verdi]
- became_hostage_desc_1: "My [owner.Custom2('RelationToMeShort', SCOPE.sC('home_court'))], [home_court.GetTitledFirstName], sent me to be [warden.GetTitledFirstNamePossessive] hostage"
-### TODO AGOT-CHANGED: reformed_culture_and_realm [AGOT: Instituted Foreign Reforms | TR: Yabancı Reformlar Gerçekleştirildi]
- reformed_culture_and_realm: "Instituted Foreign Reforms"
-### TODO AGOT-CHANGED: reformed_culture_and_realm_desc [AGOT: I advanced my people's way of life and civilized my realm, drawing from my experience of the [other_culture_head.GetCulture.GetCollectiveNoun] | TR: [other_culture_head.GetCulture.GetName] halkının tecrübelerini esas alarak halkımın yaşam biçimini ileriye taşıyıp ülkemi medenileştirdim]
- reformed_culture_and_realm_desc: "I advanced my people's way of life and civilized my realm, drawing from my experience of the [other_culture_head.GetCulture.GetCollectiveNoun]"
-### TODO AGOT-CHANGED: accolade_created [AGOT: founded an accolade | TR: mükâfat oluşturuldu]
- accolade_created: "founded an accolade"
-### TODO AGOT-CHANGED: accolade_created_desc [AGOT: I was acclaimed by [liege.GetTitledFirstName] as a [liege.Custom('KnightCultureNoTooltip')|l] of true distinction | TR: [liege.GetTitledFirstName] tarafından mükâfalandırılarak tanınmış bir [liege.Custom('KnightCultureNoTooltip')|l] hâline geldim]
- accolade_created_desc: "I was acclaimed by [liege.GetTitledFirstName] as a [liege.Custom('KnightCultureNoTooltip')|l] of true distinction"
-### TODO AGOT-CHANGED: accolade_ranked_up [AGOT: furthered my accolade's glory | TR: mükâfatımın ihtişamı arttı]
- accolade_ranked_up: "furthered my accolade's glory"
-### TODO AGOT-CHANGED: accolade_ranked_up_desc [AGOT: My martial deeds were recognized by [liege.GetTitledFirstName] with the granting of authority amongst [liege.GetHerHis] [liege.Custom('KnightCulturePluralNoTooltip')|l] | TR: Dövüş becerilerim [liege.GetTitledFirstName] tarafından fark edildi ve tanınmış [liege.Custom('KnightCulturePluralNoTooltip')|l] arasında yerimi aldım]
- accolade_ranked_up_desc: "My martial deeds were recognized by [liege.GetTitledFirstName] with the granting of authority amongst [liege.GetHerHis] [liege.Custom('KnightCulturePluralNoTooltip')|l]"
-### TODO AGOT-CHANGED: ward_returned_home_desc [AGOT: [ward.GetTitledFirstName] returned from [ward.GetHerHis] education abroad | TR: [ward.GetTitledFirstName] yurtdışındaki eğitimini tamamlayarak geri döndü]
- ward_returned_home_desc: "[ward.GetTitledFirstName] returned from [ward.GetHerHis] education abroad"
-### TODO AGOT-CHANGED: adoptee_returned_home_desc [AGOT: [adoptee.GetTitledFirstName] arrived at [adoptee.GetHerHis] new home | TR: [adoptee.GetTitledFirstName] yeni evine ulaştı]
- adoptee_returned_home_desc: "[adoptee.GetTitledFirstName] arrived at [adoptee.GetHerHis] new home"
-### TODO AGOT-CHANGED: ce1_travelled_far_away [AGOT: Distant Travels | TR: Uzak Seyahatler]
- ce1_travelled_far_away: "Distant Travels"
-### TODO AGOT-CHANGED: ce1_travelled_far_away_desc [AGOT: I embarked on an epic journey to visit [distant_realm.GetTitledFirstName] | TR: [distant_realm.GetTitledFirstName] topraklarını ziyaret etmek için efsanevi bir seyahate çıktım]
- ce1_travelled_far_away_desc: "I embarked on an epic journey to visit [distant_realm.GetTitledFirstName]"
-### TODO AGOT-CHANGED: ce1_completed_my_holy_legend [AGOT: Holy Legend | TR: İlahilik Destanı]
- ce1_completed_my_holy_legend: "Holy Legend"
-### TODO AGOT-CHANGED: ce1_completed_my_holy_legend_desc [AGOT: I spread a tale of piety and divinity to all corners of the world | TR: dünyanın her köşesinde bir dindarlık ve kutsallık hikâyesi yaydım]
- ce1_completed_my_holy_legend_desc: "I spread a tale of piety and divinity to all corners of the world"
+ board_games_on_horseback: "At Sırtında Masa Oyunu"
+ board_games_on_horseback_desc: "[friend.GetFirstName] ile at sırtında masa oyunu oynadım."
+ was_adopted: "Evlat Edinildi"
+ was_adopted_desc_1: "[parent.GetTitledFirstName] tarafından evlat edinildim"
+ cared_for_by_host: "Ev Sahibi Tarafından Kurtarıldı"
+ cared_for_by_host_desc: "Onun yabancı sarayında memleket özlemi çekmeye başlarken [court_owner.GetTitledFirstName] tarafından kurtarıldım"
+ developed_crush: "aşık olma"
+ developed_crush_desc: "[new_relation.GetTitledFirstName] adlı kişiye karşı romantik duygular beslemeye başladım"
+ hostage_created_hostage: "rehine olma"
+ hostage_created_hostage_desc_1: "[owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))|U] [home_court.GetTitledFirstName], beni [warden.GetTitledFirstName] adlı kişiye rehine olarak verdi"
+ hostage_created_warden: "rehine alma"
+ hostage_created_warden_desc_1: "[home_court.GetFullNamePossessive] [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetTitledFirstName] adlı kişiyi rehine olarak aldım"
+ hostage_created_home_court: "rehine gönderme"
+ hostage_created_home_court_desc_1: "[owner.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))|U] [hostage.GetFirstName] adlı kişiyi [warden.GetFullName] adlı kişiye rehine olarak gönderdim"
+ hostage_returned_hostage: "eve dönüş"
+ hostage_returned_hostage_desc_1: "[warden.GetTitledFirstName] adlı kişinin rehinesi olmaktan kurtularak [owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))] [home_court.GetTitledFirstName] adlı kişinin sarayına döndüm"
+ hostage_returned_warden: "rehine iadesi"
+ hostage_returned_warden_desc_1: "Rehinem [hostage.GetTitledFirstName] adlı kişiyi, [hostage.Custom2('RelationToMeShort', SCOPE.sC('home_court'))] [home_court.GetTitledFirstName] adlı kişinin sarayına gönderdim"
+ hostage_returned_home_court: "rehine iadesi"
+ hostage_returned_home_court_desc_1: "[owner.Custom2('RelationToMePossessive', SCOPE.sC('hostage'))|U] [hostage.GetTitledFirstName], [warden.GetTitledFirstNamePossessive] rehinesi olmaktan kurtuldu"
+ hostage_executed: "rehine infaz edildi"
+ hostage_executed_desc_1: "[home_court.GetTitledFirstName] adlı kişinin [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] olan rehinem [hostage.GetTitledFirstName] adlı kişiyi infaz ettim"
+ hostage_spared: "rehine affedildi"
+ hostage_spared_desc_1: "[home_court.GetTitledFirstName] adlı kişinin [home_court.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] olan rehinem [hostage.GetTitledFirstName] infaz edilmekten kurtuldu"
+ became_hostage: "Rehine Hâline Geldi"
+ became_hostage_desc_1: "[owner.Custom2('RelationToMePossessive', SCOPE.sC('home_court'))|U] [home_court.GetTitledFirstName], beni [warden.GetTitledFirstName] adlı kişiye rehine olarak verdi"
+ reformed_culture_and_realm: "Yabancı Reformlar Gerçekleştirildi"
+ reformed_culture_and_realm_desc: "[other_culture_head.GetCulture.GetName] halkının tecrübelerini esas alarak halkımın yaşam biçimini ileriye taşıyıp ülkemi medenileştirdim"
+ accolade_created: "mükâfat oluşturuldu"
+ accolade_created_desc: "[liege.GetTitledFirstName] tarafından mükâfalandırılarak tanınmış bir [liege.Custom('KnightCultureNoTooltip')|l] hâline geldim"
+ accolade_ranked_up: "mükâfatımın ihtişamı arttı"
+ accolade_ranked_up_desc: "Dövüş becerilerim [liege.GetTitledFirstName] tarafından fark edildi ve tanınmış [liege.Custom('KnightCulturePluralNoTooltip')|l] arasında yerimi aldım"
+ ward_returned_home_desc: "[ward.GetTitledFirstName] yurtdışındaki eğitimini tamamlayarak geri döndü"
+ adoptee_returned_home_desc: "[adoptee.GetTitledFirstName] yeni evine ulaştı"
+ ce1_travelled_far_away: "Uzak Seyahatler"
+ ce1_travelled_far_away_desc: "[distant_realm.GetTitledFirstName] topraklarını ziyaret etmek için efsanevi bir seyahate çıktım"
+ ce1_completed_my_holy_legend: "İlahilik Destanı"
+ ce1_completed_my_holy_legend_desc: "dünyanın her köşesinde bir dindarlık ve kutsallık hikâyesi yaydım"
 ### TODO AGOT-CHANGED: ce1_contracted_black_death [AGOT: Contracted the Great Spring Sickness | TR: Kara Vebaya Yakalandı]
  ce1_contracted_black_death: "Contracted the Great Spring Sickness"
-### TODO AGOT-CHANGED: ce1_contracted_black_death_desc [AGOT: my soul was challenged by [owner.GetFaith.DeathDeityName|U] as I became weak with [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] | TR: [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandım]
- ce1_contracted_black_death_desc: "my soul was challenged by [owner.GetFaith.DeathDeityName|U] as I became weak with [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
-### TODO AGOT-CHANGED: western_help_pope [AGOT: Incited a Holy War | TR: Kutsal Savaş Başlatıldı]
- western_help_pope: "Incited a Holy War"
-### TODO AGOT-CHANGED: western_help_pope_desc [AGOT: I received help from [pope.GetTitledFirstName] in the form of calling a Holy War against [enemy.GetTitledFirstName] | TR: [pope.GetTitledFirstName] bana yardım ederek [enemy.GetTitledFirstName] için kutsal savaş başlattı]
- western_help_pope_desc: "I received help from [pope.GetTitledFirstName] in the form of calling a Holy War against [enemy.GetTitledFirstName]"
-### TODO AGOT-CHANGED: western_help_ally [AGOT: Received Help | TR: Yardım Alındı]
- western_help_ally: "Received Help"
-### TODO AGOT-CHANGED: western_help_ally_desc [AGOT: I received military help from [ally.GetTitledFirstName] in my war against [enemy.GetTitledFirstName] | TR: [enemy.GetTitledFirstName] karşısındaki savaşımda [ally.GetTitledFirstName] adlı kişiden askerî yardım aldım]
- western_help_ally_desc: "I received military help from [ally.GetTitledFirstName] in my war against [enemy.GetTitledFirstName]"
-### TODO AGOT-CHANGED: reformed_ere_memory [AGOT: Recreated [GetTitleByKey('e_byzantium').GetName] | TR: [GetTitleByKey('e_byzantium').GetName] Yeniden Yaratıldı]
- reformed_ere_memory: "Recreated [GetTitleByKey('e_byzantium').GetName]"
-### TODO AGOT-CHANGED: reformed_ere_memory_desc [AGOT: I recreated [GetTitleByKey('e_byzantium').GetName] after its disintegration | TR: [GetTitleByKey('e_byzantium').GetName] dağıldıktan sonra onu yeniden yarattım]
- reformed_ere_memory_desc: "I recreated [GetTitleByKey('e_byzantium').GetName] after its disintegration"
-### TODO AGOT-CHANGED: procured_estate_memory [AGOT: Procured Estate | TR: Malikâne Elde Edildi]
- procured_estate_memory: "Procured Estate"
-### TODO AGOT-CHANGED: procured_estate_memory_desc [AGOT: with [benefactor.GetTitledFirstNamePossessive] aid, I gave up adventuring for a fine estate and a life of administrative politics | TR: [benefactor.GetTitledFirstName] sayesinde maceracılığı siyaset uğruna bırakıp bir malikâne edindim]
- procured_estate_memory_desc: "with [benefactor.GetTitledFirstNamePossessive] aid, I gave up adventuring for a fine estate and a life of administrative politics"
-### TODO AGOT-CHANGED: sent_predecessors_head_memory [AGOT: Sent Predecessor's Head | TR: Ardılımın Kellesini Gönderdi]
- sent_predecessors_head_memory: "Sent Predecessor's Head"
-### TODO AGOT-CHANGED: sent_predecessors_head_memory_desc [AGOT: I was sent the bloody head of my [owner.Custom2('RelationToMeShort', victim)], [victim.GetTitledFirstName], by the malevolent [executioner.GetTitledFirstName] | TR: Zalim [executioner.GetTitledFirstName], bana [owner.Custom2('RelationToMePossessive', victim)] [victim.GetTitledFirstName] adlı kişinin kellesini gönderdi]
- sent_predecessors_head_memory_desc: "I was sent the bloody head of my [owner.Custom2('RelationToMeShort', victim)], [victim.GetTitledFirstName], by the malevolent [executioner.GetTitledFirstName]"
-### TODO AGOT-CHANGED: became_blood_brother [AGOT: became blood brothers | TR: kan kardeşi oldu]
- became_blood_brother: "became blood brothers"
-### TODO AGOT-CHANGED: became_blood_brother_desc [AGOT: I swore an oath of blood kinship with [blood_brother.GetFullName] | TR: [blood_brother.GetFullName] ile kan kardeşliği yemini ettim]
- became_blood_brother_desc: "I swore an oath of blood kinship with [blood_brother.GetFullName]"
-### TODO AGOT-CHANGED: gok_called_the_clans [AGOT: Claimed to be Greatest of Khans | TR: Hanların En Yücesi İlanı]
- gok_called_the_clans: "Claimed to be Greatest of Khans"
-### TODO AGOT-CHANGED: gok_called_the_clans_desc [AGOT: I named myself the Greatest of Khans, and called on all the clans of the steppe to submit | TR: Kendimi Hanların En Yücesi ilan ettim ve bozkırdaki tüm klanlara boyun eğmeleri çağrısında bulundum]
- gok_called_the_clans_desc: "I named myself the Greatest of Khans, and called on all the clans of the steppe to submit"
-### TODO AGOT-CHANGED: passed_palace_exam_memory [AGOT: Passed Palace Examination | TR: Saray Sınavını Geçti]
- passed_palace_exam_memory: "Passed Palace Examination"
-### TODO AGOT-CHANGED: passed_palace_exam_memory_desc [AGOT: I passed the Palace Examination before the [owner.GetTopLiege.GetTitleAsNameNoTooltip], was measured, and found fitting for office | TR: [owner.GetTopLiege.GetTitleAsNameNoTooltip] huzurunda Saray Sınavını geçtim, değerlendirildim ve göreve layık görüldüm]
- passed_palace_exam_memory_desc: "I passed the Palace Examination before the [owner.GetTopLiege.GetTitleAsNameNoTooltip], was measured, and found fitting for office"
-### TODO AGOT-CHANGED: crowned_by_hof_memory [AGOT: crowned by [hof.GetTitleAsNameNoTooltip] | TR: [hof.GetTitleAsNameNoTooltip] tarafından taç giydirildi]
- crowned_by_hof_memory: "crowned by [hof.GetTitleAsNameNoTooltip]"
-### TODO AGOT-CHANGED: crowned_by_hof_memory_desc [AGOT: I was crowned and blessed by [hof.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName] | TR: [owner.GetPrimaryTitle.GetName] topraklarındaki meşru [owner.GetTitleAsNameNoTooltip] olarak [hof.GetTitledFirstName] tarafından taç giydirildim ve kutsandım]
- crowned_by_hof_memory_desc: "I was crowned and blessed by [hof.GetTitledFirstName] as the rightful [owner.GetTitleAsNameNoTooltip] of the [owner.GetPrimaryTitle.GetName]"
-### TODO AGOT-CHANGED: reconquest_oath_memory [AGOT: swore an oath of reconquest | TR: yeniden fetih yemini etti]
- reconquest_oath_memory: "swore an oath of reconquest"
-### TODO AGOT-CHANGED: reconquest_oath_memory_desc [AGOT: I swore an oath to consolidate the rightful lands of [owner.GetPrimaryTitle.GetNameNoTier] during my coronation | TR: Taç Giyme Törenim sırasında [owner.GetPrimaryTitle.GetNameNoTier] ülkesinin haklı topraklarını birleştirmeye dair yemin ettim]
- reconquest_oath_memory_desc: "I swore an oath to consolidate the rightful lands of [owner.GetPrimaryTitle.GetNameNoTier] during my coronation"
-### TODO AGOT-CHANGED: conquest_oath_memory [AGOT: swore an oath of conquest | TR: fetih yemini etti]
- conquest_oath_memory: "swore an oath of conquest"
-### TODO AGOT-CHANGED: conquest_oath_memory_desc [AGOT: I swore an oath to conquer new lands during my coronation | TR: Taç Giyme Törenim sırasında yeni topraklar fethetmeye dair yemin ettim]
- conquest_oath_memory_desc: "I swore an oath to conquer new lands during my coronation"
-### TODO AGOT-CHANGED: tortured_memory [AGOT: tortured | TR: işkence gördü]
- tortured_memory: "tortured"
-### TODO AGOT-CHANGED: castrated_beardless_desc [AGOT: I was left a [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] after [torturer.GetTitledFirstNamePossessive] torture | TR: [torturer.GetTitledFirstName] tarafından yapılan işkencenin ardından bir [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] oldum]
- castrated_beardless_desc: "I was left a [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] after [torturer.GetTitledFirstNamePossessive] torture"
-### TODO AGOT-CHANGED: castrated_desc [AGOT: I was left a [GetTrait('eunuch_1').GetName( GetNullCharacter )] after [torturer.GetTitledFirstNamePossessive] torture | TR: [torturer.GetTitledFirstName] tarafından yapılan işkencenin ardından bir [GetTrait('eunuch_1').GetName( GetNullCharacter )] oldum]
- castrated_desc: "I was left a [GetTrait('eunuch_1').GetName( GetNullCharacter )] after [torturer.GetTitledFirstNamePossessive] torture"
-### TODO AGOT-CHANGED: tortured_desc [AGOT: I was tortured by [torturer.GetTitledFirstName] | TR: [torturer.GetTitledFirstName] tarafından işkence gördüm]
- tortured_desc: "I was tortured by [torturer.GetTitledFirstName]"
-### TODO AGOT-CHANGED: torturer_memory [AGOT: tortured a helpless victim | TR: çaresiz bir kurbana işkence etti]
- torturer_memory: "tortured a helpless victim"
-### TODO AGOT-CHANGED: torturer_castrated_beardless_desc [AGOT: My torture left [victim.GetTitledFirstName] a [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] | TR: Yaptığım işkence sonucunda [victim.GetTitledFirstName] bir [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] oldu]
- torturer_castrated_beardless_desc: "My torture left [victim.GetTitledFirstName] a [GetTrait('beardless_eunuch').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: torturer_castrated_desc [AGOT: My torture left [victim.GetTitledFirstName] a [GetTrait('eunuch_1').GetName( GetNullCharacter )] | TR: Yaptığım işkence sonucunda [victim.GetTitledFirstName] bir [GetTrait('eunuch_1').GetName( GetNullCharacter )] oldu]
- torturer_castrated_desc: "My torture left [victim.GetTitledFirstName] a [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
-### TODO AGOT-CHANGED: torturer_desc [AGOT: I tortured [victim.GetTitledFirstName] | TR: [victim.GetTitledFirstName] adlı kişiye işkence ettim]
- torturer_desc: "I tortured [victim.GetTitledFirstName]"
+ ce1_contracted_black_death_desc: "[GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )] hastalığına yakalandım"
+ western_help_pope: "Kutsal Savaş Başlatıldı"
+ western_help_pope_desc: "[pope.GetTitledFirstName] bana yardım ederek [enemy.GetTitledFirstName] için kutsal savaş başlattı"
+ western_help_ally: "Yardım Alındı"
+ western_help_ally_desc: "[enemy.GetTitledFirstName] karşısındaki savaşımda [ally.GetTitledFirstName] adlı kişiden askerî yardım aldım"
+ reformed_ere_memory: "[GetTitleByKey('e_byzantium').GetName] Yeniden Yaratıldı"
+ reformed_ere_memory_desc: "[GetTitleByKey('e_byzantium').GetName] dağıldıktan sonra onu yeniden yarattım"
+ procured_estate_memory: "Malikâne Elde Edildi"
+ procured_estate_memory_desc: "[benefactor.GetTitledFirstName] sayesinde maceracılığı siyaset uğruna bırakıp bir malikâne edindim"
+ sent_predecessors_head_memory: "Ardılımın Kellesini Gönderdi"
+ sent_predecessors_head_memory_desc: "Zalim [executioner.GetTitledFirstName], bana [owner.Custom2('RelationToMePossessive', victim)] [victim.GetTitledFirstName] adlı kişinin kellesini gönderdi"
+ became_blood_brother: "kan kardeşi oldu"
+ became_blood_brother_desc: "[blood_brother.GetFullName] ile kan kardeşliği yemini ettim"
+ gok_called_the_clans: "Hanların En Yücesi İlanı"
+ gok_called_the_clans_desc: "Kendimi Hanların En Yücesi ilan ettim ve bozkırdaki tüm klanlara boyun eğmeleri çağrısında bulundum"
+ passed_palace_exam_memory: "Saray Sınavını Geçti"
+ passed_palace_exam_memory_desc: "[owner.GetTopLiege.GetTitleAsNameNoTooltip] huzurunda Saray Sınavını geçtim, değerlendirildim ve göreve layık görüldüm"
+ crowned_by_hof_memory: "[hof.GetTitleAsNameNoTooltip] tarafından taç giydirildi"
+ crowned_by_hof_memory_desc: "[owner.GetPrimaryTitle.GetName] topraklarındaki meşru [owner.GetTitleAsNameNoTooltip] olarak [hof.GetTitledFirstName] tarafından taç giydirildim ve kutsandım"
+ reconquest_oath_memory: "yeniden fetih yemini etti"
+ reconquest_oath_memory_desc: "Taç Giyme Törenim sırasında [owner.GetPrimaryTitle.GetNameNoTier] ülkesinin haklı topraklarını birleştirmeye dair yemin ettim"
+ conquest_oath_memory: "fetih yemini etti"
+ conquest_oath_memory_desc: "Taç Giyme Törenim sırasında yeni topraklar fethetmeye dair yemin ettim"
+ tortured_memory: "işkence gördü"
+ castrated_beardless_desc: "[torturer.GetTitledFirstName] tarafından yapılan işkencenin ardından bir [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] oldum"
+ castrated_desc: "[torturer.GetTitledFirstName] tarafından yapılan işkencenin ardından bir [GetTrait('eunuch_1').GetName( GetNullCharacter )] oldum"
+ tortured_desc: "[torturer.GetTitledFirstName] tarafından işkence gördüm"
+ torturer_memory: "çaresiz bir kurbana işkence etti"
+ torturer_castrated_beardless_desc: "Yaptığım işkence sonucunda [victim.GetTitledFirstName] bir [GetTrait('beardless_eunuch').GetName( GetNullCharacter )] oldu"
+ torturer_castrated_desc: "Yaptığım işkence sonucunda [victim.GetTitledFirstName] bir [GetTrait('eunuch_1').GetName( GetNullCharacter )] oldu"
+ torturer_desc: "[victim.GetTitledFirstName] adlı kişiye işkence ettim"

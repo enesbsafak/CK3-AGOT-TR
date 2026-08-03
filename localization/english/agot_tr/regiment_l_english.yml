@@ -27,22 +27,17 @@
  MAA_HOLDING_EFFECT_TOUGHNESS: "$VALUE|+=0$ [toughness|E]"
  MAA_HOLDING_EFFECT_PURSUIT: "$VALUE|+=0$ [pursuit|E]"
  MAA_HOLDING_EFFECT_SCREEN: "$VALUE|+=0$ [screen|E]"
-### TODO AGOT-CHANGED: MAA_HOLDING_EFFECT_SIEGE_VALUE [AGOT: $VALUE|+=0$/day [siege_progress|E] | TR: $VALUE|+=0$/günde [siege_progress|E]]
- MAA_HOLDING_EFFECT_SIEGE_VALUE: "$VALUE|+=0$/day [siege_progress|E]"
+ MAA_HOLDING_EFFECT_SIEGE_VALUE: "$VALUE|+=0$/günde [siege_progress|E]"
  MAA_DOES_NOT_FIGHT_IN_MAIN_PHASE:0 "Kuşatma Silahları muharebede saldırmazlar"
-### TODO AGOT-CHANGED: MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST [AGOT: Creation cost: [MenAtArmsType.GetCostString(GetPlayer)] | TR: Oluşturma maliyeti: [MenAtArmsType.GetCostString(GetPlayer)]]
- MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Creation cost: [MenAtArmsType.GetCostString(GetPlayer)]"
-### TODO AGOT-CHANGED: TITLE_MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST [AGOT: Creation cost: [MenAtArmsType.GetTitleRegimentCostString(GetPlayer)] | TR: Oluşturma maliyeti: [MenAtArmsType.GetTitleRegimentCostString(GetPlayer)]]
- TITLE_MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Creation cost: [MenAtArmsType.GetTitleRegimentCostString(GetPlayer)]"
+ MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Oluşturma maliyeti: [MenAtArmsType.GetCostString(GetPlayer)]"
+ TITLE_MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST: "Oluşturma maliyeti: [MenAtArmsType.GetTitleRegimentCostString(GetPlayer)]"
  SIEGE_TIER_MAX_FORT_LEVEL:0 "$EFFECT_LIST_BULLET$Maksimum [fort_level|E]: $VALUE|V$"
  SIEGE_TIER_BEATS_ALL_FORTS:0 "$EFFECT_LIST_BULLET$Tüm [fort_level|E]ni Yener"
  REGIMENT_TERRAIN_MODIFIER_TOOLTIP:0 "#T [RegimentTerrainModifier.GetTerrain.GetName] Arazide#!\n[RegimentTerrainModifier.GetEffectString]"
  REGIMENT_TERRAIN_BONUS_HEADER:0 "[terrain|E] Etkileri:"
  REGIMENT_TERRAIN_BONUS_NONE:0 "#weak Arazi etkisi yok#!"
-### TODO AGOT-CHANGED: REGIMENT_HOLDING_BONUS_HEADER [AGOT: [holding_type|E] Effects: | TR: [holding_type|E] Etkileri:]
- REGIMENT_HOLDING_BONUS_HEADER: "[holding_type|E] Effects:"
-### TODO AGOT-CHANGED: REGIMENT_HOLDING_MODIFIER_TOOLTIP [AGOT: #T In [RegimentHoldingModifier.GetHolding.GetName]#!\n[RegimentHoldingModifier.GetEffectString] | TR: #T [RegimentHoldingModifier.GetHolding.GetName] Yerleşiminde#!\n[RegimentHoldingModifier.GetEffectString]]
- REGIMENT_HOLDING_MODIFIER_TOOLTIP: "#T In [RegimentHoldingModifier.GetHolding.GetName]#!\n[RegimentHoldingModifier.GetEffectString]"
+ REGIMENT_HOLDING_BONUS_HEADER: "[holding_type|E] Etkileri:"
+ REGIMENT_HOLDING_MODIFIER_TOOLTIP: "#T [RegimentHoldingModifier.GetHolding.GetName] Yerleşiminde#!\n[RegimentHoldingModifier.GetEffectString]"
  REGIMENT_WINTER_EFFECT_HEADER:0 "Kış Etkileri:"
  REGIMENT_DAMAGE_TT:3 "#T [damage|E]: [MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'damage' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, Province.Self, Title.Self, 'damage' )]"
  REGIMENT_TOUGHNESS_TT:3 "#T [toughness|E]: [MenAtArmsType.GetStat( GetPlayer, Province.Self, Title.Self, 'toughness' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, Province.Self, Title.Self, 'toughness' )]"
@@ -88,14 +83,10 @@
  BASE_VALUE_SIEGE:0 "Temel: $VALUE|V1$"
  REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP:2 "#T Normal Kış#!\n[MenAtArmsType.GetWinterNormalModifier.GetEffectString]"
  REGIMENT_WINTER_HARSH_MODIFIER_TOOLTIP:2 "#T Sert Kış#!\n[MenAtArmsType.GetWinterHarshModifier.GetEffectString]"
-### TODO AGOT-CHANGED: TRANSFER_TITLE_MAA_NOT_TITLE_MAA [AGOT: @warning_icon! Only title [men_at_arms|E] regiments can be transferred between titles. | TR: @warning_icon! Sadece unvan [men_at_arms|E] birlikleri unvanlara arasında aktarılabilir.]
- TRANSFER_TITLE_MAA_NOT_TITLE_MAA: "@warning_icon! Only title [men_at_arms|E] regiments can be transferred between titles."
-### TODO AGOT-CHANGED: TRANSFER_TITLE_MAA_NOT_ADMINISTRATIVE [AGOT: @warning_icon! [TITLE.GetNameNoTooltip] is #bold not#! under a [GetGovernment( 'administrative_government' ).GetName] | TR: @warning_icon! [TITLE.GetNameNoTooltip], [GetGovernment( 'administrative_government' ).GetName] yönetiminde #bold değil#!]
- TRANSFER_TITLE_MAA_NOT_ADMINISTRATIVE: "@warning_icon! [TITLE.GetNameNoTooltip] is #bold not#! under a [GetGovernment( 'administrative_government' ).GetName]"
-### TODO AGOT-CHANGED: TRANSFER_TITLE_MAA_ALREADY_CONTROLS_MAA [AGOT: @warning_icon! [TITLE.GetName] already controls one or more of the target men-at-arms regiments. | TR: @warning_icon! [TITLE.GetName] zaten hedeflenen düzenli asker birliklerinin birini veya birkaçını kontrol ediyor.]
- TRANSFER_TITLE_MAA_ALREADY_CONTROLS_MAA: "@warning_icon! [TITLE.GetName] already controls one or more of the target men-at-arms regiments."
-### TODO AGOT-CHANGED: TRANSFER_TITLE_MAA_ALREADY_OWNS_MAA [AGOT: @warning_icon! [TITLE.GetName] already controls one or more of the target men-at-arms regiments. | TR: @warning_icon! [TITLE.GetName] zaten hedeflenen düzenli asker birliklerinin birini veya birkaçını kontrol ediyor.]
- TRANSFER_TITLE_MAA_ALREADY_OWNS_MAA: "@warning_icon! [TITLE.GetName] already controls one or more of the target men-at-arms regiments."
+ TRANSFER_TITLE_MAA_NOT_TITLE_MAA: "@warning_icon! Sadece unvan [men_at_arms|E] birlikleri unvanlara arasında aktarılabilir."
+ TRANSFER_TITLE_MAA_NOT_ADMINISTRATIVE: "@warning_icon! [TITLE.GetNameNoTooltip], [GetGovernment( 'administrative_government' ).GetName] yönetiminde #bold değil#!"
+ TRANSFER_TITLE_MAA_ALREADY_CONTROLS_MAA: "@warning_icon! [TITLE.GetName] zaten hedeflenen düzenli asker birliklerinin birini veya birkaçını kontrol ediyor."
+ TRANSFER_TITLE_MAA_ALREADY_OWNS_MAA: "@warning_icon! [TITLE.GetName] zaten hedeflenen düzenli asker birliklerinin birini veya birkaçını kontrol ediyor."
  archers:2 "[archer|E]"
  heavy_cavalry:2 "[heavy_cavalry|E]"
  archer_cavalry:0 "[archer_cavalry|E]"
@@ -106,16 +97,13 @@
  armored_footmen:0 "Zırhlı Yaya"
  armored_horsemen:0 "Zırhlı Atlı"
  crossbowmen:0 "Arbaletçi"
-### TODO AGOT-CHANGED: handgunners [AGOT: Handgunners | TR: Tüfekçi]
- handgunners: "Handgunners"
+ handgunners: "Tüfekçi"
  onager:0 "Onagerler"
  mangonel:0 "Mangoneller"
  trebuchet:0 "Trebüşeler"
  bombard:0 "Toplar"
-### TODO AGOT-CHANGED: cloud_ladder [AGOT: Cloud Ladders | TR: Bulut Merdivenleri]
- cloud_ladder: "Cloud Ladders"
-### TODO AGOT-CHANGED: cannon [AGOT: Fire Dragon Engines | TR: Ateş Ejderhası Motorları]
- cannon: "Fire Dragon Engines"
+ cloud_ladder: "Bulut Merdivenleri"
+ cannon: "Ateş Ejderhası Motorları"
  war_elephant:0 "Savaş Fili"
  huscarl:0 "Huskarl"
  landsknecht:0 "Landsknecht"
@@ -141,40 +129,31 @@
  mulaththamun:0 "Mulathamūn"
  guanch_vaulter:0 "Sırıkçı Piyade"
  teulu: "Teulu"
-### TODO AGOT-CHANGED: gakgung_archers [AGOT: Gakgung Archers | TR: Gakgung Okçuları]
- gakgung_archers: "Gakgung Archers"
-### TODO AGOT-CHANGED: japanese_horse_archers [AGOT: Mounted Samurai | TR: Atlı Samuraylar]
- japanese_horse_archers: "Mounted Samurai"
-### TODO AGOT-CHANGED: black_armor_cavalry [AGOT: Black-Armored Cavalry | TR: Siyah Zırlı Süvariler]
- black_armor_cavalry: "Black-Armored Cavalry"
-### TODO AGOT-CHANGED: rocket_carts [AGOT: Rocket Carts | TR: Roket Arabaları]
- rocket_carts: "Rocket Carts"
+ gakgung_archers: "Gakgung Okçuları"
+ japanese_horse_archers: "Atlı Samuraylar"
+ black_armor_cavalry: "Siyah Zırlı Süvariler"
+ rocket_carts: "Roket Arabaları"
  house_guard:0 "Hane Muhafızı"
  house_guard_flavor:0 "#F Bu seçkin birlikler spesifik bir Hanedana hizmet ederler. Savaşçılar en sadık vasallar arasından özenle seçilir.#!"
  bowmen_flavor:1 "#F Profesyonel okçular gökyüzünü oklarla doldurur, en önde yer alan düşman birliklerine büyük hasar verirler.#!"
  armored_footmen_flavor:1 "#F Ağır zırhlı ve iyi eğitimli bu birlikler kalabalık piyade birliklerine karşı üstündür.#!"
  armored_horsemen_flavor:0 "#F Ağır zırhlı bu süvari birlikleri açık ovalardaki muharebeleri domine ederler.#!"
  crossbowmen_flavor:0 "#F Yeniden dolum süreleri uzun olsa da, arbaletlerin hem kullanımı daha kolaydır hem de yakın mesafede zırhı delebilecek güçte ok yağdırırlar.#!"
-### TODO AGOT-CHANGED: handgunners_flavor [AGOT: #F Expensive and explosive in equal measure, these crude firearms are incredibly effective weapons.#!\n#help Enabled by the [GetBuilding('powder_magazine_01').GetName].#! | TR: #F Pahalı olduğu kadar da patlayıcı bir güç olan bu kaba ateşli silahlar, inanılmaz derecede etkilidirler.#!\n#help [GetBuilding('powder_magazine_01').GetName] tarafından etkinleştirilir.#!]
- handgunners_flavor: "#F Expensive and explosive in equal measure, these crude firearms are incredibly effective weapons.#!\n#help Enabled by the [GetBuilding('powder_magazine_01').GetName].#!"
-### TODO AGOT-CHANGED: gakgung_archers_flavor [AGOT: #F Equipped with powerful reflex bows and thumb rings to strengthen their draw, these archers can fire arrows over an incredible range. | TR: #F Güçlü reflekse sahip, yay çekişlerini kuvvetlendiren başparmak yüzükleriyle donatılan bu okçular, oklarını inanılmaz bir menzile kadar fırlatabilir.]
- gakgung_archers_flavor: "#F Equipped with powerful reflex bows and thumb rings to strengthen their draw, these archers can fire arrows over an incredible range."
-### TODO AGOT-CHANGED: black_armor_cavalry_flavor [AGOT: #F An elite imperial guard unit known for its dark, oxidized iron armor.#! | TR: #F Koyu renkli, oksitlenmiş demir zırhlarıyla tanınan seçkin bir imparatorluk muhafız birliği.#!]
- black_armor_cavalry_flavor: "#F An elite imperial guard unit known for its dark, oxidized iron armor.#!"
-### TODO AGOT-CHANGED: rocket_carts_flavor [AGOT: #F A handful of men can hit the enemy with the force of a hundred archers with a single spark of flame, although it might be worth keeping an eye on the kind of men who would willing work with this sort of device.#! | TR: #F Bir avuç adam, tek bir kıvılcımla yüz okçunun gücüyle düşmanı vurabilir, böylesi bir aygıtla çalışmaya gönüllü olacak türden adamları göz önünde tutmakta fayda vardır.#!]
- rocket_carts_flavor: "#F A handful of men can hit the enemy with the force of a hundred archers with a single spark of flame, although it might be worth keeping an eye on the kind of men who would willing work with this sort of device.#!"
+ handgunners_flavor: "#F Pahalı olduğu kadar da patlayıcı bir güç olan bu kaba ateşli silahlar, inanılmaz derecede etkilidirler.#!\n#help [GetBuilding('powder_magazine_01').GetName] tarafından etkinleştirilir.#!"
+ gakgung_archers_flavor: "#F Güçlü reflekse sahip, yay çekişlerini kuvvetlendiren başparmak yüzükleriyle donatılan bu okçular, oklarını inanılmaz bir menzile kadar fırlatabilir."
+ black_armor_cavalry_flavor: "#F Koyu renkli, oksitlenmiş demir zırhlarıyla tanınan seçkin bir imparatorluk muhafız birliği.#!"
+ rocket_carts_flavor: "#F Bir avuç adam, tek bir kıvılcımla yüz okçunun gücüyle düşmanı vurabilir, böylesi bir aygıtla çalışmaya gönüllü olacak türden adamları göz önünde tutmakta fayda vardır.#!"
  onager_flavor:0 "#F Burulma basıncıyla çalışan bu mancınıklar uzak mesafeden taşlar fırlatarak düşman tahkimatını yerle bir edebilir.#!"
  mangonel_flavor:0 "#F Çekme gücüyle yaratılan gerginlikle çalışan bu mancınıklar onagerlere nazaran hem daha kolay hareket ettirilirler hem de daha kısa dolum süresine sahiptirler.#!"
  trebuchet_flavor:0 "#F Karşı ağırlık prensibiyle çalışan trebüşeler, mangonellere ve onagerlere nazaran çok daha büyük cisimleri çok daha büyük kuvvetle fırlatabilirler.#!"
  bombard_flavor:0 "#F Kaldıraç ve makaraların kısıtlamalarına tabi olmayan bu toplar düşman tahkimatını kolaylıkla ortadan kaldırabilir.#!"
-### TODO AGOT-CHANGED: cloud_ladder_flavor [AGOT: #F A hinged folding ladder with a simple pulling mechanism to unfold once within reach of the enemy walls.#! | TR: #F Düşman surlarına erişim mesafesine girildiğinde basit bir çekme düzeneğiyle açılan, menteşeli katlanır bir merdiven.#!]
- cloud_ladder_flavor: "#F A hinged folding ladder with a simple pulling mechanism to unfold once within reach of the enemy walls.#!"
-### TODO AGOT-CHANGED: cannon_flavor [AGOT: #F These relatively small but deadly guns were propped up at the muzzle end and pinned to the ground to deaden the recoil.#! | TR: #F Nispeten küçük ama ölümcül olan bu toplar, geri tepmesini azaltmak için namlu ucundan desteklenir ve yere sabitlenirdi.#!]
- cannon_flavor: "#F These relatively small but deadly guns were propped up at the muzzle end and pinned to the ground to deaden the recoil.#!"
+ cloud_ladder_flavor: "#F Düşman surlarına erişim mesafesine girildiğinde basit bir çekme düzeneğiyle açılan, menteşeli katlanır bir merdiven.#!"
+ cannon_flavor: "#F Nispeten küçük ama ölümcül olan bu toplar, geri tepmesini azaltmak için namlu ucundan desteklenir ve yere sabitlenirdi.#!"
  war_elephant_flavor:0 "#F Taarruz etmekte olan bir fili durdurmak imkânsıza yakındır, bu da onları mükemmel bir baskın birliği yapar.#!"
  huscarl_flavor:1 "#F Cermen Huskarllar kalkanlarıyla duvar örerek yaklaşmakta olan ok yağmurunu durdurmalarıyla bilinirler.#!"
  landsknecht_flavor:1 "#F Alman Landsknechtler Zweihander adı verilen devasa kılıçlarıyla düşman mızraklılarını perişan ederler.#!"
- longbowmen_flavor:2 "#F Ustalaşması bir ömür sürse de İngiltere ve Galler'in uzun yaylı okçuları rakipsiz bir dolum süresiyle zırhları delebilecek güçte ok yağdırırlar.#!"
+### TODO AGOT-CHANGED: longbowmen_flavor [AGOT: #F Though they require a lifetime to properly master, Longbows are powerful enough to pierce plate and can loose volleys at an almost-unequaled rate.#! | TR: #F Ustalaşması bir ömür sürse de İngiltere ve Galler'in uzun yaylı okçuları rakipsiz bir dolum süresiyle zırhları delebilecek güçte ok yağdırırlar.#!]
+ longbowmen_flavor:2 "#F Though they require a lifetime to properly master, Longbows are powerful enough to pierce plate and can loose volleys at an almost-unequaled rate.#!"
  goedendag_flavor:0 "#F Felemenk Goedendag birlikleri süvari taarruzlarına karşı kullanılabilecek sivri uçlu sopalar taşırlar.#!"
  gendarme_flavor:0 "#F Fransız Gendarme birlikleri ağır süvarilerin zirvesi, tüm dünya için gıpta sebebidir.#!"
  chasseur_flavor:0 "#F Haçlı şövalyeleri Avrupa at biniciliğiyle Levanten çöl taktiklerini harmanlamalarıyla bilinirler.#!"
@@ -195,17 +174,14 @@
  palace_guards_flavor:0 "#F Genellikle nöbetçi olarak asayişi sağlamakla görevlendirilen bu çok yönlü askerler herhangi bir ordunun belkemiğini oluşturabilecek kaliteye sahiptir.#!"
  mulaththamun_flavor:0 "#F Bu süvariler hayatlarını geçirdikleri çöllerde becerilerini geliştirmiştir. Yüzlerine sardıkları lifam denilen peçe sayesinde kumdan korunurlar ve düşman tarafından da tanınmazlar.#!"
  guanch_vaulter_flavor:0 "#F Uzun atlama sırıklarıyla silahlanmış bu çevik savaşçılar, dağ arazilerinde rahatlıkla hareket edebilir ve hatta bazı duvarların üzerinden atlayabilir.#!"
-### TODO AGOT-CHANGED: teulu_flavor [AGOT: #F Sworn by ancient oaths, these Brythonic horsemen ride as their lord’s loyal spear and shield.#! | TR: #F Kadim yeminlerle bağlı bu Britonik atlılar, efendilerinin sadık mızrağı ve kalkanı olarak at sürer.#!]
- teulu_flavor: "#F Sworn by ancient oaths, these Brythonic horsemen ride as their lord’s loyal spear and shield.#!"
-### TODO AGOT-CHANGED: japanese_horse_archers_flavor [AGOT: #F Adopting the techniques of the northern Emishi but using heavier armor, samurai take to the saddle, yumi in hand, and harry their foes with arrows. | TR: #F Kuzeyli Emishilerin tekniklerini benimseyip daha ağır zırhlar kuşanan samuraylar, eyer üstüne çıkar ve elde yumi ile düşmanlarını oklarla hırpalar.]
- japanese_horse_archers_flavor: "#F Adopting the techniques of the northern Emishi but using heavier armor, samurai take to the saddle, yumi in hand, and harry their foes with arrows."
+ teulu_flavor: "#F Kadim yeminlerle bağlı bu Britonik atlılar, efendilerinin sadık mızrağı ve kalkanı olarak at sürer.#!"
+ japanese_horse_archers_flavor: "#F Kuzeyli Emishilerin tekniklerini benimseyip daha ağır zırhlar kuşanan samuraylar, eyer üstüne çıkar ve elde yumi ile düşmanlarını oklarla hırpalar."
  heavy_cavalry_lowercase:0 "ağır süvariler"
  archers_lowercase:0 "okçular"
  elephant_cavalry_lowercase:0 "savaş filleri"
  camel_cavalry_lowercase:0 "deve süvarileri"
  horse_archers_lowercase:0 "atlı okçular"
-### TODO AGOT-CHANGED: gunpowder_lowercase [AGOT: handgunners | TR: tüfekçiler]
- gunpowder_lowercase: "handgunners"
+ gunpowder_lowercase: "tüfekçiler"
  accolade_maa_archers:0 "Kapıkulu Okçusu"
  accolade_maa_archers_flavor:1 "[retinue_maa|E]\n#F Bu elit okçular ucuz avcılara benzemez. Hızlı ve isabetli bir şekilde ok yağdırmak için ara vermeksizin talim görürler.#!"
  accolade_maa_vanguards:0 "Kapıkulu Öncüsü"
@@ -216,23 +192,14 @@
  accolade_maa_crossbowers_flavor:1 "[retinue_maa|E]\n#F Ne şövalye ne saman adam, bu eğitimli arbaletçilerin demir okları önüne çıkan her şeyi delip geçer.#!"
  accolade_maa_horse_archers:0 "Kapıkulu Atlı Okçusu"
  accolade_maa_horse_archers_flavor:1 "[retinue_maa|E]\n#F Bozkır süvarileri tüm hayatlarını at üstünde geçirir, becerilerini geliştirir. Karşı koymak acı vericidir, kovalamak ise ölüm getirir.#!"
-### TODO AGOT-CHANGED: accolade_maa_handgunners [AGOT: Retinue Handgunners | TR: Kapıkulu Tüfekçisi]
- accolade_maa_handgunners: "Retinue Handgunners"
-### TODO AGOT-CHANGED: accolade_maa_handgunners_flavor [AGOT: [retinue_maa|E]\n#F Steadily advancing through the gunpowder smoke, these highly drilled handgunners can shatter the enemy ranks with their master-crafted guns.#! | TR: [retinue_maa|E]\n#F Barut dumanının içinden ağır ağır ilerleyen bu iyi talim görmüş tüfekçiler, usta işi silahlarıyla düşman saflarını paramparça edebilir.#!]
- accolade_maa_handgunners_flavor: "[retinue_maa|E]\n#F Steadily advancing through the gunpowder smoke, these highly drilled handgunners can shatter the enemy ranks with their master-crafted guns.#!"
-### TODO AGOT-CHANGED: torch_bearers [AGOT: Torch-Bearers | TR: Meşale Taşıyıcıları]
- torch_bearers: "Torch-Bearers"
+ accolade_maa_handgunners: "Kapıkulu Tüfekçisi"
+ accolade_maa_handgunners_flavor: "[retinue_maa|E]\n#F Barut dumanının içinden ağır ağır ilerleyen bu iyi talim görmüş tüfekçiler, usta işi silahlarıyla düşman saflarını paramparça edebilir.#!"
+ torch_bearers: "Meşale Taşıyıcıları"
 ### TODO AGOT-CHANGED: torch_bearers_flavor [AGOT: #F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every tent aflame.#! | TR: #F Sınırsız bozkırda mancınıklara ya da kuşatma kulelerine ihtiyaç yoktur, alevli bir meşale ve hızlı bir at, her çadırı tutuşturmaya yeter.#!]
  torch_bearers_flavor: "#F On the boundless steppe, there's no need for siege towers or catapults — just a blazing torch and a swift horse, enough to set every tent aflame.#!"
-### TODO AGOT-CHANGED: heavy_horse_archers [AGOT: Heavy Horse Archers | TR: Zırhlı Atlı Okçular]
-heavy_horse_archers: "Heavy Horse Archers"
-### TODO AGOT-CHANGED: heavy_horse_archers_flavor [AGOT: #F Armored riders carrying strong bows. As each leads a string of fine horses, these nomads can fight tirelessly on the open field.#! | TR: #F Zırhlı atlılar güçlü yaylar taşır. Her biri bir dizi seçkin atı peşinde sürüklediğinden, bu göçebeler açık arazide durmaksızın savaşabilir.#!]
-heavy_horse_archers_flavor: "#F Armored riders carrying strong bows. As each leads a string of fine horses, these nomads can fight tirelessly on the open field.#!"
-### TODO AGOT-CHANGED: nomad_lancers [AGOT: Nomad Lancers | TR: Göçebe Mızrakçılar]
-nomad_lancers: "Nomad Lancers"
-### TODO AGOT-CHANGED: nomad_lancers_flavor [AGOT: #F Hook-bearing lances and horsehair banners rise above this gleaming battle-line of elite, ferocious nomadic cavalry.#! | TR: #F Kancalı mızraklar ve at saçından yapılmış sancağıyla bu askerler seçkin ve yırtıcı göçebe süvarileri temsil eder.#!]
-nomad_lancers_flavor: "#F Hook-bearing lances and horsehair banners rise above this gleaming battle-line of elite, ferocious nomadic cavalry.#!"
-### TODO AGOT-CHANGED: cataphract_archers [AGOT: Cataphract Archers | TR: Katafrakt Okçular]
-cataphract_archers: "Cataphract Archers"
-### TODO AGOT-CHANGED: cataphract_archers_flavor [AGOT: #F Arrows and blades ping harmlessly off the lamellar coats of these horsemen and their steeds. Meanwhile, their bows deal death and misery.#! | TR: #F Bu süvarilerin ve onların atlarının pullu zırhına oklar ve kılıçlar işlemez. Yayları ölüm ve keder dağıtır.#!]
-cataphract_archers_flavor: "#F Arrows and blades ping harmlessly off the lamellar coats of these horsemen and their steeds. Meanwhile, their bows deal death and misery.#!"
+ heavy_horse_archers: "Zırhlı Atlı Okçular"
+ heavy_horse_archers_flavor: "#F Zırhlı atlılar güçlü yaylar taşır. Her biri bir dizi seçkin atı peşinde sürüklediğinden, bu göçebeler açık arazide durmaksızın savaşabilir.#!"
+ nomad_lancers: "Göçebe Mızrakçılar"
+ nomad_lancers_flavor: "#F Kancalı mızraklar ve at saçından yapılmış sancağıyla bu askerler seçkin ve yırtıcı göçebe süvarileri temsil eder.#!"
+ cataphract_archers: "Katafrakt Okçular"
+ cataphract_archers_flavor: "#F Bu süvarilerin ve onların atlarının pullu zırhına oklar ve kılıçlar işlemez. Yayları ölüm ve keder dağıtır.#!"
