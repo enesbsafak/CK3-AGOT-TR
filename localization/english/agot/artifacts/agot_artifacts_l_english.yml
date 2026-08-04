@@ -1,4 +1,4 @@
-﻿l_english:
+﻿﻿l_english:
 
  vs_adders_fang_name:0 "Engerek Dişi"
 
@@ -406,7 +406,7 @@
 
  maekar_mace_description:0 "Maekar Targaryen'in gençliğinde dövülen bu devasa dikenli topuz, ancak... tarafından düzgün kullanılabilir."
 
- hes_strong:0 "[GetTrait('strong').GetName( GetNullCharacter )], [GetTrait('physique_good_1').GetName( GetN... olmalıdır."
+ hes_strong:0 "[GetTrait('strong').GetName( GetNullCharacter )], [GetTrait('physique_good_1').GetName( GetNullCharacter )], [GetTrait('physique_good_2').GetName( GetNullCharacter )] veya [GetTrait('physique_good_3').GetName( GetNullCharacter )] olmalıdır."
 
  bobby_hammer_name:0 "Robert'in Savaş Çekici"
 
@@ -1462,7 +1462,7 @@
 
  agot_artifact_dragon_skull_past_rider:0 "Hayattayken, [ROOT.Var('rider').Char.GetName] bu ejderhayı [ROOT.Var('dragon').Char.GetHerHis] olarak sahiplendi..."
 
- agot_artifact_dragon_skull_famous_past_rider:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip], [ROOT.Var('famous_rider').Char.Get... tarafından ünlü biçimde bindi."
+ agot_artifact_dragon_skull_famous_past_rider:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip], [ROOT.Var('famous_rider').Char.GetNameNicknamed] tarafından ünlü biçimde bindi."
 
  agot_artifact_dragon_skull_wall_ornament:0 "Boş gözlerinin altından geçen herkesin üzerine, sanki hâlâ izliyormuş gibi bakar."
 
@@ -1472,7 +1472,7 @@
 
  agot_artifact_dragon_horn_old_valyria:0 "Bu cehennem borusu, eski Valyria'nın bir ejderhasının kalıntılarından dövüldü."
 
- agot_artifact_dragon_horn_after_doom:0 "Bu cehennem borusu, [ROOT.Var('dragon').Char.GetName] ejderhasının kalıntılarından [ROOT.V... tarafından dövüldü."
+ agot_artifact_dragon_horn_after_doom:0 "Bu cehennem borusu, [ROOT.Var('dragon').Char.GetName] ejderhasının kalıntılarından [ROOT.Var('creator').Char.GetName] tarafından dövüldü."
 
  agot_dragonbinder:0 "Ejderha Çağıran"
 
@@ -1720,9 +1720,9 @@
 
  horn_of_herrock_name:0 "Herrock'un Boynuzu"
 
- horn_of_herrock_desc:0 "Bükülmüş ve altınla bantlanmış büyük, siyah bir boynuz. Efsaneye göre [GetScriptedCharacterByHistoryID('K..."
+ horn_of_herrock_desc:0 "Bükülmüş ve altınla bantlanmış büyük, siyah bir boynuz. Efsaneye göre [GetScriptedCharacterByHistoryID('KenningK_4').GetFirstNameNicknamed], kasabanın fahişelerinin bir arka kapı açması için [GetTitleByKey('c_kayce').GetNameNoTier] surlarının dışında üflemiş; böylece adamlarıyla şehri [GetDynastyByID('dynn_Lannister').GetName] Hanesi için ele geçirmiş."
 
- horn_of_herrock_valid:0 "[GetDynastyHouseByID('house_KenningK').GetName] Hanesi'nin bir üyesi olmalı ve [Ge... ilçesine sahip olmalısın."
+ horn_of_herrock_valid:0 "[GetDynastyHouseByID('house_KenningK').GetName] Hanesi'nin bir üyesi olmalı ve [GetTitleByKey('c_kayce').GetNameNoTier] ilçesine [realm_capital|E] olarak sahip olmalısın."
 
  soul_of_harrenhal_name:0 "Harrenhal'ın Ruhu"
 
@@ -1744,7 +1744,7 @@
 
  agot_artifact_link_name:0 "[owner.Custom('GetLinkType')] Halkası"
 
- agot_artifact_link_desc:0 "[owner.GetShortUIName|U] bu halkayı [maester.Custom('MaesterCheck')] [maester.Get... yanında çalışarak kazandı."
+ agot_artifact_link_desc:0 "[owner.GetShortUIName|U] bu halkayı [maester.Custom('MaesterCheck')] [maester.GetName] [owner.Custom('GetLinkArtifactDescription')] yanında çalışarak kazandı."
 
  agot_artifact_link_desc_no_maester:0 "[owner.GetShortUIName|U] bu halkayı [owner.Custom('GetLinkArtifactDescription')] kazanarak elde etti."
 
@@ -1914,15 +1914,15 @@
 
  agot_artifact_archmaester_mask_name:0 "$artifact_archmaester_mask$: [owner.Custom('GetSpecialtyMetal')|U]"
 
- agot_artifact_archmaester_mask_desc:0 "Kalenin bir $archmaester$'ının taktığı tören maskesi. Bu $archmaester$, [owner... uzmanlaşmıştır."
+ agot_artifact_archmaester_mask_desc:0 "Kalenin bir $archmaester$'sinin taktığı tören maskesi. Bu $archmaester$, [owner.Custom('GetSpecialtyFieldLower')|l] konusunda uzmanlaşmıştır."
 
  agot_artifact_archmaester_ring_name:0 "$artifact_archmaester_ring$: [owner.Custom('GetSpecialtyMetal')|U]"
 
- agot_artifact_archmaester_ring_desc:0 "Kalenin bir $archmaester$'ının taktığı tören yüzüğü. Bu $archmaester$, [owner... uzmanlaşmıştır."
+ agot_artifact_archmaester_ring_desc:0 "Kalenin bir $archmaester$'sinin taktığı tören yüzüğü. Bu $archmaester$, [owner.Custom('GetSpecialtyFieldLower')|l] konusunda uzmanlaşmıştır."
 
  agot_artifact_archmaester_rod_name:0 "$artifact_archmaester_rod$: [owner.Custom('GetSpecialtyMetal')|U]"
 
- agot_artifact_archmaester_rod_desc:0 "Kalenin bir $archmaester$'ının taşıdığı tören asası. Bu $archmaester$, [owne... uzmanlaşmıştır."
+ agot_artifact_archmaester_rod_desc:0 "Kalenin bir $archmaester$'sinin taşıdığı tören asası. Bu $archmaester$, [owner.Custom('GetSpecialtyFieldLower')|l] konusunda uzmanlaşmıştır."
 
  agot_maester_specialty_black_iron:0 "Kuzgunculuk"
 
